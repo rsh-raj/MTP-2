@@ -1,0 +1,1918 @@
+Hash,Date,Author,Message,IsMerge
+7012040fec926e16fe8f6c403cf038527f5c18b9,2023-06-07 16:49:59,Eulentier161,fix: fixed i18n prgress typo (#1505),False
+dd6e01b91d90ea0a5fca3270fa967987087e3081,2023-05-22 21:35:47,陈佳,chore: increase the default sharing settings to improve the availability of the network (#1496),False
+f19a637a4b578d59079edd4f98eb9db82354a0f5,2023-05-20 18:31:54,Dr_rOot,"Merge pull request #1495 from agalwood/hotfix/proxy_scope_20230520
+
+feat: setup proxy with scope",True
+fff378d99c18e8f4cfb16d6b3d42a4bea82496da,2023-05-20 17:44:45,Dr_rOot,fix: clear-text logging of sensitive information,False
+0fde4467e8cf880d93b4112592471f630886876c,2023-05-20 16:14:19,Dr_rOot,chore: i18n update update tracker,False
+f2e8ce241b3892688d56001619df40686198f10b,2023-05-20 16:14:04,Dr_rOot,chore: i18n remove useless speed units,False
+6644fed425f774d28176ef19bbb24b7481b3a5a9,2023-05-20 16:00:32,Dr_rOot,chore: revert tracker cdn url to cdn.jsdelivr.net,False
+cd7ab8999f9580d0ec65bb6bf800d2f6944834c7,2023-05-20 15:59:43,Dr_rOot,chore: i18n proxy scope,False
+ecbe7f40c36caf1986a6a2ad30474022d9c25a6e,2023-05-20 15:59:13,Dr_rOot,feat: setup proxy with scopes,False
+ff808dc46296dabf7e08c984a49ce957e48db8d3,2023-05-20 15:57:09,Dr_rOot,refactor: code improve,False
+4d7922f112eb0d787871b53707e9d1fc8cc66087,2023-05-20 15:52:10,Dr_rOot,refactor: rename factory-reset command,False
+bd1547cd0b85c8a3017f5b601a1937a33835cfd9,2023-05-20 06:06:21,Dr_rOot,Merge pull request #1494 from agalwood/feature/task_file_filter_20230519,True
+e579146260eb5de4d4b2347df172ef811ac011a5,2023-05-19 21:01:35,Dr_rOot,fix: select dropdown dark style,False
+9d18333a9396778b7ea6623692d8284605dbf962,2023-05-19 21:00:04,Dr_rOot,feat: adjust task dialog top when show advanced,False
+5daece6dab69abd3cf3d87e05775a6179d9ecc66,2023-05-19 20:56:31,Dr_rOot,feat: task file filter add document extensions,False
+8bfb7d906e4f1040839da9ac6220c082febba4c5,2023-05-13 11:43:50,Dr_rOot,chore: adjust icon template and size (#1486),False
+f4ece13cebc57027887677518fae081b70a08a1d,2023-05-11 20:09:48,Dr_rOot,"Merge pull request #1485 from agalwood/hotfix/portable_20230511
+
+fix: move some config files to make the target really portable",True
+763ea6ee7a00a25cae880bfdbef27428f2ed0143,2023-05-11 19:23:58,Dr_rOot,chore: update deps,False
+cc27cb3459121defd315fac4479c08821f8ad0ca,2023-05-11 19:10:07,Dr_rOot,refactor: convert to arrow function,False
+b8c57df4f52fed0e1ab351204c7ad70a2864999d,2023-05-11 19:09:35,Dr_rOot,refactor: portable config file base dir,False
+e6765380bc99564fcfc60b4b572de44eff234c76,2023-05-09 19:54:39,Dr_rOot,fix: increase the rpc secret length limit to 64 (#1482),False
+0172a003d350eb8fb904dd0364bfd9a419fc9698,2023-05-07 19:50:49,Dr_rOot,"Merge pull request #1480 from agalwood/feature/task_detail_20230506
+
+feat: protocol add motrix://reveal-in-folder",True
+ef2b3a04b2432d22e6642a51cd812048af75b242,2023-05-07 18:55:45,Dr_rOot,refactor: show item in folder util,False
+75f5760b330364260ad4d9a2f5dbaae4e6108748,2023-05-06 15:46:14,Dr_rOot,chore: update deps,False
+1f033d1e47184e64d9d6158e5fa0631ef284e091,2023-05-06 15:46:05,Dr_rOot,refactor: code format,False
+458e21479bae185374ecc950bbcf90044cdce277,2023-05-06 15:39:29,Dr_rOot,feat: motrix://reveal-in-folder,False
+46e5324ae60f481959226eeb2f1cd36e6f5c86ec,2023-05-06 15:36:49,Dr_rOot,refactor: system config rpc listen port,False
+de8996b3b34ccb22acd7df211d6652063386ba28,2023-05-06 15:31:31,Dr_rOot,feat: show task gid on task detail general,False
+1f83848358421e0fc169c145c2db4a7f6ceadd9d,2023-05-05 15:44:32,Dr_rOot,fix: object has been destroyed,False
+69d3ade3050e94ba4ef51e035de4f2caacc7371b,2023-05-03 13:50:33,Dr_rOot,docs: readme macOS add Motrix Install Assistant,False
+a0a1fe90f7e9f6d305ed2b512f62c8d36c2fb95a,2023-05-03 12:14:33,Dr_rOot,chore: update yarn lock & bump version to 1.8.18,False
+553bf80960814fcd53b5e2e09d3fa7bc47ee4908,2023-05-03 11:20:33,Dr_rOot,chore: bump version to 1.8.18,False
+04446b582eddbb9fa696ddf17ba443d218228800,2023-05-03 11:19:14,Dr_rOot,"Merge pull request #1472 from agalwood/hotfix/bt_auto_download_20230503
+
+fix: btAutoDownloadContent boolean is inverted",True
+f10f4a2588ac04595bc2883d1749ea784e171616,2023-05-03 11:16:07,Dr_rOot,fix: btAutoDownloadContent boolean is inverted,False
+513f566a59a54fb9defd20ad813fb08f6984a90b,2023-05-02 15:38:49,Dr_rOot,chore: bump version to 1.8.17,False
+f49f083044cb7654b48f6264a752ab30d1cde6ea,2023-05-02 15:36:44,Dr_rOot,fix: update-downloaded set progress bar value to 1,False
+830bc9336ec7f02b06e348f46f3afcc8d593b582,2023-05-02 15:05:14,Dr_rOot,chore: bump version to 1.8.16,False
+3b049219e4e2dc93f227602d2130ea69cfcc780e,2023-05-02 15:03:51,Dr_rOot,chore: update deps,False
+bbc68b6a8aac09f25fdb8f1765763b16df07c3ad,2023-05-02 15:03:22,Dr_rOot,chore: github action remove notarization api key,False
+0afc01080da04492498d939c55f24e5cb76abfcb,2023-04-29 08:56:26,Dr_rOot,fix: preference save relaunch application twice,False
+af1cc4db8e135a102e93b80853e3de4eae288c95,2023-04-28 20:24:29,Dr_rOot,chore: bump version to 1.8.15,False
+8defa9ee7177153eff1e021d4fdeec7d2196ea08,2023-04-28 20:21:56,Dr_rOot,"Merge pull request #1466 from agalwood/hotfix/aria2_x64_20230428
+
+fix: rebuild darwin x64 aria2c bin",True
+cb6d9f2b20c5f3d2dcfc9b61b98e552448900bba,2023-04-28 20:20:01,Dr_rOot,chore: change node mini version to 16,False
+9f6c31ffa36dec86a1c2b6c15e50f5c94ac52e71,2023-04-28 20:19:10,Dr_rOot,fix: rebuild darwin x64 aria2c bin,False
+0b3161ca6fb58daece0d3542766cb5e1dc4222bd,2023-04-28 20:09:06,greenhandzdl,"docs: fix yay install script (#1465)
+
+* Fix Doc",False
+c79bdff4b83c279e788c162990fec56e63ff5dbd,2023-04-28 16:15:00,Dr_rOot,"Merge pull request #1464 from agalwood/hotfix/aria2_arm64_20230428
+
+fix: rebuild arm64 aria2c bin",True
+b92957668b0a36f4b708374cd3bbb1546cf78a93,2023-04-28 15:49:57,Dr_rOot,chore: update deps,False
+b1b52e2640dd73e45ae181b81c8984374ba200a3,2023-04-28 15:46:01,Dr_rOot,fix: rebuild arm64 aria2c bin,False
+a39fa2979c08fcf94c9ecb5b27934327a3195037,2023-04-27 15:19:04,Dr_rOot,chore: bump version to 1.8.14,False
+e0a74f797942f4352c815e7bbc591982f16a604c,2023-04-27 15:17:59,Dr_rOot,fix: selected task item border color in dark mode,False
+a7b833371038c205bb17c3ca67fc1328680306f3,2023-04-27 14:38:14,Dr_rOot,chore: bump version to 1.8.13,False
+77850da0fe4e87a0ae3ebd66dfb19a93287f8723,2023-04-27 14:36:53,Dr_rOot,"Merge pull request #1455 from agalwood/hotfix/auto_update_20230427
+
+fix: app auto update failed",True
+71f4eeeb25a9b561576aa5a9fe23719b2367a067,2023-04-27 14:21:28,Dr_rOot,chore: change app update generic url,False
+e5eace479d709d869920f357e322eb25bca5da37,2023-04-27 14:21:06,Dr_rOot,fix: handle auto updater update canceled event,False
+7e927fea105d92ed7b76786a45e3af32ec039d9b,2023-04-27 08:41:34,Dr_rOot,chore: bump version to 1.8.12,False
+38cd952b44afc23237840702b7ebc102d111afac,2023-04-27 08:40:23,Dr_rOot,"Merge pull request #1453 from agalwood/hotfix/stop_engine_20230427
+
+fix: stop engine failed when app quit",True
+b07fedeba01b313f8ce55c236f9ce4093854d844,2023-04-27 08:24:38,Dr_rOot,chore: electron build mac target add universal,False
+2bbaae5d7d5ebd29cefdf2e15e1f0a05989c74c6,2023-04-27 08:23:27,Dr_rOot,feat: preference advanced add log level setting,False
+003e9ffccba0e83b57d69b2c0512283daa3cf84c,2023-04-27 07:53:08,Dr_rOot,fix: stop engine failed when app quit,False
+7a51dbaf5e623019179a6a3cf9cad47370640a2a,2023-04-27 05:30:07,Dr_rOot,chore: update bug report issue template,False
+4fa4878e61b02d791fe26a33c5473e82d76c68df,2023-04-26 18:44:33,Dr_rOot,fix: appx for ms store & bump version to 1.8.11,False
+daa04d995ef8c467f2a520b5f3232496f142eb7d,2023-04-26 18:29:50,Dr_rOot,fix: publisher for ms store & bump version to 1.8.10,False
+74e4bce6bff512952c44d3edb54600932c6f7710,2023-04-26 18:25:29,Dr_rOot,fix: identity for ms store & bump version to 1.8.9,False
+a0aa100a99988f627acb54e51d9de6f6b10c4a82,2023-04-26 17:38:53,Dr_rOot,fix: author for ms store & bump version to 1.8.8,False
+4c3b248cc0b1eb42c6dd566c421675795fc7751a,2023-04-26 16:29:56,Dr_rOot,chore: bump version to 1.8.7,False
+96d525832fcd5d5301889bd327ec01e1f077bc6f,2023-04-26 16:29:34,Dr_rOot,fix: github action SNAPCRAFT_STORE_CREDENTIALS,False
+9255c95eccc0ae61d31fc47156d6a711ff4992f8,2023-04-26 16:01:00,Dr_rOot,chore: bump version to 1.8.6,False
+e117d5925a0859b2028a5d8f96ef3a39ac8f011d,2023-04-26 15:59:35,Dr_rOot,fix: notarize apple id password,False
+6a5d7637c234d6962e3516549b9a3542248936e5,2023-04-26 15:52:19,Dr_rOot,chore: bump version to 1.8.5,False
+93e8bdff00a6eef5a829019dad55b7418fec0cc5,2023-04-26 15:51:55,Dr_rOot,chore: notarize tool,False
+a82afbf97b7d72c36b31e091702ff2e6dc144021,2023-04-26 15:18:52,Dr_rOot,chore: bump version to 1.8.4,False
+e1363d3fe2bac71c53d1bd55026687bf8ff62075,2023-04-26 15:18:43,Dr_rOot,fix: electron build notarization tool,False
+1338861dc3077f70e886c51ef2d8665879751db8,2023-04-26 15:04:32,Dr_rOot,chore: bump version to 1.8.3,False
+b9068559e286c3229dd7f492eb32842b515ef7e1,2023-04-26 15:04:07,Dr_rOot,refactor: electron build notarization,False
+b7ed072966dab64801a797c1962046bdc56eb701,2023-04-26 14:26:36,Dr_rOot,chore: bump version to 1.8.2,False
+e281b71d4e3c451bf90f5f96ec79801406ec6ff9,2023-04-26 14:26:21,Dr_rOot,refactor: github electron build action,False
+67d26e4b1ffb10e0cb59f82f44b57f2efccaa2db,2023-04-26 13:31:41,Dr_rOot,chore: bump version to 1.8.1,False
+1b27980992ad16a0b571cfb7a0e6fa845131502d,2023-04-26 12:34:08,Dr_rOot,"Merge pull request #1445 from agalwood/feature/show_progess_bar_20230426
+
+feat: preference basic show progress bar",True
+292ad1515293b3eccbd8801b6543957a59c697af,2023-04-26 10:57:39,Dr_rOot,chore: update deps,False
+df1b30d6f404189bf801c94dcb3c20fd220286c1,2023-04-26 10:57:31,Dr_rOot,chore: sign darwin aria2c bin,False
+0d3aa86d31cdef18c85bdd4f94cc059306984d50,2023-04-26 10:57:04,Dr_rOot,chore: i18n show progress bar,False
+a07f81e20cfca9a3a417a43672e5a4a40e64a845,2023-04-26 10:56:47,Dr_rOot,feat: preference basic show progress bar,False
+61365d738c825f1f964ba1617c2103d674b808ad,2023-04-26 08:23:17,Dr_rOot,chore: lint fix after sign hook js,False
+33f13b51b075e8fa97197e1af88d2d12300cd367,2023-04-25 09:05:07,Dr_rOot,fix: electron builder win targets artifact name,False
+2bda3b40eb7f74b426a86cd69dfe38004aa54798,2023-04-24 18:44:20,Dr_rOot,fix: github action snapcraft token env (#1441),False
+e456ba660b89818f83fe407724ca28a0364f5ac7,2023-04-23 17:11:57,Dr_rOot,Merge pull request #1440 from agalwood/feature/aria2_conf_path_20230423,True
+342b2b2069066d573cba4da9a945c936b1925e49,2023-04-23 15:47:55,Dr_rOot,chore: aria2 max-overall-upload-limit default 0,False
+91697aee428c4b5ad67ead4e2923fec5b419a747,2023-04-23 15:47:03,Dr_rOot,chore: i18n aria2 conf path,False
+f4e56ca4b7d378b9b0d1fb3d19256f0d3d221033,2023-04-23 15:46:44,Dr_rOot,feat: preference advanced show aria2 conf path,False
+363cef2959452b2c8651903b75fecb62e4f5dceb,2023-04-21 18:49:57,Dr_rOot,"Merge pull request #1439 from agalwood/feature/appx_20230421
+
+feat: build output add windows appx",True
+e938f3037780f73c41b29e434fbf2326323aa1d1,2023-04-21 18:32:24,Dr_rOot,chore: rename appId avoid linux .desktop,False
+ed622ade1f6b8c74bf47c22644e59012fbabae84,2023-04-21 18:31:13,Dr_rOot,chore: build output add windows appx,False
+06f0ccf2e56bcabd21570dcff064afd954bb1d30,2023-04-19 19:25:15,Dr_rOot,"Merge pull request #1436 from agalwood/feature/rpc_listen_port_20230419
+
+feat: preference advanced config rpc listen port",True
+6885da1b86c9058ed85c16c9bcd1f28e88e755c3,2023-04-19 15:44:42,Dr_rOot,feat: linux build add mime types,False
+3ffce0566b6a3526c5b28b4d2bfecd5e0e240b10,2023-04-19 15:44:16,Dr_rOot,feat: task detail files show completed percent,False
+a215df036040d9aed206299e4a620f8a1c14dc7b,2023-04-19 15:43:22,Dr_rOot,feat: preference advanced config rpc listen port,False
+6bea4322c18f6072eec32fbf326ca1419ac30c1e,2023-04-18 08:15:52,Dr_rOot,chore: upgrade electron builder action (#1435),False
+493df2b333f55db31a7cac827ea52dc4328d5d75,2023-04-17 19:01:08,Dr_rOot,"feat: release support arm arch linux (#1434)
+
+* feat: release support arm arch linux
+
+Aria2 build:
+https://github.com/motrixapp/Aria2-Pro-Core/tree/build_for_motrix
+
+* chore: update github action yml
+
+* chore: revert github action ubuntu-arm64",False
+73c5a6790a24ef897b2f6ee8aed845fe672f4ffc,2023-04-17 08:59:46,Chiao-Wei Wang,"feat: Add cURL support for convenient download with cookie/referer information (#1430)
+
+* Add CURL support
+
+* Fix GET request parameters problem
+
+* Add AppleSilicon build command
+
+* Use patched curl-to-json
+
+* Add AppleSilicon building instruction on README
+
+* Update curl-to-json to get rid of warnings
+
+* fix: cannot correctly parse curl -b option
+
+* fix: curl cannot use -A -e options
+
+* fix: update curl-to-json to patch
+
+* chore: update curl-to-json to v1.2.7
+
+* Use --arm64 instead of --universal for build::applesilicon",False
+644966e4386f3a59a87d08f28a1c110b622038f6,2023-04-15 19:20:57,Dr_rOot,feat: app menu add task list and bind hotkey,False
+af6e0f33c0188cd8bbd9106445a0af33eda36d86,2023-04-15 08:41:45,Chiao-Wei Wang,"fix: bug regarding cookie/referer (#1428)
+
+When cookie/referer are set at the same time, aria2 failed to parse the cookie/referer arguments.",False
+81656a2cd02cb3ddd98ab947bfd5ace34ed5d0a9,2023-04-13 12:50:22,Dr_rOot,"Merge pull request #1427 from agalwood/feature/dir_history_20230412
+
+feat: choose dir from history directory",True
+74b9f465a1f6176ea1eade06fe3329d3d0fb5a6c,2023-04-13 12:14:17,Dr_rOot,fix: update nat-api to fix xml2js vulnerability,False
+92177a2c4b69ed7725a286b9a31cd02555b432e2,2023-04-13 10:19:25,Dr_rOot,feat: choose dir from history directory,False
+bc0114a164fa88bfa896482e4632ef92fb445785,2023-04-13 10:12:24,Dr_rOot,refactor: tracker utils,False
+ff918c916cadaad3ef7311bd5777e5189e18dc02,2023-04-13 09:54:49,Dr_rOot,refactor: text direction,False
+d81c0bbb9a5f44dfa421f3e5424a77232bfc2cab,2023-04-13 09:53:04,Dr_rOot,chore: update git ignore,False
+b240029a47199908e6da3f49dc93aa1cef23b257,2023-04-12 17:22:50,Dr_rOot,refactor: parseHeader replace substr to substring,False
+ba887bcc2b25842f05a846c26fe62fd217cc4829,2023-04-12 12:10:01,Dr_rOot,fix: directory history props,False
+1d90231ebd4ea5650e1c0c430f2ff0ff9fea6026,2023-04-12 08:51:07,Dr_rOot,feat: add task dir history,False
+39d92907e9683bd748c602e7bf1946ea963b45bd,2023-04-12 07:21:33,Dr_rOot,"Merge pull request #1426 from agalwood/hotfix/linux_rendering_bug_20230410
+
+fix: BrowserWindow rendering bug under linux",True
+4272a53f69e91a7033203c470e27e5c8eda01dd7,2023-04-11 09:32:06,Dr_rOot,"fix: preference basic need confirm but not changed
+
+The modified preferences will be lost, are you sure you want to leave?",False
+0bbe980d4884233667674c18ab34394dc699d9bc,2023-04-10 18:54:23,Dr_rOot,chore: declare node version >= 18,False
+d2017a6c256685526df1a95c90ab83165d0b623b,2023-04-10 15:53:37,Dr_rOot,fix: BrowserWindow rendering bug under linux,False
+e3da125cc774fc54c00173e5566dba06b89385e1,2023-04-09 19:13:04,Dr_rOot,"refactor: update some aria2 default conf (#1425)
+
+* chore: update deps
+
+* chore: update axios
+
+* chore: update default aria2 config
+
+Some configurations are learned from
+https://github.com/P3TERX/aria2.conf
+
+* feat: preferences basic add bt-force-encryption ui",False
+41a81e7793351a0f324b5d167dc4502eebc03057,2023-04-09 18:42:19,Shatyuka,feat: add taskbar progress (#1424),False
+11c08b0dc26270da593b4c713a43515544fc5780,2023-04-06 08:14:55,Dr_rOot,chore: update new cn bug report issue template,False
+dbc95965aa6da3c6eab463d63f129b7d79f2cebd,2023-04-06 07:46:18,Imamuzzaki Abu Salam,chore: Create New Bug Report Issue Template to prevent bad contributor experience,False
+26b5662c825886317c7a766f0ec4352b9ae58c2e,2023-04-05 12:54:28,Dr_rOot,refactor: adjust the style of the speed limit,False
+bb37d4f328360f709fa30516985cf2fc9a46d22a,2023-04-05 11:53:01,Dr_rOot,"Merge branch 'l10n-tw-master'
+chore: improve zh-TW localization quality",True
+b355bcf623f64b9b6f1824ef84c6a02c7f2bf5bd,2023-04-05 11:52:13,Dr_rOot,"Merge branch 'master' of github.com:l10n-tw/Motrix into l10n-tw-master
+
+# Conflicts:
+#	src/shared/locales/zh-TW/preferences.js",True
+9076ec08f85f28ccb94fc4b4f01923773e67aad3,2023-04-04 21:25:11,Dr_rOot,"chore: update pt-BR task stopped translate
+
+closed #1045",False
+65794cabab49516df344717444d6c09b83cdc4c2,2023-04-04 21:12:43,Dr_rOot,"Merge pull request #1420 from agalwood/hotfix/mac_dmg_20230401
+
+fix: electron-builder build mac dmg",True
+e3f506ec0c6196add65ac9b39516492e5ce34121,2023-04-04 21:10:14,Dr_rOot,fix: electron-builder dmg build fail,False
+70e7c99ff96c694744f701f949e1a3bc9ec8d1d2,2023-04-04 21:09:57,Dr_rOot,"refactor: move dependencies to devDependencies
+
+Reduce the final size of the app release",False
+bc6651164799a6fbaffe062a350e1c839c6b7bdd,2023-04-04 21:04:57,Dr_rOot,refactor: remove electron-debug,False
+002ef830dd83c8ecc5f0dbec24a82a8ee8c42cea,2023-04-04 20:59:15,Dr_rOot,fix: addTask autofillResourceLink this error,False
+06ffe6bd8754225305d5079a6830db74543854af,2023-04-04 20:53:32,Shatyuka,feat: lock AddTask dialog (#1416),False
+ecf59583d6c1e02d38a2cff60148ced07bb08042,2023-04-04 17:07:56,Sammy,fix: add nullcheck for legacy speed settings (#1417),False
+7201f17aed174e883317f14e16fc0e4a4c5083af,2023-04-03 08:27:51,Sammy,feat: Allow more customization for transfer speeds (#1413),False
+b4df97b4714846078630c33f05060a0385a8f132,2023-04-01 20:04:08,Dr_rOot,fix: hide tray not show when run mode changed,False
+5ea19eb441a030d508af933df186f2aa0e64d88a,2023-04-01 15:21:02,Dr_rOot,"Merge pull request #1412 from agalwood/feature/hide_tray_20230401
+
+feat: hide tray application",True
+8857290a0a6a6a912c63711e928d8140ec9e7ac1,2023-04-01 14:56:53,Dr_rOot,chore: update deps & bump version to 1.8.0,False
+1dec09b0055accdf095edd68aa497eb05c8f774c,2023-04-01 14:43:16,Dr_rOot,feature: refactor run mode add  hide tray,False
+d67ba74b4486486fc293935ec993f7c779d24edb,2023-04-01 14:41:58,Dr_rOot,refactor: application init,False
+696d5c7f020ed1af3a313a130922c4a3a66d9b9f,2023-04-01 13:47:21,Dr_rOot,docs: update translation guide locales,False
+106410cb23c42d4cbd89e655ea8881c7ad9bd2d1,2023-04-01 13:06:29,Dr_rOot,docs: update lost nl locale,False
+237df6011ee123399eea4f8c93448bf771dd697b,2023-04-01 13:06:10,Dr_rOot,chore: update task authorization i18n,False
+20dbeb33ac6228e2b129f2e9b4b4b03daa0b3d54,2023-03-31 18:27:07,Dr_rOot,refactor: mock ua,False
+55e2a42f3d127fcffc8e6c54f55f5bf896d8c411,2023-03-31 17:38:19,Dr_rOot,"chore: upgrade aria2 version to 1.36 (#1411)
+
+* chore: update build scripts
+
+* fix: setup protocols client empty error
+
+* refactor: auto change theme
+
+* refactor: engine max connection per server
+
+* refactor: adjust add task dialog style
+
+* refactor: aria2 client lib import
+
+* chore: update deps
+
+* chore: striped darwin arm64 aria2c bin
+
+* chore: strip darwin engine x64 aria2c bin
+
+* chore: upgrade linux engine arai2c bin to 1.36
+
+* chore: upgrade windows engine arai2c bin to 1.36",False
+637d5e9a80a7f6aea5087586d79a730a9662b49b,2023-03-29 19:33:01,Dr_rOot,"Merge pull request #1408 from agalwood/hotfix/some_url_fix_20230328
+
+fix: some fix",True
+9867c578dcbcd9c7ccd0a3befcc5f411a170ac02,2023-03-29 18:52:45,Dr_rOot,chore: i18n update stop seeding tip,False
+a8bac652d1567a18165c17e3afd897abddeb3031,2023-03-29 18:51:15,Dr_rOot,chore: bump @motrix/nat-api version,False
+7d0a94ee3733d6af20499faf5a2b84fd312de006,2023-03-29 09:24:11,Dr_rOot,chore: change notarize deps,False
+0276c8e5b4a9d2eb308392515fac5f7ef3da5d7c,2023-03-29 09:23:25,Dr_rOot,refactor: simplified upnp mapping fail log,False
+e93d6a2c928e22d3bea24ed39583bc22847c6cdd,2023-03-29 08:18:33,RaymondSalim,"feat: add http authorization header (#1263)
+
+Co-authored-by: Dr_rOot <agalwood.net@gmail.com>",False
+8743e8a025e69aca02391fc7972c582d6768531d,2023-03-28 10:51:58,Dr_rOot,chore: change jsdelivr cdn url,False
+680fdac38b02a5e2bb2aedcadcdd024e274e737d,2023-03-28 10:51:32,Dr_rOot,refactor: dock manager,False
+e06850b5a21f9682c4fe0ea2045d7feedeafc278,2023-03-28 10:50:55,Dr_rOot,chore: update Transmission mock version,False
+038511fed4213880b6f42b99c92713ebeff1dc52,2023-03-27 19:40:44,Dr_rOot,fix: github actions mac skip notarize,False
+6b2deb83035bf318ea01f326b3fcc50b26dc7ab9,2023-03-27 19:12:07,Dr_rOot,"fix: engine aria2 bin path 20230327 (#1405)
+
+* fix: engine aria2 bin
+
+* chore: upgrade github actions release node version
+
+* chore: github actions skip notarization if not tag",False
+a8846eaf9228d33d4bf7f2ed3d5f5258c69889b5,2023-03-27 18:49:56,Dr_rOot,"fix: update deps 20230324 (#1404)
+
+* refactor: i18n thai language
+
+* chore: rename renderer app name
+
+* refactor: remove svg-innerhtml import
+
+* refactor: update deps
+
+* fix: protocol config save error
+
+* fix: arch engine path copy
+
+* chore: build arm64 arch aria2 v1.36.0",False
+6039a8944163ed36470d6ecb281990296d673e63,2023-03-24 19:18:25,Dr_rOot,"Merge pull request #1056 from 149segolte/update-windows-aria2-executables
+
+Update Windows aria2 executables per architecture",True
+2bfab8b9c8d14fd9eea53e6dc76990ae44bb8a0d,2023-03-24 19:10:44,Nesaku,fix: Improve English Translations (#1367),False
+e6c533e13996cf105364656377d46b8ec79e0a69,2023-03-24 19:10:14,Esteban Zapata,fix: spanish translation (#1361),False
+1c2fd0de053b78fa9476e7433d0ee095044e6dab,2023-03-24 19:08:49,MagicLike,"fix: German translation (#1302)
+
+- Fixed German translations for ""preferences"", ""theme-auto"", ""thunder"" & ""auto-check-update""",False
+a91af1032c98b12f9f8b5556af1e531bbc6389e3,2023-03-24 19:08:20,Minseo Lee,"fix: Update Korean translation (#1290)
+
+* Update about.js
+
+* Update app.js
+
+* Update edit.js
+
+* Update help.js
+
+* Update menu.js
+
+* Update preferences.js
+
+* Update app.js
+
+* Update preferences.js
+
+* Update task.js
+
+* Update window.js
+
+* Update task.js
+
+* Update preferences.js
+
+* Update app.js
+
+* Update preferences.js
+
+* Update preferences.js
+
+* Update task.js",False
+c80102c5f56fd0d9c95a9ff0b6d9344105235499,2023-03-24 19:06:26,CDzungx,"refactor: Small Vietnamese translation update (#1162)
+
+* refactor: Small Vietnamese translation fix
+
+* Update edit.js
+
+* Update task.js",False
+ff312df849f87e140b9410eba5a4613bf21e4fa4,2023-03-24 19:05:56,Non-Official NPM Mirror Bot,"docs: update taobao npm registry address (#1155)
+
+Co-authored-by: NPM Mirror Bot <npmmirror@localhost>",False
+65bf25dc1a7652fa0fa86862035b06e8ba610c5d,2023-03-24 19:02:19,Nawapon Boonjua,feat: Translated to Thai Language (#1046),False
+6f35e64c2ac17f6770faa5647b011289758b73af,2022-04-08 20:41:21,toto6038,chore(l10n): Improve zh-tw localization quality,False
+4c5bba89ef7ed9175071767fd4f30fee890a8653,2022-02-13 20:07:37,SiderealArt,chore: update zh-TW translation (#1107),False
+51b1be7bbc85f0df9206a0d6e571a95b22e2a2a7,2021-12-02 13:20:49,Nick Bouwhuis,"feat: add Dutch language translations (#1104)
+
+* add Dutch language translations
+
+* fix typo
+
+* add 'nl' to `src/shared/locales/app.js` and `src/shared/locales/all.js`
+
+* fix indenting
+
+Co-authored-by: Nick Bouwhuis <nick@bouwhuis.io>
+Co-authored-by: Nick Bouwhuis <n.bouwhuis@speakup.nl>",False
+1bf594b369dd7e3dba0b7b7f5bc6a98adee2c56d,2021-12-01 08:08:25,Dr_rOot,"Merge pull request #1097 from tso1158687/chinese-traditional
+
+refactor: adjust chinese traditional translation",True
+de1db5687b497077b4c8c9940365603e59f001d8,2021-12-01 08:08:09,Dr_rOot,"fix: add session-reset & session-reset-confirm to de language (#1103)
+
+fix: add session-reset & session-reset-confirm to de language",True
+98580fc094b5d05c1efdeb3ba5e12ca7b7dc695e,2021-12-01 08:06:08,Dr_rOot,"Merge pull request #1093 from shatyuka/webpack_cli
+
+fix: upgrade webpack cli parameters",True
+8994312ee0b9c880a85524ea9f046fc2a184593a,2021-12-01 08:04:32,Dr_rOot,"Merge pull request #1092 from shatyuka/save_preference
+
+refactor: improve preference",True
+bd9b5eca12cb873adea1afc06e282d4a8062a87a,2021-11-28 00:14:34,Nick Bouwhuis,add session-reset & session-reset-confirm to de language,False
+4ed0bba8baddf45a9b0ad3a610e3aa2a9c10dbe7,2021-11-23 10:29:52,jason zheng,adjust chinese traditional translation,False
+7868a4870b9bc485c66174f7bf4b92ed324f5458,2021-11-22 01:25:36,Shatyuka,fix: update webpack cli parameters,False
+8052aa047ee89efebc918db582cd3c3d07e7389c,2021-11-22 01:00:17,Shatyuka,refactor: improve preference,False
+559df6bb8f81cad42fd689778ce4e1c56721821e,2021-11-18 08:15:59,Dr_rOot,"Merge pull request #1085 from shatyuka/macos_tray_tooltip
+
+fix: do not show tray tooltip for macOS",True
+c70a35e083214f25c977b588f55dab5a215268ba,2021-11-12 10:59:25,Shatyuka,fix: do not show tray tooltip for macOS,False
+30817eac8667965dbf07dab592e84490b3e79a3f,2021-09-24 11:05:46,149segolte,docs: Update Readme,False
+751efd6b00a082da59f830f9b4356cadeeeecbe8,2021-09-23 14:20:34,149segolte,feat: Update windows aria2 binaries to 1.36.0,False
+7688115bd4a31d71b767264e95ebdb6fee6b45ee,2021-09-17 13:29:43,149segolte,build: Update Windows aria2 executables,False
+732327f5a3516c875b06401ef0c9b8b5d2e3029c,2021-09-13 08:18:07,Eshagh,"fix: update persian translation (#1024)
+
+* update persian translation
+
+* update persian translate",False
+38fb29382b8ea9f842d6a5c344c45d39e674ea03,2021-08-15 12:06:15,Dr_rOot,"Merge pull request #1022 from shatyuka/fix_macos_dark_menu
+
+fix: macos dark menu",True
+ee05252163f029a1b5862fdb0776c0b79e1dd756,2021-08-15 12:06:04,Dr_rOot,"Merge pull request #1019 from shatyuka/fix_minimize
+
+fix: showWindow won't restore minimized window",True
+74ba6ec5abcc21b39f83e9b100e6cee6232eb9ee,2021-08-09 09:40:09,Shatyuka,fix: macos dark menu icon,False
+1f5f5dc5f05ee1f3981ba010d7464b9235dd4637,2021-08-05 21:47:54,Shatyuka,fix: showWindow won't restore minimized window,False
+6be0afd5fff8e334e6e26c43ec089e8502e338c2,2021-07-04 20:34:01,Dr_rOot,Merge pull request #998 from agalwood/feature/app_improve_20210530,True
+2c269e3a52ba33f50d34e9092bd61f2770f0740c,2021-07-04 19:51:21,Dr_rOot,Merge branch 'master' into feature/app_improve_20210530,True
+79dea2f4b7583ff0e640f0b36edd89ee59dc6321,2021-07-04 19:33:42,Dr_rOot,fix: update node version for electron-builder,False
+9db5c52f137b39ec4fa44e85bcb0b9a646e56de3,2021-07-04 19:32:48,Dr_rOot,chore: update deps,False
+81a73557e88ff915e1b988d0b26090ae7864aec2,2021-07-04 19:32:21,Dr_rOot,refactor: sort i18n locale key,False
+6fc02f752dff0dfbc5b079c3a8b985b8e88fbc16,2021-07-04 19:29:48,Dr_rOot,chore: i18n bt-auto-download-content,False
+6d893bd1ce8388ece15c09c1e901f7dbe1f8adb2,2021-07-04 12:47:45,Dr_rOot,refactor: drag select,False
+68ba9207f9cacd7257e20b8afb8da044da9f094b,2021-06-30 09:41:31,albanobattistella,"refactor: i18n update it (#990)
+
+* Update app.js
+
+* Update preferences.js
+
+* Update task.js",False
+b01d43cf73bd188e2101802fbc61108acdfbea62,2021-06-19 20:09:01,Dr_rOot,refactor: bt auto download content,False
+ba97bbfa6678a6ba463a06721467f19cfed059f9,2021-06-19 13:23:25,Dr_rOot,refactor: set follow torrent metalink default true,False
+b8dbc902a3aba97dceda3eca456da9963769f82b,2021-06-19 13:21:13,dicarne,fix: reorganize the code,False
+b79ef074dd045b7192081bba4296072f722bc0c6,2021-06-19 13:21:13,dicarne,feat: add switch for auto download magnet and torrent,False
+3ceccea9daa1b4a41f2bf030a963b006f5eb8590,2021-06-19 13:21:13,dicarne,fix: tasks list has old wrong items,False
+c591ea965513c5dd3bb6ef1be734c5ea650079a4,2021-06-19 13:21:13,CDzungx,refactor: Update Vietnamese translation (#978),False
+3245bbdaa16c0ea6a6fe626b509324ee4c141929,2021-06-19 13:19:41,Dr_rOot,"Merge pull request #980 from dicarne/master
+
+fix: tasks list has old wrong items and add switch for auto download torrent",True
+60161518c650f368d27d9936f2a1cfa350a6d4b3,2021-06-15 17:20:27,dicarne,fix: reorganize the code,False
+1de2acc505ca5aa5366066eaf56f3abb55232fce,2021-06-15 09:36:35,Dr_rOot,fix: spawn ENAMETOOLONG by reduceTrackerString,False
+a77e62066aa02792f4d0df004f7698192ddf6d60,2021-06-09 10:39:28,dicarne,feat: add switch for auto download magnet and torrent,False
+c6722d141b514b98fad9ab8df216fff8cbaea99c,2021-06-08 22:07:54,dicarne,fix: tasks list has old wrong items,False
+509c79989b1b2d48cc43d4fa216e37347fea4b7b,2021-06-08 20:03:30,CDzungx,refactor: Update Vietnamese translation (#978),False
+333f01afd37da1bc1dcef2a50c5df34e86ec754e,2021-05-30 12:03:50,Dr_rOot,refactor: improve rtl support,False
+edd4053730795a18231b26ee8ebcbf27b5f63380,2021-05-30 12:00:13,Dr_rOot,refactor: improve responsive style,False
+7db1e4ff5b2cd42b3b8377b014448d500639f3b7,2021-05-30 11:58:03,Dr_rOot,refactor: page init skeleton,False
+a9f5312a90c21d7c4a84d316f9f9f2b9aa36218d,2021-05-30 11:52:17,Dr_rOot,refactor: util bytesToSize precision,False
+6d9a6400305c08d5d470aaa92a94d435c9d5ccb4,2021-05-30 11:21:03,Dr_rOot,fix: task item status,False
+74c241f819d239d022dccaa51bee2c8d19e0ae54,2021-05-30 11:20:16,Dr_rOot,chore: remove task item action more button,False
+3e0df405eeb5b7a5c01c933fb78a014154c404eb,2021-05-29 16:09:21,Dr_rOot,chore: update deps,False
+4dd6e948f4bc49ca6d62c6b5a2ac220c1950f795,2021-05-29 16:05:42,Dr_rOot,docs: update readme chocolatey,False
+c0b7612e3a549d2b16a5bd7fd16ffd3897a618db,2021-05-29 16:04:03,Dr_rOot,"Merge pull request #967 from agalwood/dependabot/npm_and_yarn/dns-packet-1.3.4
+
+chore(deps): bump dns-packet from 1.3.1 to 1.3.4",True
+0486e4b4175866a7b751166e238bd9a449b9ec97,2021-05-29 09:42:41,dependabot[bot],"chore(deps): bump dns-packet from 1.3.1 to 1.3.4
+
+Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 1.3.1 to 1.3.4.
+- [Release notes](https://github.com/mafintosh/dns-packet/releases)
+- [Changelog](https://github.com/mafintosh/dns-packet/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/mafintosh/dns-packet/compare/v1.3.1...v1.3.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+160fe9725d7f7e94dc3fcd6d6bd909c49a84d149,2021-05-21 08:56:44,Dr_rOot,docs: readme add chocolatey pkg,False
+577a9b32a167e591b2c2793b0ae8818f7dae37ee,2021-05-20 08:07:42,Dr_rOot,"Merge pull request #957 from shatyuka/fix_windows_titlebar
+
+fix: window resize",True
+f05994d9f80b86f6f0411ec3e29d8eb261e9da06,2021-05-19 19:52:58,Shatyuka,fix: window resize,False
+dec938f2f0c2289dbb18fc0b3665015de6b9f8f3,2021-05-19 09:31:37,Dr_rOot,chore: setup github action codeql,False
+084b5350fd14d8f522e97eff1a16e2d681034a77,2021-05-19 08:26:10,Dr_rOot,docs: update readme add flatpak,False
+e971f869323f29c39c8b3b4e5d3f786a9f2dd3ab,2021-05-18 18:48:52,Dr_rOot,docs: update readme release status of nb,False
+0be90dda3150ae0ae92c5b2ca1f31cfbd4892159,2021-05-18 18:44:41,Dr_rOot,docs: update i18n contributors add nb,False
+2bc4a8c61e2acd89126ca889315a5c5e78ad96fb,2021-05-18 18:44:34,Dr_rOot,fix: i18n get language by electron locale,False
+6baef422749c46161e0d0dac54f357989b46a2e1,2021-05-18 18:36:48,Dr_rOot,"Merge pull request #953 from shatyuka/macos_vibrancy
+
+feat: add vibrancy sidebar for macos",True
+f4cc731e6302a4e78d8c26f89384c20257ee5dda,2021-05-18 18:24:40,Shatyuka,feat: add vibrancy sidebar for macos,False
+480039c4cc88128e22a5a4e7215e98a2e6e33ace,2021-05-18 14:37:26,rubjo,"feat: Added Norwegian Bokmål (#952)
+
+* feat: Added Norwegian Bokmål (nb-NO)
+
+* fix: Escape apstrophe
+
+* refactor: Rename from nb-NO to nb
+
+* fix: Learn alphabet",False
+b0242d3d5b5a89cab398960bd5125f68cf3fbfee,2021-05-15 20:00:00,Dr_rOot,chore: bump version v1.6.11,False
+58cfd2b87391e5b54cb02292be4fe4a21d148833,2021-05-15 19:57:00,Dr_rOot,"Merge pull request #944 from agalwood/feature/improve_detail_20210513
+
+feat: improve task detail",True
+804f8647091aa86622744e1289337a60751552ec,2021-05-15 19:42:19,Dr_rOot,chore: update deps,False
+57fb4d95ae2b1d758bd544e5378432026eeb6e6c,2021-05-15 19:29:01,Dr_rOot,feat: get file selection util,False
+8030699e15b087b4aa47e3e64db3d503028ba9d4,2021-05-15 19:28:22,Dr_rOot,chore: i18n task select at least one,False
+1185a81c0c053520ef22a4d3d6e3def192b6ff55,2021-05-15 19:15:41,Dr_rOot,chore: i18n save & reset,False
+aa4941f84240ec487d4b4af01065484b6f601f16,2021-05-15 19:14:21,Dr_rOot,feat: save task file selection,False
+841bd8b923344c989309db0f1ba39642b57472de,2021-05-13 19:22:57,Dr_rOot,fix: task detail activity graphic align center,False
+85ae4cdbca565e8f9e0f28503920c948e7d3f8af,2021-05-12 21:04:25,Dr_rOot,"Merge pull request #942 from agalwood/hotfix/auto_update_20210511
+
+fix: some bug",True
+c257816608af99b71cfa418cc4c5ec6906a68e30,2021-05-12 20:02:53,Dr_rOot,fix: element ui message z-index,False
+1b44ef725bd5633aa8df9424f99f2121ec66284b,2021-05-12 09:17:18,Dr_rOot,fix: task detail not auto hide when remove task,False
+bffe919b93b240e88b325f157fcdae7314ad9e68,2021-05-12 08:54:51,Dr_rOot,fix: add one task triggered rename rule,False
+87635ade345a55003ef95a0f8a018ef57ad26aa8,2021-05-12 08:54:15,Dr_rOot,fix: auto theme,False
+c6a9eb226d4656a24b44851bf990ab84c65f4113,2021-05-11 12:48:21,Dr_rOot,fix: auto update exception,False
+da2b6638d9cac9dcf170c71e181b69c656763e62,2021-05-11 12:36:22,Dr_rOot,"Merge pull request #939 from agalwood/feature/lab_dark_20210509
+
+feat: preference lab panel dark theme",True
+91072509d32a991eb2941ffb6579ba23377b80c5,2021-05-09 19:42:47,Dr_rOot,refactor: mo icon,False
+0d75370f954caff7396f509f39bf9211f07eb8df,2021-05-09 19:42:21,Dr_rOot,fix:  drawer header close icon could not click,False
+994d351998ae1a3a170b2916bc2a80606cb46f74,2021-05-09 09:37:15,Dr_rOot,feat: lab page dark theme,False
+166aba77474df5dd65da20ee1548004c9f078bdd,2021-05-07 20:52:26,Dr_rOot,chore: bump version v1.6.10,False
+bc3ea977805ac698346189b273998e93a266bb89,2021-05-07 20:07:43,Dr_rOot,"Merge pull request #928 from agalwood/hotfix/app_style_20210507
+
+fix: app style",True
+2beb6f14a81c7e1cf2f33ebe2d49a5bff649ad3b,2021-05-07 19:19:32,Dr_rOot,chore: update app info icon,False
+5d8566a9343539476ee659080256848df434e0c4,2021-05-07 19:06:52,Dr_rOot,feat: mock ua add more ua options,False
+84b002d5131aec568cb4f9bc23c43f9fd684b3da,2021-05-07 18:55:29,Dr_rOot,feat: add more speed options,False
+a4fb082088f3a778754371e23dae4c5b44e3da6c,2021-05-07 18:55:04,Dr_rOot,refactor: style code format,False
+3aa18e7f72e8a9502d220e77c3f9de7ebafac721,2021-05-07 16:49:10,Dr_rOot,fix: revert mac target,False
+e939f9e5dcf39af77fce122df0dd8324244419bd,2021-05-07 14:10:04,Dr_rOot,Merge pull request #925 from agalwood/hotfix/app_hang_20210507,True
+53ec0b1dee6d381be37640a8c476d7c86c4b0054,2021-05-07 11:41:34,Dr_rOot,chore: update deps,False
+fcfd32a71ebd2c64fd0eb4ef19a7e63a0c112ade,2021-05-07 11:36:35,Dr_rOot,refactor: task detail style,False
+2ff56a3770441a243010da5a4c2043081ea9494e,2021-05-07 11:36:28,Dr_rOot,refactor: task item style,False
+48768f0658828a5da27d180c4d36e25899f8b1ce,2021-05-07 11:33:32,Dr_rOot,fix: copyright year,False
+3e84230b3351360b60800eb45cec90841c2297b9,2021-05-07 11:33:13,Dr_rOot,fix: app reset engine not start,False
+549094626735f31365270a2f07057ffc8cdbb503,2021-05-07 11:32:48,Dr_rOot,"fix: app hang caused by child_process spawn
+
+https://github.com/electron/electron/issues/24329#issuecomment-760699187",False
+9461381042eb355b8e08db1233c7f3713f0da767,2021-05-06 13:00:01,Dr_rOot,chore: bump version v1.6.8,False
+364d7a8f66fbf8ca268b1dcc049d2d59bf162b9d,2021-05-06 12:57:39,Dr_rOot,chore: lock electron-builder version to 22.10.5,False
+7a5a1554ca8e1ef80ffd9b1d39d06db16b538ef3,2021-05-06 12:28:50,Dr_rOot,chore: bump version & electron-builder -> 22.10.5,False
+8410be59b2f4d1d611b0df9aa43c807dbebedea7,2021-05-06 11:49:22,Dr_rOot,chore: bump version 1.6.6,False
+795db0b9263230b4f27dc905a99adf8a7cce1188,2021-05-06 11:48:30,Dr_rOot,chore: github action build force release,False
+079cab8544c6e72b749e02fb6ddd5f7f9eebc457,2021-05-06 11:27:32,Dr_rOot,chore: bump version v1.6.5,False
+7109747e009310fdd8ddf0ffffacaed802642a07,2021-05-06 11:26:57,Dr_rOot,chore: update github actions,False
+9b698f5a0ee25fe5ffacbfd750830b787aab2530,2021-05-06 09:35:25,Dr_rOot,chore: bump version v1.6.3,False
+2b35fb9bc25c00c2c2b44daf1649f5a978b25d26,2021-05-06 09:32:41,Dr_rOot,chore: bump version v1.6.1,False
+2b80127ad0401495f0dc157e72e51a4a2c0d0d6c,2021-05-06 09:31:57,Dr_rOot,docs: update readme i18n,False
+d47fa3d705b10ce5cbaab8c36f615a8141cd9ce8,2021-05-06 08:54:16,Dr_rOot,chore: bump version to 1.6.0,False
+555db61ec0c265f6bc07314fdb37d859c43be8a0,2021-05-06 08:39:57,Dr_rOot,"Merge pull request #922 from agalwood/hotfix/theme_style_20210506
+
+refactor: task detail dark theme style",True
+7c2fc774ca9ad3f3205e4644cc1562151cb37f75,2021-05-06 08:18:31,Dr_rOot,chore: update deps,False
+8eeab3d3fa9ce9d96b7d049dd2cfe5e62e917238,2021-05-06 08:06:33,Dr_rOot,feat: task graphic dark theme style,False
+7a5b16aecc0ee7e4f4faf239616dd85a19966090,2021-05-06 08:06:02,Dr_rOot,refactor: task status theme,False
+c5f72414e202b1d96780c4577979804d0c7b32b3,2021-05-06 08:05:26,Dr_rOot,refactor: preference store actions,False
+4016f5c02e568a75e83254a2f887a523dbaad6a9,2021-05-05 20:50:09,Dr_rOot,Merge pull request #921 from agalwood/feature/task_detail_20210503,True
+af7eb1f359fb8395a2f0a695a4f51f315b579373,2021-05-05 20:38:19,Dr_rOot,Merge branch 'master' into feature/task_detail_20210503,True
+f30ed3c8f71edc36d0bed41d995f29a8bbf6bf09,2021-05-05 20:26:44,Dr_rOot,fix: update task peers table column width,False
+e9e86fbc839ffc4835e6e840f5403ca04e3310d3,2021-05-05 20:06:14,Dr_rOot,refactor: task detail tab content scrollable,False
+d7b985bc3ff4c228b12256e75c88a21354365c73,2021-05-05 14:24:40,Dr_rOot,docs: update app features,False
+e307240a604e1174e52e6f9d4a8786a83f8976f9,2021-05-05 14:22:28,Dr_rOot,fix: remove useless code,False
+8dd1d84485d685aed444c766d2534292d3e37f1d,2021-05-05 14:21:12,Dr_rOot,chore: i18n task detail,False
+3c7b0b26e3a9a92921aaaf4b266009521b546e2c,2021-05-05 13:56:01,Dr_rOot,chore: i18n bt settings,False
+778e092c17dd34f7f595fea6cd6161ad2df5ba09,2021-05-05 13:24:32,Dr_rOot,docs: update contributing locale guide,False
+6e462166d1ca11eeade6e99179b2c9a4a921b796,2021-05-05 09:05:30,Dr_rOot,chore: i18n task files,False
+812b419379e1fec51fc0000113b82b0dfc9d9fe3,2021-05-05 08:09:21,Dr_rOot,chore: update task list i18n,False
+04dcddd3e16464bcd84d14e9a301ef9ce0338a72,2021-05-05 07:15:23,Dr_rOot,docs: update translation contributors,False
+1cfec289b7696860e344a46d0e41b06b4c72d1cb,2021-05-05 07:11:03,أحمد الطبراني,"fix: Complete translation into Arabic (#919)
+
+* refactor: Complete translation into Arabic
+
+* refactor: Complete translation into Arabic
+
+* Update preferences.js",False
+2dcfb8c25efc502e08eba45b69139e6734566672,2021-05-04 18:08:47,Dr_rOot,refactor: change some log,False
+482b9312b185a6af39681a06698e572f9d8825ca,2021-05-04 13:00:16,Dr_rOot,chore: i18n task detail,False
+dbb1889fc95377023e81c220f95897cdd38d1a51,2021-05-04 12:36:44,Dr_rOot,feat: task detail,False
+a6de12c875c5c9f7233106f8cf4d0f7b70c11603,2021-05-04 12:34:02,Dr_rOot,feat: task activity,False
+d14ddef8e85b0e5515cf111f9267e9e69898565b,2021-05-04 12:33:33,Dr_rOot,feat: task peers,False
+c8698e5b80ecbf9c162fe9637a64ae8da1e24303,2021-05-04 12:33:10,Dr_rOot,refactor: task files component,False
+e8c99caf87a1de91a90b8a2eb5c86856098cc782,2021-05-04 12:29:31,Dr_rOot,feat: task trackers,False
+f70595915d85844f436d2f0ccbf8a42361ce5550,2021-05-04 12:28:39,Dr_rOot,feat: task general info,False
+c5962041cb44aff7b7ede6f53ad54e3bf078fc2c,2021-05-04 12:25:39,Dr_rOot,feat: task bitfield graphic,False
+28bbf26334fddf17844bc1fc7bc6a61ef37085ff,2021-05-03 17:30:07,Dr_rOot,refactor: select torrent file list,False
+3d6931f8d802ad25c1e74b000d64737eebdfd208,2021-05-03 17:13:14,Dr_rOot,refactor: main menu quit,False
+46d686bee52b5edaa66ed20e7d2eccabbfb10d89,2021-05-03 17:11:41,Dr_rOot,fix: remove file to trash for electron v11.x,False
+9ffaf1116fa1050dc26c39c4c5a0c27622f156e1,2021-05-03 16:49:57,Dr_rOot,Merge pull request #915 from agalwood/feature/bt_config_202104231109,True
+2d4a05f3b0ce327fa1750206d66315170a3435b0,2021-05-03 16:31:54,Dr_rOot,chore: update deps lock,False
+e04d3a582e49760203894a85058972b8ccfa58f9,2021-05-03 16:21:12,Dr_rOot,fix: store task checkTaskIsBT,False
+943830f2eda47749b8e02b6b7edcb41d44e9871f,2021-05-03 16:05:58,Hadi Alqattan,"feat: Add Arabic Localization
+
+* Partial Arabic Language support!
+
+* Partial Arabic Language support!
+
+* translate more words...",False
+137927d44a7a9525be4bae2089a8ae4d98006ea6,2021-05-03 16:03:29,Dr_rOot,chore: revert electron from 12.x to 11.x,False
+819f86632edbaf90f6311d5be12961b25ddbf2f1,2021-05-03 15:48:55,Dr_rOot,feat: task progress info show seeder number,False
+06f881932cb635b8bb7196b2d830fb22e67b493c,2021-05-03 15:47:41,Dr_rOot,refactor: dev env add engine log,False
+cb845ea65afeb76fa222882006038e6b8fb6e538,2021-05-03 15:45:24,Dr_rOot,refactor: update pause task speed use force pause,False
+60e4907be68365c26adf6ce87db54576b4162c78,2021-04-26 12:30:59,Dr_rOot,fix: stop seeding params gid,False
+bc38978d6ae4e74622175cf86aef0f3df722fc33,2021-04-23 15:07:16,Dr_rOot,refactor: open url external,False
+90c3bbff13ace8156bf4c2c8916fe1c0b28d6ae6,2021-04-23 15:06:45,Dr_rOot,fix: deps electron remote,False
+3116c53734b80123c6afc0b0580af508533df7d8,2021-04-23 12:42:40,Dr_rOot,refactor: electron remote,False
+78fb6ba4554b00b2b12e2a5210ff08e832ffe014,2021-04-23 12:21:41,Dr_rOot,"refactor: css-minimizer-webpack-plugin
+
+replace css-minimizer-webpack-plugin with css-minimizer-webpack-plugin",False
+86304c126d6a133708a9fbc3009e1b7f31e35eee,2021-04-23 09:18:56,Dr_rOot,chore: update deps,False
+3424424e67a35be831954c89c8536a8e730c6710,2021-04-23 09:09:34,Dr_rOot,feat: preference bt setting bt-save-metadata,False
+7206f2fc3c6abaca0a3c280fa0bbe610284aaab8,2021-04-01 21:09:57,Dr_rOot,"Merge pull request #892 from agalwood/feature/bt_202103131952
+
+feat: new app icon & bt setting",True
+bd25e566c8b79818160b89317cd3d8ce2a2c8759,2021-03-24 20:56:02,Dr_rOot,chore: i18n zh-TW bt keep seeding,False
+f54bc32e902fb996f2a12b36f85c762adef51859,2021-03-24 20:53:04,Dr_rOot,feat: bt keep seeding,False
+f6dde55234c59ac4a6de143600ebe1757c024441,2021-03-13 18:44:43,Dr_rOot,feat: new app icon,False
+1303713f5e475132e3a824e0edf197b2afd7da28,2021-03-13 17:38:14,Dr_rOot,feat: reset session,False
+57a5c0c93209f826d5cd528f92c501dea161d828,2021-03-13 17:20:43,Dr_rOot,"Merge pull request #877 from agalwood/feature/engine_refactor_202102182037
+
+refactor: replace forever with child process",True
+22a41c332f5e23d806374d0fce5fd3958e19b80e,2021-03-13 16:07:25,Dr_rOot,"Merge branch 'master' into feature/engine_refactor_202102182037
+
+# Conflicts:
+#	yarn.lock",True
+76e7223e858ccddd6b37ad27e169c2f75180ffc7,2021-03-13 16:05:15,Dr_rOot,"Merge pull request #875 from agalwood/dependabot/npm_and_yarn/elliptic-6.5.4
+
+chore(deps): bump elliptic from 6.5.3 to 6.5.4",True
+014619ed46ace52b84b2b0b0adaf72b6f7c91f2a,2021-03-13 15:59:02,Dr_rOot,chore: update deps,False
+aec3a25e3a5ef6ecfb6f045eb409809ad8ecf36f,2021-03-13 08:53:57,Dr_rOot,chore: engine error code text remove #,False
+02f6ffa3cba7c9e1b549fe6699a902bc128802ea,2021-03-11 12:46:59,dependabot[bot],"chore(deps): bump elliptic from 6.5.3 to 6.5.4
+
+Bumps [elliptic](https://github.com/indutny/elliptic) from 6.5.3 to 6.5.4.
+- [Release notes](https://github.com/indutny/elliptic/releases)
+- [Commits](https://github.com/indutny/elliptic/compare/v6.5.3...v6.5.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+5d32fc633c77f36c816e28bc697969b51a87acca,2021-03-01 08:42:49,Dr_rOot,feat: add more speed options,False
+cde2832ae31b0e73dd96d1a244c3457e9db1afc9,2021-03-01 08:40:02,Dr_rOot,chore: aria2 conf http accept gzip,False
+8656fa08627288d631b403afaa40d105f6db29e4,2021-03-01 08:39:14,Dr_rOot,refactor: replace forever with child process,False
+0cd1ed1e340de25d8d920955ad582920c7279602,2021-02-18 18:01:17,Dr_rOot,"Merge pull request #865 from agalwood/feature/tracker_cdn_202102181833
+
+feat: add tracker cdn source",True
+d58e485846926567c6ac16a5e9f602b3eeaaa4dd,2021-02-18 16:33:19,Dr_rOot,refactor: auto sync tracker,False
+a6aca446722485ba4c6a94d984957cbfc04010d1,2021-02-18 16:11:57,Dr_rOot,refactor: preference tracker cdn source select,False
+cc28e4b19b6ebc89e316eb64a367b35f870b0f84,2021-02-18 16:11:14,Dr_rOot,chore: replace default tracker source config,False
+599dec1d6e3eecbb5fd6c974777e125232ca564a,2021-02-18 16:05:10,Dr_rOot,feat: add tracker cdn urls,False
+d020359058f731a68176392ca7e6ee95e0302394,2021-01-14 17:53:02,Dr_rOot,"Merge pull request #851 from upuppz/master
+
+fix: Function overload error, unable to trigger events bound in EngineClient.vue",True
+04d68e293be20676d74c95d905a539b4f228935e,2021-01-12 15:55:48,upuppz,"fix: Function overload error, unable to trigger events bound in EngineClient.vue(函数重载错误, 无法触发在 EngineClient.vue 中绑定的事件)",False
+6b93a80888c8d6038b11a6a39694c9adab759718,2021-01-12 15:50:49,upuppz,"Merge pull request #4 from agalwood/master
+
+Sync",True
+c3400d936e1d42cfa2ac954fa7e1133da5f8aba9,2021-01-05 08:42:11,Dr_rOot,"Merge pull request #844 from alyn3d/master
+
+feat: Added Romanian translation",True
+871be123d4ba7467f78e38b628ac02f56f719888,2021-01-03 03:59:01,alyn3d,feat: Added Romanian translation,False
+bed2148ba054554a51dc62ef8ba5288aec9fb635,2020-12-29 18:54:16,Dr_rOot,"Merge pull request #843 from agalwood/hotfix/tray_retina_202012292116
+
+refactor: dynamic tray scale",True
+8b97c90e8875698c5f1e61ecec2825aacb064910,2020-12-29 18:46:36,Dr_rOot,refactor: dynamic tray scale,False
+832befbafdde80eedd8aa4479a4f6418625d2497,2020-12-29 18:35:31,Dr_rOot,"Merge pull request #842 from agalwood/hotfix/style_202012291454
+
+fix: some style improve",True
+ddbf27e2f962e7666ea821dba9221b4273dcec70,2020-12-29 12:25:57,Dr_rOot,refactor: form actions position sticky,False
+64b30b6c26ddfb9a159c02d3e3a0e04241599c7c,2020-12-29 12:25:38,Dr_rOot,fix: task progress info text font style normal,False
+32c8767e65af719603e89486981132ee9d912745,2020-12-28 20:57:48,Dr_rOot,"Merge pull request #840 from agalwood/hotfix/multispinner_202012282315
+
+chore: replace multispinner deps",True
+69391c6de013b1f3c9550ea9b3b07e75f1a78e37,2020-12-28 20:51:47,Dr_rOot,chore: update deps,False
+fbec4e7c4ddbb189ab1a4262d19a04034e949d5a,2020-12-28 20:44:13,Dr_rOot,"Merge pull request #839 from shatyuka/big_sur_tray
+
+fix: big sur tray color",True
+7640ba583df6e962920976e13a399729921a2dde,2020-12-28 17:15:53,Shatyuka,fix: big sur tray color,False
+924b39772731552fa794f1878da01c3af398f239,2020-12-27 19:15:06,Dr_rOot,"Merge pull request #838 from agalwood/hotfix/tray_workder_202012271447
+
+fix: tray worker cannot find module 'lodash'",True
+565afdde745a4815ca1eb0ab00bca9f6f8b77268,2020-12-27 17:37:53,Dr_rOot,chore: update deps & change npm to yarn,False
+3dfd4ec4da701211f000942a5e11d0602b6ee46f,2020-12-27 12:17:55,Dr_rOot,fix: tray worker cannot find module 'lodash',False
+0a21f590ff1dd0cfc3dfa2e3372abe4fcfe497b4,2020-12-27 12:15:37,Dr_rOot,"Merge pull request #836 from shatyuka/apple_silicon
+
+feat: Support Apple Silicon",True
+79bf90bb3ccba143470f1782cc5ccc4f7abf609d,2020-12-26 18:39:55,カワリミ人形,docs: Fix installation instructions in README.md (#834),False
+f4602b4b68faa5bb1341c4fd8462e85c30a91639,2020-12-26 10:30:29,Shatyuka,fix: import JSONRPCError,False
+93a6f1cfbd084f06528e613ef297b833d0ffdc6c,2020-12-26 09:30:08,Shatyuka,fix: Shadow not complete,False
+f0d14afb7e16b107434f0ea51be110b60af6dd62,2020-12-26 08:40:02,Shatyuka,chore: update dependency sass-loader,False
+d9a69ae009fdb899864ba5319eea8a731fdfef01,2020-12-26 06:59:26,Shatyuka,fix: use iframe instead of webview,False
+0f5398b10699a08de9d683f1709c36f5b277da1c,2020-12-26 06:33:38,Shatyuka,fix: engine failed to quit,False
+c6eb96547ad0f4494a9136869a4e5f4a47ea5dd2,2020-12-26 05:09:00,Shatyuka,fix: tray menu crash,False
+31ab487d82fc87b4441e67316968fdb39e0c3208,2020-12-26 03:33:36,Shatyuka,"feat: Add native arm support for macos aria2
+
+universal binary",False
+0b2e2716630c4ca5abaaa203840bfcc1cb575b23,2020-12-25 21:39:44,Shatyuka,"feat: Update electron to 11 to support Apple Silicon
+
+Update almost all of the dependencies.
+This commit only promises the app would be successfully built and run.",False
+a4a4b2321f311e93788436993128e9abd7cc4196,2020-12-09 18:21:18,jimman2003,fix: updated axios and forever-monitor to get rid of error in dev enviroment (#818),False
+ef372da87bfbf8f883ef8390bf088f250df59923,2020-11-25 11:29:00,XIU2,fix: replace TrackersListCollection other.txt with http.txt (#809),False
+10cab1a9a0590627530fc59a04572749753893eb,2020-10-09 18:38:55,Dr_rOot,docs: readme i18n add Italiano,False
+a4a651b3979e3f7fd51b9b371119263b515d65d9,2020-10-09 18:26:06,blackcat-917,"feat: Added Italian language (#794)
+
+* Feat: added italian
+
+* Small fix
+
+* Update index.js to match to the original indent style",False
+b2770795ad5d1545af7be39a65673844669bc063,2020-08-30 10:52:17,Dr_rOot,docs: i18n add el (Greek),False
+f4c8ff66d598190e53e520db7ebe48ce6212a167,2020-08-30 10:47:49,Akis S,"feat: Added Greek language (#774)
+
+* feat: Added Greek language
+
+* Update index.js",False
+1b450c80224061d7b00708bd43ee18133572e43c,2020-08-04 19:22:14,Dr_rOot,docs: i18n add missing locales es & hu,False
+e5b88462868fd18adfc392c24cbeffe43ab49eda,2020-07-26 18:36:19,zalnars,"feat: Added Hungarian language (#754)
+
+* Added Hungarian language
+
+* Update all.js
+
+* Update app.js
+
+* Update all.js",False
+8de859172590c2d0aaaca2419e2dda935a5de131,2020-07-15 18:25:17,Samuel Martineau,"fix: correction of the french locale (#742)
+
+* Correction of the French locale
+
+- `transfer-speed-upload`and `transfer-speed-download` were the same
+- `transfer-speed-unlimited` was still in English
+
+* fix: correction of the french locale
+
+* fix: correction of the french locale",False
+20c30279b06008675e8449cd58f70bf06411f54a,2020-07-04 19:13:00,Dr_rOot,docs: update readme cn,False
+9000be502b5b5ef42f40314e926695e57518ee88,2020-07-04 19:06:34,Stanisław Nieradko,"feat: Added Polish (#731)
+
+* Added Polish
+
+* Sorted imports in src/shared/locales/app.js",False
+cfe66cf337640d15304d44183a9f49b2cf40c9c9,2020-06-21 19:00:51,Dr_rOot,"Merge pull request #720 from agalwood/feature/tray_speedometer_202006211216
+
+feat: menu bar tray speedometer #643",True
+3557d17bb63e8754bf98c4e8010e69c96e8c42f8,2020-06-21 18:40:22,Dr_rOot,"chore: update deps, upgrade electron to 9.x
+
+> That was a bug in Chromium, which got fixed by this [commit](https://chromium.googlesource.com/chromium/src/+/09514b7fbd4fb14ce12a43bc7f4807179612fa94) (available in Chrome v83).
+
+https://stackoverflow.com/questions/61268950/offscreen-converttoblob-very-slow",False
+2af891aab87a1bccf6bbd27cb2565d299913bb77,2020-06-21 13:53:07,Dr_rOot,chore: i18n tray speedometer,False
+0d276de39b85a1ca7189915f21ac3b42a8012d51,2020-06-21 13:42:35,Dr_rOot,feat: preference tray speedometer setting,False
+8a6beda3359aea393f6e818d945889f6d0352e40,2020-06-21 13:42:04,Dr_rOot,feat: tray speedometer,False
+68f1cdc4de8859bba614951ae53dcdbd374cc8ef,2020-06-21 13:00:28,Dr_rOot,chore: update copyright year,False
+5290fcfa14a0f98a434fc7e37c2de8e033918241,2020-06-21 12:51:06,Dr_rOot,feat: dockmanager add handleSpeedChange,False
+d865b630a3ac3cbc6e8b75c6ce614f29c113bac5,2020-06-21 12:49:50,Dr_rOot,refactor: rename enable args,False
+9d95d294cda3797b1caba95e313102c773013806,2020-06-21 11:17:02,Dr_rOot,refactor: rename store actions mutations,False
+ea46d9b3c6b20f2053cf41f9863490ef181846af,2020-06-21 10:03:28,Dr_rOot,refactor: load config fn use ipc invoke,False
+ef2c992af9951e9c5502d6683ba692e66851113e,2020-06-21 10:00:43,Dr_rOot,refactor: remove deprecated fns,False
+64ee097c851096042f1572b83233305b04645b08,2020-06-20 15:59:48,Dr_rOot,"Merge pull request #718 from agalwood/feature/stop_seeding_202006201236
+
+fix: stop bt task seeding notification #604",True
+31517f93cbca3d383f2946fd34d160516f466fd4,2020-06-20 13:21:24,Dr_rOot,chore: i18n stopping seeding tip,False
+6d54e557b9770ece731bbb644e5b232c0d659219,2020-06-20 13:20:18,Dr_rOot,fix: oddly stop seeding notify #604,False
+3e61adcea33957a171974ec5eb9c89bde37dd2aa,2020-06-20 10:04:52,Dr_rOot,"Merge pull request #716 from agalwood/feature/url_protocol_202005290826
+
+refactor: redesign motrix scheme",True
+84d9ced1370a9257da3a91ee2e03a8a9a14c0745,2020-06-19 20:31:36,Dr_rOot,"Merge pull request #714 from agalwood/hotfix/hide_run_mode_202006192140
+
+fix: preference show run mode only in macOS",True
+bc45ed9d5b9a4ac5cc5ca58db7f8153a319c2bf4,2020-06-19 19:14:53,Dr_rOot,refactor: add jsconfig,False
+3d98104dbfa3fcd50cc26cb60e1e92106933b894,2020-06-19 19:12:00,Dr_rOot,fix: preference show run mode only in macOS,False
+fb6986ff6ed75a1476c44e7aadfc21a93833d2a8,2020-06-19 18:25:07,Dr_rOot,docs: update readme app icon,False
+b8507570c621c882d46fb8886b16faff94667a9a,2020-06-12 14:52:38,Dr_rOot,refactor: rename initialForm to initForm,False
+cf3ef7606cbd99184bd97b74dfb4c81911e5fc98,2020-06-06 21:01:24,Dr_rOot,fix: new task uri,False
+12a9fa92c1e6a8aa6d05418db144d2ad957a32b4,2020-06-05 21:24:14,Dr_rOot,chore: bump version,False
+0fd6617eba43234ab5a8e98895df175e8a7d0676,2020-06-05 21:22:34,Dr_rOot,docs: update readme i18n,False
+7ebbf929d51d1641d806b62c582ccf21cb3f41bd,2020-06-05 21:19:27,Dr_rOot,fix: i18n no-confirm-before-delete-task missed,False
+14223c2204b8baacd79817e7ba3ebc76269ad77d,2020-06-05 20:56:11,Dr_rOot,chore: bump version,False
+2cfb6b19148fdc85eabcedced90821224769c0f0,2020-06-05 11:34:27,Dr_rOot,"Merge pull request #689 from agalwood/hotfix/handle_url_202006051331
+
+fix: open app with url handle fail",True
+c38cf8058921cedb1942798c3ec7f55699748857,2020-06-05 11:10:30,Dr_rOot,chore: update deps,False
+3ee98eae1d1ccd749ac46524dc9d121bfa499841,2020-06-05 11:03:22,Dr_rOot,fix: open app with resource url,False
+d2cff6356aa3208babf260c6267bb6b1ca9fe63e,2020-06-01 19:42:46,Dr_rOot,"Merge pull request #686 from NickoAilus/master
+
+fix: edited Russian locale",True
+3ee432d683f2e0c6b737f339d25415e2bdd000c0,2020-06-01 18:40:36,NickoAilus,Fixed Russian locale,False
+7f1822bb7e6befa654bc609940883eaff50c039a,2020-06-01 15:03:46,Dmitry Kalinin,"feat: Added bulgarian (bg) translations (#685)
+
+* Added bulgarian (bg) translations
+
+* Improve structure
+
+* Fixed bugs
+
+* Deleted comma",False
+0223e691ff49deb6d183b40ef2edbad03322a119,2020-05-31 20:27:56,Dr_rOot,docs: readme i18n add vi,False
+117dba9f378685dc6fda252a833cb589600b52d2,2020-05-31 20:22:26,Duy–Thanh Doan,"feat: Add vietnamese translation (#680)
+
+* Add vietnamese translation
+
+* Update app.js and index.js
+
+* Translated about.js
+
+* Translated app.js
+
+* first draft
+
+* final draft
+
+* final update - ready to review
+
+* Update format",False
+e5241d09d70d01b788dd504b63a24375c9234c73,2020-05-29 14:58:03,Dr_rOot,refactor: protocol manager init,False
+c9ea1dece2f2365e910821c12dc147d32b9526a1,2020-05-29 14:32:43,Dr_rOot,refactor: motrix url protocol,False
+60d4108ddc68cea895613a4a17107b363c5dda15,2020-05-29 14:30:47,Dr_rOot,refactor: promise all to allSettled,False
+ffc8de4766556e46e1aa97a69d2a426768e0af4e,2020-05-29 14:28:35,Dr_rOot,refactor: add task utils,False
+66f114bf7293f174bb1d4dd181929583f1008c7b,2020-05-28 12:58:28,Dr_rOot,"Merge pull request #674 from agalwood/hotfix/upnp_cb_202005271904
+
+fix: nat-api autoUpdate cb is not a function",True
+44f00483f9c0a5e1436ffd6ece7d231fefa0767e,2020-05-28 12:12:43,Dr_rOot,chore: update deps,False
+1866e3fd4f3e3923829d9c46141422d78af25e2e,2020-05-28 12:12:05,Dr_rOot,"fix: nat-api autoUpdate cb is not a function
+
+replace nat-api to @motrix/nat-api
+
+@motrix/nat-api forked from https://github.com/alxhotel/nat-api",False
+cfac883cbf9603e2cc857320505acd71d53df187,2020-05-28 09:41:30,Dr_rOot,chore: remove deprecated vue-html-loader,False
+1431bab36660a551a5fc3d80af5d5b5c8660e324,2020-05-27 08:50:23,Dr_rOot,"Merge pull request #670 from agalwood/hotfix/full_screen_preference_202005271103
+
+fix: full screen save preference issue #663",True
+bb373947ff621a07eac41e9d85da0eeb9cc80e92,2020-05-27 08:36:51,Dr_rOot,fix: full screen save preference issue #663,False
+8f0dc65341a37f51dc3c3301a83c111d796b1501,2020-05-27 08:36:31,Dr_rOot,refactor: rename auto hide window,False
+402185e1a2da196d0a9afcc59aabb7e0a87373aa,2020-05-25 20:05:09,Dr_rOot,chore: bump version,False
+d59b5c9841e2a4d722b8cd5a54a7d67afe28698c,2020-05-25 19:45:36,Dr_rOot,"Merge pull request #667 from agalwood/hotfix/refactor_202005231656
+
+fix: upnp client & full screen issues",True
+eb442e4a7a4a4b191dcc4d959498adac1a0f4426,2020-05-25 19:25:23,Dr_rOot,fix: windows auto launch config lose,False
+e82e5670699d5871ab4ac9b889928eb4e477e206,2020-05-24 17:45:20,Dr_rOot,refactor: time constants,False
+dc2876098da7891db68195ee2061ed7a36127124,2020-05-24 17:43:43,Dr_rOot,fix: upnp client is destroyed #662,False
+6287942fbcafd984b5d34a8824e8159fef76f76a,2020-05-24 14:34:08,Dr_rOot,fix: full screen mode no traffic light #663,False
+389dc080b69956bf578168dab7843d12f8512781,2020-05-24 13:00:50,Dr_rOot,refactor: improve macOS fullscreen mode usability,False
+45a23d73e6c4f62515802bd41d2a858d76f1d6ec,2020-05-23 14:46:16,Dr_rOot,fix: code error,False
+8303dd305b0e4b147e46828e9be0fb1fb6ff9515,2020-05-23 14:33:45,Dr_rOot,refactor: fn rename & format,False
+a98292ce1e629995df33c9ea5b7178044e4b6e58,2020-05-23 14:27:01,Dr_rOot,refactor: remove title bar buttons spacer,False
+8df97b84333c9c6dfc360cd784d149fc8b557381,2020-05-22 08:51:45,Dr_rOot,fix: switching system theme will not auto switch app theme,False
+f29e95c9bc0d7b23cc9e0c683cdd9ff11238d00b,2020-05-21 14:02:10,Dr_rOot,chore: add electron apps banner,False
+52e045c886becad98087f8a2f43352f33f1f744d,2020-05-21 06:26:28,Dr_rOot,docs: update readme for github markdown,False
+4632c3619a43b910601f0feabefc8fbd0fbd4e1f,2020-05-21 06:24:01,Dr_rOot,docs: update readme,False
+54c48be29b3f93b7f711bd61886098eeba52b4cd,2020-05-21 05:21:47,Dr_rOot,chore: bump version,False
+301f1403dfbd3d8f710ca7fb5ddeea7f0642954f,2020-05-21 04:47:12,Dr_rOot,"Merge pull request #658 from aarestu/translation/indonesia
+
+feat: add Indonesian translations",True
+88de0477784f3029a851c4058da7c6e3ae296326,2020-05-21 04:37:29,Dr_rOot,"Merge pull request #659 from agalwood/hotfix/webpack_copy_202005210655
+
+fix: webpack copy plugin path",True
+c119de78ce0c6c52c872e1506cc6036556e0faee,2020-05-21 04:26:04,Dr_rOot,fix: webpack copy plugin path,False
+9d381e16daf2510abfdfa0dc410f47bb4655ddc2,2020-05-21 02:54:07,Restu Suhendar,add translation Indonesia,False
+e4c6d6a9c0dfc01cf13fcbf28f464c6eb5c65fdd,2020-05-20 19:03:13,Dr_rOot,"Merge pull request #655 from agalwood/hotfix/linux_tray_202005202115
+
+fix: linux tray context menu",True
+5bb727cb6f0c5b97bda7e5d219b8997c7ea65f39,2020-05-20 18:46:35,Dr_rOot,chore: update deps,False
+00f3209c682e7e16d78358c35aa82d6206fb803e,2020-05-20 18:46:11,Dr_rOot,refactor: improve logs,False
+3f8b0e6f5ffe92055fb0010b41a454c97040fc7e,2020-05-20 18:46:01,Dr_rOot,fix: tray popUpContextMenu linux not support,False
+0543bc4e2c2779ffe4c497d5c4f7791e6b8c0212,2020-05-20 14:02:55,Dr_rOot,chore: bump version,False
+9ded42f1275b2b26b1801ce089d0dde0f78f2136,2020-05-20 11:23:20,Dr_rOot,chore: update docs,False
+834a1ad839221f439e5f7c125160db5e15a66ef5,2020-05-20 09:00:50,Dr_rOot,docs: update readme linux section,False
+8f830f6a0d9b604112ada32d5402942dee8b13f1,2020-05-20 08:40:59,Dr_rOot,fix: too fast to toggle tracker syncing spinner,False
+ee111c92ee7c47048aeb8831c1f2d29a67823d50,2020-05-20 08:39:50,Dr_rOot,fix: too fast to shut down the engine,False
+74c3a3c6965f01a18dd9f96bc89b3dc6ac81672d,2020-05-19 19:36:45,Dr_rOot,"Merge pull request #650 from agalwood/hotfix/linux_tray_20200519
+
+fix: linux tray not support right-click event",True
+4d964ae16e1253532d5b481d2b394db307d30747,2020-05-19 19:20:36,Dr_rOot,fix: tray destroy remove listener,False
+be2c2e838300c0a3dbc57cb497f1ea2ef6ec99a9,2020-05-19 09:53:31,Dr_rOot,docs: update readme snapcraft markdown,False
+4e6164816fae6157af250cd12b07cee0ce5a8fa0,2020-05-19 09:53:00,Dr_rOot,fix: linux tray not support right click,False
+fa7daf377f3fe125986757c5b0f116766727cf89,2020-05-18 11:54:06,Dr_rOot,docs: update app screenshots,False
+afbe364525d9ab247553d8000bc9f9ab076458da,2020-05-18 11:13:36,Dr_rOot,docs: fix release badge,False
+ece5cea5127cce318b8e64589bbfc14cea49df71,2020-05-18 11:07:36,Dr_rOot,docs: update readme,False
+dc8fa5c647e222d09bed1ce83c75346e59ffd287,2020-05-15 19:24:16,Dr_rOot,chore: bump version v1.5.10,False
+4fd96e7cae295bed426a3211e78e92337f588b76,2020-05-15 19:15:22,Dr_rOot,chore: bump version v1.5.9,False
+1f22b5efbabbee4973e09aafcfed8f2096fb62f6,2020-05-15 14:14:31,Dr_rOot,"Merge pull request #640 from agalwood/hotfix/task_manager_202005151229
+
+fix: save session delay too long
+fix: hide delete selected tasks on stopped task list",True
+801db0ed38623a237acb82464d3a40430dd18d29,2020-05-15 10:04:39,Dr_rOot,chore: upgrade electron,False
+f72577de6521fc3b0489b6901d82fff5c730350d,2020-05-15 10:03:58,Dr_rOot,fix: hide delete selected tasks on stopped task list,False
+dd21c76deae4e4556188f3eabd34828a64d95e57,2020-05-15 09:59:51,Dr_rOot,fix: save session delay too long,False
+5a5a932735f361e177597c273cc6bc6562031900,2020-05-14 21:33:54,Dr_rOot,"Merge pull request #639 from agalwood/feature/no_confirm_202005062312
+
+feat: no confirm before delete task
+feat: add task select video include sub files
+feat: preference support add custom tracker source #627
+feat: Ctrl or ⌘ + Enter quick submit task #638
+feat: improve task total length is zero ui #614
+fix: split & max-connection-per-server failed #270
+fix: npm build:clean script",True
+d63c1d431de53e0257df822d59954cd39f40b8ca,2020-05-14 21:13:42,Dr_rOot,feat: improve task total length is zero ui #614,False
+1a12256c4ccef055aad1cdc15278c2b24b9281f2,2020-05-14 21:10:37,Dr_rOot,feat: Ctrl or ⌘ + Enter quick submit task,False
+9394a0a79b2b1ae8eeebaeae5f93b7e0459d815f,2020-05-14 19:57:44,Dr_rOot,chore: update deps & bump version,False
+5e6620529883a08ada1cb3df06e83768bc5130eb,2020-05-14 19:56:34,Dr_rOot,chore: disable electron security warnings,False
+eb796c3c5f38ed4af991ce4e1a9940a76260206c,2020-05-14 19:56:11,Dr_rOot,feat: add task select video include sub files,False
+9d17b3e9b2b0424edcb7835da6d3f2b8bc0bec56,2020-05-14 19:55:35,Dr_rOot,fix: split & max-connection-per-server failed #270,False
+7ee8d4fa0f2c96c4fbcd82b17a06ba7ba6743b8c,2020-05-14 19:51:57,Dr_rOot,refactor: engine instance listeners,False
+dba4bfb0e7faf32cbb2bbf833d56a890efaee54a,2020-05-14 19:50:23,Dr_rOot,fix: perference sync tracker empty,False
+f9755f69cd9e895ebd73333d6c5bdf5e014b440c,2020-05-14 19:50:02,Dr_rOot,chore: improve aria2 bt config,False
+7a68e1bb8219bfa0c31c90be394078be725a81c6,2020-05-14 19:44:18,Dr_rOot,fix: npm build:clean script,False
+3b12f3960f40ddc2954ccad1afa9a3ba2c4b1d25,2020-05-14 19:43:56,Dr_rOot,refactor: code format,False
+dbe26dfa98085f8f57065a9ed8909ddfa77a61d4,2020-05-14 19:42:34,Dr_rOot,feat: preference support add custom tracker source,False
+3be8952cff2ad561720e0c0a480c9656c095d49a,2020-05-14 19:38:59,Dr_rOot,refactor: task actions commands,False
+dc5a368e0022f144118c5c7cb067b3778e957e7d,2020-05-08 15:00:53,Dr_rOot,"Merge pull request #630 from agalwood/hotfix/aria2c_darwin_202005081709
+
+fix: rebuild darwin aria2c v1.35
+
+closed #628",True
+11aca7ea0b3ccc513f3ffb60a53c63bac4d49dd7,2020-05-08 14:46:48,Dr_rOot,chore: remove bt-force-encryption,False
+c35af2b109fa83e091cbdeec555af3a78daee8ee,2020-05-08 14:42:04,Dr_rOot,"fix: rebuild aria2c #628
+
+static build script:
+https://github.com/aria2/aria2/blob/master/
+makerelease-osx.mk",False
+b33b505ccbb009b9620e17a859039ae919e37c6a,2020-05-06 20:51:49,Dr_rOot,refactor: upnp close client,False
+dd22cc03068e48382a82c08d2f09dc2bb4600191,2020-05-06 20:49:58,Dr_rOot,fix: remove enable egg features config,False
+206eda08aa6d907ecae191e28a86cb946b571fc3,2020-05-06 20:49:08,Dr_rOot,refactor: renderer native utils,False
+f6e29700d067398ad2dc7492df4b4a0702e64419,2020-05-06 20:46:50,Dr_rOot,feat: no confirm before delete config,False
+c17ceb365da20b8627f280390931b1c9e3530557,2020-05-03 20:30:41,Dr_rOot,chore: upgrade electron-builder,False
+a1851c6b3126fdd2addcb14d75ab1cc2d617a3e3,2020-05-03 19:40:32,Dr_rOot,chore: bump version v1.5.6,False
+071b0a21c2c164252c46fc16c9fa05ca722910d3,2020-05-03 19:28:39,Dr_rOot,chore: bump version v1.5.5,False
+e25dfb143c4d28d393247a1d499e608a8faa52f7,2020-05-03 19:02:12,Dr_rOot,"Merge pull request #621 from agalwood/hotfix/prepare_release_202004280758
+
+refactor: redesigned the lab page",True
+652f04bada8812b81ec4395ddd351e6fbcad3669,2020-05-03 17:56:06,Dr_rOot,chore: bump version,False
+5962334f3d9a8b8051e4d05184d5223417f49123,2020-05-03 17:55:32,Dr_rOot,feat: new lab page,False
+f984b175dcf7aefba5a6d57758f31fc30e2f548a,2020-05-03 17:55:05,Dr_rOot,refactor: code format,False
+ad1979417af86035ce910001ce6683447c668d9b,2020-04-30 19:52:48,Dr_rOot,refactor: engine config,False
+16822b9b55e5a70e30f04da7a95f9b20fb1a0dd8,2020-04-30 19:45:34,Dr_rOot,"Merge pull request #618 from agalwood/feature/upgrade_aria2_202004302143
+
+feat: upgrade aria2 to v1.35.0",True
+36551da19e8f1ed1a7c331162c826b2cabb2643a,2020-04-30 19:16:01,Dr_rOot,refactor: arai2 config,False
+f3426fdc90de5d1146a9319802138f1d78a384a9,2020-04-30 19:15:46,Dr_rOot,"chore: upgrade aria2 version to 1.35.0
+
+Compile it with reference to the script of q3aql/aria2-static-builds. The difference from the official version of Aria2 is that the max-connection-per-server is modified to 64.
+
+https://github.com/q3aql/aria2-static-builds",False
+94ead296bff7ccef6e1ba3bddc929bc95af00da9,2020-04-30 10:56:40,Dr_rOot,docs: update readme,False
+22a6f73e51a44bf1d674e810ad9553a29a2a4fda,2020-04-30 09:17:28,Dr_rOot,"Merge pull request #616 from agalwood/feature/github_action_202004292314
+
+feat: github action",True
+94b4c08da95d3387ac83893c4e92e2f6cae9eb5a,2020-04-30 08:33:52,Dr_rOot,fix: travis ci rpm,False
+041b7701c2cc306f927ca6e63d11da51ed587626,2020-04-29 21:53:27,Dr_rOot,fix: remove pacman,False
+c20d9b65eede6a31b36faf172a597ed2771ce6c0,2020-04-29 21:40:57,Dr_rOot,fix: github action mac build notarize,False
+47c5daea815baff91a6db48d873efc9364919435,2020-04-29 20:45:45,Dr_rOot,feat: test github action,False
+9676e2a0604739e3718b1ec9d5694264b393c6a3,2020-04-28 20:20:52,Dr_rOot,fix: remove ci node-sass config,False
+bb75fa6dccdc6100f07ee808294eb32be9d07e7a,2020-04-28 10:58:36,Dr_rOot,refactor: change drag select color,False
+b547ef8f2e53cd67dade70ae405553fe4eabc318,2020-04-28 10:52:20,Dr_rOot,refactor: improve shutdown upnp speed,False
+cc44e21d0e145161d2d351ed68dcb33a995ace97,2020-04-28 10:52:20,Dr_rOot,feat: implemented menu pause & resume task,False
+20ac050514356e13f7ff20f96f3d4f9bcbe29967,2020-04-28 05:57:31,Dr_rOot,"Merge pull request #615 from agalwood/hotfix/update_deps_202004271523
+
+chore: update dependencies",True
+7eeafb6c9322939c0128cc600c01f11a41985c04,2020-04-28 05:45:52,Dr_rOot,chore: update deps,False
+6fd63c872f6aae1b9b6f71f8b823f1283266be2b,2020-04-28 05:26:54,Dr_rOot,"fix: windows aria2 cmd
+
+revert forever-monitor version to 1.7.2
+
+https://github.com/foreversd/forever-monitor/commit/93cfbef1c5248eeccf00f4d760c04625476aeb51#commitcomment-37379168",False
+b8b4f044237c8d13e5d89712d2688cb16fec555f,2020-04-27 21:06:30,Dr_rOot,chore: bump version,False
+e3e2abac6fccdb1d4841ab99eb221002528a3f87,2020-04-27 21:03:48,Dr_rOot,chore: js code format,False
+b34f3ceb894bc541c141b83eafe62be327abce9f,2020-04-27 21:00:17,Dr_rOot,chore: vue code format,False
+feb07a43e126aa21a83a0b2aef413daa7004487d,2020-04-27 20:58:38,Dr_rOot,chore: upgrade babel & eslint,False
+4652672ef47cdfd95754f23b86140e49c85a7323,2020-04-27 20:53:45,Dr_rOot,refactor: replace node-sass to dart-sass,False
+8b375c019dd1eb8d32a734f62213154503eae183,2020-04-27 15:29:45,Dr_rOot,refactor: code format,False
+e232e4af70eaf6e471fb26e87bf7c46c707b3ba2,2020-04-27 07:32:12,Dr_rOot,fix: upnp config watch,False
+f57d71cebe5a392db147e42c846cf32a06b74d2f,2020-04-26 20:38:27,Dr_rOot,"Merge pull request #611 from agalwood/feature/upnp_202004222153
+
+feat: UPnP support
+
+Closed #411",True
+90daf4cb1921ff92b33a9e13117b11987b965c34,2020-04-22 19:31:37,Dr_rOot,chore: bump version,False
+d1f759ec44f248d916b0861b0ced2e0844d02695,2020-04-22 19:30:22,Dr_rOot,fix: update task progress info with,False
+45ad6dfbdab93997772c86b0254f7ce4c3d22869,2020-04-22 19:29:35,Dr_rOot,chore: update chrome ua,False
+65d45f69fe2abca81a40f7f1fd5ebacd39bbdac2,2020-04-22 19:29:25,Dr_rOot,fix: engine shutdown,False
+7e626704acbd32e0dae1eb71ec58b0c6c0e4fae3,2020-04-22 19:28:53,Dr_rOot,feat: router upnp mapping,False
+e0f9dce95241a404e66c86ba335d4e7830fdda49,2020-04-21 15:31:26,Dr_rOot,"Merge pull request #605 from agalwood/hotfix/app_improve_202004062214
+
+refactor: app improve
+Closed #588 #547 #491 #484 #481 #439 #425 #410 #376 #174 #106 #85 #27 #560 #413 #598 #551 #603",True
+edf627923e3bc3cdec053f1bf1a9d42dc9fb9227,2020-04-21 15:17:24,Dr_rOot,fix: after sign hook,False
+40f7abcc22925ca65f06b515485c4ea9369134d6,2020-04-21 15:06:13,Dr_rOot,fix: drag select components path at linux,False
+d837e97d0299f78768fff6f7054ad33bf3ccd02f,2020-04-21 15:02:48,Dr_rOot,fix: dev build html webpack plugin,False
+13034b4e9022a27ca63c96e1ee76775c671bde0b,2020-04-21 15:02:30,Dr_rOot,chore: update deps & bump version to 1.5.x,False
+b3826032eaac0248db89061218010b06229d6dab,2020-04-20 19:10:31,Dr_rOot,refactor: max connection per server,False
+d5e9ada2c9adaa452c11645b2095dacdecd3c50c,2020-04-19 13:02:51,Dr_rOot,chore: i18n batch delete task,False
+724a2a7f76fd067326845bf305f4709757324acf,2020-04-18 15:32:07,Dr_rOot,fix: aria2 bt conf,False
+64326a11af87156de2135b4be6b89c5247de820a,2020-04-18 15:31:26,Dr_rOot,feat: select all task hotkey,False
+b00536a0c78c478def9d5b5f13079ea53380de43,2020-04-18 15:01:11,Dr_rOot,feat: task list drag select & batch delete task,False
+8885e634747ce09c1587c8fb21d229e80ac09755,2020-04-18 14:17:14,Dr_rOot,"feat: drag select component
+
+forked from andi23rosca/drag-select-vue",False
+28936fd13efdb2e772e7139ce35ec3d2c7f6facb,2020-04-18 13:51:00,Dr_rOot,feat: batch remove task api,False
+08a419f20980b8aa6a081ed737f4069ddd66d03d,2020-04-18 10:48:30,Dr_rOot,refactor: task progress info,False
+8a3391c9f4849da4ee8c21678bd5d335a26d3772,2020-04-18 08:56:58,Dr_rOot,fix: restart task option split,False
+3777a1f75343ba9a1061e7da7f6f3500cb2443a5,2020-04-18 08:56:11,Dr_rOot,refactor: remove task,False
+b81298d6ebf5a026805f70f805a761d440abbc35,2020-04-18 08:50:18,Dr_rOot,refactor: batch change task option api,False
+f67b9b8dd607566036c09bf7a6a2e100bb96b384,2020-04-18 08:08:05,Dr_rOot,refactor: task status,False
+a303afb9a5f9c28de62a231962c1cbd1e04dbc7f,2020-04-17 20:14:35,Dr_rOot,refactor: improve max connection per server,False
+eee07b1b7d3b63aa3b807a295877570ba640888f,2020-04-15 21:27:00,Dr_rOot,chore: update readme features,False
+a27c49a376fdd7d7a2dbf7c43a512b6765c7859c,2020-04-15 18:53:21,Dr_rOot,chore: update readme,False
+fd81dc5194ef920b628e0867241869caaabf203d,2020-04-13 18:54:21,Dr_rOot,fix: get random int util,False
+394dfdfffc9abd52bc196757a849d8b7e20045d2,2020-04-13 18:52:25,Dr_rOot,chore: i18n bt listen ports,False
+99e9aa8046c0584050b019c9dc45f86b61b6326e,2020-04-12 19:53:43,Dr_rOot,feat: advanced preference bt listen ports setting,False
+ec295b3d72a86fe03fa5a13468e0589edf87cc9e,2020-04-12 17:27:10,Dr_rOot,refactor: is renderer linux mas,False
+8208440987d4e160b53475c818a73421d3967c81,2020-04-12 17:22:37,Dr_rOot,feat: bt listen ports config,False
+47426f2d660484dae8ed6e984713161ecbf03d69,2020-04-12 13:11:16,Dr_rOot,refactor: import code format,False
+ac75a055110b8cddad035e8111e9e342a36c5369,2020-04-12 13:01:23,Dr_rOot,refactor: tray manager,False
+c3ff1f3b23c55e11c93d4e3ea392108466299d43,2020-04-11 11:52:15,Dr_rOot,refactor: log format,False
+0f3157980c3f2945d23c86b5ed0c10308e743c67,2020-04-10 18:42:59,Dr_rOot,refactor: remove outdated trackers,False
+36929f9dc50b414d11aae64156207f4fbf2c1343,2020-04-07 08:49:19,Dr_rOot,feat: fetch task item peers api,False
+11c507008badc928a823b91ac8ad780cef1499d4,2020-04-06 20:02:44,Dr_rOot,refactor: app quit,False
+3d665498491351e616fa1f6dc05dd6f31b0f0a37,2020-04-06 19:45:44,Dr_rOot,fix: preference diff changed,False
+47ca535268267e0e28ab4aa0885285f402f34bf5,2020-04-06 19:45:12,Dr_rOot,fix: main engine client add catch,False
+7d102f9fcb048fa5ed7a9e2673066f33165dcdb7,2020-04-06 19:41:22,Dr_rOot,fix: constants duplicate declaration,False
+edf350adf352555472fda35e411e0feeb3e3f181,2020-04-06 14:26:03,Dr_rOot,"Merge pull request #596 from agalwood/hotfix/task_dir_202004061122
+
+fix: several file path related issues
+
+closed #575",True
+651f28e7e8ae0a24db0d5a62f898d4a2847feef2,2020-04-06 14:06:36,Dr_rOot,refactor: add task type constant,False
+4d7acb7c0ae175fceb88f10f298e74704073ea99,2020-04-06 14:01:42,Dr_rOot,refactor: app theme constant,False
+b75e969a01d695fe804a6a0c906f189fd9b94b0a,2020-04-06 12:16:55,Dr_rOot,refactor: move task files to trash,False
+0b6f5e7d43c24c98da94d2bc38232025b0edbf96,2020-04-06 12:16:45,Dr_rOot,refactor: show item in folder,False
+a82000a13bfa55657f57fcc591b5365568e6f8f2,2020-04-06 08:57:44,Dr_rOot,refactor: temp disabled prettifyDir,False
+edee889a1a84ed1060b5dc2da42e59554ec606bd,2020-04-05 20:49:29,Dr_rOot,docs: update travis-ci build status badge url,False
+afd2fdeabf4e8023aff5074a40a31e135d287eae,2020-04-05 20:48:43,Dr_rOot,"Merge pull request #594 from agalwood/feature/proxy_setting_20200405227
+
+feat: improve proxy setting",True
+34011d7bc8e128150dd3a3edede1a473506ed2a7,2020-04-05 20:20:30,Dr_rOot,refactor: move rename utils location,False
+6cf6b69f8e9de6f848a4768f743d48d1c1519a79,2020-04-05 20:19:58,Dr_rOot,chore: i18n add task proxy,False
+a386c704e471111d8b693aca949af266b1fc5c75,2020-04-05 20:19:40,Dr_rOot,feat: add task support use proxy,False
+0994244b0ebb502b8b555196f58f53f8d67525ea,2020-04-05 20:18:37,Dr_rOot,chore: i18n no proxy input tip,False
+777977e001f200e7174b5a0af157d3a5e5868a17,2020-04-05 20:18:07,Dr_rOot,feat: advanced preference no proxy setting,False
+af5ac44dc8b627ce0850e1b2b5863d9454ac639a,2020-04-05 19:16:02,Dr_rOot,"Merge pull request #592 from agalwood/hotfix/update_ci_conf_202004052048
+
+chore: update ci conf",True
+23382a9415abfb2290246ff8a3c0ff48896c0276,2020-04-05 18:20:55,Dr_rOot,chore: update ci conf,False
+7b2da0f35b79a7b1aababd393af7fc9801009cdf,2020-04-05 10:06:19,Dr_rOot,"Merge pull request #590 from agalwood/feature/tracker_source_202002091515
+
+feat: sync tracker add more source and support auto sync tracker data daily",True
+4037dad5821392fa573fa268423eceb7c19e4252,2020-03-22 21:02:45,Dr_rOot,docs: update readme add install electron guide,False
+353ee23cfc0d23372fb78ea920abe9d48b7026da,2020-02-23 19:49:45,Dr_rOot,feat: preference show last sync tracker time,False
+29b0d90bc716b2a6f58ad34bac2aa4c7b964e98f,2020-02-23 09:38:41,Dr_rOot,"fix: Application showPage fn may cause memory leak
+
+MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 ready-to-show listeners added to [BrowserWindow]. Use emitter.setMaxListeners() to increase limit",False
+073e514f956c9a6dd0906ebed6b3650c2fd9b669,2020-02-23 09:29:19,Jiaqi Gu,"feat: Automatically hide window when losing focus (#557)
+
+Automatically hide window when losing focus",False
+a35fba482026d0370a9495b7c94c0fe9c11aa1d3,2020-02-22 13:17:28,Dr_rOot,fix: i18n uk transfer settings,False
+828d854eb54e4d2339260e548e7a964e0d625620,2020-02-22 13:16:04,Dr_rOot,chore: i18n sync tracker,False
+5dbe15717070cc29837085fd968c6e3926d427d0,2020-02-21 19:56:22,Dr_rOot,feat: auto sync tracker when app launch,False
+cdc196c2b05a0ce1f182e79e4c80c35d3f1a9469,2020-02-21 19:51:05,Dr_rOot,refactor: save preference config,False
+3d26445953b1995d7dc6b0d694cbef18e25e94fc,2020-02-21 19:45:41,Dr_rOot,refactor: app updater auto check,False
+f887878b9e7edd4961d52ee0da0ff807e8f862e0,2020-02-21 19:41:07,Dr_rOot,feat: main init engine client,False
+908f60df1a38af52d0106ebdd58d8a11e6e37b69,2020-02-21 19:34:45,Dr_rOot,feat: advanced preference auto sync tracker,False
+56c9b58d875602023cf0d52cead014df3a4d349d,2020-02-20 16:59:54,Dr_rOot,refactor: advanced preference sync tracker,False
+d56983d45de5f2c5c5871ed9396ef485d2c47139,2020-02-20 16:53:48,Dr_rOot,refactor: fetch bt tracker data,False
+8775e12587403bed9a1e47ce1647b93f4f1bbadd,2020-02-19 18:15:48,Dr_rOot,refactor: launcher callback,False
+df2e01813eae0d4e17bae98225f3fa696624c683,2020-02-18 14:38:01,Dr_rOot,feat: add trackers blacklist constant,False
+d77a6faf36ba8510b64430b3ef72a095bd7027a5,2020-02-16 11:12:46,Dr_rOot,fix: aria2 bt conf,False
+5e735b513d4c7ebb5343c020cfe1d01b87bbc56b,2020-02-12 13:42:57,Dr_rOot,feat: task show connections,False
+64f0a3db8021020020f9fbdd6f2ef104f056d7a0,2020-02-10 08:35:38,Dr_rOot,fix: sync old data when tracker source changed,False
+e470ed00d64c203a2b746a4a2aa70260ba8e4f52,2020-02-09 13:21:01,Dr_rOot,refactor: engine rpc config,False
+36a27bae46f072b3917a9fc780392cf88beffedf,2020-02-09 13:14:55,Dr_rOot,feat: preference select sync tracker source,False
+5d900806e8704cfb81216b8cf7572d089200bc26,2020-02-09 13:04:45,Dr_rOot,fix: system engine config keys,False
+ace14c85dc23cff59f265e917799db4d7810ea1a,2020-02-09 13:03:13,Dr_rOot,refactor: improve ui style,False
+3ec4bd26e6e50a66f93407bdfec1b02cc7889b00,2020-02-09 13:02:04,Dr_rOot,refactor: update manager last check update time,False
+b9bc5e6c075fd527d72754baea050a93771ea720,2020-02-09 12:53:00,Dr_rOot,feat: auto remove aria2c unrecognized options,False
+021fbc243ac937aec9e855d2d0e1ff2a729dd4ca,2020-02-09 12:51:55,Dr_rOot,refactor: rename & add tracker source,False
+8b66f2ea6ec468e75d0b368fcbd09ef2b4a95322,2020-02-09 12:48:11,Dr_rOot,refactor: make tracker unique,False
+7703c28c6e68b2be919eb25afd28302ce4c38b9f,2020-02-08 13:37:08,Dr_rOot,"Merge pull request #544 from agalwood/feature/win_title_bar_202002081321
+
+feat: improve win & linux title bar style
+
+Closes #461",True
+26db88ec51cbe14b09ec1c0729147a613838cc5e,2020-02-08 10:53:35,Dr_rOot,refactor: adjust close btn color for win & linux,False
+51b7ea40307f3c2c9f9e9cc423710a5c3d7c6307,2020-02-08 10:52:02,Dr_rOot,refactor: remove title bar button spacing,False
+1e2368dd3b322380260790118e709e8c1c58f9ea,2020-02-08 10:20:04,Dr_rOot,docs: update contribution guide,False
+f28c3ae5c5a6c279512e7c7de4d1aec2c9161e89,2020-02-06 19:52:00,Dr_rOot,fix: adapt the new api of Electron's TouchBar,False
+ebdd125d918df65dc1d529bfbfa898e5167edb98,2020-01-31 16:20:14,Dr_rOot,"Merge pull request #529 from agalwood/feature/proxy_tip_202001311802
+
+feat: Perference advanced panel add proxy tip
+
+close #488",True
+9bcc38626977d296eb25a295ad0d13aea0b9f506,2020-01-31 15:46:04,Dr_rOot,feat: perference advanced proxy tip i18n,False
+27c48af2789bd270157dcf504b755a3f4919a6f2,2020-01-31 15:45:37,Dr_rOot,feat: advanced perference add proxy tip,False
+4b4df884dcedfbc0f88a761bb71eccbed42409fe,2020-01-31 13:32:10,Dr_rOot,"Merge pull request #528 from agalwood/feature/run_mode_202001311505
+
+feature: Preferences add Run Mode setting
+
+close #345 #350",True
+64082ddd70062845d600c386f89d4799bc7eaa32,2020-01-31 13:15:12,Dr_rOot,fix: i18n rename appLocalePtBr to appLocalePtBR,False
+188a39d0d2c9b87345ce90c30972aa40cc918110,2020-01-31 13:14:30,Dr_rOot,refactor: i18n rename ru-RU to ru,False
+44f8f23a7cc346c360437b27dbfc7b001c82dcc0,2020-01-31 13:07:56,Dr_rOot,feat: run mode i18n,False
+32340218e234481f2b2aa22de250b243054a5dd1,2020-01-31 12:50:01,Dr_rOot,refactor: change dock state use DockManager,False
+85a8430c3f7e492e7396e2d935d06890a48a0b32,2020-01-31 12:47:45,Dr_rOot,refactor: ipc change update menu state to command,False
+e47816e273470218d87cbed79e3b1735a6c46296,2020-01-31 12:45:55,Dr_rOot,refactor: save preference use ipc message,False
+b7356702fc7fab7931df0bfa4ee044dae7d900e2,2020-01-31 12:40:51,Dr_rOot,feat: add DockManager,False
+a61c857e11354a8256beac3c2dc947691baa1fe8,2020-01-31 12:39:31,Dr_rOot,feat: add run mode config,False
+d3ef30d943bd64e68f1ae3fc5d31043557f52169,2020-01-31 12:37:49,Dr_rOot,refactor: speed options i18n,False
+b8d5eb5ac10d0e39351766ae9a75e8cbde7e5e76,2020-01-31 12:36:14,Dr_rOot,fix: add task out i18n,False
+aeaf0fe9cacecaca607b4e6aa48a79ba57f4ac77,2020-01-31 11:50:24,Dr_rOot,"Merge pull request #527 from agalwood/feature/improve_responsive_202001311239
+
+feature: improve responsive 202001311239",True
+8bebb942cab6517f66b55fd331afca8083bc983a,2020-01-31 11:41:25,Dr_rOot,fix: remove TaskSwitch,False
+f0e795f00c7bc36fd064e87534d6c6208cf517c6,2020-01-31 10:19:24,Dr_rOot,refactor: code format,False
+7d4eec6b02dcebee394153dc06a32a6182b6af19,2020-01-31 10:15:30,Dr_rOot,feat: preference responsive subnav switcher,False
+fe2dc7a5419cf18e15cc2505739e0fc22be5fd3f,2020-01-31 10:12:39,Dr_rOot,refactor: task subnav switcher,False
+848b9e78e1c244e37b33169f711d3a61c4a69874,2020-01-30 12:44:00,Dr_rOot,"Merge pull request #525 from agalwood/hotfix/fix_open_dialog_202001301122
+
+fix: electron v7 dialog showOpenDialog promisify",True
+2fa33f75e5ed728c7e54d379e9713cab32a7d4f4,2020-01-30 08:55:34,Dr_rOot,fix: electron v7 dialog showOpenDialog promisify,False
+1f6c2a6ff0eb2774c5cbb8df8620f455781949e3,2020-01-29 21:35:09,Dr_rOot,"Merge pull request #524 from agalwood/hotfix/upgrade_deps_202001232019
+
+fix: upgrade deps 202001232019",True
+a8e3c7843c822bfff8c3511b19b85522202762ce,2020-01-29 21:22:04,Dr_rOot,fix: ci node sass,False
+8b1ba2425cd0160e750758d20ad8b803c04a67a8,2020-01-29 21:07:19,Dr_rOot,chore: update ci,False
+47acf4fad1d81f4b16d101c6d895ac2d218fb7b8,2020-01-28 11:25:53,Dr_rOot,fix: remove select torrent checkbox ellipsis,False
+9beb48be921fa51098c483b0a4d419a0382faffa,2020-01-28 11:25:17,Dr_rOot,fix: wrong eslint rule place,False
+bbe52a2a18c490aa079c916c58d090165efce2cc,2020-01-28 11:24:27,Dr_rOot,chore: update chrome ua,False
+0b7302841291f7c264b5481469e52de337022bd5,2020-01-26 20:51:33,Dr_rOot,refactor: app info engine title style,False
+2311a7ed86b8b4731c37945f42cc9b543c468fc5,2020-01-25 00:11:46,Dr_rOot,fix: catch vue router NavigationDuplicated error,False
+95ed300d1bf1a3ee26f7fba474abb621cf0bdf16,2020-01-25 00:07:28,Dr_rOot,"refactor: nativeTheme.shouldUseDarkColors
+
+systemPreferences.isDarkMode()
+**Deprecated:** Should use the new `nativeTheme.shouldUseDarkColors` API.",False
+dcd2d50c830ff9988f832323c0fe4fac30e68b24,2020-01-24 19:47:06,Dr_rOot,refactor: dialog.showMessageBox promisify,False
+57ed6c7941d5499f29f1dc2925344a70530878f7,2020-01-23 19:10:12,Dr_rOot,chore: upgrade deps,False
+870c4089fb4d0d46ee6eff027b731810a0b8b505,2020-01-23 19:09:00,Dr_rOot,refactor: replace babili with terser,False
+1082f9330edf5d2e17fb3a9a2e79bfb6900bb2ed,2020-01-23 19:07:15,Dr_rOot,refactor: upgrade sass loader,False
+a7f33869a06b8ca33102b5400c15cd51d3b45672,2020-01-05 14:42:01,Dr_rOot,chore: daysUntilLock increase to 60,False
+89336dda3768e076d125799987dc0cea5c52abea,2020-01-05 14:37:09,han,feat: make Motrix layout more responsive (#505),False
+4240dee42612ab3cce79340ba7c42164a3796761,2019-12-12 13:50:33,Dr_rOot,"Merge pull request #472 from kant/patch-6
+
+fix: Typos fixed and some translation redone",True
+83c1c1340eb4a7d46e3894534f73f887a979e6dd,2019-12-12 13:50:24,Dr_rOot,"Merge pull request #471 from kant/patch-5
+
+fix: Typos fixed and some translations redone",True
+408e33adb1bc6268da58aeafe40ffc18e6d3fbdd,2019-12-12 13:50:15,Dr_rOot,"Merge pull request #470 from kant/patch-4
+
+fix: Typos and bad translations redone",True
+d2dde274d347fcf19524077de6920001685f2450,2019-12-12 13:50:03,Dr_rOot,"Merge pull request #469 from kant/patch-2
+
+fix: Typo fixed on line 02",True
+7b27f82f1e77e02a41d7aa3bd060424110e6cf0c,2019-11-11 10:19:12,Darío Hereñú,Typos fixed and some translation redone,False
+2d32a2848c5c3ac2d1b0c59a4cb9ad9f8a2618dd,2019-11-11 10:09:32,Darío Hereñú,Typos fixed and some translations redone,False
+c128689b2e41b753781c2cf021709d85363d6b55,2019-11-11 10:02:57,Darío Hereñú,Typos and translation redone,False
+7702aa6ca1e49d9577c7824b3147beaad3e76787,2019-11-11 09:59:28,Darío Hereñú,Typos and bad translations redone,False
+2fb32fa347d3e9c391d63007784e21bed22c79c4,2019-11-11 09:54:48,Darío Hereñú,Typo fixed on line 02,False
+2744db2d75e9ebd6f1786b894f9051ee10d9ac6b,2019-11-05 20:45:31,Dr_rOot,docs: update readme i18n add ca,False
+adb060b076397b475dde8a29df67892473f90057,2019-11-05 20:37:21,Dr_rOot,"Merge pull request #467 from marcizhu/master
+
+feat: add Catalan translation",True
+561d7608d8cb633758faba4999a590d19af4c0b2,2019-11-05 16:23:01,marcizhu,feat: add Catalan translation,False
+06d9a95827ba3ac7b2ece6cbde9432bd4f0ef3f7,2019-09-16 09:38:32,Dr_rOot,"Merge pull request #424 from agalwood/hotfix/webpack_config_4node12_201909161132
+
+fix: process is not defined at node 12.x #267",True
+9c386c4bdc32045e0462e02a888dd9b241d9619d,2019-09-16 09:04:12,Dr_rOot,"fix: process is not defined at node 12.x #267
+
+https://github.com/SimulatedGREG/electron-vue/issues/871#issuecomment-490370237",False
+a1eb48926a4d6148502d850ecacd3e0d185c4505,2019-09-09 13:33:58,Dr_rOot,"Merge pull request #420 from agalwood/feature/custom_tracker_source_201909091524
+
+feat: user config custom tracker source",True
+c1ed827244dcdf44cae95c1ef635970cb03ceb24,2019-09-09 13:19:28,Dr_rOot,feat: add custom tracker source to user config,False
+663e1a2db198d5bfa7319459083b7409577eb1d3,2019-09-09 13:17:56,Dr_rOot,refactor: empty string constant,False
+c0a2b50b9fc3b64a860f4d65685e0402581440cf,2019-09-09 12:52:04,Dr_rOot,"Merge pull request #419 from agalwood/hotfix/fix_energy_manager_201909091450
+
+fix: stopPowerSaveBlocker when psbId = 0
+
+closed #418",True
+a843ae455307690f8f656053ce720aff542a8e0b,2019-09-09 12:19:35,Dr_rOot,fix: stopPowerSaveBlocker when psbId = 0,False
+d195b23512204d7ce10e73cb2fb8d96ace0cd67d,2019-08-08 08:46:39,Rodolfo Robles,feat: Spanish Translation (#385),False
+f6c84b7e573402d8df1f2a72cfa6007803a5c87f,2019-08-06 08:11:46,Zaoqi,docs: add extra/README.md,False
+98df9c3f2aaf2cceaf5028bd1574f86af322f1d1,2019-07-22 17:34:36,Dr_rOot,fix: magnet and thunder protocol handle,False
+7e703eb552cb66c73064cf75b337627afcfca2e1,2019-07-21 10:08:34,Dr_rOot,chore: update license copyright,False
+87bcac61229b82e82807595b16831b2947b94bd5,2019-07-21 10:08:27,Dr_rOot,"fix: update copyright #365
+
+Closed #365",False
+6935a12289bbb7743698992aceb7c1544646d910,2019-07-13 20:19:40,Dr_rOot,chore: readme i18n add ru,False
+39688b667e7ac717309a4c1637746274fc177768,2019-07-13 20:13:53,Dr_rOot,"Merge pull request #358 from bladeaweb/feature/ru
+
+feat: Added Russian localisation.",True
+f174887f9f85aafcbf20eebfbb987bab3306c992,2019-07-13 19:38:37,Alexander Sharkov,fix: Removed not requirement changes.,False
+caba0866513e16bedb334d333dde9e908073f8b3,2019-07-13 18:36:41,Alexander Sharkov,fix: Fixed some required changes of language short name.,False
+b627b389855c2caee48a114da846690b1292dab6,2019-07-13 18:01:12,Dr_rOot,"Merge pull request #357 from bladeaweb/feature/uk
+
+fix: Fixed spelling issue.",True
+1c35d72aa523f12fa8e2588d4d154bf9b8cd7662,2019-07-13 17:36:17,Alexander Sharkov,fix: Fixed spelling issue.,False
+8ecbfdd66dfab4424eea1cd5c9071809d1e8ae15,2019-07-13 17:33:39,Alexander Sharkov,feat: Added Russian localisation.,False
+3be568f6ab7a73f1ff3e2e4e8dc8747ed8b66e70,2019-07-11 09:05:01,Dr_rOot,"Merge pull request #354 from agalwood/hotfix/preferences_changed_201907042031
+
+fix: preferences changed data outdated",True
+fa29c11c7386b60d1669c5d205bbbcc10ee342e1,2019-07-10 19:12:00,Dr_rOot,"Merge pull request #353 from agalwood/feature/shift_delete_201907032126
+
+feat: shift delete task with files",True
+6b153d68b467df35490a24d7ce176271680d5e98,2019-07-08 13:25:18,Dr_rOot,docs: add tips of first launch in linux,False
+852266dc169fba91b37bcbab8c63e3a701bf27e4,2019-07-04 18:39:39,Dr_rOot,refactor: preferences function,False
+4170cd3419592b5831530cda5d3f943b62dfb7bd,2019-07-04 18:34:34,Dr_rOot,refactor: lab preferences,False
+a15870871f9c87f4d59af3f71372cbc9fd15535b,2019-07-04 18:27:24,Dr_rOot,fix: advanced preferences changed,False
+571499caad8b628db56163183bb0d2ddc47ae835,2019-07-04 18:07:56,Dr_rOot,fix: basic preferences changed,False
+766c2c26b8581c51beca1851010bf68018b690f2,2019-07-03 19:04:27,Dr_rOot,feat: shift trash task auto checked remove files,False
+1f27f88aa72968fa7c26e3cd170843cf6d4cfd1d,2019-07-03 19:04:11,Dr_rOot,feat: shift delete task auto checked remove files,False
+e06888e998cab784a396943905e7787209cca2fb,2019-07-02 17:51:11,Dr_rOot,chore: add pull request template,False
+91a2d0a2708a79d6cd4196acd90ab8faad591e83,2019-07-01 18:03:06,Dr_rOot,"Merge pull request #341 from agalwood/feature/download_outs_201907011638
+
+feat: add task out support rule #326
+
+Closed #326",True
+8e3fe4c9803975b73506fb6008573bc44e2c1be0,2019-07-01 17:46:26,Dr_rOot,refactor: buildRule operator default PLUS,False
+f3724107f04ed3d009bd5f312e9cd1ee8da50d4b,2019-07-01 17:44:02,Dr_rOot,refactor: rule operators,False
+580c32a2b9d074783c152fd066087b433cf6dd9e,2019-07-01 16:26:10,Dr_rOot,"Merge pull request #340 from agalwood/feature/save_preferences_201906271147
+
+fix: check changed preferences is need restart",True
+575712ba9fe7fe36b64dca3c25d7c5ac3cd15525,2019-07-01 16:05:10,Dr_rOot,"feat: add task support out rule #326
+
+Out rule sample:
+abc_(001+).jpg
+xyz_(100-2).html",False
+84006f348c4c39d0729c97fa8681e03f327e3dd0,2019-07-01 15:52:04,Dr_rOot,feat: add buildOuts util,False
+a9759441d3416bc8a462ff4a57b08234b72197c3,2019-06-30 08:14:11,Dr_rOot,chore: update readme,False
+728f8e9019e2d0ac8d1a08e4aa994a4f8592f967,2019-06-30 08:13:27,Dr_rOot,"fix: readme i18n typo #338
+
+closed #338",False
+e8142108964456e4a50e27483196a621b0f0883c,2019-06-28 21:54:54,Dr_rOot,chore: update getLanguage comments,False
+a0c6877524a6bbe61f12fd8920bae712e75ac89a,2019-06-28 21:54:44,Dr_rOot,fix: remove useless fallback,False
+29b0dd627d032770fb862e9678841ff07660baf9,2019-06-28 21:40:16,Dr_rOot,"Merge pull request #334 from bladeaweb/feature/uk
+
+feat: added Ukrainian localisation.",True
+dc48cad7e8acd2788d82ba7dc4b4eb7ba2750aca,2019-06-28 15:17:26,Alexander Sharkov,Added: Ukrainian localisation.,False
+35df1c799b55313baf85d5f930bf1d915b98ecb7,2019-06-27 12:33:08,Dr_rOot,fix: check changed preferences is need restart,False
+912e661c020cbf031b57a8417973539affb45e10,2019-06-27 09:02:58,Dr_rOot,chore: update developer tools tips,False
+1a2de2ad88b90a001bbe75e2d08c145385530e1f,2019-06-23 21:38:19,Dr_rOot,"Merge pull request #323 from agalwood/feature/prepare_v4_201906201052
+
+chore: prepare for release v1.4.x",True
+e44587035d021aa897e98f40e5e3fb7962bb08df,2019-06-23 20:28:59,Dr_rOot,fix: bump version to 1.4.1,False
+43f1adcd849069062a519e15fdbea90b17f7b6f8,2019-06-22 18:16:29,Dr_rOot,fix: electron 5.0 performance is low revert to 424,False
+8a900459b5488e9815103751954031ecc03b2151,2019-06-22 18:09:38,Dr_rOot,refactor: auto copy changed rpc secret,False
+d2f8a4599d894d73a1b96aa682ceea23b4b3f11f,2019-06-21 13:16:11,Dr_rOot,feat: auto copy rpc url when dice changed secret,False
+9159fb36ab7ca8c2abe98498a059e8e4524b991a,2019-06-21 12:28:07,Dr_rOot,chore: bump version to v1.4.0,False
+5be05395f5b7f95dafa2868c623e704300d25766,2019-06-21 12:27:45,Dr_rOot,chore: upgrade dependencies,False
+fba76df94506fc84563ff679801cdfd2ba3bb3a9,2019-06-21 12:13:32,Dr_rOot,fix: change app update url,False
+5bb4f259cdbe0d7389ad5f8ce33e381ca4efe3a5,2019-06-21 12:12:57,Dr_rOot,fix: set bt-detach-seed-only=true,False
+4b093a1a4fff6551e5c96ba266b54ac31fd063fd,2019-06-21 12:11:28,Dr_rOot,fix: increase the number of egine process restarts,False
+134d81b20589c59aee2172f4347078a2d5ccc32f,2019-06-21 12:10:15,Dr_rOot,fix: task stop seeding,False
+d5fc962bcae8b0dd100ca2fbc3c38305410a0c5a,2019-06-21 12:10:04,Dr_rOot,fix: change task option,False
+0d1b76d523e828459c58307bbe41ed28bd81fd7e,2019-06-20 12:58:28,Dr_rOot,fix: checkTaskIsSeeder util,False
+6499ce91b83c917136c6744bdb321baf8eececc5,2019-06-20 09:19:30,Dr_rOot,refactor: update element ui theme chalk,False
+2d7907f218715e7325671c99c90e1efbef2a9e02,2019-06-20 08:49:54,Dr_rOot,chore: improve npm scripts postinstall,False
+97c1cb0418abac8670e5e800646bbcf42aa641b0,2019-06-20 08:47:16,Dr_rOot,fix: change rpc doc link,False
+be585ef102e67b47530a6ec0521e4854d08135f0,2019-06-20 08:27:48,Dr_rOot,refactor: move bt-tracker config manager to file,False
+03002221e7dbcf85b9a8d62639e8a860b4cf35fe,2019-06-20 08:08:58,Dr_rOot,"Merge branch 'feature/task_list_201905312258'
+
+# Conflicts:
+#	src/renderer/components/Native/EngineClient.vue",True
+4b8de781a46d919a901604390cbf2454be4d9b40,2019-06-19 17:26:07,Dr_rOot,refactor: improve download error message #293,False
+8224423d8cf3e64bdd3724a7e79949d3ae1b533c,2019-06-18 18:37:14,Dr_rOot,refactor: update panel content padding,False
+1e05e1e4f3d5fbe10961097ee45ded8a9a289538,2019-06-17 17:57:51,Dr_rOot,fix: element ui message link color,False
+bfd1e1b6fa7af1a7d9cf0f9724ef98cfa5ef3446,2019-06-17 17:18:57,Dr_rOot,refactor: removeTaskRecord error complete removed,False
+79495cbde5cc4674b3d6d79b75f1484a7da1f56a,2019-06-16 21:14:49,Dr_rOot,refactor: auto save session when save preferences,False
+a93d183988d347a96bdf559e16fecb06dd263acc,2019-06-16 19:00:24,Dr_rOot,fix: disabled certificate check,False
+cf082b20d8cee2c37b6ef3597368b820899788e8,2019-06-15 20:39:29,Dr_rOot,fix: there is no localhost rule in /etc/hosts,False
+81104094029745ecc51e0667326d32850562a3a5,2019-06-15 17:53:11,Dr_rOot,feat: empty addTaskOptions when task added,False
+37b446b6f030d9682fa217031cdabf84bf14b25f,2019-06-14 20:52:36,Dr_rOot,feat: add parseHeader util for restart task dialog,False
+97801fff320622a9370187152b1112f596d2bbd4,2019-06-14 20:08:07,Dr_rOot,refactor: task item actions restart & stop seeding,False
+4ca4f5e606059b2dead75b5bba891ea129d62cea,2019-06-14 19:50:34,Dr_rOot,refactor: add task to support addTaskOptions,False
+e9caf1b0b4e3fe909164ab0b841abbd4664e0a17,2019-06-13 18:17:33,Dr_rOot,refactor: transform add options keys to kebab case,False
+d67dca00b55da803edd31f432100a5f37a3a50b5,2019-06-12 18:06:03,Dr_rOot,feat: add getTaskOption action,False
+038536259e689e54b15771870abe0ea9c36468ef,2019-06-12 18:04:22,Dr_rOot,feat: add task restart icon,False
+ec21cc57bc0f6b19ada0206ee5aa34d8cebd3f4f,2019-06-12 14:33:28,Dr_rOot,"Merge pull request #314 from theweavrs/patch-1
+
+Add code of conduct for the project",True
+5a42e4014b61676adde0077642ff71394da33e9c,2019-06-12 12:45:04,thecodrr,chore: add code of conduct for the project,False
+02d4032283509f63f6dca6da130e177117831748,2019-06-12 06:58:40,Dr_rOot,fix: form-actions background color,False
+d676dbe213008e5645882bb9cbb4b92cd28a4342,2019-06-12 06:38:31,Dr_rOot,"Merge pull request #309 from theweavrs/master
+
+feat: add background under form-actions in preferences",True
+02d83534d1f23ba015a830243c4b24e7aeb1465b,2019-06-11 20:11:07,Dr_rOot,refactor: check is exist before delete task file,False
+8b531c76b87479dca1db3618f8c1dbe19a8ebbf7,2019-06-10 17:05:45,Dr_rOot,fix: eslint no-empty-pattern error,False
+22f92df299faa141fb4eaa9f76ca7317e22bb0b8,2019-06-10 16:32:21,Dr_rOot,fix: remove useless lab form.protocols key,False
+eaf91e15e8c111dc3b1b3c9f6a927dd4ac8c4e24,2019-06-10 16:04:05,Dr_rOot,"Merge pull request #310 from agalwood/feature/protocol_setting_201906091107
+
+feat: add option to set default protocols client #305",True
+4535cb706af1300f115022c1093fd92a42cff6ae,2019-06-10 15:17:51,Dr_rOot,fix: setup-protocols-client command logic,False
+a093f3beca481173464520159a67a17a7599bdd0,2019-06-10 15:17:12,Dr_rOot,chore: i18n tw protocols,False
+287c9038b1c7d9267c18c8caf94423756126a2db,2019-06-10 14:42:25,Dr_rOot,"Merge pull request #308 from theweavrs/feature/protocol_setting_201906091107
+
+feat: add option to set default protocols",True
+72aac9c0c673b9f545a21ea92ea26062cba629b6,2019-06-10 14:18:20,thecodrr,feat: add background under form-actions,False
+cdac88371c26c277e7cf3b6949a7230d798ea988,2019-06-10 13:22:30,thecodrr,refactor: remove change handlers,False
+678bed53dc42e38a03f854e813ccfd2db744b168,2019-06-10 13:19:33,thecodrr,feat: add localization for protocol settings,False
+1f805c3440cb0a3cdc94faa85c36b629092343d3,2019-06-10 12:52:31,thecodrr,refactor: remove unused localized string,False
+c8dcb1023fe80b67e8cca1d689362fc5d874d33a,2019-06-10 12:47:55,thecodrr,feat: handle setup-protocols-client command,False
+a0e7eb84ca7fc89aac9895a4169200e37bef31c0,2019-06-10 12:33:10,thecodrr,feat: send setup-protocols-client command,False
+fdf0bb83208ca7047bec328667da4b3098ef2b4f,2019-06-10 11:23:21,thecodrr,refactor: move protocol settings to advanced menu,False
+e2338757de7b91724c72ef154c288e77557cb200,2019-06-10 10:37:09,thecodrr,refactor: merge magnet & thunder protocol handling,False
+c0cbfb5cb21926b8a606409ee670a486b2e16a86,2019-06-10 09:05:48,Dr_rOot,refactor: preferences lab protocol client settings,False
+fddaa72ac67cf368df454f9ea946232069a09159,2019-06-09 20:39:59,Dr_rOot,refactor: protocol manager init setup,False
+1e531f166b451ab64eaac61fa8177e82fd9ca164,2019-06-09 20:39:27,Dr_rOot,feat: handle thunder protocol,False
+97f54adc49092c8657fc6da54602073cdc27c782,2019-06-09 20:38:30,Dr_rOot,feat: add protocols to user config,False
+e6548d5548a6db86aa858ef23673b678dac0d23f,2019-06-09 20:24:58,Dr_rOot,"Merge pull request #306 from agalwood/feature/rpc_secret_201906071137
+
+feat: preferences add rpc-secret setting #138",True
+137fdf2b26b81ba6d6ff357693d4bda829091892,2019-06-09 20:05:41,Dr_rOot,fix: npm add randomatic deps,False
+10ef4f73182c357c1cf582bbd497f78db79e89ef,2019-06-09 20:03:52,Dr_rOot,feat: i18n preferences rpc-secret,False
+bdd5e56c2a9ea92ec6da71dd9ec2e98c8f932cfa,2019-06-08 20:23:13,Dr_rOot,feat: preferences add rpc-secret setting,False
+a851ec58307cf5dadabf7b92200bddc2373c4bdd,2019-06-08 20:22:20,Dr_rOot,feat: add icon dice,False
+2ae3642c62385b01b5233799712130e2dbcad6b0,2019-06-07 17:37:20,Dr_rOot,feat: add check task is seeder util,False
+7b41a9e1c684c0b206a1634a5624d0ae2948b1bf,2019-06-06 10:08:29,Dr_rOot,docs: update scoop install guide,False
+012e5ece0081ec75c838241dbe9cabf2640b6f7f,2019-06-05 12:29:09,Dr_rOot,"Merge pull request #301 from agalwood/feature/preferences_layout_201905301105
+
+refactor: improve preferences layout",True
+db8d3d1aec7a8c5ba9d7655b106fb2386dd52f0f,2019-06-05 09:57:18,Dr_rOot,feat: i18n check for update messages,False
+8e35dde082a8848694fd6e38375e7f69394531ab,2019-06-05 09:56:45,Dr_rOot,"feat: add check for update at preference #298
+
+closed #298",False
+5c2acf12eed5b13fe68230a2ac87eca971d97aff,2019-06-05 09:28:23,Dr_rOot,feat: tray menu support disable item,False
+e710ccdb34336a43361388ecece6bcd506788868,2019-06-05 09:27:37,Dr_rOot,feat: add check for update to tray menu,False
+5ecc08d66d9f8eea76f64e0e16766c4fceff69ae,2019-06-04 19:35:51,Dr_rOot,refactor: clean up useless code,False
+e7b1a898faa873208cf90dc6ab83cbf0db11677f,2019-06-03 17:27:04,Dr_rOot,feat: add task history icon,False
+93acf1ba6313c43837ffdbfe1b57d5c9331974f6,2019-06-01 23:52:13,Dr_rOot,fix: el-progress status value for element ui 2.9.x,False
+1164df87e36779ff90cf646082a7b4d6abee70c7,2019-06-01 09:17:24,Dr_rOot,fix: i18n add missing ja translates,False
+71232603a540e4afbe3084f01af69c144c0f7212,2019-06-01 09:14:55,Dr_rOot,refactor: rename updateStates to updateMenuStates,False
+286013b2f07a55014351799ec9a02388a7ad5373,2019-05-31 17:12:53,Dr_rOot,refacotr: clean code,False
+a5f023666129c86b1e69c33c92ede0838361c663,2019-05-30 18:14:28,Dr_rOot,"Merge pull request #296 from agalwood/feature/transfer_speed_setting_201905282346
+
+fix: refactor transfer settings",True
+87857eba946cbc25889e52f6db1dbc9042cf8085,2019-05-30 18:13:45,Dr_rOot,refactor: move auto update setting to advanced,False
+3059d1a0b7045fae2a68f1a1f42a57bc579f89dd,2019-05-30 13:17:45,Dr_rOot,refactor: preferences move mock ua to security,False
+5029f98153752d4f4796cd0c3ea9f8f36972801e,2019-05-30 11:55:56,Dr_rOot,refactor: preferences form item style,False
+ce80af7eadb8d1801412c274f0143a45d05175da,2019-05-30 11:55:23,Dr_rOot,fix: increase mo-speedometer z-index,False
+6df52988b06c9fbdd11821a2aeb17f8cbb727ab2,2019-05-29 21:27:42,Dr_rOot,chore: i18n preferences transfer settings,False
+6359c729ad18bea85e5558bfbd737a3875b6c253,2019-05-29 21:23:58,Dr_rOot,fix: horizontal scrollbar height,False
+04db94daa620d6a59cc666414dde8702b7fc0c7c,2019-05-29 21:20:33,Dr_rOot,refactor: i18n calc form label width with locale,False
+d41d809f00b8e4104ad4312252f94af5061e5e9e,2019-05-29 12:55:37,Dr_rOot,"Merge pull request #295 from gee1k/master
+
+fix: remove the button in the aside panel to drag and drop",True
+efdfae37b59d106dfb1aa4eeac62133d188bcc96,2019-05-29 11:31:30,Svend,fix:remove the button in the aside panel to drag and drop,False
+1a097c02e3629ef1d245cb7fa7258ce50a1e4731,2019-05-28 21:21:34,Dr_rOot,refactor: transfer speed setting to select options,False
+0217b5573aff0a0b51c9dc570e78c0168cbaae62,2019-05-28 20:57:57,Dr_rOot,fix: theme merge code error,False
+86611604d5c6737e8b4d0ddcf25e73f7b6778610,2019-05-28 20:54:08,Dr_rOot,"Merge branch 'feature/theme_switch_lang_201905232132'
+
+# Conflicts:
+#	src/renderer/components/Preference/Advanced.vue
+#	src/renderer/components/Preference/Basic.vue",True
+0bd8ab3d113d8773dd1144b9c536bb27650920e2,2019-05-28 20:44:05,Dr_rOot,"Merge pull request #294 from agalwood/feature/change_global_options_201905241932
+
+feat: change preferences without relaunch app #24 #172 #197",True
+e9eadb2ebabba88a9b3dd56656a3c1c56851db5b,2019-05-28 20:22:50,Dr_rOot,feat: i18n save preferences message,False
+72afd845ba38a501518b7ba97df7793c7d1c6410,2019-05-28 20:05:19,Dr_rOot,fix: default enable check auto update on macOS,False
+91670fac373c30d8d15a415bce0a1cf4f544b0d9,2019-05-27 20:08:58,Gary Li,"fix: updated en-US translation (#290)
+
+* Updated translation: en-US
+
+* Update: en-US translation",False
+bc14e5b28709fe2665b816f28971043797f14077,2019-05-27 20:03:11,Dr_rOot,"Merge pull request #292 from jjandxa/master
+
+feat: add transfer speed setting",True
+2d01431e7daa89a99fd783c7ff5ba80dff463b6f,2019-05-26 19:43:38,jjandxa,feat: add transfer speed setting,False
+81531ef9fc077e0f5d2523781fcdd85220344f2b,2019-05-26 17:10:13,Dr_rOot,feat: change preference show message,False
+04126363cac4c74a36d74486a8c6cf21d0f08a01,2019-05-25 14:47:00,Dr_rOot,refactor: change preference without relaunch app,False
+bcb07656b9be8363c8f5543933a95f69d444404d,2019-05-24 17:19:34,Dr_rOot,refactor: rename isSyncTracker to trackerSyncing,False
+b9cd991fd5f24dae01cdf34660131febb533eb54,2019-05-24 17:15:56,Dr_rOot,refactor: delayed engine client call,False
+1b2b22f039d6b9fe4e8c45337bc51fe6b80a7204,2019-05-24 17:15:01,Dr_rOot,feat: api add changeGlobalOption,False
+170a481d48d67257bfd93d52dbae611500bb4c7e,2019-05-24 17:13:53,Dr_rOot,feat: add diffConfig util,False
+48bf7c9e2eedeb795e63e46bfc550069db918ce3,2019-05-23 19:16:58,Dr_rOot,refactor: move theme switcher & lang to basic,False
+03cfb013e57e62c34cbc466aa99c4bf3513ca581,2019-05-22 08:01:43,Dr_rOot,docs: fix cn readme typo,False
+b4e23d8805fa3ec96279eae5b176feab7f65db34,2019-05-22 08:01:25,Dr_rOot,chore: add feature request cn issue template,False
+43965c574040c4717697bcc0c920e3c8e07c7ead,2019-05-21 08:26:50,Dr_rOot,chore: update bug report issue template,False
+5c8d2e4ca43d18ebee6d6206be91e170ccb52992,2019-05-20 12:31:44,Dr_rOot,fix: unified scrollbar style,False
+b51c144aced607653491a9300626d40a98da5e91,2019-05-20 12:28:55,Dr_rOot,fix: i18n task code format,False
+feb839b7fabc5704d55506345823a9bbe29b83b8,2019-05-19 13:39:09,Dr_rOot,"Merge pull request #273 from agalwood/feature/selective_torrent_201905142048
+
+feat: torrent selective download #253 #229 #211",True
+fa36397afa710b683f9558dd7a1f4160c84ab969,2019-05-19 13:18:53,Dr_rOot,fix: i18n add task style,False
+583fe0ffe204c61dcbcd834531f77e3c71b5c956,2019-05-19 13:18:03,Dr_rOot,feat: i18n select torrent,False
+8b3a5fbaa88032605eed07a27b118861126b05b8,2019-05-19 13:15:39,Dr_rOot,fix: select torrent reset,False
+85493c263b0e8f3dbfbf9e656730cfa76e0807ab,2019-05-19 13:15:20,Dr_rOot,fix: select torrent layout,False
+78e106abe45e761fc0628dfba62df7468e4e0a7e,2019-05-19 09:14:49,Dr_rOot,fix: add selective torrent list utils,False
+bbf90e93445dac17b7fcf978de4e4340afbe3a91,2019-05-19 09:14:21,Dr_rOot,fix: torrent file list dark theme style,False
+dc30c25a838a22c9080a02690157df07e300b41f,2019-05-19 09:12:47,Dr_rOot,refactor: select torrent to support selective,False
+e1cce4f50c8eda43dd63bdb39be92628e6e6a86c,2019-05-18 18:41:03,Dr_rOot,refactor: add task to support selective torrent,False
+61654ff0ffbaee5cd897791d14ab5ae619e54dfb,2019-05-17 20:09:27,Dr_rOot,refactor: remove add task iLoveEggFeatures,False
+0142aedfa5310db9cd720db27447f9ab761ca759,2019-05-17 20:41:24,Dr_rOot,feat: element dialog & table dark theme style,False
+323f85ca400d734229297402920838652ccfe398,2019-05-17 20:38:47,Dr_rOot,feat: add video audio image files filter utils,False
+f35e696c6aca5568a99ed4d7d1f6e3e069d2be36,2019-05-16 17:35:13,Dr_rOot,feat: add file type icon,False
+d49cbcdc00e31fe68e7f315b76d7b3634c56f6c1,2019-05-16 17:24:35,Dr_rOot,feat: add seed-time to system config,False
+c85ac4e8955095df169376ce7093ced600df4467,2019-05-15 19:36:05,Dr_rOot,feat: set bt-remove-unselected-file to true,False
+f831cc51edec5b3460450ed9c02acc0383da8758,2019-05-14 18:21:57,Dr_rOot,fix: add task number input text overflow,False
+d47eb9ba0f078d2dfe0ee1ab74316b14b16344ec,2019-05-14 18:21:04,Dr_rOot,refactor: subnav li style,False
+119a374db6e749827d7620b854983acaf63786b8,2019-05-13 17:04:47,Dr_rOot,fix: clean subnav code,False
+d26808e43a384fc8b969457e4fdd2ef9a9fd8e8e,2019-05-12 09:06:34,Dr_rOot,"Merge pull request #262 from agalwood/feature/open_source_license_201905102203
+
+feat: add open source license link to about panel",True
+8cb3e54be2cc8d7b8ea2681d4834fd830b13742d,2019-05-11 08:08:40,Dr_rOot,fix: i18n add missing fa about license translate,False
+c55902cda7c87d23321508c09ae6a8fce381d145,2019-05-10 20:03:16,Dr_rOot,fix: about pannel add license link,False
+426b54201bcdf5c605dafbdf6698db5b482aafab,2019-05-09 14:28:40,Dr_rOot,"Merge pull request #258 from agalwood/feature/keep_window_size_201905072013
+
+feat: keep window size & position #232 #224 #48",True
+6c032cde2d1fa9135d2c44837a5c1919839f3b1a,2019-05-09 09:53:43,Dr_rOot,feat: i18n preference keep window state,False
+eb42ac6cfd5a256662f47f3c2f9c234561b43003,2019-05-08 09:10:49,Dr_rOot,feat: preference basic add keep window state chk,False
+90f0a7c5f62dc6c7e8943ab871c6fd006588c1b3,2019-05-07 21:34:53,Dr_rOot,feat: restore window state at init,False
+9b61dad2c36612ffb40c9c77c1dd1901059e1917,2019-05-07 21:33:25,Dr_rOot,feat: store window state,False
+671fb82e6ab35bb9aac916c0d3a3eef087431ace,2019-05-07 21:26:38,Dr_rOot,"feat: window manager emit resized, moved, closed",False
+b8f444ca4d60159c0538c21fa48a2f66d0a69e84,2019-05-06 20:35:56,Dr_rOot,fix: detect thunder resource uris add default val,False
+7509442e4e6a006750a18607c9c188868670aac5,2019-05-05 09:31:11,Dr_rOot,refactor: thunder link tip improve,False
+ee2e3de7820dc20cabb7ce6b0cbd1e7e2042f878,2019-05-04 17:48:08,Dr_rOot,"Merge pull request #246 from agalwood/feature/auto_launch_201905031132
+
+feat: auto open at login #164 #210 #237",True
+c6dd1e333e45cb1eea9819b85a5e258d60fc89c3,2019-05-04 17:32:16,Dr_rOot,docs: add fixUserConfig comment,False
+fba761a29c8c28ca3d4e8f6336101802ac073883,2019-05-04 09:20:51,Dr_rOot,"feat: auto fix user config open-at-login value
+
+Auto fix user config `open-at-login` value when user delete Motrix in OS startup manage",False
+4fb94ae8bbf1b199f2ac62d1e77487c926651774,2019-05-03 19:51:08,Dr_rOot,fix: second instance could not restore window #233,False
+79721822c27790a6500f4ab2b9a07cd255af4558,2019-05-03 13:10:00,Dr_rOot,feat: hide window when app launch at login,False
+556f58f6b30a8e9bd3dab883c07df5e6d3bf8819,2019-05-03 13:09:18,Dr_rOot,chore: i18n open at login,False
+e690f153358c880262de8c3b2db909b32d8bb9b1,2019-05-03 12:50:34,Dr_rOot,feat: preference open at login,False
+1876587973f11d2de1c21fb3150c7678f9fa4d45,2019-05-03 12:48:57,Dr_rOot,feat: auto launch manager,False
+b89c651132f5a45c05bd21d2dc51a03002e9b4ba,2019-05-02 13:07:46,Dr_rOot,refactor: auto check update,False
+ad9d3ed15a89ac616116ff996c041b3fc3984666,2019-05-01 15:24:17,zhtw,"fix: some zh-TW typos (#242)
+
+* Update preferences.js
+
+* Update subnav.js
+
+* Update task.js
+
+* Update task.js",False
+6aa362332ac4ec2a813c6c73cb6fe92e7b5eaa98,2019-05-01 14:39:49,Dr_rOot,feat: add dir class watch,False
+18d107c062795cb121415cac9fa8a1056e0b8e0b,2019-05-01 14:33:52,Dr_rOot,feat: detect text direction,False
+ebeba4663c84a5c5cfa5bfbf98bbd34133aa4ccf,2019-04-30 18:31:05,Dr_rOot,docs: update readme,False
+9bff4257a8a608e9542e25f656137f9a0a2f58b2,2019-04-30 17:46:41,FloatingShuYin,"docs: Add tips on how to install package management tools on Windows (#241)
+
+* Add tips on how to install package management tools on Windows
+
+* Remove extra spaces
+
+* Layout revision",False
+e07ef7dd11d14d9b00aaa51fc0746bc6771f5157,2019-04-29 07:19:33,Dr_rOot,fix: bump version to 1.3.8,False
+ebb0926d1d6d55ebbfb6384ab532276146146ece,2019-04-29 07:16:52,Dr_rOot,"fix: preference basic & lab save config fail #128
+
+v1.3.7 btTracker.trim()",False
+5333438825dd2314cf3996a723dfa6a7a79f773e,2019-04-28 14:53:28,Dr_rOot,fix: screenshots file name add @2x suffix,False
+366434182255d939eaad75169acd97ddcf1225cf,2019-04-28 14:51:32,Dr_rOot,docs: add app screenshots,False
+d3cbff6dd13a43d120dc4b53e1f3d8076c757301,2019-04-28 14:38:51,Dr_rOot,fix: preference link color in dark mode,False
+5668b0773d04474b2f8ae153b5765efada824de2,2019-04-28 10:11:25,Dr_rOot,fix: sync icon stroke color,False
+b757112c30e6e7b13fc785dc7ea44591b713a190,2019-04-28 09:19:32,Dr_rOot,fix: update readme supported languages,False
+dc3a01fb3c41ef898693671567046977a1396aa6,2019-04-27 19:32:23,Dr_rOot,fix: bump version to 1.3.7,False
+591de110724ae761dbe06d0a056ab2da231dafcb,2019-04-27 19:24:46,KOZ39,fix: Improve Korean translation (#238),False
+853c361e6d36da3a53955580d3c9823229e200ae,2019-04-27 17:07:35,Dr_rOot,fix: bump version to 1.3.6,False
+b0ebc737e2a4f3f60967d1cda3bd4bf0d276790c,2019-04-27 17:06:02,Dr_rOot,fix: i18n rename and add some keys,False
+bc9db25dfdcad8c8ff7111d718883f293f274137,2019-04-27 17:04:52,Dr_rOot,fix: position of the proxy input is incorrect,False
+08c99027590aeb169d57462b473cd745540fc505,2019-04-27 16:01:10,KOZ39,"feat: Add Korean translation (#236)
+
+* Add Korean translation
+
+* Fix typo",False
+8d2f52710de31bdc2fd21f7b763cf6a39bdb553a,2019-04-27 16:00:46,Nima Rasooli,"feat: Translated to Persian/Farsi (#235)
+
+* Create about.js
+
+* Rename src/shared/locales/fa-IR/about.js to src/shared/locales/fa/about.js
+
+* Translated
+
+* Translated
+
+* Translated
+
+* Translated
+
+* Create index.js
+
+* Translated
+
+* Translated
+
+* Translated
+
+* translated
+
+* Translated",False
+dd48fd79db6fc98337642d8c6739fed8202efc4c,2019-04-27 15:33:34,Dr_rOot,fix: bump version to 1.3.5,False
+9e7ad10309c271ece94df2418d8295650e300b48,2019-04-27 15:32:19,Dr_rOot,Merge branch 'feature/bt_experience_opt_201904262310',True
+6e1710221016b47c3d2930c3db06cb0055d20389,2019-04-27 15:24:27,Dr_rOot,fix: mo protocol new-bt-task,False
+5ed3b68a5736deb4d30cee80986716ac2ff06760,2019-04-27 15:01:56,Dr_rOot,fix: handle launch argv,False
+a705427ce24d1ae2701544aeb953103f291abf0c,2019-04-27 13:25:34,Dr_rOot,fix: open url in win & linux,False
+c37f7c73ceeb4b6f8594c587aa2b9c238eb7bf72,2019-04-27 09:44:05,Dr_rOot,doc: change Manual link to github wiki,False
+efcf01d59b690256c9227f0ef23946a7ddbfea7d,2019-04-27 09:43:02,Dr_rOot,feat: handle magnet protocol,False
+324b61567dc8687b234afdaa982911c156559fbf,2019-04-26 21:27:55,Dr_rOot,fix: typo tip => tips,False
+d1e24fced0e75c8dfd76a64538061d7ed3a9aa20,2019-04-26 21:27:11,Dr_rOot,fix: i18n preference bt tracker,False
+cb50d6709b9997b57e7fdc62b5bb566cb14461ab,2019-04-26 20:57:23,Dr_rOot,"feat: sync bt tracker from github
+
+An updated list of public BitTorrent trackers
+https://github.com/ngosang/trackerslist",False
+900ac4c8d172a9dd6b45499ade0c8c196aa9f2f5,2019-04-26 20:49:10,Dr_rOot,feat: preference advanced add bt tracker input,False
+6696b0a538e0b92ee02ecb2d3874a6be3c83d16b,2019-04-26 20:45:01,Dr_rOot,refactor: move bt-tracker to config manager,False
+110c83bcb80c795ddfd92d4e3866a6ebb8e09707,2019-04-26 20:43:58,Dr_rOot,fix: dht config optimization,False
+136b4969bdf02b4cf448cc35e7f3148057589271,2019-04-25 13:15:58,Dr_rOot,"chore: update readme
+
+Add dark mode",False
+a901fdd2b678caf2bd0e92906ccd004a25d9c5fb,2019-04-25 12:37:56,weearc,"docs: readme added linux installation guide (#228)
+
+* add aur helper command in readme
+
+* add aur helper command in readme",False
+215bdbc416cfc760219745b46ba89c333c5641e1,2019-04-25 08:23:25,Dr_rOot,"fix: prepare for electron 5.0.x
+
+Set webPreferences nodeIntegration to true",False
+4e8d226460f085db901596ebc0516d2ae05ebfcc,2019-04-25 07:46:16,Dr_rOot,fix: optimized for small screen users #48 #224,False
+23f3357d276565008c48dfffa24569787a669471,2019-04-24 19:26:38,Dr_rOot,fix: bump version to 1.3.3,False
+7adafab7fe9aac07bb02b0ebdedb63335383121b,2019-04-24 19:25:39,Dr_rOot,fix: i18n ja,False
+e3afb14e4a2ee89beb35f61201046622ef6a7bef,2019-04-24 19:18:41,HBKRKZK,"feat: Add Japanese language translation  (#225)
+
+* Create darwin.json
+
+* Add files via upload
+
+* Create about.js
+
+* Add files via upload
+
+* Update all.js
+
+* Update app.js
+
+* Update index.js
+
+* fix
+
+* fix preferences.js",False
+228cd1fa7d7bbb0927c2053f4a290ea76943099a,2019-04-24 13:59:41,Dr_rOot,fix: bump version to 1.3.2,False
+47a7464bf954be40a0d4201bfafbe3720cca6272,2019-04-24 13:58:04,Dr_rOot,doc: update translation guide,False
+8efd86af3dd81cfff8c1d03ad247948ebbdc4e7e,2019-04-24 09:05:31,Dr_rOot,feat: remove similar unuse config key,False
+ee78ae262e97fbe980399847861ab0948bcb87a1,2019-04-24 07:52:52,Dr_rOot,fix: bump version v1.3.1,False
+7562f6a7d135421571875eace22180c7b6fba550,2019-04-24 07:52:32,Dr_rOot,fix: downgrade electron-store,False
+defacd50e85bea551d4ebd6f5efea481008db0df,2019-04-23 21:36:01,Dr_rOot,fix: build script —experimental-worker,False
+f5ed0d89cce012f4e0a8861ff4a09a53fc682b08,2019-04-23 21:17:14,Dr_rOot,fix: bump version to 1.3.x,False
+a3bb1c7ff129fd23c967303eab76fcf37443fde2,2019-04-23 21:13:04,Dr_rOot,Merge branch 'feature/dark_mode_201904201437',True
+d0085b295d85606cdd4286a2de121cfb9fe1403e,2019-04-23 21:10:01,Dr_rOot,refactor: bt complete show seeding tips  #179 #134,False
+6cb278fd9e7ebdd81b232f2097f1ace4cfab1856,2019-04-23 15:44:50,Dr_rOot,chore: manual update tracker,False
+aeeb9813ed8fff308a112b195b373fc795ddcb97,2019-04-23 15:26:45,Dr_rOot,refactor: lint fix,False
+359da895e7f09fb36171fee9360cd8fba649230b,2019-04-23 14:53:52,Dr_rOot,fix: migration electron-log from v2 to v3,False
+8a3f510c381930acac08b91f117aa761e8ca4ff3,2019-04-23 14:52:57,Dr_rOot,refactor: check pid is running before kill it,False
+134599440275dba16f449630a9fc1e32211a0c65,2019-04-23 14:51:56,Dr_rOot,feat: add config schema valid,False
+c770108a6c5b974fe179e1920b65fd108f94e508,2019-04-23 14:51:27,Dr_rOot,refactor: electron store sort config key,False
+178f2103f1e3f68fd9cac964742d853d9166ab0b,2019-04-23 08:11:11,Dr_rOot,fix: destroy tray when app exit,False
+d5c71b50e818d6878082e7f3b93e9baf8ee1b004,2019-04-23 08:10:30,Dr_rOot,fix: change application module init order,False
+ce09e76ffb34b573e456c9606e7d2f11bfcf2424,2019-04-23 08:08:44,Dr_rOot,refactor: theme style improve,False
+4688b521fa600ee1d49016c1fe4938e628628912,2019-04-22 18:22:33,Dr_rOot,"fix: trim after split task link text rows #221
+
+closed #221",False
+33960dc264798b437b1ca1939a9d44b7bd9680ab,2019-04-22 18:19:15,Dr_rOot,fix: decrease theme switcher theme text font size,False
+d29d0d3321a8c7ee4292c0ab475024f2203696b0,2019-04-22 13:12:09,Dr_rOot,fix: add task dialog background color,False
+f4c3e7be69478be9a55bace6d3a3b0196371c19a,2019-04-22 12:47:48,Dr_rOot,feat: preference advanced add theme switcher,False
+338b51975c834eb5c348bde24fbb082195a69677,2019-04-22 12:47:23,Dr_rOot,feat: preference theme switcher i18n,False
+e1a287350d7835fe685d8b2e27f673091070e38f,2019-04-22 12:46:53,Dr_rOot,feat: add preference theme thumb,False
+afeee1fc86baed6e0dbe6c808eae82d9bf03acf5,2019-04-21 21:12:52,Dr_rOot,fix: change theme config,False
+a39820f8ab471b69dbab62057c9d741ac59f522b,2019-04-21 19:59:27,Dr_rOot,refactor: app style,False
+aea604278c9e1d622e7ba5a05b3bdd9ea995cd73,2019-04-21 19:58:40,Dr_rOot,fix: copyright link color,False
+0b92e6b96eaed22892229c10a115f6fd16fd4d6e,2019-04-21 19:58:19,Dr_rOot,fix: app info style,False
+2ba0040bddb5413ff8dde5a33dc71ae80ab45f0b,2019-04-21 19:58:01,Dr_rOot,feat: title bar close btn,False
+04bf2b6b9d8bf430d212a78de2a4b49ecbc5a392,2019-04-21 19:56:36,Dr_rOot,fix: logo svg fill,False
+cc367f4c5c0820362c0f92423531e4631f164c19,2019-04-21 19:54:40,Dr_rOot,fix: change show in folder icon size,False
+73809a6501ab5fc2654cc86969979eb0ec0b7251,2019-04-21 19:53:39,Dr_rOot,refactor: app theme & add dark theme,False
+5067ad7306f06e08ca1b23b2ad86a9436a04bbb7,2019-04-21 19:06:37,Dr_rOot,feat: app ui respond to system theme changed,False
+d5b3ad5933ec8701b3616542df70ef77d4d3ba10,2019-04-21 19:00:07,Dr_rOot,"fix: tray icon adapts to the dark mode #206 #207
+
+close #206
+close #207",False
+7a903e112cb3e10dd8713e0d00e061940c8b7fc2,2019-04-21 18:56:45,Dr_rOot,feat: theme manager,False
+829eb83a4c2f76754308f3a024515c70940dcbba,2019-04-17 13:15:20,Dr_rOot,fix: get task full path error when file path empty,False
+886acc2486b958ac54073be23c9aa4884eb6a297,2019-04-17 12:42:13,Dr_rOot,"fix: thunder link decoding error #201 #209
+
+close #209",False
+87440701ab9c137fcebe1220237816abb93554f3,2019-04-10 18:41:10,Dr_rOot,fix: block some ui text selections when drag app,False
+e880430e3acf6d1db9e5bfde7bab55a1460240c6,2019-04-07 11:01:00,Dr_rOot,fix: html tpl,False
+2febff883be282031b751460387bc96fe1708f46,2019-04-01 18:41:07,Dr_rOot,fix: add missing auto check update TR translation,False
+7d8bb443b8cc5dc7ef61dc751884ae4c6dcb4794,2019-04-01 18:25:30,Bo Yuan,"feat: preferences add auto check updates setting
+
+* add auto check update, time out: 1 min.
+
+* fix: add auto check update, check interval: 30 min.
+
+* no message
+
+* no message
+
+* fix: modify update check interval to 7 days, add display of [last check update time] to preference.
+
+* no message
+
+* fix: modified the group of auto-check-update, fix the display of last-check-update-time
+
+* no message
+
+* fix: hide last-check-update-time when never check.",False
+1489d58a63097ffd738cd091e625294f3116cec0,2019-03-31 09:15:54,Dr_rOot,chore: rebuild snap for snapcraft,False
+00fdafe8240a3d62714f96d7a43042088912b9c0,2019-03-30 09:16:55,Dr_rOot,fix: upgrade electron-builder,False
+81c91e8cb110e3c5523f0ebb93e8bb42adb1da18,2019-03-28 20:28:28,Dr_rOot,fix: update readme badges,False
+0fd34254dec144b55998d3036fd79923b34b3f0f,2019-03-26 18:28:22,Dr_rOot,chore: add latest release badge,False
+d9298f0d460240a60a451964eff6cda28bf65e07,2019-03-24 21:45:34,Dr_rOot,fix: read me typo,False
+83e12a699e27c521d2446c1ae71dcf9605bf401e,2019-03-24 19:24:28,Dr_rOot,docs: update readme add new feature,False
+83b55b806dcd759d8f065923e2a500145b0fee08,2019-03-24 18:14:30,Dr_rOot,fix: bump version to 1.2.2,False
+d4dab6de9b9f8deb8aba65a952e434355ee78eea,2019-03-24 18:13:23,Dr_rOot,fix: linux parse argv,False
+deae5e8e335b208e6e30abb44a39661dcf9ed6f5,2019-03-24 08:12:34,Dr_rOot,fix: bump version,False
+b098c8c9bcc44c240fd789b51d62d5838b4ae78b,2019-03-24 08:12:05,Dr_rOot,fix: open file argv path undefined,False
+b12553cc45e236f6152bfaa67d51eddb86720ebe,2019-03-23 15:45:13,Dr_rOot,fix: try to fix linux read file eof,False
+8891b9a79cce529f551d7908209fa4284b806f58,2019-03-23 13:42:27,Dr_rOot,refactor: windows tray icon changed to png,False
+a44f088139675114814689b4137cd4a0e33c0c40,2019-03-22 21:15:47,Dr_rOot,fix: try to downgrade electron-builder,False
+7ea0cd3e7566bd1975b18b7d934936aae3708d6a,2019-03-22 19:46:29,Dr_rOot,fix: fileAssociations for AppImage,False
+c93cc9d23be64410bf1e752e0c3875afe42eb2ea,2019-03-22 19:32:21,Dr_rOot,fix: remove node from devDependencies,False
+8d2e14486d5a3a04b394db81fdbec4177238c43a,2019-03-22 19:26:14,Dr_rOot,fix: remove npm audit fix,False
+3775da5e36ac7cacc9458df275d8ee1d322df704,2019-03-22 19:20:40,Dr_rOot,Merge branch 'hotfix/main_refactor_201903151054',True
+2e21285f991026d560a69aa5006b16843f97e84b,2019-03-22 19:19:23,Dr_rOot,fix: update dependencies,False
+6c2dde8e59716f7a9a49a134785f15e5760c7ee8,2019-03-22 19:17:58,Dr_rOot,chore: try add npm audit fix to ci shell,False
+e0145805122836254e89746f0a59ad2810240c6a,2019-03-22 19:15:11,Dr_rOot,feat: update tray icon based on changes in the download status,False
+e970a51b710d115c41e403ed5fd2fbc18c321244,2019-03-21 15:53:07,Dr_rOot,refactor: remove unuse menu config json,False
+019f8be306c455feedd1a4e6bad99852c82b0f39,2019-03-21 08:40:39,Antoine Leblanc,fix: i18n fr in preferences (#152),False
+20f79dacb7e150ab21244d64076feb0efe2a46b0,2019-03-20 20:52:48,Dr_rOot,refactor: menu i18n,False
+1bdd17a80aafe105a4063211bc1ca68e6f8baf9f,2019-03-20 20:48:30,Dr_rOot,feat: add tray,False
+b01e006073e0268e98299a8db39982d8a64d8b04,2019-03-20 20:27:31,Dr_rOot,refactor: window close event,False
+82728a2b235d24d4d86ed548001fc38dc7055f31,2019-03-20 20:25:37,Dr_rOot,refactor: windows manager show hide,False
+217d2df5be0dd9cdcadc06a270c23c35ea13c0d3,2019-03-20 18:40:02,Dr_rOot,fix: open-file dialog cancel,False
+960f0674ef972da7b3cb404c592b2dfa8e9d109a,2019-03-19 20:47:53,Dr_rOot,fix: open url send command to all,False
+54e9f326d9981bae57a351a450d788475133cba9,2019-03-19 20:46:41,Dr_rOot,refactor: return change language promise,False
+4e7267028f00e69884698ea3864fde6c6885ed36,2019-03-19 20:44:58,Dr_rOot,fix: sendCommandToAll fn typo,False
+efd7f97a363dfb4a6e2992c478efe0e86656eafa,2019-03-19 20:43:04,Dr_rOot,fix: add open-file to task i18n file,False
+5bb790822d0c2a5c70e5c04ce585ae5bec3d00e5,2019-03-19 16:00:19,Dr_rOot,fix: mac dock download speed text add /s,False
+71f3fb601bd93219817f572bf41c1fe3642ed386,2019-03-19 15:59:35,Dr_rOot,fix: send command no effect when no focused window,False
+af710aa2658b4548c8531ff391148b73153d5918,2019-03-19 15:35:20,Dr_rOot,refactor: rename handleFileAssociation,False
+52b6fb08495a656909b825a7b2225ea3a802b7ac,2019-03-17 09:39:06,Dr_rOot,fix: add pt menu missing translations,False
+b8d63374b7a44ec9d23f3cce5d4c9d17d6d0eb72,2019-03-17 09:20:19,Dr_rOot,fix: add fr menu missing translations,False
+ff38d4ea5cde94a04bcab13352cad6123260e891,2019-03-17 09:06:18,Dr_rOot,refactor: main index to launcher,False
+a24a7acfaf52dacc67c8f33c1f85f9f0ac279c09,2019-03-17 09:04:44,Dr_rOot,feat: add support for windows x86,False
+16e9c8d848ba8699d02cba72b095031e5e5bfcef,2019-03-17 09:03:44,Dr_rOot,feat: add torrent to file associations,False
+f36cdccf9fee1f177fa1d792f97bc49ad7d022a8,2019-03-17 09:01:54,Dr_rOot,feat: open torrent from file dialog,False
+c826a7dd770bb4c7bd9fc6f9a1e4f2c4be22405a,2019-03-17 08:50:22,Dr_rOot,fix: on download pause message,False
+b96518a42cabe55ea7cd1fcf7f825c6f4de02e84,2019-03-17 08:24:41,Dr_rOot,fix: remove task confirm message typo,False
+02f0b66500dd3a927a4e80d51caa65699d7ed675,2019-03-17 08:24:12,Dr_rOot,fix: select torrent counld not replace,False
+377bc47d87c2bc7bdfbb5457016504df77f62d13,2019-03-16 21:59:18,Dr_rOot,refactor: engine fetchTaskItem,False
+f8a4ef267df79c3e0bb0111e1dc5ac75a099d4a6,2019-03-16 21:57:52,Dr_rOot,fix: i18n startEngine error message,False
+baea3f034504724915e9a73f15489ecf5fa25d22,2019-03-16 18:56:52,Dr_rOot,refactor: task removeTask action,False
+1fcf0bb0d0058b35f502a7912ef1da48505ffefc,2019-03-16 13:41:10,Dr_rOot,"fix: main i18n #120
+
+close #120",False
+85e1acfe5bd33442ecd77d8a3ae82bedb05e299c,2019-03-16 13:37:05,Dr_rOot,chore: config manager add doc link comment,False
+41ac6ad335b112e7d2a75919e2c36aef224afbfa,2019-03-16 13:35:15,Dr_rOot,fix: add missing translations,False
+b151c45e70ddac8c89018598affd5fb01c2300b6,2019-03-16 13:34:06,Dr_rOot,fix: remove useless page configuration,False
+b3686fff04df4116218655f9dbef381ea4343b3c,2019-03-15 21:02:58,Dr_rOot,fix: torrent dragger on drop,False
+af81107b3d57d95cf4f238e7ab12d9becb9201d2,2019-03-14 18:54:08,Dr_rOot,"fix: temp set max-overall-upload-limit=128K #136
+
+Preferences will be added to the speed limit setting.
+close #136",False
+88224998b70693c778e7e6136c060bd36ba38fec,2019-03-14 18:33:18,Dr_rOot,fix: readme link,False
+8508ca9b3cb7ed9048326b4f450f3b2f9879079c,2019-03-14 18:31:38,Dr_rOot,fix: i18n pt-BR,False
+6fad6a876c211dc7cb7bb044bc00c2c904eb5ff3,2019-03-14 18:29:14,Dr_rOot,chore: update readme i18n progress,False
+6c8a844cd97224a386b68e0ee1e037cc898e7fbc,2019-03-14 18:17:52,Dr_rOot,fix: copyright left & right width,False
+4657a503f9e994ea131532e8f8df53711b0b6a62,2019-03-14 18:16:14,Schlömi,"feat: added german (#140)
+
+* added german
+
+* Improved german
+
+* more details for preferences.continue
+
+* shorted some translations, added missing seperator",False
+324347e5915cb07481b1d72f71e1d113c510fb97,2019-03-10 12:58:53,Dr_rOot,"fix: menu task.clear-recent-tasks no effect #135
+
+close #135",False
+16c376c108917dbe1a271830a73c7d4275b1aa9b,2019-03-10 08:17:57,Kay,"refactor: drag and drop file (#124)
+
+* add drag file
+
+* refactor: drag and drop file
+
+* add template",False
+79cad28cc1539dc27515a15c6085035c8436481e,2019-03-04 18:22:22,monomagentaeggroll,"fix: README.md editing (#123)
+
+* Update README.md
+
+Revision sweep of the README.md file.
+Some style changes, fixes a few typos, and corrects some grammar.
+
+* Update README.md",False
+ac16bd91c215b9d48974055445c9c01ceaa9b8bb,2019-03-03 17:13:21,Dr_rOot,fix: i18n pt explanation,False
+fafeaca47d3182e5f454f0efccdfd9930f834ae4,2019-03-03 17:06:07,Dr_rOot,chore: update bug_report_cn issue template,False
+3152252fb89eb3c5e63222919cb81c540db79d99,2019-03-03 16:55:53,Dr_rOot,refactor: i18n sort locale key,False
+a5240bfeb00be73ceadd5a2675580f0ed0070014,2019-03-03 16:54:25,FramboisePi,"fix: French spelling improvement (#117)
+
+* Accents correction
+
+* French: accent improvement in edit.js
+
+* French: accent improvement in help.js
+
+* French: accent improvement in menu.js
+
+* French spelling improvement in preferences.js
+
+* French spelling improvement in task.js",False
+64cda63587219c1536085e4a69dea34867f99ef1,2019-03-03 16:04:38,Andre Noberto,"feat: Adding the Brazilian portuguese translation to the app [Done] (#111)
+
+* Added locales for pt-BR
+
+* Added menu support for pt-BR
+
+* Configuring pt-BR in locales
+
+* Fixing typo
+
+* Make use of abbreviation
+
+* Fixed typo & adjustments on variable naming case",False
+fe071a37835fd44d8cb3a79ac6d4f4f7cf2a7b55,2019-03-01 19:55:14,Dr_rOot,fix: temp limit the task list num,False
+5d812e9c4eed68e7a9d2f8485bc7fbae2981f85b,2019-03-01 19:37:25,Dr_rOot,fix: readme typo,False
+f36ba605e2b762d69c06716ae780b6683c56280e,2019-03-01 19:02:26,Dr_rOot,fix: update readme,False
+e7ed58e39489ed6c23683c4797fe0e3041755e0e,2019-03-01 18:57:44,Dr_rOot,fix: i18n for some reason,False
+be789e7ea8a785ed2c4eaf9794a55df7419b8a9f,2019-03-01 18:14:08,Dr_rOot,"Merge pull request #108 from Yukaii/locale-zh-tw
+
+feat: Add zh-TW language support",True
+780a01e404e021d9348ce94bae2539211bb0b951,2019-03-01 12:21:04,Yukai Huang,feat: Adding zh-TW language support,False
+b45518a5b65019bd2df7354ed4967ede6ca29497,2019-02-28 10:47:12,Dr_rOot,fix: increase engine retry max to 10,False
+2401d68a24aa5f65cd666d098445101257ebb7fb,2019-02-28 10:46:36,Dr_rOot,fix: add missing brew cask cmd,False
+6cb2986f390087bd47e954c996d9e4566c7d5113,2019-02-28 10:33:53,Dr_rOot,style: readme adjust the paragraph,False
+cb8e0dbd2e2fe4fef83bb2128d8944e54762a6ac,2019-02-28 10:31:03,Dr_rOot,refactor: advanced preference change lng,False
+b4faed0621035c8d12e4c9e8feaa392e7b6a5b0a,2019-02-28 10:29:55,Dr_rOot,docs: update readme,False
+249aa616fea9f7d5eca34ce1e6ff9c82519d8393,2019-02-28 10:27:52,Dr_rOot,"Merge pull request #101 from gpatarin/master
+
+feat: Adding the french translation to the app [Done]",True
+482ccb3293b5e45605368f42bba8c87360286f60,2019-02-28 04:03:21,Gael Patarin,Update utils.js to match latest changes,False
+f1be6bc1a477d838539f2e6169ac1457515d8d02,2019-02-28 00:22:56,Gael Patarin,Translated the app to french,False
+326e8c700b72c7faf97cede34388e39fdd0a516e,2019-02-27 18:43:57,Dr_rOot,fix: update i18n progress,False
+2a538fd7c3a0cbbda8f7a5c23ea946d9936c7454,2019-02-27 18:37:00,Dr_rOot,fix: getTaskFullPath bittorrent,False
+c424b981b3028a482a550b3e060945642c115f58,2019-02-27 18:35:26,Dr_rOot,"Merge pull request #97 from agalwood/revert-93-master
+
+fix: Revert ""feat: Adding the french translation to the app [WIP]""",True
+a284aba2cc11617685da5f225ce7d6755bbcd047,2019-02-27 18:24:07,Dr_rOot,"Revert ""feat: Adding the french translation to the app [WIP]""",False
+c8bfdbf087f489c82d55529862b993a1334c9513,2019-02-27 18:17:49,Dr_rOot,"Merge pull request #93 from gpatarin/master
+
+feat: Adding the french translation to the app [WIP]",True
+eb80f3698fbb09a7db543b8f9945da47e6320021,2019-02-26 23:48:55,Gael Patarin,More translation in french (WIP),False
+23f3d85ad4cbb9b433660024b2f5dfbdde556699,2019-02-26 23:43:28,Gael Patarin,Added french translation,False
+24019123ba7c3f2c8dad8e01324ce44600d21a14,2019-02-25 21:18:56,Dr_rOot,fix: add i18n guide link to readme,False
+06a471982a88ec3ce4a4c1af0e34978d6b801aef,2019-02-25 21:16:24,Dr_rOot,fix: add CONTRIBUTING Guide,False
+43627aba508a03e3b68d240096c1b5162a988cfd,2019-02-25 17:03:23,Dr_rOot,"fix: linux AppImage dock icon missing #83
+
+Close #83",False
+8116234b3e8841b0877cdbb45944c9527b4c6339,2019-02-24 12:51:45,Dr_rOot,fix: update npm dependencies,False
+e488de5c3f7094ed528b0add19b6ad632584efac,2019-02-24 12:35:19,Dr_rOot,fix: magnet link task moveTaskFilesToTrash bug,False
+084f834a4156049b969ca9681488480cac474a69,2019-02-24 11:03:18,Dr_rOot,fix: update readme,False
+97d30ee85e35cd04e4c27dd13a947415ed648edc,2019-02-24 10:35:32,Dr_rOot,fix: update bug report issue template,False
+387ccc9cf732dd61d86a72dcc17172ffcad4b206,2019-02-23 16:02:50,Dr_rOot,fix: i18n download-session-path error,False
+fed57446075fbeffaa080aaad7e2e82bc7015d10,2019-02-21 10:26:30,Dr_rOot,docs: update github issue template,False
+3e2b448e0942233b4575b89ec8c472fa4ddec88b,2019-02-20 15:35:43,Dr_rOot,fix: openDownloadDock & updateDockBadge mac only,False
+c12c13066ddeac9be44f8e4a16eac5313dd11e6c,2019-02-20 10:24:51,Dr_rOot,fix: magnet task file path did not start with dir,False
+5c36454ca0937bd26e90c2a0895212348f8d988b,2019-02-20 10:24:17,Dr_rOot,fix: copy link fail when bttorrent info is empty,False
+7b6ba13d94c1a013c5fd0a99b919c13760b4dd82,2019-02-19 18:22:03,Dr_rOot,fix: eslint,False
+5d93d4d7bb7fac404aecfc3dd0c6bdea3b6f2f04,2019-02-19 18:20:36,Dr_rOot,"fix: bt task copy link bug #39
+
+Close #39",False
+4d024eb6a653cf8ca12bfe2c0cd0469429b24721,2019-02-19 18:18:39,Dr_rOot,feat: fetch engineOptions (getGlobalOption),False
+182acec2655d452b3d7539dc2515950493333dc6,2019-02-18 20:24:05,Dr_rOot,fix: remove task with file name is empty bug #75,False
+e293b1634316f4e8277038a031e02a6a97c93de7,2019-02-18 19:59:39,Dr_rOot,fix: one msg notify twice error,False
+70cf36d7b2f8061324b55c82389d17ea16b62770,2019-02-18 19:03:57,Dr_rOot,"Merge pull request #73 from Raistlin916/master
+
+refactor: message refactor",True
+f3d8cac9ba547c7ba7a15c73832e1af0f4cc0aa5,2019-02-18 18:54:03,Kay,fix: update .editorconfig,False
+620b243794a27044ee0d3c9c4a082f415b6e7cad,2019-02-18 09:16:08,Dr_rOot,"Merge pull request #72 from mesquka/master
+
+fix: Consistant hms capitalisation",True
+37fe7d4dbdbc8c40d9f38e20332b9524e8965157,2019-02-17 22:35:25,gaokai,feat: msg add max length with queue,False
+11b6d651b8dcff186c0cbc1a9e319079336d603e,2019-02-17 22:06:21,gaokai,refactor: message default options,False
+8a5bc11d88440e1e782bcf381b37ea7471fa87f7,2019-02-17 20:37:24,Kieran Mesquita,Merge remote-tracking branch 'upstream/master',True
+bf691460350db53876e94db050b4065cd6cde3cb,2019-02-17 20:36:43,Kieran Mesquita,Decapitalise 'h' for hms consistancy,False
+14ff0c4bbe0cee9e59f8d3568f0a47be89832618,2019-02-17 08:32:29,Dr_rOot,fix: add preferences missing translations,False
+d9706a2c3ed334cd788203650b04a75d827a9bd2,2019-02-17 08:27:58,Dr_rOot,"Merge pull request #70 from abdullah/improve-tr-localization-key
+
+refactor: rename Turkish i18n key from 'Tr-tr' to 'tr'",True
+c36f7b73f121599f4d5315b0fbfb197c398c9731,2019-02-16 23:36:20,Abdullah mara,"refactor: rename Turkish i18n key from 'Tr-tr' to 'tr'
+
+This commit also includes menu localization keys.",False
+7e6d0542cc446da0337404d2ba2d47a946528ef9,2019-02-16 20:41:12,Dr_rOot,fix: update readme,False
+72bf4ec909bbba8abe5c599d805cc8f633aadd00,2019-02-16 20:39:40,Dr_rOot,style: update i18n,False
+fa87b8ff9bbae4a2a4ead13c940b87ffe11fa971,2019-02-16 20:37:38,Dr_rOot,fix: i18n hash link,False
+31203e72fcefbf6c19169d945abb7e3192a25bea,2019-02-16 20:36:07,Dr_rOot,fix: update README i18n,False
+5bd9875f61ed0852f9c51e1077f53f9a006d30ad,2019-02-16 19:26:54,Dr_rOot,"Merge pull request #67 from abdullah/add-turkish
+
+feat: Add Turkish.",True
+646ad28fbc8ccdff511293f3d7c1077024b88895,2019-02-16 19:00:51,Abdullah mara,Add Turkish.,False
+a66d482d3a116b1ba418fd801963236a561771d3,2019-02-16 17:15:59,Dr_rOot,fix: aside draggable area not response click event,False
+5dfc8cce37792f8453f3fe7818061bbd4282656a,2019-02-16 07:58:16,Dr_rOot,"Merge pull request #63 from mesquka/master
+
+feat: Make notifications dismissible and truncate long messages",True
+4c88431147a98bdd7b9fc6bd015888ca90682c5c,2019-02-16 00:19:04,Kieran Mesquita,Make all message notifications dismissable,False
+bb06b3970dd3614870bd0f8694a41f93e3fac80f,2019-02-15 21:18:26,Dr_rOot,refactor: util getTaskName,False
+c86767bc3f44252eccc4e8eacbb692f31131e522,2019-02-15 21:14:17,Dr_rOot,fix: el message text style,False
+3c6d14ec7ef6a8613fc96bf7280aa6ed305dcf8c,2019-02-15 11:43:11,Dr_rOot,"Merge pull request #59 from mesquka/master
+
+fix: Form Labels in add Task",True
+88a9a69c27589cf4dc9686fd16f2afb667589e8a,2019-02-15 11:22:02,Kieran Mesquita,Adjust width of add task labels to fit 'user-agent',False
+da7241cd6a154cbc9b60c2ce0c479907f0d3d816,2019-02-15 11:14:10,Kieran Mesquita,Fix Form Labels,False
+397055826ed8d99dec43d5b2f3d24acfb57f57d6,2019-02-15 09:24:31,Dr_rOot,"Merge pull request #57 from Raistlin916/master
+
+feat: drag & drop torrent file to add task",True
+2e6b8bb5fafe96fd80192d88f8e4986a80da34d6,2019-02-15 08:27:04,raistlin916,add drag file,False
+ed4f3afcbd8a8f7095920e25b327f21611d66cb0,2019-02-14 19:05:47,Dr_rOot,fix: update app screenshot,False
+53ab75fbf945e4e1cb17253f2a4142bafeb270aa,2019-02-14 18:50:33,Dr_rOot,fix: update hide app menu default,False
+c19cf17b072399e09fc2a704acc9090ee4a88c77,2019-02-14 14:53:54,Dr_rOot,fix: update read me,False
+a994f45e8f529033f440438916b8866eb7d9482c,2019-02-14 10:58:24,Dr_rOot,fix: add manual link to readme,False
+1bdaeeb3a64f000d61078cc3144f5bd04da9a984,2019-02-13 09:38:18,Dr_rOot,fix: Windows title bar drag,False
+32f0a3d084a1bd297a8734481c8e5dca6f1225d3,2019-02-12 20:55:24,Dr_rOot,fix: windows &linux hide app menu fail,False
+ba4ef326f7bf2083193a127d0afbaf41995297a5,2019-02-11 19:27:42,Dr_rOot,feat: add lock bot config,False
+10a8f0bd1637425c098c7f0fdbe0e5154a9a78bb,2019-02-10 20:44:47,Dr_rOot,fix: remove pacman && update version to 1.1.3,False
+d3c40a8fc3bba14552e21b0166fa1a7164f036dd,2019-02-10 20:34:30,Dr_rOot,fix: remove rpm && update version to 1.1.2,False
+34a92472709fe6df2c2508013eacac4b97ad7f89,2019-02-10 20:22:48,Dr_rOot,fix: update version to 1.1.1,False
+0b0f9b41e9c635778cc0fb3771157a6b222b4ad4,2019-02-10 20:21:47,Dr_rOot,feat: add more linux targets,False
+827eb7c32e2b67fef9ad1ca7eb7772e2f645dfe1,2019-02-10 19:53:32,Dr_rOot,feat: update version to 1.1.0,False
+0b598f6c172f75257c6f10c44f816000c7372905,2019-02-09 18:24:54,Dr_rOot,feat: add zip to win target,False
+19e7394266c934b4dfc308e1ecff8f75c335d4a4,2019-02-09 15:48:44,Dr_rOot,Merge branch 'master' of github.com:agalwood/Motrix,True
+f6b345ec55aa6a998c99c782e71372cc97a13228,2019-02-09 15:46:27,Dr_rOot,fix: i18n update,False
+091201d7ffd61a9d565ee0b929e9f47236cdb21d,2019-02-09 15:42:49,Dr_rOot,fix: remove resume and pause message notify,False
+b109764b8e3144acd00b86158adf9e46bb669aeb,2019-02-07 20:04:18,Dr_rOot,Update issue templates,False
+79a488b863ab126f89c38717b0396e4cb4cab34c,2019-02-06 14:47:26,Dr_rOot,doc: update readme,False
+962c8a6516f7f6a98b66ed1a5b107719706f911b,2019-02-06 14:47:13,Dr_rOot,fix: temp hide task item action 'more',False
+f94cd01a3affad71c951eb62a1f558545bda1e9b,2019-02-01 18:52:41,Dr_rOot,"Merge branch 'feature/i18next_201901042000'
+
+# Conflicts:
+#	README.md
+#	src/main/menus/en-US/linux.json
+#	src/main/menus/en-US/win32.json
+#	src/main/menus/zh-CN/linux.json
+#	src/main/menus/zh-CN/win32.json
+#	src/renderer/pages/index/App.vue",True
+31081bbbb28aa0643b51cad3081d4e306e78ddb1,2019-01-31 20:38:42,Dr_rOot,fix: add under development message,False
+0d1ba165256132690bc931560794d214aa6f1a72,2019-01-31 20:38:11,Dr_rOot,refactor: remove console,False
+5b4b00ae416a3f5bd690774c8f6c60ea8cf5a664,2019-01-31 20:37:08,Dr_rOot,refactor: locale manager,False
+e0ca5d8724530af79b0a215d0ff1f2c81f7c3ad5,2019-01-27 19:24:03,Dr_rOot,doc: add touch bar,False
+fd5b21c27147ab2a58d251a409d1ad11177f44a4,2019-01-25 19:49:33,Dr_rOot,fix: addTask with multi uris fail #33,False
+ac5e2f755cbe479317502503e490e85d6f9dd077,2019-01-23 19:30:40,Dr_rOot,doc: add platform badge,False
+a4415f068819692c37ecbae2db7aa3aaf9396a88,2019-01-23 19:27:41,Dr_rOot,doc: add app ui screenshot,False
+8a2bb03b62d6f6bd98c37560936fe5a03fe79044,2019-01-22 21:26:10,Dr_rOot,doc: delete related files when removing tasks,False
+7011160587b16470e857ea5bf80b049e700dea6d,2019-01-22 20:11:11,Dr_rOot,feat: autofill resource uri when open add task,False
+31fdff3d3b9f6a354ec38a71c5dbb3be2fedcd64,2019-01-22 18:24:19,Dr_rOot,doc: add total download badge,False
+580bb5d6226602af6681fcab22a62897ac5f303a,2019-01-21 15:34:43,Dr_rOot,doc: fix license,False
+d5a51a8422ea0df033a9e591c69e910adbc387f9,2019-01-21 15:32:41,Dr_rOot,doc: readme i18n,False
+5f5b22d8d393e4ce231703f18b500efb9fbf456d,2019-01-20 20:17:00,Dr_rOot,doc: update readme,False
+397f689be7d6384056882f084f3b3683e61de38d,2019-01-20 20:08:38,Dr_rOot,fix: i18n error,False
+3ddffe6dafe9dfef4bf968cf3ea3ac12a663a098,2019-01-20 20:05:39,Dr_rOot,refactor: code clean,False
+ab1861b068dcd8cd7824140c5a5bbc1422bc2aab,2019-01-20 20:04:28,Dr_rOot,feat: i18n change locale,False
+5bf870acdcc26508d8c3057f5b841e226956e455,2019-01-20 19:22:43,Dr_rOot,feat: i18n refactor,False
+d85f4ea8d470c67fd563141dda40b24db3aabedb,2019-01-20 19:17:04,Dr_rOot,fix: ConfigManager add getLocale util,False
+0a93c1954dcf34b429dd9eaec5313c46e7fdbbc9,2019-01-20 19:14:42,Dr_rOot,fix: menu text,False
+c4df9ff34eb4f19757d1ca0f6b942b212a3fdfbb,2019-01-19 20:33:00,Dr_rOot,feat: i18n add task,False
+648587f52cfe81bb50361a0741790e775c664473,2019-01-19 19:23:47,Dr_rOot,"feat: open task when double click completed task
+
+#23",False
+bc17c2d6856e27b1dabbbcadcdf018a005c51227,2019-01-19 19:21:11,Dr_rOot,fix: task i18n params error,False
+6e7327a3fe8c206c89cdf160f23194f3b1ef7b9c,2019-01-17 08:38:53,Dr_rOot,feat: add support for hide app menu on linux,False
+db15cd959bc849ca5dbb0580d6cc1406781b5aa9,2019-01-16 21:16:13,Dr_rOot,fix: i18n key error,False
+ff4399490276f010c4f2fa271af81394f6b9dad4,2019-01-16 21:14:59,Dr_rOot,feat: hide app menu,False
+8226e14e0a5df382205b5b18a980712597949188,2019-01-16 10:23:32,Dr_rOot,fix: titlebar style background,False
+f5b30efc7d4bd21d6e70f2f734ffa237e82878e7,2019-01-15 21:18:50,Dr_rOot,refactor: new title-bar component,False
+4c27c36e900ebe84bce781193bb88d5ad4fc713b,2019-01-11 15:21:53,Dr_rOot,fix: windows manager getWindows() forEach error,False
+9dd950e510f46383f390f975ef1b1c92cbb3af3e,2019-01-11 15:19:06,Dr_rOot,fix: windows manager getWindows() forEach error,False
+fffa7b9839281563588ac3dbfb1f594d270a5a4a,2019-01-09 21:04:20,Dr_rOot,feat: app about add release link,False
+2d3ca45c870c32574a9a200d6d06760a1691a3fe,2019-01-08 20:44:09,Dr_rOot,fix: preferences label,False
+c0f032a6c694f609a45a7d020c04805cd67da619,2019-01-07 19:20:19,Dr_rOot,fix: add package,False
+f8848ba0e58c80c76579b660285aa2ae1388764c,2019-01-07 19:19:14,Dr_rOot,feat: i18n main logic,False
+33a3229c22843b598aa4439bd547d30fcb5c063a,2019-01-07 18:57:21,Dr_rOot,feat: engine client i18n,False
+5a626cece9578b1b993640f4b3f5d2c6f7f6c580,2019-01-07 17:47:22,Dr_rOot,feat: task i18n,False
+16c80e75b502d8b34b375db6b5e19f19c969f10c,2019-01-06 20:44:13,Dr_rOot,feat: preferences i18n,False
+4c604304d8e996fecbeb7a7a8520482274e68273,2019-01-06 19:09:54,Dr_rOot,feat: add determineLocale util,False
+a921695efcb0e8fc5dd397ab600db7a21e6facfd,2019-01-06 19:03:45,Dr_rOot,feat: tasks i18n,False
+09dfe1c8ea3299ef6c38e98c267a13fa5707490d,2019-01-06 19:02:41,Dr_rOot,feat: select torrent i18n,False
+1fbaeefca501b46f74847389674474be403ba980,2019-01-06 18:55:02,Dr_rOot,feat: app subnav i18n,False
+9a969040efe5e0ed476076fd0bf4d78a20d517cd,2019-01-06 18:49:07,Dr_rOot,feat: task list i18n,False
+b7615a178b2de146dd71c09905708ec0eaa0725f,2019-01-06 18:48:27,Dr_rOot,feat: task item actions i18n,False
+894b9c9a544e320ef681e1cf4f736788a36c102f,2019-01-06 18:44:20,Dr_rOot,feat: task actions i18n,False
+6dc4b9718e07b92260874db558dc48c2eec3ed0d,2019-01-06 18:33:35,Dr_rOot,feat: app about i18n,False
+6435ad65940823be0019ef056fd28220c113eab2,2019-01-06 16:01:34,Dr_rOot,refactor: remove code,False
+173e071a86feadd3218d6360c395a735508e3369,2019-01-06 16:01:34,Dr_rOot,fix: linux application menu command chain,False
+8812b6409e9738440659ae3ee338cb2b74587e32,2019-01-06 16:01:34,Dr_rOot,fix: win32 & linux first menu label text to File,False
+56bd63a4186ff887cbb5691175602ab63c919e6c,2019-01-06 16:01:34,Dr_rOot,refactor: remove code,False
+915b2fcaa63d0448f3acca4f2ed394dba4d8936a,2019-01-06 16:01:34,Dr_rOot,fix: bt enable dht,False
+7eb63f105ada7861c5b2eaeefff5288496ff3066,2019-01-06 16:01:34,Dr_rOot,fix: only show title bar when is renderer,False
+d6bc8a0436eda1b076e0dc6c2a451be7c4fe0d95,2019-01-06 16:01:34,Dr_rOot,refactor: remove unuse style code,False
+6ea86030744f2acfba6bdbb599430d9d9ea3ffb1,2019-01-06 16:01:34,Dr_rOot,fix: disable text selection within a draggable,False
+a652e7b893db74938a0e2f73e99b29629194605f,2019-01-06 15:55:41,Dr_rOot,refactor: remove code,False
+0e4b7dbc43a46e11fe4ece4b9fa29564b2937449,2019-01-06 15:55:01,Dr_rOot,fix: linux application menu command chain,False
+e73e9c5b27bb74a55e35d40bccd9d402441f426b,2019-01-06 15:52:21,Dr_rOot,fix: win32 & linux first menu label text to File,False
+078ddab4ad3aca4dd5df3fe203c43f6908141b8b,2019-01-06 15:46:07,Dr_rOot,refactor: remove code,False
+749c77ab3ec13f487b77d8c464b132282e48c69f,2019-01-06 15:40:21,Dr_rOot,refactor: store app module,False
+7c2eb7997a72a2d50fbcb9011b3afd599449fbc6,2019-01-06 15:38:22,Dr_rOot,feat: add en locales,False
+6beb1ca5a4cfb112ce250a77df7cc06adac1d220,2019-01-06 15:38:15,Dr_rOot,feat: add zh locales,False
+b9bd866d4b743d5970edac05f33f61ace290a485,2019-01-06 15:23:08,Dr_rOot,fix: bt enable dht,False
+08c96b57281ecbea3532bbb6c6314cf9cfed3480,2019-01-05 17:08:36,Dr_rOot,fix: only show title bar when is renderer,False
+4f77a8ebdc30151bf89c5d08a61c62caa2ccd7c3,2019-01-04 17:48:20,Dr_rOot,refactor: remove unuse style code,False
+75d7fad29fb54aa1a86ecdd6867d3d4b0d209bc3,2019-01-04 17:35:53,Dr_rOot,fix: disable text selection within a draggable,False
+0adc62f04cb2185d389579a5b17bd2245e462fe0,2019-01-04 14:01:18,Dr_rOot,refactor: change will deprecated api,False
+dadc0801c2bfab182b3a984be9ffb1a6f891c5a8,2019-01-04 10:34:55,Dr_rOot,fix: update readme,False
+334d4e6386782b5fdf0fbeabfa7d255ee903766f,2019-01-04 10:33:40,Dr_rOot,feat: support thunder links,False
+47b8ad6e568072f836d6bba6805deb246328fddb,2019-01-03 19:38:15,Dr_rOot,fix: change default seed-ratio,False
+c621fc457d44c04b70602faf344f4d7d24847b72,2019-01-03 19:37:16,Dr_rOot,fix: remove unuse preference basic form keys,False
+6ea31126915d4e8328f5f5dd32630cf6085f8b05,2019-01-03 07:49:13,Dr_rOot,fix: update version to 1.0.10,False
+8c63f97d8e0c1dabc74692b6161e2a1d7fcec0cb,2019-01-03 07:42:21,Dr_rOot,fix: change win32 aria2c to 32bit,False
+a749740900150726afed178133e4f8493f2f7c28,2019-01-02 17:16:44,Dr_rOot,fix: win32 & linux default aria2 conf,False
+cad03c1867fa2c00c94ff03ddd16a778fbbea7b2,2019-01-02 17:15:52,Dr_rOot,fix: update version 1.0.9,False
+c04f39318e80bec6728e80e8cc13fa85cd63e1ec,2019-01-02 17:15:24,Dr_rOot,fix: update win32 aria2 version,False
+a7fe65f24b6fa7c4da7445bd5698b41d1ddd5e23,2019-01-02 17:06:10,Dr_rOot,doc: add build badge,False
+7e494ae6cfb85d7bd3f0a7c1a276b9f11266648b,2019-01-02 13:21:24,Dr_rOot,fix: remove git lfs,False
+23c61bcb146d7ab98aa2ac47fdd9a05f0ecbd5a9,2019-01-02 13:17:41,Dr_rOot,fix: travis git lfs error on mac,False
+c408127d6eacb98cdc611069de173018660b36c2,2019-01-02 13:02:21,Dr_rOot,fix: travis before_install,False
+20ff0e08b589fc14a1b77d2b43d94d253cea989e,2019-01-02 12:36:49,Dr_rOot,fix: add github to publish provider,False
+17dd75bafcca513223f361822103d7907cecc935,2019-01-02 10:22:09,Dr_rOot,fix: travis node version,False
+c3bb78b3891dc9cc78dea69139fdb15dc494cbfd,2019-01-02 10:14:23,Dr_rOot,fix: appveyor node version,False
+1aafbf0dda856c2eb37240e48507cebf72dbfa18,2019-01-02 10:09:11,Dr_rOot,fix: update ci config,False
+477a81a4c231bceeaaf744c82f73553420e38d48,2019-01-02 09:28:48,Dr_rOot,fix: add losing license to package.json,False
+7e39e82901c7c6a19c09203edd212b1644921062,2019-01-01 21:18:50,Dr_rOot,fix: update version 1.0.8,False
+c810e80e0e4cf2bf7acac42ed73a4cfb714ef873,2019-01-01 21:18:35,Dr_rOot,fix: update appveyor node,False
+902e4335afe599e108b3f48f4ee089921f80afc3,2019-01-01 21:14:40,Dr_rOot,fix: torrent Bencode decoding failed,False
+8828b57001d0298f3c64afb9c3c31cc304974828,2019-01-01 21:14:08,Dr_rOot,fix: update bt-tracker,False
+b3f6468c271266c42240823653327f8446bf5a0d,2019-01-01 20:23:35,Dr_rOot,fix: aside is not clickable in Windows,False
+f1a30ce3716f4f2630444b0c2fdaf5436b6a1be6,2019-01-01 19:47:12,Dr_rOot,fix: windows not support set docker badge,False
+97be9b520cdc448ef4b717721a638f9f8186727a,2019-01-01 19:46:45,Dr_rOot,fix: start show blank window in Windows,False
+bc9b09ac816f55ddf39a758db43b638076c46f9b,2019-01-01 16:45:54,Dr_rOot,"Merge pull request #3 from devrsi0n/master
+
+fix: appId and engine not found in Windows development",True
+8baea9aa2bdd97993ed84830306b94abd0a47143,2019-01-01 15:45:17,devrsi0n,fix: CI node version requirement,False
+2b07f9acad054b960ead582d6d7b24ae563e0ad8,2019-01-01 15:22:00,devrsi0n,fix: appId and engine not found in Windows development,False
+a23ff02e53a78142ef141328a21e9090182044c8,2019-01-01 09:02:37,Dr_rOot,fix: add LICENSE,False
+f541f82ab8c8de7e0710ec6ff00d91c06fa4d917,2019-01-01 08:07:57,Dr_rOot,fix: Windows notification func,False
+6dafb1fbf649721e87a8ad713e4314d0b9641cd8,2019-01-01 08:07:36,Dr_rOot,feat: win allow to change installation directory,False
+c269b0b9a634ba67adada2d4c263ea989b0168a5,2018-12-31 21:31:27,Dr_rOot,fix: update version,False
+4060c57b49fbe13ae7d3cc1ccf511dd164485f5c,2018-12-31 21:30:50,Dr_rOot,fix: replace deprecated api: url.parse,False
+6c7b8701011094fd866eb26454a2cbadd5f8287f,2018-12-31 21:05:02,Dr_rOot,fix: remove running dmg check,False
+67b5b5fa388a3711cc9506148ded21f757894963,2018-12-31 21:02:26,Dr_rOot,fix: support running engine at path with space,False
+ff3b1b2f1523b6716cdd552c03356588b0ac4e79,2018-12-31 19:04:35,Dr_rOot,feat: check is running in dmg then move to App,False
+829ffd2a59645657fa554631b8932a939fb7e4a6,2018-12-31 19:02:56,Dr_rOot,fix: engine bin add check is exist,False
+f0a6eb7ffe4002ac6ed60c2f4d5f9e1e081d17dc,2018-12-31 06:52:35,Dr_rOot,fix: check app is running in dmg,False
+9b9e1371eacc49690379194d92d236241b87765d,2018-12-30 13:19:27,Dr_rOot,fix: task name text overflow ellipsis,False
+d8efc9f531b5287afc5b50e43937755ed6850b0a,2018-12-29 20:17:56,Dr_rOot,fix: update version to 1.0.6,False
+59e42eec858c510da0dda4c6975bb0721c632867,2018-12-29 10:34:52,Dr_rOot,fix: linux & windows aria2 split overflow,False
+560931759cb597d82852cf171917e72a28386c74,2018-12-26 17:32:28,Dr_rOot,fix: update version,False
+230ea65bf3e1e4a8370965cd002e7071af059c7d,2018-12-26 17:32:04,Dr_rOot,fix: fetchPreference Promise then,False
+5589a5703b5098466b96f5ac542c557b7ee193a8,2018-12-26 17:31:34,Dr_rOot,style: remove log,False
+426c0f2c90e233bd125040892be4581ffad08cc9,2018-12-26 17:30:06,Dr_rOot,fix: protocol handler undefined error,False
+19aa20b985d41349b0adff3204127df4fe83462e,2018-12-22 08:19:52,Dr_rOot,update: bump version to 1.0.3,False
+8e4fd9a8a72e9e33cbc50a10c1839e5acc75c62e,2018-12-22 08:18:34,Dr_rOot,fix: load menu configuration failed,False
+df261777df4551a3330fee99a1bab341721ed0fb,2018-12-22 08:17:03,Dr_rOot,fix: some link update,False
+dc9b4c070f3cbcc1af7274ad8317872aab2b63fe,2018-12-20 20:17:23,Dr_rOot,fix: add MO link,False
+9db997fc43509a2d8a12c444b274e9921d82569b,2018-12-20 10:26:32,Dr_rOot,fix: update deps,False
+b07bc24b53c31d09c81f5c227da278d4e6c3eb72,2018-12-20 10:26:18,Dr_rOot,fix: update manager update-downloaded error,False
+dc2a11cd1aa05f281f69fe3e3c5bd98853a5c0bd,2018-12-19 09:34:06,Dr_rOot,refactor: rename & adjust,False
+ac614efbbc88ef873be80bbc8eccbd47873b68f1,2018-12-19 09:29:51,Dr_rOot,project init,False

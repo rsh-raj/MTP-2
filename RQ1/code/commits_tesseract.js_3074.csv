@@ -1,0 +1,1391 @@
+Hash,Date,Author,Message,IsMerge
+43890409c64eec06e379d0ef3c80817bc8470fd1,2025-03-03 13:39:54,Frazer Smith,Added Node.js v22 to Actions (#1001),False
+7417541f4543ef5ae782fc449cb14ad294bf40fc,2025-03-03 13:39:17,Frazer Smith,Explicitly declare js module type (#1004),False
+7d64af10bc574254cc069b4138944f622c8cb217,2025-01-07 22:53:18,Balearica,6.0.0,False
+4fc74ce03f34a9ec400d7a9ce004b4381204702f,2025-01-07 22:42:28,Balearica,Updated readme,False
+56d8238f24bb33128cb59ad8291c76919c29324d,2025-01-07 17:03:21,Balearica,Updated output and types per #990 (#992),False
+901d881fb3c79df39e63a104c756f05abcba6c7b,2025-01-07 16:47:11,dependabot[bot],"Bump cookie and express (#967)
+
+Bumps [cookie](https://github.com/jshttp/cookie) to 0.7.1 and updates ancestor dependency [express](https://github.com/expressjs/express). These dependencies need to be updated together.
+
+
+Updates `cookie` from 0.6.0 to 0.7.1
+- [Release notes](https://github.com/jshttp/cookie/releases)
+- [Commits](https://github.com/jshttp/cookie/compare/v0.6.0...v0.7.1)
+
+Updates `express` from 4.21.0 to 4.21.1
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.1/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.21.0...4.21.1)
+
+---
+updated-dependencies:
+- dependency-name: cookie
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+72afa3dc38c4a1c693ed9233203d0d7a1f6cf7d0,2025-01-07 16:40:54,Igor Aufricht,"Remove ImageData from ImageLike (#971)
+
+Co-authored-by: Igor Aufricht <igor.aufricht@eligamo.com>",False
+c75a380171e2df87e045808cbc16359a6959f08f,2025-01-07 14:41:36,Balearica,Bumped Tesseract.js-core version,False
+d196683aee201ff4c05c5b3a718ba6d5a4f82273,2024-12-28 07:04:48,Balearica,Bumped Tesseract.js-core version,False
+34ba7d8fd0bc514fff3bf8829ccbea0564ddbe22,2024-12-28 02:45:19,Balearica,Updated JSON exports to match earlier format (#989),False
+6299aa558cdf5e087524a3f5afa5e4d9a8eb7f89,2024-12-26 14:40:58,Balearica,Fixed JSON export bugs and added new tests (#987),False
+d199d9c6d921f75608f58fcef05c1dd9de2bfa8d,2024-12-25 15:15:21,Balearica,Ran linter on examples,False
+564ec5a6fb7860a9552015406ea3e33029721629,2024-12-25 15:02:07,Balearica,Updated Tesseract.js-core to fix memory leak per #977,False
+fb6394f4ee49a645e2773f32b9937c395f88973d,2024-12-25 12:22:23,Balearica,Fixed layoutBlocks format and added new test per #985 (#986),False
+28846b3645713a4b58869aff1aefe23a579f7770,2024-12-25 08:02:15,Balearica,Moved JSON export code from JavaScript to C++ (#984),False
+6cf46c128786c808bb01713ee3fa3cb61de57542,2024-12-24 15:12:39,Balearica,Ran linter on automated tests,False
+241cddb29c1c5d7bd5ebcf52c847008ecd26483c,2024-12-24 14:50:54,Balearica,Disabled non-text output formats by default per #916 (#983),False
+e2e8e3b24f2a36e96c12b6cf8c36c6da9c81a605,2024-12-24 14:26:08,Balearica,Fixed compatibility with electron by removing legacy special case per #925 (#982),False
+15ed5973ebe7baf4d2363fe5f5245758ae1c4a9f,2024-12-24 14:12:32,Balearica,"Removed various depreciated functions, including default parameters to fix #975 (#981)",False
+2f2b5e309e7145a7136bbc6c89a1d1883d51b68d,2024-12-24 13:38:19,Balearica,Updated internal storing of promises to fix memory leak per #977 (#980),False
+9827c2e8a729003a0efd4d55f60ab51fdeecef15,2024-12-24 10:01:35,Balearica,Updated memory benchmark,False
+3f694ee81d75df5af3b6da370096723bd7706209,2024-12-21 12:54:51,Balearica,Updated memory benchmark,False
+18bd4188a2e18421a1647b7b891dbe2d7925ef77,2024-12-21 11:45:29,Balearica,Added memory benchmark (#979),False
+8d247d0b4a342ca3857fe17d3a2559011042613b,2024-12-09 08:19:28,Balearica,Update README.md,False
+a936162d92b03bc04f51c4bfb5db14e588209838,2024-09-25 09:56:06,dependabot[bot],"Bump webpack from 5.79.0 to 5.94.0 (#947)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.79.0 to 5.94.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.79.0...v5.94.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+51b73661cc640e28d0ed113f77dd591f823d63d4,2024-09-25 09:55:28,dependabot[bot],"Bump rollup from 3.20.7 to 3.29.5 (#962)
+
+Bumps [rollup](https://github.com/rollup/rollup) from 3.20.7 to 3.29.5.
+- [Release notes](https://github.com/rollup/rollup/releases)
+- [Changelog](https://github.com/rollup/rollup/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/rollup/rollup/compare/v3.20.7...v3.29.5)
+
+---
+updated-dependencies:
+- dependency-name: rollup
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d5ffe14f146083bb76b8749acfee8e81291bd075,2024-09-25 09:51:35,dependabot[bot],"Bump serve-static and express (#956)
+
+Bumps [serve-static](https://github.com/expressjs/serve-static) to 1.16.2 and updates ancestor dependency [express](https://github.com/expressjs/express). These dependencies need to be updated together.
+
+
+Updates `serve-static` from 1.15.0 to 1.16.2
+- [Release notes](https://github.com/expressjs/serve-static/releases)
+- [Changelog](https://github.com/expressjs/serve-static/blob/v1.16.2/HISTORY.md)
+- [Commits](https://github.com/expressjs/serve-static/compare/v1.15.0...v1.16.2)
+
+Updates `express` from 4.19.2 to 4.21.0
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.0/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.0)
+
+---
+updated-dependencies:
+- dependency-name: serve-static
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e36d20da331712d6e62af14a70c48779d3f4ef96,2024-08-24 12:25:43,Balearica,5.1.1,False
+cf2e773d08a5205128bec63de2ad6c4188431b47,2024-08-24 12:23:13,dependabot[bot],"Bump axios from 1.6.7 to 1.7.5 (#944)
+
+Bumps [axios](https://github.com/axios/axios) from 1.6.7 to 1.7.5.
+- [Release notes](https://github.com/axios/axios/releases)
+- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)
+- [Commits](https://github.com/axios/axios/compare/v1.6.7...v1.7.5)
+
+---
+updated-dependencies:
+- dependency-name: axios
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1cb2a30099e2ab3a24099da5b7e26407fa59ec71,2024-08-24 12:20:11,Balearica,Updated package-lock to fix Node.js 14 tests,False
+22d53f16170606d7082960bffb80592485bcd9b5,2024-08-24 12:11:24,YilunSun,Correct typos in api.md (#937),False
+6fb978ee22e482b961c64d3b7869352aa6adc50c,2024-08-24 12:10:57,Balearica,Updated Tesseract.js-core,False
+9143f1e56eeea9dcf0f197ec31a02a03da815465,2024-08-24 12:07:13,Balearica,Fixed oem 2 per #938 (#943),False
+d4976685e7b908cde466d69970174bbd7ecf66fe,2024-08-18 04:00:15,Balearica,Update faq.md,False
+e8919a70888383b59a46b463be079c30d5860b20,2024-06-29 04:23:53,Balearica,Update workers_vs_schedulers.md per #900,False
+8d68e96585897b5e122b99e32a2dd1675ad27c95,2024-06-23 13:11:38,dependabot[bot],"Bump braces from 3.0.2 to 3.0.3 (#934)
+
+Bumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.
+- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)
+
+---
+updated-dependencies:
+- dependency-name: braces
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+412462662c179d123582e101c17a9b3aa64d29b3,2024-06-23 13:10:29,dependabot[bot],"Bump ws from 7.5.9 to 7.5.10 (#932)
+
+Bumps [ws](https://github.com/websockets/ws) from 7.5.9 to 7.5.10.
+- [Release notes](https://github.com/websockets/ws/releases)
+- [Commits](https://github.com/websockets/ws/compare/7.5.9...7.5.10)
+
+---
+updated-dependencies:
+- dependency-name: ws
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+83df363b848968402ad38f66f6919e775b483f61,2024-05-07 11:38:15,Balearica,5.1.0,False
+9893d0c1eb95cc876b044c111986f059f6873c1e,2024-05-07 11:28:27,Nero,Update index.d.ts (#922),False
+292d4713d9562da4e9bb69b3f44f90e46f60997d,2024-04-28 00:34:43,Balearica,Update faq.md,False
+a17e42c2127c97be34a8e540fe2b7210b35c6203,2024-04-20 07:26:44,Balearica,Update faq.md,False
+910a16b7f65933772be0e36958f7b053959fbbad,2024-04-20 07:11:18,Balearica,Update README.md,False
+37ef577603f8ff867e4b7dd1a9468ecbf3aa7147,2024-04-07 01:16:55,dependabot[bot],"Bump follow-redirects from 1.15.2 to 1.15.6 (#902)
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.2 to 1.15.6.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.2...v1.15.6)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+dbbac0a5c48f828cb0d8e1ac1dbf457e1b4dfea9,2024-04-07 01:14:34,dependabot[bot],"Bump express from 4.18.2 to 4.19.2 (#912)
+
+Bumps [express](https://github.com/expressjs/express) from 4.18.2 to 4.19.2.
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/master/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.18.2...4.19.2)
+
+---
+updated-dependencies:
+- dependency-name: express
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+df3124f8d28b7b56eaedc5e5f103be6c976d74e2,2024-04-07 01:14:19,dependabot[bot],"Bump axios and wait-on (#891)
+
+Bumps [axios](https://github.com/axios/axios) to 1.6.7 and updates ancestor dependency [wait-on](https://github.com/jeffbski/wait-on). These dependencies need to be updated together.
+
+
+Updates `axios` from 0.27.2 to 1.6.7
+- [Release notes](https://github.com/axios/axios/releases)
+- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)
+- [Commits](https://github.com/axios/axios/compare/v0.27.2...v1.6.7)
+
+Updates `wait-on` from 7.0.1 to 7.2.0
+- [Release notes](https://github.com/jeffbski/wait-on/releases)
+- [Commits](https://github.com/jeffbski/wait-on/compare/v7.0.1...v7.2.0)
+
+---
+updated-dependencies:
+- dependency-name: axios
+  dependency-type: indirect
+- dependency-name: wait-on
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4217d0f1b9e22a9bee8eea21104c45f766e230e7,2024-04-07 01:12:23,dependabot[bot],"Bump webpack-dev-middleware from 6.1.0 to 6.1.2 (#904)
+
+Bumps [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) from 6.1.0 to 6.1.2.
+- [Release notes](https://github.com/webpack/webpack-dev-middleware/releases)
+- [Changelog](https://github.com/webpack/webpack-dev-middleware/blob/v6.1.2/CHANGELOG.md)
+- [Commits](https://github.com/webpack/webpack-dev-middleware/compare/v6.1.0...v6.1.2)
+
+---
+updated-dependencies:
+- dependency-name: webpack-dev-middleware
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+03f82eaab57d3c7c852c6e61bfd805c8cf42e8f2,2024-04-01 05:35:21,Balearica,Added line size metrics to output per #906 (#909),False
+bf358a2a529f52e7c28eb29e8ac0f75964602a60,2024-03-30 08:18:50,Balearica,Update faq.md,False
+71b82e8142c7b1ea7dc1d44a3531fe5d60a2197f,2024-03-19 13:08:50,Kishlay Kisu,"Add new example for custom granular output [v5] (#896)
+
+* Add new example for custom granular output [v5]
+
+* Update README.md",False
+0c3f1cf8d48ec593773b4a23949525b3aaf44372,2024-02-26 10:24:05,Balearica,5.0.5,False
+c2da2b5564957cbfa9a93c4b9199cf8213a96605,2024-02-26 10:22:04,Balearica,Added debug property to recognize output per #893 (#897),False
+8929b33573f5ae0473c5187c46a3fbdade6aa690,2024-02-24 09:06:20,Balearica,Fixed bug with auto-rotate per #892 (#895),False
+dcb016a1275c0110e265cae43f8b3aaf437551a3,2024-02-13 11:42:27,Balearica,Removed references to concat method of specifying multiple langs per #887 (#889),False
+c0479a165cbe67a475610d8e19e2d8b5f2672585,2024-02-13 11:07:15,Balearica,Made promises have unique identifier per #875 (#888),False
+f35ac0f35942079f2280bc86d8708f26b95664a0,2024-02-13 08:13:50,Balearica,Minor edits to api.md,False
+00d17398c56c806ca333a546ea16c6d4311ecbf8,2024-01-19 14:11:25,Balearica,Updated references to examples,False
+bc427454f837b4fb576ab28f60dbbcfa18abc201,2023-12-24 10:20:37,Balearica,5.0.4,False
+6d7ad88b899bc93fa716653223d582c5e564dee8,2023-12-24 10:16:39,Balearica,Update api.md,False
+5271ae6c2bce689f61b4fba3ed0b75b8a5309c5d,2023-12-24 09:52:08,Balearica,Fixed support for initialization parameters per #862 (#863),False
+52bf2e03827c7d59660c18f0928341a7b363b939,2023-11-25 06:52:16,Balearica,Update api.md,False
+4970ceaabbbe10eacef1f201182e23b9b07a8c35,2023-11-19 12:47:03,R. N. West,Enable syntax highlighting in workers_vs_schedulers.md (#852),False
+c01ca0a2fa38407a7e02f192a28e7a68a3614b3a,2023-11-14 06:37:16,Balearica,Fixed documentation for v5,False
+3da53501f5d4bdf77d95367c6ffd992e106e09e0,2023-10-30 05:30:26,Balearica,5.0.3,False
+f3232e8c370945766adf1a2a144517cb12697079,2023-10-29 11:18:21,Balearica,Update README.md,False
+ac60509c028a93f744405b4156b557b0900cedee,2023-10-29 10:32:40,Balearica,"Updated require statements to reduce file size per #847 (#848)
+
+* Updated types to support all parameters per #831
+
+* Updated require statements to reduce file size per #847",False
+680d2e4e01fecae050f3f4b56bfeab55e81dd0a5,2023-10-24 06:23:04,Balearica,Updated types to support all parameters per #831 (#845),False
+cd46c00b04870b8175124dab59bcd286fa314c98,2023-10-24 06:07:36,Balearica,Update README.md,False
+a76ba6d276dc48df66314ed1b801f39b5744ee94,2023-10-20 05:03:51,Balearica,Update workers_vs_schedulers.md,False
+04d1c8005a9d84c8480fbe60369734b180d18db0,2023-10-20 04:54:47,Balearica,Update README code example,False
+577752d88a15b5ba376ed4ce8418307a37b1b0bf,2023-10-20 04:53:08,dependabot[bot],"Bump @babel/traverse from 7.21.4 to 7.23.2 (#844)
+
+Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.21.4 to 7.23.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/traverse""
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+93853eb8a5e27da12d4c48b5be4fb4099685ea89,2023-10-20 04:52:29,Dora Michalostamou,"Update README.md (#843)
+
+Fix issue with logging data in the js example",False
+778aa00a11ea086a0b3a138ab520b38524b1ec10,2023-10-04 05:37:32,Balearica,5.0.2,False
+81755709e56a974b10e038cce9bb958d5c59998f,2023-10-04 05:31:48,Balearica,Merge branch 'master' of github.com:naptha/tesseract.js,True
+9954791c550e8e0b17f8e422aebe212ef18b8ff0,2023-10-04 05:31:41,Balearica,Skip languages already loaded,False
+dd7b8e2d60fbf6f3b28d4d9c6cc7c1ebc386f30d,2023-10-04 04:42:18,Balearica,5.0.1,False
+02ec94859ff300a508a8ccdcded224da91d1c275,2023-10-04 04:34:41,Balearica,Fixed bugs with wrong lang data being loaded per #834 and #835 (#836),False
+a1031fdf85754a0d8d1ff20a6559cd78e9d077dd,2023-09-29 10:58:49,Balearica,Update README.md,False
+3474d07604d0d97f46077ad898b1a89c398b7563,2023-09-28 13:07:35,Balearica,5.0.0,False
+9edd64a9cc63a3bfcc475214a302148c489ee013,2023-09-28 12:58:51,Balearica,Updated lockfile,False
+4af569b1675b24a667b32fa0259eca0c4cf1e1ba,2023-09-28 12:54:10,Balearica,Removed node: prefixes to restore compatability with Node.js v14,False
+7f914da00bf30b7dbaeb6f2c164e77691b12a20a,2023-09-28 12:06:52,Balearica,Updated package-lock file,False
+6ebe92fb5b1fcf2d65234e21f9e819f3532a4c75,2023-09-28 12:04:11,Balearica,Update to v5 (#830),False
+ccf7414bc22b1f3710fb2998183ca9966254cc7a,2023-09-28 07:31:15,Balearica,4.1.3,False
+2a27a0e13e9e66e6f86b19bc3e159e3cc32dad24,2023-09-25 20:19:45,Frazer Smith,perf: use `node:` prefix to bypass require.cache call for builtins (#824),False
+ff173ce2043755ea9efd302caa856f360e12e7ee,2023-09-14 06:23:58,Balearica,Update api.md,False
+d23a8d5758046fc887d16b030e3a48964517e1b1,2023-09-11 11:09:53,Yudai Nakata,Detect browsers in a Deno-compatible way (#821),False
+71b227f2e0246d3caa0b424281a2966847bb816f,2023-08-28 09:53:18,Balearica,4.1.2,False
+58e59d16b0f1717df7558ed59cd4f5c894c51dd4,2023-08-28 09:46:56,Balearica,Edited benchmark to use local version of worker code,False
+d0df3d126cc80885c2f6c18e7c6053de2977b657,2023-08-28 09:28:29,Balearica,Edited browser benchmark to report memory use per #813 (#817),False
+bb973ea2b8175c69e7ab4df587244f970dcbbb8a,2023-08-28 09:15:32,Balearica,Added warning message when trying to set init-only params per #808 (#816),False
+79cacaab956adee07ef38fa376a3800770190c06,2023-08-28 07:01:35,Balearica,Minor edits to reduce memory use (#815),False
+2c2e014ea9e2eb05f2e7b68e8c975fee082fbb1e,2023-08-28 00:16:39,Balearica,Edited logging to fix memory bug per #812 (#814),False
+8fce83963657a9546c3c3afba74d0bec2225b3fd,2023-08-26 03:11:39,Omar Boulbaze,Update api.md (#575),False
+3c20cb448da24a92c08307b9e6639c1c0b56e33f,2023-08-24 11:11:07,Balearica,Update faq.md,False
+96b9b8b5002802b47a7a580a8cb66b26968e8045,2023-08-24 06:57:52,Balearica,Removed non-existent option from types per #808 (#810),False
+4a63a8e28cebf740baeb4d44c9a72d27f3fc71dc,2023-08-04 01:36:50,dependabot[bot],"Bump word-wrap from 1.2.3 to 1.2.4 (#798)
+
+Bumps [word-wrap](https://github.com/jonschlinkert/word-wrap) from 1.2.3 to 1.2.4.
+- [Release notes](https://github.com/jonschlinkert/word-wrap/releases)
+- [Commits](https://github.com/jonschlinkert/word-wrap/compare/1.2.3...1.2.4)
+
+---
+updated-dependencies:
+- dependency-name: word-wrap
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+861e28833d8c2e6bb3332ef2d616e1ab61583521,2023-08-04 01:36:01,Jake W,"Update api.md (#805)
+
+Fixed typo",False
+6f90bc9cd9851102f5f6ac736dc7906147f0e0d3,2023-07-26 09:41:40,Balearica,Updated scheduler examples per #801 (#803),False
+67b982eff16a59b579cc4914c787556ac2b00040,2023-07-26 09:22:31,Balearica,Create performance.md,False
+50afb32e4ba723e2ed7a89d91814cd7fa3e68027,2023-06-30 01:44:21,Balearica,Update local-installation.md,False
+296afbcba624df26805b669b104780f7883ab4cf,2023-06-29 22:57:45,Simple7575,"Update api.md (#791)
+
+Mistake in docs fixed Worker.readFile() -> Worker.removeFile()",False
+785a9f9a1f9842f8e4c45d83acac935c8707ed80,2023-06-24 05:20:50,Balearica,Fixed so 'debug' output does not force recognition per #788 (#789),False
+b7411f4d7e48a3f9bd0be6633dcb4d1c5e380490,2023-06-21 10:38:36,Balearica,4.1.1,False
+3e60bf4748b1f4a9e4f579829ad40572d1d57e8a,2023-06-21 07:51:32,Balearica,Fixed orientation metadata detection and added unit tests per #783 (#784),False
+42c8b3631b26fb7af110e446f04662db7e3fa4c0,2023-06-16 02:19:07,Balearica,Update README.md,False
+f346717293ad0dc4c25e456b7f5d537edd586f47,2023-06-15 05:50:59,Richard Solar,feat(index.d.ts): add type for logger args (#778),False
+eeb08a4f532a878f55fdedb8b7f9273e0165744c,2023-06-13 12:06:00,Balearica,Update README.md,False
+5a0a3307b9d41e0805432aabdf5346d4aedc0485,2023-06-13 11:56:11,Tshetrim (Tim) Lhendup,Update README.md (#782),False
+923f7ff16466cafed167c7da34ef91c63bd01044,2023-06-13 09:16:45,Rafael Costa,Update README.md (#781),False
+07feaa774d812fff99d04be9b132e222749fd51e,2023-06-03 06:16:59,Balearica,4.1.0,False
+0d8e6fb6953d6d94acc6227c7be6b6e66b7f9637,2023-06-03 06:10:54,Balearica,Removed is-url check for browser version per #558 (#776),False
+32acbd8579463bfdec4536dc0b83b3c28c56f48a,2023-06-02 12:02:04,Balearica,Removed file-type dependency per #711 (#775),False
+fd1c8b2dc72fa69be9fdcd6080c51ca17bb2bc4d,2023-06-02 11:09:56,Balearica,Replaced resolve-url dependency per #773 (#774),False
+a5f10d843878c979530ce48e7978948aeff0a3b1,2023-05-30 10:00:07,Nathan Babcock,Support `OffscreenCanvas` in browser version (#766),False
+6437f2870461bc27e3c744af9cb6d8090d9b9144,2023-05-30 00:10:45,Balearica,Add ability to analyse layout without running recognition (#770),False
+15fdd9e3aca39b8a14c0234e450f8cb010d36b64,2023-05-18 05:21:49,Balearica,Added Node.js v18 and v20 to Actions (#765),False
+b23ebf3fa2b3637ac42cbfb5dce53fbc460f7200,2023-05-16 08:05:09,Balearica,4.0.6,False
+2bd4f3b4fd374f2fdcec659e5796d03577a76e6a,2023-05-16 07:21:00,Balearica,Update README.md,False
+5b5edbb1f7349bae01072a96116f3ff186edecad,2023-05-16 07:19:25,Balearica,Added source maps to esm build per #761 (#763),False
+578ff786b5617cf4ce391dc80d80be4072ec87b7,2023-05-12 08:27:28,Balearica,Update intro.md,False
+77637548e57c113e39bfc81e0cc9fa557693aaf1,2023-05-12 08:22:51,Balearica,Updated readme and docs per #754 (#759),False
+6d8e9fa1ec7b117833e38a5bafc83e35a7e77c7e,2023-05-11 09:18:27,Balearica,Delete invalid .traineddata files in cache per #753 (#757),False
+205cfe01454a66baf82dc3a4f87d7da61710cc25,2023-05-10 06:19:51,Balearica,Update bug_report.md,False
+7a087ca988c41d35467619fe66bf4f866bfdbb34,2023-05-03 07:19:03,Balearica,4.0.5,False
+bf86f7d7e44bc8287287adabcdec10814ae99dec,2023-05-03 07:16:24,Balearica,Removed unused files (#751),False
+0c029176669e7e4e31beb4694942b9228711ed2d,2023-05-01 08:34:06,Balearica,Added filters to remove .traineddata files (#749),False
+202666346c9e71844bb6565e341350055be5b98a,2023-05-01 06:14:13,Balearica,4.0.4,False
+9065211a5b94c20ea1949ba8ba21beda1c3bb7fb,2023-05-01 06:13:44,Balearica,Bumped Tesseract.js-core version to 4.0.4,False
+99678bb22fe3fc55ca46ae2cd5643039378c591d,2023-05-01 05:28:08,Balearica,Fixed syntax for linter,False
+34395b042a89bd6db5ea6b117dc46bde3c0da74d,2023-05-01 05:21:21,Balearica,Improved auto-rotation per #747,False
+c0a198e7cbdcb261338c31292e980af7caffe468,2023-05-01 03:51:54,Balearica,"Added benchmarks folder, added auto-rotate benchmark per #747",False
+4f8af4a9dbb32a6baa09242f5577d3af73007940,2023-04-30 11:14:15,Balearica,Added source maps to dev build,False
+15816d918047cd41fc506673c8537a299c8d8e7e,2023-04-26 08:10:02,Frazer Smith,build(deps-dev): bump rollup from 2.79.1 to 3.20.7 (#741),False
+dec363bda5508c1323ceab31487b8c5e3c7e20e0,2023-04-24 02:23:11,Balearica,Added SIMD-detection when corePath is manually specified per #735 (#745),False
+a31deaabe1d4ce2461f420edf9bc8524848a983c,2023-04-24 01:30:45,Balearica,Switched default CDN from unpkg to jsdelivr per #743 (#744),False
+249eade3fa142410d8b5fb7d5efb39263b95e7a7,2023-04-23 08:39:32,Frazer Smith,Stop dev tool config files being published to npm (#740),False
+86292fad59bbe8230b87d97f881ca5168649bcf3,2023-04-19 01:41:14,Frazer Smith,"Bump production dependencies (#739)
+
+* build(deps): bump is-electron from 2.2.0 to 2.2.2
+
+* build(deps): bump idb-keyval from 3.2.0 to 6.2.0
+
+* build(deps): bump opencollective-postinstall from 2.0.2 to 2.0.3
+
+* build(deps): bump node-fetch from 2.6.0 to 2.6.9
+
+* build(deps): bump transistive dependencies
+
+* build(deps): bump file-type from 12.4.1 to 12.4.2",False
+9e074655e25505f0cd88bb3eeb0561cae88752bc,2023-04-18 00:04:22,Frazer Smith,ci: bump github actions (#737),False
+1ae7005b899e58176f4221ce7d8dca131ef701b1,2023-04-18 00:03:25,Frazer Smith,build(deps-dev): bump dev dependencies (#736),False
+075e918e762867fd64dc90cc7d2790855ce56c11,2023-04-17 05:50:08,Balearica,Updated getCore per #732,False
+6b22a0086a52bebb9bdcba33bcc966ccb7056157,2023-04-14 07:58:59,Frazer Smith,build(deps-dev): replace babel-eslint with @babel-eslint-parser (#729),False
+fedb532fc4df6ee565960d9c09ab426d4f7a88b2,2023-04-14 07:46:31,Frazer Smith,Compress documentation and example images,False
+3c112b48e47a3ee88ddd0a88ad31345e2dc80a47,2023-04-11 05:54:40,Frazer Smith,stop test traineddata being published to npm (#731),False
+31d6851efb671739def713bfdf8d1dcc32344daf,2023-04-08 12:43:27,Balearica,Updated documentation,False
+845088bd7de7135e4f5745f6394dc46b4c4dfc60,2023-03-30 08:04:39,Balearica,4.0.3,False
+9b49edcb16be53ce68ee477ea0067da56fb600ac,2023-03-30 08:04:07,Balearica,Updated Tesseract.js-core version for update to Tesseract 5.3.0,False
+b91cecba3d5e46dbe0811515eed90a88c4d290ce,2023-03-27 07:53:12,Nathan Babcock,"Better types for `addJob` (#719)
+
+* Add more specific type definitions for addJob",False
+d8c44799cd94dffa2ec7ea444f9ce15a993d4dda,2023-02-28 07:06:27,Balearica,"Remove ""Downloads Total"" badge per #716",False
+a82d24796e1dceef99854ee4315f3fc385a2e1e4,2023-01-27 09:20:52,Balearica,Update README.md,False
+9de6c43104c1d3529f0a7bc98172f9f7d07c3112,2022-12-23 00:56:47,Wouter van der Velde,added dark themed logo (#614),False
+f46cd6cbf706ed9dd2428f0be94301df2ad0c81c,2022-12-21 03:48:07,Ikko Ashimine,"Fix typo in api.md (#673)
+
+Paramters -> Parameters
+
+Co-authored-by: Balearica <admin@scribeocr.com>",False
+5c3491fb0983d5c6ca5d6c80f1af83401919888b,2022-12-21 03:42:49,Porush Manjhi,"Update api.md (#682)
+
+Typo correction.",False
+00f0205235995fe996e5234f6bbd13b5e32bb281,2022-12-21 03:38:43,Sacramentix,fix a link that start with i (#612),False
+f91fda3822e4d3ddec45d2e236708a22a2a74ce4,2022-12-18 12:04:24,Balearica,Update README.md,False
+7ddbfd43e187613d573927d3251c3b3de8ed7936,2022-12-18 11:42:36,Balearica,4.0.2,False
+012f1f5cb4d01dd64efd04d236f51ab1a99dea2a,2022-12-18 11:42:18,Balearica,Updated package-lock.json,False
+c621586233e36ceff955d904ff4fa735ad8f2053,2022-12-18 11:40:23,Balearica,Updated Tesseract.js-core version to resolve #701,False
+1ebde35b3b52f2f5643b6442c624542011f75395,2022-12-11 09:33:12,Balearica,Added image processing example for Node,False
+028a44f1667a8da58601d85dc244688a3d7d9dc4,2022-12-11 09:32:16,Balearica,Updated version numbers in documentation,False
+487f5d1fd63806d09c2a523be30c55bd2d91cf5c,2022-12-10 10:42:29,Balearica,4.0.1,False
+d7d0c2e3c7eb4538c287641506eafba784cbcb61,2022-12-10 10:41:35,Balearica,Edited setImage to throw error for invalid images per #699,False
+b53427fbd2cd3e86124bf9d61e68cdd0562aab17,2022-12-09 07:29:20,Facundo Monpelat,"removed trailing slash if its left resolving path for traineddata (#697)
+
+* removed trailing slash if its left resolving path for traineddata",False
+5404b25c691023d11890ad03c3afb70572fa0607,2022-11-28 01:30:31,Balearica,Updated version numbers in documentation,False
+e2f2768cf669c070562492f539d507dda88e0f0f,2022-11-28 01:04:59,Balearica,Updated version numbers in README,False
+91f9f6cbd9dfa7501fa1f7b9eaeadfd099c6ed2c,2022-11-26 01:51:22,Balearica,4.0.0,False
+5ccb3d9ceeafdef0804403bb289d7018ef2b5483,2022-11-26 01:40:14,Balearica,"Update to Tesseract.js Version 4 (#691)
+
+See #662 for explanation of Tesseract.js Version 4 changes.  List below is auto-generated from commits. 
+
+* Added image preprocessing functions (rotate + save images)
+
+* Updated createWorker to be async
+
+* Reworked createWorker to be async and throw errors per #654
+
+* Reworked createWorker to be async and throw errors per #654
+
+* Edited detect to return null when detection fails rather than throwing error per #526
+
+* Updated types per #606 and #580 (#663) (#664)
+
+* Removed unused files
+
+* Added savePDF option to recognize per #488; cleaned up code for linter
+
+* Updated download-pdf example for node to use new savePDF option
+
+* Added OutputFormats option/interface for setting output
+
+* Allowed for Tesseract parameters to be set through recognition options per #665
+
+* Updated docs
+
+* Edited loadLanguage to no longer overwrite cache with data from cache per #666
+
+* Added interface for setting 'init only' options per #613
+
+* Wrapped caching in try block per #609
+
+* Fixed unit tests
+
+* Updated setImage to resolve memory leak per #678
+
+* Added debug output option per #681
+
+* Fixed bug with saving images per #588
+
+* Updated examples
+
+* Updated readme and Tesseract.js-core version",False
+80aef158612175849a479e3ddae458f21421dda3,2022-09-25 09:24:11,Réda Housni Alaoui,Fix langs TS typing (#570),False
+263dbb87b11871eb29887b68ef2253ec0dca120c,2022-09-21 07:38:06,Balearica,Updated enums per #434 (#671),False
+c9200839dfcbdc20df82daa6c6a1b0cd4bb9ae21,2022-09-21 06:12:16,Balearica,Clarified image format documentation per #359 (#670),False
+1b87e30ae3f8b8c2bcac40dc8f017ec082fcb9f3,2022-09-21 06:11:29,Balearica,Made all errors in loadLanguage lead to promise rejection per #414 (#669),False
+bce7cd84fe823ca970854fe9c2c76d0c75051447,2022-09-20 10:04:12,Balearica,3.0.3,False
+2c77f334613f94a3523327ec5ebb437d319705c4,2022-09-20 08:56:09,Balearica,Updated Tesseract.js-core version,False
+d8b29522c4866fdcade5e09e9ab74edbe7b4aff9,2022-09-20 08:14:03,Balearica,Reject promise on init failure per #602 (#667),False
+dd6c40b6818468f45cf006e844501e6afdb377b1,2022-09-18 03:31:06,Balearica,Updated types per #606 and #580 (#663),False
+5ff17fdeb14486c41450099e93f4d0f90e988ae2,2022-09-06 02:04:00,Balearica,Added build targeting esm module (#659),False
+363690a42148829b5a68599e10c61ae5870ba79b,2022-09-04 03:28:44,Balearica,Removed reference to 'equ' support per #569 (#657),False
+b64eba3db0ab8d916c8483342497f88af20196c9,2022-08-29 03:31:58,Balearica,Updated readme (#653),False
+85e73216be2f3e6d7c6b3589a1a4e3a06839e6b7,2022-08-29 03:31:11,Balearica,Removed statement that video elements are supported per #647 (#652),False
+b419e45114dce2719f8e26b188faefd86caca2a1,2022-08-22 04:12:13,Balearica,3.0.2,False
+ea3346312062d1c3c5bfbed33b8c1672784d58bf,2022-08-22 04:04:38,Balearica,Fix for default browser corePath per #643 (#644),False
+90c8d99b3c13e0d7a1370858a18c0f40736b4cb9,2022-08-21 09:43:17,Balearica,"Add tests for .webp and .gif images (#642)
+
+* Added webp test case per #548
+
+* Added gif test per #499",False
+0e368c69d61056d8420a2fcc0e0a8ca9a5620f33,2022-08-20 11:01:47,Balearica,3.0.1,False
+ba394673bd06cd2a1843ade28abc80c0c2ffe949,2022-08-20 10:59:58,Balearica,Fixed bug with simd detection,False
+44d322e6ff71fd0a4203f8c04982d5cee007a50e,2022-08-20 09:53:58,Balearica,3.0.0,False
+e3c4a6bc6eb2d3da3831c3e2ea6d4e4bd7a7959f,2022-08-20 09:53:52,Balearica,Updated README for version 3,False
+f372818146629fc6cdf0e16b42e048d9ebcdb5b0,2022-08-20 09:10:14,Balearica,Added automatic detection of simd support (#641),False
+8b567609e38e728a225852632731dd19483342db,2022-08-20 07:19:57,Balearica,Updated to webpack 5 for compatibility with Node.js 18 (#640),False
+13b95f6371cf6867e1285832aca6aff6dff84244,2022-08-19 12:38:36,Balearica,"Updated to Tesseract.js v.3; added exif-based rotation (#638)
+
+* Updated to Tesseract.js v.3
+
+* Updated exif-based rotation
+
+* Fixes relating to linter
+
+* Removed node 12 from workflows",False
+a9ac00ccac5527afacd556586fdca00fbe3c4fe7,2022-08-11 11:58:53,Balearica,Removed exif auto-rotation for browser per #604 (#634),False
+75ddd6304109434a66064485bdaa23fb893990fa,2022-08-11 10:40:29,Balearica,"Revert ""Add support for ImageData and fix a hang in buffer handling (#610)""
+
+This reverts commit 67848464ac6d89d00c3404e0ac90f36cf98c7233.",False
+1136e0a9411b28a5ca3c386e21d6c0e651e0071d,2022-08-11 10:39:55,Balearica,"Revert ""Ran linter""
+
+This reverts commit 2e478bd8a5789d23b2aff4dd477126b0135f40f8.",False
+2e478bd8a5789d23b2aff4dd477126b0135f40f8,2022-08-11 09:52:39,Balearica,Ran linter,False
+67848464ac6d89d00c3404e0ac90f36cf98c7233,2022-08-11 09:32:14,WintrySnowman,Add support for ImageData and fix a hang in buffer handling (#610),False
+be956cd8898acedf792101811e0b3b00351fd8ea,2022-08-10 11:04:18,Balearica,"Replaced child_process with worker_threads per #630 (#631)
+
+Replaced child_process with worker_threads per #630",False
+61d0e553c636c5eee0a2de51f74eb77092b06c64,2022-08-10 10:59:41,Balearica,Temporarily removed Node 18 since this fails on master.,False
+74be03c5b9d4abb684704bb915b7db61eb0bc92a,2022-08-10 10:36:05,Balearica,Updated versions of node used in workflows,False
+9442d9cb694b073f6a7d84d3b5d56a0da74e5980,2022-08-10 09:36:20,Balearica,"Merge pull request #629 from naptha/feat/benchmark
+
+Added benchmark code and assets per #628",True
+6aba9599ec8379c5af197265d853c825f62050dc,2022-08-10 09:32:08,Your Name,Added benchmark code and assets per #628,False
+58d28944d30207d41b21547b5e96ff19d9f47e2d,2022-08-09 11:19:14,Your Name,Ran linter,False
+a8287a99aaef33485e6e755b1b6f578eaabc5e1c,2022-08-09 11:01:46,Balearica,"Merge pull request #621 from SusanDoggie/patch-1
+
+Fix for passing wrong arguments while calling fork function",True
+66085a7d70af2ac47dac67ac0b1305573ffea318,2022-08-09 10:59:14,Balearica,"Merge pull request #585 from andreialecu/fix-cachebadresponse
+
+Fix caching of bad langData responses",True
+50a53f51d9f822a884096cc915e9a09cb611618e,2022-07-14 20:10:05,Susan Cheng,"Fix for passing wrong arguments while calling fork function
+
+Options should be passed as third parameter
+ref: https://nodejs.org/api/child_process.html#child_processforkmodulepath-args-options",False
+01e833576807e3b7ab1337634db805c26498b6bd,2021-11-25 22:12:21,Andrei Alecu,"Fix caching of bad langData responses
+
+Fixes #584",False
+adcb5b875986ebe61d7235e64d956d648c53c1dd,2021-08-28 14:34:00,jeromewu,Update FUNDING.yml,False
+294ced5c85d3ea359b59a4c1404f426eed2247f8,2021-08-02 18:46:27,Jerome Wu,Release v2.1.5,False
+90466c3b5504a9220ba0ff91ccec22003f72cbd2,2020-12-15 19:16:48,jeromewu,"Merge pull request #508 from stonefruit/add-language-constant
+
+Add languages constant for languages with traineddata",True
+7b7f9afaa656d451139b56d545b1d2bda2d4134b,2020-12-15 19:15:31,jeromewu,"Merge pull request #496 from miguelm3/master
+
+Modified logger to have the userJobId",True
+8f2c33fd8938269de283936975386c3de101e70d,2020-12-14 21:25:04,stonefruit,"Add languages constant for languages
+with traineddata",False
+83a424f9b9058e940070979327ef255d875f6c7b,2020-11-28 05:31:30,Ilya,Fixed method for selecting env type (#498),False
+bf43f447b6c048fc6a0395633e8c4d3eb409916a,2020-11-26 03:36:00,miguelm3,lint fix,False
+dec119fa7b730f1d88cffc09f0bc97f1f6733bc6,2020-11-20 01:58:01,miguelm3,modified logger to have the user JobId,False
+909263b94ba11db149289faffa21a7ac3eb51657,2020-10-27 09:22:16,jeromewu,"Merge pull request #491 from bertyhell/patch-1
+
+fix link to documentation in readme",True
+eb287e763a0b7129464f102394dfa0c2077f81f9,2020-10-27 09:20:01,jeromewu,Update article link,False
+178148727337d6e3774ace92e521eb9c9908c71e,2020-10-24 16:30:46,Bert Verhelst,"fix link to documentation in readme
+
+replaced #docs with #documentation",False
+69355a7c070e35d0185caf9fcf04e4634f900caa,2020-10-14 15:31:47,Jerome Wu,Release v2.1.4,False
+4f3aa3145c43ef9e70528626231219ebd9cb18d1,2020-10-14 15:21:26,jeromewu,"Merge pull request #489 from CedricCouton/fix-electron-webview
+
+Fix fetch when running in electron webview",True
+ed016bdc26fe14888587509c680330b151304b8d,2020-10-14 10:28:28,Jerome Wu,Update dependencies to fix security issues,False
+804c238950ed528809a8a84389a0b5995e24ad15,2020-10-14 08:40:19,Jerome Wu,Upgrade mocha to v8,False
+88290dc541ac91c48252a42158f6531443a8463f,2020-10-14 08:35:34,Jerome Wu,Upgrade nyc to 15.1.0,False
+920dd902f8677a0f1bc6becde3b04671f159de90,2020-10-14 08:30:07,Jerome Wu,Optimize eslint,False
+e883f87ab7d5497cdb6d8d822de30b5f639a2f97,2020-10-14 08:15:51,Jerome Wu,Upgrade babel-loader to 8.1.0,False
+34839a7a0ca4d6682f6aa35bf1300f8a5d9924e4,2020-10-14 08:10:51,Jerome Wu,Upgrade webpack,False
+e68d520155600fd8eb4a780aa19132d321c17730,2020-10-14 08:03:49,Jerome Wu,Add CodeQL badge,False
+d98eeab91f0aa5bb290a5337639b392638583a56,2020-10-14 08:02:56,Jerome Wu,Upgrade jpeg-autorotate to v7,False
+c2f4ecef9ada3ab3a9bb9a0a22a8e7f79f38a6fb,2020-10-14 07:59:17,jeromewu,Create codeql-analysis.yml,False
+eb6b8594d3865fbf3fccf5ada28ea9160baba269,2020-10-14 07:57:24,Jerome Wu,Add lint stage & update README.md,False
+afadfffa6a0adf650e5e7774e4ae0e9fdab1033d,2020-10-14 07:54:27,Jerome Wu,Remove Travis CI,False
+ccb8ec3d67afbaf0b2036ae6d3523a22dc5dbf88,2020-10-14 07:52:26,jeromewu,Create node.js.yml,False
+d64ebcaea149b7e62de2ec051f3d11dddfe7f4a8,2020-10-14 07:46:43,jeromewu,"Merge pull request #487 from abhishek7553/master
+
+updated server.js",True
+341360bf4477a5850218270e04b7e9bf7e5f238b,2020-10-14 07:43:59,jeromewu,"Merge pull request #483 from naptha/dependabot/npm_and_yarn/node-fetch-2.6.1
+
+Bump node-fetch from 2.6.0 to 2.6.1",True
+2cd68fb97e84f2e97bddaab8b8bdea8dc4a4d44d,2020-10-14 07:43:45,jeromewu,"Merge pull request #482 from naptha/dependabot/npm_and_yarn/yargs-parser-13.1.2
+
+Bump yargs-parser from 13.1.1 to 13.1.2",True
+066c59d1f94ee54afe376df4f3f86c674aa7be3f,2020-10-14 07:43:29,jeromewu,"Merge pull request #473 from naptha/dependabot/npm_and_yarn/elliptic-6.5.3
+
+Bump elliptic from 6.5.2 to 6.5.3",True
+820c91fa524951902299fb61b4d9732f651e70bc,2020-10-14 07:35:58,Jerome Wu,Fix electron webview by updating src/utils/getEnvironment.js,False
+3f98fdeb0f7ca95890a046b466d43f6d0f345279,2020-10-13 01:42:08,Cédric Couton,Fix fetch when running in electron webview,False
+cd083578338b04186bfe4509670a08b74d800057,2020-10-03 15:48:19,abhishek7553,updated server.js,False
+2bbd1e896c9ba984a2ede1252dc7a579f7e2b5f7,2020-09-15 10:10:19,Jerome Wu,Release v2.1.3,False
+5bad2e68ce5b47668bda3d0a8c0368803e1f730a,2020-09-15 10:09:41,Jerome Wu,Fix exif issue for base64 images,False
+59392e96ff37c72bf6d9ab9ef818219e157de3a4,2020-09-15 10:08:10,Jerome Wu,Update FS tests,False
+0f9cecd544343a57a26e47fbde1d4a53a77c56b3,2020-09-11 00:08:40,dependabot[bot],"Bump node-fetch from 2.6.0 to 2.6.1
+
+Bumps [node-fetch](https://github.com/bitinn/node-fetch) from 2.6.0 to 2.6.1.
+- [Release notes](https://github.com/bitinn/node-fetch/releases)
+- [Changelog](https://github.com/node-fetch/node-fetch/blob/master/docs/CHANGELOG.md)
+- [Commits](https://github.com/bitinn/node-fetch/compare/v2.6.0...v2.6.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+13ab9cec700b272173af8d32fde3afb3c624bd6a,2020-09-10 13:45:47,Jerome Wu,Release v2.1.2,False
+389bf713812f90802ab48305fe85995fb20516b1,2020-09-10 13:36:56,dependabot[bot],"Bump yargs-parser from 13.1.1 to 13.1.2
+
+Bumps [yargs-parser](https://github.com/yargs/yargs-parser) from 13.1.1 to 13.1.2.
+- [Release notes](https://github.com/yargs/yargs-parser/releases)
+- [Changelog](https://github.com/yargs/yargs-parser/blob/master/docs/CHANGELOG-full.md)
+- [Commits](https://github.com/yargs/yargs-parser/commits)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+6481256f5eeecbfaaec7984415c24c1d075ba50f,2020-09-10 13:35:38,Jerome Wu,Fix lint and test error,False
+5e295b75b6789ad2dab1d034df288b2f7539eb35,2020-09-10 11:39:12,Jerome Wu,Merge branch 'rogerxaic-master' into master,True
+f3cbc3ee43c2cfb62ef6cc2c9bfb6f3f06d75588,2020-09-10 11:36:42,Jerome Wu,Merge branch 'master' of https://github.com/rogerxaic/tesseract.js into rogerxaic-master,True
+3e9774958593a7a8cbc6b04f6e7f09ecbca1eeda,2020-08-22 08:23:45,jeromewu,Update FUNDING.yml,False
+8435f4c6e249cff6f4e49c4250350976c0b62feb,2020-07-30 02:53:51,dependabot[bot],"Bump elliptic from 6.5.2 to 6.5.3
+
+Bumps [elliptic](https://github.com/indutny/elliptic) from 6.5.2 to 6.5.3.
+- [Release notes](https://github.com/indutny/elliptic/releases)
+- [Commits](https://github.com/indutny/elliptic/compare/v6.5.2...v6.5.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+6ec5a5a09234948938dcc33c5c4f545b7a314f1e,2020-07-23 09:02:47,jeromewu,"Merge pull request #466 from naptha/dependabot/npm_and_yarn/lodash-4.17.19
+
+Bump lodash from 4.17.15 to 4.17.19",True
+d3cf791e6adc730045d1a3a21c78b147cc4726eb,2020-07-16 02:59:13,dependabot[bot],"Bump lodash from 4.17.15 to 4.17.19
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.15...4.17.19)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+cc1f2bfe81024d08204b53c3cc837d702b80b40f,2020-06-15 12:25:53,jeromewu,"Merge pull request #456 from isc/patch-1
+
+Correct some typing errors in api.md",True
+fcd01ceb325ef8c63ae126586521205848269c2d,2020-06-15 12:25:13,jeromewu,Update README.md,False
+6ef2e116cd4ab5f2812ebd07993677d629b081bc,2020-06-11 13:08:22,Ivan Schneider,Correct some typing errors in api.md,False
+885908f22ed4e673ed258fcd4474eff2fc445f99,2020-06-02 07:44:07,jeromewu,"Merge pull request #452 from mackncheesiest/patch-1
+
+Removed redirects in links to core tesseract documentation",True
+6df9ef2f1fbb8297f0e0e33084656ffac4e2bd22,2020-06-01 21:56:09,Joshua Mack,"Fix documentation links in faq.md
+
+Core tesseract documentation has moved, so this updates the links in `faq.md` to reflect that.",False
+bb7d7093f4527eaba92554fbba05539cab1eb200,2020-06-01 21:51:03,Joshua Mack,"Fixed ""supported languages"" link
+
+The main tesseract project has moved away from github wiki documentation.
+With this current link, the user can still navigate to the new Data-Files documentation page, but the fragment id is lost along the way so they're not pointed to the right part of the page.",False
+40051c6761c136050d6810aa693902f2127f2d67,2020-05-06 07:40:08,jeromewu,"Merge pull request #443 from connorads/patch-1
+
+Fix typo in README.md",True
+0ce8e139ab78d7b5a3b1c7fd752f56f908165ff1,2020-05-06 02:13:08,Connor Adams,Fix typo in README.md,False
+b221071b8ed7f3c162b447196727ed6693946892,2020-04-14 13:58:50,rogerxaic,fix images' orientation based on exif data using Tesseract on node.,False
+a54dbc345b8d4cb22fca039b5e42da1c2ad77af8,2020-04-14 13:52:54,rogerxaic,fix images' rotation based on exif data,False
+1df208ffabcd914bc3089f7260f6169784ce2399,2020-03-25 16:20:22,jeromewu,Release v2.1.1,False
+7a398f6420683c28a7ababc644da02c176e6c702,2020-03-25 16:19:15,jeromewu,Add from cache message when loading traineddata,False
+ecf03503f119c0c590db9f3b30f9199eac4086e9,2020-03-20 07:56:52,jeromewu,Update README.md,False
+0c7ade85e3296147782914188bc1f6d20c5155bb,2020-03-20 07:54:36,jeromewu,Release v2.1.0,False
+d6e434338fe459273d2c42085a7495ee13293d5c,2020-03-20 07:46:19,jeromewu,Fix FS.test.js,False
+d37f045e99976013d13951852df461e8ceef9f5e,2020-03-20 07:36:47,jeromewu,Add FS functions to api.md,False
+50df652f331a24af5b8d4b62c1a9a9bcb0334d87,2020-03-20 07:36:27,jeromewu,Rename removeText to removeFile,False
+1ff4b79f75d4726f7a7a372017f1575d2794582a,2020-03-20 07:15:50,jeromewu,Add tests for FS functions,False
+93dab17bf18c6a53443f398ad50290254f47af45,2020-03-20 07:15:33,jeromewu,Add FS functions,False
+20cd04a84890f3c068614ae93e04e27a04010e14,2020-03-19 19:38:47,Jerome Wu,Update package-lock.json,False
+363018bffecbafbc1193d96a3de99c653011b3d6,2020-03-19 19:34:01,Jerome Wu,Fix security issues with force,False
+89d0a6b12d9617f228eaaa93c4023483019e4f49,2020-03-19 19:29:08,Jerome Wu,Fix security issue without force,False
+25d6664937ff9e9d0061af4600183d6a86291c40,2020-03-19 19:24:08,Jerome Wu,Upgrade to tesseract.js-core v2.2.0,False
+a008d0780ad0b010e964c076f7a0b1ce09b026bb,2020-03-19 08:53:56,jeromewu,Update tests to use local corePath,False
+0778add1c488a9e47d7228d5631ce8f02b736d9c,2020-03-19 08:31:24,jeromewu,Update gitpod configuration,False
+331fbbe6be4be0c8b90022a0e750cd7d9d38fa5c,2020-03-16 13:18:49,jeromewu,"Merge pull request #427 from naptha/dependabot/npm_and_yarn/acorn-6.4.1
+
+Bump acorn from 6.4.0 to 6.4.1",True
+6d9adfd2ce87b7023fa90fe91f6dd9f5f13ae5a4,2020-03-14 02:37:06,dependabot[bot],"Bump acorn from 6.4.0 to 6.4.1
+
+Bumps [acorn](https://github.com/acornjs/acorn) from 6.4.0 to 6.4.1.
+- [Release notes](https://github.com/acornjs/acorn/releases)
+- [Commits](https://github.com/acornjs/acorn/compare/6.4.0...6.4.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+3d456e3eb0ff2d0eeb8cf4b70a221b5f2e7a83e0,2020-03-09 18:26:00,Jerome Wu,Add fxnoob chrome extension example,False
+205178646ba9df0150c2561b65bd20f5cc9077c0,2020-03-09 18:24:42,Jerome Wu,Update rectangle usage in api.md,False
+40aea6d88696cb03257942b814672d1f5e1c79ba,2020-03-09 18:12:19,Jerome Wu,Update example/recognize.js,False
+6f8e69206b234711c5cfe6b9b685efd093458d94,2020-03-09 18:04:17,Jerome Wu,Add user_defined_dpi and preserve_interword_spaces to index.d.ts,False
+c5935b263631c9056b85457c758e8987fee97103,2020-03-09 17:50:15,Jerome Wu,Update example/recognize.js,False
+5a40559db2aee317215421e25eb47bd9238b99ee,2020-02-11 06:10:42,jeromewu,Fix missing type in index.d.ts,False
+023d484209b17bd2902de17a5dd6376a09a9f68b,2020-02-11 06:06:28,jeromewu,Fix type error in index.d.ts,False
+641d0c5fe499829a34b9dee1055ae39b78928f3c,2020-02-11 06:03:17,jeromewu,"Merge pull request #407 from nironater/patch-1
+
+fix recognize parameter documentation & example",True
+a56de79f2291c09392295e49568cdd2b11cabc57,2020-02-10 20:08:27,Nir,"Update documentation
+
+correct documentation code example.",False
+b418554cf0a7e01b6f40f0095c476f907a782559,2020-02-02 16:51:23,jeromewu,Fix #401,False
+f8aa46ec9d789c28ab9a6be7147a1fbb7156e8c6,2020-01-06 19:27:18,jeromewu,"Merge pull request #392 from tomaszferens/fix-demo-example
+
+Fix displaying recognized text in demo example",True
+13c16f472eb1322596dd5ff695642a06918f3013,2020-01-06 15:55:27,Tomasz Ferens,Fix displaying recognized text in demo example,False
+247a1635f88d08f50ae0db6e1d36cd762c41b38c,2020-01-02 13:22:13,jeromewu,Update README.md,False
+66e2ce842e513660445f52bdddc55d844f97209a,2020-01-02 13:15:17,Jerome Wu,Release v2.0.2,False
+2956afc01340ffb09b5b5703289f31ec670525c1,2019-12-27 14:01:31,jeromewu,Fix lint error,False
+781f2f80badf10130d40852e1407130f23e5fbba,2019-12-27 13:56:42,jeromewu,"Remove api.End() as it doesn't stop api.Recognize(), fix #387",False
+548a5a5142eef4b75d0d10f955df46e5b3646748,2019-12-27 06:51:41,jeromewu,"Merge pull request #386 from nisarhassan12/master
+
+[readme] Add ready-to-code badge + rephrase how gitpod help contributions.",True
+9b91579b16893efcb6be35430e20fd6f88265e88,2019-12-26 14:43:43,Nisar Hassan Naqvi,[readme] Add ready-to-code badge + describe gitpod in a better way.,False
+7cc3427a38f0a36dbdc6cc9e62d37d57c378391a,2019-12-25 06:03:05,jeromewu,"Merge pull request #383 from OliverCole/update-is-url
+
+Update is-url package for vuln fix.",True
+71dc2a80edc0fae25a5391a91be2ad06d18731b8,2019-12-24 18:46:44,Oliver Cole,Update is-url package for vuln fix. Fixes https://snyk.io/vuln/npm:is-url:20180319,False
+9db6ebf36efc08c6a6164f1af3c1e7223fb8eca9,2019-12-24 06:44:28,jeromewu,"Merge pull request #379 from frinyvonnick/patch-1
+
+Fix broken links in api.md file",True
+db3eed3915eeac5f6f2238a7fa40ee731a3d7c62,2019-12-23 21:52:47,Yvonnick FRIN,Fix broken links in api.md file,False
+e975d29f38cd7aedfcc180c22801b7fb4af2bef8,2019-12-23 18:29:44,Jerome Wu,Add electron link to README.md,False
+f9c76a9b7fde2953bedc73170aa33a623f517087,2019-12-23 18:17:46,Jerome Wu,Release v2.0.1,False
+945f5d3f358926677e94c7aecd9557255d62ba1f,2019-12-23 18:13:46,Jerome Wu,"Update rectangles to rectangle as only one region can be assigned, fix #378",False
+b8aba2edddf41207fc0d04c067c8ba69e8a7ec36,2019-12-23 17:21:01,Jerome Wu,"Add electron environment check, fix #376",False
+b603d42547b872a3634771597600e099f072ac41,2019-12-21 15:34:39,Jerome Wu,Resize logo image,False
+c7a74a6575b2cb5a15bbc946fd7fc5b621de70f3,2019-12-21 15:33:50,Jerome Wu,Add logo image,False
+3bb543d3cd50495083ff99a57868fd844e51879a,2019-12-21 15:33:04,Jerome Wu,Add new logo,False
+fa5b267f17dfa97952cb24edbabcb98626e53a6f,2019-12-21 14:15:09,Jerome Wu,Fix lint error,False
+15b79836199b715a3e8cb1318e80118e2376f534,2019-12-21 14:09:34,Jerome Wu,Update docs,False
+b2bc416dd2cdefee271324e31061e796a1971609,2019-12-21 14:03:40,Jerome Wu,"Remove axios and add webpack-bundle-analyzer, close #353",False
+a5fa14cc3b8551efc7af2c3b7d7b7600b486b23d,2019-12-20 13:37:44,Jerome Wu,Add Edge example,False
+2aba7285e9dbc592962d6f35f13ce40f5fa2f1f9,2019-12-19 20:33:03,Jerome Wu,Release v2.0.0,False
+1051b2ab418755b6bf233f495de340c1b0729930,2019-12-18 20:38:43,jeromewu,Create SECURITY.md,False
+5c22cd52bd1f1a7401740207598488766e0f4a59,2019-12-18 20:15:17,jeromewu,"Merge pull request #374 from WebReflection/moz-extension
+
+Enable moz-extension:// too",True
+5a7576ceb4b862380751a110d4467c3e0ec94cdd,2019-12-17 22:07:06,Andrea Giammarchi,"Enable moz-extension:// too
+
+This is a follow up for https://github.com/naptha/tesseract.js/pull/373",False
+2db76074964095d6688871956cf6dfd68b8937c1,2019-12-17 21:10:35,jeromewu,"Merge pull request #373 from WebReflection/moz-extension
+
+Enable Firefox extesions too",True
+953689fedfa762af63fba709ec74eaa96a5f594d,2019-12-17 21:05:08,Andrea Giammarchi,"Enable Firefox extesions too
+
+AFAIK this library has no particular reason to ditch Firefox extensions. I have tested with above changes applied and I can finally use OCR within Firefox too.
+
+Thanks for considering this change.",False
+0e8aee660f5eae4ce277618f33e6a751c3cdd0f2,2019-12-08 10:44:05,jeromewu,"Merge pull request #366 from naptha/dependabot/npm_and_yarn/eslint-utils-1.4.3
+
+Bump eslint-utils from 1.3.1 to 1.4.3",True
+625ded7921d433816daac746ce5088a86e538446,2019-12-08 10:43:56,jeromewu,"Merge pull request #365 from naptha/dependabot/npm_and_yarn/js-yaml-3.13.1
+
+Bump js-yaml from 3.12.0 to 3.13.1",True
+73147afd870fb43e68cab02b1615f9006a7dc782,2019-12-08 10:43:43,jeromewu,"Merge pull request #364 from naptha/dependabot/npm_and_yarn/mixin-deep-1.3.2
+
+Bump mixin-deep from 1.3.1 to 1.3.2",True
+1a781a6ae4b1448d86ea8122c3ff7526bfe0c322,2019-12-08 10:43:31,jeromewu,"Merge pull request #363 from naptha/dependabot/npm_and_yarn/debug-2.6.9
+
+Bump debug from 2.6.8 to 2.6.9",True
+9c62422573b59bf724f76cd19107e5510436e6d3,2019-12-08 10:43:08,dependabot[bot],"Bump debug from 2.6.8 to 2.6.9
+
+Bumps [debug](https://github.com/visionmedia/debug) from 2.6.8 to 2.6.9.
+- [Release notes](https://github.com/visionmedia/debug/releases)
+- [Changelog](https://github.com/visionmedia/debug/blob/2.6.9/CHANGELOG.md)
+- [Commits](https://github.com/visionmedia/debug/compare/2.6.8...2.6.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+1fddc9a86c1a1a9778552127bab7ebd82aa12b97,2019-12-08 10:43:05,jeromewu,"Merge pull request #362 from naptha/dependabot/npm_and_yarn/lodash-4.17.15
+
+Bump lodash from 4.17.4 to 4.17.15",True
+4aaf4625649016453b43034c28d0142c6f59a64b,2019-12-08 10:42:25,jeromewu,"Merge pull request #361 from naptha/dependabot/npm_and_yarn/axios-0.18.1
+
+Bump axios from 0.18.0 to 0.18.1",True
+7b06e0edcb11624f6a5faf5243de1e7beb85b4fc,2019-12-08 10:29:40,jeromewu,"Merge pull request #368 from cstar-industries/master
+
+Option for top-level error handler",True
+663be93420307800286a9e53503578ae81c60359,2019-12-01 20:43:10,jeromewu,Update FUNDING.yml,False
+d51d7bd8acf232a5a718ee16e7d6970896e489f4,2019-11-25 14:52:13,Charles Francoise,update types,False
+67ccfcfb6e33089f82be4e0649e0bf21dfe9c252,2019-11-23 21:10:19,Charles Francoise,add errorHandler documentation,False
+ebc56a18992b9b4253c955efb7535ef372a95879,2019-11-23 20:49:14,Charles Francoise,add errorHandler,False
+bcdcace9ecba6bdad2010ea63e597b5c551e8594,2019-11-23 20:23:08,Charles Francoise,Don't throw error on job rejection,False
+dd61663b317c2d0b1e022443f25f55c8b2ad3311,2019-11-19 17:32:26,jeromewu,"Merge pull request #357 from elderapo/fix-typings
+
+Fix typings",True
+f524945084aa69f8027a3f39b11dc8c7efa0797a,2019-11-19 17:32:17,dependabot[bot],"Bump eslint-utils from 1.3.1 to 1.4.3
+
+Bumps [eslint-utils](https://github.com/mysticatea/eslint-utils) from 1.3.1 to 1.4.3.
+- [Release notes](https://github.com/mysticatea/eslint-utils/releases)
+- [Commits](https://github.com/mysticatea/eslint-utils/compare/v1.3.1...v1.4.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+7663c7c5892125a07281ef33cdcd8ec57035d38b,2019-11-19 17:32:17,dependabot[bot],"Bump js-yaml from 3.12.0 to 3.13.1
+
+Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.12.0 to 3.13.1.
+- [Release notes](https://github.com/nodeca/js-yaml/releases)
+- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/nodeca/js-yaml/compare/3.12.0...3.13.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+571c8c2452609f883050ec9c93f1387ce39ffa33,2019-11-19 17:32:16,dependabot[bot],"Bump mixin-deep from 1.3.1 to 1.3.2
+
+Bumps [mixin-deep](https://github.com/jonschlinkert/mixin-deep) from 1.3.1 to 1.3.2.
+- [Release notes](https://github.com/jonschlinkert/mixin-deep/releases)
+- [Commits](https://github.com/jonschlinkert/mixin-deep/compare/1.3.1...1.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+775e48176c38ba99640cc92b7c735d8c67d31596,2019-11-19 17:32:16,dependabot[bot],"Bump lodash from 4.17.4 to 4.17.15
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.4 to 4.17.15.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.4...4.17.15)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+4182c5d55a19ced857df77a559001519c51ac71b,2019-11-19 17:32:15,dependabot[bot],"Bump axios from 0.18.0 to 0.18.1
+
+Bumps [axios](https://github.com/axios/axios) from 0.18.0 to 0.18.1.
+- [Release notes](https://github.com/axios/axios/releases)
+- [Changelog](https://github.com/axios/axios/blob/v0.18.1/CHANGELOG.md)
+- [Commits](https://github.com/axios/axios/compare/v0.18.0...v0.18.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+a97e2dad98093cae5a97d257a1005ad571b4b27b,2019-11-19 17:31:38,jeromewu,"Merge pull request #360 from gustafsson/typo_whiltelist
+
+whiltelist -> whitelist",True
+8d926873b3ccd7c4a08c52343b78c06e1739a432,2019-11-19 14:17:33,Johan Gustafsson,whiltelist -> whitelist,False
+b588e9f6188deb4c5096410b764a202316b48589,2019-11-08 21:41:15,Tomasz Martyński,fix typings,False
+086c7a507a4505d1c3857321f4ff1350051f884c,2019-10-30 05:58:14,jeromewu,"Merge pull request #355 from newyork-anthonyng/newyork-anthonyng-patch-1
+
+Thanks!!",True
+2de597c1a90fb08a71948a57409aeb3a983f0ac0,2019-10-30 03:07:36,Anthony Ng,Update api.md,False
+6fd12b5012bc6bdafba3cf8425801b743ae8c7de,2019-10-28 14:06:11,Jerome Wu,Release v2.0.0-beta.2,False
+15da58127d4bebeef25cae61d6b23deb45d60e73,2019-10-28 14:05:31,Jerome Wu,Fix debugger port conflict and resolve-url issue,False
+1d28cc5e529d6b55651775a7b0b1360996c3759e,2019-10-10 17:45:01,Jerome Wu,Fix README.md,False
+6d772c70708dc930a44b0908561dd612d96bc284,2019-10-10 17:43:51,Jerome Wu,Center video demo gif,False
+e7a57363c2c3ebeededcd9884f16d82afca61b3a,2019-10-10 17:40:31,Jerome Wu,Add video demo gif,False
+fd53a9d29ecf807de0eac3ec5749e31762659262,2019-10-10 17:31:46,jeromewu,Update README.md,False
+06967cb7f369b9f49934ab252a43e5b078d8b99d,2019-10-10 09:32:32,jeromewu,Update README.md,False
+61a7531acb42733cd6c6b004e993063e6a4b08bf,2019-10-10 07:59:31,jeromewu,Update FUNDING.yml,False
+dc83e6f43720f32f3be319b03e475283f04c42a6,2019-10-07 20:08:09,Jerome Wu,Update docs,False
+e9017f3ed6879ca97a4059c233866e06425e3348,2019-10-03 20:40:49,jeromewu,"Merge pull request #345 from jasonharrison/fix-readme
+
+Fix typo in README.md",True
+41d82da35b6bb332a603dfada969f1d13cf4f582,2019-10-03 20:40:13,Jerome Wu,Fix test script,False
+d947f6e5545605c05cc3e6f0cfb6534912d5e17f,2019-10-03 20:23:01,Jerome Wu,Update README.md,False
+5db60be949cbb1f7f58dcb777d50ac77427c680d,2019-10-03 20:19:50,Jerome Wu,Update api.md,False
+7c5172846b1deaaae2416e5a818a0bf48586f586,2019-10-03 19:56:16,Jason,Fix typo in README.md,False
+6021eca27a03bd74c5bac7ca5732d75ec1d8f20b,2019-10-03 18:43:19,Jerome Wu,Release v2.0.0-beta.1,False
+b5d0651698ca211f0007017d34691c77846c99ff,2019-10-03 17:21:26,Jerome Wu,Add tessedit_char_whitelist test case,False
+93186a5dc74bef7816e2d42e5f5ee97cd5008ca3,2019-10-03 17:04:03,Jerome Wu,Add preserve interword spaces test case,False
+c124f7767db5c4cbaeee64983c186af424039a86,2019-10-03 15:07:38,Jerome Wu,Fix api.md,False
+d6ada618a1811ee05a9648f8f2fdff4aa4ee62d0,2019-10-03 15:05:19,Jerome Wu,Update documents,False
+b59d144af3685bc53fecbe5a4daf20398f2ea24b,2019-10-03 14:35:03,Jerome Wu,Update docs,False
+7f485c44616b41ca07e29f4d9e4aa255015ed507,2019-10-03 14:34:44,Jerome Wu,Add *.swp to gitignore,False
+3c1fba8fee200874d6cda167611a0976a574dc59,2019-10-03 14:34:16,Jerome Wu,Remove *.swp,False
+22d16c0e65716fd4508d6ff4c92bfc78bf103bdd,2019-10-03 14:33:29,Jerome Wu,Clean up deprecated information,False
+0ca4f785655fa34b29a8d38487d3aca020f6dfe2,2019-10-03 10:52:11,Jerome Wu,Update langs in index.d.ts to be optional,False
+369e794afabbeb36387a71046b665f07575dee15,2019-10-03 10:49:44,Jerome Wu,Update index.d.ts,False
+0e968d182986fbb31eb9d26d4e0cd7fec5ae70c9,2019-10-03 08:53:37,Jerome Wu,Update test & examples,False
+d1c4a33c9e45e1dda6c3aba0402316606c0cbd44,2019-10-02 14:56:36,Jerome Wu,Update log & scheduler.test.js,False
+a470b836d5d27e0e426beea0afdcde0e14f1af5a,2019-10-02 14:23:25,Jerome Wu,Update tests,False
+a31424e3e7033e4f8cb488de8b33bbdcdab90adb,2019-10-02 06:03:58,Jerome Wu,Make worker start the job,False
+6d7eb50429bc2e732667944b4eaa347ad23f826c,2019-10-01 19:53:51,Jerome Wu,Move loadImage to createWorker,False
+4100c0ed7a276d8958ef73c50ca20e1e427d62cd,2019-10-01 19:24:59,Jerome Wu,Complete basic refactoring,False
+3ec7092105f9a9b48f14615e21f80c576e3181db,2019-10-01 15:29:45,Jerome Wu,Keep refactoring,False
+97fa5459365a73931c52dfe46c2da623d1cb1dbc,2019-09-30 15:03:41,Jerome Wu,Update folder structure and refactor,False
+142f4dd92d0f941b72fe5f053be2331e5667ad65,2019-09-30 08:37:40,Jerome Wu,Refactor core apis,False
+8fcbfecb2f085513648c103aec44b85e74168a31,2019-09-26 10:34:33,Jerome Wu,Merge branch 'master' into develop,True
+c028a8e83302a5464c7b13366f0fafbe9b55c4f6,2019-09-25 22:21:35,Jerome Wu,Release v2.0.0-alpha.16,False
+f4ddbc49b3ad522dd695ea540399019296887fb8,2019-09-25 22:15:00,Jerome Wu,Upgrade to tesseract.js-core v2.0.0-beta.12,False
+740f2cab0cd390d5b7e8a70b6211090f891207e2,2019-09-25 20:18:17,Jerome Wu,Add isBrowser to resolve DOMException undefined issue in node,False
+b76b7b83834b568f716df9a12c38d071956e936e,2019-09-25 17:18:39,Jerome Wu,Remove node-fetch,False
+06539f7405c1df263529b1b774c7ffafd836b347,2019-09-24 17:49:01,jeromewu,"Merge pull request #333 from plantain-00/master
+
+Add typescript declaration file",True
+c4b53040f5560a283500dcb0494bc752232af3f3,2019-09-14 06:27:57,York Yao,feat: add types file path in package.json,False
+7c8f4f181b3dd424908af28f7db072f6ef6e2d75,2019-09-14 06:26:19,York Yao,feat: add typescript declaration file,False
+b6e9d6c6a2be83b6a242b4684fc09873a42379f6,2019-08-27 19:19:10,jeromewu,"Merge pull request #322 from ThibG/master
+
+Add option not to use a blob: URL for the worker source",True
+6fb2195b75c67600cf7e0d1fb42edfcf28e5a796,2019-08-26 18:26:06,Jerome Wu,Rename variable to workerBlobURL,False
+ad668166fdc4b837117b26eef18a07985c39bd7d,2019-08-25 15:21:44,Jerome Wu,Release v2.0.0-alpha.15,False
+4aaeeee0a31eb86c5f6ccb419b5d610e6f4bf495,2019-08-25 15:21:04,Jerome Wu,Ignore .nyc_output when publishing,False
+01ae9e8e366ce6d0e1638077c1bff0e85ffbcbdc,2019-08-25 15:16:36,Jerome Wu,Release v2.0.0-alpha.14,False
+ce4d4d51be9807887fff619cff1cbf8da1e27eeb,2019-08-25 14:56:56,Jerome Wu,Fix PSM,False
+eb288fb885b0bb8a56e17b0e9396414df6713032,2019-08-19 21:42:43,Thibaut Girka,Add option not to use a blob: URL for the worker source,False
+9f1e7829d30cda3358bb6edc379d66dbc50cc5b7,2019-07-24 05:38:38,Jerome Wu,Release v2.0.0-alpha.13,False
+e80056d30497b464986f7fad4f085e1c0996bda8,2019-07-23 16:44:35,jeromewu,Add Blob in image format,False
+f655fbbacde2babade396d9db9ccf41f34cc5d58,2019-07-23 16:43:28,jeromewu,"Merge pull request #314 from TheBlune/master
+
+Add Blob Support, closes #313",True
+ba99279eef8b14d0ea76ac76695b86bfd9999815,2019-07-21 22:56:50,Blune,"Add Blob Support, closes #313",False
+9a4f0b7eaa8129a1191ebf6c0082ac3b2fde31e1,2019-07-17 14:42:52,jeromewu,"Merge pull request #309 from dna2fork/master
+
+typofix: correct trained data download links",True
+d2a68d5a90c127ded5828b0198b73929900d07ed,2019-07-17 11:49:45,Seven Lju,typofix: correct trained data download links,False
+f1c4ebe2e432d0c72f9f3081d2688e4fe1a8f028,2019-07-16 19:05:18,Jerome Wu,Release v2.0.0-alpha.12,False
+8bc9f64177a92a76a98248a0b732f3ea9d362b61,2019-07-16 19:04:23,Jerome Wu,Add rectangle capabilities,False
+26ab198a84835f22bd2f629c0d5a27326d8b2cfe,2019-07-16 17:33:32,Jerome Wu,Merge branch 'opencollective-opencollective',True
+f3786d8e2b6a0889e842a0f3fa77b9122ed1993d,2019-07-16 17:33:12,Jerome Wu,Fix CI issue,False
+bdef5b4bb5b79d6d91cc5d03812ef5ed779fd811,2019-07-16 17:31:40,Jerome Wu,Merge branch 'opencollective' of https://github.com/opencollective/tesseract.js into opencollective-opencollective,True
+3c231b6d2bf984b3003e22c157341c740c908bd1,2019-07-16 17:28:04,jeromewu,"Merge pull request #308 from nisarhassan12/master
+
+Enhancement",True
+b1b41b63de8e4acbe66d0a15c4458ae63b31891e,2019-07-16 12:26:00,nisarhassan12,Fixes a small bug.,False
+a55f68c3be22b5629d2bdc736f74002982b32e17,2019-07-15 19:12:59,Jess,Added call to donate after npm install (optional),False
+41b4be50fcd9e7ec5a21f33d9aabfdd4acc32ea6,2019-07-15 19:12:59,Jess,Added financial contributors to the README,False
+1171c7b6704ba73fea16f9a70b29b2629989b4a0,2019-07-15 10:11:33,jeromewu,"Merge pull request #305 from nisarhassan12/master
+
+Look like a great MR to enable online IDE for tesseract.js 😄 Thanks!",True
+6a5a83790e17999567efa8d70aaabe50f7861fbe,2019-07-13 11:21:08,nisarhassan12,Updated Readme.md,False
+c87746ec5d91bb8f1cb3ad39cdd2fc0e4cde34cd,2019-07-10 08:39:08,Jerome Wu,Fix lint error & add lint phase in travis CI,False
+7bd5fda7ffe53ee086cfa04c492266678dee184a,2019-07-09 20:21:31,jeromewu,Update README.md,False
+5cd2c083ebee9ecf067ddf7734561bcd6441eebe,2019-07-04 17:57:56,jeromewu,"Merge pull request #296 from tmcw/thenable-then
+
+Make then .then(resolve, reject) API thenable. Fixes #295
+
+Merged, thanks for contribution :+1:",True
+2a2d05150d0ea4d1ce8fe6402a6e9641ef5d3503,2019-07-04 17:48:55,jeromewu,"Merge pull request #290 from iscoolapp/master
+
+Fixed uncaught exceptions in Promise.
+
+Merged, thanks for your contribution :+1:",True
+5cf6fc78ce5592cd4f28026e0687c9d0d100eba5,2019-07-03 18:15:59,nisarhassan12,Configures webpackDevServer to allow hosting with gitpod.,False
+90bccf7eca58c342213655b91b808a4a64484443,2019-07-03 15:27:44,nisarhassan12,Adds .gitpod.yml,False
+fb60a2389f2c1e4939a4147c1596c6357402d4b3,2019-07-02 21:00:25,Jerome Wu,Update README.md,False
+94dc428e98c302204d7204fc0a12ba73c76c35cd,2019-07-02 20:20:00,Jerome Wu,Add angular example,False
+7cdeb6cacf40db07ea0de25241ef8be94333dbf1,2019-07-02 19:47:59,Jerome Wu,Release v2.0.0-alpha.11,False
+57ae937646907822274076f50968d91e9e79f41f,2019-07-02 18:41:20,Jerome Wu,Fix process is not defined issue,False
+bc51e340cb5786d0fb17262174a176644390b993,2019-07-02 18:29:03,Jerome Wu,Reorder test cases,False
+5dd382a67a88bca399e39d792bce7b237c0e5682,2019-07-02 18:19:09,Jerome Wu,Add base64 image support,False
+c9444f32624e6f966b0d1b8e13cc228b49c5dca8,2019-07-02 17:33:41,jeromewu,"Merge pull request #294 from tmcw/unpkg-entry
+
+Merged, thanks for contribution :smile:",True
+b7b2148b7165bdda4a38420c07489c7db9c05e24,2019-07-02 15:14:30,Jerome Wu,Add test cases for image Buffer,False
+42012d663acd5f3a448dfb3be1d56b2f6487f114,2019-07-02 14:45:41,jeromewu,"Merge pull request #297 from antonrifco/master
+
+support Buffer as Image input of TesseractWorker",True
+244a4802b0feba7f9262839ce80685b374af2782,2019-07-02 14:41:44,Jerome Wu,Update pdf example,False
+7f406f438d910622174495fc1b24a4fffdb66bb7,2019-07-02 14:12:16,Jerome Wu,Change default OCR engine mode to LSTM_ONLY,False
+d3be9d662d2e0f12bd89d5306a4a16ab63d10e98,2019-06-27 15:42:32,Jerome Wu,Add files back,False
+ed0c5c9e064f780ce068028b417c4265782fd910,2019-06-27 15:41:38,Jerome Wu,Delete lfs files,False
+0d0e795b935ff2c34966d9bc499f9237f1a6c68d,2019-06-27 15:39:22,Jerome Wu,Remove lfs,False
+7f2d736baf88c5b3a6c282b6f3b9f1682f76708a,2019-06-24 17:00:40,jeromewu,"Merge pull request #299 from HoldYourWaffle/patch-2
+
+Center logo in README.md",True
+7ef9ad95f64afd719fd1a9f3a501c7b457a42150,2019-06-17 01:50:06,Ravi van Rooijen,Center logo in README.md,False
+7566d3550fec9619170a0dfb8402fbc32b0333cf,2019-06-13 18:11:27,antonrifco,"support buffer in Image of TesseractWorker
+
+support buffer in Image of TesseractWorker",False
+d0803e4dab8117d2c39fa076a2e7b50ef39380a3,2019-06-13 00:15:37,Tom MacWright,"Make then .then(resolve, reject) API thenable. Fixes #295",False
+eedabf1a051c4ed776f09639d398126dfdda356f,2019-06-12 23:50:27,Tom MacWright,Add unpkg and jsdelivr entries to package.json,False
+3f1847c05fcc76d7e4c29e132cbc1dbe6f9b04d7,2019-06-06 23:33:37,Rafael Cruz,Fixed uncaught exceptions in Promise.,False
+92521d62760f244a7863e0c17d82f65ca456236e,2019-06-02 08:42:23,jeromewu,Add Open Collective,False
+cc8fce8baf356e012feaeeb812d6cfa095fa82d8,2019-06-02 08:16:46,Jerome Wu,Update lang list,False
+74f5b639b0af1236ea2b5ab1317f70642bb45346,2019-06-02 07:45:10,jeromewu,Update lang_list,False
+288905e6beda784abe79eb852c568593c86f8d34,2019-06-02 07:32:38,jeromewu,Update logo,False
+1e8ea8f465fe3ef79846bda9a60d03eeb55c52a3,2019-06-02 07:29:01,jeromewu,"Merge pull request #288 from HoldYourWaffle/patch-1
+
+Improved README",True
+a2402eaeaef2264d4666716f7809a9e7bb3e4101,2019-06-01 14:54:03,Ravi van Rooijen,Improve README,False
+2ac6b9828ee225b759cb5f85bb96ff723e9e3f91,2019-06-01 06:13:20,Jerome Wu,Update examples.md,False
+a1512f61a4ab5b009d8f89693b103a73b803e89b,2019-05-25 23:15:42,Jerome Wu,Release 2.0.0-alpha.10,False
+af115e4940493b44814c95756319bfa895db7a59,2019-05-25 23:08:46,Jerome Wu,"Make output of hocr, tsv, box, unlv, osd to be optional",False
+84a9b80c465dda2fd31b4735b7d0647caea012f2,2019-05-25 22:42:59,Jerome Wu,Update faq.md,False
+cc61520fe4e6d0a4ebde4a843198d64c7d33e9e9,2019-05-25 22:37:04,Jerome Wu,"Dump hocr, tsv, box, unlv, osd in final result",False
+c8fe295c946e8a8cc89fb90c52c4aff246c519e8,2019-05-25 22:04:26,Jerome Wu,Release 2.0.0-alpha.9,False
+559cabd69c1d0751f99744d4524c5d105f432332,2019-05-25 21:57:15,Jerome Wu,Update docs and tesseract.js-utils to latest version,False
+26d3aecbcc1f6d3461df5a086ef13ade4aca478c,2019-05-25 21:26:15,Jerome Wu,"Revert ""Bundle tesseract.js, worker.js and tesseract-core.js together""
+
+This reverts commit 936cfa6f4853c8964d5fb79d79a43aa5991aeefc.",False
+a1c851d6c5561fa322478ed399fbec156112b7a3,2019-05-25 21:26:13,Jerome Wu,"Revert ""Cleanup tests""
+
+This reverts commit 46e84ad95d906d62a541f132a670aa1c21eebb2c.",False
+53e9298ab632659ba4f5c66d1f199cd687c8bd05,2019-05-25 21:26:06,Jerome Wu,"Revert ""Upgrade to latest tesseract.js-utils""
+
+This reverts commit de4b98ae23202929471ae8483939c009e5f421b0.",False
+9c854a4afac76c178f163f09b9ab400d5124cb07,2019-05-25 21:26:02,Jerome Wu,"Revert ""Fix tests""
+
+This reverts commit 4f14b4b79c064cc20ecbb95ee74756685f639212.",False
+698a7d60b29a47ecf04da48df506f90c669f8328,2019-05-25 21:25:51,Jerome Wu,"Revert ""Update link in examples.md and build scripts""
+
+This reverts commit 313e69976577626a9212541f327e7ec8550d6360.",False
+313e69976577626a9212541f327e7ec8550d6360,2019-05-25 19:47:19,Jerome Wu,Update link in examples.md and build scripts,False
+4f14b4b79c064cc20ecbb95ee74756685f639212,2019-05-24 12:07:09,Jerome Wu,Fix tests,False
+de4b98ae23202929471ae8483939c009e5f421b0,2019-05-24 10:21:14,Jerome Wu,Upgrade to latest tesseract.js-utils,False
+46e84ad95d906d62a541f132a670aa1c21eebb2c,2019-05-24 06:56:22,Jerome Wu,Cleanup tests,False
+936cfa6f4853c8964d5fb79d79a43aa5991aeefc,2019-05-22 21:58:14,Jerome Wu,"Bundle tesseract.js, worker.js and tesseract-core.js together",False
+87cff487e230d2d2ba58edbb8ccf4e8e94a2d190,2019-05-22 11:53:21,Jerome Wu,Update docs,False
+462f64148297fa5f2adb82f92666c4b1e93ad9bf,2019-05-22 11:50:09,Jerome Wu,Release 2.0.0-alpha.8,False
+3fa475195e123bf505e41a9f25f5d9775cf5471f,2019-05-22 11:19:30,Jerome Wu,Add babel-loader to transpile to es5,False
+6503dd4e7351d933ff831554043c5780986de967,2019-05-22 10:37:35,Jerome Wu,"Replace fetch with axios, ignore DOMException in loadLang",False
+080151711bc545f2d04f5a803b7da8145b6b44d7,2019-05-22 09:19:11,Jerome Wu,Fix lint error,False
+269629d601978d359464df438783fb6099bc7bf2,2019-05-22 09:05:12,Jerome Wu,Update browser tests,False
+3905ecf600674f5d1ad7898f4ef6b064f472353e,2019-05-19 07:48:32,jeromewu,Add example repos,False
+46196f9afa261c32c578ff3964713ee73f9a0620,2019-05-19 07:39:49,jeromewu,Add train own data in faq.md,False
+d41d0ce4a7879ecee297c144b03754b22ac3b41f,2019-05-17 19:22:57,Jerome Wu,Release 2.0.0-alpha.7,False
+5e383d7a14aec71cbadab865b6c060d941c97aa7,2019-05-17 19:20:32,Jerome Wu,Update examples.md,False
+0f28382dcc1e7dd2c5d2421a7d8c41942afac00b,2019-05-17 19:15:46,Jerome Wu,Update tesseract_parameters.md and export pdf bin data in result object,False
+794a17472ad599e0278f25cc087f47444a5e8217,2019-05-17 11:52:01,Jerome Wu,Upgrade tesseract.js-core to fix issue,False
+51e89ed8e588b62348f7e3e685b26f139d1ecded,2019-05-17 11:00:08,Jerome Wu,Release v2.0.0-alpha.6,False
+154b60067009b9f5cbf824698b7ba351e4adea43,2019-05-17 10:55:12,Jerome Wu,Release 2.0.0-alpha.5,False
+0b48d820b8a443d8949d2f1f7891ab7c1ce768db,2019-05-17 10:49:39,Jerome Wu,Remove deprecated param,False
+e32272ea2e383a4e4a81113b946da9410f1101df,2019-05-17 10:49:07,Jerome Wu,Add pdf output feature and rename oem params,False
+4ab9094a5054f6009d3d5fdb4dd587bc55b76679,2019-05-14 19:28:27,Jerome Wu,Add prepublish back,False
+3cbfb044a1261a7fa3103331ec4f19867e78d72b,2019-05-14 19:26:31,Jerome Wu,Update tesseract-core.js import part and release 2.0.0-alpha.4,False
+f1c9e2f08caa87b456073696a2207443d66b2801,2019-05-14 15:58:33,Jerome Wu,Add init_oem parameters in recognize() for switching modes,False
+4136b586b2bfb75f8bf50796e80c7e159245a300,2019-05-14 14:44:27,Jerome Wu,Add browser auto testing,False
+3450e280871316f7691052bb7e7b866b219b2f84,2019-05-14 09:38:23,Jerome Wu,Add type application/javascript when initializing Worker,False
+b6e4f309670c13fde8cf8f45459757b431fae9aa,2019-05-13 20:29:32,Jerome Wu,Add FAQ for questions,False
+8e73c8d1e1c0086ae69a9734fc3b3d76c843dbc9,2019-05-12 19:29:39,Jerome Wu,Add babel-loader to solve Edge browser issue,False
+ef4fd6c61f01e2339f9d11f6f5cd8d201c136eae,2019-05-12 17:37:05,Jerome Wu,Fix typos,False
+f576fca12fb968332e2729e2de3173ceb281a260,2019-05-10 14:39:25,jeromewu,Update issue templates,False
+dcf186b047bb74d80f2b9d244101b509be71bd59,2019-05-10 14:36:50,Jerome Wu,Update local installation,False
+824e4710e2e4031d8d1ece7ff59889c33f3fa2b7,2019-05-10 09:14:02,Jerome Wu,Update .gitignore,False
+453061d9ae68c06ebe3295883ace924a706ed6e0,2019-05-10 09:13:12,Jerome Wu,Upgrade to 2.0.0-alpha.3,False
+53be7e57268b37ccb5818ca0cf54e88214bd197f,2019-05-10 09:12:09,Jerome Wu,Replace jsdeliver with unpack and remove dist,False
+dbd1e6b4de185aeb7407a3846eff3e5447d10a24,2019-05-10 08:52:02,Jerome Wu,Upgrade to tesseract.js-utils@1.0.0-beta.5,False
+697b8bf79a48d4da02fe49aa40043f71fa3e0348,2019-05-10 06:11:07,jeromewu,"Update api.md, fix typos",False
+6a44230162d9e1a7aa793c711ff4663e6bac50f4,2019-05-10 06:10:10,jeromewu,Update README.md,False
+7cff0bb0975d3a2478e27a3f8d89740932addabd,2019-05-09 01:15:13,Jerome Wu,Update api.md & examples.md,False
+6e5c09bac78385064a7fcc9cecd331173fb0728d,2019-05-09 00:57:08,Jerome Wu,Rename example folder,False
+0b528af40f9d72da2a0aa598d9b62dcccd513c71,2019-05-09 00:56:35,Jerome Wu,Rename examples to example,False
+969b605713301474bef8070962709178169657e6,2019-05-09 00:55:22,Jerome Wu,Update image in demo.html,False
+31cf08e2e26dfc9873684ab8267e5a2cf7c1283b,2019-05-09 00:46:07,Jerome Wu,Update documents,False
+154f3f60dbe8853e682dbcdffb812acf8af3ae63,2019-05-09 00:35:39,Jerome Wu,Add .npmignore,False
+f32f2cabd179f87acac4c500e3858a5972228964,2019-05-09 00:11:04,Jerome Wu,Update dist,False
+4624c6f404caa1a2a944a0cbdf3d278068f0322c,2019-05-09 00:09:07,Jerome Wu,2.0.0-alpha.1,False
+8f0eeb9f8407c39a95ea3211aa3c504a511582ac,2019-05-09 00:07:49,Jerome Wu,Update README.md,False
+b322febf9758faec154fe20e34920227ac92fc6f,2019-05-08 23:46:00,Jerome Wu,Update README.md & docs,False
+9206c022ad83b29a07c21d181907192b7c6021df,2019-05-08 22:54:35,Jerome Wu,Update README.md,False
+b4880975516187dbf68ad22d75183291778ef672,2019-05-08 22:21:44,Jerome Wu,Update README.md,False
+a873bbbc80e7f9a67258d49755f7e238c7df3cde,2019-05-08 22:07:34,Jerome Wu,Fix npm version badge,False
+30f36a0f76132623608ae49220b401c6ed306221,2019-05-08 22:05:50,Jerome Wu,Rearrange badges,False
+38e0d0087e9c400ed5187c49c555d2c57f281b1a,2019-05-08 21:59:53,Jerome Wu,Add badges,False
+584205372d866bf7e649c1f39005c557e2c6e9c4,2019-05-09 10:23:21,Jerome Wu,Add more input format support for recognize(),False
+08be88c890f39c3b51478369c3190ed65f224567,2019-05-09 06:02:36,Jerome Wu,Merge branch 'develop' of ssh://fcoe-dev.deltaww.com:443/jerry.wu/tesseract.js into develop,True
+6ee38849d2f3c33ba310bd649f6871afe04014f0,2019-05-08 21:19:54,Jerome Wu,Add travis-ci badge,False
+d8a7bb8ba47ded60f2160b0c3ddd27bc7bb0c022,2019-05-08 21:15:48,Jerome Wu,Update package-lock.json,False
+566b105c19c66a24acebb3c7e73338a6701177b5,2019-05-08 21:12:29,Jerome Wu,Add npm test,False
+3809498e5fe24e606326b2fe75c75f4621b295a4,2019-05-08 21:09:53,Jerome Wu,Update .travis.yml,False
+10583c57e4875be92800c9039e698684e5bd38c1,2019-05-08 21:02:41,Jerome Wu,Add travis-ci,False
+8a3e0a6e28e8d3fab6bc8e3f88808a91f4a0392c,2019-05-08 18:37:47,Jerome Wu,Replace NODE_ENV with TESS_ENV to prevent conflict,False
+9236ff0ebb58aefa29df44c0e15e34ea386a286a,2019-05-08 14:44:20,jeromewu,"Merge pull request #265 from toombs-caeman/develop
+
+Update parameter passing in demo.html",True
+0ae0f71b5e7a04cd2d2f7d90ecb799a4e78e22fa,2019-02-12 00:22:39,Caeman Toombs,Update demo.html,False
+98935578624ae2729762a095b253f9debddbe34a,2018-12-04 22:11:23,Jerome Wu,Update dist,False
+9aafe4aa2489697ba697fb5ba13d142d9db47522,2018-12-04 22:11:10,Jerome Wu,Add detect() unit test,False
+71a9cb9210ae0ccd28a12df5b7c7831f27b0a52e,2018-12-04 22:09:17,Jerome Wu,Fix documet is not defined issue,False
+cfb7d5673ce239f8b5f371209b0532a3b85a4182,2018-12-04 21:07:00,Jerome Wu,Add comments and remove unused files,False
+62a67ac4309e04ad0177ecc44c12894e8c13e34c,2018-12-04 19:15:39,Jerome Wu,Upgrade tesseract.js-utils,False
+f6714f00556bec5ee2f94156218d754bf6290160,2018-11-28 16:53:09,Jerome Wu,Rewrite handleDetect,False
+b1c30dfad9a89be769660c17c0da7a1a9356d005,2018-11-28 05:58:03,Jerome Wu,Update examples,False
+69042fc1bfed0980f7d18e25dad7aee551a65074,2018-11-27 19:34:42,Jerome Wu,Add comments,False
+ce520007ec16430af69602160eca74532ab346fd,2018-11-27 19:10:37,Jerome Wu,Update example and remove repeated files,False
+40740db822f66bd3b09164dfc2efa378a0be5fd2,2018-11-27 19:08:35,Jerome Wu,Upgrade tesseract.js-utils,False
+8146655c557e763040e3cec932ea03f490eaa900,2018-11-27 19:06:16,Jerome Wu,Add large files,False
+ad918d349a615b4f37815817e8fec16c7a42ec6b,2018-11-27 19:04:13,Jerome Wu,Initialize lfs,False
+b4c6565acf65b26f62e43285c992614feb8c4f85,2018-11-23 14:51:04,Jerome Wu,Update test server,False
+3b2b8bd2b82bdf063fbcbfc4ffa50b585b800df5,2018-11-23 14:47:53,Jerome Wu,Minor refactor,False
+a4fdded574c062e03911f79a2f1b9951bd8b35db,2018-11-23 14:05:33,Jerome Wu,Add jsdoc to TesseractWorker,False
+a45e35467eb53c2b689f0cbeb486de3df8977f98,2018-11-23 09:42:05,Jerome Wu,Add Chinese test case,False
+7fa06577d5381b7b27509cfdeb470ea729f0e153,2018-11-23 09:00:08,Jerome Wu,Add 3rd params to recongize(),False
+b843f08705fb6eb76ee7daa6a5806836d922066a,2018-11-23 07:25:24,Jerome Wu,Minor refactor,False
+b31c45faf346fed3f07e18cf294040c41fe519f1,2018-11-23 07:24:55,Jerome Wu,Add in browser unit tests,False
+e0b263b88bab6137fbf2fbc60049d93075a869db,2018-11-22 13:19:35,Jerome Wu,Add partial recongnize unit tests,False
+f488f4d2046414b4825e47ffcb69d9c9a81d85a6,2018-11-20 03:17:14,Jerome Wu,Minor refactor,False
+098c070e6d7aae5724847e63a8d5b7daa009dbe8,2018-11-20 02:30:45,Jerome Wu,Use github page to host tessdata,False
+12eaac4d2be3485422c52ad2c5a678f4571578f5,2018-11-20 00:48:16,Jerome Wu,Update tesseract.js-utils,False
+07b45ec0b59aac194417e26d43f7a2f49edc0925,2018-11-21 15:25:24,Jerome Wu,Enable bmp format,False
+259562a4227482df665c9e285e4dbb3288a82fbf,2018-11-21 06:07:34,Jerome Wu,Fix browser image reading issue,False
+ec1a81e72dae60a61e1ba59bbd016b79c5bb986e,2018-11-20 00:23:14,Jerome Wu,Update browser code,False
+38b107b09465bc794417a181a2aee25b1e237b12,2018-11-19 21:56:37,Jerome Wu,Fix lint error,False
+e9cde564e5280751dd3e6a03ff7483aba56007ce,2018-11-20 16:00:23,Jerome Wu,Fix lint error,False
+af05a27d35486ed2d7b56e9f78a3637388cbc82d,2018-11-20 15:51:48,Jerome Wu,Fix lint error,False
+84bde05028c9944f1f93fbffa6923b0c37caa8d8,2018-11-19 21:25:49,Jerome Wu,Add lint for src,False
+30d3421d15d8052f61b83a3abebaa055d62ac268,2018-11-19 21:18:56,Jerome Wu,Rewrite src to use tesseract.js-utils and fit lint,False
+2b3221fbfe35e5a5cb1c78660fce95f0c76538a9,2018-11-18 21:44:13,Jerome Wu,Rewrite part of src/common/work.js,False
+6dcef53dbcbdd73b2502850da1b02a1f96abba5c,2018-11-18 21:06:42,Jerome Wu,Fix Module async issue and rewrite src/node/index.js,False
+876bfc5f9a156b5a755a160657fdc7e03db9a028,2018-11-18 19:29:29,Jerome Wu,Upgrade to tesseract.js-core 2.0.0,False
+17b103746e59c02342664c5750e645feb1d1fd48,2018-11-18 18:59:38,Jerome Wu,Rewrite src/node/worker.js,False
+1e80e42a6f464744a66d0ec68292e4bd420dccc4,2018-11-18 18:49:30,Jerome Wu,Add eslint & rewrite src/index.js,False
+c6ea108325b78ce860bdce58b779804ac201ddf9,2018-11-18 17:50:33,Jerome Wu,Add contributors,False
+cccd9baea34905d79bdceceea79f1ed4ce2f41f9,2018-11-17 18:54:45,jeromewu,"Merge pull request #247 from jeromewu/master
+
+Release 1.0.13",True
+e5c693a43cb63dd0937fd3fd42f31d30a2e1e9fa,2018-11-17 18:33:00,Jerome Wu,new release,False
+a0e17648130762503a9495e9299d04824e85a478,2018-11-17 18:31:57,Jerome Wu,1.0.13,False
+a9c2fe668650455a1491a139059cc5322170d90a,2018-11-17 18:15:39,jeromewu,"Merge pull request #94 from ytiurin/master
+
+[Bugfix] Fix worker crash when trying to pass Exception with postMessage",True
+3e29fa6420934066c7b8203cf31a831b7ffeb9a7,2018-11-17 18:13:22,jeromewu,"Merge pull request #246 from jeromewu/master
+
+Build minified version and fix PR #70 issue",True
+5f5072aca48adcac65ef3bb6b51d1f1fef3c9f2c,2018-11-17 18:10:07,Jerome Wu,Update dist and lock file,False
+84612f2772e706a74303b8b54e31d70218ffad52,2018-11-17 18:07:09,Jerome Wu,Fix build script in PR #70,True
+2fc29127db03ba5fdf6e324b75395401e0d17705,2018-11-17 18:04:36,jeromewu,"Merge pull request #70 from ckuetbach/master
+
+""npm run start"" and ""npm run build"" did not work on a windows maschine",True
+28f54693f20eec978ad18ee515502ad78a326dc8,2018-11-17 09:41:12,jeromewu,"Merge pull request #1 from jeromewu/jmaster
+
+Jmaster",True
+281b59fe26cfe35f506d2e92d557500fc09b97bf,2018-11-16 14:43:20,jeromewu,"Merge pull request #98 from trevorwhealy/error_create_not_found
+
+fix(webpack/error): create not found error when compiled with webpack",True
+343246f2cad071cffa98bd79cce7e4ab778178f3,2018-11-16 14:36:15,jeromewu,"Merge pull request #196 from yonmey/image-url-parsing-fix
+
+Fix - Image URL condition moved",True
+0d07f57ec575c44c2d6d3d5f07def1f693e42e52,2018-11-16 14:30:25,jeromewu,"Merge pull request #198 from imsukmin/master
+
+crush tesseract.js when use is-url@1.2.3",True
+a4f69237a4421b79251a7ca993c6c1dc125e3702,2018-11-15 07:41:46,jeromewu,"Merge pull request #244 from jeromewu/master
+
+Use jsDelivr as cdn",True
+464565e335c897daef0c8307c2c3beeeef71f85d,2018-11-15 07:39:51,Jerome Wu,new release,False
+6132f2169de3a99934ec3c89324fa23a9eaa173c,2018-11-15 07:39:40,Jerome Wu,1.0.12,False
+d2ab2a14869c7105bec58f7b9c4a7b67dc9422b4,2018-11-15 07:39:31,Jerome Wu,Enable node.js to support both http and https,False
+244a948991138a6988f2cd17ef28cb8ef64e0da2,2018-11-15 07:39:05,Jerome Wu,Use jsDelivr as cdn,False
+797de3aae49385160406ceab0854c4902ca683a8,2018-11-15 07:19:16,jeromewu,"Merge pull request #243 from jeromewu/master
+
+Replace cdn.rawgit.com with rawcdn.githack.com",True
+eb50d773542070d6aa747f098cb536a0d8f95331,2018-11-15 07:12:38,Jerome Wu,new release,False
+64e7dea45c39de250ff477db2cfbe1de61a3417c,2018-11-15 07:11:52,Jerome Wu,1.0.11,False
+5841c6bbfdddbe2f22c3ef87c418547871978712,2018-11-15 07:11:39,Jerome Wu,Replace cdn.rawgit.com with rawcdn.githack.com,False
+a9000002541a69aed9038dc5392f1f48b92c726b,2018-11-14 01:29:44,Jerome Wu,Fix typo in README.md,False
+8b56811de7c969bc2168ad678ec16203af2abd79,2018-11-14 01:29:11,Jerome Wu,Build min version with npm run build,False
+7701c2db3834f6493c3d30410774f81fcf63baae,2018-11-09 06:01:41,jeromewu,"Merge pull request #227 from swifmaneum/readme-fix
+
+Fixed the path to worker.js file in README.md",True
+418fc4c4fffed5c7a9f492d3f8dd220c62f97222,2018-11-07 10:19:36,jeromewu,"Merge pull request #214 from acs-ferreira/patch-1
+
+Update CDN URL",True
+6ad18109967087a1489cadd1f67fe094163d7e90,2018-08-24 20:24:44,swifmaneum,Fixed the path to worker.js file in README.md,False
+fbe920d66eda8829fab6323a49fb22e8d0251dc9,2018-05-12 05:47:35,Carlos Ferreira,"Update CDN URL
+
+Rely on a supported an maintained CDN: https://github.com/rgrove/rawgit/blob/master/FAQ.md#i-need-guaranteed-100-uptime-should-i-use-cdnrawgitcom",False
+a62e4b832b88ac611cb6c7c4aa765a9df506c9d9,2018-03-23 12:49:11,Sukmin Lim,"crush tesseract.js when use is-url@1.2.3
+
+fix 1.2.2",False
+2cb3d92f79fcdda5f99873764009e1b253549058,2018-03-22 05:34:02,yonmey,Fix - Image URL condition moved,False
+2581b662dc91f68cd5dd1c1f6aa5fe64deacbd8c,2018-02-07 21:50:42,Jerome Wu,Remove duplicate line in README,False
+16aaea19a97b8fe6740627958b759778323fe327,2018-02-13 19:02:06,jeromewu,"Merge pull request #168 from Gerhut/master
+
+Fix table of contents of README",True
+0ed7584ddb51823d43a2ee26f5a88e4b3e46f210,2018-02-13 18:50:10,jeromewu,"Merge pull request #140 from reza1615/patch-1
+
++Persian
+
+Thanks for the PR :)",True
+3e23f2b602a3a908f03eb502bbd45014f307d106,2018-02-07 21:22:18,Jerome Wu,Merge branch 'rohitjha-readme',True
+9d6117ee7adb8a66aef626dc5b82afa48f33c5a0,2018-02-13 14:09:41,jeromewu,"Merge pull request #163 from IlyaRadinsky/fixes-install-instructions
+
+Fixes the install instructions.",True
+46a37aa07ae76ebf88b9b2186bfa1e0c3c3e208f,2018-02-07 21:21:57,Jerome Wu,Fix conflicts in README.md,True
+ffe2360426851a0686fbbfb2e50b0392aba2abd7,2017-12-05 09:01:22,George Chung,Fix table of contents of README,False
+958c6a394e36e87e889db14bce391cb511bac4f1,2017-11-07 22:39:04,IlyaRadinsky,Fixes the install instructions.,False
+799eafab9016031409982f01de49309c314781cc,2017-09-20 11:23:34,Kevin Kwok,"Merge pull request #118 from aretecode-forks/patch-1
+
+📖 readme docs updates",True
+8e9f7861ac2a13197cd49dd251fdfbf58e29553f,2017-09-20 11:22:34,Kevin Kwok,"Merge pull request #141 from mikewesthad/master
+
+Node fix: allowing a local langPath to be used when looking for language files",True
+69678dd86bb9cf0f9f4c15a8519c2ff8e8d86517,2017-08-15 20:45:28,Michael Hadley,New build,False
+724f088328b1a065b2e8a46c79ad70d0eddd39aa,2017-08-15 20:45:28,Michael Hadley,Update to latest npm: package.lock,False
+4bff80585c5e8e589d99afd67382ddd93be06499,2017-08-05 21:22:32,Michael Hadley,Fix: missing isomorphic-fetch package,False
+abcb593971fb19ce1334731c61325ef15459d674,2017-08-05 21:14:40,Michael Hadley,Fix: allow local node paths for language,False
+142ee885f24e99faa69fe264e9f99477f7a99977,2017-08-05 16:50:59,mohammad reza,+Persian,False
+0cd348dfbe2be1b89dd7a696dc0a02c2863f495b,2017-04-10 12:51:57,James,"📖 readme docs updates 
+
+📖 readme docs updates 
+
+- ⚒📑 fix legend markdown list of links to anchors
+- ⚒📛 fix badge to link to npm instead of badge
+- 🆙📼 update outdated .error to .catch 
+- 🔗 link to gif
+- 🎨 highlight files 
+- 👾📦 simplify and unify installation section, add yarn optionally for easier copy paste",False
+27fa9156ad088636635da2046f69902f2176ff93,2017-01-25 00:28:47,Trevor Healy,fix(webpack/error): create not found error when compiled with webpack,False
+8350b5345f0872e11ce580fcd4f017f3296a9b0a,2017-01-14 13:21:51,Yevhen Tiurin,[Bugfix] Fix worker crash when trying to pass Exception with postMessage,False
+b99bf1cee53929d9dad7fe25d86492d2eb262495,2017-01-12 23:50:39,Kevin Kwok,Update index.js,False
+157d9b0e0a927602d511e9dcd9c16ce7b14f5c11,2016-10-31 11:27:02,Rainer Eli,"Update README.md (#76)
+
+fix grammar",False
+d7ba0e32a884e80f84432a9da29b88c9a1367228,2016-10-29 04:46:46,Kevin Kwok,Update README.md,False
+61447d8ebdc43da66185081dd84bf2a9f5fac38f,2016-10-29 04:46:12,Kevin Kwok,Update README.md,False
+f4289d124e437261280be6e2848ea513d9ec3029,2016-10-29 00:19:05,Guillermo,build,False
+c27f07a2928e01155b06285f78043a0de8fe1092,2016-10-29 00:12:16,Guillermo,fix README,False
+beabea0c712cc7cb8a57df10630014fe9f017615,2016-10-29 00:11:55,Guillermo,fix README,False
+d079a59b002a71df56ba4a73205904f62cff27e0,2016-10-29 00:05:48,Kevin Kwok,"Merge pull request #74 from varunshenoy/patch-1
+
+Added link to wikipedia page for OCR",True
+5e6e6d4ceb9204976002d2b0c4b2fe2645e657cd,2016-10-26 21:21:12,Varun Shenoy,Added link to wikipedia page for OCR,False
+5a0d8896fd78ae69284b61e8f95ff31538ad08d5,2016-10-26 12:38:33,Kütbach Christian,Merge branch 'master' of https://github.com/naptha/tesseract.js,True
+15bb5c41459a7478bab70546bdcd80c532454391,2016-10-26 00:18:17,Guillermo,fix #72,False
+4244d899983d03c88c6f1f6ccb4055514b8b0517,2016-10-25 19:12:48,Kütbach Christian,"Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	package.json",True
+8c265dbce57c6379f5df948f94d8367bec886be0,2016-10-25 19:11:42,Kütbach Christian,npm run start did not work on a windows maschine: http://stackoverflow.com/questions/30950032/how-can-i-run-multiple-npm-scripts-in-parallel,False
+01c7c4a16fe7bbbafa3ecee133efc61aafd09ff1,2016-10-25 19:04:25,Kütbach Christian,npm run start did not work on a windows maschine: http://stackoverflow.com/questions/30950032/how-can-i-run-multiple-npm-scripts-in-parallel,False
+d08ac24b82c2019a2a3e4fc5f0c03a05c6f899ea,2016-10-22 21:16:32,Guillermo,add back lang string as a valid option,False
+91f9be7e81092282d4023639895a2ffb8fa6f620,2016-10-22 21:12:09,Kiran Kota,"Es6 and code cleanup (#41)
+
+* Fixed syntax error
+
+and added process.exit() to the examples
+
+* es6 and code cleanup
+
+Saw arrow notation used sporadically, so figured the node parts are
+meant to be es6 compatible anyway, so implemented it where applicable.
+
+Spacing and semicolons
+
+Version 1.0.8
+
+* revert changes to dist
+
+* attempt to use standard spacing
+
+* resolve conflict",False
+21fe5729ebd1ba26f0c8e39377a6a546bea9645e,2016-10-19 06:23:10,Guillermo,fix badge,False
+e01c63e8641d5abf90477b8eb27ff7e4607c9a5d,2016-10-19 06:21:38,Guillermo,update readme,False
+fc15b0ef43cbf2d8729f8db2ef06a16b2497a16e,2016-10-19 02:16:12,Kevin Kwok,new release,False
+afabe9eab87836b1c1645f290ae4e46e78c6619a,2016-10-19 01:28:44,Kevin Kwok,Fix #57,False
+107883062809ebb88f7423cccdcdada23d84b848,2016-10-19 01:25:33,Kevin Kwok,Update package.json,False
+5a536f1599be36301d260ca13225f30bef6afaf4,2016-10-18 21:19:47,Guillermo,update cdn url,False
+2f3cec857d58ff1d250c14fd714267b6b6414e02,2016-10-18 21:19:16,Guillermo,new release,False
+f18b01fd2a40793cc938a91822ab36ff391da59a,2016-10-17 10:27:58,Guillermo,whoops,False
+8b42b232cd9c982e1c9cf3edc44504d199ae82e0,2016-10-17 10:23:48,Guillermo,add git push to publish script,False
+30d252e6f6794bc04cd345420f06770ef12ae653,2016-10-17 10:22:26,Guillermo,new release,False
+221908f3ff0c3ff9f9b5afe1e0332f100c2963f1,2016-10-17 10:12:23,Guillermo Webster,"Merge pull request #49 from rowasc/license-spdx-expression-correction
+
+Apache 2.0 license identifier fix",True
+29ff2f283c228a529fec8dc7859d966f3a3f0476,2016-10-17 09:31:44,Romina Suarez,Apache 2.0 license - specified according to https://spdx.org/licenses/ to avoid npm warnings,False
+e8e19d383bd26485ca0e76250e2e245915a655e6,2016-10-17 03:19:42,Guillermo Webster,"Merge pull request #46 from rowasc/typo-fix-src-node-index
+
+Fixed typo (extra parentheses)",True
+39f5fcc17a8f155a3774a9f16981102e164533ff,2016-10-17 02:18:15,Romina Suarez,Fixed typo (extra parentheses),False
+35c546d0625ec46adf8073cd57164017c6d1a1a1,2016-10-16 22:57:26,Guillermo,syntax error (we really should add tests),False
+52ddac57f3d4fc10ed378313f29e269b1a93ae75,2016-10-16 22:48:54,Guillermo,switch to node-fetch from isomorphic fetch,False
+3645946a5d056f620bf717dedcd3df1839d13b01,2016-10-16 22:20:34,Kevin Kwok,"Merge pull request #44 from hemanth/patch-1
+
+Using log for now, fixes #40",True
+64d2b8cb85d963d313b0ece95e84dc01953e5108,2016-10-16 15:46:42,hemanth.hm,"Using log for now, fixes #40
+
+`log` or `debug` must not matter much in this case.",False
+7fb328e3e634c8c08782f9fd8ba0abf6ea26f9bf,2016-10-15 13:08:46,Rohit Jha,Fixes to README.md,False
+915fadb9bc98a3a98e5a06b350a477c553003843,2016-10-14 22:22:02,bijection,"Merge pull request #34 from hemanth/url-support
+
+Support URLs",True
+32565dc725928fafdad5c8eb06677f30548d6054,2016-10-14 19:11:43,Hemanth.HM,Support URLs,False
+ba2841329d9126330dc712e8fcdcd236a607aea2,2016-10-14 11:34:12,Kevin Kwok,fixing dist,False
+a5cde759802ae9dfd5c76853cb7a7d10dc69f001,2016-10-14 11:29:41,Kevin Kwok,using pako/inflate,False
+15058e036cc8f58ba5c23ecc8f4a44425d2056d8,2016-10-14 11:12:18,Kevin Kwok,new release,False
+c09d4655b54d821aba70dda00f9f7d25e36d2270,2016-10-14 11:11:02,Kevin Kwok,new version,False
+9d13b2339f426a7cd4c0bf84503f9325a398e47a,2016-10-14 11:08:51,Kevin Kwok,catching errors,False
+2b141f8aa58c30c7c5eba36df992728dbb3a7001,2016-10-14 11:00:44,Kevin Kwok,works on iOS Safari,False
+acc2b835ce8de29daa7fa73d2f4c7c0adc4cb9b1,2016-10-14 10:31:35,Kevin Kwok,updating urls,False
+2733c9a03031348253a2ee1b10dcdc69e0831c07,2016-10-14 10:28:14,Kevin Kwok,building new version,False
+9a9db107714ad7fdd696ec4f89002f3a44463e9c,2016-10-14 10:19:34,Kevin Kwok,Merge branch 'master' of github.com:naptha/tesseract.js,True
+ea54eaa23fb622fb777009e7260bac4c7f5bc8cf,2016-10-14 10:19:29,Kevin Kwok,choosing memory usage dynamically,False
+752038921efee4241e8aec3d386b35e3ab2a410f,2016-10-14 10:13:19,Guillermo,add node version note,False
+b20c4a8c6ec0a7c0303ad1d6413a0f3950ccd7fa,2016-10-14 00:06:08,Kevin Kwok,"Merge pull request #27 from zzarcon/finally_job_method
+
+Implement ""finally"" TesseractJob method",True
+46add665c001d7da0b2f8497e0ba9f01a8e2a229,2016-10-13 21:26:54,bijection,"Merge pull request #26 from jayathungek/master
+
+Fix typo in README.md",True
+d8a30989c0a713479b8b24e9540192ad731db84b,2016-10-13 21:26:31,bijection,"Merge pull request #25 from katamaritaco/patch-1
+
+Corrected typo of 'Enlish' to 'English'",True
+122b74d7d7b4bd5510099280edd9cc9590f42c60,2016-10-13 20:08:53,Hector Leon Zarco Garcia,Implement finally job method and move TesseractJob to a different file,False
+b04e4ccf55bc55493d2e027b2e7e90608c9ba6f2,2016-10-13 20:02:23,Your Name,Fix typo in README.md,False
+91b326981fbc81c11844e98dfc2e28baeab29ac5,2016-10-13 19:56:08,Your Name,Fix typo in README.md,False
+0e50365683df4eecbea8565f515d3b9b12808820,2016-10-13 19:54:20,Nick Heindl,Corrected typo of 'Enlish' to 'English',False
+471ed0997ab94a41f19da20348a90a361393dff2,2016-10-13 18:17:50,bijection,"Merge pull request #22 from zzarcon/fix_passing_wrong_image_path
+
+Better error handling when file is not reachable in Node.js",True
+b38b3a8c1f3a7965115ab473994d4c2452d0faab,2016-10-13 18:17:04,bijection,"Merge pull request #21 from andrewthehan/readmeTypo
+
+Fixes README typo.",True
+e9735cdc9c0bbf6b34ff77e73756a8026a4c663a,2016-10-13 18:16:46,bijection,"Merge pull request #20 from radarhere/patch-1
+
+Fixed typos",True
+800c83440db94c877d91d32fe0326396337a03c9,2016-10-13 17:24:45,Hector Leon Zarco Garcia,Fix file resolving from examples,False
+87643df023f08a87afabb489e308f05230556337,2016-10-13 17:24:29,Hector Leon Zarco Garcia,Throw error if readFile fails,False
+5a71378efc95b001ef8fa5dc4382c9be530136be,2016-10-13 14:09:54,Andrew Han,Fixed README typo.,False
+162deeebdbec445da2deda51b57a156b7975f4a0,2016-10-13 13:47:55,Andrew Murray,Fixed typos,False
+b3cc0c029365b889a2afe9b15e245c25dd545012,2016-10-13 02:33:38,bijection,"Merge pull request #15 from helloandre/patch-1
+
+fix example code for logging progress",True
+7a47cdaa981bdb33107e136908a5ddf35a9dd623,2016-10-13 02:23:10,Andre Bluehs,fix example code for logging progress,False
+95769915beb4a01bb59d439787534c17880fb4ff,2016-10-12 23:37:13,Guillermo,add note about upscaling,False
+3fb3d2f45b092bf939d0b50ec2d54ede15b093e1,2016-10-12 23:36:56,Guillermo,add note about upscaling,False
+edfa1d8b4fb60ae7a5628a7ccb2af65ffea5b6b4,2016-10-12 23:36:42,Guillermo,add note about upscaling,False
+7a872d03672142aefe693440077d3a0fb2e7fa34,2016-10-12 23:36:05,Guillermo,add note about upscaling,False
+c26cae7ee956c399eeb992de0135e3af29b4edb5,2016-10-12 22:20:04,Guillermo,update package.json,False
+8434f599771d6dd4e68287627de12705dfe4281c,2016-10-12 22:19:35,bijection,Create LICENSE.md,False
+8585b7fa830d1adb05037b845b57e69f049f14f2,2016-10-12 21:59:37,Guillermo,fixe broken language list links,False
+287e8289d45bd354ccb5f0b1540531165f8fbb4c,2016-10-12 21:10:19,Guillermo,update demo gif,False
+41a7b4d427628e8ff6f69ffe74f7856796f84c67,2016-10-12 14:22:50,Kevin Kwok,readme,False
+048384951f848e70464445a31bb142c37f78ba0e,2016-10-12 14:17:08,Kevin Kwok,package json,False
+ada7e8364c9652226b401a529f1058f2b7b5abdf,2016-10-12 14:16:17,Kevin Kwok,updating,False
+5886ebba1ff1aa6b40a389879758f85d6d7dfadf,2016-10-12 14:12:50,Kevin Kwok,readme,False
+681d08c1d50c3905e969d4295547d1e23c1df667,2016-10-12 13:36:42,Kevin Kwok,fixing demo,False
+1ef222cca8eb30710e1f7a140111e9a72565cee5,2016-10-12 13:28:33,Kevin Kwok,image,False
+16685bab65055fdc4d922885180863bf11dfd925,2016-10-12 13:26:58,Kevin Kwok,readme,False
+45aa21603cb9074e245be2d54b8e6ef5f1775c09,2016-10-12 13:24:20,Kevin Kwok,updating,False
+872284b112acc0dccebba93e5435eb25df2e9a12,2016-10-12 13:23:30,Kevin Kwok,adding lnaguage selector,False
+8e88eaca5e4f46e0a5b3b4c9c574623de233e0db,2016-10-12 13:13:48,Kevin Kwok,stuff,False
+1a7429d0224a45e1ddc2d464ee1c06c69f51b8ec,2016-10-12 11:00:46,Kevin Kwok,cors proxy,False
+7bf3725fc99c3536eee21c649196c451bb8aed02,2016-10-12 10:53:10,Kevin Kwok,stuff,False
+036f8debfcb8938de5eda257c6262ff439a419ac,2016-10-12 10:11:13,Kevin Kwok,updating readme,False
+ab13d7b891d4f983a85893bad503f7f362b3cc25,2016-10-12 02:14:57,Guillermo,fix firefox issue,False
+d8f3db3d9168ebbf68f0f1d3913a0f9442618b81,2016-10-11 13:30:32,Guillermo,add notice back because firefox,False
+d296f163148f447cf72795fc24caadc6e33fdbe2,2016-10-11 13:30:00,Guillermo,add notice back because firefox,False
+22b3ab842375816addb9720af51a032913ce0754,2016-10-11 13:29:32,Guillermo,add notice back because firefox,False
+34d4fb799dbadc9fb090d78252d8a26fedc984d5,2016-10-11 13:25:00,Guillermo,remove construction notice,False
+0acbb71e663d99268cc964d3d777035191de0130,2016-10-11 13:23:59,Guillermo,lang options,False
+e8a286988f1e4c708d9ee20c34b5552a71b4e606,2016-10-11 13:22:53,Guillermo,add note about lang instead of options,False
+e5c8df3aaca8de4ba8106a2db8f091fcb1a14c5b,2016-10-11 13:19:46,Guillermo,probably different people have different ips lol,False
+274c54db1ecdeaa122b6f849cc7b1b79201918ed,2016-10-11 13:19:01,Guillermo,update contrib,False
+c61ee098d7d124861414ddc9599a2fbe724fe6d0,2016-10-11 13:18:12,Guillermo,update contrib,False
+c7f63647105b83fdd3148dd762b95554d0f64ae4,2016-10-11 13:16:57,Guillermo,update readme,False
+2fa9421cedbce004ce45cb9e84b3dac8be21102b,2016-10-11 13:15:51,Guillermo,update readme,False
+4b43a0ef04c4c0253d2ec36468df0f8050c36cfc,2016-10-11 13:14:52,Guillermo,update readme,False
+3042a8ca06a58769c57582b223af302a50d57394,2016-10-11 13:13:58,Guillermo,add demo gif,False
+f67374a03ca7449687b62ec5fc1e7637d9a49d3e,2016-10-11 13:13:30,Guillermo,erge branch 'master' of https://github.com/naptha/tesseract.js,True
+7675a986735d72de236ed4a8899a429c3c41f498,2016-10-11 13:13:18,Guillermo,update readme,False
+dbf43bbe601a9ab559230cda3c0f0bdb8af433aa,2016-10-08 08:55:17,Kevin Kwok,update dist,False
+090d0c786e47a28c403cfee105439bad87724974,2016-10-08 08:55:06,Kevin Kwok,undocument languiches,False
+1331ef8f18a3217795811b13ed5782df0bb34d33,2016-10-08 08:42:03,Kevin Kwok,this is only mildly annoying,False
+cb6419203f92c148b9646acc3461efa9e7e6eebc,2016-10-08 08:39:47,Kevin Kwok,Fixing opts,False
+c2a06b4b12767a0e47994e9ca0c1a540df95aaa4,2016-10-08 08:37:50,Kevin Kwok,import with cors,False
+16d9e9d0881dbc44bbe8266e8305cf936dfe9142,2016-10-08 08:35:28,Kevin Kwok,wumbo,False
+8817639572218f39c39bc16ced1bd9bacd8fb5d1,2016-10-08 08:30:46,Kevin Kwok,derp,False
+b7dd138ea4ae4e93ca8bc734ce6b9daf5a2faae2,2016-10-08 06:14:21,Kevin Kwok,Update README.md,False
+c5e3aeb5ef741b379885a77869883843afc1db63,2016-10-07 14:20:55,Guillermo,1.0.1,False
+e25f31aac5a6a77dc1e7865d7208cdfec4e01d5d,2016-10-07 14:20:53,Guillermo,build,False
+4d120482ba06607adebedb84e7c97b20ea7dd1ae,2016-10-05 05:04:55,Kevin Kwok,adding comments,False
+973ed2fed56f364c8955af2ec92f3825ed0ad33c,2016-10-05 04:58:45,Kevin Kwok,adding titles,False
+19ac89478a0c1a40a37f3f329b8157adbde6d39f,2016-10-05 04:56:37,Kevin Kwok,circularize,False
+7c66c3844c808d36dcf61ed6062d1f0943a18c67,2016-10-05 04:45:14,Kevin Kwok,nodejs examples,False
+699c029e89d431feaba6ec4f9c78ec3585c8ed04,2016-10-05 04:39:57,Kevin Kwok,stuff,False
+c5a1726e1d0619ab576f0acde40898fb12c284ba,2016-10-05 04:35:55,Kevin Kwok,rewriting with node support,False
+b5267918fd4538a25119e1d6d238fc7f257354b4,2016-10-04 15:01:05,Guillermo,delay,False
+d16101b686a0e1f4270ca0015f469ed28466c087,2016-10-04 15:00:43,Guillermo,delay,False
+ca7f4966e408390b2ab4c725a7c0395b326e1a5b,2016-10-04 06:52:32,Guillermo,readme stuff,False
+9b1d09a72e299bc8b7045cfeabb6a41be9773163,2016-10-04 06:40:24,Guillermo,readme stuff,False
+5972594575d66f8333652124772409d92a665304,2016-10-04 06:22:59,Guillermo,readme stuff,False
+0c6f96de8d3225e5b58dfd056449b2de6948fb6a,2016-10-04 06:22:23,Guillermo,readme stuff,False
+6a92dd3a945e7b587101bdec01d3facfc13465f4,2016-10-04 06:16:32,Guillermo,readme stuff,False
+5ee01d4265c7ac686afde2284c313227d08f8140,2016-10-04 06:15:19,Guillermo,readme stuff,False
+c88a769818e4bbf1827625f458307229365111e1,2016-10-04 06:13:07,Guillermo,readme stuff,False
+9644f8764013a41be3c9b35cc8b7cd1b0608ff79,2016-10-04 06:09:41,Guillermo,readme stuff,False
+7d978ac8135c54058832173985cdc6b0c5888bcf,2016-10-04 06:08:30,Guillermo,readme stuff,False
+26c0f4cc305435a6231167bbb29e0c6b5823e9cd,2016-10-04 06:03:46,Guillermo,readme stuff,False
+f8b9d2e70e037c286969e6a4ebd5ca966cbc39ea,2016-10-04 06:03:00,Guillermo,readme stuff,False
+b1aa51da67c1bfb3f4b66523d2d07b865bfac9ff,2016-10-04 05:59:16,Guillermo,readme stuff,False
+87858dd8b61c405515cbbd75345f03b98352a0bd,2016-10-04 05:57:58,Guillermo,readme stuff,False
+b09665cf22ff0931ecc9a016c35918d578bb33ae,2016-10-04 05:54:22,Guillermo,readme stuff,False
+fb476b24b5eda511d7654923c5518e3265d8a59b,2016-10-04 05:48:08,Guillermo,readme stuff,False
+628febf0a6af146808f3d663f3bbd31a0039f3f8,2016-10-03 18:40:05,Guillermo,push date back lol,False
+a770a679116c130ba8d9f4374ede3b2980d76a5f,2016-10-03 18:39:26,Guillermo,Merge branch 'master' of https://github.com/naptha/tesseract.js,True
+3501505423606588f80c3a15939c02f76ae051b3,2016-10-03 18:39:19,Guillermo,push date back lol,False
+733328e99bc0286250b76ed4c00353ea4f2fd810,2016-10-03 12:53:13,Kevin Kwok,moving things to shared,False
+d31667831a2f0d700ce9aa70a64e456ddb3aeb19,2016-10-03 12:17:49,Guillermo,polish intro a bit,False
+df676ff110618676125dabf28db2a1f822426d90,2016-10-03 12:14:13,Guillermo,polish intro a bit,False
+1594f7528d4fe449daa6e7334221bfa87419ba6d,2016-10-03 12:13:44,Guillermo,polish intro a bit,False
+82ea60d2c3577eda54222a6a2232b31fb2f096e0,2016-10-03 12:13:00,Guillermo,polish intro a bit,False
+3216553d62797c317f34723e1161a67a8516dfbd,2016-10-03 12:11:53,Guillermo,polish intro a bit,False
+8cdbecd08529edf878b7d33d43229691bb3e4450,2016-10-03 12:11:36,Guillermo,polish intro a bit,False
+549b2c12389bc15415d0e233c852f12b8f2675e4,2016-10-03 12:09:53,Guillermo,polish intro a bit,False
+16b120b178bb3fc3f7914d7ab62e7846f13faf1f,2016-10-03 12:08:56,Guillermo,polish intro a bit,False
+d09e1930fc01ae83a11880665325ab761ec3b96c,2016-10-03 12:07:35,Guillermo,polish intro a bit,False
+4eed6f5137531b8e3f506db3770cb0e61424d338,2016-10-03 11:06:04,Guillermo,make link divders prettaaay,False
+21b3136a8377ee0e13650df92295066b1c9173a8,2016-10-03 11:05:15,Guillermo,add links to top,False
+a91acffec66b9bf43ab3cdd6da1df1da816732f9,2016-10-03 11:04:31,Guillermo,add links to top,False
+2e6757da81d14e530ca77d434a6e8a5adad6be4c,2016-10-03 11:02:48,Guillermo,minor fix,False
+0e88969f0a62b43a9102e6b38161377efd380d55,2016-10-03 11:01:40,Guillermo,rearrange docs,False
+905427fe9528a3256f9da7d32d7b32feb69efd70,2016-10-03 11:00:34,Guillermo,add docs toc,False
+debcb1cd7a6aa1078115234889466a2ca31f5125,2016-10-03 10:54:22,Guillermo,add Tesseract.*Url docs,False
+491cc2a312431f4e88dd472e0f0f7e518a9f5ef6,2016-10-03 10:28:13,Guillermo,move langs to own file,False
+0ee94b216957d566f44e82e204a23917859b5f58,2016-10-03 10:28:02,Guillermo,move langs to own file,False
+4a8ee3729dc610590a866af38a280655729f2318,2016-10-03 10:16:31,Guillermo,try to clean language list,False
+2a98b0ac07bcb051f6fd2cbd807126d4a615a8d9,2016-10-03 10:14:30,Guillermo,remove giant table,False
+32f62de7ad952f339f90106d527f1299aeb4aa8a,2016-10-03 10:04:01,Guillermo,table test,False
+886a3d67045afc426446eea3a321e0d27f38cdb4,2016-10-03 10:03:28,Guillermo,table test,False
+2f4e85237da3fa641c6f019ab115bb5b75f2deb3,2016-10-03 10:01:47,Guillermo,table test,False
+dac0fdea3ee71667cdf10372aa4666c641361719,2016-10-03 10:00:59,Guillermo,table test,False
+9aac85ac4f478ab649ce70167fa4765009c6ed4e,2016-10-03 10:00:06,Guillermo,lol do you think there are enough options,False
+dff5b0761398301d7fa3269558d8bd1f7b9dad68,2016-10-03 09:45:56,Guillermo,rearranging readme,False
+4eda87432525e3c2dfda7c39d50882fa65e7175c,2016-10-03 09:29:19,Guillermo,add index,False
+a91dce8b165838ff0277a89cf5ed6bb550b494c6,2016-10-03 09:28:57,Guillermo,build browser,False
+2b679123fa20a1737570d0490540e9e3c21b7c58,2016-10-03 09:27:39,Guillermo,add webpack config,False
+d23b6d8728015b71e3e9ba0c37db119d90710edc,2016-10-03 09:26:46,Guillermo,add browser sauce,False
+37e6de16bb1e81c9d7bc8ccffd9ef854937f6262,2016-10-03 09:26:17,Guillermo,add worker sauce,False
+c80038b6cb191e4668f9fd576ac217c7dfb97575,2016-10-03 07:34:08,Guillermo,change loadlanguage api,False
+4741312b3e44a1c2e024df6b6061b3021705a744,2016-10-03 06:29:16,Guillermo,merge,True
+53b6c3ab6e88a57d5ebd050748ac7ee17ffd99c4,2016-10-03 06:27:09,Guillermo,add url option,False
+c4ceacea5f56fdd9b84ced63b195ce852e34214b,2016-10-03 01:13:13,Guillermo,add plug for pull,False
+b7bec0f1b17bd8cb36ca661a92849739fa3336f5,2016-10-03 01:13:13,Guillermo,add plug for pull,False
+3dc7322e6717d5c87b900d0bcea42d97129eb0bf,2016-10-03 01:12:04,Guillermo,spacing,False
+fbb830e061345243933c2a7257c1150d30932d11,2016-10-03 01:12:04,Guillermo,spacing,False
+0e8094afa729126bdada6798d31a4a0d8700b0d8,2016-10-03 01:10:37,Guillermo,add contributing instructions,False
+f5fc87638cdeb81c37655db63ed9dce46fcae851,2016-10-03 01:10:37,Guillermo,add contributing instructions,False
+2e657b9f81b212d6dacfa820edc4e98e5e74fa1c,2016-10-03 00:30:13,Guillermo,add cdn instructions,False
+93e5b706b31286c9fc3aa9b01deb2953df5035f6,2016-10-03 00:30:13,Guillermo,add cdn instructions,False
+94ca863eb68b44438e10283fb11d078d72c51b37,2016-10-03 00:25:37,Guillermo,add script tag example,False
+15820de3b2874e1b167932e619ae7b6eb258f8ee,2016-10-03 00:25:37,Guillermo,add script tag example,False
+6117345bec1674411ddef50681b6b86b781c934b,2016-10-03 00:22:54,Guillermo,"add babelrc, switch to createTesseractWorker",False
+1a6c9236bca5d16ead8df758679277deb7485467,2016-10-03 00:22:54,Guillermo,"add babelrc, switch to createTesseractWorker",False
+01238cb300539a0c8f3785bd1e62f21fbd0fc423,2016-10-03 00:01:24,Guillermo,add construction note,False
+1e9b4748d4c9f83bd802efa2738d0f55b0ec7337,2016-10-03 00:01:24,Guillermo,add construction note,False
+28bf468cb413da1fb6f0350ddd58d03ef900bc4a,2016-10-03 00:00:59,Guillermo,add construction note,False
+20fea90b0564cca07063880379a32fc7e1ee052b,2016-10-03 00:00:59,Guillermo,add construction note,False
+35f450efca60537f4202595c37be07ce0ac5bd91,2016-10-02 23:56:55,Guillermo,rewrite,False
+b13043343779d315fc1a823be24b97e7278cb818,2016-10-02 23:56:55,Guillermo,rewrite,False

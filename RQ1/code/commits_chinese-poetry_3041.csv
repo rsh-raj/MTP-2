@@ -1,0 +1,1088 @@
+Hash,Date,Author,Message,IsMerge
+d5703c0a81be2c467122905b6578dd6137dd6303,2024-07-08 08:54:12,JG,Update README.md,False
+ba240d4711332698654da208795204293caf38e5,2024-06-25 14:29:22,JG,Update README.md,False
+f13a1b393b8275e224b3bf895cb0c7fa901af655,2024-06-25 14:00:44,JG,"Merge pull request #370 from daming-lu/bugfix_error_folder
+
+exclude error folder",True
+7e55944f51e9fb049983c9cee6433a24b9cf25fe,2024-06-25 05:19:12,daming.lu,"exclude error folder
+
+Change-Id: I54ceece9eaecdf44813ecd0dc73d4cce7ce7a841",False
+5a6bd661346f6b2df7cf3d13270c30b2c2c3d118,2024-05-17 07:54:52,JG,Update README.md,False
+eb917dc6aac027167ba2a5c131c591bd9f217b28,2024-05-17 07:54:22,JG,Update README.md fix #367,False
+efa52050b3e3b18f7c622d2456da39196e707fd7,2023-11-27 13:37:33,JG,"Merge pull request #352 from CanvaChen/master
+
+字和标点修正",True
+2324463eefd7af533ffa06f53caede00e2369d25,2023-11-27 13:37:07,JG,"Merge pull request #354 from liu0hy/fix-link-errors
+
+修正READEME.md中的链接错误",True
+3976a35a539738f2c89ceb6b6a68f385a0e9dc0e,2023-11-27 13:36:39,JG,"Merge pull request #357 from KonghaYao/fixture/shuimotangshi
+
+fix(水墨唐诗): 修复田家行的内容缺失",True
+ac9bad3684181d3122baf43e080b0dd8e3ae942d,2023-11-25 17:40:11,江夏尧,fix(水墨唐诗): 修复田家行的内容缺失,False
+c1236c34d12fb2a4a2037099320563ee338b4c52,2023-10-30 08:10:51,liu0hy,修正READEME.md中的链接错误,False
+d651e494e0ecb49555f9f473aa7c97ed0e4b53b7,2023-10-10 23:08:05,Canva,字和标点修正,False
+15d7775e1a4452f0d405372c21b06e7c57e28726,2023-10-09 11:44:59,JG,"Merge pull request #344 from weqopy/master-1
+
+Update ci.song.1000.json",True
+2f41c42627a0d5935c0e263e76696f2aee02aefa,2023-10-09 11:44:47,JG,"Merge pull request #348 from DumoeDss/master
+
+修复宋词乱码数据",True
+52b01a7f4be0bc24f04fb6e8a211cf32ca5add5b,2023-10-09 11:44:36,JG,"Merge pull request #350 from Harold-y/master
+
+20231008 added an example of DB + poetry web",True
+13ae9eafa7890b1e2c178402866bb37e63f36946,2023-10-08 19:57:54,Harold-Y,20231008 added an example of DB + poetry web,False
+99369c285e85f9fad1e6ba945ac10894e6f01955,2023-09-25 07:13:34,Sayo,更新宋词作者信息格式，引用社区推荐的最佳中英文排版,False
+c074c25aeb23197b77ed16f512657ce02de29d0b,2023-09-25 07:05:43,Sayo,修复宋词乱码数据,False
+b1dbef5287907eb0097702871438362eb09e9120,2023-08-04 08:55:46,weqopy,Update ci.song.1000.json 苏轼-南乡子,False
+66fc88c8f6e346ccd5f4c2b22691242d34de4476,2023-07-04 14:09:20,JG,Update README.md,False
+e29a832c610d9893d7bb2508a51991332e5fc14c,2023-05-29 09:13:19,JG,"Merge pull request #332 from winterAndvelvet/winter-pr
+
+修复错字",True
+09a9f7a305bd91814e4e38141b37369965c7a2f2,2023-05-26 17:17:08,winter_wang,修复错字,False
+1f292b7f4e89e32508ae9e96e558bdca6437751a,2023-05-24 08:27:44,JG,"Merge pull request #330 from SanBingYouYong/master
+
+整理所有格式相近的json文件并提供loader",True
+717029ade7cc232aa2855a0dd70f270fb665c162,2023-05-10 22:04:45,SanBingYouYong-S.Zhang,Update data_loader.py,False
+aa65d2fa5e96b4b3a5f9a461f32d663e05e378dc,2023-05-10 22:03:25,SanBingYouYong-S.Zhang,Update datas.json,False
+1fc8091913eb223ff17c7bdf1dc341658dedde6e,2023-05-10 22:03:07,SanBingYouYong-S.Zhang,Update data_loader.py,False
+2c81e4c8f745a98d923540797c9977d0343b962a,2023-05-10 22:01:15,SanBingYouYong-S.Zhang,Add files via upload,False
+a70f08ec2c0bd61f41b429685516a04ee6306186,2023-04-17 11:45:35,JackeyGao,rm __pycache__,False
+6d1ca5b699ee950974975d9d836a22fc7d39719b,2023-04-17 11:45:09,JackeyGao,update ignore,False
+fa1814a8044db4fb0c7a9e0a0449974e8c3463b7,2023-04-17 11:43:23,JackeyGao,修改为中文目录,False
+e6fc8971ac0392af352f521ef6d448b2bb16adfb,2023-03-03 15:28:47,JG,"Merge pull request #327 from bit-fan/nalanxingde
+
+nalanxingde update",True
+a54cbea7bea8bdef1a81a941b850af26cb55476d,2023-02-21 19:16:55,bitfan57,nalanxingde update,False
+bca5f7c5631d946a45b59f825541b9861d39306b,2023-02-21 16:57:50,JG,"Merge pull request #323 from zlfzhw/developer
+
+Developer",True
+e02de1b86ee57619174f777eb23d2ab0dfbf9e7b,2023-02-02 13:48:12,zlfyuan,添加水墨唐诗说明,False
+2023134f856ed57ec86b45d8c892b7d887fbc0bc,2023-02-02 13:41:48,zlfyuan,添加水墨唐诗,False
+9684f807524f918fe5de7dc48f5d3cc82590f360,2022-11-14 12:00:18,JG,"Merge pull request #318 from jackeyGao/master
+
+长沙窑“补遗”《全唐诗》 住在绿池边",True
+e58441bf555a7264f80bdcafc1e57fdae1760399,2022-11-14 11:58:37,JG,长沙窑“补遗”《全唐诗》 住在绿池边,False
+dc79fa9072c06c7c05b8d08755d48ca81811cba8,2022-10-28 08:00:20,JG,"Merge pull request #316 from chinainfant/master
+
+全唐诗-卷五百三十九-无题-李商隐 补充",True
+67ec79425111b7f7f6d6ffccf8a0b75233c937b5,2022-10-26 19:17:25,chinainfant,全唐诗-卷五百三十九-无题-李商隐 补充,False
+b16389c92147fe40ed0898ed108b2c2d021e98fd,2022-10-26 08:13:47,JG,"Merge pull request #315 from chinainfant/master-lhy
+
+全唐诗，卷一百一十七，《春江花月夜》，诗句缺失一半，补充完整。",True
+61fe9d465ce1591c3c7851e74047202d52b8de49,2022-10-26 08:06:36,chinainfant,全唐诗，卷一百一十七，《春江花月夜》，诗句缺失一半，补充完整。,False
+05d09864ed6a425b847f48f8351208d65f437ee8,2022-08-09 07:23:21,JG,"Merge pull request #310 from Augtons/master
+
+添加纳兰性德诗集，共269首",True
+ead9582028c6b04fca6db8b7f1dfd847093b3803,2022-08-09 07:23:05,JG,"Merge pull request #309 from yjm123456789yjm/master
+
+对宋词三百首其中第二个补全",True
+a39e8aec53076ab114410bd8b816736d8a7d92f3,2022-08-06 11:46:47,Augtons,添加纳兰性德诗集，共269首,False
+460c07ab03d1c940dfaf0d62e14d33377098b1f4,2022-07-25 10:29:18,yjm,更改一个缺少作者的词,False
+88ac4a5104c9435fbf172b9b25f4200654c2a237,2022-05-11 12:29:37,JG,"Merge pull request #302 from chienmy/master
+
+提交经过初步校对的版本",True
+2798d262debfa3f0e489958929707f30415388e7,2022-05-11 12:27:26,JG,"Merge pull request #303 from ZLValien/ZLValien-patch-1
+
+修订错别字",True
+2bada63c6df5303b56817b51907a32e7e795ce67,2022-05-09 08:44:56,ZLValien,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+71d0646b298f7c2ee71a6d473462b7af65f565d7,2022-05-02 11:44:09,chienmy,修改宋词README，加入已知问题,False
+5d51ebd4d1f6ee4883507efa222e523466ebafc5,2022-05-02 11:26:19,QianMY,Merge branch 'chinese-poetry:master' into master,True
+9da55b4d6f711abd365344170a319e51d0096a3b,2022-05-02 11:24:14,chienmy,与之前的版本校对,False
+dfc994a12d1ebe93ea43c2742c23f857042287bd,2022-05-01 17:24:22,JG,"Merge pull request #298 from rainrambler/patch-9
+
+修订错别字",True
+e60ad0f4090205fe4ea0fd93bd32c3690973b8ca,2022-05-01 17:24:15,JG,"Merge pull request #299 from rainrambler/patch-10
+
+修订错别字",True
+772cb3544e6421dfbb291869e23c7ca1e21bc67b,2022-05-01 17:24:03,JG,"Merge pull request #300 from rainrambler/patch-11
+
+修订错别字",True
+f665911d07003d8fde11a29b8204b53fcf4c3b5f,2022-05-01 17:23:51,JG,"Merge pull request #301 from rainrambler/patch-12
+
+修订错别字",True
+cf7b5a2ce0c361fed9c8eea9ed8f04d658c21f58,2022-05-01 16:29:52,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+5384eddb8b614261c555161a59102366b77b9540,2022-05-01 16:24:52,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+e348478d9c4d9501bfb4602c87e8a7e576ec39bf,2022-05-01 16:23:37,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+7833114e65b514c3a66273dfe560ca4e7970fbff,2022-05-01 16:19:38,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+73127436efa0664bedee76435957ad0eefef86c2,2022-05-01 16:17:38,JG,"Merge pull request #297 from rainrambler/patch-8
+
+修订错别字",True
+32162ce0709c674e2e3901fe95e87a4ef4cc46fa,2022-05-01 16:17:23,JG,"Merge pull request #296 from rainrambler/patch-7
+
+修订错别字",True
+157c397485f5fb7cec6e02a1b140586230ec92a0,2022-05-01 16:15:27,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+08cce7b893369bde8338bf61f1d143e8caaead19,2022-05-01 16:15:24,JG,"Merge pull request #288 from chienmy/master
+
+宋词中部分生僻字缺失",True
+37a1abe77df18cf67700919fb0113aed1a2f3a3f,2022-05-01 16:14:35,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+851c35d4a10fae84ade31a3c6a102e7da0796ca7,2022-05-01 16:13:10,JG,"Merge pull request #290 from rainrambler/patch-1
+
+修订错别字",True
+5e832c6038cae1697f2927efdc7d5a8ebbf12ee5,2022-05-01 16:12:59,JG,"Merge pull request #295 from rainrambler/patch-6
+
+修订错别字",True
+8e8285c2f907cb0c86b6edc1068c051d13ee827b,2022-05-01 16:12:49,JG,"Merge pull request #291 from rainrambler/patch-2
+
+修订错别字",True
+6f0658fb2601581b984fc839f536a6fa40a60f84,2022-05-01 16:12:35,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+710119f5b1ec52115d102f9870174f714d963cac,2022-05-01 16:12:32,JG,"Merge pull request #292 from rainrambler/patch-3
+
+修订错别字",True
+43b9ba3e944a5cd36882cd595dbd2247a660d919,2022-05-01 16:12:21,JG,"Merge pull request #294 from rainrambler/patch-5
+
+修订错别字",True
+71b3cb6b24b8d946dfe697be253e6b5717e3e1ac,2022-05-01 16:12:03,JG,"Merge pull request #293 from rainrambler/patch-4
+
+修订错别字",True
+3b98acca3d4993adbf8246b44652f4cabb471868,2022-05-01 16:11:31,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+f80ebb0516dbb0424fa5df62808f6a39844d9b79,2022-05-01 16:09:40,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+e786c86a368e26258cbe721c1655a28d9846e1e3,2022-05-01 16:08:22,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+b86260780e47cfee375a7297da7d0965ed57f9ff,2022-05-01 16:07:00,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+502791c46889ae669c4be4c8b49a3b4b9b337d4f,2022-05-01 16:04:08,rainrambler,"修订错别字
+
+根据全唐诗影印版修订错别字",False
+476802ea963b988fd06e064faccb1f86dcb58af5,2022-04-30 14:26:00,chienmy,handle remote confict,True
+fbabefcd0636e19122acc141d8a1c6c0d388d476,2022-04-30 14:23:25,chienmy,Add: 更正脚本,False
+8ee2f5404f67ebf03de40387db526fea5fa3d74c,2022-04-30 14:13:09,chienmy,使用脚本纠正宋词缺字情况,False
+720f222a4fc8280cf7024b8b46596b7fa52967a5,2022-04-29 07:26:39,QianMY,Update ci.song.1000.json,False
+ad79c4dc9323bdfcf86b35b8400b1642b4e24284,2022-04-28 14:15:59,QianMY,"Update ci.song.0.json
+
+补充缺失的生僻字",False
+1a1ecef0c0a3c5efbd6dc535a6c825eff9115e2c,2022-04-26 14:17:36,QianMY,"柳永《望海潮》（东南形胜）一词缺字
+
+巘",False
+81cead8d52eb1e2022a0126b98b62801330f28ca,2022-03-18 12:40:52,JG,"Merge pull request #281 from Likenttt/patch-1
+
+删除多余字符",True
+dfad57f3945be1d2bf5d68055144f134718f0baa,2022-02-07 09:04:22,JG,"Merge pull request #283 from danloh/patch-2
+
+添加一个展示案例",True
+6a50fd028701486d4b513d7f97ed9bd06e1f57a4,2022-02-03 11:03:08,D.Loh,添加一个展示案例,False
+7cb2aaff3dc77dae4ae49422d0042829c7224fa9,2022-01-07 20:07:00,Chuanyi,"删除多余字符
+
+茶以卢仝、陆羽为知己",False
+8209a320391809e6fc7bec2055ce8b25ea6f5e68,2021-12-13 12:21:07,JG,"Merge pull request #279 from AkaKaras/master
+
+重新整理《全唐詩》",True
+509fa1109061042c6d37af5ac62d8a5aaa176e6e,2021-11-27 08:40:31,Kit Lam,Update README.md,False
+9aab3cd4535420dc50ecd37029a57e1c75c59e6c,2021-11-27 08:40:08,Kit Lam,Update README.md,False
+815caa7be7cb54e17ba3148632d76327c570e14e,2021-11-27 08:37:32,Kit Lam,add 796.json,False
+9fba66cd91dbeca283722b5336b871be6f3e6bf2,2021-11-27 06:26:46,Kit Lam,Update README.md,False
+34bec6fe96bf6f659f70cad3731f6af299e6eac9,2021-11-27 04:38:15,Kit Lam,Merge branch 'master' of https://github.com/akakaras/chinese-poetry,True
+e187692d722cdbc6e2b1e50848d0ebf816d926e7,2021-11-27 04:37:27,Kit Lam,update,False
+5557345d0e72f49483073db96c0e393c7bf1e373,2021-11-27 00:25:18,Kit Lam,Update README.md,False
+02003ecc577394721777248e3843f25ed31bc531,2021-11-27 00:22:40,Kit Lam,Update README.md,False
+366154f9f6559b83969163083953f8437ad4c36a,2021-11-26 23:33:36,Kit Lam,Merge branch 'master' of https://github.com/akakaras/chinese-poetry,True
+89a20c0cab22b2a14b4f96e3608222a6e80860ca,2021-11-26 23:32:59,Kit Lam,"重新整理《全唐詩》
+
+在校對現在的""全唐詩(1~57000)""，發現有不少問題，如缺少來源、來源錯誤、字體缺失等等。故此，重新整理《 御定全唐詩》900卷，並整理成json文檔。目前１～９００卷，只有第７９５卷是完全校對及加上我對某些詩句的附錄，其他的都有待二次整理校對。另外，第７９６卷原文中有多處錯誤，故暫不加上",False
+c53d01215a01037b630a289d8dc6071e342cddb4,2021-11-22 08:10:15,JG,"Merge pull request #278 from garywill/garywill-patch-1
+
+美人相併立瓊軒->美人相並立瓊軒 | 含情慾說宮中事->含情欲說宮中事",True
+8f5886f118d05a2045745773d6d02dbf44dc7f84,2021-11-20 13:02:18,Gary W,美人相併立瓊軒->美人相並立瓊軒 | 含情慾說宮中事->含情欲說宮中事,False
+4dc43e47b51ae197df779676dea90063557fa8ca,2021-11-15 14:13:08,JG,test: fix json,False
+a9e4c1901ae8685063099a1d2528c4f41be6d417,2021-11-12 08:53:51,JG,"Merge pull request #274 from AkaKaras/master
+
+fix the format of tang poets, split sentences that end with '?'",True
+576775ca6a8f0c4d566bdb74ca64b363ff42dc5f,2021-11-10 10:09:51,Kit Lam,Update README.md,False
+f07a78d51c7b9d5e17c7fb583e8446301ee2ced5,2021-11-10 10:08:11,Kit Lam,"small change, will continue work on the poet.tang.57000 tomorrow",False
+bd89992fe5e9f8034c3e07870006b5215af71ac7,2021-11-10 09:58:38,Kit Lam,"delete file 'e', accidently create it",False
+881b0726fe2229d5a3e4b1b436a1d11132995f4d,2021-11-10 09:43:35,Kit Lam,partially fix some poets,False
+c55624b94624e56ef7eba48ed551769ae1f4666e,2021-11-06 06:33:17,Kit Lam,"Update poet.tang.1000.json
+
+fix",False
+26b7bd6d218e9a3909ac0f8fbbfc0019447815db,2021-11-06 05:56:43,Kit Lam,"fix tang poet format, split sentences that end with '?'",False
+7b4728a114c81108b95c625ea572629276801763,2021-10-09 08:42:49,JG,"Merge pull request #270 from GT-ZhangAcer/master
+
+README底部的案例展示部分新增了一个ERNIE-GEN的案例",True
+6ef92cc28e076eda605451b9cfc4faf9ffd014d1,2021-10-09 08:41:58,JG,fix #265,False
+9b0fccef10de3dd3335d26d03ee944256f25c3f6,2021-10-08 08:39:01,GT-Zhang,Update README.md,False
+4d71fdee0ccb62107a7c5343dcc18d5eea6a5a73,2021-10-08 08:38:10,GT-Zhang,Add PaddleNLP,False
+504eaa0dbefeef859a1fad9866e053c1e93d111c,2021-09-23 12:55:01,JG,"Merge pull request #263 from snowtraces/master
+
+宋词缺字修正",True
+e6ee8b66cbacb461714ed5a72bc1986d02124a1e,2021-09-16 13:04:05,chengxinyong,宋词缺字修正,False
+dcb031ed9c21ddec6fea38cb6ce2099fe63092b6,2021-09-13 15:35:39,JG,"Merge pull request #262 from RustingSword/patch-2
+
+补全遗漏内容",True
+8dc8814dce0aabf5aca38039b3f93fa6342971a4,2021-09-08 11:08:42,RustingSword,补全遗漏内容,False
+91e169bc4676c0bf56d1747875e7df11af63b55c,2021-08-18 07:37:24,JG,test: fixetest of yuanqu.json,False
+a778afbed3841d100e6c36b3176aa5818be5feeb,2021-07-19 07:10:20,JG,"Merge pull request #254 from zhangtemplar/patch-1
+
+explicitly add 宋词三百首",True
+8efeae6b9e927b4a2cb9c5a1e9a1cc913d4f83a5,2021-07-19 07:10:05,JG,"Merge pull request #255 from zhangtemplar/patch-2
+
+explicitly add 唐诗三百首.json",True
+8292c0693c3570837ccdc665188c66a0f02d6a2c,2021-07-19 00:21:07,Qiang Zhang,"explicitly add 唐诗三百首.json
+
+Also keep the same format/layout as other json files. I am aware there is another 唐诗三百首.json under mengxue, but the data format is different.",False
+f1a5e3f319328571259d7cffc93adedf14c67e4f,2021-07-19 00:19:27,Qiang Zhang,explicitly add 宋词三百首,False
+5be3a267f55a14f25f1d1d0b70bc013001dca168,2021-05-27 08:49:25,JG,doc: remove hitcount & update badge of patreon,False
+4bd666d9cbc795beb3fdb844ab7015c04bd7d149,2021-05-27 08:43:30,JG,doc: remove jd,False
+91c62ff21160f5d559b20e4ddcf37c7f9dcf3ea6,2021-04-26 08:24:01,JG,"Merge pull request #251 from qb345801622/master
+
+第9676行，关汉卿《包待制智斩鲁斋郎・耍孩儿》中，删除Unicode字符 \u0027 ，此字符为单引号，保存进数据库时会导致数据库报错",True
+3d605b2a9100137592d2c83e9bb45c043c8daa90,2021-04-26 08:20:26,JG,Merge branch 'qb345801622-master',True
+7a121fa2d17b45dbb4544d86155aa54a1c44456c,2021-04-26 08:18:50,JG,resolve conflicts,False
+ec8fc61f6bfdc6739ff6ec7e3d4274f2e02a5973,2021-03-29 12:39:14,JG,"Merge pull request #248 from harrisoff/master
+
+删除重复的作者，补全作者名",True
+15adfe5364a98f621aee6f0149823cb68aa7fd59,2021-03-26 16:35:58,harrisoff,补全作者名,False
+362809410395666eff8d908d78e4cc889fb30e69,2021-03-26 16:35:07,harrisoff,"删除""向子諲""的别名""向子堙""
+
+https://zh.wikisource.org/wiki/宋史/卷377#向子諲",False
+1fb2860da8116e389cb99df85d5fc77b9135ceed,2021-01-29 07:13:06,JG,"Merge pull request #243 from FallingHeart/master
+
+Update shijing.json",True
+9ef94f5d4164bf70dbcd0171ec09ec1fca551463,2021-01-28 13:26:48,rex nathan,Update shijing.json,False
+f2ec391101edae094de773d8402fd823943728a7,2021-01-22 10:27:45,JG,doc: add jd,False
+09e84bb2078340e8811d95ec621289d1ce4adce0,2021-01-15 07:03:38,JG,"Merge pull request #241 from FallingHeart/patch-2
+
+Update shijing.json",True
+4c61fef54188c6ee1e245f8d67fe59e0141581c7,2021-01-15 07:03:15,JG,"Merge pull request #240 from Prolht/patch-1
+
+Update chuci.json",True
+7eefa813ef0a150890fe6374964e2b5724493e1a,2021-01-15 06:09:17,rex nathan,Update shijing.json,False
+65eac25cd951d9f09b55d7e8a6454921046449f8,2021-01-14 16:29:19,Lex,"Update chuci.json
+
+删除一些特殊字符",False
+8519e5ed104daea928bf65e200742f588d68dcf0,2021-01-14 07:09:41,JG,"Merge pull request #239 from FallingHeart/master
+
+add chuci",True
+c23d3ae6580845bf0f9d41def427a0d1267247d0,2021-01-14 06:34:00,rex nathan,"Merge pull request #1 from FallingHeart/patch-1
+
+Update shijing.json",True
+2c15b8175364beb9db5ee34fd23244df4372b548,2021-01-14 06:21:44,rex nathan,"add chuci
+
+楚辞",False
+4a81d17efd112b7e2906d5a401e8fee40c1a97f0,2021-01-13 09:01:25,JG,"Merge pull request #238 from FallingHeart/patch-1
+
+Update shijing.json",True
+8d1c4832f6b4be3acd6ccc8e232f630ffcecc1d7,2021-01-13 06:04:12,rex nathan,Update shijing.json,False
+6aae39f4f849085e6a61bed7e2ef50b6dcd0093f,2021-01-12 08:08:06,JG,"Merge pull request #233 from RustingSword/patch-1
+
+song: 补充缺失字 ""更伴狗尾續""",True
+9853b6d70669a6206015be6bb44d0d70b5c3a905,2021-01-12 08:06:59,JG,"Merge pull request #237 from FallingHeart/patch-1
+
+shijing: ""捄之陾"" => ""捄之陾陾""",True
+150b5114880b8853b2b89394f874938c2f83f4e5,2021-01-12 08:02:46,rex nathan,Update shijing.json,False
+9026453bebd38660e101d64c54dcf143e311d1e6,2021-01-11 07:03:33,JG,"Merge pull request #236 from FallingHeart/patch-1
+
+Update shijing.json",True
+84d19f30a8d5435ba6007cddd67e2a4bc22be4c5,2021-01-11 06:38:26,rex nathan,Update shijing.json,False
+855d12f3bea7fbfed274a98e252b4ca0699ca2f7,2020-12-31 08:18:04,JG,doc: remove jd,False
+e668f430ff2b40d498f64f703d03378013b5768e,2020-12-07 17:54:08,RustingSword,补充缺失字,False
+4cf7384aa253fb48c04c3c4c565361808cc3ef95,2020-11-17 16:03:56,JG,"Merge pull request #231 from paxnil/hotfix
+
+ci.song.16000.json: 人名、词牌名修正",True
+5b2f743b34240b12c8ab16273b4922a60e39c8f0,2020-11-17 13:26:18,paxnil,ci.song.16000.json: 人名、词牌名修正,False
+d69a0eced7311b5d27a867c18b68e7e4d61c7696,2020-11-06 14:59:13,JG,Create test.yml,False
+385ab28829c7ff8b478739d359a438654624e110,2020-11-02 11:20:31,JG,"Merge pull request #229 from cfeibiao/master
+
+千家诗fix",True
+ce46f70843907075ef7a28c1b65b7b79ec27c5ec,2020-10-30 09:15:51,chenfeibiao,千家诗fix,False
+a6f3a9e69d3a53c6b8254a3c846c4eb9d35b5a59,2020-10-29 07:10:19,JG,"Merge pull request #228 from paxnil/hotfix
+
+ci.song.7000.json: 王之道《长相思》补缺字",True
+bdf25c9927dd3f85663ef8e5910be2d4a9734ea7,2020-10-29 07:05:17,张耀坤,ci.song.7000.json: 王之道《长相思》补缺字,False
+467d68c20c366b562378911ef50c89b1015ed23c,2020-09-14 07:00:24,JG,"Merge pull request #226 from HongzhiW/master
+
+Update tangshisanbaishou.json (唐詩三百首) adding missing contents",True
+7290786f28bc6598479c05625a7d8c528a3f133a,2020-09-12 20:15:18,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""燕歌行""",False
+582bdaf53e4e52bf8dd5d5e826a8200e0198e9c9,2020-09-12 20:14:10,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""行路難·其一""",False
+e93caab406bbeee969a15c0a78e4fe645e5c3c91,2020-09-12 20:12:40,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""長信怨""",False
+f5b2c002dd873cb9bf18e1602111a431ba2555bb,2020-09-12 20:12:23,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""觀公孫大娘弟子舞劍器行""",False
+139685d994863f40f953b23dde7826faa83ec9b2,2020-09-12 20:12:02,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""宣州謝脁樓餞別校書叔雲""",False
+e7c7c044f83d34bda8b24f8c59165c68059b751a,2020-09-12 20:11:38,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""琵琶行""",False
+1121848322b098769a434f4d6afd91b0b4559f95,2020-09-12 20:11:15,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""長恨歌""",False
+b06a3a52bca1c221f6f45e7153fe5851e9d092d3,2020-09-12 20:10:51,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""石魚湖上醉歌""",False
+5b9d0e8fbc0e1dcb5eada8a22aa192cdb2b3d0eb,2020-09-12 20:10:06,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for""佳人""",False
+cf86e83eca328a31208047382cbf03724c2bde7e,2020-09-12 20:09:41,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""贈衛八處士""",False
+95688690b08fb71fc6f88f38634417471b979f18,2020-09-12 20:09:01,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""夢李白二首·其一""",False
+8ce76a21e363ee6939f24d1f37fde60fe94833f5,2020-09-12 20:08:36,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""賊退示官吏""",False
+ca2a1d6747a0b263423024344def4da03b44d9fd,2020-09-12 20:07:15,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""行經華陰""",False
+c28809a9396737c7d6d9b4b3012f6b64373a6e43,2020-09-12 20:06:52,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""閣夜""",False
+499720656dc21725cf4e8b606b51a2495eeb6a05,2020-09-12 20:06:26,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""望月有感""",False
+214f1c1bb1e821ce3d7f87ef0e5bfdf504225204,2020-09-12 19:49:21,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""遣悲懷三首·其二""",False
+1e5c884ade57c178b56d212469dc893aa81bff07,2020-09-12 19:48:38,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""送李端""",False
+602b2f0bb7cf98115a761e1a6af636cd618270a9,2020-09-12 19:48:16,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""題破山寺後禪院""",False
+5cbe232c7253aebdff42118592876bbffe7c09f8,2020-09-12 19:47:49,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""旅宿""",False
+643ac89e6cfba3ed9323f49a84b4065dc6626bcc,2020-09-12 19:46:56,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""春望""",False
+9f3e2bacd5dd62dbc3e06a449e38790790fb90d7,2020-09-12 19:46:13,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""輞川閒居贈裴秀才迪""",False
+00fbe4d5e76b976a68f928cb1862fcd55dac2a24,2020-09-12 19:45:42,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""過香積寺""",False
+a74225be3fbadfbefd57001d48e5c1d8ce6b50e3,2020-09-12 19:44:52,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""贈別二首·其一""",False
+7a306950b735b4c19f308699934da17ea216d9a1,2020-09-12 19:44:17,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""馬嵬坡""",False
+6e73df30f8ab1ce86138ea701c77c3ef74e1a29c,2020-09-12 19:43:17,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""寄人""",False
+705f87573b7f2c4d59e9509a34990210fb269be7,2020-09-12 19:42:49,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""秋夕""",False
+4b2a61c0565b514d1649928d5a5294983e59a325,2020-09-12 19:42:24,Hongzhi Wang,"Update tangshisanbaishou.json:
+Add missing content for ""靜夜思""",False
+6866bac2cb7f61d09d9a530ca94862517614dfb5,2020-09-12 19:41:29,Hongzhi Wang,"Update tangshisanbaishou.json:
+Remove trailing empty lines in paragraphs",False
+6d2b24703e6c703319c4c9a6bbe122dc269f65ed,2020-09-10 08:38:16,JG,"Merge pull request #225 from xusenlin/master
+
+Update README.md",True
+25d2c2febeb2edbe1c31f14a9b4f2dcfc66d4fcb,2020-09-07 12:55:25,SenLin,Update README.md,False
+bdf15d1497a2c1bf7a42d3989221f43905618936,2020-08-27 11:30:30,JG,update JD,False
+f96faa5edc43bd6640cb11ffb58133f262bcec8f,2020-08-27 11:25:20,JG,update JD,False
+4df99b3ef063cb64ff25dd1f4508a02cba1ccdd2,2020-08-17 06:40:17,JG,"Merge pull request #222 from xuchunyang/patch-1
+
+ci.song.6000.json: Fix typo, 沈醉 => 沉醉",True
+9eefa0d73880e441295aeda104ac036b05b9ba3c,2020-08-15 19:20:11,Xu Chunyang,"ci.song.6000.json: Fix typo, 沈醉 => 沉醉",False
+4299a7b4e6105c3134e565033a934b085017498c,2020-06-08 07:58:36,JG,"Merge pull request #217 from zdyx/master
+
+Update authors.tang.json",True
+9251da666219a409dbcbbbf3629b6cbaa63b38f9,2020-06-07 07:22:23,Adam,"Update authors.tang.json
+
+李白的介绍内容重复了四遍，去其三。",False
+7ad74c51b43ef7593fe7ea71a7b83b13f1af3c9e,2020-05-13 14:04:11,JG,"Merge pull request #214 from CHINA-AF/master
+
+lunyun修改为简体中文 #187",True
+d1795ee8224824f2f3565a9779fba73d9b5cf15a,2020-05-13 12:43:34,CHINA-AF,Add files via upload,False
+9dc4100a40fbe1a94ecb9fd3e126db79b1e11515,2020-05-13 12:40:11,CHINA-AF,Delete lunyu.json,False
+f893e56daf1cae613394a23319ad4fff2b59a187,2020-05-13 08:01:38,CHINA-AF,Add files via upload,False
+53bea3a2497f5cba18a7a32d49a8af611a779037,2020-05-08 12:18:00,JG,"Merge pull request #212 from jackeyGao/master
+
+fix: #211 revert | 望",True
+40bf48f34e8c3449ff815a5085cffd60afaa517b,2020-05-08 12:15:36,jackeyGao,fix: #211 revert | 望,False
+a2b994615d425812fb13a77cc2ee241907337e1a,2020-05-06 08:19:23,JG,"Merge pull request #211 from zgjie/master
+
+刪掉錯誤和空白的唐詩。",True
+d5591d50f5b9995ad72c32ad9a5a9d9a95921988,2020-05-01 16:27:47,Zeng Guojie,Merge remote-tracking branch 'upstream/master',True
+21ff16b7f3a8a2b109d3faaa2b4514d6cb67db7f,2020-05-01 16:20:30,Zeng Guojie,Remove a empty poem.,False
+7e408027dc1106f7cb9bb6fd8a874ab883c45a61,2020-04-28 15:02:04,JG,test: add caocaoshiji,False
+ddc3d9520e94960a74eb25398a80bca77f522214,2020-04-28 15:00:45,JG,"Merge pull request #210 from eqmengit/master
+
+修正了几处全角花括号为半角花括号",True
+7c71b8d5122c0b70d3eebebb09b70a9b73676db2,2020-04-28 07:44:30,Kenn Zhang,"Merge pull request #2 from chinese-poetry/master
+
+从主库更新",True
+c7d62e0a9b9ce1749efd770cd061b04a9f9bd6e2,2020-04-28 07:36:46,Kenn Zhang,修正几处全角花括号为半角花括号,False
+5c53c000f08705413a745dcde66f5b2cdc2ced8d,2020-04-26 22:41:02,Zeng Guojie,去掉多餘的「唐代」，去掉多餘的空格，去掉多餘的書名號（詩句中書名號不寫排版比較好看）。,False
+e25fec3196505212d31915183dee7fc49e278a37,2020-04-26 21:44:10,Zeng Guojie,Remove a duplicate and wrong poem.,False
+fff6bf80f1392668383d158dc0a27a1431d38d99,2020-04-24 15:31:50,JG,"Merge pull request #208 from zyj-otaku/master
+
+add the poem of cao cao",True
+e112b236894a7644fdfafdd4f31294771d0f2aa7,2020-04-23 21:30:19,ZouYiJie,add the poem of cao cao,False
+e1807a4747ccc2241d5ea328ed32eba2a9b612b7,2020-04-23 14:01:21,Kenn Zhang,"Merge pull request #1 from chinese-poetry/master
+
+更新数据源",True
+bc749b97701bed6e53ccc0b3bd265a961ecd3966,2020-04-13 15:14:13,JG,doc(readme): fix donation code,False
+baa31d4a8b9d54d3a65341042240419c104f7b70,2020-04-13 15:11:35,JG,doc(readme): remove JD,False
+ec930ec532741cb3fc37a3e785deb37d5696b2ac,2020-03-25 15:08:23,JG,"Merge pull request #201 from snowtraces/master
+
+ ci生僻字补全",True
+f760e8f9527df6059adb42a3a844e92bd2bd7847,2020-03-25 14:59:37,chengxinyong,删除过程内容,False
+e0f1624480fcbfef1a8acf81cdf3ebc575587c60,2020-03-25 14:55:06,chengxinyong,格式化回滚,False
+3d670be5025cb05dfe03d01407498e95c5f56fc0,2020-03-25 14:37:13,chengxinyong,回滚单句匹配错位,False
+4c25cb3b7915a80afbafc632e4d84116f6cbd9db,2020-03-25 14:29:18,chengxinyong,ci生僻字补全,False
+b106c39b358fed813f6d1d0dbd679d3134382759,2020-03-23 06:57:08,JG,"Merge pull request #200 from sliuqin/master
+
+typo fix",True
+37c4c7eb3d9206640c79b72a9544acab0d49b3ce,2020-03-23 06:56:50,JG,"Merge pull request #199 from snowtraces/master
+
+生僻字缺失补全：词牌名《感皇恩》",True
+36e8c8549300be0d33c701715ff48d2bf637fc18,2020-03-23 05:47:03,蔡伦,typo fix,False
+8ce34a6414c51ee43771db8a575b3074a6ba2299,2020-03-20 19:43:13,chengxinyong,生僻字缺失补全：词牌名《感皇恩》,False
+c70e69c3ecbadc1ae47a5d649d010fc2da627dcc,2020-03-18 11:22:10,JG,resolve #198,False
+9ce0176b9338421151cae301076ee7e337896baf,2020-03-13 11:00:40,JG,"Merge pull request #197 from smilevent/master
+
+改正荼シ>荼䕷",True
+127f3cc816969fa022492d4848b4c84b37124ae3,2020-03-12 18:39:53,smilevent,改正荼シ>荼䕷,False
+f3cb12f6947db3b478c68364137696f8b168a5df,2020-03-12 10:58:34,JG,"Merge pull request #196 from smilevent/master
+
+移除宋词某些诗句中的ピ",True
+9643ac41f01178208752c2459c11852823f421fe,2020-03-11 21:22:42,smilevent,移除宋词文件中的ピ,False
+bcbee6dfbaccf9c94c9c88f3b807574ba01a0506,2020-03-07 16:23:59,smilevent,"Merge pull request #6 from chinese-poetry/master
+
+update",True
+e55476976d96f160e608237f614e726e79163faf,2020-03-04 07:24:27,JG,"Merge pull request #194 from bluesword12350/future-20200303
+
+全唐诗 作者JSON结构 去掉json中多余的逗号",True
+076fa6306eaf7e3a6a0e617d7e3174a679996307,2020-03-04 05:57:36,李林峰,Merge remote-tracking branch 'chinese-poetry/master' into future-20200303,True
+e3d07d56bd911513bb7e8b7e69783096fac85b6e,2020-03-03 13:47:36,JG,"Merge pull request #193 from bluesword12350/master
+
+全唐诗、全宋诗 数据形式 文件格式说明修正",True
+0b76e836cfdd9e2b3e981ba657ead0c575d49e07,2020-03-03 06:23:43,李林峰,json小优化,False
+0e156a99b20057fd69f95cf8e5a7a1449211feae,2020-03-03 06:02:50,李林峰,全唐诗、全宋诗 数据形式 文件格式说明修正,False
+60c1d90509c6c9f9797b29d40803882991ad7a39,2020-02-24 12:54:07,JG,Fixes #191,False
+53255c3e9eea83c310d9384f6a23ad9b339a10ed,2020-02-11 08:38:42,JG,doc: add job link of python,False
+42fcc5c045c80e492d76f5c6c1764ccd0a2a9e82,2020-02-11 07:51:10,JG,"Merge pull request #189 from KhienghThenYang/patch-1
+
+樑帝->梁帝",True
+a1ffc8dbd940b7a16d3b5c9a6bc698ba21ebcbfc,2020-02-10 14:27:51,姫慶天,"樑帝 → 梁帝
+
+建議標註一下是眞繁體本還是由簡化字本倒推出來的僞繁體本。",False
+f23bb8ab4f704137bfdc74186bd77f1a39666269,2020-02-10 10:59:05,smilevent,"Merge pull request #5 from chinese-poetry/master
+
+Update",True
+323b0db8d34558d0eb850de6935675bf49d1b490,2020-02-07 19:48:56,JG,doc: update JD,False
+98e43284df905f67ef9c01f45c16bdb3ee4e0a22,2020-02-07 13:05:07,JG,doc: update JD,False
+ead5cf6a0f2e8f5c73910138023d479416572904,2020-02-07 12:51:21,JG,"doc: add job desc
+
+增加招聘",False
+8372a09f766cf4dafb7711123c3135717c6e9e3e,2020-01-14 14:06:37,JG,"doc: change travis-ci.org to travis-ci.com
+
+change travis-ci.org to travis-ci.com
+
+https://travis-ci.com/chinese-poetry/chinese-poetry",False
+7a351f6e18ec89945377dfe99e6d91568695c898,2020-01-14 14:03:48,JG,"Merge pull request #185 from jackeyGao/master
+
+update",True
+0ec6f767d15bf59d6ba9f5088c88923136f18e2a,2020-01-14 13:37:50,jackeyGao,test: support mengxue,True
+d739bd7eba32b58d83857b58cf9fa2e7e964a07f,2020-01-14 13:36:19,jackeyGao,fix #184,False
+4aba982011121a1381b10c86e90c63a4ddeb213d,2020-01-14 13:35:50,jackeyGao,chore: pytest==5.3.2,False
+3527fdbcc3e0bb264492384d9a72ab28ca8b207a,2020-01-14 13:33:41,jackeyGao,travis: remove py2.7 and use py3.7,False
+f50ea06402216cabd020541a7e4549bc146cc386,2020-01-07 08:03:10,JG,"Merge pull request #183 from jackeyGao/master
+
+bug: fix #182, test: support yuanqu, doc: update",True
+fb4afe7192315a78ca96eab25e7deb0e3fe44f32,2020-01-07 07:59:06,jackeyGao,doc: update,False
+e5acfe0f05e44a4e1338ab38aea0d68cf4cdf33f,2020-01-07 07:58:27,jackeyGao,test: support yuanqu,False
+ae404041811ae76dd43568c32f850419290c5a71,2020-01-07 07:57:39,jackeyGao,bug: fix #182,False
+32deefe14dd03afbee35b5f028f32ed5d2053c98,2020-01-02 13:59:39,qb345801622,第9676行，关汉卿《包待制智斩鲁斋郎・耍孩儿》中，删除Unicode字符 \u0027 ，此字符为单引号，保存进数据库时会导致数据库报错,False
+991eb858410a4d7e900e6faa58b9fef6c270459e,2019-12-30 15:52:57,JG,update PATRON,False
+74eda98e91e2e026ced815dc720f05de3ad7f439,2019-12-30 06:46:46,JG,"Merge pull request #175 from liushuai187/master
+
+ci里author.song.json里苏轼的描述",True
+5212caf855b96ba711e8358494ef7be0d579fb0a,2019-12-29 10:38:17,liushuai187,"ci里author.song.json里苏轼的描述
+
+眉州眉山人",False
+2941ee5cb771512496e98b725a78668fe29a0ee0,2019-12-28 21:21:24,smilevent,"Merge pull request #4 from chinese-poetry/master
+
+update",True
+fd4f3a8e47a1019d4506eec0127294e2ef74a7f9,2019-12-28 17:36:23,JG,"Merge pull request #173 from yuxiang-gao/master
+
+fix 诗经商颂·那之什被错标为鲁颂·駉之什",True
+40167a1979c417404db187812353b15793fc6a08,2019-12-28 14:05:32,Yuxiang Gao,fix 诗经商颂·那之什被错标为鲁颂·駉之什,False
+ff303a4fdcd96b6ec18fa34eae298f545ee9a34f,2019-12-27 10:25:28,JG,update patron,False
+90f1bfa443622c66c627eb3d06d2a14fdecc9f37,2019-12-27 10:20:15,JG,"add patron
+
+add patron xber1986z",False
+145179e0f870b308b3793edce1dbeec1f1fe608b,2019-12-25 09:31:40,JG,"Merge pull request #168 from ChuanfengZhang/master
+
+doc: 规范标点符号使用",True
+3f1dfc6ac6cf9c7fa8a9018850adb7c1e2c4ec9b,2019-12-25 09:13:03,chuanfeng,doc: 规范标点符号使用,False
+06e69a60e33bc95856ff098d77f02cb5028b665f,2019-12-20 13:42:01,JG,"Merge pull request #164 from O70/master
+
+蒙學讀物收集完成",True
+f60748e7da3bf4770c164d4a786fb947f1db31cc,2019-12-20 13:26:36,鬼王,蒙學收集完成,True
+1ad1439287d14aafccc05323d80dc75be1511338,2019-12-20 13:22:31,鬼王,蒙學: 添加《文字蒙求》,False
+c2e6f03127b7e086d40652c75b8513fa0b66c3e2,2019-12-20 08:16:17,鬼王,蒙學: 修改《千家詩》描述,False
+f9e2380f921c4ce59b4a82c6284faf64c05aef58,2019-12-20 08:16:17,鬼王,蒙學: 添加《千家詩》,False
+433b9d3b30dc8f498f39530eca8acc4978115b49,2019-12-20 08:16:17,鬼王,蒙學: 添加《唐詩三百首》,False
+f407fc0c1c2a5d48e313a2efce55206f929ef7aa,2019-12-20 08:16:17,鬼王,蒙學: 添加《古文觀止》,False
+30e2025da34e26bf1f2c3d908721230948c3fcc1,2019-11-25 07:32:01,JG,"Merge pull request #160 from smilevent/master
+
+补全陆游《钗头凤》缺字",True
+c720759d7f523d83bddb0b46d7b1710fe9c11d81,2019-11-24 15:43:36,smilevent,补全陆游《钗头凤》缺字,False
+5ae078bb4408129c00d22b54bde9aeabd05d1daf,2019-11-24 15:35:51,smilevent,"Merge pull request #3 from chinese-poetry/master
+
+同步",True
+6f6aeeb1a3a852686f6dc7a573d3799c6ce53064,2019-10-10 12:16:19,JG,"Merge pull request #157 from xinglie/strain
+
+fix #149",True
+c884ba74c375c502a5d1d1b181a19cfb729e6be5,2019-10-10 12:12:09,xinglie.lkf,add id,False
+1f865c02b521a13defb0dc73b1b1c9489daba581,2019-10-10 11:59:10,JG,"Merge pull request #158 from xinglie/r
+
+upgrade ci rank data",True
+112380d8dc98d4d211c167ce0d4ab555b716f5ec,2019-10-10 10:05:47,xinglie.lkf,upgrade ci rank data,False
+d3a7ac84081a606f42b3e56cee632926fe0e12d5,2019-10-10 10:02:18,xinglie.lkf,split strains,False
+abc237336c4857425d9ae7e6e8779756c2226132,2019-10-10 10:01:43,xinglie.lkf,split strains,False
+ffe9b9d2b5e9465366bc4fefa3bd3f1b0e831fd9,2019-10-10 08:20:19,JG,"Merge pull request #153 from zhongwencm/master
+
+清理作者名后面的描述",True
+d7e0fd01523043163cfa68ec500d1b083ee04534,2019-10-10 07:49:08,zhongwencm,去除同名无传的作者.都无传则只保留一个,False
+a0d14376dc12b377d2060b129e9b4480955398ab,2019-10-09 08:25:49,zhongwencm,补充漏提交的文件,False
+c4b8f9ecee95b1abcf7c87af3a7dd03983c004b4,2019-10-09 08:09:37,zhongwencm,清理诗中的作者名后面的描述,False
+c2772f2fc0a03a5986b3a50c80b2aed70c6ace69,2019-10-09 07:51:19,zhongwencm,去掉作者名后面的描述,False
+acf5e3d98e02e7ad558578dbb25514926d66aae7,2019-10-09 07:22:24,JG,"Merge pull request #151 from zhongwencm/master
+
+新增了一些筛选",True
+497f00c3eded9dcdad8fee3566fb400bf77ca4f5,2019-10-09 07:22:01,JG,"Merge pull request #150 from xinglie/rank
+
+Rank",True
+d271dc2461253c91261f16bc75e6d4f93000b412,2019-10-09 07:19:20,zhongwencm,增加作者筛选,False
+31896ffccf5e75e2db450ebf02af99f5ed6a71e3,2019-10-08 19:36:02,zhongwencm,新增筛选,False
+4510d5ca0661506cb95dc79155ddbc9197067b42,2019-10-08 12:14:21,xinglie.lkf,add poet rank data,False
+6077e7b32dfa82be2ecc7d63892dc7f3512c97d1,2019-10-08 07:42:25,zhongwencm,"Merge pull request #1 from chinese-poetry/master
+
+跟上更新",True
+51755b8b2c5298d64ad701fde11275db4ec6db4f,2019-10-08 06:56:35,JG,"Merge pull request #145 from CasualJi/yuanqu
+
+add data of yuanqu",True
+e683155fb94586c293519ed7ca204f2cabafb7fc,2019-10-08 06:53:17,JG,"Merge pull request #146 from zhongwencm/master
+
+添加了UUID, 筛查并复制有问题的诗到error文件夹",True
+725c6220c7ac0a55c19739c662612cd56c6b2058,2019-10-08 06:50:35,JG,"Merge pull request #147 from mzzx/master
+
+更新表面结构字",True
+5770a4bd8f72a726b60b59c94a3451789ebac5cc,2019-10-05 13:14:12,MingZZX,Update 表面结构字.json,False
+0bd0f49b362d5cf0dd062d416fe5e4c5a603f986,2019-10-02 14:43:06,casual_ji,add data of yuanqu,False
+58d5ebc65a675bd8915a9ad5ed515979bd2e8e14,2019-10-02 14:37:10,zhongwencm,标出有问题的诗,False
+f2ee5de9f7d913c71aa718b295c249b4838383d1,2019-10-02 13:42:21,zhongwencm,添加UUID,False
+1bf4070ab48df5d9f89a165ea3fc4dac191f6b5d,2019-09-30 06:54:33,JG,"Merge pull request #144 from zhongwencm/master
+
+补充缺少的两个作者. 有诗.但作者文件中缺少.",True
+59be1c52dfe778075a8f5a99e3a9cd5570e60cdb,2019-09-29 15:59:46,Zhong.Wen,"补充缺少的两个作者. 有诗.但作者文件中缺少.
+
+王融: 自君之出矣，金爐香不然。思君當明燭，終宵空自煎。
+徐幹: 自君之出矣，明鏡暗不治。思君如流水，無有窮已時。",False
+6682bf019a1543f7b5f84988100faa32f55501ed,2019-09-29 11:50:57,JG,"Merge pull request #143 from zhongwencm/master
+
+fix(ci)修正宋词作者名字",True
+ef50d21f18bb144c942cafb1a9b831dcb60656d3,2019-09-29 09:50:15,Zhong.Wen,fix(ci)修正宋词作者名字,False
+54e162699f5bd2bf715fd5bf08893c265b533e0e,2019-09-01 11:12:08,JG,"Merge pull request #138 from snowtraces/master
+
+文字修复",True
+b986549af3483cf87008ff5e8b9730d988e9d74f,2019-08-30 17:08:21,chengxinyong,文字修复,False
+f8ebcd4103c3f2c6ca0cb2e8d2eb502fec1b920e,2019-08-19 08:39:16,xinglie.lkf,Merge branch 'master' into rank,True
+8e350d34d824fbfb48bb84a82280efd54552dd8a,2019-08-19 08:38:28,xinglie.lkf,update poet,False
+421e7505c8d60e42199a77f4f5b7914b1b7f4b57,2019-08-15 17:56:17,JG,doc: add hitcount shield badge,False
+a2bbe964f96b4404c4ed9170739f882e8b7f61b6,2019-08-15 07:02:13,jackeyGao,fix(ci): 宋词缺句,False
+ca0fb7e0017a81fcea0a7ce59148aae6a3a9c79a,2019-08-14 18:17:06,JG,doc: update README.md,False
+153d0cc2754c09a846b18dece0a7cff1351cb13f,2019-08-14 08:27:50,JG,Create FUNDING.yml,False
+efd5a97bc1eac9152e22975fa84c8d69a1b10ab2,2019-08-06 13:53:00,JG,"Merge pull request #136 from gaoyangang001/master
+
+mengzi.json & zhongyong.json data format",True
+6e14729941c258de29927dd4980e32af33da3e79,2019-08-06 12:06:19,Yangang.gao,mengzi.json & zhongyong.json data format,False
+4f0af2418b058234fb23773512ebece97f5bb207,2019-07-30 07:04:31,JG,"Merge pull request #132 from xinglie/rank
+
+添加“词”搜索结果",True
+7ca8bd803282ce3d1a423e190eaef9f40d466bb0,2019-07-29 15:29:45,xinglie.lkf,add ci rank,False
+55e275742fd7c585f60798fec46110ab8a536775,2019-07-25 07:30:39,JG,"doc: 增加贡献规范文档
+
+- 增加贡献规范文档",False
+1eb316ca85a0bf127d28b68d66c054a2d97d7764,2019-07-23 14:07:37,JG,"delete nc.py
+
+删除开发作用脚本",False
+8b5987f81aee15a0804c6264989e852225de82c8,2019-07-23 14:04:13,JG,"Merge pull request #127 from cclauss/patch-1
+
+Travis CI: Add Python 3 to the testing",True
+86cbb6dedc6ee2bd14bccb6a89af46ee3c33cab4,2019-07-23 13:19:30,Christian Clauss,Travis CI: Add Python 3 to the testing,False
+f7406faa6835b2977ff9f82d6dfde28d86eb43a3,2019-07-23 06:41:53,JG,"Merge pull request #126 from dtsdao/master
+
+Fix: 文件夹名字没有改",True
+ff766da1928dbdc5074bf67081f081b12aa84321,2019-07-22 19:15:05,DTSDAO,"Fix: 文件夹名字没有改
+
+文件夹名字没改会过不了CI",False
+4319d53b7b9b540b425c893e071eb33eb4b861c4,2019-07-22 09:34:01,jackeyGao,Merge branch 'pr/123',True
+481748d64d28d02a8e6a6e2cfd0c5281a8b47a66,2019-07-22 09:31:58,jackeyGao,Merge branch 'master' into pr/123,True
+5aeb8445648373432ff049f0aab5761f360c7555,2019-07-22 09:10:26,jackeyGao,Merge branch 'master' of https://github.com/jackeyGao/chinese-poetry,True
+8518797143af7eb4d2617a45a8648ced3b90eccd,2019-07-22 09:07:05,jackeyGao,fix #122,False
+24b02b2dff19962a3e523d8538b1ccac3e8ec2c4,2019-06-17 06:51:50,JG,"Merge pull request #119 from HANZO-70/master
+
+添加剩餘部分蒙學讀物",True
+d294c2c7930b1bd0932c7e4bc46b24235fdaa135,2019-06-16 15:40:00,鬼王,"Merge pull request #1 from O70/master
+
+添加剩餘部分蒙學讀物",True
+fe8360e747e7c0f9c2ea005b5928140a536eff0c,2019-06-16 15:20:56,鬼王,蒙學: 添加《聲律啓蒙》,False
+9a0d3f48d1480ab50e4385fe38f2a0061f82529b,2019-06-16 14:56:30,鬼王,蒙學: 添加《幼學瓊林》,False
+152e2db6793d96a1b9da2f7964a81118b2431165,2019-06-14 15:02:43,鬼王,蒙學: 修改《增廣賢文》數據格式描述,False
+031c8039acb1c46f3c8c3f3fb213f82d420028d8,2019-06-14 14:57:21,鬼王,蒙學:《增廣賢文》轉為繁體版,False
+e5e898ea3a8459b7aceeb8b24d056cda007daad5,2019-06-13 18:04:20,鬼王,蒙學: 添加《增廣賢文》簡體版,False
+4ffcf0567d3cf2acc2e54d51d1b0b6b550b7792f,2019-06-11 13:01:38,鬼王,蒙學: 添加《朱子家訓》並修改《弟子規》數據格式,False
+9cb0d8e202d34b499d29d63929885127c353132a,2019-06-11 11:58:05,鬼王,蒙學: 修改弟子規概述,False
+3e9e94affb5782432ed89584499991d87acba521,2019-06-11 11:19:25,鬼王,蒙學: 添加《弟子規》,False
+9e41d9d8717868860baaf46837c98e88639dd8ca,2019-06-10 10:31:11,鬼王,opt(mengxue): list to task list,False
+16117561207ee51b1acf1058d9d7c9c3cd4b50a2,2019-06-08 14:45:17,鬼王,remove the extra 《千家詩》in mengxue/README.md,False
+20366009d6cce97eca78f9dcba4e5262f3aa8de8,2019-06-06 14:57:59,JG,"Merge pull request #117 from HANZO-70/master
+
+添加部分蒙學讀物",True
+7ab685e19b8ccab29b636cd3f967771b737869e4,2019-06-06 14:34:29,鬼王,"還原部分避諱文字:
+
+    - 竹 -> 樹
+    - 泰 -> 恆",False
+ff1b0dfeb311bbf233f2a2b09343dc0f2bcf91e1,2019-06-06 14:12:22,鬼王,"更改重複文字:
+
+- 玉出昆岡 -> 玉出崐岡
+- 女慕貞潔 -> 女慕貞絜
+- 戚謝歡招 -> 慼謝歡招",False
+6c0e7daa1e86e36740d52810d6170d642987c8e0,2019-06-06 13:43:21,鬼王,添加千字文,False
+fee9a0716fa85dc0c2b52669996b8ade5949f629,2019-06-06 12:36:37,鬼王,"修改百家姓內容,添加438個姓氏的郡望",False
+1e7fdd28091c9e95e9bb95dcc0c69537c04275b6,2019-06-05 20:54:41,鬼王,添加宋版百家姓,False
+c4fb3c5436656abaf14884585545eaf5fa305183,2019-06-05 19:45:32,鬼王,添加新版三字經以及tags,False
+4873a27bde9601ad2228b1ec0b70f3865dc108ee,2019-06-05 11:59:40,鬼王,添加傳統版三字經,False
+90a2b2f8f4431f2f29e14aff82e87bdeaec81fb8,2019-06-05 10:49:49,鬼王,添加蒙學及三字經概述,False
+0212d0d8fd4b8717d30e494cad51407575df41f8,2019-05-22 06:58:36,JG,"Merge pull request #114 from beyondinfinite/master
+
+修复欧阳修采桑子""飞絮濛濛""句错误",True
+605cdf04caa6f4c1543457b63971064d443ce235,2019-05-22 06:35:17,Yu Mao,"修复欧阳修采桑子""飞絮濛濛""句错误",False
+acca1e6d38a5814e799a3b5a9b63fb7c16a1f3af,2019-03-27 08:41:39,JG,"Merge pull request #110 from smilevent/master
+
+改正宋词人可旻诗句",True
+d9464aab16326636f1ae4d527d81baa373fcf5a5,2019-03-27 07:57:14,smilevent,改正宋词人可旻诗句,False
+fd054bd8b50b17a37152f7eb6f0b15eb293c87cc,2019-03-21 14:52:13,JG,"Merge pull request #109 from smilevent/master
+
+删除一些空句，改正注释位置",True
+4b5fa68650e56ad72a85258cd6d6b146a74eb22e,2019-03-20 16:18:31,smilevent,忘记删逗号..,False
+bb4190b818d992aeef03072e576e612036a67e99,2019-03-20 16:04:11,smilevent,移动诗句里的注释到notes,False
+498739a74617b35dbaeae3e726750b5f39b2caab,2019-03-20 15:31:48,smilevent,删除空句,False
+167c31091021b77b9fc5ed21484591158c7f2fe2,2019-03-20 14:39:48,smilevent,删除空句,False
+6a7eeb4873e855f6561d9126e8ca5dd7a7e4cf5d,2019-03-20 14:08:47,smilevent,"Merge pull request #2 from chinese-poetry/master
+
+同步更新",True
+adaa45c1174adeabb367cbfb1fc9f00dee505c4d,2019-03-18 14:31:41,JG,"Merge pull request #108 from FleetingWang/replaceStructureWord
+
+替换表面结构字，补全不完整的诗句",True
+6f3754942881c4c313159a2da9b118f26cf914f6,2019-03-18 14:14:55,wtffly,"撤销 ""将以“又”为题的诗名，更改为前一首的题目。""",False
+dedba7a36685cff1752112b059f6ec00a88484d0,2019-03-18 14:14:23,wtffly,"撤销 ""将以“又”为题的诗名，更改为前一首的题目。""",False
+bad70ff38f7254cf18608b78f041aa10795cb287,2019-03-18 14:09:33,wtffly,补充缺失的诗句,False
+3c8ebaf1814fae0e26ef8a77c6590392e2d1163d,2019-03-15 09:01:19,wtffly,poet.tang.43000.json 有冲突，重新做表面结构字的替换；,False
+e16058ebd2a229ac719474da074b5f73e18e71df,2019-03-15 08:40:00,wtffly,"Merge branch 'master2' into replaceStructureWord
+
+# Conflicts:
+#	json/poet.tang.43000.json",True
+2223b451aa094734877374276f47e673751d85f9,2019-03-15 08:34:13,wtffly,去掉诗句开头多余的内容。应该是多个作者的信息，此处先移除。,False
+f0dad8789735905ebb28b8747c5185805bc9a2fe,2019-03-15 08:32:25,wtffly,添加同一首诗的不同版本,False
+ac3d3e4bb956d6189999d6704707fde0db7755ad,2019-03-15 08:31:33,wtffly,补全不完整的诗句，还在进行中,False
+81478250cd716962c7b330fdb11917089da4f39b,2019-03-13 14:24:54,wtffly,Merge branch 'master2' into replaceStructureWord,True
+be8ed5af4c6fc2bb07a895c530dcb485bea08d60,2019-03-13 14:24:19,wtffly,补全不完整的诗句，还在进行中,False
+f21a0aa417f3eb1e9072b5999073f0c44ef398a5,2019-03-06 11:49:42,wtffly,Merge branch 'master' into replaceStructureWord,True
+323289b687e1f4e7514b00bcfe6a94f9d9fbe5d0,2019-03-06 11:48:56,wtffly,Merge remote-tracking branch 'origin/master',True
+de290f1bdf14fc3ccf74e4d63b51bd97d118cba7,2019-03-06 11:47:01,wtffly,将以“又”为题的诗名，更改为前一首的题目。,False
+adf0bb1e774828acf4e3dcf7949e317a003bef75,2019-03-06 11:46:09,wtffly,将以“又”为题的诗名，更改为前一首的题目。,False
+9bc0ab42ba46290f9b6ceac08a07ba8510934f2f,2019-03-05 14:55:36,wtffly,替换已知的表面结构字,False
+75480e9a3841d9e4846b610826797fac1e9bfd21,2019-03-05 14:48:24,wtffly,"Merge branch 'master' into replaceStructureWord
+
+# Conflicts:
+#	json/poet.tang.53000.json",True
+639d3ad72c74678258e400237aac7c3699af5fd4,2019-03-05 14:42:02,wtffly,添加出现过但未收集的表面结构字,False
+d54c25fc1c8e2c51e0c2848d1c78e9792c7687bb,2019-03-05 14:22:22,wtffly,替换已找到的表面结构字,False
+32701f887160b7647c0bf1d6942444822fed6bf7,2019-03-05 13:53:26,wtffly,调整表面结构字候选字顺序。,False
+1853357a9654710cc2b4f846dae865645a8014a7,2019-03-05 10:51:04,smilevent,"Merge pull request #1 from chinese-poetry/master
+
+同步更新",True
+74469bc3a248d5bf828f3d9e4a11727fc04477a1,2019-03-05 08:24:07,JG,"Merge pull request #106 from jackeyGao/master
+
+:art: 统一 unicode 字码，去除'占位符0'  #104",True
+dff49be24c02697258102142413e73952c03cdfc,2019-03-05 08:10:18,JG,fix json,False
+77caa26f0acb708efa9fc2cfdb9e2c70a8675b01,2019-03-05 08:06:37,JG,Merge branch 'master' into master,True
+9a7a9448c617215eb23858275c9ca125c5a60e79,2019-03-05 07:55:54,jackeyGao,":art: 统一 unicode 字码，去除'占位符0'
+
+ #104",False
+f25f2b47171416ef7d9dcd8abdb1d0ee098b9dea,2019-03-05 07:17:07,JG,"Merge pull request #105 from FleetingWang/master
+
+表面结构字中的单字节汉字unicode编码多添加了4个0",True
+b663d1cfc6de06c72ed4e7e656507f1850a55f26,2019-03-04 07:42:20,wtffly,表面结构字中的单字节汉字unicode编码多添加了4个0,False
+8af63068d3110538390cdcc4b458efc252142ea5,2019-03-04 07:06:37,JG,"Merge pull request #104 from FleetingWang/master
+
+找到更多表面结构字对应关系，替换部分部件的字符",True
+676f01fcd88a4e7208ed4ef1ed0915fdb995c664,2019-03-02 07:49:23,mag_net,找到更多表面结构字对应关系，替换部分部件的字符,False
+b08670bf846be74051e0da0bc6e23c890fab1555,2019-02-25 06:56:50,JG,"Merge pull request #103 from FleetingWang/master
+
+去除多余的全角空格('　')，替换部分全角空格",True
+89b6a49e9123f6eab2f98e3c4fd0282a8a2d74a9,2019-02-24 18:29:11,mag_net,去除多余的全角空格,False
+712da70df258e8de310ac9c747e7b5ef720dcea4,2019-02-24 18:17:04,mag_net,分隔作用的全角空格用两个半角空格替代,False
+84a01f907eaf0b6f730acd4f4b4bf4252059d750,2019-02-24 18:16:13,mag_net,找到了两个当初用全角空格替代的字,False
+0031a1d4a3c7d8eaa542c5429b4450a4c1039f10,2019-02-24 18:15:02,mag_net,"""张元""->""张元幹""",False
+1e8c315fed80d62e2e4f618afedec985fe08ff0c,2019-02-24 18:14:25,mag_net,"《献王　集》应为《献丑集》，作者名""许""->""许棐""",False
+4dea040ecb349c294f5a25c6b27a7a4cc99c6e45,2019-02-24 18:13:59,mag_net,"""向子""->""向子諲""",False
+7cd8e8f90a493bc039859cd66a776e07ac1eea57,2019-02-24 18:13:15,mag_net,去除多余的全角空格('　'),False
+2617170e2b2a8fed7004b2d31cd6c68e89c0f927,2019-02-22 07:51:04,MagNet,"Merge pull request #1 from chinese-poetry/master
+
+拉取最新代码",True
+f10e351d91ad353a9831eef12eacff1d16566984,2019-02-18 08:11:42,JG,"Merge pull request #102 from oldpotter/master
+
+订正了其余paragraphs字段的拼写错误， 订正了paragraphs中的内容",True
+06a285499367ff848df3b22d0f4da7aeacd368aa,2019-02-17 12:45:43,oldpotter,"修改了字段paragraphs, 修改了paragraphs中的内容",False
+315168ed2e63cfab172cf33d3c1177951434a900,2019-02-10 14:53:12,JG,"Merge pull request #101 from smilevent/master
+
+改正别字",True
+58a26f019fca93ad3c399792404d5d91384a232c,2019-02-10 14:01:28,smilevent,八悄->八佾,False
+bcd5fecedb3332f6fae540288bce2c7f1ea68c9f,2019-02-10 14:00:06,smilevent,paragraphs单词错误,False
+f60ee057a1b1a45743052f1072102f2663685fff,2019-02-03 09:18:38,JG,"Merge pull request #99 from oldpotter/master
+
+添加了中庸和孟子",True
+e508758ce57b7dd2858162d8ac77b0d0735a584e,2019-01-31 11:16:04,oldpotter,增加了孟子和中庸,False
+849073c2d75e222f2a1d238a170c96b97be11513,2019-01-22 07:16:24,oldpotter,同步到upstream,True
+36a1b59dc6fd37802b1c856158720b48f50d6bf8,2019-01-22 07:10:59,oldpotter,删除了daxue/daxue.json,False
+adadf088872737be53e5b90afc10aff3d33ebde0,2019-01-21 15:58:15,JG,"Merge pull request #96 from jackeyGao/master
+
+改进结构,更新介绍文档, 增加贡献者列表 SVG.",True
+9feb6c436c47590f82d650f18f887ebf9bfd12d9,2019-01-21 15:51:35,jackeyGao,:bug: 修复测试重名BUG,False
+19023a5d0305822dcd5b5bc4441fafba361241b2,2019-01-21 15:42:21,jackeyGao,:memo: 更新介绍文档,False
+1584fb4fcb484f616915b17f089b9b31b44ba251,2019-01-21 11:16:32,jackeyGao,:art: 重命名目录，改进结构,False
+94a0a2c1c09d16b51603f9692a7f7c9f013cb5c4,2019-01-21 11:15:14,jackeyGao,:fire: 移除冗余目录,False
+d106c54a6ae24f8ae26ee851d3bd0e0d85ba38ea,2019-01-21 11:12:50,jackeyGao,Merge remote-tracking branch 'upstream/master',True
+3c4cf6d4ed294f474303e7bb51083b3ddef3ca0d,2019-01-21 11:02:07,JG,"Merge pull request #95 from oldpotter/master
+
+增加四书五经",True
+b3cb788909f9eaceead3aa45e42a02180b7baa91,2019-01-21 08:08:38,oldpotter,四书五经,False
+405f6baceb2ce04f52baa33ceabc7b91ece18a0e,2018-12-21 13:21:53,jackeyGao,doc: add contributors svg,False
+fab152fd0b70123ee1e838e44197a3d9640e09bd,2018-12-14 08:53:07,JG,"Merge pull request #92 from jackeyGao/master
+
+ doc: 更新README.",True
+3b480a02a80473ecdd25b3ccb0f05f3487189d02,2018-12-14 08:45:10,jackeyGao,doc: 更新花间集README.,False
+29f7bd7c931c5dafebb9d1537781b960090c7183,2018-12-14 08:41:48,jackeyGao,doc: 更新README.,False
+20f1cbd282bce197259ed792ad255c8a427eb5a1,2018-12-14 08:40:43,jackeyGao,doc: 更新README.,False
+032ed2a245c7a799e1c2d094052ae154d9663f11,2018-12-14 08:27:35,jackeyGao,"doc: 增加各文集README介绍, 优化README.",False
+834126bff1e82928acf6a2246362b2f46616ac32,2018-11-28 08:39:59,JG,"Merge pull request #91 from huangjianke/master
+
+Update README.md",True
+ae3c30efcec8f673b3b3bf39d028c751adc38bf3,2018-11-28 08:13:09,huangjianke,Update README.md,False
+c3592e6bac132de188af058d2b5c1bd2d76e6f06,2018-11-27 09:26:03,JG,"Merge pull request #90 from snowtraces/master
+
+添加 幽梦影 数据",True
+63280b9d3120a6ff13aa544f4294f1d5a1cac170,2018-11-27 09:22:40,chengxinyong,标点修正,False
+01ace503bfb89e5f60d6388ede8101e7797ec50e,2018-11-27 09:18:28,chengxinyong,添加 幽梦影 数据,False
+5a7af5f51f81f70723cd9a4c48077bd6fb179c5f,2018-11-23 16:34:19,JG,"Merge pull request #89 from jackeyGao/master
+
+增加南唐二主词",True
+d37685ddbdf3208aa61e5552ba54f312b95531d7,2018-11-23 12:25:24,jackeyGao,update: 完成七八九十卷表意字替换,False
+2db81c8e566e26ff95efa059fbaececc44cedd53,2018-11-23 12:24:21,jackeyGao,update: 表意字替换,False
+ef4b16497bf217717bdf23f9dd9b16023ff41aea,2018-11-23 10:57:43,jackeyGao,doc: update,False
+8b612b2a2a09c8c7cf932fbfc0b58c93277a8e72,2018-11-23 10:50:56,jackeyGao,add: 增加南唐二主词,False
+5c4607f28d1137713d2dd1a2d5e61aa64a9a159d,2018-11-23 10:49:52,jackeyGao,Merge remote-tracking branch 'upstream/master',True
+5d84b02f85b3b068f559cf0dd1d70ce8d2aa5e5e,2018-11-22 15:37:24,jackeyGao,test: 支持wudai,False
+a2ecf0f6ae13055afd0238fb9eba395f6d9dba8f,2018-11-22 15:36:38,jackeyGao,[DOC] 增加 TODO,False
+5cca3d4669b0eeb8442bdf15fc392ea84470188b,2018-11-22 15:24:30,JG,"Merge pull request #88 from jackeyGao/master
+
+增加五代诗词",True
+ff6e372c9dad3141f581cde5fa61f366a7b65479,2018-11-22 15:20:06,jackeyGao,[ADD] 增加五代十国诗词,False
+c0b661b284df057cac93d995332bdc489309f06e,2018-09-03 13:59:48,jackeyGao,修改统计图字体,False
+386c3f98de57a11090f407ea1191beb554b2b7c1,2018-08-27 07:26:07,JG,"Merge pull request #78 from jackeyGao/master
+
+fixes #77",True
+5be5fd1e28c8269566ddb8d4463962c9b8f38564,2018-08-27 07:23:40,jackeyGao,fixes #77,False
+99512d5cde20d27b2d39ccfb5d5eb711234bf199,2018-08-15 11:00:58,jackeyGao,test: 支持校验 shijing.json lunyu.json 文件,False
+4bd1cbc828d67b423c8b3ce6dc431754a8d75770,2018-08-15 07:14:27,JG,"Merge pull request #74 from wptoux/master
+
+添加论语数据",True
+e9591948353800f2a14c0c620a1053c07b6e16ed,2018-08-14 19:16:43,Zhen Wang,添加论语数据,False
+eb76ac46193b095d95a832c7b28901b8a9e7fa44,2018-08-07 09:29:45,jackeyGao,"支持打印具体报错详情,文件及内容行数显示",False
+e7610f394dc70ca4ff12844a68bf0ef8e44719c9,2018-08-07 09:17:02,JG,"Merge pull request #73 from kc910521/master
+
+修复缺句",True
+4f6aa034fdfcf417618e8db2143957dd182b8380,2018-08-07 09:15:19,JG,"修复表意字换行导致JSON校验失败问题
+
+修复表意字换行导致JSON校验失败问题",False
+f4ed6b4ad0b1da3c2fd27880c4aa7bc5c0137d30,2018-08-07 09:14:03,JG,"修复表意字换行导致JSON校验失败问题
+
+修复表意字换行导致JSON校验失败问题",False
+3e380dc639dbd2e0d662fca5a928a8ac538a4994,2018-08-06 16:17:53,kc910521,fix ci,False
+79342a54f609b9e22298db64cb97b00937851d6e,2018-08-06 07:14:34,JG,"Merge pull request #72 from kc910521/master
+
+fix 少句",True
+77d5c68200f7b8928ab66bfa7e08bedab2421f2b,2018-08-03 15:09:29,kc910521,fix ci,False
+a7f244806e7d7fa293f8a162f027390ad4eca8b4,2018-08-01 13:50:40,kc910521,"Merge pull request #1 from chinese-poetry/master
+
+pull from source",True
+9f23847764e82aafc93f93e83f51acf325fd18c9,2018-07-10 12:07:26,jackeyGao,移除脏字符和增加Tag,False
+336cb96b6940ca6d8b029ecd657104f16f3b7cc3,2018-07-09 09:08:44,jackeyGao,Merge branch 'master' of https://github.com/chinese-poetry/chinese-poetry,True
+2eedb829c0d91e1d9f3f79b9779fc74b4541ace9,2018-07-09 09:08:27,jackeyGao,修复宋词缺少最后两句,False
+295b7250c2de3ce8c08e09f709d5738329fe9535,2018-05-11 14:07:18,JG,"Merge pull request #68 from snowtraces/master
+
+括号修正",True
+8d4d081a9e52eee828e069ab6ac118de433cedae,2018-05-11 13:59:30,chengxinyong,括号修正,False
+7e691b44d38efbd5e90fbd46647773c514d7601e,2018-05-11 13:44:22,chengxinyong,去除无关字符,False
+c15917be4d4cd95cac38f5753a4a105d0521c287,2018-05-07 13:26:28,JG,"Merge pull request #66 from okcy1016/master
+
+Update README.md",True
+ab3a00527850645fc114c302cc101e603b6a8917,2018-05-07 13:22:31,ChaosYoung,Update README.md,False
+1553d408399fe9f84cea8acb5271d54d01750597,2018-05-04 15:07:07,jackeyGao,Merge branch 'master' of https://github.com/chinese-poetry/chinese-poetry,True
+918b208de3332d2e5eafe0ab5032596e0ab474e8,2018-05-04 15:07:00,jackeyGao,增加表面结构字字典转换表,False
+ef17f240b2d37ac264061338d3a2e4625a500637,2018-04-27 11:07:56,JG,"Merge pull request #64 from snowtraces/master
+
+添加诗经数据",True
+6603ed70ce783afa047e9fafb80ae695dedf4971,2018-04-27 09:31:50,chengxinyong,添加诗经数据,False
+3d993a38f32c25b6d9524bc49226a56f33830854,2018-04-12 07:58:54,JG,"Merge pull request #58 from kc910521/master
+
+final",True
+d9624d529f2e5af01b4b730fabd29d4592b4f7ca,2018-04-11 14:48:13,kc910521,fix blank,False
+a4e66443ec47229d2a2a9847773eb3399988ad21,2018-04-11 07:49:31,kc910521,add tags,False
+f290058358a38ef88fc6eeeb93ed19718ce03abc,2018-04-10 14:28:27,kc910521,add blank,False
+2d5cae192adda6684cbaedd293bb4f308490c4c1,2018-04-09 11:40:56,kc910521,fix,False
+84efa01bf915fc062ed88d85856c081b3434107d,2018-04-08 07:03:48,JG,"Merge pull request #56 from snowtraces/master
+
+fix",True
+db704a19c349e48d87448b0426930c900a530583,2018-04-05 10:41:32,Cheng,去除扫描页码数字,False
+215f6eb6d2532938ca031f474155326a534f01dd,2018-04-05 09:56:17,Cheng,格式修正,False
+0d7121648440313c8bc796e257fb0bc6a42b83ab,2018-03-20 13:34:50,jackeyGao,fix #49,False
+a4facf82ff85d9c8890a8411c6713d0d22a65a40,2018-03-20 13:33:25,JG,"Merge pull request #50 from chinese-poetry/revert-48-revert-10-master
+
+Revert ""Revert ""勘误改错字 from animalize""""",True
+c82335d55689f447ca09421ad58ac2e97f2e6f0a,2018-03-20 13:18:45,JG,"Revert ""Revert ""勘误改错字 from animalize""""",False
+4122f4a629d83df1cdb82a603aa81d41830f1e9a,2018-03-20 11:00:54,JG,"Merge pull request #48 from chinese-poetry/revert-10-master
+
+Revert ""勘误改错字 from animalize""",True
+d265c00adea4cc1888542ae4ca451520a7b1a048,2018-03-20 08:10:56,JG,"Revert ""勘误改错字 from animalize""",False
+d09e5606f529023a1d42c5cc9aafacfa09176a17,2018-03-20 08:05:59,JG,"Merge pull request #10 from animalize/master
+
+勘误改错字 from animalize",True
+90bf5e6569d59d7b88e782912291e430f0a4d910,2018-03-20 08:04:27,animalize,Merge branch 'master' into master,True
+11d11dc15f8344b63bc613fe99f1e01876888aaf,2018-03-19 18:46:07,animalize,1,False
+c65b7b18ba1e78da120f5db382711613d903782f,2018-03-19 18:44:21,animalize,1,False
+3b926950b267db3f03430f3420dadb939f1fc76d,2018-03-19 18:38:10,animalize,1,False
+2f5fb6bc2976b448f2639dc1f6850e0d2fead6f5,2018-03-19 18:34:15,animalize,1,False
+e3e055a4974b94d4efa2cc86420ab3bb58971d9e,2018-03-19 18:32:25,animalize,1,False
+eb9719e36d64e32403683e1e6b7236079fd0ca98,2018-03-19 18:25:46,animalize,1,False
+7c6cbac2b726e8e4a18e040364943f5e254fbb19,2018-03-19 15:09:00,animalize,1,False
+456ccb01e976b47d59597f2cb8f7a34383b4299b,2018-03-19 15:07:48,animalize,2,False
+3c16f05ac8032a4b2a775487b213f21dddb099c8,2018-03-19 15:06:53,animalize,1,False
+8df8b40d82d3b68c011eac2cfd32dc1139ab0752,2018-03-19 15:04:33,animalize,1,False
+02478f3f1038c0a4b55bcaf0770eb2bcab9f19d8,2018-03-19 15:03:01,animalize,1,False
+12fa1f2eee38dd3a3ccca44dee57a6a6209079d7,2018-03-19 15:01:49,animalize,1,False
+80bebb3417062e1495e7650d498799f4ed37d07f,2018-03-19 15:00:03,animalize,1,False
+fb0ec3f091c4bb7f2978069d8f82ea8107fe4bec,2018-03-19 14:59:11,animalize,1,False
+f34e4e11ca4cfbdaff7250c7eaaf69c4eaf04c4e,2018-03-19 14:57:49,animalize,1,False
+6bbe4dc316e85a8b9a08f809ce4d3741725d584f,2018-03-19 14:55:35,animalize,1,False
+d1476c14c28d80e2065f6d0ffcb2738ffa687332,2018-03-19 14:51:45,animalize,1,False
+f414c7f2efa8e573c8b64fd554f7b173c2d537e1,2018-03-19 14:44:31,animalize,1,False
+2d43865b811493cf9e84d08cae929862103cb794,2018-03-19 14:42:26,animalize,1,False
+16f71e5c443f82e13852ca77efcaaa1721b502d4,2018-03-19 14:41:25,animalize,1,False
+fcaf7074b649df55a27f6ac4acf3f24e7dbe862d,2018-03-19 14:37:12,animalize,1,False
+eca9b1fe1143b39735d5f2659e32d0528d46e038,2018-03-19 14:35:07,animalize,1,False
+e77c0c63c4a8d7bd323f10eb1afd3d4f4a264270,2018-03-19 14:16:48,animalize,匹配括号,False
+7b0dadfbdf16ab2a1e880f6c70840eec403b40a5,2018-03-19 09:21:06,animalize,匹配括号,False
+83467b8fe722903dfd1bced900e64ada2b166ab5,2018-03-19 08:59:54,animalize,匹配括号,False
+31fb781cdec6a2535a9c8203fc486b5ab8ff2895,2018-03-18 17:14:36,animalize,去掉数字,False
+d6275ca4fa264cb162b5b4fdbafa7eedbd96f42a,2018-03-15 15:48:22,JG,"Merge pull request #46 from woodylan/master
+
+doc: add a tool",True
+5881c0befcaeadfbdfc3d14a6ac6975b33db21de,2018-03-15 15:46:39,woodylan,"Update README.md
+
+add a tool",False
+ada220ef6493b28bea943427d0412160f0c73768,2018-03-14 13:36:23,JG,"Merge pull request #45 from kc910521/master
+
+补充遗失",True
+c3e1b721c2e789cfba06a4eea69fdfd11d8985b3,2018-03-14 13:27:15,kc910521,fix,False
+c6a2280c55253b8389350a9242c407c2b9ff0316,2018-03-13 11:24:16,JG,"Merge pull request #44 from kc910521/patch-1
+
+poetry: 修正补齐诗词",True
+9a16864b75131e8ef83f82c85f1099f2fd603454,2018-03-13 11:22:03,JG,"fix json
+
+fix json",False
+8a56fa4f00ad79f476aefcc9bc664baa9c75abea,2018-03-13 08:06:32,kc910521,fix,False
+6779633b91db3a2a3dd86fd61b30d57941866215,2018-03-12 17:35:18,kc910521,尝试修一下,False
+3153310e34fbd8a0b288f6e7207a541bb5b0ded3,2018-03-11 07:37:19,jackeyGao,tag: 增加通用 Tag,False
+0869f590fcfd5a7920bb9fceb73dc4e0d7e3c7c3,2018-03-02 15:32:53,jackeyGao,Merge branch 'master' of https://github.com/chinese-poetry/chinese-poetry,True
+3e884668b30fd90cfaa1dcb9b84af96af485eb43,2018-03-02 15:25:05,JG,"Merge pull request #41 from cclauss/patch-1
+
+reload() was moved into importlib in Python 3",True
+616c2b04a39e84564ee20be318b68624a83efa4b,2018-03-02 15:18:48,cclauss,"reload() was moved into importlib in Python 3
+
+The builtin __reload()__ was moved into [importlib](https://docs.python.org/3/library/importlib.html#importlib.reload) in Python 3 because it was being overused and led to odd behavior that was often difficult to diagnose.  Here we are trying to __reload(sys)__ probably because 'utf-8' encoding and Unicode strs are not the default in Python 2.  They are however the default in Python 3 so this PR therefor suggests that a __pass__ would be satisfactory in Python 3.",False
+6d343dca12f7e346388262991104c1994e9d338b,2018-03-02 13:31:51,jackeyGao,tag: 增加『宋词三百首』标签,False
+6561d1c84a8e99159d020cdb46edc5d062165277,2018-03-02 07:28:43,jackeyGao,tag: 增加著名名胜标签,False
+9efc28fa932ac7052b06bd4bb74376b65f1aa8ba,2018-03-01 11:02:42,jackeyGao,test: 增加词内容 JSON 文件校验，去除 ci.db 文件校验,False
+fc17a59e736a6363af7b49d9631d513142855907,2018-03-01 11:01:42,jackeyGao,doc: 改正 chinese-poetry-zhCN 链接地址,False
+507e81260569aeb3c70f30cb33bc9d60b7d3f162,2018-02-28 12:43:55,jackeyGao,"ci: 为了方便贡献修改, 构建词及词作者json文件",False
+08910c45ec85bb3be74dc033b09880e949300be2,2018-02-28 12:38:02,jackeyGao,"ci: 为了方便贡献修改, 构建词及词作者json文件",False
+6458ccc5876d11c15699abe6c230dbf64729e2c8,2018-02-28 10:45:39,jackeyGao,poetry: 使用有序map,False
+1479a93b7c8878d4730245349dbd46bb67ccd9f2,2018-02-28 09:18:10,jackeyGao,tag: 增加「唐诗三百首」标签,False
+8c77e898181383593dad1068b9206abfdd4cd019,2018-02-08 15:45:43,jackeyGao,Merge branch 'master' of https://github.com/chinese-poetry/chinese-poetry,True
+fff50481ab6ef8d844c4a5e0110127f12f383b73,2018-02-08 15:38:42,jackeyGao,add chinese-poetry-zhCN,False
+b728259e3dcc02ae441197568e97df5501f027fc,2018-02-08 08:04:11,JG,"Merge pull request #32 from chenyuntc/patch-1
+
+add link to another show case",True
+899ac54d225dc1178c97284ff4246670ce3711dc,2018-02-08 07:59:57,Yun Chen,"add link to another show case
+
+Great job!",False
+07e8f848f6ac59e8c3a4712684105ff4301fbdd1,2018-02-07 07:03:20,JG,"Merge pull request #28 from zhaoqize/zqz/fix/readme
+
+多了一个>",True
+6444405d93e8d32e0d349bf0f3895e7c866f58cc,2018-02-06 19:47:52,zhaoqize,多了一个>,False
+2a89c2a8193eccac808feb60b961617901865533,2018-02-06 07:13:45,jackeyGao,add chinese-poetry-mysql,False
+83c2e2517c3da09bbc6f227247aa73142d58bfdc,2018-01-24 17:17:06,animalize,"补一句
+
+http://ctext.org/wiki.pl?if=gb&chapter=315195",False
+6e3d0b5dfafcce1acd37b159597388630ef71a6f,2018-01-19 19:56:07,animalize,"落 -> 容
+
+http://skqs.guoxuedashi.com/wen_1694c/39195.html",False
+7456fdb909067616bf2d1ca06f076db8bf4543d3,2018-01-18 16:05:58,animalize,岡 -> 罔,False
+8cd3e4dc8349da377cd3ff3f40fba1a5ed17d843,2018-01-18 11:12:34,jackeyGao,Merge branch 'master' of https://github.com/chinese-poetry/chinese-poetry,True
+e598fdc9b2427917a8b610671b3f5aebb1888ced,2018-01-18 11:12:24,jackeyGao,add 诗词周历,False
+18c211256c80ff328d0184a3d0d5c10d30192785,2018-01-17 18:16:46,animalize,"补一句
+
+http://ctext.org/wiki.pl?if=gb&chapter=880034",False
+63c3d95958f7125c1e02681f15f2ebd206b297a8,2018-01-15 12:07:19,JG,Delete CNAME,False
+f26309da7d5f46fad74ad1829095a61fdb8eb0d7,2018-01-15 12:04:25,JG,Set theme jekyll-theme-tactile,False
+581671708de11bcc74fc49dea35444f2978429ab,2018-01-15 12:03:57,JG,Set theme jekyll-theme-tactile,False
+b6eae8577af2b567fb1c92aed2a9a440e6f65bb6,2018-01-15 12:03:10,JG,Set theme jekyll-theme-hacker,False
+fb49a2535758d215fa4d2d10975745cdc954c7ed,2018-01-15 12:02:42,JG,Set theme jekyll-theme-midnight,False
+df3a2f5a6d8af607f1661b1e832f67c17cc5748d,2018-01-15 12:01:25,JG,Set theme jekyll-theme-slate,False
+3a5c08f7138aa3056df07c7707c2ba4795bf59e5,2018-01-15 11:59:18,jackeyGao,ADD CNAME,False
+b1f821595b877c73e92cb309dc6180d264968c09,2018-01-10 09:47:25,animalize,亦 -> 赤,False
+6aa2c562e0017607e7029400f11f1d9f485fb73e,2017-12-31 10:24:07,animalize,"李白 秋浦歌 17首
+
+https://books.google.com/books?id=X5YcAwAAQBAJ&pg=PT222&dq=%E6%B1%9F%E7%A5%96%E5%87%BA%E9%AD%9A%E6%A2%81&hl=en&sa=X&ved=0ahUKEwjfqZLnubPYAhUpwVQKHV5oCPgQ6AEIPDAD#v=onepage&q=%E6%B1%9F%E7%A5%96%E5%87%BA%E9%AD%9A%E6%A2%81&f=false",False
+0eb8f17aa7d249991fcf51ff574727eb9ef9f939,2017-12-26 12:30:53,jackeyGao,Merge branch 'master' of https://github.com/chinese-poetry/chinese-poetry,True
+ee2bd976d36ad089af19cfab2e422611d4e4c02c,2017-12-26 12:30:43,jackeyGao,doc: update readme.md,False
+54516013548fc3d751bef748c0ff8f06585c4094,2017-12-02 08:16:09,animalize,露 -> 路,False
+523c100638b2d8c678901f6b9af9809cff6290de,2017-10-26 07:03:41,JG,"Merge pull request #15 from nobodxbodon/master
+
+首页别字",True
+ffcfd53256de86609103eb9b0b592cb1db93cf7e,2017-10-25 23:16:26,Xuan Wu,首页别字,False
+275da4256de4af0a5c181df2cf0d6cccb3b0fd74,2017-10-11 16:39:02,animalize,https://zh.wikisource.org/wiki/%E7%A7%8B%E9%9B%A8%E6%AD%8E,False
+367f601659f9919d9a8179596d59b4ab6171eb9a,2017-09-30 06:47:26,animalize,紏 -> 糾,False
+1b2a18c113c42c9e601516665e911cfbf3998f8a,2017-09-29 09:48:38,animalize,保留“鳳皇”，不必改成“鳳凰”,False
+af716bb8337efa8d7e1c173fedc33f603f546753,2017-09-11 18:05:53,animalize,补充题目,False
+cb89633fb1c6b09ff85495fbc51697a59a86d018,2017-08-29 18:48:20,animalize,待 -> 侍,False
+d7002a0af73306f65bdb8653484ee74550ed71cc,2017-08-27 16:59:46,animalize,睢 -> 雎,False
+c9416d7f664bc4a0e57277831b6f1e95fa330f53,2017-08-27 16:47:45,animalize,雎 -> 睢,False
+1e56db6ae794bb924401c7e23bfc38f1a6d621f7,2017-08-25 11:15:21,animalize,标点,False
+37e3bc00b54da557d59abb12547dd12c245ef20c,2017-08-23 07:04:33,jackeyGao,update: add PoemSearcher,False
+73a5a533953c7ae82dc8dcee745b9c51c3e2cc0c,2017-08-20 20:16:12,animalize,"紏 -> 糾
+
+http://ctext.org/text.pl?node=141197&if=en",False
+75b98cb08b455be46cdfd492d26579beb4b4edfe,2017-08-19 13:41:40,animalize,被全两首,False
+42f40595463932114d60cbc29e116aa7e53fb458,2017-08-19 07:02:47,animalize,"半 -> 伴
+
+去掉上一个“一作”",False
+06395e34ccb9a6d3fc70d1dce178dae18774e17b,2017-08-17 06:11:28,animalize,0,False
+5303826a9047422ce34b7c56c419755aa8597460,2017-08-16 18:19:04,animalize,"补充
+
+https://books.google.com/books?id=Slx5JGvuX9oC&pg=PT60&dq=%E5%AF%A5%E5%AF%A5%E4%B8%8D%E5%BE%A9%E8%81%9E&hl=en&sa=X&ved=0ahUKEwj-w63I5NvVAhXHlVQKHRwOASoQ6AEIODAC#v=onepage&q=%E5%AF%A5%E5%AF%A5%E4%B8%8D%E5%BE%A9%E8%81%9E&f=false",False
+9f0506ab1b2703412ed0e4a82ea4635d4cf99568,2017-08-11 09:11:24,animalize,"补充
+
+http://ctext.org/wiki.pl?if=en&chapter=225234",False
+6cc40e332d390f11898fcb46e9f2597ffc4e575f,2017-08-09 14:52:35,animalize,"Merge pull request #3 from chinese-poetry/master
+
+merge from source",True
+9469084dd6fa7c720233eda5faecd2343352578e,2017-08-09 07:29:52,jackeyGao,author: remove invalid user,False
+735a0b67419882595c916619f33b653a3a359bc8,2017-08-08 08:09:55,animalize,"旧 -> 久
+
+https://books.google.com/books?id=IhhXAAAAcAAJ&pg=PP40&dq=%E6%AD%B8%E6%9C%9D%E4%BA%BA%E7%9C%8B%E5%A4%A7%E5%8F%B8%E7%A9%BA&hl=en&sa=X&ved=0ahUKEwjL6aC9zcbVAhUEjFQKHZZWBeMQ6AEIKDAA#v=onepage&q=%E6%AD%B8%E6%9C%9D%E4%BA%BA%E7%9C%8B%E5%A4%A7%E5%8F%B8%E7%A9%BA&f=false",False
+2f300a61d37bb70d88138f39f72d514eb3eeefb7,2017-08-06 12:05:11,JG,"doc: update readme to organization.
+
+update readme to organization.",False
+0f520d28cabe33049fb2dcb93bae6644399e9a21,2017-08-06 12:04:34,JG,"doc: update readme to organization.
+
+update readme to organization.",False
+f2ee6fb9bb677eaf70f3a93ea0fe921a2dcae9a7,2017-08-05 12:37:52,animalize,"照此补充
+
+https://zh.wikisource.org/wiki/%E6%99%9A%E6%AC%A1%E6%B9%98%E6%BA%90%E7%B8%A3",False
+265069d999c365683761328bcce99619ebd3d8c6,2017-08-03 14:46:15,animalize,以谷歌Books为基准，以原数据为参照，不丢失信息,False
+2733dfa82010504247a3d3d336ab402dcc7166b2,2017-08-03 14:37:40,animalize,"照此修订
+
+https://books.google.com/books?id=uhcsAAAAYAAJ&pg=RA1-PA28&lpg=RA1-PA28&dq=%E7%A8%A0%E5%B3%AF%E7%96%8A%E7%8E%89%E5%B6%82&source=bl&ots=dkiMge6ij_&sig=3LH_azR3Am1jwQYPrsjR-i7yrDc&hl=en&sa=X&ved=0ahUKEwj8jNbQx7rVAhWhrlQKHceDA-EQ6AEIKDAA#v=onepage&q=%E7%A8%A0%E5%B3%AF%E7%96%8A%E7%8E%89%E5%B6%82&f=false",False
+1ce21b22cbc2af2aca5d1c953240359d8ba78c5c,2017-08-03 13:36:48,animalize,茍->苟 9,False
+4ed692fa5409b07d9f04fbd37fbc86517aa5cc55,2017-08-03 13:22:46,animalize,茍->苟 8,False
+8f4a67f99f52a849552935c2d95108c9763b36cf,2017-08-03 12:54:26,animalize,"茍->苟 7
+
+ok",False
+ee0ba4e1788ec01a4cc7db94c073635894c65eed,2017-08-03 12:16:33,animalize,"茍->苟 6
+
+校验",False
+1f8cabbba2a74da1c70fe8cd44a4bb4df3a0ae07,2017-08-03 12:09:45,animalize,"茍->苟 5
+
+校验",False
+2d0e8ddf108849bb14f0fdcc14d8da765745c66a,2017-08-03 11:56:50,animalize,"茍->苟 4
+
+已校验",False
+0e6986901de29a4c5fc7474c41392c163f7ce641,2017-08-03 10:16:05,animalize,3b,False
+a2cc9f73e09b25214d5c75125a59ee071df3da8a,2017-08-03 09:44:11,animalize,3a,False
+6a74ae4c2c8ff7064c25a58306b0adcc883f8b74,2017-08-03 09:38:19,animalize,茍->苟 3,False
+677fa1cb98e1f7bc3f5fd1ad245fef7610245f77,2017-08-03 09:16:42,animalize,茍->苟 2,False
+c3a9bc2d69fe96676505bffd1c80bf328401895e,2017-08-02 16:54:41,animalize,茍->苟  1,False
+37cabc49e9e403a49b2573e76d4352f773a66bc0,2017-07-31 08:33:56,animalize,"revert last commit
+
+暂时不收录个人意见",False
+fa6ea9398adc85b2ff2c266a349f230608055808,2017-07-30 20:37:03,animalize,"玉 疑应为 王。
+
+勘误后的句子全网搜索不到，仅为个人意见。",False
+67c6ba3a48e301f5e5a3107d98e4f66bd8cf3ce4,2017-07-30 09:26:27,animalize,输 -> 轮 （輸 -> 輪）,False
+73cef660be8706375df47141098f51d083033952,2017-07-21 18:37:26,animalize,風 -> 嵐,False
+5830e1e5ce311b1e766f5da16b18a83eb50d9030,2017-07-21 15:15:01,animalize,茍 -> 苟,False
+f3b2d360d36fa9607ef2386471305e47174a8497,2017-07-15 20:37:07,animalize,错字,False
+1c6a3588ebb17adf7e682c9999fd3cdcdcf3c299,2017-07-14 08:37:33,animalize,"Merge pull request #2 from jackeyGao/master
+
+merge",True
+acf91b30c8aa1a67c7e9b37b10e1fa2e53bd77a5,2017-07-06 14:50:07,JackeyGao,doc: add pytorch-poetry-gen and ancient-Chinese-poem-generator,False
+715dc6e9b54e3509f23820f63b0972b29f5b5a62,2017-06-30 15:04:47,JackeyGao,test: add sqlite test,False
+af94c5da7b916377673ed58a20934997d1666886,2017-06-30 13:56:07,JackeyGao,update: add example project based this repo,False
+76851058c890dbebdc6c8e0fc52b34f3fc3cc8f6,2017-06-28 08:00:19,JackeyGao,update: add Shields badge,False
+5838afaf0a6a8ca4e3026522047af58bd87c496e,2017-06-27 12:55:44,JackeyGao,update: add license svg,False
+c1c816c8d36dedd7ec1d6ccf892b2cf520877a2b,2017-06-06 11:19:57,JackeyGao,[UPDATE] 修改MIT license链接地址,False
+45bb622c723d3400a402b15021bfdf1d10438478,2017-06-06 11:18:03,JackeyGao,[ADD] License,False
+6248485fe22bfe349c710547ef5816ecc04762be,2017-05-26 08:24:26,高俊奇,[UPDATE] 修改微信二维码width height,False
+eeafd65a4aeaa98f3647701312c4e42ac4059174,2017-05-26 08:22:59,高俊奇,[UPDATE] 修改微信二维码width height,False
+77ab5fa16740ff82f4c01e36dfb4bc4ebe110b3b,2017-05-26 08:20:12,高俊奇,[UPDATE] 修改微信二维码,False
+2c38cb6345cb7672bed505a9e78d0bba0b18da33,2017-05-26 08:17:56,高俊奇,[UPDATE] 增加微信二维码,False
+60294f2c4a3bf01a8616892812c6882fa94c4dfe,2017-05-26 08:17:33,高俊奇,[UPDATE] 更新README.md,False
+0d4fc183a26d9abd8c7415e82def34fad8bd69f9,2017-05-26 07:21:30,高俊奇,[UPDATE] 修复单元测试BUG,False
+001ec8d35eceabb8ebbd8d76ec79cc27d25e2d86,2017-05-26 07:18:24,高俊奇,Merge branch 'master' of https://github.com/jackeyGao/chinese-poetry,True
+5fc4328b4f934111219559c26cfe00617ef2b2da,2017-05-26 07:18:13,高俊奇,[SUPPORT] travis-ci,False
+7bc2c60a1b0625a47ca5d7076b915c881eec2421,2017-04-01 12:45:43,JG,"Merge pull request #8 from animalize/master
+
+移除""？？""和""YY""字符",True
+8b4062c51d1520f8335e9d22f95a51f31283544c,2017-03-30 14:23:35,高俊奇,移除脏数据(YY字符),False
+32a23c4897a7bfe8daa7d4880896703d597e9100,2017-03-28 18:36:06,animalize,去掉？？,False
+971df7f19cdd6257500e56544c170edb3a653c53,2017-03-28 18:27:40,animalize,"Merge pull request #1 from jackeyGao/master
+
+sync",True
+6aa5826176ce3087957110f5dbb159df00179c70,2017-03-20 11:03:05,JG,"增加许可证
+
+增加MIT许可证",False
+b2cae31a9e6669c47aa1624ac0bb4c65aa07d839,2017-03-07 09:28:09,jackeyGao,[UPDATE] 更新,False
+189ad04d57c49edda59eb89c36ea2f85cdc5a0fc,2017-03-07 09:26:28,jackeyGao,[UPDATE] 增加宋词分析图,False
+de799ae7adf16e8b6eb2c76d5cc033f43a978f15,2017-03-07 09:11:49,jackeyGao,[UPDATE] 增加全宋词数据 #4,False
+9d20a4b4d9816e75b5ca84d8f4779f9eb930bec2,2016-09-05 13:38:20,jackeyGao,[UPDATE] 更新README.md,False
+836ef44aa1c97c8f1721f3138288a7f6d4c74834,2016-09-05 13:15:08,jackeyGao,[UPDATE] 修改唐诗分析图,False
+01e4d5feb6957fb9b2c634664f60320e6ffda5c9,2016-09-05 13:13:26,jackeyGao,[UPDATE] 修改唐诗分析图,False
+c2905f4aa3a4d8cd6ae41c555244adbd63aa96f5,2016-09-05 13:00:17,jackeyGao,[UPDATE] 增加宋诗分析结果图,False
+35971bcdcb9ee9710b001cf1c6ef52e4f9729448,2016-09-05 11:17:09,jackeyGao,[ADD] 增加全宋诗,False
+7dfa0f8c2778d8667f79ea737552ece95faea1d0,2016-09-05 11:15:21,jackeyGao,[RENAME] 修改唐诗文件名字组成,False
+ddd513a08f7378776ef9a58015bf5d340653ddcc,2016-09-05 11:13:06,jackeyGao,[RENAME] 修改唐诗文件名字组成,False
+98aa464b0a273259987857d46f1af760621315ad,2016-09-03 14:49:15,jackeyGao,[UPDATE] 增加唐诗JSON文件,False
+afb70db4af5e5859f0eda090ea7fbd5518561760,2016-09-03 14:46:06,jackeyGao,[UPDATE] 修改readme,False
+8e1d24efa73571e2675d82bb8f54dda67ccd7a30,2016-09-03 14:45:43,jackeyGao,[UPDATE] 修改截图,False
+ae040b3be6cc29933d86f1d982c4a9e997cbf625,2016-09-02 14:25:50,jackeyGao,[UPDATE] 修改唐诗高频词图,False
+0c5a9bdfc3e167acf606211a1924552e7dfa611e,2016-09-02 13:19:19,jackeyGao,[UPDATE] 增加唐诗高频词图,False
+86b6bc5a9cf8ac696e0ec507f33800c261d7b7e6,2016-09-02 13:18:34,jackeyGao,[UPDATE] 更新README.md,False
+3062de195ba7b2e4e0917c7abbdcea19a6d55262,2016-09-02 13:15:20,jackeyGao,[UPDATE] 更新README.md,False
+f73785835569dd05ecdb52cc71c33acd10dd432a,2016-09-02 11:53:06,jackeyGao,[UPDATE] 更新README.md,False
+ec016883db01d436f59586e2d437048ce90b0fc6,2016-09-02 11:15:11,jackeyGao,[UPDATE] 更新README.md,False
+c1f92ae09c3514ffab633d8d022b2e2825128506,2016-09-02 11:00:41,jackeyGao,[UPDATE] 更新图片,False
+3a2a7c63149e7b5971c6d863cc5c8b750b80c305,2016-09-02 10:57:46,jackeyGao,[UPDATE] 更新readme,False
+7ff751a091ecffafb11e9bf7925dad67c47df5c7,2016-09-02 10:49:05,jackeyGao,[UPDATE] 更新readme,False
+0bd35e386654b0b0b9ca6ce9f98dd569957570dd,2016-09-02 10:44:24,jackeyGao,[ADD] 初始化,False

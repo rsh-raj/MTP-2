@@ -1,0 +1,268 @@
+Hash,Date,Author,Message,IsMerge
+329fb34f777034345f4d3f4def4dc3bcc300cc2e,2018-10-04 04:24:44,Michał Sajnóg,3.0.0-beta.6,False
+ea374ae60c62c6aceb02472282ce53ebf06016e4,2018-10-04 04:22:21,Nicolas Coden,"fix: disable mutation observing when not supported (#405)
+
+Disable mutation observing and display a message when MutationObserver is not supported by the browser.
+
+Closes https://github.com/michalsnik/aos/issues/404",False
+21888046d1b743bfd3b765c83d23709d6ac2c950,2018-10-04 04:15:32,Michał Sajnóg,Add throttleDelay and debounceDelay settings,False
+7c55654beadab9ef9be358b3584dd1bde3f1a259,2018-10-04 04:09:41,Michał Sajnóg,Add disableMutationObserver setting,False
+2f62a4d9ef2d8a03877c937bd79233ebc6a2ae92,2018-10-04 03:36:15,Rostislav Shermenyov,"Fix typos in README.md (#403)
+
+Fixed 2 typos.",False
+5b40aa94033f5283504c177d4455b66708683c5f,2018-10-04 03:36:00,Tyler Earls,"Update README.md (#386)
+
+fixed ""Recipes"" typo, fixed broken link to the list of all the animations",False
+b11385ac87d169f49f3ed28abcbe0d7f1a7eac27,2018-08-18 00:55:07,Michał Sajnóg,3.0.0-beta.5,False
+36d2ffd42a402b46c424d806d92181b374af8c20,2018-08-18 00:53:16,Michał Sajnóg,Add src to files,False
+479dd33b188dc12b5549339c260263622c3d3b65,2018-07-08 23:12:32,Michał Sajnóg,3.0.0-beta.4,False
+68a0d523620c76eee5a4fd3b0ca161367a9dfb1e,2018-07-08 23:12:07,Michał Sajnóg,Fix AOS detection in MutationObserver,False
+835ad10263b2ad8441dc7a95bada4051d866e127,2018-07-08 21:29:22,Michał Sajnóg,3.0.0-beta.3,False
+785b8cf08aae67a2106ae3643690abcb322a60e0,2018-07-08 21:28:58,Michał Sajnóg,Scope styles to screens only,False
+5d0dfc967f3d6b3026dfcdb8d5986643fad6d3b0,2018-07-08 00:50:19,Michał Sajnóg,Add Issue and PR templates,False
+cb4c7c81569fa697300484950930664c9eae72b2,2018-07-08 00:30:57,Michał Sajnóg,Update installation instructions,False
+14ce0b36e8b0f739b1d5e4c9074b128687648098,2018-07-08 00:06:57,Michał Sajnóg,3.0.0-beta.2,False
+d039026f9fb94e8533f93709a249de756e5beacd,2018-07-08 00:05:08,Michał Sajnóg,Update readme,False
+dc35a7086a028a83cb178004473f9888a550a2cd,2018-07-07 23:35:24,Michał Sajnóg,Fix IE11,False
+14efb34113715c2ab7fcd23912a7d9b68a316d25,2018-06-24 20:01:30,Michał Sajnóg,Update readme,False
+79c081a651e5429ca4f24251c248fcb2f043b61f,2018-06-24 19:56:57,Michał Sajnóg,Update readme,False
+15a2a16155c2680e00a28608491017a62a0342e3,2018-06-24 19:36:47,Michał Sajnóg,Fix eslint issues,False
+a084dd7457297e4335d098abf3ed0c5ee37f820f,2018-06-24 19:34:20,Michał Sajnóg,Add global anchorPlacement setting,False
+676b9278578b1853e25601f488e3c106d34dd4aa,2018-06-23 00:15:57,Michał Sajnóg,Respect `disable` setting on asynchronously loaded content,False
+88ce3095f266952fec442589d1c9243d144b76a4,2018-06-22 23:45:48,Michał Sajnóg,Don't apply AOS styles when JavaScript is disabled,False
+139481147377ce87da3291a4e9914cda7691dc27,2018-06-22 23:13:49,Christian Oliff,https link to GitHub (#337),False
+193ff452da32b329d94b46586035d998602b92a0,2018-06-22 23:13:16,leon,Move browser related objects from global to function level (#349),False
+4f9b53deb166b7d9ff1cd0c4884db347b55aa823,2018-06-22 03:45:51,Michał Sajnóg,3.0.0-beta.1,False
+a9dc221037494f8e59a690e0f472ec14751cbbb3,2018-06-22 03:11:32,Michał Sajnóg,Fix slide animations,False
+2569f6d186f1404aa627276f1ea69b36bf3e6a55,2018-06-22 02:55:00,Michał Sajnóg,Update offset comment,False
+b4c15d92c40a9a52c2ee965fac8fd990ef5d9a55,2018-06-22 02:12:01,Michał Sajnóg,Remove src from npmignore,False
+e5d3677554ea434e1249f1821d3c7868a1332e8f,2018-06-20 22:34:35,Michał Sajnóg,Update sourcemap setting in rollup,False
+efebca97218209f3c2af51940130b4badafd07a0,2018-06-20 22:30:10,Michał Sajnóg,Update readme,False
+7d3e20bcabed11c4ea69a6ae0c10a515855d1fb1,2018-06-20 22:29:50,Michał Sajnóg,"Format rollbar, add sourcemap in DEV env",False
+66befe602a755a3952b5d04d0a80cb801fff9aaf,2018-06-20 22:29:26,Michał Sajnóg,"Fix initialization, refresh on window load",False
+ec1cd60f9f98c25bcdab8544d1c7a27e760efa0d,2018-05-21 04:05:55,Michał Sajnóg,Update readme,False
+67a013bec74eaa0fa475f9e05c354330fbe9d097,2018-05-21 04:01:25,Michał Sajnóg,Update readme,False
+f49e4db8c5be936ecf711a8cda3e86d425f7e96d,2018-05-19 22:05:18,Michał Sajnóg,Remove redundant code breaking tests,False
+e81d92a9db115890970ecbcaa423f54b762b10c8,2018-05-19 21:55:42,Michał Sajnóg,Merge branch 'next' of github.com:michalsnik/aos into next,True
+46cfc80dc25bab06a7d6f7eb715c8ac8df9bbb74,2018-05-19 21:54:52,Michał Sajnóg,Add linting as part of test script,False
+71296f8863f3650730f1ac18205e87979450d695,2018-05-19 21:50:28,Michał Sajnóg,"Add tests for animatedClassName, initClassName, useClassNames, mirror and js events",False
+e5f32521d533486ecbb909cd08492abfa16d0564,2018-05-19 19:58:09,Michał Sajnóg,Fix code style,False
+9673fa3ba5db29be7329729668542c02de06a6bb,2018-05-19 01:50:16,Michał Sajnóg,Add .babelrc to .npmignore,False
+94e32553a8ef2ad6889e165e0224506e2147f1f4,2018-05-18 00:58:12,Michał Sajnóg,Add eslint & prettier,False
+7c1fc5607797e4b69775b94f493f86ccfac6d663,2018-05-17 04:29:35,Michał Sajnóg,Add placeholders for required tests,False
+fc3455fdf98b5bfb3d2fdcf692a293d573732cc5,2018-05-16 05:56:57,Michał Sajnóg,Add customEvents,False
+f512e0c860d04c147afc508679161b4952e51dda,2018-05-16 04:44:47,Michał Sajnóg,Add support for external animation libraries,False
+53b2ee9bf977b0de530ab0979f26c7370f0e651b,2018-05-15 03:52:24,Michał Sajnóg,Merge branch 'next' of github.com:michalsnik/aos into next,True
+ce97990d0522a7a17dbb4cf64392dea48c047738,2018-05-15 03:51:04,Michał Sajnóg,Set transform none,False
+daa4b145aeab66719420aefd993e90a77761a726,2018-05-15 03:41:32,Michał Sajnóg,Set proper transition delay unit,False
+6c203f3e624099e62019ade7c2d0d0d85e500e29,2018-05-14 05:32:18,Michał Sajnóg,Update offset calculations and mirror option,False
+de82d190f1232cbc3bc526813f771c5204fef284,2018-05-14 04:00:09,Luca Rosaldi,"add ‘mirror’ option
+
+Add option to remove the animation class when the element is scrolled past the viewport, basically mirroring the animation from when it enters the viewport. Can also be set on single elements with ‘data-aos-mirror’ attribute.",False
+0ad56be8815a881ce096e5a1b762c93a7422ec1e,2018-05-14 03:40:07,Michał Sajnóg,Update link to html5shiv,False
+52e3c3f1459fdd34e5106235e4f1b7c925c28cd9,2018-05-14 03:40:07,Michał Sajnóg,Close cypress after it finished testing with proper status,False
+a96ba1f6817a2834e3900c4abc02ac8ff9977446,2018-05-14 03:40:07,Michał Sajnóg,Update travis config,False
+b2107fddd1ff8f9c6964d85273ac8e5b82d25fa5,2018-05-14 03:40:07,Michał Sajnóg,Fix server,False
+b0a7f9835502126326ff1a03bd8cefca1aecde72,2018-05-14 03:40:07,Michał Sajnóg,Add tests for anchor feature,False
+bc05658afd0884a7b565db9896e1a365545c1e48,2018-05-14 03:40:07,Michał Sajnóg,Test browser resize/orientationchange and mutations,False
+3785c18b61b01c95f7f8c616d019d8fe4e4c9818,2018-05-14 03:40:07,Michał Sajnóg,Use uglify and cssnano,False
+505db37a63e686f53aefcbb1a87a566f22defe1f,2018-05-14 03:40:07,Michał Sajnóg,Add more cypress tests,False
+bf276eb6b56938b638a09e16df0877dd26383da9,2018-05-14 03:40:07,Michał Sajnóg,"Add cypress and live-server, update readme & contribution guide",False
+941891c4a02a083716179ec86f38a4e15db27d86,2018-05-14 03:40:06,Michał Sajnóg,"Clean repository and configuration, replace webpack with rollup",False
+8a9c5efb0108e648f7db37601bea4723bae767d7,2018-05-14 03:39:49,Michał Sajnóg,"Merge pull request #280 from matheusportoo/master
+
+Change translate2d to translate3d, improve performance",True
+eea627c1bba25d097c1c7da672341899edfd5071,2018-05-14 03:19:48,Michał Sajnóg,"Merge pull request #260 from neighborhood999/patch-1
+
+Add Mozilla MutationObserver",True
+a1bdf1cc1e78a833fd69742418518097247ae52f,2018-05-14 03:19:05,Michał Sajnóg,Update observer.js,False
+50909d8be986a4b8e70729af154b41e74cab7286,2018-05-14 03:14:14,Michał Sajnóg,"Merge pull request #232 from epoberezhny/refactoring
+
+Update elements.js",True
+4b733c65790dc7aca8b06a55fef149f51b8cccf9,2018-05-14 02:06:56,Michał Sajnóg,Update link to html5shiv,False
+ec012d421141fbb717096f3b4b3634bc3c98bde8,2018-05-14 01:30:04,Michał Sajnóg,Close cypress after it finished testing with proper status,False
+d8a793368025eeb57487b9b254bad3437e7d5945,2018-05-14 01:19:07,Michał Sajnóg,Update travis config,False
+b1d3624b338252df53720f444692ebe63fea815b,2018-05-14 01:16:57,Michał Sajnóg,Fix server,False
+2445854cfd1611dd1844f854ce6aed43140dd9ff,2018-05-14 01:08:12,Michał Sajnóg,Add tests for anchor feature,False
+897ad5cab90b0c65bd1889882d518799b3501132,2018-05-13 22:23:54,Michał Sajnóg,Test browser resize/orientationchange and mutations,False
+59a88797bac2bd86941977f807f4b10aa19ecf28,2018-05-13 21:46:26,Michał Sajnóg,Use uglify and cssnano,False
+8305b8d654158b5aef77cb1c1f5e0b7f90c15d6f,2018-05-13 21:46:13,Michał Sajnóg,Add more cypress tests,False
+f834a88dec06f9cdfb82b0b652705b3378953260,2018-05-13 06:49:17,Michał Sajnóg,"Add cypress and live-server, update readme & contribution guide",False
+e20ea9c9ac3cd5083300c270ca3d837f8c93cf23,2018-05-13 03:37:39,Michał Sajnóg,"Clean repository and configuration, replace webpack with rollup",False
+722a98dece81ceb98ca5b1826482ea9a179dd067,2018-04-15 02:33:34,eugene,Update elements.js,False
+9e257738e4820fc456bfde43994897d9fc07adb3,2018-02-05 19:59:13,Matheus Porto,"Change translate2d to translate3d, improve performance",False
+32a12db3f94dc015ba7de9ee2eeb1a1a11a30ba9,2018-01-09 11:21:50,Peng Jie,Add Mozilla MutationObserver,False
+836dbc05c09bdac4d245d3ae6aaad4242dd4638c,2017-07-09 05:50:37,Michał Sajnóg,"Merge pull request #189 from michalsnik/update-mutation-observer
+
+Update mutation observer (fixes #137)",True
+6536eec38a8a39c099c0adea8db20cf94bee9763,2017-07-09 05:37:16,Michał Sajnóg,Use old method of converting NodeList to Array,False
+afa38d227f685e5f64ba82c38a5b56a23b025688,2017-07-07 16:09:13,Michał Sajnóg,"Update mutation observer, remove depracated mutation event",False
+fcec8757853e4c5eaae5c4477f63049027b00d30,2017-07-07 06:54:24,Michał Sajnóg,Build 2.2.0,False
+cd7edb9c2f85a29eef0bbfcc6e5c6c2531a8c052,2017-07-07 06:54:13,Michał Sajnóg,2.2.0,False
+0e983c2bd52887cc72b942e2e81b6a3ee194cdc3,2017-07-07 05:40:25,Michał Sajnóg,Fix webpack config,False
+a95317e6a87bdb1d294fa95ffc58b2720caf39f2,2017-07-07 04:37:18,Michał Sajnóg,"Merge pull request #187 from michalsnik/greenkeeper/autoprefixer-7.1.2
+
+Update autoprefixer to the latest version 🚀",True
+5a71742e3d8c44e5e91c54d39690a8ccd16e6011,2017-07-06 21:18:52,greenkeeper[bot],chore(package): update autoprefixer to version 7.1.2,False
+a99d64266cbc5b9361518caecd5d076a20214735,2017-06-08 04:19:00,Michał Sajnóg,"Merge pull request #162 from michalsnik/greenkeeper/style-loader-0.18.2
+
+Update style-loader to the latest version 🚀",True
+dc5065c071a6db47d835876edc16e6db288fc894,2017-06-05 13:45:30,greenkeeper[bot],chore(package): update style-loader to version 0.18.2,False
+b2cb8f16096cbf9b0b5fc34c9a6581bb2670593f,2017-05-27 23:15:31,Michał Sajnóg,"Merge pull request #154 from graingert/clean-up-detector-work-with-missing-ua
+
+clean up detector.js and support UAs with no UA string.",True
+daf81b0fb30e6a307f5d5d89f1ea41ca8ed766c9,2017-05-26 18:18:41,Michał Sajnóg,"Merge pull request #130 from UltimateDesignCombatant/webpack-prefix-config
+
+Adding autoprefixer support to webpack build",True
+71462cbc83b42b48b68954acd9f643d0f25d7355,2017-05-26 18:17:14,Michał Sajnóg,"Merge pull request #146 from michalsnik/greenkeeper/style-loader-0.17.0
+
+Update style-loader to the latest version 🚀",True
+0d261c9b4f21ab757944fceb41d7e36302e42e85,2017-05-26 18:16:09,Michał Sajnóg,"Merge pull request #133 from michalsnik/greenkeeper/css-loader-0.28.0
+
+Update css-loader to the latest version 🚀",True
+c04863b41680eb16c5d9ad6fe5f624bd18bb8dc4,2017-05-15 17:09:17,Thomas Grainger,some UAs have no UA string,False
+6ba4631450be7c84bb1b975707c0d2249a018a90,2017-05-15 17:09:17,Thomas Grainger,"clean up detector
+
+Move all the big regexes out of the way of the core logic.",False
+de21833cadb54f4377865fed310b01314f444d79,2017-05-02 00:29:59,greenkeeper[bot],"chore(package): update style-loader to version 0.17.0
+
+https://greenkeeper.io/",False
+011bd23d0f55740a28a77a7ca27c8506aede56c6,2017-03-30 12:20:05,greenkeeper[bot],"chore(package): update css-loader to version 0.28.0
+
+https://greenkeeper.io/",False
+fa23f7be5d6ca413edd56e0f076bc6449be749a8,2017-03-30 03:25:33,Michał Sajnóg,"Merge pull request #129 from LasseRafn/patch-1
+
+Update README.md",True
+8b4c81aafa7a3decb258d3b358a577bb64c58b60,2017-03-30 03:24:43,Michał Sajnóg,"Merge pull request #126 from michalsnik/greenkeeper/style-loader-0.15.0
+
+Update style-loader to the latest version 🚀",True
+b167c7b0afca014295c0929acbe344537af78ea8,2017-03-23 17:34:29,UltimateDesignCombatant,Adding autoprefixer support to package.json,False
+44ffa19adf257925491f2edb145d07114e0a3077,2017-03-23 17:33:45,UltimateDesignCombatant,"Adding autoprefixer to webpack config
+
+This is to allow support for browser prefix on specific devices where animations are not working (iOS and Android).",False
+64d85bc4dd6fef294f909952543185e3fd8a2ad7,2017-03-22 20:23:43,Lasse Rafn,"Update README.md
+
+Fixed headings",False
+4e654f34dd2e1f456086e039d89a80242c3faa43,2017-03-21 07:59:41,greenkeeper[bot],"chore(package): update style-loader to version 0.15.0
+
+https://greenkeeper.io/",False
+db2a37e8142bdef6c5ab85410346059e90329db8,2017-03-16 15:18:24,Michał Sajnóg,"Merge pull request #121 from michalsnik/greenkeeper/style-loader-0.14.0
+
+Update style-loader to the latest version 🚀",True
+653e93b7b12801c788382d691ac0e9357af13249,2017-03-16 15:17:54,Michał Sajnóg,"Merge pull request #119 from michalsnik/greenkeeper/css-loader-0.27.0
+
+Update css-loader to the latest version 🚀",True
+cbc478f196d85b1ba62926e7b1cc1bab4e261512,2017-03-15 10:10:13,greenkeeper[bot],"chore(package): update style-loader to version 0.14.0
+
+https://greenkeeper.io/",False
+e6c19e7934dcbfb109c27eb8649fceea7fca1d10,2017-03-10 11:16:16,greenkeeper[bot],"chore(package): update css-loader to version 0.27.0
+
+https://greenkeeper.io/",False
+130d02ece5b68768d0e30e4ab1c36c3818cd27cc,2017-01-18 05:09:52,Michał Sajnóg,"Merge pull request #94 from michalsnik/greenkeeper/update-all
+
+Update dependencies to enable Greenkeeper 🌴",True
+f033919adbeded6330a6c0609048b8bb2ac3f8f5,2017-01-18 05:05:56,greenkeeper[bot],"chore(package): update dependencies
+
+https://greenkeeper.io/",False
+7707e477784e250456e7f4a3a2584c1a6447b64f,2016-11-21 05:39:10,Netguru - Michał Sajnóg,Add twitter badge,False
+18148412b3be1a2ae5f23adee6e354d8deb5b71a,2016-10-31 15:49:08,Michał Sajnóg,"Merge pull request #71 from adriandmitroca/patch-1
+
+Fix broken url in readme",True
+bafa6e0ab59d80399210cf4bf34012454cd4bfe3,2016-10-31 13:43:58,Adrian Dmitroca,Fix broken url in readme,False
+765f4cd1a52baeee0b8d1655d1495c59a4155b52,2016-10-21 00:21:50,Michał Sajnóg,"Merge pull request #66 from iaian/patch-1
+
+Update README.md",True
+0930c15185161bf19505a3f240bef2f8434505f9,2016-10-15 04:06:02,Iaian Weber,"Update README.md
+
+Add fade animation to listing",False
+a17b7a4dace15530a2a13f590774bc68f133cb24,2016-09-30 03:40:40,Michał Sajnóg,Remove sourcemaps from repo and add to .gitignore,False
+8bd4e86d2631595f67c6d3bf215ebf15fc18f4eb,2016-09-30 03:36:18,Michał Sajnóg,update changelog,False
+2419bb5c19c5d7784a4bae883df599e1fca4ff83,2016-09-30 03:34:26,Michał Sajnóg,Release 2.1.1,False
+5c269a20f06046d6df5c819210815907330c94e9,2016-09-30 03:32:11,Michał Sajnóg,"Merge pull request #64 from michalsnik/clean-styles
+
+Clean styles",True
+a240e31b20b176d9104cd2c5be6c437ea89a4f7f,2016-09-30 03:27:51,Michał Sajnóg,fix travis,False
+b05f61ecebdac5bc8a34309808e90203c4d1c16c,2016-09-30 03:21:11,Michał Sajnóg,clean styles,False
+8a4bcc99353bd63e3b42f96178740e916b4e1f07,2016-09-30 02:13:48,Michał Sajnóg,"Merge pull request #63 from vollyimnetz/patch-1
+
+Update bower.json",True
+ab4edb517b1152cb7756b1f40c4d74e2e6bbae42,2016-09-29 23:28:13,vollyimnetz,"Update bower.json
+
+You havent update your bower.json after the version-change.",False
+dbd05f068f26dd863b72314e16af943a6db84eba,2016-09-01 04:05:57,Michał Sajnóg,add gitter,False
+dd79c6a1e02da0e3f81bfa43d3be7b88b9f3bbf1,2016-09-01 03:55:32,Michał Sajnóg,Release 2.1.0,False
+67db35ccef3128c261db0373a4803d3d1ba47a57,2016-09-01 03:51:22,Michał Sajnóg,#26 - attach event lister to window for event,False
+1de25f696ade08dbf08870cae8af06b651858c6e,2016-06-29 00:44:35,Michał Sajnóg,release 2.0.4,False
+2d5181da45162e422d7b812e50cca2f75fdf04eb,2016-06-29 00:40:56,Michał Sajnóg,"disable AOS on not supported browsers, fix device detector",False
+d6cc96609e54bce24679db9b48e07b036cb06716,2016-06-29 00:01:55,Michał Sajnóg,release 2.0.3,False
+ecc7ce6990be79f5a681af8f7232c5013009af80,2016-06-29 00:00:35,Michał Sajnóg,add object assign babel transform plugin,False
+d747dc2813c49beeb33dd0672531889fd59f7a93,2016-06-28 23:46:50,Michał Sajnóg,release 2.0.2,False
+8de02259247082f17a68699780663168e39827c3,2016-06-28 23:44:50,Michał Sajnóg,fix array includes in IE,False
+dcea6bc7a469f76feec8bd5cb8e996f764b7f77a,2016-06-23 17:13:42,Michał Sajnóg,Release 2.0.1,False
+cbcf9f96af4031e07f968fda8f44b52f6ae36013,2016-06-23 17:11:50,Michał Sajnóg,"Merge pull request #28 from michalsnik/fix-easings
+
+Bring back easings",True
+310e70bddf002637fe69a511504179368362f8c6,2016-06-23 17:09:15,Michał Sajnóg,Bring back easings,False
+441deb14964d2f662bb2b0da839fd808e671e995,2016-06-22 13:13:49,Rafał Kwaśniewski,"Merge pull request #25 from michalsnik/2.0.0-dev
+
+2.0.0 version",True
+b78e212b2d9eaa894b6c9fe1509a85718d6ed2d5,2016-06-20 05:18:19,Michał Sajnóg,add logo to readme,False
+856552b140f3f3080dfe66ef0f40044c6cfb9965,2016-06-20 04:20:43,Michał Sajnóg,update readme,False
+3be2c6b4043c8bb40b12be3369484d453264783c,2016-06-20 04:13:26,Michał Sajnóg,update readme,False
+f8de46d2b40fd9e3f1b2f1b307fe6fbfa930ef68,2016-06-20 03:53:49,Michał Sajnóg,"add changelog and contribution guide, update readme",False
+c70831e91b0ce53d41248232b378faa7aa671bc2,2016-06-20 03:52:56,Michał Sajnóg,update demos,False
+55f973ac8eac4c8ca3dea0e8a634560a7e69d1f3,2016-06-19 23:10:33,Michał Sajnóg,fix dev setup,False
+01b7e378a038a17ef3762da03724c5fb85a48b71,2016-06-19 16:14:03,Michał Sajnóg,"Add emojis, update refreshHard",False
+43091ef5c42bdd5a542b085352a9d5c54ed986fa,2016-06-19 15:41:08,Michał Sajnóg,Merge branch 'master' into 2.0.0-dev,True
+f6dc732a71564bae594240463b20e5e0a1b65a30,2016-06-19 04:10:38,Michał Sajnóg,release 1.2.2,False
+9bc42b841a970126b3f6105eae99d42683710159,2016-06-19 03:56:05,Michał Sajnóg,"Merge pull request #24 from michalsnik/fix-refresh-on-ajax
+
+Fix refresh on DOM change",True
+fb0626de884236e9ab255e849eb05ac0517b4b33,2016-06-19 03:47:36,Michał Sajnóg,add refreshHard method,False
+df1643e0d6a452970e62cf693c69a7fabf24b2f3,2016-06-18 23:18:53,Michał Sajnóg,2.0.0-dev build,False
+dc723da54df2b9adeb4ebf8813ca508a2ab6eb34,2016-06-18 23:15:12,Michał Sajnóg,add babel polyfill to karma,False
+4f1a23f5b59282a6fcb4d851d32de97ff5735a9a,2016-06-18 21:28:41,Michał Sajnóg,Merge branch 'master' into 2.0.0-dev,True
+b99bd827a437143262579f4933337dfc07a03069,2016-06-18 21:28:24,Michał Sajnóg,udpate build badge,False
+6bddb7e00d1ce5fbf45b0ae41f5ee06cb0889a11,2016-06-18 21:25:44,Michał Sajnóg,test,False
+d058d36df600fcef416ca26be1de6a5866184cb8,2016-06-18 21:04:07,Michał Sajnóg,update node in travisCI,False
+579564f62002776fc76650caf20dba23cc52541a,2016-06-18 18:45:14,Michał Sajnóg,fix loading styles for testing,False
+06f18a1c2b093aa99460180a94fe70d4137a003f,2016-06-18 18:31:27,Michał Sajnóg,Merge branch 'master' into 2.0.0-dev,True
+a83ce1943af8679b82489262ad54bab38a08ed57,2016-06-18 18:30:41,Michał Sajnóg,update travis' branches whitelist,False
+984cc6e8cdde7525756c0bc4c86e121da1b211d7,2016-06-18 18:29:11,Michał Sajnóg,format karma config,False
+fb6f2fcb9d641a8cf7fb8a351ead8d60678d1153,2016-06-18 18:24:44,Michał Sajnóg,Merge branch 'master' into 2.0.0-dev,True
+443a159b231da8df96cf4fd1ed4f7fe370da5cb4,2016-06-18 18:24:01,Michał Sajnóg,update travis' branches whitelist,False
+3cfb8bc6cc37585fc78fbf9d5fb9d318db519504,2016-06-18 18:16:16,Michał Sajnóg,"replace gulp with webpack, use ES6",False
+3999568c3170c709398749552b8a0e15e0787c6d,2016-06-15 05:07:20,Michał Sajnóg,data-aos as default and only proper attribute,False
+bde710397d60c338d69d5e2dbdd91e402a2d3c7a,2016-06-15 03:39:28,Michał Sajnóg,update readme,False
+5bac1adab4661d349cde85fa6181f4e00c817075,2016-06-15 03:30:57,Michał Sajnóg,fix formating in dev demo,False
+950653520062fdcfab0db2c255a476b72f619f44,2016-06-15 03:30:10,Michał Sajnóg,add respo to dev demo,False
+1b2621ac8b0ae8b0d458f38630dee8179d0d3cb6,2016-06-15 03:29:32,Michał Sajnóg,add line break,False
+ad0c24e0336aa9baed7bbc5612d5fc51d7a14ab0,2016-06-15 03:29:04,Michał Sajnóg,update package.json and bower.json,False
+aa51603b5e6815df0d2d3bca725cf445f4fa1d59,2016-06-14 22:01:36,Michał Sajnóg,remove test task from watch,False
+fb45057663331f6aae22df2e2516d3540c943f2c,2016-06-10 02:58:34,Michał Sajnóg,update readme,False
+a230129a5c2c0b0cbc028d01cd3e7a93cab860d1,2016-06-10 02:57:18,Michał Sajnóg,update readme,False
+7a222fb1ec4372ea23ba74c15644aa6aa0281482,2016-06-10 02:52:25,Michał Sajnóg,"Add changelog, update package.json",False
+df1f0ad671ead15aa17ee19c98e7f21988a7202c,2016-06-10 02:42:29,Michał Sajnóg,"Merge pull request #14 from michalsnik/add-compatibility-with-module-systems
+
+Use 'standalone' option in browserify to generate UMD bundle",True
+14dfa589acfd0f9e17eb4025993296c6a57679c8,2016-06-10 02:32:48,Michał Sajnóg,Fix initializing when using as AMD module,False
+cdcbaf74f01fed6fe23ed083347ce0cfa846eabb,2016-06-09 23:27:00,Michał Sajnóg,Use 'standalone' option in browserify to generate UMD bundle,False
+c856529005c2fbef93f7c629b66a1e6c2c646104,2016-06-09 21:06:57,Michał Sajnóg,Release 1.0.2,False
+5c95bb0bdac3c6e9ec850e5100868e74078ed267,2016-06-09 21:05:58,Michał Sajnóg,"Merge pull request #10 from jmartsch/master
+
+Multiple events in addEventListener do not work",True
+dd6aeecaa208c97886bd6381874f37cecc067c57,2016-06-08 19:13:34,Jens Martsch,"Multiple events in addEventListener do not work
+
+When I resized the window or switched the orientation the refresh did not occur.
+Thats because you tried to bind two events in one window.addEventListener call which is not possible, so I splitted them into single calls.",False
+4c9751bc9986162a76ad50db532d43790d274508,2016-02-02 22:00:59,Rafał Kwaśniewski,Merge branch 'dev',True
+9200864c6b5bda38b09067322670e16ef979585c,2016-02-02 21:58:27,Rafał Kwaśniewski,simplify script,False
+19706be1a06badf45eda53086de5ae1031a3000b,2016-02-02 01:44:24,Rafal Kwasniewski,Merge remote-tracking branch 'origin/master' into dev,True
+30f196714fcd5912970d23b864be546f9332006f,2016-02-02 01:37:07,Rafał Kwaśniewski,Merge remote-tracking branch 'origin/dev',True
+d37a8d870b6de638a2994d0b5852bbc2d5aab6f7,2016-02-02 00:14:10,Rafał Kwaśniewski,fix version in bower.json and package.json,False
+5460158b19c4342a6d4c8d9117e80efbb4a48237,2016-02-02 00:06:37,pudek357,"Merge pull request #6 from pudek357/dev
+
+Dev",True
+52f2af8b576a87b3949cb5d8b3a40788c865796f,2016-02-01 23:43:26,Rafał Kwaśniewski,cleaning replaceDataAttr.js,False
+d6e7e1bda69bad544bafc54dd9740c137e94fcfe,2016-01-31 22:44:46,Rafał Kwaśniewski,fix replacing data attr,False
+6a6d0267ce0d3879ae45aab40a91b894c08d0cff,2016-01-31 22:05:30,Rafał Kwaśniewski,add posiblility to use aos with 'data-' prefix for html5 validation,False

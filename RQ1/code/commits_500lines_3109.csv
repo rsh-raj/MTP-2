@@ -1,0 +1,208 @@
+Hash,Date,Author,Message,IsMerge
+fba689d101eb5600f5c8f4d7fd79912498e950e2,2017-02-11 18:51:44,Greg Wilson,"Merge pull request #234 from r-marques/fix-fix_html_title.sh
+
+Removed the '' at the beginning of the sed command",True
+c01e529e1bcdebb77490f0a929be42722b355574,2016-07-22 02:42:41,Rodolphe Marques,Removed the '' at the beginning of the sed command,False
+4b55a2eff5ee04993ac334e2e2d9b7d03a40927e,2016-07-05 18:29:59,Michael DiBernardo,Update BUILD.md,False
+3eff532ead3239581a112b4304453d9a68a23b52,2016-07-05 18:28:26,Michael DiBernardo,Update BUILD.md,False
+987fcb9bcbe1f8a9c6fc1d457eec0ae7375f2a2d,2016-07-05 18:25:25,Michael DiBernardo,Update BUILD.md,False
+f0e5a10e6605ed5c0fbeab8a2b40b8805b501960,2016-07-05 18:22:28,Michael Dibernardo,Make epub a bit easier to build; add build instructions.,False
+ae782882282d2964a407297e9520c32343e3efd2,2016-07-02 21:19:35,Michael DiBernardo,Fixups.,False
+290a88a4b1dffefc08f699ce4f8dcf5e677b679e,2016-07-02 21:01:17,Michael DiBernardo,Create markdown intro for web publishing.,False
+f707ea9cacccb772aac84cb8199b8374dc976611,2016-06-28 16:54:01,Michael DiBernardo,"Merge branch 'bigger-eds' of https://github.com/amyrbrown/500lines into amyrbrown-bigger-eds
+
+Conflicts:
+	minutiae/frontmatter-images/eds.pdf",True
+72c45784495a535f582d31a7de83c49d922cc974,2016-06-28 07:57:47,Amy Brown,Biggerer and betterer eds.pdf with (hopefully) no truncation,False
+16930482add5493890edd33a6e49c928f66b87f4,2016-06-27 18:09:05,Michael DiBernardo,"Fix issues from @amyrbrown's amazing proofread.
+
+- https://github.com/aosabook/500lines/issues/228",False
+f10008f2da9754a66900f141004a0fccb6ff32e7,2016-06-27 16:53:24,Michael DiBernardo,"Merge pull request #231 from amyrbrown/frontmatter_images
+
+New, bigger versions of editor and title images for frontmatter.",True
+99ef40330ec8180ff65069cc8ac462dfb3955506,2016-06-27 16:51:35,Michael DiBernardo,"Merge pull request #230 from dxnn/master
+
+footnote change rewording",True
+e7e0efa7a796d1f43d548300d1456f20b91fefca,2016-06-24 02:12:39,Amy Brown,"New, bigger versions of editor and title images for frontmatter.",False
+8f8f70bece679ae25f59fa1559759dceceb81176,2016-06-20 02:12:44,dann toliver,wordo fix,False
+fe823bdbe0a104d5036612873e10ee4e19a21679,2016-06-19 22:38:25,dann toliver,footnote change rewording,False
+086708455a3ae77faf3505c848aeec0641bfb431,2016-06-19 21:18:30,Michael DiBernardo,"Merge pull request #229 from aosabook/testprint-fixes
+
+Fix test print issues from",True
+4394406c6366979f18c55cc76398a33f27b677c4,2016-06-19 21:17:43,Michael DiBernardo,"Fix test print issues from
+https://github.com/aosabook/500lines/issues/228.",False
+5102c849fe96e93d97c1c49d10be6cd00ecd40de,2016-06-01 17:11:33,Michael DiBernardo,"Merge pull request #224 from ketanbhatt/patch-1
+
+Fix minor typo",True
+47a68a9aa0b63a58897762d5820eb7b90d001a0f,2016-06-01 15:05:47,Ketan Bhatt,Fix minor typo,False
+001a7be79ada7fce640298c1384c0f71921e18c5,2016-05-31 18:48:32,Michael DiBernardo,"Merge pull request #223 from amyrbrown/frontmatter_images
+
+New images for title, subtitle and editor in frontmatter.",True
+116022a8a3e6a280cd22e547cd2f73379fc91afe,2016-05-31 16:34:00,Amy Brown,"New images for title, subtitle and editor in frontmatter. These files
+are probably the wrong size so there will need to be some futzing with
+the LaTeX to get them to look okay.",False
+ef63386e39f08f19e2eaa11ee8810eeaaf320fcd,2016-05-31 07:36:08,Michael DiBernardo,"Merge pull request #222 from phyng/patch-1
+
+Fix data-store README.rst format error",True
+7be789c8b16f8b26fcefcfe9654c139dd7b9b47f,2016-05-31 07:27:09,Phyng,Fix data-store README.rst format error,False
+065091c67eaaab965b0e70bcb520a17a532033f8,2016-05-29 21:54:13,Michael DiBernardo,Updating minutiae with up-to-date credits.,False
+b5ee54148551b2e71991cf0a4858d86b671f6e52,2016-05-29 21:30:31,Michael DiBernardo,Add warning about versions.,False
+30a9134ea6cbdf0140c06ccc0470b08c6e9415ed,2016-05-29 21:24:05,Michael DiBernardo,`aosafigure` declarations can't be multiline.,False
+66fd916c5a48224838d91cb5d15716cb0be71a9b,2016-05-27 17:13:09,Michael DiBernardo,"Merge pull request #220 from cndpzc/patch-1
+
+Update blockcode.markdown",True
+35c8500b9d5832bef48a3a407f4a9e5972d5b08c,2016-05-20 14:56:14,cndpzc,"Update blockcode.markdown
+
+block.js -> blocks.js",False
+5b24691e6fb126c22ed831da6d56e5fb0d8cffb1,2016-05-15 19:49:01,Michael DiBernardo,I lied about the directory.,False
+ca42d93076ced1410dd530158c64e7ab68bddb30,2016-05-15 19:47:14,Michael DiBernardo,"Merge pull request #219 from amyrbrown/intro-edits
+
+Edits to Introduction and bios",True
+5598d8842681dfd9419156240b78e14b9fe15e5c,2016-05-14 07:23:29,Amy Brown,Edits to Introduction and bios,False
+0b12b3cb6424dcb8b8c8981631fa91f7394fa7ce,2016-05-10 02:24:05,Michael DiBernardo,"Merge pull request #216 from yoavrubin/master
+
+Typo",True
+a2ee9c20f329f3f049c288dc1ae385cdc8fa720c,2016-05-04 16:18:56,Michael DiBernardo,Final edits.,False
+2c9e745329b779290aa5dccae258cd832c3220ef,2016-05-02 21:19:05,Yoav Rubin,"Typo
+
+Thanks @adwelly for finding that",False
+c20f0d9a52c509c4e0455b5ce5eb291a98798f49,2016-05-01 20:59:14,Michael DiBernardo,Minor typeset change for print.,False
+8d3a2a167ff721bdef9961c433f5dae45d30ef84,2016-05-01 20:49:22,Michael DiBernardo,Writing intro.,False
+bda66b90dc41501986e51563f091a98d85061632,2016-04-27 16:53:55,Michael DiBernardo,Copyedit comments.,False
+27f6f2327bc91b80d41fa081d8f57843fd623f63,2016-04-27 16:40:23,Michael DiBernardo,"Merge pull request #214 from amyrbrown/event-web-edits
+
+Edits to the Event-Drive Web Framework chapter",True
+88049be6bbb218ab5a3ea2996a5b65495d535d5b,2016-04-23 00:42:42,Amy Brown,Fixed numbered list,False
+78a8efcc91a152304126dd7aca2d1ab699ec21b7,2016-04-23 00:35:54,Amy Brown,Copyedits,False
+3f2cd407ebedaf0a3cfa6858c4cf94543067433d,2016-04-17 04:58:37,Michael DiBernardo,Final typeset to remove orphans + widows.,False
+6b10554be0eeb0e4d72c31c6ab363e8aca2cc919,2016-04-16 20:58:40,Michael DiBernardo,Merge branch 'master' of github.com:aosabook/500lines,True
+7b2b7e45c56ca2339e2d3c555bacdabc4e94d75a,2016-04-16 20:58:09,Michael DiBernardo,Fix broken link.,False
+492ffc6a9beef6b0825ef04c7bdaf7d77aba3cce,2016-04-16 20:55:24,Michael DiBernardo,"Merge pull request #210 from evanshsu/master
+
+fix images location",True
+44ef365219fe5e3c5c8827a5bb346ff27133613f,2016-04-13 06:05:12,evanshsu,fix images location,False
+1bd5453d2b19b56b0967723382d6ffcd8c437681,2016-04-10 05:04:00,Michael DiBernardo,Assume we just don't need this stuff.,False
+49a554d24972b227bfb5cf642a4863379a407835,2016-04-10 04:38:58,Michael DiBernardo,"Merge pull request #206 from aosabook/homestretch
+
+Homestretch [WIP]",True
+2dae516d4428aced140baa0a2c5ddeecedab5855,2016-04-10 04:36:23,Michael DiBernardo,We don't need .tex sources anymore.,False
+b04156c19839e9f56605c7380ca3faba04636b75,2016-04-10 04:28:47,Michael DiBernardo,Fixed margin overflows / unicode issues (mostly.),False
+a3bb9162892b85e09e5722b7bf511142c86c5c4c,2016-04-09 20:56:33,Michael DiBernardo,Remove bib ref in build.,False
+d56584955c14596b2411c81f7c11daed9c435587,2016-04-09 20:38:18,Michael DiBernardo,Fix broken refs.,False
+fa61c4b13aa362f0124b4a7a3f5ae37b0a9de696,2016-04-09 20:24:38,Michael DiBernardo,Set figure sizes for all figures.,False
+f9ebe91996543cd6b3aba606cc94d80fdc5197df,2016-04-09 19:39:53,Michael DiBernardo,Remove nested bullets (they don't render well.),False
+3a13282754595f87a768976c1248dfd034e01f0d,2016-04-09 19:37:42,Michael DiBernardo,Backport code changes from https://github.com/aosabook/500lines/pull/200,False
+5697733b0b7f61fada0b2cd48e4a20e877e6a382,2016-04-09 19:23:09,Michael DiBernardo,Fix typos.,False
+2dd376eb7f8772de88e8e984499ad90fad3a4cf2,2016-04-09 19:09:57,Michael DiBernardo,"Use explicit `&mdash;`s.
+
+- Addresses https://github.com/aosabook/500lines/issues/203.",False
+a76527dfc604ff4b9f253456bad5798868b0dafa,2016-04-09 18:34:49,Michael DiBernardo,"Don't use `--html-paths`.
+
+- Maybe the original intent was to have all image dirs mounted at root?
+- Should address https://github.com/aosabook/500lines/issues/136",False
+7985614b312d48549d17f192a4af4d9bf6d7fe2d,2016-04-09 18:17:18,Michael DiBernardo,Address https://github.com/aosabook/500lines/issues/197,False
+27b1dbe4368bcb4cc137d8f478456314bb8872a0,2016-04-09 18:12:02,Michael DiBernardo,Address https://github.com/aosabook/500lines/issues/207,False
+5da236e7bf144f79c78845975ae9c3eff9dd290d,2016-04-09 17:47:07,Michael DiBernardo,Order chapters.,False
+3654cbbe6729f9427c2f571947bc5c3486a02bdc,2016-04-07 01:15:32,Michael DiBernardo,Remove bibliography.,False
+0c480874332ac6909189bee6ba8d82efb35b7139,2016-04-07 01:06:25,Michael DiBernardo,Add Amy's bio.,False
+90853b061e55995c83bcb55e3a5b96921ad6ccfb,2016-04-07 00:50:17,Michael DiBernardo,Update contributors table.,False
+409efccd3a45500a4808be294c192636b3f09c28,2016-04-07 00:10:57,Amy Brown,Copyedits,False
+91ae95c27556e68a34e351ec27d6f33c607e912e,2016-04-06 21:57:39,Michael DiBernardo,Add reviewers to `README`.,False
+17dbe869c04fa3898e2c22b5038903cb5561a590,2016-04-06 21:48:03,Michael DiBernardo,Adding reviewers to intro.,False
+4ee19d10975ace810e95758c211bb03286a378fe,2016-04-06 19:55:27,Michael DiBernardo,Adding bios.,False
+40feb696ddd8615a9ca650799e1c14957b747abd,2016-04-06 19:55:27,Michael DiBernardo,Only show inline bios on web.,False
+bedc6c287eeb62a8f88f59f43beae9c585bd5b8e,2016-04-06 19:43:39,Michael DiBernardo,Commentary from https://github.com/aosabook/500lines/pull/205,False
+c7d0c7b6a0e8a18c3af61b8e6871ab2d47a13bf0,2016-04-06 19:10:39,Michael DiBernardo,"Merge pull request #205 from amyrbrown/image-filters-edits
+
+Copyedits to Image Filters chapter",True
+6bd843301d9b25d7f957e8978be212cf5485f66d,2016-04-06 18:33:32,Michael DiBernardo,Merge branch 'eventsweb-edits',True
+84fabee255f5daba6744177b7aa16636237878d4,2016-04-06 18:32:29,Michael DiBernardo,`draft.markdown` -> `event-web-framework.markdown`,False
+46fccfbbb0db9e3d6ee7d78e170aa5f64f6b7067,2016-04-06 18:25:07,Michael DiBernardo,Note `with-timeout` behavior.,False
+eeb07bc95d0f07c242f2b56e69029b11e47405f7,2016-04-06 00:26:34,Amy Brown,Changes in response to author comments on copyedit,False
+7912741c7ac0a9a1f05900a6ef2aaba66f999f17,2016-04-02 22:55:31,Michael DiBernardo,Merge edits mailed by Leo.,False
+16120a50580a29a3000715a6ec518dd3a1952e6a,2016-03-31 18:00:32,Michael DiBernardo,Incorrect figref,False
+7dd26b031f0e6feb178749410115dc7171341b23,2016-03-31 17:39:03,Michael DiBernardo,Missing 'an',False
+7b758a6d664bf8bf4714a9d91d6275e991defa30,2016-03-31 16:46:32,Michael DiBernardo,Add section ref.,False
+840212d285c16ed5e0f6d48f3a789abda16ba7b5,2016-03-29 18:19:44,Michael DiBernardo,"Merge pull request #209 from eskang/master
+
+Final edits to the same-origin policy chapter",True
+2a228fce6fcad9a6511d9e424e434b39499a71e8,2016-03-29 00:53:16,Eunsuk Kang,"- fixed inconsistencies in images
+- cleaned up Alloy code and visualization themes
+- minor modifications to the chapter text",False
+e780af58cfb62d3071cba2f83738c78611c12d2b,2016-03-27 19:37:20,Michael DiBernardo,Update `.gitignore`,False
+494feff305f21495884d9237c51fcbcb8f1c9872,2016-03-27 19:34:56,Michael DiBernardo,Oops.,False
+8bb6f714ceb83ccdede9bc428530b2cba0556f1a,2016-03-27 19:24:32,Michael DiBernardo,Edits.,False
+9232f1f30e8e419730a82845a5e97e7bde250650,2016-03-25 22:50:35,Amy Brown,Second pass edits,False
+8e7d12a6bccebda511ca9feb5a69147f0a5d3e44,2016-03-22 07:56:44,Michael DiBernardo,"Merge pull request #199 from amyrbrown/same-origin-policy-edits
+
+Copyedits on Same-Origin Policy in Alloy chapter",True
+987b9874b1035e3ddd7413c3ae34c2609046dece,2016-03-22 02:09:16,Amy Brown,First pass edits,False
+f87b3d6c44981d552dd0b4e260c8d8f7b1642fdc,2016-03-21 17:04:54,Michael DiBernardo,Residual edits from https://github.com/aosabook/500lines/pull/194.,False
+6612963c924260404c88efd75681eb3c6e34ca29,2016-03-21 16:43:50,Michael DiBernardo,Don't think we need these anymore.,False
+d5edd77a2117436b6af9bb0683500f8172627908,2016-03-21 16:41:47,Michael DiBernardo,Merge branch 'master' of github.com:aosabook/500lines,True
+7b713a3b66b8a5cc2999ef57e02cc152631038ae,2016-03-21 16:20:18,Michael DiBernardo,"Merge pull request #194 from amyrbrown/contingent-edits
+
+Edits to the Contingent chapter",True
+93201bdf5b809aa0a4fe05855e30ad54c13963ec,2016-03-13 21:09:26,Michael DiBernardo,First pass complete.,False
+e0608bd50b5528cd382ac7267ac6324859b9f445,2016-03-10 02:26:45,Amy Brown,Start of first pass,False
+3d3cc41eb74af1a0964782968d3d2e02b4e38065,2016-03-06 20:32:05,Michael DiBernardo,"Merge pull request #201 from dxnn/patch-4
+
+removed ending bracket",True
+733686d43eb01a74c07dc2ef0b5d806e2e6cddcc,2016-03-06 20:31:22,Michael DiBernardo,"Merge pull request #200 from djmitche/issue198
+
+Fix data aliasing issues",True
+62fdc91216060803198628e062c600bfb7871c80,2016-03-06 09:28:16,dann toliver,removed ending bracket,False
+7a9115892cb4b43378e31724d270da812411c6ac,2016-03-06 02:29:22,Dustin J. Mitchell,"categorically fix all aliasing issues, at the cost of extra copies",False
+b6e3f3381945a393a310d13383afa5be4a77b5c0,2016-03-06 02:20:34,Dustin J. Mitchell,fix use of bogus 'assert_called' mock method,False
+64983b0fec102c4d394564ab3dbf580661a40b25,2016-03-05 01:49:30,Amy Brown,Rolling back a change I changed my mind about.,False
+5218c4028e311d778c6cc14b103c88e7f84abe8f,2016-03-05 01:18:50,Amy Brown,Final (?) edits,False
+816ebbd498db2dfcb3f4da945ba9f13c43073a9c,2016-03-03 01:34:43,Amy Brown,First pass edits (complete),False
+1718e93f76dcbca046526251d99496fd8f57a0c7,2016-03-02 18:44:55,Michael DiBernardo,Errant keyword.,False
+f01fe07db5c1978d0c8cd035bf78cdc45395d4a3,2016-03-02 04:00:35,Amy Brown,First pass,False
+7f794f69166d5d5da38ce41c583216025dfb8b7b,2016-03-01 23:31:51,Amy Brown,First pass edits,False
+cb46a982057513bc6c009cf6d251bc4c1bf3ffc4,2016-03-01 19:05:27,Michael DiBernardo,Format final changes for Dagoba.,False
+a8c4bc09b32688d43df9bd79ffd1792ab6d6c6ee,2016-03-01 18:18:17,Michael DiBernardo,"Merge pull request #196 from dxnn/dagoba-edits
+
+Dagoba edits",True
+e6ce86885868571234ed628d49b078de5a87b981,2016-03-01 02:20:24,dann toliver,"""pipe type"" -> ""pipetype""",False
+7a31fe9020f557a4cc94e0eefd326e44ba1a12a6,2016-03-01 02:07:54,dann toliver,"quotes, footnotes, and second focus",False
+dba993b4b0ec4ab05a169079d31cb7c9cf2fd6f7,2016-03-01 00:21:17,dann toliver,comment aligment resonances and underscore footnote,False
+8d82c358b676329a2bd0946e3a363d5d0c8aa964,2016-02-29 23:33:57,dann toliver,all the simple edits,False
+3c5da013c08a6e4b6e1f73855eea2c96952104ae,2016-02-29 02:31:11,Michael DiBernardo,"Edits: Building an event-driven web server
+
+- Next part is the handler framework",False
+8fb8b4b6864358d979cc31f2de6e014bc735ddfe,2016-02-28 11:29:18,dann toliver,one small step,False
+d0931aeb703f9d87ee3aba8698d309084b3b2d1b,2016-02-26 22:34:57,Amy Brown,"Fixed overlong title underline (from a change I made and then changed
+back)",False
+c754422f2c33ecb6af67dab43372833e1100bc02,2016-02-26 22:29:49,Amy Brown,Second pass edits,False
+784793e615a88464ab4463e4f100554d0f31e93a,2016-02-25 18:44:03,Michael DiBernardo,Tweaks to deploy web-server chapter.,False
+8233f23b0ed9dae2fdaec7f6f2a061323ba234fb,2016-02-25 17:51:12,Michael DiBernardo,"Merge pull request #193 from aosabook/web-server-edits-revisions
+
+Revisions to web-server chapter",True
+9075d2fbe50ae6f94312ba32902b15cb44dd995c,2016-02-24 23:47:38,Amy Brown,First pass edits,False
+e5090785ab1f2f55f41679b7ca0504244d731b89,2016-02-23 18:03:17,Michael DiBernardo,Changes made.,False
+e79e637572de61bef76f44b53a14bb043e655794,2016-02-23 17:46:26,Michael DiBernardo,"Merge pull request #192 from amyrbrown/web-server-edits
+
+Edits to the web server chapter.",True
+d2e1dec4f44deeff33e73b1f67e8756420851360,2016-02-23 17:43:04,Michael DiBernardo,"Merge pull request #190 from aosabook/dagoba-copyedit
+
+Backporting typesetting changes into Dagoba copyedits",True
+f1592c2bfbe769193603268897a3a3443942a47f,2016-02-23 03:44:51,Amy Brown,First pass edits,False
+4fe5aca51e76b9237061469571b815c03a535fae,2016-02-19 23:06:14,Amy Brown,Second pass edits,False
+8658ea85c39fc791d8344c1ff80eb03f809b08bf,2016-02-18 22:05:09,Amy Brown,First pass edits,False
+f6d759d2861c697248d8875664d812584e9f23d2,2016-02-17 02:57:57,Amy Brown,First pass edits,False
+53f4f4d3a093b19931a2abb474865cf61864d693,2016-02-15 08:52:31,Michael DiBernardo,"Merge pull request #191 from ajdavis/crawler-remove-python-33
+
+Forget about Python 3.3, update aiohttp version.",True
+117dd60a9265ee65c029f7ed8672214299cf8f12,2016-02-14 23:44:20,A. Jesse Jiryu Davis,"Forget about Python 3.3, update aiohttp version.",False
+5a8c1b20ff43d6cdb5162e69b3d3eb31097bcf01,2016-02-13 22:12:58,Michael DiBernardo,First version of copyedited file; backporting later typeset changes.,False
+c171e37068848a7bd61401ddd57d8e0dce871187,2016-02-03 17:57:53,Michael DiBernardo,Archive tiled renderer chapter.,False
+f06ea31cb52a9fd7625918f53f33d58a29e80d27,2016-02-03 17:49:02,Michael DiBernardo,Merge branch '03lafaye-tiled-renderer',True
+4dbb010fed792114be1bd4192a748eebdea16e1c,2016-02-03 17:48:40,Michael DiBernardo,"Merge branch 'tiled-renderer' of https://github.com/03lafaye/500lines into 03lafaye-tiled-renderer
+
+Conflicts:
+	README.md",True
+2ae057b44bca49b55c8ad61b8add4ac91ce9a692,2016-02-03 17:47:13,Michael DiBernardo,Archiving chapters from PRs.,False
+902a270335fabe0ed015cbfc41104935aa268cf0,2016-02-03 17:44:38,Michael DiBernardo,"Merge pull request #33 from kragen/master
+
+search engine: first draft of code and also (slightly desynchronized) chapter text!",True

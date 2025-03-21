@@ -1,0 +1,1080 @@
+Hash,Date,Author,Message,IsMerge
+8bcce8cf79d6d7217e1d67fa14e2a4bde76da2bf,2025-03-07 06:51:28,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+7d49b5a10f098f66b8e3c471738438505bb6a305,2025-03-07 06:51:22,Sudheer Jonna,Update ESLint for hooks,False
+42f27d5c32f525071bc4e038b914d0823a3acfb1,2025-02-24 19:24:30,Sudheer Jonna,"Merge pull request #348 from sharjeelfaiq/patch-1
+
+Corrected grammar mistakes. Will correct the remaining in the future.",True
+dd6de7affa23deb11fbb7a56292cd344c4665f1d,2025-02-24 18:51:32,Sharjeel Faiq,"Update README.md
+
+Corrected grammar mistakes. Making it easier for the readers to understand.",False
+3e906f6c3c4ed521c78b9e6d5d7f4050f99712cb,2025-02-24 08:31:31,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+0e23cd5443781e0e64ee9d8fe99b59508d0895bb,2025-02-24 08:31:20,Sudheer Jonna,Add examples for hooks rules,False
+6d0261402f884eb5554d264e87e4c67823b00d85,2025-02-24 07:40:36,Sudheer Jonna,Add examples for hooks rules,False
+ad252cd840ad7b90770d8562730c1a9c7a869b9f,2024-12-22 10:06:17,Sudheer Jonna,"Merge pull request #345 from naazeri/master
+
+fix typo in README.md",True
+dc34667a1b99e59e19f1dd90362fdcedbb2bb0d5,2024-12-22 01:51:53,Reza Nazeri,format text,False
+78d92da247ea5f05e6005d53b4f14a107375e214,2024-12-22 01:24:55,Reza Nazeri,"Update README.md
+
+fix typo",False
+4e12c8911fbe3f8920554494391acce5376942c5,2024-11-04 18:40:17,Sudheer Jonna,"Merge pull request #342 from in-in/patch-1
+
+Fix typo",True
+eee0084f7f7589c78950c99124a428d53f483f87,2024-11-04 18:33:00,in-in,Fix typo,False
+5e76a216afc5ca43faa86331c501e9312f82d59c,2024-09-18 16:45:38,Sudheer Jonna,Update FUNDING.yml,False
+33b8aa9f759b80eb0e67fea34cab44683ffe589b,2024-09-18 14:53:18,Sudheer Jonna,Create FUNDING.yml,False
+942666fec23a498e76470c66334e7f87fac6a531,2024-09-18 14:46:35,Sudheer Jonna,Add license,False
+f4f9f06d0dc7e20cb115a0c211cf463f3a680603,2024-08-27 15:09:37,Sudheer Jonna,Add useContext hook usecases,False
+0e99671133566290b6b0c7434bb1e400c47e191c,2024-08-23 10:55:56,Sudheer Jonna,Fix formatting issue,False
+d234c649d6c38546f034f07564c91c1d429e3e1a,2024-08-18 07:53:37,Sudheer Jonna,Fix code alignment issues,False
+d2ea5a773d8b71bd14a9fd225a46960207bcb711,2024-08-13 15:55:46,Sudheer Jonna,"Merge pull request #335 from szepeviktor/typos
+
+Fix typos",True
+15dc072d3634bb74abac34c78b3ae551379255c6,2024-08-13 15:52:48,Viktor Szépe,Fix typos,False
+66254e28062de0bf86631a61e24cf647ed773ca1,2024-08-13 06:44:44,Sudheer Jonna,Update default values question,False
+8110c96bc85fc0645ebb38f653a6a527e48ba230,2024-08-04 20:43:30,Sudheer Jonna,Minor styling and content improvements,False
+b738c408adedb1102669f7679f0eddf97163cdf9,2024-07-26 21:33:20,Sudheer Jonna,"Merge pull request #328 from oscartorres-10/patch-1
+
+fix(Question 31): add code syntax to Fragment, delete redundant word",True
+ca52c619204e75380b0423c29f91f2f6190cc478,2024-07-25 20:19:33,Sudheer Jonna,"Merge pull request #329 from oscartorres-10/patch-2
+
+refactor(case): use camelCase in ""TypeScript"" and ""ReactJS""",True
+746e6755d6059b6b96f8e829a128d5b236edb594,2024-07-25 20:13:07,Sudheer Jonna,"Merge pull request #330 from oscartorres-10/patch-3
+
+fix(Question 244): fix typos, remove redundant words",True
+301d502fe4912299c57f2218aac71fad88dd27e7,2024-07-25 19:22:39,Oscar T.,"fix(Question 244): fix typos, remove redundant words
+
+improves clarity",False
+0521adb2f2346967c4b0428f92a46c7a33e1cf4e,2024-07-25 19:14:00,Oscar T.,"fix(Question 244): fix typos, remove redundant words
+
+improves clarity",False
+8d1b5eb54c4618bf5650adb4f927ec5ac1ce7b94,2024-07-25 19:07:15,Oscar T.,fix(Question 244): fix typos,False
+10f85571e4b0386248d2ce1f2ca405498aa4b607,2024-07-25 19:01:15,Oscar T.,"refactor(case): add upper case for ""JS"" in ""ReactJS""",False
+6c929bf73b57db869e7dd111a62ff2a43d27876c,2024-07-25 18:58:02,Oscar T.,"refactor(case): use camelCase in ""TypeScript"" and ""ReactJS""
+
+improves consistency throughout the document",False
+a37debf3f2676326dce070ee5b94f68e306189c0,2024-07-25 00:34:49,Oscar T.,"add code syntax to Fragment, delete redundant word
+
+- <Fragment> is not currently rendering in the Preview in GitHub, it needs the code syntax with tildes `
+- deleted redundant ""unless"" word and kept ""until""",False
+940477f7ebf36902c0932dc457d8dbed24008675,2024-07-24 20:49:47,Sudheer Jonna,"Merge pull request #326 from subhoghoshX/fixes
+
+Fixes heading level, <Fragment> and codeblock rendering",True
+65cbb9b4f9e1830b5c463dcb9ff0635d52d47694,2024-07-11 20:02:57,Subho,Question 73: use consistent heading level,False
+dd49f46d01f9eabd59b9ba5f3bcc9104b7c63665,2024-07-11 20:02:45,Subho,Question 65: fix code block rendering,False
+e497993ae7b7e3f29f24cef3593a53af7917956e,2024-07-11 17:33:37,Subho,"Question 31: fix <Fragment> being treated as html tag
+
+also wrap empty fragment tag in `` for consistency",False
+1b67f8db65acc213331322d49c4977a9c059907e,2024-07-06 09:34:16,Sudheer Jonna,"Merge pull request #325 from Manojbachhal/patch-1
+
+Update README.md",True
+c967efb446a7e17c615c161380d6b7f62a9bb8cd,2024-07-05 22:19:29,Manoj Kumar,"Update README.md
+
+fix: correct mistake in definition of question 22",False
+ebd3552cb8350367d5aac1ed5871ddcf91a1b577,2024-07-05 17:22:58,Sudheer Jonna,"Merge pull request #324 from yangshun/patch-2
+
+Update README.md",True
+e6624d435c97f5ad0759e98ab4cf3cb93a1417dc,2024-07-01 04:49:36,Yangshun Tay,Update README.md,False
+bc6d6a738c19e1e79903f8583fbad2df4bbd73fb,2024-06-30 06:24:56,Sudheer Jonna,"Merge pull request #323 from surykantkasare/patch-1
+
+Update README.md",True
+8f384b87a9f44c092457d593b90f41463ab94be5,2024-06-29 21:13:12,Suryakant Badrinath Kasare,"Update README.md
+
+I've adjusted the preview to appear correctly as code for question number 65.",False
+97931d16ecc3b6424f5cab422f30b47485dee62b,2024-06-23 21:26:44,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+b324eab88b1246016920c22ba97bd0bffc9752fa,2024-06-23 21:26:40,Sudheer Jonna,Add client and server components usecases,False
+e68591b0e23f6edda508f0392337d7f55ddc2cd6,2024-06-20 05:27:56,Sudheer Jonna,"Merge pull request #322 from yangshun/patch-1
+
+Update GFE banner URL",True
+eb4acbfc973ae8f00131f19ee96cb40bc53bec41,2024-06-20 04:37:46,Yangshun Tay,Update GFE banner URL,False
+61759a6c6a650506239585ae47c8bd738d554d9c,2024-06-13 19:37:05,Sudheer Jonna,"Merge pull request #320 from yangshun/master
+
+Add GreatFrontEnd banner",True
+39d32a6f2858e5b06b10e52a70d2a02a7c804600,2024-06-13 17:09:44,Yangshun,Add GreatFrontEnd banner,False
+198c39248a987deacce830a53aa5301906313b35,2024-06-13 16:08:51,Sudheer Jonna,"Merge pull request #319 from Benappiahpoku/patch-7
+
+Update 174 TOC and Question README.md",True
+c9c78fb2b00994c58ab43ce3512e6af7948d729a,2024-06-13 16:07:33,Sudheer Jonna,"Merge pull request #318 from Benappiahpoku/patch-6
+
+Update Question 162 README.md",True
+26dd3d476f484fe8be0e5468ce9658c0d702def7,2024-06-13 14:25:43,Benji,"Update 174 TOC and Question README.md
+
+Minor Update",False
+f34161dfb71ba8ae5e43e4f746d0cbd4460462c6,2024-06-13 14:13:58,Benji,"Update Question 162 README.md
+
+minor update",False
+5ac207816bffd05292edb202a48d1a0a1813b169,2024-06-12 18:40:47,Sudheer Jonna,"Merge pull request #317 from Benappiahpoku/patch-5
+
+Update Question 140 README.md",True
+2e4de79c5c8b4a6c6858886996731e15e6d0f031,2024-06-12 18:40:16,Sudheer Jonna,"Merge pull request #316 from Benappiahpoku/patch-4
+
+Update 129 TOC and Question README.md",True
+601c5b8acc9c850808e21e0ddc31841ed1b671cd,2024-06-12 17:18:01,Benji,"Update Question 140 README.md
+
+Removed extra the",False
+d7e5b27992c38ad6bbd2ac70c15afbb65964874b,2024-06-12 17:10:25,Benji,"Update 129 TOC and Question README.md
+
+Minor modifications",False
+d3063e5e382747a12bfd4ffcbef162ced5296c54,2024-06-10 14:43:59,Sudheer Jonna,"Merge pull request #314 from Benappiahpoku/patch-2
+
+Update Question 81 to React Router V6 README.md",True
+b09ba288627a51b890cf967ab05b413b8f1b93e4,2024-06-10 14:35:37,Benji,"Update Question 81 to React Router V6 README.md
+
+Update the information from React Router v4 to v6
+
+Here is the information of the update below
+
+https://reactrouter.com/en/main/router-components/router",False
+a5af24ad9cfb019a492affd9431e4e1dc319fa88,2024-06-05 06:36:53,Sudheer Jonna,"Merge pull request #311 from Benappiahpoku/patch-1
+
+Update  Question 55 README.md",True
+e12783359c97de4711f8e16eb311fe8c72b1f23e,2024-06-02 14:03:22,Benji,"Update  Question 55 README.md
+
+change ""which"" to ""whose"" 
+and added ""a"" infront of capital letters",False
+f61d2e2093ecd32192bd1e52f3e728859feb1b90,2024-06-02 13:26:12,Sudheer Jonna,"Merge pull request #310 from mhsiungw/master
+
+[FIX] fix a typo in question 13: stopPropogation -> stopPropagation",True
+3a87323721317b7359011351a461b59ab2c8c469,2024-06-02 12:18:21,min,fix stopPropagation typo,False
+b3bfd6b48f370415b273c56cebde4a39e54663a0,2024-05-29 11:29:33,Sudheer Jonna,Update typescript create react app answer,False
+4900301211b5d9d757eff9be83599ebd31c3e246,2024-04-13 12:35:30,Sudheer Jonna,Re-organized with new and old questions,False
+ff6b0e0b722db1d150236521744e4226d3e670fa,2024-04-06 21:24:26,Sudheer Jonna,Update controlled and uncontrolled components,False
+73ee8ba8bf2e276f5273547ac8533d71b935f7ee,2024-04-04 16:34:45,Sudheer Jonna,Add immer for object updates,False
+51ddbbbce53f79567f6c2417d616c09c57a8b38a,2024-04-03 15:57:13,Sudheer Jonna,Add state update questions,False
+b48a8c946efb494a7b19fb6768ffaacbad7182de,2024-04-02 21:33:35,Sudheer Jonna,Add state updates and hydration questions,False
+608d6bf3614382a4e132380ab1fed9480bac625e,2024-04-02 13:27:14,Sudheer Jonna,"Add TOC toggle, update state and props questions",False
+5103af930e68fcc8a80f5f77eb0193473628edc5,2024-04-02 09:13:22,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+4676ac579825757548d1724f7e8dff86b9208ae1,2024-04-02 09:13:18,Sudheer Jonna,Add hooks and strict mode concepts,False
+03741ca14be66bfd8b25b12e75ed7439ef7280b8,2024-04-01 07:52:10,Sudheer Jonna,"Merge pull request #255 from chetannada/question218-fix
+
+Detailed Answer added with example in Question 218",True
+55f906e883fa14b8b284124a3a906a509251c119,2024-03-31 17:19:47,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+18826d29e99a6141bf9b89cca92a2aa8487f5705,2024-03-31 17:19:43,Sudheer Jonna,Fix formatting issues,False
+409217c7b76b30d2497829ecd2b93c6a486308a9,2024-03-31 16:58:10,Sudheer Jonna,"Merge pull request #294 from MarufZak/master
+
+Explain the reason for using React.portal",True
+9d1e4cf23344c880dc81f1db74f3d5240ed0e028,2024-03-31 16:54:22,Sudheer Jonna,"Merge pull request #301 from athithyaramaa1/patch-1
+
+Updated answer to when to use functional vs class components. made th…",True
+69ec0aedb8d0d1a3ff50a9dd2f124edd8f2b686b,2024-03-30 20:10:21,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+b646bd6cccca6e6ee10a1c0e1b8e2f3bcbf79e79,2024-03-30 20:10:15,Sudheer Jonna,Refactor existing questions and new questions about JSX,False
+2e04435e055fbf3526958a7970a6ae6e63a17c10,2024-03-09 13:56:07,Sudheer Jonna,"Merge pull request #303 from sayinmehmet47/feature/react-18-loader-change
+
+feat: Update statement to reflect availability of React.lazy and Susp…",True
+c35d03c1bd07f17de0c5a8f2d0281b3fe22f5c35,2024-03-09 04:13:17,mehmet,feat: Update statement to reflect availability of React.lazy and Suspense for server-side rendering,False
+9a49e81bd855e0c491180eb7043495cdd15179d5,2024-03-04 08:59:17,Sudheer Jonna,"Merge pull request #302 from michelegera/fix-space
+
+Add missing space before parenthesis",True
+97997b59a0dbdb069bbe5e87b20ee0290c2b6e9c,2024-03-03 22:03:54,Michele Gerarduzzi,fix(spacing): add missing space before parenthesis,False
+7860daf6f85a5f74fd7b17fe2d4fb542e3b767ab,2024-02-27 15:36:26,athithyaramaa1,Updated answer to when to use functional vs class components. made the answer concise and clear.,False
+f4025d08d63cafabfacb2338de8de3a1b1286526,2024-02-04 13:12:36,Sudheer Jonna,"Merge pull request #296 from RutujaJotrao/patch-1
+
+Update README.md",True
+b0c018123ae94b5c999a5c312d1b7ec54d970cae,2024-02-04 13:09:27,Sudheer Jonna,"Merge pull request #298 from npiyush97/npiyush97-patch-2
+
+Update README.md",True
+ae7e8b7bacc54dd5490b741e9b99b0beb77e2208,2024-02-02 17:14:15,PIYUSH NEGI,Update README.md,False
+f84dcf62a29a86ba5d78afd4e076440715d842a9,2024-01-31 12:51:05,Rutuja Sanjay Jotrao,Update README.md,False
+a08b3fe3d5d005ecf30e461617e8e5d1423b0be8,2024-01-24 15:27:22,Ma'ruf,Explain the reason for using React.portal,False
+52709adf121b8fef1dc304635f53645018b68a6e,2024-01-02 15:28:39,Sudheer Jonna,"Merge pull request #290 from mrAJAY1/patch-3
+
+Q.7 changed ""use client"" inside note to code block.",True
+a926f1608d702c6cba3893ddb52ac71dadd30c39,2024-01-02 15:28:11,Sudheer Jonna,"Merge pull request #291 from npiyush97/npiyush97-patch-2
+
+Update README.md",True
+19d335b699a2277ff96d09ea3297c00dfea78cfa,2024-01-02 14:01:58,PIYUSH NEGI,Update README.md,False
+d5df7be087f0cfa1c8d0ee11905666c2b324154d,2024-01-01 12:42:36,Ajay Prakash PP,"Q.7 changed ""use client"" inside note to code block.",False
+afb8a2dd42553ff5923996e2860281b0035d59ac,2024-01-01 09:59:23,Sudheer Jonna,"Merge pull request #288 from mrAJAY1/patch-2
+
+Added a note about using react-error-boundary in client components to…",True
+459dff46161b508411834610cc71e39a66a105ca,2023-12-27 19:25:08,Sudheer Jonna,"Merge pull request #289 from veekays/fix-typo
+
+fix(typo): corrected the spelling of principle according to the context of statement",True
+06cd3de8c67640cf51cdb61f99c499c96085ebef,2023-12-25 17:20:39,vikas.singh,fix(typo): corrected the spelling of principle according to the context of statement,False
+53a06abb364b0106072fbe9cbdca48a30275d7b2,2023-12-16 14:04:24,Ajay Prakash PP,Added a note about using react-error-boundary in client components to clarify restrictions on props.,False
+b1c778b1cf242834b4fe04c18be40cf0d8c992f8,2023-12-16 12:28:23,Sudheer Jonna,"Merge pull request #286 from mrAJAY1/patch-1
+
+Answer for Q4 : Apply JavaScript syntax highlighting to code block",True
+ad55d7df73ac21901f49ada2d05d54ab2b2c3225,2023-12-16 01:25:07,Ajay Prakash PP,Answer for Q4 : Apply JavaScript syntax highlighting to code block,False
+e6cb1ac6629912bfcc8f7c6e7403eca197b11229,2023-10-07 11:02:34,Sudheer Jonna,"Merge pull request #275 from Umesh-WW/patch-1
+
+Quetion 3 - coding typo",True
+f4722e7ec3e4a54d31f757f0f9bb20f6fb75fc10,2023-10-07 10:48:55,Umesh,"Quetion 3 : coding typo
+
+react fragment needs to have closing pair",False
+5b7a5a42dd82a0a28246916c8d1a0f86bc0c4ce0,2023-09-17 22:17:55,Sudheer Jonna,"Merge pull request #272 from tylermcginnis/patch-1
+
+Update README.md",True
+0bd6a46ab29541553ef5b0de65d3c02b32062321,2023-09-17 22:11:07,Tyler McGinnis,Update README.md,False
+86cfb39927ec6a98cdd813e3631d79fdab32c00c,2023-09-17 14:40:02,Sudheer Jonna,Fix update state for Q335,False
+f840de79c2111bf683e796831417d4023f13a042,2023-09-16 14:25:03,Sudheer Jonna,Add uidev sponsor,False
+09c9b9fa48ce1670c205b115269023f55f996449,2023-09-16 12:05:04,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+a4901aa5b704c852270d0c3055e1df4edccfd20b,2023-09-16 12:04:59,Sudheer Jonna,Reorder strict mode,False
+69c1c3cfc4cee20a00d7cf26df40fb9cc670ffa8,2023-07-27 11:50:21,Sudheer Jonna,"Merge pull request #265 from alivarastepour/patch-1
+
+resolved confusion in ""key"" prop section",True
+0e2b84a264d1a95c1c6a73609579f63575c12397,2023-07-26 16:48:47,Ali Varaste Pour,Update README.md,False
+0057256bdf1340341da58f1424537ca8620486d9,2023-05-24 21:56:23,Chetan Nada,Detailed Answer added with example in Question 218,False
+5b24cd38bfd9ec2662a80579639233bf71f82cc5,2023-04-21 03:19:24,Sudheer Jonna,"Merge pull request #251 from abhay502/patch-1
+
+Update App.js",True
+2484dfe5cdd4fd09f46394a285c54a6ac4b0a06d,2023-04-20 21:06:20,Abhay S Nath,Update App.js,False
+0f4c40d66e88c3327e53e3a4311569219df39743,2023-04-18 17:05:57,Sudheer Jonna,Update answers of hook rules and linting,False
+24b758a4c122eb3756cb56e6b4a0170146fcc23a,2023-04-16 23:01:19,Sudheer Jonna,"Merge pull request #249 from HenriqueMarcelo/master
+
+correcting example of using <Fragment>",True
+3518b5f490e013bcdbc6fa7f71e48da95ff8893b,2023-04-16 07:47:01,Sudheer Jonna,Coding exercise for ref usage,False
+7932c58b88ac289337eaa375081ba7a94f7940ad,2023-04-12 21:57:21,Marcelo Henrique da Silva Fonseca,correcting example of using <Fragment>,False
+010b1b64ee6a13a00ba815f8134f4627ed454eeb,2023-04-12 17:29:05,Sudheer Jonna,Added React import,False
+1c7d6a98a8fc5c77f06e5625834a4d23288a9271,2023-04-12 17:25:58,Sudheer Jonna,"Merge pull request #243 from chetannada/Question41
+
+Added easy and meaningful Answer of Reconciliation Process Question Number 41",True
+71eda3ce33bf794fcf667e8698b45f0f18c63781,2023-04-11 04:33:31,Sudheer Jonna,"Merge pull request #246 from MidhaTahir/master
+
+Fixing tab issue to have code and text separately",True
+7ed5bfaae20b285361721ada7592bad4266f9844,2023-04-11 04:16:28,Sudheer Jonna,"Merge pull request #245 from HenriqueMarcelo/master
+
+Fixing the duplicated word in question #10",True
+f27613e917464be0d0ec8bba86082db0b3b915e6,2023-04-11 02:32:17,MidhaTahir,fixing tab issue to have code and text separately,False
+d352487c88f03bb772d78683e5755beda9386986,2023-04-10 22:58:14,Marcelo Henrique da Silva Fonseca,Fixing the duplicated word in question #10,False
+bd935820775037d59963ca9f46144ea8a1f3832b,2023-04-08 01:40:08,Chetan Nada,Added easy and meaningful Answer of Reconciliation Process,False
+4b91fc1b27371b9c8736317264ee1048e46a05be,2023-04-04 15:54:36,Sudheer Jonna,Update hooks question description and rules,False
+70c0c38d8d70c9863267756bade749767a22e2fb,2023-03-31 15:56:29,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+ab2e839e08b773e3cf19d42bd3a46b38c27b5c8a,2023-03-31 15:56:21,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+a5cfd3c43df12d8b0a79a3a88b26531cbc1ff8e1,2023-03-31 15:46:16,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+3c03468f6d4d081cdf969a5d54f945727009597c,2023-03-31 15:45:54,Sudheer Jonna,Improve react fundamental questions,False
+4a22bc131bdbc37c20beddc9a3480d0c0d1f403c,2023-03-28 02:32:05,Sudheer Jonna,"Merge pull request #240 from martinschneider01/master
+
+Fix some styling issues in q335 and q336",True
+98917d983f4ef73d546cbf6b7356bbcdb209700b,2023-03-28 02:30:15,Sudheer Jonna,Update questions related to components,False
+116fe4e02327783410155966b798fefea02efaa0,2023-03-27 20:50:46,Martin SCHNEIDER,Fix indent of Back To Top links,False
+41557803946b6deb1cf7b636ba458a6459bef4cb,2023-03-27 20:45:15,Martin SCHNEIDER,Fix some styling issues in q335 and q336,False
+dfbb5f6ca7d0482ea2aa9a4903651ec07c6276df,2023-03-27 20:27:44,Martin SCHNEIDER,Update README.md,False
+3d4681156b72ed90b31e0eb55a8263d3a555d6e1,2023-03-27 20:18:29,Martin SCHNEIDER,Replace html tags with markdown tags,False
+b75591b863b83efe0b328bc6c8e0e150bf902c59,2023-03-26 23:11:34,Sudheer Jonna,Improve react introduction questions,False
+98b66106b2d743e019d8d417dfc43db89c90650f,2023-03-26 07:24:40,Sudheer Jonna,Update key attribute question,False
+e64b0c9b73e29e46e83cc7556dd122b0bbbf3964,2023-03-25 17:19:47,Sudheer Jonna,Add coding questions,False
+b593449418caa4337c69fca206d7eec78b146bb9,2023-03-19 15:39:58,Sudheer Jonna,Add react history question and update stateful component,False
+da8548ea37434ced4a34302e37f2d2243a0a2478,2023-03-18 12:10:22,Sudheer Jonna,Update event questions,False
+68b430f1471e31b987e836db9b1b1009b16c9757,2023-03-14 07:24:37,Sudheer Jonna,"Merge pull request #236 from Shahidullah-Muffakir/refactor/class-to-functional-components
+
+converted the example used in question no.100 from class to functional component",True
+bd75016efda381bc6a85df3e10dc13af014893a9,2023-03-13 14:57:26,Sudheer Jonna,Update state question,False
+cb5e043cfd437c5b61b92100b6c3fff5910f7b80,2023-03-13 14:34:42,shahidullah muffakir,"added functional component example to the question no.100, the class component example is unchanged",False
+7644e2dedba7d00e784e9ff0af1473ccb1b02629,2023-03-10 22:38:33,Sudheer Jonna,Update JSX and state questions,False
+56baef4702e01f286ffa35af03fb9d4c6d3d5a45,2023-03-09 22:31:16,Sudheer Jonna,Update jsx questio,False
+c079c4381ace1ebdf26030a3dd6477510d4a9d59,2023-03-08 17:32:32,Sudheer Jonna,Fixed format issue,False
+11994e136652b023ebff5e1bda3e7c3598feed68,2023-03-07 19:41:43,Sudheer Jonna,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+f8c947b8e07e5d901a7788a02451f00ee651825a,2023-03-07 19:41:38,Sudheer Jonna,Add question related to duplicated render,False
+2ef84c9b62b77d0e83ed7d8d16e74f4568e6d393,2023-03-07 14:19:20,Sudheer Jonna,"Merge pull request #233 from chetannada/Question-10
+
+Added easy Explanation in Question 10",True
+fe9560a17a08c646c975a68567c2404dd989b367,2023-03-05 13:18:33,Chetan Nada,Added easy Explanation in Question 10,False
+4f98594e3e36340dc40733ad0b73186baf9efd5d,2023-02-17 09:46:50,Sudheer Jonna,"Merge pull request #227 from aduyng/master
+
+Minor fix on Wrapped Component",True
+1f5102ee34815bbf6678eb93502f5deaf3cad400,2023-02-16 21:15:14,Dewey Nguyen,Update README.md,False
+bd15946f1691dca3e3671bd15bcb0309a1cb8d2d,2023-02-16 21:08:50,Dewey Nguyen,Update README.md,False
+b04cedc7a565df2516cef61dbb357147d23d8ca0,2023-02-10 05:31:05,Sudheer Jonna,"Merge pull request #224 from adrian-burkhart/master
+
+Update answer to question 303",True
+cd0e5efb4bd8632011103c92fbb263786d068b7a,2023-02-09 21:29:57,Sudheer Jonna,Updated functional and class component differences,False
+c25469797e10db48883441d634d01c70782a9782,2023-02-04 17:57:22,Sudheer Jonna,"Merge pull request #225 from theteladras/patch-1
+
+Update README.md",True
+bbb2a8a4bf94d8cd569d8a6e19f0c753155362eb,2023-02-04 17:38:51,Sanel Hadžini,Update README.md,False
+b1875d8d9920b8bf640ac9e7dfb5dee164ea4dfa,2023-02-03 20:17:19,adrian-burkhart,Update answer to question 303,False
+bf989f166d42bef011b84932a108ea66aa4cf148,2023-01-29 23:24:18,Sudheer Jonna,Remove github actions documentation,False
+8645ecf31379f951e9db29e5bc5391669238820b,2023-01-25 20:04:57,Sudheer Jonna,"Merge pull request #223 from gurjar-sumitu4500/gurjar-sumitu4500/master
+
+new questions  #333 and  #334 added",True
+acb8ac1a31cd9027626201ef0614ed6d0d9aba90,2023-01-24 22:34:55,Sumit,new questions  #333 and  #334 added,False
+0649d4675ef9d16dc5b468a500dc9461b84e05e5,2023-01-23 11:13:08,Sudheer Jonna,Remove this in functional component,False
+c6bf3fbc1dc7596b443997291de95cf533a33818,2023-01-11 10:54:58,Sudheer Jonna,"Merge pull request #218 from elyesbenabdelkader/update_question_104_answer
+
+Update question #104 answer",True
+97f8685621eae1749034ab65bbb5ad9103d52b78,2023-01-11 01:57:07,Elyes Ben Abdelkader,Update question #104 answer,False
+540ebeeafa7ea7d0299cfe9591eeb5f7f68355c6,2023-01-08 18:41:51,Sudheer Jonna,"Merge pull request #216 from mbinou/fix-typo
+
+fix: correct some typos in README",True
+636d4d3b0ac97b18791457584ec529bab0af7750,2023-01-08 15:56:56,Munehito BINOU,fix: question 332 typo,False
+2d8221930177c564edeb532cc3cbe115210d9359,2023-01-08 15:48:01,Munehito BINOU,fix: question 198 typo,False
+fdc119f309708d8eabd48fa57f9bb84bb9d12ca4,2023-01-08 15:47:15,Munehito BINOU,fix: question 7 typo,False
+d04109ebeb81c6c6ded6261edd49a789ef0dedb9,2023-01-08 08:25:30,Sudheer Jonna,"Merge pull request #215 from Harshal2502/branch1
+
+Update the Navigation link",True
+44435871ca523001ac2c0def3b758e61312b43cb,2023-01-07 21:45:51,Harshal Devmurari,Update the Navigation link,False
+efb38a191aefa29944b680ff490b0de7887af30c,2023-01-07 17:48:16,Sudheer Jonna,"Merge pull request #213 from phongever/master
+
+Update codeblock",True
+e0181a5a77067617dcd39dda997d178b468f29c4,2023-01-07 17:46:32,Sudheer Jonna,"Merge pull request #210 from HarukiNguyen/master
+
+Update major features of React",True
+d12292ee83e67fd7acff527e671505fb7dd22ec6,2023-01-03 21:37:01,Hoai Phong,Update codeblock,False
+50e25c8b9cee6c9cd8ab090e4064b3e8634f904b,2022-12-26 10:02:00,HarukiNguyen,Update major features of React,False
+8d255cd45fc18d514041be2e64151405aa347644,2022-12-15 06:11:41,sudheerj,Update collab,False
+8b1d4631b29b1dd40ceda017706566ce90484161,2022-12-12 22:03:34,sudheerj,Updated state question with function component,False
+4e591dcb994f74a7344a70e53832c72228c5063a,2022-12-12 18:53:00,sudheerj,Update format for class over function component,False
+8f962f2e048921a009767cff9b71c6ae5107260d,2022-12-12 18:31:15,sudheerj,Update collab,False
+3f93d77c0f6d8187339befe4ab3d2fcb50a092ad,2022-12-11 15:46:13,sudheerj,Add codingninja collab,False
+3b531389e43bc21180816bfa024cc4df5fbe7b5c,2022-12-10 11:50:25,sudheerj,Add codingninja collab,False
+f929490ae02f8413a54a542ebba3d3bd8b3b018f,2022-12-09 17:27:41,Sudheer Jonna,"Merge pull request #207 from naveenrawat51/master
+
+updated #7. pure functional component info",True
+26fd0da53e6e3a34f3c135e73e6b22b6af98534c,2022-12-07 09:51:19,naveenrawat51@gmail.com,"updated #7. pure functional component info
+
+Updated Q. 7 how we can implement pure component in functional components.",False
+ab2a767329a610a5216a598a63f56a5cb4209d7f,2022-12-03 00:03:04,sudheerj,Update with function component for JSX,False
+d82bd28a2e3ac63d4b67eb7b378c2c1d8a7dbb78,2022-11-04 18:37:37,Sudheer Jonna,"Merge pull request #204 from 1mike12/patch-1
+
+Update README.md",True
+05831757994146e58a6095a78c5dda03d6d11711,2022-11-03 23:10:02,Michael Qin,"Update README.md
+
+make clear it's cubic time",False
+359af1a719f83e7f341cfbeb039147153f1f3b38,2022-10-15 18:55:46,Sudheer Jonna,"Merge pull request #199 from victorpatru/fix-q327-typo
+
+fix: question 327 grammar error",True
+0db549894aac7bda78663a4352dd61e9c0939de0,2022-10-13 15:35:04,Victor Patru,"Update README.md
+
+fix: question 327 typo",False
+d4b5d28eedf6488343a288bbe440439eb504b630,2022-10-06 19:03:58,Sudheer Jonna,"Merge pull request #198 from MargretEdeh/MargretContribution
+
+functional and class components",True
+087ef83d3e855fb31ea5251351f332f3e417a18a,2022-10-04 19:59:57,margret edeh,functional and class components,False
+ee84dbe6fc7413452e516b5515fa343ffdc425ae,2022-08-21 13:31:02,Sudheer Jonna,"Merge pull request #193 from jobayer977/patch-1
+
+Add React Props Example class/function - Update -  9 What are props in React?",True
+7f25d6471f81d3a99b0b64c1cf1670de7c7e15ea,2022-08-21 11:30:01,Jobayer Hossain,"Update -  9 What are props in React?
+
+Add Props Example",False
+3029bfc78a56447ed555946e86e2fbefd75fe58e,2022-08-11 16:41:42,Sudheer Jonna,"Merge pull request #190 from enggsuraj/master
+
+fix:Question 87 typo error - myComponent",True
+12a52b55479f690b7d8979e26c7fe40706d54ccc,2022-08-11 13:34:54,Suraj,fix:Question 87 typo error - myComponent,False
+e1ba2357b1ba706e1eaef3777acfc33668e8408d,2022-08-02 14:21:17,Sudheer Jonna,"Merge pull request #188 from Dylaan94/master
+
+changed 'internalization' to 'internationalization'",True
+da9666f190f5fbed9c978ac365d19d4a4cdf1305,2022-08-02 04:44:01,Dylan Brain,changed 'internationalization' to 'internationalization',False
+96f6a7894bde96ee74aef8eede7f6603a04d4aec,2022-07-20 12:29:47,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+fe5fbad7f3f0a59b2fe24dd10fd90162dc626402,2022-07-20 12:28:29,sudheerj,Update hooks question,False
+0a9754dee6718a263d71deeb677fc2c193823338,2022-06-29 10:11:12,Sudheer Jonna,"Merge pull request #186 from Havret/fix-grammar
+
+Fix question title",True
+d2468333e37d195cd25427df2cad316b8b97ded9,2022-06-28 22:37:30,Havret,Fix question title,False
+41301ab8a3f5887f60c6ce23fc12d0c6f474b486,2022-06-25 23:20:18,sudheerj,Update stateless component answer,False
+22554c8d96d6da5ba752fd2c62181225480607ac,2022-06-07 16:45:37,Sudheer Jonna,"Merge pull request #183 from nobill1/fix-typo
+
+Fixed typo",True
+033173a81d65364aebec6e18b9e7968cb0b42f0a,2022-06-07 05:31:16,Nguimeya Bill-gates,Fixed typo,False
+2fba760d368aaa86ae94ee7b9299dc2443d76b86,2022-05-17 09:35:32,sudheerj,Added disclaimer,False
+105b224bd6b6948b0a786e2f5bb6924d6116b8eb,2022-03-14 10:54:20,sudheerj,Content improvement,False
+6970f8b1d92017e1b1d8fcf82a559890c264dbb7,2022-02-19 08:18:30,Sudheer Jonna,"Merge pull request #174 from ResoDevansh/usefulUpdations
+
+fixing typo, grammatical errors in README.md",True
+fdc9885a4d5c1d8a1d9878d95272ff9506cd9bd0,2022-02-18 23:06:36,ResoDevansh,"fixing typo, grammatical errors",False
+e1ad86a1bf763416acaa39fcad5399a1b1995b83,2022-02-10 12:06:17,Sudheer Jonna,"Merge pull request #167 from AliN11/master
+
+Improved README.md",True
+3272a3c0c553be9461fed1e9797f0ca2df88bf13,2022-02-10 12:03:17,Sudheer Jonna,"Merge pull request #169 from Nelsonfrank/Nelsonfrank-patch-1
+
+Add functional component solution to question 107",True
+cfcb8bed4c0e98d6c856e354a78be5509aef7308,2022-02-09 23:55:25,Nelson Frank,"Add functional component solution to question 107
+
+closes #168",False
+83583c063b224478aa60302f55d402f6e5722fe9,2022-02-09 22:02:09,Ali Nazari,Improved README.md,False
+be48b2960ae15dcf33278bfc7e422f992861aca1,2022-02-08 23:18:40,Ali Nazari,"fix some typos
+
+I think `re-render` would be a better phrase in this case.",False
+28a6660fbc4db10fdefa0ea37df5a7d2a5a6c2ce,2022-02-08 12:44:16,Sudheer Jonna,"Merge pull request #166 from AliN11/master
+
+Fix some typos",True
+83a261671c2f20935e593b527ed5fe9a7d7ad62e,2022-02-05 14:28:34,Ali Nazari,Fix a typo,False
+00e3df8b743ede2350dcf4bb48afb308f49be66e,2022-02-05 14:08:48,Ali Nazari,Fix a typo,False
+cec3238950820867b2bba8345d36ce96267f56cc,2022-02-04 22:19:02,Sudheer Jonna,"Merge pull request #165 from AliN11/patch-1
+
+""Static fields"" isn't part of stage 3 proposal anymore",True
+f750ec8002759d161986ee29c65e79fc0aadcdac,2022-02-04 17:08:54,Ali Nazari,"Update README.md
+
+The static class fields feature is moved to stage 4",False
+4a3bfabcfadf6bce3a293eff4294412995df0db3,2022-02-03 22:58:51,Sudheer Jonna,"Merge pull request #159 from uchiha-suraj/patch-1
+
+Added missing Questions and fixed Back to Top",True
+d6269212ec1cc1d2f6c3cf01370c62aff8d802bf,2022-02-03 17:03:00,suraj ✨,Merge branch 'master' into patch-1,True
+4313b43d849d0f8d224d815e7ed8838ffe9b4719,2022-02-03 10:42:22,Sudheer Jonna,"Merge pull request #160 from rohitmultani/master
+
+useRef detail point added",True
+675f4a8b3ee1c8b3267b69b71301743921a50eb3,2022-02-03 10:40:52,Sudheer Jonna,"Merge pull request #162 from Nelsonfrank/patch-1
+
+Update QN 79 answer by adding function component answer",True
+6306f6bac4a948e7b1900167a305b6def3fc892d,2022-02-03 10:39:03,Sudheer Jonna,"Merge pull request #163 from LewWadoo/patch-5
+
+fix link",True
+c36bdaf1a3b6a902a6175bd3b7a487736235e4e5,2022-02-03 10:38:15,Sudheer Jonna,"Merge pull request #164 from LewWadoo/patch-6
+
+grammar and whitespace",True
+4cff4570b2e28df8e582c83734c110252ad59fad,2022-02-03 03:33:35,Евгений Сергеевич Михайлов,grammar and whitespace,False
+9470b8071ad8521a523c4896d2eb891abe8a4aa1,2022-02-03 03:24:56,Евгений Сергеевич Михайлов,"fix link
+
+delete in anchor '?' to fix the link",False
+22f85ed43d3d37edd3a5e1ec9b2d4f492a35d770,2022-02-02 14:05:47,Nelson Frank,"Update QN 79 answer by adding function component answer
+
+Closes #161",False
+db31e750a5e21aee175a7481e5e2c5ff69119d68,2022-02-02 10:14:24,Sudheer Jonna,"Merge pull request #158 from LewWadoo/patch-3
+
+grammar",True
+19c9cfedfb86280b8d849defd2878661d777555f,2022-02-02 10:13:41,Sudheer Jonna,"Merge pull request #157 from LewWadoo/patch-2
+
+Grammar",True
+a211bf1fa4c4dbd3f512d233fc8e1ddb7f616244,2022-02-02 10:12:26,Sudheer Jonna,"Merge pull request #156 from LewWadoo/patch-1
+
+extra word ""example""",True
+941f07ffd4149d08fc91fbf3d10acd3e939d3706,2022-02-02 10:11:28,Sudheer Jonna,"Merge pull request #155 from AliN11/patch-1
+
+Fix a typo",True
+9df71b1c1b0cad282eceef442e3426169b59071a,2022-01-31 21:07:37,Rohit Multani,Corrected the first point,False
+8096673be787e27e92ec997a5e1e55f156dcd921,2022-01-31 14:56:40,suraj ✨,"Added missing Questions and fixed Back to Top
+
+Added missing Questions and fixed Back to Top",False
+15780e09b9d9b7a9f373afe91ecac74047f61225,2022-01-31 02:24:18,Евгений Сергеевич Михайлов,"grammar
+
+for component mount => on component mount",False
+f3ca4d648c200b1ca1decd744545911e7d7a197d,2022-01-31 02:17:52,Евгений Сергеевич Михайлов,"Grammar
+
+What are the rules needs to follow for hooks? -> What rules need to be followed for hooks?",False
+ef3fb04449019883e9c7aa4ef59412fc3f0b7867,2022-01-31 02:12:15,Евгений Сергеевич Михайлов,"extra word ""example""",False
+df9dd4b72b4491947e0fc22923ea66e5625b5b19,2022-01-30 13:00:07,Ali Nazari,Fix a typo,False
+7e62b5c74c60466ed81c5174fa168239686cd0eb,2022-01-29 13:01:28,Rohit Multani,"Merge pull request #1 from rohitmultani/rohitmultani-patch-1-1
+
+332. Difference between useState and useRef added/",True
+4298c46810834361e3d3a12c2f9132de13159dc7,2022-01-29 13:00:45,Rohit Multani,332. Difference between useState and useRef added/,False
+48f32fa07edb045d1a11f6176e6167aedf97fd94,2022-01-22 15:10:27,Sudheer Jonna,"Merge pull request #142 from sujit510/additional-info-for-question-6
+
+Additional info for question 6",True
+896a698319a76a24919884c5fc22065bc2da171d,2022-01-22 15:07:34,Sudheer Jonna,"Merge pull request #145 from saurishkar/patch-1
+
+New Question: State Mutation",True
+21baf7eb81aaeebc6b51c44671fab6d75abd1a68,2022-01-22 15:04:05,sudheerj,Ad removed from header,False
+b4de1463c7d400b0ceb625429ae91ce832be6971,2022-01-20 17:29:12,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+3097a762af35501c0c31fd3db56db9c5b4fcd159,2022-01-20 17:28:40,sudheerj,Fix comment related to batch state update,False
+e03ec94d64bb3c5654e23e7df9e47b02310c8111,2021-11-21 20:33:09,Sudheer Jonna,"Merge pull request #149 from tooshar/patch-1
+
+Repeated text in Q 30 removed",True
+83dbb4a31eaac0854f27216707899fb10cc8e44b,2021-11-21 16:30:36,Tushar Prajapati,Repeated text in Q 30 removed,False
+001a0f13d2c0c7b772ba15c4905c59d841501abb,2021-11-19 22:45:57,Sudheer Jonna,"Merge pull request #148 from immayurpanchal/fix-typo-213
+
+fix: typo in questions no. 213's answer",True
+84624f13ea4b4ed27f2c535baa383bc1d6a42dbe,2021-11-16 12:15:53,Mayur Panchal,fix: typo in questions no. 213's answer,False
+e0f704679a802b7f8701b4d571590a08375560d8,2021-11-01 18:26:25,Sudheer Jonna,"Merge pull request #146 from ayatoullah/master
+
+add and update some questions",True
+af72bb2cc9ef2614278c8af7921aed543b5b91f4,2021-11-01 02:22:17,Ayatoullah Ramzy,"controlled components and uncontrolled
+
+difference between controlled components and uncontrolled components",False
+4be842aee12ae496f298001972b5975d91f81fe4,2021-10-18 23:35:00,Saurish Kar,"New Question
+
+Added question on state mutation",False
+f1f12103834be1fa0e2da01dbc56ddedf6767c92,2021-10-06 13:19:51,Sujit Singh,Additional info for question 6,False
+79430226847473cfeda2178888167e5474cc365f,2021-09-18 19:44:32,Sudheer Jonna,"Merge pull request #138 from glgoose/patch-1
+
+fix image link & spelling",True
+f960ad8901ae9355b6304288ccb0bf0d1c453b55,2021-09-17 22:13:07,Glenn Goossens,fix image link & spelling,False
+d29bfdc8260b8fab38f111770b5a001ea25c8d7f,2021-09-12 12:20:48,sudheerj,Add latest lifecycle methods image,False
+232578d6522cf72f814cad171df5bc2b994f8c3d,2021-09-10 02:19:55,Ayatoullah Ramzy,"Update README.md
+
+update Q14",False
+22f1a3fc67b0a1ca69270f863b02c3491a863548,2021-08-27 18:33:46,Sudheer Jonna,"Merge pull request #136 from giovannipds/patch-1
+
+Grammar fix: add a missing ""a"" in an answer",True
+65d88e50ddbe61c80c66af1998ac595fe95070db,2021-08-27 18:33:19,Sudheer Jonna,"Merge pull request #137 from giovannipds/patch-2
+
+Grammar fix: add a missing ""the""",True
+62264720ff129ae63909b893d90540a7ba0dd888,2021-08-25 20:17:48,Giovanni Pires,"Grammar fix: add a missing ""the""",False
+0960423ac40ded668dee988d50677d663d368422,2021-08-25 19:55:19,Giovanni Pires,"Grammar fix: add a missing ""a"" in an answer",False
+3283768d2d4484f79904b852913a1b4dc67deb3b,2021-07-23 19:51:38,Sudheer Jonna,"Merge pull request #131 from chankruze/master
+
+Fixes #130 and #98",True
+7566ba2276fed856dc810e7fcdfda1484a06b47e,2021-07-22 08:06:08,chankruze,"Fixes #98 - How to fetch data with React Hooks?
+
+Signed-off-by: chankruze <chankruze@gmail.com>",False
+13d34ec057beef9d1cd6eab2e8364f33f5b01bc4,2021-07-22 07:46:43,chankruze,"Fix The Equivalent Functional Component Example in Question No. 51
+
+Signed-off-by: chankruze <chankruze@gmail.com>",False
+b27d8e707ee85ce034413901236e7255748154dc,2021-07-16 14:37:57,Sudheer Jonna,"Merge pull request #127 from sudheerj/dependabot/npm_and_yarn/coding-exercise/color-string-1.5.5
+
+Bump color-string from 1.5.3 to 1.5.5 in /coding-exercise",True
+0443798684e60d4e9256c69a2901c517d67cdcc9,2021-07-06 12:28:51,dependabot[bot],"Bump color-string from 1.5.3 to 1.5.5 in /coding-exercise
+
+Bumps [color-string](https://github.com/Qix-/color-string) from 1.5.3 to 1.5.5.
+- [Release notes](https://github.com/Qix-/color-string/releases)
+- [Changelog](https://github.com/Qix-/color-string/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/Qix-/color-string/commits/1.5.5)
+
+---
+updated-dependencies:
+- dependency-name: color-string
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+bf6c3a3ab1df563773a243a91878352a58f78001,2021-07-06 12:28:14,Sudheer Jonna,"Merge pull request #125 from sudheerj/dependabot/npm_and_yarn/coding-exercise/ws-5.2.3
+
+Bump ws from 5.2.2 to 5.2.3 in /coding-exercise",True
+7b7ffb392d7dce9c455542fb65f41d692878d013,2021-07-06 12:27:50,Sudheer Jonna,"Merge pull request #126 from 4ortytwo/patch-1
+
+Update Question#4",True
+213669c8ec47466d497b20ef737dad4a2cff8be8,2021-07-01 13:50:13,Arthur,"Update Question#4
+
+Edit the ""What is the difference between Element and Component question"". 
+There are complex function components as well and I propose to remove ""In simple cases"".",False
+8cb8e4ad621435172b9b14b1146f0ab2c3b3547e,2021-06-20 12:28:01,dependabot[bot],"Bump ws from 5.2.2 to 5.2.3 in /coding-exercise
+
+Bumps [ws](https://github.com/websockets/ws) from 5.2.2 to 5.2.3.
+- [Release notes](https://github.com/websockets/ws/releases)
+- [Commits](https://github.com/websockets/ws/compare/5.2.2...5.2.3)
+
+---
+updated-dependencies:
+- dependency-name: ws
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+bf3030a47bb39d8f66c0d74c86a826c087a3404f,2021-06-20 12:27:32,Sudheer Jonna,"Merge pull request #118 from sudheerj/dependabot/npm_and_yarn/coding-exercise/dns-packet-1.3.4
+
+Bump dns-packet from 1.3.1 to 1.3.4 in /coding-exercise",True
+2a0fe2f2abb7006e97679873e1c4ce0fa154be15,2021-06-20 12:27:22,Sudheer Jonna,"Merge pull request #120 from sudheerj/dependabot/npm_and_yarn/coding-exercise/merge-deep-3.0.3
+
+Bump merge-deep from 3.0.2 to 3.0.3 in /coding-exercise",True
+984e6f87f7891f7f3ca8bfb7c8b5f34c1b790541,2021-06-15 18:30:04,Sudheer Jonna,"Merge pull request #123 from jvsinghk/fix/typo-in-question-244
+
+Fix typo of demonstration in question no. 244",True
+25a78ddc6d4cec218d4a5f19de83fe4f5c0c52c4,2021-06-15 12:20:20,Jasvinder Singh,Fix typo of demonstration in quetion no. 244,False
+85c785c67095ec272cf1e668446294d6e323bc1a,2021-06-08 22:45:09,Sudheer Jonna,"Merge pull request #119 from ozcanzaferayan/patch-1
+
+Fix state.count as zero",True
+8605b86a55f9ae0e0bcfcec21cae74696b390ea6,2021-06-08 15:41:14,dependabot[bot],"Bump merge-deep from 3.0.2 to 3.0.3 in /coding-exercise
+
+Bumps [merge-deep](https://github.com/jonschlinkert/merge-deep) from 3.0.2 to 3.0.3.
+- [Release notes](https://github.com/jonschlinkert/merge-deep/releases)
+- [Commits](https://github.com/jonschlinkert/merge-deep/compare/3.0.2...3.0.3)
+
+---
+updated-dependencies:
+- dependency-name: merge-deep
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+dca4b6217d9305922ae51916a5c0a342f6f4d13b,2021-06-07 03:39:53,Özcan Zafer AYAN,"Fix state.count as zero
+
+Fix state in Why we need to pass a function to setState()",False
+a27f51417ec13be391dde26d3305b8631feadd39,2021-05-28 22:40:50,dependabot[bot],"Bump dns-packet from 1.3.1 to 1.3.4 in /coding-exercise
+
+Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 1.3.1 to 1.3.4.
+- [Release notes](https://github.com/mafintosh/dns-packet/releases)
+- [Changelog](https://github.com/mafintosh/dns-packet/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/mafintosh/dns-packet/compare/v1.3.1...v1.3.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+4c6631db6aa2551269345e7c1033f5dc32b5d322,2021-05-17 12:05:32,Sudheer Jonna,"Merge pull request #114 from sudheerj/dependabot/npm_and_yarn/coding-exercise/hosted-git-info-2.8.9
+
+Bump hosted-git-info from 2.8.8 to 2.8.9 in /coding-exercise",True
+6b6f8992e938ba611e61c49637b75a5fd06b1060,2021-05-17 12:05:21,Sudheer Jonna,"Merge pull request #112 from sudheerj/dependabot/npm_and_yarn/coding-exercise/url-parse-1.5.1
+
+Bump url-parse from 1.4.7 to 1.5.1 in /coding-exercise",True
+3a2c1c1eaf8d480260373e14d49aeab91a17098f,2021-05-11 23:16:30,dependabot[bot],"Bump hosted-git-info from 2.8.8 to 2.8.9 in /coding-exercise
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.8.8 to 2.8.9.
+- [Release notes](https://github.com/npm/hosted-git-info/releases)
+- [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+- [Commits](https://github.com/npm/hosted-git-info/compare/v2.8.8...v2.8.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+71582b51cfa88bff8d2419adae445cd7274f49e5,2021-05-11 18:54:33,Sudheer Jonna,"Merge pull request #113 from scr2em/master
+
+fixed a typo / edited 8 and 27",True
+53dba4ce133bfc7087e2ea3607b4c8c5fb5b2158,2021-05-10 08:27:12,Mohamed M. Abdelgwad,fixed a typo / edited 8 and 27,False
+95ad896f316f3b32e27c70ee83d6083f545911fa,2021-05-10 00:11:40,dependabot[bot],"Bump url-parse from 1.4.7 to 1.5.1 in /coding-exercise
+
+Bumps [url-parse](https://github.com/unshiftio/url-parse) from 1.4.7 to 1.5.1.
+- [Release notes](https://github.com/unshiftio/url-parse/releases)
+- [Commits](https://github.com/unshiftio/url-parse/compare/1.4.7...1.5.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+e06b529d4022a3b4e1c2819030a63ad7e0f3df6a,2021-04-23 14:14:44,Sudheer Jonna,"Merge pull request #109 from chenc041/chenc041-patch-3
+
+chore: format code style in question - 87",True
+56d6b55dd4d0c1051f8bf27990dec12e3dcd974c,2021-04-23 12:13:46,chenc,chore: format code style in question 87,False
+3dbfefe8ddfe70c82676d0986aa65f7f397216e0,2021-04-23 12:09:10,chenc,chore: format code style - 87,False
+52d457e0ed8b4ee342228c59927a739ddec1e76f,2021-04-23 12:08:52,chenc,chore: format code style - 87,False
+8adea103c00151ca429138cb707e82f0edbacc42,2021-04-20 20:50:36,Sudheer Jonna,"Merge pull request #108 from sudheerj/dependabot/npm_and_yarn/coding-exercise/ssri-6.0.2
+
+Bump ssri from 6.0.1 to 6.0.2 in /coding-exercise",True
+f557989edc06538f3a58b0da2dbc081abbade3de,2021-04-20 03:01:31,dependabot[bot],"Bump ssri from 6.0.1 to 6.0.2 in /coding-exercise
+
+Bumps [ssri](https://github.com/npm/ssri) from 6.0.1 to 6.0.2.
+- [Release notes](https://github.com/npm/ssri/releases)
+- [Changelog](https://github.com/npm/ssri/blob/v6.0.2/CHANGELOG.md)
+- [Commits](https://github.com/npm/ssri/compare/v6.0.1...v6.0.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+9a16fe92d9a70341e0793eeaea57311b12e2ab94,2021-04-18 13:07:46,Sudheer Jonna,"Merge pull request #107 from pranavjeet123/master
+
+Changes  from Footer tag  to Header tag in example",True
+5c447efbe84956100f65e22a227230f1a6a4dbe3,2021-04-18 12:58:28,pranavjeet,Changes to header tag in exmple,False
+c97e68771ad936aa2258069b62d82990a1085e7f,2021-04-16 12:31:10,Sudheer Jonna,"Merge pull request #106 from chenc041/chenc041-patch-2
+
+Chenc041 patch 2",True
+9ce50e2a9404aaf3a7b77a6c8fe8e3dd1b397cf3,2021-04-16 12:29:42,chenc,"Merge pull request #2 from chenc041/chenc041-patch-2
+
+chore: format code style in 282",True
+1732cb6bf199936b62f43df799dbaf12a627fd8f,2021-04-16 12:28:20,chenc,"chore: format code style in 282
+
+format code style",False
+5e068b14c24fa47c10f15f86b76cc8df46ceeb68,2021-04-16 12:10:20,Sudheer Jonna,"Merge pull request #105 from chenc041/chenc041-patch-1
+
+chore: format code style in 142 - Using an API",True
+e838318fcd2d28a1e41e3aee4b6a006e3dfaf054,2021-04-16 11:52:09,chenc,"Merge pull request #1 from chenc041/chenc041-patch-1
+
+chore: format code style in 142 - Using an API",True
+8eab23618e3925c342b9dce6e27277e4e165c4c7,2021-04-16 11:50:14,chenc,"chore: format code style in 142 - Using an API
+
+format code style",False
+2731945819eebb156cdd394b2c1da1b7f316adb0,2021-04-13 23:43:12,sudheerj,Update HTML event name convention statement,False
+8d4e617e9ccbafb79b3987e2b0787e112c6d5759,2021-03-28 20:30:11,Sudheer Jonna,"Merge pull request #103 from aaronshivers/233
+
+233 - fix grammatical errors",True
+c868cd4a61ee69f0ccc572eb408de16af147543d,2021-03-28 20:28:57,sudheerj,Add prop drilling question,False
+26656f0824960cdb3ecfcac62e19ade3da5d3c78,2021-03-28 17:16:02,Aaron,233 - fix link,False
+4abc1e8b0576ea37f81d46e12b740402e849e69c,2021-03-28 17:14:21,Aaron,"233 - update with current documentation
+
+Fix grammatical errors, and update with [Documentation from Reactjs.org](https://reactjs.org/docs/error-boundaries.html#how-about-event-handlers)",False
+06f46234d79705a6297d26685afa38c8f57bb936,2021-03-15 22:33:01,sudheerj,Add ZeroToMastery to repo,False
+4bc0bf3dbfd79e2c20e87e7a0e8f50972a440a16,2021-03-11 21:06:01,Sudheer Jonna,"Merge pull request #99 from sudheerj/dependabot/npm_and_yarn/coding-exercise/elliptic-6.5.4
+
+Bump elliptic from 6.5.3 to 6.5.4 in /coding-exercise",True
+62a2b42d58f8bd37db15aa58f817b4095ce98a79,2021-03-10 22:53:11,dependabot[bot],"Bump elliptic from 6.5.3 to 6.5.4 in /coding-exercise
+
+Bumps [elliptic](https://github.com/indutny/elliptic) from 6.5.3 to 6.5.4.
+- [Release notes](https://github.com/indutny/elliptic/releases)
+- [Commits](https://github.com/indutny/elliptic/compare/v6.5.3...v6.5.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+1dc7f353110e016ce4a8c2f698f73073a7b55626,2021-02-25 20:43:53,sudheerj,Adjust header size,False
+187dc45222917d1178896c8fc1f70e064bf3cf62,2021-02-06 21:38:13,sudheerj,Add react server components questions,False
+85c344b440d083269256a3bd145b18a2568e2f10,2021-01-14 19:32:03,sudheerj,Add react-redux template question,False
+00e4079274c5a244918a7c71e5c450f59a44d7c0,2021-01-14 18:41:24,Sudheer Jonna,"Merge pull request #95 from foyez/patch-1
+
+fix code syntax in 87",True
+bf791e3c33893899069bd710ca94dfe489d18944,2021-01-14 18:40:53,Sudheer Jonna,"Merge pull request #96 from agchou/master
+
+fixes typo in question 34.",True
+3309781b0a3d9cd8023f4cdb9f9398a411fbedc2,2021-01-14 03:16:28,agchou,adds example of functional component for 51,False
+fa3ced8e17e682dd3576b60614cb1d47c69de217,2021-01-14 01:25:56,agchou,fixes typo in question 34.,False
+eb3da6037b46441c49fbf4330ea9f6b43bca3416,2021-01-13 21:23:55,Kazi Foyez Ahmed,fix code syntax in 87,False
+ab8d53f66b60c54fb18f59c6a95e26fb758ca3e0,2020-12-12 22:26:22,Sudheer Jonna,"Merge pull request #93 from sudheerj/dependabot/npm_and_yarn/coding-exercise/ini-1.3.8
+
+Bump ini from 1.3.5 to 1.3.8 in /coding-exercise",True
+632c75c2910c42fa10343846ecf9d8ffae8c0d6e,2020-12-12 22:10:11,dependabot[bot],"Bump ini from 1.3.5 to 1.3.8 in /coding-exercise
+
+Bumps [ini](https://github.com/isaacs/ini) from 1.3.5 to 1.3.8.
+- [Release notes](https://github.com/isaacs/ini/releases)
+- [Commits](https://github.com/isaacs/ini/compare/v1.3.5...v1.3.8)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+d99929b4e5abaac5d5919dc8560564c8f9d22999,2020-11-25 12:18:23,Sudheer Jonna,"Merge pull request #91 from anthonyk1225/readme-typo-325
+
+fix loduser -> loaduser",True
+d612d911d60d01a1ba391615dd2c35d7bbbc6f6f,2020-11-25 10:22:31,Anthony Keating,fix loduser -> loaduser,False
+f74ea9fa69d2c91f41c9a529d80cd862463c91a8,2020-11-02 21:52:24,sudheerj,Upgrade pandoc to 2.10 version,False
+1836b4ed1cca7166a56c08efa6efc008663afb07,2020-10-29 08:43:23,Sudheer Jonna,"Merge pull request #90 from AlissonEnz/patch-1
+
+Update README.md",True
+695e4b9156340f7e60792ba98509fa4c54b16a1a,2020-10-27 21:48:01,Alisson Enz Rossi,"Update README.md
+
+Remove duplicated Back to Top on question 82, and extended question 87 to remove one question 88 (There were 2 questions 88).",False
+4b54cd56aca40cf05264208a36ff7c01ba5bd3e7,2020-10-24 15:28:36,sudheerj,Add new JSX transform questions,False
+42dbbe0e97a3e9a3165dfa98d7e7aeadceacb233,2020-10-15 20:17:02,sudheerj,Update setState usage statement in componentWillMount,False
+05195b0783c101f03546160f25467b54c57a372f,2020-09-12 11:25:36,Sudheer Jonna,"Merge pull request #84 from sudheerj/dependabot/npm_and_yarn/coding-exercise/http-proxy-1.18.1
+
+Bump http-proxy from 1.18.0 to 1.18.1 in /coding-exercise",True
+cebc59f94880e108bdeb93e8cb6e7528457ecc94,2020-09-12 03:29:23,dependabot[bot],"Bump http-proxy from 1.18.0 to 1.18.1 in /coding-exercise
+
+Bumps [http-proxy](https://github.com/http-party/node-http-proxy) from 1.18.0 to 1.18.1.
+- [Release notes](https://github.com/http-party/node-http-proxy/releases)
+- [Changelog](https://github.com/http-party/node-http-proxy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/http-party/node-http-proxy/compare/1.18.0...1.18.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+f64f43ca0c2be233c829f9d6b3f7bef4a61d2f3a,2020-08-18 08:27:20,Sudheer Jonna,"Merge pull request #83 from ghanlohar/child-props
+
+Fix: Minor correction regarding 'children props'",True
+80651f6f6edb6bf205b70aeded150cdcdb7a19dd,2020-08-17 23:39:28,Ghanshyam Lohar,Minor correction regarding 'children props',False
+3c1cbe403200fb3d495ba09c631f40f8e5e5c7a1,2020-08-09 22:19:45,Sudheer Jonna,"Merge pull request #75 from sudheerj/dependabot/npm_and_yarn/coding-exercise/elliptic-6.5.3
+
+Bump elliptic from 6.5.2 to 6.5.3 in /coding-exercise",True
+68a19ed32cb8d26d6708d528042cc4523f56f4da,2020-08-02 05:14:08,dependabot[bot],"Bump elliptic from 6.5.2 to 6.5.3 in /coding-exercise
+
+Bumps [elliptic](https://github.com/indutny/elliptic) from 6.5.2 to 6.5.3.
+- [Release notes](https://github.com/indutny/elliptic/releases)
+- [Commits](https://github.com/indutny/elliptic/compare/v6.5.2...v6.5.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+a665e05dc3334d2c71d6ee3846e137a018f5fb9a,2020-07-23 09:32:46,Sudheer Jonna,"Merge pull request #74 from dididy/master
+
+[#73] link in table of content is broken. (325)",True
+8dc48ba271ee1ac7580008d1cceb30506eca21f4,2020-07-23 07:03:09,Yongjae Lee,[#73] link in table of content is broken. (325),False
+cf1999a4ad72a1ade64310cfb57f9fd9f891c147,2020-07-20 19:00:27,Sudheer Jonna,"Merge pull request #71 from inblack67/pr/context-api
+
+Authenticate User On Page Refresh In Context API",True
+a932d41010c60458d4f4e701913e0c1536076221,2020-07-20 18:59:40,Sudheer Jonna,"Merge pull request #72 from abachi/master
+
+fix typo",True
+6c75b0f402a0e30b0c011be16803b57dd32e5592,2020-07-20 14:27:25,Nasser Abachi,fix typo: arrow istead of array,False
+cf4b22f42f662e23b7cf4c8c5b3445d95526bd31,2020-07-20 14:19:20,Nasser Abachi,fix typo,False
+c57ab5e1b4bc6424d58a4b1766343f405bfbc3bd,2020-07-19 22:29:59,Aman,Authenticate User On Page Refresh In Context API,False
+521928eb5c6f83ce9819c498edbd8eee3e3b9e6d,2020-06-12 21:32:33,Sudheer Jonna,"Merge pull request #65 from sudheerj/dependabot/npm_and_yarn/coding-exercise/websocket-extensions-0.1.4
+
+Bump websocket-extensions from 0.1.3 to 0.1.4 in /coding-exercise",True
+0ed258f8e2a84e5894b7af50dc5b6380ae8adc3b,2020-06-12 21:30:27,sudheerj,Improve content based on feedback,False
+f217fc6b8beec3ef2fd02c0a0a41422d7578bad8,2020-06-08 11:50:16,dependabot[bot],"Bump websocket-extensions from 0.1.3 to 0.1.4 in /coding-exercise
+
+Bumps [websocket-extensions](https://github.com/faye/websocket-extensions-node) from 0.1.3 to 0.1.4.
+- [Release notes](https://github.com/faye/websocket-extensions-node/releases)
+- [Changelog](https://github.com/faye/websocket-extensions-node/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/faye/websocket-extensions-node/compare/0.1.3...0.1.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+490fdcd8b7b4a5eef69e0e7181e25aee34ea0f2d,2020-06-07 17:01:50,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+ef1fe9e5bbd1e7563667a35750116cedb17a089b,2020-06-07 17:01:40,sudheerj,Improve the format of questions and answers,False
+daa6140c667774154579fa33767b4e80c955888c,2020-06-04 07:31:21,Sudheer Jonna,"Merge pull request #64 from anishagg17/patch-1
+
+Grammatical mistakes",True
+0f4ba06d84418f5c18a595c3f35613435e751a00,2020-06-04 04:42:58,Anish Aggarwal,Grammatical mistakes,False
+5dca9e4d9fb06c667b6fb75e1dfaa26d29cfd749,2020-06-03 20:26:55,sudheerj,Improve the format of questions and answers,False
+12678924a2c6ba818c58adeff852c36d4b822706,2020-05-09 18:02:29,Sudheer Jonna,"Merge pull request #62 from filipw01/master
+
+Correct Likde to Like",True
+08055369dc1f5e2436ec2690ce1e90ed59927963,2020-05-09 15:30:52,Filip Wachowiak,Correct Likde to Like,False
+87b51c21ed0fbac5fa3e9c72e7bf564bd24b2fb2,2020-05-08 05:25:26,Sudheer Jonna,"Merge pull request #59 from willbuckingham/patch-1
+
+Fix indent 323",True
+8939633cd885dc3f9d615a457144bc1dac2b9ea2,2020-05-07 22:22:38,Will Buckingham,Fix indent 323,False
+d3a95c7bda2c4317a5ac8da4a181385374217e19,2020-05-07 21:31:05,Sudheer Jonna,"Merge pull request #58 from yashints/master
+
+Added export to PDF and epub using a GitHub action",True
+1ff900fb9238947398c3df17b02c2d0713483ed2,2020-05-07 14:54:49,Yashints,Added PR trigger,False
+0a37db28ffc1cd436249ad27fa297974a5495f15,2020-05-07 14:52:44,Yashints,Reverted change #2,False
+9826850ff088ae1e77d63b404ec5cae3fe359d7c,2020-05-07 14:52:03,Yashints,Reverted change,False
+fb4ceee31d5c8af988552ef5c4f309ff0aa02ae4,2020-05-07 14:49:28,Yashints,Added pdf/epub export,False
+b71a06b2335ada73356cdaf07f5d501612dcbbef,2020-05-07 07:29:56,Sudheer Jonna,"Merge pull request #57 from zirmax/patch-1
+
+fixed grammatical error in 311",True
+c4aab0be8d96c5f83775a0883a64c89db6373260,2020-05-07 00:38:45,Maximilian Zirps,fix link to chapter 311,False
+e4ddbcae01109c72673b0f3f9ca731ed49b5e1eb,2020-05-07 00:36:17,Maximilian Zirps,fixed grammatical error in 311,False
+6e79bd812d7b2be96d9c4aa356ea9568b4ff005d,2020-05-06 21:18:55,sudheerj,Initialize coding exercise repo,False
+6ff5039c1902270d3a51606025f4b564021066cb,2020-05-06 10:28:29,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+f0b304a29ace7c5de22cb690c75e616c971a4217,2020-05-06 10:28:22,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+7bd792ed3ddf5fb62b12764cb5afd00ca4796c25,2020-05-06 10:27:39,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+600abfbabb4ebb0fb4547b7f52f73936eebaec6b,2020-05-06 10:27:33,sudheerj,Add note for comparision questions,False
+a7638c6bab59d2810f3620019c2e2b86e5457bd4,2020-05-05 11:19:39,Sudheer Jonna,"Merge pull request #56 from willbuckingham/block-quote-fix
+
+Corrected a few block quote formatting errors",True
+81805234f5ed766b9cbc1506da2666610d015e69,2020-05-05 03:25:49,Will,Corrected a few block quote formatting errors,False
+5f2de277bebad3a4ef5ce6f80294741712ddd14e,2020-04-19 09:06:54,Sudheer Jonna,"Merge pull request #53 from zonayedpca/patch-1
+
+Some minor fix",True
+86aa1ff81eb918616d273261a3618fb29c11928d,2020-04-19 08:18:12,Zonayed Ahmed,"Link Fix
+
+Fixing the link of No. 321 question...",False
+d03a48e8bd5b091d33b13de8927a83f0cb32dc01,2020-04-19 08:12:27,Zonayed Ahmed,"Update README.md
+
+A Simple formatting fix... I think ```<a href>``` is supposed to be inside an inline code element. Otherwise, it makes the whole content behave like a link tag...",False
+09ab544943cc7359671f24c9e7b98bca9f3a51d2,2020-04-13 19:12:20,Sudheer Jonna,"Merge pull request #52 from Lokeshm24/typo
+
+fix a typo in question link",True
+0f9244713102c3ea76d49751f768571453d335c9,2020-04-13 13:17:50,Lokeshm24,fix a typo in question link,False
+982df072b80a185bda33386df7f7bbd4c62f5027,2020-03-05 20:17:29,Sudheer Jonna,"Merge pull request #48 from oszbart/fix-link-to-118
+
+Fix link to question #118",True
+04eca03fa7f4499349f5eceeccfd09a675366eea,2020-03-04 01:34:27,oszbart,Fix link to question #118,False
+1d20332df2bd0837dd61d9631dd443c0e152764f,2020-02-25 23:33:40,Sudheer Jonna,"Merge pull request #47 from ProgaPanda/patch-1
+
+Fix a typo in the AJAX call question",True
+0903188c24c55e4041d98f968c7da4c1361feccd,2020-02-25 23:32:11,Sudheer Jonna,"Merge pull request #46 from muzakparov/master
+
+Fix pointer event name",True
+6a828e87161688e9f6371b9a5134a061cc88253d,2020-02-25 14:33:29,Khaled Albarawy,fix 'item' typo into 'employee',False
+da013d7fc522656b0576befef3b39a5a65bd0352,2020-02-25 14:25:45,Khaled Albarawy,Fix a typo in the AJAX call question,False
+4e4e6fdfeb85cfda49b069f445ab953df808cb38,2020-02-21 23:46:37,BM,Fix pointer event name,False
+3ae93da18ff83a04a7c3cbe2b42208dd9999932d,2020-01-27 15:57:10,Sudheer Jonna,"Merge pull request #45 from ajaykumar97/master
+
+Update README.md",True
+c7d2884e54497872b1229a5e0208be1bf82ffed3,2020-01-27 12:04:47,Ajay Kumar,"Update README.md
+
+Fixed typos in Question no. 82 and 83",False
+70977a460eeb26b4004349cc798a987ab215b3e8,2020-01-27 11:01:23,Ajay Kumar,"Update README.md
+
+Fixed a Typo in Question 51",False
+92ce7d35c7aee59d5768db7f1a0ec9926fdc0606,2020-01-04 08:40:07,Sudheer Jonna,"Merge pull request #44 from maheshwaghmare/patch-1
+
+Update README.md",True
+31a72b6650767e2f01b96a646bb8756aa511bfb5,2020-01-04 00:22:22,Mahesh Waghmare,Update README.md,False
+4ab2655bce558e67855d64cfaf3494655cad3dec,2019-12-28 14:40:57,sudheerj,Add typescript benefits questions,False
+42ce04aa2e4af59c3632c144dfa9f7e5c31917ea,2019-12-15 17:48:24,Sudheer Jonna,"Merge pull request #43 from thecodejack/master
+
+React.memo for memoization of component",True
+bf58036f4a413d05cb40a802e6132b69b88411b4,2019-12-15 13:26:29,unknown,typo,False
+acc6f05c89be7284c022f83e396911b7941329ff,2019-12-15 13:25:10,unknown,Add React.memo into memoization question,False
+117c57ed6820ed3b5fa357639fa84f70a2f9db6e,2019-11-25 17:25:45,Sudheer Jonna,"Merge pull request #42 from sakhidamaulik/master
+
+Added question 323. What is the difference between Imperative and Declarative in React?",True
+62c407420b422c7e82b74009968cadd781f71b9e,2019-11-23 18:32:16,Maulik Sakhida,Update README.md,False
+0b1be682193429511899b6197ee0519525bdd1e8,2019-11-23 18:30:51,Maulik Sakhida,Update README.md,False
+26def984c9f74f6fcbadcf88b239079261f74a0b,2019-11-23 18:30:05,Maulik Sakhida,Update README.md,False
+a803407ad6c49d14679db690b70980a105179043,2019-11-23 18:24:16,Maulik Sakhida,Update README.md,False
+7c1bc807388620f3ec67c7f956568649c1670f2f,2019-11-23 18:21:48,Maulik Sakhida,Update README.md,False
+da74861b23250fd666a397802c237722238d5424,2019-11-23 18:17:50,Maulik Sakhida,Update README.md,False
+92062cd604bfa99a6aaac23219bdbf76a15362f5,2019-11-23 18:15:22,Maulik Sakhida,Update README.md,False
+65e315fa61bf2cc6c0843097bd0a96689657fb94,2019-11-23 18:09:57,Maulik Sakhida,Update README.md,False
+fc8c048f58735a117ba88b1ca57b1ac716fee7a6,2019-11-23 18:06:49,Maulik Sakhida,"Updating question 323
+
+What is the difference between Imperative and Declarative in React.Js?",False
+854b3cc628420ec84b2bd50743537b2c98b80b14,2019-11-17 10:54:54,sudheerj,Remove duplicate question about useState,False
+47db80304c2cccb6e59506c8d30b292d79bb3a06,2019-11-13 20:41:11,Sudheer Jonna,"Merge pull request #41 from yanyue404/master
+
+Fix format No.322",True
+bda2c187403cfc7f418461fe6966bc23a3700451,2019-11-12 21:57:33,RainBow,Fix format No.322,False
+01f9a4a40e1cb61034441d438ec8f30b7f22d030,2019-10-28 12:06:11,sudheerj,Add hooks array destructuring question,False
+70188bffdf5bb0e18dd2fb5ff3e223259e0a66ee,2019-10-16 17:40:50,sudheerj,Add wording changes for questions,True
+2058cdf4c8fa62bb2243a7a03d8ec8c60ca4b684,2019-10-16 17:38:30,sudheerj,Add missing back to top contents link,False
+379e32adf7c3d95220712e3493922ab9b19009f6,2019-10-16 17:30:40,Sudheer Jonna,"Merge pull request #39 from jinster/253-grammar-update
+
+Updated question 253's wording",True
+72337e85e34ccc0680e834aebbcf927404f179e1,2019-10-15 23:28:54,Alvin Kim,updated ToS link for 253,False
+124f9bba81ca7b7351246377def416ca1c5dc1c0,2019-10-15 23:27:12,Alvin Kim,Updated wording for question #253,False
+36e5eeae08c6db0e22fd23660538927b5a0b90ea,2019-10-15 06:08:14,Sudheer Jonna,"Merge pull request #38 from Ankur-Marwaha/patch-1
+
+Adding a point to question 13",True
+8bbd4a1cc7acc3e5dc080b2674b6ce0823de7452,2019-10-14 23:31:17,Ankur-Marwaha,Adding a point to question 13,False
+764b85d42bb12e8a6e3684d95816767d0cd9de9c,2019-10-12 15:26:00,sudheerj,Add hooks eslint question,False
+a118ad291856cb57e73f14acfcc19088d4cba333,2019-10-08 05:23:20,Sudheer Jonna,"Merge pull request #36 from Mariotek/master
+
+add back to top link",True
+7955693096bf2f0c53714e493ef464e305e453df,2019-10-08 05:22:49,Sudheer Jonna,"Merge pull request #35 from NaveenDA/patch-1
+
+Add CSS Reset",True
+a225d1529942bc7e1e34e97cb149b292a888a933,2019-10-08 05:19:50,Sudheer Jonna,"Merge pull request #37 from puneet222/master
+
+Updated Question no 50,",True
+54b28db008f8748b24954f6db40c737959d77bd0,2019-10-03 23:29:29,puneet aggarwal,"Updated uestion no 50, added additional update that is intoduced in React 16",False
+5ab4c47b89550dc7d76dace905589abed41553e2,2019-10-03 08:53:33,Jafar Rezaei,add link to last one and remove from top,False
+04262fe4eb7c33ee0a0105d6b084c9214917cd13,2019-10-03 08:50:06,Jafar Rezaei,Update README.md,False
+b582743f7953294fb3a158011ea7708b73654811,2019-10-03 08:44:21,Jafar Rezaei,"Update README.md
+
+add back to top link",False
+22dbf3df628dc263c333f8d955167a30bde35708,2019-10-03 08:37:25,Jafar Rezaei,"Update README.md
+
+add back to top link",False
+ba760c7cf562259ab084e6793e302920614e3577,2019-09-23 17:33:40,Naveen,"Add CSS Reset 
+
+Add CSS Reset in What are the features of create react app?",False
+a85e500d9858d47917ce38ffeef145981b01877c,2019-09-22 16:08:00,Sudheer Jonna,"Merge pull request #34 from ErKiran/master
+
+Added missing * on unidirectional",True
+428dd4ee6e506c7484ca4096403354335aee1694,2019-09-22 14:17:50,Kiran Adhikari,Added missing * on unidirectional,False
+ffeb031518826adc18286bab427710540ff01108,2019-09-21 21:34:11,Sudheer Jonna,"Merge pull request #33 from edemagbenyo/class-over-function-component
+
+Add extra information on the choice of class component over function component",True
+c78c3ca686798b51139524959e6e9d11604969af,2019-09-21 18:46:34,Edemone,Add extra on the choice of class component over function component,False
+24e4da9cee9ca5e50d7a2e46aea470462bc5901b,2019-09-09 18:11:00,Sudheer Jonna,"Merge pull request #32 from WinstonMarvel/master
+
+Fixes issue #31",True
+d114a8da210e0bcff6b86a76c27ddc3b7402efb4,2019-09-09 15:18:02,Winston Marvel Jude,Fixes issue #31,False
+db7ff55ae4a3bdc559cd37f7de91e82db2ad5062,2019-09-08 16:06:31,sudheerj,Add javascript urls question,False
+179c1ce2b1dc07b29d0ed97107e752624c01dd55,2019-08-14 22:18:26,Sudheer Jonna,"Merge pull request #30 from BodyCount/patch-1
+
+Slightly misleading answer",True
+959304a842079ce172cc33359a8c4abba424b158,2019-08-13 15:01:02,BodyCount,"Update README.md
+
+The question is in the form ""How"" rather than ""Can I..."" so direct answer seems to be confusing. I consider at least two ways of handling this confusion - remove the direct answer (which I did in this PR) or change the question to take shape of the answer (i.e. 'Can I access Redux store outside a component').",False
+d1bd543acaad19d61591da814c71a5b2b0ea02f7,2019-08-09 00:46:28,Sudheer Jonna,"Merge pull request #29 from sahajre/patch-1
+
+corrected property name",True
+9ef9e10bc48ffa31619e9166d604e1a0f3a63219,2019-08-08 10:12:23,Rahul Madhav Upakare,"corrected property name
+
+The property name in es5 example should be ""someData"" to make sense of equivalent es6 example.",False
+19c32d22aea11801ee0d778654387a0be9e3fc8f,2019-08-02 21:20:06,Sudheer Jonna,"Merge pull request #28 from uladzislau-stuk/mapdispatchtoprops_object_shorthand
+
+Add object shorthand syntax for mapDispatchToProps",True
+1e24020de1064569fcfb77318a58a742a1388174,2019-08-02 16:41:59,Uladzislau Stuk,Add object shorthand syntax for mapDispatchToProps,False
+d126a318ef41c37d262a954f833de2ecd945771f,2019-07-28 16:10:07,sudheerj,Add concurrent mode questions,False
+6719d556bc77e839a064ceddfec00753c65776a2,2019-07-28 11:05:43,Sudheer Jonna,"Merge pull request #27 from zxhycxq/master
+
+Markdown Syntax",True
+78dccf1c1d8eacaedf3ce466dd7e580f48d1ee09,2019-07-28 07:53:51,HelloWorld,"Markdown Syntax
+
+317 Markdown Syntax was Wrong",False
+481f0874f81bf3b56de437a7851b31f821ea4329,2019-07-24 20:02:18,sudheerj,Add comparision of Redux and MobX,False
+13db724fa5c891dd1c9b56762ae403731d4a90be,2019-07-22 05:42:31,sudheerj,Add ES6 and React questions,False
+954d4458578ebaec62b0cfe2027f697466398f88,2019-07-21 15:42:48,sudheerj,Remove duplicates on component naming,False
+283bf74d2b327de188ead46bf47d6cc3b1fbfd6b,2019-07-18 21:03:51,sudheerj,Add MobX questions,False
+0fa79a874d3c2cbf60a9425385168ebb02391f54,2019-07-18 20:49:43,sudheerj,Add ReactDOMServer API question,False
+649a8fd0d3403ee9ba7c47c2f713965a1b7027fd,2019-07-17 17:31:45,Sudheer Jonna,"Merge pull request #25 from WestCoast5550/patch-3
+
+fix 100 to make it work",True
+0d670983bb93c08caa94765b33419dda8b3a2f4b,2019-07-17 15:59:00,Anton Zalaldinov,fix 100 to make it work,False
+22428d7d90b6ed09935a8102a3ed8d8fafc5f141,2019-07-15 21:08:47,Sudheer Jonna,"Merge pull request #24 from WestCoast5550/patch-2
+
+update 22 with createRef() approach",True
+bcee8899586bf7a0aedbbe52b139f1e1f4d38e35,2019-07-15 20:45:07,Anton Zalaldinov,update 22 with createRef() approach,False
+2888021f5b19539b7d686c8da8439223e5066cc6,2019-07-14 21:32:52,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+4128eb5a7abbfbbd309b702ce4b7881c4e19cb10,2019-07-14 21:32:49,sudheerj,Add create react app questions,False
+12d6583181af4294f625eaccfaf2bd29394e8018,2019-07-14 20:08:41,sudheerj,Update typescript support question,False
+f73a54d9e608b5c3d6da64f07538f544190b1a4f,2019-07-03 19:33:56,Sudheer Jonna,"Merge pull request #23 from ibk6/patch-1
+
+Added missing login text  in jsx",True
+a28e2262665896f1cda7d739764a684259ae7d81,2019-07-03 15:53:43,Bala,"Added missing login text  in jsx
+
+Login text added as child. 
+Transpiled code has 'Login' as child but jsx code didn't have 'Login'",False
+b18964f7d7dc98a83fb51250c5f9a0039a6a9b2a,2019-07-01 21:23:03,sudheerj,Update questions with latest changes,False
+269cf551435ed6a0adf1cf4fbdf1efec2049b7a6,2019-06-30 21:30:44,Sudheer Jonna,"Merge pull request #20 from omerg/broken-anchor-links
+
+Some links in table of contents are broken. (233, 249, 267, 306 )",True
+cdb3cd0d5a5db4e054d57859ccda3cbee6e27d97,2019-06-30 21:29:30,Sudheer Jonna,"Merge pull request #21 from omerg/typo-fixes
+
+typo fixes",True
+fd420c038632766a02fb0a81f8a38f99eec1813d,2019-06-30 15:54:02,Ömer Gürarslan,typo fixes,False
+354918093dd11efdb7da7e22a2a1180e79dd06e0,2019-06-30 15:43:16,Ömer Gürarslan,"Some links in table of contents are broken. (233, 249, 267, 306 )",False
+a50cdb28007c036e888380d3222cbf13cde686fe,2019-06-30 00:05:36,sudheerj,Add JSX and react data flow questions,False
+26aa3020ed246c3d938eb40d3d769c0d9d73c5e1,2019-06-23 10:25:17,sudheerj,Add redux questions,False
+9e7215a16de9cb2e2c04fe0b761e656d56e065fd,2019-06-22 10:11:51,sudheerj,Add formik question,False
+183bf52361994731eb401269a10f36454901db59,2019-06-12 19:27:53,sudheerj,Update event parameter question,False
+67d023f120ab215e481acc98aa2ef93d3a846faa,2019-06-11 05:43:40,Sudheer Jonna,"Merge pull request #17 from coreyshirk/master
+
+Fixing typo in Mixins should not be used sentence",True
+2edc83cdaea21b4ee813cb46e1cf99de55a82cc4,2019-06-10 18:01:53,Corey Shirk,Fixing typo in Mixins should not be used sentence,False
+fb559d28903dbadc658132cc9e994410d1068c38,2019-06-04 05:24:45,sudheerj,Add web components questions,False
+6bd87a6efab9e83668ac43fa5f82012f8e69847b,2019-05-27 07:00:52,sudheerj,Add hooks questions,False
+1a1c4cdb11eedc01b78d624afd9a760a09cdf6ea,2019-05-22 06:52:07,sudheerj,Add hooks questions,False
+bec0a5bf49b43a87417fa84c816b3a069a9ff6a2,2019-05-21 06:36:57,sudheerj,Add hooks questions,False
+69e7d67e6b753b13391b59d8359e6fa40174903a,2019-05-18 21:58:57,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+234cb7d39869122586bae741dc1b55db376b74f3,2019-05-18 21:58:38,sudheerj,Add contacts details,False
+5d63cd60bcec075422af9f51912c3fcd33b4f5a8,2019-05-15 07:06:19,sudheerj,Add contacts details,False
+7ebd82615e0ff3c1a18a3998e1d092baf04a46d3,2019-04-14 08:48:12,sudheerj,Add hooks questions and answers,False
+3f70edabae908870ee15ffbe18292f56f15ba8a8,2019-04-14 06:30:43,sudheerj,Add hooks interview questions and answers,False
+55306669f1bd03894ca1ebf76eb594d55d724ffb,2019-04-11 16:02:24,Sudheer Jonna,"Merge pull request #13 from dhrubesh/patch-1
+
+Fixed a typo",True
+d04f8d03dbd9ecc5b3235af2cce039f6f8b51c2f,2019-04-11 16:01:44,Sudheer Jonna,"Merge pull request #12 from lehaSVV2009/master
+
+Make div in README visible for markdown viewer",True
+bcdc05e81241812dbcebad1eccbcadd2171dfe65,2019-04-11 00:03:34,DIO,Update README.md,False
+bd02d25e29d7fdea875a28e5143e895c061400e8,2019-04-09 22:48:01,Alexey,Make div in README visible for markdown viewer,False
+e4b1c608a5890bfc059140b58efafb69147a324b,2019-04-03 05:58:59,Sudheer Jonna,"Merge pull request #11 from MShwed/master
+
+Fixed grammar mistake",True
+5e2089d73a11947c276f1894322508bee14ef037,2019-04-02 21:26:06,mshwed,Fixed grammar mistake,False
+96b84b950684d8f6e2634ea80d36e0708c5433e6,2019-03-29 18:38:04,Sudheer Jonna,"Merge pull request #10 from Cygra/master
+
+fix blank line @217",True
+402f378917a8e8262a650c6fdd505c20ee9e3332,2019-03-29 15:03:40,Cygra,fix blank line @217,False
+464ae72acb0bede99774b008db818b849fc794d2,2019-03-05 18:31:04,Sudheer Jonna,"Merge pull request #9 from augbog/react-16-lifecycle-methods
+
+Add React 16 lifecycle methods",True
+6dd2fa66d4d2874b887fa632ed28eff2acb9192d,2019-03-05 06:32:13,Augustus Yuan,Add React 16 lifecycle methods,False
+5b72cf929b87645f5723fca900250b807e39e83c,2019-03-03 17:44:46,sudheerj,Add miscellaneous questions and answers,False
+354fbbaee046d56d1c35bedd90da9635fcdda50f,2019-01-11 06:05:33,sudheerj,Add styles and reorder questions,False
+88d20030a5a898edb611a10dc08cb74aabb300c5,2019-01-06 09:06:49,Sudheer Jonna,"Merge pull request #8 from yashwanth2804/master
+
+fixed typo error @Q 272",True
+58976afc0076eecae4465ec495fb554d0fcc3290,2019-01-06 08:24:23,kambala yashwanth,"Merge pull request #1 from yashwanth2804/yashwanth2804-fix-typo
+
+fixed typo error, question @272",True
+9a2cfa6a83e16f0db56d6796768001f1fd0ba75a,2019-01-06 08:23:19,kambala yashwanth,"fixed typo error, question @272 
+
+changed from `user` to `use`",False
+0fb9f825774fa61dd8c92914125e5652d20245e2,2018-12-31 15:31:34,sudheerj,Add react general interview questions,False
+8290addc3e27df2bb7266a5cb3e71e7b980911da,2018-12-30 23:53:11,sudheerj,Add JSX interview questions,False
+aa59ea7cce89e77aeb34a960d97692df322ca667,2018-12-30 21:32:35,sudheerj,Add performance interview questions,False
+4289a74d6d1c56a60f8252fec3b6f0a7698b9e12,2018-12-30 20:03:45,sudheerj,Add render props interview questions,False
+7304fdedc25d35f18132a7d2410aadc65ecb8530,2018-12-30 16:50:19,sudheerj,Add ref interview questions,False
+5af2246c10e15c90f913f43c756691f9db863cd6,2018-12-30 15:09:15,sudheerj,Add reconcilation interview questions,False
+7216610b3ace8b3d2f1bb9039f0e2bbd16105935,2018-12-30 10:19:28,sudheerj,Add react without es6 and JSX interview questions,False
+b785ee17bb9e6dbb5096d1cf4da529b86c2c7fe5,2018-12-29 22:09:20,sudheerj,Add forward ref interview questions,False
+cda34002ec64ed0079e730374e045a6ac2eb5b11,2018-12-29 20:07:16,sudheerj,Update error boundaries interview questions,False
+f19227974b35cd198ea35df3e35e76e442d981fc,2018-12-29 15:25:38,sudheerj,Add context related interview questions,False
+4de55a30825c896439f196b9ec34d656bf815216,2018-12-29 09:29:21,sudheerj,Add code spliting interview questions,False
+85c0249a55bf7a3bfb9b3af45d7b99b4ad39002a,2018-12-27 11:13:51,sudheerj,Add miscellaneous interview questions,False
+7881ddb091cf498115637a3e7c24da4ecf55eeb6,2018-12-26 20:36:46,sudheerj,Add formik interview questions,False
+812098c633c2babdf673ae67855a884a4cf0528c,2018-12-26 16:07:51,sudheerj,Add core react interview questions,False
+0c1dfa9bee2411b166ff0b9fa5639eef98f768c2,2018-12-25 23:48:06,sudheerj,Add elements interview questions,False
+e2f1fce89a81040ff6e329843578e20ffae1d3e9,2018-12-25 13:08:52,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+f8d96c941850a57d92b5c3a9b0f322311559652f,2018-12-25 13:08:03,sudheerj,Add JSX interview questions,False
+ab852d1a47b50b35e0be920de9f90301cc7b1174,2018-12-14 20:10:47,Sudheer Jonna,"Merge pull request #7 from barrymichaeldoyle/master
+
+Fixed grammar mistake",True
+0a0e107a633d0d7e6bb8967e2470392cc925ecb3,2018-12-14 17:17:18,Barry Michael Doyle,Fixed grammar mistake,False
+5945c4be2cb56a9cd476a6b0bd568d8e8f7ef3ab,2018-12-13 17:13:55,sudheerj,Add function usage in render interview questions,False
+95e68a995451504ac27596065fcb6dfeea573186,2018-12-11 22:11:59,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+4dc2dc67d20999766d13b0fa88795346c0796c45,2018-12-11 22:11:11,sudheerj,Add function interview questions,False
+c77a9d856eafaf8cdfd2fb5300ae30d0ad53f54c,2018-12-11 20:43:22,Sudheer Jonna,"Merge pull request #6 from uronly14me/feature/inlinecode
+
+Fix typo of inline code",True
+ee400d6d67c5e6336a3eaa0fc953c9a7607bc38e,2018-12-11 20:14:11,Sangbeom Han,Fix typo of inline code,False
+2b877b4a0e90d46e5a5b8d365c7c53ff109f3f89,2018-12-11 17:14:29,sudheerj,Add nextjs interview questions,False
+bd63e11993cce65638a6d7a431538af1a94449f1,2018-12-04 19:51:31,Sudheer Jonna,"Merge pull request #5 from SayBGM/master
+
+Modify unnatural inline conditional source code",True
+72885ff377a513e078a85deaa391ac5f85ff74dd,2018-12-04 19:13:56,SayBGM,"Edit inline conditional expressions
+
+Example of Inline Conditional Expression Fixes that source code is unnatural",False
+a32a092050726e7ceed57ba63eb0c37906736b66,2018-12-04 07:04:57,sudheerj,Add props interview questions,False
+889fe63311a08c0294e8a4cceca2ec0cafc6f350,2018-12-03 18:58:14,sudheerj,Add miscellaneous interview questions,False
+0b9dcb85889ee8624d9350ce774e72578ba74f13,2018-12-03 07:12:04,sudheerj,Add fragment interview questions,False
+e8094b02f9ba029013a0b3ae7f27729045810ea2,2018-12-02 21:55:38,sudheerj,Add strict mode interview questionns,False
+8dc23ce0e5e96bab70e934258b1900d71b5adc85,2018-12-02 11:51:49,sudheerj,Add various methods interview questions,False
+86ea8c30190005efd8760d8ae0eb88a65b41b412,2018-11-30 22:11:14,sudheerj,Add state related interview questions,False
+d3de20d540e842805b3278e2d7a79ce7aa5a1276,2018-11-30 19:17:21,sudheerj,Add constructor interview questions,False
+336fe8804c767985b6370f4a03975212baa73026,2018-11-30 18:56:24,sudheerj,Add render  method interview questions,False
+de4c7e236d283aca13d40a8cbdab215df164af79,2018-11-27 18:51:02,sudheerj,Add error boundaries interview questions,False
+4d5b81ebf14151119d2cf7a6883ccf680150fad3,2018-11-22 07:53:18,sudheerj,Add interview questions related to error boundaries,False
+9e64bf53785669ba7a25012bcfbd09fe1f60206f,2018-11-21 06:39:52,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+2535da085972ad704ace678a290df3c374616a70,2018-11-21 06:38:49,sudheerj,Indent questions and answers,False
+eafb7eff629f33523f9c49ed0ec8139b5cbbe809,2018-11-21 06:33:13,Sudheer Jonna,"Merge pull request #4 from koronya/master
+
+Connect missing links",True
+00f7109cd1789ac315383fdef392af463d5ab6e3,2018-11-20 22:48:10,KiHoon Shin,Connect missing links,False
+7cc7458ac897a1c6dae6d8ea6565504fe0d1398f,2018-11-20 18:06:06,sudheerj,Add react router questions and answers,False
+7de62ec3da9064a72dcd4f972edc6666cb4d2f3b,2018-11-20 08:03:10,sudheerj,Add flux interview questions and answers,False
+5f1ff962004461c675986a60ca30a30bcc51e522,2018-11-19 16:51:40,sudheerj,Add hooks interview questions and answers,False
+dacd3b60e6cf5ac80b85dc9f96c63766449b8e76,2018-11-13 07:34:11,sudheerj,Add latest reactjs questions and answers,False
+348c1ca758ba8730de0a48c89e51c6406bde23b6,2018-10-26 20:57:25,sudheerj,Add React new features,False
+cab1706c0e103f2738cb688240130eff0913c686,2018-10-26 20:03:52,sudheerj,Add new questions and answers,False
+ce42e4fcd7b2a9d9a27d3ebf1cf456fc0df57e8c,2018-10-21 22:02:08,sudheerj,Add new questions and answers,False
+a7a751e50197902d3634f3a4a68f73444d2100f8,2018-10-16 22:01:36,sudheerj,"Improve the format, correct the content grammatically and technically",False
+a71f3051b504fc40749114d0b4124bd2bb5d7a2d,2018-10-14 22:49:32,sudheerj,Review refs and HOC topics,False
+1bcc8743879ff1b39bb5a94d35b535e8d522a98e,2018-10-14 14:39:38,sudheerj,Add new questions and answers,False
+ae9d49602e7a60d70377ecabd6a306d026143fbb,2018-10-13 23:17:02,sudheerj,"Add JSX,Html and javascript code block syntax",False
+f91637d322ede452f1d3547be131c7006862a773,2018-10-13 22:34:34,sudheerj,Add JSX Code syntax blocks for code snippets,False
+6e68b6e9bf6e343351040d7acdd3f96435f2499a,2018-10-13 22:22:25,sudheerj,Review questions and answers,False
+5a31d1329461390fe7939c38418c9ac01d483b87,2018-10-13 00:18:17,sudheerj,Merge branch 'master' of https://github.com/sudheerj/reactjs-interview-questions,True
+dee6515abe2bca6dfbb911228520cbe3f3b9ac57,2018-10-13 00:17:17,sudheerj,Add latest features of ReactJS as questions,False
+cfdc10e7a24f45a269011756d13fb7f467b43f84,2018-10-12 22:14:22,Sudheer Jonna,"Merge pull request #1 from muisoft/feature/update-readme
+
+Review changes",True
+f097c9eb522db78f07f4fc87de0c841378198f96,2018-10-12 21:11:12,muideen,Updated readme,False
+4a0cec1998696ea15cd13d35b6e85486bfe8781f,2018-10-12 07:47:03,sudheerj,Review each question gramaticalwise and technicalwise,False
+3cc5d36a1b1e48e319e6d3fc562aa1dfd06a5fa5,2018-09-24 07:00:44,sudheerj,Add logo for the github series,False
+31d7ad28482c24dd810053e75190a31ee64dc595,2018-09-05 18:51:39,sudheerj,Reorganize all questions and answers with subtopics,False
+8d1f83ba85c2681c2d2ee6fbe88a4dd692f4be82,2018-09-01 13:05:21,sudheerj,"Testing, frameworks comparison an native topis questions",False
+ae579f0dd38c4e9e21c409f517e62889bff770a3,2018-09-01 00:37:15,sudheerj,React best practices and recommendation questions,False
+a639a855582e3fb0b56c56023789c9ff9454f884,2018-08-31 23:41:29,sudheerj,Reactjs supported libraries questions,False
+f903e1686ed2bc4371155acc73f48d5f5846b91d,2018-08-31 22:33:09,sudheerj,React miscellaneous questions,False
+79fd9d5d0688cef40738dd549f418850cf97f602,2018-08-30 21:23:47,sudheerj,React with external libraries integration questions,False
+0147e87425d3331f72ad8eb4d2f546960cf693c2,2018-08-30 06:41:22,sudheerj,Add Redux middleware and tools questions,False
+f4700345e89ddacdaa9973fcae2ebc6bc47ba896,2018-08-26 22:31:07,sudheerj,Add 100-150 interview questions and answers,False
+b4d80964590ba6350d2d1a111e07c53585c78f7b,2018-08-05 23:12:47,sudheerj,ReactJS next 50 interview questions & answers,False
+670e9ad5d1a118bed5d8e19079593cd92558ff58,2018-07-07 21:56:05,sudheerj,Add ReactJS interview questions and Answers,False
+6f2cb6662ca4d66e3a501156d7881d5efa4cc809,2018-05-31 22:47:02,Sudheer Jonna,Initial commit,False

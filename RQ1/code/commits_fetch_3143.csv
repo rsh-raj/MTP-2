@@ -1,0 +1,1311 @@
+Hash,Date,Author,Message,IsMerge
+ba5cf1ed2e02ebb96fa1e60b4fd2eb04071b60e4,2024-04-08 15:32:11,dependabot[bot],"Bump the github-actions group with 5 updates (#1444)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c1c13ff5dfb96796563ad630a5d4361a1d1c2054,2024-01-25 19:58:24,dependabot[bot],"Bump the github-actions group with 1 update (#1427)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cb5c5f4edcf72fca98dd8afad345162621207135,2024-01-18 16:04:31,dependabot[bot],"Bump the github-actions group with 2 updates (#1425)
+
+Bumps the github-actions group with 2 updates: [actions/upload-artifact](https://github.com/actions/upload-artifact) and [github/codeql-action](https://github.com/github/codeql-action).
+
+
+Updates `actions/upload-artifact` from 4.0.0 to 4.1.0
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/c7d193f32edcb7bfad88892161225aeda64e9392...1eb3cb2b3e0f29609092a73eb033bb759a334595)
+
+Updates `github/codeql-action` from 3.23.0 to 3.23.1
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/e5f05b81d5b6ff8cfa111c80c22c5fd02a384118...0b21cf2492b6b02c465a3e5d7c473717ad7721ba)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: github-actions
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ee1bb54aad4208cf62c34b95f5299f06e91406fb,2024-01-11 18:46:19,dependabot[bot],"Bump the github-actions group with 1 update (#1423)
+
+Bumps the github-actions group with 1 update: [github/codeql-action](https://github.com/github/codeql-action).
+
+
+Updates `github/codeql-action` from 3.22.12 to 3.23.0
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/012739e5082ff0c22ca6d6ab32e07c36df03c4a4...e5f05b81d5b6ff8cfa111c80c22c5fd02a384118)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6a6a24e744f689ed3e9741c0466f1dc273046a11,2023-12-23 05:28:51,dependabot[bot],"Bump the github-actions group with 1 update (#1421)
+
+Bumps the github-actions group with 1 update: [github/codeql-action](https://github.com/github/codeql-action).
+
+
+Updates `github/codeql-action` from 3.22.11 to 3.22.12
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/b374143c1149a9115d881581d29b8390bbcbb59c...012739e5082ff0c22ca6d6ab32e07c36df03c4a4)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+26c910baee8c4c6b9082351036a953c76e45ab22,2023-12-19 19:37:41,dependabot[bot],"Bump the github-actions group with 2 updates (#1420)
+
+Bumps the github-actions group with 2 updates: [actions/setup-node](https://github.com/actions/setup-node) and [google-github-actions/release-please-action](https://github.com/google-github-actions/release-please-action).
+
+
+Updates `actions/setup-node` from 4.0.0 to 4.0.1
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/8f152de45cc393bb48ce5d89d36b731f54556e65...b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8)
+
+Updates `google-github-actions/release-please-action` from 4.0.1 to 4.0.2
+- [Release notes](https://github.com/google-github-actions/release-please-action/releases)
+- [Changelog](https://github.com/google-github-actions/release-please-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/google-github-actions/release-please-action/compare/a2d8d683f209466ee8c695cd994ae2cf08b1642d...cc61a07e2da466bebbc19b3a7dd01d6aecb20d1e)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+- dependency-name: google-github-actions/release-please-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2c01ffb28bec59da53f79c847a375b256c12d686,2023-12-16 23:45:07,dependabot[bot],"Bump the github-actions group with 1 update (#1419)
+
+Bumps the github-actions group with 1 update: [actions/upload-artifact](https://github.com/actions/upload-artifact).
+
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/a8a3f3ad30e3422c9c7b888a15615d19a852ae32...c7d193f32edcb7bfad88892161225aeda64e9392)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+82d52a04e48d823b0edd60d45c0201965d979a49,2023-12-14 11:06:53,dependabot[bot],"Bump the github-actions group with 1 update (#1418)
+
+Bumps the github-actions group with 1 update: [github/codeql-action](https://github.com/github/codeql-action).
+
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/305f6546310b9203e892c28c1484e82977f4f63d...b374143c1149a9115d881581d29b8390bbcbb59c)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a0aea1004830a1976c0c70d2f23c42a71da21cc7,2023-12-14 04:42:18,github-actions[bot],"chore(main): release 3.6.20 (#1417)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",False
+7d1998d211736ec49fc151eb4205d8d5790c58cb,2023-12-13 06:11:31,Jake Champion,"remove umd section from readme
+
+we no longer distribute umd releases",False
+27e1c75f830f0b70a40b511e03652776951aca75,2023-12-13 06:10:28,Jordan Mann,Fix: Response.error().ok === false (#1412),False
+84256c8d91de08d6bf7a53e7798f7ae05b1d2f77,2023-12-13 06:10:14,dependabot[bot],"Bump the github-actions group with 1 update (#1416)
+
+Bumps the github-actions group with 1 update: [github/codeql-action](https://github.com/github/codeql-action).
+
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/c0d1daa7f7e14667747d73a7dbbe8c074bc8bfe2...305f6546310b9203e892c28c1484e82977f4f63d)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+806ea66b1c42a0cbc252957c03f33b6f1fe35d37,2023-12-12 04:31:11,dependabot[bot],"Bump the github-actions group with 2 updates (#1414)
+
+Bumps the github-actions group with 2 updates: [google-github-actions/release-please-action](https://github.com/google-github-actions/release-please-action) and [github/codeql-action](https://github.com/github/codeql-action).
+
+
+Updates `google-github-actions/release-please-action` from 4.0.0 to 4.0.1
+- [Release notes](https://github.com/google-github-actions/release-please-action/releases)
+- [Changelog](https://github.com/google-github-actions/release-please-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/google-github-actions/release-please-action/compare/a6d1fd9854c8c40688a72f7e4b072a1e965860a0...a2d8d683f209466ee8c695cd994ae2cf08b1642d)
+
+Updates `github/codeql-action` from 2.22.8 to 2.22.9
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/407ffafae6a767df3e0230c3df91b6443ae8df75...c0d1daa7f7e14667747d73a7dbbe8c074bc8bfe2)
+
+---
+updated-dependencies:
+- dependency-name: google-github-actions/release-please-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+af519560bea0f7906d2aa6904f7c76298dcfb55c,2023-12-04 22:02:40,dependabot[bot],"Bump the github-actions group with 1 update (#1413)
+
+Bumps the github-actions group with 1 update: [google-github-actions/release-please-action](https://github.com/google-github-actions/release-please-action).
+
+- [Release notes](https://github.com/google-github-actions/release-please-action/releases)
+- [Changelog](https://github.com/google-github-actions/release-please-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/google-github-actions/release-please-action/compare/db8f2c60ee802b3748b512940dde88eabd7b7e01...a6d1fd9854c8c40688a72f7e4b072a1e965860a0)
+
+---
+updated-dependencies:
+- dependency-name: google-github-actions/release-please-action
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a71a60df483dcbd13ad5b5b5f7434d47e7b85c86,2023-11-26 04:09:18,dependabot[bot],"Bump the github-actions group with 2 updates (#1410)
+
+Bumps the github-actions group with 2 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads) and [github/codeql-action](https://github.com/github/codeql-action).
+
+
+Updates `dessant/lock-threads` from 5.0.0 to 5.0.1
+- [Release notes](https://github.com/dessant/lock-threads/releases)
+- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dessant/lock-threads/compare/d42e5f49803f3c4e14ffee0378e31481265dda22...1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771)
+
+Updates `github/codeql-action` from 2.22.7 to 2.22.8
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/66b90a5db151a8042fa97405c6cf843bbe433f7b...407ffafae6a767df3e0230c3df91b6443ae8df75)
+
+---
+updated-dependencies:
+- dependency-name: dessant/lock-threads
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+af5cf4b3b017c5821c48bc62d26e6a6236616820,2023-11-18 03:17:40,dependabot[bot],"Bump the github-actions group with 2 updates (#1407)
+
+Bumps the github-actions group with 2 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads) and [github/codeql-action](https://github.com/github/codeql-action).
+
+
+Updates `dessant/lock-threads` from 4.0.1 to 5.0.0
+- [Release notes](https://github.com/dessant/lock-threads/releases)
+- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dessant/lock-threads/compare/be8aa5be94131386884a6da4189effda9b14aa21...d42e5f49803f3c4e14ffee0378e31481265dda22)
+
+Updates `github/codeql-action` from 2.22.5 to 2.22.7
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/74483a38d39275f33fcff5f35b679b5ca4a26a99...66b90a5db151a8042fa97405c6cf843bbe433f7b)
+
+---
+updated-dependencies:
+- dependency-name: dessant/lock-threads
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a686358611c631a8846e61683eccde75c30b487b,2023-11-11 03:02:39,Lee JeongHo,enhance: replaced str.startsWith with str.indexOf (#1404),False
+b5cee5093bb4929239b74b9394e51355b231c460,2023-11-07 12:48:38,dependabot[bot],"Bump the github-actions group with 1 update (#1402)
+
+Bumps the github-actions group with 1 update: [google-github-actions/release-please-action](https://github.com/google-github-actions/release-please-action).
+
+- [Release notes](https://github.com/google-github-actions/release-please-action/releases)
+- [Changelog](https://github.com/google-github-actions/release-please-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/google-github-actions/release-please-action/compare/4c5670f886fe259db4d11222f7dff41c1382304d...db8f2c60ee802b3748b512940dde88eabd7b7e01)
+
+---
+updated-dependencies:
+- dependency-name: google-github-actions/release-please-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8d2e52d0a879c2a35641207bafc7cb3a03b0dcc9,2023-10-30 16:10:55,dependabot[bot],"Bump the github-actions group with 1 update (#1401)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4358f1435d4b29ab5e4faf0d1cc0e9f58ff6fac7,2023-10-24 17:13:47,dependabot[bot],"Bump the github-actions group with 2 updates (#1399)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7ee6bc7d1c90910df3b44fd29e5e8dab88bd24eb,2023-10-23 18:20:11,dependabot[bot],"Bump the github-actions group with 1 update (#1398)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+dbd05e55c6d710e3576da392c8ac6eb40820775a,2023-10-18 15:03:29,dependabot[bot],"Bump the github-actions group with 1 update (#1397)
+
+Bumps the github-actions group with 1 update: [actions/checkout](https://github.com/actions/checkout).
+
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/8ade135a41bc03ea155e62e844d188df1ea18608...b4ffde65f46336ab88eb53be808477a3936bae11)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e4eb3fd3b14f28cbc1b3f8103a79fddf21387b9c,2023-10-16 15:37:19,dependabot[bot],"Bump the github-actions group with 1 update (#1396)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9ab11dfaa40489afe0aac835df82711b71dacc93,2023-10-13 18:16:52,dependabot[bot],"Bump the github-actions group with 1 update (#1395)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1df85782d49a15ba68019fbdc4f3ddd142c494b0,2023-10-10 16:47:18,dependabot[bot],"Bump the github-actions group with 1 update (#1394)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6f8411d623f6c44d8d10d1859ad1fa1548113ca0,2023-10-09 15:06:29,dependabot[bot],"Bump the github-actions group with 2 updates (#1393)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e25c0dae1605fc48444f827ebdcd62b929d77097,2023-09-29 06:06:42,dependabot[bot],"Bump the github-actions group with 1 update (#1391)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a1ff875e7136978bc0db3e688faeb548d9e6425d,2023-09-28 18:34:05,dependabot[bot],"Bump the github-actions group with 1 update (#1390)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cf08c3fba91816be2ef77bbbbd49ff95255601fc,2023-09-26 01:40:59,dependabot[bot],"Bump the github-actions group with 6 updates (#1388)
+
+Bumps the github-actions group with 6 updates:
+
+| Package | From | To |
+| --- | --- | --- |
+| [dessant/lock-threads](https://github.com/dessant/lock-threads) | `2.1.2` | `4.0.1` |
+| [actions/checkout](https://github.com/actions/checkout) | `2.7.0` | `4.1.0` |
+| [actions/setup-node](https://github.com/actions/setup-node) | `1.4.6` | `3.8.1` |
+| [ossf/scorecard-action](https://github.com/ossf/scorecard-action) | `2.1.2` | `2.2.0` |
+| [actions/upload-artifact](https://github.com/actions/upload-artifact) | `3.1.0` | `3.1.3` |
+| [github/codeql-action](https://github.com/github/codeql-action) | `2.2.4` | `2.21.8` |
+
+
+Updates `dessant/lock-threads` from 2.1.2 to 4.0.1
+- [Release notes](https://github.com/dessant/lock-threads/releases)
+- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dessant/lock-threads/compare/f1a42f0f44eb83361d617a014663e1a76cf282d2...be8aa5be94131386884a6da4189effda9b14aa21)
+
+Updates `actions/checkout` from 2.7.0 to 4.1.0
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v2.7.0...8ade135a41bc03ea155e62e844d188df1ea18608)
+
+Updates `actions/setup-node` from 1.4.6 to 3.8.1
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/f1f314fca9dfce2769ece7d933488f076716723e...5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d)
+
+Updates `ossf/scorecard-action` from 2.1.2 to 2.2.0
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/e38b1902ae4f44df626f11ba0734b14fb91f8f86...08b4669551908b1024bb425080c797723083c031)
+
+Updates `actions/upload-artifact` from 3.1.0 to 3.1.3
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/3cea5372237819ed00197afe530f5a7ea3e805c8...a8a3f3ad30e3422c9c7b888a15615d19a852ae32)
+
+Updates `github/codeql-action` from 2.2.4 to 2.21.8
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/17573ee1cc1b9d061760f3a006fc4aac4f944fd5...6a28655e3dcb49cb0840ea372fd6d17733edd8a4)
+
+---
+updated-dependencies:
+- dependency-name: dessant/lock-threads
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+- dependency-name: actions/setup-node
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: github-actions
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: github-actions
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: github-actions
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: github-actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ea777671aba9a0f6c4b9401b9d52f04ab10cbf36,2023-09-26 01:35:47,Joyce,"Hash pin actions used on workflows and enable dependabot (#1387)
+
+* Update scorecard.yml
+
+Signed-off-by: Joyce <joycebrum@google.com>
+
+* Update node.js.yml
+
+Signed-off-by: Joyce <joycebrum@google.com>
+
+* Update scorecard.yml
+
+Signed-off-by: Joyce <joycebrum@google.com>
+
+* Fix/hash pin and dependabot (#2)
+
+* [StepSecurity] Apply security best practices
+
+Signed-off-by: StepSecurity Bot <bot@stepsecurity.io>
+
+* Update .github/dependabot.yml
+
+Signed-off-by: Joyce <joycebrum@google.com>
+
+---------
+
+Signed-off-by: StepSecurity Bot <bot@stepsecurity.io>
+Signed-off-by: Joyce <joycebrum@google.com>
+Co-authored-by: StepSecurity Bot <bot@stepsecurity.io>
+
+* limit dependabot prs
+
+Signed-off-by: Joyce <joycebrum@google.com>
+
+* Update dependabot.yml
+
+Signed-off-by: Joyce <joycebrum@google.com>
+
+---------
+
+Signed-off-by: Joyce <joycebrum@google.com>
+Signed-off-by: StepSecurity Bot <bot@stepsecurity.io>
+Co-authored-by: StepSecurity Bot <bot@stepsecurity.io>",False
+873b0792944a034fb376265e16ac7b8f22f6d9ba,2023-09-18 18:34:23,Joyce,Fix workflows to run on main instead of master (#1383),False
+0d069f3c00633c699e760f3e2b9b38990dd25673,2023-09-16 21:16:31,Joyce,"Enable OpenSSF Scorecard Action and badge (#1382)
+
+Closes #1379
+
+Badge score on the badge will be probably be 5.5 (which is a good score).",False
+385655b808ea5b994156c7d23973c836c18a7180,2023-09-11 16:07:45,github-actions[bot],"chore(main): release 3.6.19 (#1381)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Jake Champion <me@jakechampion.name>",False
+7170f0b127d16c5895aba61c9168482834809046,2023-09-11 16:03:12,Lode Vanhove,fix: Have unique error messages for xhr timeouts and errors (#1380),False
+0d875cacc2bc1915ddd7d734482f3e1d625e5cc6,2023-09-11 16:01:11,Jake Champion,Create release.yml,False
+cdc19a8bfdf303c541ee5521a218a7b309f2da4e,2023-08-30 14:44:31,Joyce,"Create SECURITY.md
+
+Signed-off-by: Joyce <joycebrum@google.com>",False
+b48a6964bbb97b9e626fcee489cf09cb2bb82716,2023-08-29 03:59:38,Jake Champion,3.6.18,False
+0e7d1dd95826b3b76510f0832784207f2609145e,2023-08-29 03:59:33,Jake Champion,automatically generate a changelog,False
+96017dedebec6672c00441bfffc899d38864ce39,2023-08-29 03:54:31,mercpls,Fix - File fetching broken since commit 0c1d2b9 (#1375),False
+1dc07c6064a32e989306fb2324204c56c93140fe,2023-08-29 03:51:55,Jake Champion,Remove broken links,False
+49b71a7468bb45e533bfb82ae47f3755aae97cb1,2023-07-21 04:06:42,Jake Champion,3.6.17,False
+b8338ff00dfc4db59168f63c9fd63149aaebdc1f,2023-07-21 03:59:03,Jake Champion,"Revert ""Resolves https://github.com/JakeChampion/fetch/issues/928""
+
+This reverts commit ce6178923aca5cabd2cbf031770e5672e4e2ca62.",False
+64ce761b64ebecd03e00a0b77ef63622f31e2d22,2023-07-18 17:55:47,Jake Champion,3.6.16,False
+ce6178923aca5cabd2cbf031770e5672e4e2ca62,2023-07-18 17:34:06,Jake Champion,Resolves https://github.com/JakeChampion/fetch/issues/928,False
+c0b8634b36551619743628669abb7dcbea840c16,2023-07-18 06:54:06,Jake Champion,fix https://github.com/JakeChampion/fetch/issues/997,False
+32b671de41f752973e3830bef3bf8858cf3ccba0,2023-07-18 06:51:17,Jake Champion,Fix https://github.com/JakeChampion/fetch/issues/1076,False
+e3375ebee224009fe203d2ec5c1d2a8f8c85bf7e,2023-07-18 06:14:05,Jake Champion,"respect charset within readBlobAsText
+fixes https://github.com/JakeChampion/fetch/issues/1059",False
+f7e3e92058415278338d8eb15dc6f107da8dffd7,2023-07-18 05:58:16,Jake Champion,"fix: Headers only accepts array which have nested array of length 2
+
+fixes https://github.com/JakeChampion/fetch/issues/1235",False
+d8669abc9465617f318c8011ee9b12d49c04de29,2023-07-18 05:48:28,Jake Champion,"Define Body.arrayBuffer even if support.blob is false
+
+resolves https://github.com/JakeChampion/fetch/issues/992",False
+dffc542fe7140f35ee7fec29e3da67f3bf080910,2023-07-18 05:33:14,Jake Champion,"use globals if they exist
+solves https://github.com/JakeChampion/fetch/issues/860",False
+7d92dff12d7c4058b57c7e77adeb0a76ffab639f,2023-07-18 04:34:44,Jake Champion,"fix: when no body supplied, do not set bodyUsed to true",False
+0c1d2b97b7edf636323534b13626a8bb9f5fe22d,2023-07-18 04:14:20,Jake Champion,"validate status is in range
+fixes https://github.com/JakeChampion/fetch/issues/1213",False
+8984692515fd367ca3e6da9bc2a917c3d34506de,2023-07-18 04:02:57,Jake Champion,"dont shadow `global`
+fixes https://github.com/JakeChampion/fetch/issues/1026",False
+fc921d68675ca7ceea426dff84ff9bd51f7fe2a2,2023-07-18 04:01:25,Rylan Justice,Update year range,False
+e3f65907924b7692af7c08cd92044456bc92ad8b,2023-07-18 03:58:03,Jake Champion,remove invalid-headers test,False
+408d3b60e27abef325dd898d899430c46a0012b2,2023-07-18 03:58:03,Jake Champion,dont use github  eslint,False
+afd09a7ee6ee5438081acbddf0ed714d3f5c5429,2023-07-18 03:58:03,Jake Champion,Update node.js.yml,False
+baca85e732ea03d44ad6aa34f28e8f718ce9ddbb,2023-07-17 23:56:11,Joyce,"Update node.js.yml permissions
+
+Signed-off-by: Joyce <joycebrum@google.com>",False
+e97321bc081e80275397fc4c7a990791aa8b3524,2023-07-17 23:56:11,Joyce,"Update lock.yml permissions
+
+Signed-off-by: Joyce <joycebrum@google.com>",False
+9a6d748b394a2c16b250262fcaf46afd5364b415,2023-04-01 07:10:08,Philipp Kursawe,"fix: ignore not throw on invalid response headers
+
+Fixes #930",False
+a43b6283833c403230bb1a5238e2d7ac435c52da,2023-04-01 06:49:58,Aleen,Add some missed methods which should be normalized as uppercase,False
+fb5b0cf42b470faf8c5448ab461d561f34380a30,2021-12-08 17:36:56,Kai,Update caniuse link to use HTTPS and new pattern,False
+d1d09fb8039b4b8c7f2f5d6c844ea72d8a3cefe6,2021-08-02 16:33:23,romainmenke,always set a signal on Request,False
+7727e50493eafae9a7005f10f18f81e5bbcbfdd3,2021-05-10 14:58:36,cn-coderl,Compatible global equals to the false,False
+8f48ca686f9564bf52704e0e4b410ca970b17031,2021-02-28 00:15:07,jake champion,3.6.2,False
+e42f201b8b0af8b3f2615abe8161c8087f52f1b2,2021-02-28 00:13:06,jake champion,"Revert ""Represent non-stringified JSON request body as an [object Object] string""
+
+This reverts commit 5c6b055e6ae6f718f416c94bfcdc89693d0abdcb.",False
+90fb680c1f50181782f276122c1b1115535b1603,2021-02-18 23:16:12,Jake Champion,3.6.1,False
+5d3952d10736a98a550043b933c50800643e2756,2021-02-18 23:15:06,Jake Champion,use var instead of const,False
+6b4bd971b1e415a347cf20db4b925d1b845669a9,2021-02-18 23:15:06,Jake Champion,Restore package.json,False
+da97bdb462632288b21eeca67fc6b93c7077ebae,2021-02-18 23:15:06,Alexander Bakum,Fix MSIE compatibility,False
+1fce243d23b2aa2e44abf58c39f54097d8a9917c,2021-02-18 17:53:51,Jake Champion,3.6.0,False
+7e926ebf61d515e1bc29010f1ba81b731f8b96da,2021-02-17 23:21:10,Juan Aguilar Santillana,Fix unused eslint-disable attribute,False
+190e698f8e737ad751a11de60f6b8b3301fa557b,2021-02-17 23:21:10,Juan Aguilar Santillana,Fix eslint and eslint-plugin-github dependency conflicts,False
+5c6b055e6ae6f718f416c94bfcdc89693d0abdcb,2021-02-17 23:15:36,Artem Zakharchenko,Represent non-stringified JSON request body as an [object Object] string,False
+b5c8bd0fee1530f1c204cc5c68b427a3498dbdad,2021-01-28 17:39:17,Tanguy Krotoff,Fix statusText: undefined should give '' and null should give 'null',False
+a8aa427de0ed808ff26c0e3eb2e59c122c44488a,2020-12-15 16:23:36,Carmelo Patti,wrap name in quotes to be able to identify empty strings as well,False
+b72f02ae11fc8de2ddf5dbb60ff8a88ee7fb5f66,2020-12-15 16:23:36,Carmelo Patti,add header name in case of error,False
+75d9455d380f365701151f3ac85c5bda4bbbde76,2020-11-06 15:52:54,Jake Champion,3.5.0,False
+61372fdeb8e6eb59e13da265d518dca21467c1d3,2020-10-13 20:25:34,Steve Workman,Fixes #748,False
+87677811d543cfb44b124e026b50f710e95017ec,2020-09-30 19:07:27,Jake Champion,Create lock.yml,False
+5e3aa109b5d23a982c4a01718469e2c63bc6815f,2020-09-07 16:03:29,Jake Champion,3.4.1,False
+fd23745f3474cd23d88e5128d8bc74813be1aff0,2020-09-07 16:02:04,Jake Champion,Make the clean task remove the dist directory and the default task create it,False
+7ca02eb0234b0a61fd711d922b2e69d3c5390516,2020-09-07 16:01:36,Jake Champion,Add npmignore file to ensure we always publish the dist directory,False
+99b26818147a4288429fcd96421cf038dccbc1ac,2020-08-07 21:24:55,Jake Champion,3.4.0,False
+96c26512608a0081d493df4fc17da4394bd1b410,2020-08-07 21:24:06,Jake Champion,Use globalThis as the global object if it exists,False
+3129f89925d271c2f2223f855ebd79038c424284,2020-08-04 17:03:30,Jake Champion,3.3.1,False
+c5db7621c3b1530683b8f706388d4ac210a2db02,2020-08-04 17:03:05,Jake Champion,rename variable to no longer shadow over function of same name,False
+f264aa5704f7431c429ec16e6fdd3c7034c7f2d9,2020-08-04 17:03:05,Jake Champion,remove semicolon to pass linting,False
+573c5d4669be8fefd243b03b4c6dbd098605b63a,2020-08-04 16:36:20,Jake Champion,3.3.0,False
+9ab032a25028350f8e32d3e0bdd0c41c998fee7a,2020-07-31 16:16:38,Jake Champion,Update fetch.js,False
+88a5c24337437493b8fe4b148109c8d43ebbbaa3,2020-07-31 15:11:25,Jake Champion,Make sure to return rejected promise if body is already consumed,False
+37b55c27413b902cef4e629892424ae469fb1ea2,2020-07-31 06:15:25,Jake Champion,Update fetch.js,False
+21bbcbf516cdfd21cfe2bc1474089e578e6da78e,2020-07-31 06:15:25,Jake Champion,"Make Response.arrayBuffer() always resolve with a `ArrayBuffer`
+
+Fixes https://github.com/github/fetch/issues/801",False
+19a2ff0ed750ea7e6e3492997965d8522087e2ca,2020-07-31 05:54:29,Jake Champion,Update fetch.js,False
+30f2aeb0ad5bce5aa265a01390fad6636c84963a,2020-07-31 05:54:29,Jake Champion,Update fetch.js,False
+a1c644fa6c56ca8e461ef72190904ee0ca940e56,2020-07-31 05:54:29,Jake Champion,Update fetch.js,False
+8ed5238f37f20ae9691d3530d3cd31fdab6d997d,2020-07-31 05:54:29,Jake Champion,Update fetch.js,False
+b3cff4c580f9f999bad35fe141979f53402ac29f,2020-07-31 05:54:29,Jake Champion,Update rollup.config.js,False
+89d29f76ebd4e8baa8dab77d6cd50015492a46f6,2020-07-31 05:54:29,Jake Champion,"Stop using top-level `this` to stop rollup warning
+
+fixes https://github.com/github/fetch/issues/802",False
+9a53ff66043a0b54d2e65be0d92c4b0b6d578c65,2020-07-31 05:26:47,Jake Champion,"Recommend an AbortController polyfill which is fully synchronous
+
+Fixes https://github.com/github/fetch/issues/800",False
+8572451fcb95644ab0552c44d698db5b8e2dc43e,2020-07-31 04:26:54,Devin Rhode,"Call out #Caveats higher up in readme
+
+https://github.com/github/fetch/issues/787",False
+0ebc09524f285a08addea61819e2e8627e875fae,2020-07-31 04:19:33,Jake Champion,"Revert ""Detect if DOMException exists via typeof instead of trying to call it and catching the exception which may get thrown""
+
+This reverts commit e3298525e485a751e92456696ffa0634be98c8fd.",False
+259dc6adaa8744c7a8079b3396962974eb882389,2020-07-10 20:38:48,Jake Champion,"Add keepalive caveat
+
+Closes https://github.com/github/fetch/issues/780",False
+b65ed608604492d605df2d62cd4c5050e2a8d508,2020-07-10 19:34:41,Jake Champion,If headers are passed in via a Record then do not normalise the header names as part of the request,False
+5ef028d61f6c1543603cdacbe0f8a0f00d5957c0,2020-07-09 20:55:14,Jake Champion,Throw a TypeError if Request or Response functions are called without `new`,False
+e3298525e485a751e92456696ffa0634be98c8fd,2020-07-09 19:52:51,Jake Champion,"Detect if DOMException exists via typeof instead of trying to call it and catching the exception which may get thrown
+
+fixes https://github.com/github/fetch/issues/724",False
+a0dcd853f8ed29d06a022f92c87c303bd0e1f1bf,2020-07-09 17:25:24,Jake Champion,Add support for no-cache and no-store via a cache-busting querystring parameter,False
+a0783a5571018191578cc08d5b3bac61a0b64562,2020-07-09 16:16:25,Jake Champion,create variable called `global` which is either `self` or `this`,False
+e4153e6fd4aca33a37583e330dbd966b540a1884,2020-07-09 16:16:25,Jake Champion,"use `this` if `self` is not defined
+
+fixes https://github.com/github/fetch/issues/657",False
+b82edc2bd53efb50633e9455535727440562ef63,2020-07-09 16:16:25,Jake Champion,remove strict mode from bundle,False
+3c0efb526f69d5b277e4d477dc98ec2bfa40f4ad,2020-07-08 22:15:43,Krunal Shah,"check if Content-Type header exists prior to  examining the value (#792)
+
+Co-authored-by: Jake Champion <me@jakechampion.name>",False
+0828635d2f5db682c3a07cf8565d0b764abb4115,2020-07-08 22:07:51,Jake Champion,Move from Travis to GitHub Actions (#793),False
+74e4fe8a4731b4e233ac7da42c960a351fd3400f,2020-06-02 03:51:59,Jake Champion,"Merge pull request #575 from CrOrc/CrOrc-fix-resolve-IE-11
+
+Co-authored-by: Jake Champion <me@jakechampion.name>",True
+86407492a1cad0beca3545a2803c51b929188b13,2020-06-02 03:51:34,Jake Champion,Update fetch.js,False
+a8b7060481afb9fbc437bbbdd7d4539e72695c47,2020-06-02 03:46:32,Jake Champion,Update fetch.js,False
+11f6a0f70c2fd212243ea63ba7da13d0f2cd638b,2020-06-01 10:28:09,Roman Yakubuk,Merge remote-tracking branch 'upstream/master' into CrOrc-fix-resolve-IE-11,True
+a900d7d0e26d0dede8fa45ab723e9e64f7879b26,2020-05-28 15:35:21,Thomas Grainger,"work around IE XHR bug with '' URL Fixes #618 (#619)
+
+Co-authored-by: Jake Champion <me@jakechampion.name>",False
+92d78dfede2b5e82a82623e16d827bfa380d1224,2020-05-28 15:01:36,Nik Sudan,Allow exclamation mark as valid header character (#745),False
+eadff53a285b649a253f19bf67caf16234cc871e,2020-05-28 14:58:56,Fabio Costa,"Avoid blob conversion for specific requests (#752)
+
+Co-authored-by: fdacosta <fabio.costa@disneystreaming.com>
+Co-authored-by: Jake Champion <me@jakechampion.name>",False
+ff32363d6e136dd4878b7ce28a424e69a415922b,2020-05-27 16:16:53,Patrick Sullivan,"Compatibility for fetch-mock using proxy-pollyfill (#736)
+
+* Compatibility for fetch-mock using proxy-pollyfill
+Fixes wheresrhys/fetch-mock#415
+
+Details: fetch-mock wraps the Response object in an ES6 Proxy to
+provide useful test harness features such as flush.  However, on
+ES5 browsers without fetch or Proxy support pollyfills must be used;
+the proxy-pollyfill is unable to proxy an attribute unless it exists
+on the object before the Proxy is created.  This change ensures
+Response.bodyUsed exists on the instance, while maintaining the
+semantic of setting Request.bodyUsed in the constructor before
+_initBody is called.
+
+* Update fetch.js
+
+Co-authored-by: Jake Champion <me@jakechampion.name>",False
+8065fdddc3d51a5a21b261769757bb9603675bf4,2020-05-27 16:07:45,Jake Champion,Fix prettier to version 1,False
+66065840c9500d89416bd99f9927a3c6574c05af,2020-05-27 15:02:13,Roman Yakubuk,"Change default statusText for Response (#698)
+
+* Change default statusText for Response
+
+* Cleanup test descriptions. Remove redundant tests.
+
+* Remove checking old behavior for statusText default value",False
+7232090c04e1ddefb806910bbd0a756bc8aac2f0,2019-11-13 22:14:03,David Graham,"Merge pull request #734 from mislav/patch-1
+
+Document more common pitfalls in the README",True
+1364c85717b277356dfa5f27ce82fc1997bf8796,2019-11-01 01:35:26,Mislav Marohnić,Fix ToC,False
+9a0bce23454cdd5beefd9d4c599664003573e581,2019-11-01 01:32:25,Mislav Marohnić,"Document more caveats
+
+People are getting tripped up on these being unavailable in the polyfill.",False
+37d10362687492868548c4d70c5c12e4a671771e,2019-05-24 16:34:09,Mislav Marohnić,"Stop auto-publishing whatwg-fetch on tagged releases
+
+I have enabled 2FA for my npm account, and thus CI is not allowed to publish releases on my behalf without my manual intervention.",False
+8f8b077e25a3e895dc6ab70d7450bd4ae7864493,2019-03-13 12:30:04,Roman Yakubuk,Merge branch 'master' into CrOrc-fix-resolve-IE-11,True
+3674c98df696d45573750aa7873814887d25689a,2019-01-02 16:58:33,Mislav Marohnić,"Merge pull request #684 from justjavac/master
+
+field name can not by empty",True
+96b37eb63ef8f2644f985cd77e7bd87b04e61ad4,2018-12-29 07:17:14,justjavac,field name can not by empty,False
+1821b74b808152d4d6e787c21165f2d569c2a7c4,2018-12-06 17:40:56,Mislav Marohnić,Compatibility with newer eslint-plugin-github,False
+899b155746630c32d83ee29a38642da16b314ecb,2018-10-05 01:34:48,Mislav Marohnić,"Add note about UMD dist file
+
+Ref. #666 [ci skip]",False
+73afb647a5fc6ff5d7191acb8ab4f69ede910870,2018-09-18 15:32:04,Mislav Marohnić,"Clarify what parts of the standard we don't want to implement
+
+Closes #661",False
+c17d373d2a5944fd8ed165b68da855bbb32925f5,2018-09-10 14:00:30,Mislav Marohnić,"Update npm API key
+
+The old one failed:
+https://travis-ci.org/github/fetch/jobs/425715787
+
+[ci skip]",False
+cc84bc284bd2d8eeddaf1c6a68e02e5329482f97,2018-09-07 18:03:32,Mislav Marohnić,Fetch 3.0.0,False
+794f6df048922427398c26957eb6ae40fd649a51,2018-09-07 18:02:23,Mislav Marohnić,"Merge pull request #654 from github/flowtype
+
+Add flow definitions",True
+114a580caae8b882758812eb2325ffdaa7f81959,2018-09-07 17:58:26,Mislav Marohnić,Add DOMException to type definitions,False
+afffe571f80e13216fa7155daea695af637ea7f6,2018-09-07 14:02:07,Mislav Marohnić,Add `.flow` files to npm package,False
+d3013844688262aa47a578001977cee7f0425a8b,2018-09-07 13:43:00,Mislav Marohnić,Add flow definitions,False
+1b721b5a708db63cdac345ddfa12f8968ed2d012,2018-09-04 16:02:05,Mislav Marohnić,"Expand install & importing documentation
+
+* Mention module exports
+* Expand on abortable functionality
+* Remove Bower instructions since the project is defunct
+* Remove Yarn instructions because they are a no-brainer
+
+Closes #569",False
+0ae0da370e1aa872e371942dada5dbb69f233267,2018-09-04 15:36:58,Mislav Marohnić,"Merge pull request #651 from github/body-unsupported-type
+
+Match spec behavior re: unsupported body type",True
+fde38d5cb43e5d96f70794fdff75edb4faf03ca6,2018-09-04 05:34:31,Mislav Marohnić,"Merge pull request #652 from github/karma-update
+
+Update Karma and detect available browsers when testing",True
+74a873ad0241195c8777e20722969e6f2703b725,2018-09-04 01:50:53,Mislav Marohnić,Fix worker config,False
+4f4de0564bbd88745d8b02e8238898bcba55f294,2018-09-04 01:46:03,Mislav Marohnić,"Avoid running Chromium in CI
+
+It seems like it's outdated:
+https://travis-ci.org/github/fetch/builds/424048996",False
+66768e0aae1eeb622d0a901ee376d3f4d108f765,2018-09-04 00:34:14,Mislav Marohnić,Bring back `--no-sandbox` for Travis CI compatibility,False
+f0ebccf7fe9955770f776018f453b91bfeb7eccb,2018-09-04 00:18:03,Mislav Marohnić,Prefer headless testing,False
+08bc7423c9d26dd9f21905fee3b83660723e2d37,2018-09-03 23:33:54,Mislav Marohnić,"Match spec behavior re: unsupported body type
+
+The polyfill used to throw an exception, but the spec dictates that
+unsupported body types are simply converted to string.
+
+Closes #576",False
+e59da3c7036572b4a1e41af997a97583caef450b,2018-09-03 23:22:42,Mislav Marohnić,"Remove unnecessary test assertions
+
+This was only useful while debugging cache issues.",False
+f1657b086f2c4a0c8e2ca2851275d6103d159341,2018-09-03 22:32:24,Mislav Marohnić,Use karma-detect-browsers to make things simpler,False
+7d6198aec724a5db1ac4fcfa591f39fc2cfbccea,2018-09-03 21:57:23,Mislav Marohnić,"Skip test for `credentials` default on Safari
+
+In Safari 11.1.2, the default for `credentials` is still ""omit"".",False
+3a8e6e44e3d1ca7dc3c6dc5df45d0d3e5a95382b,2018-09-03 21:38:26,Mislav Marohnić,Automatically test with Safari on macOS,False
+9ed40a3da77339ddb41950775497f46a07453e95,2018-09-03 21:33:48,Mislav Marohnić,Update Karma to latest version,False
+36c4931894e7b872bba111bf3d5bfe1e25440886,2018-09-01 15:55:57,Mislav Marohnić,"Merge pull request #649 from github/contributor-covenant
+
+Adopt Contributor Covenant Code of Conduct",True
+bcef55862388bcb33589ec4db79423390d71476c,2018-09-01 15:55:34,Mislav Marohnić,Fix code of conduct contact email,False
+bc43577409d24b33a88d77e35da54967d0a51d14,2018-08-31 23:16:02,Mislav Marohnić,"Adopt Contributor Covenant Code of Conduct
+
+The Open Code of Conduct has been defunct for a while.",False
+048626722124b45ed7bc58ec841822610f08798b,2018-07-26 03:07:47,Mislav Marohnić,"Merge pull request #640 from github/credentials-default
+
+Change `credentials` default value to `same-origin`",True
+51faeaa24ed5bfbb00cdb45eefe66704fb4d41d2,2018-07-26 03:07:08,Mislav Marohnić,Note the changing `credentials` default in Caveats,False
+507c129f68efb7f3862909b7f9700d28bccff2ca,2018-07-26 03:01:59,Mislav Marohnić,Point out that the default for `credentials` has changed,False
+4c5f2277532f2717255a84ab3f6dab2f488f72ac,2018-07-25 19:07:27,Mislav Marohnić,"Change `credentials` default value: `omit` → `same-origin`
+
+https://github.com/whatwg/fetch/pull/585",False
+4cc3b9180e011937d9cb774adf19e5db656e31f4,2018-07-25 18:33:50,Mislav Marohnić,Clarify that all modern browsers now implement fetch natively,False
+141665b1477bb25ac1427b2cb3e05203453e30cb,2018-05-25 22:08:59,Mislav Marohnić,"Merge pull request #626 from github/karma
+
+Switch test suite from PhantomJS to Karma",True
+b891c46764d4b7f439a56d69555c2e50b1cab075,2018-05-25 21:36:36,Mislav Marohnić,"Install newer Firefox in hopes to avoid intermittent CI failures
+
+https://travis-ci.org/github/fetch/builds/383771737
+https://travis-ci.org/github/fetch/builds/383770926
+https://travis-ci.org/github/fetch/builds/383767274
+https://travis-ci.org/github/fetch/builds/383767224",False
+0ee11fa3cff29925cef7a0ffdd86362d6868356a,2018-05-25 21:29:10,Mislav Marohnić,"Avoid Node 6 deprecation warnings re: Buffer
+
+https://nodejs.org/api/buffer.html#buffer_buffer_from_buffer_alloc_and_buffer_allocunsafe",False
+9f2854bb08fd8382fb3c18338c6cdb5a5dc9982e,2018-05-25 21:20:49,Mislav Marohnić,Rename `prepublish` step to `prepare`,False
+b2bc05b346cf443733116669712ff30491c09bee,2018-05-25 21:19:10,Mislav Marohnić,"Remove xvfb since it's no longer necessary in CI
+
+I was just cargo-culting it from other setups",False
+418b8ee26023c0fdb517647b28a827d482a7aae5,2018-05-25 04:17:18,Mislav Marohnić,"Enable AbortController polyfill in web worker mode
+
+This should help Firefox 56 in CI which doesn't have AbortController.",False
+8827a22413aee5e7a4e12a905e36f4e51a2b6975,2018-05-24 07:43:01,Mislav Marohnić,Tweak bullet styles,False
+89c80f83ab36e0c3d26bb25887f263d2baaddddd,2018-05-24 07:40:38,Mislav Marohnić,"Remove docs that are of little to no use
+
+[ci skip]",False
+4a1e106a081c5b7166a15c6294e8cc3f7a51b231,2018-05-24 07:40:10,Mislav Marohnić,Improve CONTRIBUTING documentation,False
+8be54315919d9b47116c17688929a0fc15c23e7b,2018-05-24 07:11:10,Mislav Marohnić,Configure eslint for node,False
+36c5203bbd2d1b386e37e3f53c600f5163adc625,2018-05-24 07:10:29,Mislav Marohnić,Have test output in CI be less noisy,False
+5826cfc5fa27886d756a5a91cef02d9e65d5ae6b,2018-05-24 07:05:14,Mislav Marohnić,Skip iterable tests broken in Firefox <= 56,False
+48f70e20ed57313a134d1b6cc7fac70edeee76d4,2018-05-24 06:32:51,Mislav Marohnić,Add `npm run karma` for easier testing,False
+621b80de2c0a4f1fb9ab57a8bb00f35f00011764,2018-05-24 06:32:51,Mislav Marohnić,"Skip `response.formData()` test in native Safari/Edge
+
+Just like in Chrome, this isn't supported natively.",False
+47d9084e69fa4ec2426031514fcfccdbbdaae658,2018-05-24 06:32:51,Mislav Marohnić,Skip testing functionality that doesn't seem implemented in IE/Edge,False
+711ab2faac2cc83c125ca2196da3841d27156213,2018-05-24 06:32:51,Mislav Marohnić,"Fix abortable tests in Safari
+
+Safari aggressively caches `/slow` endpoint after first load and serves
+it up really fast on subsequent runs, not giving it enough time to
+invoke `controller.abort()`.
+
+Adding `Cache-Control` response headers from the server doesn't work.
+Safari still serves `/slow` from disk cache, even though `/slow` was
+never even allowed to finish on prior runs. My guess is that Safari
+erroneously caches the result of `/slow` when the initial request was
+aborted.",False
+837cac40b2c93950454bc6a104a9487e6c7c138a,2018-05-24 06:21:07,Mislav Marohnić,Only test native abortable functionality in browsers that implement it,False
+3f420d57bdcb951ba2c7cdbbb932ba7fa7203518,2018-05-24 06:21:07,Mislav Marohnić,Remove PhantomJS artifacts from tests,False
+f75e24bf62586a045cbbd02840df40a5f9937d6a,2018-05-24 06:21:07,Mislav Marohnić,Load polyfills for testing older browsers,False
+b7ea5f2c38caad235e2193837dd9037a1a8c9fcf,2018-05-24 06:21:07,Mislav Marohnić,"Remove test that depends on specific abortcontroller-polyfill API
+
+`signal.listeners` is not available in native implementations of AbortSignal.",False
+fd151e986afe326d5e0dd076a69812891e33375e,2018-05-24 06:21:07,Mislav Marohnić,"Split header values with `, ` to match other browsers
+
+Chrome and Firefox both split `append`d values with `, `.",False
+a55b7d71cee0c7ba28964162de5253d8f31b3a52,2018-05-24 06:21:07,Mislav Marohnić,Nuke old testing setup,False
+4f097017ca2c73738c206cf24c72a15fa437e5cf,2018-05-24 06:21:07,Mislav Marohnić,Convert testing fetch under Web Workers to Karma,False
+b53958904649bfeb784083b9b7e0b89902c7d30e,2018-05-24 03:42:26,Mislav Marohnić,Switch from PhantomJS to Karma + Chrome/Firefox for testing,False
+da07fa1dde1b6db238ef5567c1096dd9873e3ebf,2018-05-23 19:47:24,Mislav Marohnić,"Merge pull request #592 from jamesplease/abort-polyfill
+
+Support abort API",True
+c873843dc8cbdb4d5af652a99476e90515133ffd,2018-05-23 19:45:48,Mislav Marohnić,Polish documentation for aborting requests,False
+2bd7f22032272dc5d0ab507da69b84060bf6804f,2018-05-23 19:34:31,Mislav Marohnić,Export DOMException for `instanceof` checks,False
+f03586047c100c5e5171afc2f71a74492309c8e3,2018-05-23 19:26:17,Mislav Marohnić,Scope abortcontroller to polyfill only,False
+c31fca91bb736f0b704927ffaf1813ddd062ccb3,2018-05-23 19:23:28,Mislav Marohnić,Merge remote-tracking branch 'origin/master' into abort-polyfill,True
+f83e37133e21c72e8277e9f634b7c2002b8d552e,2018-05-23 19:09:59,Mislav Marohnić,"Merge pull request #616 from jayphelps/umd
+
+build/distribute as UMD",True
+7d8326bd97dc1aab2def5d7c3d266a1278b8f953,2018-05-17 20:00:15,Mislav Marohnić,Try testing with a newer Node version,False
+9595e3e357d9c27cae67cef7c59cb37177e8db5e,2018-05-17 19:56:00,Mislav Marohnić,Merge remote-tracking branch 'origin/master' into umd,True
+f6d8b4d5139c41cd8b38f86ee3828821161e0806,2018-05-17 19:52:26,Mislav Marohnić,"Use new exports to clean up test suite preparation
+
+Prior to this change, `test.js` had to be loaded before `fetch.js` so it
+can nulify the native implementation of `window.fetch` to force testing
+of the polyfill. Now that we have exports from the UMD file, we can
+abandon this hack and simply access the exports to juggle between native
+and polyfilled versions of the implementation.",False
+114e2bc7702c98f54bd2beef06349f7f107a44bb,2018-05-17 19:51:57,Mislav Marohnić,"Quit testing CJS exports directly
+
+First of all, loading our UMD dist file in Node doesn't work due to
+usage of `self` within `fetch.js`. Second, we don't need to test
+exports, since we trust Rollup doing its job.",False
+432bf07785d051f61c90904cb0198ec2b2bf1d4d,2018-05-17 19:51:57,Mislav Marohnić,Build UMD dist file with Rollup,False
+0a5748775d99f882172375693f56761383f8faf3,2018-05-17 19:51:57,Mislav Marohnić,Run test files through prettier,False
+5d803684fd3f9cc6ad5198d3616af59a9dd94924,2018-05-17 19:51:57,Mislav Marohnić,Have tests pass eslint,False
+3ccb1ce2d8936665e5f0e105174518f3d1502318,2018-05-17 03:42:40,Mislav Marohnić,Switch from jshint to eslint,False
+24c353871e4bd680a966ca7a58e3cf3809872b47,2018-05-16 20:38:34,Mislav Marohnić,Make `fetch.js` compatible with eslint,False
+03d01c5b7038e3b4e10d5fa25eaf689f73ac1bbc,2018-05-16 20:37:07,Mislav Marohnić,Run prettier on source file,False
+972819300b1a11d152080ad5606d41f7bbf286d9,2018-05-16 20:26:58,Mislav Marohnić,Add exports to `fetch.js`,False
+8aec47cb6c67a9a321f1eb07457f70fc46235610,2018-05-16 20:26:10,Mislav Marohnić,Unwrap `fetch.js` to be a clean module file,False
+da6e0284667f029418168a8b242d2f1458d10434,2018-04-09 23:07:46,Jay Phelps,Distribute as UMD,False
+cbb313bf09512efda9444e40fe9e8ac432ac1108,2018-03-29 20:46:37,Mislav Marohnić,Fetch 2.0.4,False
+fcc4e1b48cfb5a2b1625fcd6eac06d954b00ccb6,2018-02-16 15:10:06,Mike McQuaid,"Merge pull request #604 from MikeMcQuaid/patch-1
+
+Create CONTRIBUTING.md",True
+a2fbf834773b8dc20eef83bb53d081863d3fc87f,2018-02-16 14:56:31,Mike McQuaid,"Create CONTRIBUTING.md
+
+Provide information on how to contribute to this project.",False
+7f6b8d2eb3e7d64cc3e8ec2c93332939ab5d859c,2018-02-05 00:11:17,João Vieira,Upgrade abortcontroller-polyfill.,False
+36bf6925ca05792277b3ee4cc75aea3f14042882,2018-02-04 20:36:07,João Vieira,Replace AbortSignal polyfill with abortcontroller-polyfill module.,False
+f0e24f8ebb2d6f8e57c7ea69abfc3fac1ff4b36b,2018-02-04 00:34:19,João Vieira,Native EventTarget is not inheritable.,False
+8f778f394316ea947264853dc61ba9df2be2ee6a,2018-02-03 23:24:29,João Vieira,Fix EventTarget callback invocation context.,False
+738d51a057478803dbeea41e0d369e3914ab3d7d,2018-02-03 17:56:37,João Vieira,"Add tests with signal within Request object.
+
+Signed-off-by: João Vieira <joaoguerravieira@gmail.com>",False
+66ed8bafcf6a65a73b4462f6123c863311a55d3a,2018-02-03 17:38:33,João Vieira,"Merge pull request #2 from joaovieira/abort-polyfill
+
+Test signal reuse. Add AbortSignal polyfill.",True
+0bed2bad5923280809c12e82662491fd85560a0c,2018-02-03 17:33:09,João Vieira,"Split EventTarget and AbortSignal polyfills.
+
+Signed-off-by: João Vieira <joaoguerravieira@gmail.com>",False
+bab0f3deaae80afe8e0d8fbf0dcc4aa597636adc,2018-02-03 17:20:38,João Vieira,Consistent implementation of EventTarget as in MDN.,False
+9f9a00fd8aba5a919cdff09c086ff71daeb39c38,2018-02-02 22:34:57,João Vieira,Test signal reuse. Add AbortSignal polyfill.,False
+886a076820bd608f78caf80649cb5a68e927a5e2,2018-02-02 07:47:19,João Vieira,"Merge pull request #1 from joaovieira/abort-polyfill
+
+Clear abort event listener for all xhr completion states.",True
+d9aa590ecae34a5c3190615252a614a5faa565a8,2018-02-02 07:30:10,João Vieira,"Clear event listener for all xhr completion status.
+
+Signed-off-by: João Vieira <joaoguerravieira@gmail.com>",False
+c6aff302f6fd42be9f058481ffdaf92e6a8d4a41,2017-12-13 20:03:20,Mislav Marohnić,Avoid creating XMLHttpRequest if we're immediately aborting,False
+3abc04b28106d393ec24be0a95d39b342d4bd088,2017-12-13 20:01:58,Mislav Marohnić,Ignore `package-lock` file,False
+7831671b172435c52064f588cf7145236fecf5f2,2017-12-13 19:59:29,Mislav Marohnić,"Fix cookie test with newer versions of Node
+
+An HTTP header must not be set to an `undefined` value.",False
+b8322292e3147d3f9b9d30ccc6acebd8fbb51445,2017-12-13 19:57:49,Mislav Marohnić,Add tests for aborting requests,False
+074c89e2fc117f692b11c8b6b4fda55a330b600b,2017-12-13 19:57:13,Mislav Marohnić,"Polyfill DOMException
+
+In PhantomJS, DOMException exists but is not a constructor.",False
+8ba0cdb9b3286d4e47ba239bd56e4ef7c05ae0d8,2017-12-13 19:43:30,Mislav Marohnić,Polyfill DOMException if missing,False
+529c9fa0d1dcd88d8582aaf4a6a3b6b12d246d14,2017-12-13 19:43:08,Mislav Marohnić,Add `signal` property to Request instead of Response,False
+d47f6c9a7f92ee6248545a9e91e834a8443bafa6,2017-12-08 23:04:05,James Smith,Remove some semicolons,False
+0e1b651f4492e31fb3b18297c574807fdb3aafa4,2017-12-08 22:48:56,James Smith,More tweaks based on feedback,False
+318e95f0609e5d5dc2d1f8d57263c04f154ee950,2017-12-08 11:14:45,Jmeas,First pass at documentation,False
+fd5c261bd12c1a5fb6fd6a24e9dd1697d5a82fd8,2017-12-08 02:06:27,James Smith,Skip creation of XHR if signal is already aborted,False
+9a7d232905f786b704651409e74b3d665adc2dac,2017-12-08 01:38:35,James Smith,Remove event listener; use request.signal,False
+53565c1aec2a5ca026a58e0ce3460c654fc55a98,2017-12-07 22:19:11,Jmeas,Support abort without replacing native fetch,False
+93e9cec6c6a93f7a9473381c6daf215172fc6b7c,2017-12-07 14:59:00,Jmeas,Support abort API,False
+7f030fab4d79433204331cefe365f5fbbab9e992,2017-10-23 19:17:30,Roman Yakubuk,Fix issue #533,False
+7a692dc519a3a110526a26c7e252f99991510c2a,2017-08-04 04:43:14,Mislav Marohnić,"Merge pull request #553 from silverlyra/readme-tweaks
+
+Tweak the wording of the “Read this first” section",True
+54dc3f823fe3e6452da8d19bf7aad7eda4cd1dd8,2017-08-03 12:02:10,Lyra Naeseth,"Tweak the wording of ""Read this first""",False
+27473e937c6bdbb61212cc078ad60d22ae77ffb1,2017-06-19 19:08:23,Mislav Marohnić,"Merge pull request #534 from remcohaszing/response-undefined-status
+
+Allow undefined Response status",True
+0ecdd40c50d4bcdfd4d2a09448a6d01089dc182a,2017-06-19 12:25:18,Remco Haszing,Add test for undefined Response status,False
+c3e1019567262158f96309c8a9579adddaa7f894,2017-06-16 17:41:19,Remco Haszing,"Allow undefined Response status
+
+This allows the Response constructor to accept a status code that's
+explicitly set to undefined. Native fetch implementations in Chrome and
+Firefox behave this way.
+
+The following now works, but would previously throw an error:
+
+    new Response('', { status: undefined })",False
+9a0c992f4c79f2050b928ed9ad62689db525c200,2017-05-25 01:15:48,Mislav Marohnić,"Merge pull request #526 from satya164/patch-1
+
+Ensure cookies aren't sent if `credentials: omit`",True
+c389ccd8321a20bf6e713e10e82503a896de1f14,2017-05-24 05:33:44,Satyajit Sahoo,"Ensure cookies aren't sent if `credentials: omit`
+
+If the default value of `withCredentials` is `true`, as opposed to `false`, the library will send the cookies even if `credentials: omit` is specified. This affects React Native where the default value is `true` since cross-origin concerns don't apply.",False
+8560066d3d1cf1d008a24a6717689cb7737e0828,2017-05-10 02:52:42,David Graham,"Merge pull request #492 from marceloogeda/patch-1
+
+Added yarn command as option to installation",True
+08602ff819f4c41e9d9e9c2c31bfc853b1bb5bf2,2017-04-09 02:13:39,Mislav Marohnić,"Merge pull request #496 from woudini/fix-header-delimiter
+
+Add global replace for processing raw headers",True
+fcf847601f7192567caa3b8ab6eeb71f0906e158,2017-03-28 01:42:48,David Graham,"Merge pull request #469 from RoneyThomas/patch-1
+
+Added safari to native fetch browser support.",True
+f1207edc5eb31f2d3a6d1fec5197160c4290e894,2017-03-14 23:05:48,woudini,Add global replace for processing raw headers,False
+183736d8304dd2553813b56c4f1836fe6f7da7c1,2017-03-08 02:56:55,Marcelo Ogeda,Add yarn command as option to installation,False
+37dcb927ebc2c5282a0840f9ffae9b2fd1b84685,2017-03-07 21:57:03,Mislav Marohnić,"Merge pull request #491 from woudini/fix-header-delimiter
+
+Support obs-fold as header delimiter",True
+916077212c41eb6362fcd19000970c2e672461ab,2017-03-07 04:27:32,woudini,Support obs-fold as header delimiter,False
+d4ed806fdcbdeaef707d27f6c88943f0336a647d,2017-03-02 23:13:02,David Graham,Fetch 2.0.3,False
+5cc72dd734bfd459a61a61e472c90654d71afc91,2017-03-02 23:09:07,David Graham,Remove bower version from release instructions,False
+eebaa2a1bc21eeba98ee00c9f94a0a4c2007cff1,2017-02-22 20:57:59,David Graham,Remove extra punctuation,False
+9630aaa7db47d04e3322904959404f834b7b408f,2017-02-22 20:56:52,David Graham,"Merge pull request #485 from tschaub/headers-array
+
+Accept array in Headers constructor",True
+adc251ca5a8be2ebd5cb31d1b2dc1617acd6d0c6,2017-02-22 06:00:58,Tim Schaub,Accept array in Headers constructor,False
+49e80307b832ee4e49631ac3ea58cd8ed3cfef67,2017-02-21 23:17:33,David Graham,"Merge pull request #483 from aknuds1/patch-1
+
+Improve README language",True
+f4932c094505fdd04d21c6b9ae947d331861810d,2017-02-21 16:32:21,Arve Knudsen,"Improve README language
+
+Improve various aspects of the language in the README, some being typos.",False
+d34bde6c2a2477011725e115402a36edc4a3a94a,2017-01-25 23:03:21,Roney Thomas,Oxford comma.,False
+499a862c87266560ad112cf1a53a7f9c119443fb,2017-01-25 08:41:39,Roney Thomas,"Added safari to native fetch browser support.
+
+https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatsNewInSafari/Articles/Safari_10_1.html",False
+a9066beb1cbc919eced692014386e1d6150b7087,2017-01-24 03:56:03,Mislav Marohnić,"Merge pull request #468 from VagishVela/patch-1
+
+Fix grammar mistake in README",True
+bcc6b6753d524c6ed7505e646a99ad7154804ddc,2017-01-24 03:34:02,Vagish Vela,Fix grammar mistake in README,False
+b337f9578fa8e21fa5c9fe8d6eb74baaa43a1c02,2017-01-19 23:04:14,Mislav Marohnić,fetch 2.0.2,False
+c64c8a01d7b05eee4cfd198b8e0d4c6c1400f30d,2017-01-19 22:52:21,Mislav Marohnić,"Merge pull request #465 from github/url-to-string
+
+Treat any non-Request arg to `new Request()` as string url",True
+b285e61fbc4dc21d4b5f7a498046bdff585abf1b,2017-01-16 22:39:36,Mislav Marohnić,Detect broken URL support in PhantomJS and skip test,False
+c1df10299c865b648aea430d8e76b3a29e5bb9ad,2017-01-16 21:11:54,Mislav Marohnić,"Treat any non-Request arg to `new Request()` as string url
+
+This aims to match the behavior that the IDL of the spec defines:
+https://github.com/whatwg/fetch/issues/452#issuecomment-272439900",False
+9240ef453a1ebc3670b8377f9deb771d684e7f68,2016-12-30 00:06:18,Joshua Peek,Remove secrets,False
+d7989c10f81c254b8645387c5f4bd930bd1dc2c8,2016-12-06 20:52:10,Mislav Marohnić,"Merge pull request #449 from woudini/tolerance-provision
+
+Support Tolerance Provision when parsing headers",True
+eac7a2b9d37020a813ab34f5d722e1d4181422db,2016-12-06 20:10:33,woudini,Support Tolerance Provision when parsing headers,False
+ccea05db365ecbc320da22a07ad6c9b01c861b95,2016-11-21 15:50:07,Mislav Marohnić,"Add test for cloning GET request
+
+Closes #440",False
+b54dbacecabeaf0eb4ee6a7cd6fb5daf54e00d8c,2016-11-17 21:29:59,Mislav Marohnić,fetch 2.0.1,False
+3d3bb0ca72172b224e8101c0a5264adc41f53929,2016-11-17 21:27:35,Mislav Marohnić,"Only define `arrayBuffer()` if Blob is also supported
+
+It turns out that Android 4.0 implements ArrayBuffer but no Blob.
+
+This restores the behavior that v1.0 had, but which regressed in v1.1.0.",False
+54ec0965c25a9889e5ba597421faf7b0790de026,2016-11-15 20:05:07,Mislav Marohnić,"Display uncaught errors on the test results page
+
+This makes debugging in devices without a developer console easier.",False
+6f8529e4c5ceacc92c97f58a9bc6538879978f3c,2016-11-15 19:55:51,Mislav Marohnić,"Fix reading ArrayBuffer into string on older browsers
+
+Android 4.0 doesn't like the `String.fromCharCode.apply` hack.",False
+d7b6b8a87153419a4e406eb95e1f899c542ba048,2016-11-15 19:51:34,Mislav Marohnić,"Avoid using `native` keyword as variable
+
+Fixes the test suite in some older browsers that choke on it.",False
+ff2a90f407df2a897d850c1135a92bf65ae8547e,2016-11-15 16:45:57,Mislav Marohnić,"Mirror PhantomJS download by using Travis' own infrastructure
+
+This is to avoid hitting Bitbucket rate limits for downloads.",False
+2d64fc36321bfcb1c7e6fecfc3c09275e7c5286c,2016-11-15 16:16:04,Mislav Marohnić,"Merge pull request #432 from Rosuav/patch-1
+
+Fix misspelling of [ae]ffect",True
+df0f332a32abe0bc3bd2c5e7e594f27a06caaa52,2016-11-15 11:57:17,Chris Angelico,Fix misspelling of [ae]ffect,False
+c576d61fee39bb34699bbe870460b6120011150a,2016-11-15 01:11:58,Mislav Marohnić,fetch 2.0.0,False
+fc226e8a59d28dfcf8c8e930b99b1cc78df877b4,2016-11-15 01:11:07,Mislav Marohnić,"Merge pull request #429 from mislav/headers-spec-compat
+
+Change Headers multiple value handling for spec compatibility",True
+76f6a09cbfc1c955479dd9da2a333f7404c79de2,2016-11-15 01:09:22,Mislav Marohnić,fetch 1.1.0,False
+08e6a85885f6e7c9b648b1c72d78391e38f3fa76,2016-11-15 01:07:03,Mislav Marohnić,"Attach FileReader event handlers before calling its `read*` method
+
+Avoids a potential race condition when the load event already fired
+before a handler was attached. This was reported happening in Safari.
+
+Fixes #353",False
+a8695f956faceeb4939c4b484456395751df0c56,2016-11-15 01:03:44,Mislav Marohnić,Merge branch 'array-buffer',True
+abfe072ccaed40dab071fbc3302bddf2c1cbfc93,2016-11-15 00:59:58,Mislav Marohnić,Shorten body extraction tests,False
+9a703ba38ff3bddc94c8929c1e8fae5d766462cd,2016-11-15 00:40:06,Mislav Marohnić,"ArrayBuffer can now be consumed through `blob()`/`text()`
+
+Before, when a Request or Response was initialized with an ArrayBuffer
+or TypedArray, that data was only accessible through `arrayBuffer()`
+method, and if it was initialized with DataView, it wasn't accessible at
+all.
+
+Now, regardless of the original type of body, the accessors `blob()`,
+`arrayBuffer()`, and `text()` always work.",False
+9a04a0667b92dba567746b26b553ab9a329fa94d,2016-11-14 22:55:41,Mislav Marohnić,Share identical tests between Request & Response,False
+7f55e03bbdd71556d5ad90a8495ab9fe9a211b5b,2016-11-14 22:27:51,Mislav Marohnić,Remove duplicate test,False
+578784e2c0d0398c0fcf5bf593e914ecc4ac1135,2016-11-14 22:27:39,Mislav Marohnić,Simplify ArrayBuffer tests,False
+7021a0ce9eee57ff01dd1dae0e769063536b8ef8,2016-11-14 21:35:55,Mislav Marohnić,Merge branch 'master' into array-buffer,True
+4949171b58c14e755694b538180816883782d3b7,2016-11-12 21:38:37,Mislav Marohnić,Define `npm test` script,False
+5f9254f2f4a4daeaf0645034195eb52ac01fca02,2016-11-12 21:34:20,Mislav Marohnić,Remove Bower dependency in development,False
+5fd8402e7d36a0a782afe57b9719f84c75e99ac3,2016-11-12 20:32:20,Mislav Marohnić,"Default Response status is 200 OK
+
+This is in accordance with Section 6.4 of the spec:
+
+    dictionary ResponseInit {
+      unsigned short status = 200;
+      ByteString statusText = ""OK"";
+      HeadersInit headers;
+    };
+
+Fixes #376",False
+4528229e87131dca531b11baa57084d0eb5f68f8,2016-11-12 20:20:35,Mislav Marohnić,"Merge pull request #430 from mislav/array-buffer-view
+
+Support ArrayBufferView types as POST body",True
+211d5ca7a1156c718064ebe1f600612d539784ee,2016-11-12 04:17:15,Tamir Duberstein,"Support ArrayBuffer in BodyInit
+
+Fixes #350.",False
+25f7646c7a9819af0eeaa682bbd522a9332afa63,2016-11-12 02:11:23,Mislav Marohnić,"Test against PhantomJS 2.1.1 on Travis
+
+This will get all the ArrayBuffer & Blob tests passing.",False
+4cc46b265f38798c4e3fda432d8ab39275e60a13,2016-11-12 02:10:38,Mislav Marohnić,"Ensure that Blob is supported in case of DataView
+
+PhantomJS 1.9.8 seems to support ArrayBuffer & DataView, but not Blob.",False
+800f12ed467ba5d62a97b82bec2643be5c2b5ed1,2016-11-12 00:08:18,Mislav Marohnić,"Add support for DataView as POST body
+
+DataView is one of the possible views for ArrayBuffer, which the fetch
+spec says should be supported. However, IE 10-11 don't handle it well
+when passed unmodified to XMLHttpRequest. As a workaround, wrap every
+DataView in a Blob.
+
+It's interesting to note that IE 10's string representation of a
+DataView instance is `[object Object]` rather than `[object DataView]`.
+Therefore, the only way to detect it is via `isPrototypeOf`.",False
+c189b58e11f2a78e544e23ca061eebf5e458d722,2016-11-12 00:02:14,Mislav Marohnić,"Add support for ArrayBufferView as POST body
+
+Section 6.2 of the spec says that body can be BufferSource.
+BufferSource is defined in https://heycam.github.io/webidl/#BufferSource:
+
+> The BufferSource typedef is used to represent objects that are either
+> themselves an ArrayBuffer or which provide a view on to an ArrayBuffer.
+
+Furthermore, passing an ArrayBuffer directly to XMLHttpRequest is
+considered deprecated and Safari throws a warning about it. This makes
+it even more important to support ArrayBufferView in fetch.
+
+The fallback for `ArrayBuffer.isView` is provided for IE 10, which
+doesn't implement the method.",False
+87fd1cd3ad6651ef34e8ba7b667dc19ce0ec865f,2016-11-11 20:14:31,Mislav Marohnić,"Merge pull request #428 from mislav/spec-compat
+
+Spec compatibility for Request/Response constructors and cloning",True
+468f877e4447a2b267236f2f8fa4f1492c0dd20b,2016-11-11 04:02:07,Mislav Marohnić,Firefox now implements `Headers.forEach` natively,False
+02b1dcb5424484b326b75313c2b9cab8758b479c,2016-11-11 04:00:44,Mislav Marohnić,"Change Headers multiple value handling for spec compatibility
+
+Consider this Headers object:
+
+    var h = new Headers()
+    h.append('accept', 'text/html')
+    h.append('accept', 'text/plain')
+    h.append('content-type', 'application/json')
+
+Before:
+
+- `h.get('accept')` returned `text/html`
+- `h.getAll('accept')` returned an array of values
+- `h.forEach` (and other iterables) did distinct iterations for each
+  value of the same header
+
+Now:
+
+- `h.get('accept')` returns `text/html,text/plain`
+- `h.getAll()` is no more
+- `h.forEach` (and other iterables) now only do one iteration for each
+  headers name, regardless of multiple values
+
+This is in accordance with Section 3.1.2 of the spec, ""combine"" concept.
+
+The updated tests currently break in Chrome and Firefox when exercising
+the native implementation because their implementation is outdated. The
+implementation in Edge is more correct, but the tests still fail there
+because its implementation combines values with `, ` (notice the space)
+rather than `,`.",False
+9edd55dac008a91c2ba83ec4fe391f05203d445b,2016-11-11 02:57:10,Mislav Marohnić,Assert that a Request can be cloned multiple times,False
+9e7cb857bb0d899b0706409503624a5fa34b385d,2016-11-11 02:56:07,Seph Soliman,"Avoid consuming body when cloning
+
+Body of Request must be cloned using a value to avoid consumption of
+it. Once a new body is initialized, re-initialize the old value.
+
+Fixes #308, closes #335",False
+57565a1ba1e563e4424486cb88ea541ac892381b,2016-11-11 02:38:26,Mislav Marohnić,"Rework parsing of raw response HTTP headers
+
+Now splits by `\r\n` because that's the header line delimiter.
+No tests because I can't figure out how to return a manually formatted
+headers payload from Node.js HTTP server.
+
+Fixes #422",False
+b99a4f22eebde0be2c190de99524b02e8d379a07,2016-11-11 02:15:55,Mislav Marohnić,Bump url-search-params for IE 11,False
+94a598ace7589141c5f0d416c7dbb86ab1c83396,2016-11-11 02:10:19,Mislav Marohnić,"Allow reusing the same GET Request instance multiple times
+
+Fixes #411",False
+80105aec2420d6f4db02b8c0d4950ffc9de34738,2016-11-11 02:10:06,Mislav Marohnić,"Always construct a new Headers instance in Response
+
+Section 6.4 of the spec:
+
+> If init’s `headers` member is present, run these substeps:
+> ... Fill r’s Headers object with init’s `headers` member.
+
+Fixes #416",False
+43c638af6939f183873761a26942f57f44d40388,2016-11-11 02:10:06,Mislav Marohnić,"Always construct a new Request instance in `fetch()`
+
+Section 6.5 of the spec:
+
+> Let `request` be the associated request of the result of invoking
+> the initial value of Request as constructor with `input` and `init`
+> as arguments.",False
+ba7ffda7b2bf6b9183fbca04120c042babd17f00,2016-11-11 02:10:05,Mislav Marohnić,"Reorganize tests with the new ""fetch method"" suite
+
+The Headers, Request, and Response suites should mainly be exercising
+those classes and not invoking the `fetch` method. Most of those tests
+that do have now been moved to the ""fetch method"" suite.",False
+5f61b12416bc4497f23f67da562b4219b54b49c2,2016-11-11 02:10:05,Mislav Marohnić,"1st argument to Request constructor must be string or Request
+
+Section 6.3 of the spec:
+
+> If `input` is a string, then run these substeps: ...
+> Otherwise (`input` is a Request object), run these substeps: ...
+
+It's worth noting that Chrome and Firefox don't implement this right
+now, and will cast any non-Request object passed as 1st argument (even
+null/undefined) to a string.",False
+67627a4782873374e903ccbef3f0940d53b2219d,2016-11-10 00:17:47,Mislav Marohnić,"Merge pull request #427 from mislav/magic-readme-sprinkles
+
+Improve Readme",True
+d294b6ed6e2d26f0db0f742ae83bfa25c857ca6c,2016-11-09 22:01:07,Mislav Marohnić,Link to API reference from Readme,False
+816dec08f6c6a6664e99f94b691fa0a05eced0a2,2016-11-09 20:06:04,Mislav Marohnić,"Add Table of Contents and ""Read this first""
+
+Hopefully this will help reduce the number of invalid issues opened.",False
+f5b083d788701e4a78e793fb6a313b85690c0c56,2016-11-09 20:06:04,Mislav Marohnić,Readme tweaks,False
+11a63b51373f750c4bac1fcd1e735cc7f5f1bb71,2016-11-09 19:58:02,Mislav Marohnić,"Rework the Installation section
+
+No longer recommend es6-promise due to its size and the fact it doesn't
+conform to Promises/A+. Fixes #415",False
+51c8c58a560cfe3eaecd99622738ac2791ef98a3,2016-11-09 17:21:58,Mislav Marohnić,"More information about cookies
+
+Fixes #393",False
+90cf4501c7e91271970c7e2423019813d38fd53e,2016-10-14 23:12:00,Mislav Marohnić,"Merge pull request #408 from marciopuga/patch-1
+
+Fix grammar",True
+a85584cb28cdf970744f6b194681f3949d741ca8,2016-10-14 20:58:17,Marcio Puga,"Fix grammar
+
+The adjective similar is modifying behave instead of a noun or pronoun. Use an adverb to modify a verb, adjective, or other adverb.",False
+7ae2487ec415312750e6c1cdc4b3986ec944e3e3,2016-10-03 22:25:38,Mislav Marohnić,"Merge pull request #403 from samsch/patch-1
+
+Fixed typo in README.md",True
+737ecfca21dc5149f6f9b34047e1ad046e068232,2016-10-03 21:47:35,Samuel Scheiderich,"Fixed typo in README.md
+
+Microsft -> Microsoft",False
+133f690710b04f6b899357aa6767a94a1afac3a7,2016-09-25 17:50:07,Mislav Marohnić,"Disable Sauce labs testing in CI
+
+It's been broken for a while, causing everyone's PR to show up as a
+failed build. This isn't nice to our contributors, since it's not their
+fault.",False
+14b1ddedbba626312e66eb2ea722704d52a9d7f4,2016-09-25 17:45:54,Mislav Marohnić,"It looks like Safari 10 didn't ship with native fetch
+
+Fixes #401",False
+a82b0a9b84f2490112a9d29299f359a57ac2b00a,2016-09-11 20:06:58,David Graham,Add Edge and note regarding native fetch support,False
+9abc1ee0e3c32e234166fc35fa2c193c19a1ae93,2016-09-09 02:14:35,Mislav Marohnić,"Merge pull request #384 from mruhlin/master
+
+make X-Request-URL header case-insensitive",True
+65205e460f65554cdb376fe624a06f765657dfbb,2016-08-24 01:03:42,Mike Ruhlin,make X-Request-URL header case-insensitive,False
+03e2ccc33e9024d3c4fabab66951e7dbcbc57754,2016-07-25 20:48:05,Mislav Marohnić,"Merge pull request #354 from github/sauce-tweaks
+
+Better error handling with Saucelabs",True
+0d01bce65ee878da330268bce83d2f75b64ed76d,2016-06-17 18:22:43,Mislav Marohnić,"Better error handling with Saucelabs
+
+- Timeout handling for sauce_connect
+- Have `saucelabs-api` show error message on HTTP errors
+- Have `saucelabs-api` exit with nonzero on errors
+- Exit with nonzero if Saucelabs reports that 0 tests have ran
+- Abort Saucelabs API polling on ""test error"" (unsure what causes this)",False
+d0132f2a4495ea4421d9a1a66e191df19bd0c5c3,2016-06-01 23:17:00,Mislav Marohnić,Update sauce_connect,False
+4bde61788365cfd3d6155eee8aed3c7673d299d5,2016-05-21 01:01:19,Mislav Marohnić,"Merge pull request #331 from tarikjn/master
+
+Update Webpack section in README",True
+19206804417c9d44a62e3294b61f1491263624b8,2016-05-19 20:06:56,Tarik Ansari,Update Webpack section in README,False
+ad96feb721393590a1b79dd2646854f5cbb16186,2016-04-29 02:15:13,David Graham,1.0.0,False
+6e3aa34e7ea631ab55ad463ffc3a7c9bd47bae86,2016-04-19 06:08:02,David Graham,"Merge pull request #317 from Xuefeng-Zhu/patch-1
+
+refactor Header iterator methods",True
+65b611eb0fe7878704df190e36dedfd0a9071c3a,2016-04-19 06:02:11,Xuefeng Zhu,refactor Header iterator methods,False
+7f71c9bdccedaf65cf91b450b74065f8bed26d36,2016-04-16 04:54:34,David Graham,"Merge pull request #287 from jamonholmgren/patch-1
+
+Add ES2015+ example",True
+b2595455cc7ae45e6f5b2bd60c74d5801d8315ac,2016-04-15 00:47:50,Mislav Marohnić,"Merge pull request #314 from github/update-mocha-phantomjs
+
+Switch to `mocha-phantomjs-core` and system PhantomJS",True
+d1ab5881ac14625e5e2da26ddd2b24f33a63aeaf,2016-04-14 12:33:59,Mislav Marohnić,Switch to `mocha-phantomjs-core` and system PhantomJS,False
+4dbbfd0e09500ea969766edfd8289af1910ba135,2016-04-02 22:14:58,David Graham,"Merge pull request #306 from github/timeout-reject
+
+Reject promise on request timeout",True
+619ee08d5102f3a1540dd515a1fec766f3c01737,2016-04-02 04:45:48,David Graham,"Reject promise on request timeout
+
+Firefox and Chrome trigger the request's `onerror` handler when a
+timeout occurs. Safari triggers the `ontimeout` handler.
+
+This can be observed by making a request to an unroutable address:
+
+    var xhr = new XMLHttpRequest()
+    xhr.onload = console.log.bind(console, 'loaded')
+    xhr.onerror = console.log.bind(console, 'errored')
+    xhr.ontimeout = console.log.bind(console, 'timeout')
+    xhr.open('GET', 'http://10.255.255.1')
+    xhr.send()
+
+Fixes #294.",False
+c23c3f9b3aa3e2bcc8853cc0b1b08830068e6163,2016-03-31 22:43:57,David Graham,"Merge pull request #272 from jmeas/capitalization
+
+Use uppercase methods in README",True
+08fc999a6bfdfd3fd2fd12ebd65a73551e6f8f79,2016-03-31 01:53:22,David Graham,"Merge pull request #289 from steveluscher/patch-1
+
+Guard against `xhr.getAllResponseHeaders()` being `null`",True
+cff0ebba8d9df9d6a76448f57a3220983fbb150f,2016-03-31 01:12:33,David Graham,"Merge pull request #304 from github/url-search-params
+
+Add support for URLSearchParams POST body",True
+2ead77df94fa124fb24c03894bfb52f2c6c406b1,2016-03-30 23:53:59,David Graham,Replace deprecated npm licenses format,False
+d77810a15c78bbbaf2defd4ea3af6db21c8d117f,2016-03-30 23:52:32,David Graham,"Support URLSearchParams POST body
+
+https://fetch.spec.whatwg.org/#body-mixin",False
+57b7f98f639c3b7c9ca819eade75b7d5f678a629,2016-03-13 21:42:57,David Graham,"Merge pull request #295 from github/iterators
+
+Add Headers iterators",True
+78b3a3bd4d2bc11f4fc02df2f90269c842d56709,2016-03-13 05:44:01,Steven Luscher,"Guard against `xhr.getAllResponseHeaders()` being `null`
+
+From https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest#getAllResponseHeaders():
+
+> Returns all the response headers, separated by CRLF, as a string, or null if no response has been received.
+
+I discovered this on Android, once when `xhr.getAllResponseHeaders()` evaluated to `null`.",False
+a1b7674b6942d4265ea47b74760a486b2bf5e3da,2016-03-12 23:17:06,David Graham,Make Headers iterable if Symbol is available,False
+12e692e7c9e36b5d4ad7b2928ab8d75441e6e879,2016-03-12 22:28:02,David Graham,Add Headers#entries iterator,False
+6f7a588fd0bbc1eb8e5e77a349f10497a1a0c217,2016-03-12 22:23:57,David Graham,Add Headers#values iterator,False
+3ebc7ed0b4c87cfcc8f3a4d30822f882a1731516,2016-03-12 22:18:13,David Graham,Add Headers#keys iterator,False
+edb7c7336f53b5c0e08ef0ccb37e43c8d9de778f,2016-03-12 22:17:14,David Graham,Fix formatting,False
+b5d2f38002c18b70449aa8c387fe04755642887d,2016-03-05 11:19:52,Jamon Holmgren,Add ES2015+ example,False
+31bd9c4bde55eeefef100590a664ddef59b2bb92,2016-02-19 05:27:36,Mislav Marohnić,"Merge pull request #282 from vga-/patch-1
+
+fix example",True
+e6e0a7c610f4eb0a567e1a2f8f8fab885f35c121,2016-02-19 00:25:46,Vincent Abruzzo,fix example,False
+1d19130c6f4ab93aa09d2bc5e735e47b27a4bc11,2016-02-01 01:13:58,Jmeas,"Use uppercase methods in README
+
+HTTP methods are case-sensitive. The examples in the README currently
+lead developers to think that this API normalizes all of the method
+names to uppercase, leading to issues like #37 and #254.
+
+Setting the right precedent in the README will prevent developers
+from making mistake of trying to use method: 'patch' (or any
+other verb that isn't normalized for backwards compatibility).",False
+a9f49ab0875e284dbd0eda9be5004949e31b4161,2016-01-31 09:53:17,Mislav Marohnić,"Merge pull request #270 from github/ie10-requirement
+
+Drop IE-specific status codes workarounds and require IE10+",True
+be09a79d179c710c0da1ba358622d38abf2addd2,2016-01-30 11:40:30,Mislav Marohnić,Additionally test in Firefox on CI,False
+97e32630f217de820bfbbf3b724022d90390a1f1,2016-01-30 11:40:07,Mislav Marohnić,Drop IE-specific status codes workarounds and require IE10+,False
+989a1e8132e9adb4c4e973875ad043ff7219fc5a,2016-01-19 09:11:52,Mislav Marohnić,Fetch 0.11.0,False
+f4fc29fae16fc3ae92e61663c71c9caf3cb37a9c,2016-01-19 05:54:53,Mislav Marohnić,"Merge pull request #253 from billinghamj/polyfill-self
+
+Handle cases where `self` isn't defined",True
+ad009dc22df6bf48b1336273cf5c8c3139858268,2016-01-18 22:34:53,James Billingham,Handle cases where `self` isn't defined,False
+ee31854bbcb3d7261a0026f53bb1eabb1cd61145,2016-01-18 22:13:11,David Graham,2016,False
+016a2f47715eef8015a5d6124d9d044261b2e868,2016-01-18 16:45:46,Mislav Marohnić,Merge branch 'content-type-body',True
+3b5dc9c17f2be9ca1a2e7030dd8209f0b150bc70,2016-01-18 16:21:19,Mislav Marohnić,Cleanup in determining implicit content-type,False
+46a8e77ae3faa1bd6b73f1e979c6e739dd909a66,2016-01-18 15:40:56,Mislav Marohnić,Merge remote-tracking branch 'origin/master' into content-type-body,True
+4e00ced5b3db7f64ff2572d8c1aa2a4dff1ffe19,2016-01-18 14:58:16,Mislav Marohnić,"Merge pull request #258 from mislav/exercise-polyfill
+
+Exercise both polyfill and native `fetch` in test suite",True
+4dce072ff31479b5d3d8c8d3b15202e7cc178c09,2016-01-18 09:17:23,Mislav Marohnić,"Skip broken Firefox test
+
+When exercising the polyfill in Firefox, the invalid JSON parsing error
+will cripple the test suite, causing cascading failures in Mocha HTML
+output as well as cause failures in unrelated tests.
+
+The code fix was proposed #157 but we decided not to pull it since it's
+a Firefox bug and Firefox now ships with native fetch anyway. Instead,
+we avoid running that test as part of our polyfill test suite.",False
+796e9bfe12be548a75186165a3bc0e8cac0dff39,2016-01-13 07:03:50,Mislav Marohnić,"Skip `headers.forEach` tests for native Firefox implementation
+
+Mysteriously, it doesn't implement it.",False
+5426561f0bc37c07ce47e55803394a530fedd363,2016-01-13 07:03:50,Mislav Marohnić,"Check `support.blob` as prerequisite for `response.arrayBuffer()`
+
+This is opposed to checking for native ArrayBuffer because the polyfill
+will only define `arrayBuffer()` methods if Blob is available.",False
+4a5079dda9a802f96089ce09cb158a17ede97ccd,2016-01-13 07:03:50,Mislav Marohnić,"Exercise both polyfill and native `fetch` in test suite
+
+Before, in browsers that had native `fetch` implementation the polyfill
+code was never exercised by the test suite. This ensures that both
+implementations are exercised.",False
+614b4c90b236d5b35cccf6176791c25e3dab9506,2016-01-13 07:03:50,Mislav Marohnić,Have test jshintrc extend project's global one,False
+31063deaa9605e38d363a70aea8457b0e6e6da8e,2016-01-13 07:03:50,Mislav Marohnić,"Show error message when trying to run test suite without dependencies
+
+If someone just cloned this project, they might be tempted to
+`script/server` and try to run the test suite immediately. That won't
+work, because they have to run `make` first to obtain all npm and bower
+dependencies. However, they would get a blank HTML page which would be
+confusing because it's not immediately apparent what they did wrong.
+
+Now, an error message is rendered that suggests you should run `make`.",False
+12a50fda674f8481b1ec96cf072f5bcd95b1669b,2016-01-13 07:03:50,Mislav Marohnić,"Bump ""phantomjs"" package for stabler PhantomJS install",False
+b043384e2d7b68b10172a64e5c5b00a593cd41c3,2016-01-13 07:03:50,Mislav Marohnić,Render main test suite as root resource of test server,False
+667995fd9e8c98a6b3174d87f447360399283661,2016-01-11 00:58:27,Mislav Marohnić,Print the port being used when starting `script/server`,False
+1df62350c091fb179d91a9e0abff524cfcb69105,2016-01-10 08:13:49,David Graham,Add description,False
+88ed5354ad1846e1493c0f66cb07eed90702f50d,2016-01-10 07:40:03,Emily Eisenberg,Make tests work when there is no Blob support,False
+1e4a6151e6a1f4e2e792f7faa0a028498a7be973,2016-01-09 02:47:56,Emily Eisenberg,"Make fetch add a `Content-Type` header based on the type of the body.
+
+Summary: The process of extracting a body from a passed in body object
+(described here: https://fetch.spec.whatwg.org/#concept-bodyinit-extract)
+creates both a byte stream and a corresponding `Content-Type` value. These two
+values are used in the constructor of `Request` and `Response` objects to
+initialize the body and to set an initial `Content-Type` header.
+
+This change makes `Body._initBody()` return the `Content-Type` value
+corresponding to the type of the object passed in, and to set that header in
+the corresponding `Request` and `Response` objects that are being constructed.
+
+There's a little bit of a dance I need to do in Request to keep track of where
+the body is coming from, because we're only supposed to be setting the
+`Content-Type` header if we're getting the body from the options passed in, not
+if we're copying it from another `Request`. See step 32 of
+https://fetch.spec.whatwg.org/#dom-request. (This was caught by one of the
+tests. Yay tests!)
+
+I added some corresponding tests to make sure this works.
+
+Test Plan:
+I'm a little bit confused about how to run the tests normally, but this is what
+I did:
+
+ - Run `make lint`, see that everything passes
+ - Start up the test server by running `node script/server 3900 &`
+ - Visit http://localhost:3900/test/test.html and
+   http://localhost:3900/test/test-worker.html in Chrome and see that all of
+   the tests pass.
+
+From what I can tell, running the tests in Chrome just used the native fetch
+objects, so to test the polyfill I added `window.fetch = null` in
+test/test.html before it includes '../fetch.js', and added `self.fetch = null`
+in test/worker.js before it imports '../fetch.js'. Then:
+
+ - Visit http://localhost:3900/test/test.html and
+   http://localhost:3900/test/test-worker.html in Chrome and see that all of
+   the tests pass.
+
+Reviewers: @jeresig",False

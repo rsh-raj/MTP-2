@@ -1,0 +1,1758 @@
+Hash,Date,Author,Message,IsMerge
+9e97144222cb4c29df0a96b689781e87fc3e781c,2025-03-19 05:42:45,Wes Todd,"feat(deps): finalhandler@2.1.0 (#6373)
+
+* feat(deps): finalhandler@2.1.0
+
+* Update History.md
+
+Co-authored-by: Phillip Barta <barta.phillip@gmail.com>
+
+---------
+
+Co-authored-by: Phillip Barta <barta.phillip@gmail.com>
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>",False
+29d09803c11641d910107793947cefe4c0133358,2025-03-18 21:42:20,dependabot[bot],"build(deps): bump ossf/scorecard-action from 2.4.0 to 2.4.1 (#6397)
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.4.0 to 2.4.1.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/62b2cac7ed8198b15735ed49ab1e5cf35480ba46...f49aabe0b5af0936a0987cfb85d86b75731b0186)
+
+---
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1d63162dbfe5aa50549bbefb1dceae42ceda88f6,2025-03-18 21:41:59,dependabot[bot],"build(deps): bump github/codeql-action from 3.24.7 to 3.28.11 (#6398)
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.24.7 to 3.28.11.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/v3.24.7...6bb031afdd8eb862ea3fc1848194185e076637e5)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4a2175dfc979606160e5f5a9ae05ff7a25d6c8f5,2025-03-17 04:14:57,Sebastian Beltran,fix dependabot config (#6392),False
+0bb00e19068e9d95afcebb1821ab1eec5c1430aa,2025-03-12 03:20:59,Ulises Gascón,"ci: add dependabot (#5435)
+
+Co-authored-by: Shivam Sharma <meshivam81@gmail.com>
+Co-authored-by: Sebastian Beltran <bjohansebas@gmail.com>",False
+1e359f57fc8cc33795c768d94560befbb6a61b2b,2025-03-12 03:19:58,Wes Todd,fix(deps): qs@^6.14.0 (#6374),False
+9cbe2c2cbb0123457a0949233bacb7fe18b277ec,2025-03-12 03:19:08,Ulises Gascón,docs: add @dpopp07 to the triage team (#6352),False
+35e15362ab209809c40e6849f1bb783f9fbff860,2025-03-05 20:41:29,Sebastian Beltran,"fix(docs): clarify guidelines for becoming a committer (#6364)
+
+* docs: clarify guidelines for becoming a committer
+
+* Update Contributing.md
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+90e522ac90e000e290f91dc4f0cf523f802c31ca,2025-03-04 19:39:18,Sebastian Beltran,"fix(docs): update guidance for triager nominations (#6349)
+
+* docs: update guidance for triager nominations
+
+* Update Contributing.md
+
+Co-authored-by: Wes Todd <wes@wesleytodd.com>
+
+* Update Contributing.md
+
+---------
+
+Co-authored-by: Wes Todd <wes@wesleytodd.com>",False
+59703c23217cf7671e8f46bf77e2192fcab3c066,2025-02-28 03:17:13,Ulises Gascón,docs: update emeritus triagers (#6345),False
+caa4f68ee8d32474676fa29cc2086dcc1d62208b,2025-02-14 21:50:53,Andrea Polverino,feat: Extend res.links() to allow adding multiple links with the same rel (closes #2729) (#4885),False
+6ed3439584b6bc77b0f1156f8797700df063fa63,2025-02-14 21:21:27,Phillip Barta,fix(docs): Update multiple links to use `https` instead of `http` (#6338),False
+327af123a1833239adf7eb47fee94542b692d451,2025-02-14 01:09:31,Juan José,"feat: add support for ETag option in res.sendFile (#6073)
+
+This patch introduces the ability to control the ETag generation
+through the `res.sendFile` function. Specifically, the ETag option
+is wired to the application's configuration, allowing it to be
+enabled or disabled based on the app's settings.
+
+Fixes: https://github.com/expressjs/express/issues/2294
+
+Signed-off-by: Juan José Arboleda <soyjuanarbol@gmail.com>",False
+d2de128a32f1ce3d360bbe3fad56afa026fc8832,2025-02-13 22:14:50,Wes Todd,"fix (deps): update deps (#6337)
+
+fix(deps): mocha@^10.7.3 (closes #6121)
+
+fix(deps): marked@^15.0.3 (closes #6120)
+
+fix(deps): express-session@^1.18.1 (closes #6119)
+
+fix(deps): ejs@^3.1.10 (closes #6117)
+
+fix(deps): content-type@^1.0.5 (closes #6115)
+
+fix(deps): connect-redis@^8.0.1 (closes #6114)
+
+fix(deps): supertest@^6.3.4 (closes #6112)
+
+Co-authored-by: agungjati <agungjati94@gmail.com>",False
+2a53336e5d90e2a8f8373e323c6df00f0ab08c25,2025-02-12 22:17:19,Agung Jati,fix(deps): nyc@^17.1.0 (#6122),False
+a42413d4e34a55c9ad972f4bbbbec95ec1490f90,2025-02-12 21:52:11,Ulises Gascón,"fix(docs): Update repo captains (#6234)
+
+* docs: update repo captains
+
+* docs: update repo captain nomination policies
+
+Ref: https://github.com/expressjs/express/pull/6234#issuecomment-2578555232",False
+c2f576cbe9ed2f7988bf4e2f5ef6d7bea8a0ec9e,2025-02-12 21:39:50,Wes Todd,feat(deps): router@^2.1.0 (#6331),False
+99473c593a2de97ee82e5b0266ede4cdb682b68c,2025-02-12 21:14:53,Wes Todd,feat(deps): body-parser@^2.1.0 (#6332),False
+2d589b644a34c4e748fa650045e5827eaf65bf01,2025-02-12 21:08:10,Dustin Popp,"fix(docs): retroactively note 5.0.0-beta.1 api change in history file (#6333)
+
+Signed-off-by: Dustin Popp <dustinpopp@ibm.com>",False
+85e48bb8c109d2200077bf8d50f3a163488d0fa5,2025-02-11 01:11:39,Phillip Barta,fix(deps): update debug to ^4.4.0 (#6313),False
+55869f49a65f1e279d92488fa6319c9fd4d8eac2,2025-02-10 22:53:02,Alexander Cerutti,"feat: Added check to support Uint8Array in response sending (#6285)
+
+Unified usage of ArrayBuffer.isView to comprehend Buffer and removed isView function check
+
+Co-authored-by: Wes Todd <wes@wesleytodd.com>
+
+Added Uint8Array test with encoding
+
+fix: added history.md entry",False
+af7cd90893f4619212e01f271fbaa10f3176fb33,2025-02-05 23:35:39,Dustin Popp,"feat(deps): use carat notation for dependency versions (#6317)
+
+Signed-off-by: Dustin Popp <dustinpopp@ibm.com>
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>",False
+ae6a4621bc19ae9d2e4d9d083baca0f422d7b536,2025-02-05 23:10:08,Phillip Barta,fix(ci): updated scorecard actions (#6322),False
+8d393459026192e788c8b60fee6b59c426266f94,2025-02-05 22:55:48,Phillip Barta,fix(ci): fix npm install --include typo (#6324),False
+a5cb681eb8f5b61336ac2ce1424b3448711724f2,2025-02-05 17:57:59,Phillip Barta,ci: updated github actions ci workflow (#6314),False
+511d9dfca8f2329534ee9c75990163766b82c407,2025-02-04 16:29:48,Ayoub Mabrouk,refactor: simplify `normalizeTypes` function (#6097),False
+7f13d572c13228856822af9ba4a7a094f4784ac9,2025-02-04 15:58:18,Ulises Gascón,docs: include team email in the security policy (#6278),False
+62336717bfb6ff0ddca1c320cab76218928e7f93,2025-01-26 16:24:07,prajesh,fix: added a missing semicolon in css styles in examples/auth (#6297),False
+3bbffdc41c1adebd1c4297e3661e2b182b8d27ac,2025-01-23 21:21:45,Sebastian Beltran,docs: add @Phillip9587 to the triage team,False
+ff86319ed5384bb9907802a33716263f569e407d,2025-01-15 12:09:30,Ulises Gascón,ci: add support for OSSF scorecard reporting (#5431),False
+1c5cf0feaddc46a2698457a49cf82bdb52b774b5,2025-01-15 00:31:39,Hamir Mahal,refactor: remove `Invalid action input`,False
+256a3d152794e6166f204f80b4400d8acad0f947,2025-01-12 22:38:51,Jon Koops,"Remove unused `depd` dependency
+
+Signed-off-by: Jon Koops <jonkoops@gmail.com>",False
+4f952a953bab47e941ed70a358814ee64c031017,2025-01-11 22:42:04,Wes Todd,fix: remove download size badges,False
+41113599afb01040436dba993f06cacbdb8f8e13,2025-01-10 23:23:44,Szymon Łągiewka,"fix(refactor): prefix built-in node module imports
+
+Since v5 relies on node >= 18, this is now possible (since v16, v14.18.0
+[^1][^2]).
+
+It's functionally irrelevant:
+1. It's not required for CJS nor ESM (with a few exceptions [^3])
+2. It has no performance promises
+
+However, there are upsides to this approach:
+1. It brings clear boundaries to what's a built-in and what's an
+external dependency
+2. It reduces the risk of importing unwanted deps where a built-in is
+expected
+3. It's slightly more interoperable with other JS runtimes that provide
+node compatibility[^4], albeit only during development. Once imported
+from npm, built-ins are assumed.
+
+[^1]:https://nodejs.org/docs/latest-v22.x/api/modules.html#built-in-modules
+[^2]:https://github.com/nodejs/node/pull/37246
+[^3]:https://nodejs.org/api/modules.html#built-in-modules-with-mandatory-node-prefix
+[^4]:https://docs.deno.com/runtime/fundamentals/node/#using-node's-built-in-modules",False
+6a40af82937803a7652b47641a7a3cd2f5c833c4,2025-01-09 02:15:36,AbdelMonaam Aouini,"fix(devdeps): update dev deps (#6211)
+
+Co-authored-by: Monaam Aouini <abdelmonaem.aouini@mispay.co>",False
+246f6f5aeebad1b9d6a0ea08cd96d3fe19f8f23c,2025-01-08 21:26:16,Phillip Barta,fix: Remove `utils-merge` dependency - use spread syntax instead (#6091),False
+b11122be85377375465b2aa103da43301e56f128,2025-01-02 12:30:30,Jon Koops,chore: replace `methods` dependency with standard library (#6196),False
+43020ff2753477a5abc75a72931a807503d31bbf,2024-12-20 22:48:55,Sebastian Beltran,docs: clarify the security process in the triage role (#6217),False
+e4a61bd88e2f170eab64d937f3bf6c0812b4a649,2024-11-28 01:52:22,Shahan Arshad,refactor: improve readability (#6173),False
+39f5d633b55726469cf3bb72eb905cb6b1f59d18,2024-11-28 00:29:36,Ulises Gascón,docs: add @rxmarbles to the triage team (#6151),False
+52ed64606fc1f5114d90265a66275a18f2d773af,2024-11-21 01:10:39,Jon Church,update history.md for acceptParams change (#6177),False
+4e92ac903194b705a121ec49103fd9fcd779a42b,2024-11-15 21:53:42,Phillip Barta,"cleanup: remove AsyncLocalStorage check from tests (#6147)
+
+Co-authored-by: Wes Todd <wes@wesleytodd.com>",False
+9f8589e31ce8e54097defb48da89c8538e92bfd9,2024-11-15 21:46:29,Phillip9587,"cleanup: remove unnecessary require for global Buffer
+
+The Buffer object is globally available in Node.js, so there is no need to explicitly require it.",False
+cc751cff8fc8e57146f78d8deadaf150fd03cd68,2024-11-15 20:23:37,Sebastian Beltran,improve step update documentation,False
+805ef52ae6156abffe1dee7fa3c25dcd7923f913,2024-11-15 02:31:25,Blake Embrey,Use loop for acceptParams (#6066),False
+9e3dbb43744620b8b490c61c9269a168e0c0e3ae,2024-11-12 21:00:34,Phillip Barta,"chore(test): remove promise support check from tests (#6148)
+
+Promises are supported in all supported Node.js version so the check is unnecessary",False
+b31910c542c7079d8a763aff346400b6f4c0eaee,2024-10-29 18:05:44,Ulises Gascón,"docs: Add DCO (#6048)
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+c70197ad33057e88565bd7bde6454f9225ead6cc,2024-10-27 15:40:33,Bhavya Dhiman,"fix(buffer): use node:buffer instead of safe-buffer (#6071)
+
+Main Changes:
+- Removed dependency `safe-buffer@5.2.1`
+- Use `node:buffer` core library instead of safe-buffer",False
+8cb53ea5c3329032a1db47be019b717d8350fb0e,2024-10-22 23:52:26,Phillip Barta,refactor: Remove Object.setPrototypeOf polyfill (#6081),False
+e162764f0f9c49eb6dc7d3d46cd99ac0e28e1948,2024-10-20 23:40:23,Rand McKinney,docs: add bjohansebas as repo captain for expressjs.com (#6058),False
+508c74091f9a75277184e06793b35fe6ab2b8a42,2024-10-20 23:39:00,Sebastian Beltran,docs: update readme (#5994),False
+b274047a5d38db1af0adc4e7ecba39a3a9f8f730,2024-10-20 23:37:22,Sebastian Beltran,"docs: update homepage link http to https (#5920)
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>",False
+082d6d1253c590cb3c8920327c76e70328a1bd80,2024-10-20 23:36:49,Chris de Almeida,test: add discarded middleware test (#5819),False
+94546a3cc549a93edadea3b698097509c7ef3c64,2024-10-20 23:28:49,Sebastian Beltran,docs: add funding (#6064),False
+ab022403361cc94fa7ccfd836e54378f0a20b20f,2024-10-20 22:55:56,Sebastian Beltran,build: Node.js 23.0 (#6075),False
+a46cfdc37f5e422db7ce6f12d321eb79694c1e9b,2024-10-10 01:10:05,Ulises Gascón,"docs: update captains
+
+PR-URL: https://github.com/expressjs/express/pull/6027",False
+d14b2de782c16fbef39541c9009b01bd6ae90b92,2024-10-09 01:01:10,Ulises Gascón,"5.0.1
+
+PR-URL: https://github.com/expressjs/express/pull/6032",False
+2027b87a27396d418f7848cc7fc4c353d798c3d9,2024-10-08 15:40:56,Josh Buker,"fix(deps): cookie@0.7.0
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>",False
+2cbf22721defccbb4f29f460ad007002ca87bd72,2024-10-07 02:36:57,Blake Embrey,Link and update captains (#6013),False
+3e1a1cedb237568c2a34944a0f4e72eff3a0b40b,2024-10-06 21:04:26,Ulises Gascón,"Add @bjohansebas to the triage team (#6009)
+
+Co-authored-by: Sebastian Beltran <bjohansebas@gmail.com>",False
+6340d1509f83e436f4484be1fb3a6d155ebb6a38,2024-10-01 02:19:26,Jon Church,remove --bail from test script (#5962),False
+344b022fc7ed95cf07b46e097935e61151fd585f,2024-09-10 10:07:22,Wes Todd,"5.0.0
+
+closes #2237
+closes https://github.com/expressjs/discussions/issues/233",False
+0c49926a9b7aff8bbca2a40d2549db0b41bab5b3,2024-09-10 10:04:03,Wes Todd,fix(deps): send@^1.1.0,False
+b3906cbdded224554ce1c778996d77b5d2a15ebc,2024-09-10 10:02:19,Wes Todd,fix(deps): serve-static@^2.1.0,False
+fed8c2a8857a30b91e07a37f739aee18e756853f,2024-09-10 09:57:40,Wes Todd,fix(deps): body-parser@^2.0.1,False
+bdd81f8670975ef30fd49e92513ef48d35029eaf,2024-09-10 08:58:55,Blake Embrey,Delete `back` as a magic string (#5933),False
+6c98f80b6ac95b90cff5da6857be4fe21d5e9c4e,2024-09-10 08:19:35,ctcpip,"🔧 update CI, remove unsupported versions, clean up",False
+f9256ef36fa97da0c1f2b90e789a694e97fa59de,2024-09-10 07:41:23,Wes Todd,Merge branch '5.0' into 5-merge,True
+e5feb9fcc9ab2c8a770a5380d79e135d86889a4c,2024-09-10 07:37:57,Wes Todd,Merge tag '4.20.0' into 5.0,True
+21df421ebc7a5249bb31101da666bbf22adc3f18,2024-09-10 07:31:43,Ulises Gascón,4.20.0,False
+4c9ddc1c47bf579e55c2fe837d76a952e9fd8959,2024-09-10 07:31:43,Ulises Gascón,feat: upgrade to serve-static@0.16.0,False
+9ebe5d500d22cbb2b8aaa73446866b084c747971,2024-09-10 07:31:43,Ulises Gascón,feat: upgrade to send@0.19.0 (#5928),False
+ec4a01b6b8814d7b007f36a3023f4dbafdbc3d09,2024-09-10 07:31:43,Ulises Gascón,"feat: upgrade to body-parser@1.20.3 (#5926)
+
+PR-URL: https://github.com/expressjs/express/pull/5926",False
+54271f69b511fea198471e6ff3400ab805d6b553,2024-09-10 07:30:58,Chris de Almeida,"fix: don't render redirect values in anchor href
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>",False
+0264908903a64a3edd00fbe77e65c6748cc1b6e9,2024-09-10 04:20:11,Wes Todd,feat(deps)!: router@^2.0.0 (#5885),False
+4d713d2b767e13bfbd4f91f4dc9fd442e9896bcd,2024-09-10 03:33:32,Jon Church,"update to fresh@2.0.0 (#5916)
+
+fixes handling of If-Modified-Since in combination with If-None-Match",False
+125bb742a38cd97938a3932b47cc301e41c31f5d,2024-09-10 02:32:06,Blake Embrey,"path-to-regexp@0.1.10 (#5902)
+
+* path-to-regexp@0.1.10
+
+* Update History.md",False
+accafc652eb18162eb7d88273e42db8bd7a2f821,2024-09-03 00:06:21,Wes Todd,fix(deps): finalhandler@^2.0.0 (#5899),False
+05f40f4321fee5235de0159dcd2a826c2532dff1,2024-08-31 23:39:21,Wes Todd,fix(deps)!: content-disposition@^1.0.0 (#5884),False
+402e7f653fd79528df634c3464f2fe929e716ff3,2024-08-31 23:01:31,Wes Todd,fix(deps): type-is@^2.0.0 (#5883),False
+4e61d0100d903de94673d4202eaa7edde5888fb4,2024-08-31 21:36:25,Wes Todd,fix(deps)!: mime-types@^3.0.0 (#5882),False
+7748475747c3ccabc929dac78ea4eeb34003b245,2024-08-31 21:25:04,Wes Todd,fix(deps): accepts@^2.0.0 (#5881),False
+91a58b5b0368e91c67971cfb13519c1b5087847d,2024-08-24 04:47:12,S M Mahmudul Hasan,"cookie-signature@^1.2.1 (#5833)
+
+* upgraded `cookie-signature` to 1.2.1
+
+* declared cookie-signature deps in history
+
+* add caret in version",False
+13e68943935f81aa7301c90d0d709d5153a675c9,2024-08-24 02:40:16,Carlos Serrano,"chore: qs@6.13.0 (#5847)
+
+Co-authored-by: Wes Todd <wtodd@netflix.com>",False
+65b62065d2b4308212fc3b19ab4986a9fa10ca41,2024-08-24 02:37:45,Wes Todd,fix(deps) serve-staic@2.0.0 (#5790),False
+2a980ad16052e53b398c9953fea50e3daa0b495c,2024-08-24 02:09:13,Anna Bocharova,"merge-descriptors@1.0.3 (#5781)
+
+* Allow patches for `merge-descriptors` dependency
+
+* Set fixed latest of v1 (1.0.3)",False
+0b243b1aee0d8774f2b97da2e8ac4340adaed1b3,2024-08-24 02:07:27,Anna Bocharova,"5.x: Upgrading `merge-descriptors` with allowing minors (#5782)
+
+* Upgrading `merge-descriptors` with allowing minors in v5
+
+* Using ^2.0.0 as per request
+
+* Reflecting in History.md.
+
+* Update History.md",False
+a3e7e05e0a435b7b4be25bd38d8d0ca19a773ca9,2024-08-22 21:55:14,S M Mahmudul Hasan,"docs: specify new instructions for `question` and `discuss`
+
+PR-URL: https://github.com/expressjs/express/pull/5835",False
+c5addb9a17c5b4c9fccdd2c04153a30595e03385,2024-08-22 08:45:02,Blake Embrey,deps: path-to-regexp@0.1.8 (#5603),False
+e35380a39d94937e3d0f7119e0efbc7cd69d003f,2024-08-20 01:42:24,Ulises Gascón,"docs: add @IamLizu to the triage team (#5836)
+
+PR-URL: https://github.com/expressjs/express/pull/5836",False
+f5b6e67aed1d8e81c30bd5be7bb88dbbfabfeb64,2024-08-19 00:07:51,Sebastian Beltran,"docs: update scorecard link (#5814)
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>",False
+09831580ec64c2b53d712dfbf47a47a5790aa560,2024-08-17 20:51:29,Carlos Serrano,"refactor: replace 'path-is-absolute' dep with node:path isAbsolute method (#5830)
+
+* refactor: replace 'path-is-absolute' dep with node:path isAbsolute method
+
+* docs: add path-is-absolute dep removal to History.md",False
+41c054cff1e10f346feb39efe1f66660c0570aab,2024-08-17 20:50:25,Carlos Serrano,"chore: upgrade `debug` dep from 3.10 to 4.3.6 (#5829)
+
+* chore: upgrade debug dep from 3.10 to 4.3.6
+
+* docs: add debug dep upgrade to History.md",False
+ecf762ff383c2cefa4e49b4a7e2d7af23a255d5d,2024-08-09 22:29:53,Wes Todd,fix(deps)!: send@^1.0.0 (#5786),False
+63992bb1d7da401cdf7dfbb9d45d99c63b69c0e6,2024-08-03 02:54:55,ctcpip,Merge branch 'ci/v5-node-lts' into 5-merge,True
+ea4970605272847b4531605c20531a5312d516b1,2024-08-03 02:27:43,ctcpip,Merge branch 'master' into 5-merge,True
+dde1f7d6e8d8058edb8c95c8a75a5a58444369de,2024-08-03 02:08:18,ctcpip,Merge branch '5.0' into 5-merge,True
+82fc12a40b3e6694e9a2c9b1376e7548d95779f6,2024-08-03 01:56:45,Jon Church,"Ignore `expires` and `maxAge` in `res.clearCookie()` (#5792)
+
+* add test for removing user provided expires
+
+* rework impl and tests to ignore maxAge, do not set it
+
+this is to take into account the built-in relative expires when passing
+a maxAge to res.cookie
+
+I realized that using maxAge to invalidate cookies inherrently hit this
+relativee expires behavior, and the goal of this PR is not to rework
+that relative expires behavior w/ maxAge, but to prevent users from
+overwriting these values by accident when clearing cookies
+
+* update history.md
+
+* explicitly delete maxAge instead of setting as undefined
+
+* drop the spread, use object.assign
+
+* wording, review comment on history.md
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>
+
+* ♻️ use spread, update supported ecmascript version
+
+---------
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+9c756b01050de1d0a52eca507093862fb1cf2fe1,2024-08-02 23:45:51,ctcpip,"💚 remove node <11, all failing permanently now",False
+160b91cbf79b595712b694c3513c347551d17fbe,2024-08-02 19:37:36,Ulises Gascón,"feat: adopt Node@18 as the minimum supported version (#5803)
+
+- PR-URL: https://github.com/expressjs/express/pull/5803
+- This is a BREAKING CHANGE",False
+d106bf53246eb82aeb925c84c8855c54e17741c2,2024-08-02 05:12:07,Mick A.,Use Array.flat instead of array-flatten (#5677),False
+723b5451bbcbab69bc8ded50ccd6545a79b8fe64,2024-07-31 03:19:13,Jon Church,"Throw on invalid status codes (#4212)
+
+* check status code is integer, or string integer, in range
+
+* fix tests, update jsdoc comment for res.status
+
+* throw if number is string
+
+* narrow valid range to between 1xx and 5xx
+
+* disambiguate the error message
+
+* update skipped tests, remove invalid string test
+
+* remove invalid float test
+
+* fixup! remove invalid float test
+
+* fix invalid range tests error assertions
+
+* remove unused deprecate function
+
+* add test to assert on 200.00 coming through as 200
+
+this is the behavior of node's underlying HTTP module
+
+* revert back to throwing only on > 999 and < 100
+
+* update implementation for > 999
+
+* add test for 700 status code
+
+* update history with change
+
+* update jsdoc
+
+* clarify jsdoc comment
+
+* one more round of jsdoc
+
+* update 501 test
+
+* add invalid status code test for res.sendStatus
+
+* add test describe block for valid range
+
+* fixup! add test describe block for valid range
+
+* reduce the describe nesting
+
+* switch to testing status 100, to avoid 100-continue behavior
+
+* fix 900 test
+
+* stringify code in thrown RangeError message
+
+* remove accidentally duplicated res.status method
+
+* fix error range message
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>
+
+* update sendStatus invalid code test to use sendStatus
+
+---------
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+2177f67f5439494f7a29a8d04f744cc20fb9f201,2024-07-28 16:25:10,Ulises Gascón,"docs: add OSSF Scorecard badge (#5436)
+
+PR-URL: https://github.com/expressjs/express/pull/5436",False
+f4bd86ed361ea9710ed0f7b4634e66c8e3b88b40,2024-07-27 23:45:55,Jon Church,"Replace Appveyor windows testing with GHA (#5599)
+
+This PR moves us off of Appveyor for windows testing.
+
+We are now doing windows/linux testing on GHA. With the exception of iojs, which we are only testing on Linux and have split out to it's own workflow.
+
+We have also added npm-shrinkwrap.json to our gitignore, in order to not have to configure npm in CI to ignore it. If it's never checked in, it shouldn't exist in CI as you need to go out of your way to create it w/ npm.",False
+c96c690dc087d121137c97318215e03a432395c5,2024-07-26 03:25:48,ctcpip,Merge branch 'master' into 5.0,True
+088856c3f82d5101d2831db8516e1ec991eb426a,2024-07-25 23:09:38,ctcpip,"💚 add legacy CI, clean up",False
+2ec589c1133e2eec29a951b4976c50db638f7dd5,2024-07-18 02:14:03,S M Mahmudul Hasan,Fix Contributor Covenant link definition reference in attribution section (#5762),False
+4cf7eed927d3ccd3f1d0c9a14d562ec0a1635e86,2024-06-27 03:53:19,Jon Church,remove minor version pinning from ci (#5722),False
+6d084715ba6ca5301e9ac1efe4309e555973b364,2024-06-11 02:49:11,Chris de Almeida,"📝 update people, add ctcpip to TC (#5683)",False
+61421a8c0c2abf011868d90df93813992e3c7563,2024-06-09 08:55:42,Jon Church,"skip QUERY tests for Node 21 only, still not supported (#5695)
+
+* skip QUERY tests for Node 21 only, still not supported
+
+QUERY support has now landed in Node 22.2.0, but is still not supported
+in 21.7.3
+
+QUERY showed up in http.METHODS in 21.7.2. Only Node versions after that
+will attempt to run tests for it, based on the way we dynamically test
+members of the http.METHODS array from Node
+
+* update CI to run on 21.7 and 22.2",False
+f42b160bbc0c391c06cad1c6c37eea5305f78cd2,2024-06-08 05:18:48,Jon Church,"[v4] Deprecate `res.clearCookie` accepting `options.maxAge` and `options.expires` (#5672)
+
+* add deprecation notice for res.clearCookie maxAge/expires
+
+* update History.md for clearCookie deprecation change
+
+* add tests to codify deprecated behavior
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+689073d657b646b5d01448a6a69f88016f40761b,2024-06-06 02:55:58,Chris de Almeida,✨ bring back query tests for node 21 (#5690),False
+2803a2b35ae37209a44a8d3b19c141482fd57437,2024-05-23 03:59:16,Ulises Gascón,docs: add @UlisesGascon as captain for cookie-parser (#5666),False
+ee40a881f5d8cb4ce71bc45262fde8e4b7640d05,2024-05-18 02:17:56,Wes,call callback once on listen error,False
+a7d6d29ed3a8eeb91954447696d1a28b982702a4,2024-05-14 08:01:23,Blake Embrey,"Add @UlisesGascon to mime repos
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>",False
+897290b68549034fb12f7bbb2cf6dae6c6f36096,2024-05-14 08:01:23,Blake Embrey,"List and sort all projects, add captains",False
+700349ffaf6140195a2d5f8173dd732c90c5aacc,2024-05-09 02:32:11,Mert Can Altin,"doc: add table of contents, tc/triager lists to readme (#5619)
+
+* doc: updated readme file
+
+* doc: updated readme file for doc lint
+
+* Update Readme.md
+
+Co-authored-by: krzysdz <krzysdz@users.noreply.github.com>
+
+* Update Readme.md
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+
+* Update Readme.md
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+
+* Update Readme.md
+
+Co-authored-by: Christine Belzie <105683440+CBID2@users.noreply.github.com>
+
+* repair readme
+
+* added Emeritus area
+
+* Add @carpasse to the triager team
+
+* removed old collaborators
+
+* add missing triagers
+
+* lint
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* dedent to fix ToC spacing
+
+* fixup! dedent to fix ToC spacing
+
+* us @ for jonchurch
+
+* format names to use github handles first, single line
+
+* added emeritus triagers
+
+* edited title
+
+* added emeritus team members
+
+* added menu head
+
+* edited emeritus
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* edits to TC and anchors
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* Update Readme.md
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+
+* Update Readme.md
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+
+* Update Readme.md
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+
+* Update Readme.md
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+
+* Update Readme.md
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+
+* Update Readme.md
+
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+
+---------
+
+Co-authored-by: Mert Can Altin <mert.altin@trendyol.com>
+Co-authored-by: krzysdz <krzysdz@users.noreply.github.com>
+Co-authored-by: Ulises Gascón <ulisesgascongonzalez@gmail.com>
+Co-authored-by: Christine Belzie <105683440+CBID2@users.noreply.github.com>
+Co-authored-by: Jon Church <me@jonchurch.com>",False
+4b9cd2fd0e13519a16bc36e8b4212e7924698b2e,2024-05-05 03:45:53,Mert Can Altin,"add support Node.js@22 in the CI (#5627)
+
+Co-authored-by: Mert Can Altin <mert.altin@trendyol.com>",False
+b44191eb3de5fcc94b384d7d6028b8c9a0144231,2024-05-05 03:31:42,Jon Church,"ignore ETAG query test as well, reuse skip util (#5639)",False
+8417c60fcfd7a9523e8783fd3f489d771df1ce44,2024-05-05 02:39:52,Jon Church,skip QUERY method test (#5628),False
+bf91946bd406b0c6f045fe81331de1725e9cee43,2024-05-05 02:23:09,Blake Embrey,deps: encodeurl@~2.0.0 (#5569),False
+26801a0afdd73258ee3c3685e30d5d4040c1558d,2024-04-29 20:42:23,Evan Hahn,Use object with null prototype for settings closes #4835,False
+14439731f968c1ec6015227d747ede32d3fbf676,2024-04-29 20:13:25,Evan Hahn,"Use object with null prototype for various app properties
+
+`app.cache`, `app.engines`, and `app.settings` are now created with
+`Object.create(null)` instead of `{}`.
+
+This also updates a test to ensure that `app.locals` is created the same
+way.",False
+d97d79ed9a25099ec4f0537ad8bf2a9378350a6b,2024-04-21 15:18:10,Ulises Gascón,docs: add UlisesGascon as triage initiative captain,False
+26e53f0fbcaf1fa71a68a42dcd6c17af05fe6ac9,2024-04-17 18:43:07,Ulises Gascón,"ci: add CodeQL (SAST) (#5433)
+
+PR-URL: https://github.com/expressjs/express/pull/5433
+
+---------
+
+Co-authored-by: Íñigo Marquínez Prado <25435858+inigomarquinez@users.noreply.github.com>",False
+6abec204c0a6dc0b2a7adcd6f118ca5fb757e4aa,2024-04-17 17:23:16,Ulises Gascón,"docs: update triage nomination policy (#5600)
+
+PR-URL: https://github.com/expressjs/express/pull/5600",False
+4b3b8cc231381fe9357d7d98f6afd3e8e9f9d63c,2024-04-11 22:49:47,Ulises Gascón,feat: adopt Node@18 as the minimum supported version,False
+e9bcdd399b244079f4cf77dd5ffa58c5831b8b90,2024-04-11 22:46:20,Ulises Gascón,ci: adopt Node@18 as the minimum supported version,False
+815f799310a5627c000d4a5156c1c958e4947b4c,2024-04-10 22:23:52,Íñigo Marquínez Prado,"docs: update reference to the threat model (#5590)
+
+PR: https://github.com/expressjs/express/pull/5590",False
+7f9e5843b9690267cf87efe63b48d45425f9ebc3,2024-04-09 19:21:51,Jon Church,add jonchurch as repo captain on several packages,False
+93cf646d5c3643b0d14563795eb45aba583b1568,2024-04-07 22:10:16,Blake Embrey,docs: add blakeembrey as captain for encodeurl (#5579),False
+2676a1f281e8f1cc73591d3fa8917344dcc60d38,2024-04-04 16:31:35,Ulises Gascón,"docs: add reference to the Threat Model
+
+* docs: add Threat Model
+
+* docs: update reference
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>
+
+* docs: improve readability
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>
+
+* docs: add reference to the Threat Model
+
+---------
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+6da57c7819dfefa228ab68c884d701a8cf45f39b,2024-03-27 20:27:44,Jon Church,remove examples from the ignore,False
+d546f93f2f4658c3c03828afacc6dfd26788f7a7,2024-03-27 20:27:44,Jon Church,add develop to branches,False
+4771ba2bc3b5c6c26dd28783f0dc962d008edab8,2024-03-27 20:27:44,Jon Church,"crib fastify's ci concurrency logic
+
+https://github.com/fastify/fastify/blob/76674fdf46e4da5f1c18e0c86f615c4b538282cd/.github/workflows/ci.yml#L18",False
+3ae704f67fbbea3d6ac6aeb9563b5bc48615743f,2024-03-27 20:27:44,Jon Church,"update ci push trigger only to some branches, ignore examples, .md",False
+8b6d34963d0bf0944d7da2da6fb2b71e36a61421,2024-03-27 20:27:09,Marco Ippolito,"Update Security.md
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+36b814811079d8d242e69257de46576822d6bb4f,2024-03-27 20:27:09,Marco Ippolito,"Update Security.md
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+6d98d2e1103dfe73cb8efc47521d42c269e5bf08,2024-03-27 20:27:09,Marco Ippolito,"Update Release-Process.md
+
+Co-authored-by: Chris de Almeida <ctcpip@users.noreply.github.com>",False
+51a76366e34a9d5ac238c48ebfbd20a020cb635e,2024-03-27 20:27:09,marco-ippolito,refactor: reword to pre-releases,False
+4e3f95c0ea4ba6b3f116e65dbb5828e918ea25fb,2024-03-27 20:27:09,Marco Ippolito,"Update Security.md
+
+Co-authored-by: Wes Todd <wes@wesleytodd.com>",False
+88bd6d8e3a91f2059a89493a32952c5e01a1b40a,2024-03-27 20:27:09,Marco Ippolito,"Update Release-Process.md
+
+Co-authored-by: Wes Todd <wes@wesleytodd.com>",False
+51595d402ba155877e48a2a6c807b956a6d6d376,2024-03-27 20:27:09,marco-ippolito,feat: document beta releases expectations,False
+94669f9289fdd1c640b0c35acf4d9f8e996a646c,2024-03-26 20:11:06,Wes Todd,remove duplicate location test for data uri,False
+cd7d79f92a7209b09aa9b065b0643c1bec55ed1d,2024-03-25 20:11:30,Wes Todd,v5.0.0-beta.3,False
+5e2345e966c81b656a121454b207a928c4818c63,2024-03-25 20:08:58,Wes Todd,Merge branch '5.0' into 5.x,True
+6415f7035b3675ec4eaee3b91973d7d3b0464ca9,2024-03-25 20:07:02,Wes Todd,"Merge tag '4.19.2' into 5.0
+
+4.19.2",True
+b28db2c12c3bd9cd763316824446f79bf81e0686,2024-03-25 19:59:41,Wes Todd,4.19.2,False
+0b746953c4bd8e377123527db11f9cd866e39f94,2024-03-25 19:59:41,Wes Todd,"Improved fix for open redirect allow list bypass
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+Co-authored-by: Blake Embrey <hello@blakeembrey.com>",False
+04bc62787be974874bc1467b23606c36bc9779ba,2024-03-25 19:56:03,Wes Todd,4.19.2,False
+da4d763ff6ba9df6dbd8f1f0b1d05412dda934d5,2024-03-25 19:52:34,Wes Todd,"Improved fix for open redirect allow list bypass
+
+Co-authored-by: Jon Church <me@jonchurch.com>
+Co-authored-by: Blake Embrey <hello@blakeembrey.com>",False
+7091ec17f046a12a294155e6584f8da699fa160d,2024-03-21 08:30:19,Wes Todd,5.0.0-beta.2,False
+416ba025a1fb77f0762eb25ae0d6fc79035a2fbd,2024-03-21 08:22:27,Wes Todd,build: disable test for 4.x which is failing in v5,False
+60fb1d2acd7fbee2bbcc2e0702709cc0a7be40dd,2024-03-21 07:47:26,Wes Todd,"Merge tag '4.19.1' into 5.x
+
+4.19.1",True
+e9f9aaeebd13d0ca57e59828a96eb88cb61888bd,2024-03-21 07:44:00,Wes Todd,"Merge tag '4.19.0' into 5.x
+
+4.19.0",True
+4f0f6cc67d531431c096ea006c2191b92931bbc3,2024-03-21 03:47:59,Wes Todd,4.19.1,False
+a003cfab034fbadb1c78ae337ee8ab389adda217,2024-03-21 03:42:46,Wes Todd,Allow passing non-strings to res.location with new encoding handling checks fixes #5554 #5555,False
+a1fa90fcea7d8e844e1c9938ad095d62669c3abd,2024-03-21 03:22:48,Wes Todd,fixed un-edited version in history.md for 4.19.0,False
+11f2b1db227fd42c2508c427032c1ec671b306be,2024-03-21 03:03:03,Wes Todd,build: fix build due to inconsistent supertest behavior in older versions,False
+084e36506a18774f85206a65d8da04dc1107fc1b,2024-03-20 20:48:54,Wes Todd,4.19.0,False
+0867302ddbde0e9463d0564fea5861feb708c2dd,2024-03-20 20:48:54,FDrag0n,"Prevent open redirect allow list bypass due to encodeurl
+
+Co-authored-by: Jon Church <me@jonchurch.com>",False
+567c9c665d0de4c344b8e160146050770233783c,2024-03-16 23:27:42,Rand McKinney,"Add note on how to update docs for new release (#5541)
+
+* Update Release-Process.md
+
+Add note about updating docs.
+
+* Update Release-Process.md
+
+* Update Release-Process.md",False
+69a4cf2819c4449ec6ea45649691fb43a528d5d1,2024-03-15 20:57:45,Rich Hodgkins,"deps: cookie@0.6.0
+
+closes #5404",False
+4ee853e837dcc6c6c9f93c52278abe775c717fa1,2024-03-14 17:13:12,Wes Todd,docs: loosen TC activity rules,False
+414854b82ea4312f50641ddf7668c9194c3c209c,2024-03-14 17:10:52,Wes Todd,docs: nominating @wesleytodd to be project captian,False
+06c6b88808f6d836afc58296812235a96d708b33,2024-03-11 20:49:21,Ulises Gascón,docs: update release date,False
+1b51edac7c5f2844e23602164a52643bb625993a,2024-02-27 00:50:53,Ulises Gascón,4.18.3,False
+b625132864ef40b1fb119ff7c7b984573a7974c6,2024-02-27 00:38:10,Ulises Gascón,"build: pin Node 21.x to minor
+
+Co-authored-by: Aravind Nair <22199259+aravindvnair99@users.noreply.github.com>
+closes #5430",False
+e3eca805847e0057ab1c83e7d61a6cc1c1ca47f1,2024-02-27 00:37:59,Ulises Gascón,"build: pin Node 21.x to minor
+
+Co-authored-by: Aravind Nair <22199259+aravindvnair99@users.noreply.github.com>",False
+23b44b3ddd45bc68487cc34cd576b117ba9d2609,2024-02-27 00:37:27,Ulises Gascon,build: support Node.js 21.6.2,False
+b9fea1224516e372f6f63480cc1830e5f6ee63e6,2024-02-27 00:36:49,Ulises Gascon,build: support Node.js 21.x in appveyor,False
+c259c3407f8c503c83d95fb1f30b132b73bb6388,2024-02-27 00:35:58,Ulises Gascon,build: support Node.js 21.x,False
+fdeb1d3176d11506557388ecaa2fe6a250e17efc,2024-02-27 00:27:01,Ulises Gascon,"build: support Node.js 20.x in appveyor
+
+closes #5429",False
+734b28190085c052e3ecd9c7d0b9595d9edb1b85,2024-02-27 00:11:28,Ulises Gascón,build: support Node.js 20.x,False
+0e3ab6ec215fc297473323fb1e8d0df03033e774,2024-02-20 03:17:26,Dmitry Kondar,"examples: improve view count in cookie-sessions
+
+closes #5414",False
+59af63ac2e6aea6a9cefb6fe27705ccf024d8373,2024-02-20 00:48:24,Ulises Gascon,"build: Node.js@18.19
+
+closes #5490",False
+e720c5a21bfed5a9c73b2407797023bacad6980e,2024-02-19 22:34:49,Ulises Gascon,"docs: add documentation for benchmarks
+
+closes #5312",False
+3abea7f8189c73f7f219d8878343d961eb9a4910,2024-02-19 20:34:05,riddlew,"examples: remove multipart example
+
+Closes #5193
+closes #5195",False
+2a89eb5c749a168820d6ea96723ad8a7e979a58b,2024-02-19 18:50:39,christof louw,"tests: fix handling multiple callbacks
+
+closes #5233",False
+59aae7686b995186a71da48abd4af5be72ff4ef5,2024-02-18 23:51:22,Gireesh Punathil,"docs: add project captains to contribution
+
+closes #4210
+closes #5484",False
+c4fe7de7bcb7ce241dfa7137fad96d48b75e86f3,2024-02-19 08:34:47,Wes Todd,"docs: update TC governance rules
+
+closes #5483",False
+a22920707bfd30e083e5b8e076841d226266cb06,2023-11-02 07:38:37,Douglas Christopher Wilson,build: actions/checkout@v4,False
+02d1c3916ebaec776b4d754be54aa1500e2e9563,2023-08-24 05:37:50,Douglas Christopher Wilson,build: Node.js@19.9,False
+8d8bfaac7be5d06c0a8fcc069b1ee5b0ec398cd9,2023-08-24 05:28:41,Douglas Christopher Wilson,build: Node.js@18.17,False
+13df1de857688057f3c7e6d315321b19f8e4259e,2023-08-24 05:19:36,Douglas Christopher Wilson,build: eslint@8.47.0,False
+2a00da2067b7017f769c9100205a2a5f267a884b,2023-06-04 21:17:20,Raz Luvaton,"tests: use random port in listen test
+
+closes #5162",False
+24e4a2570d15d6cca53023410f754929c5391c6f,2023-04-07 06:13:53,Douglas Christopher Wilson,build: Node.js@16.20,False
+91b6fb83b4cf30ec626c0582f0b3a0a98d8afcb4,2023-04-07 06:10:27,Douglas Christopher Wilson,build: use nyc@14.1.1 for Node.js < 10,False
+3531987844e533742f1159b0c3f1e07fad2e4597,2023-05-16 07:23:48,Rakesh Bisht,"lint: remove unused function arguments in Route tests
+
+closes #5137",False
+f540c3b0195393974d4875a410f4c00a07a2ab60,2023-03-14 08:29:15,Douglas Christopher Wilson,build: Node.js@18.15,False
+b8b2eff3c3eac6a1df3919a87f7c7316d40ae97a,2023-03-14 08:22:34,Douglas Christopher Wilson,build: eslint@8.36.0,False
+f4e48bc43eece928f005a4458c87a16ce089e8e5,2023-03-14 08:19:54,Douglas Christopher Wilson,build: ejs@3.1.9,False
+8c24fa8f7b6d443869c655166c93869d8b299627,2023-03-14 08:13:19,Douglas Christopher Wilson,tests: wait for server close in app.listen(),False
+0debedf4f31bb20203da0534719b9b10d6ac9a29,2023-02-27 00:04:32,Douglas Christopher Wilson,build: fix code coverage aggregate upload,False
+74beeac0718c928b4ba249aba3652c52fbe32ca8,2023-02-24 03:53:22,Douglas Christopher Wilson,Fix routing requests without method,False
+9bc1742937253825d2dc1e9a48c8e8424f0a315b,2023-02-24 01:58:18,Arnaud Benhamdine,build: support Node.js 19.x,False
+5ad95419bac1cb5bcc1f09fd1872f2b2af4aed1a,2023-02-23 22:44:47,Rakesh Bisht,"docs: fix typos in history
+
+closes #5131",False
+8a76f39d9844f36797cd794fb74b47c635798ae5,2023-02-23 10:58:41,Douglas Christopher Wilson,build: eslint@8.34.0,False
+60b7c672c19ba6b96cc7e5383eee00f8bf99a45a,2023-02-23 10:57:06,Douglas Christopher Wilson,build: mocha@10.2.0,False
+1e42a98db6708e5a3609d0f7c09bcc176b481ea7,2023-02-23 10:54:20,Douglas Christopher Wilson,deps: body-parser@1.20.2,False
+506fbd63befe810783dba49d11159c7ad46c239a,2023-02-23 07:40:07,Rakesh Bisht,"docs: add missing JSDoc param for parseExtendedQueryString
+
+closes #5130",False
+b9f7a97fe164d2a64279105abe375c69eaab9ebb,2023-02-23 04:40:59,Douglas Christopher Wilson,build: use $GITHUB_OUTPUT for environment list,False
+546969d1989d00fda460ccb23fabb943650dac51,2023-02-22 22:37:48,Douglas Christopher Wilson,build: Node.js@18.14,False
+f05b5d0e9c43625e5677b427c33b2f950eb5bea8,2023-02-22 22:29:40,Douglas Christopher Wilson,build: Node.js@16.19,False
+3c1d605da76a6c25dbe423a42d58871803c3e328,2023-02-22 20:55:07,Rakesh Bisht,"lint: remove unused parameters in examples
+
+closes #5113",False
+6b4c4f5426fb5de23fb7174fd6e3bf53048e06ca,2023-02-22 10:46:40,Rakesh Bisht,"docs: fix typos in JSDoc comments
+
+closes #5117",False
+a1efd9d6cf968a9e863f3fdd3fef63d06ff039c4,2023-02-22 09:25:22,Rakesh Bisht,"lint: remove unused parameter from internal function
+
+coses #5119",False
+c6ee8d6e7f11c3ac6bdda8e1bd4c1e38445f2d22,2023-02-21 09:27:13,Rakesh Bisht,"lint: remove unused function arguments in tests
+
+closes #5124",False
+442fd467992992558806da8da07e945838712587,2022-11-02 06:43:10,Abdul Rauf,"build: actions/checkout@v3
+
+closes #5027",False
+723b67766fb864424a59ebe46b6516bb484f6a23,2022-11-02 06:40:12,Arnaud Benhamdine,build: Node.js@18.12,False
+29e117e676901a804031896f95f0eba317b05099,2022-11-02 06:38:43,Arnaud Benhamdine,build: Node.js@16.18,False
+06b2b1416d07698b8a6eed467f90d0b3ceb380c8,2022-11-02 06:35:31,Kevin Jones,"docs: update git clone to https protocol
+
+closes #5032",False
+8368dc178af16b91b576c4c1d135f701a0007e5d,2022-10-09 01:41:42,Douglas Christopher Wilson,4.18.2,False
+61f40491222dbede653b9938e6a4676f187aab44,2022-10-09 00:22:31,Abhinav Das,"docs: replace Freenode with Libera Chat
+
+closes #5013",False
+bb7907b932afe3a19236a642f6054b6c8f7349a0,2022-10-08 03:18:59,Douglas Christopher Wilson,"build: Node.js@18.10
+
+closes #5014",False
+f56ce73186e885a938bfdb3d3d1005a58e6ae12b,2022-10-06 19:58:13,Douglas Christopher Wilson,build: supertest@6.3.0,False
+24b3dc551670ac4fb0cd5a2bd5ef643c9525e60f,2022-10-06 19:57:01,Douglas Christopher Wilson,deps: qs@6.11.0,False
+689d175b8b39d8860b81d723233fb83d15201827,2022-10-06 19:56:18,Douglas Christopher Wilson,deps: body-parser@1.20.1,False
+340be0f79afb9b3176afb76235aa7f92acbd5050,2022-10-06 08:10:51,Douglas Christopher Wilson,build: eslint@8.24.0,False
+33e8dc303af9277f8a7e4f46abfdcb5e72f6797b,2022-08-20 06:42:14,REALSTEVEIG,"docs: use Node.js name style
+
+closes #4926",False
+644f6464b9f61cbafa8f880636b1aa5237d95bad,2022-08-19 09:12:39,Douglas Christopher Wilson,build: supertest@6.2.4,False
+ecd7572f1e920b7a512452b8d9806ae617a99c54,2022-08-19 09:11:10,Douglas Christopher Wilson,build: Node.js@14.20,False
+97131bcda8bd3cdbe53ef14fbd08dcc23a53e758,2022-08-19 08:31:25,Douglas Christopher Wilson,build: Node.js@18.7,False
+8d98e86d7fe4e4dd50e42e73301b0bb7b7132758,2022-08-19 08:30:36,Douglas Christopher Wilson,build: Node.js@16.17,False
+2c47827053233e707536019a15499ccf5496dc9d,2022-05-20 21:27:37,Alexandru Dragomir,"examples: remove unused function arguments in params
+
+closes #4914",False
+97f0a518d8d697e310abf293a71383cf9d04d749,2022-05-20 21:24:35,Douglas Christopher Wilson,tests: verify all handlers called in stack tests,False
+7ec5dd2b3c5e7379f68086dae72859f5573c8b9b,2022-05-20 19:07:20,Douglas Christopher Wilson,"Fix regression routing a large stack in a single route
+
+fixes #4913",False
+ab2c70b954ac2ceb3aaf466b0f59089999952dd0,2022-05-20 19:05:20,Douglas Christopher Wilson,build: Node.js@18.1,False
+745a63f8256828a061e1b2f0a5f8e52eb9538da1,2022-05-20 19:04:47,Douglas Christopher Wilson,build: ejs@3.1.8,False
+a2dfc56a4982e0a33c67d6d0c22e087e95bff79e,2022-05-20 19:03:19,Douglas Christopher Wilson,build: mocha@10.0.0,False
+d854c43ea177d1faeea56189249fff8c24a764bd,2022-04-30 01:02:26,Douglas Christopher Wilson,4.18.1,False
+b02a95c6937e3b7e0b85a51c7e1a7366e1699dce,2022-04-30 00:22:20,Douglas Christopher Wilson,build: Node.js@16.15,False
+631ada0c645dc84c6df8788f5a7eb2b8100acea5,2022-04-29 23:04:47,Douglas Christopher Wilson,"Fix hanging on large stack of sync routes
+
+fixes #4899",False
+75e0c7a2c91665f44d053d83be15f8ecd0177f41,2022-04-29 07:30:49,Hashen,"bench: remove unused parameter
+
+closes #4898",False
+e2482b7e36e39fd9875508a297c2db4a80a33635,2022-04-29 07:29:32,Douglas Christopher Wilson,build: ejs@3.1.7,False
+2df96e349f49bbcf51126c1f3b93b3b7fe8c16d2,2022-04-28 22:34:38,Douglas Christopher Wilson,build: supertest@6.2.3,False
+a38fae126a9d5681d075c1a5c44fd7357eae843b,2022-04-28 22:34:11,Douglas Christopher Wilson,build: mocha@9.2.2,False
+547fdd41dca9ae9c49956748cc0bd1f011310fb6,2022-04-26 00:23:28,Douglas Christopher Wilson,4.18.0,False
+0b330ef57c0801313251c95a461d93f8d3afa7f7,2022-04-25 05:01:42,Deniz,"bench: print latency and vary connections
+
+closes #4880",False
+158a17031a2668269aedb31ea07b58d6b700272b,2022-04-21 11:39:08,Douglas Christopher Wilson,build: support Node.js 18.x,False
+29ea1b2f74c5e76e79e329ef425e5fbbcd6a71c3,2022-04-21 11:08:59,Douglas Christopher Wilson,build: use 64-bit Node.js in AppVeyor,False
+11a209e4b7e229bf5041e1ab76ba0ac4e0cad324,2022-04-21 07:32:37,Douglas Christopher Wilson,build: support Node.js 17.x,False
+fd8e45c344325a4a91c1b916f3617a3574018976,2022-04-21 05:22:20,phoenix,"tests: mark stack overflow as long running
+
+closes #4887",False
+708ac4cdf5cd0a658d62490a9f4d78d3e1ec6612,2022-04-14 08:59:25,Douglas Christopher Wilson,"Fix handling very large stacks of sync middleware
+
+closes #4891",False
+92c5ce59f51cce4b3598fd040117772fac42dce8,2022-04-12 08:21:13,Douglas Christopher Wilson,deps: cookie@0.5.0,False
+8880ddad1c0f00612b53f5f686f55e7566b16562,2022-04-12 04:59:14,Hashen,"examples: add missing html label associations
+
+closes #4884",False
+b91c7ffb289af1753b9d1d84e16fbfcd34954124,2022-04-12 04:58:50,Douglas Christopher Wilson,examples: use http-errors to create errors,False
+ecaf67c9305f3bf75a9798e8a2e10b36955df42c,2022-04-12 04:24:33,Eslam Salem,"docs: remove Node Security Project from security policy
+
+closes #4890",False
+99175c3ef63166d199bab8f402103522dec5f0ee,2022-04-08 13:12:09,Ghouse Mohamed,"docs: fix typo in casing of HTTP
+
+closes #4872",False
+1b2e097be2f5b62b7db7dae09f399ace54836e0a,2022-04-08 04:50:41,Hashen,"tests: fix typo in description
+
+closes #4882",False
+04da4aaf1a484e81856fc4713340300e4d84d573,2022-04-08 04:47:10,Douglas Christopher Wilson,build: use supertest@3.4.2 for Node.js 6.x,False
+2e2d78c4d99829250018c6e4d20f3c6377a90683,2022-04-03 10:45:37,Douglas Christopher Wilson,deps: on-finished@2.4.1,False
+980d881e3b023db079de60477a2588a91f046ca5,2022-04-03 08:09:35,3imed-jaberi,"deps: statuses@2.0.1
+
+closes #4336",False
+1df75763e315bd0582669238cd14baadec1d6db5,2022-04-03 07:26:41,Douglas Christopher Wilson,deps: qs@6.10.3,False
+32c558d414b4ac0f5bd70fa6a0f39a5558a7b016,2022-04-03 07:21:31,Douglas Christopher Wilson,deps: body-parser@1.20.0,False
+a10770286e7420c5a56ed3cc0b6add2c028ae56e,2022-03-28 09:11:31,Douglas Christopher Wilson,Use http-errors for res.format error,False
+5855339455a7f60774bef4166829e742a5056fa8,2022-03-27 08:41:48,Chris Barth,"Fix behavior of null/undefined as ""maxAge"" in res.cookie
+
+fixes #3935
+closes #3936",False
+1cc816993832eba829a2f556f7c08e27e6371301,2022-03-26 23:35:25,Ulises Gascon,"deps: depd@2.0.0
+
+closes #4174",False
+9482b82d0b9c498140561087d68f0409078a86ea,2022-03-26 10:59:40,Nadav Ivgi,"Invoke default with same arguments as types in res.format
+
+closes #3587",False
+10b9b507b7d113d04965cccd8d170ee524e3d555,2022-03-26 03:44:27,Douglas Christopher Wilson,examples: use updated res.download in example,False
+03dc3671874b214f67dacaca90f39a1c389f822e,2022-03-26 03:43:42,Douglas Christopher Wilson,Allow options without filename in res.download,False
+f739b162d9cc9fcfc1f514c2441c69f9fcb4364d,2022-03-25 11:16:32,Douglas Christopher Wilson,deps: finalhandler@1.2.0,False
+c92420648e18f78d22db24e0ffec99155ec54a49,2022-03-25 11:14:51,Douglas Christopher Wilson,deps: serve-static@1.15.0,False
+dd69eedd189eb55658ec435b821df13062cc5a8e,2022-03-25 11:13:45,Douglas Christopher Wilson,deps: send@0.18.0,False
+0def9bb659557df1bd659411a1a6f2c5b8b9d893,2022-03-25 09:38:38,Tommaso Tofacchi,"Add ""root"" option to res.download
+
+fixes #4834
+closes #4855",False
+4847d0efa123fae8f12a2c1b88f7e1a87a5f145a,2022-03-24 08:44:08,Jon Church,"Deprecate string and non-integer arguments to res.status
+
+closes #4223",False
+c17fe058613dc7dfb7779fbe68a9738a108fe408,2022-03-24 05:35:05,Evan Hahn,"Ignore Object.prototype values in settings through app.set/app.get
+
+closes #4802
+closes #4803",False
+87279c08aa46d178fe6f2e235d2345f17d6b5a37,2022-03-24 05:35:05,Tito D. Kesumo Siregar,"Support proper 205 responses using res.send
+
+closes #4592
+closes #4596",False
+8bf072039100cd264be920f06635fe77f083c751,2022-03-24 05:35:05,Kris Kalavantavanich,build: support Node.js 16.x,False
+eb4c930d5fb79e55c53b25d6e8a8a5cd15fc5554,2022-03-24 05:35:05,Kris Kalavantavanich,build: support Node.js 15.x,False
+947b6b7d57939d1a3b33ce008765f9aba3eb6f70,2022-03-21 08:29:20,Hashen,"lint: remove unnecessary continue statement in loop
+
+closes #4868",False
+bf4c3ee00f3b95a329fc1dd4dd0cd17c74178121,2022-03-21 06:21:39,Hashen,"docs: fix incomplete JSDoc comment
+
+closes #4867",False
+2a7417dd84025b62c4207bf018ae8826dc0be629,2022-03-21 00:44:33,Hashen,"examples: fixup html
+
+closes #4866",False
+490f1a1738449699c217e00ba56db378923fd6b5,2022-03-20 22:04:37,Tobias Speicher,"lint: remove deprecated String.prototype.substr
+
+closes #4860",False
+446046f886eb457c3d43f57c3f2fc97b698b317a,2022-03-01 10:57:48,Douglas Christopher Wilson,build: mocha@9.2.1,False
+291993d73c0c92c1ccce2dad264c86bdd1b4fe4b,2022-03-01 10:52:09,Douglas Christopher Wilson,tests: expand res.sendFile options tests,False
+e8594c35715a764afda8e56fd1b60cb2fe147f64,2022-03-01 10:11:41,Steven,"docs: add install size badge
+
+closes #3710",False
+07aa91f7cbfc3bc2443b292488ab8e3aafb92605,2022-03-01 08:22:57,Douglas Christopher Wilson,docs: consolidate contributing in readme,False
+4ed35b42026e09bcdcd9da821f172c238fb36cb5,2022-03-01 07:53:49,Douglas Christopher Wilson,docs: switch badges to badgen,False
+ea66a9b81bdd95b83d0035d8cbb41e6eacc6ea5b,2022-03-01 07:45:08,Douglas Christopher Wilson,docs: update link to github actions ci,False
+d0e166c3c6eaf80871b7f38839ea90e048452844,2022-03-01 05:07:41,apeltop,"docs: fix typo in private api jsdoc
+
+closes #4843",False
+cf9f662655ec8e2b90c5e5d561e0daa083908aa0,2022-02-24 10:47:01,Douglas Christopher Wilson,"tests: fix position of res.sendfile(path, options) test",False
+8da8f79c44cefd96f0a194904288658abce13d9d,2022-02-23 10:50:34,Douglas Christopher Wilson,tests: fix callback in res.download test,False
+18f782bba97157ab2e0ab754b404388e524915fd,2022-02-23 10:48:36,Douglas Christopher Wilson,tests: remove duplicate utils,False
+bc5ca055094bb48dedbb4a4c828dbe5b2d450616,2022-02-22 06:24:52,Douglas Christopher Wilson,tests: remove usage of should,False
+9967ffbdc2b90fd651e2a687fabc0d53a1065f82,2022-02-22 05:53:25,Douglas Christopher Wilson,tests: update res.append to verify separate header lines,False
+7df0c840e07d17a2268a2ab18e6db7656b203b78,2022-02-22 05:37:26,Douglas Christopher Wilson,tests: fix up app.locals tests,False
+d8ed591117295f528c59d0f0367064ffde96d427,2022-02-21 10:19:42,Douglas Christopher Wilson,tests: fix req.acceptsLanguage tests,False
+8ee3420f0fa064fe8bd6476492cc928f1833f90e,2022-02-21 10:13:02,Douglas Christopher Wilson,tests: fix req.acceptsEncodings tests,False
+318fd4b543ffbebf97bf0b6c49188afae45741f5,2022-02-17 10:57:11,Douglas Christopher Wilson,Merge tag '4.17.3',True
+3d7fce56a35f4f73fa437866cd1401587a212334,2022-02-17 07:33:42,Douglas Christopher Wilson,4.17.3,False
+f9063712e01979588818b0756851053b5ee43d09,2022-02-16 10:41:24,Douglas Christopher Wilson,build: update example dependencies,False
+6381bc6317ec8ffbf830e2d16677e4b5af37cc08,2022-02-16 10:33:16,Douglas Christopher Wilson,deps: qs@6.9.7,False
+a00786309641731661edb4d826a6919330887ca7,2022-02-16 10:13:41,Douglas Christopher Wilson,deps: body-parser@1.19.2,False
+6faf26d59f00637e5c09c1d320df966ee28349ad,2022-02-15 05:43:14,Douglas Christopher Wilson,5.0.0-beta.1,False
+e98f5848a0a496c0977a2d1734067b77f69de360,2022-02-15 05:12:47,Douglas Christopher Wilson,"Revert ""build: use minimatch@3.0.4 for Node.js < 4""",False
+a65913776d0b16837364ee66caa1a7f38a9997c0,2022-02-09 11:37:08,Douglas Christopher Wilson,tests: use strict mode,False
+5213bd9fe78a0c414966a79846ad58df413e754d,2022-02-09 05:25:09,Douglas Christopher Wilson,docs: fix entry in history,False
+a39e409cf3739ef9c9b597a9680813a34c3931c2,2022-02-09 05:10:07,Douglas Christopher Wilson,tests: prevent leaking changes to NODE_ENV,False
+82de4de5ab92e8237d713285104e4b8452927352,2022-02-09 04:02:10,KoyamaSohei,"examples: fix path traversal in downloads example
+
+closes #4120",False
+669c8056154a70d1dd4e29eae9a211df745ba803,2022-02-08 20:27:29,Douglas Christopher Wilson,deps: send@1.0.0-beta.1,False
+620df0e35e447d39c7f2b9e9909fa1a793851be7,2022-02-08 20:25:19,Douglas Christopher Wilson,deps: serve-static@2.0.0-beta.1,False
+f6db4ee805a62edb066c5290f4c9c444f2aff6fb,2022-02-08 20:18:54,Douglas Christopher Wilson,Drop support for Node.js below 4,False
+12310c52947ee159f7ecd63d125243cdca891135,2022-02-08 09:38:12,Douglas Christopher Wilson,build: use nyc for test coverage,False
+884657d54665f323c236055d6e3d3e85d96e5f08,2022-02-08 09:28:44,Thomas Strauß,"examples: remove bitwise syntax for includes check
+
+closes #4814",False
+7511d083283529f865ade6fedac08716f0efde05,2022-02-08 04:16:47,Douglas Christopher Wilson,build: use minimatch@3.0.4 for Node.js < 4,False
+a0276c6c91b3b119acc045640e8f4e0616734526,2022-02-06 20:56:18,Douglas Christopher Wilson,Use mime-types for file to content type mapping,False
+2585f209f98f91da68739bdb33b599df45b3a6e6,2022-02-05 07:48:47,Douglas Christopher Wilson,tests: fix test missing assertion,False
+9d0976229d48c22e8f47dee6349bc4531035657f,2022-02-05 07:44:41,Douglas Christopher Wilson,build: supertest@6.2.2,False
+43cc56eb9e529774535a992422ee90b5c9e15ff9,2022-02-05 03:18:33,Douglas Christopher Wilson,build: clean up gitignore,False
+1c7bbcc143296576e12ffe0fb9a35d43ede43ae7,2022-02-05 03:06:47,Douglas Christopher Wilson,build: Node.js@14.19,False
+9cbbc8ae74c63ec79b04971923493533066bf4d2,2022-02-05 03:05:50,Douglas Christopher Wilson,deps: cookie@0.4.2,False
+6fbc269563c53297d29b69b89fd71b74c1dbd6ce,2022-02-05 03:04:56,Douglas Christopher Wilson,pref: remove unnecessary regexp for trust proxy,False
+2bc734aa3f76db2984368134736e1ddf2d325e6a,2022-02-05 02:51:11,Douglas Christopher Wilson,deps: accepts@~1.3.8,False
+89bb531b311e2670a12dc020d69adb91327aa7e0,2022-02-04 09:56:17,caioagiani,"docs: fix typo in res.download jsdoc
+
+closes #4805",False
+744564fcf806311fdc88fb1d8b4097560d514ad7,2022-02-03 02:49:01,Douglas Christopher Wilson,"tests: add test for multiple ips in ""trust proxy""",False
+da6cb0ed8a4c9a5048cf391a32f9fab1960d9284,2022-02-03 01:45:41,Douglas Christopher Wilson,tests: add range tests to res.download,False
+00ad5bee96bade1b776be62c7f1912eefc41793d,2022-02-03 01:32:46,Douglas Christopher Wilson,tests: add more tests for app.request & app.response,False
+141914e8172f5d1a08825fc60a54d944121b1ec0,2022-02-03 00:46:20,Douglas Christopher Wilson,tests: fix tests that did not bubble errors,False
+bd4fdfe5f771d07ef544c4a91bd6bfc4cc711f9b,2022-02-02 12:25:16,Douglas Christopher Wilson,"tests: remove global dependency on should
+
+fixes #4797",False
+215f484fb4d8b71ae079f3d8a9d43e3470dacc5c,2022-02-02 12:12:35,Douglas Christopher Wilson,tests: fix wording of req.accepts* test cases,False
+20047bb6e40e76aa855632fb423905c4d0b038c3,2022-02-02 12:00:51,Douglas Christopher Wilson,examples: use strict mode,False
+8b9757e8b80d5fd1a5105f9caed8ce5f9aea6c46,2022-02-02 11:55:55,Douglas Christopher Wilson,build: fix running linter in CI,False
+a84e73b958a610963e6b6ba2d16eeb81559bb7f3,2022-02-02 11:53:40,Douglas Christopher Wilson,tests: add test for hello-world example,False
+69997cbdbef83c5cf1a419d6e86519af432d68a8,2022-02-02 11:14:28,Douglas Christopher Wilson,examples: fix error handling in auth example,False
+3d05e85b0cfe76ed0c70f842dbdbf27d9a7c8d39,2022-02-02 08:21:28,Douglas Christopher Wilson,deps: array-flatten@3.0.0,False
+c221b8596e5ff783bbedadb2d7696f90817b0c85,2022-01-28 05:32:58,Douglas Christopher Wilson,build: mocha@9.2.0,False
+450c468d0469ea79c878084c623cd18642d7ad7d,2021-12-18 09:45:29,Czarek,"Change query parser setting default to 'simple'
+
+closes #3361
+closes #3621",False
+af341b0f098393cb85a123b51b308f760937e6b8,2021-12-18 09:32:38,Douglas Christopher Wilson,deps: body-parser@2.0.0-beta.1,False
+1574925cad7fd07143f96e8667e7af41b6866eaa,2021-12-17 09:35:41,Douglas Christopher Wilson,"deps: router@2.0.0-beta.1
+
+closes #4321",False
+c7d528cdc00c2b1b8a40e89b607d73247c602d8c,2021-12-17 09:31:28,Douglas Christopher Wilson,Merge tag '4.17.2',True
+ea537d907d61dc693587fd41aab024e9df2e14b1,2021-12-17 09:10:49,Douglas Christopher Wilson,4.17.2,False
+eee93a2760de89e8103737c2d097f20464a3c3f0,2021-12-17 08:17:10,Douglas Christopher Wilson,build: update example dependencies,False
+b35773cf19127e3392f5f908b3a4bea1410fd30a,2021-12-17 08:14:26,Douglas Christopher Wilson,build: eslint@7.32.0,False
+c8a42006b84d56bc5d1dd7e1e9a6ad00c1a1d389,2021-12-17 08:09:43,Douglas Christopher Wilson,build: mocha@9.1.3,False
+21cf522dcd94ac2af6898ca81df02b373362bf24,2021-12-16 23:30:12,Aalaap Ghag,"examples: improve 404 message wording
+
+closes #4471",False
+a24f27aba7e61ed5a22ba37ab4260fba1b2151f5,2021-12-16 23:24:18,Douglas Christopher Wilson,deps: serve-static@1.14.2,False
+a33266a206f3d259007a43a6b0235978ec98e8ad,2021-12-16 10:52:28,3imed-jaberi,build: support Node.js 14.x,False
+6fe271e8aadfe3e67bd5b01714cc0f18bc27914d,2021-12-16 10:52:28,3imed-jaberi,build: support Node.js 13.x,False
+cbe25d66b3ad397c52c6a66b77f18b483f8ed47e,2021-12-16 09:08:19,Wes Todd,"deps: setprototypeof@1.2.0
+
+closes #4011",False
+3bb6d96ba9f386d8b328605ba762656cc759104b,2021-12-16 07:36:33,Douglas Christopher Wilson,examples: demonstrate sub directory download,False
+6660649f1bdc5125915b48f9eac3f9c8a23f1f84,2021-12-16 07:18:00,Douglas Christopher Wilson,deps: qs@6.9.6,False
+a75e4707b96e7c2e3031c55e06f53ec09cc05e7d,2021-12-16 07:15:56,Douglas Christopher Wilson,docs: add note about security report location,False
+db05a741f0fbb28427c069c73f3c17d504c1812a,2021-12-12 06:49:38,Douglas Christopher Wilson,deps: send@0.17.2,False
+c2e23ece2e03a70fdb1005195dc239fb4e48bf22,2021-12-11 14:15:46,Douglas Christopher Wilson,deps: body-parser@1.19.1,False
+96850e872a7f0b88ae44fb7b09ebb3bee8257816,2021-12-11 04:28:03,Douglas Christopher Wilson,deps: content-disposition@0.5.4,False
+b8d59d5c9855238950dd799f7799ea3283787e9f,2021-12-11 04:26:56,Douglas Christopher Wilson,deps: safe-buffer@5.2.1,False
+59d695c447f6b7540f9c75afa5693e5fe436bba1,2021-12-11 02:17:40,Douglas Christopher Wilson,build: update example dependencies,False
+e242796eb343c1e1e17c963dfb09d751a85b3c68,2021-12-04 20:06:34,Andy,"tests: fix test in app.head
+
+closes #4765",False
+aaa9690bcfca426efde7092ff72fa15cb9bf86a9,2021-11-18 02:46:04,Douglas Christopher Wilson,deps: proxy-addr@~2.0.7,False
+f275e87dff1aaef86080e6931888de4968585fd8,2021-11-17 10:30:56,drewm,"Fix handling of undefined when ""json escape"" is enabled
+
+closes #4744",False
+9dd0e7afdb6d022e18add1e009c4e3a66258c1fa,2021-11-17 10:28:17,Douglas Christopher Wilson,Fix handling of undefined in res.jsonp,False
+1b2f3a06982cf4d51482dd79447b66315687b287,2021-11-17 10:23:10,Douglas Christopher Wilson,tests: fix up primitive tests for res.jsonp,False
+519126d732c65e68fbdc7575f601ee5b6e9972d8,2021-11-17 08:29:01,3imed-jaberi,"deps: cookie@0.4.1
+
+closes #4337",False
+99a369f3d51bafcf0c09657250067249f19d04f5,2021-11-17 08:22:11,Ivan Derevianko,"Fix incorrect middleware execution with unanchored RegExps
+
+fixes #4204
+closes #4205",False
+a1dbb113779c45a10f56a910de1bc5f7e750eaea,2021-11-16 11:11:19,Kim,"Fix res.jsonp(obj, status) deprecation message
+
+closes #4155",False
+353348a83e6874db7ded27102e91e7b6cad7e89c,2021-11-16 10:55:10,Florian Brandt,"Fix typo in res.is JSDoc
+
+closes #4192",False
+dab6ee58229f2af3680023021703e7ab5cf9c76f,2021-11-16 10:26:46,Juan José Arboleda,"tests: remove extraneous code from app.listen test
+
+closes #4714",False
+fc138c108f4deb602dbbdcf1128e55e4ba01efe3,2021-11-16 09:44:48,3imed-jaberi,"deps: proxy-addr@~2.0.6
+
+closes #4340",False
+61a23e801f2c3d54d5c1e91aa13b6cfa8c6d8937,2021-10-06 07:25:00,Douglas Christopher Wilson,build: mocha@8.4.0,False
+313d54f0337a4d54fef9e2f178e032e7ce8e066c,2021-09-02 05:02:00,Douglas Christopher Wilson,build: supertest@6.1.6,False
+de081eb70fac96db567f88c540b4d487f0c97864,2021-09-02 04:57:00,Douglas Christopher Wilson,build: eslint@4.19.1,False
+06d11755c99fe4c1cddf8b889a687448b568472d,2021-08-14 10:42:32,Aravind Nair,build: Node.js@12.22,False
+6f2afd3d8077bd15c8993868fc1a3c56de74a88b,2021-08-14 10:42:31,Aravind Nair,build: Node.js@10.24,False
+d5a1cbee70cce4c1e4a60a3760e223aef0dc639a,2021-08-14 10:42:24,Aravind Nair,"build: fix wrong Node.js 8.x in AppVeyor
+
+closes #4574",False
+f9a0560a9cb5ee2fcb901a6ed3710e9ffb6aa55c,2021-08-14 10:09:56,zhangky,"docs: fix res.sendStatus/sendFile jsdoc comments
+
+closes #4673",False
+821b7f0624dcd0f77327772f6a25b6d94f56976f,2021-08-12 06:09:01,Andrew Heaney,"examples: fix typo in comment
+
+closes #4667",False
+f490f785630eb494fa5326524a7de2118653fb23,2021-08-12 06:08:31,Douglas Christopher Wilson,build: reduce npm output,False
+884e080a19015a81a46aef73792be12ad3220715,2021-08-01 07:24:15,Aravind Nair,"build: ejs@3.1.6
+
+closes #4572
+closes #4573",False
+eb76236e2fc027154a477d616741eaf4c1cb8583,2021-08-01 04:01:10,alberto barboza,"build: hbs@4.1.2
+
+closes #4643",False
+52e9bd67b76f2328afd75edef1d1b650f8954961,2021-08-01 01:30:16,Hussein Mohamed,"tests: fix typos
+
+closes #4564",False
+135a05c524796329a97f4bdb69a00f765dd80393,2021-08-01 01:30:00,Hussein Mohamed,"docs: fix typos in jsdoc
+
+closes #4564",False
+30afebf8dae8a810c92d3d26d4fceced39324fc4,2021-07-31 01:52:34,Lutger Kunst,"examples: fixed typo in ejs example css
+
+closes #4554",False
+8e4add7f749796b850af6ddd4cebfdc6185e2fd5,2021-07-31 01:49:55,Douglas Christopher Wilson,"tests: remove should usage from Router tests
+
+fixes #4635",False
+0fbbc2963296832b41449eb21f873e0d314d359c,2021-07-31 01:16:10,Abderrahmenla,"lint: coalesce duplicate switch statements
+
+closes #4587",False
+24021269886a90baecfa820efd18fbd69609d182,2021-07-03 01:23:27,Aravind Nair,"build: disable fast-fail for GitHub Actions
+
+closes #4628",False
+ca3c8634289ab20a787572bedcb3261f9336fbb5,2021-07-02 00:52:40,Douglas Christopher Wilson,build: use GitHub Actions instead of Travis CI,False
+28db2c2c5cf992c897d1fbbc6b119ee02fe32ab1,2021-01-29 06:47:55,Douglas Christopher Wilson,build: supertest@6.1.3,False
+685d4665fddeed892528ee041f706ee6a8b3b2b6,2020-12-24 07:11:52,Douglas Christopher Wilson,build: mocha@8.2.1,False
+280a8d39ecd583d1d498dfceb624ff776704f374,2020-12-23 10:11:28,Douglas Christopher Wilson,build: fix Node.js version check in AppVeyor,False
+5c4f3e7cc76fed9b42c27cebcdd9d66ef63092f9,2020-11-10 08:14:32,Douglas Christopher Wilson,build: supertest@6.0.1,False
+de122c14f5b57b3dadbf3e33020cd5ad22e9d04d,2020-10-22 05:18:58,Douglas Christopher Wilson,build: Node.js@12.18,False
+2a2dd5d32ba9f37d38390d56a267c4913456a8d3,2020-10-20 07:03:05,Douglas Christopher Wilson,build: Node.js@10.23,False
+508936853a6e311099c9985d4c11a4b1b8f6af07,2020-09-17 06:57:53,H3RSKO,"docs: update grammar in readme
+
+closes #4376",False
+5596222f6a6e0eea74f6fb38915b071d98122a2f,2020-08-04 19:16:42,Rodion Abdurakhimov,"docs: update example summaries
+
+closes #4370",False
+fe67523b9cdc60c42fe1fbf0f600cb2191818208,2020-07-28 00:45:54,Rodion Abdurakhimov,"docs: add examples summary page
+
+closes #4343
+closes #4354",False
+4486fa6324eaeb8e53482df961c755cc9013a36e,2020-07-17 00:36:57,yasser,"docs: fix Code of Conduct link in Contributing
+
+closes #4351",False
+ecd8a08c1c9c4d60b466b451fd1f5c3fe8a5fb23,2020-07-08 08:13:16,Yogi,docs: fix typos in Contributing,False
+a75728432eee59cd51cff25e8d393a4e39af1693,2020-07-08 08:12:34,Yogi,docs: fix typos in Collaborator Guide,False
+9007dcbdba37f921b679739d8f0b12b9e5a0015b,2020-07-08 08:12:01,Yogi,docs: fix typos in Triager Guide,False
+c519886be5147466fdebdd4441a129c1070cebfb,2020-07-08 08:11:04,Yogi,docs: fix typos in Charter,False
+8aabecaf1f6343ec9a39fcdeff2deb3b4544f35f,2020-06-29 09:59:30,Alexander Belov,"docs: fix typo in history
+
+closes #4286
+closes #4327",False
+3ff1dbeb73732b6aae73f8df407e3bb423ccc3b7,2020-06-22 08:36:54,Moni,"docs: fix markdown links in contributing
+
+closes #4315",False
+18da651c5b57431f61391d9de2518a8c2ef88b2c,2020-05-06 22:28:29,Gireesh Punathil,"docs: add triager guide
+
+closes #4055
+closes #4211",False
+1b48a5cc3cdc6ee465991952990e14985cbfc042,2020-04-15 06:42:37,Douglas Christopher Wilson,docs: fix heading levels,False
+561b4b601e10e96fd9c2d2ff0b5e7573d2151617,2020-04-14 11:09:53,Wes Todd,"docs: add Charter
+
+closes #4144",False
+67e64ca4c1c5b26cf971e6d6c35278d6357dc6bb,2020-04-07 11:05:34,Wes Todd,"docs: add Code of Conduct
+
+closes #4143",False
+bd04d8a87fbe22e6fabaa6a5451a885c0790043a,2020-03-26 05:44:47,Douglas Christopher Wilson,5.0.0-alpha.8,False
+922e9a46158577d19ef704fe7a6f78102fd2278c,2020-03-26 04:30:15,Manuel Baesler,"build: add http keyword for npm search
+
+closes #4102",False
+323a38965afc586e7d02fb6a557b93719e817dd9,2020-03-26 03:05:14,KoyamaSohei,"examples: properly escape user input in route-map
+
+fixes #3992
+closes #4119",False
+3f1dcb96e0ad0145b47a4b1e37bfbbfa6abaf602,2020-03-26 02:40:34,Aditya Srivastava,"examples: add viewport and charset where missing
+
+closes #3860",False
+4b4fa26298c3ee9eb7385cc04a1f33f670fd82bb,2020-03-26 01:56:39,yanokenken,docs: add npm init hint to install section,False
+47c1d2a8168a4e6b060f32c1d15ba8ed2f52a99b,2020-03-26 01:07:04,Chang Wang,"docs: point npm downloads badge to npm charts of express
+
+closes #3579",False
+65aff94ec62b9f550aa7fb82cd8a1dd7b7da0bfc,2020-03-18 06:07:16,Douglas Christopher Wilson,build: remove deprecated Travis CI directive,False
+2d519077ea6c7c52a16098c7cf6d8d667a863c7b,2020-03-18 06:01:10,Douglas Christopher Wilson,build: supertest@4.0.2,False
+d967675852b06384c8ebfc065430a8e215fc08f5,2020-02-19 11:19:36,Douglas Christopher Wilson,build: mocha@7.0.1,False
+22d5b7ed108e2e67f694c126278a87bd28f89fe7,2020-02-19 11:02:14,Douglas Christopher Wilson,build: Node.js@12.16,False
+872aa4741c95c2ba15e0dd40cd54ed6eb6c83e3e,2020-02-19 10:57:51,Douglas Christopher Wilson,build: Node.js@10.19,False
+87bc4ef7638c38abf6c2bca10a07a0b1e4fd4a60,2020-02-12 09:40:15,Douglas Christopher Wilson,build: update example dependencies,False
+f0cbdeadf695d4e5dc1332666e864ce82845a555,2020-01-10 05:28:52,Douglas Christopher Wilson,build: mocha@7.0.0,False
+f1e8a877f4f70dbf0a12e2471671be68e35e31d8,2020-01-10 05:10:28,Douglas Christopher Wilson,build: Node.js@12.14,False
+55831bbd08736b8424d26a8ee22039e06a8816aa,2020-01-10 05:07:52,Douglas Christopher Wilson,build: Node.js@10.18,False
+e757fa003938dddc19f1ed3c447fffe1062f1508,2020-01-10 05:00:57,Douglas Christopher Wilson,build: Node.js@8.17,False
+95735a6fccd165fb6113daae9259ca26efc52171,2019-11-11 08:51:57,Douglas Christopher Wilson,build: supertest@3.4.2,False
+668d029a14acfb031652c54bf32f705d2dde64ee,2019-11-11 08:45:49,Douglas Christopher Wilson,build: mocha@6.2.2,False
+866ffd67d785f88616b7444871c05995a21cff0e,2019-11-11 08:39:43,Douglas Christopher Wilson,build: Node.js@12.13,False
+741e3f81af6264e4d67a59528a64b40f96ca5911,2019-11-11 08:34:12,Douglas Christopher Wilson,build: Node.js@10.17,False
+4efb49866df68a209808ac896ecbd6e53ae66ec7,2019-08-05 07:53:09,Douglas Christopher Wilson,build: mocha@6.2.0,False
+6506fb578ce06081f82c13fafafe35dfca7d9c86,2019-08-05 07:39:45,Douglas Christopher Wilson,build: Node.js@12.7,False
+dfa7b80642d3c30d911feeca9a460d1802d34a72,2019-08-05 07:33:22,Douglas Christopher Wilson,build: Node.js@10.16,False
+121fe9982b62d2b1760ec9cb148c19bc5f17255b,2019-06-09 05:13:21,Douglas Christopher Wilson,Merge tag '4.17.1',True
+e1b45ebd050b6f06aa38cda5aaf0c21708b0c71e,2019-05-26 09:54:55,Douglas Christopher Wilson,4.17.1,False
+0a48e18056865364b2461b2ece7ccb2d1075d3c9,2019-05-26 03:45:13,Douglas Christopher Wilson,"Revert ""Improve error message for null/undefined to res.status""
+
+fixes #3968",False
+eed05a1464485edc5154ce989a679ba602f11ed8,2019-05-25 08:50:52,Douglas Christopher Wilson,build: Node.js@12.3,False
+10c7756764fbe969b307b15a72fd074479c00f8d,2019-05-17 06:55:42,Douglas Christopher Wilson,4.17.0,False
+9dadca2c64ae717063b0e9071143065896ebb676,2019-05-17 06:23:07,Douglas Christopher Wilson,docs: remove Gratipay links,False
+b8e50568af9c73ef1ade434e92c60d389868361d,2019-05-16 19:34:24,Douglas Christopher Wilson,tests: ignore unreachable line,False
+94e48a16f273963dc37829352b7381e4e9222315,2019-05-16 19:28:40,Douglas Christopher Wilson,build: update example dependencies,False
+efcb17dcb21699ef685eff4455a9443f707a4901,2019-05-16 19:25:26,Douglas Christopher Wilson,"deps: cookie@0.4.0
+
+closes #3958",False
+b9ecb9afe336ad00eb6e2dbc055e838649fe784f,2019-05-16 10:50:24,huadong zuo,"build: support Node.js 12.x
+
+closes #3946",False
+5266f3a5cb25fdd6846b76a727d601506791c4ce,2019-05-13 07:45:36,Douglas Christopher Wilson,build: test against Node.js 13.x nightly,False
+e502dde3c8c82ff107603f78d6cac9a33a699dd7,2019-05-13 07:39:35,Douglas Christopher Wilson,build: Node.js@10.15,False
+da6f701317d154e47921139257ffcefb15d15ca7,2019-05-13 07:31:06,Douglas Christopher Wilson,deps: range-parser@~1.2.1,False
+88f9733ffa58ce89bd5a9b207f0c8b4c2965fec6,2019-05-12 04:59:33,Douglas Christopher Wilson,deps: serve-static@1.14.1,False
+8267c4b72422e68654849a71bfb74141d77bb875,2019-05-11 09:19:13,Douglas Christopher Wilson,deps: send@0.17.1,False
+bc07a41693f8c7e9bde2bfb4cd5390ad6e3b1337,2019-05-10 07:39:56,Douglas Christopher Wilson,deps: finalhandler@~1.1.2,False
+c754c8ad7b33a1d9ec6bec88bc44734c16c36167,2019-05-10 05:15:01,Douglas Christopher Wilson,build: support Node.js 11.x,False
+e91702872994523dbb9f7da1bf30854c5dfb834a,2019-05-10 03:33:56,Douglas Christopher Wilson,build: Node.js@8.16,False
+7b076bd8e1c428da4887856d34b813aba2732c19,2019-05-10 03:33:12,Douglas Christopher Wilson,build: Node.js@6.17,False
+bb5211fa1cdf6da767960c2a8aa97f8c8f31e9c5,2019-05-09 09:09:45,Douglas Christopher Wilson,tests: add express.text test suite,False
+7f4e37f3ea0bf99287472dd72f48d12a3b3d0b71,2019-05-09 09:09:16,Ilya Guterman,"Add express.text to parse bodies into string
+
+closes #3455",False
+11192bd168c5996efe718664a3f4d8f77dbaa71b,2019-05-08 10:28:08,Douglas Christopher Wilson,tests: add express.raw test suite,False
+0bcdd88dd089c8da7f29e76e8f152a40ca0bcf69,2019-05-08 10:27:02,Amit Zur,"Add express.raw to parse bodies into Buffer
+
+closes #3708",False
+60aacac1670f01857961fb7d765eb015efb0be5b,2019-05-08 09:12:36,Douglas Christopher Wilson,"deps: serve-static@1.14.0
+
+closes #3486",False
+70a19472f1ec22642ea98baa5f76b5ba656e7235,2019-05-08 08:35:37,Douglas Christopher Wilson,deps: send@0.17.0,False
+6f7a8301a1828febe0b10af62152558d118b039c,2019-05-03 03:19:29,Douglas Christopher Wilson,tests: add express.static test suite,False
+8b71f39516135f8b729de3456f3ae7f6d33442a1,2019-05-02 08:59:28,Douglas Christopher Wilson,tests: add express.urlencoded test suite,False
+955f2a5f78c75cd58f8c4517725a14dd3ee199a4,2019-05-02 08:29:42,Douglas Christopher Wilson,tests: add express.json test suite,False
+2f782d8478948124a1c96fe04de259385163100f,2019-05-01 09:01:32,Douglas Christopher Wilson,deps: body-parser@1.19.0,False
+32f5293afa2edb7dd9052922dda3ebdd9eab658d,2019-05-01 08:36:50,Douglas Christopher Wilson,deps: qs@6.7.0,False
+6d9dd2da49c8d5fce9fccdd9d8257004040a19a7,2019-05-01 08:18:56,Douglas Christopher Wilson,deps: type-is@~1.6.18,False
+40dbfa2de21588d23a8e8e8d43dae5664f0267af,2019-05-01 07:54:35,Douglas Christopher Wilson,deps: accepts@~1.3.7,False
+9afa1cfc85171dfd8b3595e7b25b7be783c79ae8,2019-05-01 07:47:03,Douglas Christopher Wilson,deps: statuses@~1.5.0,False
+7eacdcef190990f2e5a199bb1140322c687e65d7,2019-04-22 23:10:23,Douglas Christopher Wilson,deps: setprototypeof@1.1.1,False
+b02d3a1744db80a1ad6951f55f4cb6b996db4b53,2019-04-18 01:48:37,James George,"docs: add link to contributing guide
+
+closes #3846",False
+03341204ff13fb35ac7082adf3dd694081ab68d3,2019-04-18 01:36:35,Douglas Christopher Wilson,deps: parseurl@~1.3.3,False
+50eb5e43774a78737a82405c17ac8ca3ff5532ff,2019-04-18 01:35:17,Douglas Christopher Wilson,deps: proxy-addr@~2.0.5,False
+952484f73a84743c53abfc4b51a6614f2d1e13cd,2019-04-18 01:30:02,Douglas Christopher Wilson,deps: content-disposition@0.5.3,False
+4218d04183e0f7bd04f3db7d23b53d6d3857ed10,2019-04-18 01:28:26,Douglas Christopher Wilson,build: marked@0.6.2,False
+cf5c813d2f6499be2d38a55a26dd5bd1b71b749c,2019-04-18 01:21:33,Douglas Christopher Wilson,build: hbs@4.0.4,False
+9e5d1a30c3671f99b5d80a231b697a311f5fe489,2019-04-17 20:14:27,Douglas Christopher Wilson,build: test against Node.js 12.x nightly,False
+8a97346eaf3a5e39ba8185b244af4918d2ca43b5,2019-04-17 20:11:43,김정환,"tests: assert calls order in middleware basic tests
+
+closes #3878",False
+6eda52a3dc953f297942a98c333b609519141c49,2019-04-17 03:26:38,Marcin Wanago,"docs: use const in readme example
+
+fixes #3867
+closes #3868",False
+b9b1b19758b0996680100c65ae87128d623c5f7e,2019-04-16 22:10:59,김정환,"tests: fix typos in descriptions
+
+closes #3875",False
+6f12eee8abcfdd672c7a3d638d3dbf744a6b1801,2019-04-16 19:59:07,Louis,"docs: fix typo in jsdoc comment
+
+closes #3859",False
+186a206a0aed799699e6a7400aed9aeef31c21e9,2019-04-16 09:58:15,Ciro Santilli,"docs: add listening address to example
+
+closes #3873",False
+02f3933b6962114cf46c637105db7983d32a156a,2018-12-18 09:30:19,Alvin Smith,"examples: minor fixes to some examples
+
+closes #3812",False
+0ae10bb15471745795a44d9316e324b697725524,2018-12-18 06:19:39,Austin Scriver,"docs: fix typos in history
+
+closes #3810",False
+95c31f7041fe31b24175ce9a6537a0d0d6b807f7,2018-12-18 05:42:37,HubCodes,"docs: fix typo in contributing
+
+closes #3827",False
+b93ffd4bdc09c3af925eed80c28bd37f63bb3cfc,2018-10-29 01:28:25,Horatiu Eugen Vlad,"Support multiple hosts in X-Forwarded-Host
+
+fixes #3494
+closes #3495",False
+8da51108e7bb501344c537d3f1f846a7477ae329,2018-10-27 23:34:49,Joshua Caron,"Improve error message for null/undefined to res.status
+
+closes #2795
+closes #2797
+closes #3111",False
+6bcdfef6ad148672872e4f5930a01a5a45dd9df0,2018-10-27 11:57:15,void,"Improve error message for non-strings to res.sendFile
+
+closes #3582",False
+44e539e1dcdc010638812fc96f541da3f02d35de,2018-10-27 10:58:11,Felix Bünemann,"build: support Node.js 10.x
+
+closes #3617",False
+003459b795b3ab2ae97c2131585b0560c1d35716,2018-10-27 10:25:42,Nacim Goura,"build: support Node.js 9.x
+
+closes #3617",False
+6295b4592014515e137c17e854f83d1c0274198a,2018-10-27 10:20:58,Douglas Christopher Wilson,build: test against Node.js 11.x nightly,False
+a6b119d27a2f1703d51d1938e6fe98b0ee2d5651,2018-10-27 09:35:00,Douglas Christopher Wilson,build: coveralls@2.12.0,False
+d0421ac7e1f897e15a2f7a9328e9bfd938b95a9f,2018-10-27 09:04:00,Douglas Christopher Wilson,tests: use supertest to perform assertions,False
+5f0c829d7ca7da746ee859f13a54631000f8a9b5,2018-10-27 07:59:15,Douglas Christopher Wilson,5.0.0-alpha.7,False
+c82fa194475edabb04535914ddc12a622a495b64,2018-10-27 07:01:28,Douglas Christopher Wilson,tests: add router promise tests,False
+fa22245cc652a41009d2f339e769ed72dad2fc0f,2018-10-24 06:32:44,Douglas Christopher Wilson,deps: router@2.0.0-alpha.1,False
+302a6152b4f655bf7f49fe32f5b5676483efb159,2018-10-24 06:08:42,Douglas Christopher Wilson,Merge tag '4.16.4',True
+dc538f6e810bd462c98ee7e6aae24c64d4b1da93,2018-10-11 09:20:45,Douglas Christopher Wilson,4.16.4,False
+62a59b6ace6c1cb34f9adf2d433ac57d3c826ce4,2018-09-28 03:39:27,Douglas Christopher Wilson,build: update example dependencies,False
+451ee5d9c17b8abd6859b939a5edfa083a61127d,2018-09-25 09:10:21,Douglas Christopher Wilson,build: supertest@3.3.0,False
+f07f368fba5d91a5a80bff80c360bd5d66ed8116,2018-09-22 08:46:17,Douglas Christopher Wilson,build: mocha@5.2.0,False
+09d5654488f707db2ee05e0358bb74caa44fed91,2018-09-22 08:31:22,Douglas Christopher Wilson,build: restructure CI build steps,False
+3d10279826f59bf68e28995ce423f7bc4d2f11cf,2018-09-20 08:55:16,Douglas Christopher Wilson,"Fix issue where ""Request aborted"" may be logged in res.sendfile",False
+5e9de5dcb6f1ff396038ded11951aa53c62a07a4,2018-09-20 00:17:48,Douglas Christopher Wilson,deps: safe-buffer@5.1.2,False
+5de1a08ebff4c33d0c452510217193905f34cbe9,2018-09-19 23:36:22,Douglas Christopher Wilson,build: supertest@2.0.0,False
+4480fb997e9132a8b1e8b23d1a2766d27a918909,2018-09-19 22:10:40,Douglas Christopher Wilson,deps: proxy-addr@~2.0.4,False
+b8fb6a7fb1af155b1259d25418dc807112e02138,2018-09-19 07:28:46,Felix Bünemann,"deps: body-parser@1.18.3
+
+closes #3655
+closes #3706",False
+b4eb1f59d39d801d7365c86b04500f16faeb0b1c,2018-09-19 07:26:31,Douglas Christopher Wilson,deps: qs@6.5.2,False
+431f65305eb78eba337356ec7637e4ee13d84195,2018-09-14 04:16:45,Linus Unnebäck,"lint: move removed middlewares list to a variable
+
+closes #3558
+closes #3677
+closes #3678",False
+f3fa758af9664526ee18c58764590e48f559e6ae,2018-09-14 04:14:47,Andreas Kohn,"Fix JSDoc for Router constructor
+
+fixes #3598
+fixes #3599
+fixes #3698",False
+ede24da9645ed771ddeb9cf327d042d35a31d42d,2018-09-14 03:45:48,Logan Ripplinger,"examples: fix typo in multi-router example
+
+closes #3718",False
+d5b33cfad8efedc42ec36cab2ced75c2cfd99dce,2018-09-13 21:56:36,Douglas Christopher Wilson,build: update example dependencies,False
+c39d7d933968b3cc03c6bf473920b8d5f24f7f43,2018-09-13 21:53:38,Douglas Christopher Wilson,build: Node.js@8.12,False
+f95dbc28fdb483dbd45b436386cf0db77322eb43,2018-08-01 02:39:27,Douglas Christopher Wilson,build: should@13.2.3,False
+ac89f6f121cbd17c957e8e493615c33e7f0f2687,2018-06-07 09:42:07,Douglas Christopher Wilson,build: Node.js@8.11,False
+3d8ca8ad4aa0ad03ce2e4b27f6773d47e4fea201,2018-06-07 09:34:28,Douglas Christopher Wilson,build: Node.js@6.14,False
+02c753583eddabae2691b09a7babd747d449ca5f,2018-06-07 09:20:03,Douglas Christopher Wilson,build: Node.js@4.9,False
+3ed5090ca91f6a387e66370d57ead94d886275e1,2018-03-12 23:08:44,Douglas Christopher Wilson,4.16.3,False
+76bf96e9ce3369d2f9329adefb9ac75407f93493,2018-03-12 20:50:19,Douglas Christopher Wilson,deps: finalhandler@1.1.1,False
+d3bdc3b66399424f8b315d0808b5fbb3834144c2,2018-03-12 20:47:26,Douglas Christopher Wilson,build: marked@0.3.17,False
+0e88dceac2b86fbc066cd0f042d093e838604d0d,2018-03-01 10:14:00,Douglas Christopher Wilson,deps: accepts@~1.3.5,False
+e69a29d9c2a425ad10be08833c099a1cfede010a,2018-03-01 06:25:34,Douglas Christopher Wilson,deps: type-is@~1.6.16,False
+0083372bed2df35abf56ac882bd42f01bd6cff39,2018-02-27 09:48:07,Douglas Christopher Wilson,deps: proxy-addr@~2.0.3,False
+f3c5f7ee29e9b935e95e628e002ee9eaebda176a,2018-02-14 07:51:26,Douglas Christopher Wilson,build: test against Node.js 10.x nightly,False
+40e04ec7a6d365a7e083b0fdf7f9d2c7afc036a0,2018-02-14 06:00:57,Alejandro Estrada,"lint: remove usages of ""==""
+
+closes #3540",False
+972ada9079b715f9e806ef04ec73311fb46bded0,2018-02-14 03:44:48,Douglas Christopher Wilson,tests: remove duplicate block in router test,False
+80e64691e1972dccc79def005190da33c641d51e,2018-02-14 03:20:13,Steven Anthony,"examples: add full urls to web-service example
+
+closes #3519",False
+98b0b66b6c46882c3fa54f04185254ab53b38570,2018-02-14 03:15:40,Yuta Hiroto,"build: use yaml eslint configuration
+
+closes #3561",False
+cbaa04629a90aff76774b59cd055ff8c6e642030,2018-02-09 23:50:09,Douglas Christopher Wilson,deps: serve-static@1.13.2,False
+276a80895c6bef11b0819c46525376ad16c68517,2018-02-09 23:39:25,Douglas Christopher Wilson,deps: send@0.16.2,False
+94a6cbfbfe672e4abb95bebcf266ed5dc65f336d,2018-01-17 10:58:25,Douglas Christopher Wilson,tests: remove unnecessary functions for supertest,False
+f8fba68ec0e6e986eea4dc3bfe39dbe09dccf5d7,2018-01-17 10:50:15,Douglas Christopher Wilson,tests: use supertest expect to test body,False
+c6f12a897184e614171121dfdb31bdc03859db0b,2018-01-17 10:30:22,Douglas Christopher Wilson,deps: statuses@~1.4.0,False
+323572610b292d2351ad4c60c2b7b9ce4d7ad3ac,2018-01-17 10:20:41,Douglas Christopher Wilson,deps: encodeurl@~1.0.2,False
+f448a9668515077937437d86e9e44421bcf2a093,2018-01-17 10:16:11,Douglas Christopher Wilson,deps: depd@~1.1.2,False
+68e824cbff0cc58643a3f40e99299f600667072d,2018-01-17 05:49:03,Douglas Christopher Wilson,build: remove Node.js 8 nightly build,False
+086e56f1c4d9973fdb5eb1e21e79e10d4e002393,2018-01-17 05:42:34,Douglas Christopher Wilson,build: marked@0.3.12,False
+b4020ec92bfa39c6e279b94cfb183472f06fdf83,2018-01-17 05:39:25,Douglas Christopher Wilson,build: should@13.2.1,False
+fe0bc4082d799ff95d6010e42828af30e65a9666,2018-01-03 09:08:09,Douglas Christopher Wilson,build: Node.js@8.9,False
+1780ed10918021c54dd36e75476ca52b1f931116,2018-01-03 08:17:13,Douglas Christopher Wilson,build: Node.js@6.12,False
+b49af6a6743acc7cc875b67f090f553b63a184e8,2018-01-03 06:16:31,Douglas Christopher Wilson,build: should@13.2.0,False
+a743d5be4d91cf2b430479c6b481f00c19f2ba73,2018-01-03 06:15:25,Douglas Christopher Wilson,build: marked@0.3.9,False
+187d1f57c973e93310066e29a493e150e57c6ae5,2018-01-03 06:11:43,David Wu,"docs: remove gratipay badges
+
+closes #3524",False
+950f4423f0f881e40b1f68339054c209aec6d0e3,2018-01-03 05:56:27,chainhelen,"tests: separate res.send() chain test
+
+closes #3448",False
+53bee2506debf01d9f6e884d1fc09b86d001f0e2,2018-01-03 05:35:52,Yaman Jain,"examples: use https github url
+
+closes #3465",False
+659fcc1598ec6778faa75534595ca8e5a2b14b27,2017-10-14 08:29:21,Douglas Christopher Wilson,deps: router@~1.3.2,False
+a163e2cdf488c57706eca419285ef782b2a19e29,2017-10-14 08:27:58,Douglas Christopher Wilson,deps: debug@3.1.0,False
+62e12fe7105b552e70f32a9b288dcaf695f04737,2017-10-14 07:57:30,Douglas Christopher Wilson,Merge tag '4.16.2',True
+8fabed82aa636e10951b6a95f933b07217649e1e,2017-10-14 07:42:14,Douglas Christopher Wilson,Remove path-to-regexp dependency,False
+351396f971280ab79faddcf9782ea50f4e88358d,2017-10-10 08:25:18,Douglas Christopher Wilson,4.16.2,False
+b97faff6e2aa4d34d79485fe4331cb0eec13ad57,2017-10-10 08:13:23,Douglas Christopher Wilson,"perf: skip parsing of entire ""X-Forwarded-Proto"" header",False
+b7817ab1b0bbadabe79fc88819c8338838ead707,2017-10-10 07:41:49,David Wood,"Fix TypeError in res.send when given Buffer and ETag header set
+
+fixes #3445",False
+48aba21ea4bcf0dec962514553f6e6326f942dc6,2017-10-05 08:39:22,Douglas Christopher Wilson,docs: add missing history for res.download change,False
+de129c289dc17d3039c2655c050716b0eff9b0f5,2017-10-01 10:18:29,Douglas Christopher Wilson,"tests: run mocha with --no-exit to detect hangs
+
+closes #3439",False
+e3f7f51f5f5475ca1ad091b1f8b7293f79467d29,2017-09-30 01:53:23,Douglas Christopher Wilson,4.16.1,False
+6f823e409c1dcaa338df9592df98a2ec396b2143,2017-09-30 01:42:06,Douglas Christopher Wilson,"deps: serve-static@1.13.1
+
+closes #3436",False
+6d9b13cceda6ee24a53dab01d9db9d7588ac66b4,2017-09-30 01:26:55,Douglas Christopher Wilson,deps: send@0.16.1,False
+f974d22c66d3cd91634ddaba1ef8bcaa8e49daf4,2017-09-28 23:27:23,Douglas Christopher Wilson,4.16.0,False
+8d4ceb623d8130e9a4ea784bdbe80ecf2d9d51c9,2017-09-28 23:25:15,Douglas Christopher Wilson,docs: add more information to installation,False
+c0136d8b48dd3526c58b2ad8666fb4b12b55116c,2017-09-28 22:52:36,Douglas Christopher Wilson,"Add express.json and express.urlencoded to parse bodies
+
+closes #2211",False
+86f5df00ed921a9e3effdc2e08c038e592a3209b,2017-09-28 22:38:38,Douglas Christopher Wilson,"deps: serve-static@1.13.0
+
+closes #3197",False
+41964580a8869d5f094e7379d5672dd75f8491f9,2017-09-28 22:09:05,Daniel Tschinder,"deps: send@0.16.0
+
+closes #3431
+closes #3435",False
+ddeb71301c98421e0c3cc9fd43e68fdc9b63a45a,2017-09-28 22:02:27,Douglas Christopher Wilson,tests: add maxAge option tests for res.sendFile,False
+715401478516c39ea9b2f855d4109d7d6e1131e0,2017-09-28 21:33:42,Greg Guthe,"Add ""escape json"" setting for res.json and res.jsonp
+
+closes #3268
+closes #3269",False
+628438d8d890f3707b8eecf57aeff7d0da348e8e,2017-09-28 21:06:20,Douglas Christopher Wilson,deps: update example dependencies,False
+a24fd0ca6cfd29329444fddf678bcdd1c08e56ae,2017-09-28 20:41:08,Aaron Clover,"Add options to res.download
+
+closes #3327
+closes #3370",False
+95fb5cc26848d4c2c57b0a7a74f088538d47d312,2017-09-28 20:00:10,Douglas Christopher Wilson,perf: remove dead .charset set in res.jsonp,False
+44591fee234dd83e05894c5b055703db1f68184c,2017-09-28 19:38:23,chainhelen,"deps: vary@~1.1.2
+
+closes #3434",False
+2df1ad26a58bf51228d7600df0d62ed17a90ff71,2017-09-28 18:50:37,Hrvoje Šimić,"Improve error messages when non-function provided as middleware
+
+closes #3426",False
+12c37124689380837b24a7ed962432596237b440,2017-09-28 17:56:39,Douglas Christopher Wilson,Use safe-buffer for improved Buffer API,False
+fa272edf843a31aa242390d46935437451707d54,2017-09-28 17:35:54,Hrvoje Šimić,"docs: fix typo in jsdoc comment
+
+closes #3430",False
+d9d09b8b9041504b645f3173ca70ef173c7e1563,2017-09-28 17:34:42,Lawrence Page,"perf: re-use options object when generating ETags
+
+closes #3313
+closes #3314",False
+02a9d5fb28e313fd94ee5ec24fe5da02fbc0d6eb,2017-09-28 10:48:04,Douglas Christopher Wilson,"deps: proxy-addr@~2.0.2
+
+closes #3432",False
+c2f4fb535688eaec14c713190a4ab881e195a41a,2017-09-28 10:12:05,Douglas Christopher Wilson,deps: finalhandler@1.1.0,False
+673d51f4f0fa83f6b663ed6f9f0426940d07664b,2017-09-28 09:49:30,Douglas Christopher Wilson,deps: utils-merge@1.0.1,False
+5cc761c86593f2e87c7a9dac02135548096bb952,2017-09-28 09:34:47,Douglas Christopher Wilson,deps: parseurl@~1.3.2,False
+ad7d96db479e6e9d93ab4848d5fe163905e123ed,2017-09-28 07:01:39,Douglas Christopher Wilson,deps: qs@6.5.1,False
+e62bb8bf9f68382414cdd7997fe661de4647c987,2017-09-28 07:00:43,Douglas Christopher Wilson,deps: etag@~1.8.1,False
+70589c3aef6fb64ce396848e78ca7ea0768d2d5d,2017-09-28 07:00:08,Douglas Christopher Wilson,deps: content-type@~1.0.4,False
+9a99c152703048591c031bd10d2a2e3ca55ebcac,2017-09-28 06:58:25,Douglas Christopher Wilson,deps: accepts@~1.3.4,False
+550043c21727674a9d00c30504beb95cfbd7bbba,2017-09-26 06:44:00,Douglas Christopher Wilson,deps: setprototypeof@1.1.0,False
+48940e61202be07677659b3b9d87c967fc4e8bdc,2017-09-26 06:42:47,Douglas Christopher Wilson,Skip Buffer encoding when not generating ETag for small response,False
+80f1ea9bec3c5aedb08a6917ecc24fb8d22b707d,2017-09-26 06:41:33,Douglas Christopher Wilson,"Improve error message when autoloading invalid view engine
+
+fixes #3403",False
+c3fb7e5adc1fd40e301ed1e25f0d5b5a393d0295,2017-09-26 06:36:00,Douglas Christopher Wilson,build: test against Node.js 9.x nightly,False
+94fdb674b1df2e36d389fce51f5e07071f807adb,2017-09-26 06:27:54,Douglas Christopher Wilson,build: support Node.js 8.x,False
+f4120a645301366891775d1f03925449239a2cb7,2017-09-25 10:58:00,Douglas Christopher Wilson,5.0.0-alpha.6,False
+19c8d64855d83e24164bc83e40ebacc24179f32a,2017-09-25 10:37:08,Douglas Christopher Wilson,Merge tag '4.15.5',True
+ea3d60565242c47be97088ead2708d7b88390858,2017-09-25 10:34:38,Douglas Christopher Wilson,4.15.5,False
+40435ec99779b08202f9f139c9a0a7d64e941b40,2017-09-23 05:58:52,Douglas Christopher Wilson,deps: serve-static@1.12.6,False
+7137bf567db674fa5a93b71fffda09e7ac4ec73c,2017-09-23 05:57:37,Douglas Christopher Wilson,deps: send@0.15.6,False
+bd1672f0a45e2722126a05723aca68cbd65e3f74,2017-09-23 05:56:30,Douglas Christopher Wilson,deps: finalhandler@~1.0.6,False
+9395db4c22567d09f19ac7cd629e23908784ec6d,2017-09-23 05:55:18,Douglas Christopher Wilson,deps: debug@2.6.9,False
+19a2eeb47697feecae5960a726fb5b7ae2c7644b,2017-09-22 08:15:26,Kunal Pathak,"tests: check render error without engine-specific message
+
+closes #3251",False
+d7da22550da484ddcdf77623272b64c36030b216,2017-09-22 06:19:14,Douglas Christopher Wilson,build: should@13.1.0,False
+961dbff904d3e6b1b10cfe6741506ae851d272ff,2017-09-22 06:18:23,Douglas Christopher Wilson,deps: serve-static@1.12.5,False
+9e0fa7f1ca2efe768e91ee84534f837d2cff243a,2017-09-22 06:16:42,Douglas Christopher Wilson,deps: send@0.15.5,False
+9e067ad2cb96f23f7997758a7f5a3c69ada03c12,2017-09-22 06:15:32,Douglas Christopher Wilson,deps: fresh@0.5.2,False
+de5fb62b1ac8d02efcb7931ef12936cb0a954307,2017-09-18 05:43:05,Douglas Christopher Wilson,deps: update example dependencies,False
+b208b24f8323930419d9b5bbe0f442b36852dc36,2017-09-14 05:39:33,Douglas Christopher Wilson,build: should@13.0.1,False
+78e55108e40ce8ce751baa10324f48a6bb21b47e,2017-09-14 05:33:42,Douglas Christopher Wilson,build: mocha@3.5.3,False
+48817a798f3820bbe252d30d33bd701779511dc5,2017-08-18 07:33:40,Douglas Christopher Wilson,build: remove minor pin for nightly,False
+71395f59337e8d5b5b3d4c9652a9332a9432af26,2017-08-08 05:47:52,Mike Tunnicliffe,"Remove res.redirect(url, status) signature
+
+closes #2941",False
+e3bd14dcca6128afc8ba7f11a4f7e2b34923d66e,2017-08-08 05:36:44,Mike Tunnicliffe,"Remove res.send(status, body) signature
+
+closes #2942",False
+c319fe260ade6c05321948960cb9185fdbbf2487,2017-08-08 05:03:00,Douglas Christopher Wilson,Merge tag '4.15.4',True
+a4bd4373b2c3b2521ee4c499cb8e90e98f78bfa5,2017-08-07 07:33:53,Douglas Christopher Wilson,4.15.4,False
+a50f1098d014e2393e2d5f4beae37a85830c203d,2017-08-06 12:08:02,Douglas Christopher Wilson,deps: serve-static@1.12.4,False
+e2d725e01620fc3c8b3720e5521a124836e32cb2,2017-08-06 12:07:10,Douglas Christopher Wilson,deps: send@0.15.4,False
+e0066227f787931bb0db09e76e007450d0f365b7,2017-08-06 09:49:32,Douglas Christopher Wilson,lint: remove all unused varaibles,False
+44881fabe3680722368df75c66125fbd5f8ed569,2017-08-06 09:48:57,Douglas Christopher Wilson,docs: update collaborator guide for lint script,False
+1dbaae51ddb64c7397d19546bacb0792dbb7d59b,2017-08-06 09:24:31,Douglas Christopher Wilson,deps: update example dependencies,False
+56e90e3c7267782febe35754806ce3f63b527485,2017-08-06 09:07:39,Douglas Christopher Wilson,lint: add eslint rules that cover editorconfig,False
+713d2aed93586a7c11fc2c8beeaa0c03c6f565c9,2017-08-06 05:40:35,Daniel Walasek,"tests: fix incorrect should usage
+
+closes #3387",False
+e0aa8bf74eed76df4e5cf02005233d9de2401348,2017-08-04 09:56:50,Douglas Christopher Wilson,build: mocha@3.5.0,False
+85770a71fc3f3c7f3a1efe3e01d9f0c5fd68f82e,2017-08-04 09:55:59,Douglas Christopher Wilson,deps: finalhandler@~1.0.4,False
+daf66beda49ebac6086b81dd1896a34395306a71,2017-08-04 06:50:55,Hung HOANG,"examples: fix path join in ejs example
+
+fixes #3382
+closes #3383
+closes #3385",False
+b2af1018215540964390aab0c739c1e688865122,2017-08-03 09:02:44,Douglas Christopher Wilson,build: ejs@2.5.7,False
+3eb16c233c5bf76fb12558101565971372693c73,2017-08-03 09:00:47,Douglas Christopher Wilson,deps: depd@~1.1.1,False
+582381bcebf2a2344e7e054eed9606cc2221dd97,2017-07-26 22:39:46,Douglas Christopher Wilson,deps: proxy-addr@~1.1.5,False
+5e16f400f17ca4bac48226446b09299e392db3b2,2017-07-26 22:35:41,Owen Luke,"examples: use 1-based visitor count in cookie-sessions
+
+closes #3312",False
+43dff4ceb3446397aa3fe8c48b2de67b9e76a031,2017-07-26 21:23:05,Piper Chester,"docs: fix GitHub capitalization
+
+closes #3353",False
+04beebb2c087e3b9795d6f1c3d0bd1112bf1f244,2017-07-26 21:22:42,Douglas Christopher Wilson,build: Node.js@6.11,False
+1adee79e636400c734f2307c1ef4fb0fff5db92b,2017-07-01 09:28:01,Douglas Christopher Wilson,deps: update example dependencies,False
+bd5951e603c16c1db779a76bc5e500c243f96cf8,2017-07-01 09:21:18,Douglas Christopher Wilson,"deps: debug@2.6.8
+
+closes #3286
+closes #3337",False
+deffce5704913df9e6b00aca5536345610222417,2017-07-01 09:17:12,Douglas Christopher Wilson,deps: qs@6.5.0,False
+48777dc37774eaa2c328a1d9bb9541dfa47ca90f,2017-06-05 04:42:30,Douglas Christopher Wilson,build: mocha@3.4.2,False
+9467a392e33ad1575f2d76aad5fc19f9290d6cd6,2017-06-05 04:39:25,Douglas Christopher Wilson,build: Node.js@7.10,False
+9f019c8c6966736803a65eb4a96d0e7e87e85ede,2017-05-18 06:48:35,Owen Luke,"examples: add comment about Redis install in examples
+
+closes #3310",False
+cf37240e7306c5085f3d2a232a4649279d020667,2017-05-18 06:47:47,Owen Luke,"examples: fix reference error in view-constructor
+
+closes #3310",False
+60f87f8074c28a1727305530058d8c2c9596387c,2017-05-18 06:47:16,Owen Luke,"examples: fix posts link in route-separation example
+
+closes #3310",False
+fde8f647d368df1dc62d55ce4d68370ef3eb0a49,2017-05-18 06:44:47,Owen Luke,"examples: fix route in params example
+
+closes #3310",False
+6da454c7fb37e68ed65ffe0371aa688b89f5bd6e,2017-05-17 11:44:11,Douglas Christopher Wilson,4.15.3,False
+5cf473dc5d51c66a0cd373f4eca469505dfa4f32,2017-05-17 11:38:50,Douglas Christopher Wilson,deps: debug@2.6.7,False
+65494692c2d83bb99586166afe463ba1177dbbdb,2017-05-17 11:27:31,Douglas Christopher Wilson,build: mocha@3.4.1,False
+bc2986fe59c233ac58d981e620fddd4c58b55c9b,2017-05-17 11:26:36,Douglas Christopher Wilson,deps: finalhandler@~1.0.3,False
+58cfc9911b5f1e67397ba481535320a1c3b9e954,2017-05-17 11:17:17,Douglas Christopher Wilson,deps: serve-static@1.12.3,False
+ad4456c491fc2ecd8358fd3958da5c0a95c2c3ab,2017-05-17 11:16:34,Douglas Christopher Wilson,deps: send@0.15.3,False
+1ba9a9ac23e48cc7295a53919953e1b3f0b0ea7f,2017-05-17 10:58:21,Douglas Christopher Wilson,deps: update example dependencies,False
+ae0b630ac7e8f34e4ea37285f30db4b52adf8436,2017-05-15 09:28:25,Oz Michaeli,"Fix error when res.set cannot add charset to Content-Type
+
+fixes #3303
+closes #3305
+closes #3307",False
+5ea2a8ff8e78349484d2887db2f10a94ec79b8d7,2017-05-15 08:59:13,Douglas Christopher Wilson,build: Node.js@7.9,False
+de41c0bfa4fc9ff78fb5f0f72daf5e83e53a93ae,2017-05-12 01:21:03,Tony Anisimov,"Fix res.cookie jsdoc comment
+
+closes #3304",False
+a13938eed7b67ce13b86a45c7b0f2ae766a3166d,2017-05-08 04:56:33,Colin Richardson,"tests: add tests for res.location('back')
+
+closes #3292
+closes #3293",False
+1b6e7004b7e46a7c9fd3f53cd408debbcb689367,2017-04-27 10:41:58,Douglas Christopher Wilson,deps: send@0.15.2,False
+2d1dade36a867dcd68a2169270d524d73a3b92eb,2017-04-27 09:30:57,Douglas Christopher Wilson,deps: serve-static@1.12.2,False
+df4f2719db909ab333d8173f57a96bc213680c2a,2017-04-27 09:19:41,Douglas Christopher Wilson,deps: type-is@~1.6.15,False
+c087a45b9cc3eb69c777e260ee880758b6e03a40,2017-04-01 07:57:00,asaf david,"Fix typo in variable name setPrototypeOf
+
+closes #3266",False
+347d4db3cac2979d639cb2be161ba01c9b2336d2,2017-03-29 08:26:32,Douglas Christopher Wilson,deps: proxy-addr@~1.1.4,False
+aabf7802a979f44cf75ffac2978724935d064fec,2017-03-25 02:37:06,Jamie Barton,"docs: fix the security issues heading format
+
+closes #3256",False
+3763d73a1f6663460b32e600b8fc892075e069c5,2017-03-23 10:15:23,Jamie Barton,"examples: replace jade with hbs in mvc example
+
+fixes #3181
+closes #3185
+closes #3243
+closes #3245
+closes #3249",False
+8acaa9a3ea209be604e73477445c991e842ffe9e,2017-03-22 11:42:06,Douglas Christopher Wilson,"deps: finalhandler@~1.0.1
+
+fixes #3252",False
+dbf092d3ea5aefd65815ca022ab9e89246cd67b9,2017-03-22 11:40:43,Douglas Christopher Wilson,deps: vary@~1.1.1,False
+efd7032f71f3ef18060a100edc4aa11f4c912dde,2017-03-20 02:16:37,Wes Todd,"build: Add .editorconfig
+
+closes #3221",False
+2189ff14a9ba5ff2109412edd7009fcf5bc802f3,2017-03-20 02:15:58,Douglas Christopher Wilson,lint: remove trailing new lines from docs,False
+245fa8942a4478862b7a620c6ce66f55311c556e,2017-03-17 09:39:50,Jamie Barton,"examples: replace jade with ejs in route-separation
+
+closes #3241",False
+1b6ad080952f026fc7913beb84176519658ee07b,2017-03-15 09:23:19,Douglas Christopher Wilson,deps: debug@2.6.3,False
+a1fffda3f2c879dac1b2ba7a28c457957768e874,2017-03-15 09:16:29,Douglas Christopher Wilson,build: should@11.2.1,False
+f44368f8bede4ffc56929b183d6d5508e222a949,2017-03-10 10:11:15,Jamie Barton,"examples: replace jade with ejs in view-locals
+
+closes #3240",False
+64dd446aa85a3fc28bd4662626593f29a45689f6,2017-03-10 10:07:06,Jamie Barton,"docs: remove dead link to translated readme
+
+closes #3239",False
+21f725e0ef9e1e9a8ea51e8486e9cadeae956774,2017-03-06 19:13:58,Douglas Christopher Wilson,5.0.0-alpha.5,False
+e5dbb0cb4e3a1a8cb7278e889d09156ec34d13e4,2017-03-06 19:10:02,Douglas Christopher Wilson,Merge tag '4.15.2',True
+d43b074f0b3b56a91f240e62798c932ba104b79a,2017-03-06 19:04:38,Douglas Christopher Wilson,4.15.2,False
+05fd1e444198954c1e275d485bccabafed052868,2017-03-06 19:03:37,Douglas Christopher Wilson,deps: update example dependencies,False
+85c96fd64edad8ce076bb82c065ef0c9fea6c559,2017-03-06 19:02:13,Douglas Christopher Wilson,deps: qs@6.4.0,False
+d32ed68b2995e0322100ace29d86e7a86b9c6378,2017-03-06 09:49:32,Douglas Christopher Wilson,4.15.1,False
+57d3dfd9f828c4529fa90dde4b3d216898181e99,2017-03-06 09:43:53,Jamie Barton,"examples: merge the jade example into ejs
+
+closes #3223",False
+eece3850bc5206c28bfac78c986fbe0c193b34b8,2017-03-06 09:38:47,chainhelen,"tests: use path.join instead of concatenation
+
+closes #3236",False
+8eb95ae57973b2cbe7778bc2e10450a380ca2efe,2017-03-06 09:37:24,chainhelen,"examples: use path.join instead of concatenation
+
+closes #3236",False
+67168fe231445a82dc1e8dde6a93ee9441be28c1,2017-03-05 10:38:16,Douglas Christopher Wilson,"deps: serve-static@1.12.1
+
+fixes #3233",False
+c0089d971b9880b17c652bfde95cc4f36fd8aaf8,2017-03-05 10:36:59,Douglas Christopher Wilson,deps: send@0.15.1,False
+dc8acc8676bed4aa4afa391ee312baa497d680e2,2017-03-05 10:34:47,Douglas Christopher Wilson,tests: use supertest expect for simple assertions,False
+7027b37764050c550366e808ea84fee1c58233ed,2017-03-05 09:52:08,Jianru Lin,"lint: remove unused err argument
+
+closes #3228",False
+b4550fbe7a154d3fb9e935935e266a9eca9a4d69,2017-03-02 06:04:30,Jamie Barton,"Use ejs instead of jade within engine jsdoc
+
+closes #3222",False
+a3a9166c521008576da724e83221c05a1aa92245,2017-03-02 05:21:29,Douglas Christopher Wilson,5.0.0-alpha.4,False
+06f423d4f56bad350690ebf0f9fe7b79961dbc96,2017-03-02 04:59:48,Wes,"Remove Express 3.x middleware error stubs
+
+closes #3217",False
+4012846d2534addd8de0b0c237cd63ada104109a,2017-03-02 04:52:36,Jamie Barton,"examples: use static assets in search example
+
+closes #3224",False
+501e24e0a941fb43b1d0b4a0363386111535cd31,2017-03-02 04:47:04,Douglas Christopher Wilson,Merge tag '4.15.0',True
+6d9b1279899cbc1fbaa2b98a2ab118a2c3081778,2017-03-02 04:14:13,Douglas Christopher Wilson,build: Node.js@7.6,False
+504a51c040f22c80c7e52377c0ef00b1c8b2a76b,2017-03-02 03:52:18,Douglas Christopher Wilson,4.15.0,False
+7f96896f67ba14e5a2f5be4fc5496584ce682b24,2017-03-02 03:47:50,Douglas Christopher Wilson,deps: update example dependencies,False
+f59de6ae3d0c142a95e4f47dedf9770efe198ae6,2017-03-02 03:46:21,Douglas Christopher Wilson,build: Node.js@7.7,False
+72475543bcf61868e32ba2f4053cf42707a4b55d,2017-03-02 03:46:09,Douglas Christopher Wilson,build: Node.js@6.10,False
+146a13ede7c81d0131468e99b29d06940727bfea,2017-03-02 03:45:57,Douglas Christopher Wilson,build: Node.js@4.8,False
+9722202df964bfbfc0f579e4baeb5a4e1b43b344,2017-02-27 01:08:05,Blake Embrey,"Add next(""router"") to exit from router
+
+closes #2241
+closes #2371",False
+51f52901eb1f00571e18d404e10b27310215234c,2017-02-27 00:29:47,Douglas Christopher Wilson,"Fix case where router.use skipped requests routes did not
+
+fixes #3037",False
+8b6dc6ceec1b36e74ee9c6d362aa04e46237c227,2017-02-27 00:15:35,Douglas Christopher Wilson,"Use ""%o"" in path debug to tell types apart",False
+081b811b100a54e26e46aec64e0effd12cdd5053,2017-02-27 00:02:21,Douglas Christopher Wilson,"perf: add fast match path for ""*"" route",False
+1f71fae23be00f44bdfef212cc16868dd8cd5954,2017-02-26 23:51:18,Douglas Christopher Wilson,"tests: add lone ""*"" route tests",False
+acc4a619d93c86b526af9d850407464f8e404b8f,2017-02-26 06:01:39,Douglas Christopher Wilson,deps: serve-static@1.12.0,False
+1b43166fcafceedf50d588abf09224d33cc93507,2017-02-26 04:23:34,Douglas Christopher Wilson,deps: send@0.15.0,False
+6022567c754a8f1d0b117168b67324da7200fa3c,2017-02-23 12:26:58,Douglas Christopher Wilson,"Use setprototypeof module to replace __proto__ setting
+
+closes #1967
+closes #2613
+closes #3103
+closes #3164",False
+12ff56e1e44eb0126d777205b53c31c247ee9293,2017-02-23 12:22:49,Douglas Christopher Wilson,Use Object.create to setup request & response prototypes,False
+668f545fd4f69cb27dccc6c2d7a21c1637e84933,2017-02-23 10:12:57,Douglas Christopher Wilson,Skip routing when req.url is not set,False
+7bc5f1af968175ddb492cc436a37fc53a8026175,2017-02-23 09:39:36,Douglas Christopher Wilson,lint: consolidate layer match failure path,False
+8de1230d039f4391a8c7227e8ce702f280b72e33,2017-02-23 09:33:20,Douglas Christopher Wilson,lint: remove unreachable code,False
+034165caeb558560c19a0b3105d913c11999cdd0,2017-02-22 12:46:52,Wes,"Use statuses instead of http module for status messages
+
+closes #3215",False
+a9f15aaefc396b487f18d583b1a3c39ee53e1db6,2017-02-22 12:41:06,Douglas Christopher Wilson,deps: fresh@0.5.0,False
+f87abb34934c21926f0315162159e4acf7d7dae8,2017-02-21 08:38:33,Douglas Christopher Wilson,"Remove usage of res._headers private field
+
+closes #3174",False
+cd7d241a5d07eb8fa3df025e96759ee15800e661,2017-02-21 07:59:19,Douglas Christopher Wilson,build: test against Node.js 8.x nightly,False
+9f4dbae083264898a65ee2d187b1ae0302814148,2017-02-21 07:55:26,Douglas Christopher Wilson,deps: etag@~1.8.0,False
+f2bbd10ae7abadae174b3cf9beb5d944dea4a90b,2017-02-21 07:54:55,Douglas Christopher Wilson,deps: update example dependencies,False
+92c859dd055646077607619a2df79243bc8a431f,2017-02-21 07:54:54,Douglas Christopher Wilson,deps: finalhandler@~1.0.0,False
+485b6f86ac43814c2b596f14648f8b6e1a373a11,2017-02-21 07:54:54,Ángel Sanz,"perf: improve req.ips performance
+
+closes #2723",False
+906164b204efa1e27af16468ad2cd2b1532212b0,2017-02-21 07:54:54,Douglas Christopher Wilson,deps: qs@6.3.1,False
+c63424a0a11a29c067dd0e6ae284d6d821917f32,2017-02-21 07:54:54,Douglas Christopher Wilson,deps: debug@2.6.1,False
+bbed8021c6f634b5eeec52f0f70666f76c78e918,2017-02-21 07:54:54,Douglas Christopher Wilson,build: support Node.js 7.x,False
+fefd7290376ca865e348d747592543a119a2ff98,2017-02-21 07:54:34,Pravdomil,"Add debug message when loading view engine
+
+closes #3158",False
+1a99bb051947fbf06b6b415bba06f8c83247c0d1,2017-02-21 06:35:54,Mike Tunnicliffe,"docs: add release guide
+
+closes #2857
+closes #2890",False
+4420a7bd94f811e4e40caa5fcf5b67ecae779d2f,2017-02-21 04:55:42,Douglas Christopher Wilson,docs: update link to expressjs.com website repo,False
+1678613db165126306bd79ca6bda310c5cf9bb62,2017-02-21 04:51:38,Rand McKinney,"docs: add guide for writing readmes
+
+closes #3209",False
+f3a47e39a4aeaba36c4881ccafbe12262278e9f4,2017-02-21 04:27:14,Rand McKinney,docs: update collaborator guide,False
+3e3d35777d3e3081b33ce7d50c8a5c855b450534,2017-02-21 03:39:21,Douglas Christopher Wilson,tests: update req.range tests to run through express,False
+eb326d7ecb52a555f08aba4ebf8744512db1240b,2017-02-21 03:25:15,Douglas Christopher Wilson,tests: update req.is tests to run through express,False
+7ef92f8a171aeb7c90260a0ba92015862da1a0eb,2017-02-16 11:12:57,Douglas Christopher Wilson,examples: remove semi-broken expose-data-to-client example,False
+c48014fde8682f59c2fff8f0ae4655daf8de3b0d,2017-02-16 10:52:31,Rand McKinney,docs: minor fixes to contributing guide,False
+034f261fea1eed22d79706ef3c29666acc5fce4a,2017-02-16 10:06:17,Douglas Christopher Wilson,"examples: use pbkdf2-password module in auth example
+
+closes #3207",False
+abd1de73c14985c884d11fb35aff5f4b17381e23,2017-02-08 06:12:35,Sebastian Van Sande,"tests: fix misnamed app.router test section
+
+fixes #3194
+closes #3199",False
+fb3946f4549395b2f0d3a166ef74eb407d11549b,2017-02-05 07:24:47,Douglas Christopher Wilson,lint: fix broken indentation in tests,False
+4f291e7d55d6093ecc4a99d88c785dee22d6d125,2017-02-05 07:18:12,Tom Hosford,"examples: use res.format in error-pages
+
+closes #3195",False
+94377f681d66efff100aa2a9086398b0df5688f8,2017-02-05 07:13:50,Takuma Hanatani,"lint: remove unnecessary semicolon
+
+closes #3191",False
+c8d9223e93ee0c08490e4840f3278314ccb221a5,2017-01-29 08:51:29,Douglas Christopher Wilson,5.0.0-alpha.3,False
+4b39a01e6ad736bfa4c80ce2a80c787dd1bd41e1,2017-01-29 08:26:53,Douglas Christopher Wilson,deps: path-is-absolute@1.0.1,False
+ad4d52de29e0bca3ed74ec721773a9e0ac72b420,2017-01-29 08:25:32,Douglas Christopher Wilson,deps: array-flatten@2.1.1,False
+07077c44570b4f4faf27b9c92e6d22e81c0d11fb,2017-01-29 08:24:42,Douglas Christopher Wilson,deps: router@~1.1.5,False
+bcbb9d56c57ab7ad20b3be52fe8191145ab48016,2017-01-29 07:32:36,Douglas Christopher Wilson,Merge tag '4.14.1',True
+0437c513f2dbc8d1dfc5a3e35fe35182bd3a671e,2017-01-29 03:51:24,Douglas Christopher Wilson,4.14.1,False
+1f70b76c453e9550545e9a5a91a97d5d0dba3e32,2017-01-29 03:26:34,Douglas Christopher Wilson,build: Node.js@4.7,False
+0b39fa2f7c5a68c956019eff01c002968e8966db,2017-01-29 03:10:40,Douglas Christopher Wilson,build: should@11.2.0,False
+ab1c9e924e3e0def80224d8ed6cb995978c88ed8,2017-01-28 10:23:41,Mike Tunnicliffe,"Remove res.jsonp(status, obj) signature
+
+closes #2940",False
+25fdefac45f0569a19fbd0e1baf07737ef232766,2017-01-28 10:16:54,Mike Tunnicliffe,"Remove res.json(status, obj) signature
+
+closes #2939",False
+a856456a956f294d24b37710d0e6971897c97b5b,2017-01-28 08:34:36,Mike Tunnicliffe,"Remove res.vary() (no arguments) signature
+
+closes #2943",False
+0d6c64fdfd0bd6031dc23df2c5f9abdf6e4bbb11,2017-01-27 09:24:05,Douglas Christopher Wilson,deps: type-is@~1.6.14,False
+c238aca43875fe804df1e7e076dd3f63211f2e02,2017-01-27 09:18:08,Douglas Christopher Wilson,examples: remove big-view example,False
+6b506d801a731eb079fc0f442d25a7398b5f1a5b,2017-01-27 09:03:52,Douglas Christopher Wilson,"examples: fix mvc example to ignore files in controllers dir
+
+fixes #3182",False
+dc48f27f607f59b187bd21ab3a84a82d2638f1eb,2017-01-27 08:55:39,Douglas Christopher Wilson,deps: update example dependencies,False
+8e14e06ebf45bd88b92ce9e84d4ffed3634c5097,2017-01-24 21:10:20,Douglas Christopher Wilson,deps: serve-static@~1.11.2,False
+572657ee4a63b95d7522232dcc74a5012eb4239e,2017-01-23 21:13:11,Douglas Christopher Wilson,deps: send@0.14.2,False
+cfae537d3b37c73090634dd1dec7b10d6e9b920d,2017-01-21 11:35:17,Douglas Christopher Wilson,deps: finalhandler@0.5.1,False
+a3d635309cab51fc04730be06efcb31f83d0c444,2017-01-21 11:30:52,Douglas Christopher Wilson,deps: proxy-addr@~1.1.3,False
+a2e323a012de8415df58bd23ccb235bb0e0094c2,2017-01-21 11:29:29,Douglas Christopher Wilson,build: should@11.1.2,False
+e73913b5837f615eaedde6a7005ffae5d09a3bff,2017-01-21 11:16:28,Douglas Christopher Wilson,build: mocha@3.2.0,False
+ddc93aa0e20e1a802dccc80dd4a84c5763306531,2017-01-21 11:09:46,Douglas Christopher Wilson,deps: content-disposition@0.5.2,False
+6723b4419abacba00b73c466edb338e331e9ffe8,2017-01-21 11:03:29,Zachary Lester,"tests: add test for res.sendFile ""cacheContol"" option
+
+closes #3061",False
+d1d9631b97b64c7f98f4ad2d0ba61014865b1d49,2017-01-21 10:56:49,SeongHeon Kim,"docs: remove link to missing section
+
+closes #3179",False
+1a17888073790f5567fdb9f9e270fab6904abf97,2017-01-21 10:55:47,Deniz Tetik,"docs: fix minor grammatical error
+
+closes #3178",False
+f6dca56e72bc8df794bb98fec14a0875323c0569,2016-12-03 10:38:46,Douglas Christopher Wilson,build: istanbul@0.4.5,False
+6210e47cb664714efac017b9e1987f867ae5f804,2016-12-03 10:34:47,Douglas Christopher Wilson,build: after@0.8.2,False
+1bcc9b1236197ac78f64e6cc1a7baf2c97d36395,2016-12-03 08:49:04,Douglas Christopher Wilson,build: Node.js@6.9,False
+421ad5aaaa46ca5b2654bd75d9ec2bd62eed68b5,2016-12-03 08:42:33,Douglas Christopher Wilson,build: Node.js@5.12,False
+505f8482f2a2d41be856662db41265a7b190ca65,2016-12-03 08:39:46,Douglas Christopher Wilson,build: Node.js@4.6,False
+bd47aeb88d28c6cff6e2d8e5378ec73c262e039f,2016-11-19 00:17:28,Vishvajit Pathak,"tests: fix typos in test descriptions
+
+closes #3129
+closes #3130",False
+305f982bd734da5ee74abba9c270905a8f4aa484,2016-07-31 17:44:05,Hamza,"exapmples: use path.join to concat paths
+
+closes #3046",False
+1dbfee66235c6a4e2f8e440264f71f31ddbe75d4,2016-06-20 10:07:34,Douglas Christopher Wilson,Merge tag '4.14.0',True
+9375a9afa9d7baa814b454c7a6818a7471aaef00,2016-06-16 20:33:44,Douglas Christopher Wilson,4.14.0,False
+14cf9c563679566bef9a396bfa9702776bfc1b48,2016-06-16 03:46:08,Douglas Christopher Wilson,deps: update example dependencies,False
+605983fd0e838f9ddb9d85f4e1950f0ce5bed83d,2016-06-16 03:43:30,Douglas Christopher Wilson,build: should@9.0.2,False
+e06766c573ba3784798fc9b8775cea1304e34427,2016-06-16 03:42:19,Douglas Christopher Wilson,deps: finalhandler@0.5.0,False
+76eaa326ee8c4dda05568c6452286a16adb84c0b,2016-06-14 08:53:29,Douglas Christopher Wilson,"Encode URL in res.location/res.redirect if not already encoded
+
+fixes #2897
+fixes #3003",False
+c12cc8839277dcb3956558865f0cd241e8d08883,2016-06-14 08:21:07,Douglas Christopher Wilson,build: support Node.js 6.x,False
+23c22ce3fe2c298add7c06ac881ce0f17f73a6be,2016-06-14 08:20:18,Douglas Christopher Wilson,build: support Node.js 5.x,False
+791cabf9390a029c5ad9b63eae8145c3c73f204e,2016-06-13 08:08:20,Douglas Christopher Wilson,deps: serve-static@~1.11.1,False
+fc40702cb70e39565263d64d962d3b8164fb3621,2016-06-13 08:03:44,Douglas Christopher Wilson,deps: send@0.14.1,False
+c762b16f62e2c9f5de33481c250ef6f94a99eb7f,2016-06-03 09:37:34,Douglas Christopher Wilson,"Improve error with invalid arguments to req.get()
+
+fixes #2993",False
+5d642af8c34c49b54b1ea2f9a300440ec5656fef,2016-06-02 04:43:36,Douglas Christopher Wilson,"Add ""options"" argument to req.range",False
+7fcf1d7d5b021d4c285f377d99e0d40dbf26a9b1,2016-06-02 04:34:02,Douglas Christopher Wilson,docs: update the req.range jsdoc comment,False
+7ee41cc23f2f7237ad8e3b1cfbad03900f14314d,2016-06-02 04:24:11,Douglas Christopher Wilson,deps: range-parser@~1.2.0,False
+8ddab697cc1d7b4c3d6d24b8e265be116ddccc0b,2016-06-02 03:01:10,Douglas Christopher Wilson,build: supertest@1.2.0,False
+d03868965858af94a712fbd4ad68827023199462,2016-06-02 02:57:06,Douglas Christopher Wilson,build: should@9.0.0,False
+c9531ac1f19a2bab4af819bfab6cb6dfab49e101,2016-06-02 02:54:08,Douglas Christopher Wilson,build: mocha@2.5.3,False
+98224d2c4f60708dcd6cb43bc50654ab804665d2,2016-06-02 02:52:15,Douglas Christopher Wilson,build: ejs@2.4.2,False
+2e1284beb6210444932d050b9d31d3908afb7591,2016-06-02 02:17:03,huaoguo,"Fix Windows absolute path check using forward slashes
+
+closes #3017",False
+999546dfdeb874c20b360ad58346ed07917f3ac0,2016-05-31 23:58:20,Douglas Christopher Wilson,deps: qs@6.2.0,False
+cc25a04d10aace04addb1f4a4a53611f364b86c5,2016-05-31 23:55:41,Douglas Christopher Wilson,deps: type-is@~1.6.13,False
+f90f9dde3fe02cd9f4b081c16441415817b297b0,2016-05-31 10:02:48,Benjamin Tan,"Improve performance for res.json/res.jsonp in most cases
+
+closes #2900",False
+b69b7605b07b41273acc931d25ab585377bcd107,2016-05-31 09:55:34,Ángel Sanz,"perf: use strict equality when possible
+
+closes #2722",False
+c6039af39d6bc50edfbdd7c822c79e97ba86fc4f,2016-05-31 09:42:54,Douglas Christopher Wilson,deps: proxy-addr@~1.1.2,False
+bdf604a77e8bab6c7f47e85eca77c21b84d5b33e,2016-05-31 09:38:16,Douglas Christopher Wilson,deps: cookie@0.3.1,False
+76c56d1ab88dd253e90b39e621dcef20219a7204,2016-05-29 23:55:27,Douglas Christopher Wilson,deps: vary@~1.1.0,False
+2cf830b29e7260afe1e414a80850a014556ba429,2016-05-24 08:48:41,Douglas Christopher Wilson,deps: content-type@~1.0.2,False
+e5502690d2db1b2ca9f78d0025176b29d834c3ba,2016-05-24 08:45:52,Douglas Christopher Wilson,deps: accepts@~1.3.3,False
+31dd549f350accd7b4e3685c13f745e857557827,2016-05-24 08:33:13,Douglas Christopher Wilson,tests: add test for dispatching to empty route,False
+e3dd191d54a0a4adfb906af4b12e5fdc4627a2d3,2016-05-24 08:30:43,Douglas Christopher Wilson,examples: escape HTML in markdown example,False
+fd48bfe8fe0f8d0cfd3c58475bb89deabb9edb36,2016-05-24 08:17:25,Douglas Christopher Wilson,build: should@8.4.0,False
+d7ae24228dbce8d8e384aa9f9e054fc24d4309eb,2016-05-24 08:14:48,Douglas Christopher Wilson,build: mocha@2.5.1,False
+992cd085fb4af69ec838d42b3f51d44c9d852968,2016-05-24 08:11:26,Douglas Christopher Wilson,build: istanbul@0.4.3,False
+20a25489de13f3726d68c606411861a73acfa6b5,2016-05-24 08:09:59,Douglas Christopher Wilson,build: ejs@2.4.1,False
+741a5aac9cf287ce4072e3e458c2bbaab0bca355,2016-05-24 07:42:31,Douglas Christopher Wilson,build: cache node_modules on CI,False
+3d56e7374d7d1e812c7851eacb7593bd41963a23,2016-05-13 05:53:54,Rand McKinney,"docs: update location of expressjs.com repo
+
+closes #2995",False
+12bc16e72fe34ce7e3658679b694e47dce56ae7a,2016-05-11 12:20:38,Douglas Christopher Wilson,"tests: use supertest to check response header values
+
+closes #2983
+closes #2992",False
+8931b2311a096515a59398702c8898d88d21515c,2016-05-10 22:12:16,Douglas Christopher Wilson,build: Node.js@4.4,False
+bb84cf955f5f84edc8938c00ec8590599861abca,2016-05-10 21:24:52,Linus Unnebäck,"tests: add test for signed cookie without secret
+
+closes #2986",False
+f3d99a4fdbe1531ea609e92c4d4ae6c269d78c7a,2016-03-02 05:25:01,Mikeal Rogers,"docs: add base contributing guide
+
+closes #2918",False
+dd2b8977747203343b37318a34b221d481e789e8,2016-02-25 08:28:50,Muhammad Saqib,"examples: comment the usage of process.nextTick
+
+closes #2903
+closes #2908",False
+4bcbf67482471ac096fb39bf076ba5d40c0fe4da,2016-02-11 05:05:54,Sian January,"docs: add branch & fork steps to contributing documentation
+
+closes #2881",False
+b5a280111f94728e70aa1a22687e64aaf31abd81,2016-02-11 05:02:51,Andy Fleming,"Fix jsdoc comment for res.get
+
+closes #2882",False
+05136550c7fa9d7671a03960cc86a717f0964d21,2016-02-11 04:51:46,Douglas Christopher Wilson,"docs: fix some links messed up from repository move commit
+
+closes #2861
+closes #2867",False
+8a387d3ede7bd0e040c7b19def0007040b25d5f9,2016-01-22 07:58:24,Douglas Christopher Wilson,deps: array-flatten@2.0.0,False
+943f28f05f11f789e4156bf7dcb37f548c96b6aa,2016-01-22 07:56:03,Douglas Christopher Wilson,deps: router@~1.1.3,False
+7cafdb5824a15a26fe10a3599f26ab84698093d8,2016-01-22 07:53:07,Douglas Christopher Wilson,Merge tag '4.13.4',True
+193bed2649c55c1fd362e46cd4702c773f3e7434,2016-01-22 07:40:45,Douglas Christopher Wilson,4.13.4,False
+e7a02f6a256a06b670fec65bc1460bc858c9e60e,2016-01-22 07:29:53,Douglas Christopher Wilson,build: move repository to expressjs,False
+68474059742afae6bbcf60dafaccfa7a648e1de0,2016-01-20 11:28:09,Douglas Christopher Wilson,deps: parseurl@~1.3.1,False
+f627ca8d0b434c8c0b8c66b82a453a49220d8a1f,2016-01-20 11:26:56,Douglas Christopher Wilson,deps: serve-static@~1.10.2,False
+e83eab85e4c97a51088822c1bc4bb8a1faf06f88,2016-01-18 08:47:13,Douglas Christopher Wilson,deps: methods@~1.1.2,False
+1589ce215348197f4c6a19effe7a07feff991c1d,2016-01-18 05:21:24,Douglas Christopher Wilson,deps: merge-descriptors@1.0.1,False
+547ea368c2e1b915ed3ff1d844978d754b11c0ee,2016-01-18 04:30:59,Douglas Christopher Wilson,deps: content-disposition@0.5.1,False
+8eee818e0b697f85418d5eee9a86ab3a8e45105f,2016-01-17 10:28:27,Douglas Christopher Wilson,build: istanbul@0.4.2,False
+7c8456fcde6006faceab1fca659b088c7a915207,2016-01-17 10:27:07,Douglas Christopher Wilson,deps: depd@~1.1.0,False
+53ee474c442e268abae9bea5b49f68464bf61f4e,2016-01-17 10:26:09,Douglas Christopher Wilson,deps: send@0.13.1,False
+bd118c47dfdbc05a57cc10d4b791cdb91a203a7f,2016-01-17 10:24:41,Douglas Christopher Wilson,deps: serve-static@~1.10.1,False
+f2cf28c2f3c0a3b5d5ab976a148a83f7e763ae18,2016-01-14 03:14:41,Jordan Larson,docs: add link to Gitter,False

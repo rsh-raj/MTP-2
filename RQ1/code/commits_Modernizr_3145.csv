@@ -1,0 +1,2032 @@
+Hash,Date,Author,Message,IsMerge
+b1609a6907950017d9450b2a08c93dd19a66fcfa,2024-10-27 19:59:26,Tushar Kumar,"Update flexgap.js (#2749)
+
+* Update flexgap.js
+
+Added a check for the type of result: In the previous code, there was no check for the type of result. In the updated code, I added a check to ensure that result is a string, and if not, an error message is logged. 4
+
+* Update flexgap.js
+
+Added a check for Safari bug:
+
+var isSupported = flexHeight === 1 || flexHeight === 2;
+Reason: Safari, at zoom levels of 50% and 150%, returns scrollHeight as 2 instead of 1 for flex containers. This line ensures the test works across different browsers, including buggy Safari versions.
+
+---------
+
+Co-authored-by: veeck <gitkraken@veeck.de>",False
+796e72c408202fbe81b6d5ca6f3a14eb5cd3f694,2024-10-16 20:00:52,veeck,update minor deps,False
+b200dc0e0aa8b475e0215c44453c8e6dc8a03da4,2024-10-16 19:50:37,dependabot[bot],"Bump serve-static from 1.15.0 to 1.16.2 (#2752)
+
+Bumps [serve-static](https://github.com/expressjs/serve-static) from 1.15.0 to 1.16.2.
+- [Release notes](https://github.com/expressjs/serve-static/releases)
+- [Changelog](https://github.com/expressjs/serve-static/blob/v1.16.2/HISTORY.md)
+- [Commits](https://github.com/expressjs/serve-static/compare/v1.15.0...v1.16.2)
+
+---
+updated-dependencies:
+- dependency-name: serve-static
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+148424612a85bcd5b870b9f3f51e080fb1c1c34f,2024-10-16 19:46:44,Ansh Tiwari,"enhance the documentation for the Modernizr (#2750)
+
+* commit
+
+* commit",False
+865081102b51d0b1b695f4584d03f3f8d6f316a7,2024-10-16 19:46:22,dependabot[bot],"Bump pug from 3.0.2 to 3.0.3 (#2740)
+
+Bumps [pug](https://github.com/pugjs/pug) from 3.0.2 to 3.0.3.
+- [Release notes](https://github.com/pugjs/pug/releases)
+- [Commits](https://github.com/pugjs/pug/compare/pug@3.0.2...pug@3.0.3)
+
+---
+updated-dependencies:
+- dependency-name: pug
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+275aa27c646c1d6fd1a33f35eb002a85f19e2365,2024-10-16 19:45:21,Veeck,"Update code coverage tooling (#2751)
+
+* try to update code coverage tooling
+
+* split testing and coverage
+
+* cleanups
+
+* bump patched dependencies
+
+* fix jsdoc errors
+
+* undo node version bump
+
+* cleanup gitignore
+
+* fix script name",False
+44fa7b07c367a1814e8699e3a2f15c53fbe32df7,2023-12-20 12:52:21,Alex Neises,Added BroadcastChannel (#2734),False
+bd024b52005f5d5b11735ea2c432d760ca1edf03,2023-10-21 23:03:42,Aman Rawat,"Add Hindi Translation in README.md (#2731)
+
+* Add Hindi language
+
+* add hindi repo link to all README.md",False
+e17e7c33f58aa3d1fdc172577a866524c35ca25b,2023-10-20 03:08:56,dependabot[bot],"Bump @babel/traverse from 7.22.8 to 7.23.2 (#2730)
+
+Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.22.8 to 7.23.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/traverse""
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+94dbf4d50b9be839ea4fb0ad46f18e02fa46349b,2023-10-12 15:13:35,Kader Sarıkaya,[TRANSLATION] Turkish translation for README.md (#2729),False
+a515186f219d7aa75beaa98d20f557774f27c485,2023-07-21 17:32:10,veeck,Update deps,False
+e14ca48332f3420dea9300cbb1021c1dbd166de5,2023-07-19 16:46:09,veeck,Update minimal node version to 16,False
+f1b57789747767db3eca410a7c7334f1904f4f37,2023-04-04 02:08:37,Prathap Rathod,"[TRANSLATION] Kannada translation for README.md (#2725)
+
+* Create README.ka.md
+
+* Update README.md
+
+* Update README.ta.md
+
+* Update README.id.md
+
+* Update README.id.md
+
+* Update README.sv.md",False
+86ebb0447a8f698b22320b2bb560968050d47cf7,2022-10-20 17:22:34,Klaus Rettinghaus,update used actions (#2716),False
+899b5f4c1f2566fbb34dea1acd625bec46f0ac01,2022-10-19 16:55:58,Fenix Hongell,"Fixed duplicate and missing word. (#2715)
+
+Removed a duplicated word and translated a header which had been overlooked. Also changed a word that had been translated wrong given the context of the sentence.",False
+fadfa67cddc37775f91db0f96e4287cd5377a1ce,2022-10-17 23:24:20,Fenix Hongell,"Updated swedish README. (#2713)
+
+Updated grammar in swedish README. Fixed some code-samples that were broken.",False
+59ab0b3d15785dd6a99c2f8b317625e7058a81bd,2022-10-17 00:48:43,Debadutta Panda,"Added detection of type worker option and aspect ratio (#2702)
+
+* added detection of workeroption and aspectratio css property
+
+* update aspectration.js rename workeroptions.js to workertypeoption.js update config-all.json and caniuse.js and all testcase passed
+
+* update caniuse
+
+* revert package-lock.json file
+
+* apply requested changes on both files",False
+4d36bb24f4b0672b317fdd93fdfbf843fe0998d6,2022-10-17 00:33:09,dawidkulpa,"Adds PushManager feature detection #2703 (#2708)
+
+* Adds PushManager feature detection
+
+* Fixes author metadata",False
+f937c31a4e86ac07f023646676520e792ec3acdc,2022-10-16 23:54:03,Rohith ND,[TRANSLATION] Tamil translation for README.md (#2709),False
+79c29c5e6d707d532b5b56b1635a7d35a82d2990,2022-10-15 00:43:43,Fenix Hongell,"[TRANSLATION] Swedish translation for README.md (#2707)
+
+* [TRANSLATION] Swedish translation for README.md
+
+[TRANSLATION] Swedish translation for README.md in README.sv.md
+
+* Added swedish translation option to README.md",False
+5b2c76ffa933e4b2ee715225ed28bf4a151abf68,2022-10-12 11:14:16,ddaniel27,"[TRANSLATION] Spanish translation for README.md (#2706)
+
+* [TRANSLATED] README.md translated to a spanish version
+
+* [TRANSLATED] Added a Spanish version and follow link for README.md",False
+aa8dc39ea735a66f25b5f2583590715bcd0a92a8,2022-10-12 01:05:10,K0oceng,Adding translation to a new readme file (#2705),False
+6752ffb279a9bb0f4c897216a1a3743a1f0ad82c,2022-09-13 01:34:50,John Kennedy Mumo,"Fix: Update lowbandwidth condition to match new spec (#2688)
+
+* Update lowbandwidth condition to match new spec
+
+* Bump minimist and minimist
+
+Bumps [minimist](https://github.com/substack/minimist) and [minimist](https://github.com/substack/minimist). These dependencies needed to be updated together.
+
+Updates `minimist` from 1.2.6 to 1.2.6
+- [Release notes](https://github.com/substack/minimist/releases)
+- [Commits](https://github.com/substack/minimist/compare/1.2.6...1.2.6)
+
+Updates `minimist` from 1.2.5 to 1.2.6
+- [Release notes](https://github.com/substack/minimist/releases)
+- [Commits](https://github.com/substack/minimist/compare/1.2.6...1.2.6)
+
+---
+updated-dependencies:
+- dependency-name: minimist
+  dependency-type: indirect
+- dependency-name: minimist
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: veeck <michael@veeck.de>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5c77c4350f99f44d2ff121e820c96704528c6b4f,2022-09-13 01:23:37,Veeck,"Update deps (#2698)
+
+* Update minor dependencies
+
+* Run audit
+
+Co-authored-by: veeck <michael@veeck.de>",False
+8bc217071fb74fd72b774e9192cce13f3b67bd83,2022-09-13 01:10:43,yogarasu,"Update mocha-headless-chrome (#2696) (#2697)
+
+* Update mocha-headless-chrome (#2696)
+
+* Update dependencies (#2696)
+
+Co-authored-by: yogarasu <ishiguro@revoltage.jp>",False
+28d969e85cd8ebe5854f6296fd6aace241f6bdf7,2021-10-19 13:19:47,Hélio Correia,Set gulp connect to listen on any IP addresses available (#2677),False
+a8a24bf18d16f6b70b18a4907a77b16de57e692a,2021-10-14 23:58:06,Edu Saborit,"Add test for :focus-visible and fix wrong references in :focus-within (#2665)
+
+* Create focusvisible.js
+
+* Fix wrong reference to CSS focus-within feature
+
+* Fix wrong reference for CSS focus-within feature
+
+* Add css-focus-visible to caniuse integration tests
+
+* Include focusvisible in config-all.json
+
+* Add authors tag to focusvisible.js",False
+049b6cae45d9abcb006b0b7d5550f62f38ecbca0,2021-10-14 17:34:04,Onkar Dahale,"Mediastream feature detect (#2669)
+
+* Create mediastream.js
+
+* added mediarecorder as test
+
+* Update config-all.json
+
+* Added metadata to mediastream.js
+
+* Update mediastream.js
+
+* Removed extra line, added a new tag 'media'
+
+* moved mediastream.js to /webrtc dir
+
+* Update config-all.json",False
+594c996c183bd06cf0a4790648a1a9d25341367a,2021-10-14 01:10:12,Hélio Correia,"Add a|area[ping] detection (#2671)
+
+* Add a|area[ping] detect
+
+* add aping|areaping to integration tests
+
+* Add author tag",False
+9916f344bba072a0ac34ba87d8b98637b9aca8fb,2021-10-13 01:31:35,Oscar Dominguez,ci(workflow): add 'npm' cache for actions/setup-node in .github/workflows (#2672),False
+532f686eeb537f91bbc9af3478003e7875de27aa,2021-10-09 13:32:11,rejas,Update scripts and dependencies,False
+2b6caa1025c0ba47d4d130d28b42f8cfb51919f0,2021-10-09 12:41:35,reviewher,"Use standard LICENSE text for MIT license (#2670)
+
+* Reformat LICENSE.md to appease github
+
+* Rename LICENSE file
+
+* Rename LICENSE to LICENSE.md
+
+* Rename LICENSE.md to LICENSE
+
+Co-authored-by: Veeck <github@veeck.de>",False
+fa15c642f362aed20c1cbc363b55776e2c912f4b,2021-10-04 11:22:22,Raihan Nismara,"Using Logo Modernizr In Readme.md (#2667)
+
+* Using Logo Modernizr In Readme.md
+
+Using Logo Modernizr In Readme.md that made looks nicer
+
+* Update README.md",False
+d4c7b6082709e32fb0589ba38aa96581d44ce395,2021-08-28 16:22:13,rejas,"Cleanups
+
+- Move codecov config into subdirectory
+- Add notes for required node version
+- Update dependencies
+- Small code style cleanups",False
+313a7ade28b8794557806254711139a6fdea0aa0,2021-08-17 20:16:06,Michael Telatynski,"Fix config generation when minifying (#2657)
+
+Co-authored-by: rejas <github@veeck.de>",False
+efde16bdbca373e14bfcaabe813d3ed262f645af,2021-07-10 23:47:56,dependabot[bot],"Bump hosted-git-info from 2.7.1 to 2.8.9 (#2649)
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.7.1 to 2.8.9.
+- [Release notes](https://github.com/npm/hosted-git-info/releases)
+- [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+- [Commits](https://github.com/npm/hosted-git-info/compare/v2.7.1...v2.8.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+70d10792acf379619515047a904a2e61c4e767a0,2021-07-10 23:45:35,Veeck,"Transition to Github Actions (#2658)
+
+* Delete .travis.yml
+
+* Try again to create Github Actions
+
+* Remove global? Seems to cause problems
+
+* Try to add Windows support
+
+* Remove AppVeyor as GA replaces it :(
+
+* Change README
+
+* Remove specific branch (to help the renaming)
+
+* Update node versions
+
+* Remove appveyor from legacy grunt (to see if github doesnt complain)
+
+* Update README
+
+* Update dependencies
+
+* Update testing actions
+
+Co-authored-by: Markel F <git@markel.dev>",False
+689165a67c045c4fa881311ce631c868755157c4,2021-07-10 01:36:09,rejas,Update node testing matrix and dependencies,False
+30da3dfdbbeb768ab2aac76ab7f16b4f19f1e5bd,2021-05-07 13:25:34,veeck,Update dependencies,False
+6d56d814b9682843313b16060adb25a58d83a317,2021-04-11 00:11:34,Raúl Núñez de Arenas Coronado,"Replace 'kebab-case' to 'hyphen-case' (#2646)
+
+Since 'kebab-case' may be perceived as derogatory by some members of
+Arabic or Asian cultures, it's better to use a culture-agnostic term
+like 'hyphen-case', which in addition is more self-explanatory than the
+potentially offensive term 'kebab-case', which makes no sense without
+knowing the origin of the term.",False
+7ab93848df4cc40bba1535a56be36b2a7be858cb,2021-03-11 14:49:47,dependabot[bot],"Bump pug-code-gen from 2.0.1 to 2.0.3 (#2641)
+
+Bumps [pug-code-gen](https://github.com/pugjs/pug) from 2.0.1 to 2.0.3.
+- [Release notes](https://github.com/pugjs/pug/releases)
+- [Commits](https://github.com/pugjs/pug/compare/pug-code-gen@2.0.1...pug@2.0.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+08ab91b8280c59337b9c2f1e4af4d7563515a4e4,2021-03-10 12:48:51,Veeck,"Cleanup feature detects (#2639)
+
+* Move tests with storage tag into that subdirectory
+
+* Move tests with canvas tag into that subdirectory
+
+* Move tests with image tag into that subdirectory
+
+* Fix error
+
+* Fix typo
+
+* Move audio test into audio subdirectory
+
+* Move battery test into that subdirectory
+
+* Move canvas test into that subdirectory
+
+* Move video test into that subdirectory
+
+* Update dependencies
+
+* Move form and input tests into input subdirectory
+
+* Update dependencies again
+
+* Move webgl, svg and event tests into subdirectories
+
+* Update README",False
+db96bdaff995a1d4abccb0dc69c77db7b47ad614,2021-01-19 22:13:33,Veeck,Add warning about Homepage,False
+590ff521ec8de8d213e754c731f8958b61e6a727,2021-01-19 00:38:07,Markel F,"Fix a typo (probably) (#2633)
+
+I think that the `es6class` is misspelled, I just noticed :)",False
+e1fbec342c98bc17ffda75d3b662e3c29fe9016e,2021-01-18 19:23:30,toddwong,"Fix error in es6symbol with IE8 (#2630)
+
+Keyword 'for' in `Symbol.for` caused `Undefined identifier` error in IE8.",False
+b1131f876667670542fa532589fcbe5a540cefd6,2021-01-18 19:23:24,Veeck,Add check for parent node (#2631),False
+3514072f7ffab2b4e222c1be190c3bcb74ee83e5,2021-01-05 15:55:32,veeck,Update License for 2021,False
+690e36addaeac60cedf9ceb0e911a3d3e7698f77,2020-12-17 00:33:57,toddwong,Fix error of es6symbol test in ie11 (#2624),False
+6f9aec8da0a99ef0dbf260746f2f1b9de77d3df8,2020-12-13 18:20:59,Veeck,"Fix naming of es6class test (#2622)
+
+* Correctly name es6class test
+
+* Update README
+
+* Fix metadata",False
+37b7bd428d94f77593ea8d8f987a34e6e4567a51,2020-12-13 17:52:23,rejas,Update dependencies,False
+1560f1f0ddd159209c2c97a84ca49b727b2e7673,2020-10-29 02:41:28,Veeck,"Update Integration page (#2612)
+
+* Show boolean value of complex tests also on the integration test page
+
+* Fix formatting for video tests
+
+* Cleanup integration page layout
+
+* Update dependencies",False
+dc2fd4efe28c0409e792584df10d841e9c63dac5,2020-10-28 19:02:38,Tan Zhen Yong,Add feature detection for IndexedDB 2.0 (#2607),False
+67eb032be2728bb0c2f0c1354c7e963dc1c737d8,2020-10-26 12:20:42,Jordan Tepper,"Add detect/tests for prefetch (#2610)
+
+* Add detect/tests for prefetch
+
+* Move to link directory
+
+* Add in check for ie11 edge case",False
+94592f279a410436530c7c06acc42a6e90c20150,2020-10-08 00:30:23,Laisa Costa,"Adding pt_br translation to README (#2609)
+
+* Adding pt_br translation to README
+
+* Adding translation to a new readme file",False
+2253e14955cf7255a5b1e584e668ee94c693607c,2020-09-29 01:29:01,rejas,Update dependencies,False
+ee958f65caecd9f1a3847fc6c4d639278b0acc8a,2020-09-28 18:30:46,Markel F,"Implement issue templates (#2603)
+
+* Implement issue templates
+
+* Create questions template",False
+fda7369a8b6c757fe9659a23b447427cbcd75c81,2020-09-10 12:06:32,Markel F,Require changes for codecov comment (#2598),False
+3ccc7f103659a02a12401c69fd1abd2506b9884f,2020-09-08 13:53:44,Aditya Zope,"Add valid chars test for the property of metadata (#2601)
+
+* Add check for metadata.property to be lowercase
+
+* Improve test for metadata.property values
+
+* Refactor to keep polyfill test block",False
+bd06d5a713f39e2af45d97df2ebfbb769be94ccd,2020-09-06 17:47:27,Guilherme Simoes,"Remove old test for String.prototype.contains (#2600)
+
+> ""includes"" was originally going to be named ""contains"". Unfortunately
+> (...) Array.prototype.contains was used by Mootools in a way that
+> caused this to be a breaking change. If you don't remember Mootools,
+> at one point it was a pretty popular framework. It's not heavily used
+> now, but a ton of sites on the web were built with it and have used it
+> for years without active maintenance. It is abandoned but valuable.
+> This would break them overnight. The standards committee decided to
+> prioritize a functional web over the perfect syntax, and instead
+> changed ""contains"" to ""includes"" to preserve functionality that
+> everyone expected to just keep working.
+
+For more information:
+https://www.telerik.com/blogs/web-going-2016#toc_4
+
+Also notice that
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/contains
+redirects to
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes",False
+461321e243e625009e2d8e2281bb0957cf28f1bf,2020-09-05 00:27:11,Guilherme Simoes,Fix datachannel test running on PS4 and certain Samsung TVs (#2599),False
+ee2cc21bd75979955d8e5bc15400d755b103c6dc,2020-09-04 00:35:18,Markel F,"Fix appveyor build (#2597)
+
+Update to x64 version of node",False
+ef2814687bfbddab03b50130d7032ad17a5e9120,2020-08-27 17:10:44,Chris Smith,Add detection for support of scrollToOptions mode of window.scrollTo() (#2575),False
+55f3f361fa3371ed76b3c0c6f84cb732a9179116,2020-08-21 18:14:44,Chris Smith,Fix comment (#2591),False
+ce1f2157d7603da462948786cc050a56bf79ee33,2020-07-23 19:42:44,rejas,Update dependencies,False
+ffad3e7aef239b639a5e538bc652344460cc0502,2020-07-23 15:35:07,Markel F,"Add Clipboard API (#2573)
+
+* Add Clipboard API testing
+
+* Implement sub-modules (but badly)
+
+* Solve ESLint errors 🙄
+
+* Improve the sub-properties detection
+
+* Move feature detect location",False
+f81995d50f852b2a7155733346fab24f6883c16c,2020-07-03 02:07:49,Markel F,"Fill the documentation (#2561)
+
+* Create metadata.md
+
+* Update the table
+
+* Added builderAliases
+
+* Updated aliases
+
+* Added relative links + should not mentions
+
+* Notes edits
+
+* Remove authors note
+
+* Rename file
+
+Also changed the header levels to accomodate the new title/purpose
+
+* Added introduction
+
+* Revert ""Added introduction""
+
+This reverts commit 98005b1475289bdc1487b18301bb729a00443fc9.
+
+* Sorry, signature problems
+
+* Make some sentences a little bit more clear
+
+* Add testing section
+
+* Solve necessity typo
+
+* Markdownlint executed
+
+* Add Verify Your Tests section
+
+* Install the Basics
+
+* Restructure verify your tests section
+
+* Add polyfills section
+
+* Readability improvements
+
+* Added submitting a PR section
+
+* Table of contents fix
+
+* Solve extra enter
+
+* Fix link and correct polyfill name",False
+e134a07e9b825caf6c4986c00e0dd5dfe3bb312b,2020-07-03 01:49:17,Markel F,"Add warning (#2584)
+
+https://hacks.mozilla.org/2020/07/securing-gamepad-api/",False
+22553679e5d210ee9476c1e304d56994d681f813,2020-07-03 01:47:32,Christian Andersson,Add support for ResizeObserver (#2582),False
+9b62ec82bf50926a2a47521e06ceada4847b8da8,2020-07-01 17:07:50,dependabot[bot],"Bump websocket-extensions from 0.1.3 to 0.1.4 (#2570)
+
+Bumps [websocket-extensions](https://github.com/faye/websocket-extensions-node) from 0.1.3 to 0.1.4.
+- [Release notes](https://github.com/faye/websocket-extensions-node/releases)
+- [Changelog](https://github.com/faye/websocket-extensions-node/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/faye/websocket-extensions-node/compare/0.1.3...0.1.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b621acefb0ffaadf59b121fc5f6c5791577852c4,2020-06-30 04:01:43,Josh Smith (he/him),Remove microagressive language (#2579),False
+d31f4a000d4cf9cc393e018ab13d29c00775f0e0,2020-06-25 01:05:36,Markel F,"Solve some polyfill link issues (#2576)
+
+* Delete broken links, fix redirects
+
+* Removed 2 dead repositories
+
+* Replace github http links with https
+
+* Upgrade to https
+
+* Solve metadata errors
+
+* Restore css3pie",False
+771354eec5d94418398bc066481f158b9e1bd4c2,2020-06-01 17:10:39,Markel F,"Solve some documentation issues (#2568)
+
+* Solve #2418
+
+* Solves #2085 + update spec link",False
+fa7149c1fe758c74a9008e285956bdcb0f4aff5c,2020-05-29 14:04:11,Markel F,Decrapt datalist.js (#2569),False
+bd28403966b6b694623485ca35a6ef8ec24b1855,2020-05-28 15:57:54,Markel F,"Add metadata documentation (#2547)
+
+* Create metadata.md
+
+* Update the table
+
+* Added builderAliases
+
+* Updated aliases
+
+* Added relative links + should not mentions
+
+* Notes edits
+
+* Remove authors note
+
+* Rename file
+
+Also changed the header levels to accomodate the new title/purpose
+
+* Added introduction
+
+* Revert ""Added introduction""
+
+This reverts commit 98005b1475289bdc1487b18301bb729a00443fc9.
+
+* Sorry, signature problems
+
+* Make some sentences a little bit more clear
+
+* Solve necessity typo",False
+7efb9d0edd66815fb115fdce95fabaf019ce8db5,2020-05-19 20:09:52,Markel F,"Avoid testing in only docs files (#2560)
+
+* Avoid testing in only docs files
+
+* Only avoid if it is md files",False
+59f35a14c5e63dab964dd25d2c10ffcbecbfb918,2020-05-05 18:27:26,Markel F,"Add avif detection (#2539)
+
+* Add avif detection
+
+* Add tests
+
+Both the integration test and the caniuse test
+
+* Add polyfill",False
+45d22f305d0cabc5d4dbdf834397e96a5663f2a8,2020-05-04 10:58:03,Veeck,"Update badges (#2555)
+
+* Add codecov badge
+
+* Add appveyor badge
+
+* Update dependencies",False
+798132271835a57696fde49118e268a9d19eefae,2020-05-03 12:43:50,Markel F,"Require minimal values for metadata (#2551)
+
+* Throw warning if metadata is not present
+
+* Some extra comments added
+
+* Change to error and tests fixed
+
+* Change some test names",False
+a06577cefaab48236550e8c3fb6141c75a03554a,2020-05-03 12:41:28,Markel F,"Solve Travis build config validation (#2550)
+
+* Solve build config validation
+
+* Remove useless stuff, add node 14 to the matrix
+
+* Run node 14 on appveyor too
+
+Co-authored-by: rejas <github@veeck.de>",False
+69b50789698b691105cefb84a8d57fd31d0ba140,2020-05-03 12:23:55,Markel F,"Metadata updates (#2552)
+
+* Warning that were bugs
+
+* knownBugs to warnings",False
+56f4fb42193a88a9d044f77fce447b49fc353a03,2020-05-03 12:03:37,Markel F,"Add codecov support (#2554)
+
+* Add codecov
+
+* Add codecov package
+
+* Add nyc
+
+* Changed the codecov command",False
+780b668b8817c440806785eb3688c44b4fe10f17,2020-04-28 21:12:36,Markel F,Add edits to caniuse.js (#2549),False
+870cf370ab370223199462897abfbf0ec5469878,2020-04-27 23:33:38,Veeck,"Remove tests that were deprecated or duplicates (#2543)
+
+* Remove tests that were deprecated or duplicates
+
+* Review fix, use old name again",False
+a286fc51ec4f9dcb4281df0f036a00f08eed370f,2020-04-27 22:15:31,Veeck,"Upgrade mkdirp dependency, remove node8 support (#2545)
+
+* Upgrade mkdirp dependency, remove node8 support
+
+* Chuck old and useless entry",False
+f90b46a2bf17ae2ed1c8ea706d09a47e8c15d1c6,2020-04-27 10:58:31,Veeck,v3.11.0,False
+2004d77f4c6244505c0ebe6c615362c3f25d493c,2020-04-27 02:11:29,Veeck,"Cleanup property tags (#2542)
+
+* Add TODO
+
+* Update changelog
+
+* Fix property tags",False
+1e8f100f204081e46c5725dc7fcd4a01ef80cd60,2020-04-27 01:59:14,Veeck,"Update computedStyle usage (#2528)
+
+* Fix getComputedStyle eslint rule
+
+* Add TODO for ruby
+
+* Use computed style in ruby test
+
+* Use 3rd parameter in computedStyle
+
+* Fix computedStyle usage
+
+* Remove useless checks
+
+* Update dependencies",False
+1baf805e9eb54710f6ad122a4f6557f6e369c530,2020-04-26 12:15:27,Veeck,Change property name for es6 class test,False
+ae047bfc9d715a137130d0112370e3b8d8ed0051,2020-04-21 20:31:21,Robert Schultz,Fixes an issue with AVG Secure browser throwing exceptions when using toDataURL when Anti-Fingerprinting is turned on (#2538),False
+3b0eb2be8cc847c0f331a5327bf8cd2f19632ffa,2020-04-17 21:13:44,Markel F,"Add caniuse mappings (#2535)
+
+* Add caniuse mappings
+
+Co-Authored-By: PavMel <pavmel@users.noreply.github.com>
+
+* Updated some caniuse strings
+
+Co-authored-by: PavMel <pavmel@users.noreply.github.com>",False
+8660ca4e00398a8a49ff971f36fa4a7ec32616d9,2020-04-12 19:11:04,Markel F,"Add av1 and h265 codec detection (#2534)
+
+* Added av1 and h265 codecs
+
+* Add missing subproperties to documentation",False
+5a784e7978727cc1d37c752544cd3347485fd091,2020-04-10 15:56:55,David BRETIN,"ES6: class (#2532)
+
+* Create es6/class.js
+
+* Modify 'config-all.json' for adding ""es6/class""",False
+8b601245edc58090851347ac70b3ad126a5eaae4,2020-04-10 15:56:31,David BRETIN,"ES8: object (#2533)
+
+* Create es8/object.js
+
+* Modify 'config-all.json' for adding ""es8/object""",False
+305868c20ffad3da84f46dbd30fa20e139dd9b35,2020-04-08 14:44:41,David BRETIN,"Add feature-detect for TextEncoder and TextDecoder (#2531)
+
+* textencoding.js
+
+* Modify 'config-all.json' for adding ""textencoding""",False
+262d4a99718964c4280fe20b61e69de5104175dd,2020-04-07 16:43:10,Veeck,v3.10.0,False
+0e698cfbfe1a71e8dd97ddc25343f5a3198660c9,2020-04-06 19:13:33,David BRETIN,Correct reference to testProp (#2530),False
+2318c1307dc25da9188a238972e4c88f958d6b83,2020-04-03 12:10:09,Veeck,"Use eslint:recommended, cleanup warnings (#2527)
+
+* Use eslint:recommended, cleanup warnings
+
+* Update mkdirp",False
+0f57b8053c91c186d86a3ac8cdfe880c3810e6c5,2020-03-23 16:38:56,Veeck,"Update jsdocs (#2526)
+
+* Show warnings too when linting
+
+* Fix some jsdoc warnings
+
+* Cleanup globals
+
+* Use recommended jsdoc settings
+
+* Fix wrong ""false"" return parameters",False
+9fb1097f64fdd4b6f524acb02b9ad3575e6c13c3,2020-03-23 16:03:46,Tomer Hadad,"fix issue #2520 - set scriptGlobalName causing an exception (#2521)
+
+* fix issue #2520 - set scriptGlobalName causing an exception
+
+* fix tests
+
+Co-authored-by: tomer <tomer@securedtouch.com>",False
+49dc9d38e88cbd8fd3584d9ce0dbdb1d004c8c2b,2020-03-20 01:50:01,David BRETIN,"ES6 rest parameters test (#2516)
+
+* ES6 rest parameters test
+
+* Modify 'config-all.json' for adding ""es6/rest-parameters""
+
+* Indentation format
+
+* Add caniuse tag
+
+* Add spec link",False
+46efd67df34656ad1609f2ebcff886774b2920c0,2020-03-19 23:57:23,David BRETIN,"ES7 - rest destructuring (#2517)
+
+* ES7 - rest destructuring
+
+* Modify 'config-all.json' for adding ""es7/rest-destructuring""
+
+* Indentation correction
+
+* Create 2 checks for array and object
+
+* Correct caniuse tag (cannot be a string array)",False
+610d2ceb2e2544dd970b8eb77d0af0281f164bf2,2020-03-19 23:38:11,David BRETIN,"ES6 - Spread syntax check (#2522)
+
+* ES6 Spread check
+
+* Modify 'config-all.json' for adding ""es6/spread""
+
+* Change ""spread"" -> ""spread-array"" (prepare ES7 spread object check)
+
+* Change ""es6/spread"" to ""es6/spread-array""
+
+* Correct caniuse tag
+
+* Move warning in correct section",False
+aabfaa64a4399b1d4e99ecb9447ff386f14585da,2020-03-19 22:07:43,David BRETIN,"ES7 - spread object (#2523)
+
+* Check for ES7 spread object
+
+* Modify 'config-all.json' for adding ""es7/spread-object""",False
+fb4b958be18cd695b0bdcf0896d3cc4e6e81fe7b,2020-03-19 11:08:36,Veeck,"Issue 2209 - Fix nth selector test in zoomed chrome browser (#2414)
+
+* Use getBoundingClientRect for calculating width
+
+* Simplify test to fix it for good in zoomed browser windows",False
+d9acf39e1e7b38f52720f1f69dd48e79863e3034,2020-03-19 10:57:12,rejas,Update dependencies,False
+0c2381083199c873857e89b27cf880eb961abd01,2020-03-17 14:36:28,David BRETIN,"ES6 - String template (#2518)
+
+* ES6 String template
+
+* Rename string-template to string-template.js
+
+* Modify 'config-all.json' for adding ""es6/string-template""
+
+* Add caniuse tag
+
+* Convert double equals to triple equals",False
+5e5f94bed06643d66905c7dd04df66e7adfa5865,2020-03-13 17:04:31,David BRETIN,"ES7 array test (includes method) (#2515)
+
+* ES7 array test (includes method)
+
+* Strings must use singlequote
+
+* Indentation format
+
+* Modify 'config-all.json' for adding ""es7/array""",False
+0cb85f21327b4fbc2cccf4cc720bfcf612103eff,2020-02-17 20:20:34,Veeck,Update metadata,False
+b40f3afa852cecbba12076a99ec7c145c96c34ff,2020-02-17 17:18:10,Veeck,v3.9.1,False
+15d8e2999447ba1ecdae0e077e4dd12ae9fc9812,2020-02-17 17:09:55,Veeck,Fix #2499 Undo mkdirp dependency update,False
+219b377beecf3473f479a3151eff9de086c41f3e,2020-02-04 21:42:12,Veeck,v3.9.0,False
+113424266a16a156c1720999880eb177df044c0f,2020-02-04 19:10:15,Veeck,"Fix possible unintended scrolling in onInput test
+
+Just like we fixed it in hyphen and localizednumber tests",False
+f66afd6f885e17e0990245531d3d70f07912e37e,2020-02-04 18:38:36,Guilherme Maron,"Issue #2492 inputnumber-l10n test causing unintended scrolls #2492 (#2496)
+
+* Issue #2492 inputnumber-l10n test causing unintended scrolls #2492
+
+Setting the test input position to fixed keeps it in the current viewbox of the browser, avoiding the scrolling during .focus()
+
+* Added top: 0 style to dummy input as in hyphens.js test.",False
+25f2f3d0030a828f03b533f47a61da514e2e5139,2020-01-30 21:26:27,Veeck,"Remove node8 from testing matrix (#2494)
+
+* Remove node8 from testing
+
+* Update dependencies",False
+93d844bfcaf1e6d3d51f76e9c5a6cb2ae30047ec,2020-01-23 21:04:51,Veeck,Update sinon to latest version (#2491),False
+f4d3aa0b3c9eeb7338e8d89ed77929a8e969c502,2019-12-30 17:30:38,buhi,"feature detects for ES6 Symbol; (#2487)
+
+* feature detects for ES6 Symbol;
+
+* Add caniuse tag
+
+Co-authored-by: Veeck <github@veeck.de>",False
+146c8133b529b112aeddfcb8d0e688babba9833b,2019-12-19 15:11:28,Veeck,"Fix missing chai lib on integration test page
+
+Also update dependencies and tweek layout a little",False
+04ca29b3bffa10e2eff0c4951580c610cb5fc104,2019-12-18 20:58:26,Chris Smith,"Add detection for `gap` CSS property for flexbox (#2485)
+
+* Add detection for `gap` CSS property for flexbox
+
+* Fix linting errors
+
+* Fixed usage of createElement and docElement. Added test to config-all.json.
+
+* Fix indentation. Add my name to authors list :)
+
+* Authors should be an array.",False
+0440d397d73d84e029b5f11312ba5f22ed11bc3a,2019-12-18 20:33:24,Veeck,Fix travis not signaling an error when node tests fail,False
+06c035c9e0eee214b7ba91e65a8f3a427edb895a,2019-12-06 15:56:21,Veeck,"Fix command line fails for nested properties (#2480)
+
+* Fix command line fails for nested properties
+
+* Update dependencies",False
+3675d7f6837e01a4237c91f325facf3037c030c5,2019-11-28 16:23:23,Veeck,Cleanup feature-detects meta tags whitespace,False
+39bb2bff4d799185a94e2193c774c107a67b9c94,2019-10-28 02:25:45,Veeck,"Replace expect.js with chai (#2449)
+
+* Replace expect.js with chai.js
+
+* Update lock file
+
+* Update dependencies
+
+* Re-add correct test
+
+* Re-add incorrect tests so we see if travis works :-)
+
+* Test against the classNames, not the documentElement
+
+* Fix remaining errors, update dependencies",False
+775670ebd5160d3363f85a3dea3937c2870d0eb6,2019-10-24 20:54:56,Veeck,v3.8.0,False
+1c15567bb7c7b7f057df475ab27bbda81136efee,2019-10-24 20:50:54,Ilfat Mindubaev,"Fix vh unit issue on ios safari / android chrome #1805 (#2452)
+
+* Fix issue #1805
+
+* Remove unused function
+
+* Use 'max-height' to test the feature
+
+* Fix formatting
+
+* Minor fix",False
+bbb28ae85152390061a98d3661f0a1a15bdf389b,2019-10-23 18:10:20,theLine,"[BUGFIX] Prevent viewport jumping when using CSS Hyphens (#1781) (#2369)
+
+Positioned the created elements fixed to the top, to prevent any
+jumping when (re-)loading the page.
+When those elements weren't positioned fixed, they will be rendered at
+the top of the document. In the test it's required to reset the
+selection by focusing to a dummy input element thus triggering the
+jump of the browser's viewport.
+
+Successfully tested in the following browsers
+* Chrome 68.0.3440.106 on MacOS 10.13.5
+* Firefox 45.0.1 on MacOS 10.13.5
+* Firefox 57.0.4 on MacOS 10.13.5
+* Firefox 61.0.2 on MacOS 10.13.5
+* Safari 11.1.1 (13605.2.8) on MacOS 10.13.5
+
+* Chrome 68.0.3440.106 on Windows 10 Pro Build 1803
+* Firefox 61.0.2 on Windows 10 Pro Build 1803
+* Internet Explorer 11.228.17134.0 on Windows 10 Pro Build 1803
+* Edge 42.17134.1.0 on Windows 10 Pro Build 1803
+
+* Firefox 61.0.2 on Windows 7 Build 7600
+* Internet Explorer 8.0.7600.16385 on Windows 7 Build 7600
+
+* Firefox 61.0.1 on Linux Mint 19 Tara
+
+Resolves #1781",False
+4aeac3d0458519a1878fda3b9fa86f2dd9972614,2019-10-23 17:41:21,Veeck,"Deprecate some tests (#2472)
+
+* Mark touchevents and unicode tests as deprecated
+
+* Add documentation
+
+* Deprecated with v4.0
+
+* Fix typo
+
+Co-Authored-By: Paul Irish <paul.irish@gmail.com>
+
+* Update docs
+
+* Update dependencies",False
+154b85c73659e48f2ce14e2f3dd03191320e424e,2019-10-23 17:16:42,Veeck,"Add new CodeOfConduct (#2427)
+
+* Add preliminary COC
+
+* Use email conduct@modernizr.com for reporting
+
+* Update link to COC
+
+* Update README",False
+d11cd99ac096b5ce1978bbd0f4c3889b85088251,2019-10-06 01:08:31,Pascal Lim,"Add support for ShadowRoot DOM api feature detect through `shadowroot` and `shadowroot-legacy` (#2475)
+
+Co-authored-by: Kevin Coyle <kevin.coyle@theuniprogroup.com>",False
+c2a946534e992566df0bdbae3dba910f0ff2038a,2019-10-05 14:12:54,Veeck,"Update dependencies and appveyor (#2474)
+
+* Test appveyor with node12 too
+
+* Update dependencies",False
+e0413ee95ef2ac0e37d2840af7893c5ed5bdcf79,2019-09-14 17:28:45,Veeck,"Use addTest for some tests like inputtypes (#2469)
+
+* Refactor audio- and video- to be more like csscolumns-tests. That way they also provide a css class.
+
+* Refactor inputtype tests to be more like csscolumns-tests. That way they also provide a css class.
+
+* Refactor postmessage tests to be more like csscolumns-tests. That way it also provides a css class.
+
+* Refactor datauri tests to be more like csscolumns-tests. That way it also provides a css class.
+
+* Update dependencies",False
+be97c78dca1f877f8e917414b7c8fc3365074b2b,2019-09-14 14:01:41,Antonina Inzhevatkina,"Check if userAgent is empty (#2471)
+
+Some browsers allow to have empty userAgent. Therefore, we need to check ua before using ""indexOf"" on it.",False
+032899ea1f0d2ce06f2b886739959e4a3ee0f37f,2019-09-08 19:16:28,Veeck,Catch exception when running in headless chrome (#2436),False
+9b09410056845488c0e2a141d755742a38b71790,2019-08-31 13:21:17,dependabot[bot],"Bump eslint-utils from 1.3.1 to 1.4.2 (#2467)
+
+Bumps [eslint-utils](https://github.com/mysticatea/eslint-utils) from 1.3.1 to 1.4.2.
+- [Release notes](https://github.com/mysticatea/eslint-utils/releases)
+- [Commits](https://github.com/mysticatea/eslint-utils/compare/v1.3.1...v1.4.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+a335662549432100b5bd70833ccd45375532b77f,2019-08-27 02:26:48,rejas,"Fix typo in README, Update dependencies and gitignore",False
+377a6303b3b6d400979eeae351e1dcf43972eef4,2019-07-20 02:15:53,rejas,Update main entry in package.json,False
+332a68b8270c29479225d32bb1e9520f47ccdcfe,2019-07-17 12:22:00,rejas,Add npm shortcuts to some gulp tasks,False
+569b6824bebed3eb6cec50eb42434a05f147d3c9,2019-07-13 01:03:10,rejas,Update dependencies,False
+6daed0f623890706d3814c46226573d2cc2b39e8,2019-06-30 21:05:26,rejas,Add script for serving the gh-pages (and therefore the browser tests) locally,False
+8c3cb1c5dd2f1da3583f0c14448989c66b356bd7,2019-06-25 03:41:16,Veeck,"Issue 2343: Fix github.io page (#2443)
+
+* Add script to prepare and deploy gh-pages
+
+* Cleanup other script names
+
+* Only copy neccessary files
+
+* More copying and cleanups
+
+* Switch to gulp
+
+* Update dependencies
+
+* Make that gulp flow actually work
+
+* Update README",False
+d9305feab7c847dcd31a611c46d9e0abab0898d6,2019-06-25 03:38:49,Brock Beaudry,"Add proxy detection (#2459)
+
+* Add proxy detection
+
+* Add Proxy polyfill
+
+* Remove 'dom' tag and add author",False
+74e1feb4b8dbdd3a570e90c19f40d526292dde85,2019-06-19 02:16:49,Peter Coles,"emoji devicePixelRatio vs backingStorePixelRatio fixes #2419 (#2420)
+
+Thx for your work.",False
+8c5b557c8b903ab73a5a66645e7775670b14a0e0,2019-06-16 12:54:48,rejas,"Cleanup TODO tags, update dependencies",False
+7231dd32a3e30b4c2ec337bebcd822e3397ae9b6,2019-05-28 12:39:03,Georgy Perepecho,"Added feature detect native lazy loading img (#2453)
+
+* added feature detect native lazy load img
+
+* change description for native lazy loading detection
+
+* rename loading to lazyloading",False
+1818d61a02e02feca59119ddddb730e11e160e9f,2019-05-20 02:03:27,rejas,Exit with non-zero status if there were failures,False
+c47441be1f346f6f60a3d4edf11a8849307ec2b7,2019-05-16 15:25:53,rejas,"Cleanups after switch to gulp, move some legacy files into own directory for reference, store some test files in tmp directory",False
+90ed886911ecf19ae635a261beef5fbc9a7213ee,2019-05-15 19:08:38,Veeck,"Issue 2406: Update jquery  (#2448)
+
+* Update jquery and other dependencies
+
+* Use non-minified jquery version everywhere for now",False
+f5604363a541de8a3515977bcde3a00cb4f91f7a,2019-05-15 18:34:11,Veeck,"Use gulp for the dev pipeline (#2429)
+
+Fixes #2332 #2355 
+Creates #2446 #2447",False
+7599d26b7fd49cacad297cd3cf824b9133d76d69,2019-05-07 03:19:11,rejas,Fix double DOC entry,False
+f1b9794207ab30b3502750809d063da96a171df0,2019-05-06 02:30:48,Veeck,"Add domPrefixesAll helper method (#2442)
+
+* Add domPrefixesAll helper method
+
+* Add test",False
+4ee23c7f6d3a8ff3dcbc48fa87e4b3d2d3e27833,2019-05-05 21:04:51,Veeck,Add coveralls badge,False
+1b9549035dbed6ebbd07443513aa03abfeb9c2dd,2019-05-03 16:18:19,Veeck,Add npm badge to README,False
+8cfeb97459c13a250029c8b4d71dfe34b3dc163a,2019-04-20 02:34:17,Dominik Trenz,fix datachannel #2307 (#2437),False
+8982d5bc9cada7e04c68292002c45da072e134ae,2019-04-19 02:45:53,Veeck,Update dependencies,False
+6a2f4256d86876edf23f9123c9db8fbc55d00517,2019-04-18 21:24:02,Veeck,"Check for multi-spaces with eslint, fix those and cleanup some DOCs and notes",False
+5afbd1205843ea0c3bb920f073a47efc783533b4,2019-03-18 01:03:48,Philip Jägenstedt,"Tweak testProps.js documentation to avoid misreading (#2426)
+
+The lack of punctuation/capitalization made ""create our own elements to
+use inside of an SVG element"" a plausible reading at a first pass, but
+that's not the intended meaning.",False
+c52f781fba5c1fd65e298ea50d3ba8be7cac5394,2019-03-14 22:12:46,Veeck,v3.7.1,False
+b7454c3aa701c6b244c773ea04b492e08341eae6,2019-03-14 21:59:49,Veeck,Switch to markdown-it from remarkable (#2424),False
+6f34ec8266a5368792eaa65b7e63a82ec955ab7e,2019-03-05 17:56:58,Veeck,"Move find-parent-dir into devDependencies, since its only used in tests.",False
+b66558ed7a90ed14cbe336e5408f96a9a947f574,2019-03-02 13:19:45,Veeck,"Add minify: false to default config, it is the current behaviour anyway",False
+342bcd5a883c801726605086b1d13f76fe4eac6b,2019-02-28 15:35:17,Veeck,Add missing tests to default config file,False
+ab5febb484f2c8ebfed114459731ba65be20dfa2,2019-02-28 14:50:58,Veeck,"Fix touch event detection for Chrome >= 70, see https://www.chromestatus.com/feature/4764225348042752 (#2409)",False
+7da8cdbf35f7657582a127501c21a4fcadaa2a65,2019-02-27 03:19:22,rejas,v3.7.0,False
+8f37d1f3db25e23b2eef67c31f02ace5abba4350,2019-02-27 03:04:36,Veeck,fix #1663 - Configuration Options not working (#2413),False
+0b9eaa5670b40b0d2bc0bb57ee47884dc2666dfb,2019-02-27 03:00:15,Veeck,"Add auto-changelog for generating a CHANGELOG.md (#2421)
+
+* Add auto-changelog for generating a CHANGELOG.md
+
+* Update dependencies, cleanup bin file
+
+* Update dependencies",False
+c21ecfe5770ddab5dc3590d3ab2ce67ad4d65736,2019-01-12 16:43:35,Veeck,"Fix IE caniuse conflict for svgasimg  (#2397)
+
+* Fix test for siblinggeneral
+
+* Update dependencies
+
+* Update dependencies
+
+* Update dependencies
+
+* Fix #2386, test doesnt like https urls
+
+* Update dependencies
+
+* Revert ""Fix test for siblinggeneral""
+
+This reverts commit 2971f0429a9d78beb19992f0c43de51e81951207.",False
+3ed2d7ff6984ccd8bf5b06d71a22a42de49d8dd5,2019-01-04 15:14:47,Christopher,"Update inputsearchevent.js (#2405)
+
+Is used with Modernizr.inputsearchevent and not Modernizr.search",False
+e8bb3494af6bf25217bf9834590bd6fecd001780,2018-11-12 16:20:42,Eric Delia,"Adding PublicKeyCredential feature detect for webauthn (#2393)
+
+* Adding PublicKeyCredential feature detect for webauthn
+
+* Undoing package-lock.json, adding author tag",False
+1ef3bc8babcc67e9cb5543f72926d71090704350,2018-10-29 02:45:54,Chris Smith,"Add caniuse ""meta"" property to es5/specification (#2390)",False
+e05f001cc78be58b3b126aed9878f74222127479,2018-10-20 22:31:32,Nabeelah Ali,Check for property and value support for CSS custom properites (#2387),False
+8960932cfffe9c8dc1beb32c9322c4c70dfe18ce,2018-10-20 17:51:17,Veeck,"Cleanup caniuse tags and other properties (#2388)
+
+* Add missing mappings to caniuse
+
+* Cleanup properties and caniuse tags",False
+4d10f046a8aab199fe6a73a85779a2b92717afc3,2018-10-20 16:08:30,Michael Veeck,Cleanup some extra whitespace,False
+bd34db8bd7469ff64074024416b3e90b849b9943,2018-10-20 15:52:21,Ivan Nikolić,"Autogenerate info for license file (#2353)
+
+Closes #2289.",False
+c1a3e04b33d9021e9c7d415f0ea749c0d8092ce4,2018-10-20 15:51:48,Veeck,Fix exception in indexedDB check on Safari (#2336),False
+a747f33b2bc5db186f18bca4d1d63bf503d3159d,2018-10-20 15:48:47,Nick,"Issue 2338 - Cleanup JSdoc (#2368)
+
+* Convert jsdoc HTTP to HTTPS (#2338)
+
+Convert http -> https in JSDocs.
+
+* Finish checking http hyperlinks in jsDocs
+
+- Links in jsDocs that are working but do not have HTTPS are left as is.
+- Dead links are replaced with archived links if obtainable, otherwise new links with similar information.
+
+* Fixes to some HTTPS Links
+
+- Fixing comments
+- Pointing to archived links
+- Replacing with new links
+
+* Fixing HTTPS:// links in jsDocs
+
+- Unify WFC comment name
+- Change some links to new redirected links
+- Change some links to acrhived links
+
+* Changing old links to new redirected links
+
+* Updates for pull request
+
+- Fix missing square bracket
+- Update generic names (i.e. WHATWG, MDN, Html5 Rocks)
+- Update archive links to most recent working links
+- Point link to direct issue for oninput.js",False
+e14a7ae9a82ab74b501dc53daa49b2dfb35c506e,2018-10-20 15:46:24,Eric Delia,Adding feature detection for navigator.connection.effectiveType (#2381),False
+3a6adb5f2f3ede467cb19b92bee696caf05e13b5,2018-10-20 15:39:15,Veeck,"Replace defunct caniuse jsonp.php?callback (#2352)
+
+* Get caniuse data from github since json.php api seems to be gone
+
+* Switch to newer and maintained ua-parser lib
+
+* Use non-minified lib versions, helps with debugging
+
+* Update dependencies
+
+* Fix eslint error
+
+* Update dependencies
+
+* Update dependencies
+
+* Fix version mismatch for broser versions like ff 3.6 who get sorted at the end (thx to string sort and not float sort)
+
+* Update dependencies
+
+* Update dependencies
+
+* Fix ordering of prefixes to reverse-match omPrefixes
+
+* Put khtml prefix last
+
+* Use sinon from npm
+
+* Revert ""Use sinon from npm""
+
+This reverts commit ddc75098cf9417146189c2a61f50ff7c509d7b11.
+
+* Fix package order
+
+* Use pkg version of sinon lib (#2382)
+
+* Update sinon
+
+* Update dependencies",False
+501cc0a1d761ce1a789e3f776790a05c6f2fd3d8,2018-08-15 07:03:59,Snouto,"Additional WebView check added to fileinput test (#2367)
+
+* Additional WebView check added to fileinput test
+
+Issue: #2366
+
+Chrome WebViews may return a true result from the ""fileinput"" test, even though the file input HTML5 element is not supported in WebViews (as described [here](https://developer.chrome.com/multidevice/webview/overview#does_the_new_webview_have_feature_parity_with_chrome_for_android_)).
+
+Added an extra UA condition that looks for specific values indicating the browser is operating from a WebView. Note: this pull request only covers Android Lollipop+ as described [here](https://developer.chrome.com/multidevice/user-agent#webview_user_agent).
+
+RegEx string taken from [here](https://github.com/faisalman/ua-parser-js/blob/a56c990ec32f105219570d398f3398f9373b5a75/src/ua-parser.js).
+
+* Additional WebView check added to fileinput test
+
+Issue: #2366
+
+Chrome WebViews may return a true result from the ""fileinput"" test, even though the file input HTML5 element is not supported in WebViews (as described [here](https://developer.chrome.com/multidevice/webview/overview#does_the_new_webview_have_feature_parity_with_chrome_for_android_)).
+
+Added an extra UA condition that looks for specific values indicating the browser is operating from a WebView. Note: this pull request only covers Android Lollipop+ as described [here](https://developer.chrome.com/multidevice/user-agent#webview_user_agent).
+
+RegEx string taken from [here](https://github.com/faisalman/ua-parser-js/blob/a56c990ec32f105219570d398f3398f9373b5a75/src/ua-parser.js).",False
+3072bb9dc720345bd6d972aba60314e6fe34427a,2018-08-13 21:49:17,Veeck,"Fix Modernizr.localizednumber moves head below body (#2365)
+
+* Cleanups
+
+* Dont screw up head and body order by using ""standard"" method of adding element to body for testing (like in hyphen.js)
+
+* Cleanup usage of docElement",False
+d43ead3fac51244fe0b4fd9fff4ed9f05dc1adb3,2018-08-13 21:48:24,Mike Reinstein,"option to specify global var name to attach modernizr to #2362 (#2363)
+
+* add option to specificy global variable name to attach modernizr to #2362
+
+* add tests for scriptGlobalName #2362
+
+* add command line option for script global name #2362",False
+189838a4fa42d70556362ee47ac7467cfbd25028,2018-08-07 15:16:28,Олег Дутченко,"Intersection Observer API (#2360)
+
+* Intersection Observer API
+
+* Intersection Observer API. review changes
+
+* revert package-lock.json
+
+* Review changes
+
+Clear feature detect
+
+* fix typo",False
+a5f00a63bf6882a4f3a256e7f7cc88c5bdef057d,2018-08-07 00:25:20,Ivan Nikolić,Move custom ESLint rule to `no-restricted-syntax` (#2359),False
+92a7f750d6f9430ef1fff955ddab946ca65afd24,2018-08-02 02:27:52,Ivan Nikolić,Use package.json `files` instead of .npmignore (#2357),False
+04181cef052c8dd530513d766c0485008f25cd4a,2018-07-30 20:42:58,Veeck,"More test around text decoration styling (#2327)
+
+* Feature detect for text-decoration styling
+
+* Take PR from @stefanpl and merge it with test for text-decoration-skip-ink",False
+e2c27dcd32d6185846ce3c6c83d7634cfa402d19,2018-07-28 22:45:36,Veeck,"Update jsdoc (#2346)
+
+* Clean up some doc tags
+
+* Replace memberOf with memberof, undo any other changes in html5shiv/printshiv to get back to pristine state
+
+* Small cleanups
+
+* Add custom tags to jsdoc config
+
+* Cleanup jsdoc tags
+
+* Cleanup jsdoc tags
+
+* Add inch config file to exclude html5shivs
+
+* Update inch yml
+
+* Use inch.json instead
+
+* Dont inch the lib folder
+
+* Cleanup jsdoc tags
+
+* More jsdoc cleanups
+
+* Move inch config into one file
+
+* Add comma-dangle rule to eslint
+
+* Cleanup grunt file tasks a little
+
+* Remove some leftover async:false
+
+* Review fixes
+
+* Fix seplling error
+
+* More DOC cleanups
+
+* Fix compile error
+
+* Whitelines/spaces cleanup
+
+* Add eslint rule against multiple whitelines, fix those occurences
+
+* Remove unused (and disabled) eslint entries, sort alphabetically
+
+* Ignored file is not with"".min""
+
+* Add task for generating and reporting the coverage from istanbul
+
+* Update eslint dependency
+
+* Small JSdoc cleanups
+
+* Remove unused eslint hint
+
+* Add optional tag back to parameter
+
+* Rname memberof -> memberOf, makes html5shivs original again",False
+c2906e9eaec0fa7762eb99b99199b1528daa499a,2018-07-20 18:26:09,anenviousguest,"Fixed csshypens detection on FireFox and Safari. (#2345)
+
+* Fixed csshypens detection on FireFox and Safari.
+
+* Reverted as requested by PR reviewer.",False
+c2e5e48dbf12f975e89127143dc222ef43d0f9d4,2018-07-17 01:43:19,Gregers Gram Rygg,Added test for postMessage structured clones. fixes Modernizr/Modernizr#388 (#1250),False
+379e6b511dfe1dce574ae06f1b96af9da1424363,2018-07-15 15:01:44,Jordy van Dortmont,"Add audio autoplay feature detect (#2185)
+
+* Add audio autoplay feature detect
+
+* Minimalize audio data to test against autoplay",False
+9704998cdc44da5d9d5aefd12a0835aa6872e3d8,2018-07-10 16:29:46,Veeck,Replace text-justification -> text-justify (#2339),False
+56f2e44636e72aa309ea75d6d338f44b50490559,2018-07-10 16:25:22,Veeck,"Update eslint (#2348)
+
+* Update eslint
+
+* Check for missing semicolons with eslint and fix those",False
+e15e3e15e6112f72fb82876506b9f0c0c78c0211,2018-07-07 00:56:28,Veeck,"Update require js, Uglify2 is now the default minifier (and therefore simply called uglify) (see http://jrburke.com/2016/03/17/requirejs-2.2-alameda-1.0-released/) (#2344)",False
+232e23b52757c243ad36967ecba7b51b79ae85ec,2018-07-05 15:39:33,Veeck,Rename readme.md to README.md,False
+4e56bfd8353f3aee25a1354e593ceec96cf1016b,2018-07-04 02:55:02,Harald Reingruber,"add Media Source Extension API feature dectection (#2233)
+
+* add Media Source Extension API feature dectection
+
+* Update media-source-extension-api.js
+
+Implements feedback from Modernizr/Modernizr#2233",False
+0f9b9eba7aafed134199daae54dc5c07134b4fe4,2018-07-03 10:14:36,Veeck,"Cleanups (#2340)
+
+* cleanups",False
+f2b68dd8c13078b85730f5f5ef97f2634420b9e4,2018-07-03 10:13:35,Veeck,"Correctly define prefixes, fixes #2119 (#2341)",False
+9bae119d57827aa1c3e6ac0a7168eae5115047a6,2018-07-02 20:16:48,Veeck,"Update dependencies, Remove unused greenkeeper entry",False
+c5ffa86ccfa56a4a898b9004ea7a3aa337a09551,2018-06-29 20:58:01,Steffen Weber,"IndexedDB: Fix InvalidStateError and UnknownError in Firefox (#2337)
+
+In Firefox, the method ""IDBFactory.open()"" can raise an asynchronous
+error that can only be supressed by calling ""event.preventDefault()"".
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=1331103#c3
+
+https://stackoverflow.com/q/13972385",False
+d3564b1b6c6b0a84df4ac3d2cadd4051871cb92d,2018-06-29 17:57:42,Veeck,Fixed some define tags (#2334),False
+9ee04d24260fc4c4b4bb1b863e02fa708a8234dc,2018-06-29 17:30:26,Veeck,"Js doc cleanup (#2333)
+
+* Cleanup note tags
+
+* Lots of http -> https conversions
+
+* Misc cleanups
+
+* Review changes",False
+acb3f0d990d3424ee7fade52796f9f97920354fc,2018-06-16 12:47:55,Veeck,"Feature detect for box-decoration-break (#2330)
+
+* Feature detect for box-decoration-break",False
+896a21f09548ae1448bfdaa67500ea478ba31e78,2018-06-14 23:58:44,André,Feature detection for formNoValidate attribute on inputs. (#2164),False
+bc829ef5eefa4e97b3c776155203d93b59ef4903,2018-06-12 14:14:17,André,"Fix for input-formtarget detection. ""T"" in target must be uppercase, like formEnctype and formAction already are. (#2163)",False
+1ff76bde196a3de6ae9febc916c3285d704bd862,2018-06-11 22:50:19,Veeck,"Dependency updates (#2317)
+
+* Update dependencies",False
+400db4043c22af98d46e1d2b9cbc5cb062791192,2018-06-09 23:06:20,Veeck,"Replace == with === (#2329)
+
+* Replace == with ===
+
+* Replace != with !===
+
+* Undo changes in library",False
+786be6abbd869057ea347e3b4ada6c7ec83d2ea5,2018-06-07 06:37:38,Veeck,Add test for text-decoration-skip-ink (#2324),False
+630b7e6c4206931a91bdca0f58a65af4d1885f46,2018-06-07 06:37:06,Veeck,Fix #2325 (#2326),False
+3be70e30d5c6bb26c7f404ac7c307aea51ed32ad,2018-06-06 14:16:03,Veeck,"Detect font display (#2323)
+
+* Add Font Display detection
+
+* Try out simpler test
+
+* Fix camelcase
+
+* Final fix and author recognition",False
+c666b0cdc303ebc43891f992bfcab9bff7fa9f34,2018-05-31 21:39:19,Veeck,Fix link to article (#2252),False
+3ca052e6ba687eae02af2bf9e9ff07fa37ca0480,2018-05-31 18:37:12,Veeck,Fix webanimations property (#2276) (#2320),False
+59c57ec5b2bdc01d51c257390308022d2b3d3c7f,2018-05-31 17:51:27,Anne van Kesteren,"Remove some no-op code in webgl.js (#2318)
+
+Fixes #2300.",False
+f933bf7ebef45e2e5ef9a3391b6b2b68a31aa7f8,2018-05-31 17:02:38,Veeck,Add task to serve test-directory for test results,False
+b8ac7bf0e77e119da7b6269b9dcdfce83bf85155,2018-05-28 22:00:15,Michael Hadam,Passive event listener detection causes error for EdgeHTML 15 (close #2298) (#2299),False
+0ebc6e02775c0f5e5935b729041ebbf4ebfc987c,2018-05-28 15:12:05,Josh Soref,"Spelling (#2267)
+
+* spelling: arguments
+
+* spelling: because
+
+* spelling: component
+
+* spelling: constructor
+
+* spelling: despite
+
+* spelling: expandoid
+
+* spelling: explicitly
+
+* spelling: falsy
+
+* spelling: family
+
+* spelling: indicates
+
+* spelling: injected
+
+* spelling: javascript
+
+* spelling: jquery
+
+* spelling: minimum
+
+* spelling: occasionally
+
+* spelling: official
+
+* spelling: overridden
+
+* spelling: paths
+
+* spelling: positive
+
+* spelling: quirksmode
+
+* spelling: separate
+
+* spelling: simultaneously
+
+* spelling: synchronously
+
+* spelling: undefined
+
+* spelling: xobject
+
+* spelling: chromium
+
+* spelling: define
+
+* spelling: default
+
+* spelling: specifier",False
+87c8b22d208903c5ca5c7af8dc1a7cc910521ffd,2018-05-23 19:28:25,Veeck,Add start script,False
+83f843bba3ddb417d4dd92c7f2b21dacfc468fbf,2018-05-23 19:28:24,Veeck,Update devDependencies,False
+8466c73a718b58058a34cedab9c77f2f93bb44a6,2018-05-23 19:28:24,Veeck,"Add css custom properties feature detection (#2310)
+
+* Add css custom properties feature detection
+
+* Minify string
+
+* Fix battery js test",False
+48c7d251bb5da85d2d89e35590d3d8aeedfc2bd9,2018-05-23 19:28:24,abrad1212,"Add detect for the GetBattery API (#2312)
+
+* Update battery.js to the new standard.",False
+1956f0b40da6ddeb1ba4eac88726f83319953c68,2018-05-23 19:28:24,Veeck,"Update eslint (#2304)
+
+* html5shiv files are excluded in grunt task already
+
+* Fix some indendation errors
+
+* Remove orphaned jshint files
+
+* Use eslint-plugin-jsdoc for jsdoc
+
+* Update eslint, remove incompatible google preset
+
+* Update eslint-plugin-jsdoc, fix some new warnings",False
+745901716f6223f37162774697295470bec2d080,2018-05-23 19:28:24,Veeck,"Cleanup and Update some dependencies (#2294)
+
+* Update dependencies (except jade and eslint), add yarn.lock",False
+33916c94dd2bc618b0134185b0792e607ae80f86,2018-05-23 19:28:24,Emilio Cobos Álvarez,"touchevents: Use mq in touch event detection. (#2309)
+
+* touchevents: Use mq in touch event detection.
+
+testStyles is unnecessarily slow if the browser supports matchMedia.
+
+* hovermq: remove stray parenthesis.",False
+9120b2214dcbbe200192c76f07582e7f5543110f,2018-03-05 07:34:56,Patrick Kettner,tag 3.6.0,False
+a9369b031d05b90231b572e2796afba0334b21e6,2018-03-05 07:29:50,Chris Lienert,Brought across @myakura's code changes to fix #1812 (#2250),False
+baab13f4860207b585bb910abe6a8387f1877855,2018-03-05 07:28:55,Jason Eberle,Use roundedEquals to test vw and vh units (#2264),False
+0239cb14df57cf884fdc717781809a5f96383747,2018-03-05 07:09:43,Bobby Holley,"Remove ancient (and expensive) logic for verifying CSS transform support. (#2291)
+
+This code was added in 2009 via [1] to work around a false-positive in WebKit.
+Per [2] both Safari and Chrome have supported transforms since 2009 and 2011
+respectively, and current global usage of earlier versions of those products
+is negligible. Also note that this code originally attempted to limit itself
+to WebKit, but the prefixed properties it detects have since been standardized
+and implemented in all browsers.
+
+This code is responsible for significant slowdowns (in the tens of tens of
+milliseconds) when loading CNN.
+
+[1] https://github.com/Modernizr/Modernizr/issues/15
+[2] https://caniuse.com/#search=perspective",False
+d4f565133bbdc4371a06570770e43b5b30bb2a2c,2018-02-09 04:31:39,Oliver Joseph Ash,"Add test for CSS `:focus-within` pseudo-selector (#2287)
+
+Fixes https://github.com/Modernizr/Modernizr/issues/2270",False
+e6aafdec12f7cb7dba7a5033a54ac30ada91c927,2018-01-30 22:26:19,Veeck,"Update version number in License file (#2279)
+
+Fixes https://github.com/Modernizr/Modernizr/issues/2165",False
+0cbd75c41bfd1cf5fcdd5795c7926873c49f2870,2018-01-05 09:25:08,Gareste,Ensure elem.parentNode exists before remove its child (#2274),False
+d5f881a4de0d5fc1af85921ce9c7dc3919c6d335,2017-09-07 02:25:06,Tim Kraut,Fix typo (#2243),False
+4b01e640d0cff792947a38f6f5cf617ba4969e6f,2017-07-29 09:38:22,patrick kettner,add detect for variable fonts (#2202),False
+bfd4b3f1b9d4dc25a4169ebec06d2e894c1e7b32,2017-07-28 23:48:03,Philipp Simon Schmidt,"set fitting npm version according to nodejs version (and add nodejs 4, 6, 8) (#2222)",False
+b335b0ff71c70b69f3d3e62b196ea4cb844c8f38,2017-06-13 03:03:41,Patrick H. Lauke,"Remove hand.js polyfill, expand notes/description for Pointer Events (#2218)
+
+* hand.js is outdated (not modified since 2014, and codeplex is now
+obsolete)
+* pointer to MDN documentation and PE Level 2
+* expand description with regards to browser support (Gecko is currently
+experimental)
+
+.",False
+80db109feca4f0e1385c3479f2bc6cb50e51f8a4,2017-06-07 06:10:28,Lufty Wiranda,chore(readme): fix missing COC link (#2211),False
+b822492b7970c6229a1d2a8ad24a27d9f66794f7,2017-05-18 09:16:09,Miles Disch,Update autoplay.js (#2207),False
+78b29cddbc7b5d6fa5c446e1955a201f4289b56d,2017-05-14 12:41:40,strarsis,Update hairline.js (#2198),False
+7db55bbfa9de67289892b94b60bf2f088c11d669,2017-04-14 02:29:47,Faruk Ates,v3.5.0,False
+483bcc3b944dda214e545a2869a16f5cb40cb518,2017-04-14 02:07:40,Faruk Ateş,"Merge pull request #2175 from Modernizr/greenkeeper-yargs-7.0.2
+
+Update yargs to version 7.0.2 🚀",True
+6ee39b9c99adcc512dc370cb9aba1e7702563612,2017-04-14 02:06:12,Faruk Ateş,"Merge pull request #2189 from Modernizr/feature/css-grid
+
+Add CSS Grid test for old & new syntaxes",True
+afbffbfec9a1645fabea1ceef5b3ed22b6915a2e,2017-04-14 02:02:25,Faruk Ateş,"Merge pull request #2188 from Modernizr/greenkeeper-grunt-contrib-clean-1.1.0
+
+Update grunt-contrib-clean to version 1.1.0 🚀",True
+34f4ced747aca2a479154e12fc29dbcbefd818a5,2017-04-14 01:50:10,Faruk Ates,"Updating with Ryan & Patrick's requests
+
+- added new feature detect to lib/config-all.json
+- made the notice a JS comment instead of a formal warning",False
+37935b5d76436b26f4316165edb46af3fa1199f9,2017-04-13 06:19:08,Faruk Ates,"Comma lost its way, but eventually found its home
+
+Probably better not to make builds fail.",False
+6aab916ac2d3dcc8db01868b9ee8a8d19be14c9e,2017-04-13 06:15:31,Faruk Ates,"Add CSS Grid test for old & new syntaxes
+
+While CSS Grid gets rolled out, it’s useful to have a way to target
+IE11 which does not support @supports() but does support old CSS Grid
+syntax, as does the new IE14.",False
+cbf6033922c76b83045ca9826327a7c35b3e4141,2017-04-13 06:12:46,greenkeeperio-bot,"chore(package): update grunt-contrib-clean to version 1.1.0
+
+https://greenkeeper.io/",False
+bc91ca91a19de6c781cc3f2a1ac94738badcf329,2017-03-24 06:15:30,Rob Larsen,"adds PEP to pointer events (#2179)
+
+PEP (Pointer Events Polyfill) should probably be lsited as a polyfill
+for pointer events",False
+32fd455750c53a6233b8a9ebd5742adc5b9af054,2017-03-16 01:03:22,Patrick Kettner,v3.4.0,False
+722ce29b7e489d318b0209e8f3a4eaf7f2a4d192,2017-03-16 01:03:06,Patrick Kettner,remove accidently commited file,False
+aff821e42996f8996ba872e217441266bc1debd1,2017-03-16 00:52:37,Patrick Kettner,"update invalid datachannel detect
+
+the original detect passed in chrome, but was not technically valid. In
+speaking with colleagues on Edge, this change makes a feature detect
+that prevents possible errors from occurring
+
+with '#' will be ignored, and an empty message aborts the commit. # On
+branch master # Your branch is up-to-date with 'upstream/master'. # #
+Changes to be committed: #	modified:
+feature-detects/webrtc/datachannel.js #",False
+3476845ddf6fdc3de6435cf68d9f1e9e2209ad34,2017-03-10 07:45:43,greenkeeperio-bot,"chore(package): update yargs to version 7.0.2
+
+https://greenkeeper.io/",False
+99b6566e8e0138a576beacea3719f9c11ae23f6c,2017-03-09 06:45:08,Ryan Seddon,"Merge pull request #2155 from lukasoppermann/custom-elements
+
+add custom elements detection",True
+58587aef6dc3153c002a090be6ba187a66127af5,2017-02-22 12:24:50,Lukas Oppermann,add custom elements detection,False
+0b7167e47234dc3c79fb8e17d8d1481f813a61c7,2017-02-21 08:18:21,Ryan Seddon,"Merge pull request #2091 from Isthu/repair-regions
+
+Repair detect regions",True
+6c4d87c5069a81283481984c87999dcaaaa00170,2017-02-21 08:17:17,Ryan Seddon,"Merge pull request #2093 from whawker/master
+
+Fix localizednumber test. Overwrite the existing value rather than appending text",True
+2c6e00e622163acc68792b1f723afe7002c08714,2017-02-21 08:15:59,Ryan Seddon,"Merge pull request #2095 from PikadudeNo1/patch-1
+
+Remove blacklisting of old Android from fontface.js. Closes #1851",True
+85899f019a38699c7f5ce7d3025157f9ab08e8e3,2017-02-21 08:14:45,Ryan Seddon,"Merge pull request #2100 from rupl/csstransforms-level2
+
+Feature detect: CSS Transforms Level 2. Fixes #1625.",True
+6fdeb896364a6464bc2a86c6b47c53e62baf01a9,2017-02-21 08:13:38,Ryan Seddon,"Merge pull request #2102 from JaZo/issue-2101
+
+Fix false positive IndexedDB Blob test on iOS 10",True
+d614522513ea69e75329008f098ab4203b625f65,2017-02-21 08:12:39,Ryan Seddon,"Merge pull request #2128 from piperchester/patch-1
+
+Fix minor typos in comment block",True
+cfc9c25fc02a6f5386ece5987971f3a79d60c19a,2017-02-21 08:11:40,Ryan Seddon,"Merge pull request #2136 from philippevk/master
+
+contains => includes (String.prototype)",True
+d384cbae0ab3f076a562dc18ef189f45b605b5a2,2017-02-21 08:10:32,Ryan Seddon,"Merge pull request #2150 from Modernizr/greenkeeper-proxyquire-1.7.11
+
+Update proxyquire to version 1.7.11 🚀",True
+cae1fcc0f0eb6c91bfc9610f11cf8a8d953183aa,2017-02-19 01:07:35,Paul Irish,"Update readme.md
+
+fixes #2047",False
+1bad4f33f205551f3911e5ba8f6da3ff8a136df7,2017-01-27 00:40:20,greenkeeperio-bot,"chore(package): update proxyquire to version 1.7.11
+
+https://greenkeeper.io/",False
+78c22803e34fb8510d4c4f1702ceb06d3353eee6,2017-01-11 08:03:13,Ryan Seddon,"Merge pull request #2097 from LaurentBarbareau/patch-1
+
+Update supports.js",True
+70c19b34e53107fc4547797f6f6b53ae35b815f3,2017-01-11 08:02:46,Ryan Seddon,"Merge pull request #2115 from Modernizr/greenkeeper/remove-node-0.10
+
+👻😱 Node.js 0.10 is unmaintained 😱👻",True
+10c991b3ae632a8d6e8f084e5019f0917d10e4fc,2017-01-11 07:57:36,Ryan Seddon,"Merge pull request #2054 from Modernizr/greenkeeper-load-grunt-tasks-3.5.2
+
+Update load-grunt-tasks to version 3.5.2 🚀",True
+63e2ecb9b5d8a7963e234c6f6f9fd7dc7761a730,2017-01-11 07:55:17,Ryan Seddon,"Merge pull request #2137 from Modernizr/greenkeeper-yargs-6.6.0
+
+Update yargs to version 6.6.0 🚀",True
+27b10efebfc7a1ded5bfe4fae34f0f0f350e40b3,2017-01-11 07:55:01,Ryan Seddon,"Merge pull request #2138 from Modernizr/greenkeeper-lodash-4.17.4
+
+Update lodash to version 4.17.4 🚀",True
+f07364e1d76472a8cfc3affb7bc1d786a3910e7b,2017-01-01 04:16:21,greenkeeperio-bot,"chore(package): update lodash to version 4.17.4
+
+https://greenkeeper.io/",False
+e31561bb8cdd37ec4791e54cd94b26fcd9f2e97a,2016-12-30 22:29:19,greenkeeperio-bot,"chore(package): update yargs to version 6.6.0
+
+https://greenkeeper.io/",False
+e8d176bcbc1a9e83ada87aa13486768f63f94d87,2016-12-29 02:35:28,Philippe,contains => includes (String.prototype),False
+0f92c927ee36c9dbdda399402123a10c677bff55,2016-11-22 12:18:23,Piper Chester,Fix minor typos in comment block,False
+73b85f0fc7fe44d2ee452e108e93a13d62a8561b,2016-11-01 05:09:08,greenkeeperio-bot,"chore: drop support for Node.js 0.10
+
+BREAKING CHANGE: This module no longer supports Node.js 0.10",False
+6c5efe41034991455ddd5427d8f8908c245ab078,2016-10-13 18:19:52,Jasper Zonneveld,"Check if the put request is successful.
+
+Closes #2101",False
+2a0044b4c17db68e31bfe89980cf2dc5b52b21e3,2016-10-12 17:57:41,Chris Ruppel,Feature detect: CSS Transforms Level 2,False
+d1c456600c64ff89bb64a6f9fa099d218cba6152,2016-10-06 15:37:29,Pikadude No. 1,"Remove blacklisting of old Android from fontface.js. Closes #1851
+
+Usage of pre-2.2 Android versions has fallen below 0.1%*, so @font-face is practically guaranteed to work on Android. The blacklisting was catching all versions of Firefox for Android.
+
+* Source: https://developer.android.com/about/dashboards/index.html",False
+9bc58839bb08f52df7a49e87fac85c8c99893360,2016-10-05 20:41:00,Will Hawker,Fix localizednumber test. Overwrite the existing value rather than appending,False
+199c4e69558aaa8d5933822d4c151ff1f0742ffd,2016-10-04 17:59:03,Isthu,"Repair detect regions
+
+Detect regions is broken badly. It references an undefined property
+causing failure to run *any* detects. The cause is a missing
+dependency.
+
+Fixes this by including the missing dependency. Also updates the
+references to the free variable style, the correct pattern
+in the AMD module architecture.
+
+Fixes #2079",False
+184c4f4456721fd7dc6feb27eccf689190491a24,2016-09-30 03:28:55,LaurentBarbareau,"Update supports.js
+
+URL to https://github.com/Modernizr/Modernizr/issues/648 fixed",False
+5eea7e2a213edc9e83a47b6414d0250468d83471,2016-09-05 11:20:15,Cameron Chamberlain,Remove duplicates from config-all.json (#2066),False
+423b1213cfd49ae96b09e54f7235c52818a384db,2016-09-02 23:02:13,Jonathan del Strother,"Fix ""elem.parentNode is null"" with Flashblock (#2063)
+
+* Fix ""elem.parentNode is null"" with Flashblock
+
+* Enforce curly braces via eslint",False
+0d35d0627cefa695a946e7cc5cd7cb874edcf83e,2016-08-25 23:57:41,greenkeeperio-bot,"chore(package): update load-grunt-tasks to version 3.5.2
+
+https://greenkeeper.io/",False
+10296a8215cee98d30e3f084ec3f79c8b4d828f8,2016-08-25 23:57:25,Greenkeeper,"chore(package): update lodash to version 4.15.0 (#2052)
+
+https://greenkeeper.io/",False
+29e49d6658a78a5915ff2f332e6c1681edeafdb0,2016-08-21 09:57:41,Greenkeeper,"chore(package): update doctrine to version 1.2.3 (#2055)
+
+https://greenkeeper.io/",False
+39369e76bcc34968db843cfdefa25864d0fa24a2,2016-08-21 09:57:28,Greenkeeper,"chore(package): update yargs to version 5.0.0 (#2056)
+
+https://greenkeeper.io/",False
+e75edc7649f2df1092664dd4906b1a8504c9ed7a,2016-08-08 21:48:18,Greenkeeper,"chore(package): update lodash to version 4.14.2 (#2051)
+
+https://greenkeeper.io/",False
+f6f28a4ef1d0813a458ddb1965f053b756daa39f,2016-08-08 03:00:12,patrick kettner,dont use Bool constructor for false results. (#2049),False
+9f4f44bb4906718f85ac6b5a9636d1e71897375a,2016-08-08 02:44:17,Patrick Kettner,remove stale jshint control comments,False
+ff9fe4b3421f1ef7c704b8479bb09f7ab7fc4af7,2016-08-08 02:38:52,Patrick Kettner,whoops,False
+7bdb40ecf5c04b3ed5a2bcb9ce76537fa039b675,2016-08-04 23:33:25,Patrick Kettner,fix linter err,False
+a9d042056d4016e25f7da8a15f0425fc174e57ec,2016-08-04 23:26:54,Florian Mailliet,Add video crossOrigin detect,False
+2a7ddcb813fa311ab113d62b6d1c8e84b11c5aed,2016-08-04 11:16:30,Ryan Seddon,"Merge pull request #1920 from Modernizr/paulirish-patch-1
+
+Fix preserve3d's IE11/Win10 false positive",True
+8910a5ac95829e07ced218b17af61df023ece67d,2016-08-03 23:48:35,Patrick Kettner,fix linting err,False
+f9ddfa2e008f291ed507f505e7c848062c509969,2016-08-03 22:31:20,Paul Irish,Flip logic for clarity.,False
+68f82c2f0987b73c0a15da3d91d3059e3c836418,2016-08-03 22:14:46,Paul Irish,Merge branch 'master' into Modernizr-paulirish-patch-1,True
+a569b8e3424f5b35beb545d843b5e96a2c2c2bb0,2016-08-03 05:50:20,Ryan Seddon,"Merge pull request #2021 from Modernizr/greenkeeper-grunt-saucelabs-9.0.0
+
+Update grunt-saucelabs to version 9.0.0 🚀",True
+2f5802b3f889b97492d6bde369f80ba77fb02beb,2016-08-03 05:49:05,Ryan Seddon,"Merge pull request #2028 from patrickkettner/add-media-querys
+
+add detects for hover and pointer mediq queries",True
+5a671538dc82c71a197dbf210a4539a40398e0b9,2016-08-01 00:59:26,greenkeeperio-bot,"chore(package): update grunt-saucelabs to version 9.0.0
+
+https://greenkeeper.io/",False
+6fc8ae5c3f32adfae826c905162d12b5f6f2bd90,2016-08-01 00:59:11,Greenkeeper,"chore(package): update grunt-istanbul to version 0.7.1 (#2015)
+
+https://greenkeeper.io/",False
+e55aba3198f2aa5fa40f97a46b691e4536faef3f,2016-07-31 22:35:07,patrick kettner,"block direct usage of getComputedStyle, as it causes problems in certain (#2045)
+
+sitautions in firefox",False
+6b26daeee8e23ae21ad3ddc7305fc66fd509f907,2016-07-31 22:17:05,patrick kettner,convert jshint and jscs to eslint (#2044),False
+8823422559d82501cc34d5eac66a934209ce05d0,2016-07-31 20:26:03,Patrick Kettner,ignore joi updates as we are not using es6 syntax,False
+2eab3b2ac97fd836a7deba7dab07ba22ff1db625,2016-07-31 20:19:34,Greenkeeper,"chore(package): update lodash to version 4.14.1 (#2042)
+
+https://greenkeeper.io/",False
+6a9c4e12774c2172fdaaee4e3c8d097849ca2dac,2016-07-31 16:35:47,patrick kettner,allow for setClasses to be included via cli flag (#2043),False
+e0041c7bd651f985a544a7a5fec7f4ded7c8b329,2016-07-25 00:56:31,Greenkeeper,"chore(package): update lodash to version 4.14.0 (#2038)
+
+https://greenkeeper.io/",False
+6f869ef09c4d8a8df96cfa2cd09a345e2e95474f,2016-07-19 21:44:01,Greenkeeper,"chore(package): update yargs to version 4.8.1 (#2033)
+
+https://greenkeeper.io/",False
+49564a709b3d362174a1fa96d1ad9bae32cd219d,2016-07-15 13:40:44,Ryan Seddon,Check for >=6 as chrome rounds down value when page is zoomed (#2005),False
+053eab5810808d55d132f98ba89c42d9a1bd530d,2016-07-15 09:28:25,patrick kettner,alias svgasimg to svgincss (#2031),False
+164e7579017c30f6a84aa9f65468983008f1c334,2016-07-15 09:07:02,patrick kettner,"IndexedDB detection tests for indexedDB.open (#2030)
+
+As a side effect, both indexeddb and indexeddb.deletedatabase are async tests now
+[closes #1390]",False
+e4105ac0cc296aae14782495f2c18ac05dc64d8b,2016-07-15 08:26:05,patrick kettner,"history APIs should be false on file:// uris (#2029)
+
+fixes #1592",False
+681d565742ac6025052663fca4e623c072d4734c,2016-07-15 08:04:27,Patrick Kettner,"add detects for hover and pointer mediq queries
+
+fixes #664",False
+b690de746fef53c72a47a65bae23147c98f52f6a,2016-07-13 05:41:16,Ryan Seddon,"Merge pull request #2027 from jbowtie/master
+
+Switch from marked to remarkable due to upatched CVE (#2003)",True
+e984deefc3d4e91b794a7e603019550a2b596782,2016-07-13 04:51:34,John C Barstow,Switch from marked to remarkable due to upatched CVE (#2003),False
+1909ce336cb3c0b7cbd2958a7cc4f80586ff8a15,2016-07-12 13:30:20,patrick kettner,Create messagechannel.js (#2026),False
+ff0205037ca4fee5955ac60c05af0c345a561713,2016-07-12 12:44:01,Greenkeeper,"chore(package): update yargs to version 4.8.0 (#2025)
+
+https://greenkeeper.io/",False
+4512bb49de19903ffb403f3ea4e8766f4f7abdb0,2016-07-02 08:16:49,Greenkeeper,"chore(package): update grunt-saucelabs to version 8.6.3 (#2018)
+
+https://greenkeeper.io/",False
+fdb7073c88dcfe5611708073f94197729ca5977f,2016-06-30 02:10:13,Greenkeeper,"chore(package): update proxyquire to version 1.7.10 (#2016)
+
+https://greenkeeper.io/",False
+a1fe2f67805ee9620cfe2581ca542cf0847310b6,2016-06-22 19:54:12,Greenkeeper,"chore(package): update grunt-jscs to version 3.0.1 (#2014)
+
+https://greenkeeper.io/",False
+9cd8b4b4612b6d76efd787af8af4d577db815c47,2016-06-15 01:51:17,Patrick Kettner,"update incorrect metadata
+
+fixes #2011",False
+cc0989a9c49c16348b05b7f9906c92a300438209,2016-06-04 10:18:04,Greenkeeper,"chore(package): update grunt-jscs to version 3.0.0 (#2006)
+
+https://greenkeeper.io/",False
+82b7b74759fc5ecc50644d0d88b22e92bc16e5b0,2016-05-24 01:40:15,patrick kettner,remove grunt-suacelabs from the gh pages build to stop large file emails (#1994),False
+cfc3a3fd5457d47d04e5cc50611ac7665c38bea8,2016-05-24 01:14:15,Paul Irish,localstorage: compat notes (#1993),False
+a28bfbea115ff5f034a0f72d7d8e22257652357b,2016-05-24 00:32:12,Greenkeeper,"chore(package): update jquery to version 1.12.4 (#1988)
+
+https://greenkeeper.io/",False
+b92d919303a643dee48f1c500f04cc8b05af21ab,2016-05-24 00:31:30,Greenkeeper,"chore(package): update lodash to version 4.13.1 (#1992)
+
+https://greenkeeper.io/",False
+2f7df50ec7f32370956d90ced41e519e6ecc6cc2,2016-05-23 22:22:29,Gal Talmor,Fix issue #1365 - css-scrollbars false positive in FF (#1990),False
+33f79dac5d75129467bba605d810ef7e0c26788b,2016-05-20 03:23:39,Greenkeeper,"chore(package): update doctrine to version 1.2.2 (#1986)
+
+https://greenkeeper.io/",False
+735335003bd306f3457cf47d32dfffaf72cbd26a,2016-05-19 19:20:56,Phillip Salfity,"get dest from config (#1816)
+
+now will look in the modernize-config.json for a “dest” property to
+output the modernize.js file in a specific area, just as you can with
+the CLI.",False
+0c2a3eeedfd901a95784ddd305e8f3a69c84e2e1,2016-05-19 19:15:24,Christian Oliff,"https link to modernizr.com (#1940)
+
+https link to modernizr.com",False
+062f74b207b39e65830ea0df0cb35c1bbe97176f,2016-05-18 16:11:51,Patrick Kettner,remove unnecessary metadata,False
+5785b8a1bbce5441e26270415d53c899b930f8e2,2016-05-18 16:10:43,Rick Byers,"Add detect for passive event listeners (#1982)
+
+* First attempt at passive event listeners detect
+
+* Fix string style
+
+* Fix whitespace",False
+367590e568b5cb4e5a5060d8291f1f9854193988,2016-05-18 11:43:07,Greenkeeper,"chore(package): update doctrine to version 1.2.1 (#1937)
+
+https://greenkeeper.io/",False
+910fb19802e0c5e685c019cea73e915a7be9ae69,2016-05-18 11:43:00,Greenkeeper,"chore(package): update grunt to version 1.0.1 (#1950)
+
+http://greenkeeper.io/",False
+5bf8c791a6b0d0978e8fbd55e773e4921b768abb,2016-05-18 11:42:36,Greenkeeper,"chore(package): update grunt-contrib-connect to version 1.0.2 (#1965)
+
+https://greenkeeper.io/",False
+4f2111f97fc0a128b36269e5bf45a10380756897,2016-05-18 11:42:22,Greenkeeper,"chore(package): update grunt-coveralls to version 1.0.1 (#1967)
+
+https://greenkeeper.io/",False
+63542968d1cc912f151cf579ff7146c781d04597,2016-05-18 11:38:54,Greenkeeper,"chore(package): update yargs to version 4.7.1 (#1983)
+
+https://greenkeeper.io/",False
+74e5cc01267ab9a894b8d9a3eb2c2955950d11a1,2016-05-18 11:38:29,Greenkeeper,"chore(package): update lodash to version 4.12.0 (#1978)
+
+https://greenkeeper.io/",False
+177a88e934e7da045af062912a2ce0171cd19b6b,2016-05-18 11:37:06,Greenkeeper,"chore(package): update proxyquire to version 1.7.9 (#1980)
+
+https://greenkeeper.io/",False
+155f640762a8fcf230909da5b91c459d9bffd097,2016-05-05 05:30:17,Greenkeeper,"chore(package): update yargs to version 4.6.0 (#1956)
+
+http://greenkeeper.io/",False
+5915f3a8ac31c27c4fbe2d5cd1970d03bcaec22b,2016-05-05 05:27:56,AmazingJaze,"Fixes Preserve3D test in Edge and IE.  (#1957)
+
+* fix prevesrve3d test
+
+* anchor tags need display:block to have width",False
+3bd599780f865ab227f7a2b8c130358ecd0245e2,2016-04-30 12:09:30,Ryan Seddon,"Merge pull request #1963 from mfairchild365/videoautoplay
+
+Improve videoautoplay detection",True
+7d862353841846459156003db29385973a696478,2016-04-28 02:41:07,Ryan Seddon,"Merge pull request #1962 from AmazingJaze/updateGrunt
+
+Fixes grunt related build error",True
+274788baf70cb8fc580d636adbe8f9b1364cdf19,2016-04-26 08:05:58,Scott Addie,Remove duplicate img/jpeg2000 feature-detects entry (#1964),False
+517f38988458c7cb061bd33605c1cb1435866413,2016-04-25 21:08:43,Michael Fairchild,"Improve videoautoplay detection
+
+videoautoplay detection can be flaky. 300ms is a long enough wait for many sites, however there are plenty of other sites where that number is too low. Rather than simply increasing the wait, this commit tries to address the problem by increasing the wait time to 1000ms while re-checking every 200ms to ensure the quickest result. While this might not be enough for every situation, it should cover many more situations.",False
+735b4af2b7a3db5002efd42c9c2ab1140de7a3ca,2016-04-23 08:15:54,AmazingJaze,closes #1961,False
+8591cd6fe1f715933277998d7456e1e3b97feb93,2016-04-06 03:41:03,Greenkeeper,"chore(package): update jquery to version 1.12.3
+
+http://greenkeeper.io/",False
+3def34d8015c70853a1b36223934edfb71e54f69,2016-04-05 22:48:32,Philipp Simon Schmidt,Fix testProps so it works on strict XHTML browsers,False
+28152e0c8598b8e4c9a512bf2446ada9e0fb6392,2016-04-05 22:42:08,Greenkeeper,"chore(package): update grunt to version 1.0.0
+
+http://greenkeeper.io/",False
+fbc6c5eac63cd58e6cfabde6f4ad15a814d3fcba,2016-04-05 22:41:57,Greenkeeper,"chore(package): update lodash to version 4.8.2
+
+http://greenkeeper.io/",False
+d9bd9dd4d4646dfb8138da7f714ce43e41d95a77,2016-04-04 21:36:37,Greenkeeper,"Update lodash to version 4.8.0
+
+http://greenkeeper.io/",False
+d5beea6e822ef9cdfee7e094d8d0e5e15dfc8801,2016-03-25 00:09:47,patrick kettner,"Merge pull request #1926 from Modernizr/greenkeeper-jquery-1.12.2
+
+Update jquery to version 1.12.2 🚀",True
+96037853a047c5280aeee49510333e3ce050aedb,2016-03-25 00:00:51,patrick kettner,"Merge pull request #1934 from Modernizr/greenkeeper-grunt-contrib-connect-1.0.1
+
+Update grunt-contrib-connect to version 1.0.1 🚀",True
+0ba94ec8de69e8e1b5dc15885ffddbbc9d19415c,2016-03-25 00:00:35,patrick kettner,"Merge pull request #1924 from Modernizr/greenkeeper-yargs-4.3.1
+
+Update yargs to version 4.3.1 🚀",True
+bab5b319528ea985f9a2aeac577641f52b6cfe95,2016-03-22 20:10:13,greenkeeperio-bot,"chore(package): update grunt-contrib-connect to version 1.0.1
+
+http://greenkeeper.io/",False
+db29a23de488fd83730174afa478f9311436c38f,2016-03-18 20:42:05,Paul Irish,"Merge pull request #1925 from AmazingJaze/master
+
+fixes Edge regex in uaparser.js",True
+e4b2e05884654f00b1eb100bcdf8032f82971c17,2016-03-17 23:20:44,greenkeeperio-bot,"chore(package): update jquery to version 1.12.2
+
+http://greenkeeper.io/",False
+1d685b4b416e15ef98e931bce9d66dfb0ae8ebfc,2016-03-15 06:35:58,AmazingJaze,fixes Edge regex in uaparser.,False
+dc4b2f33b28b5117c2dd2a315cc07108299500ba,2016-03-15 00:49:41,greenkeeperio-bot,"chore(package): update yargs to version 4.3.1
+
+http://greenkeeper.io/",False
+74655c45ad2cd05c002e4802cdd74cba70310f08,2016-03-11 14:35:08,patrick kettner,"Merge pull request #1914 from Modernizr/greenkeeper-grunt-contrib-copy-1.0.0
+
+Update grunt-contrib-copy to version 1.0.0 🚀",True
+21c4f441dfa9ff6166e6145f44e42b52eff83d3e,2016-03-11 06:09:25,Ryan Seddon,"Merge pull request #1923 from barryceelen/patch-2
+
+Update multi-column layout polyfill source",True
+1b0ba068ca3c958d37e1bc956718036baf91617b,2016-03-10 18:53:28,Barry Ceelen,Update multi-column layout polyfill source,False
+38c597fe68b6c845b3787df29a2703632c32f61d,2016-03-10 06:18:48,Ryan Seddon,"Merge pull request #1919 from roblarsen/windows-cli
+
+Passthrough script for Powershell and cmd.exe, fixes #1910",True
+92aed6c12583ca9f56dd4bc703193beffed84da5,2016-03-10 06:12:46,Paul Irish,Fix preserve3d's IE11/Win10 false positive,False
+063eb2b3c37dbecbdddee7e5b7b9a4c7f4280948,2016-03-09 22:39:18,Rob Larsen,"Passthrough script for Powershell and cmd.exe
+
+This batch files catches calls to the modenizr script, tells the
+environment to use node and then passes along all arguments.",False
+d109ff350da011c5f0348a12da82d5a9ac80c297,2016-03-08 13:00:04,greenkeeperio-bot,"chore(package): update grunt-contrib-copy to version 1.0.0
+
+http://greenkeeper.io/",False
+6ed15d9ad24762197096bc70ac330e6a1fe96ef4,2016-03-08 12:50:42,patrick kettner,"Merge pull request #1909 from Modernizr/greenkeeper-grunt-jscs-2.8.0
+
+Update grunt-jscs to version 2.8.0 🚀",True
+06c33b471a00ef740a4ec659e13b098f571be15f,2016-03-08 12:49:42,patrick kettner,"Merge pull request #1908 from Modernizr/greenkeeper-lodash-4.6.1
+
+Update lodash to version 4.6.1 🚀",True
+bf00119b8c096f37ffbe56292bc2c6a04c703144,2016-03-08 12:48:21,patrick kettner,"Merge pull request #1916 from Modernizr/greenkeeper-grunt-contrib-connect-1.0.0
+
+Update grunt-contrib-connect to version 1.0.0 🚀",True
+08cc009b2362f97129f0ee0fd6c4d9d1a9619bd7,2016-03-08 12:48:04,patrick kettner,"Merge pull request #1915 from Modernizr/greenkeeper-grunt-contrib-jade-1.0.0
+
+Update grunt-contrib-jade to version 1.0.0 🚀",True
+ee1b8722b422912c53101b959b057be19a231eee,2016-03-08 12:46:41,patrick kettner,"Merge pull request #1905 from Modernizr/greenkeeper-load-grunt-tasks-3.4.1
+
+Update load-grunt-tasks to version 3.4.1 🚀",True
+371f13d9240b2648e1a8613cc1bb0834db208f84,2016-03-05 08:08:26,greenkeeperio-bot,"chore(package): update grunt-contrib-connect to version 1.0.0
+
+http://greenkeeper.io/",False
+228d0800416bb52a3cfdf17fbc7f4392357397d7,2016-03-05 03:17:30,greenkeeperio-bot,"chore(package): update grunt-contrib-jade to version 1.0.0
+
+http://greenkeeper.io/",False
+b4d67eef3d9f912b03bfd11886c8ea86d5dc4460,2016-03-03 01:53:56,greenkeeperio-bot,"chore(package): update grunt-jscs to version 2.8.0
+
+http://greenkeeper.io/",False
+e4a9bfd801056be7036ab259d0e87ea703977cd2,2016-03-02 23:48:15,greenkeeperio-bot,"chore(package): update lodash to version 4.6.1
+
+http://greenkeeper.io/",False
+0135c1aa9fec4a64023af7aac2b54739e15d55cc,2016-03-01 12:02:13,greenkeeperio-bot,"chore(package): update load-grunt-tasks to version 3.4.1
+
+http://greenkeeper.io/",False
+c7a9c4afe1eb8aba4dfa321033b7121de74ab9e1,2016-02-25 06:43:05,patrick kettner,"Merge pull request #1901 from Modernizr/greenkeeper-yargs-4.2.0
+
+Update yargs to version 4.2.0 🚀",True
+c9169c609a02d93a16dfa232ef17f7c0f5012b30,2016-02-25 00:52:35,greenkeeperio-bot,"chore(package): update yargs to version 4.2.0
+
+http://greenkeeper.io/",False
+b460ea741b60f816d8d61c859a78d507b5262ff2,2016-02-24 02:12:03,patrick kettner,"Merge pull request #1898 from Modernizr/greenkeeper-jquery-1.12.1
+
+Update jquery to version 1.12.1 🚀",True
+8ef6d79885463549ba99d3d8b306b2ec78ab1e36,2016-02-23 05:42:27,patrick kettner,"Merge pull request #1897 from Modernizr/greenkeeper-lodash-4.5.1
+
+Update lodash to version 4.5.1 🚀",True
+d4635ec3c7831ad0ceb024165bfc08cb10159f91,2016-02-23 00:43:40,greenkeeperio-bot,"chore(package): update jquery to version 1.12.1
+
+http://greenkeeper.io/",False
+8fc8d97eac9c4e680662f7c40e586a56e3c12d79,2016-02-22 20:31:12,greenkeeperio-bot,"chore(package): update lodash to version 4.5.1
+
+http://greenkeeper.io/",False
+b11ddccf0c2460b76e7ea991610c5cdd3625fe65,2016-02-22 18:23:24,patrick kettner,"Merge pull request #1896 from Modernizr/greenkeeper-grunt-istanbul-0.7.0
+
+Update grunt-istanbul to version 0.7.0 🚀",True
+84f63a3ca10e81d8a0a219094477c4805d10ce15,2016-02-21 13:35:46,greenkeeperio-bot,"chore(package): update grunt-istanbul to version 0.7.0
+
+http://greenkeeper.io/",False
+28f42c16146a1644a9438ee177506d5f873322d4,2016-02-21 12:18:59,patrick kettner,"Merge pull request #1895 from Modernizr/greenkeeper-doctrine-1.2.0
+
+Update doctrine to version 1.2.0 🚀",True
+ea08ac33c063e6cfe567cce682812e6eacd40755,2016-02-20 00:03:44,greenkeeperio-bot,"chore(package): update doctrine to version 1.2.0
+
+http://greenkeeper.io/",False
+115aa4a583dff0b44409b000165d22f2577ab0a1,2016-02-19 21:09:53,patrick kettner,"Merge pull request #1884 from philippsimon/websockets-fix
+
+Fix websockets test for some Panasonic SmartTVs",True
+bcb57496cbadf9be7d60cf1a818e1c452f0adbeb,2016-02-19 15:11:21,philippsimon,Fix websockets test on some Panasonic SmartTV browsers,False
+9d7d261506b6b336e592ba97321a07d3a6aa096a,2016-02-19 02:16:25,patrick kettner,"Merge pull request #1886 from Modernizr/greenkeeper-grunt-contrib-jshint-1.0.0
+
+Update grunt-contrib-jshint to version 1.0.0 🚀",True
+7bebe08cb1bd2639df727c79424871ded4d71119,2016-02-18 05:13:45,Ryan Seddon,"Merge pull request #1891 from alrra/url-search-params
+
+Add test for the `URLSearchParams` API",True
+c7a15ef860e4febee467e94234a617b371fc0dd1,2016-02-17 23:01:28,Cătălin Mariș,"Add test for the `URLSearchParams` API
+
+Ref: https://url.spec.whatwg.org/#interface-urlsearchparams",False
+1293c524d7e8752172fa76c02da2567268a72a31,2016-02-17 20:16:39,patrick kettner,"Merge pull request #1887 from Modernizr/greenkeeper-lodash-4.5.0
+
+Update lodash to version 4.5.0 🚀",True
+cdb755d4d409fdb3760164e06f6a9e2fd784a4db,2016-02-17 20:15:02,patrick kettner,"Merge pull request #1889 from philippsimon/increase-mochaTest-timeout
+
+Increase mochaTest timeout to 5s",True
+794acf21b7884b5e2e638ec12362495f7c2280ce,2016-02-17 17:40:19,philippsimon,Increase mochaTest timeout to 5s,False
+2cb16fed71c0a7c112011e14f57d38436ecdc6c4,2016-02-17 14:19:01,greenkeeperio-bot,"chore(package): update lodash to version 4.5.0
+
+http://greenkeeper.io/",False
+2f6c6a290745e2d00f6f379cbfa8a2ea06ebf653,2016-02-17 06:16:29,greenkeeperio-bot,"chore(package): update grunt-contrib-jshint to version 1.0.0
+
+http://greenkeeper.io/",False
+00a4157b83037f94c3fe3ad97f3770b62466c156,2016-02-16 15:11:49,patrick kettner,"Merge pull request #1881 from Modernizr/greenkeeper-lodash-4.4.0
+
+Update lodash to version 4.4.0 🚀",True
+4ff522f12711ed2cf4e0a41d423241fc2172b097,2016-02-16 12:49:24,greenkeeperio-bot,"chore(package): update lodash to version 4.4.0
+
+http://greenkeeper.io/",False
+0514e15de78b5e8cc21859160e5e1219b76ef950,2016-02-16 09:20:04,patrick kettner,"Merge pull request #1879 from Modernizr/greenkeeper-grunt-contrib-clean-1.0.0
+
+Update grunt-contrib-clean to version 1.0.0 🚀",True
+8c581140063e0e1648623078d8e811fe07142ad6,2016-02-16 03:21:42,greenkeeperio-bot,"chore(package): update grunt-contrib-clean to version 1.0.0
+
+http://greenkeeper.io/",False
+2bd3beb9ae18aa3ac4ffd3bd48151ccbefdfe874,2016-02-15 23:13:39,patrick kettner,"Merge pull request #1878 from Modernizr/greenkeeper-yargs-4.1.0
+
+Update yargs to version 4.1.0 🚀",True
+5739de3c41c80a4557aa3b73fe9da2ef31b61f0b,2016-02-15 22:16:44,greenkeeperio-bot,"chore(package): update yargs to version 4.1.0
+
+http://greenkeeper.io/",False
+97b6a4e05b95b7e6722c83c5a5adbd423100ad45,2016-02-09 13:11:20,patrick kettner,"Merge pull request #1873 from pra85/patch-1
+
+Change syntax highlighting",True
+0f7071377d1d3adc57834a7c5538649fc7d335f4,2016-02-09 13:03:47,Prayag Verma,"Change syntax highlighting
+
+Changes syntax highlighting from `js` to `shell`",False
+580089934e60cf9c710dcb8e20ba0ad5e7fa6859,2016-02-08 16:09:17,patrick kettner,"Merge pull request #1871 from Modernizr/greenkeeper-grunt-istanbul-0.6.2
+
+Update grunt-istanbul to version 0.6.2 🚀",True
+29da59f6793afe707228681627917d3895df9fa6,2016-02-08 16:08:57,patrick kettner,"Merge pull request #1872 from Modernizr/greenkeeper-lodash-4.3.0
+
+Update lodash to version 4.3.0 🚀",True
+f125d4d4f7cd1ab6d2de9e4c95125cf89ad044b4,2016-02-08 14:36:15,greenkeeperio-bot,"chore(package): update lodash to version 4.3.0
+
+http://greenkeeper.io/",False
+7ec1f5bd7eb8fa28070fab8b95dd824f1334d81f,2016-02-08 07:11:56,greenkeeperio-bot,"chore(package): update grunt-istanbul to version 0.6.2
+
+http://greenkeeper.io/",False
+63b80a26a536d4ab6e9c04b05d3cd0823509c1d6,2016-02-04 13:03:54,patrick kettner,"Merge pull request #1869 from Modernizr/greenkeeper-lodash-4.2.1
+
+Update lodash to version 4.2.1 🚀",True
+4fb8352b7e36d6e3eae984428726c1473a78aba0,2016-02-04 12:54:34,patrick kettner,"Merge pull request #1868 from denyskoch/master
+
+fixed preserve-3d detect on IE11/Windows 10 in #1748",True
+3c8b7361a4956405fd81333725de41f945e43d7f,2016-02-03 21:39:23,greenkeeperio-bot,"chore(package): update lodash to version 4.2.1
+
+http://greenkeeper.io/",False
+220198b3f863244d21398da42315e2287c694295,2016-02-03 15:04:28,Denys Koch,fixed preserve-3d detect on IE11/Windows 10 in #1748,False
+1f1bd36db9a81324459032c4ed71b4646f2bb2ac,2016-02-03 10:40:17,Ryan Seddon,"Merge pull request #1867 from Modernizr/greenkeeper-lodash-4.2.0
+
+Update lodash to version 4.2.0 🚀",True
+550e42c99b3290d31eef73e119282609874ee8ab,2016-02-02 14:29:12,greenkeeperio-bot,"chore(package): update lodash to version 4.2.0
+
+http://greenkeeper.io/",False
+4982b41b1f9b2f152d04b93d33936caa955f95aa,2016-02-02 10:58:38,Ryan Seddon,"Merge pull request #1865 from Rowno/patch-1
+
+banner: use https build url",True
+81cc68b216e2a9cffc6546b9ea42bf162f94ffd2,2016-02-02 08:57:59,Roland Warmerdam,banner: use https build url,False
+8ae980266f158e31b0dea8c895b674fc7ca0602e,2016-01-30 03:08:37,patrick kettner,"Merge pull request #1859 from Modernizr/greenkeeper-lodash-4.1.0
+
+Update lodash to version 4.1.0 🚀",True
+c9062d37261c2d2a54cfb6d922b4647a9c4d99ae,2016-01-30 01:35:33,patrick kettner,"Merge pull request #1860 from Modernizr/greenkeeper-grunt-jscs-2.7.0
+
+Update grunt-jscs to version 2.7.0 🚀",True
+e6fc38ba788bd6fd14b57b4e71296c74b464faa3,2016-01-29 22:37:00,greenkeeperio-bot,"chore(package): update grunt-jscs to version 2.7.0
+
+http://greenkeeper.io/",False
+3413fd8e8d21965ba8fa6a4319847e33af7a8a65,2016-01-29 22:12:23,greenkeeperio-bot,"chore(package): update lodash to version 4.1.0
+
+http://greenkeeper.io/",False
+4e6cf9952d90f17173d7ac21db1f73967cbe254b,2016-01-28 02:11:51,patrick kettner,"Merge pull request #1854 from patrickkettner/fix-usePrefixes
+
+fix usePrefixes for some detects.",True
+a00163b2230c546096dda684293cab06e686f522,2016-01-28 02:09:08,Patrick Kettner,"fix usePrefixes for some detects.
+
+fixes #1852",False
+fc6e5f47a0df837d568007f165b5331acdf1e26a,2016-01-20 12:24:42,patrick kettner,"Merge pull request #1849 from jshen212/patch-1
+
+Fix case type on line 9",True
+2117071bfbedbe799ea567076df66a34f7f89520,2016-01-20 12:24:00,Jeff Shen,"Fix case type on line 9
+
+Fixed case type on line 9 to lowercase to match other single-line comments",False
+da22eb27631fc4957f67607fe6042e85c0a84656,2016-01-18 13:12:35,Patrick Kettner,filter the UA/CanIUse version in a more accurate way for certain Safari versions,False
+71b49f58c0a3e820ae2411e08b9483f01278aaf3,2016-01-18 11:44:03,patrick kettner,"Merge pull request #1794 from vincentriemer/master
+
+Add test for es6 arrow functions",True
+ad88d1901a677e5353f110af6c37dc45c9b4f371,2016-01-18 11:36:17,Vincent Riemer,Add test for es6 arrow functions,False
+48dfa0c173e9477aa04d61781d10cb5f19b9a3c0,2016-01-18 10:49:04,patrick kettner,"Merge pull request #1845 from patrickkettner/dont-commit-files
+
+dont cause the cli test to create a file that I keep accidentally adding",True
+d1e4f25d159d78c1b7b674864450e4575033a3a2,2016-01-18 10:45:04,patrick kettner,"Merge pull request #1784 from zazabe/audio-codec-opus
+
+Add an alternative check to detect opus codec support",True
+126088e5ed66bddc9ce104afb60d405c754f8b5e,2016-01-18 10:42:29,Patrick Kettner,dont cause the cli test to create a file that I keep accidentally adding,False
+d9ed9de043fc9dd2194dc41cd8b32fd73a617b66,2016-01-18 10:27:21,patrick kettner,"Merge pull request #1823 from rowanthorpe/fix-missing-semicolons
+
+Add semicolons to avoid unicode feature-detect generating typos",True
+f632d88856ccde60c753328a918bada190b0eff5,2016-01-18 03:26:35,patrick kettner,"Merge pull request #1843 from Modernizr/greenkeeper-grunt-contrib-jshint-0.12.0
+
+Update grunt-contrib-jshint to version 0.12.0 🚀",True
+9fe8327313eebeb251873b8d0f018b54b151f989,2016-01-17 23:40:13,greenkeeperio-bot,"chore(package): update grunt-contrib-jshint to version 0.12.0
+
+http://greenkeeper.io/",False
+a9e7db0a9dd722bbdce22ffaa59772994a173dac,2016-01-16 12:09:36,patrick kettner,"Merge pull request #1840 from Modernizr/greenkeeper-yargs-3.32.0
+
+Update yargs to version 3.32.0 🚀",True
+4868f74631af36ace15dbd05051e6d11f40c050a,2016-01-16 08:07:34,greenkeeperio-bot,"chore(package): update yargs to version 3.32.0
+
+http://greenkeeper.io/",False
+f6ebbb887780c57deeb4af439609ebbc92a0241f,2016-01-15 09:09:17,Patrick Kettner,release 3.3.1,False
+f5b3a9aa9d1dfdb403bcf4437c7e59c662469e40,2016-01-15 09:06:37,patrick kettner,"Merge pull request #1839 from patrickkettner/fix-cli-lodash-issue
+
+fix cli crash introduced in #1830",True
+2d54fd7696c11168b539c7ffac6c1396cb367530,2016-01-15 08:51:49,Patrick Kettner,fix cli crash introduced in #1830,False
+f839e2579da2c6331eaad922ae5cd691aac7ab62,2016-01-15 07:42:23,Ryan Seddon,"Merge pull request #1838 from alrra/update-links
+
+Update links",True
+1f8af5969233053e920e528e00a95be9786b7eae,2016-01-15 05:51:35,Cătălin Mariș,"Update links
+
+* Update / Remove broken links.
+* Update links to use HTTPS where possible.",False
+95fdd837a47e4f847bcf2ea1a8b1436e7889e626,2016-01-15 04:06:06,Patrick Kettner,"add comment documenting the purpose of the heartz string, closes #1814",False
+b040209d5833dbc39f5a3a7c7cd7df0689f9da97,2016-01-15 00:37:07,patrick kettner,"Merge pull request #1835 from JaZo/issue-1834
+
+Fix indexeddbblob-test (#1834)",True
+d7087dc84a5f07c65533fe7b039410872949db8b,2016-01-14 16:49:25,Jasper Zonneveld,#1834 Fix for typo in indexeddbblob-test preventing it from running,False
+3e6b10c2b73f0b9435cd18992973ab1043233cb5,2016-01-14 07:38:40,patrick kettner,"Merge pull request #1830 from Modernizr/greenkeeper-lodash-4.0.0
+
+Update lodash to version 4.0.0 🚀",True
+4738f5a957e1ecd25850007293f5c8c59cf03bbe,2016-01-14 07:24:40,greenkeeperio-bot,"chore(package): update lodash to version 4.0.0
+
+http://greenkeeper.io/",False
+69fe729323be5ccf769281ba3430d2320579cbb7,2016-01-14 07:14:41,patrick kettner,"Merge pull request #1833 from patrickkettner/fix-global-config-leak
+
+create a requireConfig instance per build call. fixes #1832",True
+31938793fb10b3b584c0c462675d3faa0eff1147,2016-01-14 07:10:50,Patrick Kettner,create a requireConfig instance per build call. fixes #1832,False
+7152423d86fdcb54435843f248c59717042f3395,2016-01-13 14:39:46,patrick kettner,"Merge pull request #1831 from sheff146/firefox-disabled-cookies-fix
+
+Fix IndexedDB check in Firefox with disabled cookies",True
+715d60bdd68c6235783737d0895bbfa3179319be,2016-01-13 14:33:31,a.shevchenko,"Remove unnecessary assignment
+Squashed commits:
+[a1fd83a] Fix indexedDB blob check
+In Firefox it was throwing Security Error when cookies was disabled
+[fea8cb6] Fix indexedDB check
+In Firefox it was throwing Security Error when cookies was disabled",False
+1a3296b19d13a8fa9c94d9893b8d634a97eedc13,2016-01-13 00:49:14,patrick kettner,"Merge pull request #1828 from Modernizr/greenkeeper-jquery-1.12.0
+
+Update jquery to version 1.12.0 🚀",True
+8d8f3295849f3aa1ced873d0e70918eb1e141231,2016-01-12 15:24:56,greenkeeperio-bot,"chore(package): update jquery to version 1.12.0
+
+http://greenkeeper.io/",False
+b553ab4006eb36a37974357372812003daaa9153,2016-01-12 01:22:01,Patrick Kettner,release 3.3,False
+080c55109aeb936cb86bb8eae32f2b0ee13a72f7,2016-01-07 04:44:26,patrick kettner,"Merge pull request #1824 from rowanthorpe/make-form-validation-output-valid-code
+
+Make form-validation output valid code",True
+0eefea22412fdc18689f25fbac69af4f7fb7d01a,2016-01-07 04:17:00,Rowan Thorpe,Make form-validation output valid code,False
+5a78416de9384cb1b5095b4043edfd9b48e3e9bf,2016-01-07 02:57:41,patrick kettner,"Merge pull request #1827 from Modernizr/greenkeeper-doctrine-1.1.0
+
+Update doctrine to version 1.1.0 🚀",True
+96531e2621f15bd1f17ca55412c563b9c0f9d672,2016-01-07 02:44:19,greenkeeperio-bot,"chore(package): update doctrine to version 1.1.0
+
+http://greenkeeper.io/",False
+98c9f9406215118473548a666c3ae6c9661724d3,2016-01-05 08:29:16,Ryan Seddon,"Merge pull request #1822 from Modernizr/greenkeeper-grunt-jscs-2.6.0
+
+Update grunt-jscs to version 2.6.0 🚀",True
+6ba56005b2f4c9f395e6ea32bacb539694190367,2016-01-05 01:39:32,greenkeeperio-bot,"chore(package): update grunt-jscs to version 2.6.0
+
+http://greenkeeper.io/",False
+1b4db6e15bf268d9e46e36d6538b31469afba482,2016-01-04 17:26:01,Rowan Thorpe,Add semicolons to avoid generating typos,False
+4666d441f2aaf0a9c170869fb85f5831ea14cb60,2016-01-02 10:40:28,Ryan Seddon,"Merge pull request #1813 from alexgibson/update-web-notifications-test
+
+Fix false positive in Notifications test for Chrome on Android (fixes #1660)",True

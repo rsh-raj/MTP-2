@@ -1,0 +1,609 @@
+Hash,Date,Author,Message,IsMerge
+a3bc5fc82f6599bc923dc18573223ec9b53dc932,2024-10-24 02:56:23,Hemanth HM,"Merge pull request #226 from BobConanDev/patch-2
+
+Update tips.json, fix a typo",True
+07662dbac1348b9f6ee9c1d28f03e8bcb930db4a,2024-10-24 01:41:22,Bob Conan,"Update tips.json, fix a typo",False
+1c23d34fbb90df79201432019c5b04dda58e76c8,2023-05-02 20:41:11,hemanth.hm,"Merge pull request #215 from arnabnandy7/add-tips-python-env
+
+Fix:git checkout -- <file_name> is incorrect #177",True
+a67bf7c06eb76de096a9cbbffac9cb13e851f26b,2023-04-06 10:56:32,Arnab Nandy,adding the package files,False
+a8f70a05dc8bc5870b3a92f7e2f35c5c79b52cbc,2023-04-06 10:41:48,Arnab Nandy,Fix:git checkout -- <file_name> is incorrect #177,False
+8891620064c546f4a8377c1a7d638200cb5458aa,2021-08-13 04:11:22,hemanth.hm,"Merge pull request #201 from javadnikbakht/master
+
+A Persian version of README file link Added",True
+18f522eea9ca976fb5d34b26226aef44f8a5767d,2021-08-13 03:49:55,Mohammad Javad Nikbakht,"Merge pull request #1 from javadnikbakht/javadnikbakht-add-readme-fa
+
+A Persian version of README file link Added",True
+1c37e6b3eba09f3839fef75e31ba9170a096470f,2021-08-13 03:48:19,Mohammad Javad Nikbakht,A Persian version of README file link Added,False
+1b89495cfb37e080d2b6510a104d4f79152055a8,2021-05-05 03:41:47,hemanth.hm,"Merge pull request #199 from itaikla/add-create-tag-tip
+
+Add a tip for create local tag",True
+ba02cea81ba934e37b59a89bd231138dec773cf0,2021-05-05 03:41:31,hemanth.hm,"Merge pull request #197 from Masa-Shin/add-git-push-tip
+
+Add a tip to omit writing branch names when push",True
+6ed1ec9dfac7d78268d58d850fe8da731ad4bc6d,2021-05-05 03:41:05,hemanth.hm,"Merge pull request #190 from AdrianSkar/patch-1
+
+add[alternative]: create and switch branch",True
+f7c92fd9ea56337d1dd7065536db1ff9e7fef06b,2021-05-05 03:40:56,hemanth.hm,"Merge pull request #186 from AdrianSkar/patch-1
+
+alternatives: create and switch new branch",True
+474306e30ea434881268abf38e25c6aa35678ff3,2021-05-05 03:39:36,hemanth.hm,"Merge pull request #198 from Masa-Shin/add-git-stash-show-tip
+
+Add a tip to view what's in a stash",True
+dc7a62b67d247eefd94a4f8abf5e7c95c5efc807,2021-05-04 21:06:10,Itai Klapholtz,Add create local tag tip,False
+c8eb026a8617d7b78d3b2a360959e0a0bb571bfd,2021-05-04 16:34:07,Masahiko Shin,Add a tip to omit writing branch names when push,False
+ec4301cc2daa245b5a1d503ae9306704622ba910,2021-05-04 16:33:15,Masahiko Shin,Add a tip to view what's in a stash,False
+1a97486c8223e33303b4ad44da757f2d37e14210,2021-03-18 23:28:22,hemanth.hm,"Merge pull request #192 from lmarvaud/master
+
+Add tips to delete local branches that has been squash and merged in the remote",True
+4f15d65b68c149ba244dc6a83fd2155f3d91b148,2021-03-18 20:24:42,Léni Marvaud,Add tips to delete local branches that has been squash and merged in the remote,False
+40b03da99e61c6cdf71af28b12cb08c0562f4c68,2021-01-13 01:48:27,hemanth.hm,"Merge pull request #184 from RedNik96/feature/git-stash-push
+
+replacing `git stash save` by `git stash push`",True
+0eb60008aad02c301fe8bf8bb9d268dd3cb18e0e,2021-01-10 16:16:57,rednik96,replacing `git stash save` by `git stash push`,False
+6b2007ab79b29cf21f7b52c34089f374a4c796b2,2021-01-10 16:11:46,rednik96,"Revert ""replacing `git stash save` by `git stash push`""
+
+This reverts commit e89eb24e670c6baf8d2c9944319323e5dc59bdd7.",False
+97047c7560a70e79b9a21ef691752ec22b9c8047,2020-12-19 16:30:49,Adrian Skar,"add[alternative]: create and switch branch
+
+From #186.",False
+e1b98f70b8930aeff12e65944d8886e050407296,2020-12-19 01:12:43,hemanth.hm,"Merge pull request #187 from edycutjong/typofix/restore-delete-file-extra-caret
+
+Fix typo extra caret in git command Restore delete file.",True
+324643e3ff747fc4982db9c98f1de7bb4cc15a89,2020-12-19 01:12:14,hemanth.hm,"Merge pull request #188 from gaushikmr/patch-1
+
+CODE_OF_CONDUCT",True
+979cf19f2627216da3a01b2ae0d837871a95360e,2020-12-19 01:11:54,hemanth.hm,"Merge pull request #189 from edycutjong/bugfix/print-variable
+
+Split tutorial git variable for list all and show specific variable",True
+d1835c92dfda88663fd444380a18b7f7b40ee875,2020-08-25 21:45:27,Edy Cu,Split git variable to avoid confusion symbol vertical line for pipeline and OR,False
+767360112f4c6bc58e68eae96b93cd6bb886dade,2020-07-31 19:44:03,Gaushik M.R,Create CODE_OF_CONDUCT.md,False
+442d880d4cb869f05bdf8e81706e71e66e63edc4,2020-07-30 18:10:51,Edy Cu,Fix typo extra caret in git command Restore delete file.,False
+8305c4a4c6534cd298588900a525740bafb971e9,2020-07-16 21:11:10,Adrian Skar,"alternatives: create and switch new branch
+
+Add alternative to 
+`996 ## Create and switch new branch`
+using git switch 
+ref: https://git-scm.com/docs/git-switch",False
+36c15874fd5196517b55a38c627f3dc5ffc84e43,2020-05-08 02:48:04,biesiadamich,"update readme (#185)
+
+added Polish link",False
+e89eb24e670c6baf8d2c9944319323e5dc59bdd7,2020-05-03 17:26:09,rednik96,"replacing `git stash save` by `git stash push`
+
+`git stash save` -> This option is deprecated in favour of git stash push.
+[git docs](https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-save-p--patch-k--no-keep-index-u--include-untracked-a--all-q--quietltmessagegt)",False
+14ad922baa058a12744913390cd50026fd0273ca,2020-04-29 01:18:48,hemanth.hm,"Merge pull request #183 from git-tips/revert-180-master
+
+Revert ""[WIP] Polish version""",True
+daf32cf5add029f653cbebf1ea7754434c859d17,2020-04-29 01:18:35,hemanth.hm,"Revert ""[WIP] Polish version (#180)""
+
+This reverts commit 512ec7764c194d61e06e4f411a2e04ecfd06c92a.",False
+512ec7764c194d61e06e4f411a2e04ecfd06c92a,2020-04-04 20:02:08,Michal,"[WIP] Polish version (#180)
+
+* update README.md
+
+first changes
+
+* update README.md
+
+few changes
+
+* update readme
+
+changed until git-stash
+
+* update readme
+
+updated until 987L
+
+* update readme
+
+updated internal links
+
+* update readme
+
+updated internal links
+
+* update readme
+
+small fix
+
+* update readme
+
+updated with internal links
+
+* update readme
+
+small fixes
+
+* update readme
+
+small fix
+
+* update readme
+
+small fixes",False
+bd9b419d683a7ca034b9a9747730e80add1e4dbf,2020-02-22 15:01:35,hemanth.hm,"Merge pull request #176 from lntuition/master
+
+Add Prevent auto replacing LF with CRLF",True
+a9d29fb4bc18aee51047cf01c28efc39a056c220,2019-07-31 19:39:35,unknown,Add Prevent auto replacing LF with CRLF,False
+135bd3c526956375b33111148e9d24effb1ba465,2019-05-14 22:05:58,hemanth.hm,"Merge pull request #174 from angelskieglazki/feature/update-submodule-to-latest-commit
+
+tips.json: submodule to latest commit",True
+ebde7ca24bc847aaaf5560eb5e75a45df14d5398,2019-04-18 14:13:06,max,tips.json: submodule to latest commit,False
+a6e02ccfad338eb4700336be8dac9a3ee7306408,2019-03-22 18:58:08,hemanth.hm,"Merge pull request #172 from amarduwal/master
+
+Tips for log, reset and list currently configure remotes",True
+679bf0a1d7dcba4d7c92738488fb1795e9f6738d,2019-03-22 18:22:15,alizduwal,"Tips for log, reset and list currently configuyre remotes",False
+fbbed061708f07e9023b182d6313892f96b093ca,2019-03-21 19:08:17,hemanth.hm,"Merge pull request #171 from amarduwal/master
+
+Add Nepali Localization",True
+b3cb087c3462d724dc3e8cf3a7ef7ece6f7d76b9,2019-03-20 13:33:45,alizduwal,Add Nepali Localization,False
+dfdfac36e06dbc762c499fffc7f93f41346ef081,2019-01-20 19:22:17,hemanth.hm,"Merge pull request #169 from mcsnolte/simplify-common-ancestor
+
+Change to the simpler merge-base command",True
+c333d5516f0cc47d2bd130cfcdf5edd4dfaea27c,2019-01-18 22:04:23,Steve Nolte,"Change to the simpler merge-base command
+
+Good to showcase this command as it also provides additional features
+like --fork-point and --all.",False
+6c6a46ef43f09ed70d6760daba24659fc926cb5f,2019-01-09 15:37:07,hemanth.hm,"Merge pull request #168 from isotai/master
+
+Add a translation link for Japanese",True
+a536d928568c4053d377952f4bd55ea8818577c9,2019-01-02 11:32:25,taisuke.isobe,add japanese translation,False
+fa759b5ccaad003c15b08c30cdb30a071e478fde,2018-11-19 12:46:11,hemanth.hm,"Merge pull request #167 from mvolz/patch-1
+
+Add -L flag to follow redirect to get correct file",True
+9e3a9f790d7baf2271d63aec5ef8897dfd3730a0,2018-11-19 12:45:49,hemanth.hm,"Merge pull request #166 from lmarvaud/master
+
+Visualize the tree including commits that are only referenced from reflogs",True
+bc2805558507499f137ff25009d1253d707f0654,2018-11-05 17:55:32,Marielle Volz,"Fix to follow redirect
+
+As per #154, change to -L so that the redirect gets followed. As written this line downloads the html redirect page.",False
+03f10d90fe504eb8cc2a619a48ca5360c0d0b0ef,2018-11-05 17:52:26,Marielle Volz,"Add -L to follow redirects
+
+As per the comments in #154, use -L to follow the redirect for curl. The tip as written does not currently work as it downloads the html for the redirect page instead.",False
+94b41fd43768407d11908e708e23b575f389d51a,2018-10-05 19:04:42,lmarvaud,Visualize the tree including commits that are only referenced from reflogs,False
+96124215b6797018a127d283103c8124b93500b0,2018-07-25 11:26:51,Hemanth.HM,Tip: Use SSH instead of HTTPs for remotes.,False
+3853ef282954c3c98069174be67921d4fc599823,2018-04-26 07:22:06,hemanth.hm,"Merge pull request #162 from dmlemos/master
+
+Add alternative for first commit from branch",True
+c46d4a737ef1b73a7accbc8f6142ab3cba5bf115,2018-04-25 00:45:37,Diogo Lemos,Add first commit from branch alternative,False
+b773c7ab670b79a5ac8d0f623c8826d1da1f61dc,2018-03-22 08:47:40,hemanth.hm,"Merge pull request #160 from lmarvaud/patch-1
+
+Add change a branch base tips",True
+0286eb33145b8830170b08bbbffbd6afa3b3b65c,2018-03-22 01:03:52,Léni Marvaud,"Add change a branch base tips
+
+Based on : https://stackoverflow.com/questions/10853935/change-branch-base
+
+Tested on `git version 2.11.0 (Apple Git-81)` :
+```bash-4.3$ git --version
+git version 2.11.0 (Apple Git-81)
+bash-4.3$ git checkout -b test-rebase-onto
+Switched to a new branch 'test-rebase-onto'
+bash-4.3$ touch ""test-to-rebase""
+bash-4.3$ git add test-to-rebase
+bash-4.3$ git commit -m ""Commit to rebase""
+[test-rebase-onto 11d1cdd] Commit to rebase
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test-to-rebase
+bash-4.3$ git log
+bash-4.3$ git rebase --onto master dev
+Applying: Commit to rebase
+bash-4.3$ git log```",False
+c358de0fccc2ea0e13658dae7d1518d65e37f8ba,2018-03-11 12:16:47,hemanth.hm,"Merge pull request #159 from cumanacr/master
+
+An alternative with shorter hash, author and relative date added.",True
+26e8a7be82c4286d97d617318fabb99f30055756,2018-03-09 04:18:00,Cristian Umaña,"An alternative with shorter hash, author and relative date for ""Visualize the version tree."" tip, has been added.",False
+8b613e09f4e3c0864e4e89e899fdceabd81f14a4,2017-12-25 11:00:19,hemanth.hm,"Merge pull request #156 from 0xmohit/fix-difftool-ex
+
+Fix difftool example",True
+a7b9fbf3b16617f06eb3ec492defc95b1223728b,2017-12-20 15:13:08,Mohit Agarwal,"Fix difftool example
+
+The example currently reads:
+
+    git difftool -t <commit1> <commit2> <path>
+
+This would cause `commit1` to be considered as the diff tool.",False
+f5b193cfaae15f4eb18412011c230f76eac5b79f,2017-12-03 10:11:26,hemanth.hm,"Merge pull request #153 from eliranmal/master
+
+add a tip to remove sensitive data from history (after a push)",True
+89c2a15fde9e0ac7cdad06f15866a7f52e2f3fa5,2017-11-28 15:29:58,hemanth.hm,"Merge pull request #155 from hprobotic/master
+
+Add a translation link for Vietnamese",True
+4bf33b325890ea9c90e845a5abb4ddc921beb14b,2017-11-27 10:44:07,John Pham,Add a translation link for Vietnamese,False
+3b0185e443910f215b98e5b001e6d87bea536f30,2017-10-30 15:54:22,eliranm,add a tip to remove sensitive data from history (after a push),False
+325f7bcb623de91a8869a048c017459ce217370b,2017-10-24 19:30:15,hemanth.hm,"Merge pull request #152 from lukabot/master
+
+Remove duplicated command",True
+741782cdb0904d4f0d59ca6249852b9d7106d981,2017-10-24 07:44:00,lukabot,Remove duplicated command,False
+2be7828ce55141eb13849e6cf83ba0a1a715a858,2017-08-09 22:56:02,hemanth.hm,"Merge pull request #150 from ChaithanyaGK/remote_push
+
+Push a new local branch to remote and track",True
+33dc77736c426c995dab3cc0862942f906be56b9,2017-08-08 15:56:10,Chaithanya Ganta,Push a new local branch to remote and track,False
+6e9713be4a62ecdd792de0486e13628adab73300,2017-06-29 10:41:54,hemanth.hm,"Merge pull request #148 from mingrammer/translation
+
+Add a translation link for korean",True
+f65336b83df27937974e46387a68ab4f95fa2cbc,2017-06-25 21:37:39,mingrammer,Add a translation link for korean,False
+39d1012fc9652aa9853d58d0fd1086070d82e4f7,2017-04-06 07:42:50,Hemanth.HM,Checkout a commit prior to a day ago.,False
+40253a498c7e92dea99cefd588f9899ec03d200a,2017-03-28 14:58:09,hemanth.hm,"Merge pull request #145 from eliranmal/master
+
+fix broken link",True
+18f472475799c9c485455cda353fc5f0312517c8,2017-03-28 13:59:18,eliranm,fix broken link,False
+8aa8aa869225cf73ddfc0f2c2e86c2c0417ec1a7,2017-03-28 13:52:11,hemanth.hm,"Merge pull request #142 from blackjid/patch-1
+
+Add alternative to remove remote tag",True
+1078b41bf6ea7f84fea4fbad0a44ada688b2e83e,2017-03-28 13:51:48,hemanth.hm,"Merge pull request #144 from eliranmal/master
+
+update remote sync tip, git-ignore idea config",True
+b0d87788efa58a58bc3b0e1a93978a675fa66dd3,2017-03-28 13:47:39,eliranm,update sync with remote title for brevity,False
+1d4eca0e251cf9cc43c7cbd2cb11cf3928d0eed7,2017-03-28 13:46:50,eliranm,update sync with remote title for brevity,False
+2ce1f0fb06051953d734835f767b360f6f8d9764,2017-03-28 13:44:45,eliranm,update sync with remote title for brevity,False
+48a611a626a984cf4c932c9e934178fc97a8ee90,2017-03-28 13:43:33,eliranm,update sync with remote title for brevity,False
+3d4092c3bd7c7cd3fa9ee5c0d695861b5201eb57,2017-03-28 13:38:59,eliranm,"add .idea to .gitignore, for intellij-idea/webstorm users",False
+3c766833b4625753b254645c4d619b9b176781cd,2017-03-28 13:37:51,eliranm,"update ""overwrite pull"":
+- rename to ""sync with remote"" for clarity
+- add 'git clean' to ensure working tree is clean",False
+77c865cedf76007570a6b5f095a79dac92485b12,2017-03-23 18:48:08,hemanth.hm,"Merge pull request #143 from eliranmal/master
+
+add change by content search tip",True
+81f9099a1f4466e6c264bd2eb1ef0bb0a48cb389,2017-03-23 18:40:12,eliranm,add change by content search tip,False
+af614c269eb16d8a5cb27f305ade4bf8346b08df,2017-03-12 08:36:49,Juan Ignacio Donoso,Add alternative to remove remote tag,False
+c98730cb76e5f2f45ff09b605d22e0f2e00fae67,2017-02-24 18:19:18,hemanth.hm,"Merge pull request #141 from dmlemos/stash_additions
+
+Stash additions",True
+e849a6f24a4ddaeeccc1595992fb87cddc99bc11,2017-02-24 17:24:08,Diogo Lemos,No need for git stash save,False
+3fe8a233c09e7c2ed1878c00f9acd34bf636aecb,2017-02-24 17:24:02,Diogo Lemos,Add stash all,False
+c8abe4cc13d1ed340525d1dab18a65b29f0d343f,2017-02-24 17:09:21,Diogo Lemos,Add stash of unstaged changes to tracked files,False
+b748f5f4cb63df9431ecb3c842ce54ef4b67cf13,2017-02-24 16:21:56,hemanth.hm,"Merge pull request #140 from siadat/fetch-origin-only
+
+Fetch origin, not --all",True
+f9ec0251aa89a88dcba1045f710fce8c679a4b5c,2017-02-24 16:19:12,Sina Siadat,"Fetch origin, not --all",False
+5d9a006ef9ed78e76442e9586512ef38f593407b,2017-02-23 15:54:30,hemanth.hm,"Merge pull request #138 from dmlemos/pro_status
+
+Add git status short",True
+9dc216197a0b9e1110635d606a3a7ea4f0767b1f,2017-02-23 15:45:03,Diogo Lemos,Add git status short,False
+39c7902f9cda39497e1e7fad87f63291a0c02409,2017-02-23 09:26:36,hemanth.hm,"Merge pull request #137 from dmlemos/list_git_aliases
+
+Add list all git aliases",True
+7d8adcb4075677045f664d814840b0aaae81bb47,2017-02-22 22:56:38,Diogo Lemos,Add list all git aliases,False
+edeed06cc096d1b6dd950031c5043aa1008ae2a8,2017-02-21 14:24:38,hemanth.hm,"Merge pull request #136 from shfshanyue/master
+
+Add tip: git stash save <message>",True
+e574325d660cdf7c1e93332226abb78084bdbe86,2017-02-21 14:05:57,shfshanyue,Add tip: git stash save <message>,False
+df6de59ba1419f8ad805d9a95c6b22f6bfda0085,2017-02-21 13:14:43,hemanth.hm,"Merge pull request #135 from shfshanyue/master
+
+Add tip: git log -n",True
+6fd5b4b52d6221113f884d931a25b2f98ab3dbca,2017-02-21 11:50:15,shfshanyue,Add tip: git log -n,False
+2e8cfda78272679cb3434836676b010316a8497f,2017-02-16 09:39:50,hemanth.hm,"Merge pull request #134 from shfshanyue/master
+
+Add alternative for git checkout -",True
+1274a98aba97896e4024dcadbc7ecf0c76370464,2017-02-16 07:59:36,shfshanyue,Add alternative for git checkout -,False
+f20a28ac7df3a7519c17abcd69845e1afa06a127,2017-02-14 11:09:00,hemanth.hm,"Merge pull request #133 from Imangazaliev/master
+
+Add link to Russian translation",True
+ba3cda945fb3bd0a2ae407f280513f947aa37da2,2017-02-13 20:33:03,Muhammad Imangazaliev,Add link to Russian translation,False
+0bc5364128d42b42eef413faac9946636c887e98,2017-01-30 15:54:29,Hemanth.HM,Backup untracked files.,False
+7b0e0e471c9f5e3bd0bdcae999f3d270a75a45a2,2017-01-27 17:06:32,Hemanth.HM,ls-remote,False
+3261e1fb66764fafa81196f1c5053a08ac550bf3,2017-01-27 09:39:56,Hemanth.HM,pull-request command,False
+518d8d1500b1805b13371e015d0d1332faefe8e6,2017-01-23 12:34:54,hemanth.hm,"Merge pull request #132 from djoudi5/master
+
+Doc update - Link added to Docker version",True
+5822d83f518bb66e6be83dc2cd342477cec7a1c8,2017-01-20 18:58:35,djoudi mohammed,Doc update - Link added to Docker version,False
+2b772cda5b8a968c856523307fa4fca821b5cad9,2017-01-16 22:07:20,Hemanth.HM,Exclude author from logs,False
+e6bbc5941883dafe711d156b2a4b0672dc611a8b,2017-01-16 22:04:23,Hemanth.HM,logs between date range,False
+e88ee1e1c9be3a22c3e3fdb7f22088eff85268d2,2017-01-08 17:53:01,Hemanth.HM,Get the repo name.,False
+5d23b75504901dfe9bbb212db9eac65bbad75805,2016-12-25 21:23:02,Hemanth.HM,format-patch,False
+16b9349d48ff564a51743878c7de65ab0b6be648,2016-12-12 20:16:32,Hemanth.HM,show a Git logical variable.,False
+d607a80b4dcbb6a81646dd998f370a5a78cc40f3,2016-11-28 18:54:10,hemanth.hm,"Merge pull request #128 from DuniceEdge/master
+
+Fixing git bash completion script URL.",True
+37d2ef123c91bb981ddb861624a2238b354c3677,2016-11-28 16:39:58,Vladimir,"Fixing git bash completion script URL.
+
+http://git.io/vfhol
+This URL leads to the needful script via redirect. When I do `$ curl http://git.io/vfhol` (on OSX, at least), it fetches redirect info:
+
+```sh
+<html><body>You are being <a href=""https://git.io/vfhol"">redirected</a>.</body></html>
+```
+When I set curl option to -L (--location), everything works properly.",False
+9e7c67ed6c6c9afe7b3c229e7b98e7474571871b,2016-10-31 21:18:46,Hemanth.HM,blame on certain range,False
+6886c2c8f639816b2688e796a94c3a7a44949b1b,2016-10-31 20:11:51,Hemanth.HM,edit git config,False
+318484a77fef7aeed58d1d04f0acbe85a7f3a73b,2016-10-24 21:40:06,Hemanth.HM,add everything but whitespace changes,False
+a7cb20ee0f6afe7aab23a2de1e96dda55d22b745,2016-10-11 14:34:11,Hemanth.HM,List unpushed git commits.,False
+b869dd5efd518be946be78dc79609264e9fa0f5d,2016-10-05 15:51:30,Hemanth.HM,"Merge branch 'routinet-routinet-contrib-2'
+
+* routinet-routinet-contrib-2:
+  Find common ancestor of two branches",True
+9ae20580d5bcf318c084f7d9ccbc94f22cbcdee4,2016-10-05 15:51:17,Hemanth.HM,Find common ancestor of two branches.,True
+50bb41326f845ffe8ea5ab2432351f057315bab4,2016-10-05 15:48:35,Ankur Kumar,Add alternative for rebase on pulls (git < 1.7.9) (#126),False
+c42ade5ba4f8b40d12b6a9846311d507ff475691,2016-10-03 08:53:15,Hemanth.HM,fetch ref,False
+d2bf9e8c6343acdb3791072f79235f94789a6d3b,2016-09-28 22:07:48,Steve Binkowski,Find common ancestor of two branches,False
+59de6a8b8070c7720dfd50e6c5279429e993c21d,2016-09-28 21:43:13,Steve Bink,Apply commit from another repository (#124),False
+814bafcaa2f044217bdc91ad34f2cbc90cab98d3,2016-09-24 23:11:34,Hemanth.HM,show all the git-notes,False
+9007100789a3650457de12a9e15b671bd3f538c6,2016-09-24 23:10:03,Hemanth.HM,git-notes,False
+dca76041d8e3c7181b26c2bdbff31c837852a82d,2016-08-29 10:54:26,Hemanth.HM,wrong alternatives were removed,False
+9d7a837add968948a0d86a5c2e08d47871ac9871,2016-08-26 17:11:30,Gianluca Casati,"added alias: git undo (#123)
+
+Credits to [Enrico Campidoglio](http://megakemp.com/about/),
+see [original article](http://megakemp.com/2016/08/25/git-undo/).",False
+08096c7c71429ac044a90bbd43f67aef13a91102,2016-08-15 23:46:27,Hemanth.HM,fixes #58,False
+3357955baa48d9c78304e8fe5858f4ebf158a913,2016-08-15 23:43:07,Hemanth.HM,Fixed #117,False
+9f75591eef3fca1f1fee0c9c94324aadad738194,2016-08-15 23:42:05,Hemanth.HM,fixes #118,False
+81040e9500815384677c8068c7e1283576b59c1e,2016-08-14 20:36:13,S N Munendra,count commits in a branch (#122),False
+d155ea094e281b1a7755f89896d2071f4aacd77d,2016-08-13 15:00:43,Alex,"Add alternatives ""Git reset first commit"" (#111)",False
+bfb1379951634c73183368f28eec5670d1ae3dc7,2016-08-12 16:34:12,Changlang Kuang,add: Show how many lines does an author contribute (#121),False
+38255485a0f5af622342d09a5750bf7a55f88f88,2016-08-11 18:29:10,hemanth.hm,"Merge pull request #119 from nirajpandkar/master
+
+Added CLI link in readme",True
+debac552398de728b5689c841a623e9d640bb20e,2016-08-11 12:05:19,nirajpandkar,format changes,False
+4f94e6733eb86af05f78b9d7c30839aca21b223e,2016-08-11 11:41:59,nirajpandkar,added Tools subcategory,False
+19e49a97e1f2fe28320cf6d79c0f40d9f7292088,2016-08-11 11:25:16,nirajpandkar,changed the name of the module,False
+128393ea7c35e32a21eae7ad5eb33d5dc29ba3d3,2016-08-11 10:29:24,hemanth.hm,"Merge pull request #120 from weirdpattern/master
+
+Add git push --force-with-lease tip",True
+7c9f3c88c579d8bdba6b6c9363c75477b2b268cb,2016-08-10 23:38:56,weirdpattern,git push --force-with-lease tip,False
+275ff62454faa748931627b9b128f9b5c0600e10,2016-08-10 22:02:02,nirajpandkar,added gtip CLI link,False
+7b4bcd1727f90eec15cfc506562a9e079694f549,2016-08-06 20:02:21,hemanth.hm,"Merge pull request #115 from nirajpandkar/master
+
+Capitalized the first letter of certain words",True
+3c17588d846e04cffcc94bf4c91d48dc426774fc,2016-07-31 18:22:27,nirajpandkar,Capitalized the first letter of certain words,False
+5136dbcca388d5cf56ad4a28673f6117666c0028,2016-07-23 10:21:19,hemanth.hm,"Merge pull request #114 from 521xueweihan/master
+
+Import Chinese version",True
+89e9fa678c89989de364f76764f89459bcd1d7ca,2016-07-23 08:05:37,xueweihan,Import Chinese version,False
+8140fe8762d2845404ae776b2d7b93cc203235e5,2016-07-16 13:48:42,hemanth.hm,"Merge pull request #113 from munendrasn/master
+
+Add git shortlog",True
+d764ab75165c3e4ac3d703d70093df7f9d9fec7a,2016-07-16 13:33:32,S N Munendra,"Add git shortlog
+
+git shortlog summaries git log output. Each commit is grouped by
+authors and title.",False
+996de6a5a31b4b525b250294659257e638fa559e,2016-07-09 15:41:45,hemanth.hm,"Merge pull request #110 from adityasiwan/master
+
+Add tip to use common diff tools",True
+028da4a0c3527ecc463ec8bfc69757cc90c4a9f6,2016-07-07 19:12:54,Aditya Harsh,Add tip to use common diff tools,False
+596941ca4d67eb3656902838d1da9bc4666a8cb0,2016-07-04 11:20:39,hemanth.hm,"Merge pull request #108 from munendrasn/master
+
+Add git blame tip",True
+7a53485d35ac32bec36c2b06c6e213a6db6bd3ce,2016-07-03 19:21:33,S N Munendra,Add git blame,False
+9abc547f53b1acb9918c57e86e86089a8df0887c,2016-07-02 15:31:57,hemanth.hm,"Merge pull request #107 from munendrasn/master
+
+Add alternatives to get commit hash of initial revision",True
+49df61f4b91f5888ad151ff7137752b651528e32,2016-06-30 23:30:27,S N Munendra,Add more alternatives to get initial commit hash,False
+156cbd0b31bb061bce1cd9eb5c91c876c57dc453,2016-06-30 23:07:42,hemanth.hm,"Merge pull request #105 from TheBox193/naming-remote
+
+Clarify naming a remote",True
+be87cde44dbd0a1945b6b83662ae25d0041be68c,2016-06-29 22:10:25,S N Munendra,Add alternatives to get commit hash of initial revision,False
+69185207b6e9a1e7c82b9cda4480e7ca9167eed9,2016-06-29 20:44:46,Jonathan Stassen,Clarify naming a remote,False
+45ce83ec8f3ef65057525358b06597276a13aef0,2016-06-28 22:18:00,hemanth.hm,"Merge pull request #103 from ck3g/patch-1
+
+Change an interactive rebase description",True
+2569c74f0346b7215264a3dff674e611fc90a015,2016-06-28 17:18:14,Vitaly Tatarintsev,"Change an interactive rebase description
+
+Interactive rebase can be used not only for merging files together. Files can be also be changed or updated without squashing them.",False
+3a392529fec6405df3106168226b223b5b459a73,2016-06-27 12:36:21,hemanth.hm,"Merge pull request #102 from munendrasn/master
+
+tips to add remote name and force push",True
+3839cd9dbe7e34765892120ec6c164b5c1d74695,2016-06-25 11:36:15,S N Munendra,"tip to add remote name
+
+Update tips",False
+623e818a9481b0832c2f5df2b1b393c116e44d6a,2016-06-25 11:16:58,S N Munendra,Add tip to force push,False
+8d53a4974d9270185e573d589777edb32a2d2b6b,2016-06-24 10:31:41,hemanth.hm,"Merge pull request #101 from munendrasn/master
+
+Add tip to unstage staged file",True
+440a78c3572ea34ca94645a7a3d3985f31ebfa54,2016-06-23 22:58:14,S N Munendra,"Add tip to unstage staged file
+
+Update tips",False
+b22f89a61fb4025b02e329d44eb3879335d04425,2016-06-23 12:20:28,hemanth.hm,"Merge pull request #98 from adityasiwan/master
+
+Add tip for Interactive staging",True
+3b398f8f9fcdfa9cbef86ceca61906320672b29c,2016-06-23 12:19:52,hemanth.hm,"Merge pull request #100 from ZuBB/master
+
+fix(commit): use proper switch to exclude staged stuff",True
+6f732ee68e4e4e2e5943e7facfdc00ce09ba1e69,2016-06-23 02:51:26,Vasyl Zuzyak,fix(commit): use proper switch to exclude staged stuff,False
+f9c84b6c61160c56b9085daf1d6644210dde614a,2016-06-22 15:25:18,Aditya Harsh,Add Interactive staging,False
+699b36eedf190ba6100e7ab0c6777d7a9ebfa3d9,2016-06-21 09:57:03,hemanth.hm,"Merge pull request #97 from chipironcin/master
+
+Add tip for first commit in a branch",True
+79da03dbe045a1f2f81b30a50dd9440dd61aa337,2016-06-21 00:31:17,Jorge Marin,Fix merge/rebase from master,True
+4f2b8dfe99a43c9cbcc7a1259be2ace13011ab08,2016-06-20 10:08:14,hemanth.hm,"Merge pull request #96 from munendrasn/master
+
+Add tip to search commit log for given text",True
+418b227c124a3082eeb3d7547cf1589e20528a58,2016-06-19 23:20:21,Jorge Marin,Add tip for first commit in a branch,False
+614e5a9638a169ee652d9731d895d653b3baba4e,2016-06-19 20:40:54,S N Munendra,resolve merge conflict,False
+4cf5bbdaa75f6ff25d92d1396b4e3cd3932fd60b,2016-06-19 20:34:11,S N Munendra,Merge https://github.com/git-tips/tips,True
+93e25eb7185e0e98398a170126f9395f26096798,2016-06-19 19:03:08,hemanth.hm,"Merge pull request #95 from infertux/git-submodule-update
+
+Add alternative to update submodules",True
+b096219f3106d96a8e78d38f5c9a4fc12467a0e5,2016-06-19 17:14:59,Cédric Félizard,Add alternative to update submodules,False
+a5db8297085b8e2068398b095c8e3c53febcf05d,2016-06-18 19:58:58,S N Munendra,Add tip to search commit log,False
+d318ded72ed109c9254cf0267f5bc426699fc28d,2016-06-18 18:44:07,hemanth.hm,"Merge pull request #94 from denisbalyko/master
+
+Added alternative update submodules",True
+7cfb00247408351386c2c87bb14e309ece6b4b1f,2016-06-18 15:14:05,denisbalyko,fix indent,False
+9d905ac6d14ea8b1acf7e9f48dde5a3f810e4fd8,2016-06-18 15:12:31,denisbalyko,added alternative update submodules,False
+a6fbeefed18f93da79a528a36ea73477ea0118ff,2016-06-17 21:10:02,hemanth.hm,"Merge pull request #93 from gbraad/master
+
+Add tip for shallow copy",True
+ca7e782a9f72eea4f3656e6073a1a0d095c6f5e8,2016-06-17 21:02:33,Gerard Braad,Add tip for shallow copy,False
+cffab88ab8258e4356e38eccf6947d507291a9fc,2016-06-17 19:16:36,hemanth.hm,"Merge pull request #91 from scriptype/master
+
+Add git grep --heading --line-number <pattern>",True
+115b45ad9bd82f041395baf7d0b04d66f0524bfd,2016-06-17 19:16:08,hemanth.hm,"Merge pull request #92 from MarcBT/master
+
+Add tip to delete local and remote tag",True
+474262b119b45504c2e77f6b4f1588e30239aa2e,2016-06-17 16:26:27,Marc Beuret,Add tip to delete local and remote tag,False
+221aa76eec7bc049099f57e6d6f9e9afa4c0c4b9,2016-06-17 05:28:38,scriptype,Add git grep,False
+d5ca8fabccedfdcdd2737bfafef28f9cce6857a3,2016-06-16 17:49:21,hemanth.hm,"Merge pull request #90 from p-v/master
+
+Show all local branches ordered by recency",True
+79c74517f6b7f75a8f0fa35ddec0e45f92a6990e,2016-06-16 17:48:57,hemanth.hm,"Merge pull request #89 from adityasiwan/master
+
+Add custom editor",True
+e22b7b17d509ef7b0a74944df30d73c6ed55eca3,2016-06-16 15:19:33,Pratyush,Add tip to show recently updated branches,False
+bdad5790be077c58e5e0a8c38498bb87560b592f,2016-06-16 14:16:41,Aditya Harsh,Add custom editor,False
+dec07c0170dc2007b78b1cf3cd3c4e0387c6a8d0,2016-06-14 09:40:35,hemanth.hm,"Merge pull request #83 from andela-dJames/feature-colored-terminal-output
+
+Add tips for changing git terminal output color settings",True
+b6eba1acb02610148619ad93f600968aa234fec1,2016-06-14 09:40:04,hemanth.hm,"Merge pull request #84 from AndrewCvekl/master
+
+Added another git command",True
+ace3526a7f3cd8afdd1dcbfd7c8ede8e1cff9d27,2016-06-14 09:39:24,hemanth.hm,"Merge pull request #85 from munendrasn/master
+
+Adds alternatives to create and switch branch",True
+ac572b9ebf5e36cf2a6ea125bc84426d4e98e8e3,2016-06-14 09:38:59,hemanth.hm,"Merge pull request #86 from codereflection/master
+
+Adding alternative to deleting branches merged to master",True
+4efcd6cff6ca22bca40e4ab170ffe51f2ea15e7f,2016-06-13 23:47:54,"Schumacher, Jeffrey",Adding alternative to deleting branches merged to master that will not delete master itself,False
+0558db872b886d41142460b6f078c6d24c5561dc,2016-06-13 23:00:07,S N Munendra,Adds alternatives to create and switch branch,False
+15698a4e2092d8fd0f3000c5016046645dfdb13e,2016-06-13 22:06:12,Andrew,Added another git command,False
+1c07f20d211c85c95a71561e63132c5f9be8b47a,2016-06-13 21:48:37,hemanth.hm,"Merge pull request #81 from Ranhiru/add-staged-as-a-synonym-for-cached
+
+Added git diff --staged to be synonym for git diff --cached",True
+223f430e1e8fad11ea132c8f8eed717c6aae9e19,2016-06-13 19:30:11,andela-djames,Add tips for changing git terminal output color settings,False
+1ff31a939fe3c9ac5cf6dbdf3495527a5aec3214,2016-06-13 17:17:46,Ranhiru Cooray,Added alternative as an array,False
+32f2a4af3589f4d0844392add0dd23212c28c246,2016-06-12 20:11:16,Ranhiru Cooray,Added --staged as an alternative,False
+1cf1673f057ec4e9130472ec2ed562e5f7f0c0a9,2016-06-12 17:47:36,hemanth.hm,"Merge pull request #80 from denisbalyko/master
+
+Create and switch new branch",True
+c147aa64e21080a823d51217542ac1ebe973d11a,2016-06-12 17:23:00,Ranhiru Cooray,Added git diff --staged to be synonym for git diff --cached,False
+5c77f3d539d8e42e40907c39e1cf71f09168fb8e,2016-06-12 13:42:11,denisbalyko,Merge branch 'newtips/createbranch',True
+b7c0a19ded52dd336af30fdc0a84b5ca0a84dcd1,2016-06-12 13:40:42,denisbalyko,Added git checkout -b,False
+1e2a0e10fb68159dfe8e713189f1373e727e8632,2016-06-12 12:38:16,hemanth.hm,Delete license.md,False
+e7fe458e79a4ef37f76d3a931be67e51c75adbef,2016-06-12 12:38:00,hemanth.hm,"GNU GENERAL PUBLIC LICENSE
+
+^",False
+7b00ecf798c719266d53ab7baa1eb4ec07039100,2016-06-12 10:55:34,hemanth.hm,"Merge pull request #79 from martintama/master
+
+Ignore file mode changes on commits",True
+6209b8ba859ea869aa0dd8c89d4b3d12ea8f2da9,2016-06-11 23:29:23,Martin Tamashiro,Ignore file mode changes on commits,False
+4668721ea52df8239991d8dcb43a450b9b186c21,2016-06-11 20:13:00,hemanth.hm,"Merge pull request #75 from kadikraman/fix-remove-merged-to-master
+
+Remove --no-run-if-empty flag on removing branches that are merged to master",True
+d6bb50e4dd7e014cc22bb4d027e586b46a736514,2016-06-11 20:12:25,hemanth.hm,"Merge pull request #77 from ank91/patch/1
+
+Add clone single branch command",True
+d7e4e4a422de96a0eb220c231a49ba844ddbbc41,2016-06-10 16:10:16,ank91,Add clone single branch command,False
+3bd8fae29b65fd2bcdefa79388d2d6ab5412c618,2016-06-09 14:26:45,Kadi Kraman,Remove --no-run-if-empty flag,False
+d9a885960473e0ae7692dbdead7c6090d0ed2f24,2016-06-09 12:06:32,hemanth.hm,"Merge pull request #63 from exalted/patch-2
+
+Improve cleaning up branches merged into master",True
+e2eb80ed2493804998d78cbb3b48525a949273ca,2016-06-09 12:06:22,hemanth.hm,"Merge pull request #64 from exalted/patch-3
+
+Use log instead of whatchanged",True
+7ed587483ef0e40fe1f5c990ef46d17740673dfb,2016-06-09 12:05:40,hemanth.hm,"Merge pull request #73 from David-Wobrock/master
+
+Formatting tabs into spaces and adding tip of tracing changes to one file",True
+f9a314af967f3690f2761a7043ec4df504a3d909,2016-06-09 12:05:12,hemanth.hm,"Merge pull request #74 from exalted/patch-4
+
+Emphasize to install dependencies",True
+d3b180632b68632b698585548647deddf6667b86,2016-06-09 12:04:45,hemanth.hm,"Merge pull request #62 from exalted/patch-1
+
+Branches merged into master without checkout first",True
+221dae08ad66329deafeb521a70fe3f6f12b65d7,2016-06-09 02:30:07,Ali Servet Donmez,Emphasize to install dependencies,False
+cc2f616e566a1fa964d18b43ef11f3598092d9a0,2016-06-09 02:24:04,David-Wobrock,Add tip for tracing all changes made to a file,False
+f9772a90df5f64f1331c6211a5779e3a9773821c,2016-06-09 02:21:47,Ali Servet Donmez,"Update README and TOC
+
+... by `npm run-script generate`",False
+65dd8ac36f1dde3a542ce894a16611e9f6b0c67e,2016-06-09 02:19:04,Ali Servet Donmez,"Update README and TOC
+
+... by `npm run-script generate`",False
+9eae0f3cc423bb5f6e58e6dc542ade602b34c6bf,2016-06-09 02:17:21,Ali Servet Donmez,"Update README and TOC
+
+... by `npm run-script generate`",False
+c49409830a159e6fa497eaff14ee7c7f6772fef6,2016-06-09 02:09:40,David-Wobrock,"Formatting tabs into spaces.
+Doxie throws errors like '[doxie] Invalid JSON input: ""Unexpected token	 in JSON at position 11987""' otherwise",False
+9f5a85580ad0d189e28339987d14c2e9978896d8,2016-06-08 21:03:35,hemanth.hm,"Merge pull request #61 from nirajpandkar/master
+
+Bypass pre-commit and commit-msg githooks",True
+f1eaf073d529d9e49a218ed29a14591d7831ba24,2016-06-08 21:01:26,hemanth.hm,"Merge pull request #65 from olgabrani/master
+
+MINOR: Fix typo",True
+160fa86460bb8df8814fd952fc03953116179e97,2016-06-08 13:38:07,Olga Brani,MINOR: Fix typo,False
+9b268214bea34c63da56d979d302e47facc0d9ce,2016-06-08 10:41:01,nirajpandkar,Bypass githooks,False
+277043bf23c2aab2a43e4cca070fdc369af9ea2c,2016-06-08 10:03:35,hemanth.hm,"Merge pull request #67 from SanSYS/master
+
+Add information about git-bisect",True
+e27d2a679259a180b5ebab6a5ab8619039c52b3d,2016-06-08 00:04:22,Alexander Pavlov,Return formatting,False
+3bed4cd8621c86d5c19e1d1a804bf923894cbe99,2016-06-08 00:03:05,Alexander Pavlov,change link,True
+285989a70741a344c1ee1c6b3c7e34905e6cd30a,2016-06-08 00:02:38,Alexander Pavlov,NEW: Add info about git bisect,False
+1b29a23e95a582c05aec2ad2e5428fdf3ab96dbb,2016-06-08 00:01:49,Alexander Pavlov,NEW: Add info about git bisect,False
+ba5cd1c4f1dc3a274462bf6cfe9195617cd7461b,2016-06-07 13:12:13,Ali Servet Donmez,"Use log instead of whatchanged
+
+As per documentation (https://git-scm.com/docs/git-whatchanged):
+
+""New users are encouraged to use git-log(1) instead. The whatchanged command is essentially the same as git-log(1) but defaults to show the raw format diff output and to skip merges.
+
+The command is kept primarily for historical reasons; fingers of many people who learned Git long before git log was invented by reading Linux kernel mailing list are trained to type it.""",False
+aec9d8b1a39cddb579df502e0c75fba1b7b0bf4e,2016-06-07 13:02:41,Ali Servet Donmez,Improve cleaning up branches merged into master,False
+998a5c85234d354494aa4f02079e0c8fc286d472,2016-06-07 13:00:05,Ali Servet Donmez,Branches merged into master without checkout first,False
+2e647b5ea935268baaf18805b3aba56359c70900,2016-06-07 09:39:44,hemanth.hm,"Merge pull request #59 from NamPNQ/patch-1
+
+List all branch is WIP",True
+bbbde86e8d55e5cb530e2f7032366b5deb9bfe75,2016-06-07 09:12:27,Nam Pham,Add: List all brach is WIP,False
+5ad64ad233a537c108f4268da033e61e318e8b71,2016-06-06 10:45:44,hemanth.hm,"Merge pull request #57 from bryant1410/bugs/the-a-file
+
+'to the a file' -> 'to a file'",True
+9c8e924bcac8b0e17a8930aedb49c3df7f94a7a2,2016-06-05 23:53:49,Santiago Castro,'to the a file' -> 'to a file',False
+f85d7b231a1c9c6db3a94f325a441d37a3be9d48,2016-06-05 09:12:39,Hemanth.HM,More info,False
+1a29e6051d587ec024e52b25cabfbdc7ba2669dd,2016-06-05 09:09:25,hemanth.hm,"Merge pull request #55 from surfer190/master
+
+Provide more descriptive header",True
+9c321b0923c7b4dd85f6722386486439626af230,2016-06-02 16:44:58,surfer190,Remove absolute links,False
+0969a61d46a6a1d3d5dee4dc74707e5b7891d7d8,2016-06-02 16:44:25,surfer190,Change wording to show references are removed,False
+4d26afac75574c3ac151763c2e584b3f266dde9b,2016-06-01 22:24:16,hemanth.hm,"Merge pull request #52 from joelg236/cherry-pick
+
+Adding git to cherry pick",True
+1279208ef30e90d6e662d71a730b2107c3e92dd7,2016-06-01 22:19:41,Joel Gallant,Adding git to `cherry-pick`,False
+4906001a1deee2356cea0b94ece092d3e7f2fe07,2016-06-01 22:17:51,Joel Gallant,Adding git to `cherry-pick`,False
+806f890249eede97f19768c8e28e3ca3d20738ed,2016-05-30 17:25:32,hemanth.hm,"Merge pull request #51 from arrrggghhh/revert-50-listOfRepos
+
+Revert ""Add list command""",True
+e5d29ecd55cc9e9b2346011fa311ce725bddfca7,2016-05-30 10:15:10,HyeonChol Jang,"Revert ""Add list command""",False
+b107c6480798489a7e1759b362c4bae31c35c7a5,2016-05-29 11:39:17,hemanth.hm,"Merge pull request #50 from arrrggghhh/listOfRepos
+
+Add list command",True
+04323cc7be3c51af116c5dcfe66fd3d4faea2aca,2016-05-26 19:51:31,zxcxz7,Correct paths,False
+55e2d4fa75837e3e79b8639050c640998b209bc6,2016-05-26 19:47:03,zxcxz7,"Update tip and add an alternative
+
+Update find command to exclude hidden directories.
+Add GNU find command",False
+312b4a6c99263609249f177fdba1ca65925f2149,2016-05-26 14:07:51,zxcxz7,Add list command,False
+67f84e141c575a150de258faba58882125825568,2016-05-20 09:53:32,hemanth.hm,"Merge pull request #49 from munendrasn/master
+
+merge previous two commits into one.",True
+80e1993266c95ad5ab8f85539fd7438cb4f9bdd6,2016-05-18 17:33:13,S N Munendra,merging two commits into one.,False
+dc8e9d6f963b0455a6c7146d7afca347ebf61bb9,2016-05-11 22:24:34,Hemanth.HM,root and merge commits tips.,False
+b238e44ff134b915747a6f820084ccdd3c7fcd83,2016-04-29 20:18:50,Hemanth.HM,git show,False
+168303734bbdb70b1fb93d2c12c00b2cfafe6728,2016-04-18 20:11:57,Hemanth.HM,staged diff,False
+157337d356bbc15877f365bd9cf88b136b8f1be7,2016-04-10 21:07:36,Hemanth.HM,orphan branch,False
+afa8747b07195f20ee4997b5d0bb0d165248cf5a,2016-04-07 09:48:23,hemanth.hm,"Merge pull request #45 from dcortes92/master
+
+Added tip to remove an entry from the global config.",True
+8b9d2366f1db10b8111112da0fcd7c6fe3166c08,2016-04-07 01:50:46,Daniel Cortes,Added tip to remove an entry from the global config.,False
+1cde458164fe5cf07dda51d7f869b06a99641558,2016-04-06 18:57:11,Hemanth.HM,GPG sig in logs,False
+a01ef67d14f0c257513abc687524beb6b99ae977,2016-04-02 22:00:49,Hemanth.HM,instaweb,False
+33c82592ac3558550b7a93a1c987480b787c9891,2016-03-29 21:45:21,Hemanth.HM,gc,False
+67b0393bb1c98972e89cdbdf099603402f20d115,2016-03-29 21:41:53,Hemanth.HM,count-objects,False
+def56a7e7b56b7bd687950b3ef2f09d2a97c32a6,2016-03-11 19:28:15,Hemanth.HM,open conflicted files,False
+1ca386656a3ddcc86f3e28be88a5d62ecc789266,2016-03-09 22:28:58,Hemanth.HM,rerere.enabled,False
+a5be265d69f86a68128052ae21a5cb13b931cc04,2016-03-06 16:58:58,Hemanth.HM,Commits in Branch1 that are not in Branch2,False
+46e66ce4b5ff58d7ba166926265767e8c56cb820,2016-03-02 19:36:56,Hemanth.HM,Status of ignored files.,False
+27f7cefb1bd584e5b5a9c9921d1303cbcb6e327e,2016-03-02 19:33:10,Hemanth.HM,List ignored files.,False
+7dcbedb26948031bba58eb6b0cead29211477a6f,2016-02-26 19:08:55,Hemanth.HM,-am,False
+d07dd0040ce793628257b9ac9d168399420ead2f,2016-02-22 19:20:47,Hemanth.HM,--autosquash tip,False
+f886fd31fa7201fc7775887449dbeeaf863a1770,2016-02-22 19:16:57,Hemanth.HM,--fixup tip,False
+cf260b7ef4ca49c5ec64d9f8abe294bcef6ab710,2016-02-13 10:15:23,hemanth.hm,"Merge pull request #43 from samarpanda/single-file-from-stash
+
+Grab a file from stash / commit-hash!",True
+e416adc1ff51abecb14fd6ccd279661e41126c47,2016-02-12 23:56:56,Samar Panda,Untrack files without deleting,False
+c42e1547abcc823db3b505cafc28f3074f75a9b0,2016-02-12 23:40:59,Samar Panda,Grab a file from a stash. Restore file as per a commit hash,False
+90d98ea9807976dfaeac388670da3302d2c925a8,2016-02-10 17:26:02,Hemanth.HM,--dry-run,False
+7e6c5f71b24aea0cb7afd81b14c1c17e8c6c895e,2016-02-02 18:36:01,Hemanth.HM,Check if the change was a part of a release.,False
+f8d2278bd02dc4c62fc9a2a4e145ca204c19a682,2016-01-31 21:00:33,Hemanth.HM,auto correct typos,False
+f4b8b94f592a1b0a298c0629e30949e4d1e4d1f5,2016-01-31 20:58:17,Hemanth.HM,Make git case sensitive.,False
+dfc0613a785454a80273f01521b3126b900baba0,2016-01-29 22:09:51,Hemanth.HM,List config and alias,False
+c99cc15ad1d255cf7e9bc2dea34471d2a5c3ae0a,2016-01-29 22:07:26,Hemanth.HM,Format,False
+2ce80d7d5d0fc111a7bc65523821d8cba41073e1,2016-01-17 22:13:52,Hemanth.HM,Reset author,False
+321da85d47a1a64c374c3996f784519e6bceb640,2016-01-17 22:12:36,Hemanth.HM,ammed author,False
+3c31eac72180a42b6c06e0046adf91063e1bf658,2016-01-01 21:12:17,Hemanth.HM,branch.autosetuprebase,False

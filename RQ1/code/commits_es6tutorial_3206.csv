@@ -1,0 +1,2762 @@
+Hash,Date,Author,Message,IsMerge
+d6884eebc49e6dfe322e726aa824e001553f62ea,2025-02-24 11:29:25,Ruan YiFeng,"Merge pull request #1176 from zihua-1022/patch-1
+
+Update promise.md",True
+cbbf9ac29642351144759ea980e2cbe3c9f02fc2,2025-02-22 17:20:26,zihua,"Update promise.md
+
+console.log的输出和展示结果不一致",False
+42cd9e36d145bc6ca4a4093238bb9120ca358a36,2025-01-25 16:25:49,ruanyf,docs(temporal): add text,False
+4c80184abe6d7cea9d1b79a5e837d7eca9dd6b25,2024-12-31 13:54:06,ruanyf,docs(string-methonds): fixed typo,False
+a100783a99259048fbe465638ad1085ffd4631fc,2024-12-25 07:33:33,ruanyf,docs(object): fixed typo,False
+b7b6c912957ce9809ead933cad9999c1d01ba031,2024-09-24 19:43:39,ruanyf,docs(number): fixed space style,False
+a434080ef30878f6425585c536501b9aade804ce,2024-08-25 16:41:48,ruanyf,docs(temporal): edit ZonedTimezome,False
+43e44201a8688ab3c0c87f614e7d3c6b19f2d922,2024-07-25 14:36:22,ruanyf,docs(module): edit import.meta,False
+3b89ca42e86442c412d2c95bbcce490717eacd2c,2024-07-25 14:21:38,ruanyf,docs(temporal): add temporal API,False
+ff265f79826d9c5447eff0b17a682432386af077,2024-07-25 12:12:35,ruanyf,docs(set): edit set operator methods,False
+bdbcf3e520536eff4c58c2920318cc11f1a1c409,2024-07-24 19:24:13,ruanyf,docs(proposals): edit pipe operator,False
+cc18cea57c3c96dc562ed5055252c1eb1a152611,2024-07-24 19:01:02,ruanyf,docs(regex): edit v flag,False
+f6e88af4bd0f5609d1c5bd405fd9750b3e3a5668,2024-07-24 18:27:35,ruanyf,docs(string-methods): add .toWellFormed(),False
+1a445eca49782ff86ade4aeafb300dfd02015112,2024-07-19 15:17:06,ruanyf,docs(generator): fixed typo,False
+642a4ab3e7954ea391db4709558b91e5b2d777ed,2024-06-08 15:38:04,ruanyf,docs(array): fixed https://github.com/wangdoc/es6-tutorial/issues/22,False
+9c0896c68317e60c3703e69e595fc88a7fca6bfa,2024-05-22 09:54:13,ruanyf,docs(class): 删除错误描述（in 运算符判断继承的私有属性）,False
+9324fdabefc5a0249a7491fe33dd896ea05c004b,2024-05-15 11:27:19,ruanyf,docs(regex): 正则匹配 Emoji 字符,False
+bae421dcdf73fdf71214b148358e44a0388e7fa5,2024-04-10 15:34:27,ruanyf,docs(module-loader): edit text,False
+128c0faf43485ade7d46b57f306a57ed15a41b05,2024-04-10 15:31:15,Ruan YiFeng,"Merge pull request #1172 from liliangrong777/patch-1
+
+Update module-loader.md",True
+79e15346b255485dfe3e89a686dfe1de2460433e,2024-04-10 15:02:06,liliangrong777,"Update module-loader.md
+
+fix: 内容修正",False
+fc58b0c1505654bde876ace4f8f1f7f5882876fa,2023-12-30 12:12:23,ruanyf,docs(class-extends): fix typo,False
+a623e19fb97f6dbefa25f5c5fa554160103e1bf3,2023-11-09 17:08:57,ruanyf,docs(intro): fix #1170,False
+17246d85bb9e4364adc787d097ce1a158daf84ec,2023-08-24 11:50:57,ruanyf,docs(proxy): fixed #1167 Proxy get(),False
+b1b35cde31aa38b1a2e9b7fd330f993a1995d534,2023-08-24 11:31:03,ruanyf,docs(symbol): edit Symbol.toStringTag #1166,False
+4c06dfbfca63d1c09b07d21374add98f72175848,2023-08-22 16:27:53,ruanyf,docs(symbol): fixed #1166 Symbol.toStringTag,False
+e8c2d2ea7fcdc36c61c90b067af52407e46f1bf8,2023-08-19 13:37:40,ruanyf,docs(decorator): fixed #1165,False
+1b9a0ccfe00b1c3b02eb5982dd6e71b803f52dd0,2023-08-19 13:01:01,ruanyf,docs(class): add Chrome 111 devtool supporting private field access,False
+16f567b074060d84223b324b956f61f2ec3ab9af,2023-08-07 09:33:50,ruanyf,doc: edit README,False
+45614204906bdc55902d7199662b8f7df7922782,2023-08-07 09:30:15,ruanyf,doc: edit README,False
+d47a259b1335b609cafcb63039ed7c4969782326,2023-07-26 16:36:24,ruanyf,docs(set-map): fix Symbol() as WeakSet/WeakMap key #1162,False
+49351992ceb523db5ce3f9b38de52c45a4711090,2023-07-20 12:08:25,ruanyf,docs(array): fix .group() #1161,False
+afa1b0dbeedb540c692ea7a6be684cc3859ed1e8,2023-07-17 13:47:14,Ruan YiFeng,"Merge pull request #1160 from succyag/patch-1
+
+Update regex.md",True
+996628943ccedafc7f8cf2283526969f62edd660,2023-07-17 05:42:51,succyag,Update regex.md,False
+ece963d6ab2ab7ea8337a74de61b660a83bc1fee,2023-07-16 19:16:01,succyag,Update regex.md,False
+a342ebff148fb81ed01f49f56a603ee36cfd6a3d,2023-07-13 13:57:54,ruanyf,docs(class): fix private field #1159,False
+7dbca2b4bd469ec7577ea7dc101181b6d051fdaf,2023-06-27 12:33:55,ruanyf,docs(class): edit text,False
+4e4058291619a07ff6e90b2702fcbf3c67cf316a,2023-06-15 10:48:56,ruanyf,docs(module): fixed #1157,False
+43222de51b3574f98e217364f0c271ca2cce46a2,2023-06-06 13:44:47,ruanyf,docs(set-map): fixed #1155,False
+116b46f5abb66fde86411a434687c2469348caf0,2023-05-18 10:57:56,Ruan YiFeng,"Merge pull request #1153 from qijizh/gh-pages
+
+docs(generator): update example",True
+982f4983a9a178d6eb78b92b1dd2b9496bf0f8e5,2023-05-15 00:21:11,qijizh,docs(generator): update example,False
+87d5dedb2d4f34682209884489ae5b7248e1b001,2023-05-09 11:30:30,ruanyf,docs(style): edit text,False
+50e9ced0da7f4af04838202baac3d2522bb75c0e,2023-04-07 21:47:12,ruanyf,docs(operator): #! 命令,False
+b68c36d912853638861f7d74b74bf20b7dbe00ee,2023-03-06 12:54:12,Ruan YiFeng,"Merge pull request #1150 from Hencky/gh-pages
+
+docs(set-map): WeakSet methods",True
+0928b9cc1575830b53b4637cc2b065ce8ae40e45,2023-03-06 11:26:07,Hencky,docs(set-map): WeakSet methods,False
+badabbffe79c502509bcd7ae46ff19892a5155e9,2023-03-02 21:10:45,Ruan YiFeng,"Merge pull request #1149 from Hencky/gh-pages
+
+docs(set): fix delete fn",True
+b20e38b7b8c434dffe4cc7d5b12335a4833b5639,2023-03-02 16:34:49,Hencky,docs(set): fix delete fn,False
+f7b84f228a54f9bd96cb41d9621893f14019d345,2023-02-12 07:52:51,Ruan YiFeng,"Merge pull request #1148 from islishude/patch-1
+
+module-loader: remove `--experimental-conditional-exports`",True
+60e128cb93649fbabe727cd67e2f10f5490482cb,2023-02-12 07:35:16,Shude Li,"module-loader: remove `--experimental-conditional-exports`
+
+ref: https://nodejs.org/api/packages.html#modules-packages
+
+> Remove the --experimental-conditional-exports option. In 12.16.0, conditional exports are still behind --experimental-modules.",False
+7523f55ca89936a27aa8aea4f781e922561cc893,2023-02-02 06:25:08,ruanyf,docs(arraybuffer): update DataView methods,False
+07e9c1553ccbdfe2d6011da14d91edef40a3630e,2023-02-02 06:20:23,Ruan YiFeng,"Merge pull request #1146 from peterwangfeng/patch-1
+
+Update arraybuffer.md",True
+7fc248d6f387b50f090fcfb19eab120a29ac137e,2023-02-01 13:01:01,peter,"Update arraybuffer.md
+
+DataView add setBigInt64 getBigInt64 setBigUint64 getBigUint64",False
+6d244f60bab921546410ee264ac861b782b27132,2023-01-19 22:19:55,Ruan YiFeng,"Merge pull request #1145 from likeke1997/gh-pages
+
+refactor: prism添加对typescript的支持",True
+9007f1ff42d58c60594771c87ea9a7e226d1d6fc,2023-01-16 14:19:30,柯柯,refactor: prism添加对typescript的支持,False
+b638fb01450b5b696dfd49111492c2fef3fc6f0a,2023-01-10 14:56:08,ruanyf,refactor: adjust wwads banner,False
+b9c8b3d1c438d606902baa93540c702c1b759482,2023-01-10 14:53:37,ruanyf,refactor: adjust wwads banner,False
+09a4657236d8e8b2e768fed0cc7249b581b549ce,2023-01-10 14:47:26,ruanyf,refactor: adjust wwads banner,False
+010daf6830bc13010a10ddaee999734ac4cbe1e3,2023-01-10 14:34:19,ruanyf,refactor: adjust wwads banner,False
+536ac2251ae443d90a2db3df118b3b15507ed427,2023-01-10 14:11:50,ruanyf,refactor: adjust wwads banner,False
+c1a81dc51dcbe5ebc7ba30b16745cebc200dbaa5,2023-01-10 13:52:04,ruanyf,refactor: adjust wwads banner,False
+f9ef8fdae5bbd13a2e61a97534bc0218c4587c10,2023-01-10 13:39:45,ruanyf,refactor: add wwads banner,False
+90c0ea7cc872bae5d40442dac595f92ac1d6c6b7,2022-12-23 17:00:24,ruanyf,docs(class-extends): add new materials into super(),False
+1623fdc9f6462fd0d9796b3b89e56be7b79654c4,2022-12-07 16:49:02,Ruan YiFeng,"Merge pull request #1144 from w-l-l/patch-4
+
+docs(decorator): fix typo",True
+add0bba14eab2b26c2a9929f7a624a7d79fea215,2022-12-04 08:34:22,林,docs(decorator): fix typo,False
+ef2f8784732df5483c49c72f470d3f0177a2e7f8,2022-10-23 15:30:26,ruanyf,docs(decorator): edit text,False
+406ba6da6d6996ae8d6a48bb915c1522d16c9dbf,2022-10-23 12:42:22,ruanyf,docs(module): fix import.meta typo,False
+7f1acfe29b49a5ce048798759de059a7f0aef165,2022-10-23 12:30:04,ruanyf,docs(module): move import.meta from proposals to module,False
+ef5e3a2ea341c27dedba8a533fd7d5fc07bb095b,2022-10-18 18:41:54,ruanyf,docs(class): fix typo,False
+36b55b9ec93252d17040d01fcdbba46e4eb2b50a,2022-09-21 12:58:20,ruanyf,docs(class): 静态块,False
+0eaf2d8ec2dbc5914413e771739e2ec06710f295,2022-09-21 12:48:12,Ruan YiFeng,"Merge pull request #1140 from w-l-l/patch-3
+
+docs(class): fix typo",True
+1a8f46c628ed56c6e27e02f5999fdad37cafe0b6,2022-09-20 19:09:05,林,docs(class): fix typo,False
+cded3bc1440ffe08272cf66242dcad4373988c8b,2022-09-18 17:48:44,Ruan YiFeng,"Merge pull request #1137 from w-l-l/patch-1
+
+docs(class-extends): fix typo",True
+e808d04dc4d8831fd70b3a5be736145a5dbc2355,2022-09-18 15:36:46,林,"Update class-extends.md
+
+docs(class-extends): fix typo",False
+6288fc1e8dccbec3017ad2acc9182dbe260ca7c5,2022-09-01 15:31:15,Ruan YiFeng,"Merge pull request #1135 from condorheroblog/patch-2
+
+fix: line feed causes HTML rendering error view",True
+5730890e865c485873deebbadd4d53339c05cda0,2022-09-01 12:15:02,CondorHero,fix: line feed causes HTML rendering error view,False
+eba1ada2e008ecf9c9b4948f85d265e64b2d18ca,2022-08-31 23:17:37,ruanyf,docs(proposals): edit Math.signbit(),False
+cf4c9471dbc458cc1c3bc538a37073c809815690,2022-08-31 23:02:10,ruanyf,docs(proposals): edit links,False
+2b448b6b16b874f635b11103dcf66b7d48fc8ed4,2022-08-13 18:54:40,ruanyf,docs(clss-extends): add inheritance of private property,False
+21edbe4ea68a33e124440b06e5c9887192ccce30,2022-08-08 19:28:20,ruanyf,docs(symbol): edit text,False
+686fcff1550d039021e114a9f63ba1bb36e91145,2022-07-31 08:09:03,ruanyf,refactor: edit support banner,False
+6bf915570cd991017907db9eafd4f70d2cdcb408,2022-07-31 08:02:40,ruanyf,refactor: edit support banner,False
+829920e61cc3c475c8ad309a8c5d892f0565493a,2022-07-28 12:01:44,Ruan YiFeng,"Merge pull request #1128 from nicong622/patch-1
+
+docs(set-map): fix typo",True
+010de735fe6a178a2cf53e6a2cd22138b92f76bb,2022-07-24 19:26:08,nicong,docs(set-map): fix typo,False
+9348fd2839daa28c01e6482746f55705ba360494,2022-07-23 09:25:56,ruanyf,refactor: edit support banner,False
+4c0201cf2f701e655155fc14bd4b4195d4267732,2022-07-13 12:55:57,ruanyf,docs(class): fixed #1125 private class field,False
+7d030c6ae039e7642f5dd4bb8d7817afd6be7d08,2022-07-06 09:41:29,ruanyf,docs(async): edit top-level await,False
+7d22df8e2998374d6425c7f79166837fc678760a,2022-07-06 09:33:15,Ruan YiFeng,"Merge pull request #1122 from condorheroblog/patch-1
+
+docs(async):  fix typo",True
+a0c47d5e6e256386ce0d07fc7d595dc6c31de6f5,2022-07-06 09:26:11,ruanyf,docs(regex): edit d 修饰符,False
+aab3314bb8d6941d710843ed6ad094fd50367722,2022-07-06 08:43:20,Ruan YiFeng,"Merge pull request #1121 from xt1995726/gh-pages
+
+docs(regex): fix es2022 indices",True
+a090a27f2051be2734662b6bd43d8d5b726fab36,2022-07-01 13:08:34,CondorHero,docs(async):  fix typo,False
+d4d888e94ee9eaa8ea8cfda30dcaae4f59e6d311,2022-06-30 18:16:54,xt1995726,typo: match -> match(),False
+f45f032a239256cdab56b98621aa54b77cbfb20a,2022-06-30 18:01:26,xt1995726,docs(regex): fix es2022 indices,False
+f6bb1b931dab654bf0d979fd29294440f353d746,2022-06-28 01:54:14,ruanyf,docs(decorator): edit editor notes,False
+fbd7faf0bc26377dc1495722692802e1c401e0f8,2022-06-28 01:36:38,ruanyf,docs(decorator): add stage 3 proposal content,False
+41970f7db088611b61b8c1638a6a7c27e267c1f5,2022-06-26 19:47:23,ruanyf,docs: update latest proposals,False
+6880b36897aed5b553c5b7437ad15da2469f19c5,2022-06-25 19:29:29,ruanyf,docs(class): fix typo,False
+a837d8f2ce01638481bb312d5e45f80886f3f473,2022-06-25 18:55:13,ruanyf,docs: update ES2022,False
+e0772de8ec056088910e87dd77fe8ea0f02bb64f,2022-06-07 12:57:41,ruanyf,docs(promise): edit AggregateError,False
+b5fa35003bd342130fcec358c82fc8b3d3e1807b,2022-06-07 12:49:17,Ruan YiFeng,"Merge pull request #1118 from Mookiepiece/gh-pages
+
+docs(promise): edit Promise.any()",True
+8b9f1924a824898cb871dd2d69dc84c15ac1f0cc,2022-06-04 16:19:46,彼術向,docs(promise): edit Promise.any(),False
+ef7033411bf0f5e43bb968d2c5b56b4249b3aa23,2022-05-29 12:48:40,ruanyf,docs(module): edit import(),False
+95e2e7921914ed8fc1b961a74578b8e1eab413da,2022-04-09 18:08:45,ruanyf,docs(object): edit 对象的扩展运算符,False
+e856f9e4cb2ca63b75ed0590761e442cbdab0091,2022-04-09 17:31:36,ruanyf,docs(function): edit 函数参数的解构赋值,False
+8a214a6ead28cddb804d162407bdf86ae453ce25,2022-03-31 11:53:23,ruanyf,docs(array): edit Array.from(),False
+1fad026e15ad2be048ba0572615e301836f5d0be,2022-03-08 18:41:59,Ruan YiFeng,"Merge pull request #1110 from 5unnyWind/patch-1
+
+Update object.md",True
+ce7fd818454c96dee3f583a158df4a936805214d,2022-03-02 09:11:21,5unnyWind,"Update object.md
+
+Delete an extra comma.",False
+9218ba8731ce2800c656b708f3e5f2ae323e2b55,2022-02-08 12:02:10,ruanyf,refactor: add support banner,False
+8d81fef48ae3881a52e00f30a418a39d1a9a0ffc,2022-02-07 20:42:57,ruanyf,refactor: add support banner,False
+bcfe5ee3d5f8ca01792fb4b32e96fa0762e40f0a,2022-02-07 20:39:45,ruanyf,refactor: add support banner,False
+b2a122e4d65c13e481b99cc159e805e077978531,2022-02-06 12:35:09,ruanyf,docs(symbol): fixed #1107,False
+b27028056ca10df9dba574d4c2e7681dbac1ace0,2022-02-05 15:07:02,Ruan YiFeng,"Merge pull request #1108 from liuxuan1-1/patch-2
+
+Update class-extends.md",True
+e064886347e7b91c418d714d81d86d0ce3fb8a5a,2022-02-05 14:01:02,Liu Xuan,"Update class-extends.md
+
+clss =>  class",False
+7fa7ee1af3da8225bc5ed43a1988fe04a917af3a,2022-01-24 12:03:44,ruanyf,docs(class-extends): edit text,False
+255eedbeee81f0d20b42fa3f2e563db32d14662e,2022-01-06 13:23:33,ruanyf,docs(reg): edit Unicode 属性类,False
+cddf4b842936d3579ca11a05578e9ff45050923d,2021-12-31 09:04:06,ruanyf,refactor: edit support banner,False
+d9ec0db599c6d879cac38ab0ba33ffb2cb3fc0a9,2021-12-29 14:49:36,ruanyf,refact: edit support script,False
+fd3eb89a6cb827fae57be255a3ab23994cd86b73,2021-12-02 23:29:35,ruanyf,docs(proxy): fixed #1100,False
+664f6850f7958c54611b87ba8a0a14d6b4f1894e,2021-12-02 23:16:25,ruanyf,docs(class): fixed #1099,False
+4781407a6833da40e64d9dc20e4319f7b8d3cba5,2021-11-30 16:54:34,ruanyf,refactor: adjust support code,False
+a0265eff291273a901d67203622470fc05ae1899,2021-11-30 16:38:31,ruanyf,refactor: adjust support code,False
+a066b9a3895ff3b227e0b4f84dddd22330f01af7,2021-11-23 15:30:34,ruanyf,docs(module-loader): fix typo,False
+f4030e129d2a74c52a8203303eae3e0461438565,2021-11-23 13:04:50,Ruan YiFeng,"Merge pull request #1097 from ConradZhangcong/gh-pages
+
+fix typo",True
+74de2938780d3351f7dc210cf12733ee36ed0ede,2021-11-23 09:00:52,ConradZhangcong,Update array.md,False
+c039b6f2c2d737f9524d26015007984e3c58d1bf,2021-11-22 13:20:37,Ruan YiFeng,"Merge pull request #1094 from ConradZhangcong/gh-pages
+
+fix typo",True
+221577312116b41a276d2f466a5b4d12c9020e27,2021-11-16 13:25:20,ConradZhangcong,Update string-methods.md,False
+79e871c87201ef1ac482080ff553e65185af473a,2021-11-15 01:03:33,Ruan YiFeng,docs(array): add at(),False
+1a0eaa5ffcfbb130cbd8270926c791555cb25c18,2021-11-13 22:21:52,ruanyf,docs(iterator): fixed #1093,False
+a82ed100a3360b9c0ff7154ab1aa7f3283edf689,2021-11-01 16:27:37,Ruan YiFeng,"Merge pull request #1089 from vinzid/patch-1
+
+Add script suffix to prevent error",True
+728b545742abc75dc0059e94bb9e14e674f3044f,2021-10-31 16:48:47,Chenwei Xiao,"Add script suffix to prevent error
+
+增加文件后缀，否则会报错 `Error [ERR_MODULE_NOT_FOUND]`",False
+cee42e6227cf3ded43f89b598b2f840d3ccf1e77,2021-10-21 05:57:38,Ruan YiFeng,"Merge pull request #1088 from Lohoyo/patch-2
+
+Update function.md",True
+5b57360b2da7d51bb6a284a7e0f795d16c12de20,2021-10-19 09:03:57,Huyue,Update function.md,False
+de768691a70e4192e34fa16029010218e586ba5e,2021-10-19 06:37:31,ruanyf,docs(string): fixed #1086,False
+180c700591417f183f183f9266f03758e0cdbfd0,2021-10-04 14:26:40,ruanyf,docs(style): edit module style suggestion,False
+e17a5816f5c4e3f93eda577e20b318f565a0756e,2021-09-19 13:29:50,ruanyf,docs(object): edit AggregateError,False
+1fdd34ebbfb749f0fc8db113c388224ef5d37ed7,2021-09-19 13:24:44,ruanyf,docs(object): add AggregateError,False
+a687c3927d471b671e5e0da99bc976ea734fb098,2021-09-17 16:13:22,Ruan YiFeng,"Merge pull request #1081 from Lohoyo/patch-1
+
+Update intro.md",True
+9388b337a1853698141b7291f8c067406994c97c,2021-09-17 12:54:41,Huyue,Update intro.md,False
+9b210c0be24ee8f42dd83088ba9bdedb7a01cc49,2021-09-09 12:14:26,Ruan YiFeng,"Merge pull request #1078 from imba-tjd/patch-2
+
+use https for some links",True
+c43e5ca51843b10cbc1a9f04336a15ab809d5de0,2021-09-09 11:44:32,Ruan YiFeng,"Merge pull request #1077 from imba-tjd/patch-1
+
+fix typo: 或 -> 会",True
+daa455fb2ac2db87f424d42ad9b7849fc7f54449,2021-09-09 06:44:43,谭九鼎,use https for some links,False
+248b51a5df069e6dfdc774b199a911d8ce5768e4,2021-09-08 18:55:53,谭九鼎,fix typo: 或 -> 会,False
+84dba5689b5b718a445ea6b9992ad787e9143d4e,2021-09-08 16:07:50,ruanyf,docs(style): fixed #1076,False
+d50868c4bb65d760e07eb8fa9fb3b5976b98d6a1,2021-09-02 17:33:21,ruanyf,refactor: edit support banner,False
+47dec55486be2010a16a41cc0e8af6bc9e42e4f2,2021-09-02 05:59:12,ruanyf,docs(class): 加入 static block,False
+4d9b22c6c85173cdec18cc0db99325b961af1f76,2021-08-09 22:41:23,Ruan YiFeng,"Merge pull request #1073 from newbeman/patch-1
+
+Update operator.md",True
+f56ca0a7fbd23c77070ca82fde98599e41950c83,2021-08-09 22:36:37,Ruan YiFeng,"Merge pull request #1072 from roc-an/patch-4
+
+fix: BigInt 不是构造函数",True
+25f95e070c2ce37d1872c3852bdc140088e718c6,2021-08-09 22:17:43,Ruan YiFeng,"Merge pull request #1071 from ThroughTheNight/patch-2
+
+fix: 使用 Array.from 替换 Array.prototype.slice.call",True
+de8fad91c77948e28dd08451c5205baa0b571101,2021-08-09 14:50:00,ruanyf,docs(promise): edit Promise.allSettled(),False
+a802e37d78d8c11be6b6c9fb8c5c0848a923c575,2021-08-07 14:31:04,newbeman,"Update operator.md
+
+参数对象`opts`如果不存在属性`foo`和属性`bar`   
+变更为
+参数对象`opts`如果不存在属性`foo`和属性`baz`",False
+0549983c536f4d5cda1760b8874d163403be3dfa,2021-08-06 14:52:59,An Hongpeng,fix: BigInt 不是构造函数,False
+562c688e3d654f85af523438858472e11fba8700,2021-08-06 12:43:37,bieyanghong。,Update function.md,False
+9cf2cca1a8e15f735f5056537fc164948bcf7721,2021-08-04 13:57:37,ruanyf,refactor: edit support banner,False
+5eb76ed5399ac2d6063f28061f85e1f8849f978a,2021-08-01 06:23:05,Ruan YiFeng,"Merge pull request #1066 from MrCare/patch-1
+
+一处笔误",True
+1f57596bb112291093c6a05982bdf6a7d2f2db1f,2021-07-31 12:08:19,Mr.Care,"一处笔误
+
+在字符串 replaceAll（）方法中的第二个参数的说明部分，按照笔者的意思`$&` 应当代表匹配的“字符串”，而不是匹配的“子字符串”",False
+4ead6a067fbf4f9e8592167fd2988aa29096a8e6,2021-07-27 23:02:44,ruanyf,docs(class): fix typo #1065,False
+12ce67fced74e907bed8046a659a813a373b471e,2021-07-22 21:42:35,Ruan YiFeng,"Merge pull request #1064 from ThroughTheNight/patch-1
+
+Update let.md",True
+864c2c09aaf364fe90b4b3fe58001cf72d54fad2,2021-07-22 14:47:02,ruanyf,docs(proposals): JSON 模块,False
+9d51292b694a15eb19f8864c6660f3e01fde2a4b,2021-07-22 14:41:21,bieyanghong。,"Update let.md
+
+增加一个解释，方便刚入门的同学理解。",False
+6a972dfdee91c752709089cdb5ecb16c72db2ad8,2021-07-14 21:42:22,ruanyf,docs(operator): fix WeakRef typo,False
+2139df3b35e5c5a099bc473e16d9c8b0165149a5,2021-07-14 21:28:44,Ruan YiFeng,"Merge pull request #1063 from yonghui-wang/patch-2
+
+Update async.md",True
+145e84021d12ece8be356760efefaaf58bbb407b,2021-07-14 14:32:26,王永辉,"Update async.md
+
+console.log missing a )",False
+9181f78036646474aa597ae91542b411bf1bc4f2,2021-07-10 12:29:18,ruanyf,refactor: update chapters,False
+fdac6ccb2e93dc4956e8b8ab10cdfaa912b4ca73,2021-07-10 12:28:15,ruanyf,docs: add ES2021,False
+8e236cb8b2584ea7b2e4eb2f754155f8ef28571c,2021-06-02 17:56:21,ruanyf,refactor: edit support banner,False
+89370afc1ce03750af7f3eb4469c9e6deec0d65b,2021-05-24 16:36:00,ruanyf,docs(class): 添加 in 运算符,False
+05031368ba9dc91e51962e3d2fd1d26600671a01,2021-05-19 00:32:15,Ruan YiFeng,"Merge pull request #1055 from codeudan/fix/this
+
+docs: 修正已知的 this 术语错误",True
+4f2353a7c7779798d5e1b39257fff50747412827,2021-05-19 00:27:50,Ruan YiFeng,"Merge pull request #1054 from codeudan/gh-pages
+
+docs(function): 调整不合适的函数描述",True
+53cb4d3ef806575686238cf74df611fe04fe9f5e,2021-05-15 22:09:45,daungui,docs: 修正已知的 this 术语错误,False
+d41bf835a189a2f93b5881e720c35196f6590a1b,2021-05-15 21:59:50,daungui,docs(function): 调整不合适的函数描述,False
+ee1b51ecd175675595edc685f68d1f56009b171e,2021-05-12 06:12:53,ruanyf,docs(set-map): edit text,False
+e6b02106fd10c5f3330c364c28f08a45a99978e6,2021-05-12 06:01:44,Ruan YiFeng,"Merge pull request #1052 from codeudan/gh-pages
+
+docs(set-map): 改进 WeakSet 和 WeakMap 文档",True
+71af30def18573f73e6d75df7c288cabd2ce04e0,2021-05-11 22:37:14,ruanyf,docs(function): fixed 箭头函数的this #1050,False
+85b8174db3bd7b2e59a370bca4841f01941ca25f,2021-05-08 20:14:31,daungui,docs(set-map): 改进 WeakSet 和 WeakMap 文档,False
+0163114de44864ddc0ec1f8b3822b0e7494613d9,2021-04-26 07:44:49,Ruan YiFeng,"Merge pull request #1048 from roc-an/patch-3
+
+fix: 强迫症犯了想去掉多余空格好看一些",True
+59146b4806f42ad9bb1587651493ceabaf28f0c3,2021-04-26 07:34:13,ruanyf,docs(proxy): fix set return value #1047,False
+fa03d29d6410caa1074382a0cfe8650222ed2220,2021-04-24 20:52:28,An Hongpeng,fix: 强迫症犯了想去掉多余空格好看一些,False
+95f57f881e58cd13ade07f4ba601a12b8c0c0a2a,2021-04-23 15:49:58,Ruan YiFeng,"Merge pull request #1044 from roc-an/patch-1
+
+fix: remove 'else'",True
+d39c55d978080d4bf3b7431aecbb43dee914972b,2021-04-23 14:39:31,Ruan YiFeng,"Merge pull request #1045 from roc-an/patch-2
+
+fix: 为输出补充示例",True
+d09058f44ede41cbb44612d0817a53d4ca5a65fb,2021-04-20 17:33:08,An Hongpeng,fix: 为输出补充示例,False
+e9fd28bf6460140cdc652ff50755bcfbcb68012b,2021-04-18 19:02:40,An Hongpeng,fix: remove 'else',False
+3929f4f21148dcd2a10d2ebc722323a5dbd473f4,2021-02-23 14:02:04,ruanyf,refactor: edit support banner,False
+631a66ea8f89fff4547cef0ae9fb6970d9fb628d,2021-02-20 17:14:10,ruanyf,refactor: edit support banner,False
+ec9db66106511904747de9ef7bd590e6935e10e8,2021-02-20 17:10:37,ruanyf,refactor: edit support banner,False
+543678f9ddcdf3b5ee670dde8aeb624d07669055,2021-02-11 13:23:32,ruanyf,docs(array): fix #1037,False
+94616305e53401ad24daec046d9c302c2eee726f,2021-02-05 11:27:28,ruanyf,refactor: edit support js,False
+b45161a0f6a0658029432d38b6526a58c3b428b4,2021-01-22 20:39:50,ruanyf,docs(proxy): fix #1032,False
+802ee5e9e5f1cc616ba0c4ca116c0f23896f2edc,2021-01-06 21:43:17,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+4309e6aad345a473be5bdf4ca01f140e58232ad1,2021-01-06 21:42:47,ruanyf,docs(regex): edit regex,False
+78972be0613c9fc8fef6e6668818fc5f5e66b394,2020-12-22 21:50:44,Ruan YiFeng,"Merge pull request #1029 from Geekhyt/patch-2
+
+Update promise.md",True
+1d556be8a7e396608639b7263f7ad4b7a5054fe9,2020-12-22 21:34:15,童欧巴,"Update promise.md
+
+这里也需要同步下，阮大。",False
+1c99572bc7be46aece9cea600f42ab0a9a55a79b,2020-12-22 21:11:42,ruanyf,docs(promise): fix #1028,False
+cc2420e644113f25b4598b940dd321a0b5e3b09f,2020-12-17 13:19:41,ruanyf,docs(function): edit arrow function,False
+d04189323a2d6ed96b261ccf22f08e5f47f00cf8,2020-12-09 10:40:24,ruanyf,docs(class): edit class intro,False
+56d15b327aab1005adc52375a84c2c901761422c,2020-12-03 20:47:05,ruanyf,refactor: edit support banner,False
+761d1075223cc931a28ff08c5b709969e5ce8606,2020-12-02 15:48:40,ruanyf,refactor: edit support banner,False
+038a080f7b08181d3f2d17d5756f985665225dbf,2020-12-02 15:09:44,ruanyf,refactor: edit support banner,False
+bc0ba763f7c15ec2a505ab864ba3cb0c2a087f00,2020-11-29 10:34:11,ruanyf,docs(async): edit reduce(),False
+201eebe08fa11f992196a9a40a98ba3be2a48d8d,2020-11-29 09:53:59,ruanyf,docs(async): fixed #1023,False
+584d5d93321cf780a9d51e2e0f787052f2e3a2fa,2020-11-25 04:54:09,ruanyf,docs(generator): edit style,False
+ff4778487cf48986cb43df000c7e568f83abf27d,2020-11-25 04:27:53,ruanyf,docs(style): fixed #1020,False
+a326217687f9cc8335d3cf9ba9147bb9a7e335a8,2020-11-17 20:09:58,ruanyf,docs(string): fix typo,False
+f8171643cdfaa826fe1b21e589757a4e953a30b8,2020-11-17 20:02:59,ruanyf,"docs(string-methods): edit replaceAll(), fixed #1018",False
+861dd41fc542c11b991c1b472cc82a454f4abbaf,2020-11-06 20:06:42,ruanyf,docs(arraybuffer): edit Atomics.load(),False
+04dddb2d7c34cbcd90a0bd1f027835bd744bf827,2020-10-31 23:03:11,ruanyf,docs: fix wangdoc-es6 #4,False
+2ed3a6ba3b455045ff84d350f8a34e9790658a7d,2020-10-31 21:33:02,ruanyf,docs(promise): edit Promise.any(),False
+492fb25238677ab3e69e376f70dbe3604814fb35,2020-10-27 20:26:35,ruanyf,docs(string-methods): add replaceAll(),False
+356b0db1b0095a4e80b516a05cdf69f8bbdc0cad,2020-10-25 10:03:23,ruanyf,docs(string): add replaceAll(),False
+d1f96feee0279ee4c1fe83a62bd6c17b3175fed0,2020-10-24 17:00:43,ruanyf,docs(proxy): fix this #1014,False
+8f852c0425814d80d6a6108632ef3ce79cda1b36,2020-10-24 11:12:45,ruanyf,docs(Atomics): Atomics.wake() rename to Atomics.notify(),False
+2e082a334320716c81cb9e24cf4cd634e133d088,2020-10-23 19:50:10,ruanyf,docs(module): fix module suffix,False
+4bd4d771518c81b839f4a666514d99cff23ff4b7,2020-10-02 16:08:14,ruanyf,docs(function/arrow fucntion): edit #150,False
+c2d1792c62ff7e805a9705d341629511338fa24b,2020-09-22 22:45:20,ruanyf,docs(set-map): edit WeakMap,False
+6ff7cb8a2f61d31d86159e2d87256fab33ea59af,2020-09-17 11:48:50,ruanyf,docs(class): fix private property,False
+746a9188b61dbdcb8c36286b1db800276b83f137,2020-09-16 06:43:54,ruanyf,docs(proxy): edit construct(),False
+c025fc9067a0ef04cab18e34e5313e01316e9148,2020-09-16 06:27:33,Ruan YiFeng,"Merge pull request #1009 from chua1989/gh-pages
+
+Proxy中添加对handler.construct的this的相关描述",True
+48e318b12be1531b53de3306b5a669f0101cc3af,2020-09-15 18:41:55,chua,"Update proxy.md
+
+this问题中添加对handler.construct钩子函数中this的描述",False
+9f1f925fc1fd48a85b8bc5c9211229fbfe6a209d,2020-09-15 18:32:41,chua,"Update proxy.md
+
+添加handler.construct中对于this的描述",False
+10defdbcacf524ec938969ad341670391d677a9d,2020-09-15 17:53:25,ruanyf,docs(async): fix typo,False
+8a5b57058d62f5bba5451e070a5b266d23e3d882,2020-09-15 14:47:25,Ruan YiFeng,"Merge pull request #1008 from jacty/patch-1
+
+优化了 async 函数内部报错会导致 Promise 对象变为`reject`状态的例子",True
+841eebb2a11f0714f1d5a1bf6850cf32adc37bd0,2020-09-15 14:42:48,Ruan YiFeng,"Merge pull request #1007 from careteenL/patch-1
+
+docs(decorator): 修改函数提升时代码实际执行顺序",True
+0f1acd319a870cb7380c5ca7a1b6bb6d24b322c4,2020-09-15 09:06:32,ruanyf,docs(iterable): fix typo,False
+f81d202a097e85d31fdae5e898b30b42395dcc74,2020-09-15 08:41:57,ruanyf,docs(proxy): fix constrct(),False
+c43225319371a27984822c4038404d5292507378,2020-09-12 22:41:40,Jacty,"优化了 async 函数内部报错会导致 Promise 对象变为`reject`状态的例子
+
+原来的例子并不能很明显的表示打印的内容来自于 reject 的回调。",False
+6dc250f739200e5f8a4f542b1fc0e870c0c40f24,2020-09-12 15:15:34,Careteen,docs(decorator): 修改函数提升时代码实际执行顺序,False
+50b25c1a64fe00e110c83aada6ae824a84945763,2020-09-10 19:03:08,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+d4952d6d796d606947cef12149bd383be401fa2d,2020-09-10 18:54:39,ruanyf,docs(module-loader): fix typo,False
+04ff59288a27891103c729f111d61ed59ffdc2f4,2020-09-10 18:44:06,Ruan YiFeng,"Merge pull request #1006 from hehe1111/patch-1
+
+(docs): fix typo",True
+76fc255da46beb06e52c393a01544765c82c510d,2020-09-10 18:23:57,ruanyf,docs(promise): edit Promise.reject(),False
+2f76a9f55f8f7d330ad1c01d43ab9ddee6b50cc9,2020-09-09 08:59:06,hehe1111,(docs): fix typo,False
+4e14b40bfcde1aae70edbed62d6c561073546a43,2020-09-01 22:23:32,ruanyf,docs(object): fix #1004,False
+dd892f89acf76149d866e372214ee06c53e51393,2020-08-29 10:26:33,Ruan YiFeng,"Merge pull request #1002 from zhidaoliu/gh-pages
+
+feat: add change theme",True
+adb49644ad8016b06ee1f3b417b5d958f4dcf90d,2020-08-29 08:54:38,ruanyf,docs(module-loader): fix typo,False
+e33a66895df25191222a424e6b9e3aae0649f172,2020-08-25 07:15:02,=,upt: delete note,False
+dfe3373143a539f9a9d7b5518868be4d19faa8a4,2020-08-21 09:39:30,=,feat: add change theme,False
+2613635b774184b9661f3ead26e385769c078c01,2020-08-20 17:56:45,ruanyf,docs(module-loader): fix typo,False
+a841acdca5fe465f5f6548d407bf5d7192bd276d,2020-08-20 14:06:45,ruanyf,docs(module-loader): fix typo,False
+7b8c0632f62f3da9310f6fe13e8d6c96c72111e5,2020-08-20 11:49:23,ruanyf,docs(module-loader): edit 同时支持两种格式的模块,False
+09accf90d958db8f31dd930801fb509905f8b5b6,2020-08-19 18:33:52,ruanyf,docs(module-loader): fix typo,False
+266199c2d2db82e0ae32134b71ab194485b43b9d,2020-08-19 18:21:55,ruanyf,docs(module-loader): edit Node.js 的模块加载,False
+9461a922f6e8ab6ad10ed351007a4418d42d8c6d,2020-08-14 20:05:52,ruanyf,docs: edit README,False
+e78513744c80d552fb9c2268f09b2d15f6181eff,2020-08-06 17:26:54,ruanyf,docs(let): fix #1001,False
+064ee65efc665759a4074f6b533c4883a6f83e8b,2020-07-07 22:07:57,ruanyf,docs(object-methods): edit Object.assign(),False
+4425866c1011e83817179b04cb831bdbc409e1d3,2020-07-07 21:49:02,ruanyf,docs(object): edit null 判断运算符,False
+d59b30173d31e697b53865fbe776c824ba0aed26,2020-07-07 05:17:01,ruanyf,docs(number): edit BigInt,False
+0219f20c072780d1702a64e8073a686c4bbba50a,2020-06-21 17:28:46,ruanyf,docs(object): edit 链判断运算符 ?.,False
+f0a92d5ff0184f145b42cfcd4783dec615d1b44b,2020-06-12 15:12:44,ruanyf,docs(regex): fixed matchall() #992,False
+323e9620a78167f0feee1ca9905180a33d3ab77f,2020-05-31 17:47:06,ruanyf,docs(set): fix #991,False
+55cbbb8da9d604001f2886bbeeb52dda65ffb2b2,2020-05-14 14:14:18,ruanyf,fix: li tag click bug #984,False
+18e372d16285f628533418c61ea1b58d4c23e999,2020-05-14 09:20:13,Ruan YiFeng,"Merge pull request #982 from chenweitech/patch-1
+
+docs:完善Reflect.ownkeys()方法的描述",True
+3832b6a691daa4b52ec912616375def6f5f2bab3,2020-05-13 11:21:58,ruanyf,refactor: adjust support date,False
+6f59bc38e18f29552d14e5a661f3aaaf8d95c041,2020-05-13 11:05:10,ruanyf,docs(proxy): edit defineProperty,False
+2f908a58ba3b09bc233c9880cb14e8f57bdb5274,2020-05-08 12:50:46,Ricardo Chan,"完善Reflect.ownkeys()方法的描述
+
+```
+Reflect.ownKeys(target)
+Returns an array of the target object's own (not inherited) property keys.
+```
+Refrence: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",False
+d65a547832abd2ff664adc1d773d5613ecd70166,2020-04-25 11:43:46,Ruan YiFeng,"Merge pull request #979 from suzhongping/patch-1
+
+Update module.md",True
+e11dc14db1eb8621f511f72727725c9b95ed8488,2020-04-24 11:34:25,suzhongping,"Update module.md
+
+lowercase ""readfile""",False
+f81012440780376b29b10805db71118e813107cd,2020-04-13 16:16:51,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+c3dd90d54343d38693d8625a6503c4c16af466d9,2020-04-13 16:15:20,ruanyf,refactor: edit ditto/support,False
+38963f7dfbd5476115c44192c139711d0e0e97de,2020-04-09 11:52:58,Ruan YiFeng,"Merge pull request #971 from waitingsong/shell-exec
+
+fix(proposals): shell exec style",True
+7076dd5e4cbb9d180ce4d64f0b10e2889a4acd14,2020-04-09 11:45:26,ruanyf,docs(math): fix #973,False
+1474f82f17f9c77d1acef3b0d012b7c9b5a2f170,2020-04-07 07:57:28,waiting,"fix(proposals): shell exec style
+
+Executing file directly must start with (absolute/relative) path under Linux",False
+ac50325b6ef029a47b624fb02321dccd2dbdd8a6,2020-04-06 22:52:55,ruanyf,docs: edit Promise,False
+0849a77220012d053a576a21c5e9866235b9d4c7,2020-04-03 18:16:18,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+03c9e345a7d254043a748089868b27ba62772252,2020-04-03 18:15:39,ruanyf,docs(module): update es2020,False
+09d2e0b00cc0b17fa97c7e83dfed077d83baf6d7,2020-04-01 20:10:45,Ruan YiFeng,"Merge pull request #970 from baooab/patch-5
+
+统一“抽象操作的运行流程”的描述",True
+73320217c2c0703c962d1314f2c0103319d29d0e,2020-03-31 08:13:21,zhangbao,"统一“抽象操作的运行流程”的描述
+
+修改了两处：
+
+1）步骤描述
+
+`ReturnIfAbrupt(result)`  应该描述为：
+
+> 1. If result is an abrupt completion, return result.
+> 2. Set result to result.[[Value]]
+
+而非
+
+> 1. If resultCompletionRecord is an abrupt completion, return resultCompletionRecord.
+> 2. Let result be resultCompletionRecord.[[Value]].
+
+改写之后，方便简写前后的对照，而不至于对不上号。
+
+另外，第一步也修改为：Let result be AbstractOp()
+
+“Set result to result.[[Value]]”的写法参考了这里的：https://v8.dev/blog/understanding-ecmascript-part-1#completion-records
+
+2) 简化了步骤之后的文字描述",False
+8b4db430afb432515e43b7b54fec592ded386b16,2020-03-30 12:32:12,ruanyf,docs: edit object-methods,False
+f0b8e227df9e07708abd5cbefa6f3a7c94a1e95c,2020-03-26 08:53:57,Ruan YiFeng,"Merge pull request #967 from linmii/patch-2
+
+去除多余文字",True
+0068aa51a6c07980337d82f9f2e79f60ab054c3c,2020-03-25 07:34:53,ruanyf,refactor: edit sponsor banner,False
+fe723778a0e32363c0e881c1d2f8ab2fd3611e15,2020-03-24 22:22:06,ruanyf,refactor: edit sponsor banner,False
+31ab7b10d275e63fde94f5448df6c2a9d7592799,2020-03-24 06:58:01,linmii,"去除多余文字
+
+去除多余文字",False
+cd0310c978a3155177322eb5a33eab9109ee039f,2020-03-23 17:49:08,ruanyf,docs(object): 修改扩展运算符自动执行取值函数 get 的例子,False
+491f6f04cf814e33beeedbe08de85a9849193a94,2020-03-23 17:29:59,Ruan YiFeng,"Merge pull request #962 from linmii/patch-1
+
+修复表述错误",True
+f71a2cefeaeab30ef05335b3f1ceb11f9e93a243,2020-03-23 17:27:55,ruanyf,docs(number): fix #965,False
+f330662c0eaef5b2bd51c34c839320411e8f8714,2020-03-23 17:24:01,Ruan YiFeng,"Merge pull request #964 from kidonng/patch-1
+
+修正 `exec()` 拼写",True
+2061ad95334c7ef2f01cff698cdf03c802fd618c,2020-03-22 18:30:07,Kid,修正 `exec()` 拼写,False
+f18bd46755bfe80c19cfa54782a61b4cdab268f2,2020-03-21 21:31:09,linmii,"修复表述错误
+
+修复表述错误",False
+74acd642fa4c2d88cbf5e860ca5792216e74a7fc,2020-03-18 19:45:02,Ruan YiFeng,"Merge pull request #961 from wangzongxu/patch-1
+
+fix: arraybuffer.md add `new`",True
+e69230681e872422a23ff86308aa30250bd23721,2020-03-18 14:51:22,wzx,fix: arraybuffer.md add `new`,False
+21e3cfba2f3524960ab492bba53f13e50cc3d9aa,2020-03-16 07:21:46,Ruan YiFeng,"Merge pull request #960 from yaoguoli/patch-1
+
+perf: remove unnecessary closure",True
+0f6569795de19e42b17d50791ff82bea8b194517,2020-03-13 16:00:23,jianjian,perf: remove unnecessary closure,False
+428a74820894e3ab83d3e0111109775a237a55f6,2020-03-10 12:39:17,ruanyf,docs(intro): delete Babel API #958,False
+130cdee9ab6629168f088a0b6bfb2fa24aca49db,2020-03-10 12:37:16,Ruan YiFeng,"Merge pull request #958 from Mookiepiece/master
+
+使用core-js替代过时的@babel/polyfill",True
+6069e3f7e14d9d1028b88d525ebf54574f336f76,2020-03-07 17:33:45,Mookiepiece,使用core-js替代过时的@babel/polyfill,False
+3405f130703ad5d7d42404fe8ccb27d2828099a6,2020-03-04 16:21:31,Ruan YiFeng,"Merge pull request #955 from AnHongpeng/gh-pages
+
+fix: 使语句更通顺",True
+6800796e357b574aaf2c0915b0b434bece866a78,2020-03-03 21:05:12,ruanyf,docs(async): 如何处理数组的异步操作,False
+518f311c5a329c98540b6e83362d39a0e4174c51,2020-03-03 18:57:41,ruanyf,refactor: update disqus url to HTTPS,False
+b4ec05645d258102c75a267826209c0c3cd6d4b3,2020-02-29 12:22:30,AnHongpeng,fix: 使语句更通顺,False
+2e1c10776a9350debfec47de8ddeaf1c2c5a80cc,2020-02-27 09:13:40,Ruan YiFeng,"Merge pull request #954 from EggOxygen/patch-1
+
+修正一处小地方",True
+57701fcc2e4c972b5fa6be236362f0b57b97bab4,2020-02-27 09:07:31,ruanyf,docs(class): fix typo,False
+296159a4bc93a34fa5108bceab188f4799d4af7e,2020-02-25 17:57:01,俩二蛋,"修正一处小地方
+
+强迫症患者看着有点变扭。",False
+717f4e4218520e076a7dc7d0ce9a8958fb67e1ef,2020-02-23 11:43:54,ruanyf,docs: fix #952,False
+b0b10a308e73d4b13712ffc71ac14dfaa18b8af6,2020-02-23 10:15:18,ruanyf,refactor: add tencent.txt,False
+a6e8a400bc1e539c8ec46e76cbf87da559ad6155,2020-02-23 10:11:58,ruanyf,refactor: add tencent.txt,False
+412b29860516ab843f2123229ceedbf1efa4ff94,2020-02-13 15:53:59,ruanyf,docs(map): fix #949,False
+0daab0192dac5ccee5d379088cc66a398aad4b85,2020-02-13 12:52:09,ruanyf,docs(regexp): add 正则匹配索引,False
+86ad600682f1bc3afe2107541c009331b16f6f8a,2020-02-12 19:17:21,ruanyf,refactor: edit ditto.js,False
+0402e4705b3b66442b46eb5d6af57f03b4f95e95,2020-02-12 16:20:35,ruanyf,refactor: edit ditto.js,False
+b19cdaacea974e4f0bee9e98ab8dd9a660e425cf,2020-02-02 21:31:49,Ruan YiFeng,"Merge pull request #948 from wangzongxu/patch-1
+
+字母有误",True
+e1fcd8b61d042fed0945c8e45bca4ee4f29bdd5c,2020-02-02 12:50:25,wzx,字母有误,False
+0cc6602aca37b0764ee5c3d753f28c5fd27ca107,2020-01-29 17:20:24,ruanyf,docs: fix #947,False
+f9e16e462df103b8df30f7c7ce742a3b0898c9b4,2020-01-16 22:22:58,ruanyf,docs(string): fix #942,False
+0d958f5c62969537b5c141403afb076f511168b9,2020-01-16 22:20:08,ruanyf,docs(string): fix #942,False
+942bcc3ee26ff86ab9d9c7f8a5b6ebf9bf328fa0,2020-01-16 22:15:29,ruanyf,docs(proxy): fix #943,False
+a6abc6775ee9f880a69b5755e93390b7dc3e30b8,2020-01-03 12:40:15,ruanyf,feat: edit statistics code,False
+33408fd3a366a51a4676c4fe83c8f813281befb8,2020-01-03 12:36:05,ruanyf,feat: add statistics code,False
+bf59c210cae89aec13e87fad751771d3a003bebd,2020-01-03 12:06:01,ruanyf,docs: edit index.html,False
+4db83bb093acbd913dbb90ed1a514d7745fa1546,2020-01-03 12:02:52,ruanyf,docs: edit index.html,False
+653f87a5e76f64e1050e95003ca0e61865270d2d,2019-12-27 15:48:38,ruanyf,docs: fix #937,False
+e28d4087c511300928f5e8d5aad41713e3608a4c,2019-12-25 13:01:47,ruanyf,docs: update es2020,False
+69cae47007874d7fd80371a5bdecf202e55fe4a4,2019-12-25 12:54:51,ruanyf,docs: update ES2020,False
+5a465dda710bb1d16d97fe0783b6fcf0e7439d46,2019-12-18 14:38:06,ruanyf,docs(array): fix #934,False
+4bad480d4816683c91e6d8ff0700111e79491cde,2019-12-16 14:01:52,Ruan YiFeng,"Merge pull request #933 from doKill/patch-2
+
+修正参数名",True
+ce7bfc95af9fdebcf335a1b150581b9835627afd,2019-12-16 13:51:17,ruanyf,docs(module-loader): edit,False
+a49a10ca485ed2065b9f297df31ca135ac0fb1b9,2019-12-16 13:41:16,ruanyf,docs(module-loader): update Node.js' esm support,False
+ad12c153b33e133fd4a21f03dacd2ac9424cb398,2019-12-16 13:18:15,张德帥,"修正参数名
+
+property 改为 property key 防止产生歧义",False
+c4f4570f676a24a56255df237805b11516abd69e,2019-12-07 19:38:20,ruanyf,docs(object): fix #931,False
+add1bb8f822bed70912f64aeda2f3c0345e421ad,2019-12-07 16:20:55,ruanyf,docs(array): edit sort(),False
+726e37ecde8e892ffe87bb665fc7c6a00085a9b1,2019-12-07 15:46:49,ruanyf,docs(object): edit object,False
+f4ce061d564bc34f5b9fc013fbe5e26ef5f62ea9,2019-12-07 15:12:05,ruanyf,docs(object): 链判断运算符移入 Object,False
+6918f7abaa84431e8ad46e17db93804b2e961f2c,2019-12-06 22:31:06,ruanyf,docs(object): Null 判断运算符移入 Object 章节,False
+f0aa112f97e16e3c39f27699ff178cec81481ce9,2019-11-20 15:07:59,ruanyf,docs(module-loader): add jQuery example,False
+37c199d560bcb93878843b79053efc6e3e35a927,2019-11-14 12:00:22,ruanyf,docs(proposal): edit BigInt,False
+7145158b2a1322603d93e99a2dd2d1dc9ab02e79,2019-11-08 08:23:57,ruanyf,docs(Symbol): edit 属性名的遍历,False
+6deab4b66c79893c65c321cdecc36bc97f065d16,2019-11-08 08:10:11,ruanyf,refactor: modify banner date,False
+3484625f67fee6874c12c9212eecb6940cb916ce,2019-10-30 22:58:52,ruanyf,docs(symbol): edit Symbol.for(),False
+200b92395a369285d738125477c0be396cd85f64,2019-10-30 22:48:11,Ruan YiFeng,"Merge pull request #924 from xldou-cn/patch-2
+
+fix:Add description",True
+dff5c20de71b7811466a80920f650bbe0e72741b,2019-10-29 12:05:24,小懒豆,"fix:Add description
+
+fix:Add description",False
+247a499d6ed5e4131e0094694f7d31daf86bc730,2019-10-15 16:15:13,ruanyf,refact: edit banner,False
+4ebdc52dfbf8c8f44d6b72b0183e87e2c76124e1,2019-10-13 20:00:14,ruanyf,refact: add banner,False
+00f624e13707a02556d7a23a6948cead9c051c20,2019-10-13 19:53:44,ruanyf,feat: add banner,False
+e2d3b005598aff14832f4bc31b2270c36c7afbd5,2019-10-12 14:48:48,ruanyf,Merge branch 'gh-pages' into banner,True
+8d2e0e7781b749ee9f44976712c57f19e34b7ef5,2019-10-10 12:48:26,Ruan YiFeng,"Merge pull request #917 from igwhaler/patch-1
+
+`Promise.all()`跟`Promise.race()`方法很像",True
+7a028069c94ef37a715b83be81c26eef08b4f82a,2019-10-10 09:15:05,大鱼你个锅锅,Update promise.md,False
+eebbf77f99d2553c8a144cf766f34cc8e3ab2d5e,2019-10-06 20:28:18,ruanyf,docs(proposals): edit BigInt,False
+99b39cc2300015a8e194ac9466a9cf460878e526,2019-10-06 17:41:13,ruanyf,docs(Promise): edit Promise,False
+647f1221a774c352dfe5d6937261fd031d9d5bbb,2019-10-06 07:18:19,ruanyf,docs(array): Array.prototype.sore 的排序稳定性,False
+0e7b53f00f6235929753c0fa526bf9e8e41a039f,2019-09-20 20:07:47,ruanyf,docs(string-methods): fix #913,False
+561b30426ef7e49775e6849a142a4e58d71dc5e8,2019-09-20 20:05:01,ruanyf,docs(string-methods): fix #913,False
+22665e7efc6f5345e0e2d2d3e8d609fc44fe0baa,2019-09-20 19:42:44,ruanyf,docs(generator): fix #910,False
+95352fdf1196b0ccb23991d37c1ac462e1baa980,2019-09-18 15:25:23,ruanyf,docs(proposals): edit Nullish coalescing,False
+8372288661c62c2a58bb1e65dc8c086314d8dd48,2019-09-17 23:17:26,ruanyf,docs(regex): edit u flag,False
+bcc1d3c901277248d167ff791d7c4f412eae5733,2019-09-17 23:12:18,Ruan YiFeng,"Merge pull request #908 from LongTengDao-fork-B/gh-pages
+
+增加正则u模式下更严格的转义限制的说明",True
+fa183748b39d004a29099f2007e07642f247d0de,2019-09-14 20:04:42,龙腾道,Update regex.md,False
+10338972d5ee6815dd5a9419ee2a936913d2fc0f,2019-09-14 15:07:20,ruanyf,docs(class): fix #906,False
+93f9d7cc0c19519325f187916025b17424dae1a8,2019-09-12 14:05:33,Ruan YiFeng,"Merge pull request #905 from Veminem/gh-pages
+
+更新 'WeaKSet' 名词拼写",True
+6128c2eec31ad140b11b108b8e0ad9f75d438b73,2019-09-11 11:32:19,Vincent Hy,更新 'WeaKSet' 名词拼写,False
+6efba60c383dbcaffaca31523f5044d5ea122365,2019-09-10 09:42:48,Ruan YiFeng,"Merge pull request #904 from lc-soft/patch-1
+
+docs(proxy): add spaces around the operator",True
+3baba14fbe199482be75f6faa9ab560e6dd79f7c,2019-09-07 10:49:15,ruanyf,docs(object): edit 简洁表示法,False
+e87aba7bd95154b31ddbb45001fc209d9f0a7211,2019-09-07 09:09:10,ruanyf,feat: add banner,False
+176fe9dcd650905b904029a21ae8963c3fae4719,2019-09-06 15:41:51,Liu,docs(proxy): add spaces around the operator,False
+88708710237ed6ac01aa18b476e83ccd2496933d,2019-09-05 16:10:05,Ruan YiFeng,"Merge pull request #902 from cyanxxx/gh-pages
+
+改正语序",True
+6040c3557abef090e52a3bc359627c4c11dda04c,2019-09-05 15:00:15,cyan,改正语序,False
+583edc3608c4f41f0f1f86d665291e1b1bfed465,2019-08-27 16:49:07,Ruan YiFeng,"Merge pull request #899 from LongTengDao-fork-C/gh-pages
+
+改进措辞",True
+32bf97985d66f7018642689c12c390ff08fae4f6,2019-08-27 16:47:42,Ruan YiFeng,"Merge pull request #898 from LongTengDao-fork-B/gh-pages
+
+改正错别字",True
+26220ed0974ff33da4227cc78194e95d9645639d,2019-08-26 17:23:21,ruanyf,docs(proposals): add import.meta,False
+6e1e8d933c2cdbb563cc20c94f21f277601d0beb,2019-08-26 02:53:50,龙腾道,改进措辞,False
+b7e5848a48781b11e82b50a17d377d362b41cc17,2019-08-26 02:49:00,龙腾道,改正错别字,False
+a9217ff93e0b7e564b1640cc00f9ec775d72301f,2019-08-23 10:59:37,ruanyf,docs(proposals): add Realm API,False
+3eb580097f70ede1f9bc67298cff6ce26d625970,2019-08-19 10:13:12,ruanyf,docs(function): edit tail call,False
+291f0e6198665e3399c467c0263f1367b9e0f769,2019-08-02 14:11:57,Ruan YiFeng,"Merge pull request #892 from wang1433256766/patch-1
+
+Update promise.md",True
+8b126e5d767f00ba5f74ac5e4750882d3e17ead5,2019-08-02 11:50:13,wangsir,"Update promise.md
+
+Promise.prototype.then(),当then中的回调函数返回一个Promise对象时，后面的then中的回调函数不应该写上funcA、funcB这样的方法名，会让人误以为是函数定义，并未调用，造成阅读困难！",False
+4bb8b170e60f5573ae75a5e1bdcc5122ecb3e769,2019-07-30 16:22:33,ruanyf,docs(function): add ES2019 proposals,False
+ac5a0370986cbd6918f84b6477e0deb6549b7ce0,2019-07-30 15:22:53,ruanyf,docs(proposal): add Null 判断运算符,False
+2f1c2717bf3b067356efe3187bd641b3b1ba513d,2019-07-29 21:53:37,ruanyf,docs(proposal): edit optional chaining,False
+f828a2c6b4dce48dfd5db34094553b24afc7d3fd,2019-07-25 20:35:21,ruanyf,docs(map): fixed #887,False
+859f740c95e4c5206886b37ce3c2a617fe0211b0,2019-07-22 09:51:57,ruanyf,docs(decorator): replace 修饰 to 装饰,False
+b89747b02a50e9d287607a59ef9ade60c3407819,2019-07-21 02:07:26,ruanyf,docs(decorator): edit decorator,False
+0eb22fcb399a8f86042618858c509427d168217d,2019-07-20 18:49:06,Ruan YiFeng,"Merge pull request #885 from LongTengDao-fork-a/gh-pages
+
+将块级作用域的取代范围重新限定回匿名 IIFE",True
+c82936863b84f5d22b20194524f71e5256b2c3e3,2019-07-20 12:58:33,龙腾道,"将块级作用域的取代范围重新限定回匿名 IIFE
+
+具名 IIFE 可能用于临时递归，块级作用域取代不了。
+上次网友修改对于概念表述是更严谨了，但这里的关注点并不是 IIFE 本身，而是块级作用域。
+所以这次尝试修改成不犯概念错误的情况下，回归教程章节本意。",False
+43776058e14177c42aeae9bfddfec539adeb410c,2019-07-12 13:06:47,Ruan YiFeng,"Merge pull request #881 from AmyFoxFN/patch-1
+
+fix: typing error",True
+ae011d17aef7fc9e9b3c6481343e8ed8a19c3730,2019-07-11 13:55:49,Amy,fix: typing error,False
+40256f2f5c492713bfc2eaad5f557c0eb25fdc97,2019-07-02 16:28:36,Ruan YiFeng,"Merge pull request #877 from AnHongpeng/patch-2
+
+Update set-map.md",True
+e1552ad457db070c5c9192a4dd933e8168f2738d,2019-07-02 12:07:25,AnHongpeng,"Update set-map.md
+
+统一 Set、WeakSet、Map 实例属性和方法描述，使用 xxx.prototype.xxx 表示。",False
+fc60cfd54c06cd24466eb6cb8bfc421fbcf43a0f,2019-07-02 11:47:45,Ruan YiFeng,"Merge pull request #876 from AnHongpeng/patch-1
+
+Update set-map.md",True
+0cd5d54883d76acd73899f8c7ef6bef6d2182aae,2019-07-02 08:04:39,AnHongpeng,"Update set-map.md
+
+这里补充了前提条件以消除阅读时的歧义，读起来也更加通畅了 ^_^",False
+e6a36b43988c2b87ba472fe9da6dccbcc49ea16d,2019-07-01 11:23:09,ruanyf,docs(style): fix arrow function,False
+0a59ce84dd41b8fa1b0f1aaa63716dd517e78e45,2019-07-01 11:21:27,Ruan YiFeng,"Merge pull request #875 from bigbird231/gh-pages
+
+【编程风格】用词修改",True
+61d8735cc50165a889b97e4ad566de7802595d7a,2019-07-01 06:59:15,bigbird231,Update style.md,False
+c63caa345d65293f824a26f204cd295e160869af,2019-06-27 07:50:54,bigbird231,"Merge pull request #3 from ruanyf/gh-pages
+
+asdf",True
+95d62ea56ce3f67f38a17f5a60fbefe4236abffc,2019-06-17 12:58:34,ruanyf,docs(string-methods): refact String.raw(),False
+5a773c8c811153fbff94442f3b1c73c7e0dc88bb,2019-06-12 12:47:11,Ruan YiFeng,"Merge pull request #869 from PanJiaChen/gh-pages
+
+docs(async): refine sleep",True
+e7000d636808e6c65c215a7596521524e569999c,2019-06-11 21:49:46,Pan,docs(async): refine sleep,False
+50ec743b29fbfe7d6f0a62985555025886e43ba7,2019-06-11 11:33:19,ruanyf,docs(async): edit slepp(),False
+db8b9171ae89c9391cc77fae9af28a39a646bd2e,2019-06-11 08:43:11,ruanyf,docs(async): add slepp(),False
+b08e47e674b10964a510eb43b3533f4a36f22ade,2019-06-09 20:36:55,ruanyf,docs(array): fixed #868,False
+c00389ae7787501d0dc5d2df7f6e9efd929109c6,2019-06-08 12:20:08,ruanyf,docs(async): add top-level await,False
+98e3bcb2df87558c7bff1f9c29f0ed7b8d4dab78,2019-06-08 10:35:53,ruanyf,docs: edit async-iterator,False
+6545088030b47f5705f337822851430d70f9a1d5,2019-06-07 23:50:08,ruanyf,docs: 异步遍历器独立成一章,False
+9aff05e0e7fa56f287ef779524a00304dffb2f36,2019-05-30 11:23:33,Ruan YiFeng,"Merge pull request #864 from wheatma/gh-pages
+
+docs(reflect): :art:fix format",True
+77e862e6e35d70cff2fa5f7c792e3d9da2d954cd,2019-05-30 07:38:33,maguowei,docs(reflect): :art:fix format,False
+40b7a92924a731d012b43e56563f9e68cfdd01b1,2019-05-29 22:49:20,Ruan YiFeng,"Merge pull request #863 from Himself65/gh-pages
+
+docs: fix lint",True
+66e1b41b506c428acd1a66a9a96b2b99f22542fa,2019-05-29 21:26:43,扩散性百万甜面包,docs: fix lint,False
+382807185e9715c6a653fc1de09834e04de4f182,2019-05-26 18:38:34,Ruan YiFeng,"Merge pull request #860 from waitingsong/arraybuffer
+
+docs(arrayBuffer): 更新排版相关",True
+0a5db0d02ade12f2c9d66627796732e2af1c5c29,2019-05-26 18:11:20,ruanyf,docs(string-methods): edit,False
+424d5e45aff59d3f4edbc540db462c12a5ed52eb,2019-05-26 18:03:56,Ruan YiFeng,"Merge pull request #859 from waitingsong/string-methods
+
+docs(string): 增加对于多字节 UTF-16 字符元素展开方法例子",True
+f285f0dcad3a51a489fa086db9eebe1d00358dc0,2019-05-26 14:13:16,waiting,"docs(arrayBuffer): 调整语句组织形式提高易读性
+
+- 本段落主题为 `TypedArray.prototype.length`，段内语句保持主语一致为 `length` 可保持语句通顺性，提高理解速度
+- `前者` 既指代文前的 `length` 也契合下方代码中在前的 `a.length` 语句，承上启下让这一段落的文字和代码有机地组合",False
+2ae7225df120552fc1f9f8d9ae50b1a387bd28ed,2019-05-26 13:49:18,waiting,docs(arrayBuffer): 列表根据首字母排序,False
+7bc3ca6b7a6f3ff9b2b24524da8e80fb6fb969c0,2019-05-26 13:45:05,waiting,docs(arrayBuffer): 列表添加内部跳转链接,False
+fe02a92ccc1b7bad2d4adf857421ef7becc84273,2019-05-26 13:06:37,ruanyf,docs(arraybuffer): edit arraybuffer,False
+06ee0bbc1999fdf8cfd341a563ad8d3fe94bdf18,2019-05-26 12:50:13,Ruan YiFeng,"Merge pull request #858 from waitingsong/arraybuffer
+
+docs(arrayBuffer): 更新 ArrayBuffer/字符串 相互转换函数，支持多语言及多编码",True
+aebcc496eefb0b4880b0d7b2caa1da0cec30d9c2,2019-05-25 15:00:16,waiting,"docs(string): 增加对于多字节 UTF-16 字符元素展开方法例子
+
+v8 7.2 引擎的 spread 展开运算性能比 for-of 更高
+ref: https://v8.js.cn/blog/spread-elements/",False
+b9349b144d8246b111d322724a66c685db5c72d5,2019-05-23 18:22:58,waiting,"docs(arrayBuffer): 更新 ArrayBuffer/字符串 相互转换函数，支持多语言及多编码
+
+1. 原方法对于非 Unicode BMP 基本平面字符支持不理想。改为使用实验性 TextEncoder/TextDecoder 接口实现。
+2. 浏览器支持列表见函数备注
+3. Node.js v8.3 开始在 util 对象下实现接口，v11 开始提供全局接口
+4. 函数名使用 ab （而非 buf）代表 ArrayBuffer ，避免与 Node.js 的 Buffer （Uint8Array的一个扩展）混淆
+5. 虽然是 ECMA js 文档，考虑到 TypeScript 日益壮大，并且函数签名更利于文档规范化，故以带有类型的 TypeScript 代码展示",False
+dd69d69cc4faa1e6160bcc5e7ef637264c19ae36,2019-05-18 21:36:01,ruanyf,docs(number): fix #856,False
+24d4ba6ed2dc8e22aa981785ac9a79b2ffab92d4,2019-05-13 17:42:36,bigbird231,Update promise.md,False
+b5a1e6c72a6983323271c3b7f3ae4d47912d0595,2019-05-13 17:42:02,bigbird231,"Merge pull request #2 from ruanyf/gh-pages
+
+merge",True
+7518f7b12da4d8d2de1cf4a5a948a0b832c8e183,2019-05-13 14:54:27,ruanyf,docs(class-extends): fix #854,False
+6a875a827c5ac8d6d3a5aadaa72eef5d5fc22c92,2019-05-10 16:33:50,bigbird231,Update promise.md,False
+62b5147d213a9fa453322335962c74545c913c55,2019-05-08 20:04:09,Ruan YiFeng,"Merge pull request #850 from wfzong/patch-3
+
+Symble toString 修改为函数执行",True
+62fc400d6ff7d2c8283ea3a4484c8dae4eb3462e,2019-05-08 20:01:09,ruanyf,docs(reflect): refact text,False
+f0121e8b9f18c78f6d186948c4b4613f69a6a011,2019-05-08 19:57:00,Ruan YiFeng,"Merge pull request #849 from bigbird231/gh-pages
+
+Reflect章节细节补充",True
+0f214662ca98fb0421663a83a736bf82edcb23f9,2019-05-08 16:12:07,王福宗,Symble toString 修改为函数执行,False
+16ecbb938dca17389ad8c15896195e57e63c3f48,2019-05-08 10:19:04,bigbird231,Update destructuring.md,False
+aaf0750fd4846feb32774aa62b0b83c37e5bdb3a,2019-05-08 10:18:31,bigbird231,Update let.md,False
+7bad01cae610ec823ae2012450cbead3c45bd995,2019-05-08 10:10:17,bigbird231,Update reflect.md,False
+584ee0dc4769b747f1c72582005117690538d4a5,2019-05-08 09:54:18,bigbird231,Update reflect.md,False
+abc7310f11ffcbca8c4fdcd27af5ce45098192d1,2019-05-08 09:35:03,bigbird231,Update reflect.md,False
+8c9f2e4ef0adc88715c3e04010c6b7fe920007cf,2019-05-08 09:19:46,bigbird231,"Merge pull request #1 from ruanyf/gh-pages
+
+merge",True
+d2e69f0e3e00f8f7db84c4c07fbb246e671d97e4,2019-05-03 08:52:32,ruanyf,docs(generator): edit yield*,False
+bb828d8b63f037e3a5def328fbee6d3d7e83746d,2019-04-28 20:37:10,ruanyf,docs(array): edit spread #846,False
+a4956cb858c87bdf4acdae486a710db95f1950d4,2019-04-24 14:25:44,ruanyf,docs(let): edit globalThis,False
+f924f1b4a223a184d6419c362a9b3378d90bdad5,2019-04-23 12:25:14,ruanyf,docs(string): add JSON.stringify(),False
+14a4724b859ed0f119b58e91f939ffe6dc040c0d,2019-04-23 11:50:50,ruanyf,docs: add string-methods,False
+dec326eba24754f8e5ea90adcefbecfd984862d5,2019-04-23 11:17:17,ruanyf,docs(symbol): add description,False
+dca90708ace1f31dd9da0030baa49749ee62a2d0,2019-04-22 12:56:28,ruanyf,docs(string): add trimStart()/trimEnd(),False
+c572b57c277d75466e91bdb2b57c8717bc9be026,2019-04-22 12:54:36,ruanyf,docs(string): add trimStart()/trimEnd(),False
+93f7e23e2246e9480249ae5b9155236833cf5dd3,2019-04-22 12:31:23,ruanyf,docs(proposals): edit JSON superset,False
+c703df344a5e32a6757beaea0710bd2094319069,2019-04-22 10:50:53,ruanyf,docs(let): edit 块级作用域,False
+9c01ac75a738a6f6f4ac9881a0e0229caf279ce8,2019-04-18 16:12:07,bigbird231,Update let.md,False
+bd2840d8acf72ce1cecb4733d06f9f873cfafacd,2019-04-18 15:54:22,bigbird231,Update destructuring.md,False
+c3a4a17afa5e8aab8882065caeb563342c631d70,2019-04-13 09:07:23,ruanyf,docs(function): edit 箭头函数,False
+03695be2dbb2cd9fc86204f183fb48078914de45,2019-04-10 09:26:41,Ruan YiFeng,"Merge pull request #840 from bigbird231/patch-2
+
+update object.md",True
+0c61cc13ec85c012379b6698ee86d6d32c42cfb2,2019-04-08 16:03:06,bigbird231,"update object.md
+
+let {x}=null就会报错了
+let {...x}=null才会体现解构中...运算符引起报错
+其实任何对null和undefined的解构都会报错",False
+6c1aaf1b3f73fe6dc4fbb71551b471e49f2bb49e,2019-04-05 17:23:07,ruanyf,docs(promise): fix Promise.resolve(),False
+3c45b041d53c36d12e0e248d0bb111d76db38fbb,2019-03-30 18:26:29,ruanyf,docs(function): fix 斐波那契数列的尾递归 #835,False
+3f080e92bdef678cd110df4b599839d472a20de5,2019-03-30 16:44:42,ruanyf,docs(destructuring): 对象的继承属性的解构赋值 #836,False
+c54a3835e7ba8e28f1ad4125cbd256f0a147b593,2019-03-28 13:58:24,ruanyf,docs(string): edit 模板字符串,False
+67eee047ee49c5f1dce474b9e6551f4bc5ec81b1,2019-03-27 04:19:40,ruanyf,docs(class): edit arrow function'this,False
+6fc46035ce6f3353d0ec81638ccb4fd1dfc85f86,2019-03-21 09:16:45,Ruan YiFeng,"Merge pull request #830 from helloztz/patch-1
+
+变量名称错误",True
+121c29dc5621758b1e52d2696dcab1c9a3a7cd90,2019-03-21 08:52:07,helloztz,变量名称错误,False
+0fe7edb898800ce52773e4fc4ff9f4767b766292,2019-03-21 08:03:31,ruanyf,docs(decorator): fix babel,False
+cc95387e4b47a5f51f6e64ebe1c3ab1f22f3640a,2019-02-21 14:23:41,ruanyf,docs(class-extends): fix mixin #820,False
+679bb513865258ebb1d7544fd6c9710434607689,2019-02-19 13:51:16,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+feeb592181cf1042174f43b96f283f0f39cf2810,2019-02-19 13:49:46,ruanyf,docs(class): fix new.target #819,False
+23883cc0affc0749fff951469a81573f4dfb513e,2019-02-19 12:00:47,Ruan YiFeng,"Merge pull request #815 from byog/patch-3
+
+Update async.md",True
+1a4ab0ea8628abf3331e9bc97dc50bfb7ad90d60,2019-02-19 11:47:05,Ruan YiFeng,"Merge pull request #814 from byog/patch-2
+
+Update generator.md",True
+a37a6b76f979fdaa48b314819697d6be63d73748,2019-02-19 11:42:19,ruanyf,docs(class-extends): fix super #812,False
+2fd150610f9df2860a1f7456ab1b700fe5c8266d,2019-02-18 20:04:15,ruanyf,docs(class): fix class 表达式 #818,False
+2e97d01e0f820bcdb4af562381c9bff4cbb821dd,2019-02-18 19:49:04,ruanyf,docs(class): fix this #813,False
+980870747232b579e83a406382d4490c5b494dd6,2019-02-16 21:06:56,Ruan YiFeng,"Merge pull request #816 from byog/patch-5
+
+Update module-loader.md",True
+e2a52f92ea72f5f3b89e2a4306bd088601e6ba54,2019-02-16 14:28:54,byog,"Update module-loader.md
+
+语义不完整",False
+c88911c88dae30510bab67e61b83a02f91925fda,2019-02-14 21:55:20,byog,"Update async.md
+
+语义不完整",False
+2cfe112c69998551ad569f963b7496022796f6c6,2019-02-14 13:39:59,byog,"Update generator.md
+
+语句不完整",False
+b26bc370172d31bae2eafcfd5973a549395c04b6,2019-02-13 10:37:22,Ruan YiFeng,"Merge pull request #811 from CosSalt/patch-5
+
+函数内部重新声明参数",True
+b72d92aab6fe12264c1d5067e7ce2b7671c6f255,2019-02-13 10:26:05,CosSalt,"函数内部重新声明参数
+
+函数内部重新声明参数在函数声明时不会报错，在使用时才会报错",False
+29abe06a96af0b51feb7780e7a590a4231fa55e1,2019-02-13 09:41:37,Ruan YiFeng,"Merge pull request #809 from KsRyY/patch-1
+
+修改babel系列包名为最新的@babel/*",True
+acf1804a2a758d8a02d45e56d629d5bce8d012cc,2019-02-13 09:40:37,Ruan YiFeng,"Merge pull request #810 from Sakuraine/patch-1
+
+super(length, length) => super(length, width);",True
+83af4043f06da24291f1f313c9e21fe82b9e1243,2019-02-11 16:32:35,iNE,"super(length, length) => super(length, width);",False
+b51d7d91af78e5f5788cf75e9281739622a3752e,2019-02-11 13:30:40,Andy Chen,修改babel系列包名为最新的@babel/*,False
+32c1d1875d4b80f260429c67bc4f9366e0901250,2019-02-10 13:18:21,ruanyf,docs(generator): edit yield*,False
+f13a2b50a7b0de19092e1e815df28fa3ac38692a,2019-02-09 18:07:44,ruanyf,docs: edit decorator,False
+546b9d3bcee0f702c5450aa519e0766217e62d6b,2019-01-31 21:49:21,Ruan YiFeng,"Merge pull request #807 from grainXianSen/patch-1
+
+Update class.md",True
+a2d306cbc958c25ed6617419c02a2bb2b4d79bb9,2019-01-31 14:59:03,grain先森,"Update class.md
+
+修改错别字",False
+8240374c621ba0180b381c74c78198bf7107c433,2019-01-30 21:36:56,ruanyf,docs(intro): update babel,False
+1b95b97b13c43063fbef9021c1fc3f4ca2e702ed,2019-01-28 11:27:44,Ruan YiFeng,"Merge pull request #803 from byog/patch-1
+
+Update function.md",True
+71f2a07e7c0819665abb413b5c7e8009bba22670,2019-01-26 15:10:09,byog,"Update function.md
+
+语义不完整",False
+266f20f674c03669e90429d0d7a422e0ee7e3351,2019-01-25 13:07:20,Ruan YiFeng,"Merge pull request #788 from fengyuanchen/gh-pages
+
+Fix typos and styles",True
+962cda2a51a2ab0fe4bbe618afb5e4b87706ffa7,2019-01-25 12:21:48,Ruan YiFeng,"Merge pull request #802 from marjune163/patch-1
+
+Update string.md",True
+636c5db5d65656327d054b4720a340d97c8e3efc,2019-01-25 09:47:41,marjune,"Update string.md
+
+fix(string): use ANSI quote",False
+7d266f0ce7e28e6cb7843df5a43270f779cfd0f8,2019-01-23 12:36:56,Chen Fengyuan,docs: fix typos,False
+46981f6b9ae4acbbbb474322b1c3ab04ab916c34,2019-01-20 22:11:13,ruanyf,docs(class): edit 私有属性,False
+456bfa0fbafef532f6e97fd7a5de5f522ca03b81,2019-01-19 22:41:57,ruanyf,docs(intro): edit #790,False
+c9783973bc9bc9818d283a02320cd6dfccda30df,2019-01-19 22:40:02,ruanyf,docs(intro): edit #790,False
+320adf25aec0b5b4e22f0cf1a8d4be7626205eea,2019-01-19 22:37:46,Ruan YiFeng,"Merge pull request #790 from sniper8341/patch-1
+
+Update intro.md",True
+9b2f0f1b1ea8af5b1dfebe5a33b8668ec0909ac1,2019-01-19 10:29:31,Ruan YiFeng,"Merge pull request #795 from waitingsong/regex
+
+docs: fix quotes",True
+e0055c7a9ddadf61cd3a76058f317c48b0f11877,2019-01-16 07:26:08,waiting,docs: fix quotes,False
+78caba3a836ac0b682434ceda02271a5fe6fd08a,2019-01-14 20:05:27,ruanyf,docs(class): fix 实例属性的新写法 #792,False
+2b1600fed4a449d3b29d5f53451a3efb276d75e2,2019-01-10 09:07:42,sniper8341,"Update intro.md
+
+Add the node command line of cmd for windows about support ES6",False
+7791c64d306de607f7f0ade227fb0007ada0ff68,2019-01-08 19:47:08,ruanyf,docs(array): edit spread,False
+39a66bd66f1392d25bedc1ddda7aef43793fb234,2019-01-07 14:54:24,ruanyf,docs(number): fix Math.clz32(),False
+b563fcb9293213035f1c8b08c4e9cf3bf43a686f,2018-12-31 15:30:47,ruanyf,docs(set): edit set,False
+f6199af2f6b6058438605c8b52268f0228d91306,2018-12-27 14:08:21,ruanyf,docs(async): fix async #787,False
+52bca44c4cc880d8a301e5178743fd433ccbf530,2018-12-26 09:03:44,ruanyf,docs(object): edit spread operator,False
+7397a7ad6afd0f37c576bf9b3eb70d0a58074b0b,2018-12-18 03:07:50,ruanyf,docs(reference): fix outdated link #784,False
+d88f89e6b6c993b7648d6dba1047d754816dd8d8,2018-12-16 21:35:35,ruanyf,docs(class): edit 实例属性的新写法,False
+5eaed7109e709efc2ba2502a5bceb7a4cd118934,2018-12-16 21:32:56,ruanyf,docs(class): edit 实例属性的新写法,False
+963008d7c9795181c1c8872c7a7d43a5c1d761c2,2018-12-16 20:45:31,ruanyf,docs(class): 重新调整结构,False
+6b74886920c86426728b344ef564169cf99024f7,2018-12-05 11:19:30,ruanyf,docs: edit async,False
+6914670a90f68e78d1fe7f1a9166f67ed77e5345,2018-11-28 11:09:33,Ruan YiFeng,"Merge pull request #779 from Hencky/object-methods
+
+update object-methods",True
+e612f0a8b05c422017fd827433377a324e089c2e,2018-11-25 18:53:49,Hencky2018,update object-methods,False
+313d501ac3b35cbfdda2ebc32e970ded77a06fa4,2018-11-25 15:41:17,Ruan YiFeng,"Merge pull request #778 from new9xgh/hotfix/update-text
+
+完善代码引用段标识",True
+a77e9979109ff4f8dc3250ef4d8ed57cb094f224,2018-11-25 13:16:11,new9xgh,update text,False
+4674eb12e29c13436f67cff89c5ce688f5d5d566,2018-11-24 18:58:21,Ruan YiFeng,"Merge pull request #776 from new9xgh/hofix/update-reflect
+
+update reflect",True
+840e7ee3a6d5efc32d58425effdbfb8660590a6c,2018-11-24 18:52:20,Ruan YiFeng,"Merge pull request #774 from Hencky/addlet
+
+add let",True
+ecd868e5bcda32f7831f5beca5f7010612059c0b,2018-11-23 20:28:25,ruanyf,docs(async): edit await,False
+bdc65fb29d8c4baddc564805f02e25292e94c896,2018-11-22 11:53:18,new9xgh,update reflect,False
+c04151cde4f6c0129a4c35dd788be655a888d68e,2018-11-22 09:00:44,Hencky2018,add let,False
+4e13461d8334a5fca8b69a9d17785e952f5b33a3,2018-11-21 15:17:50,Ruan YiFeng,"Merge pull request #772 from new9xgh/hotfix/update-proxy
+
+update proxy",True
+1747317cac0fccb4f43245d669ae13a81153ec28,2018-11-21 08:50:48,new9xgh,fix the word,False
+0d58e714ce0c36227c971c4000886060b10cd7d4,2018-11-21 08:39:24,new9xgh,"1.完善报错内容。
+2.preventExtensions介绍中，统一代码与描述所用的变量。
+3.preventExtensions介绍中，修改代码示例：Object.preventExtensions()方法返回值输出内容。
+4.修改“目标对象是不可扩展”括号相关描述中non-extensible 与 extensible的内容",False
+5e71c78b5bc673072c50ebbc9a2ee0d0c30bf7c7,2018-11-21 07:24:41,何智权,"Merge pull request #1 from ruanyf/gh-pages
+
+merge",True
+8eb7a69fd6c6103041922c67149bbfa01287fd3c,2018-11-19 14:34:20,Ruan YiFeng,"Merge pull request #771 from new9xgh/hotfix/update-array
+
+书写错误",True
+188d9b3af1bdc2ad801d52bf77749d7860a1acb9,2018-11-18 21:46:26,new9xgh,fix 书写错误,False
+44b4886759f5a9453b2499740256d4f90d04bfa2,2018-11-17 21:24:50,ruanyf,docs(generator): fix finally #770,False
+13efdcb591fe0f8313dd8a816c2b15e68a3054dd,2018-11-16 10:56:09,ruanyf,docs(string): fix padStart #769,False
+dac4476a95a75683946c5e0f7b2986d904a77264,2018-11-15 16:17:59,ruanyf,docs(string): fix padStart #769,False
+35ccfcac14f4c8f46ea79b8493c2366eeba8c785,2018-11-12 13:11:52,Ruan YiFeng,"Merge pull request #768 from Ju2ender/gh-pages
+
+ Update the link of ECMAScript 6 compatibility table",True
+dbcf68196f3d0a40eb04b473fe0ca26fe51f8b38,2018-11-11 13:49:58,Ju2ender,"Remove the protocol, keep the style unified.",False
+7532a1704a7142101b23143097407a4ad317926a,2018-11-11 13:46:38,ruanyf,docs(proposals): edit BigInt,False
+d60074abf81ede09365599ad4c990084c6e1313c,2018-11-11 13:44:50,Ju2ender,Update the link of ECMAScript 6 compatibility table.,False
+6a10936d64141e161f62aff8ce37fb7749fdd24c,2018-11-10 15:29:52,ruanyf,docs(object): edit 扩展运算符,False
+b48ce465bad83068f35dcc085553a07c9ab744df,2018-11-10 10:44:52,ruanyf,docs(object): add Object.fromEntries,False
+7a151448f7e235f8009b08bf6eab6ab5c0ee8613,2018-11-10 09:06:32,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+a0dab18d3699963f1fd83c9e56ef95cafad4111c,2018-11-10 09:06:10,ruanyf,docs: object 一章拆分,False
+95b157e8e1f2335cf2c4466371849288983f6ef0,2018-11-08 14:30:32,Ruan YiFeng,"Merge pull request #767 from cutPicturesMan/patch-1
+
+Update module.md",True
+13f696e43baa9c7996502b0b5d3fc75b989ec838,2018-11-06 17:51:49,zz,"Update module.md
+
+这里有歧义。输出时已经each方法改写成forEach：'export { each as forEach }'，import时只需要引入forEach即可，不需要再import { each as forEach } from 'lodash'。如果你import的as表示的是export中的第二个export，那实际上第三个的export就不需要写了",False
+8a0f97459f6987b23039e876539316319df9cedb,2018-11-03 17:57:43,ruanyf,docs(proxy): edit set() #765,False
+6301c90a993e9f62d105d0573ee6dad4a6643e9c,2018-10-18 17:29:33,ruanyf,docs(regex): fix 具名组匹配,False
+bad0552112b929b02a3af6ef890a562170055b0f,2018-10-07 20:48:19,ruanyf,docs(async): fix await #752,False
+a67b5782e7f161f8919b37f2288061e0f4a20454,2018-09-29 20:31:38,ruanyf,docs(function): edit arrow function,False
+99dd289cec301df0f1f7cfeb6bde35bdd5d03c7f,2018-09-24 10:09:09,ruanyf,docs: edit TypedArray/SharedArrayBuffer,False
+f8ac3ec2ae4c7457877179f2ed91a6a79db49ab8,2018-09-08 19:50:47,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+16b56f7005c1df5313032d7a1d58ea730af4149f,2018-09-08 19:50:26,ruanyf,docs(arraybuffer): fix arraybuffay,False
+024ff64939d0a7b270b28eb00fd974e897069402,2018-09-08 18:34:59,Ruan YiFeng,"Merge pull request #745 from Maecenas/patch-1
+
+Update style.md",True
+f7ea5af44d9baa9f63613808942e46cd779dbb90,2018-09-07 13:22:33,Maecenas Li,"Update style.md
+
+Remove redundant quotes",False
+283b5716508ede07b574cbe1315c6ca61cd4ba42,2018-08-31 15:21:19,ruanyf,docs(class): edit 私有属性,False
+bfd962c55f4fbabe803d0760e82ebfb5f16626ee,2018-08-30 10:30:50,ruanyf,docs(number): 补充指数运算符,False
+37d9896f96ac656b80c55812c07a54edb11e1c9a,2018-08-30 09:49:18,ruanyf,docs(array): fix flatMap,False
+50e3e4c53d7ff47ac66c01329214b6c67414533b,2018-08-23 09:19:59,Ruan YiFeng,"Merge pull request #741 from CosSalt/patch-4
+
+书写错误",True
+a0b9606b49149c09883b2b565674f5f9b7452c45,2018-08-23 09:11:23,Ruan YiFeng,"Merge pull request #740 from CosSalt/patch-3
+
+书写错误",True
+b2e5add5d0982269838aab8865bdbd94ada7c607,2018-08-22 19:59:31,CosSalt,"书写错误
+
+Infinite 应为 Infinity",False
+3e8c8bf6e990b474acb544bcb99d865feec7b4c7,2018-08-22 12:45:51,CosSalt,"书写错误
+
+用全局搜索又发现了两个BigInt书写错误",False
+163de7ee935517911c5e7fd58881b89dc824e1b4,2018-08-22 11:45:58,Ruan YiFeng,"Merge pull request #738 from CosSalt/patch-1
+
+修改错误",True
+14704db3991e289be9ae5138bde7fee4b681cc71,2018-08-21 22:40:13,CosSalt,"修改错误
+
+书写错误，BigInt写成了BitInt",False
+ba5ed7aed823bb0bd770f008ecda4786fb190ff1,2018-08-18 03:39:04,Ruan YiFeng,"Merge pull request #737 from m4jing/patch-5
+
+Fixed minor typo of Global Object Map",True
+a4b782b48aec50ba441ca2ea455618cf913d49a5,2018-08-16 09:36:35,Jing Ma,"Fixed minor typo of Global Object Map
+
+Instead of `Maps`",False
+677621fe33fe73cc60addd6dd3cf20ae26d9116d,2018-08-15 09:31:57,ruanyf,docs(string): delete String.prototype.at() #736,False
+0f1abfca5a2cfdb6b6e84c7c4bb560269b85707b,2018-08-14 12:37:53,ruanyf,docs(README): add wangdoc url,False
+4c30a12b4e74be54cc9274f47354b90869ae8b9b,2018-08-14 12:30:14,ruanyf,docs(proxy): fix deleteProperty #733,False
+2bc6ef1a347405460345adf6e83d1a70532c5653,2018-08-05 18:58:16,ruanyf,"docs(array): add flat(), flatMap()",False
+d89de23e1de50ffacd21449222ea0002026e5ac2,2018-07-30 18:51:38,ruanyf,docs(string): edit template function,False
+7c49f7edc2ca269f863ea7d784621c3ba5a5603c,2018-07-25 05:11:44,Ruan YiFeng,"Merge pull request #728 from LeoLcy/patch-1
+
+语法错误，箭头函数单行不需要return",True
+e423f4967f90df64fc15db219397b233224cc54b,2018-07-24 15:40:53,leolcy,"语法错误
+
+// reduce方法
+[1,,2].reduce((x,y) => return x+y) // 3
+修改后
+[1,,2].reduce((x,y) => x+y) // 3",False
+3034d8e4ed0e29a6bcd3c1e5699536a351037c7f,2018-07-24 08:36:49,ruanyf,refact: cancel inline JS codes,False
+86b5a9c33f79e150352df24accf105ae7c0a66dc,2018-07-17 19:15:13,ruanyf,docs(let): fix const #720,True
+420a9f76f8651a511c73e0a09cba6cef80afba93,2018-07-17 19:12:52,ruanyf,docs(let): fix const #720,False
+0fe548fd2b7c8a6a073104a2c52faa75fff41f86,2018-07-17 09:55:38,ruanyf,docs(let): edit const #720,False
+2f0537eb084280a429fb04784d9c0b69cb78fbe6,2018-07-12 14:39:55,Ruan YiFeng,"Merge pull request #718 from kaqiling/patch-1
+
+Update async.md",True
+94024df0f113114bf7ad9e5293fa2d5c8da19f77,2018-07-11 12:16:51,hanty,Update async.md,False
+a46664f54abb9742fe22cb31285b1cac8c7929a9,2018-07-06 08:06:01,ruanyf,docs(iterator): fix return(),False
+d4c8df426ab9942a745584998754fe0ae114e44d,2018-07-06 08:02:43,ruanyf,docs(class-extends): fix super() #711,False
+e11bc6133d726666e15152c461aaa4d101bf9ae2,2018-07-04 14:37:59,Ruan YiFeng,"Merge pull request #710 from juzhiyuan/patch-1
+
+Update module.md",True
+efafe678d1fe16c9a405a7b328941d33a460ac53,2018-07-04 11:41:26,Shaoyao·琚,"Update module.md
+
+修正描述",False
+e85f4dd15a17713d076524f8f131f7f0ddb04450,2018-07-02 11:46:27,ruanyf,docs(iterator): edit return() #708,False
+3c44084f4b2e318fcbec77b7191b1f2412726c47,2018-06-25 09:56:32,ruanyf,docs(class-extends): 删除 class X extends null 的讨论,False
+b88434100d99a828b4110bcde7c96e083655afed,2018-06-21 14:31:41,Ruan YiFeng,"Merge pull request #701 from favefan/patch-1
+
+word change.",True
+83bad90346c8c2486d8fa844bd7a0463757428bf,2018-06-21 14:27:09,ruanyf,docs: edit class-extends,False
+19e1974afe27c5b1ab192470618e1d2a989c3078,2018-06-21 14:10:25,ruanyf,docs: edit class-extends,False
+e4351e2a70cff6ff58337fd313b11875d3eba2cc,2018-06-21 06:58:48,favefan,word change.,False
+06fac98bb11b0b1f3fccd396d402e918ae3fc002,2018-06-08 05:23:19,Ruan YiFeng,"Merge pull request #697 from snow212-cn/patch-2
+
+Update object.md",True
+6583714f3bb1ef5e921c3064bbccc97d2f04f2f8,2018-06-07 20:04:19,snow212-cn,"Update object.md
+
+这两段不知所云的英文插进代码段要干什么",False
+cdc7e48d939cab5a0027664b65bcd228ede46ee8,2018-06-05 14:18:43,ruanyf,docs(array): edit spread operator #694,False
+688ca45e6fb0ad3e0d3c5904dde3ccf486fc7a37,2018-06-05 11:03:35,ruanyf,docs(Reflect): fix Reflect.setPrototypeOf #693,False
+0f536b72172a5b42c772e5854ec026ba1a8386d0,2018-06-04 08:43:17,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+42e06a84d9ef75f7547ff4584802494c55d3c82a,2018-06-04 08:42:30,ruanyf,docs(reference): edit reference,False
+3a40242e74088281a07a19839c5a502135a43511,2018-06-02 15:52:56,Ruan YiFeng,"Merge pull request #689 from shenzhim/gh-pages1
+
+@std/esm 已经deprecated，改为esm",True
+dfd5c0ac0e0039dabf91999393675adbdce385c4,2018-05-31 17:00:36,shenzhim,@std/esm 已经deprecated，改为esm,False
+fe1e4b234e8ce335a4eb21a6983cd4d079d9b088,2018-05-28 11:20:37,Ruan YiFeng,"Merge pull request #686 from taxilng/patch-2
+
+Update symbol.md",True
+54eba0dc17a4b31f0b87c5f4bf7e5834bc68e5ec,2018-05-24 08:00:28,taxilng,"Update symbol.md
+
+demo不能在游览器上直接运行，故修改下；",False
+591b05babe12c8da43726a079933aa2d9048f40f,2018-05-23 02:34:58,Ruan YiFeng,"Merge pull request #682 from taxilng/patch-1
+
+Update object.md",True
+4f5db47055d1a7380fa38394d0eaf6b222ec7988,2018-05-22 12:00:21,taxilng,"Update object.md
+
+__proto__属性:第一个例子，注释，ES5,ES6写反了",False
+76b6bce980e830a84038ce0caf54aeafa796697e,2018-05-22 10:04:53,ruanyf,docs(generator): edit generator,False
+37cf4844db50cc05fa3f23a3125232d873e7156c,2018-05-22 09:50:10,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+e21467c3d235ae1850d0ff799954f2d95ff04f43,2018-05-22 09:44:39,Ruan YiFeng,"Merge pull request #680 from 07akioni/patch-1
+
+修改了模块循环应用章节一个变量的错误",True
+1ac13240a9ca81ebb5d615a1df77a87ccc9db628,2018-05-21 12:01:10,07akioni,"修改了模块循环应用章节一个变量的错误
+
+odd 中的 even 应为 undefined 而不是 null",False
+36c2fdb05dacd0302c6963cd65be6d632ad95a5d,2018-05-20 04:08:28,ruanyf,docs(proxy): edit proxyw,True
+7c7f1ce7d1cec390f6fad2a605b962b08b07dd19,2018-05-20 04:07:23,ruanyf,docs(proxy): edit proxyw,False
+e3769745ce486b9908ad265c5a4b8ce090391408,2018-05-17 20:11:27,Ruan YiFeng,"Merge pull request #671 from Tomotoes/patch-1
+
+Update proxy.md",True
+2d86fc3f9c1302bf1c6926bb8ff41e2d25b8e5c1,2018-05-17 20:09:21,ruanyf,docs(generator): edit throw,False
+9708a2158135c5fa82a0930ed0a2d465463de9c5,2018-05-16 18:13:29,Simon Ma,"Update proxy.md
+
+1. 纠正错别字 
+> **构建函数** 为 构造函数
+2. 纠正语义 
+> 有被`for...in`循环所排除。
+3. 增加
+> `has` 方法的参数说明",False
+7d5a56292aefec91b000a691143de6fdd2dfbe27,2018-05-16 11:46:28,ruanyf,docs(proxy): edit receiver,False
+df00e8abba44601954f61dca0d0cf964587d4e22,2018-05-09 10:36:28,ruanyf,docs(set): edit WeakMap,False
+58767f55b2e339cb1d095b21083f42e1c965cc7b,2018-05-09 08:56:52,ruanyf,docs(async): edit async,False
+6733d07c719765cb909edb5ef618cda648bf99b1,2018-05-03 14:51:01,ruanyf,docs(proposal): edit BigInt,False
+6ea3ffc57e4b4898a68dffd2dbcbb7a3aba976ba,2018-05-03 14:28:17,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+25cc21754d68e97f9b0d44bad70c31934448e47b,2018-05-03 14:27:30,ruanyf,docs(class-extends): fix super() #657,False
+008778d54de9636d82452a41988090cbcb83fc45,2018-05-03 13:50:58,Ruan YiFeng,"Merge pull request #653 from STLighter/fix-substep
+
+修复读懂 ECMAScript 规格章节链接和伪代码格式",True
+31bef7b0bcc958560d8072508aac4a95ba0c37e5,2018-05-03 13:36:51,wuzhiyu5,调整描述以符合伪代码中展示内容,False
+4533f407a79a65a85df41bc79a3e2b32587da69f,2018-05-03 13:36:51,wuzhiyu5,修复es6文档章节链接和伪代码格式,False
+165d5e0c19774c50c7778d5374d2a722da1a228c,2018-05-03 13:32:42,ruanyf,docs(class): edit class private property,False
+86a012fafd22f09dfe07eaf28d8c8e37cb11ee17,2018-04-28 12:44:33,wuzhiyu5,调整描述以符合伪代码中展示内容,False
+6fc5573b229e756001dfa8aa21e532bd03e7fdf8,2018-04-28 11:27:38,wuzhiyu5,修复es6文档章节链接和伪代码格式,False
+63580eb1ff75acbffb066ea494f2580a7784b20a,2018-04-25 15:10:20,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+3226888ad87e3447407ce7941c2ea528fc6e5f61,2018-04-25 15:09:57,ruanyf,docs(acknowledgement): edit acknowledgement,False
+857c4f26ca17aa8696eb1b8f0ff7630f395f897d,2018-04-25 14:52:10,Ruan YiFeng,"Merge pull request #648 from KinFeng/patch-1
+
+fs的接口应该是readFile，'f'改成大写'F'",True
+da319a110feb23eeb2c008d8fbde180149946430,2018-04-24 13:23:28,KinFeng,fs的接口应该是readFile，'f'改成大写'F',False
+b48a35bebbd7d6ad429e7dea351a0ca3da0d0111,2018-04-18 13:04:42,ruanyf,docs(proxy): edit proxy.ownkeys,False
+7fab96c932f93e3671f736eafc2b3db3b9088d65,2018-04-17 13:23:05,ruanyf,docs(async): 增加 Stream 异步遍历器的例子,False
+243065023390046c6579363a867e16c10768d216,2018-04-15 19:03:01,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+caeb8706bd66ab490ca01087081752d6bfc24acf,2018-04-15 19:01:19,ruanyf,docs(decorator): edit decorator,False
+3ec27d3ab9c2134dfc1eb041f5fd70f67a0968cd,2018-04-10 08:02:38,Ruan YiFeng,"Merge pull request #643 from itellboy/patch-1
+
+Update promise.md",True
+2416e5685bfba66913da708fcf1bfd6f0d60ed2a,2018-04-09 20:22:56,GJ Wang,"Update promise.md
+
+shouldn't use cooma.",False
+893a34ba270dfe71f158779ee20a15915f464199,2018-04-09 08:25:40,Ruan YiFeng,"Merge pull request #639 from xianshenglu/patch-1
+
+删除无效冗余字符",True
+53cf097ccbb4b5d5da04d137eef75707f6da6909,2018-04-09 08:17:40,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+5d16ab071f8cf51ecb9fbda0af9facf24b2151e6,2018-04-09 08:17:22,ruanyf,docs(module): edit import(),False
+91c2c8db483a669716e149d46205e962c8853f4f,2018-04-07 20:00:12,Ruan YiFeng,"Merge pull request #636 from lemondreamtobe/patch-1
+
+Update destructuring.md",True
+2eccfb5a3508091aba9b1989c7121ce97b7302e1,2018-04-05 15:57:56,xianshenglu,删除无效字符,False
+013f7370fd0dc9e2fa363e025a556ad5c33bd95d,2018-04-05 11:20:18,ruanyf,doc(function): edit arrow function,False
+536d2c408c0e70b7a57a3c7da5592ce01eb1cf02,2018-04-04 08:59:25,Lemon_zhang,Update destructuring.md,False
+577dcc4a976120f56282c64d4bff957b08400b1f,2018-04-03 16:06:31,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+5e2ed331aa2b8599907c6d2f35a254a8be382cd6,2018-04-03 16:05:59,ruanyf,docs(class-extends): edit class-extends,False
+65058898e73b1dd1a287a3099cd155c98c38ffe8,2018-04-03 16:04:53,Ruan YiFeng,"Merge pull request #635 from xianshenglu/patch-3
+
+完善表述",True
+02928d182051bea3bf8504697cdf6913cbdfc43f,2018-04-03 15:22:15,Ruan YiFeng,"Merge pull request #634 from xianshenglu/patch-2
+
+补充完善表述",True
+5119c2c4c267a4cd4fb648f8f861b535d795bc97,2018-04-03 15:08:26,Ruan YiFeng,"Merge pull request #633 from xianshenglu/patch-1
+
+完善下表述",True
+36fc72005778ef1f83357b2b630731d6f03a2066,2018-04-01 18:56:00,xianshenglu,完善表述,False
+7fc640d46b949e1809538a0e28dbf966b18bf7c8,2018-04-01 18:53:14,xianshenglu,补充完善表述,False
+9e86918b4a87d6840679bdafb92ac67ace6ec591,2018-03-31 08:51:26,xianshenglu,"完善下表述
+
+原表述可能有误导，完善了下",False
+4123978a0a68ee5a472f49740fcca9b46863143b,2018-03-30 10:38:25,Ruan YiFeng,"Merge pull request #632 from jim3ma/gh-pages
+
+支持 gitbook，方便生成各种格式的电子书",True
+f7c8e8800afe8c36d1d0c194cf70f033a2ccb43a,2018-03-29 10:39:35,Jim Ma,add book.json for gitbook,False
+02631361e1b664506688f3be5ff7cde590e5c460,2018-03-29 09:52:51,Jim Ma,add cover for gitbook,False
+9b3d8c9afe91e485b50f01ac94f5cbbe5f61ba0f,2018-03-29 09:40:52,Jim Ma,add SUMMARY.md for gitbook support,False
+27784cd0cff223ea417ecbbf23e6f212d11c0af9,2018-03-27 16:37:42,ruanyf,docs(Proxy): edit Proxy,False
+592ab333d8ba6753796106c6bd9018be768b4fb7,2018-03-25 18:08:17,ruanyf,docs(object): fix object spread #630,False
+3a79d6799e4fdf91802f7e551e7f31d83bb33145,2018-03-15 12:02:33,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+a3a76e79e2e0362ae3fcd1220dc55ffda35fd61c,2018-03-15 12:02:21,ruanyf,docs(class-extends): fix super,False
+aa023e51ad2f6bdec837126483de4fec1f0b7173,2018-03-13 08:53:00,Ruan YiFeng,"Merge pull request #625 from CatcherO/patch-1
+
+Update array.md",True
+59f8665131e1730255294c38148e21c3fef2fb4d,2018-03-12 07:51:11,Chiki,Update array.md,False
+c26d2a55e6d3d3249d07839038febfbe88a2bb11,2018-03-10 14:27:58,ruanyf,docs(set): fix bug #623,False
+77acc04e3f572f9ddf6357f4e7a36dc23b0045c8,2018-03-06 09:43:09,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+3cf3f8fdb6548e66ee8c3234cd44234761ae5372,2018-03-06 09:42:55,ruanyf,docs(async): fix 异步遍历器函数 #622,False
+53b831db2515f9c462ac29bd35febc175d7bab1c,2018-03-06 07:49:02,Ruan YiFeng,"Merge pull request #620 from TinaC/patch-1
+
+fix typo",True
+fecda8655d4f31242a89fc69d9701a9445fa2c5c,2018-03-05 07:56:07,TinaC,fix typo,False
+130cf0ccd09a625d732d95b4e40b75ac9d3e44e2,2018-03-05 07:40:38,Ruan YiFeng,"Merge pull request #617 from xianshenglu/patch-1
+
+严谨化 \S 的描述",True
+13e78981e8508e77987181deba39408d53f1826a,2018-03-05 07:37:11,Ruan YiFeng,"Merge pull request #619 from wfzong/patch-2
+
+给当前对象加上同名属于，形成对比",True
+3d8af6149cf3d3f44fb03c1b126de142d8b451f2,2018-03-03 18:05:02,王福宗,"给当前对象加上同名属于，形成对比
+
+给当前对象加上同名属于，由于值不同，会有更直观的对比~
+同时，也和最后一个例子有呼应，方便初学者理解",False
+3c7e8a6365723ee7aa4e5ca67c4edb8c0cd4e5a4,2018-03-02 13:14:37,ruanyf,docs(module-extends): edit extends,False
+b4f12261780c5f446fd12bbb3a42a3c95657b966,2018-03-02 10:12:37,ruanyf,docs(regex): edit regex,False
+53389645e7790b0d5009d9e6fa32fe31246e56d6,2018-03-01 11:00:46,ruanyf,docs(promise): edit promise,False
+69a86e75c54ae6a8cda20ff0c854f8c24ebc3324,2018-02-27 06:58:35,xianshenglu,"严谨化 \S 的描述
+
+\S 匹配所有非空白字符 而非所有不是空格的字符",False
+50bd8d09d2fe27f747e848c0320c7ea78e1267a8,2018-02-26 12:52:47,ruanyf,docs(proxy): fix proxy #616,False
+52e67f71da82dd4bee54bc38682ffacdf7e0024f,2018-02-26 12:50:30,ruanyf,docs(map): fix map #614,False
+a13917f1be738e90da66fea09746d34255192fbb,2018-02-26 12:07:51,ruanyf,docs(proposals): edit option chaining operator,True
+be47d277ac5ae9b1a08891ca22fb250262d3166d,2018-02-26 12:05:53,ruanyf,docs(proposals): edit option chaining operator,False
+0a65201d76abb2994118b368745b101041880a87,2018-02-26 10:55:49,Ruan YiFeng,"Merge pull request #612 from yuu2lee4/patch-2
+
+Null 传导运算符提案地址替换为tc39官方",True
+470785adf59995ccb490a61fc4a39243c175547d,2018-02-26 09:29:01,Ruan YiFeng,"Merge pull request #611 from yuu2lee4/patch-1
+
+修正管道运算符提案地址",True
+a3514a00834eb53dbeee86a58266dc6c73f2659c,2018-02-26 09:27:29,Ruan YiFeng,"Merge pull request #610 from cntanglijun/gh-pages
+
+少了一个""个""字",True
+78d9b668dda9d7b4d8caf3da724596311f0007a9,2018-02-25 11:54:17,yuri,Null 传导运算符提案地址替换为tc39官方,False
+df6cc1a71de2b2c11d389709ba9bc38bdce30159,2018-02-25 11:46:22,yuri,修正管道运算符提案地址,False
+c7b5077af4755e236dbb1931c2b5066932867b3f,2018-02-24 22:18:27,cntanglijun,"少了一个""个""字",False
+9f82a677ce1d12f527fe43db7b4aa7d7a89c6f40,2018-02-23 10:08:44,ruanyf,docs(decorator): fix typo,False
+01f62521de56400f6275ddc17b0979c971ee1a05,2018-02-22 20:12:03,ruanyf,docs(funcion): fix double colon,False
+dc56713476a2dfdb8822ee425d4b81c81c90dc1a,2018-02-12 21:50:49,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+d569703fb4d9ada613fe8869ef50d2e3861210ba,2018-02-12 21:50:38,ruanyf,docs(module-loader): delete #607,False
+eaae443f7c761e8863c063c9dd3400c3cb906621,2018-02-10 11:00:09,Ruan YiFeng,"Merge pull request #608 from caikan/patch-1
+
+fix typo",True
+de0e54caea46429bdd32cd509999ff3a709345e7,2018-02-10 02:38:26,caikan,fix typo,False
+eca39c5c95c5855f067d90cf8f1cbe3885bf6ea2,2018-02-09 16:07:06,Ruan YiFeng,"Merge pull request #606 from baooab/patch-4
+
+Fix typo.",True
+b87ae6e7038d8f58b7a33b6f0fe6961db0d85895,2018-02-09 13:34:19,ruanyf,docs(proposals): edit proposals,False
+c64177a5dc87064e6d8fdf5b33f25b2b034a41f6,2018-02-09 10:56:01,zhangbao,Update string.md,False
+e59bd7b537e7a725d5bbec22d8239c69e4c7fef9,2018-02-09 10:26:15,zhangbao,"Fix typo.
+
+charAt方法返回的，并非是 UTF-16 编码的第一个字节
+
+而是
+
+期望返回的是用2个字节表示的字符。",False
+b70cef123ffff72432e07d114d35deadd2570da5,2018-02-08 16:21:42,ruanyf,docs(proposals): edit proposals,False
+3c4b9d1a63bbd5559b875d5801f88b4751d0ca78,2018-02-08 15:47:29,ruanyf,docs(arraybuffer): edit arraybuffer,False
+d6045d09c96ed0237af2fe663e546d59b35e923e,2018-02-05 07:52:21,ruanyf,docs(proposals): edit proposals,False
+9be34c0bd8b40e900639e71af9792feeebf54830,2018-02-05 03:09:34,ruanyf,docs(proposals): edit proposals,False
+3bddf9cd881c6a2239d59e66733ecc8175125ff3,2018-02-02 16:15:46,ruanyf,docs(set-map): edit set-map,False
+2934e50ad96085de1cedd14f5e52e35eb8482491,2018-02-02 16:08:26,Ruan YiFeng,"Merge pull request #602 from LucasLee92/gh-pages
+
+set-map 文章表达错误修正",True
+fb5ef8dc33ccce12e489f59311db4d4ebd5a57a6,2018-02-01 16:17:58,ruanyf,docs(proposal): edit proposal,False
+537c06d8ded341e1087db3b0691b3026184f9bd6,2018-02-01 11:50:25,LucasLee92,set-map 文章表达错误修正,False
+461d3edae8e109ebd2a04d0a3e0e1d9425ffdcd5,2018-01-30 12:29:18,ruanyf,docs(generator): edit generator,False
+14c45fe2f549e0f44f7a53b201576f84064f8734,2018-01-29 06:17:04,ruanyf,doc: update to ES2018,False
+5d5f588899f1d89f2c534db5b3b9551f386295f5,2018-01-28 10:32:07,ruanyf,docs(module): edit export和import 混合写法,False
+6e3dbd93f116925e0498cd208b6c973c96c1083b,2018-01-28 10:15:16,Ruan YiFeng,"Merge pull request #599 from zheeeng/patch-1
+
+修正 module 语法中 export 与 import 复合用法的描述",True
+9872c15b0570ce8816b28e335eaf213e99d4797e,2018-01-28 10:00:59,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+cb025812e5fafab635eeb775e3f5d7c96f0e3133,2018-01-28 10:00:46,ruanyf,docs(proposals): 增加 最新提案 一章,False
+c1b0b3f510ca00181873bc3444923876bfeb6b2b,2018-01-28 08:44:33,Zheeeng,Update module.md,False
+90686191f8e56b56b959e21122351a732d3dab6e,2018-01-28 07:36:29,Ruan YiFeng,"Merge pull request #598 from picc-lu/gh-pages
+
+Update Array",True
+eefe534d4fea1d3cc02cec5b6b6819558742a4d7,2018-01-28 07:27:54,ruanyf,docs(symbol): 修改 Singleton 的实例 #597,False
+cef2b36a82edd9f4c16e7180d54e4dbb8094e037,2018-01-28 06:54:08,ruanyf,docs(module): 加入 import 命令的只读性 #595,False
+c669887292818f1e22baf1ab1900dfcd939f85b4,2018-01-27 14:18:47,picc-lu,"Update Array
+
+对Array.prototype.fill 方法作补充",False
+b2a2c581bb059a98ad1fdac9287a8c65aeb9aa5c,2018-01-26 03:08:46,ruanyf,docs(function): edit error,False
+6097cc302f939c0fd2b53e0636a8957740528488,2018-01-25 13:24:17,ruanyf,docs(regex): edit regex,False
+ee982c4314fcdb1ba3143e471898f8e98c6b7670,2018-01-24 12:38:15,ruanyf,docs(string): edit String.raw,False
+0ce61292713789f0d485cd218cb9a0442c0e7168,2018-01-22 14:51:04,ruanyf,docs(intro): edit intro,False
+993d82bfa0229071a386f63605cb4cbf38f4311a,2018-01-21 19:48:07,ruanyf,docs(arraybuffer): edit arraybuffer,False
+67776aa4a4e0d55904671db3469ffc4253c1a42b,2018-01-16 10:44:59,ruanyf,docs: edit number,False
+c568f107106259b41b5cece19ef20562a1235b90,2018-01-14 19:42:24,ruanyf,docs(spec): edit glossary,False
+26bb54f20bb2e20432610c0db111ca2b27da480f,2018-01-14 19:40:47,ruanyf,docs(spec): edit glossary,False
+c3beb34d8aa88c038f08394111d23c20124a9518,2018-01-14 19:38:09,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+2fe9716a0987bda762da62d086d011f89f63ae5a,2018-01-14 19:37:05,ruanyf,docs(spec): edit glossary,False
+58049d37dfc2fbc4531c699b6f59f2e9d2061ada,2018-01-14 18:05:18,Ruan YiFeng,"Merge pull request #588 from sxyazi/patch-1
+
+Update generator.md",True
+042150930dc0925d497fb3cb68f5e919c0d10ebd,2018-01-13 22:01:35,三咲亚子,"Update generator.md
+
+统一代码风格",False
+bf1914497b4d15032c0ea5367e08e98f989515e4,2018-01-11 11:57:31,ruanyf,docs(module): fix import script suffix,False
+b2877ad0fad776e3a1f5b9d0086180391159b240,2018-01-11 08:55:51,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+f847132b3c8f9856022ee36699064c2cde15095b,2018-01-11 08:55:46,ruanyf,docs(iterator): fix return() #585,False
+ad08ffee151e73ad9ec8f4482b64c127c1d5a89e,2018-01-09 13:05:28,Ruan YiFeng,"Merge pull request #582 from picc-lu/gh-pages
+
+Update Array",True
+71bebc50117130493c2d756ebb3285880f427f18,2018-01-08 18:46:45,picc-lu,"Update Array
+
+1. 修改copyWithin方法中target参数的描述
+2. 添加一个find方法一节中的例子",False
+3f1a831aa1d2c8d905c8738d596f6ac4dc78a17c,2018-01-08 07:20:21,Ruan YiFeng,"Merge pull request #581 from limengke123/patch-1
+
+Update decorator.md",True
+40707121411f1b1c0225ce5962929fd39d85e2a9,2018-01-07 21:04:14,LiMengKe,"Update decorator.md
+
+${name} is wrapped with """"",False
+8aa99b93022ecc042a47a8a11fed957b0212124b,2018-01-06 16:09:20,picc-lu,"Merge pull request #2 from ruanyf/gh-pages
+
+Update 18.01.06",True
+796501b2648a3b143f75eba1a05c68820fdd6bd0,2018-01-06 14:04:23,ruanyf,docs(function): fix typo,False
+6807435578b83994f8cd276a5e086270e11ff363,2018-01-06 12:08:24,ruanyf,docs(Number): edit Number,False
+b3eec5c3bcb0fbf83e36a3bea736a053c6542640,2018-01-06 10:37:06,Ruan YiFeng,"Merge pull request #575 from picc-lu/picc-lu-patch-1
+
+请求更新——Number.isInteger 和 Math.fround 一节",True
+efd6a71825aad949ff2115c522ca4eb3b70f5a37,2018-01-05 09:41:19,picc-lu,"Update Math.fround
+
+小修",False
+c122e669dc51154051076421223195ca43855035,2018-01-05 09:27:53,picc-lu,"Update Math.fround
+
+基于 IEEE 754 标准修改 Math.fround 一节的介绍",False
+ef25faa3dc34bf19f8ae36bdb619b9905a640001,2018-01-04 21:01:25,picc-lu,临时,False
+091a12143012a895f78d073fb3b236d0c75282bc,2018-01-04 17:00:40,picc-lu,"Merge pull request #1 from ruanyf/gh-pages
+
+Update 18.01.04",True
+dbcaa24a7fe48c0962ae152f703a20b74000eab8,2018-01-04 16:29:59,picc-lu,"Update Number.isInteger function
+
+基于 JavaSciprt 的浮点数 IEEE 754 标准进行深入分析。",False
+3cc432075dcc0159d739211a9d2021ed94cad1cc,2018-01-03 20:14:01,picc-lu,Update number.md,False
+5fca18cb62fa938e2a718ae7de505c5a1b36734d,2018-01-03 20:13:00,picc-lu,Update number.md,False
+1335934683f4f3ddb93a520f0fd47ad26432662c,2018-01-03 17:16:13,Ruan YiFeng,"Merge pull request #573 from gongpeione/patch-1
+
+Fix 替代数组->替代函数",True
+90392b6e406832ede41d925787ac199e674cdaef,2018-01-02 22:06:05,gongpeione,"Fix 替代数组->替代函数
+
+扩展运算符应该是可以替代函数的 apply 方法。",False
+a79f879b5183cc0f9ae6d48b854cc2706f933788,2018-01-02 21:00:30,picc-lu,Update number.md,False
+afe19e0e863a2bf51443f75e2646855fd7d3c909,2018-01-02 19:26:33,picc-lu,Update number.md,False
+b9e9f4e5b4809e7fc3e1e6de649b1ca966bb7d0d,2018-01-02 14:59:52,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+3eeb90b85c9f770376b9e12142282b1b749caa3c,2018-01-02 14:59:38,ruanyf,docs(class): edit private method #572,False
+51186359dea533998e744ab97cd9b30fcf5ac024,2018-01-02 13:14:02,Ruan YiFeng,"Merge pull request #571 from baooab/gh-pages
+
+对 《变量的解构赋值》一章的 4 处修改",True
+1ed4d662781ed785a2271391c9dcb3ac22badeb6,2018-01-02 12:42:39,zhangbao,docs(destructuring): fix typo,False
+edc4ff260cb8511bdd25bc92643c936b7214d590,2018-01-02 12:33:01,zhangbao,doc(destructuring): 英文单词与中文之间空一格,False
+686fb84a3276fbc619ef521e0a8e303d1d26a8ee,2018-01-01 19:26:43,zhangbao,"docs(module): 修改句式
+
+较为清楚地表达意思。",False
+e3f7e972e5477d84f3d1b09ef383a38b96e08914,2018-01-01 16:45:48,zhangbao,Merge branch 'gh-pages' into gh-pages,True
+73cd2a2f92e94f47c943099817b88be1c75be0f4,2018-01-01 16:07:57,zhangbao,"docs(destructuring): fix typo
+
+修改了两处：
+
+第一处：去掉假设词“如果”；明确`null`是个有效的赋值，它导致了默认值`3`失效。
+
+第二处：参考章节字样使用圆括号括起来了。",False
+083c99e838b487d18642042bf9c33ead93c57a18,2018-01-01 15:53:16,zhangbao,"docs(destructuring): 补全报错信息
+
+这样直接看代码的话，更能直观了解到要先声明 y 才能使用它，而不是在声明 y 前就使用它。",False
+95caa944a3adacaf826fed60e4548b8d0b2c1ee6,2018-01-01 15:43:54,zhangbao,"docs(destructuring): 修改句式
+
+将否定句改为肯定句，更能快速理解。",False
+0051af0528027761cce1ca8651766db6cb473828,2017-12-29 13:25:45,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+1ff6639dfab280bf828a2e5634647d5ccc101252,2017-12-29 13:25:22,ruanyf,docs(regex): edit y flag,False
+faefd427a0eb6e934d62f7fd172bebb25e7515d2,2017-12-27 08:24:03,Ruan YiFeng,"Merge pull request #569 from baooab/patch-3
+
+Fix typo",True
+7b728a4f3100cce9c091517bebf7eef32b9a700f,2017-12-27 08:20:43,Ruan YiFeng,"Merge pull request #568 from baooab/patch-2
+
+Fix：统一例子中的代码风格",True
+e534d8bb2339caed1f834bb95c06be15c7bda0c1,2017-12-27 08:11:17,Ruan YiFeng,"Merge pull request #567 from baooab/patch-1
+
+docs:Fix typo",True
+6b647bd7d7f6f254941a9477ab2938b20bbade57,2017-12-26 08:41:47,zhangbao,Fix typo,False
+311cfaa50d93a50ca601de8dca5b4c916dccee09,2017-12-26 08:25:39,zhangbao,"Fix：统一例子中的代码风格
+
+更能清晰地分辨出是对象字面量声明中的方法简写",False
+5bda2fdb53082132005d6c87463b756cc6c95e89,2017-12-26 06:33:51,zhangbao,"docs:Fix typo
+
+The type of `value` is number, not string.",False
+488983f6d414345a9c15b669e427c72f7f1136d6,2017-12-21 16:47:27,ruanyf,docs(symbol): edit symbol.species #566,True
+649b29779a33f291b70de3bd765a5ce9330b28df,2017-12-21 16:46:44,ruanyf,docs(symbol): edit symbol.species #506,False
+8e39692180a7d30ed39f77e5131a6aa7fce0f1af,2017-12-14 14:53:02,Ruan YiFeng,"Merge pull request #560 from opennext/patch-1
+
+docs(style): modify the bold format of  -（3）yield",True
+0213ffc1abf4c5d3fc0e575a8df3671bc71c4c56,2017-12-13 13:03:14,Open Next,"docs(style): modify the bold format of  -（3）yield
+
+remove needless space char in **（3）yield* **",False
+465b82597a27cebbfe0bf039877557f0549cc42e,2017-12-11 02:34:01,ruanyf,docs(module-loader): fix typo,False
+41efa95b184970a24f2b8d732aa3a753a9271eb7,2017-12-07 07:56:25,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+22c3b931dcad23a03ea3d3a9dc3408db9637f4f9,2017-12-07 07:56:10,ruanyf,docs(proxy): edit set(),False
+67416c07b2ef293d209c2bcd1cb518d42bba3364,2017-12-07 07:51:56,Ruan YiFeng,"Merge pull request #558 from isLishude/patch-1
+
+增加ES5中reduce方法对数组空位的处理",True
+48ccd23c174e80ddc50e962ddbd4efe75751fc58,2017-12-06 07:02:15,isLishude,"增加ES5中reduce方法对数组空位的处理
+
+```js
+[1,,2].reduce((x,y)=>{
+  console.log(x,y)
+  return x+y
+})
+// 输出
+// 1 2
+// 3
+```",False
+7740f5d0755d4e43c8befe623f486613324e7bf0,2017-12-05 19:12:36,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+075c27b54dccdb6466ab0613373bdbd7b06b4162,2017-12-05 19:12:30,ruanyf,docs(decorator): edit method decorator,False
+076f2ca4d6ebad642a375f007667fdf6f0786769,2017-11-24 23:17:10,Ruan YiFeng,"Merge pull request #551 from m4jing/patch-4
+
+Updated example and explanation of Symbol.species",True
+3f28d7b06ec0e4647b9f2be91221f24f55741b61,2017-11-24 13:47:31,Jing Ma,Updated example and explanation of Symbol.species,False
+d808c68ce0b8ac62981838312faf7af422b3cf90,2017-11-24 12:14:51,ruanyf,docs(generator): add generator context,False
+1357a8e345c36a6ceda329a330a887b9f10fcc37,2017-11-23 14:31:23,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+bfa394a2d72d66531707377ebaf918371a042eee,2017-11-23 14:29:21,ruanyf,docs(style): fix typo,False
+80d2f5042292b067111cf08ec3574ecfa278e10f,2017-11-22 13:20:24,Ruan YiFeng,"Merge pull request #549 from m4jing/patch-3
+
+Updated result of examples",True
+7dd83344b6b5b208c833019ce8aef2bd0a5ee238,2017-11-22 09:20:53,Jing Ma,Updated result of examples,False
+b424224cb78cdeffc1d0ad47de642869ecbb762b,2017-11-21 11:08:59,ruanyf,docs(set): edit set,False
+3a79a8d329556248700de7194eb2d7296b3afbec,2017-11-21 11:03:46,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+dad929d01e9d04773fa7ca88a39c78d7bcf5b6d3,2017-11-21 11:03:34,ruanyf,docs(decorator): edit decorator/publishEvent,False
+a0190b6b9860245935db882b52c2088b3560cb08,2017-11-16 15:34:56,Ruan YiFeng,"Merge pull request #546 from m4jing/patch-2
+
+Fixed minor typo",True
+5bfd96bd8722e7d911dd024693fdcc796c8ebdd3,2017-11-15 08:35:48,Jing Ma,Fixed minor typo,False
+cce0be6bbe3af9bdd0a79a86934473852932a753,2017-11-13 14:09:39,Ruan YiFeng,"Merge pull request #544 from ikatyang/docs/prettier
+
+docs: consistent style",True
+e8fdb0004015c95fd7266d29249d182ca9b0e3a1,2017-11-12 15:31:54,Ika,docs: consistent style,False
+eeba1984a8390647f930bdadae30309926f3c834,2017-11-12 09:22:12,ruanyf,docs(module-loader): ES6 循环加载 #542,False
+6d2fc73616d7103e643edce3d597d0abf7d7a90a,2017-11-11 18:10:19,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+ece1bb9dfa6eaaf7933c0ec4f131d871b898ac67,2017-11-11 18:09:50,ruanyf,docs(module-loader): 有虎 async 和 defer 属性的解释 #542,False
+fc5e9942157f117ce327e66b18a5947fab4cf0d2,2017-11-11 16:24:20,Ruan YiFeng,"Merge pull request #543 from m4jing/patch-1
+
+Fixed minor typo and provider preciser translation",True
+9b67b9bf8c8bfb40d3e68d7e087544167cd500df,2017-11-10 16:34:11,Jing Ma,Fixed minor typo and provider preciser translation,False
+5adf73bbcf5500903718510f5edb4ae5bd17bffc,2017-11-09 06:26:00,Ruan YiFeng,"Merge pull request #540 from waitingsong/promise
+
+Promise",True
+535dd1ff9894d41860f91f1df7ce1afa58a3ca07,2017-11-09 06:17:27,ruanyf,docs(class-extends): edit class-extends,False
+5c40c2be8dc705571fe8f80b792b218cb2bd1b33,2017-11-08 16:49:40,waiting,Format style,False
+08a623935ecc7bb35f1419a40c3f2eff98fac1de,2017-11-08 15:11:35,waiting,"Use function assign instead of function declaration inner function
+
+在函数内定义函数推荐使用变量赋值方式代替函数声明方式",False
+6b300cf4911eefb2b2d2b98f150a2d2269697ba8,2017-11-08 15:08:17,waiting,Use const instead of var,False
+91f2a50e254f11cd605360b86247020350d8c62e,2017-11-08 07:13:02,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+530982b3aeb214651c4b043ee9180e3b3918b712,2017-11-08 07:08:07,ruanyf,docs(proxy): fix typo,False
+9276083cf7660b0506c385b645eeb5e790a12956,2017-11-05 08:13:20,Ruan YiFeng,"Merge pull request #538 from zwdsjl/patch-1
+
+Update string.md",True
+bbc173988b1b32c749f48956efe9ca3380a1aa6e,2017-11-05 06:55:58,ruanyf,docs(proxy): edit proxy,False
+44c6a81168ddf66387c161c65cb3dcf06932b91a,2017-11-04 11:48:35,zwdsjl,Update string.md,False
+2ac6e76b38f117f2acf6c465ab70709275b4241a,2017-11-03 05:48:18,ruanyf,docs(weakmap): 修正 weakMap 的例子 #536,False
+e845e1052581ab0d487af030a9c4020cebe7b18d,2017-11-01 13:57:06,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+ce5de76c40299ff3f9ee0f349f29c015b7399ac9,2017-11-01 13:56:36,ruanyf,docs(object): edit object'clone,False
+14cbc02d3c52614625c78119cf9c55ddc8556e75,2017-10-29 16:17:22,Ruan YiFeng,"Merge pull request #533 from waitingsong/docs
+
+docs: 变量名改为习惯用法",True
+ea98bdafa534be48adfb95ea177929d474166740,2017-10-29 14:10:55,waiting,"docs: 变量名改为习惯用法
+
+xxx这种名称偏向于口语化，适用于不严格的使用环境。 开发常用的约定俗称的随机名是 foo, bar, baz 等等",False
+22b0f1d472eb3b27c66b30cb2f13513455f21e24,2017-10-27 11:05:10,ruanyf,docs(arrayBuffer): edit arrayBuffer,False
+55a79524a66f1b5c95451a59df828e5694026532,2017-10-27 11:00:18,Ruan YiFeng,"Merge pull request #532 from waitingsong/arraybuffer
+
+docs: 改进表述",True
+b884411b1e220b2a87acc1dd572f3d979326555d,2017-10-27 07:17:29,waiting,"docs: 改进表述
+
+“第一个元素”含义不明确容易让人混淆。arraybuffer本身是底层内存空间，（第n个）元素是从读取数据的角度来说的。用于读取出信息赋值给的变量而已。而此处读取操作仅执行了一次，没有多次读取，不存在多个元素需要表述的情况。所以不应该使用序列表述，否则读者会疑问那第二个元素在哪儿？ 再者此处是针对 arraybuffer 的案例，应该从arraybuffer的角度来叙述，采用其相关用语。比如bit, byte, 第n个字节等等更好。",False
+cc33b1fd3dd6bcc23a62ecfe26f267bad2dd6307,2017-10-26 08:54:57,ruanyf,docs(function): edit 双冒号运算符 #529,False
+ce3b9f598b842e208bfa298c3ef51b14c00e947f,2017-10-25 11:06:17,ruanyf,docs(class-extends): edit class-extends,False
+be281832bf75b01a594fba17785d0d9e087c36c3,2017-10-25 07:54:55,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+581e760b20ed6a4e64fb8b9386342c62704f53d8,2017-10-25 07:54:44,ruanyf,docs: edit let,False
+b862a5ae752dee342f6cd2af22238e40b943a180,2017-10-19 09:02:59,Ruan YiFeng,"Merge pull request #525 from wanghongrui/patch-1
+
+修改一点儿代码",True
+9022f046e3ebdba293af35b425e56551868967c2,2017-10-18 13:54:13,dahong,"修改一点儿代码
+
+proxy.foo = proxy // true
+改为
+proxy.foo === proxy // true",False
+ea5f8d16d1d8577b8b06d731a7cd15df05bbd242,2017-10-17 08:41:23,ruanyf,docs(generator-async): edit co #522,False
+7680ea586a064a103249c0fa568683687aeb5de5,2017-10-15 13:39:15,ruanyf,docs(arraybuffer): edit ab2str,False
+24e9149543c6275f54a5cd0ccb111024e37ceedc,2017-10-15 07:07:12,ruanyf,docs(arraybuffer): edit ab2str,False
+4640bed36a0661365dd117e5c8fedd6bd68a764c,2017-10-14 13:56:26,waiting,fix: ab2string() calculation of array length,False
+143a1e4b13de3da6411859d3a5405473c18dd113,2017-10-14 13:31:38,waiting,docs(ArrayBuffer): optimize ab2str(),False
+2a82f81022531d3288d1ad3bc61c6f1619b29e5d,2017-10-14 09:31:59,waiting,docs(ArrayBuffer): add conversion demos,False
+0f0408563d62973ce89c812aeee7eea4a9e569b7,2017-10-12 15:23:32,ruanyf,docs(module-loader): 浏览器模块的加载顺序,False
+911dd3404a663e6d9f064ccd16cad25c8c9abab7,2017-10-12 07:29:24,ruanyf,docs(class-extends): 子类继承父类的静态方法,False
+70efc5d7d67067d611837431d53f93193f5971f9,2017-10-11 10:37:23,ruanyf,docs(set): edit set/forEach,False
+f6c7ded8dab5b91c0a04414091fd78a14e2b3161,2017-10-11 09:49:43,ruanyf,docs(object): add object spread #517,False
+1ac918c804ba747dd56eb9a54662fb927eb5d360,2017-10-10 08:34:41,ruanyf,docs(symbol): edit symbol/Symbol.instanceOf,False
+88248d97c38a1f7bb1e9a4845bed23b9ab24091f,2017-10-10 05:44:56,ruanyf,docs(array): edit array/spread,False
+a782099ff24b305889aa39207dc63975da43f16d,2017-10-09 09:22:51,ruanyf,docs(object): edit object/super,False
+55dc77e01d934f95c8501a0b5016ed89818c5000,2017-10-08 11:17:40,ruanyf,docs(object): edit object/Object.assign,False
+84503df2cfbef6bfc5da870fe038efd63d4a9763,2017-10-04 05:12:56,ruanyf,docs(proxy): edit proxy.get/receiver,False
+be04c5216af49bf25d7b9f6add6e3793cac5178d,2017-10-01 04:42:15,ruanyf,docs(string): edit tagged template #510,False
+71a8a26585b520015c8d8b3674857619e67f3d4b,2017-10-01 04:25:00,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+1459519ff0254886596901fbc536b365ca7fd9a9,2017-10-01 04:24:47,ruanyf,docs(number): edit Number.EPSILON #508,False
+673440939ea59b546b07a09ee4720b2fdf159712,2017-10-01 04:18:10,ruanyf,docs(number): edit Number.EPSILON #508,False
+5cc54128ab5b7799d54562f430b3dabc16a3cc27,2017-09-30 18:19:12,Ruan YiFeng,"Merge pull request #509 from lhlPersonal/master
+
+fetch语义错误",True
+39242dff2a04e8490f82e7ebd2336e89a6de582d,2017-09-29 05:42:56,Ruan YiFeng,"Merge pull request #507 from BirkhoffLee/patch-1
+
+Correctly specifying document charset",True
+f3dbf39b9c18192f83116ea06a41e5aeac7a6e22,2017-09-28 15:45:58,lihln,fetch语义错误,False
+273b2ba54129c313993c312bc0499aaf9f72fd89,2017-09-28 05:37:30,Birkhoff Lee,Fix typo,False
+1f7adc65f48d440b781b3683d497fe1189c33142,2017-09-28 05:35:56,Birkhoff Lee,Correctly specifying document charset,False
+2585e727122fd95653019a26d1492a0e4dc3aa76,2017-09-27 18:29:07,ruanyf,docs(style): edit style #506,False
+7d53d51e8c709a71ee6fedccbc26d4de817a974b,2017-09-27 04:57:49,ruanyf,docs(number): edit docs/number,False
+05084f33716f4ea9494dbc677de175b8c0944cde,2017-09-27 04:49:35,Ruan YiFeng,"Merge pull request #505 from Jet12138/patch-4
+
+Math.trunc()和Math.sign() 补充了几个例子",True
+de00dc246ee0b35c26f73a6a65f562ad2b2f7818,2017-09-26 07:44:24,Jet,"Math.trunc()和Math.sign() 补充了几个例子
+
+Math.sign()  //NaN  
+Math.sign("""")  //0    
+等等",False
+70ef6e631ce338c01fd1f7e83da8011da6d95764,2017-09-26 05:31:43,ruanyf,docs(intro): edit intro,False
+f1d954a41e8570cbb65e29e8c4baea8e17c4e353,2017-09-26 05:30:35,Ruan YiFeng,"Merge pull request #504 from waitingsong/dev
+
+fix and docs update",True
+833a15b0fc53e4333c822e84e8db5aa5448f8659,2017-09-26 04:48:48,Ruan YiFeng,"Merge pull request #503 from Manzeon/patch-1
+
+SyntaxError",True
+2a3cc90a4de9c175d457a78a073513802a30ee66,2017-09-25 04:39:09,ruanyf,docs(readme): edit README,False
+7b2b8f1e46b3d6f9842bd4379b778c762937f54f,2017-09-24 14:44:17,waiting,docs: use let/const instead of var,False
+5fbafe9efc204894ac16326d74ebbefdfaac81ad,2017-09-24 14:28:37,waiting,docs: use let/const instead of var,False
+37b125e7fa284b3afe0c6e78d42dd4ae3869040a,2017-09-24 14:26:34,waiting,fix: variable scope,False
+7030c70270d2288e11eb62a4828816e25024def1,2017-09-24 14:25:15,waiting,docs: use let/const instead of var,False
+e61fa4c3ed7edda904111feb75e56ee1d3cf0ccc,2017-09-24 14:20:05,waiting,docs: remove unnecessary sharedBuffer,False
+d29cca0cefa8b5adaa62a9553147bcd9e654fb5b,2017-09-24 14:16:09,waiting,docs: use let/const instead of var,False
+4e51b601a20e8337b405fb877243eb51e529ec53,2017-09-24 14:03:37,waiting,docs: use let/const instead of var,False
+4ae0a310e97ae479ff21f99a3b09628eb0e12684,2017-09-24 14:00:08,waiting,docs: use let/const instead of var,False
+5d9f3dd7734f802844082e1f8dad76e0ec2c0a20,2017-09-24 13:58:10,waiting,docs: use let/const instead of var,False
+ce8879f2accbc996701e8755c44d43cf30519143,2017-09-24 12:06:51,Wenjun Gong,"SyntaxError
+
+Missing function name",False
+99410abf6ebf7db6407e96ee16e2fbf323f175db,2017-09-24 09:34:24,waiting,docs: use let/const,False
+03697778a6ef95b5d83f3257ab5ec72502b17216,2017-09-24 09:30:10,waiting,docs: 规格改为规范,False
+9736f7b1ba0fd0b95b93238a76b5e4130a5bdbc0,2017-09-20 03:27:13,Ruan YiFeng,"Merge pull request #501 from lulinliao/patch-4
+
+“比如”写成了“不如”。",True
+fcc517176714c8a7894d5ec395340c80d6664af5,2017-09-19 08:14:26,lulin,“比如”写成了“不如”。,False
+b6fd6302c76a8ec2c638cc2212390948b76b07df,2017-09-18 13:36:33,ruanyf,docs(promise): edit promise.catch #500,False
+1fd3254458d111c91f50bcae881a0bffa72fd7b1,2017-09-14 06:18:13,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+59a006a135f08b5046259e49d8827e3fd74f3940,2017-09-14 06:18:03,ruanyf,docs(function): edit function,False
+ff02ddb09b3265255cc8a41b7725298748326c39,2017-09-13 14:39:46,Ruan YiFeng,"Merge pull request #498 from liujunyang/generator-async-suggestion
+
+修改Generator函数为习惯写法",True
+c01d5867b7b2f79f76aebe69c284a5d046d139c6,2017-09-13 12:48:50,liujunyang,修改Generator函数为习惯写法,False
+4f3d176b3dc017c4991089b9bc310df61ca20d22,2017-09-13 05:25:28,ruanyf,docs(module-loader): edit Node mjs support,False
+f05dcbe4c572d02de024c74051d61f8640bb4b7f,2017-09-10 10:57:04,ruanyf,docs(module-loader): edit Node 的 ES6 模块加载,False
+4dbd9b0f48bdddbfe6997791834b09e96e4965ec,2017-09-06 09:11:09,ruanyf,docs(generator): edit Generator,False
+ba08efe8d18317436fd276cfad003e5fff540dec,2017-09-06 07:15:42,ruanyf,docs: edit README,False
+87b9149ac77ab4824c5850c4f078c899532ca71c,2017-09-02 08:10:41,Ruan YiFeng,"Merge pull request #496 from pyz1989/patch-2
+
+统一Promise的状态为小写",True
+a0249e75065ee5685c31529b0d880f229b9bbcfb,2017-09-01 20:18:39,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+af2e9ba265560d5e108961e4cd829e13c2cf2445,2017-09-01 20:18:23,ruanyf,docs(function): edit function/arrow,False
+62fc14d0df238001e6407986a64786242af5eb50,2017-09-01 16:19:47,Yuanzhi.Peng,"统一Promise的状态为小写
+
+修改 Fulfiled => fulfilled
+参考: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise),，统一状态为小写",False
+d01e318f8ccd12a753ff3654000f63bfc4908a9d,2017-08-28 09:30:20,Ruan YiFeng,"Merge pull request #492 from pyz1989/patch-1
+
+Change Npm to npm",True
+f5877134e13171a0c8c5ed9bb12b99302d73d81e,2017-08-28 09:23:48,Ruan YiFeng,"Merge pull request #491 from sxyazi/patch-1
+
+x 貌似没有用到",True
+116431dcf3bab287e6be2c7dd5703bc69d7af943,2017-08-28 08:36:21,Yuanzhi.Peng,Change Npm to npm,False
+581d07c81c16bf35b4d037fd99ed355832142df5,2017-08-27 19:28:05,三咲亚子,x 貌似没有用到,False
+a88138646382237ff072d0611f650ac3c0f677bc,2017-08-25 14:30:18,Ruan YiFeng,"Merge pull request #489 from ColdMoonMao/patch-1
+
+Update class-extends.md",True
+0696f39cca539514546c8f760d12e15a91ff10bd,2017-08-25 13:30:40,Ruan YiFeng,"Merge pull request #490 from sutra/patch-2
+
+删除多余的“的”。",True
+465f7bd84d6b40ef63bbb197c05f48f87ea2e4f6,2017-08-25 12:11:15,Sutra Zhou,删除多余的“的”。,False
+09f01b59fc2c91492608c89c8c17f67ff368a75a,2017-08-25 09:23:24,ColdMoonMao,"Update class-extends.md
+
+应该是子类原型对象是父类原型对象的实例吧!",False
+66e421f60c8194a1f86ba1cbefd96da6145e3419,2017-08-25 06:02:02,ruanyf,docs(decorator): edit decorator,False
+7e08e9f0e863ff8c000fca58227d908c2aa325ed,2017-08-25 05:44:11,Ruan YiFeng,"Merge pull request #488 from sutra/patch-1
+
+删除多余的句号。",True
+19138ef66c1263d2f52161e332fe5cbf944d3fff,2017-08-24 14:20:25,Sutra Zhou,删除多余的句号。,False
+3ec7b44df9eadc3814c3d9790ffe877190bacb25,2017-08-24 08:11:38,Ruan YiFeng,"Merge pull request #487 from Fifthwolf/patch-4
+
+Update arraybuffer.md",True
+8b3b5f8aca06e8de3808a8f6388ac9fa5918eb68,2017-08-24 08:05:48,Ruan YiFeng,"Merge pull request #486 from Fifthwolf/patch-3
+
+Update arraybuffer.md",True
+c7b7e9736c3dae54dffe7f25382a0e97f0cbb9b6,2017-08-24 07:51:04,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+9974c8b9191e5c7482d7074b319e558e0acf07fa,2017-08-24 07:50:49,ruanyf,docs(generator-async): edit generator-async,False
+c9a07ca6d1dc6afba5542ed73baa5408f8085090,2017-08-23 18:13:44,Fifthwolf,Update arraybuffer.md,False
+4a79e95a2df34f79569a3a0113fea751fb68332b,2017-08-23 17:02:35,Fifthwolf,Update arraybuffer.md,False
+4d8cd0dccd88d567bacb3d06bab3ed399c3155f3,2017-08-23 04:41:36,Ruan YiFeng,"Merge pull request #484 from pyz1989/patch-1
+
+Update 源字符串 to 原字符串",True
+bf08c56051997ea1f6e703a2165797dac87ad2fb,2017-08-22 12:56:06,Yuanzhi.Peng,Update 源字符串 to 原字符串,False
+b50f19bf559c3ff0cb263318e0a5177077b4804d,2017-08-20 04:52:42,Ruan YiFeng,"Merge pull request #480 from Fifthwolf/patch-2
+
+Update module.md",True
+a2468adcbecd14cca495e051e9425b48c34d40a4,2017-08-20 04:50:13,Ruan YiFeng,"Merge pull request #479 from Fifthwolf/patch-1
+
+Update style.md",True
+afbc6f1f48de3bfbded97c58e1be5eec441d637e,2017-08-19 15:15:01,Fifthwolf,Update module.md,False
+ba4a7da76a57623862eb2a0623c7fa990ca30e58,2017-08-19 15:01:57,Fifthwolf,"Update style.md
+
+缺少“from”",False
+a188e963f6d426702b4cb6e906f19109c0ead155,2017-08-19 08:41:45,ruanyf,docs(string): edit string,False
+7f0180caca70a4b0d28165ad48a2176d88bbbcec,2017-08-18 10:46:46,ruanyf,docs(async): edit await,False
+5a448720c7b8ebe2a5744ad1f847487d3cf779e7,2017-08-17 17:40:39,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+2eb11d7026d1747b984e77ee004e3d40aefb635c,2017-08-17 17:40:28,ruanyf,docs(class): edit class,False
+cfaa97650ec37d9012f153ca9af700c85c4ab331,2017-08-17 17:40:13,Ruan YiFeng,"Merge pull request #477 from Jet12138/patch-2
+
+453行，显示的结果应为字符串""3""",True
+d69da6aa652403aded276c568846eaead9fd51f1,2017-08-17 14:35:53,Jet,"453行，显示的结果应为字符串""3""
+
+正在学习ES6，收货良多。",False
+65d6aff64c1b7859a2002ce9c2d7b89b89cd6bde,2017-08-16 17:11:38,ruanyf,docs(decorator): edit decorator,False
+c1f76b024dca93ee4059ba899d6929157a87f4e5,2017-08-16 17:06:05,ruanyf,docs(decorator): edit decorator,False
+7a85871d4a7e545e9774de8d6cc20950d68ff92c,2017-08-14 11:41:40,ruanyf,docs(functio): optional catch binding,False
+fb2930d2723d036a02d581e9d2dea67b72248a8b,2017-08-14 08:57:05,ruanyf,refactor(object): edit object/enumerable,False
+eea703a2c1fa98a42ef7975418a27be59bc2117b,2017-08-12 08:23:44,ruanyf,docs(function): edit function,False
+5c035974a2fdb59a38f3bee4d7b0db09074d9f6c,2017-08-11 07:45:02,ruanyf,docs(promise): edit promise,False
+ab1c5941bb8541671afcc9cbef27fd1f504babe5,2017-08-09 15:15:41,Ruan YiFeng,"Merge pull request #471 from Jet12138/patch-1
+
+改个标点符号",True
+42155a6293f02cd2d6084ae8895c6b9a7a0de2bb,2017-08-08 14:52:03,Jet,"改个标点符号
+
+519行，数组里面的元素间用逗号而不是冒号",False
+f78b5c92c1c8cefd44f10e37d30f26ea9a340f8b,2017-08-08 14:31:54,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+8e02ba553e43cbffa411ee538d452e9f837a58c6,2017-08-08 14:31:33,ruanyf,docs(promise): 说明 Fulfilled 和 Resolved 的区别 #469,False
+c96d87764398656172875f0e26ba4b11f38ab6f4,2017-08-08 13:18:17,Ruan YiFeng,"Merge pull request #468 from lulinliao/patch-2
+
+Update reflect.md",True
+3715691aecc422b751e5380404ca89985261cdea,2017-08-08 08:10:41,lulin,Update reflect.md,False
+2eeb5a1edcd4f7cd0dd4cead6ffb1cfbca1dc5fa,2017-08-08 05:43:24,ruanyf,docs(iterator): edit iterator.return(),False
+1a21fb8ea1ed69dcb42985fd0c9b69d8427c67b6,2017-08-07 09:05:01,ruanyf,docs(iterator): edit NodeList's iterator interface,False
+3b8baf234b264ab464f53b208ee3a226c899a3a0,2017-08-05 16:23:01,Ruan YiFeng,"Merge pull request #464 from HowardTangHw/patch-1
+
+感觉这句话有点歧义",True
+51c2cf023feb79b07ebdea2adc392eedbc6e201d,2017-08-04 14:17:19,Howard Tang,"感觉这句话有点歧义
+
+我看的时候以为反之是`用前者代替后者` 的意思,感觉加上这句话会更直观一点..不知道是不是自己理解错了",False
+d4501ea2ca71df2d5a9fafd306594a838938687d,2017-08-04 07:43:41,ruanyf,docs(regex),False
+11f7f679c7482fdf2f7237f8b22abe729c2c57c1,2017-08-01 04:32:24,ruanyf,docs(ArrayBuffer): edit ArrayBuffer,False
+c850187bd74ba4f335c844be73c9773f571337fb,2017-07-31 14:20:36,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+791fa922b6cf6f3ed408f4b9625fb84024f03a91,2017-07-31 14:20:24,ruanyf,docs(Promise): edit Promise,False
+7b7d2a9208ae0afcdfbc1464809660ef8cb57d87,2017-07-31 07:16:57,Ruan YiFeng,"Merge pull request #461 from outloudvi/gh-pages
+
+Fix minor typo of ""string.md""",True
+acb05c62ada7268b3f9163e18994fbac7c9c038f,2017-07-31 05:58:08,Aolvi,Fix typo of a pair of quotes,False
+2fe1490d2799d4564436861cc723bea3c45d4f9c,2017-07-30 07:41:00,ruanyf,docs(object): edit object,False
+76e1b1a9d9753a1e45ebb7865d53c4f3d1bbf99f,2017-07-27 09:32:23,ruanyf,docs(set): edit weakSet,False
+1b928fb71fe184722065d19cd32510f6f18ea259,2017-07-25 11:17:42,ruanyf,docs(async): edit async,False
+d7ee7e408160e37bb8e32ca4fa1e0f2a483d06cf,2017-07-25 08:35:29,ruanyf,docs(number): fix typo,False
+b178113795693fc25b9eb83c9f9bdb383d1b5925,2017-07-24 13:17:28,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+71eab1206c694bae9c88dbebe3f05bee8ccd4e07,2017-07-24 13:17:13,ruanyf,docs(Promise): edit Promise,False
+b26c5a19a8ae2cd1d16bfef767526a0116013366,2017-07-20 15:13:41,Ruan YiFeng,"Merge pull request #458 from chvin/patch-1
+
+Update generator.md",True
+12365a8c7398eeb8fd0ea7c8eb24924c190a9dd2,2017-07-20 14:46:15,Chvin,"Update generator.md
+
+第一次.next()传参不会报错，修改描述。",False
+e0cff509f51ee304d369dc325da5e8cab797ed45,2017-07-19 16:56:44,Ruan YiFeng,"Merge pull request #457 from chvin/patch-1
+
+Fixed typeError prompt",True
+cb58df14fc72bc9c66ff73db0186fec802068430,2017-07-19 12:57:35,Chvin,"Fixed typeError prompt
+
+es6[Symbol.iterator] will be called, not es6.",False
+c49aac143b63344804fc65e211cb8c2192b170b8,2017-07-16 16:12:25,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+618a15005311103afd312549182be928e5e3be6d,2017-07-16 16:12:11,ruanyf,docs(async): add 异步 Generator 函数的例子,False
+d7a3efd7b784496eed5af8579d28abe08680d1ee,2017-07-13 11:25:19,Ruan YiFeng,"Merge pull request #453 from jacty/patch-12
+
+typo",True
+2dbd318fce39f87ce4d916d2707d2004c2f2448c,2017-07-13 10:56:35,Jacty,Update module.md,False
+f301b5d989def73cc2985b658595eccbb42e7573,2017-07-10 13:51:27,ruanyf,docs(destructuring): edit destructuring,False
+6988614dff43eec3644891da9ff7b77e5cb81a84,2017-07-10 13:50:49,Ruan YiFeng,"Merge pull request #451 from lilydjwg/gh-pages
+
+双曲函数不是三角函数",True
+1355407b991a2bea819786d6c970d07ccea3926a,2017-07-10 13:39:09,依云,双曲函数不是三角函数,False
+44fadd426892e339e56ae54eeec3787dd4ab09d3,2017-07-09 17:20:06,ruanyf,docs(module): edit module,False
+b3c64a86fc2bf4116decc16529d0fff556e9ac74,2017-07-08 07:18:47,ruanyf,docs(destructure): edit parentheses,False
+d89561f05629e8dbba8d9f63ff30b0c2d1bf0ace,2017-07-04 07:59:27,ruanyf,docs: edit README,False
+b9f14136be37de2177d872b350f8c2a09b8fa8bf,2017-07-02 19:04:55,ruanyf,docs(set-map): edit Map,False
+b9bd59dbe2370b9efd8da5215441a0a206387846,2017-07-02 14:56:56,ruanyf,docs(module): edit import(),False
+e35fcfda61b2aaac23602b477d132f7952bd78c7,2017-07-02 14:45:38,ruanyf,docs(asyce): edit async Generator,False
+f86bff91c7355bbbe6406ee414301e3b774a38ab,2017-07-02 09:06:24,ruanyf,docs(number): add Integer type,False
+8c8be74712a9e0d1a5dbcc855fe3e574b9fd4e6b,2017-07-02 07:07:23,ruanyf,docs(array): move spread operator into array chapter,False
+9deab619d1155f2f04f610e6686f87de163b27bc,2017-07-01 18:39:04,ruanyf,docs(regex): 新增具名组匹配,False
+62a1cd45d76d4b95adf701079101e8eec91e9c6b,2017-06-30 13:51:52,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+1a146ddb3e3fa266f75d22f5989d0df686818a3b,2017-06-30 13:51:35,ruanyf,docs(module): edit module,False
+bf1d17f537c9ce60f88b8524acca7868c3a2efc4,2017-06-30 13:34:02,Ruan YiFeng,"Merge pull request #444 from zssr/patch-1
+
+http -> https or else page won't show up",True
+73629a6e6daa9eeb1363ad271b2667a9d8b593ff,2017-06-30 07:54:27,煮石散人,http -> https or else page won't show up,False
+37603f1074ae0f6d5208284dacb4dfbbda6e5ab4,2017-06-30 06:18:59,ruanyf,docs(class-extends): edit class-extends,False
+1728a4f339c978db6c210c58c0c1745e7d59e660,2017-06-30 05:27:05,ruanyf,docs(ArrayBuffer): edit ArrayBuffer,False
+9efb9db8030e95f24736a4f041c57329334b83b6,2017-06-30 05:19:41,ruanyf,docs(SIMD): remove SIMD,False
+702968b95122ae875befafdaa86aa53a0826ab26,2017-06-29 19:21:06,ruanyf,docs(arrayBuffer): edit SharedArrayBuffers,False
+a27648a496ddf29008bd26506a949811b3d5f243,2017-06-29 18:56:05,ruanyf,docs(arrayBuffer): edit SharedArrayBuffers,False
+3d1d8b0bd7eb693b38acdbc9bccffaa3d163ba7b,2017-06-29 18:47:57,ruanyf,docs(arrayBuffer): edit SharedArrayBuffers,False
+4de0cd6b50e3c2113617242fc323bf39eb2be4e2,2017-06-28 19:11:08,ruanyf,docs(set): edit WeakMap,False
+88930c14a2396b5662f814803fe05695ae323fca,2017-06-28 18:54:59,Ruan YiFeng,"Merge pull request #440 from zhang-quan-yi/patch-1
+
+修改WeakMap内存测试demo；",True
+c40de12fc0e1ea28df0829f601a71da29df9bca9,2017-06-28 18:04:42,ruanyf,docs(async): edit async,False
+17d24e69a70ab86c2fc3b633ad4c85682c23d5a9,2017-06-28 08:00:37,ruanyf,docs(arrayBuffer): edit sharedBuffer,False
+7e373d95bfb45af971d8a04dfbb7447c183820d9,2017-06-27 21:20:22,泉壹,"修改WeakMap内存测试demo；
+
+WeakMap中的弱引用是针对key的，而不是针对vlaue；",False
+24b53305d4a7dd36493fd7c4fad84ab8813a9d94,2017-06-27 18:47:40,ruanyf,docs(arrayBuffer): edit sharedBuffer,False
+fc7d075673717f50c3f4a3efa131b46f56e6edb5,2017-06-23 14:01:29,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+0af61084eefbfa7bc22cde6f0b716b3176eb98be,2017-06-23 14:00:19,ruanyf,docs: edit reflect & destructuring,False
+5c8605634f5a98baabfcd4f6636dfee1845bb682,2017-06-23 13:06:36,Ruan YiFeng,"Merge pull request #438 from liujinyang1994/gh-pages
+
+Math.sign 一个小说明",True
+3fc7d1ddc7e34f93ce4055d5ba35a61812def334,2017-06-22 21:33:09,刘金洋,"Math.sign 一个小说明
+
+其他地方都或多或少的说了下，对非数值的处理。但是这个部分没有，但是Math.sign本身是遵循先转换成数值的这个原则的。所以还是说一下比较好，要不然容易疑惑",False
+90df0a92366b3ef85b9248f9b6c9060dca1db4b8,2017-06-22 06:28:35,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+768728e1bd1d934d27c3c3c67597e413612353a8,2017-06-22 06:27:55,ruanyf,docs(function): edit function,False
+e3a76b6646f26d8458267f4c24b9f086a5185be9,2017-06-20 09:04:54,Ruan YiFeng,"Merge pull request #435 from dancon/patch-1
+
+Update class.md",True
+c0d339acfb85cb44a95b993e8c66c91d7c474c02,2017-06-19 20:21:31,John Hou,"Update class.md
+
+[UPDATE] 增加 __proto__ 属性的提醒说明",False
+910e94afc71ebca142f64a24140b4cc7fa3f9605,2017-06-19 20:15:06,John Hou,"Update class.md
+
+[UPDATE] 增加对 ‘__proto__’ 属性的说明；",False
+c2d5bb201da22195834262f647d7fa06d6aa5588,2017-06-19 02:14:35,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+66bd7c193dc2f74a7f92bd5adac243b83d98c9e8,2017-06-19 02:13:03,ruanyf,docs(number): edit Number.isInteger,False
+a24231818e5a891c9335c6fd46a7524296e376cb,2017-06-18 18:15:57,Ruan YiFeng,"Merge pull request #434 from RookieDay/gh-pages
+
+fix: add parentheses",True
+90b2a2047cc309161cbda6ab5c47998fe154deb8,2017-06-18 12:49:31,RookieDay,fix: add parentheses,False
+2bb8556938ece370ca40519d9895e3d47c552775,2017-06-16 11:36:03,ruanyf,docs(let): edit let,False
+225799a70a4922c3c7ee744706f653d244214214,2017-06-16 11:27:03,Ruan YiFeng,"Merge pull request #432 from FFning/patch-1
+
+补充块级作用域示例描述",True
+39f21e7bc53dd0b156d0f6fc724bdb6e2808d4de,2017-06-15 13:49:13,FFning,"补充块级作用域示例描述
+
+运行示例代码时觉得描述不完全",False
+a847619dfd96bc40f0cbca10e8ca0dde0600e442,2017-06-13 14:53:53,Ruan YiFeng,"Merge pull request #427 from johnjackson/patch-3
+
+Create destructuring.md",True
+607e9e4a74eb61cab429196743ec666b5795606d,2017-06-13 13:41:34,王宁,Create destructuring.md,False
+3ff9b184e45a7a2d3e034ddc13e3b56f7df367dc,2017-06-12 16:47:24,ruanyf,docs(array): edit array/includes,False
+febdb474e78b40871fdef01d15ad20c39671c221,2017-06-12 16:41:43,Ruan YiFeng,"Merge pull request #426 from xhlwill/patch-1
+
+es7 > es7/es2016",True
+9325413e67873c97a8a8f15fc227b995fad16e3b,2017-06-12 12:25:00,xhlwill,"es7 > es7/es2016
+
+现在官方按年份来，ES6/ES2015 因为之前有广泛的群众基础，ES7 还是叫的少 http://kangax.github.io/compat-table/es6/",False
+696e6a7b1b66bc5b5227ad995ffad4837e606779,2017-06-10 20:20:59,ruanyf,docs(string): edit template string,False
+3e4fad616eb963767b081db7297c6bd40c65679e,2017-06-10 14:25:42,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+3f7ad4cf12971a8479dc363fe45f0502ec683d69,2017-06-10 14:24:36,ruanyf,docs(class): edit class,False
+ffa2f6eea9769cddd4264c062baa57e0a092069c,2017-06-08 16:43:16,Ruan YiFeng,"Merge pull request #422 from int64ago/patch-1
+
+docs: update React example in ES6 properly",True
+ce1274d436467833f1087d23639c266cde13a3a0,2017-06-07 22:39:22,Cody Chan,docs: update React example in ES6 properly,False
+6b56bb10bb248858edd28c7a454b749aefe6ff6e,2017-06-07 15:02:28,ruanyf,docs: edit decorator,False
+17b1f45c6b2d02e74ee3dc40ebf022ef18b7817a,2017-06-07 14:17:47,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+d3aaf30d5c29524f0c0128acb6ba905651d989d3,2017-06-07 14:17:37,ruanyf,docs: edit Intro,False
+a64204847bd40746fb72e5120fba873c537a55a5,2017-06-07 10:24:21,Ruan YiFeng,"Merge pull request #421 from int64ago/patch-1
+
+Fix typo",True
+165ba46cea6ac1bd70101e543675e00a62ee557c,2017-06-07 06:52:06,ruanyf,docs: add class-extends,False
+9a16eba5790bc9f18abe500b7e3f5e2ca263de70,2017-06-05 22:04:50,Cody Chan,Fix typo,False
+3e302652a0124115a827b3040a1f5ad34c135a7f,2017-06-04 16:29:41,ruanyf,docs(Promise): edit Promise.all,False
+38816c896a46b964eae773006f053785cb692aeb,2017-06-04 10:34:36,ruanyf,docs: edit Promise,False
+4019d9d01cb1af1e7cd6b5c5b8e24c7665fbffaa,2017-06-04 10:17:03,ruanyf,docs: edit Object,False
+d0865f07738d3c650e2e8673935ff9886b0c7935,2017-06-04 10:12:27,ruanyf,docs: edit Object,False
+75dadfdda151f125079a563acbbd5a643d57c8ee,2017-05-31 18:24:25,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+8a2c746996407c66155ab7b2c1457ef99b16ccd7,2017-05-31 18:24:06,ruanyf,docs(let): edit let,False
+b11373ba0bc231b4005ea09a70bc5c0ba65aac9c,2017-05-29 05:03:13,Ruan YiFeng,"Merge pull request #416 from Brant-Ma/patch-2
+
+Typo fixed",True
+3c1b9269502553ae78aa7ddb034046e835b5581d,2017-05-28 21:38:53,鱼香茄子,Typo fixed,False
+3347915274ac6b28989dafc1fdf4b587664af679,2017-05-28 07:59:23,ruanyf,docs(class): edit class,False
+4b9ff0d25c3ac4c2f6dacfa95a3b8f2bd69f2136,2017-05-26 14:55:46,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+23c05f824420ee99f5dfee65e801af96d320b5b4,2017-05-26 14:55:33,ruanyf,docs(function): edit arrow function,False
+00e2f3fcc89bc1b969a0a96f4f4bcfdffebbf947,2017-05-25 18:36:35,Ruan YiFeng,"Merge pull request #414 from Brant-Ma/patch-2
+
+typo fixed",True
+87100d1edc2bfed1b162ea3e1fed4f1c38fd6e79,2017-05-25 18:35:46,Ruan YiFeng,"Merge pull request #413 from Brant-Ma/patch-1
+
+typo fixed",True
+8223b56dda3b684563e8dd3413f55d6b75f924c8,2017-05-25 18:32:15,Ruan YiFeng,"Merge pull request #412 from xiangyangL/gh-pages
+
+缺少括号",True
+0842b1257747210a18cfd013d3112271f01a80a9,2017-05-25 18:22:33,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+b939b7725c467f1802b6ffb1e0d89cfe65aa29b6,2017-05-25 18:22:05,ruanyf,docs(promise): edit promise,False
+495337e85bee6e94dbda12e43d77ac8522746e30,2017-05-25 18:14:37,鱼香茄子,"typo fixed
+
+将“并排的两个双冒号”修改为“并排的两个冒号”",False
+7acf0179717f0d8b2d353cc42aa4492c3f79cddb,2017-05-25 09:07:24,鱼香茄子,typo fixed,False
+bb7ce158b3226d97f5c7f8c095c8021691d822f6,2017-05-24 13:30:40,xiangyangLi,缺少括号,False
+49b496c704081ca62aa273d85be02b63b3ba37a6,2017-05-21 05:32:06,Ruan YiFeng,"Merge pull request #410 from P-ppc/fix-promise
+
+修复promise.md符号错误",True
+2f89b0de2d3afdaba85fc38ca764f20197cf9b61,2017-05-19 15:23:59,P-ppc,"修复promise.md符号错误
+
+将全角单引号修正为半角单引号",False
+6cffe77c7c3a9ce87ed9dfa1519522324adbbc21,2017-05-19 14:11:41,ruanyf,docs(decorator): edit decorator,False
+a96f510e7f5c8cfc275c8698480f561f6a1e3565,2017-05-17 17:03:24,Ruan YiFeng,"Merge pull request #407 from walkthecat/patch-1
+
+Update simd.md",True
+63fba269329c21e12ed6e262cafed537cf0c752b,2017-05-17 07:37:02,walkthecat,"Update simd.md
+
+上面代码中，`Uint16`的最小值是`0`，`subSaturate`的最小值是`-32678`。一旦运算发生溢出，就返回最小值。
+修改为
+上面代码中，`Uint16`的最小值是`0`，`Int16`的最小值是`-32678`。一旦运算发生溢出，就返回最小值。",False
+0a2a378bd2610df77fd2da5307afe8ecfff37ff7,2017-05-16 17:27:19,Ruan YiFeng,"Merge pull request #406 from jacty/patch-11
+
+typo",True
+c5b382139d0714e767a612aa59068a44b4424598,2017-05-16 17:24:13,Ruan YiFeng,"Merge pull request #404 from jacty/patch-10
+
+typo",True
+e01c68988bb41e68a68f98b2771ea87d1e3bbc73,2017-05-16 10:55:23,Jacty,"typo
+
+typo",False
+136b9371beb35f32f90dbf3be7b1b464fc22b46d,2017-05-16 08:55:01,Jacty,"typo
+
+typo",False
+a5ed53c5399c14cfaea4ca7e97957b999fba4807,2017-05-11 16:31:30,Ruan YiFeng,"Merge pull request #400 from jackblackevo/jackblackevo-patch-1
+
+Fix typo",True
+ab9781950823a2aad255e2bd6ed7488320f34671,2017-05-11 14:40:53,Tse-Hsien Chiang,"Fix typo
+
+修正錯字：Funciton.prototype -> Function.prototype",False
+035e2921c29338238fc5a49feca4499f94cf17fa,2017-04-29 04:03:55,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+be1049f12ad7355424479be83f278aa95022d38d,2017-04-29 04:03:43,ruanyf,docs(generator): edit typo,False
+cb0a279de3afb2a5e736d41fc267ece641a841a4,2017-04-27 17:27:12,Ruan YiFeng,"Merge pull request #391 from jacty/patch-9
+
+typo",True
+c9b9564ca69b229e4d3ed6ffc3e2caefe23ac6ed,2017-04-27 17:26:12,Ruan YiFeng,"Merge pull request #390 from jacty/patch-8
+
+typo",True
+6867e870bce2fe8c34229ebd466b16e16a83b1d9,2017-04-26 23:48:55,Jacty,"typo
+
+typo",False
+0cc0ce06bbabbfe07afe2275bcd1573e5416cf28,2017-04-26 22:43:38,Jacty,"typo
+
+typo",False
+e2867f1956b3f2c8838fce963748abfa4396b291,2017-04-26 20:33:25,ruanyf,docs(set): edit weakmap,False
+66b16e3b4a49e5aba60ebd5b4431ede3e8db83c9,2017-04-26 09:10:47,Ruan YiFeng,"Merge pull request #388 from amisare/gh-pages
+
+Update promise.md",True
+1f433e42bdb8c8818a75cc8923a170625d5da03d,2017-04-26 09:02:46,Ruan YiFeng,"Merge pull request #389 from lengjing/patch-1
+
+Update generator.md",True
+3d280b452e7e1a1a1fa00cedf7dcea423234caaf,2017-04-26 08:31:30,amisare,Update array.md,False
+f72cd63cdd631ac7b6b1240c62074be7de3a34dd,2017-04-26 08:11:53,lengjing,Update generator.md,False
+7b81350aef68c79c108e5f5bc50d890accc2ada8,2017-04-26 07:48:58,amisare,Update promise.md,False
+595ea3f68cdbb7a488b53ae0c22f09904e8c4e43,2017-04-26 05:59:59,Ruan YiFeng,"Merge pull request #385 from jacty/patch-7
+
+typo",True
+7b7ab6ff28dd51332e9a28d76bacee08e5c506c2,2017-04-26 05:57:03,Ruan YiFeng,"Merge pull request #384 from jacty/patch-6
+
+typo",True
+abb4e81d5f1739f65494c1619735b23c0df47eb5,2017-04-26 05:53:05,Ruan YiFeng,"Merge pull request #383 from jacty/patch-5
+
+这里应该是说浅拷贝吧？",True
+34f321ec99f84314eb55dc52417dfb5102e880be,2017-04-25 19:00:00,Jacty,"typo
+
+typo",False
+fd9f4d6d00ce6ecaf59434fd68f8f1e7005d2969,2017-04-25 18:23:21,Jacty,"typo
+
+typo",False
+e06759e7efcea000d2bc39113b208c47dc48a2c8,2017-04-25 18:21:59,Jacty,"这里应该是说浅拷贝吧？
+
+这里应该是说浅拷贝吧？前文说过Object.assign()是浅拷贝呀~",False
+9c6c5b8d737c50c68d3274cd84a8303cddd1d8de,2017-04-22 21:10:33,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+4eb879872cbf7f3f9b3341d57155992568c79a27,2017-04-22 20:58:32,ruanyf,docs(reflect): edit reflect,False
+b88ff49ee9e9d4cc1739e9cb2a6fc77f7b02ff5c,2017-04-22 05:40:58,Ruan YiFeng,"Merge pull request #379 from jacty/patch-4
+
+typo",True
+fcdea67264949da25ad90e124016bf45c1348d76,2017-04-22 00:02:49,Jacty,"typo 
+
+typo",False
+b2182920bb74a5aeaf5b37468974018ed7f36f1d,2017-04-21 11:28:23,ruanyf,docs(symbol): edit symbol,False
+15b962627eb36704564aaa66937449a4b37ec2b7,2017-04-19 17:46:24,ruanyf,docs(object): edit object,False
+e1bfba24ed128b33046277244aa5535d9bee8d24,2017-04-17 10:26:24,ruanyf,docs(set): edit weakMap & weakSet,False
+ca2a2fc8b3a45a1706bb0b974f0554a3a4e78f32,2017-04-14 10:55:58,ruanyf,docs(function): edit function,False
+658ad650e9605dc6b129937df847d61fd2900d37,2017-04-14 10:33:42,Ruan YiFeng,"Merge pull request #376 from longhuicode/patch-3
+
+语义不清晰",True
+2bf5a3ec09fd2ccebf11bf9b3232ab0a57165a6c,2017-04-14 10:31:03,Ruan YiFeng,"Merge pull request #375 from longhuicode/patch-2
+
+outer 输出位置表述有误",True
+c582198e7a7dbf0446622464dfe5541dcdd2995d,2017-04-13 19:39:46,Max,"语义不清晰
+
+1. 语义不清晰。
+2. 引入 Python 作为比较，对于不了解 Python 的读者并无意义。",False
+b330d721acc81af02b67dd62ffc6108b3ffdcf09,2017-04-13 19:06:16,Max,"bar()输出表述有误
+
+bar() 输出表述有误, outer 应该在 bar() 运行时输出！",False
+ed9c9c13271d16bf8b11cb703dadee0a057a7d1c,2017-04-13 15:57:09,Ruan YiFeng,"Merge pull request #373 from jacty/patch-3
+
+typo mistake",True
+c17b484d0e56c33549bbf92399494300407ffc86,2017-04-13 14:53:37,ruanyf,docs(set): edit map,False
+3aed4ae0fbee54534bd15c4174f2d22a4fb27bb6,2017-04-13 00:28:57,Jacty,"typo mistake
+
+typo mistake",False
+23f19e921ef3579f97ca3f7fadf3961c44d93ce5,2017-04-12 16:55:52,Ruan YiFeng,"Merge pull request #372 from longhuicode/patch-1
+
+修正querySelectorAll返回的NodeList集合不能使用forEach方法遍历的描述",True
+5a7e690e5f148333987c8a249df67e538b20f623,2017-04-12 10:44:13,Max,"修正querySelectorAll返回的NodeList集合不能使用forEach方法遍历的描述
+
+修正querySelectorAll返回的NodeList集合不能使用forEach方法遍历的描述.
+1.在chrome中querySelectorAll返回的NodeList集合可以使用forEach方法遍历
+2.document.querySelectorAll('td').forEach(function (p) {
+  console.log(p instanceof Object);
+});
+输出:
+6 true
+undefined",False
+4510cfecdcc2122c644258da7916ec0a9a41d4c3,2017-04-11 18:44:06,Ruan YiFeng,"Merge pull request #370 from Niefee/patch-2
+
+更正输出内容顺序",True
+0fbc3306bea2f04c35e72139a898615bc61cc877,2017-04-11 10:37:06,沐霖,"更正输出内容顺序
+
+Generator函数的`next`方法输出的内容顺序一般是`value`在前，`done`在后。",False
+ee3d58d1576a8337cc6d8b877df51ca1c0f97b2a,2017-04-10 17:48:19,Ruan YiFeng,"Merge pull request #367 from jacty/patch-1
+
+type mistake",True
+6975897049bdf0b477534caf9870b04983597ff5,2017-04-09 23:19:05,Jacty,"type mistake
+
+type mistake",False
+60657db1520cfcaadb4da051b070ce77b405acef,2017-04-06 15:15:19,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+ea23aa7291536d22c8eb2dd14529f32cfdfeb43c,2017-04-06 15:15:05,ruanyf,docs(generator): edit generator-async,False
+2fa05853b98d306cca1899c7a5213ee123340a26,2017-04-02 13:32:07,Ruan YiFeng,"Merge pull request #364 from MrErHu/patch-1
+
+update generator-async.md",True
+87c0669a0bb9aeca272934b0162293407d92a977,2017-04-01 14:47:44,请叫我王磊同学(Wanglei),"update generator-async.md
+
+‘next法返回值的value属性’改为‘next返回值的value属性’",False
+f29bae250dbe43c36855b34f7e751eb124731e6e,2017-03-29 12:24:32,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+7e2b0c709f4bd1f78304d3a6d9795e443d16be49,2017-03-29 12:23:21,ruanyf,docs(number): edit number,False
+8c083a0aaf405065c6959d000c6ef6f220fb881f,2017-03-29 12:22:52,Ruan YiFeng,"Merge pull request #361 from toxichl/patch-2
+
+The position of the asterisk is incorrect",True
+cd360410cfa3343484fe669e973ea13f8af8b7bf,2017-03-29 12:16:42,Toxichl,"The position of the asterisk is incorrect
+
+Combined with the previous content: 
+```
+由于Generator函数仍然是普通函数，所以一般的写法是上面的第三种，即星号紧跟在`function`关键字后面。**本书也采用这种写法**。
+```
+so, the position of the asterisk is incorrect ...",False
+0c20540bdbff08a543d0ba87fb66e377c2b2832a,2017-03-29 11:39:33,Ruan YiFeng,"Merge pull request #359 from JChehe/patch-1
+
+Update object.md——错别字：“预算”->“运算”",True
+ccefd899e5e5d36443b97614b3993e38ad2a7dcc,2017-03-29 11:11:41,ruanyf,docs(reflect): edit Reflect.apply,False
+e3cf5bd2251bda741201ae843868f69f09f4e243,2017-03-28 17:52:04,ruanyf,docs(class): edit class/super,False
+d51beedbd61a99ee310676b62d2fa1bba820afb8,2017-03-28 17:16:30,ruanyf,docs: edit number.isFinite,False
+f969d88ef3cfaf6e658479fefedd0c2f5a8ee8a0,2017-03-28 17:14:39,Ruan YiFeng,"Merge pull request #355 from Arvin-He/patch-1
+
+Update number.md",True
+b8959b2e6d63acc7671cfc8beefae8df7208e91f,2017-03-28 17:04:01,刘健超,"Update object.md
+
+错别字：“预算”->“运算”",False
+0fb4fcd9416f8c1bc81a342e73b07e232b25be3c,2017-03-28 09:08:31,Arvin.He,"Update number.md
+
+""而这两个新方法只对数值有效，非数值一律返回false。"" ,这句话对我来说有误导倾向.并非抠字眼,遇到了就顺便提出了.",False
+3619d2121ca0ba7506f1f0f909f0f5dc76d60dcf,2017-03-27 10:15:33,ruanyf,docs(proxy): edit proxy,False
+5a34395c74ef86a2c889e2e38a920e045c2511fb,2017-03-27 04:39:55,ruanyf,docs(intro): edit intro/babel,False
+d6ed1de83c273d4e96ae0daffd8b672dc851b47f,2017-03-24 17:54:38,Ruan YiFeng,"Merge pull request #353 from wshow/patch-1
+
+更新 async",True
+2c4d545dccb1630db60f162513927220eb9c9bb5,2017-03-23 09:01:50,Willin Wang,"更新 async
+
+这里不需要 `async` 去掉更容易理解其原理。",False
+ea989e002d18147aa234762400efe9986b20545f,2017-03-19 01:48:07,Ruan YiFeng,"Merge pull request #351 from duzeng/gh-pages
+
+docs(promise): edit promise.md",True
+f56ab65469ed41c0c7459393bff50daf2c4ff604,2017-03-17 21:53:12,duzeng,"docs(promise): edit promise.md
+
+就算改变已经发生了，你再对`Promise`对象添加回调函数--------->如果改变已经发生了，就算你再对`Promise`对象添加回调函数
+貌似这样更能表达原意。",False
+b9a5e3b91afef556fa15b8352fbb85c9c72607a7,2017-03-17 12:56:17,Ruan YiFeng,"Merge pull request #350 from JeremyFan/gh-pages
+
+typo fix",True
+e4c267e217dedc8096f44bc998c3ab4ebb58b978,2017-03-16 12:30:49,JeremyFan,typo fix,False
+5ad3802d84e64a47c5b6651a0518f87fe1a8f07c,2017-03-16 12:22:49,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+cc2e6cac366681fafeee310234a60848114dbac0,2017-03-16 12:20:54,ruanyf,docs(promise): edit promise,False
+3815c551a57fcfdc5c993ac6b852d46c9826aa05,2017-03-15 10:15:56,Ruan YiFeng,"Merge pull request #348 from wudragonfly/patch-1
+
+fix typo: proxy instead of handler",True
+d56b6eadf94cb3d8447f722d4b4519c1e6ddf8f0,2017-03-14 16:32:52,Longfei Wu,"fix typo: proxy instead of handler
+
+when handler is empty, proxy (instead of handler) should be equal to target",False
+9ecf067ddf691119e961d114c3951b95172ab2de,2017-03-14 11:18:18,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+012826a4783fae79bcd5682c5abfc5a1a69fc18d,2017-03-14 11:18:00,ruanyf,docs(string): edit string,False
+7d9fab29000272013cc5c19c361eaf61461b63d5,2017-03-09 06:42:41,Ruan YiFeng,"Merge pull request #345 from sikaco/patch-1
+
+修改let.md中不够具体的文字表述，修改示例代码使其更精确",True
+57fe8c62fc3c282df0dfb61156edeccc511a4815,2017-03-08 16:45:21,sikaco,修改let.md中不够具体的文字表述，修改示例代码使其更精确,False
+05b41ce25578a5ef12e81b0581ad428aa4efa34c,2017-03-06 14:55:55,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+d0baadb6779871d92502ada0e0042b18e7b35b8e,2017-03-06 14:55:07,ruanyf,docs(let): edit block scope,False
+84858daf74427058e90d343feb3bcb99c9c28e05,2017-03-06 14:47:28,Ruan YiFeng,"Merge pull request #342 from AnHongpeng/gh-pages
+
+fix: 删除多余的一层else",True
+a671890001467f1d8fd925771d85f647f085e4a3,2017-03-04 20:45:00,AnHongpeng,fix: 删除多余的一层else,False
+1a4f622d92c47272590bf2fbbb0444dc5ef41e0d,2017-03-04 08:35:18,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+fee336618bf01bfa4dbd8632416e13cb52b2f87c,2017-03-04 08:34:48,ruanyf,docs(object): edit Object.setPrototypeOf & Object.getPrototypeOf,False
+10c8fa2270ea3274de32da754e002883b4db5be2,2017-03-01 09:01:10,Ruan YiFeng,"Merge pull request #341 from prettykernel/patch-1
+
+typo fix",True
+3136117acc225b03039edf04aa4e48ab0735d30d,2017-02-28 17:57:36,prettykernel,typo fix,False
+4d06e3681dfe6d3bf593e3165696c6ae9dc9914a,2017-02-28 15:15:38,ruanyf,docs(object): add object.assign,False
+6496d019b721424e5a64fa3a2925bc0cf9a0d566,2017-02-28 15:12:14,ruanyf,docs(object): add object.assign,False
+b96a3fd1d9a80ac8cd29e702b21c9b1003f59ff1,2017-02-28 15:09:26,ruanyf,docs(object): add object.assign,False
+feaca88fc07d075fbf31b04ae930a686a0e15b5b,2017-02-26 20:45:34,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+938c0cb461e38b3b876b22c63328d28d0f8c2323,2017-02-26 19:16:18,ruanyf,docs(generator): edit yield,False
+2116dce29d0998d5f7d01a3a82dd1b891c29f7de,2017-02-26 09:37:06,Ruan YiFeng,"Merge pull request #339 from kurryluo/patch-1
+
+Update destructuring.md",True
+d6cf4631ebcbf64814340b291692421cba83cb58,2017-02-26 08:23:59,KurryLuo,"Update destructuring.md
+
+我的陋解：析构赋值等号右边如果是数组的话，就不用转换成对象。按照数组的规则赋值就可以了。请指正。",False
+c108637656ee81c44dd09135307967c41859b49c,2017-02-24 19:23:41,ruanyf,docs(let): edit const,False
+f51f862dc23972a35d781497285228ddea32d78c,2017-02-24 19:08:51,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+9bb12ab3d2e9555a9d644965608e8a9c426d612d,2017-02-24 19:08:18,ruanyf,docs(let): edit const,False
+5e2e12d34ce9bcf0f2be06d1817a81490cb3bf90,2017-02-23 15:28:29,Ruan YiFeng,"Merge pull request #338 from MrErHu/gh-pages
+
+修复类的静态属性中实例代码的错误",True
+9f4ca941521aa318c6c07ebea05f5791a6e3c295,2017-02-23 06:16:13,Wang Lei,"修复类的静态属性中实例代码的错误
+
+class MyClass {
+  static myStaticProp = 42;
+
+  constructor() {
+    console.log(MyClass.myProp); // 42
+  }
+}
+修改为：
+class MyClass {
+  static myStaticProp = 42;
+
+  constructor() {
+    console.log(MyClass.myStaticProp); // 42
+  }
+}",False
+002618ac5e134e6d7aeff79c4936cbb92063c102,2017-02-19 18:30:37,ruanyf,docs(promise): fix typo,False
+8ab3b0ac12ad8d023cce87b7ff4e73ea9fbff632,2017-02-17 11:02:26,ruanyf,docs(object): edit object/for...of,False
+08e0824e218dd3674ad7b90aef29e545f43c65d2,2017-02-16 14:22:56,ruanyf,docs(generator-async): edit co module,False
+2da8eac6642925ecd83fffe79b660f98b2a0e8fa,2017-02-14 05:02:28,ruanyf,docs(module): edit import(),False
+e5c9ccadca3d4c9f939172b244762efa37cac9c4,2017-02-13 09:02:56,ruanyf,docs(module): edit Module,False
+c4ee209c88f7cdb3a0b554e9d29bf9482089733c,2017-02-12 22:00:49,ruanyf,docs(module): edit Module,False
+9ed5c759e9cff478eb646bcfface23396c1f06be,2017-02-12 21:55:47,ruanyf,docs(module): 拆分《Module》一章,False
+002dddabf96e54979803863c1903711938a7c0ba,2017-02-12 12:09:14,ruanyf,docs(async): edit async,False
+2b9fe071df09f98f7254609728f887efb8e80d69,2017-02-09 11:25:23,ruanyf,docs(object): edit spread operator,False
+d042de53e651346510b6489243954b5931f8da19,2017-02-08 16:52:44,ruanyf,docs(let): edit 块级作用域内的函数声明,False
+e8db4536b89378c8298cb00bad9ab58f319ef713,2017-02-08 16:49:56,ruanyf,docs(let): edit 块级作用域内的函数声明,False
+f66e7cb3912997b3ef4652c6e951639796d75e84,2017-02-07 09:08:45,ruanyf,docs(let): edit let,False
+4635e4598c8f21086981c289a7b3d3a7c660480c,2017-02-05 16:26:13,ruanyf,docs(arrayBuffer): edit sharedArrayBuffer,False
+efc5f2f8b692488ab6a64aedd25dc8a6aa1f91e4,2017-02-03 17:21:40,ruanyf,docs(set): fix text,False
+3c401eaa3c4c01920c5ad37f7822cffbc8e48e74,2017-02-02 23:17:34,ruanyf,docs(generator): edit title,False
+6e944000df14fed0731ccd094a2226bbe861cff5,2017-02-02 23:14:26,ruanyf,docs(async): 拆分 generator 函数的异步操作与 async 函数,False
+4bf719ef8f444a3b79f91c70769370b09cc6623b,2017-02-02 06:24:35,ruanyf,docs(module): add Node 加载 ES6 模块,False
+4d599e8785e2cd67c43bfdfe83e9ecff0a75d6af,2017-01-27 07:21:02,Ruan YiFeng,docs(Object): edit Object.values(),False
+186a84dce767cd0f8da77623d0ab4181b760f864,2017-01-26 05:27:35,Ruan YiFeng,docs(number): edit 指数运算符,False
+d0442c38c1bf723ffa362d67732c5efaca5f7fb1,2017-01-25 07:24:39,Ruan YiFeng,"Merge pull request #325 from JiangdandanAbigale/patch-1
+
+语法错误",True
+dcb12a1be99a189fe3f7cc2a5bd0ebc06bad3da9,2017-01-25 06:54:20,Ruan YiFeng,docs(Symbol): edit Symbol.unscopables,False
+b2c2f8fd0c8b1a07c8902e4e34e414aade28ae27,2017-01-24 08:46:09,Dandan Jiang,语法错误,False
+4b17bc8a16010662ef00ca330ce119ca9641bd2e,2017-01-24 02:00:33,Ruan YiFeng,"Merge pull request #324 from foisonocean/patch-2
+
+rename function name to `readFileThunk`",True
+c7f64377f85897a25af8c25b7ce0c2e3e79bde88,2017-01-23 15:17:55,Zhao,"rename function name to `readFileThunk`
+
+这里使用 `readFileThunk` 更容易理解",False
+3b6848b5a2b4ab448cc35ef83218a7e6c0e7c1dd,2017-01-22 08:41:04,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+08f1ed744e3863811b918407fef361009005e074,2017-01-22 08:40:42,ruanyf,docs: edit destructuring,False
+d9af38ddc30aecec6860ceb5cb9f4bde3470c0f6,2017-01-21 18:55:21,Ruan YiFeng,"Merge pull request #323 from sunyuhui/gh-pages
+
+拼写错误",True
+1c6add3cb96c62d2826cf5dda33c0523de5e82d5,2017-01-21 12:50:48,sunyuhui,拼写错误,False
+876a7b4bb17344bfdccf971d36ec37be39a6ef63,2017-01-20 18:13:27,ruanyf,docs: fix function/参数默认值,False
+eb2a62215a7bc4f73ac08ac29a90a248a48193ea,2017-01-20 18:09:18,ruanyf,docs: fix function/参数默认值有单独作用域,False
+1fa35d5c7b1b5e81efc1368e08f3817559d31b1e,2017-01-17 13:39:32,ruanyf,docs(class): 调整”类的私有属性“一节的位置,False
+b08cb1329f077e80b884aaae5334caca39d9ec18,2017-01-15 17:27:14,ruanyf,docs(module): edit module,False
+e198cd9ec9c90bfbe3d461ff05d67cf55b4a1583,2017-01-14 12:36:14,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+8d0274cd13d16677648185ff9f21acceaf6b40fe,2017-01-14 12:34:55,ruanyf,docs(class): 私有属性,False
+a2e0ba207d2cda870757c3dd7c431b2990194e46,2017-01-13 20:28:23,Ruan YiFeng,"Merge pull request #320 from ataotao/patch-2
+
+此处参数有误",True
+ef89f58f61cd96dd90865f5973080cfd64cc40d4,2017-01-13 13:23:07,Ataotao,"此处参数有误
+
+// Reflect.construct 的写法
+const instance = Reflect.construct(Greeting, '张三');
+Reflect.construct(target, argumentsList[, newTarget])
+An array-like object specifying the arguments with which target should be called.",False
+2be52481a24bc2a015a72699254383633e1b89e0,2017-01-12 08:41:22,ruanyf,docs(generator): edit Generator,False
+a108bdaa0d35d354e8c56d304c94833a48d36a1d,2017-01-12 08:28:08,Ruan YiFeng,"Merge pull request #316 from GSANDLY/patch-1
+
+生成器对象调用 next 方法传参",True
+bfa6c119c115e29f883804e67ff90f6efcecedda,2017-01-11 12:56:17,Geng Shuang,"生成器对象调用 next 方法传参
+
+`next`方法可以带一个参数，该参数就会被当作上一个`yield`语句的返回值",False
+89a0e8fc75fcb4bdd3858f28fee8ed6e866addf5,2017-01-10 08:45:29,Ruan YiFeng,"Merge pull request #312 from goodyboy6/patch-1
+
+Update object.md",True
+87ab1d07b7ff75b91e99e8b68a85aa7eeb28de36,2017-01-10 08:32:27,Ruan YiFeng,"Merge pull request #313 from foisonocean/patch-1
+
+using Thunk function before defined",True
+fa18d4a68bc661fd15e5a504c46fa86defa4b73e,2017-01-09 14:09:55,Zhao,"using Thunk function before defined
+
+这里的 Thunk 函数是使用函数表达式定义的，意味着 Thunk 函数不能在定义前使用。",False
+20a5e6b1821640e09d89879b2b62c3aab7fc1973,2017-01-09 13:11:07,goodyboy6,"Update object.md
+
+const descriptor = Object.getOwnPropertyDescriptor(o, 'foo');
+==>
+const descriptor = Object.getOwnPropertyDescriptor(obj, 'foo');",False
+e81d6714d64ab03ad7795736a5b8bc13441df26a,2017-01-09 11:48:14,Ruan YiFeng,"Merge pull request #310 from yangkean/patch-2
+
+代码片段有误",True
+b9a4aa449d4b1fb3a5bfb82ad6e2c3e19ad04637,2017-01-09 08:56:56,Sam Yang,"代码片段有误
+
+http://es6.ruanyifeng.com/#docs/decorator#为什么修饰器不能用于函数？这一节的第二个代码片段，函数声明和变量声明都会提升，但是函数声明先于变量声明。",False
+6c0a3f180ea4782435317be44b12bdd845a21611,2017-01-08 11:20:06,Ruan YiFeng,"Merge pull request #309 from yangkean/patch-1
+
+9.对象的扩展 方法的name属性部分需修改",True
+0b247a9ea2c59aa594193b3d359b328f5bc4d0fc,2017-01-08 08:22:44,Yang KeAn,"9.对象的扩展 方法的name属性部分需修改
+
+在 http://es6.ruanyifeng.com/#docs/object#方法的-name-属性 中，“console.log(this.name)” 不应该出现，这里的“this”指代的是方法所处的对象，即 person，该对象并不存在 name 属性，与本节所讲方法的属性毫无关系，易引起误导，应修改。",False
+da273bb792f1fb3c744ee95dcf1175f0df8924fa,2017-01-07 21:45:31,ruanyf,docs: edit async typo,False
+e1abf373a3c83394f15e3276f391280fc6196066,2017-01-07 11:01:27,ruanyf,docs(object): edit object,False
+a8cb58ba967a30385645277f2c10baeac0f45be1,2017-01-05 08:47:31,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+2b74904568d6efbfd4c8ad83c6d8bd586638c46c,2017-01-05 08:47:25,ruanyf,docs(arraybuffer): edit arraybuffer,False
+9e79be218a135bd6f078923ae437d8402def84ac,2017-01-05 08:16:24,Ruan YiFeng,"Merge pull request #306 from MRLuowen/patch-2
+
+更新",True
+884c0083134f2566c5161960e9128c12e0231938,2017-01-03 16:04:09,MRLuowen,"更新
+
+修改异步编程接口一个对象名称错误",False
+53ed0a0a3b906fcc91abbb2b77b5d397201e3d09,2017-01-02 20:50:24,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+6609f64696a00010a0fc2e042a9e7699c4622269,2017-01-02 20:49:46,ruanyf,docs(async): edit async,False
+f02924cd5a8cc99dbbbe843c053a2acb75f347f8,2017-01-01 16:51:09,ruanyf,docs(async): edit async/asyncIterable,False
+124b154496518a283c33051d86fa28f2135acac2,2016-12-29 07:07:20,Ruan YiFeng,"Merge pull request #300 from hanzhijue/gh-pages
+
+Fix type in promise.md",True
+5ea84ae9a9c533785be4d3bb37ef8cc3d64ef642,2016-12-28 00:15:38,Kaka,"Update promise.md
+
+Fix typo",False
+a44b2f0fa8d0ca98308618c61c6dd6c09aa3c871,2016-12-27 09:05:14,ruanyf,docs(promise): edit Promise.reject,False
+e653a31d7b30402360fd03036aac6ad49a9139d2,2016-12-26 03:41:23,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+c39d1e580de485fe11d0e013e64dbdc4191754d0,2016-12-26 03:41:16,ruanyf,docs(proxy): edit proxy,False
+e2d68dbebcf714d06fa9a21fd189867f3e7a5a2b,2016-12-26 03:15:26,Ruan YiFeng,"Merge pull request #299 from yongmin-chen/patch-1
+
+Update module.md",True
+6f120e12122caeba0f056b4b2b2859b37e5a5027,2016-12-25 14:41:39,Eamonn,Update module.md,False
+04f582da7867e2a23a8e69e00ea7ad9c1f9545cb,2016-12-24 18:26:36,ruanyf,docs(proxy): edit proxy,False
+c7d9c5d138b8fb76bdaf3b1046399faf02a4a7cf,2016-12-24 09:23:18,ruanyf,docs: add new chapter of Reflect,False
+496e286eebb6416530ba02272a7069de3572392f,2016-12-23 07:43:10,ruanyf,fix: restore object.md,False
+254447ad5964214e486279c2fd62c8c62b8e7aef,2016-12-22 10:04:22,Ruan YiFeng,"Merge pull request #298 from johnjackson/patch-1
+
+处理数组 这里写反了",True
+192928dc4281f3fa76f1218db1b79416b31659b1,2016-12-21 12:24:20,ruanyf,docs(let): edit let,False
+09a72af364de00ea54bab9af108d9b2e59f5bac5,2016-12-21 12:22:33,王宁,"Update and rename object.md to object2.md
+
+处理数组 这里写反了",False
+67f9495d642aad84bb0e9de9445dfcdf80486437,2016-12-20 15:10:21,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+0d21c136c57a0825d23811419bf7719c6fca644f,2016-12-20 15:09:34,ruanyf,docs: edit Symbol,False
+904dd9d4edb51eea78e121e875f82b5daab1f14d,2016-12-20 09:55:07,Ruan YiFeng,"Merge pull request #296 from hyjiacan/patch-1
+
+Update module.md",True
+a6ece9cfa3e4de1c8c65ec8c169d594d52423f91,2016-12-20 06:33:01,hyjiacan,"Update module.md
+
+拼写错误",False
+329edc07113461282ca8c1e8bfde7c0409825a74,2016-12-19 20:43:30,ruanyf,docs(reflect): edit Reflect API,False
+aab07bdbc8c967fbaf7c48b8ee218f3790d31aed,2016-12-15 12:54:30,ruanyf,docs(set): edit set,False
+ad472cdf6aca8e75506232ffe7ef1420b5a900c3,2016-12-13 17:20:51,ruanyf,fix: add .nojekyll,False
+2479a47dd45329cda39364085c4ab7a13fb44ad9,2016-12-13 17:18:04,ruanyf,docs(readme): edit README,False
+14d35a2e1cd921ea068b9a56c547374b1c76400f,2016-12-13 16:57:28,ruanyf,docs(readme): edit README,False
+7f0b3fe2f0f1c30fccf9ed8c3d4f986f4bdc79c7,2016-12-13 16:52:09,ruanyf,docs(object): edit Object.value(),False
+e9fbf72aac671c5dc304a88b0684199f3559182f,2016-12-07 17:38:53,ruanyf,docs(class): edit class/super,False
+51f3119ef6e46056abe52da93e071b7c1bbfcd31,2016-12-06 10:26:38,ruanyf,docs(module): edit module,False
+c9df99c2f705830a1a04fadf67c93c23e4e3260d,2016-12-06 10:17:50,ruanyf,docs(module): edit module,False
+e26aa6be60cb41ffe09d4a4a97bc0a5410af9fd2,2016-12-05 20:32:53,ruanyf,docs(module): edit module,False
+166d092f23d93949600d009760f1761c70d0ff90,2016-12-05 20:15:42,ruanyf,docs(module): edit module,False
+50e26484052d7116700587b8c0a03da2a07cc0f4,2016-12-05 20:13:42,ruanyf,docs(module): edit module,False
+fd079ccda17d9f144ebb50ec9f041ce2926655a7,2016-12-04 07:56:11,ruanyf,docs(let): edit let,False
+aee75c1ef3704edc5305b17cf297a87b33c28f01,2016-12-04 07:53:57,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+c36509bc0695f87eb76793a158fab60bb957fc9a,2016-12-04 07:53:22,Ruan YiFeng,"Merge pull request #291 from xhlwill/patch-1
+
+fix: IIFE 不一定是匿名",True
+28050a9db71b68a03b7072c1c879599bd6af1f06,2016-12-04 07:39:20,ruanyf,docs(modual): add import(),False
+eba11dd8c79819d8af9aa4ff39e35a901c0449d9,2016-12-04 00:19:08,xhlwill,"fix: IIFE 不一定是匿名
+
+(function a() {
+  console.log('aaa');
+}());",False
+366c4ddfb559d3d64db16e4ab67c6a7159c06aff,2016-12-03 07:13:14,ruanyf,docs(string): edit string,False
+2361c730196b4c66439688c8fcb54a70130615c4,2016-12-03 07:10:58,Ruan YiFeng,"Merge pull request #290 from Sandon/patch-1
+
+change 'charCodeAt' to 'codePointAt'",True
+dc445752054f227cbd5436782a6cdb44f6d570cb,2016-12-03 05:20:06,Sandon,"change 'charCodeAt' to 'codePointAt'
+
+I think maybe it is a clerical error.  Maybe  'codePointAt' is the word you want to write, because it is more reasonable according to the context.",False
+cee05208e95ca477001debb460506156271ba44a,2016-12-02 10:48:47,ruanyf,docs(regex): add s flag,False
+bd2d951f45085cd1feaeab1d4fcec9241322c22a,2016-12-01 13:36:35,ruanyf,docs(let): edit block scope,False
+8d8db4e6679b2270ed067d8bd65dc2b9179a3a6e,2016-12-01 13:29:25,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+fd666def3cc56a2c3d271a28ca53fd941d921b76,2016-12-01 13:29:18,ruanyf,docs(let): add do expression,False
+b6a65181083f9b7ca0e0250a5b83de16ba8b964d,2016-12-01 13:25:32,Ruan YiFeng,"Merge pull request #289 from jacty/patch-3
+
+typo mistake",True
+312ec746998f90d024cc7d8f07213d60c15b959a,2016-12-01 08:04:33,Jacty,"typo mistake
+
+a typo mistake",False
+e5b32087c96ba8272ee3b633f16ee649c0b4ff13,2016-11-30 09:09:40,ruanyf,docs(promise): add Promise.try(),False
+ff35ad8399d319822f44341fc072a8052d03e75f,2016-11-28 12:08:58,ruanyf,docs(proxy): add proxy 实现观察者模式,False
+ba0744a7a464b235623566d548d16334f4fd733f,2016-11-27 20:58:35,ruanyf,docs(proxy): edit proxy,False
+95f8979eb726e9a6a5449168299447064ae647bc,2016-11-27 11:18:57,ruanyf,docs(iterator): edit for...of,False
+60dabd27ee928fe66f860b7d301e90d3e5341251,2016-11-26 20:39:13,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+c1b6c6fc556bc71e328b4268c2f2be1211072979,2016-11-26 20:38:38,ruanyf,docs(map): edit weakMap,False
+3e7331787df20d4561f3d6248c382bb6eb053815,2016-11-26 20:27:32,Ruan YiFeng,"Merge pull request #286 from superxp1412/patch-1
+
+Update async.md 回调噩梦-> 回调地狱",True
+1ec87bd9a545683888186abea6331abcbb11174d,2016-11-26 09:52:49,superxp1412,Update async.md,False
+ff43701be078255582eccc247f02febe7cf9b187,2016-11-25 10:59:25,ruanyf,docs(proxy): edit proxy,False
+d6d9ab4ae3fd4dc1ad50f1619c77c454906f3f6c,2016-11-25 10:42:25,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+9e974525c10f9f7114ae200da15f4d8b6d0330da,2016-11-25 10:42:10,ruanyf,docs(symbol): edit symbol,False
+693fb27fed7d9c9795d0591d0055ec2673a1cc8f,2016-11-24 13:35:13,Ruan YiFeng,"Merge pull request #284 from ifishing/gh-pages
+
+修正一个“类的实例对象”节 的错误：“它们的原型都是Point”",True
+d9b5278347743b30924934b5c0fc772a7a3006c4,2016-11-23 14:46:14,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+26b718b4b554569d17f75c30ed59118f93dee9e0,2016-11-23 14:45:39,ruanyf,docs(fp): edit fp/currying,False
+dad12fd7f1ee701c499dfab9693d21196c80569f,2016-11-21 12:07:21,Ruan YiFeng,"Merge pull request #283 from qeesung/gh-pages
+
+Update symbol.md",True
+8e09ab14f5673b79a114e74fdd6611dda860f089,2016-11-20 20:45:02,秦世成,"Update symbol.md
+
+移除多余的Markdown语句",False
+e4d1bb1a6328b9583071425c46681a08b0e42e79,2016-11-20 14:48:36,fisher.zhang,"修正一个“类的实例对象”节 的错误：“它们的原型都是Point”
+
+“类的实例对象 ”中举的例子 
+var p1 = new Point(2,3);
+var p2 = new Point(3,2);
+
+p1.__proto__ === p2.__proto__
+//true
+
+上面代码中，p1和p2都是Point的实例，它们的原型都是Point，所以__proto__属性是相等的。",False
+fae89fb221496192668cec98fed83408470c1b7f,2016-11-15 09:02:12,ruanyf,docs(class): edit class/super,False
+4a52856283691a67dbf1850c63dd6b0859c955a2,2016-11-14 18:27:12,ruanyf,docs(class): edit class/super,False
+11607131599529d889e1404595251fd1aebf04e8,2016-11-14 18:17:58,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+d805c055e4880c1cf754ca3481ed1c77da9bf2a3,2016-11-14 18:17:45,ruanyf,docs(class): edit class/super,False
+19bb7ad9de9c9f1d8b773c24453856ba20d96dfa,2016-11-13 04:03:25,Ruan YiFeng,"Merge pull request #277 from LcpMarvel/change_description_about_shorthand_properties
+
+修改""属性的简洁表示法""描述",True
+f8e8242827292681799ec124c87f76b9c7be2293,2016-11-12 18:29:29,Michael-Lyu,"修改""属性的简洁表示法""描述",False
+98310e5b3d6694689ebbc417108b795ead2b9e71,2016-11-12 18:03:21,Ruan YiFeng,"Merge pull request #276 from kiyonlin/patch-1
+
+Update module.md",True
+bd863cd40fc46331be20bc0a4c8181528494a150,2016-11-11 15:14:24,ruanyf,fix(class): edit class/super,False
+55f37af4fc8a158fa0d9b87ac1e503743c650408,2016-11-11 13:51:33,kiyonlin,"Update module.md
+
+拼写错误",False
+ded5622c5de862aa002171f406e4ffced2b0783c,2016-11-06 08:36:06,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+70541a5749822dd953209023b0d89f000009e9f1,2016-11-06 08:33:08,ruanyf,docs(stdlib): edit generator,False
+13996a68d887a0b36e3bf6aafa073f01dbafdb3c,2016-11-05 12:17:46,Ruan YiFeng,"Merge pull request #274 from Viky-zhang/patch-1
+
+即->既",True
+56687e0dcbd916b59e73d25369a2c3410d8e4183,2016-11-05 09:48:47,Viky-zhang,即->既,False
+d50aa29a21b37cb951970d653d8e65156a08f28c,2016-11-03 05:44:37,ruanyf,fix(iterator): fix typo,False
+e0f36e61fc6a83caa002abdc75ac5e946cbf9a62,2016-10-24 17:27:17,ruanyf,docs(async): edit async,False
+5258e43dd01e62498cbc6c58be7393c00b6c15f5,2016-10-19 11:30:22,ruanyf,docs(function): 使用参数默认值，不能在函数内部显式开启严格模式,False
+b2b00c29d01ef8d505e1ab49eecf5e029cf91abf,2016-10-18 10:42:39,ruanyf,docs(string): add an example of template string,False
+c46a4ef8b5bb020e900c13e812574b50d56d35fb,2016-10-12 19:52:36,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+e364ba968ae2dd2ab80f3182774892dc0c246b1d,2016-10-12 19:52:23,ruanyf,docs(async): async Iterator,False
+230e6b59cdd0aa04c859fbc0b1b3c16fd11ed15c,2016-10-09 10:30:22,Ruan YiFeng,"Merge pull request #270 from aui/patch-1
+
+修正错别字",True
+70ab40fd3d5743e0e40df701c841dd4fdcd95d0d,2016-10-09 08:00:20,糖饼,修正错别字,False
+ddf6220289809897b08224be589a8206dd45392b,2016-10-07 23:05:33,ruanyf,docs(let): edit let/global,False
+d95493c10af01f0b54d66f3172ea04beeeaaae42,2016-10-07 10:21:15,ruanyf,docs(intro): edit intro,False
+3a1b3690c713427701f817f7edae5ca129b0fe5d,2016-10-07 09:35:29,ruanyf,docs(intro): edit intro,False
+0465e7b34ae03fd07298c16ad56df0cfea49f1b3,2016-10-06 17:27:16,ruanyf,docs(let): edit let,False
+20f27c28335931b4325b9e4d555ab2224689ca2e,2016-10-04 16:20:56,ruanyf,docs(reference): edit reference,False
+bf30299b482ebb8974ab933ef7adbd76157037dd,2016-10-04 16:11:24,ruanyf,docs(simd): add simd chapter,False
+96b6c5a3fd8689aec9308c6082b9eefa4167b2bc,2016-10-03 20:16:08,ruanyf,docs(regex): add Unicode property class,False
+b2b5556b25e000261d153187a9d5753a89876561,2016-09-29 19:42:46,ruanyf,docs(Symbol): edit Singleton 的例子,False
+47aef5bca76b549a8f60e11d33228d4f2d247cfb,2016-09-28 17:04:36,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+1cd457d5cfe395b629056c8c9dec203c21230302,2016-09-28 17:03:55,ruanyf,docs(object): fix object,False
+300c09db87705bd5496a57c9f6670f412f533398,2016-09-24 15:52:14,Ruan YiFeng,"Merge pull request #266 from jacty/patch-2
+
+Update destructuring.md",True
+49919866cdfe5500b11c332c31c4e315a4bd28a2,2016-09-23 08:52:28,Jacty,"Update destructuring.md
+
+修正395行错别字：‘结构’-》‘解构’",False
+46af4fb5fedb4c31324e40d58d220b680690574c,2016-09-21 17:18:40,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+6c8bd07b8ed0c9a1af3c6ee056fd13ed3c758f4b,2016-09-21 17:17:59,ruanyf,docs(proxy): edit proxy.has(),False
+1b6a131e9f6fd02399f5c6834f8157b86bbff313,2016-09-21 16:45:37,Ruan YiFeng,"Merge pull request #264 from air-cc/patch-1
+
+Update generator.md",True
+9ac9f943f50a22e58c96b61fae12690d7788dd3c,2016-09-20 14:59:06,Air_cc,Update generator.md,False
+102bf25570ba57fb9b75dab6f98e27aaf040d6a7,2016-09-14 21:10:41,ruanyf,fix(string): fix typo,False
+2bc8eaf2075db9d67091231a363acf1ea7a18a6e,2016-09-07 20:37:58,Ruan YiFeng,"Merge pull request #256 from jerossh/patch-1
+
+240行代码块中缺少引号",True
+3ec293796c38b953cee0b9b4a32557f14406a7f8,2016-09-06 21:20:25,Ruan YiFeng,"Merge pull request #257 from jerossh/patch-3
+
+.ant-menu-horizontal > li.ant-menu-item",True
+1092e53793ac3a52465f971a1fb0d21ae288c6de,2016-09-06 20:39:59,Jon,".ant-menu-horizontal > li.ant-menu-item
+
+ant-design 乱入，去掉貌似是css语言的内容 .ant-menu-horizontal > li.ant-menu-item",False
+3d6368c404cb11d95df5006e85c0ad32b8bb9d22,2016-09-06 07:05:18,Jon,"240行代码缺少引号
+
+240行代码缺少引号。
+p.then((val) => console.log(fulfilled:"", val))
+改p.then((val) => console.log(""fulfilled:"", val))为",False
+3cbb8476e360a8366c9035724fc7823d509bf211,2016-09-05 16:23:57,ruanyf,docs(generator): 使用 for...of 循环依次执行预定的操作步骤,False
+8c06336a27eb25e0e5f7869dfc30ae52e4a4c2e1,2016-09-05 11:34:01,ruanyf,docs(generator): 使用 for...of 循环依次执行预定的操作步骤,False
+c7a26bb8eccf4b8d2f8f802a1c939914f9d48723,2016-09-03 23:09:09,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+d0fd2b623e5f64966b48fe3c9ff28b990c785748,2016-09-03 23:08:44,ruanyf,docs(map): edit map,False
+bc608e3af587d67e881912a32192bb6245b827d1,2016-08-31 19:14:01,Ruan YiFeng,"Merge pull request #255 from 7sDream/remove-typedarray-code-style
+
+doc(arraybuff): remove/add inline-code style for some words",True
+1dc64e7789d3c69f229b445b357a9fbf66928fdf,2016-08-30 19:57:12,7sDream,"doc(arraybuff): add code style for word ""Uint8C"" and ""Canvas""",False
+c07300266262570c271edc5fcf3e4e9e6375744a,2016-08-30 13:07:38,7sDream,doc(arraybuff): remove/add inline-code style for some words,False
+3209bfce28d7afd79109ebc26cc77e374bb0c73b,2016-08-24 06:00:37,Ruan YiFeng,"Merge pull request #254 from wuxiaoxiong/patch-1
+
+翻译修正",True
+cc6a82dcc3f5e6b0be6005c06f4a3f9516841183,2016-08-23 12:12:33,ruanyf,docs(promise): delete async,False
+dd98409b96251ca0946beec69de7b70604e38f82,2016-08-23 09:30:08,wuxiaoxiong,"翻译修正
+
+感觉`非无穷`有些绕口，不如按英文直译来的更清晰
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite
+
+The Number.isFinite() method determines whether the passed value is a finite number.",False
+b426312fa6d859af8dff24eb9ad574ec20201a7e,2016-08-19 04:14:40,Ruan YiFeng,"Merge pull request #250 from 7sDream/patch-1
+
+edit (fix typo) in arraybuff.md",True
+508ad08def9ed2fbf7453582522f0072a3aa1896,2016-08-16 21:50:46,七秒不觉梦,edit (fix typo) in arraybuff.md,False
+073ec291934505a09dc08536c05d0d1d2b610ffe,2016-08-16 13:11:56,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+fe3446c15789c1ccae64677fbe7cf265cd1232f7,2016-08-16 13:11:37,ruanyf,docs(symbol): edit simbol.hasInstance,False
+54f7b44850703a108f9a8b477d4b91a3926be2c1,2016-08-12 13:15:04,Ruan YiFeng,"Merge pull request #249 from kei0502/patch-1
+
+Update array.md",True
+f1325571454c985d36b1340de93c15f9c22fa408,2016-08-10 14:17:36,kei0502,"Update array.md
+
+undefined拼错",False
+2d9e0fa7b1f2467fdec55cef00c2667683e1c53f,2016-07-31 17:04:50,Ruan YiFeng,"Merge pull request #244 from xqin/patch-1
+
+删除多余的 }",True
+832024cc4b7f12d467832312fbb12a367f8fe620,2016-07-31 09:19:00,小秦,删除多余的 },False
+37c6272d2fd9906d63b11f71d1a879cb8e1b51af,2016-07-27 21:58:22,Ruan YiFeng,"Merge pull request #241 from qingmingsang/gh-pages
+
+fix typo",True
+3d9dcd86adf44536ddaee842a2c161aae0762ec5,2016-07-27 08:39:41,qingming,"fix typo
+
+不加return会继续往下执行resolve",False
+e2c81a77d98eff670dfb30657b2136de14f6fec9,2016-07-26 17:42:15,Ruan YiFeng,"Merge pull request #238 from jacty/gh-pages
+
+修改ES6对‘变量提升’定义的相关措辞",True
+e3a8d9f863533695f6df8d0488266d10fc749f21,2016-07-25 14:49:39,jacty,更新描述,False
+188d1a957669ee66fd04d012a792f9927d440939,2016-07-25 14:14:47,jacty,因为ES6对变量提升的定义并不影响ES5的相关定义。所以，当以ES6为主的代码片中，使用var定义变量，则变量提升还是存在的。故而，我认为ES6只是对变量提升做了一些修订，并不是取消。若为取消，我认为应该在ES6环境下，设定var定义的变量也不存在变量提升。,False
+e18aa221dae03f90011592c4d5ce4b1ef7c6e62a,2016-07-24 08:41:25,ruanyf,docs(generator): edit generator.throw(),False
+aa7f34527b47e45f39833d436f27b9ee1ed1bd03,2016-07-23 05:02:32,ruanyf,docs(class): fix typo,False
+e1cb574009db7f44666bf4d60d94c80990c825eb,2016-07-22 14:45:38,ruanyf,docs(function): edit default parameter,False
+8b9202cd6c73ac9b35714e16d9184ccd902e6f3d,2016-07-21 19:11:19,ruanyf,docs(symbol): add an example of Singleton,False
+717ddb15dc1c8af31a2243868b3e9636ff999f78,2016-07-21 06:59:36,ruanyf,docs(set): fix example,False
+f7f80e5472ca4c071645518372c59380fd3b6eff,2016-07-19 07:45:23,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+4c8c37c863eadcd1dd77f139dcd6385b12f5cae5,2016-07-19 07:05:20,ruanyf,docs(module): edit SystemJS,False
+e1cad8352eeec7f14612d68a5d71dbffda97c4a5,2016-07-17 09:27:19,Ruan YiFeng,"Merge pull request #234 from Eskibear/patch-1
+
+Update string.md",True
+371f467baa77d9d6d543536b1401a81b45e3269c,2016-07-17 08:14:00,Yan Zhang,Update string.md,False
+4fb1525a362638a3950569da7d1e74b2222f11aa,2016-07-15 18:06:23,ruanyf,docs(function): edit tail optimization,False
+dff4d65aba4f51cf59bea9bf67a1fedf47b820e0,2016-07-14 20:14:31,Ruan YiFeng,"Merge pull request #232 from shiasn/gh-pages
+
+fix: function Fibonacci2 bug",True
+fdf489eafbfc07001fb20a0931fe9b3d78577fd9,2016-07-14 18:57:34,ruanyf,docs(class): edit extends,False
+a33b92815811b0c8a5c624cb63dce39d63f82926,2016-07-14 14:15:49,十三,fix: function Fibonacci2 bug,False
+baabc6fc2c3f6c4571acbf6d1d5c400ed6577604,2016-07-14 12:31:16,ruanyf,docs(generator): edit generator,False
+7d96eb0e8537e84c61bbeeef1d7d3eede5a7e983,2016-07-14 12:29:09,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+e657a675e8663cada9e74276808e24a3f6b1c126,2016-07-14 12:29:02,ruanyf,docs(generator): edit generator,False
+2c4aab774e1ccfffbf86ea0ee473c260abf3f2c8,2016-07-14 12:28:09,Ruan YiFeng,"Merge pull request #231 from buluslidlink/gh-pages
+
+Update generator.md",True
+0490d0b32fe98af9fe5bfdc57f97d61d672a4162,2016-07-14 10:17:26,李海龙,"Update generator.md
+
+阮大神，近日在阅读ES6这本书的时候，发现Generator中关于yield*和for...of的关系描述的不是特别准确，因此加上了几句话，读者读起来的时候会更清晰些。",False
+a0300bd0edc9f0a7a9729f0b290ae2c0e8f03912,2016-07-13 04:11:32,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+4fb1dcbf6276df135e58aad5d4e7c09182bbca5b,2016-07-13 04:11:19,ruanyf,"fix: when location.url is a sub section url, 'edit' button get wrong link",False
+0de9d74d2f260a7eccc79687aa14426d56df3c07,2016-07-13 03:50:42,Ruan YiFeng,"Merge pull request #229 from xcatliu/patch-16
+
+Update class.md",True
+0ad6b4eb8019b61e55cddf6d15f967134724db85,2016-07-12 14:36:22,xcatliu,Update class.md,False
+ec830dec9e439b2158cc4a53e375ef887735a2d2,2016-07-12 06:26:21,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+18b98ed3d2abed225a9c35af1cd5f4a92ebd521e,2016-07-12 06:26:00,ruanyf,docs(destructuring): edit object destructuring,False
+e2fe0529d0666be671abb65a6cfeb0b642e7534a,2016-07-12 05:21:14,Ruan YiFeng,"Merge pull request #227 from SudoKillMe/patch-1
+
+Update generator.md",True
+262dd0311373e04b8b75d919cc8ea90c26ce6b0d,2016-07-11 10:26:59,SudoKillMe,Update generator.md,False
+c73b7b6f6944d1e001f25af0afa46ac2035a26c8,2016-07-10 02:36:47,ruanyf,docs(intro): edit es2016,False
+4b455c493e978166973031577576d73563804b31,2016-07-10 02:25:18,ruanyf,docs(async): edit async,False
+0b22d85c74f1fba32439fe50605cd78f0a02898f,2016-07-10 01:44:49,ruanyf,docs(class): edit 构造函数,False
+eb53f2cef240cedfd0c57b3c2a27e9c08aa2a92d,2016-07-09 17:47:22,ruanyf,docs(async): edit async,False
+8be15721faa457f449d76dbdde1653459bc5401b,2016-07-09 17:44:39,Ruan YiFeng,"Merge pull request #226 from catwarrior/patch-4
+
+Update async.md",True
+2b9f9c350caab24d5357a35e412fe4c810c8465c,2016-07-08 14:07:49,catwarrior,"Update async.md
+
+横向 纵向的比喻的感觉不太自然， 还不如直接点。",False
+94656ce7cc1cab7bb581a73e4e92702de872cf3e,2016-07-05 11:07:08,ruanyf,docs(arrayBuffer): edit TypedArray.from(),False
+0199e3182d3b35de6d1db2a64a4aee661632ca80,2016-07-04 03:55:28,ruanyf,docs(array): fix type,False
+c25565b70c9acb7eaef6f0019c3df091ef7f99d0,2016-06-30 14:39:18,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+9b169be660da4270f089f4b911832af52d5f9ccb,2016-06-30 14:37:50,ruanyf,docs(symbol): fix some error,False
+3204a6b5e429f9923c8abe6bbf83317af3e24981,2016-06-29 02:56:56,Ruan YiFeng,"Merge pull request #223 from UFOwl/patch-6
+
+Update async.md",True
+377e5e3919cc4c991fa9bc301f413679ecc1a87d,2016-06-29 02:51:59,Ruan YiFeng,"Merge pull request #224 from hawkphantomnet/gh-pages
+
+Fix typo in async.md",True
+42c51c073ecd1739d38fde12524a15263c10a198,2016-06-27 22:06:05,hawkphantomnet,Fix typo in async.md,False
+4e2fadc8ddfe1a99c0b92e25d77dbe0f784c7bc4,2016-06-21 06:30:06,ruanyf,docs(string): edit normalize,False
+bea8187933e20b905ce3398511960730f446a0ea,2016-06-20 13:50:05,UFOwl,"Update async.md
+
+根据后面generator和async的写法，这里似乎应该用of。",False
+550df8c3b89b76d84858c801a3ecdf63753a128c,2016-06-16 14:49:10,ruanyf,docs(let): add 块级作用域之中声明函数,False
+a719f83d4e73762a579d0585a9146b1481ec6719,2016-06-14 09:16:10,ruanyf,fix: 误添加npm-debug.log,False
+5e0525be3553cd123797bd3ff349ed1ca84bef6f,2016-06-13 05:48:45,ruanyf,docs(set): 添加遍历顺序的说明,False
+96dfa3b858db70918dfa88e6fb03d5cf2f851a5f,2016-06-12 03:51:58,ruanyf,docs(promise): edit Promise.resolve(),False
+2755c1809db6fb6675a54e7668794357b40a1245,2016-06-11 18:08:39,ruanyf,docs(module): 增加浏览器的模块使用方法,False
+6c8f03eef905943bd5a18b389b41f01069f36b17,2016-06-08 11:31:03,ruanyf,docs(object): delete Reflect.enumerate,False
+36edba382db5f80b216e579e63c0f8879145199c,2016-06-08 06:32:42,ruanyf,docs(async): async 语法,False
+b39d0e606ecd2e3cbd3957dde68e6c61f466be52,2016-06-07 14:45:39,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+571088b40d49ee765eeb743322b438b708a4b81e,2016-06-07 14:44:39,ruanyf,docs(async): async函数的语法,False
+425626466f929b6d6e4dc0c7b35b26d8ff31e543,2016-06-07 07:21:24,Ruan YiFeng,"Merge pull request #218 from shaochuancs/fixForSymbol
+
+remove unnecessary usage of Symbol.for",True
+a8fb385483be459b6a91ec00cf6857a549894035,2016-06-07 07:21:06,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+562b0b5e07b52338a989f53a66951524cc81bff4,2016-06-07 07:20:52,ruanyf,fix(iterator): 修改示例,False
+b9bde6c178b7f4e2a4cc070d13c975ffae446847,2016-06-06 04:54:13,Chuan Shao,remove unnecessary usage of Symbol.for,False
+33dcfcd5f1667d2498b54618526f39009d0224e2,2016-06-03 12:35:48,Ruan YiFeng,"Merge pull request #217 from UFOwl/patch-5
+
+Update proxy.md",True
+d5eeef139eb7d8716642181f4ba1c6c0f12284fd,2016-06-03 09:23:18,UFOwl,"Update proxy.md
+
+小勘误。
+“而是”=>“还是”
+“如果”=>“”",False
+1c682e027354704d355f263dc3590792e13068d6,2016-06-02 11:15:26,Ruan YiFeng,"Merge pull request #216 from UFOwl/patch-4
+
+Update object.md",True
+b299d216413d38ca6fe84e9d735f418f2f964aec,2016-06-02 11:14:17,Ruan YiFeng,"Merge pull request #215 from NumerHero/gh-pages
+
+问题修改",True
+d1983dc1a2c76ab56d00f6ee98bd527100367cfd,2016-06-01 23:01:21,UFOwl,"Update object.md
+
+小勘误",False
+251552555a103678064b4b3b0e63999f6847465e,2016-06-01 18:42:39,Owen,问题修改,False
+c467637921f7dc4a4993523ba44c3e3f58eec522,2016-06-01 10:17:30,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+399c635290b7907e4ce1411a300138c63da6fbe4,2016-06-01 10:17:11,ruanyf,docs: edit generator,False
+aa4377eee3bb88dc4efc399bbe57d4f8512caca3,2016-05-31 04:48:52,Ruan YiFeng,"Merge pull request #214 from UFOwl/patch-3
+
+Update regex.md",True
+9aca4ea3ae91895d6159e8af9ed118606b2dcd27,2016-05-30 13:30:24,UFOwl,"Update regex.md
+
+改了一个不太通顺的地方，但不影响理解，一峰大大看心情改",False
+be282bd9131c819276089957914d90cdcd8a9ac5,2016-05-29 07:37:52,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+18b2f80f834ffad66f45cccd01093aa5076fe001,2016-05-29 07:37:42,ruanyf,docs(proxy): construct方法,False
+504d753040cac6b806e88207d35a7c346bc96623,2016-05-29 07:33:32,Ruan YiFeng,"Merge pull request #213 from UFOwl/patch-2
+
+Update string.md",True
+6e8ab36aabdcd3f6f0fa723ed4c2db2dccd24254,2016-05-29 07:26:35,Ruan YiFeng,"Merge pull request #212 from UFOwl/patch-1
+
+Update destructuring.md",True
+988364563937961a3108c6ffb65c76a3894c43b0,2016-05-28 19:24:57,UFOwl,Update string.md,False
+106aed655381e51fe8947a43f5c022396db14c89,2016-05-28 18:43:57,UFOwl,Update destructuring.md,False
+e27a4a96ce0f77512ce1f50b95664084bd74ea8e,2016-05-25 16:47:34,Ruan YiFeng,"Merge pull request #210 from shaochuancs/bugfix
+
+fix bug to remove unnecessary preset",True
+9c5d80d3ffae025c01e4393fe67beddbfcb6bf23,2016-05-25 07:44:00,Chuan Shao,fix bug to remove unnecessary preset,False
+f7494bc67e54073676218846e0fed1edc279f89b,2016-05-23 16:05:00,Ruan YiFeng,"Merge pull request #209 from NumerHero/gh-pages
+
+增加fibonacci 尾递归算法",True
+1e1ea908ffaf0b11229988c9ddd288e7e2511f0d,2016-05-23 09:05:13,Owen,Update function.md,False
+d4640a262d87c280547efaa540a64ddc77b6493b,2016-05-23 09:02:06,Owen,"增加fibonacci 尾递归算法
+
+阮老师你好，阅读完您关于 尾递归这方面的研究书稿后，我自己使用了尾递归实现了计算fibonacci数列的方法，觉得比较有代表性
+
+由非尾递归的fibonacci数列的  和 尾递归的fibonacci数列 比较，更加说明尾递归优化的重要性
+
+此外fibonacci数列也是测试性能的常用算法
+
+如果因为我的理解不深刻，浪费了老师宝贵时间，望老师见谅",False
+d67e8ebe684781dca3636328d7601977cf0d234d,2016-05-22 06:14:46,Ruan YiFeng,"Merge pull request #208 from NumerHero/gh-pages
+
+问题修改",True
+1b0eba15a99980954152b07b0d6abab3795a7b59,2016-05-21 13:02:47,ruanyf,doc(proxy): 删除proxy对象的enumerate方法,False
+3bd3d6fbdbf4a9eb1f1aff53e954a91d1711a4c0,2016-05-21 12:27:06,Owen,"问题修改
+
+阮老师你好，在747行这个例子中，filter 返回的是属性的数组集合，所以，使用for...of 得到的key应该是对应的属性 “prop”
+而不是您之后备注的 ""baz"" 
+
+可能是我理解有误，耽误了老师宝贵的时间，还望老师见谅",False
+41c37bdbe2f74acbdfcc30b42da8aba9c43828e8,2016-05-21 06:50:59,ruanyf,doc(proxy): edit proxy.has 方法,False
+130f3a4c392a5cef277b8ef81e4bd5fd52262a12,2016-05-21 06:28:21,Ruan YiFeng,"Merge pull request #207 from NumerHero/gh-pages
+
+问题修改",True
+cb8ec78920d27dfb27bf6a6e139bcbb864fe6690,2016-05-21 06:02:38,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+c48648a178db27f4cb4d82fe2da7ea57792699f2,2016-05-21 06:02:28,ruanyf,docs(proxy): enumerate方法,False
+f7914b3de60019cc65d145d801cab4d54b860682,2016-05-20 20:35:07,Ruan YiFeng,"Merge pull request #206 from Molunerfinn/fix-code-style
+
+Fix coding style in docs/string.md",True
+32b7bd2c881afa62a852753f4d9847d799e3c125,2016-05-20 15:04:05,Owen,"问题修改
+
+阮老师你好，我在阅读您Proxy书稿第553行，“注意与Proxy对象的`has`方法区分，后者用来拦截`in`操作符，对`for...in`循环无效。""  时，认为有所不妥
+
+因为根据我在新chrome浏览器上的测试 ， 使用has 控制器是可以对for...in起作用的
+
+我在介绍has 控制器的段落里添加了一个小例子来说明这个问题
+
+可能我的理解并不到位出了差错，浪费了老师宝贵时间，望见谅",False
+c41e6261f49b992e963e62665cdbbb1a59ef3446,2016-05-20 05:28:30,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+40b5f23e0bb3f40d45edd0b7bd6b229ac594f140,2016-05-20 05:28:21,ruanyf,doc(async): Thunk函数的ES6版本,False
+492d2e7182f1fb630e93e28faa2416ca3a021758,2016-05-20 04:27:06,Ruan YiFeng,"Merge pull request #205 from xcatliu/fix-code-css
+
+Fix code css",True
+763f6e9395618d285c3a82009844fbf3a0c31642,2016-05-20 03:54:50,Ruan YiFeng,"Merge pull request #204 from xcatliu/patch-15
+
+Fix coding style in docs/async.md",True
+1764e48fdf8875cbb85dd77a84de6dd40cac1a35,2016-05-19 20:55:43,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+f8eaa770919f4a5dd9972677d2ea3c747d041b19,2016-05-19 20:55:29,ruanyf,doc(module): ES6模块的循环加载,False
+7d773f528036025fe48c9c5c69536ac961ab751d,2016-05-19 17:25:48,Ruan YiFeng,"Merge pull request #203 from xcatliu/patch-14
+
+Fix coding style in docs/module.md",True
+b02a848b45a278a1be69204095aa9782a2ae49da,2016-05-19 12:27:24,molunerfinn,Fix coding style in docs/string.md,False
+9a2b7bfde9a055452f653ace34518c77f294781c,2016-05-19 08:09:21,Ruan YiFeng,"Merge pull request #202 from xcatliu/patch-13
+
+Fix coding style in docs/decorator.md",True
+b9a53eb8dcb92b73c5396dad8412b66f9df2b6d3,2016-05-19 08:00:22,Ruan YiFeng,"Merge pull request #201 from xcatliu/patch-12
+
+Fix coding style in docs/class.md",True
+5def873ed6eadd0cf1bf7c568e48fafaa9ee1721,2016-05-19 07:59:18,Ruan YiFeng,"Merge pull request #199 from xcatliu/patch-11
+
+Fix coding style in docs/iterator.md",True
+a502555c546f9f14b02d554c237b7519c6a1fa6e,2016-05-19 07:48:14,Ruan YiFeng,"Merge pull request #198 from NumerHero/patch-3
+
+问题修改",True
+1c555f63bf146f17540e0def314f39cd740dfda6,2016-05-19 06:31:33,Ruan YiFeng,"Merge pull request #197 from xcatliu/patch-10
+
+Fix coding style in docs/set-map.md",True
+6bbd9a2bee0ef036f3c4f5a06fd86d034da01554,2016-05-19 06:30:44,Ruan YiFeng,"Merge pull request #196 from xcatliu/patch-9
+
+Fix coding style in docs/proxy.md",True
+f9b93a12bdd5e7126e6776778f3fa0a99db8369b,2016-05-19 06:30:02,Ruan YiFeng,"Merge pull request #195 from xcatliu/patch-8
+
+Fix coding style in docs/symbol.md",True
+fabd48826f46cdfc23ccc1be3b763bd58a20dfc3,2016-05-19 06:28:25,Ruan YiFeng,"Merge pull request #194 from xcatliu/patch-7
+
+Fix coding style in docs/object.md",True
+21f79e434697be9b20c7dbc7b85ab16e8ccae852,2016-05-19 06:24:13,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+002862d50c6fc635aa458357aedea543b8b7163b,2016-05-19 06:23:57,ruanyf,feat: add 404.html,False
+bdff954876511c33929fb1789c1800cef0da2ddd,2016-05-18 15:29:08,xcatliu,Fix code css,False
+e8748dfbcdce70b6bfd8494c0cebc30c2689a24f,2016-05-18 15:13:04,Xcat Liu,"Fix coding style in docs/async.md
+
+这一篇由于引入了其他源码，所以我改动比较保守，只改了明显可以改进的地方",False
+0dd87edc44bae0632bc001848abd9627f1bc8956,2016-05-18 14:37:03,Xcat Liu,Fix coding style in docs/module.md,False
+c4b46e3621ad33ede5ec0b567c802be6ed35cafa,2016-05-18 14:10:23,Xcat Liu,Fix coding style in docs/decorator.md,False
+96b4a4a33d3721d0098bd9a16dfa7bd2af345771,2016-05-18 13:49:26,Xcat Liu,Fix coding style in docs/class.md,False
+3c845549570da82c2de7b6f4e587c9c51a653ca0,2016-05-18 12:19:05,Xcat Liu,Fix coding style in docs/iterator.md,False
+82c1ab1d407fee42111904ee1e8ebe3e7f791b97,2016-05-18 11:53:01,Xcat Liu,Fix coding style in docs/set-map.md,False
+37db7edecf8dbf0ec33072dabe376531ae43d7e8,2016-05-18 11:52:59,Owen,"问题修改
+
+你好，阮老师，在282行的例子中，我使用新版本chrome 测试了例子，出现了错误
+
+发现const dom 产生了暂时性死区
+
+如理解有误，浪费了老师时间，望见谅",False
+24bcfb52ed9e05e281b6d6f4796f9d066f850f4c,2016-05-18 11:13:26,Xcat Liu,Fix coding style in docs/proxy.md,False
+60c1576ccfd7995a43ef5778f21539f41862bada,2016-05-18 10:31:15,Xcat Liu,Fix coding style in docs/symbol.md,False
+307932e155b0e250fc537030698ae47484832a00,2016-05-18 10:15:03,Ruan YiFeng,"Merge pull request #193 from xcatliu/patch-6
+
+Fix coding style in docs/function.md",True
+247ac78230ff10e6f1895ba1605a914fdea7b797,2016-05-18 10:03:27,Xcat Liu,Fix coding style in docs/object.md,False
+4ba798a77476cf76b27a02854b846d3e5b9e51d9,2016-05-18 09:24:20,ruanyf,doc(proxy): 修改proxy链式使用的例子,False
+8482c89f412f6fb593cc732c55c433ff74a1be44,2016-05-18 09:21:34,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+58351059b920269728e3be489d07171fe03f5292,2016-05-18 09:21:15,Ruan YiFeng,"Merge pull request #192 from NumerHero/patch-2
+
+问题修改",True
+b28145ef26495009e0677054c8f3c467383ec067,2016-05-18 09:20:08,ruanyf,doc(string): edit 模板字符串,False
+b3d9aa82bf29b7f5b1c18f3d7c913923111608d1,2016-05-18 08:43:05,Xcat Liu,Fix coding style in docs/function.md,False
+341e3c19072831d74304523c45a589a689371faf,2016-05-17 11:54:09,Owen,"问题修改
+
+阮老师你好，在251行这个例子中，我在chrome (版本号Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36) 下 测试的时候出现了问题， 报了错误
+
+ 我研究完代码，发现在263行您return pipeObject ， pipeObject 指向应该是被代理的对象而不是，Proxy对象本身
+
+当我做出如上修改后，代码即可正确运行，返回63
+
+我也是初学者，我不知道是否是因为编译环境的原因导致如上问题的产生，但对于使用新chrome学习es6的同学可能会产生一些误导
+也许是我理解有误，耽误您宝贵的时间，为此感到抱歉。",False
+73cff90609315f2a158d1cd29e0bb0972090db43,2016-05-15 09:37:44,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+17ae0fa973804394b3f086226730139781973896,2016-05-15 09:36:22,ruanyf,doc(let): 全局对象的属性,False
+71c07c8704e42e69f0ca417eb55780b27ee41f50,2016-05-15 05:46:40,Ruan YiFeng,"Merge pull request #189 from xcatliu/patch-5
+
+Fix coding style in docs/number.md",True
+77d1a53ae6d80bbffe43af4350796d9a088e61fd,2016-05-15 05:43:20,Ruan YiFeng,"Merge pull request #188 from xcatliu/patch-4
+
+Fix code wrapper in docs/regex.md",True
+2e6738a1e12d28846444edcee470cd28727e13f1,2016-05-15 05:37:22,Ruan YiFeng,"Merge pull request #186 from xcatliu/patch-2
+
+Fix coding style in docs/destructuring.md",True
+c433756faf476fb7e67b57d11b3cd4c7d9e714e4,2016-05-14 18:03:05,Ruan YiFeng,"Merge pull request #185 from xcatliu/patch-1
+
+Fix some code syntax problem in docs/let.md",True
+4cbf679749fce325139ab0aa89cb847e9fc4f97c,2016-05-14 18:01:00,Ruan YiFeng,"Merge pull request #184 from xcatliu/xcatliu-patch-1
+
+Adding code padding",True
+1b6177de68e2b592a4ed9ac3d4bfb83260a7fd5c,2016-05-14 03:18:19,Ruan YiFeng,"Merge pull request #183 from erniu/gh-pages
+
+修正八进制的笔误",True
+aecabb2e2b3a22c61ee6252615d11e2f328b73c1,2016-05-13 16:53:53,Xcat Liu,Fix coding style in docs/number.md,False
+732701ac355d1d6742646acb91949bb5f4a4259f,2016-05-13 14:52:12,Xcat Liu,"Fix code wrapper in docs/regex.md
+
+这一篇的代码标签有点乱，我整理了一下",False
+fd714a39bf51a72486e52e6d968c51f081451ac7,2016-05-13 14:05:06,Xcat Liu,Fix coding style in docs/destructuring.md,False
+78112e85b0f0d11e066c6c2a171f935c119ab23a,2016-05-13 13:47:59,Xcat Liu,"Fix some code syntax problem in docs/let.md
+
+Followed the previous coding style, added some `;` and space to the code.",False
+e448091da7f44709d22d2177a70dd7af344b86c2,2016-05-13 13:27:54,Xcat Liu,"Adding code padding
+
+Adding padding-left to code",False
+8bf0e77b0000034533bc68444c28eadadcf51309,2016-05-12 15:32:05,erniu,修正笔误,False
+7f66176c1fe05e00767109c620697f92b175fad8,2016-05-12 05:15:50,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+aee670cb9b47373ea96371dbc4344b4e2227ba81,2016-05-12 05:14:57,ruanyf,doc(array): 删除数组推导,False
+3961e40a2fdbcd9cc0d5db8ef01951601ac32510,2016-05-12 04:59:50,Ruan YiFeng,"Merge pull request #180 from erniu/gh-pages
+
+const定义说明是否再斟酌一下",True
+39786a0f62206a04e320635bcf3067e50217e14d,2016-05-11 17:40:22,ruanyf,doc(iterator): fix 示例代码,False
+438e35c1628a4f8d2b22d607a6076cba057ea4ac,2016-05-11 17:26:09,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+2b53f9fc0d9c21f9a480310935e0127908dc326d,2016-05-11 17:25:41,ruanyf,doc(iterator): fix 示例代码,False
+621ac69480f1e19a322afb3c3d3a7630fba22557,2016-05-11 05:22:09,Ruan YiFeng,"Merge pull request #181 from xream/patch-1
+
+Fix typo",True
+9322419906fb938a2b2b82d27f8ee4af33fc6d59,2016-05-11 05:18:09,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+e6c5f9e1ffb1d6ec412c3c43cec2589ed009473d,2016-05-11 05:17:54,ruanyf,doc(generator): generator 函数模拟构造函数,False
+645695a129485f5ded755bfdd73f58996797128c,2016-05-09 14:18:54,Hsiaoyi Hsu,Fix typo,False
+ffa0100aa2bf8927594228b66af0a62a24838f7c,2016-05-09 09:47:07,erniu,const 关键字只能声明常量，这个在其他语言中也类似，在MDN上的定义中也是这样的,False
+f01feb47a29101555cf018f69c1b97d262e9cdec,2016-05-06 08:58:18,Ruan YiFeng,"Merge pull request #165 from xuexb/gh-pages
+
+优化链接中出现双层锚点",True
+4b8671b89391c875decb65930e77e72b3ea9ef6f,2016-05-05 05:37:43,Ruan YiFeng,"Merge pull request #170 from zaxlct/patch-1
+
+统一 if 语句括号里的空格",True
+aea773a4359f3991a80dbf5c0a71bcb9908b0620,2016-05-05 05:35:29,Ruan YiFeng,"Merge pull request #169 from jolyon129/patch-1
+
+修改一处容易产生误解的示例",True
+41c86077c2754f0e2dedfb811f4b19f1a2c404d4,2016-05-05 05:29:58,Ruan YiFeng,"Merge pull request #168 from w-halo/patch-1
+
+Update regex.md",True
+71b13a4351f71fb664b41038fc7a7cf2cc1d142e,2016-05-04 11:32:22,兔哥,docs(let): 修正函数默认参数的死区问题,False
+6e8505bf8ca231393e52ae39dd34ed3141950d5f,2016-05-04 05:42:05,ruanyf,docs(regex): edit regex/y flag,False
+7d57425beb95cf8bbcbbfe96cbce3086e66fd868,2016-05-02 07:52:18,ruanyf,docs(generator): edit Symbol.iterator,False
+adefd4c36521abb3758f1b72535dda1646265b29,2016-04-29 06:55:11,ruanyf,docs(style): adjust style,False
+202f04bc43e0a9a74113338f0518847797071ae4,2016-04-24 07:39:27,ruanyf,docs: add mixin.md,False
+9da130f1ab70ee1a854cdfa9e3abf18cd169bf00,2016-04-20 08:47:03,ruanyf,docs(class): edit super 关键字的含义,False
+81e186f62a16749b1386c80df314c550fe5b9652,2016-04-19 06:42:01,ruanyf,docs(function): fix 函数的默认参数,False
+d4ae227730d895abe4f3493350b152d6a1f80d53,2016-04-15 19:19:53,ruanyf,docs(object): fix object.assign,False
+8f588d02c5c2b50955df8619006970af27f8e954,2016-04-13 12:53:27,zaxlct,"统一 if 语句括号里的空格
+
+handle() 函数里 有两个 if ，为什么里面的空格不同？",False
+690d5531a047a2ef47bb987c72d16e50b206574a,2016-04-13 08:53:05,左伦,修改一处容易产生误解的示例,False
+d7f742af690b6093a6666e703de1e1788d4f94d0,2016-04-13 05:24:12,ruanyf,docs(Object): edit Object.assign,False
+d8493f7550cfc942269e516cb09a668ef7bf3b7d,2016-04-08 15:11:12,w-halo,Update regex.md,False
+ffe44108eaee1e1764033a111026b58dcf558764,2016-04-04 04:16:08,ruanyf,feat(intro): 重写Traceur的介绍,False
+072df734f1fb22e2c2ba9f22d84e848c01bbf0bc,2016-04-02 22:17:15,xuexb,fix: 优化链接中有双层锚点时最后章页面加载按钮判断逻辑,False
+797ee7c38aa90083e69afe36feafa0019dcdafbd,2016-04-02 22:13:46,xuexb,fix: 修复链接中有双层锚点时上下一章按钮死链,False
+8ad3c20f5f477a091282c764c15032732d386c48,2016-03-31 18:19:50,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+0e991b41bfb7ca06ac90a9220c22f72d53b37d39,2016-03-31 18:19:27,ruanyf,docs(decorator): 修饰器补充内容,False
+02c718a35a8c4f1598240227428e56ae00c190a6,2016-03-29 13:52:06,Ruan YiFeng,"Merge pull request #164 from hardfist/patch-1
+
+删除错误的“()""",True
+9e4665c305819b0e886ae2daf8e0c402bf409249,2016-03-28 14:21:51,hardfist,"删除错误的“()""
+
+class FooComponent() {} 里的()似乎是错误的，经测试无法运行，故予以删除。",False
+8c4187a2f74e537456d395667a205142ed2cb0e7,2016-03-27 08:37:29,ruanyf,docs(class): export 输出的是同一个实例,False
+8796fc605f9658c8cec85b1183418efabf8f1162,2016-03-26 18:30:11,ruanyf,fix(class): 继承Object的子类行为,False
+96c3de7eaa6d642feb0917dcc033b430c9a15830,2016-03-23 11:59:20,ruanyf,docs(arrayBuffer): TypedArray数组的溢出,False
+d2fca7f2a17c261a884764d661b69d8bac4bc80b,2016-03-23 11:01:04,ruanyf,docs(regex): RegExp构造函数,False
+e0e471bdd48aeaf40275002d759c8bff98d314bb,2016-03-19 15:11:35,ruanyf,docs(destructuring): parentheses,False
+dff2069aec4a2e5e554e590c3bc5308120253a91,2016-03-19 14:11:13,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+d14163cf5d8cf8745037b40dedb79b9c0abfde5a,2016-03-19 14:10:52,ruanyf,docs(intro): fix babel,False
+30b761921da7062308de17fd9fd8dc40caeea989,2016-03-17 07:16:56,Ruan YiFeng,"Merge pull request #159 from cntanglijun/delAComma
+
+删除一个逗号 :pray:",True
+29578117960369ee1685785bf2d138210be014e1,2016-03-15 22:25:46,cntanglijun,删除一个逗号 :pray:,False
+973292d26b3d4a19618a8d0a3ca39bf1dd363611,2016-03-15 05:37:49,Ruan YiFeng,"Merge pull request #158 from liuyangcharlie/gh-pages
+
+修改用词",True
+3b58e10991c03a7dfd6f0c3b3f7cdac4ad935c40,2016-03-14 01:40:31,charlie,修改用词,False
+b9a5cb16f21f195de25a702e94b02b36fe324e6e,2016-03-13 03:22:07,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+285c1947509646ca83889590b552a4febad711dd,2016-03-13 03:21:33,ruanyf,docs(promise): catch方法,False
+7db7838b9bd837cc37062b98401241073652af73,2016-03-11 08:29:52,Ruan YiFeng,"Merge pull request #154 from willin/gh-pages
+
+强迫症修改""->'",True
+59ed5c3c8e31068a996bbb9da88076ad611e7632,2016-03-10 13:11:35,Willin Wang,"强迫症修改 ""->'",False
+fdb0c2027e1f45b7a9eddd2d43cc140ef0169c14,2016-03-10 12:47:18,Willin Wang,"强迫症修改 “->""",False
+814f733c4563a00313f88484eac0a4f05c87bf2d,2016-03-10 12:17:45,Willin Wang,拼写错误修改,False
+240a927a364b737a3ea4336b2a0682dec9c75ae7,2016-03-10 12:10:17,Willin Wang,"强迫症修改""->'",False
+6067c0f34fed43431c30354e637158698ce1a8c4,2016-03-10 11:55:52,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+afd15697edd6b38dae88518ce5793fdcdd77179f,2016-03-10 11:55:46,ruanyf,docs(Object)：Object.values(),False
+5edf72df51b675e6c0529b0c6afe330e8029f6ae,2016-03-09 08:45:30,Ruan YiFeng,"Merge pull request #153 from hisland/patch-1
+
+下面的 -> 下一节的 可能表达更清晰",True
+29da4748d5cbec9853d87eaa49c62f915e00f1f4,2016-03-09 06:57:26,Ruan YiFeng,"Merge pull request #152 from Frezc/gh-pages
+
+修正Object这章内的两处代码书写错误",True
+1e6aba2f3a01a6615bfb571ec3f9e62fbfba3cad,2016-03-08 09:03:06,hisland,"Update module.md
+
+下面的 -> 下一节的 可能表达更清晰",False
+c7768ecd19912c0ed526548e99ca03b10c177c3c,2016-03-07 18:08:04,Frezc,修正两处代码书写错误,False
+1ae51bdea5e74474ff2b3b7b84fff57b24dd165e,2016-03-05 12:05:33,ruanyf,docs(let): ES6的块级作用域使得函数可以在条件作用域内声明,False
+f50a775466842d40a04266cfe4d814c23439039e,2016-03-03 14:12:20,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+9af674d0250db5c89936cfda612a90fd99d882f0,2016-03-03 14:01:42,ruanyf,docs(function): 箭头函数的this,False
+c7463471fa17f7c7da985b2be6ee23d259562de2,2016-03-02 08:10:31,Ruan YiFeng,"Merge pull request #149 from waylybaye/patch-1
+
+fixed Hskell typo, should be Haskell",True
+21c5c22f3f2f7ef872a026b05992ac59edab055d,2016-02-29 17:58:24,baye,"fixed Hskell typo, should be Haskell",False
+48c94cc9d68744b40b67443f9289cb15652c3d14,2016-02-29 15:46:31,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+834431eceeaa666c15937d70ac09843000354b14,2016-02-29 15:46:12,ruanyf,docs(class): 完善类的静态属性,False
+c5edd18680fa83883c0926a8f49ad9a5b7254075,2016-02-28 19:02:14,Ruan YiFeng,"Merge pull request #147 from XGHeaven/gh-pages
+
+修复了 decorator 中的一些 typo",True
+8b3588a8ba5e80b3bca1b190bb672d01d20b7f67,2016-02-28 07:42:45,XGHeaven,fix decorator typo,False
+c1c4592dda8f1b8f1adb7447537bddfa5cecf19b,2016-02-27 17:39:13,ruanyf,docs(regex): 修改后行断言的文字,False
+74118a5447d2c5a492ec1662d27be2c5ea003e95,2016-02-27 17:25:46,ruanyf,fix: 无法解析中文编码的hash,False
+b77c044003edb46b62598db55b44999fb8b2d390,2016-02-27 17:14:03,ruanyf,docs(regex): 增加后行断言的介绍,False
+fc7505278eee3a8d8d8dd7a18fee0f3d598abea8,2016-02-27 16:31:27,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+342fe1da61d50da2fd2891a63f13c3a3e8ac627c,2016-02-27 16:31:07,ruanyf,docs(regex): 增加后行断言的介绍,False
+1b5a99151451c192d8855a20f06f5a8b1539a8a8,2016-02-25 18:32:53,Ruan YiFeng,"Merge pull request #144 from ArisLittle/patch-1
+
+修改一个小的拼写问题",True
+73400107a3140a2fc1fd231a7013ffcbe0f0d0de,2016-02-25 14:00:53,Zheng Guoli,"修改一个小的拼写问题
+
+结合上下文的关系来看，此处应该是拼写错误。
+所以将 PEPL 修改为 REPL 。",False
+1e8b21e22dc76fd3575b38cc86ee38f4a933b66e,2016-02-24 16:18:20,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+098a3dc830b0b3da7457ffc670c3b6adc2d3dd81,2016-02-24 16:18:08,ruanyf,docs(generator): edit next method,False
+c88277a9cb715a9f525837364f9b7d803821b267,2016-02-20 12:20:36,Ruan YiFeng,"Merge pull request #142 from WXAlbert/patch-1
+
+更正 babel-core 示例代码片段",True
+71690edd72fbfabc2126a4f7f23dc6368e908abb,2016-02-19 14:22:53,Xuecheng Albert,"更正 babel-core 示例代码片段
+
+let x = n => n + 1 是 es6的语法，赋给se5Code变量容易误解",False
+689081f7d8baec91a097842451d18a8a13953d24,2016-02-19 11:17:54,ruanyf,docs(function): 箭头函数,False
+5d2a5a82cb31f49669b3669ed3b9ce75751e252c,2016-02-18 17:00:51,ruanyf,feat: 添加搜索框,False
+512365fd92762dac60a1c2725a8a4b584f4edbd7,2016-02-18 15:34:59,ruanyf,feat: 添加搜索框,False
+68a50598b25dc062d2b1c84a58543540492c4c40,2016-02-18 14:09:10,ruanyf,docs(string): String.prototype.at(),False
+19506b0b56fdc0dd8b325361ff42d808d732182d,2016-02-17 07:27:16,ruanyf,docs(module): 加入解释export default var a = 1为什么不对,False
+c957ce868aaaf56c3e80829a6507981d19791d25,2016-02-17 07:10:15,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+3cec648ff2e9ecd830d7dcf5a8a13918ea484b7f,2016-02-17 07:09:55,ruanyf,docs(module): 解释CommonJS与ES6模块加载机制的差异,False
+4bc7d68e061fc63282821c8a2b57c03093b5a8d4,2016-02-17 06:39:42,Ruan YiFeng,"Merge pull request #138 from sage417/patch-1
+
+Update string.md",True
+8408a3c4f9abac7e812a3c71422a837b898410c2,2016-02-16 10:22:11,J.K.SAGE,"Update string.md
+
+line626
+也就是说，`tag`数实际上以下面的形式调用。->
+也就是说，`tag`函数实际上以下面的形式调用。",False
+ccbc40a61b59616d55d9aee7e218229b162bb9e1,2016-02-15 13:43:24,ruanyf,docs: edit object/rest & spread,False
+bce7843d22c4f188072eaf3d2cd83c57a4e0495f,2016-02-09 07:32:58,ruanyf,doc: ES7 feature list,False
+b13b07d960581ecb91245ec355aaa96f4d9ed605,2016-02-09 07:30:25,ruanyf,doc: ES7 feature list,False
+fd088aceabe384681813e588615ff48918b6b8ba,2016-02-09 07:27:28,ruanyf,doc: ES7 feature list,False
+40437de61a6382a0b7338ba010ede6dbdb738ff6,2016-02-09 06:53:29,ruanyf,doc: add ES7 stage 3 features,False
+0be4b183121169b445323ead38a8bea0ffffb1b5,2016-02-03 15:11:36,ruanyf,edit function/tco,False
+ae1935566e443300b1dd3dfd7e7efd0e2442dde9,2016-02-03 06:26:50,Ruan YiFeng,"Merge pull request #136 from jackchess/patch-1
+
+e<sub>x<sub> to e<sup>x<sup>",True
+6febd5de0bdab997c66a12b23b391dc7c41f606d,2016-02-01 12:03:52,Kaipeng Lu,e<sub>x<sub> to e<sup>x<sup>,False
+5d673d9b98079edd1f44714363fd4a3d12f3a332,2016-01-31 12:27:51,ruanyf,"add Object/Object.values(),Object.entries()",False
+50d4285105caab47ced0c2ea47a7a3550ed45b89,2016-01-29 22:03:01,ruanyf,edit symbol/hasInstance,False
+b2594ee79178076da4e26d3713b9ac526ac9cf4a,2016-01-29 06:55:56,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+fc01552d64baedff0ea83feedf5accd1730ac24c,2016-01-29 06:55:39,ruanyf,edit docs/symbol,False
+a7d63c9bf7a129eed55210d6924c866ab29ea495,2016-01-27 09:20:17,Ruan YiFeng,"Merge pull request #134 from catwarrior/catwarrior-patch-1
+
+Update async.md",True
+1cdc04bd8b8b7eedfb6dde9219cebf97fc709b6b,2016-01-26 13:19:44,catwarrior,"Update async.md
+
+Refer to your previous blog post, it looks better.
+http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html",False
+e0210fa5e7fd2078d8bf17f85d4d703c40e4c032,2016-01-26 06:32:59,Ruan YiFeng,"Merge pull request #133 from xiaoshude/patch-1
+
+Update class.md",True
+f4f7f6e9e6ca3d9a27ea0fc37425e3301f735d22,2016-01-26 06:23:08,Ruan YiFeng,"Merge pull request #132 from CntChen/gh-pages
+
+修正generator.md yield* 示例代码的一个误解",True
+070985c4a44033e3355d5cc6c98bc7ab7a7ffca9,2016-01-25 12:50:34,fjywan,Update class.md,False
+9fb9439d895a8b151eb89ca1717641d8bf08a5bc,2016-01-25 10:18:40,CntChen,edit demo code,False
+ed283d0207a27350060b924996299fc48edeafa0,2016-01-24 21:13:32,ruanyf,edit intro/babel,False
+c6e1579b4cb4d3d40ad3ce49277a9aa1978f2f41,2016-01-24 20:52:44,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+adb2932b3edd713364d2df16bdcbbdb2fe663d83,2016-01-24 20:51:05,ruanyf,edit intro/babel,False
+3545cfd8b132026c72d510dfc5614f86760542ee,2016-01-24 18:30:27,Ruan YiFeng,"Merge pull request #131 from catwarrior/patch-2
+
+fix a typo: using wrong brace.",True
+a8684f1f96efe6f7c35952ceb2d21e359ddbe3d9,2016-01-24 18:28:06,Ruan YiFeng,"Merge pull request #130 from catwarrior/patch-1
+
+remove a space, indent properly.",True
+5acf27c61a92d4695b2e388660371cabee202850,2016-01-23 16:41:40,Ruan YiFeng,"Merge pull request #129 from JulienBrks/patch-2
+
+Update function.md",True
+282b21963083282269c055a36a707cec8731d8a9,2016-01-23 16:37:09,Ruan YiFeng,"Merge pull request #127 from JulienBrks/patch-1
+
+Update let.md",True
+29e8701258767ed0bf2a22827e23ef61b8ea9db7,2016-01-22 21:16:11,ruanyf,edit async,False
+b3a4cac35cfc5489a8a62262942e49d88e9caa55,2016-01-22 16:21:37,catwarrior,fix a typo: using wrong brace.,False
+bdd163048c8750aed66c6482b14c08b88305075e,2016-01-22 16:16:23,catwarrior,"remove a space, indent properly.",False
+5001eeae4ed083ccf74e58aa9f0acb0125e91f4f,2016-01-21 19:55:36,JulienBrks,"Update function.md
+
+参数默认值例子的一个参数说明有问题，将""函数""改为""对象""",False
+eca18c562b74c4a21f0ce04aa2edba4e051510e7,2016-01-20 21:07:06,JulienBrks,Update let.md,False
+f5d01f117d6ea9139655b94cd4d44776651da839,2016-01-20 15:30:38,ruanyf,edit style/block/let,False
+1248f27af2951e75a00810eccc2513a6f3a434ac,2016-01-19 16:07:18,ruanyf,edit decorator/mixin,False
+1fe658fd8bce8f092a4ac4671969f2831a38f9f3,2016-01-19 16:04:19,Ruan YiFeng,"Merge pull request #126 from zavven/patch-1
+
+勘误 function.md line:766",True
+a2ec075b698ddbeedabce1275523ab37210be258,2016-01-19 15:48:39,zavven,"Update function.md
+
+勘误。line:766
+原：return person.first + ' ' + person.name;
+改：return person.first + ' ' + person.last;",False
+66603c586ee6e4368f1f1bc340d68b500c045e08,2016-01-18 17:11:43,ruanyf,edit README,False
+1dc1b3f243fdfd91d73dd934b649cb9e33e6ac65,2016-01-18 16:41:49,ruanyf,Merge branch 'gh-pages' of github.com:ruanyf/es6tutorial into gh-pages,True
+715f6e0768e8528b6aaa47f2bab792606ec0f053,2016-01-18 16:41:38,ruanyf,edit README,False
+040f0e4279a66c785c7d1094625713ae99c247e6,2016-01-16 20:16:48,Ruan YiFeng,"Merge pull request #125 from xinnix/gh-pages
+
+模块章节  函数名写错  even() 被写成 foo()了",True
+f6f9aba79f1dd70a096bbedac7576a8f9e742a5e,2016-01-14 19:50:41,xinnix,括号中文字符变英文字符,False
+bdacbb11df4085197f9dd79a67603c88d7ce5c4f,2016-01-14 19:49:30,xinnix,循环加载处，even( )被错写为foo( ),False
+a34e63776e249559687c30352af129313389d548,2016-01-14 19:44:35,xinnix,"Merge pull request #2 from ruanyf/gh-pages
+
+got new version",True
+852717da4bdca19fba310146a22b0078397ae4c9,2016-01-11 17:10:21,Ruan YiFeng,"Merge pull request #123 from SimplyY/patch-9
+
+调整缩进",True
+be5e7478f808ddc9043e4060a2aa53680907cc1a,2016-01-11 15:56:13,Ruan YiFeng,"Merge pull request #122 from SimplyY/patch-8
+
+WeakSet 类型的 foos 不是数组",True
+6528bdad9f32d9379371561c8538ddecf8e2dc5c,2016-01-11 09:08:19,yuwei,调整缩进,False
+45a32e855c948677a903bd78718b6d98298a5350,2016-01-10 18:02:38,yuwei,WeakSet 类型不是数组,False
+214a72405dc80617020e905ce734c1a6cbf488e9,2016-01-10 09:08:06,ruanyf,add simd,False
+b73a0a8840e2e513e80558d4cd5c58ccc275701b,2016-01-09 18:48:18,Ruan YiFeng,"Merge pull request #120 from xinnix/xinnix-patch-1
+
+fix section Promise.reject() bug",True
+4c507ff7ea3a6b5f1ca28fa900833744e0b508c4,2016-01-09 18:42:23,Ruan YiFeng,"Merge pull request #119 from banricho/patch-1
+
+set-map.md 中变量未定义",True
+b33bf06f949a3e30479b7bec7800cf2de359f64d,2016-01-09 18:41:19,Ruan YiFeng,"Merge pull request #118 from SimplyY/patch-6
+
+删除重复内容 has(target, propKey)，以及调整序号",True
+78fdf4ee86640a98e73f4763ab4ff507c0b8c082,2016-01-08 21:04:09,xinnix,"Merge pull request #1 from xinnix/xinnix-patch-1
+
+fix section Promise.reject() bug",True
+38d393f4e27a2c377ecb52830eb2fd65af66d91e,2016-01-08 21:03:15,xinnix,"fix section Promise.reject() bug
+
+‘出错了’和‘foo’两个字符串搞混了",False
+4ac59e099c72f9d4a1a2a944efb20ceaaed288e6,2016-01-08 20:57:16,banri,"Update set-map.md
+
+修复了变量未定义报错",False
+078c5575bda389bd8e16a36db67f571b00b15d63,2016-01-08 18:49:11,yuwei,"删除重复内容 has(target, propKey)",False
+91d44bdb6fbfd0bfa381b9bdef6ae5d3aa086ea5,2016-01-08 16:47:16,ruanyf,edit set-map,False
+73be57cbeb56849b162400cc4070e7b9705d4315,2016-01-07 13:08:58,Ruan YiFeng,"Merge pull request #114 from SimplyY/patch-4
+
+使未生效的语法高亮生效",True
+7cc9aefdd623a754e8758321eec6da83274d1d34,2016-01-06 11:06:08,yuwei,Update array.md,False
+d873e7b91ddd6e788cc28a3f75dea7e06cc6516e,2016-01-05 20:17:40,yuwei,使未生效的语法高亮生效,False
+de33b8cca66076facefa734ac4e744502b3cb416,2016-01-04 01:36:02,ruanyf,edit Promise,False
+d12c9c843f7524f7b5637d5cb17e6e2d47cc64f1,2016-01-04 01:19:44,ruanyf,edit function/spread,False
+f466170c41056db30175247c6d773ab215468c5e,2016-01-04 01:07:45,Ruan YiFeng,"Merge pull request #112 from SimplyY/patch-3
+
+修改扩展运算符应用5的写法错误",True
+06e16fe5290a1cc2b674dcca45c1e7f549ce46b8,2016-01-03 19:10:57,yuwei,"修改扩展运算符应用5的写法错误
+
+详情以及建议见 https://github.com/ruanyf/es6tutorial/issues/111。
+
+
+5）类似数组的对象
+
+任何类似数组的对象，都可以用扩展运算符转为真正的数组。
+
+var nodeList = document.querySelectorAll('div');
+var array = [...nodeList];
+这里明显有问题，对于扩展运算符，只能对于可遍历（iterable）的对象
+
+MDN
+The spread operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.",False
+97ab533f2cba2774e02fc9f80865573018249787,2016-01-03 16:44:27,Ruan YiFeng,"Merge pull request #110 from yesmeck/patch-1
+
+中文括号改为英文括号",True
+1e23c6d88889425088bb7c238138e3bf6e0dbb24,2016-01-02 15:22:52,Wei Zhu,中文括号改为英文括号,False
+1af516535c2e2e7fd23734567b054cb2665b30db,2016-01-01 18:38:40,ruanyf,edit ditto.js,False
+a37ce6fca3d6a1d8b1be900b7a80f7245d7947c2,2016-01-01 18:31:11,ruanyf,edit ditto.js,False

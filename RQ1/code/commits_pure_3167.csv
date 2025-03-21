@@ -1,0 +1,3694 @@
+Hash,Date,Author,Message,IsMerge
+6efa2cf48e792c4430714270065c4d1636a6f190,2025-03-10 22:46:54,dependabot[bot],"chore(deps): bump js-beautify from 1.15.3 to 1.15.4 in /site (#1395)
+
+Bumps [js-beautify](https://github.com/beautifier/js-beautify) from 1.15.3 to 1.15.4.
+- [Release notes](https://github.com/beautifier/js-beautify/releases)
+- [Changelog](https://github.com/beautifier/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautifier/js-beautify/compare/v1.15.3...v1.15.4)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+309c51bb7f73bcb6b315aae1fae041114e5e0ef3,2025-03-10 22:46:40,dependabot[bot],"chore(deps-dev): bump eslint from 9.21.0 to 9.22.0 (#1396)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.21.0 to 9.22.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.21.0...v9.22.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+dd651d6f56bde82f34abab98ef07edd39fd9fc1a,2025-02-25 22:43:20,dependabot[bot],"chore(deps-dev): bump eslint from 9.20.1 to 9.21.0 (#1394)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.20.1 to 9.21.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.20.1...v9.21.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8ccc08aa2306e786ef384561702428794b694081,2025-02-20 22:51:31,dependabot[bot],"chore(deps-dev): bump eslint from 9.20.0 to 9.20.1 (#1388)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.20.0 to 9.20.1.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.20.0...v9.20.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7f73d1422b3f992f812c4f4a6aff4b290e94f19b,2025-02-20 22:50:16,dependabot[bot],"chore(deps): bump serialize-javascript from 6.0.1 to 6.0.2 in /site (#1387)
+
+Bumps [serialize-javascript](https://github.com/yahoo/serialize-javascript) from 6.0.1 to 6.0.2.
+- [Release notes](https://github.com/yahoo/serialize-javascript/releases)
+- [Commits](https://github.com/yahoo/serialize-javascript/compare/v6.0.1...v6.0.2)
+
+---
+updated-dependencies:
+- dependency-name: serialize-javascript
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7487e9215900d3f6aa58f2aaf989c9abbad56b14,2025-02-20 22:49:56,dependabot[bot],"chore(deps): bump webpack from 5.97.1 to 5.98.0 in /site (#1390)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.97.1 to 5.98.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.97.1...v5.98.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+bbb6a2a03ee6159a763acc451f67d632a366487e,2025-02-20 22:49:11,dependabot[bot],"chore(deps-dev): bump globals from 15.14.0 to 16.0.0 (#1392)
+
+Bumps [globals](https://github.com/sindresorhus/globals) from 15.14.0 to 16.0.0.
+- [Release notes](https://github.com/sindresorhus/globals/releases)
+- [Commits](https://github.com/sindresorhus/globals/compare/v15.14.0...v16.0.0)
+
+---
+updated-dependencies:
+- dependency-name: globals
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+373306a34cb4836343f8249dea8b6f07397b57e5,2025-02-20 03:56:50,dependabot[bot],"chore(deps-dev): bump postcss from 8.5.2 to 8.5.3 (#1391)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.5.2 to 8.5.3.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.5.2...8.5.3)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3544a866ffc345107920fb84cf6ea186d34f046b,2025-02-12 03:15:25,dependabot[bot],"chore(deps): bump js-beautify from 1.15.1 to 1.15.3 in /site (#1386)
+
+Bumps [js-beautify](https://github.com/beautifier/js-beautify) from 1.15.1 to 1.15.3.
+- [Release notes](https://github.com/beautifier/js-beautify/releases)
+- [Changelog](https://github.com/beautifier/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautifier/js-beautify/compare/v1.15.1...v1.15.3)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+59a9be7024bc636df725d24a2d7cdaabb447c9b2,2025-02-12 03:15:06,dependabot[bot],"chore(deps-dev): bump eslint from 9.18.0 to 9.20.0 (#1383)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.18.0 to 9.20.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.18.0...v9.20.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9a122717bdcba1641103d8a7ce1971b24cdce14b,2025-02-12 03:14:54,dependabot[bot],"chore(deps-dev): bump postcss from 8.5.1 to 8.5.2 (#1385)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.5.1 to 8.5.2.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.5.1...8.5.2)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3ff50c4a20bb7db590cfcf5b2ff58de9ee12df07,2025-01-14 22:41:32,dependabot[bot],"chore(deps): bump react and react-dom in /site (#1377)
+
+Bumps [react](https://github.com/facebook/react/tree/HEAD/packages/react) and [react-dom](https://github.com/facebook/react/tree/HEAD/packages/react-dom). These dependencies needed to be updated together.
+
+Updates `react` from 18.3.1 to 19.0.0
+- [Release notes](https://github.com/facebook/react/releases)
+- [Changelog](https://github.com/facebook/react/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/react/commits/v19.0.0/packages/react)
+
+Updates `react-dom` from 18.3.1 to 19.0.0
+- [Release notes](https://github.com/facebook/react/releases)
+- [Changelog](https://github.com/facebook/react/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/react/commits/v19.0.0/packages/react-dom)
+
+---
+updated-dependencies:
+- dependency-name: react
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+- dependency-name: react-dom
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2474bef69847794ea8f028a0bd421c42e46ce77a,2025-01-14 22:37:12,dependabot[bot],"chore(deps-dev): bump eslint from 9.17.0 to 9.18.0 (#1378)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.17.0 to 9.18.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.17.0...v9.18.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f88e1ba41669ebed031a6782982b0f614e692cc6,2025-01-14 22:37:00,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.37.2 to 7.37.4 (#1379)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.37.2 to 7.37.4.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.37.2...v7.37.4)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+82ac6e42c26aba54f1937917f6798afbce4e3ee5,2025-01-14 22:36:49,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.49 to 8.5.1 (#1380)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.49 to 8.5.1.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.49...8.5.1)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f23ec169411bc1bab9d3c33df33b60e1cd45a836,2025-01-07 23:33:50,dependabot[bot],"chore(deps): bump the docusaurus group in /site with 4 updates (#1376)
+
+Bumps the docusaurus group in /site with 4 updates: [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus), [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages), [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) and [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic).
+
+
+Updates `@docusaurus/core` from 3.6.3 to 3.7.0
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.7.0/packages/docusaurus)
+
+Updates `@docusaurus/plugin-content-pages` from 3.6.3 to 3.7.0
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.7.0/packages/docusaurus-plugin-content-pages)
+
+Updates `@docusaurus/plugin-google-analytics` from 3.6.3 to 3.7.0
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.7.0/packages/docusaurus-plugin-google-analytics)
+
+Updates `@docusaurus/theme-classic` from 3.6.3 to 3.7.0
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.7.0/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c18bd25c8be6c94b136ddb2ea3f36aa787dfa44f,2024-12-20 00:00:14,dependabot[bot],"chore(deps-dev): bump globals from 15.13.0 to 15.14.0 (#1374)
+
+Bumps [globals](https://github.com/sindresorhus/globals) from 15.13.0 to 15.14.0.
+- [Release notes](https://github.com/sindresorhus/globals/releases)
+- [Commits](https://github.com/sindresorhus/globals/compare/v15.13.0...v15.14.0)
+
+---
+updated-dependencies:
+- dependency-name: globals
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5edd3615ced546ea6262fab5e360928c044371f5,2024-12-18 00:23:07,Seth Bertalotto,docs: remove AMP references,False
+0f9761b0f04e7ea07efd59f235294454461310b3,2024-12-18 00:17:48,redonkulus,fix: remove CNAME file,False
+4780d6b149c16e0448de24d80cc85c1ab485c5f1,2024-12-16 22:47:16,dependabot[bot],"chore(deps): bump nanoid from 3.3.7 to 3.3.8 in /site (#1373)
+
+Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.7 to 3.3.8.
+- [Release notes](https://github.com/ai/nanoid/releases)
+- [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ai/nanoid/compare/3.3.7...3.3.8)
+
+---
+updated-dependencies:
+- dependency-name: nanoid
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8be5fbc81ac29925efcce11c5f1604b0d8856797,2024-12-16 22:41:50,dependabot[bot],"chore(deps-dev): bump eslint from 9.16.0 to 9.17.0 (#1372)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.16.0 to 9.17.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.16.0...v9.17.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1a64fa1c63098b8329f55eebe8946bbfb573810d,2024-12-10 00:00:00,dependabot[bot],"chore(deps): bump path-to-regexp from 1.8.0 to 1.9.0 in /site (#1370)
+
+Bumps [path-to-regexp](https://github.com/pillarjs/path-to-regexp) from 1.8.0 to 1.9.0.
+- [Release notes](https://github.com/pillarjs/path-to-regexp/releases)
+- [Changelog](https://github.com/pillarjs/path-to-regexp/blob/master/History.md)
+- [Commits](https://github.com/pillarjs/path-to-regexp/compare/v1.8.0...v1.9.0)
+
+---
+updated-dependencies:
+- dependency-name: path-to-regexp
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6ddc2fc600ce0e01a47c82462d1e247414d158f9,2024-12-09 23:55:42,dependabot[bot],"chore(deps): bump cookie and express in /site (#1369)
+
+Bumps [cookie](https://github.com/jshttp/cookie) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `cookie` from 0.6.0 to 0.7.1
+- [Release notes](https://github.com/jshttp/cookie/releases)
+- [Commits](https://github.com/jshttp/cookie/compare/v0.6.0...v0.7.1)
+
+Updates `express` from 4.21.0 to 4.21.2
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.21.0...4.21.2)
+
+---
+updated-dependencies:
+- dependency-name: cookie
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+63e82d837e4e87d2e58dce7e64fc34c6de516aa0,2024-12-09 23:55:16,dependabot[bot],"chore(deps): bump the docusaurus group across 1 directory with 4 updates (#1362)
+
+Bumps the docusaurus group with 4 updates in the /site directory: [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus), [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages), [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) and [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic).
+
+
+Updates `@docusaurus/core` from 3.5.2 to 3.6.3
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.6.3/packages/docusaurus)
+
+Updates `@docusaurus/plugin-content-pages` from 3.5.2 to 3.6.3
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.6.3/packages/docusaurus-plugin-content-pages)
+
+Updates `@docusaurus/plugin-google-analytics` from 3.5.2 to 3.6.3
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.6.3/packages/docusaurus-plugin-google-analytics)
+
+Updates `@docusaurus/theme-classic` from 3.5.2 to 3.6.3
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v3.6.3/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: docusaurus
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0359ad25e61657ec580143b45433b9c9a5bd05fc,2024-12-09 23:55:03,dependabot[bot],"chore(deps-dev): bump eslint from 9.13.0 to 9.16.0 (#1363)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.13.0 to 9.16.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.13.0...v9.16.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1edb698dcd0da2121535ace27096de78a3fd9488,2024-12-09 23:53:34,dependabot[bot],"chore(deps): bump cross-spawn from 7.0.3 to 7.0.6 in /site (#1357)
+
+Bumps [cross-spawn](https://github.com/moxystudio/node-cross-spawn) from 7.0.3 to 7.0.6.
+- [Changelog](https://github.com/moxystudio/node-cross-spawn/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/moxystudio/node-cross-spawn/compare/v7.0.3...v7.0.6)
+
+---
+updated-dependencies:
+- dependency-name: cross-spawn
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c033f6872651634e51463cc2b49721ef3c8c5f5f,2024-12-09 23:53:25,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.47 to 8.4.49 (#1354)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.47 to 8.4.49.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.47...8.4.49)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7da513e2e2e6db61d68c90a78de7bd4e0499ac1a,2024-12-09 23:53:07,dependabot[bot],"chore(deps-dev): bump husky from 9.1.6 to 9.1.7 (#1359)
+
+Bumps [husky](https://github.com/typicode/husky) from 9.1.6 to 9.1.7.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v9.1.6...v9.1.7)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+03f79e7c04b558f12aedf8d1b6f49f8aed431975,2024-12-09 23:52:54,dependabot[bot],"chore(deps): bump webpack from 5.95.0 to 5.97.1 in /site (#1366)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.95.0 to 5.97.1.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.95.0...v5.97.1)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5f6c32fdee40820be05e6351fc312ff9b5f088c8,2024-12-09 23:52:44,dependabot[bot],"chore(deps-dev): bump globals from 15.11.0 to 15.13.0 (#1364)
+
+Bumps [globals](https://github.com/sindresorhus/globals) from 15.11.0 to 15.13.0.
+- [Release notes](https://github.com/sindresorhus/globals/releases)
+- [Commits](https://github.com/sindresorhus/globals/compare/v15.11.0...v15.13.0)
+
+---
+updated-dependencies:
+- dependency-name: globals
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8ec4ca4c8c2ecd7739b1be77bfd81a53797c5092,2024-12-09 23:52:22,Jacob Svensson,"Update index.html (#1368)
+
+Fix variable case in HTML text. (The case is correct in the JS code included in the page.)",False
+511d1e3d89ad2293c2d15d2c95bb83074418a6bf,2024-10-23 19:08:41,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.37.1 to 7.37.2 (#1347)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.37.1 to 7.37.2.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.37.1...v7.37.2)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0b565280338ac3959c53e11133526d432c31746a,2024-10-21 21:33:02,dependabot[bot],"chore(deps-dev): bump eslint from 9.12.0 to 9.13.0 (#1346)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 9.12.0 to 9.13.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v9.12.0...v9.13.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6b0fe527d4781ce28d4ea4e6cde934b54d2f43cf,2024-10-18 01:11:22,dependabot[bot],"chore(deps): bump react-syntax-highlighter in /site (#1345)
+
+Bumps [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter) from 15.5.0 to 15.6.1.
+- [Release notes](https://github.com/react-syntax-highlighter/react-syntax-highlighter/releases)
+- [Changelog](https://github.com/react-syntax-highlighter/react-syntax-highlighter/blob/master/CHANGELOG.MD)
+- [Commits](https://github.com/react-syntax-highlighter/react-syntax-highlighter/compare/15.5.0...v15.6.1)
+
+---
+updated-dependencies:
+- dependency-name: react-syntax-highlighter
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b5123e7cd133937460befa371024e400b39b0afa,2024-10-09 22:50:15,dependabot[bot],"chore(deps-dev): bump globals from 15.10.0 to 15.11.0 (#1344)
+
+Bumps [globals](https://github.com/sindresorhus/globals) from 15.10.0 to 15.11.0.
+- [Release notes](https://github.com/sindresorhus/globals/releases)
+- [Commits](https://github.com/sindresorhus/globals/compare/v15.10.0...v15.11.0)
+
+---
+updated-dependencies:
+- dependency-name: globals
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0649e182bbe1ff17f801f585372bd8f813d6eef3,2024-10-08 01:12:56,Seth Bertalotto,chore: upgrade to docusaurus@v3 (#1343),False
+b45311102321cf6e9231486391cee0a8b15fb49b,2024-10-07 23:22:34,Seth Bertalotto,chore: rename to main (#1342),False
+18831f0ad629fcbaac2695986889fdab1c2fb802,2024-10-07 23:10:18,Seth Bertalotto,chore: upgrade to eslint@v9 (#1341),False
+1415a4b0d6e889431d6af6402275a70e9bdfbf79,2024-10-02 23:32:58,dependabot[bot],"chore(deps): bump serve-static and express in /site (#1327)
+
+Bumps [serve-static](https://github.com/expressjs/serve-static) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `serve-static` from 1.15.0 to 1.16.2
+- [Release notes](https://github.com/expressjs/serve-static/releases)
+- [Changelog](https://github.com/expressjs/serve-static/blob/v1.16.2/HISTORY.md)
+- [Commits](https://github.com/expressjs/serve-static/compare/v1.15.0...v1.16.2)
+
+Updates `express` from 4.19.2 to 4.21.0
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.0/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.0)
+
+---
+updated-dependencies:
+- dependency-name: serve-static
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+38faa19aceaf40f2c1939b4e4b513afe0969fdf3,2024-10-02 23:32:47,dependabot[bot],"chore(deps): bump body-parser and express in /site (#1328)
+
+Bumps [body-parser](https://github.com/expressjs/body-parser) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `body-parser` from 1.20.2 to 1.20.3
+- [Release notes](https://github.com/expressjs/body-parser/releases)
+- [Changelog](https://github.com/expressjs/body-parser/blob/master/HISTORY.md)
+- [Commits](https://github.com/expressjs/body-parser/compare/1.20.2...1.20.3)
+
+Updates `express` from 4.19.2 to 4.21.0
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.0/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.0)
+
+---
+updated-dependencies:
+- dependency-name: body-parser
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ad8dfe498cdb50de0ffc835ebe2e1b7af559bc9d,2024-10-02 23:32:37,dependabot[bot],"chore(deps): bump send and express in /site (#1330)
+
+Bumps [send](https://github.com/pillarjs/send) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `send` from 0.18.0 to 0.19.0
+- [Release notes](https://github.com/pillarjs/send/releases)
+- [Changelog](https://github.com/pillarjs/send/blob/master/HISTORY.md)
+- [Commits](https://github.com/pillarjs/send/compare/0.18.0...0.19.0)
+
+Updates `express` from 4.19.2 to 4.21.0
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.0/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.19.2...4.21.0)
+
+---
+updated-dependencies:
+- dependency-name: send
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c4ada584d020a88d63c798b4fcc1fa9355b7bd68,2024-10-02 23:32:22,dependabot[bot],"chore(deps): bump webpack from 5.94.0 to 5.95.0 in /site (#1334)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.94.0 to 5.95.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.94.0...v5.95.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ff8f049f402e89330ebafd00193da81120e47d2e,2024-10-02 23:32:11,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.36.1 to 7.37.1 (#1335)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.36.1 to 7.37.1.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.36.1...v7.37.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c634135551f2fb428cf7bda3d309f90ba677f07b,2024-09-16 21:39:48,dependabot[bot],"chore(deps-dev): bump husky from 9.1.5 to 9.1.6 (#1323)
+
+Bumps [husky](https://github.com/typicode/husky) from 9.1.5 to 9.1.6.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v9.1.5...v9.1.6)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b8bf561d256035ad679ea00f76f3fe1cc1d1296e,2024-09-16 21:39:39,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.45 to 8.4.47 (#1326)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.45 to 8.4.47.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.45...8.4.47)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+daea2b98b6698ab9129309b660fdcaf0f9c79b30,2024-09-16 21:39:16,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.35.2 to 7.36.1 (#1325)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.35.2 to 7.36.1.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.35.2...v7.36.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a96d16456319173d0067432a36edfb8a136143b5,2024-09-05 22:16:43,dependabot[bot],"chore(deps): bump webpack from 5.92.1 to 5.94.0 in /site (#1314)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.92.1 to 5.94.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.92.1...v5.94.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c215c4ff402d37bfe3fa9e423c77173c1a28dc1c,2024-09-05 22:16:27,dependabot[bot],"chore(deps-dev): bump husky from 9.1.2 to 9.1.5 (#1312)
+
+Bumps [husky](https://github.com/typicode/husky) from 9.1.2 to 9.1.5.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v9.1.2...v9.1.5)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+129dd7cfae50472fd2b9a4817c433a026c3801ff,2024-09-05 22:16:01,dependabot[bot],"chore(deps): bump micromatch from 4.0.5 to 4.0.8 in /site (#1315)
+
+Bumps [micromatch](https://github.com/micromatch/micromatch) from 4.0.5 to 4.0.8.
+- [Release notes](https://github.com/micromatch/micromatch/releases)
+- [Changelog](https://github.com/micromatch/micromatch/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/micromatch/micromatch/compare/4.0.5...4.0.8)
+
+---
+updated-dependencies:
+- dependency-name: micromatch
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+98ee354e722b4db21f98ffaac0fd8892b3766451,2024-09-05 22:15:49,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.35.0 to 7.35.2 (#1319)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.35.0 to 7.35.2.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.35.0...v7.35.2)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+af33829b27e93b962c13e3748dd7c713d20368c0,2024-09-05 22:15:38,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.40 to 8.4.45 (#1320)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.40 to 8.4.45.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.40...8.4.45)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d84b69940b41d0cbdbc5357bc4eba286e16578e3,2024-07-27 00:40:34,dependabot[bot],"chore(deps-dev): bump husky from 9.1.1 to 9.1.2 (#1304)
+
+Bumps [husky](https://github.com/typicode/husky) from 9.1.1 to 9.1.2.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v9.1.1...v9.1.2)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5c836e52d3d95f9ef8961df89f1371d295b13f0e,2024-07-25 22:04:26,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.39 to 8.4.40 (#1303)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.39 to 8.4.40.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.39...8.4.40)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+055954d55e948393cfdace43dab38df6a0accde1,2024-07-22 21:47:30,dependabot[bot],"chore(deps-dev): bump grunt-cli from 1.4.3 to 1.5.0 (#1301)
+
+Bumps [grunt-cli](https://github.com/gruntjs/grunt-cli) from 1.4.3 to 1.5.0.
+- [Release notes](https://github.com/gruntjs/grunt-cli/releases)
+- [Changelog](https://github.com/gruntjs/grunt-cli/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/gruntjs/grunt-cli/compare/v1.4.3...v1.5.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-cli
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+60e6b06b24dc7fbc5514afde722697ccc5a3a448,2024-07-22 21:47:03,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.34.4 to 7.35.0 (#1302)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.34.4 to 7.35.0.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.34.4...v7.35.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+eb5482684039cbc5a48e4f1ba6830bd0ef052dee,2024-07-19 23:14:28,dependabot[bot],"chore(deps-dev): bump husky from 9.0.11 to 9.1.1 (#1300)
+
+Bumps [husky](https://github.com/typicode/husky) from 9.0.11 to 9.1.1.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v9.0.11...v9.1.1)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0c85f65abf2f7d66f81ac8d991fcb5d90ac9e671,2024-07-15 22:23:11,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.34.3 to 7.34.4 (#1298)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.34.3 to 7.34.4.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.34.3...v7.34.4)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5bcc8f4cb87b394925ec1c08332a4824d6df4d3d,2024-07-01 21:12:00,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.38 to 8.4.39 (#1295)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.38 to 8.4.39.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.38...8.4.39)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7aeed9e64cf29a78fc6d5684fa1c3b4ce7b797c2,2024-06-21 01:09:41,dependabot[bot],"chore(deps): bump braces from 3.0.2 to 3.0.3 in /site (#1283)
+
+Bumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.
+- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)
+
+---
+updated-dependencies:
+- dependency-name: braces
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a217a1060a5f6a7d94d9c63b94b7f201234a42c3,2024-06-21 01:09:07,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.34.1 to 7.34.3 (#1287)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.34.1 to 7.34.3.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.34.1...v7.34.3)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2a0f724ee95e8e71a803c8b4a390bee8d459f3b1,2024-06-21 01:08:55,dependabot[bot],"chore(deps-dev): bump braces from 3.0.2 to 3.0.3 (#1288)
+
+Bumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.
+- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)
+
+---
+updated-dependencies:
+- dependency-name: braces
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+75567cf17c34416579a335bab889736aeb044878,2024-06-21 01:08:43,dependabot[bot],"chore(deps): bump webpack from 5.91.0 to 5.92.1 in /site (#1289)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.91.0 to 5.92.1.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.91.0...v5.92.1)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9782a243cad7432a8975ac5f0bb6ab29b82e98b0,2024-05-19 18:58:08,Seth Bertalotto,docs: fix composer install command,False
+6ef32a0e44560781287aaab70f4cf3bdb51da87c,2024-04-02 03:14:11,dependabot[bot],"chore(deps-dev): bump husky from 8.0.3 to 9.0.11 (#1251)
+
+Bumps [husky](https://github.com/typicode/husky) from 8.0.3 to 9.0.11.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v8.0.3...v9.0.11)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cd881358852b9f83cfdddf27eb0d3e7d53b734f6,2024-04-02 03:13:47,dependabot[bot],"chore(deps-dev): bump eslint from 8.52.0 to 8.57.0 (#1253)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.52.0 to 8.57.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.52.0...v8.57.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4dc933fdd5ea988a182b83b2be24f924b250c854,2024-04-02 03:12:27,dependabot[bot],"chore(deps): bump follow-redirects from 1.15.4 to 1.15.6 in /site (#1260)
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.4 to 1.15.6.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.4...v1.15.6)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e4c6789fbfdca2e11bbcd24f7898f6ceb22ec86d,2024-04-02 03:12:16,dependabot[bot],"chore(deps): bump js-beautify from 1.14.9 to 1.15.1 in /site (#1255)
+
+Bumps [js-beautify](https://github.com/beautifier/js-beautify) from 1.14.9 to 1.15.1.
+- [Release notes](https://github.com/beautifier/js-beautify/releases)
+- [Changelog](https://github.com/beautifier/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautifier/js-beautify/compare/v1.14.9...v1.15.1)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0fdb2c6cb1231af6dbf0fc998a514b058ccc847d,2024-04-02 03:11:47,dependabot[bot],"chore(deps): bump webpack from 5.89.0 to 5.91.0 in /site (#1256)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.89.0 to 5.91.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.89.0...v5.91.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9b7a184aed014f05c49d2819c890f6f23a5cf56c,2024-04-02 03:11:11,dependabot[bot],"chore(deps): bump webpack-dev-middleware from 5.3.1 to 5.3.4 in /site (#1259)
+
+Bumps [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) from 5.3.1 to 5.3.4.
+- [Release notes](https://github.com/webpack/webpack-dev-middleware/releases)
+- [Changelog](https://github.com/webpack/webpack-dev-middleware/blob/v5.3.4/CHANGELOG.md)
+- [Commits](https://github.com/webpack/webpack-dev-middleware/compare/v5.3.1...v5.3.4)
+
+---
+updated-dependencies:
+- dependency-name: webpack-dev-middleware
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1bfc132afeee654d30b564cb810cfed4b5be8b15,2024-04-02 03:11:01,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.31 to 8.4.38 (#1252)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.31 to 8.4.38.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.31...8.4.38)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e597f0725593696745c047b51991e3388aa4d4df,2024-04-02 03:10:32,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.33.2 to 7.34.1 (#1250)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.33.2 to 7.34.1.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/v7.34.1/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.33.2...v7.34.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1822abb63285566a0d0266023cc01ac4ddb60a0c,2024-04-02 03:10:22,dependabot[bot],"chore(deps): bump express from 4.18.1 to 4.19.2 in /site (#1249)
+
+Bumps [express](https://github.com/expressjs/express) from 4.18.1 to 4.19.2.
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/master/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.18.1...4.19.2)
+
+---
+updated-dependencies:
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c7782e5d7deed0a04adc1a3ee324663cb2c781b3,2024-04-02 03:08:59,dependabot[bot],"chore(deps): bump follow-redirects from 1.14.8 to 1.15.4 in /site (#1241)
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.8 to 1.15.4.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.14.8...v1.15.4)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6b5c7892b03cf57ef1d36ae298e5134c19f646fd,2024-04-02 03:08:50,dependabot[bot],"chore(deps): bump classnames from 2.3.2 to 2.5.1 in /site (#1238)
+
+Bumps [classnames](https://github.com/JedWatson/classnames) from 2.3.2 to 2.5.1.
+- [Changelog](https://github.com/JedWatson/classnames/blob/main/HISTORY.md)
+- [Commits](https://github.com/JedWatson/classnames/compare/v2.3.2...v2.5.1)
+
+---
+updated-dependencies:
+- dependency-name: classnames
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+203b96487dd76486e84ebbe9c15f3c07962b9fcb,2023-10-23 18:36:18,dependabot[bot],chore(deps-dev): bump eslint from 8.51.0 to 8.52.0 (#1219),False
+04fe585cc4905b1c0369b488488f1b98af7ae431,2023-10-16 21:08:15,dependabot[bot],"chore(deps): bump @babel/traverse from 7.18.10 to 7.23.2 in /site (#1217)
+
+Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.10 to 7.23.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/traverse""
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f2c6330dda8a3a25ea6f6fcdba5b77ecf2c7c4ba,2023-10-16 20:14:03,dependabot[bot],chore(deps): bump webpack from 5.88.2 to 5.89.0 in /site (#1215),False
+c52cec9e08c9f1e6c6c922e50fae98a0548424a5,2023-10-10 19:53:43,dependabot[bot],chore(deps): bump the docusaurus group in /site with 4 updates (#1212),False
+393a11e9fb7f684bdc2ff3e1df442f854e11f1f3,2023-10-10 18:52:56,Seth Bertalotto,Update dependabot.yml,False
+30ac1c32143bfc187ab34fd66354677f797c90d1,2023-10-10 18:50:23,dependabot[bot],chore(deps): bump postcss from 8.4.18 to 8.4.31 in /site (#1203),False
+c0cf02c39b92a9c4c98e4576db3a1382a87329bb,2023-10-10 18:50:05,dependabot[bot],chore(deps-dev): bump eslint from 8.50.0 to 8.51.0 (#1208),False
+86db3d38570ea99d460412cfd8561e82dff1aa2e,2023-10-10 18:49:23,Seth Bertalotto,Update dependabot.yml,False
+a1a3e08cdc092fe110c9cf12e29e360c774ac03c,2023-10-02 23:41:29,dependabot[bot],"chore(deps-dev): bump eslint from 8.49.0 to 8.50.0 (#1195)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.49.0 to 8.50.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.49.0...v8.50.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+730f25f2f6af438e9adf18387ebf253549ec1d77,2023-10-02 23:41:13,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.30 to 8.4.31 (#1199)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.30 to 8.4.31.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.30...8.4.31)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+390e3b8cdbaf6a6fb359391c57303e23611a3ce0,2023-09-19 19:55:25,dependabot[bot],"chore(deps-dev): bump eslint from 8.48.0 to 8.49.0 (#1191)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.48.0 to 8.49.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.48.0...v8.49.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b5a96c692246706a63ccac02000bab2946197ad2,2023-09-19 19:55:06,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.29 to 8.4.30 (#1193)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.29 to 8.4.30.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.29...8.4.30)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f3bbac8f1a0531195d050a37e145358924f5bd1b,2023-08-31 02:31:49,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.33.1 to 7.33.2 (#1186)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.33.1 to 7.33.2.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.33.1...v7.33.2)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+95522959f393474823fafa9ced79ec9a1222ae49,2023-08-31 02:30:47,dependabot[bot],"chore(deps-dev): bump eslint from 8.46.0 to 8.48.0 (#1189)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.46.0 to 8.48.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.46.0...v8.48.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+711b560467f43bb6a08b5110684447cacdfb3a0d,2023-08-30 19:00:41,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.27 to 8.4.29 (#1190)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.27 to 8.4.29.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.27...8.4.29)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8415b17aac1fe3393642c51e373f033611ba1cb3,2023-07-31 19:56:22,dependabot[bot],"chore(deps-dev): bump eslint from 8.45.0 to 8.46.0 (#1182)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.45.0 to 8.46.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.45.0...v8.46.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+421f1e210f5f4676e8b3f801123cacd472bfc2fc,2023-07-31 19:56:09,dependabot[bot],"chore(deps-dev): bump tap from 16.3.7 to 16.3.8 (#1183)
+
+Bumps [tap](https://github.com/tapjs/node-tap) from 16.3.7 to 16.3.8.
+- [Release notes](https://github.com/tapjs/node-tap/releases)
+- [Commits](https://github.com/tapjs/node-tap/compare/v16.3.7...v16.3.8)
+
+---
+updated-dependencies:
+- dependency-name: tap
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+91cacdf4b4d8ea18a7df74c517d7498f75a0e6df,2023-07-31 19:55:53,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.33.0 to 7.33.1 (#1181)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.33.0 to 7.33.1.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.33.0...v7.33.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+029a3999ae94d710bee3b201d5cb2ee9d334ab41,2023-07-21 19:36:53,dependabot[bot],"chore(deps): bump semver from 5.7.1 to 5.7.2 in /site (#1174)
+
+Bumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.
+- [Release notes](https://github.com/npm/node-semver/releases)
+- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)
+- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)
+
+---
+updated-dependencies:
+- dependency-name: semver
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ce7bde57d8569bd9e3e21f5dea69e90c5d65b104,2023-07-21 19:35:26,dependabot[bot],"chore(deps): bump webpack from 5.88.1 to 5.88.2 in /site (#1177)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.88.1 to 5.88.2.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.88.1...v5.88.2)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+74402866d30253b54051683fccb3e93c843fbc2d,2023-07-21 19:35:06,dependabot[bot],"chore(deps): bump js-beautify from 1.14.8 to 1.14.9 in /site (#1178)
+
+Bumps [js-beautify](https://github.com/beautify-web/js-beautify) from 1.14.8 to 1.14.9.
+- [Release notes](https://github.com/beautify-web/js-beautify/releases)
+- [Changelog](https://github.com/beautify-web/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautify-web/js-beautify/compare/v1.14.8...v1.14.9)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2a8b9173a8500c44a6c790d6cb821099dc5c59c4,2023-07-21 19:34:53,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.25 to 8.4.27 (#1180)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.25 to 8.4.27.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.25...8.4.27)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2420c73fcc19e681dcea2941e920af5584ea5d97,2023-07-21 19:34:38,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.32.2 to 7.33.0 (#1179)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.32.2 to 7.33.0.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.32.2...v7.33.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+bef21b7b8cf79e03d270436b23b7cdce2e880c37,2023-07-17 20:24:25,dependabot[bot],"chore(deps-dev): bump eslint from 8.43.0 to 8.45.0 (#1176)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.43.0 to 8.45.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.43.0...v8.45.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+63fdd1fdf5f4386e60a3b4735f1e2fb73f46c105,2023-07-06 19:55:16,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.24 to 8.4.25 (#1173)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.24 to 8.4.25.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.24...8.4.25)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5cc617d2764f172f8ed2fab69efa250750ec4252,2023-07-01 10:24:29,dependabot[bot],"chore(deps): bump webpack from 5.88.0 to 5.88.1 in /site (#1171)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.88.0 to 5.88.1.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.88.0...v5.88.1)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+38dbfc15e65ecd2bfccc4e800ce7e65ae7ab18d3,2023-06-23 19:18:07,dependabot[bot],"chore(deps-dev): bump tap from 16.3.6 to 16.3.7 (#1169)
+
+Bumps [tap](https://github.com/tapjs/node-tap) from 16.3.6 to 16.3.7.
+- [Release notes](https://github.com/tapjs/node-tap/releases)
+- [Commits](https://github.com/tapjs/node-tap/compare/v16.3.6...v16.3.7)
+
+---
+updated-dependencies:
+- dependency-name: tap
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e92b1f0477e34bcd0cd29b268f28dace709e8a69,2023-06-23 19:17:52,dependabot[bot],"chore(deps): bump webpack from 5.87.0 to 5.88.0 in /site (#1170)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.87.0 to 5.88.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.87.0...v5.88.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+226f69e2ed32d0e7cc55f1c65a879530f318ac48,2023-06-19 18:36:21,dependabot[bot],"chore(deps-dev): bump eslint from 8.42.0 to 8.43.0 (#1168)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.42.0 to 8.43.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.42.0...v8.43.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4c8e8c91d923a6e6cfef6c793e11b6e98ab6d254,2023-06-17 02:23:23,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic from 2.4.0 to 2.4.1 in /site (#1154)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.4.0 to 2.4.1.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.4.1/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6481eeb1813fa47aea386f092d01310f63f26137,2023-06-17 02:16:24,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#1153)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.4.0 to 2.4.1.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.4.1/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f04341d33903d2d97143e19a96806b42dc67b026,2023-06-17 02:09:10,dependabot[bot],"chore(deps-dev): bump grunt-contrib-cssmin from 4.0.0 to 5.0.0 (#1148)
+
+Bumps [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) from 4.0.0 to 5.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-cssmin/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-cssmin/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-cssmin/compare/v4.0.0...v5.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-cssmin
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+58a1e29d2b8e708429cefbc0460a89d85c5b0f89,2023-06-17 02:08:53,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1156)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.4.0 to 2.4.1.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.4.1/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+51ec92392d19504c903bfb9730766135f22e4fd3,2023-06-17 02:08:43,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.23 to 8.4.24 (#1161)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.23 to 8.4.24.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.23...8.4.24)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5fca3f87a722b5135a1a535f73631c2152e82fe0,2023-06-17 02:08:12,dependabot[bot],"chore(deps): bump js-beautify from 1.14.7 to 1.14.8 in /site (#1163)
+
+Bumps [js-beautify](https://github.com/beautify-web/js-beautify) from 1.14.7 to 1.14.8.
+- [Release notes](https://github.com/beautify-web/js-beautify/releases)
+- [Changelog](https://github.com/beautify-web/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautify-web/js-beautify/compare/v1.14.7...v1.14.8)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b32a71845e60bb767c41a1a72d78cab4fb53ea65,2023-06-17 02:07:59,dependabot[bot],"chore(deps-dev): bump eslint from 8.40.0 to 8.42.0 (#1165)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.40.0 to 8.42.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.40.0...v8.42.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+86dee7cc479fdf079071641a52927902665e76f5,2023-06-17 02:05:58,dependabot[bot],"chore(deps-dev): bump tap from 16.3.4 to 16.3.6 (#1164)
+
+Bumps [tap](https://github.com/tapjs/node-tap) from 16.3.4 to 16.3.6.
+- [Release notes](https://github.com/tapjs/node-tap/releases)
+- [Commits](https://github.com/tapjs/node-tap/compare/v16.3.4...v16.3.6)
+
+---
+updated-dependencies:
+- dependency-name: tap
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a743b7c0537507428a1bca29f70408660d27234f,2023-06-17 02:04:36,dependabot[bot],"chore(deps): bump webpack from 5.80.0 to 5.87.0 in /site (#1167)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.80.0 to 5.87.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.80.0...v5.87.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cb24c4bf4d932109d4d01a419e8db6273843c0f0,2023-05-08 18:28:19,dependabot[bot],"chore(deps-dev): bump eslint from 8.39.0 to 8.40.0 (#1150)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.39.0 to 8.40.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.39.0...v8.40.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b1adf4a29b264afcb103a13dd94cc10b80c8d27e,2023-04-24 18:33:36,dependabot[bot],"chore(deps): bump webpack from 5.79.0 to 5.80.0 in /site (#1145)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.79.0 to 5.80.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.79.0...v5.80.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2919bff9e13a69df4518510a07aad9fc46d08a02,2023-04-24 18:33:21,dependabot[bot],"chore(deps-dev): bump eslint from 8.38.0 to 8.39.0 (#1146)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.38.0 to 8.39.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.38.0...v8.39.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b51aaa60979a7ba61133958777a7e40153f64556,2023-04-20 19:55:33,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.21 to 8.4.23 (#1144)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.21 to 8.4.23.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.21...8.4.23)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9eb95d96b6b3ba71c806bda713da42a6e42ef62a,2023-04-13 21:55:44,dependabot[bot],"chore(deps-dev): bump eslint from 8.37.0 to 8.38.0 (#1139)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.37.0 to 8.38.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.37.0...v8.38.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+abc60e098eddefa7ff6976e8fc12100de3392978,2023-04-13 21:55:32,dependabot[bot],"chore(deps): bump webpack from 5.77.0 to 5.79.0 in /site (#1140)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.77.0 to 5.79.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.77.0...v5.79.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3ddb7ab3af8fd1e8a5e296961fc836efa2d0dbc5,2023-03-31 19:23:59,dependabot[bot],"chore(deps): bump webpack from 5.76.3 to 5.77.0 in /site (#1136)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.76.3 to 5.77.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.76.3...v5.77.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+435e09be99de1eb2b1d119cea460c46b4050d3d1,2023-03-29 20:18:10,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic from 2.3.1 to 2.4.0 in /site (#1133)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.3.1 to 2.4.0.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.4.0/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b05cd1e1f5942ccdf8985e554962599bc5239a0d,2023-03-29 19:46:21,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#1132)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.3.1 to 2.4.0.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.4.0/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+efba4973e499582971f334d0366284444c5d31c4,2023-03-29 18:40:42,dependabot[bot],"chore(deps): bump @docusaurus/core from 2.3.1 to 2.4.0 in /site (#1135)
+
+Bumps [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus) from 2.3.1 to 2.4.0.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.4.0/packages/docusaurus)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+811cbedb1d9de7a061e824b6cac4d7f8b188069d,2023-03-29 18:36:21,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1130)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.3.1 to 2.4.0.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.4.0/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+859a860fa2427458170a12991b2bcf58d1b86880,2023-03-29 18:36:00,dependabot[bot],"chore(deps): bump webpack from 5.75.0 to 5.76.3 in /site (#1131)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.75.0 to 5.76.3.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.75.0...v5.76.3)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5570dc1dea6bb2afde54f0168736f2ec41f15356,2023-03-29 18:35:44,dependabot[bot],"chore(deps): bump dns-packet from 5.3.1 to 5.4.0 in /site (#1126)
+
+Bumps [dns-packet](https://github.com/mafintosh/dns-packet) from 5.3.1 to 5.4.0.
+- [Release notes](https://github.com/mafintosh/dns-packet/releases)
+- [Changelog](https://github.com/mafintosh/dns-packet/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/mafintosh/dns-packet/compare/v5.3.1...5.4.0)
+
+---
+updated-dependencies:
+- dependency-name: dns-packet
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d5f0dafcdc5377b5628dc4081183bd0dfbb04273,2023-03-29 18:35:27,dependabot[bot],"chore(deps-dev): bump eslint from 8.35.0 to 8.37.0 (#1134)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.35.0 to 8.37.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.35.0...v8.37.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3228e4d239a052a1b09d2379486f12835b9f3ade,2023-02-27 19:47:44,dependabot[bot],"chore(deps-dev): bump eslint from 8.34.0 to 8.35.0 (#1125)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.34.0 to 8.35.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.34.0...v8.35.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+44557348cd7be9deab1b847f1a518dff17e98bf6,2023-02-13 23:21:41,dependabot[bot],"chore(deps-dev): bump eslint from 8.33.0 to 8.34.0 (#1124)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.33.0 to 8.34.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.33.0...v8.34.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+eb58de648a23f72bb839bb2f7b1a6c50c221a035,2023-02-10 00:34:20,dependabot[bot],"chore(deps): bump @sideway/formula from 3.0.0 to 3.0.1 in /site (#1123)
+
+Bumps [@sideway/formula](https://github.com/sideway/formula) from 3.0.0 to 3.0.1.
+- [Release notes](https://github.com/sideway/formula/releases)
+- [Commits](https://github.com/sideway/formula/compare/v3.0.0...v3.0.1)
+
+---
+updated-dependencies:
+- dependency-name: ""@sideway/formula""
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+51d30ba646120aa6602faa0987b5c8c112def27b,2023-02-07 22:12:04,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1121)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.3.0 to 2.3.1.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.3.1/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cc4d93d526fe2d0ea15fd0a76fe2ff52cd5d454c,2023-02-06 20:20:49,dependabot[bot],"chore(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 in /site (#1118)
+
+Bumps [http-cache-semantics](https://github.com/kornelski/http-cache-semantics) from 4.1.0 to 4.1.1.
+- [Release notes](https://github.com/kornelski/http-cache-semantics/releases)
+- [Commits](https://github.com/kornelski/http-cache-semantics/compare/v4.1.0...v4.1.1)
+
+---
+updated-dependencies:
+- dependency-name: http-cache-semantics
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+780dc6cc246301f7325829463f0671e822e8d6d6,2023-02-06 20:20:33,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic from 2.3.0 to 2.3.1 in /site (#1120)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.3.0 to 2.3.1.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.3.1/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+52bdffe1122f6ef3783f52c90c8ff37371a57c87,2023-02-06 20:09:38,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#1119)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.3.0 to 2.3.1.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.3.1/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+580c3f66e113c4bd8fee66cb5975b1a26c2d84cb,2023-02-01 20:36:42,dependabot[bot],"chore(deps-dev): bump grunt from 1.6.0 to 1.6.1 (#1117)
+
+Bumps [grunt](https://github.com/gruntjs/grunt) from 1.6.0 to 1.6.1.
+- [Release notes](https://github.com/gruntjs/grunt/releases)
+- [Changelog](https://github.com/gruntjs/grunt/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt/compare/v1.6.0...v1.6.1)
+
+---
+updated-dependencies:
+- dependency-name: grunt
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b335f8347491c142f5b2ad921bf07d43b016d377,2023-01-31 00:30:37,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1116)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.2.0 to 2.3.0.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.3.0/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3ed887a95b684eeaa3cf55f05bb4fad0aee7518a,2023-01-31 00:28:49,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic from 2.2.0 to 2.3.0 in /site (#1114)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.2.0 to 2.3.0.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.3.0/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b0c83295bbe6e5b63258022799f558ad7929a43e,2023-01-31 00:28:27,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.32.1 to 7.32.2 (#1113)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.32.1 to 7.32.2.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.32.1...v7.32.2)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ecb87b75e743229a71868d592508c2cf5aeed6a7,2023-01-31 00:28:16,dependabot[bot],"chore(deps-dev): bump grunt from 1.5.3 to 1.6.0 (#1112)
+
+Bumps [grunt](https://github.com/gruntjs/grunt) from 1.5.3 to 1.6.0.
+- [Release notes](https://github.com/gruntjs/grunt/releases)
+- [Changelog](https://github.com/gruntjs/grunt/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt/compare/v1.5.3...v1.6.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f2be94d06a361f6237969385a342babb9a82d375,2023-01-31 00:27:57,dependabot[bot],"chore(deps-dev): bump eslint from 8.32.0 to 8.33.0 (#1111)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.32.0 to 8.33.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.32.0...v8.33.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b7889665c024b14c2f9cb79ef1158979c5989a63,2023-01-22 20:21:32,Seth Bertalotto,chore: add contributing text in PR template,False
+95f08788b0b92ff8a82d3ddf85a825aa89a833f9,2023-01-22 11:17:41,Mike Casebolt,fix typo and comment whitespace (#1109),False
+2f5a85f2acdd6f5d6f02ef64ded183ac26e2a177,2023-01-17 19:26:48,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.32.0 to 7.32.1 (#1108)
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.32.0 to 7.32.1.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.32.0...v7.32.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5e93c0bc9917910d354e6c3074f34ea5fd038f0d,2023-01-16 20:08:21,dependabot[bot],"chore(deps-dev): bump tap from 16.3.3 to 16.3.4 (#1107)
+
+Bumps [tap](https://github.com/tapjs/node-tap) from 16.3.3 to 16.3.4.
+- [Release notes](https://github.com/tapjs/node-tap/releases)
+- [Commits](https://github.com/tapjs/node-tap/compare/v16.3.3...v16.3.4)
+
+---
+updated-dependencies:
+- dependency-name: tap
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+31d0dfc825ce988aeb048eb3c8a02f4ac202b60c,2023-01-16 20:07:53,dependabot[bot],"chore(deps-dev): bump eslint from 8.31.0 to 8.32.0 (#1106)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.31.0 to 8.32.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.31.0...v8.32.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ee42147f4ed0c179da08c44fffeec5038a9cadf4,2023-01-11 20:54:23,dependabot[bot],chore(deps-dev): bump tap from 16.3.2 to 16.3.3 (#1104),False
+71379e43d8534a9e990448b56e76ce886e799cca,2023-01-11 20:51:11,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.31.11 to 7.32.0 (#1105),False
+ba6c9774425a4ba867e72a880310989b9e44c54b,2023-01-09 20:52:23,dependabot[bot],chore(deps-dev): bump postcss from 8.4.20 to 8.4.21 (#1103),False
+ae7abbf13edd0f1e11e98df7de60ea935e0e2166,2023-01-09 07:55:54,dependabot[bot],"chore(deps): bump json5 from 2.2.1 to 2.2.3 in /site (#1100)
+
+Bumps [json5](https://github.com/json5/json5) from 2.2.1 to 2.2.3.
+- [Release notes](https://github.com/json5/json5/releases)
+- [Changelog](https://github.com/json5/json5/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/json5/json5/compare/v2.2.1...v2.2.3)
+
+---
+updated-dependencies:
+- dependency-name: json5
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2b519b4ceb7d75282b2aa8df00eb790376ab2825,2023-01-06 20:51:45,dependabot[bot],"chore(deps): bump qs from 6.9.3 to 6.11.0 (#1096)
+
+Bumps [qs](https://github.com/ljharb/qs) from 6.9.3 to 6.11.0.
+- [Release notes](https://github.com/ljharb/qs/releases)
+- [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ljharb/qs/compare/v6.9.3...v6.11.0)
+
+---
+updated-dependencies:
+- dependency-name: qs
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+953de42470e2128db89ae1bd0384e6fd7ec2191a,2023-01-05 05:30:41,dependabot[bot],"chore(deps): bump json5 (#1101)
+
+Bumps [json5](https://github.com/json5/json5) and [json5](https://github.com/json5/json5). These dependencies needed to be updated together.
+
+Updates `json5` from 2.2.1 to 2.2.3
+- [Release notes](https://github.com/json5/json5/releases)
+- [Changelog](https://github.com/json5/json5/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/json5/json5/compare/v2.2.1...v2.2.3)
+
+Updates `json5` from 2.2.0 to 2.2.3
+- [Release notes](https://github.com/json5/json5/releases)
+- [Changelog](https://github.com/json5/json5/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/json5/json5/compare/v2.2.1...v2.2.3)
+
+---
+updated-dependencies:
+- dependency-name: json5
+  dependency-type: indirect
+- dependency-name: json5
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+93773ccec7b18135b430b9e3f591c93d674ff829,2023-01-03 20:29:52,dependabot[bot],chore(deps-dev): bump husky from 8.0.2 to 8.0.3 (#1102),False
+4642bebfef765a0275cc0f812913410060386c71,2023-01-02 20:14:06,dependabot[bot],chore(deps-dev): bump eslint from 8.30.0 to 8.31.0 (#1099),False
+67b7f2253ff24bb39775f62e39852ef6ee7bc601,2022-12-19 20:47:41,dependabot[bot],chore(deps-dev): bump eslint from 8.29.0 to 8.30.0 (#1098),False
+8956ee5db93b382ab0a5cd8c237269817d5a02ce,2022-12-12 23:44:15,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.19 to 8.4.20 (#1097)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.19 to 8.4.20.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.19...8.4.20)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5c90c3cb8ce905d8c70a50e3179b62fcb2a2cb16,2022-12-05 20:06:28,dependabot[bot],"chore(deps): bump minimatch, recursive-readdir and serve-handler (#1095)",False
+8c8eff64fc9b213c714f606f5a5d51ce978f8bb7,2022-12-05 20:05:02,dependabot[bot],chore(deps-dev): bump postcss from 8.4.18 to 8.4.19 (#1085),False
+71b3589707cd0deb35c4b776ed28919bcb0f93f7,2022-12-05 20:04:46,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.31.10 to 7.31.11 (#1091),False
+450187f756faa687753f1ec07af5037cd87fba0f,2022-12-05 20:04:21,dependabot[bot],chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 (#1093),False
+60d14c34e1d05956d880e01b8257ab5276fb448d,2022-12-05 20:04:08,dependabot[bot],chore(deps): bump minimatch from 3.0.4 to 3.0.8 (#1094),False
+0854e0857cc8c97bd8236e1c6f6a834156d19ef5,2022-12-05 20:03:47,dependabot[bot],chore(deps): bump loader-utils from 2.0.2 to 2.0.4 in /site (#1088),False
+47901e09987a8ec8e5175eaaa801d89c4258e541,2022-12-05 20:03:25,dependabot[bot],chore(deps): bump webpack from 5.74.0 to 5.75.0 in /site (#1084),False
+219b62223a4fec1c565ccb86af9e79619e904f39,2022-12-05 20:02:45,dependabot[bot],chore(deps-dev): bump tap from 16.3.0 to 16.3.2 (#1089),False
+4cbd16005c804e001c3f012eb714424a6d243485,2022-12-05 20:02:21,dependabot[bot],chore(deps-dev): bump eslint from 8.27.0 to 8.29.0 (#1092),False
+bda1846b426f8a9b54ad39482f902873b6914abf,2022-11-08 19:54:27,dependabot[bot],chore(deps-dev): bump husky from 8.0.1 to 8.0.2 (#1082),False
+64547658a078359c8c750740a4e09463aafe0391,2022-11-08 19:54:11,dependabot[bot],chore(deps-dev): bump eslint from 8.26.0 to 8.27.0 (#1081),False
+0b633bff1924698b9a0d8c4b4c24f6d76af8e5ed,2022-11-01 19:52:57,dependabot[bot],chore(deps): bump @docusaurus/theme-classic from 2.1.0 to 2.2.0 in /site (#1078),False
+9aed59de9b4e8a671b5b3132615d468d3baee995,2022-11-01 18:53:04,dependabot[bot],chore(deps): bump @docusaurus/core from 2.1.0 to 2.2.0 in /site (#1077),False
+8d762307c682dbdfb9cf9e32b0ee97b961f825fb,2022-11-01 18:44:59,dependabot[bot],chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1080),False
+12eaf8e53fb1c2e41b7218a0edff44c816daf81e,2022-10-27 00:15:49,redonkulus,chore: update site to 3.x,False
+524b998c9b8c609f397b28988ef24c4ced898bd4,2022-10-27 00:13:36,redonkulus,chore: release 3.0.0,False
+74eaf8d9ae0d7e5d6e1bbd57de242ca94cbc7ae4,2022-10-27 00:05:24,redonkulus,docs: remove old browser checks,False
+91ad930165270ce8b6f2a3b5b94c10da394942a2,2022-10-27 00:04:51,redonkulus,feat: update browserslist to > 1%,False
+e5b0a01b90487dde9da3ebe58223491eb47c73b8,2022-10-26 23:59:07,redonkulus,chore: clean up IE css references,False
+6084e902e7045ea778f14becca3f694105aab344,2022-10-26 23:55:20,Nils K,feat: remove font family hack (#1074),False
+c9bfd5f3062820f2a154650cb04464b4514f1882,2022-10-26 00:28:43,dependabot[bot],"chore(deps): bump js-beautify from 1.14.6 to 1.14.7 in /site (#1076)
+
+Bumps [js-beautify](https://github.com/beautify-web/js-beautify) from 1.14.6 to 1.14.7.
+- [Release notes](https://github.com/beautify-web/js-beautify/releases)
+- [Changelog](https://github.com/beautify-web/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautify-web/js-beautify/compare/v1.14.6...v1.14.7)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+30cd0ff26d3a6e3b52a4153c29ef439522b89112,2022-10-24 19:14:04,dependabot[bot],chore(deps-dev): bump eslint from 8.25.0 to 8.26.0 (#1075),False
+ec011b9a0d0e37cfacd9b3a584e02232415ceff2,2022-10-20 00:50:33,redonkulus,site: update to purecss@2.2.0,False
+4bdbeb87f45c452fa4cc3d94f14a39f79fd47e64,2022-10-20 00:33:17,redonkulus,2.2.0,False
+146c3e8c36db589aa996e02df93b479f441d759b,2022-10-20 00:33:12,redonkulus,doc: update history,False
+c5bf7b5f1c1dd583236dd9dac80ba02ca1aff455,2022-10-20 00:15:49,redonkulus,chore: update eslint-plugin-react,False
+a42d226c4b63fe12adccb2a841cbf5102a853eca,2022-10-19 23:58:59,ahron1,feat: added media queries for 2.5K and 4K screens (#1065),False
+ae407d3070385173d09185ad00ededbb06a994ee,2022-10-15 02:48:40,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.17 to 8.4.18 (#1073)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.17 to 8.4.18.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.17...8.4.18)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b7b55f450b051e584b75af19f43b3fdb31df89d3,2022-10-10 20:22:55,dependabot[bot],chore(deps-dev): bump eslint from 8.24.0 to 8.25.0 (#1071),False
+f4361e85eb9f5503623419e0d7d8164150c3eac2,2022-09-30 18:21:22,dependabot[bot],chore(deps-dev): bump postcss from 8.4.16 to 8.4.17 (#1069),False
+ce0618ba50ca4d42c458205a555eb650cba73035,2022-09-29 21:34:49,dependabot[bot],"chore(deps-dev): bump eslint from 8.23.1 to 8.24.0 (#1066)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.23.1 to 8.24.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.23.1...v8.24.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1ef3ebd3542d896deea4af40d32e1f838415886b,2022-09-23 03:00:46,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1057)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.0.1 to 2.1.0.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.1.0/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+11cf7773e365eff4330a0918d66ba3d1fc987e06,2022-09-23 03:00:35,dependabot[bot],"chore(deps-dev): bump postcss from 8.4.8 to 8.4.16 (#1045)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 8.4.8 to 8.4.16.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/8.4.8...8.4.16)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5a1d13b0f1b74778f4bfac7196a15cf3c962388e,2022-09-23 03:00:13,dependabot[bot],"chore(deps): bump classnames from 2.3.1 to 2.3.2 in /site (#1061)
+
+Bumps [classnames](https://github.com/JedWatson/classnames) from 2.3.1 to 2.3.2.
+- [Release notes](https://github.com/JedWatson/classnames/releases)
+- [Changelog](https://github.com/JedWatson/classnames/blob/main/HISTORY.md)
+- [Commits](https://github.com/JedWatson/classnames/compare/v2.3.1...v2.3.2)
+
+---
+updated-dependencies:
+- dependency-name: classnames
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+df5378dd928ab72982b458062a0856056a6d3c49,2022-09-12 18:10:23,dependabot[bot],chore(deps-dev): bump eslint from 8.23.0 to 8.23.1 (#1059),False
+584e1664aee5b146965b2b4219bf772ce75f2086,2022-09-02 18:50:09,dependabot[bot],chore(deps): bump @docusaurus/theme-classic from 2.0.1 to 2.1.0 in /site (#1053),False
+6e1b966dc3a7c750dbd2ffd4eff467005a485753,2022-09-02 18:46:19,dependabot[bot],chore(deps): bump @docusaurus/core from 2.0.1 to 2.1.0 in /site (#1052),False
+bec8bc725cb998f2c0b0f5ff487cadc0fc85d013,2022-08-29 19:30:48,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.31.0 to 7.31.1 (#1051),False
+6ded6bf5fe1cac5369c445ef2f2cce769911d0bd,2022-08-29 19:30:33,dependabot[bot],chore(deps-dev): bump eslint from 8.22.0 to 8.23.0 (#1050),False
+532f228b65b78660d86f6327ac0a28b0773349aa,2022-08-25 18:48:53,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.30.1 to 7.31.0 (#1049),False
+c6258b05e8c025807f71cddaa4d392969afd80f5,2022-08-23 00:01:44,dependabot[bot],"chore(deps): bump js-beautify from 1.14.4 to 1.14.6 in /site (#1048)
+
+Bumps [js-beautify](https://github.com/beautify-web/js-beautify) from 1.14.4 to 1.14.6.
+- [Release notes](https://github.com/beautify-web/js-beautify/releases)
+- [Changelog](https://github.com/beautify-web/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautify-web/js-beautify/compare/v1.14.4...v1.14.6)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ad452feee4bb16fc5bfea76f08b4d41d38b0b2da,2022-08-15 19:11:42,dependabot[bot],chore(deps-dev): bump eslint from 8.21.0 to 8.22.0 (#1047),False
+bf2bf232ec0d9b63be45297b9dc2904d0ec7ac7a,2022-08-04 18:55:40,dependabot[bot],chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1043),False
+872a5381d8c7a30d8ce96899f38e985a68533c18,2022-08-03 18:56:10,dependabot[bot],chore(deps): bump @docusaurus/theme-classic in /site (#1040),False
+2e0fc685aea4a89e8df607e560eb95cc7f342f24,2022-08-03 18:53:50,dependabot[bot],chore(deps): bump @docusaurus/core from 2.0.0-rc.1 to 2.0.1 in /site (#1041),False
+d835293ed5479ede194399a693a940ab58b56171,2022-08-03 18:39:37,dependabot[bot],chore(deps-dev): bump eslint from 8.20.0 to 8.21.0 (#1039),False
+949ecdfebe1d1f8cc1cc5db7e1fdcafa17167b87,2022-08-03 18:39:17,dependabot[bot],chore(deps): bump @docusaurus/plugin-content-pages in /site (#1042),False
+d86798b7241a701248a74314b9174cdfe4513f67,2022-07-25 19:08:17,dependabot[bot],"chore(deps): bump webpack from 5.73.0 to 5.74.0 in /site (#1037)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.73.0 to 5.74.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.73.0...v5.74.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+36e9796d2b1a3c92197c882f16b43367a326b739,2022-07-20 19:36:59,dependabot[bot],"chore(deps): bump terser from 5.10.0 to 5.14.2 in /site (#1036)
+
+Bumps [terser](https://github.com/terser/terser) from 5.10.0 to 5.14.2.
+- [Release notes](https://github.com/terser/terser/releases)
+- [Changelog](https://github.com/terser/terser/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/terser/terser/commits)
+
+---
+updated-dependencies:
+- dependency-name: terser
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8083857942cb2078668f54cec86a7901f1c8f2a6,2022-07-18 18:22:56,dependabot[bot],chore(deps-dev): bump eslint from 8.19.0 to 8.20.0 (#1035),False
+0486fc9de52270e4b1c86e627882b87776410fd9,2022-07-14 23:18:47,redonkulus,fix: use latest docusaurus release,False
+85351ff262143259ab62ad2cff370ad24ef81b62,2022-07-14 04:42:28,Ayu,docs: switch cdn from unpkg to jsdelivr (#1034),False
+a8610c084224d0e66448a6e5c575d316fef2b4d2,2022-07-12 18:46:11,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.29.4 to 7.30.1 (#1029),False
+a02538a61b4e34c18667d2115a2411d0f9d3ad69,2022-07-12 18:46:00,dependabot[bot],chore(deps-dev): bump grunt-contrib-clean from 2.0.0 to 2.0.1 (#1030),False
+4ec0cb2d46739a5dbc82dea880c5fd0deb265246,2022-07-12 18:45:48,dependabot[bot],chore(deps-dev): bump grunt-contrib-concat from 2.0.0 to 2.1.0 (#1031),False
+ea602ece7a628851cd9eb783bac66973d22e86af,2022-07-12 18:45:30,dependabot[bot],chore(deps-dev): bump eslint from 8.11.0 to 8.19.0 (#1032),False
+96669626ce5acbe11eb1b2bd05d81a291c0da118,2022-07-12 18:45:04,dependabot[bot],chore(deps-dev): bump tap from 16.0.0 to 16.3.0 (#1028),False
+cd1e8396be1cc2bbe391a278816c19d1b4ec501d,2022-07-11 23:15:41,redonkulus,site: add trailingSlash config,False
+959165c35aaf5349e26265cc1b0e037996c3e8a2,2022-07-11 23:00:42,redonkulus,chore: update lock file,False
+b27350c224e01ba7e3a13bbcfe649091f1304e92,2022-07-11 22:28:33,redonkulus,chore: use node 16,False
+ae87aad7a4a2a9a93021ca250d99bd5a081868f9,2022-07-11 22:25:47,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic in /site (#1024)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.0.0-beta.18 to 2.0.0-beta.22.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.22/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1bbef8e06b5553f9919009915279e06d1400db48,2022-07-11 22:24:44,dependabot[bot],"chore(deps): bump @docusaurus/core in /site (#1025)
+
+Bumps [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus) from 2.0.0-beta.21 to 2.0.0-beta.22.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.22/packages/docusaurus)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8b931c5a51c5c907dc43489e6f18c0192b4c1ecc,2022-07-11 22:22:30,dependabot[bot],"chore(deps): bump path-parse from 1.0.6 to 1.0.7 (#1026)
+
+Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+- [Release notes](https://github.com/jbgutierrez/path-parse/releases)
+- [Commits](https://github.com/jbgutierrez/path-parse/commits/v1.0.7)
+
+---
+updated-dependencies:
+- dependency-name: path-parse
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b006efe6869e388807fa2c5e0dacce870d7db16f,2022-07-11 22:22:12,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#1023)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.0.0-beta.18 to 2.0.0-beta.22.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.22/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8533ea3521a2bb4509314ba3a97f247a08c4dce5,2022-07-11 22:20:39,dependabot[bot],"chore(deps-dev): bump grunt from 1.4.1 to 1.5.3 (#1027)
+
+Bumps [grunt](https://github.com/gruntjs/grunt) from 1.4.1 to 1.5.3.
+- [Release notes](https://github.com/gruntjs/grunt/releases)
+- [Changelog](https://github.com/gruntjs/grunt/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt/compare/v1.4.1...v1.5.3)
+
+---
+updated-dependencies:
+- dependency-name: grunt
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+80200ec45efec0150edc8a80c89a90462efbab8e,2022-07-11 22:19:29,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#1022)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.0.0-beta.18 to 2.0.0-beta.22.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.22/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cd75c7295e345ff2d982ac6ef10295840204cf61,2022-07-11 22:13:30,redonkulus,chore: add package-lock file,False
+5523c20bc31fe54a3ec8ec83918676686b6798b2,2022-07-08 10:42:24,dependabot[bot],"chore(deps): bump @docusaurus/core in /site (#1010)
+
+Bumps [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus) from 2.0.0-beta.18 to 2.0.0-beta.21.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.21/packages/docusaurus)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9d043b653b9575f38fd1c1f05638ea5eac4f47b9,2022-07-08 10:42:02,dependabot[bot],"chore(deps): bump webpack from 5.72.0 to 5.73.0 in /site (#1013)
+
+Bumps [webpack](https://github.com/webpack/webpack) from 5.72.0 to 5.73.0.
+- [Release notes](https://github.com/webpack/webpack/releases)
+- [Commits](https://github.com/webpack/webpack/compare/v5.72.0...v5.73.0)
+
+---
+updated-dependencies:
+- dependency-name: webpack
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+663d182bb0dc851da1017b543c195cfcc24ce466,2022-07-08 10:41:51,dependabot[bot],"chore(deps): bump js-beautify from 1.14.3 to 1.14.4 in /site (#1018)
+
+Bumps [js-beautify](https://github.com/beautify-web/js-beautify) from 1.14.3 to 1.14.4.
+- [Release notes](https://github.com/beautify-web/js-beautify/releases)
+- [Changelog](https://github.com/beautify-web/js-beautify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/beautify-web/js-beautify/compare/v1.14.3...v1.14.4)
+
+---
+updated-dependencies:
+- dependency-name: js-beautify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+616128fb5b91c31963265c4f8a64b37cd81d49a6,2022-07-08 10:41:17,Seth Bertalotto,Delete package-lock.json,False
+8dec44a5405e3c20f8140812316588d09235d993,2022-07-04 19:34:11,dependabot[bot],chore(deps-dev): bump eslint from 8.18.0 to 8.19.0 (#1021),False
+d2bdebb557de7f0ba8540d11620680d84d394c70,2022-07-01 11:21:35,dependabot[bot],chore(deps-dev): bump tap from 16.1.0 to 16.3.0 (#1016),False
+5fc883c25f77bd1731e2ab80709d1a1d810de649,2022-07-01 11:20:30,dependabot[bot],chore(deps-dev): bump husky from 7.0.4 to 8.0.1 (#1000),False
+a41f58ca4c7b2add3de0e45a96e067f81f5b114a,2022-07-01 11:19:43,Kauê Rodrigues,Fix article link (#1015),False
+0e02605a7d3ec241c358af647d4db815536088e5,2022-07-01 11:18:23,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.29.4 to 7.30.1 (#1019),False
+232792036459970f9325ea198c1d6b79e9a918d0,2022-07-01 11:18:04,dependabot[bot],chore(deps-dev): bump eslint from 8.14.0 to 8.18.0 (#1017),False
+7b9398192d5e0a2502c9b56e1dfc6b209818af94,2022-07-01 03:36:02,dependabot[bot],"chore(deps-dev): bump grunt from 1.5.2 to 1.5.3 (#1002)
+
+Bumps [grunt](https://github.com/gruntjs/grunt) from 1.5.2 to 1.5.3.
+- [Release notes](https://github.com/gruntjs/grunt/releases)
+- [Changelog](https://github.com/gruntjs/grunt/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt/compare/v1.5.2...v1.5.3)
+
+---
+updated-dependencies:
+- dependency-name: grunt
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+81efd538da99a3eac014e108a77dcee6a5b3f5b7,2022-04-28 22:24:43,Seth Bertalotto,chore: remove git.io link fixes #989,False
+1fe50dd3ac81aba30afdc262c4e43942f129200a,2022-04-25 18:30:42,dependabot[bot],chore(deps): bump async from 2.6.3 to 2.6.4 in /site (#988),False
+f15c2625444ca553d5ba0597b394840057bc7eba,2022-04-25 18:30:20,dependabot[bot],chore(deps): bump async from 2.6.3 to 2.6.4 (#987),False
+1ec700d1ee462a62169f25976f233f545e7cb1f1,2022-04-25 18:29:02,dependabot[bot],chore(deps-dev): bump eslint from 8.13.0 to 8.14.0 (#986),False
+9543d305fe89db83dd108485769baded04395a26,2022-04-25 18:28:41,dependabot[bot],chore(deps-dev): bump tap from 16.0.1 to 16.1.0 (#985),False
+1b84254ee11d5cc336ca25dab863a81cc2e083d4,2022-04-12 20:29:50,dependabot[bot],chore(deps-dev): bump grunt from 1.5.0 to 1.5.2 (#984),False
+c5e332361dab06155ea2a851f2be2e31fb4f00ec,2022-04-11 19:57:51,dependabot[bot],chore(deps-dev): bump eslint from 8.12.0 to 8.13.0 (#983),False
+4af0a49c6ac50cead042be248eb2dbd89a168ba5,2022-04-11 19:57:34,dependabot[bot],chore(deps): bump webpack from 5.71.0 to 5.72.0 in /site (#982),False
+9b00b4b4f60622801e520bc26727ad05ff90e13f,2022-04-11 19:57:16,dependabot[bot],chore(deps): bump js-beautify from 1.14.2 to 1.14.3 in /site (#981),False
+39059861b787ec891e91b4ff7958dce8cd42c09c,2022-04-11 19:57:02,dependabot[bot],chore(deps-dev): bump grunt from 1.4.1 to 1.5.0 (#980),False
+15fdec605312172adab181599490de1ae57d12ed,2022-04-04 21:10:02,dependabot[bot],chore(deps): bump webpack from 5.70.0 to 5.71.0 in /site (#978),False
+720b61f5e44f7d2d18fca14b9bbd5232685a14eb,2022-04-04 21:09:28,dependabot[bot],chore(deps-dev): bump grunt-contrib-concat from 2.0.0 to 2.1.0 (#979),False
+ac480eb7620670726ec503fd008fe4749649e791,2022-03-29 18:16:08,dependabot[bot],chore(deps): bump js-beautify from 1.14.0 to 1.14.2 in /site (#977),False
+bd143b42394f805c7feaeeb08d513e2a0919229d,2022-03-29 00:13:03,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic in /site (#975)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.0.0-beta.17 to 2.0.0-beta.18.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.18/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+dd281c202d7b54c170b0deedd7c7ba6bac903972,2022-03-29 00:04:01,dependabot[bot],"chore(deps): bump @docusaurus/core in /site (#974)
+
+Bumps [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus) from 2.0.0-beta.17 to 2.0.0-beta.18.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.18/packages/docusaurus)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b189f15499dcaf4de95fd95575c389ccc95f5dc3,2022-03-28 23:59:47,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#973)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.0.0-beta.17 to 2.0.0-beta.18.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.18/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+363e5706ab04417e6db58de35a58a14ed83efd32,2022-03-28 23:52:39,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#972)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.0.0-beta.17 to 2.0.0-beta.18.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.18/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+648e4d18f159461f5361592c5e23187865bc2994,2022-03-28 23:52:29,dependabot[bot],"chore(deps): bump minimist from 1.2.5 to 1.2.6 in /site (#976)
+
+Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
+- [Release notes](https://github.com/substack/minimist/releases)
+- [Commits](https://github.com/substack/minimist/compare/1.2.5...1.2.6)
+
+---
+updated-dependencies:
+- dependency-name: minimist
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+96e3dd60b12446dc7ddddde0efa470e79e7d857c,2022-03-28 23:04:06,dependabot[bot],"chore(deps): bump node-forge from 1.2.1 to 1.3.0 in /site (#970)
+
+Bumps [node-forge](https://github.com/digitalbazaar/forge) from 1.2.1 to 1.3.0.
+- [Release notes](https://github.com/digitalbazaar/forge/releases)
+- [Changelog](https://github.com/digitalbazaar/forge/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/digitalbazaar/forge/compare/v1.2.1...v1.3.0)
+
+---
+updated-dependencies:
+- dependency-name: node-forge
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4fcdc652995cdbc177b2e7bdc6387c75cf43df5b,2022-03-28 23:03:35,dependabot[bot],"chore(deps-dev): bump eslint from 8.11.0 to 8.12.0 (#971)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.11.0 to 8.12.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.11.0...v8.12.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+215681ccee107ffc0d6714d04fad585bfb5944d4,2022-03-23 20:48:30,dependabot[bot],"chore(deps-dev): bump tap from 16.0.0 to 16.0.1 (#969)
+
+Bumps [tap](https://github.com/tapjs/node-tap) from 16.0.0 to 16.0.1.
+- [Release notes](https://github.com/tapjs/node-tap/releases)
+- [Commits](https://github.com/tapjs/node-tap/compare/v16.0.0...v16.0.1)
+
+---
+updated-dependencies:
+- dependency-name: tap
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+762af6bc1d4d69c9a279d578124254b1cadc57c8,2022-03-16 18:34:54,dependabot[bot],chore(deps-dev): bump postcss from 8.4.8 to 8.4.12 (#968),False
+832c8ed1657e9fe1758540b26ee9c1b29f195d14,2022-03-15 05:35:08,redonkulus,chore(site): use latest purecss,False
+9c9b6c9665e792d02de63b1858d7a90f5b04affb,2022-03-15 05:30:32,redonkulus,chore: v2.1.0,False
+7debb3751c6fc91a50327af62de73bf6f6a47e12,2022-03-15 05:24:01,Linus Horvath,feat: add xxl (1920px) media query (#965),False
+72da9c0f20e981c62320bd3a286a0f7f6b946c1b,2022-03-15 04:14:15,redonkulus,refactor(site): pull pure files from npm install,False
+2d9b809d4dabe0c1598fdf26c5605595d95c2c99,2022-03-15 03:25:49,redonkulus,refactor: remove custom grid,False
+bda8faaa4942c22079a778c75a8ffd989af002e9,2022-03-15 01:21:24,redonkulus,chore: update react-syntax-highlighter,False
+2b86638a027222d3973ca928e22130bacf9f4fdc,2022-03-15 01:16:54,redonkulus,chore: upgrade to postcss 8.x deps,False
+14f825f6d40989ff52c7552d04e13464213715c9,2022-03-15 01:02:56,redonkulus,chore: add webpack to docusaurus deps,False
+380b81f44387a34cce35852682ab658cacacc26b,2022-03-14 18:58:30,dependabot[bot],chore(deps-dev): bump eslint from 8.10.0 to 8.11.0 (#967),False
+cfbcf93e54b7d4a549b7255436a62c1066fcbee0,2022-03-14 18:58:14,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.29.3 to 7.29.4 (#966),False
+1e1a38ec6ee5e3a8ae70fb23f5df3ef06b3e1ebc,2022-03-07 19:36:00,dependabot[bot],chore(deps-dev): bump tap from 15.1.6 to 16.0.0 (#964),False
+84521dd168536d69153da4fe648c14c554e89dd8,2022-03-05 02:59:04,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#963)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.0.0-beta.15 to 2.0.0-beta.17.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.17/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+65f87a79724bf348bf6d86a7b52c0399f8ff1d8e,2022-03-05 02:43:08,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#961)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.0.0-beta.15 to 2.0.0-beta.17.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.17/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+08c96d95c6f101807cc19a1b62763a5b4769079f,2022-03-05 01:55:11,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic in /site (#960)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.0.0-beta.15 to 2.0.0-beta.17.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.17/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+95f37029b889be2d066608c3f1c105a337709712,2022-03-04 23:31:03,dependabot[bot],"chore(deps): bump @docusaurus/core in /site (#962)
+
+Bumps [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus) from 2.0.0-beta.15 to 2.0.0-beta.17.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.17/packages/docusaurus)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+02c9224d818ba782637983255e41a57d3aacd95f,2022-03-04 23:30:45,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.28.0 to 7.29.3 (#959)
+
+Bumps [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) from 7.28.0 to 7.29.3.
+- [Release notes](https://github.com/yannickcr/eslint-plugin-react/releases)
+- [Changelog](https://github.com/yannickcr/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/yannickcr/eslint-plugin-react/compare/v7.28.0...v7.29.3)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cf1b8373cab3c1f37ff87a8018289d495beff247,2022-03-04 23:30:36,dependabot[bot],"chore(deps-dev): bump eslint from 8.9.0 to 8.10.0 (#954)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.9.0 to 8.10.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.9.0...v8.10.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e6b3b37a66fdbd09189435f24bc6120c34fb2852,2022-02-15 23:24:25,dependabot[bot],"chore(deps-dev): bump eslint from 8.7.0 to 8.9.0 (#950)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.7.0 to 8.9.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.7.0...v8.9.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8d135b60675ce6fa2eef4512675ba3d3b7738e33,2022-02-15 23:24:15,dependabot[bot],"chore(deps): bump follow-redirects from 1.14.7 to 1.14.8 in /site (#951)
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.7 to 1.14.8.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.14.7...v1.14.8)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+27e1163cba53bf757c8840936a2fe7a29050d29d,2022-01-27 23:19:24,redonkulus,doc: update bootstrap example to v5,False
+b38730683007ec82427d6dff05a5753c22dfbb39,2022-01-27 22:45:48,redonkulus,docs: remove gitter and support message,False
+c2402a6b67de0a83197ceb82406509ca8d531c8d,2022-01-27 22:41:11,redonkulus,"docs: remove YUI references, freshen up the data",False
+7faeaf1178426bcf8ce082112fc76b1b85b1fbb6,2022-01-27 22:40:41,redonkulus,fix: company name,False
+b844a76054808eb5e5383740e06073ae3be6122f,2022-01-27 22:40:21,redonkulus,fixes #948 renames classNames to class,False
+89bcf34e8e39294aac618b69d0c0f5cb56156251,2022-01-27 22:23:11,dependabot[bot],"chore(deps): bump @docusaurus/core in /site (#947)
+
+Bumps [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus) from 2.0.0-beta.14 to 2.0.0-beta.15.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.15/packages/docusaurus)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+93a37eb17a32602ab51ec0cb86c1b9e1bd3dc71a,2022-01-27 22:11:56,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#945)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.0.0-beta.14 to 2.0.0-beta.15.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.15/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+05cd46c1eddfc144381437567c4f682fec770d1b,2022-01-27 22:07:54,dependabot[bot],"chore(deps): bump @docusaurus/theme-classic in /site (#946)
+
+Bumps [@docusaurus/theme-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-theme-classic) from 2.0.0-beta.14 to 2.0.0-beta.15.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.15/packages/docusaurus-theme-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/theme-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+541a8f0b658b5cf59ba1c2a82cfd8791a045af50,2022-01-27 21:37:28,dependabot[bot],"chore(deps): bump nanoid from 3.1.30 to 3.2.0 in /site (#943)
+
+Bumps [nanoid](https://github.com/ai/nanoid) from 3.1.30 to 3.2.0.
+- [Release notes](https://github.com/ai/nanoid/releases)
+- [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ai/nanoid/compare/3.1.30...3.2.0)
+
+---
+updated-dependencies:
+- dependency-name: nanoid
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0113f01d13002239dd8e37007068554e1e453407,2022-01-27 21:36:48,dependabot[bot],"chore(deps-dev): bump eslint from 8.6.0 to 8.7.0 (#942)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.6.0 to 8.7.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.6.0...v8.7.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4983d7cd758405d0f9ad10f09ea5e7b45064db80,2022-01-27 21:36:36,dependabot[bot],"chore(deps): bump follow-redirects from 1.14.6 to 1.14.7 in /site (#941)
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.14.6 to 1.14.7.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.14.6...v1.14.7)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b4e89646f33281a8e9c5d743ee592471d30a69a4,2022-01-27 21:36:23,dependabot[bot],"chore(deps): bump shelljs from 0.8.4 to 0.8.5 in /site (#940)
+
+Bumps [shelljs](https://github.com/shelljs/shelljs) from 0.8.4 to 0.8.5.
+- [Release notes](https://github.com/shelljs/shelljs/releases)
+- [Changelog](https://github.com/shelljs/shelljs/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/shelljs/shelljs/compare/v0.8.4...v0.8.5)
+
+---
+updated-dependencies:
+- dependency-name: shelljs
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+91447761c461e25f12f58dd0459e5e5f69463544,2022-01-27 21:35:48,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#944)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.0.0-beta.14 to 2.0.0-beta.15.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.15/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8832b57b3f8c2bf9ba5ee80d2746dc8854dd0532,2022-01-05 02:52:20,redonkulus,fix: add button icons fixes #938,False
+a5475b4b3b988166f32b36b0f09d9fd04f17ec05,2022-01-04 22:26:28,redonkulus,chore(deps): upgrade docusaurus deps,False
+ab0618aca9ca2c371ae7a07639d1bad1a43bd79e,2022-01-04 20:56:36,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.27.1 to 7.28.0 (#936),False
+51d243f2220a595894d8af5f156cf526b7e37971,2022-01-04 20:56:03,dependabot[bot],chore(deps-dev): bump tap from 15.1.5 to 15.1.6 (#939),False
+5dc28a85b801259178967236a1682df049f9d92b,2022-01-03 19:55:31,dependabot[bot],chore(deps-dev): bump eslint from 8.4.0 to 8.6.0 (#937),False
+06aa12630eb45c477016f5658d78d528c334ecc1,2021-12-06 19:23:17,dependabot[bot],chore(deps-dev): bump tap from 15.1.2 to 15.1.5 (#920),False
+a6a989052e27c345d3f92570d6f5b3a1df06d7d0,2021-12-06 19:22:58,dependabot[bot],chore(deps-dev): bump eslint from 8.2.0 to 8.4.0 (#921),False
+038bf7dd462377d5f4b6f91d8ecc39018103f367,2021-11-19 19:14:02,dependabot[bot],chore(deps-dev): bump tap from 15.1.1 to 15.1.2 (#917),False
+a134e127422e802f462453be5c02702519d13c35,2021-11-19 19:13:28,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.27.0 to 7.27.1 (#916),False
+87c39a28a3ca1f22e7b0c4bf914b5febefe3c575,2021-11-17 19:29:02,dependabot[bot],chore(deps): bump @docusaurus/preset-classic in /site (#906),False
+67e9f0cb1de33043ab1ee02bac9ec7a9e60ac807,2021-11-17 19:17:26,dependabot[bot],chore(deps): bump @docusaurus/plugin-google-analytics in /site (#907),False
+45483928f42c34c35556b2fab7b277bc4dede052,2021-11-17 19:12:46,dependabot[bot],chore(deps): bump @docusaurus/plugin-content-pages in /site (#905),False
+0b2f49aa4670cca2efa87d2510c167a0e7c0a5e1,2021-11-17 19:12:28,dependabot[bot],chore(deps-dev): bump eslint from 8.0.1 to 8.2.0 (#909),False
+43690faeb44c444cd11ea3750b0b3faa98b6fe5b,2021-11-17 19:11:22,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.26.1 to 7.27.0 (#910),False
+accd091ccc8e4f81638b38ddb7e19cae33493d2e,2021-11-17 19:11:07,dependabot[bot],chore(deps): bump common-tags from 1.8.0 to 1.8.2 in /site (#915),False
+1d469683a007b891a3f8f8330b51afc116f2d11d,2021-11-17 19:10:38,dependabot[bot],chore(deps-dev): bump tap from 15.0.10 to 15.1.1 (#914),False
+4958e2a217d423884e87316cfb5a33d80c4e60cd,2021-11-16 09:07:50,Hélio,fix typo (#913),False
+cb0a8e325482c2de476d6c98967d34873a87d6db,2021-11-15 19:27:23,dependabot[bot],chore(deps): bump react-syntax-highlighter in /site (#912),False
+209857d743af61d3dfd51be27fe981342f32d484,2021-10-22 20:53:58,dependabot[bot],"chore(deps): bump @docusaurus/preset-classic in /site (#901)
+
+Bumps [@docusaurus/preset-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-preset-classic) from 2.0.0-beta.6 to 2.0.0-beta.8.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.8/packages/docusaurus-preset-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/preset-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9a629a97bf3ae16c983f6268d4bc2cb0c2b7cde4,2021-10-22 20:32:12,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#900)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.0.0-beta.6 to 2.0.0-beta.8.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.8/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+43d9d6534cefdb6ec4288d4fc614342783b263a6,2021-10-22 20:31:45,dependabot[bot],"chore(deps-dev): bump eslint from 8.0.0 to 8.0.1 (#894)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.0.0 to 8.0.1.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.0.0...v8.0.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+49717c6fb7c48d8609e76093110f2d968cd94f6b,2021-10-22 20:31:35,dependabot[bot],"chore(deps-dev): bump husky from 7.0.2 to 7.0.4 (#899)
+
+Bumps [husky](https://github.com/typicode/husky) from 7.0.2 to 7.0.4.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v7.0.2...v7.0.4)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+360cf8258b5be683a6c152a1b8a8efd0af8af8f0,2021-10-11 18:05:09,dependabot[bot],chore(deps-dev): bump eslint from 7.32.0 to 8.0.0 (#893),False
+30904a3d46b157b9b98da39db6d262c75957be06,2021-10-08 18:20:59,dependabot[bot],chore(deps-dev): bump grunt-contrib-concat from 1.0.1 to 2.0.0 (#892),False
+bc40af7f0cb5a5cfbd211277063ce46d7617d0bd,2021-09-30 21:43:00,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.25.3 to 7.26.1 (#890)
+
+Bumps [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) from 7.25.3 to 7.26.1.
+- [Release notes](https://github.com/yannickcr/eslint-plugin-react/releases)
+- [Changelog](https://github.com/yannickcr/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/yannickcr/eslint-plugin-react/compare/v7.25.3...v7.26.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+59ecd8530ce35ff26022eb596dd4e0a6c1ccf02c,2021-09-25 22:11:07,redonkulus,fix: use https from tumblr,False
+d953758605615bd2335214404de89dc9ad04106a,2021-09-25 21:50:15,redonkulus,site: switch google verification,False
+36af5c7f2ddb76b1782c2f66a48117c2dd8e5ef0,2021-09-25 21:49:16,redonkulus,site: add google verification meta,False
+b6310bd887b05581d074209fdb90fe09a9756817,2021-09-22 19:42:10,dependabot[bot],chore(deps-dev): bump tap from 15.0.9 to 15.0.10 (#888),False
+05eb48fae64ff5a736a90c398588c268996448f7,2021-09-20 19:04:29,dependabot[bot],chore(deps-dev): bump eslint-plugin-react from 7.25.2 to 7.25.3 (#886),False
+940875248414e1c3963bcb675a404327a483803e,2021-09-17 23:33:59,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.25.1 to 7.25.2 (#885)
+
+Bumps [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) from 7.25.1 to 7.25.2.
+- [Release notes](https://github.com/yannickcr/eslint-plugin-react/releases)
+- [Changelog](https://github.com/yannickcr/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/yannickcr/eslint-plugin-react/compare/v7.25.1...v7.25.2)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a5cff800108fc668e12fe6eb2218dde9be7ca7f0,2021-09-04 04:32:04,dependabot[bot],"chore(deps): bump @docusaurus/preset-classic in /site (#881)
+
+Bumps [@docusaurus/preset-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-preset-classic) from 2.0.0-beta.5 to 2.0.0-beta.6.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.6/packages/docusaurus-preset-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/preset-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6e7261098f4844c7fb3d6201d6e9776a6976e150,2021-09-04 04:29:33,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.24.0 to 7.25.1 (#879)
+
+Bumps [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) from 7.24.0 to 7.25.1.
+- [Release notes](https://github.com/yannickcr/eslint-plugin-react/releases)
+- [Changelog](https://github.com/yannickcr/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/yannickcr/eslint-plugin-react/compare/v7.24.0...v7.25.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+de2e3614e0ece81a1f8c05c07e5bbe3391688e25,2021-09-04 04:29:17,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#880)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.0.0-beta.5 to 2.0.0-beta.6.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.6/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+064d8ba39c7335e55e39fffec7738a328d16f71f,2021-08-28 01:21:01,redonkulus,ci(site): add DEPLOYMENT_BRANCH env var,False
+25058708568e6374a0b2a617896e9aef17d13b05,2021-08-28 01:15:54,redonkulus,chore(site): update deps,False
+df5ed23f41d2185ceb136201b2c1cdfb4fd9c976,2021-08-28 01:07:19,dependabot[bot],"chore(deps): bump @docusaurus/preset-classic in /site (#875)
+
+Bumps [@docusaurus/preset-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-preset-classic) from 2.0.0-beta.4 to 2.0.0-beta.5.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.5/packages/docusaurus-preset-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/preset-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6e6050200788020629945ec54aa91d0be0e5888a,2021-08-25 21:19:00,dependabot[bot],"chore(deps-dev): bump husky from 7.0.1 to 7.0.2 (#874)
+
+Bumps [husky](https://github.com/typicode/husky) from 7.0.1 to 7.0.2.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v7.0.1...v7.0.2)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+58a5fe1a21cd0b703869294b02de6920a9aaa80e,2021-08-02 18:36:28,dependabot[bot],chore(deps-dev): bump eslint from 7.31.0 to 7.32.0 (#873),False
+0431b660c4cccff8fb23c2e6ef8b7f99f85d44e4,2021-07-29 22:06:57,dependabot[bot],"chore(deps): bump @docusaurus/preset-classic in /site (#871)
+
+Bumps [@docusaurus/preset-classic](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-preset-classic) from 2.0.0-beta.3 to 2.0.0-beta.4.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.4/packages/docusaurus-preset-classic)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/preset-classic""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+457b3a92c90a4dc9f796eb88f00cb82faba7c307,2021-07-29 21:49:26,dependabot[bot],"chore(deps): bump @docusaurus/plugin-google-analytics in /site (#870)
+
+Bumps [@docusaurus/plugin-google-analytics](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-google-analytics) from 2.0.0-beta.3 to 2.0.0-beta.4.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.4/packages/docusaurus-plugin-google-analytics)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-google-analytics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+09329ec17973cb5a72fcdf2fd59d2a07462ef41a,2021-07-29 21:36:56,dependabot[bot],"chore(deps): bump @docusaurus/core in /site (#869)
+
+Bumps [@docusaurus/core](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus) from 2.0.0-beta.3 to 2.0.0-beta.4.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.4/packages/docusaurus)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/core""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+bee9e9e8bc07e839e1482b7d566b88286368f1c4,2021-07-29 21:29:30,dependabot[bot],"chore(deps): bump @docusaurus/plugin-content-pages in /site (#872)
+
+Bumps [@docusaurus/plugin-content-pages](https://github.com/facebook/docusaurus/tree/HEAD/packages/docusaurus-plugin-content-pages) from 2.0.0-beta.3 to 2.0.0-beta.4.
+- [Release notes](https://github.com/facebook/docusaurus/releases)
+- [Changelog](https://github.com/facebook/docusaurus/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/facebook/docusaurus/commits/v2.0.0-beta.4/packages/docusaurus-plugin-content-pages)
+
+---
+updated-dependencies:
+- dependency-name: ""@docusaurus/plugin-content-pages""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3b29c8ccdf872ec7aa5c5b8137e92133b527b41d,2021-07-27 21:19:41,dependabot[bot],"chore(deps): bump react-syntax-highlighter in /site (#868)
+
+Bumps [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter) from 15.4.3 to 15.4.4.
+- [Release notes](https://github.com/react-syntax-highlighter/react-syntax-highlighter/releases)
+- [Changelog](https://github.com/react-syntax-highlighter/react-syntax-highlighter/blob/master/CHANGELOG.MD)
+- [Commits](https://github.com/react-syntax-highlighter/react-syntax-highlighter/commits)
+
+---
+updated-dependencies:
+- dependency-name: react-syntax-highlighter
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0e991d8c7b10faf57ba93f6568d62817149f3eb2,2021-07-19 18:59:59,dependabot[bot],"chore(deps-dev): bump eslint from 7.30.0 to 7.31.0 (#867)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 7.30.0 to 7.31.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v7.30.0...v7.31.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+90f8e098b661416c3a6a67d999c42e46d55fd7cf,2021-07-07 07:23:43,redonkulus,ci: add /site to dependabot,False
+8408d81e98900bd49876a7be049d7ac93059b657,2021-07-06 23:28:53,Seth Bertalotto,doc: update docusaurus deps (#866),False
+ed00ca3a6c8fe0c27e73c12acf069f686086b0f8,2021-07-06 22:10:33,redonkulus,refactor: clean up old deploy script,False
+a75cdadb3c7990da7ebef22a36e7897c80cd3107,2021-07-06 22:04:03,redonkulus,ci: optimize,False
+391c5f497988302c2902832f6e09313d8a2957d4,2021-07-06 21:56:23,redonkulus,test: with secrets,False
+e263dfcb1ebaa5a493b13f6d68c17ef2ac1f7f08,2021-07-06 21:37:44,redonkulus,ci: add GIT_USER,False
+c68293f3a5a7f664cb56ed6500561ea1fb3fbe8a,2021-07-06 18:59:56,dependabot[bot],"chore(deps-dev): bump husky from 7.0.0 to 7.0.1 (#865)
+
+Bumps [husky](https://github.com/typicode/husky) from 7.0.0 to 7.0.1.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v7.0.0...v7.0.1)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+00d059f9bcc4feb79791656644dac54131d3f314,2021-07-05 20:14:35,dependabot[bot],"chore(deps-dev): bump grunt from 1.3.0 to 1.4.1 (#862)
+
+Bumps [grunt](https://github.com/gruntjs/grunt) from 1.3.0 to 1.4.1.
+- [Release notes](https://github.com/gruntjs/grunt/releases)
+- [Changelog](https://github.com/gruntjs/grunt/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt/compare/v1.3.0...v1.4.1)
+
+---
+updated-dependencies:
+- dependency-name: grunt
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+42042bfae403bab6973ffdcea1dfbd166f82fb29,2021-07-05 20:13:08,dependabot[bot],"chore(deps-dev): bump grunt-cli from 1.3.2 to 1.4.3 (#864)
+
+Bumps [grunt-cli](https://github.com/gruntjs/grunt-cli) from 1.3.2 to 1.4.3.
+- [Release notes](https://github.com/gruntjs/grunt-cli/releases)
+- [Changelog](https://github.com/gruntjs/grunt-cli/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/gruntjs/grunt-cli/compare/v1.3.2...v1.4.3)
+
+---
+updated-dependencies:
+- dependency-name: grunt-cli
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cea5d83418e17fa0f414317da575b9751aeea7fb,2021-07-05 17:53:44,dependabot[bot],"chore(deps-dev): bump eslint from 7.18.0 to 7.30.0 (#863)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 7.18.0 to 7.30.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v7.18.0...v7.30.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+378d4ed0a8e97bd0feb70e741f7e8ff20b599288,2021-07-05 17:53:08,dependabot[bot],"chore(deps-dev): bump eslint-plugin-react from 7.22.0 to 7.24.0 (#861)
+
+Bumps [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) from 7.22.0 to 7.24.0.
+- [Release notes](https://github.com/yannickcr/eslint-plugin-react/releases)
+- [Changelog](https://github.com/yannickcr/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/yannickcr/eslint-plugin-react/compare/v7.22.0...v7.24.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+10ec41524b7c5c6fd41a870eb8ac6d4486625a3b,2021-07-04 22:50:31,redonkulus,ci: fix repo,False
+fec2487abbe2689378c2f7d255ecdb64cb2dac91,2021-07-04 22:48:36,redonkulus,ci: add remote,False
+d874d5eed9d4b86de2e7fcc3ad13e82617545bd9,2021-07-04 22:27:47,redonkulus,ci: add env vars,False
+546071cd235a40a5f71dfa03dcf1468de8f2f5d2,2021-07-04 22:25:08,redonkulus,ci: fix job name,False
+36ff16f058c58d133564dd8b1aa8c293a10824d8,2021-07-04 22:24:22,Seth Bertalotto,ci: add deploy workflow (#860),False
+30ffcf1412d4b357a7267abb58ddf0bd2b806540,2021-07-04 22:19:17,redonkulus,chore: update dependency security violations,False
+64f2f3012140dfd498d39969749a428af5d8c38a,2021-07-04 22:15:41,Seth Bertalotto,ci: add test workflow (#859),False
+2ca8d9b7789eb8efd33cb9550547fe0b854300b4,2021-07-01 23:44:45,dependabot[bot],"chore(deps-dev): bump tap from 14.11.0 to 15.0.9 (#855)
+
+Bumps [tap](https://github.com/tapjs/node-tap) from 14.11.0 to 15.0.9.
+- [Release notes](https://github.com/tapjs/node-tap/releases)
+- [Commits](https://github.com/tapjs/node-tap/compare/v14.11.0...v15.0.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+48cadfe2f1113bb9f84aada7633a7536fb8b1264,2021-07-01 22:22:10,dependabot[bot],"chore(deps-dev): bump husky from 6.0.0 to 7.0.0 (#858)
+
+Bumps [husky](https://github.com/typicode/husky) from 6.0.0 to 7.0.0.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v6.0.0...v7.0.0)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+be59e9e86b942da7b331f5031408801efe55f29f,2021-05-13 22:58:16,Seth Bertalotto,Update issue templates,False
+d3389c5452c3583d264321f13d00a68e437aef41,2021-05-13 22:56:24,Seth Bertalotto,Create CODE_OF_CONDUCT.md,False
+f8c702b28efb4328b9e6f05bddbf963ca8d36c07,2021-04-28 22:28:57,dependabot-preview[bot],"Upgrade to GitHub-native Dependabot (#853)
+
+Co-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",False
+99d29194ac34c23731b2248d377a196beda2b9b1,2021-04-28 22:12:00,redonkulus,chore: v2.0.6,False
+a36ac17fc6148d7fce5bbedb16d8e821772e3dc5,2021-04-11 21:30:01,giraldiego,Fix email layout menu link (#848),False
+503265cc51364ca01c8c82d2814c53a82f430139,2021-03-30 21:53:07,dependabot-preview[bot],"chore(deps-dev): bump husky from 4.3.8 to 6.0.0 (#843)
+
+Bumps [husky](https://github.com/typicode/husky) from 4.3.8 to 6.0.0.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v4.3.8...v6.0.0)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+Co-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",False
+fa740b056442d4f43c61bac8a9b737244cfd71cf,2021-03-30 21:52:32,dependabot-preview[bot],"chore(deps-dev): bump grunt-contrib-cssmin from 3.0.0 to 4.0.0 (#833)
+
+Bumps [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) from 3.0.0 to 4.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-cssmin/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-cssmin/blob/master/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-cssmin/compare/v3.0.0...v4.0.0)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+Co-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",False
+4c01e2c5edcd2b40ef218ddfe1f145661fad9615,2021-01-21 01:05:15,redonkulus,fix #809 - remove prevent default to follow links,False
+f6dc8889421b6689ed80745cbff2d6def6cfd282,2021-01-21 00:24:59,redonkulus,fix: remove npmignore and fix files syntax,False
+aca77cad8dd411e28634f2f5d348998a2bf6f776,2021-01-21 00:18:52,redonkulus,chore: v2.0.5,False
+32076a3da22e204656d01d726117ccf73d008d72,2021-01-21 00:13:15,redonkulus,fix #824 - fix disabled menu style,False
+5b3292e14aa2f6533e3b51b7e173e1eea07613c9,2021-01-20 23:13:30,redonkulus,fix #827 add a note about grids not in rollup,False
+8c3c7cb7c90784d4ddd5c4281426fb567099fc38,2021-01-20 12:03:59,redonkulus,docs: fix download link,False
+bd6624f3bab988dbbd771521310294fea44a09a9,2021-01-20 09:56:20,redonkulus,chore: v2.0.4,False
+42b9f20393a21f1cbd2556d249ab5a89e19316c4,2021-01-20 06:32:17,redonkulus,docs: fix travis badge url,False
+4f70463c51fb5e8f39e6d9141e380778ce900f5e,2021-01-20 06:25:08,redonkulus,chore: update deps,False
+b3697fdf51cf6918fec48f510de1cecbb34d1b77,2021-01-20 06:15:56,redonkulus,fix #829 ignore events from menu span elements,False
+c3799b527499b9a354639ef5186d79ecadd86f46,2021-01-10 10:35:56,Seth Bertalotto,fix: encoding value to match spec,False
+a34fe62bad1d6192d050c7e821ea30987d438333,2020-12-14 22:50:26,Seth Bertalotto,"fix: download link and add link to tools
+
+fixes: #826",False
+9d23c58e36f7a98b646c92cf917ef2ce59441660,2020-11-24 09:44:58,Martin Packman,"Declare license as SPDX BSD-3-Clause (#822)
+
+There are several different variants of the original BSD license,
+clarify in the package metadata and README which applies.",False
+10096f812cce7091bf5071545d9b72c66e0b2afc,2020-10-23 21:58:48,MAKSS,"Fixed inputs and labels lack spacing (#821)
+
+To keep consistency in the Forms documentation page I just fixed spacing between inputs and their associate labels",False
+e79bd2f2efd7a20b848c1b27277aac2669daae3c,2020-10-18 17:44:38,medianect,chore: Updated Gruntfile after pure-css#705. (#820),False
+2f8c9e3c79481d8ac18c44e39424bc5f4b0a5ff8,2020-10-02 00:07:26,Michael McMahon,"Website grids documentation typo (#817)
+
+* Clarifying how to use grids
+
+https://github.com/pure-css/pure/issues/816
+
+* Update site/src/pages/grids/index.js
+
+Co-authored-by: Seth Bertalotto <seth@bertalotto.net>",False
+075862bf23684ab042d0dc27063eefcee4a5830c,2020-08-17 05:11:33,GeopJr,fix: docusaurus links (#811),False
+58a396be98704fcc2b5b7fde6734091a1bf83572,2020-07-02 01:15:59,Seth Bertalotto,fix: spelling typo fixes #807,False
+97b1ad89394935e068dbd09b0b94b83e0ebce287,2020-05-16 23:53:09,redonkulus,ci: fix path,False
+2442a9e66b310df8ae1845812bc8066f96abee43,2020-05-16 23:51:10,redonkulus,ci: add pure dir,False
+fec98b0b1f7cacfc69846ea79b2f92fa653c07b2,2020-05-16 23:48:43,redonkulus,ci: run build,False
+2e49130c27019f454ee608560296ba349429f79e,2020-05-16 23:43:24,redonkulus,ci: move copy to deploy script,False
+9dc1a9ddcf98ef61d655b448f11367a04f96fa92,2020-05-16 23:39:14,Seth Bertalotto,feat: add eslint (#801),False
+8426c80b112b0de06023a63b27e8a3e4a11ed876,2020-05-16 19:26:23,Seth Bertalotto,fix: remove debug line,False
+b56a501d93650fb5bd4929601542a3cbe7fb84e4,2020-05-16 09:23:27,redonkulus,fix #800 - add ui js for menu toggle,False
+c53dbde8ad398706a0982335e2d724131e462b56,2020-05-16 08:27:24,redonkulus,fix #799 - Vertical Menu with Submenus not working,False
+cc57db4f59859b0225f6bfa8b1c7584492ca51d8,2020-05-14 22:56:34,redonkulus,fix #798: use latest version,False
+3e55ea567bdc174bf95fe07d1427e785f4f37fdc,2020-05-14 21:17:15,redonkulus,docs: update versions,False
+a0dc8921202c255f2621586a19a9806e2dfab369,2020-05-14 21:10:54,redonkulus,fix #797 - download link,False
+c67bac2770ee10b93de0335914afbf449938c34a,2020-05-14 09:13:22,redonkulus,fix #796 - correct image link,False
+83f79cdc4bf6bda1fa1112f5b56d24686e86a185,2020-05-12 00:01:47,redonkulus,fix: remove debugging logs,False
+ca9be473e20513dc8dc94353ec7ed461fe9416ef,2020-05-11 23:37:11,redonkulus,ci: remove debugging,False
+070e6ac8d93f2e029bbb25cfffb4ad065dab43ba,2020-05-11 23:29:08,redonkulus,2.0.3,False
+bdae1d8e43be9a3600ef64c3e006e3b4eb3e8cd9,2020-05-11 23:29:04,redonkulus,chore: update history,False
+4fcd04acd1b84f261408b14b01f4de3e5245fab5,2020-05-11 23:28:14,redonkulus,chore: update browser list for all environments,False
+c97e833b07884456c4ec2660c645b8639324372d,2020-05-11 23:06:50,redonkulus,ci: try disabling cache,False
+23cfc8a627c9443ab2955ddad558f0401feb58cb,2020-05-11 22:50:30,redonkulus,fix: csslint error and browserlist,False
+f2a8721306622ea99e5700d4f4509f99549fa28c,2020-05-11 22:15:04,redonkulus,chore: debugging travis,False
+b7c5e68321ad6eae3941c4bf836ccca01a570c26,2020-05-11 22:08:39,redonkulus,chore: debugging travis,False
+b9dfba044b7cd3a3c89cbe8da1647618b6818019,2020-05-11 22:05:53,redonkulus,ci: debugging,False
+beaa84cd60b9f57b4fba47aaef171b71bc707471,2020-05-11 21:45:27,redonkulus,2.0.2,False
+b8bbd9798f4081cf6b9fa4d02ee878d8f6782cb9,2020-05-11 21:45:23,redonkulus,chore: update history,False
+4b3cdbc595cd4aa471faa6c0b5d7cc300e9d4060,2020-05-11 02:58:59,magikstm,"Buttons - Remove css for IE 6-8 (#794)
+
+May need to be tested on mobile.",False
+7593ed2ca60ada746a1ba3a89f7a05cd7669afe8,2020-05-10 01:22:56,Seth Bertalotto,ci: remove extra copy,False
+9f916912d72b9dc6cbe4e9ad918c04a372812ddb,2020-05-10 01:16:46,Seth Bertalotto,ci: rub build before deployment,False
+950bfde546214c5fe9066ffbe17835bb967909cc,2020-05-09 21:51:58,redonkulus,fix: force copy over existing files,False
+80048a884d12f2a4d49a9ceb38df4d9aa7326e41,2020-05-09 21:40:03,redonkulus,debug: add debugging logs,False
+973854e851c8a9dd5c2c1ea15c5c712801a74c67,2020-05-09 21:28:26,redonkulus,fix: snippet,False
+285b4e3620705d73e900ae355cefba9b204d53f4,2020-05-09 21:26:57,redonkulus,fix: use pure from static folder,False
+da2b34a95c98563e82bdee4c07140b97d6770a0e,2020-05-07 21:07:52,redonkulus,v2.0.1,False
+da4bf6b46ae4d9419d07e17ac7ce79c518e45847,2020-05-07 21:06:48,redonkulus,refactor: remove usage of deprecated webkit-overflow-scrolling,False
+55997ff08e2a98315b07eaa826d1fe6dca9c0cae,2020-05-05 21:18:50,redonkulus,fix: rename CNAME,False
+728103123439da9249e3eec090d22411f3fc13d6,2020-05-05 21:07:21,redonkulus,ci: build docs before deploy,False
+0ae2557fadc75a668351f7146372c0587ef8ced3,2020-05-05 20:51:00,redonkulus,2.0.0,False
+c377801525f47bf19b7b6ea994a4e95a94646581,2020-05-05 20:50:55,redonkulus,doc: add v2.0.0 notes,False
+f59a16cebea3b1666ba802425bb2f4a22d7d39b6,2020-05-05 20:45:25,Seth Bertalotto,"refactor: upgrade normalize, remove bower, remove old ie hacks (#790)",False
+d288b16828f00651b50899e009eb6f4e24e86331,2020-04-30 22:29:22,redonkulus,docs: update pure-site reference,False
+6b099b6cf7c44918209cbd0f1c20e842d865025e,2020-04-30 21:51:15,redonkulus,ci: add npm install,False
+b7eb640eb621d8c688b823eb845657eb3581c416,2020-04-30 21:48:00,redonkulus,ci: add site scripts,False
+e5f7545e4875f05cec5bea8e549bc0ec069022cc,2020-04-27 23:12:40,Seth Bertalotto,feat(site): add docusaurus site files (#788),False
+287e82a6bbd6c986ba2f4d49c67485d40950abf4,2019-07-15 21:56:14,dependabot-preview[bot],"Update autoprefixer requirement from ^7.0.0 to ^9.6.1 (#747)
+
+Updates the requirements on [autoprefixer](https://github.com/postcss/autoprefixer) to permit the latest version.
+- [Release notes](https://github.com/postcss/autoprefixer/releases)
+- [Changelog](https://github.com/postcss/autoprefixer/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/postcss/autoprefixer/compare/7.0.0...9.6.1)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>",False
+880c1d4c3977af61352f50593e8406825ecc10fb,2019-07-15 21:48:37,dependabot-preview[bot],"Update tap requirement from ^11.0.0 to ^14.4.1 (#746)
+
+Updates the requirements on [tap](https://github.com/tapjs/node-tap) to permit the latest version.
+- [Release notes](https://github.com/tapjs/node-tap/releases)
+- [Commits](https://github.com/tapjs/node-tap/compare/v11.0.0...v14.4.1)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>",False
+2d3d65884ccf354caf5bb720419775306403326c,2019-07-15 21:41:43,Seth Bertalotto,Update node versions,False
+45c995ed4dba8c3b61b87a4258b6338b1dcd6579,2019-07-15 21:40:51,dependabot-preview[bot],Update grunt-contrib-clean requirement from ^1.0.0 to ^2.0.0 (#745),False
+ccb55a1d9c7dfad31b0e3f3d819885905063fc2e,2019-07-15 21:40:31,dependabot-preview[bot],Update grunt-contrib-cssmin requirement from ^2.0.0 to ^3.0.0 (#748),False
+f9c8e9a6bb269ff9ec2771df1bd3efc532acec75,2019-07-10 23:13:27,redonkulus,update integrity sha,False
+94cae667aeffef6566b9f642611e39dcae5c323f,2019-07-10 21:55:48,redonkulus,v1.0.1,False
+6a2c2dbd9f92433a0eca4003403dd73b33762903,2019-07-10 21:48:13,redonkulus,docs: add release process doc,False
+d0fe2f21d56b07653eafbd4e324eb5d026596461,2019-06-26 02:50:56,PatOnTheBack,"Added SRI Check to <link>s in README (#741)
+
+Added SHA384 hashes for SRI to <link>s in README.",False
+409ea1e44e659ce13c68949807fcb2e4beedf6ff,2019-06-16 19:55:27,magikstm,"Fix issue 432 - pure-table-bordered issues (#718)
+
+pure-table-bordered don't work when td has rowspan attribute on ie11,firefox 35",False
+4575552efadefd500051eb6cfc506b63a35abe53,2019-06-16 19:53:49,magikstm,Fix horizontal scrollbars not appearing in IE11 and Chrome (#740),False
+e66deeeba2cf4b4c39a0199e0f1de76942a86ecd,2019-06-07 19:59:43,Seth Bertalotto,Create stale.yml,False
+91b1732d37052d546726c7e85198d428abf36113,2019-06-05 18:48:14,Christian Oliff,HTTPS link in package.json (#739),False
+7dc1371e017c2ea4b296dcbb086bfbffc6cda961,2019-05-21 20:14:09,krisaoe,Fix bug in pure-button active state's border colour. (#729),False
+d3dc207c4f4b0bdea63a9c40386e5822a4379d6d,2019-02-19 00:13:23,Seth Bertalotto,add support note,False
+2fd02f192ae89745aec0adff19097524f80416a9,2019-01-31 04:23:17,Keiro,"Update package.json to resolve W10 failures
+
+Resolves #647. This is primarily to resolve W10 build failures. Further work on packages will be worked on.",False
+7c29401d2d603f91997cd6d95c0bb21ee1044890,2018-11-12 10:56:04,Keiro,"Update Readme.md
+
+References #686 due to how Android webviews work.",False
+159168758e70fcded3e8b048c76a2178b456fc9b,2018-09-12 02:38:44,"Mark Allen Matney, Jr","fix ""selected"" menu item labels in nested menus (#708)",False
+df65d837fcdafdac74d4552288646558519b8a86,2018-08-15 19:01:08,Seth Bertalotto,Update README.md,False
+35a26c397ac1342cbfba24e737ac20cae375f08b,2018-08-06 01:43:43,Daniel Ruf,chore: replace Yahoo CDN mention with unpkg (#704),False
+9867396e1f50811c79ef97f980d41384f0c647ad,2018-08-06 01:43:02,Daniel Ruf,chore: rename LICENSE file (#705),False
+beb68bc5d15695ee32d6543d154879332fcfac06,2018-02-14 10:18:11,redonkulus,fix composer license,False
+de4c3136cc6a5caca13d75ab3740f73a78592711,2018-01-19 09:11:39,redonkulus,update github org references to pure-css/pure,False
+ea7689a9cc97a310702cfd145cce2f9cd43a95f6,2017-11-26 20:04:02,greenkeeper[bot],chore(package): update tap to version 11.0.0 (#679),False
+d1194def44c1f1c02a65a3737c06ec87638d9a0b,2017-11-07 11:31:10,Seth Bertalotto,remove filter from button hover/focus for AMP compat (#677),False
+f901a355ec8289665d85d449885aa5501b902d1a,2017-10-31 20:43:47,Matthew Loberg,"Fix for postcss-import (#678)
+
+If the ""main"" option is not a .css file, then it will look at the ""style"" option. Adding this value will allow purecss to be imported with postcss-import.",False
+9d7e4ab23f10a5b80938513d47a636af9341edbe,2017-09-16 02:51:58,Seth Bertalotto,chore(package): update tap to version 10.7.2 (#673),False
+4f43ae0ce0480939d8f6542d30f3a3fefdc075e1,2017-09-16 01:54:24,Seth Bertalotto,chore(package): update bower to version 1.8.2 (#672),False
+9ec2f93dff734868521c3e8de43b8f1932820f4c,2017-09-16 01:51:25,greenkeeper[bot],chore(package): update grunt-postcss to version 0.9.0 (#668),False
+6cb2d32c467d3a47edd666915e6aa211556d1343,2017-06-05 20:30:01,sbertal,v1.0.0,False
+2fde4e7985335f09aac0ede5c7fa0c63b456a578,2017-05-10 22:49:19,Seth Bertalotto,Remove comment,False
+5acb3906b55c90cec0149eef5330d8ca01a05bb8,2017-05-06 22:53:24,Greenkeeper,"chore(package): update autoprefixer to version 7.0.0 (#645)
+
+https://greenkeeper.io/",False
+95595f0a63754a00f2cea04be8313c920bb4c288,2017-03-22 05:29:49,Seth Bertalotto,Remove normalize from licence,False
+3800f4a66b26929edf96b61628c834724ed5fa5f,2017-03-22 05:29:00,Seth Bertalotto,Create CREDITS.md,False
+0eac72ecd21cf68f80dc57f26f49e20b1c523ca2,2017-03-21 23:17:27,Limon Monte,Fix the Gitter link in README (#641),False
+6b7e3084fad22a43b74e63b2fc7e66efa9094d50,2017-02-15 00:05:33,Greenkeeper,"chore(package): update grunt-contrib-cssmin to version 2.0.0 (#632)
+
+https://greenkeeper.io/",False
+c4a4d0b0b5cc06960c4da856eb17bf1a8376ab86,2017-02-15 00:05:18,Greenkeeper,"chore(package): update grunt-contrib-compress to version 1.4.0 (#629)
+
+https://greenkeeper.io/",False
+98f856de1fdc0f81131083dc98d10fa7635e4ec6,2017-01-28 20:27:06,Greenkeeper,"chore(package): update tap to version 10.0.0 (#631)
+
+https://greenkeeper.io/",False
+1025b7a15d55bd3873efa2cb108a1c416366577a,2017-01-08 20:28:50,Greenkeeper,"chore(package): update tap to version 9.0.0 (#625)
+
+https://greenkeeper.io/",False
+7b9039d98140546b8d1242720387344b4c657c0b,2017-01-07 23:16:03,Seth Bertalotto,"Merge pull request #624 from yahoo/composer
+
+Add composer.json file",True
+c5259bc73fbf5acc69a7780b8531c94849d02c9d,2017-01-07 23:10:50,Seth Bertalotto,Add composer.json file,False
+5518fad16a63ae0f168b904c6e95ccb6692cbd88,2017-01-06 10:36:50,sbertal,v0.6.2,False
+4c96fe823515921ab8d6adb51c5282a6c4e050ac,2017-01-05 11:36:54,Seth Bertalotto,"Merge pull request #621 from yahoo/button-groups
+
+Add Button Groups to Pure",True
+7641b87740dc8cc0ac9b5499c81d7e10fa7d30b3,2016-12-28 23:39:12,Tilo Mitra,add button groups to manual test page,False
+d4e401be82aa2a4573f3ca04ab09acea49fa3468,2016-12-28 23:38:52,Tilo Mitra,add button groups,False
+bcba51d959ac067dafe5926b39cfdb81fdcc3885,2016-12-28 22:41:00,Seth Bertalotto,"Merge pull request #620 from yahoo/fix545
+
+Reset style for horizontal dropdown separator (fixes #545)",True
+606ab8c643ebdb90d3ba4e48fe253a1ed7ae2c0d,2016-12-23 19:41:53,sbertal,reset style for horizontal dropdown separator (fixes #545),False
+14c7ef92ad0585535e6dff0bb0eef55fd8b20b0b,2016-12-21 01:47:44,Seth Bertalotto,"Merge pull request #619 from yahoo/module
+
+Add proper module api for node users",True
+cd6364faa81f335ec3aa03b73f95a7a7d1b2613e,2016-12-20 12:19:35,sbertal,add proper module api for node users,False
+84c18afc05516beb59184bc19be7ecdee78917b5,2016-12-13 09:56:01,Seth Bertalotto,Update to grunt-postcss@0.8.0,False
+8b57ab82f80c8316c79b478e8e16b220d33463c7,2016-12-13 09:54:53,Seth Bertalotto,Add david dependency badge,False
+e97ee8fb694a16ace5e0d4ffeab2c83897dcb01a,2016-12-13 03:57:42,sbertal,pure-0.6.1,False
+4d9676b6ca57cb1d02a343a2ca6701ad13118b3b,2016-12-12 10:18:05,Seth Bertalotto,"Merge pull request #617 from yahoo/post-css
+
+Migrate to post-css for browser prefixes",True
+c2b9045fd032a8e21011b4ac9dd40bab9fa69746,2016-12-11 19:44:17,sbertal,remove additional prefixes,False
+9f52d653cb168cc49b5bb60ed5aca7f073ea8e76,2016-12-11 19:39:29,leho,Implement autoprefixer via grunt-postcss,False
+7c63e1185bec499b994da281ef54918b9131929e,2016-12-11 19:39:03,leho,Remove manual vendor prefixes,False
+ff324892ddd97ea369739ad82266db071b3f9e56,2016-12-05 19:53:15,Diego Leme,"Remove duplicate Firefox inner focus border (#457)
+
+Snippet already exists in https://github.com/yahoo/pure/blob/master/src/buttons/css/buttons-core.css#L20
+
+```
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+```",False
+6c2aae1b89a5a22b87c250ff586d2ad2b61db5fe,2016-12-05 19:30:31,Sly Gryphon,"Fix for grid inside table in IE 10/11 (#504)
+
+* Fix for grid inside table in IE 10/11",False
+2ca1b5743018d01e14a481df4e2a9c753175198a,2016-11-25 20:10:33,Seth Bertalotto,Update node versions in travis (#613),False
+afb061c3a18a12913ee29af4ca71f7235ba585da,2016-11-25 00:38:16,Seth Bertalotto,add github templates (#612),False
+31378c7202e3d99f5fe1010b18cd0e36fe698cf8,2016-11-23 04:07:02,Seth Bertalotto,"Revert ""Remove moot `version` property from bower.json"" (#610)",False
+93d70d66ea5d636b5458bb1a34525e0c88e45484,2016-11-23 03:07:23,Seth Bertalotto,update grunt dependencies and fix csslint issues (#609),False
+364e5f6991784eba08368fb2d9208f10608dc6e5,2016-11-22 20:22:49,totalknowledge,Upgrade of grunt-contrib-compress.  Fixes #607 (#608),False
+8b03931eaf0f607d489048c7f4c180d6d5d6c9a8,2016-11-22 10:23:02,Emerson Thompson,"Disabling event with pointer-events (#584)
+
+The `pointer-events` property allows for control over how HTML elements respond to mouse/touch events – including CSS hover/active states, click/tap events in Javascript, and whether or not the cursor is visible.",False
+af76b11478fdca5e903166099a528631547e2e7a,2016-11-22 10:21:14,Xiaoxing Ye,use https-enabled cdn (#598),False
+214dbcc775f2359588c84c4aa5d64dcb0a5a1bc1,2016-11-11 02:10:04,Seth Bertalotto,"Remove All Rights Reserved from various files (#605)
+
+* Remove All rights reserved.",False
+3fac70e1e04b6b14ce47d7e38fc61a357e4ea9fd,2016-08-10 05:01:55,Prashant Anantharaman,Switch to https enabled CDN. (#588),False
+a6adc763fde4fd7b9c547baa176f65ff0a7aac3c,2016-07-21 01:58:34,Chris Johnson,"Update README.md (#581)
+
+* Update README.md
+
+Clarify what's actually found in the release ZIP file.
+
+* Update README.md
+
+Correct my own darn misspelling.  :-p",False
+a410eabd9587c0fda76e1e98bb903c9c513d1096,2016-01-20 22:58:48,Seth Bertalotto,"Merge pull request #544 from pra85/2016
+
+Fixing initial copyright year",True

@@ -1,0 +1,680 @@
+Hash,Date,Author,Message,IsMerge
+32acfe8f197dc44c54e8af32c7d7b19aa9d350fb,2024-05-24 23:01:53,Forbes Lindesay,fix: ensure template names are valid identifiers (#3438),False
+4767cafea0af3d3f935553df0f9a8a6e76d470c2,2021-12-23 22:45:31,Forbes Lindesay,refactor: convert pug-error to TypeScript (#3355),False
+a724446abb128f2a09acb143ce436021be8f6e6a,2021-12-23 22:10:06,Forbes Lindesay,"chore: update character-parser (#3354)
+
+The updated dependency is written in TypeScript, which will help prepare us for converting pug-lexer to TypeScript",False
+6cca8f76befe7285eead0416ba4e2dbba825ab65,2021-07-12 19:38:26,Ikko Ashimine,"docs: fix GitHub format in README (#3335)
+
+Github -> GitHub",False
+d4b7f602ba38212c2a5ad9431479ce959c466c4b,2021-03-01 00:58:58,tmont,Properly handle errors originating from included files when compileDebug is enabled (#3269),False
+d6f06150150bedce460ddf47162ac6dfb46f34fc,2021-03-01 00:55:23,Michael Gerbig,"fix capture groups for ""each"" statements (#3274)",False
+73ea7cf4997c792760b62c4a7d82f2e395fdbeb4,2021-03-01 00:52:02,Ryan Hendrickson,fix: keep lexer plugins inside tag interpolation (#3296),False
+29a53c5a0ae62e1369091728ede32dc9d473a067,2021-03-01 00:49:44,Hana Shiro,"fix: Fix pug-lexer parsed escaped interpolations incorrectly (#3299)
+
+* fix: Fix escaped interpolation returning `#{}` but not `!{}`
+
+* test: Update test case and snapshot of `pug-lexer/../interpolation.escape.pug`
+
+* style: Fix prettier format",False
+60b1b15b79e88166f5b3113d2b07857819c37493,2021-03-01 00:44:15,Forbes Lindesay,"chore: update supported versions (#3315)
+
+I did release a back-ported patch for today's vulnerability, but I don't intend to do so for future vulnerabilities. This updates the security policy to reflect that.",False
+991e78f7c4220b2f8da042877c6f0ef5a4683be0,2021-02-28 23:51:18,Forbes Lindesay,fix: sanitise and escape the `pretty` option (#3314),False
+06baa525a23049756de9587461d389a12bc12537,2020-05-27 20:50:19,Shinigami,Fix TypeScript and add eachOf token definition (#3262),False
+13e46e9fe87220530a066d3aae49131969920275,2020-05-26 04:07:30,Forbes Lindesay,"chore: update with (#3259)
+
+closes #3239",False
+c077df4a8d523fe42e52f83b62d3c8ba3822d3b3,2020-05-25 17:46:42,Forbes Lindesay,docs: fix rolling versions link,False
+ccba7dae678b1fceaa9b46d9d15a78ee0a2569d4,2020-05-25 04:35:48,Forbes Lindesay,ci: publish canary release (#3257),False
+24a7b8eaaf86e53d0581c9e7900fb8fa906c5b2a,2020-05-25 01:08:39,Forbes Lindesay,chore: remove get-repo dependency (#3256),False
+8288ec5fa9b28781be78ea4508b3f8c9ca7f9ba1,2020-05-24 16:23:46,Forbes Lindesay,ci: fix some problems with the workflows and add dry-run (#3254),False
+eca9342bf3046e5170301d8839df551c1fe35d99,2020-05-20 04:26:13,Forbes Lindesay,"chore: update is-expression and jest (#3253)
+
+This means we pull in the current latest version of acorn, resulting in a single version everywhere, rather than multiple copies of acorn in this repo.",False
+9e96bb722c706a2fc89bce401e4ba215205bd9b1,2020-05-20 04:25:21,Alex,feat: allow filters to read non-text include files (#3213),False
+bb0731f75813aa30d8e077808b5465a67ef284ef,2020-05-02 07:11:56,zackschuster,chore: use minimal settings to format test files (#3245),False
+854fd2f537d060c653dfde3d652ab4350474f90d,2020-05-02 07:10:44,zackschuster,chore: update lockfile (#3246),False
+377703bac8314fe8f976cb2139229a42820d27d9,2020-05-02 03:31:05,Forbes Lindesay,blank commit to attach missing change logs (#3244),False
+a941dec45fcf7c97f2de28f8490f512fcb5f25be,2020-05-02 02:56:45,Damian Krzeminski,suport minify option in filter using jstransformer (#3084),False
+beb375531cbf45e2bc40a0e592cd3250d85e2f0b,2020-05-02 02:40:46,Forbes Lindesay,"feat: improve error message for malformed each (#3185)
+
+It now includes a description of what `each` should look like. We guide people towards the newer `each ... of ...` syntax, rather than the older `each ... in ...` syntax.",False
+f97ebdb48c7c0fdd4ff4b7418dcf4e03b27a1405,2020-05-02 02:30:44,Forbes Lindesay,chore: remove lerna as yarn supports enough stuff now (#3243),False
+b043d7c0780bb7a242cca1540865d7b6c0bca701,2020-05-01 21:43:53,Chris Harvey,wrap setting err.message with a try/catch (#2996),False
+c99cb3c8e3012895e4f66fd6636e246454822012,2020-05-01 21:39:20,Shinigami,TypeScript definitions for pug-tokens (#3196),False
+7e0a8e4c44dad0d60f8622b1db018e883dc9a28e,2020-05-01 21:33:55,Birzhan Utegenov,Add the possibility of replacing generateCode function (#3230),False
+3920013fcbd0946339839e2d8d9108efda1180c7,2020-05-01 21:26:42,zackschuster,deps: upgrade to latest versions (#3184),False
+5741771e8b5cbdf47e1bdf660a72f28546aee0a9,2020-05-01 21:19:16,Tim Gates,"docs: Fix simple typo, overriden -> overridden (#3231)
+
+There is a small typo in packages/pug-load/README.md.
+
+Should read `overridden` rather than `overriden`.",False
+27d91bec9c912305745244e7d42040097ae5fd38,2020-04-26 10:03:32,Shinigami,Add Prettier Plugin link (#3206),False
+201b9c78431e172dc90a6d258af982e2d1191da8,2019-12-16 22:03:23,Yashar Fakhari,Update dependencies (#3189),False
+c915b1c47a041b47f36e8f612f98187f09038241,2019-11-04 22:18:57,Exalyon,docs: Fix typo on the last line of dependencies: pug-walk instead of pug-error (#3194),False
+e1b66206064cfba5f4b7cd3fb86c9f1e41c07ef2,2019-11-04 21:14:57,Forbes Lindesay,chore: add security policy,False
+48c69c95fa636147bc5b79e0a97a2672e3a6f31c,2019-09-17 14:04:17,Max Rumsey,test: each .. of .. test cases (#3183),False
+8aed002922ae870dc5231b8a7bf24570f33bbfb1,2019-09-16 19:41:19,Max Rumsey,feat: add 'each .. of ..' syntax to support all iterable objects (including Arrays) (#3179),False
+fa8d287ac7155e4e6dd56ff38f4495135659532a,2019-07-12 13:55:10,dependabot[bot],"Bump stringstream from 0.0.5 to 0.0.6 (#3156)
+
+Bumps [stringstream](https://github.com/mhart/StringStream) from 0.0.5 to 0.0.6.
+- [Release notes](https://github.com/mhart/StringStream/releases)
+- [Commits](https://github.com/mhart/StringStream/compare/v0.0.5...v0.0.6)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+1f770d63ea12daf7eb1d83e8561fc4bb82df120b,2019-06-18 15:23:57,Forbes Lindesay,Create FUNDING.yml,False
+a0ff15f579e43f44d9e66f5321096bbcb0b603cf,2019-06-18 15:22:34,natmbake,test: inline and include markdown-it should produce the same output (#3119),False
+1bdf628a70fda7a0d840c52f3abce54b1c6b0130,2019-06-18 15:14:49,Forbes Lindesay,"Publish
+
+ - pug-attrs@2.0.4
+ - pug-code-gen@2.0.2
+ - pug-error@1.3.3
+ - pug-filters@3.1.1
+ - pug-lexer@4.1.0
+ - pug-linker@3.0.6
+ - pug-load@2.0.12
+ - pug-parser@5.0.1
+ - pug-runtime@2.0.5
+ - pug-strip-comments@1.0.4
+ - pug-walk@1.1.8
+ - pug@2.0.4",False
+5e47ab41336aba783e7701f0616d277ffa52f1d8,2019-06-18 15:11:00,Forbes Lindesay,chore: update yarn.lock,False
+8e8eeee0ae373b3d57733f41d1443ea05ea030d4,2019-06-18 15:06:37,Eugene Zhlobo,"Allow spread operator in attributes - N.B. for jsx transform only (#3152)
+
+Currently we only support spread attributes in the transform for producing jsx. Although this adds support for them at the lexer level, they will just be blindly included in the output html when using the standard pug instance. In the future we may introduce proper spread properties to pug as well.",False
+4fd657a35e690baf2f742b863fa8fad9e1d2ad45,2019-06-04 15:16:42,Yashar Fakhari,Update repo URLs in packages (#3148),False
+8fcf81d4cadf11f9193562117c8fb897f740ce0e,2019-06-03 21:41:20,Yashar Fakhari,"Fix the dependency status badges in README.md of the child packages"" (#3146)
+
+* Fix the dependency status badges in README.MD of the child packages""
+
+* Update Readme.md - add dependency status
+
+Add dependency status from all of the monorepo children to the top level readme.md",False
+2f1110ec2ed8656253331e1e4b1b20b9d12185ee,2019-05-21 13:45:09,Patrick Klingemann,bump constantinople to 3.1.2 (#3141),False
+6617f5058b95aa71d657336537814a4e9bf5b54a,2019-04-29 14:31:28,Forbes Lindesay,chore: update yarn.lock,False
+1d8cd3f3f0a98e6a69b2a2d13b22f32c56219f54,2019-04-24 20:23:23,Sehrope Sarkuni,"Add keywords to pug package.json (#3136)
+
+Adds keywords to the main module package.json to improve searchability.",False
+6a634943287e0c2385f9b76d81dba97c13a44f03,2019-02-11 17:16:49,Denis Fäcke,"chore: update dev dependencies (#3108)
+
+* update lerna
+* update jest
+* update coveralls
+* add node 10 & 11 to travis ci
+* removed node 4 from travis ci",False
+74d26d6c4a5f6002e6d01c10b80248d6c949c1b5,2018-10-24 23:53:06,Forbes Lindesay,"Fix tidelift link
+
+I must have been tired",False
+a1b046321416fc4ab297b43083ccda25ec8959e5,2018-09-22 15:11:30,Forbes Lindesay,Add note about tidelift,False
+d4f605f14365347a0373ecf72b593ec46e5e7dc7,2018-09-21 18:19:40,Liam Barry,"Include apug version in ports (#3053)
+
+Hi! 
+
+I have started creating (and progressed quite well) a version of pug for a language called RPG (which runs on an IBM i & also works in C and COBOL) and was wondering if is allowed in the ports section?
+
+Thanks for a great project!
+Liam Barry",False
+f7df3097cb44ca45297f177d4792a2cad148f1f4,2018-08-08 14:40:49,Kyle,Add missing semicolon (#2919),False
+2ead38c995a896fe0ff11c9c12f1c1fc25586bcf,2018-08-03 13:05:38,Serge Shkurko,#3040 Fix preLex fire support for plugins (#3041),False
+3d8dc15d5898f08303f04bba0fd4d243acc70a88,2018-07-27 13:00:37,Jakub Świerk,"Added ""files"" property to remove redundant files from packages. (#3038)",False
+a01694b391a0d95af75aee2a3178aafba60f0826,2018-06-15 17:16:00,Zearin,"Update README.md (#3022)
+
+Lots of minor edits for phrasing, grammar, formatting, and clarity.",False
+d69c479a11de1a0d9f4c3fc513ec79733c086040,2018-05-14 13:46:17,Mike Sidorov,toJSON method should be called on object-like values only (#3006),False
+4b50db0365c79a8400a9d48b4ef105ba84c75f2f,2018-05-02 20:28:01,Christopher Pappas,[pug-filters] do not silence errors when attempting to require filters (#3002),False
+23897f32731ffebae2a7646ed8b50e39020da453,2018-04-15 11:50:36,Yakima Teng,fix typo (#2999),False
+56d803caaa8a93a040b7be0b8a36abdc4ce8c509,2018-03-21 17:15:00,Forbes Lindesay,"Publish
+
+ - pug-filters@3.1.0
+ - pug@2.0.3",False
+81df277ea92aa06b6a16488f942bb3526a480e2f,2018-03-21 17:13:53,Andrew Aponte,"fixes #2988 ""Update clean-css dependency in pug-filters"" (#2989)",False
+09173980152a7ed63d455829553448ece76c6fdc,2018-03-20 17:58:41,Forbes Lindesay,"Publish
+
+ - pug-filters@3.0.2
+ - pug@2.0.2",False
+7ff1ccea6135bd1225e84772dba27b01c3ad8872,2018-03-20 17:46:45,Forbes Lindesay,"Handle boolean sorthand for filters (#2977)
+
+* Handle boolean sorthand for filters
+
+[closes #2966]
+
+* Commit the yarn lock",False
+3e233dd8080617685992dc6346f739a6f6396aae,2018-03-08 22:02:29,Forbes Lindesay,"Publish
+
+ - pug-filters@3.0.1
+ - pug-linker@3.0.5
+ - pug-load@2.0.11
+ - pug-parser@5.0.0
+ - pug-walk@1.1.7
+ - pug@2.0.1",False
+540cddd301e374cd9365bc65cac1427edb422ea1,2018-03-06 18:42:24,Forbes Lindesay,"Publish
+
+ - pug-attrs@2.0.3
+ - pug-code-gen@2.0.1
+ - pug-filters@3.0.0
+ - pug-lexer@4.0.0
+ - pug-linker@3.0.4
+ - pug-load@2.0.10
+ - pug-parser@4.0.1
+ - pug-runtime@2.0.4
+ - pug-strip-comments@1.0.3
+ - pug-walk@1.1.6
+ - pug@2.0.0",False
+76321eb51ba56b1cae7bec96e01cf86cc31aa60b,2018-03-06 18:41:44,Forbes Lindesay,Support yarn workspaces,False
+aebb1870313a50a4738045df5b916192a4a8d758,2018-02-19 16:00:08,Marcelo Lopes Lotufo,"Trailing semicolon (#2962)
+
+* Only put trailing semicolon when merging style attributes
+
+This is a first draft that tries to maintain the same code behavior
+without worrying too much about the code quality
+
+* Update tests so they reflect the new code behavior
+
+All style attributes that received a String won't generate
+a trailing semicolon
+
+* Improve merge trailing semicolon code
+
+Check if String is not empty by checking if it its true ('' is false)
+Get last character of the string using slice(-1)
+Add semicolon if the last string character is not a semicolon
+
+* Use array style indexing instead of `.slice` to get last character",False
+8248ba89415809d2497ee2f279675793aef20ae2,2018-02-15 20:55:44,Joshua Sullivan,"pug-lexer `loc` with source endings (#2957)
+
+* Ignore VSCode files
+
+* Use `loc` on lexer tokens to store source location information
+
+* Update pug-parser and pug to use new `loc` attribute on tokens
+
+* Update parser test cases to have new `loc` attribute on tokens
+
+* New lexer snapshots
+
+* New parser snapshots
+
+* PR review changes
+- remove no-ops
+- rename `attributeName` to `attribute`
+- attributeName no longer takes a tok and returns a reponse object
+- minor cleanup",False
+3750dfef23b42ebd71b0d8b03e649b1bf339bc77,2018-02-13 23:19:52,Eugene Zhlobo,Ignore yarn.lock file (#2959),False
+dd27b8bc2b5a57717a30857b5a2e762c759331d8,2018-02-12 16:08:41,Eugene Zhlobo,Add package-lock.json to .gitignore (#2955),False
+eedf9a3125aaea179dce36468401ef3bfc3db102,2018-02-12 15:43:25,Eugene Zhlobo,"Don't ask escaping for boolean attributes at the beginning of attributes-list (#2956)
+
+* Update tests: Don't ask escaping for the first boolean attribute
+
+* Don't ask escaping for the first attribute w/o value",False
+6f38adf280242be79df276a9d998505c3bbab79a,2018-02-06 16:17:44,void,Add in additional resources of 2 packages (#2945),False
+d86ac52be4ec354cd6078797a80030ce3dc9e205,2018-02-05 16:09:55,kakulukia,new maintainer for pypugjs (#2947),False
+bd9e0de85b5975d1929887cc53722b02520a5597,2018-02-05 16:02:00,Denys Pavlov,"[pug-lexer] Relax class name requirements (#2948)
+
+* Allow class names to begin with single dash, 0-9, a-z, and underscore
+* Add test case that passes with change, fails without change
+
+Fixes #2907",False
+af94a9f103785e7d6c46d64c069eb3f512ba6f9a,2018-01-26 19:47:17,Kyle,#2887 Reorganize other languages section (#2928),False
+72fbf6a13b01e196bb8d0d42fd0c0104026263d1,2018-01-26 19:46:35,droooney,"Apply filters to includes in right-to-left order (#2932)
+
+[fixes #2929]",False
+926f7c720112cac76cfedb003e25e9f43d3a1767,2017-10-18 23:31:24,Florian Chrometz,small spelling errors fixed (#2885),False
+cb56c83850003457f36c093172a837a4ca16b230,2017-10-16 18:42:29,Alexis Tyler,added pug template cache to other (#2868),False
+201941a7daa81f74e108f48f13b47d2af0d5c1b3,2017-09-25 19:44:25,droooney,fixes #2863 (#2864),False
+9cb96de9f32957ef2fc49a7cc2ba26f40becb2a4,2017-09-25 19:43:53,droooney,fixes #2866 (#2867),False
+dd4962320f2575a8aa42d2adb65c295fc5915432,2017-09-10 22:36:15,Dmitri Beltjukov,Replace const with var for 'use strict' in older node (#2815),False
+8b78976a73cb3e470a36a31791ea24b893afbfc2,2017-09-10 22:29:36,Nicholas Lee,remove unnecessary words (#2865),False
+39988d583152c8b436465c19b92d9c6562bacab4,2017-09-06 20:58:02,Forbes Lindesay,"Publish
+
+ - pug-code-gen@2.0.0
+ - pug-filters@2.1.5
+ - pug-linker@3.0.3
+ - pug-load@2.0.9
+ - pug-parser@4.0.0
+ - pug-walk@1.1.5
+ - pug@2.0.0-rc.4",False
+17c11aeed0454c421b3a0b20f3cd6b87ac6665c8,2017-09-06 20:56:57,Forbes Lindesay,Update test case,False
+4182ad67ff425989aa4249a929d3f32e89af2bd6,2017-09-06 20:02:33,droooney,Add column field to ast nodes; make attributeBlocks an array of nodes (#2834). (#2843),False
+51437cee9332de107d54dc9936fb8df2bf5a5870,2017-09-06 19:45:41,Akihiko Odaki,Keep newline between text and interpolated-code (#2853),False
+fd97a0e6437c919db44254cfaba0721d24c6439d,2017-09-06 19:36:47,Joel Gallant,Fixes typo in .github/ISSUE_TEMPLATE.md (#2852),False
+dc54da333c9316c0d7ffc09b71a32eff220c57bf,2017-08-01 21:35:29,Mitchell van Manen,Added ASP.NET Core implementation (#2848),False
+84a530d7c7347a0e1bcaaab61d99f048041df22d,2017-08-01 21:23:41,Forbes Lindesay,"Publish
+
+ - pug-filters@2.1.4
+ - pug-linker@3.0.2
+ - pug-load@2.0.8
+ - pug-parser@3.0.1
+ - pug-walk@1.1.4
+ - pug@2.0.0-rc.3",False
+e9dbadd0b392dce56bcb0b75aafff9e9dd90ed96,2017-07-03 08:00:35,flamedoge,"replace const with var for use with 'strict' (#2827)
+
+Some applications with older node fails due to strict not allowing 'const' or 'let' keywords.",False
+f4298ad2a70295e7965bc41659584151a2f9a2e8,2017-07-03 07:48:19,Ryuma Yoshida,Add Node.js v8 to Travis CI (#2836),False
+54b28caa404edfedb8ea3d94fe18008c64bc6dff,2017-06-20 04:21:33,Forbes Lindesay,Update tests for new prettier version,False
+cf436ab808369a30973b425aafd55af872b31744,2017-06-20 04:01:16,Forbes Lindesay,Create ISSUE_TEMPLATE.md,False
+851c634afe9b44029f3e3fd3f164a80b2bf7ce21,2017-06-02 18:03:27,Forbes Lindesay,"Publish
+
+ - pug-filters@2.1.3
+ - pug-linker@3.0.1
+ - pug-load@2.0.7
+ - pug-parser@3.0.0
+ - pug-walk@1.1.3
+ - pug@2.0.0-rc.2",False
+5bf0a65331ecec7566b961e7b1f45e693815b283,2017-06-02 18:01:55,Forbes Lindesay,"[pug-parser] Remove excess blocks (#2812)
+
+This has a tiny effect on the output of the pretty printed mode, but
+mostly it just simplifies rendering for third things like react-pug.",False
+319c9af71e43c9bd829798f9a9432cdc396b37d3,2017-06-02 13:32:37,Matin Tamizi,More recent Python implementation (#2810),False
+ce24764124b2e22c927690f8d0b8af2c1ee33a9b,2017-05-06 06:45:28,Forbes Lindesay,Use prettier for JavaScript snapshots (#2797),False
+897c7779fb53b7281be6cc9e61991281ee4be443,2017-05-06 06:24:54,Mike,"Add compileFileModule method (#2761)
+
+* add module option in compileClientWithDependenciesTracked
+
+* add module export and require pug runtime behaviour in compile method
+
+* add module option
+
+* add test case for module syntax
+
+* remove module option
+
+* add test
+
+* fix option name
+
+* Require `inlineRuntimeFunctions` to be explicitly false
+
+* Use expect and add snapshot
+
+* snapshot",False
+474d4a3c092e14bd8793809457f7c422b9553041,2017-05-02 04:32:41,Forbes Lindesay,"Publish
+
+ - pug-linker@3.0.0
+ - pug@2.0.0-rc.1",False
+29a73a52cb5f79cae33657178efb87039a279548,2017-05-02 04:31:32,Andrew Bradley,"Fixes #2774: ""shadowed"" blocks can be properly replaced / appended / prepended (#2793)
+
+* Normalize line endings on Windows
+
+* Adds failing test for replacing shadowed blocks
+
+* Fixes #2774: shadowed blocks in 3+-level layout heirarchies can be replaced/appended/prepended
+
+Updates snapshots for new shadowed block behavior.  When a block is
+shadowed in an extending layout, node replacement / appending /
+prepending is applied to the shadower block in addition to the parent,
+shadowed block.  This change is reflected in the snapshots.",False
+93097afb14ce3a8e8955a2e0f46dbb92aa45740f,2017-05-02 04:31:15,Forbes Lindesay,"Remove named blocks from included templates if they extend (#2792)
+
+* Add regression tests for #2436
+
+* Update snapshot to match user's typical expectations.
+
+* Remove named blocks from included templates that extend
+
+[fixes #2436]",False
+df7d66119413c16616195ddc3bac3a02505d4cff,2017-04-26 23:49:06,Forbes Lindesay,Fix test for extends not at top level and ensure second extends always triggers an early exception (#2791),False
+5c704b26fa4cb26d9b35f64f1e3d07f13cdfd6b4,2017-04-26 22:47:24,Kyle,Unit test for #2404 Extends extending even when in if block (#2743),False
+ec18ece7a2e0eaec4a565153e6c5fb4238d03fe9,2017-04-18 06:06:22,Forbes Lindesay,"Publish
+
+ - pug-filters@2.1.2
+ - pug-lexer@3.1.0
+ - pug-linker@2.0.3
+ - pug-load@2.0.6
+ - pug-walk@1.1.2
+ - pug@2.0.0-beta.12",False
+bc92bdc399169aed59d6ad07f9f51e8d3b63c50c,2017-04-18 06:03:51,Forbes Lindesay,"[chore] Update tests (#2778)
+
+coffee-script have released a new version with better output.  Our
+tests show the old coffee-script output.",False
+31d1f681817073ae789d8b18f70121e5a4577c83,2017-04-18 05:49:16,John Manuel,"[pug-lexer] Allow a colon to start an attribute (#2773)
+
+* Add check for literal ‘:’
+* Add test case for “typical” Vue.js short-cut syntax for `v-bind:`  (`:`)
+* New test case passes with change (fails without the change)",False
+82f2fcc637ebea4bb26828ce3ca35ba638ccf643,2017-02-09 02:55:44,Forbes Lindesay,[pug-lexer][optimisation] Only call assertExpression when necessary (#2712),False
+9176127343122553dd62d030d3d908c9003ca09e,2017-02-04 18:10:32,Forbes Lindesay,"Publish
+
+ - pug-filters@2.1.1
+ - pug-lexer@3.0.0
+ - pug-linker@2.0.2
+ - pug-load@2.0.5
+ - pug-walk@1.1.1
+ - pug@2.0.0-beta11",False
+9e0c48e074e4348bf0d64d76bc77de62753b3f84,2017-02-04 18:06:22,jeromew,[pug-lexer] bugfix #2647: interpolation is not allowed in filter text (#2702),False
+fe70d3c8d871066dd04a50af801e78b6b5cb05e1,2017-01-31 20:19:31,Pia Mancini,"Add backers and sponsors from Open Collective (#2700)
+
+This is for your open collective backers and sponsors to appear directly on your README. 
+see how it'll look [here](https://github.com/apex/apex#backers)
+[More info](https://github.com/opencollective/opencollective/wiki/Github-banner)
+
+Also add badges on top.",False
+2d5dce5216ce6043e5f0a2a4b0cfde7bf5220e56,2017-01-29 16:17:47,Forbes Lindesay,"Publish
+
+ - pug-lexer@2.3.2
+ - pug@2.0.0-beta10",False
+f2a894bdb1e6679c73294bae5bd966c2a078dcda,2017-01-29 16:10:51,Forbes Lindesay,Add test case for blank lines in pipeless text (#2696),False
+e29d65da9d69fa602003e1e520103b4afb77e135,2017-01-29 16:00:27,Kyle,"Support blank lines using the `|` syntax (#2695)
+
+* Report pug-lexer #79
+
+* Report unit test for pug-lexer #79
+
+* Fix misstyping in snapshot",False
+f376e970dd8ddc7c223d6225d5acb8520afd374b,2017-01-27 03:51:01,Joshua Sullivan,Fix unit tests on Windows machines (#2693),False
+755ba82afdbb83a90234ee0651ab7278e045b1a9,2017-01-26 03:01:55,ForbesLindesay,"Publish
+
+ - pug-linker@2.0.1
+ - pug@2.0.0-beta9",False
+9948a0b66e0a148573db5d797a8e5f9b74709b69,2017-01-26 00:35:55,David Minor,"[pug-linker] Remove ES6 syntax (#2691)
+
+Change 'fat arrow' function into regular function syntax. This will
+make it simpler for codebases to depend on pug if they are using older
+versions of node.",False
+f6fea78262b51f218ab6931779a74c1531146584,2017-01-25 06:39:08,Forbes Lindesay,"Publish
+
+ - pug-filters@2.1.0
+ - pug-linker@2.0.0
+ - pug@2.0.0-beta8",False
+16a8f41eff2df8e17be28224d001d630f40ad43d,2017-01-25 06:37:32,Max Fainshtein,Updated package.json adding license as well as the repository (#2680),False
+703383122621828cff74950d2e6abbe8deb87cc5,2017-01-25 06:02:34,Forbes Lindesay,"Add a filterAliases option (#2681)
+
+[closes #2678]",False
+fabeccfa7df8327bb80031b478184d7c9eea3489,2017-01-25 05:56:38,Forbes Lindesay,"[pug-linker] Duplicate block (#2685)
+
+* Add failing test case for duplicate block
+
+[see #2367]
+
+* Add whitespace
+
+* Fix extending layout with duplicate block",False
+298d87d144d48c6d5a1147ba04e0f2a96f0a0570,2017-01-24 06:39:58,Forbes Lindesay,Add release script to package.json,False
+9a0faeda367d5a7ca2e67b73977e625038e4c650,2017-01-24 06:37:08,Forbes Lindesay,"Publish
+
+ - pug-attrs@2.0.2
+ - pug-code-gen@1.1.1
+ - pug-error@1.3.2
+ - pug-filters@2.0.0
+ - pug-lexer@2.3.1
+ - pug-linker@1.0.2
+ - pug-load@2.0.4
+ - pug-parser@2.0.2
+ - pug-runtime@2.0.3
+ - pug-strip-comments@1.0.2
+ - pug-walk@1.1.0
+ - pug@2.0.0-beta7",False
+bd818111ff4b7ce47132092ec73866c801709a2c,2017-01-24 05:33:33,Forbes Lindesay,"[pug-filters] Apply options to nested filters (#2679)
+
+* Handle filenames in snapshots
+
+We should also remove all the other bespoke handling of filenames and
+just let all the tests use full absolute filenames.
+
+* [pug-filters] Test case for passing options to nested filters
+
+* [pug-filters] Apply options to nested filters",False
+97941ca599dca34fd82a0c6a0d4298c5c4e7f1e1,2017-01-23 07:21:36,Forbes Lindesay,"Monorepo (#2676)
+
+* User lerna
+
+* Import all the packages
+
+* Delete test output
+
+* Fix test cases
+
+[closes #2605]
+
+* Convert all the tests to jest
+
+This lets us generate one set of coverage for use in coveralls.  It
+also lets us use jest’s awesome watch mode across all the different
+packages.
+
+* Remove unnecessary dot files
+
+The root .gitignore and .travis.yml take care of very nearly everything
+anyway.
+
+* Attempt to fix broken permissions
+
+* Add a README for the root directory.",False
+4e538030915fca15e3a171bb76185ad8adbbbe98,2017-01-06 20:13:39,hemanth.hm,"Merge pull request #2659 from yivo/master
+
+README: Add pug-ruby & pug-rails gems to Additional Resources",True
+3c9c8f52ffd410b10e87a7e3fe8057c10f6db272,2017-01-06 20:05:54,Yaroslav Konoplov,Fix grammar (to -> into),False
+9c9cfb9453f981d7ea59579da48a8e99da3e66c8,2017-01-06 20:03:52,Yaroslav Konoplov,README: Add pug-ruby & pug-rails gems to Additional Resources,False
+9487595965d0dc292f4d1b48c7e7d30b2ef5a1ce,2016-12-05 03:49:31,Aaron Levine,Fixed register.js for Windows. (#2620),False
+952ffbcb2f9dfb5b3859fbd1aab3efd7e929d952,2016-12-04 21:07:37,hemanth.hm,"Merge pull request #2630 from designfrontier/feature/name-for-identification
+
+Adds naming for detection of template engine",True
+2d3c499d8aafc5b791038e991c018e98d91e016c,2016-12-02 21:10:59,Daniel Sellers,"Adds naming for detection of template engine
+
+Since there is not a constructor and thuse a constructor.name
+for detection this provides a name that can be used for the same
+purpose. This is useful for application servers that allow the
+tempate engine to be passed in.",False
+8e2e8eaaa68257366d6a6b87ea3cf3210825ed6b,2016-10-09 02:01:24,Abhinav Gauniyal,Remove mention of outdated URLs in README (#2570),False
+03f53a6aa023ccc17494f83e5e5cc35080603f5a,2016-10-02 22:01:15,Timothy Gu,"README: remove outdated link
+
+Fixes #2563.
+
+[ci skip]",False
+b876a89ca046f55c88bde4ff4c45e8fa66ac149f,2016-09-10 10:55:27,Timothy Gu,"Bind plugin function to plugin itself in findReplacementFunc() (#2535)
+
+This is already implicitly done for the regular plugin path
+(`applyPlugins`).",False
+c649b56bfb8d9e8172ee4db0d6690923b6356497,2016-09-06 22:06:15,kevin olson,add larpug package to Implementations in other languages (#2523),False
+58102c76f60c048e58313e8b457c5874a6fd9a25,2016-09-01 01:50:57,Timothy Gu,Add a missed semicolon (#2512),True
+2a7444c777cbf6f26ce07417644bc26675ccdd78,2016-08-31 20:58:04,rottenberry,"Update index.js
+
+added a missed semicolon",False
+433d49a67e8276d34fe97dea55cb3c75ebbf0d45,2016-08-31 20:06:51,rottenberry,Added a missed semicolon (#2510),False
+7f9b219690bfdd1f0b4da4adc7d7ee7eaa7c74bb,2016-08-29 11:32:14,Timothy Gu,"Update website URL (#2504)
+
+:tada: :tada: :tada:",False
+c1156948afb5a078449eca10ad26ff3ce4fd7a2f,2016-08-27 01:53:14,Timothy Gu,2.0.0-beta6,False
+37dd433569bd92131728ec45233147f03532eda4,2016-08-27 01:49:55,Timothy Gu,Update uglify-js and pug-linker,False
+8ea55ce9ca0d055952d71213ea7f6dcede7d808b,2016-08-27 01:44:47,Timothy Gu,"Fix README link
+
+[ci skip]",False
+e6853165139faefe0510ae2c19726027fbe3f233,2016-08-27 01:41:56,Timothy Gu,Update dependencies,False
+36828f272a68f8bff433531f34b700a14505d58c,2016-08-22 15:23:12,GerardVee,"else statement removed (#2450)
+
+The 'else' block was not needed, thus it was removed. 'return null' is the only thing needed from that block.",False
+c05c39860f02758dfaa94fe0c6de9a4b0bed5d4a,2016-08-22 09:26:15,Timothy Gu,"Remove docs (#2488)
+
+* Remove website and its dependencies
+
+This cuts down node_modules from 90M deduped to 28M.
+
+* Remove client-compilation example
+
+This example doesn't really serve any real purpose, as using Pug in the
+browser is exactly the same as using Pug in Node.js. This allows us to
+get rid of the Express.js dependency.",False
+e5f93f5c7a25326ccfa7abb54eabb4ff079e1e69,2016-08-15 11:15:28,Timothy Gu,Add test case for #2478,False
+696a7bb36149e7f6e0cda9ff93d306404111c9ce,2016-08-10 10:26:39,Timothy Gu,2.0.0-beta5,False
+b9a82efd7679c328b38d776fb4ced2d69815e4ba,2016-08-10 10:26:08,Timothy Gu,Update dependencies,False
+0a678b062dbb0cc8d46b7968dbd936bba2cb3ec6,2016-08-06 23:31:35,Timothy Gu,Update and make logo smaller,False
+1e75308fc3b72ebbce1e428e9eef71fa8cea7a9c,2016-08-01 03:12:37,Timothy Gu,"Update README.md
+
+[ci skip]",False
+937faa0bc54751b98ca28a79b5e4c65c882c709b,2016-07-18 08:02:29,Timothy Gu,2.0.0-beta4,False
+7faa7b9e795026b74d973ab1bf588e340310b591,2016-07-18 08:02:12,Timothy Gu,Update dependencies,False
+d030eda2b3ba38b4f7ec83e5c69126d1b1c999cf,2016-07-18 06:49:37,Timothy Gu,"Reorganize filters tests (#2455)
+
+This way the pug-filters repo will pick up these tests.",False
+aad9205e1436ed646af2b6f9f8fdbf292dd34797,2016-07-15 22:43:44,Blade Barringer,Correct README to use beta instead of alpha (#2452),False
+db83cd2eef9211ad9df70c1be02ee36d129ad164,2016-07-07 12:18:49,George Rawlinson,"update installation documentation to be more user-friendly (#2442)
+
+* update installation documentation to be more user-friendly
+
+* update code language in readme (console to bash)
+
+* rename references of 'node' to 'Node.js'",False
+2138b9d49f52695ab3e46d43242b7bfbd66a2b0d,2016-06-11 18:30:24,Timothy Gu,2.0.0-beta3,False
+fee2e8a9aa580cc3fdd8d54f537fc7ef7d27ee39,2016-06-11 18:28:18,Timothy Gu,Add plugin hooks for resolve and read (#2412),False
+65eab4ede01e7efca685d14a1f5f40f197561bb7,2016-06-03 11:25:02,Timothy Gu,Release 2.0.0-beta2,False
+4dbb1e19bc3642e101d3e44ca6406c8ab75d530a,2016-06-03 11:24:31,Timothy Gu,Update to pug-linker@1,False
+a9d4e24ca516bf9ff4989df8942474d863490d1c,2016-06-03 11:17:16,Timothy Gu,Release 2.0.0-beta1,False
+905ccbf89a6eb4cb981ff1148c1fe1a1793d12d9,2016-06-03 11:13:10,Forbes Lindesay,"Expose the `filters` option as a global export
+
+This helps keep a closer match to the 1.0.0 API, thus an easier upgrade
+path.
+
+[closes #2360]",False
+2bb2936c5edb57609a33070658855a39b0d217ba,2016-06-03 10:43:05,Timothy Gu,"Merge pull request #2321 from pugjs/attr-tmpl
+
+Add a test case for template string in attributes",True
+f4e8a7ef9af3ef5cb39cf7a4679cca32e571ffe0,2016-06-02 22:49:29,Timothy Gu,Add test for attribute with template string,False
+cf13a20a2b2e462722dbac0561c174f7815e157f,2016-06-02 22:49:29,Timothy Gu,Use harmony branch of UglifyJS,False
+9f12c4ea5a94bd39fd53826842fed755a3551685,2016-06-02 22:49:29,Timothy Gu,Add infrastructure for testing ES2015 features,False
+867a47916bd2015a2cec9a6704028d80a83d5551,2016-06-02 05:44:46,Kyle,"Jade.php renamed to Pug.php (#2408)
+
+The pug php fork has been renamed from jade to pug",False
+0ad650bdc4059ff7a4d3313886987f7263936196,2016-05-30 06:41:22,Timothy Gu,README: Add more information on Pug rename,False
+ff1bbe2428a33be196d7c5a7ee5ade1aeb284246,2016-05-22 06:30:57,Timothy Gu,Release 2.0.0-alpha8,False
+03dc8256de7aa1ac53549cf7ecad66f2a86218f7,2016-05-22 06:27:39,Timothy Gu,Use Node.js v6 instead of v5 for Travis CI (#2396),False
+9578e7c7cb231c53e1d66d9c78063d200405d908,2016-05-22 06:07:18,Timothy Gu,"Merge pull request #2395 from pugjs/plugin
+
+Propagate plugins options",True
+17b1a764f61899e715104ee3eb841a6a1767bf9d,2016-05-22 04:37:08,Timothy Gu,Propagate plugins options,False
+862e8b91138e75d8a7b05afdaa086bfa5a588fc2,2016-05-22 04:36:50,Timothy Gu,Update pug-load,False
+fd4cbe5fcac5e1bc04c68241d2900ad20028740c,2016-05-18 08:58:56,Timothy Gu,"Merge pull request #2381 from pugjs/plugins2
+
+Add plugins API",True
+1e97de4280633e1d1de3fcd27c676e1853318172,2016-05-15 00:01:23,Forbes Lindesay,"Add plugins API
+
+I forgot we already had #2171 we should figure out the best bits of
+each approach.",False
+167b626cf4faf83ff3d9f1422e0bd98f3a0ee8bb,2016-05-10 01:21:23,Timothy Gu,2.0.0-alpha7,False
+0db4f347d23a5aaa4530d2d4b2db4dcc38c42783,2016-05-08 22:33:56,Timothy Gu,"Merge pull request #2357 from cassidoo/patch-1
+
+Fix broken Scala link",True
+fe7ce8a15b71d86018c31f8f21aa619cd3974cd6,2016-05-05 12:02:26,hemanth.hm,"Merge pull request #2358 from staturecrane/master
+
+fix typo in readme",True
+c10d1ba721c0d4f8f72cf0e7da8391383d733e96,2016-05-05 10:22:27,Richard Herbert,fix typo in readme,False
+f1674895cfa096c845fbbd845944d4434494416d,2016-05-04 21:15:08,Cassidy Williams,Fix broken Scala link,False
+88acaaf8668f59aecf6b3f2858c7ea80506b4851,2016-05-04 07:34:39,Timothy Gu,"Merge pull request #2356 from pugjs/load
+
+Use pug-load",True
+a3404a8a11ec6d7f0a81b8e7758f6197f09f196c,2016-05-04 07:26:36,Timothy Gu,"Use pug-load
+
+See pug/pug-load#5.",False
+d4b4f785f072897c1526f8ab8a008cd798734002,2016-05-04 07:18:03,Timothy Gu,"README: Fix broken links
+
+At least until @ForbesLindesay set up pug-lang.com
+
+Fixes #2276, #2289, #2329, #2348, #2354, & #2355.",False
+2d79b88c9b4e37f1593c6d2ec7c79104df1b7c68,2016-04-26 20:58:28,Charles Phillips,"use native path module to parse include/extends file extension (#2334)
+
+* [test] relative include without extension fails
+
+* [fix] use native path to parse extension",False
+c695d7f920f9da725e718bb0dccc87dd905e233c,2016-04-25 21:23:10,Forbes Lindesay,Add note about rename and use the current pug logo,False
+610972b2cedad7861ed9a447792112559615b4c3,2016-04-18 16:00:34,Timothy Gu,Accept compatible versions of all stable pug packages (#2320),False
+de4fd530dc730156ed32a7480cc9b137b4bdd827,2016-04-18 12:46:19,Timothy Gu,2.0.0-alpha6,False
+972d15134c0882b2df3d25fcac44a218da4ac42b,2016-04-18 12:45:52,Timothy Gu,"Merge pull request #2319 from pugjs/update-deps
+
+Update to latest versions of Pug core",True
+7a668d7498eb17b44ff246a10c133cdb5ae8bcbd,2016-04-18 12:43:44,Timothy Gu,Update to latest versions of Pug core,False
+271d1e8be058609addb39e22cd662fbffa38d805,2016-04-18 06:46:13,Forbes Lindesay,2.0.0-alpha5,False
+55ec854c34e7a6ea8c5bcd29c84a701e0334e225,2016-04-18 06:44:29,Forbes Lindesay,"Fix filter in include (#2317)
+
+* Add test case for filter-in-include
+* Update pug-filters to 1.2.1
+
+[closes #2287]",False
+038600cdd7ab313374b0e307b1e9d0e99a4d39f8,2016-04-17 20:42:22,Forbes Lindesay,2.0.0-alpha4,False
+433e2ab18b3aabe7b34947489f799c0390aa0ac4,2016-04-17 20:40:45,Forbes Lindesay,"Fix including pug files with an implicit extension (#2316)
+
+By adding `.pug` directly to the path token, we ensure that it is still
+recognised as an Include rather than a RawInclude.",False
+2c373c17a514e1527f12eb6667685f843f1933a9,2016-04-15 05:58:49,Andrew Toskin,"Note: Pug CLI has been split into a separate node module. (#2311)
+
+...So you can't use Pug directly from your commandline shell without installing
+`pug-cli`.
+
+This update is in response to GitHub issue #2295.",False
+3aebef3e479626bc50c0bcfff1173267d4fa6e86,2016-04-07 21:34:34,ForbesLindesay,2.0.0-alpha3,False
+49ad09d30fcb24e592bbacc24ed81b5d542411ed,2016-04-07 21:32:29,Forbes Lindesay,"Merge pull request #2286 from pugjs/filters-options
+
+Accept filters as an option rather than defined on exports",True
+fa565e18b98c5b0a66b4922d20c8d86829cffabf,2016-04-07 21:16:48,ForbesLindesay,Fix tests in older versions of node,False
+8557c105749ff58eeb4bcd0ae2ab3a9bafdd905a,2016-04-01 20:26:48,ForbesLindesay,Update filters tests,False
+b31bf6f1df7a637baf074f299e120a12c6e35a54,2016-04-01 20:19:24,ForbesLindesay,"Pass through filterOptions to handleFilters
+
+This allows the user to set default options for filters (e.g. default
+syntax highlighter for markdown or minifying js/css in production).",False
+154b6ecc6525b71cb80e00c9ea2b1a303787e1e4,2016-04-01 20:02:55,ForbesLindesay,"Accept filters as an option rather than defined on exports
+
+This will fix the fairly common issue where people add a custom filter
+to one version of pug but then use a different version to do the
+rendering (via something like a gulp/grunt plugin).",False
+ab26404b880a1db0b44269354d11d9c55ab4862f,2016-04-01 20:01:32,ForbesLindesay,2.0.0-alpha1,False
+ea85035f7714bbdd916dbd13b0ab36bb956970c8,2016-03-23 05:20:36,Forbes Lindesay,"Merge pull request #2275 from jespino/patch-1
+
+Fix some links to other projects and tutorials",True
+f736789750e656aa94c8d2dd8494adadd25c0948,2016-03-22 15:02:54,Jesús Espino,Fix some links to other projects and tutorials,False
+3b47070d56360b787c48a28804943876655fe23e,2016-03-17 00:57:57,Timothy Gu,"Merge pull request #2269 from MikailBag/master
+
+Update .travis.yml",True
+6e5f943759620789ec69cd97cd208c1552844b62,2016-03-16 23:47:12,MikailBag,"Update .travis.yml
+
+testing on node 5",False
+0610bdf6f58804a518322b7c002a4402e7bc0ce3,2016-03-15 18:51:30,Forbes Lindesay,"Merge pull request #2267 from pugjs/pug
+
+Rename to pug",True
+355d3daeb310b304dc5f93abf1b6f3fdbbb1b40a,2016-03-15 18:50:28,ForbesLindesay,Rename to pug,False
+fa0d86ff41c8c99d10fe97d1f25d182d0b447801,2016-03-15 05:38:17,Timothy Gu,"Merge pull request #2265 from montyanderson/master
+
+README.MD: Changed links on Travis and David DM badges to new reposit…",True
+421ebe3d2593eb0c435f5dd6060117a12082c28c,2016-03-13 20:08:38,Monty Anderson,README.MD: Changed links on Travis and David DM badges to new repository.,False
+ea4be34ffe72af6ff39c7b750a06fed1e5bdca56,2016-03-08 11:32:59,Timothy Gu,"Merge pull request #2261 from montyanderson/master
+
+Updated Travis and David-DM badges to new repository",True
+c11e96764e9d13405a1e33739a3af2d4b30ec8f2,2016-03-08 03:57:34,Monty Anderson,Updated Travis and David-DM badges to new repository,False
+2d93589d70afcb08d0c60d67a893d13f509bb972,2016-02-16 01:25:48,Timothy Gu,"Merge pull request #2244 from nathanhleung/patch-1
+
+Change repo links to pugjs/jade",True
+c381b366fc123d174c90541a14931b525815d19b,2016-02-15 22:51:27,Nathan Leung,"Change repo links to pugjs/jade
+
+Right now jadejs/jade is a different person's repository (squatter maybe?). I changed Travis to pugjs as well, but coveralls gives me a 404 at pugjs/jade.",False
+0c634789a34afca1f33e359969bdd7e1a3cff37e,2016-02-04 04:44:00,Timothy Gu,"Merge pull request #2238 from TheAlphaNerd/update-repo-in-package-json
+
+meta: update repo in package.json",True
+3622435783dcff8323c9cf8d84bbdb66ea400b41,2016-02-04 03:31:52,Myles Borins,"meta: update repo in package.json
+
+currently the package.json still refers to the jadejs org
+
+This patch replaces it with the pugjs org",False
+553f4bf80fa52ca4d0cf0d75fb5e7c4f9f43cc73,2016-02-01 22:30:21,Forbes Lindesay,"Merge pull request #2230 from dhruvdutt/dhruvdutt
+
+Cleaned up commas in attributes",True
+144e8ac0648f10e75912ba8ded6b63caaa7a636a,2016-01-29 03:14:00,Dhruvdutt Jadhav,Cleaned up commas in attributes,False
+9ae2284dc9542a5efaa9915449da2f856a67a40f,2016-01-25 18:46:47,Forbes Lindesay,"Merge pull request #2222 from coliff/patch-2
+
+Update layout.jade",True
+2578aff93d4e525945903d8a77dccfb95384bbcc,2016-01-22 12:47:48,Christian Oliff,"Update layout.jade
+
+Switch to HTTPS for CDN scripts
+Update Bootstrap to v3.3.6",False
+71bf97f71444a919b2a6d1b2082970f5aae548ff,2016-01-20 04:23:24,Timothy Gu,"Merge pull request #2217 from sg1303/patch-1
+
+Added missing period.",True
+0c608e7645f0340f5ba7039cadefcbab228d67dd,2016-01-20 04:23:05,Timothy Gu,"Merge pull request #2218 from sg1303/patch-2
+
+Added missing period.",True
+1b8c5ce07f708760aead8a762dd900c9f1c5157d,2016-01-20 02:59:46,Sean,Added missing period.,False
+cafca4e4342dffcb096b88663cb709d9dcc45663,2016-01-20 02:55:32,Sean,Added missing period.,False
+b73b758a33f123b83219f35489558c0bf1e5842a,2016-01-11 17:42:30,Forbes Lindesay,"Merge pull request #2202 from chadfawcett/fix-double-bin-class
+
+Class literal is duplicating the bing class",True
+4fa7a95abd6cd5b552b33fdc0e3c23f103857bec,2016-01-11 12:11:32,Chad Fawcett,Add class literal back but with unique name,False
+d849925239acfe42aa5883aa5e812943437b03c3,2016-01-05 08:02:51,Chad Fawcett,Class literal is duplicating the bing class,False
+c6faf98de948f531c38b5d365ac4300a632d746c,2016-01-02 22:08:07,Timothy Gu,"Merge pull request #2199 from cjonasw/patch-2
+
+Update README.md",True

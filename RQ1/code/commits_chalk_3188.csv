@@ -1,0 +1,328 @@
+Hash,Date,Author,Message,IsMerge
+5dbc1e2633f3874f43c144fa4919934bc934c495,2024-12-21 22:34:25,Sindre Sorhus,5.4.1,False
+4ebb62d1ca70c122674558a88932ddf6545fe9ef,2024-12-21 22:31:49,Edwin Kofler,Fix `navigator` not defined `ReferenceError` (#642),False
+fc809b686d5048d56fec3a5d96d1ad57dee193bf,2024-12-18 23:40:23,Sindre Sorhus,Readme tweak,False
+83acfcf8cb17437b63beceb027180399da74f0a7,2024-12-18 23:29:38,Sindre Sorhus,5.4.0,False
+f8381204fb096207074089f5ab265fffff6bc341,2024-12-18 23:28:03,Sindre Sorhus,"Update `CIRCLECI` environments to return level 3 color support
+
+https://github.com/chalk/supports-color/commit/89a52f4a8e3f7606c27810a8f182394d333a844f",False
+4a10354857ba6d7932dad5fa6ef2e021c4ed47fb,2024-08-13 21:13:03,Sindre Sorhus,Add FAQ to readme,False
+77126fba1328bb1b5524c45164d0a44074d5179d,2024-08-08 03:30:20,Sindre Sorhus,Meta tweaks,False
+795273f17a94329c7a46247d8277f9afc2f0a6d9,2024-07-05 16:11:35,Lightner,Update dependents number in readme (#629),False
+386909ee0bfe4346d04e3eeba712f0db597c038d,2024-01-19 20:06:11,Richie Bendall,Tweak example (#623),False
+2db3c7701ec87a1d88b3c636dd46d3d985304bce,2024-01-06 06:38:07,Edwin Kofler,Remove .replit file (#622),False
+f7b29ae8ef4fd2048e08aa361778d290ed10ce7a,2023-08-16 15:44:40,Sindre Sorhus,"Remove repl.it badge
+
+Fixes #587",False
+f399cd0ff69841e88cca89d43a49f1cc9ba2efd5,2023-06-29 18:15:41,Sindre Sorhus,Meta tweaks,False
+72c742d4716b1f94bb24bbda86d96fbb247ca646,2023-06-29 16:26:55,Sindre Sorhus,5.3.0,False
+5aafc0af74d06c89a2a4567aaf9d84d44af4a3aa,2023-06-29 16:22:59,Sindre Sorhus,"Add `sideEffects` field to package.json
+
+Fixes #585",False
+df0e69df5129a5e19acc7ae0199319a104d0e6cc,2023-06-29 16:20:22,Sindre Sorhus,Fix CI,False
+29b856959f4bee5a514c7ed48a1f6879686eadf2,2023-06-29 16:17:28,silverwind,"Update `supports-color` to 9.4.0 (#603)
+
+Co-authored-by: Sindre Sorhus <sindresorhus@gmail.com>",False
+a370f468a43999e4397094ff5c3d17aadcc4860e,2022-12-09 00:16:06,Sindre Sorhus,5.2.0,False
+7443e9faa05b470a8a53850c2ded16fa0810a407,2022-12-09 00:13:43,idanran,Update `supports-color` dependency (#579),False
+a027e3c1e0fa8dcd850e20b7a99e73a5278e8f9a,2022-11-28 12:45:46,Sindre Sorhus,Minor tweaks,False
+79c56dfc1ea57b6762984aac86ab89acd6a9bc2c,2022-10-30 22:24:53,LitoMore,Update Replit badge (#576),False
+c3d14f9ea81713a05d834434027a35de14c17751,2022-10-20 15:59:51,Daniel Li,Update link to Truecolor in the readme (#573),False
+158bf4429ee5c40fd23d45b7d43e5cbbbdf6795e,2022-10-12 22:01:43,Sindre Sorhus,5.1.2,False
+a34bcf63273cd94da041b9507ce57f0f3fd1e89e,2022-10-12 22:00:36,LitoMore,Fix exported styles names (#569),False
+1b4cd21fb15ca441ab8ff1fc4ce9fcd1365e4b7d,2022-10-12 15:06:43,Sindre Sorhus,5.1.1,False
+6e0df055f49b08158b570898cc816aad35f1a003,2022-10-12 15:05:02,LitoMore,Export styles from `ansi-styles` (#567),False
+92c55db46f2396c18764e55e6a52dcb49884a42b,2022-10-05 20:15:55,Sindre Sorhus,5.1.0,False
+d7d75717b3d5a482edd0a1b98b35c7443791709f,2022-10-05 20:14:40,LitoMore,"Expose style names (#566)
+
+Co-authored-by: Sindre Sorhus <sindresorhus@gmail.com>",False
+96f44c976bfcad5651b50831821ce75b441d272b,2022-10-05 20:13:01,Sindre Sorhus,Meta tweaks,False
+c2311622c3f5b972cf80b9f353ea82679cc77edf,2022-09-25 10:54:19,Matt Schlenker,Use template literal types for simple color name transformations in the TypeScript types (#564),False
+ba5c385ecf6c2ad8a0fadb8b94e1ea515c8f9496,2022-07-03 04:06:34,Sindre Sorhus,"Update screenshot
+
+Fixes #554",False
+503b9d35cd0a1fe2ac80deadd06def00db8221a0,2022-06-26 18:28:46,LitoMore,Update Replit badge (#551),False
+b17d862944f9efea1ee12aaf80fe19ed5063a34d,2022-03-30 11:11:57,Richie Bendall,Improve browser detection (#542),False
+d28690e66b184dc19b9baaea1cce900737aa8ccc,2022-03-27 23:41:02,CommanderRoot,Refactor: Replace deprecated `String#substr()` (#541),False
+bccde97f8a1bb125d4fe99e8fd355182101ff4f2,2022-03-09 00:13:33,Sindre Sorhus,5.0.1,False
+85f7e96f758e95dee5211b9bca1a173b8fb3abe9,2022-03-09 00:12:04,Sindre Sorhus,"Add `main` field to package.json for backwards compatibiltiy
+
+Fixes #536",False
+4d5c4795ad24c326ae16bfe0c39c826c732716a9,2021-11-26 15:27:26,Sindre Sorhus,5.0.0,False
+7a6893551d93ebe0bd031141b3e2b91d7e0676aa,2021-11-26 15:25:15,Sindre Sorhus,Fix code coverage,False
+04fdbd6d8d262ed8668cf3f2e94f647d2bc028d8,2021-11-26 15:04:27,Sindre Sorhus,Bundle dependencies,False
+d7c4aac07e422c8ae534897b3f1707aa71a51c73,2021-11-26 14:30:01,Sindre Sorhus,Upgrade dependencies,False
+09fd5c4ba812cc2e3a0df183caf3e53cc556e440,2021-11-21 12:21:24,Richie Bendall,Re-export types from `supports-color` (#526),False
+c987c614869ba286f0eb11c1966ee1d135c80599,2021-11-10 14:42:33,Richie Bendall,Remove support for tagged template literals (#524),False
+f478655c3c04c844f70a596d9ec750c3da00f795,2021-10-26 23:52:37,LightnerDev,Update dependents number in readme (#521),False
+3761e455a17ebb1c01b2736fbe8bd42534383ab2,2021-10-25 00:37:02,Richie Bendall,Meta tweak (#520),False
+95217429be9de27c826ca02fa37653e9e371e82f,2021-10-01 22:32:38,Sindre Sorhus,Minor tweaks,False
+625a2857722fb86cfe98f22c9c12888238e36f51,2021-07-30 21:05:30,Sindre Sorhus,"Add `types` field to package.json
+
+Fixes #500",False
+48d25d156a109a6859ff2e907dbecf90a19e7e0a,2021-07-30 17:28:57,Sindre Sorhus,Meta tweaks,False
+b68c8b5102f04fb80bfdf83319d143aedff68bcb,2021-05-05 20:10:56,Sindre Sorhus,Meta tweaks,False
+f8a3642a8107f6029c6923b72a43c35a1065a336,2021-04-22 13:33:48,Richie Bendall,"Minor tweaks (#437)
+
+Co-authored-by: Qix <Qix-@users.noreply.github.com>",False
+4cf2e40e0739d4f5a3f1cd235b0e05e979bc5f34,2021-04-22 09:24:42,Richie Bendall,"Add `overline` style and remove `keyword`, `hsl`, `hsv`, `hwb` and `ansi` color spaces (#433)",False
+0fba91b0373c86800c45096ad215d38481f49614,2021-04-20 12:18:30,Richie Bendall,Keep function prototype methods (#434),False
+d798222a5a3ff208782ce81f5fbd3babb286b3e3,2021-04-17 18:03:03,Richie Bendall,Add named exports (#432),False
+fa16f4ec37c1c25bda6ca1864bf53ecd3ea3d3c9,2021-04-16 14:52:53,Sindre Sorhus,Require Node.js 12 and move to ESM,False
+4dab5e1fb6f42c6c9fdacbe34b9dafd24359208e,2021-03-12 23:21:42,Sindre Sorhus,Meta tweaks,False
+9bf298571eeee20001ba9ff5158b07d2d8a67ec1,2021-01-30 15:29:16,Sindre Sorhus,Meta tweaks,False
+2a9abb18f4c33b71fbda25be0f3de53bd86eef31,2021-01-24 12:57:41,Sindre Sorhus,Rename `master` branch to `main`,False
+97a08618485d25cee6c62712584648f838777727,2021-01-21 08:49:50,Sindre Sorhus,Update badge,False
+0433fcff2af28a64cc4e07345b0e78cb664142ea,2021-01-20 13:15:02,Sindre Sorhus,Update a link,False
+d5fb377019c26e3beae55f97906c4fd1bec30402,2021-01-02 19:08:53,Richie Bendall,"Move to GitHub Actions (#426)
+
+* Move to GitHub Actions
+
+* Update readme.md",False
+ca330532ecfb83e46efa9e94d1c0630a058ff1ba,2020-12-16 08:39:08,Sindre Sorhus,Add @Qix- to funding.yml,False
+e304e8c2302c5fc3a1705756640a3bee94dec857,2020-12-08 20:15:51,Sindre Sorhus,Add Dev badge,False
+02abeebac3fa41b346ad1f0b4674d371953da932,2020-11-21 18:37:13,Richie Bendall,Only iterate through models once (#421),False
+72299f99a0f785128b3b974afac7d8a9bccbeb4a,2020-11-20 19:56:28,Toon Baeyens,remove fixed number of iterations (#406),False
+c0d8e7ed8a3ec549c81597fc06163276142d948d,2020-10-04 03:26:24,Richie Bendall,Update test dependencies (#414),False
+b31d6fb48a570d9be48044abe656c36dcac094e4,2020-10-04 03:25:17,Richie Bendall,Add browser support information (#415),False
+445092f9af0a0c71070c3acc435340a9278e67f1,2020-09-09 21:18:28,Sindre Sorhus,Update readme.md,False
+4c3df8847256f9f2471f0af74100b21afc12949f,2020-06-09 13:13:27,Sindre Sorhus,4.1.0,False
+09ddbadcb5569f6d6ace11f54242c339d727d546,2020-06-09 13:06:34,Toon Baeyens,"Support template literals for nested calls (#392)
+
+Co-authored-by: Sindre Sorhus <sindresorhus@gmail.com>",False
+55816cdd4d25a86cc35b18e1e578a5b164f71aee,2020-04-16 09:26:23,Steven,Update readme links to use https (#396),False
+31fa94208034cb7581a81b06045ff2cf51057b40,2020-04-02 13:47:06,Sindre Sorhus,4.0.0,False
+61999a4e77f7d4ca0631f6c833b9ad5d76d925d5,2020-04-02 13:40:07,Sindre Sorhus,Require Node.js 10,False
+f0f4638a92890ba3a329209836d5f904cfeb581a,2020-04-02 13:21:17,Sindre Sorhus,"Change the TypeScript `Level` type to be a union instead of enum
+
+Fixes #373
+Fixes #382",False
+7f21f209da984ef156195d814a8cba20e8e28d10,2020-04-02 13:19:20,Richie Bendall,Properly check if `level` is an integer (#393),False
+63469d30e4514136651ae0bbe08e2d3046b02024,2020-04-02 13:17:12,Bradley Farias,Use `Object.setPrototypeOf` as `__proto__` could potentially be disabled (#387),False
+797461ee3232c0013afc9b51d18ea2ba87227f10,2020-01-02 00:10:12,Sindre Sorhus,Meta tweaks,False
+0e6fecc7f7fd8158d3c96fb89608b8dfb744fdfa,2019-12-13 01:42:22,Edwin Kofler,Add link to replit run (#379),False
+20002d8bd1dfd6f68bfa8bdacba520ff6027a450,2019-11-09 12:28:44,Sindre Sorhus,3.0.0,False
+b3930189a54aa84434a2f3ea7a18ec83d6a5ee92,2019-11-09 12:27:31,Sindre Sorhus,Meta tweaks,False
+18c280da2ea2d8a29556891f771c0f7bcf5678ab,2019-11-09 11:52:55,Mark Pedrotti,Add `ansi` and `bgAnsi` to TypeScript declaration (#369),False
+628b5954cf1ea07a00dfed13d51bbd95f5d42de1,2019-10-30 18:08:56,Sindre Sorhus,Tidelift tasks,False
+4de1841129cf3d0a1db7a5d6638402b7828e1731,2019-10-08 14:51:40,Sindre Sorhus,3.0.0-beta.2,False
+fb8e85ab875eb95b55448fd615daacf8c325cf44,2019-10-08 14:32:34,Mark Pedrotti,Add `ansi256` and `bgAnsi256` to TypeScript declarations (#368),False
+eef8c8c191d25deecde8c472e10a37c6f736e2e9,2019-10-01 06:43:15,Mark Pedrotti,"Replace level list with table in readme.md (#367)
+
+* Replace level list with table in readme.md
+
+* Capitalize table headings and center level numbers",False
+48905d08052aad4c8ba53bbd9fbcd8a9faf4f6e5,2019-09-27 10:37:07,Sindre Sorhus,3.0.0-beta.1,False
+1953816afd7d36e0a6751331a0441822477313b8,2019-09-27 09:46:49,Sindre Sorhus,Update dependencies,False
+61aca7cb768cc4e3bc5d11abbad32377c72e1ff3,2019-09-27 09:25:19,Yanis Benson,Improve require speed (#358),False
+4e65299e7bc54949d00ec0c963daf08635d83bc0,2019-09-27 09:23:54,Khải,Fix const enum for TypeScript (#364),False
+2a53389d72cf46dbb9d73ab730d99e15cb230c7f,2019-09-22 14:37:33,Yanis Benson,Add `chalk.stderr` (#359),False
+6b4d20683f7490195e51f80829f3d465b9835de1,2019-08-22 18:58:25,Simen Bekkhus,"Export TypeScript types for colors and modifiers (#357)
+
+Co-authored-by: Sindre Sorhus <sindresorhus@gmail.com>",False
+1f77953f1a358fa8f626f0fd872792d63da6d58a,2019-07-13 11:15:31,Qix,Remove the `.enabled` property in favor of `.level` (#356),False
+87156ce8e2696a6002a51fbd1168e43eb9c70ce4,2019-07-13 00:19:56,Ahad Birang,Fix support for nested styles (#335),False
+c25c32a25f4315c1f7ee21cc7b36b497c4f0212a,2019-07-12 12:43:58,Sindre Sorhus,Update dependencies,False
+655653bb0c88fb05f839d5027f79751449771ec4,2019-07-12 12:43:02,Sindre Sorhus,Meta tweaks,False
+af4a0782458e212aa858a858c55f3878fcbbd75b,2019-07-12 12:41:25,Boris K,Update docs for `FORCE_COLOR` environment variable (#315),False
+c08417e88ca41f7133eb1a00e0b3fc8aefbb6cc9,2019-07-12 12:10:23,Yanis Benson,Improve performance greatly (#337),False
+983094883cfe42e79c60c6a6a05b21a0bcd00c35,2019-07-12 12:05:11,Qix,Fix support for bracketed Unicode escapes in template literals (#350),False
+e2dd171597200df04aad3bf6e39329189a315153,2019-06-30 21:41:52,Marcos Marado,Remove outdated info in the readme (#351),False
+d82b2a66389d26dab1a44c85ac273f894af4aaae,2019-06-10 23:17:16,Florian Reuschel,Add missing `false` type to chalk.supportsColor (#347),False
+4ab4665994689b1157be7d37148eb2547b0b446b,2019-05-31 13:23:04,Sindre Sorhus,Tidelift tasks,False
+4990a3578affe1c14ad5d66923ff9849a4117ec3,2019-05-23 15:17:28,Sindre Sorhus,Add GitHub Sponsors button to the repo,False
+b3e9b91405c8fa93fa8b2b9343449a797baba0a0,2019-05-11 13:34:20,ExE Boss,"Fix TypeScript types for `supportsColor` which is top‑level only (#342)
+
+Co-Authored-By: Dimitri Benin <BendingBender@users.noreply.github.com>",False
+d3be9c65b11f505e0e8bd9d4796c4988bb634cf7,2019-05-03 13:33:53,Sindre Sorhus,"Drop built-in Flow type definition
+
+I don't want to be responsible for maintaining it.
+
+Submit it to https://github.com/flow-typed/flow-typed if you need it.",False
+98628d9f087a5c1771651fa7b867dcd2356c2123,2019-04-28 09:40:44,Dimitri Benin,Use CommonJS-compatible export in TypeScript definition (#344),False
+7b9211be501f0608ed89c1a6da88a144199b7a54,2019-03-14 22:38:50,Sindre Sorhus,Minor refactoring,False
+cd5de7a2f6a7a04fbad4c75c0364a3efc6048ade,2019-03-12 22:54:34,Sindre Sorhus,"Remove dim style workaround for Windows (#331)
+
+See: https://github.com/chalk/chalk/pull/330/#issuecomment-471977551
+
+The issue seems to have been fixed in newer Windows 10 builds. We're not interested in adding a conditional for older Windows versions as the fix severely complicates the codebase, and it also creates problems for consumers as it makes the output unpredictable.",False
+2ca015c4c537896dd378b94ecbbdec935a7b1b52,2019-03-12 19:01:33,Sindre Sorhus,"Remove the blue color workaround for Windows (#330)
+
+The illegible blue color has been fixed in Windows 10 build 16257: https://blogs.msdn.microsoft.com/commandline/2017/08/02/updating-the-windows-console-colors/
+
+The workaround causes all kinds of problems, so better to remove it than adding conditionals for older Windows versions.
+
+Fixes #329",False
+3ef170b457dd9a318f74080dbaeb935c86ed026b,2019-03-12 18:45:36,Sindre Sorhus,Require Node.js 8,False
+de2f4cd6063b40834096c7dc874562006bb1283c,2019-03-12 18:23:03,Tom Sherman,Deprecate `chalk.constructor()` in favor of `new chalk.Instance()` (#322),False
+60959e05cfe7086a38927eae5b5e04c459ce4182,2019-03-01 11:48:47,Richie Bendall,Update depended packages count,False
+7f6e5630b0097774d6961e9c0921697a300fbd0f,2018-12-28 16:43:56,Jonathan Van Buren,Change tagged template literal argument type to accept `unknown` instead of just `string` (#316),False
+587a5fbcbb61f83270fc102da47615b8ff64351c,2018-12-26 07:43:52,Sindre Sorhus,Code style tweaks,False
+076f0c9eb6d6575db745f2753832918eaefe627d,2018-12-26 06:59:32,Chris Harwood,Add extra level/enabled property info in the readme (#308),False
+1284415013c24c5c51c1ee339bf85c7c8b7cbd7c,2018-12-26 06:57:57,Sindre Sorhus,Enforce `chalk.constructor` to be called with `new` in TypeScript,False
+cf6615647a55d5f0b8ff1c36f06faee6b22e3221,2018-12-26 06:57:02,Sindre Sorhus,Type definition improvements,False
+4726b1bfda3046ed02387ed587c8e9e8be1728b5,2018-12-26 06:48:40,Sindre Sorhus,Update dependencies and meta tweaks,False
+90c7a92ff126233a6e0350fdc163b5045935b09c,2018-12-26 06:36:00,George Gkasdrogkas,"Add docs comments and tests for TypeScript definitions (#299)
+
+Fixes #293",False
+f590a65489d8fc36c21a2f5f8d82d91d438ab05d,2018-12-25 19:15:17,Sindre Sorhus,Add security section,False
+70bb378e8e99385acfff28141b08249c5985b351,2018-11-30 10:04:09,Timothy Yung,Strict mode in Flow definition (#309),False
+b827cb081792c04212284c93bb07bd5c758bab05,2018-10-27 19:39:54,Atif Aziz,"Fix ignore chars regex flags in rainbow example (#306)
+
+Use global matches rather than stopping after the first match.",False
+1542c85f1b31867f387a322be7396ce069adfe26,2018-10-13 11:02:09,Sindre Sorhus,"Replace RawGit URL
+
+Fixes #305",False
+8a090d788513a96c4c5e5cc74017c8006d1ba236,2018-09-30 00:11:55,Sindre Sorhus,Add Tidelift mention in the readme,False
+b9c95dbfd27371a428e642dd3b8d0f2159d642ac,2018-09-19 00:50:53,Paul Melnikow,Add type definitions badge (#286),False
+6a14c58e54809f15889830eddee1ea8a6acb1b2e,2018-09-18 14:18:47,Chris Harwood,Add failing test for #234 (#235),False
+2a678789b1ecdb6ad2ad0c918a7ee70df7abb464,2018-09-18 14:03:20,Sindre Sorhus,"Validate the `level` option
+
+Fixes #248",False
+0307f263cb29dace28e7cf0648b13a3f527697af,2018-09-18 13:02:14,Sindre Sorhus,Require Node.js 6,False
+70f22d87ba4348637f236686bd17318922107a44,2018-09-01 01:20:53,Sindre Sorhus,Tiny travis.yml tweak,False
+a2b5fa22dca4cf0949d978826d3c05478ea2ecf2,2018-08-06 14:23:00,Sindre Sorhus,Add some badges to the readme,False
+a6ad9454525c0af602931049155cc51eccc72bb4,2018-05-28 07:46:44,Sindre Sorhus,"Fix XO linting and update some dev dependencies
+
+Fixes #275",False
+48ba5b0b9beadcabd9fc406ac4d9337d8fa6b36d,2018-04-26 10:45:49,Sindre Sorhus,2.4.1,False
+01cfb5c888481d044b90fcfebddb73defee602d7,2018-04-26 10:44:22,Jamie,Improve Flow type definition for CommonJS interop (#268),False
+fc9a7e369b83eb91d27e0880b06b4d0a7e204a69,2018-04-20 12:12:59,Sindre Sorhus,GitHub now natively supports SVG,False
+af8b3657e96a0a6ca5190fb0d0a1345797148320,2018-04-17 09:58:35,Sindre Sorhus,2.4.0,False
+7c6f83f719b241b7a1a1cd54b256d123e53eab4a,2018-04-17 09:56:17,Saad Quadri,Add Flow type definitions (#260),False
+58483b5ab110775eb0cfc4999f1cf7e971a00fda,2018-04-04 23:13:46,Sindre Sorhus,Add a related package to the readme,False
+0dae4c28e136513b96c3cc1b49de4d85a53b50a2,2018-04-02 13:05:53,Sindre Sorhus,Add Patreon badge,False
+84f27d4bd86f7f482a32652ae536cd996ad204bd,2018-03-02 23:13:48,Sindre Sorhus,2.3.2,False
+245dfa5c6fc4200894fc812eaa4b4159d153e0bb,2018-03-02 23:12:56,Sindre Sorhus,"Bump dependencies
+
+Closes #255
+Fixes #254
+Fixes #224",False
+e80f02e2ddae53b897fa2d9751d5d86fae493b45,2018-02-15 08:00:52,Josh Junon,Disable unicorn/no-hex-escape for template tests,False
+925397a0f5d7f17605eaabd6ee3bb26d77280d2d,2018-02-15 08:00:50,Josh Junon,Disable unicorn/no-unsafe-regex for template parser,False
+52823001a59ea2270c186cb41c36b0e3e0a6da37,2018-02-15 07:58:22,Josh Junon,"Revert ""Fix linting""
+
+This reverts commit 12d1276b36cc026ecea1bdfe1771198b242f7b1d.",False
+12d1276b36cc026ecea1bdfe1771198b242f7b1d,2018-02-14 23:11:45,Sindre Sorhus,Fix linting,False
+576d8d217179d2e913e29639586204c2c2a76dc3,2018-02-14 22:45:28,Sindre Sorhus,Update URL to XO,False
+ae8a03f2c5c49896adeb3dd4ec5350e4ab9449a2,2018-02-11 18:48:25,Sindre Sorhus,2.3.1,False
+b55dd79f8bbd37725de562ce7422cd3ba8c87c3e,2018-02-11 18:34:55,Sindre Sorhus,"Force bump dependencies
+
+npm is buggy, so doing this just to be sure.",False
+678152cf1952f3afe1e523a306c0413ad57c34b3,2018-02-11 15:29:24,Kayla Washburn,Update chalk to use the latest updates to supports-color (#247),False
+011dd0421e14b21a07392b8d9d28ba9e851397b4,2018-02-11 14:33:50,Aman Pratap Singh,Fix usage example in the readme (#251),False
+655403055099299cc8c5053af970366d0c4c32b7,2018-01-29 20:50:23,Mario Nebl,Use svg screenshot,False
+bc3dd75329b43eeda3200ac9a161b6e5a9b9dfe3,2017-12-31 20:50:49,Samarth Verma,Update usage stats in the readme (#242),False
+a8c60e37fa5fd9024c727e296bd24c37f7d725d1,2017-12-09 15:50:28,Brandon Smith,Fix spelling error in readme (#232),False
+539231341426d4b3951b062e806123137b452bf7,2017-10-26 12:03:12,Andrew,Correct HSV and HWB examples,False
+14e0aa97727019b22f0a003fdc631aeec5e2e24c,2017-10-24 09:42:53,Sindre Sorhus,2.3.0,False
+7be154c074026f77b99e7d854b3a4cdd5e4ae502,2017-10-24 09:32:36,calebboyd,TypeScript fixes (#217),False
+e1177ec3628f6d0d37489c1e1accd2c389a376a8,2017-10-24 08:45:51,Josh Junon,2.2.2,False
+e2a4aa427568ff1c5d649739c4d1f8319cf0d072,2017-10-24 08:42:34,Josh Junon,fix .visible when called after .enable is set to false,False
+ede310303b9893146bd7cc24261a50e3b47c633a,2017-10-24 08:42:16,Josh Junon,add failing test for .visible bug,False
+6adf5794a38552923ea474c4b60c372ef0582035,2017-10-24 08:16:10,Josh Junon,2.2.1,False
+dc092b4a5f5ca77dd1e22607cdf2fdd388803064,2017-10-24 08:14:46,Danny Kirchmeier,Add .visible for emitting text only when enabled (fixes #192),False
+4372d27f7eb887c4d33cdca1f9484f321ceab3dd,2017-10-22 13:50:23,Sindre Sorhus,Add Awesome mentioned badge,False
+d86db88e778fa856f4d6f5f68c588750ca06b822,2017-10-18 08:45:39,Sindre Sorhus,2.2.0,False
+f0533f655d237f04ec1b8744e45de60c42a7bee2,2017-10-18 08:44:40,Sindre Sorhus,Bump dev dependencies,False
+f653b061d6fbdb1c7224f7d80476391202c47877,2017-10-18 08:40:43,calebboyd,Add TypeScript definitions (#207),False
+5e6d5fda44aa08e24a6b279bc16caf148c28e2db,2017-09-20 21:33:52,Kevin Martensson,Add `strip-ansi-stream` to related modules,False
+7898eda561759850852fe63ba0895a49fe5b4b72,2017-08-24 13:45:18,LitoMore,Update chalk-pipe description,False
+37db75e1fd6efaabda7e7ba7751d359a34ab75cd,2017-08-24 13:45:18,LitoMore,Add related package in the readme,False
+a9f0c771422b0bae65d3ff1ae4835de416350715,2017-08-07 21:12:39,Sindre Sorhus,Use a `Map` and some minor regex tweaks,False
+38f641a222d7ee0e607e4e5209d3931d2af1e409,2017-08-07 09:21:22,Josh Junon,v2.1.0,False
+69ac663f29e92d309b0b221e117ccb6be4ed4ecd,2017-08-07 07:28:17,Josh Junon,Fix undefined and null interpolated expressions (fixes #194),False
+106f086aaf00467b7161f8cec4b6cd255c30169f,2017-08-07 07:28:17,Josh Junon,"Rewrite templating system (closes #186, fixes #184)",False
+f0c0178d12c4e0b2b3a3e92afb15dbabb2882b9b,2017-08-07 07:28:17,Josh Junon,Allow multiple arguments in base chalk object (fixes #187),False
+0827d3b6327dfd5e132589b1308703c9b4e127ef,2017-08-07 07:28:17,Josh Junon,"Fix level when supportsColor returns falsey (fixes #176, #175)",False
+fbd17e7a699e7a7a1d3ebbb0ce4961b5ea172449,2017-08-07 07:28:17,Josh Junon,Escape backslashes in template arguments (fixes #177),False
+7a75399b7263bd68e3bfcded88f6624890aea01f,2017-08-07 07:28:17,Josh Junon,Add failing template tests,False
+7dbd8c3993e3b2ccfa0ac0864b8266e43799461b,2017-08-02 05:11:35,Boris K,"Add related packages in the readme (#193)
+
+Added chalk-animation as suggested by @sindresorhus
+Added gradient-string because it also uses chalk and provides new features.",False
+4c4ba2df3d7630fd16f0c49c4b7c923109338807,2017-07-24 01:54:56,Sindre Sorhus,Fix template literal test,False
+4c4eb1fd0aa9efea2b469f130ed01d6891670ac4,2017-07-24 01:47:33,Kevin Mårtensson,Move testing to `ava` (#182),False
+e8d28f3041251c650ee05b4cdd34a3ff95754d02,2017-07-24 01:43:55,Kevin Mårtensson,Return empty `string` when there are no arguments (#183),False
+5cdd9eddf8d1e53c03b3bb122004786fb90706bf,2017-07-22 03:33:49,Vadim Demedes,Demonstrate crash when using Truecolor methods and color is unsupported (#174),False
+23092eefd2401f1a41d9fb931ce9091ec2f624c5,2017-07-08 04:33:36,Josh Junon,add note about brightBlack (ref chalk/ansi-styles#33),False
+8d26c1401cac1b1123e6b82f20f866e1d8756986,2017-06-30 20:49:57,Sindre Sorhus,Minor meta tweaks,False
+5ec90cb35460008ef7d3adb506ba3ce2cd46672d,2017-06-30 16:23:46,Sindre Sorhus,Link to v2 release notes,False
+3d10f8fad76737fd9443219997d83a24e88dffb0,2017-06-30 16:12:24,Sindre Sorhus,Code style tweaks,False
+5827081719944a2f903b52a88baeec1ec8581f82,2017-06-30 08:56:07,Josh Junon,2.0.1,False
+caeb7d8dca24cc09ade47ea48f762693a4926ed6,2017-06-30 08:41:09,Josh Junon,fix missing TERM cases,False
+3fca6150e23439e783409f5c8f948f767c2ddc5a,2017-06-30 05:19:18,Sindre Sorhus,2.0.0,False
+f66271e01a901470a3d5afcb3feae552848ccf0c,2017-06-30 05:16:19,Josh Junon,Add tagged template literal (#163),False
+23ef1c7ca2f64f905f0c17edc1b78ebf9def82cd,2017-06-30 04:35:28,Josh Junon,fix linter errors,False
+c0155688cf57edb6bee5b97dcc3548f47454e645,2017-06-30 04:30:51,Josh Junon,add rainbow example,False
+09fb2d86060e6c46e57a696c5bf682be0245b47b,2017-06-30 02:04:00,Josh Junon,Re-implement `chalk.enabled` (#160),False
+608242a4fc05bf187d4bfb33052e94e011d4b30e,2017-06-29 12:31:36,Josh Junon,spoof supports-color,False
+18f2e7c122690070ea148fbbe846e839fa6a8962,2017-06-29 12:31:36,Josh Junon,add host information output,False
+523b998e64cbf1398d6a34138be23f53651597c1,2017-06-29 12:31:19,Josh Junon,"Revert ""TEMPORARY: emergency travis CI fix (see comments)""
+
+This reverts commit 54975fb20d54eba20d7c4053fc6be8c475c26852.",False
+54975fb20d54eba20d7c4053fc6be8c475c26852,2017-06-29 12:12:38,Josh Junon,TEMPORARY: emergency travis CI fix (see comments),False
+1d73b211116d95bb4706b66523b59299952e83e5,2017-06-21 01:47:27,Sindre Sorhus,Improve readme,False
+6f4d6b30fba5d207b45e3ee0aff318e08380f1cb,2017-06-21 01:08:49,Sindre Sorhus,Bump dependencies,False
+870249689acc6b04e81e96d2c09c39b76c640a94,2017-06-21 01:07:29,Sindre Sorhus,"Remove `chalk.styles`
+
+Very few consumers use this. Those who need it can just use the `ansi-styles` package directly.",False
+0412cdf07be9869fcb165d90f1949a805292d41b,2017-06-21 00:47:16,Sindre Sorhus,Minor code improvements,False
+249b9ac7e75077de5fc9d8063df35918745e8471,2017-06-20 22:51:14,Sindre Sorhus,ES2015ify the codebase,False
+cb3f2308e17cd2878d2722db7762bdc725e9ff48,2017-06-20 22:32:09,Josh Junon,Add RGB (256/Truecolor) support (#140),False
+dbae68d623270e86300b9e066bf960b42961b820,2017-05-31 15:25:22,Haroen Viaene,Update dependent package count in the readme (#154),False
+9b60021fa605a6ebf62fbfd42d02c45597b10e6e,2017-05-21 21:58:38,Sindre Sorhus,Drop support for Node.js 0.10 and 0.12,False
+0d2144904b9b5769076106aa67583273e160f801,2017-01-30 14:40:02,Josh,check parent builder object for enabled status (#142),False
+5a6947614290da16f513780c56217e925cfab533,2016-10-26 18:43:45,Sindre Sorhus,add XO badge,False
+492f11fb597094199c2e1926a73c64b94c759f06,2016-10-26 11:30:12,Sindre Sorhus,add example file,False
+4ce73b632b8203227e8966a603f90f7fca7c53a8,2016-10-17 22:20:22,Sindre Sorhus,make XO happy,False
+7c02cf45f80d9c16c1d53496b28c4caeb382a36c,2016-09-08 15:42:05,Josh Junon,"Add log statement to chalk examples (#129)
+
+* Add log statement to chalk examples
+
+Added what are essentially `console.log()` calls to the chalk examples.
+
+Closes #128.
+
+* Update readme.md",False
+835ca3d9503fa987725bde711b97ca4be2386221,2016-08-04 02:13:03,Popey Gilbert,"You've just reached 10,000 dependent modules. (#122)
+
+* You've just reached 10,000 dependent modules.
+
+* Update readme.md",False
+74c087db82e56837a69aa3c2c636ed268b3c75a6,2016-07-27 11:43:15,Sakthipriyan Vairamani,"minor doc improvements (#120)
+
+* minor doc improvements
+
+* address review comments",False
+d939a3f9bc70b9f6d265934047e4a191078180b4,2016-06-16 18:06:05,Sindre Sorhus,fix XO lint issue,False
+a125eb0e726f51a3ad6499831f6edcabcc5411db,2016-06-14 21:50:49,Sindre Sorhus,OS X → macOS,False
+6c3e57351bb8b3db20a400745b0ad249e66c3927,2016-05-02 14:06:40,Sindre Sorhus,test on Node.js 6,False
+fe2e4b093e446b2e7e037476919c113873aba394,2016-05-02 14:06:24,Sindre Sorhus,update code of conduct,False
+2653218312383882256dd2b9217b74bfc4a5dd01,2016-04-06 21:35:21,Sindre Sorhus,meta tweaks,False
+ff2c3ea9a5f3ea4401dc0d0034f10917ed2838e6,2016-03-16 02:59:36,Josh Junon,"Merge pull request #104 from popey456963/patch-1
+
+7,700 Dependent Modules",True
+426fc485bd5f038de52ecc8d170c9c9092ed77e2,2016-03-16 01:48:41,Popey Gilbert,"7,700 Dependent Modules
+
+Yet another 1,000 modules in only two months.  That's almost a project an hour now using Chalk!",False
+9001b3933afbba51ed4361f3d0edd719c0a1d2ab,2016-02-21 17:44:22,Joshua Boy Nicolai Appelman,Updates maintainer email.,False
+308f6b6a1eb4bb217fe873ee81a56237c1231b06,2016-01-17 17:14:51,Sindre Sorhus,minor tweaks,False
+18c64ad7ba85bae41dd6226207fff8a329554826,2016-01-17 17:08:10,Sindre Sorhus,cleanup #92,False
+05f87e25e108726ee469aa56cc88fcc160a911ed,2016-01-17 17:05:27,Martin Heidegger,Close #92 PR: Closing before and reopening the style after a line break.,False
+139f8b68cccfa42269f92c33cdd0068251a5e854,2016-01-15 04:36:24,Sindre Sorhus,add Code of Conduct,False
+51b8f329e896d049e8713376edef464cd7743988,2016-01-11 16:18:13,Josh Junon,6700 dependents! 🔥,False
+8417f175abe6811e74add2878f2e7f01530a067c,2016-01-09 20:50:22,Steve Mao,Close #95 PR: tweak defining proto.,False
+a301cbf3d1ff1ac7ff14b76f70e74bd0cf5704a8,2016-01-07 00:59:59,Sindre Sorhus,"Merge pull request #97 from stevemao/missing-tests
+
+add missing tests",True
+8ec46cfb35d71dd3566682907d83202d8bb21bc8,2016-01-07 00:59:00,Sindre Sorhus,"Merge pull request #96 from stevemao/bump-deps
+
+bump deps",True
+337f9c748584a41442eb9795fcb652f120b4840b,2016-01-06 13:36:51,Steve Mao,add missing tests,False
+5679ec0c047063f1d1b6ff4e3357c93d47c2b351,2016-01-06 13:30:34,Steve Mao,"bump deps
+
+No breaking changes to this modules.",False
+b8e7da63672fd669421abca42b6bd3fdf29042f8,2016-01-01 02:15:28,Sindre Sorhus,"Merge pull request #93 from venning/master
+
+Use HTTPS for shields.io unicorn badge",True

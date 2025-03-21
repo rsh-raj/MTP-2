@@ -1,0 +1,594 @@
+Hash,Date,Author,Message,IsMerge
+8f0285fb3aa30707760770475a84efd4be9d7332,2024-09-02 18:25:04,Julian Gonggrijp,"Merge pull request #4292 from Noodlex/fix_model_event_changeId
+
+Trigger the ""changeId"" event only if prevId is different from this.id.",True
+06ffc5d1e30dde5b16551adc7cf9aa5c17a09b24,2024-09-02 17:43:43,Christopher Rombach,"Add test for trigger ""changeId""",False
+d2ea5746feb07f337c4f0144dfe0328c20c8b331,2024-09-02 17:43:27,Christopher Rombach,Add space,False
+4d0914948dd98f353e37b6c32a8c2066a545f166,2024-09-02 17:11:43,Christopher Rombach,"Trigger the ""changeId"" event only if prevId is different from this.id.",False
+4e642088c4810938a0510fa89456ef2619f446da,2024-03-07 04:52:47,Julian Gonggrijp,"Merge pull request #4288 from deining/bump-actions
+
+Bump GitHub workflows to latest version",True
+74c9fc9e5ff503a1bce234d49c110337f1071bff,2024-03-07 00:08:40,Andreas Deininger,Bump GitHub workflows to latest version,False
+c73855b8c88906b650bbdc995bed8113fb41e3bc,2024-02-25 22:19:40,Julian Gonggrijp,"Merge pull request #4287 from xwxtwd/master
+
+Use allowed instead of whitelisted; Use disallowed instead of blacklisted;",True
+974d0545cc785185f23a427c4341268ba9c34b31,2024-02-25 11:17:10,JSon,Use allowlisted instead of whitelisted; Use blocklisted instead of blacklisted;,False
+bfc3c18a16b1e2bf5bde8b2cd5e09ab9a2ccab3a,2024-02-06 03:06:13,Julian Gonggrijp,Set the date of the 1.6.0 release (oops),False
+f14a329cbaa8ea1fabc65ccac8334a6d8d594641,2024-02-06 02:53:19,Julian Gonggrijp,Mark development version post 1.6.0,False
+89cbe401f353d3543108ca52ff6924d650cb500d,2024-02-06 02:52:36,Julian Gonggrijp,Merge branch 'prepare-1.6.0',True
+21437c93d8bdab90e8092c9ce8df67f94e5ac74c,2024-01-24 05:01:49,Julian Gonggrijp,Bump the copyright years,False
+516266d44d771a7d162ed52116115ce51d326ea5,2024-01-24 04:59:21,Julian Gonggrijp,Add change log entry for version 1.6.0,False
+4c97452f744140b9eac7b0208443f6a0edbf3eeb,2024-01-24 04:34:08,Julian Gonggrijp,Bump the version to 1.6.0,False
+801db1476660350944e4a5a4756f596ae196e7ac,2024-01-24 02:43:59,Julian Gonggrijp,Merge pull request #4278 from jgonggrijp/issue-templates,True
+0f9956b565ca7d08421bdb3f9b2e583b38abc659,2024-01-24 02:38:03,Julian Gonggrijp,Merge pull request #4284 from olhapi/master with added test,True
+d981caa7bc7ab93fb97f780db5b6ddf88dee5f9e,2024-01-24 02:35:27,Julian Gonggrijp,Add regression test for #4284,False
+8c0916a7bdb638bef61bea0bdf16c25ba1dbf1e4,2024-01-24 01:15:21,Oleg Vdovenko,[FIX] wrong context passed in collection.create,False
+be262159370c02cd6134193ed2a669c597a76642,2024-01-24 00:18:43,Julian Gonggrijp,Get new debugInfo module to pass linting,False
+07cc274087ece80198cf836410ffa143af21d42d,2024-01-24 00:18:43,Julian Gonggrijp,Document debugInfo,False
+5ae5639de84fb82567e74609836f79b686102dae,2024-01-24 00:18:43,Julian Gonggrijp,Move debugInfo to a separate module,False
+eb29ed8f917ad9d1d2a82d920f1b116b89e7e50d,2024-01-24 00:18:43,Julian Gonggrijp,"Add a modules directory with its own package.json
+
+Old trick learned from Underscore: within this directory, Node.js and
+other tools that follow its awkward convention will be willing to
+interpret .js files with ES module syntax.",False
+d47dc716841593e48fcc29d24c59028ff609faf1,2024-01-24 00:18:42,Julian Gonggrijp,Shorten actual behavior placeholder text in bug issue template,False
+32ba686f8f7563765a80721590a73cf853d47a2e,2024-01-24 00:18:42,Julian Gonggrijp,Merge limitation and options in feature issue template per review,False
+16e16c192fa3cd9aa649ba6d1f511d8cc2b29609,2024-01-24 00:18:42,Julian Gonggrijp,Rewrap feature issue template to 80 columns,False
+f342b6c2eb78d8660e803827daede15954b70133,2024-01-24 00:18:42,Julian Gonggrijp,Rewrap doc issue template to 80 columns,False
+25d34a4f39ec8dbfdf62eee404ec560122a16227,2024-01-24 00:18:42,Julian Gonggrijp,"Rename doc issue template ""problem"" field to ""effect""",False
+6e9d79e6b8420ee0767a6b0bd03d512af138c502,2024-01-24 00:18:42,Julian Gonggrijp,Mention Backbone.debugInfo in bug issue template stack field,False
+01a027cb34ece1b676dcf9e58e4db053e6af55ac,2024-01-24 00:18:41,Julian Gonggrijp,"Merge bug issue template fields per review comments
+
+I mean, not exactly to the letter of the comments, but hopefully to
+the spirit.",False
+a2bcf1989efce1d99b485f3143495633064e44a0,2024-01-24 00:18:41,Julian Gonggrijp,Add debugInfo method,False
+0b86204f5184d23f4b6bcd8fde5f9ef03fa1114c,2024-01-24 00:18:41,Julian Gonggrijp,Add a documentation issue template,False
+ed13c528ba7d7ce3a6954c4aa47b05b591da853d,2024-01-24 00:18:41,Julian Gonggrijp,Add a feature request template,False
+b176a06f98649f153a4cead23db2611e25b12a33,2024-01-24 00:18:41,Julian Gonggrijp,Add a bug issue template,False
+9cc855311487bdb109b2ecb76edca56ba8136a82,2024-01-24 00:18:40,Julian Gonggrijp,Add config for issue templates,False
+e6d434e7313a95ed7e5ef54101e60b12fde123b3,2023-08-11 03:35:08,Julian Gonggrijp,Update the copyright years in the code as well,False
+24c985530e3417154df4e4f8ee1bdf87d9190344,2023-08-11 01:35:17,Julian Gonggrijp,"Merge pull request #4281 from CentreForDigitalHumanities/history-notfound-event
+
+History notfound event",True
+5df475d7f3bf06ffc27eb27d90fde738e908ea7b,2023-08-10 16:18:15,Julian Gonggrijp,"Merge pull request #4279 from jgonggrijp/document-defaults-idAttribute
+
+Add warning to documentation about setting the model id in the defaults",True
+97afbe8097f8f760eac8c772232951db9aa51705,2023-08-10 03:58:07,Julian Gonggrijp,"Make the idAttribute defaults warning less harsh
+
+Per review comment by @paulfalgout, with gratitude.",False
+f434aa942095068fbd1c3bd1b7c7218020857897,2023-08-09 03:46:46,Julian Gonggrijp,Document the notfound event,False
+9fea394e07bf4f10a65037667e4b32aecaf50bec,2023-08-09 03:46:35,Julian Gonggrijp,Implement the notfound event,False
+f65a59c0c004c4482a965633c651f8d935c65e9b,2023-08-09 03:46:14,Julian Gonggrijp,Add tests for the notfound event,False
+c6c6dda690770a54f0aafc83249526d980b9fba3,2023-07-29 00:53:02,Julian Gonggrijp,Add Tidelift to the FUNDING.yml,False
+2233c3eeefe603578ed547cdfa7af52b59b613aa,2023-07-29 00:45:53,Julian Gonggrijp,Update the copyright years,False
+b763e52f502be3106c1632bebbf09ae4ff089a6c,2023-07-28 21:41:07,Julian Gonggrijp,"Merge pull request #4280 from jgonggrijp/prepare-release
+
+Prepare release 1.5.0",True
+dad6ad9efbb42e00ab671842fea11280e99d3d50,2023-07-28 21:37:33,Julian Gonggrijp,Update autogenerated files to v1.5.0,False
+e1ee2e8a1d4462c2726ece72bc66a7625a655673,2023-07-28 21:28:37,Julian Gonggrijp,Add a change log entry for version 1.5.0,False
+d82047abeecaafe71358e6dd967080b4ea259ec5,2023-07-28 21:21:04,Julian Gonggrijp,Bump the version to 1.5.0,False
+25f8a546d07e3947416b6ed42143cf193cb86f8d,2023-07-28 20:14:55,Julian Gonggrijp,"Merge pull request #4276 from jgonggrijp/code-of-conduct
+
+Code of conduct",True
+1460a3ab7ae100fc25a96accf4fcce7591b6710c,2023-07-28 02:52:46,Aleksey Avdeev,"Fixes #4097, add parse option to docs section for Backbone.Collection",False
+a10dab16e60f6329bb45c7babe481c16b5b13f56,2023-07-28 02:28:02,Julian Gonggrijp,Warn about setting the model id in the defaults (fix #4205),False
+989e35ba912147965003fdf502fa0e7562e7758e,2023-07-27 17:10:40,Julian Gonggrijp,"Merge pull request #4275 from jgonggrijp/encourage-documentation
+
+Encourage contributors to document new features in the index.html",True
+a3591b8f42b27b2aa561bf13b3bb7daf1b95db6e,2023-07-27 16:45:40,Julian Gonggrijp,Merge branch 'security-policy',True
+4cdfb87b86fe951673b84c9a2562ead9ffe2a781,2023-07-27 03:55:38,Julian Gonggrijp,Mention security policy in the README,False
+fcf5df618ae54027dd6733b074e7be731be02f56,2023-07-27 03:31:34,Julian Gonggrijp,"Update the README links
+
+- https links for everything
+- Gitter channel has moved to Matrix
+- Google groups link moved down as it is less current",False
+c5928f2e8efcac7c2a785a25979a79c980ca701f,2023-07-27 01:35:52,Julian Gonggrijp,Copy the SECURITY.md from Underscore,False
+82813631ac01b9d90bd1b810fc55a9cf583935fd,2023-07-27 01:15:32,Julian Gonggrijp,Mention Code of Conduct in the README,False
+bfb552bdf4ced571931f17dffb1e1140406e4e08,2023-07-27 00:57:13,Julian Gonggrijp,Apply customizations from Underscore's code of conduct,False
+a4a067ba358ff7745fa20537324aae56e01e3771,2023-07-27 00:56:48,Julian Gonggrijp,Download v2.1 of the Contributor Covenant Code of Conduct,False
+21dc70e39c5632aab19b7af67779bb6db9d38ca6,2023-07-26 21:15:40,Julian Gonggrijp,Encourage contributors to document new features in the index.html (#4273),False
+582758153c0a383aa45ced3354367697937a2043,2023-07-24 05:27:46,Julian Gonggrijp,"Merge pull request #4272 from jgonggrijp/editorconfig
+
+Add a .editorconfig; prepare for switching to 4-space indentation",True
+fabe82945ff7dc6399e5040a1f89ef944232acee,2023-07-24 04:20:42,Julian Gonggrijp,"Merge pull request #4270 from jgonggrijp/document-cidPrefix-conflict
+
+Document Model.cidPrefix",True
+cdda2ca0d88c605ed9471eb3274798ab9ed551ee,2023-07-24 04:17:41,Julian Gonggrijp,"Merge pull request #4269 from jgonggrijp/document-add-push-unshift
+
+Clarify relationships between set, add push and unshift",True
+9ef1cba06bc98d9f543a158414fa0a8d2af1c1ea,2023-07-23 16:25:46,Julian Gonggrijp,"Merge pull request #4265 from jgonggrijp/wait-error-fix
+
+Trigger error from failing Collection.create with wait:true",True
+c2b23ba399603a563bcd40dd998010149cb2ed23,2023-07-22 02:22:09,Julian Gonggrijp,"Merge pull request #4240 from kdickerson/3391-root-trailing-slash
+
+#3391 - Match trailing slash on root to how root was configured.",True
+425b931c363ad8ca0a6cf36f07338740a90c651a,2023-07-22 01:58:52,Kyle Dickerson,#3391 - Add History `trailingSlash` option always use trailing slash on root.,False
+318992deb1af50b87a192c3c40069a6349db4a05,2023-07-21 19:16:26,Julian Gonggrijp,Add a .editorconfig,False
+b48ad1a546888f2e0d90d1a6e0205da9b97703a3,2023-07-21 04:30:25,Julian Gonggrijp,Add Model.cidPrefix section to the documentation TOC (#4226),False
+f6ada205c9e2ad16d37206f5a6d323d55af4a085,2023-07-21 04:25:16,Julian Gonggrijp,Document Model.cidPrefix (#4226),False
+c8305eef198e0e39eda6743b37c76327468529d3,2023-07-21 02:22:08,Julian Gonggrijp,Deforest and document (#4262),False
+c87833877f4b14484c951cb688765f992f36f6eb,2023-07-21 02:09:16,Julian Gonggrijp,"Apply fix suggested by @paulfalgout (#4262)
+
+See https://github.com/jashkenas/backbone/pull/4265#discussion_r1269749470",False
+f30f9741981c472e1e2a482c81ca6bda3ba0cfd3,2023-07-21 02:07:26,Julian Gonggrijp,Add sanity checks against double forward and error listener erasion (#4262),False
+a353174288860099e6b4596061a3b6225c95a872,2023-07-21 01:00:59,Julian Gonggrijp,"Clarify relationships between set, add push and unshift (#3496)",False
+4abcaa58f2201c80814ae5df0b8295f6ad26d7b4,2023-07-20 22:32:36,Julian Gonggrijp,"Merge pull request #4267 from jgonggrijp/feature/comment-about-combined-defaults-and-extend
+
+Comment about combined defaults and extend",True
+790682c2fd7e1ea5893d6594430701064df57104,2023-07-20 02:15:50,Julian Gonggrijp,Change the comment (#4088),False
+f5a67ec60e3aba04b5fb901e011a8f2528b6ec6c,2023-07-20 01:35:12,Viacheslav Lotsmanov,"Add comment about combined _.defaults and _.extend
+
+Squashed from the original commits in #4088.",False
+7c04484843d28fe758663b20bc36da3a238ffc06,2023-07-19 05:00:02,Julian Gonggrijp,Fix the problem (#4262),False
+b22474b5179e575f98de3c69386fcfaba1536caf,2023-07-19 04:23:02,Julian Gonggrijp,"Wait, how about success? (#4262)
+
+Amazingly, this test passes.",False
+2104aa771fae7a258dbb091b50f47ba85d6de456,2023-07-19 04:19:28,Julian Gonggrijp,"But does the created model trigger 'error'? (#4262)
+
+Yes, it does.",False
+0b831f19af64ca4c992567a2fb1c461568fcdfdf,2023-07-19 03:56:38,Julian Gonggrijp,Also add a test to verify that the problem is not in Model.save (#4262),False
+0a18362b70baddf80017c2104c9815fce80ec175,2023-07-19 03:48:27,Julian Gonggrijp,Add a test that reproduces #4262 literally,False
+3b37e6aaccbdb8d661487b7cef63e8c930b6f182,2023-07-18 21:18:17,Julian Gonggrijp,"Merge pull request #4264 from jgonggrijp/tryout-patch-3964
+
+Patch 3964 with linter fixes",True
+ffdaa7142aca8a7d9d892e2ec45237a31127ee25,2023-07-18 18:14:56,Julian Gonggrijp,Adress linter warnings (#3964),False
+5e8d8e60b3f548d7448e45ea417f603aabe5bd5f,2023-07-18 17:50:39,Julian Gonggrijp,Merge remote-tracking branch 'jrdb/master' into tryout-patch-3964,True
+7af28186411755cd6c12d6cc716142fb1aeff0b0,2023-01-04 16:39:21,Julian Gonggrijp,"Merge pull request #4259 from timgates42/bugfix_typo_deprecated
+
+docs: fix simple typo, deprectated -> deprecated",True
+71ce3af790e7173c4f37cfa01ca0ec1e2f44c090,2022-12-25 07:15:48,Tim Gates,"docs: fix simple typo, deprectated -> deprecated
+
+There is a small typo in examples/backbone.localStorage.js.
+
+Should read `deprecated` rather than `deprectated`.
+
+Signed-off-by: Tim Gates <tim.gates@iress.com>",False
+6d0835f01880a4ec12f02f4fad27516bb752d0e7,2022-11-24 02:25:56,Julian Gonggrijp,Add a github entry to the FUNDING.yml,False
+a006e2b64aeccb489efcdfc3ea625c1f1269923d,2022-08-23 14:00:45,Julian Gonggrijp,Add a FUNDING.yml to enable GitHub's sponsorship button thingy,False
+0d455df4e15d814ed9c3f24be1ab4ea23c5c630d,2022-04-26 17:49:45,Julian Gonggrijp,"Merge pull request #4256 from GeoffreyBooth/coffeescript-2
+
+CoffeeScript 2",True
+21742f363327bf2c497c94e3ef0bbc4517217fa2,2022-04-26 10:01:05,Geoffrey Booth,Update CoffeeScript dependency to version 2; update test per https://coffeescript.org/#breaking-changes-super-extends,False
+9260f3cb43d26b0e185f5800b31d9ae913999a1f,2022-02-26 06:01:21,Julian Gonggrijp,Merge branch 'release/1.4.1' (#4255),True
+dac55793f66009fd3dc0728c86cba02cb4bed80c,2022-02-26 05:32:08,Julian Gonggrijp,Add a note about changed filenames to the change log,False
+39c46a7dd6499f13bc59ebcaf8584897785c1bf0,2022-02-26 05:32:08,Julian Gonggrijp,"Adapt to new location of annotated examples (#4252 #4246)
+
+The updated docco puts these annotated sources in a different place.
+Rather than forcing them back in the old place, it seems easiest to
+just go with the flow.",False
+0f2674bcd98b5bda12ff88d139056d2907ddafdc,2022-02-26 05:32:08,Julian Gonggrijp,Regenerate minified bundle and documentation for 1.4.1,False
+8057f34fe1e995979bf8b276ed9e26efcfee6dd2,2022-02-26 05:32:07,Julian Gonggrijp,Add a prepublishOnly script with all necessary steps,False
+f669deddb032da07cc8c6d3331fe21371d866d53,2022-02-26 05:32:07,Julian Gonggrijp,Add the new sourcemap location to the published files,False
+511b72120fe8a1b34b7c6bbc9bc4c552b76d38dd,2022-02-26 05:32:07,Julian Gonggrijp,"Use cpy-cli to alias the new sourcemap file to the old name
+
+Learning from past experiences, just changing the name of a file is
+going to break somebody's code, so let's not go there, even if it
+makes more sense.",False
+63ecb0bb6e4247bc13c1316724f63dd49f1332b9,2022-02-26 05:32:07,Julian Gonggrijp,Update package.json build script to newer uglifyjs (#4252 #4246),False
+ed1e8d9a5046f5e3e53e4e52d4affdc8bbb7678e,2022-02-26 05:32:04,Julian Gonggrijp,Add a change log entry for version 1.4.1,False
+bae4a4cab50da18ddfa5cd5a6b03c2cdddcf98bd,2022-02-26 05:03:03,Julian Gonggrijp,Give every change log entry an id for linking purposes,False
+b451cde8613a5b17adc847d1443b1992ba355e7d,2022-02-26 05:03:03,Julian Gonggrijp,Move all past documentation links from rawgit.com to statically.io,False
+00f984ee0fd54b2c2b3331bb1cadf410461a8160,2022-02-26 05:03:03,Julian Gonggrijp,Reconcile #3966 with #4061,False
+b667a2d36dc0455a76794a1733c74da5833577e4,2022-02-26 05:03:02,Julian Gonggrijp,Update documentation to reflect #3966,False
+3b358a23c49b783aed1a54c61837550ff487083f,2022-02-26 05:03:02,Julian Gonggrijp,Update the copyright years,False
+37af733fb9bb8b4fb023982afa61b2c5d4147a9e,2022-02-26 02:42:58,Julian Gonggrijp,Bump the version to 1.4.1,False
+91ab0de708991b516f28a9e341b882cd5eabe8b0,2022-02-20 02:28:16,Julian Gonggrijp,Merge pull request #4252 from jashkenas/patch-1,True
+777279c075ad53a624b4dd224ee65c8dfe3963dc,2022-02-19 02:35:09,Julian Gonggrijp,Just skip the browsers that don't work in Sauce Labs (#4252 #4253),False
+ddc6ab862dd157a25e8a92583672c9c7b113b451,2022-02-18 21:55:11,Julian Gonggrijp,"Speed up Sauce testing (#4251 #4252)
+
+Lower tolerances, more concurrency.",False
+ac5e173e279a43080c70aed0385a373e5eed298f,2022-02-18 21:46:00,Julian Gonggrijp,"Use npm ci instead of npm install (#4252)
+
+As suggested by @ogonkov in
+https://github.com/jashkenas/backbone/pull/4252#discussion_r800372668",False
+a2002e856432b5e5fe3eb3025d4fd4bbc16a1ce0,2022-02-18 21:46:00,Julian Gonggrijp,Run latest Edge and Safari CI tests on latest OS versions (#4251),False
+aef9972d266e4653990638201b6e1929d31daba8,2022-02-18 21:46:00,Julian Gonggrijp,Omit Firefox 11 from CI tests for now (#4251 #4252),False
+0e4ee91a6059a01f3188f3df94cdc6e75580e9cf,2022-02-18 21:46:00,Julian Gonggrijp,Run npm audit fix (#4246),False
+19ce298f789a60d55aaf3d12ab233656df9d564a,2022-02-18 21:45:59,Julian Gonggrijp,Address linter errors and warnings (#4251 #4246),False
+dddfba2c809c4f73e9a309840057343135b6271b,2022-02-18 21:45:47,Julian Gonggrijp,Upgrade the devDependencies (#4251 fix #4246),False
+2694bfa4c7a183e51618839efafb80f191dd49b0,2022-02-18 21:45:46,Julian Gonggrijp,Increase Karma Sauce browserDisconnectTimeout (#4251),False
+725a957f48ec801376e3412158259800263fa0c3,2022-01-22 15:50:56,Julian Gonggrijp,"Restore env var indirection in Karma Sauce config (#4251)
+
+As suggested by @ogonkov in review to #4252.
+
+This partly reverts commit 453bdf5ce0d2fe1407ed8c645a2e09d14a66f6ec.",False
+91b190bcdb46de0d8e8da5702d855c3d89789446,2022-01-22 08:23:15,Julian Gonggrijp,"Run SauceLabs Firefox 11 tests specifically on Windows 10 (#4251)
+
+I tried a couple of different OS version, and this one was the first
+where Firefox 11 seems to connect correctly at least some of the time.
+
+(To clarify: the tests were passing in Firefox 11 on all OS versions I
+tried, but in most cases a connection error prevented Karma from
+knowing this. I only know because I saw the reports in the Sauce web
+interface.)",False
+e71ee8f1ec01264f1e62dca562f00e5a9236cf1f,2022-01-22 07:39:31,Julian Gonggrijp,"Set the Karma Sauce region to 'eu' (#4251)
+
+I chose this datacenter when creating my account. Maybe it matters.",False
+c86aab2ed0fe3e97f60606566254d83128d9328e,2022-01-22 07:37:52,Julian Gonggrijp,"Limit Karma Sauce concurrency (#4251)
+
+My account currently allows only two concurrent runs, so let's rule
+out that this is biting us.",False
+6f1eb887610ea72815dd831887048190faea2a87,2022-01-22 07:36:34,Julian Gonggrijp,Copy two Karma config fields from Underscore (#4251),False
+b7157387bcc80388e78c161c2cb897daee4aa041,2022-01-22 06:46:38,Julian Gonggrijp,"Update Sauce browser selection in karma config (#4251)
+
+I mostly copied this from the current config in Underscore.",False
+f80570a7a9ddd0af2c4591b1fe8055bbe6dfd5d2,2022-01-22 06:41:33,Julian Gonggrijp,"Run the test workflow in a newer Node version (#4251)
+
+In Node 6, running Karma gave the following warning:
+
+Error during loading ""/home/runner/work/backbone/backbone/node_modules/karma-sauce-launcher"" plugin:
+  Unexpected token function
+
+I had no such error running karma after installing karma-sauce-launcher
+locally in Node 14, so this upgrade might fix some things.
+
+We are not exactly in the business of supporting old Node versions, so
+this should be relatively painless.",False
+a10ce93c21bd5fc07c4a27ffbb21f09cc330a8ea,2022-01-22 06:25:24,Julian Gonggrijp,"Put back the test workflow cache key (#4251)
+
+This reverts commit 02c3b73aa8f6f678c3d94abb1b79a4ad00b1db08.",False
+4e66def27de11dc00f0f68214e3aa9f80ad04687,2022-01-22 06:22:36,Julian Gonggrijp,Add a package-lock.json (#4251 #4246),False
+453bdf5ce0d2fe1407ed8c645a2e09d14a66f6ec,2022-01-22 05:42:36,Julian Gonggrijp,"Use GH default env vars directly in karma.conf-sauce (#4251)
+
+If I understand the documentation correctly, it is not strictly
+necessary that these variables be read from the workflow file; they
+may also be read directly by the target processes.",False
+a2cefce2a5bbfd0e5511c4da1cdadf36e0e86715,2022-01-22 05:38:04,Julian Gonggrijp,"Include test directory as a condition for running the test workflow
+
+Cf #4251",False
+010e9283838336177e4ca2dd4ce6636d3b65b9b4,2022-01-22 01:57:28,Alexey,Split command,False
+0ab0d02b652f2d4621050eb8d87c2877c3dbd3a4,2022-01-22 01:56:59,Alexey,Add job names,False
+8e975030e58e559a51b7495f46cd5d82da2fa4d1,2022-01-22 01:51:26,Alexey,Remove xvfb setup,False
+02c3b73aa8f6f678c3d94abb1b79a4ad00b1db08,2022-01-22 01:50:57,Alexey,Remove cache key for now,False
+a2f7cbafd325d67490febd4e3caba94ca1151248,2022-01-22 01:50:25,Alexey,Fix env vars,False
+52f23814f7163814f4c5555b2b14e2f5399cabe7,2022-01-22 00:00:44,Alexey,Add workflows to paths,False
+17018ebdc7ade6b83c815c975aefa97f59b9e9d8,2022-01-21 23:58:24,Alexey,Replace branches list,False
+589f1b97b3631e5dceb474f7c0f525e06ba4f0eb,2022-01-21 18:36:23,Julian Gonggrijp,Credit Sauce Labs in the README (#4247),False
+b7bd1706e64a4fb3d89ab5803cfb523e7dc0f4d6,2022-01-21 18:30:21,Julian Gonggrijp,"Merge pull request #4248 from ogonkov/gh_workflows
+
+Replace Travis with GitHub Workflows",True
+5d95c0afdf9f0fd7ee3a7d110d02e3a73c4ee303,2022-01-18 20:08:22,Alexey,Cache deps,False
+27c9159b88599a89e41ac4bb32962583399cc4bf,2022-01-18 20:06:49,Alexey,Use `--no-audit` for install,False
+8a9fe59c3e9ed00989b6f3308f4ff3a4e57755d6,2022-01-18 15:23:56,Alexey,Add `--no-audit` flag,False
+e7ba250be632c5cbba108116766f4146516c5d89,2022-01-18 15:22:27,Alexey,Fix module installation,False
+0738170a2350dc57322c9bb6f7be8e11fe346fd5,2022-01-18 15:05:38,Alexey,Add job name,False
+9e2df5cd4ac5ba1c5a5b29ffac03d52ab3f4d30c,2022-01-18 15:05:38,Alexey,Remove `.travis.yml`,False
+84306a51e33b4139634f683fc178b5dd743a3c88,2022-01-18 15:05:38,Alexey,Remove unused selector,False
+0a66d8ce903227c1a4bc30e84b8e1a8f8ce322a7,2022-01-18 15:05:38,Alexey,Lint `karma.conf-sauce.js`,False
+723dd4894219978955c5343ec2fbc7038d1bcbc5,2022-01-18 15:05:38,Alexey,Add GitHub Workflows,False
+5147eca76f51e980365745d6fefa40b478c2a3c8,2022-01-12 20:16:31,Julian Gonggrijp,"Merge pull request #4249 from jashkenas/byid-when-if-change
+
+Add model changeId event",True
+7712b8ec6c7797a4c1603b45c780ac4b2ecc8aba,2022-01-12 19:56:10,Paul Falgout,"Add model changeId event
+
+Fixes #3882
+Fixes #4159
+
+Backbone does a bit of extra work to determine when to update `_byId` on every model change event because `change:id` will not work if `idAttribute` has changed.  This causes issues as the `change` event happens after every `change:` event which means during a change the `_byId` hasn't updated.  Rather than adding complexity to collection the solution is to have the model notify with the id changes.
+
+If adding a public event isn't desired, for an internal solution the model is aware of it's collection and could modify model.collection._byId directly within the set.
+
+Either of these solutions seem preferrable to handling `change:[idAttribute]`
+
+Replaces the need for:
+https://github.com/jashkenas/backbone/pull/4227/files#diff-c773bb9be277f0f3f2baa308b6e0f3a486790fe99fea81ddd0ba409846250571R1205",False
+a9894e03c4b5dceb733e70482d94a3063f93ad23,2022-01-10 03:04:24,Julian Gonggrijp,"Merge pull request #4234 from ogonkov/fix_model_instantiation
+
+Add check for `this.model.prototype`",True
+2ea3a221ad8918a853ddea64612a74c5237c0700,2022-01-09 22:47:55,Alexey,Remove `try..catch`,False
+e54031f22753ebfec7230390517e698b8c2ba00e,2022-01-09 22:44:20,Alexey,Return function,False
+4515b8c20a51c7e9f1124e3de905fb82ffe7d8c2,2022-01-09 22:43:45,Alexey,Fix synatx error,False
+f6f5deeae92d200664f0811efd46cc14ff439bd2,2022-01-08 15:12:00,Alexey,Add test,False
+153dc41616a1f2663e4a86b705fefd412ecb4a7a,2020-05-04 23:28:14,Jeremy Ashkenas,"Merge pull request #4238 from binlabs/patch-1
+
+Added missing parenthesis in the Collection preinitialize code example",True
+22f157afc306581d107fb2eb4497a0eeec20e733,2020-04-02 08:18:34,Kurt Maine,"Added missing parenthesis in the Collection preinitialize code example
+
+The event listener was missing a closing parenthesis in the preinitialize code sample for Collections.",False
+1fce745d77e591bb860747e1f08abd38ca89a28a,2020-03-03 23:20:16,Alexey,Add check for `this.model.prototype`,False
+0b1c2e3fce3156fcb9819b8bbf8885456e4e1055,2019-12-14 01:11:21,jashkenas,Resolve merge conflicts,True
+75e6d0ce6394bd2b809823c7f7dc014ddb6ae287,2019-02-20 00:05:53,jashkenas,Missing a few version 1.4.0s,False
+afbb6ee089f6f8f145e009a4582611ec6309ac25,2019-02-20 00:04:22,jashkenas,Merged in 1.4.0,True
+5de45fc9e1cbe5f61cf459067207bbe73451ac91,2019-02-19 23:59:40,jashkenas,Backbone 1.4.0,False
+c336c8a0569296845b52453944ff56af2b3edf2e,2019-02-19 23:17:24,jashkenas,Allow ESLint to do its thing.,False
+77da9aeccba994b0a06b6ddb8bd296126104a7c7,2018-05-07 23:11:08,Jeremy Ashkenas,Create CNAME,False
+af0179cf619dba46b7ff5db7cdbed2c12e443663,2018-05-07 23:11:03,Jeremy Ashkenas,Delete CNAME,False
+27f7d41de1f64f6662a96f44531d7518953b1e07,2018-04-09 23:56:18,Jeremy Ashkenas,"Merge pull request #4190 from AndresArturo/4189
+
+Mention use of Options on Collection#model handling of Model instantiations",True
+594bf08c7c6447d920b2940e08b193a63edce807,2018-04-08 10:17:51,Andrés Arturo,Mention Options to be passed down from Collection on Model creation,False
+82bf61e00d9eb1c43fec1a34be23489ba9da3fe5,2017-12-06 00:51:48,Jeremy Ashkenas,"Merge pull request #4146 from rafde/lodash5-compat
+
+`_.bind` to `Function.prototype.bind`",True
+06fd17a39de5d0ef55a25541bfc65379500bbb1b,2017-12-06 00:45:46,jashkenas,"Fixes #4149, xhr passed to error event, not response",False
+6e707b3e3ffcfdbc312e3d081b25175c8056f04c,2017-12-06 00:38:39,Jeremy Ashkenas,"Merge pull request #4163 from AndresArturo/model-isvalid-docs
+
+Clarify documentation of Model#isValid and Model#validate",True
+e6e71f447cb98c90343eee6dca79e8d289038de0,2017-12-05 02:04:52,schweickism,Clarify misleading line in docs: comparator only executes on add or sort (#4150),False
+47955c05b84eb6facfb37306656f7a01374ede47,2017-09-30 22:33:46,Andrés Arturo,Include a description of the events triggered in Model#isValid in the docs,False
+678aeee94d7802967b52ed8a9177620659b825ee,2017-08-01 22:55:47,Rafael De Leon,update travis ci to use node 6 since it's in LTS (#4147),False
+2276b8dcf9059c1c5baf18bc8e7c82d69ee621d0,2017-06-22 11:18:32,Rafael De Leon,`_.bind` to `Function.prototype.bind`,False
+0eca92f441f63091f3cab0fc900fa21afbfc55fe,2017-05-17 02:26:32,Graeme Yeates,Add documentation for Collection#mixin,False
+81f5d1a8090d93bd2809641796197cfc24675890,2017-05-17 02:03:02,Graeme Yeates,"Merge #4134 into Changelog 1.4
+
+* pr/4134:
+  Fix minor changes
+  Change funcName: function() -> funcName(), ES6 -> ES2015
+  Fix typos, change example
+  Better examples for preinitialize of Model and Collection
+  Fix grammar
+  Address comments.
+  Fix syntax.
+  Update change-log, Add preinitialize method example section for Model/Collection/Router/View
+  Add Changelog",True
+0fb9fda15d7ccd039fbce105347997ba488fbbfe,2017-05-02 10:37:38,sajib,Fix minor changes,False
+a0825c77ac341acd0999795ca3df60db6c69f431,2017-05-02 02:43:27,Jordan Eldredge,"Clarifying improvements to router documentation (#4137)
+
+* Improve documentation of what router actions are passed
+
+* Clarify that actions are functions (as opposed to events)",False
+09cb8871d81b6f627c1edef46de97d7c2e8e2078,2017-05-02 02:40:37,Jordan Eldredge,"Clarifying improvements to router documentation (#4137)
+
+* Improve documentation of what router actions are passed
+
+* Clarify that actions are functions (as opposed to events)",False
+fdd6f8ef4d8d6175bdfcb06466acc853c67e7ec5,2017-04-26 21:00:10,sajib,"Change funcName: function() -> funcName(), ES6 -> ES2015",False
+3c282b52893e3d1abbf0cac313259b13e7cc70f9,2017-04-22 14:53:38,sajib,"Fix typos, change example",False
+3c52367cf2b7a8321b2505cd3bba7a40110c5fc7,2017-04-21 12:35:54,sajib,Better examples for preinitialize of Model and Collection,False
+e524804592fc9592b795addfcececac18b5378ad,2017-04-19 03:59:55,Graeme Yeates,"Implement Model.mixin and Collection.mixin (#4024)
+
+Combine implementation of collection and model underscore methods",False
+f72d1cabd8134781d0b381dec17d70910d0f4142,2017-04-19 03:29:00,tamal,Fix grammar,False
+cbe47479b940749811ad1789a211b2af8a28ace2,2017-04-18 01:14:34,tamal,Address comments.,False
+b05b5dc1a038b8280fabdae7dc7928a290b29ee2,2017-04-17 23:53:28,tamal,Fix syntax.,False
+b3f520c8dd3803d2e723e2a3db0565235b66a51c,2017-04-16 22:15:47,sajib,"Update change-log, Add preinitialize method example section for Model/Collection/Router/View",False
+539c9afad9c0af986704b26ea55ab62336c64fa2,2017-04-09 06:49:03,Graeme Yeates,"Merge pull request #4131 from jbboehr/private-listening-public-on
+
+Use the public `on` method when listening",True
+671e4634f7b51ad3572c684854350b18251d55a0,2017-04-09 02:30:27,tamal,Add Changelog,False
+e4939e4b5d23808ab81d1329bccf199abb4628db,2017-04-05 02:58:17,John Boehr,Merge branch 'master' into private-listening-public-on,True
+bd50e2e4a4af5c09bc490185aab215794d42258b,2017-02-14 03:13:01,Olan Byrne,"Clarifies that changes cause update event (#4123)
+
+This fixes #4109 by indicating that any set on a model, which causes a
+change event will results in the change event being bubbled up to the
+collection.",False
+4a02b5fc3d9759ed8d3180b37cd982c8b30f8696,2017-01-03 22:32:22,Jeremy Ashkenas,"Merge pull request #4112 from amZotti/patch-1
+
+Update LICENSE",True
+7e4092d798182f7985925487cbf957e34c20cf3b,2017-01-03 22:31:44,Jeremy Ashkenas,"Merge pull request #4114 from marmeladze/patch-1
+
+update (c)opywrite years",True
+3141352b83e78a41c524fb69c39219550a056e0d,2017-01-03 18:40:48,marmeladze,update years,False
+58e80f54e1e513655bdb009afcb8202c8a148486,2017-01-01 18:26:53,Anthony Zotti,Update LICENSE,False
+6ee2547a4cf0cb2af08663a6462a711f66f97ffd,2016-12-30 23:22:32,Charles Chan,Issue #4099 - Fix broken links for Jasmine and jQuery templates (#4110),False
+5162e49c379a4e06001b1ed5161a48dc598fbf1c,2016-12-29 03:43:14,Jeremy Ashkenas,"Merge pull request #4111 from charleswhchan/fix-index.html
+
+Fix description for Model",True
+c1fc9166e5e0860ec7cc701b81283d28918d8f8f,2016-12-28 05:35:27,Charles Chan,"Fix description for Model
+
+- Loads and saves [data] from the server.",False
+7da4ed73e7402baf614a50a6551d47ace68b5239,2016-12-02 02:31:59,ksladkov,#4103 check if obj is Model in Collection.get (#4104),False
+df3366d4925a7d648a2b3de9d2c786108ae1d32c,2016-11-29 23:25:40,Adam Krebs,Stop testing IE8 in sauce (#4008),False
+c3a829a91aa656582b372f924cd87057ff8b3641,2016-10-27 20:04:55,Jeremy Ashkenas,"Merge pull request #4091 from philfreo/patch-3
+
+Docs capitalization consistency",True
+637a24e3df400c9ed8e8d60ac2a1ebc182f6d620,2016-10-27 06:23:31,Phil Freo,Docs capitalization consistency,False
+4445d49cbf910e3e30c78bc8306d676469aa1d59,2016-09-22 20:28:05,Jeremy Ashkenas,"Merge pull request #4078 from captbaritone/cherry-pick-filter
+
+Deploy filtering",True
+402cc5b9f3897651f78ce2f535893faad9551106,2016-09-22 01:46:47,Michael Rose,Add filtering to documentation,False
+09c8d72716acd1ef78c99a535ddd1263fea2c273,2016-09-16 20:47:47,Jeremy Ashkenas,"Merge pull request #4075 from msrose/docs-search
+
+Add filtering to documentation",True
+ea34297329784909f67c9bd4412952872d08998f,2016-09-12 08:38:59,Michael Rose,Add filtering to documentation,False
+96e94b3b6cc26aae190aa0a136037d729e3afa21,2016-07-22 02:52:34,Justin Ridgewell,"Merge pull request #4061 from leebyron/iterable
+
+Implements the JavaScript Iterable protocol.",True
+a2fc65b9798d1a5d0dcb43b5c50483640f5187c5,2016-07-22 02:03:30,Lee Byron,"Implements the JavaScript Iterable protocol.
+
+This introduces new methods related to Iterators on Backbone.Collection to mirror those found on Array: `values`, `keys`, `entries`, and `@@iterator`. Each of these methods will return a JavaScript Iterator, which has a `next` method, yielding the models or ids of models contained in the Collection.
+
+The CollectionIterator is careful to use the `at()` and `modelId()` methods on the host collection rather than direct access to the `models` property, which should ensure it is resilient to creative subclassing of Backbone.Collection and future feature addition.
+
+The [`@@iterator`](http://www.ecma-international.org/ecma-262/6.0/#sec-well-known-symbols) method is defined using `Symbol.iterator` if it exists in the JavaScript runtime (modern browsers/node.js) and falls back to the string `""@@iterator""` which was popularized by older versions of Firefox and has become the standard fallback behavior for other third-party libraries. This ensures that Backbone can still be used across all browsers, even with use of these new methods.
+
+Supporting Iterable allows better integration between Backbone and the most recent additions to the JavaScript language, including `for of` loops and data-collection constructor functions, as well as better integration with other third-party libraries that accept Iterables instead of only Arrays.
+
+Fixes #3954",False
+760ad49d1c9113f5a7b33831056c2ff6bbd78d5a,2016-07-05 22:08:46,Graeme Yeates,"Merge pull request #4055 from akre54/qunit2
+
+Update to Qunit2",True
+02891a29242fabc8f1a00b799f274b264a020377,2016-06-21 01:47:15,Adam Krebs,"cleanup some automatic test failures, fix lint issues",False
+55bab76349af1b0b5a6f571be72dce8e82d0436a,2016-06-21 01:34:30,Adam Krebs,"Upgrade Qunit to 2.0, auto-convert tests using apsdehal/qunit-migrate",False
+85b9774e905d4ccf6eb048917ade3c52498e6252,2016-06-13 23:52:51,Adam Krebs,"Revert ""Adding .gitattributes to force Unix line feeds"" (#4045)",False
+1bb06dba0668fdfdfc11dfcfa21224075c23f7f0,2016-06-10 00:58:35,Kevin Partington,Adding .gitattributes to force Unix line feeds (#4036),False
+db9654ff5b4bc3c7e3e836d2ba3a421cc9fafe00,2016-05-31 22:27:47,Justin Ridgewell,"Merge pull request #4037 from platinumazure/eslint-upgrade
+
+Upgrade ESLint to latest and replace removed rules",True
+09dfe9dbfde83d628422d8b7d599dc168160ad2c,2016-05-28 07:12:11,Kevin Partington,Upgrade ESLint to latest and replace removed rules,False
+45c69e275105446da3162fb7af6869589bee2e74,2016-05-18 00:09:17,Graeme Yeates,"Merge pull request #4031 from leods92/patch-1
+
+Fix changelog referring to wrong code change",True
+124097a14189e3d3f03c0918d267ba4ad515fbfc,2016-05-17 23:22:05,Leonardo Schlossmacher,Fix changelog referring to wrong code change,False
+6d7baae89b7820eb69017b5f423d1618d71f98d1,2016-05-06 23:25:15,Graeme Yeates,"Merge pull request #4006 from jammon/docs_use_of_id
+
+Clarification on the use of model.id",True
+974894b1a663401e7bc7fb4c662f473ec220532d,2016-05-06 22:49:05,Graeme Yeates,"Merge pull request #3987 from jridgewell/gh-pages
+
+Sync gh-pages",True
+e4c85afa6bf3be5831a15dcd173deb00ebc3b06e,2016-05-06 22:40:30,Graeme Yeates,"Merge pull request #3827 from benmccormick/master
+
+Add a preinitialize method to allow for true instance properties and ES6 classes",True
+a530dbe3b9d97dd705fd29a5362436fdfd096e33,2016-05-06 22:33:00,Justin Ridgewell,"Merge pull request #4026 from Flamefork/4025-encoded-fragment
+
+Fixed updating URL with uri-decoded value",True
+57e89d86faa2af0f4671067375e3782cb98cbd4d,2016-04-30 23:27:39,Ilia Ablamonov,"Fixed updating URL with uri-decoded value
+
+Fixes #4025",False
+f6d8c3e51ded084c43c7306dbc0b4986a1ed3f98,2016-04-25 07:56:51,Ben McCormick,"Add a preinitialize function to allow modifying Backbone objects before
+instantiation logic is run.
+
+This allows greater flexibility for several use cases including
+- #3620
+- #3685
+- Easing use of ES6 classes with Backbone",False
+dbf8d978b0cde1eb8c9a98452cd85185c927f446,2016-04-22 19:57:47,Aleksandr,Explicitly specified return value for findWhere if no model matches. (#4020),False
+b1ac2e451595f071c9a8551a3226d6ac7e7cd305,2016-04-20 08:52:20,Justin Ridgewell,"Merge pull request #4018 from emileber/mdn-link-fix
+
+Fixed broken link to MDN array sort",True
+8ad42e529e6976910732c184493c6fdb07b1bb8c,2016-04-20 07:45:31,ebergeron,Fixed broken link to MDN array sort related to issue #3990,False
+fe908db1745bef19e75d0d5895e029c1a2623ad9,2016-04-07 18:29:56,Rak,"Update backbone.js
+
+* Update backbone.js
+
+ 1 ) improve the patch method
+ 2 ) _.size is not nessesary, bool will be better",False
+77000fa4b432e1d8f3ba3fdfd54e995f9fd0b9fc,2016-04-06 00:26:20,Adam Krebs,Merge branch 'master' into gh-pages,True
+f5b8589eda9bf91ed91d1953ae5b3b50209ec8d0,2016-04-06 00:25:55,Adam Krebs,update 1.3.3 release date and add note about upgrading from 1.3.x,False
+1853122b1480180aaad31123d08b6b9a908d9dae,2016-04-06 00:16:38,Craig Martin,"cherry-pick 4caa6e68 to gh-pages, fix modelId example",False
+b07faea900cc6876a1ebabfa2771541475bdda01,2016-04-06 00:16:38,Adam Krebs,fix modelId example again,False
+8ec88604732944f197b352a6be22c8216ea9d3a1,2016-04-05 23:15:00,Justin Ridgewell,"Merge pull request #3998 from jashkenas/1.3.3
+
+Create 1.3.3 Release",True
+b8c054aec729cdc1d93e55fbe3e9f23016ed4da7,2016-04-05 23:09:15,"Robillard, Steven",Re-minified and updated versions.,False
+85f86d7d615b05b27e5a3c5b72e6d15fa932965f,2016-04-05 23:09:15,Graeme Yeates,Release v1.3.3,False
+c8757f471caf48ed40dfd9c14ae04812d63478bc,2016-04-05 23:08:41,Graeme Yeates,"Merge pull request #4000 from akre54/fix-globals
+
+Fix failing global tests",True
+cecf1347fb7d370c36940d4fc032490eb0b26ca2,2016-04-05 01:12:00,Johannes Ammon,Pointer to using model.set,False
+282ba68857a6959fdef6a0e2b1f5336cc94dacdd,2016-04-05 00:48:44,Johannes Ammon,Clarification on the use of model.id,False
+788dc910702ac6baea95005385951b95f3eec236,2016-03-30 00:25:41,Adam Krebs,Remove test elements after insterting to fix failing global tests,False
+a640b3bdd4da54f077bfe9b8a474a709164a9244,2016-03-30 00:20:06,Adam Krebs,use _.indexOf instead of Array.prototype.indexOf in test. Fixes failing IE8 case,False
+6b919eb061c6c7863892827c07060c20f3e8d54b,2016-03-29 01:20:48,Adam Krebs,"Revert ""Update index.html"". ""a SQL"" -> ""an SQL""
+
+This reverts commit 96d81142f818ab904bb16c3203955cc6eb82a2f8.",False
+5bc65ff3fcfbd676c84edfc00f4c49330ba83f43,2016-03-28 21:31:46,Adam Krebs,"Merge pull request #3997 from zotherstupidguy/master
+
+fix a typo",True
+96d81142f818ab904bb16c3203955cc6eb82a2f8,2016-03-28 21:06:24,"echo 'alias h4x=""emacs -nw **/*""'  ~/.zshrc; echo 'alias vim=""h4x""'  ~/.zshrc;echo 'alias emacs=""h4x""'  ~/.zshrc",Update index.html,False
+c4056792ed19fef295e73ca42643d9b149ccf391,2016-03-17 02:15:55,Adam Krebs,fix links to MDN docs. Addresses #3990,False
+d5875813dae73e47f85621bb225130721815831a,2016-03-12 22:42:18,Justin Ridgewell,Merge branch 'master' of github.com:jashkenas/backbone into gh-pages,True
+65952402687569aaf28abab305a14680f1f48f16,2016-03-12 22:39:37,Justin Ridgewell,"Merge pull request #3978 from jridgewell/1.3.2-rc
+
+Backbone 1.3.2",True
+835b17ba4643df97023518bee26dd69e6e5af450,2016-03-12 22:38:51,Justin Ridgewell,Backbone 1.3.2,False
+24779ae64a3f325f14d49fe6a8e5aa3e5ac1e421,2016-03-09 00:52:35,Adam Krebs,"Merge pull request #3980 from megawac/3975
+
+Fix 1.3.1 regression with once and no context",True
+1db79ddd33f65e4ca93beb3174496cf148baebe5,2016-03-08 21:53:00,Graeme Yeates,Fix 1.3.1 regression with once and no context,False
+2d89d174911f637125e0d4984ab0143befa93c7a,2016-03-04 23:55:43,Craig Martin,"cherry-pick 4caa6e68 to gh-pages, fix modelId example",False
+a5117079a108d3f4bca79555c1cf9a65d4dcc160,2016-03-04 23:55:43,Adam Krebs,fix modelId example again,False
+d682061a25f72ab82fbda472d229cc3d1da7df2b,2016-03-04 23:55:34,Graeme Yeates,Update index,False
+7fe056cd247a86eb0eafa2b57aa99865214a3c3b,2016-03-04 08:36:21,Justin Ridgewell,"Bump to v1.3.1
+
+Because I screwed up the 1.3.0 release by not building the min files...
+Sorry everyone.",False
+2dd94cc2f81b1c940b3b9a10f4c2468b42576968,2016-03-04 08:31:23,Justin Ridgewell,Build v1.3,False
+478e708adeb32bd27abd7723c44b487e707f6cdc,2016-03-04 08:24:25,Justin Ridgewell,1.3.0,False
+dcac2b586d3c46c677d63d2efdd91c79ac052c40,2016-03-04 08:23:15,Justin Ridgewell,"Merge pull request #3921 from jdalton/changelog
+
+Draft changelog for Backbone 1.3.0",True
+712b42b4f378d7e187712dac6d9c4c5a0c0a9a78,2016-03-02 23:44:52,Adam Krebs,code golf modelId example a bit more,False
+b3a28132901f3acc881bfa1efcc4acb04b2061b9,2016-02-25 07:06:51,Adam Miller,Only pass idAttribute to collection.modelId(),False
+c71336641ee0354776556cdcfa5522f23ca14abf,2016-02-10 02:32:06,Adam Miller,"Update to `modelId()`
+ - modelId now takes the model in question as the second argument
+ - modelId will look at the model in question's idAttribute before falling back to Collection.prototype.model.modelId and then 'id'
+ - Makes basic polymorphic collection work out of the box while retaining backwards compatability",False
+e81b4ad2eaef05c9d4dd72aecd6f636d542f32af,2016-02-09 04:44:59,Jeff deBeer,"#3961 - add events sends options.index that correspond to wrong index
+
+fix and test for #3961 - add events sends options.index that correspond
+to wrong index",False
+4cd41161ca6be3826a9a6bbdbd169da7458011ea,2016-02-09 04:35:56,Jeff deBeer,"#3961 Collection#set - add events sends options.index that
+
+Fix and test for issue #3961 - Collection#set - add events sends
+options.index that correspond to wrong index",False
+9f6dc4d575fd7bd85c158528d21c958459ad8530,2016-02-09 04:23:27,Jeff deBeer,"#3961
+
+Fix and test for issue #3961 - Collection#set - add events sends
+options.index that correspond to wrong index",False
+8b976a4ae28cf3b4126ea4dd74ea9c2777c310b4,2016-02-09 03:11:23,John-David Dalton,Update changelog for 1.3.0.,False
+32d89dc47ebaff30ad247724c0c3410de1fe39aa,2016-02-09 01:46:10,Ash Lux,"When listening to numerous events and stopListening is called, then _.isEmpty is painfully slowly and assigning _listenTo to undefined isn't necessary.",False
+5bc98095f7ef2db1cb1918fc1654b5051536bb6d,2016-02-09 01:39:39,Graeme Yeates,"Merge pull request #3927 from jashkenas/megawac-patch-1
+
+Silent true note for collection.remove",True
+e5353fb484a91c97409064abe79bba3f19c4259c,2016-02-09 01:36:47,Graeme Yeates,"Merge pull request #3947 from sam-at-github/master
+
+Minor update to docs.",True
+82bdb8939b026391ad993195e751ccef738c8efe,2016-02-06 01:04:31,Justin Ridgewell,"Merge pull request #3956 from jshen212/patch-1
+
+Line 1920 - Fix Spacing After Return",True
+28588e1b96eb9f76f333b9b70d068d2807bd26ce,2016-02-06 00:41:57,Jeff Shen,"Line 1920 - Fix Spacing After Return
+
+Fixed spacing after return to match the rest of the code",False
+8d8b854abfcf543ad13a9bcfe3b1225af90e4e94,2016-02-05 03:46:06,Adam Krebs,rename at => val in test to be clearer,False
+5a6a82450a1858fd25224937fc5a369435441c36,2016-02-05 02:30:04,Justin Ridgewell,"Merge pull request #3936 from craigmichaelmartin/optimize-collection-get
+
+optimize collection get",True
+8932ae4bc3d9bb98c4cb8819904dd1873b7ec668,2016-02-05 02:00:26,Craig Martin,optimize collection get and account for edge case,False
+8e37d6758c4a13f2aa01177e0ecf9845536c6f01,2016-02-05 01:53:15,Justin Ridgewell,"Merge pull request #3952 from craigmichaelmartin/fix-linting-errors
+
+fix failing linting tests",True
+47fb04a37326a1850c764733cdc5d21784b61c05,2016-02-05 01:46:41,Craig Martin,fix failing linting tests,False
+b0161947eb731f936cb986b1cf669af9370adbc9,2016-02-05 01:31:59,Adam Krebs,Fix #3951: options.index should never exceed collection.length,False
+08a486cb8aa43c061b8bc1cbeec79176a729acf0,2016-02-04 22:53:43,Adam Krebs,"Merge pull request #3843 from jridgewell/defaults-prototype-collision
+
+Avoid Object.prototype collisions with defaults",True
+92fb299c2a057358d4b9eccd99c7ec3498644421,2016-02-03 23:26:45,Justin Ridgewell,Use _.extend to avoid Object.prototype collisions,False
+159ce4afadcdc5a37bbe36a4b62d37d3dd8a9359,2016-02-03 10:09:28,Justin Ridgewell,"Merge pull request #3949 from pra85/patch-1
+
+Fixes typo in docs",True
+ad1a6b85ad0b5d163e0078c248d1f2ebfd276796,2016-02-03 10:05:44,Prayag Verma,"Fixes typo in docs
+
+Found a spelling mistake -
+`deprectated` > `deprecated`",False
+67790b27de5f208c1512abd5c126a8e7a5ce7b6b,2016-02-02 21:57:19,Justin Ridgewell,"Merge pull request #3945 from jridgewell/collection-has-test-fix
+
+Use strictEqual in Collection#has Tests",True
+2f85060e5941c881907075c0c4f2dad7f59791c3,2016-02-02 21:51:37,Justin Ridgewell,Upgrade vendor QUnit,False
+c3806077047220609b7ef79a7863a4c6cb8b5523,2016-02-02 00:22:57,Graeme Yeates,"Merge pull request #3940 from roycetucker/patch-2
+
+Fixing object notation for Events.once",True
+344a4292f56c6bc32d06a5912164a4fcce7be022,2016-02-01 22:10:02,Adam Krebs,"Merge pull request #3948 from megawac/col-update
+
+Pass updated models in the Collection ""update"" event",True
+670ff30aa4962f9b775817054e3498ee930be0a9,2016-02-01 22:03:39,Graeme Yeates,Improve collection 'update' event consistency,False
+90cb5662509518746e8e298d58bbddfb9c04dffe,2016-02-01 21:48:09,Linus-A. M. Gubenis,Pass added and removed models to collection update events,False
+f55b154ad33e7abcbf26a0fa4555d2a4552e0cfc,2016-02-01 10:15:37,sam-at-github,Minor update to docs. Qualify the behaviour of fetch({reset: true}). Link doc on reset event to reset method.,False
+d2099dd283dd20e7783f585a6832bb0a8a45e384,2016-01-31 02:07:37,Royce Tucker,Adding a unit test for once with object notation,False
+00f5c39e2784602f89f4f036323ba3688ee45af4,2016-01-29 00:35:35,Royce Tucker,Fixing object notation for Events.once,False
+45f4ebaac140cd8bdb23a691a8c4006eaeb3b211,2016-01-27 19:57:17,Adam Krebs,"Merge pull request #3938 from craigmichaelmartin/patch-1
+
+disable npm's progress bar in travis ci for quicker install",True
+80ccab0ac8ad8602c6bb7864cb426ec262255026,2016-01-27 19:53:50,Craig Martin,"disable npm's progress bar in travis ci for quicker install
+
+See https://github.com/npm/npm/issues/11283",False
+be1c967a2606d87bbb46c45ba389127982f29f20,2016-01-25 23:52:51,Justin Ridgewell,"Merge pull request #3934 from craigmichaelmartin/fix-modelId-example
+
+fix modelId example",True
+4caa6e6835fdb558b6575bdba882f47b050c5516,2016-01-24 09:22:27,Craig Martin,fix modelId example,False
+ecdb7ad88661b1dc97ae6819a765c93b98066675,2016-01-20 21:32:48,Adam Krebs,"Merge pull request #3933 from craigmichaelmartin/add-id-test-for-polymorphic
+
+add tests solidifying behavior for modelId with polymorphic models",True
+1aa7f7685ac96532f07f73dd52dabf9fbabbff43,2016-01-20 19:53:50,Craig Martin,add tests solidifying behavior for modelId with polymorphic models,False
+82d8ec840c88ef5740b3ff6a8a0757a3c15da733,2016-01-20 00:26:36,Adam Krebs,"Merge pull request #3929 from craigmichaelmartin/avoid-redefinitions
+
+eliminate shadowed variable declarations",True
+e0a5cc75ba21a7181bd4c2b938359270fe369905,2016-01-19 23:04:08,Craig Martin,"eliminate shadowed variable declarations
+
+Also, add eslint rule no-shadow to enforce",False
+6d37e060034e549bd6495dd9dfe8c79165a73f95,2016-01-19 20:19:50,Adam Krebs,"Merge pull request #3928 from captbaritone/year
+
+Update copyright year",True
+2f9d048df8d61ff7a21c6e9e67b0ff9785c7a5f4,2016-01-19 20:17:14,Adam Krebs,"Merge pull request #3930 from craigmichaelmartin/add-collection-has
+
+add `has` method to collection",True
+75666b08c91bfc399e878023f82dc1fbb14ce883,2016-01-17 22:49:36,Craig Martin,add `has` method to collection,False
+dfe0e17d09f318e6b869b5a229bfe6491f5734fc,2016-01-17 10:02:52,Jordan Eldredge,Update copyright year,False
+bc56c5a2dfe9b1fc95c496e83369216cc0fb98f6,2016-01-16 09:21:11,Justin Ridgewell,"Merge pull request #3907 from captbaritone/eslint-8
+
+Add ESLint rule: no-unused-expressions",True
+a8b7117a22d8a80fbe21f65d586f98febf1a8623,2016-01-14 23:45:23,Graeme Yeates,Fix formatting,False
+7eeecf43e3f021c2ade506752b33f6fc2b4697a7,2016-01-14 23:21:11,Graeme Yeates,Silent true note for collection.remove,False
+c20ca2e3f6dc28aba0ff019d269650406a140c73,2016-01-05 21:57:02,Adam Krebs,"Merge pull request #3911 from captbaritone/nested-ternary
+
+Avoid nested ternary",True

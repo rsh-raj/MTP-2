@@ -1,0 +1,506 @@
+Hash,Date,Author,Message,IsMerge
+899378dee9681dcf4cb3d702c23a3f3cd9f473d8,2022-12-10 20:43:04,dependabot[bot],"chore(deps): bump nanoid and mocha (#835)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b1bcc3dd73b592096d9d9ab43b065e2135ba32c0,2022-12-10 20:38:42,dependabot[bot],"chore(deps): bump qs and body-parser (#833)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5d497db230a0b6cac332773ac22aa9b98648667b,2022-12-10 20:38:29,dependabot[bot],"chore(deps): bump decode-uri-component from 0.2.0 to 0.2.2 (#832)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+57ccdf425308c103cb3347560ae6666d00c167b3,2022-12-10 20:38:17,dependabot[bot],"chore(deps): bump engine.io and socket.io (#831)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: Helder Berto <helder.burato@gmail.com>",False
+07ba4a89dae8c6679c3694176969c0b3a5ffffb5,2022-12-10 20:37:47,dependabot[bot],"chore(deps): bump loader-utils from 1.4.0 to 1.4.2 (#830)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f4daa96342c1a22073f607e6a70b75bb4ef8904a,2022-12-10 20:37:35,dependabot[bot],"chore(deps): bump socket.io-parser from 4.0.4 to 4.0.5 (#829)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b31ef09fd01497d5a88bf2537af31fa656366506,2022-08-29 16:03:13,dependabot[bot],"chore(deps): bump terser from 5.5.1 to 5.14.2 (#813)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2b2f9eef6fd1cf951612740e16e422db2848c00a,2022-05-04 23:21:40,Beto Muniz,2.0.11,False
+21db7250edff24892cdd7076df708d9140fc06fb,2022-05-04 23:17:44,Beto Muniz,"Support more HTML input types. Close #800 (#808)
+
+* Support more HTML input types.
+
+* Improve test description. Remove .only
+
+* Apply logic only when target is an input element",False
+08169bce8c8bfab296000f03940663069b89625c,2022-05-04 23:15:44,Patrick H. Lauke,"Fix #805 don't `blur()` the trigger after a clipboard action (#807)
+
+* Remove the `blur()` following a clipboard action
+
+It's pointless to set `focus()` on the trigger first, if in the next step you're just going to `blur()` the active element anyway.
+
+* Tweak test to not expect active element to be body
+
+Since it's now not `blur()`ing anymore
+
+* Fix test
+
+see https://github.com/zenorocha/clipboard.js/pull/807#discussion_r862080076",False
+c7c7fda422025bbe7fd7f287506bb8ec535c6b4c,2022-05-04 14:02:02,dependabot[bot],"chore(deps): bump ansi-regex from 3.0.0 to 3.0.1 (#806)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9b0c87b184c064e6dedaf8651532e729e27518d4,2022-04-29 01:45:48,Shabai Liu,"Fix type for copy function (#795)
+
+Co-authored-by: Shabai Liu <shabai_liu@apple.com>",False
+98c96a1136f78bd0b6fc5f5d3da964550fc9cd17,2022-04-22 14:10:26,dependabot[bot],"chore(deps): bump minimist from 1.2.5 to 1.2.6 (#803)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7bb4433be0e425b1a8d6c439835bac4d8842dd78,2022-03-06 19:23:54,dependabot[bot],chore(deps-dev): bump karma from 6.3.14 to 6.3.16 (#799),False
+67067f316f47ccf5e4cd6cfee755e1b0c739a07b,2022-02-18 21:38:43,dependabot[bot],"Bump pathval from 1.1.0 to 1.1.1 (#796)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2d11cf1a9d924ece38a9288bd0f7ff546a30fdce,2022-02-18 21:38:32,dependabot[bot],"Bump karma from 6.0.0 to 6.3.14 (#797)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+88bb463cc519c083a9857bd71265651833c5cc04,2022-02-18 21:38:20,dependabot[bot],"Bump follow-redirects from 1.14.7 to 1.14.8 (#798)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+98d92f2a42e8efbe014c5c9465d3e3a9d7a0729e,2022-02-02 20:51:27,Beto Muniz,2.0.10,False
+7d675f5fc1c406e86bc2a2df5d0ec8820dcc84b1,2022-02-02 20:43:00,Beto Muniz,Fix Event API. Update demos. Update tests (#793),False
+9698b1176ae68bc8d9a3507aa8a6fc935099d9fe,2022-01-28 07:20:17,Beto Muniz,2.0.9,False
+2f70c7af6ed04ec8753c2b2acbb378649d4f9f34,2022-01-27 15:02:59,dependabot[bot],"Bump follow-redirects from 1.13.1 to 1.14.7 (#788)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b0cd56df352dd426aab58d5d5430a7e4f5664e02,2022-01-27 15:02:46,dependabot[bot],"Bump engine.io from 4.1.0 to 4.1.2 (#789)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d07940ecb04d9b6bbe8eb01096374de83e4b5f67,2022-01-27 15:02:32,dependabot[bot],"Bump log4js from 6.3.0 to 6.4.0 (#790)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+57345ab3ce1b3526d736e1b391257d7221854513,2021-06-30 01:33:06,dependabot[bot],Bump browserslist from 4.16.1 to 4.16.6 (#763),False
+641ac851e88451ee6272f032eb72ef9b459a588a,2021-06-30 01:32:45,dependabot[bot],Bump ws from 7.4.2 to 7.4.6 (#764),False
+44df750c9fa5b573d1429159d9d63c48523d2e9c,2021-05-18 20:16:22,Beto Muniz,"Isolate actions strategies in order to code improvement and programmatic usage. (#749)
+
+* Isolate cut, copy and core helper functions.
+
+* Update tests to accommodate new proposal
+
+* Add/update tests
+
+* Add tests to static copy/cut methods
+
+* Update condition syntax based on PR reviews
+
+* Migrate clipboard-action-default to functional approach. Update tests. Add tests
+
+* Improve folder structure. Clean up code.
+
+* Add types. Fix tsd check env. Improve in-code doc comments
+
+* Improve in-code doc comments",False
+8762fc7c66e309d3a5aef3226b83f24c1d0269e8,2021-05-17 18:06:22,dependabot[bot],"Bump ssri from 6.0.1 to 6.0.2 (#756)
+
+Bumps [ssri](https://github.com/npm/ssri) from 6.0.1 to 6.0.2.
+- [Release notes](https://github.com/npm/ssri/releases)
+- [Changelog](https://github.com/npm/ssri/blob/v6.0.2/CHANGELOG.md)
+- [Commits](https://github.com/npm/ssri/compare/v6.0.1...v6.0.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+957080dcaddcd43ab9c8e25fd8b58dc67e9c528d,2021-05-17 18:06:14,dependabot[bot],"Bump lodash from 4.17.20 to 4.17.21 (#760)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.20 to 4.17.21.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.20...4.17.21)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b9d1496b9cab832b0c46d227041f2ad888203979,2021-05-17 18:06:06,dependabot[bot],"Bump ua-parser-js from 0.7.23 to 0.7.28 (#761)
+
+Bumps [ua-parser-js](https://github.com/faisalman/ua-parser-js) from 0.7.23 to 0.7.28.
+- [Release notes](https://github.com/faisalman/ua-parser-js/releases)
+- [Commits](https://github.com/faisalman/ua-parser-js/compare/0.7.23...0.7.28)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f1b1ab2b1a3a7f7ecf05c7cbb170677375fc6fde,2021-05-17 18:05:48,dependabot[bot],"Bump hosted-git-info from 2.8.8 to 2.8.9 (#762)
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.8.8 to 2.8.9.
+- [Release notes](https://github.com/npm/hosted-git-info/releases)
+- [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+- [Commits](https://github.com/npm/hosted-git-info/compare/v2.8.8...v2.8.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5ffe395b3adf1f5677abf583e254d485a132b039,2021-05-13 01:29:16,Vitor Alencar,"Merge pull request #752 from XhmikosR/patch-1
+
+Update CI config",True
+9c062df900c4e49173edf5565779e1786c12d5db,2021-04-08 11:59:09,XhmikosR,"Update CI config
+
+* add `FORCE_COLOR: 2` so that we get colored output
+* update to `actions/setup-node@v2`
+* fix formatting",False
+734d36b6ffe3346304904a44f12e4f3f69330101,2021-03-21 17:27:36,Vitor Alencar,"Merge pull request #747 from zenorocha/feat-update-meteor-package
+
+update release version for package.js",True
+4c2eb0e9cf39653ae444c6c0089effa5ed43543d,2021-03-18 23:11:50,Vitor Alencar,update to a project wide babel config (#746),False
+7da9deb2ccae2ea96fa44867e67e49237a0ddae6,2021-03-16 22:11:47,Vitor Alencar,"Merge pull request #744 from zenorocha/bump-bower-verssion
+
+updating bower version",True
+cda958cd5f818572250bc19b303de2462d3c2a33,2021-03-16 22:02:48,vitormalencar,update release version for package.js,False
+983a8c0b4120c3c5f5b1346b832323a9a216866a,2021-03-11 21:27:30,vitormalencar,updating bower version,False
+ac3ed3407136fa6e2852d86c64c467235d8d32bc,2021-03-11 21:21:39,Vitor Alencar,"Merge pull request #743 from zenorocha/feat-fix-bower-release
+
+updating production version for bower",True
+5c27fe02b84f05f0abafa4c5ccbfbe11310b242b,2021-03-11 20:42:59,vitormalencar,updating production version for bower,False
+7dea403fbb5257809623cd1d635bd4a3878ea982,2021-03-11 01:58:10,vitormalencar,2.0.8,False
+47f64816eb77090f598e9625232730b8b1662172,2021-03-10 21:59:00,Vitor Alencar,"Merge pull request #741 from zenorocha/feat-fix-webpack-target
+
+feat adding es5 as target for webpack compilation",True
+801cdd4ee3ae8911429f5fc5a353632cf0dcbc4a,2021-03-10 21:09:23,Vitor Alencar,"Merge pull request #736 from zenorocha/feat-update-type-definitions
+
+updating type definitions",True
+6f10cf7e120e558379e433682c860ba3b574d3b4,2021-03-09 16:08:00,vitormalencar,feat adding es5 as target for webpack compilation,False
+2d5e3d231732e3bdf731c4a9071ae9cc2feecb25,2021-03-07 18:45:36,vitormalencar,updating type definitons,False
+c38b4ee76f1e9bacbf2f019e9e84f8f2e2407e91,2021-03-06 18:21:09,vitormalencar,2.0.7,False
+15737fe8773fa2aebd6257e8052900579148e5ed,2021-03-01 18:37:29,Vitor Alencar,Merge pull request #733 from zenorocha/feature-732-removing-dom-el,True
+c23b30d052c451998858b4202a2cc0df2a07e17e,2021-02-25 20:59:36,vitormalencar,feat : add  blank line between class members,False
+4ab89f3d9864f376c9ec910503b6288327c0ade1,2021-02-25 20:55:24,vitormalencar,feat: merge with master,False
+7b7ce32b6544b5e56fbf5f4ebb5a3a49457194c3,2021-02-25 20:51:53,vitormalencar,"Merge branch 'master' of github.com:zenorocha/clipboard.js into feature-732-removing-dom-el
+* 'master' of github.com:zenorocha/clipboard.js:
+  refactor(workflows): remove unused lint file
+  feat(workflows): add lint code job
+  chore(eslint): add comments and new rules
+  chore(deps): remove sort-package-json
+  refactor: remove eslint ignore rules comments
+  ci(lint): create a ci workflow
+  chore(clipboard): remove linter bugs
+  chore(deps): add dependencies and new scripts
+  chore(test): remove linter bugs
+  chore(linter): add linter configuration
+  feat(eslint): add linter configuration
+  chore(deps): add linter
+  updating naming
+  adding deploy action",True
+5d3da8064040725d3af6b6c8897f58c8d1afdc41,2021-02-25 20:46:42,vitormalencar,feat: updating test coverage,False
+b66010bf77efb6cec8ac202f99d965a166cae2a3,2021-02-25 20:46:12,vitormalencar,feat: decoupling create fakeElemet logic,False
+17be1af63e685963991571ef5adbf988c087b3a3,2021-02-25 19:30:21,Vitor Alencar,Merge pull request #727 from zenorocha/feature-npm-deploy,True
+eff98406b964de17bdb19dfff1e25760300ccd83,2021-02-25 03:17:58,vitormalencar,updating tests,False
+dc2b5bf0eaac389d196beeb457de43179688e563,2021-02-25 03:17:49,vitormalencar,removing element after selection,False
+16966aac8d6496c6e0c1d5ae162ca61a8587dea8,2021-02-23 14:57:38,Vitor Alencar,Merge pull request #731 from r3nanp/master,True
+20b70bdbca56ce7801698930284639535c732cc1,2021-02-20 21:28:24,r3nanp,refactor(workflows): remove unused lint file,False
+fd836b82d4db7d611bd0e077d7fd7b66be5502dd,2021-02-17 03:35:21,r3nanp,feat(workflows): add lint code job,False
+0daa6ccd0508e1b2261e07e384a4aa493d2b293c,2021-02-17 03:33:28,r3nanp,chore(eslint): add comments and new rules,False
+ddbbc238b68b19945520c0980716a5f71dfdf8b3,2021-02-17 03:32:02,r3nanp,chore(deps): remove sort-package-json,False
+cb1fec4c6a3827cc3534680341886f1d19323765,2021-02-17 03:31:13,r3nanp,refactor: remove eslint ignore rules comments,False
+b229b550f67be734be295285bb54a3789b8bf04d,2021-02-13 19:34:34,r3nanp,ci(lint): create a ci workflow,False
+b21b99fe5ff63dea044484b9d307c30716654c0f,2021-02-13 19:26:07,r3nanp,chore(clipboard): remove linter bugs,False
+da6b7dd7a31bc5634b343d9f0b372b5092902f08,2021-02-13 19:25:16,r3nanp,chore(deps): add dependencies and new scripts,False
+99c1b9488bd0f16cbaa6d9dc2ed2042bf8843f65,2021-02-13 19:23:22,r3nanp,chore(test): remove linter bugs,False
+5d7ce2f7f6191b30be287e3e75c65b0117308f9c,2021-02-13 19:22:08,r3nanp,chore(linter): add linter configuration,False
+14ee2e31372845e71b3d6ae154d4791542b1ad1e,2021-02-13 18:25:38,r3nanp,feat(eslint): add linter configuration,False
+9f0e246f6499097d67681487e71e4facf1f962c4,2021-02-13 18:17:15,r3nanp,chore(deps): add linter,False
+982d5ef906e93e14ffb2064a8834e378a5893dd3,2021-02-12 22:46:40,Vitor Alencar,"Merge pull request #730 from zenorocha/helderburato-patch-1
+
+Fix readme.md badge",True
+4553dfee2ab6120d45c8996fb138fb0a5fd0880e,2021-02-12 06:09:27,Helder Burato Berto,Fix readme.md badge,False
+28e9d15d13a65f1229dcfd8110f7042070f666dc,2021-02-12 04:55:41,Helder Burato Berto,"Merge pull request #729 from zenorocha/chore-upgrade-husky
+
+Chore upgrade husky",True
+8718bdd2a287c2dc3b2e6410017b1addef30c564,2021-02-11 21:15:35,Helder Burato Berto,"chore(husky): add pre-commit
+
+It triggers lint-staged via package manager",False
+dd74f53217a43f08bbdc0e76858c7e2d593e600d,2021-02-11 21:14:57,Helder Burato Berto,chore(packages): add husky v5.x.x,False
+119edb067d7436c8bd9b8d9ee7f0d9838a96ae80,2021-02-11 19:42:54,Vitor Alencar,Merge pull request #726 from zenorocha/feature-travis-migration,True
+9e34b45841daf9c0b2dd0538610829b38722b325,2021-02-08 23:10:39,vitormalencar,updating naming,False
+9e3330084d5cddc5bf73b5f729c6a75ddda27c26,2021-02-07 17:20:33,vitormalencar,adding deploy action,False
+94a9d8d3ea8323b91e28cf81105060552b0d3448,2021-02-07 16:55:17,vitormalencar,updating readme,False
+6f2b95fb8131d99d8226ab3057c85da838ef080f,2021-02-07 16:55:05,vitormalencar,removing travis config,False
+2b48909ff1fb6da1378a3a6bc81a61a67f629dc2,2021-02-07 16:14:29,Vitor Alencar,Update test.js.yml,False
+5b8db05ad3a86443b6f6d5f202b78596c7f6a972,2021-02-07 16:01:44,Vitor Alencar,"Create test.js.yml
+
+Adding GH Action",False
+17fd75cfb666a3cba38aea64302e4a643d0911f4,2021-01-29 01:10:39,Helder Burato Berto,"Merge pull request #723 from zenorocha/docs-gh-templates
+
+Add GH templates",True
+40bf3736c405be24e810f3ace102e23b39c4fe87,2021-01-28 20:06:50,Helder Burato Berto,Add Operational System to bug template,False
+82e0dca2ea15c4aded30503bcabd4f62dce001a1,2021-01-28 20:00:22,Helder Burato Berto,Add pull request template,False
+e6826488d7ee82be84674f2c596d9db31e4a69a9,2021-01-27 02:58:48,Helder Burato Berto,"Add issues template
+
+It adds templates to the following types:
+- Bugs
+- Proposals
+- Documentation",False
+ac2deb40e9d16c956be1528a39fd1bc0e00816be,2021-01-27 02:58:23,Helder Burato Berto,Remove old issue template,False
+41c73cb7ebff5d71becf2ba2a8038d884227a534,2021-01-26 17:03:43,Vitor Alencar,Merge pull request #722 from zenorocha/feature-typescript,True
+b460d6864cf3e333dc3b1ba6ed6b348607590a6e,2021-01-24 21:23:30,vitormalencar,update type for emitter,False
+9870b14e8005eb101866839bfdd58269b82de60c,2021-01-22 20:29:50,vitormalencar,Add initial type definitions,False
+12a4f43337ca1f5e2be3161f3f30547222a9c9db,2021-01-22 20:29:23,vitormalencar,Add types entry and tsd dependency,False
+62eef3e5b0d6f09a15338ba9ffb7b6c12168e80c,2021-01-22 01:41:55,Beto Muniz,"Merge pull request #720 from zenorocha/small-enhancements
+
+Remove unnecessary code and add node version control",True
+ddb5adc6f88ecd237462cab60fa48b5f868a35ac,2021-01-21 22:55:36,Beto Muniz,"Merge branch 'master' into small-enhancements
+
+* master:
+  update code style
+  update prettier config
+  update dependencies
+  update code style
+  Add prettier husky and  lint-staged
+  Add prettier config file
+  add prettier config files",True
+221efae529a9d2eef34aade78879240c6ba00da6,2021-01-21 22:02:52,Vitor Alencar,Merge pull request #721 from zenorocha/feature-prettier,True
+971834388cb13d01bbe915f54ccb440490c7f4b4,2021-01-21 16:15:33,vitormalencar,update code style,False
+d8a51544bdbc7e552d84b94ad97d91fac3914793,2021-01-21 16:14:11,vitormalencar,update prettier config,False
+2239c05b4dd0c4ca45637ab68abd19c0d4662a91,2021-01-20 22:03:16,vitormalencar,update dependencies,False
+6efd3ba519d236668906b38341d0bf143442ef8c,2021-01-20 21:56:47,vitormalencar,"Merge branch 'master' of github.com:zenorocha/clipboard.js into feature-prettier
+* 'master' of github.com:zenorocha/clipboard.js:
+  Update dev dependencies.",True
+d9b90c2f5d25a9752093b7f2fb0ec990250fa16a,2021-01-20 21:28:11,Beto Muniz,Add node version control to the project,False
+e5d3f91f354e8283735d649eb4e8cab24058a24f,2021-01-20 21:27:58,Beto Muniz,Remove unnecessary dependency,False
+2660565b61cf26e3598732180088cc8594601c40,2021-01-20 21:25:03,vitormalencar,update code style,False
+35688322f37c72442ab56e6625586a2904e179cb,2021-01-20 21:02:40,vitormalencar,Add prettier husky and  lint-staged,False
+498dfb9bdfb3eeb715386e7f6f6a1c6fed28b47e,2021-01-20 21:01:18,vitormalencar,Add prettier config file,False
+b937bd631f040cf076d130e5e2e8eef9d1c75a3f,2021-01-19 23:36:14,vitormalencar,add prettier config files,False
+64797395643b6bab7221842150f63d5916dbb9be,2021-01-19 23:32:14,Beto Muniz,"Merge pull request #719 from zenorocha/update-devdeps
+
+Update dev dependencies.",True
+43aa5786c9d6e7e5c46cdc9145476cbe339d9a46,2021-01-19 21:12:06,Beto Muniz,Update dev dependencies.,False
+5ea83e4473a2e2fbe01a4af8702ca3d3e318be64,2021-01-19 19:38:05,Beto Muniz,"Merge pull request #703 from realityking/babel7
+
+Upgrade babel to version 7",True
+27ee5bbbd00c4eb9d7868a8091e20f43fe8dd0a9,2021-01-19 18:04:05,dependabot[bot],"Bump ini from 1.3.5 to 1.3.8
+
+Bumps [ini](https://github.com/isaacs/ini) from 1.3.5 to 1.3.8.
+- [Release notes](https://github.com/isaacs/ini/releases)
+- [Commits](https://github.com/isaacs/ini/compare/v1.3.5...v1.3.8)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+dd84bc1f8a21a8a35147805e1766ad29676755e4,2021-01-19 18:01:03,Christian Oliff,Add homepage to package.json,False
+4456d61877446f9990f85fb1c5f7c2f10ea1e6ff,2020-10-04 18:50:54,Rouven Weßling,Upgrade babel to version 7,False
+26a8d6392456eebc7dfa3410e232f7319180d120,2020-03-15 05:41:32,dependabot[bot],"Bump acorn from 6.4.0 to 6.4.1
+
+Bumps [acorn](https://github.com/acornjs/acorn) from 6.4.0 to 6.4.1.
+- [Release notes](https://github.com/acornjs/acorn/releases)
+- [Commits](https://github.com/acornjs/acorn/compare/6.4.0...6.4.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+fddd2aac5f8772c468b36e8607ab9b0704ee73c6,2020-03-05 11:56:34,Zeno Rocha,2.0.6,False
+e430d056ad3b6a0cd887bac7f7ff291ee125a400,2020-03-05 11:54:24,Zeno Rocha,"Fix ""isSupported"" behavior - Closes #666",False
+289389322e9673d72959224d13b884175470abe5,2020-03-04 07:50:40,Zeno Rocha,2.0.5,False
+894a3bef4a0e2fe9b90b2027b0f8cac88c986420,2020-03-04 07:39:24,LeuisKen,chore: make babel not transform es modules.,False
+780d3908567152e9a8f6680e9517e2ca4b06d614,2020-03-04 07:39:24,LeuisKen,chore: fix es6 export issue.,False
+5de8be447f187a0833b0dab8f67de516bcdb705b,2020-03-04 07:39:24,LeuisKen,fix: change export from commonjs to es module for import from src usage.,False
+132fcd16b11aac48703cb7f2c928e7d0c428a46e,2020-03-01 01:48:50,Zeno Rocha,Add Stale Bot,False
+e7f0ff0392f0d5b22ff35d07fc87f28bd6c96efd,2020-02-29 23:33:07,Zeno Rocha,Fix composer deprecated package #659,False
+393dbe34e09b019abe91b7027cfbaee74691bf76,2020-02-29 23:25:42,domecardillo,replaced invalid property url with homepage in composer.json authors array,False
+d3fc3c1e7b64db9c649cd9978e29c3068bd6da53,2020-02-29 23:25:14,Zeno Rocha,Regenerate package-lock and dist files after PhantomJS removal,False
+83824fa248b2f06a309404da89feac10a6e59a85,2020-02-29 23:23:41,ossdev,"ClipboardJS: Removed PhantomJS Dependency
+
+Added karma-chrome-launcher dependency
+
+Signed-off-by: ossdev <ossdev@puresoftware.com>",False
+ce79f170aa655c408b6aab33c9472e8e4fa52e19,2019-12-28 05:26:56,ryanmcdonough,Create LICENSE,False
+4c3a0868669f1336dd1a56d2450ef1982913bdab,2019-12-28 05:26:29,Christian Oliff,HTTPS relevant links,False
+20f64d82d01c76c3a349d3916f135f8ce059c287,2019-04-19 02:53:49,Bjorn Hansen,Update broken link to Primer Tooltops doc,False
+85981026d1f464c9f645ffe543a3ba0d40c9b6c4,2019-03-06 00:33:02,Christian Oliff,update URL in banner,False
+6802a86f602d8e8a8f1ae6963ba07f772619b74e,2018-11-15 09:46:46,Rouven Weßling,Set babel-preset-env into UglifyJS compatability mode,False
+3522504d34128dce8b584789ca375bc3d74d0c0d,2018-11-15 09:46:46,Rouven Weßling,Remove the unused dev dependency babel-cli,False
+d17eca050e705ae4932fd1be3e96abe38bd3397c,2018-11-13 10:12:07,Zeno Rocha,2.0.4,False
+5381600a269aa7b6a571971f52ebaf30831f5620,2018-11-13 10:05:19,kovenliao,fix webpack umd build (#599),False
+5be63e28dd26f5212b506ce5cebb02b22b3df505,2018-11-12 08:26:51,Zeno Rocha,2.0.3,False
+adc669df069695da8bdc97f1d63e08cfdb9a624c,2018-11-12 08:23:43,Rouven Weßling,"Always run webpack in production mode. (#595)
+
+Otherwise horribly inefficent code that evals(!) strings of code is generated.",False
+b57e6d019fdf4a0846aa78ebbac9db84e6fab19d,2018-11-12 08:21:00,Rouven Weßling,Don't claim to support ESM,False
+3d005b547ec739636d840c2344ffd038cab5b620,2018-11-12 08:19:23,Rouven Weßling,Maintain banner in minified file,False
+cf9e8fd7ce659e42828dcb6dcac02f72ee04db20,2018-11-11 23:28:44,Zeno Rocha,Updates devDependencies,False
+f1d99de5d3fe4ee82ba4e0abd04128c3dde32715,2018-11-11 23:18:15,Zeno Rocha,Removes .npmignore file,False
+fdb66d3f16fbe7f0f8128ba6bc7641090bbbe94a,2018-11-11 22:44:19,Zeno Rocha,2.0.2,False
+e0f82241d0929a9283163499a6a0181bb9fa0c6a,2018-11-11 22:40:37,Zeno Rocha,Removes bundle analyzer,False
+4d4c25c50593893f503d65bc8949c430ed7d57bd,2018-11-11 21:50:47,Zeno Rocha,Updates Webpack CLI,False
+5ef3f1a817d5cea10cca1d887a9d82b6426c0943,2018-11-11 21:47:25,Samuel Oloruntoba,Migrates to Webpack 4,False
+3382ea3d14a6c46d274df6147c73a83ef47e41b3,2018-04-30 05:11:13,Zeno Rocha,2.0.1,False
+0fcf8c946039490478fd55017a14421c425c5a57,2018-04-30 04:44:20,Paweł Lesiecki,"Update package.json (#532)
+
+Correct module path",False
+e1d571b3f33612322e4d77bbb4ed58d7ce09c9a3,2018-03-01 22:37:10,Zeno Rocha,Updates docs to use ClipboardJS 2.0,False
+43beb07bac8323a1ee04001d73d131f7634223cc,2018-03-01 11:26:32,Zeno Rocha,Release v2.0.0,False
+9086f3ed64b954d9021a1e5a94db6b4c2d1c77ab,2018-03-01 11:16:48,Zeno Rocha,Updates demos to use new constructor,False
+750cf124d7fa60902f25f7496fe7cf0323fed280,2018-03-01 11:15:59,Zeno Rocha,"Changes global variable from ""Clipboard"" to ""ClipboardJS""
+This was introduced in order to prevent a name conflict with the new `window.Clipboard` native function
+
+For more info check:
+* https://w3c.github.io/clipboard-apis/
+* https://chromium.googlesource.com/chromium/src/+/ac319a7ed300e2d8b7de3e6dcdfce2acf3363122",False
+d25dcac81771ba4a813769adcab621b92aa9a051,2018-03-01 10:02:25,Zeno Rocha,Migrates banner from Browserify to Webpack #372,False
+f7e2f58c962192c953506ce1a5a11cc312f02610,2018-03-01 06:35:21,Fernando Herrero,"Create composer.json for instalation with composer (#467)
+
+* Create composer.json for instalation with composer
+
+The installation is much simpler with Composer and https://github.com/RobLoach/component-installer
+
+After merged you can test it:
+```
+composer config repositories.zenorocha-clipboardjs vcs ""https://github.com/zenorocha/clipboard.js/""
+composer require zenorocha-clipboardjs:dev-master
+```
+Before merged you can test using my git fork.
+
+Composer creates a ""components"" folder that contains the ""clipboardjs"" whith all files spec in ""files"" of composer.json.
+You can then register the ""package"" at https://packagist.org In this way the installation would be simpler:
+`composer require zenorocha-clipboardjs:dev-master`
+
+* Remove icon",False
+2d5b2df811c9729305538465887928f604e3d1f7,2018-03-01 06:33:39,Guillaume Vincent,"Migrate from Browserify to Webpack (#372)
+
+* Migrate from Browserify to Webpack
+
+close https://github.com/zenorocha/clipboard.js/issues/371
+
+ Author:    Guillaume Vincent <guillaume@oslab.fr>
+
+* remove browserify and associated modules and update tests",False
+0c3bce265f6e8bbe6dfd63ec7b01c6e9394c8c93,2017-10-16 19:55:57,Lucas Bento,Fix GitHub Primer tooltips link (#479),False
+3c0dfe5a38972ad4530136691d480b855a8f09ad,2017-07-01 01:00:30,Zeno Rocha,Adds docs on tooltips #423,False
+f960b0d20a1b8a7c7a7522f9203595743519a594,2017-07-01 00:22:07,Nathan,use only ID name for DOM (#431),False
+b6e6b80ab07eab03ce0d277515b3ed540773a330,2017-05-30 05:27:52,Zeno Rocha,Release v1.7.1,False
+a55c9ac513da6e6d01dfd6ceed9a930c596cf7e4,2017-05-30 05:24:55,Patrick H. Lauke,"Move focus to trigger instead of simply blur()ing (#419)
+
+blur() results in a loss/reset of keyboard focus, meaning keyboard users usually get thrown right back to the start of the page. Instead, this moves focus back to the trigger (which had the focus when the trigger was activated).
+As with the proposed fix in https://github.com/zenorocha/clipboard.js/pull/418 this obviously results in the focus styles (like the default outline, unless suppressed) being applied to the trigger (see the related PR for rationale and future fix using `:focus-ring`)",False
+39e622456c2c6ddefd97b0199fd5ce6182b63edb,2017-05-30 03:13:41,Zeno Rocha,Release v1.7.0,False
+f8c322f16311fd119e2e724a83182dc683031d1e,2017-05-30 02:50:36,Zeno Rocha,Reviews text from #368,False
+f42b57067d461f5a8c71deec9818670f0c71d818,2017-05-30 02:47:26,Peder Johnsen,"Container option (#368)
+
+* Allow container option to fix bugs related to bootstrap modals etc.
+
+* Updated readme to reflect addition of container option
+
+* Name link
+
+* Removed test log
+
+* Remove unwanted whitespace
+
+* Refactored description",False
+4065080a17657cd62bc116d2049ec047ad1f3147,2017-05-23 02:01:36,Zeno Rocha,Removes bower notes from docs,False
+5ab50475e0b17fb9d02c70544d2ec72796550b17,2017-05-03 10:04:18,Gabriel Kalani,"ES6 refactor (#409)
+
+* little fix
+
+* little fix /2
+
+* test/clipboard.js refactored
+
+* emitter: emitter --> emitter
+
+* Examples in ES6
+
+* es6
+
+* back to original code
+
+* script > npm test
+
+* script > npm test not necessary
+
+* updating modules
+
+* removing export default",False
+e1394b3b8cb38939357960bbff23ec20779682df,2017-05-01 21:47:35,Zeno Rocha,Adds bonus section,False
+f59d4e6b4db55b0f462eeb96fb74db3469e0765d,2017-02-28 23:28:40,Zeno Rocha,Release v1.6.1,False
+9ddff7e5917a78dc9b62ce4699c4ba6b38f22fa7,2017-02-28 23:27:36,Zeno Rocha,Prevents Node env from throwing an error,False
+a00f1fe32784f823db7bce3a3ec5d7fc8e3f9eab,2017-02-08 13:32:14,Zeno Rocha,Release v1.6.0,False
+38ae5b34f3b58ed5a2b261f079d6974c7c4f70fd,2017-02-08 13:29:27,Zeno Rocha,Adds documentation about #355,False
+41b7234d50648c680c61e76bd1a241c3c87bf12b,2017-02-08 13:11:46,Zeno Rocha,"Prevents keyboard from opening on iOS when using ""data-clipboard-target""",False
+3696739e5eff228713c53d6269da62ba211b7d7d,2017-02-08 13:07:43,Zeno Rocha,"Prevents scroll jump on iOS when using ""data-clipboard-text""
+Thanks to @geraldarthur at #369",False
+63d1b0f0145cb887a6d17c48b6af2eb39b384d4b,2017-02-08 13:06:29,Itai Steinherz,Add isSupported method #355,False
+402c9ee17bed6f273bcbc7efa81874fd9a50b84c,2016-12-12 19:24:35,Zeno Rocha,Release v1.5.16,False
+0538f6e2120a3987558d40b4ff6350ce9ede5600,2016-12-12 19:23:41,Zeno Rocha,Ensures that event delegation works with multiple documents (a page with iframes),False
+8ad16a2c6cae573eb1f36114317ccaf3f130ae1f,2016-10-23 08:14:43,Zeno Rocha,Release v1.5.15,False
+ce0829054bd6e2b0c32e28b5fe4948d5f2d5e173,2016-10-23 08:07:37,Zeno Rocha,Updates dev dependencies,False
+223d30c110a8d060b31e415af1e9c71d9d9be998,2016-10-23 08:07:18,Zeno Rocha,Removes babel loose mode,False
+b1a68df6e9940784fd8811c47e354d9bdab36653,2016-10-23 08:06:49,Zeno Rocha,Release v1.5.14,False
+0149e1de5e04055b58556b4dca5a2b9235de74b2,2016-10-23 07:40:44,Zeno Rocha,Updates good-listener package which removes two dependencies,False
+26a9e9d56ccb7241c3a60fc7003e0fd48d77dd44,2016-10-17 11:14:03,Zeno Rocha,Release v1.5.13,False
+fce625f1515fea353072e4253ead96335e681b18,2016-10-17 07:23:34,Zeno Rocha,Fixes #320,False
+f7040bae8a1a1aa2c69a5dde5b32acd1140aa34d,2016-10-17 05:46:02,Zeno Rocha,Adds meta viewport for all demos,False
+9f9d03c92797174a57e1e7dfe9b086fc2dc64ada,2016-09-27 00:27:28,Zeno Rocha,Adds Edge version #316,False
+e18c26ae0741f2730d9bafe42fc594c103172337,2016-09-27 00:18:16,Cătălin Mariș,"Add `Edge` to the `Browser Support` section (#316)
+
+Ref: https://github.com/zenorocha/clipboard.js/pull/267#issuecomment-249620994",False
+70cfabec696fa907f8de2553caba95d73aadbefe,2016-09-22 01:51:25,Zeno Rocha,Update readme.md,False
+f700a1b12e52a91423a268d0cb80835a32b455df,2016-09-22 00:12:37,Zeno Rocha,Moves URLs to HTTPS,False
+9e3d662c4e94cce1f5a05216b9f6cb504345d5d1,2016-09-21 23:34:07,Zeno Rocha,Adjusts text based on #313,False
+76b907949c90adbfa12e8940bf4512c7d7b85dba,2016-09-08 21:27:41,JY Kim,"issue #282 solution (#283)
+
+* add selectedText
+
+* better code
+
+* remove dist folder
+
+* Revert ""remove dist folder""
+
+This reverts commit 50e726c7a790a1c4a76469e15b56baccc44a4599.
+
+* orogin dist source",False
+60b6887100692e8893b8de6a81bbbfdfb88016a6,2016-06-18 03:19:39,Zeno Rocha,Updates site preview,False
+eb7418b51bb3c963893d83954c5cfa4de3f7f527,2016-06-09 20:27:20,Zeno Rocha,Release v1.5.12,False
+869c4e3219155a95648c5db80caf67a2752d56ed,2016-06-09 20:24:07,Alexander,"Fix bug that unable to remove fake event listener (#256)
+
+* Fix bug that unable to remove fake event listener
+
+* Update dist",False
+a4ab3052975c03d96f22dcfd86ccadf7571b35d2,2016-06-09 10:16:20,Zeno Rocha,Release v1.5.11,False
+294e9fcb5d80c3966d18bae635cbcccfe9cd8664,2016-06-09 10:14:54,Zeno Rocha,"Fix fake element position from ""fixed"" to ""absolute"" #194 #250",False
+79c3361ca4e6843e1a910d791e9f74caccdbf312,2016-06-03 03:58:16,Ali Bozorgkhan,"Press Ctrl+C to copy -> Press Command+C to copy (#252)
+
+As Safari users are mostly using mac, coping a text needs Command+C instead of Ctrl+C",False
+c3fefc1fc0662a5ac11eafb251d59fc9e29349e2,2016-05-27 00:05:18,grabus,"Fix memory leak because of fakeHandlers (#243)
+
+addEventListener always returns undefined by spec
+https://www.w3.org/TR/DOM-Level-2-Events/events.html#Events-EventTarget-addEventListener",False
+42bd266f0b8d97823414c3b7b184aec095b7216f,2016-05-02 04:44:51,Zeno Rocha,Adds basic JSFiddle to help people reproduce their bugs,False
+53a733fcb56d66af30cd45bfe484933a0513a7a9,2016-04-04 11:03:02,Zeno Rocha,Release v1.5.10,False
+7a5a910bcd83aa44718dc30caea503d9da37d4b9,2016-04-04 10:46:22,Zeno Rocha,"Removes error message when target/text attributes are null, undefined, or false",False
+0163f7cb72e7ee2ba8a5a07ad4aef0f9ce02f2b6,2016-04-01 21:18:49,Zeno Rocha,"Merge pull request #216 from sebastianekstrom/master
+
+Use const instead of let when applicable",True
+941bdbb16ef77bad4961cad2affeed7b5f9ff022,2016-04-01 16:47:12,Sebastian Ekström,Use const instead of let when applicable,False
+00d5cc4e96d11f07bc4a857731c80e64e10df16f,2016-03-17 21:42:23,Zeno Rocha,Updates tagline #210,False
+07a1f8456b219feae3fbaf4db1e6fee1ad48d530,2016-03-02 05:08:25,Zeno Rocha,"Throws error when disabled or readonly attributes are used on target element
+Fixes #41",False
+ff3cd2c722b744fa21d0fc621a08ad88b7a38189,2016-02-26 23:56:32,Zeno Rocha,Release v1.5.9,False
+d346f30e5d2ce0c26512d96da6fb14803657d4fe,2016-02-26 01:49:22,Zeno Rocha,"Merge pull request #190 from heldr/master
+
+update modules and fix #176",True
+e5fe34c5243990ddeb5ba0823def5763ee7affed,2016-02-26 01:47:07,Helder Santana,WTF?! npm,False
+0a6aace544bad6dc86e09296cb8986fadf2efe41,2016-02-26 01:36:38,Zeno Rocha,"Merge pull request #194 from stepancar/patch-1
+
+minor fix for fake elem",True
+43d9c11aafb5ad60ce45c7a77d7184d43e09a00c,2016-02-25 17:50:13,Stepan Mikhaylyuk,"minor fix for fake elem
+
+after call clipboard all page scrolls down. As i understand, its relates to fake element, cause its append to body.
+I just set position to 'fixed' and now it works right. I think 'fixed' is more css-style independence then 'absolute'",False
+90a52149edca61ab975e6228726680d06afe9146,2016-02-20 12:11:40,Helder Santana,fix babel 6 export default behaviour,False
+83b9d6a84dac05d938eaf8054e8bdc89dcff7bf8,2016-02-20 11:44:33,Helder Santana,update modules and fix #176,False
+3d13baa38550753daf6a58fba4ac37cf13d8be60,2016-02-19 01:10:00,Zeno Rocha,Adds issue template,False
+7e37c9512116134dccf01620289888a252b3016f,2016-02-05 00:58:33,Zeno Rocha,Release v1.5.8,False
+bc9bcdd6788947091937d5f10011c7bf88cf8ee0,2016-02-05 00:55:00,Zeno Rocha,Adds explanations on textarea styling #143 #179 #180,False
+4c9e29a0dc9a0502ec62640f82462ab609308d84,2016-02-05 00:39:10,Zeno Rocha,Resets invisible textarea's paddings and margins #179,False
+bd6dc9eb9f8d6ebb0d56217e1a9b0a96ab379f8c,2016-02-04 21:42:04,speedplane,Prevent auto-zooming on an iphone by making the text area size appropriate size. Fixes Issue 180.,False
+a88bb77be476b84af4ccfa732e25663183cb3f1c,2016-02-03 22:01:41,Zeno Rocha,Release v1.5.7,False
+e86dc2caa247ae6d69c94bf33a4b33c23fac29c1,2016-02-03 21:52:35,Zeno Rocha,"Revert ""Upgrades to Babel 6""
+
+This reverts commit ee1eb455f486c73aa68023cb8660bc4e89fc0129.",False
+8392a7ba1ce4f359bf9ed6e53dbbccf4eb97a813,2016-02-03 03:14:26,Zeno Rocha,Release v1.5.6,False
+31e3622e17f3d2fce7621fe480a85d53ec8a87e7,2016-02-03 02:57:11,RAFIE Younes,Fixed RTL issue #161,False
+ee1eb455f486c73aa68023cb8660bc4e89fc0129,2016-02-03 02:41:25,Zeno Rocha,Upgrades to Babel 6,False
+d50f2fb73fe3a3831bb36d4f673a532fc021a4ee,2016-02-03 02:22:17,Zeno Rocha,"Updates good-listener
+Fixes #170",False
+c8221c742d089bd133f11ec800bc9af9c5d2fe44,2016-01-21 21:51:44,Zeno Rocha,"Serves the unminified version for Meteor
+
+Fixes #167",False

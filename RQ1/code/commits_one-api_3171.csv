@@ -1,0 +1,2821 @@
+Hash,Date,Author,Message,IsMerge
+8df4a2670b98266bd287c698243fff327d9748cf,2025-02-21 17:00:16,JustSong,docs: update ByteDance Doubao model link in README,False
+7ac553541b6b5fd4fda63663bb3dd304f57a1d6c,2025-02-16 15:31:59,longkeyy,feat: update openrouter models and price 20250213 (#2084),False
+a5c517c27a831ba5553802125fa6350486502216,2025-02-16 15:31:24,longkeyy,feat: update ali models and price 20250213 (#2086),False
+3f421c4f04c9a63b26f5e0be4055989beb16b0b6,2025-02-16 15:29:39,JustSong,feat: support Gemini openai compatible api,False
+1ce6a226f634e5111e3af780dc1e3021813b1c1b,2025-02-16 15:12:20,JustSong,chore: update prompt,False
+cafd0a0327f74e98cad521bc4bd2f48094e4cfe9,2025-02-16 15:08:06,JustSong,feat: add OpenAI compatible channel (close #2091),False
+8b8cd03e856a6dc467e06b86027f40a02b39bba3,2025-02-11 22:50:28,JustSong,feat: add balance not supported message in ChannelsTable,False
+54c38de8132c57360ecc5cf149c06b2690f5ea80,2025-02-11 22:45:45,JustSong,style: improve code formatting and structure in ChannelsTable and render helpers,False
+d6284bf6b09650d93e2e02a3c4640168dd6bbd92,2025-02-11 22:16:13,JustSong,feat: enhance error handling for utils.js,False
+df5d2ca93d14b4dc386000b6a59326dc3cde1c60,2025-02-11 22:05:29,DobyAsa,docs: fix README typo (#2060),False
+fef7ae048ba08cce8e8d4cbd4c07f589930e26d6,2025-02-11 22:04:25,Laisky.Cai,"feat: support gemini-2.0-flash (#2055)
+
+* feat: support gemini-2.0-flash
+
+- Enhance model support by adding new entries and refining checks for system instruction compatibility.
+- Update logging display behavior and adjust default quotas for better user experience.
+- Revamp pricing structures in the billing system to reflect current model values and deprecate outdated entries.
+- Streamline code by replacing hardcoded values with configurations for maintainability.
+
+* feat: add new Gemini 2.0 flash models to adapter and billing ratio
+
+* fix: update GetRequestURL to support gemini-1.5 model in versioning",False
+6916debf6638cde1302b6ba3b789442027d227d5,2025-02-11 21:58:23,JustSong,feat: update TestPrompt to specify output format for model name,False
+53da2091346e0b7e725433bfa8a0a4fdff6dac69,2025-02-11 21:45:43,JustSong,feat: add AliBailian adaptor and update channel options,False
+517f6ad21141c2574a4e1a65004b07ef5607a2b0,2025-02-10 23:18:26,JustSong,feat: update date range to display at least 7 days of data in Dashboard,False
+10aba11f18c32fcfec1295cefacfaf3bf8e64c63,2025-02-10 22:08:15,JustSong,style: improve code formatting in ChannelsTable component,False
+4d011c5f98e7e5c40945a2afd2434eb550fa404a,2025-02-10 22:05:06,JustSong,feat: add OpenRouter balance update functionality and improve code formatting,False
+eb96aa635e693d620201e73f7a4a824150b07e3e,2025-02-10 21:50:55,JustSong,feat: update OpenRouter channel name and add model list for OpenRouter adaptor,False
+c715f2bc1da22412e44d719bbdd4a7a380f7cc0c,2025-02-09 18:51:28,JustSong,feat: add new models for xai,False
+aed090dd55e1248446b77172e970ccbdbb7f5c7f,2025-02-09 16:39:53,JustSong,fix: fix cannot select test model when searching,False
+696265774e930e24552e3c25e474fe8a779ce97b,2025-02-09 16:25:32,JustSong,feat: add MiniMax model constants to the adaptor,False
+974729426deabb6a7b0e276b980829da5f00b9da,2025-02-09 16:20:51,JustSong,feat: refactor Xunfei API version handling and update model list,False
+57c1367ec88438b6d8fd334add6cf22d6ce1f097,2025-02-09 16:01:54,JustSong,feat: add Xunfei V2 channel support and update related configurations,False
+44233d5c04e04625b660f0c43a51dd50d4b5192c,2025-02-09 15:44:01,JustSong,feat: add completion tokens details and reasoning effort fields to model (close #2050),False
+bf45a955c33257e2745130529d06d00b41ab013b,2025-02-09 12:11:42,JustSong,fix: update system prompt handling by renaming field and ensuring proper usage in request processing (close #2069),False
+20435fcbfc4df1e498fe3cfbefd00f96a7c2f682,2025-02-09 12:03:25,JustSong,fix: simplify Docker build configuration by removing unnecessary platform and architecture settings,False
+6e7a1c2323b1d0ff2420aaca667237dfd77eb4d9,2025-02-09 10:12:31,JustSong,fix: format channel options for consistency and improve tips for user guidance,False
+dd65b997dd833b13ce3c9151cac93f657db2e8e0,2025-02-09 10:07:26,JustSong,feat: add Baidu V2 channel support and improve model handling,False
+0b6d03d6c65aa8974b075c6f75f222e8865f53fb,2025-02-09 09:38:40,JustSong,fix: update channel name from '火山引擎' to '字节火山引擎' for consistency,False
+4375246e249a18d927423c61e2e89b335de89efc,2025-02-09 09:33:31,JustSong,feat: enhance channel options with tips and descriptions for better user guidance,False
+3e3b8230ac138cc3279ccc65fd32b8121a66880f,2025-02-09 08:32:45,longkeyy,fix: add read/write locks for ModelRatio and GroupRatio to prevent concurrent map read/write issues (#2067),False
+07808122a64995f3a483093bf90071fe070bcc71,2025-02-09 08:27:22,JustSong,fix: fix Debugf not using DebugEnabled (close #2068),False
+c96895e35bdd44c066ed35fde56d34cb21a2cd4e,2025-02-07 21:37:55,牡丹凤凰,"docs: add related project CherryStudio (#2059)
+
+* Update README.md
+
+增加相关项目CherryStudio
+
+* Update README.en.md
+
+* Update README.ja.md",False
+2552c68249d180add4ccfdae7ae4c47380d2e9e1,2025-02-06 23:21:28,JustSong,fix: update doubao channel name,False
+5c81e40612fc5061bb392dba6c059e8dd63d49dc,2025-02-06 23:05:53,JustSong,fix: update Dockerfile and workflow for improved multi-architecture support,False
+0d5318b1b756ec00cee849ef13e37c577cdbab42,2025-02-06 22:45:33,JustSong,"revert: fix: revert sqlite build related changes
+
+This reverts commit db65db28077ee66aa23ef4bb673bbde2f9ac832e.",False
+db65db28077ee66aa23ef4bb673bbde2f9ac832e,2025-02-06 22:18:23,JustSong,fix: revert sqlite build related changes,False
+e0b7e6a9e286b533ed76bd178f637c27497e0056,2025-02-06 22:09:55,JustSong,fix: unify version retrieval in Dockerfile build commands,False
+27c2abe80f419d0095514753dd5342f1dfb590f3,2025-02-06 22:03:15,JustSong,fix: update Docker setup actions to latest versions,False
+2c867251b5a0675726ed6fcc3f54a442259a78e2,2025-02-06 21:53:13,JustSong,fix: improve code formatting and readability in Dashboard component,False
+108111ebd32172f24ce136495077ad0469300bc4,2025-02-06 21:49:23,JustSong,fix: exclude preview tags from release workflows,False
+293ba93ad688b6a51ca2834be7752ebdd723d02b,2025-02-06 21:43:57,JustSong,fix: remove outdated model from ModelList and add new deepseek models,False
+faced40d5ba46c7b0491fc5ee370b2b3543d5a31,2025-02-06 21:36:32,JustSong,fix: update Docker image workflow to conditionally include arm64 platform,False
+2ae9997f29d80199de2fe9cdfbbed971d60939d1,2025-02-06 21:33:00,JustSong,fix: enhance error handling for Gemini API key validation,False
+e146b14d462c0f02bdd274537232658e1a30bc15,2025-02-06 21:31:38,JustSong,fix: add default API version handling and enhance error message checks for Gemini,False
+e19045f925bccdc0e097b1ad457f490bd32621c3,2025-02-06 21:08:29,JustSong,chore: add deepseek-reasoner,False
+d2903b673db4a1589be78e8dffa33c051cddf047,2025-02-04 17:37:05,JustSong,fix: update SiliconCloud link in README,False
+33edcf604cdceb0a6daecd99ee090694b50f0d52,2025-02-03 15:52:59,JustSong,feat: add balance_not_supported translation to English and Chinese locales,False
+78fd6ef1611f98cf19d7da6049f074fc636e85e0,2025-02-03 15:45:44,JustSong,fix: update README for clarity on stable and alpha image addresses,False
+9b6d5f76e0f52e81ba7b6074cb1037c7f8645043,2025-02-02 21:41:43,JustSong,fix: enhance douban_notice_2 for clarity on model name conversion,False
+2250f311e1482c4bed1faf4bf7fb60cd9f99bfe5,2025-02-02 19:55:52,JustSong,feat: add latest version of Claude model to constants,False
+e43f75862399be1b01ea739cc9dbefd8d303eac9,2025-02-02 19:54:31,lyj,Update model.go (#1963),False
+6ded638f70962ace1b34beda2262d1fbb0517269,2025-02-02 19:52:42,江南一根葱,fix: audio transcription 400 error (#1882) (#2003),False
+ea3331b79a04ad45c19f2ee2aedb0ca3e9192035,2025-02-02 19:51:30,jiz4oh,"fix: remove duplicated model (#2012)
+
+the model `llama-3.2-11b-vision-preview` was declared at https://github.com/songquanpeng/one-api/blob/3915ce9814b8261a1ab13ed93adec58b463cd75c/relay/adaptor/groq/constants.go#L11",False
+7a97ddc03c510ae4a72581c2e7d180141519f663,2025-02-02 19:50:38,Jeremy JIANG,"fix: fix hunyuan paramete & update price (#2019)
+
+* fix: omit null TopP and Temperature fields in request body
+
+* feat: update Hunyuan model ratios",False
+d7028b55fdd578bea720772285829a001ca9bac5,2025-02-02 19:45:42,JustSong,feat: update model list in Zhipu constants for expanded options,False
+36a03f465bbbe18c476514ece9773d0e74a76b2b,2025-02-02 19:36:07,Jeremy JIANG,feat: update Zhipu model prices (#2020),False
+ae166470477a26a279c058a62ca9fc80fa98cedc,2025-02-02 19:02:49,JustSong,fix: change settings tab item color for improved visibility,False
+4dbc2ad86daab49a94c684e1b26ca1b871791873,2025-02-02 17:55:14,JustSong,fix: update tooltip keys in Dashboard for consistency in statistics display,False
+94479c28009cfee9547d320555c49e7cd5bf4d89,2025-02-02 17:37:08,JustSong,fix: add success message for completed operations in translation files,False
+614903b524df3f8410947794173c8f36515bf5fe,2025-02-02 17:28:51,JustSong,feat: comment out stat value displays in Dashboard for cleaner UI,False
+1dc255c2194e90f1b73c66e36d5b49bdab0a2676,2025-02-02 17:22:34,JustSong,feat: add Account ID input field for specific channel type and prevent potential bug with undefined key,False
+15c27e4b12079243ef2f5bedd53fa706307dfe22,2025-02-02 16:52:26,JustSong,feat: increase toast notification timeouts for better user experience,False
+a910d3ba25298faaef769aba20be6ddac71d9810,2025-02-02 16:50:50,JustSong,feat: increase global API and web rate limits for improved performance,False
+34f889437d33fc74510256478b5f0932a621698c,2025-02-02 16:38:38,JustSong,feat: update Dashboard CSS to change active settings tab color to black for better visibility,False
+a56cb4a2d54e3c95d540856e134af9475f860f62,2025-02-02 16:29:36,JustSong,feat: update LogsTable input and button sizes to 'small' for improved UI consistency,False
+95009b254acff65ffc8477dd7ba0753c24c123ca,2025-02-02 16:27:57,JustSong,feat: update TokensTable button sizes to 'tiny' and adjust translation for 'never expire',False
+20c30a060b9bd3832e2818abfb3653171423d882,2025-02-02 16:19:42,JustSong,feat: enhance About page layout with Card component and improve Dashboard CSS styling,False
+ca334a5502fd7d65ecdee0c16eab50824e93dd05,2025-02-02 16:10:04,JustSong,feat: refactor i18n setup to use local translation files and remove backend dependency,False
+c81ee68dd0eebd75d4783be2e22ed6f6f1a5a9b2,2025-02-02 14:54:23,JustSong,feat: improve error logging for token encoder initialization with offline usage guidance,False
+ececfe5ba0c9e8fe2d30d9cf1e74823a3b89e31a,2025-02-02 14:43:41,JustSong,feat: add SysWarn and SysWarnf logging functions; handle SMTP short response warning,False
+9e1f06df5c1a5f9e948853ea446baefa003146a4,2025-02-02 14:20:32,JustSong,chore: update .gitignore to include .DS_Store and ensure temp directory is ignored,False
+8fa9df5b3c02a44082bc75eba8dc733f22f58ad1,2025-02-02 14:09:30,JustSong,feat: enhance email notifications with HTML templates and improved content,False
+19998ebb8acc3fbe3fed585e302a487345d822bd,2025-02-02 13:55:52,JustSong,feat: update i18n messages and improve error handling,False
+5659fde3fb0733a1a9d0f876cf0c92afcea5916d,2025-02-02 13:35:52,JustSong,chore: update style,False
+c64b7c891f8740d29652ec2034ae751c0ef5710e,2025-02-02 13:32:38,JustSong,chore: update default theme style,False
+9b83d638961e5fa91b313f9f0b7c68b34fb1a5fd,2025-02-02 12:49:53,JustSong,docs: update README files to remove references to deprecated Docker image,False
+0bf3fd4038466ec0bd9639a9271c699cd454d14c,2025-02-02 12:47:59,JustSong,docs: update README files with stable and alpha Docker image addresses,False
+99b6200156b423d9e3227cfd843ab4cb24491ffe,2025-02-02 12:46:24,JustSong,docs: update README with stable and alpha Docker image links,False
+8f40e11c97b92633f1295b74078a57270b67f63b,2025-02-02 12:39:31,JustSong,feat: initial official i18n support for backend,False
+562964238c8a53b0f9cc531d3abed5989415e485,2025-02-02 11:51:20,JustSong,chore: refactor docker image workflow to use format function for repository URLs,False
+46b1d35d83151b8d6fc3009ff748161af8f9bc97,2025-02-02 11:47:48,JustSong,chore: update docker image workflow for alpha releases,False
+6a197ceb6935b442e35cea8e1b295a64f3d87214,2025-02-02 11:40:38,JustSong,chore: update default theme style,False
+bd7d0d1e96a607cbb85370d3252cec92c09f2104,2025-02-02 11:30:40,JustSong,chore: update default theme style,False
+f325f58edfcc1aacf84bacc04512ce480a0d633c,2025-02-02 11:21:19,JustSong,chore: update default theme style,False
+aef2100be147b2d2a229de9762c592f64a2857dd,2025-02-02 11:10:09,JustSong,chore: update dashboard,False
+4685c52a5d9846f7e392eb8eae4badfa8af3249c,2025-02-02 11:08:48,JustSong,chore: update dashboard,False
+174dea776367cba5086051e5d2bf841717c8c866,2025-02-02 11:02:52,JustSong,feat: i18n support,False
+9b81c88250bc534105cc651b3ec53108cfc88bbc,2025-02-02 10:51:14,JustSong,feat: i18n support,False
+72d911986c6c1e80ef87d08846af1d315da50838,2025-02-02 10:46:56,JustSong,feat: i18n support,False
+a01d769a83f2974c86bedf96de70b296bb1725cc,2025-02-02 10:44:52,JustSong,chore: make buttons tiny,False
+d0965050a94be8cd2c2f8de35c8a6bf3f70e155c,2025-02-01 21:42:22,JustSong,feat: i18n support,False
+e7ea7c866f5f8a32c61d5ef1e96c7654bacdd119,2025-02-01 21:38:02,JustSong,feat: i18n support,False
+b1fe81a84f4239f88477d42fcd30ee07c33b3d5d,2025-02-01 21:35:40,JustSong,feat: i18n support,False
+e183e3b9b023c589c7dbb8bf9c55a2503ed346c9,2025-02-01 21:28:55,JustSong,feat: i18n support,False
+b7f008cd72df576dd21d9b01da81dd93a1551d16,2025-02-01 21:22:42,JustSong,feat: i18n support,False
+33102c4586983003b846ffc1568953858fe1ec57,2025-02-01 21:20:32,JustSong,feat: i18n support,False
+ee3ed653568a8120eea417cfe36e4e19d34063d3,2025-02-01 21:18:05,JustSong,feat: i18n support,False
+958f2f4ea879fbfdfb6b2916c5b6bb93642fc90f,2025-02-01 21:12:00,JustSong,feat: i18n support,False
+4a5f872dceb5c6de26a3704129055abb272d7d03,2025-02-01 21:02:36,JustSong,feat: i18n support,False
+6ca6a3ea744ac69f766517a70bd8dbaec90b8370,2025-02-01 14:35:46,JustSong,feat: i18n support,False
+2c8c29bfc7a6e0f8d675fc9567e770613a266ba8,2025-02-01 14:34:31,JustSong,feat: i18n support,False
+ae20aea5553890f4deaab4c5cfc0dc017a5d1501,2025-02-01 14:30:24,JustSong,feat: i18n support,False
+60f2776795d680650d0aa087ef62314457f9edc0,2025-02-01 12:41:07,JustSong,feat: i18n for token related pages,False
+93ce6c4cd78686dbf449f2765c68179e3e9cf49e,2025-02-01 11:36:00,JustSong,chore: disable arm64 build for now,False
+4fe5ab8d09782e380a092e5e7d3c24d5bfc23f04,2025-02-01 11:08:57,JustSong,fix: fix syntax error,False
+afbbfbbf83c44fbdd2d97d4859d128f95f4091e5,2025-02-01 11:02:50,JustSong,chore: do not static build anymore,False
+75d9d9d5600f541a2b2a53668b82d344885cfbb6,2025-02-01 11:00:58,JustSong,fix: fix Dockerfile,False
+d1af30ee5afb45ac08768a21b5c5d5cad8d004b3,2025-02-01 10:57:21,JustSong,chore: use ubuntu to replace alpine,False
+a3924a2353af0f483853389b6e328ef20682db51,2025-02-01 10:49:55,JustSong,chore: update go-sqlite version,False
+9af5a1d11deb9de733a96953c8d3b6ef0327c12e,2025-02-01 10:43:43,JustSong,fix: try to fix docker build problem,False
+57f9f7dfbb09115b57fbc49cd19cd34a7cd6a106,2025-02-01 09:57:09,JustSong,chore: drop docker-image-en.yml,False
+d9f2df2baf9a5acd6874afdd7c8773f5822e55a0,2025-02-01 09:55:58,JustSong,feat: initial i18n support,False
+bdf312e5dc99622efd320112ebf0f610a34db27f,2025-02-01 09:45:38,JustSong,feat: initial i18n support,False
+1521df65516f228ad864d57bedb832fd980f4aa0,2025-02-01 09:34:28,JustSong,fix: fix unable to login via wechat,False
+c67b167f4fca05a872560977e80a17f63d46a975,2025-02-01 09:26:23,JustSong,fix: try to fix docker build error,False
+c351e196e67b12ce0e1642604ebe1e1fe45e1ebe,2025-01-31 23:52:38,JustSong,chore: add build-base to Dockerfile for enhanced build capabilities,False
+a316ed7abc4e9cf22ea3297db53507926a086da6,2025-01-31 23:24:00,JustSong,fix: handle empty dashboard data and improve summary calculation,False
+0895d8660e0f0485e3c5d058934cc6694cfcea34,2025-01-31 23:12:38,JustSong,fix: fix about page,False
+be1ed114f4e39fb32905124f50978596c4141b40,2025-01-31 23:07:21,JustSong,chore: add gcc and sqlite-dev dependencies to Dockerfile,False
+eb6da573a3f62364590ea4c47618167986913d00,2025-01-31 22:42:26,JustSong,chore: optimize Dockerfile for multi-directory npm installation and build,False
+0a6273fc086d7f6fe18fb8bdc8caf41045de6948,2025-01-31 22:38:28,JustSong,chore: bug fix for home page,False
+5997fce45461189f7aaff5ebcfcaf5600a594426,2025-01-31 22:06:33,JustSong,chore: update button style,False
+0df6d7a1313dc46be11944f82867a62bc097ac37,2025-01-31 21:57:05,JustSong,chore: fix prompt,False
+93fdb60de5bb7ecc5ae1ca7e6b65cedb5880263c,2025-01-31 21:51:04,JustSong,feat: update log table style,False
+4db834da9534851fb5519cc2ecde224a177faf13,2025-01-31 21:43:09,JustSong,chore: update default theme style,False
+6818ed5ca80bb7d64fb25316b636cde7ed8f2969,2025-01-31 21:37:41,JustSong,chore: update default theme style,False
+7be3b5547d79fdc87b1f6ce56f74c52a5db933de,2025-01-31 21:36:19,JustSong,chore: update default theme style,False
+2d7ea61d670ddae6853bcdcee8db4d2032eace6d,2025-01-31 21:32:30,JustSong,chore: update default theme style,False
+83b34be06771c123c70213b26a2c00c8e2ff009f,2025-01-31 21:31:06,JustSong,chore: update default theme style,False
+d5d879afdc3ac0cda4609913463584e8869c5b28,2025-01-31 21:24:45,JustSong,chore: update default theme style,False
+0f205a3aa3efab198faf5ca7d6c9eb01d07bc6b9,2025-01-31 21:23:00,JustSong,chore: update default theme style,False
+76c3f87351195399fbe8813778252a4ad794f1af,2025-01-31 21:16:05,JustSong,chore: update default theme style,False
+6d9a92f8f7f7e1b79cfbd63838cef776c0d4ee86,2025-01-31 21:14:39,JustSong,chore: update default theme style,False
+835f0e0d673be8612fdd6a45624df09631800c1d,2025-01-31 21:08:40,JustSong,chore: update default theme style,False
+a6981f0d517043546047752f916d3450bde8f549,2025-01-31 21:03:14,JustSong,chore: update default theme style,False
+678d6131793968b4e939ad066650e2aa9e607a52,2025-01-31 21:01:41,JustSong,chore: update default theme style,False
+be089a072bd55e65fe1d60d450d39067c4085713,2025-01-31 20:55:32,JustSong,chore: update default theme style,False
+45d10aa3df959c49e4715eafa93f0b069ecd91af,2025-01-31 20:54:11,JustSong,chore: update default theme style,False
+9cdd48ac224b4b1ba1ae2e913e215c945d1599d8,2025-01-31 20:51:42,JustSong,feat: update log table style,False
+310e7120e5981bfea92bb548a7de4bddbf6db8b1,2025-01-31 20:50:57,JustSong,chore: update default theme style,False
+3d297132685de3992f70a3166e93429d2b7633cc,2025-01-31 20:40:02,JustSong,chore: update default theme style,False
+f2c7c424e953d0edd96bdb194852a74f6038c64d,2025-01-31 20:38:07,JustSong,chore: update default theme style,False
+38a42bb2658f61a9fe66c1160578804d91010d35,2025-01-31 20:31:03,JustSong,chore: update default theme style,False
+fa2e8f44b1926a83e10922bdd786328a47adedcf,2025-01-31 20:25:45,JustSong,chore: update default theme style,False
+9f74101543f023d56c368be70dbdec4b0b48e5b6,2025-01-31 20:23:40,JustSong,chore: update default theme style,False
+28a271a8967669eb08c2690233979fbec92cfcbd,2025-01-31 20:20:48,JustSong,chore: update default theme style,False
+e8ea87fff311a4ba3e5afd061c63f1abdb348791,2025-01-31 20:15:57,JustSong,chore: update home page style,False
+abe2d2dba832a0d606bc5b6e973bca20850564df,2025-01-31 20:08:39,JustSong,chore: update style,False
+4bcaa064d6ec555c915f1c66318e51ac8548bcab,2025-01-31 19:57:26,JustSong,chore: update style,False
+52d81e0e24f7f88702b321bda5a2c0800aaaf9e0,2025-01-31 19:54:13,JustSong,feat: remove first section for overview,False
+dc8c3bc69e124caef91e25ee7c9b09292376300a,2025-01-31 19:48:02,JustSong,feat: basic overview is done,False
+b4e69df80210f1e1cdf853621ef0c74946a1328c,2025-01-31 19:23:56,JustSong,fix: do not send access_token,False
+d9f74bdff36381bfc690dbf60da2f82f791abd24,2025-01-31 19:19:34,JustSong,feat: support new log type,False
+fa2a7727316c8d8843e046fb82a1049d33578325,2025-01-31 18:53:12,JustSong,feat: able to query test log,False
+4f68f3e1b340f2c5bcfb12d77c970c1bcff6bab9,2025-01-31 17:46:56,JustSong,chore: update log content,False
+0bab887b2d24cf3c53332c4ac07da7ae7c414879,2025-01-31 17:45:04,JustSong,chore: update log content,False
+0230d366431fc79328aae5bc787d45b6d3d4a1ca,2025-01-31 17:36:43,JustSong,feat: update log table style,False
+bad57d049ad9a4fbb47d777b777a0ff7dc697360,2025-01-31 17:32:51,JustSong,feat: update log table style,False
+dc470ce82e881996f2c0163eeb42ffa139c9f491,2025-01-31 17:04:22,JustSong,feat: show stream & elapsed time in log detail,False
+ea0721d525b797b4400bc88995d6d5f7f0684d19,2025-01-31 15:45:43,JustSong,feat: update log content format,False
+d0402f90863a10036bfc0ec7901295ba14dbf0e5,2025-01-31 15:24:04,JustSong,feat: record request_id,False
+1fead8e7f7d99b157718a63a0251fb2608f0a327,2025-01-31 14:56:33,JustSong,chore: add debug log for distributor,False
+09911a301df4aac3fc8271cbd3b1eb7539e97c94,2025-01-31 14:18:02,Fennng,"feat: support hunyuan-embedding (#2035)
+
+* feat: support hunyuan-embedding
+
+* chore: improve implementation
+
+---------
+
+Co-authored-by: LUO Feng <luofeng@flowpp.com>
+Co-authored-by: JustSong <quanpengsong@gmail.com>",False
+f95e6b78b837f6b403cbbc7419658c721ccaac04,2025-01-31 13:42:59,chenzikun,"fix: fix berry copy token (#2041)
+
+* [bugfix]修复copy问题
+
+* [update]两阶段编译代码
+
+---------
+
+Co-authored-by: zicorn <a24395@autel.com>",False
+605bb06667014412e72e6cffd415ed8695a2e736,2025-01-31 13:30:53,JustSong,feat: update logger,False
+d88e07fd9a6a26d241076ccd295846d32da2d346,2025-01-31 12:45:59,Laisky.Cai,"feat: add deepseek-reasoner & gemini-2.0-flash-thinking-exp-01-21 (#2045)
+
+* feat: add MILLI_USD constant and update pricing for deepseek services
+
+* feat: add support for new Gemini model version 'gemini-2.0-flash-thinking-exp-01-21'",False
+3915ce9814b8261a1ab13ed93adec58b463cd75c,2024-12-27 19:31:37,JustSong,chore: update ci yaml,False
+999defc88b25758a30463bc32542bd31d7488b13,2024-12-27 19:29:38,JustSong,chore: update readme,False
+b51c47bc77547de72f1c7a2d6c1a13b62920c4d2,2024-12-27 19:15:51,JustSong,docs: update README.md,False
+4f25cde132442b91d37760134ae56384ad529a49,2024-12-27 18:11:20,JustSong,fix: add branch check,False
+d89e9d7e446978395f3f436981573caee15fd40d,2024-12-27 18:04:04,JustSong,fix: add branch limitation and drop pull_request trigger for ci.yml,False
+a858292b54175debf66fa8497b6cebe82cb8e865,2024-12-22 17:19:50,Qiying Wang,feat: support gpt-4o-2024-11-20 (#1941),False
+ff589b5e4a5174250ba614c0ed0a641a017d282d,2024-12-22 17:03:11,Yuwei Ba,"chore: update model mapping implementation for audio (#1932)
+
+* fixed model mapping
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <quanpengsong@gmail.com>",False
+95e8c16338835875d484f2bb81da648b8eacb0c0,2024-12-22 16:56:33,Ke Wang,"feat: add balance query support for DeepSeek (#1946)
+
+* Support Balance Query for DeepSeek
+
+* Fix",False
+381172cb36c8aa896bb57d8d7b1a40525485b920,2024-12-22 16:51:24,lihangfu,"feat: support Redis Sentinel and Redis Cluster (#1952)
+
+* feature: support Redis Sentinel and Redis Cluster
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <quanpengsong@gmail.com>",False
+59eae186a3ab7270094be987a6f94a239c243559,2024-12-22 16:28:29,ZhangTianrong,"fix: remove the duplicate `claude-3-5-haiku-20241022` in Anthropic's base model list (#1957)
+
+* Update constants.go
+
+Remove the duplicate `claude-3-5-haiku-20241022` causing issue 1928
+
+* fix: fix syntax error
+
+---------
+
+Co-authored-by: JustSong <quanpengsong@gmail.com>",False
+ce52f355bbe974b9c07b9b2179eb02a33b131a9d,2024-12-22 16:25:04,bestlaw66,"docs: add tutorial section for BT Panel installation (#1985)
+
+* Update README.md
+
+在国内有大部分用户都在使用宝塔面板管理服务器，因此增加使用宝塔面板部署的教程，可视化的部署方式可以帮助用户更加便捷的部署one-api
+
+* docs: update readme
+
+---------
+
+Co-authored-by: JustSong <quanpengsong@gmail.com>",False
+cb9d0a74c97ad972ab1c6ef9244e6aa24d4f2a8e,2024-12-22 16:18:47,Ke Wang,fix: fix balance query for siliconflow (#1960),False
+49ffb1c60dcfed8b361f8aa6202e190a0239a38f,2024-12-22 15:55:44,Wei Tingjiang,feat: enhance response handling to support gemini-2.0-thinking (#1995),False
+2f16649896269167257aba7041e5968ceed9e1a5,2024-12-22 15:52:57,longkeyy,feat: update qwen model and price (#1966),False
+af3aa57bd6d15af0b1c82960d314b9b43bedf22b,2024-12-22 15:51:00,dependabot[bot],"chore(deps): bump golang.org/x/crypto from 0.24.0 to 0.31.0 (#1976)
+
+Bumps [golang.org/x/crypto](https://github.com/golang/crypto) from 0.24.0 to 0.31.0.
+- [Commits](https://github.com/golang/crypto/compare/v0.24.0...v0.31.0)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/crypto
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e9f117ff72cbe83597c186b18fca72f337de5aba,2024-12-21 18:02:30,Laisky.Cai,"feat: add gemini-2.0-flash-exp and fix race condition in processChannelRelayError (#1983)
+
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+6bb5247bd619a4a9487aaf949e6177478b153a39,2024-12-21 17:58:51,Laisky.Cai,feat: add support for new OpenAI models and update billing ratios (#1990),False
+305ce14fe3e77181f9e10def2ba6fb63b697fd87,2024-12-21 12:11:19,Laisky.Cai,"feat: support replicate chat models (#1989)
+
+* feat: add Replicate adaptor and integrate into channel and API types
+
+* feat: support llm chat on replicate",False
+36c8f4f15cc7981f4baac7ac11a633c9eca50ba6,2024-12-20 22:03:20,JustSong,docs: update readme,False
+45b51ea0ee56a72d757dafefa92af7f421c943ec,2024-12-20 20:57:00,JustSong,feat: update feishu oauth login,False
+7c8628bd95b919a0fcea1bf95d60cd04169c5269,2024-12-04 21:04:24,Calcium-Ion,feat: support gzip decode (#1962),False
+6ab87f8a08e2c0502691daafabb7076661b05de7,2024-11-10 14:48:46,JustSong,feat: add warning in log when system prompt is reset,False
+833fa7ad6fe192f885af7df4b8b1675e965a54e3,2024-11-10 12:39:02,JustSong,feat: support set system_prompt for theme air & berry,False
+6eb0770a89af537ec29acce576e574339357e143,2024-11-10 12:23:34,JustSong,feat: support set system prompt for channel (close #1920),False
+92cd46d64f2713a52624dd04ef8aa4567cc53edf,2024-11-09 22:06:08,JustSong,feat: able to use ENFORCE_INCLUDE_USAGE to enforce include usage in response,False
+2b2dc2c733bcff2c75a193b47f3ce1c4049bcff6,2024-11-09 21:25:55,lihangfu,fix: update Spark Lite's domain to lite (#1896),False
+a3d7df7f893aa0b3151345dc3c377d64b9057192,2024-11-09 21:13:08,JustSong,feat: update GeneralOpenAIRequest,False
+c368232f502a7682dd89cc40c9d777ae6ab42a51,2024-11-09 21:01:46,wanthigh,"fix: changeoptional field to pointer type (#1907)
+
+* fix:修复在渠道配置中设置模型重定向时，temperature为0被忽略的问题
+
+* fix: set optional fields to pointer type
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+cbfc983dc303bd93f09d1c7fa1f248c09dd97105,2024-11-09 20:18:54,Laisky.Cai,"feat: add new claude models (#1910)
+
+* feat: Add new models to ModelList in constants.go
+
+* feat: update model lists and mappings for Claude 3.5 versions
+
+---------
+
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+8ec092ba44b15c5c7f4e41264d596c207886791c,2024-11-07 21:22:38,Ryo Shen,feat: add support for xAI (#1915),False
+b0b88a79ff8c2a3da8f01f9e2fed96d4a6ea4534,2024-11-07 21:21:17,shaoyun,feat: added support for Claude 3.5 Haiku (#1912),False
+7e51b0422171edb58350f717a5bda399f39f2399,2024-10-27 16:01:43,JustSong,feat: able to hide test model selector and balance col,False
+f75a17f8eb2158354d7fbfb2630851671c613443,2024-10-27 15:28:44,JustSong,feat: always return usage in stream mode,False
+6f13a3bb3c23bcfe856633e03b1967e74c44f6d9,2024-10-27 14:40:50,Wei Tingjiang,feat: update Gemini adaptor to support custom response format (#1892),False
+f092eed1dbd951c2623464b5c109508f84e5bea9,2024-10-27 14:40:02,shaoyun,feat: add support for Claude Sonnet 3.5 v2 (#1888),False
+629378691b8d6fe76608c4a81a1be320c8594e39,2024-10-27 14:37:24,longkeyy,feat: update groq model and price (#1864),False
+3716e1b0e6aaf3dba40dedf7d8839a06558ad965,2024-10-27 14:36:41,liangjs,"fix: use modelMap when testing a channel (#1855)
+
+Co-authored-by: oliang <oliang@tencent.com>",False
+a4d6e7a8863c9f010e68544f83364d0df1f2e867,2024-10-27 14:34:41,"Pan, Wen-Ming",feat: add Vertex AI gemini-1.5-pro-002 and gemini-1.5-flash-002 (#1854),False
+cb772e5d06aa6d6b6680d2f162ae1454a1718f96,2024-10-27 14:33:35,千寻简,fix：unsuccessful lobechat redirection link (#1843),False
+e32cb0b84466b1ff001fc811c03266e7664b3cd3,2024-10-27 14:32:54,lihangfu,"feat: support SparkDesk-v3.5-32K (#1832)
+
+Co-authored-by: lihangfu <hfli8@iflytek.com>",False
+fdd7bf41c00a73453223c9e0f3cd692392a75e61,2024-09-22 15:02:47,抒情熊,"feat: support multipart/form-data format request (#1690)
+
+* ""add parser multipart/form-data""
+
+* chore: fix impl
+
+* chore: update impl
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+29389ed44fc0b457ac6f60aea5e352fec2f0038e,2024-09-22 14:21:16,徐瑞东,"fix: modify the type of token models to be text (#1761)
+
+* fix: modify the type of token models to be text
+
+* chore: update receiver name
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+88acc5a614f08d055696750aa74a719efd831f83,2024-09-22 14:11:10,byte911,"fix: return the usage info if not null (#1792)
+
+Usage is missing.",False
+a21681096acc44dcdaac8dc71d01e68a684cae67,2024-09-22 14:01:26,TimeTrapzz,feat: add siliconflow usage (#1798),False
+32f90a79a86843be57ab9b419152ad3e9f18041e,2024-09-22 13:59:09,lihangfu,"feat: support SparkDesk-v3.1-128K (#1732)
+
+* feat: 支持SparkDesk-v3.1-128K以及hunyuan-vision
+
+* feat: 支持SparkDesk-v3.1-128K以及hunyuan-vision
+
+---------
+
+Co-authored-by: lihangfu <hfli8@iflytek.com>",False
+99c8c7750439493f4ccd7b0a945506fff41f5c24,2024-09-21 20:33:20,OnEvent,"feat: add oidc support (#1725)
+
+* feat: add the ui for configuring the third-party standard OAuth2.0/OIDC.
+
+- update SystemSetting.js
+- add setup ui
+- add configuration
+
+* feat: add the ui for ""allow the OAuth 2.0 to login""
+
+- update SystemSetting.js
+
+* feat: add OAuth 2.0 web ui and its process functions
+
+- update common.js
+- update AuthLogin.js
+- update config.js
+
+* fix: missing ""Userinfo"" endpoint configuration entry, used by OAuth clients to request user information from the IdP.
+
+- update config.js
+- update SystemSetting.js
+
+* feat: updated the icons for Lark and OIDC to match the style of the icons for WeChat, EMail, GitHub.
+
+- update lark.svg
+- new oidc.svg
+
+* refactor: Changing OAuth 2.0 to OIDC
+
+* feat: add OIDC login method
+
+* feat: Add support for OIDC login to the backend
+
+* fix: Change the AppId and AppSecret on the Web UI to the standard usage: ClientId, ClientSecret.
+
+* feat: Support quick configuration of OIDC through Well-Known Discovery Endpoint
+
+* feat: Standardize terminology, add well-known configuration
+
+- Change the AppId and AppSecret on the Server End to the standard usage: ClientId, ClientSecret.
+- add Well-Known configuration to store in database, no actual use in server end but store and display in web ui only",False
+649ecbf29c6d8f53aa86ae34faf8272916bb939c,2024-09-21 20:31:19,TAKO,"feat: support new openai models (4o 0806, chatgpt-4o-latest) (#1721)
+
+* feat: support new model gpt-4o-2024-08-06
+
+* feat: support new model chatgpt-4o-latest",False
+3a27c90910b28f444bee42312af67dcfbfc2dd6a,2024-09-21 20:30:29,qinguoyi,"fix: getTokenById return token nil, make panic (#1728)
+
+* fix:getTokenById return token nil, make panic
+
+* chore: remove useless err check
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+cba82404aea38d7984b3a564b9d1b71647d011bd,2024-09-21 20:19:31,千寻简,"feat: add lobechat open link options (#1741)
+
+Co-authored-by: Star <iii9777@163.com>",False
+c9ac670ba195641de043ca3c93417657b9df727f,2024-09-21 20:18:46,forrestlinfeng,"feat: update stepfun models (#1740)
+
+Co-authored-by: chenlinfeng <chenlinfeng@step.ai>",False
+15f815c23cf5365dc19cdba718ad7337fd335963,2024-09-21 20:10:06,leavegee,"fix: fix ali embedding model always use v1 (#1747)
+
+* fix:ali embedding model: v2 and v3
+
+* chore: use ctxkey.RequestModel to eliminate hardcoding
+
+---------
+
+Co-authored-by: xuejia <gexuejia@djbx.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+89b63ca96fa35cb3cef5aaf254e5c755abd2755e,2024-09-21 20:05:24,majian,"feat: ResponseFormat support json_schema (#1759)
+
+* feat: responseFormat support json_schema
+
+* chore: rename struct name
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+8cc54489b9ba176055e7f46560f425504ecad2a3,2024-09-21 20:01:53,Ghostz,"feat: update disabled channel (#1780)
+
+* Update disabled channel
+
+* Update manage.go
+
+* Update manage.go
+
+* chore: add missing space
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+58bf60805eeca92480bdc1829d1a4df0408681c0,2024-09-21 19:43:31,guogeer,"fix: postgres use COALESCE replace null (#1793)
+
+Co-authored-by: jinqi.guo <jinqi.guo@ubtrobot.com>",False
+6714cf96d64ff5c3e208998e40cd80d4e2b87e9b,2024-09-21 19:42:09,AJ's Life Journey,fix: Groq organization not auto-disabled when blocked (#1822),False
+f9774698e9a59823a65c0ede475e28c29638f396,2024-08-06 21:21:08,longkeyy,"feat: synchronize with the official release of the groq model (#1677)
+
+update groq add gemma2-9b-it llama3.1 family fixup price k/token -> m/token",False
+2af6f6a166604f346a1a326fb481cf1741eadd31,2024-08-06 21:19:48,TAKO,feat: add Cloudflare New Free Model Llama 3.1 8b (#1703),False
+04bb3ef3923ba4b0931f0940e65f06b29cd53df8,2024-08-06 21:14:37,MotorBottle,"feat: add Max Tokens and Context Window Setting Options for Ollama Channel (#1694)
+
+* Update main.go with max_tokens param
+
+* Update model.go with max_tokens param
+
+* Update model.go
+
+* Update main.go
+
+* Update main.go
+
+* Adds num_ctx param for Ollama Channel
+
+* Added num_ctx param for ollama adapter
+
+* Added num_ctx param for ollama adapter
+
+* Improved data process logic",False
+b4bfa418a8cfde3fe0dec14e90e4d43feed3cfe1,2024-08-06 21:13:33,longkeyy,feat: update gemini model and price (#1705),False
+e7e99e558afab7423f70f6ebd6a9949fcb616dbd,2024-08-06 21:13:20,SLKun,feat: update Ollama embedding API to latest version with multi-text embedding support (#1715),False
+402fcf7f79e22697a00a10f4e9dc176799cb28ba,2024-08-06 21:12:25,Shenghang Tsai,"feat: add SiliconFlow (#1717)
+
+* Add SiliconFlow
+
+* Update README.md
+
+* Update README.md
+
+* Update channel.constants.js
+
+* Update ChannelConstants.js
+
+* Update channel.constants.js
+
+* Update ChannelConstants.js
+
+* Update compatible.go
+
+* Update README.md",False
+36039e329e0cef61056b34ab364ee9072ca08501,2024-08-06 21:03:43,Junyan Qin,docs: update introduction for QChatGPT (#1707),False
+c936198ac8cf3c51bb839d11efea0bfd06fedc57,2024-07-22 20:21:19,Laisky.Cai,"feat: add Proxy channel type and relay mode (#1678)
+
+Add the Proxy channel type and relay mode to support proxying requests to custom upstream services.",False
+296ab013b8877ff44cb13c53ae6f3a7ab3e905d8,2024-07-22 20:14:08,TAKO,"feat: support gpt-4o mini (#1665)
+
+* feat: support gpt-4o mini
+
+* feat: fix gpt-4o mini image price",False
+5f03c856b486a9216371cc25957aa25cc9e337e9,2024-07-22 20:09:22,zijiren,"feat: fast build linux/arm64 frontend (#1663)
+
+* feat: fast build linux/arm64 frontend
+
+* fix: dockerfile as replace to AS
+
+* fix: trim space",False
+39383e553280f4987fa62824c5090c8d85acc392,2024-07-22 20:08:50,igophper,"fix: support embedding models for doubao (#1662)
+
+Fixes #1594",False
+2a892c193702be2a42f1079f3832244928674575,2024-07-17 20:20:52,JustSong,"revert: feat: fast build linux/arm64 frontend (#1645)
+
+This reverts commit 1c44d7e1cdd45f3ebf7dbd4378a5b2ead7ade8f5.",False
+adba54acd34784bbf33a55259e10ebab51aa4263,2024-07-16 21:18:54,Laisky.Cai,fix: implement improved headers for anthropic to support 8k outputs (#1654),False
+6209ff9ea9ecc93be4eb874cb16010b441aec269,2024-07-15 22:32:06,zijiren,"feat: vertexai support proxy url(example: cloudflare ai gateway) and fix some vertexai bug (#1642)
+
+* feat: vertexai support proxy url(example: cloudflare ai gateway)
+
+* fix: do resp model mapping
+
+* fix: missing system
+
+* fix: stream need query alt=sse",False
+1c44d7e1cdd45f3ebf7dbd4378a5b2ead7ade8f5,2024-07-14 15:36:11,zijiren,feat: fast build linux/arm64 frontend (#1645),False
+a3eefb7af0b624aa104e0cf8550c8737e6ea694f,2024-07-14 15:33:23,zijiren,fix: rate limit can be zero (#1643),False
+b65bee46fbd03b5cc3be063b027b714be735ebb6,2024-07-14 15:28:38,dependabot[bot],"chore(deps): bump google.golang.org/grpc from 1.64.0 to 1.64.1 (#1641)
+
+Bumps [google.golang.org/grpc](https://github.com/grpc/grpc-go) from 1.64.0 to 1.64.1.
+- [Release notes](https://github.com/grpc/grpc-go/releases)
+- [Commits](https://github.com/grpc/grpc-go/compare/v1.64.0...v1.64.1)
+
+---
+updated-dependencies:
+- dependency-name: google.golang.org/grpc
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+422a4e8ee5286711f6a319e67034692804356251,2024-07-14 15:27:16,F1ynn Zhan9,feat: add field stop in GeneralOpenAIRequest (#1637),False
+cf9b5f0b92877ee16a05ee8fe366fe6bd614200f,2024-07-13 12:29:28,LiuVaayne,"feat: support claude and gemini in vertex ai (#1621)
+
+* feat: support claude and gemini in vertex ai
+
+* fix: do not show api key field in channel page when the type is VertexAI
+
+* fix: update getToken function to include channelId in cache key",False
+65acb94f454e8d2f3acd16d218afb164a3997ef2,2024-07-13 12:27:08,Ghostz,fix: text filed check for 4v request (#1634),False
+6ad169975fc282689e4f287aa27c93b7467177ff,2024-07-09 20:27:06,zijiren,fix: impl cloudflare worker ai gateway (#1617),False
+f636c50c84f1327a7b3baf7d08ca6f8d6b9b9a40,2024-07-09 20:13:59,Qiying Wang,fix: duplicate [DONE] (#1629),False
+720fe2dfeb5f77199694095c9e45e8e3430f0273,2024-07-06 10:49:41,Qiying Wang,"feat: refactor AwsClaude to Aws to support both llama3 and claude (#1601)
+
+* feat: refactor AwsClaude to Aws to support both llama3 and claude
+
+* fix: aws llama3 ratio",False
+e090e76c86f5dfc1b24af5ea00c84fe191c3a34e,2024-07-06 10:46:46,Jason,feat: add Novita AI as model provider (#1609),False
+6a941748f86f190ea3664d8d522b07e5b6a7811e,2024-07-06 10:45:17,open source,"feat: add initial root access token (#1598)
+
+Signed-off-by: xiaobo <peterwillcn@gmail.com>",False
+46a077358081d97d4b72869837c938d786308074,2024-07-06 10:44:32,open source,"fix: update readme docs (#1599)
+
+Signed-off-by: xiaobo <peterwillcn@gmail.com>",False
+ffdb0b0c8110df5e33a8c8390e176e894791b0a9,2024-07-06 10:44:07,zijiren,fix: use musl libc (#1597),False
+efd30a40b30495f48f12c58ed15deab54f95f261,2024-07-06 10:42:30,zijiren,feat: cloudflare support native openai api (#1596),False
+d7a78f339756f4b2fc4c5fd190ce92213999328a,2024-07-05 15:35:16,Qiying Wang,feat: support test specific model (#1600),False
+273be557975b758c4e6ee36165daeab772895b58,2024-07-04 06:05:41,Leo Q,"feat(ui): show available models for air theme (#1595)
+
+* feat(ui): air 主题显示可用模型
+
+* chore: 改为全角括号",False
+ec6ad248104045d7b67effc72867d9f4a31e55fe,2024-07-03 19:53:49,Leo Q,feat: support smtp without auth (#1101),False
+c4fe57c16512372b84f0765c78d3e0b2d1eef912,2024-07-03 18:23:29,LinZeliang,"feat: support one or more log file (#1400)
+
+Co-authored-by: Laisky.Cai <github@laisky.com>",False
+274fcf3d76299e1e56a670a4c203e130d3561a0e,2024-07-03 18:20:40,igophper,"refactor: init db (#1590)
+
+Co-authored-by: 江杭辉 <jianghanghui@k.app>",False
+0fc07ea55897a9d74380da2767b9bfa25e71cbd3,2024-07-01 21:42:01,Mikey,"feat: add support for Claude 3 tool use (function calling) (#1587)
+
+* feat: add tool support for AWS & Claude
+
+* fix: add {} for openai compatibility in streaming tool_use",False
+1ce1e529ee547989cdbcc1ab04163fbce608d887,2024-07-01 21:35:47,Leo Q,"ci: skip archive, upload directly (#1586)",False
+d936817de9866b3e8b6bf1a0f741a2a4eb6c3bd4,2024-06-30 17:27:30,Darkside,"docs: add related projects (#1562)
+
+Co-authored-by: 成达 <chengda.615@bytedance.com>",False
+fecaece71b700b43ba11c161a3f8a971af204971,2024-06-30 17:22:33,igophper,"fix: fix size not support during image generation (#1564)
+
+Fixes #1224, #1068",False
+c135d74f136813ff26731c2e78bcf2fc3dc3daed,2024-06-30 17:08:02,Shi Jilin,"feat: support Spark4.0 Ultra (#1575)
+
+* fix: fix SparkDesk Function Call (修复 Spark Pro/Max函数调用只会返回普通对话回答而不是Function Call回答的问题
+
+* feat: support Spark4.0 Ultra",False
+d0369b114f6b9a34a926979b309ac1fd052db698,2024-06-30 17:07:07,lihangfu,"feat: support spark4.0 ultra (#1569)
+
+* feat: 支持v3最新协议的腾讯混元（#1452）
+
+* feat: 支持Spark4.0 Ultra
+
+---------
+
+Co-authored-by: lihangfu <hfli8@iflytek.com>",False
+b21b3b5b460502a40217b3973cf6ee5f44c916f9,2024-06-30 16:06:33,zijiren,"refactor: abusing goroutines and channel (#1561)
+
+* refactor: abusing goroutines
+
+* fix: trim data prefix
+
+* refactor: move functions to render package
+
+* refactor: add back trim & flush
+
+---------
+
+Co-authored-by: JustSong <quanpengsong@gmail.com>",False
+ae1cd29f943b31d4c12dffecd166b621b1ac2400,2024-06-30 13:55:25,shaoyun,feat: added support for Claude Sonnet 3.5 (#1567),False
+f25aaf7752a6f1719f445bb3d2d62863774e626b,2024-06-30 13:51:48,dependabot[bot],"chore(deps): bump golang.org/x/image from 0.16.0 to 0.18.0 (#1568)
+
+Bumps [golang.org/x/image](https://github.com/golang/image) from 0.16.0 to 0.18.0.
+- [Commits](https://github.com/golang/image/compare/v0.16.0...v0.18.0)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/image
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b70a07e814c5907e044f45dac32cb02ab1e51efc,2024-06-30 13:49:49,JustSong,fix: fix ci,False
+34cb147a744e717404ebccd566cdf1b753ef78a1,2024-06-30 13:43:43,igophper,"refactor: replace hardcoded string with ctxkey constant (#1579)
+
+Co-authored-by: 江杭辉 <jianghanghui@k.app>",False
+8cc1ee63605d36cc20d096e2be786fc533870833,2024-06-30 13:42:16,Leo Q,ci: use codecov to upload coverage report (#1583),False
+5a58426859e6c128392079e80544c340316db307,2024-06-30 13:39:16,Ghostz,fix minimax empty log (#1560),False
+254b9777c0c18980d745a0a00256ef719576a752,2024-06-23 13:07:11,JustSong,feat: support load env variables from .env file,False
+114c44c6e7d08f6c80da03eab9a12fb95dcd8fb2,2024-06-23 12:47:58,JustSong,ci: fix ci.yml,False
+a3c7e15aedf0fd11ca9b2c420308adcedd6d82dd,2024-06-23 12:44:39,JustSong,fix: fix ut,False
+3777517f64f373fc5f041fb0058331e12f0465f6,2024-06-23 11:58:55,JustSong,chore: add ut,False
+9fc5f427dc12b14a61c6112184a2cf4278194911,2024-06-23 11:31:57,JustSong,chore: add commit lint and rename yml,False
+864a467886a6f1d64f8d7326cef34a177e45590e,2024-06-23 11:27:19,JustSong,chore: rename go.yml to unit-testing.yml,False
+ed78b5340bc301eac7ef863ecd0415b2dc2acd34,2024-06-23 11:23:30,JustSong,fix: fix go.yml,False
+fee69e7c20b72ca05c4572a876f3cacc53eebbe1,2024-06-23 11:18:52,JustSong,fix: fix ut,False
+9d23a44dbf720ab5d918c817629e1e7b4973df26,2024-06-23 11:08:43,JustSong,ci: add coverage report,False
+6e4cfb20d528262a7b88566085735d5b8fdd1630,2024-06-23 10:30:42,JustSong,ci: add go.yaml,False
+ff196b75a73638c22da54b6cbca856bdaf57ccb2,2024-06-20 20:26:59,Shi Jilin,fix: fix sparkdesk function call,False
+279caf82dc26bcc9d45ab3712e1b89d4f7f666af,2024-06-19 21:53:08,lihangfu,"feat: support tencent v3 api (#1542)
+
+Co-authored-by: lihangfu <hfli8@iflytek.com>",False
+b1520b308b1b573c0b9d2397579a4cd067509c93,2024-06-13 22:00:47,Wei Tingjiang,"Try to fix Gemini streaming return being truncated by FinishReason. (#1477)
+
+1",False
+ed717211aaa1b1fa968aed493b80402de204df39,2024-06-12 22:05:37,JustSong,chore: adjust default rate limit config,False
+6ccf3f3cfcfcfcaf1b63ca0f546d1a885523c188,2024-06-12 21:58:56,JustSong,chore: add logger.SysLogf function,False
+f74577141c881256c8385963ea28166c42b3bfc0,2024-06-12 21:50:48,jinjianming,"fix: fix default token not created in some cases (#1510)
+
+* 修复git、微信等用户注册不会创建默认令牌问题
+
+修复git、微信等用户注册不会创建默认令牌问题
+
+* 修复git、微信等用户注册不会创建默认令牌问题
+
+删除普通用户注册代码
+
+* fix: do not block if error happened
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+6aafb7a99ed9ccd8905ade480f133e0c9bb138d6,2024-06-12 21:38:49,Buer,fix: channel edit settings key error (#1496),False
+c1971870fa4d2f6c7c406fa644bc5b55737461c4,2024-06-12 21:37:26,Zhong Liu,"fix: support for Spark Lite model (#1526)
+
+* fix: Support for Spark Lite model
+
+* fix: fix panic
+
+* fix: fix xunfei version config
+
+---------
+
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+f83894c83f480fbb06150dddf6dca11e1022ae7c,2024-06-12 20:42:58,wagxuebing,"fix: xunfei interface call 4001 error (#1499)
+
+Co-authored-by: lynnssb <lynntobing@gmail.com>",False
+e9981fff36e183330c6cc8b8537a19158f209667,2024-06-08 11:04:23,fxsome,feat: post all messages for cloudflare (#1515),False
+98669d5d480e3c7eff45b4b5e5602440141d91a1,2024-06-08 10:56:26,取梦为饮,"feat: add support for bytedance's doubao  (#1438)
+
+* 增加豆包大模型支持
+
+* chore: update channel options & add prompt
+
+---------
+
+Co-authored-by: 康龙彪 <longbiao.kang@i-tudou.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+9321427c6ef4d703f4e315c15d334c88359ec8e3,2024-05-28 22:47:32,Wei Tingjiang,"feat: support gemini embeddings (text-embedding-004,embedding-001) (#1475)
+
+* Refactor Gemini Adaptor to Support Embeddings
+
+* Add new models to ModelList",False
+ceea4c6d4a3de6970bab4381316f4cd19c6e7b28,2024-05-28 22:44:00,JustSong,feat: support user content download proxy & relay proxy now,False
+b53e00a9b375b44c7c6b54ad2a2e7c4b868823f9,2024-05-27 23:14:38,carey036,"feat: generate default token after register (#1401)
+
+* feat: generate default token after register
+
+* chore: use go routine to create default token for new user
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+332c8db0b31ef117a5ea090d2875f15111da3a27,2024-05-27 23:02:57,Mo,"fix: add prefixes to image models to solve the problem of duplicate models (#1469)
+
+* Add prefixes to image models to solve the problem of duplicate models
+
+* Fix the issue that response_format is not set, causing the b64_json parameter to be ignored.",False
+3be28da57b1bc466cd67b037ab38739032af80d6,2024-05-27 23:01:08,fatwang2,Update package.json (#1465),False
+fa74ba0eaa4e608f128fb0b4af564f67b32565e2,2024-05-27 23:00:51,Ghostz,"chore: print user id when relay error happened (#1447)
+
+* add userid when relay error
+
+* chore: update log format
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+a9211d66f6717989c634e4de595c84436e2d4ac5,2024-05-27 22:56:07,Dafei Zhao,fix: fix gpt-4o token encoding (#1446),False
+07b2fd58d646817e597bd6edceabb1c12e57ed38,2024-05-27 22:52:40,Buer,"feat: berry theme update & bug fix (#1471)
+
+* feat: load channel models from server
+
+* chore: support AWS Claude/Cloudflare/Coze
+
+* fix: Popup message when copying fails
+
+* chore: Optimize tips",False
+0acee9a0655aa84a81b346a23ad3ae5b3781fb15,2024-05-21 22:30:00,JustSong,fix: fix berry error (close #1445),False
+f965469e8a683d1cf05ddbe1fd5ed21dacd8fe70,2024-05-21 22:22:23,JustSong,chore: update dependencies version,False
+03ea60532aec4c950ffa14e8916d6f8bb6ccfad9,2024-05-20 22:50:37,JustSong,fix: fix html lang attribute (close #1433),False
+2457d00afb5a66fade9f4dd3b0ad48c60579f049,2024-05-20 22:44:22,Qiying Wang,feat: support gpt-4o (#1431),False
+91b80ae87945ed1a77b3507dd277ee9cdddaa0b4,2024-05-07 21:27:34,JustSong,fix: remove extra space,False
+2720e1a3583219743a557610ca38d8f32592bc66,2024-04-29 23:53:14,JustSong,feat: support minimax's 6.5 models (close #1395),False
+71f4403fd51d0a83cb6e8fb792fcaee562173199,2024-04-29 23:46:53,JustSong,feat: add together.ai support (#1298),False
+1f76c8055310e79cb54c85ff9665c685f3596f16,2024-04-29 20:19:06,JustSong,fix: fix aws claude panic (#1384),False
+7e027d2bd04759b69b49ea17aa20d2a764abdb2a,2024-04-29 20:05:47,JustSong,fix: fix minimax prompt & completion tokens is empty (#1391),False
+30f373b62344614198e97dc9c5da9664a07c1d30,2024-04-29 19:59:13,JustSong,fix: fix usage is empty (close #1391),False
+1c2654320e5b6268b13b6efca40ce37a523d032b,2024-04-27 13:37:06,plusye,fix: fix getPreConsumedQuota (#1312),False
+6cffb116b7c1e2e5f4a681bf2440feef4a5ef265,2024-04-27 13:35:14,caixinjiang,"fix: fix zhipu embedding error when input is array but not string (#1306)
+
+* fix zhipu embedding error when input is array but not string
+
+* fix: only use the first one
+
+---------
+
+Co-authored-by: 蔡新疆 <cxj@icc.link>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+a84c7b38b7f8689104eb6486c9d83f812789208d,2024-04-27 13:28:07,Qiying Wang,fix: claude stream response parse (#1334),False
+1bd14af47b3ad3059539c6dbd41960cf8ebbd0a9,2024-04-27 13:23:20,tylinux,feat: use mapped model name to test (#1370),False
+6170b91d1c6705f8937ca05b580cb77139a2e8ec,2024-04-27 13:17:27,NongMO,"feat: support for the ollama vision model (#1376)
+
+* feat: support for the ollama vision model
+
+`llava` model, pass test
+
+* Update main.go
+
+format code
+
+* chore: remove useless log
+
+---------
+
+Co-authored-by: nongqiqin <nongqiqin@tipdm.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+04b49aa0ec4ede0bec7f4c57ae78e8bc84bec672,2024-04-27 13:11:02,JustSong,chore: use StringContent() to convert response to text,False
+ef88497f25ad07e40240eeec8de26322e7fa87ab,2024-04-27 13:09:59,Wei Tingjiang,fix: refactor Gemini adaptor to support streaming content generation (#1382),False
+007906216de1f122cae137aacb6c4cab3c87caef,2024-04-27 11:07:22,JustSong,feat: support DeepL's model (close #1126),False
+e64e7707a0193f764eefbcd498069c80c8f3a51f,2024-04-26 21:36:43,JustSong,feat: support cohere's web search,False
+ea210b6ed76921b6ed9f9ed8673ca4a1f4d28661,2024-04-26 20:42:39,JustSong,chore: update ollama models,False
+9026ec7510f6dd7500e55567ce9de5f28f71b259,2024-04-26 20:35:48,JustSong,feat: support cloudflare now,False
+c3178720975ee0b2767bc3b0ad98cfc533f22b6d,2024-04-25 22:18:53,JustSong,feat: support deepseek now,False
+da0842272ced7bee05a8f43c40a7a8c01b14d09a,2024-04-24 19:49:58,JustSong,fix: add model to response (close #1362),False
+0a650b85b44c1cbfc15263f47bdecb657bd90069,2024-04-24 19:38:47,JustSong,chore: update berry,False
+24f026d18e608a511efa3f88ca12b373d634cabd,2024-04-24 19:20:01,Ghostz,"feat: add cohere support (#1355)
+
+* support cohere
+
+* chore: tiny improvements
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+cb33e8aad585f797fbbe533de294f63f5d1e85d0,2024-04-24 18:59:48,tylinux,"fix: fix default theme blank screen when edit channel again (#1363)
+
+* fix: throw exception after submit channel edit
+
+* fix: replace with destructuring assignment",False
+779b747e9e52c6dde7edf40eb226159af470a41c,2024-04-24 18:56:45,Wei Tingjiang,"feat: add function and tools support for Gemini (#1358)
+
+* Update model.go
+
+* Support Gemini tool_calls.
+
+* Fix gemini tool calls (also keep support functions).
+
+* Fixed the problem of arguments not being stringified.
+
+Fix panic: candidate.Content.Parts out of range",False
+3d149fedf45472eff92910324974c762fc37dad6,2024-04-21 17:13:23,JustSong,chore: do not hardcode context key,False
+83517f687c13b4d76728d6f1f14991bbe01899a7,2024-04-21 16:25:25,JustSong,chore: move config key to package ctxkey,False
+e30ebda0fe112349b329cc5fba4da7ef644e89eb,2024-04-21 16:25:13,JustSong,chore: move config key to package ctxkey,False
+d87c55f542fdbf2501e7f05182d142bd40ccc170,2024-04-21 16:24:35,JustSong,chore: render unknown channel type,False
+e5b3e37c465e8de167d5be99dcb0d6752b07fe8b,2024-04-21 15:34:56,JustSong,feat: support bot prefix for coze,False
+8de489cf0641c5b108b39e3e89e979685bc5763d,2024-04-21 15:29:57,JustSong,feat: support coze now,False
+d14e4aa01b3bd709cd1f2e4d5faeb757f03eedb1,2024-04-21 15:08:39,JustSong,fix: key is wrongly updated,False
+541182102eb89a4029e4b80dd77e76807f5203a9,2024-04-21 13:52:28,JustSong,fix: ignore empty choice response for azure (close #1324),False
+b2679cca65ef03304c826c42bbad633c440ae2d4,2024-04-21 13:27:01,JustSong,fix: fix preview completion ratio (close #1326),False
+8572fac7a2c42b1d76e35b80b9b317131f10e9d3,2024-04-21 13:20:35,JustSong,fix: add back chat dropdown item for chatgpt next web (close #1330),False
+a2a00dfbc3c99573d97e21d64a1f896a7588c00f,2024-04-21 12:23:03,tylinux,"feat: groq support Llama3 now (#1333)
+
+* feat: groq support Llama3 now
+
+* fix: update model ratio
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+129282f4a9f9016815b62c767998cd5aec999140,2024-04-21 12:06:48,JustSong,fix: fix wrong log type,False
+a873cbd3927259618179a8ea55cf439508540573,2024-04-21 12:05:51,Laisky.Cai,"fix: logger race (#1339)
+
+- Refactor logger using sync.Once to improve performance
+- Initiate log setup in a goroutine to prevent blocking
+- Integrate gin.DefaultErrorWriter and gin.DefaultWriter for logging
+- Introduce request ID generation for better request tracking
+- Simplify setup logic by removing redundant variables and code",False
+35ba1da98415fbed5aa7642ed2a6d95b600f38ef,2024-04-21 08:34:34,JustSong,fix: fix cannot submit aws claude config (close #1343),False
+2369025842b828ac38f4427fd1ebab8d03b1fe7f,2024-04-19 22:45:33,JustSong,fix: use prefix to match more json response,False
+f452bd481e8c8612278c42fd7c9041bb96faac92,2024-04-19 22:27:50,JustSong,ci: update ci condition,False
+ddee58df36ca590279b17244feeccfb7043501d8,2024-04-19 22:24:34,JustSong,fix: fix loading,False
+520a62e7045fede044646f97c36d31d1a8a02f3e,2024-04-19 22:13:07,JustSong,docs: update readme,False
+fc9a7849502a00460d30828918f02481c677183f,2024-04-19 22:10:47,Laisky.Cai,"feat: support aws bedrockruntime claude3 (#1328)
+
+* feat: support aws bedrockruntime claude3
+
+closes #622, closes #749, closes #1300
+
+* fix: convert to aws claude model id
+
+* fix: Update AWS adapter to handle stream completions and calculate usage metrics
+
+Based on the file summaries provided, here are the important bullet points for the commit message:
+
+- Add functionality to handle stream completion events from AWS in the relay/adaptor/aws/main.go file
+- Marshall AWS response to OpenAI format and calculate usage metrics in the same file
+- Implement a custom render function for streaming events in the same file
+- Improve error handling for JSON unmarshalling and marshalling errors in the same file
+
+* fix: Implement AWS handler with usage tracking and error handling
+
+- Implemented streaming response handling for AWS handler
+- Set response content type to text/event-stream
+- Added error handling for failed marshaling/unmarshaling
+- Updated return values to include `relaymodel.ErrorWithStatusCode` and `relaymodel.Usage`
+- Improved error handling and response formatting for AWS adaptor
+
+* fix: Refactor AWS Adapter for Improved Model Mapping and Error Handling
+
+* Refactor AWS adapter to improve model management
+  - Replace hardcoded model list in `adapter.go` with a function to get models from `awsModelIDMap`
+  - Update `GetModelList` function to return model list directly
+  - Add `GetChannelName` function to get channel name from `Adaptor` object
+* Improve error handling and code organization in main.go
+  - Replace switch statement with a map to map AWS model IDs to OpenAI model IDs
+  - Return an error if the model is not found in the map
+  - Use a single return statement instead of wrapping multiple return statements in the `awsModelID` function
+  - Add a new error message for when the model is not found in the map in the `Handler` function
+
+* fix: bug fix
+
+* chore: change variable name & package
+
+* chore: change variable name
+
+* perf: update config related code
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+1a0b039bcf54e110d649b54b58d64871aa80ae8f,2024-04-19 19:22:51,dependabot[bot],"chore(deps): bump golang.org/x/net from 0.17.0 to 0.23.0 (#1335)
+
+Bumps [golang.org/x/net](https://github.com/golang/net) from 0.17.0 to 0.23.0.
+- [Commits](https://github.com/golang/net/compare/v0.17.0...v0.23.0)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/net
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7bf61f916504097ac23efb765b938d8f94c342ce,2024-04-15 20:39:12,JustSong,fix: fix retry not working (close #1314),False
+a10232f43a435f7105a9efc49af23525ad94e118,2024-04-13 09:09:31,JustSong,feat: add gpt-4-turbo support (close #1304),False
+af543ab8ecb6827cbbc151c2cff181cdc3286274,2024-04-06 18:20:43,JustSong,docs: update readme,False
+e086da05b1b2193e5a5ddfc257df04a94206c91a,2024-04-06 18:18:22,JustSong,feat: able to change gemini version (close #1211),False
+3af4649b526b115cc4ae94905736d1134309dc9d,2024-04-06 18:12:35,JustSong,fix: only check model when request path in whitelist,False
+52c32c0b4a4eacf595463ca699ad85fb2c4e07f9,2024-04-06 17:38:05,GAI Group,"chore: resolve the issue of onclick event scope for custom Lark button (#1281)
+
+chore: Resolve the issue of onclick event scope for custom Lark button",False
+3fe2863ff72ac5c87c7d5b6e1c94564afdaf4753,2024-04-06 17:14:23,Buer,"feat: berry theme update & bug fix (#1282)
+
+* ⚡️ improve: delete google fonts
+
+* ⚡️ improve: Optimized priority input handling in TableRow component.
+
+* 🔖 chore: channel batch add
+
+* ✨ feat: add dark mod
+
+* ✨ feat: support token limit ip range and models
+
+* ✨ feat: add MessagePusher
+
+* ✨ feat: add lark login",False
+acf8cb624889fc05bc5bf9db99c69d5624e73a88,2024-04-06 09:17:31,JustSong,chore: update default nextweb link,False
+572fc9ffb8b2ccf47efacaa8f311e0810c45e736,2024-04-06 08:13:54,JustSong,fix: fix stepfun model ratio & id,False
+569c04acb04da15bcbb3511bfddab3e923bcc53d,2024-04-06 07:48:59,GAI Group,fix: fix Lark icon button style (#1279),False
+961b4108e6491b42236cfbd7d0893703c68bf9d5,2024-04-05 23:42:50,JustSong,chore: fix refactor caused typo,False
+0b8ccb94eb8c0b69e81ab060ffb60ad3b667387d,2024-04-05 23:33:59,JustSong,chore: reorganize common package,False
+f586ae0ad8b40f63f48d3f473ce43d302c318eae,2024-04-05 23:20:12,JustSong,chore: remove helper & util subpackage for relay,False
+24ed170e7b25c3afa33f0e1f56eb00aacd783600,2024-04-05 23:06:48,JustSong,chore: reorganize adaptor related package,False
+f70506eac1afe8a8cc55ba6fbc8ece6f9247cca0,2024-04-05 23:01:44,JustSong,chore: reorganize relay related package,False
+8f4d78e24d8b853a06aee94e1762332ed27ff360,2024-04-05 22:56:48,JustSong,chore: reorganize billing related package,False
+cd2707692fae1af393cb1d4fd77a7557c051e51e,2024-04-05 22:39:23,JustSong,chore: reorganize billing related package,False
+2ab7d25a80e818f564a2e2622d8544564b6dff2e,2024-04-05 22:32:35,JustSong,chore: reorganize helper related package,False
+f9d914873ffa3281de58f88d8a7c02c6026765fd,2024-04-05 22:14:33,JustSong,chore: reorganize constant related package,False
+880e12c85573e582cbe554723cfbe9c7a22bc1bc,2024-04-05 22:00:08,JustSong,feat: support cogview-3,False
+0cb224e62e8222be99013e7a19f06ee8f98699a9,2024-04-05 21:25:25,JustSong,chore: fix typo,False
+a44fb5d482d4e4bd1da7b04e070e89f59294997a,2024-04-05 21:14:57,JustSong,fix: fix channel model list is empty,False
+eec41849ec1514fea1e41920f637b25adf22454a,2024-04-05 15:55:57,JustSong,chore: fix ali image implementation,False
+d4347e7a35bfe1b0e508a83e68414490b3946392,2024-04-05 15:39:54,Mo,"feat: support Ali stable-diffusion-xl and wanx-v1 model (#1240)
+
+* Fix ali ConvertRequest function to use baidu keyword
+
+* Support Ali stable-diffusion-xl and wanx-v1 model
+
+* Support Ali stable-diffusion-xl and wanx-v1 model
+
+* Support Ali stable-diffusion-xl and wanx-v1 model
+
+* chore: update ali constants and model ratio
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+b50b43eb654a84abe1ba900d24617f6679223dde,2024-04-05 15:00:48,manjieqi,feat: update baidu model name & ratio (#1277),False
+348adc2b025b3ef72eaf324c62d021622383e655,2024-04-05 14:55:28,JustSong,feat: able to set multiple subnets,False
+dcf24b98dc898461148f5f0098f133b13f8205d7,2024-04-05 11:58:38,JustSong,chore: update berry copy,False
+af679e04f447733c2a36965c9abdaf546c8c124d,2024-04-05 11:53:39,JustSong,chore: sort channel type for berry,False
+93cbca6a9f9fc731fb6f6ab36c1d8b93f20dac49,2024-04-05 11:44:21,JustSong,chore: update show notice duration,False
+840ef80d94dde8ec8c55f4897bdeb0b3864185b3,2024-04-05 10:20:31,JustSong,fix: do not try to parse model when requesting /v1/models (close #1272),False
+9a2662af0dbde4e49df265e0d18de3ce99042425,2024-04-05 10:12:14,JustSong,feat: show token info when quota is not enough (close #1274),False
+77f9e75654b76b89a9ef12efe187882d742a7da1,2024-04-05 10:10:03,JustSong,fix: fix IsValidSubnet,False
+5b41f5742325480779263d34439f34201d53f89b,2024-04-05 10:02:05,JustSong,feat: support stepfun's models,False
+0bb7db0b4450d9f22008103585bfdbf90064ecd2,2024-04-05 09:41:50,JustSong,fix: do not detect quota field in error message (close #1276),False
+4d61b9937be5144bed7fc73f9b91c3cdaa2911ee,2024-04-05 09:40:43,JustSong,feat: support feishu login now,False
+68605800aff49c8210741086c4bec69a5551978d,2024-04-05 07:48:42,JustSong,feat: add subnet validation (#1275),False
+c49778c2543f45cdcb849b18a75dc2366c651f37,2024-04-05 07:39:16,JustSong,feat: now able to limit ip range for token now (close #1275),False
+f02c7138eae7235110ca6f09f176b5051756d034,2024-04-04 23:05:14,JustSong,docs: update README,False
+ca3228855a134ac362b729b19bea3488824f66fc,2024-04-04 22:59:22,JustSong,docs: update API docs,False
+f8cc63f00b47a2279091e122f8815050262a31e2,2024-04-04 22:53:11,JustSong,feat: add user info to topup link,False
+0a37aa4cbd322e7ff44446ae5f130a43a90a630e,2024-04-04 22:40:30,JustSong,docs: add API docs,False
+054b00b7250853f9ba345dc5756ae345ec5666bf,2024-04-04 22:10:48,JustSong,docs: add API docs,False
+76569bb0b64d470aee3e970fe8e82557c8931cde,2024-04-04 22:01:41,JustSong,chore: disable channel when error message contain credit or balance,False
+1994256bac48dc7d55d22f9a43577651eb187693,2024-04-04 21:48:26,JustSong,chore: disable channel when error message contain quota,False
+1f80b0a39fb728776fdfa635d17fbc90de56baef,2024-04-04 21:43:37,JustSong,chore: add omitempty for xunfei functions,False
+f73f2e51dfcf6f15f3d26dd045ad9ae283f25760,2024-04-04 21:32:15,manjieqi,"feat: update baidu model name & ratio (#1253)
+
+* 修正百度模型名称
+
+* 更新百度模型名称，并保留旧版兼容以及修正单价
+
+* chore: add more model and adjust order
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+6f036bd0c937afc9e477d421dd8c3113424f313b,2024-04-04 21:02:59,Yang Fei,"feat: add embedding-2 support for zhipu (#1273)
+
+* 增加对智谱embedding-2模型的支持
+
+* fix: fix usage & ratio
+
+---------
+
+Co-authored-by: yangfei <yangfei@xuyao.info>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+fb90747c23373bce14e92abb823f08387c005aea,2024-04-04 16:23:42,JustSong,fix: fix /v1/models return null data when no models available,False
+ed70881a58bc77c9be86122d95612c2d225be633,2024-04-04 08:48:21,JustSong,fix: fix token create,False
+8b9fa3d6e452fbc95bfc37db836c69ed39f3f094,2024-04-04 00:28:21,JustSong,fix: fix GetGroupModels,False
+8b9813d63b3e3303b7ac1f8a8944a7131b0d5ca6,2024-04-04 00:14:59,JustSong,feat: /v1/models now only return available models,False
+dc7aaf2de5aaf0000073a7466acbda6fe213c291,2024-04-03 23:38:18,JustSong,feat: able to set model limitation for token (close #178),False
+065da8ef8c8bcbc0a7fc3ae22e39397ffe036b6a,2024-04-03 22:16:30,JustSong,fix: fix ali function call (#1242),False
+e3cfb1fa524107439e4b0caec0137e249bd06467,2024-03-31 21:11:52,JustSong,feat: use given usage if available in stream mode,False
+f89ae5ad5830ab5962b944b5becedecd60de6e3c,2024-03-31 20:42:29,JustSong,feat: initial function call support for xunfei,False
+06a3fc54216cf1a8229193f749a9d316db5bfb9e,2024-03-31 19:53:42,JustSong,chore: update GeneralOpenAIRequest,False
+a9c464ec5ad6861d10cbd0f4bcd9859f7fd8abdd,2024-03-30 08:36:31,ManJieqi,"fix: update model-ratio.go 修正文心计费模型名称
+
+统一文心计费模型名称",False
+3f3c13c98c3ba10d5ca674c6c688f75fe9148c3e,2024-03-30 08:17:07,JustSong,feat: support top_k for claude (close #1239),False
+2ba28c72cbd41ed1020d71d3fd57367ea99be7fd,2024-03-30 08:13:26,JustSong,feat: support function call for ali (close #1242),False
+5e81e19bc81e88d5df15a04f6a6268886127e002,2024-03-27 16:39:27,JustSong,fix: fix SQL channel selection algo (#1197),False
+96d7a993120d54f7d7c85528bbae6eacc6c82e10,2024-03-24 20:42:32,JustSong,fix: fix autofilled models are not correct,False
+24be9de09845331bc384123a650779f5dd8d93e4,2024-03-24 20:31:03,JustSong,chore: update copy,False
+5b349efff9906d6db9f31644008959250b2c30f9,2024-03-24 20:27:24,JustSong,chore: fix berry copy,False
+f76c46d6489f0be68a1813f1c4b2d1e066c22cb3,2024-03-24 20:20:09,JustSong,feat: add gemini-1.5-pro (#1211),False
+cdfdeea3b49bd57fb16eb1dc3586d22b5da67320,2024-03-24 19:54:41,JustSong,feat: return token when calling post /api/token (close #1208),False
+56ddbb842a9d68a30a0228436d39a888f0d8d87b,2024-03-24 19:50:41,JustSong,fix: return pre-consumed quota when error happened for audio (close #1217),False
+99f81a267c6d65c6b426cdc5ea7b001b5f4eff53,2024-03-24 19:44:45,JustSong,fix: fix xunfei error handling (close #1218),False
+c243cd553537bf0a544242a52708aaab48e34997,2024-03-24 19:21:31,xietong,"feat: 支持 ollama 的 embedding 接口 (#1221)
+
+* 增加ollama的embedding接口
+
+* chore: fix function name
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+e96b173abecef61c02448fb43e2cc07129b5c38a,2024-03-24 19:17:46,GuangxiaoLong,feat: 移除 azure model 的 TrimSuffix (#1193),False
+4ae311e964ba9a3a838b789ca7d21b9504cfff9e,2024-03-17 18:36:36,Benny,docs: update README (#1186),False
+b14cb748d89cd557114113862118fe102c0fe4f7,2024-03-17 17:09:00,JustSong,chore: update copy,False
+ade19ba4a22bfcdd02051168fae7f2225d1c9b0d,2024-03-17 17:04:21,Ian Li,"feat: update default API version for Azure OpenAI (#994)
+
+* feat: Update default API version for Azure OpenAI.
+
+* chore: update other theme
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+4d86d021c4df76083a3e3b8e9dc413321db1c2c0,2024-03-17 17:00:50,Ian Li,feat: support Azure OpenAI TTS. (#1177),False
+7a44adb5a7c1f2eeebb69c893b7c4211b7f11767,2024-03-17 16:56:12,shuirong,fix: fix panel cards style (#1171),False
+9821bc72815179e74172578dab12ef55512e4d08,2024-03-17 16:55:36,Benny,"feat: add user list sorting and pagination enhancements (#1178)
+
+* feat: add user list sorting and pagination enhancements
+
+* feat: add user list sorting for THEME=air
+
+* feat: add token list sorting and pagination enhancements
+
+* feat: add token list sorting for THEME=air",False
+08831881f1394d95dcb7f609bc2b7857f2a1caf7,2024-03-17 16:39:44,JustSong,feat: increase initial root user quota and support INITIAL_ROOT_TOKEN now (#1105),False
+0eb2272bb7f6668a7908ce946df27b28a5fe08db,2024-03-17 15:42:49,JustSong,chore: update copy,False
+704ec1a8273426f188bc4b4cf79d22d665f35377,2024-03-17 15:18:57,JustSong,chore: update theme berry,False
+1d7470d6ad1f922198eb0ddc433fcec96a7ee6c0,2024-03-17 14:34:29,Ghostz,fix: fix lingyiwanwu model ratio (#1182),False
+118530334658997d174802c28d3d8ab48dfa4902,2024-03-17 11:40:35,JustSong,chore: update comments,False
+c212fcf8d7b9c7abce4fd8fc7cf18b504ee74454,2024-03-17 11:30:33,JustSong,docs: update readme,False
+c285e000cc947738863c7663d1dbcec9c428da5e,2024-03-16 13:46:44,JustSong,chore: remove default scroll bar,False
+d25ed4c0097e40ce448a526b0acdc8d988146339,2024-03-16 13:25:31,JustSong,chore: update name,False
+7400885fbb5cb45caf5734066d8a478766500000,2024-03-16 13:11:43,JustSong,fix: fix error,False
+11af81eb396da434f3d8283b12c2182f0b399f5f,2024-03-16 12:59:35,GAI Group,"feat: add new theme air (#1167)
+
+* chore: add theme air with new-api main branch v0.2.0.3-alpha.1(first step)
+
+* feat: 完成渠道界面
+
+* chore: 优化渠道界面样式问题
+
+* feat: 完成兑换码界面
+
+* feat: 完成充值（钱包）界面
+
+* chore: 初代air主题将使用default主题的运营设置界面、系统设置界面、其他设置界面
+
+* feat: 完成日志界面
+
+* feat: 完成用户管理界面
+
+* feat: 完成个人设置界面
+
+* feat: 完成令牌界面
+
+* chore: 优化令牌界面逻辑
+
+* feat: 修改版权信息
+
+* chore: make necessary changes
+
+---------
+
+Co-authored-by: Calon <1808837298@qq.com>
+Co-authored-by: Apple\Apple <zeraturing@foxmail.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+205aba694f7646883d5451e653fc95777c1adcf1,2024-03-16 11:09:30,majian,"chore: limit the temperature and top_p parameter value range to (0.0, 1) for zhipu (#1091)",False
+8dac3afebc092f2f890ece6a02fe101a1b329a0a,2024-03-16 11:01:59,dependabot[bot],"chore(deps): bump github.com/jackc/pgx/v5 from 5.3.1 to 5.5.4 (#1157)
+
+Bumps [github.com/jackc/pgx/v5](https://github.com/jackc/pgx) from 5.3.1 to 5.5.4.
+- [Changelog](https://github.com/jackc/pgx/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jackc/pgx/compare/v5.3.1...v5.5.4)
+
+---
+updated-dependencies:
+- dependency-name: github.com/jackc/pgx/v5
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a07791bf93d190cfd750a8be461ab5dd6b44946f,2024-03-16 10:59:19,zu1k,fix: change Moonshot value to 25 (#1158),False
+4bb662c0e43abbde3c43a8976e71667d6e15c8c8,2024-03-16 10:58:44,JustSong,docs: update pull_request_template.md,False
+4998d583191ea751d74c491bb62ca234a3fdc9f0,2024-03-16 10:56:11,Benny,fix: fix ratio of gpt-3.5-turbo (close #1011) (#1163),False
+190203cf8fabaec20ae7ac7c2914ecb36549232f,2024-03-16 10:53:04,E.da,"fix: 修复`berry`主题下`令牌`在`编辑`后点击`新建`弹窗值的初始化问题 (#1165)
+
+* Update OtherSetting.js
+
+调整berry主题页脚`label`表述
+
+* 修复`berry`主题下`令牌`在`修改`后点击`新建`弹窗值的初始化问题
+
+### 问题描述
+
+在`berry`主题中，存在一个问题，当用户在修改一个令牌后点击新建令牌时，新建令牌弹窗会错误地展示上一次编辑的值。
+
+### 复现步骤
+
+1. 导航至`令牌`管理页面。
+2. 选择任意令牌进行`编辑`。
+3. 在编辑界面，点击`取消`返回。
+4. 点击`+新建令牌`按钮打开新建令牌弹窗。
+
+### 预期结果
+
+新建令牌弹窗应显示空白表单，等待用户输入新的令牌信息。
+
+### 实际结果
+
+新建令牌弹窗错误地展示了之前编辑的令牌信息。",False
+6325c8e0b4b16e8b5bffd8fb0037f241a30716ae,2024-03-15 21:17:54,JustSong,ci: fix ci,False
+b204f6d82b73c382e0debdb4f43872b906e07f45,2024-03-14 22:25:28,JustSong,docs: update README,False
+752639560fd2a6a5c655f66e3ed6a04159faf8db,2024-03-14 22:00:15,JustSong,feat: able to use separated database for table logs,False
+996f4d99dded958ecc072c30a241e73c22a4c9fb,2024-03-14 21:23:25,JustSong,ci: fix ci,False
+ebfee3b46cb4e6f9b36a18cfbc7e85e3a96cb913,2024-03-14 21:17:46,warjiang,feat: add support for private registry in docker-compose.yml (#1103),False
+3e2e805d61981fb73c8e03e661e3c5865bbb34d4,2024-03-14 21:16:17,dependabot[bot],"chore(deps): bump google.golang.org/protobuf from 1.30.0 to 1.33.0 (#1145)
+
+Bumps google.golang.org/protobuf from 1.30.0 to 1.33.0.
+
+---
+updated-dependencies:
+- dependency-name: google.golang.org/protobuf
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3edf7247c49b788d8d268d22d30730e299fb0d09,2024-03-14 21:15:50,E.da,"fix: fix theme berry copy (#1148)
+
+调整berry主题页脚`label`表述",False
+0926b6206bd1c913ac1c7fbc24dba33d385b0426,2024-03-14 21:14:46,afafw,chore: update client name (#934),False
+7cd57f3125ce60ed0d61bed1edf86409b1be7906,2024-03-14 21:06:10,JustSong,chore: update ratio for baidu embedding,False
+66efabd5ae540d60e91e6bf3af89b7a9bad06231,2024-03-14 21:01:07,Jguobao,"fix: fix baidu url check (#1143)
+
+添加百度的另外3个向量模型【""bge-large-zh"",
+	""bge-large-en"",
+	""tao-8k"",
+】",False
+8ede66a896053fae4b233fb97701ec3f4919c456,2024-03-14 20:57:47,JustSong,fix: fix ci,False
+b16917386043bbce6db52ea3bf4f2c8ff57caf0d,2024-03-14 20:50:38,JustSong,fix: force set Accept header for ali stream request (close #1151),False
+f33555ae78b96c86834e5c77e0bc7098fc6bae81,2024-03-14 20:47:19,JustSong,fix: update max token for test (close #1154),False
+c28ec1079504529fdc506560de8c74b18b15907a,2024-03-14 20:44:39,JustSong,fix: fix cors for dashboard api,False
+e3767cbb07b83fc28a41a5257a85cd34acfb209c,2024-03-14 20:43:05,JustSong,fix: fix haiku model name (close #1149),False
+be9eb59fbbcfb87d56f1e9fed7fbabd37c1d96bb,2024-03-14 20:41:36,JustSong,feat: support lingyiwanwu,False
+89e111ac69f120c9213896430cf613e6cc201644,2024-03-13 22:47:19,JustSong,ci: fix ci condition,False
+2dcef8528582bb8cacf7c53f3ec2a5b3577fe6bb,2024-03-13 22:32:47,JustSong,feat: support ollama now (close #870),False
+79d0cd378ac03597261b31a21f5cce8a680c9c2b,2024-03-13 20:26:54,JustSong,fix: fix baidu system prompt (close #1079),False
+e99150bdb99c5d8db901195479a48fa53a9c94ab,2024-03-13 17:30:51,JustSong,fix: make quota int64,False
+a72e5fcc9e9d6fbabd53630c66971ecec8a53f47,2024-03-13 17:08:44,JustSong,"fix: when cached quota is too low, force refresh it",False
+0710f8cd66cfb2b13ad25b0fdf4212d74e5abf73,2024-03-13 16:56:24,JustSong,"fix: when cached quota is too low, force refresh it",False
+49cad7d4a542b92ccc3bfec491259f1b8894c107,2024-03-13 16:41:30,JustSong,feat: update func ShouldDisableChannel for claude,False
+a90161cf005640076b65dcbed0422a875aeba53e,2024-03-10 23:54:58,JustSong,chore: drop idx_channels_key on start,False
+a45fc7d736e2c545fe1bb69de47cc0dede9f1c9a,2024-03-10 22:14:49,sparanoid,fix: model name typo (#1109),False
+45940dcb129950c095ac5ce8593ee581a7deddb3,2024-03-10 21:29:35,JustSong,chore: add more info for panic fix,False
+969042b0017c9698b9febe66b430d9b4fe436166,2024-03-10 21:14:48,JustSong,chore: only use one log file (close #1116),False
+7e7369dbc449d39923dcda376e02b624ab953848,2024-03-10 21:11:16,JustSong,fix: only disable channel when allowed,False
+e54e6471709ab6b3d75e7daa5c480197b7bf1482,2024-03-10 21:06:29,JustSong,chore: remove useless code,False
+358920c8584ca6a0b4cc190d360bf15fa614af62,2024-03-10 20:57:22,JustSong,fix: remove index idx_channels_key (close #644),False
+1ea598c773118400966f31fcded34769a79b93f3,2024-03-10 18:09:55,JustSong,feat: check claude's error response,False
+796be42487edbc2a7d42a8a309405b8bea76e8eb,2024-03-10 16:59:42,JustSong,feat: update ratio config if missing,False
+5b50eb94e5479bebec9129f455c675599be112da,2024-03-10 16:46:06,JustSong,feat: able to send alert message via message pusher (close #993),False
+71c61365eb8c8c3dca5178b6e3f3aca5f46dcac8,2024-03-10 16:04:57,JustSong,feat: able to only test disabled channels (#1090),False
+b09f979b80e5d881c9cfddd08a555395b354a2ec,2024-03-10 15:45:24,JustSong,fix: add missing turnstile setup (close #1015),False
+12440874b0e6cd73d26d8472363e2b14e284d66d,2024-03-10 15:27:47,JustSong,feat: able to disable channel by success rate,False
+6ebc99460e3176e442a5de4a0d953bcb4867d237,2024-03-10 13:26:19,JustSong,"fix: add user to blacklist when it's banned or deleted, and make deletion soft (close #473, close #791)",False
+27ad8bfb9880c654f90692e8d28160a8539f70fb,2024-03-10 12:30:33,JustSong,feat: able to search channel type now,False
+8388aa537ff4876ac443ac3dceef72ac3d54a304,2024-03-10 12:29:57,JustSong,chore: able to search channel now,False
+2346bf70af11526c89979c0bd4cf2a7a6bb8dbf7,2024-03-10 12:29:40,JustSong,fix: check response type when expect stream response,False
+f05b403ca59f6a426b418de58c7797f0be9c3d40,2024-03-10 12:02:30,JustSong,feat: use real system prompt now (close #1079),False
+b33616df442ea703096cc514882a4040ffbedf3d,2024-03-10 11:39:44,JustSong,feat: support groq now (close #1087),False
+cf16f4497056ef6a2f2ddbe431863e3ccc57bfed,2024-03-08 23:58:23,JustSong,feat: load channel models from server,False
+bf2e26a48f481e0022b35ca4aa3dcb158a74bcea,2024-03-08 22:42:47,JustSong,"feat: support claude-3 (close #1080, close #1094)",False
+4fb22ad4ce7cafba7473e19e3a180ede93cf35cc,2024-03-03 21:20:28,momomobinx,"feat: support third part models of baidu (#1046)
+
+百度千帆平台上的第三方大模型调用",False
+95cfb8e8c952d6795acf69e896f30d1ddea08248,2024-03-03 20:28:41,JustSong,fix: using the first available model if default model is not found (close #1021),False
+c6ace985c2ab8649cf614d252f8d2e7914bcd81c,2024-03-03 20:21:01,JustSong,fix: set missing ali parameters (close #1028),False
+10a926b8f3912846c5493cd2378b6d07ff36dcbe,2024-03-03 19:46:34,JustSong,feat: only use the top priority when first retry (#1048),False
+2df877a352f3ae150b276602172fc1ebcac21446,2024-03-03 19:44:07,JustSong,feat: switch priority when retry (close #1048),False
+9d8967f7d325999ab28616aef5b9eeaa1cccf6dc,2024-03-03 19:16:45,JustSong,feat: support Mistral's models now (close #1051),False
+b35f3523d305de758021286fff9f62bece08af02,2024-03-03 18:33:04,JustSong,feat: add gemini model alias (close #1064),False
+82e916b5ff9c6c3f8325c91c04003fb6751f024c,2024-03-03 18:21:28,JustSong,fix: fix azure test (close #1069),False
+de18d6fe16e41a18465db908b9851426e6340721,2024-03-03 17:00:11,JustSong,refactor: refactor image relay (close #1068),False
+1d0b7fb5ae73a9eefe28da5b2cf5f6b6af335c02,2024-03-02 00:35:25,JustSong,"feat: support chatglm-4 (close #1045, close #952, close #952, close #943)",False
+f9490bb72e22003148dc39716d16c24e64c47962,2024-03-01 23:02:04,JustSong,fix: able to use updated default ratio,False
+76467285e86c34e95aa4c4ea8038083a658ee5ce,2024-03-01 22:55:21,JustSong,docs: update readme,False
+df1fd9aa81084e435da96b41398ef950e1697ca7,2024-03-01 22:54:28,JustSong,feat: support minimax's models now (close #354),False
+614c2e044266330b79c7a6d07b338b4fb5e14a80,2024-03-01 22:25:48,JustSong,feat: support baichuan's models now (close #1057),False
+eac6a0b9aada6a3d59d070cd0eddf741a063d2dd,2024-03-01 21:33:29,JustSong,fix: fix version is blank,False
+b747cdbc6fde8eab634183bf2abae86e696a63cc,2024-02-26 20:22:16,JustSong,fix: fix getAndValidateTextRequest failed: unexpected end of JSON input (close #1043),False
+6b27d6659ad801ab48d60e63479bf7c04382d370,2024-02-25 17:19:22,JustSong,fix: add role for ChatCompletionsStreamResponseChoice.Delta,False
+dc5b781191cfc2b893f581760dda106825e2afdb,2024-02-25 17:17:59,JustSong,fix: fix stream response id,False
+c880b4a9a3db0d156a16e58d34fa5cbc239def10,2024-02-25 16:47:37,JustSong,fix: fix missing index in ChatCompletionsStreamResponseChoice (#1037),False
+565ea58e68c10defa6265093149da43b38a3e5fa,2024-02-25 16:31:49,JustSong,"feat: built in retry supported (close #1036, close #770)",False
+f141a37a9e928ff992f57cca02ba6ce7f3059160,2024-02-25 14:28:14,JustSong,"fix: fix ""error update user quota cache: Error 1040: Too many connections""",False
+5b78886ad368519616d51662b38522dc2b088590,2024-02-25 14:23:46,JustSong,fix: fix i18n,False
+87c7c4f0e6f59df96fdf062dd1045aaadc55d205,2024-02-24 23:37:34,JustSong,fix: rm history build before building,False
+4c4a873890ef8e91dc89b09465ad0d128a7efba9,2024-02-24 23:29:40,JustSong,fix: add an ending line for THEMES,False
+0664bdfda1602aaf36a3baac6435494e6ac9ea86,2024-02-24 23:23:27,JustSong,fix: fix build.sh (close #1026),False
+32387d9c208e9cdadac227ce7af5237ee52e0e9a,2024-02-21 19:51:01,JustSong,fix: fix version is blank,False
+bd888f2eb71e01374359681ceba5f29c7b802a34,2024-02-21 19:49:42,JustSong,fix: fix prompt token is zero (close #1023),False
+cece77e5331a46f1562d8684905c50eb46d80cb2,2024-02-19 19:50:18,JustSong,fix: fix model list,False
+2a5468e23c5757de717a5276f1743d99b34513d8,2024-02-18 19:51:37,JustSong,refactor: remove useless button (close #1014),False
+d0e415893b2b887d52d8d7816e6cf91eb08cab17,2024-02-18 14:46:11,JustSong,fix: fix SparkDesk model name,False
+6cf5ce9a7a74fd123a12f0a7ac82f2aa79fb773d,2024-02-18 14:41:16,JustSong,fix: fix SparkDesk model name,False
+f598b9df87a0c34a70d0150404cde213e7002891,2024-02-18 14:32:36,JustSong,feat: add new SparkDesk models,False
+532c50d2123ed410690103f3a4750cc47758b59e,2024-02-18 13:49:14,JustSong,fix: fix channel table page copy,False
+2acc2f50170ad03be1c7e49922b410ad9a90da71,2024-02-18 13:47:19,JustSong,feat: support moonshot now (close #804),False
+604ac56305ef1ef1eb65dbe00132ccdb6a9ee43a,2024-02-18 12:31:09,JustSong,fix: set seed parameter for qwen (close #1005),False
+9383b638a63a09cdab20b95156689c5f19037658,2024-02-18 12:10:01,JustSong,feat: add ChatPro & ChatStd for tencent (#1010),False
+28d512a675a11e7d671898736ae0a406b1783abf,2024-02-17 23:53:31,JustSong,refactor: delete useless code,False
+de9a58ca0bd2297078f2375afcbf5fc80d8939a1,2024-02-17 23:52:50,JustSong,refactor: use config field to save config,False
+1aa374ccfbf5cb8dcff897d7f3b68b1ef0374cd7,2024-02-17 21:45:31,JustSong,refactor: use adaptor to do relay & test,False
+d548a01c596f028800974156efe52849de20e9ba,2024-02-12 19:05:40,Laisky.Cai,"feat: Handle errors, validate model names, and calculate quota usage (#978)
+
+- Improved error handling in various modules for better stability and responsiveness.
+- Optimized code in several files for improved efficiency and readability.
+- Enhanced user experience by providing more detailed error responses in the controller.
+- Strengthened security by ignoring sensitive files in `.gitignore`.",False
+2cd1a782039a151fa18fde1efb1bd34fcdc98942,2024-01-28 17:08:58,JustSong,chore: update module name,False
+b9d3cb0c4520fd42bdae085b98af76d369527cf1,2024-01-28 16:44:46,JustSong,refactor: split RelayTextHelper function,False
+ea407f0054f5688853fc480fab9b18b3cc611cd1,2024-01-28 14:15:54,JustSong,feat: able to set completion ration now (close #968),False
+26e2e646cbf993ae9165d105fad5052f877ac358,2024-01-28 13:39:21,Benny,"feat: sync models with OpenAI (#971)
+
+* add new 0125 chat models and embedding-3 models
+
+* refine the step of manually deploying
+
+* add gpt-4-turbo-preview",False
+4f214c48c6fbb2a430b2734d4c5764c94d700b7e,2024-01-21 20:57:34,yongman,"fix: fix primary chat button (#951)
+
+Signed-off-by: yongman <yming0221@gmail.com>",False
+2d760d4a015c05e7c5b053d1a2a7569c7416c7b1,2024-01-21 20:51:42,JustSong,"refactor: refactor relay part (#957)
+
+* refactor: refactor relay part
+
+* refactor: refactor config part",False
+e2ed0399f03c8072deebb28e38805a587b82f3c5,2024-01-20 10:08:06,Buer,fix: fix aff not effective (#937),False
+eed9f5fdf0748a4657d618efdc7654a99ac73a9c,2024-01-14 16:51:03,JustSong,refactor: refactor relay part (#935),False
+f2c51a494c59273fd25b2b4a884ce8dc4a266ac8,2024-01-14 11:38:39,JustSong,feat: able to login via email (close #921),False
+8a4d6f332778da1d6cf719db3ee46ff99f210954,2024-01-14 11:18:16,Calcium-Ion,"fix: remove useless wrong index (#916)
+
+* add sqlite busy_timeout=3000
+
+* chore: update impl
+
+* fix: fix JSON tag in Log struct
+
+* fix: 修复高并发下，高额度用户使用低额度令牌没有预扣费而导致令牌大额欠费
+
+* Revert ""fix: 修复高并发下，高额度用户使用低额度令牌没有预扣费而导致令牌大额欠费""
+
+This reverts commit f0ffe144371a4e118478306b906ddb7a5f027024.
+
+* fix: remove wrong index
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+cf4e33cb12d67bdd3427b6fcee33d771b9cf8d06,2024-01-14 10:52:31,Buer,"fix: fix bugs with theme berry (#931)
+
+* fix: home page & logo style issue
+
+* improve: Enhanced user experience by improving the channel selection box
+
+* fix: key cannot be activated after expiration",False
+5d60305570296cab6088358d3e8ca79f1a044024,2024-01-14 10:30:59,JustSong,docs: update readme (close #930),False
+d062bc60e4eb840e44934f4395efbd2020413c57,2024-01-07 16:48:52,JustSong,chore: update ui copy,False
+39c188297097bd632905303dc95e0158eb6d9bc3,2024-01-07 16:31:31,JustSong,chore: add back THEMES,False
+9c42c7dfd9eada3007e24741d3c539aeed8aa8e5,2024-01-07 16:29:26,JustSong,docs: update theme readme,False
+903aaeded054dc9443b01ddb6fd33968e2b3a831,2024-01-07 16:17:39,JustSong,chore: revert change,False
+bdd4be562d8d8c308d7ed31b179413d2556000b6,2024-01-07 16:14:26,JustSong,chore: add theme validation,False
+37afb313b570d9899eb55c9918a8ef928a6d53f9,2024-01-07 16:09:15,Buer,"fix: fix some issues with berry (#913)
+
+* fix: login address error
+
+* fix: Normal users display profile menu
+
+* fix: remove redundant code",False
+c9ebcab8b89df6d00f551bee3dc7dac2080b649b,2024-01-07 15:32:59,JustSong,fix: fix theme logging,False
+86261cc6568cea0e7a8f8b14b25ee52ca3e72a5b,2024-01-07 15:23:05,JustSong,feat: able to change theme,False
+8491785c9da790eaf716a891063dcdd4c6c55d35,2024-01-07 14:43:24,JustSong,chore: remove useless logging,False
+e848a3f7fa65c1a08116a74dac0d3fd97b988c3d,2024-01-07 14:40:59,JustSong,fix: fix error loading stats (#912),False
+318adf5985c57263126ba7c8fc70d95975396cd3,2024-01-07 13:58:44,JustSong,chore: remove useless lines,False
+965d7fc3d26b761c4b4019c40300b0807925fc12,2024-01-07 13:03:33,JustSong,fix: fix Dockerfile,False
+aa3f605894200158a183252d4d693ed560603c0c,2024-01-07 12:47:21,JustSong,fix: fix Dockerfile,False
+7b8eff1f22a17fa60d8822fe36d7472d55b0f3b9,2024-01-07 12:45:02,JustSong,fix: fix Dockerfile,False
+e80cd508baaf6a10733503a0dc09dfd6c98bf411,2024-01-07 12:42:30,JustSong,fix: fix Dockerfile,False
+d37f836d53fa6918474e1cb18e1ca2240b474f91,2024-01-07 12:33:36,JustSong,fix: fix Dockerfile,False
+e0b2d1ae470b8c7ae97c9b804e850646fc5857d6,2024-01-07 12:25:04,JustSong,fix: fix Dockerfile,False
+797ead686b5b1af471dcb0e1a9a437e78b8c0e41,2024-01-07 12:12:23,JustSong,fix: fix Dockerfile,False
+0d22cf9eadf77d6a0b48bde2b32abcccd430136f,2024-01-07 12:08:02,JustSong,fix: fix Dockerfile,False
+48989d4a0b63e826634896003582b308745c9cf8,2024-01-07 11:50:07,Buer,"feat: add new theme berry (#860)
+
+* feat: add theme berry
+
+* docs: add development notes
+
+* fix: fix blank page
+
+* chore: update implementation
+
+* fix: fix package.json
+
+* chore: update ui copy
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+6227eee5bc751446db4042d4e6bd8531919026a0,2024-01-07 11:02:39,Seven Yu,"fix: fix token validation exception handling #901
+
+* fix: fix exception handling
+
+1. add error log for ValidateUserToken
+2. update en.json
+
+* chore: update log
+
+---------
+
+Co-authored-by: seven.yu <seven.yu@dji.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+cbf8f077470fceb38fe9d262c42a64eb4be4eb0c,2024-01-01 18:49:37,JustSong,docs: fix logo,False
+4a96031ce60d88f71a5290e8771b2ba24debd7dc,2024-01-01 18:44:45,JustSong,docs: update readme,False
+92886093ae6c21fe75abf3c81347c8e516c3177f,2024-01-01 18:40:40,JustSong,docs: update readme,False
+0c022f17cb28e500c05670f3c89f757fbcc5c864,2024-01-01 17:55:53,JustSong,chore: update theme related code,False
+83f95935de30e74ac012e5b1048a76d9aca9aac2,2024-01-01 16:53:46,JustSong,ci: fix Dockerfile & ci,False
+aa03c89133c5d0f9a35ceedcecb08c6b57206174,2024-01-01 16:25:03,JustSong,feat: able to add more UI theme (#860),False
+505817ca171121cf6f9d9cf579d6846513a87bda,2024-01-01 15:16:45,JustSong,chore: update en.json,False
+cb5a3df61687bee00eb4a93bd94e8f33786fb4db,2024-01-01 15:10:10,JustSong,fix: fix pr error (#888),False
+7772064d87468d62c7f7afee20a033328c07080d,2024-01-01 15:08:35,Laisky.Cai,"fix: support base64 encoded image_url (#872)
+
+- Add support for base64 encoded image in OpenAI's image_url
+
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+c50c6095651570d01a172c0eb2f166535ca24366,2024-01-01 14:39:12,Seven Yu,"fix: fix button copywriting (#880)
+
+* feat: rename Channel button
+
+* fix: update en.json
+
+---------
+
+Co-authored-by: seven.yu <seven.yu@dji.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+498dea2dbbd7d68261ef32a900711d555181bb68,2024-01-01 14:36:17,Tailen,feat: add support for davinci-002 and babbage-002 (#888),False
+c725cc88429aed1e013729b6c87ced20a040544e,2024-01-01 14:30:23,Zhanliang Liu,fix: base 64 encoded format support of gemini-pro-vision for field image_url/url (#878),False
+af8908db540d0ad4650e7595b79b0ccb066a9a38,2024-01-01 14:12:19,Tisfeng,"feat: able to change gemini safety setting (#867)
+
+* perf: adjust gemini safety settings, set BLOCK_NONE by default
+
+* feat: able to adjust by env variable
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+d8029550f758fed626caa1615a8f6d66efa02db4,2024-01-01 13:48:50,JustSong,fix: do not consume user quota if failed (close #881),False
+f44fbe3fe7e712847930b19a6527a476b2f4a45f,2023-12-24 16:54:59,JustSong,docs: update pr template,False
+1c8922153d6adb94184513e7f0263521f0d29157,2023-12-24 16:24:32,JustSong,feat: support gemini-vision-pro,False
+f3c07e14511c563b7d2cbe66432338e2ed545586,2023-12-24 14:28:31,Laisky.Cai,"fix: openai response should contains `model` (#841)
+
+* fix: openai response should contains `model`
+
+- Update model attributes in `claudeHandler` for `relay-claude.go`
+- Implement model type for fullTextResponse in `relay-gemini.go`
+- Add new `Model` field to `OpenAITextResponse` struct in `relay.go`
+
+* chore: set model name response for models
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+40ceb29e540340572035cdd4348e80433e4d5ab2,2023-12-24 14:12:00,Bryan,"fix: fix SearchUsers not working if using PostgreSQL (#778)
+
+* fix SearchUsers
+
+* refactor: using UsingPostgreSQL as condition
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+0699ecd0af9a12e748f1174c3814f0f5c3f49592,2023-12-24 13:59:48,dependabot[bot],"chore(deps): bump golang.org/x/crypto from 0.14.0 to 0.17.0 (#840)
+
+Bumps [golang.org/x/crypto](https://github.com/golang/crypto) from 0.14.0 to 0.17.0.
+- [Commits](https://github.com/golang/crypto/compare/v0.14.0...v0.17.0)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/crypto
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ee9e746520e57520fd2b7c7f1bc85d4eaed077fd,2023-12-24 13:47:21,moondie,"feat: update ali stream implementation & enable internet search (#856)
+
+* Update relay-ali.go: 改进stream模式，添加联网搜索能力
+
+通义千问支持stream的增量模式，不需要每次去掉上次的前缀；实测qwen-max联网模式效果不错，添加了联网模式。如果别的模型有问题可以改为单独给qwen-max开放
+
+* 删除""stream参数""
+
+刚发现原来阿里api没有这个参数，上次误加了。
+
+* refactor: only enable search when specified
+
+* fix: remove custom suffix when get model ratio
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+a763681c2edebca610db7ae91d11d0e9a559a08c,2023-12-24 13:05:56,Buer,fix: fix base64 image parse error (#858),False
+b7fcb319da622a6de340b34e9255efd5fae6cf19,2023-12-20 20:20:50,JustSong,chore: check if SESSION_SECRET equals to random_string,False
+67c64e71c800a76b2fa7a5b6eb51e89a14479b0c,2023-12-20 19:15:33,JustSong,fix: fix max_tokens check,False
+97030e27f88ac27a9ab4bcc2484f7d8e83d29d04,2023-12-17 21:00:45,JustSong,fix: fix gemini panic (close #833),False
+461f5dab561ff09d1bada624058c943daa7b9f99,2023-12-17 19:55:03,JustSong,docs: update readme,False
+af378c59afe3510ebc28b7f081a7a8ccfa8de891,2023-12-17 19:49:16,JustSong,docs: update readme,False
+bc6769826bb827ca323beac6118bfd15e829fee4,2023-12-17 17:19:08,ShinChven ✨,"feat: add condition to validate n value for non-Azure channels (#775)
+
+- Add a condition to validate the n value only for non-Azure channels, ensuring it falls within the acceptable range.
+- Fix Azure compatibility",False
+0fe26cc4bd9d2e85b47ac6ae23fc974295c72f52,2023-12-17 17:13:23,Oliver Lee,"feat: update ali relay implementation (#830)
+
+* 修改通译千问最新接口：1.删除history参数，改用官方推荐的messages参数 2.整理messages参数顺序，补充必要上下文信息 3.用autogen调试测试通过
+
+* chore: update impl
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+7d6a169669f1eb2666abb0747964ab1cd9f86f12,2023-12-17 16:47:00,Calcium-Ion,"feat: able to set sqlite busy_timeout (#818)
+
+* add sqlite busy_timeout=3000
+
+* chore: update impl
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+66f06e5d6f14828c3522fb59bfca35c612685bef,2023-12-17 16:24:08,Ghostz,"feat: reset image num to 1 when not given (#821)
+
+* Update relay-image.go
+
+* fix: reset image num to 1 when not given
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+6acb9537a921008813eb691e021aa87f316fb82e,2023-12-17 16:03:27,JustSong,fix: try to return a more meaningful error message (close #817),False
+7069c49bdf4e4ae39ab4944faaa5fd66b121d3fb,2023-12-17 15:36:37,JustSong,fix: fix xunfei panic error (close #820),False
+58dee76bf7828718021f924dd741c3754515cd7c,2023-12-17 13:46:18,JustSong,fix: fix Gemini stream problem,False
+5cf23d8698cfebd720a6722e4b89a839c8a804c0,2023-12-17 10:18:32,David Zhuang,"feat: add Google Gemini Pro support (#826)
+
+* fest: Add Google Gemini Pro, fix #810
+
+* fest: Add tooling to Gemini; Add OpenAI-like system prompt to Gemini
+
+* refactor: removing unused if statement
+
+* fest: Add dummy model message for system message in gemini model
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+366b82128f89a328f096da6951cbafebb6b0060f,2023-12-10 18:14:37,JustSong,fix: remove incorrect logging,False
+2a70744dbf266f25170ae04ca4ae7fe007ef6018,2023-12-10 17:23:33,JustSong,feat: add panic recover middleware,False
+4c5feee0b66e0d42091ef9fa4bd1f5f3f78ec38f,2023-12-10 17:09:46,Qiying Wang,feat: add image counter for gpt-4 vision (#795),False
+9ba5388367fee3891a065b5469ba73af0a0e1693,2023-12-10 16:09:14,igophper,"feat: refactor response parsing logic to support multiple formats (#782)
+
+* feat: Refactor response parsing logic to support multiple formats
+
+The parsing logic for responses in relay.go and relay-audio.go was refactored to support multiple response formats - 'json', 'text', 'srt', 'verbose_json', and 'vtt'. The existing `WhisperResponse` struct was renamed to `WhisperJsonResponse` and a new struct `WhisperVerboseJsonResponse` was added to support the 'verbose_json' format. Additional parsing functions were added to extract text from these new response types. This change was necessary to make the parsing logic more flexible and extendable for different types of responses.
+
+* chore: update name
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+379074f7d011df8fcbfe3cd6bdfbca8967d3ab91,2023-12-10 14:52:52,JustSong,feat: support plugin for ali channel (close #797),False
+01f7b0186fae589e0e5fb83ab0e6d033ba5339aa,2023-12-03 18:15:11,JustSong,chore: add routes,False
+a3f80a3392a658ea09086f2c2f73f5f1701e9341,2023-12-03 17:40:57,Tillman Bailee,"feat: enable channel when test succeed (#771)
+
+* 增加功能: 渠道 - 测试所有通道; 设置 - 运营设置 - 监控设置 - 成功时自动启用通道
+
+* refactor: update implementation
+
+---------
+
+Co-authored-by: liyujie <29959257@qq.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+8f5b83562b1fc7831149a0cc33f49f044f011c42,2023-12-03 15:13:30,Zhengyi Dong,"fix: fix ""invalidPayload"" error when request Azure dall-e-3 api without optional parameter (#764)
+
+* fix: based on #754 add 'omitempty' in ImageRequest to fit official api reference for relay
+
+* Revert ""fix: based on #754 add 'omitempty' in ImageRequest to fit official api reference for relay""
+
+This reverts commit b526006ce07839f29b2d5b8c6a028147401ac295.
+
+* fix: add missing omitempty
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+b7570d5c772f5e4ba8aac4441f8ab9ec86b7aa55,2023-12-03 15:04:59,ShinChven ✨,"feat: support dalle for Azure (#754)
+
+* feat: Add Message-ID to email headers to comply with RFC 5322
+
+- Extract domain from SMTPFrom
+- Generate a unique Message-ID
+- Add Message-ID to email headers
+
+* chore: check slice length
+
+* feat: Add Azure compatibility for relayImageHelper
+
+- Handle Azure channel requestURL compatibility
+- Set api-key header for Azure channel authentication
+- Handle Azure channel request body
+
+fixes: https://github.com/songquanpeng/one-api/issues/751
+
+* refactor: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+0e73418cdfef809fec7c8a2b6bb632a3b207eb88,2023-11-26 09:35:16,JustSong,fix: fix log recording & error handling for relay-audio,False
+9889377f0e9260e852fb121d886ef3d9517ff8f9,2023-11-24 19:09:44,JustSong,feat: support claude-2.x (close #736),False
+b273464e777632bd45c4502df4fe12e6fdd264f2,2023-11-24 18:53:16,JustSong,docs: update readme,False
+b4e43d97fd11d7f9cbe18e5c1239de8b6ab5b6a5,2023-11-24 18:51:03,JustSong,docs: add pr template,False
+3347a44023e8b1313ba640c222fad9d2a9ce755b,2023-11-24 18:40:18,Ian Li,feat: support Azure's Whisper model (#720),False
+923e24534b4626f667479da4efc9a2867cdeff5a,2023-11-24 18:26:53,Tillman Bailee,"fix: add Date header for email (#742)
+
+* 修复自建邮箱发送错误: INVALID HEADER Missing required header field: ""Date""
+
+* chore: fix style
+
+---------
+
+Co-authored-by: liyujie <29959257@qq.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+b4d67ca6144eff90a2f8bf8f7f1b262af67d2e0e,2023-11-24 18:22:59,ShinChven ✨,"fix: add Message-ID header for email  (#732)
+
+* feat: Add Message-ID to email headers to comply with RFC 5322
+
+- Extract domain from SMTPFrom
+- Generate a unique Message-ID
+- Add Message-ID to email headers
+
+* chore: check slice length
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+d85e356b6e6a7b22750f1aa93c3024862e82c58f,2023-11-24 18:12:29,igophper,"refactor: remove consumeQuota  related logic (#738)
+
+* feat: 删除relay-text中的consumeQuota变量
+
+该变量始终为true，可以删除
+
+* chore: remove useless code
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+495fc628e432da0f400c93c8b9195c5f315aaaa7,2023-11-19 16:08:54,JustSong,"feat: support gpt-4 with vision (#683, #714)",False
+76f9288c341dc3c3d7b527f18b4b86d513d3e3fb,2023-11-19 15:20:30,JustSong,feat: update request struct (close #708),False
+915d13fdd4946145cfff87cacddad2dda2552ef9,2023-11-19 14:52:35,JustSong,docs: update readme (#724),False
+969f539777971fde12bbc9c495b9dbea93bf2708,2023-11-19 13:41:39,Ian Li,"fix: skip JSON deserialization when accessing transcriptions and translations (#718)
+
+* fix: Skip JSON deserialization when accessing transcriptions and translations.
+
+* chore: update impl
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+54e5f8ecd296a6d6d0662f6a16792ab3aa2cb9ab,2023-11-19 13:22:35,Buer,"feat: support cloudflare gateway for azure (#666)
+
+* 🐛 Fix cloudflare gateway request failure
+
+* 🐛 fix channel test url error",False
+34d517cfa233d90b470e4d6ac0208051de4b4fea,2023-11-17 19:15:55,Mikey,"fix: cloudflare test & expose detailed info about test failures (#715)
+
+* fix: cloudflare test & expose detailed info about test failures
+
+* fix: cloudflare test & expose detailed info about test failures
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+ddcaf95f5faddce75c095395744526d2d5713343,2023-11-17 18:48:51,ckt1031,"feat: support tts model (#713)
+
+* Added support for Text-to-Speech models and
+endpoints
+
+* chore: update impl
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+1d15157f7d2f3d2b2e98c965a383a06c6535e665,2023-11-17 17:33:16,ckt1031,"feat: keep sync with dall-e updates (#679)
+
+* Updated ImageRequest struct and OpenAIModels,
+added new Dall-E models and size ratios
+
+* Fixed suspect `or`
+
+* Refactored size ratio calculation in
+relayImageHelper function
+
+* Updated the format of resolution keys in
+DalleSizeRatios map
+
+* Added error handling for unsupported image size in
+relayImageHelper function
+
+* Added validation for number of generated images
+and defined image generation ratios
+
+* Refactored variable name from
+DalleGenerationImageAmountRatios to
+DalleGenerationImageAmounts
+
+* Added validation for prompt length in
+relayImageHelper function
+
+* Updated model validation and removed size not
+supported error in relayImageHelper function
+
+* Refactored image size and model validation in
+relayImageHelper function
+
+* chore: discard binary file
+
+* chore: update impl
+
+---------
+
+Co-authored-by: cktsun1031 <65409152+cktsun1031@users.noreply.github.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+de7b9710a52a943e9b7dd54837916949cbda1663,2023-11-17 17:10:59,管宜尧,"fix: fix PaLM not working issue (#667)
+
+* bugfix for #515 最新版本谷歌PaLM模型无法使用
+
+* update
+
+* chore: remove unrelated file
+
+* chore: add comment
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+58bb3ab6f6008af8135464877259db610f89992d,2023-11-10 19:20:52,Dafei Zhao,"fix: fix channel_id column name (#681, close #688)",False
+d306cb52293b4053105d0de869795bffc4593730,2023-11-10 19:10:00,qingfengfenga,"feat: add improve docker-compose.yml and support fast startup (#685)
+
+Co-authored-by: 王彦朋 Penn Wang <penn.wang@digitwin.com.cn>",False
+6c5307d0c4c7740ad6eb7917dced6dd2b939f3b1,2023-11-10 18:50:59,Yuhang,"docs: add deploy to zeabur button (#693)
+
+* Update README.md
+
+* Update README.en.md
+
+* Update README.ja.md",False
+7c4505bdfc4af036dacea6050e04e4aa92f9c8d2,2023-11-10 18:50:05,Baksi,"fix: numeric sorting in tables (#695)
+
+* Update sorting method for id
+
+* Update sorting method for id (token)
+
+* Update sorting method for id (redemptions)
+
+* Update sorting method for id (channel)
+
+* chore: use same logic for all tables
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+9d43ec57d8e67aa89acb1af78f21c1469d26a113,2023-11-10 18:38:23,Mikey,"feat: sync pricing for new 1106 models (#696)
+
+* feat: sync pricing for new 1106 models
+
+* chore: change ratio after 2023-12-11
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+e5311892d1075a7facfd32c6aa358e4a574138da,2023-11-08 20:47:12,JustSong,docs: update readme,False
+bc7c9105f4b6cb18d7302415567d502e5681381e,2023-11-05 16:45:06,wzxjohn,"chore: update quota calc logic (close #599) (#627)
+
+* fix: change quota calc code (close #599)
+
+Use float64 during calc and do math.Ceil after calc. This will result in the quota being used slightly more than the official standard, but it will be guaranteed that it will not be less.
+
+* chore: remove blank line
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+3fe76c8af7c11b8afd8893ed2621ecc200abcb12,2023-11-05 16:38:25,wood chen,"fix: fix Cloudflare AI Gateway channel test support (#639)
+
+* 当使用Cloudflare AI Gateway时，支持openai渠道测试
+
+* refactor: change logic
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+c70c614018a5992890564cba28d3d6172c8f71b3,2023-11-05 15:29:38,papersnake,"feat: support chatglm_turbo (#648)
+
+* feat: support chatglm_turbo
+
+* fix: remove characterglm",False
+0d87de697c53b921da75d86aeeaff36130dd75a4,2023-11-02 19:54:22,Baksi,fix: fix typo (#651),False
+aec343dc387111eee9728c10d733da84b832d3cc,2023-10-29 19:33:01,MaricoHan,feat: support xunfei v3 (#637),False
+89d458b9cf1e96ecd0e89c07323ab2740cace042,2023-10-22 18:09:49,JustSong,feat: able to set RELAY_TIMEOUT,False
+63fafba112b81327b4bba4cf3a2caff45933d6cb,2023-10-22 16:18:35,JustSong,feat: support ERNIE-Bot-4 (close #608),False
+a398f35968fe1d567b3a1c9b0fb387251ce11120,2023-10-22 16:08:29,Bryan,"fix: fix postgresql support (#606)
+
+* fix postgresql support
+
+fixes #517
+
+* fix: fix pg support
+
+* chore: delete useless code
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+57aa637c7774ad06fc5b4f2878d4784a1428a1c1,2023-10-22 15:26:20,yiGmMk,"fix: set Accept header if not given (#615)
+
+* fix: fastgpt调用通义千问问答失败
+
+* refactor: Dockerfile
+
+* Revert ""refactor: Dockerfile""
+
+This reverts commit a538c4f28eaf4dee66df3b4d951a3dc29d4db9ec.
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+3b483639a4b41e9676f6244d78bfa855c87c8e47,2023-10-22 15:20:52,vc,"feat: add cloudflare ai gateway support for image & audio (#607)
+
+* Update channel-test.go
+
+* Update relay-audio.go
+
+* Update relay-image.go
+
+* chore: using a util function
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+22980b4c440c6c8d05ff5469c575214552b19833,2023-10-22 15:01:27,subnew,"docs: add description for TIKTOKEN_CACHE_DIR  (#612)
+
+* Update README.md
+
+* Update README.md",False
+64cdb7eafb288291761f5564847d76600047db0a,2023-10-15 08:25:16,Pluto,fix: docker compose healthcheck failed (#593),False
+824444244bafa5266d7ce0a59cc9b26089a57077,2023-10-14 14:55:48,JustSong,feat: able to delete all disabled channels,False
+fbe9985f57a85bef2a495c087c615b6e87575fab,2023-10-14 14:02:01,JustSong,chore: show prompt to let the user know,False
+a27a5bcc06aa18bf70034a8cddf1874aa92277b9,2023-10-14 13:41:15,JustSong,fix: fix array index not checked (close #588),False
+e28d4b17412e4f985245d933a3045161a22eebb9,2023-10-14 12:56:28,JustSong,"feat: support cloudflare AI gateway now (close #565, #598)",False
+f073592d39aa9dc00bad98109c141b7d68c775ea,2023-10-14 12:34:52,JustSong,fix: fix request count not updated correctly when using batch update,False
+fa41ca98056f27ae6ba005ad358075ae8d99cf61,2023-10-14 10:15:00,阿鹏,"fix: fix url not passing (#562)
+
+解决令牌页面聊天按钮丢失url参数的问题",False
+e338de45b6f46406e6feb0118c91c8ef461fd1a7,2023-10-14 10:12:07,Mikey,"fix: 404 Component is missing (#592)
+
+* fix: 404 Component is missing
+
+* chore: update 404 page style
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+114587b46f21487e4fcdcc31d84091e77981f757,2023-10-14 10:04:46,dependabot[bot],"chore(deps): bump golang.org/x/net from 0.10.0 to 0.17.0 (#591)
+
+Bumps [golang.org/x/net](https://github.com/golang/net) from 0.10.0 to 0.17.0.
+- [Commits](https://github.com/golang/net/compare/v0.10.0...v0.17.0)
+
+---
+updated-dependencies:
+- dependency-name: golang.org/x/net
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b4b4acc288d7c1d9b942a85abe0f2b505ecb62a7,2023-10-03 11:49:03,JustSong,feat: support Tencent's model (close #519),False
+d663de3e3a65040231cf525dd326829699acf6ae,2023-10-03 10:22:45,JustSong,chore: delete 360's 360GPT_S2_V9.4,False
+a85ecace2e033f63ee695ac0688a0b7f6a669946,2023-10-03 10:21:53,JustSong,chore: delete 360's 360GPT_S2_V9.4,False
+fbdea91ea18f58f91961aed01d43a68dc293582e,2023-10-02 10:45:35,JustSong,docs: update readme,False
+8d34b7a77ea7915a029c089e497510e0baf59858,2023-10-02 10:36:27,JustSong,feat: able to delete all manually disabled channels (close #539),False
+cbd62011b89e06390f8090b3766da7f82cf53060,2023-10-02 09:43:30,JustSong,chore: add database migration prompt,False
+4701897e2e5115310ef5ba78ccbec8fe2a43475b,2023-10-02 09:41:02,JustSong,chore: sync database indices with pro version,False
+0f6c132a80f22220967331f4204323a7ab972bcc,2023-10-01 10:56:42,JustSong,docs: update readme,False
+3cac45dc855e787084645d597dc1ab721fc42b01,2023-10-01 10:46:25,JustSong,docs: update readme,False
+47c08c72ce21878b2f5c0bc13d86a77a75c706ee,2023-10-01 10:19:40,JustSong,fix: check user quota when pre-consume quota,False
+53b2cace0b5ea70fc5bbcc05d1d5cc5b9d653c00,2023-09-29 15:43:57,JustSong,chore: sync model schema,False
+f0fc991b447b7061d97737ee758837d21f54d0e0,2023-09-29 15:37:20,JustSong,chore: remind user to change default password (close #516),False
+594f06e7b00df640630132acb2dc6a659597a9af,2023-09-29 15:26:11,JustSong,perf: lazy initialization for token encoders (close #566),False
+197d1d7a9d45393f2acbacf809b8357020db9a3a,2023-09-29 15:19:47,JustSong,docs: update readme,False
+f9b748c2caf02879f0ff9c104701e12d71894bff,2023-09-29 09:08:27,JustSong,chore: add MEMORY_CACHE_ENABLED env variable,False
+fd9846361129452fe5ad8b45b9b401311f5872c9,2023-09-23 20:27:59,JustSong,chore: update ali's model name,False
+f5a1cd34634b92ea2013cfa16b599d06a4253386,2023-09-23 20:07:11,JustSong,feat: add support for gpt-3.5-turbo-instruct (close #545),False
+8651451e5396e8e65f3caef93c7520787cc2b7e9,2023-09-19 20:09:54,igophper,"fix: sum null to 0 (#541)
+
+Co-authored-by: igophper <admin@jialilgu.cn>",False
+1c5bb97a42ea24c5a82fe5d911bbdc824179504d,2023-09-18 20:41:37,JustSong,"fix: fix gorm expression
+
+Co-authored-by: 初音控灬 <xyfacai@gmail.com>",False
+de868e4e4e145584e03d6e870f6b3d5902d55e6f,2023-09-18 20:37:59,JustSong,"fix: fix gorm expression
+
+Co-authored-by: 初音控灬 <xyfacai@gmail.com>",False
+1d258cc898d87366dce0ac746b3f53f70eeccf35,2023-09-18 20:19:05,JustSong,fix: add default value for base url,False
+37e09d764cb7ec93fc96ba8742fb7644f27be917,2023-09-18 20:09:10,JustSong,fix: fix random selection is not working when directly using database,False
+159b9e3369fdca0fb90cafdc96317c0f299d26bb,2023-09-18 19:37:17,JustSong,fix: fix unable to set zero value for base url & model mapping,False
+92001986dbe275c57269a6be00e789b594b0b34d,2023-09-18 19:14:36,JustSong,Merge branch 'main' of https://github.com/songquanpeng/one-api,True
+a5647b1ea7c859100c86e517cdfcac660d44dab2,2023-09-18 19:13:45,JustSong,fix: fix priority not updated & random choice not working,False
+215e54fc96e905872be799a9596a8d21a48b2e3e,2023-09-17 19:09:21,Redreamality,"docs: update readme (#502)
+
+* Update README.md
+
+* docs: update README
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+ecf8a6d87583446834c4f58622c7368d493687f6,2023-09-17 16:48:16,Xyfacai,"feat: supprt channel priority now & record channel id in log (#484)
+
+* feat: 支持设置渠道优先级 & 日志中显示使用的渠道ID
+
+* fix: 设置渠道优先级未更新 ability
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: Xiangyuan Liu <xiangyuan.liu@ui.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+24df3e5f62f99fefb7bc0f6ef09555622260e4fc,2023-09-17 15:46:12,igophper,"feat: support non-stream mode for xunfei (#498)
+
+* feat:xunfei suport none stream
+
+* fix:join content ignore seq
+
+---------
+
+Co-authored-by: igophper <admin@jialilgu.cn>",False
+12ef9679a7dd3e2f10e57a056f8f7a46f9fced46,2023-09-17 14:49:12,JustSong,fix: fix url not passing when using custom chat_link,False
+328aa6825596868920db2034701afb8fef52bb7c,2023-09-17 14:39:56,JustSong,feat: able to delete logs now (close #486),False
+4335f005a6a4b6c2be1b2d6df68c2f1c5f0ebef6,2023-09-17 14:05:30,JustSong,feat: create new log file when too many logs recorded,False
+fe26a1448d05e4fdd4b4daea1129db19cb33fe29,2023-09-17 13:11:01,JustSong,docs: update README,False
+42451d9d02e22cb546b746b68e68cec528603e5f,2023-09-17 13:09:46,JustSong,refactor: update logging related logic,False
+25c4c111abc94996cd6c9607abb6d335ab042153,2023-09-17 09:14:38,JustSong,fix: only enable cors for relay routers to avoid csrf attack,False
+0d50ad4b2b4d51b5c19b38ef3213376325ab3c02,2023-09-17 09:04:06,JustSong,chore: update channel test prompt,False
+959bcdef88935a5df8624ab68c7198bffe43c462,2023-09-17 09:00:20,JustSong,chore: update error code,False
+39ae8075e433138ec6cae1677121583f4421b29b,2023-09-14 21:54:20,JustSong,fix: fix oauth2 state not checking,False
+b57a0eca16a43658ee6efda01cc23ab4a72ffad3,2023-09-13 20:52:53,JustSong,docs: update readme,False
+1b4cc788909844f748985e178a05a0723077eb56,2023-09-13 20:48:53,Junyan Qin,"docs: add QChatGPT (#522)
+
+* doc(README.md): 添加支持One API的项目QChatGPT
+
+* Update README.md
+
+---------
+
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+420c37514092b4f406b11f3ab21b4b222f64e9c4,2023-09-13 19:35:10,JustSong,perf: only return quota when it's not zero,False
+01863d3e44d817e20eafdeb2d3a690737d7655c4,2023-09-13 19:20:45,JustSong,fix: fix quota not return when error occurred (close #518),False
+d0a0e871e117591fdf018e619c5d71ee371331f6,2023-09-03 19:42:35,igophper,"fix: support ali's embedding model (#481, close #469)
+
+* feat:支持阿里的 embedding 模型
+
+* fix: add to model list
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+bd6fe1e93cf96d79d3a6f7872a6df1c367872ed6,2023-09-03 19:26:37,JustSong,feat: able to config rate limit (close #477),False
+c55bb6781824f384f940e7daf1b94cd2f5fe3ff9,2023-09-03 19:20:00,JustSong,docs: update README (close #482),False
+0f949c3782f302b41b07475696fdf63d6cdb99ff,2023-09-03 19:19:41,JustSong,docs: update README (close #482),False
+a721a5b6f9d4a9ce721ce323c5eeb0be34a3b97b,2023-09-03 19:16:07,JustSong,chore: add error prompt for Azure,False
+276163affdef85d5adf9044fdbe0ab1b32455fcd,2023-09-03 19:10:58,JustSong,fix: press enter to submit custom model name,False
+621eb91b46a1909bf439cc50688bcdbc689e28b2,2023-09-03 19:01:58,JustSong,chore: pass through error out,False
+7e575abb951475c95adfe32d82994b81d50a7094,2023-09-03 13:20:49,JustSong,feat: add channel type FastGPT,False
+9db93316c4bd86c66fb74d5e7c36eaf4f3fde697,2023-09-03 12:42:54,JustSong,docs: update README,False
+c3dc315e7515723a172b811b6d5b7b166e188984,2023-09-03 12:28:20,JustSong,feat: add batch update support (close #414),False
+04acdb1ccb059d7dd86f4f397f4a027259edc74d,2023-09-03 10:21:59,JustSong,feat: support aiproxy's library,False
+f0d5e102a3dc22289e00860f63ebd0f125531641,2023-08-30 19:13:01,JustSong,"fix: fix log table use created_at as key instead of id
+
+Co-authored-by: 13714733197 <13714733197@163.com>",False
+abbf2fded0a694390e0f025b63e757d23b86155c,2023-08-30 18:45:56,JustSong,perf: preallocate array capacity,False
+ef2c5abb5b3d1fc5bffdb358758156e790db38f8,2023-08-30 18:21:37,JustSong,docs: update README,False
+56b50073798e3930cbccceaf17b6e2a6a68524b8,2023-08-27 13:46:45,JustSong,"feat: supper OpenRouter now (close #333, close #340)",False
+d09d317459e8749b28622f7c3bd710dc9821819f,2023-08-27 12:58:23,JustSong,feat: supper whisper now (close #197),False
+1c4409ae80662f923ed1cba15780f0b3153083cd,2023-08-26 11:06:58,JustSong,Merge branch 'main' of https://github.com/songquanpeng/one-api,True
+5ee24e8acfbb6f9c57bb6ecedaad995ac45201ef,2023-08-26 11:06:20,JustSong,"feat: support 360's models (close #331, close #461)
+
+feat: support 360's models (close #331, close #461)",False
+4f2f911e4d2cd12b1de037d8bef803b1cfd89f61,2023-08-26 10:40:18,shao0222,fix: fix the issue of function_call not working when using model mapping (#462),False
+fdb2cccf65f3d27f56a05b91c48aed393c7ed9c9,2023-08-26 10:32:02,JustSong,"perf: initialize all token encoder when starting (close #459, close $460)",False
+a3e267df7eb1fc88a5b8332c8338965ba1782042,2023-08-26 10:07:45,JustSong,fix: fix error response (close #468),False
+ac7c0f3a76c50632f9fcaaac642cfa3465e5074d,2023-08-26 09:35:18,JustSong,fix: disable channel when 401 received (close #467),False
+efeb9a16ceb8b9e88560fc68ba4a528e1982f76d,2023-08-20 19:37:50,glzjin,fix: fix xunfei crash (#451),False
+05e4f2b439033ebcd2edb77b07e8e7f76d332812,2023-08-19 15:28:45,Benny,fix: empty completion issue caused by bad status code from upstream channel (#422),False
+7e058bfb9b0cf56a937fb725b65e30f35bb81a83,2023-08-19 15:20:34,滔哥,"feat: support xunfei's v2 api (#442, close #440)
+
+* 兼容讯飞v2接口
+
+* Revert ""兼容讯飞v2接口""
+
+This reverts commit 21f05d1294b8693d0a21664a23ec04f028b9b117.
+
+* fix: fix implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+dfaa0183b71274a19eb87fe9f837d70a414737f4,2023-08-19 14:44:39,glzjin,"fix: fix baidu & ali's quota calculation (#444)
+
+* 修复阿里计费问题
+
+* 修复百度计费问题",False
+1b56becfaae3473861b870c8750205df21334355,2023-08-19 14:38:50,Benny,"feat: show total quota consumption  only when user click (#448)
+
+* feat: add toggleable visibility for total quota using an eye icon
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+23b1c63538bdba2cf6b8532dcf3721cd97816209,2023-08-19 14:28:34,Benny,"fix: claude model ratio (#449)
+
+* fix: Claude model ratio
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+49d1a634028bb858ca0c774e85b0ae2f0e75ca5a,2023-08-19 14:05:38,JustSong,docs: update README,False
+2a7b82650c94158dcdef759113af8e981d887854,2023-08-19 12:26:48,JustSong,docs: update README,False
+8ea7b9aae2d26a9f4a51c533966edd51a7ec8555,2023-08-19 12:26:21,JustSong,docs: update README,False
+5136b12612a9ba8ecb15a3b8cd4cab567e3e09ff,2023-08-19 12:25:38,JustSong,docs: update README,False
+80a49e01a38e628704a9bab998224d20c4d3fa7e,2023-08-19 12:25:17,JustSong,docs: update README,False
+8fb082ba3b6bbce21ed58c8d2bf6c4044325db0c,2023-08-19 12:24:40,JustSong,docs: update README,False
+86c2627c24e814dbea9086fbd8e9a904137a9cda,2023-08-16 21:10:50,JustSong,"fix: update cache immediately after cache get
+
+Co-authored-by: chikasaki <1347283135@qq.com>
+Co-authored-by: Cruel <157922018@qq.com>",False
+90b4cac7f352fcbb9771ba5cd3ece6b5e105bace,2023-08-16 17:03:31,Ikko Eltociear Ashimine,docs: add Japanese README (#425),False
+e4bacc45d62318735ecad7262dae7533c26b3b25,2023-08-13 20:25:43,Jungley,ci: add stage caching to Dockerfile (#408),False
+da1d81998fd5fe7389176f52c8b8c0f93b20f7d6,2023-08-12 22:46:27,JustSong,docs: update README,False
+cac61b9f66b04d70c5a9f3b90de1641fb213336a,2023-08-12 22:21:48,JustSong,"Revert ""fix: add lock when update quota (close #399)""
+
+This reverts commit eae9b6e60779d02132c6caf7b5155c2c98f7cf4f.",False
+3da12e99d97c58a3c7370475f4e76565699b108e,2023-08-12 22:20:26,JustSong,chore: update variable name,False
+4ef5e2020ceecc534073d7e045197f7be05233ce,2023-08-12 22:15:04,igophper,"fix: fix baidu's embedding api (#398)
+
+* fix:judge baidu embeddings input type
+
+* chore: add back update all channels balance
+
+* chore: update default configuration for sql connection
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+af20063a8ddd4f4103f8d58f7ae2f1ee9568defd,2023-08-12 21:11:44,igophper,"feat:  able to refresh baidu access token automatically (#400, close #401)
+
+* feat:baidu channel support apiKey and secretKey
+
+添加百度文心渠道时支持填写secretKey|apiKey或者accessToken，支持自动刷新accessToken
+
+* fix
+
+* fix
+
+* fix
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+ca512f6a38809f62a060391e838e750bc224be50,2023-08-12 19:25:18,igophper,"refactor: add set event stream headers func (#402)
+
+封装流式传输响应头的设置",False
+0e9ff8825efc7668be6a2d0c7df9960d5121c26b,2023-08-12 17:06:31,JustSong,perf: use a goroutine to handle quota post consumption (#364),False
+e0b4f96b5bce6e5b9526d0a51a5509507276306a,2023-08-12 16:50:12,JustSong,feat: support PostgreSQL now,False
+eae9b6e60779d02132c6caf7b5155c2c98f7cf4f,2023-08-12 15:55:18,JustSong,fix: add lock when update quota (close #399),False
+7bddc73b963e98a69095242f1aa6f79cfc865a72,2023-08-12 15:40:15,JustSong,perf: flush response after response handled (close #364),False
+2a527ee4360113c6fa1fbf204d4ca83fc5665c3e,2023-08-12 14:28:29,JustSong,fix: fix token name too long,False
+e42119b73d493f3202cb4c315d2ab3c16315ebe4,2023-08-12 11:48:04,JustSong,chore: use unknown as placeholder,False
+821c559e893ac59a4a0777ab04777b8581b63223,2023-08-12 09:47:01,JustSong,docs: update README,False
+7e2bca7e9cc06015a3d5c0ef8c90e195a1abd2cd,2023-08-12 09:00:13,JustSong,docs: update README,False
+1e16ef3e0d5d1a363e614ecc9b6dd4c48f15a64d,2023-08-12 08:38:52,JustSong,chore: resolve conflicts,True
+476a46ad7e9c25c3d4900a9e2f94ea8717491b37,2023-08-12 08:34:53,igophper,"fix: fix finish_reason fileld not fully compatible with OpenAI (close #372, #373)
+
+* optimize:unify finish_reason field
+
+* refactor: use a global stop finish reason
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+c58f710227d5c71c606ad78f17f6f1ff19f65606,2023-08-12 08:19:30,Yolo°,"feat: improve frontend (#387)
+
+* fork
+
+* fork
+
+* chore: update style
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+150d068e9f089fd9198a8523910863661a29998f,2023-08-12 07:50:54,JustSong,chore: update prompt,False
+be780462f1d559949ea040ca06752485db5df971,2023-08-12 07:46:59,JustSong,docs: update README,False
+f2159e1033a655ce9476f2d704051cdba5f6cd4d,2023-08-12 07:44:13,wood chen,docs: update README (#374),False
+466005de07c668e620c2539a9c96230d2534102b,2023-08-12 07:35:25,JustSong,fix: set connection limits for database,False
+2b088a167855c49425add5ffc54b4d687e83cd01,2023-08-12 06:59:29,JustSong,"fix: disable eslint when building (close #371, close #376)",False
+3a18cebe3490a4a56207bf0dea1e54aaa90c2f84,2023-08-11 19:54:11,glzjin,"fix: update tiktoken-go's version to fix resource consumption problem (#392, close #161)",False
+cc36bf9c13e8e4f943c8ad71808f5dc0a90ac771,2023-08-11 17:25:19,JustSong,Merge branch 'main' of github.com:songquanpeng/one-api,True
+3b36608bbd47eadcd581e264a430290a287143c4,2023-08-11 17:23:01,JustSong,fix: update no route handler,False
+29fa94e7d28140f42bf49d95268f3c12f7c6a0ea,2023-08-11 16:57:42,Archer,docs: update FastGPT's description (#388),False
+9c436921d13181fae8abe7ba70df664f75e7d8a0,2023-08-06 20:48:05,JustSong,docs: update README,False
+463b0b3c5176b2c468847cfee7a1dd0a6c4bfe03,2023-08-06 19:58:07,JustSong,fix: no need to check turnstile when process deletion,False
+c3d85a28d4b61660c7d1841f54364b799e3e151c,2023-08-06 19:39:05,JustSong,chore: update i18n,False
+7422b0d051992af08118fde81bf2257da01cc5b3,2023-08-06 19:37:31,JustSong,chore: update prompt,False
+5a62357c9356dd35ab06b9f7282550e9803c11df,2023-08-06 19:32:58,Yolo°,"feat: add chat button for each token (#363)
+
+* fork
+
+* fork
+
+* chore: update style
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+b464e2907a1983a4702f852065f4fd46b123d1f2,2023-08-06 15:44:13,JustSong,chore: update domain,False
+d96cf2e84d5d54b9d0aab4fc642b093c3ce5c155,2023-08-06 15:39:00,JustSong,fix: fix stream mode determine related logic (close #360),False
+446337c329a2267fa1a7fd1f9125775e17cbb5f4,2023-08-06 15:10:31,glzjin,fix: calculate usage if not given in non-stream mode (#352),False
+1dfa190e7954a157890ec69c3648b7e9fc0d10c4,2023-08-06 11:26:59,Miniers,"feat: able to copy scheme of ama, opencat & chatgpt next web (#343)
+
+* Token Adds Option to Quickly Copy AMA and OpenCat URL Scheme
+
+* feat: add ChatGPT Next Web
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+2d49ca6a0708bd37909eced9627ebe3111f19dfb,2023-08-06 10:54:49,glzjin,fix: fix SparkDesk not billed (#344),False
+89bcaaf98983121645b057465cba3477b65cf7d1,2023-08-06 10:49:54,a497625414,"docs: update readme (#359)
+
+* update-deploy-on-sealos
+
+* update-deploy-on-sealos",False
+afcd1bd27b939bef31d70712ff2222c394fdfbf7,2023-08-02 16:41:21,a497625414,docs: update deploy-on-sealos (#351),False
+c2c455c9807f0d92f4b4c4ba956fef8cf5ff9145,2023-08-01 21:21:28,glzjin,"fix: fix zhipu streaming  (#349)
+
+* Fix #348
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+30a7f1a1c7a4a23cb157dedf066a74b81617b242,2023-07-30 19:54:07,JustSong,docs: update README,False
+c9d2e42a9e827d966721533f3acbe0c03d4432dc,2023-07-30 19:50:42,JustSong,fix: fix sse not ending properly in some case,False
+3fca6ff5349d0723f892ed8b5000eb6e336ac006,2023-07-30 10:14:41,ckt,"feat: support email domain whitelist (#337)
+
+* feat: support email domain restriction
+
+* fix(SMTPToken): disable password auto complete
+
+* chore: update implementation
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+8cbbeb784f03e8626c6d44138ba55073c6911b73,2023-07-30 09:33:06,JustSong,fix: ignore data if not have proper prefix,False
+ec88c0c24092b442ed9aef4d2c10c5d16eabb9ea,2023-07-29 21:24:09,JustSong,fix: prompt user that channel test is unavailable,False
+065147b440b075321cfaecfca356dae5d36e592a,2023-07-29 21:22:18,JustSong,fix: close connection when response ended,False
+fe8f216dd9da50050eb28fb469b7c823a9b7dec1,2023-07-29 20:02:05,JustSong,refactor: update billing related code,False
+b7d0616ae0a9b520700e9337c43b4de64600c9f7,2023-07-29 19:39:10,JustSong,chore: update title for xunfei,False
+ce9c8024a6b18bb9b1950da20d1fc6b5f6c2b3a7,2023-07-29 19:35:15,JustSong,chore: update prompt for xunfei,False
+8a866078b2d74af49f42a12565356e86c879aa8e,2023-07-29 19:25:57,JustSong,feat: support xunfei's llm (close #206),False
+3e81d8af45077751e93d127edef6dcc592b7fc5e,2023-07-29 17:20:29,JustSong,chore: update i18n,False
+b8cb86c2c16946bdffd8a07913af0060fa854b08,2023-07-29 17:02:06,JustSong,chore: adjust ui,False
+f45d586400cc9e489294d69b6327111b9aab2379,2023-07-29 16:47:26,JustSong,fix: fix model mapping cannot be deleted,False
+50dec03ff39f9a51fea4737484968172af7c23e3,2023-07-29 16:46:42,JustSong,fix: fix model mapping cannot be deleted,False
+f31d400b6fee13880a353ed3b1b1e8aa8b6cc124,2023-07-29 09:54:23,JustSong,chore: automatically add related models when switch type,False
+130e6bfd83eef5290410fbbd8df823e07c65c777,2023-07-29 09:45:07,JustSong,feat: support baidu's embedding model (close #324),False
+d1335ebc01b6080bcef2d2fbd5bfaacc38dff5c3,2023-07-28 21:17:36,JustSong,docs: update README,False
+e92da7928b4029c00666ae54b5d83af70860f6ce,2023-07-28 21:15:08,JustSong,feat: support ali's llm (close #326),False
+d1b6f492b6f13c4b1f3d63046b721f3677e876db,2023-07-27 21:02:00,JustSong,fix: convert system message to user message for zhipu,False
+b9f6461dd424cfb2e8f527e1947b8722a42fe513,2023-07-27 20:56:56,JustSong,fix: convert system message to user message for claude,False
+0a39521a3d77e6ddcf2f4bf62a652499f3c68184,2023-07-27 20:46:11,JustSong,fix: convert system message to user message (close #328),False
+c134604cee3fed967165ffe7f879a980cf235d1f,2023-07-24 21:04:14,JustSong,fix: use channel type to determine api type (close #321),False
+929e43ef817c40fda8e6008f3a2433cd6dccef07,2023-07-24 20:07:57,mrhaoji,"fix: baseURL not working in APITypePaLM (#317)
+
+* fix: baseURL not working in APITypePaLM
+
+* chore: use the same logic as claude
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+dce8bbe1cadf978a780cd42456faaf52195ce590,2023-07-24 19:58:16,mrhaoji,"fix: relay router typo for List models (#320)
+
+via: https://platform.openai.com/docs/api-reference/models/list",False
+bc2f48b1f290ceadcf3edfa99a48aeaedf3a0a3d,2023-07-23 20:53:56,JustSong,chore: send a notice to user indicating that the current channel type does not support testing,False
+889af8b2dbecfaa72999b4b3f46400a67d707c69,2023-07-23 17:04:23,JustSong,fix: fix redemption can be used multiple times in some cases,False
+4eea096654be1f53e217ec61189d479d2f89b4bc,2023-07-23 16:56:37,JustSong,chore: do not hardcode cache time (close #302),False
+4ab3211c0e912536ec40195a091cc23ef04f7184,2023-07-23 15:29:30,JustSong,fix: fix blank screen after refresh,False
+3da119efbafc9515b1b2b79e042d3baa7e0b5267,2023-07-23 12:48:58,JustSong,perf: reuse http client to reduce delay,False
+dccd66b852e902d141db05171bbfb6eca812fc64,2023-07-23 11:19:09,ckt,"feat: add access_until field for subscription api (#295)
+
+* 支持从计费渠道端点返回日期
+
+* fix: fix wrong git base
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+2fcd6852e0677462fbafcaee51be18aa8aeadfbd,2023-07-23 11:07:32,ckt,"feat: able to delete account by self (#294)
+
+* feat: support account deletion
+
+* chore: update style
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+9b4d1964d4ee9694a5b47bd75bb0757d5f302b78,2023-07-23 10:55:28,Yolo°,"chore: optimize frontend (#293)
+
+* main
+
+* chore: update style
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+806bf8241cb7d91fcd53472278586e34e6422884,2023-07-23 10:16:41,JustSong,chore: update prompts of channel config page,False
+ce93c9b6b2403321ea4939606b7e663cf6b00659,2023-07-23 09:50:42,JustSong,chore: adjust channel config page,False
+4ec428956547a4953e513303e10ae68f8912b470,2023-07-23 09:31:49,JustSong,docs: update README,False
+3dc5a0f91d842965ede4409b5d1dc15f2d44c5a5,2023-07-23 09:26:51,JustSong,docs: update README,False
+80a846673a85b7ad7f682cc8d754f85ac92e1e5b,2023-07-23 09:25:33,JustSong,docs: update README,False
+26c6719ea38179d4cc3160bba2337d7b77ad9bf7,2023-07-23 09:21:44,JustSong,feat: support zhipu's ChatGLM (close #289),False
+c87e05bfc2d46f98bc997f8c85e8b6c53a34a1d9,2023-07-23 07:19:46,JustSong,chore: add more context in error message,False
+e6938bd236528648b2db8a956fbf3e49307a911f,2023-07-22 22:28:14,JustSong,fix: fix PaLM2 not billed,False
+8f721d67a5f5cb3caaff20957241035f659719cb,2023-07-22 22:02:47,JustSong,feat: support Google PaLM2 (close #105),False
+fcc1e2d56874030698659d44cf06982e75f3c47f,2023-07-22 20:57:04,JustSong,chore: add notice for baidu,False
+9a1db61675136bf74cd0eba5ac49b0a6918d74f7,2023-07-22 20:54:09,JustSong,feat: support baidu's models now (close #286),False
+3c940113ab7719fa650265817ad3e051e7257b7d,2023-07-22 16:26:36,JustSong,fix: fix model editing now working properly (close #288),False
+0495b9a0d707a13dcd8ff5a743a93b3175c42e65,2023-07-22 15:45:30,JustSong,fix: using whitelist when disabling channels (close #292),False
+12a0e7105ec2c5f8c926d48912f4605237f475d0,2023-07-22 15:18:45,JustSong,refactor: refactor openai related code,False
+e628b643cd11feb5c428a8c28ee47812e045e644,2023-07-22 15:06:40,JustSong,refactor: refactor claude related code,False
+675847bf98588138138318272924876188413d86,2023-07-22 14:42:13,JustSong,refactor: refactor claude related code,False
+2ff15baf66e240bfb04c38a973a5961372554c78,2023-07-22 13:48:03,JustSong,feat: support claude now (close #150),False
+4139a7036fd8258875103aa681676dbf96a4c73d,2023-07-15 20:31:54,JustSong,chore: make subscription api compatible with official api,False
+02da0b51f88a8c33fb7b1c725e899bbd88cbddca,2023-07-15 16:37:38,JustSong,docs: update README,False
+35cfebee121a38b78f3dafc9793f85b068a75f5a,2023-07-15 16:36:51,JustSong,feat: retry on failed (close #112),False
+0e088f7c3e53943d7ff85a4e71717b75cebda5e3,2023-07-15 14:37:05,JustSong,feat: support ChatGLM2 (close #274),False
+f61d3267218bd7d6406559c1c24c0b2e1c59ab18,2023-07-15 13:36:01,JustSong,revert: do not enable turnstile check on login,False
+74b06b643ac6e3076e10bb6fb16ab1e4de47afb4,2023-07-15 11:22:26,JustSong,Merge branch 'main' of github.com:songquanpeng/one-api,True
+ccf7709e23ddf3edace65f0ec00458fa3ce58944,2023-07-15 11:21:46,JustSong,feat: support custom model now (close #276),False
+d592e2c8b81c52ab870147c11e6005cc8f4976d6,2023-07-15 10:11:21,ckt,feat: add turnstile for login form (#263),False
+b520b54625f30095aa15da3d1ad7bca2287ad3d3,2023-07-15 10:00:06,ckt,"feat: initial support of Dall-E (#148, #266)
+
+* feat: initial support of Dall-E
+
+* fix: fix N not timed
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>
+Co-authored-by: JustSong <39998050+songquanpeng@users.noreply.github.com>",False
+81c5901123b74553cfb004388d51779936c1afdb,2023-07-15 09:33:23,玩牛牛,"feat: add support for /v1/engines/text-embedding-ada-002/embeddings (#224, close #222)",False
+abc53cb208aac5546be811d6953c8ff6cad3035c,2023-07-15 09:19:58,JustSong,feat: disable channel when account_deactivated received (close #271),False
+2b17bb8dd721dc9f2e8909d9ffa91f609834434f,2023-07-12 20:20:02,ckt,"chore: update i18n (#262)
+
+* chore: 优化翻译
+
+* Update en.json",False
+ea73201b6f10116306cba14716dc23d6f752572a,2023-07-12 20:13:54,mrhaoji,"fix: restore display_name/username that deleted before (#268)
+
+which happend in commit # 3bab5b4",False
+6215d2e71c6bb904865514c49ac9759f3bba4458,2023-07-08 09:33:55,JustSong,docs: update README (close #257),False
+d17bdc40a7ce804fca49ad5e72588a68a19f5c35,2023-07-07 18:56:45,JustSong,fix: use transaction to protect redeem process,False
+280df277054585a732f3e635c00889abf400ebfc,2023-07-05 16:13:11,JustSong,docs: update README,False
+991f5bf4eebf4f9b013f6528b664d0d7de14b8e9,2023-07-04 18:54:49,JustSong,"fix: fix http2: invalid Connection request header: [\""upgrade\""]""",False
+701aaba19185420b759ca7887fc3f2ed7864c93e,2023-07-04 17:24:13,JustSong,feat: able to approximate token (close #207),False
+3bab5b48bfc3c71676f3456457de0e7ac345e103,2023-07-04 16:27:44,mrhaoji,"chore: remove email in UsersTable to make room for other fields (#246)
+
+* chore: remove email in UsersTable to make room for others
+
+* fix: fix not working properly
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+f3bccee3b59ed2e7f694da66dae749ba5f27d30d,2023-07-04 16:10:36,JustSong,chore: update channel add & edit page,False
+d84b0b0f5d48649fd68ba8df3b4f212106ccfaa9,2023-07-04 15:43:59,mrhaoji,"chore: add model parameter to the time_test script (#245)
+
+default value is gpt-3.5-turbo",False
+d383302e8ae10131e7539921e1530520404b516b,2023-07-03 18:13:42,Cross Fire,"feat: support balance query for CloseAI (#240)
+
+* 增加CloseAI余额查询功能
+
+* 去除debug代码
+
+* fix: bug fix
+
+* docs: update README
+
+---------
+
+Co-authored-by: sudongyang <sudongyang@xiaomi.com>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+04f40def2f6670a874ead0b7f5262c3b34a78f20,2023-07-03 17:21:12,JustSong,docs: update README,False
+c48b7bc0f5448f9a7e9a729850c5de0c783f9c1a,2023-07-03 17:20:17,JustSong,docs: update README,False
+b09daf5ec119bb898cb87ce285f7ee8f8bc65f8f,2023-07-03 07:12:34,quzard,chore: update countTokenMessages (#238),False
+c90c0ecef477d252b0dd06c60ff55faa50e06a21,2023-07-02 14:15:42,JustSong,chore: set the default token quota to 1$,False
+1ab5fb7d2d39e01a5146b3d99a13283189cdd07a,2023-07-02 14:05:40,JustSong,docs: update README,False
+f769711c192fd5f83bb6d74ac8d0bcbbef9be59f,2023-07-02 13:55:14,JustSong,docs: update README,False
+edc5156693a255672edde0d1bc82a9551774d834,2023-07-02 13:37:12,JustSong,chore: ignore FRONTEND_BASE_URL on master node,False
+9ec6506c32d679184a5b26442603846d7ea92c9f,2023-07-02 13:25:49,JustSong,fix: fix refresh not working properly (close #229),False
+f387cc5eadcf1b09adf327afcb177e90e17a8983,2023-07-02 12:27:10,JustSong,docs: update README,False
+569b68c43bf0f7b9f6d166f6e69816b60fd15e6e,2023-07-02 12:23:50,JustSong,docs: update README,False
+f0c40a6cd06171f258190c4e544407cf6064fa25,2023-07-02 12:17:06,JustSong,fix: fix cannot enable token if set to unlimited time (close #230),False
+0cea9e6a6f106ad7e2b620a0074ea9d0cacc298d,2023-06-29 19:16:13,JustSong,fix: fix channel search is not working with MySQL,False
+b1b3651e84a624266321425599c29a1b6ed92094,2023-06-29 19:04:17,Alone88,"feat: support channel type AIGC2D (#220)
+
+* feat: add AIGC2D Channel
+
+* chore: remove console logging & update balance rendering
+
+---------
+
+Co-authored-by: Alone88 <im@aloen88.cn>
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+8f6bd51f58fb9c539b14d92e9bf6f240ff2e0c4f,2023-06-29 18:52:23,JustSong,docs: update README,False
+bddbf57104dcb2fd3d9f8e92f6451fd086a19b94,2023-06-29 13:24:12,JustSong,fix: fix AutomaticDisableChannelEnabled option not ignored (close #217),False
+9a16b0f9e5b2d2888aa37857886e5cd868586deb,2023-06-29 09:09:43,JustSong,docs: update README,False
+3530309a311cfef887de389c7a5de071779565fa,2023-06-29 09:03:51,JustSong,docs: update issue templates,False
+733ebc067b9df82201dec0c89bb85e3fa5bef6d8,2023-06-29 09:03:02,JustSong,docs: update issue templates,False
+6a8567ac14e0e089e9ac7bb1b546a0347aac2b5e,2023-06-29 09:02:36,JustSong,docs: update issue templates,False
+aabc546691bd7a33ed9f2fa1f1dad9adeb3f2cba,2023-06-29 08:57:34,JustSong,fix: fix the wrong message when channel is deleted,False
+1c82b06f35f38dc6600c307968e06cdd6ef56087,2023-06-29 08:29:41,JustSong,docs: update README,False
+9e4109672aae4a74539c9454b623736bce528f96,2023-06-28 11:08:09,JustSong,docs: update README,False
+64c35334e656169cb9ccbcbf1af6530f5e303c8d,2023-06-28 10:49:01,JustSong,docs: update README,False
+0ce572b4051394a3e52411da40377adba404f573,2023-06-28 10:31:29,Archer,"docs: update README (#210)
+
+* deploy docs
+
+* docs: update README
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+a326ac4b28222d5aca3a5542c5fe6824968f71a3,2023-06-28 10:26:01,mrhaoji,"chore: more hints in model mapping textarea (#205)
+
+* chore: more hints in model mapping textarea
+
+* fix: fix variable not defined
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+05b0e7783924036ee23c1a54c2bff645314777ff,2023-06-27 21:06:12,JustSong,docs: update README,False
+51f19470bc12c52fc0be4869fa5796d2b6c0e092,2023-06-27 21:04:23,JustSong,fix: fix wrong env var name,False
+737672fb0bcb4f820a7c698e95ba884ed805ef65,2023-06-27 16:52:58,JustSong,fix: update cached user quota after post-consuming (close #204),False
+0941e294bf65207a3816f08bf1ac8bacd30d3687,2023-06-27 11:12:45,JustSong,feat: support model remap now,False
+431d505f79a42aa8de4cc3f5044c976f4b5427d7,2023-06-26 13:40:59,JustSong,refactor: do not use redis to store session,False
+f0dc7f3f06f816685884bf83a876b45c0dcdede8,2023-06-25 20:44:15,mrhaoji,"fix: InitChannelCache does not filter disabled channels (#201)
+
+* chore: Show the HTTP status code in the test_time script to determine the success or failure of the request.
+
+* fix: InitChannelCache does not filter disabled channels
+
+* chore: do not hardcode
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+99fed1f8507170a9d38d25521f4249de8bc6fc37,2023-06-25 20:28:16,mrhaoji,chore: show the HTTP status code in the test_time script to determine the success or failure of the request (#200),False
+4dc5388a80cebf7df09a2845759b65d513e3848a,2023-06-25 17:59:42,JustSong,chore: do not show completion ratio anymore,False
+f81f4c60b26d5666887cb8dae94afb686222810c,2023-06-25 12:44:52,JustSong,docs: update README,False
+c613d8b6b29c308f9834ceb44e1250f7fae80a95,2023-06-25 12:44:09,JustSong,docs: update README,False
+7adac1c09c8b30d4ccdf86d8b445776066ee83c0,2023-06-25 09:37:42,JustSong,chore: update default ratio for text-embedding-ada-002,False
+6f051283680c15243cd363bb6bd9298e12c5a2a0,2023-06-25 09:24:05,mrhaoji,chore: show equivalent amount next to remaining quota in the user editing page (#198),False
+9b178a28a3952b6aaa0671605ccbbf2de355865a,2023-06-25 09:16:23,JustSong,feat: support /v1/edits now (close #196),False
+4a6a7f463592f67b923d8025e736cdf1c7249431,2023-06-25 08:22:46,JustSong,chore: update the number that representing the unlimited quota,False
+6b1a24d650586bd500b06a2a7964b1572d5361b0,2023-06-25 08:10:54,JustSong,fix: check if token is nil before using it,False
+94ba3dd024022be9cf01c7181d24f2979c3c93b4,2023-06-25 08:09:22,JustSong,chore: billing api now will return a large number if unlimited quota is set,False
+f6eb4e56287a1cdb1e00bae299ea4f12e9b6477c,2023-06-25 07:55:33,JustSong,perf: validate the request first before send to OpenAI's server,False
+57bd907f83d669358bde3b18b895837f2b830a52,2023-06-25 07:29:58,JustSong,fix: do not record if used quota is zero,False
+dd8e8d5ee807d3f07c4b18e878ca82159ab3079b,2023-06-25 07:26:03,JustSong,fix: do not charge the user if the amount of tokens used was zero,False
+1ca1aa0cdc1d43bec7dc56b78bdd19d2ab455f16,2023-06-25 07:06:39,JustSong,fix: fix usage is not correct,False
+f2ba0c03002880273527910d861d01abaf45ef8f,2023-06-24 19:04:20,quzard,fix: fix log sorting (#195),False
+f5c1fcd3c3c9ddfe9fac0ad09b0eb6adfb103244,2023-06-24 17:15:18,JustSong,fix: do not reuse state variable directly,False
+5fdf670a194cd829b1bf54f4d1d333f6deca7e99,2023-06-24 17:02:46,JustSong,fix: reset page number after query,False
+3ce982d8eebbdd1f62aeb2f71a903423740d0bce,2023-06-24 16:43:33,JustSong,feat: able to query token with admin user,False
+a515f9284e3c47c0cb080cdcc29fffc781456565,2023-06-24 13:12:16,JustSong,chore: adjust table width,False
+cccf5e4a07638b5ad25f2523389b5999e22b418e,2023-06-24 12:58:11,JustSong,feat: able to query logs now (close #144),False
+b0bfb9c9a11a1cc893104705c26afca96add1253,2023-06-24 12:14:34,JustSong,chore: update en.json,False
+3aff61a973f50ee055ef14a0d300dd2047df969a,2023-06-24 11:49:50,JustSong,chore: update completion ratio for GPT-3,False
+0fd1ff4d9ee2eabb557136472d1f61782cbbc1bc,2023-06-24 09:56:38,JustSong,chore: update translations,False
+e2777bf73ececefab0662624ea359786d128390d,2023-06-24 09:48:25,JustSong,chore: update translations,False
+77a16e64150630c3ca72f03633daf59337161b20,2023-06-24 09:04:33,JustSong,docs: update README,False
+827942c8a9a1f2aae71fd13f6dee9495da50c601,2023-06-24 09:00:16,JustSong,docs: update README,False
+604ff20541ecaae8a113a1efb7932322a805aa99,2023-06-24 08:47:46,JustSong,chore: fix translation,False
+25017219f5383f90d08c961bb81d919e2f4c38dc,2023-06-24 08:15:37,JustSong,ci: fix GitHub Actions config,False
+2dd4ad0e067905a5b4093565133258eb446c47e8,2023-06-24 07:52:13,JustSong,chore: update en.json,False
+61dc117da7e8aadc0b9b1a928f56bb4fe63af0dd,2023-06-24 07:42:34,JustSong,ci: rename GitHub Actions file,False
+f55647278c94877fe9e58e6ea1265a18c60b77cc,2023-06-24 07:39:42,JustSong,fix: remove tqdm dependency,False
+03c05bdb5fee113d7277d00c43caa2e3434253d9,2023-06-24 07:37:49,JustSong,feat: add English support,False
+aeb1cad67957c05fcbe2648a43847fa4c24ebdc0,2023-06-23 21:49:39,JustSong,docs: update README,False
+8a4cd403fd009d3c74aa38df105a165426dfe1b6,2023-06-23 20:29:44,JustSong,fix: fix http status code (close #193),False
+9ac5410d06a0017ccf38dbc95d166c8995c3734e,2023-06-23 19:12:31,JustSong,feat: show used quota in token table,False
+7edc2b53762dcf5d63878864e3d9842926481812,2023-06-23 17:44:53,JustSong,feat: able to display token billing stat via billing api (close #186),False
+d4869dfad21bd3b4dd5da77a5fcf61f1d639c29c,2023-06-23 08:12:47,JustSong,chore: use notice to show password (#107),False
+4463224f0494f573e28f646fc24a5d76e16294aa,2023-06-22 19:31:03,JustSong,"feat: support automatic channel testing & balance updates (close #11, close #59)",False
+ad1049b0cfe9a9abef171a2f6308f6296d186d69,2023-06-22 18:49:43,JustSong,feat: support search channels by key (close #185),False
+d0c454c78e30b5fcf6be4bc4ca59650a60e12518,2023-06-22 18:23:21,JustSong,chore: able to clear all models now,False
+fe135fd5081830b36357e740037b0099912e80b1,2023-06-22 18:19:55,JustSong,chore: update base url setting,False
+b090e50f722d1123b74552b5537bf940acf2abbe,2023-06-22 18:09:17,JustSong,chore: use NODE_TYPE to determine node type,False
+7497f24daa85366e6df456dc3de27ca9f6e7584e,2023-06-22 17:49:30,JustSong,docs: update README,False
+28fb4d76affd9577c935801c4f88b754e9e21df8,2023-06-22 17:42:43,JustSong,fix: disable redis on master node,False
+ca779e4ffa05ed545ae8d417412848b2c36a1fc0,2023-06-22 17:23:28,mrhaoji,"fix: fix time_test.sh (#191)
+
+* Update time_test.sh to fix the params
+
+修复测试脚本入参问题
+
+* Update time_test.sh to fix the params",False
+f51c98243715fc5f6982f08ab89f3636fc919567,2023-06-22 17:06:54,JustSong,fix: update time_test.sh,False
+36e681e87846cf242bc5f7ff41e4b9294831bffd,2023-06-22 16:55:27,JustSong,chore: update time_test.sh,False
+75cd522c2c73fcf017a696b86556cce868791148,2023-06-22 16:44:45,JustSong,chore: add time_test.sh,False
+c893d046670be0d9ec7b2274483366650ec7b03d,2023-06-22 12:19:33,mrhaoji,"chore: update docker-compose.yml (#189)
+
+去除 Redis 服务的 ports 配置，只允许 Docker Compose 启动的服务才可以访问Redis，不会暴露到宿主机上也不会和宿主机产生端口冲突；同时也提升安全性。",False
+c6717307d0e0ef0e97a4c918a6b2d263732107d2,2023-06-22 09:07:44,JustSong,chore: update one-api.service,False
+97cdb616cd6a142ce257ebd1e2e6aadddb7ed730,2023-06-22 08:47:42,JustSong,docs: update README,False
+76a3913115dc9789f25ca3e7303e87b17619770c,2023-06-22 08:45:01,JustSong,chore: update docker-compose.yml,False
+00151a01246f6390b21eae45abf242ad97de16b3,2023-06-22 08:29:01,JustSong,chore: format logs,False
+b86de464b5b78e0292c9da8edd61f83c224fce6e,2023-06-21 22:42:28,JustSong,chore: print more logs,False
+567916bd8055bd6a5af2c7e3c23e96886cad39eb,2023-06-21 22:22:27,JustSong,fix: only master node can migrate database,False
+1f3b3ca7aea7413f893318e8231dcdbd024697db,2023-06-21 21:12:55,quzard,fix: fix channel table's sorting problem (#188),False
+70cffbc258f9148e66b9de59dcac723939812ee0,2023-06-21 15:21:31,JustSong,docs: update README,False
+6d961064d20e93a3eb30f2b560c5196f7a793bdf,2023-06-21 14:56:26,JustSong,feat: do not access database before response return (close #158),False
+ba54c71948b765866da0de918db6cd5af7c39866,2023-06-21 14:34:18,JustSong,feat: select channel without database (#158),False
+1932c56ea87b770c0677bb50963b60fdc5bd6790,2023-06-21 13:52:56,JustSong,ci: ignore alpha version,False
+dc7bb78c740a1a86a745508f4ef0ace332f98117,2023-06-21 13:25:00,JustSong,chore: update api message,False
+853a288052d020c78092b79150483bf4bde2a8fd,2023-06-21 13:24:06,JustSong,chore: update api message,False
+6536a7be62c51074421ceecb09728abb1f42bcca,2023-06-21 13:15:30,JustSong,fix: do not show dollar balance if not enabled,False
+1b5c628e66eb7f9beca65ba645b315c25942871c,2023-06-20 21:50:48,JustSong,chore: update prompt,False
+e398f470a19bc13a5167cce6951ca79a6c1779fc,2023-06-20 20:02:56,JustSong,feat: support custom base url for channels,False
+634099e59225827df0ce4b7c5871eb23084835cf,2023-06-20 19:34:01,JustSong,fix: cors allow all headers,False
+868f0474a9d72d57e583d49dafa6ced58654a755,2023-06-20 18:44:24,JustSong,docs: update README,False
+ced9f060c7d1f1f4544f5535f4a1e61eabeba5ff,2023-06-20 18:35:07,JustSong,fix: fix used amount not correct,False
+14b85318a6390b42cb28798682e569cd1905c17b,2023-06-20 18:26:35,JustSong,fix: fix crash when Redis is enabled,False
+b179c2f208590bc24158dbd0fcf69a135db517ef,2023-06-20 17:39:17,JustSong,feat: able to display quota in dollar,False
+3d76a974d186b99eb70d58bc00b5380bf12e27bd,2023-06-20 16:39:49,JustSong,feat: use cache to avoid database access (#158),False
+4250064296909f49832cdd3d09cda8304a61f5ca,2023-06-19 13:50:08,JustSong,docs: update README,False
+868d9a87d29d7fc9b501f990eb15012bf07caac7,2023-06-19 13:34:35,JustSong,chore: update description,False
+33846ce4f6de308bbd9733495ddff1df0fd6481a,2023-06-19 12:30:22,JustSong,refactor: rename function,False
+e5ac80c15d057ea04b4ba253d32f9f932c3071dc,2023-06-19 08:34:17,JustSong,docs: update README,False
+9291b5fb2098ccb0ecd4acc75b706151441ea307,2023-06-19 08:26:54,JustSong,docs: update README,False
+d97f1df3c9532939b6bdabc864e0145b7de9e619,2023-06-19 08:25:38,JustSong,docs: update README,False
+f0434c810c9b5d9ded5ed601edc3a5aa0c42c180,2023-06-19 08:23:32,JustSong,docs: update README,False
+f6fe34676fdb99fbad473d52e7a77954fc8c52c3,2023-06-19 07:58:55,JustSong,refactor: split the relay controller,False
+5c18c559c3a0ee946f7e6e83538896933ff48286,2023-06-19 07:34:38,JustSong,chore: make the user unable to search token by id,False
+75545a1f47147f0f9520307bbdfb069e21986360,2023-06-19 07:23:56,JustSong,refactor: make operation settings separated from system settings,False
+72ea805f842ba42389db9f12b776687ffdd8feb4,2023-06-19 06:43:38,JustSong,chore: hide token id for user,False
+0e35050b8b1020bb167c72d44b579287c719171e,2023-06-19 06:40:37,JustSong,docs: update README,False
+24a4b323eb4e636a64f4425ce59cab49647622f1,2023-06-18 19:58:28,JustSong,chore: set the fallback model ratio to 30,False
+aa0a9f2262327910e3c593524d1ab12079aaea20,2023-06-18 19:37:40,JustSong,fix: fix wrong field name in SQL,False
+4010164db1747fd9bab6d70cd2e8a860c1a72a50,2023-06-18 19:33:23,JustSong,docs: update README,False
+dc94765d3291faf0e168ecb49c562840ce4799b0,2023-06-17 21:52:22,JustSong,fix: do not print response to console,False
+1cb1f727c0edfdddcbfb613793ad03ee15fb4e5f,2023-06-17 21:50:06,JustSong,fix: fix the shared field  is modified,False
+d97640374c8a248484cf243b332a0a18d2e9982b,2023-06-17 21:21:56,JustSong,feat: able to add chat page link now (close #70),False
+ba89abedf040a3227e72284998bd3b7651aa1992,2023-06-17 20:48:27,JustSong,docs: update README,False
+a680b1b8b7923ab0a14f432473304f48e85af039,2023-06-17 20:27:46,JustSong,docs: update issue template,False
+b3b7d0a0eaa6dde52878b00ebb9e9376ed3df1cd,2023-06-17 20:26:12,JustSong,docs: update README,False
+8e805e23bc8b048b53cc76592f56bb3001c11519,2023-06-17 17:03:25,JustSong,chore: update prompt,False
+bcbfacc04a885db3beee1801255cafe2cad71f63,2023-06-17 16:53:25,JustSong,fix: reduce the table size (close #174),False
+5531e215261ff819a39b6d1019566824be3a2e23,2023-06-17 16:38:13,JustSong,docs: update README (close #175),False
+c5837c3bb735dc5747987d2bff135a0e318af866,2023-06-17 15:42:58,JustSong,feat: support aff now (close #75),False
+eb70b84665ccc9ab140651a64e76530a96e701ac,2023-06-17 13:24:14,JustSong,chore: update api endpoint for CloseAI,False
+a909972313684274b1cb9937b70a54376e0e7744,2023-06-17 13:14:04,JustSong,fix: limit the length of email,False
+6855d0dc3916fcc8cf7b888df199a82345f8da6c,2023-06-17 13:00:14,JustSong,chore: add x-requested-with header in CORS setting,False
+a43b1e2add1c8ae417a84b19780b8195e788d9f9,2023-06-17 12:50:51,Kidultx,"feat: support API2GPT platform (#173)
+
+* support API2GPT platform
+
+* chore: update balance renderer
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+46c43396d8f8c23ad2c3f2f5a669475ea7a3794c,2023-06-17 12:26:03,Miniers,"feat: add token name to log (#172)
+
+* add token name to log
+
+* chore: update expression
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+6dcffca06521f03d97e3002616fe51e5195a2fd8,2023-06-17 10:25:48,JustSong,docs: update README,False
+d754620ef7eb98855456d2d8103766ed20ebf1e6,2023-06-17 09:37:58,JustSong,docs: update README,False
+21111126a298055b9f60c37f75194e4b64bb7a55,2023-06-17 09:00:31,JustSong,docs: update README,False
+d91e7dcfdcb28fb84e852fe06312337142020f05,2023-06-17 08:54:32,JustSong,docs: update README,False
+d79289ccdd1f49bc2e66b756bdd968ffc6615a4e,2023-06-17 08:33:01,JustSong,fix: fix footer not updated asap,False
+f89f6c7fa6e4ffc9080b4396c95647bc4de364a9,2023-06-17 07:49:13,Leslie Leung,"docs: deploy to Zeabur (#170)
+
+* docs: deploy to Zeabur
+
+* docs: deploy to Zeabur
+
+* docs: deploy to Zeabur
+
+* docs: update README
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+b7d71b4f0aef9e9f68c0e3a2dd709bd0ec0c2f67,2023-06-17 07:38:04,Joe,"feat: support update AIProxy balance (#171)
+
+* Add: support update AIProxy balance
+
+* fix auth header
+
+* chore: update balance renderer
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+70ed126ccb8a58fa00c73544198180c1354e1872,2023-06-17 07:16:07,JustSong,feat: return a not found response if requested a wrong API endpoints,False
+57b213a0359bb2bd29755219e3d8241b03f7ffd2,2023-06-16 14:10:54,JustSong,docs: update README,False
+549e944b95a1ac0aba088d8fa5d8dedbe4c3b8cc,2023-06-16 14:10:07,JustSong,docs: update README,False
+0cdab80a6e05441d265646d297f22d22da4a4aeb,2023-06-16 13:32:00,JustSong,feat: record channel's used quota (close #137),False
+760183a97026a9b40aa4288da702c016bb554e9d,2023-06-16 12:50:06,JustSong,"feat: record used quota & request count (close #102, #165)",False
+58fb18aaceccfdcbaf7aa9d247958a382f4c6f47,2023-06-16 11:54:16,JustSong,fix: do not record completion ratio anymore,False
+630156dc0a937396e81a3be92ae64a73f235240e,2023-06-16 11:50:25,张城铭,"fix: the prompt field can be array type now (close #166, #167)
+
+* fix: the prompt field can be array type now (close #166)
+
+* fix: fix prompt type
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+5f23f59d1c38b2ff62256b5ea923a30e455b9bc1,2023-06-15 21:54:38,JustSong,docs: update notice,False
+538a5d7a9b9abf5af066368860888644ff0e5033,2023-06-15 19:21:30,JustSong,docs: update issue template (#164),False
+593e1926e927e84e6db7626f5d084283911cd27f,2023-06-15 14:02:16,JustSong,feat: able to disable quota consumption recording (close #156),False
+e87ad1f40280e7bbd18ed880bb6d8a1965878dca,2023-06-14 14:03:03,quzard,chore: remove -0613 suffix for Azure (#163),False
+07cccdc8c07ee717def97d3094150457044089e8,2023-06-14 12:43:05,JustSong,docs: update issue template,False
+f71f01662c04ec9f641426b853a5bc5210841adc,2023-06-14 12:33:51,JustSong,docs: update issue template,False
+54d7a1c2e80d0453286373cc986a09e0107af97a,2023-06-14 12:32:36,JustSong,docs: update issue template,False
+f426f31bd77fbc7169e0d7dc118f1dea9c32012d,2023-06-14 12:29:24,JustSong,docs: update issue template,False
+2930577cd63b0ae3bc12aa0f3a8d54b6c0ce64fe,2023-06-14 12:21:48,JustSong,docs: update issue template,False
+e09512177a4fe50a98dde247a6023e5f00c3ac12,2023-06-14 12:18:31,JustSong,docs: add issue templates,False
+d6dbaff3c2704192ef66065d471dcd1223975870,2023-06-14 10:22:56,JustSong,fix: fix file not committed,False
+7f9577a3862b4d93eb4bd85badd6928e0c07d66a,2023-06-14 09:44:08,JustSong,feat: now one channel can belong to multiple groups (close #153),False
+38668e73311f0bb85a1080b7dad0565eac56f27e,2023-06-14 07:11:06,JustSong,chore: update gpt3.5 completion ratio,False
+323f3d263a44a7fcae8ab8db5af23a95f529bc91,2023-06-14 06:42:14,JustSong,feat: add new released models,False
+0c34ed4c61e1729cd481cae6c545737ec8ce7614,2023-06-13 15:15:01,JustSong,docs: update README,False
+7c7eb6b7ece0865a94fb563de7376fe7d3e11940,2023-06-12 13:41:57,JustSong,fix: now the input field can be array type now (close #149),False
+8b2ef666efe51f4e455044a1977a74f034a531c0,2023-06-12 07:10:49,JustSong,fix: fix OpenAI-SB balance not correct,False
+955d5f8707f4d0886fe4e26904464e4d6c13e588,2023-06-12 06:41:48,JustSong,fix: fix group list not correct (close #147),False
+47ca449e327f66a78ade36ddd3a3ddf48f9da6c4,2023-06-11 18:34:41,quzard,"feat: add support for updating balance of channel typpe OpenAI-SB (#146, close #125)
+
+* Add support for updating channel balance in OpenAISB
+
+* fix: handel error
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+39481eb6c0e2fccd47479acedee7ccedfd265e33,2023-06-11 14:03:40,JustSong,chore: add trailing slash for API calling,False
+69153e72315ae14a1039f5cf0ee6dca2feb90831,2023-06-11 10:07:15,JustSong,docs: update README,False
+cdef10cad86db93780c2c999d5bc358f88a2b62e,2023-06-11 08:41:47,JustSong,docs: update README,False
+077853416dfda5fa0d1de3fa0a382cfe3ad52f3e,2023-06-11 08:41:19,JustSong,chore: record ratio detail in log,False
+596446dba4a0a0e0fe8dc34f36883188c75f4374,2023-06-11 08:38:16,JustSong,"feat: able to set group ratio now (close #62, close #142)",False
+9d0bec83dfbadd3917c0e37c8caa23fd59458b75,2023-06-11 07:25:50,JustSong,chore: update prompt,False
+f97a9ce597650d01c95353eabfde9f61c9e3d77a,2023-06-11 07:19:57,JustSong,fix: correct OpenAI error code's type,False
+4339f45f747bfb19cb2d36e0f603ab64afeb383a,2023-06-11 07:07:36,JustSong,feat: support /v1/moderations now (close #117),False
+e398e0756b34ec9588df9dc8fb48d270ae1e8cb8,2023-06-10 18:13:32,JustSong,docs: update README,False
+64db39320a7e81c385ed8c466b01795321f14408,2023-06-10 18:10:23,JustSong,feat: now able to check all user's log,False
+0b4bf30908734387319bf7f3427eaf421c5a0620,2023-06-10 14:04:14,JustSong,docs: update README,False
+d29c2730737544059600a835262322f8d938d6ca,2023-06-10 14:01:40,JustSong,chore: add more log types,False
+74f508e847cf270a65350bdcc256c47269287daf,2023-06-10 13:34:04,JustSong,"feat: now user can check its topup & consume history (close #78, close #95)",False
+145bb14cb27beadff23475e673aba6803b5c1763,2023-06-09 16:27:27,JustSong,fix: fix not using proxy when update balance,False
+8901f03864097c95a0107f8e3c31e42056a4812d,2023-06-09 16:00:01,JustSong,feat: support set proxy for channel OpenAI (close #139),False
+813bf0bd66cb2149e0f84426ef1ad7858f52e2c7,2023-06-09 15:35:51,JustSong,refactor: enable model configuration on default group (close #143),False
+45e9fd66e772ecfe9ce09e7914523be66dcf5fe9,2023-06-09 14:29:00,JustSong,"feat: able to check topup history & consumption history (#78, #95)",False
+e0d0674f811a8e030f89bc0407c740009b3307b7,2023-06-08 12:49:55,JustSong,fix: fix redemption code's quota not updated,False
+4b6adaec0b5e7a85260b87f2bee0a71094cc2226,2023-06-08 12:24:02,JustSong,feat: support /v1/completions (close #115),False
+9301b3fed310629df055dd0c30844d3e715cb546,2023-06-08 11:39:39,JustSong,chore: update test logic,False
+c6edb78ac9b5e1262c4dfbbc6fa1b9023c6f5ff9,2023-06-08 07:14:47,JustSong,docs: update README,False
+521ede24696e4b161098675a502393f2935652cf,2023-06-08 06:58:06,JustSong,fix: able to manage root user now,False
+2c53424db8676baad8d71b758c799a84f7940f0c,2023-06-08 06:56:54,JustSong,feat: able to manage group now,False
+2ad22e14256264f0787f5c82d7b5409d431a2d63,2023-06-07 20:56:00,JustSong,"feat: support group now (close #17, close #72, close #85, close #104, close #136)
+
+Co-authored-by: quzard <1191890118@qq.com>",False
+502515bbbd127ae46a37090628fb7266b0bed1bd,2023-06-07 13:01:18,JustSong,docs: update README,False
+1e1c6a828f0d14b921fd0946916b0ec344719509,2023-06-03 08:39:14,JustSong,fix: prompt user the feat is not implemented (#125),False
+2847a08852634c146ff4292b95d80fddb2646c93,2023-06-03 08:23:25,JustSong,feat: the format of key is now constant with that of OpenAI,False
+98f1a627f0709a38c779dfb10037ef77bbc998ad,2023-06-03 07:47:52,JustSong,fix: fix balance query (close #138),False
+333e4216d282188fe9a7fe08c8b503f8cf26dce7,2023-06-03 07:41:59,JustSong,fix: fix balance query (close #138),False
+7e80e2da3a9e38ea9d19a8eacd3109135a8a7201,2023-06-02 11:50:40,zaunist,fix: add a blank VERSION file (#135),False
+139624b8a448acabae33b0bc4a75b46cef2f627b,2023-06-02 10:43:36,dependabot[bot],"chore: bump github.com/gin-gonic/gin from 1.9.0 to 1.9.1 (#134)
+
+Bumps [github.com/gin-gonic/gin](https://github.com/gin-gonic/gin) from 1.9.0 to 1.9.1.
+- [Release notes](https://github.com/gin-gonic/gin/releases)
+- [Changelog](https://github.com/gin-gonic/gin/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/gin-gonic/gin/compare/v1.9.0...v1.9.1)
+
+---
+updated-dependencies:
+- dependency-name: github.com/gin-gonic/gin
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2f44aaa645f7705f5cf78a503acfb38d82272570,2023-06-01 15:45:53,JustSong,chore: update config prompt (close #133),False
+0f6958c57a08d9676e45186443fe22967373b817,2023-05-31 13:21:31,quzard,fix: update common.RootUserEmail when root's email changed (#132),False
+5f045f8cf546d1ed927b413c038d5cbc9a95466f,2023-05-31 13:07:59,quzard,"fix: update docker-compose.yml (#131)
+
+使用相对路径，更通用",False
+f19ee0535158fef38adba1f4e0c0c7605450ebc5,2023-05-31 12:54:40,quzard,fix: fetch root user's email if blank (#129),False
+fa71daa8a7b0349dcee4416311bae8ac4054000a,2023-05-31 12:13:29,JustSong,fix: fix wrong implementation for /v1/models (close #128),False
+54215dc3035773bbdbe64d87e2e6f2926f96cae6,2023-05-23 07:31:09,JustSong,chore: make channel test related code separated,False
+f9f42997b2176558ac033407c822d853485bb779,2023-05-23 07:30:36,JustSong,chore: only check OpenAI channel & custom channel,False
+25eab0b2245f6b33c1db0868e106709400eb3bb1,2023-05-22 20:11:39,JustSong,style: fix UI related problems,False
+34bce5b4644a80f967613b8b1deebd3c1acb5e60,2023-05-22 20:00:11,JustSong,style: add positive attribute to submit buttons (close #113),False
+d4794fc0519600eb274f7728067e3ecacf30562b,2023-05-22 14:40:31,JustSong,feat: return user's quota with billing api (close #92),False
+8b43e0dd3f254aa7ddc1c065a1167d4155d9d10b,2023-05-21 22:24:53,JustSong,fix: add no-cache for index.html,False
+92c88fa273a4b55cf5a172a7b512cb6a848bb75a,2023-05-21 22:14:27,JustSong,fix: remove no-store for index.html,False
+38191d55be24627afbe9ae9c564dc0e96d8b8f25,2023-05-21 22:09:24,JustSong,fix: do not cache index.html,False
+d9e39f5906d2da71102e85bc4ead78f0a182deb5,2023-05-21 18:28:00,JustSong,fix: disable channel with a whitelist,False
+17b7646c12f281902b8cb4813ff17b0b8926bf76,2023-05-21 17:40:06,JustSong,fix: fix unable to update custom channel's balance,False
+171b8185041479d9530bbacb69ce8bfc430bb027,2023-05-21 13:39:54,JustSong,feat: support channel remain quota query (close #79),False
+bcca0cc0bc5e116daecbdf19fe49df724b67d027,2023-05-21 11:56:59,JustSong,feat: PaLM support is WIP (#105),False
+b92ec5e54c6274787132b10fa75ed6a5688d0a71,2023-05-21 08:52:28,JustSong,fix: show bind options only available (close #65),False
+fa79e8b7a366f102968bd73d875e54f6540c20bc,2023-05-21 08:41:19,JustSong,fix: use gpt-3.5's encoder if not found (close #110),False
+1cc7c20183ccc445113370e8a3aee9ec8b0a67ae,2023-05-21 08:02:47,JustSong,chore: prompt user if redemption code not input,False
+2eee97e9b6da95f2ddf631c8acb9334eee68758e,2023-05-21 07:45:30,JustSong,style: add comma to quota stat,False
+a3a1b612b0d31688979c59c2896e00dfbcd41781,2023-05-21 07:35:34,JustSong,chore: set initial quota for root user,False
+61e682ca472a64c89f60dc65d6f717b3809ce88c,2023-05-21 07:31:02,JustSong,feat: able to manage user's quota now,False
+b3839831063a918111968831e749a66eb1b038bf,2023-05-21 06:48:23,JustSong,docs: update README,False
+cfd587117edea249b5b9f4c22776dc0c0438af0f,2023-05-20 14:54:56,JustSong,feat: support channel AI Proxy now,False
+ef9dca28f533a657e938c67fb1d351fe1c683575,2023-05-19 19:43:29,JustSong,chore: set default value for Azure's api version if not set,False
+741c0b9c1855cb84c07777da107d0a1b59df5faa,2023-05-19 13:28:01,JustSong,docs: update README (#103),False
+3711f4a7412cb8a3d8e8e1dc484edf767d52c4c5,2023-05-19 08:37:17,JustSong,feat: support channel ai.ls now (close #99),False
+7c6bf3e97b32589f4964319cab99b2e8c5bd0c96,2023-05-19 07:11:26,quzard,"fix: make the token number calculation more accurate (#101)
+
+* Make token calculation more accurate.
+
+* fix: make the token number calculation more accurate
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+481ba41fbd4ed1f82edd9d9bddc382d9f3343cf7,2023-05-18 15:43:57,JustSong,docs: update README,False
+2779d6629c563f7ace06a49d384a72c8e68c3dde,2023-05-18 14:46:34,JustSong,fix: add X-Accel-Buffering header on SSE response,False
+e509899dafb62c68fb79e2ace8665c79f3915db3,2023-05-18 13:48:45,JustSong,docs: update README (close #97),False
+b53cdbaf053153fb524ae501a141ea5951c61a98,2023-05-18 13:27:40,JustSong,docs: update README,False
+ced89398a5abb74d7a53544ae3b9daa00c71da12,2023-05-18 12:57:15,JustSong,chore: rewrite 429 prompt text (close #96),False
+09c2e3bceca64148d3fe0cee64dcbc44547345f9,2023-05-18 10:20:47,JustSong,docs: fix typo,False
+5cba800fa6c06dabe3d3e473c726fa3db118591b,2023-05-18 10:20:19,JustSong,docs: fix typo,False
+2d39a135f26409e13e068845d4069267e8c03dbd,2023-05-18 10:18:20,JustSong,feat: now slave server can sync options with master server (close #88),False
+3c6834a79cbc38290d1b7b1ada76883435cec581,2023-05-18 09:56:18,JustSong,feat: support redirecting frontend url now (close #89),False
+6da3410823f482578af00ca1bc7859534e9c5117,2023-05-18 09:11:03,JustSong,fix: fix channel test error checking,False
+ceb289cb4d7cd0fda4a2a44e9002ffb6051da939,2023-05-18 08:41:15,JustSong,fix: handel error response from server correctly (close #90),False
+6f8cc712b072c5c6728fe973a27897be84158a4d,2023-05-17 20:56:30,JustSong,docs: update README,False
+ad01e1f3b3423c9f7f66782736f83eecfacded15,2023-05-17 17:50:48,JustSong,fix: fix error log not recorded (close #83),False
+cc1ef2ffd51c026b0129f80a44117dbcba39f38a,2023-05-17 17:40:09,JustSong,fix: fix stream mode checking (#83),False
+7201bd1c97e69d8e0b06843a669dcf8c5219339c,2023-05-17 16:17:25,JustSong,fix: update api2d's base url (#83),False
+73d5e0f283f54675605e12c45b676e509b424bcc,2023-05-17 14:34:06,JustSong,feat: support dummy sk- prefix for token (#82),False
+efc744ca35c930577f5845dfdd65375ccf5012b8,2023-05-17 08:12:52,JustSong,feat: API `/models` & `/models/:model` implemented (close #68),False
+e8da98139f7264df80117ccdcc8d013760325674,2023-05-16 19:03:59,JustSong,fix: limit the shown text's length (close #80),False
+519cb030f7bbf24e60d089d418066d4e33ae505a,2023-05-16 13:53:07,JustSong,chore: update input label,False
+58fe923c85ea1326dc434270bf7dcd023d5dd75c,2023-05-16 13:52:25,JustSong,perf: use max_tokens to reduce token consuming,False
+c9ac5e391ff0b5885e23d89158edea5c45dd15ad,2023-05-16 13:48:35,JustSong,feat: support max_tokens now (#52),False
+69cf1de7bd9d881229a8e7a90d1b0f6306e293a2,2023-05-16 13:08:03,JustSong,feat: disable operations for root user (close #76),False
+4d6172a24257fa1529a8cbd694583d8759ffffe3,2023-05-16 11:27:01,JustSong,feat: able to set pre consumed quota now,False
+8afdc56b11987c79f659c56d932979468e976706,2023-05-16 10:59:22,JustSong,fix: fix quota not consuming,False
+a9ea1d9d108c458cb3291c9791a5cfbd495e7a13,2023-05-16 09:39:33,JustSong,fix: fix topup page now showing,False
+ea8e7c517bd94620d369212671c3c16dfb76b332,2023-05-16 09:39:17,JustSong,fix: fix token quota not updated,False
+d1e9b86f050343c3c46504ac1b5d8cea5b0f5253,2023-05-16 09:28:26,JustSong,chore: update prompt,False
+6d1e5cb5dcede8da29ffd16ccfbe2d49f7ae7acb,2023-05-16 09:06:00,JustSong,feat: add database migration script,False
+01abed0a3028d49d5184b6e65ea4d6cd4799c515,2023-05-16 08:56:09,JustSong,"refactor: bind quota to account instead of token (close #64, #31)",False
+7c56a36a1cec124d715bce50b978f434df3e4b99,2023-05-16 08:38:41,JustSong,feat: show users' remaining quota in user management page (close #46),False
+c48327ff91dee52e149515f11db2c14da9769ea3,2023-05-16 07:34:39,JustSong,fix: fix option update logic not working properly,False
+a5406c6963ec9c9f09833e2842df2090ad485948,2023-05-15 18:45:21,JustSong,fix: fix tab icon & title not changed (close #69),False
+a1f61384c557da7855897bf9ae405f1e88e96945,2023-05-15 15:04:09,JustSong,feat: automatically disable channel when error occurred (#59),False
+44ebae1559dd9e7665ebb9418c607f451494c7f9,2023-05-15 13:50:01,JustSong,feat: add refresh button,False
+aae92683d765e516ef20083b3f963568e7cf2527,2023-05-15 13:49:39,JustSong,fix: fix lock is not working,False
+cc3072c4df6879c271f1e3bb2e3c606b21cce4a0,2023-05-15 13:18:18,JustSong,fix: remove version suffix for Azure (close #67),False
+bffee4e91d1d4a886a8b559475d6ee22012df065,2023-05-15 13:03:34,JustSong,fix: fix /v1/models not working (close #66),False
+79dc53ff0de69be1fa9b9e10761bff8a5e555541,2023-05-15 12:44:33,JustSong,ci: build arm version,False
+68e53d3e1098c25d85359e898a697d10c372a93d,2023-05-15 10:26:28,JustSong,chore: only show two digits,False
+d267211ee7a6ede02455ca96e99df924ae43bd17,2023-05-15 10:06:55,JustSong,feat: able to test all enabled channels (#59),False
+570b3bc71c7221ef8d8f834d14985bd871fc8ee0,2023-05-15 09:06:50,JustSong,ci: remove arm64 image builder,False
+225176aae9169a744ca6ddb596f08a82254a64f9,2023-05-15 09:05:38,JustSong,feat: save response time & test time (#59),False
+443a22b75d43d8e7e4fd1bf944accf73dd6dec82,2023-05-15 08:18:52,JustSong,feat: able to test channels now (#59),False
+b44f0519a04a5fc9384ff98e554e57fcb9a82b26,2023-05-15 08:11:48,JustSong,feat: double check before deletion,False
+4a0e81fe833301027ea2bf44cb1feaa8358daede,2023-05-14 18:06:28,JustSong,fix: fix quota not consumed,False
+976c29ea9f52396c9983a86ab2593acadab1c49c,2023-05-14 17:07:15,JustSong,docs: update README,False
+926951ee030ee6aceb12cdf418f77f7a4fe3da67,2023-05-14 16:59:02,JustSong,feat: able to customize system name & logo now,False
+2cdc718fded14896c1cec5d51a208cc22875056f,2023-05-14 16:28:54,JustSong,feat: able to use any link as about page (#60),False
+57cb15017788eddae9ecc41bdb275520e7c1850e,2023-05-14 13:43:42,JustSong,perf: load cached about content first (#60),False
+6167e20b342189f6e733f69be4b732695dc7fb1c,2023-05-14 13:32:40,JustSong,style: hide scroll bar,False
+8835d8302ecf7e24103200687a87efb441de02ed,2023-05-14 13:31:04,JustSong,chore: fix typo,False
+224bebe67a1adde0487bad4c13d976ec20ba0241,2023-05-14 13:04:14,JustSong,feat: able to customize home page with link (close #60),False
+cf6883778ead383091d44227f745f35ecd4bf25a,2023-05-14 10:23:03,JustSong,perf: use slice to improve efficiency (#57),False
+246b981e23dd491cf96aaa659bea5ebe781eb22d,2023-05-14 10:18:42,JustSong,"fix: fix ""[DONE is not valid JSON"" (#57)",False
+2edd52e851c5dd4d9c9af65bd709c84d1cdfb7b3,2023-05-14 07:09:42,JustSong,fix: fix Azure channel not working in stream mode (#57),False
+e123c66bc78e16ea32b94c8d0bb53141fd9bbefd,2023-05-13 19:34:36,JustSong,fix: fix SMTPFrom not updated in some cases (close #34),False
+9edc82bde02bd6beb9753fb4f3b59210f98a329d,2023-05-13 19:11:52,JustSong,fix: fix garbled email subject (#34),False
+d84c2f5c7017fbcfb3d49dfc32d9740d12acf5b1,2023-05-13 18:57:49,JustSong,feat: able to customize home page now (#24),False
+46e77389a40ae386c4b25e06e504a6ff8bc82692,2023-05-13 16:27:27,JustSong,fix: support smtp server with port 465,False
+f5f4e6fbc612900b29375cf952c770a5017cd0fa,2023-05-13 16:03:41,JustSong,feat: able to configure smtp from now (close #34),False
+dc4a6cb711533c72460ccd2c95b24429a4ddb250,2023-05-13 14:38:13,JustSong,feat: support batch creation of channels (close #58),False
+5798fdac509b4bb7fd6d05e37fd08ddef3f7cd9f,2023-05-13 13:13:55,JustSong,refactor: rename file to conform to standards,False
+3710688efdc98d4e6dd0c8bae441c069780e2f78,2023-05-13 13:00:09,JustSong,refactor: use built in smtp library (close #34),False
+83e86b9f8ae0757c416a51ebb4f689c1bb6b146c,2023-05-13 10:23:57,JustSong,feat: support specific default api version now (#57),False
+74c1ba7cbcca28869d3ea7e1fde1ff6e7945c97d,2023-05-13 09:59:17,JustSong,chore: update prompt for Azure channel configuration (#57),False
+73aa53f536607db4aed5f7300bd6a0125a23c620,2023-05-13 09:54:49,JustSong,fix: remove the dot in model name (#57),False
+da9ccb528dac8c6525aa45526e7606ad6a0a9423,2023-05-13 09:18:37,JustSong,docs: update README,False
+44729da277fdfc7e8a5f254b1a9602eab1c2c2aa,2023-05-13 09:11:57,JustSong,fix: provide a default value for api-version if not given (#57),False
+7a3378b4b7a6f99851da734f0c64a76e5b35ca33,2023-05-13 09:06:36,JustSong,"feat: Azure API supported without verification (#48, #57)",False
+fd19d7d246be5249a06a4e3704d9b4920ff2cb50,2023-05-13 08:00:55,JustSong,fix: handle errors when update option map,False
+5c694a1503153d2fa04b0701900f8af3252f1e04,2023-05-12 09:14:38,JustSong,feat: now supports custom smtp port,False
+9edc54ca692d56c7aecc03bedb44e59797642c5f,2023-05-11 20:13:39,JustSong,fix: fix the default ratio for text-embedding-ada-002,False
+e6af636fa08b6665492b04f2adbc232b830f6b0d,2023-05-11 18:59:05,JustSong,fix: the initial quota for new token now calculated correctly (#51),False
+6e1ef75009356b3c40555e889e38365a755c60e1,2023-05-11 18:30:09,JustSong,feat: support /v1/embeddings now (close #50),False
+d9db16e9992b47f66ed6fb6763cf9ca757a35a8a,2023-05-11 18:29:35,JustSong,feat: able to configure ratio for more models now (close #53),False
+241ade2faea9973da0ffe8841a8a024694a1a4a2,2023-05-11 17:35:49,JustSong,fix: delete a token with a negative quota will now update the account's quota correctly (close #51),False
+80065de8a328b559704dfaae3a437a160356a475,2023-05-11 14:26:14,chunzhi,"feat: add Docker Compose support (#55)
+
+* docker-compose.yml
+
+* Create one-api.service
+
+配置systemd守护进程
+
+* Update docker-compose.yml
+
+* Update one-api.service
+
+* Update docker-compose.yml
+
+* Update docker-compose.yml",False
+16f53b5afbb1191d1f1300ad1cdbad4577d43712,2023-05-10 07:43:39,JustSong,feat: double check before deleting a user,False
+3071300c0cad2ee110d404982c6a34a42bca0bb6,2023-05-10 06:58:41,JustSong,feat: support API `/dashboard/billing/credit_grants` now (#45),False
+8b056bf408ebba86a2cb6b456afe01c84ce2efe8,2023-05-05 19:26:48,JustSong,docs: update README (#47),False
+e5640857b15b0b29cb65a3b1b544bd55dcd786cd,2023-05-05 12:56:54,JustSong,docs: add funding link,False
+331177d97ef40d82ed111f338e14414e5364fdad,2023-05-04 07:50:39,JustSong,fix: return quota to user when delete token (close #37),False
+4fed003f1ac8c5d2313a4646415d604cb1c3a6d7,2023-04-29 16:12:05,JustSong,chore: update placeholder text (#36),False
+a1ea1bf6960ab0553bc634cb30fdc431ca9cf197,2023-04-29 16:11:19,JustSong,chore: update placeholder text (#36),False
+7c66fc6c214632e21a9512028bd0cbe55c5a3edc,2023-04-29 12:19:10,JustSong,fix: shouldn't close c.Request.Body too soon (close #35),False
+d93cb8f645b932d9ff483a25a2026a521ff6a2ac,2023-04-28 16:46:37,JustSong,feat: able to configure ratio for different models (close #26),False
+b08cd7e104b0a456b4ff887444e244db3e84172f,2023-04-28 16:06:17,JustSong,refactor: use tiktoken-go to calculate token number,False
+aea6c859e71393448d1ac85d019a251523de135a,2023-04-28 15:46:59,JustSong,fix: relay bug fix,False
+480e789cd8090bb474b13b06b922e3ddee1e15a1,2023-04-28 14:55:05,JustSong,feat: support configuring ratio when estimating token number in stream mode,False
+23ec541ba665a99189a94225fc0500180e47309a,2023-04-28 14:41:57,JustSong,refactor: improve relay's implementation,False
+053bb85a1c217241ec45ca452a8be80ba2c0ee43,2023-04-28 14:28:55,JustSong,feat: now use token as the unit of quota (close #33),False
+601fa5cea84a87477e34e173702931c848df17aa,2023-04-28 12:27:20,JustSong,refactor: use quota instead of times,False
+7a5057f02de5ecac9b73cdca5e1362938b7bf105,2023-04-28 07:17:03,JustSong,fix: check user's role when manage user (#30),False
+c76027a2100596381d22a7e5b18610065322ca81,2023-04-27 14:48:07,JustSong,style: add bottom margin for unlimited times button,False
+f97c2b4c22647e189f91eda2fcb23e4abf817e8e,2023-04-27 14:02:21,JustSong,feat: able to set top up link now,False
+54b1e4adefa4167688cb0eddae9a66883d73a438,2023-04-27 12:35:33,JustSong,fix: check user status when validating token (#23),False
+927288438147cffd8526b9409c78b0bdcdc3aadd,2023-04-27 12:15:12,JustSong,fix: root user cannot demote itself now (close #30),False
+195e94a75d0e14a4e0c119ae4bc5a3b3a62893a8,2023-04-27 08:40:10,JustSong,fix: fix MySQL syntax error (#54),False
+5bfc22466986522a87d81d89fe293de4e71d5c69,2023-04-27 07:02:20,JustSong,fix: specify type for token (close #23),False
+fd149c242f43a16409ff1ebb7a698a4502d6b5f7,2023-04-26 19:20:09,JustSong,fix: remove rate limit for relay api,False
+b9cc5dfa3f9073e27a812102e115b9dbf3efed59,2023-04-26 19:10:56,JustSong,feat: able to set initial quota for new user (close #22),False
+8c305dc1bc4c9de49ab42cb53a49271af397435b,2023-04-26 18:24:39,JustSong,feat: able to manage system vai access token (close #12),False
+f62a671fbe9523022f439f43621d5db1fbbd6704,2023-04-26 14:43:08,JustSong,feat: download redemption codes as file (#12),False
+9e2f2383b93fa12fc89693aa7ad95e1e5764f0e8,2023-04-26 14:32:26,JustSong,feat: now user can top up via redemption code (close #9),False
+e7a809b0828c62b5bea729a22214706ae48b4b0c,2023-04-26 12:57:33,JustSong,fix: allow all origins (close #20),False
+4f8cbd643dfe7840927b26f0d53081fcc0007f67,2023-04-26 12:19:27,JustSong,fix: prevent common user from specifying channel id (#12),False
+1dd92a3f922311146ea4f2f45df102d49b744ff4,2023-04-26 11:56:19,JustSong,fix: allow all origins (close #20),False
+34a3329f5f1030e146be8f8454dd618dcbb261eb,2023-04-26 10:34:41,JustSong,docs: update LICENSE,False
+4fb07b6d6d97a094764bfe19fe7642f97e351f82,2023-04-26 10:34:11,JustSong,chore: update gitignore,False
+8be7c9ae8000a0aab1100bff687c5489a8fc03d0,2023-04-26 10:34:01,JustSong,chore: update Dockerfile,False
+4e8dc8d0cf2af2138f8a13fff412592c2799888b,2023-04-26 10:30:33,JustSong,ci: remove useless action,False
+1e46b9d135015a935d79f9e8f35e6bd9522a1f55,2023-04-26 10:28:06,JustSong,docs: update README,False
+f16a2a56455297dd21d7eecc547d80a6e631ec9c,2023-04-26 09:12:56,JustSong,feat: redirect to login page if login expired (close #18),False
+03491029f24d3276482ec456b5139ab79fbb633c,2023-04-26 08:40:14,JustSong,feat: limit the ability of common user to set the remaining usage times of token (#9),False
+faf84d833d468913cf0221cb546ce9a4f960a04f,2023-04-26 08:20:52,JustSong,docs: update Nginx configuration (#3),False
+109736cc0554d03732357bbc794a0f94106607e2,2023-04-26 08:15:34,JustSong,"fix: only reduce remain times when request `/v1/chat/completions` (close #15)
+
+BREAKING CHANGE: now remain_times is -1 doesn't mean unlimited times anymore!",False
+eb8f43acb5d3a94eb4565c73f5dbad0510537cbc,2023-04-26 07:27:46,JustSong,docs: update Nginx config (close #3),False
+05dd7dfd2a819bf9d8b01db0d574409fc978737a,2023-04-25 19:48:27,JustSong,feat: able to relay dashboard api now,False
+b87478405804392dac65366172a3902feb95d7f9,2023-04-25 19:26:23,JustSong,chore: update dependency,False
+284beed8dcabb58fdde17dc16450b1c993b507b3,2023-04-25 19:26:07,JustSong,feat: enable gzip on api route & web route,False
+69ee87c57f2136d057dfb7786133795e2b14ec0a,2023-04-25 19:20:57,JustSong,fix: fully support stream mode now (close #3),False
+b74a17c963c5720f04a1a9b416aad235cbb4d3f9,2023-04-25 18:15:50,JustSong,fix: improve the implementation of sse,False
+5d602e9b574d498a3043294ba955a426caafcd0e,2023-04-25 17:57:53,JustSong,fix: fixing SSE support,False
+f067f64a3a2665b0caabc12088ef4a9cc9b66a11,2023-04-25 13:53:17,Bond,docs:  add help in command line arguments (#14),False
+01c1b906b543f88e2db7b50e7ee961941d246f53,2023-04-25 12:43:25,JustSong,fix: update error message to make it more clear (#13),False
+f6194fa86c9334f8ddc5d55e20e57e2e152d7d00,2023-04-25 12:26:04,JustSong,docs: update deploy tutorial,False
+abb2449b35e06177d02bf0e197dd333c74d10f72,2023-04-25 12:21:53,JustSong,docs: fix typo,False
+cc5ef9871a786ea01f57f090cdccff063ca6fb9e,2023-04-25 12:20:35,JustSong,docs: update README,False
+9e30524e2a44bf6737d6fc7cfbf13c1f12bc9152,2023-04-25 12:01:02,JustSong,docs: update Docker start command (close #8),False
+16271e78137f14ebab36f45527a750e187aa4f3d,2023-04-25 09:00:34,JustSong,fix: relay more headers,False
+46dfc6dcddbe2400f9188df2643aa4981a833bf6,2023-04-25 08:27:37,JustSong,feat: relay all kinds of requests,False
+0198df5962dd94a39dba6c5352c7c14c0bfa7ad8,2023-04-25 08:17:25,JustSong,fix: only keep header Authorization & Content-Type,False
+4c0dc50af00bf4821ee72b6fd10d23a43da306ee,2023-04-25 07:49:00,JustSong,"fix: fix http2: invalid Connection request header: [""upgrade""]",False
+423978baf4c53e6504b531f0577d9ea62b003f0f,2023-04-25 07:16:58,JustSong,fix: copy token to search input if clipboard.writeText is not available (close #6),False
+5ed4a3d4050cf7c022a6a7f030c6403a7e92ec29,2023-04-25 06:54:02,JustSong,feat: improve the token edit page,False
+336c03a12557d1882a10e71f079aa37cafea5fda,2023-04-24 18:25:22,Shiqi Mei,"docs: add missing manual deployment documentation (#7)
+
+* docs: add missing manual deployment documentation
+
+* docs: fix manual deployment steps
+
+* docs: update readme
+
+---------
+
+Co-authored-by: JustSong <songquanpeng@foxmail.com>",False
+918ba6080207f14dc9dc47c3220c00ceb7d2872a,2023-04-24 18:22:40,JustSong,feat: able to set the token's expiration time and number of uses,False
+c0bb2338de1dd43c0058dd3debe3113e33f281b3,2023-04-24 08:48:05,JustSong,Temporary set rate limit to 60k,False
+963a52521c3c1f4f5e346fdd948bd862fc6690c5,2023-04-24 07:28:24,JustSong,Add docker pull badge,False
+b3be4d8f85dbe3bd7a65c0ecf0d1ca9a30ffdb2d,2023-04-23 18:05:49,JustSong,Support custom channel now,False
+57379d8e924e4fc4d5086600ecdcb302a57626e2,2023-04-23 17:47:55,JustSong,Redirect user if not logged in,False
+d4c812954cb7b93008bcd43cb55d9651034cb1ae,2023-04-23 17:39:07,JustSong,Update README,False
+09be65e0352af7d10b870c607e67ab9f03154f3e,2023-04-23 17:30:47,JustSong,Index page is done,False
+78b4acddc61a95d5119eb3021bd2e4ccd303e9fa,2023-04-23 17:22:16,JustSong,Update README,False
+396fa24445754352c1a1d570787a8d92fa87469e,2023-04-23 17:06:27,JustSong,Fix GitHub Actions,False
+b6f602f54de4b8ba3db88307490a4de1658093c7,2023-04-23 17:02:19,JustSong,Update README,False
+81946c43b8004b3eaac72e28b79aea4c61f3f6c6,2023-04-23 16:58:43,JustSong,Update README,False
+b86e1dec64a7bdfb15e855abc13b9590e0c4b3a0,2023-04-23 16:49:43,JustSong,"Fix ""HTTP decompression failed""",False
+279ae8ad502cab4a0106585a53b9446b8da1cf04,2023-04-23 16:02:59,JustSong,Bug fix,False
+852af57c0393429dcbd8de977c8edc09413dda81,2023-04-23 15:54:11,JustSong,Relay done but not working,False
+9fc375c60436bc16e492b28672b62d4045de3ea0,2023-04-23 13:12:23,JustSong,Able to manage channels now,False
+63da6dc6a030aec3debd3f77370974598cf4d891,2023-04-23 10:13:10,JustSong,Able to manage token now,False
+b90822942921b1797597733ba57b1f3fc830eb6e,2023-04-23 09:01:00,JustSong,Token API done without verification,False
+c30b069f2ea6da47e777cb01588df4a5e1d1c740,2023-04-22 20:16:29,JustSong,Update README,False
+f95f5948ffa5cb7b5ec31dcc8e3996c3624de393,2023-04-22 19:59:00,JustSong,Update README,False
+5e8c22fbf68180da55608ec72fa55b2c9479f3ce,2023-04-22 19:45:48,JustSong,Update system log,False
+6164829239822fc03e0214d56b0da4e40c8b7937,2023-04-22 19:32:59,JustSong,Channel API done without verification,False
+af960070259231d87da7fa1d4c9089de9114fb4c,2023-04-22 19:11:16,JustSong,Remove useless page,False
+539eac217f3464e5121141bbf51ab02dcb71fdd2,2023-04-22 18:44:09,JustSong,Rename to One API,False
+ab1f8a2bf46a6aa39f0e871e14332fbaae3707e7,2023-04-22 18:09:27,JustSong,Initial commit,False

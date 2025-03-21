@@ -1,0 +1,1041 @@
+Hash,Date,Author,Message,IsMerge
+18de2edf6b629e843ee4bcedfa2208d22b253f0f,2023-11-18 20:58:48,Thomas Yao,"Update README.md (#367)
+
+imrpoved the readme file by clarifying and imrpoving the readbility of frameworks and languages necessary to do the project.",False
+bf676c9faa5c8bf5650e0c33340b5224c4b9ae8b,2022-04-13 07:33:13,Wizard-F,Add Node version to package.json (#327) (#330),False
+1ba46445eba0524bd26f202836bb704842af5f39,2022-04-03 03:57:40,Jinseo Park,Add README.md to scratch paper,False
+9ba0abcdf4c31ae6dcc4894738be9da1cfa5da9b,2022-04-03 02:46:00,Jinseo Park,Fix sign in/out,False
+616b3d44b20981ec2f677b3a28e18282536db403,2021-11-30 23:02:49,dependabot[bot],"Bump postcss from 7.0.17 to 7.0.36 (#309)
+
+Bumps [postcss](https://github.com/postcss/postcss) from 7.0.17 to 7.0.36.
+- [Release notes](https://github.com/postcss/postcss/releases)
+- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/postcss/postcss/compare/7.0.17...7.0.36)
+
+---
+updated-dependencies:
+- dependency-name: postcss
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8e72d5e5b77ef4ffd3d3f36488131caf930cb70f,2021-05-01 11:20:34,dependabot[bot],"Bump y18n from 3.2.1 to 3.2.2 (#302)
+
+Bumps [y18n](https://github.com/yargs/y18n) from 3.2.1 to 3.2.2.
+- [Release notes](https://github.com/yargs/y18n/releases)
+- [Changelog](https://github.com/yargs/y18n/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/yargs/y18n/commits)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+59ea9349d66e7ca4deb3c6d49565d02ed4f34b11,2021-01-28 11:48:52,Jeff Tian,feat: add ScatterTracer and ScatterRenderer (#298),False
+f84321cc0729578e5167e8f800fbebaa9f7285c1,2019-11-25 00:01:39,BryanChan777,Update README.md (#274),False
+7845b9ec612441ec176856f70da7043d343f5c7c,2019-08-28 21:31:39,dependabot[bot],"Bump mixin-deep from 1.3.1 to 1.3.2 (#270)
+
+Bumps [mixin-deep](https://github.com/jonschlinkert/mixin-deep) from 1.3.1 to 1.3.2.
+- [Release notes](https://github.com/jonschlinkert/mixin-deep/releases)
+- [Commits](https://github.com/jonschlinkert/mixin-deep/compare/1.3.1...1.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+8d13b7bcf41fbb960e72b62c362ab6c5bd010569,2019-08-27 07:45:07,dependabot[bot],"Bump eslint-utils from 1.3.1 to 1.4.2 (#269)
+
+Bumps [eslint-utils](https://github.com/mysticatea/eslint-utils) from 1.3.1 to 1.4.2.
+- [Release notes](https://github.com/mysticatea/eslint-utils/releases)
+- [Commits](https://github.com/mysticatea/eslint-utils/compare/v1.3.1...v1.4.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+dbec6f495196e3421a02f279a70d2b6c4b107195,2019-07-11 11:11:57,dependabot[bot],"Bump lodash.template from 4.4.0 to 4.5.0 (#266)
+
+Bumps [lodash.template](https://github.com/lodash/lodash) from 4.4.0 to 4.5.0.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.4.0...4.5.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+dc21d272fb0340c9576d193397a271425f6911c2,2019-07-06 23:40:30,Jason Park,Merge branch 'anudeepreddy-master',True
+d174ba0642c66ee8f26808cba017dbd358d35053,2019-07-06 23:39:51,Jason Park,Fix .gitpot.yml,False
+c0c632e219c12ac9f9e3179a31a95a5250f6556f,2019-07-06 23:29:01,Jason Park,Merge branch 'master' of https://github.com/anudeepreddy/algorithm-visualizer into anudeepreddy-master,True
+54e204d7ab835f17f55c4ad053a0fd7a325986cc,2019-07-06 16:44:12,Jason Park,Merge branch 'master' of github.com:algorithm-visualizer/algorithm-visualizer,True
+cf44c90949236db97e64c3dc512b9cc9cd0c287f,2019-07-06 16:43:51,Jason Park,Add missing favicon (close #263),False
+633e5dd30a825de00d710b893d1bd2b38978d51c,2019-07-06 16:35:27,Jeffrey Fisher,"Fix errors when resizing panels horizontally. (#265)
+
+Closes #264
+
+getWrappedInstance() is no longer necessary.
+
+If {forwardRef : true} has been passed to connect, adding a ref to the connected wrapper component will actually return the instance of the wrapped component.",False
+aca5633927da78eac6d9b66185a45bde7d608ad6,2019-07-04 21:29:37,Jinseo Park,Update FUNDING.yml,False
+e13f28b90e67769ad688bb2cee1c0e5418823603,2019-07-04 07:46:22,Jinseo Park,Create FUNDING.yml,False
+ed4daf286de8171d184eedea704c1fc53cb8df91,2019-06-19 19:18:55,Anudeep Reddy,Update .gitpod.yml,False
+419a1a89a57bf4f2a8edfc8fd61406dd37d2bf85,2019-06-09 23:31:38,Jinseo Park,Update README.md,False
+03c9cde11e84b89ad3f3538bb58aa50da1edbc75,2019-06-09 23:20:05,Jinseo Park,Update CONTRIBUTING.md,False
+3cfb75decfb4a37d1d3dba6ba5d56406037730d9,2019-06-09 22:53:07,Jinseo Park,Update README.md,False
+f43df560c13f8deb7025582884910af6620bf3b2,2019-06-09 22:44:48,Jason Park,Update documentation,False
+eb1d19ee1407de9a6b5e8e698a58b450a5aae052,2019-06-09 21:27:39,Jinseo Park,Update README.md,False
+30394163a3be11f777c456207dc6da84a846ec1d,2019-06-09 20:23:49,Jason Park,Fix warnings regarding manifest.json,False
+97e355dedd894ac8df36e66d63ebebdaa22b6009,2019-06-09 20:12:06,Jason Park,Remove a temporary file used to mass rename,False
+60fcab5b583d639fae91a70e9ba5a0aa5ef5828a,2019-06-09 20:09:25,Jason Park,Rename jsx and scss files,False
+44384cfe338cfd6803d60be5c9314e8042bde096,2019-06-08 23:29:22,Jason Park,Remove webpack and use create-react-app,False
+faae63b3be5628237bd145e50a91626999942739,2019-06-08 23:29:22,Jason Park,Separate backend from algorithm-visualizer repo,False
+83e4c196a7dc64418b799148b0b8bfe99ce86337,2019-06-07 10:20:57,Jinseo Park,Fix scrolling issue in firefox (Close #248) (#251),False
+e47d3037af7ce152109e8d187c2201ab96515fc0,2019-06-06 23:41:00,dependabot[bot],"Bump js-yaml from 3.12.0 to 3.13.1 (#249)
+
+Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.12.0 to 3.13.1.
+- [Release notes](https://github.com/nodeca/js-yaml/releases)
+- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/nodeca/js-yaml/compare/3.12.0...3.13.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+0773f1a10fb80e8240a5b592783db53ac1b407bc,2019-06-04 04:30:01,Aminadav Glickshtein,"Fix vscode error message: ""Experimental support for decorators"" (#247)",False
+05a46da0d5d0427d3564c83d461fb4aabe3a99dd,2019-05-31 09:55:56,dependabot[bot],"Bump fstream from 1.0.11 to 1.0.12 (#243)
+
+Bumps [fstream](https://github.com/npm/fstream) from 1.0.11 to 1.0.12.
+- [Release notes](https://github.com/npm/fstream/releases)
+- [Commits](https://github.com/npm/fstream/compare/v1.0.11...v1.0.12)",False
+f3f4b5a60fc7884e9db681f32cc5d9106d43479f,2019-05-25 23:41:49,dependabot[bot],"Bump tar from 2.2.1 to 2.2.2 (#242)
+
+Bumps [tar](https://github.com/npm/node-tar) from 2.2.1 to 2.2.2.
+- [Release notes](https://github.com/npm/node-tar/releases)
+- [Commits](https://github.com/npm/node-tar/compare/v2.2.1...v2.2.2)",False
+0fcb4233f737d26c9019d66cbeb1d622ffbaee70,2019-05-25 23:34:31,dependabot[bot],"Bump webpack-bundle-analyzer from 2.13.1 to 3.3.2 (#241)
+
+Bumps [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) from 2.13.1 to 3.3.2.
+- [Release notes](https://github.com/webpack-contrib/webpack-bundle-analyzer/releases)
+- [Changelog](https://github.com/webpack-contrib/webpack-bundle-analyzer/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/webpack-contrib/webpack-bundle-analyzer/compare/v2.13.1...v3.3.2)",False
+4391b98b2b932af2f06aff3947b8d9412bd1c8b9,2019-05-25 23:34:06,dependabot[bot],"Bump lodash from 4.17.10 to 4.17.11 (#240)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.10 to 4.17.11.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.10...4.17.11)",False
+876b2242e66c86c7da3181951074a99a2a806190,2019-05-25 22:07:48,Jason Park,Fix zoom issues as Chrome updates,False
+a95b83103e6c02db7ac97b207c03242a2a72e0e6,2019-02-18 23:00:26,Jason Park,Update C++ skeleton file,False
+142c185b38c65efbeb67ea3513e90c99d3773691,2019-02-18 20:39:48,Jason Park,Set limits again,False
+9555c52c532301f4e81ba26b486d1a6472ef4127,2019-02-18 20:38:13,Jason Park,Remove time limit temporarily,False
+b9cf2c085088c6f7a3eb41c5459e86850e0a8b0b,2019-02-18 20:35:47,Jason Park,Remove memory limit temporarily,False
+450d61d2311f3442e6e72706936b7c6c2b6460fc,2019-02-15 06:32:09,Jason Park,Update skeletons,False
+84a230d8b0d0c315e4326049038e4e8b96c5daca,2019-02-14 00:12:47,Jason Park,Fix MarkdownTracer showing nothing,False
+a13a18bd1b4e645f7920020e7b11c5c3947b72b1,2019-02-13 23:56:10,Jason Park,Fix default title of tracer,False
+c7ec89619354404c3503384c7db7f3bf841ae33b,2019-02-13 23:27:47,Jason Park,Add layout feature,False
+7271b3465af27d8dd6066115c8c492c1baef7c67,2019-02-06 02:17:41,Jason Park,Remove dependencies on unpkg.com (#234),False
+ece284774c786ec82e97ec430f22114a0897c6c4,2019-02-06 00:43:50,Jason Park,Remove babel,False
+c5f58e895fad15dd6edf0ad550f74b4bc664607f,2019-02-05 10:54:20,Jason Park,Show indices on array tracers,False
+cdd3c271d1f7ac7e7cbd57afa3a396197ddfd42f,2019-02-05 10:31:15,Jason Park,Make cells lining up in array2d,False
+08a3a3041747220f2dced833152f3b370287db36,2019-02-05 09:37:11,Jason Park,Put placeholder for empty row in array2d,False
+33cdd1c58b8b8510f5d4f0888864a22575e1c22a,2019-02-05 07:14:20,Jason Park,Use require instead of import in skeleton.js,False
+d7f006adb057d3dc91029dae389d28f0bcad2824,2019-01-28 10:07:28,Jason Park,Keep the tab opened after saving,False
+50767b104f7371773f2c56070ac94ab300a09453,2019-01-28 09:31:22,Jason Park,Fix fullscreen in chrome,False
+71591c63027fb108987dda7d5c58e93a2a0d6232,2019-01-25 00:54:40,Jason Park,Add println and printf to LogRenderer,False
+837fd3e39c3d64deb9544e9872d093eda20f23c4,2019-01-24 14:31:20,Jason Park,Fix minor accessibility issues,False
+5fb121796080926fa59db63f5d08b33497db8eb7,2019-01-24 14:19:58,Jason Park,Compress responses,False
+83213cdb181915ca88aea7b0603ed6ee3bd298f7,2019-01-24 13:45:16,Jason Park,Disallow scratch papers to be crawled by robots,False
+0ffee2e5dc76abedd043c273f597a9a9e2bc732a,2019-01-24 13:29:56,Jason Park,Send http 404 when algorithm not found,False
+f025e8827c4592c10416c1891e1ed08566a7a3b0,2019-01-24 13:03:01,Jason Park,Let webpack split chunks,False
+4e8df588b9e31d22efa5da618256c392556ede05,2019-01-24 11:40:58,Jason Park,Fix history block,False
+68c062f4aff227873d88962c595ee5f2f7b6d643,2019-01-24 11:17:16,Jason Park,Refactor redux stores,False
+a056b266d4d9d0693b199b3326f94f9e40a66289,2019-01-23 22:21:46,Jason Park,Prevent default wheel action when zooming,False
+de8cd9685e37197bc855ab4a1ac301b2eedc913a,2019-01-23 21:59:37,Jason Park,Fold visualization codes by default,False
+2b0bea97ce62357ab078913efda30cf0078119ef,2019-01-23 02:16:39,Jason Park,Rewrite skeleton codes,False
+6cf9434f6d59dceee05b5d5bd8484b6c9d5b1011,2019-01-18 22:22:58,Jason Park,Quiet tracers,False
+4c39148e7e2d09bed4b2bade16c815c13b2eacf1,2019-01-18 21:49:19,Jason Park,Link libcurl to g++,False
+d5b0c316b041bffca169bf0d91373a3d45f132e8,2019-01-17 23:59:02,Jason Park,Set ALGORITHM_VISUALIZER env var when running docker,False
+3e03015ad4f511b4673ee0f76e39bb16137a6de2,2019-01-17 13:01:09,Jason Park,Fake environment variables in web worker,False
+5100b0f3eac573e6ce53af042d02905196c886c9,2019-01-17 10:53:19,Jason Park,Visualize local codes,False
+c3c6dedb8bc04879d0b831ae4cfbff26d43fb43e,2019-01-16 23:15:37,Jason Park,Update documentations,False
+6d4326b91651bceccdf8f0288480c9a4211d7839,2019-01-16 23:15:06,Jason Park,Update wiki link,False
+27044d98488928329fe48c78472ac7294c88e58c,2019-01-16 20:23:00,Jason Park,Bring compiling/running code parts from tracers repository,False
+b539553e91da723e1c1db68d690f84a798bd90a1,2018-12-14 16:39:49,Jason Park,Ignore package-lock.json when running git diff-index,False
+fca60ef1d8a2c736b3e20479d0977e6853864096,2018-12-14 16:17:14,Jason Park,Run pull.sh with pm2 when webhooked,False
+42e3d97e91ad1d3a53206080d1e20ed88964223b,2018-12-14 15:41:23,Jason Park,Fix wikipedia images and equations in markdown,False
+e5c1409a344b72693b8bb0ca0ef781605d061c4e,2018-12-14 15:18:39,Jason Park,Merge branch 'master' of github.com:algorithm-visualizer/algorithm-visualizer,True
+0e96a299184c01fcd14ca2f69197be34e774f22e,2018-12-14 15:09:10,Jason Park,Pass algorithm data to client along with index.html,False
+d293807271265846e6594bb4ba809e78d32a20b3,2018-12-12 10:28:37,Jinseo Jason Park,Update PROJECT_DETAILS.md,False
+2fd5a69a35264de865898314fa72119426ae3282,2018-12-12 07:13:17,Jason Park,Render title and description tags on server side,False
+c78bcc3a1f2ca1fd1f1746a084dd0f5639d0ae09,2018-12-10 14:00:02,Jason Park,Fix bin/pull.sh to install devDependencies,False
+fe475aae0c24766804f5f785c3353720639bdfa6,2018-12-10 13:53:55,Jason Park,Parse description better,False
+71aea5352bf07b27f5b8f991b46c4aa3d0b70554,2018-12-10 13:32:20,Jason Park,Add window.onbeforeunload,False
+47f7f2f60a8a0b9d0b4a740744cce0abfda9bcbe,2018-12-10 11:07:38,Jason Park,Show error and redirect to home when page not found,False
+c0d8a9db311d9dd73bbb126c0aeec5aa801d20d0,2018-12-10 10:05:06,Jason Park,Improve keyword search,False
+68a1629d6648eef207bca33881357c69d0fefbc5,2018-12-09 11:03:10,Jason Park,Disable unnecessary zooming and panning in Chart/Log/MarkdownRenderer,False
+1f2381ac277974a30d2b967b8be76a8d3c47cc8c,2018-12-09 10:25:52,Jason Park,Improve history block,False
+13b131cc9c8356e6281b954f16159d4386e8ec1f,2018-12-09 10:01:47,Jason Park,Fix adding file,False
+144adbd393d1fe35eefe524e5883ded2705d5852,2018-12-09 09:56:38,Jason Park,Add id to markdown headings,False
+06be49667d325d6833d85015d9e03d3f0d39b7dc,2018-12-09 07:12:02,Jason Park,Improve wordings in documentations,False
+cd1d30dce5f7b9bc6e4fd92a9ef4e278e17266b3,2018-12-09 07:12:02,Jason Park,List directories instead of files when caching algorithms,False
+73517b10d095b1c47cf9261b95b396164d17f411,2018-12-09 07:12:02,Jason Park,Cancel old Tracer API when page moves,False
+f15bad25e2b4d49182b0956df5d719dae25f1ab7,2018-12-09 07:12:02,Jason Park,Add documentations (Close #233),False
+6e8be4d8e9d5f3d6c912a668b56d9109ee80a77d,2018-12-09 07:12:02,Jason Park,Fix minor bugs and do frontend code refactoring,False
+eb89a866e328167bd576db038dc04512f1fe9f47,2018-12-09 07:12:02,Jason Park,Update metadata,False
+1740263a9eaec1e4b41ab40df4ff5dfa58e571c2,2018-12-09 07:12:02,Jason Park,Reverse speed bar,False
+e385ecdb34e90a1f245e92026e110d9e768f2fc9,2018-12-09 07:12:02,Jason Park,Refactoring regarding home page,False
+e8df55ed91bd8edc2952ff21751a02fa89beebe4,2018-12-09 07:12:02,Jason Park,Support HTTPS,False
+dff557a9da0be23d9e03eda26a4dcc7c423a0418,2018-12-09 07:12:02,Jason Park,Fix webhook pull,False
+630e1c51efe94a98d9dfe75d396f9cc76bcface8,2018-12-09 07:12:02,Jason Park,Add sitemap,False
+61bee72dd30e700b7f217415bbfbbae58b10d1b5,2018-12-09 07:12:02,Jason Park,Add Open Graph meta tags,False
+29d7c719b47368bceb73a37df0085816bb71c2fa,2018-12-09 07:12:02,Jason Park,Redirect old URL to new URL,False
+7bf710a4ad7c80acc428673b10502f9ea10f2a6f,2018-12-09 07:12:02,Jason Park,Read arguments through argv instead of env,False
+4d3df8656ddd396294289c36a42f03077d17f8c5,2018-12-09 07:12:02,Jason Park,Move from heroku to aws ec2 (Close #229),False
+a051e040a9f8b3f37a265106cf17f58b51d8f3f0,2018-12-04 07:16:05,Jason Park,Change SSH URLs of the repositories to HTTPS,False
+b9e9488ad1fab825aaea6bad51fef18fd4b72439,2018-12-04 07:11:17,Jason Park,Fix dependencies,False
+59c14dcbe6651417c298da92318b59b8afee02b3,2018-12-04 07:05:22,Jason Park,Rename environment variable HTTP_PORT to PORT,False
+79134f1c37705798730aa72c14e117115785a8c8,2018-12-04 06:51:31,Jason Park,Add heroku-postbuild script and split dependencies and devDependencies,False
+98da97beea6fdede384ec2845a9bbdaa7a174c83,2018-12-04 06:14:39,Jason Park,Add webhooks for tracers and algorithms repositories,False
+ff73e54ad5f0d71dc86c3b1e8566e8a543247363,2018-12-04 04:33:02,Jason Park,"Add updateNode(), removeNode(), updateEdge(), and removeEdge() in GraphTracer",False
+e228589288a0028dd2d159412380e22cc6c1ab7a,2018-11-19 12:58:05,Jason Park,Remove CompileError and RuntimeError classes,False
+d0eb54c85478962461f4e6986e503afb76e1063b,2018-08-13 12:23:11,Jason Park,Refactoring 'current' reducer,False
+49d000b31170b45452689b49acb53cc5d96406bf,2018-08-12 00:58:45,Jason Park,Handle errors better and fork a gist when modifying other's scratch paper,False
+e7d7c101df642053321498b3d1859ff5f8464ce8,2018-08-11 21:22:07,Jason Park,Fix minor bugs,False
+0ee06293494f4d9a66a1fa619176a3f9cc00512d,2018-08-11 19:18:33,Jason Park,Don't warn about unsaved changes when deleting a scratch paper,False
+cc7ea60fdebe5fcdf9cc882673184e0cd0e793ec,2018-08-11 19:07:05,Jason Park,Fix a cursor being lost when moved to scratch paper,False
+0de6f160f612cc7b002fe13cea32f97b014ac6b3,2018-08-11 18:37:32,Jason Park,Warn before discarding changes,False
+0be0e02dc7febefcc9fc32c8b4fd4dfa02755079,2018-08-11 17:49:59,Jason Park,Improve visualization performance and revise toolbar buttons,False
+b422d7072c6d4e24c651e8b49130573dd60ab936,2018-08-09 13:42:18,Jason Park,Add skeleton files for scratch paper,False
+84a972c8aa3ffc4d381a2ec2471163f2530cef4b,2018-08-08 21:54:30,Jason Park,Refine compile/run error messages,False
+c5aa4f8b2c64ab5eff887f1d196e6387e0e0e5e1,2018-08-06 03:51:59,Jason Park,Move all the compiling/running parts to tracers repository,False
+753089801fceb1721eb3c2b6db6bee2af157007c,2018-07-26 15:10:11,Jason Park,Create LICENSE,False
+81a3a957cce14e95da258e4914f063b58b4bef10,2018-07-26 14:24:15,Jason Park,Update README.md,False
+63db7c4397ffffa0f14a6e8240fc96533a92b73d,2018-07-24 08:46:14,Jason Park,Support C++ and detach algorithms and tracers submodules,False
+3e5a2f022696a8537f14644a8e3ebd4712ed8a38,2018-07-19 18:03:17,Jason Park,Add facebook share and add todo's,False
+b44161ee6ffb6bec1da1c1793d1800add6a22e98,2018-07-18 22:06:11,Jason Park,Show guest profile in scratch paper if not signed in,False
+5637c08b3210025ff27c5c9a0c284b2bd6ba9be2,2018-07-18 21:55:34,Jason Park,Create SCRATCH_PAPER.md,False
+8f5a875a64fbe08776bc0611cc41a056e36e73fb,2018-07-18 21:40:29,Jason Park,Add error types on frontend,False
+48ae56360c095f396157f3dab88f285787e87c92,2018-07-18 21:25:11,Jason Park,"Put ""(Unsaved)"" in front of title if not saved",False
+6e810e6bfa988fc2c21c885cb3815824433d39c3,2018-07-18 21:15:01,Jason Park,Add meta tags and refactor code,False
+950f5d3ab534c35ffc74e339bc6c298d9fc6a249,2018-07-18 18:06:46,Jason Park,Authenticate seemlessly and handle error better,False
+e02b82e9d3ebcc6b8202e565bc6f10a7a1dc1c82,2018-07-18 15:21:47,Jason Park,Add click-to-confirm buttons and fix color names,False
+8b82d234a4f78a9768518fcc52122780ad9d5a37,2018-07-18 13:32:45,Jason Park,Add renaming and deleting file,False
+59b189b223f7827a98b67b17751d239d43bb0e0a,2018-07-17 21:35:55,Jason Park,Refactor tracerManager,False
+5d40c97de81796f6f25c612b5cdcc275f7e8bb68,2018-07-17 21:02:58,Jason Park,Compile and run java code in docker,False
+396ef5f38c64c0240675b61a6a531b5ae7df688f,2018-07-16 14:25:12,Jason Park,Update package.json,False
+31ee7ecfb6b4ac777d694b30cd718cba158b03d3,2018-07-16 13:14:55,Jason Park,Download traces lib,False
+dfec3da66249bdee233296704548e4824ca252d9,2018-07-16 11:50:01,Jason Park,Use axios instead of github-api,False
+f76efaf95f8a9739d7295cc6880f263895af016a,2018-07-16 10:31:59,Jason Park,Remove docs submodule and add a link to it,False
+f6431e7a47a29b38a0358cb3e88d98fdcdbc41ed,2018-07-13 16:34:33,Jason Park,Improve controller,False
+9818eeffb9332c5ddc638136dc04745764db5255,2018-07-13 12:21:12,Jason Park,Remove algorithm-visualizer.wiki submodule,False
+6e99c66f6b03e665ff89870353c77b3e32033789,2018-07-13 12:18:09,Jason Park,Remove tracers submodule,False
+d62ed9981c067cdae7817dbb73c5b6b2433e7545,2018-07-12 19:39:37,Jason Park,Add Dockerfile for sandbox run,False
+f827ee5330116a012d34c35c7bc54ba981000e73,2018-07-12 19:32:17,Jason Park,Rename directory built to build,False
+869d5fdccea4a3c943dc9948878cd085772d4cda,2018-07-12 12:54:25,Jason Park,Minor changes,False
+36031b7779e751e42d812ce1d0092163b8997c4f,2018-07-12 08:12:17,Jason Park,Remove options parameter in tracer constructors,False
+e0686f2a24d539fcb5073d4ec8ae9f132f6dac46,2018-07-11 15:44:01,Jason Park,"Rename method wait to delay, notify to patch, and denotify to depatch",False
+d85faa90c7557494033773ca9b09aa5dc0652831,2018-07-11 11:15:12,Jason Park,Build js worker in tracers repository,False
+ec55a7cf51c76e0a9e32d3c4a7ca53473c7f5167,2018-07-10 09:13:38,Jason Park,Get ready for supporting languages other than js,False
+6fc67198ef61d912e1ea7a96f04917f93838a92b,2018-07-10 00:42:04,Jason Park,Run tracers on web worker,False
+7a693e2fa0cc46c578ec7f3feda8123b21c64c78,2018-07-09 15:02:26,Jason Park,Load and save scratch papers,False
+95ccc7ff2cdf49555d8f3d77179016a29cf5c90e,2018-07-06 17:36:07,Jason Park,Add language choosing button,False
+74d63c25e87a196c202d65c3ed0e0ca639662e7c,2018-07-06 17:03:12,Jason Park,Load scratch papers from GitHub gists and refactor code,False
+f31a3ee62eedc37e88ccd8fb484d721172d740fc,2018-07-04 21:00:36,Jason Park,Remove workspace and improve performance of tracerManager,False
+a3529a3142752b54a9b0390dddead133ba690266,2018-06-30 14:27:23,Jason Park,Improve workspace performance and few other things,False
+b4801513dcdf45088451b50559d6940110781414,2018-05-01 14:58:32,Jason Park,Show contributors,False
+99a6a60dbcf3c126fdbf1c0c1b1226da99645f67,2018-05-01 09:57:48,Jason Park,Rename api 'directory' to 'hierarchy',False
+e8b6b0fe910bafdfb8ecb4b733ef3e38bec2ba40,2018-05-01 09:57:47,Jason Park,Separate algorithm directory into another repo,False
+9d922bfe1cf362967bca02284e542be87e3a7f30,2018-05-01 09:57:46,Jason Park,Add sign in with GitHub,False
+fdd15923ca742edb82b613d56b0a24bfddc0f413,2018-05-01 09:57:46,Jason Park,Rename desc.json to desc.md,False
+e69968f599f517e617de4741c7b54e4423eb356f,2018-05-01 09:57:45,Jason Park,Let description be written in markdown,False
+9831354db31b02a16eec1c133bfb527df598e2cf,2018-05-01 09:57:45,Jason Park,Revise GraphData,False
+edf887412f311cc95931063e9758c8eec72f3208,2018-05-01 09:57:44,Jason Park,Fix some of eslint errors,False
+2c0d589758855a8afe9f42a09c4f99fd38634505,2018-05-01 09:57:43,Jason Park,Add import statement to algorithm codes,False
+841a0e11ee571bbd6aa6b010b09bb4f8feedf104,2018-05-01 09:57:43,Jason Park,Change all the snake_cases to camelCases,False
+bc2e901d8384d154a62727e70be02ae16a9c46ba,2018-05-01 09:57:41,Jason Park,Run eslint fix on algorithm directory,False
+041f23423ebe41a274fd16ad6c02b859a85a7b48,2018-05-01 09:57:40,Jason Park,Add eslint,False
+8819169144f15a2e452228f49d822b5fb8635455,2018-05-01 09:57:39,Jason Park,Add randomize module,False
+9871d1c71b89499a62b25d58741b1f8d618978dd,2018-05-01 09:57:39,Jason Park,Implement react-dnd,False
+22f93120d56651917c2176d68cf801ca60a64eff,2018-05-01 09:57:38,Jason Park,Add non-relative sections to workspace,False
+23e6b3ab7ed8d818aacbcecf2c783f22b12fe207,2018-05-01 09:57:38,Jason Park,Enable dragging sections,False
+e7a3bbe95e6c47973f968aa203daa08449aaa72e,2018-05-01 09:57:37,Jason Park,React-ify workspace module,False
+70fd417b45c265fa88f79b31c8f16d8b18a7491b,2018-05-01 09:57:37,Jason Park,Add each renderer to workspace,False
+26949548dea7e32e459b1b2e00c8af5d5f04b9e5,2018-05-01 09:57:36,Jason Park,Refactoring workspace for further use,False
+52963f8551f23f1ad88a61bfa562db4e8951b46b,2018-05-01 09:57:36,Jason Park,Merge data and code parts into one,False
+fea69ceecf695ce9415509c51f7dafa1a8a425c3,2018-05-01 09:57:36,Jason Park,Add BrowserRouter,False
+f4500f7e4ce3c270143980906de13de4bb6fc2ba,2018-05-01 09:57:35,Jason Park,"Load categories/algorithms from filesystem, not from category.json",False
+2bf8a4a5834f67aaa3bd7580289676face2ce792,2018-05-01 09:57:34,Jason Park,Rewrote in React.js,False
+c165649345671fad5a817642bb74b36d0e0e65a1,2017-02-28 16:43:41,Jason Park,"Merge pull request #221 from rajraku/master
+
+Tracer to depict addition of nodes in binary search tree",True
+2a36705fc84b0f58961f585a7bd2a421e331f975,2017-02-28 15:20:32,Rajkumar Sriramulu,Updated layout stratergy to draw nodes,False
+21374adc45b81efc559a7d9d70a8d5151575658f,2017-02-27 14:51:22,Rajkumar Sriramulu,"Removed node collection dependecy from consumed app
+
+udpated code to store nodeCollection and root with in the construct
+tracer",False
+13323b04f22058c499559fdb1a4d1d2c3fe16fc9,2017-02-27 06:40:06,Rajkumar Sriramulu,"added trace to construct elements
+
+still work pending in construct and tree code",False
+20abd87036ec8ab8efa83ef1f3f4a1cca5d2f665,2016-08-07 00:33:22,Kevin Nadro,all algorithms use mathjax for complexities (#212),False
+b91f29ec27257c90af950e0b92c115ce4e8a0b4b,2016-07-15 11:40:39,Raghav Dua,"Merge pull request #210 from archie94/lca-revise
+
+Revise LCA visualization",True
+d3780196b7d0242ebcadb9c8ae58c23386b3dfc4,2016-07-13 01:07:25,Veljko Tornjanski,"Merge pull request #209 from nadr0/adding-mathjax
+
+Adding mathjax",True
+293257f9bcc154c1f26876b53361f2c3d70b5320,2016-07-12 20:07:35,Kevin Nadro,added powered by for mathjax,False
+86ebba453dd186ddec62d6c553da11917ed3e88b,2016-07-12 19:24:17,Kevin Nadro,added mathjax example,False
+856798b64c5fb7c916581e005fc1364dfbd4fc75,2016-07-08 21:01:11,Nemanja Stojanovic,"Merge pull request #206 from nadr0/tab-css-fix
+
+Tab button css fix",True
+db033eee1f87d9e6bed137cdde2e8bae0f239af5,2016-07-08 20:48:47,Kevin Nadro,"fixing colors
+
+- its odd with the colors being off by a few values when the button
+actually gets added to the container",False
+a516827dcc3ce909fa7a994bf9cde5d47a0c29e0,2016-07-08 18:29:54,Jason Park,"Merge pull request #204 from nadr0/auto-generate-tracers
+
+Auto generate tracers - fixing bugs",True
+cdb9104ea9ddb9c4db099cae15a7a1b41be8e0e0,2016-07-07 23:37:23,Kevin Nadro,fixing css,False
+8d32b475d54e3c93c6e714e1de67b4bc39515558,2016-07-07 19:25:44,Kevin Nadro,Merge remote-tracking branch 'parkjs814/master' into auto-generate-tracers,True
+a1c6fa2d68e161ed7e124a79396d401c92b79f24,2016-07-07 10:50:27,Kevin Nadro,"auto presses the trace tab
+
+- auto presses the trace tab for the user will be able to see the
+tracers once created for they don’t have to figure out on their own its
+under the tracer tab.",False
+9b6c5034873a0b66335e72bb25f7079fadb414e0,2016-07-07 10:33:17,Kevin Nadro,fixed strings with the array,False
+50d4237b43708b4aa544be810767c8ff749a9b1e,2016-07-07 10:10:50,Kevin Nadro,"fixed minor bugs
+
+- fixed the input fields to be text for matrix tracers can store
+characters and not just numbers
+- fixed the output of the 1d tracer array because it was storing it as
+a 2d matrix",False
+704b54d28a92e4df2664563fa14b177515bfac5e,2016-07-06 22:13:06,Jason Park,"Merge pull request #203 from nadr0/auto-generate-tracers
+
+Auto generate tracers",True
+24b222353c4d45b1837724c4f3a5d7bf049fb38f,2016-07-05 07:24:20,Kevin Nadro,fixed tracer naming,False
+aaf245fe090b9302dd18db349540063137264497,2016-07-05 07:12:18,Kevin Nadro,remove console log,False
+7f155b68a25a56ed009c8f111731111467d3700d,2016-07-05 07:11:28,Kevin Nadro,"working version..
+
+everything should be fine",False
+5de9066fca72522193e62ad56b21308711b04cae,2016-07-05 03:43:58,Kevin Nadro,"fixed reloading of the algorithm
+
+- changed the save/load of the algorithm for it correctly returns to
+the example after closing the generate overlay",False
+762e08b32d4085f043d1c85996925369007bc439,2016-07-05 01:18:46,Kevin Nadro,can't spam create the generate overlay,False
+4dbcdd652b3e414042b344f3e65de73bbd8d4294,2016-07-05 01:08:56,Kevin Nadro,"new window overlay for generating
+
+- removed the sandbox tab its not an algorithm now
+- the overlay can be opened by pressing “generate” button at the top
+menu bar
+- creates overlayed divs that have the functionality to generate a
+tracer and the code
+- (x) button to close and return to the algorithm",False
+2133eb42105395f60b96a0c7a5de0646876da16e,2016-07-04 10:50:19,Kevin Nadro,"fixing broken code
+
+- working prototype
+- need to fix the vertical split bar to have the divider between
+workspace and sandbox container work together",False
+cf81f168ddfe65544695284f35015524293efad2,2016-07-04 05:44:49,Kevin Nadro,"cleaning up code and files
+
+- making more files and renaming things",False
+46275ab345a924528e7f1eb147441115aec3a3fc,2016-07-03 10:28:59,Raghav Dua,"Merge pull request #201 from archie94/knight-tour
+
+Implemented Knight's Tour:Backtracking method",True
+6de1d289c20ec0cdd1b80558ad16b7c5de305dd5,2016-07-03 06:08:14,Kevin Nadro,"sandbox container show
+
+a way to make sure the sandbox container shows up when inside the
+sandbox tracers and when you aren’t in it",False
+653cce5a3b264f09c538c1983fa428a09099c092,2016-07-02 01:57:48,Kevin Nadro,"more updates
+
+- renaming of files
+- highlighting of the text
+- clear modules so it doesn’t make more than the 2",False
+f9eb7c25c49b0ade3ddb4516c77ced5c7aa7b512,2016-07-02 00:36:25,Kevin Nadro,"progress on generating javascript code
+
+got the logger to print the javascript code now",False
+3b2ec6883e66009ea552fb31a1ce0376d8cb9b5d,2016-06-30 20:51:58,Kevin Nadro,generating code progress,False
+650a6cd7b2af7c1ec21614f54bcf268c84dbc58e,2016-06-30 20:15:29,Kevin Nadro,fixing positions of the modules when creating,False
+df963a0a3c0ea20c633d85a3b6d385c398ae26d3,2016-06-30 10:53:28,Kevin Nadro,"2dmatrix tracer created!
+
+creates a 2dmatrix tracer with input values on it.",False
+b8b7b4b2534fc288b7cf448f02b7e441e048d5af,2016-06-30 09:40:45,Kevin Nadro,"more!
+
+figuring out how all of this stuff works, still very confused on where
+to include javascript files and how to access the code through all the
+modules",False
+57a5bde16f02afb0c41230c63ff3c30c37b2ac80,2016-06-29 22:26:35,Veljko Tornjanski,"Merge pull request #200 from RudraNilBasu/master
+
+Longest Palindromic Subsequence",True
+100f7c4c8998ecacc4fbe89ece0101d36050ec01,2016-06-29 21:48:44,RudraNilBasu,Undo changes in gulpfile.babel.js,False
+1338b0364a6a9cbf1d150cdc841ca919cc608a9a,2016-06-29 21:11:39,RudraNilBasu,Longest Palindromic Subsequence,False
+29ef1fa55e28b6c111ef2c1d27ea8d5c2e71679a,2016-06-29 20:36:14,Kevin Nadro,modules??,False
+c9e5093c6c63f986f375fa14e08808ab121f3460,2016-06-29 11:36:45,Kevin Nadro,"sandbox
+
+- replace the code with html for people can click buttons and fill out
+fields! they won’t need to see any data/code.js files!",False
+ddffeb0d0ffba9166ea604ef946d604dfec488f7,2016-06-29 09:44:58,Kevin Nadro,Merge remote-tracking branch 'parkjs814/master' into auto-generate-tracers,True
+abc51e9696844d751a7d7ac7aa203d6fab261b28,2016-06-29 01:06:30,Veljko Tornjanski,"Merge pull request #199 from archie94/pigeonhole-sort
+
+Implemented Pigeonhole Sort",True
+47814d415485aa1dd5febc263ce54f09c0605ac6,2016-06-29 00:53:25,archie94,Undo gulpfile.babel.js change,False
+c2f21c441bd6f96c8c38ab3c1170dae1227d5dd8,2016-06-29 00:50:53,archie94,Implemented Pigeonhole Sort,False
+1e311dc670f7121136903a46769e61a3aa016911,2016-06-28 16:21:10,Raghav Dua,"Merge pull request #198 from archie94/magic-square
+
+Implementation of Magic Square",True
+549f82617cf92fedbf539c1f33e9dd1991e7a0b7,2016-06-28 07:40:01,Kevin Nadro,Merge remote-tracking branch 'parkjs814/master' into sidebar-transition,True
+3e0fcd46e4693fd8f53d8a7499c25267d16f209a,2016-06-26 22:18:32,Raghav Dua,"Merge pull request #196 from RudraNilBasu/gh-pages
+
+Z Algorithm",True
+a548adedeb4a3b1d704002a1d2b96f596b096693,2016-06-26 06:33:09,Veljko Tornjanski,"Merge pull request #194 from nadr0/sidebar-transition
+
+Sidebar/Workspace transition",True
+e473105a2b6b42f78ee29966e85addbb61227c16,2016-06-26 03:44:39,Kevin Nadro,updating the sidebar and workspace transition,False
+9fb678197cee1f953ccd5b6b585b35995153affe,2016-06-26 00:31:57,Kevin Nadro,Merge branch 'parkjs814/master',True
+855a625b33560d1d55f756211341be03a8e3c330,2016-06-23 20:40:12,Jason Park,Update README.md,False
+992edcf280ffa14be3e83951e2078cedca02c6db,2016-06-23 20:32:43,Jason Park,add wiki (fixed),False
+828bf9c868492951a7e252faa2123ab0ade6e90e,2016-06-23 20:30:41,Jason Park,add wiki,False
+4964437a06e4e9ee8ac66633da0ab92716a73c60,2016-06-23 20:26:07,Jason Park,fix _setNodePositions (#193),False
+c80a94bdcd9612a3954a1cbd7aa904576a014eeb,2016-06-23 20:04:26,Jason Park,"Merge pull request #193 from nadr0/setting-graph-nodes
+
+Allowing for custom node positions on graphs",True
+2b4b77d9aa57ed8107eff31e3d402081adcc638b,2016-06-23 19:54:06,Jason Park,"Merge pull request #192 from parkjs814/duaraghav8-patch-1
+
+CONTRIBUTORS.md",True
+50b87f6d43b1ad5584b62ecac9b0f765104de4f5,2016-06-23 10:59:08,Kevin Nadro,"Allowing for custom node positions on graphs
+
+Can add custom (x,y) positions for all the nodes in a graph!  This code
+doesn’t not work or effect the graphs that are “trees” i.e using
+setTreeData.",False
+06ea1d1fda2d4729ee413441540e146c4a99edaf,2016-06-22 21:45:57,Raghav Dua,Create CONTRIBUTORS.md,False
+407a1cdceeac33ba8a1025c1323c6d375e02f79a,2016-06-22 13:01:34,Veljko Tornjanski,"Merge pull request #191 from archie94/longestCommonSubsequence
+
+Shortest Common Supersequence algorithm",True
+85d880703505a5c95ef7d8656dd9aca305762395,2016-06-20 19:39:02,Jason Park,fix submodule,False
+fb28371ebd82718afe116535986e1c2ef8e39e95,2016-06-20 17:53:36,Jason Park,add wiki submodule,False
+21eacd0c95952cb2ac917653db707b81fab3707c,2016-06-20 17:25:45,Jason Park,add palette function,False
+3e3620403a74f8e85d2af611fb16842d1225d438,2016-06-19 19:00:07,Jason Park,fix run button,False
+ad8334db160bfd00a93a20b09c5e705bb859448f,2016-06-19 18:56:53,Jason Park,"Merge pull request #187 from gautamkrishnar/patch-1
+
+Updated setup_top_menu.js",True
+09189347e9df7a182c7a8f9e8ebefcea881945bb,2016-06-19 18:49:33,Jason Park,improve coloring,False
+18dbf7c3756e1d71c8e86d32fab3855ab65cdb03,2016-06-19 18:42:53,Gautam krishna.R,Update setup_top_menu.js,False
+e01e456562840d3fb8fe0ca0f218e2f4bd3eb46f,2016-06-19 18:11:26,Jason Park,"Merge pull request #188 from nadr0/more-colors
+
+added color customization",True
+01192e41403dfc9d0474ee9e3e772c49531a7f16,2016-06-19 10:34:27,Kevin Nadro,"added color customization
+
+The coders are able to set the tracer’s colors to anything they want!
+Since I use the style background color attribute on the div it can
+accept a wide variety of values for the background color.
+
+I first wanted to pass in some color value when calling notify or
+select but then I realized there is a lot of issues with the amount of
+parameters . So I thought of doing some sort of global set like the
+HTML canvas/context does.
+
+Tracer now has 5 new methods for setting the colors.
+_Set(name)FillColor(color_goes_here).
+
+The logic of the setting fillColor and it being displayed should be
+similar to the canvas/context fillStyle setting. It will keep using
+that color until the color is switched again.
+
+I had to change the clear method inside array2d.js also to handle the
+new coloring change.",False
+12b6455ecc4dd8e710bd2bb54a85f5961b3bd1d9,2016-06-18 18:01:48,Gautam krishna.R,Update setup_top_menu.js,False
+c2b8c4c8a77b659b6c15992a4ee294453c873491,2016-06-18 02:04:06,Veljko Tornjanski,"Merge pull request #186 from archie94/longestCommonSubsequence
+
+Longest common subsequence",True
+4a10edb24b9165b77560125247190cdb1d229bae,2016-06-17 02:25:34,Veljko Tornjanski,"Merge pull request #184 from sjsyrek/correct-spelling-of-sieve
+
+Correct spelling of sieve_of_eratosthenes directory",True
+d9aeb5fbccd0e17a062e3ddbd9b41c6c0e1ecc0d,2016-06-17 01:14:57,Nemanja Stojanovic,"Merge pull request #183 from sjsyrek/correct-spelling-of-sieve
+
+Correct another misspelling of Eratosthenes",True
+90edd69d7e58b7ff85070e79ad562a96d41f169c,2016-06-16 23:52:27,Veljko Tornjanski,"Merge pull request #182 from sjsyrek/correct-spelling-of-sieve
+
+Correct one more misspelling of Eratosthenes",True
+96bf33e366d59fa1c49d7e62a0564fe4a3952617,2016-06-16 21:20:03,Jason Park,Merge branch 'nadr0-update-maze-viz',True
+21e86e3e88ca2516d167c6f0f88f061927d6bf72,2016-06-16 21:19:29,Steven Syrek,Correct misspellings of Sieve of Eratosthenes,False
+f14b68ad4780f9b0b13e82652e3f3bd931ce0327,2016-06-16 21:19:29,Jason Park,gulp prod,False
+4be3abae78382f997fd3100f40151981e455db0d,2016-06-16 21:19:29,Jason Park,move wiki directory to `gh-pages` branch,False
+e659b8ca114aefd9c2772ad1677582390185858e,2016-06-16 21:19:29,Jason Park,add images for meta tags,False
+060d68baa04c05b2cb8f746c68cf8db0c743b246,2016-06-16 16:40:01,Veljko Tornjanski,"Merge pull request #180 from sjsyrek/correct-spelling-of-sieve
+
+Correct misspellings of Sieve of Eratosthenes",True
+c0f0b570406bc32c798c3e3f3443fddbf34eea87,2016-06-16 02:50:42,Steven Syrek,Correct misspellings of Sieve of Eratosthenes,False
+8b16b3190668e63c71ea3244d3a5ec104fad1d99,2016-06-15 18:51:08,Jason Park,gulp prod,False
+eaae81e92c857137a0922e8e96cfa6782d2aa344,2016-06-15 18:43:25,Jason Park,move wiki directory to `gh-pages` branch,False
+21d2b8563fb9b5ef0aa8fd2afca0a827f7c6c220,2016-06-15 18:43:25,Jason Park,add images for meta tags,False
+86ae97b3de328042188f848c884ed16e271abb26,2016-06-14 01:39:48,Veljko Tornjanski,"Merge pull request #177 from TornjV/fix
+
+Move npm script",True
+587b673283f66ae173b7b4a29627fecff71d9b15,2016-06-14 01:39:24,TornjV,Move npm script,False
+6f3c8311823c1504fb9f8cb689c188817b3c23c9,2016-06-14 00:21:24,Jason Park,remove auto-build files,False
+0f9f7428bd28a42ed2c4b806d6d690014ccec8ab,2016-06-14 00:17:45,Jason Park,remove directories that were also in `gh-pages` branch,False
+bee3c1d24ffa0bfd353ff565e95478bea6654c65,2016-06-13 23:17:41,Jason Park,git ignore npm-debug.log,False
+1e2be5fa5e04d066b38779c6c624ffa0bb9811f3,2016-06-13 23:14:00,Jason Park,heroku test,False
+24e8f85b0d586dbb2faf705c532b6b0636b16b77,2016-06-13 23:11:53,Jason Park,heroku test,False
+54f975d520f899e029d17d7a19b4d556c4a4c43a,2016-06-13 23:08:38,Jason Park,heroku test,False
+2159390b066309f2bdcf8e8e53a552a1b001f6cd,2016-06-13 23:07:54,Jason Park,heroku test,False
+1b6b2dc93cb57ab093d6caf614efe0c49ba985c7,2016-06-13 23:00:42,Jason Park,heroku test,False
+1363ddc3bc852536b1a5c622393b4416af48095a,2016-06-13 22:28:12,Jason Park,heroku test,False
+bcc586e4a1153dc39e5f054cac2795a4497a93c4,2016-06-13 22:01:12,Jason Park,Merge branch 'temp' into gh-pages,True
+eea9c23fbae7700a374b66627d4b0539e6c57726,2016-06-13 22:00:31,Jason Park,merge,False
+da7ee62c8068aaef080d09b0bdac1de9107126be,2016-06-13 21:59:37,Jason Park,support es6 syntax in code/data editor,False
+eb24b238802fee9a499c5a0359099055f3cc30b7,2016-06-13 11:24:46,Raghav Dua,"Merge pull request #175 from duaraghav8/gh-pages
+
+removed explicit Promise declaration from gulpfile",True
+b11b826e08f340e9fcbba93e3d48ff7a14bed035,2016-06-13 11:21:33,EC2 Default User,removed explicit Promise declaration from gulpfile,False
+679023d807617d9bc40e50eceacde4bea63bcdec,2016-06-13 11:04:56,Raghav Dua,"Merge pull request #174 from nadr0/maze-viz
+
+Added Maze creation example",True
+2ad560b3f7f086a90456535f15558f2e6440b0f8,2016-06-13 10:04:52,Kevin Nadro,"Added Maze creation example
+
+I saw that there isn’t anything on disjoint sets or mazes under the
+examples so I implemented the process of making a maze.
+
+I have visualized a maze creation before
+(https://github.com/nadr0/Maze). I have always been a fan of
+visualizing data structures or algorithms and I though this was the
+perfect chance!
+
+My code is rather large but it gets the job done.
+
+I",False
+a43dc23e25bb22e185dd94b61d21ba5876695a5e,2016-06-12 22:14:22,Jason Park,gulp build,False
+810ad7d7bd97031a383b2ddc9f871bdedd29b5b9,2016-06-12 22:13:24,Jason Park,"Merge pull request #173 from jarettgross/counting-sort
+
+Implemented counting sort",True
+8be1791cd71389b82ef3e81dc6722d5e2072276b,2016-06-12 21:59:21,Jarett Gross,Implemented counting sort,False
+38c70748c721d9cad4d82b865c8e9347c472fce9,2016-06-12 20:52:38,Jason Park,responsive top menu,False
+2b5ad89cd49176c10a973a210a3bacf8734f2713,2016-06-12 20:33:59,Jason Park,fix cross browser compatibility & toggle fullscreen,False
+98a0acc1ea672ffd29122fda88094c77a875a724,2016-06-12 20:01:35,Jason Park,"Merge pull request #172 from parkjs814/fullscreen
+
+Fullscreen",True
+900a2d0e26094a56eabb49490ce1a3ab8cf20758,2016-06-12 20:00:59,Jason Park,fix #170,False
+1b063bda5673bd8b5ba72392f1f8e3210432ec28,2016-06-12 19:52:13,Jason Park,"Merge pull request #171 from duaraghav8/gh-pages
+
+css needs to be fixed when enters fullscreen",True
+2a9b4df7b88b5c4c4173556a2158b56c49a116a4,2016-06-12 18:06:34,EC2 Default User,Removed console log statements,False
+1639ea03905507242302af72025b259e4ce3ec72,2016-06-12 17:40:13,EC2 Default User,Fullscreen Mode,False
+7384a6281ee6fa22d6a643a5846fd77b8d8a110e,2016-06-12 13:59:07,Jason Park,fix minor bug in resizing,False
+9db9ed4dbf9440ffdee391228679cc77f27d417d,2016-06-12 13:48:04,Jason Park,add search icon,False
+a66696b2c9686ab44091c06ffe72858f21b6e0fd,2016-06-12 13:22:07,Jason Park,consistent design of powered-by-list,False
+64e54fb46d72605413548a0320262db1c1e671a7,2016-06-12 13:11:57,Jason Park,Merge branch 'temp' into gh-pages,True
+89aed87ab6668b46faa323812feb677a6f8d56d8,2016-06-12 13:10:39,Jason Park,fix #168,False
+83068054694dacf75e664dbaa7196a610a42dc12,2016-06-12 13:01:01,Raghav Dua,"Merge pull request #169 from duaraghav8/gh-pages
+
+Minor Refactoring",True
+6bbe8d78871a290df237b9f57727d871f7b6efd0,2016-06-12 12:59:54,EC2 Default User,"Merge upstream, clear conflicts",True
+e17a1b297a60ad7dead555f90ffe2aeee8e3c0c0,2016-06-12 12:57:39,EC2 Default User,Minor Refactoring,False
+b2992de62c865964b854861128b946000873eca8,2016-06-12 12:46:26,Jason Park,rebuild css,False
+e297a8b236e7d77b5f553318120b4992644c5239,2016-06-12 12:39:33,Jason Park,"Merge pull request #165 from jarettgross/hide-firefox-spinners
+
+hid spinners for number input in firefox",True
+9bc206ca623679e6a160df0c013d9c43b22fc3a9,2016-06-12 12:38:32,Jason Park,"Merge pull request #167 from duaraghav8/gh-pages
+
+Search Bar",True
+1c78a20bfc7995efd090d31951cbc0cdca7a2352,2016-06-12 12:01:45,EC2 Default User,compilation,False
+9422c4b4273303123f8da7f541da68eaae2ff810,2016-06-12 12:00:19,EC2 Default User,Merge upstream,True
+e0f6a941c2dba8c6991fa3e1bfb110f1f3a95529,2016-06-12 11:56:27,EC2 Default User,gulpfile Cleanup,False
+b1b117d7faa08a82df092ea74320e319af9e0d87,2016-06-12 04:52:35,Jarett Gross,hid spinners for number input in firefox,False
+9b01f1a60b4268efe0d3e3f926d0900cd73e913c,2016-06-12 01:13:43,duaraghav8@gmail,Completed Search Feature,False
+95c3df0cb3e73e145e078d55c4c35e086514a7c6,2016-06-11 23:45:11,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+7c48b76d98b0a1abc9489c7b80b481be11746abd,2016-06-11 23:37:45,Jason Park,change edge color of graph,False
+c9ae111a8bc207d4931d728859bd21ccccc7e7e2,2016-06-11 16:57:24,duaraghav8@gmail,Search Feature - Initial Commit,False
+05584964d9d00ab56fd780ec6dc5b51e8bd2fb26,2016-06-11 09:48:21,Nemanja Stojanovic,"Merge pull request #162 from nem035/side-menu
+
+Side menu category animation",True
+a91169580cde706b360195ec574c915bcfdbfbf8,2016-06-11 09:33:48,nem035,finished sidebar animation,False
+d5f382db8a9a19d666ce74432c7a864dc9f4b41d,2016-06-11 09:26:04,nem035,cleaned up powered by icons,False
+f6bab15052d1991d6b2ec5f2741bd709b88788c1,2016-06-11 09:20:42,nem035,added powered-by animation,False
+68283a260aa912588e1e9a6a8e2a5e6e48e7c1fb,2016-06-11 09:17:02,nem035,cleanup,False
+8d5078a0ae40979b18e9a4f946b7402498532fc1,2016-06-11 09:14:12,nem035,side menu algorithms animation,False
+405a2d7a0011458f3dadf259dda45aa7470281f0,2016-06-11 08:58:09,nem035,side menu button cleanup,False
+d8f8c664cccd8a771d4e4e390161dd1bf59347be,2016-06-11 08:46:59,nem035,css button cleanup,False
+031a3bc80c9d4c7cc84656ca9b0164c57a87e3ca,2016-06-11 08:18:33,nem035,wiki,False
+742c86cf3d18be00603c7689cae2afec4cfeed03,2016-06-11 04:01:35,Jason Park,fix tab pagination,False
+70d2635e862c96d4e88f7733d95612f112b69f04,2016-06-11 03:45:31,Jason Park,fix #156,False
+fc985dd6d8dc5b79385eca666a976b7723b3b2fa,2016-06-11 02:46:24,Nemanja Stojanovic,"Merge pull request #161 from jarettgross/cellular-automata-branch
+
+added cellular automata to category.json",True
+1caf4c12ef85a0acbebcc743e09d5be311744a15,2016-06-11 02:35:13,Nemanja Stojanovic,"Merge pull request #160 from jarettgross/cellular-automata-branch
+
+implemented cellular automata algorithm",True
+bc15c7caafa51c0a259843148458474f8ddd709d,2016-06-11 01:40:45,Nemanja Stojanovic,"Merge pull request #158 from nem035/chat-tracer-coloring-fix
+
+Updated colors",True
+1fa5905bee88dc377068b109e7fd51956d4405d9,2016-06-11 01:39:46,Nemanja Stojanovic,updated colors,False
+3405df446183ae62813a03b2d375a4f4caccc1f2,2016-06-11 01:02:46,Nemanja Stojanovic,"Merge pull request #157 from nem035/update-notify-color
+
+Updated notify color",True
+5553a897550cd32ecacaa4f6d3eb413365050394,2016-06-11 01:02:04,Nemanja Stojanovic,updated,False
+caeb77ee47cbc775cbb8e72e84c484350d0abbd9,2016-06-11 00:18:07,Nemanja Stojanovic,"Merge pull request #154 from nem035/css-improvements
+
+Css improvements",True
+0c26637e635110900472e43b8dd2a0403b8d9c83,2016-06-10 15:14:06,nem035,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into css-improvements,True
+9774f9041b934d30a8bffe88b1423d302dc002b4,2016-06-10 15:13:38,nem035,cleanup,False
+d006f89143c75ce43f82581b5621064909fbbbe5,2016-06-10 15:10:50,nem035,imroved top nav display and files bar,False
+4d4abe93e67d80e88c96fa6c986afd21b331e8bc,2016-06-10 14:57:29,nem035,further color improvement,False
+92431768578bf9b80be285fbf05af22843f70427,2016-06-10 14:51:35,nem035,further improvements,False
+0247d3243f1c947b8751392e867bf75d74e88097,2016-06-10 14:45:45,nem035,added the wiki and improved display of the code editor,False
+be4b6d4b45b46b2292fe6f9e7157ad008fdfe985,2016-06-10 14:37:47,nem035,improved display of the module wrapper,False
+4ec34bebe72c62fd58fe8caf8be2a69359272311,2016-06-10 08:58:20,Nemanja Stojanovic,"Merge pull request #152 from nem035/remove-vendor-prefixes
+
+Remove browser vendor prefixes from css",True
+01063073278a489304f0b4110487eae893bc8984,2016-06-10 08:56:00,nem035,cleaned up,False
+4d9838b2ee5008d23e00ab67a3ac65bdb46eae90,2016-06-09 22:35:00,Jason Park,redirect previously versioned scratch url to new one,False
+717be6ebd106bb98685133150b03fd23282e36db,2016-06-09 21:58:05,Nemanja Stojanovic,"Merge pull request #145 from archie94/ceasar-cipher-string-with-space
+
+Ceasar cipher fix-Encrypt string with spaces",True
+ac509b1247eeaa4f55703ea04e8de3a1a200460c,2016-06-09 21:55:45,Jason Park,add Integer.random function,False
+54d27909616a3c995f4b1b5995794606c8c9b389,2016-06-09 21:17:46,Nemanja Stojanovic,"Merge pull request #151 from nem035/line-hlight-browsers-bug-fix
+
+Line hlight browsers bug fix",True
+67a363968c1a18403fc086ce1f2e35d63e252c10,2016-06-09 21:17:03,Nemanja Stojanovic,updated wiki repo,False
+e8620cfa92a3de888fd0455eea64af5eef7403c4,2016-06-09 21:16:21,Nemanja Stojanovic,build files,False
+8a149b87ba528e9c431f43c5163c635cb106c1ef,2016-06-09 21:14:58,Nemanja Stojanovic,browser support bug fix,False
+776559690d1d85f4e5b15a8d35b7cc6c28a733d6,2016-06-09 21:06:25,Nemanja Stojanovic,"Merge pull request #150 from nem035/line-hlight-fix
+
+Line hlight fix",True
+faf3970f58ea49d8edeb5c2e457adce67f0799c9,2016-06-09 21:05:28,Nemanja Stojanovic,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into line-hlight-fix,True
+eb1217073eb714784d8e7fe6108954e5a5d8921e,2016-06-09 21:04:50,Nemanja Stojanovic,improved color for line highlight,False
+c621fa0711a9a015aef07ffe56c783643895f05b,2016-06-09 20:46:59,Jason Park,fix bug where index 0 was not updated in ChartTracer,False
+2348815fafb40d2f51962f65df53100fe5bfadfe,2016-06-09 20:42:31,Jason Park,can attach ChartTracer to Array1DTracer,False
+0ebd242ad7915a5368906377e7b009ddbb5bfc4a,2016-06-09 20:10:52,Jason Park,switch colors of selected/notified bar on chart,False
+ec4ae18322110c14d249559daa4fd73d3882b021,2016-06-09 20:08:00,Jason Park,fix chart setdata,False
+a1d19916db3b2668a29120fba3a0da656d752c8a,2016-06-09 20:02:02,Jason Park,update wiki list,False
+d0bed32640ce9c284c85e5692a837cedec429761,2016-06-09 20:00:19,Jason Park,update wiki,False
+68b151db0979e9edc9720dfe9c90077849c1b85e,2016-06-09 02:45:47,Nemanja Stojanovic,"Merge pull request #147 from nem035/side-menu-bug-fix
+
+Side menu bug fix",True
+da1d2dca57c70ff69c8017ce22bce7b45607a29d,2016-06-09 02:44:46,Nemanja Stojanovic,cleanup,False
+3f72b939503924a66ca170e453df0a7e88732854,2016-06-09 02:44:21,Nemanja Stojanovic,fixed a bug where first algorithm was not being shown,False
+954db57fd95acdfb016f8c3e83749bfd459cf751,2016-06-09 02:31:04,Nemanja Stojanovic,"Merge pull request #146 from nem035/side-menu-improvement
+
+Side menu improvement",True
+a3f420f739184c911ffd84bd2d70f35ad1d5ca60,2016-06-09 02:29:54,Nemanja Stojanovic,Improved display of side menu categories,False
+40acc193346e77f7632499112549c6394be1f0da,2016-06-09 02:23:05,Nemanja Stojanovic,Improved rendering of side menu categories,False
+c615073f89097d462b31d45082f640aeea46a8e2,2016-06-07 22:51:47,Jason Park,add showdown.min.js.map,False
+ff849597c923af78fee766d68c3b166e996f36a3,2016-06-07 22:49:32,Jason Park,minor,False
+f9bdcdbb64f738a0ad9a4685ff07ed472edb2409,2016-06-07 22:42:06,Jason Park,reset top menu if build fails,False
+65ed93db5c32827b59d8832f138d5aa7745b011f,2016-06-07 22:34:09,Jason Park,highlight current line when running,False
+c7fa557ce06cb5bcb04b3e84db7e830a79dd00ac,2016-06-07 20:20:21,Jason Park,update powered-by,False
+5e5033680ec6014eb16116b5831f0854c083b041,2016-06-07 20:08:42,Jason Park,add submodule,False
+7dfb8a6639af2d322a5bdcaf862f795e84d8d753,2016-06-07 20:07:24,Jason Park,submodule test(0),False
+e56dc95def4645cf0f1f26ae5adac40c3fd3ba50,2016-06-06 00:51:05,Jason Park,rename documentation to Tracer API,False
+60c62406602ecbaab264eae99e89f602409266c3,2016-06-06 00:48:37,Jason Park,scroll to top of wiki,False
+d00cab09ce21499b782623bea6cb877169de8498,2016-06-06 00:39:32,Jason Park,fix minor,False
+53e7cf81945404804c64b22188e8d65fc5247e59,2016-06-06 00:26:44,Jason Park,show heading of current wiki,False
+f7c98468101f6e40620b3cc0eab0299129d6e74f,2016-06-06 00:21:47,Jason Park,fix link within wiki,False
+1286062904174b408f3528942c41b0fe97fb4c95,2016-06-05 23:57:06,Jason Park,show md,False
+a4d1f33caaa6183e64fdb22d524ec3b5d7369556,2016-06-05 23:27:31,Jason Park,add documentation tab,False
+88a112e8a89c6958dada31d422e201b757f6be4b,2016-06-05 23:16:15,Jason Park,add wiki.json,False
+598bd68001573dd25fc1843ca9d24d908b5ceab7,2016-06-05 23:11:09,Jason Park,add wiki md files,False
+e240db025a8fd122219de7c409a6b6b78b9ee504,2016-06-04 10:32:02,Nemanja Stojanovic,"Merge pull request #139 from nem035/top-menu-improvements
+
+Top menu improvements",True
+d467815b1d9b2f47cacedad2894b1bcb5803380c,2016-06-04 10:20:22,nem035,"added ""use strict"" to all files that did not have it",False
+b6f42c555627a8e7a7acac43765024b1c7a5db2d,2016-06-04 10:15:54,nem035,cleaned up the tracer_manager/manager by refactoring all DOM code into its own module,False
+086b1ec58a7bfc06c17ec26000e8c9c4e9e4e935,2016-06-04 10:05:24,nem035,Modularized top menu functionality into its own module,False
+cf924db09f1d3a46af1325076df826d3e49a4a90,2016-06-04 09:53:25,nem035,"Added ""pressed"" effect to top menu buttons",False
+7d7c9230ca207ec4165d8b042d59d14c1531b89e,2016-06-04 09:43:03,nem035,Added width of the pause/resume btn so its always the same,False
+43fa42e98eb6e8bba07b09fa359672d58295e547,2016-06-04 09:33:25,nem035,made the flow control buttons disabled until the user starts running the algorithm,False
+1ce36127c930c7fd99b49d8d92f1a492e08e1ee7,2016-06-04 09:11:37,Nemanja Stojanovic,"Merge pull request #138 from nem035/bug-fix
+
+Made the Resume button turn on the Run button",True
+903364d471f221ef233c3462f9219c46631d4db5,2016-06-04 09:10:45,nem035,Made the Resume button turn on the Run button,False
+c513859499d43016be46e54496eb8b978bdc6b34,2016-06-04 09:05:14,Nemanja Stojanovic,"Merge pull request #137 from nem035/tree-traversal
+
+Added tree traversal algorithms (inorder, preorder, postorder) and other minor fixes",True
+c9fb641a58647360ad0cdbba7c925059fc9dd6ed,2016-06-04 08:50:09,nem035,Improved display of algorithm applications list,False
+5f909a8e5ace5384463ff5221f2cf1e4c74cdb52,2016-06-04 08:46:43,nem035,added inorder tree traversal,False
+2a7c9c0efc720a99453acae9248f61b63495fecb,2016-06-04 07:49:17,nem035,remove unused depndency,False
+8102e6ac439e647673ab0636d4fe2c72672d2539,2016-06-03 21:55:11,Jason Park,improve weighted graphs,False
+93dba82152351a7033e981d64daa57bec0821978,2016-06-03 11:23:41,Jason Park,improve dfs examples,False
+50b074e2811cbadc43bc6332f86b29d7cb54c0dc,2016-06-03 09:04:01,Jason Park,support setTreeData on UndirectedGraph/WeightedUndirectedGraph,False
+00cb9c8c98fb0ff52a7ae9c90b51a1b9852d05ee,2016-06-03 08:21:33,Jason Park,minor change in TracerManager,False
+ff7160f604a6a5a9c748a017dd4cfa527bdc37ac,2016-06-03 07:56:38,Jason Park,improve run/pause buttons,False
+0a97d74acdf5e6219cf2332d99a53096da57d535,2016-06-03 07:44:25,Jason Park,bring loading-slider front,False
+e838680d9a7cc55644bd9a720cdb31360c0c7a20,2016-06-03 07:42:09,Jason Park,optimize chart,False
+664ff0c5bf4b0f39df870ebaa97f1414b310251c,2016-06-03 06:46:34,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+eec42e0565af99b7270c69d09d910bc5c35409d0,2016-06-03 06:39:08,Jason Park,auto resize chart,False
+a7263f75065edcf598dcb0f14fd18015fe5d0cb5,2016-06-03 06:24:44,Jason Park,fix chart overlapping,False
+e2ed10f0daf42c653e988f5488adacac21cbe8ce,2016-06-02 22:11:15,Jason Park,remove legend from chart,False
+314b3f704a00892f2b34364ca4b71e5963117180,2016-06-02 22:08:00,Jason Park,remove chart before recreating,False
+0fbc71cc82366ebadaf3897c28007e4336f23ccb,2016-06-02 21:55:36,Nemanja Stojanovic,"Merge pull request #133 from nem035/visual-improvements
+
+Visual improvements",True
+ee630557561ce1aa89362580b489159a8d63d4ab,2016-06-02 21:53:48,Nemanja Stojanovic,Improved control button active color,False
+14910f57e94f075bf1291174488d7aa185d02743,2016-06-02 21:52:23,Nemanja Stojanovic,Improved control button active color,False
+4edcad602aa6f83f1579da35df20ad6686d62fcf,2016-06-02 21:49:35,Nemanja Stojanovic,Improved display of complexities and control buttons.,False
+dc3a853be38477557acfdc84d809bb07ca5cc837,2016-06-02 20:58:37,Nemanja Stojanovic,Merge branch 'gh-pages' of https://github.com/nem035/AlgorithmVisualizer into gh-pages,True
+fbeffec20616df1986dc25978556ec82a857b454,2016-06-02 13:35:33,Jason Park,es6-style tracers,False
+55d6c99812f7a84199d8394dfd3f34a6a052f1f1,2016-06-02 08:18:37,nem035,Merge remote-tracking branch 'parkjs814/gh-pages' into gh-pages,True
+599099473f94ee1d1a440b3b913cec7bfb27eff3,2016-06-01 21:42:54,Nemanja Stojanovic,"Merge pull request #130 from johnhuichen/gh-pages
+
+Added comment for cycle sort",True
+6c01d05652343d0c00a3172aba156a0ff09ac8cb,2016-06-01 19:25:05,johnhuichen,"Merge pull request #1 from parkjs814/gh-pages
+
+Merge with main branch",True
+f46abc684b54ce1d85b2c3c4b5fe71f50942f1aa,2016-06-01 14:26:31,Jason Park,Merge branch 'johnhuichen-gh-pages' into gh-pages,True
+02f765c2b5997d52c232981751f555a0f508b274,2016-06-01 14:24:59,Jason Park,Merge branch 'gh-pages' of https://github.com/johnhuichen/AlgorithmVisualizer into johnhuichen-gh-pages,True
+f46a3caa4678e0dedb7c1682cb06a2f13c32242b,2016-06-01 10:49:03,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+622e83129c1d484dcc4348aa4dcddb8a43deb631,2016-06-01 10:48:50,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+cc2f8ba8cd4b18f0581611488fbd29b3b5d1beae,2016-06-01 10:48:02,Nemanja Stojanovic,"Merge pull request #127 from fclvbfm934/gh-pages
+
+Added Euclidean Algorithm to the Number Theory section",True
+9f47884b93a8f93d1009d40d976ba9d8b7aff9ba,2016-06-01 10:43:50,Nemanja Stojanovic,"Merge pull request #125 from chuchuhao/patch-1
+
+fix reference error",True
+39e2ef0049f6a83165466418b4f1d8872a2ec7fe,2016-06-01 10:43:23,Jason Park,separate tracer module and data module,False
+025322cbf555b74e5cda2a4bf5e91da912c4ebce,2016-06-01 10:05:24,Jonathan Xia,merge from remote,True
+3e9fc491fafbada5df56dddb1e1569510eb12be6,2016-06-01 09:55:00,Nemanja Stojanovic,"Merge pull request #126 from nem035/small-cleanup
+
+Cleanup",True
+fbfe62795e942d209fdb8d66758c8e3fd4954787,2016-06-01 09:53:10,nem035,Cleaned up server/helpers with template strings and array destructuring.,False
+945db588ad239a02c02d5a1c2a3fa8bbe17836e5,2016-06-01 09:08:18,nem035,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+3c0d2c6d55f0f7eaa77a87667e3a1fd042941650,2016-06-01 08:56:44,Jason Park,fix #100,False
+03663e2a9acb6c214b9454753732bc678c90ec34,2016-06-01 08:45:32,Jason Park,fix #112,False
+20312536b7ebbb792a6b482b4e5f3baba0d52425,2016-06-01 08:28:15,Jason Park,remove ES6.md,False
+9b4ce428733ac1e7f3209e444af6badf54b487d4,2016-06-01 08:23:17,nem035,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+e45864ba8e21b1d397f2ef631397241a8efc5114,2016-06-01 08:21:45,Jason Park,git clean,False
+9f2f981fb5a43a2613c3eb5a816215b4f92c345c,2016-06-01 08:16:58,Jason Park,git clean,False
+966c9aa5101cedd8e790ea97020d98745c995afe,2016-06-01 08:14:48,Jason Park,Merge branch 'temp' into gh-pages,True
+4d10fe5a5d5011495fa2b30928e3eacd84cfcde8,2016-06-01 08:14:23,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+f521c693c31b4f8005497b34b369ef2d407eb21a,2016-06-01 08:03:03,Jason Park,minor,False
+1defa90e81c8933ec4f7279268d152449f53711f,2016-06-01 07:55:42,Jason Park,Update README.md,False
+9dd2e5fddd4bd5f89addd2da2eb210ecde4fd69a,2016-06-01 07:54:22,Jason Park,Update README.md,False
+0332324f1ed03be00397aac12373825eab8d21a8,2016-06-01 07:51:35,Jonathan Xia,Merge remote-tracking branch 'refs/remotes/parkjs814/gh-pages' into gh-pages,True
+851177a8588b01a12af511127cd4ec0e68f2a245,2016-06-01 07:38:08,Jason Park,Update ES6.md,False
+f7e92393b7a7af1951ab4905f75dc69c4a111400,2016-06-01 07:27:08,Jason Park,"Merge pull request #123 from parkjs814/master
+
+Master",True
+4250a6f7e4b7cc4072cc452861bcc0e0e124d086,2016-06-01 07:19:48,Jason Park,fix tracer-naming err,False
+1dc3d8706e6343ebcfcc03fb1ed0e9a7becd7959,2016-06-01 07:04:23,Jason Park,fix link err,False
+5e40fc0275d41dbe0da7aff7c468f3387688a585,2016-06-01 06:54:23,Jason Park,gulp refresh,False
+a937e19d55bbe5998ffce47e4fb04bbcc81e5fb8,2016-06-01 06:53:08,Jason Park,Merge branch 'gh-pages',True
+6398108e4a28be977aa3450497738443109ad452,2016-06-01 06:51:26,Jason Park,Merge branch 'master' of https://github.com/parkjs814/AlgorithmVisualizer,True
+011cc7b36bfdca40897704645aaf0a64b9cf7b70,2016-06-01 06:41:05,Jason Park,update core js to be consistent with the latest gh-pages,False
+418b3128ead5d9fe29452b3622900d4734051701,2016-05-31 20:43:35,Nemanja Stojanovic,refactored loading slider,False
+942c030984b7310b73f5f30522720065ed17b393,2016-05-31 11:04:02,Jason Park,merge with gh-pages branch,True
+fd90c2a8e5d899407d342edefeae63498f8ee5a3,2016-05-31 00:59:09,Veljko Tornjanski,"Merge pull request #118 from TornjV/master
+
+Add coordinate system tracer",True
+7d3f7561f3c4af756f77dd24ea8e22171d93a10b,2016-05-31 00:58:37,TornjV,Add coordinate system tracer,False
+30503e10102d5a9f3ab9489cac633560e27bac1f,2016-05-30 10:18:09,nem035,small bug fix,False
+efd14a273948d50960a51ae74e8e24176bcf4dfe,2016-05-29 22:38:17,Jason Park,Update ES6.md,False
+bc9fd971acdf9dbf8ae8cdd92d53269b1f944034,2016-05-29 22:36:37,Jason Park,add .babelrc,False
+e8f346aee4d36b6051e787c1a3098de4c5781b4d,2016-05-29 22:32:16,Jason Park,"Merge pull request #113 from shoumma/gh-pages
+
+fixed the scrolling issue with tab",True
+88777dc23841ba8b5ce38e76aaba078066db2d40,2016-05-29 22:13:04,Provash Shoumma,fixed the scrolling issue with tab,False
+e073b0fd3ff6d08766ff833b2d9932669ebdf6f8,2016-05-29 14:33:48,nem035,cleanup,False
+fae591d55b3471c2b9f2e381eb84bbc79fff2bee,2016-05-29 14:12:56,nem035,Small formatting improvements.,False
+a32a4bcdc7f082cc65be5c8f7089095d2f8409bd,2016-05-29 14:07:00,nem035,Added ES6.md and updated README.md to reference it.,False
+61022441dcb5792af9305bc78cf8a2d3b5e040bf,2016-05-29 13:22:45,Nemanja Stojanovic,"Merge pull request #109 from RudraNilBasu/gh-pages
+
+Seive of Erathrones",True
+3da7ea7ea91326ae9d2e8550058bc29c0ed01dab,2016-05-29 12:03:19,nem035,Finished converting to es6,False
+3c00822cf7ebad3fd9ee8055397756c6205ac058,2016-05-29 03:27:27,Jason Park,"Merge pull request #108 from archie94/jobScheduling
+
+Job Scheduling algorithm",True
+4a46a63b8c7b8feb4951ecf761d336b393a07de0,2016-05-29 02:52:42,Jason Park,minor in paths,False
+1b490467edd07d0605d6819576d0937293a6f7fe,2016-05-29 02:10:05,Jason Park,fix minor in redirection,False
+d3d1d8280b53a56a801da3b56a95390d96f27e4f,2016-05-29 01:46:40,Jason Park,"rename hash ""algorithm"" to ""path""",False
+6d6faa2bbe638c740d449b316415aa245affa04a,2016-05-29 01:46:39,Jason Park,minor,False
+63bad1db4862db5f01f27e5a2d18cf72d8271f15,2016-05-29 01:46:39,Jason Park,"add file into hash, instead of tab",False
+aa7decc53641d6a185f1a548a778b5ad6c3402af,2016-05-29 01:46:39,Jason Park,redirect previously versioned scratch url to new one,False
+41aeef8f61ee9fad5e1c508ebbc61789239b5adb,2016-05-29 01:46:39,Jason Park,express shared url of scratch paper as hash,False
+c9f67bfd7e443309ccc0655898c6b35c136fca95,2016-05-29 00:35:19,Veljko Tornjanski,"Merge pull request #107 from archie94/rabinKarp
+
+Added Rabin-Karp Algorithm",True
+64d25bc627d33ce4844e5a0c0f8a375003c0d07d,2016-05-28 23:42:53,Jason Park,opencollective logo.psd,False
+9c81d1ba8b40490e160ddb4ef4a93032ad555999,2016-05-28 22:52:39,Raghav Dua,"Merge pull request #106 from johnhuichen/gh-pages
+
+Added Comb Sort",True
+0947acb78f43749684eaf57c960808ddb15777aa,2016-05-28 14:45:44,Raghav Dua,"Merge pull request #104 from duaraghav8/gh-pages
+
+Added PageRank Algorithm",True
+11522de38eb7400c7ae294f2f0110d11bdbf2072,2016-05-28 14:41:06,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages' into gh-pages,True
+6c90c7cab540a97251f5db6cc6f24b32fc015a1d,2016-05-28 14:10:56,Veljko Tornjanski,"Merge pull request #103 from TornjV/fix/dijkstra-visualization
+
+Fix visualization",True
+0b1add48fd994fecd7ba729311c8e1f9c9ff8aa1,2016-05-28 14:09:15,TornjV,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into fix/dijkstra-visualization,True
+ba55993524c05b7eca9bbb92ab51fd5b3b05d611,2016-05-28 13:26:34,Veljko Tornjanski,"Merge pull request #102 from TornjV/fix/link
+
+Link cleanup",True
+5a6bf91e6b5444c09b6fc61e62624059fbd738c7,2016-05-28 13:25:16,TornjV,Link cleanup,False
+b235cfb6e3e28e8d1be2875f9567252be35a2079,2016-05-28 13:02:47,Veljko Tornjanski,"Merge pull request #101 from TornjV/fix/link
+
+Fix link hash and scratch paper",True
+a35bb55d72bfc1a0fc1e278d97810680a9f20955,2016-05-28 13:00:24,TornjV,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+6e01377e73803402f1d51cd6daf8e003740c377e,2016-05-28 13:00:20,TornjV,Fix link hash and scratch paper,False
+6787faaff61aa60edfbe411b879164e73115a633,2016-05-28 12:52:28,Jason Park,"Merge pull request #98 from duaraghav8/gh-pages
+
+Bug fix in Array2dTracer _notify ()",True
+dcf8acf087573d54bfccede84f70881b91616794,2016-05-28 12:14:01,duaraghav8@gmail,Bug fix in Array2dTracer _notify (),False
+7ec7894d011d46b7022e0b2344cffe940225c8c8,2016-05-28 12:04:27,Veljko Tornjanski,"Merge pull request #97 from amr-salama/gh-pages
+
+add link/hash navigation to algorithms",True
+f1bcca168a66a036c0ba42fc6e742fb4039162de,2016-05-28 11:32:39,Amr Salama,add link/hash navigation,False
+ad0e8ba249601f88a492675c49b2e5733c88cac6,2016-05-28 10:19:05,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+fe04237be7299f1b8614bd081eee7e4eed5190b1,2016-05-28 10:18:58,Jason Park,add _separate/_deseparate methods in array1d,False
+1913ab3fccbd41de60c1d6f65a6482ecb10f7a3c,2016-05-28 06:42:52,Veljko Tornjanski,"Merge pull request #96 from TornjV/fix/dijkstra-visualization
+
+Improve dijkstra visualization",True
+b632cf0c2ee484dee8a77f568b34d0c862462bdc,2016-05-28 06:41:59,TornjV,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into fix/dijkstra-visualization,True
+9b448de8be5c0dc54d69b9f83adda9b1f483d145,2016-05-28 06:30:38,Nemanja Stojanovic,"Merge pull request #95 from nem035/patch-refineByType
+
+Patch refineByType to handle Infinity",True
+21efa4e5e5b32f34e15974491a6ee8488f4de1cb,2016-05-28 06:28:59,nem035,added patch,False
+3e2481e6c7cc0a6400dde5a457b3112f23fe51c5,2016-05-28 06:27:04,nem035,added patch,False
+1c5b91836976905cb79808d47502363d57b40f74,2016-05-28 04:15:18,Jason Park,add cover,False
+7dcdcbfbc28ac57b306856c6448b84cc924bd2db,2016-05-28 04:13:11,Jason Park,add opencollective images,False
+c0af7cc000da3bdeb602b825cd731356b2b3c12b,2016-05-28 03:31:04,Jason Park,move js library files into lib directory,False
+f5cbcf2d533fbd280e5f295dd2077d41a73d65fa,2016-05-28 03:04:04,Veljko Tornjanski,"Merge pull request #91 from TornjV/feature/chartTracer
+
+Chart tracer start",True
+437a24a43b66c4e1eb5de2615b36688ff2e533b1,2016-05-28 02:58:43,TornjV,Adjust to previus alterations,False
+e9676be2cad42b0e19e1515ceebd3e81906778f3,2016-05-28 02:53:59,TornjV,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into feature/chartTracer,True
+226ec0ca64c32e8e7e67033e7afbbea575c25e6e,2016-05-28 02:52:47,TornjV,Chart tracer start,False
+db48124b87ced6297fb6c3174a180f90bdec7d56,2016-05-28 00:19:48,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+35c215b65c530dcebe101daa0c747d864f0de0fd,2016-05-28 00:10:22,Jason Park,add _separate/_deseparate methods in array2d,False
+1c812670f4358b8f198ac1640e40a3d62fafd271,2016-05-27 23:03:04,Jason Park,"Merge pull request #87 from duaraghav8/gh-pages
+
+Affine cipher",True
+ad1968087c0445e7d30934f58a96a84cb1720e9b,2016-05-27 23:01:20,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+dbcd9ed3000967e33b4dcf8b66662d991803084c,2016-05-27 23:01:10,Jason Park,"rename variable ""tm"" to manager",False
+f982dfaec8e6ffcbf689682957e92ef87e34189c,2016-05-27 22:51:11,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages' into gh-pages,True
+4a834137927d633df7061184c0a9cb57ade9989e,2016-05-27 22:44:18,Jason Park,"Merge pull request #86 from nem035/refine-by-type-method
+
+Refine by type method",True
+af3f5438e89aec910b9962ef25503d88ba0ea2ed,2016-05-27 22:12:43,Jason Park,make expanded explanation opaque,False
+8456b337cbe6dba2983d1910e549fc70f7571d4c,2016-05-27 22:03:07,Nemanja Stojanovic,Fixed the refineString bug,False
+8862520cc19b33b7284de26989515d34fb3d89b8,2016-05-27 21:42:59,Nemanja Stojanovic,Added refineByType method,False
+6d9a4aef565d722682289db91c00093b977fa532,2016-05-27 14:30:08,Raghav Dua,"Merge pull request #85 from duaraghav8/gh-pages
+
+Minor additions: Added titles for tracers where appropriate",True
+3b5403d8dad7710156da461f809633f6157d98cf,2016-05-27 14:19:50,duaraghav8@gmail,Merge branch 'master' into gh-pages,True
+efcf1768ac1f6c2859b409c5a521b93c4c81499b,2016-05-27 14:18:40,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages',True
+6ae11d4a2f383f77b989327f7de8791ff37f203a,2016-05-27 13:59:15,duaraghav8@gmail,Merge branch 'gh-pages' of https://github.com/duaraghav8/AlgorithmVisualizer into gh-pages,True
+2ff5166c2563ec8508a3e7bc5f494f4ebf0caab2,2016-05-27 09:35:30,Raghav Dua,"Merge pull request #82 from duaraghav8/master
+
+Bridge Finding, O(V+E) time (efficient)",True
+a04a671ccbfb22409cdb6366e5eb4595bd5eaa33,2016-05-27 09:32:31,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages',True
+ca91b875dd535b4ee6d87a1d2fa181f08fe6ac20,2016-05-27 03:55:15,Veljko Tornjanski,"Revert ""Attach LogTracer Capitalize"" (#81)",False
+249e62029fb17778a9d0fec2a4e5f5a48c372e56,2016-05-27 03:49:19,Veljko Tornjanski,Attach LogTracer Capitalize (#80),False
+7a6ba67442f71257e4e413ab410eddcf0e1bbfe0,2016-05-27 03:40:34,TornjV,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into feature/chartTracer,True
+36489f44ed12ffac7143582352433aec61f1ece1,2016-05-27 03:40:29,TornjV,ChartTracer start,False
+5967957656aafacd0ef0907dcf41ef089dab8626,2016-05-27 02:55:20,Jason Park,"Update README.md
+
+minor typo",False
+e694a0afae809f4c3367c2d0664890745ca96db9,2016-05-27 02:41:07,Jason Park,not assign names to arguments of executeData/executeDataAndCode functions,False
+c286e59d2fc92c3d4d941758a47eaef45b033f46,2016-05-27 02:29:53,Jason Park,remove global vars,False
+a58a553c07aff4c081c85179f0a28e1136c11f2b,2016-05-27 00:13:20,Jason Park,fix typo,False
+dd5acef197e4b5df7c300de47c24c41f7ed0f282,2016-05-27 00:08:22,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+b51ad9d11e7120d0a180be6ea100e6f8a2b826b8,2016-05-27 00:03:29,Jason Park,add branding,False
+2ff54a47439ab71d563e024e88c968580b3b5f41,2016-05-26 21:37:44,Veljko Tornjanski,"Merge pull request #72 from TornjV/fix/tree
+
+Change tree orientation",True
+27bc0c6adfc427999e63f992edee22f92cc41515,2016-05-26 21:16:17,Raghav Dua,"Merge pull request #73 from duaraghav8/master
+
+Knuth Morris Pratt",True
+d0fd32cee4cdaee2dfd4caee727b3c1318b2c0f2,2016-05-26 21:12:59,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages',True
+e3a60106d27345e132659c1d57d43e080716b501,2016-05-26 20:36:52,TornjV,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into fix/tree,True
+b8d125f5997e47986fe7e9bc2c7e728e95585611,2016-05-26 20:35:56,TornjV,Change tree orientation,False
+4d6a7379f931b018200dba2d4be6caf36ba2e246,2016-05-26 17:20:08,Veljko Tornjanski,"Merge pull request #69 from TornjV/fix/caret
+
+Change caret direction",True
+0720b4b69e5cbfc9a0d32ecf1d40fbcf05c9810d,2016-05-26 17:16:50,TornjV,Change caret direction,False
+e10e570bd6c449ced3b346b58157a80ac7056001,2016-05-26 16:14:27,Jason Park,tracers were overlapped when there is a runtime error in data,False
+9c7b982315c3ae7f43b3b91a2d444888b367a5d5,2016-05-26 16:08:04,Jason Park,minor,False
+2cb932b073102d1cb1fed4150e6efb38b1f621ee,2016-05-26 16:00:13,Jason Park,change caret direction,False
+c12fcc218bcdacfb03fac8332174aa8f87f3c3d2,2016-05-26 15:41:12,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+7d37a93f48eec625c62d9ae3219f8176d7cea774,2016-05-26 15:41:00,Jason Park,add shades to files_bar,False
+33f8364b25de4257d70bdfddcc3d8618d3574d01,2016-05-26 14:29:56,Jason Park,improve horizontal scrolling of files,False
+b3d4647b055b89d05a491e3983238c1cf701f9cb,2016-05-26 12:38:19,Jason Park,add CREDIT.md,False
+94e2aeaeb8752585b5bc56aebaaf6850891108a3,2016-05-26 12:23:51,Jason Park,show toast after creating shareable link,False
+a9a7947b9251b7af91aff6b613b2b0699d524baa,2016-05-26 12:20:44,Jason Park,minor,False
+3cd7e97fabbb11c575797120180c242c65019f80,2016-05-26 12:18:46,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+d966ce9c22d373ea27e3d9a961e8c85471876088,2016-05-26 12:08:59,Jason Park,now can share code!,False
+28ae784e1e037227dff348bc22dbb86da2eca69e,2016-05-26 11:43:38,Raghav Dua,"Merge pull request #65 from duaraghav8/master
+
+Scrolling in Files Bar",True
+2d7dd0decabb447da339e5cf7c838eeb2ced3808,2016-05-26 10:42:03,duaraghav8@gmail,Added scrolling in Files Bar,False
+84b613dc8820212813fbb266f23ab4e423ad3937,2016-05-26 10:39:10,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages',True
+a5f1be61f72d5194a606621f71a446c1ef09068b,2016-05-26 10:38:29,duaraghav8@gmail,"Revert ""Added Scroll Buttons in Files Bar""
+
+This reverts commit 70bccb3209b84c20fa9a27646f133c52787a39eb.",False
+b33795344a622c0b003d7fde30568f064a359680,2016-05-26 10:30:40,Veljko Tornjanski,"Merge pull request #64 from TornjV/fix/font
+
+Revert font change",True
+6a31cc8cd00721befaede31098a99d25f6b1535f,2016-05-26 10:30:14,TornjV,Revert font change,False
+18426b38484560554b8bda31b8ed47b6bc0fdeed,2016-05-26 10:08:50,Veljko Tornjanski,"Merge pull request #59 from makintunde/master
+
+Add Shell Sort",True
+f8c49e0462afe222e8251f21983bbcca61dc1b93,2016-05-26 09:58:04,Veljko Tornjanski,"Merge pull request #62 from nem035/css-updates
+
+Css updates",True
+05a01f5d42701f42828116cf625ff3658fc7f094,2016-05-26 09:45:26,nem035,lighten desc header border color,False
+833c03dccd1df5637990b5d3b5fb2727336f8446,2016-05-26 09:41:21,nem035,Added cursor:pointer when hovering buttons. Improved the layout for headers in the algorithm description and added a border for easier visual separation.,False
+8699a389ebd91441de1406c42196d98ec8ad57d5,2016-05-26 09:10:08,nem035,Added Source Code Pro font for the data and code containers,False
+70d44aa53fe25d64a5f307c23c3f982569e22a00,2016-05-26 08:44:52,nem035,Added carets to display and update when toggling algorithm categories,False
+98ae4208bdaab5e57453730222b7f353ad0128c3,2016-05-26 04:31:39,ma4413,Merge github.com:parkjs814/AlgorithmVisualizer into shell-sort,True
+392e194ec303dd597c74a0eb3d1a799f366a53d8,2016-05-26 03:49:33,Jason Park,remove global vars in TracerManager,False
+f9bb1b3fdc6158cb6bf32139788651a8d4b83210,2016-05-26 03:37:17,Jason Park,place Scratch Paper at the footer of side menu,False
+871100e541c3cb62c9d3c281cfdb896ee674c8f2,2016-05-26 02:42:41,Jason Park,expand explanation on hover,False
+1a5280dfc4164570bfafb6b5252d69329244f7e3,2016-05-26 01:42:15,Jason Park,allow naming the tracer,False
+9cf277b1f81d685b7cf1db0fc1f10b0fc6a71fd3,2016-05-26 01:30:12,Jason Park,remove module argument in constructor,False
+6943891b3afe1cf3b1d183d24477cc0ccf59edba,2016-05-26 00:33:03,Jason Park,fix that powered by category was not opened,False
+bad4cb943ae689c49eb43d55aefbc14768f6709b,2016-05-26 00:25:19,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+a088d698eb4b78af6c3e9707d94ebd8ed35f988a,2016-05-26 00:24:55,Jason Park,collapsed category as default,False
+9a90ff4925b3c7b8565308bf74bb9a2510e48017,2016-05-26 00:20:55,Jason Park,make category foldable,False
+fd54acbd410a2a9110517a2d4d583bd41cb9f591,2016-05-25 20:40:31,duaraghav8@gmail,Added Scroll Buttons in Files Bar,False
+c0050148829ecbf5c9c4633d5a925d4bd659af2e,2016-05-25 13:20:46,Raghav Dua,"Merge pull request #53 from ashsel88/patch-1
+
+Update LICENSE",True
+f315b09a0884fe0cbdae4aa29ed96aaa3685fc87,2016-05-25 13:19:39,Raghav Dua,"Merge pull request #52 from duaraghav8/master
+
+Added DFS Exploration (determine connectedness of Graph)",True
+74793a0769c80e0c2e5927c22ced5d24affddca9,2016-05-25 13:16:52,ashsel88,Update LICENSE,False
+9424cfa2bf27614e1e3555a21f10de7daf4de3c1,2016-05-25 13:12:20,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages',True
+20605c0fd8e38d1efbb7b56147a1116542d2e8ad,2016-05-25 12:28:39,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+fc519d9bbd139fff762e16cd91a4dc9cc091acde,2016-05-25 12:28:26,Jason Park,"Merge pull request #51 from Gerhut/gh-pages
+
+add kruskal algorithm",True
+9faec3001bc6ffbc424a7b52431773bc8acc8c78,2016-05-25 12:28:16,Jason Park,show description tab first,False
+185573d7aa9a5a84a16d6413dde9400c24f43bbd,2016-05-25 11:54:31,Jason Park,minor,False
+df4ed34e84394936b78509291a0b0e5489c757b7,2016-05-25 11:29:03,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages',True
+5dbf2c5f3d1443061b6bc018cd3aa7031ebbb15a,2016-05-25 11:21:21,Jason Park,minor,False
+ccac1b43446b8e1c694ed53ea804de819b57e51f,2016-05-25 10:32:17,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+7abf8105aa5b8e73183ceb88ed21ff203aef9587,2016-05-25 07:11:44,Jason Park,minor,False
+500a9d2be0ec982825717a4f1023ef53e4da3755,2016-05-25 06:42:46,Jason Park,modify all the agorithms since tracer modules are revised,False
+815284a4e9b9707ab68bd69a81a54bc79a368a13,2016-05-25 03:34:05,Veljko Tornjanski,"Merge pull request #43 from Arthurlpgc/gh-pages
+
+Adding a Radix LSD",True
+ba74302a68cd08dd0ae75113e6deb05fa7e54005,2016-05-25 03:20:08,Veljko Tornjanski,"Merge pull request #45 from TornjV/fix/readme
+
+Readme cleanup",True
+4ddf503f48c64cc579ef9e1429a022f563ef674b,2016-05-25 03:18:56,TornjV,Readme cleanup,False
+23049335fc3507e9552be2c7066c81a6a53ea7ce,2016-05-25 03:04:59,Veljko Tornjanski,"Merge pull request #44 from piamancini/patch-1
+
+Added backers and sponsors from OpenCollective",True
+b9d63c9c2d66cb01399062e98364b6c8a9b2a04d,2016-05-25 02:40:17,Pia Mancini,fix spaces,False
+25f7651e8fb848506a7fb25e2b7afa5612baa413,2016-05-25 02:39:03,Pia Mancini,"Added backers and sponsors from OpenCollective
+
+now backers and sponsors will appear on your repo readme",False
+2812fbdace453b86670f81860e8aa9b99dd06958,2016-05-24 21:52:45,Jason Park,"Merge pull request #41 from archie94/longestIncreasingSubsequence
+
+Modify code to accept any array length",True
+03545ee5f0851f5c9fe369935abd0c063b691ba3,2016-05-24 20:27:25,Jason Park,label each module,False
+cd6b73bde9cf23583b037fe0065478d0b1bd9f3d,2016-05-24 18:31:03,Jason Park,fix some bugs in _setData method,False
+6292fc21a682822d283b6bccf34dde9f06e357fc,2016-05-24 16:37:52,Jason Park,share scratch paper as separate files (code.js / data.js),False
+1acc5ef5fc8e6fc625258724195ddb298ac4f9f9,2016-05-24 16:18:11,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+722d95d0e187a25ad1139058c9b195c6be751378,2016-05-24 16:14:31,Jason Park,"Merge pull request #38 from TornjV/feature/share-scratch-paper
+
+Sharing scratch paper",True
+e2b7d032bd4c67d81fea4099feae62e4489dad8b,2016-05-24 16:12:13,Jason Park,apply mouse event to separate module,False
+560780badf9c55335145dbf143793c6dd9438478,2016-05-24 15:39:44,Jason Park,remove _sleep method,False
+af52b2577d9c0a5555881d31230f80fc53819e5d,2016-05-24 15:32:16,TornjV,Merge remote-tracking branch 'upstream/gh-pages' into feature/share-scratch-paper,True
+656bbbd0b606c6a30eb716da9bc34dc7f2ba9e77,2016-05-24 15:31:55,TornjV,Sharing scratch papers start,False
+aa418ae202815e152d38fcad4e294cbe493ac61a,2016-05-24 15:20:14,Jason Park,reshape workspace,False
+3aedcf6da29d3d9f8df52d44f5f33b3409629f10,2016-05-24 14:36:40,Jason Park,let TracerManager manage all the Tracers,False
+5cc279b62bae2365453b4ada8b10a19983d985cd,2016-05-24 13:43:17,Jason Park,editor autocomplete,False
+d8a5b8f73689d841f0c3cf4e5d4b9b25c2a5ae6c,2016-05-24 13:27:48,Jason Park,fix scrollbar,False
+2e39ff68605c5049cd6f21a4abb16c2dc18a9f33,2016-05-24 13:20:17,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+69c20875a463597edb05c277e81682bd00aac615,2016-05-24 13:14:34,Jason Park,"remove _pace method, add interval interface instead",False
+5442583e97192e8256582feb9363ee6b6cb5c8ee,2016-05-24 12:28:44,Jason Park,allow multiple tracers,False
+4574b52a78a3f5ee656667812bf8e12211c503f0,2016-05-24 07:55:51,Jason Park,"Merge pull request #36 from makintunde/master
+
+Add scrollbar for long algorithm explanations",True
+9599ab3f1b8c5c3e278658fc21446c7356730b24,2016-05-24 06:54:06,ma4413,Add scrollbar for long algorithm explanations,False
+be8146a5cf87d2f343d2618ddb7047c1939d874e,2016-05-24 02:46:40,Jason Park,"Merge pull request #35 from TornjV/feature/mst
+
+MST and Prim's Algorithm",True
+80a53e8b98ebb48cdca00f3e0caa08669b53c373,2016-05-24 02:18:52,TornjV,Merge remote-tracking branch 'upstream/gh-pages' into feature/mst,True
+d9ddafd70206254c50ed972c57505ded4f0e8014,2016-05-24 02:02:41,Jason Park,"Merge pull request #33 from TornjV/feature/metadata
+
+Metadata additions",True
+e85431c1e267089907b499f78b87eb9f9c036100,2016-05-24 01:57:04,Jason Park,"Merge pull request #34 from gautamkrishnar/gh-pages
+
+Added styled scrollbars",True
+048ace3e1db39490a27217d88edf9e0a11d6b352,2016-05-24 01:44:39,Gautam krishna.R,updated corner,False
+f72376b8f8c2307b0f2b797bd6b57e6f887c93e5,2016-05-24 01:37:27,Gautam krishna.R,Update stylesheet.css,False
+29e943547c9d339952bcd5d4e866f5866bf551b7,2016-05-24 01:35:43,TornjV,Merge remote-tracking branch 'upstream/gh-pages' into feature/metadata,True
+d90c37ec5f7d5c8871369579eb8be2325055bbc7,2016-05-24 01:34:52,TornjV,Metadata additions,False
+b3289ef8e34bf8e9484e0a8408b033f0810f62c0,2016-05-24 01:14:04,Gautam krishna.R,"styled scrollbars
+
+changed webkit-scrollbar property",False
+a28526a30725833f27eda94c29eb132324cae338,2016-05-23 16:35:42,Jason Park,"Merge pull request #21 from duaraghav8/master
+
+Topological Sort - Kahn's Algorithm",True
+dbc62f47016d64c951eca05dd9f354320fb65b3d,2016-05-23 16:27:13,duaraghav8@gmail,Merge remote-tracking branch 'upstream/gh-pages',True
+02b20c4610f110413ed4597f098d051e2e5137af,2016-05-23 12:54:20,Raghav Dua,"Merge pull request #2 from duaraghav8/master
+
+even out",True
+f6474a08fc91bfa46244c048dda891672d84d440,2016-05-23 10:59:49,Jason Park,add WeightedUndirectedGraph,False
+785bf195ed8ebf0271e3bc263c078f5f89e2ac4a,2016-05-23 10:20:27,Jason Park,add UndirectedGraph,False
+4be4bc661df16c2d8c2f0d52b024bc3a4e1aefed,2016-05-23 10:13:38,Raghav Dua,"Merge pull request #1 from parkjs814/gh-pages
+
+update",True
+609ceea71b00569ea30a6db749e174987b595fda,2016-05-23 08:56:08,Jason Park,fix array1d and 2d (2),False
+59869d495de7021269390c957a0bc66c74cadb40,2016-05-23 08:51:50,Jason Park,fix array1d and 2d,False
+f1bd9072ea9f1b02e48de7bf016f98ae8160239e,2016-05-23 08:37:43,Jason Park,Merge branch 'gh-pages' of https://github.com/parkjs814/AlgorithmVisualizer into gh-pages,True
+77b6fa97fc27123bfcc364c51b5a6197b7cb4a16,2016-05-23 08:36:17,Jason Park,overall revision of modules,False
+0cdaaa84d4bb5783f039c854a144798a9859e618,2016-05-23 02:01:43,Jason Park,Merge branch 'master' of https://github.com/parkjs814/AlgorithmVisualizer,True
+2b9124b8b65dc0f1a9812c885d81bb0f1c29f774,2016-05-23 02:01:28,Jason Park,"Merge pull request #14 from PFischbeck/patch-1
+
+Fix description of Mergesort",True
+180a1204c0b693711b74512fc4dc274056a27d7b,2016-05-23 02:00:38,Jason Park,"Merge pull request #15 from PFischbeck/patch-2
+
+Fix typos in desc of Bellman Ford",True
+06f5d1b0c1b271b1ef42d46d4052a15c7b1b50dc,2016-05-23 01:54:58,Jason Park,Merge branch 'Web-Engine-patch-3',True
+7fdbb68a5fa6ac7e92e09ce711440bc556b81324,2016-05-23 01:54:29,Jason Park,Merge branch 'patch-3' of https://github.com/Web-Engine/AlgorithmVisualizer into Web-Engine-patch-3,True
+352a04c741a96f960b8ff77bf72c1c3cc00bae22,2016-05-23 01:13:48,Jason Park,Merge branch 'master' of https://github.com/parkjs814/AlgorithmVisualizer,True
+b99a62c92b3c894d2a076017fa3dc7b6c9687f7c,2016-05-23 01:13:08,Jason Park,Merge branch 'duaraghav8-master',True
+401b3b6f0a61ee41c1b1ea299a96178c3261935b,2016-05-23 01:12:41,Jason Park,Merge branch 'master' of https://github.com/duaraghav8/AlgorithmVisualizer into duaraghav8-master,True
+acec58741fd1b47e2dc96f62352cf67d9b772216,2016-05-23 01:10:42,Jason Park,"Merge pull request #9 from makintunde/master
+
+Fix typo in Heapsort algorithm",True
+dd069e69d5a8b04b368c3d154bf6d7ea64b7a3b9,2016-05-23 01:09:56,Jason Park,"Merge pull request #8 from thinker3197/master
+
+Fix minor bug",True
+e76a6e076f6fff17a71c7afaf4194ede9afeeaf4,2016-05-23 00:58:56,Jason Park,"Merge pull request #12 from gitter-badger/gitter-badge
+
+Add a Gitter chat badge to README.md",True
+ddc39196f6a9a2960c91772080d55ce946fc00f0,2016-05-23 00:41:07,The Gitter Badger,Add Gitter badge,False
+e4ce43651b5663262aa56aad15fc7c61e1fc7faf,2016-05-22 19:51:21,Jason Park,Merge branch 'master' of https://github.com/thinker3197/AlgorithmVisualizer into thinker3197-master,True
+317f888fbfa903c042e21c104b0c11203b2df896,2016-05-22 19:46:38,Jason Park,"Merge pull request #3 from kciter/master
+
+Add Mergesort",True
+7ed21d68ae43b6816acd6154a44005d838a63e10,2016-05-22 17:25:59,duaraghav8@gmail,Bellman Ford Shortest Path,False
+466c8a5711f299985284b0431df7a3aaea9e35c6,2016-05-22 17:23:28,duaraghav8@gmail,Bellman Ford Shortest Path,False
+4c187009ad83c2bfcd5ed11518b9c2a557850490,2016-05-22 14:44:07,Jason Park,put all functions of tracer into a object (to prevent duplication),False
+8f0f4be10e0a93d5aa8b203f9f600d04bc8fd3d1,2016-05-22 14:17:55,Jason Park,"rename Graph to DirectedGraph, and WeightedGraph to WeightedDirectedGraph",False
+29ed1f4cf441821e473715d7d3746245a07fc45f,2016-05-22 13:05:34,Jason Park,Update README.md,False
+5f1ff2160e931c41d159a9eb5f3ecd53b0dbbbff,2016-05-22 11:13:12,Jason Park,fix minor bug,False
+95e8020198971252280bfb2e6f18aa9eb3d29f6f,2016-05-22 10:41:50,Jason Park,"Merge pull request #1 from nem035/binary-search
+
+Binary search",True
+0b8fc6553c923726a4baa8930959c9a2e8893495,2016-05-22 10:14:00,nem035,Added binary search algorithm,False
+fde45f4fa44c541deaaee1a8a3ea02d05c45b562,2016-05-22 07:31:00,Jason Park,Create LICENSE,False
+6261ef5c0b1b699fc2a1143df192e61ad870e0d2,2016-05-22 07:28:16,Jason Park,Update README.md,False
+f112e9d938206a363ed7f7e25d693a3c6ecbcb22,2016-05-22 06:13:56,Jason Park,add g analytics,False
+0ac96c1f666f82cf7b6eb119e690d079beddc7a8,2016-05-22 06:06:10,Jason Park,fix minor bug,False
+b8c1bac568f96ada4842a04927c49c7b752f3763,2016-05-22 06:02:28,Jason Park,prevent conflicts on loading,False
+34df5e8b6798ae5b3e00f7ba1136b9320536663a,2016-05-22 05:48:48,Jason Park,tracer._clear emitted error,False
+c34d99529bbfe5de7daa8d23c8c4c5938191a2d6,2016-05-22 05:43:40,Jason Park,fix minor bug,False
+07d6e97b445690c618d5389912d92d1ed2fab166,2016-05-22 05:34:55,Jason Park,conserve modified code,False
+062172c673b97f0129c451cd422b202d0fc92374,2016-05-22 05:07:43,Jason Park,add powered by,False
+4f8b12c4d3f472aff9f0e010290fc1b9d43d2198,2016-05-22 04:37:16,Jason Park,add Scratch Paper,False
+4d1f8419fcf60afde75496f125adc1a6f7d4d391,2016-05-21 15:16:20,Jason Park,Update README.md,False
+da9e71ee935ddfa489bfe7aa5ed28bc765fd3ef2,2016-05-21 15:12:38,Jason Park,minor,False
+37afe956fac93940221efb687eacdeda86c066f5,2016-05-21 14:36:10,Jason Park,shorten the name of functino createRandomData to random,False
+5aead9c680979180d8588d2ca93c581e3648997b,2016-05-21 14:15:43,Jason Park,rename config.json to desc.json,False
+d9f11fedfbc5e6bf0b18bb0fb2178e1955195f74,2016-05-21 14:02:55,Jason Park,minor,False
+0dc9bf96a7c4b7c5c915f1d58dc1da8e09f4d4b0,2016-05-20 22:59:09,Jason Park,hide fork-me-on-github when sidemenu are hidden,False
+1a19ce435b6675c960eb3c5fb59b0ee05fcc5865,2016-05-20 22:55:17,Jason Park,minor,False
+37c9a5e289c578391f12d4466ea30edd76cc6b2f,2016-05-20 22:26:41,Jason Park,add fork-me-on-github,False
+c9fcfc295c1aebaf4cbbc09ca3e8545d6716baf3,2016-05-20 22:14:49,Jason Park,add max_sum_path,False
+004d3e58aab20889cb31cf164abf83c66311bdc7,2016-05-20 21:10:37,Jason Park,fix some bugs,False
+05876b546e5e6a93a61823600480839271e82bff,2016-05-20 14:58:04,Jason Park,able to zoom array2d&1d,False
+7bf3819492f50d41977383ff06d1830c2c43caa4,2016-05-20 14:04:45,Jason Park,add dp,False
+0a03a153bbf252338b99f065e55b2e793caca0d3,2016-05-20 06:28:13,Jason Park,add Selection Sort,False
+f6fd52932072f55d2973bb16884964d83aa6864f,2016-05-20 03:09:32,Jason Park,"revise array1d,2d and add insertion sort",False
+91c8754f5c399793b31a3e315d02db4410431126,2016-05-20 00:21:11,Jason Park,add ArrayTracer,False
+21b6d2a4a84575e652dbf42ec3098a035f293c62,2016-05-19 12:38:42,Jason Park,prepare for other modules,False
+4860059bc544e5b5d6b0d596b9e7b28f0aaec287,2016-05-19 12:13:50,Jason Park,support drawing tree of WeightedGraph,False
+1239b28d3819b1d3b9d11a038b127475051491fb,2016-05-19 12:06:50,Jason Park,"add ""shortest_path"" in ""bfs""",False
+b39ad705b5ca21d22a06faa8f1fb944198b1c2e9,2016-05-19 11:27:56,Jason Park,tree,False
+15c7329127ede22c27cf2b3fe025fd1d541b7225,2016-05-19 07:36:36,Jason Park,"add ""shortest_path"" in ""DFS""",False
+99cf395224feb3282e379f12dff592dc757141ce,2016-05-19 06:18:27,Jason Park,add WeightedGraphTracer module,False
+3dc7a61acc4133f5b2b249e987fe195b1301dc17,2016-05-15 08:29:21,Jason Park,refresh module only if data changed,False
+f2ddec834cab26ef700de9e3e8e434148e214e49,2016-05-15 06:03:52,Jason Park,first commit,False

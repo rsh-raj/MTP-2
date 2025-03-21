@@ -1,0 +1,1522 @@
+Hash,Date,Author,Message,IsMerge
+e1d8f93221c57edc009197ec91699c15d5da87f3,2025-03-11 18:22:47,Samuel Reed,release 1.5.1,False
+40b8a7ce45255c62c4054c2a22310505c10de0d7,2025-03-11 18:22:12,Samuel Reed,"fix(flushSync): remove on onDragStart/onDragStop and moveDroppingItem
+
+Prevents warnings that fail tests and pollute console",False
+b067ff39e23fc604451fefd7bd087a250528c3fa,2025-03-11 18:09:34,Ashley Harrison,wrap state calls in flushSync - React 18 fix (#2043),False
+b29fce6d918dc85fb0f13509f82a8a93a9bc0370,2024-10-10 01:01:14,Samuel Reed,chore(build): fix broken gh-actions (#2090),False
+0f480ec919587765271045c32f2fd40cfdd33545,2024-10-10 00:53:35,Samuel Reed,release 1.5.0,False
+915613d54b92afc4dbf6804ffac588d9e2987b09,2024-07-10 07:40:25,Max Musing,Fix calcXY calculation (#2059),False
+9129bee43dacf058010531c50d4f683386cc6691,2024-07-02 20:01:52,Samuel Reed,"Fix/example indexing (#2054)
+
+* wip
+
+* fix(example): redo indexing, fix bootstrap example, additional propTypes checks
+
+Fixes #2036",False
+752fcd1cd0a3d0b540de6333d3b1c048096bb8c2,2024-07-02 18:54:26,Samuel Reed,fix(actions): redo labeler (#2052),False
+5e29dbd17f91f1b74061e0e69b773484cbd8df3b,2024-07-02 17:51:45,Samuel Reed,docs(changelog): fix fmt,False
+04a778264b056a024334d33d17305a57970ccc40,2024-02-15 19:35:47,EliMiX,"(#889) change breakpoint/layout event order (#921)
+
+In Responsive, the onBreakpointChange event occurs after the
+onLayoutChange event. So if the onLayoutChange event is used to save
+the layout based upon the current breakpoint, the save will overwrite
+the previous layout becuase the breakpoint you would be updating will
+be the previous layout before changing breakpoints.
+
+This PR will swap the order to onBreakpointChange -> onLayoutChange
+
+Co-authored-by: Tim Bitanov <timb@indeni.com>",False
+f5f3b5da17ed16522d0ae8769042b48f37ae24cf,2023-11-25 03:13:25,Samuel Reed,release 1.4.4,False
+38b04280ed28e1ad9ad6760fa906ecc64dc806b3,2023-11-25 03:10:18,Samuel Reed,"chore(deps): update devdeps (#1989)
+
+* chore(deps): update devdeps
+
+* chore(actions): update node from 16 to 18
+
+* chore(prettier): rerun it to fix new version formatting issues",False
+418ef3791ef9f57dd492e0a85bec94829789ccd5,2023-11-25 01:05:30,Samuel Reed,"Fix/small bugs (#1988)
+
+* chore(flow): fix missing def
+
+* chore(prettier): ensure it runs on jsx
+
+* test(lifecycle): fix dropover incorrect mock after fixing #1915",False
+3df992f6c48a9e771e98701c2c9ce612b258b76f,2023-11-25 00:46:44,Yumi Izumi,Remove duplicated package in README (#1987),False
+fee5f13973e72bb599a69029975981e1da7f8219,2023-11-25 00:46:04,HyeongJin Park,"fix: Modify Drag values according to containerPadding (#1323)
+
+* fix: Modify Drag values according to containerPadding
+
+* destructuring assignment containerPadding
+
+* FIX: props containerPadding destructuring",False
+0f6b18dbbd1e8590ba1aed6c100b2a49bbb7a373,2023-11-10 02:51:32,Antonio Santos,"Fix position logic when item is dragged in from the outside (#1915)
+
+* fix position logic when item is dragged in from the outside
+
+* remove unnecessary code
+
+* undo dist/ change
+
+---------
+
+Co-authored-by: Antonio Santos <antoniosantos@pop-os.localdomain>",False
+66c238fb6c82d2003a0bbf31bf89cc9b9a8ec019,2023-11-10 02:46:42,Dave Clarke,Update README.md (#1911),False
+323be1077994c4d0258c704672b0a3247a62f4c9,2023-11-10 02:46:21,Warren Green,"Example for horizontal compaction (#1922)
+
+* Example for horizontal compaction
+
+* Fix label
+
+* Rename 20-horizontal.jsx to 21-horizontal.jsx
+
+---------
+
+Co-authored-by: Samuel Reed <samuel.trace.reed@gmail.com>",False
+350b950b0f366fc59221aa25fae9b116bcbe1abe,2023-11-10 02:42:03,Hans Krohn,"Update README.md (#1973)
+
+Update Readme to have full list of possible values for the `compactType` field",False
+82caaf5370ac45ed790c3be9557ead349f13a849,2023-11-08 23:53:51,Samuel Reed,release 1.4.3,False
+57bba6b9aba28180157be88496590f16d4f4088a,2023-10-31 21:06:54,Khaled Tantawy,"fix: set activeDrag in the state onDragStart (#1923)
+
+this fixes a problem where clicking on the drag handle triggers onDragStart and doesn't trigger onDragStop as the activeDrag was being set only onDrag and not onDragStart as well.
+another solution would be to remove the check for activeDrag in the onDragStop function.",False
+053f6dab9417c96d48b8df0a111d8be051f25506,2023-09-22 23:47:07,Samuel Reed,release 1.4.2,False
+16867d9f3ba5f4710df028a178fcbfbb3a95def2,2023-09-22 23:43:04,David Seifried,"Resizing now obeys preventCollision restrictions (#1937)
+
+* Resizing now obeys preventCollision restrictions
+
+Fixes #1933
+
+* Review feedback, more tests
+
+* Fix lint issues
+
+* shouldMoveItem=false when we know we can't move",False
+5f68d1b61d62df2da27549b79562d5c4a5d01416,2023-09-19 23:19:25,Samuel Reed,fix(actions): use least permissions on github token (#1945),False
+cc090e993b469fdeedadb6f754be35d3fa143068,2023-09-18 20:14:01,David Seifried,Run prettier to fix issues picked up via CI (#1938),False
+8191403aef9310a0aefaaf395abf59359dd34695,2023-09-12 20:17:38,Samuel Reed,release 1.4.1,False
+6a2d26dffd119f41ccad2d80f8b75b19e67a1fcc,2023-09-12 20:17:16,Samuel Reed,chore(pkg): remove some files from built package,False
+dcb4091fe3846f2f6ce72e6d06f126aa0f94b8d3,2023-09-12 20:15:41,Samuel Reed,fix(makefile): fix newline at end of package.json on publish,False
+0656b14c93196b8b9d17e82d0369eae718531710,2023-09-12 20:01:17,Samuel Reed,"fix(deps): revert fast-equals to @4.0.3 (#1932)
+
+Fixes #1904",False
+17d375b49c39aa7fa9c6a25e797155ed42b608d5,2023-09-12 19:52:27,Samuel Reed,"fix(resize): fix bug where height could not be resized if h=0 (#1931)
+
+This can happen if there is no container padding
+
+Refactor and fix a similar bug with left = 0.
+
+Fixes #1929, supersedes #1930",False
+b7387302c162bb7512e3f68d4105d86c9356437a,2023-09-12 19:51:48,Samuel Reed,chore(github): update PR template,False
+e7ac7868e1acba85b53dec9f2221b70fe5570ec3,2023-09-12 02:43:38,Samuel Reed,chore(prettier): package.json newline,False
+84d790093421c48eb85f7b5a5f8bd21be30dc962,2023-09-12 02:40:01,Samuel Reed,fix(examples): missing definition in examples/var.js prevented render of 20-resizable-handles,False
+ea93806e0d8714d44dbaf5b304b267f272eea446,2023-09-12 02:33:27,Samuel Reed,release 1.4.0,False
+db91d590bf1137aed9555b77f5bea6f1386e5559,2023-09-12 02:31:15,Samuel Reed,"chore(dev): update dependencies (#1927)
+
+* chore(dev): update dependencies
+
+* fix(lint): don't use prettier on flow-types",False
+f1ef61d95332fa081b2d4619328de2f284ad5863,2023-09-12 02:22:14,Samuel Reed,chore(changelog): update changelog and readme for resizable handles,False
+031e62bb3dd41b2dd1c3b371e8caa6dd011e5ebb,2023-09-12 02:04:17,David Seifried,"Multi directional resizing (#1917)
+
+* Initial version by Ludovic
+
+* Constrain w/h during certain resize actions
+
+* Constrain left/right/top bounds properly
+
+* Update built files
+
+* No dist/ files aren't commiting per PR directions
+
+* Make sure se handle constrains width too
+
+* Clean up some function definitions and types
+
+* swap element above
+
+* add compaction type toggle to resizable demo
+
+* fix west dragging for horizontal and no compaction
+
+* remove logs
+
+* update snapshot width from max width change
+
+* PR feedback updates
+
+* Tests for PR feedback
+
+* dist files back to master version
+
+* Fix lint issues, address PR feedback
+
+---------
+
+Co-authored-by: Ludovic Bouges <ludovic@wearecloud.com>
+Co-authored-by: Mark Harper <mark@privy.com>",False
+f5e121e1366d4f31afbd74ad4c24f2e3aa36fc3f,2023-09-12 01:41:46,Samuel Reed,"fix(CI): fix formatting & test bugs, update changelog",False
+0fab7b2b897f907170a39477faabba1228e6c80d,2023-09-11 21:27:29,David Seifried,"Export calculateUtils (#1918)
+
+* Export calculateUtils
+
+* PR feedback: move calculateUtils to index exports",False
+2d72f8b3327febd1eff9a3535ce5b2183a37a143,2023-08-28 01:45:36,Jantu Deb,"Replaced window resize event handler with resizeObserver (#1839)
+
+* Replaced window resize event handler with resizeObserver which takes care of element resize
+
+* added resizeOvserver polyfill",False
+1ec4481735ed785a9b4aecdfb46084bad52ebafe,2023-07-07 18:52:46,Samuel Reed,"fix(build): npm@9 removed `npm bin` (#1903)
+
+Moved to `npm exec -- $(cmd)`
+
+Fixes #1902",False
+6e8d673672ef3c4763a3f516013fc8995fd807cc,2023-06-20 00:00:25,Samuel Reed,"chore(utils): remove _grid and add test (#1897)
+
+_grid hasn't been used since React 15.2, long past time to remove the code",False
+85044efdabcf6b56cf76e5c2b3fbf83fa48eba2e,2023-06-19 23:42:12,Samuel Reed,chore(test): clean up console,False
+57304538c4e631b0dd271e3f7d2980e70ed7dd32,2023-06-19 23:40:53,Samuel Reed,fix(syncChildren): fix bug introduced by PR merge,False
+111fe865939566ad78faf46de250d767b9f84443,2023-06-19 23:30:20,Mikaël Castellani,"fix(utils): re-render when children data-grid changes #718 (#719)
+
+Co-authored-by: Mikael Castellani <mca@quartetfs.com>
+Co-authored-by: Samuel Reed <samuel.trace.reed@gmail.com>",False
+feb3a38dccba814e51d9513a53374e5a495935aa,2023-06-19 23:07:05,David Golden,"callbacks should return updated layout (#1613)
+
+Co-authored-by: David Golden <david@soprisapps.com>",False
+093feb36d1a5781fa9140334e7069822c26fd209,2023-05-31 22:53:45,Samuel Reed,fix(workflows): upg to node 16 (#1891),False
+cbb1a97aa6fe0704f1a5c8de4e24aa1d7358b434,2023-05-31 22:51:36,Samuel Reed,fix(release): typo in build-command,False
+4dc8bec1af129e766a48c8dc81b83637a3cff75a,2023-05-31 22:50:27,Allan Martinez,add missing parenthesis (#1887),False
+77a7469ed7a2b9437bd1c741077c0d56b2fc06b6,2023-05-31 22:49:54,Samuel Reed,feat(github): add release automation with provenance (#1890),False
+35db4c959b410cf63c6573c2a4601ac998cce04b,2023-03-06 23:35:55,Dmitry Semigradsky,Replace `lodash.isequal` to `fast-equals` (#1853),False
+8a7b828d86e9a02876318cd4b6e69efe9576cddb,2023-03-06 23:34:28,Samuel Reed,"chore(test): add test github action (#1854)
+
+* chore(test): add test github action
+
+* fix(packj): fix version typo",False
+d24448eb9693e30332e70cd998c0c46d4d2ef7dc,2023-03-06 23:25:26,Samuel Reed,fix(audit): fixup packj (#1847),False
+33e22c7556972b97f813584314f9f86fdab90f60,2023-02-24 22:53:14,Herace,"Add checking the compactType null value to avoid breaking the layout when overlapping is allowed. (#1782)
+
+* Checking the compactType null value to avoid breaking the layout when overlapping is allowed in compactItem func.
+
+* Added condition when not using allowOverlap.
+
+---------
+
+Co-authored-by: herace <herace@hjkim-mac13-2018ui-MacBookPro.local>",False
+f1557951ac73d01a4d562999f07cee4e61a9609c,2023-02-24 22:49:46,Samuel Reed,chore(npm): update packages (#1848),False
+6deb935781a28da0b0be91a7999c021cf5580c3e,2023-02-24 22:49:27,Samuel Reed,"feat(audit): add packj (#1847)
+
+* feat(audit): add packj
+
+* chore(prettier): fix issues",False
+87603970f87281775667a276ab271c71ad6f1f10,2023-02-24 22:37:58,llorenspujol,"fix(grid): Fixed Compact horizontal not always moving elements as left as possible. (#1822)
+
+When a grid item overflows to the right when using compact ""horizontal"", we move it down and also as left as possible. This way we ensure that there won't be any empty spaces to the left.",False
+4d7be1b5cc079d1fa00f8fd45c9ed088c51f81e0,2023-02-24 22:36:00,Abhilash Nayak,"[bug-fix] Corrected draggableHandle configuration in static elements example (#1826)
+
+* [example-bug-fix] Corrected draggableHandle configuration
+
+- Set `draggableHandle: "".react-grid-dragHandleExample""` as a `ReactGridLayout` property instead of data-grid property
+
+* Corrected syntax",False
+4cf6f2748945fba4fda2e8b0eaaa14cf2186a9d6,2023-02-24 22:35:09,Michael Bell,"Update README.md (#1834)
+
+Include performance information for those using react hooks.
+
+https://github.com/react-grid-layout/react-grid-layout/issues/1805",False
+30ac6508c2d422a425f7aa2742ccb889b9153e0d,2023-01-06 21:54:32,Samuel Reed,"docs(README): add section on margin and rowHeight / column width.
+
+See #233, #523, #605, #628, #800, #816, #978, #1281, #1432, #1450,  and many others.",False
+89bf0592e3f4f7e4a491c378bdf5692b4fe89582,2022-12-30 09:02:54,Nissim Scialom,docs - added children props to custom child component example (#1817),False
+b58e1caf5d4089d659f2f2a3ebec2355bc944a1b,2022-10-04 18:03:56,Jakub Żurawski,docs: add missing props to custom child example (#1751),False
+2e1387bcf598c98bffd3eb149cd670c7e5990e96,2022-06-05 17:21:20,Eric,"test deepFreeze (#1730)
+
+* test deepFreeze
+
+* test deepFreeze
+
+* fmt",False
+5126e7be9a1e38053e078f2b17e1a0f3a7abcda0,2022-03-02 21:56:52,Clifford Fajardo,add ISSUE_TEMPLATE files (#1672),False
+99a3765aa7664f3af06aadf48b71d17a5c021fa5,2022-02-22 01:46:09,Samuel Reed,docs(changelog): update,False
+ee90826a551fe5c3d58a56a4237a423373ac48f1,2022-02-22 01:44:30,Samuel Reed,release 1.3.4,False
+b90c964a8029ae43f53baad9e71839e54bd23468,2022-02-22 01:42:43,Samuel Reed,chore(dev): update dependencies,False
+1f1e580b5b275d9585c21f6e4868c0223a5dfa1b,2022-02-22 01:36:28,Roger Far,"Add e.stopPropagation to onDragLeave, onDragEnter and onDrop to prevent leaking of drop data to parent grids when using nested layout-grids. (#1494)
+
+Co-authored-by: Roger Versluis <roger.versluis@fieldcap.ca>",False
+14e1650317990bb3fa7f265436428be4c4b52f32,2022-01-25 00:18:35,Samuel Reed,"docs(demo): fix demo link due to org change
+
+Fixes #1653",False
+4ce3b63d04ce028338b458f435918065a2d6217f,2022-01-24 23:50:08,Samuel Reed,release 1.3.3,False
+674e3cf0c4b91c06146fce793bee3d8cc1c974f7,2022-01-24 23:49:46,Samuel Reed,chore(build): add `npm pack --dry-run` to visually identify pack issues,False
+22e5f8fc9ad1e3de3c715b9d544843493386af4f,2022-01-24 23:48:59,Samuel Reed,docs(changelog): update changelog,False
+a40c8b848b5acfbe10a27a6cf00837a12427f29b,2022-01-24 23:45:41,Salvatore Ravidà,"Fix Npm build - remove coverage folder (-60%size) - move eslint parser to devDependencies (#1655)
+
+* fix(build): reduce npm package size by 60% by removing coverage folder
+
+* fix(build): move babel eslint parser to dev-dependecies",False
+4f12ea033c0cf4e6b2428056cde8e41cb8eada36,2022-01-24 19:42:10,Samuel Reed,release 1.3.2,False
+fe7aeab1340389fefd7b2bbc12684019c548c352,2022-01-21 21:24:39,Samuel Reed,"docs(innerRef): clarify flow type
+
+Thanks @kangaechigai, Ref: #1648",False
+de45d2d19a1001a656bcb31140a47ba543d6a39a,2022-01-13 18:58:30,Eric,"more GridItem tests (#1643)
+
+* init
+
+* on push
+
+* snapshot on griditem
+
+* min + max dimension error log testing
+
+* inc coverage threshold
+
+* adjust in favor of type checking
+
+* re-introduce unit tests + ignore flow
+
+* init onDrag test
+
+* throws onDrag err when expected
+
+* inc code-coverage threshold
+
+* onDragStart callback fn test
+
+* calls onDrag prope when state & props match expectations
+
+* inc min-dimension test prop vals
+
+* new snap
+
+* inc code-coverage thresholds
+
+* intended for separate pr",False
+3ac855c5e0bcc7fbbb10e6d39414823f5bc1f2c8,2022-01-10 21:11:23,Samuel Reed,"fix(build): reduce npm package size by 30% by removing source in source maps
+
+Given that the original source is present in the package, it can still be loaded
+as-needed from the filesystem, so this was pure duplication. For a pure web build
+without a bundler (who is still doing that?), if source maps are still needed,
+this will possibly cause an issue. In that case we can look into committing a different
+build file for umd.",False
+388b79fb52fabfe107f946fbad9ffacd63324d09,2022-01-06 23:03:11,Eric,"test(utils): additional tests for calcWH and calcXY (#1637)
+
+* tests calcWH and calcXY
+
+* tests compactType and extra Error throwing
+
+* ajust ""it"" string on throw test
+
+* err on layout item i not as a string
+
+* smoke test on deepFreeze
+
+* formatting
+
+* chore(dev): rework lint action and proper pre-commit linting
+
+* remove in-favor of trusting type-checking
+
+* remove type-checked tests && include set in smoke test for ""deepFreeze""
+
+* enforce coverageThreshold during Makefile test command
+
+Co-authored-by: Samuel Reed <samuel.trace.reed@gmail.com>",False
+e6879dda471fe0a2cfdf623459dd2758e3a6955d,2022-01-04 23:02:01,Samuel Reed,chore(dev): rework lint action and proper pre-commit linting,False
+556ecebbae32f0d511744016474d039240cd6b03,2021-12-17 22:40:28,Samuel Reed,chore(dev): fix lint/prettier flows,False
+ee87a834f8082510e3350e1b65c18737be5c327e,2021-12-17 22:30:55,Samuel Reed,chore(lint): add prettier,False
+a1bf9ea2078e23bf55ccba30890316f8b24d33f6,2021-12-17 22:30:01,Samuel Reed,"fix(actions): run on master, not main",False
+92235265b2b1bd54f96035b4ede506429532b9c1,2021-12-17 22:25:55,Samuel Reed,"Merge pull request #1633 from react-grid-layout/chore/deps-lint
+
+Update devDependencies and add PR lint action",True
+42a5cab32627bbb196c75805e31a09daf59eef0e,2021-12-17 22:25:17,Samuel Reed,"chore(dev): add ""lint"" action for PRs",False
+24c245db8a92a8cb0ef3135cfa3639f34539deb1,2021-12-17 22:25:11,Samuel Reed,chore(dev): update devDeps & add eslint-plugin-unicorn,False
+f43802a0ff325eebdad629cd23a8cf68306de5df,2021-11-29 20:00:31,Samuel Reed,chore(dev): update devDeps,False
+f78ce276c1c771ef9aa6d95e1a8e03be3adfafea,2021-11-29 19:56:38,Samuel Reed,chore(actions): Update changelog job,False
+ad2355118577b770dd4b20f585c1ebee97fc8703,2021-11-29 19:42:49,Samuel Reed,docs(release): update CHANGELOG,False
+d84022d94bdc1f274f638623995a6fa647a980aa,2021-11-29 19:14:11,Samuel Reed,release 1.3.1,False
+b7ac67429475336780fe3758380038afefa0c620,2021-11-29 19:13:21,Samuel Reed,chore(build): add changelog action,False
+6d636a58c39e1d1caabf0190a9440eeb0ad684f6,2021-11-27 00:06:09,Samuel Reed,"fix(allowOverlap): clone layout properly when using (#1620)
+
+* chore(dev): fix make view-example not building properly
+
+* fix(allowOverlap): Fix uncloned layout on `allowOverlap`.
+
+Fixes #1564, #1606 and closes #1619.
+
+Add associated tests.
+
+`allowOverlap` now implies `preventCollision` explicitly, as it always should have.
+
+* chore(RGL): minor var cleanups",False
+a707cf77735c0531d23524059e9e0ea7d4e5ded0,2021-09-08 21:04:15,Samuel Reed,fix(demo): auto publicPath,False
+d5b0d09ddcc9c0de3678a32ecaa2c8ddc213bfd0,2021-09-08 20:58:56,Samuel Reed,test(jest): update snapshots for brevity,False
+788426d3470696e167800ce6757a89ac9d0d2777,2021-08-30 17:48:13,Wojciech Maj,"Replace classnames with clsx (#1543)
+
+* Update react-draggable
+
+* Replace classnames with clsx
+
+Follow up after https://github.com/react-grid-layout/react-draggable/pull/599
+
+clsx is fully compatible with classnames API, is quickly gaining traction and is about 1/3rd smaller than classnames.",False
+bea8c205a7a8e36eb75b2dd8172b7fef4e002673,2021-08-27 19:52:53,Samuel Reed,"docs(readme): update codesandbox links for latest version
+
+Fixes #1533",False
+d09b586dfe9188544e854cb9f4f0e48bc5b4adb8,2021-08-27 19:48:42,Samuel Reed,release 1.3.0,False
+67934670b0c3b882d6155221bbd5294dd693da21,2021-08-27 19:48:02,Samuel Reed,docs(readme): Various readme updates for new features,False
+21888057a0b879458e185eed591a0fae54396311,2021-08-27 00:16:43,Samuel Reed,chore(deps): upgrade devDeps,False
+2591bf7cbfc1f55f3a1d7e30ddb0a9fc4fe8341b,2021-08-26 21:59:22,Samuel Reed,"Merge #1296; allow null children
+
+Squashed commit of the following:
+
+commit 5dfce15ec8358c9f7343fe9d6b617b215fd5ef9c
+Author: Jeff Rasmussen <jeff.rasmussen@packsize.com>
+Date:   Mon Oct 5 14:51:58 2020 -0600
+
+    Check for null or undefined
+
+commit 79cf5bd28b781ebba9b9d01ea734d70c1dab3f8d
+Author: Jeff Rasmussen <jeff.rasmussen@packsize.com>
+Date:   Mon Oct 5 14:51:27 2020 -0600
+
+    Undo vs code ""help"" regarding formatting style
+
+commit b20a36c19b4c25ee253357bf54a62e4aeb48f7d2
+Author: Jeff Rasmussen <jeff.rasmussen@packsize.com>
+Date:   Mon Oct 5 14:20:44 2020 -0600
+
+    Fix missed !
+
+commit 36fede339ea23e6987b12012fcefd3929aa37170
+Author: Jeff Rasmussen <jeff.rasmussen@packsize.com>
+Date:   Mon Oct 5 14:14:14 2020 -0600
+
+    change check to validate against null instead of coercion to bool
+
+commit c0e3a2835efc66914666af5e57b6b33a206deb2a
+Author: Jeff Rasmussen <jeff.rasmussen@packsize.com>
+Date:   Mon Oct 5 14:12:18 2020 -0600
+
+    change check to validate against null instead of coercion to bool
+
+commit 91a4650ecd8c2de4b21d3c367e5c16de81b01733
+Author: Jeff Rasmussen <jeff.rasmussen@packsize.com>
+Date:   Mon Sep 21 12:57:44 2020 -0600
+
+    Protect against children that may be null, this happens with conditional rendering https://reactjs.org/docs/conditional-rendering.html#inline-if-with-logical--operator",False
+87bbbc1808eeea881301a6fe2697d7676e36634c,2021-08-05 03:05:08,David Gill,Fix drop dragover not obeying transformScale (#1530),False
+a1fb5fb95af12e5a0a550bcf266d34d2b2e053ac,2021-07-06 20:45:35,Davy Dequidt,Remove existing placeholder when onDropDragOver return false (#1512),False
+1547a474a5778ee1ae8cd4479b19615f0d46c041,2021-06-30 01:26:55,Damian Green,add new project to readme (#1506),False
+bab3c79d81b2f0472a39ae4a8082dba48862506c,2021-06-12 01:54:46,Samuel Reed,chore(docs): Add notes on custom child components,False
+efb22648036ecc534083089fe5a9a27b30758329,2021-06-09 06:52:39,Samuel Reed,docs(readme): note required class on custom resize handles,False
+783914c085490ce61398d5cd16a6e60792ecb906,2021-06-09 04:10:05,Samuel Reed,docs(README): update link to react-resizable handle docs,False
+5cf8afb29dbf2ab373378e775219488d4e63454e,2021-05-25 20:56:43,Samuel Reed,"Update stale.yml
+
+Relax stale bot",False
+415172f12f1c374b51638a721c379afb91fe390e,2021-05-22 02:32:09,Samuel Reed,"feat(droppability) Add `onDropDragOver` callback (#1395)
+
+Squashed commit of the following:
+
+commit 57d2a07ce7e87741dd2a08b42b87a551c80dc57f
+Author: Samuel Reed <samuel.trace.reed@gmail.com>
+Date:   Fri May 21 16:58:17 2021 -0400
+
+    feat(dropover): add onDragDropOver types & tests
+
+    Ref: #1395
+
+commit 4322331ec9593d6994a986c255d6b5e3bca0cd6f
+Author: Samuel Reed <samuel.trace.reed@gmail.com>
+Date:   Fri May 21 16:45:37 2021 -0400
+
+    Update lib/ReactGridLayout.jsx
+
+commit a3588f6105483111725e04171db24f45dbbf8b03
+Author: James Ramm <JamesRamm@users.noreply.github.com>
+Date:   Wed Mar 31 10:28:55 2021 +0200
+
+    Update README.md
+
+    Add docs
+
+commit f582b0d15ce47d1003022664a050a30d591529e8
+Author: James Ramm <JamesRamm@users.noreply.github.com>
+Date:   Fri Jan 29 10:15:16 2021 +0100
+
+    #1394 - Dynamic configuration of droppingItem
+
+    Idea here is to allow the `droppingItem` to be adjusted based on what is being dragged over.
+    Question - maybe we should prevent the `i` property from being overwritten (and limit it to `w` and `h`). I am not sure but dynamically changing `i` may cause issues for removing the placeholder. I don't see any use case for needing to change `i` anyway.",False
+0ab31d458dfca946dbabf144d3f3774e0da8749b,2021-05-22 02:13:34,Samuel Reed,"fix(droppable): add preventDefault to fix flaky Chrome behavior
+
+Fixes #1442, #1448",False
+9e57ee2bcc6c10d4cc4ad6d3546cc69d6f9848fe,2021-05-21 19:36:32,Samuel Reed,"chore(types): prep for Flow 0.151.2
+
+This version has a new `method-unbinding` rule, and it
+can't understand our autobind helper.",False
+05b3a57d2b6f6a16f11774103e04a4b8f18cba0c,2021-05-21 19:14:59,Samuel Reed,fix(allowOverlap): fix issues caused by incomplete #1470,False
+a315e68b88556038a6dd94db2ec21e15e7afe368,2021-05-21 18:32:49,dependabot[bot],"chore(deps): bump hosted-git-info from 2.8.8 to 2.8.9 (#1468)
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.8.8 to 2.8.9.
+- [Release notes](https://github.com/npm/hosted-git-info/releases)
+- [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+- [Commits](https://github.com/npm/hosted-git-info/compare/v2.8.8...v2.8.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+96365a374720e5b7fde4474f1fd07f12efc5846c,2021-05-21 18:32:32,Samuel Reed,chore(dev): upgrade flow-bin and remove M1 hack,False
+1612e541bc22e99eaf1edaee5b4d99018e404059,2021-05-21 18:02:43,Andries Smit,Remove sorting when compact type is null (#1474),False
+ebbadede906db149f53b3d13d16b2538b720ae5e,2021-05-17 22:09:52,Gokul,"Overlap grid item (#1470)
+
+* Added all side resize build
+
+* Overlap grid item
+
+* Reverted build files
+
+* Revert build from git ignore
+
+* Test
+
+* Functional test case
+
+Co-authored-by: bgokul9993 <bgokul9993@gmail.com>",False
+6f728ef01dc025fffe54ab03ce9afbdd994a00eb,2021-05-10 21:21:54,Samuel Reed,release 1.2.5,False
+3ebb6738bc2674c30b97d74b810b23a939d6f85f,2021-05-10 21:21:36,Samuel Reed,chore(pkg): update npmignore,False
+f0988735552073750ad246f886f82d2b72cbd6db,2021-05-10 21:20:21,Samuel Reed,"chore(test): update snapshots
+
+These snaps now show the correct handle being referenced as a ref",False
+ef4881453c4e765ec1d3609eaeaab2c2fd9077db,2021-05-10 21:16:26,Samuel Reed,chore(types): update ResizeHandle to match react-resizable 3.x,False
+9bf5942c06693ce31d88d8cf9849b1f56bb6c9b6,2021-05-10 21:13:36,Samuel Reed,"fix(resizing): fix resize on touch devices (#1458)
+
+This had to do with a bug in `react-resizable` with how it used
+(namely: did not use) refs properly on the resize handle. This
+ended up not causing a problem on the desktop due to the way it
+attaches click handlers, but did cause issues on touch devices.",False
+73ede425cd1ca9174a863012048b3a3def02035f,2021-05-10 19:48:06,Samuel Reed,chore(deps): update devDeps,False
+c495ee6eefdd05cd6250b1b595e45aaa1bd99282,2021-05-10 19:47:45,Samuel Reed,chore(types): clarify resizeHandle vs resizeHandleAxis,False
+165708cd69021e1b313e3036528a5543c66f45e8,2021-05-04 01:52:14,Samuel Reed,chore(examples): remove references to `verticalCompact`,False
+17c2b9e0e235cd2d7044288ee73ac83bb4f5d49a,2021-05-04 01:49:50,Rick Zhou,deprecated property verticalCompact should be removed from README (#1463),False
+7c06498166b3c8613c866f374da5dd318c5faa8d,2021-04-13 19:18:07,Donny Li,"Ensure no negative positions when compacting (#829)
+
+Ensure no negative positions in util.js compactItem function.
+
+Fixes #535.",False
+4e97f9e22593d49d65c6cdb24939916319d6ee3e,2021-03-18 21:37:28,Samuel Reed,release 1.2.4,False
+95b25a98e4a8ef2d85ae9e9979a9c9be5b86bcd1,2021-03-18 21:37:09,Samuel Reed,"fix(WidthProvider): fix rendering when measureBeforeMount={true}
+
+Added tests
+
+Fixes #1428",False
+e74987a7e4257bc260c7c5bada1e1b3570933be1,2021-03-17 21:11:32,qliu,fix: cancel update width when width is 0 #924 #1084 (#1427),False
+401f4e441dced12b5675511058d7753833fd8b41,2021-03-16 22:52:37,Samuel Reed,release 1.2.3,False
+ed47bc18cfc3d3469b9f02407d8b2a13c4e476dc,2021-03-16 22:51:36,Samuel Reed,docs(README): add compatibility with React 17 & StrictMode,False
+1c37eebacdbb5120caa82898d74a57d07b85429a,2021-03-16 22:47:27,Samuel Reed,"fix(React.StrictMode): pass nodeRef to draggable/resizable
+
+We are now fully compatible with React.StrictMode and React 17!
+
+Fixes #1419",False
+4fc3cbc495f613ec340366422dd8d08590d6cdce,2021-03-16 22:39:17,Samuel Reed,"Remove ReactDOM.findDOMNode (#1425)
+
+#1092 
+
+Fixes #1091 #1318 #1331",False
+7e4aad534cf2b9cdd5a85c780138b871dc8d9bd3,2021-03-08 13:53:20,James Ramm,"Merge pull request #1409 from skoging/patch-1
+
+Add react and react-dom peerDependency",True
+ba3e0f07489da01a66f26ef798ca56c7ecae8460,2021-03-02 20:39:52,Samuel Reed,Create gh-pages auto-deploy,False
+cab71315e1603949359421a79b02e21f81c7d776,2021-03-02 20:30:29,Samuel Reed,fix(gh-pages): make react-grid-layout.github.io/react-grid-layout work,False
+2a288a5cf9bda096df7b7c9f780a151b5fcb66ac,2021-03-02 20:24:26,Samuel Reed,feat(examples): add version,False
+3a76f16e616812b9b33b18ee852f38ff4502a61d,2021-03-02 17:38:41,Tore Hammervoll,Fix invalid syntax,False
+9f7d03cc530f2f2f1a18fdf1058dbaa4f95a1d28,2021-03-02 17:29:22,Tore Hammervoll,Add react and react-dom peerDependency,False
+58c71e5442d003d902df35501aac8d294af25faa,2021-03-02 06:51:52,Samuel Reed,release 1.2.2,False
+15cf2c483e3cfa62aa75ee2ddf3df5a70d8829ef,2021-03-02 06:50:30,Samuel Reed,"fix(GridLayout): fix broken onResize
+
+TODO implement tests that will catch this earlier",False
+41cc799fd82d02adf29d6597c70679a9ff3bc339,2021-03-01 22:49:20,Samuel Reed,chore(webpack): better commons chunking in examples,False
+a048cb52fda44824d033c90af316adc6f64581b7,2021-03-01 22:46:22,Samuel Reed,release 1.2.1,False
+8a3ec09455b4e6175ed71b34b18b77114de846d4,2021-03-01 22:39:42,Samuel Reed,"fix(RGL): clone layout item before modifying it via resize
+
+Fixes #593, #1289",False
+7364ba6c52002ba17ee7a2610b104c5e6866a29f,2021-03-01 22:34:40,Simon Mary,"Horizontal Compact Mode issues (#1390)
+
+* depending of the compact mode, the horizontal or vertical bottom needs to be found by the bottom utility
+
+* revert bottom function code changes, update test to compact correctly
+
+Co-authored-by: Simon Mary <sma@marketlogicsoftware.com>",False
+530f6da1afb32ccdf98cfc2bec5bb93c1683f633,2021-03-01 22:34:17,Samuel Reed,fix(examples): new repository location,False
+66577b4441bb86bf4843d5b2c3fa4d34ba94867b,2021-03-01 22:33:31,Samuel Reed,chore(webpack): clean up webpack 5 bugs,False
+7d6eb783bf70142c2fc0bed1ba2a06e114ff80b9,2021-03-01 22:18:15,Samuel Reed,docs(README): update to new location due to org change,False
+bc545f5f1b7effa9a48d327ba23c36be994574fa,2021-03-01 22:15:24,Gregory Bober,new link added to the 'Projects Using RGL' list (#1375),False
+0236d3f7a8e99e9980bd350f7dcd90089d4a378a,2021-03-01 22:14:31,Samuel Reed,chore(pkg): upgrade minor devDeps in yarn lock,False
+53b31606fa42b3a76ebd796d3bb0f165f5aa6d9b,2021-03-01 22:12:51,Samuel Reed,"chore(pkg): upgrade most devDeps (flow, husky, enzyme, jest)
+
+Fix lint errors",False
+1157e13639f4d83ede6c8524c1b0ef1c80e5d6cb,2021-03-01 21:20:56,Samuel Reed,"fix(scale): Fix double scaling when transformScale applied
+
+This bug arose due to implementation of `scale` in react-draggable.
+
+Fixes #1393 (thanks @JitendraCh-Kore)
+Fixes #353",False
+245cd21f3b484e5b535d380410e2d5ea74e99f99,2020-11-30 21:13:06,romeo-str,"onDragOver firefox issue (#1310)
+
+line 588: e.nativeEvent.target.className.indexOf(layoutClassName)
+give ""TypeError: e.nativeEvent.target.className.indexOf is not a function""
+
+replaced by:
+!e.nativeEvent.target.classList.contains(layoutClassName)",False
+2f9b745ffe5bebbf9df0e9a59f825e4eb871b13f,2020-11-17 19:29:14,Samuel Reed,release 1.2.0,False
+0d0103c8cf3a45ebdd1de87f44dc9c96c57bc2f7,2020-11-17 02:46:26,Connor Lamoureux,"Firefox dragover (#1333)
+
+* added preventDefault so firefox drag events can propogate
+
+* update comment
+
+Co-authored-by: Connor Lamoureux <connorlamoureux@workfront.com>",False
+e4e2b8b054d247ab696bb4e7d6199415b2f45d32,2020-10-05 18:17:39,Oskar,"Make moving items with images and text less buggy (#1283)
+
+* Make moving items with images and text less buggy 
+
+First of all, thank you a lot for an awesome module!
+
+I have only one proposed change :-) When you try to drag on an image inside the grid for example then browsers usually starts dragging the image, like if you want to drag it into another application and save it there etc. This makes the actual dragging of items in the grid very buggy. At least half of the time when I tried to drag on top of an image in Chrome on my Mac it started dragging the image only + then I let go of mousedown and the item starts moving, but it also makes `onLayoutChange` not even fire.
+
+So adding this simple css solves all that :-) Also fixes problems that might arise when dragging on text. 
+
+It took me quite a long while to realise this was the issue and I was going to create an issue on this module that `onLayoutChange` doesn't always fire even when you have moved something and it has fixated in position. But this small css fixes all that from what I've seen, sometimes life is actually simple :-) 
+
+Let me know what you think! :)
+
+* Update styles.css",False
+3832d3bae4760b36a8bee7c731852a0c7935c817,2020-10-05 18:05:37,Lorenz Henk,Include resizable handles styles (#1299),False
+271e8267f025286dfd56f05f7a0f2241787f6f48,2020-10-05 18:03:53,Andrey Melnikov,"feat: add customize resizable handler (#1303)
+
+Co-authored-by: Andrey Melnikov <andrey.melnikov@csssr.com>",False
+b4caad3af49717e2ee4d8b8dc653eef9a3a684c2,2020-09-10 22:01:08,Samuel Reed,release 1.1.1,False
+1517a0b1013edfd64456e3776a7c4c18b97d90d7,2020-09-10 21:57:49,Benzer1406,"Adds Ubidots as Project using React-Grid-Layout (#1237)
+
+Co-authored-by: benjamin@ubidots.com <benjamin@ubidots.com>",False
+c7cb4fefe70686b5a922bda8d3e0a4d1676f9b62,2020-09-10 21:53:32,Jean-Michel FRANCOIS,"fix: remove dist folder from npm ignore (#1284)
+
+So we can use the lib through unpkg",False
+8ef1fb48d83c18dbe13442b72741643aa30b1434,2020-09-03 23:42:42,Samuel Reed,release 1.1.0,False
+01c1cb981e338372b3c59ede28a2900414c98104,2020-09-03 23:33:14,Samuel Reed,"fix(Responsive): Revert containerPadding change in #1138
+
+This inadvertently caused containerPadding to default to [0, 0] on
+default ResponsiveReactGridLayouts, not to the value of `margin`.
+
+This restores the previous behavior and fixes types.
+
+Prettier seems to have a bug and attempts to line-wrap the typedef in
+ResponsiveReactGridLayout#L59, breaking the type, so I added an ignore.",False
+53176035086d55576572804a5074f07a04c43039,2020-09-03 23:27:47,Samuel Reed,chore(dev): update resizeHandles type,False
+8ee2059a97f2a3f3823bb654b56abff45acc1237,2020-09-03 23:27:37,Samuel Reed,chore(dev): update devDeps and react-resizable version,False
+a1d7419680cd2dd4aa60f6aa62213d224b2ff960,2020-08-31 18:36:36,Marius Andra,"Resizable handles on other corners v2 (#1211)
+
+* Resizable handles on other corners
+
+* Add example for resizable handles
+
+Co-authored-by: Olga Polikashina <olga.polikashina@gmail.com>
+Co-authored-by: Samuel Reed <samuel.trace.reed@gmail.com>",False
+6591a6d99e128f18a3bb9422daa38ab2cdd7a62f,2020-07-20 22:48:57,Samuel Reed,docs(readme): reformat css transforms perf data,False
+d086cb4fa952551e93b09446ec30344a3d8aaa65,2020-07-20 22:46:39,Samuel Reed,"chore(pkg): npmignore flow interfaces
+
+Saves about 10kB compressed & 45kB uncompressed",False
+9aa465e46e1d4d20c9fb27df0f003ed98abce6d2,2020-07-20 22:40:20,Samuel Reed,release 1.0.0,False
+f446e283ba711cc73e9c00c081d814f2e145f514,2020-07-20 22:39:32,Samuel Reed,docs(readme): additional note on `innerRef`,False
+c47f1f279d5d3d9b8ce6857d45a5d4d5f2f8fcba,2020-07-20 22:37:44,Victor Chugunov,"changed readme accordingly to responsive mechanism (#975)
+
+Co-authored-by: Victor Chugunov <v.chugunov@reply.de>",False
+e589cd3c90ca631edc651796f6953b8362e766bf,2020-07-20 22:30:48,Samuel Reed,Merge remote-tracking branch 'origin/pr/1169',True
+2b19e58f542f0c1ca5d61d3f8d1254195dcbebd1,2020-07-20 22:11:59,Samuel Reed,"chore(dev): rem Node 8, which is no longer supported by many deps",False
+b0f73e90f9709aecdc1c7460f5f184860587513e,2020-07-20 22:05:28,Samuel Reed,chore(dev): rem unused build.sh,False
+f53cf0f36b537d3610652d4578bc250cf4a307a4,2020-07-20 22:00:01,Samuel Reed,"chore(dev): bump websocket-extensions
+
+Closes #1223",False
+105a11bf4a19b568b5478f23b0254da5f2ee3242,2020-07-20 21:58:04,Samuel Reed,"chore(dev): re-run Prettier with 2.0
+
+Very slight style changes",False
+33ccfa55bd7237d3754b4b39d0cd61e4bb614363,2020-07-20 21:57:21,Samuel Reed,"chore(dev): update devDeps
+
+We're on to prettier 2.0 which will cause some changes for a later commit",False
+bf48aca4809d81338d67439872eec18c87647777,2020-07-20 21:57:15,rhgb,fix #1243 (#1246),False
+da07f0fac53dcc5a65383ec095c8376f5bc67539,2020-07-20 21:55:37,Samuel Reed,"Add isBounded property so items could be constrained within grid (#1248)
+
+Co-authored-by: Artem Bykov <artemio91@gmail.com>",False
+83251e5e682abfa3252ff89d4bacf47fdc1f4270,2020-04-29 23:44:17,Paul Sachs,Added innerRef prop to expose wrapping div (#1176),False
+0697252a6bf3dedba47272b14ceeea3b7e8d81b2,2020-04-10 00:35:04,Minh Son Nguyen,Bump react-resizable to 1.10.0 (#1179),False
+7b8c1321016cb52236913b2afc96e9a26eae2353,2020-03-18 15:26:02,ceberhar,make onDrop callback more consistent,False
+8ba4853ea43d02c4d7a007646b29984c9fefc25e,2020-03-17 00:56:46,Samuel Reed,release 0.18.3,False
+7435467d7b6926503cb64141710e44c28e33c8a8,2020-03-12 21:28:38,Samuel Reed,"Fix shouldComponentUpdate interfering with droppability (#1164)
+
+* test(mock): ensure we're importing source files
+
+Otherwise we'll import from build/
+
+* fix(droppable): ensure SCU doesn't short-circuit droppable
+
+We can also do a simpler equality check on activeDrag
+
+Added test to ensure we don't regress this
+
+Fixes #1152 and supersedes #1162",False
+20dac73f91274526034c00968b5bedb9c2ed36b9,2020-03-12 02:37:07,Samuel Reed,"Add enzyme testing. (#1163)
+
+* test(enzyme): add basic enzyme snapshot test
+
+* test(flow): make Layout a $ReadOnlyArray
+
+* test(RRGL): test that layouts is not modified
+
+* test(lifecycle): add deep snapshots
+
+* fix(webpack): remove esm mode for now, not useful
+
+* fix(test): rem chance so we're fully deterministic
+
+* test(travis): ensure node 12 sort algo doesn't blow up tests
+
+* fix(showcase): make random placement more appealing",False
+6ec7d745060f1fded7b509dff92a84ba9fe1282e,2020-03-11 20:47:13,Mats Byrkjeland,"Fix example of memoizing children in README.md (#1158)
+
+The `count` variable comes from props, not as an argument to the useMemo callback.",False
+2bb6a26e231ee7322b2a3d98d529a3415829410a,2020-02-26 20:37:16,Samuel Reed,release 0.18.2,False
+b108a7ce02363286c556831835bc2842a4c2b09f,2020-02-26 20:32:46,Samuel Reed,docs(example): indicate how to use toolbox,False
+42baa391ef2b99a983cc012d56d476dff7df990b,2020-02-26 20:32:32,Samuel Reed,"fix(SCU): make shouldComponentUpdate shallowly compare children array.
+
+This means that shouldComponentUpdate will return `true` in almost all cases, unless
+the developer is careful to memoize it. A new ""Performance"" section has been added
+to the README to indicate this.",False
+616daafe5a2f6b6408e8863200cfb4d86a9cfe99,2020-02-25 21:58:31,Samuel Reed,release 0.18.1,False
+0e38ea00d59f84ab6bb3f2bda1ca6146e5ff15a6,2020-02-25 21:55:46,Samuel Reed,"fix(types): fix flow typing for WidthProvider and make props exact.
+
+This made the bug described in #1137/#1138 visible by adding typing
+to examples, ensuring that we're using RGL and RRGL as well as the
+WidthProvider HOC in actual code, so Flow covers it completely.",False
+5e9affa33e291700a77a1b2a7be168c381062971,2020-02-25 21:55:06,Samuel Reed,chore(deps): update devDeps,False
+91ebd58abc9eac4fbba0c004233fa349d1ade20d,2020-02-25 19:31:19,Michael Herzner,Fix flow error due to incorrectly set defaultProps (#1138),False
+730f201db425129b3a6fd68ae2304f5ec69efa3a,2020-02-25 19:14:21,Samuel Reed,release 0.18.0,False
+44e200067b3640c3230f5511e8624a7c629d2f9a,2020-02-25 18:52:52,Samuel Reed,docs(readme): document new onDrop callback arity,False
+1078b14582f424838947c8b0cf386eb6b45163b6,2020-02-25 18:45:43,Samuel Reed,"Add `shouldComponentUpdate` to major components. (#1123)
+
+* Fix freezing on drag ie11
+
+https://github.com/STRML/react-grid-layout/issues/760
+
+1) Add shouldComponentUpdate for ReactGridLayout
+2) Add shouldComponentUpdate for GridItem
+3) Fix when items are dragging not from own position, but from zero top left
+
+* feat(render): Add shouldComponentUpdate to ReactGridLayout & GridItem.
+
+This improves performance quite a bit in most cases, is implemented safely
+to avoid breakage on equal arrays and objects.
+
+To do so, while avoiding the maintenance burden of keeping a keylist
+in sync with propTypes, we read propTypes using babel-plugin-preval
+then construct a function to do the fastest possible comparison.
+
+This is *a lot* faster than isEqual while avoiding unnecessary
+comparison of e.g. `children`.
+
+* fix(test): complete refactor of calculateUtils
+
+Co-authored-by: Alexander Zayka <48759604+zaykaalexander@users.noreply.github.com>",False
+663c06fd9dcdfdbd934928be3a4d258e1b1c1e0a,2020-02-17 03:40:11,Dimitar Dimitrov,"Merge pull request #1143 from STRML/n1ghtmare-patch-1
+
+Fixed the ""User recipes"" wiki link",True
+3a7c20a9dc034a1b4f4472d9dbc5528174f2b38c,2020-02-17 03:39:06,Dimitar Dimitrov,"Fixed the ""User recipes"" wiki link",False
+da867bca87737093a3874c6c2c1b9bb22c0a28b1,2020-02-17 00:05:26,Dimitar Dimitrov,"Merge pull request #1142 from eric-burel/patch-5
+
+Add link to users recipes wiki",True
+72bd2108984f311a862d880aaec19ed9937f9f07,2020-02-16 23:57:11,Eric Burel,Add link to users recipes wiki,False
+59b0da6ab32f2c7ae0e74c87ad6997aea51875d4,2020-02-11 02:49:31,Samuel Reed,"Merge pull request #892 from lmachens/lm-fix-dynamic-remount
+
+fix: dynamic isDraggable and isResizable remount",True
+98f21c4654e433f311695a4b532b4b7df60490bc,2020-01-22 22:24:58,Samuel Reed,"Merge pull request #1128 from STRML/refactor/dropping
+
+Refactor/dropping",True
+be1d41f70b9328e15ebe51b49fbf3b9f806fdd48,2020-01-22 22:19:04,Samuel Reed,"refactor(dropping): minor tweaks
+
+Rename DroppingPosition properties to ""left,top"" to reflect other places
+where ""x,y"" denote grid units and ""left,top"" denote px
+
+Minor fixes for example 15",False
+5c6c92282d9543b0e312e5f56860f7ad2249a3f4,2020-01-22 19:14:51,Jan Dufek,Setting correct grid unit position for newly created dropping items.,False
+63a9dedca73e372697ad4218975dfa67a5fde78a,2020-01-22 19:09:33,Jan Dufek,Moved calculation methods from GridItem to own util file,False
+8d5ca2c8088e7e183edd7521615c36768748de99,2020-01-14 02:05:16,Samuel Reed,chore(pkg): add test pre-commit & upgrade husky package.json,False
+ba0c333a7b4aa9e59338812720d671d6a9a00d2c,2020-01-14 02:03:47,Samuel Reed,"chore(pkg): remove babel-plugin-espower
+
+Not actually that useful in combination with Jest",False
+52390bfa31a1137bfdf965ba1b17503a9fd2c300,2020-01-14 02:01:03,Samuel Reed,chore(prettier): run on a few files that got missed,False
+87ba2dfefe4bf08839cbee7ecb3c56ac85ef082d,2020-01-14 02:00:59,Samuel Reed,chore(pkg): upgrade devDependencies,False
+865a83f1ecc2fa66d3b3202a12b64f0448283ada,2020-01-13 23:25:32,Greg Beaty,"Fix handling of width changes (#1090)
+
+The width change event was ignoring dynamic changes to breakpoints and
+columns because it was checking current props against itself. This bug was
+introduced when the library refactored the use of the deprecated
+componentWillRecieveProps in favor of componentDidUpdate.
+
+Fixes #1083",False
+92be16916a7161db6ab856864df4b933b4db33d2,2019-12-09 02:23:33,Dimitar Dimitrov,"Replaces .includes with a regex for a better IE compatibility (#1096)
+
+* Replaces .includes with a regex for a better IE compatibility
+
+This is to address: https://github.com/STRML/react-grid-layout/issues/76
+
+* Refactoring for better code readability",False
+18caa8bbc116cb0f36ab0ed78ff5e544f0338df3,2019-11-29 20:34:56,Iuri Pereira,"Update Readme.md code sample (#1086)
+
+Switch `var` to `const`",False
+7c6ef3e3354dfab30c89fe8b9313045969126332,2019-11-20 22:40:42,Samuel Reed,"fix(GridItem): ensure locally set isDraggable/isResizable overrides globals (#1060)
+
+This also makes static items resizable/draggable if locally set, which is
+a nice option but will break backcompat.",False
+cffd456f6b8cf0b567a4aeb4c55e40f055a5c3c7,2019-11-20 21:30:24,Varun,Fixed a minor bug which prevents showing 'Add +' (#1038),False
+d3f473010d3adb3313e1f0e475a8d62f3498d2ff,2019-11-20 21:25:12,Thanks,feat: react-resizable add transformScale (#1075),False
+e3e0e8208d9e1fec2cc081df016481e0a4caebb7,2019-11-20 21:24:11,Darek Kay,Do not mutate layouts prop (#1063) (#1064),False
+ed6d577131835a6f49a5f476612b309af7b60f83,2019-11-20 21:20:48,Samuel Reed,fix(github): use periodic-labeler to fix https://github.com/actions/labeler/issues/12,False
+09f22ffb76cc42494709d4cc312fac7a98ccc4e8,2019-11-20 15:29:22,James Smith,Adding Hakkiri to list of projects that use react-grid-layout (#1077),False
+75d69d1db348e6a071401cb08aef35a240bff7a5,2019-11-20 15:29:02,Jonathan,"update compatibility table (#1078)
+
+Version 0.17 and up uses getDerivedStateFromProps, not available in earlier versions of React.",False
+d772b2fa3973a3222adcc88d97be2b00794bdde3,2019-11-10 16:59:46,Dimitar Dimitrov,"Merge pull request #1065 from Jacob-Grafenstein/master
+
+Pass event to onDrop callback",True
+226a4bca011106c3261c78e77380bcb06ed9b941,2019-11-07 03:18:27,Maksim Andreev,fix: forbid change layout on click without drag (#1044),False
+2059870f4f7de39256c99f9be8c93dcc3d1affa1,2019-11-04 07:15:46,Jacob Grafenstein,Pass event to onDrop callback,False
+1fe93e2cdb39b653da13f093f54180d679f9e5cc,2019-10-30 05:03:57,Samuel Reed,release 0.17.1,False
+caa921bf908679dd9f615cb29b97c6045a026c06,2019-10-30 04:46:58,Serebrennikov Alex,issue-1046: added scale for DraggableCore (#1054),False
+602281313fc45329fc8ccde0f99aa95fbc62dd4e,2019-10-30 04:44:24,Samuel Reed,"chore(github): disable labeler
+
+Disabled until fix for https://github.com/actions/labeler/issues/12 is present",False
+82863b59ff1b268148edfbaa5a7fc39a9f0ce05f,2019-10-30 04:41:58,Alex Manusu,"fix(ReactGridLayout): ensure window exists before checking navigator (#1057)
+
+This was an issue for my usage as the package is imported in a node context, and this navigator check
+is done at the top level of this package rather than after render the grid. So `window` is undefined
+at the point it is initially included.
+
+So we didn't even need to render the grid layout to have this issue.",False
+c6304002c03fcdfcdbabe72b212c62e72268ceaa,2019-10-24 19:41:21,Samuel Reed,release 0.17.0,False
+d121e0b91c2f7aa744212424ab8ecb52ce57bf9a,2019-10-24 19:40:46,Samuel Reed,chore(pkg): upgrade flowconfig expected version,False
+e46f9f1ebc29b410d41c0d30815ac445e53ade2a,2019-10-24 19:09:36,Samuel Reed,"chore(pkg): minor dep update & upgrade react-resizable to 1.9.0
+
+We should now be completely past the React 16.9 lifecycle deprecation!",False
+6346836e45e77f1de0b63241c50f480f518eb157,2019-10-22 22:47:39,Samuel Reed,"refactor(GridItem): save some work when dragging/resizing
+
+Added comments for clarity",False
+3d91fe15a361fdac96de3a4c4cf0ea3a81143a50,2019-10-11 19:36:21,Samuel Reed,chore(examples): make flash of unstyled content less jarring,False
+1a1ab9826aa8b2681b28937ef68bdebe0b85a23a,2019-10-11 19:32:12,Sergey Golovin,fix: remove dropping placeholder on drag leave (#1033),False
+056c6f2940a187305e670a6ad902bbc3808ff4e8,2019-10-11 19:30:30,Maksim Andreev,"Explicitly use default prettier config (#1041)
+
+Explicitly use default prettier config",False
+8a2a0dc6a627524a7e275d2eb6ebff669e61b584,2019-10-10 19:08:43,Samuel Reed,"fix(prettier): ignore dist/ and example/
+
+Otherwise prettier will churn on these and screw up our builds",False
+6575862f4475a1a205dbad96e96a44d458a38436,2019-10-10 19:04:12,Samuel Reed,"chore(examples): add CONTENT_BASE env and ignore examples
+
+examples/ will be re-added in gh-pages",False
+a0936f7ba5b6d88c324b4fa531ec6a54de06946e,2019-10-10 18:44:52,Samuel Reed,chore(style): re-run prettier,False
+fcb2305f54f9c1eead631f729c52f643bba99fcd,2019-10-10 18:41:06,Samuel Reed,"Merge pull request #1013 from STRML/babel7
+
+chore(deps): upgrade to babel 7",True
+7fefadcccb8cfd19f8dbeaaf2c0af4c49cc5f809,2019-10-10 18:38:11,Samuel Reed,fix(flow): upgrade flow version in flowconfig,False
+b733aede6349434ca965f7dee2ce357b86e2c77e,2019-10-10 18:30:20,Samuel Reed,fix(example): test-hook relative path,False
+f2f3fc0e10834f555dc0d81bf7ed5e630bb4f61a,2019-10-10 12:59:03,Sergey Golovin,Update stale.yml,False
+5aea831e0aa2439dc054e340b25bd138f629bb41,2019-10-09 22:24:25,Samuel Reed,fix(test): add @babel/cli,False
+80a3a5dbe8a948dad5480fa7ca20a03b255a3ed1,2019-10-09 22:18:40,Sergey Golovin,chore(actions): increase operations count and runs frequency (#1037),False
+9c88df5f89abc95f2b295dd7ba01f0fbbcc9c4cb,2019-10-09 22:16:58,Samuel Reed,Merge branch 'master' into lm-fix-dynamic-remount,True
+86cffcac703eee9315cf22954a93d7fbe4f0a01f,2019-10-09 22:13:23,Samuel Reed,"fix(test): ensure espower & present and let webpack handle modules
+
+babel-loader will automatically set modules:false when instantiated,
+so we shouldn't set it on .babelrc.js, because it will break jest et al.",False
+e61a493965369296176be6ced56329c62a845ce5,2019-10-09 22:06:49,Samuel Reed,chore(pkg): minor flow update,False
+082907c5d22f0e3e137148d346f1e2f70b21d94c,2019-10-09 22:06:48,Samuel Reed,fix(examples): get 'make view-examples' running with babel 7,False
+850280928719f5fb9d74e3a0f90dac1063006bdc,2019-10-09 20:57:08,Samuel Reed,chore(examples): refactor for import/export,False
+f45ba4f720d6eeaa94c6bb8ec3a9607fa7fb567b,2019-10-09 20:52:04,Christopher Reece,added monday to list of companies using react-grid-layout (#966),False
+0ec7f53ec78450048c7bbd991c72e93e8b84ec44,2019-10-09 20:50:43,Samuel Reed,chore(deps): upgrade to babel 7,False
+0cb8e3e575ad371064dbe1851008bc614e101f0a,2019-10-09 20:44:35,Samuel Reed,"chore(pkg): move babel-preset-es2015 to babel-preset-env
+
+Squashed commit of the following:
+
+commit f95716b86d54701c02cc5496ca96613ac66f8636
+Author: Samuel Reed <samuel.trace.reed@gmail.com>
+Date:   Wed Oct 9 11:14:18 2019 -0400
+
+    update yarn.lock
+
+commit e017ebc878dd092614c6bee3db7e09f01a8211a1
+Author: Samuel Reed <samuel.trace.reed@gmail.com>
+Date:   Wed Oct 9 11:09:47 2019 -0400
+
+    chore(babel): add browserslistrc
+
+commit 7196301094b455a199e8c7e8f9387669d6acb4d9
+Author: wadezhan <wadezhan@tencent.com>
+Date:   Wed Sep 11 09:31:09 2019 +0800
+
+    remove eslint disable rule; componentWillReceiveProps will be refactor
+
+commit ec02d58c1062f5f3b5f130c334dd1c5085a67fcd
+Author: wadezhan <wadezhan@tencent.com>
+Date:   Sat Aug 3 09:32:25 2019 +0800
+
+    chore(eslint): lint fix
+
+commit 561290dc18afe5625d2e9f3c6b9327019429ca2c
+Author: wadezhan <wadezhan@tencent.com>
+Date:   Sat Aug 3 09:13:49 2019 +0800
+
+    chore(babel): upgrade",False
+a013f9cd2457cca9aba64e3f9f5bffc9cf0ab194,2019-10-09 20:32:26,Samuel Reed,chore(devDeps): upgrade husky,False
+1d714da897f3d034efa9344c6c0fc795dd72c0f6,2019-10-09 20:09:54,Sergey Golovin,chore(actions): add an action for auto adding lables on PR creating (#1036),False
+58838ededfec1e7030fc24d28980d8290c5cc435,2019-10-09 19:03:02,Sergey Golovin,chore(actions): add action for removing stale issues and RPs (#1035),False
+413738075826b4232cde2fe44f46a17f7d631947,2019-10-08 21:32:44,Sergey Golovin,fix isDroppable in firefox (#1010),False
+ce5e3ff36acf10cdd3659427219674b147a6de20,2019-10-08 15:14:53,Dimitar Dimitrov,"Merge pull request #1022 from quadency/quadency-using-rgl
+
+add Quadency to projects using react-grid-layout",True
+ddebb65657b65dca0d6927962db06f2216cc432d,2019-10-07 19:18:12,Serebrennikov Alex,fix RangeError: Maximum call stack size exceeded when preventCollision = false and element is static (#1019),False
+ce1f5ea8b3f382c763bef05f0457768dc8b51152,2019-10-07 19:16:44,Serebrennikov Alex,"added an ability to use different margins for different breakpoints. #964 (#1016)
+
+* added an ability to use different margins, containerPadding for different breakpoints.
+
+* backward compatibility added;
+
+* minor changes:
+- update README;
+- update default value for margin into RRGL;
+
+* renamed getMarginPaddingValue to getIndentationValue and moved from class.
+
+* update README and type for getIndentationValue.",False
+9dfda0c741cc572c47449d9714c918fe20d3a9b4,2019-10-04 16:42:25,Alena Diachkovskaia,Issue #1015 - fixed (#1023),False
+b0db89dc05bf937495b4cf012cfbce9f08f32396,2019-10-02 02:54:29,Rosh Singh,add Quadency to projects using react-grid-layout,False
+77547d61b16cd3a62a938c7772fcf8f0cebb8a5d,2019-09-27 19:11:09,Samuel Reed,chore(lint): apply prettier on existing files,False
+4af61ffc59dd46f06550ffd666e3b18735f0859c,2019-09-27 19:08:13,Samuel Reed,chore(lint): fix minor lint errors,False
+b974d4e72883dc7fd6e5578bde75f92fe308cf8f,2019-09-27 19:03:50,Samuel Reed,Merge branch 'pr/995',True
+779e8d2d0d410d1e0e145fc7d4a174798a3f66e6,2019-09-20 14:02:52,Thanks,"feat: add transformScale (#987)
+
+* feat: add transformScale prop",False
+c9471692dfd4bb663b0545b22ff73e1b390377e9,2019-09-19 06:07:19,Samuel Reed,fix(yarn): dedupe lodash,False
+19bd90b07783df1353b587e48f3e95c74c3e120b,2019-09-18 23:14:52,Sergey Golovin,"Merge pull request #997 from n1ghtmare/examples-fix
+
+Fix for the drag-from-outside example",True
+4e8f11f4d98befbfab372f58f5dcd3dc0fa6dd88,2019-09-16 16:03:20,Dimitar Dimitrov,Fix for the drag-from-outside example,False
+5826c18ff8666d2ab7ad48899fa610a70adb5cf3,2019-09-15 15:10:08,Sergey Golovin,chore: update FlowType version,False
+c3ed8589c214e5ca1aaf4326f07812ca7c8556bf,2019-09-14 22:40:43,Sergey Golovin,"Merge pull request #993 from daynin/fix-examples
+
+fix(examples): fix typo 16-drag-from-outside -> 15-drag-from-outside",True
+9fe5882e823f56e7b0f5908ab0606729d78f13a7,2019-09-14 22:40:05,Sergey Golovin,"Merge pull request #990 from daynin/fix-cwrp-warnings
+
+fix: replace componentWillReceiveProps by getDerivedStateFromProps and componentDidUpdate",True
+3d4e863a0d4956b2d91542dfea4eaf52ff8e3a94,2019-09-13 16:21:56,Sergey Golovin,"fix: replace componentWillReceiveProps by getDerivedStateFromProps and
+componentDidUpdate
+
+- fix warnings
+- fix performance issues",False
+e50401705d8548b11a598981a72bf4cd50283cd9,2019-09-12 12:30:54,Sergey Golovin,"fix(examples): fix typo 16-drag-from-outside -> 15-drag-from-outside
+
+- fix typo
+- fix markup",False
+56eb5c8861541134b5fecffb42c6c488a257d0b9,2019-09-09 12:51:05,Sergey Golovin,"Merge pull request #980 from daynin/droppable
+
+feat(grid): add an ability to drop elements from outside of a grid",True
+1ff0ab0aaf6597aa3569b62dde84ae903beeaa20,2019-09-02 18:41:24,Sergey Golovin,"feat(grid): add an ability to drop elements from outside of a grid
+
+- add isDroppable flag for grids
+- add onDrop callback for getting an element position after dropping
+- add documentation
+- add an example",False
+80873c88b32755bd0ae028df20edc955c2c55d3e,2019-02-02 09:58:41,Samuel Reed,"Fix/tests (#908)
+
+* fix(test): fix jsdom error w/jest
+
+* fix(test): ensure TimSort in Node 11+ doesn't break our tests
+
+The test shouldn't depend on the runtime's Array#sort internals",False
+aa5af3cca2662a2ed2083f07c1798b745d4d6f89,2019-02-02 09:49:58,Samuel Reed,"fix(deps): update to webpack4 (#907)
+
+Clears webpack-dev-server warning",False
+31a9560f17b5e43fb39febe95afab4734635f9c0,2019-02-02 09:39:01,nikolas,"travis: test on node 10 (#877)
+
+* travis: test on node 10
+
+This is the current LTS release of node. https://github.com/nodejs/Release#release-schedule
+
+* Update .travis.yml
+
+Updated to specify latest node version & latest LTS",False
+e8794dcad7481bc84f728148f6f672016e78c28b,2019-02-02 09:21:15,Nacho Justicia,Add graphext to projects using react-grid-layout list (#905),False
+53f8272fbdd24c474992674d18d85c99e61a697f,2019-02-02 09:20:37,Matt Haff,Issue #898: Updating WebpackBin link to new CodeSandbox link in README (#906),False
+08bb0bda2af4c94c0d8b5cb8d4fbbab91cf3bb15,2018-12-19 19:14:23,Leon Machens,fix: dynamic isDraggable and isResizable remount,False
+c3ebdb4647fe400af969536e372a2055291d04d3,2018-10-25 21:22:56,Samuel Reed,chore(readme): webpackbin has been merged with codesandbox.io,False
+3352c84515e587c2bb7ec7935e24be5705d33704,2018-05-31 19:01:33,Leo Thorp,"add missing demo links to README.md (#821)
+
+* add missing demo links to README.md
+
+* remove extra line",False
+5127dfe923b1d58aa6cd983a6066a8ccb0fc256b,2018-05-23 19:29:00,Samuel Reed,docs(github): Clarify issue template,False
+5abce095edfd367d69a2efe8d21d0e7608610763,2018-03-28 11:11:30,Samuel Reed,"Merge pull request #774 from STRML/simplify-tests
+
+Remove power assert and refactor tests with jest",True
+0a9fd530d35ecb22fd91c5d97052f2b625a4eedf,2018-03-28 11:09:58,Samuel Reed,"Merge pull request #772 from STRML/refresh-examples
+
+Refresh examples in readme",True
+fe2f81914c861a3405701db3031e74c80fc05b16,2018-03-28 11:09:44,Samuel Reed,"Merge pull request #773 from STRML/reuse-flow-files
+
+Reuse types from lib instead of copying to build",True
+073e976bdb80c310671b7451b3ff7aba4c1cc5a7,2018-03-28 11:08:06,Samuel Reed,"Merge pull request #766 from brian-eightsolutions/fix-for-no-compaction
+
+Fix for bugs when no compaction is on.",True
+ef5b968a6aed267bf5c66f60bac0a85ab331a374,2018-03-27 15:27:05,Bogdan Chadkin,Remove power assert and refactor tests with jest,False
+7197c453ef4211c220f9563142464c67148b6a1c,2018-03-27 04:27:13,Bogdan Chadkin,Reuse types from lib instead of copying to build,False
+f142df0cf6815bde94d8c0afd9a63c42a7620265,2018-03-27 04:21:59,Bogdan Chadkin,Refresh examples in readme,False
+e768e47788c5988f0124b710e7ebb882ed541c10,2018-03-26 23:37:07,Brian Ho,Fix for bugs when no compaction is on. See https://github.com/STRML/react-grid-layout/issues/750,False
+e4c5f092a1be277ea588e4ff67ad9a18a472582c,2018-03-26 14:16:43,Samuel Reed,"Merge pull request #770 from species-gh/fixOnWidthChange
+
+Fix onWidthChange only being called on breakpoint changes",True
+5e32a6861507494603c81de38329b8c7c364c592,2018-03-26 12:08:02,species-gh,Fix onWidthChange only being called on breakpoint changes,False
+f5a092cc00f062d1f801b93340e82c90903bd10a,2018-03-09 01:49:19,Samuel Reed,release 0.16.6,False
+0197eb93a637767b0c94437a55175b2696db7897,2018-03-09 01:44:43,Samuel Reed,"Merge pull request #745 from STRML/fix/bad-compacts
+
+Fix rearrangement on compaction",True
+eaaed5a609cd34465fb49c3b3affa021563f3819,2018-03-06 20:41:06,Samuel Reed,"fix(compact): Fix rearrangement of grid during collision cascade
+
+Fixes #739
+
+Re-applies a fix erroneously removed from #650 in
+https://github.com/STRML/react-grid-layout/commit/15503084fb7b0af826427c8c0706901e5745a39f
+
+Thanks to @torkelo",False
+fec2a951c0bc88d174dc1ceb13eafb8c33caf8b1,2018-03-02 04:13:10,Samuel Reed,Add failing test for bad compact (item flowing through another item),False
+23dd97d657c45dfc853146852fb4ac8e3b1c0e44,2018-02-28 01:57:10,Samuel Reed,"Merge pull request #741 from jhob/feat/toolbox-click
+
+Toolbox example",True
+3f0a8465eca85150a750de1d1cde287c810a2e96,2018-02-28 01:41:40,Joey Hobbs,feat(toolbox): include a toolbox demo,False
+73e9029c4697e569d3b117d44da584b4dd3a024b,2018-02-27 23:56:06,Joey Hobbs,fix(toolbox): toolbox has responsive structure,False
+c8a53a3ba203baa25809ec76fafa38a9bc280ca1,2018-02-27 04:18:26,Joey Hobbs,feat(toolbox): introducing toolbox in example 14,False
+9ff2d83727e4c4de3b81416e00e00b0ee86aa2c3,2018-02-26 22:55:12,Samuel Reed,release 0.16.5,False
+f339bdafffce38f442c8f145dea2cae6cb5f08be,2018-02-26 22:46:45,Samuel Reed,"fix(verticalCompact): 'isUserAction' not properly reset after main collision
+
+Fixes #714, #720, #729
+
+Thanks @alexanderzobnin",False
+653a6251a242f464ca94da2e0f2ae789cb95b683,2018-02-20 20:34:47,Varun Sharma,Adds Kibana to projects using React-Grid-Layout (#732),False
+b2a6ddf12b6c2c69830c6c88e5d274d5b66b9c03,2018-02-16 08:47:54,Samuel Reed,release 0.16.4,False
+a74e6045ba8463120c889a769800f5f0aa05f2ad,2018-02-16 08:46:53,Samuel Reed,fix(preventCollision): refactor and fix width bug,False
+085fbb91b17fb352cc0752287379027f3726add9,2018-02-16 08:46:42,Samuel Reed,chore(pkg): update devdeps,False
+73257090469e1587a71efff7e62f0a696fa54e01,2018-02-16 04:09:13,Виталий,"Resize is broken for grids with preventCollision: true, fixes #655 (#656)",False
+5a7afc42fee7267126af29e4248800de33e6789f,2018-02-14 05:33:24,İbrahim Duran,changed condition to skip null items in processGridItem (#578),False
+aacba5fcb466860573284d8d081d71e1965c2f8c,2018-02-05 21:19:18,Samuel Reed,"Revert ""narrowing flow definition for style prop: Object -> CSSStyleDeclaration (#716)"" (#717)
+
+This reverts commit 5c6d33500c96bf57ed0fbd6fea0cc117dbdfdcaf.",False
+5c6d33500c96bf57ed0fbd6fea0cc117dbdfdcaf,2018-02-05 20:20:54,Vsevolod Rodionov,narrowing flow definition for style prop: Object -> CSSStyleDeclaration (#716),False
+ad50e42c8bbfca52c56707faeb8d7dc02adf6a48,2018-02-01 06:14:29,Samuel Reed,release 0.16.3,False
+e2cb45c377eac6f7d72b35431f311c335485d8b3,2018-02-01 06:13:06,Samuel Reed,types(WidthProvider): fix HOC type in Flow,False
+02ff2b3ebf8a453389d19c8dea1fc4a95b67f53a,2018-02-01 06:13:06,Samuel Reed,chore(pkg): upgrade deps,False
+7f14cfab08e1db074fdcebba2de653b51f911d7f,2018-01-18 21:10:02,Ersel Aker,fix overridding onStart behaviour #707 (#708),False
+8f33c8e2aa4856664c88c212df6b6d36386a865d,2017-12-23 08:31:50,Samina Fu,"Add CDNJS version badge in README.md (#693)
+
+This badge will show the version on CDNJS",False
+7391ff985f245eabb923cea8624cfa1abb7deb4e,2017-12-19 19:12:10,Samuel Reed,docs(README): Add Grafana to users list,False
+0b1fd48a795d869b09f76f115281b83bf089ac16,2017-12-17 21:07:05,Samuel Reed,release 0.16.2,False
+ec7ea2f41e93c859d08ea472dcd75839846f339f,2017-12-17 21:04:34,Samuel Reed,"fix(utils): onLayoutChange didn't clone object in last release
+
+Fixes #683 and test added",False
+11544fe2679b0dc0de42ccf23b2fb03f561bb56c,2017-12-13 04:27:55,Bogdan Chadkin,"Reduce eslint config (#686)
+
+* Reduce eslint config
+
+* Tweak name",False
+aee822842d06c86ad036d909e64945b7264fdc46,2017-12-13 03:18:59,Bogdan Chadkin,"Reduce flow config (#685)
+
+* Reduce flow config
+
+* Remove jsxhint",False
+6f98f31ea6f17d98fde1563417b1c849ea33f4e4,2017-12-12 02:21:58,Bogdan Chadkin,Add prettier (#682),False
+d84fc5b2a5990c59975cf97ac2a8f51207a675c9,2017-12-11 17:36:05,Bogdan Chadkin,Make resize corner style customizable (#678),False
+8567da7ce62f06cb31e938afb1931d13a2eae63d,2017-12-10 20:22:37,Samuel Reed,release 0.16.1,False
+14e8bea138225bcc523d599e5642fc64779d51e5,2017-12-10 20:18:10,Samuel Reed,"chore(dev): Update devDeps, flow version",False
+18f3093d09a0129a457e580bb13fcee5d29682c3,2017-12-10 20:12:11,Bogdan Chadkin,"Export flow types (#672)
+
+Export flow types from entry point",False
+ada960ffe9847a0f714c8c586bf1f8e674153dc3,2017-12-10 20:09:38,Bogdan Chadkin,Fix grid layout types and defaults (#673),False
+15503084fb7b0af826427c8c0706901e5745a39f,2017-11-15 23:11:39,Samuel Reed,"fix(collision): Addl collision fixes + feel fixes, plus addl tests
+
+This should conclude #650",False
+e2a71e6390365bccb88c588c2d73480050d84a21,2017-11-15 23:11:04,Samuel Reed,chore(examples): rework template to be easier to browse,False
+2b5184c624442fe1ab08687d6fc6293c499331b8,2017-11-15 22:04:57,Samuel Reed,"chore(dev): Add view-example, update deps",False
+0c790cba3c10d347547733a7b250717fd4583b9b,2017-10-24 21:39:07,Torkel Ödegaard,fix: solved issue example case 13 issue,False
+d375b50376bed3d94cd11b5c5445d6dede0cb1c6,2017-10-24 20:58:03,Torkel Ödegaard,added: test cases for example 13 but not sure how to solve it yet,False
+e1c6606080bd8c5381a3b816e9e4648e10bea782,2017-10-24 20:20:00,Torkel Ödegaard,"Merge pull request #1 from larrydahooster/exampleSetup
+
+Example that shows error case in vertical compacting",True
+37268f25ce05e9108ad5b476794e2962ae5160dc,2017-10-24 20:04:20,Hendrik Tervooren,added example to vars,False
+d22514d2bc89a6b9f4dee460d5e4a5cb188c9baa,2017-10-24 19:57:08,Hendrik Tervooren,reverted dist,False
+ca3f9ab21d70d0a8348a487a62d0988554fb25df,2017-10-24 19:54:59,Hendrik Tervooren,Merge remote-tracking branch 'origin/exampleSetup' into exampleSetup,True
+b939224d2349b4b6c316b00e5dc55db1ed8d063d,2017-10-24 19:54:37,Hendrik Tervooren,added example error case,False
+67ad673fc030ef8d8231795a1f690b9f1b7f849e,2017-10-24 19:44:22,Hendrik Tervooren,added example error case,False
+fe29fe27a48c036ad101707ec3b5228289ba76df,2017-10-24 19:06:58,Hendrik Tervooren,Merge branch 'compaction-and-movement-fixes',True
+f81fac0b1f740bda30fe256f9dd41bab409baac0,2017-10-24 17:58:50,Torkel Ödegaard,fix: ignore static items when resolving compact collisions,False
+455361ca95f87e41794a2bd4fca40de89df14cd5,2017-10-23 15:54:25,Torkel Ödegaard,fix: added tests for horizontal compaction and moveElement and fixed the same issues that plagued vertical compaction/movement,False
+e6562ed7c9d58c49128541aea8c1b2f031cf74dc,2017-10-20 16:09:32,Torkel Ödegaard,"fix(compaction/moveElement): fix for strange vertical movement of
+panels, fixes #641
+
+- compactItem also fixes collisions, I had to change so that this
+  function takes the layout so it can recursivly fix collisions when
+  moving elements out of the way.
+
+- moveElementElementAwayFromCollissions create a fakeItem the y pos of
+  this fake item was not set correctly and cause panels to jump above
+  intermediate items.
+
+- created unit tests that replicates the scenarios that the code changes fixes.",False
+6be5000324c04845dd07fc3b0fe63cbdef2329f8,2017-10-13 19:00:43,Samuel Reed,"fix(example): misbinding
+
+Fixes #646",False
+fd972ef1ca951de631403a7b6d8a0c8c756df1f3,2017-10-07 19:11:17,Samuel Reed,"fix(docs): Fix webpackBin demo.
+
+Fixes #610, #613",False
+b26bbd934b1fccf94e12f26e25117a724ed29d4d,2017-10-07 02:57:00,Samuel Reed,release 0.16.0,False
+5d3bb11c3d9f96aef319f5fd178f4a845e8e51e1,2017-10-07 02:56:44,Samuel Reed,chore(build): Lint and test before build,False
+c865c85d2dff9ed6530f573b768795cafc7efd0f,2017-10-07 02:56:03,Samuel Reed,chore(docs): cleanup from merge,False
+1d2057dc73a6e04664cca8b01759a467cd9ad5e1,2017-10-07 02:53:42,Samuel Reed,feat(showcase): use preventCollision with no compact,False
+fd9421fa7495f0f89ee2bc357101908364fd7c23,2017-10-07 02:49:01,Samuel Reed,Rework preventCollision example,False
+95ae8c3db98265c4a5af01ac6a793c06c6062494,2017-10-07 02:44:18,Valentin Cocaud,:ok_hand: Add example,False
+f7d628f6dfe3eee23a940931fe3020045ffad4f7,2017-10-07 02:44:18,Valentin Cocaud,:ok_hand: Updated documentation,False
+a8a45c8631d26baf008876d06cee0a76083fda34,2017-10-07 02:44:17,Valentin Cocaud,Added isRearrangeable flag,False
+9b1260d4c41eb900a1e853277c4711114369de0b,2017-10-07 02:32:21,Samuel Reed,Support horizontal compaction. Deprecated 'verticalCompact' and added 'compactType'.,False
+a723781999055976c9b6b00f1544e40bc6f4103d,2017-10-07 02:10:16,Samuel Reed,docs(README): update for `preventCollision`,False
+121b19d5e9ba68a80c8438fa9617ec69e8fa15db,2017-10-07 02:09:28,Rasmus Hjulskov,"Add preventCollision options based on #385 and @nikolas' example (#629)
+
+* Add preventCollision options based on #385 and @nikolas' example
+
+* Reversed dist files",False
+02d07de914bce4c00e267078cbb75fd5006ca583,2017-09-28 19:21:16,yeou,Update examples to use ES6. Fix code for React 16 (#636),False
+dc9892a8c7e4c5ecc289cae5613d2352190be3af,2017-09-27 03:52:51,Samuel Reed,release 0.15.3,False
+511f2d5c13e6f8eb2edadcd59575abc244f0e46a,2017-09-27 03:52:43,Samuel Reed,"chore(pkg): upgrade devDeps, relax deps, remove peerDeps
+
+Having React in peerDependencies really didn't buy us much",False
+22d67d7a27eabddd6e578bb74c7885f58b52ff23,2017-09-18 23:18:01,Samuel Reed,docs(key): minor tweaks,False
+f094c08b1412fb6e065dc1511d7580a8c946dd25,2017-09-05 19:19:27,Samuel Reed,release 0.15.2,False
+a32cad79e8c67866fbaf6d53fa6d2224b96ddf6c,2017-09-05 19:19:10,Samuel Reed,fix(flow): remove remaining import *,False
+0de661fd641d8dcea6193fbe41f1e8c25311bebe,2017-09-05 19:19:00,Samuel Reed,chore(pkg): update minors,False
+19e1d16cb080bbcfd2b44bbb691b01ba35b126a2,2017-09-05 18:38:18,Samuel Reed,release 0.15.1,False
+dc8fbb536678bc2f908ce253fa8d0e61add37315,2017-09-05 18:38:18,Samuel Reed,"fix(React): Don't use import * to avoid warnings
+
+See https://github.com/facebook/react/issues/10583
+
+Fixes #584",False
+105ce78b0fa8b006dd4b54dae6e1e59c1fef8936,2017-09-04 07:12:10,Yannick Lacaute,Add ez-Dashing (free dashboard) as project based on RGL (#620),False
+42867366582ee19183bd5fb6b3f83dca68267f6c,2017-08-22 01:45:36,Samuel Reed,release 0.15.0,False
+284ad33096a2efdb834b21a79c51ccff6bf19881,2017-08-22 01:45:16,Samuel Reed,"chore(pkg): Update devDeps, webpack 3",False
+731488be4948da32b7357a443b19dd3e62e461c8,2017-08-22 01:43:44,Samuel Reed,"chore(pkg): Upgrade flow, react-draggable",False
+fcad7a354b2dc99ad0f8bebfa2170bab8954c56d,2017-08-21 22:00:10,Eric Burel,Add faulty key value in duplicate key error message (#602),False
+092ea5449c5509518360f0db629bc82137c7db29,2017-08-15 02:02:11,Samuel Reed,"docs(README): new Gridster link.
+
+Fixes #604",False
+247a42f9c51c1b6d04038cb399ed7550071ea0f8,2017-07-15 01:08:03,Samuel Reed,release 0.14.7,False
+b2368c6abbd3dac0ecc87cd7748597b27362d220,2017-07-15 01:06:46,Samuel Reed,fix(readme): typo,False
+28c68874c22f0400c100464aff46e2c55bdadc1d,2017-07-15 01:06:19,chultquist,"Include scroll position to determine drag start (#555)
+
+When the grid parent is scrollable, we must include the scroll position to determine the drag start in grid coordinates.",False
+c010aecadb687645f489b224ccc298ee25012587,2017-05-20 04:58:37,Thomas Hasner,"Upgrade `react-grid-layout` (#561)
+
+* Upgrade `react-grid-layout`
+
+* Update yarn.lock",False
+bddffbf253ede31e5c40cdd9a9f9716461f8e436,2017-04-21 20:58:54,Samuel Reed,chore(pkg): Update devDeps,False
+3eb777d68d04f0389857be22dcb2c9df4fa531fc,2017-04-19 20:54:24,Samuel Reed,release 0.14.6,False
+8dc47d75f794382335d29482b33b270495272aea,2017-04-19 20:53:07,Samuel Reed,release 0.14.5,False
+efefbed66db9998be836ae28f1375b0131e36708,2017-04-19 20:52:54,Samuel Reed,chore(pkg): Add prop-types to yarn.lock,False
+f3e4a57766707e87886588cf2c0fb267ce33207c,2017-04-19 20:51:25,Dave,"Change PropTypes import to use prop-types instead of react. Fixes #538 (#539)
+
+* Change PropTypes import to use prop-types instead of react.
+
+* More PropTypes updates, moved dependency to prod dependencies.",False
+d921125b2b25ae0a1a16a336450fa67fbfd94a98,2017-03-10 03:33:54,Samuel Reed,release 0.14.4,False
+2e4f19dfa23964558ca2c25e380cace4a9e2f417,2017-03-10 03:33:35,Samuel Reed,chore(dev): Update Flow,False
+1f1ecc88321f7d2101389efc60571a51e585e433,2017-02-23 12:07:46,Samuel Reed,style(examples): minors,False
+3dde3be9bec7188f0755440ee6efe9c9b9c7a014,2017-02-23 12:00:03,Samuel Reed,fix(webpack): fix webpack2 dev breakage,False
+03b64c908921cc3dc053ffab3e6f8eed2bbf17a5,2017-02-23 11:59:33,Samuel Reed,"fix(examples): Add onLayoutChange defaultProp, fixes #433
+
+Use case appears to be copy/paste",False
+9898198464a887acc8808b94e4c0b5c483771a48,2017-02-22 21:19:00,Samuel Reed,release 0.14.3,False
+9ebe703a473844d6a1f131928472963f0e6e196b,2017-02-22 21:18:48,Samuel Reed,"Revert ""CSS is case sensitive (#499)""
+
+This reverts commit 726a3ba6489d939db88300c0c06150f33c47f0b3.",False
+877bc92464f8dc231223b3edd81ba0106a408c53,2017-02-22 20:59:17,Samuel Reed,release 0.14.2,False
+ca138c6261c3c0a4de1c37c3b0289de73bce1dbd,2017-02-22 20:58:43,Samuel Reed,chore(pkg): Update devdeps,False
+abdc8815182fc8bea63246d38cf8b7270324cec4,2017-02-22 20:58:29,Samuel Reed,fix(webpack): Fix source map generation in dist,False
+726a3ba6489d939db88300c0c06150f33c47f0b3,2017-02-22 20:34:25,dvoaviarison,"CSS is case sensitive (#499)
+
+Not doing this can result into this error:
+`Prop style passed to Widget. Has invalid keys msTransform`.",False
+c8f11b3c9840ebb8115525067f86601f7d4905ca,2017-02-21 15:04:02,Hendrik,"Merge pull request #1 from STRML/master
+
+Merge master",True
+7499d71681672666f4aa90fcc40b1a313f8f3454,2017-02-21 00:10:37,Samuel Reed,chore(log): Update CHANGELOG,False
+d04110d794aa3013bdb14093f1f2adcf943b874a,2017-02-21 00:09:28,Samuel Reed,release 0.14.1,False
+6edcf8282758f52c4076a35e95f703ec3a584733,2017-02-21 00:08:55,Samuel Reed,chore(pkg): Update yarn.lock & fix a build error,False
+1713bc6594b4ff1c3a5a492b2231be0999992895,2017-02-21 00:08:43,Samuel Reed,fix(types): Fix bad classnames usage,False
+4b54b901d04fa6f38dd9f80f21bddbc55eb0a8eb,2017-02-18 05:49:19,Samuel Reed,Additional npmignores,False
+f4195597efa282c6c91bf24ec2e3fb0edc971414,2017-02-17 09:14:38,Nik Nyby,"Fix lint warnings (#489)
+
+This fixes 4 flow warnings:
+
+    warning  'componentName' is defined but never used  no-unused-vars",False
+242329fc0b0e601e8229a41d6580a74d173ddda6,2017-02-17 09:13:42,Nik Nyby,Update webpack to 2.2.1 (#488),False
+881f79f607a0af28773896ef9c2f6a3c4a97440f,2017-02-14 15:07:40,Milan Landaverde,"Makefile reference to flow in local node_modules bin (#480)
+
+* Makefile reference to flow in local node_modules bin
+
+* Removes flow from package json",False
+0c793d52b3a85c2aef04090f6ea843d9e432e0dd,2017-02-13 09:52:32,Samuel Reed,release 0.14.0,False
+10050577a9e56fe251d5e09c6905a4c8b8878afa,2017-02-13 09:50:21,Samuel Reed,"fix(classNames): Add react-draggable classname.
+
+Fixes #465, #466.
+
+No increase to bundle size as react-draggable already uses the `classnames` lib.",False
+0cd9d9fb409258f4b180628707eaecb0ee745ba5,2017-01-06 22:05:30,Samuel Reed,"fix(webpackbin): Update webpackbin link, had js error. Fixes #452",False
+648f4b5131d8cf1cf44ef259657110216770a1b9,2016-12-19 23:36:25,Samuel Reed,feat(readme): Add travis build badge,False
+8a017514556768038598d7775cfd28f6fccf9eea,2016-12-19 23:35:10,Samuel Reed,chore(build): Cache yarn & add node 7,False
+ffe5accfa71e972d8f3a8ff3443e531d585a8520,2016-12-19 23:35:01,Samuel Reed,chore(pkg): update devDeps,False
+40f227755be2ff389666bc090d1c52f8af39fd17,2016-12-19 23:33:51,Samuel Reed,"fix(build): Remove broken es2015-loose plugin, not needed",False
+1bcb3b532a57061312e32d5ebd36ec91db6ead85,2016-12-19 23:26:42,Samuel Reed,chore(pkg): Update yarn.lock,False
+43517199bd48230f36a7097b5c6f9253567a6547,2016-12-19 23:26:36,Samuel Reed,chore(changelog): WIP,False
+0ccf1e4452e498d390eb36aee9db443477706ca5,2016-12-19 23:20:59,Samuel Reed,"chore(pkg): move test invocation into makefile, add to Travis",False
+93bf2e91eb851ae42dc95cde2d2330ddf30be0d8,2016-12-19 23:19:44,Nik Nyby,Set up unit tests with jest and add a few tests (#442),False
+415863085ad852cf519f6ae6e55407f873b57ef7,2016-12-19 23:17:44,Nik Nyby,"Use isProduction const where available (#441)
+
+Since this is already defined at the top of the file, we can use this variable in
+synchronizeLayoutWithChildren instead of looking it up again.",False
+d5c6cb8baaf10ff689f0d5a5e18375b4eb886f1d,2016-12-19 23:14:36,Samuel Reed,fix(npm): use new npmv4 prepublishOnly,False
+b4812d0e3174dc1a70f45306fa10d90db2384b50,2016-12-19 23:10:48,Nik Nyby,"Add .travis.yml (#438)
+
+We don't have any automated tests yet for react-grid-layout, but we can
+at the very least verify through travis that the package builds
+without errors.",False
+7b16a0a635a5b0c9bb34a889fbfed15554e45df4,2016-12-06 04:39:49,Samuel Reed,"Rebuild with react-draggable to fix ipad bug
+
+Not a release as the dist/ files are download-only and are
+not used in npm",False
+592c32d08c7c63f5b51ae49a2b6c6ecc7c9a4cd9,2016-12-06 04:39:49,Samuel Reed,chore(pkg): Commit lockfile and npmignore it,False
+47cc3a7d2a6c9dc9bc4db972e88a16b7ab48a323,2016-12-06 04:39:48,Samuel Reed,chore(pkg): Update devDeps & fix lint,False
+f5b61f0dd6e4ec36645a080ffdd5f25a516e964f,2016-12-01 04:09:28,Nik Nyby,:arrow_up: eslint-plugin-react 6.7.1 (#424),False
+a2c3a04ab59c6e6c1050d8a8dfb71c7dcef6eb28,2016-12-01 04:08:38,Nik Nyby,:arrow_up: babel-eslint 7.1.1 (#423),False
+300f162888eeef9f60ebee8d2b3a5ef1de388dfa,2016-11-16 21:01:27,Samuel Reed,feat(css): Add will-change properties,False
+cf9976ef91cbc1666f98eb479d2b11f00ce34893,2016-11-14 19:52:28,Samuel Reed,docs(README): Add webpackbin link,False
+b4f0cb36eeae644e057ae62a5c8129d1c24b70f7,2016-11-14 19:50:32,Samuel Reed,feat(github): Add issue template,False
+96a0001a4a2e239c6374ca9f992f4b7de1500fae,2016-11-02 00:25:33,Samuel Reed,release 0.13.9,False
+7841e23b7aa19333cfe48ef863dc92ff9dccd41a,2016-11-02 00:25:32,Samuel Reed,fix(sort): Sorting layout items could have different results in IE. Fixes #369,False
+54300abc6be75600ba7f0c5fa71817984e6370e7,2016-10-25 02:11:13,Nik Nyby,Fix typo in comment: constriants -> constraints (#383),False
+ae53efcbe4906bd92f61576a5e1dbb3eee03f763,2016-10-25 02:11:01,Nik Nyby,Fix moveElement typo: the euser -> the user (#384),False
+cb072ea7c429a6f0bbca7c16e1f2ef92bad4febf,2016-10-25 02:10:54,Nik Nyby,fix typo in comment: leapflog -> leapfrog (#387),False
+3dcbe79f67af90937e20fc79547cdc67d0ad1609,2016-10-25 02:10:38,Nik Nyby,fix typo in compactItem comment (#386),False
+9da268a3490f4a13a776a55540a41463a4af6699,2016-10-13 19:19:55,Samuel Reed,release 0.13.8,False
+d78bdeda9561e530ec04a1ef781934c9c44080a2,2016-10-13 19:18:17,Samuel Reed,"fix(utils): Fix autogenerated grid coords
+
+Fixes #368, broken by eac7e08",False
+ff75de745a455213277dc56c73f3c497c2a85942,2016-10-04 00:28:56,Samuel Reed,release 0.13.7,False
+800aeb358e02034546594e4565a1f3ea83010f7c,2016-10-04 00:28:43,Samuel Reed,Update changelog,False
+53e7fed75bf96e7cd088a2089027ff27583b8872,2016-10-04 00:28:28,Samuel Reed,fix(layoutChanged): Prevent some unnecessary `onLayoutChange` callbacks.,False
+635b23fcf3d2b91894ef98844a33f6fd324f6cfc,2016-10-04 00:26:35,Samuel Reed,chore(lint): Minor cleanup,False
+eac7e0817ab71813c413b1e22f387ccf66ec64ce,2016-10-04 00:06:46,Samuel Reed,fix(utils): Use React.Children.map() to iterate through children. Fixes #356,False
+3fdf0fbcdcd513698116e9f143917250aa4b8d5b,2016-09-30 19:48:37,Valeriu Mazare,fix typo (#325),False
+cdbe6b7230263b804e595e5692f242c21f9acaf7,2016-09-30 19:48:06,Love Luang,"onLayoutChange call too often #257 (#328)
+
+Prevent the onDragStop to call the onLayoutChange before it has done checking if an old item and a new one is not the same.",False
+da26675ac6932ffabb0a5b962d29648a52177d5d,2016-09-30 19:47:13,Nik Nyby,typo fix in comment (#333),False
+cc8b405db25ad9857430f512fd7dbe15bb7ed0d1,2016-09-26 21:19:54,Samuel Reed,release 0.13.6,False
+f7bcfea471e53636ec8785d1499233409d29491f,2016-09-26 21:15:52,Samuel Reed,fix(onResize*): Fix incorrect param name,False
+fbb7bd2b007d762572b87d1a82e3e6f2b318ea3b,2016-09-09 20:36:33,Samuel Reed,release 0.13.5,False
+59387958cc45fecb97f6999f66e283a8c814683a,2016-09-09 20:35:53,Samuel Reed,fix(WidthProvider): Flow typing issues,False
+75ecb5d8f105a9ea86b916fa586f6c338bd81b90,2016-09-09 19:58:29,Samuel Reed,release 0.13.4,False
+75dc4f3f6f74b1380f70cabca14193dda6d5e0a7,2016-09-09 19:56:48,Samuel Reed,Merge branch 'pr/342',True
+f694451bc66de54cb53c03b17d5730d22d7b7652,2016-09-09 19:56:16,Colby Aley,"Prevent utils.synchronizeLayoutWithChildren() from forcing components to collide
+
+We've been running into a problem where sometimes, the grid that is rendered is
+different than the grid we specify through `data-grid`. We found this could be
+fixed by reversing the order in which we pass our children grid items to RGL,
+which led us to believe there was a bug in RGL that was modifying `y`.
+
+After some debugging, we found `utils.synchronizeLayoutWithChildren()`
+to be the culprit.
+
+As an example, here's the layout we were providing:
+
+```javascript
+[
+  { x: 0, y: 1, w: 4, h: 2 },
+  { x: 0, y: 0, w: 4, h: 1 }
+];
+```
+
+When rendered, the first item should visually be below the second. However,
+since `synchronizeLayoutWithChildren` synchronizes the layout in the order
+it is provided, it was updating the `y` property of the first item
+to be `Math.min(bottom(layout), g.y),`, which would end up equaling 0.
+
+This meant that (when `static` was `false`), RGL would eventually recognize
+the new collision and update the second item to be visually below the first,
+by setting its `y` value to 2.
+
+This was resulting in the grid looking like this:
+
+```javascript
+[
+  { x: 0, y: 0, w: 4, h: 2 },
+  { x: 0, y: 2, w: 4, h: 1 }
+];
+```
+
+My proposed change moves this logic down into the `utils.compactItem()`
+function, since the layout has been sorted by the time this function is
+called. Because we're now iterating through the items after they've been
+sorted, this is no longer a problem and the correct gridd is rendered.",False
+5de89ab84820a3d5095c1e2e12b7f1163d215b82,2016-09-09 19:16:39,Samuel Reed,fix(WidthProvider): Guard against findDOMNode after unmount,False
+a9a6f5101d1a180f3447e4ffd8b9b43a7ad2c31a,2016-09-09 03:53:29,Samuel Reed,Add PR template,False
+3c8ec5d6d5fc59df0db0d88ca880b5a55b95ce5c,2016-09-07 04:02:08,Colby Aley,Add Reflect to projects list (#341),False
+89db7e873073b3baa434ca7ff6edc02a847074f3,2016-09-01 05:19:40,Samuel Reed,release 0.13.3,False
+0d372d6ef5e202df848d01340eae9c55a499b4ff,2016-09-01 05:18:33,Joshua Stiefer,"Fix lodash.isequal import (#336)
+
+This was breaking on Linux builds.",False
+ac6ad3de19c2204fab83c0e981bec15ff8552e0b,2016-09-01 04:30:50,Samuel Reed,release 0.13.2,False
+5319d8c2ab00f14a61c2a6e80e648331e04e953f,2016-09-01 04:26:17,Colby Aley,Only pass className and style to pre-mount div in WidthProvider (#335),False
+c091ab0a79d85b71fb0ec686a5cd660d4b113d04,2016-08-31 22:34:11,Samuel Reed,"Remove transform-flow-comments & copy .js.flow instead.
+
+See https://github.com/facebook/flow/issues/1996",False
+ec8816b8e272793d9f87a161d925553534f553f1,2016-08-16 23:32:24,Samuel Reed,"fix(children): Proper fix for checking `children` props for changes
+
+See #304",False
+6ed5187492d457ce6bc8394c52debf60ac2f536d,2016-08-16 23:26:27,Samuel Reed,"Revert ""fix(children): Regenerate layout on children changed via shallowEqual""
+
+This reverts commit d967edd1e8c0942d1cf03055c0b601908e169227.
+
+See #304",False
+d967edd1e8c0942d1cf03055c0b601908e169227,2016-08-16 22:58:00,Samuel Reed,"fix(children): Regenerate layout on children changed via shallowEqual
+
+Fixes #304",False
+1be87ef3d0d50af41c0d24bd73b65d484a1891a2,2016-08-16 22:48:26,Samuel Reed,release 0.13.1,False
+f7d53e5ad53ad331b678309aeccc4b3004e436d1,2016-08-16 22:47:07,Samuel Reed,fix(propTypes): Fix remaining propTypes warnings in React 15.3,False
+117f0a26e0c9b3acdf2f027bb9d908f239fa4e79,2016-08-09 08:19:14,Sean Nichols,"Allow container padding to be set independently of margin (#131)
+
+From PR 131 by seanich updated and merge with master.",False
+6a82c0f220734a30d160abcd868b67522dfcb842,2016-08-04 05:22:14,Samuel Reed,release 0.13.0,False
+85f8b187c9ba413ddbbe4fdb90d713cffa3729f7,2016-08-04 05:20:56,jdkaplan,Change GridItem propTypes to avoid React warning (fix #303) (#306),False
+84442b0f229336ea882bd637be978135288a4101,2016-07-29 02:44:20,Marc MacLeod,stoplight.io is now proudly using react-grid-layout (#300),False
+3080ccc1382223ba60c84952f84e1dedd8142664,2016-07-25 20:18:07,Nik Nyby,"update instructions on dev page (#295)
+
+`npm run dev-server` doesn't do anything, I think this should be `npm run dev`",False
+c494543c346ae4b272254a8c07c052a1c4c9a8cc,2016-07-19 20:21:43,Max Kostow,"Fix responsive cols + layout change (#284)
+
+* remove unknown verticalLayout prop
+
+* conditionally preserve current layout",False
+32b13febead996a4b59fd06add7296ff8311a3f4,2016-07-19 08:30:18,Samuel Reed,"Deprecate `_grid` for `data-grid` because of React 15.2
+
+Fixes #283",False
+358e4c642c5948126e50a6dd2da1cd79722d446b,2016-07-19 08:25:11,Samuel Reed,Flow fixes for latest version,False
+b1b58ae653e48a30b555530948486e1546d5347d,2016-07-19 08:24:41,jason-henriksen,"Issue #266 - Expanded example text regarding the use of draggableHandle (#268)
+
+* example changes to explain the use of draggable handle.  Basically just hand holding for new users
+
+* fixing some confused text
+
+* needed to move the example box over a column
+
+* update help text as requested",False
+896dced49932b9556908ae7c3cca34a39f254a88,2016-06-29 23:56:06,Samuel Reed,"Merge pull request #274 from MarcBalaban/patch-1
+
+Update LICENSE",True
+0abef02a1d010faba096e7d2150b0cceb975a66a,2016-06-29 23:48:30,Marc Balaban,Update LICENSE,False
+4eb332ab81c538b45d0b72cf06dc464310b6551b,2016-06-29 23:43:17,Samuel Reed,release 0.12.7,False
+649c61a3717d9c61edec622de2f7837230414c89,2016-06-29 23:41:18,Samuel Reed,"Merge pull request #273 from jakegibson/master
+
+use lodash to check object equality, prevents onLayoutChange loop",True
+97391fb9b7c976d58d91e2987d7c5d7175cb87a1,2016-06-29 12:08:14,Jake Gibson,"use lodash to check object equality, prevents onLayoutChange loop",False
+5c7c66330cd22acd6bdf0ed841ab58df0133a836,2016-06-09 21:25:23,Samuel Reed,"Merge pull request #261 from codeheroics/fix-mutated-layout-prop
+
+Prevent prop layout's contents from being modified",True
+1c0da04decd3a7aa86d5d5c37fefd54c75ac6fab,2016-06-09 20:53:01,Hugo Agbonon,Prevent prop layout's contents from being modified,False
+3bbd52e793046204c737331e19e3fd74356cad76,2016-06-05 19:46:37,Samuel Reed,release 0.12.6,False
+1643c94b8af31077462dd37a51b62dee03353682,2016-06-05 19:45:35,Samuel Reed,Fix mounted not getting set,False
+310b4545f081c7a6bcf0f856520b691ac7f6366f,2016-06-03 20:33:57,Samuel Reed,release 0.12.5,False
+43f3dd385aee37901994785dc2dd7d265befcfd4,2016-06-03 20:31:21,Samuel Reed,"Use 'mounted' state instead of process.browser to determine percentages etc
+
+Should help with checksum errors on server mounting.",False
+44e1444584512a06e81b021b2889d401e092720d,2016-06-01 23:35:41,Samuel Reed,Add ComNetViz to projects list,False
+d81b01df5281fe981636f6a5bcf916497e6f2401,2016-05-22 21:59:46,Samuel Reed,release 0.12.4,False
+2eefb427422b31effea39385dd301f8835ddd5d7,2016-05-22 21:57:41,Samuel Reed,"Update to Draggable v2. Fixes #241, #239, #24",False
+5193eddb75d5f027d9453383aeb388981a4e91ab,2016-05-19 19:11:34,Samuel Reed,"Fix #238, undefined className.",False
+19320b8b94a3ee1e6b2e8e149b599e4ba8634591,2016-05-04 06:52:29,Samuel Reed,Some minor cleanup,False
+429569c192eabe99e97a68b8963bc01b3b6e6943,2016-05-04 02:18:25,Samuel Reed,release 0.12.3,False
+eecdd5f444f36e92f82eaa8029bb1afe04383314,2016-05-04 02:17:53,Samuel Reed,"Bugfix for #226, #208",False
+fbc5320de007dfe6881c4f6192b62a536a95fc0d,2016-05-04 02:14:41,Samuel Reed,"Merge pull request #226 from damienleroux/master
+
+update react grid when filled with new cols or new breakpoints",True
+e012600c16ca7d9072471bc3f8079df7b1bf6cb5,2016-05-04 02:02:31,damien leroux,update react grid when filled with new cols or new breakpoints,False
+73e19c7c546d85a9b3e06ff291214b998013cff5,2016-05-01 21:32:55,Samuel Reed,release 0.12.2,False
+aa52c668c134fac7319688f562ae72f92d68ae6f,2016-05-01 21:32:33,Samuel Reed,Add validate step.,False
+0c08666286c7a9e03d6c7020054fbd4f156cf42b,2016-04-23 22:33:14,Samuel Reed,Lint,False
+2bafdcd82dfc2d573685ed0a1f8ab0e78f74f938,2016-04-20 01:11:07,Samuel Reed,release 0.12.1,False
+2a5b06c48ca36240613ab3ca1ae2e773bfa997c0,2016-04-20 01:09:08,Samuel Reed,Add transform-flow-comments,False
+2420a4e579542ffe13eaac153837afe478f01d79,2016-04-19 20:42:52,Samuel Reed,"RRGL: Don't call both onWidthChange() and recalculate layout.
+
+Thanks @damienleroux. Fixes #217",False
+9798b0a8f6e6b1a65d95b5294c1594416f273e29,2016-04-15 19:30:56,Samuel Reed,Update typedefs in README and link to react-sizeme,False
+2ded1acc54139d392d09791a29eca4729461b686,2016-04-15 18:49:40,Samuel Reed,"Merge pull request #215 from bravo-kernel/downloads-badge
+
+Adds total npm downloads badge",True
+b2a88e696fe0ecccc2da0ea2d6988b8a34c844b9,2016-04-15 13:11:45,bravo-kernel,Adds npm downloads badge,False
+494fc80531f58f8a19ad7630ac2cf4e0667e17ad,2016-04-15 01:20:20,Samuel Reed,release 0.12.0,False
+8d69d31cd23ebfaf585daa3093e70da49496daee,2016-04-15 01:16:46,Samuel Reed,Fix for #212 - provide a method for eliminating animation on mount.,False
+cccee20689c409b922f3d9ec1687ca38b2918e86,2016-04-15 01:16:46,Samuel Reed,Minimize initial shunting on mount. Part of a fix for #212,False
+09314aabeea2b8b14b5ab125412e1101fe149352,2016-04-09 02:05:17,Samuel Reed,"Merge pull request #207 from ericgibb/patch-1
+
+Update README.md",True
+805d4ecf3c3e0f2568cc580755807adb85ee43a8,2016-04-09 01:22:41,ericgibb,"Update README.md
+
+Fixed spelling in readme.",False
+bceeeca7a284356fa563f5163797610a19f42b35,2016-04-08 22:02:47,Samuel Reed,Add v15 to compatibility list,False
+d2971e58de3ac8f5e0994a275906cecf16d7d44b,2016-04-08 22:02:19,Samuel Reed,release 0.11.3,False
+ef335bcc11652df0ff7cd649d9bc265acf339faf,2016-04-08 21:59:43,Samuel Reed,Add React v15 to peerDeps and update devDep.,False
+f339a2336e3fef316fffc70e4f44ca27696c27b9,2016-04-06 21:22:46,Samuel Reed,release 0.11.2,False
+54e1f0ad82ca11ed2ec5ceeeef445dacc31ab555,2016-04-06 21:22:32,Samuel Reed,Fix missing bracket from PR #203,False
+f5e1e1f15a8bbe3560572c2ab05714c81151adc2,2016-04-06 21:21:52,Samuel Reed,Add gif note,False
+b1081e48818a880216190962dfdb20bb8c1fbde7,2016-04-06 21:19:20,Samuel Reed,"Merge pull request #203 from RiiD/fixDraggableCancel
+
+Bugfix: Draggable cancel selectors",True
+e3ef61968a079b1ecd51173f92e1182d8c94fe7f,2016-04-06 21:13:52,RiiD,"Bugfix: Draggable cancel selectors
+
+Cancel selectors should be separated with commas.",False
+fbd415587e2432519e8be71f4873bf3a463ca32d,2016-03-30 01:56:21,Samuel Reed,"Merge pull request #196 from bravo-kernel/patch-2
+
+Fix incorrect npm installation instruction",True
+6b19e8aae7714d332d9fde9028266b81dd88dde5,2016-03-30 01:54:05,bravo-kernel,"Fix incorrect npm installation instruction
+
+Sorry about that",False
+30ca331476e1bfe0da4edeead10a3992369a5990,2016-03-30 01:33:12,Samuel Reed,"Merge pull request #194 from bravo-kernel/patch-1
+
+Documentation restructure",True
+a7d8fb050f78de9c0158820ad7d6812e18eb19cc,2016-03-28 15:53:19,bravo-kernel,"Updates readme structure, clarifies entry example
+
+Adds minW and maxW to layout example
+
+Should complete the example layout.
+
+Readme structure with copy-paste example
+
+Proper MIT license file
+
+Add missing ToC entry",False
+6d8ce9bca6afc6197fa8aa27b1995c43cce58ebf,2016-03-27 19:20:55,Samuel Reed,"Merge pull request #191 from ro-savage/keyIdReadmeUpdate
+
+Update examples with id",True
+338c3967b4836a3f1942404875d8d7dbbeffbf6d,2016-03-25 06:28:40,Ro Savage,"Update examples with id
+
+Update examples to show that the key and id are required.
+Add the width in examples as it is required.
+Add i to PropTypes
+Move width to be at top of PropTypes as it is required.",False
+9f0371f680b4e85ae8e178995ead29f489bc07b9,2016-03-17 20:34:18,Samuel Reed,Add animated gif to README,False
+83980f3a9edc1ec21692e8cb974e5e9a1aca7610,2016-03-15 03:45:06,Samuel Reed,Commemorate the fact that this finally made it into BitMEX,False
+d6b1ca4e15fc529380cc1fc53b977d064291dbf4,2016-03-14 22:11:12,Samuel Reed,release 0.11.1,False
+f22ed9ee3f3c18205f08ff33ba8f0ae8d62cb1a2,2016-03-14 22:09:23,Samuel Reed,"Bugfix: prevent incorrect <ResponsiveReactGridLayout> interim layout.
+
+This happens when switching breakpoints and items are added/removed; we were incorrectly
+synchronizing with this.props.layout, when it should be synchronized with the next layout.",False
+e82bf09d75526b8e3a4db69e84297e03f13fcf85,2016-03-11 04:40:28,Samuel Reed,Use inline/constant elements in examples for perf,False
+0532d4c6a90274c619188ea719b922fd31ffdabc,2016-03-11 04:40:19,Samuel Reed,Optimize style creation,False
+8e126b601e1eecea90a58fad97e9bea7d8cc2e87,2016-03-11 03:32:08,Samuel Reed,release 0.11.0,False
+f7514fa078822b8c2389434596b91e541598cbaf,2016-03-11 03:31:57,Samuel Reed,Reorganize readme,False
+3fb766c2559460c6477868c6ec26f0dcc8c1e6e4,2016-03-11 03:21:29,Samuel Reed,Fixes for localstorage examples,False
+00af1f3a0a4a1777968b444fe478ed88373f7e19,2016-03-11 03:20:45,Samuel Reed,Typing updates,False
+78c683f63b96c5f44799e62b0d5d10d0c81fbd73,2016-03-11 03:16:25,Samuel Reed,Fix bug when building layout solely from _grid props,False
+900484b870eb61115a1e87d2d1f8784f01279d0b,2016-03-11 03:16:11,Samuel Reed,Fix a stale RRGL layout bug,False
+d8baaa9adcb0e816dc0a3896ac677ed5aecb113e,2016-03-11 03:15:49,Samuel Reed,Clarify what can actually be passed in the layout. Potentially breaking,False
+04e0fb482f010aa9e4da096915bae337b9847eae,2016-03-11 03:15:17,Samuel Reed,Remove unused placeholder property from GridItem,False
+101c01a9ebc5948c3feba0e585315f993fa11287,2016-03-11 02:48:54,Samuel Reed,Fix incorrect layout saving in example 8,False
+b766beece4b67139a17105aae5e2bbcb6af3d148,2016-03-11 01:52:49,Samuel Reed,release 0.10.11,False
+b24adaca40398bbaaba8993642e24341e32296e0,2016-03-11 01:52:19,Samuel Reed,Fix stale data on <ResponsiveReactGridLayout> onLayoutChange callback,False
+c407ad8a977e3f7b377146a924ad87f6b1c9f79f,2016-03-11 01:23:07,Samuel Reed,release 0.10.10,False
+ac6f8504a3f183fd078d1aa8df8eac131e181f60,2016-03-11 01:21:10,Samuel Reed,Refactor showcase a little bit,False
+d45bffcaef2f3b205f0f33184de633478591810a,2016-03-11 01:20:52,Samuel Reed,Speed fixes / fast cloning & other v8 optimizations,False
+d316304c219b3985d4f80133fe1a33a53217c594,2016-03-11 01:20:00,Samuel Reed,Fix deopt on calcPosition(),False
+b149bcf3bdb9a368bf5b7e2e0c8cbe7dd292cfbb,2016-03-06 12:13:31,Samuel Reed,Fix new typing errors in Flow 0.22.1,False
+98f11172f62244aa714750334ffb4d7dde8fb661,2016-03-06 11:09:21,Samuel Reed,release 0.10.9,False
+88594cbb827cf02a3bbbdcabe602e61bc9d10be9,2016-03-06 11:08:06,Samuel Reed,Fix missing space,False
+2a170912535dba392efe533f350fd6919417817a,2016-03-06 11:08:06,Samuel Reed,Fix cwrp children comparison typo; see #169,False
+9323ce2add286731f66a983ec24d65e623a2ef1b,2016-03-01 12:42:33,Samuel Reed,"Merge pull request #176 from adambowles/patch-1
+
+Include babel-preset-es2015",True
+9659ef1d3a635f148ce44531d1f7e549436d532e,2016-02-29 16:42:20,Adam Bowles,"Include babel-preset-es2015
+
+make build was failing without this dependency",False
+d1bf3ab73f6ad69fdff59ad43315623954904d26,2016-02-19 05:36:16,Samuel Reed,release 0.10.8,False
+2a0b98a4e111784475238f0eaa814c509704251d,2016-02-19 05:35:52,Samuel Reed,Move to ES2015 Loose Mode.,False
+41f4dc18be77215ee67e5f49a4a8d2d4331b7c69,2016-02-15 04:06:11,Samuel Reed,release 0.10.7,False
+525872971d4348ca98124cbcff10123ba4acb710,2016-02-15 04:04:54,Samuel Reed,Also properly merge childrens' style attributes.,False
+fbd6e7eff7bfad9bc30c8c6118faaa5ac1fb81fc,2016-02-15 04:01:43,Samuel Reed,Fix overridden child className on GridItems.,False
+fed5f765bb0a26f5d693a104be05899af0ad4f8c,2016-02-15 03:59:20,Samuel Reed,Fix missing extra margin from containerHeight,False
+59fae7b408175b894d1c36b40f2c6c1a612b57b0,2016-02-13 03:09:33,Samuel Reed,release 0.10.6,False
+5c62b4b078a777ec07df47864d8f5d390b059a88,2016-02-13 03:08:22,Samuel Reed,Style nitpick,False
+fedae9ba772fb2c11f0212cf07a0a807f4fbdacd,2016-02-13 03:08:00,Samuel Reed,"Fix #162, layout synchronization when children change",False
+064e6d95ab007b80c04343641633c66693a02d44,2016-02-13 02:16:13,Samuel Reed,release 0.10.5,False
+fdd88f237c5ffec1b3c3a6b0e0a762282ad4f69e,2016-02-13 02:12:19,Samuel Reed,Add tentative 'maxRows' support (buggy),False
+eccc21f9c17951c891d616f68b62a0f746ed6018,2016-02-13 02:11:55,Samuel Reed,Fix a few math errors in GridItem positioning that were made worse by large margins.,False
+c3467dd37c22dfdcfbd6eb4fdb9b4b028fe090c9,2016-02-13 00:06:27,Samuel Reed,release 0.10.4,False
+3596a5c8c113b2c15956db5d862f97dadd873031,2016-02-13 00:06:09,Samuel Reed,Move build into makefile,False
+a2ec04a3b5db6f8505ef936e5d0d77a326be0170,2016-02-12 23:59:04,Samuel Reed,"Merge pull request #161 from geekjuice/master
+
+Fix container height calculation",True
+c2fea133142b5eb320c64fc33b26b9f32cbe2e7a,2016-02-12 23:45:52,Nick Hwang,Add HubSpot to products that use RGL,False
+9c2d61c66b3c8811de8b946c0688abdf402a067d,2016-02-12 23:45:34,Nick Hwang,"Fix container height calculation
+
+The container height was not accounting for margins when there was more
+than one row.",False
+514c38c46419ebc76f1fab63576a37ca5d3f3fd4,2016-02-12 22:18:10,Samuel Reed,0.10.3 browser build,False
+bdcae18cec950a68a5415e160f94f95f1c69d4ec,2016-02-12 22:17:33,Samuel Reed,0.10.3,False
+d57b61040c9526e5eb799d5455fb5d09a847a72f,2016-02-12 22:16:22,Samuel Reed,"Fix #160, 0 margins breaking resizing.",False
+d946d605786069e13e612c9da5420860f19648f8,2016-02-11 19:15:16,Samuel Reed,"Merge pull request #158 from eMaj-Fr/fix-round-positions-and-size-v2
+
+round size and position of GridItem in calcPosition (2)",True
+7aabb53acadd40e051f5049738b3a7eb36c34602,2016-02-11 19:06:18,Renaud Tertrais,round size and position of GridItem in calcPosition (2),False
+059ecb8f002e627d5bf41a58949caad530704b94,2016-02-11 05:35:52,Samuel Reed,Add Projects,False
+ea4dc75f88c651fd1e445ac723f677c404758084,2016-02-11 04:08:29,Samuel Reed,Fixes for reset layout in examples. Not perfect yet. See #156,False
+172b3ce0fef445a6838176dcbaddf4265fc0cf62,2016-02-11 02:53:08,Samuel Reed,0.10.2,False
+4517458c925f5431b5e791e16ead9ccee803cb86,2016-02-11 02:47:36,Samuel Reed,Use cacheDirectory in dev,False
+63b45256f7bf39edf6dde0ee8f3177ef4330191a,2016-02-11 02:47:28,Samuel Reed,Dep updates,False
+973c7205ce63553824d21616e908439c71faa1fa,2016-02-11 02:47:12,Samuel Reed,Only validate the shape of LayoutItem.i if it exists,False
+74295876682b09d49322fb208d94049b14dc51a3,2016-02-11 02:46:34,Samuel Reed,"Check for different between passed layouts, not between passed layout and state.
+
+Prevents a bug where you can easily trash your layout on a rerender.",False
+188ec8f92b713f26a588625b2fcffec5cfbed51b,2016-02-11 02:46:18,Samuel Reed,Fix some layout bugs in underlying deps,False
+8caf5dafe6af20397b5a5a5767677ba558b39f85,2016-02-10 20:01:23,Samuel Reed,Fix responsive recovery (sm -> lg). Fixes #154,False
+b039ee64f8d2f11071c1006d97e6327c6d04b4a0,2016-02-10 19:53:49,Samuel Reed,Update changelog,False
+a358f6996001565d5188004c007ee4e266222d76,2016-02-10 19:51:29,Samuel Reed,Fixup string keys (i),False
+45377ba8f32f19ae55c014766ff97d07778ce98d,2016-02-10 19:51:05,Samuel Reed,"Remove offsetX/offsetY from grid properties, not required",False
+27e77a6c3f62bde6312ebc9942083a608f9b551f,2016-02-10 19:30:51,Samuel Reed,Revert isEqual check on onLayoutChange,False
+94bb16e046243f786930991c47f49b09364a53de,2016-02-10 19:11:25,Samuel Reed,"Merge pull request #150 from menelike/master
+
+updated docs; fixed examples",True
+fdbf2e7efe04a3603f66706e26ccc1bedd09e710,2016-02-10 18:37:50,menelike,added onLayoutChanged callbacks when drag or resize stops,False
+e226616ecf3faa2fb658b38c9eade53944e79309,2016-02-10 14:04:02,menelike,updated docs; fixed examples,False
+9beca5d62876b526110c544dcd7f51d4bfdb8417,2016-02-10 04:21:52,Samuel Reed,0.10.1,False
+4a20311528d4f53c9886a7533e854a2f7e20158f,2016-02-10 04:20:37,Samuel Reed,Fix default export for commonJS envs,False
+46232ab762a3517b692f4278657cdb0dae3a11e4,2016-02-10 04:19:09,Samuel Reed,Add babel-cli to devDeps,False
+7f6d0be6cc41d345f27eea3b2a0d79191ba1ae1d,2016-02-10 04:12:12,Samuel Reed,0.10.0,False
+dfd65f4a46d70f1cac0597d4d17ae579151fd775,2016-02-10 04:05:20,Samuel Reed,Add react/react-dom to devDeps for npm 3,False
+136c64a69a9a2d18a6922026f7dd73a44999e6cf,2016-02-10 04:05:10,Samuel Reed,Remove meteor build,False
+490cd66c1ad77a1d13d53194b9a833ea09bfc618,2016-02-10 04:04:55,Samuel Reed,Fix fbjs in flowconfig,False
+a28921afa089cb78e969c06fc1827235a3c88da3,2016-02-10 04:04:43,Samuel Reed,Remove extraenous lodash packages,False
+e02028d1b6c3e11486809bfee93fc9d02be8b1b1,2016-02-10 03:56:01,Samuel Reed,"Update to Babel 6, style fixes, fix Flow bugs, revert createClass()",False
+38276c6be4f3adb22af0d58d6878ae247c7d4dcd,2016-02-10 02:28:31,menelike,wrapped onlayoutchange instead of passing layouts prop,False
+cf600a15acf99643e696284f566e14a3343b6962,2016-02-10 02:11:06,menelike,alpha react ^14.0.3 release,False
+15293c8b7b15ef1b1fb49126b3f46edbe0620cfe,2016-01-14 21:08:15,Samuel Reed,"Merge pull request #141 from eMaj-Fr/fix-round-positions-and-size
+
+Round size and position of GridItem in calcPosition()",True

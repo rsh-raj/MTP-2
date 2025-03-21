@@ -1,0 +1,1944 @@
+Hash,Date,Author,Message,IsMerge
+c8c50f6ea8b6681b8abbcf47973b58bca58a7296,2025-01-12 01:07:07,Filip Tammergård,"Fix link in migrating cheatsheet (#772)
+
+Resolves https://github.com/typescript-cheatsheets/react/issues/767.",False
+05c2c6b290d2c3319439458128dd604d09d3a292,2024-11-19 19:06:21,Chang Wei,Update official-typings-bugs.md (#760),False
+6b69a322f4854862a0fa1f4562b0d5c829225817,2024-10-20 23:28:00,Filip Tammergård,Fix readme (#757),False
+62579ad3a794bc5ac9b566d7ddcde98c8c34de4f,2024-10-20 23:20:11,Filip Tammergård,Change title to singular (#756),False
+845914077da91ef943b6362bdf04a3dabb6b00f8,2024-10-19 18:27:22,Shantanu Wable,HOC: add Use Cases (#754),False
+15c1f00f515bc84f8596ce35565ef4de3fdae067,2024-10-19 13:30:54,Shantanu Wable,docs: fix a typo (#753),False
+99b7f9cc1c3963718359b6ef5f35b1cc126649e1,2024-10-15 01:49:32,André,Fix: Fixed typos  (#745),False
+c5133da5eb8e25f31017e5f1ff8e2ea2bf2c385e,2024-10-15 01:41:25,abhiram6121,chore: Update `actions/setup-node` to `v4` (#744),False
+d6f397f8f409d9e3da4f4b715cb4b499c3807170,2024-10-10 00:21:05,André,fix: added missing alt attributes (#743),False
+56859a7f54fd898416d94bb109e5093733cf63aa,2024-10-02 00:57:55,DEVANSH ARYAN,added github star image (#740),False
+828ac1f81d567a1944b4b3be8f551b198ca6cf57,2024-09-18 16:49:25,Filip Tammergård,Make code blocks light on light color mode (#730),False
+1bf7925d24c05ef210ba32abc12965d8aee118e9,2024-07-24 01:23:19,Jona,"Change ""Nothing or All"" to ""All or Nothing"" for poetic reasons.  (#717)
+
+* refactor: change ""nothing or all"" to ""all or nothing"" for poetic reasons.
+
+* fixed invalid prop def
+
+---------
+
+Co-authored-by: j.dsouza <j.dsouza@freetimecompany.nl>",False
+3fcab91719724dc87e87378fab0cda720593d0cc,2024-07-13 16:22:52,Danny Hurlburt,Add missing primitive (#721),False
+091b325c699961e885667393727e4e9769388a9e,2024-07-13 16:20:46,Danny Hurlburt,Add missing word; Consistent capitalization (#722),False
+3129901a147edb125ea84fd35bf30a811e79e551,2024-07-12 23:47:20,Danny Hurlburt,Fix typos (#723),False
+ed18a5ac2bbf6c484b8d3ad60e52706878b7593e,2024-07-12 23:46:35,Danny Hurlburt,Fix typo (#720),False
+bc19e0323d7fce91f116384f66754a99c53a3cdf,2024-06-17 19:00:54,Aashish Raj,Update official-typings-bugs.md [(utitity)->(utility)](1) (#716),False
+e867ed2831d66c33006c21517d712384a77cc21f,2024-06-17 19:00:17,Martin Trenker,Add React.FC example with predefined type (#714),False
+09217c90d60b0a8c513ce5ea0c1e18d8bd898cac,2024-03-27 14:18:04,Yangshun Tay,"Add new option for generic forwardRefs (#710)
+
+* Add new option for generic forwardRefs
+
+* update README
+
+* format",False
+4d6be66572c9544cf55d4ce86cddf63569db269b,2024-02-10 13:23:55,Stephan de Vries,"Fix ""Redeclare"" typo (#705)",False
+3bbc27fa5b2e94a60362004318a24bde95291c84,2024-02-07 20:29:00,allcontributors[bot],"docs: add sasirura as a contributor for doc (#704)
+
+* docs: update CONTRIBUTORS.md [skip ci]
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+---------
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+67cc43a986db603b87fcfd4cc56132cbd0f82966,2024-02-07 20:25:09,Sasiru Ravihansa,"removed Matterhorn blog link since it is not working (#703)
+
+* removed Matterhorn blog link since it is not working
+
+* remove the whole section of Matterhorn",False
+95834279a28eedcd72fd6e3d9404337f46e5d629,2024-02-02 22:11:57,allcontributors[bot],"docs: add filiptammergard as a contributor for doc, and code (#700)
+
+* docs: update CONTRIBUTORS.md [skip ci]
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+---------
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>",False
+0b921027c0ff8b984bd6e5ad6a83d028fcc7512a,2024-02-02 22:07:42,allcontributors[bot],"docs: add jsjoeio as a contributor for doc (#698)
+
+* docs: update CONTRIBUTORS.md [skip ci]
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+---------
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+9e7fdb577d1aa18b3067031857e224bb296afac5,2023-10-31 18:00:49,Armaan,"updated CONTRIBUTING.md, made it better, precise, and emojified (#688)
+
+* updated CONTRIBUTING.md, made it better, precise, and emojified
+
+* Format
+
+---------
+
+Co-authored-by: Filip Tammergård <filip@tammergard.se>
+Co-authored-by: Filip Tammergård <44197016+filiptammergard@users.noreply.github.com>",False
+41b4ac30ac8c2dad8680516f28169a045874bbfa,2023-10-31 17:49:05,Habip Akyol,Fix typo in excluding-props.md (#693),False
+53d9a7a17e70f8d4e2bee27e9349a57e9a8c5e2a,2023-10-25 20:39:20,Filip Tammergård,Gen readme (#690),False
+9104d89e422a351e17f0290f5cd323a2b02c3672,2023-10-16 20:22:47,Sagnik Sahoo,added few more talks (#685),False
+e51c20c496be994b70301a1c76f18c1ce241ff5a,2023-10-13 23:52:48,Gourab Konar,Add resources to basic/recommended/talks.md (#679),False
+4d4495008dbd5b97901c514c6267a54bc9b78c5d,2023-10-13 12:05:26,Sandesh  Pyakurel,"Fix: typo in context.md file (#680)
+
+* Typo fixed in context.md file
+
+* README.md generated",False
+d7689519188d0e48486832d00608d3eaa04ef130,2023-10-08 11:03:56,Janvi,Another resource added to talks.md (#676),False
+4c7778df7bc5990055034eeb11a6675f93764728,2023-10-07 11:16:20,Janvi,new resource added in talks.md\ Updated PR (#674),False
+a435c3617228ff61a7354fd00c10312b2498072b,2023-10-06 01:21:43,Rutvij Patel,"Fix:navbar title styling for better text wrapping (#649)
+
+Co-authored-by: rutvij-fsd <rutvijpatel141@gmail.com>",False
+411eaca380707768f31655cf32508b6e18ddea39,2023-10-06 01:08:02,Filip Tammergård,Gen readme (#669),False
+82478c5608140538ab35d4adbb439defeca3f041,2023-10-06 01:03:18,Aakash Bansal,"ADD: talks.md (#666)
+
+Added new talks video reference.",False
+07f8a5a7c53c8de96184be3a969ae29777b1d411,2023-10-03 01:52:54,Erik McKelvey,fix: typo in error-boundaries.md (#661),False
+7c4f3b002e85783c6b94185e9fdca461c33efd45,2023-10-02 15:26:57,arduousEndeavor,"replace usage of deprecated global `JSX` in favor of `React.JSX` (#659)
+
+* fixes usage of deprecated JSX.Element to React.JSX.Element #643
+
+* gen-readme
+
+* Migrate away from all usage of deprecated global JSX
+
+* one more
+
+---------
+
+Co-authored-by: eps1lon <silbermann.sebastian@gmail.com>",False
+f7423d90c3e2418e34d5f5df21e6a206f7b95f72,2023-10-02 11:45:52,Palash Das,removed unused excess code (#647),False
+ff5e67c7c8ec941dba8e0ab557560a1eacddbd6c,2023-10-01 16:59:24,abhiram6121,"chore: Update CI workflow (#654)
+
+- Bump actions/checkout to v4.
+- Update deprecated set-output command.",False
+2d6171791952a8a269ebfe4bb24bb1bdc2716c8e,2023-09-23 00:15:04,notDemian,Fix official Expo create command (#642),False
+df22e81a138664846910075348576a6a1e4d7904,2023-09-05 00:01:24,Filip Tammergård,Remove invalid example without forwardRef (#640),False
+c1785bb85155863f274c8832fda5db658349c406,2023-08-21 20:25:01,Sebastian Silbermann,"Mark `React.FC` as ""not needed"" instead of ""discouraged"" (#639)
+
+Co-authored-by: Filip Tammergård <44197016+filiptammergard@users.noreply.github.com>",False
+f0bd7c5258b69698aa99ea16cc3f08af05cd3ba7,2023-08-03 22:22:30,Filip Tammergård,Remove details on pitfalls that are no longer valid (#633),False
+06271e02016920c8517ce7c1954d9f7d42951c70,2023-07-03 22:18:03,Matt Pocock,Change patterns_by_usecase to use ReactNode (#630),False
+dd8176d39782b27281caa303e69abeadae6c619d,2023-06-03 14:16:51,Filip Tammergård,Add ReactNode type docs (#627),False
+0facfcd15f82c56483d4db0e30edadee19cfc2e1,2023-05-30 13:27:53,Filip Tammergård,"Add ComponentProps reference as first React Types example (#626)
+
+* Add ComponentProps reference as first React Types example
+
+* Update based on feedback
+
+* Add example with Pick
+
+* Change from Element to ElementType",False
+17f32974ce6f75770db44ba86ced4e731dbe01b7,2023-05-19 14:42:28,Joel Hooks,"add Matt Pocock's React with TypeScript Tutorial (#624)
+
+* add Matt Pocock's React with TypeScript Tutorial
+
+* Gen readme
+
+---------
+
+Co-authored-by: Filip Tammergård <filip@tammergard.se>",False
+90442d29b1ab041ce406757397f9626489b4ec44,2023-04-29 10:34:46,Filip Tammergård,Fix one or the other prop pattern example (#620),False
+e12f8103bad0364f6bff6aed98153663c2c19d46,2023-04-28 13:04:40,Filip Tammergård,"Simplify Setup page (#622)
+
+* Simplify Setup page
+
+* Update starter kits section
+
+* Remove video tutorial",False
+9985de7478a3240f1674abd5925a064c53f4f758,2023-04-12 16:18:15,Filip Tammergård,Replace invalid props example (#619),False
+7d962635aa88d9d04ab236de6fe223ce6c0416b4,2023-04-06 17:23:12,Filip Tammergård,Bump website dependencies (#621),False
+608b33f1a8db813e713b10de2198bb5c7856e2fe,2023-03-26 18:50:04,Sebastian Silbermann,"Remove ""Useful Hooks"" section (#617)",False
+d30bb638ef81b8868d60e1fe7133b92dd7a3df58,2023-03-24 17:21:20,cliffoo,Update hooks.md (#616),False
+d5d8dcdc6a15af3e7583fb24b1a507c58cb97047,2023-02-07 20:08:42,Filip Tammergård,Update prerequisites (#609),False
+1a052de0776a5dc868831341c12412dfe6a933d5,2023-01-13 11:52:07,Filip Tammergård,Add custom hook for context to avoid assertions (#604),False
+61f56091724505649f235c0da381d912b6eb39f4,2022-12-08 10:40:58,Seiji Sagawa,"fix: Spelling error in context.md (#593)
+
+Co-authored-by: Sebastian Silbermann <sebastian.silbermann@klarna.com>",False
+fb86c794481e613a36b1db9be717d5b6ac6f31f5,2022-11-21 19:10:43,akira,"Update context.md (#592)
+
+* Update context.md
+
+Update comments in code blocks
+
+* Update README.md",False
+3c99a6ce9668c7c723def0f7adcd494601b1d2e1,2022-11-20 18:06:26,akira,fix: add a code block (#591),False
+c171740f09422d1b792a66743654744a4b8897d3,2022-11-02 19:06:39,Alvin Li,"Add docs for useCallback (#586)
+
+Co-authored-by: Filip Tammergård <44197016+filiptammergard@users.noreply.github.com>
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>",False
+179a221eb0509a535451ecb8a53036329311047b,2022-10-31 11:22:55,Fabio Laura,Removing dead link in migration from flow page (#588),False
+cc0a2fcee8378650194135b1559fe19c5c5f9e4a,2022-10-31 00:13:28,Geeth Gunnampalli,fix: help page links spacing (#587),False
+ac4ca4ee71ebf321f2aa00a3d83b44bd46d1d5ee,2022-10-28 19:32:31,Alvin Li,"Fix various broken anchor links on readme.md (#585)
+
+* fix: readme links
+
+* fix: links",False
+7c2cbe11c7e28ce75570aef9d378fd635b7007f3,2022-10-24 12:51:07,Retsam,"Tweak explanations of object types in Basic Prop Types Examples (#582)
+
+* Reorder and reword some of the basic prop type examples
+
+Put the recommended approaches before the non-recommended approaches, and reword some of the decriptions of object types
+
+* Add details section with more description of object types
+
+* Add note about Map
+
+* Update README.md",False
+f57060071d4f5f7cbce22d0378e06a4aaece3d2d,2022-10-16 20:03:31,Ikko Ashimine,Update migration/index.md (#578),False
+97850235c4f61ae0186af377237d67280fe141ed,2022-10-16 16:35:04,Manan Tank,"Avoid unnecessary element creation in Modal created with Portal + Hooks (#573)
+
+Co-authored-by: Sebastian Silbermann <sebastian.silbermann@klarna.com>",False
+3187b5315a98740bf3676f2fa22a4bc93b0c161e,2022-10-14 19:54:05,WillowP,Add setState example to Basic Prop Types (#575),False
+8ad623985e82f07cea04d468255fe6c06f8d75ec,2022-10-14 11:12:23,Muhammad A Faishal,docs: add a Typescript extension (#576),False
+ca2a1541abb6cf3e762b631af8186bbcb728aca1,2022-10-12 10:35:55,Muhammad A Faishal,doc: utility type (#569),False
+7fbcf27f3269041f2797afd458c1047e8f0699ce,2022-10-11 01:03:29,Muhammad A Faishal,doc: a new typescript resource  (#571),False
+26a9e649c2f11535920921a90d6500e05a5614a5,2022-10-11 00:41:34,Muhammad A Faishal,doc: nextjs typescript command (#567),False
+50bd5da192810597201acdfd2e1c8dd73bec1032,2022-10-10 20:39:26,Filip Tammergård,Move contributing pages from docs to pages (#565),False
+535ef3635555110ea2409d0c92412cba8c572ba7,2022-10-10 18:33:25,Matt Chapman,Uppercase in list items (#564),False
+847dba2a5951b8298e974579b3ef4237193b0248,2022-10-10 01:52:50,Matheus Ricelly,Code of Conduct to repository (#554),False
+ca3ffc3b30a8c7de0e398aaa36ff184d1e56b8ae,2022-10-08 13:40:35,wenzdey,Updated dead link (#561),False
+cfa0dd8f2d3e9609f920a69dcdfd285649c469a1,2022-10-06 23:10:55,Ankit Malakar,"README.md icon updated (#558)
+
+* Icon bg updated to transparent
+
+* Transparent Icon added
+
+Co-authored-by: Filip Tammergård <44197016+filiptammergard@users.noreply.github.com>",False
+571fdeb79fdae40191ebc6f3958bd8a53dc8778d,2022-10-06 22:39:56,Ankit Malakar,Icon bg updated to transparent (#555),False
+0f10d618dea178f57d1111838fd1db09654ab7cf,2022-09-14 21:43:54,swyx,"try new api config thanks to @shortcuts
+
+https://github.com/typescript-cheatsheets/react/issues/547",False
+ee2e36e1f5f9e98712e77b8c35785e1402046d8b,2022-09-13 17:23:37,swyx,Update docusaurus.config.js,False
+362094b7c7210e32cccd4f7415d5b30179a5ed08,2022-09-13 17:08:44,swyx,Update docusaurus.config.js,False
+2d1a9825d16f61a394f212030ac27c73d1a76a48,2022-09-12 19:01:50,Filip Tammergård,Fix README links (#546),False
+b9803a3a1d3093474ca863ed841a9f81af19b2c5,2022-09-05 19:09:33,Filip Tammergård,"Upgrade Docusaurus to v2 (#544)
+
+* Upgrade Docusaurus to v2
+
+* Update docusaurus.config.js
+
+* Update .nvmrc
+
+* Update broken footer links
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+2859208887298e16923f6ac5ad43d91bf2d64890,2022-09-04 17:55:45,Mateo Guzmán,"docs(hooks): improving useImperativeHandle example (#542)
+
+* docs(hooks): improving useImperativeHandle example
+
+* Update hooks.md
+
+* chore(readme): running codegen
+
+* chore: formatting files",False
+9ec826137c02038f5533d1e5e079218be9da6bdf,2022-08-26 00:15:28,Cory House,Fix bad URL (#541),False
+074f9c79832c0fddaaa70b3a9fd31e5011d4dd01,2022-07-24 19:04:53,Filip Tammergård,fix: correct readme toc heading path (#536),False
+09c7f1e78c9d9a4bdff15294d0962699eec3dd63,2022-07-24 11:21:15,Filip Tammergård,chore: format (#535),False
+2203792a4021b5efb8eb6617116aafb737c69096,2022-07-24 02:46:51,Luke Howsam,chore(docs): fix full hoc grammar (#534),False
+0d94cb6005bccf5bb0b92a2e76a151f8863b291c,2022-07-24 02:25:13,Dzmitry Sviryn,"fix: wrong term (#532)
+
+it should be 'time' instead of 'speed'",False
+86b79808c270c317fb5c8788124b5541e43388a2,2022-06-27 11:00:47,x7ffc08e,Update README.md (#531),False
+1b14726f27f2cf37ea65b284dcb2f6d6da51b86d,2022-06-26 19:03:43,swyx,add stripe migration story,False
+fadfb14ed492d6dfead2fd816ebc3b3485537a39,2022-06-26 19:01:05,swyx,add stripe flow to ts migration tool,False
+12c648384e72142036f31bf4ede75a8a5bc5caf6,2022-06-24 01:30:39,Filip Tammergård,gen-readme (#530),False
+2199ecb3b021e6e66a2e6c1c3f4dd34988af27f0,2022-06-24 01:27:29,Franco Remis,"Update context.md (#529)
+
+line 154 typo, useContect instead of useContext",False
+67725463d88b2350855b917a7edc6c2b4bb73974,2022-06-16 15:09:15,Filip Tammergård,use named imports for common react exports (#528),False
+d60e5fa51a81aba2815b92794d94d224682d1c31,2022-06-14 09:31:03,Filip Tammergård,upgrade husky (#523),False
+9a7c76e57e657530869204222b94bba56d10f720,2022-06-12 20:58:10,Filip Tammergård,fix readme header (#527),False
+cba95573cdcf183a0fc785131d4cccda56110ff4,2022-06-12 01:31:42,Rinat Valiullov,"Fix ""useEffect"" link in the ""Basic Cheatsheet Table of Contents"" (#525)",False
+a6bb374cc9570d2d4b630302e720466bfac65937,2022-06-12 01:30:51,Filip Tammergård,remove react.fc from examples (#522),False
+f446bce719eb07bce8c144d7ecc85aea91f8c3a9,2022-06-11 13:04:49,Htin Zaw,Update .gitignore (#521),False
+0b1a14527977860cec57d2a91683d73c08dc271f,2022-06-11 12:44:44,Filip Tammergård,remove section about importing react (#520),False
+b8f120dcd499ccd7b4e97392116910853064a7b5,2022-06-10 16:51:06,Filip Tammergård,chore: remove deprecated chinese translation (#517),False
+febb6f2ee82cdc0cc3367aa010cec70c096a88a6,2022-06-10 16:50:35,Filip Tammergård,fix: update relative links to new repo name and new default branch (#519),False
+4edb89b04b1b6e22681a5ee11ea07b04974da9b9,2022-06-10 12:27:03,Filip Tammergård,fix: point basic link to doc rather than readme (#516),False
+11056fefe0a182570633104b392819acd6530dd8,2022-06-10 04:35:06,Filip Tammergård,chore: update list of maintainers in readme (#515),False
+95f4169372f9f48f81fbad71eafccb71e8a5e4e5,2022-06-06 14:53:30,Sebastian Silbermann,"Update Table of Contents (#514)
+
+* Fix heading levels
+
+* Manually fix up TOC",False
+adfc093714595c4e5cfb645e15846b8c59cae7a4,2022-06-06 14:47:55,Sebastian Silbermann,"Fix duplicated/missing sections (#512)
+
+* Add missing non-ts-files section
+
+* Remove duplicate resources section",False
+5bd304341d0444021fab0f442b6b9932a3b8a508,2022-06-06 14:44:39,Sebastian Silbermann,Rework gen-readme (#511),False
+b47c4c1daf58a4feb38667cebd816f1dfa1e2d37,2022-06-04 19:12:12,Sebastian Silbermann,"Updated with explicit children in mind (#510)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",False
+c854da7bce7972c5f07b2c1c8289dbf51b847bdf,2022-06-04 17:23:48,coderaiser,docs: hooks: add syntax highlight (#509),False
+76fccdb599eb652db759a0bb392623bae4344e68,2022-05-02 12:12:15,maurer2,Remove VFC recommendation (#506),False
+ab622cc80e965ec6f2a1fe09268e138d66c07743,2022-04-25 14:34:39,Filip Tammergård,"chore: bump prettier and pretty-quick, format all",False
+0b1d5f11a532cbca44ca9f4760d2ccbbb4b90dd8,2022-04-25 14:33:46,Filip Tammergård,chore: format,False
+6424b9c188930fe3993b2404133bf3261d02849d,2022-04-25 14:32:54,Filip Tammergård,"Clarify that ReactNode edge case is only for React <18 (#504)
+
+* Clarify that ReactNode edge case is only for React <18
+
+* Update docs/basic/getting-started/basic-type-examples.md
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>",False
+6592987a6d6599196199ea3381e47a564e0a6359,2022-04-25 13:50:30,github-actions[bot],Updated README on 2022-04-25T08:20:30.348Z,False
+492aa062953b1c843663f4442c271fb9350f0026,2022-04-25 13:50:18,github-actions[bot],Updated README on 2022-04-25T08:20:18.177Z,False
+bb4190fd95d03630af3f13323c8121ca7a87a0d2,2022-04-25 13:49:40,Orta Therox,"Merge pull request #502 from typescript-cheatsheets/version
+
+Assume latest React version",True
+162c4486a59acfaa905b52f63b6ff3dcc697a93d,2022-04-25 13:49:02,Orta Therox,"Merge pull request #503 from typescript-cheatsheets/vite
+
+Move Vite from less mature tools to local dev setups",True
+a9ad196e95f1fc3ba7ed038fbc6327b0a49ef8a1,2022-04-25 13:37:06,github-actions[bot],Updated README on 2022-04-25T08:07:06.473Z,False
+e23f8b66fee7d5cc2e1f9063af7c26446b141f4e,2022-04-25 13:35:10,Filip Tammergård,Move Vite from less mature tools to local dev setups,False
+442560b094ff7caf25a3fd1297b3753c371585e3,2022-04-25 13:27:43,github-actions[bot],Updated README on 2022-04-25T07:57:42.824Z,False
+b36c18e48f82d595307033c62de7498d6b5986dd,2022-04-25 13:20:50,Filip Tammergård,Assume latest React version,False
+572870124c1ab5a1f1307082830689c72ac0921a,2022-04-25 12:50:12,Filip Tammergård,"Merge pull request #501 from typescript-cheatsheets/react-18
+
+Simplify React.FC implicit children section",True
+8c5a0daacdd602aa97133aa273c8fff991e50f5c,2022-04-25 12:47:18,github-actions[bot],Updated README on 2022-04-19T22:14:07.916Z,False
+4e7b7d8018e88fd03ce4967da5b8b09a47af6f62,2022-04-20 03:44:08,github-actions[bot],Updated README on 2022-04-19T22:14:07.916Z,False
+667d53c12581afbcbcdaa2ef291b21eaac2273b5,2022-04-20 03:43:53,github-actions[bot],Updated README on 2022-04-19T22:13:52.899Z,False
+1e7509a8950ba0403d2b9222f50639637ed775c6,2022-04-20 03:43:13,swyx,format,False
+9c9c2c4a1f96231b49dd510b31749565a21a3aca,2022-04-20 03:42:56,swyx,"fix useFetch example
+
+closes https://github.com/typescript-cheatsheets/react/issues/487",False
+c5c5bceaa7901d902e23b3bcbf26fca285f220fe,2022-04-20 03:31:59,swyx,format,False
+c2ad2946e71295266558275d46881ddcdb9012c2,2022-04-20 03:30:21,Filip Tammergård,feat: add info about change of typings in react 18 (#497),False
+bb7288639338526e94c5869a32fc2cd0ed994e1b,2022-04-20 03:29:58,Filip Tammergård,"feat: add information about change in React typing (#496)
+
+* feat: add information about change in React typing
+
+See https://github.com/DefinitelyTyped/DefinitelyTyped/pull/56210.
+
+* chore: change wording",False
+50055c955511cb23827016ece47404de55129628,2022-04-20 03:29:23,Rinat Valiullov,"Update README.md (#492)
+
+Fix ""useEffect"" link in the ""Basic Cheatsheet Table of Contents""",False
+27714723e2382550e9d4254f819a846b9a6cd39b,2022-04-20 03:29:12,Joseph Markus,Fix typo in types.md (#493),False
+4f0906d80d59599a5f37cba3f8bd7d4d47a5acad,2022-04-20 03:28:58,maurer2,"Add paragraph on VFC deprecation (#499)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+bf54bf2f25aebbb0f2515bec0f008fa46739fdac,2022-03-09 17:12:04,Jiri Spac,"Recommend `@ts-expect-error` over `@ts-ignore` (#489)
+
+Co-authored-by: eps1lon <silbermann.sebastian@gmail.com>",False
+f03211fd27492df0c465023402214e03c15af03a,2022-03-09 16:24:24,Sebastian Silbermann,chore: format (#491),False
+82e40326b17e7af2c5158e31a2ba0576cf4665da,2022-03-09 01:11:30,swyx,Update index.md,False
+5e08944eaa795161e4062a89cdf78b7e7008bf06,2022-03-08 13:27:35,swyx,Update patterns_by_usecase.md,False
+c0e70bd2ca3368d9fa3c978efcfb4bdd74dae174,2022-03-04 22:33:45,Thomas Schattschneider,fix: spelling mistake in utility-types.md (#484),False
+cc3ae654ce5da64ab82f9dfcd3dd7368157a41f4,2022-03-04 22:33:34,Kwesi Ansah,Added a resource (#486),False
+9e61f9c0c7d775d61b8470d5e30959b6b2671bce,2022-03-02 13:54:46,swyx,Update patterns_by_version.md,False
+766fa1c0fb25fa082750254c929c9e0ec27e501f,2022-02-19 05:57:55,github-actions[bot],Updated README on 2022-02-19T00:27:55.555Z,False
+f049a479886f5448891b3556613c572f92de0893,2022-02-19 05:56:49,Bernardo Rosa,Fix summary tag issues (#485),False
+803477511c334abc94b937ea02be4bf9655f3890,2022-02-08 02:04:47,Ferran Basora,Update from-flow.md (#482),False
+1e09ba44e942a18dd54233c0c1d4a43e5fe77b6c,2022-01-22 00:36:14,github-actions[bot],Updated README on 2022-01-21T19:06:13.910Z,False
+68a4c7fc8612ec70f5f5d247c9fac6a434e8f393,2022-01-22 00:35:27,mori yuta,Update vite description (#480),False
+481ab18c67f9012d9480c2d672c9973698894ab8,2022-01-22 00:35:14,Quinten,"Typo: Update hooks.md to add missing ""if"" (#481)",False
+44af8a72b93a576a1bfbd2aa209f498f4d734358,2022-01-13 06:46:32,Krishna Sai Mangalarapu,Update basic-type-examples.md (#477),False
+72801701bb52405e72ffcceb4d691ba9c9494599,2022-01-13 06:46:11,Matan Borenkraout,docs: add an article about `defaultProps` (#474),False
+89072bd9de8e38dae6e5ab2a11a15318512320f9,2022-01-13 06:45:51,Alan Alickovic,add bulletproof-react as a codebase to explore (#472),False
+867910f2ed482e70fb1d9b51b81132a91ac53b42,2022-01-07 22:33:18,screw-hand,fix: docs/basic/troubleshooting/types.md spelling mistake (#471),False
+d30d82211854c61e7290368f8d67f156d699b5f0,2021-12-13 16:13:34,Ian Bayne,"Fix `the ""Just Renaming"" strategy` command in `from-js.md` (#475)
+
+Co-authored-by: eps1lon <silbermann.sebastian@gmail.com>",False
+65240f23b3506fecc5dc5b38e3adbc9269e97d71,2021-12-13 15:48:59,Sebastian Silbermann,chore: Format (#476),False
+fc8f15293fc82fd9716609e0944baa9719421034,2021-11-17 16:06:15,swyx,Update from-js.md,False
+6df55d0358ca9c6b6d108cd581d7adc8409d0efe,2021-11-17 16:06:13,swyx,Update index.md,False
+f5107716749ba00ab7c1bcd22e7df14039ee93f9,2021-10-30 06:12:42,Kelvin Mok,"docs: added article link for forwardRef (#444) (#447)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+b7e5b5c22c7e3c1d2dc3b27245c8192a9fa0e883,2021-10-01 13:32:16,Tomer Cohen,Fix typos (#460),False
+9a2bd4583ca5d725ea77adb759c224aa1328b391,2021-09-27 13:46:14,Sebastian Silbermann,chore: Commit formatted readme when  generating (#458),False
+c7ca726c5d6452b6eb50fce435151463a6cf632a,2021-08-27 22:57:48,github-actions[bot],Updated README on 2021-08-27T17:27:48.241Z,False
+a86f9bf087fc2f6269d90f01b086f64aba946fdb,2021-08-27 22:57:00,Luis Vinicius,Update deprecated link of prerequisites (#449),False
+204088e7fc89bb84cac1cbf75981c159885f249e,2021-08-25 22:50:59,James,Add space between words (#448),False
+d568aa21450a054fd05c1e704096215c8bc83b1b,2021-08-09 09:54:42,swyx,readme,False
+6122b0f8cb2cc4bf70971b5fc209f615ee60acec,2021-08-08 12:42:29,swyx,Update index.md,False
+a5d72d2337b9282059dd8a7bd41d46e9d6bab79e,2021-08-08 12:41:20,swyx,Update index.md,False
+21b1d1e1dc943c43807d2809cc9fb04eca9ea10c,2021-07-28 11:27:04,github-actions[bot],Updated README on 2021-07-28T05:57:04.024Z,False
+6abc10fbf467296b85f247870c0476ab28b24ab3,2021-07-28 11:26:21,Mitchel,"fix: react typescript course image (#442)
+
+Image was not showing, probably due a domain origin policy.",False
+6b757dda641f8e36268822129e82986c1195805d,2021-07-24 18:20:52,Arvind Srinivasan,Username Update,False
+f8b7e64aadb0ab20a69b3923b078efb38bd24e72,2021-07-24 07:33:17,swyx,Update operators.md,False
+fa067222274745a20c822b07a425d8f51e746987,2021-07-08 23:05:03,swyx,Merge branch 'main' of https://github.com/typescript-cheatsheets/react,True
+e86e9b7f68131dc7acea29c0595c724ea1c16832,2021-07-08 23:04:53,swyx,format,False
+79e127bbc9b9ceb5d099077193c0e238adc57b98,2021-07-08 23:02:08,github-actions[bot],Updated README on 2021-07-08T17:32:08.234Z,False
+2727a3f5ec590312bf03babf3203b0ed5a50e42b,2021-07-08 23:01:20,Mitchel,Add link to react typescript course (#438),False
+ac9528c9cd4eec28314d8d54afd3c7b46bb77c71,2021-07-08 23:01:08,Menai Ala Eddine,Fix grammar mistake (#439),False
+be89519df2b31b7110760ac2db833885f89c6a52,2021-07-08 23:00:57,Menai Ala Eddine,Edit useEffect section (#440),False
+2c528a57722922e3d7ac5b0aed17380d6ccdb9e1,2021-07-08 11:50:59,Julio Maniratunga,Moving snippet under related header (#436),False
+3c82bc2a9fe993520d9742cf2f0238aa0b313fe2,2021-06-14 03:35:31,github-actions[bot],Updated README on 2021-06-13T22:05:31.611Z,False
+7e4d5bd9effcc8586297f6c0a4353334c411b1d1,2021-06-14 03:34:41,Sarthak Joshi,resources added in hooks section (#428),False
+ac7786ddd3faf7f91cdf306e2906037e468dfc2c,2021-06-07 16:08:29,Sebastian Silbermann,chore: Remove danger (#426),False
+1ed68ed94ed83aa1c7f9c2812ec0a445d79d62d8,2021-06-07 16:01:13,eps1lon,chore: Format,False
+ea8a48910668943c0613722f99ae6ea7a18171d0,2021-05-30 18:18:45,Ikko Ashimine,"Fix typo in types.md (#425)
+
+Overide -> Override",False
+aa96b1005e5c0953db8d1805faf6a43cc6c1ced5,2021-05-30 02:48:28,github-actions[bot],Updated README on 2021-05-29T21:18:28.620Z,False
+209697646710ec90b5328b39e71539b5e741a14c,2021-05-30 02:47:32,Suraj Sharma,"Typo fix + Moved the ""useFetch"" example under the ""<details>"" tag (#423)",False
+e06462264480f4236eb95463bc96fb0e9e2799a6,2021-05-29 00:50:54,bozdoz,typo: age should not be optional in defaultProps example (#420),False
+20db933555b9351439c2d950bf866b5c833148f3,2021-05-19 14:55:11,Ahmad Abdolsaheb,docs: Update link to deprecated page (#418),False
+ef6899ee7597f283aec56afd7b80dc16cb2d108a,2021-05-18 17:37:53,Denis LE,Fix url for a migration story (#417),False
+7641061d6aeb66f8485f881670aa8a897de246b9,2021-05-14 23:01:35,sw-yx,readme,False
+1216ecc1aad1f968db7dbf57862ddb2fdfad445e,2021-05-14 19:31:55,github-actions[bot],Updated README on 2021-05-14T14:01:55.488Z,False
+6fdb60df217fae39332573e16bfd4b336626dc02,2021-05-14 19:30:38,Ryota Murakami,[examples] update todo example year 2020 to 2021 (#416),False
+2b988121696b70645d61878a9372b113b9fb97f9,2021-05-14 19:19:56,swyx,Update default-props.md,False
+050176b54a59ac350cff227d2e217f8a6b44edaa,2021-05-14 09:28:07,github-actions[bot],Updated README on 2021-05-14T03:58:05.054Z,False
+a0dfd53a4de6d5130e6c250d18d0849d519abb38,2021-05-14 09:26:30,sw-yx,format,False
+ee7440735b906fb66618a2b495c58491d3b09c6b,2021-05-14 00:31:18,swyx,Update function-components.md,False
+079b2c3e948a15ffd153410b6d0c3c685377ab75,2021-05-14 00:30:58,github-actions[bot],Updated README on 2021-05-13T19:00:57.470Z,False
+0f89a203a2d8c270ad899b65ee0dbfbbf1497153,2021-05-14 00:29:42,swyx,Update setup.md,False
+efeb72225590ceef6d104068b8447769b7193169,2021-05-13 21:30:57,swyx,Update misc-concerns.md,False
+6ac429bdf05db8c8079c7961789adc3241581cc5,2021-05-12 16:08:01,Godfery,"docs: Use documented casing for compilerOptions.lib (#414)
+
+The `compilerOptions.lib` value should be upperCase , https://www.typescriptlang.org/tsconfig/#lib",False
+290ee0b8077356e602f6d665ccd3c32370d9d101,2021-05-11 23:52:15,swyx,Update patterns_by_version.md,False
+a546b3c9a82cce6d2cecc744a7219783fd6afe26,2021-05-11 21:02:32,swyx,Update patterns_by_version.md,False
+bcd41bfbb6c782af5677d50f6260ba8188dff20f,2021-05-07 03:43:57,swyx,Update types.md,False
+efb6291065ceec744b4eb55b82190708a42451e9,2021-05-06 01:02:23,Christina Grannas,docs: throw when ref.current is null (#413),False
+846474f86b97a73ca9b780325f944459fa484b41,2021-05-04 15:40:49,swyx,Update from-flow.md,False
+937d712150d35d6ea33559cff22edfbf7f8f83c3,2021-05-04 15:39:50,swyx,Update index.md,False
+09b10d42293225a2027ea5ac4edfc5d322f995bb,2021-05-04 03:52:17,Thien Do,"Clarify useRef hook usages (#412)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+21813acec5b2c9baac10fc750fe0966db6c58ad7,2021-04-26 01:43:23,github-actions[bot],Updated README on 2021-04-25T20:13:23.562Z,False
+b25df79d776aec1f8453952777123ff421172b1b,2021-04-26 01:42:17,Mandy YP,"useLocalStorage Type detection bug (#409)
+
+in my vs code it detects that the type of soredValue is (T | (value: T | ((val: T) => T)) => void)
+but it must be just (T)
+so it throws error 
+with this change it solved.",False
+314b1b3344a36813416326333b0dd0698aed3d47,2021-04-24 03:03:07,Rafael Pedicini,Add rollpkg as an option for creating libraries (#407),False
+fc7273a787536bfbc79dd5688f0d0cbadb79b818,2021-04-22 14:20:54,Christopher Kumm,"Fixed typo (#406)
+
+Fixed an issue where a paragraph described three different options as two.",False
+affcdf825e23f30e5ddf603c9bf2dd387b68afb0,2021-04-16 23:02:52,sw-yx,format,False
+8a0ba0605662d3f9a670b9e4c9def7e0caa5e040,2021-04-16 23:01:50,swyx,"add type assertion for useState thanks @priscilaandreani
+
+closes https://github.com/typescript-cheatsheets/react/issues/403",False
+0138b77fe5a721dfbdecbd9c20a20701f0aed5db,2021-04-16 11:11:59,Gerrit Birkeland,"fix: Remove incorrect usage of ""widening"" (#405)
+
+Using an intersection type here is actually narrowing the type, but the intent here seems to be to introduce type assertions, not talk about the difference between wider and narrower types.",False
+e606e038531d7fd9bbb635a746ef8dde73780a15,2021-04-15 05:20:25,Lars,"Added event types and their descriptions (#402)
+
+* Added form types and their descriptions
+
+I was looking for a complete list of form types and couldn't find any anywhere.
+I went through the source code and extracted these with adding some description to them, either using MDN's description or some other website explanation.
+
+* Apply suggestions from code review
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+e60954732ff6db83f95be0667a5cdcb20adb6fe1,2021-04-05 22:52:26,Sebastian Silbermann,"minor improvements to ""adding non-standard attributes"" (#400)",False
+0e2a0d9a038db491a0299110c072bee54069b7dd,2021-04-04 04:50:30,sw-yx,format,False
+406b62b0265ed57c2efa5d69a9881c65ed9efb3f,2021-04-04 04:18:46,Denis LE,"Fix missing parenthesis in troubleshooting types code example (#399)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+f5550fc795a5139e9c773a0e01134de213b0dcd6,2021-04-02 19:51:24,github-actions[bot],Updated README on 2021-04-02T14:21:23.928Z,False
+43bd48d7e123e0192cacdcee046aa3da5c36589c,2021-03-26 15:01:25,Sangsu Song,docs: Reduce whitespace (#398),False
+a4c65c652590e55df413d5ea9bc6f54351e07b5a,2021-03-18 00:50:04,Orta Therox,"Merge pull request #397 from zhirzh/patch-1
+
+fix minor typo",True
+0478cb9ff98bcf72d93a700dd39fdd76eb316aa1,2021-03-17 21:48:34,Shirsh Zibbu,fix minor typo,False
+b8b85989494d1baffba21cc0dcb56fb58a65d4cb,2021-03-16 13:11:46,maka,"Fix a typo in hooks.md (#394)
+
+Co-authored-by: eps1lon <silbermann.sebastian@gmail.com>",False
+6f1d3b0a7eb719183240642f45562a59ce17680f,2021-03-16 13:05:16,eps1lon,chore: format,False
+988ebb25e4cdd36e0ad726c317a7e835a09450b8,2021-03-11 22:26:56,swyx,Update function-components.md,False
+da87e5a60c4f7da6ef6ad6e97be079644b9046d5,2021-03-10 21:44:25,swyx,format,False
+da572a1da639cf1805c55d7af13c0d6b5dfdc30a,2021-03-10 21:44:02,Zander Martineau,"Add return type to Function Component example (#393)
+
+* Add return type to Function Component example
+
+* Update docs/basic/getting-started/function-components.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+275bfe637dbc0a300d11b0e96d1822df2e922808,2021-02-23 02:17:41,David Lusby,docs: replace anchor with link to js-docs page (#392),False
+268e01ceb02536a86eb97aa4d12c547bfd4dd557,2021-02-22 17:29:15,swyx,format,False
+8883edfd0688f5bbd63ff19589aad72e2d4d8c60,2021-02-22 01:38:00,swyx,Update learn-ts.md,False
+c2ab91eb22e1367f72b0f84a79c92b2150ba6237,2021-02-21 17:03:21,swyx,"fix button example
+
+closes https://github.com/typescript-cheatsheets/react/issues/378",False
+d4825489b53c79eb9b6caebadf603c114e3c7651,2021-02-20 15:22:08,swyx,format,False
+b3f83cc2fe7d8b5f990950c3aeafada5d56916d6,2021-02-20 15:20:58,swyx,"add note on Seek design system
+
+closes https://github.com/typescript-cheatsheets/react/issues/381#issuecomment-779785395",False
+e3ec28cab3bbf7c87806eaad3feb681e9cf50858,2021-02-19 14:56:25,github-actions[bot],Updated README on 2021-02-19T09:26:25.380Z,False
+fbeb7f5f2787ca753193e99b2407102847ffd752,2021-02-19 14:55:25,Maciek Sitkowski,Add missing brackets in dependency array (#391),False
+5342d9b111c008601f4c671fda23ff65eca9f4f4,2021-02-06 22:12:31,swyx,Update patterns_by_version.md,False
+8b9ea4063f17b1c62ca71027e9ebd198871af0e4,2021-02-03 05:49:46,swyx,Update resources.md,False
+2a42b8f4962d46454ec44760063e9d2fc8d1e834,2021-02-02 03:05:49,github-actions[bot],Updated README on 2021-02-01T21:35:49.760Z,False
+7c4af781375aca1e5f22e0e848521a8839045306,2021-02-02 03:04:50,swyx,fix hooks,False
+2ab3fa40d1b3f76b9cfc0a4159ae403b16b7ed62,2021-02-02 02:57:31,swyx,format,False
+8f5cec816ebd8350acc7af8d2b578f70ae387445,2021-02-02 01:00:27,swyx,Update basic-type-examples.md,False
+cfa1209cdf926ab5894f0ef150c2fe48cce06a6b,2021-02-01 02:40:44,swyx,Update index.md,False
+03fa095c8dc7aee90749aa95d1abf89d54e5ee35,2021-02-01 01:39:33,swyx,add bloomberg notes,False
+9b224b6e03b9f60d52abedec06809e6bfd87c913,2021-01-28 05:22:41,swyx,add useRef notes per #388 (#389),False
+cfdc9ef2b6f62b35131238805f867b730397d56c,2021-01-25 01:54:58,swyx,format,False
+dde84adc51cf46582844515cfbf35496ca0d03f6,2021-01-25 01:49:09,github-actions[bot],Updated README on 2021-01-24T20:19:08.935Z,False
+2dc7b00016c41d28e04485e454412492b0ac272d,2021-01-25 01:48:06,swyx,format,False
+a094a4bef571e3d99cdd5e5e7d576c2360e3d892,2021-01-24 23:00:30,swyx,Update from-js.md,False
+652868716e0dfde0b760f70ae4222c30aa5c6da3,2021-01-24 22:54:39,github-actions[bot],Updated README on 2021-01-24T17:24:39.470Z,False
+253f1a44f342716f6a146988c11c8f3cebb73c6a,2021-01-24 22:53:40,kevingeorge,"useFetch (#387)
+
+Custom hook to make fetch request, using AbortController object interface.",False
+ae6716ea49f43c8730ebd86da98a780b70a34d42,2021-01-16 00:34:09,swyx,format,False
+ca2d6df047b808c1728695956e29fa0c087635b1,2021-01-16 00:32:28,swyx,Update operators.md,False
+b4a391944fcc1fbab69f507473e303c6e66d0f7e,2021-01-16 00:31:52,swyx,Update learn-ts.md,False
+65d9f0ce469edb4bf3e642ef605df066f01c5104,2021-01-12 19:59:02,swyx,add recommendation against enums,False
+d6e11aa8c19d20e3e0c0ffc1d58ed1bd4b68c2cc,2021-01-05 04:08:49,github-actions[bot],Updated README on 2021-01-04T22:38:49.690Z,False
+3c2e6571d3e4c7a39294b990514ba1f3d662d317,2021-01-05 04:07:49,swyx,add brief note on turborepo,False
+79ce5f4801a9905015d2cc7cc4ee7d4c1637255e,2021-01-05 00:17:22,swyx,add note explicitly discouraging React.FC,False
+ddc65f34147caabd53875a87dd08803e6750ba8b,2021-01-01 04:42:32,swyx,"remove duplicate sections
+
+fixes https://github.com/typescript-cheatsheets/react/issues/386 thanks @Mencnert!",False
+340dd9d0542d6ba106218f151bd96b2d2233ceea,2020-12-29 07:50:27,swyx,format,False
+e8f2ff94819d75a3939d30a1bf4eaf5cf30198af,2020-12-29 07:16:14,swyx,Update learn-ts.md,False
+a3e37ba3ab8e8809c7d25382e1a96b458f363f0a,2020-12-29 07:09:39,George Krachtopoulos,"Update portals.md, due to react-hooks/exhaustive-deps (#384)
+
+Recently, I tried to implement your example with *hooks* above. I have bootstrapped my project with the famous create-react-app  (CRA) tool - package, but when I tried to implement the previous solution the following warning was thrown during compilation at my terminal:
+
+```shell
+src\components\__helpers__\Modal\Modal.tsx
+  Line 14:50:  The ref value 'div.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'div.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+```
+
+So, I followed the instructions, and assigned a different variable to `el.current`, to dismiss the warning. Now my issue is resolved, and I hope it can help other people's problems related to this unexpected warning.",False
+0ae9f968b031421393aba2e20f91d20233176251,2020-12-26 08:05:12,swyx,add portuguese link,False
+5b40bfe5fc5577922a3ed41f06101d39d4a21b4e,2020-12-23 06:24:44,github-actions[bot],Updated README on 2020-12-23T00:54:44.580Z,False
+515fb469fbdb6d39e22eedce065ddaa291f264cc,2020-12-23 06:24:32,sw-yx,format,False
+38c6c36d2a28a0b0b09242f45eef0a1f1280a964,2020-12-23 06:23:45,Sunil Pai,"Remove ""Sunil Pai"" from jpmorganchase/modular (#383)
+
+It's not mine :) Thanks for including it here!",False
+288d419e8708c5608a5d89270fef79da68cb48ad,2020-12-21 03:13:51,github-actions[bot],Updated README on 2020-12-20T21:43:51.307Z,False
+eb1c524dc8ab289b60d5f95eae51aa2fe4bfef8c,2020-12-21 03:12:56,sw-yx,format,False
+c9829d9b87b3ef74383f11e91e7aa03c6c24cdbd,2020-12-21 03:09:00,github-actions[bot],Updated README on 2020-12-20T21:39:00.000Z,False
+4d3e176d25ed97fc8ffd63f0d30af52191cf4e74,2020-12-21 03:07:54,swyx,add modular mention,False
+ea082f76351c1e7ca213793f52edf6ad5abeef1f,2020-12-21 00:11:37,swyx,format,False
+de3686e923c3ba90400809ee952ef40bc8067aef,2020-12-20 23:48:14,swyx,"add note on ReactNode edge case
+
+closes https://github.com/typescript-cheatsheets/react/issues/357
+
+thank you @pomle",False
+28f22f5832a4ce0a3c922e322f8ddd0a3c7c0dfc,2020-12-17 20:33:15,Joe Lencioni,Fix malformed link in misc-concerns.md (#380),False
+370aba6026122478c982d9d5c584e3fc9a955d2f,2020-12-09 02:01:04,swyx,format,False
+821cee635054da0fa477071d6b84eb6b5c10210d,2020-12-09 01:59:58,swyx,Update patterns_by_version.md,False
+0abbe0a9afe07d64cbb18bb0f05ad5f39a68d4b8,2020-12-09 01:51:53,github-actions[bot],Updated README on 2020-12-08T20:21:53.727Z,False
+1b2e0e7f49f61e44fdc2e91e63a1adeb1160e03e,2020-12-09 01:50:48,swyx,Update linting.md,False
+174d4c5873064cec3c65df015a14606cc32063de,2020-12-09 01:45:27,swyx,Update from-js.md,False
+c6cb8ece23d094c4eb221b5e128959a009094da4,2020-12-09 01:35:39,swyx,Update basic-type-examples.md,False
+b96a3d1d858082f50da3397bc022efbe0d04957f,2020-12-08 00:37:17,swyx,format,False
+b677d7523d72e735b11e19f13ce06598f599f8a7,2020-12-08 00:35:13,Mahmud Bagheri,Introduce new codebase (#375),False
+47917112855f223ae23b7238f03ef66dd33fc2b0,2020-12-06 06:32:21,github-actions[bot],Updated README on 2020-12-06T01:02:21.663Z,False
+e48d49185b113398ea795afe2f0637544f3e99d3,2020-12-06 06:31:08,swyx,"minor swyx dec updates (#374)
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+8256411bcac9e8575899c5fd468be96466ffcc9c,2020-12-06 06:30:43,github-actions[bot],Updated README on 2020-12-06T01:00:42.905Z,False
+f084ee0d022fac915b2f93b9cba546b469496ef9,2020-12-06 06:22:00,github-actions[bot],Updated README on 2020-12-06T00:52:00.749Z,False
+050db547a8051d42753be1a9a8e751aacb3839cb,2020-12-06 06:20:33,github-actions[bot],Updated README on 2020-12-06T00:50:33.077Z,False
+f45e5890cd4ae97cf5eebb3758055f63083e00f2,2020-12-06 05:50:00,github-actions[bot],Updated README on 2020-12-06T00:20:00.303Z,False
+97c1ea37e3ec3da0ce0f0227075c36f3a68b46b0,2020-12-06 05:41:31,github-actions[bot],Updated README on 2020-12-06T00:11:30.814Z,False
+cb92e90a41ff1c91e45e9b93a242d872929df15f,2020-12-06 05:40:20,github-actions[bot],Updated README on 2020-12-06T00:10:20.661Z,False
+3a2be73130bc80057ed2e7deaad2e862d62be90f,2020-12-06 05:39:12,github-actions[bot],Updated README on 2020-12-06T00:09:11.910Z,False
+983192b0c9cc12087661f70e3dce24b20f32e495,2020-12-06 05:39:03,github-actions[bot],Updated README on 2020-12-06T00:09:02.660Z,False
+8da15ec595064ce0936bab2d86c47bed5b8d5ef1,2020-12-06 05:38:58,github-actions[bot],Updated README on 2020-12-06T00:08:58.702Z,False
+b2912992f14f14c5eea06d1ed160ce2e4ce68b10,2020-12-06 05:09:20,github-actions[bot],Updated README on 2020-12-05T23:39:20.441Z,False
+9ac9f5e03b595466aefbfa2889a7fede95acdafe,2020-12-03 00:57:55,swyx,format,False
+f29457f89dcb612dba58a1f52d23a03b1bfa5373,2020-12-03 00:39:51,swyx,"simplify extract props docs
+
+closes https://github.com/typescript-cheatsheets/react/issues/63 thanks to @marcelreis' suggestions.",False
+06dfaed31c83625c26cf390730d6297e329ecf7b,2020-12-03 00:32:43,Renan Couto,Fix inline code not showing (#373),False
+de530b0f7f2e3bd143c30fc530eba8d2e77daa13,2020-11-25 16:51:04,Sebastian Silbermann,Use consistent TypeScript branding (#372),False
+40b06d9c29901704ad40a322de146f3eaf4b151c,2020-11-25 16:00:21,Sebastian Silbermann,Fix gh actions not appearing in checks (#371),False
+cb9ac72f1a74eb55c6be9ad4f2ede7a29c9c4e4d,2020-11-25 15:50:18,swyx,fix yarn format in backticks,False
+e346f9c888974c31b48610917847d4b4bece5c07,2020-11-25 15:49:41,swyx,Delete disabled.check-markdown-links_yml,False
+635f4ccc6339d0ff1196e5baba4f438e09505735,2020-11-25 15:46:20,swyx,Update misc-concerns.md,False
+408da8cf75ed61bf2ebbb96ccccf4d6ec61e0b1f,2020-11-25 15:45:04,Nick Ribal,Add TS performance wiki to compilation section (#369),False
+af7c2a894ea38d8e633d9fd58231f2e21d11b3e1,2020-11-25 15:34:25,Sebastian Silbermann,Add format:check script (#370),False
+dd135dfe3ba502da06f872f0ab263fb481e13daa,2020-11-21 22:47:42,swyx,Update resources.md,False
+1d84a67ae593ee108735c36b0c72137b8f6fa2df,2020-11-12 12:14:09,swyx,Update index.md,False
+b81283ff26f6730de1ad16e191c1730156f376fd,2020-11-11 23:11:59,martin,Update excluding-props.md (#365),False
+54e71591aa9ea3e293492e4ee4789139e82c9fda,2020-11-11 12:59:23,swyx,run formatting,False
+55e9eba4b922f8bce319846c13ab93274122beb1,2020-11-11 12:00:53,allcontributors[bot],"docs: add artola as a contributor (#364)
+
+* docs: update CONTRIBUTORS.md [skip ci]
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+8e3de2a5ebb5ca1b8e59e483d39698c0da3d9158,2020-11-11 12:00:38,martin,"Update excluding-props.md (#363)
+
+To avoid coercion might be safer.",False
+43cc7c793c9faff389b798d53a713b2bc63dc512,2020-11-09 03:17:55,swyx,Update index.md,False
+b674ae4bfe569bd4dd581383d0b87eb7b44ad213,2020-10-28 18:57:13,swyx,Update patterns_by_version.md,False
+41da83f09d6eaaf0d195fbbeb17ced61c155ceda,2020-10-28 15:53:06,swyx,format,False
+b80c34a12bf13d79cce54f60d3541172e6277a42,2020-10-23 18:29:15,github-actions[bot],Updated README on 2020-10-23T12:59:15.801Z,False
+1191c63ff1f8265f4505bce27a14d66c43cc5f9a,2020-10-23 18:27:59,torryt,"Fix typo in useful-hooks.md (#360)
+
+IDEAL -> IDLE",False
+4e1cb5d02996a45e6fe88d116347be72f43ee97f,2020-10-22 00:29:54,swyx,"add ts codebases to study
+
+closes https://github.com/typescript-cheatsheets/react/issues/80",False
+f7dbf8f6b2ba1838bc7838e47380dd068c0a2781,2020-10-22 00:15:55,swyx,"closes HOC discussion on supporting defaultProps
+
+closes https://github.com/typescript-cheatsheets/react/issues/86",False
+e2eeaff379d4638d3060f0774d929a8b2bd4ba8c,2020-10-21 03:35:23,allcontributors[bot],"docs: add adnanhusain15 as a contributor (#359)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+1ee97d4beba8deb62ca71d6d04f058ddf6629869,2020-10-21 03:35:11,github-actions[bot],Updated README on 2020-10-20T22:05:10.907Z,False
+05a4a925b114f0d3d3bd01eadcfad0c7bc5c0f27,2020-10-21 03:34:52,github-actions[bot],Updated README on 2020-10-20T22:04:52.552Z,False
+512472683d640e93b939614d5c09364e0a2ac8b9,2020-10-21 03:34:07,swyx,"adding new Useful Hooks category from @adnanhusain15 (#358)
+
+Co-authored-by: Adnan Husain <36721076+adnanhusain15@users.noreply.github.com>
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+1ea694a18a7cb13e17de7eb9f79b1bddb1311920,2020-10-19 23:57:26,swyx,format,False
+fbea96a2e56bd2fe473fa66f1aa964cc3f20ecd2,2020-10-19 23:47:14,Leonardo Salazar,"Default props - Destructuring assignment for class component example should be inside a function (#356)
+
+The default props example for class components is not clear about where to use it. Since it's declaring a `const` directly inside a function and even using `this` in a place where it doesn't exist, it throws an error.
+
+According to the issues that were used as inspiration for this change, it should be used inside functions. In this case, inside `render()` function.
+
+Might be obvious for some people, but it took me some time to realize this is a destructuring assignment and it cannot be used as a property of the class, but as an assignment inside a function of the class.",False
+ef74af39cdaf74e72dc62aafce3ba7a97aa18c83,2020-10-19 22:18:40,allcontributors[bot],"docs: add selrond as a contributor (#355)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+f5beb66d47c631b532caf878cb859ce883fceb7b,2020-10-19 20:09:20,swyx,Create pull_request_template.md,False
+9b06ecfb11ab067ee4a1f820b4209f35d0bc8bb4,2020-10-19 20:04:33,Sebastian Andil,"Remove TODO & improve wording (#353)
+
+* Remove TODO & improve wording
+
+* Update README.md
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>
+
+* Update function-components.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>",False
+2aad668f894c6ee77e0078e64a410cf6992b780e,2020-10-14 22:25:44,Elit Altum,add: url checker for markdown files (#351),False
+a5da5c096ce140bfa06afd8b12c558836c8f342c,2020-10-13 18:30:22,Ivan,"Move package.json scripts into copyFile.js (#350)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",False
+76b508228cdbe93457d68fd79d8392f4529ca01f,2020-10-09 15:05:39,swyx,"Revert ""add: github action for checking stale markdown links"" (#348)
+
+This reverts commit 51751fc107111eb2f95f9a21940050bc6195ef87.",False
+472a0e7197c04657989ff204e74e6aef5233ee31,2020-10-09 13:44:36,github-actions[bot],Updated README on 2020-10-09T08:14:35.887Z,False
+e41abec4040c9852d353d7d65e4169674e277d1e,2020-10-09 13:42:54,github-actions[bot],Updated README on 2020-10-09T08:12:54.398Z,False
+1cd64dd0cadca4cd6f9a26ec2281b8bfa14624de,2020-10-08 23:29:00,sweeta123,Added a validation before mapping the users array (#312),False
+144a5be3fe665bb8f129fffbf6a33f51985929bc,2020-10-07 17:30:07,allcontributors[bot],"docs: add Winner95 as a contributor (#335)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+28e7b65c318ca0b324ab2f88cb3ce62cb6266b91,2020-10-07 17:22:34,Ivan,adding contributors page on website (#334),False
+7534a14f6a2b3f347d381b3fbcf913eb79fbb94a,2020-10-06 09:28:22,github-actions[bot],Updated README on 2020-10-06T03:58:22.695Z,False
+9256f5908b6336f57c3379dfa5de5e6c1cfe0191,2020-10-06 09:27:16,swyx,Update setup.md,False
+1535a43bed35c250f17905f72c22872e400184ff,2020-10-06 01:50:36,github-actions[bot],Updated README on 2020-10-05T20:20:36.238Z,False
+07f092c80fc71cbcc588ccdf70ab62ed09230031,2020-10-06 01:50:31,allcontributors[bot],"docs: add glaschu1 as a contributor (#332)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+7e4f663aa171389c096aeb9055a644f5a21a7c47,2020-10-06 01:49:31,james glasgow,Update links (#331),False
+d92e94a9cc5464f7c6f91a9350aba77213e030a1,2020-10-05 22:36:16,Kristóf Poduszló,"Add immutable `forwardRef` typing alternative (#323)
+
+Co-authored-by: sw-yx <shawnthe1@gmail.com>",False
+553b2f724e3e57877b1fcd667cf6713264624089,2020-10-05 22:22:25,github-actions[bot],Updated README on 2020-10-05T16:52:24.866Z,False
+d24edaa1e3890d385a3f3a81870f4cc2e895f8bd,2020-10-05 22:21:05,swyx,format,True
+51751fc107111eb2f95f9a21940050bc6195ef87,2020-10-05 22:20:15,Elit Altum,add: github action for checking stale markdown links (#326),False
+0256b74e7ecd8e5f5833e5d56eaa6fb7a4611704,2020-10-05 21:10:24,github-actions[bot],Updated README on 2020-10-05T15:40:24.592Z,False
+089c3ba85c45c3a8ec9b437def782e87540909b1,2020-10-05 21:09:19,swyx,Update setup.md,False
+5335793d9192ba7ea46d193ced846e5c587f05eb,2020-10-05 20:56:03,allcontributors[bot],"docs: add kripod as a contributor (#330)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+86d58bcc8242be0f0031a0bbfd0b7e4bcff918ea,2020-10-05 20:52:27,github-actions[bot],Updated README on 2020-10-05T15:22:27.095Z,False
+4ed8de340d06cbd0971a172d411f4a6042073103,2020-10-05 20:52:12,Kristóf Poduszló,"Use less verbose intrinsic element props (#322)
+
+* Use less verbose intrinsic element props
+
+According to https://github.com/typescript-cheatsheets/react/blob/5c22f90605654002ae31c26344a6ab2944be65c8/docs/advanced/patterns_by_usecase.md#wrappingmirroring-a-html-element, `React.ComponentProps` is a clever wrapper around `JSX.IntrinsicElements`. The former has a less verbose syntax, too.
+
+* Update docs/basic/getting-started/react-prop-type-examples.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>
+
+* Be more explicit about ComponentProps types
+
+Co-authored-by: swyx <shawnthe1@gmail.com>
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+c3ced44deacd785502f73ecc60f852555e93c929,2020-10-05 20:51:08,github-actions[bot],Updated README on 2020-10-05T15:21:07.714Z,False
+0965a06b662eba977196ba74405bd9ae8545d441,2020-10-05 20:51:04,swyx,Update setup.md,False
+5f849537332b8b8a91e431699159d059484a0b79,2020-10-05 20:49:34,swyx,Update setup.md,False
+c5c2f0149ac2a82b9e21578cefbe2e08af8b77cc,2020-10-05 20:45:25,github-actions[bot],Updated README on 2020-10-05T15:15:25.503Z,False
+c6c13049a522468967873c4a0282b0c4808eb866,2020-10-05 20:45:06,github-actions[bot],Updated README on 2020-10-05T15:15:05.498Z,False
+3cf7ba1c4e63f0e81170b86fa858f5be7b257ceb,2020-10-05 20:43:40,swyx,Update setup.md,False
+4fa3f9b0d40986c62d996575143b160dcc70026b,2020-10-05 20:42:48,github-actions[bot],Updated README on 2020-10-05T15:12:48.644Z,False
+d544a6da4e2f9e148a253e677fde7747a0ecfb7f,2020-10-05 20:40:28,swyx,Update setup.md,False
+1e1570805d3ee55d591863e81def32d54d995d5c,2020-10-05 20:38:02,swyx,no gatsby,False
+485bfb53d65eb856e5140aa9bcde60de4f96dcaa,2020-10-05 20:19:17,github-actions[bot],Updated README on 2020-10-05T14:49:17.295Z,False
+99df1e9c4dd58e4c82376d0f99f3a8f53a318e1d,2020-10-05 20:18:09,swyx,Update setup.md,False
+1423939b2a8286e314397c5b07b7a983a11dc50e,2020-10-05 20:10:05,swyx,format,False
+173c86ec53bfd631126b8394ec3d653df471e34d,2020-10-05 20:09:45,github-actions[bot],Updated README on 2020-10-05T14:39:44.827Z,False
+4f47bd543761a75414cfa98e1faab39c095f6345,2020-10-05 20:08:41,swyx,update Setup docs with more info and more ways to setup R+TS,False
+c778143b48f6ff85ac45dcae0b075d5f035441b3,2020-10-05 19:49:00,swyx,"update wrapping/mirroring recommendations with ComponentPropsWithoutRef (#324)
+
+* update wrapping/mirroring recommendations with ComponentPropsWithoutRef
+
+update wrapping/mirroring recommendations with ComponentPropsWithoutRef
+
+* Update docs/advanced/patterns_by_usecase.md",False
+3142bcff4b4be34149f67a1fbeb2886a46cb030d,2020-10-05 18:27:37,Elit Altum,add: lockfiles to .gitignore (#329),False
+182cde92a689a233c5382ab1b4bd4353f2efb67f,2020-10-04 21:17:32,allcontributors[bot],"docs: add dwjohnston as a contributor (#325)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+efd959d1d12ea4f3f097428b9d7db4cebf03ebfa,2020-10-04 18:09:51,David Johnston,Add an arbitrary/generic example for a prop-injecting HOC. (#320),False
+5c22f90605654002ae31c26344a6ab2944be65c8,2020-10-03 21:39:05,swyx,format,False
+b6a57f896263c963fe3a70defa01dfc2c9ac6d06,2020-10-03 21:38:28,Elit Altum,update: discriminated unions reference link in hooks.md - I307 (#321),False
+1cdecd9eb6ab495d42db1aeeb7ebce36e9673a61,2020-10-02 20:18:25,swyx,Merge branch 'main' of https://github.com/typescript-cheatsheets/react into main,True
+d7a9f1c591ee87e2915530240512275afb9b3fb9,2020-10-02 20:17:42,swyx,tweak genreadme,False
+ef129ba9b786ac7e503910bb5418eb7468727668,2020-10-02 20:17:05,swyx,Updated README on 2020-10-02T14:47:04.947Z,False
+dfd062aad61c1f3336de3ecdc2ec222672f1d42d,2020-10-02 16:24:23,Arvind Srinivasan,"Merge pull request #318 from typescript-cheatsheets/arvindcheenu-patch-discriminated-unions
+
+Added Discriminated Unions with Hooks Example and links to TS Playground",True
+dfd4559f60246a7abc6d6e0501d881ac503b0d10,2020-10-02 16:22:10,Arvind Srinivasan,Added a TS Playground Link,False
+411425bb37bccf5281e4c79cca533145876e37c8,2020-10-02 15:11:24,swyx,format,False
+65a10f8ae7f2440dc89420bb3be8ce129a8cb0bd,2020-10-02 15:10:03,swyx,stray whitespace,False
+65aab0dce3a949b9ec0eccd96224ccad6d02901f,2020-10-02 14:24:25,Arvind Srinivasan,Update patterns_by_usecase.md,False
+1df719630523aadaf3d0e203a8b17c7df0d3515e,2020-10-02 14:13:56,allcontributors[bot],"docs: add xamgore as a contributor (#317)
+
+* docs: update CONTRIBUTORS.md [skip ci]
+
+* docs: update README.md [skip ci]
+
+* docs: update .all-contributorsrc [skip ci]
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+fb511828026c045bad8b0cf0851d079c30c6945e,2020-10-02 14:11:27,Arvind Srinivasan,Update patterns_by_usecase.md,False
+1a0f6a444e6912162362b18d72959cf87a7c48cc,2020-10-02 14:05:07,Arvind Srinivasan,Update patterns_by_usecase.md,False
+e73763f36ccd8699b96ad8b7f17179c5d3a609de,2020-10-02 14:00:27,Arvind Srinivasan,Separated union into its own types,False
+c414a863f5187b74db0bf8679e4ab8dee8f038ca,2020-10-02 13:53:03,Arvind Srinivasan,Corrected Discriminated Union Line termination,False
+4e4dce196f5d3f8b52de865a00ac2091736e2308,2020-10-02 13:47:38,Arvind Srinivasan,Change Typescript to TypeScript,False
+4409f74d256e9886ca1123701e77ff77e12289ca,2020-10-02 13:41:49,Igor Strebezhev,"Replace an image with a table (#316)
+
+That will help to keep the facts up to date.",False
+bb8536e967a56e6861bbf9afd5edd56ab4363f61,2020-10-02 13:41:16,Arvind Srinivasan,Added Discriminated Unions with Hooks Example,False
+ebe68ca6723b80ad44fb053a8829ad6226cb9ac6,2020-10-02 12:14:31,Arvind Srinivasan,"Merge pull request #315 from typescript-cheatsheets/arvindcheenu-patch-readmejs
+
+Fixing TOC Code Fence Issue",True
+ee0358ee64ebe7b75a060a8c6b4141578fcf8fbb,2020-10-02 12:05:33,Arvind Srinivasan,"Changed tab indent to whitespace indent
+
+Fixes issue #303",False
+4cadf500f20ad2d0bce963fd85d8037c3dead78a,2020-10-01 06:58:16,allcontributors[bot],"docs: add arpi17 as a contributor (#314)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+26caec0d7d53092c836bfbd4d3b642b1b9a2ec70,2020-10-01 03:48:09,Árpád Illyés,Add edit URL to docs (#313),False
+ee08e8fd2808ecaab109d0229504fa95b379845c,2020-09-28 04:12:04,swyx,"document extending window global
+
+https://github.com/typescript-cheatsheets/react/issues/257",False
+59f74019649b42792efa09eff816bfeb2f727666,2020-09-28 02:18:00,swyx,Update index.md,False
+f62f4820749107799503a46398da2280bdf4ad73,2020-09-28 02:14:50,sw-yx,format,False
+cae2f58af5b6c3ad042a631e4d5973aeafc2d47f,2020-09-28 02:14:19,Sung M. Kim,Prevent text selection on summary field (#310),False
+07983d6f17d7000a864699d4e300bdba1855aef2,2020-09-26 13:31:51,swyx,Update editor-integration.md,False
+612ac8c9211a571c408e4af03c58d2ad1069aeaa,2020-09-24 21:25:57,Arvind Srinivasan,"Merge pull request #286 from typescript-cheatsheets/all-contributors/add-williamrjribeiro
+
+docs: add williamrjribeiro as a contributor",True
+756deb4ad854f64809d2e1bb64e908b8d57963e3,2020-09-22 07:42:39,Sung M. Kim,Made the expandable content more prominent (#305),False
+e2ea170a80ea9eec39693e8a9b2eda3524865c0b,2020-09-21 21:32:52,Arvind Srinivasan,"Quick fix: Manual correction of TOC (#304)
+
+Will review the code for this and make another PR later.",False
+b0b327829c5ce7f522c7db902536dfb1b3bc2a6c,2020-09-21 19:27:15,swyx,format,False
+64b64cf06ab2b1bf5c5d29fc7bfe1783cd61acd5,2020-09-21 09:55:06,swyx,"fix anchor link in #using-inferred-types
+
+closes https://github.com/typescript-cheatsheets/react/issues/299",False
+a3166946891a7f9035922e20d40070704a0eca41,2020-09-21 07:19:31,Sung M. Kim,Fixed collapsible content indentation (#302),False
+2df25e99a0961f91a092626459765859018d9e8c,2020-09-17 22:08:42,allcontributors[bot],"docs: add ryota-murakami as a contributor (#298)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+509b1db312b6caf368cb2187b2e81de72639ca50,2020-09-17 21:56:39,Ryota Murakami,examples.md: add cypress-realworld-app (#297),False
+dbd7c107cfbd4e24439fb7ea3523ae6b671ae038,2020-09-17 00:37:01,allcontributors[bot],"docs: add dance2die as a contributor (#295)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+ffe767cdac8b8f7b3562bde67586d73ead08102d,2020-09-17 00:29:37,swyx,format,False
+c557a5a93cd73f238dd716c6b0d47249f1ba170e,2020-09-17 00:29:00,swyx,Update full-example.md,False
+0a35ef3d71948a9f3c5ec0956021decd5a56dadd,2020-09-17 00:27:40,swyx,Update utility-types.md,False
+f0fbc5f559e5f47a2ed365d263fa723f168f67f1,2020-09-17 00:27:28,swyx,Update full-example.md,False
+70240aafd3b796ffb229454d732cb43ac7163fd4,2020-09-17 00:25:30,swyx,"fix https://github.com/typescript-cheatsheets/react/issues/293
+
+fix https://github.com/typescript-cheatsheets/react/issues/293",False
+7cb3fdbc6f359ca18c495410de62a67fb3d295bb,2020-09-16 21:26:07,swyx,fixes for https://github.com/typescript-cheatsheets/react/issues/292,False
+3a665fafcd4223d29177c3f8c312ca4fcae0a311,2020-09-16 00:53:45,Sung M. Kim,"Added a function component version of portals example (#291)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+ff3e04e7f9b71ed22c2c54b63c41604dfb8690f4,2020-09-14 19:56:05,Mathias Storm,"change useState to infer undefined (#288)
+
+Its way cleaner this way.",False
+7f021057ce093e90298d80e829009aa889663611,2020-09-14 19:50:26,allcontributors[bot],"docs: add mastorm as a contributor (#289)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+d01eb24586a049fa19eaf9260ec36de8891c825a,2020-09-14 19:49:57,swyx,format,False
+1de149a1e40654f7ad3c11fdece1732b66b55ef7,2020-09-13 02:34:38,dependabot[bot],"Bump node-fetch from 2.6.0 to 2.6.1 (#287)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+02f799ad77d05b22bd900e2b78c04f586a513583,2020-09-11 20:14:59,swyx,use official prettier action,False
+c93489a3410da1ef2973e663c2da889d0e66ac5a,2020-09-11 20:07:01,swyx,Merge branch 'main' into all-contributors/add-williamrjribeiro,True
+1f2ff59381b7da00632d3f6109308a325544ace3,2020-09-11 20:06:05,allcontributors[bot],"docs: add alexandrudanpop as a contributor (#285)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+e78df0342c016e68994aeef2c3d64ac8a4669e37,2020-09-11 20:05:26,allcontributors[bot],docs: update .all-contributorsrc [skip ci],False
+4eedd15053464f7317f6c7a7850cdcddb61489bb,2020-09-11 20:05:25,allcontributors[bot],docs: update README.md [skip ci],False
+c38757a6cd70e61be81f4a8398d0f409b603b24e,2020-09-11 20:05:24,allcontributors[bot],docs: update CONTRIBUTORS.md [skip ci],False
+79a4e086cf982582d9134238d13c3010f4be309c,2020-09-11 20:04:49,Alexandru-Dan Pop,add docs for error boundaries (#284),False
+84bfa8198049a0c288aa61991d90e1d31fe9302c,2020-09-09 20:00:07,swyx,Update utility-types.md,False
+30da3f9ef5e6e2f572aaec14a9b1a24525e3d2ef,2020-09-07 14:50:51,Wei Gao,"add link to DefinitelyTyped React source code (#281)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+af7523e4ac88ee9bb16a7b4dcef8985b21aca4f4,2020-09-05 14:48:04,swyx,Update utility-types.md,False
+28b2d0e9aba498f9c46068c273eddcbb9bd78e8e,2020-09-01 05:08:21,swyx,"fix usereducer example (#280)
+
+so that it is actually usable",False
+5dc51e2ddecda6a69020744ce331f92994f8054d,2020-08-28 15:36:48,swyx,Update index.md,False
+ae505abf7825c0c9785bbb002653879507d20418,2020-08-28 15:35:03,swyx,Update from-flow.md,False
+df1de4a02e1a8c86f91968e7d695d0d0d567fe07,2020-08-28 15:34:18,swyx,Update index.md,False
+4837cf19908cad51c29bc324739a05cae668aa90,2020-08-28 04:19:18,swyx,Update misc-concerns.md,False
+cf951851f7d7028783b79f74663291de40f51c98,2020-08-28 04:03:49,swyx,"Update js-docs.md
+
+incorporate https://github.com/typescript-cheatsheets/react/issues/142",False
+9e58de15faeda557fb648ffaa457ec4535b793dc,2020-08-28 04:02:05,swyx,"Update patterns_by_usecase.md
+
+incorporate https://github.com/typescript-cheatsheets/react/issues/235",False
+4b7f372705e53e360f7e7a44f00369f6ccc9afd5,2020-08-28 03:35:19,swyx,Update patterns_by_usecase.md,False
+73eee4d936021438e73e87285d27846949be9947,2020-08-28 03:32:36,swyx,Update from-js.md,False
+4393e9009849bd01ed45192f146e996893f04726,2020-08-27 18:44:16,swyx,Update ts-config.md,False
+c08b8df3e0b315014898de0a568abc19c71db7b8,2020-08-26 23:20:55,swyx,"test update to docusaurus v2, alpha.61 for algolia docsearch v3 (#278)
+
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+49df823edd77dda7b5c33cd18d0e91f1df6d93b4,2020-08-26 23:10:03,swyx,"update notes on `defaultProps` (#277)
+
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+c8fec1490ae956ee50c353fd88039b80de173c23,2020-08-24 15:35:16,swyx,netlify.toml,False
+2201ceac5ce3195c5e60e69b267bc7a2c9bbd162,2020-08-24 15:06:00,swyx,"address React.HTMLProps issue (#276)
+
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+05bbc55931d3cff948330a98f82ab7a7387135b8,2020-08-23 04:36:17,swyx,fix responsiveness,False
+6bb152e8d0109a888137c624eb832dfea4cfa02c,2020-08-22 23:17:02,swyx,add manual trigger to readme workflow,False
+60372653f2dd1350f087330f46c7000cb18d11c2,2020-08-22 23:12:11,swyx,update discord,False
+8ccb5f4ee53c7819624cabe9d86afd5b5c4c5f0c,2020-08-22 08:08:54,swyx,add discord to page,False
+bb18d84bed67713058f8aadf11122ba036fc9368,2020-08-21 23:18:51,swyx,"address old issues in cheatsheet (#275)
+
+* batch1
+
+* make age optional in defaultprops example
+
+* talk about prop-types
+
+* add useimperativehandle
+
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+928de8d4b01b29779d36612cc3845bdf49752077,2020-08-21 22:52:39,swyx,"add TypeScript Cheatsheets discord (#274)
+
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+9750bd7f6eb934422a2b1dd40a7737213a47a019,2020-08-21 19:06:32,swyx,"document new VoidFunctionComponent type (#269)
+
+* document new VoidFunctionComponent type
+
+closes https://github.com/typescript-cheatsheets/react/issues/268
+
+* Update docs/basic/getting-started/function-components.md
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>
+
+* Update function-components.md
+
+* Update docs/basic/getting-started/function-components.md
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>
+
+* Update function-components.md
+
+* fix format
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+d467788fe6a0e8db13bc3528e3f4c8556a40d59e,2020-08-21 07:23:59,swyx,"reorg Advanced guides (#272)
+
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+417d163b3910a042067db0b6f4be2630109fd3c3,2020-08-21 00:06:27,swyx,"format'
+gpom",False
+39736acb62c00d7975425ff475271970badff6d3,2020-08-20 23:59:58,swyx,"add record type example
+
+closes https://github.com/typescript-cheatsheets/react/issues/247",False
+1eafe42bc411c4f14fd298fc8a9ab4921aaa8e0d,2020-08-20 23:54:54,swyx,Update context.md,False
+4d3cf61143c9b50b990e4171fede2589d609d6df,2020-08-20 22:40:17,swyx,Update types.md,False
+28506bf42ef6f700b27cf27f93808cec304d30a4,2020-08-20 22:40:00,swyx,Update types.md,False
+671046fceafa55e271bba6fcdc288120eb6acada,2020-08-20 22:25:37,swyx,Update from-js.md,False
+924e32e2662c4c89716cc8b1fe4c2b66607ff649,2020-08-20 22:13:09,swyx,Rename .github/workflows/stale.yml to .github/stale.yml,False
+4f7b67aa1401949aacd00b0deec60e944a856e14,2020-08-20 22:11:27,swyx,Create stale.yml,False
+3100ee39c8df9b1f7d84c2636716ec519831ca63,2020-08-20 20:47:06,swyx,Update examples.md,False
+9c879e9704defad4870d463f320ee06167236564,2020-08-19 15:53:41,swyx,Update from-js.md,False
+8b96e976c4c2666d02b678fd61c86064e8f27c60,2020-08-17 19:18:58,swyx,fix format,False
+cd3ed2e2389c651e6794b1681870f7cac418d121,2020-08-17 19:18:20,allcontributors[bot],"docs: add arvindcheenu as a contributor (#267)
+
+Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",False
+728b1e295d904a58f88b29bdd35f197e9660958b,2020-08-17 18:58:44,swyx,Update general-react-ts-question.md,False
+4956423486cccc67af924680a2243459e1e89f91,2020-08-17 18:58:29,swyx,Update basic-cheatsheet.md,False
+e7973ed306a66fe7321a468df36213166d35e1b1,2020-08-17 18:56:32,Arvind Srinivasan,"Automate basic documentation in README.md (#264)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+b90afef4a69a212789b54ee288b76df727b1b562,2020-08-17 14:48:08,swyx,fix format,False
+1b352c3de349ea6e594bd0114014832790a652a0,2020-08-17 14:47:21,swyx,"add more notes on @types/react exports (#266)
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>",False
+20d59a6f2f9cdfb0a16df1fe3f5a9021214d9907,2020-08-17 03:40:59,swyx,add recursive conditional types,False
+8dcfe667d3f00a25a4c675d485824a38dd4bc66a,2020-08-17 00:21:44,swyx,wow this spellcheck is so brittle,False
+843200836b168332d31e3c991a883d49dbcaf3f8,2020-08-11 19:07:09,swyx,"temporarily disable danger spellcheck
+
+ until we can figure out our own settings",False
+39eba7881f709ba9075bfd3b8eff4950c1899b87,2020-08-11 19:05:11,jlei523,Clarify how to type the dispatch function from useReducer (#263),False
+a2f739a546f7ec26c796167aa7a14f79551aa068,2020-08-10 17:26:37,swyx,Update other-resources.md,False
+c7b351a7b08d37e5e29d4c42b61d12a6462a3d88,2020-08-08 05:54:12,dependabot[bot],Bump prismjs from 1.20.0 to 1.21.0 in /website (#261),False
+f5f63ae57b7000dca5b77df50f46504954b4ab48,2020-08-07 21:53:16,swyx,Update index.md,False
+7902bf063d5202367d70fe293600f309d5c90bd0,2020-08-04 00:57:55,Arvind Srinivasan,"Update README.md with Troubleshooting Changes (#260)
+
+* Update README.md with Types
+
+Added changes to Troubleshooting types from #254 to README.md
+
+* Update README.md
+
+* fix prettier
+
+Co-authored-by: swyx <wanshawn@amazon.com>",False
+da85af250c99af9a6694f0b32ffbdf772730ffc8,2020-08-03 01:30:47,Arvind Srinivasan,"Troubleshooting : Type an untyped module (#254)
+
+* Troubleshooting : Type an untyped module
+
+Added Docs for Exporting types for Untyped libraries. PR for the Issue #245
+
+* Updated Readme for Troubleshooting 
+
+Updated Readme for Troubleshooting for the issue Typing an untyped library. Addresses issue #245.
+
+* Changed to appropriate Language Format
+
+* Updated Readme Troubleshooting code formatting
+
+* Update types.md
+
+* Update README.md
+
+* Update docs/basic/troubleshooting/types.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>
+
+* Update README.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>
+
+* Update README.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>
+
+* Update README.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>
+
+* Typing an untyped library
+
+Explained workarounds and possible solutions for typing an untyped React Hook or a React Component with Code Examples.
+
+* fix formatting
+
+* tweaks
+
+* fix typescript spelling
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+221d2b9aa0ba10bac3a595f9c22729888d1a7a90,2020-08-02 13:15:36,dependabot[bot],Bump elliptic from 6.5.2 to 6.5.3 in /website (#259),False
+6fb9086c1049f0781fa934e035a3f1c9ffb238d1,2020-07-29 04:17:32,Stefan Baumgartner,"Add my TypeScript + React guide, videos (#256)",False
+6c73f040c1de5bd38449fb93e64068384b71aacd,2020-07-20 16:19:56,dependabot[bot],Bump lodash from 4.17.15 to 4.17.19 (#252),False
+e08aa9528a25a20032f6df212d7825cd146c2e06,2020-07-20 16:17:11,dependabot[bot],Bump lodash from 4.17.15 to 4.17.19 in /website (#251),False
+7b8b941cc77c288bf94f92b45faa9d190cfe794f,2020-07-19 21:17:24,swyx,add TS 4.0,False
+649547c6df8c74a723f1e965bcdbcc9c34699d4c,2020-07-16 17:24:43,Ihor Dotsenko,Fixed 'Table of Contents' in README.md (#250),False
+0ce7c4cb33211e1f003e0ddb05119f1485a20c3d,2020-07-14 20:16:39,Rahul Gupta,"Add usage with Reducer<State, Action> utility from redux for writing … (#249)",False
+0c3d83175a60d32bb128f2036237ba7ecf043624,2020-07-01 08:27:28,Taylor Allen,fix(docs): fixes hoc cheatsheet link in guides section (#244),False
+18c5a39ca88f97af1dd5c75b5f98749c3b4c5920,2020-06-30 08:51:06,Max Metral,Fix semantic error around the prop check (#243),False
+7c9559d33f8cf8a2a96c3ec3c95c71183c5c7c74,2020-06-24 01:55:16,Mark Chandler,"fix(advanced): remove typo from component type (#242)
+
+This PR removes text that appears to have been accidentally pasted in the middle of a type.",False
+ea2e7f5db3294646f6c837b12076d62cdc11a5a1,2020-06-11 20:58:39,Sebastian Silbermann,"Revert ""Update example for children type that accepts anything"" (#241)",False
+2dc6e6496c63f5c2ca6696f56a6883b607916a9c,2020-06-11 18:33:39,swyx,"Merge pull request #240 from flybayer/patch-1
+
+Update example for children type that accepts anything",True
+fae8d52a18334209061a6dd87eb9888d75e690b8,2020-06-11 10:52:34,Brandon Bayer,Update example for children type that accepts anything,False
+aad9da1f5110a4c80fd4ee9dd12f788166e83466,2020-06-10 21:14:53,Wang,fix prettifying previous commit,False
+0b01c2a9526d5f804199e04dd9d6401984eb9980,2020-06-10 14:01:02,swyx,"update hooks page for #238
+
+closes https://github.com/typescript-cheatsheets/react-typescript-cheatsheet/issues/238",False
+4aee329e72ada00e473706d74f117be8804d95f6,2020-06-09 03:25:07,swyx,Update types.md,False
+a533a49aedf1645d7050d81dc423380f5dd76c1e,2020-06-09 03:23:47,swyx,Update operators.md,False
+42e676a16f6e610db515dc4aa6b77d7e5e727f83,2020-06-08 13:16:51,dependabot[bot],Bump websocket-extensions from 0.1.3 to 0.1.4 in /website (#237),False
+230fb013f3858ece46f032db62e7af70d9910ffb,2020-06-03 23:39:17,Sébastien Lorber,"upgrade to docusaurus-v2 (#233)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+d7c02e3e49b252a2c6f52a17575896874cbb2d4c,2020-05-27 13:07:06,Ryan Zegray,Fix links to new TS docs (#232),False
+5672a86cd407873c8364e918f701ba9b10546c9b,2020-05-18 20:04:26,Rafael Almeida,Fix README links (#230),False
+77a3781f415197e58069079c1dd207ce96eca0e3,2020-05-16 17:43:04,swyx,fix formatting,False
+38f12650e3c611575f63e4513a93b55e65874b67,2020-05-16 12:50:14,swyx,add dropbox migration,False
+2bc9955256c3fc7fe4f7228764474e90ef498a33,2020-05-15 00:31:21,swyx,Update index.md,False
+96e0c86fa08805d5eed1e01f169c8328857e9cde,2020-05-14 21:12:51,swyx,Update index.md,False
+587973c68879a47ba746f4fc4c69383a14d9d32a,2020-05-14 16:30:32,swyx,Update index.md,False
+3a061afe9b79b0245d61e2278e3dc8f4052aca6e,2020-05-14 16:24:06,swyx,Update index.md,False
+0300e7d50c606aecb907631dc58bc877328b9c1d,2020-05-13 17:51:17,swyx,React router v6 migrated to TS,False
+09ff8a1d460fdd657aaa97bb8b1deac9e66dc1ea,2020-05-08 12:54:37,swyx,fix prettier,False
+e0a2a10efe2c5ab52f5edfc8a4afd554080e3700,2020-05-08 12:50:07,swyx,Update index.md,False
+61a78ff548acaf13f8d086f126c17df78df8bc41,2020-05-06 23:45:01,Mike Hurl,Default props deprecated (#227),False
+e628a10f56c6644ec841f420d9aa75363d3b1f62,2020-05-02 19:46:00,swyx,add ts 3.9RC,False
+06ef25ce5130d207b015390fb65be2e8f61309ff,2020-05-02 19:36:13,swyx,Update misc-concerns.md,False
+45955be5e78c706be4a2b3dac174319c1dd4c3ba,2020-04-30 21:41:46,Orta,Adds danger for spell checking (#225),False
+083240b5e2319bf142f486297ebb922f2093d899,2020-04-30 21:39:57,Orta,Fix casing for TypeScript (#224),False
+a2610df1032878b37e24f3f97f2d9332c7613599,2020-04-30 14:31:22,Krisan Alifari,Fix site url link color (#223),False
+e6b3a492ca4249e6688bd00e5c285d320fa423ca,2020-04-29 21:47:16,Manuele J Sarfatti,docs(hoc): Use function component as example instead of class (#221),False
+d56b0349008ab2ca0331c300ecddf16430c29211,2020-04-29 20:21:46,Manuele J Sarfatti,docs(hoc) Use Omit instead of Optionalize (#222),False
+8e7cb3bd02f48f588d31e1ef885ebc1b7b375dde,2020-04-21 17:56:00,Manuele J Sarfatti,"Clarify the ""types vs. interfaces"" dilemma (#220)
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>",False
+5b9b98c633a76541c2ea3f8a20b1ce3882765241,2020-04-21 17:50:52,Sebastian Silbermann,chore: Format code,False
+aae81755719c893fa5cf08aed1236a0b2d06f3e9,2020-04-20 03:26:04,swyx,add algolia config,False
+acfa16e8c3584fa2d26cd651b1bd22995fb09050,2020-04-19 16:28:39,swyx,Merge branch 'master' of https://github.com/typescript-cheatsheets/react-typescript-cheatsheet,True
+b66899c79cd2b0d9406c73ac9d6bb1312856ac16,2020-04-19 16:28:26,swyx,Merge branch 'master' of https://github.com/typescript-cheatsheets/react-typescript-cheatsheet,True
+4a4655202c193610daadece1498dd6f2da8f08eb,2020-04-19 16:24:02,swyx,Merge branch 'master' of https://github.com/typescript-cheatsheets/react-typescript-cheatsheet,True
+175b1e41949abaf9e365bc03c34ae6c32c1a9699,2020-04-19 16:23:32,swyx,Merge branch 'master' of https://github.com/typescript-cheatsheets/react-typescript-cheatsheet,True
+5fa0bd7f5b460ad3aa0a72a6a444332fc2c64a2c,2020-04-19 16:21:50,swyx,Merge branch 'master' of https://github.com/typescript-cheatsheets/react-typescript-cheatsheet,True
+0bf676ebe5d908fb853958d15aa92f1165b30e51,2020-04-19 16:21:38,swyx,cleanup docusaurus for netlify deploy,False
+ea000da35162726dc9bbf9ff7d5f763b9157b91a,2020-04-19 15:39:23,David Johnston,"Update excluding-props.md (#219)
+
+* Update excluding-props.md
+
+Fix the final HOC snippet by adding type coercion. See this Github issue: https://github.com/microsoft/TypeScript/issues/35858
+
+I also change the return type from ReactNode to JSX.Element - see: https://stackoverflow.com/questions/54905376/type-error-jsx-element-type-null-undefined-is-not-a-constructor-functi
+
+
+TS Playground for this fix here: https://www.typescriptlang.org/play/?strictFunctionTypes=false&jsx=1&ssl=1&ssc=1&pln=47&pc=49#code/JYWwDg9gTgLgBAJQKYEMDG8BmUIjgIilQ3wG4AoczAVwDsNgJa4B3YGACwHkXakoAFBF78AXHADOMKMFoBzAJRwA3uThwiMalGY16MRswA8AFThIAHjCS0AJhJVxhfKOKkz5cAL4A+AWvU4AGFcSD5aGHFkdBgAOhDwJhsYEwBPMCRTHwClVUCNJC0dOD0GJjgBMBwwCXEuEHZTABoCZ358HyVxACkAZQANWIBRABskEGSVAPyAehmAQTgYdKQ4NAh+NEM4YAc+NDQkCQkUKFS4ACMkNBRqCVW0jN60GTB4Ww2JWgByeABrWjCJYcFDwTireqNEwtfBtKAdOAAahUcPEsXRXjgAF44CZpoF1rQpHA+CwAArVBw45RwdGxKoQGotOHeOAoBwmCj5dSabTGBJhSbKOmkimMiSYmY+LmBLwyuXkLyUZYZYKgsU1bFTdQjYAANyO4lo1BAVygMtRkmksjkFAVpQM5SCoIENN1BokzJEUG84mdMA1ElyAV5xX8+SMtn12W5KnwBCVsYAskhhOJlO6jl4WjwXOm4YnAkYZlG9TG4Ao7ZRCcTc0hbP6tWxOHXBPgJCxUhZ8AoBP7K5QjI3MxIscoAJyYuFY9ud7twKWkBczYG7SQcCDUEa2S6rTCyJDkIx1huguAjseTpzemcdrvxxfL1cOCQbrc7kEGtlLFZDKA4KAjxPYd9SOS9JWlJ9ODXV9N23XcSgPShyBVVYABEIDkQNtRJFAJjca15ACS13BtRUqDoMpmAwuRXVoPCkC9FwvHEGjA2DHlCj5OBI2jOAAHUIAgTB03oiZszgVt829Lxi1LbIlRreATxopt2G4b0BFne9exogdB1UsSkBnfcPnjadtPnR85mfdc4J3K5EL4ICRFsQyGJM4AzOvFxbznB9IJs6CXzfeDP1WFAfwyP8AJcvg3Mw3CJk87zrJXYK7PfBD9z4IA
+
+* Update excluding-props.md
+
+* Run prettier
+
+* Update excluding-props.md
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+0383d7d1b4036aba26833ee0b7c5834a0b83f258,2020-04-19 15:30:04,Raul de Melo,chore: remove repository name filter (#217),False
+fa9c0f02405e8e53bc245c5f5182d9e95361fb7c,2020-04-13 22:36:17,rakeshshubhu,"updates read me lists uppercase first and adds full stop. (#215)
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+2e0173ee9bace5e62b48b61043bb9e22950e2770,2020-04-13 22:32:24,Raul de Melo,"WIP: Implement Docssaurus (#214)
+
+* introduce web docs with docusaurus
+
+* tweak footer
+
+* add migration
+
+* add HOC
+
+* clean readme
+
+* remove pointless buttons
+
+* rollback prettier action
+
+* enable changes on docs trigger deploy
+
+* package json cleanup
+
+* setup cache for prettier check
+
+* remove redundant title",False
+bd3e2a6c213932fbf0cec6befea4fb90457714ab,2020-04-02 13:05:07,Sebastian Silbermann,"chore: delete package-lock.json
+
+Follow-up to #210",False
+494135bade351db901ad8db2b85b7f22771a97fb,2020-04-02 13:04:04,Timothy Ogbemudia,"Using an empty object as default state with React.createContext (#210)
+
+* added Context API implementation
+
+* added Context API implementation
+
+* fixed different prettier setup issue
+
+* added context implementation
+
+* attempted prettier fix
+
+Co-authored-by: swyx <shawnthe1@gmail.com>",False
+f34640133cb5b570d163d7e00ed258253a86c8ad,2020-03-30 12:49:17,Sebastian Silbermann,chore: Bump prettier to 2.0 (#208),False
+d3e954005b26229e80295cbe183a827ddb101889,2020-03-26 14:01:38,Sebastian Silbermann,chore: check format with actions (#209),False
+a2180e2a44fdef9fde4ad7c8b2595dd478e66161,2020-03-26 09:14:48,prettifier[bot],Format fc32b2a,False
+fc32b2a2c4c8e76de7117197b7ee010cedd23cc8,2020-03-26 09:14:41,swyx,"Merge pull request #195 from DanielRosenwasser/motivation-for-context
+
+Provide more motivation for the `useCtx` helper",True
+30337af3dcb35c173ca37f6dbbe6b27ee1b7be61,2020-03-26 09:14:12,swyx,add non undefined assertion example for createcontext,False
+2fc481062662153b146d752caf0f62321245da6c,2020-03-26 04:14:00,prettifier[bot],Format af5fcd0,False
+af5fcd0d1ae4c44adaa788c75c27ffedf472b9fe,2020-03-26 04:13:53,swyx,"address React.FC and React.FunctionComponent equality
+
+closes https://github.com/typescript-cheatsheets/react-typescript-cheatsheet/issues/190",False
+1ab7dd2c33055eace383cece63a67e95ab08dfc1,2020-03-25 02:24:47,Aziz Khambati,docs(advanced) Correct the section about discrinated types (#205),False
+dbbd8020c7e4d52a614ac2fd9f7c851b8b542ab4,2020-03-25 00:16:05,Dávid Szabó,docs: Fix basarat links (#203),False
+b153551c96ea099e0b0384735d0e35bb23ac76f9,2020-03-25 00:14:26,Juan Je García,"docs: Update useful React Prop Types (#204)
+
+I believe this sentence was suppose to say `strings` instead of `functions`. Functions are not valid React children unless you explicitly mean so for a children function.",False
+df4642a5c866f375e35e835d60982223d0bc6584,2020-03-20 21:31:16,Noskov Artem,"fix(advanced): Use correct comment syntax (#200)
+
+* Fix typo in ADVANCED.md
+
+* Fix prettier warning
+
+* fix(advanced): Use correct comment syntax
+
+Co-authored-by: Sebastian Silbermann <silbermann.sebastian@gmail.com>",False
+019ec5bd1b6faed3cbb8bac99bbc210f1489c6b8,2020-03-20 21:21:21,Sebastian Silbermann,"fix(advanced): Fix syntax errors revealed by prettier (#201)
+
+* fix(advanced): Fix syntax errors revealed by prettier
+
+* bump prettier",False
+d64f57aa306ba7df711af72617560644814d367c,2020-03-17 15:24:16,Dávid Szabó,docs(readme): Fix type branding link (#198),False
+884f20355eb830e1d03303786a140c1862ab0e1d,2020-03-15 19:54:23,Ryota Murakami,"docs(readme): Update Example App name (#197)
+
+´",False
+9b72bf4ba10945527cf69ee91e401306446fae9d,2020-03-13 00:56:21,swyx,add Heap's migration story,False
+223a2c02daea5b04d84ca12eb8c1c3d208a40440,2020-03-09 06:58:17,swyx,strict null checks blog post,False
+c64d0e3685cd0e10787fb44014912fbc9773d5b1,2020-03-09 06:35:40,prettifier[bot],Format 634ea53,False
+634ea53756a646fc9bbb18e46498b5c15fd134ad,2020-03-09 06:35:35,swyx,add migration of history package to MIGRATING. MD,False
+1c1f76ff928d3121c4419aa986a96673afa40fee,2020-03-06 07:39:59,Daniel Rosenwasser,context-motivation,False
+426b49ff0e358e75c5d8a6b4a4b2a8181a26c94d,2020-03-03 23:02:22,swyx,add polymorphic components links,False
+9875ef58034ccc44536389e15b2a74b3718b4e29,2020-02-29 07:04:00,swyx,add react router to MIGRATING,False
+7013c874c9016dc4db0ca27afca96ab401ecaafa,2020-02-26 19:17:34,Oren Zakay,"fix: Incorrect displayName HOC.md (#189)
+
+* the HOC name is `withTheme` :)",False
+47bd9f49fb850ff990ecfa4d1e6faa18cfea26c8,2020-02-21 22:23:48,prettifier[bot],Format 859e012,False
+859e0128f47ed1f6084b63482571a383bb329016,2020-02-21 22:23:42,swyx,add TS 3.8,False
+16dd78c8731a5079d69ed4279f60eefc203d23f2,2020-02-12 00:42:48,swyx,"Merge pull request #186 from ryota-murakami/patch-1
+
+Update React TypeScript Todo Example 2019 -> 2020",True
+e78489444dbe11d68df015c7525de7ee16929a6f,2020-02-11 16:02:12,Ryota Murakami,Update React TypeScript Todo Example 2019 -> 2020,False
+32d6f46c400442a44132ac8624cf321ad7fc200e,2020-02-07 22:22:15,Shu Uesugi,"Add chibicode's TS tutorials (#174)
+
+Co-authored-by: Lauro Silva <57044804+laurosilvacom@users.noreply.github.com>",False
+c836c6fae155d64878a8ea818cc3b0176d6d6aa4,2020-01-31 15:20:33,Aziz Khambati,"Merge pull request #182 from denis-sokolov/patch-1
+
+Fix inverted condition in the <a>/Link example",True
+cb6ffa8a22c32c3e7a94a5f84522c7bb49ced725,2020-01-28 11:52:44,Aziz Khambati,"Merge pull request #184 from ryota-murakami/ryota-murakami-patch-1
+
+Fix TS Official Docs Link about Discriminated Unions",True
+f620b3d8d16fd64b47089241d48405661921836b,2020-01-25 19:45:23,Ryota Murakami,"Fix TS Official Docs Link about Discriminated Unions
+
+Original url is missing `#discriminated-unions` hash fragment identifier end of string.
+So our browser can't reach **Discriminated Unions** section in the **Advanced Types** page.",False
+b638f6176dc596e63fc7597f494cbdfab343250e,2020-01-25 19:06:06,Denis Sokolov,Fix inverted condition in the <a>/Link example,False
+39fe10459a9ab119010e083ad81bda71e5f28869,2020-01-24 20:13:08,swyx,Update MIGRATING.md,False
+adf4a8b31da1430e9ae48069468c5ea75831efee,2020-01-24 06:58:52,swyx,"Merge pull request #180 from snutij/fix/issue-178-docz-propstable-link
+
+fix(178): edit link for docz propstable",True
+628c53eed1e46363a7f3aaa69184b7267dd75939,2020-01-24 02:30:09,JustinR-FR,fix(178): edit link for docz propstable,False
+aac4c6f9c79542c848d09a3e0b5049073b787614,2020-01-21 13:43:50,Dante Calderón,docs(advanced): Remove linting section from TOC (#179),False
+c9f90078be9b676879ee5b66328d2b27cf8af5ab,2020-01-17 20:53:52,swyx,add eslint + prettier gist,False
+974cf33d3e380eea4c8fbcbf1a5c1c7e8d952a1e,2020-01-16 08:52:12,prettifier[bot],Format 7de49a8,False
+7de49a8f6bd411a254be8762ccd736c1627f3801,2020-01-16 08:52:04,swyx,"Merge pull request #177 from laurosilvacom/master
+
+Adding links to Spanish repo 🔗",True
+5fd9d528b58a6e24ea20f2ffa65433cb383487ce,2020-01-16 04:27:33,Lauro Silva,Adding link to spanish repo,False
+d945a24a8fd81e4c983cee7889f60ebee7d8e534,2020-01-15 23:59:50,swyx,add new boilerplate,False
+99287de937aa340d20b1ffdfef907494b875b1b7,2020-01-14 02:20:32,prettifier[bot],Format 39ddfa2,False
+39ddfa2c6331717abfb6001824f7778c169f956e,2020-01-14 02:20:24,swyx,"eslint: recommend explicit-return-types (#176)
+
+eslint: recommend explicit-return-types",True
+886f5964e8dc170be7457f8de700fd291ab7e859,2020-01-08 18:53:59,swyx,Update MIGRATING.md,False
+ff84ac6b0f4cba326bc794aced028e70aad7a4cd,2020-01-08 18:26:35,swyx,add dtslint,False
+13df158a55149567d0aa60e19971094e2543ce10,2020-01-08 18:24:13,swyx,add netflix,False
+eb77abea8ce945043820e230b584d7129b56c323,2020-01-05 23:14:17,prettifier[bot],Prettify ADVANCED.md,False
+e60c381b154f7f623e2cec5fe641e6afd5ddba7d,2020-01-05 23:14:02,JavaScript Joe,feat: move linting to README,False
+acd0891356b98d40e394b3d7bf2de68bddb3e129,2020-01-05 10:19:26,prettifier[bot],Prettify ADVANCED.md,False
+72011e86c0b2a051f04c32352ad064ef8d82a191,2020-01-05 10:19:22,swyx,Update ADVANCED.md,False
+58d3c6a6c8f3d05f06c4cec2354aafe72206a7e8,2020-01-04 08:42:30,JavaScript Joe,recommend explicit return types,False
+ac018eb0e19f49b90a30fc052c3a6769a2ba1975,2020-01-04 05:57:02,swyx,add strong recommendation for ts playground,False
+9c81e5cc33d88cbcc759366f7b3f0ea8e2aba41a,2020-01-04 05:50:40,swyx,Update MIGRATING.md,False
+b39ea90322f52fc666d09552c800685c0597e212,2020-01-04 05:27:54,swyx,add note on `infer` keyword,False
+20ddc77425b9798add240c0b4d1707ee1d0820f4,2020-01-01 00:32:41,prettifier[bot],Prettify README.md,False
+b402feda6830bc115e94681bde57d8923bfbf012,2020-01-01 00:32:36,swyx,add link to ts docs flags,False
+dd6e9a8f48c61736813eb2d039a9c180633e70bc,2019-12-23 22:12:30,swyx,Update ADVANCED.md,False
+ce988dc3d0f445a2961e615c6656b93ae5b05124,2019-12-23 14:14:28,swyx,"chore: add hooks anchor (#173)
+
+chore: add hooks anchor",True
+47df58b83b71caaad0bfcfe37cfaff0bec16cac8,2019-12-22 20:05:13,alvinhui,chore: add hooks anchor,False
+314d3a67f7e3354d420532eb8caa8813a622a777,2019-12-20 23:13:19,prettifier[bot],Prettify ADVANCED.md,False
+d2920e9132ab6fd2b8b860a7e940c018ac5e8167,2019-12-20 23:13:15,swyx,add notes for TS 3.5 and 3.6 and 3.7,False
+18ba9e019891aa0dae16973eaf2f8299edf39dae,2019-12-20 22:37:15,swyx,swap out tslint for eslint in basic hadbook,False
+ba1954752151ef9ce864283cda03ce2dbd30e2cd,2019-12-17 20:11:31,Ferdy Budhidharma,"Merge pull request #172 from dantecalderon/add-sintax-highlight-patch-1
+
+Add syntax highlight for js code",True
+4b152dd6bd77cc4ffdae0da095fd349a4c6a599f,2019-12-17 09:44:45,Dante Calderón,Add syntax highlight for js code,False
+106672b200dd338aa0c6d9d4e9fd08692d989d44,2019-12-15 14:18:03,swyx,"Merge pull request #171 from typescript-cheatsheets/jsjoeio-patch-1
+
+docs: update discriminated union link",True
+b7286e92b6793f55d4cabff7571c2e1581b9f319,2019-12-15 03:20:30,JavaScript Joe,Update README.md,False
+996d1c81231d04237e5106e72a00ced3a28799d5,2019-12-13 20:09:36,swyx,Update MIGRATING.md,False
+6b519ad94be07feb4ce1f72d4705e72f62a30a80,2019-12-13 19:57:05,swyx,Update ADVANCED.md,False
+9548e64bb2a8a106d5d2f22362d42b96948db577,2019-12-13 19:53:33,swyx,Update ADVANCED.md,False
+79bba713b98cbaa98b7c22f22d2a78d230ce5399,2019-12-13 19:53:21,swyx,Update README.md,False
+a3e5f4dbacafe9ac5d300c402945b05e60b8ff0e,2019-12-13 19:52:37,swyx,Update MIGRATING.md,False
+e54491e0ad6dfdf1c6d80a8e38afeba44a01c20e,2019-12-12 12:17:22,swyx,Update MIGRATING.md,False
+d01365db1099718292f7ad9dd24188b29db6b6fb,2019-12-10 01:30:34,swyx,"fix: remove unnecessary alwaysStrict flag from tsconfig.json (#170)
+
+fix: remove unnecessary alwaysStrict flag from tsconfig.json",True
+de2df7158e62f8c687e9ff943350ae2d77b3d5d6,2019-12-08 23:01:15,JavaScript Joe,fix: remove unnecessary tsconfig option,False
+41cbcbeebf28a55e8be912ae687866e3acff71ac,2019-12-06 11:38:12,hazem osama ibrahim,update CRA TypeScript template command (#169),False
+ca1f16cca58dbf3a83decd6812f8d839bb5ddc5e,2019-12-04 14:17:57,swyx,spanish translation!,False
+efc4b9d8ff9024b75381beeb7e182e1810bdcc5c,2019-11-28 14:26:27,swyx,"add forwardref note 
+
+https://github.com/typescript-cheatsheets/react-typescript-cheatsheet/issues/167",False
+37a227a0d9fa2564ad07fa99eec916429db0cc89,2019-11-27 11:19:30,swyx,Update MIGRATING.md,False
+3a66bc0e22d12873333c207f702c057fe6b08ca3,2019-11-25 12:04:10,swyx,Update MIGRATING.md,False
+88872dc92b9f1005a3286e54caaa36578d3469ec,2019-11-25 09:54:37,prettifier[bot],Prettify README.md,False
+e5a15a2b4e45eef344903e09cae9ec7dcf069246,2019-11-25 09:54:31,swyx,add new type extraction tip,False
+f81211ed2e602a9c506573ae55b6f5e3543977f4,2019-11-18 08:45:38,swyx,update recommended tsconfig for apps,False
+be9cb476fa176ee6f0b03f3ff0b5d77cc23311f3,2019-11-06 05:27:10,prettifier[bot],Prettify ADVANCED.md,False
+9d25f304e84a223c7b3781aed7ffbb9e7b416dce,2019-11-06 05:27:06,swyx,"Merge pull request #166 from bryceosterhaus/master
+
+Add section for namespaced components",True
+67bc07fdb1fbbeff1483b4825b710b32a71444aa,2019-11-06 05:26:39,swyx,add attribution,False
+ecdced39adf517862adc83a4dec5fb2df896dc8a,2019-11-06 04:00:06,Bryce Osterhaus,Add section for namespaced components,False
+fa4ef3053f233abb8bc7963b227af2fa22841521,2019-11-04 05:06:11,swyx,"Merge pull request #164 from dkozickis/fix-matterhorn-link
+
+Fix link to Matterhorn",True
+969a02ce6d37b95c933c07df9f97070351300918,2019-11-02 16:23:51,Deniss Kozickis,Fix link to Matterhorn,False
+67d52ffc8ddf715faebcf6cafc89d425083a220e,2019-11-01 07:30:08,prettifier[bot],Prettify README.md,False
+0d70c4a37d33e44c7aad7b1040193b0efa3dd3dc,2019-11-01 07:29:59,swyx,"Merge pull request #163 from markguckian/patch-1
+
+Add missing type alias in useReducer example",True
+a400a4ca2cff39004791ed468d19a5777b7e23a2,2019-11-01 04:59:21,Mark Guckian,Add missing type in useReducer example,False
+d6c032638c20a39075ec58c48bc77da6bae7f95c,2019-10-31 20:59:58,swyx,"Merge pull request #162 from gnbaron/master
+
+Add utility types link in HOC cheatsheet",True
+95640a5186161659ad1fe349b81d02d32c95aa22,2019-10-30 23:27:34,Guilherme Baron,Add utility types link in HOC cheatsheet,False
+5d074c002b7f466cdda9196b6b91cc179e6edd16,2019-10-29 19:11:47,swyx,"Advanced Generic Class Components & getDerivedStateFromProps (#158)
+
+Advanced Generic Class Components & getDerivedStateFromProps",True
+da1acfe99a038b50f4392ee69105df1c79dca61a,2019-10-29 19:11:12,swyx,"Merge pull request #160 from matijs/patch-1
+
+Fix typo",True
+d0aa24aba00aa043dd7f7bd0ca9e21e9cdea9961,2019-10-29 13:47:39,Matijs Brinkhuis,"Fix typo
+
+`NavLinkProps` did not exist in the example.",False
+4a63510e70871e416ad877b5c2a828a5d2f5a111,2019-10-25 09:06:51,Aziz Khambati,extends unknown,False
+9674a0aca4625ec7366a30b6238e812c3aadb7e6,2019-10-22 15:40:20,Aziz Khambati,T -> Generic Type,False
+28217c3f784748d353dbebf18fbc0dde55c3ec24,2019-10-22 13:16:23,Aziz Khambati,Advanced Generic Class Components & getDerivedStateFromProps,False
+2103006b89774d31877ed2e579cda2844d303c1f,2019-10-22 01:51:16,prettifier[bot],Prettify ADVANCED.md,False
+47ebb39155a957f9bedfdf8ea7c2afdaf3f40b6a,2019-10-22 01:51:09,Deniss Kozickis,docs(advancded): Fix format due to syntax error (#157),False
+3a7a53e0174fc22fdb53b85ffff9755a2a37c36e,2019-10-17 04:18:52,swyx,"Merge pull request #156 from gnbaron/master
+
+Add another flow migration resource",True
+c23a61c44f963dd585f860cb2345955c478ffa17,2019-10-16 23:02:54,Guilherme Baron,fix: Khan/flow-to-ts link,False
+78ef3db947b9279bda0f31872b7c240d1e3d43de,2019-10-16 22:51:13,Guilherme Baron,docs: update ADVANCED.md,False
+141e55465846396cdb6b38159c560be8cb96896f,2019-10-13 22:13:21,JavaScript Joe,"Merge pull request #155 from typescript-cheatsheets/jsjoeio/issue-134/add-links-ts-playground
+
+feat: add links ts playground",True
+4e43128aa400dd16682ee114bcb30fa8c46cc518,2019-10-13 21:02:31,Joe Previte,fix: update CONTRIBUTING for TypeScript Playground links,False
+714861792f122912ce77e4b0d9a3427fc0fd6ec4,2019-10-13 20:55:59,Joe Previte,fix: update links in HOC,False
+9631ce33a9ca14914743986e58d5788ea08faef3,2019-10-13 20:51:08,Joe Previte,fix: update links in ADVANCED,False
+fba06bac207003f3692cf9b236816e0cf4b09df3,2019-10-13 20:42:27,Joe Previte,fix: update typescript links,False
+7e3969124b7a63c093c3a2e87add359faabc2ef5,2019-10-12 05:11:13,Joe Previte,fix: update contributors badge to show number,False
+b20cf0efa14f6aebe046e52c6811c8f29bde39e6,2019-10-12 05:11:13,Joe Previte,feat: add jsjoeio as maintainer,False
+c27dee59210df69365cd72feb908e5bda5d20290,2019-10-12 04:28:18,prettifier[bot],Prettify README.md,False
+fa5fea4632bad41e39722423cd459bb9be04aab4,2019-10-12 04:28:14,prettifier[bot],Prettify HOC.md,False
+ee797a9b898e70ea9e6635860344d87dfbb50ff1,2019-10-12 04:28:13,prettifier[bot],Prettify ADVANCED.md,False
+b35c7cfee1a0bf22ba8e07f7b11823d06c10d83c,2019-10-12 04:27:59,Joe Previte,feat: add ts playground examples to HOC,False
+c207ba4af31677e714e11fb952fce30dc9354db9,2019-10-12 04:16:30,Joe Previte,feat: add ts playground to examples in ADVANCED,False
+09d20c2e940f7fc3691d80bc895184b49847e595,2019-10-12 04:04:10,Joe Previte,feat: add ts examples to README,False
+329c0a83f703eb60064041b7cf57fcde05853cc6,2019-10-09 02:56:58,swyx,"Merge pull request #154 from typescript-cheatsheets/all-contributors/add-andreasgruenh
+
+docs: add andreasgruenh as a contributor",True
+f87c7df1df5551d1208e9b7104d5126f8e3b78bc,2019-10-09 01:36:10,allcontributors[bot],docs: update .all-contributorsrc,False
+187e316529d851c5ef12c2ac9618a597332bbd72,2019-10-09 01:36:09,allcontributors[bot],docs: update README.md,False
+8ec722ecec9f9c57bb3f3bfca1da36d042bafa3f,2019-10-09 01:36:08,allcontributors[bot],docs: update CONTRIBUTORS.md,False
+1969966d1da0e4239019bad203bfea0c3496a7f7,2019-10-09 01:34:58,prettifier[bot],Prettify ADVANCED.md,False
+8da87bd237a9d2fa859e3a4d28651ccb9d6e1cc7,2019-10-09 01:34:53,swyx,"Add tipp about Props & Omit<OtherProps, keyof Props> to advanced… (#152)
+
+Add tipp about Props & Omit<OtherProps, keyof Props> to advanced.md",True
+3310bdb8d383091c1af78dc23632c7dc2bc368c9,2019-10-09 01:34:35,swyx,Merge branch 'master' into omit-keyof-props-pattern,True
+7b888305fbf523dffa4ced8d138e2eaac11b71f2,2019-10-09 01:34:04,swyx,add note about omit being official,False
+d64edf370765d258b193d602db96c57c995ece62,2019-10-09 01:31:00,swyx,"Basic getDerivedStateFromProps (#153)
+
+Basic getDerivedStateFromProps",True
+12bc96929562ed8ccaa162bc4f8f3cbffbf89721,2019-10-03 23:49:30,Aziz Khambati,Basic getDerivedStateFromProps,False
+ffa2c55f57f4dac8738dd72146041eae4ff09f85,2019-10-03 14:12:01,andreasroth,"Add tipp about Props & Omit<OtherProps, keyof Props> to advanced.md",False
+afbd74346e6dc107a904757c35f56fb313250314,2019-09-28 22:44:51,swyx,"Merge pull request #149 from vkrol/patch-1
+
+Replace the term ""constructor"" with the term ""parameter list""",True
+815ef416db7c3c143ddfd4dcbc602ea5672937c9,2019-09-28 22:17:19,Veniamin Krol,"Replace the term ""constructor"" with the term ""parameter list""",False
+7ac3a293b97730d92914f498308574b36e1c11eb,2019-09-24 23:08:29,prettifier[bot],Prettify ADVANCED.md,False
+d1e3f400397af50a056d9c253a519421cc32e709,2019-09-24 23:08:25,swyx,"add conditionally rendering components example (#148)
+
+add conditionally rendering components example",True
+497b72441e948f0cef043a5d82afb7e12a36c6d2,2019-09-24 22:27:29,swyx,add conditionally rendering components example,False
+451aa8aae0c02a0e39b91508c3b7825d744c729f,2019-09-24 11:13:34,swyx,Update MIGRATING.md,False
+e7bc2e19d80aedd62aabbfde1472b781f7ff1bbe,2019-09-23 04:58:02,prettifier[bot],Prettify ADVANCED.md,False
+e85986b1c49c85f7a14728cbffd8b478f1c52683,2019-09-23 04:57:57,swyx,fix conditioanl props example,False
+12fe191902fdfe69860b94b8e263f95389ed07de,2019-09-17 05:57:28,prettifier[bot],Prettify ADVANCED.md,False
+0d88dfd964c84327d7e5840f5e0dc8db6dbfea15,2019-09-17 05:57:20,Sebastian Silbermann,docs: Add example for img[loading] (#143),False
+0136afd62df2b2194f2bda59c9366ab3b4febf20,2019-09-16 08:12:42,prettifier[bot],Prettify HOC.md,False
+ade19e6deb07ec332ed12873e4fecda5ecb3d1cb,2019-09-16 08:12:39,swyx,"chore: Update prettier config (#144)
+
+chore: Update prettier config",True
+bcd0443b2e69e8a2a6ccba95a98aa97db72c1b5e,2019-09-15 18:36:21,Sebastian Silbermann,chore: Format docs,False
+43924fd1e86a35d14ac52a8aeab9a51a6236cf12,2019-09-15 18:36:11,Sebastian Silbermann,chore: Match prettier config currently used for files,False
+12e4401cb43687552dfe50c0bdd2f829c115e268,2019-09-12 02:38:26,prettifier[bot],Prettify MIGRATING.md,False
+8a50c5d799b9d92c88112f1f72af97f3e39106df,2019-09-12 02:38:23,swyx,add nextjs and redux,False
+ba74354dfd4860900b66d4dacd4a828bc9fc1c48,2019-09-11 19:40:51,swyx,"Merge pull request #141 from ryota-murakami/patch-1
+
+README: add last 2 chapter in the Toc",True
+e406a041caa961463ccc4e5afe80b884867fa16d,2019-09-11 16:24:52,Ryota Murakami,README: add last 2 chapter in the Toc,False
+ba3519d5f5c5360b220383de11ec4dc6273243d5,2019-09-10 19:38:10,swyx,Update MIGRATING.md,False
+dd4eaa33ebfbc3fb1bd942f84cf95191a5e3e6f8,2019-09-10 14:15:41,swyx,add Google TS 3.5 notes,False
+087fe838366b27f2463d8958b00e20cc24271a79,2019-09-09 10:22:48,prettifier[bot],Prettify HOC.md,False
+33df711d5d399873e41eabf0e0bd7cfc189cdc82,2019-09-09 10:22:46,swyx,Update HOC.md,False
+7c03af5fc8ce996edffacd2658340c0c0376c39a,2019-09-09 10:07:14,swyx,add react loop,False
+9afe62359170e9002110e6efc1ed8f34dd4fb5e2,2019-09-05 07:57:59,swyx,add notes on conditional types,False
+e9fdb4d0a4fbf33447226c9171cfa54bf4a8b9a0,2019-09-03 20:35:50,swyx,add unique keyword note for type branding,False
+8badf781b15d2c95e646bb54383d40c252047d7b,2019-08-26 10:54:21,prettifier[bot],Prettify README.md,False
+6ded64b774ea209adc956b9c2656b0d28ed11e1b,2019-08-26 10:54:18,swyx,`as const` life for context examples,False
+d8346b188e1690bf74db81469bddffc7e1cccbbd,2019-08-26 10:37:47,prettifier[bot],Prettify README.md,False
+b1223450fac2e19239b43f4856d6e7c972c0f66c,2019-08-26 10:37:43,swyx,"Merge pull request #138 from ryota-murakami/add-example
+
+README: Add Example App section & a example link",True
+5388db69d7669c0ebc344c25451fe99c36b890cb,2019-08-26 08:10:37,prettifier[bot],Prettify ADVANCED.md,False
+d8374c50963623ba4dd66eca4e6c172627c35ee5,2019-08-26 08:10:32,swyx,"Merge pull request #137 from quassnoi/patch-1
+
+More on generic functional components",True
+5580e960701797b7622e07d3b95ea64ae0139c63,2019-08-25 22:46:01,Ryota Murakami,README: Add Example App section & a example link,False
+d7b77de676e1d7d99c47e1f67da726fc16fa6ab0,2019-08-24 05:08:36,swyx,"add pointer to @saltycrane cheatsheet
+
+add pointer to @saltycrane cheatsheet",False
+dd3bedb1d754d608700a12c0f5f5a23c0b78d0b2,2019-08-24 03:54:51,Alex Bolenok,"Update ADVANCED.md
+
+Co-Authored-By: Ferdy Budhidharma <ferd312@gmail.com>",False
+8278636c33462c4c5c8d1f3c4581953266e14649,2019-08-23 22:43:31,Tim Perry,Link 'basic cheetsheet' directly to the basic TOC (#136),False
+a7981361d96b6feea50353176156157fff75d73d,2019-08-23 00:46:01,Alex Bolenok,More on generic functional components,False
+e1f45ebaa33f280a185e2db3a45f846fa5f025b3,2019-08-20 18:46:31,swyx,add priceline to MIGRATING,False
+f95024681d3a88ae6255cc893c3b0c60bcc0699d,2019-08-19 07:16:48,prettifier[bot],Prettify ADVANCED.md,False
+b5b093dcf094a946a64ec95fbf64f082725176a0,2019-08-19 07:16:44,swyx,"add docs on generic components
+
+add docs on generic components",False
+14c9ff5f7c55966e77c9ed78bcd1e4210cbfbbca,2019-08-19 05:32:27,swyx,"Housekeeping: move full HOC example to Advanced cheatsheet (#135)
+
+Housekeeping: move full HOC example to Advanced cheatsheet",True
+40b928f7a4c350d65a9a626887efcf71d35ac5e5,2019-08-19 05:31:56,swyx,Update ADVANCED.md,False
+56301f800d96fc071898eb5f60671b2ebedeab90,2019-08-19 05:29:51,swyx,add full HOC example from Advanced cheatsheet,False
+99c2770ddab467a9681ba1389a93df84ba5104d4,2019-08-10 08:59:38,prettifier[bot],Prettify ADVANCED.md,False
+417da41d7124dc7cebf1f1d21f20414081ff2fea,2019-08-10 08:59:34,swyx,add typescript starter,False
+7890408ad79e5d37b5c5b1d0d9809f08b0893391,2019-08-09 08:22:37,swyx,add typestat as JS to TS conversion tool,False
+94ca674fdb68c31d16bc11668212bcad291148ca,2019-07-23 23:24:18,swyx,add link to TS FAQ,False
+1a0a5a5339731f9beedf03359c90f3577ec2fe2f,2019-07-14 12:26:11,swyx,"add pointer to NeverProps
+
+add pointer to http://www.javiercasas.com/articles/typescript-impossible-states-irrepresentable",False
+41b456c46f7618ca2d9d5d1f450d5fcb2ed0b3c2,2019-07-12 20:14:07,swyx,"Merge pull request #133 from lychyi/update-gh-src-links
+
+Update github source links to latest blob",True
+090ed9a1e8c70e0e1cc6c410e6ce579f9b9b8728,2019-07-12 13:00:57,Lynn Chyi,update github source links to latest blob,False
+147ee523540eeddb47fbbca3d446f3a95a2b277e,2019-07-09 05:56:39,prettifier[bot],Prettify HOC.md,False
+b327181e6b9b6f632bdcfa11d6484e14a1589c2f,2019-07-09 05:56:38,prettifier[bot],Prettify ADVANCED.md,False
+bb249ab792644b784014a12beb8ce7a64f269667,2019-07-09 05:56:37,prettifier[bot],Prettify MIGRATING.md,False
+abafa1d0e7a4c67843301af2538cb278b9cb4edc,2019-07-09 05:56:32,swyx,"Merge pull request #131 from karlhorky/fix-repo-links
+
+Fix repo links, format with existing Prettier settings",True
+a471fcf974a5f5dc5c45f005400c2d8fee77f9b2,2019-07-08 20:04:08,Karl Horky,Fix repo links,False
+a51e28f8fb3e0ca96c04140d87a46f3d1dbbb790,2019-07-03 21:30:14,swyx,add jsx.element discussion,False
+cc2ec67e0b36b7e838df8f2a54b4cd84df6c78cd,2019-06-22 21:25:46,prettifier[bot],Prettify README.md,False
+043b9be7ce1c568ccedca1f100e560c988cc25f9,2019-06-22 21:25:42,swyx,add troubleshooting ideas for utilties and operators,False
+cd3b2e0ff9300f1a90a0c535fee7dd34ba4b1e9c,2019-06-22 21:13:57,prettifier[bot],Prettify ADVANCED.md,False
+489e7a73c87b5f6bd2803b151f0128ddec346094,2019-06-22 21:13:54,swyx,Update ADVANCED.md,False
+3381d97f729fe3c7654294562080e38625a136ad,2019-06-22 20:56:01,prettifier[bot],Prettify README.md,False
+85c4793085883250f474aa69d8731db932aab592,2019-06-22 20:55:58,swyx,add typeRoots note,False
+ccccda7d161d2c4b770a2e8c70dc09453810909c,2019-06-22 20:49:14,prettifier[bot],Prettify MIGRATING.md,False
+7f17ed6a0e573f0a18ecfa4c908fef75cf43f7bc,2019-06-22 20:49:12,swyx,Update MIGRATING.md,False
+a720f6284d9b796f60544a690bcb708c6472f44b,2019-06-22 20:34:32,prettifier[bot],Prettify README.md,False
+c22dfd22c326b548dafb385af58132abc899b33e,2019-06-22 20:34:28,swyx,add ambient module declaration notes,False
+c00048d51b2370d607fd049053ea0a181a754de2,2019-06-22 20:16:55,prettifier[bot],Prettify ADVANCED.md,False
+018cecb0bc2a005288b4363d3846f1e412c44e59,2019-06-22 20:16:50,swyx,add Handling Exceptions section,False
+11beae6d5b8656c0b1751e5ddd6821a3308ec58e,2019-06-22 19:47:17,prettifier[bot],Prettify README.md,False
+b5176fb31a1ffc3a4bf5bd3d7fe3d15d2131b9c7,2019-06-22 19:47:14,swyx,add note on simulatingnominal types,False
+fd09b6141bdde41e2a80a6bbc8f95efec4c6fecc,2019-06-22 19:35:03,prettifier[bot],Prettify ADVANCED.md,False
+59cc993e7a0676f34383f12afb4da0f7611c086b,2019-06-22 19:34:59,swyx,Update ADVANCED.md,False
+c3dd970eef9f82007f0cefdd6894e49d68cf10a0,2019-06-22 19:34:53,swyx,Update README.md,False
+2d2c27f7a76b48bbca0dc4de62bfc56047c7bf02,2019-06-22 19:22:41,prettifier[bot],Prettify ADVANCED.md,False
+2f2c87e5dea8ad8be2ff18586f47484beaa67e0f,2019-06-22 19:22:38,swyx,add notes on discriminated unions,False
+6965d7a44146ecdbc28b93c78dc38ab6c0fc4961,2019-06-22 19:15:45,prettifier[bot],Prettify README.md,False
+260a2d0c7eb1f018534098becee1c971959dc0d9,2019-06-22 19:15:38,swyx,"add information from Programming Typescript book
+
+add information from Programming Typescript book",False
+2d936e9f56fd897417effe2ed502e5ff757c4009,2019-06-21 20:18:46,swyx,add andrew's post,False
+1e1541c5703d33bffc000e7ad9985b9099b513fc,2019-06-21 16:06:50,prettifier[bot],Prettify ADVANCED.md,False
+4bff9f7793dc8d66a3ef3b8ba5e1c30dd37f4fa6,2019-06-21 16:06:47,swyx,"Merge pull request #126 from akameco/patch-1
+
+docs(ADVANCED.md): add syntax highlight",True
+4ecf70c8150fe853a2ed7ce53b4aca85dc319944,2019-06-21 11:49:40,akameco,docs(ADVANCED.md): add syntax highlight,False
+5523471352350d2ead7e99a63c3a2c56f4c1cbd8,2019-06-16 20:16:43,swyx,Update MIGRATING.md,False
+495142a4c37a04aad4985a67acadd2b6f5717350,2019-06-04 01:56:53,prettifier[bot],Prettify ADVANCED.md,False
+5454df95ce42620a6854ee5524e978319a5dff25,2019-06-04 01:56:49,swyx,Update ADVANCED.md,False
+36f44d6829c8bde58f88bea7d38d81eaf7a1035d,2019-05-29 23:04:36,swyx,Update ADVANCED.md,False
+a2443154a329df35b180d80c59c3443b7d6488b1,2019-05-26 02:35:28,swyx,add const assertions article,False
+c54cf261dee7761c59e5f9482f0bad8310b41d5a,2019-05-23 04:02:39,swyx,Update ADVANCED.md,False
+d758c523e8952ac42e878c9aef1e6f18e976a554,2019-05-16 21:57:19,prettifier[bot],Prettify ADVANCED.md,False
+42baa8dbeecdf410c3f7a45fb6ebcb18cb8a67e1,2019-05-16 21:57:11,swyx,"fix: Various issues (#123)
+
+fix: Various issues",True
+fd71f62f3443e39c2ce591cc6009ca93d3e12c17,2019-05-16 21:57:01,swyx,Merge branch 'master' into fix/misc-issues,True
+1700f723cf4c58e1074c8a11875187f01ea60c3e,2019-05-16 21:49:29,prettifier[bot],Prettify MIGRATING.md,False
+0a963e96a62fdfe013e467374fdd68b664517812,2019-05-16 21:49:27,prettifier[bot],Prettify HOC.md,False
+0d3af1c5ced872616a595f5d9b1cf0a496892fbd,2019-05-16 21:49:25,prettifier[bot],Prettify .github/ISSUE_TEMPLATE/general-react-ts-question.md,False
+374fc72b60ffadd0d05a37723b476fd245e32607,2019-05-16 21:49:24,prettifier[bot],Prettify .github/ISSUE_TEMPLATE/migrating-cheatsheet.md,False
+7840951aac7d62f0e1198200cf91cab34b765325,2019-05-16 21:49:23,prettifier[bot],Prettify .github/ISSUE_TEMPLATE/hoc-cheatsheet.md,False
+f2f2e7e084026d142349a6938fedfc9c052c1012,2019-05-16 21:49:22,prettifier[bot],Prettify .github/ISSUE_TEMPLATE/basic-cheatsheet.md,False
+82ade81f87526cec33a317e45771769b2da4f4cf,2019-05-16 21:49:21,prettifier[bot],Prettify .github/ISSUE_TEMPLATE/advanced-cheatsheet.md,False
+02c7efe03bdb6d9b8331794c85cf78eba869a7f2,2019-05-16 21:49:01,swyx,"Merge pull request #122 from eps1lon/chore/format
+
+chore: Format markdown with prettier",True
+f9b0818237930d0febf7a5ffffff1c02f9fbe8df,2019-05-16 21:43:07,swyx,Update ADVANCED.md,False
+3579039619ed249983ca81e2182d4763369ac2e3,2019-05-15 15:24:07,Sebastian Silbermann,usr -> user,False
+6ce641d919ac5531d7310b671371c2f3bcc1aeac,2019-05-15 15:23:44,Sebastian Silbermann,Use `as` cast instead of bracket cast,False
+d5c1576814c0a18d87414a00e9faf2ff20a2ab2e,2019-05-15 02:23:36,Sebastian Silbermann,Fix duplicate identifier,False
+2fd9a098c74f03cc25ddf54ee804184130343afd,2019-05-15 02:23:21,Sebastian Silbermann,Fix Type 'C' does not satisfy the constraint in ApparentProps,False
+902f275dd70b5e60b89f197f9247dbf0824fe3d1,2019-05-15 02:23:16,Sebastian Silbermann,Remove redundant overloads,False
+bda743b337c647b6bbe0ea7ef8675a7861fa6dec,2019-05-15 02:23:07,Sebastian Silbermann,Fix incorrect syntax highlighting,False
+5a219c492e8a5e32ec64cbc7cedf818440f91873,2019-05-15 02:22:49,Sebastian Silbermann,Consistently access React namspace instead of imports,False
+c1b58924e96b059650c0936f4f11e88da4211d7c,2019-05-15 01:42:43,Sebastian Silbermann,Format rebase,False
+f0b3cfd60f1459c1ec54b2d27289eb7f856ff269,2019-05-15 01:41:04,Sebastian Silbermann,Fix syntax error,False
+d87fced965562355634f5c0379d6802226d51a47,2019-05-14 23:44:36,Sebastian Silbermann,Use prettier,False
+9207c083e1e9dd33de99147e807187ce20f0fad5,2019-05-14 23:44:36,Sebastian Silbermann,Use prettier config closest to current formatting,False
+520c2c153366bd9c691ae887a4c55322dc1371a8,2019-05-14 23:44:36,Sebastian Silbermann,Add prettier,False
+11f3a87d0a8ed98968e87e33b7effe84f7afc324,2019-05-10 23:32:43,swyx,add eslint + TS guide,False
+ff2e9659832fc82569cc54096f35d886a90ba68b,2019-05-10 09:53:59,swyx,Update ADVANCED.md,False
+596e74756d08ea6731e44ab2ba29ed5a56e0d8f2,2019-05-10 09:48:45,swyx,add prettier and fix TOC,False
+17fd8283c3221db9fe00b155dcf5a6abb1de3fec,2019-05-04 13:45:35,swyx,Update HOC.md,False
+9dd042ab8a06b37cafe32b642e4b1c06b5dde168,2019-05-04 13:31:45,swyx,Update HOC.md,False
+0450842e322f7fb6c4c51a8bbed4468e3b1d74ff,2019-05-04 12:23:42,swyx,fill out intersection type docs a bit more,False
+76b7c752dddfd14de4162d3da9cec80a31a46971,2019-05-02 11:14:01,swyx,strip out utility types notes to typescript-utilities-guide,False
+867351443e956303a5e0df4c57da01ed0ca25df6,2019-05-02 10:48:12,swyx,Update ADVANCED.md,False
+19e60e5a949e140d974dd5b7ebfc0bbd469efdff,2019-05-02 10:05:14,swyx,Update HOC.md,False
+24aaf913540e6bf9f870c183afe902b368b12811,2019-05-02 10:03:32,swyx,Update ADVANCED.md,False
+bc11180df8d94c4b15cfb04f0c6930511080d3a9,2019-05-02 09:53:53,swyx,add reach ui typings,False
+2c639bd9d422ebaba2694b8ddcc7f81a6133d908,2019-05-02 09:31:51,swyx,Update MIGRATING.md,False
+b7e362f4870318bb54d6c0f8637fcb80edb07405,2019-05-02 08:48:26,swyx,"Merge pull request #118 from typescript-cheatsheets/all-contributors/add-stephenkoo
+
+docs: add stephenkoo as a contributor",True
+6fe71b3c4ad700086db1b923b046f0b45ead0050,2019-05-02 08:32:37,allcontributors[bot],docs: update .all-contributorsrc,False
+7a7cb3ac95da2d784f28e7fe2d64aba64c700539,2019-05-02 08:32:36,allcontributors[bot],docs: update README.md,False
+863841ac438c705d4229a8d948973922fbbb203a,2019-05-02 08:32:35,allcontributors[bot],docs: update CONTRIBUTORS.md,False
+a7fbdc63a249d645c57351a3260fb820b196032a,2019-05-02 08:31:38,swyx,"Merge pull request #111 from stephenkoo/add-dependent-prop-example
+
+Add dependent prop example",True
+f443a18d2281dcc63c190302eb0712b04d09ca52,2019-05-02 08:28:20,swyx,add plug for tsdx,False
+6e23a3b4eb5cd9f296af0aed11eb68b4503da4f5,2019-05-02 08:25:11,swyx,Update ADVANCED.md,False
+1f7892ad26266a7678c330bb8158ec3a55cafb30,2019-05-02 08:24:20,swyx,update eslint section,False
+d3eb75c967443cbdb326ee1fc384b49e9aed2164,2019-05-02 08:07:55,swyx,"docs: add Attrash-Islam as a contributor (#117)
+
+docs: add Attrash-Islam as a contributor",True
+8c876bab274d83b3726fdd3e1b2bee60e1ddef69,2019-05-02 08:07:47,swyx,Merge branch 'master' into all-contributors/add-Attrash-Islam,True
+abf6b6d4ad8497ec3a5072b57ff2fa5356a1f67c,2019-05-02 08:05:40,allcontributors[bot],docs: update .all-contributorsrc,False
+5404a2f44546aac31c87d5638931b5f506439f43,2019-05-02 08:05:39,allcontributors[bot],docs: update README.md,False
+1c921ecb41201f3779e61b683bd068a955bb9b29,2019-05-02 08:05:38,allcontributors[bot],docs: update CONTRIBUTORS.md,False
+4be6fc9cbf21bd6f971955153c132e6e9296fde5,2019-05-02 08:05:08,swyx,"Merge pull request #115 from typescript-cheatsheets/all-contributors/add-eps1lon
+
+docs: add eps1lon as a contributor",True
+3c03c8176d5bbc36e442b26d2c0fb81b2e7fc46a,2019-05-02 08:04:46,allcontributors[bot],docs: update .all-contributorsrc,False
+7f63b02ded54b1e993908540ee462ee44268cb60,2019-05-02 08:04:45,allcontributors[bot],docs: update README.md,False
+ab45b6657f39a703e82e7f786d5b338b8af88916,2019-05-02 08:04:44,allcontributors[bot],docs: update CONTRIBUTORS.md,False
+362368037294dbdc858bfbcf5bc2813781d2fde6,2019-05-02 08:04:30,allcontributors[bot],docs: update .all-contributorsrc,False
+5065db3ef604efe96e9cb4fc01db3b9e3c7a78b1,2019-05-02 08:04:29,allcontributors[bot],docs: update README.md,False
+58135f100c5271fe6a556ef85aac981d361217ac,2019-05-02 08:04:28,allcontributors[bot],docs: update CONTRIBUTORS.md,False
+66f3bd573c39d391240ee6dd872e8bd4fb8f0719,2019-05-02 08:02:24,swyx,"docs: add sw-yx as a contributor (#114)
+
+docs: add sw-yx as a contributor",True
+3d53dd589ebbbfaff99c3de4e2fcd76ee3083d54,2019-05-02 08:02:15,swyx,Update README.md,False
+1cb61b8548a8cf6a0de18356937e6a206d65955b,2019-05-02 07:59:44,allcontributors[bot],docs: update .all-contributorsrc,False
+031fd66641ebb2c47895bdea2df471bf0da2b74c,2019-05-02 07:59:43,allcontributors[bot],docs: update README.md,False
+710854d5e16ed41c8c284497a514a3762949697f,2019-05-02 07:59:42,allcontributors[bot],docs: update CONTRIBUTORS.md,False
+d9148cd148535d086db5a1d4694e95089ec04618,2019-05-02 07:58:06,swyx,Update .all-contributorsrc,False
+7b46dc1722cb334a400f06e5218b61bd672a75ae,2019-05-02 07:56:24,swyx,"docs: add ferdaber as a contributor (#113)
+
+docs: add ferdaber as a contributor",True
+2efe5c5139730bef23a771efeae69763834eb40d,2019-05-02 07:56:08,swyx,Update README.md,False
+22be0eb7d168fa9695a97b68228a0c7889fd30cd,2019-05-02 07:54:58,allcontributors[bot],docs: create .all-contributorsrc,False
+875cabde214a24a80063307db58517c50e40c893,2019-05-02 07:54:57,allcontributors[bot],docs: update README.md,False
+1e14f3aa9e420f8a71e4245f55736c5ec0d76893,2019-05-02 07:54:33,swyx,Delete .all-contributorsrc,False
+da14547093026ac369e7e11d884123fc3cfde8c1,2019-05-02 07:51:38,swyx,Update README.md,False
+8acf64c780b8f472649ceba291ac127f18bcfc88,2019-05-02 07:45:34,sw-yx,try adding allcontributors,False
+7bab706ba7d210e9900a298e6cd301f8376eb116,2019-05-02 07:35:34,swyx,Create .all-contributorsrc,False
+f5469758cc844eef664d38af4edece3fdd8f4e89,2019-04-30 06:11:21,Stephen Koo,Fix incorrect relative link,False
+f223a3f189b548e5ca7d5f455961f558c7b607e1,2019-04-30 06:11:11,Stephen Koo,"Add prop example of prop A requiring prop B
+
+Guides users on how to make a component where one prop is only allowed
+to be passed when another prop is passed.",False
+863aa3ccbd167b7d39485a3c1dcc6f8ec33972d8,2019-04-28 08:42:15,swyx,Update README.md,False
+d12d49da38256acc05bcb9e27086670ba354368b,2019-04-28 06:46:26,swyx,add TS 3.4,False
+ba947ef4c9bc433d7179c1ad15bec2c22992434f,2019-04-28 06:42:16,swyx,"update custom hooks docs with const assertions
+
+update custom hooks docs with const assertions",False
+700dff669dabd55178465c4406a0b3c1e72ef7f7,2019-04-28 05:10:44,swyx,add context getters,False
+a884407affba99f3da41525ad2436d8942c6953f,2019-04-27 11:15:25,swyx,add function based context,False
+9115ed7c3630e6e6674f41ce4acbbb926d077f6b,2019-04-24 09:45:22,swyx,add note on Uncontrolled components in forms,False
+5e4b35f4d8cf0d4def111d6a2866a2b6d8d19422,2019-04-22 09:31:47,swyx,add useref notes,False
+c8170af548854f751f874a0f03cf3e1882ee83c7,2019-04-17 19:44:08,Andrew Byrd,"Update README.md minor type alias syntax error (#107)
+
+Minor correction to type alias declaration.",False
+33de5ffe56efddf520ee64d96534d386394f78bb,2019-04-17 06:01:37,swyx,"Merge pull request #91 from latviancoder/useReducer
+
+add useReducer example",True
+0794f1d9a8576a31493347067ff71336a2ea932f,2019-04-15 21:15:12,Retsam,BASIC - Rework Function Components section to prefer normal function … (#104),False
+007d5e74ee7073ce790705e2d11056e59ea1a29b,2019-04-13 16:12:28,swyx,sindresorhus style guide,False
+6cbdb4dda31155d4cd810dae37364d14a5454f89,2019-04-09 10:59:36,swyx,"use ""reverse"" defaultProp type pattern
+
+as suggested in https://github.com/sw-yx/react-typescript-cheatsheet/pull/103",False
+623a1d03b652c807d86082ec53989310052e4b46,2019-04-08 09:50:44,swyx,"Merge pull request #103 from VanTanev/improve-default-props-example
+
+[Basic] Improve the class component defaultProps example",True
+18009b24096127a763f664e9a4d4f705cb862164,2019-04-08 09:48:58,swyx,add warning notice for tslint,False
+6a467f608bb2b540fce66f26cc39823d5b328835,2019-04-06 19:36:18,Ivan Tanev,"Improve the class component defaultProps example
+
+In the current example, we have a type definition for props but do not
+make use of it for defaultProps. This can lead to a mismatch between
+defaultProps and props.",False
+1dfda0b59aba462f84767b05178005f6d3120f86,2019-03-20 09:17:40,swyx,"Merge pull request #98 from akameco/fix/react-element-type
+
+docs(ADVANCED.md): ReactType -> ElementType",True
+c01f1240acf35107421be57b3c3db4611057fed1,2019-03-19 23:46:19,akameco,docs(ADVANCED.md): ReactType -> ElementType,False
+5436ed399d9a96e385324a63fa355129da3d2d45,2019-03-18 04:49:30,swyx,add some basic .d.ts instructions,False
+6c743d00ccea3a249f8f04d1424239b0c0e9b8ba,2019-03-06 14:53:28,swyx,"Merge pull request #95 from sw-yx/sw-yx-add-logo
+
+add logo v1",True
+551a07433531d389cf5594138dbfe4392375e97b,2019-03-06 14:52:48,swyx,Update README.md,False
+0d70b5cf94a63a4de551da7badf9d3c5ece1df46,2019-03-06 14:52:25,swyx,Update README.md,False
+9f1332abade84058046a1d533aa1bab9068cc3ab,2019-03-06 14:51:56,swyx,Update README.md,False
+0f82bdf56238046b9510cbd20e3d0bf4f51a02dd,2019-03-06 14:50:06,swyx,Update README.md,False
+1ca22c373c3362a957aacf23c10826eec3c85a60,2019-03-06 14:49:01,swyx,Update HOC.md,False
+08d66b6e6fd4ea111a854ce1d9a7dfbaf1345c30,2019-03-06 14:48:51,swyx,Update MIGRATING.md,False
+0bf6dfe5fdb0272e028955999337ccf105ffa005,2019-03-06 14:48:12,swyx,Update README.md,False
+d630bdb3af6ef10a0f0eabbf9eaa6926ec4d7361,2019-03-06 14:47:39,swyx,Update ADVANCED.md,False
+00d196a70271fcf1d3cee0cc761ce5321a8ca295,2019-03-06 14:47:28,swyx,Update ADVANCED.md,False
+a10dd2e361cdac103cc0b091bf757eaf2ebb9819,2019-03-06 14:43:04,swyx,add logo v1,False
+53cb7cbf2f72c208cc9bf0e964aa6d9643278f92,2019-03-06 14:19:46,swyx,"Merge pull request #94 from jpangelle/master
+
+Fix grammar/semantic issues, clean up whitespace",True
+5dc83f1ae9b11f5b2fe79c50931d7451ee000c38,2019-03-06 00:51:45,jpangelle,"Fix grammar/semantic issues, clean up whitespace",False
+c9a79f6ec0e6ff39a81b2dbe6ed0870ddffa9e4c,2019-02-23 01:54:42,latviancoder,add useReducer example,False
+da333df7f7d7dc082120f55f78c3bb0f0a28e8bb,2019-02-21 02:13:00,swyx,add issue templates,False
+9002d655630ca2cb2f60e72fbd5b4a514674a5f2,2019-02-21 01:42:09,swyx,add HOC cheatsheeta,False
+1bd64f9908eb6b6a82f9a83fc14927ed0d5a9ded,2019-02-21 01:39:54,swyx,"Merge pull request #89 from sw-yx/addHOC
+
+add HOC cheatsheet",True
+3114f3aea858a480a18a888e7aee0c7fe421a232,2019-02-21 01:28:15,sw-yx,add links,False
+d51511ca613df6c211d2b8a5e466ea9311e692cc,2019-02-21 00:34:22,sw-yx,fix HOC example,False
+2aec7a48edfa35a1eea606e4ee209fcac1b5856e,2019-02-21 00:25:05,sw-yx,fix HOC example,False
+169cdf4b49942c8c8f51bb4cccab2e2222241faf,2019-02-20 11:34:56,sw-yx,Merge branch 'master' into addHOC,True
+89f15063e11ae8df9635401ffaee57f19e3c14f9,2019-02-20 11:33:36,sw-yx,reformat advanced sheet,False
+0116ebd298ac24f6943204c109eacdcf088cefa6,2019-02-20 11:31:58,sw-yx,add more examples,False
+5a6c0b5c0d93961eeec9788605171eb19150a6e0,2019-02-20 09:53:23,sw-yx,fix typos,False
+3cf2a8fcadb90cb0ca6239915560ef22d0e680ad,2019-02-20 09:48:54,sw-yx,add hoc,False
+dfde4671857614ff97fe1a42590461fa11a8e16e,2019-02-20 08:27:36,swyx,add notes on ComponentProps usage,False
+8ffe6e51341d2b99f85680860ab9a4daaa84ce0f,2019-02-20 08:11:35,swyx,fix minor typo,False
+50de52206d63961213c2b101a894d74e536bf350,2019-02-19 19:27:39,swyx,add troubleshooting for importing images,False
+dccb0ca988c838e07bc6ec360227f49ab908a45e,2019-02-14 15:35:04,swyx,"update React.FC and defaultProps recommendations
+
+update React.FC and defaultProps recommendations with reference to https://github.com/sw-yx/react-typescript-cheatsheet/issues/87",False
+c992d75348e9179c90f3833fea6c79f670c84341,2019-02-13 18:21:55,swyx,add utility types section,False
+36ee450326e6b2250d6a25d0ece8386428f83dd3,2019-02-13 17:26:02,swyx,recommend Marius Schulz,False
+2cdeeb5d2b356f3058d6f75e7e6a2c05c96c72fe,2019-02-09 06:52:16,Julio Pavón,update @jpavon/react-scripts-ts package description,False
+d901e5cd5f768b5a1d6727bbac788635e7fa55fb,2019-02-07 21:40:34,Jake Wiesler,Update README.md,False
+c25d1f249771a31d1cd8d33a04f395148ab92fcc,2019-02-06 08:03:08,swyx,"Merge pull request #83 from sw-yx/hooks-updates
+
+updates for hooks",True
+1e0ee48d095a4f74762d96ee5218e597357c2b72,2019-02-05 23:07:49,Ferdy Budhidharma,Update README.md,False
+3481b5b4442a00d34edbd35beefd8c4ebe3a7759,2019-02-05 23:00:53,Sebastian Silbermann,"Update README.md
+
+Co-Authored-By: ferdaber <ferd312@gmail.com>",False
+3f875c0d85f68d5c5a4c26ce0dcc862fec917edd,2019-02-05 22:03:33,Ferdy Budhidharma,updates for hooks,False
+36b24a0b93b5e30c0d404cae4130f2a85f55aeb1,2019-02-02 13:29:59,swyx,"update react typings, React.ReactChildren was wrong",False
+96e83201f39cc21ba2085140acc341a0eefe6540,2019-02-01 09:05:20,swyx,improve the conversion approaches notes abit. still not great :(,False
+33d71418a8ae23cb7524533e3a20b1de1f1cac49,2019-02-01 08:31:00,swyx,Update MIGRATING.md,False
+fbc0c2d8da202b30cc89fcaa775e67a0cea62e7b,2019-02-01 05:35:44,swyx,update advanced page with TS 3.3,False
+a482ca3f2c4f87e63ddee6728e4f53bdcf7606b8,2019-01-30 10:19:36,swyx,"Merge pull request #69 from sw-yx/document-types-react
+
+document @types/react",True
+728a80deabf6940af2c5fbbefc2a8c38a477b450,2019-01-30 10:17:24,swyx,"Merge pull request #79 from sw-yx/MIGRATING
+
+add MIGRATING.md - advice for people migrating from Flow/JS to TS",True
+70b0f7d284397ee0ac31d68b7980019c8e97b119,2019-01-30 10:16:49,swyx,Merge branch 'master' into MIGRATING,True
+d7ddac696eec26601ce84bbcb697f691d27f3d69,2019-01-29 08:42:31,swyx,"add Editor integration section
+
+add Editor integration section",False
+42b3c4a6d67b5b0cab009e8e4da2bd8218be2d51,2019-01-29 04:00:49,swyx,add braposo's flow to TS coments,False
+594dac71613b9e32d926f66a3c13357e73cd7e13,2019-01-28 15:15:04,swyx,add lyft,False
+c52062cb839c8090a360c3b6d9cc726b5b76c9c8,2019-01-28 06:25:36,swyx,add slack,False
+24c17cbf9bc6790f81700e74274ed8659618ef21,2019-01-27 13:18:52,swyx,add millie's links,False
+1d0adecc3ad8f6895c072d494e124b5c8b48dd19,2019-01-27 09:03:52,swyx,document levels of adoption,False
+57ac3288eebeef630ce8ef4c704aa92c5a2e51d1,2019-01-27 07:59:52,swyx,add dts-gen,False
+2fefd3cb618c47379b2748dc885128f5fcea6f5e,2019-01-27 05:14:14,swyx,Update MIGRATING.md,False
+70961a46f23789fe99e52000dd240a0935736eb4,2019-01-27 01:10:37,swyx,"Merge pull request #71 from sw-yx/advanced-components
+
+advanced components revision",True
+1c12b2b36cbe5d5ada8ffd5b3e804905db40825f,2019-01-27 01:06:37,swyx,retain some old info for people to grok,False
+bf3f192dcaa27e783c38deb7b49498a3c7e07c87,2019-01-26 12:44:15,sw-yx,add MIGRATING,False
+e474dc2a27ac0bb5bb8479143064df343b842851,2019-01-22 02:51:34,swyx,add forwardref and hoc example to ADVANCED,False
+f52f6622f5706743d53b9ae9599a5e92ff09a930,2019-01-22 02:05:05,swyx,add commentary about `readonly`,False
+6b68bfb9ab4c56c76f71968566ad5d63e1a34eec,2019-01-20 01:19:09,Ferdy Budhidharma,update omit example,False
+32ba95a2e8cc3a478ccd594eedfa54aa6676c63b,2019-01-19 03:01:32,swyx,typescript-eslint-parser no longer maintained,False
+f129051da472c3b8c71e417d6bea62b9efccb0fa,2019-01-18 08:41:32,swyx,"Merge pull request #75 from sw-yx/basic-types-common-types
+
+Update README.md",True
+343e5b3cc0ca92545b7c2e3b567a7b09b2a03120,2019-01-18 05:55:28,Ferdy Budhidharma,Update README.md,False
+2d0a8f461a490ca2cea7e9ccef21b70a505e0356,2019-01-18 02:58:46,swyx,"Merge pull request #73 from sw-yx/hoc-update
+
+Update HOC section",True
+a3ba8c19cc757f31061319650e3b9ee81ceee528,2019-01-18 01:05:04,Ferdy Budhidharma,Update ADVANCED.md,False
+6141fe0f5b698b45ff2fdd10012672698c9ea08e,2019-01-17 08:13:40,Ferdy Budhidharma,Update ADVANCED.md,False
+0ce51d25d656352472119f7c32c8934d4a60b88a,2019-01-17 07:59:25,swyx,"Merge pull request #70 from sw-yx/more-function-component-details
+
+More FunctionComponent details",True
+e581170d7dc6c10c509be2f9696a4e6948981819,2019-01-17 07:58:53,swyx,hide inside details,False
+6fb15d73453314efe8baf3c655404bd49190060c,2019-01-17 07:50:21,Ferdy Budhidharma,Update README.md,False
+4625eaad284098a2eba1899116773b66c9517d7e,2019-01-17 06:57:33,swyx,Update ADVANCED.md,False
+9c3df6cebd4c6bc8d44c872e2e7b605afb42b664,2019-01-17 04:37:17,swyx,add eps1lon's comment on reactType,False
+a7e6748ac9366800e9ed4fc0c7b81d841c2ea1c2,2019-01-17 04:33:46,Sebastian Silbermann,"Update ADVANCED.md
+
+Co-Authored-By: sw-yx <shawnthe1@gmail.com>",False
+1ac2decfb9c366f9162d5dd0a61ee82fd2e0aa26,2019-01-17 04:09:06,swyx,add prop one or the other or both hints,False
+5f1f5e16af0be82d060bba4cbcf451f7d43220d0,2019-01-17 03:01:43,swyx,update with ferdaber's thoughts,False
+1cf64621a63a1fadffc97be692779c3be4f11545,2019-01-17 01:56:47,swyx,Update ADVANCED.md,False
+3677d266f6a3280f4719ff5eb0dee67af1748930,2019-01-16 23:28:09,swyx,add @types/react documentation,False
+20d1ac1198b1e3d7cc7baa2c5da1d674e7145f41,2019-01-16 21:36:40,swyx,"Merge pull request #68 from karfau/patch-1
+
+fix link to anchor in advanced section",True
+3979f8b4db4dde8ee3d0da7ed356333da2cce2b6,2019-01-16 12:15:53,Christian Bewernitz,fix link to anchor in advanced section,False
+8e6c86bf9354e76aab1f22314edad2175de1f788,2019-01-16 05:27:43,swyx,Update README.md,False
+7b1f1f2fe7abf484c8527db7e1d3ae3a6f834d3b,2019-01-16 05:27:01,swyx,Update README.md,False
+14699e9ea0f68e960d3b42528d375b50e71318ec,2019-01-15 04:41:52,swyx,fix minor formatting issues,False
+1bc63e0b14d335e5e215fb26ccd8399cb6b2b118,2019-01-15 03:34:46,swyx,"Merge pull request #67 from eps1lon/patch-1
+
+Fix formatting, syntax, typos in Props helper",True
+880f69af4d5ece7380a05900e60f63329b64115c,2019-01-14 19:02:29,swyx,add Partial caveat,False
+6803d5432f60448756e246c9a998da0636baa0db,2019-01-14 18:54:09,swyx,Update README.md,False
+ed957ba1525fdd593aca544b8308b5eb377e491c,2019-01-14 18:50:14,swyx,"using inferred and partial types
+
+using inferred and partial types",False
+3928b4a2c2c605ae982cc63cde626a6adf0d2513,2019-01-14 18:34:56,Sebastian Silbermann,"Fix formatting, syntax, typos in Props helper",False
+2714f26ec5cc3283b2f20913a0ed9bd7ce36b595,2019-01-13 05:18:43,swyx,"Merge pull request #65 from tpetrina/patch-2
+
+Little more consistency between examples",True
+922b56403a75fca40a6f29664b8c20d65ea46848,2019-01-12 20:36:45,Toni Petrina,Little more consistency between examples,False
+064d10fa7208c8d204c34610581d3b503479e49e,2019-01-12 04:59:50,swyx,add forwardref,False
+18d261d39725a9bb3927f7af3dbc264d89c0e664,2019-01-11 22:34:00,swyx,Update ADVANCED.md,False
+49f03171aebf2035b9ae7d61a42c82bb61dfda3b,2019-01-11 22:32:23,swyx,Update README.md,False
+9875851504b9d71df1188fab27580c573b96e648,2019-01-11 22:24:32,swyx,Create ADVANCED.md,False
+bf957d5cdd3d9879d78bc482a4780675f31766fb,2019-01-11 22:15:13,swyx,Update README.md,False
+e1f7b95432e1dcb5adfb0b6825e13a372e043abf,2019-01-11 22:13:15,swyx,Update README.md,False
+0f063a48f60b3b9ff8608afdd18ee94aa17efcfd,2019-01-11 22:11:59,swyx,split out cheatsheet to basic and advanced,False
+f77a6a9c263b9b349ad50fab4e6cb3b524d65e37,2019-01-11 21:05:25,swyx,Update README.md,False
+d405215e5f34ee680fa8554f22cca5d56da66fa4,2019-01-09 03:12:27,swyx,add types v interfaces table,False
+2b9f7add329289d43d4e172ea7e87914fadc5665,2019-01-08 17:25:55,swyx,add typescript CTA and talks section,False
+bdeb9a90b0ed5b3e1125ded4b5fd47364d8458a7,2019-01-05 08:39:50,swyx,Update README.md,False
+1aca3b56b4da1739b72063c659d3b3efc80350f6,2019-01-05 08:32:43,swyx,"Update README.md
+
+remove TypeScript-React-Starter recommendation
+
+add a bunch of recommendations
+
+hide older typescript version advice",False
+d5b1bbd16693e0ba5c2e27635b6566710ee170c9,2018-12-31 21:03:52,swyx,"add typescript 2.9 stuff
+
+add typescript 2.9 stuff",False
+f35981a8ec80b8cfa4e0764d6af56985a27223b3,2018-12-30 09:41:48,swyx,"Merge pull request #60 from charrondev/master
+
+Add section on HoCs",True
+8c0231d9168e593096d6c16fad41f3f767769396,2018-12-29 23:46:43,Adam Charron,Simplifiy utility type,False
+a7e5fbda008c9ca032a6b5eb51197e087d15086b,2018-12-29 23:15:28,Adam Charron,Add section on HoCs,False
+02b813ba328d25e4e01f9e812280cfb0edca8201,2018-12-28 10:36:54,swyx,"move down commenting components and update design system seciton
+
+move down commenting components and update design system seciton",False
+bf02a899bb7e4bfdb70e5188878bb585865458f1,2018-12-28 10:17:43,swyx,"Merge pull request #59 from p0o/add-string-literals
+
+Adding string literals example to basic prop types",True
+a31bd8b2b5d50832b9ab5a6cd27430d3fd0551b2,2018-12-28 10:16:32,swyx,"add comments on prop type examples
+
+add comments on prop type examples",False
+888c94ce2e99c42982baae21abc5c59acf7f6af3,2018-12-28 10:11:25,swyx,"add commenting components
+
+add commenting components",False
+4d658d1ea4cc919d9a39fe43a1e85d87052dd9e0,2018-12-28 10:06:49,p0o,add string literals example to basic prop types,False
+77f146ce9a330bdff423b53ba7fd4d40b1511ecb,2018-12-26 05:43:48,swyx,"recommend rares matei's course
+
+recommend rares matei's course",False
+099c598bccb60fc1f6f239fd1e5ec3d5236c5b57,2018-12-26 05:10:19,swyx,"add unknown type
+
+add unknown type",False
+2e64fdb4fa35aaa643be266c1dc00b29e3f697eb,2018-12-25 23:17:09,swyx,Update README.md,False
+891f759f7752f3a932760ce90eae9d238c7d4f36,2018-12-25 22:42:08,swyx,"flesh out union types and add type guarding section
+
+flesh out union types and add type guarding section",False
+1ef5648700f4d05ac7b90e348cd83a905b34eac6,2018-12-25 22:20:46,swyx,"add esModuleInterop and other notes to tsconfig
+
+add esModuleInterop and other notes to tsconfig",False
+805d84ed1f898983573be44260287926ec7b987a,2018-12-25 22:09:01,swyx,"add strictPropertyInitialization to tsconfig section
+
+add strictPropertyInitialization to tsconfig section",False
+73308005d8ac8d11c3642b5f55ee7bbbf5851530,2018-12-18 12:49:26,swyx,add ben awad's codeponder,False
+ed944082ebc6845a53db274320ca01507c61b868,2018-12-16 07:23:25,swyx,streamline starter kits,False
+b3f4a44a7cc476a3fa7336f90f5c888709ab25d3,2018-12-15 20:39:43,swyx,add conversion guide,False
+972e4d998c8f15e0867c48599bd750828c10083d,2018-12-15 14:49:18,swyx,Update README.md,False
+ad1d7211e70bc958b10168239000fc54c08a297e,2018-12-15 01:18:42,shawn wang,"update typescript version notes
+
+update typescript version notes",False
+5006c81a97b9ebda127aeb77a516e8a712f4ccf9,2018-12-15 01:02:54,shawn wang,"incorporate Ferdy's feedback
+
+address https://github.com/sw-yx/react-typescript-cheatsheet/issues/57",False
+68fada61778f9c53cd5f05fb94ab961b15161072,2018-12-12 21:40:18,shawn wang,custom hooks advice,False
+fa68a70448a19160db935cdd88531a6759b98fa0,2018-12-11 22:28:47,shawn wang,"Merge pull request #55 from paulmelnikow/patch-1
+
+Remove CRA-TS",True
+507424b39d0798978eae12365b505f00669d8c70,2018-12-11 22:09:15,Paul Melnikow,"Remove CRA-TS
+
+CRA-TS has been archived by its author. It's no longer being supported.
+
+https://github.com/wmonk/create-react-app-typescript/issues/437#issuecomment-443752823",False
+c855b369ca1981312e067bebc3ac432cb465e233,2018-12-10 20:53:44,shawn wang,add some notes for React.useState,False
+b9e3bd8ac6c84753ab4724f2bf815e40990dcf7e,2018-12-07 11:06:47,shawn wang,"Merge pull request #53 from jxom/patch-2
+
+Add placeholder for Hooks",True
+327527552ebc92254d9408f3a76c94b21625218f,2018-12-07 11:06:30,shawn wang,"Merge pull request #52 from jxom/patch-1
+
+Convert React.SFC to React.FunctionComponent",True
+35047917db90a0d5fbda9b54b6c77563c9413385,2018-12-07 08:58:29,Jake Moxey,Add placeholder for Hooks,False
+0362cb8420cea9f6d3f99eab790cfc4d092106c2,2018-12-07 08:52:14,Jake Moxey,Convert React.SFC to React.FunctionComponent,False
+0bf912c0038f201463d5c409bd33cf8d8ab8997e,2018-12-01 17:37:18,shawn wang,"add jen luker's resources
+
+from https://twitter.com/knitcodemonkey/status/1068581997587587077",False
+7108f18bfba4cb6511b9ca9bd23ffea39cb677c9,2018-11-07 07:04:56,shawn wang,"Merge pull request #51 from ianschmitz/patch-1
+
+Add Create React App to starter section",True
+f63ee72924bfc432784b33920315fe03a1d9a798,2018-11-07 07:04:26,shawn wang,update CRA with typescript docs,False
+37267ebf6fb020930c84b7b899e37e6128b5e506,2018-11-06 10:24:28,Ian Schmitz,Add Create React App to starter section,False
+45609aee6c9e6a38ebee15dee100ad5e61684f13,2018-09-21 13:49:11,Islam Attrash,"Merge pull request #44 from jakoblind/patch-1
+
+added starter kit link",True
+b334cbcb2168b079ec95513f7a9c955cf4dbfba0,2018-09-21 13:48:23,Islam Attrash,Merge branch 'master' into patch-1,True
+94582dccf12bd779a8d991a8c9ec845f0376be6f,2018-09-21 13:40:10,Islam Attrash,"Merge pull request #45 from tsriram/typescript-case
+
+Use right case for TypeScript",True
+cc7ec6084ca134bbd97ed9bf53b9d64ed884546c,2018-09-21 09:17:50,Sriram Thiagarajan,use right case for TypeScript,False
+ad0b6f5e74b9a9d4e57c0a5df3c6940f019228cd,2018-09-19 13:10:35,Jakob Lind,"added starter kit link
+
+Added link to webpack config tool that lets users create webpack project with React and Typescript",False
+bfef5c4c89320022606f5162d5909e1e9ccf2a17,2018-09-12 20:23:35,shawn wang,"Merge pull request #43 from mjkramer/master
+
+Explain declaration merging for buggy libraries",True
+ea63b3a3ab5b3b57abf9bafa23521021494a5f85,2018-08-31 07:01:49,mjkramer,"Explain declaration merging for buggy libraries
+
+Factor out a new section, ""Troubleshooting Handbook: Bugs in official typings"". Add example of declaration merging.",False
+e0bed8872534a76ed4eddbea3477350c49732a03,2018-08-06 19:51:28,shawn wang,"Merge pull request #42 from orta/patch-1
+
+Adds Artsy's TS + React example repos",True
+0799b69aaea6f8f37df2977740027df14e8820f1,2018-08-06 01:57:38,Orta,Update README.md,False
+5c5ecadff8f28193d9d87ae9f898597d06f6a5e9,2018-08-03 10:29:02,shawn wang,add typing local override,False
+87ab19ebd32c5fef15ec4d693d812dc2b7c7dfa7,2018-07-31 04:15:59,shawn wang,Update README.md,False
+021c5fce55a2ecdaf5e2bf8f89173bf01b1f6216,2018-07-31 04:07:17,shawn wang,"add new Typescript Version Section for 3.0
+
+add new Typescript Version Section for 3.0",False
+609795730dd17eb24d856475fe46bd954a78890c,2018-07-26 02:06:22,shawn wang,"Merge pull request #39 from lazarljubenovic/patch-1
+
+do not mention autocomplete and fix a minor typo",True
+94268c0873dd1dfcfb34512508f362c7a4543041,2018-07-26 01:30:07,Lazar Ljubenović,do not mention autocomplete and fix a minor typo,False
+e1e8fc0128a479d26d14258f9e18bdb4441427bd,2018-07-16 21:53:05,shawn wang,"Merge pull request #36 from jpavon/patch-1
+
+add react composition example",True
+1090bd413cfa23462aa7c91eb818c51c716819cd,2018-07-15 08:49:04,shawn wang,"Merge pull request #30 from NullVoxPopuli/patch-1
+
+Add example of TodoMVC",True
+628b3660cfac9eadb57494dfda5108249f460f1b,2018-07-13 17:50:08,Julio Pavón,minor change,False
+075c6775330c090ba4695a42bbb0ea020f71d360,2018-07-13 17:02:23,Julio Pavón,add react composition example,False
+30c7bd4ee6d4861a47b83cc640ab7d721f97951d,2018-07-11 21:39:46,tsiq-swyx,minor cleanups,False
+47ccebe56307610b8ddf2f82ae6cec25fa2700ca,2018-07-11 21:37:53,tsiq-swyx,"add conditional rendering
+
+cc https://github.com/sw-yx/react-typescript-cheatsheet/issues/12#issuecomment-403960034",False
+7bb9319c1ab5b3ef0256d4ab39b5075169f0b63a,2018-07-10 22:59:14,shawn wang,"Merge pull request #35 from MarkPollmann/fix-toc-links
+
+fix ToC hash links",True
+144e9f84bb62b1f79a92a5107ebe003755153c00,2018-07-10 14:31:00,Mark Pollmann,fix ToC hash links,False
+6538d189d12de266d1cbbde2ea5ef2d279bdbb85,2018-07-08 19:03:23,Islam Attrash,"Merge pull request #34 from codepunkt/codepunkt-defaultProps
+
+Update defaultProps suggestion",True
+a41fba0b02a3a45933ff653654058740e88a812f,2018-07-05 22:31:19,Christoph Werner,"Update defaultProps suggestion
+
+1. firstProp needs to be optional in the props Interface in order to get no errors when using MyComponent without it
+2. the static defaultProps has a public modifier on the react typings, so it's good practice to also do this in extended classes.
+3. state generic can and probably should be omitted when empty (readability)",False
+97abc94c4121ab2254887f9f197f16124522e430,2018-07-01 23:05:21,shawn wang,"Merge pull request #33 from xaviergonz/patch-1
+
+shorter syntax for createRef",True
+20cd1e1dd4a33e87f7a32c9f5d5ff18417badaa3,2018-07-01 14:26:43,shawn wang,"reworked the CRA headers 
+
+because of ongoing tslint issues",False
+920043eaf355dffb678fb686d97fca2569852514,2018-07-01 14:20:50,shawn wang,"Merge pull request #31 from jpavon/patch/add-new-starter
+
+add new react-scripts-ts starter",True
+66cb10f5adf3b43a0e9cdfd8d601ad225db2afeb,2018-07-01 14:18:27,Javier Gonzalez,shorter syntax for createRef,False
+8af4e015c1eb810012d0e52f29178b23ee563ecf,2018-06-25 17:19:42,Julio Pavón,add new react-scripts-ts starter,False
+48233ad59d0bbae15ae53a8de785514224ca09fc,2018-06-24 23:12:13,L. Preston Sego III,"Add example of TodoMVC
+
+- React
+- Redux (domain concept layout)
+- Typescript
+- Real Acceptance Testing
+- Real Integration Testing",False
+5f704c67e3de1388dd08b2a83ab3be605280fdb0,2018-06-24 14:10:30,Islam Attrash,"Merge pull request #29 from MarkPollmann/patch-1
+
+Update README.md",True
+faff973db59d5c4db14b72d445c6d3ce589ecd8e,2018-06-24 13:21:25,Mark Pollmann,"Update README.md
+
+Small fixes. Thanks for this great resource!",False
+14e276d39d46a01d3607518b5e699dae7c17cc1b,2018-06-20 00:24:09,tsiq-swyx,"Merge pull request #20 from spoeck/patch-1
+
+add a starter kit for material-ui",True
+6bae60155d688a867b317b96d60656997c06ce9e,2018-06-20 00:23:52,tsiq-swyx,"add new boilerplates section
+
+thanks anton!",False
+412825e728d3ad1929b6bc3ef78f126121cee7b0,2018-06-10 04:48:48,tsiq-swyx,add chinese translation!,False
+14aa22d63d84b202c7c96fd60ffdc5409b28a488,2018-06-10 04:40:12,tsiq-swyx,"Merge pull request #26 from tpetrina/patch-1
+
+Add link to Microsoft Starter Template",True
+ac1cfb4fb1bd70dcc212cacec5d7e8d31283b38f,2018-06-10 04:37:40,tsiq-swyx,"Merge pull request #27 from malcolm-kee/master
+
+awesome!",True
+b885ef5199d5611dc587b36d520261527eb422e7,2018-06-09 21:01:27,Malcolm Kee,Using portal with typescript,False
+e2505ad935de85994daf560a6cd11bc75c494949,2018-06-09 20:10:17,Toni Petrina,Add link to Microsoft Starter Template,False
+ea6419fff4b64d91db8a7cdeaec4e557d189cfa6,2018-06-08 20:17:32,shawn wang,"Merge pull request #24 from TomasHubelbauer/patch-1
+
+Contribute an alternative typing example for forms sample",True
+467276989b8c2603035173bebbcb0d72b65dee94,2018-06-08 20:15:53,shawn wang,Update README.md,False
+1bc5838cc183a5270db4a32f40a2e2bbb908bdd9,2018-06-08 20:14:31,shawn wang,"shorten React.ChangeEventHandler example and move to discussion
+
+shorten React.ChangeEventHandler example and move to discussion",False
+d5b7133702ef9af1a30ebd646c756d48c47467ca,2018-06-08 13:28:10,Tomáš Hübelbauer,Contribute an alternative typing example for forms sample,False
+f424a81a15227cf489266dce038dcd2b1acab977,2018-06-08 10:03:23,shawn wang,"add migrating from flow
+
+https://github.com/piotrwitek/utility-types",False
+2bf0472134c7bc6a2c38777d5d484bb5c265d1fd,2018-06-08 05:10:59,shawn wang,"move proptypes section to Misc Concerns
+
+as mentioned in https://github.com/sw-yx/react-typescript-cheatsheet/pull/19",False
+f4dd480a873244012c25de9632966ed628d6c355,2018-06-07 11:09:28,Islam Attrash,"Merge pull request #19 from Attrash-Islam/master
+
+Related to [propTypes with TypeScript #17]",True
+21ccd5194553b1b577254092bf5a15937c61278c,2018-06-07 03:47:01,tsiq-swyx,be -> seem,False
+287505bec9af0e22e29993347163e5e80236406a,2018-06-07 03:46:22,tsiq-swyx,"make it much shorter
+
+make it much shorter",False
+33aea1053f967a8862f49cfc49d8647828019a92,2018-06-07 03:42:33,tsiq-swyx,"Merge pull request #21 from tpetrina/sfc-comment
+
+thanks for the explanation! learned something today.",True
+6fc57d669a927be0821283d7181327a0a1e1d81a,2018-06-07 03:41:51,tsiq-swyx,add attribution,False
+d15c3dcfecc9966453f8310268da3992c3597682,2018-06-07 03:40:30,tsiq-swyx,add detail/summary wrapper,False
+b88c3d72609806640402c7482e9023659227eddd,2018-06-06 22:34:03,tsiq-swyx,"Merge pull request #14 from azdanov/patch-1
+
+Update Prettier + TSLint section",True
+78fad006411a69dc02762233bea5062d01e9f9de,2018-06-06 22:33:18,tsiq-swyx,adding attribution!,False
+f92bf029498d2bb2c3b9009bc2bfb687bd0a8fc8,2018-06-06 21:26:37,Anton Zdanov,"Add external repo for tslint + prettier + eslint 
+
+An example repository for integrating prettier, eslint and tslint together.",False
+03dd05ac277e020372b1abe5ce327746afdb3cc6,2018-06-06 15:50:27,Toni Petrina,Updating SFC example,False
+60e7ed83bab484257152b8dd83cee4fed2dabd4b,2018-06-06 14:55:40,Anton Zdanov,match style for link in eslint + tslint section,False
+6975601a53018fbda24d7721784fe2ec44d9054c,2018-06-06 13:30:34,Anton Spöck,add a starter kit for material-ui,False
+1a9dbe4972d1dd0346da6a04d4ca17da91c656d9,2018-06-06 12:12:36,Islam Attrash,Related to [propTypes with TypeScript #17],False
+2093a4b21d07f5dc54166a32efa654da45629c2b,2018-06-05 21:51:40,Anton Zdanov,Add ESLint + TSLint section,False
+9b22ee82023fb854f35dba3792169314b83c7572,2018-06-05 17:21:25,Islam Attrash,"Merge pull request #18 from Attrash-Islam/master
+
+added forgetten ""Something to add""",True
+c210edd3b39137f2c1ca4441fea6815ea71a4f04,2018-06-05 17:20:06,Islam Attrash,"added forgetten ""Something to add""",False
+75826f028cb1541eedd102f2d74b4ece29ba1af7,2018-06-05 04:49:37,tsiq-swyx,add small answer to types vs interface question,False
+5a79f688d84cc5e82945b2036ac23071cfecd46a,2018-06-05 04:26:36,tsiq-swyx,"Merge pull request #15 from Attrash-Islam/master
+
+[defaultProps] - Related to ""How to handle default props?"" #4",True
+d701fad17607f00e01b3e79ac2b43f97bb347009,2018-06-05 00:59:41,Islam Attrash,Update README.md,False
+7c876bea4f04720a908f83c88c09e2f69eef1e2b,2018-06-05 00:56:27,Islam Attrash,Update README.md,False
+4ce53bcc7b695e01efd1c10090460e2733b788dd,2018-06-05 00:55:45,Islam Attrash,Merge branch 'master' into master,True
+c290af025224e704aa85af8f50025d2758b92246,2018-06-05 00:52:50,Islam Attrash,"[defaultProps] - Related to ""How to handle default props?"" #4",False
+9046b4856234b735297f65e68d7785278522f3bb,2018-06-04 22:21:32,Anton Zdanov,fix toc for prettier + tslint,False
+4d62c8667ab65ed422a844a99959388bcc94a250,2018-06-04 22:18:38,Anton Zdanov,Update Prettier + TSLint section,False
+04fe13ef60a048c6e88ca425d2d285ddb8715409,2018-06-04 20:49:15,tsiq-swyx,"add some structure, recognize contributors inline for now",False
+326f63cafd04d39a587c7990fcc5853abf0b33f3,2018-06-04 20:31:23,tsiq-swyx,"Merge pull request #13 from jpavon/patch/context
+
+this is great! thank you! I might have to reorganize a bit, i'll do this after merge",True
+00cff4a8df39a3b2504833be75afcd99a90670a7,2018-06-04 17:56:51,Julio Pavón,add context typings,False
+5b81f3cf79a1461a217b1c351c4b1335327363e2,2018-06-04 00:05:59,shawn wang,Create CONTRIBUTING.md,False
+acc6a66fbdad56f6c6d942bcdf91bc3e034cf6ab,2018-06-03 23:55:30,shawn wang,"welcome Islam Attrash as maintainer :)
+
+welcome Islam Attrash as maintainer :)",False
+930838407a90ba67556b348eaf5056540b063230,2018-06-03 23:34:56,tsiq-swyx,"add defaultprops and fixes from reddit discussion
+
+add nitpicks from clutchhunter https://www.reddit.com/r/reactjs/comments/8o5owb/react_typescript_cheatsheet_for_react_users_using/e01d2md/?context=3
+
+add defaultprops discussion https://github.com/sw-yx/react-typescript-cheatsheet/issues/4",False
+df8cba4e5a4dbea7fe9c04b2c99e2b3ccca4e3fa,2018-06-03 22:46:36,tsiq-swyx,"Merge pull request #11 from antmdvs/patch-1
+
+Added codesandbox link",True
+f5ca9eb3d18ad515e28c3327ba63c98927cf3286,2018-06-03 22:46:02,tsiq-swyx,"Merge pull request #10 from jasanst/patch-2
+
+Update README.md",True
+1c5365c640983a9a5e93ddfb642272afb64fe99f,2018-06-03 09:42:09,Tony,Added codesandbox link,False
+592e5e67e857f031362fdab466fab41cf337399f,2018-06-03 09:21:59,jasanst,"Update README.md
+
+Using this.state in setState is discouraged due to potential timing issues.
+
+Might want to rethink the union type example, addition to null would give a type error and the fix looks unwieldy.",False
+e3b07b034b2164e65df5337977276bc0f5571cff,2018-06-03 09:11:10,shawn wang,"Merge pull request #9 from jasanst/patch-1
+
+Update README.md",True
+08c25f3a71a7b4690710da57be5637d69148004c,2018-06-03 08:57:09,jasanst,"Update README.md
+
+Fix Stateless Functional Components syntax - was previously renaming.
+
+Advice should probably be reviewed as now much more debatable which syntax is better.",False
+350bc9d24798fa4153757a6a48956595b3c0db14,2018-06-03 08:45:59,shawn wang,Update README.md,False
+7705fa70b97fe90387e50549862ca73caf9ca023,2018-06-03 08:02:48,shawn wang,update esmoduleinterop advice with Daniel rosenwasser,False
+96560e6313afcf218ed643b8272560c3f5c470b9,2018-06-03 07:06:04,shawn wang,Update README.md,False
+82bac1aee50d8b90424031955d0c81610b65199d,2018-06-03 02:58:28,shawn wang,fix text,False
+bf27ba80db11081eab338ff1dbe7edb5c39c8a22,2018-06-03 02:11:22,shawn wang,Update README.md,False
+333abb0c2fe67ba93d374ff2fe1f6e74ac669d96,2018-06-03 02:04:10,shawn wang,Update README.md,False
+c8b8c714a41fd661f1388d659653ba56135679ad,2018-06-03 01:57:29,shawn wang,Update README.md,False
+969325e25355500123e2c159970dd5667a4ca9ad,2018-06-03 01:24:48,shawn wang,Update README.md,False
+fefbb3261869343d0d088d936f1b304f12e5af49,2018-06-03 01:21:07,shawn wang,fix some headlining,False
+d74271d3d8be633abcddcfa62c49557441e729e7,2018-06-03 01:06:50,shawn wang,Update README.md,False
+1dc52181967a4629534becd09c95d7aa9d14a00c,2018-06-03 00:55:12,shawn wang,add enums,False
+2509ebbe59e600fcfef3dff6542a090d632e1afd,2018-06-03 00:50:18,shawn wang,add omit types,False
+432b7e368aef7efcd3e4ac64c7b5717fe02e7c82,2018-06-03 00:41:50,shawn wang,Update README.md,False
+e5b0c163368e545e687042ea1267987982b20df4,2018-06-03 00:36:21,shawn wang,Update README.md,False
+ee8dbe8ed9c7a44009534eba5ca110d2a9e47cd7,2018-06-03 00:34:38,shawn wang,tslint,False
+c3e1694aa332c73ef76017bdb79c957e97e4eeec,2018-06-03 00:22:51,shawn wang,"Merge pull request #1 from tsiq-swyx/patch-1
+
+Update README.md",True
+ed17ccf3c074dff8df47fe4ee079b23d01664dd2,2018-06-03 00:21:50,tsiq-swyx,Update README.md,False
+75e0e6f7846895148a30126bdc7b8dd8a40d8c78,2018-06-02 10:27:42,shawn wang,Update README.md,False
+54eb20add3b7931b971ad332aaa7f90d7dd3d101,2018-06-02 10:26:06,shawn wang,Update README.md,False
+0516286d1403fbeb744f43abe514f4805df41c5b,2018-06-02 10:23:50,shawn wang,Update README.md,False
+7054df3276444c57280427c7f81979fb2a423400,2018-06-02 09:43:28,shawn wang,Update README.md,False
+76126e9ebd1dade4bc83f13dbf4ddf2c4855fa0d,2018-06-02 09:38:16,shawn wang,Initial commit,False

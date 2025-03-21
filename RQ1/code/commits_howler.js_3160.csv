@@ -1,0 +1,988 @@
+Hash,Date,Author,Message,IsMerge
+a2a47933f1ffcee659e4939a65e075fa7f25706c,2024-06-23 21:47:53,James Simpson,Update BACKERS.md,False
+003b917c40cb41cf382ba47ae0ed7a35ca2abe76,2023-09-19 20:29:05,James Simpson,v2.2.4,False
+cf2969c0ae13aad326ed076818acb122707d68d2,2023-09-19 20:21:19,James Simpson,"Merge pull request #1676 from bikubi/fix-opera-v100-codec-mp3
+
+fix old opera detection for three digit version numbers (100+)",True
+aceef4ecbe0d7567cc2fbd10d22acc4d8a41fdc1,2023-09-19 20:20:45,James Simpson,"Revert ""build dist artifacts""
+
+This reverts commit ccefca396d2c6f852069b1925f9edc04be3f89a8.",False
+ccefca396d2c6f852069b1925f9edc04be3f89a8,2023-08-12 21:02:44,Jakob Wierzba,"build dist artifacts
+
+note: contains also previous commits
+dab32ba9e4f2f8059613cdaa8836dd336f2bdc7e
+f128f9d975c2bc87610eac0eab5239980b3a4dda",False
+1c321c0b41350665a7321eb51abdd5abbf5b88ff,2023-07-31 14:00:49,Jakob Wierzba,fix old opera detection for three digit version numbers (100+),False
+9610df82fb93467d62f25a7b1682d534923dc963,2023-04-21 13:41:44,James Simpson,Update backers,False
+20163000723c7e1b6b226444a862b573bc1ae31d,2023-02-21 00:25:49,James Simpson,Update backers list,False
+1f8e7cac9fd0ff80407d883f8456ed4f6851a5c6,2022-12-14 23:56:52,James Simpson,Update backers list,False
+143ae442386c7b42d91a007d0b1f1695528abe64,2022-01-24 05:07:28,James Simpson,Create a pull request template,False
+0434b073f0eeeeb4b1a268b9156ff0df92532266,2022-01-24 04:51:58,James Simpson,Create initial github issue templates,False
+8f2a1956fd7078b10a7e2c5820b3512995bd552c,2022-01-24 02:04:00,James Simpson,"Merge pull request #1553 from fishmandev/patch-1
+
+Fix a typo in README.md",True
+7fc2da2fba66c46bad41070c3642b62d54c6a2d5,2022-01-21 21:18:20,Dmitriy Fishman,Fix a typo in README.md,False
+f128f9d975c2bc87610eac0eab5239980b3a4dda,2021-12-20 04:15:33,James Simpson,"Fix pannerAttr() not saving values on first call
+
+Fixes #1497",False
+dab32ba9e4f2f8059613cdaa8836dd336f2bdc7e,2021-11-29 04:12:40,James Simpson,"Don't clear a bufferSource that doesn't exist
+
+Fixes #1508",False
+d349826d937475b192a6cff7535545f84aa926d5,2021-11-29 02:06:49,James Simpson,"Merge pull request #1533 from B4Lee/patch-1
+
+Fix streaming links in radio example",True
+5aa0688f0368bfdaf2c2ba024f88d3c4ae74843d,2021-11-23 22:14:18,B4Le,Fix streaming links in radio example,False
+4537db79b3dca9ed490ee22cbb17048d4cba7316,2021-10-10 04:44:10,James Simpson,"Merge pull request #1512 from shreyas-jadhav/master
+
+Documentation fixes",True
+621f6a74890bff468ecd3de8d8753863f92aeffd,2021-09-15 21:23:47,James Simpson,Update backers formatting,False
+3c44eb68a0889bb2aaa3112e7a0f0f90e4df337d,2021-09-15 21:22:37,James Simpson,Update backers,False
+ef60331c48a62132788847a672b61cc3f0e48f4b,2021-09-13 00:08:20,James Simpson,Add sponsors/backers section,False
+c1a027d8297dc332448ed8884be94519f72ef3a5,2021-09-12 23:41:10,James Simpson,Create FUNDING.yml,False
+b9f74087e53e5c790089fd68aa192c00a8c2c4b9,2021-08-27 17:49:37,Shreyas Jadhav,"Fixed typo
+
+inclues -> includes",False
+3835ab889824c52fc9257ca7cfe4295828e91131,2021-08-19 03:39:06,James Simpson,Clarify group docs,False
+17c3d3d7aedc58f1d0ba1aa0fe94ddda6039e53a,2021-07-01 00:15:52,James Simpson,v2.2.3,False
+e667b8b5164cb9c61d101875649f6d9f11c341c1,2021-07-01 00:14:49,James Simpson,"Fix error with Safari UA check
+
+Fixes #1491",False
+4957be0dd1b473ef94e3db260914bebed2a577d6,2021-06-28 04:52:31,James Simpson,Fix typo,False
+97cfa132b3900151ab0fbf5710517b7997a5d093,2021-06-28 04:51:50,James Simpson,v2.2.2,False
+09a3b289bc78a9134d7426f27c39d728df6242c5,2021-06-21 03:45:33,James Simpson,"Disable WebM on Safari <15
+
+This is a temporary measure as Safari isn't currently decoding WebM files correctly This issue is being tracked in #1476.",False
+309376bcc204df69cdc79f7dad20974c63b98cb5,2021-06-21 01:18:55,James Simpson,Fix formatting issue,False
+94b617c054343979b1db3cddb4316ae4d16f3db1,2021-06-21 01:17:56,James Simpson,"Add list of load error codes from the spec to docs
+
+Fixes #1370",False
+fcbe3e1866594670d0f1c8c9313394357c51b1a3,2021-06-21 01:12:17,James Simpson,"Add explanation of howler distribution files
+
+Fixes #722",False
+8135725f18f8a7262f88c5bd86fcecd9d075bc4c,2021-06-21 01:05:58,James Simpson,"Add docs to clarify what group playback refers to
+
+Fixes #982",False
+8c1e020ca716435a677d4753e7ae3e7d52e915fb,2021-06-14 03:00:35,James Simpson,"Merge pull request #1444 from LandrAudio/fix/buffering_loading_state
+
+fix: set state to loading when sound is buffering",True
+ddb34c32827b7c7aba9d5140a3f595a9f851a3e9,2021-06-14 02:49:47,James Simpson,"Merge pull request #1483 from mihailgaberov/patch-1
+
+Fixed typo.",True
+cf206ab6d3c7e82d3cf51f070b6f876a980663eb,2021-06-10 13:10:38,Mihail Gaberov,Update player.js,False
+69946c4a12105bde2428351dc440914051f36386,2021-06-10 13:08:58,Mihail Gaberov,Fixed typo.,False
+0323af9b843351cacc47893aed8e65cd8ba3b0cb,2021-05-30 03:58:18,James Simpson,"Fix edge case with pause called after seek before loaded
+
+Fixes #1439",False
+3e1cb2070b62ff099f0f7f109d37e58aaacc321a,2021-05-17 04:33:39,James Simpson,Simplify fix for looping in Firefox,False
+cf485cca0d1dd825d9f9e5c81bfdeb02de76b786,2021-05-17 04:32:56,James Simpson,"Merge pull request #1445 from themoonrat/bugfix/firefox-loop-error
+
+Forces a buffer refresh if sound is set to loop, and is already playing",True
+119d31ae2aa9b4b7ec93e2b33de2705be37bb549,2021-05-17 03:30:03,James Simpson,"Add example for streaming audio
+
+Fixes #1429",False
+0b82b30943ff80e6cb8cdfe9f6928ddd39e9adad,2021-05-17 03:26:06,James Simpson,Return seek of 0 if track is still loading,False
+e9b62416742d0cd88b366dcb8ad68c3396f58b49,2021-05-17 03:25:39,James Simpson,"Merge pull request #1423 from rigobauer/fix/seek-not-checking-sound-is-loaded
+
+fix: check that sounds are loaded in seek (returning current position)",True
+d165bfd6bf2cf3c743bc7efce0599db71a8fb5cb,2021-05-17 03:14:06,James Simpson,"Merge pull request #1417 from Studiosity/master
+
+Include keydown event when unlocking audio",True
+59cdf90a7793bfe158adae780f82a898e4e44514,2021-01-25 17:58:59,Dave Moore,Fix double looping sound,False
+94b247c371e9a18433a13fc8705f97188398434c,2021-01-22 22:39:08,Dave Moore,"Forces a buffer refresh if sound is set to loop, and is already playing
+Required to fix Firefox no longer looping
+https://github.com/goldfire/howler.js/issues/1442",False
+6161691b738753c6543d9340b1bb8e27c4a20335,2021-01-12 07:01:52,Maxime Peloquin,fix: set state to loading when sound is buffering,False
+42d150685025b27f602a0be178c76a0e14f8ed9d,2020-11-10 15:21:48,Alberto Iglesias,fix: check that sounds are loaded in seek (returning current position),False
+d62034b6ff57fc2b37bd160a38389f156e60f6c1,2020-10-27 09:39:50,Andrew Bromwich,Include keydown event when unlocking audio,False
+7c50da154af52bd4971ae75acbf6c078d256cd12,2020-10-25 20:42:12,James Simpson,v2.2.1,False
+2dbaa5d0b30e17adb978ffb81f3e1ea71e78d8f2,2020-10-25 20:40:39,James Simpson,Fix streaming links in radio example,False
+0629f9eae244637589f42dc71f683ddf836a79b1,2020-10-25 06:27:05,James Simpson,"Merge pull request #658 from golddranks/master
+
+Fixed an edge case with Safari (""infinite"" html5 audio -> the end event won't run)",True
+2e5c75271f56ee8528c49675a6894223600aaea6,2020-10-25 06:26:32,James Simpson,Merge branch 'master' into master,True
+51862545ed2030cf84595443dacc507f7fbf6493,2020-10-25 06:25:13,James Simpson,Cleanup and clear event in unload,False
+289bcda97d7998d832257f3ed5bc3837b2156379,2020-10-25 02:38:11,James Simpson,"Don't add seek without value to queue when loading
+
+Fixes #1189",False
+f851cad1196fc47457066bf5816eb4c13a5d7335,2020-10-25 02:21:31,James Simpson,"Merge pull request #1369 from alvov/issue1368
+
+Fix: fading never resolves in some cases (fixes #1368)",True
+979317c33f16ab1175c4b51b574cf4e57297d2ef,2020-10-25 01:45:35,James Simpson,"Merge pull request #1415 from jusephe/fix-wav-support-in-safari-14
+
+fix wav support in Safari 14",True
+9f7521e8da3aea6351453649bb8d2f23b0a68a46,2020-10-23 20:47:08,Josef Šupka,fix wav support in Safari 14,False
+97b10106c244e0f95077561aae1d512522c6d015,2020-10-04 20:01:52,James Simpson,"Merge pull request #1404 from ubershmekel/patch-1
+
+Missing backtick in README.md",True
+e8be99c4b1ae49c5769ac8be26a9b5fd72a7e093,2020-10-04 05:36:10,Yuval Greenfield,"Missing backtick in README.md
+
+Where it said `exponential`",False
+fa7bc9ded25325bc254f0180d436208498af98ac,2020-07-06 21:46:16,artemlvov,Fix: fading never resolves in some cases (fixes #1368),False
+9117525f0883ddb995f99ee843bba7f6d3442590,2020-05-18 02:01:11,James Simpson,Fix typo,False
+a093f49341c5517d4d6a699e2a49549dd2108e45,2020-05-18 01:54:44,James Simpson,v2.2.0,False
+a7ad26c73e9cc7c0469e76fe4e7c7080d7d3c348,2020-05-18 01:47:31,James Simpson,"Change xhrHeaders to xhr and include method and withCredentials
+
+This introduces a small breaking change, but I think it is worth it to bundle all XHR-related properties under a single property.",False
+894b1e9a5850327977747f10c4a2294eb362af50,2020-05-18 01:33:12,James Simpson,"Merge pull request #1106 from alvov/issue928
+
+Fix: Sounds stop playing after context is interrupted (fixes #928)",True
+e580f8e580326fce2283af79e8f5bd2ea8bac239,2020-05-18 00:59:00,James Simpson,Make sure fade to/from are within 0-1 bounds,False
+f58dab1314e5aeaf60a4af2cbb29c362aed8a528,2020-05-18 00:58:11,James Simpson,"Merge pull request #1045 from Megabyteceer/master
+
+.volume() is wrong after fade",True
+2080398998a6247b8a08f5958c323cb74d6c866a,2020-05-18 00:42:01,James Simpson,Merge branch 'master' of github.com:goldfire/howler.js,True
+3ebe623ae484802c9f67f91c6a9a9c208143353d,2020-05-18 00:41:50,James Simpson,"Add ""m4b"" format to docs",False
+cad7e65d8c66b3e595a168ffea75a6eb442fbff3,2020-05-18 00:41:12,James Simpson,"Merge pull request #1170 from etopian/fix/add-m4b-support
+
+Added support for m4b",True
+30964ea4ff80bc0d6c026b938c7f308532d2ad9f,2020-05-18 00:36:03,James Simpson,Document the new preload metadata option,False
+c960a92b4234060fa07cabcc9be06e4bbaa43fff,2020-05-18 00:33:31,James Simpson,"Merge pull request #1140 from crazywire/preload-property
+
+Added 'metadata' option to preload",True
+9075ba28e88af23f72d8013af351fd3691dce514,2020-05-16 02:22:41,James Simpson,"Merge pull request #1338 from Jimbly/fix_safari_leak
+
+Fix leaks when audio context cannot be unlocked (MacOS Safari)",True
+27d2e6cadc953694a7044e5f352f27f92c2654d2,2020-05-15 22:28:44,Jimb Esser,Fix leaking Audio elements when audio context cannot be unlocked (MacOS Safari),False
+7c331ec6550a7c644401fc0d02a6d32cf52c42e4,2020-05-11 04:26:48,James Simpson,"Merge pull request #1331 from newapx/patch-1
+
+use jsdom-global: error HowlerGlobal is not defined",True
+f29cd75266f1ac231e8bfb470bafba1bfec24893,2020-05-03 14:37:14,newapx,use jsdom-global: error HowlerGlobal is not defined,False
+769ba5eefc82d3200278981b2ed1354cc1659971,2020-05-02 02:06:45,James Simpson,"Merge pull request #1329 from dcress/patch-1
+
+Spelling ""psotion"" => ""positions"".",True
+0c8012a09f3b7dfb3324475f874a1edadc7e05ad,2020-04-28 23:49:36,Daniel Cress,SP.,False
+e2b72fe720628cbdcfa12eb65603aafb0667c895,2020-04-04 04:03:56,James Simpson,"Add a global stop method
+
+Fixes #1308",False
+09dc0fbd17ba0ee97fa72ee59e2140468a685958,2020-04-04 03:51:32,James Simpson,More doc tweaks,False
+d25ddd653adfc6a73a3a74c7e231d00f19937809,2020-04-04 03:49:43,James Simpson,Change headers param to xhrHeaders and add documentation,False
+bd9e34e33b5054c6ebb8ee2767455353adfa6112,2020-04-04 03:46:17,James Simpson,"Clean up and simplify the custom headers parameter
+
+References #997",False
+c9ca0be1ec7da2dd4c9ac6fb901151607ef6fdb6,2020-04-04 03:36:48,James Simpson,"Merge pull request #997 from kalizi/master
+
+Added custom headers parameter in init when using XHR to fetch audio",True
+375de3adca617d7aedefb99d192f252988392b2c,2020-04-04 03:31:06,James Simpson,"Merge pull request #1295 from Malows/master
+
+Simplifying a boolean expression",True
+3d2901abce291a6a375deb9bd58abee761118b97,2020-02-22 00:53:15,Juan Manuel Cruz,"Simplifying a boolean expression
+
+Let me explain the simplification.
+With
+ `Howler._navigator` as `A`
+ `Howler._navigator.standalone` as `B`
+ and `!safari` as `C`
+ The complete expression will be `(A & B & C | A & !B & C)`.
+ Repleacing the ands as multiplications and the ors as additions
+ you could move A and C outsite of the ecuation.
+ So, you'll have `(A & C) & (B | !B)`. B or !B it's allways true,
+ ergo you have `A & C` as your resultant expression.
+ And A it's only used to avoid a posible runtime error I guess",False
+8009de2d7a5e81fb92e1f7968bd5bfa89002fe42,2019-12-28 02:48:59,James Simpson,Add Twitter link to README,False
+2ad86824cb07164365d3710d7f4a50c2dbf15df5,2019-12-25 04:06:57,James Simpson,v2.1.3,False
+b137373ee61d36ddb70fdeb5cd6945e87e50c80d,2019-12-25 03:38:59,James Simpson,"Merge pull request #1261 from theodiablo/patch-1
+
+Update playing documentation in README.md",True
+0bb4b1025e9c0578d405faaf2dfd0e611f2c66c7,2019-12-11 22:10:31,theodiablo,"Update playing documentation in README.md
+
+Update the documentation of playing function, the description is clearly saying that if no ID is passed, there will be a result anyway, which makes id parameter optional.",False
+67cd6ce78024aa079a0ec40651a2267c3fb71330,2019-11-25 21:56:54,artemlvov,Fix: Sounds stop playing after context is interrupted (fixes #928),False
+e25974d22234c63873d903a49d45798887904625,2019-11-23 01:49:53,James Simpson,"Merge pull request #1210 from ilyabesk/patch-2
+
+Fix for the issue with volume reset after _unlockAudio()",True
+47c885ce4e8503d5bc6635e10b3baf8166ed6f14,2019-11-23 01:48:38,James Simpson,"Merge pull request #1225 from themoonrat/fix-looping-audio
+
+Fixed audio not looping occasionally",True
+1007c7f876820b2617b7b64d6e8f570bef00c02e,2019-11-23 01:44:31,James Simpson,"Merge pull request #1221 from Joeywp/patch-1
+
+Fix #1112",True
+0030d0234de8044c18f9f59924cda6eb56677128,2019-11-23 01:41:56,James Simpson,"Merge pull request #1252 from wemyss/patch-2
+
+Fix typo",True
+a3f1c4ca57b2f465b9495cab4130bb8209017750,2019-11-18 05:44:50,Wemyss,Fix typo,False
+c64e190730f4f115cdd6fbe5d9b7db81f98a14e3,2019-09-14 21:43:28,Dave Moore,Fixed audio not looping occasionally,False
+7296dda1a13f4b3aac8945d6eebef2d579095902,2019-08-30 23:15:19,Joey,"Fix #1112
+
+The upX/Y/Z used the wrong values which basically bugs Spatial audio on at least Chrome. This change fixes that",False
+f1430edc65e1ac228b516737c0d293f8777831fa,2019-08-19 18:14:34,ilya,"Fix for the issue with volume reset after _unlockAudio()
+
+If the main volume was set before _unlockAudio() is called - it had been resetting to 1.",False
+808fe3421962b04007cc7e58b951c89572fba4ab,2019-07-06 00:23:14,James Simpson,"Don't try to obtain HTML5 audio if there is no audio support
+
+Fixes #1191",False
+c7e182f3ecee7e0a16b90a8b843429f2d1f38d1d,2019-04-20 13:23:10,Etopian Inc,"Added support for m4b.
+
+M4b is a format usually used for Audio Books. This commit adds support for testing for that format.",False
+030db918dd8ce640afd57e172418472497e8f113,2019-04-20 01:43:56,James Simpson,v2.1.2,False
+430276c1bf81b1be02e6e7fb6586bd5299457225,2019-04-20 01:40:41,James Simpson,Update copyright to 2019,False
+5f4c37e0a4123b322f4383f6cc383478570414dc,2019-04-20 01:30:20,James Simpson,Remove browser checks for unlocks since all major browsers now or soon will have auto play locked,False
+365488fa066baacac3c02885a4a57b7ca7f6f381,2019-04-20 00:45:19,James Simpson,"Stop downloading streaming audio when stopped
+
+This also fixes #1129 where stopping in Chrome a 2nd time wouldn't work due to Chrome not resolving the play promise again.",False
+9eac9d9ac6e6ab780251bfee2390b10589dfb785,2019-04-19 23:31:32,James Simpson,"Add Firefox to should unlock list
+
+Fixes #1166",False
+567520b86e34047f8a66861ec9f72e25dd768f16,2019-04-19 23:18:39,James Simpson,"Wrap unlock test in try/catch for Edge
+
+Fixes #1147",False
+ba13a599ab5aff7aa769bdf5f6ea1a88efb8855d,2019-04-01 04:25:19,James Simpson,Remove duplicate stop in radio,False
+8fdd01a2b81dc9f005d3f1a2b43e49a3ad9452ba,2019-04-01 04:23:37,James Simpson,"Merge pull request #1144 from Redsandro/patch-1
+
+Radio: Stopping stream must also stop downloading",True
+ab81ac62a1f9b3fc692c473cf44d186d856ef49c,2019-03-05 19:56:07,Sander Steenhuis,"Radio: Stopping stream must also stop downloading
+
+All streams will download simultaneously in the background, which is a bit selfish.",False
+c9f3e5e9198b1430be03c88fc456a124744bf98b,2019-02-25 09:13:40,=,Used none instead of false for non-boolean and non-string values,False
+91077aafe64d17f384e83065bf40699a9040f1d1,2019-02-24 19:57:13,=,added string option to  preload,False
+9ad4eb1a973ca6faeef476315e39e938bf1547eb,2018-12-21 20:03:20,James Simpson,v2.1.1,False
+e46e35bf31ec3179bfe2a62d3bbb44c9ed4307ad,2018-12-21 19:39:17,James Simpson,"Check src array when unloading
+
+Fixes #1103",False
+d22ddcf76f58861ce23ca1f6fc21d9895c253902,2018-12-20 00:52:46,James Simpson,"Fix regression that broke simple play/pause usage
+
+Fixes #1102 by restoring the check for a single paused sound when calling `play`.",False
+f768964b1617d5582368f399f91d9003547ef8c8,2018-12-12 21:24:02,James Simpson,v2.1.0,False
+1d0abf2939e9c6ab2cefb968b1b3bd604ac06206,2018-12-12 21:19:52,James Simpson,Document the HTML5 pool size property,False
+6c5f42cafd4334e271be2522bf0c74701e40af3b,2018-12-12 21:11:07,James Simpson,Flush the queue in IE11,False
+c10408c22b99dd4089580b97b8788969db3c0254,2018-12-12 20:41:57,James Simpson,Fix more play lock edge cases,False
+febcc4ee66ad18f0b984e623f53a339e05005b72,2018-12-12 20:02:06,James Simpson,Fix another race condition with playing multiple sounds together,False
+bb367571ea57f8a614085f75fdd28975e7973847,2018-12-12 19:51:52,James Simpson,Only throw the HTML5 Audio warning if audio is locked,False
+91d62b61718cf510fd046fd272fea3d04593b624,2018-12-12 00:46:56,James Simpson,"Switch radio demo tracks to use TuneIn to fix Safari issues
+
+Fixes #944 & #1077",False
+8125f01598f8320091cbdd230608690b4123be9c,2018-12-12 00:13:57,James Simpson,Can unlock HTML5 Audio objects by simply creating them inside user interaction,False
+9007cbd96ded01ff2cc8478bf5ec930400cfce78,2018-12-12 00:01:19,James Simpson,"Fix edge case with HTML5 play lock and playing two sounds simultaneously
+
+Because the params were set in the promise, the 2nd play call would grab the same sound instead of creating a 2nd one.",False
+9864b72bbc355ade9ed1cc0a0516e91ce5b4c3f6,2018-12-11 23:56:58,James Simpson,Make sure the queue gets cleared after the play lock,False
+4d4976247943bca6b33fffdfeb41df073f9df070,2018-12-11 21:35:22,James Simpson,Don't try to unlock HTML5 node that is already playing,False
+fb72894558fc94b192b3898720c71d2a7438ea6a,2018-12-11 02:30:16,James Simpson,"Merge pull request #1052 from jgranick/patch-2
+
+Fix `InvalidStateError` on IE11 when playing sound",True
+e2f91223a87b79773498be879b50690ba0b20730,2018-12-10 23:34:56,James Simpson,"Only reset the buffer on iOS when cleaning
+
+This is just an iOS memory leak and throws errors in some browsers that the try..catch doesn't handle (Edge, IE). Fixes #890.",False
+be4e4453c955170327e247bdd8837f74aead6389,2018-12-10 23:08:29,James Simpson,"Remove unnecessary code that the next line already handles
+
+This led to an edge case that fixes #1060 (edge case described in issue).",False
+8cfb3978ec5aa5f2a4028424f5aab9c24a8be9b0,2018-12-10 21:00:10,James Simpson,"Rename mobileAutoEnable to autoUnlock
+
+Now that this isn't just a mobile ""feature,"" we've renamed this property to avoid confusion.",False
+535c26b63925f9001c9e1a6b049c0a2b223f8022,2018-12-09 01:40:40,James Simpson,Merge branch 'master' into pr/1008,True
+1f7f1893bd164d723c050ae662b5774a6896a047,2018-12-09 01:39:20,James Simpson,Clean up and simplify HTML5 Audio pool,False
+37a16054fbe1d9e55a6102d260a7fcea6d355a0c,2018-12-09 00:33:32,James Simpson,"Don't set rateSeek when paused
+
+Fixes #1088",False
+758358e3e73efd91ade59a83908bb60e02802cd2,2018-12-07 22:26:11,James Simpson,"Add extra check for failed AudioContext setup on Safari
+
+Fixes #1021",False
+a35de7a0f58455307cf52b2efcdbbd553b7fb6ac,2018-12-03 04:31:52,James Simpson,"Merge pull request #1079 from harshvardhanmalpani/patch-1
+
+Fixed Anchor for Mobile Chrome Playback heading",True
+e3ba29eb6cf3367fbb27c486691e8202b67f218e,2018-11-20 04:16:21,Harshvardhan Malpani,Fixed Anchor for Mobile Chrome Playback heading,False
+b7a3e94cdd0699c7d3f2bfdb65e700d862312af3,2018-11-15 01:16:49,James Simpson,"Fix stuck player when seeking
+
+Fixes #1073",False
+62d501d227975276631ad4d17cc76c1428dae601,2018-10-14 20:25:06,James Simpson,"Don't run audio context setup again if web audio isn't supported
+
+Fixes #1046",False
+989219db4d894eafe974ed4c7b0a44721703b709,2018-10-14 20:18:40,James Simpson,"Merge pull request #1047 from damrbaby/safari-12
+
+Enable mobile audio now required for Safari 12",True
+d000cffa7fc635bd2bd9fbe90e767f604f967b11,2018-10-10 18:52:12,Scott Anderson,"Creates a pool of activated HTML5 Audio objects for use on mobile.
+
+Currently the WebAudio API is unlocked via user interaction in the _enableMobileAudio method. This does not however unlock HTML5 Audio as well. Since HTML5 Audio objects must be individually unlocked, using them without user interaction can be accomplished by pooling a number of activated Audio objects at the same time WebAudio is unlocked, and using those pooled objects whenever a new sound is requested.
+
+Changes:
+- Adds a private mobile audio pool to the Howler object.
+- Adds a new Howler global configuration named ""mobileHtml5AudioPoolDefaultSize"" that governs the number of pooled Audio objects, with a starting value of 10.
+- Fill the pool in _enableMobileAudio().
+- Use Audio objects from the pool when a Sound object is created in HTML5 mode.
+- An over-scheduled pool can be configured via the Howler.shouldMobileHtml5AudioPoolErrorWhenEmpty option to still return Audio objects, however they are not guaranteed to be unlocked. This option defaults to 'false'.",False
+a155a1933b99dfb7be3e8ce553ece850f231a2e5,2018-10-03 07:07:28,James Simpson,"Don't set a sound to playing until it has successfully started playing
+
+This is in response to the Chrome Auto-Play policy change, which so far we have no way of detecting. This will at least make sure a call to `playing()` returns the correct result.",False
+ea4fa59e739b7d2c8e2ed697dd08fcd1676fdc4e,2018-09-27 23:52:53,Joshua Granick,"Fix `InvalidStateError` on IE11 when playing sound
+
+In our use of howler.js, IE11 is throwing an `InvalidStateError`, but the problem is resolved by making sure we can set `currentTime` on this line",False
+d32b60ac118a53b9bc8d41a054a13f8e59cdc019,2018-09-18 13:19:06,Matthew Windwer,Enable mobile audio now required for Safari 12,False
+c37975a4abeaf0b32c0977e8e50a3e7801691b05,2018-09-14 15:30:05,Vasiliy Kostin,"volume() is wrong after fade
+
+After fade complete volume() returns 0 or 1 on short fades. And not strict value at long fades.",False
+8362b756924d63544f846544d02342a2b8a562ac,2018-09-08 01:20:53,James Simpson,"Make sure the from/to/len values in fade are numbers
+
+Fixes #1027",False
+0716047efa2cf62ebaaad13102b202314d793069,2018-09-08 01:12:25,James Simpson,"Merge pull request #1033 from sbi-krisj/master
+
+Safari fix for panner.setPosition",True
+cf1629352f83a85cc2aac1b1e8b3526c4daf65be,2018-09-08 01:02:54,James Simpson,"Merge pull request #1034 from goldfire/2.0
+
+2.0",True
+2a9d09078e4a58738672f70c9738c2eca45a679a,2018-09-01 02:50:02,Kris Johnson,Safari fix for panner.setPosition,False
+9b75f3d57aa66db94126102ff6c81e1059500d57,2018-08-30 08:21:59,James Simpson,"Merge pull request #1030 from MarcBalaban/patch-1
+
+Spelling error in change log",True
+9176dcaa47c0ea08f78e0bb3c7c153a13ac3cf35,2018-08-30 03:18:20,Marc Balaban,Update CHANGELOG.md,False
+9e1d0a83a67c6e43ca9602ac2b783e1fc867f579,2018-08-25 07:48:11,James Simpson,v2.0.15,False
+2894560378e54d2aac1ce0c4e6c12ef7968d55bf,2018-08-25 07:38:46,James Simpson,"Merge pull request #1005 from ctsstc/readme-howler-as-dependency
+
+Give an example of how to include howler as a dependency",True
+9185b6aea020c3a7d6f70c964354dc61f2b2cfa9,2018-08-25 07:36:31,James Simpson,"Merge pull request #1016 from jtolj/master
+
+IE11 play is undefined addresses #1015",True
+d0e52e9d54b2d35cfd501356369fde7c7f1ad2dd,2018-08-25 07:11:26,James Simpson,"Remove unnecessary preventDefault in unlock to fix Chrome issues
+
+Fixes #1003 #1011 #1025 #1026",False
+0fb67f7615a008fb732bf688cb1e950a1a31dab5,2018-08-25 07:02:45,James Simpson,"Merge pull request #1019 from quizlet/ta-fix-onError
+
+fix onError lost in refactor of decodeAudioData",True
+4f27c15fb347c7648bc5b3a051462d56460ea5e8,2018-08-25 05:00:02,James Simpson,"Merge pull request #998 from T1l3/patch-1
+
+Fix typo",True
+bc5d26120226f5e08d1e0f9f89d50e065febc00a,2018-08-13 02:41:52,Turadg Aleahmad,fix onError missing since 7c19a0,False
+ce47f6dc4907c757f2d7efa0ec20b6754932837d,2018-08-07 22:07:17,Jesse Tolj,IE11 play is undefined addresses #1015,False
+dbbcb66dff86d76d1bb6d09a452f089d171c5e83,2018-07-26 14:10:03,Cody Swartz,Give an exmple of how to include howler as a dependency,False
+256917edc574a8e992ca998b81cc938e65ba45fd,2018-07-16 20:51:15,Thibault Pierre,"Fix typo
+
+Since it's call skip('next'), it's better to use the same wording",False
+162ccbb13a60ca4fb1f027a26eb2f80596e47687,2018-07-16 15:33:12,Kalizi,Added custom headers parameter in init when using XHR to fetch audio,False
+b8591f0e32228bb05bd346d15a1a302d3ebc8017,2018-07-13 03:03:53,James Simpson,v2.0.14,False
+9a9f50fffc03df4800f46874cdec7cb9fede33b4,2018-07-13 02:48:22,James Simpson,"Instantly fire end event if sound is seeked past its duration
+
+Fixes #963",False
+e0343aa3f70779d473bf55010fd3b2f03f242571,2018-07-13 02:05:14,James Simpson,"Make sure sound stop time isn't undefined
+
+Fixes #985",False
+6527aec1db42085522093e5b308636f9d1edf76d,2018-07-13 01:06:04,James Simpson,"Fix another instance in Safari where orientationX/Y/Z isn't supported
+
+Fixes #976 again",False
+0d8d94763f2b8257355c9ab2bb48cc05fb1ebb90,2018-07-13 00:59:41,James Simpson,"Merge pull request #995 from evolution-gaming/fix-promise-based-sounds-#992
+
+Add lock checks for rest of methods and fix usage of Promise polyfill (#992)",True
+7c19a07cb75b0efd99b777d732addff8ff799ba8,2018-07-13 00:10:39,James Simpson,Minor cleanup,False
+e86261112faa668e6b0d9045ba416a5526346c6a,2018-07-13 00:02:52,James Simpson,"Merge pull request #988 from Megabyteceer/master
+
+Fix for issue #986 handling decodeAudioData events in latest chrome",True
+310736b33da50bb8f075eab2eb8a34f66fbc857b,2018-07-12 23:53:22,James Simpson,"Update mobile auto enable to also unlock desktop Chrome
+
+* Adds a new `unlock` event.
+* Fires `playerror` when sound tries to play while locked.",False
+1003eaab7fa02709ec30943758d0b233fce34a47,2018-07-12 11:39:16,Uldis Baurovskis,Add lock checks for rest of methods and fix usage of Promise polyfill,False
+093e6e7d6d247eb04fa34770975a6e55998525b4,2018-07-03 20:21:39,Vasiliy Kostin,tabs fix,False
+cba160d7f95d9244c1b3fc67fc0b79382f8a3a1b,2018-07-03 20:18:21,Vasiliy Kostin,"#986 handling loaded event in latest chrome
+
+I noticed than decodeAudioData of AudioContext has only one parameter and sometime callback passed in to decodeAudioData dont fire at all. I added checking to handle events via promise syntax in modern browsers.
+For me this fix solved problem of frozen preloader which happened randomly.",False
+97a6353cee122e81420f9d22d9805122fb58243b,2018-06-23 04:33:33,James Simpson,v2.0.13,False
+68b7a83b979ac1ace1d8f071b5ab93c799dfbc19,2018-06-23 04:10:44,James Simpson,"Don't fire stop event on end when using HTML5
+
+Fixes #974",False
+6865e05a89e3e7561d8dfbc72c1268fbd3ed092c,2018-06-23 03:44:10,James Simpson,"Fix reset issues with spatial audio
+
+Fixes #962",False
+a0b43963f02d7bd017fe036c13a8be3e2ec92372,2018-06-23 03:10:11,James Simpson,"Remove Howl from cache when unloaded after failing to load
+
+Fixes #978",False
+9879c5d0e259a489c370175cd29fe036c607c680,2018-05-23 22:23:41,James Simpson,Fix error in clean buffer,False
+df3aa43806e5e393312254946e36a4514e3a8f4d,2018-05-09 16:23:27,James Simpson,v2.0.12,False
+6985d635cf1b3978343644574a8985be6f23ba76,2018-05-09 16:15:34,James Simpson,"Use fallback for position in Safari
+
+Chrome's deprecation fix isn't supported in Safari. How fun.",False
+e85f6bd7b2f987a18e521862b1af88d5283b59a7,2018-05-05 20:02:37,James Simpson,v2.0.10,False
+0f8b3bedbc8e22952e81ba757c6f69ebc59fb31f,2018-05-05 19:57:50,James Simpson,"Fix rate not working in IE
+
+Fixes #936",False
+924b554d549e28d6b6a314bce95324b116485666,2018-05-05 05:05:13,James Simpson,"The ended event is broken when looping in IE
+
+Fixes #921",False
+ba69d0e7f906ffb80fb9875892c8d94d22dd5f76,2018-05-05 01:02:55,James Simpson,"Improve playlist styling on player example
+
+Fixes #906",False
+576a9c8a0dc108346f555b19723c1924603ec693,2018-05-05 00:57:48,James Simpson,Update readme for src,False
+041b4b556cc13089963f2d1f48d82e84d99b556e,2018-03-31 03:21:08,James Simpson,"Fix another deprecation warning in Chrome
+
+Fixes #923",False
+c43ffde698d7ba1f6b952fea5825699d37758214,2018-03-16 18:38:00,James Simpson,Update the readme for instant games,False
+fde76e67c05d3292f76ca7a4fea52a8f0668f718,2018-03-14 21:09:15,James Simpson,Update readme for instant games,False
+f7d7bc2dec925c33e206e6afabfd70bb73412b15,2018-02-10 21:08:56,James Simpson,v2.0.9,False
+bf83277396d80ff42d2ad9ecde913e2d9a0f48db,2018-02-10 06:58:05,James Simpson,"Refactor internal queue to avoid various edge cases
+
+Actual fix for #899",False
+422d3cd334174b36a1bd87ea10ba222b05dd9665,2018-02-10 05:23:10,James Simpson,"Allow readyState of 3+ on HTML5 Audio
+
+This fixes some edge case issues with streams after stopping them.",False
+51508c87efc6c9b17475147c9c6594987eae98d4,2018-02-10 03:52:39,James Simpson,"HTML5 Audio: Only use duration timer on sprites; otherwise, use ended event
+
+Fixes #883
+Fixes #900
+Fixes #892",False
+a440881dc81fae6e09637221c6af42c55bfefdae,2018-02-10 03:30:13,James Simpson,Add back missing promise argument,False
+89d7de8644621ecdb5816ce8d50f1365e800da21,2018-02-10 03:20:50,James Simpson,Fix typo,False
+4c70500cbef8a106f2d8c96a339874ceec369539,2018-02-10 03:20:27,James Simpson,"Force load queue events to only emit internally
+
+Fixes #899",False
+09de6197618b5b411136fdae0983632b6bc9c44a,2018-02-03 04:12:48,James Simpson,"Merge pull request #896 from eugene-lazarev/master
+
+Fix audio promise for Safari 11",True
+24f7fcd1ea7840f8734961e5456ab5365a73b8b8,2018-02-01 03:09:20,Evgeniy Lazarev,Fix audio promise for Safari 11,False
+01744ac149531fcdb8a71260fe11b9aa01bc09f0,2018-01-20 20:10:00,James Simpson,Remove duplicate semicolon,False
+7a89f39f255f4abf15090048169386637f503321,2018-01-20 08:15:48,James Simpson,v2.0.8,False
+b876c065dc036a77ebeb45d8bfb05874ed1f520b,2018-01-20 07:48:37,James Simpson,Update copyright,False
+e6d41a6a4b86ec6ab2e8a245679b47cb20be4fc5,2018-01-20 04:53:25,James Simpson,"Prevent onplay from firing when first setting stereo value
+
+Fixes #843",False
+d52a34ae59642f4e7502b616d10319b21bb4e5e8,2018-01-20 04:46:57,James Simpson,"Update fade to use elapsed time to fix inconsistencies
+
+Fixes #885",False
+28bacae1ce21d322f076ddf72ade30c760666c7e,2018-01-20 03:58:27,James Simpson,Clean up the ES6 example,False
+8edb23b66d56e2899dd7dc3aea62c2ac38d040f3,2018-01-20 03:56:39,James Simpson,"Merge pull request #889 from naishe/patch-1
+
+added an example for ES6 import and play",True
+cc9b3cfffca6d8ac76e3fbe7399d265793d26284,2018-01-08 18:37:18,Nishant Neeraj,added an example for ES6 import and play,False
+c0920a605eedf6c2d44b5fc29b69848441956ecd,2017-12-30 05:10:32,James Simpson,"Improve timing of short fades
+
+Fixes #884",False
+dc0a2cf8d2c0ca17246573de90c7f95f6991438d,2017-12-30 03:45:06,James Simpson,Fix another deprecation in Chrome,False
+0f36973ea4dc7bbd93d4d3ad788040bc4555aaaf,2017-12-18 19:21:50,James Simpson,v2.0.7,False
+fcaee4feee276feabae9474ad6257077b017cfb6,2017-12-16 21:17:53,James Simpson,Remove accidental use of const,False
+5c024f9eb9b152248ceaa194f3ab25701ae28548,2017-12-16 04:20:31,James Simpson,v2.0.6,False
+ee3d0aed9bc9879742b9cc4bac069c9b494f7fa7,2017-12-16 03:59:31,James Simpson,"Fix audio sprite issue in IE
+
+Fixes #857 & #877",False
+c920b792aa48d268ad264d883b1d4dc611b9a159,2017-12-16 03:52:48,James Simpson,Fix promise check in IE,False
+45e5838178df601f08c6b718d4b28c9ead6969ab,2017-12-16 03:11:49,James Simpson,Merge branch 'dmednis-master',True
+60656a66e83ef8affa600ee119319fda41a22fc3,2017-12-16 03:08:58,James Simpson,Clean up,False
+e0112ccf87c870a473a5fa274b8daaa20b4541da,2017-12-16 03:04:19,James Simpson,Merge branch 'master' of https://github.com/dmednis/howler.js into dmednis-master,True
+cff93057ab9322c80b2180b0558c828ae2b1cc57,2017-12-16 02:38:19,James Simpson,"Cancel fade when mute is called on a sound
+
+Fixes #666",False
+7edb22a88abbbb2e64ca957383353d67f1437ca7,2017-12-16 02:09:41,James Simpson,"Replace deprecated gain.pan.value with gain.pan.setValueAtTime
+
+Fixes #872",False
+66c076989ecc7883671b510e737428c05c71119e,2017-12-07 20:37:13,Dāvis,Built dist files,False
+3c978cb81fb0b970b4c268aab1842e81b64f3ade,2017-12-07 19:55:36,Dāvis,Merge branch 'base-repo',True
+e2160862afeeea060133b08f9d831cb009c75840,2017-12-07 02:58:59,James Simpson,Fix typo,False
+0b538a7893e5866457b63b2320157d1f85e154af,2017-12-02 04:04:54,James Simpson,"Replace deprecated gain.value with gain.setValueAtTime
+
+Fixes #856",False
+075189c8746e142ed334cc25ee1e03fb9a7f05b8,2017-11-16 08:54:51,James Simpson,"Merge pull request #834 from felthy/master
+
+Fix scratch buffer (iOS memory leak fix) not working since 982c0aa",True
+e9b06173e047aeb90810cfafc06e1f14ac1509aa,2017-11-14 10:01:35,Pete Feltham,Merge branch 'master' of https://github.com/goldfire/howler.js,True
+124cf742715a5048894089343566e3587d3c260a,2017-11-14 10:01:04,Pete Feltham,Revert changes to dist and remove yarn.lock,False
+f59ede9ab7d21157bc0e47bf4eca41b9e0cdc88d,2017-11-03 04:23:54,James Simpson,"Correctly set group volume when fading
+
+Fixes #539",False
+a1305afd2fc9644032f84a36429576bd2c90315d,2017-11-03 03:46:13,James Simpson,"IE11 doesn't set 'paused' on the node when it ends, so check for both 'paused' and 'ended'
+
+Fixes #841",False
+89e14f4835558c578aa216c4819e769ea7aa2c79,2017-10-20 17:52:53,Dāvis,Implemented a lock when a play promise is pending,False
+b42b98919ec1b5422af482341a1da08d83fb44c6,2017-10-20 09:28:28,Pete Feltham,Fix scratch buffer (iOS memory leak fix) not working since 982c0aa,False
+b90daf4eea794cd77b37b3cefcfd08ab743c4504,2017-10-07 06:43:15,James Simpson,v2.0.5,False
+132477b07a01ef8659784cef7c2711121ef11985,2017-10-07 04:14:10,James Simpson,Fix missing comma,False
+d389f93c2f35fde7cfd5f29334f84972b10e0f5d,2017-10-07 04:10:20,James Simpson,Add touchstart for swiping back in,False
+207689ecace756054c8fa01f56c4104ee307d7ec,2017-10-07 03:42:43,James Simpson,"Remove the touchstart event for now
+
+This is in reference to #808",False
+6e846da17e0bce3cbda15367a6112c8734221fa5,2017-10-07 03:08:40,James Simpson,"Pass the correct sound id into fade interval
+
+Fixes #823",False
+ad917a280cbb520f94a7b247c302025e641545ba,2017-10-07 01:45:44,James Simpson,"Check for paused instead of ended to also handle data uri's
+
+Fixes #775",False
+89442df6a025d7ccf14f5b32556244d4a83b77e4,2017-10-07 01:31:25,James Simpson,Fix sound node reference,False
+fcbfdb0e7076ea843100f2a17beed06c8d97bd48,2017-10-07 00:28:44,James Simpson,Tweak order of events,False
+aabf881e25533540e179cdf18d097eec053cb3fa,2017-10-07 00:28:13,James Simpson,"Merge pull request #808 from markknol/patch-1
+
+Add touchstart to enable mobile audio when swiping too",True
+8d8ac21a60b44be82d26392c005180786344d997,2017-08-23 16:55:06,Mark Knol,"Add touchstart too to enable mobile audio
+
+On iOS, if you swipe, for some reason `touchend` doesn't get triggered. We have a game where you needed to swipe and sound was only enabled when you actually tapped. Using `touchstart` seems to fix it. I think it is safe to keep two listeners.",False
+8358b862bdc6270276625c973010797c47dfc3bb,2017-08-19 02:44:47,James Simpson,"Allow assigning pannerAttr values via object as the readme suggests
+
+Assigning each parameter to the root config object will still work for
+backwards compatibility.",False
+cc2b681ca0a7ee0d14f1f18a83b77f18cd229853,2017-08-19 02:40:12,James Simpson,Fix various issues with the descriptions for the spatial audio plugin,False
+09e96536546ad6bb26c8f8505be4d1fcfe238be1,2017-08-19 02:11:55,James Simpson,Update readme,False
+92dc9d6cdb3ab3d83c3a8f41c145d6751b01c13e,2017-08-19 02:08:06,James Simpson,"Add playerror event for when mobile HTML5 audio is unable to play
+
+Fixes #774",False
+b1ea55002200a397a4ed97960b6f5511d41f1e9b,2017-08-19 01:12:50,James Simpson,Don't listen for sound ID when resuming,False
+6b77a91912c2122d9a850ea5d16cd938badba89e,2017-08-19 01:02:24,James Simpson,Remove duplicate loaded checks in play,False
+912bc9d3c7c34b4994309da5bf651b4fec182a8f,2017-08-19 00:44:48,James Simpson,Add documentation for xhrWithCredentials,False
+1ed32d7861e0ed4478c7cb3520a68c83e10bb9ab,2017-08-19 00:42:04,James Simpson,"Merge pull request #610 from jfpalacios/master
+
+Add support for withCredentials",True
+908c2ba6437149c2514fa0a3b5022a1e737da6fa,2017-08-19 00:26:10,James Simpson,Formatting tweak,False
+888f8ac120272a05b67dd7792c19c0e7bdf92505,2017-08-19 00:25:42,James Simpson,"Merge pull request #797 from Stenerson/master
+
+Fix error when seeking with unloaded state",True
+dbdf373f33412a7b7839b2ce2665f9db74200ea1,2017-08-16 01:45:01,James Simpson,Refactor fade to eliminate bind memory allocation,False
+6d50556e94eedcba585e7e065f5bd3a41c390081,2017-07-22 23:35:06,Matt Stenerson,Fix error when seeking with unloaded state,False
+273394e7610db67c30afab9a1bf9fc8aa09b5a35,2017-06-10 03:56:50,James Simpson,v2.0.4,False
+d3236c5b44ffa4c3fd1cb86b4326d278da8d47a9,2017-06-10 03:40:10,James Simpson,Add check to make sure node exists,False
+62937d7ab63ec845acd414b9f348d58540fd068b,2017-06-10 03:34:49,James Simpson,Fix more edge cases around playing before audio has loaded,False
+76963808a44ba338b3b83ecae680cc3b06edf9d8,2017-06-10 03:12:15,James Simpson,"Send sound ID to play after loading
+
+Proper fix for #714",False
+6625fc654c86fd18228f883e231c05d4eb108a06,2017-06-10 02:56:08,James Simpson,Fix missing exclamation mark,False
+9a7f9318f4ccacbf6b41938f7dae200bc287f31b,2017-06-10 02:27:02,James Simpson,"Merge pull request #756 from Melatonin64/master
+
+Fix for WebAudio context not being unlocked on Android Chrome >= 55.",True
+8612912af28d6fb9f442c4f5a02827155bcf3464,2017-06-03 03:08:07,James Simpson,"Init master gain with correct value based on global mute
+
+Fixes #714",False
+310c14a9fd47aeffaf3aa9e009c35bf62c6479a7,2017-06-03 03:07:21,James Simpson,"Always wait to play until sound has loaded
+
+Fixes #714",False
+16282b773149bd0b81c8a4f954872e63f80004ba,2017-05-20 03:33:13,James Simpson,Remove resuming state,False
+456516ddcfea93f78557eb0ca8a4b395b691364d,2017-05-20 03:32:48,James Simpson,"Merge pull request #679 from k888168168/master
+
+Update howler.core.js",True
+5ff3accf6a47e7d0ae59028ce1afb0870d8edd29,2017-05-20 03:08:41,James Simpson,Minor cleanup,False
+7e40a39f55ec928bc88bfce00b39b0c72b66b919,2017-05-20 03:07:35,James Simpson,Add IE test to HTML5 unload fix,False
+772f7b99a8c666f2855c612b8593355524db049c,2017-05-20 03:06:55,James Simpson,"Merge pull request #720 from f1v-developers/master
+
+510 + 606 + 592- IE bugs. Unsupported mime issues, IE not supporting …",True
+5cfdb529a7471294f472d716899283d1c9c793ba,2017-05-20 02:51:58,James Simpson,"Allow passing just an event and ID to turn off listener
+
+Fixes #767",False
+8f3c56978c6d3645724a881acb375e1bc70ed221,2017-05-20 02:34:26,James Simpson,"Start internal ID counter at 1000 to avoid collisions
+
+Fixes #764",False
+32aad91a44b9ab5c47e09ce8bab7c10dca9a6eae,2017-05-20 00:10:18,James Simpson,"Fix group pause issue
+
+Thanks #665",False
+5fbe17fbff68239d730faa1342d809fb7f48c8d0,2017-05-20 00:08:09,James Simpson,"Merge pull request #734 from jaycliff/patch-2
+
+Fix for Howl's stop method (webAudio)",True
+512335848c753ef0feda38c613343ea50032a4aa,2017-05-19 23:53:28,James Simpson,Remove another duplicated instruction,False
+761a436cfaf8f338a55f6155619671c0d93c193c,2017-05-19 23:53:05,James Simpson,"Merge pull request #673 from dennybiasiolli/patch-1
+
+removed duplicated instruction of line 1882",True
+abda51c8eecf2a885db5bafb9a4594b0ab1e43b0,2017-05-19 23:50:54,James Simpson,Use correct yarn link,False
+5eb895844cafa2efe4fae5cf716c18334fb7e6c6,2017-05-19 23:49:40,James Simpson,"Merge pull request #726 from johnbacon/patch-1
+
+Add README snippet about installing with Yarn",True
+c88e168a1a7526468594468007376108b65ec453,2017-05-19 23:43:08,James Simpson,"Merge pull request #763 from t1st3/master
+
+fix: license should be a valid SPDX license expression",True
+ca60a4ae9ebafaff6256569c21815dc8c0c1b2d7,2017-05-14 18:26:48,t1st3,"Merge branch 'master' of github.com:t1st3/howler.js
+
+* 'master' of github.com:t1st3/howler.js:
+  fix: license should be a valid SPDX license expression
+  fix: license should be a valid SPDX license expression",True
+aca2dfeb5c2a09c189c30173f14f6553d458c09c,2017-05-14 18:25:23,t1st3,"fix: license should be a valid SPDX license expression
+
+when `npm install` on the repo or a fork, npm complains that license
+field in package.json is not valid.
+
+See https://docs.npmjs.com/files/package.json#license
+for valid `license` expressions
+
+Same applies for bower.json:
+https://github.com/bower/spec/blob/master/json.md#license
+
+More generally, both must be a string matching a vlid SPDX identifier:
+https://spdx.org/licenses/",False
+e4074d35f71a3faeea85d7ad23730134b48dd3fe,2017-05-14 18:18:03,t1st3,"fix: license should be a valid SPDX license expression
+
+when `npm install` on the repo or a fork, npm complains that license
+field in package.json is not valid.
+
+See https://docs.npmjs.com/files/package.json#license
+for valid `license` expressions
+
+Same applies for bower.json:
+https://github.com/bower/spec/blob/master/json.md#license
+
+Both must be a string containing a valid SPDX license identifier:
+https://spdx.org/licenses/",False
+48fd578b1a4e849ac34111d680a28211ab52377a,2017-05-14 18:07:35,t1st3,"fix: license should be a valid SPDX license expression
+
+when `npm install` on a fork, npm complains that license
+filed in package.json is not valid.
+
+See https://docs.npmjs.com/files/package.json#license
+for valid `license` expressions",False
+223cca33c1556b27198479be675ff934041a5601,2017-05-03 21:08:01,Tomer Lahav,Safer fix (do not call ctx.resume() on older environments that do not support it).,False
+af4b787b43ebffe20ad50327c7834d079c35da3d,2017-05-03 03:57:11,Tomer Lahav,Fix for WebAudio context not being unlocked on Android Chrome >= 55.,False
+754770312ab8ca3e97cfcdf309d72bf837392906,2017-04-14 23:10:13,James Simpson,"Merge pull request #742 from Pau1fitz/master
+
+fix typo",True
+59debd439cf40cdfc61811b83e37403ee7c6aa49,2017-04-14 23:07:18,Paul Fitzgerald,fix typo,False
+dc2e2bf54c8276bb84b6b75cefd0b27535a2d7cd,2017-04-10 08:22:37,Cliffmeister,"Fix for Howl's stop method (webAudio)
+
+The previous behavior has the method return immediately if sound._node.bufferSource is null, preventing the rest of the sounds in the group to be stopped.",False
+c654b98faefa0671ed6d4444cc4c6d08bc48403b,2017-03-23 00:10:01,John Bacon,Add README snippet about installing with Yarn,False
+39ac41c0f14b022f763a00f8ab9924b3b96239c0,2017-03-16 18:31:56,Fabio Elia,"510 + 606 + 592- IE bugs. Unsupported mime issues, IE not supporting base64 audio nor Wav files, Audio clipping before ending",False
+9592fcb2deb2236279da6fa14d8358a8fb94d098,2017-03-11 23:16:50,James Simpson,Fix typo,False
+4ebd1897b6c425befde7970c583999db663d2093,2017-03-11 23:15:12,James Simpson,v2.0.3,False
+f5f5edceae0b25f46a7f1f5c33c38b8ab1818ae2,2017-03-11 22:28:52,James Simpson,"Improve the running detection on play
+
+Better fix for #664 that avoids a different regression.",False
+0dbf1cff2bbb5038872ace4a8a34b9c340fbdbec,2017-03-11 22:00:59,James Simpson,Update copyrights,False
+beabf66325b37a6dff9cb56ea6b38cd84cdc9bd6,2017-03-11 05:49:55,James Simpson,"Change isRunning check to include resuming state to fix Firefox issue
+
+Fixes #664",False
+54904bee70ecfdcec76c0675a31338c54196b35f,2017-03-11 03:50:58,James Simpson,"Add check and warning related to a file missing an extension
+
+Fixes #680",False
+475990154131d9264a36e405a44c21d048ab0cff,2017-03-11 03:43:25,James Simpson,"Fix issue with silent WAV in unload in Firefox
+
+Fixes #678",False
+7224cd50aa8f03ba060d22ad61341f497a61b913,2017-03-11 03:16:15,James Simpson,"Support fades with 2+ decimal places
+
+Fixes #696",False
+32118b6fb4cacd8f79ed69c8b96c31352ab9cbd1,2017-03-11 02:10:45,James Simpson,"Use a global counter for sound ID's
+
+Fixes #709",False
+b35bb29ecb6c73904059dae68dbdc0aff85c58c2,2017-03-11 02:02:02,James Simpson,Merge branch 'marcusstenbeck-master',True
+a17bca0864ea74b9637ce3a5d6a1c9268223869e,2017-03-11 02:01:42,James Simpson,Minor cleanup,False
+3b82f2e3b6a157ee07593bfa069d80dda6b31e5b,2017-03-11 02:01:05,James Simpson,Merge branch 'master' of https://github.com/marcusstenbeck/howler.js into marcusstenbeck-master,True
+0428d549ce7f1a7a29f8d85b9ff899907b23fb01,2017-02-04 21:13:40,James Simpson,"Merge pull request #697 from xl1/patch-1
+
+Fix property name in README",True
+f9f0243bbcd04a5edc375e8fd8ff352fb07c3b17,2017-02-04 20:40:33,xl1,Fix property name in README,False
+602ce76d3d422842c60d2a6e240ef2fe8d346140,2017-01-20 17:55:37,marcusstenbeck,"fix(html5-playback): remove setTimeout() call that caused loss of call stack
+
+On mobile, the play event needs to be triggered by a user gesture. By setting a timeout the call
+stack containing the user tap gesture is lost. Since this was added way back to support something in
+Firefox 13 it could most likely be removed without negative impact.
+
+  #609",False
+6f4dae398937c32812528e114190d37aa6a31b3b,2017-01-07 08:50:09,Pyry Kontio,Updates the parent info too,False
+457dcb646a40ea8484a7e731bbe671dabf93f730,2017-01-07 08:50:09,Pyry Kontio,"Fixed an edge case with Safari (""infinite"" html5 audio -> the end event won't run)",False
+0813f1864b74b9d1b29eb86efc63004ee1be4d07,2016-12-26 13:52:01,Lu Ching Wen,"Update howler.core.js
+
+Fix Android cross domain can not auto resume issue",False
+96e8a96a1f8b9459817b096bfb6d3d7a2492f7a3,2016-12-24 22:04:17,James Simpson,"Merge pull request #675 from LIU9293/master
+
+Update howler.core.js",True
+8dd2eaef64a21cf689bd4771a9a1d2cbb85ce70d,2016-12-21 08:21:33,LIU9293,Update howler.core.js,False
+b40a7afcabf0b1601e24d3bcbef51ad1a5ef4b31,2016-12-21 00:43:02,Denny Biasiolli,removed duplicated instruction,False
+8c80aeae07ce2ce38617c5d44ceee590880fe61f,2016-12-04 22:47:41,James Simpson,v2.0.2,False
+e5f34290934ccc0f970e43286000eeae7e2b8637,2016-12-04 22:22:22,James Simpson,Make sure seek and duration are >= 0 on play,False
+bbcbc2bf705856f425ffa0bc7758b8f5eca2d8b5,2016-12-04 22:19:53,James Simpson,"Merge pull request #652 from fabioelia/patch-1
+
+Fix a bug with AudioBufferSourceNode",True
+c44bd39e2b4c916d42ff6c3e855d5bf0a26ff4b7,2016-12-04 22:08:20,James Simpson,"Add autoplay to start of load queue
+
+Fixes #659",False
+7989731312f8e39db63011f9f81b7c8398264de0,2016-11-12 04:41:55,James Simpson,"Check for noAudio on setup
+
+Fixes #619",False
+3abbeed9d03be7d300bf87918704945be1b7c055,2016-11-12 04:19:37,James Simpson,"Wait to begin playback until context has resumed (only Web Audio)
+
+Fixes #643",False
+227a48fae1f05a09eac192dd25d13d48dab5d0c3,2016-11-12 03:39:00,James Simpson,"Volume slider changes global instead of local volume (player demo)
+
+Fixes #636",False
+7d11f20193ff17629c49ec19981becbc3fc238cf,2016-11-12 03:34:05,James Simpson,"Always fire pause event even if sound is already paused
+
+Fixes #639",False
+bf4d369a2c7fff49c4963b0909e7e6341756ceb9,2016-11-12 03:14:16,James Simpson,"Merge pull request #646 from hanenbro/master
+
+Confirm Howler.ctx exists before destroying in unload()",True
+f4e8bdadac8dce27d3b8af83d05ec7747af6acd7,2016-11-12 03:13:27,James Simpson,"Merge pull request #649 from kribblo/patch-1
+
+Ensure self.ctx exists before checking self.ctx.close",True
+ec91a63beffe4f72e22ae0b462ac04a963d4c843,2016-11-12 03:11:42,James Simpson,"Prevent issue with IE11 enhanced security audio test
+
+Fixes #631",False
+1f7f411171439f52aad8e5edf1aa9e9a743814da,2016-11-12 03:09:35,James Simpson,"Merge pull request #653 from goldfire/revert-631-master
+
+Revert ""Fix IE11 issue in enhanced security mode on TerminalServer.""",True
+d8302c97dfbce0274dd989f3f12e6b3f721bf798,2016-11-12 03:09:06,James Simpson,"Revert ""Fix IE11 issue in enhanced security mode on TerminalServer.""",False
+b571cd56c925ae004363ec582fe448950eab70e3,2016-11-12 03:08:38,James Simpson,"Merge pull request #631 from fastbolt/master
+
+Fix IE11 issue in enhanced security mode on TerminalServer.",True
+afa56ea90baf84b8e0532e8eb604701526fdc5a4,2016-11-11 02:19:18,Fabio Elia,"Fix a bug with AudioBufferSourceNode 
+
+https://github.com/goldfire/howler.js/issues/226
+
+It seems as though AudioBufferSourceNode can get caught in cases where the seek and duration are negative 
+""Failed to execute 'start' on 'AudioBufferSourceNode': The duration provided (-0.17) is less than the minimum bound (0)""
+
+We can protect this by defaulting to 0 when we seek or set a duration below 0.",False
+ae832dd36eba5bc1d56c937abcff729de26c36bd,2016-11-04 00:24:03,Kristoffer Lundén,"Ensure self.ctx exists before checking self.ctx.close
+
+Calling Howler.unload() can give the error ""Can't read property 'close' of null"", especially if having several Howl instances.",False
+022a1a231ca5e251fd0460b551ae362ad48da9c0,2016-10-31 03:23:10,Adam Vernon,"Confirm Howler.ctx exists before destroying in unload()
+
+Refs: #645",False
+d4c63f271781b669ffe82da1f7dde0b334a85d22,2016-10-25 19:32:00,James Simpson,Tweak the values in the sound sprite quick start example,False
+cdcb68faff2f4187239ebc203efa7cb6c94087f5,2016-10-15 02:28:04,James Simpson,v2.0.1,False
+879d2066925e92d4b56cb0fd9daa2e57cbfd92d6,2016-10-15 02:24:06,James Simpson,Update keywords,False
+eac6f973a2499ce20a29cd5e7110fb955958d7b0,2016-10-15 02:02:12,James Simpson,"Improve fading when short times are used
+
+Fixes #621",False
+f899ca9ec1e0852081be830ef63ff01218290465,2016-10-15 01:23:37,James Simpson,"Remove unnecessary noAudio assignment inside load error
+
+Fixes #613",False
+8defabf330994af878970567095eaa8d6e7a170a,2016-10-15 01:16:27,James Simpson,"Set correct loop start/end when calling loop on sprite
+
+Fixes #604",False
+46dc66914da041079948a05437f33b14c61a8cc3,2016-10-15 00:30:11,James Simpson,"Merge pull request #617 from huozhi/master
+
+reset audio context noAudio to false when unload",True
+4dac2c03fb758f8401d6c5a20a2c40a565c12b82,2016-10-06 19:39:46,Daniel Hirtzbruch,Fix IE11 issue in enhanced security mode on TerminalServer.,False
+dcc679f725d2fe6694fe2d38cfe071e0c54d84b7,2016-10-01 01:42:19,James Simpson,"Merge pull request #616 from Stenerson/master
+
+Emit onstop event before returning from stop()",True
+1a7e81c4bb7ebdd0261b65dcc35d4bc2c8d63b7b,2016-10-01 01:24:20,James Simpson,"Merge pull request #628 from garethwhittaker/master
+
+Correct documentation regarding 'noAudio' property",True
+a8247cc19dd90711c7978b71619eff097d8501a2,2016-10-01 01:19:21,James Simpson,Add support for FLAC,False
+2a7b7067302df8e64f2cd60047818697d0a66459,2016-09-28 04:20:43,ljc,add semi,False
+e88e1a609226185871fdd26c5879a589c859d3fd,2016-09-28 03:00:56,Gareth Whittaker,correct documentation regarding 'noAudio' property,False
+c589f4e5ad7ed3d44363561cb3f0e939407a6585,2016-09-08 16:51:20,ljc,reset audio context noAudio to false when unload,False
+0d3df4c0c5b71b552c8aabd3adb723ae8423e40c,2016-09-04 22:47:01,Matt Stenerson,"Emit onstop event before returning from stop()
+
+Fixes #615",False
+aadc6d99f8da2af042a78083f80f41c202d8ffaa,2016-08-31 04:13:10,John Palacios,Add support for withCredentials,False
+cfa82f84aa49efc8d66f61f7b44a8fb8984a3393,2016-08-24 19:37:22,James Simpson,"Add urls -> src to migration guide
+
+Addresses #601",False
+7039362ea34b1bf011ba6eb9b09d60fab65fb726,2016-08-21 10:15:22,James Simpson,"Remove x- prefix when checking codec names
+
+Fixes #576",False
+7889960d4d333e6458fb81ec6263d977f856def7,2016-08-21 09:54:27,James Simpson,"Fire 'fade' event and update volume when fading from 0 to 0
+
+Fixes #575",False
+c8511cf442b1b0625163799fd3f8a58e54182c51,2016-08-21 09:31:18,James Simpson,"Stop a sound even if it is not playing
+
+Fixes #595",False
+a93fe745bcb0aa651bc4d32f27f04e07560b498a,2016-08-20 01:05:38,James Simpson,"Merge pull request #579 from radarhere/master
+
+Fixed typos",True
+3c99559e39fd582ef640925eea43fdf2a43afdcb,2016-07-27 19:31:22,Andrew Murray,Fixed typos,False
+356092f9278f5b36e8af697ac3843096e3fd9369,2016-07-26 19:14:18,James Simpson,"Merge pull request #578 from mortonfox/patch-1
+
+Fix license link",True
+2cabc03daf853162a3d88d4a0cf685120369ab7e,2016-07-26 11:15:50,Morton Fox,Fix license link,False
+d7ee66b95671155aa5c4c8d854bb9e917f35af02,2016-07-20 23:20:56,James Simpson,Add flexbox prefixes to tests and radio demo,False
+2f84932d1168cee58407805e25a8e78a357d9e84,2016-07-20 02:06:41,James Simpson,"Merge pull request #573 from amanvir/patch-1
+
+Fix link to examples",True
+cfdedfa8caa5c32089b87c0c29748f2d4f57ff6b,2016-07-20 02:03:57,Amanvir Sangha,Fix link to examples,False
+44978064eee13ef606899b82a7bc3fed8242aa41,2016-07-19 19:44:18,James Simpson,Fix typo,False
+fcbd4749f4f94a5982da8f856e11f761892a3771,2016-07-19 18:14:02,James Simpson,v2.0.0,False
+55da22a13dd862afa5aa58f054f158478702fb64,2016-07-19 04:02:00,James Simpson,Add new logo to readme,False
+1dd6ce690b5a55dffb8aec1726fe08301fe85135,2016-07-19 03:53:10,James Simpson,Merge branch '2.0' into master,True
+6d82d153eb1a31a4750f20de6888029530a41a68,2016-07-18 19:02:24,James Simpson,Fix typo in readme,False
+f5f55038d519af5ce02a2f0f6fe5a7353dad1145,2016-07-10 10:42:26,James Simpson,Clean up changelog and add migration guide,False
+994c5516a0646d92925fd0668a2f6e223f897d08,2016-07-09 08:24:47,James Simpson,General readme cleanup/revisions,False
+0bf5a7adb12bf779ee979662b8dd166dc07d4d55,2016-07-09 06:45:18,James Simpson,Create readme for examples directory,False
+4da864f22903547e121a36233fcc0a6c3fa81348,2016-07-02 23:25:27,James Simpson,"Update links to live demos of examples
+
+These won't actually work until the new site is live.",False
+95d8ea80a6e8955d81b7af4b6235582e9b5d43c9,2016-07-02 22:31:46,James Simpson,Tweak alignment of tests on mobile,False
+da0159f749141529e9a3ac1b58d13b3595f19c36,2016-07-02 07:51:50,James Simpson,v2.0.0-rc2,False
+eedca47b674dd9eb4bd2ecd8b6a61db4657f4fb0,2016-07-02 07:14:15,James Simpson,"Fix potential issue with HTML5 stop in IE
+
+Fixes #448",False
+5ea9cb650592f3c9d44517ca3821265adb261136,2016-07-02 07:00:30,James Simpson,"Fix double application of global volume on Web Audio
+
+Also fixes #561",False
+ed5604ef12ad067a33c729d82ebe8ddeb2d4ec0b,2016-06-26 10:21:10,James Simpson,"Merge pull request #555 from ozio/patch-1
+
+Fix typo in package.json main filename",True
+9b3956d6df3d769bc9f452a3271b9f05e3f276ff,2016-06-26 06:54:58,Nikolay Solovyov,typo,False
+8b757cc949a696f7291bc279ecb5b0d7df91ac2b,2016-06-25 03:01:19,James Simpson,v2.0.0-rc1,False
+202937d10c92b3978c36ac72e74a1b6cc53c84ee,2016-06-25 02:59:34,James Simpson,A few tweaks to the npm scripts,False
+a4794323109690232fb05d3cb0cb841466052ec4,2016-06-25 02:45:05,James Simpson,Create npm build and release scripts,False
+3ff46841ad77064f5df6bc13cac947c70ecadcea,2016-06-23 08:15:15,James Simpson,Move minified files to a new dist directory,False
+b2d821c53090aa78ff076e8230a80250b2b783ab,2016-06-23 04:37:21,James Simpson,A few tweaks to PR #550,False
+c3f64741780e6046068797978d1ec3ab84bbe712,2016-06-23 04:12:25,James Simpson,Merge branch 'Mesoptier-feature/internal-no-events' into 2.0,True
+19d7f00c2dbe55f77af2f9e30ae28a6db2057da3,2016-06-22 17:55:17,Koen Klaren,Remove console.log,False
+a20183442e5e46a8914d3768c7f75a5520b86993,2016-06-22 17:52:46,Koen Klaren,Add internal parameter for play and stop methods,False
+6efc1cd212935e5eef119ee41b586f7dcaf8b5ea,2016-06-22 04:28:24,James Simpson,Slight style tweak to PR,False
+709c7be0d51a3b6acf87b65d0163b04f70117d12,2016-06-22 04:27:28,James Simpson,"Merge pull request #547 from themoonrat/2.0
+
+Will not attempt to play a sprite id if it does not exist.",True
+7ce6fcb50774cdf32201eb7eafccd2ef65b25787,2016-06-19 22:26:38,Dave Moore,Does not attempt to play a sprite id if it does not exist.,False
+6b371983654e4b588e525eb26c7a45ae97685bdb,2016-06-19 09:35:23,James Simpson,Small visual tweak to tests on mobile,False
+13a3f6854487577430647c6d30a65b06efd62bfa,2016-06-18 23:40:37,James Simpson,Setup an index page for the tests,False
+be3be33353f500d427a5ba75e0a098169add7673,2016-06-18 04:48:30,James Simpson,Change name of effects plugin to spatial,False
+dfab42e449f65ada7fbc3c21ddb935cb401cdb98,2016-06-18 04:09:50,James Simpson,Tweak mobile styles on sprite demo,False
+fa457698d8b7ab04c948a1ab3876cc9b1642d23f,2016-06-18 03:26:31,James Simpson,Only start a new end timer on rate change if sound was already playing,False
+c6f826d4532c2695c0dae6b77bda758639dce597,2016-06-17 21:43:03,James Simpson,Correctly set seek position for HTML5 Audio,False
+cadb03ecf65160c6f17e03a65c77254bde8e36f4,2016-06-10 21:22:04,James Simpson,Tweak fallback fonts in examples,False
+cd7d52fdbabb6d522bf35568590ff7049844c52c,2016-06-05 03:24:50,James Simpson,v2.0.0-beta14,False
+851bf349c155db40462613d88848ab7f23e05c02,2016-06-05 02:53:01,James Simpson,"Only remove audio from cache on unload if no other Howl is using it
+
+Resolves #534",False
+480392822abf7632d4fe6cea228a4df543cf2c69,2016-06-05 02:17:37,James Simpson,"Add new stereo method to effects plugin for easy stereo panning
+
+This users the new StereoPannerNode and falls back to the old
+PannerNode in browsers that haven't implemented it yet. This finishes
+up #529.",False
+2027a00f7553b807bee4a6ea9305db67996114a5,2016-06-05 01:06:42,James Simpson,"Remove velocity, dopplerFactor and speedOfSound due to deprecation
+
+Partially addresses #529",False
+f01b7e3d7e4ca7967ea59ee097afbcd2352435d3,2016-06-03 20:26:10,James Simpson,Check for global mute when changing global volume,False
+8c00ab2d36289aa322d7f3f4783761018d19b113,2016-05-14 03:26:55,James Simpson,v2.0.0-beta13,False
+83906a1ce4df9e65d4b2e3700ca53c7a58c450ef,2016-05-14 03:20:01,James Simpson,Setup audio context when global volume/mute are called,False
+1b6ec4e760cfc7903dc222e7a3bc52001e398354,2016-05-14 03:08:18,James Simpson,Fix description on audio sprite demo,False
+834da1c39149adddfc45a31ac006bd1f3828f30e,2016-05-14 03:07:45,James Simpson,Create audio sprite demo,False
+863ebc24ddb92595f4c02eb73d829d6de7c5a79c,2016-05-14 03:07:08,James Simpson,Make sure seek value is a number,False
+062a10721ece60affae0fa423bc2d21073f7b406,2016-05-12 22:10:36,James Simpson,Correctly account for global volume in fades,False
+db831e03cf696d1ca5cfdd8f87d66e66da2c5029,2016-04-28 02:38:23,James Simpson,Improve initialization of end timers on play,False
+745a726fe518e48baf8eb9accf144e4875b710a1,2016-04-23 02:29:36,James Simpson,"Unload HTML5 audio with 0-second silent audio rather than empty string
+
+This should fix #510",False
+eb719137d8579531da236ec0d476327452dac383,2016-04-23 00:21:17,James Simpson,Remove unnecessary window.atob polyfill,False
+7253d7a702d1f173805b538eceef188f7f46a0a2,2016-04-22 23:59:08,James Simpson,"Only auto unload AudioContext on mobile once
+
+#498",False
+ec0eec507f6cb5aaefc3bf8d5412d3dd85824f1f,2016-04-22 23:17:55,James Simpson,"Passing an ID into duration now returns the sprite duration
+
+This is in reference to #507",False
+75228018eab23a0749f5df611a55043af53f785c,2016-04-22 23:10:57,James Simpson,Add a few error checks for non-browser environments,False
+b3ae95f64d152bec1e18b2e0b3ff8357b7493816,2016-04-20 02:56:51,James Simpson,Some minor mobile enable code cleanup,False
+96c2971ed71988a810c23f0589ab16d685033ff9,2016-04-18 21:13:56,James Simpson,Fix bug with rate change in browsers that lack Web Audio,False
+af2cab6f211e91c0581a819819974539a4798239,2016-04-18 05:40:41,James Simpson,v2.0.0-beta12,False
+026671d808ae28c6a3b5cad676cde7f7b1316817,2016-04-18 05:31:21,James Simpson,"Ignore tests and examples in bower
+
+Fixes #503",False
+e0222f31aa8f8d50ae20b77108d87e13af7da031,2016-04-18 05:28:00,James Simpson,"Calling seek before play now works as expected
+
+Fixes #502",False
+fb58a2907580f8395128f7fa3d4b9bbf991cd25a,2016-04-18 05:13:12,James Simpson,Refactor fade to fix inconsistencies with tracking volume,False
+a366eafa17b4ccd510c1ee1b6e9735ef46fecf60,2016-04-16 02:17:27,James Simpson,Return gain volume when using web audio,False
+e55d06f5f899d2b49b74c6298f51341147a96406,2016-04-16 01:54:45,James Simpson,Add a check to the setup codecs method for audio support,False
+07e3725be58be68c21149a1e295c0f8706580b50,2016-04-16 01:52:29,James Simpson,"Default Howler.noAudio to false
+
+Fixes #497",False
+d3f4085d2866b27644c0c55c15b8015fc2347fdf,2016-04-15 00:04:03,James Simpson,Fix bug in unload calling close on AudioContext too late,False
+849f309a09ea82903474838c3446921bb6521fb0,2016-04-14 21:34:22,James Simpson,Fix README links to CDN's,False
+d2e3970183e00179695116a42b892e1d29705115,2016-04-14 01:13:53,James Simpson,Fix incorrect variable reference in global mute,False
+51ed495ed54ca94b9ec1750418164f1ad87f3ac7,2016-04-09 22:49:52,James Simpson,v2.0.0-beta11,False
+817d2c10141477620db80385b4153c67c4963320,2016-04-09 22:37:06,James Simpson,"Revert usage of HTML5 onended event
+
+Not sure what I was thinking, this completely breaks sprites. If you
+are affected by the edge case, you can always define a sprite for the
+full length of the sound and the end event should then fire at the
+right time.",False
+82c10a6f86ff2c145fdc852b6f314c2ce923f171,2016-04-09 10:50:56,James Simpson,Fix an issue with source string check PR,False
+70b5c8389fc736f49c77948e25c7ed0f5922d822,2016-04-09 10:47:53,James Simpson,Merge branch 'CJxD-patch-1' into 2.0,True
+f2d05eb07eb12e8c57eebff0672e6e89210a6501,2016-04-09 10:47:19,James Simpson,Merge branch 'patch-1' of https://github.com/CJxD/howler.js into CJxD-patch-1,True
+2a9c13b5bbe7865e865491b92086b4b14e930fcf,2016-04-09 10:42:57,James Simpson,"Changing rate now matches HTML5 Audio behavior
+
+Instead of altering the duration and keeping the seek the same, the
+seek will now simply advance faster/slower based on the rate.",False
+2de5d2b3bb847233b9fe032a1dd10cfe95967cae,2016-04-09 03:31:34,James Simpson,Listen to HTML5 onended rather than using a timeout,False
+762c544585300a34b80ed8c0627e08bece615687,2016-04-09 02:52:04,James Simpson,"Don't create AudioContext until Howl is setup
+
+* This should fix #494.
+* This also moves some internal variables into Howler to better
+centralize everything.",False
+0e294ff0dec704a0bb5c2d955fb521b477590a78,2016-04-09 02:44:39,James Simpson,"Change audio class to sound in 3D demo
+
+Oops, didn't want to overwrite the HTML5 Audio class!",False
+c2dae4bbacc03e6387a0cfb7ecdc951889770632,2016-04-09 01:40:24,James Simpson,Merge branch 'jaycliff-patch-1' into 2.0,True
+29c9971440427b946a0f276c04256b8eac3f1322,2016-04-09 01:40:11,James Simpson,Update docs and a few tweaks to playing,False
+60bbc49860d9b03013cd0432a45cf64767f2414b,2016-04-06 08:21:36,Cliffmeister (JayJen),Update howler.core.js,False
+c154329b6e46082eadd645ed345f49ace81204df,2016-04-06 08:16:48,Cliffmeister (JayJen),"#1295: 'playing' method behavior change
+
+The current 'playing' method behavior is a bit misleading, since it will only check the first instance of the sound group if an id is not passed. Checking the whole sound group would be far more useful, imho. My proposed change is when the user calls the method without passing an id, the whole group will be loop-checked. If at least one of the sound instances is still playing, the method will return true.",False
+7ee1ba0e7ae6cf58ce11bc3b772bed3481e6d2e2,2016-03-29 19:16:15,James Simpson,Only unload Howler when sample rate is not 44100,False
+1caa9af606c3b74c1f9ce14c2cdcb5009155bd45,2016-03-29 18:04:47,James Simpson,v2.0.0-beta10,False
+982c0aaeb0ebbdd888a635b0f3226aa8cc7e4eb2,2016-03-29 18:02:57,James Simpson,Setup scratch buffer after mobile unload,False
+2e53ac2d1ecb80e5379fa6f4928e834591818069,2016-03-28 05:59:49,James Simpson,v2.0.0-beta9,False
+c57a336f36871366a889efacfbd5a6ca334714c3,2016-03-28 05:56:04,James Simpson,Merge branch 'rightshift-2.0' into 2.0,True
+9094c01b1855ea251596ceb13428518cc1b12c47,2016-03-28 05:55:51,James Simpson,Clean up the fix for buffer memory leak in mobile safari,False
+468bc2589cf8694d99108b085d158f9f48b29dc5,2016-03-28 05:45:31,James Simpson,Merge branch '2.0' of https://github.com/rightshift/howler.js into rightshift-2.0,True
+0cf05e572644d7e44a7b27f8cf74560a93a24283,2016-03-28 05:16:28,James Simpson,"Add generic ""Mobi"" check to isMobile",False
+352c714667f83020050aba4186d8e101bd769a76,2016-03-28 05:07:21,James Simpson,"Check readyState on HTML5 Audio
+
+Unfortunately, IE resets readyState to 0 when each new Howl is created,
+which sometimes causes InvalidStateError's to be thrown when no
+readyState check is present.",False
+cb948c8a54fe19ef2d0bc177f464b21cad09d261,2016-03-27 02:27:22,James Simpson,Fix audio distortion issue on mobile/iOS,False
+268d11216b348de85ccfa6ec5a5d6dee07f927c8,2016-03-27 02:06:07,James Simpson,Fix non-browser environment errors with navigator,False
+77e2340427db244c68c1d91fb89bb5008ccd8f49,2016-03-27 01:35:29,James Simpson,Only block MP3 on Opera < 33,False
+9dc1381450df5306a4607f42a92e65c3fd6dfb80,2016-03-26 21:50:30,James Simpson,Fix typo in README,False
+07de439437ef541050f127e948ff878ee184c55a,2016-03-26 21:48:34,James Simpson,Create 3D spatial audio demo,False
+7ce5a0e9146f5d25676c2588ddae6ca52d57a7cc,2016-02-29 20:52:34,James Simpson,Make sure the sound exists when emitting stop,False
+aa94f5d6249ea8c751e8fda5fe9f49fa50bacb1c,2016-02-29 13:47:58,Jonathan Meder,* update minified core & final files,False
+981b38603ca12b7f66ce4de283d52dad4c223f32,2016-02-29 13:45:15,Jonathan Meder,Merge branch '2.0' of https://github.com/goldfire/howler.js into 2.0,True
+ce5ae11340ee23a6ee8b76afd56695dc6e262c9a,2016-02-29 01:18:33,James Simpson,Fix another edge case with multiple stop/play calls before load,False
+f918de95c7a83fa8b984da5cff05dc646575f636,2016-02-28 22:08:49,Jonathan Meder,"Merge branch '2.0' of https://github.com/goldfire/howler.js into 2.0
+
+# Conflicts:
+#	howler.core.min.js
+#	howler.min.js",True
+0a155355eeddf256515e7e0add07ed6d193f1fae,2016-02-28 21:11:05,James Simpson,Add local status code check for 0,False
+8bf4b6d4bf8bc17ff903a47ccff0502d399bc8b3,2016-02-27 00:33:27,James Simpson,Use internal _state instead of unreliable readyState,False
+6cbfb21eb6490031582d1a44d3eba2d67b645084,2016-02-23 11:07:36,Jonathan Meder,* minified core and final files,False
+942533e23e61afa0e6c4634fc65781f542f1b2eb,2016-02-23 10:03:42,Jonathan Meder,* main howler file with changes from core,False
+31e112a5fc876d0b7b320d6404695e8567c242d8,2016-02-20 22:05:36,James Simpson,Create live streaming radio player demo,False
+31b5cbcf779237775019385e63f6862d67612269,2016-02-20 04:43:38,James Simpson,v2.0.0-beta8,False
+694e98930c1ee9dad50bef5bebfcd059af4f484d,2016-02-20 03:05:40,James Simpson,Fix a few cross-browser issues with audio player example,False
+39b22276ec72dde597d61dc7070d27dcfb91236f,2016-02-20 02:34:16,James Simpson,Setup volume slider on audio player example,False
+6ec18134c5b248be75d80419cb8b7f51134b5b8f,2016-02-20 01:19:19,James Simpson,Setup the playlist display on the audio player example,False
+46d70c89bc32b1554ed3ffe00af2653d9af7f83d,2016-02-20 00:52:53,James Simpson,Visual tweaks and loading indicator on audio player example,False
+7271794ef69f851971495872a5b5d7600c126d7b,2016-02-20 00:24:23,James Simpson,Emit loaderror if loaded sound returns an unexpected status code,False
+c3a751c5aa5890a2c953589164c4f74eaf4b07d5,2016-02-20 00:06:01,James Simpson,Add hack to fix issue in Ejecta playback,False
+0f2bb457df883e3c249ab0927f4d8cecbf6dd088,2016-02-19 23:58:50,James Simpson,Update readme/changelog with CAFF,False
+aba0f2195a8430365fb26c9a56379861fbde665c,2016-02-19 23:57:07,James Simpson,"Merge pull request #456 from melonjs/2.0
+
+add support for CAFF (Core Audio File Format) audio files",True
+37197a7adf5960eed788bad0b5806d8ab3edbd95,2016-02-19 23:54:47,James Simpson,"Track loaded state instead of just true/false and add new state method
+
+This addresses issue #461",False
+d83c53251c6cc835db8432cfefebf779f7b77a72,2016-02-18 20:23:13,Jonathan Meder,* incorporated a fix for iOS to unload the underlying raw audio memory correctly,False
+71b7d29bd15b80d77313a4cc09b63295bf12e45f,2016-02-13 21:00:05,Olivier Biot,"add support for the CAFF ((Core Audio File Format) files
+
+CAFF is the iPhone's native audio file format for uncompressed sounds
+and the recommended format by Apple for short sound effects.
+
+This might not be useful as such, but quite handy when bundling Howler
+together with a wrapper like Ejecta",False
+73bc678668b61d693055f98e624c0312145dd557,2016-02-13 06:25:29,James Simpson,"Setup the base audio player example project
+
+Most of the functionality is present, but still missing audio control
+and song selection.",False
+dc36e1b19b534357878b5e1bca8c3d3111c7c8b4,2016-02-10 19:09:45,James Simpson,"Merge pull request #450 from NavidK0/patch-1
+
+Fixed two typos",True
+06a8f0d61abb37a6878d9e63d8775ad3509d9987,2016-02-10 11:54:56,Navid Kabir,"Fixed two typos
+
+Not much, just caught my eye while reading through the docs.",False
+60ddfa3f2ec09996bbd619fa6259be6176242e7d,2016-02-06 02:23:12,James Simpson,Setup a simple effects test (only has position at the moment),False
+367705dba2d4061aa0254be3f88c71cbc80655f9,2016-02-06 00:21:23,James Simpson,"Merge pull request #438 from Melatonin64/2.0
+
+Bug fix - queue gets stuck when two plays are called",True
+94079644c85787e5dca71c51ffaa8cb04682a939,2016-02-06 00:12:18,James Simpson,Duration method now accounts for rate changes,False
+c70c92a397de9e6060d9496390a387876d5c4566,2016-02-01 07:16:18,Tomer Lahav,Bug fix for queue getting stuck when two plays are called consecutively before audio loaded.,False
+1d53d8d4d5e43ce37f4368d30b5f2a31b411565c,2016-01-31 10:20:57,James Simpson,Add missing sprite loop to HTML5 Audio test,False
+373e5db3aa2ff0ae083f55931ba9315b25ec2270,2016-01-31 08:53:15,James Simpson,Update documentation about WebM cues element,False
+d7393564de7fc405761932dad028146c4693d488,2016-01-30 03:59:23,James Simpson,Wait for audio to load before starting the test,False
+0f6aee25eff85e3aa7b161f74fac2c51f1b950de,2016-01-30 03:33:33,James Simpson,Some more cleanup of the tests directory,False
+1f7adca9927f50dd4554b66cc56fdc8b5915ac65,2016-01-30 03:31:40,James Simpson,Split core test into webaudio/html5audio,False
+20667924c77874541ddc29ede56f4ba918bb4f67,2016-01-30 03:05:17,James Simpson,More visual tweaks to tests display,False
+01699871e63d46a9a44f798389029d269b9741d2,2016-01-30 02:23:01,James Simpson,Rename tests to core in anticipation for plugin tests,False
+b920a851cf3300afb06a446147bef638252eec68,2016-01-30 02:17:06,James Simpson,Added rate method to tests,False
+378bbbeb97609d11ce7815371cbd7341650f08f2,2016-01-30 02:16:53,James Simpson,Made a few visual tweaks to tests display,False
+169feb2702632459cb0eb37bf24a20e1d840f78c,2016-01-23 06:01:46,James Simpson,v1.1.29,False
+565173cda8e1b527abbbe6dda1928a4fa7fe2ebe,2016-01-23 05:56:27,James Simpson,Correctly fire end event when rate != 1,False
+d05de15c51589b6f16765baf22cb76c3440b1a96,2016-01-23 05:38:03,James Simpson,"Merge pull request #340 from richard-livingston/_clearEndTimer
+
+_clearEndTimer accidentally clears first timer in array",True
+04350f0f43d9abdc01baaf51e2fc44874508398c,2016-01-23 05:23:10,James Simpson,Better organize tests directory,False
+51702fdb7db090c32296e266e0e73d500e406786,2016-01-23 04:44:20,James Simpson,Expose master GainNode on Howler,False
+b41b8b1e10b33537eed96362ef637336e19e11f3,2016-01-23 01:49:02,James Simpson,"Setup the internal queue system on the effects plugin
+
+Also, added `pos`, `orientation` and `velocity` events.",False
+110c7c623d176f3621425380dde9e39a2196cced,2016-01-21 02:54:37,Chris Watts,"Add a string validation check for sources
+
+I was caught out by this because AngularJS can wrap strings in TrustedValueHolderTypes which it uses for templates when using external sources.",False
+7129a240bef9922f0604f7b7376d8ea79d609dfe,2016-01-16 05:25:23,James Simpson,v2.0.0-beta7,False
+d3139c075174b77f0cf8eddce045ed3ba8103bf8,2016-01-16 05:08:26,James Simpson,Switch test sounds from OGG to WebM,False
+99f27f1f174fe49a1a3572d975a7277c3e723d7d,2016-01-16 04:42:27,James Simpson,Disable Web Audio on iOS <9 webviews due to crashes,False
+1dc41379fa3a7a08aadcd07d5070a9012754c25a,2016-01-16 04:08:00,James Simpson,Few more bug fixes/cleanup in effects,False
+5690d38529cce5fb29d1b0da569dea806aedd55d,2016-01-16 04:03:07,James Simpson,"Merge pull request #244 from luxigo/2.0
+
+Default effects properties were not set, + minor fixes",True

@@ -1,0 +1,1670 @@
+Hash,Date,Author,Message,IsMerge
+7f3f09550dfb89dfd809887c27513d4495899b41,2025-01-14 05:39:21,dependabot[bot],"Bump eslint-config-prettier from 9.1.0 to 10.0.1
+
+Bumps [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) from 9.1.0 to 10.0.1.
+- [Release notes](https://github.com/prettier/eslint-config-prettier/releases)
+- [Changelog](https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/prettier/eslint-config-prettier/compare/v9.1.0...v10.0.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-config-prettier
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+19c77ea7f383c377f45359e3d98ed7e66b2edfba,2025-01-07 13:06:27,dependabot[bot],"Bump release-it from 17.11.0 to 18.0.0
+
+Bumps [release-it](https://github.com/release-it/release-it) from 17.11.0 to 18.0.0.
+- [Release notes](https://github.com/release-it/release-it/releases)
+- [Changelog](https://github.com/release-it/release-it/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/release-it/release-it/compare/17.11.0...18.0.0)
+
+---
+updated-dependencies:
+- dependency-name: release-it
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+8eb77f5f5f17cf3d08ac8b6f74438d9425fdad6c,2024-07-14 09:53:54,dependabot[bot],"Bump grunt-contrib-qunit from 8.0.1 to 10.0.0
+
+Bumps [grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) from 8.0.1 to 10.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-qunit/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-qunit/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-qunit/compare/v8.0.1...v10.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-qunit
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+5b676b97a4ff308443f7f8f9a2e26c7d690a48ac,2024-07-09 10:06:09,dependabot[bot],"Bump grunt-contrib-connect from 4.0.0 to 5.0.0
+
+Bumps [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) from 4.0.0 to 5.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-connect/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-connect/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-connect/compare/v4.0.0...v5.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-connect
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+1c5db721d2f080bac3e41b55a92f31c522816be3,2024-05-03 09:42:35,dependabot[bot],"Bump eslint-plugin-markdown from 4.0.1 to 5.0.0
+
+Bumps [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdown) from 4.0.1 to 5.0.0.
+- [Release notes](https://github.com/eslint/eslint-plugin-markdown/releases)
+- [Changelog](https://github.com/eslint/eslint-plugin-markdown/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint-plugin-markdown/compare/v4.0.1...v5.0.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-markdown
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+4ffd2111c42c93915d672f6a6aa90232814fa15b,2024-04-09 17:40:53,Klaus Hartl,Change Prettier config file for consistency,False
+2227aa9cdfea0822e0314fc691e8528e7e519f5d,2024-04-09 17:37:18,Klaus Hartl,Remove outdated keyword,False
+f30a5f2384cb3feac30814a3109d21d69b0210b0,2024-04-09 17:36:07,Klaus Hartl,"Migrate to ESLint 9 w/ flat config
+
+Closes #856",False
+2eca98a6b091162d9d776a766f4b21ba8e8ab6ab,2024-03-09 14:13:40,Klaus Hartl,"Remove Node version from test matrix
+
+To soon..",False
+ec76018796d4a2806acc87bd6f06296e9d44837f,2024-03-09 14:11:00,Klaus Hartl,Take Node version from package.json for testing,False
+2da96e38adbce8ff027a7866dbcf92360b4dd27f,2024-03-09 14:06:40,Klaus Hartl,"Fix installing dependencies
+
+- Requires updating Node versions to test against, but Node 16 is no
+  longer maintenance to begin with..",False
+2628922bba23f0d602052619fef06c1f1a00105e,2024-03-09 13:47:27,dependabot[bot],"Bump actions/stale from 4.1.1 to 9.0.0
+
+Bumps [actions/stale](https://github.com/actions/stale) from 4.1.1 to 9.0.0.
+- [Release notes](https://github.com/actions/stale/releases)
+- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/stale/compare/v4.1.1...v9.0.0)
+
+---
+updated-dependencies:
+- dependency-name: actions/stale
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+fa8f325c715b613798f8f43f7bf3067fc6973b9e,2024-03-09 13:46:03,Klaus Hartl,Remove trailing whitespace,False
+134f03d7053adf5cb2e0660b62b12ca4fb3d9647,2024-03-09 13:45:12,Klaus Hartl,"Remove broken link
+
+Closes #852",False
+bd374fbc88d5426291d8039a26682ced2514665d,2024-03-09 13:37:42,Klaus Hartl,Apply formatting after merging PR,False
+ccc6b9867207654a45036da5782840475dab1d69,2024-03-09 13:36:16,David Balatero,Add documentation for how to import the library,False
+2aaea67280c34814945a79d97fa54be0d83c9174,2024-03-07 07:29:03,dependabot[bot],"Bump eslint-plugin-markdown from 3.0.1 to 4.0.1
+
+Bumps [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdown) from 3.0.1 to 4.0.1.
+- [Release notes](https://github.com/eslint/eslint-plugin-markdown/releases)
+- [Changelog](https://github.com/eslint/eslint-plugin-markdown/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint-plugin-markdown/compare/v3.0.1...v4.0.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-markdown
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+7627008ccd468040d670a4d39b7ea8ecb03df6a5,2024-02-13 03:21:45,dependabot[bot],"Bump eslint-plugin-html from 7.1.0 to 8.0.0
+
+Bumps [eslint-plugin-html](https://github.com/BenoitZugmeyer/eslint-plugin-html) from 7.1.0 to 8.0.0.
+- [Changelog](https://github.com/BenoitZugmeyer/eslint-plugin-html/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/BenoitZugmeyer/eslint-plugin-html/compare/v7.1.0...v8.0.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-html
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+323f1f2bdae68f99b4b6f3a2a9252132365dcb0b,2023-12-25 14:30:40,Klaus Hartl,"Enhance note in readme related to cookie deletion
+
+Ref: #846",False
+5eeb835f1d03c523b3609f1aa93e9d11048b519f,2023-11-14 12:19:10,dependabot[bot],"Bump release-it from 16.2.1 to 17.0.0
+
+Bumps [release-it](https://github.com/release-it/release-it) from 16.2.1 to 17.0.0.
+- [Release notes](https://github.com/release-it/release-it/releases)
+- [Changelog](https://github.com/release-it/release-it/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/release-it/release-it/compare/16.2.1...17.0.0)
+
+---
+updated-dependencies:
+- dependency-name: release-it
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+51d26ca5bfe8c085d94119a16c472100c6ea5641,2023-10-24 05:17:35,dependabot[bot],"Bump actions/setup-node from 3 to 4
+
+Bumps [actions/setup-node](https://github.com/actions/setup-node) from 3 to 4.
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/v3...v4)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+977798fe2576518739f91d33b266fdfdeff7f79a,2023-10-20 15:16:35,Klaus Hartl,Avoid marking dependabot PRs as stale,False
+bd09ac5cef7817e5e96620db3ead2e7e2b3938c6,2023-10-18 10:56:15,dependabot[bot],"Bump rollup from 3.29.4 to 4.1.4
+
+Bumps [rollup](https://github.com/rollup/rollup) from 3.29.4 to 4.1.4.
+- [Release notes](https://github.com/rollup/rollup/releases)
+- [Changelog](https://github.com/rollup/rollup/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/rollup/rollup/compare/v3.29.4...v4.1.4)
+
+---
+updated-dependencies:
+- dependency-name: rollup
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+d53791620dc1cf3e731b8865e30c760546943d65,2023-10-18 10:48:11,Klaus Hartl,"Revisit configuration for stale issue/pr bot
+
+- Didn't seem to work so far, but wasn't using the actual latest version
+  (despite higher version number)",False
+0ce42f2f749ed6d680736a12281e2d02b2e4a265,2023-09-19 09:31:12,dependabot[bot],"Bump grunt-contrib-qunit from 7.0.1 to 8.0.1
+
+Bumps [grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) from 7.0.1 to 8.0.1.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-qunit/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-qunit/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-qunit/compare/v7.0.1...v8.0.1)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-qunit
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+8715d7b75bb2c89c4992691d5a03c275eb8ea89a,2023-09-09 23:47:55,dependabot[bot],"Bump actions/checkout from 3 to 4
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v3...v4)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+a427812597527fd82f9747fe075c2f65b93c3112,2023-08-09 12:55:03,Klaus Hartl,Add stale issue automation workflow,False
+04e389cbdb5a7f98a94fd532d1563b73e869db3b,2023-08-08 04:08:43,dependabot[bot],"Bump eslint-config-prettier from 8.10.0 to 9.0.0
+
+Bumps [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) from 8.10.0 to 9.0.0.
+- [Changelog](https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/prettier/eslint-config-prettier/compare/v8.10.0...v9.0.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-config-prettier
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+b23b52b50c237db792f0121c41ff29216172cd46,2023-07-20 06:37:27,dependabot[bot],"Bump grunt-contrib-connect from 3.0.0 to 4.0.0
+
+Bumps [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) from 3.0.0 to 4.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-connect/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-connect/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-connect/compare/v3.0.0...v4.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-connect
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+495bf421c6f7d81e74021fdaabd2312ececca6eb,2023-07-08 12:30:30,Klaus Hartl,"Bump prettier from 2.8.8 to 3.0.0
+
+Closes #830",False
+f318682ed102a2e2d35834322d62f24da2ae3b8d,2023-07-06 09:59:52,dependabot[bot],"Bump release-it from 15.11.0 to 16.0.0
+
+Bumps [release-it](https://github.com/release-it/release-it) from 15.11.0 to 16.0.0.
+- [Release notes](https://github.com/release-it/release-it/releases)
+- [Changelog](https://github.com/release-it/release-it/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/release-it/release-it/compare/15.11.0...16.0.0)
+
+---
+updated-dependencies:
+- dependency-name: release-it
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+dbabe4f8083f90915ac7964a1da5caa019714117,2023-06-26 09:59:35,Klaus Hartl,Set up recommended extensions for VS Code,False
+c3fa260f82ae0d229ea45274f0aaa876c52581ad,2023-06-25 18:36:51,Klaus Hartl,Ignore dev container for CI,False
+5a9abb5b60c6d3c15d3df4c100517ec78fdba904,2023-06-25 18:27:18,Klaus Hartl,"Set up dev container
+
+The idea is with being able to resort to the dev container the
+occasional Apple Silicon user will not need to follow the extra steps in
+order to be able to run tests with headless Puppeteer/Chrome.",False
+e8ee063e1172bee8786ab690b716eb4c06c600f3,2023-06-25 13:31:14,Klaus Hartl,"Remove superfluous instructions
+
+Git hooks are usually installed via postinstall hook.",False
+b75456169404447d4e66a98aea87bb46c06909cc,2023-06-24 11:43:09,Klaus Hartl,"Improve testing if cookie has been found before
+
+E.g. allow falsy values returned by a custom decoder.",False
+aecb4b3c4596065a5bae5ffcb595cd940e59c752,2023-06-23 09:04:34,Klaus Hartl,"Use QUnit for node tests
+
+So that we only have to maintain a single framework.",False
+19c9747d7e894f8915a6f6b2cbe37a5621b68d67,2023-06-22 22:10:57,Klaus Hartl,"Add Git hooks setup for linting + formatting
+
+If possible, a pre-commit hook will automatically apply eslint and
+prettier fixes for the staged changes...",False
+b744e2a5a1195c3d66aab0344c0aa1d640c73f90,2023-06-22 21:46:29,Klaus Hartl,Use improved prettier invocation,False
+7c19140fa36a3553f06f104ca441e32c5eb87ede,2023-06-22 21:42:03,Klaus Hartl,Fix job reference in pipeline,False
+800142a4ff43dc3e61f566cdcb63aad7d89a0407,2023-06-22 21:30:50,Klaus Hartl,"Overhaul linting + formatter approach
+
+The standard linter didn't play nice with Prettier, so that we had
+standard undo certain formatting applied by Prettier. Thus we couldn't rely
+on the Prettier extension in say VS Code to apply formatting right away
+upon saving: an extra call in the CLI is necessary.
+
+This change simplifies the approach: we're using Prettier for formatting
+with an externalized config so that editors can pick it up, and eslint
+for linting, and the two won't interfere.
+
+This also allows us to add explicit steps for linting and formatting
+checks in the CI pipeline.
+
+We're also taking linting out of the ""test"" Grunt task. Unit tests and
+linting should be two distinct things.",False
+9fd191c63557fd5859492b5ac6c92c6940f866dc,2023-06-22 15:29:25,Klaus Hartl,Bump eslint-config-standard from 16.0.3 to 17.1.0,False
+7dd825a00e709a9f2eb712182063ea45308a89eb,2023-06-22 11:54:15,Klaus Hartl,Update mobile devices to test in,False
+6f67f2f50cc1c5c0946bcf9b2f85d97c209bc5a6,2023-06-22 11:44:06,Klaus Hartl,Update macOS versions to test in,False
+b3e22dbe055bd8ad6f80a0de0787dc3afa29adbe,2023-06-22 11:37:20,Klaus Hartl,"Update Node.js versions to test against
+
+Stick to *active* LTS versions.",False
+9fcf40238bc07d40a4f0e292a32c7675f60b9746,2023-06-22 11:20:35,Klaus Hartl,Skip CI for a couple of files,False
+4c461ed65421b67791e90be3a499c9d9a40b4140,2023-06-22 11:13:43,Klaus Hartl,Consolidate testing workflows,False
+5c1f5fca7e20c9db1108899610e75da49500d054,2023-06-22 11:02:44,Klaus Hartl,Add note on how to install dependencies on M1/M2,False
+246e335be963c2364d88e0e767a3a79c27365075,2023-06-21 21:42:28,Klaus Hartl,"Simplify delayed assertion on encodings
+
+We can rely on `done()` not being called to report test as failed.",False
+f79ea756db122e9a8d1ffde3094384d5300d63f4,2023-06-21 21:33:55,Klaus Hartl,"Remove `assert.expect()` calls
+
+- Anti-pattern usage for synchronous tests
+- Even for async tests `assert.async()` provides sufficient control",False
+4b5164eb950aa0dcd537379f3db3e514024d7ae5,2023-06-21 21:23:01,Klaus Hartl,Bump qunit from 2.9.3 to 2.19.4,False
+60b544ceee5380c575a79d42a4ba7fc41b9054c1,2023-06-21 21:21:03,Klaus Hartl,Opt in to Chrome's new headless mode,False
+65fc216154fbff9f553ef56a68ae458f9b48154b,2023-06-21 18:02:58,Klaus Hartl,"Eliminate ""QUnit is not defined"" errors
+
+These appeared for tests involving an iframe, didn't affect the test
+result itself, but produced unhelpful noise when running tests.
+
+See https://github.com/gruntjs/grunt-contrib-qunit/issues/202
+
+Closes #826",False
+3834c918a0993fed52dba95d2cb448305e965951,2023-05-30 14:59:44,Klaus Hartl,Update vulnerability reporting to use GitHub,False
+1953d302d7050a8e73e74a9e1822630da1dc3852,2023-05-30 13:26:00,Klaus Hartl,"Ensure consistency w/ get('name') + get() behavior
+
+In the case of two (or more) cookies with the same name visible to the
+current scope, so far we've been retrieving the first one we find for
+`get('name')` and the last one for `get()` (because in the latter case
+we continued the loop and eventually overwrote a duplicate cookie name
+in the returned result/object).
+
+This change makes the behavior at least consistent, so there aren't
+different cookies in the result for both calls.
+
+We should be returning all visible cookies though, but the API change
+for this is still being discussed.. see:
+https://github.com/js-cookie/js-cookie/issues/813
+
+Also see: https://github.com/js-cookie/js-cookie/wiki/Cookies-with-duplicated-name",False
+9519b763233f0d7f8b6c99c0a1b8a2b323e69c2d,2023-05-29 17:58:40,Klaus Hartl,Remove security related info in readme,False
+dabfdbbf94c553d022abbde4b6c525b06080069a,2023-05-29 17:57:54,Klaus Hartl,Tweak security related information,False
+3916010fe006a7085fdf50c6438330a52119373e,2023-05-29 17:52:10,n0tst3,"Create SECURITY.md
+
+add adequate SECURITY.md to enable Security Tab",False
+ab3f67fc4fad88cdf07b258c08e4164e06bf7506,2023-04-24 14:53:52,github-actions[bot],Craft v3.0.5 release,False
+39a0f40ef22eeb64906836b5cf00ea615ebe8739,2023-04-24 14:10:53,Klaus Hartl,"Remove npm version restriction
+
+Only intention was to communicate that we'd need a recent npm supporting
+`--provenance`, but this breaks builds elsewhere.",False
+08eb82579fb1c6c42486db6fc6636b56fe52e497,2023-04-23 15:10:58,Klaus Hartl,"Stop distribution via GitHub releases
+
+This counteracts the additional supply-chain security we've just
+introduced via package provenance; GitHub releases are not immutable.",False
+f44d1252a1451bba215de5680cd27ab9db74561e,2023-04-23 10:09:22,Klaus Hartl,"Revert ""Allow skipping npm publishing for releasing""
+
+This reverts commit c74040829f3c2a244bf4b041ff2ec785199356c9.",False
+ef94a674a73cb98237a5234d549ab7fc1c4daf13,2023-04-23 10:09:02,Klaus Hartl,"Revert ""Add cli flag required to actually skip npm publish""
+
+This reverts commit 0e8eb66fb74c349959b061d857713b3ba0b2251d.",False
+3f8542cfd82016505d84194c8d239a4bdb165a0f,2023-04-22 12:38:59,Klaus Hartl,Reword readme section regarding releasing,False
+0e8eb66fb74c349959b061d857713b3ba0b2251d,2023-04-22 12:36:20,Klaus Hartl,Add cli flag required to actually skip npm publish,False
+c74040829f3c2a244bf4b041ff2ec785199356c9,2023-04-22 12:27:56,Klaus Hartl,"Allow skipping npm publishing for releasing
+
+Mostly for testing and when the npm publishing had succeeded but
+something with committing went wrong.",False
+089e42b7a755bcd8afab3fd9eeed3868ae9ea7e3,2023-04-22 12:26:47,Klaus Hartl,Add keyless commit signing to release workflow,False
+97dca933b686c0b9b7b6f74189780854e9aa5822,2023-04-22 00:06:23,github-actions[bot],Craft v3.0.4 release,False
+ed914cc29f1a3071612cbd2c8526675ddb219cc0,2023-04-22 00:02:43,Klaus Hartl,Craft v3.0.3 release,False
+1074ef899a6d314f601f0bbd3f6a244e4907b1df,2023-04-21 23:38:07,Klaus Hartl,Adapt git user in release workflow,False
+b838df853a7cedd1430f2603491a2389ad03f47f,2023-04-21 23:30:58,Klaus Hartl,Craft v3.0.2 release,False
+2d06dec3e9d397e9f7f290a980d6b57289d29d0d,2023-04-21 22:57:17,Klaus Hartl,Add missing git user config for release workflow,False
+ee043b4fc341f076de57d1bb6d808b090b43c017,2023-04-21 22:40:52,Klaus Hartl,"Fix test for boolean input
+
+It's not really a boolean..
+
+https://github.com/actions/runner/issues/1483",False
+30dd7615c6b6746f409c48a714d0916f57320822,2023-04-21 18:40:02,Klaus Hartl,"Prevent `npm whoami` check for release-it
+
+It doesn't use the token from .npmrc we rely on in the automation.",False
+ada4b3b4b638c47b4cfc8e70ad8164219c2dccb6,2023-04-21 18:39:30,Klaus Hartl,"Add missing GitHub token for releasing
+
+We're creating both an npm release and one on GitHub.",False
+75c8aa5d9c5216962a51f8dcbbb30b3d905c44ba,2023-04-21 18:39:10,Klaus Hartl,Streamline checking out repo for releasing,False
+9a2bf3fecb1215e513d53db92ebf17330fb60f36,2023-04-21 18:24:39,Klaus Hartl,Add missing whitespace in command,False
+715aaa0b26a7c3fa40ac373fd395f1f56d86e009,2023-04-21 18:11:08,Klaus Hartl,Add missing flag for npm publishing,False
+d8af3b21c263a63b80a8235735f565f50519b931,2023-04-21 18:10:49,Klaus Hartl,Fix yaml formatting in workflow file,False
+8d7b07ef09dded0478dfa39a493331668aa47b31,2023-04-21 18:10:24,Klaus Hartl,Rename copy&paste job name,False
+4f201eb9ac3dd4db09640b229bf5052cbd7eb6f1,2023-04-21 18:03:47,Klaus Hartl,"Add workflow for releasing w/ package provenance
+
+Closes #815",False
+f2f5646bce005eb146af50f50c35030e5d86b1df,2023-03-19 12:20:35,Klaus Hartl,Adapt branch name in readme,False
+c5ec0f77f72edaa5db6aa78fe52763093e0f7cd1,2023-03-17 11:26:42,dependabot[bot],"Bump grunt-contrib-nodeunit from 4.0.0 to 5.0.0
+
+Bumps [grunt-contrib-nodeunit](https://github.com/gruntjs/grunt-contrib-nodeunit) from 4.0.0 to 5.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-nodeunit/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-nodeunit/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-nodeunit/compare/v4.0.0...v5.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-nodeunit
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+a6572cca30d7fa92d5d56154088a25e7ac9443c0,2023-02-28 03:21:49,dependabot[bot],"Bump rollup-plugin-filesize from 9.1.2 to 10.0.0 (#812)
+
+Bumps [rollup-plugin-filesize](https://github.com/ritz078/rollup-plugin-filesize) from 9.1.2 to 10.0.0.
+- [Release notes](https://github.com/ritz078/rollup-plugin-filesize/releases)
+- [Commits](https://github.com/ritz078/rollup-plugin-filesize/commits)
+
+---
+updated-dependencies:
+- dependency-name: rollup-plugin-filesize
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e542c7ac46ef083041e5227e1f455adff5288797,2023-02-24 22:07:36,Klaus Hartl,Enable easier shell command copy&paste,False
+05da3362615d49d7f0b2922768ac4252e613d786,2023-02-24 22:02:58,Klaus Hartl,Update grunt setup info,False
+7a630098f1d066db03e63c48a5f0112489fbbbbe,2023-02-24 22:00:16,Klaus Hartl,"Remove outdated info from contributing guide
+
+`window.global_test_results` is no longer populated, was removed in
+9aa1b79.",False
+c573aaa2010b57d66e23eda05c43f5f4b8330237,2023-02-21 23:40:28,Klaus Hartl,"Bump rollup from 2.79.1 to 3.17.2
+
+- Rollup expects the mjs file extension now for an ES module config
+- Workaround requiring a type assertion for importing package.json
+
+Closes #810",False
+c37acc26ea4f5cd2734e88bf94b7c855f9795214,2023-02-21 20:26:18,Klaus Hartl,"Remove IEs from BrowserStack testing
+
+Both IE 10 + 11 are producing a ""Possible Unhandled Promise Rejection:
+[TypeError: Unable to set property 'errors' of undefined or null
+reference]"" error, causing the test to fail. I'm assuming a problem with
+the browserstack runner, but not sure, can't even run BrowserStack
+locally on Apple Silicone (unless installing Rosetta).",False
+005fd2a049fcbef5dafbdc6dcf0897d6b09960db,2023-02-21 19:49:31,Klaus Hartl,Allow running BrowserStack tests manually,False
+fd0f0f442eb873833b831e0d2e7e7fb29910033b,2023-02-17 18:57:29,Klaus Hartl,Replace deprecated terser package,False
+188d1dc27e37536d6f88a4596c127dc4dd64fd03,2023-02-17 18:52:01,Klaus Hartl,Configure npm to not generate lock file,False
+ad52e512a3bd0ec4d438ab044f1c7e564027e437,2023-02-17 18:29:46,dependabot[bot],"Bump grunt-contrib-qunit from 6.2.1 to 7.0.0 (#808)
+
+Bumps [grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) from 6.2.1 to 7.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-qunit/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-qunit/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-qunit/compare/v6.2.1...v7.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-qunit
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3c04d17c2fb955af979bfb9a0186fe1ed9029111,2023-02-17 18:27:32,Klaus Hartl,Apply formatting changes from most recent prettier,False
+2b875972c335545895c57458d7b3c8423125aeef,2023-02-17 18:26:40,Klaus Hartl,Update engines property in package spec,False
+8be0d012c1108625e21a34fbcdf638e0a4ab9831,2023-02-17 17:04:49,Klaus Hartl,Update Node versions (LTS) to test against,False
+265ddcd6d3d2dc3136e0fba10f6553c80f802fc8,2022-10-27 12:11:09,Klaus Hartl,Bump rollup-plugin-license from 2.9.0 to 3.0.0,False
+f79d254efcc9fcc12624a732db917d3823f1f6d0,2022-07-20 08:47:32,dependabot[bot],"Bump eslint-plugin-html from 6.2.0 to 7.0.0 (#787)
+
+Bumps [eslint-plugin-html](https://github.com/BenoitZugmeyer/eslint-plugin-html) from 6.2.0 to 7.0.0.
+- [Release notes](https://github.com/BenoitZugmeyer/eslint-plugin-html/releases)
+- [Changelog](https://github.com/BenoitZugmeyer/eslint-plugin-html/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/BenoitZugmeyer/eslint-plugin-html/compare/v6.2.0...v7.0.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-html
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+25be28ce9c457652ec633ee3589bc7a001fedadb,2022-07-19 08:49:49,dependabot[bot],"Bump eslint-plugin-markdown from 2.2.1 to 3.0.0 (#786)
+
+Bumps [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdown) from 2.2.1 to 3.0.0.
+- [Release notes](https://github.com/eslint/eslint-plugin-markdown/releases)
+- [Changelog](https://github.com/eslint/eslint-plugin-markdown/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint-plugin-markdown/compare/v2.2.1...v3.0.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-markdown
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+38dcc5d8b7d7c75c45c7985ad6868f438ffb2956,2022-05-10 11:57:19,Klaus Hartl,Tidy up dependabot config,False
+75f1f7ae70cb6a138db6fee5142c0139ad466674,2022-05-10 11:18:11,dependabot[bot],"Bump actions/setup-node from 2 to 3 (#779)
+
+Bumps [actions/setup-node](https://github.com/actions/setup-node) from 2 to 3.
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/v2...v3)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8c305b256c34c1b3c307f24f020b7979c3a87f68,2022-05-10 10:56:18,dependabot[bot],"Bump actions/checkout from 2 to 3 (#778)
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 2 to 3.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v2...v3)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6a9333ca5fac22364fd70cb90b410820ec62eaf1,2022-05-10 10:54:03,Klaus Hartl,Pin 3rd-party actions to commit sha,False
+2323fd0d5716d68fef4814c3324fd71ce1a9da28,2022-05-10 10:51:47,Klaus Hartl,Add github-actions setup for dependabot,False
+86712648ab47ded20a8a508214d470a2c8bc3c71,2022-05-03 08:53:19,dependabot[bot],"Bump release-it from 14.14.3 to 15.0.0 (#777)
+
+Bumps [release-it](https://github.com/release-it/release-it) from 14.14.3 to 15.0.0.
+- [Release notes](https://github.com/release-it/release-it/releases)
+- [Changelog](https://github.com/release-it/release-it/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/release-it/release-it/compare/14.14.3...15.0.0)
+
+---
+updated-dependencies:
+- dependency-name: release-it
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+61a2178dcc2ad13b5bb4263460042084cdc716cf,2022-04-21 11:08:15,dependabot[bot],"Bump standard from 16.0.4 to 17.0.0 (#774)
+
+Bumps [standard](https://github.com/standard/standard) from 16.0.4 to 17.0.0.
+- [Release notes](https://github.com/standard/standard/releases)
+- [Changelog](https://github.com/standard/standard/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/standard/standard/compare/v16.0.4...v17.0.0)
+
+---
+updated-dependencies:
+- dependency-name: standard
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+64cfa8c6a1ea68a573a477f7462e42adc7e5684a,2022-04-07 14:30:37,Daniel Tseng,"docs: use https protocol for RFC 6265 (#771)
+
+The `http` protocol will cause `not found` in the first render. Using `https` will be better.",False
+f1985c561dce6c6c98161bd66ded7fdad787366b,2022-04-05 12:30:29,dependabot[bot],"Bump grunt-contrib-qunit from 3.1.0 to 6.0.0 (#770)
+
+Bumps [grunt-contrib-qunit](https://github.com/gruntjs/grunt-contrib-qunit) from 3.1.0 to 6.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-qunit/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-qunit/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-qunit/compare/v3.1.0...v6.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-qunit
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+341df52bff8dd2840434a43e9bf7d4f159a84e6a,2022-03-17 16:24:38,Klaus Hartl,Simplify passing attributes reference unit test,False
+3faec9b5169ad06f456028a4aa001ca9e746b86b,2022-01-05 13:59:34,Klaus Hartl,Try to get away without explicit dependency,False
+88c5b8e43f70466651e0722bd21ee3734cd87eb5,2022-01-05 13:18:12,Klaus Hartl,"Fix problem running browserstack tests on M1
+
+The browser-stack runner was failing to verify the binary and attempted
+to download a binary from a non-existent AWS S3 location (there's no
+specific binary for M1).
+
+Version 0.9.5 of the browserstack-runner fixed this, but wasn't
+available on npm, therefore we're referencing the version via GitHub
+commit.
+
+Note it's still not possible to run browserstack tests just so on M1 - a
+manual download plus setting up the `BROWSERSTACK_LOCAL_BINARY_PATH` env
+var accordingly is still required to avoid attempting a broken download.",False
+7140e7569b362d03190b4932e3280548e68441de,2022-01-05 12:19:27,Klaus Hartl,Add Google Pixel to tested devices,False
+0eabb4e82b039d46be70589ba6a4242159edf9e9,2022-01-04 17:12:56,Klaus Hartl,"Revert ""Add Android device to BrowserStack config""
+
+This reverts commit 520271f522aed886f72f9a579c901911ec296ea2.",False
+520271f522aed886f72f9a579c901911ec296ea2,2022-01-04 17:02:02,Klaus Hartl,Add Android device to BrowserStack config,False
+db23a26582fe5c5bc0639099ff82ca5dd3964e5b,2022-01-04 16:47:39,Klaus Hartl,Run CI once a month along with push,False
+b1e6a772d30a0370e3b6aa57db1c319464a0114d,2022-01-04 14:20:40,Klaus Hartl,Remove copy&pasted command,False
+8774617d333fb089e91450ddc2cbeef373160597,2022-01-04 14:13:09,Klaus Hartl,Remove accidentally duplicated markdown,False
+252666c65999f794ff22ffa7a781e7ea8d1bee97,2022-01-04 14:11:38,Klaus Hartl,Replace BrowserStack badge,False
+9de4e0cc22d8cec4e70edc376965ea4124331e5e,2022-01-04 14:10:18,Klaus Hartl,Add BrowserStack testing workflow,False
+4208f963527ca246eccc63fe5dfb37394803fb7e,2022-01-04 13:55:18,Klaus Hartl,Turn off caching (requires package lock file),False
+b936ed0166b454c8bddaae3fdfd4b33c73965000,2022-01-04 13:52:27,Klaus Hartl,Avoid requiring a lock file,False
+b7868e9bd4c2c2490b062169d5fa203591ad24bf,2022-01-04 13:43:45,Klaus Hartl,Replace build badge,False
+d72cb515ab15fe685ffe91a5a7ea8b8726e9c097,2022-01-04 13:35:16,Klaus Hartl,"Start migrating to GitHub Actions for CI
+
+BrowserStack based testing yet missing..",False
+0371f69baee31eba40d3200d0e1a2d2b528f0fc8,2021-10-08 19:50:20,dependabot[bot],"Bump grunt-contrib-nodeunit from 3.0.0 to 4.0.0
+
+Bumps [grunt-contrib-nodeunit](https://github.com/gruntjs/grunt-contrib-nodeunit) from 3.0.0 to 4.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-nodeunit/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-nodeunit/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-nodeunit/compare/v3.0.0...v4.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-nodeunit
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+226a4df0a4c0efdbf345579ae14a8d7f4deb42bd,2021-09-03 10:11:33,Klaus Hartl,Stick to consistent cookie terminology,False
+0ba77141dd215782cc7770347a457906908c66ff,2021-09-01 16:12:34,Klaus Hartl,Craft v3.0.1 release,False
+2a8d172c0bc70a71201561f05af3a25d2f6c1fbc,2021-09-01 11:47:13,Denis Richard,export package.json,False
+a6345f02eadf2498e7e9d67ffcf4c20ed02c0ad5,2021-08-27 19:18:46,Klaus Hartl,Let dependabot ignore patch updates,False
+fee39fc8282a9b9a3ae75b4ef66aa8fbba7c165c,2021-08-27 14:16:32,Klaus Hartl,Move RFC 6265 related functionality to converter,False
+9e45d88ef25807b721915d456acd9a3284e64de6,2021-08-21 14:37:14,Klaus Hartl,"Use decodeURIComponent() for decoding key
+
+I found it confusing that we're using the *value* converter for
+reading/converting back the key. Welcomed side-effect is that this
+change reduced gzipped size a tiny little bit again.",False
+0790074cf36dbe21b3b78fc9f3b968e6e2a8e8d1,2021-08-18 11:46:27,Klaus Hartl,"Remove unnecessary assignment
+
+Reduces size a little further..",False
+f06749cc93e9e690ce97912552746d41415c7546,2021-07-28 11:23:29,Klaus Hartl,"Remove iPhone 8 from BrowserStack setup
+
+OS that was configured is slightly outdated and this seems to be the one
+that regularly times out.",False
+750a2d8f5a112e9e7719b06c8356323901c6e0fa,2021-07-26 22:47:45,Klaus Hartl,Update overlooked references after releasing,False
+ea3239ac98cb0269746563092f9e3662a7b20ad3,2021-07-26 22:32:57,Klaus Hartl,Craft v3.0.0 release,False
+1711eb2f3f5a95b6334771bbf458bbb1510f2ff1,2021-07-26 22:28:13,dependabot[bot],"Bump eslint-plugin-promise from 4.3.1 to 5.1.0
+
+Bumps [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise) from 4.3.1 to 5.1.0.
+- [Release notes](https://github.com/xjamundx/eslint-plugin-promise/releases)
+- [Changelog](https://github.com/xjamundx/eslint-plugin-promise/blob/development/CHANGELOG.md)
+- [Commits](https://github.com/xjamundx/eslint-plugin-promise/commits)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-promise
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+7e1d613acbe89ef7efa59a188c80be7dbd2c606a,2021-07-26 22:25:41,Klaus Hartl,Bump eslint-config-standard from 14.1.1 to 16.0.3,False
+2643786060f66dfcaac5ba34e33240f48685299f,2021-07-23 13:05:56,Klaus Hartl,Bump eslint-plugin-markdown from 1.0.2 to 2.2.0,False
+309a4eb1ead9875a8620230c2312aa2a0b7dbf1c,2021-07-23 12:45:52,Klaus Hartl,"Bump standard from 14.3.4 to 16.0.3
+
+Along with some fixes and deactivating no-var where necessary...",False
+74c56efe4719d48e51b95116423d0120b39084a5,2021-07-23 11:24:36,dependabot[bot],"Bump eslint from 6.8.0 to 7.31.0
+
+Bumps [eslint](https://github.com/eslint/eslint) from 6.8.0 to 7.31.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v6.8.0...v7.31.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+2fe225a3e5d9c667bf17a6ae52f750d302f6112a,2021-07-23 11:20:29,Klaus Hartl,Bump grunt-contrib-nodeunit from 2.1.0 to 3.0.0,False
+6105fb3d4e2d643361260b2bbe7118c22db57b61,2021-07-23 11:11:22,dependabot[bot],"Bump grunt-contrib-connect from 2.1.0 to 3.0.0
+
+Bumps [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect) from 2.1.0 to 3.0.0.
+- [Release notes](https://github.com/gruntjs/grunt-contrib-connect/releases)
+- [Changelog](https://github.com/gruntjs/grunt-contrib-connect/blob/main/CHANGELOG)
+- [Commits](https://github.com/gruntjs/grunt-contrib-connect/commits/v3.0.0)
+
+---
+updated-dependencies:
+- dependency-name: grunt-contrib-connect
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+cc25e502a0b9fa96462bc39d7c3ac9c102b936a3,2021-07-23 11:09:05,Klaus Hartl,Reformat with up-to-date prettier,False
+f423ced8dc1143bfc42cade8dedf293d33e24a3a,2021-07-23 11:08:09,dependabot[bot],"Bump prettier from 1.19.1 to 2.3.2
+
+Bumps [prettier](https://github.com/prettier/prettier) from 1.19.1 to 2.3.2.
+- [Release notes](https://github.com/prettier/prettier/releases)
+- [Changelog](https://github.com/prettier/prettier/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/prettier/prettier/compare/1.19.1...2.3.2)
+
+---
+updated-dependencies:
+- dependency-name: prettier
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+6b9a5d67efe3f1b8be70aeed80599de3747902fc,2021-07-23 11:03:30,dependabot[bot],"Bump rollup-plugin-terser from 5.3.1 to 7.0.2
+
+Bumps [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser) from 5.3.1 to 7.0.2.
+- [Release notes](https://github.com/TrySound/rollup-plugin-terser/releases)
+- [Commits](https://github.com/TrySound/rollup-plugin-terser/compare/v5.3.1...v7.0.2)
+
+---
+updated-dependencies:
+- dependency-name: rollup-plugin-terser
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+94a2681391fa748a715805fee378f2fe391f9dc2,2021-07-23 11:03:11,dependabot[bot],"Bump rollup-plugin-filesize from 6.2.1 to 9.1.1
+
+Bumps [rollup-plugin-filesize](https://github.com/ritz078/rollup-plugin-filesize) from 6.2.1 to 9.1.1.
+- [Release notes](https://github.com/ritz078/rollup-plugin-filesize/releases)
+- [Commits](https://github.com/ritz078/rollup-plugin-filesize/commits)
+
+---
+updated-dependencies:
+- dependency-name: rollup-plugin-filesize
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+ff241b82c16df6ef2efcc8851bf58c95b3146bca,2021-07-23 11:02:11,dependabot[bot],"Bump release-it from 12.6.3 to 14.10.0
+
+Bumps [release-it](https://github.com/release-it/release-it) from 12.6.3 to 14.10.0.
+- [Release notes](https://github.com/release-it/release-it/releases)
+- [Changelog](https://github.com/release-it/release-it/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/release-it/release-it/compare/12.6.3...14.10.0)
+
+---
+updated-dependencies:
+- dependency-name: release-it
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+98ceb3a913c207d9ad5f88f952831a3f1df35bee,2021-07-19 13:48:49,Klaus Hartl,Add Dependabot configuration,False
+986d671557244ec598a189e70156343d0fb0af25,2021-07-17 14:01:18,Klaus Hartl,"Update Travis build badge link
+
+We had to migrate to travis-ci.com...",False
+6541ccd8f683a3d913c5ea2e93459d8561ae482f,2021-07-16 19:53:39,Klaus Hartl,"Revert ""Remove outdated information from readme""
+
+This reverts commit 9e6f80897042073b8f430699a3577af1152cd255.",False
+e2fb53d0babbc4f6ba361be133359570aefab33c,2021-07-16 19:53:05,Klaus Hartl,"Revert ""Fix example reference in readme""
+
+This reverts commit 6e5f737609b5eaff6053634a5b8df00e945df830.",False
+f973578cc9d0f86ca6499e8734fc2bdbc7326199,2021-07-16 17:23:48,Klaus Hartl,Craft v3.0.0-rc.4 release,False
+90be9712e0b78550354cfe8cfae19d7e2a35e687,2021-07-16 17:19:12,Klaus Hartl,"Revert ""Generate CommonJS and ESM versions of JSCookie along with the UMD version.""
+
+This reverts commit cc61b2ceaf62231d185933b47bffa9ceb1bd7c50.",False
+ab1cfc06efaf14f3f12bdd5c61add7ed796640e7,2021-07-16 16:38:45,Klaus Hartl,"Remove CDN links
+
+These caused the CDN mess to begin with.. people should be copying it
+from jsdelivr to make it more failsafe.",False
+8611af2e4636a25240808a45037100a0518394d9,2021-07-15 20:54:03,Klaus Hartl,"Shorten jsdeliver reference
+
+Avoid explicit file name, to avoid ""outages"" in the future.",False
+6e5f737609b5eaff6053634a5b8df00e945df830,2021-07-15 13:55:06,Klaus Hartl,Fix example reference in readme,False
+9e6f80897042073b8f430699a3577af1152cd255,2021-07-15 13:52:52,Klaus Hartl,Remove outdated information from readme,False
+858ff5bd30e3e074b5ac4f3cebc5e7541760ec0e,2021-07-15 13:40:01,Klaus Hartl,Make important note stand out some more,False
+5ed1ab610cc4ff53bbbf30b27ef4304de74a3615,2021-07-15 13:26:34,Klaus Hartl,Craft v3.0.0-rc.3 release,False
+8bc821c86627cb8218223cfb1fb077fb55a738d1,2021-07-15 13:20:40,Klaus Hartl,"Fix package.json exports paths
+
+Closes #695",False
+dd1699f8f834fb9a083a1fffaba80fc3bf9c2a32,2021-07-15 13:11:10,Klaus Hartl,Fix links in readme,False
+e27e0a85e3004677c9c3a6342de3f473ac974f9a,2021-07-14 15:07:24,Klaus Hartl,"Update minimum node version
+
+We started testing on node >= 12.",False
+8a93068df9bdda7fcfd5ec9d469b6d6834539c86,2021-07-14 11:06:55,Klaus Hartl,"Update another problematic dependency
+
+Peer dependency rollup < 2 cannot be satisfied..",False
+f0a9d69f5385c91e8849f6af69299be56ff0bb68,2021-07-14 10:53:45,Klaus Hartl,"Pin problematic dependency
+
+On Travis we can't properly resolve peer dependencies..",False
+2d8374697e9ae03f11538eaa546a7ace0a88445b,2021-07-14 10:43:29,Klaus Hartl,"Update eslint dependency
+
+I could not yet use the latest version, since it will change some `var`
+to `const`, but we are still supporting IE 10.
+
+This is to make build work in Travis.",False
+7cc5c43f5235d6eb19e7ad9c871543c033795aa8,2021-07-14 10:08:31,Klaus Hartl,Craft v3.0.0-rc.2 release,False
+86ed7c677026eb85d9aacd9d17d71b7221aed208,2021-07-14 09:58:56,Klaus Hartl,Update nodejs test environments,False
+e2a43909ebd5f70255bcece82f6966988340ecee,2021-07-14 09:50:25,Klaus Hartl,"Update macOS test environments
+
+As of today, Big Sur Safari latest = Safari 14, Catalina Safari latest =
+Safari 13...",False
+cc61b2ceaf62231d185933b47bffa9ceb1bd7c50,2021-07-11 14:17:02,Rouven Weßling,Generate CommonJS and ESM versions of JSCookie along with the UMD version.,False
+eceefcc0be5bcb07d6ca32b03978e2c6f8cc848e,2020-09-08 18:39:38,Klaus Hartl,Craft v3.0.0-rc.1 release,False
+3d56250e0d590b57221ff05d3879e8ca57346b08,2020-09-08 17:55:49,Klaus Hartl,"Revert ""Remove dealing with quoted cookie values""
+
+This reverts commit d1b0b312008ee2a0276d018fa4ecdc19b2f551a5.",False
+61972e1d7f67ecdf29423c318a73b4e49f4721fc,2020-09-05 12:32:23,Klaus Hartl,Remove test from module it doesn't belong to,False
+d1b0b312008ee2a0276d018fa4ecdc19b2f551a5,2020-09-05 12:27:46,Klaus Hartl,"Remove dealing with quoted cookie values
+
+The cookie value can be quoted as part of the response header, but we
+won't see this when reading from `document.cookie`.",False
+294247e0e30495da1427fc01f1121d49ffda2c1a,2020-09-05 12:15:23,Klaus Hartl,"Revert ""Revisit encoding/decoding implementation""
+
+This reverts commit b22e6cbf6d3279572b212c95f524067f34405259.",False
+59fe8827fe2eb31b5430f1c863bffaba303f6a7e,2020-09-05 11:42:32,Klaus Hartl,"Revert ""Update docs to reflect change of encoding/decoding""
+
+This reverts commit a462826a3df20476315cccf1369e49edabe41237.",False
+43bdd41b392fafd1f5df7b43e09ec895658938cb,2020-08-01 12:46:59,Klaus Hartl,"Adapt documentation for sameSite attribute
+
+Replace outdated/misleading information.",False
+3cc23031e6a7df1f7ef958194bf3c59742041c23,2020-07-15 11:16:38,Michaël De Boey,Update package.json,False
+2fcb3b8f532e3e32b152d22d8b5b86959f5e3a09,2020-07-15 11:00:46,Michaël De Boey,Update .travis.yml,False
+bf6cb699a1e0f387b6f4654a8baa421b85ab7de0,2020-05-23 00:36:47,Klaus Hartl,Update macOS versions to test in,False
+d0247db89680b22b0d1bd681e001d596b952ca5f,2020-05-22 23:43:24,Klaus Hartl,"Add iOS/iPhones to automated testing
+
+Earlier we couldn't get it to run, now it works.",False
+3b9e495fd7072546535de1ae99164d6e7bf68b84,2020-05-02 12:00:23,Klaus Hartl,Fix test description wording,False
+b84a35b2d6259c445deac5cc6cc3d2bc21b7be61,2020-05-02 11:53:28,Klaus Hartl,"Allow converters that operate on non-String types
+
+We had been performing a string conversion on values before passing them
+on to the write converter - this made converters that operate on
+anything other than strings impossible (for instance
+`JSON.stringify()`).
+
+Fixes #624",False
+355f7efee1265a99ceba62ccd56f28e252dfb5d3,2020-04-15 21:45:34,Klaus Hartl,Change email for reporting vulnerabilities,False
+7d41e167ab6e4c1f65716d7a1ad2533fb952e80b,2020-03-11 19:29:40,Klaus Hartl,Update references for release candidate,False
+5198674f45861adde9c9a2c29d7314ed0b76aece,2020-03-11 19:22:07,Klaus Hartl,Craft v3.0.0-rc.0 release,False
+95d31560a18e88431a1823be4a1e2756477f40eb,2020-03-07 20:20:49,Klaus Hartl,Rename variables for clarity,False
+d06d5f984ef3c18ab86ce88377c71511de08db43,2020-03-07 19:54:41,Klaus Hartl,"Revert ""Implement cookie retrieval using regex""
+
+This reverts commit baf7f59211c165f0708f01dcb584fae50de6e469.",False
+baf7f59211c165f0708f01dcb584fae50de6e469,2020-03-07 15:22:06,Klaus Hartl,"Implement cookie retrieval using regex
+
+Reducing minified size further.",False
+d773549c0c2f2f5714feaad4af49f428ffc9d596,2020-03-07 13:11:52,Klaus Hartl,"Update rollup
+
+Closes #609",False
+40c95a94cb99d3afb65ca4ad60d46108732172a7,2020-03-05 16:49:36,Klaus Hartl,Craft v3.0.0-beta.4 release,False
+a462826a3df20476315cccf1369e49edabe41237,2020-03-04 23:47:28,Klaus Hartl,Update docs to reflect change of encoding/decoding,False
+04805be8c62f079dd01606ca5855b0bb4a9466da,2020-03-04 23:47:28,Klaus Hartl,"Tidy up converters
+
+- Renaming (it's no longer a RFC 6265 converter really - whatever that
+  would mean in the first place: the spec doesn't demand
+  percent-encoding...)
+- Removing redundant/unnecessary tests",False
+b22e6cbf6d3279572b212c95f524067f34405259,2020-03-04 23:47:28,Klaus Hartl,"Revisit encoding/decoding implementation
+
+Our RFC 6265 based cookie name + value encoding was based on the
+requirements for server implementers, and as such too strict.
+
+We need to look at RFC 6265 section 5.2, requirements for user agents.
+
+But even the algorithm described in section 5.2 isn't that relevant
+for us, in that we had to follow the steps when writing a cookie with
+this library. This is left to the browser vendors who have to implement
+the setter functionality behind `document.cookie`. All we have to do is
+avoid surprises when said algorithm is being followed while
+`document.cookie = ...` is being executed with the cookie string we're
+constructing.
+
+It means we have to encode "";"" and ""="" in the cookie name, and "";"" in
+the cookie value.
+
+Follow-up to discussion in #595.",False
+d727ba6ceffb101e300a38b4eb06bcca4ac571d1,2020-02-24 16:02:00,Luis Pato,"Update README.md (#601)
+
+Correct small error on the documentation",False
+b1d83a073525e00f87d8b4effa4804b8cb741f12,2020-01-11 16:37:07,Klaus Hartl,Remove no longer supported node version,False
+f33a0c86e1c4480208f121a328c87f8eae5f7388,2019-12-20 18:28:35,Klaus Hartl,"Add start script to example
+
+Making int slightly more self-explanatory.",False
+bb98c04d3e369bd8fea635f9d605520161add647,2019-12-20 18:25:37,Klaus Hartl,Update js-cookie dependency in examples,False
+42416e8418d24c96de74e97d36db25acbc1444e7,2019-12-20 18:11:20,Klaus Hartl,Craft v3.0.0-beta.3 release,False
+f977cc4e114f9dfdf90fe4f7ec47cc760f5534ae,2019-12-20 17:51:36,Klaus Hartl,"Fix importing module when not using a bundler
+
+Closes #583",False
+17b370152c5c0e7d2ac1d04cf594a248fba46bc3,2019-12-14 17:35:42,Klaus Hartl,Bring back accidentally removed expectation,False
+285801c44f2ceec6aa836396da3d73851fd94454,2019-12-14 16:54:39,Klaus Hartl,"Remove no longer valid advice from readme
+
+Including from GitHub directly will no longer work...",False
+77f377a9ba7aeb1545073402a90e87ec9826ceff,2019-12-14 15:58:41,Klaus Hartl,Bring back immutability for attributes + converter,False
+f8ac1893325f6e3f956bdbffe9adecde5b1ba6b1,2019-12-13 03:04:08,Klaus Hartl,Fix conditional in release hook,False
+099389f0161e5a8ed74033d432be9e6be9e19e00,2019-12-13 00:50:39,Klaus Hartl,Craft v3.0.0-beta.2 release,False
+dc9bcdf80d08ff009705c958eed7597993dcbe04,2019-12-13 00:32:30,Klaus Hartl,"Fix `noConflict()` no longer being present
+
+Due to freezing the api instance the `noConflict()` could no longer be
+attached (an error would only occur in strict mode). We need to find a
+different way to make the api instance somewhat immutable (possibly
+`Object.defineProperties()` etc.).
+
+Unfortunately I had removed a related test earlier based on wrong
+assumptions.
+
+Closes #580",False
+13dbe93cafa99ab062eb2e0a8b9660ecf1d5ecbc,2019-12-13 00:31:15,Klaus Hartl,"Revert ""Remove noConflict() testing remnants""
+
+This reverts commit e1e1d90ad0e8897e58b24568071412bbd44c4249.",False
+0f293a641844b43b6917257ae919b8c3d1a8375a,2019-12-13 00:19:08,Klaus Hartl,"Turn `extend()` into `assign()`
+
+The assign method is supposed to behave similar to `Object.assign()`
+(which we can't use due to IE support).",False
+235d13f8f3a1491cc6f043cea504691d1a965375,2019-12-12 13:33:32,Klaus Hartl,Condense group in regex further,False
+2c2855cec8860e74b3249277fe53e95acc9db464,2019-12-12 13:21:19,Klaus Hartl,"Merge pull request #577 from nreynis/feature/micro-optimization-filesize-charat
+
+Micro-optimization: replace charAt by more concise syntax",True
+2f60412461fc0ea41157ddcfe1f530eb64e7fc6c,2019-12-12 04:19:28,Nicolas Reynis,Replace charAt by more concise syntax,False
+29a9b4b8df699a1cb56bd754f04bd58982960c58,2019-12-12 00:51:57,Klaus Hartl,Use git instead of github hook in release-it setup,False
+6d922acc9ef4bfd1c54f0a02f3602b3961971c4c,2019-12-12 00:36:45,Klaus Hartl,Prevent accidentally adding changes to a release,False
+cce5de3bcd5bc26b8a47a769dad3d3d38b06f4b9,2019-12-12 00:35:15,Klaus Hartl,"Prevent updating ""latest"" tag for prerelease",False
+99b3336d48f729c6e0326cc1f9e2e9e58dfe5bc1,2019-12-11 23:22:59,Klaus Hartl,Bring back accidentally committed config change,False
+f1d58ca9bb6c6321e270740922e8f9b9325d1fb3,2019-12-11 16:17:26,Klaus Hartl,Craft v3.0.0-beta.1 release,False
+d0cd2e105626ad809c23fead775b61dc51e843e5,2019-12-10 02:10:56,Klaus Hartl,Use proper module specifier,False
+f1cf17d5720c7e5ab71e2a64723a6eeeb3abf7c9,2019-12-09 21:12:54,Klaus Hartl,Make extend a module as well,False
+b0b9b35a460727d9d366ffa07b3f47e8d0666d57,2019-12-09 17:38:10,Klaus Hartl,"Modularize source
+
+The rollup setup supports this nicely already.",False
+608c2c5cd481edbebb8623b91fafa87a8db3c0d0,2019-12-09 04:02:30,Klaus Hartl,"Condense regex expressions
+
+Decreases gzipped size further.",False
+1ca9e94270838adc4f3d05b3b74e6ba403ce4b65,2019-12-09 03:56:30,Klaus Hartl,"Move var assignment to the top
+
+Surprisingly, this saves on 4 bytes gzipped...",False
+a3706c5ddb599d4c7f7dce6a5b8c0ac2a9476a9e,2019-12-08 20:11:23,Klaus Hartl,Remove unused argument,False
+31bc2567f8141d0f465f214f09e35d010d093cd8,2019-12-08 20:01:09,Klaus Hartl,Drop no longer necessary assignment,False
+de2f2aa9dcfe471a2ff8ca91a188566905ddccf4,2019-12-08 19:47:29,Klaus Hartl,Avoid exposing converters twice in api instance,False
+47b538d69f8fd36e821015ab4ce8dec6e0a122e6,2019-12-08 15:25:02,Klaus Hartl,"Freeze entire api instance
+
+Simplifies api instance creation further.",False
+b4240abaaf991779719e2fe155e45085157752af,2019-12-08 13:23:15,Klaus Hartl,"Adapt api creation using `Object.create()`
+
+This not only reduces bytes again, but also allows us to ensure that the
+default attributes and converters of an api instance cannot be tampered
+with (I was aiming to make them private/invisible, though maybe for
+debugging purposes it might even be useful to know what an api instance
+is configured with).",False
+a47c81bd7b548a0b91b29718d7d9dc87dca68e33,2019-12-08 12:48:32,Klaus Hartl,Test undesired config carry-over explicitly,False
+e77c3d3342785e0db2538e6a3c1f89d94a27078f,2019-12-08 02:44:48,Klaus Hartl,Move test regarding api setup out of write module,False
+1cbedfea9f846ec745d2348ce686f7d8a413b59f,2019-12-08 02:16:39,Klaus Hartl,"Remove `defaults` in favor of builder
+
+We start encapsulating the default cookie attributes. As a consequence
+these defaults can no longer change per instance of an api over the
+course of its lifetime. This is desired (more predictable behavior as
+global defaults can no longer be changed in-between), and also, this way
+it's now consistent with how converters are set up.
+
+The standard api instance remains the same and comes with the default
+'/' for path and the standard (rfc6265) converter.
+
+Setting up converters and default attributes can be chained, multiple
+times.
+
+Closes #572",False
+d9f533999dd55c85c1a886ad328d4b27aa60048d,2019-12-07 14:14:19,Klaus Hartl,"Simplify read conversion behavior
+
+Removing subtle fallback to the standard, internal converter by
+returning a falsy value in the custom read converter. Exposing the
+`rfc6265Converter` converter as part of the api instance allows users to
+write self-contained converters without relying on internals.
+
+So far this behavior was required to allow for custom converters that
+only act on specific keys (and otherwise forwards the value to the
+internal, default conversion). Such a converter can now be implemented
+like so:
+
+```
+var customReadConverter = (value, key) => {
+  if (value === 'special') {
+    return value.toUpperCase()
+  }
+  return Cookies.rfc6265Converter.read(value)
+}
+```
+
+Closes #571",False
+148f1c13ac0dcfeee26ee0c7d5dba0b695209d45,2019-12-07 13:57:54,Klaus Hartl,"Change `withConverter()` to require explicit type
+
+So far when passing a function as argument to `withConverter()` it was
+turned into a read converter. Setting up a write converter required to
+pass options with a `write` property providing the desired converter.
+
+This simplifies the api to always require the type (read/write) of a
+converter to be specified explicitly, there should be only one way to
+set up one or both converters.
+
+Closes #570",False
+71a24cb4a3a7d310dc75a84dc5815cd1b8692017,2019-12-06 04:07:30,Klaus Hartl,"Try different condition for when stage may run
+
+We've been using this condition before changing it to the test for env
+variable.",False
+e0e31a7e5fe954be6a060e249860fdec65f040d6,2019-12-06 04:02:51,Klaus Hartl,Apply prettier formatting,False
+8454f234ae026a2ec1e4f3ed780efc7b61015bd2,2019-12-06 03:29:22,Klaus Hartl,"Merge pull request #566 from nreynis/feature/use-converter-internally
+
+Use converter internally",True
+e91d754e15dfc35b1cf87393efd6888179f86b04,2019-12-06 00:43:50,Nicolas Reynis,"Reuse RFC 6265 converter internally
+
+Sreamline server-side documentation by reusing internal converter
+Update naming convention in tests
+Update naming convention for rfc6265Converter",False
+dc37d14d7a4c99d102fc0acca95a4e3ff440676b,2019-12-05 19:32:29,Klaus Hartl,"Remove no longer needed String casting
+
+Closes #568",False
+9834ceb0de76d29629d6c69c4611587326e4043d,2019-12-05 19:28:20,Klaus Hartl,Replace snakecase naming,False
+1ffae4383e97d41061b166914d61e939328d1c5b,2019-12-05 19:27:08,Klaus Hartl,"Merge pull request #563 from js-cookie/greenkeeper/rollup-plugin-license-0.13.0
+
+Update rollup-plugin-license to the latest version 🚀",True
+247ec03c0ddad80fdaeee083f23bee7ec0adfa26,2019-12-05 19:23:31,Klaus Hartl,"Add Nodejs 12 (LTS) to test matrix
+
+Closes #564",False
+3370281bb8e390f95fe2fb49b48d413de231f6c4,2019-12-05 19:21:34,Klaus Hartl,Add yml files to be formatted by prettier,False
+8142228abe83718ecb2987c5f6b1a075126aed4d,2019-12-01 19:37:29,greenkeeper[bot],chore(package): update rollup-plugin-license to version 0.13.0,False
+ac337a9432182c02cc291b13798c0a1fbfa0e3a4,2019-10-13 14:40:42,Klaus Hartl,"Make pinning of dependencies consistent, relaxing",False
+95112337f010a08edf4e09c3eda80448426007f0,2019-10-13 14:34:36,Klaus Hartl,Update qunit,False
+bb851de9ff2a426aa4de83bd42bf00338675b204,2019-10-12 13:59:29,Klaus Hartl,Add TypeScript declarations note to readme,False
+3827a7c02299fc9801825307a28639dba7a408a8,2019-10-11 02:07:28,Klaus Hartl,Fix link and improve description for `sameSite`,False
+38586793975b099d4d5f878fdfd7f9c3e21c1f8b,2019-10-11 02:02:49,Klaus Hartl,"Document `sameSite`
+
+Despite no additional implementation needed for this, the lack of
+documentation was causing confusion, as to whether we support this
+cookie attribute or not.",False
+3dbf3a34b72bc78c47aadebaa3c83b1a9f7cb151,2019-10-10 02:00:12,Klaus Hartl,"Merge pull request #549 from perry-contribs/master
+
+Update README.md",True
+da80216a7590e3aaee548992f66bc68826664b4a,2019-10-09 23:59:20,Parikshit Hooda,"Update README.md
+
+English Grammar-wise enhancements.
+Neither-nor are used together. The word 'nor' is not used separately to the best of my knowledge.
+Checked it with Grammarly which indeed showed an error/warning.",False
+b177ce755962749cbbedc20911abb9ff565e855d,2019-10-06 21:18:54,Klaus Hartl,"Improve high-level package description
+
+Mention both `browser` and `module` field and their use.",False
+3d01f65527354097d7e1d751353a609a902d2584,2019-10-06 14:51:13,Klaus Hartl,Add badge showing gzipped size,False
+881e88740ce71c04bdc221183e63b38131b79b92,2019-10-06 14:49:06,Klaus Hartl,Shorten npm installation instruction,False
+590f175700ece5ea3878b99bfd31cc7cb351429a,2019-10-06 14:46:20,Klaus Hartl,Add whitespace back in for better structure,False
+6d702d20094ba30d528cb6ecfc31cd8325ade038,2019-10-06 13:50:31,Klaus Hartl,Use `Date.now()`,False
+87c69004f1a2438504e48208963cb883c8f79b60,2019-10-06 00:22:54,Klaus Hartl,"Revert ""Prevent changelog consisting of commit messages""
+
+This reverts commit cc6b35c620c6fe5b74af191d7d8203ef0ca00b83.",False
+c9f1e1e574c49ce16e168cb8e361870587ba6f46,2019-10-05 20:01:36,Klaus Hartl,Fix npm badge to display recent version,False
+5723bc23f6dc545731da14216e42fc1e298d81f3,2019-10-05 18:22:22,Klaus Hartl,Update lib size + jsdelivr instructions in readme,False
+c85ee95eded7648d4e85d95ec5f1898439fe87b1,2019-10-05 18:10:32,Klaus Hartl,Craft v3.0.0-beta.0 release,False
+61825c1ebcfcfcbe751904e71fc4daa7774f1f1d,2019-10-05 18:01:33,Klaus Hartl,Fix updating latest tag during releasing,False
+4b79290b98d7fbf1ab493a7f9e1619418ac01e45,2019-10-05 17:39:33,Klaus Hartl,"Remove built-in JSON support
+
+We are no longer seeing an advantage over using `JSON.parse()` and
+`JSON.stringify()` explicitly in conjunction with the cookie API, e.g.:
+
+```
+Cookies.set('foo', JSON.stringify({ ... })
+JSON.parse(Cookies.get('foo'))
+```
+
+This further simplifies the implementation code and reduces the
+library's size.
+
+Closes #540",False
+1698b1ae5fee119aa3d02f3be8e31260e02f1475,2019-10-05 13:47:29,Klaus Hartl,"Avoid setting expires option to unexpected value
+
+Later on we're relying on the falsiness of an empty string for this to be
+ignored, though I find this to communicate some wrong intent.",False
+feffe740b9baba9f172df0264f0484c3e7e25e24,2019-10-03 18:25:33,Klaus Hartl,"Omit markdown files from package
+
+These seem to be relevant only in the context of the repository.",False
+8f81a6b5b2dfd35b9ce03c901b479b46fb298e64,2019-10-03 18:24:00,Klaus Hartl,"Add examples, starting with webpack",False
+f97a7553e81af49bcd0e532b78cc535c2c3f0510,2019-10-03 17:29:24,Klaus Hartl,"Fix ES module import example in readme
+
+Using ES modules along with webpack for instance we should use the bare
+identifier.
+
+Closes #544",False
+33b54cc04da967d53d68463e1a535f93e49b5417,2019-10-03 17:20:36,Klaus Hartl,Use npx for commands,False
+236d28b169014cabf1019b19c3ed2e03d1f7c7d2,2019-10-03 16:17:01,Klaus Hartl,"Update eslint
+
+Greenkeeper reported a failed build but it was due to a transient
+browserstack problem.
+
+Closes #546",False
+56150585e86108af29e80f8c23fda968b2976f84,2019-09-29 15:33:33,Klaus Hartl,Add predefined labels to issue templates,False
+1ed57b9003d1252d67ce31c64bed2ef371067d0b,2019-09-29 15:17:41,Klaus Hartl,Add badge for npm package,False
+bf6bb36b3b0ac40e71136b7a56abef2f91a763f9,2019-09-29 15:16:53,Klaus Hartl,"Fix issue template, leave yaml frontmatter alone",False
+7f648d1a19d92685f574d5f74e2ccff64a2e59e1,2019-09-29 14:48:10,Klaus Hartl,Add note regarding FAQ to issue templates,False
+7413ba63e463a0289c2044d5464915096d76a60a,2019-09-29 13:27:36,Klaus Hartl,Apply prettier to added markdown files,False
+9bf3b8ea9906d41249325fafe9f182601ad221ea,2019-09-29 13:20:38,Klaus Hartl,Update issue templates,False
+df76a881cd02848924e8fc73d75730c7f264f955,2019-09-26 15:49:06,Klaus Hartl,"Modernize Gruntfile.js file
+
+Also trying to improve code climate rating...",False
+0d16266152377b421a6951ea630c1b1e2b7732af,2019-09-24 00:18:11,Klaus Hartl,Rerun formatter after PR merge,False
+7becd826789b8cc22e9983ebfcedf92030302d6c,2019-09-24 00:11:08,Klaus Hartl,"Merge pull request #488 from gazmull/server-side-express
+
+SERVER_SIDE.md: Add Express",True
+c498f784d3cb19b134003a040778bd958bd8574c,2019-09-24 00:07:26,Klaus Hartl,"Tweak installation instructions in readme
+
+We're no longer encouraging including the source directly, since there
+are two variants now.",False
+18ed0fd05ae87f11906ae53545681d36731806e6,2019-09-23 16:22:23,Klaus Hartl,"Support case insensitive url encoding
+
+Lowercase escapes are legal, `decodeURIComponent()` supports them, and
+we should too.
+
+The most difficult part is to know when we are dealing with hexadecimal
+pairs and when not. Supporting only uppercase characters made
+interpreting strings slightly more constrained, nevertheless even in
+this case we might run into a scenario where we encounter strings that
+look like encoded characters but aren't, for instance ""%A1"".
+
+The solution to this is to no longer permit strings with mixed unencoded
+and encoded characters, which seems like a rather rare edge case to
+support. Either a cookie value is a fully url encoded string (which is
+ensured when we're writing the cookie via our own api) or we treat it as
+non-readable otherwise. In such fully encoded strings ""%"" would appear
+as ""%25"", e.g. ""%A1"" would look like ""%25A1"". In case someone needs to
+work with such mixed encoding cookie values, they would need to resort
+to implementing their own specialized converter.
+
+Closing #466",False
+dfa587de38dbaf901faed5f6bcfbdee6ce0d63f5,2019-09-22 00:18:26,Klaus Hartl,"Correct regex to match url encoded characters
+
+Hexadecimal digits can only contain characters A-F.
+
+In the adapted test the string ""BS%BS"" was in fact a valid name
+according to RFC 6265 (name is a token, token can contain any CHAR
+except CTLs or separators, and % is not a separator).",False
+155e16b95aa39afc9e8ddbc202a065afee5866b5,2019-09-18 23:38:10,Klaus Hartl,Tidying up formatting one more time,False
+c61cb3db3de5d3ada20ffe17cbbf05f6ef0ab8f8,2019-09-18 21:14:08,Klaus Hartl,Simplify rollup config using package definition,False
+9c59fdba55a4f67ae859d92a1eb9b047600f210f,2019-09-17 00:24:27,Klaus Hartl,"Use browser field instead of main in package.json
+
+The module is meant to be used client-side.
+
+As recommended here:
+https://docs.npmjs.com/files/package.json#browser",False
+9dc5d757e78fd6379a12288066392faddae1e779,2019-09-16 23:50:42,Klaus Hartl,"Fix changing defaults as a whole
+
+Adding a test to catch it the next time.",False
+8a7441d8da18e9c6c5979b32dbd2f0663748e281,2019-09-16 23:35:45,Klaus Hartl,Add missing test for predefined defaults,False
+ee1cf35bc99687d8e2eec32ac4a81d32e5b19145,2019-09-16 15:36:06,Klaus Hartl,"Expose default path via api
+
+So far we had been applying the default `path: '/'` as sort of a
+""hidden"" default, and it wasn't exposed in the defaults object
+accessible as `Cookies.defaults`. This is rather unexpected and we start
+exposing the path as part of the defaults to avoid surprises. This
+change will also make it slightly more intuitive to change the behavior
+to a browser's default behavior where a cookie is only valid at the
+current page: instead of having to specify `path: ''` in the defaults we
+can now do `delete Cookies.defaults.path`. The former is rather
+obfuscating the intent, and a leaking abstraction.
+
+Fixes #541",False
+02198d54be93bce03615ece97c076c164f746025,2019-09-16 00:02:31,Klaus Hartl,Update latest tag as part of releasing,False
+80daa3e3ed46eb9b1a846be05fe29dcfe72e2205,2019-09-15 21:13:49,Klaus Hartl,Simplify assertion,False
+92aea31c6376be12aefb9a234b90774f844befa9,2019-09-15 20:20:17,Klaus Hartl,Configure prettier to ignore dist,False
+da65bd32bdad336071fdd787045337ccfd715a59,2019-09-14 15:10:24,Klaus Hartl,"Add prettier to automated formatting for js files
+
+I had partially applied the prettier formatting already in the source
+file, by way of VS Code (and thought it was all standard). Bringing in
+prettier for all js files in an automated fashion, so it's all
+consistent.",False
+46d7457f0fe2efc3dfba37f9d7db733c7162d085,2019-09-14 14:28:58,Klaus Hartl,"Revert ""Remove obsolete grunt task""
+
+This reverts commit acc4954499f4c84f00ee787b80504f9612341450.",False
+e6b4465b900ba062a2217a470f7d8e010236d136,2019-09-14 13:26:44,Klaus Hartl,"Simplify creation of api object
+
+I believe `api` once needed to be a function but this is no longer the
+case, thus we can simplify this a little bit. Reducing the gzipped file
+size once again a little bit after earlier additions.",False
+899118b2e34c3d28fe9154154ef317d93341991a,2019-09-14 13:19:06,Klaus Hartl,"Handle falsy arguments passed to getters
+
+In case `null` or `undefinded` is passed to one of the getter methods
+we shouldn't treat it as if it was an attempt to get all cookies.
+
+Fixes #399",False
+acc4954499f4c84f00ee787b80504f9612341450,2019-09-14 00:18:41,Klaus Hartl,"Remove obsolete grunt task
+
+We have a npm script for format.",False
+47568ec856e5df69a6aea5eb4dccaf52157cb637,2019-09-14 00:12:18,Klaus Hartl,"Merge pull request #539 from js-cookie/releasing
+
+Automate releasing",True
+a6f7b23224a95b0e36c2a20078271467ee491e52,2019-09-13 21:58:45,Klaus Hartl,Add reminders about GitHub draft releases,False
+cc6b35c620c6fe5b74af191d7d8203ef0ca00b83,2019-09-13 16:48:35,Klaus Hartl,"Prevent changelog consisting of commit messages
+
+This doesn't seem to provide value. We may have to craft release notes
+manually for a GitHub release (thus we keep creating the release as a
+draft).",False
+21c66c7d5997b60af5762449c86d73d3cc46071b,2019-09-13 14:11:41,Klaus Hartl,Document the automated releasing approach,False
+46e50dfbf74b4423e03877985bcb3778a8cd84e3,2019-09-12 23:55:23,Klaus Hartl,"Add configuration for release-it
+
+This configuration supplies publishing to npm along with making a
+release on GitHub with additional assets to be uploaded (in particular
+minified versions for both the module and nonmodule variants).",False
+e1fe249de5912a594fbc1fa1f34c663f630b4984,2019-09-12 23:33:30,Klaus Hartl,"Add consistent license to all dist variants
+
+This will allow for easier, automated bumping during releasing.",False
+8dfc697638b1dbc1a34d518c70a943d7ac6dbbcc,2019-09-12 23:23:27,Klaus Hartl,Introduce release-it,False
+7207115c31616438452ed6a689c31734f4c85c73,2019-09-12 15:10:10,Klaus Hartl,Add `defer` to module/nomodule loading example,False
+87ee3e965f3028256522b14049915e05e81e2424,2019-09-12 14:53:47,Klaus Hartl,"Fix problem with missing semicolon
+
+The minified source was dealing with it, we need to deal with it only
+for the non-minified variant.",False
+a287d0787adada848d12c66634e9f24cc5c9ca60,2019-09-12 14:53:08,Klaus Hartl,"Fix false positive in missing semicolon test
+
+First of all including the utils script had been accidentally removed
+earlier.
+
+But attaching an `error` listener to an iframe is no longer possible due
+to origin restrictions (yielding a generic ""Script Error""), at least
+when running the test in the headless chromium.
+
+For this reason we didn't notice a. the missing utils file and b. the
+problem with the missing semicolon, which the test is supposed to
+verify.
+
+The inspected `loadedSuccessfully` flag was never changed and always
+(unexpectedly) true.
+
+Also note that the problem only occurs with the non-minified umd
+distribution variant.",False
+226d02b4ead10614b96cff9b5ad561ea50c2954f,2019-09-11 23:26:48,Klaus Hartl,"Remove now irrelevant, misleading comment",False
+275c7e585226f03848f84dfc676482d432fecc6a,2019-09-11 23:23:41,Klaus Hartl,"Merge pull request #538 from js-cookie/overhaul-linting-and-formatting
+
+Overhaul linting and formatting",True
+cb4e4721ecf0e583a39ec1b5793ad784c9861ce4,2019-09-11 15:06:54,Klaus Hartl,Add standard style badge,False
+a0fb4bfc20c8e53a51dc89aa7e45dfa7c05a1a7d,2019-09-10 20:15:08,Klaus Hartl,"Ensure consistent formatting: html, json, md files
+
+Using Prettier we are ensuring a consistent formatting for the remaining
+html, md and json files. Using the eslint-plugin-html and
+eslint-plugin-markdown packages we are able to apply standard formatting
+to JS snippets within html and markdown files on top.",False
+59b5fb6090b991de37f8858e345183925e1c1185,2019-09-09 21:35:25,Klaus Hartl,"Remove outdated configuration file for TextMate
+
+We could have an EditorConfig file instead.",False
+ebde0e354c03ce58301ae3a2aca21017ea37584b,2019-09-09 21:32:33,Klaus Hartl,Make usage of `URL` work in Node 8,False
+c8b921b46305449822d354a7f728c55be39e1d16,2019-09-09 21:32:08,Klaus Hartl,Install missing peer dependency,False
+633b794a5120a72590735b31b861bc8da610e8bb,2019-09-09 21:31:34,Klaus Hartl,Introduce JavaScript Standard Style,False
+98325f8a37872b51fb2e21f7b21b402ec2524473,2019-09-09 21:28:49,Klaus Hartl,"Merge pull request #537 from js-cookie/es-module
+
+Migrate package/source to ES module(s)",True
+c96aea2def1572a6a37c37b79bd41de0993f213f,2019-09-08 17:57:52,Klaus Hartl,Adapt documentation for ES module usage,False
+ac129d269eea79c21f763c2060a663513d5d9043,2019-09-08 16:34:27,Klaus Hartl,"Bring back noConflict functionality for umd module
+
+Rollup provides an out-of-the-box option for this, thus not going to
+test (generated).",False
+60e9ed87450184ed36dae128a1a9b1ee0fbc7c2c,2019-09-08 16:34:27,Klaus Hartl,Add test for ES module,False
+0feef85b9bf535add6ce03f440841b0c78bdec46,2019-09-08 16:34:27,Klaus Hartl,Fix typo,False
+d2a6f4cdb6eb4567301a753629267fa125e54189,2019-09-08 16:34:27,Klaus Hartl,"Update qunit package, using latest",False
+0a7d1db1b91b03dc2f71183fbe65981f463d7878,2019-09-08 16:34:27,Klaus Hartl,"Set up package for module/nomodule distributions
+
+We produce variants of the source code by rollup. Note using a ""module""
+property is not (yet?) standard but the approach both webpack and
+rollup.js suggest going forward.",False
+a2c113677e9d4a519f164e4bab7f63a5dc12b618,2019-09-08 16:34:27,Klaus Hartl,Remove support for Bower,False
+e1e1d90ad0e8897e58b24568071412bbd44c4249,2019-09-08 16:34:02,Klaus Hartl,Remove noConflict() testing remnants,False
+2be6618aaa94f68bb56384d0b205251f5fb134df,2019-09-08 15:11:45,Klaus Hartl,"Fix file references in tests
+
+We need to reference the rollup umd output file here.",False
+01e324cfd9dd467f8a41e15dcec9aa8329dcb4fe,2019-09-08 15:11:45,Klaus Hartl,"Remove tests for amd + umd
+
+As amd + umd compatible modules are now being build by rollup we
+shouldn't need to test this any longer.",False
+a39aaa661fee7506ad5dadcc40c8405df1aba8d4,2019-09-08 15:11:37,Klaus Hartl,Adapt compare_size grunt task for module,False
+077d626eb5441df3165e2df0942b3dc4bd92fd3c,2019-09-06 22:28:35,Klaus Hartl,Adapt watch grunt task for module,False
+6e90e544b969b07490c1bf19ae2eec770e82d4b3,2019-09-06 22:28:19,Klaus Hartl,Adapt eslint to account for module,False
+7382578f2a9f869afa104048c9ac1a27f1ea5405,2019-09-06 22:28:04,Klaus Hartl,Add filesize rollup plugin,False
+e3a09f3f72ea9ea83e4866e50a81dced16f1eb08,2019-09-06 22:25:45,Klaus Hartl,Port uglify grunt task to rollup,False
+f75545c0fff53e68fe163b2478a7a58563c17048,2019-09-06 22:19:17,Klaus Hartl,Introduce rollup,False
+26a33eb44978ef28fa6bdb2d349f5738b4da841a,2019-09-06 19:28:32,Klaus Hartl,Turn source into ES module,False
+eaa734aa1360b05e6d3b9196ab20aa7d1c0b30c0,2019-09-05 20:11:05,Klaus Hartl,Update grunt-contrib-qunit dependency,False
+d811fec56b2a3a93abcf745e9af4e5c02eece909,2019-09-05 19:53:54,Klaus Hartl,"Drop support of IE 6 - 9
+
+Closes #370",False
+a9222c1af3dbbd11db08c3d933965da7da101485,2019-09-05 19:17:01,Klaus Hartl,Drop testing in Node 6 (LTS versions only),False
+24eb68c3849a2e0d4154c1fc003c462489c65bdc,2019-09-05 19:11:46,Klaus Hartl,Update grunt-eslint dependency,False
+829c45fc59dab9b3861500c448f7b02129764062,2019-09-05 19:00:34,Klaus Hartl,Update dependencies,False
+343ffaa3e2a28da53c7974878fcadf3ac07908d6,2019-09-05 18:47:10,Klaus Hartl,Fix using wrong BrowserStack badge key,False
+e52d8b72df73d1e9f3c32a3aecd211a7cdd608b4,2019-09-05 18:28:05,Klaus Hartl,"Merge pull request #409 from js-cookie/browserstack-setup
+
+Migrating from Saucelabs to BrowserStack",True
+e93c187d2f9273aa0d6d81782ced71d5dbc649b6,2019-09-05 18:20:23,Klaus Hartl,Add supporters section to readme,False
+55756aec64df0013d130ce581e82df44833fe803,2019-09-04 19:52:53,Klaus Hartl,Merge branch 'master' into browserstack-setup,True
+ca92c8106730480cd50033444ffbe924dbd7da52,2019-09-04 19:48:29,Klaus Hartl,Update Browserstack badge key,False
+7059adba6789018fab1ca14f88d7c4bd8ccfdfab,2019-09-04 19:37:20,Klaus Hartl,Format json consistently,False
+885aa4523fc20307fff94e669978b3a22b5c299c,2019-08-21 15:06:30,Klaus Hartl,Skip uploading video for passing tests,False
+2fe522f6a00fe70fd07a82391de7c34f08344d4e,2019-08-21 14:38:08,Klaus Hartl,"Revert to using macOS 10.13
+
+There seems to be a bug in macOS 10.14 in Saucelabs that prevents us
+from using it. When trying to access the QUnit test suite in the browser
+all we get is a 500.
+
+See https://github.com/webdriverio/webdriverio/issues/3754",False
+2ac1d1b2805b4606e0cf61b2b09fd17958dee220,2019-08-21 14:35:23,Klaus Hartl,Update dependencies,False
+a2b1e1273ab84467cb38d2deda9dd3de7a6991f3,2019-08-21 13:46:55,Klaus Hartl,Update macOS browsers to test in,False
+dceb7eb11da98ec266fc91a884f7218158f47b98,2019-08-20 21:11:59,Klaus Hartl,Use sauce-tunnel package with latest bins,False
+8ae243b5ccae771746a5a1963304137aefef3085,2019-08-09 18:31:58,Klaus Hartl,"Change approach to providing Sauce credentials
+
+Pick them up from environment instead of encrypting them as part of the
+travis yaml file; this will make it easier to change them. Possibly
+also allows for running sauce based tests in a fork, as long as sauce
+credentials are available.",False
+54962f884e9ae33f93e13ac903ffaf1d5a523598,2019-08-06 18:34:06,Klaus Hartl,Release version 2.2.1,False
+f2759d9e94390f9350aa0662c713676fccd063e2,2019-02-18 13:43:40,Klaus Hartl,Adapt readme,False
+799c98bf2257d946522a553f8ab3c49e092b14a6,2019-02-18 13:42:44,Klaus Hartl,"Add console polyfill
+
+Workaround for https://gihub.com/browserstack/browserstack-runner/issues/212",False
+4b00ab6ff2896ba36a82b225bee31da5bb05154a,2019-02-18 13:41:53,Klaus Hartl,"Remove invalid cookie differently
+
+For some reason, when running the test suite w/ BrowserStack, this
+invalid cookie wasn't deleted and thus broke all subsequent tests...",False
+9aa1b79e99a68dace4be6a7f476ef27c6e7684a8,2019-02-18 13:37:21,Klaus Hartl,Set up BrowserStack based testing,False
+d2724a87a29cbf7ee539452fb42b3e3a1aff95a8,2019-02-17 18:41:56,Klaus Hartl,"Update browsers to test in
+
+Note I couldn't update to Mojave, ""macOS 10.14"", because it test
+runs were erroring for any browser...",False
+224f9d97926c444de1fea21beabb800c26b79d48,2019-02-17 16:46:59,Klaus Hartl,Remove no longer supported browser,False
+27014688a5ea2964bd04567e675a8c302a5a3423,2019-02-17 16:46:59,Klaus Hartl,"Introduce build stages
+
+This is so we don't run automated browser tests in saucelabs for each of
+the given nodejs version of our build matrix, just once.",False
+d37b1eb49c455f409ef2659a3c0853e78b127a72,2019-01-25 13:41:05,Euni,write: better json object validation,False
+db0d8f2afae8e6b403ebc9050b459859e6cd226f,2019-01-24 22:00:09,Euni,write: better json detection,False
+d1df35db6cc1befbe27b2cc0784c29a008e6bbe4,2019-01-24 20:24:15,Euni,Add Express,False
+d62645185a4ede39ae10216fa695e5f70e701482,2018-12-28 14:01:34,greenkeeper[bot],"Update grunt to version 1.0.3
+
+Closes gh-447.",False
+d7f16e2bf92befc3ab3fdfdfdc710856ba181de5,2018-12-28 13:53:48,greenkeeper[bot],"Update grunt-contrib-connect to version 2.0.0
+
+Closes gh-465.",False
+0c7f84ff0d29975fc60590ca7b93237ac43ad708,2018-12-28 13:46:04,Fagner Brack,Remove unsupported Safari browser from Sauce Labs,False
+bf1faf0dd8126943ccbde163986adeacff6b1e7e,2018-11-14 07:51:32,Fagner Brack,"Remove jquery-plugin tag from npm
+
+Closes gh-458.",False
+e94bbb5b119e397ea25864c4d917bbc97937d22d,2018-10-16 13:41:49,Maurici Abad Gutiérrez,"Add to the README to remind that cookies may get deleted
+
+A fix for issue https://github.com/js-cookie/js-cookie/issues/470
+
+Closes gh-470. Closes gh-471.",False
+e111ecdf7dfacde5011d544b5a48c38ef331a871,2018-09-25 10:33:54,Ed Parry,"Updated the README for deleting with a domain
+Closes gh-467. Closes gh-463.",False
+bf8bb9cb99ec9b1aa6e8ee4594823ebc6507d44c,2018-07-03 17:34:36,Rouven Weßling,Split api() into separate functions to get and set cookies (#454),False
+69f802be223209e0ea283b23cba05b1cd0fbc551,2018-07-01 17:42:06,Rouven Weßling,Switches linting to eslint (#451),False
+cab66782392b7fa17cf65a1153c167a00025e038,2018-06-05 12:39:30,greenkeeper[bot],"Update grunt-contrib-nodeunit to version 2.0.0
+
+Closes gh-443",False
+6581c42171ec7ea72d48a32e6327d6f64ba0b1fd,2018-06-05 12:39:00,greenkeeper[bot],"Update grunt-contrib-watch to version 1.1.0
+
+Closes gh-439.",False
+5e969423792fb2adaa1eaeca811ce3129866327e,2018-06-05 12:37:21,Daniel Ruf,Run the tests on Node.js 8 and 10 (#446),False
+e288a7321e2d292c3045c03d222d19faa51e9e4e,2018-05-29 16:37:19,Daniel Ruf,"Cache node_modules in Travis CI
+
+Closes gh-444.",False
+8b311b9dab5751fab3b09b58d215262e908e92e1,2018-04-28 09:40:17,Fagner Brack,"Document the Build Status Matrix can include opened PRs
+
+See gh-286.",False
+f82f376ed044bc29ee23fd29d97d8c3ffd898226,2018-04-28 09:36:10,greenkeeper[bot],"Update grunt-contrib-watch to version 1.0.1
+
+Closes gh-431.",False
+9035bfa2f21b58475f3087a58fe8f56063f1d492,2018-04-28 09:34:51,Preston Ursini,"Update LICENSE to add contributors and Github message (#433)
+
+Uses MIT Template from GitHub so that MIT message is shown at the top and makes changes to contributors as discussed in gh-425
+
+Closes gh-433. Closes gh-424.",False
+d8b016be0f3c068ee4be8a121313de90502da2e0,2018-04-25 05:14:25,Fagner Brack,"Revert ES6 module example that is incorrect
+
+See gh-423 for context.",False
+5be81339f52311e0727dd45f91146ad5fb44822a,2018-04-25 05:02:34,Xesau,Fix JS syntax in readme demo code (#432),False
+3fcefa52affa80e3febf43352569aa2592af3e60,2018-04-13 16:26:24,Klaus Hartl,"Make expires test agnostic to DST change
+
+The test setup itself was assuming a different implementation. While
+`setDate()` will respect values causing the new date to overlap a DST
+change, e.g. adapt the hour accordingly, the underlying implementation
+does not. Therefore we need to set up the expected date to assert for
+differently, in line with the implementation that is.",False
+3138f588a1a7f3f6ec4012185104bcb974702441,2018-04-13 16:15:05,Klaus Hartl,"Fix saucelabs configuration to fix build
+
+Removing browsers no longer supported - these would cause any build on
+Travis to timeout, thus error. Note it doesn't seem to be possible to
+run tests in mobile browsers any longer, while using grunt-saucelabs,
+which accesses the v1 saucelabs rest api..
+
+Simplifying the configuration a little bit along the way.",False
+71859834c34a9c54bb81482cf4c2a890db4ed7dc,2018-04-13 11:39:31,Klaus Hartl,"Merge pull request #418 from carhartl/fix-getjson-accidentally-writing-cookie-with-too-many-arguments
+
+Fix getJSON() accidentally writing cookie with too many arguments",True
+d7534cd2fa0878a42d3d403e8231634dda7e6ed2,2018-04-12 20:13:59,Klaus Hartl,Enhance documentation regarding read operations,False
+ef3c94613b58c85e739cef23a418d2d94c58a683,2018-04-12 17:24:18,Klaus Hartl,Prevent accidentally writing cookie in getJSON(),False
+8b2a8801cc53fe9e150ef41c5c79d1193c79a385,2018-03-21 12:02:55,Klaus Hartl,"Try making expires related test more fail-safe
+
+I was seeing an error due to a used expires date coming after the
+upcoming DST change. Reducing the days we move forward should at least
+reduce the likelihood that the test fails.",False
+0875b1c3d77be0092c6b59afce46c3b57f266a29,2018-03-20 17:28:56,Andrew Murray,"Fixed typos in the code for the SERVER_SIDE.md docs
+
+Closes gh-408",False
+e56c99086300e0f3bc81d4e85e355a6f0284be77,2018-02-16 22:03:24,Klaus Hartl,Refine fix for running tests in old IEs,False
+8d9dbf350ccd7da099d9403bf308abf155f25b09,2018-02-16 19:06:45,Klaus Hartl,"Revert ""Fix running test suite in old IEs""
+
+This reverts commit 6e42d24f8bf0080949f37db8191516967e6d72b4.",False
+3ec501832955f3bdceac34240a4506b0638ce3de,2018-02-16 13:37:03,Klaus Hartl,"Merge pull request #401 from carhartl/reducing-bytes
+
+Reduce bytes",True
+a7ab62c187eaffcee82ba35469e52464fdbcf29a,2018-02-16 13:33:14,Klaus Hartl,Pass on arguments without array'izing it,False
+1df2c68b55b9c962ccc177113cc5a8592f251fc5,2018-02-16 13:33:14,Klaus Hartl,"Remove superfluous assignment
+
+Falsey is sufficient.",False
+8018ea2b5ed8f7004919382d0855e5be6bf7cd14,2018-02-16 13:33:14,Klaus Hartl,"Change cookie reading approach
+
+Collecting all cookies in a jar, and when looking for a specific one
+breaking out of the loop.
+
+By this we're also sharing one variable less (`result`) for both the
+write and read functionality, which will make it easier to modularize
+the library in the future.",False
+7f756454e77eb5ec177bab11cd5cf9cf1b512481,2018-02-16 13:33:14,Klaus Hartl,Refine code for applying read converters,False
+4cd7df2a3a7e8746dfcd44f4377759e2d0a15a31,2018-02-16 13:33:14,Klaus Hartl,Make expires attribute handling more concise,False
+7441ec74f3d251bd3d2119169f75f7bb8a384a53,2018-02-16 13:33:14,Klaus Hartl,"Make use of ternary operator instead of if/else
+
+This way value + key appear together, visually.",False
+d53efd36c39b7f50282e7e56ad659751cf006aa0,2018-02-16 13:33:14,Klaus Hartl,Make use of chaining for string wrangling,False
+6e42d24f8bf0080949f37db8191516967e6d72b4,2018-02-16 13:31:38,Klaus Hartl,"Fix running test suite in old IEs
+
+There's no support for `Object.keys()`...",False
+f9f3f0eb93528214bdc4fda062717eba1861bb45,2018-02-15 13:00:37,Klaus Hartl,Group related code together,False
+5083c64cdcd991ed4b85d883dea9368d4d3c9197,2018-02-15 13:00:15,Klaus Hartl,Group api related functions together,False
+e7f7f5d8e8630236f1a7a0068c661b0a30845964,2018-02-15 03:32:45,Klaus Hartl,Fix some wording and punctuation in readme,False
+6ac440da669a096e33cba976f8d9b56b5ea8ecbc,2018-02-11 06:30:34,Fagner Brack,"Prevent XSS in the cookie attributes
+
+Closes gh-400.",False
+e7a476b146717ea3720bef5cfabd0b4d72a11722,2018-02-11 05:46:30,greenkeeper[bot],"Update grunt to version 1.0.2
+
+Closes gh-403.",False
+73476a4ecfa5ac3621df501af22e613725e88976,2018-02-01 16:02:53,Fagner Brack,"Document NPM Package Manager usage
+
+Closes gh-350.",False
+a06b8404a13ed7dbbc962873f2ef4cc6338045af,2018-02-01 16:02:12,Fagner Brack,"Document ES6 Module Loader
+
+Closes gh-353.",False
+a0012f21ba0519fa3c7571cc6f16e15902ec051b,2017-10-28 11:25:31,Fagner Brack,Fix vulnerability reports contact e-mail in the README,False
+34f056cd261982828072b84a9bbdcd8c3d9931ad,2017-10-28 11:17:55,Fagner Brack,Release version 2.2.0,False
+a04804adc9853d6eefc512bf7e71784531a68c71,2017-10-28 11:01:02,greenkeeper[bot],Update dependencies (#366),False
+2754526ad71998b521e4c74ead8b9eccd5918217,2017-10-28 10:57:58,Faraz Sherwani,"Do not remove quotes for the getJSON() API
+
+Closes gh-364. Closes gh-363.",False
+976c5cea9fb8b8bca213e7eeed091fa4c58edad4,2017-10-28 10:07:42,Fagner Brack,"Add Safari 9, 10 and 11 to Sauce Labs tests",False
+1760835174afd97f5a655485e35277b3b3bb50eb,2017-10-28 09:55:20,Fagner Brack,Upgrade Sauce Labs Chrome and Firefox versions,False
+ba8460b331ad50caf0340cac48a824c6910a4112,2017-10-28 09:29:03,Fagner Brack,Fix typo for the SauceLabs test on Chrome 41 on Mac,False
+e7ef7d750340e76414fe741a3994e7ce5db532d5,2017-10-28 09:28:31,Fagner Brack,"Add again SauceLabs support for IE 8 under Windows 7 umbrella
+
+Due to d3495561e6 we can't yet test on IE 6 and IE 7",False
+d3495561e6598aba71ec4770a585ccb82ee48802,2017-10-28 09:04:04,Fagner Brack,"Remove tests that were making Sauce Labs to get stuck
+
+This is supposed to fix previous Sauce Labs test failures.
+
+See gh-366.",False
+cebb2aea46bd08a733d90f284db9fda3352b183c,2017-10-28 07:40:48,Fagner Brack,"Add release step to update jsDelivr on major bump
+
+Related to gh-371.",False
+88ce27f063f5484de179ce5b1cd668d9fd57a482,2017-10-28 07:16:45,Lukas Drgon,"Add jsDelivr CDN link
+
+Closes gh-371.",False
+ebf49dfb3e57f1d81777573fd2a32d72ecfc41a3,2017-10-21 06:29:45,Fagner Brack,"Remove the 'secure' attribute from the remove method in the README
+
+Closes gh-369. Closes gh-203.",False
+82860ea5d2333a469eae7f53516478fdbd708354,2017-08-19 06:32:08,Brian Donovan,"Exclude files not needed for the generated npm package.
+
+Also renames LICENSE to automatically be picked up by npm and other tools (see gh-99).
+
+Closes gh-221.",False
+31b3366b0384ddc41558a4bf84ce282e65c27588,2017-08-19 06:31:18,Seth Westphal,"Update to the latest Node.js LTS version.
+
+Closes gh-328.",False
+b48e6cfeb1ab8aad36b2e708349f148ef02f881d,2017-08-19 06:30:45,Fagner Brack,"Update grunt-contrib-uglify to version 2.3.0
+
+Closes gh-323.",False
+62a9e8438fedc78d25ea2070508b770d9926ac94,2017-08-19 06:29:33,greenkeeperio-bot,"Update grunt-contrib-qunit to version 2.0.0
+
+Closes gh-322.",False
+8b70250875f7e07445b6a457f9c2474ead4cba44,2017-04-03 17:02:24,Fagner Brack,Release version 2.1.4,False
+41cbdbaa6e05923d673cb75bb1604aa5a8e69f36,2017-04-03 16:32:03,Fagner Brack,"Expose e-mail address for vulnerability reports
+
+Closes gh-321",False
+f5f05376fcb2cdc632db736662c026a5f4597618,2017-04-03 16:26:36,greenkeeperio-bot,"Update grunt-contrib-uglify to version 2.2.1
+
+Closes gh-320.",False
+32fd4bb840106ed1691b07332b3f3f60c4ce55ec,2017-04-03 16:23:58,greenkeeperio-bot,"Update requirejs to version 2.3.3
+
+Closes gh-305.",False
+cacd196435f8ddc6fac73317e9be167f7bd6230c,2017-04-03 16:23:21,greenkeeperio-bot,"Update grunt-contrib-qunit to version 1.3.0
+
+Closes gh-301.",False
+42d33893dc3edc95a805fbdc153b86b996643fe4,2017-04-03 16:13:17,Alito,"Fix a typo in the 'converters' anchor of the README
+
+Closes gh-291.",False
+2a367621645cefc27078e191f512224f9da9737a,2017-01-09 16:26:52,Filip Bartuzi,"Add the information that the #remove method is silent
+
+Closes gh-273.",False
+c1aa987f171e802fd69664c9891c8c7270837b43,2017-01-09 16:17:33,Jaroslav Hanslik,"Allow undocumented attributes to be passed when creating a cookie
+
+Closes gh-293",False
+4e77d05b59692b664fe869f3e2dd54b77c13badf,2017-01-09 15:48:04,Janus,"Use strict mode in the tests
+
+Closes gh-288",False
+81e8c0b7f3753c7191eeb709b23ff0efad445203,2017-01-09 15:30:18,greenkeeperio-bot,"Update grunt-contrib-jshint to version 1.1.0
+
+Closes gh-280.",False
+b1f0a45ac82c892442215fd3cc54877465f3ae8b,2016-12-22 07:17:51,greenkeeperio-bot,"Update requirejs to version 2.3.2
+
+Closes gh-266.",False
+7fd36e66b60a4e0ac9d09207fb3a348a2969152c,2016-09-17 09:04:01,greenkeeperio-bot,"Update requirejs to version 2.3.1
+
+Closes gh-263.",False
+da42a53ae786d983455852d2f29e542e7c702d42,2016-09-17 09:03:18,Fagner Brack,"Fix the release steps
+
+Closes gh-261.",False
+68acf18560eb7a5d21db7197ae24d975971d1ae0,2016-09-02 09:28:54,Fagner Brack,Release version 2.1.3,False
+767ebd932706fc7286398bf6bb5b07e23ad1518e,2016-09-02 09:25:23,Fagner Brack,"Change README to point to the 'latest' tag
+
+Closes gh-258.",False
+92f8e2b04cb0ebef236e019a5900012e86a0729a,2016-08-27 03:14:37,Fagner Brack,"Register in AMD and UMD if both available
+
+Closes gh-257. Closes gh-244.",False
+583c52457fa1bb6ac823fa687ef52749a9cd2fa2,2016-08-27 03:10:45,Fagner Brack,"Add docs to use with ES6 imports
+
+Closes gh-256. Closes gh-239.",False
+ccdcc583430f2646591ad01a24cac0ca5d8da9a6,2016-08-27 03:09:11,Fagner Brack,"Change the manual release to use the 'latest' tag
+
+Closes gh-210.Closes gh-255.",False
+72d05c27ebfb99aa8b6ae8f1b46210e223e815b9,2016-08-04 15:37:23,Fagner Brack,"Update grunt-contrib-uglify to version 2.0.0
+
+Closes gh-248.",False
+ec189f13fdb8d26144f87ab14d3229c0cfcfc67b,2016-08-04 15:34:34,Fagner Brack,"Remove QUnit.expect from amd test
+
+QUnit v2 have removed this API. This prepares for when we decide to upgrade.
+
+Closes gh-249.",False
+bccdaf79f7bef1d6d2cd56cbff00f8ed2a2c04a4,2016-08-04 15:33:28,Fagner Brack,"Do not parse as JSON when window has a truthy 'json' prop
+
+Closes gh-250. Closes gh-238.",False
+9b467413478a0ef58e3aa65b2ab2862c63bbd6b4,2016-07-31 12:31:32,greenkeeperio-bot,"Update grunt-contrib-uglify to version 1.0.2
+
+Closes gh-241.",False
+671f7f48092e6079b7dfc21d3806fff46b936227,2016-07-31 12:30:51,greenkeeperio-bot,"Update grunt-saucelabs to version 9.0.0
+
+Closes gh-231.",False
+96c44da1ab77531239f20f21e02eff72fd7acdbd,2016-07-31 12:24:56,Fagner Brack,"Add a note in the README for cookies that expires in less than a day
+
+Closes gh-225. Closes gh-224.",False
+960a75ed4f5876327c2a7628cc6e41be282effcc,2016-06-25 16:57:30,Fagner Brack,"Clarify the interoperability of default encoding
+
+Closes gh-215.",False
+bafff92d609c10d1fba51054f069ccda3ba4b9dd,2016-06-25 16:29:38,Fagner Brack,"Remove unnecessary code alignment
+
+Closes gh-214.",False
+ff5e17320918f33915145e3ba7397a96e6085e01,2016-06-25 16:28:36,greenkeeperio-bot,"Update grunt-jscs to version 3.0.1
+
+Closes gh-219.",False
+3d47ad878256bf6457a88ebc72738558e8eaa07f,2016-06-19 19:11:13,Fagner Brack,"Revert ""Update QUnit to version 2.0.0""
+
+This reverts commit 337419f7366264c2c9bc34ec6f69d9fd434ceb35.
+
+For some reason, the build started failing for IE 6, 7 and 8 after upgrading to QUnit 2.0.0
+
+See https://travis-ci.org/js-cookie/js-cookie/builds/138708313#L1035-L1056",False
+337419f7366264c2c9bc34ec6f69d9fd434ceb35,2016-06-19 18:17:22,Fagner Brack,"Update QUnit to version 2.0.0
+
+Closes gh-212.",False
+fcd3d4ade36f44e7936d8cbda074c4987cc6cbff,2016-06-19 18:04:17,greenkeeperio-bot,"Update grunt-jscs to version 3.0.0
+
+Closes gh-208.",False
+79037c2272b8e231e49ecb3dd92f3fb6ce594f76,2016-06-19 17:51:46,everdimension,"Add support for UglifyJS 'unsafe' option
+
+Closes gh-207. Closes gh-206.",False
+d430a7351127fc3ea0e231103a2badbeedda0e55,2016-05-29 11:37:55,Fagner Brack,Prepare for the next development iteration,False
+8bb6144bc6efd3ccf95af29dd8ed67fcfe33eaa7,2016-05-29 11:25:01,Fagner Brack,Release version 2.1.2,False
+2d82baa24c43adeaa4d96ab640cc6fbb1ff94bea,2016-05-27 17:32:40,Fagner Brack,"Separate the installation docs in sections
+
+Closes gh-182. Closes gh-177.",False
+81e202aa5620e97f2254580fb2010e03927408f7,2016-05-27 17:29:57,Fagner Brack,"Do not fail if there is a malformed cookie name
+
+Closes gh-198. Closes gh-196.",False
+0769556df5cad66ef8760a65e15bfddd6021cdb0,2016-05-23 19:06:11,Bendik Solheim,"Correct notice on attributes in remove function
+
+The notice stated that path, domain and secure attributes needs to be the same
+as when the cookie was created when removing a cookie, but in reality only the
+path and domain attributes needs to be the same. This commit removes ""secure""
+from this notice.
+
+Closes gh-204. Closes gh-203.",False
+f2b25713e8fae658d418b60710adc0e0d14998d9,2016-05-07 14:39:10,Fagner Brack,"Upgrade devDependencies
+
+Closes gh-185. Closes gh-187.",False
+8a0ae7c08a12930b5eec32d533f7ca383b82a7b5,2016-05-07 14:24:41,Fagner Brack,"Remove 'Very good' Wiki sentence
+
+Closes gh-189.",False
+81aeea19d20e30ad913e92fccc8c4329e0bfd13a,2016-04-22 19:09:19,Fagner Brack,"Add gif file aligned on top of README
+
+Closes gh-180.",False
+e209f64295ec502e3ffd614e0efb11a853236815,2016-04-22 19:07:53,Fagner Brack,"Update dependencies
+
+Closes gh-183. Closes gh-178. Closes gh-176.",False
+ea3c0b56fce4a8f806d00463fcd086013f415069,2016-04-16 15:00:50,Fagner Brack,Prepare for the next development iteration,False
+5c830fb71a2bd3acce9cb733d692e13316991891,2016-04-16 14:57:16,Fagner Brack,Release version 2.1.1,False
+880dedd10e6e149449e5d582474a73021578f1b6,2016-04-16 14:53:40,Fagner Brack,"Remove underscore from the OldCookies variable
+
+There is no reason for that to exist there, it was originally introduced
+in the commit that fixed gh-24",False
+dbce75978fd020aa1f4e22d9fa19147aebf96303,2016-04-16 14:46:01,icamys,"Add semicolon to the begining of the library source
+
+This considers when the library is included after a script that uses
+an IIFE but doesn't end with a semicolon.
+
+Closes gh-171.",False
+4a4122eb06bc6c4fa8034f00dd9170bd07d4ce7c,2016-04-10 16:45:08,Fagner Brack,"Update grunt to version 1.0.0
+
+Closes gh-169.",False
+0c8f5e1fe35da6c1105ac943b3a9a69a757c6d0a,2016-04-09 20:20:44,Fagner Brack,"Do not create cookie if using .set() incorrectly
+
+Closes gh-168. Closes gh-145.",False
+dc8f4376d30ba0165df6c6124173ceccf360a442,2016-04-05 17:22:27,greenkeeperio-bot,"Update qunitjs to version 1.23.0
+
+Closes gh-163.",False
+84eb3244c1e199abdf3e839ed36b25719b2e2b8d,2016-04-05 17:17:28,Fagner Brack,"Do not throw errors if the methods are called in node
+
+Be advised that the actual behavior of the methods in this case is undefined
+
+Closes gh-165. Closes gh-164.",False
+3c85aee2650e202cb69ef25113e8f5496d49a5ff,2016-03-30 17:11:16,Fagner Brack,Rename commonjs test file to general nodejs tests,False
+d82dc72dab240ac64756afa7182b0d71e112dba1,2016-03-19 20:04:05,Fagner Brack,"Upgrade npm test modules
+
+Closes gh-149. Closes gh-150. Closes gh-153. Closes gh-154. Closes gh-155. Closes gh-156.",False
+3a8dfff03a8b7bb3862d97334567a183c2c7926b,2016-03-04 17:03:41,ThiagoDosSantos,"Document how to make Tomcat 8 to be compliant with RFC6265
+
+Closes gh-131.",False
+a49f53a53a38f102c8f7be1dffb600ae0b4b7783,2016-03-04 16:52:14,greenkeeperio-bot,"Update grunt-jscs to version 2.8.0
+
+Closes gh-147.",False
+163b7bc2ebd3141c29125207c16c8af86351a648,2016-03-04 16:51:41,greenkeeperio-bot,"Update qunitjs to version 1.22.0
+
+Closes gh-142.",False
+8682bc931bc35c33c8b2f8f8ea7c5b515103701d,2016-02-23 16:02:03,greenkeeperio-bot,"Update dev dependencies
+
+Closes gh-141.",False

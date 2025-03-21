@@ -1,0 +1,2190 @@
+Hash,Date,Author,Message,IsMerge
+f3495ff6c9906f2b831f13b7ac36f2dc305fa37d,2024-12-22 21:31:22,Seth Falco,"fix(removeEmptyContainers): skip if filter is applied via styles as well (#2089)
+
+Fixes a bug where we were too eager to remove empty containers.
+
+We already had logic to skip removing empty containers if it had the
+filter attribute, which is needed to apply a filter to the whole area.
+However, the filter can also be defined through CSS. We did not
+properly handle this case, and treated the node as if it had no filter
+at all.
+
+This computes the styles and checks the stylesheet as well. (We also
+move the logic down to avoid computing the styles eagerly.)",False
+bf97a1f9a93cc93037f30855ef49cb064c13a3f1,2024-12-22 05:16:09,nuintun,deps: upgrade css-tree and picocolors (#2083),False
+c372b36296c94b7cee4f77eb0af1124d384e360f,2024-10-21 22:27:17,ntnyq,feat: export type `CustomPlugin` and `PluginConfig` (#2081),False
+a8472bc45fe1d92d5f848a08cf4d5c8f4a531ad9,2024-10-03 02:09:45,João Palmeiro,chore: export the `Output` type (#2076),False
+ab7f518a751e265aadbf9eb7bf14ffea8cff6e18,2024-09-08 01:40:17,Seth Falco,chore: add npm registry server to yarnrc (#2072),False
+97d7d00add2643e9b4af016cd34d761a1e044b21,2024-09-07 23:56:05,Seth Falco,add: centralize exports to svgo (#2071),False
+50fc3c9de5ce037399dc81d3a1bbb756037a0920,2024-09-05 00:57:49,Simon Arnell,"Updated recursive usage example (#2070)
+
+Fixes #2069",False
+9078e8ca089156996eadbdfc2b1b4f9201742114,2024-07-02 14:37:57,Seth Falco,refactor(cleanupNumbericValues): improve how viewbox is split (#2046),False
+a59f47b98ccd53c7bdc0e9ec81ddae779442e827,2024-07-02 14:08:35,Seth Falco,chore(removeScripts): remove redundant regex pattern (#2045),False
+b8f8d1c655fb99a3049a7de73fede11cbc17fa84,2024-06-16 17:32:53,Seth Falco,refactor: dont covert to charcode in iswhitespace (#2039),False
+abb23bf1239e6b196e2f2147edd258e8925ae21d,2024-06-16 04:40:42,Seth Falco,docs: add usage section (#2038),False
+1348383caa989e2e6837b63db40a992dff0bf1b4,2024-06-15 02:14:45,Seth Falco,chore(addAttributesToSVGElement): fix typoes in docs (#2037),False
+ce4ca1cabc79e7ca266df53c06808832b2ed1226,2024-06-14 18:01:07,XhmikosR,chore: enable more coverage reporters (#2024),False
+fea26379d29a02f8229b6c0b2caf19a0713fe3eb,2024-06-14 18:00:18,Vlad Tansky,fix: support -o-keyframes and -moz-keyframes (#2019),False
+5481fc24779d1369ff015bc600cb247e16f5619d,2024-06-14 17:18:56,Seth Falco,fix: don't insert 0 at start or end of attribute if whitespace (#2036),False
+e73d13a1a5d05c1eee802331a3fd35a8e98679cd,2024-06-14 15:13:30,Antonio Salvati,fix: convertColors plugin ignore currentColor in 'mask' elements (#2032),False
+8d777dd3c99decd3f9d7c7dd897fe5664a3a0c28,2024-06-13 20:48:19,Seth Falco,chore: use concrete types for generics (#2034),False
+65d0a52ab327ed16c066bb52c79f86078617ea4b,2024-06-12 03:39:04,Seth Falco,fix: add alias of removeScriptElement to removeScripts (#2033),False
+7593b325f6f3eede0ed217339ef71f8f7a07867c,2024-06-10 20:29:08,XhmikosR,chore(ci): add Node.js 22 (#2026),False
+a21dae62a1f9d3983bccb8c96ab96849777b0c6f,2024-06-09 23:25:34,Seth Falco,chore: freeze plugin arrays (#2028),False
+1a025dac88462b65eb60b63a3f5f6eb1f81a8e67,2024-06-09 20:49:57,nuintun,fix: fixed Config definition for node (#1997),False
+0c13740fddcb996768d978135308dadf0217d88c,2024-06-09 16:58:37,Seth Falco,feat: expose builtin plugins (#2027),False
+1bb5bbe39ea2cf8b46db2963c2b0a2f5ffcd3bdc,2024-06-08 00:53:59,XhmikosR,chore!: Update commander to v11 (#2004),False
+32edd7bcd6e5fd6c3bfeece4dbfde65e706b61c3,2024-06-07 23:23:07,Seth Falco,chores: amend version strings (#2023),False
+964c7b28ffab3b714d4485b54121ad2c0f559ea8,2024-06-07 22:51:00,XhmikosR,chore!: drop Node.js < 16 support (#2002),False
+35d3fb6ee86253f06e9c44fde9243a82e0b28c40,2024-06-07 22:38:05,Seth Falco,chore: export default and named packages (#2022),False
+1e23f66e76aac9e70221b4b5da633de97405fccd,2024-06-07 14:28:21,Seth Falco,chore: rename removescriptelement to removescripts (#2021),False
+f604c6979e5748261c3c4d2088a622a4ea69c358,2024-05-28 13:09:38,Seth Falco,chore: migrate to upstream sax (#2017),False
+78403d3dc9a7bcc0ab1ae891ea196f7f205d5a58,2024-05-28 00:58:13,Seth Falco,feat: export version constant (#2016),False
+a761a0103805f107fbf76fddf57309ae6c0dfcd9,2024-05-27 02:38:37,Kendell R,fix(convertColors): accept commaless rgb (#2015),False
+4daaa4251f34a84c535feac238739e4d0bff34c9,2024-05-26 17:52:23,XhmikosR,chore: update ESLint to v9 and switch to flat config (#2001),False
+83bfee47688219bcd0d9c7ffe3024a6990fd5dac,2024-05-26 04:41:00,XhmikosR,chore(tests): switch to native fetch (#2003),False
+ceb217893553df3c9b69f65fdfef6219f348dd07,2024-05-26 04:14:26,Seth Falco,test: expand and optimize regression testing (#1918),False
+c86536ed708e3064a5366c5cd961696aa3523d0b,2024-05-25 01:44:48,Seth Falco,chore: disable removeTitle from default plugins (#2014),False
+3d2a6247e065f82bff1011ffd833e7c764403c9a,2024-05-25 01:19:24,John Albin Wilkins,Remove the `removeViewBox` plugin from the default plugins list (#1461),False
+83a94e9475ef9c124b36f1ce0aa58a93666e7274,2024-05-25 01:03:31,Seth Falco,chore: minor wording in package.json and docs (#2013),False
+c250920fd065354ef28a4fae99cb6ed6fef7dc4a,2024-05-20 21:58:23,Gifford Nowland,docs: fix transposition of preset-default (#2012),False
+bec0cb487eeed7d536aa5c650576fe43efb40cc0,2024-05-18 14:16:13,Seth Falco,docs: minor restructure and rewording (#2011),False
+07b3dc0f07560e4fdb1b916b02798eae4d503a8b,2024-05-18 05:40:02,Seth Falco,docs: add section on reproducible ids for prefix ids (#2010),False
+9fdbb4d11c042240cb2f401ddfce1b6599eb4590,2024-05-17 16:43:30,Seth Falco,chore: use markdown in frontmatter (#2009),False
+3bcdc37cb76d6645f25a4b9344e0a51e16ca6a79,2024-05-16 01:07:26,Seth Falco,docs: use plugin names and refactor (#2007),False
+9a1c7496a589075bd6ff07b95a7447ea7a198d9c,2024-05-15 00:37:03,XhmikosR,chore: update yarn to v3.8.2 (#1989),False
+38458c2cf0cd572150a65a22e3884207a962011d,2024-05-15 00:09:16,XhmikosR,chore: ignore .yarn folder from prettier (#1992),False
+bf9af5dced5291d26b7990eb089d0d29f65117b7,2024-05-15 00:01:03,XhmikosR,chore: add package-lock.json to `.gitignore` (#1985),False
+3c155ccfec1d77d0a1f685e2209454d82ba43527,2024-05-14 23:58:39,XhmikosR,chore: add cross-env and rimraf so that tests work everywhere (#1988),False
+2bbaba4f0a53a2eee2ee7b5c822a0d9c82d278c2,2024-05-14 23:31:09,XhmikosR,chore: update devDependencies (#1987),False
+506c08aa989fb6b78186afdb0c90493bebf1d5e9,2024-05-09 14:50:36,XhmikosR,chore: remove del devDependency (#1986),False
+559b9ad068a8194a7ac09e596ce127b466cce194,2024-05-09 14:39:31,Viktor Szépe,chore: resolve typos,False
+73fe46b1f46a0b3d5e3772403c290ab12d4dc40f,2024-05-09 04:51:42,Seth Falco,chore: increment version to 3.3.1 (#1995),False
+3964d64c65d75382c715791c360c98b96d6215d3,2024-05-09 04:45:06,nuintun,fix: v3.3.0 Common JS missing loadConfig and optimize exports (#1984),False
+6b162fb9cddbe70d004f90a801daebeac16faf8c,2024-05-09 04:20:08,Kevin Ebaugh,"docs: fix ""purly"" typo (#1994)",False
+a3ac91af71c262660eda90fad893ba83be7fe24f,2024-05-08 05:08:11,XhmikosR,chore: Add CodeQL workflow (#1876),False
+89b0c6c435f50494b13297fdaa911348e819d890,2024-04-25 13:31:53,刘巍峰,fix(cleanupIds): handle no-uri-encoded references (#1982),False
+888d078464a3c6e163e875cb65db94722cd98677,2024-04-23 16:44:02,Wojciech Maj,fix(makeProgram): specify .mjs and .cjs config files are allowed (#1976),False
+8d6385bd9ab49d1d300a10268930238baa5eb269,2024-03-02 06:54:43,Seth Falco,fix(convertPathData): preserve vertex for markers only path (#1967),False
+53aad59dc968c72df962d13feea4e7c0b1d9b6d7,2024-03-01 06:20:30,Seth Falco,"feat(addClassesToSVGElement): allow function as param (#1966)
+
+Updates the interface for addClassesToSVGElement to match prefixIds,
+where we'll accept Array<string|function> instead of just a string.",False
+f49b6a717d04d7f043acc6edf9d7109f17932adb,2024-02-28 04:18:19,johnkenny54,"fix: transformToMatrix() returns incorrect result for scale(n,0) (#1965)",False
+a8d2df6660d1c3581e4d046e2155c64966446d4a,2024-02-26 04:35:32,johnkenny54,fix: mergePaths should not merge paths with styles that depend on bounding box (#1964),False
+473c5a603e43619d756f2fc91e19278401317085,2024-02-26 03:52:01,johnkenny54,fix: stringifyPathData needs space before scientific notation (#1961),False
+573a5c7e0fb02f13ac1268b8148c151b0c85d421,2024-02-12 04:03:06,Anthony Ryan,chore: Update the README docs to suggest svgo.config.mjs (#1958),False
+e2575988ccb30810736b616af26c317e374618e3,2024-02-12 03:44:25,johnkenny54,fix: <a> element not parsed as text (#1959),False
+a938d5e1f3e2517aa4f68ca52b8aecb52393d3d1,2024-02-08 03:10:46,johnkenny54,fix(collapseGroups): check for filter in style as well as attribute (#1952),False
+9a7750f2a81c7907181848f19094271619b81706,2024-02-08 02:50:50,Kendell R,fix(mergePaths): use a default floatPrecision (#1945),False
+c787b9f6ae88e8aede052fa82f611fd928705e3c,2024-02-06 04:54:47,Seth Falco,fix: output to new directory if trailing slash (#1954),False
+4884d59133b1fc998cff6137943242f926adc9bd,2024-02-06 03:17:31,johnkenny54,fix: revamp matrixToTransform,False
+f7436c726e39d9439bcb81cdbf8f58ae8c4b9eae,2024-01-30 03:49:44,johnkenny54,fix: removeHiddenElems - treat <path> with opacity:0 as non-rendering node. (#1948),False
+10e5e5ef39087b8c80dfa0f88aed187979b5df02,2024-01-23 20:58:10,john-neptune,fix(prefixIds): sameline comments (#1942),False
+7882488193f5cf2965d7e6678f3f5da56076c28f,2024-01-19 20:31:02,Seth Falco,"chore: improve types for custom plugin (#1939)
+
+Co-authored-by: grbd <hecatrons.workshop@gmail.com>",False
+9f61cd36a676b264a11095b5176151be43085337,2024-01-19 17:29:26,Seth Falco,chore: consistent rollup config between browser and cjs (#1938),False
+d7a851ff95ae1d7ea55ac6f246b86b44ae16f8d2,2024-01-18 03:57:16,Seth Falco,chore: rename test files to .svg.txt (#1937),False
+174e9525734398f24a8dea6f4cc00c965ffcc4c2,2024-01-18 03:45:35,Seth Falco,chore: use math.hypot (#1936),False
+59796a829beb4ac7c0291e10e75fa9445ae91aff,2024-01-16 03:18:14,Jon Dufresne,feat(removeDeprecatedAttrs): new removeDeprecatedAttrs plugin (#1869),False
+8afb370ea09b72ec785460826e387f0e58c34a7a,2024-01-15 21:48:11,johnkenny54,fix: moveElemsAttrsToGroups should not move transform if group has filter attribute (#1933),False
+4bb3d8844f27485a2f7731c4ec607208c85ef241,2024-01-09 04:20:25,Jon Dufresne,chore: Upgrade @types/css-tree to remove @ts-ignore comment (#1934),False
+3e9ad5e81de6d112ebbedde6cae7fd3fd9e535f0,2024-01-07 22:38:54,johnkenny54,fix: collapseGroups does not move attributes atomically (#1930),False
+6747e3a04733f410ca642cc559f625ef3ed1557b,2024-01-07 21:58:24,JayLeininger,feat(convertcolors): add param to convert colors to common case (#1692),False
+9334b08ba2a6fdaf2f9ead38d5af6cd796a6ef42,2024-01-06 20:35:11,Seth Falco,test: update tests with wrong extension (#1929),False
+4da8b38fee04a15cd814028c6d0ebf69a2b326c2,2024-01-06 20:25:24,johnkenny54,fix(removeHiddenElems): dont remove node if children have referenced id (#1925),False
+6afc7bdb5241d18e7b1844c199d19a77acc6c2ac,2024-01-06 19:37:25,Kendell R,fix(convertPathData): fix q control point behavior when item is removed (#1927),False
+9e017692bc903bd2c537fa9201e34892ef573fc5,2024-01-05 02:28:41,johnkenny54,chore: use .svg.txt extension on plugin test files (#1917),False
+51c59f5ad2af4666a9730e58e87ba6fd80301ff5,2024-01-04 02:01:42,johnkenny54,fix(removeUselessDefs): dont remove node if children has id (#1923),False
+2442f742398f6c40bcf83b5c34e4a71a023adae1,2024-01-03 21:47:37,Jon Dufresne,chore: convert project to us ECMAScript modules (preserving CJS compatibility) (#1905),False
+252b28c4bf20f3165f08529ea32d753a251b11be,2024-01-02 05:28:44,Seth Falco,chore: increment version to 3.2.0 (#1919),False
+8644cf36e8839a3dc3c6a90f8eec62c25fbc68a6,2024-01-02 02:17:21,Kendell R,feat(convertPathData): convert c to q (#1892),False
+2661dacc249958471d10cfb887eba3c87728ce3a,2023-12-31 06:29:18,Seth Falco,fix(convertTransform): fix scale and rotate on skew + refactors (#1916),False
+f6a2ca20d6472cb0f2b18dadd626d6db092f8767,2023-12-29 00:44:47,Jon Dufresne,chore: improve jest tests with more precise assertions (#1912),False
+db05c5782a02b3c137800cb04098bb1ef5b552bf,2023-12-29 00:36:05,Jon Dufresne,chore: Use idiomatic Jest patterns to assert exceptions (#1909),False
+433dcefd646edba35b015fc4f567077a79d1d8ee,2023-12-28 23:21:19,Seth Falco,refactor(convertPaths): clean up plugin (#1913),False
+f238d6a213a499deed31895d7ebbf139eb9996c5,2023-12-28 05:11:09,Kendell R,feat(convertPathData): allow converting q to t in more cases (#1889),False
+967d2f1e1452a7c0adf952a9d676416eb31680c9,2023-12-27 19:21:50,Seth Falco,deps: update css-tree and clean ts-ignores (#1911),False
+4768af63e4ec15a10f5f721db79163341ad9947f,2023-12-27 18:39:56,Jon Dufresne,chore: Update @types/csso and correct types (#1910),False
+c2cacc7060a87ce1c2cd81bb7fa4245838189e78,2023-12-27 18:24:30,Seth Falco,chore: move health files to .github (#1906),False
+562152a7292ba402992d0e04a2530e1d7e4a55ea,2023-12-27 18:23:01,Kendell R,feat(convertPathData): use the sagitta of arcs to round and convert to lines when applicable (#1873),False
+90406f796718dc63a6723fcda8b7c84379544972,2023-12-26 06:23:44,mozzie,refactor(mergePaths): improve performance on large files (#1764),False
+a287a2a8c2e3f86e31996534b6ba00baec3b9cde,2023-12-26 02:24:48,Seth Falco,refactor(mergePaths): improve performance (#1904),False
+52961ba28c359a35c7c8dd5e76ca6a1fcc52fa0d,2023-12-25 19:36:44,Seth Falco,ci: dont create diff png if no_diff (#1903),False
+db78c4b7b5e3cc04f83cdf91fb0ac658794266c5,2023-12-25 04:41:22,Jon Dufresne,"chore: Remove unused argument ""input"" in calls to optmize() (#1901)",False
+6996fca1a6e06e64fde4d54cb2b11c8faffad91c,2023-12-25 04:35:12,Seth Falco,refactor: improve performance of stringifyPathData (#1900),False
+a3da8b3a76cee22bc650801b860e07629c68429d,2023-12-24 07:24:17,Seth Falco,refactor: use set in _collections (#1899),False
+a7859eb177016f722d42a823e3837a2c1bd5804e,2023-12-24 07:17:29,Kendell R,fix(convertPathData): fix some weird behavior (#1867),False
+2c408ce56fef896dfce9e6f596a32e2be23765f4,2023-12-23 12:26:46,Seth Falco,refactor: improve regression testing (#1898),False
+16c6977215d2d45dd83cc4448b804ae52513b50f,2023-12-23 08:51:14,Kendell R,chore: speedier regression testing (#1897),False
+38188263c31b7643b9d5fbd2effa59fd4056cf11,2023-12-16 22:00:55,XhmikosR,dependabot.yml: fix lint (#1887),False
+211387fb7bac88777f67748017d311f3d8a7a86f,2023-12-15 21:14:23,XhmikosR,chore: add dependabot config for action updates (#1877),False
+22533f1ffe82978e0d4c6ff502bf3651eaaf13fe,2023-12-15 18:40:21,Seth Falco,chore: update prettier and eslint (#1885),False
+40544220e80c4b1d13970701a814df43e79881b9,2023-12-15 18:02:20,Jon Dufresne,chore: tidy up eslint config and usage (#1883),False
+aa470c7952ac6d90af8547b0c7b8e382ff9a5e66,2023-12-15 18:00:44,Jon Dufresne,chore: apply prettier to all supported file types (#1870),False
+d17b001cbddf22ead8feeb4943163aa89beb323a,2023-12-11 06:13:57,Seth Falco,chore: increment version (#1884),False
+e6deecac90fa99dadb4167475c64b785410aaf37,2023-12-10 07:37:35,Seth Falco,fix: improve handling of url references in reference attributes (#1881),False
+c172c9e6d6ac049faca28c1ffbc41af3670afb59,2023-12-10 06:01:55,Seth Falco,fix(cleanupIds): handle uri encoded references (#1880),False
+6a814cd2e75809ab307e87cb32941351cd179a7a,2023-12-10 04:34:45,john-neptune,fix(prefixIds): update all nodes in style tags (#1736),False
+2d9e101ded04beb96b60dafd7abd3636d9b70fb6,2023-12-10 03:55:30,Kendell R,fix(removeHiddenElems): handle defs better (#1879),False
+3dc2f6fef7f67596eab64b0a98cfa68872e5609c,2023-12-10 02:09:55,XhmikosR,chore: Update CI versions (#1875),False
+74f8bd7af0a496fc0b1322dd81ae4e1b96d4b5aa,2023-12-10 02:05:39,XhmikosR,chore: fix typo (#1874),False
+8390add9abc422c44c582ec1f26aef681f168a21,2023-12-07 17:26:14,Seth Falco,feat(removeUnknownAndDefaults): apply to xml declarations (#1872),False
+d6ff70baf96bd0c7801b809aeaef6764ff2b6b73,2023-12-03 23:32:22,Jon Dufresne,chore: fix several typos (#1868),False
+a663d8d683cc2f45d9054a9690e269731f7d5e70,2023-12-02 17:56:21,Seth Falco,fix(cleanupEnableBackground): clean up inline styles too (#1866),False
+39e855be9e0170aeaef9a4a4edadc675db68640b,2023-12-01 22:15:09,Seth Falco,fix(inlineStyles): refactor how styles are collected (#1865),False
+51449360f51e9c6aa87979667fd4d21f8e162d68,2023-11-30 20:08:27,Kendell R,fix(cleanupIds): properly handle begin regex to fix #1775 (#1862),False
+f0ec586991e9b63c25360f8fb931993a3881dfb8,2023-11-29 06:33:49,Vincent Bernat,fix(removeEmptyContainers): don't remove empty containers if parent is switch (#1747),False
+8dd7a3b2fcecf538f3d7bd755f5dd7e31d3d8a91,2023-11-29 06:09:08,Kendell R,fix(convertPathData): handle setting prev properly to fix path joining and #1855 (#1856),False
+86d50403824180701efcc6ba4a8f8c01354381d0,2023-11-28 07:31:20,Kendell R,fix(convertPathData): account for error in z conversions (#1842),False
+3f2bcb48d5395ef8fbf1fc5e2c314f4484e4de77,2023-11-27 19:54:58,Gordon Franke,fix: output profit in red if file size increased (#1162),False
+4d15ef2be95548c1d8b2c719d0706f8f1f2f7d26,2023-11-27 05:08:52,Sebastian Krah,fix: use .d.ts file extension for type definitions (#1780),False
+25dc073ed3f424d82c5002012c8f88971643cc25,2023-11-27 04:56:10,nuintun,feat: improve loadConfig types (#1844),False
+e22d533be87fa031730bffc33af1c7c235ab0597,2023-11-27 02:25:35,Seth Falco,fix(removeHiddenElems): remove hidden definitions usage (#1852),False
+7e259a2b92000af2092d3e408ca09f50e514f876,2023-11-26 21:18:16,Seth Falco,ci: run tests on windows (#1853),False
+8879fcbbabdc31faa40ca47a3e78a8f821bc4563,2023-11-26 20:57:28,johnkenny54,test: fix crlf unit tests (#1850),False
+ee0a0f5130b0c1f1839613269543e7af3eacbeb1,2023-11-18 23:49:25,Seth Falco,docs(removeXlink): add tip to run plugin last (#1840),False
+bf5cf1fadd5b30dd11b90c2dc18ac35a2b0d6a17,2023-11-18 23:16:29,Seth Falco,docs: add params section to remove xlink docs (#1839),False
+9fca7be55150919110cb9059bc6ebef92d5cb09d,2023-11-18 21:59:20,Bogdan Chadkin,feat(removeXlink): new plugin to map xlink attrs to svg 2,False
+9a20ad25621abcd72c5e83323142c4593f4062cd,2023-11-15 15:40:15,Seth Falco,chore: add contribution guide (#1837),False
+9809b67852bbe582ecfb0dd76d25eae465a6b7aa,2023-11-15 00:31:39,Seth Falco,fix(inlineStyles): dont remove id if traversed in another selector (#1836),False
+0e5f0f104d742c64acd54235eeb90c5e354c650f,2023-11-14 21:38:19,Seth Falco,chore: revamp readme (#1835),False
+7d481acfeacf07febfa9fa97f5e1fe487ad2ebf2,2023-11-13 20:42:40,Seth Falco,test: enable regression test that now passes (#1833),False
+b740c0769500353eb3b8685042c4ffc9804fb804,2023-11-13 20:23:30,Seth Falco,fix(inlineStyles): dont remove wrapper class if traversed (#1832),False
+7e25b62fa7b4295f592fb1301392f28fbbb7dcd9,2023-11-12 23:41:46,Seth Falco,fix(inlineStyles): inline styles in order of priority (#1831),False
+1f766ac5093cbd4368a715e894e4d61ab050c53f,2023-11-12 20:24:55,Seth Falco,fix(convertPathData): skip if transform overridden in styles (#1830),False
+14bdacc2dfb94e4f0cd92e2fc468645659db9e6a,2023-11-12 19:22:01,Kendell R,feat(convertPathData): replace with z and remove z when optimal (#1822),False
+a9df915d1d565ba96e8ddcb54e430fddf5dda144,2023-11-12 17:26:39,Seth Falco,"fix: dont trim pre elements (#1796)
+
+Includes pre in the array of text elements in _collections.js so that we don't trim whitespace on them, which effects rendering.",False
+4c2cc1bbdba714df7a45ce3fe3de957d463a98bc,2023-11-11 18:13:13,Seth Falco,"feat(inlineStyles): remove redundant presentation attrs (#1829)
+
+SVGs can have the same presentation attribute declared redundantly in
+both the node attributes and `<style>` tag.
+
+This wouldn't break anything, but we can shave off a few more bytes by
+dropping the attribute in this case.",False
+742cee1910e0ff8a0de4ff7cf7656d96ce6a77d4,2023-11-09 21:27:46,Seth Falco,ci: use and run tests for node 20 (#1827),False
+6d2648258382d745f2b755f83df5b73538cba934,2023-11-09 20:49:31,Seth Falco,"fix: skip keyframes with webkit prefix (#1826)
+
+If an SVG features `keyframes` with the `-webkit` prefix, it would throw
+an error before. This will treat them the same as regular `keyframes`.",False
+96fedb4855969c0862ab1a9b0cb840ce9efafde3,2023-11-08 21:30:36,Seth Falco,"chore: change link to homepage in package.json (#1824)
+
+Change the link of the homepage from this Git repository (which is
+already documented in `bugs` and `repository` to a link to the
+documentation.",False
+43df633348e712db4862012c7f3412c235b8003a,2023-11-08 05:13:09,Seth Falco,docs: add documentation for all commands (#1808),False
+5aad38bcc730d8a4257f8c69c0a8f1349e5a3a66,2023-11-08 04:50:48,Seth Falco,"fix(inlineStyles): empty css block created empty attribute (#1823)
+
+When running this plugin on an SVG with an empty block in the CSS, it
+would apply it to the matched elements by adding an empty `style`
+attribute. See the test for an example.
+
+This resolves that by just dropping the declaration if it's empty.",False
+07c09199ed3de3955b64adf15a1046d4b786238e,2023-11-04 20:47:15,Seth Falco,fix: remove hrefs for unconventional namespaces (#1820),False
+e21e56060b6290b8a579f55ed46ce644f5a6cfc4,2023-11-04 19:37:29,Seth Falco,"feat(removeScriptElement): add all known event types (#1819)
+
+Update the list of event attributes to include everything listed on MDN.",False
+e73ee2de96d79b1956f971750e6f62ee7dcbe94b,2023-11-04 19:12:07,Seth Falco,fix(removeScriptElement): collapse a tag propertly (#1818),False
+1df2e0fa395d9c0999e066a751d04a6dc5b82ce2,2023-11-04 18:26:20,Seth Falco,"fix(cleanupIds): skip generated ids for malformed references (#1817)
+
+I also had some chores pending which were trivial individually, I opted
+to incorporate them here as well.
+
+* In JSDocs, use the nullable syntax as it's more concise and familiar
+from TypeScript usage.
+* discord → Discord (proper nouns should match capitalization)
+* Use actions/checkout v4 instead of v2",False
+a880505859db8db556f2f920b89a026a0e3c2dff,2023-10-29 20:16:55,Seth Falco,fix(removeScriptElement): remove link anchors with scripts (#1807),False
+7de793c54ab75eebe3b474e9ee646a2f07489f03,2023-10-27 22:33:50,Seth Falco,"fix(removeComments): make preserving comments a param (#1812)
+
+Converts the hard-coded exception to a param so users can override this
+behavior to preserve custom patterns or drop the logic altogether.",False
+bf45a0225ab04875497f1fb1534e907be74baf1f,2023-10-25 17:24:02,Seth Falco,"fix(prefixIds): dynamic functions should produce same prefix for given id (#1814)
+
+Reuse the same prefix if an ID is encountered multiple times.",False
+d4f0de0f5c39e456de8ed6b4da2310040adc8402,2023-10-24 15:19:16,Tanya Bouman,README: image-webpack-loader -> image-minimizer-webpack-plugin (#1771),False
+999b2a17e07a5bda77416226d1f9681fe51e7a1c,2023-10-23 15:19:54,Lehoczky Zoltán,chore: update postcss-svgo link (#1770),False
+e56a3382340b5ad8ab4579a801ba2bead2db28b3,2023-10-22 21:59:55,Seth Falco,"deps: update @babel/traverse (#1813)
+
+Updates a vulnerable dependency, only impacting dev and CI.",False
+c51dcfa6bb3fa9ea0022b5a79c5ed3142e288412,2023-10-22 18:41:34,Seth Falco,"fix: warn and do not crash on null plugin (#1803)
+
+If we received null/undefined/empty plugins, instead of crashing, log a
+warning and ignore them.",False
+6eac770ba5f883186e56a5537fa2999c7617eea6,2023-10-22 18:23:39,Seth Falco,"feat: convert one stop gradients plugin (#1790)
+
+Detects if a redundant linearGradient or radialGradient is used with
+only a single stop, which effectively means a solid color.
+
+If this is found, just remove the gradient and replace references to it
+with the color of the first and only stop defined.",False
+3966c10565d4dadba4368988c90d088c29c02cf0,2023-10-22 15:28:03,Seth Falco,"refactor: create hasScripts util (#1809)
+
+Introduces a hasScript utility which can be reused to consistently check for scripts, whereas before different plugins performed this check differently.",False
+e529c6674d5453a693161bf2986028facf3d5308,2023-10-04 16:15:06,Seth Falco,"fix(removeDesc): removeAny should be disabled by default (#1806)
+
+As the description of the plugin states, it should only remove the
+description if we can see it's just editor attribution, since this
+element is used for accessibility.
+
+In general, accessibility is more important than optimizations, so while
+I could update the documentation to reflect this behavior, I believe the
+default should be changed back.",False
+027e110f9d159855a0bd67705d570f5a778d7e83,2023-09-27 22:15:32,Seth Falco,chore: increment patch version (#1804),False
+02c7a78536e115e401d90fe25d5b73a6ccb03785,2023-09-27 21:50:10,Seth Falco,"fix(convertTransform): do not add redundant space between functions (#1802)
+
+The space is optional between transform functions in the `transform`
+attribute and similar properties. This just omits the space as a
+micro-optimization.
+
+This does not add new tests is the scenario is covered adequately in
+existing tests.
+
+Also refactors js2transform to avoid concatenating in a loop.",False
+2539b9f4c65af9aa4a72abac0b06db784388adbf,2023-09-27 21:49:46,Seth Falco,"fix(inlineStyles): remove all classes in multiclass selector (#1801)
+
+When running into a multi-class selector with `inlineStyles`, it would
+only remove the first class of the selector instead of all of them.
+
+This iterates the classes in the selector instead of only taking the
+first. Also performs some minor refactors.",False
+b15da27af4832bbe9efbec2bef03eff0c0ed110d,2023-09-26 03:43:54,Seth Falco,fix(minifyStyles): pass empty arrays for usage (#1800),False
+197be56958fe13881754bc26114f76feb643e00d,2023-09-26 02:02:55,Seth Falco,"deps: update deps based on dependabot alerts (#1799)
+
+* Deduplicate dependencies in our `yarn.lock` file with `yarn dedupe`.
+* Upgrade dependencies with Dependabot alerts with `yarn up -R {}`.
+
+This only impacted devDependencies, and does nothing to our tests or
+bundle sizes, etc.",False
+9a83ed43a25a572cd0a96c68ff162e3f96a40dc0,2023-09-26 00:34:21,Alex,"GitHub Workflows security hardening (#1724)
+
+Signed-off-by: Alex <aleksandrosansan@gmail.com>",False
+7e99c0bd492f9cefd6ca5e7bbf84c618d9e87647,2023-09-25 23:35:11,Seth Falco,"fix(inlineStyles): case insensitive style props (#1797)
+
+Style property names are case-insensitive, for example `fill`, `FILL`,
+and `FiLl` are all valid but refer to the same property. So when
+inlining styles, we compare the lowercase strings and only use the last
+instance of the property rather than embed them all.",False
+42f7752db1c92e38341d373ad6dc7bd5761bfd65,2023-09-25 23:34:31,Seth Falco,fix(cleanupIds): handle when 2 ids referenced in one attr (#1795),False
+f07e9de0892b1294cf2eceeb4818247382619bf3,2023-09-25 23:34:06,Seth Falco,fix: resolve regression test for removeHiddenElems (#1793),False
+078a09c19a81b324536e3ea6a1f13c0cf10790fc,2023-09-25 23:33:42,Seth Falco,"fix(reusePaths): pass test-regression task (#1791)
+
+Signed-off-by: Seth Falco <seth@falco.fun>",False
+82593c6134e29a3b6195b48eb3e4d5046de4bee9,2023-09-24 22:20:38,Seth Falco,test: update jest (#1792),False
+437c09b006e058d200f2b74121bab65d9b7598ab,2023-09-24 18:02:13,Abe Fehr,"Add support for image/jpeg mimetype (#1742)
+
+In practice, this plugin does not work to remove embedded jpg images.
+
+On further inspection, it's because the plugin is looking for
+image/jpg, which I'm not even sure is a valid mimetype. Inkscape uses
+image/jpeg as the mimetype for embedded JPG images.
+
+Co-authored-by: Seth Falco <seth@falco.fun>",False
+bd750ceebb9008ecc0ed1e541ee9005f6af26302,2023-09-24 02:17:04,Seth Falco,"fix(reusePaths): dont reuse id if referenced in href (#1784)
+
+Fixes a bug where the reusePaths plugin would reuse the node ID that
+it's optimizing, but that ID was also referenced in a href elsewhere
+in the document, so it unintentionally applied the path to other nodes.",False
+5f40d8bce4b00feaa21f44911543371d37760f43,2023-09-24 02:07:04,Seth Falco,fix(reusePaths): reuse defs tag if exists and remove redundant nodes (#1785),False
+9f7894d7e9d2d53450b4a392196b19f98c902988,2023-09-23 21:27:42,Seth Falco,"test: add check for keyframe selector to (#1783)
+
+Adds test for issue reported regarding keyframe selectors.",False
+59ab80eed22acd5db7f981161b1d8b5da3430483,2023-09-23 12:17:30,Seth Falco,"test: fix regression testing action (#1788)
+
+The regression-test GitHub Action was failing for all pull requests due
+to not handling the gzipped archive properly.
+
+This resolved it by piping the response body to zlib#createGunzip
+first. Also updates the relevant dependencies.
+
+Signed-off-by: Seth Falco <seth@falco.fun>
+Co-authored-by: strarsis <strarsis@gmail.com>
+Co-authored-by: Bogdan Chadkin <trysound@yandex.ru>",False
+73f7002ab614554446e26acf1552c2505448b96f,2023-02-16 04:01:28,ADTC,"Refactor README to be easier to read through (#1731)
+
+Preview: https://github.com/ADTC/svgo/blob/patch-1/README.md
+
+* Split up code blocks by moving text outside them. (This also ensures
+that the Copy function makes sense. _See screenshot:_)
+* <img width=""380"" alt=""image""
+src=""https://user-images.githubusercontent.com/6047296/211246090-64749e5f-3f1e-413b-be39-a99fa2f1b425.png"">
+* Remove the redundant list of default plugins and refer to the table
+instead.
+* Sort the table of plugins alphabetically. (It's easier to scan for a
+plugin.)
+  * _I suggest maintaining the sort when adding new items._
+* Replace the enabled/disabled code in Default column with just Yes or
+blank.
+* Tabulate the ""Other ways to use"" section and remove redundant ""as
+a/an"".
+* Correct the word Donators to Donors.
+* Add a new section called _Troubleshooting_.",False
+aa5d667fcb5a33be9e51f958bcd20d2b719f8345,2022-11-30 14:23:51,Marvin Hagemeister,"Speed up stringifyNumber (#1717)
+
+I'm currently profiling my build setup and noticed that
+`stringifyNumber` pops up here and there. Instead of going with the
+double regex replace approach, we'll go with the faster approach in
+`removeLeadingZero`.
+
+In total the changes in this PR speed up the build by about `0.9s` in my
+project.
+
+<img width=""798"" alt=""stringifyNumber""
+src=""https://user-images.githubusercontent.com/1062408/204154146-ce67d0c9-faf2-40a1-8186-8d34caea74a5.png"">",False
+c641da273415e22da190c2a924981405a91ecff6,2022-11-30 14:23:39,Marvin Hagemeister,"Speed up strongRound by avoiding string casting (#1716)
+
+I'm currently profiling my build pipeline and noticed that the
+`strongRound` function showed up a couple of times, followed immediately
+with a bit of GC cleanup shortly after. We can speed up that function by
+avoiding the string casting caused by `Number.prototype.toFixed()`.
+
+In my project's build pipeline with lots of svg icons this saves about
+1.4s in total.
+
+<img width=""792"" alt=""js-tools-strongRound""
+src=""https://user-images.githubusercontent.com/1062408/204393563-666be3e0-e0ee-4608-9b7d-9ea8352bd36b.png"">",False
+ae32acf5144be318872a45f49b3ece50c0a4cb18,2022-11-18 22:16:18,Bogdan Chadkin,3.0.2,False
+2f8adced74c7fcdc03cbec99b9907682662d8604,2022-11-18 14:30:54,Bogdan Chadkin,Upgrade css-tree types,False
+2260aab8c1e9d554aa0680b279c261eac3793443,2022-11-18 14:26:38,Bogdan Chadkin,Remove csso types from definitions,False
+da8840c0e18534f4ecf88c358054df7f70164df4,2022-11-11 15:51:59,Bogdan Chadkin,v3.0.1,False
+8dda989fadc2b78b6941265bb3362d3a97c95d25,2022-11-11 15:48:48,Bogdan Chadkin,Revert version plugin,False
+0f8aa5dffa3b6f429df54f804386fa0d2da52420,2022-11-11 15:45:52,Bogdan Chadkin,Add version plugin to yarn,False
+216082c591f95a97b96a68c93c41ad29272c0644,2022-11-11 15:41:54,Bogdan Chadkin,Remove unused json plugin,False
+dd70f34b6778f68285df25be8738e6be0acdeb47,2022-11-11 15:27:15,Andrew,"fix: begin's attribute incorrectly modification (#1658)
+
+Co-authored-by: Andrey Nelyubin <nelyubin_a_a@sunlight.net>",False
+422fa142f24adbd12a89623e8b3dfffc2976e4e7,2022-11-11 15:20:33,Bogdan Chadkin,Reuse plugin types for config,False
+e2e65cfc1e674914277e3193a8d291c994942b1b,2022-11-11 14:49:38,Bogdan Chadkin,Move plugin types into d.ts,False
+a40fa216b67d297e84ab8017bf4b45b4a0001223,2022-10-23 19:33:45,Bogdan Chadkin,3.0.0,False
+cb1569b2215dda19b0d4b046842344218fd31f06,2022-10-23 19:23:49,Bogdan Chadkin,Update readme,False
+6295c60fbfcc8325bf8c089ecd27cad7e5567f3d,2022-10-23 14:24:48,Bogdan Chadkin,Rename cleanupIDs to cleanupIds for consistency with prefixIds,False
+bc07c483c3b986c66834b5fe019bb75597dd45ab,2022-10-23 14:10:48,Bogdan Chadkin,Remove prefix param from cleanupIDs plugin,False
+53ed57c7e1e84a4ced57ee972001aeb34d9015a4,2022-10-17 02:40:39,Bogdan Chadkin,Expose typescript types,False
+f5d1dd06cc88d952b2a458d46c7d084c6c002c47,2022-10-16 17:23:04,Bogdan Chadkin,Loosly cover with types convertPathData,False
+5857816a5aef5d6133f81c8c1e02dab5cfd8b4d3,2022-10-10 04:02:12,Bogdan Chadkin,Remove result.info.width and result.info.height,False
+420ae9d8a1ea55c1c1bbf86c404434aabfb0ac62,2022-10-10 03:03:19,Bogdan Chadkin,Throw SvgoParserError,False
+dd9cad1cf9c128f32368da68371a94af706427ec,2022-10-09 19:59:11,Bogdan Chadkin,Add sortAttrs to default preset,False
+e6bd703b0ad6b93ebcdbbb152d53f3ce9a8c1f5d,2022-10-09 02:09:58,Bogdan Chadkin,Remove unused active and type fields from plugins,False
+f649eabf6df11f9e9318a4a27b4df8df39b280a7,2022-10-08 22:12:29,Bogdan Chadkin,Remove active flag in plugin config,False
+2d1c12c754ee9ba7410d9b2136a7f2df4c35622e,2022-10-08 21:46:18,Bogdan Chadkin,Remove returning ast from invoker,False
+12272958dbad75f46642fd24df2f27b97be12978,2022-10-08 17:27:57,Bogdan Chadkin,Upgrade csso and csstree,False
+075ab164f66f3f68d4d179b598be808709d37163,2022-10-03 01:28:02,Bogdan Chadkin,Store builtin plugins as an array,False
+954faf3c87de75d3b3285e834659bf7f27759daa,2022-10-02 22:13:06,Bogdan Chadkin,Remove default plugin.params support,False
+97553d83b6c075097839ad9bc6224e94c48cf1e9,2022-10-02 17:36:45,Bogdan Chadkin,Replace list of default plugins with default preset,False
+de5d68201bdcb3555e4841e51085d99d66692050,2022-10-02 17:23:34,Bogdan Chadkin,"Drop full, perItem and perItemReverse plugin types",False
+acf103251cc9ff933bc7fe2db23d7250f7d14f13,2022-10-02 15:45:29,Bogdan Chadkin,Fix encode without multipass,False
+d5a85557818ee809e682d8907baf27c4d61693b3,2022-10-02 14:45:41,Bogdan Chadkin,Drop node 10 require fallback when load config,False
+516c6e1fc1ee5bd32ba205e95fe6dab468667034,2022-10-02 14:30:44,Bogdan Chadkin,Drop createContentItem from public api and JSAPI node wrappers,False
+50e836d5a4312f4e23acb269a4a6cea6cc65268d,2022-10-02 13:40:45,Bogdan Chadkin,Drop class list handler,False
+be458216a43c0a84b4da2036b5b25103942ab38f,2022-10-02 12:25:08,Bogdan Chadkin,Drop all unused jsapi methods and fields,False
+783583538fc626fd233a466572147141a573f74a,2022-10-02 02:54:43,Bogdan Chadkin,Drop legacy JSAPI style handler,False
+bb590b8928b26e9cc750f5887270c1fe138ba0f9,2022-10-02 02:47:16,Bogdan Chadkin,Drop extendDefaultPlugins,False
+2ea65860f01d4ad6f1f56bee484015c615cb5f9e,2022-10-01 23:51:09,Raphael Boidol,Remove `stable` package in favor of native stable sort (#1681),False
+fdc9ceb91476b055c7b07f3b410c0a5de0b3b449,2022-10-01 19:03:51,Bogdan Chadkin,Upgrade to css-select 5,False
+b0d19ebd1b8a77c20839c7de54734eec919a0128,2022-10-01 18:57:41,Bogdan Chadkin,Update snapshot format,False
+5fa6bf0e21772b9d36663c7a27f6fd51885915a9,2022-10-01 18:38:01,Bogdan Chadkin,Upgrade checks,False
+4769027865d89a99b179e8b88db9f41a3b1c1fff,2022-10-01 18:30:07,Bogdan Chadkin,Upgrade build,False
+ce21f9b54ab78b3f00ddb1b3275fe60bde6e88c4,2022-10-01 18:17:29,Bogdan Chadkin,Upgrade to yarn 3,False
+07588be807ebdb0c786fad7a0bfed414310675b1,2022-10-01 18:12:02,Bogdan Chadkin,Require node 14+,False
+256bc5b2f9591d47fcdff9e1999c41a18a7219e3,2022-10-01 15:44:46,Randall Hunt,missing closing quote on plugin-api doc (#1685),False
+a9834efa1603198ae606765292215462ae193d0d,2022-03-15 19:07:10,Álvaro Mondéjar,Add `funding` key to package.json (#1662),False
+d2785ae70750fb6e344254bebe3c2e163db0a0e1,2022-02-17 19:03:13,Andreas Deininger,README.md: fix broken image link (#1653),False
+1b88baa123d9878c5b7de5bdc5350e1d7160cf35,2022-02-07 14:52:14,Liam Mitchell,"More helpful preset warnings (#1645)
+
+* More helpful preset warnings
+
+* Optimise",False
+da1d761b53c97cd7053b5370cb32c30e7e4978d4,2022-01-22 02:42:52,Bogdan Chadkin,"Refactor removeDimensions and removeXMLNS (#1640)
+
+Migrated both to visitor api and tsdoc",False
+238d3bf6001f6e755d50ff9903384693b594f700,2022-01-20 13:25:01,Bogdan Chadkin,"Refactor convertStyleToAttrs (#1635)
+
+Did not rewrite much, just migrated to tsdoc and visitor plugin api.
+This plugin will be obsolete eventually.",False
+aaf1cfa5e7647d68a14c62ffbc14574b1c7ed3ec,2022-01-19 23:12:13,Bogdan Chadkin,"Refactor removeNonInheritableGroupAttrs and moveGroupAttrsToElems (#1636)
+
+Batched in one PR. Pretty simple changes. Just migrated to api and
+added more safety checks for types.",False
+068db0e89449fd3ddc495c180da7269aefe61e5a,2022-01-19 23:11:10,Bogdan Chadkin,"Refactor applyTransforms (#1637)
+
+- applyTransforms is prepared to be a separate plugin, in v3 I will
+  remove it from convertPathData
+- migrated to tsdoc
+- removed optimisation with stroke-width inside id (still not idea how
+  it worked)
+- added deoptimisation when id is on element to fix redefining in `<use>`
+
+Note: review with hidden whitespaces",False
+bbc6baca78e598c644dedb7ea4df6245ca97d31e,2022-01-09 16:57:04,Bogdan Chadkin,"Plugin definitive guide (#1624)
+
+This is just initial thoughts. Feel free to suggest any changes.
+
+Here are described only the new visitor plugins api. Old ""full"", ""perItem"", ""perItemReverse"" will be removed in v3. Old JSAPI class on every node will be also removed so nodes could be plain objects.",False
+590b6b42051a7314eb3a239a1f71741f05b898ff,2022-01-09 16:50:31,Bogdan Chadkin,Fix branch name in workflow,False
+04abd6fc59eb55263f32635b661db702cf652e99,2021-12-28 18:45:55,Rogier Slag,Correct typo in comment in removeDimensions plugin (#1633),False
+dfc5b982c952094ed07dcaebcf04a5ac00052bc8,2021-12-25 17:39:34,Bogdan Chadkin,Rename master branch to main,False
+700f2031699e35da29efc19da74b8765aea127e6,2021-12-25 17:33:29,Bogdan Chadkin,Fix newline in tests,False
+8ae65b72821ea1b02660a460fd977fd64f53db6d,2021-12-25 17:15:15,Bogdan Chadkin,"Improve configuration documentation
+
+See https://github.com/svg/svgo/pull/1619
+
+Thanks to @hugolpz",False
+3a1c509b74cafa37e2e136c36b39425ca777c7ce,2021-12-23 16:46:48,Kris Kowal,Fix extra newline at end of -o - output (#1237),False
+79d4babcaf2f70320582b36536b7b2a5f86d120c,2021-12-07 13:35:15,Bogdan Chadkin,"Replace closestByName utility with visitSkip (#1613)
+
+The last usage of closestByName utility based on node.parentNode
+is removed here. One step closer to clean ast in v3.",False
+656bb09ccd3acab960c2ced3298e2a961cb642cb,2021-12-07 13:06:07,Lopez Hugo,"Shorter commands section (#1620)
+
+In code short comments allows more concise tutorials.",False
+b37d90e12a87312bba87a6c52780884e6e595e23,2021-11-02 13:24:54,Bogdan Chadkin,2.8.0,False
+cb7e9be623b6e2fbbfcb9b67c4c85131e1477925,2021-11-02 13:03:46,Bogdan Chadkin,Add warning about enabling plugins in presets,False
+5165ccb9d1f116b26a30a020e65aadd666012cb1,2021-11-02 12:59:48,Bogdan Chadkin,Make docs more descriptive,False
+72b972261d03f0c40315cd6b9325100d7305a5d6,2021-10-30 04:01:52,Bogdan Chadkin,"Refactor inlineStyles (#1601)
+
+This is a big one
+
+- got rid from another closestByName usage
+- delegated removing empty defs elements to removeEmptyContainers plugin
+- got rid from all css-tools usages (most inlineStyles code was there
+  for some reason)
+- combined a few loops
+- fixed useMqs option (I would remove it in v3 for simplicity as it
+  seems nobody use it)",False
+c7995035efc2a5c11fabd1f53f990e954c64cb09,2021-10-30 04:01:36,Bogdan Chadkin,"Load .cjs with require only (#1605)
+
+Ref https://github.com/svg/svgo/issues/1596
+
+At the moment dynamic import may randomly fail with segfault.
+To workaround this for some users .cjs extension is loaded
+exclusively with require.",False
+4b4391fbe36c7844535a42b79775d671683da87d,2021-10-15 15:04:24,Bogdan Chadkin,"Refactor basic cli tests (#1595)
+
+Moved some tests to cli.test.js and got rid from mock-stdin dependency.",False
+2d6deeaf219edacbad9cf362a67fc65456486040,2021-10-15 14:46:08,Devon Govett,"Remove xmlns:xlink in removeXMLNS plugin (#1508)
+
+xmlns:xlink is also not required in SVGs embedded in HTML",False
+d29cec48e3f540bad8a20dbd68a2b9bd600a369d,2021-10-15 14:39:54,Bogdan Chadkin,"Migrate to picocolors (#1606)
+
+Ref https://github.com/ai/nanocolors#nano-colors
+
+Nanocolors is deprecated in favour of picocolors to avoid drama.
+All dependencies already migrated. Also fixed one vulnerability.
+
+The main change is step away from named exports and dual modules
+support in favour of smaller package.",False
+4166c32eb8b0dbf09ab921b9e31ac3f8e02650fd,2021-10-15 14:31:04,Bogdan Chadkin,"Migrate to simple yarn cache (#1608)
+
+Good advice https://twitter.com/sitnikcode/status/1448634966326325255",False
+4377ea38c419fba373acef2eb56f6f7a21a77dda,2021-10-07 16:37:06,Bogdan Chadkin,"Refactor removeEmptyAttrs (#1594)
+
+- migrated to visitor plugin api
+- covered with tsdoc",False
+65b6bf4c16a8c0a0faa1dac24157a746857f5cd7,2021-10-07 16:36:55,Bogdan Chadkin,"Refactor svg stringifier (#1593)
+
+- rewrote prototype class with functions
+- covered with tsdoc
+- added a few TODOs for v3",False
+5fb42ab47a6853bf5a2329715c522abd902423c2,2021-10-05 18:36:12,Bogdan Chadkin,"Migrate to yarn 2 (#1602)
+
+Yarn supports windows with custom shell, has better tools for
+dependencies upgrade and more readable lockfile.
+
+Migrated with preserving lockfile data.",False
+7601b17ab5a35b4a51a894cd5934a3527734e76f,2021-10-01 17:14:17,Bogdan Chadkin,Rename js2svg to stringifier,False
+6235264cf30d173ffaad0c393e680e26a3206f29,2021-09-30 17:10:40,Ilya Skriblovsky,"Fix prefixIds plugin to properly handle url()s in style=""..."" (#1592)
+
+
+`prefixIds` plugin currently breaks url()-links inside `style` attributes:
+
+```javascript
+optimize(
+  `<g style=""fill:url(#brush-id);stroke:url(#pen-id)""/>`,
+  { plugins: ['prefixIds'] }
+).data
+```
+will generate `<g style=""""/>`. Seems like `prefixIds` assumes that attribute's whole value might be `url()`, but this is not the case for the `style` attribute.
+
+This fix solves the issue by preserving all attribute's content other than #id inside url(). It also adds some more tests for the `prefixIds` plugin.",False
+203db9aaec248c5041290a20847a6b8c251c6846,2021-09-30 17:09:12,Bogdan Chadkin,"Replace strip-ansi with --no-color flag (#1588)
+
+nanocolors checks for --color and --no-color flags to force or disable
+output coloring. Which can be used instead of strip-ansi package which
+btw introduced vulnerability recently.",False
+acd91835f5dc554d76ce0cf16f88aca842f24a93,2021-09-24 02:48:26,Bogdan Chadkin,2.7.0,False
+543346ca9718c9bb4aaf0261a982615f91a3c169,2021-09-24 00:22:46,Bogdan Chadkin,"Refactor moveElemsAttrsToGroup (#1574)
+
+- migrated to visitor plugin api
+- covered with tsdoc
+- added more test cases
+- restructured and simplified code",False
+9ebff13725d716fdbf8bbaa266f34de1cd20c499,2021-09-24 00:18:54,Bogdan Chadkin,"Refactor mergeStyles (#1575)
+
+- covered with tsdoc
+- replace another closestByName usage with visitSkip symbol to skip
+  subtree instead of skipping element by ancestor
+
+Better review with hidden whitespaces as most code just got bigger indent.",False
+8af10de8d440a4bfdeffeadcba6a34bed615b25c,2021-09-24 00:18:14,Samuel Vaillant,fix(plugin): removeAttrs: warn without attrs (#1582),False
+6e23b9cf562b40290e87105eb98e291a2c364bb0,2021-09-24 00:15:22,Bogdan Chadkin,"Cover svg parser with tsdoc (#1584)
+
+Moved to lib/parser.js. The code will be slightly simpler
+when JSAPI will be removed in v3.",False
+7111c52f9609bb91c2338ffcd703bedd2a22b30e,2021-09-24 00:14:55,Bogdan Chadkin,"Support es modules (#1583)
+
+Ref https://github.com/svg/svgo/issues/1579
+
+In config of course. Projects with type:module can now use modules to
+export config
+
+```js
+export default {
+  plugins: []
+}
+```
+
+Also added support for resolving svgo.config.mjs and svgo.config.cjs.
+
+Moved loadConfig tests to svgo-node tests.
+
+mjs test is skipped for now in node 10, just don't use modules there",False
+4c6a091a9026a6fdd0e67728e7bf7532e4b525dd,2021-09-24 00:14:40,Bogdan Chadkin,"Replace colorette with nanocolors (#1586)
+
+Ref https://github.com/ai/nanocolors
+
+Nanocolors is the new player in color libraries. And it's perfectly
+packaged as all @ai packages. Colorette is already replaced even
+in transitive dependencies.",False
+08373acf22370406aa03d49033d961629bc924ef,2021-09-21 22:07:04,Ziding Zhang,"Create SECURITY.md (#1580)
+
+To verify that the repository authorises trysound@yandex.ru as its security contact.",False
+79ceb09dafc0ee2dc88482f3a875cd5e4b264741,2021-09-21 21:41:53,Bogdan Chadkin,"Avoid node.parentNode in style manager (#1576)
+
+node.parentNode will be removed in v3 along with JSAPI class wrapper on
+each node.
+
+Style manager uses it to find inherited styles. To workaround this
+I collected all parents along with all styles. This constraints style
+manager to work only with initial ast which should not be a problem as
+each plagin execution is isolated.",False
+e3c687324338be8d793177e0854d0a935e221191,2021-09-16 04:21:08,Bogdan Chadkin,"Refactor collapseGroups (#1572)
+
+- migrated to visitor plugin api
+- covered with tsdoc
+
+Part of the code is still complicated. Will come to it eventually.",False
+4e7b903a2323b698795eb4056aa397fe6ed006c3,2021-09-16 01:37:41,Bogdan Chadkin,2.6.1,False
+1b56e70cc017df7fbd7243a5d57b04b02eab3d56,2021-09-16 01:25:19,Chris Wilkinson,Fix config type (#1573),False
+a0bf4f7ebfa560efe640d15c105f6a837d2df1eb,2021-09-14 20:33:50,Bogdan Chadkin,"Add missing filter primitives to collections (#1571)
+
+Ref https://github.com/svg/svgo/issues/1045#issuecomment-510208768
+
+This should prevent feDropShadow from removing.",False
+edbd4337531195984f6461d3685142b61a89d1a1,2021-09-14 20:33:29,Bogdan Chadkin,"Refactor removeEmptyContainers (#1570)
+
+- migrated to visitor plugin api
+- covered with tsdoc",False
+65b2a30954c43c6687a557bdbe4a089400d62f97,2021-09-13 23:20:58,Bogdan Chadkin,Upgrade to npm 7,False
+42f3f8c230cb2efbf75e026a3b68dc6a26f47eb9,2021-09-13 20:10:33,XhmikosR,"Update dependencies (#1569)
+
+* colorette    ^1.3.0  →   ^1.4.0
+* jest        ^27.1.1  →  ^27.2.0
+* node-fetch   ^2.6.1  →   ^2.6.2
+* prettier     ^2.3.2  →   ^2.4.0
+* typescript   ^4.4.2  →   ^4.4.3",False
+f602e10eb1277597e4405ac02cd9171c8c8fb75a,2021-09-13 19:29:05,Bogdan Chadkin,Pick from https://github.com/svg/svgo/pull/1567,False
+721a1e591da131affece29362cf7e7089b474904,2021-09-13 19:26:14,Bogdan Chadkin,2.6.0,False
+1c551a87c0f3fc9798dd87318ca431363e7db201,2021-09-13 18:46:56,Bogdan Chadkin,"Refactor sortAttrs plugin (#1564)
+
+- covered with tsdoc
+- migrated to visitor plugin api
+- slightly simplified (hope so) logic by avoiding loop over order array
+  in every compare function call
+- rewrote tests",False
+3d22a5b23d24a982580871621dc3dfc90ac2735c,2021-09-13 18:46:38,Bogdan Chadkin,"Refactor prefixIds (#1561)
+
+Ref https://github.com/svg/svgo/issues/1499
+
+- migrated to visitor plugin api
+- covered with tsdoc
+- made the plugin idempotent as requested a few times
+  Now even manually running svgo a few times will not duplicate
+  prefix in ids and classes
+- run each plugin test twice to see which plugin need to run many times
+  ideally idempotent plugins will allow to get rid of multipass option in v3",False
+23c7f48130adea2e8c1bd5f06d2fa6b295d48c40,2021-09-12 19:10:21,Bogdan Chadkin,"Move platform specific eol to svgo-node entry point (#1565)
+
+`os` package in js2svg module bothered me for a long time.
+We had to hack rollup to mock it for browser.
+
+Thanks to https://github.com/svg/svgo/pull/1546 we now can pass eol from
+svgo-node entry point and simplify build.",False
+1f5ea7e61019f36c3af9db6995942c3d164f0779,2021-09-12 16:46:28,Bogdan Chadkin,"Remove node 16 version fix (#1566)
+
+Looks like the bug with v8 internals was fixed.",False
+77102ed0963a5f1597e8072536311b55465e1874,2021-09-12 03:39:10,Bogdan Chadkin,"Add better parser errors (#1553)
+
+Old SVGO errors were not very helpful. Packages like cssnano
+(postcss-svgo) had to deal with a lot of issues which are hard to debug
+with old errors.
+
+```
+Error: Error in parsing SVG: Unquoted attribute value
+Line: 1
+Column: 29
+Char: 6
+File: input.svg
+```
+
+New errors are more informative and may solve many struggles
+
+```
+Error: SvgoParserError: input.svg:2:29: Unquoted attribute value
+
+  1 | <svg viewBox=""0 0 120 120"">
+> 2 |   <circle fill=""#ff0000"" cx=60.444444"" cy=""60"" r=""50""/>
+    |                             ^
+  3 | </svg>
+  4 |
+```",False
+e8321f0c27b563734d9c4d7240a1b5a0b904b4ec,2021-09-11 23:38:01,Adaline Valentina Simonian,"Allow choosing EOL and appending final newline (#1546)
+
+Addresses #951
+
+Adds the following options to js2svg and CLI:
+
+- eol — can be set to `lf` or `crlf`. If unspecified, js2svg uses the
+  platform EOL.
+- finalNewline — defaults to false. If true, js2svg ensures any SVG
+  output has a final newline.
+
+Tests added to cover both options.",False
+6eb4524aef02a7a59a2d2d26e3155a809d16a1ff,2021-09-10 23:00:34,Bogdan Chadkin,"Refactor removeUnusedNS plugin (#1559)
+
+- covered with types
+- migrated to visitor plugin api
+- dropped traverse utility which is replaced by visitor",False
+d9102930ca6dfabf2dea60038c9c868c5c91edb3,2021-09-10 22:17:15,Bogdan Chadkin,Fix CI,False
+f587aae1c2ad560f7de2e08f488c0d7de71c2cb7,2021-09-10 22:04:27,Bogdan Chadkin,"Refactor removeEditorsNSData (#1557)
+
+- covered with types
+- migrated to visitor plugin api
+- got rid from parseName utility in favour of simple string operations",False
+298820b8d9013827c215f4735ce75f3059953bc9,2021-09-05 20:05:37,Bogdan Chadkin,"Refactor cleanupIDs (#1556)
+
+I still did get how id generation works but data flow is clear now at
+least.
+
+- covered with types
+- migrated to visitor plugin api
+- got rid of traverse api",False
+107922405a11c0773ac3c9bdb6388fc2fca198cb,2021-09-05 20:05:11,Bogdan Chadkin,"Refactor minifyStyles plugin (#1552)
+
+- migrated to visitor plugin api
+- covered with types
+- get rid from ""traverse"" usage
+
+Splitted the work to collecting and modifying when root exit.",False
+93143f32c1ff580416000fbacb7412599b377ea4,2021-09-05 20:04:13,Bogdan Chadkin,"Refactor removeUselessStrokeAndFill (#1549)
+
+The logic is a little messy. Will be better when we drop node 12 support
+and use optional chaining.
+
+- migrated to visitor plugin api
+- covered with types
+- get rid from patching params as plugin state
+- replaced many node.computedAttr() with style manager
+- enabled and fixed removeNone param test (was merged as muted back in 2017)
+- added ability to return null and not run visitor in plugins",False
+fab4b255c76ff7de5e651fd08ae39310e4d332d5,2021-09-03 23:27:01,Bogdan Chadkin,"Add xmlns:xlink in reusePaths plugin (#1555)
+
+Ref https://github.com/svg/svgo/issues/1200",False
+1e5236d8138a6ea2164a2b41c9744633bf580837,2021-09-01 18:17:04,Bogdan Chadkin,"Refactor reusePaths plugin (#1551)
+
+- migrated to visitor plugin api; combination of enter and exit helped
+  to fit into single traverse
+- got rid from the only node.clone() usage in the project so no need to
+  reimplement it
+- the logic is a bit simplified",False
+c80ffca0fb5c923f3cf8a91eb477a6d77f74925d,2021-09-01 18:16:49,XhmikosR,"Update devDependencies (#1550)
+
+* @rollup/plugin-commonjs      ^17.1.0  →  ^20.0.0
+* @rollup/plugin-node-resolve  ^11.2.1  →  ^13.0.4
+* jest                         ^27.0.6  →  ^27.1.0
+* playwright                   ^1.14.0  →  ^1.14.1
+* rollup                       ^2.56.2  →  ^2.56.3
+* typescript                    ^4.3.5  →   ^4.4.2",False
+cf03c2398d2f7cc5cda4a404edb2b44cd4fae710,2021-08-28 14:45:56,Bogdan Chadkin,2.5.0,False
+680e143daf622bc3ace9e0b82f626507caad0530,2021-08-28 02:09:51,Bogdan Chadkin,"Add transform-origin to presentation attributes
+
+Ref https://github.com/svg/svgo/issues/1475",False
+bc95263885af4938cabb8d7cb4eb146b5e5496a2,2021-08-28 01:32:28,Bogdan Chadkin,"Refactor removeUnknownsAndDefaults (#1548)
+
+- got rid from two computeAttr usages
+- got rid from node.parentNode usages
+- avoided mutating global _collections objects
+- refactored with visitor api
+- covered with types
+- skip whole foreignObject subtree not only its children",False
+5ad2d4a5f6172f8b49cd3d45ed3279c239926ede,2021-08-27 19:45:18,Bogdan Chadkin,"Refactor removeOffCanvasPaths plugin (#1545)
+
+- refactored with visitor plugin api
+- covered with types
+- replaced parentNode traverse with visitSkip symbol
+- replaced regex path parser with parsePathData
+- get rid from global state which lead test case to invalid state",False
+6002f0bf651ffb3f427e088c87692082aa751cce,2021-08-27 19:35:39,Bogdan Chadkin,Check types in path tests,False
+3ca57d1856b4d5963b4f9abd9ce3d8d0aac225be,2021-08-27 19:31:29,Bogdan Chadkin,"Add visitSkip symbol (#1547)
+
+This should help to avoid node.parentNode and closestByName
+in some cases by skiping visiting children of current node.
+
+Works only in `enter` listener.",False
+ac8edbaf4163fd7e0934b72175d60e71844d8cf9,2021-08-27 03:33:11,Bogdan Chadkin,"Fix applying transform to arc with zero radius
+
+Ref https://github.com/svg/svgo/issues/1500",False
+1b02799e18654048d9512f6b170c52946f5d565d,2021-08-25 23:22:31,Bogdan Chadkin,"Cover convertTransform plugin with types (#1542)
+
+In this diff covered convertTransform pluginn with types
+and got rid from global state which made data flow more complex and
+error prone.",False
+cce036f28541342804acb66cd7d96bfb259af2f4,2021-08-25 23:22:21,Bogdan Chadkin,"Refactor convertColors (#1543)
+
+- refactored with visitor plugin api
+- covered with types",False
+a228020329d0f6836c08034a09b5068bac217816,2021-08-25 23:22:07,Bogdan Chadkin,"Refactor defs plugins (#1544)
+
+Refactored and covered with types following plugins
+
+- removeUselessDefs
+- sortDefsChildren",False
+0ead871eeddc865fe0d9dfd9775f7e1a04dc63f3,2021-08-24 17:27:09,Bogdan Chadkin,"Cover with types numeric values plugins (#1541)
+
+- cleanupNumericValues
+- cleanupListOfValues",False
+4082eca762334623d87441360cf162ec1d664c3b,2021-08-24 16:50:23,Bogdan Chadkin,"Refactor cleanupEnableBackground with visitor plugin api (#1540)
+
+Slightly restructured plugin to do less work in case no filters used.",False
+a2331a5dee731766a9ac4f4b5774e0ffa26872a7,2021-08-24 16:11:26,Bogdan Chadkin,"removeViewBox and convertShapeToPath types and visitor (#1537)
+
+- added types to convertShapeToPath
+- refactored removeViewBox with visitor plugin api and got rid from one
+  closestByName usage",False
+74c383153ec593937368ff6a9bf366a008eaee14,2021-08-24 16:11:16,Bogdan Chadkin,"Cover mergePaths plugin with types (#1539)
+
+- covered mergePaths plugin
+- covered big path logic",False
+b359730219637d02ae116a9bb79801bbead0b6f7,2021-08-24 05:31:03,Bogdan Chadkin,Drop unused bézier utilities,False
+147d2dadd60c2354d24a656b7a2e4f7330c9dc73,2021-08-24 05:30:18,Bogdan Chadkin,Refactor convertRelativeToAbsolute,False
+539237ce8746c69299046751b7114103f6620b75,2021-08-24 02:31:18,Bogdan Chadkin,"Normalize path data structure (#1538)
+
+Use modern path data structure in all plugins.
+Will be easier to cover with types.",False
+ecf855db50e32c4b8171fe4ad76aacc6b9ef348a,2021-08-24 01:46:36,Oscar Busk,"Clarify how to enable/configure builtin plugins (#1531)
+
+I just spent quite a while trying to upgrade to svgo 2.3 because I was thinking that all the configuration I was passing to `extendDefaultPlugins()` previously should now be in `preset-default` overrides. 
+
+Just adding some examples of enabling other builtin plugins could clarify it? 
+
+Maybe I was just being stupid, but a thought :)
+
+Co-authored-by: Bogdan Chadkin <trysound@yandex.ru>",False
+6cb2f7034fb57ecf98348928e96e274f30ea16dd,2021-08-22 18:48:55,Bogdan Chadkin,"Drop node.style usages (#1534)
+
+Parsing inline styles with csstree in place is easier.
+Caching does not add much value here.",False
+98c023bdb09014ec95aba468e3e6c0f800a5a1ff,2021-08-21 22:12:32,Bogdan Chadkin,"Drop node.class usages (#1533)
+
+We are gonna remove everything outside of xast.
+Here's dropped class prop.",False
+e4918ccdd1a2b5831defe0f00c1286744b479448,2021-08-21 17:25:05,Bogdan Chadkin,"Covert removeHiddenElems with types (#1532)
+
+Covered removeHiddenElems plugin and big part of our code
+- path parser and stringifier
+- style manager",False
+1368f8dc93b668f269858336bd0747637be7988d,2021-08-16 01:25:29,Morgan Ney,Remove mention of deprecated extendDefaultPlugins. (#1529),False
+75ec2943b0ce1fa162232f291e7bfe194b76f62e,2021-08-15 16:27:58,XhmikosR,"Update minor and patch dependencies (#1528)
+
+* @rollup/plugin-node-resolve  ^11.2.0  →  ^11.2.1
+* @types/jest                  ^27.0.0  →  ^27.0.1
+* colorette                     ^1.2.2  →   ^1.3.0
+* commander                     ^7.1.0  →   ^7.2.0
+* css-tree                      ^1.1.2  →   ^1.1.3
+* eslint                       ^7.22.0  →  ^7.32.0
+* playwright                    ^1.9.2  →  ^1.14.0
+* prettier                      ^2.2.1  →   ^2.3.2
+* rollup                       ^2.42.1  →  ^2.56.2
+* typescript                    ^4.2.3  →   ^4.3.5",False
+9b8f13e91136bcab74843d3b8c8066a37ef31bb7,2021-08-15 16:22:41,Bogdan Chadkin,"Add plugin types (#1527)
+
+Covered following plugins
+- addAttributesToSVGElement.js 
+- addClassesToSVGElement.js 
+- cleanupAttrs.js 
+- convertEllipseToCircle.js 
+- removeAttributesBySelector.js 
+- removeAttrs.js 
+- removeComments.js 
+- removeDesc.js 
+- removeDoctype.js 
+- removeElementsByAttr.js 
+- removeEmptyText.js 
+- removeMetadata.js 
+- removeRasterImages.js 
+- removeScriptElement.js 
+- removeStyleElement.js 
+- removeTitle.js 
+- removeXMLProcInst.js",False
+7ec255719c95f4c08e4c9a1b993261535c88b837,2021-08-14 19:18:39,Bogdan Chadkin,"Refactor adhoc plugins with visitor api (#1526)
+
+- addAttributesToSVGElement
+- addClassesToSVGElement
+- removeAttributesBySelector
+- removeAttrs
+- removeElementsByAttr",False
+e6b441aca014dc3f7965cb8ed1b3966f14f41d56,2021-08-14 19:18:32,Bogdan Chadkin,"Convert cleanupListOfValues and cleanupNumericValues to visitor (#1521)
+
+SLightly refactored",False
+7b6e73048fe12af61c550ba2b87691da7cfcf0bd,2021-08-14 15:42:23,XhmikosR,moveElemsAttrsToGroup.js: fix missing return value in `Array.every()` (#1525),False
+11b2801bd5bde4891ab4cd8a5bb6db17ea00ceef,2021-08-14 15:40:06,XhmikosR,CI: remove Node.js 15 and add 16 (#1523),False
+b41c6fe473ea566cef660cb3597e9e57585be9e1,2021-08-14 15:39:57,XhmikosR,removeUselessStrokeAndFill.js: use `String.startsWith()` (#1522),False
+87ad664659514a57ed865644ed931f95b036783f,2021-08-13 22:30:44,Bogdan Chadkin,2.4.0,False
+07f8d606e0aee1b37d869994815f351a284ee2a0,2021-08-13 21:37:08,Bogdan Chadkin,"Implement preset-default plugin (#1513)
+
+I saw complaints about `extendDefaultPlugins` api
+
+- it cannot be used when svgo is installed globally
+- it requires svgo to be installed when using svgo-loader or svgo-jsx
+- it prevents using serializable config formats like json
+
+In this diff I introduced the new plugin which is a bundle of all
+default plugins.
+
+```js
+module.exports = {
+  plugins: [
+    'preset_default',
+    // or
+    {
+      name: 'preset_default',
+      floatPrecision: 4,
+      overrides: {
+        convertPathData: {
+          applyTransforms: false
+        }
+      }
+    }
+  ]
+}
+```",False
+9e578b515a6b23e6ab4bd41f7b28e2655d3bd110,2021-08-13 21:09:55,Bogdan Chadkin,"Reset current cursor on Z
+
+Ref https://github.com/svg/svgo/issues/1510",False
+179ca5c60f208017c1fd47cfccd004aecafe6029,2021-08-13 00:28:59,XhmikosR,Remove the unused `intersectArrays` util (#1459),False
+efa518b23d94fb17bd82978f968b1762b4b606ec,2021-08-13 00:23:22,Yehonatan Daniv,Replace deprecated methods in jsAPI (#1479),False
+454b4277a3634d5a9289d2cf8a24f43ce8f25a3b,2021-08-13 00:21:26,Josep del Rio,"Remove flag spaces for all arcs (#1484)
+
+Ref #1476
+
+The issue is that a path command may have multiple arcs, and the space optimization was only applied to the first one. Modified a test to check it.
+
+
+Co-authored-by: Josep del Río <joseprio@fb.com>
+Co-authored-by: Bogdan Chadkin <trysound@yandex.ru>",False
+9892e28a711349216dc080ff0930553c98e2e0c5,2021-08-12 23:51:38,Bogdan Chadkin,"Refactor convertShapeToPath with visitor api (#1519)
+
+This plugin also removes invalid polyline and polygon.
+Looks like out of pluginn scope.",False
+c3695ae5338529e8b3cf2d4b5b1be98bb24d3271,2021-08-12 20:36:10,Bogdan Chadkin,"Migrate to jest (#1520)
+
+Mocha doesn't have a lot of features provided by jest.
+There is a great assertion library out of the box.
+And the most cool feature is inline snapshots.
+Mocha also hides errors which makes debugging a nightmare sometimes.",False
+862c43ec64d481b522f5725fbe397a09ac00f520,2021-08-12 18:21:13,Bogdan Chadkin,Drop examples folder,False
+f00bd727b0378efd308dff31b0b02df71dd5f9a7,2021-08-12 17:27:36,Bogdan Chadkin,"Refactor basic plugins with visitor api (#1518)
+
+- cleanupAttrs
+- convertEllipseToCircle
+- removeDesc
+- removeDoctype
+- removeEmptyText
+- removeMetadata
+- removeRasterImages
+- removeScriptElement
+- removeStyleElement
+- removeTitle
+- removeXMLProcInst",False
+35b7356ff0c0f03e6ec5947e8a2eb30e126d11b9,2021-08-12 15:35:09,Bogdan Chadkin,"Pass parent node to visitor (#1517)
+
+Wrapping each node with JSAPI class and passing parent to it is not
+reliable. Parent may be changed but the reference will stay.
+
+Here I wasn't able to detach comment from parent node for some reason.
+Explicit parent node inferred while ast traverse is easier to debug and
+work with. Eventually we will not need to wrap each node with JSAPI class.",False
+2c0c3610747587a7731ccf6db2372983d6e5f643,2021-08-12 05:38:39,Bogdan Chadkin,"Collect stylesheet once per plugin (#1456)
+
+computeStyle(node) in isolation is quite slow utility because it
+collects style elements across whole document, parses and sort them.
+
+In this diff I splitted it into `collectStylesheet(root)` and
+`computeStyle(stylesheet, node)` which are easy integrate with new
+visitor plugin api.",False
+69d01746cdf212f23d10514e7e6d8481bc416301,2021-08-12 04:34:08,XhmikosR,Exclude test files from the npm package. (#1458),False
+19014a11136e6c6333abd699e1ef6a6994f24db5,2021-08-11 03:48:53,Sonny Piers,"add Oh My SVG to frontends (#1507)
+
+Co-authored-by: Bogdan Chadkin <trysound@yandex.ru>",False
+9ae23e4cd526b42f206ffff299c652748d1e0bcd,2021-08-10 22:26:45,Ross Moody,"Add SVG Gobbler to ""Ways to use SVGO"" (#1503)
+
+Co-authored-by: Bogdan Chadkin <trysound@yandex.ru>",False
+0e71422c8d5bb5417f6ca4f5450c92299396a123,2021-08-10 22:23:30,Frank Sandqvist,"Add ""another way to use SVGO"" (#1501)
+
+I've added a link to a free API to use SVGO. May be useful for somebody!
+
+For transparency sake; I'm one of the creators of the API.",False
+c4ae19e250b0d21ebb300835d76537338973e3f9,2021-08-04 21:10:33,Ludovico Fischer,"Replace chalk with colorette (#1511)
+
+Remove 5 deps from production install:
+`ansi-styles`, `supports-color`, `color-convert`, `has-flag`, `color-name`.
+
+Also reduce deps when using PostCSS and SVGO together, since PostCSS
+uses colorette.
+
+Tested with `yarn install svgo`.",False
+cef184cdaf2d7a2f0ca66135fa4e1aaea7733d10,2021-06-26 13:19:52,Bogdan Chadkin,Fix typo in README built-in plugins table,False
+daf2f88ef342a85ea9e0cd19d56bfb367ef8d048,2021-06-26 13:17:00,Bogdan Chadkin,2.3.1,False
+25d0f87e3321684f5529831c6b7b105a25f92f4b,2021-06-26 13:13:36,Eric Cornelissen,Upgrade css-select from `^3.1.2` to `^4.1.3` (#1485),False
+59876d894ba758814a224cffe26566104018130d,2021-05-24 04:34:32,Bogdan Chadkin,Remove unused artifacts,False
+68798ebb6c115b3efab7c2cee0b0e81b96c91312,2021-04-19 00:08:45,Fabien Caylus,Mark convertStyleToAttrs as `disabled` in README (#1472),False
+3d79f57a10d7b3dba4bcd30d0b94e22410626cae,2021-03-29 13:31:13,Bogdan Chadkin,Convert convertPathData to visitor,False
+06110b4fc058e34cadacbf6eaba080468e892d31,2021-03-29 05:38:15,Bogdan Chadkin,Convert mergePaths to visitor,False
+368a67b70fabcfc0c4e2c30b57ec788081c9e306,2021-03-29 05:04:34,Bogdan Chadkin,Convert removeHiddenElems to visitor,False
+17aaf3617f84667d4fb16e4616b2487c03ae3785,2021-03-28 22:53:39,Bogdan Chadkin,Cleanup collapseGroups tests,False
+e381ccc13213a7c4c066caca6efa541726d5f999,2021-03-28 16:29:48,Bogdan Chadkin,2.3.0,False
+09aec376c6edd955086bf8443aec894ae5bb730c,2021-03-28 15:33:35,Manu Chambon,"Implement exclude pattern cli option (#1409)
+
+* Implement exclude pattern cli option
+
+* fix: support empty exclude folder
+
+* chore: remove debug
+
+* Update lib/svgo/coa.js
+
+Co-authored-by: Toke Voltelen <tokevoltelen@gmail.com>
+
+* style: update format
+
+* Remove -e support
+
+Co-authored-by: Toke Voltelen <tokevoltelen@gmail.com>
+Co-authored-by: Bogdan Chadkin <trysound@yandex.ru>",False
+e3f37ec4e65c00ec993b6c7e1584770ea69c45fe,2021-03-28 14:29:27,Bogdan Chadkin,Add mergeStyles to readme,False
+27bef1a954d7a709e2d54d8d926d36aed8a79f5e,2021-03-28 13:50:17,Bogdan Chadkin,"Add ""visitor"" plugins support (#1454)
+
+Visitor is a simple pattern which helps to avoid many type checks
+and provide both ""perItem"" and ""perItemReverse"" functionality without
+fragmentation.
+
+The most important case is an ability to define state which in many
+plugins specified either on module level or by polluting `params`.
+
+In this diff I added visit and detachFromParent utilities and refactored
+new mergeStyles plugin with it.
+
+Also fixed bug when cdata content is merged into ""text"" node which is
+not always valid.",False
+19c77d23989739ee94d8bfa051646ad501f59278,2021-03-27 19:29:56,strarsis,Add mergeStyles plugin (#1381),False
+d89d36eacec7bd52002ef55ec6e2bd698352123e,2021-03-25 02:42:13,Bogdan Chadkin,"Split regression extracter and runner (#1451)
+
+A lot of new sources of regression tests may come and it's important to
+make debug simpler.
+
+Now regression-extract.js downloads and write svg files into
+test/regression-fixtures. regression.js run each svg in this folder.
+Mismatched svg diff is written into test/regression-diffs.",False
+eb934b40f63acf31ed46d1a24fd149aed04ae0c0,2021-03-23 02:59:29,Bogdan Chadkin,Serve svg for regressions and cache w3c test suite,False
+7389bcddbfadc49de84203b048199b4a397d656a,2021-03-22 22:06:05,Bogdan Chadkin,"Override default floatPrecision with global
+
+Ref https://github.com/svg/svgo/issues/1426
+
+Previously extendDefaultPlugins incorrectly overrided global
+floatPrecision.",False
+d08815c1cd3ad087c536c24868fcd9299cb4da31,2021-03-22 21:25:08,Bogdan Chadkin,"Implement simple node clone (#1450)
+
+https://github.com/svg/svgo/pull/1279 faced some problems with node cloning.
+In this diff I moved class/style live objects to JSAPI and made it non
+enumerable to avoid deep cloning issues.
+
+class list and style declaration classes are not longer need own clone
+methods.",False
+3d4adb6b044ff1361a970ea049f90d5626ea9888,2021-03-22 17:08:06,Bogdan Chadkin,"Simplify number rendering and fix -0 in path
+
+Ref https://github.com/svg/svgo/issues/1422",False
+316a002299ae6ec94749e1ff34c08575eccc9dce,2021-03-22 03:54:59,Bogdan Chadkin,"Remove hasAttr and hasAttrLocal usages (#1447)
+
+In most cases simple check for null is enough.",False
+447f82ca6bc8406f73328abecaf205bee309f73b,2021-03-22 03:54:41,Bogdan Chadkin,"Convert addAttributesToSVGElement to item plugin (#1448)
+
+""full"" plugins prevents from possible optimisation. We need to migrate
+all plugins to ""perItem"" type and later implement visitor plugin api to
+allow state.",False
+13a0ad056ba6d58039573b1d602afc343ce6c3d7,2021-03-21 20:27:55,XhmikosR,"Specify --ignore-path for ESLint (#1443)
+
+Otherwise, all files are included",False
+e8d563c1f0217f5b517fcd78320a9a17020e8211,2021-03-21 20:02:38,XhmikosR,Fix invalid radix in cli (#1446),False
+bc5c4ea29c7f37a716ceefc82a127499d958aea6,2021-03-21 20:00:36,XhmikosR,Add a test for removeXMLNS plugin (#1444),False
+3390df1186a102314600dc01f3b5f682b0c355a3,2021-03-21 16:00:20,XhmikosR,removeOffCanvasPaths: Add one more test (#1445),False
+de0572c799be449f9dfb61c0fe73c3f3a93818fc,2021-03-21 13:00:09,XhmikosR,"Update devDependencies (#1442)
+
+* @types/mocha   ^8.2.1  →   ^8.2.2
+* chai           ^4.3.0  →   ^4.3.4
+* eslint        ^7.20.0  →  ^7.22.0
+* mocha          ^8.3.0  →   ^8.3.2
+* playwright     ^1.8.1  →   ^1.9.2
+* rollup        ^2.39.0  →  ^2.42.1
+* typescript     ^4.2.2  →   ^4.2.3",False
+f44612e7a220e8d7de64eb2ee2c818f5222f82c5,2021-03-21 12:56:57,XhmikosR,addClassesToSVGElement: add one more test (#1441),False
+65c733a42a7cf1da54716ae9964b6e3534c83ed2,2021-03-21 00:20:06,XhmikosR,Use charAt instead of charCodeAt when possible (#1440),False
+21d24006fd1bc97e6a47723d983b0b428d50a7a9,2021-03-20 23:16:26,XhmikosR,Remove the executable flag from files. (#1439),False
+b903de9554dfa7f9862705e26f55f1a3af0e780d,2021-03-20 22:21:33,XhmikosR,test/config/_index.js: fix `find` usage (#1438),False
+e4ce31a2873078014d43624f506b1fe85ffc295c,2021-03-19 17:59:24,Bogdan Chadkin,Add fix script,False
+4cacd9e676abaecdf4eba3631812290ead96c2c1,2021-03-19 13:36:41,Bogdan Chadkin,"Migrate ast traversing into xast module (#1434)
+
+Replaced JSAPI methods with new utilities
+
+- querySelectorAll(node, selector)
+- querySelector(node, selector)
+- matches(node, selector)
+- closestByName(node, elementName)
+- traverse(node, fn)
+
+New traverse replaced many in-place implementations.",False
+6f2f62c5ee8a841ca0793207e38ed82e939a8942,2021-03-18 21:23:20,Bogdan Chadkin,"Access attributes directly (#1433)
+
+Got rid from `.attrs`, `.attr()` and `.addAttr()` usages",False
+07928fc77e6a9da7c5e3cffc023e7115be1cc551,2021-03-18 00:10:06,Bogdan Chadkin,"Replace removeAttr with delete operator (#1432)
+
+delete operator is more explicit and not much harder to use.",False
+8098ab7fb6a83a454641b381c9d82479af97b28d,2021-03-17 15:20:16,Bogdan Chadkin,"Replace attributes iterators with for/of (#1431)
+
+These iterators allows to directly manipulate passed value
+which does not let us to get rid from legacy ""attrs"" field.
+
+Object.entries makes it easier to get an access to both attribute
+name and value.",False
+45d2b68a32ac4774c5bac1c2701ea78aae333862,2021-03-16 23:09:58,Bogdan Chadkin,Move attrs polyfill into jsapi,False
+604a9c5cdbd3ce3e0ad217de08cfc404814f17d6,2021-03-16 04:01:26,Bogdan Chadkin,"Merge pull request #1428 from svg/refactor_apply_transforms
+
+Refactor apply transforms",True
+c925e4da0aef6827fec53aae609f4927f8ff9e82,2021-03-16 00:04:36,Bogdan Chadkin,Fix ts,False
+61657433e161b6e5de61d470ac34e302b3aa297b,2021-03-15 23:54:23,Bogdan Chadkin,"Refactor apply transforms
+
+- handle each command separately
+- handle both relative and absolute commands
+- moved into _applyTransforms.js to convert eventually into plugin
+- apply transforms before converting into relative
+
+These changes makes code independent and easy to work with.",False
+c6254eb45d091b3e20849a16cbc31182449bbc81,2021-03-15 18:37:34,Bogdan Chadkin,"Merge pull request #1427 from svg/refactor-convert-to-relative
+
+Refactor convertToRelative",True
+92053c7ed8e58ab0263f695335ec3d6da70e93e3,2021-03-15 17:37:28,Bogdan Chadkin,Remove broken optimisation,False
+a04b27a1df12b9e6dc019fb8d50733d3d280a5c5,2021-03-15 16:11:12,Bogdan Chadkin,"Refactor convertToRelative
+
+Slight code simplification. Each command is processed exclusively
+without assumtions. Removed moveto and closepath common coords
+reference, handle in applyTransform instead. Rely on new path data
+naming.",False
+d27961745af10a396e3e000f5fff2049c2fb2aa7,2021-03-11 15:58:47,Bogdan Chadkin,"Merge pull request #1420 from svg/xast-children
+
+Convert element children to xast",True
+5314c12c99a687209114bab386cb1f8019b1bfe7,2021-03-11 14:59:13,Bogdan Chadkin,"Convert element children to xast
+
+Ref https://github.com/syntax-tree/xast
+
+Renamed content to children to match xast spec.",False
+b9a682443c8955a795a66f7d0e834f032b5cea36,2021-03-11 14:58:27,Bogdan Chadkin,"Merge pull request #1419 from svg/xast-attributes
+
+Convert attributes to xast with proxy fallback",True
+bc87eea85e8138a132a0328f6537149718ed87c0,2021-03-11 01:45:29,Bogdan Chadkin,Fix lint,False
+3e1bfd528db8fc2f945843f39b1d50b331993893,2021-03-11 01:41:09,Bogdan Chadkin,"Convert attributes to xast with proxy fallback
+
+There is a lot of attributes manipulation which is hard to remove at
+once. In this diff I added `attributes` object and wrapped it as proxy
+for `attrs` field.",False
+cdcd265fb720cd6160915d39ee998e39e45746f6,2021-03-11 01:40:42,Bogdan Chadkin,"Merge pull request #1418 from svg/xast-element
+
+Prepare root and element nodes for xast",True
+685d9fa55e268ca21bec4d96cd47783037264a8d,2021-03-10 21:21:50,Bogdan Chadkin,Fix lint,False
+e82a672bbf1d614a120f09d3b2336bfb2ba3d28d,2021-03-10 21:19:26,Bogdan Chadkin,"Prepare root and element nodes for xast
+
+Ref https://github.com/syntax-tree/xast
+
+- added type: root | element
+- renamed elem to name
+- replaced ""elem"" property checks with check for correct type",False
+54daf72d502d9e80b5b1c7b76836b7fae0eaab4c,2021-03-10 21:19:12,Bogdan Chadkin,"Merge pull request #1416 from svg/xast-text
+
+Convert cdata and text nodes to xast",True
+f369f244345579bd766ac7c51171424522abad5f,2021-03-10 21:12:09,Bogdan Chadkin,"Merge pull request #1417 from omgovich/lighter-browser-bundle
+
+Remove whitespaces and comments from the browser bundle",True
+279962207e8c99ca8dd9f0ac093071aabafc8721,2021-03-10 20:50:58,Vlad Shilov,Remove whitespaces and comments from the browser bundle,False
+73768cb65b9dfa9568dbf896efbf5cf9af04fb09,2021-03-10 20:06:36,Bogdan Chadkin,Fix types,False
+194058b9ebc467fc91290b7498ca912a5daf99ef,2021-03-10 18:52:37,Bogdan Chadkin,Clarify condition and add todo with new plugin,False
+c50decb438a13a5a368fd88a0172ba1f5a53ddf5,2021-03-10 18:46:11,Bogdan Chadkin,"Convert cdata and text nodes to xast
+
+Ref https://github.com/syntax-tree/xast
+
+More consistent naming and distinction by type looks a bit cleaner.",False
+10ac71228273ef65dba9c6d3aada9c30fbd8c194,2021-03-10 18:09:49,Bogdan Chadkin,"Convert to xast doctype, instruction and comment nodes (#1415)
+
+Here we add [xast](https://github.com/syntax-tree/xast) support
+to three basic nodes: doctype, instruction and comment
+
+Some tests are rewritten instead of checking each field to `.include`
+assertion which is able to match shape of object.",True
+51611564189ff3829df8e4da2a04b84408b16fed,2021-03-10 16:52:38,Bogdan Chadkin,Fix types,False
+8622a5f31b8fa60680b9f530c842b8ec834c4dbb,2021-03-10 16:40:40,Bogdan Chadkin,"Convert to xast doctype, instruction and comment nodes
+
+Here we add [xast](https://github.com/syntax-tree/xast) support
+to three basic nodes: doctype, instruction and comment
+
+Some tests are rewritten instead of checking each field to `.include`
+assertion which is able to match shape of object.",False
+d1d6e5efe8ca7922973b4d180d1b64119320aaab,2021-03-10 15:56:15,Bogdan Chadkin,"Remove prefix/local support in elements and attributes (#1413)
+
+These parts of element and attribute name are easy to extract.
+Now we can easily replace attrs with xast attributes object.",False
+2458b70f3126df67f928bcf857f6c8d5f97e431a,2021-03-10 02:10:36,Bogdan Chadkin,Remove licenses,False
+cfb7c28bf69b392cc4b0d353c6c1c1133d023cb8,2021-03-09 22:48:19,Bogdan Chadkin,Lint unformatted code,False
+00ec0f71fe29f963e80d8bbf232a97ce6a867651,2021-03-09 22:28:00,Bogdan Chadkin,Format all plugins with prettier,False
+1be0d0dba121ddfd18011817ca1b77ce88db01bd,2021-03-09 15:21:15,Bogdan Chadkin,2.2.2,False
+ddbd7046b2aed8133864b2d98feef6a80f665540,2021-03-09 04:17:56,Bogdan Chadkin,"Ignore keyframes in computeStyle
+
+Ref https://github.com/svg/svgo/issues/1408",False
+aa803bc88951d833767cf730bf652280dabaf912,2021-03-06 17:05:06,Bogdan Chadkin,2.2.1,False
+28c01cfe65cd87796fb061fe3ede7c6f59d0e1f6,2021-03-06 16:09:31,Bogdan Chadkin,Preverve viewBox in nested <svg>,False
+a2b0e737670a46955097a5b02fe3daa35c3f231b,2021-03-06 15:48:53,Bogdan Chadkin,Preserve conditional processing attributes,False
+d3e3726ac42bf623572ff06405e12f4ee72873dd,2021-03-06 13:51:47,Bogdan Chadkin,Keep markers with display: none,False
+0e6b0c4a0182fb79775fb6af2f1df18c12f917d9,2021-03-06 05:03:19,Bogdan Chadkin,Allow empty pattern when any attribute is present,False
+ba7e9bdc0d4ee677336f09b6fb24fd6cc866e97d,2021-03-06 04:06:18,Bogdan Chadkin,Fix collapsing repeated with marker-mid in style rule,False
+21c04e4d8ae2765f3f00a87de7219d69c075bd22,2021-03-06 03:31:32,Bogdan Chadkin,Keep single point path for markers,False
+de4fd79b5779a2e92f45dd06685cec5192067ecd,2021-03-06 03:07:03,Bogdan Chadkin,"Prevent merging path when marker-end style is specified
+
+Ref https://github.com/svg/svgo/issues/1217 https://github.com/svg/svgo/issues/958 https://github.com/svg/svgo/issues/872",False
+555a9619dbc6273c665818a0ade27e5d4ab27a09,2021-03-06 00:01:41,Bogdan Chadkin,"Remove incorrect filter region assumption
+
+Ref https://www.w3.org/TR/SVG11/filters.html
+
+Spec says filter region is not always 100% 100% by default",False
+c21fef54e1aede8cf9f4b4b73ab79d91b7907d2b,2021-03-05 20:38:02,Bogdan Chadkin,Remove useless path commands considering static styles,False
+d58a7e6089ccf15ecc3928427d55e6b9601094af,2021-03-05 20:18:19,Bogdan Chadkin,Pass floatPrecision to implemented plugin,False
+76c7719604ef37b84f24000d2a5363689a88599b,2021-03-05 03:47:44,Sebastian Kreft,"chore: Improve TS config (#1405)
+
+Changed the TS config file to include all relevant folders and explicitly exclude those files that fail the type checks. In this way new files will be automatically type checked and we can see the list of files that need types improvements.
+
+In this pass I also fixed some js files.",False
+e2ec7e8bd2e706dcd29fccd81d7e2f9416a54c23,2021-03-05 03:42:50,Bogdan Chadkin,"[convertShapeToPath] round path numbers with precision (#1404)
+
+Ref https://github.com/svg/svgo/issues/1051
+
+Note: review with hidden whitespaces",False
+4d0ee0c330939ee0f59429279c9ff212e851f7da,2021-03-04 20:30:15,Bogdan Chadkin,"Test regressions with W3C SVG 1.1 Test Suite (#1357)
+
+Visual regressions tests will give us more confidence in SVGO stability.
+Test cases are downloaded from w3.org, screenshooted with playwright and
+compared with pixelmatch.",False
+6842b47cc719fbdc22eecb6306f09fe7a8c89cc7,2021-03-04 19:00:28,Sebastian Kreft,"Add TS support (#1370)
+
+Added Typescript support via JSDoc comments for some files.
+
+The code has really outdated type signatures, so in order to fully type the codebase the changes need to be incremental.
+
+To check the types run:
+npx tsc",False
+0e02fd9fdef0d031a8393a97af7207577cb86222,2021-03-04 15:45:36,Bogdan Chadkin,Fix noSpaceAfterFlags support,False
+be28d65d78fbc5b9cf556d53d86d4e623b064d35,2021-03-04 15:43:44,Bogdan Chadkin,"Implement style computing (#1399)
+
+Ref https://github.com/svg/svgo/issues/777
+
+Currently a lot of optimisations are attributes specific and may be
+broken because of inline or shared styles.
+
+In this diff I'm trying to solve the problem with getComputedStyle
+analog.
+
+`computeStyle` collects attributes, shared css rules, inline styles
+and inherited styles and checks whether they can be statically optimised
+or left as deoptimisation.",False
+f3a6cf259a645073ec78ce1b88382487439206ee,2021-03-03 19:28:06,Joona Viertola,"Update example for removeAttrs (#1401)
+
+Old example didn't work with `removeAttrs` plugin. This worked for me and also validated here:
+https://github.com/svg/svgo/issues/1344",False
+318bd5b8fa5216818683c61affa93948a13cdf63,2021-03-03 15:50:55,Bogdan Chadkin,"Forbid invalid <style> type attribute (#1400)
+
+This fixes one more case in regression tests.
+Also I added support for description in test cases.
+This will let make tests more atomic.",False
+66bb0fb2ad23aad5448e695d6b386de8e7348f2c,2021-03-03 15:02:43,Bogdan Chadkin,Commit fixtures,False
+2f3c35d52e03c6f474813b90e1698f12886db538,2021-03-03 04:03:57,Bogdan Chadkin,"Host css-select adapter (#1395)
+
+This is necessary for better control while implementing new style
+manager.",False
+a896d5de1376e3d102dd33e662cc78573dd88513,2021-03-03 04:03:44,Bogdan Chadkin,"Format plugins utilities with prettier (#1394)
+
+Note: review with hidden whitespaces",False
+93a5db197ca32990131bf41becf2e002bb0841bf,2021-03-02 19:33:10,XhmikosR,"Update CI config (#1397)
+
+* separate lint step to a new job and run it only once
+* add caching",False
+3cdb14c42799fd78ca3f6fcfc5c8781ecfe481df,2021-03-02 18:42:50,Artem Badrtdinov,Fix typo in README.md (#1396),False
+d6f972c970d3cdd68ccc740e1a610ff0b23fcd34,2021-03-02 14:19:54,Bogdan Chadkin,Fix scientific notation parsing in paths,False
+c1b8c3e261857ea179a6b4973a40011f030c88af,2021-03-02 13:31:46,XhmikosR,"Enforce LF (#1393)
+
+On Windows `autocrlf` is true by default",False
+a2947e33b5dd2de635a2b49980fa8b4423393e7e,2021-03-02 03:38:37,Bogdan Chadkin,2.2.0,False
+04b2ae9a37c3450205a83f0948c8e6bd83f9a254,2021-03-02 03:37:26,Bogdan Chadkin,"Implement path stringify (#1387)
+
+Ref https://github.com/svg/svgo/issues/32
+
+Added `stringifyPathData` utility to produce small as possible path by
+- matching leading moveto and line to commands (m -> l, M -> L)
+- combining moveto and lineto commands
+- avoiding space before decimal numbers if possible",False
+cf807fbe340d81e6be74b5e11f909f599d28e4e7,2021-03-01 19:34:48,Bogdan Chadkin,"New logo (#1389)
+
+Ref https://github.com/svg/svgo/issues/1336
+
+Big thanks to @DerianAndre",False
+4086e313346ce918dac5d82dc18c9176edc7def5,2021-03-01 00:40:57,Bogdan Chadkin,"Implement new path parser (#1378)
+
+Regexps are quite leaky for complex parsing. Regression tests caught
+a few issues related to path parser.
+
+In this diff I implemented the new spec-compliant parser which solves
+2 regression cases and covers many edge cases hard to handle with
+regexps.",False
+7901588a9f18d6ef476389405a73cd7fe42ed179,2021-02-28 17:52:27,Bogdan Chadkin,"Fix path optimisation with stroke-linecap round
+
+Ref https://github.com/svg/svgo/issues/890",False
+79dbb4bf6e7464e946d838ade0aa23c7189762f7,2021-02-28 17:16:32,Bogdan Chadkin,"Prevent applyTransform when inline style present
+
+Ref https://github.com/svg/svgo/issues/1385
+
+With disabled convertStyleToAttrs applyTransform fails to transform
+inline styles. They are considered as deoptimisation for now.
+Future style manager should fix the problem.",False
+71e47370bdaf81d8d35159e8b27204262108112b,2021-02-28 13:26:16,Bogdan Chadkin,"Format lib with prettier (#1386)
+
+Note: review with hidden whitespaces",False
+a99cc08e4f6a1bc9b6d61b65e14c138195ba14c1,2021-02-28 01:47:47,Bogdan Chadkin,"Format tests with prettier (#1380)
+
+Will format the code with prettier in a few commits.",False
+0394bf0ea6a4326b162acb21a9e43c7f9a856ccd,2021-02-28 01:47:30,Sebastian Kreft,"refactor: replace uses of for in (#1382)
+
+Replace the uses of `for in` with `for of` and `Object.entries`/`Object.values`/`Object.keys`.
+
+One case was further simplified by using a spread.",False
+ed89fbe88149fd53dfd7da4f8dd325c5cf5f2c81,2021-02-27 17:25:14,Bogdan Chadkin,Replaced stackoverflow with discord,False
+42d75b1f81484ed36ac94426e1589d5dd2f855e4,2021-02-27 17:22:19,Bogdan Chadkin,"Add discord badge (#1379)
+
+Chatting would help with communication.",False
+0a11dadc6bb73443b69a189a3261ad5609b3bf1c,2021-02-26 01:00:33,Bogdan Chadkin,Backers -> Donators,False
+62257487a7a2bf6677500fe2380335495130796b,2021-02-25 21:43:16,Bogdan Chadkin,Update FUNDING.yml,False
+d74d3ac2b94ebfe7726d7594ab914da78eb5786a,2021-02-25 21:37:03,Kir Belevich,Create FUNDING.yml,False
+f92f7dec864b1b94159b6301eb948141f0fbea6b,2021-02-25 20:23:32,Bogdan Chadkin,"Remove ""donations"" section",False
+1310210d4e13391390cf202a6b903dca29de0ab5,2021-02-25 16:18:18,XhmikosR,Use https when possible and fix an inactive domain (#1374),False
+dd37fcfebbe2f3cea687ad0bf890ff83ab3c9eb7,2021-02-25 16:15:03,Bogdan Chadkin,Apply scale to stroke-dasharray and stroke-dashoffset,False
+83a03ecb8eaa455aef25f98363734c5675e03a91,2021-02-25 15:48:42,XhmikosR,Tweak README.md (#1375),False
+d06747abca1e9e652a764db9747395d14f7f6f98,2021-02-25 02:35:26,Bogdan Chadkin,Keep hidden elements if any descendant enables visibility,False
+9d67586787ad16799d7a1cfce1eb0bce829470da,2021-02-25 01:28:00,Bogdan Chadkin,Keep transparent elements inside <clipPath>,False
+d14315b68fc1fcb43212219a0da5857ad7a23cd0,2021-02-24 23:43:30,Bogdan Chadkin,Keep empty <mask> which can hide element by id,False
+36391564f2d0b2c7ad86c746bacdd6de030ebd3d,2021-02-24 19:59:29,Bogdan Chadkin,Preserve stroke-width when marker-end is specified,False
+51f12d1f4f7096629c61dc4e1afbfc2c00b50e80,2021-02-24 19:03:44,Bogdan Chadkin,Remove convertStyleToAttrs from defaults in readme,False
+091172a392f6d751855477d51e5c8bd3e44fde97,2021-02-24 16:40:33,Bogdan Chadkin,Fix <tspan> inside of <a>,False
+9263d9ab90aff0283e036e92cbb609e63b8ac135,2021-02-24 13:48:48,Bogdan Chadkin,Fix svg spec urls in plugins,False
+355fb1ff24d2b90c0376e8d82230cbad6395907b,2021-02-24 04:14:44,Bogdan Chadkin,2.1.0,False
+9de471a0f4bea20581034c2d74b0652c27e0fad0,2021-02-24 03:28:11,Bogdan Chadkin,"Handle nested textual tags
+
+This bug was also catched by regression tests. Single state was
+overriden in opentag/closetag callbacks. Using stack state solved the
+problem with nested textual tags.
+
+Now many whitespaces bugs should go away.",False
+4b4259bc604d008d17098a1b7a22eb9d757d16d3,2021-02-24 01:19:28,Bogdan Chadkin,"Fix parsing xml entities (#1371)
+
+Ref https://github.com/svg/sax/releases/tag/v0.1.1
+
+This fixes enother case in [regression tests](https://github.com/svg/svgo/pull/1357).",False
+c1d5f0f7a93a6f1c947baa5860ddd40f8d1bb701,2021-02-24 01:06:47,Bogdan Chadkin,Keep empty <g> when filter attributes is specified,False
+776ec1e71bcd2aa768b2d3ac987177f706834547,2021-02-23 21:13:28,Bogdan Chadkin,Fix incorrect xml:space default,False
+9f084cc0865dc2dd5fa867afbbe8e10647757a6f,2021-02-23 20:55:30,Max Goodhart,Preserve whitespace in elements containing text (#1220),False
+0021144d4ef10d476792407318d76fc01e4e32b1,2021-02-23 19:14:35,Bogdan Chadkin,"Fork sax (#1369)
+
+There was a lot of PR with switching to another xml parser because sax
+is not maintained for almost 4 years already.
+
+Though switching parser to solve a few problems may introduce many new
+bugs. This is why we decided to fork sax and maintain own version.
+
+For initial release I removed node streams support which allows to get
+rid from some magic in browser bundle build config and got rid from
+String.fromCodePoint polyfill.
+
+Forked package is here https://github.com/svg/sax",False
+797a8e843d4a4ddf7482785e6ac58c579515d287,2021-02-23 04:22:51,Chris Hayes,Fix npm install script typo (#1368),False
+a1fcd034fe697fd823b2309b63110d2a24c4dc50,2021-02-23 02:58:09,Bogdan Chadkin,"Disable convertStyleToAttrs plugin by default (#1365)
+
+Ref https://github.com/svg/svgo/issues/1362 https://github.com/svg/svgo/issues/1360
+
+From the [spec](https://www.w3.org/TR/SVG11/styling.html#UsingPresentationAttributes):
+
+> Presentation attributes have lower priority than other CSS style rules specified in author style sheets or ‘style’ attributes.
+
+Though we replace inline styles with attributes without checking if
+thare is any `<style>` element. This makes the plugin unsafe and it
+should not be enabled by default.",False
+a855b40ec5d53f3ce3b45213fd4c65bc4dc05347,2021-02-23 02:20:42,Bogdan Chadkin,Fail when specified config is wrong or json is specified,False
+aa8e0bd3f60f88aaab849448a00f9030876b5f0e,2021-02-23 02:05:14,Sebastian Kreft,"Add Github Issue Templates (#1367)
+
+* Path intersection was not checking paths with circles.
+
+As an optimization the path intersection was checking the paths had three or more elements, caliming that otherwise there was nothing to fill. However a semi circle would actually contain 2 points.
+
+Fixes #1048.
+
+This adds a simplified test case for the 2 offending files reported in the issue.
+
+* Add issue templates
+
+We add issue templates for:
+
+- Bug Reports
+- Feature Requests
+- Plugin Requests
+- Pull Requests
+- Questions
+
+* Add Github issue templates
+
+Fixes #1364, but is is missing the template for pull requests see
+https://docs.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository
+
+* fix
+
+* Use ""New plugin"" label
+
+Co-authored-by: Bogdan Chadkin <trysound@yandex.ru>",False
+9b97e06ef69b7961f342c9ee8468c552c9b503a3,2021-02-21 17:20:55,Bogdan Chadkin,Fix empty <svg /> in cleanupIDs plugin,False
+727646e6a78cc82fc3f1cd6cc18f2642c4941683,2021-02-21 01:01:56,XhmikosR,convertTransform: remove unused assignment (#1354),False
+4ad91f2323d3d290811fee79d86115bba2893a93,2021-02-20 21:36:22,Bogdan Chadkin,2.0.3,False
+c1edce4d2d9e64d026d9cb3de544181198cad5f3,2021-02-20 21:34:46,Bogdan Chadkin,"Fix error message in addAttributesToSVGElement plugin
+
+Ref https://github.com/svg/svgo/issues/1352",False
+8d7cfa02c79d5f686e7c350b4cfc6759bf7324c2,2021-02-20 21:28:42,一丝,"After ‘arcto’ path command(a or A) flags, spaces are no longer removed by default (#1353)
+
+Co-authored-by: 壹丝 <jie.lijie@alibaba-inc.com>",False
+26f5e323ddb0cb898886f5958066f1a375010f50,2021-02-20 21:07:08,XhmikosR,Switch  to c8 for coverage (#1350),False
+6c0f8c5efb56936e25cd05bfb074631853e3f780,2021-02-20 20:01:34,XhmikosR,reusePaths: fix redundant variable assignment (#1349),False
+df14f37c4884df8a602f638e34e18760432d7028,2021-02-20 19:35:04,XhmikosR,"test/coa/_index.js: Fix regex (#1347)
+
+`.` means any character but we want to match the literal `.`",False
+1b2c2625e36aabe208a0998281cbda69c1955b88,2021-02-20 19:33:42,XhmikosR,CI: specify `FORCE_COLOR: 2` (#1351),False
+d9f68d3be0958f5d0899ae0a361d5f3b1ce12b95,2021-02-20 19:24:46,Bogdan Chadkin,"[removeElementsByAttr] fix removing elements when class is empty
+
+Ref https://github.com/svg/svgo/issues/937
+
+Regexp didn't not cover the case when class list is empty.",False
+4490d62ee9f83febeb18f4a83a297c544459514a,2021-02-20 16:29:21,Bogdan Chadkin,"Add mask-type to the list of <mask> attributes
+
+Ref https://github.com/svg/svgo/issues/1254",False
+7f4e05297ade6747a2b6ca63109d75dc9c4ea3c0,2021-02-20 15:20:36,Bogdan Chadkin,"[convertEllipseToCircle] fix ellipse without radius
+
+Ref https://github.com/svg/svgo/issues/1264",False
+ea82cc28807a1d77220b9c8bb94ad657f9285e31,2021-02-20 03:29:54,Bogdan Chadkin,Report parsing errors with filename,False
+b9880491b5775dca11219cc4c93538d83e43fc22,2021-02-20 02:26:20,Christian Ruigrok,[reusePaths] fix excessive defs tag (#1201),False
+82778c872d9fb990c22c431b63843a5bd50175f7,2021-02-19 18:04:37,Bogdan Chadkin,Reduce browser build size 1450kB -> 820kB,False
+a7cc20bb43f16e29b444244732091f52b16cca61,2021-02-19 17:56:07,Bogdan Chadkin,"Setup recommended eslint preset (#1345)
+
+This is usually enough to prevent silly mistakes.
+Formatting will be done by prettier after merging pull requests.",False
+feefdc0b8471dceb42a298df1f784d7d53ef21e4,2021-02-19 14:50:33,Bogdan Chadkin,2.0.2,False
+68e40caaea641e8790bb922ef71676925db0158e,2021-02-19 14:41:58,Bogdan Chadkin,"Add better docs (#1337)
+
+Clarified configuration format, simplified CLI example, described
+programming api.",False
+330e78b4791ba68899128f63cbd02aebf5eb0825,2021-02-19 14:41:35,Bogdan Chadkin,"Fix reporting of config errors (#1342)
+
+Errors are swallowed while resolving.",False
+400c867c5c82f8e10755cdeb20dc510b3a84616b,2021-02-19 05:02:20,XhmikosR,Example: fix syntax error (#1340),False
+293fa1eed602daf2e8d984aa1dbf623a51bfaf13,2021-02-19 05:01:06,XhmikosR,Fix `new Buffer` usage (#1341),False
+136a52cdb65eb18acf92cde9533570cb52e2acd5,2021-02-19 05:00:05,XhmikosR,convertStyleToAttrs: fix wrong character class (#1338),False
+264b2b564c184cd7e84b6c9d998a6b8e5bcab971,2021-02-19 04:57:05,XhmikosR,CI: update to `actions/setup-node@v2` (#1339),False
+b65f6994b26acffc5ad04c3adc8a822b474bd9e4,2021-02-19 00:34:14,Bogdan Chadkin,Simplify CLI usage,False
+ed65d170b34df3e37e2a61bd1d60ddeadcc2ed6f,2021-02-19 00:00:26,Bogdan Chadkin,Drop travis and coveralls badges,False
+9fb56d14944ea75f961a661d934666b8b5f1afe6,2021-02-18 20:35:24,Bogdan Chadkin,v2.0.1,False
+49d001a5bac68cb3800649a87b2885be8579869e,2021-02-18 20:27:02,Bogdan Chadkin,Publish less,False
+16cc8cf3a0eeecb499ae492dacf2ed51b3805b55,2021-02-18 20:20:12,AlpayY,"Added file detection for *.SVG files when working with folders (#1316)
+
+Currently, files named *.SVG are not being detected under Windows because of the case-sensitivity. This commit includes these in addition to *.svg files.",False
+082aee027ddc2033bc3fdb48de5ba2a086eaed26,2021-02-18 20:16:28,Bogdan Chadkin,"Fix plugins order (#1334)
+
+Ref https://github.com/svg/svgo/issues/1333
+
+While refactoring broke plugin order.",False
+efa62c8e301935a66813f7c2449bfe385b7cba72,2021-02-18 16:42:27,Bogdan Chadkin,"Fix multipass (#1332)
+
+Ref https://github.com/svg/svgo/issues/1330 https://github.com/svg/svgo/issues/1148 https://github.com/svg/svgo/issues/1133 https://github.com/svg/svgo/pull/1227 https://github.com/svg/svgo/issues/985 https://github.com/svg/svgo/issues/943
+Took tests from https://github.com/svg/svgo/pull/1177",False
+0c85caa730c3c4091ac8b8fabdd90cc68248a576,2021-02-18 14:13:14,LongYinan,Fix 'ReferenceError: indent is not defined' (#1331),False
+4b46caa61998b1946768e821f4b9ed0194aba732,2021-02-18 02:44:21,Shogo Sensui,Add editor plugins (#1113),False
+bb949a98946947b7fd17e1a53cf2167ce4136562,2021-02-18 02:27:50,Eric Cornelissen,"Update README.md (#1243)
+
+Add the SVGO Action as an ""other way to use SVGO""",False
+c9a3aea858c3bfe6af23d6b6448e966f1231f2de,2021-02-18 02:20:08,Sebastian Kreft,"Path intersection was not checking paths with circles. (#1229)
+
+As an optimization the path intersection was checking the paths had three or more elements, caliming that otherwise there was nothing to fill. However a semi circle would actually contain 2 points.
+
+Fixes #1048.
+
+This adds a simplified test case for the 2 offending files reported in the issue.",False
+814863bcd29ea9902cf84b2148f72bf83abc796f,2021-02-17 22:27:13,Bogdan Chadkin,v2.0.0,False
+9cfa98d03bb35156e47b4c25806b1059fb8fdb57,2021-02-17 21:58:52,Bogdan Chadkin,Bump node to 10.13,False
+8cf52c024701aa90e2c91125f7f21ed4c42a4ef0,2021-02-17 21:58:33,Bogdan Chadkin,Replace npmignore with package.json files,False
+fbe82cd9c28099e3a8d8e590e83ea7c69e547509,2021-02-16 22:22:50,Bogdan Chadkin,Upgrade commander,False
+7a4217db4bb71d81dfaec857e2519132b7eb38bf,2021-02-16 22:21:05,Bogdan Chadkin,Replace fs-extra with del,False
+2236d0fd60f368929465f9e747092170b5719e87,2021-02-16 22:15:25,Bogdan Chadkin,Upgrade mocha and refactor cli tests with async/await,False
+d761decc0e7026d45c0ca81812c1cd7a8ab334f0,2021-02-16 21:47:53,Bogdan Chadkin,Drop --enable and --disable flags,False
+fd5e6406b1d1da144ae8137a341da1a562f220f3,2021-02-16 21:44:20,Bogdan Chadkin,Upgrade css-select,False
+a6f14018eee0c9df0fe9050d1e75052099a43c0a,2021-02-16 21:41:13,Bogdan Chadkin,"Implement loadConfig utility (#1328)
+
+Ref https://github.com/svg/svgo/issues/1327
+
+Config file now can only be js. `svgo.config.js` is searched by default.
+Otherwise any js module specified in `--config` cli flag.
+
+Config loader is exposed in entry point as `loadConfig(configFile, cwd)`.",False
+d273b266054c0dbdec997d995b420110bb8e99ab,2021-02-16 21:41:01,Bogdan Chadkin,"Provide es module bundle for browser (#1326)
+
+The was a lot of requests to provide browser compatible module. In this
+diff I added `svgo/dist/svgo.browser.js` bundle and tested it with
+playwright.",False
+70d1f2b2f890ff0cf8b79df893bf394d37b3a106,2021-02-16 20:44:10,Bogdan Chadkin,Upgrade css-tree and csso,False
+b1dafc67805a5637c940379d7576ac201675a79a,2021-02-16 00:50:05,Bogdan Chadkin,Implement default plugins and plugins list extending,False
+c9c7871e0d33685505922362e0f50527c6b21f15,2021-02-15 21:02:50,Bogdan Chadkin,"Simplify svgo api (#1325)
+
+Dropped SVGO class and provided ""optimize"" function with svg and config
+as inputs and ""createContentItem"".",False
+225bfbb053e5dff0f3732da8391f9a86095b7262,2021-02-15 19:27:01,Bogdan Chadkin,Move config processing into optimize,False
+1b776ffea5accea57b6a122c7e2b7053d95c875b,2021-02-15 17:00:09,Bogdan Chadkin,"Simplify plugins configuration (#1324)
+
+- replaced named plugin object with ""name"" field
+- dropped support for params in plugin object; use only params to pass plugin options
+- dropped support for ""boolean plugins""; use active field instead
+
+```diff
+-{
+-  pluginName: {
+-    fn,
+-    params: {},
+-    ...params
+-  }
+-}
++{
++  name: 'pluginName',
++  fn,
++  params: {}
++}
+```",False
+6cecd76f624a7827ffcb809228fe4902582c9415,2021-02-15 15:42:29,Bogdan Chadkin,Remove config extending and full flag support,False
+2965e8ccdb84a9a17353bf6c41fe83da7e9f57ba,2021-02-15 14:30:45,Bogdan Chadkin,Drop plugin by path support and load builtins statically,False
+8899f682b89abd0590250404d015be3ffdcd9cc9,2021-02-15 05:11:28,Bogdan Chadkin,Remove coverage imports from tests,False
+a1c1b7f443806a89edcb45dbc6e25e0a4bc0f7d6,2021-02-14 20:14:18,Bogdan Chadkin,Remove json string as --config value support,False
+cb14e3c0b3accb584969c30a30cb4239d9e2cf51,2021-02-14 20:05:05,Bogdan Chadkin,Upgrade commander,False
+a1dc0ffc1f54f6c7171ece6c215070758a153228,2021-02-14 18:36:27,Bogdan Chadkin,"Enable coverage (#1323)
+
+Nyc is much simpler to setup and use.",False
+bc44ab3f299ebcd1a953c4d2a47075b8bcdfbf63,2021-02-14 17:42:41,Bogdan Chadkin,Refactor assertions with chai expect,False
+1dc5ee3ee1a8c3ca183ef849df2c67c843bcaaa2,2021-02-14 17:29:50,Bogdan Chadkin,"Make optimize synchronous (#1322)
+
+Ref https://github.com/svg/svgo/issues/1015
+
+Looks like `sax` is synchronous and we do not need to listen ""end""
+event. This allows to avoid all callbacks and make `optimize` method
+synchronous.",False
+b85d7f98856ec49be47f0302917f93f03048e2df,2021-02-14 02:23:40,Rob OLeary,"Update README with note on glob support on Windows (#1295)
+
+See issue #1233 .",False
+ce2ce0de481c72a8ec82dbf112f6822afbb4d4ce,2021-02-14 02:17:09,SheetJSDev,Cleanup LICENSE (#1157),False
+57aecc50ac2abaa04c884804ef5057109a45b929,2021-02-14 00:53:19,Bogdan Chadkin,"Replace coa with commander (#1293)
+
+Ref https://packagephobia.com/result?p=coa https://packagephobia.com/result?p=commander
+
+Coa was not updated for 2 years already and has outdated dependencies.
+
+In this diff I replaced it with commander which has simpler syntax, none
+dependencies and require arguments out of the box. Also array argument
+is set syntactically which means more user-friendly ""help"".",False
+1a35a583243fe390901aeaa787b9d7bb25195295,2021-02-14 00:51:30,Bogdan Chadkin,"Replace util.promisify with fs.promises (#1290)
+
+Node 10 add support for promisified fs methods.
+https://nodejs.org/dist/latest-v10.x/docs/api/fs.html#fs_fs_promises_api
+
+In this diff I replaced util.promisify package with the new methods.
+Though this requires to bump end-of-life node versions.",False
+77061928097fe1123934a0a72a40c19599a1ba10,2021-02-14 00:46:40,Bogdan Chadkin,"Replace travis with github actions (#1321)
+
+Github is closer to the source.",False
+4a08c6d0390063e8c417a2319f44da2b860b2f1c,2021-02-14 00:16:15,Bogdan Chadkin,"Replace mkdirp with fs.mkdir with recursive flag (#1291)
+
+Ref https://nodejs.org/dist/latest-v10.x/docs/api/fs.html#fs_fs_mkdir_path_options_callback
+
+Node 10 add ""recursive"" flag support to fs.mkdir which behaves similar
+to mkdirp package.
+
+Though this requires to bump node support.",False
+5f1d59340a8abfbe830b0a4cc301cfb322fca254,2021-02-14 00:11:28,Bogdan Chadkin,"Merge pull request #1292 from TrySound/drop-object-values-polyfill
+
+Drop object.values polyfill",True
+93170d387044c2bc0b9882660c2bbbbf53889b56,2020-10-03 01:46:51,Bogdan Chadkin,"Drop object.values polyfill
+
+Ref https://packagephobia.com/result?p=object.values
+
+Object.values is supported since node 7. It can be removed with major
+bump especially since it's quite heavy.",False
+07ca9764f71fb946adc23f4ea9f19070d335305d,2019-12-11 00:27:12,Eugene Chechuryn,Add Figma plugin link to Readme,False
+77464801e7f38a62ca4542033c8099d38b90d5f0,2019-11-10 00:11:17,alexpavlovich,Fix cleanupIDs if defs is last elem of svg,False
+1152257505fac490b29dd7e8eed0d7b3bdf8e557,2019-11-09 01:28:43,Cyrille David,"Perform `cleanupIDs` optimization when style/script tag is empty
+
+cleanupIDs plugin is disabled when a script or style tag is present. I
+assume that this is because they might contain an id.
+
+If these tags are empty there is no point in not cleaning the id though.
+When running svgo with the option `multipass: true`, it allows us to
+first run `inlineStyles` plugin to empty the style tag. Then, we can run
+`cleanupIDs` plugin.",False
+6db82a3323f787329a6fe6db25ae8b3aa63db0af,2019-11-08 21:10:25,GreLI,Correct test,False
+fafcbd7bd00de03d93ab55429e5841bc70681a14,2019-11-08 21:06:45,Sviatoslav Bulbakha,"Fix `prefixIds` plugin error with animations
+
+Fix #848",False
+fdf9236d12b861cee926d7ba3f00284ff7884eab,2019-11-05 22:02:02,GreLI,Add test for collapsing of repeated commands,False
+dfe649fa8ddf9ebd69c9ec9e38fd93db236307c7,2019-11-05 21:52:43,jlherren,"Fix collapsing of repeated commands in convertPathData plugin
+
+This fixes #1166",False
+72db8ebbbf5aa3ac82a32c5b744cb09deeba5e35,2019-11-02 14:44:38,Marc Jansen,Change wording of API doc comment,False
+d17c429c4f12467fa2beee2d7396bbcb1074bf05,2019-10-30 16:30:29,Lev Solntsev,v1.3.2,False
+99d9c3c13af04ec48c13b32103c9095879cf4fba,2019-10-30 16:22:26,James Ross,Default `info` on SVGO.optimize API,False
+58232a323adc03450211f5e6b5aed025af72224b,2019-10-30 01:36:01,GreLI,v1.3.1,False
+0e6b0ad8e5ee16a1f4efe93530db57097f7c8b81,2019-10-30 01:24:36,James Thomson,"Fix 'cleanupIDs' minify bug due to preserved IDs
+
+Prevent 'cleanupIDs' plugin from producing a preserved ID, including one
+which matches a preserved prefix, when minifying.
+
+Closes #1158",False
+71c7fe74b9a6cbbbe6d8e4f318a0d6fb35c1d727,2019-10-30 01:20:59,strarsis,"Add multipassCount to info object passed to the plugins.
+Use info object to skip subsequent passes in prefixIds plugin to prevent unintended, multiple prefixing.",False
+67be534d30e1a645d6f2948e068b5081c50ace8b,2019-10-30 01:17:09,strarsis,"Update csso to 4.0.2 (+semicola in styles test) (#1172)
+
+Add test with SVG with double semicola (;;) in styles for reproducing csso bug.
+Update css-tree to 1.0.0-alpha.37 (as it is also used by csso 4.0.2).",False
+11f9c797411a8de966aacc4cb83dbb3e471757bc,2019-10-03 20:43:53,Marco Fugaro,Add active column in plugins table to readme,False
+9160a41fef31001d4c420608ee8c72e93ff98beb,2019-10-03 20:41:55,Aditya Patadia,added node v12 in travis,False
+10a302f73dd81122c8363ae164ba5a6af1de46e2,2019-07-14 22:14:48,GreLI,v1.3.0,False
+cc9ad33082c11044e175c806b37620d5ac4289f4,2019-07-14 22:07:58,GreLI,Add ‘sortDefsChildren’ to default plugins list and readme,False
+023013abf904e16dcd6b8724370c2a342a9ac6b5,2019-07-14 21:52:59,GreLI,Use ’force’ option in ‘mergePaths’ only for paths with same attributes,False
+e1dd31cf84fa2d6e95d82d6154f1e4dac8bb0b69,2019-07-14 21:21:50,GreLI,"Fix 180deg ‘convertTransform’
+
+Fix NaN after Math.acos due to error making illegal value out of bounds
+Fix #1101",False
+8671c4c3df824d1a836205fee9e752d679abaf2b,2019-07-14 14:37:59,GreLI,"Fix incorrect prev arc segment angle calculation.
+
+Close #1109",False
+27cdeb7c1ca550466fc4e4637a6ebd255d948f2a,2019-07-14 01:53:40,GreLI,"Add a warning about plugin configuration error
+
+Usual error by not proper YML syntax like #1115",False
+ac3438646629860e8b8e32ca6d41a3c8034905ec,2019-07-14 01:22:56,Vjacheslav Trushkin,Copy plugin params when initializing plugin by name,False
+d3e91418aaadad1557d4c5999098f235cf08be08,2019-07-14 01:21:31,1000ch,Export config function to enable to use,False
+5ee68c480847c047ef681abf2d068cec1f23d6c3,2019-07-14 01:21:06,strarsis,Add options to prefixIds plugin for selectively prefixing IDs and/or classes.,False
+3d6d8045d999cbf309665e3b2e6bec34e7fbd72d,2019-07-14 01:18:35,Vitaly Harisov,lib/config: load custom plugin defined via path in config,False
+357de5f3ea4cdbf3d6045065cc388a2684049553,2019-07-14 01:18:35,Vitaly Harisov,lib/config: add setPluginActiveState function,False
+b5330638e81271c45016cd97a9138f7e6a2be30c,2019-07-14 01:05:23,GreLI,Add ‘convertEllipseToCircle‘ plugin to readme,False
+7d0c471675e55551fac25ae5565ce35dca21ebf3,2019-07-14 01:02:22,GreLI,Add ‘convertEllipseToCircle‘ to default plugins list,False
+8e45fa2d58c5cb34fd36fa8ebc24a4814eb1824b,2019-07-14 01:01:22,Taylor Hunt,"Add ‘ellipseToCircle’ plugin
+
+Converts non-eccentric ellipse elements to circle elements.
+Adobe Illustrator seems to be fond of using ellipses even if their rx === ry.",False
+31e6a8cb65d98f42d4969ededcbff52fdeec1912,2019-07-14 00:57:47,Adi Pascu,Make removeDimensions add viewBox if it's missing,False
+b9905aa5ec467e6e4e62fb501fc8508338d6841b,2019-07-14 00:55:21,Michael Irigoyen,"(Fix #800) Add option to the mergePaths plugin, forcing all path attributes to be combined (#1084)
+
+Add  option to the mergePaths plugin, forcing all path attributes to be combined",False
+269c47198b13d8a3a1981b77128455b225b3af54,2019-07-14 00:44:29,GreLI,"Update Node versions in Travis
+
+Add Node 10
+Remove Node 4 since it's not supported by latest mocha",False
+9fe7c28a81f10983c03b53e954ab03efa56e68f6,2019-07-14 00:40:10,GreLI,Bump dependencies,False
+4dfbd76d594a442970d8990fe60aaa16a086891f,2019-07-14 00:13:36,GreLI,Fix final sorting condition in ‘sortDefsChildren’,False
+8d0b9b8bf87dc7cd00a48c0ed26251cf95e5b910,2019-07-13 18:52:33,GreLI,Fix typos,False
+258fecfa6b4a037d98ad2614f5c9573728f6959d,2019-07-13 18:48:08,GreLI,Remove spaces after ‘arcto’ path command flags,False
+95f7603983d50aa579b6ebb21fa747d0436e5581,2019-05-19 23:14:36,GreLI,"Fix removeUnusedNS not counting usage in <svg> tag
+Close #1107",False
+5f70831868d29090e3d8f92c58e813814c22bc9c,2019-05-08 22:29:05,Kir Belevich,Update package.json with new e-mail,False
+c7058eb7aceb8126283d4a2929899042db8976be,2019-05-04 22:53:30,davidleston,Fixes svg/svgo#761. Sorting defs to improve compression.,False
+d6e462b679a11376694c948c81e5c984c3db8bae,2019-04-22 16:42:42,Kir Belevich,Update readme with Backers and Donations sections,False
+fe0ecaf31eb87a913638a62f842044e425683623,2019-04-17 00:41:15,GreLI,Updage changelog and documentation parts,False
+71188f8fb490fcb8217287dba8cf1653b41608bd,2019-04-17 00:35:42,Ben Scheiner,Document multipass option,False
+db45845e1cb2b3f8b5228e0e222098d3d638ee2c,2019-04-17 00:20:12,Kyle Aungst,"🔧fix: update js-yaml for Code Injection warning
+
+fix npm high Code Injection vulnerability warning patched in version 3.13.1",False
+d9ae161e3410bdc90cc5897eec7465e78e1cce28,2019-04-05 01:24:25,Kir Belevich,Update changelog [skip ci],False
+5969899855e8ca2e448ec62d3868414abc97cf55,2019-04-05 01:20:40,Kir Belevich,v1.2.1,False
+593ea85828ffa0ec3b6f7dd52ed8fffa7ffb2635,2019-04-05 01:14:42,Kir Belevich,"Merge pull request #1089 from eugestarr/master
+
+Bump up js-yaml version to fix DoS vulnerability",True
+bfae92835b56adaf06d8cebf699f997f9163aed2,2019-03-22 07:00:19,Eugene Starr,Bump up js-yaml version to fix DoS vulnerability,False
+aa0df733a6d23bb17cbcbb00ccc0bac415020e85,2019-02-25 01:06:15,GreLI,bump package-lock.json version,False
+0cc1d0a3d6d6ea38eb2f764d17fb097d9ffe6b31,2019-02-25 01:03:40,GreLI,v1.2.0,False
+3488f00a070d24901d880c13c17b80fb9af28387,2019-02-25 01:03:23,GreLI,"Bump dependencies, add package-lock",False
+521ce0adf2680a26082b7b0069e4eeaa869f8770,2019-02-25 00:55:00,GreLI,update readme,False
+d23355e91a20d39bfe13bfbadf81155cdc18c541,2019-02-25 00:31:01,GreLI,removeAttrs: add optional value filter (#977),False
+5d97108687bc6400d6daabed2651db173483f8ff,2019-02-24 23:34:24,bbqaaq,update namespace list (#1064),False
+eb0d66ab1b019ac62fa219378ea6ff2256c20f8e,2019-02-24 23:34:01,Pavel Djundik,"Replace colors dependency with chalk (#1061)
+
+use 'chalk' for colors in console",False
+7eeb5d064d22f67cbf365ee6547c30a0e3d5de18,2019-02-24 23:32:03,Brad Kotsopoulos,"Add config to preserve IDs based on prefix matching (#1060)
+
+add parameter to preserve IDs based on prefix matching",False
+dcd95d50ff006ca3a0b121d42272dab0a8006403,2019-02-24 23:06:05,Bart Nagel,"Add prefixIds to readme (#1047)
+
+add prefixIds to readme",False
+f84bff32204c21774bcb4759a444ace5a1c2bc77,2019-02-24 23:02:54,Jerry Martinez,"Support comma list of plugins for --disable, --enable options. (#1019)
+
+support comma list of plugins for --disable, --enable options",False
+416fcdfa9f2fad623c1d4a5c3648402918191cb1,2019-02-24 22:58:56,Jacob Howcroft,"SVGO: Add plugin ""reusePaths"". (#1005)",False
+0fe5368e0ebee837cc025690412da8e56cc15073,2019-02-24 22:50:36,Rob Levin,"Add the preserveCurrentColor option to the removeAttrs plugin. (#1000)
+
+Add the preserveCurrentColor option to the removeAttrs plugin.",False
+32558b891f689a9db11e72e1165b0cabafbb4828,2019-02-24 22:43:12,JoshyPHP,add removeOffCanvasPaths plugin (#979),False
+b4bd5d52e3cd3ffaf3fd0d6a10710433fc5c28a3,2019-02-24 22:37:38,Bradley Mease,"Add removeAttributesBySelector plugin (#929)
+
+* Add removeAttributesBySelector plugin
+
+Removes attributes of elements that match a css selector.",False
+d911f0f4c71246d37cefd5ba69f97e03fe98c5f3,2019-02-24 22:24:59,Kozlov Sergey,"Option recursive (#837)
+
+Add -recursive (-r) option",False
+ee065be5a88c85b976db601c13eb6e55650a7d68,2018-10-28 22:06:58,GreLI,Fix indentation,False
+5718ef276c7b96ff6d6051b67102ac9f0cd9888e,2018-10-28 22:05:37,panczarny,Make default config behave as immutable,False
+02e0e416c8145da6770fde2174b977a83daea008,2018-09-17 15:08:44,GreLI,v1.1.1,False
+dfcc145d5abac0690453b7ab15a24c59004da1bf,2018-09-17 14:10:20,Lev Solntsev,"Fix crash when ‘info’ is absent
+
+Fix #1030",False
+ed75e56bdeea9be274a9016d58d6bce5f90843c7,2018-09-16 23:28:12,GreLI,Fix and update cleanupListOfValues tests,False
+e7bdce66ed1f47bed291ddda2ce9871eb78bd327,2018-09-16 23:18:23,GreLI,v1.1.0,False
+37d4ca88efa1c85b8761e63ad3ddaf207196a1ce,2018-09-16 23:08:01,GreLI,"Fix cleanupListOfValues to preserve non-numeric values
+Fix #923",False
+eeeb67d5a8cc18168027064088312f25e8eac823,2018-09-16 22:17:51,GreLI,"Fix convertTransform wrong rotate sign
+Fix #986",False
+7a07b8436d14df671f4372317066904d5ade27aa,2018-09-16 20:08:34,GreLI,"Fix collapseGroups plugin affecting switch and subgroups
+Fix #1020",False
+580063522638e9e301d32effa7035a577db96354,2018-09-16 19:42:06,GreLI,"Fix converting to large arcs from nearly straight lines curves
+Fix #842",False
+a4fb3a4a7e27c89a8947a14ebbb8ea683c18fd7a,2018-09-16 18:54:53,GreLI,"Prevent removeUnknownsAndDefaults removing attributes from elements with id
+Fix #959",False
+831f95fccc93646b7157b4f8cf7328a291b08dc1,2018-09-16 18:06:41,GreLI,"Fix empty path segments removing with stroke-linecap
+Fix #1017",False
+a165206632d322cf0dd03ef1fc8c4fe3cd2e658f,2018-09-16 13:37:43,GreLI,Update presentation attribute collection for removeNonInheritableGroupAttrs plugin,False
+36db31adcfb733f357dee2a882de16122c4aefe9,2018-09-16 01:18:09,GreLI,Fix removeNonInheritableGroupAttrs not working as intended,False
+f3bcbcc6a6c077af6763dd15762b34f881320af3,2018-09-15 21:22:35,GreLI,"Fix viewBox value parsing
+Fix #1024",False
+3c82fd7287522e65ab0303834beaf7a92260cbe6,2018-09-15 19:08:34,GreLI,"Correct parsing of arc flags without following comma/spaces
+Fix #822",False
+86ecd372e72b9d2335706aa62c0c4199eaea8ee6,2018-09-15 17:45:11,GreLI,"Handle !important keyword in convertStyleToAttrs
+Fix #749",False
+72fa7d335f309ab5545d47cc0769cc36737cc81f,2018-09-15 17:32:02,GreLI,"Sync readme and tty help
+Fix #597",False
+32e9e415ee1fd829ccf2b3165ed4cabd2dd3bdf2,2018-09-15 17:22:19,Rouven Weßling,Update css-select to version 2,False
+aa99c6fcc1b5a546be7add3597493eadada4819b,2018-09-15 17:22:05,Rouven Weßling,Update js-yaml to version 3.12,False
+7fd5bde8080789fe0026ed306a398b9326df8f84,2018-09-15 17:20:48,Rasmus Porsager,Add rollup-plugin-svgo to list of usage,False
+8a43a5c140f25742343573362a21438b2c12b524,2018-09-15 17:19:21,dabutvin,"adds jshint to devDependencies
+
+This enables 'npm i && npm run lint' to work with no globals required",False
+f92629fc545f194e146eab1a121071e27227cf92,2018-09-15 17:18:15,Mike Morici,Add keepRoleAttr option for removeUnknownsAndDefaults (#1002),False
+62f67dee297430869e41f5649996699c44c68e5f,2018-09-15 17:16:45,Benedek Gagyi,"Return the path, so it can be used to overwrite the file with the optimized version",False
+b2b9acb23ee490d68661c2b2cb807cc52112942d,2018-09-15 17:15:46,Sasha Joseph,tweak: do not collapse group properties to children if they contain filters.,False
+3e2fd44a17a464514f32f526ba6cd972ab4816c5,2018-09-15 17:14:17,Bradley Ayers,feat: offer ES module interop default export (#934),False
+e7b8a6ce7d4467dee981b43cf25fd01468b5ab03,2018-09-15 17:13:28,Stephanie Miller,"Upgrade css-tree from alpha25 to alpha.28
+
+API changed walkFoo(ast, fun) to walk(ast,{visit: 'Rule',enter: fun)
+csstree.translate renamed to csstree.generate
+csstree.generate throws an error on invalid style where translate silently ignored it - update style processing to catch and ignore instead
+Updated tests - csstree now omits more whitespace",False
+e928c1f050c6e809c2b8180d7d52b244458d837d,2018-09-15 17:10:34,Mikuláš Sychra,"Update convertPathData.js (#906)
+
+Added parameter forceAbsolutePath to get absolute SVG path (even when the relative path is shorter).",False
+50f4fed02b6140a2ac7a021a3e0308cc1706311a,2018-09-15 17:09:36,Alex Lockwood,dont transform stroke width for non-scaling-strokes (#857),False
+5e376a4b656cd4a7909b07f3d075e365b3729749,2018-09-15 16:28:59,Alex Lockwood,Fix missing return in JSAPI#removeAttr method (#855),False
+828a72a8962a9ef0a2aca3f9ba50382fabe87950,2018-09-15 16:27:47,Alex Lockwood,fix broken jsapi clone method (#854),False
+dd2a21fcd2b9790993a38ba06e4e06a764c95d7f,2018-09-15 16:22:16,GreLI,"Fix default plugins initializing
+Fixe #852, close #853",False
+ba07843565aa50cd9dfde0c8806921c14f532096,2018-09-14 15:48:38,Taylor Hunt,"Don’t round `version` attribute (#1028)
+
+Fixes #1003",False
+174c37208017e5909d5f7db2e8faba49663a945a,2018-08-01 21:14:40,GreLI,Remove dependency status badge since Gemnasium.com is closed,False
+c40d80c174fa1855a1ab7abbc7876025b5b42967,2018-08-01 21:07:48,GreLI,Syncronize and slightly improve russian readme,False
+d214760b61b1997e05144ebd57a8a532c6d51465,2018-08-01 20:55:51,Jan Pöschko,Add doc entry for inlineStyles plugin (#1009),False
+54f92ce2deccdbd3177b711b06aa0cf928039c4c,2018-06-15 13:58:59,dale tan,[plugin] sortAttrs: add xmlns order option (#984),False
+083585976624bf09eda0a0133aae510c34959622,2018-06-12 23:32:20,Ilya Kolebayev,"Update README.ru.md (#981)
+
+SVGO plugin for Sketch added to ""Другие способы использования SVGO""",False
+83548977eaf9683d586339b142befdcb949bff8a,2018-06-11 15:34:52,MeteorPlus,"fix for references nonexistent transformsWithOnePath plugin (#980)
+
+Update test.js (which incorrectly references nonexistent transformsWithOnePath plugin)",False
+102a7210a735bddda62b25742c79fa8935718092,2018-06-02 16:40:26,Adam Demasi,Add Microsoft Visio XMLNS to removeEditorsNSData. (#974),False
+974c224d4c5dca15d0f93d875e993a0daff28070,2018-06-02 00:11:02,kudohamu,fix typo in examples (#973),False
+6b97aef00892ab228eac66bb18fddc9a054ffb91,2018-05-02 02:10:09,Eric Fung,Add link to Sketch plugin (#953),False
+9dd1802a0ded879a3d79e175e7b8696dc1cba965,2018-04-24 18:09:59,Vitali Zaidman,fixed #948 - adds prefixes to each class individually (#950),False
+a63f7a72538d7fa457bea27a208d8fd64fedf520,2018-04-04 15:36:45,Stefan Schulz-Lauterbach,Add image shrinker,False
+dd65b54019a7c0a07f9e078bf71611dba465c608,2018-03-24 00:09:46,Patryk Mikołajczyk,fix,False
+3801d08d91a9a4c8ee0859c2c1355caf30546dfc,2018-03-23 01:16:23,Chris Cesare,Minor edits to the opening paragraph of the README,False
+73436be45cddc170221f087edd53d212864463e3,2018-03-22 01:32:42,Benjamin Gruenbaum,Update tools.js,False
+0a142f3ca09e17a5d8ec47e4a70a65a6c1db7d74,2018-03-16 23:09:21,Vitali Zaidman,"Prefix ids plugin don't add prefix if prefix is false (#907)
+
+Add to 'prefixIds' the option to pass prefix as false or as a function that returns false",False
+ece039ed8a35f744dd752061765860ff93a8c3aa,2018-03-08 21:07:18,강석재,Update ko.md,False
+162bb48184bb881ef52a7a526d5b55357f69098b,2018-03-08 21:07:18,paroblow,Fix typo en.md,False
+793a5aa3719a84007b93189efa4539cd663e15ae,2018-03-07 12:53:13,Roman Gusev,"Update README.md
+
+Use dashes everywhere in the `other ways to use` section",False
+878b3892cd79af968c8e2ec713d3177e372c9623,2018-03-07 12:20:20,Yehonatan Daniv,"Fixed attribution of CSS Color Module 4 fix
+
+Actually, I did that :P",False
+d968d45a250d841407aed5eab795a867d0829b9d,2018-03-03 00:04:21,Dan Burzo,"Fixes #915 for collapseGroups (#916)
+
+Fix #915 for collapseGroups: overwrite  value with parent value
+When the inner element has the value, don't remove the parent groups that defines what that value is",False
+5daa89dc1c1f52ef412b9b41c2571b7e6400025a,2018-02-27 00:31:04,GreLI,Update changelog to v1.0.5,False
+cd36e14c3092b2e7b2caa11eb647e77cb3e0a657,2018-02-26 13:32:49,caub,v1.0.5,False
+4dbd2572076113fd6026ad56af71028c728f0075,2018-02-19 22:06:53,Cyril Auburtin,"Merge pull request #908 from harrisjose/master
+
+Fix issue with prefixIDs plugin not replacing url() refs correctly",True
+40987c96438706e5847d3275f1c64232774d3bb8,2018-02-19 10:56:57,Harris P Jose,"Fix issue with prefixIDs plugin not replacing url() values correctly
+
+Global regexs must be reseted after every exec call since they preserve the last matched index. Since we use `css-url-regex`, creating a new regex before `exec`ing fixes this.",False
+2ce106667165f13b4f0929a52e35d96761b2c613,2018-02-19 10:54:43,Harris P Jose,"Add failing test case for prefixIDs plugin
+
+When using the prefixIDs plugin  on an svg with multiple linearGradients, url() values are not replaced correctly",False
+6a9bc56864933aacda92edf62b2ce4e8fbc1cc08,2018-02-08 22:14:11,Volker E,"Clarify how to enable/disable multiple plugins (#904)
+
+Clarify how to enable/disable multiple plugins. Fix #900",False
+e0a8367e6074f1f1c1322475cda7e2a28bf63e32,2018-02-08 00:38:18,Volker E,Fix `enable-background` attribute,False
+36213a8d088be15f91c1d8d49b03f7dad49d81a7,2018-02-08 00:37:35,David Konsumer,inkscape-svgo,False
+981328e476bb2140c7b8143ecd12d637f0c46f8d,2018-02-07 23:59:52,Lev Solntsev,"Merge pull request #902 from bnjmn-jns/patch-1
+
+Added config example to node example file",True
+3ec6cef333ef9106eab7f880dab9a76997101724,2018-02-07 15:36:42,bnjmn-jns,"Added config example to node example file
+
+There is (understandably) some confusion about how the config files works (see https://github.com/svg/svgo/issues/439) so I've added an example (the one given in that issue) in place of a fairly useless placeholder",False
+c47c71b923e3d2d03a9e23a71201df22b648c42c,2018-01-30 15:18:09,GreLI,v1.0.4,False
+b6274f24969055ec606e8a78c79234c135195a98,2018-01-30 15:09:03,GreLI,Bump dependencies,False
+1a3c32bb43f5382cb15148dc3b4e94ecb57938dc,2017-11-23 01:00:02,GreLI,Fix error due to invalid transform. Close #846,False
+b182569c5f75545be768b2952501f9cb82bb00d8,2017-11-23 00:12:49,Alex Lockwood,Fixes #218,False
+54de6f7592843a5acea80e7e476ba10fa33ec7e2,2017-11-22 01:07:03,GreLI,Correct check for switch,False
+eb3b4b81887d046a29be59ff853d20339df46bb4,2017-11-22 00:28:17,GreLI,"Prevent removing groups that are direct child of ""<switch>"". Fix #845",False
+a6d2c88f9ca128e145d06b05bd9b87c1985b0a15,2017-11-09 00:43:53,GreLI,v1.0.3,False
+f067ea996fe381a395effbf5e9526e2cedf39558,2017-11-09 00:34:42,GreLI,Fix removeViewBox to check for zero start coordinates. Fixes #832,False
+efcb07ee658a12e2d4b57aee0ae088a1cc54b56e,2017-11-07 14:47:51,Dave Shifflett,"Avoid extra trailing whitespace in stdout mode
+
+Not only does `console.log()` already print a newline after its output,
+but it prints a space between each of its arguments, so including `'\n'`
+as a second argument results in a trailing space, then a newline, then
+another newline. Excluding this extra `'\n'` results in just one newline
+after the data.",False
+7797bbad47be037df3f5ce21caa4a7f68ea6eab8,2017-11-07 14:47:51,Dave Shifflett,"Do not print statistics when using in stdout mode
+
+When using the `stdout` output mode (e.g. using `svgo -` within a
+pipeline), the time and optimization statistics shouldn't be printed in
+the output stream.",False
+3ec0767ba0ca3aff507ace3b3798de69084c4649,2017-11-03 16:03:46,Lev Solntsev,v1.0.2,False
+ceccf1ffdcdcba0f422a49685c2f60520579e46a,2017-11-03 15:57:02,Lev Solntsev,Fix inlineStyles working on foreignObject content. Fixes #823,False
+f03d83283813fdf9300d636a5ba240e0b1243573,2017-11-03 15:24:36,Lev Solntsev,Update readme to sync with actual state,False
+e25cf30fcbb7b6de7651d4bf9cc43431ea638051,2017-11-03 15:05:46,strarsis,"Add tests and fix for onlyMatchedOnce option cleaning classes/IDs that matched more than once.
+Improve code.",False
+00ca73bff44f67724f5254d1993bd47c1683f376,2017-10-31 16:24:16,Lev Solntsev,v1.0.1,False
+471aec5e250c9e3c70afc1d795996ca104321753,2017-10-31 16:20:20,strarsis,"Fix #820 (#821)
+
+* Add test for inlineStyles plugin/CSSStyleDeclaration API.
+
+* Adjust test.
+
+* Always initialize element attrs with empty object.
+Improve code.",False
+80ed6842ddef601c3b0fd1aa1ceb548f7a211b8d,2017-10-31 01:00:23,GreLI,v1.0.0,False
+1aa9e9a56a00e3ca4c235f4af5f6d16915cd6901,2017-10-30 23:51:44,GreLI,Remove 'recursvie' option as not implemented,False
+999cfbd97c37e2b1de3b2ccc26f5498daf6e2fc8,2017-10-29 13:15:35,Alex Lockwood,Convert circles/ellipses to paths (#818),False
+b51192cb7a41454f1b4af34bdf53a1898c2c5349,2017-10-26 00:55:57,GreLI,Fixed addClassesToSVGElement and added test,False
+eceb95c3105b3b31eb54d00c5e82adf624d2a4f8,2017-10-26 00:38:58,Keegan Street,"Updated addElementsToSVGElement plugin to support attribute values, as well as attribute names.",False
+239f383f3bbbc6204248043ce4df60ea80584712,2017-10-26 00:34:58,Roman Dvornov,Pin css-tree version (fixes #813),False
+645908923bb163e177023ca21fe04a380fade126,2017-10-24 01:24:02,Mike Street,"Allow element seperator to be changed in config
+
+This resolves #557 as you can pass in a different character for element seperation (e.g. `^`",False
+91d98106d4c75a947301e152ad97dc947990e9e2,2017-10-24 00:44:43,strarsis,"Add prefixIds plugin (#700)
+
+Add prefixIds plugin",False
+d828a621007e35732624e96041f23af6b276328e,2017-10-23 01:00:17,GreLI,Bump dependencies and minor fix for inlineStyles,False
+2523799a12545a4035557043ee343945a7b7830f,2017-10-23 00:27:47,strarsis,"Add inlineStyles plugin (rewrite of localStyles plugin) (#592)
+
+Add inlineStyles plugin",False
+f2fa7a33bed6db62308d8f98dddb6eccb7ba4552,2017-10-22 23:49:30,Christoph Päper,add support for tab indent,False
+055e303607d53a3d539761d8727d86c03b2e88c1,2017-10-22 22:02:24,GreLI,Tune plugins,False
+f8234fd3f88572d311a6c455512a08b6594987b4,2017-10-22 21:11:35,GreLI,Prevent removing IDs in SVGs only with defs,False
+3b6fa1ed31968d583c5bc29219b396a74392c974,2017-10-22 20:32:52,GreLI,Fix typo in test,False
+93f2760a026264df3c5ec1e36abe48cc6f3c6e98,2017-10-22 20:26:47,GreLI,"Support ""href"" attribute from SVG 2, fixes #772",False
+f044d259e7c15a5773d802fa293652b4f3344d34,2017-10-22 20:12:57,GreLI,"Fix error on empty file, fixes #810",False
+6f9fdb1e761cc52da2f0068ddcc1f0a2937353fa,2017-10-22 19:48:19,GreLI,Sync russian README,False
+7718a63b3af5356efc92eef3dd54ff00144170ca,2017-09-30 00:22:35,Drew Noakes,Indentation and syntax highlighting of shell code,False
+cbaefd8dcbb8b940ab373c4c1e29f55f01682541,2017-09-22 23:52:46,Dave Houlbrooke,"Update removeDesc.js (#798)
+
+Expand default config to remove <desc> tags that start with ""Created using"" (in addition to ""Created with"").
+
+Change is due to Figma using ""Created using Figma"" as their default SVG description. Sketch and others use ""Created with Sketch."".",False
+cd8a405aa25439790193be9507300340d08b035c,2017-09-14 23:55:51,David Leston,Removed an assigned value that's never used. Also fixed typos. (#764),False
+87796acbcb9dcb3d56b6dfb07229f4a2ba4b7ca1,2017-09-14 23:54:00,Yehonatan Daniv,"Updated colorNames according to CSS Color Module Level 4 (#755)
+
+Update colorNames according to CSS Color Module Level 4",False
+11e72c85d10855c1a961fac0cf38bd55af8264ac,2017-09-14 23:52:22,Lev Solntsev,"Merge pull request #753 from craigmichaelmartin/patch-1
+
+update readme to remove link to obsolete tool",True
+dc8042a030ef82f2a0502a09f692929f7682ccca,2017-09-14 23:50:32,Lev Solntsev,"Merge pull request #752 from JoshyPHP/ticket-708
+
+Fix arcto sweep flag when a transformation matrix is applied",True
+a1c721013509eec9203cd4673e5dfd7de7d61235,2017-09-14 23:48:52,Lev Solntsev,"Merge pull request #760 from davidleston/#759-upper-case-hex-to-shortname
+
+Closes svg/svgo#759. Upper case hex color now converts to shortname.",True
+dd0317c51f4d8d52ca5218698e4dade445557dda,2017-09-14 23:48:43,Lev Solntsev,Merge branch 'master' into #759-upper-case-hex-to-shortname,True
+8c3f756cec113fe3dc6e63ac8092fe387526a7cc,2017-09-14 23:46:53,Lev Solntsev,"Merge pull request #758 from davidleston/#757-shorthex-false-does-not-transform-f00
+
+#757 shorthex false does not transform f00",True
+1eb39cd24ac31733e850868e30115ccd4f81022e,2017-09-11 00:26:47,GreLI,Fix optimized size comparision in tests,False
+6845090c6d058ffdd45d2654a0753191f6b7d363,2017-09-10 23:42:54,Lev Solntsev,"Merge pull request #756 from davidleston/patch-1
+
+Typo fixed: if yout plugin -> if your plugin",True
+e3ddf1d96ab88beb9f496a122dee6ebcb4a0c907,2017-09-10 02:26:07,GreLI,Process *.svg files,False
+bcd8035a40f7e95e9c639bc5b400187d61bfcebc,2017-09-05 19:06:17,GreLI,Correct jshint,False
+645a83fa6a6f274f3de9bc3ebe6ce7ef748a94c7,2017-09-05 18:22:38,GreLI,Cleanup coa tests,False
+b367c8749065c77ec0fe62614eba48d96acdfe88,2017-09-05 17:51:45,Lev Solntsev,"Merge pull request #778 from LISBON11/fix_coa
+
+Fix coa",True
+b96982ffacda7e233a081121130287c5d63068f1,2017-08-24 04:01:57,Liza Golubenko,add tests for coa,False
+114b2cfaf32c15e1424eb4c86d7eed2343c0b781,2017-08-24 03:16:13,Liza Golubenko,fix coa,False
+d70f6fc831410d84d3f6800c893d98c5a2587d61,2017-08-11 02:28:02,Lev Solntsev,"Merge pull request #776 from caub/patch-1
+
+Update cleanupIDs.js",True
+661e6d157019ed961b2065005f062a3d0670642c,2017-08-10 19:46:30,Cyril Auburtin,"Update cleanupIDs.js
+
+begin an be `""0s;third.end""`
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/begin",False
+898f0a2ca502415dc3088f185029e757ba085c65,2017-07-13 05:45:13,davidleston,Closes svg/svgo#759. Upper case hex color now converts to shortname.,False
+c4727ee742799034c5cb5af3a351b8c3f56dcf5f,2017-07-13 05:35:31,davidleston,Closes svg/svgo#757. ff0000 now converts to red when shorthex is false.,False
+da2e4487b58185fc92356adedaf9be50df5f843a,2017-07-13 05:33:25,davidleston,Closes svg/svgo#757. ff0000 now converts to red when shorthex is false.,False
+7f329bc74cf43058b5a9bfd811129fb64c7c7618,2017-07-13 02:31:24,David Leston,Typo fixed: if yout plugin -> if your plugin,False
+dd8865b5da20489953ba1e32f1b4feadedc4b6ff,2017-06-30 22:51:42,Craig Martin,update readme to remove link to obsolete tool,False
+40bcb7f9968d3cbc9d7ee079b9e0065dfe291307,2017-06-30 18:05:02,JoshyPHP,"Fix arcto sweep flag when a transformation matrix is applied
+
+When a transformation matrix flips the coordinates horizontally or vertically (but not both) clockwise arcs need to become counterclockwise and vice-versa.
+
+Fixes #708",False
+bc3c8a6e38d8c356e633a408d55f7f6fa0d202b1,2017-06-29 12:46:37,Lev Solntsev,"Merge pull request #751 from vcanales/feature/datauri-fix
+
+config: fix datauri config object name",True
+65a0575d8f819651590e33e0ba09aeec2eabd13f,2017-06-29 01:20:59,Vicente Canales,config: fix datauri config object name,False
+96e1afb988133a3d475baa2bdd4d33925b7db0d8,2017-06-15 00:25:28,Lev Solntsev,"Merge pull request #742 from caub/round_viewBox
+
+fix viewBox round",True
+8592d2080be8d9179232e0d8c897b2aef97f65ba,2017-06-14 15:46:31,caub,fix viewBox round,False
+19e2c9ac15c2699bd34a89f381d054708c4c8d9c,2017-06-14 12:44:51,Lev Solntsev,"Merge pull request #704 from caub/round_viewBox
+
+round viewBox too",True
+8947cc596900378706e5e997f9e9f92ca7696b19,2017-06-14 02:06:24,Lev Solntsev,"Merge pull request #735 from vcanales/feature/datauri-api
+
+Allow datauri option on js api",True
+718d57620614dc9ab8cdc4ef9b893bb6c9b8e6c1,2017-06-14 02:05:06,Lev Solntsev,"Merge pull request #741 from davidtheclark/aria-attributes
+
+Add keepAriaAttrs to removeUnknownsAndDefaults",True
+5c1aab8ad8571d61e21b8351c4d40a2743a9c34d,2017-06-14 01:52:56,David Clark,"Add keepAriaAttrs to removeUnknownsAndDefaults
+
+Closes #684.",False
+5828949c2124a77cc526501e03f56cb66f757995,2017-06-10 16:03:59,caub,round viewBox too,False
+91a6804cb9c8c66039c08d234a6f4c89325c162f,2017-06-03 03:04:08,Vicente Canales,add datauri configuration parameter,False
+51832d4c8a0af4b91e83ea9a964a848005f0af8d,2017-06-03 03:04:03,Vicente Canales,allow datauri option on js api,False
+c943b4c3bc0b77f1f48ae70826ac9b11f58ea326,2017-05-12 01:22:04,Lev Solntsev,"Merge pull request #712 from justrhysism/master
+
+Resolves #690: Add option to process folders recursively.",True
+f35a5037524713eb11a7d6223db4a594b790cd11,2017-05-04 10:10:42,Rhys Lloyd rhys.lloyd@empired.com,Resolves #690: Add option to process folders recursively.,False
+98369def3a25fab2d57d61d0202366f110db20fe,2017-04-03 00:10:40,Lev Solntsev,"Merge pull request #696 from caub/switch
+
+remove useless switch groups",True
+4125d2857be219d73a78a6729e93cff0666ab905,2017-04-03 00:06:18,Lev Solntsev,"Merge pull request #695 from caub/remDefs
+
+clean .reduce with side-effects",True
+4cf413908e9aa64e1ff7a914eb2bceb8e4b512d8,2017-04-02 22:37:42,caub,remove useless switch groups,False
+5c2a9160fc988bc0bba3982a00a3a0fb491ebf0b,2017-04-02 20:30:34,caub,clean .reduce with side-effects,False
+d74f6a0e2ff3f9221991082f13cfa72e13a6438c,2017-03-26 02:16:43,GreLI,Promisify SVGO,False
+e4be4bbc100e2badc1d65d4ef1f30852aea13c7f,2017-03-26 00:47:23,Lev Solntsev,"Merge pull request #688 from pklingem/removeScriptElement
+
+add removeScriptElement plugin",True
+faabeff4f4b12527e334c4b338ae7eef5a41aca2,2017-03-26 00:36:15,GreLI,Parse commas in viewBox,False
+0bc82faaf858ec232be6856e509ac1cc2c423a30,2017-03-23 23:15:38,Lev Solntsev,"Merge pull request #687 from Yeti-or/yeti-or.fix-misspel
+
+Fix typo",True
+9f05ac814bc818dc220b249cea0aa452d436d136,2017-03-23 22:15:21,Patrick Klingemann,add removeScriptElement plugin,False
+194187ce164f02b22dc2b8eec3e92fb389867978,2017-03-23 18:51:53,Vasiliy Loginevskiy,Fix typo,False
+5c1583414420c182cf945d456ac12348f829d44b,2017-03-22 14:21:48,Lev Solntsev,"Merge pull request #685 from Yeti-or/yeti-or.remove-dep
+
+Remove unnecessary dependency",True
+4495a34f55560b2bc05cf837ba9dd01ca20cd479,2017-03-22 11:33:51,Vasiliy Loginevskiy,Remove unnecessary dependency,False
+40a935370a0e35932c01f35d642a91a2963923aa,2017-03-11 17:18:53,Lev Solntsev,"Merge pull request #655 from caub/uselessFills
+
+additional option for removeUselessFillStroke, to actually remove inv…",True
+bcd908691f41b9e300e499d25967d3bb3e2a453f,2017-02-26 02:08:50,caub,"fix for hasStyleOrScript, it must be initialized with SVGO constructor, not global, else it'll keep previous run value",False
+5a1693bd5eb6cd064d524a63af8ea30ed1c1cea0,2017-02-17 05:59:19,caub,"additional option for removeUselessFillStroke, to actually remove invisible shapes",False
+2608ae146708bb7022a561f86e8262893972c630,2017-02-06 01:29:19,GreLI,Use Map/Set in cleanupIDs,False
+9ef29ca4b7197f49199570c7923493042e61707e,2017-02-05 23:37:33,Lev Solntsev,"Merge pull request #658 from Zearin/patch-2
+
+Minor README heading tweaks",True
+7395bcd858ea6230bf06e844b565637c3d64d187,2017-02-05 23:36:32,Zearin,Minor README heading tweaks,False
+d5896991bdcc2d20e8d8bab6f4ad225859c4024b,2017-02-05 21:54:16,GreLI,Lint fixes,False
+ece43a3f5598862341fd47e6937f8cf4e7869e6b,2017-02-05 21:50:13,GreLI,Bump to Node v4,False
+282c193c67584b9455ad2b283b66058a8ff5db02,2017-02-01 02:29:43,Lev Solntsev,"Merge pull request #640 from lahmatiy/remove-unused-styles
+
+Remove unused styles based on usage data",True
+d4ff31d9db653dfdd703a05cbed2ecf5ccb01f81,2017-02-01 02:28:25,Lev Solntsev,"Merge pull request #610 from Velenir/feature/cleanupIDs--force-and-except
+
+Allow to force clean svg with style or script, excepting custom ids (in cleanupIDs)",True
+ad053787d019e3efc0e21b7478e5b1c7816b17d6,2017-01-29 23:32:46,GreLI,update russian readme to latest changes,False
+ec306c9b18710bd59e329198cfb06b0dd2697bd7,2017-01-29 23:27:26,GreLI,0.7.2,False
+e5829273f90530416965a6446ffec2b21452594c,2017-01-29 23:27:26,GreLI,update docs,False
+085a4ef01454ec9d52ccbc5aa9a2a4de8ece4537,2017-01-29 22:04:54,Lev Solntsev,"Merge pull request #654 from Zearin/patch-1
+
+Use GFM tables for README’s plugins list",True
+c8e9b45e0494ebd062151dec83a159ebcc72f333,2017-01-27 23:23:37,Zearin,Use GFM tables for README’s plugins list,False
+443f4bd33c0f96309e1e41f4e22b26305be53854,2017-01-12 22:19:52,Lev Solntsev,"Merge pull request #641 from elrumordelaluz/master
+
+Update CLI help",True
+340da36bc7d5b4ef7c4fec044a34cf8cd74f689b,2017-01-12 17:26:33,Roman Dvornov,"make unused styles removal safe
+
+- avoid using usage data when document contains <script> or on*
+attributes
+- implemented usage.force option to force usage data using",False
+e57ecbd0129259fdddd525a0c277515a522e0cf7,2017-01-12 17:07:05,Lionel T,"Update CLI help
+
+Add the missed possibility to pass a `JSON` string to `--config` argument",False
+da6a40da7f6b662e862986a0f208110bf14db51a,2017-01-12 17:02:47,Roman Dvornov,merge removeUnusedStyles plugin with minifyStyles,False
+fd5a8ca7991a063af76df2e015a03f5e555acef9,2017-01-09 16:34:17,Roman Dvornov,one more test for removeUnsusedStyles,False
+6741be9c95c7def7f284e7573214a3e0255a0996,2017-01-09 16:19:15,Roman Dvornov,initial implementation of removeUnusedStyles plugin,False
+a2a0a1ef3fc51cc5dae25ae85125ecf5fb90b897,2016-12-25 20:47:39,GreLI,Microoptimize removing space before minus,False
+b6e92f4bb20f44173b26dd7aab2430f306b7ad6b,2016-12-25 20:47:39,GreLI,Correct leading zero removing in case of exponential notation. Fix #551,False
+11a60682791f307d4624370516f8472c26ab7c95,2016-12-25 20:47:39,GreLI,Collapse groups with non-inherited attr test improvement,False
+13e09e46424969d85637d261909e3e431c4d56d8,2016-12-25 20:47:39,GreLI,Don't collapse groups with same non-inheritable attribue. Fix #550,False
+8b290bf97659d653be55db754db6d112a4622c64,2016-12-25 20:47:39,GreLI,Don't remove same transform in inner element (removeUnknownsAndDefaults). Fix #549,False
+d0a511fc376b07c0a5874387f7b64f57691c73f8,2016-12-25 20:47:39,GreLI,Fix removing <animate> in <stop>. Fixes #544,False
+a672b613b9aa006f10110cc5ebafc26f8328ace8,2016-12-20 12:06:47,Lev Solntsev,"Merge pull request #637 from AlimovSV/master
+
+More options for setting ""currentColor""",True
+dc259059fac3a816be49a7d37849022244d35a60,2016-12-19 16:25:43,Sergey Alimov,"Extend `currentColor` match conditions (string, rx, bool)",False
+f33baaab6e291030acbfdc0e5456388326f45bf1,2016-11-30 22:58:22,Lev Solntsev,"Merge pull request #626 from ehmicky/patch-1
+
+Add documentation to PostCSS svgo plugin",True
+c0c1713acace44732c13139243b380c7e1adf93e,2016-11-29 12:52:29,ehmicky,Add documentation to PostCSS svgo plugin,False
+19a9e3a1594bcb494da2cb5b6c9e4e7f26f42174,2016-11-24 00:28:33,Lev Solntsev,"Merge pull request #625 from s0meone/patch-1
+
+Fix typo in README",True
+e0e1bc68872b264e8769ca8b340f56d2de85fbae,2016-11-23 14:49:02,Daniel van Hoesel,Fix typo in README,False
+c69e533d1445a134772b180db5cd47dbe9237a64,2016-11-13 15:13:49,Lev Solntsev,"Merge pull request #616 from maksugr/master
+
+Add to readme information about svgo_bot",True
+e58e96044a77f63f4866be8db4e7d789df0aced7,2016-10-17 21:20:18,Roman Ponomarev,add to readme information about svgo_bot - Telegram Bot,False
+57bfacc74c22fcaef75c7ea488884ff43a61802d,2016-10-11 20:52:09,Lev Solntsev,"Merge pull request #611 from JonathanStoye/docs/update
+
+updating the docs on the testing section",True
+e776299890ec3ed8e16487d415129bfad37074b4,2016-10-10 14:19:13,Jonathan Stoye,updating the docs on the testing section,False
+f3bff1fd32154782b8e669ed0830c6b931345591,2016-10-09 00:30:21,Velenir,"Add tests for force=true in cleanupIDs
+
+Add parameter force to ignore style and script in cleanupIDs
+
+Add tests for except=[ids] in cleanupIDs
+
+Add parameter except in cleanupIDs to skip cleaning up specific ids",False
+928c2449cb4e48f044a01dd1651e5fb78e5383c4,2016-09-27 14:12:36,Lev Solntsev,0.7.1,False
+ea5a085f4634a914358434d771d49670c98900ca,2016-09-27 14:00:08,Lev Solntsev,"Merge pull request #603 from primeiros/patch-1
+
+Create ko.md",True
+8abdef7742e67d45ed39f677f8e808062563eb25,2016-09-27 13:55:14,Lev Solntsev,Revert changes in cleanupIDs requiring 0.12. Fixes #602,False
+e136a72b448f100fd0920d58bd6cacfdf67cfce1,2016-09-23 09:18:21,primeiros,"Create ko.md
+
+Translate to Korean",False
+04fa1d5e8364d404b4772552805e3f2610c87b71,2016-09-22 23:51:51,Kir Belevich,update readme,False
+c84e53d20be7f662e11db31c51925a33018eeed9,2016-09-22 23:51:29,Kir Belevich,update readme,False
+4822a44f37bbbe803b710511f3b038cf9e21970d,2016-08-27 00:16:26,Lev Solntsev,"Merge pull request #582 from gjjones/allows-use-of-addAttributes-plugin
+
+Adds addAttributesToSVGElement to default plugins list.",True
+1e7306f570aaadafd9e7433fb0cb27a4535e9670,2016-08-26 18:40:06,Greg J. Jones,Adds addAttributesToSVGElement to default plugins list.,False
+975a9ff223b562a440ccd919715092275024c950,2016-08-26 01:52:34,GreLI,0.7.0,False
+9984227fa10586acc5cd7732cf3e3676976e2367,2016-08-26 01:35:26,GreLI,Update Readme,False
+0a9870ad7a6275a8962283ae5afe0d1dc58755a5,2016-08-26 01:23:36,Lev Solntsev,"Merge pull request #530 from ricardobeat/master
+
+add removeXMLNS plugin",True
+517449fc52f77e82564d8ce0c9adf26391d52625,2016-08-26 01:22:55,Lev Solntsev,"Merge pull request #529 from ricardobeat/addClassesNoRepeat
+
+addClassesToSVGElement: avoid repeating classnames",True
+1d6c055a81d607b07164516e8a338fc0802ee837,2016-08-26 01:04:09,Lev Solntsev,"Merge pull request #546 from gjjones/master
+
+adds addAttributes plugin",True
+f5a1ecf34160ac495b1e619eedbd82fbdb2a2186,2016-08-26 01:01:03,Lev Solntsev,"Merge pull request #579 from darktrojan/sortAttrs
+
+Improve sortAttrs plugin",True
+c6f77d99ec7e11c8b9ae5f8121e6c42d121c718b,2016-08-26 00:50:14,GreLI,Linter fixes,False
+cf20f5c6ca847346ee95049889460cede01e91cc,2016-08-26 00:48:04,GreLI,Loosed fixes,False
+d9e670c210b5142f12142a461f74f726a70d399d,2016-08-26 00:44:34,GreLI,Use maps in cleanupIDs. Fixes #562,False
+24f7b5908b34cb222991cd96a132a0137e0ed63d,2016-08-25 04:50:04,Geoff Lankow,"Sort attributes by namespace and conceptual prefix, otherwise alphabetically",False
+6e9854a046e1dffda0cc55caf4593191ce197d90,2016-08-25 00:31:19,GreLI,"Don't collapse a group with element when both have classes.
+Fixes #572 (comment)",False
+44d6958db2c06cb4400bb221816450a437558c9c,2016-08-25 00:31:18,GreLI,"Don't pass mask around transform in collapseGroups.
+Fixes #572",False
+1162dac878a36bfe317040283b4777c62ab600ea,2016-08-21 00:44:01,GreLI,Prettify code,False
+60d5175883940c3cfc78e57958a9ab06a574d27e,2016-08-20 23:29:55,GreLI,Normalize line endings of files in test for crossplatform work,False
+e961d6d08dfa54f0ad631a43420afa1af71aad7e,2016-08-20 23:26:38,GreLI,Bump dependencies,False
+e4003b4dd2e256b83e1e9138c74480eb7b65d40c,2016-08-20 23:09:55,GreLI,Crossplatform work. Fixes #538,False
+815f5cf40c00afaae161bc7a9249a66479409b55,2016-08-19 21:15:34,Lev Solntsev,"Merge pull request #576 from tombigel/patch-1
+
+When minify:false cleanupIds deletes too many ids",True
+4865892f6ec358369651fbbbdeeb0211822788b1,2016-08-19 21:08:23,Tom Bigelajzen,"When minify:false cleanupIds deletes too many ids
+
+when running cleanupIds with minify:false option it does not save a reference to all ids and removes ids that shouldn't be removed.
+This fix adds a var that keeps a ref to the original id even if minify is not defined",False
+7302d4d8ccf62bd4f5e2690d64bce246c9f60be1,2016-07-29 00:06:00,Lev Solntsev,"Merge pull request #571 from elrumordelaluz/readme-elrumordelaluz
+
+Update Readme",True
+46d604b10e5b33e101f1d96bf839f31b4e3b6043,2016-07-28 04:25:57,Lionel T,Update Readme,False
+4dcef5e31a89f903ccd90724d65a2e44063aff60,2016-07-21 12:47:04,Lev Solntsev,"Merge pull request #565 from elidupuis/remove-elements
+
+Add `removeElements` plugin",True
+d60c5c18da01b6538bd568ac47439cb0cfa435ee,2016-07-21 10:12:41,Eli Dupuis,Add ability to remove elements by className,False
+7fd48e9d206c34e58066c932f411150f95c5e32d,2016-07-16 23:46:38,Eli Dupuis,Rename plugin to `removeElementsByAttr`,False
+f4b455a65d50537027942b06e46690e7e60b39ca,2016-07-07 01:22:36,Eli Dupuis,Add `removeElements` plugin,False
+34d9500844bfe3dc944ce71e538ddf0f2a879623,2016-05-12 17:41:29,unknown,Adds plugin for adding attributes to svg element.,False
+6dc57024158905299cd4c13033b39b9f3ad87de3,2016-05-07 23:57:13,Greg Jones,Type checking to avoid implicit conversion on empty strings.,False
+a100c53681734e96e81e86eb82c0e199ed017c1c,2016-05-07 23:39:38,Greg Jones,"Removes value guard from addAttrs, allows writing valueless attributes.",False
+e0ca3f09efe343b0c8c8e9df16e65f796a8ab81e,2016-04-27 18:28:11,Lev Solntsev,"Merge pull request #537 from keithclark/moveGroupAttrsToElems-ref-bug
+
+moveGroupAttrsToElems: new transform attribute shouldn't be a reference",True
+6bd922258de74cd52975b98b5c3b50d9aebebb21,2016-04-27 18:26:41,GreLI,Fix hinting issue,False
+abffd7db09a23cf6ee69d2f49402394d70a1d489,2016-04-27 00:44:18,Keith Clark,moveGroupAttrsToElems: new transform attribute shouldn't be a reference,False
+fd605b694489551f4ba9ee745c7319f0c2c8bbc1,2016-04-25 16:59:00,GreLI,0.6.6,False
+df6f48210e686b816035629ca4e4a0bf209c46e0,2016-04-25 16:58:15,GreLI,Corrected CSSO API usage,False
+bb1fe4ab450f6d0787712eb00a673034d436fbe3,2016-04-25 16:50:13,GreLI,0.6.5,False
+2bbabeedb09feb70cd8e92d3c9fdedd8afc34f6f,2016-04-25 16:33:28,GreLI,"Prevented collapsing group with passing animated attribute
+Fixes #534",False
+7d556d06b915a311cbca6fee69a701fcf0d8e86d,2016-04-25 16:06:02,GreLI,"Don't move transforms into referenced group items
+Fixes #532",False
+9b925614222a5953c6eab126d7c4f26db97c594a,2016-04-25 00:02:36,GreLI,Corrected condition in removeDoctype,False
+7bd3d1edc701c241f1cb28e508d83d4510f411b8,2016-04-25 00:01:05,GreLI,Removed obsolete test,False
+65efced355222b33ec640596e1210f3e181738f9,2016-04-24 23:59:01,GreLI,"Process “foreignObject”: cleanup editors content and remove itself if is empty.
+Remove doctype with entities.
+Fixes #533",False
+dd8e385695fd1f5eecd234edbd4e7c6acc7cd7d6,2016-04-05 22:53:49,Ricardo Tomasi,addClassesToSVGElement: avoid repeated classnames,False
+768107b33deb6a6e8c06ad3ed372e75b680a2e00,2016-04-05 21:36:57,Ricardo Tomasi,removeXMLNS plugin: remove xmlns attribute for inline svg usage,False
+b35d828d49e2608d889df8ccebd9d499ede37583,2016-04-05 20:42:30,GreLI,0.6.4,False
+9f545d2420f019bc2737a9127ab7eef929d8aa76,2016-04-05 20:33:36,GreLI,Fix default indent,False
+2f88a38730c3d2cccb7d2d724291c464390168b8,2016-04-05 19:59:05,GreLI,"Use presentation attibures instead of all styling properties.
+Fixes #528",False
+3d93e8f99c1262422b839a3c082618b449c07ab5,2016-04-04 00:21:59,GreLI,Added cleanupListOfValues to russian readme,False
+dd490041638bb20d29c1af7d9f2cf332aae305c1,2016-03-27 12:56:56,Lev Solntsev,"Merge pull request #525 from waldyrious/patch-1
+
+Mention cleanupListOfValues in README (see #287)",True
+7daab7343ab3cb422a156d2cdbfbd97eed303de0,2016-03-27 12:56:00,Lev Solntsev,"Merge pull request #521 from scurker/master
+
+Add currentColor param to convertColors plugin",True
+8e7cc54d8b3ee4ec047e75485444bfc50a2751fe,2016-03-27 12:54:32,Lev Solntsev,"Merge pull request #526 from scurker/pretty-print-indent
+
+Add option to indent when pretty printing svg",True
+3d8496033cfb94fd366612b8e2c656bedc266a9a,2016-03-27 08:44:29,Jason,Add option to indent when pretty printing svg,False
+b0598a226821715c4f80c5b2747be88f7dccb3c1,2016-03-25 04:03:25,Waldir Pimenta,Mention cleanupListOfValues in README (see #287),False
+b80944cb825036314758020926dfdb54c602e181,2016-03-25 00:34:01,Lev Solntsev,"Merge pull request #523 from lahmatiy/master
+
+Bump csso to 1.8.0 and use minifyBlock() for style attribute content compression instead of hack",True
+df9cd399c0bd25f6597f36c13bbd3a530c08a93b,2016-03-25 00:27:43,Roman Dvornov,bump csso to 1.8.0 and use minifyBlock for style attribute content compression,False
+8e5706485e993267f1be7e72048e69649317c5ff,2016-03-22 19:03:24,Jason,Add boundries to none regex,False
+97ab6c2a6e68c7bcde5cc4c66a6d4f02cbf8797b,2016-03-21 22:28:33,Jason,Add currentColor param to convertColors plugin,False
+e69f0a27bea0b5dc258a42167d20009d0c21c209,2016-03-20 23:49:07,GreLI,0.6.3,False
+4e320d9d565dbd9c9b3270ec2fef3ec0aea12105,2016-03-20 23:22:37,GreLI,"Apply smart rounding only if need to round.
+Fixes #508. Resolves #284.",False
+a7624a0c438cc6ee9a1d29b4ecba0bd1ec510f0a,2016-03-20 15:07:38,GreLI,Accept number as a value in hasAttrLocal,False
+0f599b670da77de81eeacacd71dc335f9bdab1a8,2016-03-20 15:00:06,GreLI,Fixed regression due to angle calculation changes. Fixes #517,False
+619aaf8481ba706027a8c548ec8afa5473c64e60,2016-03-12 17:57:34,GreLI,Check ‘style’ attr for id reference. Fixes #515,False
+c3e0eb6b009d733c275983ef28269a6ba4dc305d,2016-03-11 16:01:30,GreLI,"Check for ""href’ by local name",False
+4de61ef494df3ec32764807b73dbbef13426ad90,2016-03-08 23:33:27,GreLI,Changelog of v0.6.2,False
+8491eeedcb892b6c7f2221dd23c4ea7735a37bd7,2016-03-08 23:18:52,GreLI,0.6.2,False
+48b0c67218a82d4488006d8fbf3dbe4d715bdd29,2016-03-08 23:18:52,GreLI,Bump dependencies,False
+215cd39c22d706c66d2cdcbfeb23c8919bc652f2,2016-03-08 23:05:00,GreLI,minifyStyles: preserve CDATA if needed,False
+5b88dc44dcbbf357ba2dd880649178539517b3fd,2016-03-08 22:21:24,GreLI,Style fix,False
+1966bb60a5441f5e96787bbff601765dafebc1ef,2016-03-08 22:20:54,GreLI,Don't pass style attributes is present of class. Fixes #489,False
+a55dc255c25f4d72a4d209e5b1c880e7a83141b2,2016-03-08 21:44:24,GreLI,"Don't transform paths with id without stroke-width since it can be overrided.
+Fixes #483",False
+a62176e762b7f1825beb096d1f91a9f1452b74f3,2016-03-08 20:59:27,GreLI,Clarify need of parameters in addClassesToSVGElement. Resolves #479,False
+57dc9aedc4a39325a22125d258d668b156e56812,2016-03-08 19:26:02,GreLI,Show plugins list sorted alphabetically,False
+02c24c9ca8ae5604a407ce508a1b919f52d0b647,2016-03-08 19:04:41,GreLI,Fixed crash on uppercase color name. Fixes #511,False
+9b848273826b99984e986d487953b3e5c70dceea,2016-03-08 12:24:18,GreLI,Fixed sign losing in scale matrix. Fixes #513,False
+0b23ff63c2cabe055cee7e46882f109870833631,2016-02-29 03:33:16,GreLI,Improvements on parsing error handling.,False
+81e1ebe47566e6a3f6b7b73f30387411be580dd0,2016-02-29 02:23:02,GreLI,removeAttrs doc addition. Resolves #469,False
+748756e18df414c8fa4a322012a7c542ce41cd2c,2016-02-29 01:39:32,GreLI,"Capture parsing errors, but no further. (Don't break tests.)",False
+6dfaafdd5bcd58b2adfc7feab58ec3f55e9503c9,2016-02-28 23:37:31,GreLI,Bump dependencies,False
+77d2a1a3002b18d35131b06d639e0017120cced4,2016-02-23 13:25:18,Lev Solntsev,"Merge pull request #503 from MeoMix/patch-3
+
+Use explicit file types",True
+d15c3b22bf10592c5d95d1150567767d2858e02c,2016-02-23 13:25:15,Lev Solntsev,"Merge pull request #502 from MeoMix/patch-2
+
+Use explicit file types",True
+ee0e37a2724d51fcba1313c560ded547de2c7ef3,2016-02-23 13:25:11,Lev Solntsev,"Merge pull request #501 from MeoMix/patch-1
+
+Use explicit file types",True
+a61f4b315d6f6fd1d096de471f1986c28db03b0a,2016-02-23 11:00:39,Sean Anderson,Use explicit file types,False
+bf4014223b09c74e8c4bee9dd2c5dcab4e5f1ddc,2016-02-23 10:59:47,Sean Anderson,Use explicit file types,False
+51329009041b0dcad4ab74c78cf8da19897b6172,2016-02-23 10:58:29,Sean Anderson,"Use explicit file types
+
+It's good practice to declare the file type being required. This will help svgo play nice with JSPM. Additionally, one of the requires was already declaring its file type. So, this PR adds consistency, too.",False
+c4402205cc3cf53e674fcb88adf2edab06f30b43,2016-02-20 00:33:21,Lev Solntsev,"Merge pull request #499 from pra85/patch-1
+
+Minor English tweak",True
+b0d36a48304484548ff8028f90eabcfad0a9995d,2016-02-19 20:16:47,Prayag Verma,"Minor English tweak
+
+Change sentence structure to make it more readable",False
+25fc738c03caea1a8b5ae72fa7872c4590087ac8,2016-02-15 16:39:04,GreLI,Fixed transform moving around the mask as well,False
+9cdb04638333d9951e405ba73d128dba8398c058,2016-02-08 03:06:56,GreLI,"Improved parser error handling.
+Show output error position. Resolves #482",False
+e21f8d0e64664bb8b32fec0ae643a22c3403bf88,2016-02-08 02:30:17,GreLI,Better config error handling. Resolves #466,False
+7b9943072f4919f3bbf4279b7e9492e36d65a5b0,2016-02-08 01:52:54,GreLI,Don't fail on plain string SVG after #486,False
+4e9daaef3ca76818900cc705700196b00ec677fb,2016-02-07 23:06:20,GreLI,Config object sanity check. Should fix #458,False
+fc07ce7e59fc9c09f3d1b0e9b067d968049f76f8,2016-01-31 14:58:00,Kir Belevich,bump years in LICENSE file,False
+9c4a9e64a8883d4bc0cb61dc29890dfd851a6d23,2016-01-16 18:40:59,Lev Solntsev,"Merge pull request #486 from holymonson/master
+
+Add charset handling on Data URI",True
+4e9194153f12230f0ccfc6323efd617384b7557a,2016-01-16 18:08:37,Monson Shao,"Add charset handling on Data URI
+
+Handle data URI scheme containing optional charset field like `data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20...` .",False
+1335334cc74c003e32d2c2b05333853f858c9123,2016-01-13 19:47:26,GreLI,Fixed crashing on invoking rounding several times. Closes #480,False
+044fc3b1684fc2148fe7286adfa9ce12a0e5a479,2016-01-09 22:05:18,GreLI,Correct all angle calculations to use circle radii instead of curves control points,False
+1b0051ad1ca410f040b7bd6af7a6e5ec9c1370c1,2016-01-06 16:27:19,GreLI,"Fixed angle calculation with zero length curve control point.
+Fixes #477",False
+0d91a0455de462d923b97e96be343c7ddb03e758,2016-01-04 22:52:11,GreLI,"Parse XML entities.
+Fixes #225, fixes #272, fixes #314. Closes #476.",False
+bca9fedbfc5de03bd2e5874db2c4671557371b67,2016-01-04 22:15:05,Lev Solntsev,"Merge pull request #475 from yandavid/master
+
+Added tests for svg2js behavior if passed in malformed svg",True

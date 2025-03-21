@@ -1,0 +1,818 @@
+Hash,Date,Author,Message,IsMerge
+3c0cddc7c8eb60b470e9519da85896ed7ee0081e,2020-02-12 05:09:46,Gregor Martynus,README: typo in deprecation message (#3268),False
+aded7e4f8e57f6f33cf39d65634bfb822bfcb2c8,2020-02-11 22:03:22,Mikeal Rogers,doc: note full deprecation (#3267),False
+212570b6971a732b8dd9f3c73354bcdda158a737,2019-05-30 01:23:20,Andres Rojas,"Use nyc instead of istanbul (#3169)
+
+* Use nyc instead of istanbul
+
+istanbul package is not longer maintained
+
+* Have nyc output an lcov coverage report",False
+b3a218dc7b5689ce25be171e047f0d4f0eef8919,2019-04-04 06:00:35,odykyi,Update README.md (#3023),False
+b0e9abb2f21a47783f96a8a408acc22ec51c1824,2019-04-01 19:16:01,Tadashi Shigeoka,"docs: :memo: Updated the Change Log for v2.88.0 (2018/08/10) (#3008)
+
+Used the following command:
+
+```
+github-changes -o request -r request -b master --date-format '(YYYY/MM/DD)' --only-pulls --use-commit-body --auth
+```",False
+7195b5064aac02532d4546c9ebcd1ec2508e6223,2019-02-26 07:48:29,Jared Suttles,docs: adjust readme timeout argument description to be clearer (#3115),False
+a9557c9e7de2c57d92d9bab68a416a87d255cd3d,2019-02-16 04:11:15,Zach Bloomquist,Update outdated link in comment (#3109),False
+df346d8531ac4b8c360df301f228d5767d0e374e,2018-12-25 00:56:59,Francis Gulotta,"fix: Clear timeout on `#abort()` (#3090)
+
+* Added `#clearTimeout()` method.
+* Call `#clearTimeout()` when aborting request.
+* pr review notes",False
+670b5630675b838917b62c3addaf8de091970dfe,2018-12-24 00:53:45,grabus,chore: Update to tough-cookie 2.5.0 (#3089),False
+be7882b0bb6cdb0971f76c2a5b11d5a8767a22e1,2018-12-13 08:43:05,Ricky 泽阳,optimize:do unnecessary processing when changing options to null (#2972),False
+e81c9b1dadffe692ac6797fbf7e0bdba557ebfdc,2018-12-13 03:59:06,Alvin Smith,fix: expression minor bugs (#3074),False
+b3926a3a57a61c117295731e4be64005cb88259e,2018-12-01 22:23:58,Francis Gulotta,"Revert ""Workaround for GitHub issue #2807 (#2808)"" (#3075)
+
+This reverts commit 2bc3cc4c99efe51f2667a419c34ff5f0c8408551.",False
+2bc3cc4c99efe51f2667a419c34ff5f0c8408551,2018-12-01 21:49:35,Pete Gonzalez,Workaround for GitHub issue #2807 (#2808),False
+167065e2350fcb58fbfb7f4d8be03f8a9d30997f,2018-11-24 10:19:11,Francis Gulotta,chore: ensure piped body is exactly the same (#3064),False
+81b171b5f714b6f6b3e673f52e0ef1c888f71c3c,2018-11-24 10:18:45,Emmanuel DEMEY,fix: use const instead of var in the README (#3046),False
+5ee89063cdbc3d5f27c2fc1c7232ad35148c94ac,2018-11-24 00:33:53,Alessandro Miliucci,Documented response.caseless.get() (#2995),False
+39e3d50709edaf79ef035916be852a3fa532ef3b,2018-11-24 00:26:20,Francis Gulotta,add bug label to stale.yml,False
+2737161f36c4b7bf1daa969d9cf90426572cb654,2018-11-23 09:32:25,Rolf Koenders,Verify that body is not empty (#2701),False
+297e39b1585c51795f60b5d4a7fd56fe0d052aed,2018-11-23 09:21:11,opeer,Update the documentation of timeout to reflect it controls timeout of socket inactivity (#2728),False
+641527de7ab9058ce424153bed220c879fb8c081,2018-11-23 09:19:24,Huachao Mao,Update cookie store API link (#2750),False
+8d189197531b56b32e2397585bddd2bb22221dc4,2018-11-23 09:09:18,jsx,"Update README to mention util.promisify() (#2824)
+
+Update README.md to mention that util.promisify can be used to convert a regular function that takes a callback to return a promise instead.",False
+20314472619e4bd06c9ebefa27215f596366a97b,2018-11-23 09:07:15,Maciej Adwent,Fix link to HAR 1.2 Section Anchor (#2674),False
+e476ce5762e752874675a83193121639485045f0,2018-11-23 08:59:48,George Hafiz,"Update README.md (#2644)
+
+Added a paragraph of text to the TLS section, on the use of the `ca` option, explicitly detailing how to get SSL certificates that consist of more than one issuer to successfully verify. It was not made clear that `ca` can be an array, and that in fact this is necessary (AFAICT) when you want to accept a certificate that has been signed by multiple issuers, common in internal environments.",False
+418623cf6d786c7f7a87c1285fa8bd97af1cc826,2018-11-22 23:12:46,SneakyFish5,Drop support for Node.js v4 (Fix #2917),False
+1befd90b4b5ea11149b4f1d23c2c6773196da863,2018-11-22 21:03:09,Francis Gulotta,"fix: SSL Certs (#3062)
+
+- Small readme talking about the issue
+- Generate all certs for 10 years
+- one command to update all of them",False
+26d6cceca1d7b913f0eae6ea0312e49f95ffb7d9,2018-11-22 20:26:52,Francis Gulotta,"Merge pull request #3061 from request/reconbot/neverstale
+
+Add neverstale label to stalebot config",True
+48bdabd9de57008accde1798df3b036c7e1103f8,2018-11-22 20:26:14,Francis Gulotta,Add neverstale label to stalebot config,False
+cdca238d7f8522ecb141167adc8f5320a723813b,2018-11-22 11:14:20,Francis Gulotta,"Merge pull request #3060 from request/reconbot/stale-issues
+
+chore: Add probot-stale",True
+7c42a7f8806d9c79694ba21ee78222d1c6a8d548,2018-11-22 10:33:08,Francis Gulotta,"chore: Add probot-stale
+
+https://probot.github.io/apps/stale/
+
+There are a few years of stale issues and prs. This bot will close issues over a year old and give people a chance to respond if they think the issue should stay open. After a manual review of more recent issues, we should tighten this down to 60 or 90 days.",False
+bf3e2651a0750b4c1e06e689daf99da8dd19ce55,2018-11-21 22:57:48,Chance Hudson,"fix #3054, Bump har-validator version to 5.1.3 (#3055)
+
+It seems that a new version of har-validator (5.1.2) may have been published, and then deleted. This PR explicitly sets the version to the latest patch, 5.1.3.
+
+Closes #3054",False
+8162961dfdb73dc35a5a4bfeefb858c2ed2ccbb7,2018-08-10 21:57:09,Mikeal Rogers,2.88.1,False
+642024036379239a7fa29c27ef7bb4dd3fa3b3a4,2018-08-10 21:53:52,Mikeal Rogers,2.88.0,False
+bd22e217f1590804ebfea031d158f2a486b0c985,2018-08-10 21:53:28,Mikeal Rogers,"fix: massive dependency upgrade, fixes all production vulnerabilities",False
+925849a8278ae794eb9c257cf4d6cc4fb3ee89a8,2018-08-07 01:45:46,simo,"Merge pull request #2996 from kwonoj/fix-uuid
+
+fix(uuid): import versioned uuid",True
+7b685511edbfdb909814473c3fccde3fb285503d,2018-08-06 01:00:51,OJ Kwon,fix(uuid): import versioned uuid,False
+579796327218bb6ae30440b4f25da6166f72c282,2018-08-03 14:18:54,simo,"Merge pull request #2994 from dlecocq/oauth-sign-0.9.0
+
+Update to oauth-sign 0.9.0",True
+628ff5e3c9a242bb82805c368fc5b6f942d9af70,2018-08-03 00:06:51,Dan Lecocq,Update to oauth-sign 0.9.0,False
+10987ef9d611a0f24e340505f97c8eca119854e5,2018-08-02 23:36:19,simo,"Merge pull request #2993 from simov/fix-header-tests
+
+Fix header tests",True
+cd848afbdbac78b656847c75be1c0a9daf619045,2018-08-02 23:25:40,simov,These are not going to fail if there is a server listening on those ports,False
+a92e138d897d78ce19dd70bd1ad271c7f9c6a23d,2018-07-18 23:16:26,GP ✅,"#515, #2894 Strip port suffix from Host header if the protocol is known. (#2904)
+
+* Strip port suffix from Host header if the protocol is known.
+
+This partially revert ff6d6c6e7a3b2c36618b5d1db662e10c929696e3, and still works for IPv6 addresses as well.
+
+* Port is a string out of url.parse().
+
+See https://nodejs.org/api/url.html#url_url_port
+
+* Port is a string out of url.parse().
+
+See https://nodejs.org/api/url.html#url_url_port
+
+* Add tests for the new Host header changes.",False
+45ffc4b536043e85e0850edf35ba47067c0dbada,2018-07-17 02:41:04,Vikhyat Korrapati,"Improve AWS SigV4 support. (#2791)
+
+This makes the following changes to the AWS SigV4 signing functionality:
+
+1. Sign all request headers instead of just Content-Type.
+2. Allow specifying a service name.",False
+a121270ce29309167e1eed6c87367305dbe68508,2018-07-08 17:33:03,simo,"Merge pull request #2977 from simov/update-cert
+
+Update test certificates",True
+bd1641471edb8b9c4b4f84855c7041e0e7af9ee8,2018-07-08 17:22:21,simov,Update test certificates,False
+536f0e76b249e4545c3ba2ac75e643146ebf3824,2018-05-21 13:05:16,simov,2.87.1,False
+02fc5b1f0123173c308a79c43e804f6fcbefbbaf,2018-05-21 13:04:52,simov,Update changelog,False
+de1ed5a8baba66c8bdd8d73f20cc43aa3f9521e4,2018-05-21 13:02:22,simov,2.87.0,False
+a6741d415aba31cd01e9c4544c96f84ea6ed11e3,2018-05-19 20:17:46,Eran Hammer,"Replace hawk dependency with a local implemenation (#2943)
+
+* Replace hawk dependency with local implementation
+
+* Fix access
+
+* Fix access
+
+* Improve coverage
+
+* Improve coverage
+
+* Improve coverage
+
+* Fix access
+
+* Fix style",False
+a7f0a36f0442ff36249773d506d425e49e06ef0f,2018-05-15 17:36:29,simov,2.86.1,False
+8f2fd4d4d576833eb8379cd4f7b66a8c7cdf79f3,2018-05-15 17:36:01,simov,Update changelog,False
+386c7d8878a9d534a4c4d6b446f991d42b395067,2018-05-15 17:29:48,simov,2.86.0,False
+76a6e5bedd8b80f1eb7dff940ba9784eecb725e3,2018-05-15 17:20:06,simo,"Merge pull request #2885 from ChALkeR/patch-1
+
+Remove redundant code (for Node.js 0.9.4 and below) and dependency",True
+db76838771d2ec05641fef769b5530c1ee0a5745,2018-05-15 17:13:59,simov,Merge branch 'patch-1' of github.com:ChALkeR/request,True
+fb7aeb3674a637ba25f0bc40e27bbf3bc5e44c22,2018-05-15 17:08:27,simo,"Merge pull request #2942 from simov/fix-tests
+
+Make Test GREEN Again!",True
+e47ce95a7581bd3ca555903d3492cc8da683ed93,2018-05-15 17:04:13,simov,Add Node v10 build target explicitly,False
+0c5db42fcd0890eab966f335a1bc8c858255b962,2018-05-15 16:59:03,simov,Skip status code 105 on Node > v10,False
+d555bd74e9e45310269440671765da9858eca471,2018-05-15 16:42:15,simov,Generate server certificates for Node > v10,False
+81f8cb57bbc9fed0533c268e6a0c94ec45d9da9e,2018-05-15 16:21:05,Сковорода Никита Андреевич,"Remove redundant code
+
+That one was needed for Node.js 0.9.4 and below,
+which is not supported anymore.",False
+db17497d599d135d4f3c67bf926c8def318f14d5,2018-05-04 19:00:38,simov,Use Buffer.from and Buffer.alloc in tests,False
+0d29635a9d7ad5e67a136f6ca7d7a02e7c605076,2018-05-02 17:10:03,simo,"Merge pull request #2923 from gareth-robinson/cifixes
+
+Alterations for failing CI tests",True
+3745cece1d3be3cd6612c1ac9fed9087674b75e2,2018-04-23 15:43:58,Gareth Robinson,Correction for Windows OS identification,False
+219a2982dde56f5551dcd5a1acae64b01b747adc,2018-04-23 03:24:44,Gareth Robinson,Alterations for failing CI tests,False
+bbb3a0bbbe173342de8462a2171765a39681b248,2018-03-12 16:08:01,simov,2.85.1,False
+21ef363b91c17763d6c79a639a197bf72135b97a,2018-03-12 16:07:40,simov,Update changelog,False
+5dad86e14c22c79c6b128e24ddd8dcb78a6464b7,2018-03-12 16:06:06,simov,2.85.0,False
+5ba8eb44da7cd639ca21070ea9be20d611b85f66,2018-03-12 15:58:03,simov,"Revert ""Update hawk to 7.0.7 (#2880)""
+
+This reverts commit cfd230708c5a0a5c09935d5f1074f43de6e9c010.",False
+b191514c1080838a579eac272dbb0d1226ebef00,2018-03-12 14:10:43,simov,2.84.1,False
+d77c8397e387e28745ee8b66723367e0bfc70fc0,2018-03-12 14:10:11,simov,Update changelog,False
+4b46a13daaafe83d1c7db3f86f60d7b3733cd726,2018-03-12 13:59:19,simov,2.84.0,False
+0b807c6d52c4c1a835c18c6f65c52cb7e3a57a19,2018-03-10 00:19:18,simo,"Merge pull request #2793 from dvishniakov/2792-oauth_body_hash
+
+Fixed calculation of oauth_body_hash, issue #2792",True
+cfd230708c5a0a5c09935d5f1074f43de6e9c010,2018-03-06 14:16:03,kornel-kedzierski,Update hawk to 7.0.7 (#2880),False
+efeaf004f27c23e1688c0b0ca51c96a31e2f3726,2017-10-12 09:27:10,Denis Vishniakov,"Fixed calculation of oauth_body_hash, issue #2792",False
+253c5e507ddb95dd88622087b6387655bd0ff935,2017-09-27 08:30:37,Mikeal Rogers,2.83.1,False
+dd427d7aa0177a876da69f82801bf0c63a855310,2017-09-27 08:30:33,Mikeal Rogers,2.83.0,False
+5b623b55a5a3c9478a96072934a9aca89beea90f,2017-09-25 23:08:11,Karl Norling,"Updating tough-cookie due to security fix. (#2776)
+
+- See: https://www.versioneye.com/Node.JS/tough-cookie/2.3.2
+ - Also tough-cookie:
+   - https://github.com/salesforce/tough-cookie/pull/97
+   - https://github.com/salesforce/tough-cookie/pull/92",False
+6f1b51ed43309128487739f20f9df0699a043124,2017-09-20 01:09:30,Mikeal Rogers,2.82.1,False
+0ab5c36b6715ae054b8398c80791fdd65be69f72,2017-09-20 01:09:26,Mikeal Rogers,2.82.0,False
+ffdf0d3270a2c4427c4777cb8be7775dcdecdd95,2017-09-20 01:04:08,Mikeal Rogers,Updating deps.,False
+43868364c3e277d83c73faa8354ba2fd5af3ef1d,2017-09-20 00:59:09,Mikeal Rogers,Merge branch 'master' of github.com:request/request,True
+15274078b978b5869397e7770e68e7147fb9bd95,2017-09-02 19:57:29,simo,"Merge pull request #2703 from ryysud/add-nodejs-v8-to-travis
+
+Add Node.js v8 to Travis CI",True
+3afcbf8a3e86dcd5c06aab0cd4eec5b11508b3e5,2017-08-31 06:46:41,Mikeal Rogers,Merge branch 'master' of github.com:request/request,True
+479143d546d6dff378da0e5fac5801dd3bf01f15,2017-08-25 00:56:54,Olivier-Moreau,Update of hawk and qs to latest version (#2751),False
+169be114952d3a769b13e2f321ab5736d69804bc,2017-07-02 16:02:06,Ryuma Yoshida,Add Node.js v8 to Travis CI,False
+643c43ab7be269a1efaa080ff05a18fff3f64cd7,2017-06-27 03:22:32,Dmytro Shpakovskyi,Fixed some text in README.md (#2658),False
+e8fca511ba2800a809c7759a1c09ea33a440e4fb,2017-04-19 04:58:14,Greenkeeper,"chore(package): update aws-sign2 to version 0.7.0 (#2635)
+
+https://greenkeeper.io/",False
+e9992031105190e7a132ab0b5d0876073598db46,2017-04-19 04:55:56,Fred K. Schott,Update README to simplify & update convenience methods (#2641),False
+6f286c81586a90e6a9d97055f131fdc68e523120,2017-04-18 05:23:43,Fred K. Schott,"lint fix, PR from pre-standard was merged with passing tests",False
+a76559325fb43adfad26c7c63d8a7c5900b618ef,2017-04-18 05:10:39,James Wright,"Add convenience method for HTTP OPTIONS (#2541)
+
+* Add convenience method for HTTP OPTIONS. Tests
+
+* Suggested version no
+
+* Applying code review suggestions",False
+52d6945858a2d4d1a44f9dd5a8b14f0bb502fb49,2017-03-28 01:19:53,Fred K. Schott,Add promise support section to README (#2605),False
+b12a6245d9acdb1e13c6486d427801e123fdafae,2017-03-17 06:17:57,Ahmad Nassri,"refactor(lint): replace eslint with standard (#2579)
+
+* refactor(lint): replace eslint with standard
+
+Fixes #2577
+
+* refactor(lint): standard lint
+
+one additional standard lint error after merging with upstream
+
+* refactor(lint): error must be handled
+
+avoid using the `err` var name if we have no use for it
+
+* refactor(lint): keep oauth_* variable names in snakecase
+
+remain consistent with OAuth standard, as per @mikeal recommendation
+
+* chore(.eslintrc) remove, no longer needed",False
+29a0b172d6f7b5e9f5e344c5758a672e7814d90f,2017-03-17 05:08:36,Fred K. Schott,"Merge pull request #2598 from request/greenkeeper-codecov-2.0.2
+
+Update codecov to version 2.0.2 🚀",True
+e7b4a8846e87874274d09497273433aced1b2908,2017-03-17 05:04:50,Fred K. Schott,"Merge pull request #2590 from nicjansma/timings-tests
+
+Adds test-timing keepAlive test",True
+dd5c02c2d6861e6d44b27ea013cdb09d5f820717,2017-03-17 04:52:33,Nic Jansma,Updated comment,False
+087de943db19d8df14527013743e298443156c7d,2017-03-17 04:23:41,Fred K. Schott,"Merge pull request #2589 from odykyi/fix-tabulation
+
+fix tabulation on request example README.MD",True
+3d5e50d5d7f0d1999bc609e601068e0d0f6d2499,2017-03-17 04:19:53,Fred K. Schott,"Merge pull request #2594 from ahmadnassri/patch-1
+
+chore(dependencies): har-validator to 5.x [removes babel dep]",True
+0951f47782829204bb705e0d921c17db7192fb0e,2017-03-16 14:17:56,greenkeeperio-bot,"chore(package): update codecov to version 2.0.2
+
+https://greenkeeper.io/",False
+baf9c1f2a6e3b0a78f017caa0e64259a5ecf40b5,2017-03-15 03:06:59,Ahmad Nassri,chore(dependencies): har-validator -> 5.0.2,False
+21b1112831702c5e4e8ebd0eb3e5d5bee94b5c9a,2017-03-15 02:44:28,Ahmad Nassri,"chore(dependencies): har-validator -> 5.0.1
+
+addresses browser concerns.",False
+51806f8ad32ec8fc3050a58467d5c2ac8742468b,2017-03-15 02:31:50,Ahmad Nassri,"chore(dependencies): har-validator to 5.x [removes babel dep]
+
+a simple `npm i request` resulted in a `babel` install due to usage as a `devDependency` in `har-validator`, so `har-validator` is now refactored to remove that dependency entirely, making `request` lighter to install _(if only slightly)_ :)",False
+c57fb7258788888e42fcfa2b6d54c8150517cabe,2017-03-09 21:26:51,simov,2.81.1,False
+a0cdc704c19e63e6f1740e173bb003c51eef524c,2017-03-09 21:26:33,simov,Update changelog,False
+f2f54fa5e420f143a661f497c9f568632676016a,2017-03-09 21:24:56,simov,2.81.0,False
+d99964ccf14bbdf85cb273b9d2f1c6bb9b43e728,2017-03-09 21:21:26,simo,"Merge pull request #2584 from sergejmueller/patch-1
+
+Security issue: Upgrade qs to version 6.4.0",True
+eb5d89d86430f8bacbdf559e52c08c5f6a1701c4,2017-03-09 20:00:52,Nic Jansma,Adds test-timing keepAlive test,False
+44ba9df460c9d902bde0734fe222792c5f419a5b,2017-03-07 19:26:18,odykyi,fix tabulation on request example README.MD,False
+34d1ea5a67e2c0a340cff97307a910a16e72b720,2017-03-06 20:42:12,Sergej Müller,"Upgrade qs to version 6.4.0
+
+Fix vulnerability alert, see the recommendation https://snyk.io/vuln/npm%3Aqs%3A20170213",False
+fa48e67578a3c43f83c9e4e9339440e8dbbcf6f5,2017-03-05 07:09:10,Mikeal Rogers,"safe-buffer doesn't zero-fill by default, its just a polyfill. (#2578)",False
+6d62d8e5f1dea4d167dbd627092652edf7f9a2e0,2017-03-05 06:05:23,Mikeal Rogers,"safe-buffer doesn't zero-fill by default, its just a polyfill.",False
+2e70b7477b7ad39f0626d5eff2ea8bb9e7600403,2017-03-05 05:23:21,Nic Jansma,"Timings: Tracks 'lookup', adds 'wait' time, fixes connection re-use (#2566)
+
+* Timings: Tracks 'lookup', adds 'wait' time, fixes connection re-use
+
+* Don’t re-add event listeners on Keep-Alive, run only .once(), and cleanup on error
+
+* Fixed documentation",False
+7ec8b84f9be684a83922e104ade7c608f8cf94ef,2017-03-05 05:14:36,Mikeal Rogers,"Merge pull request #2574 from request/safe-buffer
+
+Migrating to safe-buffer for improved security.",True
+142588392b21ffed1362a11260a16322ba5e9c45,2017-03-05 05:12:09,Mikeal Rogers,"Merge pull request #2573 from ahmadnassri/patch-3
+
+fixes #2572",True
+f11325385a7392b930ed8b61a97a956a22e7b0be,2017-03-05 01:04:48,Mikeal Rogers,Migrating to safe-buffer for improved security.,False
+095ec7997e6970195ad78d9fbe2517b4e165baf9,2017-03-04 19:43:01,Ahmad Nassri,fixes #2572,False
+7b9ceefe590b5879600b02e1245d12aadde5a16f,2017-03-04 10:12:43,Mikeal Rogers,2.80.1,False
+f422111e0bc44e065a7b15e243748b59d5e99e33,2017-03-04 10:12:39,Mikeal Rogers,2.80.0,False
+bce66a57ef3c812c910f9ab261c86a973a3ba6a8,2017-03-04 08:24:49,Mikeal Rogers,"Merge pull request #2571 from JamesMGreene/fix_ipv6_host_header
+
+Correctly format the Host header for IPv6 addresses",True
+ff6d6c6e7a3b2c36618b5d1db662e10c929696e3,2017-03-04 08:18:19,James M. Greene,"Correctly format the Host header for IPv6 addresses
+
+Fixes #2292",False
+667e923d8d51a0f0fb4c66c91d94a40f3d3e575a,2017-02-22 05:55:41,Fred K. Schott,"Merge pull request #2558 from request/FredKSchott-patch-1
+
+Update README.md example snippet",True
+68625539982b7a52859bce73f15bc7ebf677448c,2017-02-22 05:42:40,Fred K. Schott,"Merge pull request #2221 from calamarico/change_readme
+
+Adding a simple Response object reference in argument specification",True
+8d78bd0333b09fc75bb642aa1d8b3954c8f8ca55,2017-02-22 05:14:21,Fred K. Schott,Update README.md example snippet,False
+60f6a00327f3a174bcd5af68ab61cfacf7360c8e,2017-02-22 04:55:12,Fred K. Schott,"Merge pull request #2452 from nicjansma/master
+
+Adds .timings array with DNC, TCP, request and response times",True
+da077f7ca26cb57cffd51cb4f124b0d7c7bf6a4a,2017-02-21 03:12:32,Fred K. Schott,"Merge pull request #2553 from request/issue-template
+
+add ISSUE_TEMPLATE, move PR template",True
+921ebeedb6689f53a113be2c902ea52dbf8d26d2,2017-02-21 03:09:20,Fred K. Schott,small change to template wording,False
+256deeae1487d5d7a488b3c50505775b0a1be510,2017-02-20 03:41:41,Fred K. Schott,"add ISSUE_TEMPLATE, move PR template",False
+fec1f2b724f4be27125e7b435a75b3df3b2c2a45,2017-02-20 03:41:04,Fred K. Schott,reorder PULL_REQUEST_TEMPLATE sections,False
+2046cf322d979af28c27374cc857b11d086ad8e4,2017-02-20 02:57:15,Fred K. Schott,"Merge pull request #2539 from request/FredKSchott-patch-1
+
+Create PULL_REQUEST_TEMPLATE.md",True
+0ea3d477f4a5a7c451bd8ff072e7553a369af508,2017-02-20 02:57:00,Fred K. Schott,"Merge pull request #2524 from request/greenkeeper-caseless-0.12.0
+
+Update caseless to version 0.12.0 🚀",True
+3f57975212976c88fc006e9e7b3e2cb5b53a2ddf,2017-02-17 20:40:34,Nic Jansma,Use performance-now instead of custom solution,False
+a9ad38a3f7c4bc388af8af353b54fc05cfb81f63,2017-02-17 20:36:22,Nic Jansma,Ensure only the properties we expect are there,False
+d9e8c3d5b4ccb98cb9c51d1775bd8c668f51e655,2017-02-17 20:36:10,Nic Jansma,Added deprecated notes,False
+a60be68ddad2877aa17b0ce79391fc3d327afa5e,2017-02-14 05:36:33,Fred K. Schott,Create PULL_REQUEST_TEMPLATE.md,False
+223f44bf46dfab65ade2e54ac0c884dba53c81f0,2017-02-14 04:26:21,Fred K. Schott,"Merge pull request #2460 from OwnageIsMagic/patch-1
+
+Fix wrong MIME type in example",True
+d40f9af57bc1e1bde0c6e4190240fe87267ffa83,2017-02-14 04:24:58,Fred K. Schott,"Merge pull request #2514 from humphd/package.json-keywords
+
+Change tags to keywords in package.json",True
+dfd777aa2fdae96242910f651fffad65e49b61c4,2017-01-27 03:11:34,greenkeeperio-bot,"chore(package): update caseless to version 0.12.0
+
+https://greenkeeper.io/",False
+4901f968ce0462f38b0cf3c6fbb008ad58414773,2017-01-17 03:25:18,David Humphrey (:humph) david.humphrey@senecacollege.ca,Change tags to keywords in package.json,False
+f009af231412fe8fee4ab5dd24d24781fd731fc3,2016-12-22 00:32:03,simo,"Merge pull request #2492 from addaleax/lenient-gzip
+
+More lenient gzip decompression",True
+71081b64ac939b74eaf7a510fee45ab27d4669a1,2016-12-21 15:58:14,Anna Henningsen,"More lenient gzip decompression
+
+Be explicitly lenient with gzip decompression by always requesting
+`zlib` to flush the input data and never explicitly ending the
+`zlib` input.
+
+The behavioural difference is that on Node ≥ 6, which has a slightly
+stricter gzip decoding process than previous Node versions, malformed
+but otherwise acceptable server responses are still properly
+decompressed (the most common example being a missing checksum
+at the stream end).
+
+This aligns behaviour with cURL, which always uses the `Z_SYNC_FLUSH`
+flag for decompression.
+
+On the downside, accidental truncation of a response is no longer
+detected on the compression layer.
+
+Ref: https://github.com/nodejs/node/issues/8701#issuecomment-268224481
+Fixes: https://github.com/request/request/issues/2482",False
+21e315d9080200278002441943aec0c4a17f57c3,2016-12-08 09:54:59,Nic Jansma,Removed extra space,False
+47523a2eb29ede4c7b5726a3540b7b756f2bb493,2016-12-06 19:32:18,Nic Jansma,Removed double-spaces after period,False
+76eb485b4109ebece8e83bf026351f35dbf996e4,2016-12-05 14:17:02,Ahmad Nassri,"dependency(har-validator): update to ~v4.2.0
+
+dependency(har-validator): update to ~v4.2.0",False
+c7c9431f1fadaf4b700e82218c3df9e0f2e96646,2016-12-04 20:22:47,Nic Jansma,Addresses feedback,False
+b628cab739fdd0e29a47f69b8b08ea3bdeb1598d,2016-11-18 22:51:11,simov,2.79.1,False
+ff729c6f1a87237060d075908563ce13386395ac,2016-11-18 22:50:57,simov,Update changelog,False
+3a98820b38b2656c47c8ad55fdb6190d35c5fe6f,2016-11-18 22:48:30,simov,2.79.0,False
+ab94c8692c44e409ab46cf3358bdd8504dfd8960,2016-11-18 22:43:02,simo,"Merge pull request #2368 from forivall/patch-1
+
+Fix typeof check in test-pool.js",True
+95b12d0919703e22a515ebc143366f0cd539e56d,2016-11-18 22:40:50,simo,"Merge pull request #2394 from SimenB/files
+
+Use `files` in package.json",True
+d05c86c46a79928c5e64488d6067dc9c31ee0fce,2016-11-18 22:36:30,Simen Bekkhus,Use `files` in package.json,False
+9f702bf4b5d075035c28eea55dda44d3a0235926,2016-11-18 22:32:29,simo,"Merge pull request #2463 from lostcolony/master
+
+AWS support for session tokens for temporary credentials",True
+7532634b090a01a4bc75f298f39e5eb9ed51d63f,2016-11-18 22:24:16,simov,Remove redundant code,False
+d16bf18e323b91c5eda7e0b81b07116321132082,2016-11-18 22:22:42,simov,Merge branch 'master' into aws4-session,True
+67c96736d6caf4911715d5fdd726ff74428abbaa,2016-11-18 18:05:01,simo,"Merge pull request #2467 from simov/bump-uuid
+
+Migrate to uuid",True
+39350edecf29a4996225974908a175f8a7759b76,2016-11-18 17:57:03,simov,Bump uuid,False
+e1c0981fe0e124fa7c6df8555c1c6c39d4a4390f,2016-11-18 17:53:22,simov,Merge branch 'defunctzombie-uuid' of github.com:antialias/request into bump-uuid,True
+9122f4359d36d6d2024cabbd0bfa59bd669d4ba2,2016-11-17 21:13:09,Christopher Phillips,Fixing requests/requests issue #2462 - AWS support does not include the use of session tokens for temporary credentials,False
+0131e2d873b78fc9574d79caa83726b8ac92e1ea,2016-11-15 18:05:16,simo,"Merge pull request #2459 from request/greenkeeper-taper-0.5.0
+
+Update taper to version 0.5.0 🚀",True
+8c6fd17a7b287b8229e9728784b6100abfe10c12,2016-11-15 18:04:16,simo,"Merge pull request #2448 from mscdex/improve-new-test-reliability
+
+Make other connect timeout test more reliable too",True
+33700bd058242d42cf81b50f4bd39b37af4fa408,2016-11-12 17:40:31,OwnageIsMagic,Fix wrong MIME type in example,False
+17095d5984393907a55924d79f2b7fab7a121c7b,2016-11-09 08:46:06,greenkeeperio-bot,"chore(package): update taper to version 0.5.0
+
+https://greenkeeper.io/",False
+c5243d0a584a2251c1407099667d6614f616886e,2016-11-06 21:02:49,Nic Jansma,"Adds .timings array with dns, tcp, request and response times",False
+6739fe78759204ced0eb917f578c608f5f5f560b,2016-11-03 19:08:08,simov,2.78.1,False
+d4a68e9b64979f388c204f5d957e366878262340,2016-11-03 19:07:56,simov,Update changelog,False
+7cc16575a3e5a47cdd362ccd1b508e253f37a4bb,2016-11-03 19:06:28,simov,2.78.0,False
+6301c906343486460463bc45645df292686c2fa3,2016-11-03 19:04:12,simo,"Merge pull request #2447 from mscdex/fix-timeout-regression
+
+Always set request timeout on keep-alive connections",True
+4cb1487e7ca806aab65391b9212e82d1eb2ac391,2016-11-03 18:13:58,Brian White,Make other connect timeout test more reliable too,False
+82da8b857050a7078a40b7e0f2781077c13abea7,2016-11-03 17:53:34,Brian White,"Always set request timeout on keep-alive connections
+
+001eae3d479 would erroneously only set http request timeout
+if a new socket was being used for the request. This commit
+ensures the http request timeout is always set, even on keep-alive
+connections.",False
+7228f1328523b4dd8f0be652104a6a41e1fc9395,2016-11-03 16:48:01,simov,2.77.1,False
+8d534217a9411053e40885120696515c1bee0673,2016-11-03 16:47:46,simov,Update changelog,False
+22ecf67769f3cca15ebc4724500117b3359e8195,2016-11-03 16:46:19,simov,2.77.0,False
+4c4557faabf415a01ce2d8a7c3473311c126f69b,2016-11-03 16:45:58,simov,Drop 0.12 build target,False
+99ef04227b1f867f625c97f86e171529489d4116,2016-11-03 16:42:55,simo,"Merge pull request #2439 from mscdex/fix-timeout-regression
+
+Fix socket 'connect' listener handling",True
+3258345d5def108b9072168812ae8dfd62999390,2016-11-01 22:00:44,simo,"Merge pull request #2442 from request/greenkeeper/remove-node-0.10
+
+👻😱 Node.js 0.10 is unmaintained 😱👻",True
+01aefdd87cdd9cc44af6828c55fe5ef9c7e205d7,2016-11-01 03:40:22,greenkeeperio-bot,"chore: drop support for Node.js 0.10
+
+BREAKING CHANGE: This module no longer supports Node.js 0.10",False
+001eae3d479a13350b06b8d3f8182b2060a2c60d,2016-11-01 00:28:44,Brian White,"Fix socket 'connect' listener handling
+
+This commit ensures that both a 'connect' timer only starts when a
+new socket is being used for a request and that the 'connect' timer
+is stopped in more places.
+
+Fixes: https://github.com/request/request/issues/2438",False
+ec2c88d3eaa354692819275f8ab804145da3f7ca,2016-10-30 02:46:19,simo,"Merge pull request #2435 from kirrg001/fix/add-option-to-follow-redirect-with-http-method
+
+Add followOriginalHttpMethod to redirect to original HTTP method",True
+76d909fb7a220f0f877179e27ac6aff6df3399fb,2016-10-28 01:58:21,simo,"Merge pull request #2414 from mscdex/tests-timeout-reliability
+
+Improve test-timeout reliability",True
+53b78317f47e8c1d4e4c046966b476fc6672be70,2016-10-25 14:28:00,simov,2.76.1,False
+7e873863803817d321dbc994d3eff943cde42ac7,2016-10-25 14:27:32,simov,Update changelog,False
+a29f1f8b4dbc68e3b5e21e9db776663537beaa79,2016-10-25 14:26:23,simov,2.76.0,False
+fae254e3e97a41c97379a821b89e3be81cd9ed29,2016-10-25 14:03:35,simo,"Merge pull request #2424 from zertosh/remove-bl
+
+Handle buffers directly instead of using ""bl""",True
+d9b8d4882dfcc7386fc9390419c34d5847aedb14,2016-10-25 13:45:48,kirrg001,"Add followOriginalHttpMethod to redirect to original HTTP method
+
+closes #2118
+- added test
+- updated readme",False
+0d27170e8a96437758694aa7ed10af432ea8d9e6,2016-10-24 06:44:14,Andres Suarez,"Handle buffers directly instead of using ""bl""",False
+5c93d8c4dbb9e7a2745cd285e98140cdc2e25f15,2016-10-20 13:31:19,Brian White,Improve test-timeout reliability,False
+8c04a23143d30a0cfef0f04236b445bfbd387689,2016-10-20 13:19:57,simo,"Merge pull request #2415 from mscdex/tests-timeout-enable-travis
+
+Re-enable timeout tests on Travis + other fixes",True
+995cc31287271134e5f7e67292eaccdfc117c8a5,2016-10-20 13:02:53,simo,"Merge pull request #2431 from mscdex/timeouts-accuracy
+
+Improve timeouts accuracy and node v6.8.0+ compatibility",True
+3804428a723b5dc4ae15b92169d576b2d9466840,2016-10-19 22:24:09,Brian White,Don't end response early in tests/test-pipes,False
+95b743f271e021548fccea942a4a9ab3f23ef1f9,2016-10-19 22:24:09,Brian White,"Use random ports for servers used in tests
+
+Not only does this avoid problems with the fixed port already
+being used on the local system, but it could also avoid cascading
+test failures and potential race conditions between tests.",False
+f55c5201dd42ee828923be94a10eeece0559b3cc,2016-10-19 22:24:09,Brian White,"Re-enable tests/test-timeout on Travis
+
+Recent changes to timeout handling now allow these tests to pass
+successfully on Travis CI.",False
+285d49d2209596b9b71f7dc0c4a88acbd07024ee,2016-10-19 22:22:00,Brian White,Perform stricter timeout value validation,False
+e759a76a8cbc53d24a20bdb5021d87ba398977e8,2016-10-19 18:38:55,simo,"Merge pull request #2428 from request/greenkeeper-qs-6.3.0
+
+Update qs to version 6.3.0 🚀",True
+cb8c1f62d4e6453a0dca8a902df2117a986f408d,2016-10-18 03:23:30,Mikeal Rogers,"Merge pull request #2420 from duereg/master
+
+change .on to .once, remove possible memory leaks",True
+bb8e8995b622494f1c949203af430b2dd9d2bf28,2016-10-18 02:58:50,Mikeal Rogers,"Merge pull request #2426 from zertosh/remove-isfunction
+
+Remove ""isFunction"" helper in favor of ""typeof"" check",True
+a04f9262333f47d95fd778834be315a31aa84fe5,2016-10-18 02:58:05,Mikeal Rogers,"Merge pull request #2425 from zertosh/simplify-defermethod
+
+Simplify ""defer"" helper creation",True
+c343ce9b2a9d96da0b2cae9223fdef3384c6edf1,2016-10-17 06:00:36,greenkeeperio-bot,"chore(package): update qs to version 6.3.0
+
+https://greenkeeper.io/",False
+092e1e657326626da0b8ac4cfe8752751689313b,2016-10-17 04:37:20,Andres Suarez,"Remove ""isFunction"" helper in favor of ""typeof"" check",False
+6af6261a197c865b6f68af16017c22a55c62e0d1,2016-10-17 04:27:23,Andres Suarez,"Simplify ""defer"" helper creation",False
+73b1e56852e00d88fd2d1f58d6f6fd8c5157b809,2016-10-15 22:56:40,simo,"Merge pull request #2402 from request/greenkeeper-form-data-2.1.1
+
+form-data@2.1.1 breaks build 🚨",True
+bf8b0f73126e1d58af0ef4b848ade4d1d69c573f,2016-10-14 23:12:26,Matt Blair,"change .on to .once, remove possible memory leaks",False
+1ef4075f5b649987b52cc71a1c33fdd8111d305c,2016-10-14 15:52:03,Brian White,"Make timeouts more accurate
+
+Prior to this commit, the connection timeout could include some
+amount of time that passes before the socket actually starts its
+connection attempt.
+
+Additionally, this commit only starts the request timeout once a
+connection is made. This helps to prevent an issue where one kind of
+timeout is seen instead of another (ETIMEDOUT vs ESOCKETTIMEOUT)
+while connecting in some situations (depending on OS and possibly
+node version).",False
+74e981379cc8eee8523096859edddfa497c65c85,2016-10-14 15:52:03,Brian White,"Do not pass timeout to http.request()
+
+node v6.8.0 supports a `timeout` option now, so we should
+explicitly delete it in case the value is < 0 (in which case
+node will throw an error). Handling timeouts manually for now
+is better for consistency with older node versions.",False
+edf29438f8a9c0fd0794b8732fdcaf13439a782b,2016-10-04 12:07:21,greenkeeperio-bot,"chore(package): update form-data to version 2.1.1
+
+https://greenkeeper.io/",False
+90cf8c743bb9fd6a4cb683a56fb7844c6b316866,2016-09-26 10:36:29,simo,"Merge pull request #2393 from request/greenkeeper-form-data-2.1.0
+
+Update form-data to version 2.1.0 🚀",True
+e28fe833f04db3e1289dd28b7167ca438db0a3ae,2016-09-26 03:48:26,greenkeeperio-bot,"chore(package): update form-data to version 2.1.0
+
+https://greenkeeper.io/",False
+b2ca6353f9fbfb04da84c42e5216440ac7816e61,2016-09-18 04:03:33,simov,2.75.1,False
+e9f09c2832073858d6d988ba82a2895f36efa92d,2016-09-18 04:02:49,simov,Update changelog,False
+edcdf6446014e41d3c33a15a1ce3ee0af6e783ce,2016-09-18 04:01:25,simov,2.75.0,False
+561c16b7b5aa26c6e3712ec49ae2a9d8ecb1301a,2016-09-18 04:00:51,simo,"Merge pull request #2381 from simov/drop-0-10
+
+Drop support for Node 0.10",True
+5eeafa25097d42d6e2588122158761187d27e6ce,2016-09-18 03:57:04,simov,Drop support for Node 0.10,False
+ca4293bc373a15fb12ad127aa0535ed1c9bd8074,2016-09-17 17:41:21,simo,"Merge pull request #2377 from request/greenkeeper-form-data-2.0.0
+
+Update form-data to version 2.0.0 🚀",True
+44a80f3f6f86c20f95652eb8c5ed49e65c957562,2016-09-17 11:45:38,greenkeeperio-bot,"chore(package): update form-data to version 2.0.0
+
+https://greenkeeper.io/",False
+212de93e01b2b2d64cf19736808aae3472e40567,2016-09-07 06:51:52,Jordan Klassen,Fix typeof check in test-pool.js,False
+06e8f851ad460afc1094a622eec2b72f33489b3b,2016-08-28 15:56:37,simo,"Merge pull request #2353 from simov/greenkeeper-options
+
+Add greenkeeper ignored packages",True
+00ac5070813f03306a68afb13dd2808540c8efc3,2016-08-28 15:52:34,simo,"Merge pull request #2351 from request/greenkeeper-karma-tap-3.0.1
+
+Update karma-tap to version 3.0.1 🚀",True
+6b2441828bdcf1d39b6b55b4fd0a26caecd953bd,2016-08-28 15:44:07,simov,Merge branch 'master' into greenkeeper-karma-tap-3.0.1,True
+185f13df1dff4369074ef79c62e7fd4342d851f0,2016-08-28 15:43:27,simov,Add greenkeeper ignore packages,False
+bfb3a469a1c51ebf6a3c1f4be553b43eaafcf47c,2016-08-28 15:23:46,simov,Update docs to reflect the new time property,False
+20156e3f252f61b3243961dfc8ee92aa63e00e36,2016-08-28 15:20:57,simov,Merge branch 'master' into responsestarttime,True
+0304bc13821e35ae83d81da0b8331dd4f7427e81,2016-08-28 13:41:25,simo,"Merge pull request #2348 from request/greenkeeper-form-data-1.0.1
+
+form-data@1.0.1 breaks build 🚨",True
+9457ea5aa6d1948c37f311fb4d634d394c1039eb,2016-08-28 13:34:03,simov,Merge branch 'master' into greenkeeper-form-data-1.0.1,True
+4d33333ee32e1cc4ceb756bbec7681fc06804bd1,2016-08-28 13:26:32,simo,"Merge pull request #2349 from scotttrinh/null-form-data
+
+Check error type instead of string",True
+ba2d94608887e87319ab50eb1d088adb11f24fb3,2016-08-28 08:34:29,Paul Irish,Add tests for responseStartTime,False
+33aa74483d676a2a490f3ebe83161f6a6244bf4a,2016-08-28 08:14:26,Paul Irish,Add responseStartTime timing,False
+62712d45aff7d685eb274c78ea69bb0c9c11a7b1,2016-08-27 18:14:33,greenkeeperio-bot,"chore(package): update karma-tap to version 3.0.1
+
+https://greenkeeper.io/",False
+1389216fef386846f5bf5b49f81cf93d5be33f20,2016-08-26 21:18:56,Scott Trinh,"Check error type instead of string
+
+Upstream change broke this unit test.",False
+a10af07a18bc2925f3a3d4c1d4a0e4d35949682e,2016-08-26 15:18:41,greenkeeperio-bot,"chore(package): update form-data to version 1.0.1
+
+https://greenkeeper.io/",False
+263e16ec89edb8041657edb9280d9b0039146845,2016-07-28 01:04:26,Thomas Hallock,using defunctzombie fork of uuid because node-uuid has been abandoned by developer,False
+9e17ba4819eaf806975540561a336ca620d1b2eb,2016-07-23 05:14:48,simov,2.74.1,False
+76e82351cbc21049441b1763c6f2bbd504fa8f5a,2016-07-23 05:14:28,simov,Update changelog,False
+ae1fd8e8a9cd970e845f394b773440b71b0cf964,2016-07-23 05:13:16,simov,2.74.0,False
+274d3917746116d23f0eaf30abc00aa6ad0a275a,2016-07-23 05:11:43,simo,"Merge pull request #2295 from stash-sfdc/patch-1
+
+Update tough-cookie to 2.3.0",True
+4f03ea8a8399ef17f1d5c71defd08184d9cbdae3,2016-07-23 02:40:44,Jeremy Stashewsky,"tough-cookie to 2.3.0
+
+To address https://nodesecurity.io/advisories/130",False
+56c0f68bf97f67d0973533cb55dc2605070000cf,2016-07-14 02:11:11,simo,"Merge pull request #2280 from request/greenkeeper-karma-tap-2.0.1
+
+Update karma-tap to version 2.0.1 🚀",True
+f53a2068304e6e05264edb3278b09bd54bf57aad,2016-07-11 20:53:17,greenkeeperio-bot,"chore(package): update karma-tap to version 2.0.1
+
+https://greenkeeper.io/",False
+bf9a8ef8c5b2d87899cfed30d31118f231c7fffe,2016-07-09 13:13:32,simov,2.73.1,False
+fa46be421b165c737c93672a8f920245cfb090a2,2016-07-09 13:12:57,simov,Update changelog,False
+d17b582196bdc8fd4896f9af7c1cbbad4bd3fa5a,2016-07-09 13:07:21,simov,2.73.0,False
+290111d4e94ac9f6c8d3abecbc8920c96d1b32be,2016-07-09 13:03:40,simo,"Merge pull request #2240 from zarenner/users/zarenner/removeConnectionErrorHandler
+
+Remove connectionErrorHandler to fix #1903",True
+4f0f9f1d7acb3c14b825483ab9c0ed7e2ac6aaaa,2016-07-08 15:01:10,simo,"Merge pull request #2251 from request/greenkeeper-tape-4.6.0
+
+tape@4.6.0 breaks build 🚨",True
+7d823e4f7b474c0fc4d59193756389287e32ec10,2016-07-08 14:42:32,simo,"Merge pull request #2225 from ArtskydJ/patch-1
+
+Update docs",True
+6dfb447224484e0ce53f100309f32a5d9a8d45c2,2016-07-08 14:15:20,greenkeeperio-bot,"chore(package): update tape to version 4.6.0
+
+https://greenkeeper.io/",False
+2e9aef34f72622064f2f6aff498bd86ff9e1ce7a,2016-07-08 14:15:06,simo,"Merge pull request #2203 from request/greenkeeper-browserify-13.0.1
+
+Update browserify to version 13.0.1 🚀",True
+fba822f058c29b3ba3de9ef7560a65ec45968983,2016-07-08 13:53:27,greenkeeperio-bot,"chore(package): update browserify to version 13.0.1
+
+https://greenkeeper.io/",False
+e0be8e5da216d133c163ac4b492b065c8a2862f8,2016-07-08 13:53:13,simo,"Merge pull request #2275 from request/greenkeeper-karma-1.1.1
+
+Update karma to version 1.1.1 🚀",True
+41c666676e4c6622c8224364318be4fc46ab060c,2016-07-08 13:47:03,simo,"Merge pull request #2204 from simov/codecov-yml
+
+Add codecov.yml and disable PR comments",True
+7513bce6deca4f9e62d3dd5b8db92aec7265ef86,2016-07-07 21:06:13,greenkeeperio-bot,"chore(package): update karma to version 1.1.1
+
+https://greenkeeper.io/",False
+bf86f170257de6a0cd7b3342676bb43b63219d9a,2016-06-10 22:35:00,Zach Renner,Remove connectionErrorHandler to fix #1903,False
+fcab069367df11c80ea5c9af1ba3274aa9ac05d0,2016-05-26 08:44:58,Joseph Dykstra,Remove extraneous bracket,False
+bebcd417a89425743434858a71c83c437bd75f4b,2016-05-24 16:02:28,calamarico,Adding a simple Response object reference in argument specification,False
+1b19c88134b54fec75a270aeb8847d465a4ba8b1,2016-05-17 19:19:20,simo,"Merge pull request #2212 from nazieb/master
+
+Fix link to http.IncomingMessage documentation",True
+3cfbece3b7101fd011f46348539201267a362ec3,2016-05-13 16:40:32,Ainun Nazieb,Doc: Fix link to http.IncomingMessage,False
+b7de3a8c4499cb10a3357d69cf56da716e71137e,2016-05-12 18:35:26,simov,"Add codecov.yml and disable PR comments
+Use the codecov module instead of codecov.io",False
+8add02c9bd02f314168c2769310c72f2f5209f3a,2016-05-10 15:15:00,simo,"Merge pull request #2208 from simov/form-data-null
+
+Update to form-data RC4 and pass null values to it",True
+dd3fad0ff08e769f35c7b1d47f8a3f9b09d68d69,2016-05-09 16:13:34,simov,Update to form-data RC4 and pass null values to it,False
+11a1c723f3695bbc617de4b5abdf5edbae8f0418,2016-05-09 13:34:09,simo,"Merge pull request #2207 from simov/move-aws4
+
+Move aws4 require statement to the top",True
+70cafabcab077b1c2b92115d8ef21e297c443c0b,2016-05-09 13:24:27,simov,Move aws4 require statement to the top,False
+256268f67146111b6258d8f7c4b166c4cdb8b65c,2016-05-09 13:19:34,simo,"Merge pull request #2199 from request/greenkeeper-karma-coverage-1.0.0
+
+Update karma-coverage to version 1.0.0 🚀",True
+e269194f50df96b0c316dec9c31432119b1d6f25,2016-05-09 13:05:56,simov,Merge branch 'master' into greenkeeper-karma-coverage-1.0.0,True
+f6027e9bb21272316ec03a945de741dfcac5a0c7,2016-05-09 12:32:28,simo,"Merge pull request #2206 from request/greenkeeper-qs-6.2.0
+
+Update qs to version 6.2.0 🚀",True
+aff937ad72b66d5ec9e87851958b47c00010f30d,2016-05-09 04:50:06,greenkeeperio-bot,"chore(package): update qs to version 6.2.0
+
+https://greenkeeper.io/",False
+1cd1747b863c94331506f97ad5260af3ee39dfbb,2016-05-07 22:49:57,simo,"Merge pull request #2205 from simov/fix-test-timeout
+
+Use server-destory to close hanging sockets in tests",True
+926ebd87f213e373a843681121d7013cbfdd9246,2016-05-07 22:42:21,simov,"Use server-destory to close hanging sockets
+when running the coverage report (in single process)",False
+4482576eefbeddfb21d251644a33f11fed11c75b,2016-05-05 16:08:16,simo,"Merge pull request #2200 from request/greenkeeper-karma-cli-1.0.0
+
+Update karma-cli to version 1.0.0 🚀",True
+a28ea10c13fbfadbbc5b5933fce20fb4e42f83af,2016-05-04 09:09:47,greenkeeperio-bot,"chore(package): update karma-cli to version 1.0.0
+
+https://greenkeeper.io/",False
+e12842012265d8531772ec88191b07b3c51b9293,2016-05-04 07:58:25,greenkeeperio-bot,"chore(package): update karma-coverage to version 1.0.0
+
+https://greenkeeper.io/",False
+39688bea3b39ae5b0a754a49c18f7855de5d1cd3,2016-04-17 19:23:43,simov,2.72.1,False
+6dcac13642955577592fdafb5ff3cdc8a6ff1b1b,2016-04-17 19:23:19,simov,Update changelog,False
+9a73a402abe1fab65064c07141ae1da925333dee,2016-04-17 19:18:12,simov,2.72.0,False
+7b4d2063f5f9db67f057654ed9c581fa49c07572,2016-04-17 16:48:53,simo,"Merge pull request #2176 from simov/fix-head-gzip
+
+Do not try to pipe Gzip responses with no body",True
+5553f17ffee827a6078b35af76950061a939d95c,2016-04-17 12:45:38,simov,Do not try to pipe Gzip responses with no body,False
+2ef974a823eca5601d0e17eece4212c8bc8d01cc,2016-04-16 12:08:57,simo,"Merge pull request #2175 from simov/delete-method
+
+Add 'delete' alias for the 'del' API method",True
+c9f0cc56bc358f22c25a45fd5868c6cdd11c792d,2016-04-16 12:07:50,simov,Do not try to pipe HEAD request responses when using gzip,False
+00eaf550a8ba5fcbca1b9ba46cb1073861a150de,2016-04-16 11:34:27,simo,"Merge pull request #2172 from czardoz/master
+
+Add support for deflate content encoding",True
+750fe8513926769c2e7e7476469b6510d234fd6e,2016-04-15 17:00:14,Aniket Panse,added support for deflate content encoding,False
+865e981f2e36d79ef07a3c44f8e3470e6a7b89f2,2016-04-15 14:34:17,simov,Fix support for delete method,False
+5a8ddc8102a0897ca1aacf222576258ad87105c1,2016-04-15 11:38:34,simo,"Merge pull request #2169 from simov/callback-option
+
+Add callback option",True
+8f2a142a06688b7ae276600add1e5388cb78ab00,2016-04-14 13:33:47,Eric Millin,"Explicitly destroy request buffer (#2168)
+
+* Explicitly destroy response buffer
+
+This fixes the issue mentioned in #1723. The lifetime of the `buffer` variable defined in `readResponseBody` is linked to the `Request` object, rather than the enclosing function. This can lead to leaky behavior if references to the request persist in memory.",False
+d5e27038d8e24137d30c1bc3c26d5f83f99c74df,2016-04-14 13:24:34,simo,"Merge pull request #2165 from simov/fix-http-throw
+
+Check for self.req existence inside the write method",True
+579c1118bd4c6f2717fd9e67ffb508fe0dcefab8,2016-04-14 13:24:01,simo,"Merge pull request #2167 from a0viedo/patch-1
+
+Fix TravisCI badge reference master branch",True
+6c32bf4f0591f33e255870fec6af89067b92f841,2016-04-14 13:21:24,simov,Add callback option,False
+22a4c8c3e26c71e43dfbd14b35a047254d11e988,2016-04-13 17:09:21,Alejandro Oviedo,make travisci badge reference master branch,False
+06723fdf204e41d685e1abbe0096f768390a0e14,2016-04-13 02:55:44,Muhan Zou,"add 'delete' alias for 'del', reduce ternary checking in the meantime",False
+1460d0023ac312408d0915fbc65ac9da8a69daf4,2016-04-12 21:49:32,simov,Check for self.req existence inside the write method,False
+5777c2ea6ca5b0499682a8d1e6c865b34bb7b1cd,2016-04-12 18:39:41,simov,2.71.1,False
+25b3ea86c330eb68a68ffe332c4002107a3d6272,2016-04-12 18:38:24,simov,Update changelog,False
+2b3a8f64161b7802bea409ab569dae8fcb78337f,2016-04-12 18:34:02,simov,2.71.0,False
+1fba4e97749bafe6ea3cbcd24fbfcb54d13de795,2016-04-12 18:31:09,simo,"Merge pull request #2164 from simov/fix-header-error
+
+Catch errors from the underlying http module",True
+9aad1597f88a57e8e72af2475778858c2726fa95,2016-04-11 18:41:59,simov,Update .travis.yml + drop io.js build target,False
+1f0a4577ade88fca1b5630e4f303b8d8c1febd7f,2016-04-11 18:18:09,simov,Catch errors from the underlying http module,False
+c2224588455b2e9a50199584711dce24f24dc2d2,2016-04-05 15:37:36,simov,2.70.1,False
+bc781cb49aafedb057719e8b1eb7850979688a85,2016-04-05 15:36:05,simov,Update changelog,False
+625ba5c2bdcb28d62f12faf4666bd411aa0238da,2016-04-05 12:38:13,simov,2.70.0,False
+ed5d26615ee6b861ca8e8acd02c4d4e8cbf3c694,2016-03-29 12:31:02,simo,"Merge pull request #2147 from request/greenkeeper-eslint-2.5.3
+
+Update eslint to version 2.5.3 🚀",True
+293704a692619dc8bf6b1d3a7585a3a048e1b0a3,2016-03-29 12:30:17,simov,Set back the caret range for eslint,False
+77b4783b8c0b22e8c60dc7abef74a101e8beedb8,2016-03-28 23:37:02,greenkeeperio-bot,"chore(package): update eslint to version 2.5.3
+
+http://greenkeeper.io/",False
+a7ef602e90fae6c1c715c461d11cd78802ff4c2d,2016-03-26 13:19:17,simo,"Merge pull request #2009 from elyobo/stringify-replacer
+
+Support JSON stringify replacer argument.",True
+397c76bd2fc916b1943a384bed5bfd16de9fe8cf,2016-03-26 12:59:44,Liam O'Boyle,"Support JSON stringify replacer argument.
+
+Adds support for the replacer argument of JSON.stringify, in the same
+way that request already supports the revivier argument for JSON.parse.
+
+Change jsonReplacer arg to jsonStringifier.
+
+Revert ""Change jsonReplacer arg to jsonStringifier.""
+
+This reverts commit 40c03af35ede54c29ac7cd72aa3a2b50c42a59ff.",False
+de166118f5b036f05c9dc3dad2a89978fa25fb90,2016-03-26 12:40:31,simo,"Merge pull request #2142 from request/greenkeeper-eslint-2.5.1
+
+Update eslint to version 2.5.1 🚀",True
+c163360217597867c2fdacd16e602a55e25a19f1,2016-03-26 04:07:13,greenkeeperio-bot,"chore(package): update eslint to version 2.5.1
+
+http://greenkeeper.io/",False
+473cae3c89683885de2c6b73c2a7c3b4c43ce56a,2016-03-15 15:39:35,simo,"Merge pull request #2128 from request/greenkeeper-browserify-istanbul-2.0.0
+
+Update browserify-istanbul to version 2.0.0 🚀",True
+2e4235827d43ccea4602e5953a0993b399fa7eb6,2016-03-15 14:47:59,greenkeeperio-bot,"chore(package): update browserify-istanbul to version 2.0.0
+
+http://greenkeeper.io/",False
+ce6d9d98aaead7c82b3dff86cb0fc51c5688e82b,2016-03-06 15:48:34,simo,"Merge pull request #2115 from request/greenkeeper-eslint-2.3.0
+
+Update eslint to version 2.3.0 🚀",True
+622d61ef381735a9162bebdbccedde71869a173b,2016-03-06 15:11:27,simov,Update eslint rule,False
+679379596b55051135af49ae7f22aa7ad022ad91,2016-03-05 06:13:09,greenkeeperio-bot,"chore(package): update eslint to version 2.3.0
+
+http://greenkeeper.io/",False
+c289759d10ebd76ff4138e81b39c81badde6e274,2016-02-24 17:11:40,simo,"Merge pull request #2089 from simov/fix-badges
+
+Fix badges",True
+8da3da59e24fa017b2bf3c32f3321966c9aa5eaf,2016-02-24 17:11:08,simo,"Merge pull request #2092 from request/greenkeeper-browserify-istanbul-1.0.0
+
+Update browserify-istanbul to version 1.0.0 🚀",True
+69bdeee66c67590ffb21f4f81d0debd96afc14e9,2016-02-24 04:15:15,greenkeeperio-bot,"chore(package): update browserify-istanbul to version 1.0.0
+
+http://greenkeeper.io/",False
+658ff1956fb492a8655a34b36b52b0811ad3bfd5,2016-02-22 17:52:19,simov,Add snyk.io badge,False
+ebb2c3b63113d9e7225aacf6a636242c44eae385,2016-02-22 17:51:49,simov,Bump hawk,False
+c2dab797d362ad158e0399140aa59829fa50d9b3,2016-02-16 20:06:52,simo,"Merge pull request #2079 from simov/body-stream
+
+Accept read stream as body option",True
+9dfecb9cf546b7b48aaa1f291e6026b380a578ed,2016-02-16 00:15:21,simov,Accept read stream as body option,False
+46fbddea91a215953703945cb4422f1ab305044f,2016-02-15 18:22:11,simo,"Merge pull request #2070 from request/greenkeeper-bl-1.1.2
+
+Update bl to version 1.1.2 🚀",True
+af80027d663f01555c1e97504b751701d2f5eaad,2016-02-12 08:45:30,greenkeeperio-bot,"chore(package): update bl to version 1.1.2
+
+http://greenkeeper.io/",False
+7f7b2783ccecc7af79c0f74faeb0d34a3ac37d56,2016-02-05 13:12:43,simo,"Merge pull request #2063 from simov/up-deps
+
+Up bluebird and oauth-sign",True
+2a1d99c6cbc427d03094369e1602a39612c46bd2,2016-02-05 12:41:52,simov,Up bluebird and oauth-sign,False
+176f3a8ec14e69cc7e955b8c592c9f6fa2090c0a,2016-02-05 12:33:24,simo,"Merge pull request #2058 from eiriksm/fix/karma-fixes
+
+Karma fixes for latest versions",True
+3e63b907d9f1cab9ac51ca673b6922c1dc24503c,2016-02-05 12:17:17,Eirik S. Morland,"Upgrade karma-phantomjs-launcher and karma-browserify. Fix browser
+tests.
+
+Fixes #2035.
+Fixes #2044.
+Closes #2056",False
+26fb3bed6be96696d6fcb11d898fc38c7c94adff,2016-02-05 12:12:05,simo,"Merge pull request #2057 from simov/fix-contrib
+
+Update contributing guidelines",True
+e5bbcaf767902544e491e1918379f264e0bc6884,2016-02-04 14:02:42,simov,Update contributing guidelines,False
+4278b86ff09106d1e32044a29b55fcfd2ab6e6dc,2016-02-04 12:47:47,simo,"Merge pull request #2054 from request/greenkeeper-qs-6.1.0
+
+Update qs to version 6.1.0 🚀",True
+b2fa11f89d11a7444e9d24208dc0b308b67a8add,2016-02-04 12:16:19,simov,2.69.1,False
+601a0ce5245bf3e190ec58eed0079a874282692e,2016-02-04 12:16:13,simov,Update changelog,False
+f672dc503911214257fe48b297949f099ebe44b8,2016-02-04 12:14:14,simov,2.69.0,False
+605872aed01079e0645bdd5c69d652131e2d8fcf,2016-02-04 11:34:52,greenkeeperio-bot,"chore(package): update qs to version 6.1.0
+
+http://greenkeeper.io/",False
+c54be10eb11f4514ec29f97f83206520401ec5c1,2016-01-28 00:21:18,Mikeal Rogers,"Merge pull request #2041 from rmg/fix-aws4-dep
+
+restore aws4 as regular dependency",True
+08f9b9850934924d3aa5740d2ce1519c0edaa854,2016-01-27 23:59:32,Ryan Graham,"add aws4 as regular dependency
+
+It was moved in #2036 as a devDependency, but is still used in
+request.js
+
+This should fix #2040.",False
+89613204cb6da83373713f4940b22b3a8e3c7dca,2016-01-27 21:50:33,simov,2.68.1,False
+ce6c69faee2dd2a3d2d23f3d20532ff025da3a42,2016-01-27 21:50:13,simov,Update changelog,False
+7e1fb0e557017666b85d28f3a40ce2718d4234f0,2016-01-27 21:48:17,simov,2.68.0,False
+d9906af527e0e452bb3e4f680348f017cf27b451,2016-01-27 21:45:50,simo,"Merge pull request #2036 from simov/fix-aws-sign4
+
+Add AWS Signature Version 4",True
+a5101c529f3e795f366d2a8e73bf4f1e1e5aac71,2016-01-27 21:06:07,simov,Made aws4 external dependency,False
+cacade52290841e6dd902ee6a71c85eab4d558e8,2016-01-26 15:42:35,simov,Use npm to sort the dependencies,False
+f871dfb9b732caa745f74cc799788368dfdd79a3,2016-01-26 15:39:30,simov,Improve aws tests,False
+17d7cbc1838ba62089e9a438897c3d1b4427e02f,2016-01-26 15:05:12,simov,Revert back changelog changes,False
+4326b8112a8ca38154776376e8b91f1e6d805e86,2016-01-26 15:04:29,Mirko Di Serafino,"Added aws-sign4 support
+
+added aws-sign4 support
+
+added tests
+
+Added sign_version parameter doc
+
+fixed test
+
+fix changes
+
+removed changes on CHANGELOG
+
+fix
+
+fix
+
+fix comma",False
+29d81814bc16bc79cb112b4face8be6fc00061dd,2016-01-21 15:54:44,simo,"Merge pull request #2022 from simov/fix-multipart
+
+Convert numeric multipart bodies to string",True
+90b63472af82ec8afd9dbaacf2223fde9f3db154,2016-01-20 22:19:57,simo,"Merge pull request #2024 from TylerDixon/master
+
+Update har-validator dependency for nsp advisory #76",True
+8a299a09f475aae44e3e89d15e5b53be1c65ba47,2016-01-20 21:39:44,Tyler Dixon,"Update har-validator dependency for nsp advisory #76
+
+See https://nodesecurity.io/advisories/76",False
+8e98a6e358dd87966df022542fc3354547465876,2016-01-20 12:58:31,simov,Test converting of numeric multipart bodies to string,False
+8902ce12ffed9bf65b3ccc73203f0bc390f156ea,2016-01-20 12:49:35,simov,Merge branch 'master' of github.com:feross/request into fix-multipart,True
+7a1f4ec7d72fcad4d63bca3cbc9342a8e87e1445,2016-01-19 22:20:20,simo,"Merge pull request #2016 from request/greenkeeper-qs-6.0.2
+
+Update qs to version 6.0.2 🚀",True
+3d31d4526fa4d4e4f59b89cabe194fb671063cdb,2016-01-19 09:24:24,Feross Aboukhadijeh,Fix remote memory disclosure in multipart attachments,False
+8845e130ffd8dc43de5bcf4c14a448e7032d9491,2016-01-18 04:29:47,greenkeeperio-bot,"chore(package): update qs to version 6.0.2
+
+http://greenkeeper.io/",False
+85f8235c061f8d0d1697066290a34f43120cb77f,2016-01-13 16:16:51,simo,"Merge pull request #2007 from simov/fix-extend
+
+Use the `extend` module instead of util._extend",True
+dd168aebc80bad51727b4823aca63d4f292aa7a7,2016-01-13 16:08:26,simo,"Merge pull request #2003 from request/greenkeeper-browserify-13.0.0
+
+Update browserify to version 13.0.0 🚀",True
+297633984140b3b8a55aa65dc74165a7b94475cb,2016-01-13 16:01:40,simov,Use the `extend` module instead of util._extend,False
+c7db6e54158063801324113ffd6ba2701efb1d67,2016-01-12 15:45:22,greenkeeperio-bot,"chore(package): update browserify to version 13.0.0
+
+http://greenkeeper.io/",False
+ee41dc847f20ba3a1f77bca6e22eeacaf51eb704,2016-01-02 15:01:30,simo,"Merge pull request #1989 from request/greenkeeper-buffer-equal-1.0.0
+
+Update buffer-equal to version 1.0.0 🚀",True

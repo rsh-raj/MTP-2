@@ -1,0 +1,3577 @@
+Hash,Date,Author,Message,IsMerge
+c69cdb0cec15a138e0b6e374501e027d1c39606c,2024-11-11 11:02:42,Tapaj Kumar Das,"feat: adds helper function for highest log level (#2514)
+
+- Adds helper function to get the highest log level associated with
+  an helper.
+
+ref: #837",False
+1b9cef8c7d76e4c15d47997d2c4199c31e9d277a,2024-11-10 08:29:19,DABH,3.17.0,False
+3e87128a68468e815fa800df349f179ee699408b,2024-11-10 08:09:32,DABH,Try winston-transport 4.9.0,False
+69625fc35184ee1a624e4b4286ffb77b85a9dc61,2024-11-10 07:57:20,DABH,"Revert ""Try bumping winston-transport to 4.8.0""
+
+This reverts commit fe4b64e9d05eced8638612768e5e8b945f3a36ef.",False
+876ef7a70209e0c1b38ae6bc88d3b07546072c9b,2024-11-10 07:57:18,DABH,"Revert ""Try bumping winston-transport to 4.8.0""
+
+This reverts commit 7ef2c1db2816973629980e866c36c136b19be5cd.",False
+7ef2c1db2816973629980e866c36c136b19be5cd,2024-11-10 07:51:38,DABH,Try bumping winston-transport to 4.8.0,False
+fe4b64e9d05eced8638612768e5e8b945f3a36ef,2024-11-10 07:50:40,DABH,Try bumping winston-transport to 4.8.0,False
+c9fd9a4bec5e6b1dc8c6ba641a5d5fb5a57e80c2,2024-11-10 07:44:23,DABH,Bump logform,False
+14fef0fe74426a70d3e6366c967519cef7612fb9,2024-11-10 07:40:42,DABH,"Revert ""Update logform and winston-transport""
+
+This reverts commit cceb265215a2f4b5545f47dca42167ce1cee68ba.",False
+545b68381d77e1a3a24f79e9a66320f226cf8a69,2024-11-10 07:30:28,DABH,Merge branch 'master' of github.com:winstonjs/winston,True
+cceb265215a2f4b5545f47dca42167ce1cee68ba,2024-11-10 07:29:56,DABH,Update logform and winston-transport,False
+bb529b637faedd4ab3316af2f51a84065acb7a04,2024-11-10 07:28:40,dependabot[bot],"Bump mocha from 10.7.3 to 10.8.2 (#2523)
+
+Bumps [mocha](https://github.com/mochajs/mocha) from 10.7.3 to 10.8.2.
+- [Release notes](https://github.com/mochajs/mocha/releases)
+- [Changelog](https://github.com/mochajs/mocha/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/mochajs/mocha/compare/v10.7.3...v10.8.2)
+
+---
+updated-dependencies:
+- dependency-name: mocha
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ae847abff07175a80908abf5a9b9236935ef597d,2024-11-02 02:45:27,dependabot[bot],"Bump async from 3.2.5 to 3.2.6 (#2516)
+
+Bumps [async](https://github.com/caolan/async) from 3.2.5 to 3.2.6.
+- [Release notes](https://github.com/caolan/async/releases)
+- [Changelog](https://github.com/caolan/async/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/caolan/async/compare/v3.2.5...v3.2.6)
+
+---
+updated-dependencies:
+- dependency-name: async
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+06749a96115a0ed75783761e596754ab7ec9d16b,2024-11-02 02:43:40,DABH,3.16.0,False
+201b6f1d739022b24109eade5b1dc1abf1fd287c,2024-11-02 02:41:30,lexctk,"Feature - optionally include Error.cause property (#2447)
+
+Co-authored-by: Alexandra Tudor <alexandra.tudor@hermes.com>",False
+195e55c7e7fc58914ae4967ea7b832c9e0ced930,2024-10-05 10:26:55,DABH,3.15.0,False
+3a5477770e284e30b1d4d4509c09423886bdd7be,2024-10-05 10:14:50,Han Sen,remove logcallback (#2513),False
+f110f61adc5fadf887d7fd3060fa38c34dae1dee,2024-10-04 12:14:42,cslee0034,"chore(docs): Update README.md w/ usage comments (#2507)
+
+- Address issue #2370: Fixed the comments in the usage section",False
+f5dde86716616f653c5e7b624baa2c9c2c5b6c6c,2024-10-04 12:13:10,dependabot[bot],"Bump nyc from 15.1.0 to 17.1.0 (#2511)
+
+Bumps [nyc](https://github.com/istanbuljs/nyc) from 15.1.0 to 17.1.0.
+- [Release notes](https://github.com/istanbuljs/nyc/releases)
+- [Changelog](https://github.com/istanbuljs/nyc/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/istanbuljs/nyc/compare/v15.1.0...nyc-v17.1.0)
+
+---
+updated-dependencies:
+- dependency-name: nyc
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d1b8dc6d2d9806d0616bf32152a3f0af3026c81f,2024-10-04 12:12:59,dependabot[bot],"Bump @babel/cli from 7.24.7 to 7.25.6 (#2512)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.24.7 to 7.25.6.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.25.6/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+564161aed3d6c58c998f1a7c878050199722c8d8,2024-09-28 06:16:35,dependabot[bot],"Bump @babel/preset-env from 7.24.8 to 7.25.4 (#2506)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.24.8 to 7.25.4.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.25.4/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+eb7e315e585f047f692f6ac7f9454170d7a8ddd8,2024-09-28 06:16:27,dependabot[bot],"Bump mocha from 10.7.0 to 10.7.3 (#2500)
+
+Bumps [mocha](https://github.com/mochajs/mocha) from 10.7.0 to 10.7.3.
+- [Release notes](https://github.com/mochajs/mocha/releases)
+- [Changelog](https://github.com/mochajs/mocha/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/mochajs/mocha/compare/v10.7.0...v10.7.3)
+
+---
+updated-dependencies:
+- dependency-name: mocha
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+22aab6de1d5dbe0b7e07ca853c55492ae7d53b5c,2024-09-28 06:15:54,Phred Lane,"Unified Handler Tests (#2020)
+
+* cleaning up
+
+* added some debug
+
+* fixed typo
+
+* refactored tests to show they are almost identical
+
+* fixed rejection trigger
+
+* removed debug code
+
+* cleaning up
+
+* replaced hack with Mocha setting
+
+* removed unreferenced variable",False
+51a45515b64f700273c007768c680bc664008d04,2024-08-14 22:42:53,DABH,3.14.2,False
+2458ba61ab41fac576b8bded3cd3472e05e3c250,2024-08-14 05:49:03,Neil Enns,"Move initialization to constructor (#2503)
+
+Fixes #2502",False
+b270c4ee8ad8dd7098cf45d64cdab4489512dc8d,2024-08-09 01:03:58,DABH,3.14.1,False
+e82752fc7f4850ffb7814a41f75ee463e5ea48ab,2024-08-09 01:02:37,Neil Enns,"Save a reference to console methods in console transport (#2498)
+
+* Save a reference to console methods
+Fixes #2497
+
+* Address PR feedback",False
+4ff0538e111f0513d1cf08041a768dcb336eff0e,2024-08-08 22:50:28,Neil Enns,"Add `forceConsole` to `ConsoleTransportOptions` (#2496)
+
+Fixes #2495",False
+62acaad26c03e2fe71cfa741cc7bac89df1cf765,2024-08-08 22:47:43,dependabot[bot],"Bump mocha from 10.6.0 to 10.7.0 (#2489)
+
+Bumps [mocha](https://github.com/mochajs/mocha) from 10.6.0 to 10.7.0.
+- [Release notes](https://github.com/mochajs/mocha/releases)
+- [Changelog](https://github.com/mochajs/mocha/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/mochajs/mocha/compare/v10.6.0...v10.7.0)
+
+---
+updated-dependencies:
+- dependency-name: mocha
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b2b79af23999052c171b914710a5001cba4d9590,2024-08-08 09:25:15,Neil Enns,"Update readme with forceConsole info (#2493)
+
+* Update readme with forceConsole info
+
+* Fix TOC rewrite. Oops.
+
+* Argh. Fix TOC again.
+
+* Address PR feedback",False
+c4a15ec02394b6b1e7376fe2979cf1efa6a849f0,2024-08-08 08:44:45,DABH,3.14.0,False
+b2098fd9c05c1bda5e931da53c81c709b56b7dbf,2024-08-07 01:32:41,szolnokit,"Add option forceConsole (#2276)
+
+Add new option to the Console transport:
+forceConsole (Boolean): when true, force transport to use console log/warn/error instead of write. With this option, VSCode terminal will work without setting the ""outputCapture"" to ""std"".",False
+17192754733c40d261d76b690d84d4d2608c05f1,2024-07-27 17:20:34,u8675309,"Set _rotate false on emit 'rotate' false (#2457)
+
+In some situations the event names includes events with no more listeners. Check the emit return code to see whether it was received instead of checking event names.",False
+d2859f3d31784769a99d3be2a3227792942a6f37,2024-07-16 23:49:28,dependabot[bot],"Bump @babel/core from 7.24.7 to 7.24.9 (#2485)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.24.7 to 7.24.9.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.24.9/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+71e4bb165451599b1785d05ebf3a47b36a5744d3,2024-07-16 23:49:19,dependabot[bot],"Bump @babel/preset-env from 7.24.7 to 7.24.8 (#2487)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.24.7 to 7.24.8.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.24.8/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0cb8c7c05861889869c9692a79a0fc7267221e6b,2024-07-16 23:49:06,Yukihiro Hasegawa,fix: readme (#2488),False
+7d7f9d34546f7bb7c0ef67a8b09ecb82a123bf0b,2024-07-11 02:43:38,DABH,3.13.1,False
+1b3a500b1acfaa82272fe44e0339f73c6ecc2d6d,2024-07-11 02:42:32,DABH,"revert to rimraf 5.0.1, last known version to work with node 18 for now",False
+b56117e1060e29cd7f13615af80eb001a1e7accc,2024-07-11 02:21:40,DABH,Merge branch 'master' of github.com:winstonjs/winston,True
+a5853b55c55ed789b155140e642d36c5a7b8a2cc,2024-07-11 02:21:08,DABH,Update dependencies,False
+93b52aca51290caf5dfcbd1bd8c6fa33b7332b02,2024-07-11 01:51:58,dependabot[bot],"Bump @types/node from 20.12.7 to 20.14.10 (#2483)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 20.12.7 to 20.14.10.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+33611c9edb36185d1355aa9f57f0f1e8cc86e5ee,2024-07-11 01:51:12,dependabot[bot],"Bump mocha from 10.3.0 to 10.6.0 (#2484)
+
+Bumps [mocha](https://github.com/mochajs/mocha) from 10.3.0 to 10.6.0.
+- [Release notes](https://github.com/mochajs/mocha/releases)
+- [Changelog](https://github.com/mochajs/mocha/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/mochajs/mocha/compare/v10.3.0...v10.6.0)
+
+---
+updated-dependencies:
+- dependency-name: mocha
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4aa6550f462144de969fcc1ed79c34c15ca1fc45,2024-07-11 01:51:03,dependabot[bot],"Bump @babel/preset-env from 7.24.0 to 7.24.7 (#2475)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.24.0 to 7.24.7.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.24.7/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7f5f014d56f646bd96b989922d69e60c91f6f664,2024-06-05 04:33:12,robigan,Update minimum version logform (#2472),False
+debf4fad6a4ee4121904781dc83f8723be604fbe,2024-05-17 07:58:11,Nitish Tiwari,Add Parseable transport (#2466),False
+d567c579128351afbcddadf901318bcea98a8560,2024-05-09 21:52:49,Paulo Patto,"chore(docs): Update w/ MySQL transport (#2456)
+
+* chore(docs): Update w/ MySQL transport
+
+* Update transports.md
+
+Clean up some of the verbiage and remove some redundancy
+
+---------
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+1d5d5273988d52de9aa473d6b0a1f993b20d769f,2024-04-30 14:38:14,Mehtab Singh Gill,fix typo at test/unit/winston/transports/http.test.js (#2453),False
+d89a34e8cb3cd1506503ee77c5c36feec2d41bd9,2024-04-30 14:36:27,dependabot[bot],"Bump @babel/cli from 7.23.9 to 7.24.5 (#2454)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.23.9 to 7.24.5.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.24.5/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+947fa794e3a1b4a663b873b7c1f5c1bdf09156fb,2024-04-30 14:36:19,dependabot[bot],"Bump @types/node from 20.11.29 to 20.12.7 (#2448)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 20.11.29 to 20.12.7.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8c58d0a274410d112ad9766700e5e01da3631e77,2024-04-30 14:36:10,dependabot[bot],"Bump @babel/core from 7.24.0 to 7.24.5 (#2455)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.24.0 to 7.24.5.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.24.5/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c63a5adb422313d3cc8e173e2df92d7b90c1cf46,2024-03-25 02:54:55,DABH,3.13.0,False
+a2378657fc52eabc4a177bf4f02cf38a388de579,2024-03-25 02:53:36,Rogger Valverde,"fix(http): allow passing maximumDepth to prevent big object being stringified (#2425)
+
+* fix(http): allow passing maximumDepth option
+
+* test(http): add test case
+
+* chore: remove .only statement
+
+* Update lib/winston/transports/http.js
+
+* Update lib/winston/transports/http.js
+
+* Update lib/winston/transports/http.js
+
+---------
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+b5eecf02f27df645f10bdf2e8f1c205fa2d6681b,2024-03-25 02:33:37,DABH,3.12.1,False
+b10b98f05ef383f5721b6f4d97816a4b48a19b6f,2024-03-25 02:31:28,dependabot[bot],"Bump @types/node from 20.11.24 to 20.11.29 (#2431)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 20.11.24 to 20.11.29.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0277035a69e43b6eb03c615d18d454c685a10454,2024-03-25 02:28:44,David Hyde,"Revert ""Remove nonexistent Logger methods from types"" (#2434)
+
+This reverts commit c3c391122c44e3f0a46758997bfbb83aaea204ab.",False
+d95c948827bec80fb732fd5f05ee42b064425997,2024-03-04 07:06:29,Pulkit Aggarwal,"fixed flaky test case (#2412)
+
+Co-authored-by: Pulkit0729 <myalapi2022@gmail.com>",False
+781686928016ec5cd9715a9434f58c795689f867,2024-03-04 07:04:35,DABH,3.12.0,False
+9e5b40735fe98637e71c72db1d5f25e0381524f1,2024-03-04 06:54:21,Mihail Badoiu,missing timestamp format in ready-to-use-pattern example (#2421),False
+4a85e6b9fc8d6dcf9967635294e8ae895ea5754f,2024-03-04 06:34:48,David Hyde,bump deps (#2422),False
+e153c68b167886c99f662ee43e54bd3c1aaaff91,2024-02-23 05:06:51,David Hyde,[chore] Run coveralls CI check on Node 20 not 16 (#2418),False
+587f40f63c91b25b8af17f968f1f56542ee0da3a,2024-02-23 04:22:54,dependabot[bot],"Bump @types/node from 20.8.6 to 20.11.19 (#2413)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 20.8.6 to 20.11.19.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8e99a00c38e8099f0b5a41f54a5d3f2ef9aa002a,2024-02-22 22:42:40,alexbs,"Update README.md (#2417)
+
+""uncaughtException"" but ""Rejection"" is ""unhandled"".
+So, ""unhandledRejection"" is more correct",False
+0bde36bb5c60cd4838426d4b88ad856aae00a924,2024-02-22 22:20:42,Charles Francoise,docs: fix anchor in transports docs (#2416),False
+8fb5b41af6c711c108d9c65be201878e4cca1c39,2024-02-16 13:23:53,Charles Francoise,add winston-transport-vscode to transports docs (#2411),False
+a326743300ca8af2625ddc42a64a0ff055993088,2024-02-07 11:00:07,dependabot[bot],"Bump @babel/cli from 7.23.0 to 7.23.9 (#2406)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.23.0 to 7.23.9.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.9/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cc731ef8a7d7f1e6aae7abfb2bd1823c517ac5b1,2024-02-04 22:49:06,Gregory Kim,"Add winston-newrelic-agent-transport to transport documentation (#2382)
+
+* Add New Relic Agent Transport entry.
+
+* Add description of options.
+
+* Adjust code example style to better match other transports. Adjust description to match transport repo changes.
+
+---------
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+f077f30aa06b504e3e00880a31c90399e9caafbf,2024-02-04 22:42:29,Gregory Kim,Remove newrelic-winston transport entry. (#2405),False
+3943c4132af86a8843459582b1316bf0cc40d459,2024-01-30 08:27:18,dependabot[bot],"Bump eslint from 8.55.0 to 8.56.0 (#2397)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.55.0 to 8.56.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.55.0...v8.56.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+82608667aa807f25af615a8ff2aa3e303eeb9981,2024-01-04 13:45:43,dependabot[bot],"Bump the npm_and_yarn group group with 1 update (#2391)
+
+Bumps the npm_and_yarn group group with 1 update: [minimatch](https://github.com/isaacs/minimatch).
+
+
+Updates `minimatch` from 3.0.4 to 3.1.2
+- [Changelog](https://github.com/isaacs/minimatch/blob/main/changelog.md)
+- [Commits](https://github.com/isaacs/minimatch/compare/v3.0.4...v3.1.2)
+
+---
+updated-dependencies:
+- dependency-name: minimatch
+  dependency-type: indirect
+  dependency-group: npm_and_yarn-security-group
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+333b7634999174fa1016d941cc1fad51e2357ed7,2024-01-04 13:04:46,David Hyde,"Fix unhandled rejection handling (#2390)
+
+* Fix unhandled rejection handlers
+
+* Fix unhandled rejection handlers
+
+* Fix typo",False
+c3f3b5b09cf2767251baebd3c4b91e2dd1373150,2024-01-03 11:32:13,DABH,"Fix all rimraf usages to the best of my ability; glob is not true by default in rimraf; file archive test only passed every other time using async rimraf, could use further investigation",False
+8f3c65349e66c1ce569758840b1ba04c0e492a3c,2024-01-03 10:27:48,DABH,Fix rimraf usage in new test,False
+f3836aac2840e6f1320c8838d26ae7160252f83a,2024-01-03 10:09:32,DABH,Fix rimraf import in test (why didn't this break in PR CI?),False
+02d426748d859c00caa71bd457e914cda6f3160b,2024-01-03 09:40:38,Pulkit Aggarwal,"Added functionality to long broken zippedArchive option (#2337)
+
+* Test for file Transport option rotationFormat
+
+* Test for file Transport option rotationFormat
+
+* Added Lazy option in file transport
+
+* Lint and test
+
+* removed only statement
+
+* Update test/unit/winston/transports/01-file-maxsize.test.js
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>
+
+* Update test/unit/winston/transports/01-file-maxsize.test.js
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>
+
+* Added lazy in FileTransportOptions types
+
+* Added lazy type in FileTransportInstance
+
+* Add functionality to zippedArchive option
+
+---------
+
+Co-authored-by: myAlapi <myalapi2022@gmail.com>
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+069a40d003dbc5932097bb12ec535ba80e55b9be,2024-01-03 08:45:43,dependabot[bot],"Bump async from 3.2.4 to 3.2.5 (#2378)
+
+Bumps [async](https://github.com/caolan/async) from 3.2.4 to 3.2.5.
+- [Release notes](https://github.com/caolan/async/releases)
+- [Changelog](https://github.com/caolan/async/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/caolan/async/compare/v3.2.4...v3.2.5)
+
+---
+updated-dependencies:
+- dependency-name: async
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+79282e133e9173279dc8820a696be7d631e741d7,2024-01-03 08:45:34,dependabot[bot],"Bump @babel/preset-env from 7.23.2 to 7.23.7 (#2384)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.23.2 to 7.23.7.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.7/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+05788b9808e0544c09ca0b489f343f66171fd70f,2024-01-03 08:30:59,David Hyde,Bump winston-transport; fix test issue (#2386),False
+a7c2eec1ef2209022f5420a314b741d88ee2ebe9,2023-12-13 04:42:44,dependabot[bot],"Bump eslint from 8.51.0 to 8.55.0 (#2375)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.51.0 to 8.55.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.51.0...v8.55.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+85c336e5fb6fd55d1ee46bf71e4382dedf75d7b7,2023-12-13 04:42:34,dependabot[bot],"Bump std-mocks from 1.0.1 to 2.0.0 (#2361)
+
+Bumps [std-mocks](https://github.com/gregberge/react-merge-refs) from 1.0.1 to 2.0.0.
+- [Release notes](https://github.com/gregberge/react-merge-refs/releases)
+- [Changelog](https://github.com/gregberge/react-merge-refs/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/gregberge/react-merge-refs/commits/v2.0.0)
+
+---
+updated-dependencies:
+- dependency-name: std-mocks
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+448d11c5f72527fc106e1a13cbf045d32da8d176,2023-12-13 04:33:13,dependabot[bot],"Bump actions/setup-node from 3 to 4 (#2362)
+
+Bumps [actions/setup-node](https://github.com/actions/setup-node) from 3 to 4.
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/v3...v4)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+91ec06961d2cc9a522f65c023cd02871aa6d97b2,2023-11-08 21:35:50,Alejandro Campos,chore(README.md): adds documentation around coloring json formatted logs,False
+c3c391122c44e3f0a46758997bfbb83aaea204ab,2023-10-19 00:29:59,Phillip Huang,Remove nonexistent Logger methods from types,False
+caf2df607334ed8c283bff2a624796c31e055526,2023-10-14 03:52:26,DABH,Update dependencies,False
+1c8c65fd9b8a2762c8fb93b3c2e0a8730faf1a9c,2023-10-08 01:29:32,DABH,3.11.0,False
+37f428243ad0a3eae3daca35187a74967296aafa,2023-10-08 01:19:28,dependabot[bot],"Bump split2 from 4.1.0 to 4.2.0 (#2336)
+
+Bumps [split2](https://github.com/mcollina/split2) from 4.1.0 to 4.2.0.
+- [Release notes](https://github.com/mcollina/split2/releases)
+- [Commits](https://github.com/mcollina/split2/compare/v4.1.0...v4.2.0)
+
+---
+updated-dependencies:
+- dependency-name: split2
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+fdcc8939bc22dd458dd7c01b8360332324e4b44f,2023-10-08 01:16:29,dependabot[bot],"Bump actions/checkout from 3 to 4 (#2346)
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v3...v4)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+dcbec341a9a81103dc5943015450f15766b51f22,2023-10-08 01:15:52,James Halsall,Bump @colors/colors packgae to 1.6.0 (#2353),False
+aaaa4c0e16ba01da69bae157b139f32977b61c39,2023-10-08 01:13:40,Jack Nolddor,"Bump rimraf from 3.0.2 to 5.0.5  (#2357)
+
+* Bump rimraf from 3.0.2 to 5.0.5
+
+Bumps [rimraf](https://github.com/isaacs/rimraf) from 3.0.2 to 5.0.5.
+- [Changelog](https://github.com/isaacs/rimraf/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/isaacs/rimraf/compare/v3.0.2...v5.0.5)
+
+---
+updated-dependencies:
+- dependency-name: rimraf
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* fix: rimraf is not a function
+
+* fix: rimraf is not a function
+
+* fix: rimraf is not a function
+
+* fix: done() is not called on mocha hooks
+
+* fix: done() invoked with non-Error
+
+* fix: resolution method is overspecified
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+914b846846c5970711b5cba609dfbeb42c8580a7,2023-08-09 10:53:14,Debadutta Panda,"feat: add guardrails to the instantiation of a Profiler (#2226)
+
+
+Authored-by: debaduttakore <139857436+debaduttakore@users.noreply.github.com>
+Reviewed-by: @wbt @maverick1872 
+Merged-by: maverick1872 <10217028+maverick1872@users.noreply.github.com>
+Ref: 2091",False
+23cb80c88db69af5205419e6cd77da9af6faa15c,2023-07-22 18:50:39,dependabot[bot],"Bump @types/node from 20.3.1 to 20.4.2 (#2329)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 20.3.1 to 20.4.2.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1c43f7b888b93b396140bb2ceaa1b3089ecec118,2023-07-19 20:33:32,Pulkit Aggarwal,"Bug Fix: FileTransportOptions type missing lazy:boolean option (#2334)
+
+* Test for file Transport option rotationFormat
+
+* Test for file Transport option rotationFormat
+
+* Added Lazy option in file transport
+
+* Lint and test
+
+* removed only statement
+
+* Update test/unit/winston/transports/01-file-maxsize.test.js
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>
+
+* Update test/unit/winston/transports/01-file-maxsize.test.js
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>
+
+* Added lazy in FileTransportOptions types
+
+* Added lazy type in FileTransportInstance
+
+---------
+
+Co-authored-by: myAlapi <myalapi2022@gmail.com>
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+19ac9d83bd00e82613d24acc6683a100a24c28dd,2023-07-11 02:01:43,DABH,3.10.0,False
+fc9c83dc6f9c6a42891e8a6549704321f6b9ea74,2023-07-11 01:59:11,DABH,Avoid potential github issues - relax engines node requirement in package.json,False
+eda40efce55555498759c7afaee018b2f0f26678,2023-07-10 22:23:34,Dmitrii Kartashev,"Export Logger class (#2181)
+
+* export Logger class
+
+* Add semicolon and a couple of tests
+
+* Update index.d.ts
+
+* Update README.md
+
+* refactor: 🔥 dead code
+
+* revert: not so dead code",False
+f7e7f2f9ccca06e5edba17c03da9ed7c97b48d91,2023-07-10 11:44:31,Pulkit Aggarwal,"Added Lazy option to file transport (#2317)
+
+* Test for file Transport option rotationFormat
+
+* Test for file Transport option rotationFormat
+
+* Added Lazy option in file transport
+
+* Lint and test
+
+* removed only statement
+
+* Update test/unit/winston/transports/01-file-maxsize.test.js
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>
+
+* Update test/unit/winston/transports/01-file-maxsize.test.js
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>
+
+---------
+
+Co-authored-by: myAlapi <myalapi2022@gmail.com>
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+de2e887bc29f392c6b640e564848f1e7a007c79e,2023-07-10 11:07:38,dependabot[bot],"Bump eslint from 8.32.0 to 8.44.0 (#2321)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.32.0 to 8.44.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.32.0...v8.44.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+fcc69eca84e299d158872c2cac0871f4898a3a96,2023-06-28 22:52:24,Vinicius Teixeira Dias,docs(#2319): Syntax error on README.md (#2320),False
+9d6001add69f1682e635aeea341856fb2bcbb2e0,2023-06-28 07:21:26,Till,"fix(types): Allow any object to be passed as meta to logger.profile (#2314)
+
+It was typed as `LogEntry` which requires both `level` and `message` to be set. That contradicts the implementation that treats these fields as optional.
+
+fixes #1969",False
+06e3165d588586189f7bfdc27e2b67c351622c18,2023-06-25 06:33:06,dependabot[bot],"Bump @types/node from 18.11.18 to 20.3.1 (#2313)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.11.18 to 20.3.1.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+61e2f5b2be5a13d02b80d3a3578754c9b032ca47,2023-06-25 06:28:54,David Hyde,"Update supported Node versions and run npm audit fix (#2315)
+
+* Update supported Node versions and run npm audit fix
+
+* relax function coverage requirement",False
+7643ad6db1bcff3c64f2e06725a978be815196ce,2023-06-09 11:28:07,dependabot[bot],"Bump @babel/core from 7.20.12 to 7.22.1 (#2309)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.20.12 to 7.22.1.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.22.1/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0ed765097dd1f67c7bcaf7e6383f2a3a98e71d9e,2023-05-26 21:50:48,WBT,Merge branch 'master' of https://github.com/winstonjs/winston,True
+0f092ca1589ed270493b51fd6a741b901223cc17,2023-05-26 21:49:37,WBT,v3.9.0 package-lock & changelog,False
+c77e11731aaca8dd820ea3fae751b8b77e704267,2023-05-26 21:39:35,WBT,Note what might be missing,False
+b2bf0b3b8d4ca218d338421c613e38573a44d39b,2023-05-26 21:17:07,dependabot[bot],"Bump safe-stable-stringify from 2.4.0 to 2.4.3
+
+Bumps [safe-stable-stringify](https://github.com/BridgeAR/safe-stable-stringify) from 2.4.0 to 2.4.3.
+- [Release notes](https://github.com/BridgeAR/safe-stable-stringify/releases)
+- [Changelog](https://github.com/BridgeAR/safe-stable-stringify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/BridgeAR/safe-stable-stringify/compare/v2.4.0...v2.4.3)
+
+---
+updated-dependencies:
+- dependency-name: safe-stable-stringify
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+c198523a0946d7adb1ea6ac98d5be6d262d9e761,2023-05-18 22:12:37,td-tomasz-joniec,move guard higher and add comment,False
+2609a55b3cd92f3ee106ea6f90eec6648c066bb5,2023-05-18 22:12:37,Krzysztof Rosiński,attempt to fix haning streams issue,False
+f8320c1e3bb7cc3544b1385da92cc625e2b3b0ac,2023-02-09 03:05:03,dependabot[bot],"Bump @babel/core from 7.20.7 to 7.20.12 (#2275)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.20.7 to 7.20.12.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.20.12/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+69266482364c2cae3e305755dbc1f4a8b455cee9,2023-02-09 02:59:05,Moritz Löwenstein,fix #1732 (#2272),False
+bf14c3bbb172ff36fa940703b699e408c21b5194,2023-02-07 03:49:06,wbt,Typo fix in publishing doc,False
+c7208a79f4c756f651ffa379b212cb607391acc7,2023-01-25 10:05:26,dependabot[bot],"Bump @types/node from 18.11.9 to 18.11.18 (#2264)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.11.9 to 18.11.18.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+fe753421f56c34817f87a333c34d3b063e8e5389,2023-01-25 10:05:14,dependabot[bot],"Bump eslint from 8.30.0 to 8.32.0 (#2271)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.30.0 to 8.32.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.30.0...v8.32.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6b1c7618e8265007b4875e4982881ff8e8cc5733,2023-01-02 23:50:01,dependabot[bot],"Bump json5 from 2.2.1 to 2.2.3 (#2260)
+
+Bumps [json5](https://github.com/json5/json5) from 2.2.1 to 2.2.3.
+- [Release notes](https://github.com/json5/json5/releases)
+- [Changelog](https://github.com/json5/json5/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/json5/json5/compare/v2.2.1...v2.2.3)
+
+---
+updated-dependencies:
+- dependency-name: json5
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+eec59af77486c2d36dc3df945a2f8fcf93cc659e,2023-01-02 23:39:44,Tanuel,"fix: properly allow passing non-arry transport (#2256)
+
+* fix: properly allow passing non-arry transport
+
+* re-add Remark comment
+
+* fix property name",False
+95af18250e7626785840531cf20bf7323fe0ce76,2023-01-01 12:55:29,dependabot[bot],"Bump @babel/core from 7.20.2 to 7.20.7 (#2259)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.20.2 to 7.20.7.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.20.7/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3a17e5cb3f8d98bc7b965f895669464f71a65f87,2023-01-01 12:55:23,dependabot[bot],"Bump eslint from 8.27.0 to 8.30.0 (#2258)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.27.0 to 8.30.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.27.0...v8.30.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ab4cc1396c7199b6ef32e8388a96ee72df297504,2023-01-01 12:55:12,dependabot[bot],"Bump @babel/preset-env from 7.19.4 to 7.20.2 (#2244)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.19.4 to 7.20.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.20.2/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2489a3d13b20797d3dbc55d3daf560cf52c2e6a3,2022-12-09 00:11:57,Alex,"build: harden ci.yml permissions (#2252)
+
+Signed-off-by: Alex <aleksandrosansan@gmail.com>
+
+Signed-off-by: Alex <aleksandrosansan@gmail.com>",False
+17346dfbe1b2e473fa3e2f387ebfe96253f71427,2022-11-28 12:41:06,dependabot[bot],"Bump @types/node from 18.11.0 to 18.11.9 (#2235)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.11.0 to 18.11.9.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1568ad66c920660e1c8f84ba220ff6226fbf315d,2022-11-28 12:40:58,dependabot[bot],"Bump @babel/core from 7.19.3 to 7.20.2 (#2234)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.19.3 to 7.20.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.20.2/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5bf1d8deab40ecb2384ccd689e9cca776ae963a0,2022-11-28 12:40:48,dependabot[bot],"Bump eslint from 8.25.0 to 8.27.0 (#2236)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.25.0 to 8.27.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.25.0...v8.27.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cd8d4c368facf1a85c714bba7686b84df7095346,2022-11-23 21:53:11,myagizmaktav,create new example,False
+bf0405b7efaa2f323f8e35249e0758bd44a5ecba,2022-11-02 00:54:57,James Wiens,"Docs: Fix readme typo
+
+Backticks were typod for `done` method.",False
+8769d47a8b23dbda0069e285fbf1cda9e3e9f265,2022-10-18 10:34:57,eivindrs,Handle undefined errors in getAllInfo (#2208),False
+a52608c08b93a943d67a55e7d3b0388e6131c6b6,2022-10-18 10:34:19,dependabot[bot],"Bump @babel/cli from 7.18.10 to 7.19.3 (#2216)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.18.10 to 7.19.3.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.19.3/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1ac38c43c611d501a40849b2c69a0a85db30edef,2022-10-18 10:34:10,dependabot[bot],"Bump safe-stable-stringify from 2.3.1 to 2.4.0 (#2217)
+
+Bumps [safe-stable-stringify](https://github.com/BridgeAR/safe-stable-stringify) from 2.3.1 to 2.4.0.
+- [Release notes](https://github.com/BridgeAR/safe-stable-stringify/releases)
+- [Changelog](https://github.com/BridgeAR/safe-stable-stringify/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/BridgeAR/safe-stable-stringify/compare/v2.3.1...v2.4.0)
+
+---
+updated-dependencies:
+- dependency-name: safe-stable-stringify
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f1166b0a1ff14ee1120cc424061f04ed1b18f581,2022-10-18 10:34:00,dependabot[bot],"Bump @babel/preset-env from 7.19.0 to 7.19.4 (#2218)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.19.0 to 7.19.4.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.19.4/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+60a2002bca826c5433b33de4c8a46588e1f66643,2022-10-18 10:30:36,dependabot[bot],"Bump @types/node from 18.0.0 to 18.11.0 (#2215)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 18.0.0 to 18.11.0.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+955c1787a28f49b7aae6758231b2b31931d6c333,2022-10-18 10:30:28,dependabot[bot],"Bump @babel/core from 7.19.0 to 7.19.3 (#2206)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.19.0 to 7.19.3.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.19.3/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8236c408a523f05f2ceccb5f922eb9340bf22715,2022-10-18 10:30:17,dependabot[bot],"Bump eslint from 8.23.0 to 8.25.0 (#2209)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.23.0 to 8.25.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.23.0...v8.25.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+101e2f45057ae16835bcc2f35ca00e77dd004465,2022-09-07 21:47:31,WBT,Merge branch 'master' of https://github.com/winstonjs/winston,True
+a14ac0411dbfba8370602ac9c59ff6b38f59c640,2022-09-07 21:44:50,WBT,v3.8.2,False
+c32a5aea08962f72d97c3dad78ec84003436534d,2022-09-07 21:27:45,dependabot[bot],"Bump logform from 2.4.1 to 2.4.2
+
+Bumps [logform](https://github.com/winstonjs/logform) from 2.4.1 to 2.4.2.
+- [Release notes](https://github.com/winstonjs/logform/releases)
+- [Changelog](https://github.com/winstonjs/logform/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/winstonjs/logform/compare/v2.4.1...v2.4.2)
+
+---
+updated-dependencies:
+- dependency-name: logform
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+0bf0faebc3f6a1aa28d94055c9c07acc7bea7511,2022-09-07 21:27:34,dependabot[bot],"Bump @babel/core from 7.18.5 to 7.19.0
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.18.5 to 7.19.0.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.19.0/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+ff219f3b4ec65e484c3a4e4ae21d265a4935a132,2022-09-07 21:27:02,dependabot[bot],"Bump eslint from 8.18.0 to 8.23.0
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.18.0 to 8.23.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.18.0...v8.23.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+90fb00b8b6c2ab5fb608d8b0ffba2f8b7fb40b3a,2022-09-07 21:23:57,dependabot[bot],"Bump @babel/cli from 7.17.10 to 7.18.10
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.17.10 to 7.18.10.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.18.10/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+64e25e42e63579d596abec5867f70d6e69faea31,2022-09-07 21:22:10,dependabot[bot],"Bump @babel/preset-env from 7.18.2 to 7.19.0
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.18.2 to 7.19.0.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.19.0/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+7e6675175e31a0ee9cdf08b269de9e998fad7203,2022-09-07 21:21:06,wbt,"Move colors to non-dev dependencies
+
+per #2187",False
+3f1dcc13cda384eb30fe3b941764e47a5a5efc26,2022-08-30 01:01:48,mikebarr24,"Update README.md
+
+A few grammatical corrections.",False
+acaa95b7951dcc97056b0237bd5d2105341aac1b,2022-08-11 02:12:23,rumanbsl,"Update package.json
+
+package.json entry update to `""main"": ""./lib/winston.js""`",False
+3998df01449da35a60cf4b90730b91f4b2466bc5,2022-07-01 01:01:18,WBT,v3.8.1 docs,False
+013799cc0a84821c12f2365b946dbc58051ea4cf,2022-07-01 00:47:49,dependabot[bot],"Bump async from 3.2.3 to 3.2.4
+
+Bumps [async](https://github.com/caolan/async) from 3.2.3 to 3.2.4.
+- [Release notes](https://github.com/caolan/async/releases)
+- [Changelog](https://github.com/caolan/async/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/caolan/async/compare/v3.2.3...v3.2.4)
+
+---
+updated-dependencies:
+- dependency-name: async
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+6217120059c21b276aa258bb4c6ef4ac868a7985,2022-07-01 00:46:00,Haoran Lin,Replace `new` with `constructor`,False
+afd389a243a9df19afe022a1cf59dae3cc8c9f64,2022-07-01 00:46:00,Haoran Lin,Change interface to class in exported types,False
+b892de9a4b45f2468a060deb4e1bb2c163531347,2022-06-28 19:52:36,dependabot[bot],"Bump logform from 2.4.0 to 2.4.1
+
+Bumps [logform](https://github.com/winstonjs/logform) from 2.4.0 to 2.4.1.
+- [Release notes](https://github.com/winstonjs/logform/releases)
+- [Changelog](https://github.com/winstonjs/logform/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/winstonjs/logform/compare/v2.4.0...v2.4.1)
+
+---
+updated-dependencies:
+- dependency-name: logform
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+5658ec3fa00d537fcdcefbe638fcde3598dc1bec,2022-06-23 20:31:49,WBT,Note 2nd place for version # update,False
+70ffba67362da5739d13f33b518e707de7066214,2022-06-23 20:29:47,WBT,Another update of package #,False
+38c1c46bd574ecfd262a5d6ac89e99ffd0b8bc3d,2022-06-23 20:23:40,WBT,Update changelog & version # 3.8.0,False
+7b1917e2d3c45f2232311265b0b02f1c91eeb90f,2022-06-23 20:17:19,WBT,"Update publishing steps for easier drafting
+& consistent 1 on numbering",False
+6e27faae9e4a64d6b2c2698bfeda2094ae82bb7f,2022-06-23 20:00:22,Jean-Pierre Carvalho,Prettier Config File,False
+063cea23cb1f0e4dbafc663325ff2c1d486f9145,2022-06-23 19:59:17,dependabot[bot],"Bump @types/node from 17.0.42 to 18.0.0
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.42 to 18.0.0.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+95a6a2fa992c254d7d647e0d286d5fe0b45bb7ee,2022-06-23 19:58:42,dependabot[bot],"Bump eslint from 8.17.0 to 8.18.0
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.17.0 to 8.18.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.17.0...v8.18.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+355650e47924d04b4c7dce9100b74cc6e05cf1f9,2022-06-23 19:49:14,Dominik Stefanicka,"Add the replacer option to the HTTP transport
+
+Support custom stringify replacer when sending logs via HTTP transport.
+
+Usage of the `format.json` with the custom replacer does not work with
+HTTP transport since the message symlink (which is mutated) is not sent
+in the request.",False
+440babcbd4878e90f954f323ac4ca2c34eaf6ef3,2022-06-21 21:28:40,Arpad K,Added a new Community Transport option to the list (#2140),False
+f707f337122ad629aa1033ff935fe1b5e9aed170,2022-06-21 20:36:57,zizifn,"enhance message for logs with no transports #2114 (#2139)
+
+* enhance message for logs with no transports #2114
+
+* Shorten additional warning
+
+Co-authored-by: wbt <wbt@users.noreply.github.com>",False
+d2a1356f3a32448fc5b9f9ed91aa8a2c2c1c53ee,2022-06-14 07:06:20,dependabot[bot],"Bump @types/node from 17.0.36 to 17.0.42 (#2148)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.36 to 17.0.42.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9c286c06d3afb0d1da1bd68aeecfdff459adc46d,2022-06-14 07:06:11,dependabot[bot],"Bump eslint from 8.14.0 to 8.17.0 (#2145)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.14.0 to 8.17.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.14.0...v8.17.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+91fac0a46e0e9894a38a4ee507f574a8a24f5be6,2022-06-14 07:06:01,dependabot[bot],"Bump @babel/core from 7.18.2 to 7.18.5 (#2149)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.18.2 to 7.18.5.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.18.5/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e656e701ce5c70a58ba68f08645a92ccd941360f,2022-06-01 09:57:34,dependabot[bot],"Bump @babel/cli from 7.17.6 to 7.17.10 (#2129)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.17.6 to 7.17.10.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.17.10/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+22680a7a9c451730c8f522e9270bdb4fd5aade0f,2022-06-01 09:55:17,dependabot[bot],"Bump @types/node from 17.0.27 to 17.0.36 (#2142)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.27 to 17.0.36.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+51d90e46ac0489ba520a85c17127aa661e894a3d,2022-06-01 09:54:36,dependabot[bot],"Bump @babel/preset-env from 7.16.11 to 7.18.2 (#2141)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.16.11 to 7.18.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.18.2/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+500434bcb9720a9b526d2343302f4b5dca201113,2022-06-01 09:54:29,dependabot[bot],"Bump @babel/core from 7.17.9 to 7.18.2 (#2143)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.17.9 to 7.18.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.18.2/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+222c86341df7cb8065d6fa0f78de50a445db2e4b,2022-05-26 06:09:03,zizifn,"update documentation for #2114 (#2138)
+
+Co-authored-by: zizifn & wbt",False
+029a20277ca6f567bff525904672f03927cf3020,2022-04-30 00:49:31,dependabot[bot],"Bump @types/node from 17.0.25 to 17.0.27 (#2119)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.25 to 17.0.27.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+26ee5b14c6f2b03c9550b910f61ea0285a7f5379,2022-04-30 00:49:22,dependabot[bot],"Bump eslint from 8.13.0 to 8.14.0 (#2118)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.13.0 to 8.14.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.13.0...v8.14.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d1af08812e9953feaff3b816623d2891bcb78b89,2022-04-29 06:11:33,wbt,"Update Readme to clarify on('error') event origins
+
+closes #2109",False
+c474ba26658bfe7d1bfb2e16953f6018c4be0b73,2022-04-29 02:39:10,wbt,"Move publish instructions (#2122)
+
+* Add publishing instructions
+
+* Move publishing into docs.",False
+7677d502e1b81d9d5ee7df5e0e81202002452180,2022-04-29 02:35:44,WBT,Add publishing instructions,False
+c2ab81ed1beba9dc7d0e287313e85953498afe2e,2022-04-29 01:58:12,wbt,Note file is out of date,False
+8903fe6e317ecf325d6fe6c0743744ccbded157e,2022-04-21 02:50:35,dependabot[bot],"Bump @types/node from 17.0.23 to 17.0.25 (#2113)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.23 to 17.0.25.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6aaa51d4cec40cfd19cab83446d50e77df3608e4,2022-04-21 02:50:27,dependabot[bot],"Bump eslint from 8.12.0 to 8.13.0 (#2108)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.12.0 to 8.13.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.12.0...v8.13.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+47afa72d424365dafb381bef228189746e89d6d1,2022-04-21 02:50:17,dependabot[bot],"Bump @babel/core from 7.17.8 to 7.17.9 (#2107)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.17.8 to 7.17.9.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.17.9/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+7937f337dac50b4f134bbfa88f72bdd313ad0af5,2022-04-05 03:40:48,wbt,"Revert for 2103 (#2104)
+
+* Revert ""fix(metadata precedence) - fix metadata override issues (#1989)""
+
+This reverts commit ba93eaeac36b41456789dd71f7ba5a0342ea5736.
+
+* Update changelog
+
+* Update version number",False
+68f595b961a92ff7728fbd9310fdcb26524776b8,2022-04-04 19:36:53,WBT,Update changelog,False
+2aa2d4f38422feaceb661ef53c71b7cdd027189a,2022-04-04 19:34:22,WBT,Bump to 3.7.1,False
+ce6fbc9ad02bc5194560864d63253d8ae9c3e5b1,2022-04-04 19:30:56,WBT,"Bump ansi-regex in package-lock due to
+insufficient regex complexity github.com/advisories/GHSA-93q8-gq69-wqmw",False
+cdf1da5ff32c9a338d3c28db81a332a41b9d78ef,2022-04-04 19:29:21,WBT,"Bump minimist in package-lock due to
+prototype pollution github.com/advisories/GHSA-xvch-5gv4-984h",False
+23f29b1681e722b3116a68fe04352badaa1ac493,2022-04-04 19:26:45,WBT,Bump version number in package-lock,False
+3c79a63bfb2cfa47d2709394483ab7baa8201898,2022-04-01 21:32:38,Jonathon Terry,"Release - v3.7.0 (#2101)
+
+* chore: update changelog
+
+* chore: bump package.json version",False
+32bfa761be9a3dcbfdd98b43dc948bbda04e8042,2022-04-01 10:03:51,dependabot[bot],"Bump @babel/core from 7.17.5 to 7.17.8 (#2093)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.17.5 to 7.17.8.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.17.8/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+efa495dc7c43ec99565ad6095f32ce642b784bf1,2022-04-01 10:03:43,dependabot[bot],"Bump eslint from 8.10.0 to 8.12.0 (#2098)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.10.0 to 8.12.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.10.0...v8.12.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6fad8250695d117c411bed5a76b6049f97287888,2022-04-01 10:03:32,dependabot[bot],"Bump @types/node from 17.0.21 to 17.0.23 (#2099)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.21 to 17.0.23.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ba93eaeac36b41456789dd71f7ba5a0342ea5736,2022-03-31 05:30:50,Jonathon Terry,"fix(metadata precedence) - fix metadata override issues (#1989)
+
+* chore: wrap logger tests in top-level describe
+
+* chore: restructure tests directory
+
+* chore: restructure logger tests
+
+* chore: cleanup test descriptions
+
+* fix: fix ci step to account for npm script rename
+
+* chore: rename tests dir back to test
+
+* fix: correct relative file paths
+
+* make sure all tests actually run
+
+* feat: add nyc configuration file
+
+* chore: fix missing end of file newlines
+
+* fix: ci steps
+
+* fix: ci steps try 2
+
+* chore: rename ci jobs
+
+* chore: leverage yaml file for nyc configuration
+
+* chore: move nyc configuration from npm script to associated configuration file
+
+* chore: move common mocha configurations from npm script to dedicated configuration
+
+* feat: introduce a in-memory mock transport generator
+
+* chore: make test callback functions consistent
+
+* feat: introduce tests proving issues with metadata precedence
+
+* fix: introduce fix for application of default metadata
+
+* feat: add equivalent tests for .log() method
+
+* chore: update nyc coverage
+
+* chore: undo accidental indent
+
+* chore: add new test to ensure a parents metadata updates don't propogate to the child
+
+* chore: fix nyc coverage requirements
+
+* feat: introduce test proving issue with Profilers instance not including metadata
+
+* feat: ensure Profiler triggers the logger's add default metadata functionality
+
+* fix: add a safety net to calling 'addDefaultMeta' on the logger instance
+
+* chore: fix failing build issues
+
+* feat: add test to ensure changes to parents metadata are not propogated to a child
+
+* fix: remove linebreak configuration from editorconfig
+
+* chore: combine level and log tests of same kind to ensure both output the same
+
+* feat: introduce tests proving issues reported
+
+* feat: introduce tests for non-primitive data types in metadata
+
+* chore: deep clone when instantiating child logger
+
+* chore: remove unused imports
+
+* chore: address comments on logger test additions
+
+* Replace JSON.stringify with one that accounts for cyclical refs
+
+* Add lint rule for semicolons. Add script to run linter fix operation. Fix missing semis",False
+e4acc5a4fcded7835bcda81b10b7d2f82ddac8a8,2022-03-12 00:48:39,dependabot[bot],"Bump actions/setup-node from 2 to 3 (#2081)
+
+Bumps [actions/setup-node](https://github.com/actions/setup-node) from 2 to 3.
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/v2...v3)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+70fc03d046ee41491d2f47d1242c32532414ffd9,2022-03-12 00:38:58,dependabot[bot],"Bump @types/node from 17.0.17 to 17.0.21 (#2084)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.17 to 17.0.21.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+64351af8cf8635858e831ef0025587d499cf5dce,2022-03-12 00:38:49,dependabot[bot],"Bump eslint from 8.9.0 to 8.10.0 (#2083)
+
+Bumps [eslint](https://github.com/eslint/eslint) from 8.9.0 to 8.10.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v8.9.0...v8.10.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b068f14463f735066a27433720bdbfe4bd0ca596,2022-03-12 00:38:40,dependabot[bot],"Bump @babel/cli from 7.17.0 to 7.17.6 (#2082)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.17.0 to 7.17.6.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.17.6/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d9bba28d2fbe9770dcdb33e1fc460aa474dac4a4,2022-03-12 00:38:18,dependabot[bot],"Bump @babel/core from 7.17.2 to 7.17.5 (#2079)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.17.2 to 7.17.5.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.17.5/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0dae690d702aca97a30aa5300f147be2ad5ad10b,2022-03-12 00:38:09,dependabot[bot],"Bump actions/checkout from 2 to 3 (#2086)
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 2 to 3.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v2...v3)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c9e5f17fe69eaedeb5093c1b520862a837d2893c,2022-02-21 06:57:09,dependabot[bot],"Bump @dabh/diagnostics from 2.0.2 to 2.0.3 (#2074)
+
+Bumps [@dabh/diagnostics](https://github.com/3rd-Eden/diagnostics) from 2.0.2 to 2.0.3.
+- [Release notes](https://github.com/3rd-Eden/diagnostics/releases)
+- [Changelog](https://github.com/3rd-Eden/diagnostics/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/3rd-Eden/diagnostics/commits)
+
+---
+updated-dependencies:
+- dependency-name: ""@dabh/diagnostics""
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b09fa5d625fd19d188c62f848330b5759c5f1820,2022-02-20 05:58:26,Jonathon Terry,"Feature: Further improve issue templates (#2073)
+
+* feat: move search terms to end of issue templates
+
+* feat: add link to create an issue in winstonjs/logform
+
+* fix: minor grammatical and formatting changes
+
+* fix: correct about content for opening issues against logform
+
+* fix: eg for wrapping with backticks
+
+* fix: eg for wrapping with backticks
+
+* fix: convert line endings back. remove editorconfig for line endings
+
+* chore: revert 8490c96
+
+* chore: fix bad conflict resolution from revert
+
+* chore: add formatting request for search terms",False
+d1d9358799217fc86e408e501357533b0585c2fb,2022-02-15 23:58:48,KylinDC,Fix: add missing type of batch http option (#2075),False
+b2fde9da5398f6129541454a9275d1243cc18b0b,2022-02-13 00:40:03,DABH,3.6.0,False
+5e7248590f3674942c7d04934ee73edb92d4d68a,2022-02-13 00:38:08,DABH,Changelog updates for v3.6.0,False
+93077ef8596a5854fbe1aab2e986da657a3a7949,2022-02-13 00:34:10,David Hyde,"Update dependencies, including latest logform (#2071)",False
+035f94aa5e496453c680d45127ed09b38060f317,2022-02-13 00:23:35,David Hyde,"Update to @colors/colors (#2069)
+
+* Update to @colors/colors
+
+* remove linebreak-style rule from .eslintrc
+
+* Fix referenceg",False
+7665d887cd89461e1602bb683a1554bafe88238c,2022-02-12 13:31:53,dependabot[bot],"Bump @babel/core from 7.16.12 to 7.17.2 (#2068)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.16.12 to 7.17.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.17.2/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e6583892ca375c1dd372b03346e3a0fea2f8646d,2022-02-12 13:31:45,dependabot[bot],"Bump @babel/cli from 7.16.8 to 7.17.0 (#2064)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.16.8 to 7.17.0.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.17.0/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+30d260d60688265f23f93e37f77df0fbf783ff6a,2022-02-12 08:58:03,Benoît,chore: add editorconfig (#2058),False
+40ef3094837462752897b794241b352e758eaf90,2022-02-12 02:33:04,wbt,Add search terms field to bug report template (#2067),False
+c9b75796621d4a8f63b8e1c684ebd920406ed0eb,2022-02-11 22:30:59,dependabot[bot],"Bump @types/node from 17.0.13 to 17.0.15 (#2062)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.13 to 17.0.15.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2b8cd55cf2e62f51c8c823b9ca3a73d267f54cea,2022-02-07 12:03:40,Jonathon Terry,"Chore: Organize and restructure tests (#2049)
+
+* chore: wrap logger tests in top-level describe
+
+* chore: restructure tests directory
+
+* chore: restructure logger tests
+
+* chore: cleanup test descriptions
+
+* fix: fix ci step to account for npm script rename
+
+* chore: rename tests dir back to test
+
+* fix: correct relative file paths
+
+* make sure all tests actually run
+
+* feat: add nyc configuration file
+
+* chore: fix missing end of file newlines
+
+* fix: ci steps
+
+* fix: ci steps try 2
+
+* chore: rename ci jobs
+
+* chore: leverage yaml file for nyc configuration
+
+* chore: move nyc configuration from npm script to associated configuration file
+
+* chore: move common mocha configurations from npm script to dedicated configuration
+
+* fix: disable mocha recursive option as path glob handles accordingly
+
+* updated mocha options
+
+* coverage should run all tests
+
+* Revert ""coverage should run all tests""
+
+This reverts commit 9b2fb38de16b31051b0fc9b06a91df8572e68775.
+
+Co-authored-by: Phred <fearphage@gmail.com>",False
+2017c500c82151d2944a2ce4a0aed328023f918a,2022-02-06 00:43:18,DABH,Bump to latest winston-transport,False
+f741383004440ec85acc08d24085d505ace976fd,2022-02-06 00:33:15,Mohammed Shah,"Memory leak fix: do not wait for `process.nextTick` to clear pending callbacks (#2057)
+
+* Memory leak fix: do not wait process.nextTick 
+
+Addresses the memory leak identified here:
+
+https://github.com/winstonjs/winston/issues/1871#issuecomment-1025490757
+
+* resolve linting failure",False
+438cb73fc6eaf5534e6734991d6fcd9aef9e89d1,2022-02-06 00:30:54,David Hyde,Update linter dependencies and config (#2059),False
+7f6a6f2b4cb03e9dd289e0ef14a53d20eeb305d9,2022-02-05 10:17:11,dependabot[bot],"Bump @types/node from 17.0.10 to 17.0.13 (#2051)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.10 to 17.0.13.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+22bb31abb86a3a4956ec42ef91c04495c200c106,2022-02-01 02:26:12,wbt,"Revert pr 1896 (#2052) for rerelease
+
+* Revert ""typed level type""
+
+This reverts commit 3b21cc4e1f1a6013a7fcf25ea989c6938f14f1e1.
+
+* Update version & release notes",False
+a320b0cf7f3c550a354ce4264d7634ebc60b0a67,2022-02-01 00:29:32,wbt,"Revert ""typed level type"" (#2050)
+
+This reverts commit 3b21cc4e1f1a6013a7fcf25ea989c6938f14f1e1.",False
+237534aa237b05fb3c7742e9264e57b5b1a66e43,2022-01-27 21:56:18,wbt,"Release 3.5.0 (#2045)
+
+* Add release notes for 3.5.0
+
+* Update package version to 3.5.0
+
+Per https://github.com/winstonjs/winston/issues/2044#issuecomment-1023405634",False
+d18198d149357be2fc513eee6fd794bc5c72bdd9,2022-01-26 02:46:26,Karl Wirfelt,"chore: use safe stringify in http transport (#2043)
+
+* chore: use safe stringify in http transport
+
+* chore: review feedback, use safe-stable-stringify lib for consistency with winstonjs/logform
+
+* restored package-lock from master
+
+* Re-run npm isntall to fix package-lock",False
+8a1735bf3f34c46f7e22a95d282a997d35444569,2022-01-26 00:42:44,David Hyde,Update README.md (#2027),False
+278c4926c6c303428a92e6a52c9829fa07315d45,2022-01-26 00:37:10,dependabot[bot],"Bump @babel/preset-env from 7.16.8 to 7.16.11 (#2040)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.16.8 to 7.16.11.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.11/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+609a84bbacbec8c154ad681a96b39e676fb3eabe,2022-01-26 00:36:58,dependabot[bot],"Bump @babel/core from 7.16.7 to 7.16.12 (#2041)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.16.7 to 7.16.12.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.12/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f2d7e06f912b13b04b5d98d8deb90b870e891b0b,2022-01-26 00:36:45,dependabot[bot],"Bump @types/node from 17.0.9 to 17.0.10 (#2042)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.9 to 17.0.10.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3b4800852cb3ca198dcd6793abb39a15d4d268d8,2022-01-23 09:36:22,dependabot[bot],"Bump @babel/cli from 7.16.7 to 7.16.8 (#2034)
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.16.7 to 7.16.8.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.8/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4a0ed4f56fb2daa78bdae4b22c39accb81a04c9e,2022-01-23 09:36:01,dependabot[bot],"Bump @types/node from 17.0.8 to 17.0.9 (#2035)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 17.0.8 to 17.0.9.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+936bc50a5b75ea58d0b6b7db3a2b1dd066e298e2,2022-01-23 09:35:49,dependabot[bot],"Bump @babel/preset-env from 7.16.7 to 7.16.8 (#2036)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.16.7 to 7.16.8.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.8/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+20776fc0659ff7d3232b8e1fcd2e3a8571ca4336,2022-01-15 10:38:14,Jonathon Terry,chore: fix bug request template identation (#2031),False
+8f0d4871b6b92f1e474540e79b44a13ec9caab6c,2022-01-15 10:33:26,Jonathon Terry,"Update issue templates (#2030)
+
+* chore: update issue templates
+
+* chore: cleanup",False
+765b5641eecd55e90d4d21a56ac22618920a7e77,2022-01-14 02:10:39,Phred Lane,fixed coverage equation (#2028),False
+46e00637c1918e9341948a9c7f65bc95d93d56cc,2022-01-14 02:03:52,Phred Lane,"chore: added coverage tracking (#2025)
+
+* added coveralls integration
+
+* only report coverage once",False
+4aac91bc0f1db033533759e79af703e89ffaef19,2022-01-13 23:11:21,Jamie Slome,"Create SECURITY.md (#2024)
+
+* Create SECURITY.md
+
+* Update SECURITY.md
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+3b21cc4e1f1a6013a7fcf25ea989c6938f14f1e1,2022-01-13 22:36:23,yonas,typed level type,False
+c0afef6f3f802e2289f07d46fd6a6e8347d1615a,2022-01-13 20:38:17,Lucas Abruzzi,"Typings on LoggerOptions and Logger interfaces. (#2021)
+
+* RejectionHandlers added to LoggerOptions
+
+The 'rejectionHandlers' field was missing on LoggerOptions interface at index.d.ts.
+Issue: https://github.com/winstonjs/winston/issues/1801
+
+* Added handleRejections field to LoggerOptions.
+
+A complement to rejectionHandlers commit.
+
+* Added RejectionHandler to Logger interface
+
+Added RejectionHandler to Logger interface,
+Basically the same of PR: https://github.com/winstonjs/winston/pull/1929
+Suggest by: https://github.com/winstonjs/winston/pull/2021#issuecomment-1011697784",False
+a9c7ce11ab9e3e505d1b7c03cc4fb723de618d0c,2022-01-12 08:46:32,Roman Zaycev,Fixed syntax errors in transports code examples (#1916),False
+207a6d2e405dd2c28814357c6f2a3965c9e6df85,2022-01-12 03:14:46,Benoît,"Fix for http batch support (#1998)
+
+* Fix for http batch support
+
+* Revert ""Fix for http batch support""
+
+This reverts commit 3deebc610bdb4f91538ff3216426da6e76959120.
+
+* Fix without other things
+
+* Update docs/transports.md
+
+Co-authored-by: David Hyde <DABH@users.noreply.github.com>",False
+10d9c37fea18c61dd9cc6cfb7e71325eb729443c,2022-01-11 06:11:00,dependabot[bot],"Bump @types/node from 16.11.12 to 17.0.8 (#2009)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 16.11.12 to 17.0.8.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c5f6c5cc6f27d6e83533e90ff64814a69825ca9e,2022-01-11 03:53:50,wbt,Update package.json version to 3.4.0,False
+6a71cbb9cd04ca7e8783b29b82048d4c9f16eeab,2022-01-11 03:48:52,wbt,Add 3.4.0 release notes,False
+955dffa207f79cc6b6a95ccf006eba9bc9c8658d,2022-01-11 02:58:27,WBT,Pin mocha to v8 as short-term test failure fix,False
+5f3829994088dc58af0ebd37e65e48f5e46956f0,2022-01-11 00:53:26,WBT,"Simplify path so that e.g. 'npm run build' can find it more easily
+
+What was previously explicit is the default, and gets past the error.",False
+754ca4e038582231a2278570350c04f4eb1b8e2f,2022-01-11 00:30:08,wbt,"More general testing beyond undefined
+
+per suggestion by @fearphage
+
+Co-authored-by: Phred Lane <fearphage@gmail.com>",False
+7ca9e9c6fcb16cf8b5cb22cb918fd4cc73f547bd,2022-01-11 00:30:08,wbt,Bugfix: copy-paste from referenced source,False
+2206c397408ddaaadcbbb07ad42626ecaa937435,2022-01-11 00:30:08,wbt,"Unhandle exceptions and rejections B4 replacement
+
+Attempts to address [comment](https://github.com/winstonjs/winston/pull/1824#issuecomment-784935345) by @unconfident",False
+2927964204c898c8f4605587cf12618817dcb742,2022-01-11 00:27:59,Miguel Andrade,Make winston more ESM friendly (#2006),False
+8d6e7f2414561566d93ece8814bd5317e9fca00d,2022-01-10 23:48:07,sim da-song,add http property to NpmConfigSetColors (#2004),False
+473d3917f784fd05a9dc1141d07d63ff6da84e7a,2022-01-10 22:21:38,wbt,Fix release notes from yesterday,False
+038ae23b00136c1e01c18a137ed0339b720bbb31,2022-01-10 07:43:53,DABH,fix all high-severity vulnerabilities from npm audit,False
+7467d0aa43cc09655e317cffff2b9044a7ff97df,2022-01-10 07:24:27,DABH,v3.3.4,False
+05bda20f84560e5145fb8524acd3a75ae18a1ac0,2022-01-10 03:33:04,Manny,"Pin colors package to 1.4.0 due to Security Vuln (#2008)
+
+A Security Vuln was identified in the Colors package for >1.4.0, offending packages being `1.4.1`, `1.4.44-liberty`
+
+This PR pins the color package to `1.4.0`",False
+65ab472f54906c72c6c72cffc0a12c9f1d0fe995,2022-01-07 21:35:05,wbt,Update logform in package.json per #1952,False
+36586d3d30dfe32f9dd4fbabbd585e82d47d460d,2021-12-23 10:12:50,dependabot[bot],"Bump winston-transport from 4.4.0 to 4.4.1 (#1997)
+
+Bumps [winston-transport](https://github.com/winstonjs/winston-transport) from 4.4.0 to 4.4.1.
+- [Release notes](https://github.com/winstonjs/winston-transport/releases)
+- [Changelog](https://github.com/winstonjs/winston-transport/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/winstonjs/winston-transport/compare/v4.4.0...v4.4.1)
+
+---
+updated-dependencies:
+- dependency-name: winston-transport
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+310de77b125adc83ef9d6246b33d94a5244e1453,2021-12-23 09:40:31,dependabot[bot],"Bump @babel/preset-env from 7.16.4 to 7.16.5 (#1992)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.16.4 to 7.16.5.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.5/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+de611c108e39a4481af4e101678b0829ef2c8f5c,2021-12-23 09:40:22,dependabot[bot],"Bump is-stream from 2.0.0 to 2.0.1 (#1991)
+
+Bumps [is-stream](https://github.com/sindresorhus/is-stream) from 2.0.0 to 2.0.1.
+- [Release notes](https://github.com/sindresorhus/is-stream/releases)
+- [Commits](https://github.com/sindresorhus/is-stream/compare/v2.0.0...v2.0.1)
+
+---
+updated-dependencies:
+- dependency-name: is-stream
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b9fbeb29e19cffe1bf3f6eea88374d85e504a51e,2021-12-23 09:40:10,dependabot[bot],"Bump @babel/core from 7.16.0 to 7.16.5 (#1990)
+
+Bumps [@babel/core](https://github.com/babel/babel/tree/HEAD/packages/babel-core) from 7.16.0 to 7.16.5.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.5/packages/babel-core)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/core""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c4f24e9b39c10674fa7b665c48400dc6371df076,2021-12-15 18:33:54,dependabot[bot],"Bump @babel/cli from 7.10.3 to 7.16.0
+
+Bumps [@babel/cli](https://github.com/babel/babel/tree/HEAD/packages/babel-cli) from 7.10.3 to 7.16.0.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.0/packages/babel-cli)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/cli""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+0f8cf5957cc3ef466427e92ad598e73f9543b10e,2021-12-14 21:59:58,dependabot[bot],"Bump through2 from 3.0.1 to 4.0.2 (#1986)
+
+Bumps [through2](https://github.com/rvagg/through2) from 3.0.1 to 4.0.2.
+- [Release notes](https://github.com/rvagg/through2/releases)
+- [Commits](https://github.com/rvagg/through2/compare/v3.0.1...v4.0.2)
+
+---
+updated-dependencies:
+- dependency-name: through2
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1a3ff337b655d6d368e11fd962bbf96534ae3563,2021-12-12 21:30:59,Phred Lane,"Remove AppVeyor (#1975)
+
+* removed appveyor.yml
+
+* updated build status badge to point to GitHub Actions
+
+* removed dead badge",False
+77ea34c636dea10b139d5cdddd7abcb593880a12,2021-12-12 02:52:08,dependabot[bot],"Bump @babel/preset-env from 7.10.3 to 7.16.4 (#1982)
+
+Bumps [@babel/preset-env](https://github.com/babel/babel/tree/HEAD/packages/babel-preset-env) from 7.10.3 to 7.16.4.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.16.4/packages/babel-preset-env)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/preset-env""
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2a476b05048af427364abd8b94bd09157c6db171,2021-12-12 02:37:15,dependabot[bot],"Bump @types/node from 14.0.13 to 16.11.12 (#1979)
+
+Bumps [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) from 14.0.13 to 16.11.12.
+- [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+- [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+
+---
+updated-dependencies:
+- dependency-name: ""@types/node""
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2b9c32ecf7e458c1104a05d942194a4c8991ae76,2021-12-12 02:36:08,dependabot[bot],"Bump split2 from 3.1.1 to 4.1.0 (#1980)
+
+Bumps [split2](https://github.com/mcollina/split2) from 3.1.1 to 4.1.0.
+- [Release notes](https://github.com/mcollina/split2/releases)
+- [Commits](https://github.com/mcollina/split2/compare/v3.1.1...v4.1.0)
+
+---
+updated-dependencies:
+- dependency-name: split2
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f18abad012b2d3611a650135cf89d1ad3be0649e,2021-12-12 02:23:44,dependabot[bot],"Bump assume from 2.2.0 to 2.3.0
+
+Bumps [assume](https://github.com/bigpipe/assume) from 2.2.0 to 2.3.0.
+- [Release notes](https://github.com/bigpipe/assume/releases)
+- [Commits](https://github.com/bigpipe/assume/compare/2.2.0...2.3.0)
+
+---
+updated-dependencies:
+- dependency-name: assume
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+7ea43818c0c9f5c87e672ed6e431bbce5acccd18,2021-12-12 02:21:33,Phred Lane,"fixed inconsistent tests (#1977)
+
+object key ordering caused tests to fail inconsistently",False
+64cde0373672ce2f616517203c15d620d721d089,2021-12-12 02:21:21,dependabot[bot],"Bump async from 3.2.0 to 3.2.2 (#1978)
+
+Bumps [async](https://github.com/caolan/async) from 3.2.0 to 3.2.2.
+- [Release notes](https://github.com/caolan/async/releases)
+- [Changelog](https://github.com/caolan/async/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/caolan/async/compare/v3.2.0...v3.2.2)
+
+---
+updated-dependencies:
+- dependency-name: async
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+bf9f33519dbcd8d49faa1206e42f8deda8c671b7,2021-12-12 01:32:24,Phred Lane,"added dependabot config (#1976)
+
+https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates",False
+923e53408a68aab3d0c309c4d9fa510c0c0739be,2021-12-12 00:33:39,Phred Lane,"Replaced TravisCI with GitHub Actions (#1974)
+
+* replaced AppVeyor and TravisCI with GitHub Actions
+
+* restore appveyor.yml temporarily
+
+* remove node 10 since it is EOL",False
+e9d80181b53421aae0f779b3f4d36cffc79dff47,2021-12-12 00:28:11,Liam McLennan,Added Seq transport (#1964),False
+a584db39359312058cb639c7bde024f87e6155ce,2021-12-12 00:26:13,ADoyle,fix(transport): eol='' not work (#1878),False
+2299d19b17e330de588580a2c225ca89fa9a65f2,2021-12-10 05:37:56,Alexandre ABRIOUX,fix: handle undefined rejections,False
+4572c2ab3ba7687a491dd1369a5f02b15eb1e01f,2021-12-10 05:26:49,Nitin Bansal,Small documentation fix,False
+39cec7ffdd60e2cb4f19590b59bbf2b1e2f59dbf,2021-12-10 05:25:39,dontry,fix a typo,False
+f4d2441d6f82701a9eb3754b6d72f6a8779e0054,2021-12-10 05:24:05,Darshan Khot,fixed grammar,False
+d3292f06b34d67a6a75bee1c72ad8bb65b99ddd2,2021-12-10 05:24:05,Darshan Khot,"Minor change to comment for better understanding
+
+Severity level wordings are a bit tricky to understand since they are numbered from lower to higher with decreasing severity.",False
+441fb2062cf3ffe666d513efefdc1185ba3eb5aa,2021-12-10 05:22:54,wbt,Add a couple periods for greater consistency,False
+fc2d5eb1a14b77c40969539951c5c844f835e107,2021-12-10 05:22:54,Ahmed Bankole,Minor punctuations in UPGRADE-3.0.MD,False
+789449f61dc247c09a9529406471efbb16397e7c,2021-09-22 10:46:48,Yurij Mikhalevich,chore: update logform to @2.3.0 (#1952),False
+2625f60c5c85b8c4926c65e98a591f8b42e0db9a,2020-08-29 11:31:13,PierreVanRoy,Update transports.md (#1830),False
+68ea786e053e50b51396e0cc8993c67ff789609c,2020-07-11 10:21:21,Tarcisio Gruppi,Add default metadata when calling log with string level and message (#1712),False
+9f673f0529016e8070521d8f2b4a7b1aedd250c3,2020-07-11 10:18:07,wbt,"Unbind event listeners on close (#1824)
+
+for uncaught exceptions and rejections. Closes a small memory leak observed in Issue #1706.",False
+7b46dc8898e8d9a2f95771f1acecf4f2b6e4bc93,2020-06-24 03:57:36,DABH,3.3.3,False
+c416e3a2653c48013ba31d6153b553bdac081679,2020-06-24 03:56:03,DABH,Prepare for 3.3.3,False
+35b07742e4a03ea42f93c7e1b02615f7d100e6dc,2020-06-24 03:53:18,Mizumaki Ryota,revert Fix bugs in  type (#1807) (#1820),False
+bc6f68192abd56e61d3e9f34cd7bb29ab8c176e5,2020-06-23 12:25:55,Francesco Pigozzi,"Fix issue #1817 (#1819)
+
+* fix: replace type with generic
+
+* fix: typo",False
+5c8da2d4cd751523551125b96d05028a84af416f,2020-06-22 23:23:26,DABH,3.3.2,False
+07526141a39224c3df2711ace365dcbd38696e5d,2020-06-22 23:21:02,DABH,[#1814] Use fork of diagnostics on NPM to avoid making Docker images require git,False
+e364ddcf993ac2dad733025188922aed82ef0a4d,2020-06-22 11:58:57,DABH,3.3.1,False
+faac0661d07281353d251143056aadb599e576e9,2020-06-22 11:57:49,DABH,Prep for 3.3.1,False
+227ca0a3219394a72c9856a6104fcd88af464540,2020-06-22 11:10:40,Raphaël Huchet,"Add space between `info.message` and `meta.message` (#1740)
+
+* Update logger.js
+
+* fix tests",False
+ef971710ecfaffc2526e45a264b3e16fb2617604,2020-06-22 11:05:09,Mizumaki Ryota,"Fix bugs in `createLogger` type (#1807)
+
+* fix createLogger type
+
+* fix to follow master",False
+0e1c812411abf362857dbc58915f0b0dfcc570f6,2020-06-22 11:02:08,Sam Curry,"Fix typing for Profile.start (was Date, should be Number) (#1803)",False
+9e7bd71ae59374c7af4020318aa104747425c88f,2020-06-22 10:59:13,DABH,Merge branch 'master' of github.com:winstonjs/winston,True
+67cd9b5d69d7c6d86c36a324268ca3e8ccedb2f1,2020-06-22 10:58:52,DABH,"[#1813] Use fork of diagnostics, avoiding indirect storage-engine dependency",False
+6545a7e21a908f9c24f10d7b27b578b64e24777b,2020-06-21 14:26:50,Reece Daniels,"remove emitErrs note from README (its no longer supported) (#1810)
+
+Co-authored-by: Reece Daniels <reece.daniels@kwiff.com>",False
+b47d5d5def8ef00603f864bfcfbe643ab9ef2ce0,2020-06-21 14:20:31,DABH,3.3.0,False
+b6bc91824730419ced906c0b82560f891a25af8e,2020-06-21 14:13:05,DABH,Prepare for v3.3.0,False
+9354721af36af51b127f489a366d5d8602a37049,2020-05-16 03:29:11,Moni,"doc: fix whitespace and trailing comma. (#1778)
+
+* doc: fix whitespace and trailing comma.
+
+* docs: add require statement
+
+* remove whitespace",False
+3d07a80a52f5c1df0f3a7823d7c08a350a30ac58,2020-05-01 00:10:56,Yuri Heiko,docs: add example of uncaughtRejections logging (#1780),False
+df25fa2b93e1ea134cfca8bd1c46934ad4f2a7a3,2020-05-01 00:09:50,Yuri Heiko,"fix: change property of handleRejections (#1779)
+
+change property handleExeptions with handleRejections to make it works",False
+950cbcdf9e3eb7ee6188d1b7540ece2a365b4547,2020-05-01 00:08:06,Roman,Add options to request (#1777),False
+1c752928a46ba06690c40a43ecbb03b4a9a0b63c,2020-05-01 00:04:20,s0j0hn,Update package-lock.json (#1772),False
+e7d13d58459674c8cc78c3a469bc5cab78f0d6f2,2020-05-01 00:03:24,Piotr Kuczynski,Exclude unnecessary files from npm package (#1768),False
+75f7edff8a0b066a88e11010d44a3dc32e977e1d,2020-04-30 23:59:10,Arpit Agrawal,"Fix removes a logger when pass undefined transport (#1785)
+
+Co-authored-by: Arpit <arpit@sharechat.co>",False
+4b571ba4bbffa36cb54af313282f5f9e9f7b9e1c,2020-04-30 23:57:55,Javier Castro,"This adds Node.js 14 and removes Node.js 8 as: (#1793)
+
+- it is EOL since December 31, 2019
+- AppVeyor is actually failing with Node.js v8",False
+73ae01f951600306242e00dd0d2b0a85b6d9d254,2020-01-28 00:25:07,zhang699,"Update Sentry transport `require` change (#1754)
+
+reference to https://github.com/aandrewww/winston-transport-sentry-node",False
+7b67eb0770118bd06467ba36acf6c1843b2d8f8f,2020-01-05 01:04:56,Davide Curletti,Fix typo (#1750),False
+1679c496fb720cad495b78e987dcd8b921de9cc9,2020-01-02 04:57:15,Matthew Morrissette,"Fix Issue where winston removes transport on error (#1364) (#1714)
+
+* Fix Issue where winston removes transport on error (#1364)
+
+* Fix lint error to cause rebuild",False
+0e0cf141a228df23302bfd2d2b363830fe7a96ce,2019-12-18 00:42:21,Kirill Konshin,"Fix #1690 (#1691)
+
+* Fix #1690
+
+* Update index.d.ts",False
+85a250ae1ca162cc04ae0e0f88369053efccb481,2019-12-18 00:41:58,DABH,Node 12 is LTS now,False
+bea9c3427c0835950e87e215a025056adc080a7f,2019-12-17 00:49:56,Pedro Augusto de Paula Barbosa,Update README.md (#1743),False
+319abf1c17e934595bd2e24a276f1e3d9f7cd709,2019-12-02 07:13:06,Marika Marszalkowski,"Add defaultMeta to Logger index.d.ts (#1736)
+
+* Update index.d.ts
+
+* Update index.d.ts",False
+c719706d76bf7694336cf735a831d197ab3c8998,2019-12-02 07:12:45,James,"(typo) Missing label import in example (#1733)
+
+* (typo) Missing label import in example
+
+* Update README.md",False
+89445981bfdd2c4bd029bf44e0def4d52307e82a,2019-12-02 07:11:43,Ifeanyi Ubah,"Update index.d.ts (#1729)
+
+Hoist type defs from the logform module.
+
+Currently there isn't a way to write correct type definitions for
+when e.g creating a format since the types for such objects are
+declared in `logform`.
+This patch move logform type defs so that they can be used by
+user code - For example by doing:
+
+`import { Logform } from 'winston'; const f: Logform.Format;`",False
+7bb258ca9abfc6bea73f3adbce92c739a4ccb9c1,2019-12-02 07:10:36,Userbit,Fix `npm` logging levels on README.md (#1737),False
+64744d752f0b9743da2c582abcef352ee1ce558d,2019-10-28 01:39:50,Krzysztof Kwiatkowski,"#1567: document common transport options (#1723)
+
+* #1567: document common transport options
+
+* Update README.md",False
+ae2335b49f4fb3e49f79801f5fc6da1159ed3133,2019-09-19 09:45:44,Vlad Marica,Add Humio transport link to docs (#1705),False
+785bd9eee537e4b4d5e26a770ba0890525e550da,2019-09-19 04:59:49,Amir Elemam,UPDATE levels on readme (http added) (#1650),False
+4f44acb33c68d6ac6401006a495353581f82b96c,2019-09-19 04:54:50,Mark Jackson,"Add PostgresQL transport to list of community transports (#1697)
+
+* Update transports.md
+
+* fix link syntax
+
+* use @pauleliet/winston-pg-native which is more up to date
+
+* remove duplicate info from README",False
+22801e11698253c4631b95c185c27863846be810,2019-09-19 04:54:04,Pavel 'PK' Kaminsky,feat(transports): add integrateion with winston-bigquery (#1700),False
+a07bc17175338702346a4e8f4e389bdbe0bd8282,2019-08-15 11:12:31,georgeonofrei,"add bearer auth capabilities to http transport; (#1662)
+
+* add bearer auth capabilities to http transport;
+
+* replace headers clone via spread operator with Object.assign for node 6 compatibility;",False
+aed30ab87437048c7fca43ff08055889fb92af6b,2019-08-15 10:55:55,DABH,[#1612] Remove no-op,False
+11f5ea29148bbbd5af878ee594e48c517f2877ff,2019-08-15 10:52:34,David Hyde,"Upgrade all dependencies, test/build/lint results match master (#1686)",False
+d62470e3f5734353e1b7b480949f44f2d99e4772,2019-08-15 10:20:35,Andrew Avdeev,"added a Sentry transport for winston (#1684)
+
+* added a Sentry transport for winston
+
+* fix md",False
+2d44d64e1a8e25009fb400cdf210f4c83d1a298c,2019-08-15 10:16:36,ninesalt,Update transports.md (#1683),False
+e3257930e104eac77bcc06149af3472b8c8f5f96,2019-08-15 10:16:11,enqode-hub,"Made the code example fully executable (#1677)
+
+Because of the missing require statement when copy & paste the code example the code didn't work. This commit changes this.",False
+9399f08ee1ab77200d1d1157c2f91f9399084ac8,2019-08-15 10:15:22,Alex Crowe,Updated async to lodash patched version (#1672),False
+15c9653e4eeae1c76875603a722e11db9a6556bd,2019-06-30 03:14:18,punkish,"Updated transports.md (#1652)
+
+added a SQLite3 transport for winston",False
+daeefbf8a929ab1ede9d6de4c0fe2b077fa194d8,2019-06-30 03:01:11,Atef Ben Ali,Fix logs files names (#1651),False
+47e05e8e1ee85c962c9b8b07a6653199aa65f453,2019-06-30 03:00:01,TheAppleFreak,"Add Slack Winston transport (#1661)
+
+* Adds `winston-slack-webhook-transport`, a transport to send all logs to the Slack chat service, to the list of community transports.
+* Adds documentation on how to configure the transport",False
+bf2b9869b525899aba33ffcb79b672223c32e308,2019-06-30 02:47:40,Nikhil Fadnis,Add datadog winston transport (#1656),False
+05bed4d540cf8394e861dfa1edaf6b2d6d73c19f,2019-06-30 02:46:32,Ruben Bridgewater,"Update CI to remove Node 6 and support Node 12 (#1647)
+
+* Update .travis.yml to support Node.js 12
+
+This adds Node.js 12 to the test matrix to make sure everything passes as expected.
+Node.js 11 is in maintenance and won't receive significant changes anymore, so I updated that as well (no test failures should be accepted).
+
+* add n12 on appveyor, remove n6 from travis+appveyor",False
+bc6a363ec9164d03f266cab7c918d92208d2ec73,2019-06-04 22:35:49,Nikhil Fadnis,"Remove unused import (#1654)
+
+`util` isn't used anywhere in the file",False
+4e939b3ea32fb5b25271f7e1895c0f9ea60a2f2e,2019-05-14 08:49:53,tagyoureit,"TS updates (#1625)
+
+* Update index.d.ts
+
+Added missing handleExceptions boolean in LoggerOptions
+
+* Add :any to logmethod and loglevelmethod
+
+It is valid for a user to pass `logger.info({some:object})` or the same `logger.log('info',{some:object})` (or even an array or error) and unfortunately that means we need to add an any type to this declaration.
+
+* Added Logger return method to declarations
+
+(forgot previously)",False
+8423c03c59c31f61f57519b4097420a464c90f83,2019-03-27 09:21:03,tagyoureit,"Update index.d.ts (#1623)
+
+Added missing handleExceptions boolean in LoggerOptions",False
+1a7554486dd71e5656b4fd3cd9168fc3620df9a8,2019-03-25 01:00:36,Kishan Gajera,Add typings for the isLevelEnabled(string) and isXXXEnabled() functions (#1622),False
+8f4cddc04c67e20f86a73f9663d92bba0e27efd5,2019-03-20 00:00:17,Samir Musali,"Adding `LogDNA Winston` Transport (#1610)
+
+* Adding LogDNA Winston Transport
+
+* No Need for Semicolons
+
+* Update LogDNA transports text
+
+Tightened example code to more relevant bits and removed non-technical text",False
+80d343939facdab4eb4aa315cb061c75a3f77549,2019-02-26 11:44:53,Adrian Hope-Bailie,"Expose `child` on default logger (#1603)
+
+* Add `child` pass-through to type defs
+
+* Add pass-through to defaultLogger.child(...)
+
+* Add test for `winston.child`
+
+* fix: type defs",False
+3a5413b403bde57774dce116888a80eccb432c8f,2019-02-26 11:41:01,Ameet Kaustav,"[#1592], (@akaustav) Fix year typo in CHANGELOG (#1593)
+
+CHANGELOG for v3.2.0 and v3.2.1 now references the year 2019 (instead of 2018).",False
+a9065b1ed40ad20a48ba676561fd4a541eb14ca3,2019-02-26 11:40:06,Johannes Klein,"Update transports.md table of contents (#1605)
+
+* Update transports.md table of contents
+
+add missing links, fix links, sort alphabetically
+
+* Fix link to DynamoDb",False
+635b46811a47110515f704e097821c53a2ff9080,2019-02-26 11:38:07,Paul Melero,Update transports.md (#1600),False
+efd7baf65da13edaba7829aa4339757eed4322eb,2019-01-30 00:39:56,indexzero,[doc] Drop minor and patch versions from hero title to avoid future mistakes I will definitely make.,False
+85f24711db3d4c982b576863ae9d81c72aa6e289,2019-01-30 00:39:18,indexzero,[tiny doc] Update hero title.,False
+49ccdb6604ecce590eda2915b130970ee0f1b6a3,2019-01-30 00:33:58,indexzero,[dist] Version bump. 3.2.1,False
+ce7c951b3da38aaf149828688d60fb5c4d3277f5,2019-01-30 00:01:30,Charlie Robbins,"Attempt to fix #1577. (#1579)
+
+* [fix wip] Attempt to fix #1577.
+
+* [fix test] Fallback to the ""root"" instance **always** created by `createLogger` for level convenience methods (e.g. `.info()`, `.silly()`).
+
+* [tiny] Remove useless assignment.
+
+* [tiny] DRY it up a little.",False
+3c4d5b0a07bb186474fe543a06bd2ae46358652c,2019-01-29 23:03:26,Igor Savin,Update dependencies (#1586),False
+abf4d2d591c353311f53c1a62325643da51b1be0,2019-01-29 22:09:25,Igor Savin,[fix] Add typings for defaultMeta (#1583) (Fixes #1582),False
+b1738adab2a3bdfb2f68f7bd9c7063447a8dd19e,2019-01-29 10:09:45,Charlie Robbins,"Alternative fix for #1501  (#1539)
+
+* [wip fix] Assume message is the empty string when level-helper methods are invoked with no arguments.
+
+* [fix] Add test for #1501.",False
+9d3da2058da761f62f4748a508604a61ac359bc2,2019-01-27 01:22:02,David Hyde,Fix typo,False
+fe76c66d5fdf4524b6e310b77e64e28dca8bf675,2019-01-27 01:18:32,indexzero,[dist] Version bump. 3.2.0,False
+78b745dcf45aed474caed213b3fda154f4d4db48,2019-01-27 01:14:49,Charlie Robbins,"✅✨👍 [PRE-RELEASE] winston@3.2.0 (#1576)
+
+* Initial changelog for 3.2.0
+
+* [doc] CHANGELOG.md through November 2018.
+
+* [doc] Entire CHANGELOG.md
+
+* [doc] Update Roadmap.
+
+* [dist] Regenerate package-lock.json with latest.
+
+* [doc] Add examples/quick-start.js and document it in `README.md`
+
+* [doc] Update README.md
+
+* [tiny doc] Correct order in TOC.
+
+* [doc] Tighten up CHANGELOG.md
+
+* [doc] Add note about 3.2.0 board.",False
+a910c284fe8c028f4a64f30790821f4303e1c7c3,2019-01-26 22:58:34,Charlie Robbins,"[fix] Better handling of `new Error(string)` throughout the pipeline(s). Fixes #1338, #1486 (#1562)
+
+* [tiny dist] Whitespace. package-lock.json
+
+* [test] Add E2E integration tests with logform `errors` format.
+
+* [test] 5:00pm. Press return.
+
+* [fix test] More E2E errors coverage.
+
+* [test] Test custom error properties.
+
+* [tiny doc] Make note of duplicate coverage in `logger`. Update minor formatting.
+
+* [test] All E2E tests work except for one...
+
+* [fix test doc] All 14 variations of handling `new Error()` now work as most folks expect.
+
+* [tiny] Fix up file header.
+
+* [dist] Bump to `logform@2.1.0`
+
+* [fix tiny] Whitespace.
+
+* s/req_id/requestId/
+
+* [fix test] Address PR comments. Add test coverage for defaultMeta over .child(additionalMeta)",False
+0da77d4c20385af1b5e1d25ba3a2d0c2f9d708d8,2019-01-26 22:57:55,ADoyle,"[fix] support to create log directory if it doesn't exist for file transport (#1556)
+
+* feat: support to create log dir if it doesn't exist for file transport
+
+* test: add test cases",False
+b4ced895b3e1ead8a616590189b003cfd9d7acca,2019-01-08 00:18:58,Igor Savin,Update dependencies (#1560),False
+664b44ba4d8656880c1d09253eabc55636ab97ef,2019-01-03 10:19:34,Yubi Lee,fix typo related to exitOnError (#1559),False
+abac7e2005700045bf710ec3185fa6bedfa0715a,2019-01-02 23:22:58,David Hyde,Add fixes from #1355 to unhandled rejection handler as well (#1555),False
+7776407dbbe0a9ce2c1d96c79b72876d334328cd,2018-12-29 22:50:22,Vladlen,fix(types): Add missing child() method (#1557),False
+766dc0cd2d5735e82ab43daf3ecaf374dd1173a0,2018-12-27 02:27:21,Joe Becher,"Add handleRejections support (#1462)
+
+* Add handleRejections suppot
+
+* Correct typo",False
+63509be72c72e8fc61b9c96832dd601e6cd40885,2018-12-27 02:15:31,Charlie Robbins,"Document the solution to #1486. (#1554)
+
+* [doc] Document the solution to #1486.
+
+* [doc] Show both in example.
+
+* [doc] Update the examples.",False
+1873058c925ca3debedef46150d0d4b73864e3f0,2018-12-27 01:55:58,David Hyde,Attempt at fixing the issues with ExceptionHandler in #1289 (#1355),False
+44e178f2fd8dc8425a4432694bb0150fd7db10c9,2018-12-27 01:48:41,Charlie Robbins,"Consistent handling of meta with (and without) interpolation in winston & logform (#1552)
+
+* [doc fix] Build on the work from #1485 fixes.
+
+* [tiny] Formatting changes.
+
+* [fix test] Updated tests to latest (consistent) semantics.
+
+* [dist] Update to `logform@2.0.0` and `winston-transport@4.3.0`.
+
+* [doc] Document all possible permuations for splat.",False
+64344d12eace394d9e7c8bf926f9f2663efc8640,2018-12-24 02:43:03,Igor Savin,"Implement child loggers (#1471)
+
+* Implement child loggers
+
+* Fix lint warning
+
+* More tests
+
+* Replace child logger implementation with a more high-performance version
+
+* Adjust implementation to be compatible with Node 6. Switch priority of meta override
+
+* Add support for passing error directly to logger
+
+* Improve test cross-OS compatibility
+
+* Minor improvements based on code review
+
+* Remove proto override since linting settings enforce not using it",False
+b1b16c8e8241d20af857652b0f00e3f5bedfd5d2,2018-12-08 04:03:07,Teddy Martin,"Fix README for awaiting logs (#1548)
+
+Small tweak to add the correct code for awaiting all logs to be written.
+As it is now, it shows the transport with a 'finish' event, which is incorrect.",False
+785ea22c6258d8ec36beebae008b4e1b2df63fe4,2018-12-08 03:22:59,David Hyde,Try better fix for #1485 (#1499),False
+59748c12e9ef61c3b029504c3d1fbfe880644c40,2018-12-08 02:58:44,indexzero,[dist] Lint auto-fix. Regenerate package-lock.json.,False
+ebf7663a0fd1748b7d04e281e62ccb3a5ad44b1b,2018-12-07 12:25:19,Alewi Ahmed,Add consoleWarnLevels field to the ConsoleTransportOptions interface type definition. (#1546),False
+ed27e8574aefc02e0d321f6767fa8911588f061f,2018-11-30 02:37:14,Stefan Aebischer,"Log file without .gz for tailable (#1525) (#1526)
+
+* Log file without .gz for tailable (#1525)
+
+* Convert vows based file-archive-test
+* Do not append .gz to log file if tailable and zippedArchive are true
+
+* Fix file-archive.test",False
+f87be3ed23c670e2aecb8366db970782772f1f74,2018-11-30 00:32:00,Konstantin Azizov,"fix: Update Logger.profile typing (#1540)
+
+According to the code and README.md you can specify additional options(level and message) as a second argument but it's not available in TS definition.",False
+7b7867fa764e0f2d1f9465f4effe9e01ceb7df10,2018-11-30 00:22:22,Igor Savin,"Update @types/node, nyc and through2 (#1534)",False
+6df422585aaa892d6f01fcab73f5c4c0ca9b0b96,2018-11-29 11:49:20,Maple Miao,"docs(transports): add links (#1531)
+
+add links for `winston-dailyrotatefile` and `winston-syslog`",False
+abac0fcf36ab0d2eed07a878c88d00a86647dc91,2018-11-29 11:48:40,Igor Savin,Update to Babel 7 (#1533),False
+cc05b36e0dfd8b6159302b34ab05f323228dc69b,2018-11-28 18:35:36,Ben Ludewig,Fixes logger.query() function broken by winston 3.0.0 (#1434),False
+c42ab7fdc51b88db180a7dd90c52ce04ddd4e054,2018-11-06 04:09:54,James Bechet,"Fix Transform from `readable-stream` using create-react-app (#1521)
+
+* Fix Transform readable-stream
+
+Create react app bug
+
+* import stream from readable-stream",False
+2c2bc15a2c87abfb5845f45669875a1c0f47e8d0,2018-11-06 04:05:06,Denis Fäcke,update readable-stream to v3.0.6 (#1516),False
+32e07711a3d1d969fbe4737e8d50f0628f3e396f,2018-10-25 01:32:15,Xiao Liang,"docs(README.md): small grammar improvement (#1509)
+
+Missing a comma. Added for making the sentence more understandable.",False
+45c1447a42e1a5cf834f2297b5c12940dfa4408f,2018-10-25 01:31:33,Denis Fäcke,add node 11 and disallow failures on node 10 (#1512),False
+ac502df17fb3fb598a8d24bedf7c7ec544b46c99,2018-10-25 01:30:27,Tyler Hall,"fix: set max listeners for Console transport (#1513)
+
+* fix: set max listeners for Console Transport
+
+suppresses warning provided by Node concerning max event listeners
+
+* style",False
+919ce410af1e5e5ba82fd4c2f9af4a5a28218d5c,2018-10-18 08:57:36,Denis Fäcke,"Fix file tailrolling test failure #2 (#1503)
+
+* eslint error fixes
+
+* fix file tailrolling test failure #2",False
+5dd0f481f836cd54565ba3ed89061fd905af5e38,2018-10-13 04:44:58,DABH,"Update README.md
+
+Closes #1500",False
+062f8530cc64ccb7e260c2ac9b7f8b02a5ab4bb1,2018-10-09 23:46:20,Adam Cohen,"Fix multi logger documentation (#1488)
+
+* Fix multi logger documentation
+
+* fix example for multi loggers with managed container
+
+* Update README.md",False
+9125b0bf3279e5da007ff91de8266e33e926a6a8,2018-10-04 10:24:07,DABH,"Update README.md
+
+fix typo 'finished' -> 'finish'",False
+af941f4c98a24ba9efd7743fdde531903208cda7,2018-09-29 10:33:17,Michael Pabst,"Fixing off-by-one when using both meta and splat (#1485)
+
+The arguments.length > 2 section in log() examines the first item in the splat param to see if it's a meta object. Problem was, a subsequent call to splat.slice() still included that meta object in the splat.",False
+6da46de284c135e613217378c65c5763318aba4d,2018-09-27 03:26:45,Ryan Day,"fix: assign log levels to un bound functions (#1483)
+
+* fix: assign log levels to un bound functions 
+
+binding custom log level functions to `this` with arrow functions causes unintentional behavior. 
+the expectation is that they should be callable the same way as logger.log
+
+if you extend a logger instance `logger.log` will be called on `logger` whereas `logger.warn` will be called on `logger.prototype` 
+
+this fixes #1482 but I believe it should be treated as a bug. I doubt blocking extension of only part of the surface area of the instance was intended. 
+
+this sets the base for efficient child loggers that only extend write to add attributes.
+
+* test: test for custom method prototype binding
+
+* style",False
+9f61bbdebe78ebc7b60d52b71f7c3c84360a85ab,2018-09-26 01:41:35,Denis Fäcke,"Fix file tailrolling failure (#1480)
+
+* fix eslint errors
+
+* fix file tailrolling test failure",False
+bbdb47b4b8ad22f448750c6881e88916bfe38bb6,2018-09-18 09:56:20,Mark Frisbey,"precompile es syntax before publishing to npm (#1418)
+
+* precompile es syntax before publishing to npm
+
+* reference requires through exports instead of by path
+
+* rename build directory to dist. use prepublishOnly instead of prepublish (deprecated)
+
+* remove lib from npmignore
+
+* add browser opt-in. revert unneeded changes to require.
+
+* alphabetize",False
+8b9829d1d2c6a49e724cc1afa0f40fa309bcef8b,2018-09-18 02:09:40,Joseph Carroll,fix: Correct import to avoid conflict (#1472) (#1474),False
+cf518fb4c77b27860a528b05b581ee831f40b494,2018-09-18 01:05:05,indexzero,[doc] Update Roadmap in CONTRIBUTING.md,False
+bdf792bfab3db546224cb8b87ae5b51f99e12f88,2018-09-17 09:32:54,Joseph Carroll,fix: Export all transport options (#1469) (#1470),False
+5125900767b51c08d670c8907512f91f21c08648,2018-09-15 00:00:56,Denis Fäcke,Add fast-file-rotate transport to transport.md (#1467),False
+ed4f2b4e9d129cc4ac58dca64992165957c9ec3c,2018-09-12 02:24:21,Håkan Öström,"Add docs reference to transport for Cloudant NoSQL DB (#1410)
+
+* Add docs reference to transport for Cloudant NoSQL DB",False
+bdfe8008eff1127ee9e4530f9e05afeb01d8a469,2018-09-12 02:13:50,Denis Fäcke,bubble transport warn events to logger (#1463),False
+9eda806b3d0d95ce127cae12e9df45c2570bd253,2018-09-04 19:37:54,indexzero,[dist] Version bump. 3.1.0,False
+80721e0f6662b0d46e63ffabf1317272cfab6621,2018-09-04 19:30:34,Charlie Robbins,"3.1.0 pre-release (#1444)
+
+* [dist] Regenerate package-lock.json
+
+* [doc] Begin CHANGELOG for 3.1.0
+
+* Fill out changelog and update colors dependency
+
+* Update changelog and upgrade deps (all tests still pass)
+
+* Correct a seemingly erroneous test and upgrade to latest mocha
+
+* Update split2 and nyc... not trivial to upgrade readable-stream
+
+* Final changelog update
+
+* Add --exit flag to mocha so pending tests don't wreck Travis runs",False
+5758752f1a3f5b1bf71b750fc32771bdbd1366ce,2018-08-31 23:23:29,Aaron Leonard,"Update transports.md
+
+Fix link to winlog2, it was previously linking to graylog2",False
+211483e55ffe6577ff019f5dc35cd31388a155e6,2018-08-28 02:46:33,Drew Boshardy,"Addresses issue 1446 and assigns transport name if given, or else retains the default 'console' name (#1447)
+
+* 'name transport with assigned name or else set it to default console'
+
+* 'change naming to coincide with prescribed style'
+
+* 'change http transport to accept parameterized options.name using default it none provided'
+
+* 'chnage file transport to accept parameterized options.name using default if none provided'",False
+bdb9f2bb625e4624cf430214ebfed42e17573fde,2018-08-28 00:06:37,Ruben Deyhle,"Mention possibility to set log level for profiling (#1407)
+
+* Mention possibility to set log level for profiling
+
+I found out that it is indeed possible to set the log level for profiling logs by supplying an object with a `level` property. This should be mentioned in the docs.
+
+* Update README.md",False
+ba2fcaf1aa48bbfde81ddcf085f1115c1f4af5d3,2018-08-27 23:32:36,Ledion Bitincka,"fix file rolling when tailing is set to true (#1420)
+
+* fix issue #1194 - where rotation of files isn't done when tailable is set to true
+
+* more fixes to tail rolling + fix & enable unit tests
+
+* fix unit tests interference from 01-file-maxsize - not sure why a new file gets created on an unrelated transport when adding a new Transport
+
+* Update 01-file-maxsize.test.js
+
+* Update file.js",False
+908c300f305803a372f96d0396eb7d7ca1bd590b,2018-08-27 23:09:45,Konstantin Lutovich,"Added `isLevelEnabled(string)` & `isXXXEnabled()` (#1352)
+
+Make logger expose functions to check if a particular level is enabled.
+This could be useful if either message or parameter creation is an
+expensive operation, which should be avoided when log level is disabled.
+
+Logger will contain `isLevelEnabled(level: string)` function and
+multiple `isXXXEnabled()` where ""XXX"" is the capitalized name of the
+configured log level. E.g. `isDebugEnabled()`, `isInfoEnabled()`, etc.",False
+a32aa3c74859054f0351ac26b3079a5bc21f82b5,2018-08-22 03:12:00,Dan Dascalescu,docs(README): Link objectMode and first use of info (#1400),False
+10a270d167a03f1144298cdf938a99b49de713dd,2018-08-21 01:40:02,Jimmy Wärting,"let keyword makes it scoped already (#1436)
+
+* let keyword makes it scoped already
+
+* miss
+
+* another miss (squash)",False
+e41fe97143190f7d5bf4011abeb9fbde8bbd4b9b,2018-08-21 01:37:25,François Voron,Fix Profiler done() method typing (#1440),False
+cf424bee37ee3a8ed46b19efac48dfff8f84efd3,2018-07-23 04:08:44,revik,"add cconsoleWarnLevels property to options to support console.warn usage (#1373)
+
+* add cconsoleWarnLevels property to optionos to support console.warn usage
+
+* add cconsoleWarnLevels property to optionos to support console.warn usage
+
+* remove yarn.lock
+
+* CR fixes",False
+1293221989ef5bdd11b3f5a8a26eaa4f9ea0a253,2018-07-23 04:04:50,Bartosz Sosnowski,"Fix tests on Windows (#1394)
+
+Uses platform-specific EOL in test message, making the tests pass on
+Windows.",False
+fcd5e685fe0c419a0db423b653f8c1368cc59641,2018-07-23 03:58:23,DABH,npm ignore scratch folder from CI,False
+e5dabef5c556b523b3c9a239bacc6c4ef3cca38d,2018-07-07 11:18:07,Daniel Rothmaler,Fix Typescript typings for the Container class (#1395),False
+670e091802749c2d9192051f2eeab04638f74321,2018-07-07 11:17:07,Gavin Mogan,Add coverage to ignored npm files (#1399),False
+6b971b6ebade1c70275d5ccdefc2e74c79230671,2018-07-05 02:07:50,Brian Mann,"Transports streams emit 'finish' event, not 'finished' (#1386)
+
+Per my tests I had to listen to the `finish` event as `finished` was never called.
+
+I believe this is inline per this issue: https://github.com/winstonjs/winston/issues/1250",False
+4a0af2b1e2a4ec57e993467baf131f2e3058a57e,2018-07-05 02:04:58,Marie,"Fix typo: formats are exposed in singular form (#1390)
+
+Formats are exposed as `winston.format.smthg`, not `winston.formats.something`.",False
+f9cefbcd8c3664182f7e60cafc718a2b00706b74,2018-07-05 01:56:55,DABH,Use relative path to tsc in Travis config,False
+b915dc13c814bff8495f70305c1a19bdfb8a6c52,2018-06-28 03:52:21,Máté Szedlák,Fix typo in README (#1378),False
+c868f0ccdc6ddc45e586c9808d99ebae8351113b,2018-06-22 10:11:13,Brandon Byars,Fix typo in default format (#1372),False
+be164713f5948765046375ab45f29b53c28352d3,2018-06-15 01:54:19,Thiebaud Thomas,"Add types entry in package.json (#1365)
+
+* Add types entry in package.json
+
+* Update package.json
+
+we don't edit versions in PRs",False
+7475a31b8f562d3b0192a168b019efa84671ee10,2018-06-14 04:23:54,Sam Denty,Typo (#1363),False
+1d0a5ac7953016781234fdebcc0b3c75ca61d44a,2018-06-13 23:57:25,Chris Alderson,"[dist] Add container methods to typescript definitions  (#1362)
+
+* [dist] Add container methods to typescript definitions
+
+* [test] Add tests for container methods for typescript",False
+6d01c78ebf024fb01b8755b8922d95ca3dcb0cf1,2018-06-13 23:12:07,Laurin Quast,fix deprecation warning typo (#1359),False
+8be746b4fba623c7167420c887ee9cf3d4147664,2018-06-12 22:01:12,indexzero,[dist] Version bump. 3.0.0,False
+ce2c0dc1f2a2cd7ad6b03ec19ad11ed320770472,2018-06-12 15:20:21,Charlie Robbins,"3.0.0 pre-release  (#1342)
+
+* [doc] CHANGELOG.md entry for 3.0.0
+* [doc] Add ChrisAlderson to README.md
+* [doc] Make note of `finish` events vs callbacks and logged events.
+* [doc] Add more transport level options to the options documented as formats.
+* [doc refactor] Major overhaul / upgrade for Transport documentation.
+* [doc] Roadmap.
+* [doc dist] Remove refs to rc6 & release date. More keywords. Update maintainers.",False
+133d0c2886dcd330db737f013703efbc869276fa,2018-06-12 14:01:40,Weston Pace,"[doc] Cleaned up some of the documentation on `colorize` to address c… (#1301)
+
+* [doc] Cleaned up some of the documentation on `colorize` to address concerns in #1095
+
+* [doc] Put addColors back into the documentation.  Removed all formatting options from transports.md as these are no longer transport options.  Documented the eol option on the Console logger.",False
+d70150512db85acf4084cfde8a2b5c8ba3ab620b,2018-06-12 13:59:22,Charlie Robbins,"Remove paddings as we have no use for it in the current API. (#1357)
+
+* [refactor] Remove paddings as we have no use for it in the current API.
+
+* [refactor doc] Document the removal. Remove maxLength.",False
+11283a07887b002b4848ec75ffdf556677b7f2ac,2018-06-12 13:53:21,Charlie Robbins,"Move splat functionality into logform. Fixes #1298 (#1356)
+
+* [api refactor] Move _splat functionality into logform for better ""pay as you go"" performance costs.
+
+* [test refactor] ""Bless"" (i.e. undeprecate) splat-friendly API.
+
+* [refactor] Remove unused constants.
+
+* [test] Add a test for #1298.
+
+* [dist] Use latest logform.",False
+109031fa16ea5d72172c1555eaf8e728e528aa12,2018-06-12 10:05:23,Chris Alderson,"[fix] Update level property to change transport level #1191 (#1328)
+
+* [fix] Update level property to change transport level #1191
+
+* [test] Add a test case for Logger level setting transports level
+
+* [test] tiny change in testcase for Logger level setting transports level
+
+* [refactor test] Remove need for getter and setter now that we check a live reference to the parent in `winston-transport`. Refactor the test to ensure that `""pipe""` has been handled by the child before proceeding.
+
+* [dist] Bump to `winston-transport@4.2.0`",False
+4c301ebdefafd16f169dbe3e1da6ec609cb6d723,2018-06-05 08:18:54,indexzero,[dist] Update package-lock.json,False
+5fdfad8d6cba3d42e7565c8fbb23ec4342a0cfcd,2018-06-03 20:12:32,Charlie Robbins,"Wrap calls to `format.transform` with try / catch.  (#1347)
+
+* [fix] Wrap calls to `format.transform` with try / catch. Potential fix for #1261.
+
+* [test] Test error trapping for user-defined formats.",False
+0c84f4f8f909def084ea2225016db5b810d84587,2018-06-01 13:23:51,Charlie Robbins,"Implement _final from Node.js streams; misc. clean-up   (#1346)
+
+* [dist refactor] Use `readable-stream` module. Migrate tests to `const`.
+
+* [api test] Define _final for Node.js streams.
+
+* [doc] Document lack of callback in `UPGRADE-3.0.md`",False
+4089b596947ba9abfc93ca102ae2fcf1bf9f5f12,2018-06-01 13:20:52,indexzero,[doc fix] Formatting fixes to docs.,False
+189559bad78ca26cf946043de6f9c8dd11ca0049,2018-06-01 13:14:39,DABH,"console transport: send all levels to stdout not stderr by default (#1332)
+
+* console transport: send 'debug' level output to stdout not stderr by default
+
+* fix style
+
+* Address PR comments / everything goes to stdout by default
+
+* update doc",False
+30b83f9eabaff482f7931187b62237e36137627c,2018-06-01 02:47:32,indexzero,[fix] Follow-up to #1344 to use setMaxListeners in all relevant locations.,False
+767b010e781a2b2a3ed44ce2716ee273af408dc5,2018-06-01 02:23:42,DABH,"Set max listeners to 30 to silence node warnings (#1344)
+
+* Prevent max listeners warning during high volume of large writes to file transport
+
+* change max listeners limit to 30 for now",False
+ad1e1bf332393a22574380dc6dd678315b937d97,2018-06-01 02:07:16,Charlie Robbins,[fix test] Document how to use levels. Add test to ensure it is true. (#1343),False
+0be23625067ab17155e6518a8a07d2b93f8afd01,2018-05-31 19:41:09,Charlie Robbins,"Check log.length when evaluating ""legacyness"" of transports (#1340)
+
+* [test] Add failing test for peerDependency inheritance concerns.
+* [fix test] Ensure that inheritance side-effects are properly caught when attempting to wrap in a LegacyTransportStream.",False
+35707e2db4c9795a4ecafc1d83f72c3b1ee87655,2018-05-30 22:06:59,indexzero,"[fix dist] Missing `,`",False
+9debbcaffe62882db1842fde3cbc1d8ebcb08f22,2018-05-30 22:05:35,indexzero,[dist tiny] Add more tags for npm search.,False
+f28c0eb9ef07c3b98594e5f2692ee65e764d896a,2018-05-30 12:46:54,DABH,Add arguments for exceptions.(un)handle in TS defs; prefer non-deprecated syntax in readme (#1330),False
+9971268017ab18710367bca22b211a998a08a118,2018-05-30 11:29:50,indexzero,[dist] Version bump. 3.0.0-rc6,False
+46d4a6abfd98d8e87cf5d97a602207e690a08349,2018-05-30 11:28:11,indexzero,[doc] Final CHANGELOG.md updates.,False
+aff10ab29513e6170dcc358d984b458f5c0c0d8e,2018-05-30 11:24:01,Charlie Robbins,"3.0.0-rc6 pre-release and final items for 3.0.0  (#1327)
+
+* [doc] Add CHANGELOG.md for 3.0.0-rc6
+
+* [doc] Update to plus one week.",False
+9042c49f14b2ecb7ef809b96e591a92b8bef1d1f,2018-05-27 00:00:36,DABH,"Merge pull request #1335 from sveyret/silentBool
+
+Typescript: silent is boolean",True
+a9020629a4855f58e340cccb1fd43a76ea18e8dd,2018-05-26 23:00:12,Stéphane Veyret,Silent is boolean,False
+b223e0996c5d2c06ab2ffe962aacd4876bc984ac,2018-05-25 22:20:45,DABH,"Merge pull request #1333 from winstonjs/fix/close-loggers
+
+ [fix] Fix removing all loggers from a container",True
+b59ad61df7386f848be63f461d3339ea3b393ede,2018-05-25 20:07:55,Chris Alderson,[fix-test] Fix test case still using winston.loggers as an object,False
+0402b003d97366d41864e9415b48cbea1937569c,2018-05-25 20:07:04,Chris Alderson,[test] Add test cases for removing all loggers and a non-existent logger from containers,False
+1823d8cdbf04800c3dd62cb14c0786ec9fd76ea0,2018-05-25 20:04:44,Chris Alderson,[fix] Fix removing all loggers from a container,False
+502a8289df5c39f8e8373a04dde963c19a002c4e,2018-05-25 00:53:07,DABH,"Merge pull request #1323 from sveyret/defaultLogger
+
+Add level method to default logger",True
+1d0a6975669e5deecc384ed55de67c0023b3f6ee,2018-05-24 13:13:09,indexzero,[dist] Bump to latest `winston-transport`.,False
+7e5ed98cf067397cd5d9291c07fecc1cc838a9a0,2018-05-24 11:56:03,indexzero,"[dist tiny] Remove ""npm run report"" in favor of reports being automatically generate.",False
+5b43d116eb87ee6fa3eae1fc731fc7e2d417f05d,2018-05-24 11:55:39,indexzero,"[dist] Update logform, triple-beam, and winston-transport to latest. Regenerate package-lock.json",False
+8c51f601d8a377aa97571c6a40644b930c84fb19,2018-05-24 11:25:45,Chris Alderson,[fix] Correctly refactor handleExceptions and unhandleExceptions (#1324),False
+606921e8015384939194ee02b6d2e91bbb3f32e5,2018-05-23 11:49:49,Stéphane Veyret,Add level method to default logger,False
+0d6200128c2c556621fc17d6ffb360f5ffda1607,2018-05-23 03:34:04,Chris Alderson,"[test] Enhance testcases to be run on windows (#1320)
+
+* [test] Windows systems do not have gid or uid
+
+* [test] Adjust assumtion of filesize for Windows eol
+
+* [test-refactor] Use rimraf to remove test fixtures on all systems
+
+* [dist] Add appveyor config to test against Windows
+
+* [dist] Disable build section for appveyor
+
+* [dist fix] Use tsc in node_modules
+
+* [test] Assume size based on platform, requested by @indexzero
+
+* [test] close logger to remove log-file on windows",False
+5c6c7b82bfc1d50cf2a97888750d42f595ad6424,2018-05-22 20:55:26,Josh Ancill,"[fix] File transport under stress hangs logger (#1318)
+
+* [fix] Add drain handler back into file transport
+
+This looks like it was removed (by accident?) in
+40c1ce4d23b876ff85c3a2321a07528af84ccf85
+
+* [fix] Remove extra drain event
+
+* Prevent this._drains from going negative
+
+* Refactor drain mechanism to fix file transport logging under stress
+
+* Removed early return when write returns false
+
+* Greatly simplify drain mechanism based on PR feedback and testing
+
+* Revert ""Greatly simplify drain mechanism based on PR feedback and testing""
+
+This reverts commit 7ff756b077fcf5e5ef73800a74a45921f6a1ea26.
+
+* Changes and cleanup based on PR feebback
+
+* Add test case that should cover the original reason for this change
+
+This test should fail on current winston 'master' and succeed on this PR
+
+* Test the content of the message as well just in case
+
+* Add synchronous version of the file transport large message stress test",False
+a71c508ddfacf7a7811e93b23fc8da01c67091bf,2018-05-21 21:10:08,Mr.Betty,[doc] Fix `this` reference error in example (#1319),False
+e7961323fe3aa4ca4c11e55e2e5ad46c0db33e52,2018-05-19 03:14:06,Chris Alderson,"[feat] Add eol option to Stream transport (#1311)
+
+* [feat] Add eol option to stream transport
+
+* [dist] Add eol option to typings
+
+* [docs] Add example for Stream transport with file
+
+* [tiny] Forgot timeout miliseconds in example",False
+f7591abaf293bccda3645f187897ed68a304be91,2018-05-19 03:13:49,Charlie Robbins,"Approach to fixing #1174 (#1294)
+
+* [tiny] Minor whitespace changes for readability / style.
+
+* [fix] Track ""rotatedWhileOpening"" within the File transport and do not attempt to rotate during the open operation. Fixes #1174.
+[refactor] Require source stream to be provided to _createStream and return the dest stream from _createStream so that the open operation is closed over the two streams.
+[doc] Add examples/file-maxsize.js to illustrate & ""bless"" the behavior that was failing in #1174.
+
+* [dist fix] Appease the gods of eslint.
+
+* [dist] Allow failures from node@10.
+
+* [refactor] Address comments about consistency in variable naming.",False
+282ac5531a016d83a8f3b727b4e4d48df65a7ed3,2018-05-11 21:48:33,Chris Alderson,"[refactor] Move configs to triple-beam (#1297)
+
+* [refactor] Move configs to triple-beam
+
+* [refactor] Set npm levels to be default for createLogger
+
+* [refactor] More desctructuring
+
+* [dist] Update triple-beam, logform and winston-transport",False
+256fc1322a090a1a914a49ec0dd504a3aecfe0f5,2018-04-28 04:19:38,Charlie Robbins,"Add 3.0 notes for logger.add. Add ISSUE_TEMPLATE.md (#1296)
+
+* [doc] Add upgrade notes for `logger.add`.
+
+* [doc] Add ISSUE_TEMPLATE.md",False
+51cc53fb3e1f56e1160a4755ca2b1a6202b9176b,2018-04-27 23:01:32,DABH,"Merge pull request #1287 from DABH/typescript
+
+TypeScript definitions for winston@3.0 (closes #1190)",True
+a8e984a9f7312e0c0207f75ad7a25cb5ba8f5179,2018-04-27 22:57:36,DABH,Merge master,True
+4608e219f76b1790c47133012ef97acb5294327e,2018-04-27 22:31:04,indexzero,[dist] Regenerate package-lock.json,False
+690a62be54c4525b32f2c1209a450fb5dacfd7ef,2018-04-26 09:52:00,DABH,tiny style nit,False
+d55683206330b27b093b3bdc694a55b41391d5b8,2018-04-25 21:56:32,crobbins,[doc] Document all the things that @ChrisAlderson has fixed or implemented in our Roadmap for 3.0.0,False
+40c1ce4d23b876ff85c3a2321a07528af84ccf85,2018-04-25 21:05:39,Charlie Robbins,"Properly test maxsize in File transport (#1236)
+
+* [wip] Test maxsize options on file transport.
+
+* [fix] Nearly there with correct file rotation.
+
+* [api] Moar debug logging.
+
+* [tiny] Even more logging
+
+* [test fix] Expand on the excellent gist from @ChrisAlderson (see: https://gist.github.com/ChrisAlderson/043337332bfd7d8ef527a6c031022fd9). Explicitly order tests since that is necessary for some reason at the moment.",False
+4564786d34a57ca70fc69af061c9fa8d8782fcd7,2018-04-25 13:28:39,Chris Alderson,[fix] Fix file streams not draining properly (#1291),False
+4860ae40e2f9b0d062bdbf226e130b1c4c1c069f,2018-04-25 11:58:14,Chris Alderson,[dist] Add node v10 to travis build script (#1292),False
+10444cfcd4f16add1d775413290015cbc4c67323,2018-04-25 01:47:01,DABH,Revert package.json change; this will pass once winston-transport is updated,False
+9f7217190a8b63f9ed32aa00e5b0902cd3149bb4,2018-04-25 01:42:35,DABH,Test TS fix,False
+893c3e3402ce93add2704b14cd0795ab13b25218,2018-04-23 07:00:18,DABH,Have Travis print TS version,False
+81438b068da1ae069ca9d2325cee66fc971517bb,2018-04-23 06:56:28,DABH,Intentional bad commit: test valid Typescript usage with Travis,False
+21a850a1de971fa91523b0f4a55f9b971fa4fd70,2018-04-23 06:38:43,DABH,Proper formatting for things; gitignore webstorm .idea folder,False
+4132936577392900df362349e918c5bbb1558a93,2018-04-22 20:57:23,Chris Alderson,"[dist fix] Update node engine to 6.4.0 [ci-skip]
+
+https://node.green/",False
+a1bfea0af3227912e5458a926c69114b9ab30264,2018-04-22 20:57:23,Chris Alderson,[refactor] Use more property shorthands and default params,False
+820ae8c4331129ef9814ef69f72387aa22c2d9c4,2018-04-22 20:57:23,Chris Alderson,[refactor] Replace arguments with rest params,False
+4f34424fce619a09dbdd5f509a44e1111e528040,2018-04-22 20:57:23,Chris Alderson,[refactor] Replace a single instance of forEach with reduce,False
+74fdedff40efb61a3b06dcec44d9fec28f77665f,2018-04-22 20:57:23,Chris Alderson,[refactor] Containers.js uses a Map to store loggers instead of an Object,False
+64a4d2c1be4d690be58721f00b02a17db6d4298e,2018-04-22 20:57:23,Chris Alderson,[refactor] Use more template strings and refactor long loc,False
+49e8f526e5ad91372fd3947f9682882cf339aca4,2018-04-22 20:57:23,Chris Alderson,[refactor] Replace functions with arrow-functions,False
+791e5134a08a8e6adbff0b9528d1745ced23cf33,2018-04-22 20:57:23,Chris Alderson,[refactor] Replace var for const and let,False
+852337e51f0df03fec85f955aa6b4e9833b3bd00,2018-04-22 20:57:23,Chris Alderson,"[refactor] Move code base to es6 and setup for api documentation.
+
+@indexzero might be interested in this.",False
+0dab94252ce5daaec81835042a86dbb675900497,2018-04-22 04:54:43,DABH,whoa no errors,False
+2251d0d1f9736c94d6600dc98702b6ba72388e00,2018-04-22 04:51:53,DABH,"Crazy/good declaration merging, ugh",False
+51944ce4cd3158c3b396ffa8fe13e565ef5ced03,2018-04-22 04:21:12,DABH,Move everything into one defs file for now (namespace declaration merging weird),False
+b9fbdfcd0490a7313142cb242f328b81669c0490,2018-04-22 03:40:51,DABH,"Still a few errors, but many fixes here",False
+c8230c443a42a6db508c3811dd9a0dc8dee7bfa4,2018-04-22 03:27:16,DABH,Add @types/node dev dependency,False
+57990133e35e0eecd933baaffc5759587946a8a6,2018-04-22 02:59:11,DABH,3.0 typings (untested),False
+1146e645df303e9645521322019f8d99ed66c18c,2018-04-21 01:14:01,crobbins,[dist] Version bump. 3.0.0-rc5,False
+86dcbfe50fc43565e7d4ddc0ef108980cd6d3739,2018-04-21 01:13:50,crobbins,[doc] Update docs for rc5.,False
+cea508f8cb288387ef1754a401b93345c1036a51,2018-04-21 01:04:04,crobbins,[dist] Bump `assume` and `winston-compat`.,False
+4d52541df505c3fd464d92f3efd477e5ba3c935b,2018-04-20 23:08:44,Charlie Robbins,Use feature detection to be safer for browser usage. (#1279),False
+a0146f89e0b3a2e7d91ebce41bec428d0506a129,2018-04-20 23:07:01,crobbins,[doc] Add David Hyde as official contributor.,False
+77df4a0c55ff92f5c6deac5c26642d534f059e9f,2018-04-20 23:07:01,crobbins,"[doc] Document that we are pushing for a May 29th, 2018 release of `winston@3.0.0`",False
+04031cd9bd557fb764b54a2e52819ae9b021f4e8,2018-04-20 23:07:01,crobbins,"[doc] Update ""Roadmap"" in CONTRIBUTING.md to reflect current state by merging 3.0.0.md content into it.",False
+d9d08ece842966daeea2ee227e240c4fc9264f1b,2018-04-20 23:07:01,crobbins,[dist] Use simple format to better show that humanReadableUnhandledException is now the default message format.,False
+83fbd9e36f2704d5df38c00d314580f63097988f,2018-04-20 23:07:01,crobbins,[dist] Typo in CHANGELOG.md,False
+e84a7b66238f962bbe7241977339c221cf9ba550,2018-04-20 21:22:08,Chris Alderson,[fix] Use Buffer.alloc and Buffer.from instead of new Buffer (#1281),False
+ac7fdf985cc3cef0f7b69309bd1f9df5f941dece,2018-04-20 03:12:40,Charlie Robbins,"Final Draft of UPGRADE-3.0.md (#1278)
+
+* [doc] Begin to improve the Upgrade Guide based on #1140.
+
+* [doc] Finish updates to upgrade guide.
+
+* [doc] Define a TOC for Upgrade Guide.
+
+* [doc] Fix all markdown link references.
+
+* [doc] Fix [custom format] markdown ref
+
+* [doc] More bad links.
+
+* [doc] Make note the 3.0.0 is coming.
+
+* [doc] Example comments.",False
+bb21152f61128279ca3367b03d18231a428b4d6d,2018-04-20 03:03:15,crobbins,"[doc] More universal copy/paste for ""use a custom format"" issues.",False
+5223ab9264a9e93603ecbbd87b334ae6d047b698,2018-04-20 02:39:28,crobbins,[doc] Add more copy about printf formats based on @ChrisAlderson's comment in #1175. Fixes #1175.,False
+15aa72313f7369140526afaf5489b7690231c371,2018-04-20 02:23:08,crobbins,[fix] Move nop missed during cherry-pick.,False
+70e00c2aa236ba1c203237463fac0e47e79c936b,2018-04-20 02:21:34,Bamieh,separate tail-file,False
+09cc2185fec8171420ec665f6ea1c289ffee43fc,2018-04-20 02:21:26,Bamieh,move common tailFile to a separate file,False
+4ead3d5c68dca53881f83cc9618be881842b4b09,2018-04-20 02:19:05,crobbins,[test] Assert that more exotic attempts to log Errors all pass through correctly.,False
+bc1163f91770a74b40e5486fa72a58ac4a8e4346,2018-04-20 00:00:45,crobbins,[doc] Add sample from @felipemullen to document timestamps more clearly as an example. Fixes #1134.,False
+6c10e9e33f493946973fdb0c8501a45dffb46796,2018-04-19 23:51:00,crobbins,[dist] Regenerate package-lock.json,False
+391aa2bcf40991777d828637bea59ea6571df823,2018-04-19 23:33:45,crobbins,[doc] Add example using multiple formats. Fixes #1273.,False
+ff776e91753aca53803cc89e0d232c45f273b421,2018-04-19 23:23:36,crobbins,"[doc] Add an example illustrating the ""finish"" event for AWS Lambda scenarios. Fixes #1250.",False
+fe9dcc9845a1b35c115c516728ea6bfed0570225,2018-04-19 22:31:34,crobbins,[doc] Add example to illustrate that example code from winston-transport README.md is correct. Related to https://github.com/winstonjs/winston-transport/issues/7.,False
+a2521ab12b9cf940d1c0b96f19c7b12aa162e671,2018-04-06 22:46:47,crobbins,[dist] Version bump. 3.0.0-rc4,False
+7f02c8c9e24d544942644232c7f33d16cf5067db,2018-04-06 22:45:45,crobbins,[doc] Update show stoppers in CONTRIBUTING.md,False
+f35a05fc11234c0aab01ecdd3058272c643a6f99,2018-04-06 22:39:25,Charlie Robbins,"[api test doc] Add ""silent"" option. Upgrade to version of `winston-transport` that supports ""silent"" on TransportStream instances. (#1262)",False
+64862eee021e6afa0a209232ee468a5c302a91f7,2018-04-06 22:19:41,crobbins,[fix doc] Correct link to upgrade guide. Fixes #1255.,False
+58caab0ac3c20850250cd3014b44491048a73ea0,2018-04-06 22:05:58,Harry Moreno,"Document how to colorize levels (#1258)
+
+* closes #1135",False
+cf5230270bfc161f7d0bb1365f5f6bdd961a905b,2018-03-27 03:22:58,KlemenPlazar,[doc] Update colors argument when adding custom colors (#1246),False
+6054cbf2550bea3156849d08907535ac706ce119,2018-03-24 02:41:24,Jasu,"Rename query to different than function name, to support Babel 6.26 (#1146)",False
+14cff2a6a903cc26d149a46ee68befbdba934212,2018-03-24 02:41:02,Jasu,"Replace isstream with is stream (#1145)
+
+* Replace isstream with is-stream to make stream detection work in browser
+
+* Also add is-stream to package.json",False
+87f8c3b277b46b49feaf3119b89535227747a21d,2018-03-23 22:40:56,crobbins,"[doc] Better copy for the generic ""use a custom format"" message.",False
+b893f222cfaf1c26f6e88975d658cdd597930bc2,2018-03-23 22:34:22,crobbins,[doc] Update CONTRIBUTING.md,False
+16698f4e4ad32aeebf1b8d207a436969d83a74dc,2018-03-23 22:23:47,DABH,Add changelog entries for v3.0.0-rc3 (#1239),False
+6ef22659530681f48b0099a051af3d9d2abb99a9,2018-03-17 01:01:08,crobbins,[doc] Add example showing that { level } can be deleted from info objects because Symbol.for('level') is what winston uses internally. Fixes #1184.,False
+ae55f5baf71ebeb8dcd8e5bbff8494faa66f27af,2018-03-16 23:29:30,crobbins,[dist] Version bump. 3.0.0-rc3,False
+39340f492f8c80199481d0095b9627c7d84832ef,2018-03-16 23:24:45,Andrew Ovens,Add Sumo Logic transport to docs (#1232),False
+6876d7b52b2254898fb745df4787616c2f9935ba,2018-03-16 23:24:28,Ahmed Ayoub,fixes #1138 stream.Stream is not a constructor (#1195),False
+2e575d7d745656caa215c59fc709082e41305d87,2018-03-16 23:19:23,crobbins,[dist] Bump to `colors@^1.2.0`,False
+a488ca138ad029fd6bfc641fd4039142507d3f5f,2018-03-16 23:18:48,crobbins,[tiny fix] Shorten list formatting.,False
+0fea734cf99842838e42d508f23f44aa48636d94,2018-03-16 23:15:30,ryan1st,"Updated README.md for custom level styling (#1185)
+
+Added description about how to 'decorate' custom levels
+ - How to 'combine' possible styling items
+ - What the possible styling items are (color codes and font styles)",False
+d795dc9bd2ecef0d088a49de78fe8dc8e6281d81,2018-03-10 03:29:32,Vladimir Šetka,[fix]: Update self.filename on ENOENT (#1109),False
+300ba32a8091dab1789b08caace7952476c2f6be,2018-03-10 03:26:08,Shlomi Levi,The prototype methods should return like the original method (#1153),False
+5a6196bc8d30cafcedf46b904916e1a162faab1a,2018-03-10 03:25:55,indexzero,"[api fix] Ensure `logger.log(info, /*Error, null, undefined */)` work as expected.",False
+4b6740272d3b0e5b693b663a5c0f8b8822f7811b,2018-03-10 03:25:55,tomulin1,Can pass null or undefined message,False
+5ecf4e56879b68de162d5d8d26bfc21b16170ad8,2018-03-10 03:25:55,Guan Gui,"Added tests for properly handling logging of undefined, null and Error values.",False
+f48e216bf7a6b8429bdfccbdabb6541e754a33e5,2018-03-10 01:48:38,Charlie Robbins,[doc] Add example demonstrating how `meta` objects BECOME the `info` object. (#1235),False
+1e0b96a175551f27e2b2aef4771cca9480757640,2018-03-10 00:47:57,indexzero,[dist] Version bump. 3.0.0-rc2,False
+611705acdb8f973617c5f8e656cb747e615f2913,2018-03-10 00:39:19,indexzero,[dist] Update package-lock.json,False
+43903709e7918bf820a299eee4199e3d42a0d762,2018-03-10 00:39:09,indexzero,[dist] Mark `package-lock.json` as binary for git purposes.,False
+fe4bff7cef5cc956e040083fe53d2e77c863da25,2018-03-10 00:37:53,indexzero,[tiny] eslint auto-fix from #1227.,False
+a924555846b809fa30650d0a63b8810cc3158bfa,2018-03-07 02:07:08,Chang Wang,Update downloads badge to point to graph of downloads (#1223),False
+85457872dc29e17779108d4185d53937d3c7833e,2018-03-07 00:30:27,Matteo Collina,"Always pass a function to fs.close (#1228)
+
+This fixes DEP0013 in Node.js.
+Without this fix Winston would break in Node.js 10.",False
+fc853234f6f229c5e8ae4fc10297206079d75ea6,2018-02-21 04:31:50,Alexandre Victoor,"[doc] add winston-koa-sse trasnport (#1210)
+
+* [doc] add winston-koa-sse trasnport
+
+Add a link to winston-koa-sse, let me know if there is a process to follow to contribute
+
+* [doc] Add link on KOA2 SSE transport & fix typo on Google Stackdriver Logging link",False
+33e8bc41352359eddca1a97cd200da43f89af64f,2018-02-21 03:15:33,DABH,"Fix small markdown errors
+
+In link for ""bugs"" section, ironically...",False
+a9a3467d78cecd43e928abf6546431a7207b9b11,2018-02-20 22:21:04,Mike Morearty,"Explain a little more about formats (#1141)
+
+In the README, link to the `logform` project, and tell readers to look
+there to learn more about logging formats.",False
+4b02bf75bb6002924dda1a0033ec32694ee67651,2018-02-20 22:10:56,Joseph Lee,Add Cisco Spark Transport to docs/transports.md (#1084),False
+3b6da2c00b24a90bb6c99f2ae69fa8302f9f03d9,2018-02-20 22:04:14,medanat,"Updates async to latest (2.6.0) (#1149)
+
+* Updates to latest async.
+
+* Only require the functions being used from async.",False
+ea3e4ce4a68b9a03d37368676c9cba2a5746b47f,2018-02-20 22:02:12,Adrien Horgnies,"add hyperref links to used libraries (#1155)
+
+I had to click to know what `assume` is, next people won't have to.",False
+6471b49835a48860cdf0aa38c8fdd960df9d62f8,2018-02-20 22:01:30,Fouad Ali Nashat,"Update README.md (#1097)
+
+syntax correction",False
+1e37cde8e6c6e4eddd9a9b12c15f743ae56c31f7,2018-02-20 22:00:32,Mike Nikles,Require the package.json by its full name. (#1100),False
+719d94eb688a6400c2059a8dc74642c519c8ef18,2018-02-20 21:59:05,Denis Gorbachev,Fix typo (#1117),False
+91493ad3ce283835dd95286a608443bd4c8f3db1,2018-02-20 21:55:23,Morgan Terry,"Update README.md to fix unbalanced backticks (#1110)
+
+* Update README.md to fix unbalanced backticks
+
+* Fix unbalanced backticks",False
+18947a76a488b0b5abb28b915f2b7dddeaec583a,2018-02-20 21:55:03,flyingsouthwind,Fix some errors in the README.md (#1165),False
+c4a81a578ae13cbbb7ec095be5fe5eabf9da9237,2018-02-20 21:53:11,Aral Balkan,Update readme to add link to 2.4.0 documentation (#1198),False
+2f7fd5bdc480fe520ffb6f20c1fb7575b2cfc6e7,2018-02-20 21:52:09,Makrand Gupta,"Update UPGRADE-3.0.md (#1208)
+
+in the code you are using `ExceptionHandler`",False
+bbad821a5789771d860332c66c3874f5a8607b91,2018-02-20 21:50:52,Aymeric Bouzy,Update README.md (#1182),False
+86414ec3b877addb414e1ac122697ece4b3395b1,2018-02-20 21:50:24,Mahmoud Mouneer,"Events example has a syntax error (#1177)
+
+- Removing miswritten semicolon.",False
+cbbeb73e04b6e9074f41feb352d5b08bad206011,2018-02-20 21:44:48,Charlie Robbins,"Roadmap & guidelines for contributors (#1197)
+
+* [doc wip] Add first draft of CONTRIBUTORS.md
+
+* [doc] Add Contributor Covenant because I thought I already did.",False
+526af4caf87108550c23ce30b67167b803aceb56,2018-02-20 21:43:13,DABH,"Use new version of colors, solving a number of issues... (#1209)",False
+66650b80244369e3335f547c279babab7942e9bd,2018-02-19 23:04:08,jmg87,Fix the anchor for [Google Stackdriver Logging] (#1214),False
+b9390ff6238f672992485109fb293136eebeff9a,2018-01-31 01:17:14,indexzero,[dist] Add package-lock.json,False
+7e44c93940af60bdc9bba71d465821629ca1366f,2017-10-20 01:46:48,Jarrett Cruger,[dist] bump version 3.0.0-rc1,False
+763bf9adc6e78e9a115ec783e6e55fd59785dd4c,2017-10-20 01:44:59,Jarrett Cruger,[dist] add changelog,False
+19f170a69d19c0d2e16075cf38eca92437775be7,2017-10-20 01:39:13,Jarrett Cruger,"Merge pull request #1104 from mempf/master
+
+[fix] Bind this context for _onDrain and _onError methods",True
+03157cd0ffd4f1d974f8f8561ad189ad295dcc20,2017-10-16 14:22:05,Josh,"[fix] Bind the this context in contructor (#1102)
+
+This method prevents the functions from being rebound everytime it's
+called.",False
+ec1fc935905ea24211cc981ec905ddb95d672df4,2017-10-16 11:49:28,Josh,"[fix] Bind this context for _onDrain and _onError methods
+
+Binds the this context for _onDrain and _onError methods in the File
+transport to allow access to the this._next and this._drains properties.
+
+See issue #1102 for more information",False
+be51627e2d00f65306c2f2758f60488573ffd5be,2017-10-05 05:31:27,Michael Schober,Update README.md to fix missing `format` key (#1089),False
+76b7f01ffd0af496e94d53b5688c914ddbef05f5,2017-10-02 10:46:51,indexzero,[dist] Version bump. 3.0.0-rc0,False
+a0bcd9d60217bd89c5ba7bcfb111740cd3117d3b,2017-10-02 10:40:15,indexzero,[doc] Add CHANGELOG.md entry for `2.4.0`,False
+bd06c4091e9e248e6fed6278e0699e5cfdc7de24,2017-10-02 10:32:39,indexzero,[fix test] Update tests for a few of the most recent minor breaking changes.,False
+9c54530effea7c1e70eb628205b374fa0519f754,2017-10-02 10:32:39,indexzero,[doc] Final set of documentation calling for folks to upgrade.,False
+ebacb984dd49e67698a1415d13971daea9794ddf,2017-10-02 10:32:39,indexzero,"[fix] Update ""Motivation"" with correct links.",False
+1288a0c7e697b7d49e877212fbaad892615f7bfa,2017-10-02 10:32:39,indexzero,[fix doc] Update docs now that defaultLogger has no transports by default.,False
+80af5c85ea1f82908e3fb1e8c396d2c40f1a3220,2017-10-02 10:32:39,indexzero,[doc] `3.0.0.md`,False
+35c51befa2c018c3de6847c90609d6fa555bbc5d,2017-10-02 10:32:39,indexzero,[doc] Update latest todos.,False
+2e750430c02d390452ec120c22e4bdf154f33396,2017-10-02 10:32:39,indexzero,[doc fix] Update all examples to the latest APIs. Make note of which are currently broken and need to be fixed before 3.x release.,False
+5460ae112a750cecbc78014b95b6b4d4512b4d45,2017-10-02 10:32:39,indexzero,[tiny] Debug logging for defining prototype methods in `create-logger.js`,False
+3e3b43c11d21bc95f76f853f9c990b1e4f6d50cb,2017-10-02 10:32:39,indexzero,"[breaking] Remove the default Console transport from the default Logger.
+[doc] Update several examples in examples/*.js",False
+3c23ca0bd7f8bcbe6f54090fb061e8defd6176d0,2017-10-02 10:32:39,indexzero,[doc] Add winston.format.printf` to README.md,False
+68ddd7a0c1bd455c0cfc486f13032c3b8adf868f,2017-10-02 10:32:39,indexzero,[doc fix] Word choice.,False
+157cc6ddbca36dce0fd3d7115c7619e7315b1ab7,2017-10-02 10:32:39,indexzero,[doc fix] Check TODOs.,False
+798af456a2c18ded012a417804acdb320dcab886,2017-10-02 10:32:39,indexzero,[dist] Bump dependencies and devDependencies to latest of all the things.,False
+0d353112997177d583c1bcae31a040e309ed53de,2017-10-02 10:32:39,indexzero,[fix doc] Missed one item in TOC.,False
+a04267d0e64d496a4d369659ae08941333f34d12,2017-10-02 10:32:39,indexzero,[doc] Finished README.md,False
+3894f513848b397d6028a7a67563eacbcc2909a9,2017-10-02 10:32:39,indexzero,[doc] Tenatively sure we have reached RC0,False
+51fb11afc3e6b2604e7e20af0ba23452a7c26773,2017-10-02 10:32:39,indexzero,[doc] Very close to done with README.md,False
+e0b61c3459ece14385c553208f4e3cad8aa13d28,2017-10-02 10:32:39,indexzero,[tiny fix] Less linting errors.,False
+4194a49c4ce61412258d60ae991c17ae17f56a4e,2017-10-02 10:32:39,indexzero,[fix doc] Update string interpolation example.,False
+24190b859a04754c0ab4bb0165bd656272a32783,2017-10-02 10:32:39,indexzero,[doc] Document the state of the world for 3.x work,False
+2ef1d99cb63a400d96449b9b7449fe103fe9f097,2017-10-02 10:32:39,indexzero,[doc breaking] Revert back to npm levels to optimize for breaking less logging code.,False
+b5aadc2ef5650917426ff1ad165100604a9d1c96,2017-10-02 10:32:39,indexzero,[breaking] Standardize on syslog levels.,False
+ca4596e633ef3d8d61ee997e4f629ad582ee0be5,2017-10-02 10:32:39,indexzero,[doc] Nearly finished with `README.md`,False
+d741f8ba873290256fa493eea67580730f83aa8f,2017-10-02 10:32:39,indexzero,[api] Various small changes found while searching for consistency in documentation.,False
+db30ca657b6ba455982bac64634aa1782143a1ca,2017-10-02 10:32:39,indexzero,[doc wip] Begin to rewrite README.md,False
+c9da38f94f24f507527cce11ed1088cb5c173d61,2017-10-02 10:32:39,indexzero,[doc] Update the state of the RC1. Almost there.,False
+01b5b6077a6c5f316d6ef27f8d8c1c45d4e3aefd,2017-10-02 10:32:39,indexzero,[dist api refactor] Finish refactor to MESSAGE Symbol.,False
+1968657f12e63ae385bf2b7aef5dee06d16279a3,2017-10-02 10:32:39,indexzero,[api refactor breaking] 80% of the way there with the MESSAGE symbol.,False
+89345d55cf2bcfaf46b9a53868b33f98a4da2e42,2017-10-02 10:32:39,indexzero,[dist fix] Update some dependencies. Lint all the things with eslint-config-populist.,False
+72586f13c2b561d4ad651bae8ddaec8748538a5d,2017-10-02 10:32:39,indexzero,[doc] Use Symbols for more things.,False
+78c6784d3bf71f507e5a34c02ad7bdc7a2e7d905,2017-10-02 10:32:39,indexzero,[doc] Document the state of things.,False
+5555914c4095d9d5620fe9fa1242ae89bfa5486a,2017-10-02 10:32:39,indexzero,[dist] Bump to the latest version of all dependencies.,False
+4bee55e1672b675c230ad368f301984efba8edbe,2017-10-02 10:32:39,indexzero,[fix] Update the state of the world.,False
+5da3fba753e1571129ad609385b8fb39d6e800e6,2017-10-02 10:32:39,indexzero,"[api refactor breaking] Use [LEVEL] symbol from `triple-beam`, set it on all `info` objects created before passing them to logform
+[refactor] Call `Logger.prototype.write` when possible with a single Object.",False
+65c290a5e10678121c3bd3cc41ba32eb9db6fb8b,2017-10-02 10:32:39,indexzero,[tiny] Remove dead code for `winston.cli`,False
+b7e5bede55c9ae8c1300a6c28a81a32d041dc61a,2017-10-02 10:32:39,indexzero,[doc tiny] Also log errors to show `combined.log` and `error.log` with different content.,False
+ecb593e17c3f9da50d2b83b389013ae6722019d9,2017-10-02 10:32:39,indexzero,[doc] Update the state of the world.,False
+7b913bd62157c196a54a2878f1a0c23d28a60f1b,2017-10-02 10:32:39,indexzero,[api test] Splats are now supported in conjunction with the latest version of `logform`.,False
+beae90ff8dad413814a721af3df17965ee9e67d9,2017-10-02 10:32:39,indexzero,[test] More coverage for deprecated APIs.,False
+230aa15e655479a34f2a37cfe9ceabbcf021f841,2017-10-02 10:32:39,indexzero,[tiny] Name some functions for better stack traces.,False
+9c8e376d2bfa0b8d4092d359dadc56f34da4d884,2017-10-02 10:32:39,indexzero,[refactor] Use `format.combine` as appropriate.,False
+a0f0d8e364d528432a3d50487014a1053c4fc8a2,2017-10-02 10:32:39,indexzero,[doc] Migrate examples/v2-sample.js to the final syntax.,False
+7e00c1cc5070b784754f98ae4e0f634584401472,2017-10-02 10:32:39,indexzero,[dist] Remove unused bench/* files. They are external at https://github.com/winstonjs/logmark.,False
+b4589043922cf240b6f1a5681a003fd67ae32a0b,2017-10-02 10:32:39,indexzero,[fix dist] Remove `node@4` from travis.yml. Add `node@8`.,False
+4bdff2fd02256976a1e736264aa18d37045b9683,2017-10-02 10:32:39,indexzero,[doc tiny] Dedupe items in THREE.md,False
+6a3081c783342ffccf526966d79cd93679e57009,2017-10-02 10:32:39,indexzero,[doc] More documentation for upgrading.,False
+0684e0489ce0089ccbce926d915b8e5da49d861c,2017-10-02 10:32:39,indexzero,[fix] Add missing return.,False
+550848e65c97d580c48e93f3d538f43d3096c21b,2017-10-02 10:32:39,indexzero,[doc] Begin to flesh out communication strategy.,False
+02cb97be8c88c580ae2d94ad29df627c186a643d,2017-10-02 10:32:39,indexzero,[fix] Invoke the callback in the same tick.,False
+6e9e86044a11ded98227abef22d60429b06fe3ab,2017-10-02 10:32:39,indexzero,[dist] Remove nyc_output ... again?,False
+1e1c08d7359f0104a60fd6bfaf6d3e93edb98aac,2017-10-02 10:32:39,Sander Steenhuis,"Update http.js - Add support for headers
+
+Sometimes you need oAuth or anything else negotiated with Headers.
+
+Headers should be customizabe through options.",False
+b3a77f5bbba3d33928739f25371df29b002204c6,2017-10-02 10:32:39,indexzero,[doc] Add simple dynamic content example for #1060.,False
+12b454e71e472d7c593fedeb1cca2676ab598a8c,2017-10-02 10:32:39,Derek Wheelden,Update winston-mongodb transport usage,False
+ce469f7b1a4624b7220c0d5fa53379eac42d823a,2017-10-02 10:32:39,Ali Ijaz Sheikh,"Add Stackdriver Logging to the list of transports
+
+Add a link to [Stackdriver Logging](https://cloud.google.com/logging/) transport.",False
+34329df661172ec541a603312cbef446cc4cf6d7,2017-10-02 10:32:39,indexzero,[doc] Make note of humanReadableUncaughtExceptions.,False
+777cd999ecfb70f36f8de43c6a2bc3e3e39b694b,2017-10-02 10:32:39,Lars Graubner,Fix typos,False
+e786961efe55310d84195b3eb4e45767acfac497,2017-10-02 10:32:39,Meletis Flevarakis,"Added Pusher Transport Documentation 
+
+https://github.com/meletisf/winston-pusher",False
+0d2fa0186d2f6acd8242ac44fb3292f22150218b,2017-10-02 10:32:39,indexzero,[doc] Update README.md introduction to the new APIs.,False
+f82e475c3d65cae54dc42a6f9e60ab4362b019de,2017-10-02 10:32:39,indexzero,[test] More test coverage.,False
+dc7373dc1fc7fc049c129d4670731589526fe694,2017-10-02 10:32:39,indexzero,[fix dist] Remove a bunch of dependencies that are unused.,False
+68c1c0c3d5340c681706d34be0f246b45b1bf3cc,2017-10-02 10:32:39,indexzero,[dist] Depend on logform.,False
+7c28b8661a2884954f9c6569d79afc5a4a3f211c,2017-10-02 10:32:39,indexzero,[fix test] Cleanup log file on test end.,False
+0721c861b4e1912ff1c3efb1d646aaf47a07cbb1,2017-10-02 10:32:39,indexzero,[refactor] Move all format-related functionality into `logform`.,False
+e092c0a8e530ac2a3e93ae27ce6ccf0283fe9594,2017-10-02 10:32:39,indexzero,[refactor breaking] Make immutability possible with less stream plumbing since there is no back pressure.,False
+48c828d413088b93539b3812ce409a2612ffba5f,2017-10-02 10:32:39,indexzero,[fix doc] Remove unnecessary () around new statements for transports in documentation.,False
+364b066d9d0439e98b227e1c0f742403a623be75,2017-10-02 10:32:39,indexzero,[doc] Update remaining work items.,False
+eff6f00588ea6e7fcfc0a33bcf049ad85c76b6d9,2017-10-02 10:32:39,indexzero,[refactor breaking] No longer expose `winston.Logger` directly in-favor of `winston.createLogger` which creates a new protoype on each invocation to take advantage of V8 optimizations.,False
+dfa135a9f6bd589924e0c967d2f31bd12590b26d,2017-10-02 10:32:39,indexzero,[fix dist] Remove unused `nyc_output` files from git. Update test fixtures.,False
+50f0178a2f7e2044bdd4a5cb43ba3f72209cb243,2017-10-02 10:32:39,indexzero,[dist] Update all dependencies. TravisCI should (finally) be happy with us again.,False
+49689098b719d0a4e9b6caa3e8bf2b2b231db378,2017-10-02 10:32:39,indexzero,[doc] Update TODO.md,False
+59b41dcabcf42b337ed93ff68e0dc54fbfd51bfb,2017-10-02 10:32:39,indexzero,[test fix] Test against latest error messages.,False
+4f80229d49a4d5f951ffe61dbcb99f9d60b23db9,2017-10-02 10:32:39,indexzero,[tiny] Cleanup of various places.,False
+0d335fe871bc032e5b6c5ca6dabed436d41bc4ca,2017-10-02 10:32:39,indexzero,[test] Begin to use `abstract-winston-transport`.,False
+3ff9dd273e6500311023babe6c420fdf6b5ec9ed,2017-10-02 10:32:39,indexzero,[refactor] Finish moving the last of the test macros to `abstract-winston-transport`. Add this to `winston` as a `devDependency`.,False
+8f6dd4915927e4f361c373eb3cc5a97a1a88f1d0,2017-10-02 10:32:39,indexzero,[test refactor] Refactor more of the `Console` transport tests,False
+9e88ea2e57e42254ced37acae08bec93b305df10,2017-10-02 10:32:39,indexzero,[doc] Document future documentation updates,False
+6afe956cd789676862f09232b689167df0eec162,2017-10-02 10:32:39,indexzero,[test refactor] Add tests for `lib/winston/common.js#tailFile`,False
+064d430ce7e1c497b34e39c789d1207b63734dd0,2017-10-02 10:32:39,indexzero,[test fix] Increase timeout for slower `spawn` environments like TravisCI.,False
+1e70a9751c6c660e96b3d74365fb69c99974e06f,2017-10-02 10:32:39,indexzero,[test refactor dist] Move test runner to istanbul,False
+d3de034f8707b843b022d8544a5d12a864ac32b8,2017-10-02 10:32:39,indexzero,[api fix test] Finish API compatibility for tests from `winston/logger/exceptions` vows-based tests.,False
+c97c4f00e2595726c4c2286f7481f6de7c351365,2017-10-02 10:32:39,indexzero,[test fix api] Update semantics for end-to-end exception logging.,False
+6e22ea9588c2fbad93243683ddd937a343e81293,2017-10-02 10:32:39,indexzero,"[test api] Identify weird edge case in how format, logger, exceptionhandler, and transport relate to one another.",False
+df70b159cddcc23ff97a75001b6bbb93197d3a22,2017-10-02 10:32:39,indexzero,[test fix] Only call done() once in File stress test.,False
+26e86342ce0ed2944058fa60ba57868b458ef974,2017-10-02 10:32:39,Joshua Gross,fix this/self references,False
+5724c00d247c7f0a02ebd01b5a2544dda210043d,2017-10-02 10:32:39,Joshua Gross,remove the use of template strings,False
+e61f84425204ed5788cfe17d96e19c855bb8b199,2017-10-02 10:32:39,Joshua Gross,Change arrow functions to normal functions to support ES5 with transpiling.,False
+fd9e0a322ab22bbb90f099c8c0776be9d5632b06,2017-10-02 10:32:39,indexzero,[dist] Test against the latest node@4 and node@6 on TravisCI,False
+5b8f1536442d74c12521d5061245bc0440ca9f1f,2017-10-02 10:32:39,indexzero,[api breaking] Overhaul the data sent by the HttpTransport to be more sane. Start writing tests for Http and Console transports.,False
+18dd9ef6d12e4e29baedf4aa9b447b7ca97e00ed,2017-10-02 10:32:39,indexzero,[doc] Update TODO.md,False
+77494c87737dcdcd9c9ae70699f3b6b0609b7438,2017-10-02 10:32:39,indexzero,[fix] Correct bad paths from rebase.,False
+eca028a2dec9388c1f5e6d599d55230496e5d687,2017-10-02 10:32:39,indexzero,[dist test fix] Remove older (now) unsupported versions of Node. Increase timeout in exception tests.,False
+1920b1c8bcbe6c6cc9862fb7edad40ffc5880d23,2017-10-02 10:32:39,indexzero,[test refactor fix] Rewrite the volume portion of our stress testing. Handle a single transport as an option. Refactor some test helpers.,False
+a9e8dd8085264518ade217b94be027e5d98d3422,2017-10-02 10:32:39,indexzero,[test] More work on testing.,False
+6465648947d812d39777f4c8a286b54412359bba,2017-10-02 10:32:39,indexzero,[fix] Correct timing issue in exception-handler.js,False
+1310c95bc5c23302a50539e2d5ed55941328917d,2017-10-02 10:32:39,indexzero,[refactor fix test] All test/*.test.js are now passing.,False
+4535d3d53bc4747fb139d466f9e5002de24ea8ec,2017-10-02 10:32:39,indexzero,[refactor] Collect private methods together at the bottom for readability.,False
+d13aca0c1d0539afeb4967b5ce5659c41865755e,2017-10-02 10:32:39,indexzero,[refactor] Make drain and error listeners prototypal.,False
+4547002ccabb206c802483b85b40a408db78f3a6,2017-10-02 10:32:39,Jarrett Cruger,[wip] testing/debugging,False
+6baf0f1a23717671c0213e89616d96b1330b7ae3,2017-10-02 10:32:39,Jarrett Cruger,[fix] minor fixes for new expectations with winston-transport,False
+168c5c9acc0ccf6baf3f7d7963be52af911a3e83,2017-10-02 10:32:39,Jarrett Cruger,[fix] variable naming console transport,False
+3b92c156087f2962ce9123c26dd4d397b775a3e8,2017-10-02 10:32:39,Jarrett Cruger,[fix] receive callback in console transport,False
+fe8bd57e6d3881155f9ec287e675d9ca164ce15d,2017-10-02 10:32:39,indexzero,[api] Stub out the `Info` object which will be passed down into all format streams.,False
+a09d667647d2b48eb7f4b9d59a0d92b296876491,2017-10-02 10:32:39,indexzero,[api] Begin to handle `%s` like strings as messages.,False
+0b1a2067ece59fd10a5d6fc014352a1e85e116df,2017-10-02 10:32:39,indexzero,[fix] Missing ).,False
+23e1b1407233fa90931b3f7a24ec9397c6b9f9ca,2017-10-02 10:32:39,indexzero,[fix] No need to use apply for pumpify.obj.,False
+ad8ffa9c3337cb29980d97f3950dfee37d5e7000,2017-10-02 10:32:39,indexzero,[fix test] Correct tests for formats until immutability question is answered.,False
+66f470277e793e32ee968b91850babe711eff89f,2017-10-02 10:32:39,indexzero,[api] Formats rabbit-hole (round 2).,False
+535766c8e87af00a0e0d096402e1c401f7c91bdc,2017-10-02 10:32:39,Jarrett Cruger,[wip] new file transport,False
+4a76329f562be6d472cb1b5adcc7d55e006aebbc,2017-10-02 10:32:39,indexzero,"[api fix breaking] Create `winston.format(fmt0, fmt1, ...)`. Let the format rabbit-hole begin.",False
+92bfa857f0c74d1dc64e4be3df3db9f56a21b855,2017-10-02 10:32:39,indexzero,[api] Begin to stub out more format implementations.,False
+23c7b7ab8819850d282e0dbf17271af808875609,2017-10-02 10:32:39,indexzero,[doc] Organize braindump information in UPGRADING.md.,False
+3730beedd7651f30dc24845ad9833cbefc2479e8,2017-10-02 10:32:39,indexzero,[api] Move `winston.format.default` to `winston.format.simple`. Make `winston.format.json` the STANDARD format.,False
+f3e706bd1062331394a1bd18f333839a33b19bec,2017-10-02 10:32:39,indexzero,[dist refactor api] More stubbing out of format APIs. Move some test files around.,False
+d7cc097f71ceceb43d6a75f00e17abcf4265a000,2017-10-02 10:32:39,indexzero,[api refactor] Stub out more formats. Expose them through a single `winston.format` object which is also used to construct new ad-hoc formats.,False
+f121affa91da600e6bcaae598af6ec24b284a4e4,2017-10-02 10:32:39,indexzero,[doc minor] TODO cleaning from code.,False
+2b3c8e033ec606c0939c481529d3edabdc136625,2017-10-02 10:32:39,indexzero,[test fix minor] More test coverage and a few TODOs down.,False
+33f08f15ef5caad04796442eb95997284acef174,2017-10-02 10:32:39,indexzero,[refactor dist] Move some files around. Refactor `.addColors()` to be more eager.,False
+67784a68680a090f02dd11c64c91fa0fd7960ae3,2017-10-02 10:32:39,indexzero,[fix test] Correct tests relating to exception handling.,False
+c96bc2e4d6480f21f45567e039b9e43db2e78ecb,2017-10-02 10:32:39,indexzero,"[fix refactor test] Fight mocha and ""allowUncaught"" (see: https://github.com/mochajs/mocha/issues/1985). Move some tests into `test/logger-legacy.test.js`",False
+3d8f51a5599fdfdc75d76adf7861e73e0a162158,2017-10-02 10:32:39,indexzero,[doc] Update TODO and UPGRADING.,False
+456d98add9f969d68c9ede02ce1b208aa4ac21f3,2017-10-02 10:32:39,indexzero,[dist] Update test command and target node version.,False
+1d71851ad644c0ebd6669df0adc3825f51022a31,2017-10-02 10:32:39,indexzero,[refactor] Other minor refactoring / moving files. Update TODO to be more extensive.,False
+bf1456f2cdc10aa258d18c38a611378e26381aca,2017-10-02 10:32:39,indexzero,[refactor] Move `LogStream` back to `Logger` now that most new APIs are in-place.,False
+26c9ad81541493dc1a1a734f796e48cd3d50831d,2017-10-02 10:32:39,indexzero,[api refactor] Begin process of renaming `LogStream` to `Logger`.,False
+ba7223d5fd0843ab5f7451009b236b1242283bdb,2017-10-02 10:32:39,indexzero,[dist api refactor] Move core transport components into `winston-transport`.,False
+85a91a2548f76126f5062ed17d16a127ed328568,2017-10-02 10:32:39,indexzero,[breaking] Move `winston.clone` and `lib/winston/common.js#log` into `winston-compat`. Add some more type checks and associated tests.,False
+f63fc4f4b96ba54008c8abd3fd560d699cb08a41,2017-10-02 10:32:39,indexzero,[api fix test] Allow for removal of LegacyTransportStream instances by references to the wrapped transport. Add tests for deprecation notices.,False
+b180d55b156cc202f48309660bd8418472d64246,2017-10-02 10:32:39,indexzero,[refactor breaking test api] (Re)added `Logger.prototype.configure`. Cleaned up properties exposed and added more deprecation notices.,False
+783e5e4567193df0bb3116448d08a6eb93331be7,2017-10-02 10:32:39,indexzero,[api] Initial work on winston.ExceptionHandler.,False
+0a2f71918627a39b51d220276a6590ea2eba99e7,2017-10-02 10:32:39,indexzero,[doc] Updated the TODO.md.,False
+0a14658c6859a821ce0975161cc42fcdd3e32413,2017-10-02 10:32:39,indexzero,[dist] Remove coverage/ (do not know how that got in there).,False
+6cf726624a9508e2aa9c4ec280cd994dd874c8b3,2017-10-02 10:32:39,indexzero,[fix] Changes from our rebase.,False
+2e621e64f847785b7487170c05df9acacb5a8add,2017-10-02 10:32:39,indexzero,[test refactor] Finish refactoring tests for `winston/common`,False
+9961cea32a946502f61b05c5d0136017afd8b0ff,2017-10-02 10:32:39,indexzero,"[fix] All tests are now passing using ""./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/*.test.js""",False
+9e983b70daf34a00dd239612872582b52f1fbaff,2017-10-02 10:32:39,indexzero,[breaking minor] Remove winston.longestElement because it is internal.,False
+e98c613ffeadd03133bcb93d2b6b667a2746591e,2017-10-02 10:32:39,indexzero,[refactor test] More test refactoring.,False
+2022d94de22ccba7711a0a2406813704a7a3ea6e,2017-10-02 10:32:39,indexzero,[minor] Always use a no-op function for backwards compat.,False
+a39f698bd5ae3ad874270a63d93de722d122804b,2017-10-02 10:32:39,indexzero,[dist] Rename mocha-converted test file.,False
+94950d0be4ed77a9d7813e90c83b5280053c5efa,2017-10-02 10:32:39,indexzero,[breaking] Remove `winston.transports.Memory`.,False
+362dc5ffc29d231ec192d46d1c7b264bed1837d3,2017-10-02 10:32:39,indexzero,"[fix refactor] Correct a number of functional ""gotchas"" found while benchmarking. Refactor Console transport to not be a legacy transport.",False
+acea208d2027e456754e2f680f8aaa295e6d5257,2017-10-02 10:32:39,indexzero,[test refactor] Move more tests to `assume`.,False
+b89528aa41dced95c77273d54f4edfd9f5ab755a,2017-10-02 10:32:39,indexzero,[refactor breaking doc test] Finish transitioning tests for `winston.Container`.,False
+a9eef7171f5edcf84ce7822ae48a8329f8e30721,2017-10-02 10:32:39,indexzero,[breaking] Remove `winston.common.pad`.,False
+93d8a8f2e69f84210d12058e0e8da1c3e962b02d,2017-10-02 10:32:39,indexzero,[refactor] Remove `pkginfo`.,False
+0928f166978425440e4c6ea461722680514cc785,2017-10-02 10:32:39,indexzero,[breaking] Removed `winston.hash`.,False
+64555726913536695fa2164e09b8781274213992,2017-10-02 10:32:39,indexzero,[test refactor] Continue test refactoring from vows to mocha.,False
+83631e811001e2218e3cf0108a97a610c0bee457,2017-10-02 10:32:39,indexzero,[doc] More TODO.,False
+4b1ef7c7ace944c41a267e650753ff4e4d4b2c1b,2017-10-02 10:32:39,indexzero,[api refactor dist] More cleanup work in the refactor. Added a TODO.md for tracking 3.x internally.,False
+094d397cb0719d0c7721b678ac67f850e400cc80,2017-10-02 10:32:39,indexzero,[dist] Whitespace and removing migrated test code.,False
+fc5a63738a1738b8e65c69d95b6086302dbf515d,2017-10-02 10:32:39,indexzero,"[breaking] Reverse log levels to conform to RFC5424 spec
+[fix] Properly set level on TransportStream instances
+[test refactor] Move tests around to reflect where they will be in the new structure",False
+7f3d6d2df101231b56ec91172fd53245a57e0f31,2017-10-02 10:32:39,Alberto Pose,WIP,False
+b9dffec2edd747d655964430b43e81a0e95a7ac5,2017-10-02 10:32:39,Alberto Pose,Fix tests.,False
+e6d07d5c16b8cd35bf548fef4e208a19b8e040f4,2017-10-02 10:32:39,Alberto Pose,Add setLevels to LogStream,False
+8c1d8e2f5f45277c73d806df2f99269fb46d2c7e,2017-10-02 10:32:39,Alberto Pose,Minor: self -> this,False
+a26f5ae86f9b37ae025773f8d6fb4aee9c36123e,2017-10-02 10:32:39,Alberto Pose,Validate that transport has a `log` method.,False
+ffae7be920352dd24f37ef8eaf2975a0a415d9d1,2017-10-02 10:32:39,Alberto Pose,Add Istanbul to measure code coverage.,False
+209c70679265b54b119274803772f477a9a3e51e,2017-10-02 10:32:39,Alberto Pose,Gitignore coverage folder.,False
+062491da3c1a1ec8d53097831054d894ae813308,2017-10-02 10:32:39,Alberto Pose,Add `raw` property to json format.,False
+e576a6da8c158697ecb49713ad7386c2a21ef3aa,2017-10-02 10:32:39,Alberto Pose,Add new unit tests,False
+fe887935beea162bdd8d17219cc959053cb1ae10,2017-10-02 10:32:39,Alberto Pose,Add TODO with question,False
+65b7bcb72b46c3feab7049c7a18786a9024a97e1,2017-10-02 10:32:39,Alberto Pose,Fix self not defined error.,False
+40bdc227691a123fcc1619e96290f91e6b0b952e,2017-10-02 10:32:39,Alberto Pose,Add 'it' and 'describe' to .jshintrc,False
+30e901194c5d4eb05ea1221563fca6614c92af50,2017-10-02 10:32:39,indexzero,[fix test] Continue adding test coverage in mocha.,False
+c7d1dfb33532330bf6af096ca067c141cf0a62d0,2017-10-02 10:32:39,indexzero,[refactor api] First unit test for `LogStream`.,False
+65fd12e212b9cd040e7ca4745f01019da57ab1ca,2017-10-02 10:32:39,indexzero,[doc dist] Added example and questions created by it.,False
+73665ec2dc623bcf945b4cf9c10c9afdaff3cb5e,2017-10-02 10:32:39,indexzero,[api] Some more support around legacy transports in LegacyTransportStream.,False
+0861e4d00ef719cc3e440600df3334e223d414a6,2017-10-02 10:32:39,indexzero,[api] Connect `this.format` with the buffer of the `LogStream` instance.,False
+b8c622d19e1f12c2b1959c896cc4514bf5074aec,2017-10-02 10:32:39,indexzero,[api] Require all NEW transports to be proper streams (suggested that they inherit from winston.TransportStream). Properly handle levels and make LogStream a proper TransformStream.,False
+c2d0d518300115ac796d5bdaec1d678c7f32e3b3,2017-10-02 10:32:39,indexzero,[fix] Make things require-able.,False
+5372e5ec41887add8c8da25980f0d312ac9e4790,2017-10-02 10:32:39,indexzero,[dist] Added benchmark stubs.,False
+17767195d5bb082aef163622ce7d62f9ebe10cea,2017-10-02 10:32:39,indexzero,[api] Begin to flesh out formats and implement a few concrete ones.,False
+4e69ac7a66009503b7f594379e497d0e55534557,2017-10-02 10:32:39,indexzero,[refactor] Comment out the code that has been re-implemented in the `2.x.x` implemenation.,False
+9a0a2f7de6be84bae68e00a34c3fdd31853061f8,2017-10-02 10:32:39,indexzero,[api] Begin to flesh out API (along with backwards compatibility) for LogStream and TransportStream.,False
+b5a184623816ba7f3943b3fd45c2225a57935d9a,2017-10-02 10:32:39,indexzero,[api] First work on `LogStream` for `winston@2.0.0`.,False
+afffe1f7be9016593e3f3b871517713136c7bbdf,2017-09-27 09:52:18,Ricardo Oliveira,Add how to colorize output in the custom formatter example (#989),False
+bb322678724aee76ab4f06d2816d7382a38dde65,2017-09-27 09:39:15,gomel4ever,[fix] Container.add() 'filters' and 'rewriters' option passing to logger (#1036),False
+4f954937b49369ef48fbb88cc2c43d2fa5f2140b,2017-09-27 09:24:00,Maxim Sharai,"Fixed working of ""humanReadableUnhandledException"" parameter when additional data is added in meta (#1066)",False
+aaa89af00e10b103aca44280bd887989cd8ab218,2017-09-27 09:18:29,IndigoVerge,Added filtering by log level (#1040),False
+579b30c2dc36afaf1cf76634ddc1fefceffe07ab,2017-09-27 09:13:37,PoziWorld,Fix grammatical error in “It's general properties are”: It's -> Its (#1029),False
+17f1010348582092279d9ea99de1ebf534e2a143,2017-09-23 00:52:18,evgenyt1,Fix missing semicolon in README.md (#1082),False
+a14f6b034658a2eb72b4ad8a72eecce674141cfc,2017-09-12 05:37:25,Léo Gillot-Lamure,"Typo in transports.md (#1076)
+
+to browser your logs -> to browse your logs",False
+bac951c102ef8c0beb8d599667248f361d6f3737,2017-08-30 22:44:49,david-unergie,"regression brought by 2.3.1 (#1042)
+
+* common: fix regression on array printing
+
+* common: fix regression on falsy value",False
+9a57be300d7d2e46bc818c8d4f0693bb0a65b1bf,2017-07-27 19:08:30,Andrew Balakirev,"Always decycle objects before cloning (#977)
+
+- Fixes #862 
+- Fixes #474 
+- Fixes #914",False
+57322d3d0f25b2a57076830533e03ae706b57c9b,2017-05-02 17:06:50,Thiébaud Weksteen,Update npmjs link in README,False
+fcf04e1dece55ec1dd100e4a8a2cdcda91146e74,2017-03-13 23:05:07,David Jackson,Add label option to file transport docs,False
+24300e2dd20fb34f694b673ba31246394148380b,2017-03-13 23:00:39,Cătălin Tănăsescu,added var declaration to startTimer() example,False
+7e736b42c92302ce41d00878df1639ea9a251747,2017-03-13 23:00:39,Cătălin Tănăsescu,"added winston.startTimer example
+
+Added more info about undocumented `winston.startTimer()` method",False
+57af38a49158c68024c03ce8d54759dbb8afdbd9,2017-03-13 23:00:08,Ortex,missing contextint .lazyDrain of File transport,False
+178935f22a80d2308d448ee3d4e1ef544f37a9d2,2017-03-13 22:59:42,Ivan Kleshnin,"Suppress excessive Node warning from fs.unlink
+
+Mutes this:
+
+```
+(node:2608) DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+```",False
+e1e71884aab84ccb2131ca9400898eacbeb62fc9,2017-01-25 15:49:08,Alex McKibben,"Fix some grammar in README.md
+
+- Tried to be more consistent with commas.
+- Fix capitalization.
+- Fix punctuation.
+
+Additionally, I think the way “Winston” is written could be more
+consistent (currently it is written “winston”, “Winston”, and
+“`winston`” in different places. But I’m not one to say which the
+correct way is.",False
+fba37b44f7875ba7c460df81fad27d6a941ed213,2017-01-21 00:08:06,indexzero,[dist] Version bump. 2.3.1,False
+21980acf6e15759d8b2d9d9cc4c21fa38a71dfab,2017-01-20 22:34:53,Charlie Robbins,"Merge pull request #868 from veger/fix_max_call_size_error
+
+Fix 'Maximum call stack size exceeded' error with custom formatter",True
+01cf7ceceb194f9228f57e200fbb022d7debfa8e,2017-01-13 19:39:36,Maarten Bezemer,Fix 'Maximum call stack size exceeded' error with custom formatter (Issue #862),False
+739d8023c87183261dcae6ecc92c5b87a5eac961,2016-11-02 09:57:09,indexzero,[dist] Version bump. 2.3.0,False
+26664f4f18f09ebb9ff012a2157612e9bac921fd,2016-11-02 09:56:52,indexzero,[dist] Modernize .travis.yml again,False
+d9050b8fa4e1e67d3c64ce376f27936045d452e6,2016-11-02 09:55:23,indexzero,[dist] Add short message for 2.2.0 until a full CHANGELOG.md entry can be compiled.,False
+c98e6c5558112e09eb111fe7dac5b7e324fc298c,2016-11-02 09:48:17,Charlie Robbins,"Merge pull request #839 from vanthome/patch-1
+
+Add winston-elasticsearch",True
+0198c175082dc142263cf6dabbe3db74cefa47f8,2016-11-02 09:47:43,Charlie Robbins,"Merge pull request #852 from tamlyn/master
+
+Pass through configure call to default logger.",True
+c3516494bb723d161dbe449ccf71136646f96f26,2016-11-02 09:47:19,Charlie Robbins,"Merge pull request #858 from tarrow/patch-1
+
+Correct link to WritableStream in transports.md",True
+55dac6df40fafd8c837064aa7d717dc26fe39dad,2016-11-02 09:47:09,Charlie Robbins,"Merge pull request #859 from davidadas/master
+
+[doc] Removing Yoda conditional from example.",True
+ab926c36e1e60b5127d643213fd7450275bd7a69,2016-11-02 09:42:04,Charlie Robbins,"Merge pull request #882 from khowen/update-docs
+
+transport: update Logzio Transport documentation",True
+1dedee5bcb26c92d96d66db46e9c89063e4d7985,2016-11-02 09:41:43,Charlie Robbins,"Merge pull request #894 from pkallos/master
+
+Update transports.md to include winston-firehose",True
+162c50fd29864baa3ce21c9d0995e6bd5caff74e,2016-11-02 09:41:13,Charlie Robbins,"Merge pull request #898 from sinkingpoint/master
+
+Allow passing of an agent to the HTTP Transport",True
+391a956fbf66be7f82a9528d455d91fa22a66863,2016-11-01 03:08:34,acrazing,fix: use es5 only,False
+98fd9822af3bf97569a48b4d1e369ecc35669762,2016-11-01 03:08:34,acrazing,Update transports.js,False
+ddb8a2d6a3db3f15713e2c654cd184f7428a1046,2016-11-01 03:08:34,acrazing,Update transports.js,False
+a8db2b3a75de71a17fd6f211630a37778fa85d4a,2016-11-01 03:08:34,acrazing,fix: remove expression dependencies,False
+07c70d1e74c5b177936fb1500a6c61a7627db851,2016-11-01 03:08:34,acrazing,Update package.json,False
+692c1c8802b5fff286beeb8ed1225f8cb1071119,2016-11-01 03:08:34,acrazing,fix: remove `pkginfo` for webpack bundle,False
+830a8643a0ad703be34bc25579586f5cf795c49b,2016-11-01 03:07:47,Charlie Robbins,"Merge pull request #902 from dankelleher/bugfix/901-replace_const_with_var
+
+Fixed issue by replacing const with var",True
+0c7fef7b9aba5b488c2948add02b6e38018a104c,2016-08-01 03:28:57,dankelleher,Fixed issue by replacing const with var,False
+d61661ac68cbefb8f2d0f3dee7203126c0cadfec,2016-07-29 09:21:45,Colin Douch,"Allow passing of an agent to the HTTP Transport
+
+For those of us behind a Corporate Proxy this allows us to pass an agent through to the HTTP transport (e.g. a proxy agent) which allows usage of this behind a proxy.",False
+de69bccf957cca2247ef529c2b66c88059adbae6,2016-07-23 05:14:25,Charlie Robbins,"Merge pull request #835 from jsumners/log-json
+
+Log json",True
+8a787f3bcc010e1db604b09dd41113fab82d5490,2016-07-23 03:00:38,Charlie Robbins,"Merge pull request #815 from bontibon/loggerid
+
+include ID when adding new Logger from Container",True
+b30c4db5447951f6d4816fd9b30590d5475aa8df,2016-07-21 00:10:15,Phil Kallos,Update transports.md to include winston-firehose,False
+d3ce3a8100d33fe60a6e68a1e957b63ec512a280,2016-06-23 00:15:32,Katie Owen,"transport: update winston-logzio documentation
+
+Currently, the documentation for winston-logzio in docs/transport.md
+references 'apiToken', but in looking at the winston-logzio repo, this
+key is referenced as 'token.'",False
+d567bfed171cf2074b6b07423a314a61db76e039,2016-06-15 15:21:55,Charlie Robbins,"Merge pull request #874 from hver/patch-1
+
+Update README.md",True
+2593423fd5cf13211a991b9aedc95391603f8de6,2016-05-24 17:41:21,Hennadiy (Gena) Verkh,"Update README.md
+
+Added missing comma in the filters and rewriters configuration",False
+b925456df327b71d35335d824e7f0b4cac151acc,2016-04-25 23:43:32,David Adams,[doc] Removing Yoda conditional from example.,False
+2c67b789f174fd2589974873190c7605dcef2201,2016-04-22 20:37:26,tarrow,"Correct link to WritableStream in transports.md
+
+Corrected old reference pointing to the wrong reference-style link. Also updated the link it should have been pointing at to current version.",False
+4dc425182af1eba3ad3f237c22ca819537e5d13e,2016-04-16 00:49:34,Tamlyn Rhodes,Pass through configure call to default logger.,False
+2b6d3cb7dedfb5562f8bac9f18298d49c634c559,2016-04-02 18:23:00,Thomas Hoppe,Add winston-elasticsearch,False
+b4b6b32d9b58efe6b356ebede75d5a9b9bcbc6b7,2016-03-24 07:38:24,James Sumners,Fix case with %% where %j would not be interpolated,False
+9a3d66cdaeb75bdd085663ba18cf6b3a9a91fb6c,2016-03-24 04:28:45,James Sumners,"Add test for escaped percent, escaped string, and meta combination",False
+51a55128226040a85e30a64791dfe45473aa4884,2016-03-24 04:19:24,James Sumners,Fix bug #745,False
+d4fdbadc2f4ab8408261497a116ef80e0f9475a0,2016-03-01 05:00:50,Jarrett Cruger,"Merge pull request #818 from cjbarth/remove_deprecated_functions
+
+Remove deprecated functions",True
+6275a9dedaa534f8c6ea4eb1c223b034e6926a6e,2016-02-29 23:39:08,"Barth, Chris",Finish removing what [f71e638] started by removing `addRewriter` and `addFilter` functions from `winston` #732,False
+7570ed2ebb74e0209e5fdc44c75b31ab9d3eba6e,2016-02-27 01:33:46,Tim Cooper,include ID when adding new Logger from Container,False
+b44062612f63211d047c67050fef5b7624682fb6,2016-02-26 03:53:09,indexzero,[dist] Version bump. 2.2.0,False
+85ade339019050c0123d93875304074832c1982c,2016-02-20 08:07:19,Charlie Robbins,"Merge pull request #777 from Sebmaster/fix-error-output
+
+Transform errors into plain objects since they don't stringify well",True
+b5670d4e200a05e126ca121ad11d5f8401d81c46,2016-02-20 08:00:36,Charlie Robbins,"Merge pull request #730 from get-trucked/master
+
+File transport bug so latest logs show up in desc order",True
+de948ace7a98e8215c0901da400479ba637c1f49,2016-02-17 20:30:44,Sebastian Mayr,Transform errors into plain objects since they don't stringify well,False

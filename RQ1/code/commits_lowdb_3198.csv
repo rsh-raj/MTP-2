@@ -1,0 +1,566 @@
+Hash,Date,Author,Message,IsMerge
+1b004c8228029161a15b557ba0bb638eaad3fd4b,2024-04-30 22:46:48,Konrad Pasternak,"Docs: Fixed outdated examples (#589)
+
+* docs: fix `Low` calls in examples
+
+* docs: add missing import
+
+* docs: fix import path",False
+6fc49ccb69666ad9159d1403514549a6af5fa8ef,2024-02-14 16:30:47,typicode,Update README.md,False
+31458f3173f133d153afc5a8dfb5a76eaa1c7b66,2023-12-27 04:56:17,typicode,7.0.1,False
+49a059b0cead8bb2a46634baaab888005da5bccb,2023-12-27 04:55:07,typicode,fix: export DataFile adapter,False
+605cb93a9e314c58ac4890031f68fd8c9a1b3ac1,2023-12-27 04:10:51,typicode,7.0.0,False
+25cc5a43a359732759182ce63253931043f2238e,2023-12-27 04:10:02,typicode,docs: update,False
+8331e096f87217f3d265b5670d851df8f6a1f18c,2023-12-27 04:02:47,typicode,"v7 (#585)
+
+* feat: add new features
+
+* chore: update Node version requirement to >=18
+
+* chore: update dependencies in package.json
+
+* feat: refactor code to use db.update() instead of directly modifying data
+
+* fix: update JSON presets in CLI and server examples
+
+* fix: node version typo
+
+* fix: refactor file imports in TextFile and TextFileSync classes",False
+5769a84ffd19abd5aa1a234c37fb183f87f0480e,2023-10-23 21:40:37,typicode,docs: update,False
+8841e1c49363b3de00826366e8220a4f5f798172,2023-10-23 21:35:59,typicode,docs: fix typescript example,False
+c4ce27ff2649e30a6c0e94ba7eae632aff3ecf8f,2023-10-23 19:23:50,typicode,docs: fix missing argument,False
+da434c258327bbe2b353b4ce50d5a938f6901c6c,2023-10-23 19:20:11,typicode,6.1.1,False
+7166e2e278779e7b40bb51cb596f704201b565d3,2023-10-23 19:19:57,typicode,fix: node presets with url,False
+d4482a518996b477e77e0006c27c487c5276699e,2023-10-19 03:20:56,typicode,docs: update example,False
+3e588f83c17290fb18c3a020bc8e9902e6649758,2023-10-19 03:18:06,typicode,docs: update,False
+d0fb65a847406399b009be83872630f519b9d2b0,2023-10-14 06:16:44,typicode,6.1.0,False
+da2169f0b0bcc3c4b34b3d297811abe9efff3830,2023-10-14 06:12:57,typicode,feat: add presets to simplify use,False
+42b382ee95ac3716ab7d1965b9f0eb502502c9ff,2023-10-13 22:38:05,typicode,chore: update dependencies,False
+348e21f1dbc5fedaee2f3302cec9e26771a418fc,2023-10-09 03:59:56,typicode,chore: lint fix,False
+6eb401475f18d6b573b4c191b89165ec220ccecf,2023-10-09 03:23:13,typicode,feat: add presets to simplify use,False
+ffa7ac6aaccd57bc2e076d6b032aceb8d1510d0f,2023-10-09 03:18:19,typicode,feat: use better type for Node adapters (fs.FilePath),False
+97c9455d21863ee7152f64de913392e732925a0a,2023-10-08 04:35:55,typicode,chore: update steno,False
+4aa1425a7e849b8d4ab7332299ca128935e89970,2023-05-19 18:04:09,Cal Holloway,docs: default data required (#572),False
+f58dfab424873cbdd8ea692dd8d7254eb2776193,2023-05-05 02:38:46,typicode,docs: remove link to issue,False
+338f7b91cf607c3a34dff55d797bc44f62713c0c,2023-04-28 14:49:11,typicode,6.0.1,False
+091999423c4728b837831d4fcdc819067777074d,2023-04-28 14:48:25,Darío,"fix: imported subpaths types correctly (#569)
+
+* fix: subpaths types added
+
+· Modified package.json to add types for every subpath
+
+Reference: https://blog.r0b.io/post/esm-nodejs-typescript-with-subpath-exports/
+
+* fix: exported subpaths types correctly
+
+used as reference: https://github.com/teppeis/typescript-subpath-exports-workaround",False
+94023ea3d5bd66f729e844870a4f6f2ffc5a99d4,2023-04-19 06:22:50,typicode,docs: update examples path,False
+87416f76b115efbc6ea7e04bbf3331e831a036a3,2023-04-19 06:21:55,typicode,refactor: move examples,False
+f22939e7a0adec3cb51fa18bb7cd3357e6d89a73,2023-04-19 06:14:14,typicode,chore: ignore examples directory,False
+5fffbbfa30ec295bb066c7d41c3dd8d0918dc55b,2023-04-19 06:08:30,typicode,6.0.0,False
+6a39782d40f6960896e74ea34997ebf3b1be3616,2023-04-19 06:07:10,typicode,Merge pull request #567 from typicode/next,True
+c46ecf98f4c0fdbd10b818f2dcc3d02a2eccefe6,2023-04-19 05:59:25,typicode,chore: update devDependencies,False
+49bde2726d2f3781466fabe45693fd4f76d2f078,2023-04-19 05:57:57,typicode,docs: update README.md,False
+4c01b0b190686c3e9d8361a7163a59f2b6961f6e,2023-04-19 05:57:38,typicode,chore: drop node 14 support,False
+67f7ce4fc2c2f372775f7bcbe60f6319ded91c5f,2023-04-19 05:57:08,typicode,feat: improve TypeScript experience and add defaultData param,False
+37a8c34f00220a8fcd8993f211088f008d4769a5,2023-04-19 05:54:53,typicode,refactor: move adapters,False
+d02868ee98b56545f3f75bf9b0bf1ecd795f02b7,2023-04-19 05:54:11,typicode,docs: move .md code example to .ts files,False
+3ce2fc1cd6b0cd69ee4ec6356f335a52c0601027,2023-02-03 03:38:20,typicode,5.1.0,False
+635ca78fc3a70191ecb9f921214d5cf0af9be67e,2023-02-03 03:37:46,typicode,chore: update keywords,False
+693e0c3fabfefc8ae78137058ab34066187eb183,2023-02-03 03:35:03,typicode,docs: add sessionStorage,False
+a76010e5e3248723018f16659947c115effb4d7f,2023-02-03 03:31:45,typicode,chore: update devDependencies,False
+bbb4246a363aec722b7bff8e67781bea6d93ac19,2023-02-03 03:28:52,typicode,chore: update devDependencies and test task,False
+1ca36284ab0cf8c5630097e0b9d1d247d6177716,2023-02-03 03:28:33,Vitalij Ryndin,feat: add SessionStorage adapter (#560),False
+2fc02799a38e9f0b11f95361f3c9c77faa53aa19,2023-01-04 12:10:22,typicode,docs: add Next.js workaround,False
+fa0b378cd3024963e1696ced82692c05a035f3c6,2022-11-30 07:03:06,typicode,chore: update devDependencies,False
+382db2c96ed74f830af98399ea32290490ae4feb,2022-11-10 15:33:40,typicode,docs: add v4 docs link,False
+35f902e787292888de84c282c78f576cd94fa01b,2022-11-10 15:28:18,typicode,docs: update install,False
+ac8a9943bb9b24944f4b91fa3c2fcf2087999003,2022-11-03 06:36:58,typicode,docs: add next.js issue workaround,False
+ce9cb46fa0a19f70d81505ae6bc7e9405fc793c6,2022-10-24 19:12:30,typicode,chore: version,False
+2531e94affc69f0d1fa67612c88c55b4217c33b1,2022-10-24 01:47:23,typicode,5.0.4,False
+771c43545169c7ce6f42247e258f3a7144a05ec3,2022-10-24 01:47:02,typicode,fix: move memory adapters to lowdb,False
+b4f2effa7cfc7f47f97902572c42225336f8b759,2022-10-22 06:46:13,typicode,5.0.3,False
+1c3b28ae1a6cae40cfa7a1d4bb74b2e3854aad9d,2022-10-22 06:46:01,typicode,fix: extensionless exports,False
+15617f309533e52bb4c106e93b62304441067152,2022-10-22 06:18:39,typicode,docs: format,False
+57fc3ed0cf860a358f16c1d821442bd70a06d9cb,2022-10-22 06:16:04,typicode,5.0.2,False
+1f275e94f8a626f3384e21b07555c1e42fbc79ae,2022-10-22 06:15:48,typicode,fix: missing index file,False
+4df44b7403cac9c362ffcd8e2b3af72713a1db7b,2022-10-22 06:03:49,typicode,5.0.1,False
+fa9f9e6e01bd07364de7ef0b2665aa208bab7858,2022-10-22 06:03:33,typicode,fix: low import,False
+49203a4a3f78bf41f4bbc22a46ba93385c321eb9,2022-10-22 05:56:27,typicode,5.0.0,False
+c1eb932cca3fbe8c447baeb70c2e67742a60a888,2022-10-22 05:55:57,typicode,chore: use git push --follow-tags,False
+c98305cffb13c624f0458a1763911f0a1480984a,2022-10-22 05:53:09,typicode,fix: split node and browser code,False
+320365c08d19c9d61df9a5c6e656d77d9d4928fc,2022-10-22 05:24:46,typicode,4.0.1,False
+bca4f84330b254dedb3e4fad92317078bf8225dc,2022-10-22 05:24:33,typicode,chore: update devDependencies,False
+1bda2338bac8455bcceaa7e1fa0f5b759487bffe,2022-10-22 05:23:40,typicode,refactor: use node protocol for imports,False
+372f15ddcd8a714af94f703840ff8e6cb4ceab78,2022-10-22 05:23:02,typicode,docs: clarify browser example and usage,False
+82bae2651dc1a089a802b57b2b3d503b43255831,2022-10-18 05:02:51,typicode,4.0.0,False
+7eedca81c9dfbbf7bb4ab9a5d6f7610da5e9321e,2022-10-17 23:25:57,typicode,chore: update eslint config,False
+93b982c32a4612e7e5d9f7d187692a857c99b981,2022-10-17 22:59:20,typicode,refactor: fs promises,False
+b6225e5421e48ad16569db360704e3051d693fdb,2022-10-17 22:44:22,typicode,chore: update ci,False
+363f8315221c8e30a61d4e93a0fe668cc0a9b5e0,2022-10-17 22:42:54,typicode,chore: update steno dependency,False
+001a71c6b2d62456be2ed1cd3b22aa4234988fe7,2022-10-17 22:11:40,typicode,chore: drop Node 12 support,False
+ef9395c41cef5d6760b3bd4acf7bf2005e65b012,2022-10-17 22:05:04,typicode,chore: update devDependencies,False
+4f6ba39d7fbff5137ad84b2d234c19c997a0421b,2022-10-17 21:49:21,typicode,chore: clean package.json,False
+26e86511f25f76f855957be413b4c30e48b2dd9f,2022-10-17 21:47:35,dependabot[bot],"chore(deps): bump ansi-regex from 3.0.0 to 3.0.1 (#536)
+
+Bumps [ansi-regex](https://github.com/chalk/ansi-regex) from 3.0.0 to 3.0.1.
+- [Release notes](https://github.com/chalk/ansi-regex/releases)
+- [Commits](https://github.com/chalk/ansi-regex/compare/v3.0.0...v3.0.1)
+
+---
+updated-dependencies:
+- dependency-name: ansi-regex
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+fdf004fdbe98b5e809ac2033c78d74252fe1bc48,2022-10-10 23:44:33,Jack Allen,docs: typo (#550),False
+6c2bc479621f61257943658662c0ae20e833e09b,2022-03-10 08:52:54,Qin Fandong,"fix: pass eslint (#530)
+
+* fix: pass eslint
+
+There are two types of errors that should not be treated as errors, configure
+eslint in the comments to ignore them.
+
+1. @typescript-eslint/require-await, the code does not use await in async, but
+we do want a Promise.
+2. @typescript-eslint/explicit-module-boundary-types, there is no explicit
+return statement in the function, but we really don't care about its return
+value.
+
+In order for eslint to make sense, I didn't disable these rules in the file
+but to line.
+
+* fix: update code to pass eslint instead of using comment to disable lint rules",False
+f8ae39e1748a3007b9508011f0846200dd7e8c60,2022-03-10 08:52:05,typicode,chore: update eslint config,False
+b7bae22b99dd1de1ffc1d710e21a689e2f23aad5,2022-03-10 07:49:24,typicode,chore: update package-lock.json,False
+073d0d64e0951f4bf04fc683110abde14aa4f3b6,2022-03-10 07:47:53,Qin Fandong,"fix: assign type 'Promise<void>' to type 'never' (#529)
+
+error TS2345: Argument of type 'Promise<void>' is not assignable to parameter of type 'never'",False
+ba73073d4e0f075ce0062cefe8aad57ce51deba9,2022-03-10 07:47:24,Qin Fandong,"fix: name 'localStorage' not found (#528)
+
+error TS2552: Cannot find name 'localStorage'. Did you mean 'LocalStorage'?",False
+7010064fe4d491edb6bc32afbc68c6d5944af164,2022-03-10 07:43:26,typicode,chore: run lint,False
+9521b21800c50006ccffc06aa81ed372a43618c4,2022-02-26 03:33:29,typicode,"docs: typo
+
+thanks to @AlexisAnzieu for the heads up :)",False
+bdbb20dcea8b87f387e403f27b4e79f6a7191628,2022-02-21 03:24:12,typicode,Update README.md,False
+ea5788cc555605d675099277b6e182fceaef4752,2022-02-05 00:33:01,typicode,docs: style,False
+f0d2a1403fe2b947b091927289c73304e6c0f780,2022-02-05 00:28:49,typicode,docs: update TypeScript examples,False
+bf1662c3ef5836b9ab327fb2839c1aa10758d8ab,2022-02-04 23:45:24,typicode,refactor: tests,False
+51cdbb2fc7085c0cb376df25561f31e8530bab44,2022-02-04 23:44:42,typicode,docs: update TypeScript examples,False
+be2da411d31fd25ed7e3a8c98d24865ca6538314,2022-02-04 23:44:02,typicode,chore: update devDependencies,False
+42c5a83568859089fed6bc792c119c7430e59f51,2021-09-28 07:26:14,typicode,docs: clarify example,False
+b86020b0cf46f13aa750fd6fca6431c453471111,2021-09-22 01:30:04,typicode,docs: typo,False
+088a1a482d594a1c82a10a5f12cd6e1d187959af,2021-09-14 06:15:13,typicode,Update README.md,False
+1954f48be1a33db85fa9bd29a4220e6f709416fd,2021-09-13 19:58:47,typicode,3.0.0,False
+89d5b60dc35b63481b1c4a26998c7c0028f7e87c,2021-09-13 04:52:57,typicode,feat: use native `#` instead of typescript `private`,False
+a79547de9816c6af7bbdcb91cb6ea8566249f4b5,2021-09-13 04:51:27,typicode,feat: update dependencies,False
+e43216dff089aff76c378420448a4f78e84af69a,2021-09-13 04:51:03,typicode,feat: update license to MIT,False
+bbc51945a45d690752fc5117adc67f72818a5395,2021-09-07 15:55:22,typicode,Update README.md,False
+906dd90732210aae3e44d335d2afd95dcd9e5c3b,2021-08-18 03:07:25,Mukhlis,docs: add missing quote (#500),False
+8550084b50fa5db65bba8fc9008f29c1af6d5c26,2021-08-09 14:50:42,Kevin Potschien,corrected typo in readme.md (#497),False
+fc3dc3d31671cff1e39bc57850e8943b0ec276aa,2021-08-02 07:14:39,typicode,docs: update,False
+c5467630e43269a40119ce9b1c5198aa78a7da93,2021-08-01 20:59:17,typicode,docs: update,False
+df6693108d2419e622675d1b389a2f1bc55fbc6e,2021-08-01 20:57:56,typicode,docs: typo,False
+8ca7c06bfb533f0c622393e1b9bde95056a6b708,2021-08-01 20:56:29,||al||,"Fixed issue with the usage guide in README.md file (#495)
+
+Based on https://nodejs.org/api/esm.html#esm_no_filename_or_dirname , there is no __dirname available in ES modules in nodejs. I edited the usage guide in the README.md file.",False
+9941d2eb5574675c9847f2f5f45734541b320ec6,2021-07-17 14:30:10,typicode,docs: update,False
+4eb30f6d031f77cf8a9eba14a6449af109ff7b87,2021-07-07 19:28:29,typicode,docs: update,False
+b33927a50271b75a668a42ff7074d210859a98c2,2021-06-29 15:26:49,typicode,docs: update goal,False
+adf3e5bfbe2859071857186e99476760bbfe7631,2021-06-23 17:29:28,typicode,docs: update,False
+036cfd74d6780e637617b2ef5b7b5e7b540ec459,2021-06-15 18:38:40,typicode,docs: typo (closes #481),False
+181e2a2e2766135c4dfba78cdcc5bcbbe7fe20b3,2021-06-15 14:08:02,typicode,Update README.md,False
+d940fcaeff2db9f8b731685159a0039d67067823,2021-06-13 10:28:20,typicode,chore: update tsconfig,False
+41514e8eedd1405c6873fda76c3944c4c99e4501,2021-06-13 09:57:19,typicode,chore(ci): node 12 test,False
+cc6291115a6ac411b7d0fde7c876a586d226021c,2021-06-13 09:57:19,typicode,test: update xv,False
+ee43651c5ac1e8afcf1d932af48e5185e5fd8058,2021-06-11 12:57:19,typicode,Update README.md,False
+0243b19d960bf35c4bc35486b1b3fa367baaefc4,2021-06-09 08:38:33,typicode,fix: tests,False
+781c37553322f6b66b8003d5501d297752f4acbb,2021-06-06 09:48:40,typicode,chore: update devDependencies,False
+b2c5c9c0af607c77a747aca1e40c0d156934ccbc,2021-06-06 09:41:43,typicode,test: fix tsconfig,False
+d452b2a19e8fbe3678988966d85c971d5fe54f2a,2021-06-06 09:28:38,typicode,chore: update dependencies,False
+5213915cf2870e9bae9d3c3a4b40d840273d0e62,2021-06-06 09:23:55,typicode,test: use xv,False
+86326a2060b7222d7bfe2a5c53062c9c164dfd7f,2021-05-26 23:33:29,typicode,chore: update package-lock.json,False
+9d2d72ff2496733fcf282937a26eeb80d3a76ebd,2021-05-26 23:32:59,typicode,refactor: tsconfig,False
+ea377daf07801bae812c4703549ffd0aa12aca29,2021-05-24 16:40:29,typicode,docs: fix YAML example,False
+5249df8c01592b489191c769b9bdc35d30b49917,2021-05-24 16:31:59,typicode,2.1.0,False
+0796fc5de5af6c2893ee96d6db06fc30aaea5c63,2021-05-24 16:31:47,typicode,docs: update,False
+c185b4b863df633b0fa364430cd0fa2fd0b75806,2021-05-24 16:31:16,typicode,docs: update adapters section,False
+4627ec84097086cc0b62a42db6449943f5f59c63,2021-05-24 16:30:28,typicode,fix: export TextFile,False
+343ca1aade83653cc8173b0fbe58e2bb7a5f61b7,2021-05-24 16:08:01,typicode,feat: add TextFile adapters,False
+d75cc47ef1c815b4da5a89620b161388afafc4c4,2021-05-21 19:00:57,typicode,2.0.3,False
+836307df24b9994d76bf75fe80d8da839ece0193,2021-05-21 19:00:38,typicode,fix: add types field,False
+4ce5cbcf15cfa2924b299b9250e159e19131eac1,2021-05-21 12:45:57,typicode,docs: fix examples,False
+673947f1289398c068029d36de689600f2a8a107,2021-05-21 07:14:40,typicode,2.0.2,False
+91eed85a36639a6ec89a8226bab79360328645b0,2021-05-21 06:54:30,typicode,fix: esm errors,False
+ca3f6d55596a475bce71d19d319bc63b78d177e7,2021-05-20 12:21:44,typicode,docs: add badges,False
+238b7ec38355feae02a74c397b28c1c0ccdc0872,2021-05-20 12:20:00,typicode,chore: add .gitattributes,False
+75866b8abe7f06ebb733c52378753f6706a96101,2021-05-20 12:18:33,typicode,2.0.1,False
+3646474d87086f04668b9f7ab7e5f4b6ef6dd7a1,2021-05-20 12:18:24,typicode,fix: only publish lib directory,False
+fa6ad3c3bfdf0c606319e3bcda7b218fa4868b58,2021-05-20 12:14:22,typicode,2.0.0,False
+a656b7b66e8025aa8ccaff4bdbf9c45fcc198643,2021-05-20 11:31:47,typicode,refactor(test): use type,False
+a88f1e897078d2fdf5ce2f59d42873d791438334,2021-05-20 10:37:30,typicode,Create node.js.yml,False
+389cde7b2ceb64b4b3c74ca25a065997f66f94dd,2021-05-20 10:35:44,typicode,update (#461),False
+c7ab2d158fa5d75f57ead6b14c57f79ae548b764,2021-02-03 18:46:27,typicode,upgrade husky,False
+e00d056912ab2eed6f00c1659c74b3e6b211c448,2020-12-01 09:00:15,Iván Eixarch,Use nanoid instead shortid #430 (#435),False
+7e4619a35ec2655c56709f0f647a3600f6299c2d,2020-11-16 15:59:46,typicode,Update FUNDING.yml,False
+b70669c12ac0d40e297da38620e210a805c4d8d9,2019-07-29 18:15:41,Typicode,Update FUNDING.yml,False
+de5d8f59cc8f764bbd4a427230c406e6106027fd,2019-06-06 00:13:05,typicode,Update README.md,False
+d42947b9f6348a486bc2552699b9b21748a9d75b,2019-06-06 00:12:42,typicode,Create FUNDING.yml,False
+65a86da5a9c0a0e2b68ffdeec4bb7ca368d9732a,2019-06-06 00:03:41,dependabot[bot],"Bump handlebars from 4.0.11 to 4.1.2 (#347)
+
+Bumps [handlebars](https://github.com/wycats/handlebars.js) from 4.0.11 to 4.1.2.
+- [Release notes](https://github.com/wycats/handlebars.js/releases)
+- [Changelog](https://github.com/wycats/handlebars.js/blob/master/release-notes.md)
+- [Commits](https://github.com/wycats/handlebars.js/compare/v4.0.11...v4.1.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+0b3b8a444f260a327bf8bfb144235a6b76265a8f,2019-06-05 13:33:39,dependabot[bot],"Bump js-yaml from 3.9.1 to 3.13.1 (#346)
+
+Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.9.1 to 3.13.1.
+- [Release notes](https://github.com/nodeca/js-yaml/releases)
+- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/nodeca/js-yaml/compare/3.9.1...3.13.1)",False
+81a2970466a699ed1ef31f9f926e867e1e614d04,2019-03-22 20:52:40,Ozan Müyesseroğlu,"Update README.md (#332)
+
+On the title 'How to create custom adapters' there should be a parameter to pass to 'low()', it was added.",False
+d6ffdc098f69eb61eaf5e0e0d9fa0f002c8c80d3,2018-10-11 12:58:49,Gustavo,"Add a simple example on reading from file (#308)
+
+* Add an example on how to read existing file
+
+* Remove whitespaces",False
+e1779ed5c14eb110a2a5c3ade8accfd0acbfb028,2018-10-05 18:16:37,typicode,Update README.md,False
+c1c0a0f45a3237e98f56b40a96984343a4e4242c,2018-10-03 02:10:32,typicode,Update README.md,False
+8e5f1e3e944d1fc586035674d25401aabf794a27,2018-09-20 06:52:01,typicode,Update README.md,False
+83683ad57685565f3300ee5b47918d9628f1cc00,2018-09-11 16:17:51,typicode,Update README.md,False
+aa68a2496e9904f3940047703d60d0b6fddbeeee,2018-09-11 16:16:30,typicode,Update README.md,False
+4dd16228cd9400b123747e4aba8231b8e6a42ee6,2018-08-15 06:08:04,typicode,Update Jest config,False
+d125945742f365f45bffa2ab06b6b05a2c89a46e,2018-07-30 17:04:29,Steve Lathrop,Update examples README to match code to output (#291),False
+a9135b794dd3aa184f5bc1fbf809b1b29f045e02,2018-07-12 22:28:59,typicode,Update README.md,False
+febb18fff3a5a26910ff05dba6c37a63e3ee26f2,2018-06-17 19:52:32,typicode,Update README.md,False
+12618add4f756fa36fea237630467bd122b16af0,2018-06-07 01:28:02,typicode,lint fix,False
+68bb5f10842683c70a11a6e02f485f17a3a031dc,2018-06-07 01:27:45,typicode,Upgrade dependencies,False
+b9bf0b8078c873c266ff96c8ed4504ea732f408e,2018-06-05 16:26:57,Alvaro Pinot @alvaropinot,"chore(examples): Fix fp example add adapter (#272)
+
+* Add missing `adapter`.",False
+259b0b910233ca36c97f88d0bafa43ab25968f2b,2018-06-05 16:14:08,greenkeeper[bot],chore(package): update delay to version 3.0.0 (#274),False
+b7eff57a99ef8662ad86e5895ded4b96dfe2137a,2018-05-08 22:30:04,typicode,Add eslint-plugin-node devDependency,False
+03a41738709cea0c41fec092e9567372258dd321,2018-05-08 22:29:35,typicode,Update husky,False
+a1aa401a5352639f9c7c9cef572a73d922066ae1,2018-03-19 01:02:27,typicode,Upgrade husky,False
+de4e0f9561af6450604b7471f9a0dea85e63c49d,2018-02-18 06:05:32,greenkeeper[bot],chore(package): update pkg-ok to version 2.0.0 (#257),False
+525b73d74d55b43567b8a3b866ce1ff7ac01a283,2018-02-06 05:44:19,typicode,Update README.md,False
+69042689f4c414ecbd30e5aaae529e5f94fd5a71,2018-02-06 05:40:40,Root-Core,"Fixed broken lodash-id examples in README.md (#252)
+
+Hi there,
+
+I fixed some issues with the provided examples:
+
+1. `Error: An adapter must be provided, see https://github.com/typicode/lowdb/#usage`
+2. We should use two variables here, you can't redeclare a const variable (not copy and paste friendly)
+3. Added storing of the collection to the example, as it shows an slightly advanced use case
+4. It took me some time to understand, we **need** default values.
+
+About the 3rd: The whole default thing should be placed **way** more prominent in the `README.md`.
+It took me some time to figure. Without defaults, the lowdb seems pretty useless (as it doesn't work for me at all).
+This might be some mistake on my side, so you might ignore my opinion here. :)
+
+Regards!",False
+1c6257ce911528e7a8003e062dce70a685bf2787,2018-02-06 05:39:07,greenkeeper[bot],chore(package): update eslint-plugin-node to version 6.0.0 (#255),False
+9785df251d28b7f7b8d6bf40ad2035614b443eb1,2018-02-06 05:38:46,kyle,`low` -> `lowdb` (#254),False
+6a39218882c05bb95ce1b09403cccd79c5736781,2018-01-23 05:09:11,typicode,Update husky,False
+aea0e08a1b72b282d17740ae5fde3f23b845442f,2018-01-23 03:07:34,typicode,Drop Node 4 support,False
+38bd8c6ecc3525816846bf8c3af6d82107b9ef45,2018-01-23 03:00:20,typicode,test,False
+a0cf81634fcfcaa5d850233def2efc9dc358e815,2018-01-23 02:42:37,typicode,Update devDependencies,False
+014528ae590701ef4af99fd09f6196b9f567d89e,2018-01-22 04:12:16,typicode,Update,False
+041fda3c708774416ba14d94b8d892f4b80d9f7b,2018-01-21 23:48:25,typicode,Update README.md,False
+2be66ea0a767a9786a028c75007cac2874e60aa0,2018-01-11 15:04:36,typicode,"chore(package): update jest to version 22.0.5 (#247)
+
+Closes #242",False
+c09442451a752e2d566a1e036bb53dd746a8baa7,2018-01-11 15:04:21,typicode,"chore(package): update babel-jest to version 22.0.4 (#248)
+
+Closes #241",False
+26cb0975a21b637f6bd325b05a75d366463cfb5a,2018-01-11 15:02:58,suraj kumar jha,"fixed typo in examples/fp.md,line 27 (#246)",False
+da40133eef6f88ef03f5384c87a41f5f8d5e6f8c,2018-01-11 15:02:37,pawel-schmidt,Changed 'write' to 'read' (#245),False
+35cf28daa74e60cbb504e7de2f580cbd0b5ba390,2017-12-04 17:46:18,typicode,Update README.md,False
+4161f27fe245ac61a517c2b731a39fc9c7757541,2017-11-29 06:13:02,typicode,Update husky,False
+07833f91f5b5334664eb1ed2a3fd9f9243ee2370,2017-11-29 01:05:24,typicode,Update husky,False
+82326f08303b1b2db2b2eb3903c2f0d492e075d6,2017-11-01 21:28:05,typicode,Update husky,False
+c2e95302701bd4c759b8475e1759eb8c0b305305,2017-11-01 19:57:32,typicode,fix tests,False
+2d2cea1b3a40581a1e330bf381bdb9b8a0f6e132,2017-11-01 08:44:22,typicode,Update README.md,False
+98598d21ebec1326236e175d228d5e1c202d1feb,2017-11-01 08:35:19,typicode,Update package.json,False
+26dcc713161e058a323fa25197da9abed327448a,2017-11-01 08:34:24,greenkeeper[bot],chore(package): update ramda to version 0.25.0 (#230),False
+879204201b9e42393d594ff6d2b04eef51a7a123,2017-11-01 08:34:14,typicode,"chore(package): update jest to version 21.2.1 (#234)
+
+Closes #216",False
+92e304478ab6dad8f1cb8c4ff948a39818abf140,2017-11-01 08:33:10,greenkeeper[bot],chore(package): update babel-jest to version 21.0.0 (#215),False
+5db8a44acd84d0691ee347a04ea660d1afb12843,2017-11-01 08:31:56,greenkeeper[bot],chore(package): update sinon to version 4.0.0 (#226),False
+b50da0a08e6df23aef5ef58bbed0e692679ba076,2017-10-31 07:09:40,Markov Artem,Fix typo in _.protoype.value() -> _.prototype.value() (#232),False
+1c58d75de1bffe6cfe0286c89248aeb6310c1da3,2017-10-31 07:09:12,greenkeeper[bot],chore(package): update babel-eslint to version 8.0.0 (#220),False
+004d62e81e2b8241e5a5287bba5f36e2fec6e91a,2017-10-26 04:01:00,typicode,Use husky@beta,False
+6002afe45404bb45936a671d8a635dcd0add5470,2017-10-25 04:12:28,typicode,Update README.md,False
+eb495c131d8d094e22c1e06209b364d345cbe5df,2017-10-25 04:09:29,typicode,Update README.md,False
+c06ec570342fb0495a56ee73a60f941a970da89d,2017-10-15 19:56:26,typicode,Update README.md,False
+0cdf026ec8a5f5379205664268607705fc773266,2017-10-04 00:55:46,typicode,Update README.md,False
+88d3a8cd594ecec418fcf885e5383006c48448a3,2017-10-04 00:54:37,typicode,Update README.md,False
+e7194e7b4c456682b50a25de0059273f58373580,2017-10-04 00:54:08,typicode,Fix example,False
+bb4e83bf894bbf0a8269495939c43f9981ce3756,2017-10-04 00:51:36,typicode,Update README.md,False
+3f7ac93cba02a0da2eefe2b0eef5f292bdf8a94d,2017-10-04 00:48:08,Harry Cummings,"Make server example actually work (#223)
+
+Don't use db before its initialised. Add express body parser. Use strings as IDs to allow lookup to work correctly.",False
+0047b29e4acfa62eec23ee0657e8f14cabf7709b,2017-09-05 14:01:10,Alan Boglioli,Fix typo (#217),False
+0ad3e7527d141248361a48ec524b31d368b0ed2c,2017-09-05 04:36:40,typicode,Update README.md,False
+e242d7280db3d87af1d137e2d174f67272309b09,2017-09-01 01:59:37,typicode,Update README.md,False
+7623a58753f63c84ef9c2c3513444bc86a01204d,2017-09-01 01:54:39,typicode,1.0.0,False
+75d10b89c3c47157beb7fa747642bc64f62e32f6,2017-09-01 01:46:03,typicode,Update README.md,False
+6c735a477fba545ebee941b12c37106fa1d5a834,2017-09-01 01:45:37,typicode,Update fp.md,False
+e77875c5edf0f2f21d793abe4ce8c817e3343ae8,2017-09-01 01:41:43,typicode,update,False
+54007efa02249af6aa55bd450894317d1d4aaebd,2017-09-01 01:36:19,typicode,fix,False
+d489b96611572f869570888fe9479518e9c6c364,2017-09-01 01:24:40,typicode,Update,False
+360ddc6e914a45426234256101550522edcbd16c,2017-08-31 03:40:23,typicode,Update README.md,False
+a91d89a105c62249b1e6d901e500aadd5cf75b2f,2017-08-23 17:15:06,typicode,Update README.md,False
+cd6ec29b7b752c467fe827b1c2bd4ce3db9a8ea1,2017-08-23 16:35:39,typicode,0.17.2,False
+44f9141b748f80af1107be8b90ac347b6ad02650,2017-08-23 16:35:27,typicode,fix,False
+0c3b9fd3c985acf4f30ce4e543743b2a7ff2a9da,2017-08-23 05:12:10,typicode,Fix build,False
+6a54e658eb51e24ee313c74e1bb29f201557285d,2017-08-20 23:52:20,typicode,Update,False
+3f0aeaeaa96adddf8f8fbb45a2c739f1131a71bf,2017-08-20 23:50:40,typicode,Update,False
+809f3db16b6e7d1708d05d64255199e679e5775c,2017-08-20 23:50:08,typicode,Update README.md,False
+5acd3f501a90ef681da40f123e3563279daa1139,2017-08-20 23:45:38,typicode,0.17.1,False
+b1bea444e2021f4a0114cb0efc4729296738add5,2017-08-20 23:45:07,typicode,fix,False
+da611d97f709f0b8a6e163fb19b907ca33f9db60,2017-08-20 23:07:47,typicode,0.17.0,False
+3ec27d4c1e504893dfa44c404d21a32b03fec84c,2017-08-20 23:07:15,typicode,Update .npmignore,False
+f15c90bd74cddd7e812c3e518fcf8986341938cc,2017-08-20 23:03:28,typicode,0.17 (#207),False
+15d9407c3dc4a71ce00c96bf94a5a45fce47854b,2017-07-05 17:02:06,typicode,Update README.md,False
+be15c15c9cbdfd063ec09c06e3194f1c95fc7d91,2017-07-05 01:01:44,Matteo Ferrando,using async fs readFile (#191),False
+9fd9a7a2eb352db66e4ac14f0615371f816762ee,2017-07-02 21:34:40,typicode,Use pify,False
+39d1454eedc8575562c07ec3c3518bbe8ca2db60,2017-05-16 14:44:05,Alvaro Pinot @alvaropinot,"docs(examples): Update fp example. (#179)
+
+* Change `pick` to `take`.
+ * Add `views` property with a random value.
+ * Import `radom` function.",False
+60a8420492b53da75258d000e6d8243852f7d558,2017-04-27 02:19:06,typicode,Update README.md,False
+82eb89966554af92502d0298d1a031a72e2880bf,2017-04-24 16:54:55,typicode,Update README.md,False
+4a76af0f79d900043fd5ebf0ff4b378e8404bd89,2017-04-10 00:02:02,typicode,0.16.2,False
+069f9721982e71d9e145a31c9448378e00607a00,2017-04-09 23:13:59,typicode,Update README.md,False
+275770e4199543970ffd823f83b824d31cad4491,2017-04-09 22:03:21,typicode,Remove unused dependency,False
+bcfda6d3b204f5b468c4a2ef13542ca1697ae92b,2017-04-09 05:54:26,typicode,0.16.1,False
+019977416b4b4e5125c1a6b964162e66ed771b79,2017-04-09 05:51:37,typicode,Fix pretty output for default serializer,False
+3dfbf40175ae95d118e81767c7a48fd181580891,2017-03-27 17:16:02,typicode,Update README.md,False
+ce450efae388ca4bb2544b699cea7f93a050212f,2017-03-27 17:02:38,typicode,Update README.md,False
+050f4b2862f866747fa4db73077430106da2d236,2017-03-20 17:56:25,typicode,Update README.md,False
+7a957091edf33e135a5a13cef732edc46c3fcff6,2017-03-15 18:11:43,typicode,Update fp.md,False
+bc24e215401bcb7d63cb7b33ef9ceefb01ecf1c5,2017-03-15 18:10:27,typicode,Update fp.md,False
+3b05d33098502ea6da1430e6d653e9771f75c5e6,2017-03-15 18:03:38,typicode,Update fp.md,False
+ca2754fdf54345ab057804ea5ddecffb5028f835,2017-03-15 18:01:59,typicode,Update,False
+e72e967f463a393d63599568593d87cd0d84810e,2017-03-09 17:15:45,typicode,0.16.0,False
+3de02be5c7895c042e413447db6578f9fb036d50,2017-03-09 17:15:28,typicode,Remove json-parse-helpfulerror,False
+4dd03a2ae59679ac04f60934be9e60e6f9155cac,2017-02-21 04:13:41,typicode,Add lodash-id,False
+f355aacfedd09ef76f9f65c5c27ccd35c077d823,2017-02-21 02:19:33,typicode,Add pkg-ok,False
+6dfa76f91b8e7c36b6a8bb6b38f53be2784eadaa,2017-02-16 02:50:20,typicode,Update README.md,False
+a765adbd4c04bc63af51f55fa248c5e6b1767be9,2017-02-16 02:47:33,typicode,Update README.md,False
+d5591100f08806027ad69ee4b6e40feed9eb1360,2017-02-16 02:43:37,typicode,0.15.5,False
+d31f396c76b26ea07a6dd282ad329b5141545f45,2017-02-16 02:35:45,typicode,Add fp example,False
+dd5cfc08083b590edde2a7314c9461673cb472ba,2017-02-16 02:23:16,typicode,Refactor,False
+ce7e779402e8b0f38e741e5f8d2297e69c23734f,2017-02-16 02:13:32,typicode,Update README.md,False
+077a49154078c350003ec1a3aeb5a46cf227b04a,2017-02-15 18:03:27,typicode,Fix write returning state when chain returns undefined,False
+004b136b694cf6815e1ce22d73f166d55c4a7696,2017-02-10 18:15:19,typicode,Update README.md,False
+30eead2ef219f585d2b3de51b61145a24a78f388,2017-02-09 05:12:22,typicode,Update README.md,False
+1716acd1a6d41686458504beff10843bbf73287d,2017-02-09 05:10:47,typicode,Update README.md,False
+2c78a4dc136bd8febe05086562b34315f277a66f,2017-02-09 05:08:46,typicode,0.15.4,False
+bd6fa27f40516f4a1683270f4c6a59ff719251a5,2017-02-09 05:08:29,typicode,Fix dist build,False
+ac7bd0ff00ae980af6c1bffce89c3ed10c85c4c2,2017-02-09 04:43:50,typicode,0.15.3,False
+0f3a70675b142a76be6328cca4b878accba1e2cf,2017-02-09 04:43:25,typicode,Fix dependencies,False
+70731a85a6f1aadd3697711ce1836a7fdc265064,2017-02-09 04:41:26,typicode,0.15.2,False
+b28074bc511119ae475371f48b15ba03b9e80c99,2017-02-09 04:40:44,typicode,Fix main path,False
+66259406875610d5b92dc124bdfc03f6ba6230cc,2017-02-08 04:32:49,typicode,0.15.1,False
+90b9e6c74652709264ab363a41a3ec4ebe9ea976,2017-02-08 04:32:35,typicode,fix doc,False
+2a3f37466e63e3dd1402f91593c238375101147f,2017-02-08 03:19:16,typicode,0.15.0,False
+08fb4786751e0f9d0919789ace05e656db92d474,2017-02-08 03:08:02,typicode,"v0.15.0 (#158)
+
+* Update
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Update README.md
+
+* Update _index.js
+
+* Update husky devDependency
+
+* Refactor
+
+* Add fp
+
+* Update fp
+
+* add Ramda test
+
+* Update
+
+* Update docs
+
+* Update husky
+
+* Update husky
+
+* Remove lodash devDependency
+
+* refactor
+
+* Update README.md
+
+* Update build (wip)
+
+* Update
+
+* Update .travis.yml
+
+* Update .travis.yml
+
+* Fix tests
+
+* Fix
+
+* Fix
+
+* Update README.md
+
+* Update README.md",False
+c4238ad6cf6a4b878589af762524cc8e573ddfb9,2016-12-15 18:03:14,typicode,Update README.md,False
+654e60d2f6fcda462a1cf5cd366eb6ec37efd1ad,2016-10-29 16:27:09,typicode,Update README.md,False
+9e646598953106378445e9eab39df4861b55ad05,2016-10-29 16:25:27,typicode,Update README.md,False
+9ece4beeadbf12b54e4a30ae595a12bae04798fe,2016-10-26 03:36:44,typicode,Update README.md,False
+08db6d4f385f78e19abb4f24d1fd24b08002e00d,2016-10-26 03:36:19,typicode,Update README.md,False
+bfb4ce565a63b4fe147be7d1333e3ed033480aed,2016-10-26 02:02:21,typicode,Update README.md,False
+050c1966654ce32030840f6678dfa47bbb61f5f2,2016-10-26 01:52:29,typicode,0.14.0,False
+c160cd6aa560936b647f1eca773d5d704073c27c,2016-10-26 01:51:29,typicode,Update devDependencies and set lodash as a dependency again,False
+35e713d7b3217160058593238c2ffae493d51f16,2016-09-05 13:59:37,typicode,"Merge pull request #125 from npmcdn-to-unpkg-bot/npmcdn-to-unpkg
+
+Replace npmcdn.com with unpkg.com",True
+84f029623b21ef6cf2a2d4afaaec44ab614f27dc,2016-09-05 04:09:37,npmcdn-to-unpkg-bot,Replace npmcdn.com with unpkg.com,False
+1d64bb46a5c8550e0f45f8b103d40cd912909777,2016-06-15 14:05:38,typicode,"Merge pull request #114 from chimon2000/typescript_definition
+
+Added typescript definition",True
+e0e20f4392578e852f536bcc32d48244f26d98a3,2016-06-09 14:17:47,typicode,Update package.json,False
+4c74782ba5a46f383ad1aaeab093e6390e3a65d7,2016-06-09 14:00:03,typicode,Update package.json,False
+5e8278992b323815372834c061f27b9936535d39,2016-06-09 04:12:41,Typicode,0.13.1,False
+1ddab6c4aeb475e0076ae17c86de638a40e86c7c,2016-06-09 04:12:25,Typicode,Update tests,False
+7d087efcb88c7c8649cb7b6ab98dc8509c8ab4a5,2016-06-09 04:05:08,typicode,"Merge pull request #117 from vhpoet/master
+
+Make format option work",True
+5e5f62ec88f5d9f11d28b26cce58750ea3b51d27,2016-06-09 00:47:23,Vahe Hovhannisyan,fix: make format option work,False
+858f00674b550869dbdf8894fbc6b24b94a2bd9c,2016-06-06 16:54:05,typicode,Update README.md,False
+abc9560610cbc63764b49e9a52c2043f4307fa2d,2016-06-06 16:50:52,Typicode,0.13.0,False
+9f2059a56f16ca658ff0e12f0e5182330c924f7f,2016-06-06 16:16:08,typicode,"Merge pull request #113 from spectral-software/patch-1
+
+Fix minor typos in examples/README.md",True
+f997028160ada903ca1b7992620e972fc09915ca,2016-06-06 04:00:00,Ryan Edge,"Added typescript definition
+
+References #94",False
+ab83ffad5ff090d59e40b5d23e8b82d6813e8366,2016-06-05 22:08:44,Spectral Software,Fix minor typos in examples/README.md,False
+3f0a6dbfed7e576e8a3d775fdb1241575855a754,2016-06-01 21:33:09,typicode,Update README.md,False
+050fa024a4c44891fd5840619af9ee45fb161c7c,2016-06-01 21:21:03,typicode,Update README.md,False
+955d969fa9cf61e5b2125649a3270237c696a193,2016-06-01 21:20:38,typicode,Update README.md,False
+461663586dc72d9dad2ad26be931721521cf6a66,2016-05-29 20:16:47,typicode,Update README.md,False
+98fc836ea001de5a50e6a3405157b64a2ed680b2,2016-05-27 16:55:34,Typicode,0.13.0-beta-5,False
+fb768faa30c5ba80b1e290697f164763de5a7bcc,2016-05-27 16:44:41,typicode,Update README.md,False
+3109a1e43b8d35f21a20a71e395bb1593ae971e2,2016-05-27 16:37:28,typicode,Update README.md,False
+b0bc8c01cf60945f3eb217b16d504effd21f6b60,2016-05-27 16:36:38,typicode,Update README.md,False
+b1fbbdc8ec898a5ec9fe7ea6baf962608f25ae04,2016-05-27 16:31:10,typicode,Update README.md,False
+c793ed40e79070cbe15b6f02c932b39ce2006979,2016-05-27 16:25:41,Typicode,Merge branch 'next',True
+350f4ae4dece4a0063ee80047d95560c8e6f4f66,2016-05-27 16:25:19,Typicode,Merge branch 'master' into next,True
+04ea40c11a02d51ff9dc927b09637b800ebf6ed7,2016-05-27 16:17:00,typicode,Update README.md,False
+483a8fa4d945eec6d6f4862b80a577503a69d08a,2016-05-19 00:28:46,Typicode,Update README.md,False
+f7d8a27f73780e325843f5f457d28d4e1efb8e7a,2016-05-19 00:24:26,Typicode,Update README,False
+309c5b5eec75a3021f9b9eb93dd083d168a3e9b6,2016-05-19 00:23:52,Typicode,Update README,False
+61f99e3eed43ef45c7076f6617d9ee35abb6237d,2016-05-19 00:19:24,Typicode,update build,False
+bd136dcc7c1456732bfed90ca6137e5b3c8c87b9,2016-05-18 22:59:02,Typicode,Add shim,False
+9993360d31b6c4b21788139376a5c1873de99cf5,2016-05-18 22:56:45,Typicode,update build,False
+59f43fcfcab88daa6e77cba66b70538bbf383479,2016-05-17 16:58:07,Typicode,bump,False
+dbef324b2416fbeae9be63950e187e80932dba00,2016-05-17 16:48:18,Typicode,remove comment,False
+665e1b262b5649444f1b77f4bc3d15744e8aaaa1,2016-05-17 16:48:18,Typicode,update devDepency,False
+a10e2d2221fc54bb1ff5d9f7deead63105f5aa17,2016-05-17 16:45:46,typicode,Update README.md,False
+632d7db8712a972837470806e47979104ebba8ef,2016-05-17 16:43:15,Typicode,Update examples,False
+66fe434c607dd8bf434e3741427485e60df138bc,2016-05-17 04:00:13,Typicode,fix: don't include lodash in dist,False
+26b41a83f5f03533fbc65cb8593cd7666d84c631,2016-05-17 03:40:10,typicode,Update README.md,False
+3bfb33fa2aa4944c39ffa295e6cfa143e3b8b23a,2016-05-16 22:24:50,typicode,Update README.md,False
+b3dde3588725cfed999bba1dae7d162e93ccdbde,2016-05-16 22:12:07,typicode,Update README.md,False
+9e4a91b8ea9a45a94d0175016d1d9dec3e734da5,2016-05-16 20:30:50,typicode,Update README.md,False
+3e084732f43033a044123392287d95a2a1a09e0f,2016-05-14 20:43:53,Typicode,bump,False
+58e562d504f839db2bdf6d63a9bb6d2760e9ad91,2016-05-14 05:47:05,Typicode,update state() API,False
+155bc20884cb2e890a3b5c20887a9c47095a417a,2016-05-14 05:47:05,Typicode,fix: writeOnChange option should be true by default,False
+e9ac2ffeed40a7376c2194f8b830878365ba0295,2016-05-10 01:14:22,Typicode,Add examples,False
+72d4b4285bd7345d29eb1faaf3ac9b3f0faf5e44,2016-05-08 21:42:15,Typicode,bump,False
+cbef6b6baa2a1c3512066083484cad7ae12282ef,2016-05-08 21:16:09,Typicode,Update,False
+c07bfad5411d759fbcaea53f2bcc0adb31647671,2016-05-08 21:15:14,Typicode,Update,False
+f5d33a69823039f00df85547174d5e8d537d7d77,2016-05-06 01:55:19,typicode,Update README.md,False
+8892f53430afba6d0a391e717f91f11f5ca897b5,2016-05-05 18:46:55,Typicode,Update,False
+6a5c2e3e73d5ba098f6c45b69f65774958bc6e55,2016-05-05 18:42:40,typicode,Update README.md,False
+d583b978ca01cf5111d13d4cab01ebd6f121fc1d,2016-05-05 18:32:13,Typicode,Fix,False
+154be3e09d9ae431e841bbbbd2c2b3f84d210700,2016-05-05 06:38:52,Typicode,Update,False
+1b781a04dbf5ce8b15b4efa498b49fce7057ea3a,2016-04-27 00:54:39,Typicode,Update API,False
+5735500065eb4ea3715f9ad7ae80a778dd98afd0,2016-04-18 12:42:44,typicode,Update README.md,False
+076671c912ef9c55b49532bba8628d1a7ffcb842,2016-02-29 16:31:23,typicode,Update README.md,False
+a61c6f99758874490cd365b16ef242dda9d8ffc8,2016-02-29 16:30:17,typicode,Update README.md,False
+31e8baf48a8db1f93cd84158977f5fccd70ca27c,2016-02-27 04:38:46,typicode,Update README.md,False
+09f9887e250d7d97905523f152d60f8c741748d3,2016-02-27 04:34:03,typicode,Update README.md,False
+c82dd87e1f0adea8300de3672dbfafca60a37173,2016-02-27 04:33:48,typicode,Update README.md,False
+9936c590084fa7ab07330d9b957083d5512e36bb,2016-02-27 04:29:18,Typicode,0.12.5,False
+40bffd06e21cce810244f46e067fd77be01fe2ba,2016-02-27 04:29:05,Typicode,Update README,False
+f3a323dc3b5e9201efdb0128eb653d5fd2a01e66,2016-02-27 04:28:43,Typicode,Fix db().value() should always return a value,False
+3c3d62dbdb60a53e10d330447147bb5b700cceea,2016-02-27 03:16:05,typicode,"Merge pull request #93 from nightwolfz/master
+
+Fix issue with an observable db.object assigning to itself",True
+458014ca161f7799d728b1b16d239ca4b3191fa1,2016-02-20 20:12:01,Ryan Megidov,4 spaces to 2 spaces,False
+6387222de677020571215e0ee2e65e8b67e6cd89,2016-02-20 20:04:23,Ryan Megidov,Fix issue with db.object assigning to itself while using observable objects,False
+f8ee2164b43fc49548912cb11dbf89656119cd6b,2016-02-18 05:08:08,Typicode,0.12.4,False
+573cc7ddca9336a601e38c5c863796a299400b36,2016-02-18 04:19:39,typicode,"Merge pull request #92 from typicode/next
+
+Update build",True
+6142dd24b6125a0e100570be70b5f225d909a32d,2016-02-18 04:17:51,Typicode,Update build,False
+e95c164bde7d5f4df7125b3e9441af21f72c837f,2016-02-17 05:25:35,Typicode,Bump husky,False
+38e4755b1237fce1bfe07cd15a88d46b9789da0c,2016-02-14 03:03:19,Typicode,0.12.3,False
+746b575f090e37cd8849f022d6ec88ee23a0c53a,2016-02-14 03:02:59,Typicode,"Bump graceful-fs, thanks to @ChALkeR",False
+2c0edde54fd3d32d15b260c48903fc801d7a460f,2016-02-14 03:01:45,Typicode,Typo,False
+a6188cad3d42648687d22902df0a51f5cf1efa45,2016-02-10 02:45:45,Typicode,Update webpack.config.js to make it work with Node 0.12,False
+01d53d8915ac1503ebb081b5c54dabd8fdc76b5f,2016-02-10 01:54:45,Typicode,Add lodash devDependency,False
+a26075b15982daaf0ac117a4ec8f7b0f9097bf85,2016-02-09 13:42:59,typicode,Fix prepublish script,False
+caba8d17d45575a726fba726325975d6f22f7d16,2016-02-09 03:15:25,Typicode,Add UMD builds,False
+288038b41ce22c0d82c6376b7e3db87dd8ea2a71,2016-01-22 00:16:26,typicode,Update README.md,False
+0dfd788528df90345d606b1ef2bc5e339188f853,2016-01-21 23:24:55,typicode,Update README.md,False
+978e78e5fafb4dc0f92bc113efd1c90e6419e221,2016-01-21 20:41:04,typicode,Update README.md,False
+00387a7ecd99ef9dfc45df170a7cde2056192a97,2016-01-21 20:40:36,typicode,"Add ""try lowdb"" link",False
+96e1e4fd333908011a473e4f6fee1dc68571ca11,2016-01-21 02:42:16,Typicode,0.12.2,False
+9766b29558c41ba146ba4464dbcdc66d678d9143,2016-01-21 02:41:40,Typicode,Update husky,False
+31d7439ad3f3d415213cec90042e7632a56048d1,2016-01-21 02:40:38,Typicode,Fix #89,False
+a8eb969e71dd39531f000954768b8053af216349,2016-01-15 19:09:00,typicode,"Merge pull request #86 from cedmax/patch-1
+
+fixed bson example",True
+82ae53321ee60faf5ef12bb0347e142eb3279469,2016-01-15 19:08:39,typicode,"Merge pull request #87 from cedmax/patch-2
+
+fix read-only/write-only example",True
+7550613dbe9493b90941799ac48f7657245ae489,2016-01-15 17:19:08,Marco Cedaro,fix read-only/write-only example,False
+25ab5789336894052a31b8511525b25fe629da31,2016-01-15 16:47:02,Marco Cedaro,fixed bson example,False
+9e2042cef5072c90c56091de67393af6b6381511,2016-01-15 03:41:34,Typicode,0.12.1,False
+5b000978d1e9faa397498f47c87aa690a522ca46,2016-01-15 03:40:37,Typicode,Fix #85 check for undefined value,False
+94db96fdc9f1bcef3c3f409e11b92e8ab2af5077,2016-01-14 02:50:44,Typicode,0.12.0,False
+1733c3d5d9ab362ee1ba9a5b4a9fb2698577cc78,2016-01-14 02:50:12,Typicode,Use lodash 4 methods,False
+16cc5c510c9e67f3a0746fbc9dd6f63ae1816487,2016-01-14 02:48:00,Typicode,Update to lodash 4,False
+078f74e10c930d9f579789360e8c65ad0847ca8c,2016-01-14 02:06:37,Typicode,0.11.5,False
+a0e555fcb370b6eec385d46dc900d7627ef3db09,2016-01-14 02:03:44,Typicode,Fix #84 remove Object.assign since it's not supported in Node 0.12,False
+e03c9666e19b970324fee07bff36d59fbb982c46,2016-01-07 13:44:22,typicode,Update README.md,False
+1f6528461de1eda6ce07996453513fa16735417d,2016-01-07 13:01:42,Typicode,0.11.4,False
+2f9722df25891471152dff27ee7871ada5cbf846,2016-01-07 13:01:34,Typicode,Fix compute checksum after reading source,False
+f14ae84514416d04d530c4e8aa997bb1ea679f93,2016-01-07 10:14:43,Typicode,0.11.3,False
+4815c5d50fece8d7836153aaf7e302258ac17a46,2016-01-07 10:14:20,Typicode,Add db.read(),False

@@ -1,0 +1,1352 @@
+Hash,Date,Author,Message,IsMerge
+eee6e805f92edcdbfa868514e44c5a32370c5cf5,2025-03-21 13:03:57,jongleberry,3.0.0-alpha.4,False
+c5ad22e8bb66d6bfb5417e62f431567cdfd10a30,2025-03-21 12:56:27,jongleberry,"breaking: req.origin should display the origin header if it exists, not the current hostname closes #1008",False
+40d5d3303b33a153842c9f476e949f1d2a83c07b,2025-03-21 12:47:17,jongleberry,"breaking: .body=<json> should not overwrite type if type already json
+
+closes #1120",False
+9ce4536d9e7073d6f9cca0d5fcb5ea83a35d6496,2025-03-19 07:01:00,jongleberry,"breaking: remove special ENOENT support (#1861)
+
+This is a huge breaking change as it breaks `fs.createReadStream`
+support. Instead, you'll have to make sure you'll handle the stream's
+errors before it reaches the koa response logic. This is good as you'd
+want to do this for all streams anyways. You can have an upstream
+middleware like:
+
+
+```js
+app.use(async (ctx, next) {
+  await next()
+
+  // check if the object is a stream
+  if (ctx.body?.readable && typeof ctx.body?.pipe === 'function') {
+    await new Promise((resolve, reject) => { // wait for it to be either readable or throw an error
+      ctx.body.on('readable', () => resolve())
+      ctx.body.on('error', (err) => reject(err)) // TODO handle errors
+    })
+  }
+})
+```
+
+closes #1420",False
+af0547d5f6330466c4e6c4c5034cea3f4cba6a74,2025-03-18 10:13:21,jongleberry,"don't coerce header value to string on set #1394 (#1859)
+
+this is a rebase of https://github.com/koajs/koa/pull/1394. closes #1394",False
+964e5e7c1285e24089ab85085fbd33d075ba304b,2025-03-17 10:09:44,jongleberry,codecov: pass token,False
+7e16b31548b83782a689fb985585a997aaf9e633,2025-03-17 10:08:11,jongleberry,"Revert ""ci: exclude tests from coverage""
+
+Only supported on node@22
+This reverts commit 14aef5f1169807c647665e6f06c098351255fe1b.",False
+7a666e59f660e7a1cb0ca37ddf31f5cf4ae5cbd4,2025-03-17 10:00:24,jongleberry,node@18 closes #1850,False
+153380b81750556e4bdd862663d4dc7f05a2c027,2025-03-17 09:47:51,zhennann,"docs: fix asyncLocalStorage comment (#1849)
+
+jsdoc of options.asyncLocalStorage
+
+## Checklist
+
+- [x] I have ensured my pull request is not behind the main or master
+branch of the original repository.
+- [x] I have rebased all commits where necessary so that reviewing this
+pull request can be done without having to merge it first.
+- [x] I have written a commit message that passes commitlint linting.
+- [x] I have ensured that my code changes pass linting tests.
+- [x] I have ensured that my code changes pass unit tests.
+- [x] I have described my pull request and the reasons for code changes
+along with context if necessary.",False
+14aef5f1169807c647665e6f06c098351255fe1b,2025-03-17 09:44:43,jongleberry,ci: exclude tests from coverage,False
+ca6718c90be91eb60b857f5c1ddef6b0db4c1e6d,2025-03-17 09:34:18,dependabot[bot],"build(deps): bump debug from 4.3.6 to 4.4.0 (#1852)
+
+Bumps [debug](https://github.com/debug-js/debug) from 4.3.6 to 4.4.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href=""https://github.com/debug-js/debug/releases"">debug's
+releases</a>.</em></p>
+<blockquote>
+<h2>4.4.0</h2>
+<p>Fixes (hopefully) the inefficient regex warnings in
+<code>.enable()</code>.</p>
+<p>Minor version as this is invariably going to break certain users who
+misuse the <code>.enable()</code> API and expected it to work with
+regexes, which was never supported nor documented. That's on you, sorry
+- that functionality won't be added back.</p>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/debug-js/debug/compare/4.3.7...4.4.0"">https://github.com/debug-js/debug/compare/4.3.7...4.4.0</a></p>
+<h2>4.3.7</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Upgrade ms to version 2.1.3 by <a
+href=""https://github.com/realityking""><code>@​realityking</code></a> in
+<a
+href=""https://redirect.github.com/debug-js/debug/pull/819"">debug-js/debug#819</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/debug-js/debug/compare/4.3.6...4.3.7"">https://github.com/debug-js/debug/compare/4.3.6...4.3.7</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href=""https://github.com/debug-js/debug/commit/7e3814cc603bf64fdd69e714e0cf5611ec31f43b""><code>7e3814c</code></a>
+4.4.0</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/d2d6bf0bab3a0eeeb3a9ce7113cb0a31d8da678f""><code>d2d6bf0</code></a>
+fix inefficient .enable() regex and .enabled() test</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/bc60914816e5e45a5fff1cd638410438fc317521""><code>bc60914</code></a>
+4.3.7</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/c63e96e6495cdb8e15d2affa8dad105c48a21c92""><code>c63e96e</code></a>
+Upgrade ms to version 2.1.3 (<a
+href=""https://redirect.github.com/debug-js/debug/issues/819"">#819</a>)</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/382864a45a782a84b29e457211c27704df77a75f""><code>382864a</code></a>
+remove archaic badges from readme</li>
+<li>See full diff in <a
+href=""https://github.com/debug-js/debug/compare/4.3.6...4.4.0"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility
+score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=debug&package-manager=npm_and_yarn&previous-version=4.3.6&new-version=4.4.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+You can trigger a rebase of this PR by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after
+your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge
+and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating
+it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop
+Dependabot creating any more for this major version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop
+Dependabot creating any more for this minor version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop
+Dependabot creating any more for this dependency (unless you reopen the
+PR or upgrade to it yourself)
+
+
+</details>
+
+> **Note**
+> Automatic rebases have been disabled on this pull request as it has
+been open for over 30 days.
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e65ab019b0e27f95c6018d2106c0f51bc08ac813,2025-03-17 09:32:15,XIN_____,"set homepage in package.json (#1853)
+
+## Checklist
+
+- [x] I have ensured my pull request is not behind the main or master
+branch of the original repository.
+- [x] I have rebased all commits where necessary so that reviewing this
+pull request can be done without having to merge it first.
+- [x] I have written a commit message that passes commitlint linting.
+- [x] I have ensured that my code changes pass linting tests.
+- [x] I have ensured that my code changes pass unit tests.
+- [x] I have described my pull request and the reasons for code changes
+along with context if necessary.",False
+a43294c3e264dc2a757a73991a3f8f476fcbb215,2025-02-27 11:21:24,titanism,docs: added note regarding GitHub releases page to History.md,False
+04429e443657e8f703a0b6e6f24cc10241a4894f,2025-02-27 11:09:51,titanism,chore: fixed lint per <https://github.com/koajs/koa/commit/5054af6e31ffd451a4151a1fe144cef6e5d0d83c>,False
+399cb6b0dd2104224c0ef0ce8e92f84e4f7faf42,2025-02-27 10:58:52,Jan Kaiser,"fix missing cleanup, if response socket is no longer writeable (issue 1547) (#1593)
+
+Relates to issue #1547, see my [comment
+there](https://github.com/koajs/koa/issues/1547#issuecomment-908370552)
+
+Co-authored-by: Jan Kaiser <jan.kaiser@boerse-go.de>
+Co-authored-by: titanism <101466223+titanism@users.noreply.github.com>",False
+5054af6e31ffd451a4151a1fe144cef6e5d0d83c,2025-02-12 07:44:18,fengmk2,"Merge commit from fork
+
+* fix: avoid redos on host and protocol getter
+
+Only effect on app.proxy enable
+
+closes https://github.com/koajs/koa/security/advisories/GHSA-593f-38f6-jp5m
+
+* 3.0.0-alpha.3",False
+71902b1f2154469be4daaee8ffe9dc2b8cbbc5a0,2024-11-04 10:38:13,jongleberry,3.0.0-alpha.2,False
+4c34546413bb3d56a9606ba9a32e255ec308e413,2024-11-04 10:22:31,Imed Jaberi,"deps: update http-errors to v2.0.0 (#1486)
+
+- https://github.com/jshttp/http-errors/blob/master/HISTORY.md",False
+ce6b3b6eeed08608c85ec133de6cbcbc8e03a046,2024-10-28 08:34:24,Vlad Sirenko,"Use node test runner (#1845)
+
+## Checklist
+use `node --test` instead of `jest`
+See: https://github.com/koajs/koa/issues/1837#issuecomment-2323002820
+
+- [X] I have ensured my pull request is not behind the main or master
+branch of the original repository.
+- [X] I have rebased all commits where necessary so that reviewing this
+pull request can be done without having to merge it first.
+- [X] I have written a commit message that passes commitlint linting.
+- [X] I have ensured that my code changes pass linting tests.
+- [X] I have ensured that my code changes pass unit tests.
+- [X] I have described my pull request and the reasons for code changes
+along with context if necessary.",False
+988ebec9b4eeb17370beeb960443629381f158d8,2024-10-23 00:09:59,Michal Martinek,":arrow_up: cookies@0.9.1 (#1846)
+
+## Checklist
+
+- [x] I have ensured my pull request is not behind the main or master
+branch of the original repository.
+- [x] I have rebased all commits where necessary so that reviewing this
+pull request can be done without having to merge it first.
+- [x] I have written a commit message that passes commitlint linting.
+- [x] I have ensured that my code changes pass linting tests.
+- [x] I have ensured that my code changes pass unit tests.
+- [x] I have described my pull request and the reasons for code changes
+along with context if necessary.
+
+## Maintainer Notes
+
+Closes https://github.com/koajs/koa/issues/1561",False
+f9f7714e9528cb02f61ae7d8c8da09b502f88d69,2024-10-21 05:11:19,Martin Iwanowski,"response.redirect: extract special-cased back, fixes #904 (#1115)
+
+The simple solution to drop special-cased `'back'` in
+`response.redirect`.
+I can't label but should be labeled as version-major.
+
+This PR **does not** make use of Symbol as purposed in #904.
+
+**Edit**
+If this solution is acceptable, a deprecation should be added to Koa 2
+on `'back'` use.
+
+---------
+
+Co-authored-by: Kevin Peno <kjpeno@outlook.com>",False
+ff0f3b642a77cda1cc3daf31c5cec8be9dd00601,2024-10-21 05:10:58,Jeremy Daley,"Added exports.default to package.json (#1630)
+
+Per NodeJS documentation on the `package.json` `exports` object, there
+seems to be a need for a fallback `default` key:
+https://nodejs.org/api/packages.html#conditional-exports
+
+Additionally, I'm seeing things like eslint fail to resolve until a
+`default` key has been specified. I've not dug any further into why, but
+I think _some_ default should be defined until more options should later
+be added.",False
+7aad3d38bc965fc18412b732301557e898bd0b2a,2024-08-31 23:53:31,jongleberry,docs: add an SSE example,False
+0d9f062aa840c54b5c20911dab6ce62128d3b089,2024-08-31 23:35:25,jongleberry,":arrow_up: statuses@2.0.1
+
+commit 84c89f25b880cf648044e2d0eeb14f9a43e1f2c9
+Author: jongleberry <jonathanrichardong@gmail.com>
+Date:   Sat Aug 31 11:02:37 2024 -0700
+
+    package-lock++
+
+commit 2c7715c797473d463ed73542d68e634f172dc3c3
+Merge: 5af69c8 b95dfcb
+Author: jongleberry <jonathanrichardong@gmail.com>
+Date:   Sat Aug 31 10:56:58 2024 -0700
+
+    Merge branch 'master' into update-statuses-to-v2.0.0
+
+commit 5af69c87926db6f491af2b8882c07d7d141fe422
+Author: imed jaberi <imed.jaberi@hotmail.fr>
+Date:   Sat Apr 2 14:47:43 2022 +0100
+
+    fix tests
+
+commit 9af4bb37db0be416cd9e211ef4fc52f57de0cb69
+Author: imed jaberi <imed.jaberi@hotmail.fr>
+Date:   Sat Apr 2 14:43:51 2022 +0100
+
+    lint code
+
+commit 140be25c88d7641ce7cfc1463889d437e3cb939d
+Author: imed jaberi <imed.jaberi@hotmail.fr>
+Date:   Sat Apr 2 14:42:10 2022 +0100
+
+    clean locks ---force
+
+commit bc553ec713b16c1fe4d6a400637ab30590c176d2
+Author: imed jaberi <imed.jaberi@hotmail.fr>
+Date:   Sat Apr 2 14:35:12 2022 +0100
+
+    clean locks
+
+commit 3d7e22aef781820f7d611ad64f7622a7258e2c6d
+Merge: ff65ef6 f3c67d9
+Author: imed jaberi <imed.jaberi@hotmail.fr>
+Date:   Sat Apr 2 14:31:30 2022 +0100
+
+    resolve conflicts
+
+commit ff65ef6c6b19c7f307726bae22eb8154894a14dc
+Author: 3imed-jaberi <imed_jebari@hotmail.fr>
+Date:   Tue Jul 14 10:52:50 2020 +0200
+
+     deps: use the new statuses api --ctx --response --test
+
+commit f565f3b732a6550a74506c480319e6efe4b51da7
+Author: 3imed-jaberi <imed_jebari@hotmail.fr>
+Date:   Tue Jul 14 10:52:31 2020 +0200
+
+     deps: use the new statuses api --ctx --response --src
+
+commit e8f7609ca405904fabc6669fa31be0df1c9ada55
+Author: 3imed-jaberi <imed_jebari@hotmail.fr>
+Date:   Tue Jul 14 10:50:49 2020 +0200
+
+     deps: update statuses >> v2.0.0",False
+c62a0a965b3e24bd81b73b3e2874c34a3c198b4f,2024-08-31 23:34:07,jongleberry,test: remove leaky handles (#1838),False
+b95dfcb8ed8e43059e715f074408cbfb4a75ee2a,2024-08-31 10:27:15,jongleberry,"docs: add note about features in koa-vs-express
+
+closes #1654",False
+51d0e2deca37f7cf65364ac395aba3117804f10b,2024-08-31 10:22:45,jongleberry,:arrow_up: jest@29 (#1839),False
+ba9a2223827ff8544b47b32c08d20ef0fe1649ea,2024-08-31 10:22:36,jongleberry,:arrow_up: supertest@7 (#1841),False
+7cf1462d346b97d009a9fa1726e1d066bb45c88f,2024-08-31 10:20:02,Matthieu Tabarin,"Feat: Replace node querystring with URLSearchParams (#1828)
+
+Fix #1570 Replace node querystring with URLSearchParams it mimics the
+way that querystring works
+
+## Checklist
+
+- [x] I have ensured my pull request is not behind the main or master
+branch of the original repository.
+- [x] I have rebased all commits where necessary so that reviewing this
+pull request can be done without having to merge it first.
+- [x] I have written a commit message that passes commitlint linting.
+- [x] I have ensured that my code changes pass linting tests.
+- [x] I have ensured that my code changes pass unit tests.
+- [x] I have described my pull request and the reasons for code changes
+along with context if necessary.",False
+d0f854382445749309740a54c54c963410d2a68b,2024-08-31 10:15:06,jongleberry,"docs: add example of using an HTTP2, closes #1833",False
+056ae99c7520698488f239bd07a9938fbe8534d6,2024-08-31 10:10:19,jongleberry,github actions: continue on error for codecov,False
+eab4f0cc57f05ff34b694357d06adb3962d3f5fb,2024-08-31 10:09:43,jongleberry,github actions: test node@22,False
+2281cadfd917771d65ff4d0eaab6123b3befd593,2024-08-19 01:57:08,dependabot[bot],"build(deps-dev): bump braces from 3.0.2 to 3.0.3 (#1822)
+
+Bumps [braces](https://github.com/micromatch/braces) from 3.0.2 to
+3.0.3.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href=""https://github.com/micromatch/braces/commit/74b2db2938fad48a2ea54a9c8bf27a37a62c350d""><code>74b2db2</code></a>
+3.0.3</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/88f1429a0f47e1dd3813de35211fc97ffda27f9e""><code>88f1429</code></a>
+update eslint. lint, fix unit tests.</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff""><code>415d660</code></a>
+Snyk js braces 6838727 (<a
+href=""https://redirect.github.com/micromatch/braces/issues/40"">#40</a>)</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/190510f79db1adf21d92798b0bb6fccc1f72c9d6""><code>190510f</code></a>
+fix tests, skip 1 test in test/braces.expand</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/716eb9f12d820b145a831ad678618731927e8856""><code>716eb9f</code></a>
+readme bump</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/a5851e57f45c3431a94d83fc565754bc10f5bbc3""><code>a5851e5</code></a>
+Merge pull request <a
+href=""https://redirect.github.com/micromatch/braces/issues/37"">#37</a>
+from coderaiser/fix/vulnerability</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/2092bd1fb108d2c59bd62e243b70ad98db961538""><code>2092bd1</code></a>
+feature: braces: add maxSymbols (<a
+href=""https://github.com/micromatch/braces/issues/"">https://github.com/micromatch/braces/issues/</a>...</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/9f5b4cf47329351bcb64287223ffb6ecc9a5e6d3""><code>9f5b4cf</code></a>
+fix: vulnerability (<a
+href=""https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727"">https://security.snyk.io/vuln/SNYK-JS-BRACES-6838727</a>)</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/98414f9f1fabe021736e26836d8306d5de747e0d""><code>98414f9</code></a>
+remove funding file</li>
+<li><a
+href=""https://github.com/micromatch/braces/commit/665ab5d561c017a38ba7aafd92cc6655b91d8c14""><code>665ab5d</code></a>
+update keepEscaping doc (<a
+href=""https://redirect.github.com/micromatch/braces/issues/27"">#27</a>)</li>
+<li>Additional commits viewable in <a
+href=""https://github.com/micromatch/braces/compare/3.0.2...3.0.3"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility
+score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=braces&package-manager=npm_and_yarn&previous-version=3.0.2&new-version=3.0.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+You can trigger a rebase of this PR by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after
+your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge
+and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating
+it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop
+Dependabot creating any more for this major version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop
+Dependabot creating any more for this minor version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop
+Dependabot creating any more for this dependency (unless you reopen the
+PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the
+[Security Alerts page](https://github.com/koajs/koa/network/alerts).
+
+</details>
+
+> **Note**
+> Automatic rebases have been disabled on this pull request as it has
+been open for over 30 days.
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+e7a325d6d714dd9a21c7353ace800caa68eb6d85,2024-08-19 01:49:58,Evgenii Troinov,"Changehange node.js version in readme.md from 12.x to 18.x (#1823)
+
+## Checklist
+
+- [x] I have ensured my pull request is not behind the main or master
+branch of the original repository.
+- [x] I have rebased all commits where necessary so that reviewing this
+pull request can be done without having to merge it first.
+- [x] I have written a commit message that passes commitlint linting.
+- [x] I have ensured that my code changes pass linting tests.
+- [x] I have ensured that my code changes pass unit tests.
+- [x] I have described my pull request and the reasons for code changes
+along with context if necessary.",False
+5bf8002d7bbe9918b48d5b668f6792148efdc00f,2024-08-19 01:46:44,dependabot[bot],"build(deps): bump debug from 4.3.4 to 4.3.6 (#1836)
+
+Bumps [debug](https://github.com/debug-js/debug) from 4.3.4 to 4.3.6.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href=""https://github.com/debug-js/debug/releases"">debug's
+releases</a>.</em></p>
+<blockquote>
+<h2>4.3.6</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Avoid using deprecated RegExp.$1 by <a
+href=""https://github.com/bluwy""><code>@​bluwy</code></a> in <a
+href=""https://redirect.github.com/debug-js/debug/pull/969"">debug-js/debug#969</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/bluwy""><code>@​bluwy</code></a> made
+their first contribution in <a
+href=""https://redirect.github.com/debug-js/debug/pull/969"">debug-js/debug#969</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/debug-js/debug/compare/4.3.5...4.3.6"">https://github.com/debug-js/debug/compare/4.3.5...4.3.6</a></p>
+<h2>4.3.5</h2>
+<h1>Patch</h1>
+<ul>
+<li>cac39b1c5b018b0fe93a53a05f084eee543d17f5 Fix/debug depth (<a
+href=""https://redirect.github.com/debug-js/debug/issues/926"">#926</a>)</li>
+</ul>
+<p>Thank you <a
+href=""https://github.com/calvintwr""><code>@​calvintwr</code></a> for the
+fix.</p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href=""https://github.com/debug-js/debug/commit/c33b464a797d6cf8c72b8d84d87e02b2822494c9""><code>c33b464</code></a>
+4.3.6</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/7956a45f683924a1fce672dcfb15a1fb8a762c60""><code>7956a45</code></a>
+Avoid using deprecated RegExp.$1</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/5464bdddbc6f91b2aef2ad20650d3a6cfd9fcc3a""><code>5464bdd</code></a>
+4.3.5</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/f244ada2e98b30a09b42e6f85e8d4ac3f038d2d6""><code>f244ada</code></a>
+update authorship contact info</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/cac39b1c5b018b0fe93a53a05f084eee543d17f5""><code>cac39b1</code></a>
+Fix/debug depth (<a
+href=""https://redirect.github.com/debug-js/debug/issues/926"">#926</a>)</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/f66cb2d9f729e1a592e72d3698e3b75329d75a25""><code>f66cb2d</code></a>
+remove .github folder (and the outdated issue templates)</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/d1616622e4d404863c5a98443f755b4006e971dc""><code>d161662</code></a>
+Update ISSUE_TEMPLATE.md</li>
+<li><a
+href=""https://github.com/debug-js/debug/commit/12c1ad04db972bbb40d49c952f8f8da6871c7216""><code>12c1ad0</code></a>
+Update ISSUE_TEMPLATE.md</li>
+<li>See full diff in <a
+href=""https://github.com/debug-js/debug/compare/4.3.4...4.3.6"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility
+score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=debug&package-manager=npm_and_yarn&previous-version=4.3.4&new-version=4.3.6)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't
+alter it yourself. You can also trigger a rebase manually by commenting
+`@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after
+your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge
+and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating
+it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop
+Dependabot creating any more for this major version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop
+Dependabot creating any more for this minor version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop
+Dependabot creating any more for this dependency (unless you reopen the
+PR or upgrade to it yourself)
+
+
+</details>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cfdb77f34d6f5aa4110c5425e78565165d51c0a7,2024-06-28 20:56:17,Tommy Dew,"docs: Add writable getter to the response doc (#1832)
+
+Fixes #1680",False
+8d5beb329d0851a9e2eb00ed08d3996ebde53994,2024-06-28 20:15:36,Matthieu Tabarin,"feat: add support web WHATWG (#1830)
+
+closes https://github.com/koajs/koa/issues/1777",False
+757e4ebc5146784ebd00664545c6d37231610a61,2024-06-20 09:56:12,Matthieu Tabarin,"deps: make ""only"" package inside (#1824)
+
+closes https://github.com/koajs/koa/issues/1802",False
+b89e19a27509c96d27af722f9951e0d72cb41eb5,2024-05-30 06:32:33,Leslie,fix: improve body null check (#1814),False
+00f3fed66d15f1e574311909304fabe4bf2cdee6,2024-05-30 06:30:30,十叶,"doc: add partitioned and priority for cookies (#1816)
+
+sync latest cookie options",False
+5bc0b4651620fec05213e9b758113f92cbf659dc,2024-05-30 06:29:19,andrew0,"fix: remove unused async local storage middleware (#1817)
+
+This middleware was made obsolete by e98b8d1.",False
+5573b966a6062cd103123f547ec58a7c3246eb0f,2024-04-22 11:55:10,Evgenii Troinov,"feat: Drop node.js 12.x, 14.x, 17.x support (#1797)",False
+6fbc40b222cb1e856b37e86707b8c963f4d640ac,2024-04-22 11:53:25,Dana Sommerich,docs: Fix definition of middleware in guide.md (#1810),False
+f85214a5bd8d5b28b31d1d89b0ac90565990ba34,2024-04-22 11:52:59,Leslie,docs: Modify options type in the Application class (#1812),False
+6bd2cb18dd1b1c83957041d3b028c4bd01323ace,2024-03-30 06:43:23,dependabot[bot],"build(deps): bump encodeurl from 1.0.2 to 2.0.0 (#1807)
+
+Bumps [encodeurl](https://github.com/pillarjs/encodeurl) from 1.0.2 to 2.0.0.
+- [Release notes](https://github.com/pillarjs/encodeurl/releases)
+- [Commits](https://github.com/pillarjs/encodeurl/compare/v1.0.2...v2.0.0)
+
+---
+updated-dependencies:
+- dependency-name: encodeurl
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+185e701a8a1a1277d7df976a0598b7a27ebc789e,2024-03-21 13:53:36,FDrag0n,"fix: handle upper case protocol like HTTP or HTTPS (#1805)
+
+Co-authored-by: fengmk2 <suqian.yf@antgroup.com>",False
+435534aa08afd7749b121664f5ab2b54421b276e,2024-03-15 12:49:01,fengmk2,"fix: formatting redirect url on http(s) protocol url (#1804)
+
+closes https://github.com/koajs/koa/issues/1800
+
+pick from https://github.com/koajs/koa/pull/1803",False
+5f159415e58c42b54cb0703d7cfb10870d33d65f,2024-01-17 07:32:10,LaicZhang,test: Add Node.js 20 (#1788),False
+ac61b8ca121bb5d9b025c61786f9f0517648bc62,2024-01-17 07:31:07,Evgenii Troinov,chore: Replacing eslint with standard cli (#1796),False
+5ba533f83117316486a55f097a764dac9e7c140a,2023-11-08 20:35:20,那里好脏不可以,chore: fix jsdoc and typo (#1662),False
+ec912a3db7a898787becc6aca65b9bfc35a00b28,2023-10-31 18:39:26,hustLer2k,docs: add missing entries to response aliases in context.md (#1769),False
+814a2a5f62b455564be591eb1aeeacc908211e7b,2023-10-31 18:38:41,hustLer2k,docs: fix response.vary jsdoc field param (#1767),False
+dbf4b8f41286befd53dfd802740f2021441435bf,2023-05-17 13:20:49,宋昆达,"docs: fix node quickly install with nvm (#1760)
+
+update `nvm install  7 ` to `nvm install 12`",False
+632a803138c35c0b402d6182178ea4700059b532,2023-04-12 15:19:59,fengmk2,Release 3.0.0-alpha.1,False
+e98b8d1918376dc2957aa62906bf5893bef66c4c,2023-04-12 15:17:09,Gxkl,fix: can not get currentContext in error handler (#1758),False
+bec13ecccdf7c734bccd5dd0ee9892621415af41,2023-01-02 12:25:07,fengmk2,"Release 3.0.0-alpha.0 (#1720)
+
+publish with experimental tag",False
+14dec599b4f51fd06ab2b04d13cbf2ce77f760e2,2022-12-28 07:14:46,sjfkai,fix: typo in comment (#1730),False
+6134b3c8bfd5ad6646c23614315443f6f1689c41,2022-12-09 11:19:41,dependabot[bot],"build(deps-dev): bump supertest from 6.3.2 to 6.3.3 (#1727)
+
+Bumps [supertest](https://github.com/visionmedia/supertest) from 6.3.2 to 6.3.3.
+- [Release notes](https://github.com/visionmedia/supertest/releases)
+- [Commits](https://github.com/visionmedia/supertest/compare/v6.3.2...v6.3.3)
+
+---
+updated-dependencies:
+- dependency-name: supertest
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+edc35ac7224b649e7b63a99f3c2625ea312a98b3,2022-12-07 20:11:33,mihailik,"docs: Provide more typings for application's context and request/response (#1726)
+
+A bit more detailed types to help users of the library",False
+9d2afef286c9b2a1bc456d70fd1e8136fcf91c83,2022-12-07 12:36:01,fengmk2,"fix: should export createAsyncCtxStorageMiddleware function (#1725)
+
+pick from https://github.com/koajs/koa/pull/1724",False
+d7894c88a511b1dd604d5402a4ab0d9903747c5b,2022-12-06 09:03:47,fengmk2,refactor: use asyncLocalStorage.run (#1718),False
+a0148c1f01d911d07fcdab43b69fad69a88101cc,2022-12-06 09:01:39,fengmk2,"Revert ""build(deps-dev): bump jest from 28.1.3 to 29.3.1 (#1709)"" (#1719)
+
+This reverts commit d2b09439b78fe749a3c68c3cc087cda4c30336f7.",False
+d2b09439b78fe749a3c68c3cc087cda4c30336f7,2022-12-06 08:09:09,dependabot[bot],"build(deps-dev): bump jest from 28.1.3 to 29.3.1 (#1709)
+
+Bumps [jest](https://github.com/facebook/jest/tree/HEAD/packages/jest) from 28.1.3 to 29.3.1.
+- [Release notes](https://github.com/facebook/jest/releases)
+- [Changelog](https://github.com/facebook/jest/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/jest/commits/v29.3.1/packages/jest)
+
+---
+updated-dependencies:
+- dependency-name: jest
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b3fffc06cd4b1e275f665ccea7da7399130beead,2022-12-06 07:58:51,Hrvoje Šimić,docs: fix grammar in koa vs express doc (#1068),False
+e0abc5fc3c1c192fb6f85477ae86caad1d8e9b3e,2022-12-06 07:57:19,rosald,"docs: Update guide.md (#1702)
+
+since nodejs v12, native fs promises (require('fs').promises) is not experimental any more, should use it instead of third party libary",False
+beb0b896a357e938591f61734b08882187d48506,2022-12-06 07:56:40,fengmk2,test: skip mock socket error on Node.js 18,False
+fe76c4a284806d77babf72adcffac7b3c9640ec5,2022-12-06 07:56:40,fengmk2,refactor: required Node.js >= 12.17.0,False
+cffcb1ec24b6838d18c897f45b0e6da050b2e893,2022-12-06 07:56:40,fengmk2,test: Add Node.js 18,False
+c90317dac5a75a0b0b073acabd8b5656e204f8ef,2022-12-06 07:56:40,dead-horse,fix: improve compatibility,False
+40bee6b9ef045a2a8887b04d3f72c87e5e0463b5,2022-12-06 07:56:40,dead-horse,test: more test cases,False
+cdb7a3c9f4b3d1c487e1100b47de8a8a569d357e,2022-12-06 07:56:40,dead-horse,feat: support asyncLocalStorage,False
+702eb13e57801564f1c47b6c5ad048027231bab8,2022-12-05 21:39:50,dependabot[bot],build(deps-dev): bump supertest from 6.3.1 to 6.3.2 (#1716),False
+55f4c33589c1ce6edbdc37f23ed1f78746869cfc,2022-10-25 21:51:44,dependabot[bot],build(deps-dev): bump supertest from 6.3.0 to 6.3.1 (#1703),False
+0c81a733dae6e0b7cfbde83ca1c15b42be659d75,2022-10-05 21:48:05,sgpinkus,docs: Remove outdated links from README Getting Started section. (#1694),False
+28912d36dd973020e32fc905ea0f77c97212f72c,2022-10-04 21:46:08,dependabot[bot],build(deps-dev): bump supertest from 6.2.4 to 6.3.0 (#1695),False
+eea921a6033a96ae3e8334507903a51009c00b6a,2022-07-13 21:41:33,dependabot[bot],build(deps-dev): bump jest from 28.1.2 to 28.1.3 (#1679),False
+5e372304a92805ff1258a67b0d4869e1e3a667ef,2022-07-02 14:05:11,shfshanyue,chore: allow the compose function to be configurable,False
+30242ee546faf9138789dfa4d5ab44a219d47b41,2022-07-02 12:34:39,imed jaberi,fix: fix all eslint warns,False
+29f20de47dafbe7f89d023db2a0d359b455d3148,2022-07-02 12:33:17,dependabot[bot],"build(deps-dev): bump supertest from 3.4.2 to 6.2.4
+
+Bumps [supertest](https://github.com/visionmedia/supertest) from 3.4.2 to 6.2.4.
+- [Release notes](https://github.com/visionmedia/supertest/releases)
+- [Commits](https://github.com/visionmedia/supertest/compare/v3.4.2...v6.2.4)
+
+---
+updated-dependencies:
+- dependency-name: supertest
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+93b34d70a3efe1e1bffca68d7de98f4e5d4245d8,2022-07-02 12:29:28,dependabot[bot],"build(deps-dev): bump jest from 27.5.1 to 28.1.2
+
+Bumps [jest](https://github.com/facebook/jest/tree/HEAD/packages/jest) from 27.5.1 to 28.1.2.
+- [Release notes](https://github.com/facebook/jest/releases)
+- [Changelog](https://github.com/facebook/jest/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/facebook/jest/commits/v28.1.2/packages/jest)
+
+---
+updated-dependencies:
+- dependency-name: jest
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+7ab659423dbaee76481c5e6cb6cef021cc56c793,2022-07-02 12:28:45,wangqi,update node version to v12 in readme,False
+788947702c0f3ec31d983b49745259e533cd80b1,2022-07-02 03:50:05,Michael,Corrected typo to line 184 of Readme.md,False
+00ce71fddbacaf6a8f469b76606b93eebc705531,2022-04-06 21:39:57,dependabot[bot],build(deps-dev): bump eslint-plugin-import from 2.25.4 to 2.26.0 (#1660),False
+f3c67d997316aee48bd65798c37ea19a367a0fb7,2022-03-30 19:37:36,dependabot[bot],build(deps): bump minimist from 1.2.5 to 1.2.6 (#1655),False
+cc4cc1fe5724ffad48f4a7bbc52032b7afadc931,2022-03-21 21:40:20,dependabot[bot],build(deps): bump destroy from 1.1.1 to 1.2.0 (#1652),False
+d52e4ead281ecab09a0ccdbc47b28a7ff9c0e9fa,2022-03-17 21:39:54,dependabot[bot],build(deps): bump debug from 4.3.3 to 4.3.4 (#1651),False
+d7e0e27b2890937fd965438b394133a49c9dca33,2022-03-01 21:42:01,dependabot[bot],build(deps): bump destroy from 1.1.0 to 1.1.1 (#1649),False
+e00a77d5398e33242d855f390f12884bfc7d29ea,2022-02-23 21:39:24,dependabot[bot],build(deps): bump on-finished from 2.4.0 to 2.4.1 (#1648),False
+7173023e71527665ad640a887cb7e95ab3857c76,2022-02-22 21:39:56,dependabot[bot],build(deps): bump on-finished from 2.3.0 to 2.4.0 (#1647),False
+aa816ca523e0f7f3ca7623163762a2e63a7b0ee3,2022-02-08 21:38:52,dependabot[bot],build(deps-dev): bump jest from 27.5.0 to 27.5.1 (#1644),False
+ce18cd1db53134df2b67f4fbb9d9972206747628,2022-02-07 21:38:52,dependabot[bot],build(deps-dev): bump jest from 27.4.7 to 27.5.0 (#1643),False
+6fd149abad7a223f0e7113d3d401669c057ed128,2022-02-03 21:38:51,dependabot[bot],build(deps): bump accepts from 1.3.7 to 1.3.8 (#1642),False
+fc4d9eafbd4d37fa7548f113096cd0f876ac9454,2022-01-26 21:38:39,dependabot[bot],build(deps): bump destroy from 1.0.4 to 1.1.0 (#1641),False
+8c1dd481207de0930956304a3e9f1e103f8492a5,2022-01-05 21:39:52,dependabot[bot],build(deps-dev): bump jest from 27.4.5 to 27.4.7 (#1629),False
+3609065e6a4325273956a2c1948c3563522a30e3,2022-01-03 21:39:47,dependabot[bot],build(deps-dev): bump eslint-plugin-import from 2.25.3 to 2.25.4 (#1628),False
+910585d12bd8c530f0956a72cf3ddcb2e3a1a188,2021-12-14 21:39:23,dependabot[bot],build(deps-dev): bump jest from 27.4.4 to 27.4.5 (#1623),False
+27ebeab8be1101d014ab563f1775cbe7bf963a84,2021-12-13 21:39:08,dependabot[bot],build(deps): bump content-disposition from 0.5.3 to 0.5.4 (#1622),False
+6a7bdb4dc839dcf2c3b6a4958c0d11e3d0506e91,2021-12-10 21:39:16,dependabot[bot],build(deps-dev): bump jest from 27.4.3 to 27.4.4 (#1621),False
+07c17dda2cf5726842a8efc1f1298b7f107d0dc1,2021-12-01 21:39:26,dependabot[bot],build(deps-dev): bump jest from 27.4.2 to 27.4.3 (#1618),False
+0ed925d75c177c907b13428bdb1651a3116ec912,2021-12-01 21:39:24,dependabot[bot],build(deps-dev): bump eslint-plugin-promise from 5.1.0 to 5.2.0 (#1619),False
+771d59a8560a5286816a62a639795d70f9886f93,2021-11-30 21:39:06,dependabot[bot],build(deps-dev): bump jest from 27.4.0 to 27.4.2 (#1617),False
+9062e3d895c82dd3d3dc639adc456a53f3b116e7,2021-11-29 21:39:36,dependabot[bot],build(deps-dev): bump jest from 27.3.1 to 27.4.0 (#1616),False
+fe92ea2338c96fc8d5c4ef64801029e8c31b3ff7,2021-11-29 21:39:33,dependabot[bot],build(deps): bump debug from 4.3.2 to 4.3.3 (#1615),False
+e8146ad657a1e5897bf90d32f1b99a345cee42f7,2021-11-15 21:39:06,dependabot[bot],build(deps): bump http-errors from 1.8.0 to 1.8.1 (#1610),False
+4d7b81214c6b324105b38c0650c7bdff73c1057c,2021-11-10 21:39:09,dependabot[bot],build(deps-dev): bump eslint-plugin-import from 2.25.2 to 2.25.3 (#1609),False
+8f12940fd2f6f7d630de32671f8b94d7d129a6f4,2021-10-19 21:38:42,dependabot[bot],build(deps-dev): bump jest from 27.3.0 to 27.3.1 (#1603),False
+d99e93800cd80379ec97e5fe95100a849a82f477,2021-10-18 21:38:46,dependabot[bot],build(deps-dev): bump jest from 27.2.5 to 27.3.0 (#1601),False
+19f3353e5da6a0d52fb968a9429523585e42a288,2021-10-13 21:38:38,dependabot[bot],build(deps-dev): bump eslint-plugin-import from 2.24.2 to 2.25.2 (#1599),False
+9a9c2f5219aa9d1d37d4d1432a7c0b6fa8f94b72,2021-10-08 21:38:35,dependabot[bot],build(deps-dev): bump jest from 27.2.4 to 27.2.5 (#1596),False
+0772a22969c0d8c3fcf39ffeee020e158a349666,2021-09-29 21:38:16,dependabot[bot],build(deps-dev): bump jest from 27.2.3 to 27.2.4 (#1595),False
+9b6ea6763e6e780f3ea68153db9576c24b55336e,2021-09-28 21:38:19,dependabot[bot],build(deps-dev): bump jest from 27.2.2 to 27.2.3 (#1594),False
+7d8955b20a302e5ce7af0841bf3630ec217a7e60,2021-09-27 21:38:28,dependabot[bot],build(deps-dev): bump jest from 27.2.1 to 27.2.2 (#1592),False
+acb08e0f192fb2692e5dbb6d80dcffd101f2a41c,2021-09-24 08:24:15,hyj1991,fix: nodejs deprecated api <DEP0148> (#1585),False
+706042c998b435df23b2ddf7d84a38d7deced6a9,2021-09-22 21:38:28,dependabot[bot],build(deps-dev): bump gen-esm-wrapper from 1.1.2 to 1.1.3 (#1587),False
+6ec42897d3b70407a12ac7e423148f959b3ebfc7,2021-09-20 21:38:06,dependabot[bot],build(deps-dev): bump jest from 27.2.0 to 27.2.1 (#1586),False
+24009855a8847f753e840113344e8da15f7d3ee5,2021-09-13 21:37:04,dependabot[bot],build(deps-dev): bump jest from 27.1.1 to 27.2.0 (#1584),False
+d678b069bb2e3a62b6159fd568566e2b980a03ea,2021-09-08 21:38:04,dependabot[bot],build(deps-dev): bump jest from 27.1.0 to 27.1.1 (#1582),False
+f88499085fe511335adb141138a0cc381babcdff,2021-08-27 21:37:49,dependabot[bot],build(deps-dev): bump jest from 27.0.6 to 27.1.0 (#1581),False
+31d0751777ef50150e4a966b6b9672464990db38,2021-08-25 21:38:17,dependabot[bot],build(deps): bump http-assert from 1.4.1 to 1.5.0 (#1578),False
+ddec3415a37c6c7799ca6989ff57a122ea0dd868,2021-08-25 21:38:15,dependabot[bot],build(deps-dev): bump eslint-plugin-import from 2.24.1 to 2.24.2 (#1579),False
+ff3c6eab927d09e016f8ae02fa159b91529ea7a1,2021-08-25 09:21:23,shanyue,chore: update engines.node to v12+ in the package-lock.json (#1576),False
+e51a6cc8ef09eec163258a6ccbae745818d5f2b7,2021-08-25 09:19:56,dependabot[bot],"build(deps-dev): bump eslint-plugin-import from 2.24.0 to 2.24.1 (#1573)
+
+Bumps [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) from 2.24.0 to 2.24.1.
+- [Release notes](https://github.com/import-js/eslint-plugin-import/releases)
+- [Changelog](https://github.com/import-js/eslint-plugin-import/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/import-js/eslint-plugin-import/compare/v2.24.0...v2.24.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-import
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+5ee832c47813948a184cea30704ea5ea1b827ee9,2021-08-22 11:12:30,jongleberry,readme: add a link to slack group,False
+65f9c939e173ff2fab82ee9229a2213690959426,2021-08-18 10:49:39,jongleberry,context.response.get: fix test and lint,False
+5b076c5a31b9f27ab99a3bb738d5469c2e5b3b63,2021-08-18 10:47:20,Konstantin Vyatkin,"ctx.response.get - use .getHeader (#1392)
+
+* use .getHeader
+
+* add tests
+
+Co-authored-by: jongleberry <jonathanrichardong@gmail.com>",False
+6cf6a95ac33c7122222c31995d5e4a93367e6fbf,2021-08-18 10:42:13,jongleberry,fix: Set body to  if  and  @likegun closes #1059 closes #998,False
+94c2ac4f0fac2118c7eb5579c63e04f72cc35005,2021-08-18 10:36:01,jongleberry,fix: set content-Length header on explicit null body response @ognjenjevremovic closes #1528 #1525,False
+eb146dec50d5b7db755529da16819a8bbb7effc9,2021-08-18 10:29:43,jongleberry,"node v12+ only
+
+closes #1487",False
+33a8f39407087f2492c22ef478622f8ace14107a,2021-08-18 10:26:29,Matheus Souza,"Fix grammar mistake (#1527)
+
+* Fix grammar mistake
+
+* Simplify correction",False
+689c98d9f005bd5310242eae0d63a537c6c84ed1,2021-08-18 10:22:27,Piotr Kuczynski,"Fix jsdoc types for constructor (#1541)
+
+* Fix jsdoc type for options.proxyIpHeader
+
+* Update application.js",False
+39c0b48a7acfae950f41b1a001e35c9214b30a16,2021-08-18 10:17:13,jongleberry,fix: Do not response Content-Length if Transfer-Encoding is defined closes #1562,False
+03ff7624d42e73c82fa9463c41c81c9de71de018,2021-08-18 10:11:21,jongleberry,history: add a note about koa-convert,False
+e1b9488f9d0b7a97ff1a24e03198a0bbb65b888a,2021-08-18 10:10:03,jongleberry,:arrow_up: debug,False
+60c2d30a358975c83454c283923b24038463959a,2021-08-18 10:09:44,jongleberry,test: remove koa-convert and generators,False
+b747e16d75554203a28e55d87296e81f68b992f5,2021-08-18 10:07:31,jongleberry,breaking: remove koa-convert,False
+e9494b5b3e040e4427710649f28b6cfa3b3ae845,2021-08-18 10:05:33,jongleberry,"lint: stick to standard
+
+- less maintenance
+- more strict",False
+b37a2d09c137d9a553a0bdf8589b60c7f6425160,2021-08-18 10:02:39,jongleberry,:arrow_up: eslint dependencies,False
+4a410cc2fbd923868cac6a622f12cc652586abee,2021-08-18 09:59:16,jongleberry,migrate assert.deepEqual => .deepStrictEqual,False
+4545b59aa521e377a4ebb0ccbb8abec01981fbf4,2021-08-18 09:57:08,jongleberry,test: switch tests to jest,False
+596cfd542ccd1d89d97453e29cf499d49a82e743,2021-08-18 09:29:56,jongleberry,migrate assert.strict => .strictEqual,False
+be3e8b68ab58d469f0f450284528dbef32e2d7ba,2021-08-18 09:28:45,jongleberry,test: switch to github actions,False
+a2570e3ee622cfa5214c2f756ea03b3b7143dbf7,2021-08-18 09:26:41,jongleberry,package: update bench scripts,False
+000acf06ab3e37006569addc8ace5c0a4365daa1,2021-08-18 09:25:43,jongleberry,npm: enable package-lock,False
+47fdbca8b1c3999c5726f54531f8b47640a65a6f,2021-08-18 09:24:48,jongleberry,delete benchmarks,False
+0056f901e89fd0781067b2c9592fd5909f9ba94a,2021-08-18 08:56:58,jongleberry,Create dependabot.yml,False
+698ce0afbfac6480400625729a4b8fc4b4203fdc,2021-05-21 20:15:35,Ikko Ashimine,"test: fix typo in status.js
+
+releated -> related",False
+eb51cf5fb35b39592a050b25fd261a574f547cfa,2021-01-18 11:43:32,Yiyu He,doc: app.keys needs to be long enought and random (#1520),False
+5c32cbf03a10012a37d5bd6cfb0e4b577084da24,2021-01-04 20:41:51,dead-horse,Release 2.13.1,False
+b5472f4cbb87349becae36b4a9ad5f76a825abb8,2021-01-04 20:40:24,miwnwski,"fix: make ESM transpiled CommonJS play nice for TS folks, fix #1513 (#1518)",False
+b4398f5d68f9546167419f394a686afdcb5e10e2,2020-10-29 20:00:27,Matan Shavit,"correct verb tense in doc (#1512)
+
+In this sentence, the subject is the word ""using,"" which acts as a gerund, and not ""functions.""",False
+39e1a5a380aa2bbc4e2d164e8e4bf37cfd512516,2020-08-25 03:05:27,Hridayesh Sharma,"fixed multiple grammatical errors in docs. (#1497)
+
+* fixed grammatical errors in faq docs
+
+* fixed grammatical and style issues in error handling docs
+
+* fixed grammatical issues in guide
+
+* fixed grammatical error in error handling docs
+
+* Updated middleware to use plural form to be middleware instead of
+middlewares",False
+68d97d69e4536065504bf9ef1e348a66b3f35709,2020-08-24 15:20:49,niftylettuce,fix: fixed order of vulnerability disclosure addresses,False
+aeb5d1984dcc5f8e3386f8f9724807ae6f3aa1c4,2020-08-23 01:59:16,niftylettuce,docs: added niftylettuce@gmail.com to vulnerability disclosure,False
+6e1093be27b41135c8e67fce108743d54e9cab67,2020-07-30 09:54:15,miwnwski,docs: remove babel from readme (#1494),False
+38cb591254ff5f65a04e8fb57be293afe697c46e,2020-07-27 13:22:31,AlbertAZ1992,docs: update specific for auto response status,False
+2224cd9b6a648e7ac2eb27eac332e7d6de7db26c,2020-07-21 16:26:38,Imed Jaberi,docs: remove babel ref. (#1488),False
+d51f98328c3b84493cc6bda0732aabb69e20e3a1,2020-07-21 16:25:35,Imed Jaberi,docs: fix assert example for response (#1489),False
+f8b49b859363ad6c3d9ea5c11ee62341407ceafd,2020-07-21 16:24:44,Matt Kubej,chore: fix grammatical and spelling errors in comments and tests (#1490),False
+d1c92638c95d799df2fdff5576b96fc43a62813f,2020-07-14 18:11:46,imed jaberi,deps: update depd  >> v2.0.0 (#1482),False
+af3a1fd9b85b6291ff4ec2ce58749cc3874b8b2b,2020-06-21 21:27:18,dead-horse,Release 2.13.0,False
+20e58cf3e4f20fc5d5886df1d0ac6dd8c33bd202,2020-06-21 21:26:31,dead-horse,test: imporve coverage to 100%,False
+4a40d633c4b4a203c6656078f9952ccef65c5875,2020-06-21 20:56:06,dead-horse,build: use prepare instead of prepublish,False
+226ba8c8e81e83da48e7bf137be3f146d03f40b8,2020-06-21 20:50:08,dead-horse,build: use prepublish instead of prepack,False
+bbcde76f5cb5b67bbcd3201791cf0ef648fd3a8b,2020-06-21 19:56:48,ZYSzys,feat: support esm (#1474),False
+b7d8c97f49e2cb82eccac2b1a50cf7d806730046,2020-06-13 20:41:04,dead-horse,Release 2.12.1,False
+e2030c7249c7ae24e28158d8eae405a02fefc9f8,2020-06-13 20:39:43,Julien Wajsberg,"fix: Improve checks for Error in onerror handlers (#1468)
+
+Fixes #1466",False
+5208c5e15d35b3653fce6b8ed68d09865abea843,2020-06-13 20:35:58,Mike Vosseller,chore: Use single console.error() statement in error handler (#1471),False
+9ee65843d9be96329a3279c63657c2970e260acf,2020-05-17 21:32:11,dead-horse,Release 2.12.0,False
+0d2f421c265350d3d84e1bc261572954479f27d3,2020-05-17 21:19:44,Vijay Krishnavanshi,feat: error handler treat err.statusCode as the same as err.status (#1460),False
+faeaff5c149a81a188ab8e5af0b994029e45acbb,2020-05-16 14:10:34,Konstantin Vyatkin,fox: remove `error-inject` and fix error handling (#1409),False
+f7c732fd06f724505e9090add4d977e667da55a8,2020-05-16 14:03:29,Paul Annekov,docs: fixed incorrect onerror example (#1459),False
+143d8f72f2a232b4c97eac00e7811015911e4f7c,2020-05-15 22:42:12,Yazan Medanat,Always use strict equality. (#1225),False
+8d52105a34234be9e771ff3b76b43e4e30328943,2020-04-28 09:00:51,ejose19,"feat: allow bodyless responses for non empty status codes (#1447)
+
+Co-authored-by: Eladio Mora <eladio@atlasmarket.io>",False
+6b6b0ddf7aff073e65493c6efaffab8331c0331c,2020-04-25 12:10:32,Zac Anger,docs(api): add app.use chainability note (#1449),False
+8ddab48cbdbca1e6d1cc8c3ddae45491db524d51,2020-04-18 20:24:46,Marc-Aurèle DARCHE,"docs: Document response status with empty body (#1445)
+
+Co-authored-by: Marc-Aurèle DARCHE <madarche@users.noreply.github.com>",False
+7deedb235274223f1b9da46dee296545b23598de,2020-04-10 14:29:33,Brad Ito,docs: Updating context.md with the latest cookies opts (#1433),False
+3e97a106bb846d9337737011bb85149ddd797229,2020-04-10 14:28:25,laffachan,docs(links): remove Google+ link (#1439),False
+eda27608f7d39ede86d7b402aae64b1867ce31c6,2020-01-04 12:11:37,Olle Jonsson,build: Drop unused Travis sudo: false directive (#1416),False
+ed84ee50da8ae3cd08056f944d061e00d06ed87f,2019-10-28 08:22:49,dead-horse,Release 2.11.0,False
+422e539e8989e65ba43ecc39ddbaa3c4f755d465,2019-10-28 08:09:21,Yiyu He,feat: support app.proxyIPHeader and app.maxIpsCount to make ctx.ips more security,False
+4dc56f6d04e8f5fe12ba53a8a776653b3d7b60ed,2019-10-17 07:55:36,Konstantin Vyatkin,chore: update ESLint and plugins/configs (#1407),False
+be7d334778481639294cdf87f5c359a230aeb65b,2019-10-15 21:11:11,Konstantin Vyatkin,chore: removes code duplication at handling HEAD method (#1400),False
+f155785e2bb42b5ddf0a8156401c6dafdf57ba8b,2019-10-15 21:09:39,Konstantin Vyatkin,chore: support `writableEnded` (#1402),False
+b968688afe2c727ae141f50aa983d481dbc1dbbf,2019-10-15 21:08:18,Konstantin Vyatkin,chore: add FUNDING.yml (#1403),False
+4f968298f97394e488297ec32c8e927a3a322076,2019-10-15 07:47:29,Konstantin Vyatkin,chore: remove isJSON in res.length (#1399),False
+d48d88ee17b780c02123e6d657274cab456e943e,2019-10-14 17:30:45,Konstantin Vyatkin,feat: implement response.has (#1397),False
+8be5626bbb54e6c899a1b71d22411709126d9fea,2019-10-14 09:37:32,Konstantin Vyatkin,build: enable codecov partial coverage and use bash uploader (#1396),False
+ef5c43bcbcf31819e032c3b7ae7654b7f8e9358b,2019-10-14 08:49:07,Konstantin Vyatkin,chore: use rest params (#1393),False
+66c1593c20208adfa6cffdd772bca7ddc10f3202,2019-10-12 13:52:23,dead-horse,Release 2.10.0,False
+d7f7f77689e2eaef050686be2bdf3e72881a79ac,2019-10-12 13:51:52,Filip Skokan,feat: support sameSite=none cookies (bump cookies dependency) (#1390),False
+7b0370be37344daec7222064c3017ff518efeb7a,2019-10-12 11:17:54,fengmk2,Release 2.9.0,False
+2d1c5981869e0fe6f5bc71b5c5582accfd125cc6,2019-10-12 11:11:21,Micheal Hill,feat: export HttpError from http-errors library,False
+cf70dbc6d2ba62bf1eb12b563dd5ecd27af6e2be,2019-10-09 10:40:38,谭九鼎,Chore: Use https in readme (#1389),False
+a0d2816cba5d009017b452718b7b14ecdc66d086,2019-09-28 10:21:10,fengmk2,Release 2.8.2,False
+54e8fab3e3d907bbb264caf3e28a24773d0d6fdb,2019-09-28 10:19:57,fengmk2,"fix: encode redirect url if not already encoded (#1384)
+
+Same bug from express https://github.com/expressjs/express/commit/76eaa326ee8c4dda05568c6452286a16adb84c0b",False
+817b49830571b45a8aec6b1fc1525434f5798c58,2019-08-23 16:27:56,Robert Nagy,"test: fix body test (#1375)
+
+Setting body will set the content-length header. Unless the
+corresponding number of bytes are sent the response will
+be aborted and not emit 'end'.",False
+f75d4455359ecdf30eeb676e2c7f31d4cf7b42ed,2019-08-23 16:27:32,Robert Nagy,test: fix end after end (#1374),False
+061c21f336b57a35e82d98c919bd316f48aa8b41,2019-08-19 10:06:21,dead-horse,Release 2.8.1,False
+287e589ac773d3738b2aa7d40e0b6d43dde5261b,2019-08-19 09:24:41,dead-horse,fix: make options more compatibility,False
+1015cea41dd33d719177f5dc1fb62de14f4cfc38,2019-08-19 08:17:30,dead-horse,Release 2.8.0,False
+5afff89eca0efe7081309dc2d123309e825df221,2019-08-19 08:14:09,Jake,feat: accept options in the Application constructor (#1372),False
+3b23865340cfba075f61f7dba0ea31fcc27260ec,2019-08-19 08:13:35,Gunnlaugur Thor Briem,docs: parameter of request.get is case-insensitive (#1373),False
+a245d18a131341feec4f87659746954e78cae780,2019-08-15 23:01:15,Jeff,"docs: Update response.socket (#1357)
+
+* docs: Include `dead-horse`'s comment 
+
+https://github.com/koajs/koa/pull/1355#discussion_r302404837
+
+* Update docs/api/response.md
+
+Polish English
+
+Co-Authored-By: Martin Iwanowski <martin@iwanowski.se>",False
+d1d65dd29d7bbaf9ea42eaa5fcb0da3fb4df98e9,2019-08-10 21:10:27,Edvard Chen,"chore(deps): install egg-bin, mm as devDeps not deps (#1366)",False
+2c86b10feafd868ebd071dda3a222e6f51972b5d,2019-07-30 15:30:43,Yiyu He,test: remove jest and use egg-bin(mocha) (#1363),False
+219bf22237b11bc375e2e110b93db512f1acfdd4,2019-07-30 11:36:19,Peng Jie,"docs(context): update link (#1354)
+
+* docs(context): update link
+
+* docs(response): add code highlight",False
+52a673703a87a93c0f6a8552e6bd73caba66d2eb,2019-07-24 16:36:56,Imon-Haque,chore: ignore Intellij IDEA project files (#1361),False
+ff70bdc75a30a37f63fc1f7d8cbae3204df3d982,2019-07-11 13:14:52,Jeff,fix: typo on document (#1355),False
+b9e35469d3bbd0a1ee92e0a815ce2512904d4a18,2019-06-28 10:25:19,Peng Jie,docs(api): fix keygrip link (#1350),False
+d4bdb5ed9e2fe06ec44698b66c029f624135a0ab,2019-06-26 08:45:22,dead-horse,chore: update eslint and fix lint errors,False
+12960c437cc25c53e682cfe5bff06d74a5bb1eb9,2019-06-26 08:44:37,dead-horse,build: test on 8/10/12,False
+00e8f7a1b7603aabdb7fb3567f485cb1c2076702,2019-06-26 08:41:44,Alex Berk,"docs: ctx.type aliases ctx.response, not ctx.request (#1343)",False
+62f29eb0c4dee01170a5511615e5bcc9faca26ca,2019-06-26 08:37:09,Peng Jie,docs(context): update cookies link (#1348),False
+b7fc526ea49894f366153bd32997e02568c0b8a6,2019-06-10 12:19:53,Igor Adamenko,docs: fix typo in cookie path default value docs (#1340),False
+23f7f545abfe1fb6499cd61cc8ff41fd86cef4a0,2019-06-03 13:34:01,kzhang,chore: simplify variable (#1332),False
+132c9ee63f92a586a120ed3bd6b7ef023badb8bb,2019-06-03 13:28:02,Dobes Vandermeer,docs: Clarify the format of request.headers (#1325),False
+5810f279a4caeda115f39e429c9671795613abf8,2019-06-03 13:27:14,Andrew Peterson,"docs: Removed Document in Progress note in Koa vs Express (#1336)
+
+closes #1335",False
+75233d974a30af6e3b8ab38a73e5ede67172fc1c,2019-04-17 09:03:36,Vern Brandl,chore: Consider removing this return statement; it will be ignored. (#1322),False
+04e07fdc620841068f12b8edf36f27e6592a0a18,2019-04-16 15:35:18,Vern Brandl,test: Buffer() is deprecated due to security and usability issues. so use the Buffer.alloc() instead (#1321),False
+130e363856747b487652f04b5550056d7778e43a,2019-02-14 10:47:35,rosald,docs: use 'fs-extra' instead of 'fs-promise' (#1309),False
+2f2078bf998bd3f44289ebd17eeccf5e12e4c134,2019-02-02 07:14:11,James George,chore: Update PR-welcome badge url (#1299),False
+8b4e2cd3bc6e165a0ea544686346cd79e437bc28,2019-01-28 14:21:37,dead-horse,Release 2.7.0,False
+b7bfa7113b8d1af49a57ab767f24a599ed92044f,2019-01-28 14:20:27,Martin Iwanowski,"feat: change set status assert, allowing valid custom statuses (#1308)",False
+72f325b78edd0dc2aac940a76ce5f644005ce4c3,2019-01-14 22:05:24,James George,chore: add pr welcoming badge (#1291),False
+b15115b2cbfffe15827cd5e4368267d417b72f08,2019-01-14 22:04:12,call me saisai,chore: Reduce unnecessary variable declarations (#1298),False
+ad91ce2346cb34e5d5a49d07dd952d15f6c832a3,2019-01-07 14:11:45,dead-horse,chore: license 2019,False
+b25e79dfb599777a38157bd419395bd28369ee86,2019-01-06 13:21:55,Francisco Ryan Tolmasky I,"Mark two examples as live for the corresponding documentation change in https://github.com/koajs/koajs.com/pull/38. (#1031)
+
+Reviewed by @tolmasky.",False
+d9ef60398e88f2c2f958ab2b159d38052ffe7f8a,2019-01-03 18:18:31,Mikhail Bodrov,chore: Optimize array split (#1295),False
+9be858312553002841725b617050aaff3c48951d,2018-12-27 13:52:35,jeremiG,chore: replace ~~ with Math.trunc in res.length (option) (#1288),False
+7e46c2058cb5994809eab5f4dbb12f21e937c72b,2018-12-27 13:51:54,James George,docs: add link to the license file (#1290),False
+48993ade9b0831fbce28d94b3b0963a4b0dccbdd,2018-12-12 10:03:36,Douglas Wade,docs: Document other body types (#1285),False
+acb388bc0546b48fca11dce8aa7a595af2cda5e2,2018-12-12 09:54:18,Douglas Wade,docs: Add security vulnerability disclosure instructions to the Readme (#1283),False
+a007198fa23c19902b1f3ffb81498629e0e9c875,2018-12-07 12:58:23,Douglas Wade,docs: Document ctx.app.emit (#1284),False
+f90e825da9d505c11b4262c50cd54553f979c300,2018-12-07 12:54:51,Douglas Wade,docs: response.set(fields) won't overwrites previous header fields(#1282),False
+fc93c05f68398f30abc46fd16ae6c673a1eee099,2018-12-07 12:53:18,Vikram Rangaraj,docs: update readme to add babel 7 instructions (#1274),False
+5560f729124f022ffed00085aafea43dded7fb03,2018-12-07 12:52:12,Jordan,chore: use the ability of `content-type` lib directly (#1276),False
+281a04e8e12735300566b030d39eb277c8ad1e74,2018-11-09 23:13:06,dead-horse,Release 2.6.2,False
+325792aee92de0ba6fea306657933fc63dc00474,2018-11-09 23:12:08,ZYSzys,docs: add table of contents for guide.md (#1267),False
+99051992a9f45eb0dd79e062681d6f5d366deb41,2018-11-09 23:11:21,André Cruz,fix: Status message is not supported on HTTP/2 (#1264),False
+71aaa29591d6681f8579486f18d32ba1ee651a5b,2018-11-05 14:46:27,Martin Iwanowski,docs: fix spelling in throw docs (#1269),False
+bc81ca9414296234c764b7306a19ba72b2e59b52,2018-11-05 14:45:58,Jordan,chore: use res instead of this.res (#1271),False
+0251b38a8405471892c5eeaba7c8d54bd7028214,2018-11-01 16:48:24,Martin Iwanowski,test: node v11 on travis (#1265),False
+88b92b43153f21609aee71d47abcd4dc27a6586d,2018-11-01 16:47:16,Waleed Ashraf,doc: updated docs for throw() to pass status as first param. (#1268),False
+6c0e0d6e29ed49a34b3a87f19ea5dda048e46af1,2018-10-23 12:51:02,dead-horse,Release 2.6.1,False
+49642428342e5f291eb9d690802e83ed830623b5,2018-10-23 12:50:09,fengmk2,fix: use X-Forwarded-Host first on app.proxy present (#1263),False
+e01cc5a1cf930db7c2a4a69d73dfda5eb7856cba,2018-10-23 10:52:45,fengmk2,Release 2.6.0,False
+9c5c58b18363494976185e7ddc790ac63de840ed,2018-10-23 10:51:20,Martin Michaelis,"feat: use :authority header of http2 requests as host (#1262)
+
+close #1174",False
+9146024e1094e8bb871ab15d1b7fc556a710732f,2018-10-08 20:13:11,小雷,feat: response.attachment append a parameter: options from contentDisposition (#1240),False
+d32623baa7a6273d47be67d587ad4ea0ecffc5de,2018-09-20 16:13:23,urugator,"docs: Update error-handling.md (#1239)
+
+Docs incorrectly states that exposed errors are being logged by default error listener:
+""which simply log the error if error.expose is true""
+https://github.com/koajs/koa/blob/master/lib/application.js#L185",False
+e6853af649732e084067c0f3827a4b0c31a95a66,2018-09-11 20:54:46,dead-horse,Release 2.5.3,False
+2ee32f50b88b383317e33cc0a4bfaa5f2eadead7,2018-09-11 20:52:22,fengmk2,"fix: pin debug@~3.1.0 avoid deprecated warnning (#1245)
+
+closes https://github.com/koajs/koa/issues/1243",False
+2180839eda2cb16edcfda46ccfe24711680af850,2018-08-09 13:09:23,Clayton Ray,docs: Update koa-vs-express.md (#1230),False
+41257aa91e437149112668dd018aaa2081f98d0d,2018-07-12 11:46:53,dead-horse,Release 2.5.2,False
+5fad7cd915eabf80faa748e5a63e73c27fa0bf26,2018-07-12 11:45:53,dead-horse,chore: update authors,False
+311031421f2608ca89582cc28d01d4967cceb49a,2018-07-12 11:44:25,dead-horse,deps: upgrade all dependencies,False
+0b930665a8dd6fc607dbd1fe19cf36c10fe00a02,2018-07-12 11:40:12,Yiyu He,perf: avoid stringify when set header (#1220),False
+c6b8782553e916ee582081263486c58458318537,2018-07-11 15:19:25,Yiyu He,perf: cache content type's result (#1218),False
+162a5b3e78bf0838cee67119804f066d6e38bf02,2018-07-11 08:48:39,Yiyu He,perf: lazy init cookies and ip when first time use it (#1216),False
+74170caf0b332dae01fb81cf03145a17df83b6dd,2018-07-04 09:03:01,小菜,chore: fix comment & approve cov (#1214),False
+cde0bb10e9e583ab273b488a6ea857440a2ac444,2018-06-30 23:00:22,Asiel Leal,docs: fix grammar,False
+2cdbc52e38f3e805dc10adcbf06df12733f80fc9,2018-06-30 22:59:19,小菜,test&cov: add test case (#1211),False
+02feadc4dbb4f048a3d8dc1e5bf9cfe02dfdd5cc,2018-06-25 13:43:20,initial-wu,Lazily initialize `request.accept` and delegate `context.accept` (#1209),False
+8f047ddb844226a59d7175731fbcd43f1946d177,2018-06-25 08:04:15,Ruben Bridgewater,"fix: use non deprecated custom inspect (#1198)
+
+Custom inspection with the `inspect` property is deprecated and will
+not work in Node.js 11 anymore. This fixes it by using the custom
+inspect symbol where existent and falls back to the old style in case
+it does not exist.",False
+77a4cfb8297bed0bc577425a6f42a0397547ca32,2018-06-07 20:20:26,initial-wu,Simplify processes in the getter `request.protocol` (#1203),False
+4d42500e7622be66ffeb9a62f8529a0a5cb8dc05,2018-06-06 12:22:20,Jason Macgowan,docs: better demonstrate middleware flow (#1195),False
+ee1a933096ee31f7ae70b6b2bfa581d30477f783,2018-06-06 10:25:20,initial-wu,fix: Throw a TypeError instead of a AssertionError (#1199),False
+ef33a79874033c1a4cfffb23939c7df68546c503,2018-06-04 07:48:42,initial-wu,chore: mistake in a comment (#1201),False
+148f26f630f8588b20e731ab348b54791652a15b,2018-04-27 21:21:47,initial-wu,"chore: use this.res.socket insteadof this.ctx.req.socket (#1177)
+
+prefer a shorter path to the object",False
+45903f228a103e019f313ec83748d6692c4d0c4e,2018-04-27 21:18:51,Grand,"chore: Using ""listenerCount"" instead of ""listeners"" (#1184)",False
+45464b5174c38b4ed992356ac2e7e18d996172d5,2018-04-26 22:40:57,dead-horse,Release 2.5.1,False
+2ace7044acc2b461276cb5187dcdadafb69ff853,2018-04-25 13:51:57,Martin Iwanowski,test: node v10 on travis (#1182),False
+13086d2fcd5559296f473b4c7bbd56021f9cb373,2018-04-10 08:06:52,Ruben Bridgewater,"fix tests: remove unnecessary assert doesNotThrow and api calls (#1170)
+
+* tests: fix error verification
+
+So far the error message was not tested at all. This change makes
+sure the error will actually be tested for.
+
+* tests: remove unnecessary api calls
+
+`assert.doesNotThrow` does not provide any benefit since it will
+only catch errors and then rethrow in case of an error.",False
+8c175178098bed74048d066276bacdf597d3697e,2018-03-23 15:26:32,Shawn Cheung,use this.response insteadof this.ctx.response (#1163),False
+9cef2db87e3066759afb9f002790cc24677cc913,2018-02-19 17:04:38,Martin Iwanowski,deps: remove istanbul (#1151),False
+0698d67fef8925b749818029b6df402da1821acf,2018-02-17 01:26:51,Anton Harniakou,Update guide.md (#1150),False
+916f91472721741f96d45b734dfe5e30c7e17b9b,2018-02-11 15:10:10,dead-horse,Release 2.5.0,False
+3c23aa5b74d19352e0a78d135df5ed6979d4e242,2018-02-11 13:55:24,Yiyu He,feat: ignore set header/status when header sent (#1137),False
+0923ef6182d6bfe60c5758c256383e00f76fb5f1,2018-02-09 08:43:45,Martin Iwanowski,run coverage using --runInBand (#1141),False
+e544012e9ffe21f7e2f3273c9adf22b066c77bf4,2018-02-07 00:31:36,Joseph Lin,[Update] license year to 2018 (#1130),False
+a64e4ae982e57563820857866c2402dfb258a273,2018-01-31 10:35:49,Paul Anderson,docs: small grammatical fix in api docs index (#1111),False
+e5db6a9833b608e2b12dffa0fb3d089c984b3a64,2018-01-31 10:35:19,Tomas Ruud,docs: fixed typo (#1112),False
+c2615ecc5c7173127ddb343207a7f4f351c6acb0,2018-01-31 10:35:00,Mengdi Gao,docs: capitalize K in word koa (#1126),False
+6baa41178d3930df399fb367dbc3d73890760e02,2017-12-24 18:18:44,Alexsey,Error handling: on non-error throw try to stringify if error is an object (#1113),False
+53bea20e7960577234fcc86b38108af0c77fdb71,2017-12-24 12:31:01,Nick McCurdy,Use eslint-config-koa (#1105),False
+9068316fc750a4865cb9019ce44b0376ef9dbdcf,2017-12-24 12:25:45,Michał Gołębiowski-Owczarek,"Update mgol's name in AUTHORS, add .mailmap (#1100)",False
+79c3c7345232cb78b11092e12225c5b94689c3f6,2017-12-24 12:06:17,Nick McCurdy,Avoid generating package locks instead of ignoring them (#1108),False
+841844ee2fd0cf91478b5ed8d2f401e8b97eb4a2,2017-11-12 21:36:04,Mars Wong,chore: update copyright year to 2017 (#1095),False
+bd89dfcafc5263b80eb9b79834caf9661b1265e8,2017-11-06 19:53:34,jongleberry,2.4.1,False
+418bb066af4a79d52de7df913ca982607958dc5f,2017-11-06 19:46:32,jongleberry,2.4.0 – added missing 2.3.0 changelog,False
+c68a6966c21ff4a4654b0de4b0c68750fb6c8c5e,2017-11-06 19:33:36,jongleberry,2.3.0,False
+687b73257bca6f946fde2aebb74c60a4e089bd14,2017-11-06 18:38:21,jongleberry,travis: test node@9,False
+53a44461230199fd175a9f1c77ba66c7943bfaf5,2017-11-06 17:51:52,Riceball LEE,"expose the Application::handleRequest method (#950)
+
+* * expose the Application::handleRequest method to extend the context
+
+* * minor change the handleRequest comment",False
+85ff544f7a6af764c15496f7a7fecfaac3ebcd06,2017-11-06 17:48:58,Martin Iwanowski,deps: update min engines (#1040),False
+60290647560025e43495bd60f5ef054973f014e3,2017-11-06 17:47:43,Bernie Stern,HTTP/2 has no status message (#1048) (#1049),False
+18e4fafb024366112b22084e2d0311dd5f4f8922,2017-11-06 17:30:22,Sergei Osipov,Update fresh to ^0.5.2 to close vulnerability (#1086),False
+e8a024cbc0d962f397f2b9dde124b8ff9fec5ebd,2017-11-03 08:43:19,Jonas Zhang,docs: ddd Chinese docs link  for v2.x (#1092),False
+1e81ea36910d6dc599f8868e0e31443f63399eba,2017-10-18 13:52:26,"Taehwan, No",docs: update babel setup (#1077),False
+43a1df8200dad6860f688713a112785535a3ed3d,2017-09-27 08:28:37,Nick McCurdy,test: Remove --forceExit flag for Jest (#1071),False
+0168fd87a8b63d2fe3e068fe6a5d94801a515fe5,2017-09-26 09:52:22,Pedro Pablo Aste Kompen,docs: Update middleware.gif (#1052),False
+e1e030cc3d8dfa53c8ed15b0bf05c90319820525,2017-09-26 09:38:21,Shawn Sit,docs: command is wrong for running tests (#1065),False
+77ca4290a1b5cf7d188e87ef3f281c2bffe33003,2017-09-26 09:37:57,JamesWang,test: replace request(app.listen()) with request(app.callback()),False
+7f577aff2d5017951bc1e7a13250f9954420913a,2017-09-26 09:32:07,Martin Iwanowski,meta: update AUTHORS (#1067),False
+f3ede44ffa6b59dcdc4d94d1faaa223aa6c60a51,2017-09-26 09:30:15,Hrvoje Šimić,docs: fix dead link to logo image (#1069),False
+7e78147f526799fd3dbe1cca844bd137cd03c933,2017-09-19 13:53:32,Martin Iwanowski,tools: remove --fix to catch lint errors (#1062),False
+09f1b7bb1f6c2e94935139bfee2dd5fa8965359b,2017-09-13 23:28:43,Todor Stoychev,docs: fix typo (#1058),False
+86ab4ae84a1bd71fe719be200504fe180988127f,2017-09-12 08:05:13,jongleberry,"Revert ""refactor: remove duplicate assignment in respond test (#1055)"" (#1056)
+
+This reverts commit c161c0f2e9f28cea895c38aa2c3ec6ea8b85be44.",False
+c161c0f2e9f28cea895c38aa2c3ec6ea8b85be44,2017-09-11 22:52:34,Clark Du,"refactor: remove duplicate assignment in respond test (#1055)
+
+Signed-off-by: Clark Du <clark.duxin@gmail.com>",False
+392e8aa90d0f00acda49015866c1d9e82b3934c7,2017-08-17 22:50:57,Usman Hussain,Koa routing (third party libraries support) (#1038),False
+78832ff6c63fdd93ad9a49f31ba2edd8cbe8adee,2017-08-03 07:03:51,Yu Qi,bench: add bench for async/await (#1036),False
+7294eae07890b2cf07f7f6fc2b7f234423064203,2017-07-21 06:32:17,Rico Sta. Cruz,koa-vs-express: Update note about generators (#1015),False
+40a6dd2c803ea639a78a12f3ff056983a0986821,2017-07-21 06:31:03,Saad Quadri,docs: improve consistency in api code examples (#1029),False
+0c44c11ce35a47860f2f07b12ddec7da1c066cc2,2017-07-19 23:34:59,Hartley Melamed,Updates documentation to include reference for RFC2324 (HTTP Status 418) (#1028),False
+67630217ae8383c0f24d3653408bc41ad77e54fc,2017-07-16 05:35:26,Luke Bousfield,"Fix context.inspect when called on the prototype (#1012)
+
+* Fix context.inspect when called on the prototype
+
+Fixes #837
+
+* Add tests",False
+9f2182dec75fd326e333942403ae8f2230c20eb6,2017-07-13 23:22:07,haoxin,docs: fix typo (#1023),False
+87cde82399fff84a1628bbb37eb379f8e3306921,2017-07-07 13:18:31,Chiahao Lin,docs: modified examples using the wrong keyword (yield -> await) (#1021),False
+aaac09af1a6aa02161fead1422fac460fbdcce3e,2017-06-20 22:31:10,jongleberry,2.3.0,False
+327b65cb6b86e31285cbe5c423505da15ca589f6,2017-06-20 22:27:30,Martin Iwanowski,"Use node 7+ WHATWG parser for hostname, fixes #1002 (#1004)
+
+* Use node 7+ WHATWG parser for hostname, fixes #1002
+
+* only use URL if host is IPv6, expose parsed URL
+
+* catch invalid URLs, memoize empty obj
+
+* hostname returns empty string when URL throws",False
+012587889d67464316ada42eeb525367756075be,2017-06-20 22:27:07,Martin fl0w Iwanowski,"added setters for header and headers, fixes #991",False
+f6f1ab73e10586e07632667b8720f6dc3e567d6a,2017-06-20 22:27:07,Martin fl0w Iwanowski,lint: commit --fix,False
+4b41a8b94b4a88660a6aab0ff17ca5a34953c836,2017-06-20 22:27:07,Martin fl0w Iwanowski,"update gitignore, added package-lock",False
+41f87763500dca497dd71b836d675c44a0931977,2017-06-20 22:26:47,Yiyu He,"test: run ci on node 7,8 (#992)",False
+beec26ebf842a55ba02a6c6ef210ce67954d12e2,2017-06-13 00:08:25,designgrill,"docs: A middleware is always responsible for calling downstream (#978)
+
+Irrespective of whether it is called by an upstream middleware or not.",False
+0a7856ca156245e13dad568d8a14045d1a62cb54,2017-06-13 00:07:16,Kareem Kwong,docs: Add note about overwriting charset in response.type (#993),False
+7941fb522121bbc069d0d9ad6ebef8631cbcd96f,2017-06-13 00:06:19,Richard Marmorstein,grammar (#994),False
+08eb1a20c3975230aa1fe1c693b0cd1ac7a0752b,2017-05-21 21:03:25,Equim,docs: apply `Date.now()` to all docs (#988),False
+302814e7a3ae214e0791edd9a513db9cba4f9b61,2017-05-21 11:10:08,Shaun Warman,docs: Fix minor nitpick in  documentation (#987),False
+bfce5806c2c155307067492ef16a87dab391c550,2017-05-17 08:08:00,song,"Update Readme.md (#985)
+
+Change ```new Date``` to ```Date.now```",False
+d394724200d0e36e6af6db2edb524820212da915,2017-05-11 09:00:32,Gilles De Mey,test: Use Jest (#981),False
+13c7ca61392acecff026a079623ab0d928ea0d93,2017-05-05 22:57:11,ziyunfei,res.type=: remove no-op code (#980),False
+9248660efde0c837959a2609a6f3014c53f449d2,2017-04-29 08:00:24,joehecn,test: fix spelling error (#972),False
+32ebd1bd6a68307a29af4ad076c2385327fb78d5,2017-04-26 22:16:25,TJ Holowaychuk,"Update Readme.md
+
+I'll fill everyone in a bit",False
+3bbb74b3eee914bdc8bd504ac1ad70d6de551960,2017-04-24 04:47:48,Francisco Presencia,"docs: added note about arrays (#964)
+
+Added note about arrays being returned as JSON.",False
+2da3dd49fa5ddb4cc8989e495698e92109c8c5fa,2017-04-24 04:44:34,bananaappletw,eslint: remove unused eslint-plugin-babel (#969),False
+ee5af59f1f847922c9cf41ccedbdbe6a3c024c2e,2017-04-24 04:44:16,Thiago Lagden,replace apply by spread syntax (#971),False
+7f3d0765d761bd05f330ef2e210c811b425b12b9,2017-04-21 19:19:06,Remek Ambroziak,docs: fix documentation to match new http-errors API (#957) (#967),False
+cd5d6a1c373b53831021376b6f7d2e04d4c05f97,2017-04-21 13:20:39,George Chung,"docs: reorganize ""response.status="" section (#966)
+
+Reference: https://github.com/jshttp/statuses/blob/v1.2.0/src/iana.json
+Since koa@2.2.0 depends statuses@1.2.0",False
+1b3e08e046b762fa0aea4403ac398bdf5d2b811c,2017-04-20 08:13:06,joehecn,test: change a describe to it (#963),False
+19fc4194b782f0ff47b719c3c9c1122c5e7f9ca1,2017-04-17 09:32:32,joehecn,Test: change a describe to it (#959),False
+cb12aa8ae5f395aed6d82ea714d837e69324698a,2017-04-14 23:20:31,Aesop Wolf,"readme: update the order of accepted functions(#958)
+
+Update the order of accepted functions so that it matches the following blocks of text.",False
+7bd82ac4103aef28fb2d2f40be91f495dfa6db5d,2017-04-13 11:17:17,jongleberry,:arrow_up: koa-compose@4 — remove any-promise,False
+3721f6be0b84801bbdba492031e4ef8504a4bfc6,2017-04-13 11:11:38,Martin Iwanowski,test: remove redudant test case (#956),False
+efb05d28365490a6af00d8a3d75570ed2d111df7,2017-03-28 12:56:09,bananaappletw,eslint: remove deprecated babel/arrow-parens (#953),False
+87036857e6b79cfd564d7bf2352ef7abb922b48d,2017-03-28 01:07:42,Ivan Kleshnin,readme: fix typo (#951),False
+18d753ca2d254d7d6853dbfee5a5744d0efdcaf3,2017-03-20 12:18:37,Fangdun Cai,use Buffer.from instead (#946),False
+682d7b484a3bd28d742a94ecd897904f7a84bd54,2017-03-19 22:32:21,Michał Gołębiowski,docs: add the missing next param (#942),False
+9a9949f9eef95fbe95e11ada5b677dd7aa284fce,2017-03-14 14:27:39,jongleberry,2.2.0,False
+55d1d9a607d3231c5ea7c53676d37be937b25fc9,2017-03-14 14:25:54,Lee Bousfield,travis: cache node_modules (#934),False
+4816cd76f09171496f95b9fcefb0113f30c91229,2017-03-14 14:25:15,jongleberry,":arrow-up: deps
+
+closes #939",False
+f841418b10dba252a7b082ea812910801e594786,2017-03-14 14:18:36,jongleberry,"package: drop package.engines.node req to v6
+
+closes #938
+closes #936
+closes #935",False
+ebed04f34279eca9fb4165ed88b83b31e2f2dd77,2017-03-08 12:39:56,jongleberry,2.1.0,False
+e6539e1cf28e5cb5418d9dd3c364c03198610cf1,2017-03-08 12:35:28,Lee Bousfield,"Return middleware chain promise from `callback()` (#848)
+
+The v2.x version of 8836cd3 on master.",False
+65c130db5bdb9d971bb695966c9a22efd3b56d52,2017-03-08 12:34:43,jongleberry,"readme docs++ (#932)
+
+* Better expose documentation in overview readme
+
+* Add code examples for context, request and response
+
+* docs++
+
+* fix indentation",False
+e81233903335f5c4573cbc65b2e70cb3cf7828fe,2017-03-08 12:29:42,jongleberry,"docs: create v2 Migration document (#931)
+
+* Give v2 migration documentation its own document. Incorporate docs from #533
+
+* Fix mis-capitalization of Koa
+
+* Remove unnecessary Dependency section
+
+* Hint at koa-convert enabled compatibility
+
+* Add section on constructing with new
+
+* Clarify es6 constructors are used
+
+* Fix varying capitalization
+
+* Restore mistakenly removed Dependency changes section
+
+* v1.x should not receive feature updates
+
+* Add next() to signature, add missing backticks
+
+* docs++",False
+e9d7abaf7906ccf721a1a92aae2b900c828eae79,2017-03-08 12:29:24,jongleberry,"res: use http.ServerResponse._header when accessors exist  (#930)
+
+* Don't use http.ServerResponse._header when accessors exist
+
+Structure of http.ServerResponse._header will change in future
+Node versions. Avoid reading and setting it directly when
+helpers exist.
+
+* Add new header test case
+
+* make things a little more strict",False
+188c0968e1f1f9bf03d7fba451979856ecc74bea,2017-03-02 05:20:02,Jeff Moore,"Add Troubleshooting documentation (#921)
+
+* Move Common Problems wiki documentation to troubleshooting.md
+
+* Fix header levels and TOC linking
+
+* Change header structure, move causes to their own sections
+
+* Fix fragment capitalization
+
+* Add an example for missing await
+
+* Cleanup language due to problem generalization
+
+* Add visibility for troubleshooting
+
+* Fix fragment typo",False
+e452b68bd9eecad2f517bf4e8fddadea0bca3d19,2017-02-28 08:22:54,fengmk2,feat: set err.headerSent before app error event emit (#919),False
+0c28d1f57bacdab7574c230890f6814e998dade8,2017-02-26 23:53:42,Ilkka Oksanen,Fix async/await babel recommendation,False
+909b829ac6c8ec7957a9628f424045206d63975f,2017-02-26 23:53:11,Stéphane Bisinger,Fix typo,False
+d740d9b2b1a5104e95f203e5ca09819979bc7f4a,2017-02-26 19:11:14,Ilkka Oksanen,Update the link to migration instructions (#916),False
+73e9e13580b287c20d95e9395af32f8a29fe49a6,2017-02-26 13:27:49,Yiyu He,chore: unify badge's style (#914),False
+612a77b72b7a7cb699997118a8f1f94e3dbff20d,2017-02-26 01:39:51,jongleberry,travis: test node@8 nightly,False
+207aa4e75b2dfa4c444979a5fb932626551e8b7f,2017-02-26 00:29:55,石发磊,"readme: change `generatorFunction` to `generator function` (#912)
+
+change word `generatorFunction` to `generator function`, because to correspondence with the above form",False
+0c2d881b671c0d36c2a944bb525013c61bc1829b,2017-02-25 18:59:16,Filip Skokan,update engines in package.json for 7.6.0 min node (#911),False
+2fda9dd0bf14e2e133cab6e69c930e70442c4b3b,2017-02-25 12:20:07,Xavier Damman,"Added OpenCollective backers and sponsors (#748)
+
+* Added OpenCollective backers and sponsors
+
+* Removed become a backer/sponsor links",False
+6c6aa4dab41bd3d11a62afe5de9fc144f9b2add3,2017-02-25 12:17:45,jongleberry,2.0.1,False
+4e5deaeb9cf579ca7e7a49625b0ce076df5734ce,2017-02-25 12:08:20,jongleberry,history++,False
+65061085e44e8af89c4168a12b1d96def79fc048,2017-02-25 12:00:37,jongleberry,package: remove publish tag,False
+d4b32234eabb1a40f0d91d8b8b0e5032a0af7215,2017-02-25 12:00:11,jongleberry,docs++,False
+f191c0def4859cb7f89a13dad96bc23040daf959,2017-02-25 11:53:31,jongleberry,package: oops re-add babel-eslint,False
+a7c4236728ab9375e4436bd10aa3c01a9442b09a,2017-02-25 11:36:41,fengmk2,"fix: add named arrow function for request and response handlers (#805)
+
+cherry-pick #804",False
+cd02834f75e5a66b43eff86c35c3aea947fb08f0,2017-02-25 11:36:01,jongleberry,travis: only test node v7.6.0+,False
+9671add57d51d276f34eab898bd661e2be07f95a,2017-02-25 11:35:25,jongleberry,test: remove babel tests as they are no longer needed in node v7.6,False
+df7b4ff2b882914748d37ae17de951e62d4b3bd4,2017-02-25 11:13:26,jongleberry,"docs: replace the reference to co
+
+closes #893",False
+00156dfec675e27ea5f46fbe54413829b9188dbf,2017-02-19 03:31:58,Amit Portnoy,remove unused app.name (#899),False
+152b6d73b75a47ec154c21e6fe17bee02ce3fbbf,2017-02-19 03:27:45,Lee Bousfield,"Fix response.status default value documentation (#889)
+
+Resolves #888, also see #705",False
+8435268efc3f301254b69bcd6da7659664ea1c73,2017-02-13 20:32:58,Wang Dàpéng,Upgrade mocha (#900),False
+d48291f40a0a6954511ab1dbe568b5a18f9f1814,2017-02-13 08:40:34,dead-horse,Release 2.0.0-alpha.8,False
+7ae9c3e1099688ada21411a350d2b50dae629388,2017-02-13 08:35:35,Rui Marinho,Fix malformed content-type header causing exception on charset get (#898),False
+2db3b1b49aee3c32938a06c07b816aeda720a72b,2016-12-06 21:52:11,iamchenxin,"Fix typo for accepts(). (#863)
+
+it return {String|Array|false}, never return undeifined.",False
+fabf5864c6a5dca0782b867a263b1b0825a05bf9,2016-12-01 15:46:02,iamchenxin,"Amend typo, request.is() return null|fasle|string. (#864)
+
+Modifying the test for `null` from `==` to `===` to make sure it must be `null`.",False
+e3ccdac6218d4c7d3c8ac7941b4550f39b31c8a3,2016-11-25 09:21:02,Malcolm,Clarify behavior of ctx.throw in docs (#856),False
+2a16426afe87338bb83bc1eb64d57335656e33d9,2016-10-17 21:15:06,Avindra Goolcharan,"nit: fix grammar in generator deprecation warning (#834)
+
+This fixes the tense of `will been` to `will be`",False
+ce78786f950851c4bc6525b4c3b05eedaea267b2,2016-09-07 13:59:46,dead_horse,Release 2.0.0-alpha.7,False
+21c0d823ddffbc967fae5a2feb3c4c736effb5be,2016-09-07 13:51:32,Adam Lau,"fix: subdomains should be [] if the host is an ip (#808)
+
+Closes: #775",False
+e4c0a5342104443306e10e47fc7e16b20792b56a,2016-08-29 08:55:30,dead_horse,Release 2.0.0-alpha.6,False
+4338cb6c140b88281cc22c195cd0b440ea4645b1,2016-08-29 08:48:30,Yiyu He,[breaking change] don't bind onerror to context (#800),False
+614b4e1ad74d96f968bdfe080b6d1f1189a863bb,2016-08-22 09:51:09,Ivan Lyons,`yield` => `await` (#798),False
+0d7aeb1f7c773d0e0c8fbedbfa21c1e3d2a3f350,2016-08-11 00:46:39,jongleberry,2.0.0-alpha.5,False
+2abed6ec75d81df5341430409209013e021cfdf0,2016-08-11 00:45:48,jongleberry,"fix: res.flushHeaders() (#795)
+
+* fix: res.flushHeaders()
+
+* remove arg to flush headers
+
+* fix tests for node v4 and v5",False
+ce75a9c87292e886b50d5285d9a5f4e438c2d484,2016-08-06 10:36:31,Jacob Bass,"fixup babel setup instructions (#794)
+
+old instructions pointed to incorrect npm module names",False
+742a675e6070f3a994cd6be5b4085dec8972353c,2016-07-23 23:36:19,dead_horse,Release 2.0.0-beta.4,False
+a1cdbdafcfa8423a29e5cc3b93e99d0daeab0f6e,2016-07-23 23:20:17,dead_horse,"docs: update babel setup
+
+closes #783",False
+23903e7ef4d5e62bad037664502aa3f7750ba237,2016-07-23 22:50:29,Yiyu He,fix(response): correct response.writable logic (#782),False
+2c507d335d1125eaf9fd6770519e9e2be47c5961,2016-06-22 08:31:51,qingming,fix typo (#756),False
+d47d0f9619901051aeec4bc30ce1037668e2e1d5,2016-05-27 11:11:22,Martin Iwanowski,"fix broken link, fixes #741 (#745)",False
+b16d24ecb83b403e26f9c4f9c5f67023fbdeb6f7,2016-05-26 11:01:11,Yu Qi,"add maxAge and overwrite options to ctx.cookies.set(name, value, [options]). (#742)",False
+e61d54565b6bfe1810ea41afa702db8f9c06691a,2016-05-14 21:06:50,jongleberry,"docs: add more docs about app.context
+
+references:
+
+- https://github.com/koajs/koa/issues/652",False
+808768a5977321e61f506f65d553679a93120daa,2016-05-13 11:57:18,Zack Tanner,copy tweaks (#731),False
+41afac3eba42b1a3129a92fbbda3c075951ee6d7,2016-05-02 01:50:39,jongleberry,travis: test node@6,False
+c97905608784815c59eea22a4256923c3a1e4796,2016-04-30 12:49:29,Yu Qi,"fix tests on node 6
+
+parsed querystrings no longer inherit from the Object prototype",False
+e0a0d9f7cc978b7e376d1fea8634df40ad11759e,2016-04-20 11:45:11,d3v,"fix: v1 artifact ""this"" reference (#711)",False
+54e58d352311ef49147bcc7844f98078c6e76368,2016-04-04 08:00:06,PlasmaPower,req: Cache the request IP,False
+826ad83db6f2809803ab16f672366bb25e5f70ad,2016-04-04 07:58:06,PlasmaPower,travis: move to container travis builds,False
+fd839976e2cdb507b94588110710cebcfcdcbba7,2016-04-03 06:11:04,Marceli.no,"Typo
+
+Significant, but insignificant. Feel free to discard this pull request and make the change yourselves :)",False
+be87ef8a2405b91fafdcb1dc86f0770b2244519c,2016-03-29 02:51:05,jongleberry,"lint: upgrade packages, fix generator star spacing",False
+177b599fd5fab1f5a58f1a2f808060c85236eacf,2016-03-27 22:55:09,Yiyu He,"Merge pull request #699 from PlasmaPower/patch-2
+
+Correct ctx.assert documentation parameter order (v2.x)",True
+9c6969755fe01d91a7d68083062156f3184d8d0c,2016-03-27 08:56:09,PlasmaPower,Correct ctx.assert documentation parameter order,False
+bd3d9e5100f7fbdaa1f47e3d943652a266e4c4c9,2016-03-23 00:20:11,jongleberry,"Merge pull request #690 from PlasmaPower/patch-1
+
+Docs: v2 error handling is environment independent",True
+efcdd3b93e783aff82ab701fdd7c0828537fbf1d,2016-03-22 23:52:43,PlasmaPower,Docs: v2 error handling is environment independent,False
+2b094eb895f1ef39eecf9eace63b1520550d4ea7,2016-03-22 23:33:19,jongleberry,docs: update history and docs for v2,False
+daf688bf69afe2c62dc2a5b6ae5af3c2ea11b031,2016-03-22 22:43:35,jongleberry,"Merge pull request #683 from fl0w/v2.x
+
+convert generator-mw with deprecation warning",True
+0ac4ff00c678320ddd1e8a9c4a81b2257de78fc4,2016-03-22 12:05:05,Martin Iwanowski,Convert generator-mw with deprecation warning,False
+a1aec3d16377c4d077adc50404187ebd6ecec8f3,2016-03-22 00:52:44,jongleberry,"Merge pull request #686 from robinpokorny/lint-js-in-markdown
+
+Correct code style of JavaScript in Markdown",True
+340dd4f1a3c0b715e259bbcbea9d05aeb79619c1,2016-03-16 21:20:10,Robin Pokorný,Lint JavaScript in Markdown,False
+39f058e11cfc5d1fa94beb8455786348232fe05b,2016-03-16 02:27:22,dead_horse,fix cookies' secure detect,False
+bcada5bde9d5f13ed92a48079cb81f094b796939,2016-03-16 01:08:44,jongleberry,"readme: update URLs based on HTTP redirects
+
+see: a25ab12116cf5b0dd608e009a01c700278a9b3e7",False
+9ba2f9c5df6ada518385162b9e9986eebe4a178f,2016-03-14 20:46:01,Yiyu He,"Merge pull request #681 from PlasmaPower/update-error-handling-doc
+
+Update error handling doc to use promises+async (v2.x)",True
+1d1698eb853718890d55ef634096f9db57b9450b,2016-03-13 08:49:55,Lee Bousfield,Update error handling doc to use promises+async,False
+882ea7e87aba3b95d696d515a9fa0c1c92b63154,2016-03-13 08:03:47,jongleberry,"Merge pull request #678 from PlasmaPower/cherrypick-to-next
+
+Add support for headers in errors (v2.x)",True
+04a7122e22d87fc38d01e4e65cc3a4c82caea1ce,2016-03-13 08:03:02,Jonathan Ong,lint: benchmarks/,False
+2df468b524345eb5173b3d8bcfc2188a560edbdd,2016-03-13 08:02:39,jongleberry,"Merge pull request #679 from PlasmaPower/remove-unused-http
+
+Remove unused http variable (v2.x)",True
+551715821bf6de365b4c820860a4bf5b0aeab9f6,2016-03-13 08:00:43,Jonathan Ong,travis: run lint,False
+597638ded6e2462fe310bee48c7dbc9e0d1be6fa,2016-03-13 06:23:14,Lee Bousfield,"Remove unused http variable
+
+ESLint now runs fine",False
+a440425dc2ee21ff047a896d4f44705e4641e901,2016-03-13 06:16:35,Lee Bousfield,Add support for headers in errors,False
+3d15c2409d9797177370c32ef2358cfd47ed7607,2016-03-13 03:52:42,Bartol Karuza,"JSDoc question/suggestion on optional parameters
+
+Hi, Webstorm keeps giving me warnings on the 'redirect' method, because the JSDoc specified two input parameters, both required. There is a JSDoc standard for optional parameters. What is your view on using these in KOA documentation?
+http://usejsdoc.org/tags-param.html#optional-parameters-and-default-values
+
+closes #661",False
+d768ed83b605b76d4d09c20abc2366a92dc1bf7f,2016-03-13 03:52:28,Jonathan Ong,docs: note stream error handling and destruction. ref: #612,False
+86a6f2b380bc196e7fe228d145d07798771c198f,2016-03-13 03:52:16,TJ Holowaychuk,"add CODE_OF_CONDUCT.md
+
+aka dont be an asshole",False
+a808671340ed3531fc20a8e2e9cd0a43bfe370c2,2016-03-13 03:50:46,dead_horse,"add app.silent, err.status, err.expose to doc, fixes #630",False
+53a165f543f3352c71c0444a7a386a0730aed0de,2016-03-13 03:49:44,Prayag Verma,chore(license): update license year to 2016,False
+d74802dc70ea3e81182d5dc40fe2d90c011a5a43,2016-03-13 03:49:27,Louis DeScioli,Standardizes instances of removeHeader to remove,False
+7373c7eca1a5f3b942ba27dae020ed895281f95c,2016-03-13 03:41:19,jongleberry,"comments: remove vague TODOs
+
+closes #576",False
+82bdb8223dbe6fe3b618b43f3ea725ef10f22100,2016-03-13 03:40:02,Jonathan Ong,travis: install wrk,False
+5d8b759e1100593403ad174923c125c44e4b4abd,2016-03-13 03:39:33,Jonathan Ong,"travis: run 'make bench'
+
+closes #191",False
+5d330b095f268aa4166f844bf4920630509fc7f8,2016-03-13 03:39:06,jongleberry,use codecov instead of coveralls,False
+dbcbc28b118d2211d4a0f00531e27b2de9c3baac,2016-03-13 03:33:10,Jonathan Ong,package: :arrow_up: dependencies,False
+b658fe7ca04329e6c65ef7fb1487c7dd20cafddb,2016-03-13 03:19:02,jongleberry,"Merge pull request #675 from PlasmaPower/flush-headers
+
+Add support for flushing headers",True
+6a147726bd720915b5447768dee4a70740d81d07,2016-03-04 09:31:56,Lee Bousfield,Add support for flushing headers,False
+291c7c329f2f75442b37b0429ee135987acc2d9b,2016-01-24 11:10:42,Yiyu He,"Merge pull request #651 from geekplux/patch-1
+
+fix the error message",True
+897ad7aca8b02624a27f6895c1e32908cc1c063f,2016-01-24 10:05:03,Xiang Gao,fix the error message,False
+5384f104976d6ac4ed12f7d64a7e695943651fbe,2016-01-18 05:36:31,jongleberry,"Merge pull request #637 from koajs/Pana-v2.x
+
+Pana v2.x",True

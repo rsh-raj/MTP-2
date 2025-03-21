@@ -1,0 +1,1223 @@
+Hash,Date,Author,Message,IsMerge
+b5f4e01a655812e06b377fff497fc629c02002f3,2023-03-18 08:32:47,_,Small updates,False
+58490614db33031a6d1a3573bbe7718c2ef861b9,2021-11-23 03:06:59,Julian Lloyd,Remove stale Sauce Labs matrix,False
+bc8fd853b56d06d265b2630ccb9c39e1db7fe9b7,2021-03-05 05:31:10,Julian Lloyd,ScrollReveal v4.0.9,False
+cb9b5155a6edcbff195f26fb4d6218dcb38a217c,2021-03-05 05:28:00,Julian Lloyd,"Refactor string parsing
+
+Fixes #531",False
+eb240482ab6b14db6c885ab7a1f51b7fb098ddfe,2021-03-03 10:31:08,Julian Lloyd,ScrollReveal v4.0.8,False
+8cd80b42105955fcec1f3fde1bd5d331eb7d4a50,2021-03-03 10:28:31,Julian Lloyd,Refactor styling to avoid CSP violations,False
+226d190c7002d22c676906a00c6ca4a1bc6a720b,2021-03-03 10:27:41,Julian Lloyd,Create function to apply styles via CSSOM,False
+1290ba340314466ec86fb0277367771e7a2d7c66,2021-03-03 10:18:10,Julian Lloyd,Update copyright,False
+4c3f096634b8dd6bdf638858146ab9e03f41fd26,2020-07-15 13:20:14,Julian Lloyd,ScrollReveal v4.0.7,False
+e87ed7082ace37988d6b02b5cb5c02afc0a510df,2020-07-15 13:18:29,Alexander Widua,"Check for undefined element geometry
+
+Add better support for UI component lifecycles.
+
+Fixes #437",False
+378b06411117bd8964ccb5287d5f096abd5a2f9a,2020-03-16 10:11:05,Julian Lloyd,ScrollReveal v4.0.6,False
+ad206615f41697e22f444afb1f72d9ad7393b303,2020-03-16 10:07:16,Julian Lloyd,Update url paths,False
+eb200a893aded409e4ff8f758b9015aaa36d55af,2020-03-16 10:04:22,Julian Lloyd,"Refactor computed transitions
+
+Closes #231",False
+66f44ab08c3cd0a3df7ced9b2e01e4ffcf809cb2,2020-03-04 13:07:25,Julian Lloyd,Fix typo :),False
+1445706445d5ad7ad3552936b5251094bdc20bab,2020-03-04 13:07:25,Julian Lloyd,Update uglify plugin usage,False
+96f4947aafd1c30ca542373ea787c896d2271a7d,2020-03-04 13:07:23,Julian Lloyd,Upgrade Saucelabs/Appium,False
+cd6aa26c049184c595d50bbbd71f5bd6f31c7060,2020-03-03 10:57:48,Julian Lloyd,Refactor for line-length,False
+4c3d542448f5efa0b45727daba008476b3b00558,2020-03-03 10:57:46,Julian Lloyd,Update copyright,False
+7fd9d26bfb5b67d7f04972f7d1533a7b55e8b2da,2018-10-26 09:27:30,Julian Lloyd,"Rename support utility for consistency
+
+Continuing with the convention of Boolean values beginning with `is`",False
+c98fad79f4750dfd80797414e7d94f1cddd2109c,2018-10-21 07:11:08,Julian Lloyd,ScrollReveal v4.0.5,False
+091251c3b0fbab504ee60204f1c479887fddb5fe,2018-10-21 07:04:02,Julian Lloyd,"Initialize element revealed state
+
+Fixes #468
+
+The `sync()` method exposed a bug where calling `reveal(target)`
+on the same `target` would break animation.
+
+This was due to `element.revealed` staying `true` inspite of being
+reinitialized. Although this fixes #468, element initialization
+logic seems too spread across the `reveal` and `initialize` fns.",False
+2f70956cca0a65afdd808d3036f3f111fd564862,2018-09-22 14:06:08,Julian Lloyd,ScrollReveal v4.0.4,False
+d6948e5475504b5ee6c1f1ac12d2f5a93c65935f,2018-09-22 13:41:25,Julian Lloyd,Fix post installation script,False
+26dd1524f7f09ce6bf4aba41f8c691c4d268d0e0,2018-09-22 10:31:49,Julian Lloyd,ScrollReveal v4.0.3,False
+e9694e3ae6bcad20228b49639e6021463852e071,2018-09-22 10:30:46,Julian Lloyd,Upgrade dependencies,False
+3c81c5842eb3b2841aed69ee0001f4c223edffe6,2018-09-22 10:22:21,Julian Lloyd,"Set option.cleanup to false by default
+
+Fixes #457",False
+7b8766f8173315c8d19c460cfc91ee06bb72d1b4,2018-09-22 05:57:09,Julian Lloyd,Add post install message,False
+5a1a6a5e6a418f3acef229a56399d02a5c80bc5e,2018-09-20 13:49:05,Julian Lloyd,Update URLs,False
+9889a48e51e4fff0a18fc696eb00fa4ca8d043ea,2018-09-20 13:48:18,Julian Lloyd,Fix broken URLs,False
+8f7925159f0a8583beb776883658ed124503eeb4,2018-09-12 02:04:39,Julian Lloyd,ScrollReveal v4.0.2,False
+57498fe2c34dc4651e47b6f5ffef19dc2766a7d3,2018-09-12 02:04:30,Julian Lloyd,Update README,False
+6878c92a1aa527bcc15e0a966dd55b980aa7296d,2018-09-12 02:00:08,Julian Lloyd,Refactor mount fn,False
+8a79c742fe286a6840840c02767f6bd3b97cbad1,2018-09-12 01:50:50,Mike Amelung,Fix attempted property assignment on null,False
+8d531afa8a071be828338283799f0d0801203092,2018-09-09 16:59:28,Julian Lloyd,fix typo,False
+ef51c5b417b3fbc4a907d6ed5a5c749a8d8f27db,2018-09-09 16:57:20,Julian Lloyd,ScrollReveal v4.0.1,False
+f969dd07cd83ff01a3bf427c4103a1f379aabbae,2018-09-09 16:55:13,Julian Lloyd,"refactor instantiation success/failure
+
+fixes #455",False
+b615f594679757dd86b1470116fead3fe1ade12e,2018-09-09 16:49:09,Julian Lloyd,review constructor test suite,False
+2d68cec4d2d0846fe4df89b842f428ce6112607e,2018-09-09 16:49:09,Julian Lloyd,"fix constructor test bug
+
+Bugs in the test suite, sinister! This test was disabling devices,
+but never re-enabling them—so every test thereafter was returning
+a noop instance.",False
+7624f4f1ba07faad74f697f2f5570f447524cbf6,2018-09-09 16:49:08,Julian Lloyd,"update formatting
+
+Looks like a prettier configuration change, along with a few
+comments that were removed.",False
+7b72fe61b5a6d63cc6dc7998ade3464dbaeaa202,2018-09-08 04:54:20,Julian Lloyd,assign buffered options before device validation,False
+dd4e38fab1a0bc5d19ca6afba9f9b2b4262323ab,2018-08-08 00:45:20,Julian Lloyd,upgrade tealight dependency,False
+e7a0bc0d24b7f13f33e70457691b3332adc626a9,2018-08-08 00:45:12,Julian Lloyd,affix miniraf dependency version,False
+55765ddef597132828cfd4b7e2ec422c5e839ddd,2018-08-08 00:44:01,Julian Lloyd,update repository and issue urls,False
+0dab7ef98316aaa42bffe867e7eee3bf488e0b14,2018-08-08 00:43:35,Julian Lloyd,add package keywords,False
+866961f5a883bad3b4f418bd2a51ee6375269cba,2018-08-07 07:27:31,Julian Lloyd,fix link href and alt attributes,False
+b0306477eafbefc2c3bff0801650b222566e10ee,2018-08-06 16:12:09,Julian Lloyd,ScrollReveal v4.0.0,False
+dcb2ab56764b1934d3e896d66fc7cb0d52f845d2,2018-08-06 09:35:54,Julian Lloyd,fix merge conflicts,True
+912dbb6693fd97b1e957b7f70001d852f4f819ae,2018-06-19 04:57:23,Julian Lloyd,ScrollReveal v4.0.0-beta.32,False
+10f7943245db0f6e0f7f30fd1cc8af2bdebc3283,2018-06-17 10:38:40,Julian Lloyd,remove stack trace from logger,False
+a0a42f63e88d29e5f85c0793eb2ba9c2e4b529be,2018-06-17 06:01:33,Julian Lloyd,"cache method getters
+
+I recall testing the `rinse()` fn (specifically the removal of
+event listeners), and thinking ""sweet, now this is working""...
+
+But as I spotted here, `bind(context, fn)` returns a new function,
+so I'm not sure how `removeEventListener` was ever working...
+
+This deserves some more testing, but for now, gut says cache those
+method getters.",False
+a8a6ff709b7eba2ccf744954cfb5b036a94fd164,2018-06-17 05:48:07,Julian Lloyd,nit sequence fn,False
+ece4bbf9409ab25ae81139b8d0c480e96e646d0d,2018-06-17 04:55:37,Julian Lloyd,"validate element visibility utility params
+
+Logically, I think I've got a grip on the issue, but not well
+enough to recreate it today.
+
+Fixes #440 (?)",False
+f7010f4ae82582efd1a828dddf138e3104917898,2018-06-17 04:10:34,Julian Lloyd,"fix destroy method inline style usage
+
+Looks like a bug that should've been squashed in f9b5dda",False
+fee1da2e6e7bd620ba626601d3699f8f844751ec,2018-05-03 06:35:21,Julian Lloyd,ScrollReveal v4.0.0-beta.31,False
+fd4c5acba410fb68274757e3679f24c33fe3877d,2018-05-03 06:34:07,Julian Lloyd,"Revert ""refactor sequence instantiation""
+
+Regressions, grrrr....",False
+3ef7ef9d5fb6d03f7153f3bbd03dd23326696f0a,2018-05-03 05:09:28,Julian Lloyd,ScrollReveal v4.0.0-beta.30,False
+49275337378457a6cae18bfbe1f7da0a8f01f951,2018-05-03 05:09:28,Julian Lloyd,patch constructor test,False
+f2a2cbf40d010ea6546e0748640c089eecbc808d,2018-05-03 05:09:28,Julian Lloyd,ScrollReveal v4.0.0-beta.29,False
+3878b764969d085ac7809bf3ee5e9a18fd5e5673,2018-05-03 05:08:54,Julian Lloyd,"revert ""remove `isSupported` static method""
+
+I don't want to document this publicly, because other methods of
+progressive enhancing your project with ScrollReveal exist...
+
+But I'd rather not remove the tests associated with this method,
+which failed in the last release.",False
+cd16e55245c487dd818546bba1b6f0d091c4b105,2018-05-03 04:11:38,Julian Lloyd,ScrollReveal v4.0.0-beta.28,False
+b3621ddfe4852bf82d8df95dc5137d9d97709036,2018-05-03 03:28:59,Julian Lloyd,remove `isSupported` static method,False
+415373dfa4b676ad37928ab39041ac6f19dd791e,2018-05-03 01:58:14,Julian Lloyd,"update changelog formatting
+
+Seems like an update to Prettier, but the markdown file insisted
+on being reformatted.",False
+dc9b5ebc5dc50f6bfc35e4fdf94248051733a3c1,2018-05-03 01:56:32,Julian Lloyd,tune the default easing bezier curve,False
+b39aa08dffabbbbfd00b9d0b5146b8bb829972b6,2018-05-01 02:57:03,Julian Lloyd,refactor sequence instantiation,False
+b60535e6ae237269ecb142969d7981fc5f6d5ff2,2018-04-30 01:44:05,Julian Lloyd,fix travis permissions for chrome headless,False
+ebec071ebfd05b2ccdbe0ab5b91bff07096e3e87,2018-04-29 15:22:30,Julian Lloyd,ScrollReveal v4.0.0-beta.27,False
+61e04ded1e6d1b0730325367f9872d1260c29624,2018-04-29 14:24:08,Julian Lloyd,add vscode workspace to gitignore,False
+8bec154173323697a870bb844b646fdbf7ab3c4a,2018-04-29 14:24:06,Julian Lloyd,move reveal interval arg into options,False
+344b4dd14f23be817d2fadec2e19a00237ec2fbc,2018-04-29 05:23:20,Julian Lloyd,move error handling to sequence constructor,False
+2505c72ef3f7f17c4dc814c1838564631d2c9725,2018-04-29 05:23:11,J.L. Makes,add option to toggle completed reveal cleanup,False
+a9efbf5bacef833b8ca7b9fcf300c19b37478fe1,2018-04-29 03:25:54,Julian Lloyd,"revert sequencer refactor
+
+This reverts commit 2d49e4bf374e39a293eb8f7a58261ab996283903.
+
+The beta.26 release sequencer changes included logical regressions,
+resulting in sequence intervals being ignored if the window was
+scrolled at certain (and common) speeds.
+
+The refactor should be moved into its own branch..",False
+63abb40037eb9ff80b9ae8d2d94057e1b48e7d11,2018-03-12 03:04:08,Julian Lloyd,ScrollReveal v3.4.0,False
+cfcc07a9aa4a4bc5d4a8d4e3b5ad5fbc86274612,2018-03-12 03:04:04,Julian Lloyd,update copyright,False
+03f28173562bbca2c7c4ef11877e408b6ac37e65,2018-03-12 03:03:59,Julian Lloyd,update git ignore,False
+ca3a604c383f0b9d4cfb8e3c7641fbf4503b1f9c,2018-03-07 05:33:44,Daniel Korte,support native array reveal targets,False
+f555d8bcd3b5eff00eb8b3db90b1b8edf218b636,2018-02-07 18:16:37,J.L. Makes,ScrollReveal v4.0.0-beta.26,False
+3885930c66a3aef59bf62164f84ecb9e07012a60,2018-02-07 18:14:10,J.L. Makes,update unpkg url to minified dist,False
+b3c6cf456942721a6db637936259c7aea3944cc3,2018-02-07 18:12:29,J.L. Makes,update repo min+gzip badge,False
+2d49e4bf374e39a293eb8f7a58261ab996283903,2018-02-07 18:00:26,J.L. Makes,"refactor sequencer
+
+The sequencer up until now has honored DOM order, which doesn't
+handle more unusual layouts (such as the ScrollReveal demo, or
+layouts created using CSS Grid).
+
+This refactor refocuses the sequencer on visible order, which
+for most layouts will not have any noticeable difference... but
+dramatically improves the sequencer's flexibility for layouts
+with elements outside of DOM order.",False
+863aef915e07b77b865c0452ac0b12a8638c5b4e,2018-02-04 23:47:36,J.L. Makes,check for reset first in sequencer,False
+55adf99dd32d5deddb3056344f962a1d6f88c20e,2018-02-04 23:38:16,J.L. Makes,"refactor sequence model constructor
+
+Just shuffling around parameters for consistency with siblings.",False
+588c179c3a7cd1c5e77ea917c9983aaf5bf7bb79,2018-02-04 20:27:10,J.L. Makes,update sequence flow control data structure,False
+261a3e38ba7f7aec14fca71f788596433e3ddf23,2018-02-04 18:47:35,J.L. Makes,remove sequence else block,False
+00b990beec14e45dbb5a6ff914a61547338861b5,2018-02-04 18:36:42,J.L. Makes,remove unused/debug sequence props,False
+0a410996d7295962f9cf0052da5a579badf06205,2018-02-02 02:32:23,J.L. Makes,fix reveal interval regression,False
+3055193de9897936934ff4bfbfe04f45574672f7,2018-02-01 09:28:30,J.L. Makes,update build config,False
+521806244af438d275cd9d1d6b07bdd96b011897,2018-02-01 09:11:59,J.L. Makes,"instantiate sequences unblocked
+
+Gotta love simple bug fixes. [Closes #397]",False
+a07ed8e6dea8ea967d30214eaa9c27e44cb97325,2018-02-01 09:11:16,J.L. Makes,colocate sequence and instance (revert 6e72f1e),False
+a60766e185fb723d9144b84e2e4aaa81583b0e00,2018-02-01 08:27:57,J.L. Makes,remove sequence model from exports,False
+f22d5a3b3683f6c621d5a81f412752542b8669d8,2018-02-01 08:22:41,J.L. Makes,tidy reveal method,False
+8ab8d7a332ca8d6c7358520273ac9b15f9f1b80f,2018-02-01 05:53:33,J.L. Makes,throw error for invalid reveal targets,False
+7db2a97bbad6dd78ada710e61e55fa39a9775a7a,2018-02-01 05:39:22,J.L. Makes,consolidate reveal try blocks,False
+6e72f1e466e478877c410401f63d81c8fe922cb1,2018-02-01 05:36:48,J.L. Makes,inline sequence creation,False
+8ed6e8a6f5d8e4533a6de28cd49d779cabb144d9,2018-01-27 06:55:31,J.L. Makes,check animate override conditions first,False
+0d7cb1c360435bae476f814599ae66ca4a43658a,2018-01-27 00:44:20,J.L. Makes,upgrade dependencies,False
+60846c14ce27c6789054e846b59887f244378e48,2018-01-13 06:18:18,J.L. Makes,upgrade tealight dependency,False
+3f2a0acdc64972c2cecd5e89aa2b25d184630c00,2018-01-13 06:17:49,J.L. Makes,refactor es build with external dependencies,False
+8ef6c5809fe354e418506551af1debdc6331587f,2018-01-08 21:49:07,J.L. Makes,replace local polyfill with miniraf,False
+b02472bb22ff0049445a34b1ef188a740605ca30,2018-01-06 06:42:39,J.L. Makes,drop support for bower,False
+87d40c8dfdcdf5908f2d270865ce9432c841870e,2018-01-05 22:31:16,J.L. Makes,fix disabled devices constructor bug,False
+860c7819410d26ae7a2b892b3f72f6b0107f38c4,2018-01-05 22:29:40,J.L. Makes,add constructor test for disabled devices,False
+8c951d1df0582a1a6f68954d7e64b4b809ce3f37,2018-01-05 05:03:19,J.L. Makes,ScrollReveal v4.0.0-beta.25,False
+fec3abd5b0b117240a71c0f2314b57ac9526ce37,2018-01-05 05:02:48,J.L. Makes,update installation instructions in readme,False
+be8e2591f34e13f5259e67e178c32ccf594c9204,2018-01-05 04:58:49,J.L. Makes,upgrade tealight dependency,False
+b31bdcfaac77476be73398928d260edfcd717468,2018-01-05 04:54:18,J.L. Makes,"remove eslint style rules
+
+Rely solely on prettier for formatting.",False
+8b31dd967eb83db4858b42bcc682234e843cc27b,2018-01-05 04:37:50,J.L. Makes,update copyright,False
+1c8402ec23cc24027302981a74ec04b5682e4cbe,2018-01-05 04:34:44,J.L. Makes,upgrade rematrix dependency,False
+f557fbd40a2ec00d30d0673f440b2865b5ff5366,2018-01-05 04:05:37,J.L. Makes,add cross-env dev dependency,False
+268442d1e0a895158125868f0a31a278e98ed7b8,2018-01-05 02:08:54,JLMΛKΞS,merge branch 'master' into development,True
+f55b4ec1947d0db6536eeb67ed516fb2a6167e1e,2018-01-05 01:53:06,J.L. Makes,componentize core utility functions,False
+6ddaa61de4b61e9e7b6e6beaec98eea9e7e45cbe,2018-01-05 01:53:06,J.L. Makes,componentize browser utility functions,False
+6570e18097b19b7ce33ce467f260f7ced04dbe4c,2018-01-05 01:53:06,J.L. Makes,update sauce labs custom launchers,False
+9712b8f633b22186c6a222f210d3ca451ab8d29c,2018-01-05 01:53:05,J.L. Makes,add installation instructions to readme,False
+1a16896ef617aa0abbb9798b9bde65c7467560bb,2018-01-05 01:53:05,J.L. Makes,move test config files to /test dir,False
+1b0c55f0b2e7bc672c79d2e8403323b5c4799953,2018-01-05 01:53:00,J.L. Makes,move build config files /build dir,False
+6ac714cff1db72c8c528e2f6988cf33f1ed34e5a,2018-01-05 01:38:42,J.L. Makes,fix rollup unexpected token error,False
+1cf04970701d3c76fcc0904a5d749bb10a5f31fc,2018-01-05 01:38:09,J.L. Makes,extract next unique id utility fn,False
+826fb351b064903f54952b681d8c3da39aef9adf,2018-01-05 00:10:45,J.L. Makes,upgrade tealight dependency,False
+e503d997cfa6960a787dd04424772752309ff120,2018-01-05 00:10:33,J.L. Makes,"reintroduce some utility functions
+
+A few utilities were extracted into the `tealight` package, since
+they proved reusable and relevant to front-end development...
+
+However, rather than creating an opinionated utility library, the
+`tealight` package has been pruned to focus on DOM queries; alas,
+the rejected utilities make their back into the source (for now).",False
+a19b80da4ca0806c2c34f3a1fb4393be352e9b3a,2018-01-05 00:09:19,J.L. Makes,lock unstable dependency versions,False
+d29fd680a09718caf337f93a7d10a20004ad49e4,2018-01-03 19:05:23,J.L. Makes,reinstate local polyfills,False
+50012f6f266b3c312b0f82e739facc0ceaa16466,2018-01-02 07:17:40,J.L. Makes,ignore vs code workspace settings,False
+119804252c02375e74c7f026c2581a3487bc1f5f,2017-12-06 00:25:01,JLMΛKΞS,update showcase links,False
+cb02f687f390e2eb5ca11a60f3ecfb0b48032171,2017-12-04 05:46:02,J.L. Makes,ScrollReveal v4.0.0-beta.24,False
+6d8d0b734a35e1f5c09e82c273e313f73f9f4a53,2017-12-04 05:40:14,J.L. Makes,invoke constructor on load,False
+4e501aabde006c406d25c2005c0216aac38a043d,2017-11-24 10:28:53,J.L. Makes,replace phantom js with headless chrome,False
+276d044c2326c0880187ee25b7142571c055e434,2017-11-24 10:13:39,J.L. Makes,replace local utilities with tealight,False
+74bd4337fcd11106d0221e0b770ae00e0444240d,2017-11-22 22:28:21,J.L. Makes,fix saucelabs breaking change,False
+2e544f8dd0041e93db732dbb9e720ed50e377220,2017-10-31 00:30:58,J.L. Makes,ScrollReveal v4.0.0-beta.23,False
+aea9d99d6a1b114e7620e8334eddad46c06acf18,2017-10-31 00:25:30,J.L. Makes,"bind methods as read-only instance properties
+
+Consider this fragment:
+
+```js
+nodes.forEach(n => ScrollReveal().clean(n))
+```
+
+Because we're working with a singleton instance, there's no need
+to leverage the prototype... and instead, using bound read-only
+methods, we enable the following:
+
+```js
+nodes.forEach(ScrollReveal().clean)
+```",False
+eec79d8be7178975a3b893dcbee36d1f91fc0ec8,2017-10-30 22:05:16,J.L. Makes,change test descriptions for consistency,False
+92706f940079feee22eccc8f757bd05c545c8309,2017-10-30 22:01:41,J.L. Makes,add math sign polyfill test suite,False
+65ef672f60ab29fa0383a96176a8c3016e9b2e52,2017-10-30 02:13:22,J.L. Makes,ScrollReveal v4.0.0-beta.22,False
+2d0d6b9fdf7666812141571ac385abbc9928205a,2017-10-30 02:12:44,J.L. Makes,update repository min+gzip badge,False
+1d1f0d5d1afd18b17ae754599044fc48ea915c43,2017-10-30 02:11:28,J.L. Makes,clear callback timers on clean [#292],False
+04d6fd5610bbad435d049525823469d23d0b75a0,2017-10-29 23:42:58,J.L. Makes,update uglify output comments regex,False
+0bd1dc8e7215093e84c28f644657cbe0e8110a7b,2017-10-29 23:37:25,J.L. Makes,update repository min+gzip badge,False
+33781314e313224068eba0ae3b5a86ef2a3239ee,2017-10-29 23:26:29,J.L. Makes,refactor for clarity,False
+f65e5b298fb15a0a8e2feaa4734e22674cb25d47,2017-10-29 21:06:04,J.L. Makes,refactor regex for eslint no-useless-escape,False
+9494a7605e71553b9b44acb925c7c4676ef7ac6e,2017-10-29 21:06:04,J.L. Makes,refactor for sinon api changes,False
+e9dd2c412f92cf1bdc7be2b2696d6b2cc3be4448,2017-10-29 21:05:24,J.L. Makes,"update dependencies
+
+Save an additional 17 bytes minified (15 bytes gzipped)",False
+84bc56b3f1cc6e65b51e6259e0fcfe1420d0a99c,2017-10-29 20:23:45,J.L. Makes,"refactor repetitive expressions
+
+Saves 191 bytes minified (21 bytes gzipped)",False
+7503986f6255c964b02f27fc88dbf3fcaba874aa,2017-10-29 20:06:03,J.L. Makes,rename variables for consistency,False
+135ef3c3ffb1a71428a24b1c8a1cefa7ca9042c9,2017-10-27 20:50:17,J.L. Makes,ScrollReveal v4.0.0-beta.21,False
+08a34162179ecfa373752fed01f4868b1048c1fb,2017-10-27 20:30:12,J.L. Makes,remove prettier ignore,False
+47ee42d25c1d1309fb98ad63b3b4eb276fe135ea,2017-10-27 20:22:02,J.L. Makes,update repository min+gzip badge,False
+4eb57010c337b1f4dd3c846d1f115448ac660488,2017-10-27 20:19:16,Ryan Turner,add math sign polyfill [closes #391],False
+edb31b3026907e577b50b8cca1897da8ce67b50f,2017-10-27 07:13:54,J.L. Makes,ScrollReveal v4.0.0-beta.20,False
+ad215be4b8b27822fa45fb16be4e34f28aabe12e,2017-10-27 07:12:47,J.L. Makes,update repository,False
+163065dfd66e86defcb6fb1c4796d336112f6363,2017-10-27 07:00:04,J.L. Makes,add scroll direction to container data store [#384],False
+9845b12dd1710d93c5a1e0d7eee6e8929fb952d6,2017-10-27 06:54:35,Ryan Turner,"improve inline style regex [closes #390]
+
+Originally proposed by @ryanturner10, and amended by @jlmakes.",False
+0bbab001261cff8758d570ef1f51bff81ec10a38,2017-10-18 20:22:24,J.L. Makes,ScrollReveal v4.0.0-beta.19,False
+f9b5dda32772e769f769faffac1394a5f47e0d17,2017-10-18 20:11:47,Ryan Turner,"fix inline style bugs (@ryanturner10)
+
+The beta.17 release changed how inline styles are managed, which
+caused bugs with the clean() method or generated styles being
+undefined.",False
+b4fee68a95fd115748558e4aa1e523fea9ea7a67,2017-10-08 19:42:27,J.L. Makes,ScrollReveal v4.0.0-beta.18,False
+b27d8494f0cba5f8a3ce77812f500547d341e975,2017-10-08 19:40:38,J.L. Makes,update rematrix dependency to latest,False
+9f9033a75a3ecba38083ca554273381fc45250a3,2017-10-08 19:39:52,J.L. Makes,format sauce config,False
+bb0d6960c94fff2f8a243a2a77d8cdb9a1fbe92c,2017-10-08 19:39:26,J.L. Makes,update license banner,False
+1ce06076d3283ff62ebb9384d3026454a3db2afb,2017-10-08 19:05:30,J.L. Makes,ScrollReveal v4.0.0-beta.17,False
+f9d559d99c2a2964099ccc661bcfab096212557d,2017-10-08 19:04:14,J.L. Makes,fix inline style flicker on page load,False
+45c5bdd019830616861ee91e2f76577485260f7b,2017-10-04 20:03:32,J.L. Makes,ScrollReveal v4.0.0-beta.16,False
+cd6fd5b48738a150f65ca81f98fbb91cfe65fdc1,2017-09-29 08:35:49,J.L. Makes,revise license banner,False
+a8f639815a9afb81560cf2b6676af93a2bb88579,2017-09-29 08:23:15,J.L. Makes,squash 'master' branch merge conflicts,True
+408f8fab63f8b5270a2cfacf1e454cb0f6903125,2017-09-28 04:17:28,J.L. Makes,ScrollReveal v4.0.0-beta.15,False
+ba15b0400f83e349e854370521dbe9b3def3f69b,2017-09-28 04:17:27,J.L. Makes,refactor instantiation body height logic,False
+4c138e46f6b175fc3193ac3ad44d8ad25322f417,2017-09-28 04:17:27,J.L. Makes,update package description,False
+e67688bb25dcf7b4f545bffdb8e211ca989858cc,2017-09-28 04:17:27,J.L. Makes,update rematrix dependency to latest,False
+1f156fdd035b3bb5add558b80dde54db7b1ba813,2017-09-28 04:17:22,J.L. Makes,cleanup readme and update file size badges,False
+5e0fb4585bc5f2ca5091073e26d9117bb9726235,2017-09-28 03:49:58,J.L. Makes,add license banner to rollup config,False
+1047af61cb8eccb60ae5b50b821767831a404b70,2017-09-28 03:49:55,J.L. Makes,reformat using prettier,False
+e49bed60fe993876bd4600b037188a0738798588,2017-09-27 22:09:24,J.L. Makes,update sauce labs config,False
+24e915bbd14b5e065cb93e530d3cc0c70de893fa,2017-09-11 22:19:53,J.L. Makes,"tidy up comments and ternary operators
+
+This commit replaces ternary operators that are not a part of
+variable assignment, and ensures consistent styling.",False
+f4c1dfd14eae8ebbb7af64bae86588b7339f3b4a,2017-08-25 01:53:06,J.L. Makes,update dev dependencies,False
+8922206bbf8885084328771153482874b20f5cd1,2017-08-13 04:24:36,J.L. Makes,ScrollReveal v4.0.0-beta.14,False
+891504cbfbcf78290f37cbc7a9d8b81245b149bf,2017-08-13 03:12:05,J.L. Makes,fix element undefined error in sequence model constructor,False
+c50aeaa50b8ea1ae8c5f3acf87dd8d80ea5aa310,2017-08-12 09:06:31,J.L. Makes,ScrollReveal v4.0.0-beta.13,False
+c4fbbe5c32dfeb95f45487660862819c08993091,2017-08-12 09:06:01,J.L. Makes,fix animate fn options arg undefined error,False
+03bc99248756ad9ba5e9962b26740fbab61eef7e,2017-08-12 08:47:54,J.L. Makes,ScrollReveal v4.0.0-beta.12,False
+3801775a91360f8adf392f8d9fafccb6448cec81,2017-08-12 08:46:34,J.L. Makes,update package size badge,False
+ed3b9a41b6c3db9cc496d211831d59540afbf510,2017-08-12 08:44:25,J.L. Makes,fix sequencer with onload delay options,False
+fcf761d5aff29d216c95f0fb6c44db0a3cdd452e,2017-08-12 08:25:15,J.L. Makes,refactor animate fn with options arg,False
+21d73d660d8a645e0961bcc0bc410f9e581e201a,2017-08-12 08:17:07,J.L. Makes,tidy clean fn debug output,False
+c6b0a9cc83101a9af9fe7733e867baffed8c6c86,2017-08-12 08:15:11,J.L. Makes,remove unnecessary error from core utility fn,False
+68f3aba3e4c03e2e0e106b15bb2c0abcad5f9c29,2017-08-10 20:51:40,J.L. Makes,ScrollReveal v4.0.0-beta.11,False
+c5395e1c8471e7065aa105a7a0803ed956e4d8bf,2017-08-10 20:50:23,J.L. Makes,refactor reveal fn to better support options.container,False
+174335d3cdf576f9758735858cfaf7970e5ec0b2,2017-08-10 19:56:44,J.L. Makes,refactor sequence empty revealed body logic,False
+b3a50344f2c283ef31a0b416f4230b20e79dabcc,2017-08-10 07:54:38,J.L. Makes,ScrollReveal v4.0.0-beta.10,False
+3ee41ccaef480dd67b2227911a30647280e10e3d,2017-08-10 07:45:18,J.L. Makes,refactor reveal fn for element config overwriting [closes #366],False
+cb1ddfa0a73b0e933e1cdc48359f2df4836d8665,2017-08-10 07:42:24,J.L. Makes,refactor logger and error output,False
+42c4c926783bd6dcf488e77dd2d39c53a57ba2b0,2017-08-09 10:03:16,J.L. Makes,add style to logger util console output,False
+fe28a2c6bce5f28509cabfbfc42d0517084cd348,2017-08-08 22:03:54,J.L. Makes,fix typo in sequence fn comments,False
+806cb3f805322ef73af6f2b7b3dcc4b557d28ef3,2017-08-08 20:58:56,J.L. Makes,refactor sequence model constructor,False
+e5471751b0d557974f8fb2f2ac91422c638bdeb3,2017-08-08 20:47:46,J.L. Makes,move sequence instantiation to new constructor,False
+09ef989ce24792dd7d54748c57d62722d338fd50,2017-08-06 20:33:08,J.L. Makes,add comments to new sequencer,False
+09944d4b4ce8d65b6526b114460d04c818de6378,2017-08-06 20:12:25,J.L. Makes,add state to sequence object,False
+3370d319a2348ef52b7fb3d12516488063fa812e,2017-08-06 20:12:25,J.L. Makes,tighten sequence fn conditional logic,False
+84b3ef32e4e98c3a4d492e72163023b70bc3b387,2017-08-06 20:12:25,J.L. Makes,tighten animate fn conditional logic,False
+623219177c4597a444f02c27a23e8a6dcc7949c3,2017-08-06 20:12:25,J.L. Makes,update min+gzip badge,False
+35fd935b46003eb97adf712c036fe0ccf4438c71,2017-08-06 20:12:25,J.L. Makes,refactor animate fn with charge pattern,False
+cb0c098c494c876efd51a10bfa5555c814719be8,2017-08-06 20:12:25,J.L. Makes,add reset support to sequenced elements,False
+386b0ce05fb47368e96cbe667bc0d01dea525328,2017-08-06 20:12:24,J.L. Makes,limit sequencer to visible body range,False
+fdc1c9a35a5075f528100f9c2e60632a2ae36c7b,2017-08-06 20:12:24,J.L. Makes,"add recursion to sequence logic
+
+I suspect this strategy will have some low hanging fruit for
+optimization, but even if using extra CPU cycles, the result
+appears to be more accurate and simple to reason about.
+
+Hopefully this lasts throughout the next few passes.",False
+585787977261ea4348e2c9702dba380240b6734a,2017-08-06 20:12:24,Julian Lloyd,"first pass at new readme design
+
+In preparation for documentation moving to the website, the
+readme will be redesigned minimally. This is the first step.",False
+7be411be5f94081059df4e5714662975f634da53,2017-08-06 20:12:24,J.L. Makes,update beta version badge,False
+eab02c4bb068b645a3a8962c1b5f1dede496c431,2017-08-06 20:12:24,J.L. Makes,add visible and revealed sequence models,False
+7e5d9faa9357850baf19a4f3ce58674417d77e38,2017-08-06 20:12:23,J.L. Makes,refactor debugger for instantiation support,False
+a2792520f0564475ebc113ecf3ef5affacd52cb8,2017-08-06 20:12:23,J.L. Makes,cleanup constructor fn,False
+7afd0e3d134d662bf876838bf767e9f3af0b84fe,2017-08-06 20:12:13,J.L. Makes,fix body height change during instantiation,False
+aa43634aa182d6611452fab3f98f52c18e4e17a2,2017-08-02 03:11:50,J.L. Makes,cleanup reveal fn,False
+fb948cc251f82b3b04f705d2d957a90fa0a61a36,2017-08-02 03:11:50,J.L. Makes,refactor delegate initialization,False
+abe4743eb349e3e73197f785b86ca9351942203e,2017-08-02 03:11:50,J.L. Makes,fork sequence logic to new module,False
+042a33be95cba2b39472b1214ef0a9f8bf224d1e,2017-08-02 03:11:50,J.L. Makes,prepare delegate fn for recursion,False
+c6b95c81e7da571d0d0d403507c1e244bfdb66df,2017-08-02 03:11:50,J.L. Makes,remove sequencer logic from animate fn,False
+9852e379b8a0b63b6557ae60cae73784b4e30b97,2017-08-02 03:11:48,J.L. Makes,refactor sequence set-up,False
+63b9aa1281bbb10926aaef95096f7b24c883ee01,2017-07-31 06:14:46,J.L. Makes,add support for native arrays of html elements,False
+f646d9e4f6a1a81b8474f43511f5dcca76dcad4f,2017-07-29 17:29:57,J.L. Makes,update change log version headings,False
+f61660eb64395a648036361e6c73f68ab050467a,2017-07-26 07:18:30,J.L. Makes,"update karma rollup preprocessor
+
+Rollup v0.45 now uses promises.",False
+3b7e0d3e6fe433be4e0fbb1dcae81cf8670a292b,2017-07-26 07:05:06,J.L. Makes,"refactor event delegate
+
+In preparation for the sequencer refactor, the entire element
+set has its visibility checked each delegation.",False
+5ce614cfb548ba5ca255e33bd4b34b7f59ebcafd,2017-07-19 21:45:14,J.L. Makes,update issue links,False
+a4bee79af1f45f94096831c4dd483941ef734178,2017-07-05 12:05:20,J.L. Makes,add es2015 module to distribution [closes #360],False
+8b00e425f1af85a1d7b12290dfc56fcf88f40208,2017-06-27 00:25:47,J.L. Makes,expand constructor test suite,False
+3c440316ee4511d2f2ced623f4a42c19fa0e4646,2017-06-27 00:25:47,J.L. Makes,add master branch changes to changelog,False
+03a8a791a48a91f18304b9f7f9aa82a63c4e4234,2017-06-27 00:25:47,J.L. Makes,add inline height style to body when supported,False
+187adac2fd5ff1d30a464eb39a31f57d751e9e01,2017-06-27 00:25:46,J.L. Makes,rename variable `targets` to `nodes`,False
+01b8b5b1550d9661d1343858978d9a28a08f9c83,2017-06-27 00:25:46,J.L. Makes,move reveal config assignment into try block,False
+a291cf7024d5f9d1006744d90c97d1e5e95de135,2017-06-27 00:25:46,J.L. Makes,remove conversion to absolue interval value,False
+47ccea944e7bc3fb8b02dafa75ead7139ae502d9,2017-06-27 00:25:46,J.L. Makes,refactor constructor to return a singleton,False
+0ad7ba2d74edc27f2a1ac557d2d0f32f29e8c8cc,2017-06-27 00:25:46,J.L. Makes,refactor private variable scope,False
+f4de071187bae11a3f88d013926bdcc2840e1db8,2017-06-27 00:25:41,J.L. Makes,remove new keyword from constructor test suite,False
+4d4a88a30c064d96ce1b6eccbc40f48ca332c738,2017-06-25 20:09:24,J.L. Makes,remove lock file,False
+12cdab838c1f54f81f9df4180cb984198f88120d,2017-06-23 20:42:50,J.L. Makes,update showcase links,False
+e622c92777fd6da31a02db83a1734609e912f466,2017-06-23 20:41:08,J.L. Makes,update copyright,False
+fd35c8df4f1da02d3e1ec9a5505843841021f878,2017-06-23 20:37:08,J.L. Makes,ScrollReveal v3.3.6,False
+5395009448df588bcf4b6d3039a55290fef3de5f,2017-06-23 20:33:53,J.L. Makes,update repo links in change log,False
+464a5941796f1674b7499f88c04667e780909b8e,2017-06-23 20:26:52,J.L. Makes,correct element visibility logic [fixes #352],False
+f02d1f166a234df39b57a3f815162862b1994f59,2017-06-20 10:20:47,J.L. Makes,ScrollReveal v4.0.0-beta.9,False
+4d96014db872ed2cdb45f204740e3e8803b37b9c,2017-06-20 10:12:43,J.L. Makes,update core utilities test suite,False
+f3393aa93d47c27da3c5aa72d86028f068d0983c,2017-06-20 08:30:46,J.L. Makes,improve error messages,False
+7d1958d63ca772974f8de139baf3c4d3a1cc91d5,2017-06-20 08:23:15,J.L. Makes,add debug property to toggle console output [closes #351],False
+02216e3c7ae261f8b99ffb4caefbd868c7013fce,2017-06-20 08:11:19,J.L. Makes,"refactor dom node utilities error handling
+
+In preparation for a `debug` flag to control whether or not errors
+are surfaced, the `logger` utility has been removed from the dom
+node utility functions. (loosened coupling)
+
+This effectively means `this` does not need to be passed around as
+much, since only the `logger` will need a `this` reference.",False
+5a0a47713c15d9271705c1efa69d1511ca1b9a56,2017-06-18 07:21:27,J.L. Makes,fix unset sequenced element seen property,False
+f65a3556947cef1bd02ce3517af55621a31cf4e1,2017-06-05 06:40:50,J.L. Makes,reorder default object to match documentation,False
+991509cfdcb23a757d2f3e5c68d255042d8cf839,2017-06-02 20:44:58,J.L. Makes,adjust matrix interpolation workaround,False
+49fab331ed401e6e19354984f25c44663e2b106c,2017-06-02 20:16:42,J.L. Makes,ScrollReveal v4.0.0-beta.8,False
+6c1c3c9a428c2da058c7f854a60ad54eb08dc395,2017-06-02 19:39:25,J.L. Makes,"patch matrix interpolation browser bug [closes #350]
+
+There’s a Chromium and Firefox bug when it comes to matrix
+interpolation, which breaks CSS transitions:
+
+https://bugs.chromium.org/p/chromium/issues/detail?id=729010
+
+This commit is a simple workaround that emulates the correct
+behavior, just by using a near-zero value when zero is passed.",False
+82de22bd07af750666445a4ffd40da50b56b4a27,2017-06-01 15:36:33,J.L. Makes,clamp view factor values outside 0.0 to 1.0,False
+5c2e852e7d4c9b66a24ccb542405f921f396d83b,2017-05-25 19:37:24,J.L. Makes,ScrollReveal v4.0.0-beta.7,False
+994c9b437bcfcb2901434a3e28a89f2671bb6a72,2017-05-25 19:35:23,J.L. Makes,update dependencies,False
+311c994ec373e421adaeb2cce4c9741b1097cc15,2017-05-21 10:20:55,J.L. Makes,make instance delegate method read-only,False
+767b7e3d40e3a619603dffd83ead790139a13efe,2017-05-19 04:32:52,J.L. Makes,update urls in source comment banner,False
+a84c94c19261331daa65427e61970a4831903c15,2017-05-19 04:32:41,J.L. Makes,fix broken url in readme @lukeshiels,False
+d97059eb7325685990f3793893b1f1708b792253,2017-05-18 05:46:35,J.L. Makes,ScrollReveal v4.0.0-beta.6,False
+ccbd127bad99a70538a74794f62e68c1795658a2,2017-05-18 05:45:39,J.L. Makes,hotfix sequence is undefined bug,False
+04960b920f3a0c1fa6e0eef92c397b87eddecc61,2017-05-16 07:45:05,J.L. Makes,ScrollReveal v4.0.0-beta.5,False
+eec655264ee16e48729c4dbe5ac190201ca9b221,2017-05-16 07:43:13,J.L. Makes,"hotfix sequencer index update fn
+
+Looks like I forgot to update the inner condition to confirm the
+element is defined before attempting to evalulate its 'visible'
+property.
+
+Excluding further outstanding bugs to critical features, this is
+shaping up to be the first release candidate. (Woot!)",False
+5b1874252a6f5a7e664ab976be8019705855ede0,2017-05-16 07:20:35,J.L. Makes,ScrollReveal v4.0.0-beta.4,False
+c45b19f1d33e17006c42ac04149b13145de8e5e3,2017-05-16 07:17:57,J.L. Makes,add refactored sequencer logic [fixes #341],False
+9e14a28b9ec23e67ede2a72f39432df12534e781,2017-05-10 07:38:32,J.L. Makes,update sequence nose and tail indexes during animation,False
+674bbba5c7cc60b9f03cf0b9794bcd831fb0d7d5,2017-05-10 07:26:20,J.L. Makes,refactor sequence data structure,False
+d3757e77d7b6b62a128f89b807c7f93df6169ddb,2017-05-09 05:56:32,J.L. Makes,fix bottom and right view offset values,False
+cff5960c808724bf71a1d8bf7b4bb2815d400284,2017-05-08 23:22:26,J.L. Makes,remove sequencer logic and refactor animate fn,False
+c090e497d7f1278fddd822ebd149bc7c7c48168e,2017-05-05 17:47:57,J.L. Makes,filter noop styles during animation,False
+2acb1845f6f9bb0ffa3f5807d93c1bb22945d85b,2017-05-05 17:44:45,J.L. Makes,filter noop styles during initialization,False
+a2d730aa03b779d51f5e4fba7a56da89a4011350,2017-05-05 17:32:34,J.L. Makes,add noop transition styles,False
+f2a6e0bf0b9914f35546376fed89586bd7f81836,2017-04-05 19:43:33,J.L. Makes,ScrollReveal v4.0.0-beta.3,False
+37d9a31efe4213b2e52739d685fa1db7bb48d12c,2017-04-05 19:38:06,J.L. Makes,ScrollReveal v3.3.5,False
+5d08b411b14565b3368472d6dc15b95c3ade6563,2017-04-05 19:13:44,J.L. Makes,expand instance tests for clean method,False
+5ce12d58aac075178b0d6cc63d0ff661c6d8ae14,2017-04-05 19:12:39,J.L. Makes,move clean method to methods folder,False
+c59f404dae816c6c54f13104e8573f0c61b913aa,2017-04-05 19:11:57,J.L. Makes,add clean method to noop instance,False
+f91bffbfca49398df49c872baea2ba6524928204,2017-04-05 18:53:50,J.L. Makes,ScrollReveal v4.0.0-beta.2,False
+2bdce49edb97bc5c69e36fa8149ee71ff8a2bf94,2017-04-05 18:51:50,J.L. Makes,"add debugging test to stall karma 10 minutes
+
+Uncomment the test, and corresponding
+comments in the karma config. This creates a
+10 minute window to use the Chrome dev tools",False
+a2210ff4d6db50a0b58534be7dd89b64bd2a5102,2017-04-05 18:38:15,J.L. Makes,refactor animate method using clean method,False
+f60584f4cc1e33ecacaaf0cb1fd33c96d9d0b362,2017-04-05 18:37:03,J.L. Makes,add public method to clean el styles and listeners,False
+bec5ac9e70ffc006690c7230bb42fc91bbccfc7a,2017-04-05 18:28:14,J.L. Makes,abstract dom cleanup code behind new rinse function,False
+bea7d7f648146934488ea87101136cd2a5360533,2017-04-01 13:31:18,J.L. Makes,upgrade and refactor usage of redpill,False
+abd6f07410addaabbc3c58d34785c09dd92061ba,2017-02-19 00:04:04,J.L. Makes,remove elements from store after non-resetting animation,False
+1b726a3041a806c562b3c516d73d64d449a89979,2017-02-18 10:37:59,J.L. Makes,ScrollReveal v3.3.4,False
+b17b0ba2dc4fe7db3c7e5d37e03332c602ee4259,2017-02-18 10:28:44,J.L. Makes,ScrollReveal v3.3.3,False
+31a7bd83e7b1aaad2f9b7b7f18af4edfb00209f2,2017-02-18 10:21:23,J.L. Makes,add trailing semi-colon [fixes #278],False
+5bcba6f06c27a58274ba0fcb7949c72059e37673,2017-02-18 09:21:21,J.L. Makes,add instance property test cases,False
+519c0b448be4461004b7cb20bf7d356784563417,2017-02-18 00:09:17,J.L. Makes,ScrollReveal v4.0.0-beta.1,False
+0f52852a84766fb599befee1aef2bbc4e969f3e4,2017-02-18 00:05:48,J.L. Makes,remove generated styles after non-resetting reveals [resolves #292],False
+12f04fef6958ef62c45f9dd6d3907a1b25078bcb,2017-02-17 23:40:28,J.L. Makes,reduce eslint no-console from error to warning,False
+d52fca58f3d2d7da866b117cd37d965f4667f716,2017-02-17 23:39:28,J.L. Makes,return empty string instead of undefined for skipped styles,False
+9fcc78fbcfff0d89a0e36ed1cf46cbb7ae61ad6f,2017-02-17 23:34:50,J.L. Makes,update default duration from 300ms to 600ms,False
+ca549bdf2680a02d23698ef1cef500f7360562dc,2017-02-07 01:04:31,J.L. Makes,add noop instance identifier to normal instance,False
+2eb163134fb86d0f5180b8c7c6b00392bacd6e90,2017-02-06 22:34:31,J.L. Makes,refactor noop instance identifier as read-only,False
+e814ad36152ae22a663b10ba1ef8ee9ebd167a9e,2017-02-03 00:33:19,J.L. Makes,check active platforms before applying sr class to html,False
+6ba33202c9fc680f397d426eebb74bec762fb348,2017-02-02 10:08:51,J.L. Makes,ScrollReveal v4.0.0-beta.0,False
+8a51d03a9bcac1932ec2086028f2b7ca42833f18,2017-02-02 09:39:44,J.L. Makes,"instance methods are no longer chainable
+
+Truthfully, method chaining was added because it was easy to do...
+but it adds virtually no value.
+
+sr.reveal('foo')
+  .reveal('bar')
+
+vs.
+
+sr.reveal('foo')
+sr.reveal('bar')
+
+The methods don't impact other parts of the chain as they do in
+a library like jQuery, and by not supporting method chaining, it
+opens up interesting opportunities to store reveals in variables;
+this could allow for manual control over reveal state, adding
+support for things like fullPage.js and other 3rd party libraries.",False
+fee2bf3eca9f9abf8a2aaaa9d47c37ecf9b066a4,2017-02-02 09:36:46,J.L. Makes,remove watch method from release,False
+5a55b4e90df319824998aac2e0c851965956c338,2017-02-02 09:23:14,J.L. Makes,fix null opacity incorrectly generated transition styles,False
+49926aa700055c679acc0c9bde5e54e9f519f09d,2017-02-02 09:14:20,J.L. Makes,update readme badges,False
+5591a4bcb35e9b4bdc383b766d713c254aff7821,2017-02-01 23:57:52,J.L. Makes,error invalid interval only when interval is provided,False
+19522c24830813e8edbef130fbd3fe6e4c4693f4,2017-02-01 23:57:16,J.L. Makes,fix npm script environment variable syntax for linux,False
+3a289792ad025640a1c8fa28645305b397cbd74f,2017-02-01 23:44:08,J.L. Makes,"separate coverage reporting from saucelabs tests
+
+Wow the absolute pain of the past few days. It turns out that
+the rollup-plugin-istanbul was causing Safari 8 and Edge 14 to
+hang and timeout tests.
+
+For this reason, I've separated out the karma sauce config from
+a new PhantomJS run that will handle test coverage reporting to
+Coveralls.",False
+561ec35194995fa7de277059b1470fb76fca3d63,2017-02-01 07:08:30,J.L. Makes,check for element sequence before use during initialization,False
+a72a0c09b9178e3e74e5d95868e9ef9250f9964a,2017-01-31 05:50:37,J.L. Makes,refactor sequencer animation logic,False
+90b60656c303c1d4ae1422b63afeef53cb89e7fe,2017-01-31 05:50:37,J.L. Makes,add screen recording to sauce labs config,False
+f5a4332934b361631ebac2caa8e9f6db7c6ab089,2017-01-31 05:50:37,J.L. Makes,add support for null opacity,False
+d663f39bed2b099af8c36592e25cab91d66ecede,2017-01-31 05:50:37,J.L. Makes,add min+gzip badge to readme,False
+aa217a4d3a49169da8e63651f566ebf66826fc49,2017-01-31 05:50:37,J.L. Makes,build 4.0.0-alpha,False
+3b634fbb51fffb2e6895a86958c6b3a320ec192b,2017-01-31 05:50:37,J.L. Makes,remove stale unique id utility from constructor,False
+75074252f9ea8af10271621ad4f23715efe95c8e,2017-01-31 05:50:37,J.L. Makes,remove negative reveal sequence intervals,False
+b3a14f00bc75495cb98dde5a3213957f1e878f4e,2017-01-31 05:50:34,J.L. Makes,add support for reveal sequencing,False
+fb83a17fdf10d0eb00192983631aee308a783166,2017-01-27 22:40:57,J.L. Makes,refactor before callbacks and add after callbacks,False
+6bc941c83385e531e3991a6f114b6b2403dcb50e,2017-01-25 02:40:54,J.L. Makes,add support for before reveal/reset callbacks,False
+789d30e022db8c95151e84d919c6bcf7d2354345,2017-01-25 02:14:17,J.L. Makes,add support for delayed reveals,False
+12dabb8872cdd616d90b932c7ce68dd7b48ac516,2017-01-24 23:58:57,J.L. Makes,refactor how first reveal is tracked,False
+071b797b46080634048aa6304977e518d96bbf1f,2017-01-24 23:25:22,J.L. Makes,stop inline visibility styles from duplicating,False
+e7bcbe1067d0b718216b0d9da37fee2a8d041ab7,2017-01-24 22:42:27,J.L. Makes,remove all data from the store on destroy,False
+4c4cb825822cbc17a9f599c57bea91bf29d22ef9,2017-01-24 22:42:26,J.L. Makes,remove element data-sr-id attributes on destroy,False
+e185f13ea567d4669162b2019118dc9076f08bf0,2017-01-24 22:42:26,J.L. Makes,remove unnecessary container setup during instantiation,False
+8af708763cf4ac30e6405558573074c9e9f7d509,2017-01-24 22:42:24,J.L. Makes,cleanup and revise formatting,False
+3e6f6484c18bd30df3dfd7fae6eb4cc45d89dac4,2017-01-24 08:11:47,J.L. Makes,build work in progress distribution,False
+ebebc7cc70ec7187359325579a6b05ed73c86a44,2017-01-24 08:11:44,J.L. Makes,add new destroy method to remove styles and event listeners,False
+ab64e65eb26282d923cf79fc46fd821f3e4e3db5,2017-01-24 08:03:07,J.L. Makes,store bound delegate as instance member,False
+4dfd9b907eb9c35ab670101a7d986dd895357acb,2017-01-24 07:17:04,J.L. Makes,refactor inline style handling,False
+6fb32273b6018c2c3c940cd3747ac12c1d2509cc,2017-01-24 07:15:01,J.L. Makes,check if final styles should be applied in initialization,False
+dd7329eceda8670b258fdedb759c17ba08fbd5ac,2017-01-24 02:30:40,J.L. Makes,track whether or not elements are visible,False
+257623b9412c6e280b97a421455577fb1f2402a6,2017-01-24 01:45:58,J.L. Makes,track whether or not elements have been seen,False
+c42635368aeeebba3881b3ca7e0e233cea371689,2017-01-24 01:43:16,J.L. Makes,remove previously generated inline styles before new reveal,False
+6a1a1051f92b7e9609ffcaa142f12a17668f4e65,2017-01-23 23:24:22,J.L. Makes,refactor inline style regex to handle empty attributes,False
+d2ff7ea6aff6cbe150504713b17961a3cd70eab7,2017-01-23 19:57:32,J.L. Makes,refactor getting existing container id during reveal,False
+ee0e45ad4cdd64aee1a30d51397efafd4d12d693,2017-01-23 08:00:14,J.L. Makes,refactor style handling inside initialization,False
+b57761bcd4a954f67b3c1dfb36ba0cd4b28e501c,2017-01-23 02:26:28,J.L. Makes,add missing blank line to delegate,False
+f89da6dcdfdd082c1cf93724388d855b564b0e33,2017-01-23 02:26:27,J.L. Makes,add basic style handling to animate method,False
+26aaf3f714a09438d427c8f69f94de814c9ed7e6,2017-01-23 02:26:27,J.L. Makes,add initial element styles during initialization,False
+e37da229f047f09513b4c6ece0f804409f82fd49,2017-01-23 02:26:27,J.L. Makes,generate rotation and scale transformations after translate,False
+aa2fabefe00066e37b5600ffc7c4832945ff924a,2017-01-23 02:26:27,J.L. Makes,refactor generated opacity styles,False
+39d564c8892836612d2fb87755546b1aeaa651e9,2017-01-23 02:26:27,J.L. Makes,"add sample comment banner to source index
+
+After bundling the banner ends up at the bottom though, and using
+`options.banner` inside the rollup config didn't seem to work with
+a template string.
+
+This needs a second draft, and to be moved to the top of the
+generated bundles.",False
+d3dbc0396f03bbf38d5f673257bfba0040fb0486,2017-01-23 02:26:27,J.L. Makes,refactor let declarations as const during initialization,False
+788a36d1c8f85764d7f22f45acb08d3899af9f13,2017-01-23 02:26:27,J.L. Makes,add comments to initialization flow,False
+efe11b5280fe3ddd0d41e096955f90d91ab12b1b,2017-01-23 02:26:27,J.L. Makes,invoke delegate before setting initialization state to true,False
+c7fce1d23f43903e9ee80649c5dde175a30b359b,2017-01-23 02:26:23,J.L. Makes,add instance member getter for package version,False
+35157cf83a41b7ee2cf870be32b280fd0ca088b2,2017-01-22 21:47:56,J.L. Makes,add rollup json plugin to dev dependencies,False
+b1f9b9b4cbc9e6c76c96ca823295c9ae99d404e3,2017-01-22 21:47:56,J.L. Makes,remove unused sequences from store during initialization,False
+99b6968e8f9d6c2fc0898cf7b29b71a5ce1a2e41,2017-01-22 21:47:56,J.L. Makes,add container id to container members,False
+56bde1bf4c1cbe9305d1d68917f02a3984cd5fa0,2017-01-22 21:47:56,J.L. Makes,add element parameter to animate signature,False
+89caa71959f45c89bbe333cf9e734b04b2e5942f,2017-01-22 21:47:56,J.L. Makes,call animate on each element inside delegate,False
+e3b0a6c45069ab37c50bfb7e1ae4dab524ba8a47,2017-01-22 21:47:55,J.L. Makes,cleanup core element visibility utility,False
+64113d9507a024093c71e599d8aab6588bd06bda,2017-01-22 21:47:52,J.L. Makes,add details to error logging,False
+2efc0307c447d6161fbd5952d9568cde202564b0,2017-01-22 05:26:15,J.L. Makes,refactor logger utility to accept multiple arguments,False
+d8a3d70b842748b636de66f787ecf3bad9305473,2017-01-22 05:14:44,J.L. Makes,abort reveals on disabled platforms,False
+b56e7b59e34b2f1525ee923c1b80a0ae04b87c37,2017-01-21 22:43:25,J.L. Makes,exclude padding and scrollbars from container geometry,False
+087ccb0361c67ca76af304041262e93618f59e9d,2017-01-21 22:32:29,J.L. Makes,add core utility that checks element visibility,False
+43f69bd33bcc98f8472fc9d48f8bad390cce9631,2017-01-21 22:13:01,J.L. Makes,update element geometry and scroll positions in event handler,False
+dfe782eda55473ea85a1429adb8bde7a9faf2791,2017-01-21 21:29:05,J.L. Makes,add core utility that gets current top and left scroll values,False
+164d31fe86121deff18e66fc9e1a72b8fa12b307,2017-01-21 21:28:48,J.L. Makes,add core utility that gets element size and position,False
+27557261ebc05106d0ebbe0e62ebcdc6940e7239,2017-01-21 20:26:39,J.L. Makes,add reveal sequence to store after successful element setup,False
+146c7617b2db2bc6ff10c79a830b53dc44fffa32,2017-01-21 20:20:32,J.L. Makes,calculate reveal config only once,False
+c98864753af86344f8bd5df7ae037dd49b8757eb,2017-01-21 19:30:47,J.L. Makes,output to log when reveal receives invalid interval,False
+3f0927b3ac22c92f8a742eda9b7135f8c8d7978a,2017-01-21 19:19:02,J.L. Makes,ignore existing element config in reveal calls,False
+2b32199248780e4f942fd40435c137603ecb2756,2017-01-19 23:40:51,J.L. Makes,remove console log from animate function,False
+ca1cf32f97d47aed20dd493c75cf501b976f23ba,2017-01-19 23:39:33,J.L. Makes,revise changelog for clarity,False
+803db9ee0ce61b777a6d2f668449658a56754483,2017-01-19 23:38:19,J.L. Makes,destroy unused containers during initialization,False
+c95d6f9c991cdd70aec3c84da81fcbf9ca3322a3,2017-01-19 23:32:33,J.L. Makes,add container id to both new and existing elements,False
+a0cd95c132d7f65824746c4ae46a3153cef4c0c6,2017-01-19 23:32:33,J.L. Makes,rename event handler function,False
+1190005345d5281eb149b67e8e7875b2d907a747,2017-01-19 23:32:33,J.L. Makes,rename style generator function,False
+86fcc7e47a653adce6642170aba42870de028c6b,2017-01-19 23:32:33,J.L. Makes,add new desktop option to configuration,False
+74142fa33d7ed21c1c4743a9e827d2f3458145d1,2017-01-19 23:32:33,J.L. Makes,refactor reveal to batch style reads and dom updates,False
+67f232bb9fe52566925f68edf83a07b191578ed3,2017-01-19 23:32:33,J.L. Makes,cleanup reveal method comments,False
+e0739eaaadc0e8667e53ea9313453d7e3dc1ab74,2017-01-19 23:32:33,J.L. Makes,"replace explicit animate call from initialize
+
+The handler function calls animate in the next animation frame,
+so it's unecessary to import and invoke animate explicitly.
+Moreover, the call to animate doesn't accurately describe the
+flow of logic...
+
+As the handler functions grows beyond simply calling animate
+inside request animation frame, the new functionality will still
+almost certainly be relevant after intialization; the true need
+is not a one-time animate call, but a one-time handler call to
+capture the initial state.",False
+a8d7b59c909c45ceacd124e1ed84237fb288c68f,2017-01-11 09:16:01,J.L. Makes,add sequence setup to reveal method,False
+b61a48875d0f4ba12498e2c724af0c092af11855,2017-01-11 09:15:30,J.L. Makes,refactor collection iteration using new each utility,False
+8e00dba8188460fdb98e7d1ba8a9e860df278317,2017-01-10 11:00:43,J.L. Makes,include computed position in generated styles,False
+2aad92a5cd03b90b8b8e2c10afd41118018d0a95,2017-01-10 10:52:45,J.L. Makes,remove parens from single arg arrow function,False
+6982fb8b8f0aa26801e67e99fc31f4d7dad978ed,2017-01-09 11:26:43,J.L. Makes,"change container store array to object literal
+
+After reviewing element visibility checks in version 3, I noticed
+the container scroll position and dimensions were fetched for each
+element... when in any given animation frame, those values won't
+change.
+
+Instead, version 4 will store container nodes, scroll position and
+dimensions behind an object key (id), and each element will know
+the id of its container.",False
+084e06b91a813c4300408c52081bb98c4966fb60,2017-01-08 10:08:22,J.L. Makes,change minified bundle to iife format,False
+f08b233116b1df9c2043fc24a4898a8ad2a26136,2017-01-08 09:41:28,J.L. Makes,rename instance method remove to destroy,False
+716cbb59b16983ef364f089717ffb6221eab9e0b,2017-01-08 09:23:51,J.L. Makes,add transition comments to style generator,False
+dd732b134fb80a930da572eec5fcc62aa20a1bea,2017-01-08 09:18:44,J.L. Makes,remove unused import from placeholder remove method,False
+eb5a5823c4f727bc7505eb006b87c5f50e44a83d,2017-01-08 08:18:14,J.L. Makes,update reveal sequence placeholder code,False
+86e788cf43dbdcf404c61aa179cd7ecd284e238b,2017-01-08 03:08:47,J.L. Makes,add sync method,False
+6a0c904ab0dcd666311e8e40a32b7306467a6ced,2017-01-08 03:08:11,J.L. Makes,"add initialize, animate and handler functions",False
+889a0bae1039caadb64495afe484d345e9f10dad,2017-01-08 03:06:49,J.L. Makes,add initialization to reveal method,False
+048f8be22f0971bc9556fe460a9998d18f127ad1,2017-01-08 00:10:14,J.L. Makes,track reveal calls in store history,False
+c11916f8c4b4ac0a64123e0470b3f2d5b7fb0645,2017-01-08 00:04:52,J.L. Makes,change sequence store array to object literal,False
+f43b5f56507101cf548b8c9389776820f2809ed1,2017-01-08 00:04:11,J.L. Makes,change element store array to object literal,False
+285fe9c567e955fa69d4a05b8a613f46f7fe0712,2017-01-07 21:37:57,J.L. Makes,fix inline styles bug when no style tag present,False
+9d1fe0fb280379be93383e32d9a8dabb6197bfb7,2017-01-07 10:17:47,J.L. Makes,refactor transform style generation,False
+6c73d851d04bffbc3c36279dc6532182ed02e428,2017-01-07 09:53:34,J.L. Makes,refactor style generator with redpill,False
+445a84491281177f1ce13d1507a0fcf8f5576604,2017-01-07 09:51:48,J.L. Makes,"add redpill to dependencies
+
+The matrix functionality was extracted a few days ago, and
+published as its own npm package, redpill. This commit includes
+the rollup plugin to bundle external ES6 dependencies, and the
+redpill package for css transform matrix generation.",False
+abaa8d143ca1f0a71cac89d8f84a9b9561b0e2e1,2017-01-07 05:42:29,J.L. Makes,add getPrefixedStyleProperty to browser utilities,False
+319f560b6a5c3b14c772076f643effea6cd31995,2017-01-07 01:25:30,J.L. Makes,add namespace to browser util tests,False
+b4ae3d19a327568c5364449838d478b04ce48a6d,2017-01-07 00:42:54,J.L. Makes,"update inline style regex
+
+Fixes an issue where trailing semicolons were being included in
+the match, resulting in double semicolons in generated styles.",False
+bb13e854606908cb4010f904c001b08777e4bf89,2017-01-07 00:25:24,J.L. Makes,rename npm script sandbox:watch to sandbox:bundle,False
+604a021a6bcff114fa873f1c4d94f02a6681458a,2017-01-07 00:20:58,J.L. Makes,"replace live-server with fork
+
+I've submitted a PR that includes a simple patch to remove the
+annoying console.log that appears on every page refresh. Pending
+its merge into the package, I'll be using a fork for development.",False
+86a33760149f61476037056c5c78536b0ffbb65f,2017-01-06 22:57:19,J.L. Makes,confirm new android 4.4 sauce config,False
+c8f6f8eace5816225fb04ba29628d2b55785de71,2017-01-06 22:56:51,J.L. Makes,update npm scripts,False
+d89f90f75c07c92566f6d155ace2968cd5df3b6d,2017-01-06 21:30:47,J.L. Makes,add local rollup and rollup-watch,False
+dff9d4670fd3d171f25450d9debf7feed0ab5abd,2017-01-06 08:36:31,J.L. Makes,"add tentative new android 4.4 config
+
+SauceLabs is an awesome, yet horribly frustrating service. After
+much pain, I've uncovered a seemingly correct Android 4.4
+configuration... but there's an SSL warning/popup on the Google
+Android emulator URL that prevents the tests from running.
+
+I don't understand why this has become so difficult, and why the
+configuration block for Android 4.4 has to be significantly
+different than Android 4.2 and every other browser I test against.
+
+Either way, when I manually close the popup the test does indeed
+pass on Android 4.4.2, so this configuration is correct, it's just
+commented out for now until the SSL error is sorted.",False
+c4025039604c92edd403a49360e360f663476914,2017-01-06 01:00:52,J.L. Makes,"remove android 4 from sauce labs config
+
+SauceLabs seems to be undergoing some new year maintenance as they
+sunset Android 4.0 – 4.3, as testing against version 4.4 returns
+""no heartbeat"".
+
+Until they get their system issues sorted, it has been removed
+from the testing environment.",False
+9e2fb531a35564fb7534adb173d61e9b61d643d0,2017-01-05 01:49:16,J.L. Makes,refactor instance tests,False
+5feaec23a45839bcd9476e87b9f84b1dacbe3e9e,2017-01-05 01:49:16,J.L. Makes,update dependencies,False
+2944eeb970e2743a425ddc9a1059fa6a509e81fc,2017-01-05 01:49:16,J.L. Makes,remove stray reference to deepEqual,False
+ebb37bc21aa97afad2efe3ca0355f76d23cf4125,2017-01-05 01:49:16,J.L. Makes,add pull request template,False
+1c2f5bc1d53af238dc2437c7ae22c9b404b38a57,2017-01-05 01:49:16,J.L. Makes,remove contributing guidelines,False
+a9a55610f29f5d47adae823bdaaae90421afcac2,2017-01-05 01:49:16,J.L. Makes,update issue template,False
+3fab0c0fc167ccf1bc9b0a1bc27839110e43f2cd,2017-01-05 01:49:16,J.L. Makes,add new .ignore/ directory to project,False
+fc0c721b3abbc22396b398845d705b9942563508,2017-01-05 01:49:16,J.L. Makes,add scripts to npm pretest hook,False
+494002f5beeba6c9edd6301012e5adf9c9b989c8,2017-01-05 01:49:16,J.L. Makes,remove yarn lock file from git ignore,False
+b786ca25a023521e90b3c3801218553ad6b15112,2017-01-05 01:49:16,J.L. Makes,add linux line endings to git attributes,False
+6b4c258fdf746d8c0e3f722e1c0ecfa326ff69ac,2017-01-05 01:49:16,J.L. Makes,remove ignore paths from git attributes,False
+7762c78d3a26c841c03c255397042e730383d12a,2017-01-05 01:49:15,J.L. Makes,add package build script,False
+dc9a2ec27aa85219fef9ddc09b0f6a8373c87794,2017-01-05 01:49:15,J.L. Makes,remove gulp from project,False
+c7e2aece15b941ea626b04912e4c65ec483b89f8,2017-01-05 01:47:25,J.L. Makes,"remove iife from instance defaults and noop export
+
+This change causes tests to fail, even though bundling has no
+issues. It's possible there is something odd about karma rollup
+preprocessor (which I maintain), but it turns out that the bug
+is easily fixed by updating a regex within Rollup:
+
+https://github.com/rollup/rollup/pull/1218
+
+So it appears the next release of Rollup following 0.40.0 will
+no longer fail tests due to this strange issue with object literal
+default exports.",False
+2181a1ce6338deb5327df4b408d2e83665ccf35e,2017-01-03 20:58:47,J.L. Makes,remove video recording from sauce config,False
+8f4ba3ce062d367103137547943e55dae2352325,2017-01-03 20:58:46,J.L. Makes,update karma rollup bundle module name,False
+a5e22939826d7cd71106ded2a6c466e98ccb1f6f,2017-01-03 20:58:25,J.L. Makes,rename saucelabs browser config file,False
+b9b475f40b84994c77bf0ef9d483b0175203a286,2017-01-02 00:08:29,J.L. Makes,remove unused deep equality utility,False
+f2e71d2565ab23c84d49e040e3c3f9fcbfb68445,2017-01-02 00:07:00,J.L. Makes,remove matrix transform and transition logic,False
+376e431648386eb7ca679eebd18034d32837610f,2017-01-02 00:06:29,J.L. Makes,remove matrix utility,False
+cf6afbb9f1ff9eb4a0a9ba1ec542c3a7ea98505e,2017-01-02 00:03:29,J.L. Makes,update saucelabs matrix url,False
+9a90f0ff56dca252f1ddffd59567547b9360b7e5,2016-12-28 04:26:47,J.L. Makes,add missing brackets to if statements,False
+c56b969965707f8b1ff7b54f09449d635bed2f8f,2016-12-27 09:43:04,J.L. Makes,update which browsers are tested by sauce labs,False
+4210c757e9ed83dae7b86b1fb2cf22bade410be9,2016-12-27 09:27:31,J.L. Makes,"remove Opera 12 from test environment
+
+It would seem that Opera 12 (Presto 2.8) only offers partial
+support for 2D Transforms. Quite insufficient to say the least.
+Opera 12 is officially unsupported.",False
+22a7c0653709cf9226ec7be41400e30972ee7b6f,2016-12-27 07:58:33,J.L. Makes,update matrix utility tests for rounding differences,False
+744cb1f158a49e9597bc9ea0e0a74468f44dabf1,2016-12-27 06:33:35,J.L. Makes,output matrix test variables for debugging,False
+22ce6a6d27a5bec57c264fa0a110af2a2ea2b991,2016-12-27 05:30:10,J.L. Makes,reword matrix multiplication test description,False
+759f52b4b626e5e3e577da8cd12b331372e1a11e,2016-12-27 02:07:54,J.L. Makes,add skeleton for new browser utility,False
+e04514db6146f2c86c4a3d7d80815552c0701564,2016-12-26 23:10:44,J.L. Makes,complete test suite for matrix utilities,False
+49b8d728d9f995f5d82dda36a2eb9ae0816cbd13,2016-12-26 23:09:46,J.L. Makes,improve transformation matrices for accuracy,False
+4d47895c2ee958e97ba005711fae3faf28253f67,2016-12-26 09:56:56,J.L. Makes,cleanup rAF polyfill,False
+d31cf5c0cf93f07c463008f89b88c289dd093a8c,2016-12-26 07:50:56,J.L. Makes,add (correct) firefox browser agent to isMobile() test,False
+f5338e77e77a5730acf3f7ac35e2b28bca1eadeb,2016-12-26 07:49:32,J.L. Makes,fix typo in isMobile() test,False
+53cb57be17959572b4d851649969b9b40ea9acb8,2016-12-26 07:30:28,J.L. Makes,add incomplete test suite for matrix utilities,False
+74bd948f656355b0c02d9a1d00d397314eeb409c,2016-12-26 07:08:39,J.L. Makes,cleanup style generator,False
+7edceca49d8e1d7c902a3beef8b2676a4e03431d,2016-12-26 07:02:58,J.L. Makes,fix inline style generator regression,False
+9b8642fcc357cf6760ce83c42dfdb925f537017a,2016-12-26 07:00:47,J.L. Makes,refactor style generator,False
+9fe0bfb715246d5500451fb04621e0c0953e0efc,2016-12-26 07:00:43,J.L. Makes,add new utility to format matrix as matrix3D,False
+c2f905e8c167c6c941d31180ca4cc4d9c5502ffd,2016-12-25 19:38:46,J.L. Makes,refactor generic utility error handling tests,False
+e4abc9f07c9cc20bc3679a170eb38b32ede69e6c,2016-12-25 19:38:15,J.L. Makes,throw error if matrix utility is passed invalid arrays,False
+1ec2629a741a5402cee9aed20638167660b38bc7,2016-12-25 17:05:51,J.L. Makes,add basic test suite to isMobile browser utility,False
+50a4f4b35678611b90bf90c97df67e4aa50041e0,2016-12-25 16:37:02,J.L. Makes,add test for isObject when passed undefined,False
+67a342f199cf94f189245f36ac7495c756d6355c,2016-12-25 08:21:02,J.L. Makes,add error handling test for deepEqual,False
+6cd9e9154a41dde47c6127a1dc3d659971569f9d,2016-12-25 08:20:32,J.L. Makes,add error handling test for deepAssign,False
+fdf480cff15181332977c8e39eccefdf702cd4b0,2016-12-25 08:17:13,J.L. Makes,add support for instance method chaining,False
+4590961937286d18ba1902e2ee94692a2d2d7a82,2016-12-25 08:12:28,J.L. Makes,add noop instance tests,False
+ecffc834ba241303166fea82071f51671e13ea65,2016-12-25 07:59:43,J.L. Makes,update stale folder names,False
+c45a0214227f08535488fe0d977220c72d56debd,2016-12-25 07:59:02,J.L. Makes,add constructor test for non-object options,False
+df6404cc252b8849c41600869d82b00a65bf6845,2016-12-25 07:46:50,J.L. Makes,ignore index and instance defaults from test coverage,False
+7adb3f01c07efa77e54dab24d54ad7c8865f8fe1,2016-12-25 07:45:47,J.L. Makes,move UMD wrapper from constructor to index,False
+a63e2f4163e148ca280f4e59a7d480e0b2277c53,2016-12-25 07:33:27,J.L. Makes,refactor deepEqual utility,False
+1c0f0375c67ec21176ad6982078b0a82bf1f6e42,2016-12-25 07:32:19,J.L. Makes,consolidate duplicate karma log config,False
+a25607ca61170c6d740ff641170663fe0fbbd51e,2016-12-25 04:03:17,J.L. Makes,refactor default options and noop instance exports,False
+b415fd85ca5af77ffb6a8acface02e089ff597dd,2016-12-24 14:45:15,J.L. Makes,increase log level to show errors in travis builds,False
+b029a9e8d056d8f84527afadc17ac8c43720ae25,2016-12-24 13:31:34,J.L. Makes,refactor lightly and prune semicolons,False
+6ec01a193d660576fd0bf016d4eac1f499f7b583,2016-12-24 09:42:29,J.L. Makes,fix typo in CHANGELOG,False
+77d6fe3fb11f45d78660bd7a65d87a4eee3f4ae4,2016-12-24 07:07:38,J.L. Makes,refactor instantiation,False
+b91c2b47d7b3ef902c797d74a10d660acc01c935,2016-12-24 06:01:07,J.L. Makes,add try catch block to reveal method,False
+e4e12dcd344f830a31494a0e61b7e8de9726ccb7,2016-12-24 06:00:53,J.L. Makes,add try catch block to constructor,False
+04adbf203075613dfc8f70fb4a6008c7acdc2311,2016-12-24 05:36:27,J.L. Makes,remove parens from single param arrow functions,False
+75077acf8b8697dee37e19304e4b991c24003a02,2016-12-24 05:30:39,J.L. Makes,update thrown error types,False
+81232fb9bc967415869f33fd8f8a022935ba7ab7,2016-12-24 05:22:48,J.L. Makes,throw errors from generic utilities,False
+350a44bbd6447ad93231e33ace161624c0f9cff1,2016-12-24 04:46:23,J.L. Makes,prune duplicate logger method,False
+593133cc42c09dd37b9d3e283488ff25e25146cf,2016-12-21 02:44:47,J.L. Makes,refactor style generator with comments,False
+1e6dc3fd1888ede6cedd47fb43ef292e76a0935b,2016-12-20 23:19:38,J.L. Makes,"replace offset values with bounding rectangle
+
+This might be reverted, but for the time being it serves to
+increase support for SVG elements, which do not return offset
+height or width values.",False
+359bfe2e385eab64efb25447f10c78a9cdde87d8,2016-12-20 23:12:44,J.L. Makes,refactor transition style generation,False
+b1b0b0e5ea64ba2fc5762d7dae75858b433b2205,2016-12-20 23:12:23,J.L. Makes,refactor matrix utility for readability,False
+f5a0c556d91e1e38c15a7712ad8fc527e85e4ba9,2016-12-18 21:33:55,J.L. Makes,fix floating else statement,False
+5863abbc606afc7b1f030f6c7ad013b7455c5863,2016-12-18 12:05:17,J.L. Makes,add generated transitions to style generator,False
+46ef7afcc825b6ee353abd50dfb989a2fddfc26a,2016-12-18 11:53:57,J.L. Makes,fix undefined when no transform is needed,False
+771917bfc4ac45ae8a6bdb272ae235c3ec953eb1,2016-12-16 07:40:01,J.L. Makes,add inline styles to style generator,False
+531f44f03ab3b6a73cdf079a11e34652e7558043,2016-12-16 07:35:32,J.L. Makes,update precision of matrix utilities,False
+799d14ffa061cf841a6802c4b2d4104f553eb951,2016-12-16 06:52:35,J.L. Makes,parse style generator opacity as float,False
+e13862ccc32e46f52cba22069ac8bd2d223ab92b,2016-12-16 06:34:49,J.L. Makes,add computed transitions to style generator,False
+5f4a56458102f13362f8b32cbe8c63a0eb186224,2016-12-15 23:07:51,J.L. Makes,fix style generator undefined distance,False
+1d88eafffb4a9e7403bf882c3887311c126aaff5,2016-12-15 15:36:41,J.L. Makes,update unreleased license and feature changes,False
+ad532f6ab22afa6fc4c513994cdb19925d9c675c,2016-12-15 15:22:23,J.L. Makes,cleanup style generator,False
+017ac2738b5a7a2306ce99564353ca360d64aaf4,2016-12-15 15:22:23,Julian Lloyd,update copyright,False
+a9e189cacd46690c7e42f69872ad1bc22d2dd4cd,2016-12-15 15:22:23,J.L. Makes,fix deep equal utility,False
+0ed5fc30bc2b0b1d62e6aba9a573c45b061df3e4,2016-12-15 15:22:23,J.L. Makes,updated deep equal test to highlight bug,False
+9c69b0ff80b5733a510ed181b7b77d21ab32c85a,2016-12-15 15:22:23,J.L. Makes,combine computed and required transforms [fixes #251 closes #292],False
+f36f7cfbab927eb0f56e3ca957259f72d2abc260,2016-12-15 15:22:22,J.L. Makes,prune unnecessary matrix utilites,False
+53ce5812c8ee2a8c16078f1e965e5a78ddb1f914,2016-12-15 15:22:22,J.L. Makes,add new generic utility to compare object equality,False
+16f227689857cf86cfbb29c6234a62182b3b7f85,2016-12-15 15:22:22,J.L. Makes,update forOwn utility with arrow function,False
+80ceac9ef2d9ce4094357a7d67239bc2aa135db0,2016-12-15 15:22:22,J.L. Makes,remove unneccesary namespace,False
+73cab0bfef95e1c5a3ee4cd59ab715d801ccd514,2016-12-15 15:22:22,J.L. Makes,add translation matrix factories,False
+5b7fcb0e5fd710aca86ca5a62abd151a9fee1d94,2016-12-15 15:22:22,J.L. Makes,alphabetize matrix utilities,False
+dbe9e33c6935985c6737403907ced667936b85ac,2016-12-15 15:22:22,J.L. Makes,correct matrix multiplication function,False
+1264abc980b8f8da2c8c11873f3fc599b3b62eab,2016-12-15 15:22:22,J.L. Makes,add scale matrix factories,False
+959c9bd0279d1e8fde0bb792afea2456ff9f59ab,2016-12-15 15:22:22,J.L. Makes,update import/export formatting for consistency,False
+9c29023c595fe577446f04d574b7ec99a8b735cb,2016-12-15 15:22:22,J.L. Makes,extract matrix functions into own utility,False
+d6244f5923c6a6686c4e46b5df775ff2bf958887,2016-12-15 15:22:22,J.L. Makes,add rotation matrix factories,False
+c970dd4762cb749dd25732a3b7fdacdbcdec771a,2016-12-15 15:22:21,J.L. Makes,add identity matrix factory,False
+2d81a4fe6cabc6b96593793f50f3449915b1d7d3,2016-12-15 15:22:21,J.L. Makes,add matrix multiplication function,False
+bbd77711a486d6417d26e260f8cc08cfb0502c9d,2016-12-15 15:22:21,J.L. Makes,"extract transform matrix values into array
+
+This is getting into a bit of deep shit, in order to finally
+resolve #251 and preserve CSS transforms. I've successfully
+captured the computed transformation matrix as a 16 value array...
+even when the shorthand is provided.
+
+Definitely looking promising, but this is just the first step.
+Next I will need to generate a matrix from the `reveal()` config,
+which appears to be the biggest hurdle.",False
+911de44d07abba903212738d06058628b4e24e23,2016-12-15 15:22:21,J.L. Makes,refactor rAF polyfill,False
+d91606827777f82c95dc18303cb493feba008e20,2016-12-15 15:22:21,J.L. Makes,"relax rAF polyfill test to accept 1 extra call
+
+Using Date.now() seems to be fairly reliable, but in some cases
+the callcount is 7 instead of the desired 6 within 96ms (60fps).
+I think a slightly more lenient test is acceptable, all things
+considered. After all, it is still throttling callback calls at
+a rate of ~60fps.",False
+5b4e91d87b926cd58949f8f5a9a5b6051f443239,2016-12-15 15:22:21,J.L. Makes,add preliminary reveal method,False
+f377e7eba9feb7b59382e2054017aa018cb5cf9c,2016-12-15 15:22:21,J.L. Makes,add preliminary style generator function,False
+6476257e3d314ac66dcb46c59aa7fa556fbea371,2016-12-15 15:22:21,J.L. Makes,move instance functions to own functions/,False
+cf3e44868df49d1a59dea191ff177583af30a590,2016-12-15 15:22:21,J.L. Makes,move method/ inside instance/,False
+40ec0e86259e845855cd320d59ec1dd700532994,2016-12-15 15:22:21,J.L. Makes,remove temporary test to output computed style,False
+9ab21e2bd99710ad919328e0dd3d425bca4afde7,2016-12-15 15:22:21,J.L. Makes,update output from temporary computed style test,False
+9e0ecea3ac8c9083c56f3d9f0c239fb28dc92779,2016-12-15 15:22:20,J.L. Makes,update karma log level,False
+87ba6eaa02ae71d47aecc04a8b032a593fceb3a2,2016-12-15 15:22:20,J.L. Makes,update output from temporary computed style test,False
+d666d9c8c559f86c1bd5742c3915c0fe3fa9ea6f,2016-12-15 15:22:20,J.L. Makes,update code coverage badge image url,False
+929a164c84f1baf9cff005095e282768e40a31f0,2016-12-15 15:22:20,J.L. Makes,add temporary test to output computed style defaults,False
+db0d52019d30c3057ff2dd177a6d208b56b963cb,2016-12-15 15:22:20,J.L. Makes,downgrade eslint rule no-unused-vars to warning,False
+2547ff3fd0bda8cc508f1b2e244b462665ae3aa5,2016-12-15 15:22:20,J.L. Makes,rename source core directory to instance,False
+fdd544e8bea4bc1e4b5d97187f6f504299c943db,2016-12-15 15:22:20,J.L. Makes,update noop instance to support chaining,False
+aa42001423906c68b65db6a95cd86b306abc3084,2016-12-15 15:22:20,J.L. Makes,update import/export formatting,False
+5d872d55e8ef01a9a06d97614726a20127322113,2016-12-15 15:22:20,J.L. Makes,move logger from generic to core utils,False
+5cde3da79ad9c413930ce124a1ccb5514b5e064a,2016-12-15 15:22:20,J.L. Makes,"remove core util invocation from generic utils
+
+Just doing a little house keeping, and it makes sense to keep to
+keep the generic utilities reusable and as unspecific to this
+package as possible.
+
+As such, the core utility `logger` is being replaced with a thrown
+type error.",False
+824b5ca5c1495e26fe1d1a5ad3dc032a4b5b992d,2016-12-15 15:22:20,J.L. Makes,move DOM node functions to new core utilities,False
+0cb02c3799f6ae278e7181d6990d6815fac12139,2016-12-15 15:22:19,J.L. Makes,"rename core DOM node functions for clarity
+
+To prevent naming confusion, HTML elements are referred to as
+nodes; the ScrollReveal objects that represent a node, its
+configuration and all library meta data can freely be referred to
+as elements.
+
+Mmm Mmm MMM pedantic minutia tastes good!",False
+951f313d914016a2017ef9f8845ffecfc6f6b103,2016-12-15 15:22:19,J.L. Makes,reduce rAF polyfill test timer from 100 to 96,False
+53bad7905c5b2ec604e749bc983eede27757f84e,2016-12-15 15:22:19,J.L. Makes,"refactor file structure for rollup
+
+Rollup does not remove the `export` statement at the bottom of
+the entry (constructor) file, which is present so that the
+constructor can be imported and tested.",False
+fd77e22c05c0823e662cc97438d72e0fb489fd3d,2016-12-15 15:22:19,J.L. Makes,fix lint error,False
+7fb4f417c1747231b0c801e30fad40bd543c31e6,2016-12-15 15:22:19,J.L. Makes,add test to confirm deep object assignment,False
+c323a0b106b0b567fcb0ef539648dc5edcff285c,2016-12-15 15:22:19,J.L. Makes,exclude source files from karma browser,False
+cf7d61829e54ba646b08c2e2316f901ad0453a70,2016-12-15 15:22:19,J.L. Makes,fix rAF polyfill false positive,False
+29ec29fc6eea5bc76462a6556acea569aa041db4,2016-12-15 15:22:19,J.L. Makes,update karma rollup preprocessor to 3.0.0,False
+e5bf9e82aeb0276604aa9b08d18010b67715b3fb,2016-12-15 15:22:19,J.L. Makes,update eslint rules,False
+5630d2771701d3ba388113090138fa305e29e658,2016-12-15 15:22:19,J.L. Makes,refactor rAF polyfill throttling test,False
+02fce492e03b9534e9984a2b81ac4b53fe8e8d0c,2016-12-15 15:22:18,J.L. Makes,update formatting,False
+77bddeb1f3c201298588cf506db6d3819fbe2037,2016-12-15 15:22:18,J.L. Makes,update which browsers are tested by sauce labs,False
+4c2fd7c53b5d4170b6da12ffff6a81f81cee80f7,2016-12-15 15:22:18,J.L. Makes,update sauce labs build url,False
+6c4f0c4251296df51bfb7765e3179bba6458a449,2016-12-15 15:22:18,J.L. Makes,"add json file extension to eslint config
+
+The .eslintrc file is deprecated as of the latest eslint, which
+conveniently fixes the syntax highlighting issues I've had with
+atom. Booya!",False
+1e7103686a70de7ba82a919e7ff702cb86eed7fb,2016-12-15 15:22:18,J.L. Makes,disable karma log,False
+fca213918ad3e0b65165c0b7ae186b2155d2bf91,2016-12-15 15:22:18,J.L. Makes,invert array bracket spacing rule,False
+ff4cbf92079fe64d2f3fb062718c617aba68f4b9,2016-12-15 15:22:18,J.L. Makes,add new utility for deep object assignment,False
+ff37b0cf133d10843c61c063a737f4b5b8d14366,2016-12-15 15:22:18,J.L. Makes,update eslint to latest version,False
+3613a349f21abd333f0dc956dae176e91cf79a9c,2016-12-15 15:22:18,J.L. Makes,move eslint globals from file comments to config,False
+370c8c39cdd87df8693e2bf0f0e11bb842417bca,2016-12-15 15:22:18,J.L. Makes,add new utility to loop over object literals,False
+875b65a24e735c72551d4d8e83328c8951143361,2016-12-15 15:22:18,J.L. Makes,add no-trailing-spaces rule to eslint,False
+4f0985e058c0dd3276d54c11756cb4c739fb2822,2016-12-15 15:22:17,J.L. Makes,add new utility to check if object literal,False
+c3187e761ad086ecbd400ca234ba3d1b73c804a9,2016-12-15 15:22:17,J.L. Makes,remove jsdoc block from nextUniqueId(),False
+636c8d19522978bf3f5439c190c2d6e8adbd498e,2016-12-15 15:22:17,J.L. Makes,update eslint rules,False
+13acff0c830dc80a729fd4a33e88e50dc7940c17,2016-12-15 15:22:17,J.L. Makes,replace spaces with tabs,False
+27caf167f75c3469b50fde972a8290a909ec9ca7,2016-12-15 15:22:17,J.L. Makes,remove airbnb preset from eslint,False
+dde203e0786a082e6fd9f0799e2374219d300ca8,2016-12-15 15:22:17,J.L. Makes,"replace karma browserify plugin with rollup
+
+The goal is to be testing the same code that's shipping to users,
+since the Browserify code is horribly bloated -- I measured the
+file size to be DOUBLE that of rollup. Not to mention that
+Browserify was using Babel, whereas the distribution was using
+Buble...
+
+Suffice to say, the frustration was worth the confidence that what
+is being shipped, is what is being tested. (It also means my code
+coverage looks a lot more like the source.)
+
+An example benefit of this strategy, is that I've identified the
+Object.assign method as needing a polyfill, and that the spread
+operator on NodeLists does not work with Buble.
+
+Some tests are failing in this build, but that will be rectified
+shortly, as the next few commits will be focused on a polyfill
+for Object.assign....",False
+f3c5b5302be6583b474ae157993664b9c764c8dd,2016-12-15 15:22:17,J.L. Makes,"add browserify.bundleDelay to karma config
+
+Seems that OSX has weird timing with file system changes, and was
+causing a bug where each save would trigger tests twice. Now using
+bundle delay, tests correctly only trigger once per save.",False
+d5c636eaad54cec59b8b9882bf31523e5ca9d8a0,2016-12-15 15:22:17,J.L. Makes,rename constructor param config to options,False
+a34900a9dd97dcb840d656c5efe73a6fd497d683,2016-12-15 15:22:17,J.L. Makes,add new core function getElements,False
+d494a9462c5372cc6b17c79296ec60ae6ecac78b,2016-12-15 15:22:17,J.L. Makes,rename getContainerElement to getElement,False
+f32e3e476d1f6ee44595d45b5b42f8ac45d3aa50,2016-12-15 15:22:17,J.L. Makes,update formatting to show unreleased breaking changes,False
+b85389b7bcd348a106e5f50255688b5cebbce3c3,2016-12-15 15:22:16,J.L. Makes,update coverage badge in README,False
+53160a98793b714a2363a55a292bd89d53469eca,2016-12-15 15:22:16,J.L. Makes,use codecov instead of coveralls,False
+59466c3ae3a7e94b77c15c293ba6c648c0c68985,2016-12-15 15:22:16,J.L. Makes,refactor tests for consistent syntax,False
+3918575e6099855b0232ae981bdd83adab7bc437,2016-12-15 15:22:16,J.L. Makes,add gulp task to serve and watch code coverage,False
+21c3d3f6a81d68626d34ba8b7c72c8ca72479ff7,2016-12-15 15:22:16,J.L. Makes,refactor gulp dev tasks,False
+7de77a982e335a61aaac02f75f8170b819574bed,2016-12-15 15:22:16,J.L. Makes,remove stale make-test gulp task,False
+6fafa68d981a0b01a2d22bbffe394df7ec846809,2016-12-15 15:22:16,J.L. Makes,fix isNode() to not fail when passed null,False
+ad9d0815f2ad1703fd452eb409a210a8f9028b5f,2016-12-15 15:22:16,J.L. Makes,change isSupported() from an instance to static method,False
+d9132af9ed5c4111aeed436af060effb717b66dc,2016-12-15 15:22:16,J.L. Makes,add support for container selectors during instantiation,False
+50157065fe318b62337912cb653b117fff56921d,2016-12-15 15:22:16,J.L. Makes,"add new core getContainerElement() function
+
+Since ScrollReveal supports DOM nodes and selector strings to
+define custom container elements, this function accepts both nodes
+and selector strings and returns the correct element...
+
+Or returns null and logs what went wrong.",False
+2156413a4bdcc18784f67a68a540bed26dfffa1b,2016-12-15 15:22:15,J.L. Makes,add non-operational instance object to core,False
+47c78c799e52efd8520cbbd1597018b1fd2aeaf2,2016-12-15 15:22:15,J.L. Makes,add new generic utility for logging,False
+6b0d0a98af0849997ac76d57a53093f7306d09b9,2016-12-15 15:22:15,J.L. Makes,remove console.log warnings from eslint,False
+8848b0294d7e477567972e622f55626a83cba2ba,2016-12-15 15:22:15,J.L. Makes,cache bust the coveralls badge (again),False
+fa09852becf712ad9f8c5316d7028dea7e51d498,2016-12-15 15:22:15,J.L. Makes,"ignore isMobile() in coverage report
+
+It's a one line regex against browser agents; unless I have some
+other source of truth about the environment in which the test is
+running, I have no way to automatically test this method...
+
+Any ideas anyone? As far as I know, Sauce Labs nor Travis CI
+offer any sort of environment variables for mobile browsers.",False
+a407019d427c7e41fd4a066224a94f49b458e2f9,2016-12-15 15:22:15,J.L. Makes,remove fake isMobile() test to dump browser agent,False
+cb2bff531c7a71cdd9c9e7f2ae7efe494a18a556,2016-12-15 15:22:15,J.L. Makes,add fake isMobile() test to dump browser agent,False
+f62dfd094168a92dfa337b2f5e71830842d76c33,2016-12-15 15:22:15,J.L. Makes,add version and license badges to README,False
+4f0fc4a71518193a30cfe5658772c91be2aac14c,2016-12-15 15:22:15,J.L. Makes,update unreleased notes in CHANGELOG,False
+183887e3c0edd5aa05363b11d78a8629fb3faf96,2016-12-15 15:22:15,J.L. Makes,"update which browsers are tested by sauce labs
+
+Encore! I'm still experimenting with test times, and to be frank,
+what looks good in the README. I've decided to test one relatively
+old version of each platform, in good faith of support in future
+versions.
+
+Also, Sauce Labs takes over 4 minutes to spin up Mobile Safari 10,
+which just seemed pointless. I think this is the last time I'll
+have to fiddle with the SauceLabs browser config.
+
+'Ey!",False
+995f79010944b5869eb6a434c93645fce7fd727f,2016-12-15 15:22:15,J.L. Makes,cache bust trollol coverage badge,False
+2949fafaa2b516c714a892fa947cc1fa93e0cdea,2016-12-15 15:22:15,J.L. Makes,comment out unfinished/untested code,False
+7f873d7e553ab09e50bfcc7d17516c754050fd01,2016-12-15 15:22:14,J.L. Makes,"add constructor unit test
+
+Dang, code coverage is awesome! I noticed that the instantiated
+object was not being tested when ScrollRreveal isn't supported.
+
+I made a few changes to be able to stub the method checking for
+support, and also to the noop instance so that it still has noop
+public methods.
+
+The noop instance should prevent runtime errors on browsers that
+don't support CSS Transition and Transform. One could check that
+the `sr` class has been added to `<html>`, but this approach
+allows the developer to be optimistic.",False
+243c31d00959837b83b6d90974377ae35fcde01f,2016-12-15 15:22:14,J.L. Makes,fix typo in polyfill unit test,False
+cd80d65310be875f486505cb7309bdddc3b94b85,2016-12-15 15:22:14,J.L. Makes,update which browsers are tested by sauce labs,False
+090e892ca1f9d5a8137f4f809f44cd8d17fac462,2016-12-15 15:22:14,J.L. Makes,fix npm test scripts,False
+c0dd9d08d3daed5f31e2376a97b3cd3d3e6431af,2016-12-15 15:22:14,J.L. Makes,"update coveralls badge url with cache bust
+
+It's annoying having to cache bust for code coverage changes to
+show up in the repository. Perhaps I should look into codecov.io",False
+5d49c1337f4b40841f6a29e03d1531ac59be7688,2016-12-15 15:22:14,J.L. Makes,update which browsers are tested by sauce labs,False
+ee091657c3185982e207737d3bdbc16f167076fa,2016-12-15 15:22:14,J.L. Makes,refactor requestAnimationFrame polyfill,False
+2ca1d7ddb8c2c3ab5deb3de89bb9266da26a3ff4,2016-12-15 15:22:14,J.L. Makes,update coveralls badge url with cache bust,False
+04ea890098808c05d870a74779c9d8d697404ad3,2016-12-15 15:22:14,J.L. Makes,add requestAnimationFrame polyfill test cases,False
+b3f71f2e90566f0ed8be26d3f2f6d94de4ee1cae,2016-12-15 15:22:14,J.L. Makes,export requestAnimationFrame polyfill,False
+cc900563b6d649c96b52462144c350dec9f13a74,2016-12-15 15:22:14,J.L. Makes,add sinon support to test suite,False
+bf61c93ab325e1b61f0fc3402cb1bf9d4995d680,2016-12-15 15:22:13,J.L. Makes,update coveralls badge url with cache bust,False
+c01b1ec1913c90ad51f46ffa1ee8a8390acb3c92,2016-12-15 15:22:13,J.L. Makes,add basic polyfill test case,False
+d042384f40e835d741c996f057100249e2b7d014,2016-12-15 15:22:13,J.L. Makes,update which browsers are tested by sauce labs,False
+461dbb73be91186fe1922092b87a76d2054b8ff2,2016-12-15 15:22:13,J.L. Makes,remove horizontal rule from README,False
+3a6dedb6cc1684775ec05a758956de43d619f91c,2016-12-15 15:22:13,J.L. Makes,add constructor test cases,False
+6fb06a325e7504fd6f586d1b45d6998a4dd785f5,2016-12-15 15:22:13,J.L. Makes,update which browsers are tested by sauce labs,False
+ad039538f072612f608eae361b53f80f87102ac7,2016-12-15 15:22:13,J.L. Makes,update README formatting,False
+e952c561b8dad950c669373830fce1e797ade556,2016-12-15 15:22:13,J.L. Makes,add karma mocha reporter to local config,False
+8427a65c584afbeda84542188b7da903c6de0b89,2016-12-15 15:22:13,J.L. Makes,update license agreements,False
+fc0e349ed528986b88135e8d24d4c188bd67b865,2016-12-15 15:22:13,J.L. Makes,replace karma reporter progress with dots for travis-ci,False
+359822962f516c08583716644c9741a67a7d2f2d,2016-12-15 15:22:13,J.L. Makes,disable karma log,False
+d17ce086ce903596dc17d34baa5cbedc2ba031ca,2016-12-15 15:22:12,J.L. Makes,add progress reporting to karma in travis ci,False
+ceeee5673f37226cc75a6e81879957fe7a7cdf80,2016-12-15 15:22:12,J.L. Makes,ignore more files for github/bower releases,False
+30fcb89f6158395a2e29a8644a29c7a96d8886bb,2016-12-15 15:22:12,J.L. Makes,add coveralls code coverage badge to README,False
+96ffd101402da2192c7275b541583a3ed8fc7dad,2016-12-15 15:22:12,J.L. Makes,"add code coverage reporting to karma
+
+HTML reports are generated locally, and Coveralls reports are sent
+when running through Travis CI.
+
+Note: Local and Travis both require COVERALLS_REPO_TOKEN present
+in the environment variables, for karma-coveralls to function.",False
+74fda2bd63c39b745e9f5e13696e42adabdb39da,2016-12-15 15:22:12,J.L. Makes,"add more browser utility tests
+
+The `transformSupported()` and `transitionSupported()` methods
+should always return true, and were quickly added to the browser
+utility spec.
+
+It remains to be seen how `isMobile()` can be tested, seeing as
+I would need to serve different tests to SauceLabs desktop and
+mobile browsers.",False
+eafed9486e6f61eeadd64e6922d193433aef122d,2016-12-15 15:22:12,J.L. Makes,"remove documentation from README
+
+The next release will have documentation living alongside the demo.
+The website will host improved documentation, complete with
+navigation and indexed search.
+
+For now, the README is being stripped down because why not bros?",False
+f79258aa7a956bdd938d0f1126a6eb129589d698,2016-12-15 15:22:12,J.L. Makes,update which browsers are tested by sauce labs,False
+1f63a1bd02e7c473c9dd4dab8e83368d028a41a5,2016-12-15 15:22:12,J.L. Makes,remove dots reporter from karma config,False
+16cbcc01f3b948a74285633dfcb6adaeb43ba3e6,2016-12-15 15:22:12,J.L. Makes,"simplify npm test scripts
+
+The SauceLabs tunnel runs like absolute trash locally (sorry), and
+the difference between a PhantomJS test and all 27 browser-device
+combinations when ran through Travis CI... is less than 2 minutes.
+
+In other words, I've removed the ability to run Sauce Labs testing
+locally, and instead refactored the scripts to detect the TRAVIS
+environment variable; npm test will invoke the SauceLabs launcher
+when ran by Travis CI, and use only PhantomJS when ran locally.
+
+There is only `npm test` and `npm run testing` which appends the
+--auto-watch flag to Karma. Booya!",False
+e2284675c04b2d16967228ada688d21309fdedc7,2016-12-15 15:22:12,J.L. Makes,add sauce labs browser matrix to README,False
+c22961abaaac173fac51916c7593305686252b74,2016-12-15 15:22:12,J.L. Makes,fix markdown errors with travis badge,False
+02e0610185addc5d841d27f48b9a51bacd54eca3,2016-12-15 15:22:12,J.L. Makes,add travis build status badge to README,False
+fd5f1ce4dc6a5711d7d9927143a95c21a88bbd3d,2016-12-15 15:22:11,J.L. Makes,"add complete browser list to sauce labs launcher
+
+The first Travis CI build passed! Hallelujah, everything appears
+to be configured correctly... now time to turn up the heat.
+
+This commit introduces over 20 browser-device combinations, and
+help test the reliability of Travis CI and Saucelabs together.
+
+Note, the .travis.yml still has inverted if statements during
+these trial runs... once confirmed, PhantomJS will be the default
+testing environment for commits, and Sauce Labs for PRs.",False
+58b848dbcb67efc03a804e2f3c6565e56a154d35,2016-12-15 15:22:11,J.L. Makes,"install and configure karma, sauce labs and travis-ci
+
+All of the work on integrating rollup into the build process for
+distribution files, created some friction when trying to integrate
+Karma. Due to better support, I've added Browserify to the test
+preprocessors for Karma, and anticipate refactoring the gulp build
+tasks with it as well.
+
+In fact, the ""mocha in browser"" approach seemed to fall flat once
+I looked at introducing Sauce Labs for cross browser testing...
+and now I understand where Karma fits into the ecosystem!
+
+Unfortunately, it means some pretty dramatic refactoring had to
+happen, undoing some of the past month's work... and there's still
+more refactoring to be done.
+
+That said, everything appears to be working locally with Karma and
+Sauce Labs, and the next step is confirming that Travis CI is
+setup correctly alongside the two.",False
+85c3485f1a27f99c7ae3ca7894aef8c3ff8556e3,2016-12-15 15:22:11,J.L. Makes,add mocha to eslint environment,False
+55934d74dc6601b778061225e542c900c8a41940,2016-12-15 15:22:11,J.L. Makes,"fix isNode() call inside isNodeList() browser utility
+
+The utility functions were originally instance methods of the
+Toolbelt object; a stray reference to `this` was breaking things.",False
+09afffff65d4e7897498a9bd37627838fa17d145,2016-12-15 15:22:11,J.L. Makes,zero the default view factor,False
+f4141aab759a4879a1c68744e2d6eaed9322d532,2016-12-15 15:22:11,J.L. Makes,"refactor build tasks using rollup-stream
+
+In order to use gulp plugins like uglify() and stripDebug(), with
+rollup, the distribution task was refactored to use rollup-stream.
+
+In the process, gulp-rename and pump were removed.",False
+2dac5e84686c09535a40c397bc4042d77005d279,2016-12-15 15:22:11,J.L. Makes,create task and entry file for testing,False
+0965ec6632e6fbddf49d1090e5b1534bdd3de700,2016-12-15 15:22:11,J.L. Makes,create mocha browser testing page,False
+adf5ffa0dea632935e702043c9cb00903ab64b80,2016-12-15 15:22:11,J.L. Makes,create test suite for utility modules,False
+0d5463e3ba95e639eb6fd3dd919f5b66da27153d,2016-12-15 15:22:11,J.L. Makes,remove eslint error when padding blocks,False
+2bafe5dbe9c6b3ddf28539884d987dea89579471,2016-12-15 15:22:11,J.L. Makes,reform package.json,False
+2e24086b0b34829b411dfd6d6d5e20be280d6724,2016-12-15 15:22:11,J.L. Makes,reform bower.json,False
+f1285c7b5d825928ae88fc995a4eff0db3ecd614,2016-12-15 15:22:10,J.L. Makes,fix eslint errors in gulpfiles,False
+53cb5ae95a8f71a7bf56e4c8596cc6523ce2e6e4,2016-12-15 15:22:10,J.L. Makes,remove empty lines at beginning gulp files,False
+24ebe20ed60968d5ea541b677011277e905a4403,2016-12-15 15:22:10,J.L. Makes,remove empty lines at beginning of source files,False
+ca8bad494c5af8fb4fd2ea1f0f53f5845192ed96,2016-12-15 15:22:10,J.L. Makes,"rename src/lib/ to src/core/
+
+The directory structure is a work in progress. It appears entirely
+subjective, but I expect further changes as development continues.",False
+ef3eb0fedb78b780cf342e762810f88d463a45dc,2016-12-15 15:22:10,J.L. Makes,add mocha and chai to dev dependencies,False
+38c37d29f747084d0b597c0954e9c3a9b141c739,2016-12-15 15:22:10,J.L. Makes,remove stale StandardJS global declarations,False
+0f972379da94c35cf1d8a5ec38051c0e3d4784b0,2016-12-15 15:22:10,J.L. Makes,"author new change log
+
+The original change log did not include anything prior to v2.0.0,
+and bundled patch notes into minor notes. These decisions,
+alongside a number of code samples showing deprecated code
+prompted this overhaul.
+
+The new format is based off http://keepachangelog.com, and
+includes all work from launch to present in a consistent fashion.",False
+773f5fe3c636a07eb2d92d1dab859e7a7b1e8d4c,2016-12-15 15:22:10,J.L. Makes,fix library website url in source comments,False
+17eca8512b8978017b4d389f5016af9dfd00143f,2016-12-15 15:22:10,J.L. Makes,"replace unsupported use of Set, Map and for...of",False
+8de1fa495afe297656debbf8f81311b57781b8e9,2016-12-15 15:22:10,J.L. Makes,add methods to prototype,False
+9730e0bd7b0c1c601a9a6cd2aa264aa437ee367b,2016-12-15 15:22:10,J.L. Makes,fix eslint errors in gulpfile,False
+13f36875e0855c208efcd14880d902e13e7b9688,2016-12-15 15:21:34,J.L. Makes,create new main source file and related dev tasks [closes #294],False
+d2efb983673a031b28d54b2294b7e91ca3106148,2016-11-07 01:02:34,J.L. Makes,create placeholder watch method module,False
+e20797862b03118ae8aa888e1219e5003e4e2b4a,2016-11-07 01:02:34,J.L. Makes,create preliminary remove method module,False
+64eb7d18d58f5ece7f560e129534ddf7b7237c53,2016-11-07 01:02:34,J.L. Makes,create placeholder reveal method module,False
+80d6f73c9f571a2fb7f2644866391e5c60d9db38,2016-11-07 01:02:34,J.L. Makes,create new sync method module,False
+0c34d02466e1002462b57016ec81c976105a0b6d,2016-11-07 01:02:34,J.L. Makes,fix eslint errors in gulpfile,False
+afed659de9c7039a558f87bdd609817fe576c747,2016-11-07 01:02:34,J.L. Makes,create new library functions module,False
+dd41e6836d84f0838a3b335cbeb8d2647dafbba2,2016-11-07 01:02:34,J.L. Makes,create new library defaults module,False
+8e1f0015824a6a62f9bc1c7b49589fdb3931c113,2016-11-07 01:01:26,J.L. Makes,"refactor toolbelt component into namespaced utility modules
+
+The structure is still a work in progress, but the object
+oriented components have been removed. Instead, functions are
+namespaced to utility modules.",False
+2a205d333347af9f49bcca82d526ed3d0474305a,2016-11-07 00:59:37,J.L. Makes,move and rename requestAnimationFrame polyfill,False
+92069e492bc051bc9c4386a599efd9ad34b98db6,2016-11-07 00:59:37,J.L. Makes,add eslint to dev dependencies,False
+d82e159af886add6718d3ddb096e279c73db31a4,2016-11-07 00:58:20,J.L. Makes,import requestAnimationFrame and Toolbelt modules,False
+93c9a6931459cace6a1c1b331560a1a7d00fb98d,2016-11-07 00:55:31,J.L. Makes,add rollup to Gulp dev task,False
+fdce8d586250e16d2871132e4b18fb58f243dbe9,2016-11-07 00:54:41,J.L. Makes,extract Tools class into Toolbelt module,False
+7fa017414395762d0475b7cb3479aa8cc0a27819,2016-11-07 00:54:07,J.L. Makes,extract requestAnimationFrame polyfill into a module,False
+c1d80f930113c4f8113828b37336e764bc6550d1,2016-11-07 00:53:37,J.L. Makes,add rollup with buble plugin to Gulp pipeline,False
+f5e3d1347ad1c1eb41707fae133e9084a150efff,2016-11-07 00:53:16,J.L. Makes,update gulp files with fat arrows,False
+fc3141e99f11598e1853290806b97f2800ed7b69,2016-10-02 23:45:43,J.L. Makes,ScrollReveal v3.3.2,False
+6bb68b2025f8f73d35ba2e54b8d5c85b56812224,2016-10-02 23:41:21,J.L. Makes,refactor(instantiation): assign resolved container to defaults [fixes #289],False
+3696e6eb473332b94d4efb1274fd9d69d4a3c270,2016-07-22 07:00:08,J.L. Makes,cleanup(*),False
+8a7ba5c9f2da0b52a05826f4ab42e9bdd62fb600,2016-07-22 06:58:30,J.L. Makes,repo(readme): update section 2.2. starting defaults to show new callbacks [#273],False
+9bf63f7405c6757f7282be8ecbc31ac5b1885469,2016-07-22 06:03:00,J.L. Makes,:sparkles: ScrollReveal v3.3.1 :sparkles:,False
+01a26d73238d42f81b652f0ddab017fbc645750f,2016-07-22 06:01:43,J.L. Makes,fix(version): use correct semver for returned value (oops!),False
+7bf017cb6d8c3d48b2392089d96672355dcd2b38,2016-07-22 05:55:37,J.L. Makes,:sparkles: ScrollReveal v3.3.0 :sparkles:,False
+de063bd26be9af94f7f3a8b061c680af36925201,2016-07-22 05:53:39,J.L. Makes,feature(reveal): add new `beforeReveal` and `beforeReset` callbacks. [closes #273],False
+eefd2119ce38cc541c869e68bc57a18e4c5f216b,2016-07-08 23:53:29,J.L. Makes,:sparkles: ScrollReveal v3.2.0 :sparkles:,False
+e879e3fad39115da0b25a75194c539954f812021,2016-07-08 23:52:47,J.L. Makes,cleanup(gitattributes),False
+1dbc45927c51ce0b3947d073b42b51f1a3a8dcc8,2016-07-08 23:25:28,J.L. Makes,repo(readme): add license badge and url,False
+8d16df4aecaa596e1532758efc760a68fa5e7236,2016-07-08 23:25:25,J.L. Makes,refactor(gulp),False
+02a6cae82e5a1558439e12e069c1fe8b4844a36f,2016-07-08 23:24:21,J.L. Makes,repo(readme): update 2.2. starting defaults,False
+2a2c0372672783dca66d1bfae31830b4448c0145,2016-07-08 23:24:21,J.L. Makes,refactor(reveal): custom container logic,False
+00157472572f83ff450839ec0f13ac376b968da3,2016-07-08 23:24:21,J.L. Makes,cleanup(*),False
+e2de894995d2abb96eef8854ec16af650308fcd4,2016-07-08 23:24:21,J.L. Makes,refactor(reveal): move target logic to private function,False
+cd60461757230fe40ea34475c4a7e0d1d572a904,2016-07-08 23:24:21,J.L. Makes,feature(*): instance variable with library semver [closes #262],False
+7e4649e29bb17688b8a1d915b77742077abe0741,2016-07-08 23:24:21,J.L. Makes,refactor(generateTransform): pluck and improve CSS distance logic from _configure [fixes #270],False
+c3628f804467de6332c8ce46a1c1553d9e2787af,2016-07-08 23:24:21,J.L. Makes,feature(reveal): support node lists as first argument [closes #262],False
+077b0e81eb37e19fa5f1a52b7b1c78dcb16d080f,2016-07-08 23:24:21,J.L. Makes,feature(tools): check for HTML collections (node lists),False
+31b3ab6514644d3ac6b0741a6ea235fdeae50371,2016-07-08 23:24:21,J.L. Makes,refactor(requestAnimationFrame): add fallback [resolves #267],False
+0315a6e99e92c0bfb947f19d5d5775b1838e2b51,2016-07-08 23:24:17,J.L. Makes,refactor(*): change source directory,False
+116f7e04cfdcd363b90c5a3b301ed8543438ad80,2016-07-07 20:29:59,J.L. Makes,refactor(*): implement Standard JS Format,False
+29470821805bff1d79e23f517548443c83e40adc,2016-07-07 04:09:53,J.L. Makes,refactor(*): manually serve UMD and CommonJS modules [fixes #253],False
+a542624ef296441fb1537cf50d2bddc8df98bcda,2016-07-07 01:41:12,J.L. Makes,refactor(*): remove module wrapper middlewear from build pipeline,False
+e9574c943931df1fcda1ce6fa018dcabe150d4d7,2016-07-07 01:36:25,J.L. Makes,refactor(*): remove unnecessary IIFEs,False
+e801abebbfedd8bd761f7e53ca21d4da394558a7,2016-07-06 21:27:29,J.L. Makes,:sparkles: ScrollReveal v3.1.5 :sparkles:,False
+274abe654f424c8574a9c1876802792ceddfba70,2016-07-06 21:25:31,J.L. Makes,fix(reveal): correctly record the interval argument for sync calls [fixes #268],False
+261bed035c0bccdf4069d86684f939bc955abefe,2016-06-18 01:06:42,J.L. Makes,repo(*): remove .github folder from release exports,False
+95fc03d183b32bb91c915c72541c2132c1eba2e0,2016-04-21 20:19:53,J.L. Makes,repo(readme): update @jlmakes url,False
+5903d1d000f8da1e35c24766ac17fb74f04bf38d,2016-03-28 20:34:34,J.L. Makes,cleanup(gulp),False
+90042f4638c6d9f1782b2bad3059be9dbe5fa35b,2016-03-28 20:31:37,J.L. Makes,:sparkles: ScrollReveal v3.1.4 :sparkles:,False
+9f9c0746d36ed4e640be1d3cfcfedd127067f79a,2016-03-28 20:29:05,J.L. Makes,formatting(isSupported): adjust function expression spacing,False
+fd40eeb5cc395d2aee2216a89d5eac6a0280c5f9,2016-03-28 20:26:10,J.L. Makes,refactor(gulp): remove strip debug from non-minidified dist [fixes #235],False
+98c2b5466d9d0734df3010ecd7a8706de6d25152,2016-03-28 09:38:12,J.L. Makes,:sparkles: ScrollReveal v3.1.3 :sparkles:,False
+f0e8670531a8dddf8ec143d0dd11c1eec05a67bc,2016-03-28 09:36:52,J.L. Makes,improvement(*): remove console.log from distribution [closes #235],False
+0a139dd82a6092547cec3906812f5accdcd17dd0,2016-03-28 09:19:32,J.L. Makes,formatting(isSupported): adjust indentation,False
+66046eade16fc6cf9216a03752584aa70c385a78,2016-03-28 09:18:55,J.L. Makes,cleanup(reveal): correct typo,False
+ab83822e7604e463425784cdb723407a0b8d0a25,2016-03-25 09:23:40,J.L. Makes,bump(*),False
+3232e01ca91b7b34ae54201619a1cdf2061d97e7,2016-03-23 15:59:36,J.L. Makes,:sparkles: ScrollReveal v3.1.2 :sparkles:,False
+317b4805a0b0cfa41733ad64fdb672bc8a217a4a,2016-03-23 15:58:19,J.L. Makes,cleanup(reveal): remove stray quotation mark in warning message,False
+1d2dba5a907bab17ff78f578108ebde450e9bf9e,2016-03-16 18:36:17,J.L. Makes,feature(repo): add issue template,False
+e60156a78e63fa3d0bfaa825ffa6bbe940222439,2016-03-09 00:14:24,J.L. Makes,:sparkles: ScrollReveal v3.1.1 :sparkles:,False
+a48cc1e4306741193158c63439029044eb47e10b,2016-03-09 00:07:48,J.L. Makes,fix(sequences): only reset when config.reset is true [fixes #241]',False
+795baa6e603cff7a23a95189ceaeb5c23e5c9c3f,2016-03-07 22:28:49,J.L. Makes,:sparkles: ScrollReveal v3.1.0 :sparkles:,False
+7b0cfce09568e2ccd088d790c3d59fd075b42752,2016-03-07 22:19:05,J.L. Makes,revise(readme): update section 3.1. with note,False
+3c1b9daf53b61574a12ee87752b3f3ae0580d528,2016-03-07 22:12:53,J.L. Makes,feature(sequences): resolves #86 resolves #180 resolves #187 resolves #215 resolves #234,False
+bb7fe1b2d2ced258805689ea4c01c032ad402029,2016-03-07 22:08:48,J.L. Makes,cleanup(readme): section 4.2.,False
+8fc71b21b37acd705e56e6061e97057c4866646c,2016-03-07 22:06:41,J.L. Makes,revise(readme): new 3.3. working with DOM nodes section,False
+d5a057fc9089313553cead326a51d93b83b02226,2016-03-07 22:03:05,J.L. Makes,revise(readme): new 3.1. sequenced animations section,False
+5deab345e5a390d63472c7a508782e4061f8beb0,2016-03-07 21:55:44,J.L. Makes,revise(readme): update section 4.3 example code,False
+315ee0ba4f779d936e6b87c4c810d8f2477db2c4,2016-03-07 21:12:06,J.L. Makes,revise(readme): update section 4.2. example code,False
+f97b8ea688afaa71a97bfd9ccc6729118fdd0d03,2016-03-07 21:06:01,J.L. Makes,revise(readme): update section 4.1. example code,False
+031767dc393be7d976045b3aab6bd33a9063ab62,2016-03-07 20:59:01,J.L. Makes,cleanup(contributing),False
+1f0249508810602dae4517eb58181b0feb64b26c,2016-03-07 20:58:46,J.L. Makes,cleanup(readme),False
+02ef800e68d9cdf348c62661fb249d3188ba3b28,2016-03-07 20:13:10,J.L. Makes,revert(a33311e): did not fix #233,False
+5cb710bad606c27f8cb088c1e0df7a01c2b17f56,2016-03-07 18:56:46,J.L. Makes,fix(getScrolled): exclude HTML element from conditional,False
+014587b98650125e6ef0e7d11c1456c0bb3f4281,2016-03-07 06:50:26,J.L. Makes,refactor(readme): improve example code in 4.2. and 4.3.,False
+20fff54e8ae15e22e659983f704342a51f5b3311,2016-03-07 06:46:03,J.L. Makes,fix(readme): typo in 3.3.,False
+7bf7e1df6ae0cb7754a5ea2c65c82d649578dd13,2016-03-07 06:43:18,J.L. Makes,cleanup(readme): update 3.2. and revise formatting,False
+ea33d7319ccdc8887674a0b807b28910b7773d28,2016-03-07 00:11:19,J.L. Makes,refactor(repo): use markdown for license,False
+4bb027055c1d0b8380daa2fb0e3d5a2757598c71,2016-03-07 00:02:14,J.L. Makes,repo(changelog): update typo in 3.0 breaking changes section,False
+27e998c0d9bc4ed84ef80c60fff9187283bf8db5,2016-03-06 23:53:30,J.L. Makes,refactor(reveal/sequences): support interval as second and third parameters,False
+cae466253f2e0824eb8255c0fbec67337267a7e9,2016-03-06 23:45:33,J.L. Makes,"feature(sequences): support `config.useDelay == ""onload""`",False
+f9965cc56918ad50e97c538e08d1b5badcc7088d,2016-03-05 21:47:38,J.L. Makes,refactor(sequences): set/use sequence.active during animate,False
+f81b9703f31a80e825337ee512a4b088e33f3ced,2016-03-02 22:18:04,J.L. Makes,refactor(supported)->(isSupported): check support only once and return the same value,False
+c39b82a3ec095057f066837f578cdcb855360248,2016-02-29 12:56:08,J.L. Makes,cleanup(animate),False
+8b3cadaa8a819ce70e8ce7c940d0be16df2ebb7b,2016-02-29 12:27:06,J.L. Makes,refactor(queueCallback): extract reveal flag,False
+f285c819c5597abf6129bec9a14967f9c269a6d2,2016-02-29 12:07:32,J.L. Makes,refactor(sequences): simplify simplify simplify,False
+ece4dc4b0dd29868fd09b645add16a28a03081f0,2016-02-28 22:51:52,J.L. Makes,revert(f133ffd),False
+a33311e201fa165d3c78349ab91e179da1ce65ad,2016-02-28 03:13:18,J.L. Makes,fix(*): revert 8a62a21 for IE10/11 support [fixes #233],False
+0cf0f00c34ea2178cf71bcc93ff2997ef011644c,2016-02-27 23:08:19,J.L. Makes,cleanup(reveal/sequencer): add comments distinguishing interval vs negative interval,False
+c5e76c33194f6bc4bef72bf036bc92be1ea64a36,2016-02-27 23:06:07,J.L. Makes,feature(sequencer): populate first and last index element ids,False
+5867d9827d2ff9367980ae643c59cfce7a90cec1,2016-02-27 22:48:05,J.L. Makes,cleanup(shouldReset),False
+7fe32325b13dd4d21a7e2f73d34532b83355387f,2016-02-26 23:53:44,J.L. Makes,refactor(sequences): restructure indexes,False
+0cf9f493f9b1c967747bbad650f2552a56b14bc8,2016-02-26 01:11:54,J.L. Makes,refactor(sequences): update event binding,False
+0ef021a03063ddcef62f58ec37c604e2c94d6cd6,2016-02-26 00:22:14,J.L. Makes,feature(sequences): support negative intervals for reversed sequences,False
+f133ffd7a1c9b7e911aebddcadc5343324919bff,2016-02-24 06:50:18,J.L. Makes,refactor(sequences): promote sequence to object in store,False
+9eed82e9db7a549ce57583a4e1d291ade278b0ad,2016-02-22 14:44:18,J.L. Makes,repo(changelog): add preliminary v3.1.0 changes,False
+74d94b95bd03326ff319b7131d08eb01390fa4c7,2016-02-22 03:09:20,J.L. Makes,repo(changelog): add history from v2.0.0 to v3.0.0,False
+859833cae754ea7ba70340c493f0fada500bbed5,2016-02-22 03:05:23,J.L. Makes,cleanup(*),False
+0d6b933c638a0b278d5d1f03e3fc74285c16bb64,2016-02-21 23:35:32,J.L. Makes,repo(*): update contributing guidelines and JSbin links.,False
+d91f807e794cc34b23095a972f5185ea72d9122c,2016-02-21 23:11:29,J.L. Makes,feature(sequences): add interval sequencing,False
+05087d9b55b1c6a6c0f4c9478c07e6c07d34d3e2,2016-02-20 20:27:16,J.L. Makes,fix(sequence): test and adjust sequencer before animate loop,False
+8c30eb6bbb956f7c7ff2295fee2d8f51c25a3b68,2016-02-20 19:55:28,J.L. Makes,fix(callbacks): improve timer for reveal delays,False
+a57ae136df92fd0aae76b72c9b546ab7296eae8c,2016-02-20 19:46:33,J.L. Makes,feature(sequence): create private method to update the sequences lowest indices,False
+283be6ec7b655e6e1e19c2a6e528f259888c2274,2016-02-20 19:26:49,J.L. Makes,feature(reveal/sequence): add sequence and sequence element setup,False
+6e4decb0e23191f5c72372c5e1ff5aee56b183c3,2016-02-20 19:11:24,J.L. Makes,cleanup(*),False
+430a1d953ff3655ba37f32a43ca91b77d2669f54,2016-02-20 19:10:00,J.L. Makes,refactor(uid): put uid generation in private method,False
+257b408aafb75ce99615407fb77d9e76d3ff15ab,2016-02-20 00:06:41,J.L. Makes,cleanup(*): update JSDoc parameter types,False
+a72e5c80e0db632b53e589543a74e34f01d6ed45,2016-02-19 20:56:55,J.L. Makes,cleanup(*): typo,False
+ef47445bf8e7e7279667889f053c84baabc2aec7,2016-02-19 05:17:40,J.L. Makes,formatting(queueCallback),False
+be3e2314337231e60222a1b7fd562602e2714e28,2016-02-19 01:26:01,J.L. Makes,cleanup(*),False
+cedcc4c276b44f1f8e0762578e123a28ef55020e,2016-02-19 00:20:46,J.L. Makes,refactor(readme): update section 2.2.,False
+d84be3678e5dbf35b6aed98537f1f40380101852,2016-02-19 00:19:29,J.L. Makes,cleanup(*): revise comments,False
+f4133eab9e4e155cea9fecb650d4b20323eefde7,2016-02-19 00:05:23,J.L. Makes,refactor(constructor),False
+cf714c468150c3338e0294cc9d5c999e06f67e5e,2016-02-19 00:05:23,J.L. Makes,rename(sr.counter)-->(sr.uid),False
+c86c5fe7ee7e21b910d33d4fd08b868036359a23,2016-02-19 00:05:23,J.L. Makes,formatting(*),False
+6823fe8db10a02fd32a40d23be1cd6ee9d3a7256,2016-02-19 00:05:23,J.L. Makes,feature(reveal): add new argument interval,False
+769dba25788c8075e3d927ced18b1979d868c215,2016-02-19 00:05:23,J.L. Makes,formatting(): add missing new line,False
+e0c88ec6919e8fc38bdd1cf715664e26919121d5,2016-02-19 00:05:23,J.L. Makes,formatting(*),False
+6ad478f8aaa35f6c48aabcdf3a41e18317199d06,2016-02-19 00:05:12,J.L. Makes,cleanup/refactor(*): adjust spacing and comment phrasing,False
+0804e5ef7e82a906efac1e4423e62352794da0c9,2016-02-18 21:04:25,J.L. Makes,cleanup(*),False
+e3de59f5f610e23f90f1f0d3b6a2688fa9cdc036,2016-02-18 20:56:23,J.L. Makes,refactor(reveal): update console message when no elements are found,False
+164a7156b0e2252ea322f3acf4cad3ef6bca53d4,2016-02-18 20:53:21,J.L. Makes,rename(getContainer)-->(resolveContainer),False
+609a35be389413c8cd8940cac3bfc8d44b109101,2016-02-18 20:52:15,J.L. Makes,refactor(reveal): revise container resolution,False
+810a4c2967f52c921f6fad364c99e7a94f36ab2e,2016-02-18 20:47:34,J.L. Makes,formatting(reveal),False
+529293890e39564d3e61ce785f78cb158f95d11c,2016-02-18 19:52:42,J.L. Makes,formatting/cleanup(*),False
+16fec2e8a71d27d4de8ae84b740b30ebf3871c59,2016-02-18 05:30:36,J.L. Makes,formatting(*): remove inner whitespace,False
+87c3772d978214eb334d587ad478dda261ff0bd9,2016-02-18 05:19:33,J.L. Makes,refactor(*): use strict mode,False
+f8e520836cede88d47ec49419ad948f073935e7e,2016-02-18 02:47:29,J.L. Makes,formatting(*): set line-length to 120 (from 80) and use 4 space indentation,False
+ef3628cb51deaeba8e48f99ad3462fcfbbab4f8e,2016-02-17 18:49:38,J.L. Makes,Merge branch 'master' into v3.1-supersonic-sequencer,True
+290fc9e6f30f568d6aa33191026249e944dcb60f,2016-02-17 18:47:26,J.L. Makes,fix(*): test console.log for IE9 [closes #230],False
+be3dedb0891a4abdef0c55e5546033c8d9d70f39,2016-02-09 03:48:02,J.L. Makes,fix(*): improve compatibility with semi-colon before global IIFE [closes #228],False
+bee94b1ebd9f98e2147c595ee8010fb37f20ebbf,2016-01-18 11:23:03,J.L. Makes,formatting(*),False
+c6d324de0452f02b7c363e14893a07bed2a59342,2016-01-18 10:02:08,J.L. Makes,refactor(errors): add namespace,False
+f059205dd6e4789997bc50595f717e57a65b0e0b,2016-01-18 08:58:55,J.L. Makes,feature(config): support selectors as `container` value,False
+95e30fc19a33ba773f5701b1ab433536c7056396,2016-01-18 08:20:20,J.L. Makes,feature(reveal): support DOM node as first argument,False
+b5bc43d93e642dcb368c10d16f94d62887c9e04c,2016-01-18 08:11:11,J.L. Makes,feature(tools): add isNode method,False
+fcb7c6dd0091c83ca05d497ca92b1c12132dde2b,2016-01-16 15:07:53,J.L. Makes,refactor(style): extract transition generation into its own method,False
+1907789645c95eff790e834930f921e80682d5a4,2016-01-16 14:59:58,J.L. Makes,refactor(style): extract `generateTransform`,False
+ba407400f720cb364dad54b538342800a933766e,2016-01-16 14:55:50,J.L. Makes,formatting(*): add separators,False
+8427b12394681453e91cfc426b6c45aae6879a1c,2016-01-16 14:49:24,J.L. Makes,refactor(animate): extract conditional logic into their own functions,False
+25a76a823a3703d063ebac87639fca1e423b1fe8,2016-01-16 13:34:41,J.L. Makes,formatting(readme): fix indentation and semi-colons,False
+fcaf4351ee2dd339954c8aa08a2aab3a9cc8cba1,2016-01-16 13:32:14,J.L. Makes,cleanup(*): typos,False
+2b01b4b817b92eebc9f44f66283c432e0b5fc008,2016-01-16 11:45:14,Julian Lloyd,Merge pull request #221 from jacobhamblin/master,True
+e214abf41fab074fa16c71426cee18ce496a0f55,2016-01-16 11:26:40,Jacob Hamblin,cleanup(*): typos,False
+23be4755edb3042d92e8c0fae7a617bfb44b0c1b,2016-01-14 19:08:27,J.L. Makes,:sparkles: ScrollReveal v3.0.9 :sparkles:,False
+a755a4494a90db5651e8fae1a90e45b676340d41,2016-01-14 19:07:37,J.L. Makes,fix(supported): revise conditional [resolves #220],False
+8e3976cfbb4aa146308d49c832a34f291eb837a2,2016-01-14 03:27:09,J.L. Makes,repo(readme): update 5.4.,False
+bc4dc0b4c3a9694efbbc797fe020ee7b651f6aa6,2016-01-14 00:30:51,J.L. Makes,cleanup(*): revise comments for clarity,False
+18c3ec40cb2d76f400c74b573c59c95c692277aa,2016-01-13 22:12:28,J.L. Makes,:sparkles: ScrollReveal v3.0.8 :sparkles:,False
+4ff95ee74c79d88e5a8f3305c595054d33affac9,2016-01-13 22:11:19,J.L. Makes,refactor(*): confirm support for public methods,False
+47fe8325615d85202b4001200db3026227a775f8,2016-01-13 21:58:10,J.L. Makes,cleanup(*): typos,False
+2b71f8b1a8e4985dae638c2183251e27b70d1612,2016-01-13 21:47:28,J.L. Makes,:sparkles: ScrollReveal v3.0.7 :sparkles:,False
+6125a6da95b51dc20fc5d4d2333f85174e1c888b,2016-01-13 21:44:42,J.L. Makes,formatting(*),False
+112198347a4657c69917cc9293a58ffc796c526b,2016-01-13 21:34:00,J.L. Makes,fix(reveal): replace sr.init() with _init(),False
+565705e66fa9336a89f5cf0f89565fe50c44e2d8,2016-01-13 21:18:01,J.L. Makes,repo(readme): remove 2.3. and update 2.2. with new config,False
+2fe191cd7a66b1030929c19f1302d9a21ba0a9d9,2016-01-13 21:16:24,J.L. Makes,refactor(*): add comments to source,False
+2c684cf7c44dfa7578b678c5407179bbfed85664,2016-01-13 20:57:22,J.L. Makes,refactor(handler): clean up legacy event throttle,False
+78826d3a994d86155a9050a9587fe8ccfc893e9c,2016-01-13 19:10:52,J.L. Makes,repo(readme): add custom ScrollReveal JSBin link,False
+0537a3faf1bddeb67288eab9d6dd2b15e632f6ba,2016-01-13 19:10:17,J.L. Makes,repo(readme): revise 4.2. example,False
+5482e04444d8648d27c25b3091128de38c24f3cc,2016-01-13 19:06:45,J.L. Makes,repo(readme): add browser support [closes #219],False
+17a9c1c2cdb91d5a29c1698d937ef45420bf3aee,2016-01-13 18:00:38,J.L. Makes,refactor(*): differentiate private methods,False
+aaa61427a9c4549c4aef812b96052497d48e4927,2016-01-13 17:30:07,J.L. Makes,refactor(*): correct config.mobile inside reveal() [fixed #216],False
+8a62a21c396ebb74a17bd08f7243a44d63198555,2016-01-13 16:28:03,J.L. Makes,refactor(isSupported): create new supported method on ScrollReveal prototype,False
+6dd117239526d7814680d6e6dda8c4146efd8cf4,2016-01-13 13:39:34,J.L. Makes,clean(constructor): remove global mobile check,False
+c71e50b25dd8729020264678289bbe19038c5631,2016-01-13 13:33:44,J.L. Makes,refactor(*): fail silently with console.log instead of warn (#215),False
+4683adb30310ada1ed8f22e59a075895a0ca0189,2016-01-13 11:33:37,J.L. Makes,formatting(*),False
+e8273e77936a43686fdf4cad62d42fc7d2cb898f,2016-01-02 11:39:49,J.L. Makes,:sparkles: ScrollReveal v3.0.6 :sparkles:,False

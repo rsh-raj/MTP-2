@@ -1,0 +1,933 @@
+Hash,Date,Author,Message,IsMerge
+f6e1ac2d62b5199c72e0d13677c1638206b857f6,2024-05-06 20:58:40,Yuan Chen,"Merge pull request #441 from shimohq/yuanchen8911-patch-4
+
+Add RISC-V",True
+160eeb88ab8bf01c2311ad344a1e3acff37309b4,2024-05-04 22:46:22,Yuan Chen,"Add RISC-V
+
+Add `RISC-V`. The correct pronunciation is ""risk five"", not ""risk v"".",False
+023cd248c2b47204ff4d039615c0d3b084536c07,2024-04-30 18:50:07,Yuan Chen,Merge pull request #438 from yuanchen8911/kubernetes,True
+bb58abe241b78f0db302d50230df2b117db7c94e,2024-04-30 08:23:08,Yuan Chen,"Merge pull request #440 from AnzhiZhang/master
+
+add résumé (resolve #439)",True
+aa855bcefc1553bce9c47b7ccc81ec1b94eea25c,2024-04-30 00:28:24,Andy Zhang,add résumé (resolve #439),False
+cd096d13d76f2367846f06cf7e382b086747dd9b,2024-04-29 00:36:45,Yuan Chen,Correct kubernetes prounounciation,False
+acf4b95b49ef86d12067d99c0665398a6f29c05b,2024-04-29 00:23:05,Yuan Chen,Add Bazel,False
+4d9c22916e89ae56ba6ca459495bf501dae6c80c,2024-04-18 01:17:34,Yuan Chen,"Merge pull request #436 from yuanchen8911/fix
+
+Make addword.py work with all python3.* versions",True
+80ae342c69bad68ee18aa8646eae20815e6ded14,2024-04-18 01:14:01,Yuan Chen,Make addword.py work with all python3.* versions,False
+0382ab46ab86f3372242324b68d2b742c592ad86,2024-02-04 13:34:55,Jinglong Liu,"Update README.md (#430)
+
+add new word ""IEEE""",False
+268dd0540d5b2975c3ec64a551331af2eaa1903c,2023-07-29 22:05:39,Yuan Chen,"Merge pull request #426 from yuanchen8911/premise
+
+Add word `premise`",True
+6c95091bd97ac7997f40e64fe42dadb5bcda92b6,2023-07-25 23:12:44,Yuan Chen,"Add premise
+
+Add wrong prounouciation for premise",False
+3ea9c20826b9a9e22144f1ddb8d5f4d5fdf3aa8e,2023-06-28 15:10:00,Renny Ren,"Update README.md (#422)
+
+feat: add word ""migrate""",False
+bc526cecbb730f5470e65f1373796879a0c770d9,2023-05-25 12:36:25,Heng Zhong,"""Circle"" is the wrong pronunciation for SQL. (#417)",False
+2d88b771128e1e932ac2158df11d412ea76c3aaf,2023-05-24 07:31:52,Untitled,Updated Wrong phonetic symbol (#413),False
+3f66a8db519e77b921b7691bd08155079033de79,2023-05-24 07:31:09,Fog3211,"fix: GUI audio link (#414)
+
+Co-authored-by: Fog3211 <23151576+Fog3211@users.noreply.github.com>",False
+69e5e5d3b899e5b0a31b56d39ada1aede4a3bf0f,2023-04-03 23:01:56,Yuan Chen,"Merge pull request #410 from chafel/master
+
+feat: add word chaos (#408)",True
+aff9ab74b4b16a1db870a876d1a5fc19be34b82f,2023-04-01 22:46:50,sunchaofei,fix: right typo,False
+e1ed708c85ef275d678e8f5e06e0f9a9a586f0b6,2023-03-17 08:25:20,sunchaofei,feat: add word chaos (#408),False
+6ee33522fae86dad66e4245ce6c6c69b5c1ba40b,2023-01-04 09:09:32,好吧，你想说啥,"解决mac系统chrome浏览器上，点击音频图标无反应；单词 ubuntu 启用https (#407)
+
+* 解决mac chrome 点击音频图标无效
+
+* 单词ubuntu 启用https",False
+2154546589bd80be0d5c9bb08ab622c131ca71a4,2022-10-27 15:46:39,chencheng (云谦),Add legacy (#396),False
+7e3fd5e00c623f2a221e41afd31a25e221a0ea69,2022-10-27 15:46:17,Guotong Liao,"feat: add word ""context"" (#400)",False
+97b21c0f7af326606659b15e61bedd9f7eb43566,2022-08-05 07:35:26,如云泊,feat:add word BIOS and UEFI (#392),False
+e62ac735300701d7f838952803d580da59ae625e,2022-07-18 15:08:13,Guotong Liao,feat: add align (#390),False
+069ec523aa8953babcfc0ed7e4d2888a670108d0,2022-07-13 04:44:59,Yuan Chen,Minor tweaks and cleanup of README.md,False
+6d311522c71708af091b9853fa58b3bc802821fc,2022-07-13 04:29:17,Yuan Chen,"Merge pull request #387 from jingjingxyk/master
+
+完善嵌入标签页功能",True
+a002bf8d87a88f8bf0864d5bebc780c545317bc6,2022-07-06 20:01:53,jingjingxyk,fix chromium extenson snapshot url error,False
+c3b67f5d0624dc0c27b0265c489cc9d9b40d92c7,2022-07-06 19:44:32,jingjingxyk,新增搜索引擎切换选项 ；新增窗口关闭选项；新增窗口可拖动选项,False
+70116a7998ff7c0f782f4bcf3ee76137c72dacbf,2022-07-06 19:41:15,jingjingxyk,新增搜索引擎切换选项 ；新增窗口关闭选项；新增窗口可拖动选项,True
+f5748c48dd46c061352b97893bab802dfe073752,2022-07-06 19:14:36,jingjingxyk,新增搜索引擎切换选项 ；新增窗口关闭选项；新增窗口可拖动选项,False
+3759b878819790c20c9b102431a42879ea45f0ca,2022-07-06 18:34:15,jingjingxyk,新增恢复扩展默认配置,False
+17a209a611fdfc183304862f2e5994b4b929f8b8,2022-07-06 18:17:35,Yuan Chen,Merge pull request #384 from shimohq/yuanchen8911-patch-2,True
+3f74d11ebfef90b5f92dadfb79cb03da90fe336a,2022-07-06 18:10:39,jingjingxyk,新增可更换 搜索引擎 功能,False
+502f62c128d286f82a030d8966984eef0cd1e3cc,2022-07-06 18:03:21,jingjingxyk,新增可选搜索引擎 功能,False
+6145a226e34de5b08dfa038d3ccdeffa8e49f7c1,2022-07-05 22:58:47,Yuan Chen,"加“重要更新”
+
+1. 加重要跟新
+2. 微调内容和格式",False
+ec339d9ac9bf6237b4119345a28eda4a955c6324,2022-07-05 09:01:16,好吧，你想说啥,"扩展新增功能：页面嵌入搜索引擎，实时检索发音 (#375)
+
+* 新增README.md页面无跳转即可收听正确读音 的 chromium 扩展
+
+* add 手动安装扩展 方法
+
+* fix no element error
+
+* add comment console log
+
+* change load chrome extension describe
+
+* use prettier format code
+
+* comment console.log
+
+* fix  http protocol audio media no play
+
+* add chromium extension use Reference
+
+* 无页面跳转收听正确读音请安装我们的 chromium 扩展
+
+* 无页面跳转收听正确读音请安装我们的 [chromium 扩展]
+
+* change chromium extension README.md
+
+* add css
+
+* add css extension
+
+* add css extension
+
+* change app.css extension
+
+* 限定权限
+
+* 新增搜索引擎读音检索功能
+
+* 新增功能截图
+
+* 页面嵌入搜索引擎，实时检索发音
+
+* 页面嵌入搜索引擎，实时检索发音
+
+* # 新增功能截图
+
+* change README.md  describe
+
+* change README.md  describe
+
+* format code
+
+* 新增功能截图
+
+* 新增功能截图
+
+* 新增功能截图
+
+* 新增功能截图
+
+* 新增功能截图
+
+* 新增百度汉语搜索和必应辞典搜索
+
+* 默认搜索引擎修改为有道
+
+* add bing search
+
+* add common tool
+
+* until method name change
+
+* fix error and add new search engine
+
+* change chromium url
+
+* 设置默认为新标签页打开搜索
+
+* 完善工具库",False
+9cfdee68f5161d09f3f501a4d1cc0727116347e4,2022-07-04 17:21:16,Yuan Chen,Merge pull request #382 from ArnoZWang/fix,True
+9a32ecf1056ee5b10ae78f4ca73672e10c14e96d,2022-07-01 13:00:08,Arnold Wong,fix: corrected wrong format,False
+06cede50cdf5ca92d5edbea1186c96b78b209b4e,2022-06-29 11:11:49,jingjingxyk,完善工具库,False
+4195a1d59fb3a2f1109093442ccf6861fea0239b,2022-06-21 16:23:57,jingjingxyk,设置默认为新标签页打开搜索,False
+7c0c4c26b83ff6c928b8f711fe3888ebfa99131c,2022-06-21 16:17:43,jingjingxyk,Merge remote-tracking branch 'upstream/master',True
+551fa20c94cb39b4682e59f538015ebfba578900,2022-06-21 02:24:08,Yuan Chen,Merge pull request #374 from guocaoyi/master,True
+dfe94bb1befa5e10e3781197b3e26b96b19f8761,2022-06-17 15:33:39,jingjingxyk,change chromium url,False
+347137f5976e36b1eda1824347acc56177bad4c9,2022-06-16 06:11:04,jingjingxyk,fix error and add new search engine,False
+03e75b905c8509a979afb02328520d4a98454064,2022-06-15 19:02:48,jingjingxyk,until method name change,False
+395908271538a5d979992f183388ec17e905d4a3,2022-06-15 18:59:40,jingjingxyk,add common tool,False
+0299ecff1ae238490e43aef8c560c4f591f62687,2022-06-15 17:13:05,jingjingxyk,add bing search,False
+2052fdd52243c84d16e833cd36cb05c0b0ff64a3,2022-06-15 17:00:01,jingjingxyk,默认搜索引擎修改为有道,False
+0ff82191e62038002e927a2c65126a7bd85b578c,2022-06-15 16:59:16,jingjingxyk,新增百度汉语搜索和必应辞典搜索,False
+9f9c45111e1d362227b8cfb96d77f1506b5fa6bb,2022-06-15 03:14:32,jingjingxyk,新增功能截图,False
+484152a9bf4c73db87acc06aaf9d7ecd3d49af06,2022-06-15 03:12:36,jingjingxyk,新增功能截图,False
+24716e490875fed7cd7e5cca54bbcff41c98d13f,2022-06-15 03:09:18,jingjingxyk,新增功能截图,False
+3e23ad114d8970e09a6382bd34414e6278809d83,2022-06-15 03:06:31,jingjingxyk,新增功能截图,False
+59ae22409c8258e29e9d6e3c8b3bbf81b75efade,2022-06-15 03:04:41,jingjingxyk,新增功能截图,False
+a3bf86a4951b476c2f508e77e2242c7207d20402,2022-06-15 02:57:50,jingjingxyk,format code,False
+a33a7066b5e47c77d7d18f221db28aa4483bed96,2022-06-15 02:56:48,jingjingxyk,change README.md  describe,False
+07e80abbd288f9bc14983828cdf336b492f526f5,2022-06-15 02:55:43,jingjingxyk,change README.md  describe,False
+c92daaa12a03cdfe285da2a79069c3832b3348cc,2022-06-15 02:54:12,jingjingxyk,# 新增功能截图,False
+2fb24b363bc2634fd7516ceaa4bacb0a2f77dc5f,2022-06-15 02:33:34,jingjingxyk,merge code,True
+dc4de550ff860aae8975ddfe511317ffda1ef52e,2022-06-15 02:26:15,jingjingxyk,页面嵌入搜索引擎，实时检索发音,False
+2158795a8c728ed252ad90a305f99afc3400ebc2,2022-06-15 02:23:32,jingjingxyk,页面嵌入搜索引擎，实时检索发音,False
+f21d3e466ae373d0eebf1775b4c30794a9acbde6,2022-06-15 02:18:12,jingjingxyk,新增功能截图,False
+3a9954fa79cab7f28dde01205e714c93415df43a,2022-06-15 02:07:07,jingjingxyk,新增搜索引擎读音检索功能,False
+cd02c9529220837c42f4aff78e2aa91e142afc71,2022-06-14 13:21:03,Yalda,feat: add vite,False
+a690220e4d1246d6fe450a977d76fb2f9a07347c,2022-06-13 16:36:40,好吧，你想说啥,"为 无页面跳转收听正确读音 的 chromium 扩展 添加样式 (#372)
+
+* 新增README.md页面无跳转即可收听正确读音 的 chromium 扩展
+
+* add 手动安装扩展 方法
+
+* fix no element error
+
+* add comment console log
+
+* change load chrome extension describe
+
+* use prettier format code
+
+* comment console.log
+
+* fix  http protocol audio media no play
+
+* add chromium extension use Reference
+
+* 无页面跳转收听正确读音请安装我们的 chromium 扩展
+
+* 无页面跳转收听正确读音请安装我们的 [chromium 扩展]
+
+* change chromium extension README.md
+
+* add css
+
+* add css extension
+
+* add css extension
+
+* change app.css extension
+
+* 限定权限",False
+addf89a5e3b36771ac6bd8181ffa4eb66c48e23e,2022-06-11 19:27:53,jingjingxyk,限定权限,False
+314f545a47457fb0e95b0a53f5552e442477bad5,2022-06-10 14:33:54,jingjingxyk,change app.css extension,False
+499535f0fafd77b0a05d8d6d4c9db536c4d4c07d,2022-06-10 14:33:09,jingjingxyk,add css extension,False
+15e36dfd57f82d5a0e6257aee6b09edcb7fc037b,2022-06-10 14:17:29,jingjingxyk,add css extension,False
+8ce6a9d5f670d50a9a6b87e8caecf28eedd03321,2022-06-10 13:50:01,jingjingxyk,merge code,True
+417e148e2ced35f57795a63f945a424e254c9cb7,2022-06-10 13:40:28,jingjingxyk,add css,False
+f51ba17dc49c9d9ecc0396a28fcb02f89d9727d7,2022-06-09 17:16:10,TomWan,feat: add ios app by Chang12,False
+14919fa9c17f90f9010eb3c3de3aee27f7721889,2022-06-09 16:33:17,jingjingxyk,change chromium extension README.md,False
+348f755f20fd2eb274e885e2d09d52e72e52e469,2022-06-09 15:31:32,好吧，你想说啥,"fix: http protocol  can't play audio media (#368)
+
+* 新增README.md页面无跳转即可收听正确读音 的 chromium 扩展
+
+* add 手动安装扩展 方法
+
+* fix no element error
+
+* add comment console log
+
+* change load chrome extension describe
+
+* use prettier format code
+
+* comment console.log
+
+* fix  http protocol audio media no play
+
+* add chromium extension use Reference
+
+* 无页面跳转收听正确读音请安装我们的 chromium 扩展
+
+* 无页面跳转收听正确读音请安装我们的 [chromium 扩展]",False
+6d1de692495836d182e8f38f05dddb9be98a7cd6,2022-06-09 15:29:43,jingjingxyk,无页面跳转收听正确读音请安装我们的 [chromium 扩展],False
+6be75dcdf68d702489d2598cda9cca7c290b078e,2022-06-09 15:25:38,jingjingxyk,无页面跳转收听正确读音请安装我们的 chromium 扩展,False
+08e54ca54f8d26ce71ebc46e5c7617a5e2bc9e96,2022-06-09 15:03:03,jingjingxyk,add chromium extension use Reference,False
+cb37bf36e86fda013046440b7f3339c91f93b299,2022-06-09 14:19:11,jingjingxyk,merge upstream code,True
+46285421380b8d1be21797a20402a65acee08c20,2022-06-09 14:12:22,jingjingxyk,fix  http protocol audio media no play,False
+9a24dc03b54797d3b7f5d2f6bebc35162edd0c91,2022-06-09 13:07:40,好吧，你想说啥,"新增 README  页面无须跳转即可收听正确读音 的 chromium 扩展  (#367)
+
+* 新增README.md页面无跳转即可收听正确读音 的 chromium 扩展
+
+* add 手动安装扩展 方法
+
+* fix no element error
+
+* add comment console log
+
+* change load chrome extension describe
+
+* use prettier format code
+
+* comment console.log",False
+fe0f8fba73d030a34af42e3df1a9e7fd121b1a8f,2022-06-09 12:56:41,jingjingxyk,comment console.log,False
+7dfc65547cc6e6e25ae37e337c4317f035f1040e,2022-06-09 12:52:11,jingjingxyk,use prettier format code,False
+6986c656540c225ab7f134397411eed16ed8492c,2022-06-09 12:36:17,tianzhou,"Add star history chart to README (#362)
+
+This will render live chart",False
+a8e83784efd738d1d3290a7706c5fb1216c1dd9f,2022-06-09 12:35:52,nicoaz,add word 'canal' (#360),False
+43bd675ddc93420a26d99fdfb3e4d8124ff0bf8e,2022-06-09 12:35:07,Li Gewei,"add 'max, probe, native, telemetry' for backend development (#353)
+
+Co-authored-by: regli <regli@tencent.com>",False
+1a7d351e958b0cb9f8eb7eb281d4a77171395206,2022-06-09 12:32:59,jingjingxyk,change load chrome extension describe,False
+da52e82e3f819fc1369b164f5e86127865a6eabb,2022-06-09 12:31:58,移花香,"feat: add ""macro"" 正确读音 (#351)
+
+* feat: add ""edition"" 正确读音
+
+* feat: macro 发音",False
+431976751f77cd380b73397a73da6f906a552663,2022-06-09 12:29:38,jingjingxyk,add comment console log,False
+b501116c2fbc2a5decc0cd4a9b1e426d3a2b992a,2022-06-09 12:25:33,jingjingxyk,fix no element error,False
+8f680c989cf299afbb78474caea26026dc0778bc,2022-06-09 12:11:01,jingjingxyk,add 手动安装扩展 方法,False
+c73538a01b19683366fa898c5c60fc4cc3f53413,2022-06-09 12:05:48,jingjingxyk,新增README.md页面无跳转即可收听正确读音 的 chromium 扩展,False
+21713bd6719e11f3d75918ec1f6e91863f50e8de,2022-04-22 15:00:21,Xiangxuan Qu,"Merge pull request #347 from M4tsuri/master
+
+为 exit 添加正确发音",True
+d818bff38a8ba16f7325e8bd750b97ed72b5501b,2022-03-20 13:04:38,M4tsuti,added correct pronunciation for exit,False
+82dd848cc5ff18c4ad40830079e44ab72420cb4c,2022-02-22 08:18:32,移花香,"feat: add ""edition"" 正确读音 (#344)",False
+7ff478b7837254e191b02e64fea85dcce596e091,2022-02-17 08:26:08,JustSong,添加一个可以连读的网站 (#343),False
+ff7f6199bf1fdf4ebbaa48fcf414d02b968758ab,2021-12-11 09:29:15,Yuan Chen,"Merge pull request #342 from Lionad-Morotar/revert-341-master
+
+Revert ""添加 calendar 的正确读音""",True
+96840bd8c46a50da323c80daaf01b4e6a833ab35,2021-12-09 11:17:51,仿生狮子,"Revert ""add: 添加 calendar 的正确读音 (#341)""
+
+This reverts commit 914abc0ee6c7903a1560cf3ffd258f710df9f8f0.",False
+914abc0ee6c7903a1560cf3ffd258f710df9f8f0,2021-12-09 07:31:23,仿生狮子,add: 添加 calendar 的正确读音 (#341),False
+e3e140c50580059ac8d6308753f8be139b540c2c,2021-12-08 15:55:32,Yishuai Li,Add Coq (#317),False
+6db0217396663b8c0810c91f37ff25504c9d0665,2021-12-08 15:54:33,redbearder,"添加 Ldap 正确发音 (#339)
+
+* 添加 Ldap 正确发音
+
+* fix Ldap pronunciation bug",False
+0d46fbbcb5b4e7e98748e75648ac846146bd2f4e,2021-07-29 08:57:16,ty-l,"add word 'LINQ' (#323)
+
+Co-authored-by: ltltlt <ltltlt@github.com>",False
+760220ea06c209c32de1b25edfde7679cf1c0343,2021-04-08 07:35:34,Percy,"add word 'async' & code formatting (#318)
+
+* add word 'async' & code formatting
+
+* Update the wrong pronunciation of 'async'
+
+Co-authored-by: Yishuai Li <liyishuai@users.noreply.github.com>
+
+Co-authored-by: Yishuai Li <liyishuai@users.noreply.github.com>",False
+6925c13aa76c27cb9af6f49d6b27e00639575df3,2021-04-02 03:09:26,Yuan Chen,"Merge pull request #316 from shimohq/yuanchen8911-patch-1
+
+Add ephemeral",True
+9b3bc9804b11322e812c25c7256b9be95ff096c1,2021-03-31 23:03:37,Yuan Chen,Add ephemeral,False
+096cf207617ccf160d27b101215a5bb62c011e8f,2021-03-31 07:34:11,Andrew Liu,增加dotnet(.net)的正确发音 (#312),False
+d0fb912fe699edf6efaf5f1c39782a94f3fa4041,2021-03-31 07:32:51,b1f6c1c4,Update README.md (#314),False
+ffcef52a92b36a201ac8ad0fdbe4bea5ae2c05be,2021-03-28 22:23:25,Yuan Chen,"Merge pull request #308 from liyishuai/patch-1
+
+Java: /'dʒɑːvɑː/ is not wrong",True
+3c012ae01adc20a0cc730478bd3f530fac44a158,2021-03-28 22:20:49,Yuan Chen,Update README.md,False
+37c17cab5b1fc5aaef1f2894eea7bf83e5250761,2021-03-28 22:19:19,Yuan Chen,"Merge pull request #311 from VarianWrynn/master
+
+添加 谷歌浏览器 Chrome的正确发音",True
+0de20b4a87f78610a762d6ae29fc673f060c8ca4,2021-03-18 12:38:37,Lee.Wang,添加 谷歌浏览器 Chrome的正确发音,False
+99660161d995d5906064b9ce5fc071f12dedfd5e,2020-12-01 03:50:56,Yishuai Li,Java: /'dʒɑːvɑː/ is not wrong,False
+4619dd72bf569c17e0760e2a35103b0cbdc3bdf2,2020-11-23 16:22:03,Horcrux,"Merge pull request #306 from handycode/master
+
+ref: 🔊 语音链接改用 https",True
+4d012adb7137892f8a762f0c6cc2df36c2761229,2020-11-21 06:12:55,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+985d404611af7556062dae082838e68c1fa3d511,2020-11-01 19:49:54,handy,ref: change url from http to https,False
+046dfe375969379d5021007c146ca7a45a12a358,2020-10-30 08:39:15,handy,ref: 🔊 语音链接改用 https,False
+7cf3e1be7d214ee5cc00094720cefb07342c7ba7,2020-10-08 02:47:35,Yuan Chen,"Merge pull request #302 from b1f6c1c4/patch-1
+
+add tuple",True
+eb1681d007dc8d9d93db63f9391951a66d6006b9,2020-10-08 02:46:16,Yuan Chen,"Merge pull request #303 from b1f6c1c4/patch-2
+
+add miscellaneous",True
+da6834bce81f410afebff0eb6aa222511dfa056f,2020-10-07 09:07:02,b1f6c1c4,add miscellaneous,False
+c3595e9fff0d8fe34479c4889d581ccafc33e5a8,2020-10-04 10:35:07,b1f6c1c4,add tuple,False
+d8137ee520fe44c265eafef626241b7c783fd3fa,2020-09-29 08:18:40,Yuan Chen,"Merge pull request #301 from IoriOikawa/master
+
+Grafana & Kubernetes pronunciation corrected",True
+3683aa8b835803c3002b60998d344b328c3ad2d2,2020-09-29 04:20:30,笈川伊織（表）,Switched to broad transcription.,False
+658102dafef9e1c0e000b1c321daf360b2e70468,2020-09-29 04:17:32,笈川伊織（表）,"Fixed 'Kubernetes' and 'Grafana'
+
+TODO: We might go through the standard British pronunciation part for further adjustments.",False
+42fad5154adfae05ae157769a53647983eecde2b,2020-09-27 09:45:21,Yuan Chen,"Add execute, executor (#300)",False
+a50fa76a170a3afffb63d3fcd3713166dc50514d,2020-09-08 19:03:54,b1f6c1c4,add Vagrant (#299),False
+d0c1005fd3c594a0fe29854e3b56e280be3223fa,2020-09-04 10:45:50,Yuan Chen,Add an English Title,False
+31b52724a585e86524df6de40f7d7821bbaf34d1,2020-09-04 10:36:36,Yuan Chen,"Add 'Kubernetes', 'Grafana', 'gauge', 'deprecate', 'obsolete' (#296)
+
+* Add 'Kubernetes', 'gauge'
+
+* Add 'Grafana'
+
+* Add 'Kubernetes', 'gauge', 'Grafana', 'obsolete', 'deprecate'
+
+* Update 'Kubernetes'",False
+c1a1862e45b1fa471ea1b154e6fbb2d1fae7dca7,2020-09-04 09:30:11,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+4299e6b631fb219592f6e0085f9b74a7c0513841,2020-09-04 09:29:30,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+154e394a09ef7da87f04622d73b8bd772d71e739,2020-09-04 09:24:39,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+c89c0085596ec77170a606896d145fa79486f235,2020-09-03 07:00:25,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+f982d2b6e0755909b1e0c4bc14f47d0373185b75,2020-09-03 01:53:08,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+e6e93781dac336f325bbb4d055c6f10c1a76d7bc,2020-09-03 01:52:25,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+9112ade4b92b0c0920b23f533cd647e157d312ff,2020-09-03 01:51:59,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+e216510eb38fc8723a1f635bf6dbd5577434ed1c,2020-09-02 21:29:40,Yuan Chen,Update README.md,False
+7aef1ebe4241ec46b59d1af87c2b20116b75e0b1,2020-09-02 09:52:09,Yuan Chen,"Merge pull request #293 from shimohq/chore/remove-ads
+
+chore: remove ads",True
+d02f4a9e56f7034e77fdc499f3115189e199ec16,2020-09-02 09:49:33,Yuan Chen,Update README.md,False
+d63b67a1881e903581e4f0d17cae7caa71d9bf17,2020-09-02 08:28:48,wanming,chore: remove ads,False
+5c29e2522185366308dc4db4067c7d3205cd34b1,2020-09-02 01:46:45,Yuan Chen,Remove trailing whitespace,False
+ffef0c2cd9d43f39a405f269ff4acc79e17e0297,2020-09-02 01:39:34,Yuan Chen,Rename variables in addword.py,False
+09ab3e95c1a5301a941339c5d5a744003354b691,2020-09-01 23:55:39,Yuan Chen,Simplify addword.py implementation,False
+e7c7facc621dca153d5bbf409f894d913427ff84,2020-09-01 23:52:34,Yuan Chen,Fix the bug of adding non-existing words,False
+90c976407b9fef30939b89e4131a52449b0e7cf3,2020-09-01 22:36:50,Yuan Chen,Update README.md,False
+a67f5773f8ad899127f6094c673c344212bada23,2020-09-01 22:31:24,Yuan Chen,"Merge pull request #292 from b1f6c1c4/patch-3
+
+sell my repo",True
+be83f360927ef06e4dca99a8379b28930f1c713f,2020-09-01 22:31:13,Yuan Chen,Merge branch 'master' into patch-3,True
+3f90377b5960d336a8fedf85514b4709c7bca0b4,2020-09-01 22:28:17,Yuan Chen,Update README.md,False
+40efb2aea857785216b0a69e26ab8f7c05263c89,2020-09-01 22:26:45,Yuan Chen,Update README.md,False
+1fb6fc828810a947c795d5d65c164946e20c5fb1,2020-09-01 22:25:35,Yuan Chen,"Merge pull request #290 from b1f6c1c4/patch-1
+
+replace brackets with slashes",True
+24b48bbcbb225c40bbcba6d1d19028d275e8fc67,2020-09-01 22:25:17,Yuan Chen,Merge branch 'master' into patch-1,True
+22959a6395f282db1f2fd8bff22b2fda76aa033b,2020-09-01 22:14:01,Yuan Chen,"Merge pull request #291 from b1f6c1c4/patch-2
+
+fix miniature space problems",True
+bd827c9dc5d17614089e1766abd3ced2ec728ef9,2020-09-01 12:27:54,b1f6c1c4,sell my repo,False
+f2efebb1ba862d4bbcd8807c100ea07fd3d82499,2020-09-01 08:37:32,b1f6c1c4,fix miniature space problems,False
+e23b3cbd6c4d1550e9391fd7370d0acfba682624,2020-09-01 08:33:55,b1f6c1c4,replace brackets with slashes in addword.py,False
+d8bbfba5c11804257450b05fccff9edafd5c746e,2020-09-01 08:29:30,b1f6c1c4,tell others to follow the rule of using slash,False
+30a18f03b9661efef94a6b061e7b6a5453575651,2020-09-01 08:25:30,b1f6c1c4,"replace brackets with slashes
+
+Everything here is IPA broad (phonemic) transcription. We should always
+use slashes (/.../) instead of brackets ([...]) in this case.
+
+References:
+
+> https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
+> https://en.wikipedia.org/wiki/Phonetic_transcription#Narrow_versus_broad_transcription
+> https://linguistics.stackexchange.com/questions/301/when-should-one-use-slashes-or-square-brackets-when-transcribing-in-ipa
+> https://linguistics.stackexchange.com/questions/15547/should-i-use-square-brackets-or-slashes-when-transcribing-an-oral-text-in-ipa
+> https://www.quora.com/What-is-the-difference-between-different-brackets-and-slashes-used-in-linguistics",False
+942078b26524c930fbcfddfedb282e033a917edc,2020-09-01 01:08:04,Yuan Chen,Update README.md,False
+d45de2874fe7cf0587b59655ad2d36de3beaf7f4,2020-08-31 23:38:22,Yuan Chen,Update README.md,False
+e8c906fac13cd7d0551a3ccf3c4f5c1db4c5393a,2020-08-31 23:34:53,Yuan Chen,Update README.md,False
+e62c69abc176cd56481078439d6ce96d3fdc4b6a,2020-08-31 23:34:04,Yuan Chen,Update README.md,False
+f1cf84e66b76390d39da06ceba22fe6cca0e6d46,2020-08-31 23:33:10,Yuan Chen,Update README.md,False
+166a547e61740ef2471cbf34798309ac1007d4fc,2020-08-31 23:32:04,Yuan Chen,Update README.md,False
+d037e9c57bbb09e86135e51ebbda774c8dbc4bf3,2020-08-31 23:30:39,Yuan Chen,Update README.md,False
+71cd4a8c1cb94365b14a0b61ee38ee902e0fa8d4,2020-08-31 23:26:02,Yuan Chen,Update README.md,False
+99235d73120453918b18084dc0ebfbbb52700ed4,2020-08-31 23:17:18,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+f55068ff5fdc7504f38ba38bc29f76c1c6cf0958,2020-08-31 23:16:31,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+34ef6857b486ed8d8a2a00a30781b43e81a704c4,2020-08-31 23:15:55,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+e01f175293054ccca62b8a367eed1b13f856c806,2020-08-31 23:13:28,Yuan Chen,Delete addprons.py,False
+bcbe7de82820723aba74c29c9229994a7c203da6,2020-08-31 23:12:46,Yuan Chen,"Merge pull request #288 from shimohq/test
+
+Add a program for generating the word description from youdao.com",True
+2d8c0bd1c82704d7f731029170d7b92209ec809a,2020-08-31 23:10:23,Yuan Chen,Add program for generating the word description from youdao.com,False
+700306940abe4233421e53cbf068babee50cf775,2020-08-31 23:08:18,Yuan Chen,Add 'paradox',False
+01c06ca789d8817efe6b35619dac1d429f40bc7b,2020-08-31 23:05:30,Yuan Chen,"Add ""reconcile""",False
+ae5bf9d2046ae92f105f10af0b7f8a1c6c4a90d1,2020-08-31 14:23:51,Yuan Chen,"Merge pull request #287 from shimohq/test
+
+Test",True
+233ab7a46e3d3e62faefd71ab7a6e9b023fd311e,2020-08-31 14:22:12,Yuan Chen,Update README.md,False
+ce21d49e8637ff9d03b34064b92ecd0f2d3db179,2020-08-31 14:21:21,Yuan Chen,Replace checkmark with speaker icon,False
+3a90ffb21dc597e7def6f18840acbe1f44c45e78,2020-08-31 14:07:04,Yuan Chen,"Merge pull request #286 from shimohq/test
+
+Remove speaker icon and use checkmark instead",True
+ab23c677d94ffc29443b335f55c7acfc704939e5,2020-08-31 14:05:12,Yuan Chen,Update README.md,False
+4214a3f732ecff2141f215ab473f0342d1729fe2,2020-08-31 14:04:05,Yuan Chen,Update README.md,False
+4e0e39153b1ddfbc93d427ea8565a5a18061f1e6,2020-08-31 14:00:49,Yuan Chen,Replace speaker icon with check mark,False
+cd165fdc66542722294d1770f99b921c36e8303c,2020-08-31 13:54:03,Yuan Chen,Update README.md,False
+e5af5eb3efa3357a49b6d0f2e4f59cb0d8650848,2020-08-31 12:36:57,Yuan Chen,"Merge pull request #285 from shimohq/new
+
+Add american phonetics transcription",True
+dda05c77ff02e50a76f8ce858e66bcac396f4a9e,2020-08-31 12:21:19,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+0396e1b4cc48155df23e081204f80abb0fa8b217,2020-08-31 12:20:59,Yuan Chen,Update PULL_REQUEST_TEMPLATE.md,False
+0f50be2732274a792fb000a31f17eec3ab760cae,2020-08-31 12:00:39,Yuan Chen,Update README.md,False
+a770411258658901f96798ceeddcdd2cda4dddeb,2020-08-31 11:57:16,Yuan Chen,Update README.md,False
+8b7fe67e81b2fddb136ca0e26d0d6b6db9027c22,2020-08-31 11:56:13,Yuan Chen,"Merge pull request #283 from shimohq/original
+
+Add phonetic scripts for American English pronunciations",True
+5e77cb5a0f8bec7bca306706955d32f173ff3747,2020-08-31 11:55:55,Yuan Chen,Merge branch 'master' into original,True
+0bcb8db6c3b33e0d3d3c45893ced92605a1cebc4,2020-08-31 11:52:10,Yuan Chen,Update README.md,False
+3605a4f11f3915ef46fe2f549864df80218a09f7,2020-08-31 11:35:26,Yuan Chen,Update README.md,False
+883620a762d1fdb3b89a7ae98179e303580ff696,2020-08-31 11:34:55,Yuan Chen,Update README.md,False
+01b440bbed2194306ece18e508b0729fa4b3f7aa,2020-08-31 11:33:26,Yuan Chen,Add phonetics transcription for American English pronunciations,False
+203b690eb5a5ceb44170a00a0823bac87496541e,2020-08-31 11:12:53,Yuan Chen,Add phonetics transcription for American pronunciations,False
+3aa198258eb97ebd3730ca972a11179e81a5355b,2020-08-31 10:45:31,Yuan Chen,Add american phonetics transcription,False
+d469fdd9dfa29525162ae75808efa3e6f6984d5d,2020-08-31 07:46:53,TomWan,"Merge pull request #282 from shimohq/new
+
+Add American English pronunciations",True
+d8ab68ff42b2c902e2575c9f3390f8e5fadd2665,2020-08-31 06:00:24,Yuan Chen,Add American English pronunciations,False
+d003ca02d61e3a510155d6b42910ba9f4fb7b2d7,2020-08-30 00:23:21,Yuan Chen,"Merge pull request #268 from jasonliuuu/patch-2
+
+Added 'adversarial' etc.",True
+02fdad994fdbdc544388cd18058afb2ff6a63f20,2020-08-30 00:22:52,Yuan Chen,Merge branch 'master' into patch-2,True
+282a3b457638e39bf1436b2c0cd9af85d564c8bb,2020-08-30 00:19:43,Yuan Chen,Change to type=1 and remove router,False
+1274a99d1d3b75326adb4c29aa5ad819af9d1b62,2020-08-30 00:15:08,Yuan Chen,Change router to route,False
+d4ec74cd5316b4a3caa09895b7fee3d6bac622cd,2020-08-30 00:14:06,Yuan Chen,"Merge pull request #246 from fritx/fritx
+
+add 'Redux', 'route'",True
+f0a26abfa1bed2e941923d28491ee5acef39aae6,2020-08-30 00:13:46,Yuan Chen,Merge branch 'master' into fritx,True
+d664fcc2016e941c959782f6624abc4596ce9871,2020-08-30 00:12:34,Yuan Chen,Update route and Redux,False
+08a472cae4cb59c628112ffdfd5e594994844237,2020-08-25 22:49:43,Yuan Chen,"Change ""Daemon"" to ""daemon""",False
+678ebb42ea4dad8d9a534775b864f7309a9185d7,2020-08-25 22:48:30,Yuan Chen,"Change  ""san jose"" to ""San Jose""",False
+55a2ab7f496ba25cbbe3bc31c25c704a2d6adc4e,2020-08-25 09:56:42,Yuan Chen,Reorder Qt and query,False
+ac3304b87880409a4a43f3ee8aa32c2a317807c6,2020-08-25 09:54:53,Yuan Chen,"Add ""prometheus""",False
+f030bd444f2691bfb38c13861bafa20d0f3114d6,2020-08-24 21:47:00,Yuan Chen,"Merge pull request #271 from u-u-z/master
+
+add GraphQL",True
+432781ff2eeb76dc6a63164f3d25c91b3d154408,2020-08-24 18:05:11,Remi_IO,Merge branch 'master' into master,True
+a0cff9f25ef2baf6a3cb7b2db8b9ba416f50c9a8,2020-08-23 22:36:30,Yuan Chen,"Merge pull request #278 from Reese1995/master
+
+Add scala",True
+a24fc7421ff73d70e4f150e333900c14f6394872,2020-08-23 21:53:08,Tony Guo,"Add thymeleaf. (#254)
+
+* Add thymeleaf.
+
+* Update thymeleaf.
+
+Correction of  pronunciation type.",False
+7c98a36fee7d7edce940516222243ddd8636b91e,2020-08-23 00:35:16,Yuan Chen,Update README.md,False
+ffc30d3143670d2ccd5747ced0e6f1f88c03f6a8,2020-08-23 00:34:27,Yuan Chen,Update README.md,False
+1ac517bd18aad9651758541f5aaeb007eaab78e4,2020-08-23 00:33:47,Yuan Chen,加真人发音,False
+b7809d91fb102cff086ea56e8fbc3e5f498e7086,2020-08-23 00:31:10,Yuan Chen,有到发音链接改为type=1 （英音）,False
+6b7c6d9010cdd9664d5b78a9cf6373774fd7476d,2020-08-23 00:23:29,Yuan Chen,Remove GUI,False
+844bc49d9b1993043f67312c855d7834ec27fb3e,2020-08-23 00:22:53,Yuan Chen,Change all pronunciations to type=1,False
+2b04f586fe230c41d74a521cacada274d71cfa57,2020-08-22 23:49:36,Yuan Chen,"Merge pull request #241 from xkww3n/patch-1
+
+Add a wrong pronunication of ""OS X"".",True
+8c3a6a1cc694ff6105ae89170880d5c54a13af3d,2020-08-22 23:19:51,Yuan Chen,"Merge pull request #236 from Sean-Pearce/master
+
+sort the word list alphabetically",True
+11a2a91972119c8019d4d7bbd890f828d5220b3c,2020-08-22 23:14:54,Yuan Chen,"Merge pull request #265 from yuanchen8911/patch-1
+
+Add a new word ""epoch""",True
+0a01dfd9a8f14750d149e0ac1c22e0b8370cc95b,2020-08-22 23:11:24,noy,Update README.md,False
+0e395847ef49bed8b3cd6811c586f473fadf72b6,2020-08-22 23:07:12,noy,Add new word——scala,False
+bb778a3aacf114d909013912ef958fd68876eb26,2020-08-19 19:52:27,Remi_IO,add GraphQL,False
+b41954039e17490ba509fedc20d40b0425572935,2020-08-06 13:34:10,Jason Liu,"Added 'adversarial' etc.
+
+Added 'adversarial', 'C#', 'repository', 'repr', 'router', 'verbose'",False
+6e0b9a77c9bfab236bf2a6397f53e5d67a30e0b0,2020-07-24 21:50:41,Yuan Chen,Add epoch,False
+55a9f8032c3fdbf548e739085ca6ab1bff261e80,2019-08-31 20:59:51,Fritz Lin,"add 'column', 'React', 'Redux', 'route'",False
+dabddbb7793b3b6b428a71ffae2681e7ec9b4a9d,2019-07-18 10:15:33,Lucentio Luo,"Add a wrong pronunication of ""OS X"".",False
+0b000040491c9e5f9f8cfef53cbef63288dfa19e,2019-04-30 10:07:43,Liyin Shao,sort the word list alphabetically,False
+eb8e413592c9d681e22e0f603474b58a20393a3f,2019-04-25 12:38:29,TomWan,"Merge pull request #234 from AlbertGithubHome/master
+
+add privilege pronunciation",True
+1d20c6864a1e1d921a818ae68c283e26c0c4746a,2019-04-13 14:39:09,AlbertS,add privilege pronunciation,False
+aade52760d55f346b393803d24166778f3226a22,2019-04-03 14:13:17,TomWan,"Merge pull request #229 from lemonbu5h/master
+
+Check the pronounciation of Ubuntu on WIKI and upload its audio source",True
+838954e90e84b620b156b0c6fad4f0cf830fb587,2019-03-23 17:38:31,lemonbu5h,Check the pronounciation of Ubuntu on WIKI and upload its audio source,False
+f527447ea17a764be225c9b2bec642b871f5d916,2019-03-21 09:33:41,TomWan,"Merge pull request #192 from FaiChou/master
+
+add 'segue'",True
+707e0d2ad02565d97d896b649a97ae723b7df9a4,2019-03-21 09:33:04,TomWan,"Merge pull request #182 from LiuinStein/master
+
+ADD `resume`",True
+1127e168456ae12734ea688ca95b4a6fe3937e9f,2019-03-21 09:32:32,TomWan,"Merge pull request #169 from NorahBIAN/master
+
+Check the pronunciation of GUI on WIKI and upload its audio source",True
+327fcf9b9941c63a311e9de27b0d66614ade9481,2019-03-21 09:30:09,TomWan,"Merge pull request #204 from startprogress/master
+
+Add lucene",True
+1f4b26a961308e42c4c32bfdae2e7f8eba78ac59,2019-03-21 09:30:01,TomWan,Merge branch 'master' into master,True
+d85410ea9a432b3abf32b93a414504419b16295c,2019-03-21 09:29:13,TomWan,"Merge pull request #207 from yaoyiyao/master
+
+Debt",True
+5c9c3d8a9793ff3776329044f81b362232cde92c,2019-03-21 09:28:32,TomWan,"Merge pull request #211 from chen3feng/master
+
+Add clang",True
+69cd39360ab283ad58fa90a8e814ba3fb638de4d,2019-03-21 09:26:33,TomWan,"Merge pull request #214 from idejie/YangDejie-add-`Dijkstra`
+
+Dijkstra",True
+028f775c8d8b088b561ca8610a153d59150cfd02,2019-03-21 09:25:33,TomWan,"Merge pull request #222 from imhuster/master
+
+Add Adobe",True
+4312f7c744004690d284bfb2772bbb0c02a1cecc,2019-03-21 09:25:23,TomWan,Merge branch 'master' into master,True
+0db58a1e043c40a31020dbe3f11524711bd1c12d,2019-03-21 09:24:25,TomWan,"Merge pull request #228 from liusining/patch-1
+
+Add key",True
+5461f6f3449c70ab989629b1b96631eb7524f5dd,2019-02-17 07:05:34,liusining,Add key,False
+da243f8c6da85943c6f01522b560e17d0cf88fe3,2019-02-03 19:18:20,Wendy Wu,添加admin (#223),False
+16c944f4eed2fdfc8243604a80aaf8966addd98a,2019-02-01 12:43:49,imhuster,"Update README.md
+
+add Adobe",False
+d1e6d19cbdbb4ca23154c556329812a9c1a0318c,2019-02-01 12:30:47,imhuster,Update README.md,False
+0095bc5b23cd2b445dee7902802a8119d1b57459,2018-11-09 14:59:01,TomWan,"Merge pull request #205 from boringwong/patch-1
+
+Add ""format"", ""event"", ""implement""",True
+84d10224d9b103a25eddd1566f6c652d742ed681,2018-11-02 14:51:31,idejie,"Dijkstra
+
+Dijkstra",False
+617a19bdadc599c0c99aede40e9832c6dfdfff7d,2018-09-19 13:00:53,CHEN Feng,Merge branch 'master' into master,True
+0c10b51f43d8c8bf5e98978223fdaae80d230a98,2018-09-19 12:50:40,CHEN Feng,Add clang,False
+d5b9ef1f010d2c49785dc5c9c51e8e3435c66500,2018-07-04 21:17:31,Yixuan Feng,fix the wrong prounaciation,False
+b62ae4a936d3dca83574b8b3e72edb91b18d4fb1,2018-07-04 21:14:31,Yixuan Feng,add debt to the list,False
+9ced6399551c3311c9732fbe5d4a602e988ba2cf,2018-06-07 11:35:12,Boring,"Add ""event"", ""implement""",False
+0e69e9bd938ec764887e05029a48b4ac041bdf3f,2018-06-07 07:41:40,Boring,"Add ""format""",False
+2b47e717ce71262ded2c828c139658e88243885f,2018-05-25 20:28:23,startprogress,"Add lucene
+
+Lucene is an Apache project, a Java-based indexing and search software",False
+0491b9fe7809244fb0945df6484e91b9c0c0922e,2018-05-09 11:58:06,FaiChou,add 'segue',False
+591f4249b3e1683409c72725449358e3c9bc4a15,2018-05-09 06:55:15,Shaoqun Liu,ADD `resume`,False
+b8689d4511bef2b1bed20332fcc9fb59476cd3de,2018-05-08 11:14:59,TomWan,"Merge pull request #185 from MoonLightQ/patch-1
+
+Add alternative 'SQL' Pronunciation",True
+04607fa3d5685ba0a670091aa9632d5ac4f9c8d9,2018-05-05 22:47:06,Jason Qiu,"Add alternative 'SQL' Pronunciation
+
+See https://softwareengineering.stackexchange.com/questions/8588/whats-the-history-of-the-non-official-pronunciation-of-sql",False
+07fd0d607914355be7b19f1c8e2bf0860b2c97c5,2018-05-04 08:26:13,TomWan,"Merge pull request #142 from fakefred/master
+
+	Add wrong pronunciation of Amazon; Del ridiculous pronunciation of Git",True
+54ac4596b75d4042a8639303e16a0b9f5bde7fd1,2018-05-04 08:25:17,TomWan,"Merge pull request #170 from tychxn/master
+
+Add the wrong pronunciation of ASCII",True
+15b82b8ea6905d3f99d11b034398d803f7d2af57,2018-05-04 08:24:21,TomWan,"Merge pull request #161 from ZPVIP/master
+
+add deny",True
+08f39d1e4be2b513b5960ed0f0d5714b26f9bd81,2018-05-04 08:23:42,TomWan,"Merge pull request #172 from xingmarc/add_locale
+
+Add `locale`",True
+bbfac19d0068e831c850986bd51aaf0174a1aa21,2018-05-02 23:07:33,xingmarc,Add `locale`,False
+35ae7c3c775b9f849c514c2b61cf5aab14f431cf,2018-05-02 14:17:54,Tychxn,Add the wrong pronunciation of ASCII,False
+b0078be93332201f9966270d0ec513520d87c8b0,2018-05-02 12:25:26,NorahBIAN,"Merge pull request #1 from NorahBIAN/NorahBIAN-patch-1
+
+Update README.md",True
+835dd46433c7e6013506356f374c5fcea6b873bb,2018-05-02 12:24:48,NorahBIAN,"Update README.md
+
+Renew the audio source of GUI",False
+caf61cf81f360868e81e7ea4d3c0b4fa79a94920,2018-05-02 12:11:15,NorahBIAN,"Update README.md
+
+I have found the pronunciation of GUI of the original version sounds like the Chinese pronunciation of 贵, so I checked WIKI for it. 
+'The graphical user interface (GUI /ɡuːiː/), is a type of user interface that...'  quoted from wiki.
+https://en.wikipedia.org/wiki/Graphical_user_interface",False
+dbb1e9c27a738537dfa4ae64c472c3a14e2687cd,2018-04-11 16:12:21,ZPVIP,Update README.md,False
+fc2e3a5dab520da869a73866a0eb632c0acdd978,2018-03-19 14:48:30,瞿祥轩,"Merge pull request #156 from colin4124/patch-1
+
+Add ASCII",True
+36d5ece5408f9c3aaf392d8072af1966ce0a19e6,2018-03-15 08:16:01,Leway Colin,Add ASCII,False
+ec6cfe9fd3c989290e49597c485143c75e0203bb,2018-02-28 13:22:22,TomWan,"Merge pull request #152 from lhmouse/patch-1
+
+Fix the accent of `digest`.",True
+eba7d13d2709667e43bc05f516360e3bf1e1a36d,2018-02-24 06:37:27,Liu Hao,"Fix the accent of `digest`.
+
+Signed-off-by: Liu Hao <lh_mouse@126.com>",False
+c496c29bfcd3c4f9909ef55069a98c2c98cf1531,2018-01-09 20:41:28,enkows,"Merge pull request #149 from SimonWang2014/master
+
+facade正确发音后多了一个']'",True
+0b599dccdc5fddaedda53e9b413e63ab0ca73aee,2018-01-02 18:52:49,wanghui,facade正确发音后多了一个']',False
+0d43b8dd89a1ee25e272b916620b247c525a398f,2017-08-17 07:13:21,fakefred,fix mistake,False
+642110411d7c4ca93a0e079d2477e07b07e32b1a,2017-08-17 07:10:08,fakefred,Add wrong pronunciation of Amazon; Del ridiculous pronunciation of Git,False
+1b5ef16fe19aa5284a438319b40bbad2f52712bf,2017-06-29 15:13:09,TomWan,fix: conflicts,True
+eda2dc9ea8816ff8b646f31f997c59267b2c9b51,2017-06-29 14:55:20,TomWan,"Merge pull request #103 from Zhang-zm/master
+
+alias",True
+d62217f72cd72ee49095cc4f3cd0bdada78fbfa7,2017-06-29 14:55:00,TomWan,"Merge pull request #127 from Phenmod/master
+
+agile  daemon",True
+e5f130c86e83e1b16425da0efaa260525c6ba6fb,2017-06-29 14:54:38,TomWan,"Merge pull request #129 from dfi/patch-11
+
+Add 'Realm'",True
+fc6a6a6593c398043d53270a787afc6183c6a2c8,2017-06-29 14:54:03,TomWan,"Merge pull request #130 from dfi/patch-12
+
+Add 'lambda'",True
+009daf5e560450437ca9df18e6889b516d83735e,2017-06-29 14:52:59,TomWan,feat(add SQL & fix Linux):,False
+e92e4551a6d7ddcb5a31d1d0961567a85ca05d52,2017-05-31 07:52:46,Xingcan Zhu,Merge branch 'master' into master,True
+48dbb681c08e12bf07548dd9b69e8429663d8cd6,2017-05-30 20:16:07,瞿祥轩,"Merge pull request #133 from ShannonChenCHN/master
+
+Modified the audio resource URL for GNU",True
+e56d7c0dcd7040f8b61cc472a766b86a80a7b1be,2017-05-30 20:13:55,瞿祥轩,"Merge pull request #128 from dfi/patch-10
+
+Add 'Haskell'",True
+95bcb08a84485a5dd20c1beb119bd36f8b5843b4,2017-05-30 20:12:44,瞿祥轩,"Merge pull request #134 from hrxx/master
+
+add amazon and Microsoft",True
+387f88bcfd500ba83bfa9bafbfdf62a4ac36af77,2017-05-23 12:00:58,hrxx,add amazon and Microsoft,False
+1596df17cddd7ba01a2613f81b9d47b02ff03b76,2017-03-25 19:07:02,ShannonChen,"Modified the audio resource URL for GNU
+
+The pronunciation in the original audio resource for GNU is the same to ""new"",
+but it should be read as /gnuː/ instead of ""new""(/njuː/),  according to the article in [Wikipedia](https://en.wikipedia.org/wiki/GNU).",False
+dbf4436e47093f423aedbca27967c50857660ddc,2017-03-22 08:36:17,瞿祥轩,"Merge pull request #124 from dfi/patch-7
+
+Add 'matrix'",True
+6bd387378a7c9a7ba5a62a7bf420b3a3f93b8a3a,2017-03-14 18:08:27,dfi,Add 'lambda',False
+1a78a98916080279f14fbe356c6a934f58ca1c4c,2017-03-14 17:59:53,dfi,Add 'Realm',False
+6c4b51363ed25c1b282d84f2d1004be766be733a,2017-03-14 17:07:39,dfi,Add 'Haskell',False
+e117bee1e74d1edd0da6df459fc481c96b7e3cee,2017-03-14 13:17:54,dfi,Add wrong pronunciation of 'matrix',False
+e979f712f0c69602f95791ab6059a8cf8de3e987,2017-03-14 10:38:14,Phenmod,agile and daemon,False
+51bf660c27c816915e0956683e696192bf891d29,2017-03-09 21:40:39,TomWan,"Merge pull request #119 from walfud/master
+
+fedora",True
+cf5d3d65408f7c557ac630acebcc8819d971970f,2017-03-09 21:40:13,TomWan,"Merge pull request #113 from dfi/patch-4
+
+Add 'linear'",True
+2b4660ef667266fed71158112d167bc45aa8b7ae,2017-03-09 21:39:45,TomWan,"Merge pull request #122 from dfi/patch-5
+
+Add 'resort'",True
+ede69eb7d316c51a65c5b7335ba0b8822e76a20a,2017-03-09 21:38:16,TomWan,"Merge pull request #125 from dfi/patch-8
+
+Add 'analogy'",True
+9d2d420731bd159954221922fa2450171257317c,2017-03-09 21:37:29,TomWan,"Merge pull request #126 from dfi/patch-9
+
+Add 'bind'",True
+a9f3a07692f8e7ffa323f9d5bb1dcd429e172b75,2017-03-09 16:33:20,dfi,Add 'bind',False
+ce5a353c68dda58e9c85bf4bb1698055860fa3ba,2017-03-09 16:29:45,dfi,Add 'analogy',False
+03148eae9b4bf3ccc3b2cfdcf252433d1e9b5040,2017-03-09 16:23:25,dfi,Add 'matrix',False
+4b1d637278b98d1ceeb0516260a7e102d7c38461,2017-03-09 16:13:01,dfi,Add 'resort',False
+3c886135d61c81f6c958e8bdc0e94f8c01c2b4d8,2017-03-07 13:51:30,walfud,fedora,False
+4c3ea266c51a361384fe41fd28eba34fbbab7f36,2017-03-07 08:36:10,Zhang-zm,alias,False
+3b69a9403438271e95bb7a27688bfbc6f042e814,2017-03-07 08:35:11,Zhang-zm,.,False
+98db5d68748bbe27a04563adc56bc3664ea8b007,2017-03-07 08:29:53,Zhang-zm,"Revert ""Revert ""Merge branch 'shimohq/master'""""
+
+This reverts commit 9e955807d3b4e6a57d7f41aeb3cb8c9db853890a.",False
+9e955807d3b4e6a57d7f41aeb3cb8c9db853890a,2017-03-06 21:21:12,Zhang_zm,"Revert ""Merge branch 'shimohq/master'""
+
+This reverts commit c0e91e7c3479c44ab0df9eb33af5f96b7f7818ef, reversing
+changes made to 447c46d4ba5ee35509f6ebcb3da6a0c18c28e99d.",False
+c0e91e7c3479c44ab0df9eb33af5f96b7f7818ef,2017-03-06 21:19:21,Zhang_zm,"Merge branch 'shimohq/master'
+
+# Conflicts:
+#	README.md",True
+447c46d4ba5ee35509f6ebcb3da6a0c18c28e99d,2017-03-06 21:18:30,Zhang_zm,"Revert ""使alias 进入正常按字母排序""
+
+This reverts commit a8a6b22566e2f1bc73859d2f9303f31d8a38d6bc.",False
+a8a6b22566e2f1bc73859d2f9303f31d8a38d6bc,2017-03-06 21:15:48,Zhang_zm,使alias 进入正常按字母排序,False
+a89167644ceca420ac7e967b92b09f34f21985ad,2017-03-06 21:13:24,Zhang_zm,"Revert ""使按字母排序""
+
+This reverts commit 1db69e87e8ee40551c9bb7e95e0fe3c07d302355.",False
+1db69e87e8ee40551c9bb7e95e0fe3c07d302355,2017-03-06 21:08:37,Zhang_zm,使按字母排序,False
+197bc2c7b4707682159a50b5d44f348ae09a429b,2017-03-06 15:11:05,TomWan,"Merge pull request #102 from TT1943/patch-1
+
+Update README.md",True
+8727152026e3c2af56d9e4b82da06684a7fec055,2017-03-06 15:06:41,TomWan,"Merge pull request #105 from chafel/master
+
+feat: add 'phantom'",True
+23c2897a44d1d39df6e17d39ed982657f8d70928,2017-03-06 15:05:47,TomWan,"Merge pull request #106 from shuizhongyueming/master
+
+add tips for the use of icon 🔊",True
+8493a51c9bdecdcea736b20c4bebee8ad2b73318,2017-03-06 15:04:40,TomWan,"Merge pull request #112 from dfi/patch-3
+
+Add 'aspect'",True
+5f9b2c2a42964b3adf4a9fea20602747dae0d3d1,2017-03-06 15:02:29,TomWan,Merge branch 'master' into patch-4,True
+7306b790966070820ab6c50ddcdedab4a9bca0c1,2017-03-06 15:00:49,TomWan,"Merge pull request #114 from cutezerocat/master
+
+修正 jpeg 符号和模板中 DJ 音标的链接",True
+270cb72733e1d03bdc752ce4f1da0a224c709d81,2017-03-04 19:25:22,cutezerocat,refine information about jpeg and template,False
+c9fbaf0c12572c187e8379e94d44ff19d5d0fabf,2017-03-03 23:02:38,dfi,Add 'linear',False
+aa52ba324697f1c69fc832132915e58ba2a0acdf,2017-03-03 22:56:38,dfi,Add 'aspect',False
+2524e49eb90df4cd44eaf538f6fe5388a185ebe4,2017-03-01 15:03:25,shuizhongyueming,add tips for the use of icon 🔊,False
+9b5bdba73026580e98eea3c88845f32476a9c4ec,2017-03-01 12:09:24,chaofei,feat: add 'phantom',False
+eadc103fbbe01195f69937e064e6b99e33536dc9,2017-02-28 07:36:42,Zhang_zm,"alias
+
+格式错误修正",False
+90c725f640dc55bf2f0e79abc91f10d3c5527c0b,2017-02-28 07:33:32,Zhang_zm,"alias
+
+.",False
+ac0d75d2a339f6f6c74b6094c7f2f7269fb8c3ef,2017-02-28 05:41:02,TT1943,Update README.md,False
+0920d889b7ccbf00bc220551291ec7ae04bd434f,2017-02-27 15:56:51,TomWan,fix: change audio to UK,False
+69305cde57287906aa04cc16b5c84d1c4c34d743,2017-02-27 15:48:51,TomWan,"Merge pull request #92 from MaskRay/master
+
+Add QT",True
+8e72e666751f2d63cff101d65d728e87b4ae4f47,2017-02-27 11:00:39,Fangrui Song,add QT,False
+add3e4bc80bb73d1c11c0fd9b91acdece1272ba9,2017-02-27 10:49:42,TomWan,"Merge pull request #88 from Rholais/master
+
+Update `variable` wrong pronunciation",True
+5452601cc849980e684a32bd3ab31eb11c1f66be,2017-02-25 02:09:19,Rholais Lii,Update `variable` wrong pronunciation,False
+e8e9299783ae62cfc39aa047d6b5b46690ae5995,2017-02-25 02:00:19,LI Haocheng,Merge remote-tracking branch 'refs/remotes/origin/master' into shimohq/master,True
+6748f7c63a8cbf341bc962604ca56bc1223a60c1,2017-02-24 22:08:40,TomWan,"Merge pull request #84 from Rholais/master
+
+Add `variable`",True
+b1254ae29aa1240846d026cfbf20cd855999c477,2017-02-24 22:06:51,TomWan,"Merge pull request #85 from passos/patch-1
+
+Update README.md",True
+74440230797ccbef45c7040ec2e45d142840a157,2017-02-24 16:46:19,Simon Jinyu Liu,"Update README.md
+
+add facade, san jose",False
+6236429551f4a670a57fc0cb8d8e158ba3a40e39,2017-02-24 10:32:02,Rholais Lii,Add `variable`,False
+f5e11bb9ca9f1f40c15e024bfa3c67be49431ca5,2017-02-24 10:21:00,LI Haocheng,Merge remote-tracking branch 'refs/remotes/shimohq/master',True
+bc350ed35aae0d02489a0033234babb452408a0e,2017-02-24 08:01:46,TomWan,"Merge pull request #81 from NeilLi1992/master
+
+Update README.md",True
+b995553ceb8609836562399c5c7ede57bd549a7c,2017-02-24 08:01:27,TomWan,Merge branch 'master' into master,True
+3cb09f16a1ca8fa03211bab34d2e0c1ea1067102,2017-02-24 07:50:05,TomWan,"Merge pull request #80 from dfi/patch-2
+
+Add 'height'",True
+8510404f2706738278e6bc7a330de18ae69f9489,2017-02-24 07:48:48,TomWan,"Merge pull request #17 from S1ngS1ng/patch-1
+
+Add ""resolved"", ""Java"",""async"" ,""Azure""",True
+6250d7cbd50331a567d760d997b486d23f142672,2017-02-24 04:49:00,Yong Li,"Update README.md
+
+Add a wrong pronunciation for jpg.",False
+f2d51d029ab11213cdd0a7ea251ccffdd8b0ef27,2017-02-24 02:58:11,Sing Liu,Merge branch 'master' into patch-1,True
+f356e7dc7a7e6fe82b28e143e980717686220f81,2017-02-23 21:35:24,dfi,Add 'height',False
+d16fb33ce299abd6b707a00216498503b2860763,2017-02-23 21:23:29,TomWan,"Merge pull request #77 from bruceCzK/patch-1
+
+修改 Retina 错误发音",True
+b3b6dd96e98669dc7bcdeecb39e3d2feb2ffb9cf,2017-02-23 14:44:04,Bruce Chen,"修改 Retina 错误发音
+
+大部分重音都是发到 t 上的，其实是在 r 上",False
+dfd0ec53dffe522beb2610f95d02315d9f7b5d38,2017-02-23 13:16:37,TomWan,"Merge pull request #73 from Pearyman/master
+
+add vue",True
+0d4c246deba1bad979922dc33f64ffe045481cda,2017-02-23 12:04:48,Pearyman,调整音标,False
+5d76696b0cd2e126372006cb40ab344b5ffdc2b9,2017-02-23 11:49:08,TomWan,"Merge pull request #68 from tsongknows/features/add-angular-pronunce
+
+add angular",True
+c24810d0e9ce6723e359dfa017b0ec07b901cb72,2017-02-23 11:48:35,TomWan,Merge branch 'master' into features/add-angular-pronunce,True
+8a503e907b2e086cbc476bf9c72f33c4079e422c,2017-02-23 11:39:15,TomWan,"Merge pull request #29 from Ryanst/master
+
+add voice link",True
+4b10872080ca4bdfc708441f035fbb51f7080dd8,2017-02-23 11:38:33,TomWan,Merge branch 'master' into master,True
+4259b6d9bd4ea188b646d250b5538e537d36c611,2017-02-23 11:33:53,TomWan,Update README.md,False
+e1a6c09f4aed79da408b4c06a9dc380fcac709da,2017-02-23 11:30:17,TomWan,Merge branch 'master' into patch-1,True
+7c67cadf190a065da4870818563d1d6254fb190f,2017-02-23 11:27:41,Pearyman,add vue,False
+d1da2721c1ad5eceee905c46125cee7283db0826,2017-02-23 11:15:30,TomWan,"Merge pull request #32 from Rholais/master
+
+Add `parameter`",True
+f17db12d466a783ff35baa4917bb8314b305514e,2017-02-23 11:15:15,TomWan,Merge branch 'master' into master,True
+0808465004619bdd345455adb346553a3f227ba7,2017-02-23 11:02:50,TomWan,"Merge pull request #71 from shimohq/use-DJ
+
+fix: use DJ",True
+2ff124fce3cb944f511ae468d72982bb414e26fb,2017-02-23 10:48:03,TomWan,perf: remove OSX nginx error,False
+b0012816b9f327cd900bdcab07d1505c8339760b,2017-02-23 10:44:55,TomWan,Merge branch 'use-DJ' of github.com:shimohq/chinese-programmer-wrong-pronunciation into use-DJ,True
+2278841ed8cf5ebedc47b38f944859c88da5de76,2017-02-23 10:44:30,TomWan,fix: typo,True
+c7b37f6ececd200b56c11e7f2c1d65f8548f9a06,2017-02-23 10:38:24,TomWan,Merge branch 'master' into use-DJ,True
+80dc1d321f88a14d6eaab36608e566e5afeb2ffd,2017-02-23 10:33:32,TomWan,fix: use DJ,False
+53978e0d8fdd41ee2a14d7d7eddf1022d12abcc3,2017-02-23 09:58:30,瞿祥轩,"Merge pull request #67 from shimohq/fghpdf-patch-1
+
+更正 doc 的读音",True
+4c9850ffb16a91facfec7de364798234b7d1d09c,2017-02-23 08:50:00,TomWan,fix: github template,False
+37af029ce8baa5859234643cfdef4a51f8906a48,2017-02-23 08:27:26,瞿祥轩,更换更靠谱的声源,False
+6b30540d47306184a261f5ffb2d1e93c4a34c4b0,2017-02-23 08:22:32,tiansheng,add angular,False
+1041179022414df77d7ef2fef999d9d958060166,2017-02-23 08:12:05,瞿祥轩,更正 doc 的读音,False
+f6eb7dfd2179e25a3c25bef8be6d4fc62473884d,2017-02-23 08:07:06,Rholais Lii,Merge branch 'master' into master,True
+057b190c77c9ced7ed929d723bbcac96c493cf79,2017-02-23 08:04:40,Sing Liu,Merge branch 'master' into patch-1,True
+da3c91ef5e87f1cb48b0c5a96b31dd130475b53a,2017-02-23 07:44:29,TomWan,"Merge pull request #62 from icodeu/patch-2
+
+Add 'scheme'",True
+5885ef2c201a8f8dd11843bf54d658b8076cb2fe,2017-02-23 07:42:28,TomWan,fix:,False
+62715a55db92e1f956d81d3fb12612b8e33ae86f,2017-02-23 07:29:42,王欢,Add 'scheme',False
+8d6ffe2e3a2e315ee1d36b67f849c588e2160fab,2017-02-23 06:25:55,TomWan,"Merge pull request #59 from NeilLi1992/master
+
+add ubuntu",True
+4ffd91431541ce8c61c10ae51e58938f9ae1ebea,2017-02-23 04:42:46,Yong Li,add a wrong pronunciation for adobe,False
+3c3348383ff5c0f3388bbb1ab08fd8e18ccda66f,2017-02-23 04:28:22,Yong Li,add ubuntu,False
+712fc61ace8089f0726a3cdba5cd34e7ff226df0,2017-02-22 22:29:35,Sing Liu,Update README.md,False
+b23998cbbda8d113bae968d3c403d12c6edca0e4,2017-02-22 22:28:36,Sing Liu,Merge branch 'master' into patch-1,True
+dd2be6636564235d4ac77449fa2584055b1b8113,2017-02-22 22:17:01,TomWan,fix: quote,False
+d0b3dd491e8aebebc9a98339247cf73dfbcc39e4,2017-02-22 22:05:11,TomWan,Merge branch 'master' of github.com:shimohq/chinese-programmer-wrong-pronunciation,True
+e67b2803f669553bbde1f42966f44bd002ea7e1b,2017-02-22 22:05:00,TomWan,fix: remove,False
+f3bdf5fece7370fcaf0d82d2510d347e884c1252,2017-02-22 22:03:36,TomWan,"Merge pull request #28 from loveisbug/master
+
+feat: IEEE, Adobe, Django, putty, width",True
+82943782aead9903bd47651385b3dc115fd0a20c,2017-02-22 22:03:00,TomWan,Merge branch 'master' into master,True
+18d88359dbe0f36288149f36d446587a296cd818,2017-02-22 15:52:23,TomWan,Merge branch 'master' of github.com:shimohq/chinese-programmer-wrong-pronunciation,True
+765eba81d65f248f943941ad7f7c84f5011e54ad,2017-02-22 15:51:39,TomWan,feat: add template,False
+ae3ccb892672329164cfd218aa86c9de3ea1484a,2017-02-22 15:35:26,TomWan,"Merge pull request #44 from xiaoxun/patch-1
+
+add `hover`",True
+2c23565bbd14e7bc5a02a4de0b39976c4c9313df,2017-02-22 15:32:31,TomWan,Update README.md,False
+7da0d1ddad466eeff42d9a42f19ae3a61bb05858,2017-02-22 15:31:16,TomWan,Update README.md,False
+081e05ebe9f837d1b3d9db925da3950c404ca5e4,2017-02-22 15:29:05,xiaoxun,"Update README.md
+
+fixed",False
+a6b6785813b67238e5dc97674367980b804e113f,2017-02-22 15:22:35,TomWan,"Merge pull request #42 from lisnb/master
+
+add query and deque",True
+b0dfb41bfc15b9937d9d50f186d80b2d0e7abbda,2017-02-22 15:15:12,xiaoxun,add `hover`,False
+f4249fbe07e604f9ebf97ff3ecbc97e90079346e,2017-02-22 15:13:00,lisnb,correct query,False
+168c8ca51f05070ff9f195bd0b335d3e6c2a138d,2017-02-22 15:06:07,lisnb,add query and deque,False
+0bd9b6d8e2e733a1584ac29020cdbf4ab564d3da,2017-02-22 15:03:20,loveisbug,fix: add pronunciation,False
+f15527f0bddcfa1b4f4461df772f9401c6265699,2017-02-22 14:54:48,loveisbug,"fix: Django
+
+add icon.",False
+5b82ffd9c97e34ff49f3bc9921335fc7402727a7,2017-02-22 14:41:53,TomWan,"Merge pull request #35 from Colin6618/more-chinese
+
+ADD: 新增单词content,以及发音和错误示范",True
+b53fb5c3d95b7bef4575eaacf0f8967788a83068,2017-02-22 14:41:26,TomWan,"Merge pull request #39 from qiuyingtao/patch-1
+
+改了几个单词的官方写法，有点吹毛求疵，不过还是提一下吧",True
+12e0b47a442fdee69eee2623c6a78022e2c4390b,2017-02-22 14:31:05,Yingtao Qiu,改了几个单词的官方写法，有点吹毛求疵，不过还是提一下吧,False
+67a6e3c506f6462a97d34b7439b30373de547e10,2017-02-22 14:28:20,hanyuzhi,README: 修改单词排序，按照字母表,False
+26ef0a2556a6bec891e6792d35db7f17dc5d0618,2017-02-22 14:04:53,TomWan,feat: image,False
+48f12375558573f500ceb0247ccfed2c9f12f538,2017-02-22 13:50:55,hanyuzhi,"ADD: 新增单词content,以及发音和错误示范",False
+9f512c5d648cf4ad36a80b531663bb9341c4a659,2017-02-22 13:16:14,Rholais Lii,Add `parameter`,False
+4f6926ed0e0552e9aec46744145f63cf0fe13e54,2017-02-22 13:12:32,loveisbug,"fix: Django
+
+previous commit remove ""IEEE"".",False
+5666015643c56faad7034492df418aa54c1aa13f,2017-02-22 13:11:23,TomWan,"Merge pull request #31 from shimohq/doc
+
+doc 还是纠正一下",True
+8fdec425e6c81dcbac385d65f37940189018464b,2017-02-22 13:11:05,瞿祥轩,|,False
+40e403e553a0051f72383b1882ca9432a094cbb5,2017-02-22 13:09:47,瞿祥轩,aʊ,False
+0b34306953fb0871a999606a5268ca8d086132af,2017-02-22 13:07:35,瞿祥轩,修正链接 & 增加错误用例,False
+31aac39d4b09baf721a64c3393005c2cb2c7892b,2017-02-22 13:04:28,loveisbug,Update README.md,False
+7c566a10c65b2b8d00e3e78aad32a406f4d69bb2,2017-02-22 13:04:25,TomWan,feat: youtube,False
+a30cee30d08dddcffadcedfc211691ab9a6becfe,2017-02-22 12:54:43,TomWan,feat: linux,False
+6c0607d369644d9eb206951b0807be7ce816b9e9,2017-02-22 12:42:41,瞿祥轩,doc 还是纠正一下,False
+b58da86d9cc6cda60fb292e50f38a804b1b3754e,2017-02-22 12:38:41,TomWan,feat: Babel,False
+103174986d2fd73d005cf609484992ed7de118a1,2017-02-22 12:28:45,TomWan,fix: jpeg,False
+7b30ee0db1830e55f1175a16b8294b9d07acf038,2017-02-22 12:26:14,TomWan,fix: avatar,False
+72ffe38c87ec5300d19b3d501f9781db235035a4,2017-02-22 12:25:37,Ryanst,add voice link,False
+ee19d1d851e167d22b3098ba2bff36af3e23c590,2017-02-22 12:16:17,loveisbug,"feat: IEEE, Adobe, Django, putty, width",False
+98e24ac71365ca63a0336967a5740f19b156ab9d,2017-02-22 12:09:19,TomWan,"Merge pull request #25 from brunobell/master
+
+acceptable pronunciation of retina, details view git log",True
+b82a3b0839d10461f81af653ae4038d0e7eb840e,2017-02-22 12:05:12,TomWan,feat: ad,False
+fa8ecd097b68f1981bdb98003298408f66a2c276,2017-02-22 11:31:32,broono,"acceptable pronunciation of retina,and proof: 1.http://dict.youdao.com/w/retina/ 2.https://www.merriam-webster.com/dictionary/retina",False
+8bd9e2a18420d0a93d45473a0a211f88761a86ec,2017-02-22 10:52:35,TomWan,fix: GUI & GNU,False
+de561497f794b37078d031b8dd856677127fe141,2017-02-22 10:24:41,Sing Liu,Add Azure,False
+855deffddf6b82ca888f371e9d8e35330f64d0e9,2017-02-22 10:16:36,Sing Liu,Update README.md,False
+51daf84d867621d49406fb6fccd79edf86424b6d,2017-02-22 10:15:23,Sing Liu,Update README.md,False
+5f1b355f35eaf597515962f258a5453a1f1db72b,2017-02-22 10:15:01,Sing Liu,Merge branch 'master' into patch-1,True
+ffeb12776121b932f32e9b99523415402761ef94,2017-02-22 09:24:13,TomWan,feat: suite,False
+3bfca2a8f66e91d6cf136ad4444fb012aa9a8f3a,2017-02-22 09:11:45,TomWan,"Merge pull request #16 from enkows/patch-1
+
+修改排版",True
+e0bffc81efd4de42e6a4030eaa576b359627d961,2017-02-22 09:04:30,Enkows Zhang,按首字母 a-z 排序,False
+f55dfbfd19a564c3483ae6ba86f72c9b288f846c,2017-02-22 08:59:51,Sing Liu,"Add ""resolved"", ""JAVA"",""async""",False
+0c748f199fe400aae95ce31eba72ea4952086ad5,2017-02-22 08:50:50,Enkows Zhang,修改排版,False
+773745f605047802d55de21e17317f10b1a04290,2017-02-22 08:27:09,TomWan,feat: app digest typical access,False
+a4d30c03201b0a9b7f987d7dde974a228f72032b,2017-02-22 08:14:25,TomWan,"Merge pull request #14 from hongweiyi/patch-1
+
+Add Maven",True
+5c0690b85b3e7901ea0e84f6126e9db1344168fb,2017-02-22 08:08:28,Hongwei Yi,"Add Maven
+
+Signed-off-by: hongwei yi hongweiyi@hotmail.com",False
+0893139887a9f3ce6e130979b54433021454de28,2017-02-22 07:50:38,TomWan,"Merge pull request #11 from Ginhing/patch-1
+
+added module.",True
+94214ca336297fbb051d57367476455dc271f0ac,2017-02-22 07:43:55,Ginhing,youdao dict instead,False
+317da7431b5e5e10388589b5c67f865d605ddebb,2017-02-22 07:21:37,Ginhing,Update README.md,False
+6c8b4ea37d4eda40630e9cd78ef684ae484979dc,2017-02-22 06:40:37,TomWan,"Merge pull request #8 from wuyuanwei/fix-case
+
+Fix case mistakes",True
+b951f2ea4828b4ea7efe11341abddf4e0941315c,2017-02-22 06:32:30,元炜,Fix case mistakes,False
+840a4f1e3a9b6c49d060b573f793c7e86e32afe1,2017-02-21 23:03:44,TomWan,feat(use youdao voice):,False
+41df3e23d532229e776f27e14dfebfa003510e2c,2017-02-21 22:54:35,TomWan,feat: ajax & archive,False
+bb96e767c8fee2541257332442345c5f9a2dedd8,2017-02-21 22:38:15,TomWan,style: add icons,False
+fe90eed1a39a71d264be46b5a398bcef97b3af01,2017-02-21 22:31:54,TomWan,fix: style,False
+41e46d5270ce053c6395482f69a4120ad086df9b,2017-02-21 22:31:01,TomWan,fix: icon,False
+a321a7fa30d7d976d25cc57b99014856b64f8b6c,2017-02-21 22:27:25,TomWan,fix: icon,False
+8144c937c8d095c963693cb806bdaf7a19fea280,2017-02-21 22:25:32,TomWan,Update README.md,False
+2f75ddce24847b4486e57a56335be8337fb4ca38,2017-02-21 22:23:02,TomWan,Update README.md,False
+f6680cc316501878ce5c637f4067283c0cc20734,2017-02-21 22:21:54,TomWan,Update README.md,False
+792743dd0d64f8ae098fb44798fb0f1efbab1bc3,2017-02-21 22:19:04,TomWan,Update README.md,False
+398562efe9d1e7ad39d994523a8b0a8ab82d1d29,2017-02-21 22:07:28,TomWan,"Merge pull request #7 from soffchen/patch-1
+
+Add links to Merriam-Webster pronunciation page",True
+c40b5b5eec560f000aa916165200a1c143b1489d,2017-02-21 21:46:59,Soff,"Add links to Merriam-Webster pronunciation page
+
+Sounds good :)",False
+7d1d2f02e0467321a137ff77ace8b61f93d2463e,2017-02-21 16:04:54,TomWan,fix: sudo,False
+0565ade17333199d2037e32bc142b016b9f21b63,2017-02-21 15:44:35,TomWan,feat: add sudo & margin,False
+4ac0ad8113bdedf4d57a3a9c8e4010f8de3cad6c,2017-02-21 13:29:07,TomWan,feat: add safari,False
+ee1bc0078e07664dd7df8d30da2eb34f9719037c,2017-02-21 13:25:30,TomWan,fix: remove mobile,False
+dde011c0f8ef792d37ae46b65c3326c005647e7b,2017-02-21 13:24:51,TomWan,"feat: add git, main, remove mobile",False
+0693be3abe9ca953600fa20514ef832b2f9677d4,2017-02-21 12:50:51,瞿祥轩,"Merge pull request #2 from Dafrok/patch-1
+
+添加易错词 `issue`",True
+b81389b15c20278e2e1b947438d626cdfac83e5f,2017-02-21 12:29:31,Zihua 子骅,"Merge pull request #3 from Dafrok/patch-2
+
+添加一个换行符",True
+10c18e1230d558c6bc434a52d0e66585251285cc,2017-02-21 12:13:23,马金花儿,添加一个换行符,False
+813408a56d20fc88d9d41026e184ff6621fe6c09,2017-02-21 11:59:54,马金花儿,Update README.md,False
+b839cee0bba24062ed7eb9081e72951da692610c,2017-02-15 15:11:03,TomWan,feat: add words,False
+5b29c68c24b97ba185cb82b4760ba89068b33b3b,2017-02-15 14:50:38,TomWan,Update README.md,False
+ff707fe9b9d29f8e4b2a41ffc26b0d420e458511,2017-02-15 14:32:40,TomWan,Initial commit,False

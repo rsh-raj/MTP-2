@@ -1,0 +1,1002 @@
+Hash,Date,Author,Message,IsMerge
+239468e9bc4ce1f0143722f312eb2487cac846ea,2024-09-17 11:46:29,Matthias Benkort,"Merge pull request #650 from ferllop/master
+
+Rename .nvm to .nvmrc, add explanations about its use in readme and reference to it in ch04 and exercises/readme",True
+b1c51123ada692d6d5fd1044b31ad9e4e4dad631,2024-09-06 16:08:45,Ferran Llop,Update softprops/action-gh-release to avoid warning about using deprecated nodejs version,False
+51796e2af06262816d426c791b1ee297e2774e2a,2024-09-06 16:02:51,Ferran Llop,"Add advice about the recommended nodejs version of the project and a short explanation about nvm on main readme, chapter 4 and exercises readme",False
+90cb8acf8e5e3626eae00a91a60503f02e7c75b1,2024-09-06 00:00:49,Ferran Llop,"Update deprecated versions of actions/upload-artifact, actions/setup-node and actions/checkout to v4",False
+71bbe080fec19b58dd688cd82ce498a3f545dcb0,2024-09-05 20:52:37,Ferran Llop,Rename .nvm file to the default name .nvmrc so its automatically found by nvm command,False
+a798f30608f741ea857578a377a1144ed49be13f,2023-12-08 16:07:50,KtorZ,"Revert ""Ch06: Fix link to script source""
+
+This reverts commit 5fc8cc2fed143bef1992563a4a5510c95fdb1288.",False
+4cae91228bd0fb9f38f0eb359d5c2108d8519a73,2023-12-08 16:07:45,KtorZ,Fix organisation in package.json.,False
+6d859cceebd83be562259088ef59dee0c11bb6e5,2023-12-08 15:57:48,KtorZ,Merge remote-tracking branch 'NANASHI0X74/fix-ch09-IO-join',True
+e5aa3155fc7d243778ad32fc5facb994703851fb,2023-12-08 15:52:43,Matthias Benkort,"Merge pull request #645 from ferllop/master
+
+Update build workflow to run properly",True
+b0b9d827a4462263436b7acd43007e352cd791c5,2023-12-07 16:27:52,Ferran Llop,Fix missing bracket,False
+fe1d9908c7473eb31ed73e53de55ef8c63cf3d0e,2023-12-07 16:24:30,Ferran Llop,Fully qualify dependency because it was causing npm install to freeze on build workflow,False
+04436621349f96603ef292896602e8267f5eedbe,2023-12-07 16:10:53,Ferran Llop,Generate summary on workflow,False
+d71c604b2274c0d5ee8c279ea1ccd3129b50e4c4,2023-12-07 15:17:41,Ferran Llop,Update Summary to have chapter 13,False
+70728db99f9b4b773064679fec03d7e769c0a77a,2023-12-07 15:15:57,Ferran Llop,Use variable for filename,False
+d3013ce27853bb30ad1df4dc66e30f5e51edd735,2023-12-07 15:15:24,Ferran Llop,Use actual recommended syntaxis,False
+fb35f05cad666ca796b2c2d008e5129e74657441,2023-12-07 15:14:13,Ferran Llop,Increae version because now ubuntu:18.04 is unavailable on github workflows,False
+7f07b7e3f1a44ccf262f1febe67ec6f419d5ece6,2023-12-07 15:07:58,Ferran Llop,Change include-codeblock version to match the version installed as specified in package.json,False
+8a23c7d6b68030801c72192e0b46f709e9b602a4,2023-12-06 15:09:35,Matthias Benkort,"Merge pull request #632 from anikeef/fix-5th-chapter-exercise
+
+Add missing argument in 5th chapter exercise",True
+bb5188c9af69fd0c2b3716aa54e26b314125b5e5,2023-12-06 15:06:41,Matthias Benkort,"Merge pull request #644 from timciep/patch-1
+
+Ch06: Fix link to script source",True
+5fc8cc2fed143bef1992563a4a5510c95fdb1288,2023-12-06 02:48:28,Tim Cieplowski,"Ch06: Fix link to script source
+
+Fix link to script source, which was not working on the GitBook site, by using the absolute GitHub URL.",False
+ead82ebe77ea10b7004b8da55e1463df323459ea,2022-01-12 21:01:09,Anikeev Gennadiy,Minor fix in 5th chapter exercise,False
+155e92b295dfd00133cab276cc1ba95c9a02bc30,2021-12-28 18:24:51,Dan Burton,Update ch9.md with correct IO join per #264,False
+c5844c21305358e78f9c2b774e7e5839f9bbf395,2021-08-18 12:36:05,Matthias Benkort,"Merge pull request #627 from suside/master
+
+Publish artifacts as release files",True
+ca7a42b6082aa96dfeea51732b18cae14f096d8a,2021-08-17 19:40:16,Maciej Filipiak,"Publish artifacts as release files, fix #626",False
+e9e3e5d58197e869ca3c2c057c57afc23bdf45cd,2021-05-01 20:53:12,KtorZ,Point README to Github workflow with pre-generated PDF and EPUB,False
+2115c77e89157aab20192ffffae8595c714ba60a,2021-05-01 20:38:02,KtorZ,configure github workflow to automatically build pdf & epub,False
+656db9b19f3b283f0cfdb1fc194795a4f6ac6c37,2021-05-01 19:44:10,KtorZ,Pin node version through .nvm dotfile.,False
+3f6f6abc4ce717e7eba785ecfcd6aeae585648d3,2021-05-01 19:16:51,Matthias Benkort,"Merge pull request #611 from jacobpmeyer/update-ebook-convert-link
+
+Update Link To Install Ebook Convert",True
+177646dcaff2eec161aa9916a49f0ebfe3cfb462,2021-03-09 00:37:35,Jacob Meyer,Update link,False
+822af0ce4a15b64ea6470f6dee02cf6fffd39793,2021-02-19 13:36:29,Matthias Benkort,"Merge pull request #601 from dotnetCarpenter/fix_ch11
+
+fixed Isomorphic JavaScript example",True
+145f1214c25c54768ef5497c212308adada2a4bf,2021-02-19 00:52:43,dotnetCarpenter,restore white-space characters,False
+edc85cd3929c837781789d08dded43ad4e97b3d0,2021-02-16 23:40:59,dotnetCarpenter,"fixed Isomorphic JavaScript example
+
+Also removed trailing white-space characters.",False
+2936a2708c91502b88c1410c976f09ec5b3d0ac3,2021-02-08 15:52:45,Matthias Benkort,"Merge pull request #598 from etmoore/swap-append-welcome-with-concat
+
+Swap append with concat in user welcome exercise (ch 8)",True
+cc5b577b9f68d9faa72ab351ee61f2480db4ad7c,2021-02-08 15:51:23,Matthias Benkort,"Merge pull request #599 from etmoore/change-upload-param-from-string-to-filename
+
+Change `upload` param from String to Filename in ch 9",True
+9bf6c782c833763ac47b7ea1b8591b95858534a9,2021-02-07 17:32:14,Evan Moore,Change upload String param to Filename,False
+7d7f5baaa3226dfd52eeaf1a29b8ffdca67f70b0,2021-02-07 01:15:53,Evan Moore,Swap append with concat in user welcome exercise,False
+aff5bfd4794e5e4468ae0bf34023d2be63e3ca84,2021-01-20 13:25:53,Matthias Benkort,"Merge pull request #594 from phthhieu/patch-1
+
+Update ch04.md",True
+d93db2dab211d2e47a825615a85a66612335aa5d,2021-01-20 06:21:58,Hieu Pham,"Update ch04.md
+
+Update with the latest exercise structure.",False
+d1d831da0564e92536affc4c9677e3e6ac512041,2021-01-18 14:12:56,Matthias Benkort,"Merge pull request #566 from purefun/fix
+
+fix: return traverse of Right in appendix",True
+88fc015288f6674eed785d1a0f22d36b0829dcc7,2020-04-24 11:18:20,Nil Lin,fix: return traverse of Right in appendix,False
+356da9d3c46cee3d66b2ac3b015765a09879cf0b,2020-04-14 13:25:41,Matthias Benkort,"Merge pull request #560 from jonrcrowell/master
+
+Fix typo",True
+34b3debff16404aabc4fcb53fa801568d463316a,2020-04-10 03:46:54,Jon Crowell,Fix typo,False
+0cdb40ccbafaad272131310d1f834a1e2c146b03,2020-03-23 14:01:12,Matthias Benkort,"Merge pull request #557 from yilmazgunalp/Ch13
+
+fix typo",True
+0a75494069826eb310562b587f0dcc1839e57d1b,2020-03-23 14:00:45,Matthias Benkort,"Merge pull request #559 from Croccifixio/ch12-patch-1
+
+Fix firstWords composition",True
+f072015b8aa593f204ef1f3ab89f2b05bd9fb6cb,2020-03-23 04:46:45,Emmanuel Odongo,Fix firstWords composition,False
+201c98f28ed52be8ac876cce0cc6a4bfa0c6d58a,2020-03-10 15:10:36,yilmazgunalp,fix typo,False
+9af13e527b11a663ac44590b7ce84570b411cd38,2020-03-09 06:46:40,Brian Lonsdorf,"Merge pull request #378 from MostlyAdequate/ch13.md
+
+Monoids",True
+c7ee8e6c28682d7b6b5206353b3b948e246ebbf4,2020-03-09 06:37:42,Brian Lonsdorf,Update ch11.md,False
+e03775c4bf8a121db218793af9820629e50ed342,2020-01-03 16:59:07,Matthias Benkort,"Merge pull request #549 from bouzlibop/patch-1
+
+Fix compose type signature",True
+93e3ea7f71da85e99fcd15424d51ec01ce621221,2020-01-03 16:52:39,Matthias Benkort,"Merge pull request #547 from ullasholla/patch-1
+
+ch03.md: update ringer to wringer",True
+09c0677a232d649efd4ce5007010057283467f72,2020-01-03 16:51:37,Matthias Benkort,"Merge pull request #540 from andyfleming/patch-1
+
+Ch05: Updates reverse example to use newer array syntax",True
+94dcfef51a888d62fa812904465d898c6fba44a7,2020-01-03 16:49:32,Matthias Benkort,"Merge pull request #536 from jameschao/minor-typo
+
+Fix minor typo with comma",True
+efe23be2ee4bd5eb81a3c7ea6530395ee9a68966,2020-01-03 16:48:51,Matthias Benkort,"Merge pull request #534 from hasparus/patch-1
+
+Fix a typo in A Spot of Theory example",True
+d878e53e111baa70bd467236ad4c0a0a49b4bbb1,2020-01-03 16:47:40,Matthias Benkort,"Merge pull request #533 from guilhermedeandrade/patch-2
+
+fix: use concat instead of append",True
+a3c044d2789a376023420f2c0f63806ac4d13b95,2020-01-03 16:46:13,Matthias Benkort,"Merge pull request #532 from bma3131/ch08
+
+ch08.md example fix",True
+3802257447e04efb8aafb91c538765b02a832d25,2020-01-03 16:36:02,KtorZ,remove now deprecated hint,False
+ffc59c7e655a405a95fd51d69f9d58c6ffce1c89,2020-01-03 16:31:31,Matthias Benkort,"Merge pull request #528 from monkpit/master
+
+Typo: ringer -> wringer",True
+ba497e3fc0b7e4d649475f1060cb7761ec7c2f7f,2020-01-03 16:30:58,Matthias Benkort,"Merge pull request #515 from shaharke/fix_pure_log
+
+Fix pureLog in support.js to match the implemenation in the book",True
+10b3e6af8a7e6323f82e0cc7dbd9ccae11480876,2019-12-28 14:49:24,Adrian Baran,Fix compose type signature,False
+63a8eb3bcabfb647e63924cd0a5d05b0c3d4e94c,2019-12-19 03:47:08,Ullas Holla,"ch03.md: update ringer to wringer
+
+The correct turn of phrase is `""put X through the wringer""` - https://grammarist.com/usage/put-though-the-wringer-vs-put-through-the-ringer/",False
+9ff2fffff8036549504dc9b054a3863632714289,2019-12-12 01:59:18,Matthias Benkort,"Merge pull request #546 from Abekonge/patch-1
+
+Added missing link to append",True
+608e68b0944a00bf2df37d6d70ee9cd555b0d3fb,2019-12-11 23:40:25,David Walther Birk Lauridsen,Added missing link to append,False
+e7fab877ddc0ea1c691a651b990334f346ff6332,2019-11-08 16:13:38,Matthias Benkort,"Merge pull request #541 from braxtonchristensen/fix/ch05/hint-for-exercise-3
+
+fix(ch05): hint change",True
+3ae61c4ad5dbd1d1185145034c74b7676e47bd84,2019-11-08 08:31:54,Braxton M. Christensen,"fix(ch05): hint change
+
+- replace `flip` with `append`",False
+e9701595cb6091f1b1da6a6b628c0f83c5ea3e68,2019-11-03 20:39:18,Brian Lonsdorf,"Merge pull request #538 from valued-company/master
+
+Ch08: fix findParam to make usage of Maybe reasonable",True
+f84bf25c3816f03fe9085b0d42b312741ce43e53,2019-10-04 23:13:53,Andy Fleming,Updates reverse example to use newer array syntax,False
+19a3177f8ee33baff759b0dca90e362ce16ac7df,2019-09-09 11:17:30,VladimirLogachev,fix findParam to make usage of Maybe reasonable,False
+0cb1ac13271eb4a508be9c4bc53a2335fb8ad6ad,2019-08-14 04:22:48,James Chao,Fix minor typo with comma,False
+6c7552baeab73d7aedee12f19a55569273358681,2019-08-03 14:36:19,Matthias Benkort,"Merge pull request #508 from valued-company/fix-ch07
+
+Fix ch07",True
+a277ee5df639b345a8fae127a7e4c9c74cb1919e,2019-08-02 20:57:09,Piotr Monwid-Olechnowicz,"Fix typo in A Spot of Theory example
+
+Words in the example are appended, not prepended.
+
+https://codesandbox.io/embed/confident-oskar-i4pmi",False
+4f9ac377e66b94d6fdfc4098753cc652282dd821,2019-07-30 22:02:53,Guilherme de Andrade,"fix: use concat instead of append
+
+At line 315, the `fortune` function was defined using `append`, which is not compatible with the expected behavior.
+This PR suggests the usage of `concat` instead of `append`, so the output of the `fortune` function would be the expected one.",False
+ef01fc768ea08075763bb56fbe26b84d4394fc5a,2019-07-21 13:30:07,Mikhail Bulavkin,ch08.md example fix,False
+0104ae63b9eef297eeef9c1bcde0ceca28971e19,2019-07-02 01:01:27,Kyle Pittman,Merge branch 'master' into master,True
+d9e6b9c88e0ea49e94630cb9d9417a7a281ae02f,2019-07-02 01:00:03,Kyle Pittman,Fix link to pdf,False
+84ff67d9a983a08f033de3a3b5e2190dcac39d1e,2019-07-02 00:58:07,Kyle Pittman,"ringer -> wringer
+
+The expression is ""through the wringer"" - https://grammarist.com/usage/put-though-the-wringer-vs-put-through-the-ringer/",False
+d4d8fed7ca2d055c024eb87bce5dc3e720f7ba00,2019-06-27 16:02:01,Pearce Merritt,"reword discussion of how pure functions preserve referential transparency (#523)
+
+* reword discussion of how pure functions preserve referential transparency
+
+* typo: bevhavior --> behavior",False
+b25389e627d4910fa06da4c0055013b7e9393fd4,2019-06-26 12:54:51,KtorZ,bump support version to 2.0.1,False
+8ad164817b78ed9a4b2b42d074f8e5229e20fa76,2019-06-26 12:50:09,KtorZ,Merge commit '3820d77d06073e3237d819986989a0781ab8105b',True
+3820d77d06073e3237d819986989a0781ab8105b,2019-06-26 12:49:54,KtorZ,add missing 'return' statement for 'sequence' in Maybe structure,False
+1d1f548dfde0f35b256816f1c23d4d472b1c055d,2019-06-26 12:48:48,Gunnar,"Maybe.sequence missing return
+
+Traversable Maybe missing return in class method sequence",False
+044eaadb6761537c1fd1371e9e402f4f5cccbcb1,2019-06-26 12:46:46,Matthias Benkort,"Merge pull request #527 from bhainesva/master
+
+ch09: update markdown to reflect implementation",True
+ebb4ed855a58076ca50ab0d169f4df14e10336c6,2019-06-26 02:04:43,Ben Haines,ch09: update markdown to reflect implementation,False
+29d8d823576fef2b1f6d9db22f60e41aa3d043f6,2019-05-24 13:21:29,KtorZ,remove package-lock.json files,False
+5b5406a11865b72e3784ccbea4ca9d6dba3fcae7,2019-05-24 13:19:33,KtorZ,fix security vulnerability in dependencies,False
+1c65a735a99cb66be6f502a6dd3dff0f66160490,2019-05-24 13:11:11,KtorZ,bump version to 2.0.0,False
+02740f4199bdf8b1d4b448c26bf0ccc432d9fdce,2019-05-24 13:11:11,KtorZ,fix order of exports in support/index.js,False
+77f8a946aa12c31dcc3d68ed6c98c3f112b54d50,2019-05-24 13:09:01,Matthias Benkort,"Merge pull request #521 from WBad/patch-1
+
+Fix Hindley-Milner Comment",True
+7d6a45244e8b7dd75084a2f4293b310bd03bce3d,2019-05-24 13:01:11,Matthias Benkort,"Merge pull request #517 from FernandoBasso/ch05-replace-join-intercalate
+
+ch05: replace join with intercalate",True
+a230e6ec8ad1e8df566e39bf1d14ce028a606455,2019-05-24 13:00:21,Matthias Benkort,"Merge pull request #514 from BebeSparkelSparkel/master
+
+Update ch07.md",True
+29a94ce0c8ca50dcb5e2f86ec64608726b58d9cb,2019-05-24 12:59:45,Matthias Benkort,"Merge pull request #509 from alaarmann/ch9-mixing-metaphors-log
+
+Ch09: fix example log function in section Mixing Metaphors",True
+5ceed695776eb4814a2f7fbe20e478d9bfb69970,2019-05-24 12:46:01,Matthias Benkort,"Merge pull request #505 from cdimitroulas/improve-ch09-code-formatting
+
+Improve formatting of nested chain calls in Chapter 09",True
+33efb2704d21e244bd747755dd4b32f70a609ea9,2019-05-24 12:41:17,KtorZ,Merge remote-tracking branch 'eush77/ch12-exercises',True
+5a464d1f7b80ad2cd3cb1175dcc2fff78dea220c,2019-05-24 12:35:33,KtorZ,fix 'getFile' definition in exercise_b ch09 -> IO (),False
+8e2615f5dc789a852098b305cf74864931f0b755,2019-05-24 12:18:05,KtorZ,adjust 'nothing' in other places,False
+4c7c1b6a43b4b7fd687bd32e9d7e728f5762ba33,2019-05-24 12:15:56,KtorZ,Merge remote-tracking branch 'eush77/nothing',True
+83ae24f392d1f5727268e199d3867fa0d902da47,2019-05-22 16:46:01,WBad,"Fix Hindley-Milner Comment
+
+The code just blow the example differs from the documented output see below.
+
+// -- Impure calling code ----------------------------------------------
+
+// run it by calling $value()!
+findParam('searchTerm').$value();
+// Just([['searchTerm', 'wafflehouse']])",False
+e43a4720ac85420debbdc7204de727be63a27035,2019-05-06 02:18:02,KtorZ,move support module into its own directory,False
+56fcd5f87586d5d664036cc4290d46be5a412071,2019-05-06 02:18:02,KtorZ,update styleguide violations in appendixes & index,False
+013e46442299318893f9a91147d317c48bd2e686,2019-05-06 02:18:02,KtorZ,re-generate index.js & fix 'inspect' warning,False
+2610a5b5a92ad41207453381a8b9f34b3eb919f6,2019-05-06 02:17:49,Matthias Benkort,"Merge pull request #493 from atombrenner/prevent-custom-inspect-deprecation-warning
+
+Fix nodejs deprecation warnings",True
+fe07b10ce432e41cc6f87005a6a350d5eda9c906,2019-04-15 15:08:33,Fernando Basso,"ch05: replace join with intercalate
+
+Related to #484",False
+a9711b24d54e78d889ec14581a41d1e9c96a64a2,2019-04-13 20:04:54,shaharke,[PR-FIX] Return str so that tests would pass,False
+a2e2605e27ba391570202404af43643a341098d7,2019-04-04 16:31:20,shaharke,"Fix pureLog in support.js to match the implemenation in the book
+
+Specifically the implentation in support.js does not write the string to the console",False
+99c8a6eecfb312d2631ebcd362d4e49bb26297ff,2019-03-22 02:03:02,William Rusnack,"Update ch07.md
+
+switched hoogle links",False
+d2ce82e8df6c3012b16b8d882fd6fe0b2d862511,2019-03-12 18:48:32,Alexander Laarmann,"Ch09: fix example log function section Mixing Metaphors, just relevant line",False
+78661c6b2968b21400b4fbf7716526053fef66cb,2019-03-12 18:42:41,Alexander Laarmann,"Revert ""Ch09: fix example log function section Mixing Metaphors""
+
+This reverts commit 2a663dc0541580bbfe1cd9bc62dc02451d1cb60b.",False
+2a663dc0541580bbfe1cd9bc62dc02451d1cb60b,2019-03-12 05:04:37,Alexander Laarmann,Ch09: fix example log function section Mixing Metaphors,False
+168c1de8da5675cc90bf8855a4fac233909f0e78,2019-03-08 23:39:08,VladimirLogachev,"fix reduce signature
+
+can't give `Array.proto.reduce` a curried function. The type states that it's an array, and the implementation uses its prototype, not some custom iterating function.
+remove Promise.then type signature
+
+// then :: (a -> b) -> Promise a -> Promise b
+// then :: (a -> Promise b) -> Promise a -> Promise b
+
+`Promise`'s `.then` method is not parametrically polymorphic.
+
+You can't compile such function in haskell, it leads to an attempt to create an infinite type
+actually fix reduce type signature
+
+
+remove whitespace",False
+935cec897b3f093d7e51af5a678d633f99982205,2019-02-25 19:20:51,Christos Dimitroulas,improve formatting of nested chain calls,False
+0a1cd12a1e47774519c968a86160d441eb7b97b9,2019-02-19 16:22:31,Matthias Benkort,"Merge pull request #499 from eush77/ch9-power-trip-uploads-2019
+
+ch9: fix HTTP upload examples",True
+696540a3585918f238afda2785934dfe34ec36ba,2019-02-19 11:45:57,Eugene Sharygin,ch9: fix examples in Power Trip section,False
+8160ae518eb27366ed86af9507ae2dd672bfd532,2019-02-19 11:35:43,Eugene Sharygin,"ch12: fix exercises
+
+This fixes type signatures in exercises, and also the definition of
+function `startGame`.",False
+c0870ebef662517b84218731ea9a1ed2b9879221,2019-02-18 23:53:12,Eugene Sharygin,"Make nothing :: Maybe a, remove extra parameter
+
+`nothing` is only used in one place, and as a function it was called
+incorrectly before: `nothing()` instead of `nothing(undefined)`.
+
+This commit fixes that by removing the extra layer of function wrapping
+entirely, and making `nothing` a constant of type `Maybe a`. This is to
+avoid the more verbose alternative - adding the `undefined` argument.",False
+1e5e2569bccf9d1a8060ae1d63d02bb0bfa81b9c,2019-02-18 14:06:17,Matthias Benkort,"Merge pull request #501 from eush77/ch12-getcontrolnode
+
+ch12: fix type signature of getControlNode",True
+d76268ed9b38e23d92c77d4fc7329c74e38c7c76,2019-02-18 13:59:52,Matthias Benkort,"Merge pull request #495 from emily-li/master
+
+Ch12 exercise comment typo",True
+bc15e603f9978d43fd26ef01e13c8958c8252ff0,2019-02-18 13:59:21,Matthias Benkort,"Merge pull request #494 from mashabow/patch-1
+
+Fix typo in Chapter 09",True
+fef48d39a5eb6e44a98445b7ebdeea08f2339d9e,2019-02-18 13:58:36,Matthias Benkort,"Merge pull request #482 from eevman/master
+
+Ch08: Replace `concat` with `append` in one example.",True
+532e9063be62b2674e294badfd3f536fa4f488a7,2019-02-18 13:55:58,Matthias Benkort,"Merge pull request #498 from lcrespom/patch-1
+
+Changed verb tense",True
+c7dce3414aa3d67490602d6849f4ac5b8f862fe9,2019-02-15 11:49:24,Eugene Sharygin,"ch12: fix type signature of getControlNode
+
+The function `getControlNode` is defined by composition, so it must have
+a function type. This adds a missing parameter to its type signature.",False
+cfcc87ef06ce5ecfba6e186aeaf8a8a8ba21d4b2,2019-01-02 21:51:12,Luis Crespo,"Changed verb tense
+
+Changed ""but *has* a..."" into ""but *having* a..."" to remove tense mismatch.
+
+(I am suggesting improvements as I read the book)",False
+6a24b8030adeeb35c9aea7d4b540adac3589cf1e,2019-01-02 21:29:10,Matthias Benkort,"Merge pull request #497 from lcrespom/patch-1
+
+Fixed typo: simplied => simplified",True
+9f689bfc5bdb0df688c6575d31e2e030ac063df9,2019-01-02 20:38:59,Luis Crespo,Fixed typo: simplied => simplified,False
+cef7716a32398d7b5de7a0d26e122e544347577e,2019-01-02 20:14:39,Matthias Benkort,"Merge pull request #496 from valued-company/fix/update-links
+
+update links",True
+d33c6aa49f59d98432c7a580304d28e6585ed9e1,2019-01-02 14:49:11,Vladimir Logachev,"update links
+
+* follow redirects
+* use new chapter names, also in exercises
+* refer to new (and consistently same) folktale website",False
+dceacc9000beebe397661e9794f7d08ef622acb3,2018-12-29 22:17:20,Emily Li,"Fixing minor typo in comment
+
+Changing getRoutes to getJsons to reflect function name in use. Makes it the same as the function name in the comment in the solution.",False
+a773bfd3ab843a0b00b7ca879698de2ea91d1dbe,2018-12-29 22:15:06,Emily Li,"Fixing minor typo in comment
+
+Correcting function name in comment from getRoutes to getJsons",False
+f13ced17c1e0b4809b89281733f9f0be2c78cdce,2018-12-20 17:51:40,Masaya Nakamura,Fix typo in Chapter 09,False
+ce72b046e497aef52ce49d47a3e23c949e4fab1d,2018-12-16 20:07:10,Christian Rodemeyer,"alias the inspect method of classes with nodejs custom inspect symbol
+
+to prevent nodejs deprecation warnings",False
+736984fdef3534d747b4e380518b6ee9b67ba059,2018-12-02 01:22:30,KtorZ,Fix lint errors in support & add 'append' to exposed functions,False
+829844b30f5eb41ade011607e39a65434be4c0db,2018-12-02 01:18:25,KtorZ,"Bump package.json to 1.1.0
+
+- Added 'append' function
+- Fixed implementation of IO",False
+15f8af5ab2339d341a542cf4c29b78d8abc60382,2018-12-02 01:17:44,KtorZ,Fix #264,False
+45f716078748283f580e7348def467a7b27e17c5,2018-12-02 01:12:00,KtorZ,Fix #479,False
+5edff7fbf6e3b21c11c27cb4863b560a3c4c5553,2018-12-02 00:58:38,KtorZ,Fix #484,False
+46379c145e6e427d97a34a414daf1cb40084f3c2,2018-12-02 00:53:31,KtorZ,resolve npm security audit fixes,False
+f7e4c4d8920d365e04f6cb5046a8e8196d9f55d4,2018-12-02 00:46:27,KtorZ,Add a few words about the exercises and the npm module,False
+026c24d54f0d5c8229d42ca5440079a72a98c0ac,2018-12-02 00:35:47,KtorZ,Ignore generate exercises/index.js,False
+9b9131e093570344bd40873e73e912b292cec681,2018-12-02 00:35:33,KtorZ,Fix typo in code excerpt ch08,False
+1f8ad0cf9a12145fb697bb993ea246d122a347f4,2018-12-02 00:29:02,KtorZ,Remove exercises/index.js -> only generate it for publishing,False
+2ec3ec773087f8d36c8afe402ad561ae8da736b8,2018-12-02 00:27:36,KtorZ,Merge branch 'KtorZ/re-organize-exercises',True
+ebe7adde2cec1840891ec661227cbe5059538f53,2018-12-02 00:25:17,KtorZ,Add script to aggregate and export appendix as one node.js module,False
+10e65cffe890ce672240d45af4f7c411b6baaae3,2018-12-01 23:55:07,Matthias Benkort,"Merge pull request #485 from DigitalFlow/master
+
+Removed comment on missing of class construct",True
+356121559d1c723d59ffc6661351adf155796e90,2018-12-01 23:52:00,Matthias Benkort,"Merge pull request #489 from brneto/patch-1
+
+Fix requirejs usage example",True
+1e57888d1dc5e7172f75a666c2e41aea8951dcd3,2018-12-01 23:51:37,Matthias Benkort,"Merge pull request #491 from ptrfrncsmrph/patch-16
+
+Typos",True
+7527e76f4b454245f89f2530919efe1b9aa2b38f,2018-11-12 23:20:33,Peter Murphy,Typos,False
+b14dc4ca9476c4727763c80fcef1228bf1543b0f,2018-11-06 03:43:13,Berchris Requiao,Fix requirejs usage example,False
+e622ed86979fb8707aa79f5e726c632c6ad0ca0f,2018-10-30 21:46:20,Brian Lonsdorf,"Merge pull request #486 from samuelpath/patch-1
+
+Introduce the signature syntax ""f x"" in ch7",True
+cba6204872cd5a2f7015a5d3293dbf177d645429,2018-10-30 20:35:44,Samuel Path,Put the part about Promises in the Constraints,False
+93492d6ddd546d46af563b8f0785613cc3ed7986,2018-10-29 22:02:09,Samuel Path,"Introduce the signature syntax ""f x"" in ch7
+
+See the following Twitter thread: https://twitter.com/drboolean/status/1056943736918167557
+
+The signature syntax ""f x"" for ""functor holding x"" is used in chapter 8 without explanation.
+We add it here and generalize it to other objects with which the reader is already familiar (like Promises or Arrays), so that when they encounter ""f x"" in ch8, it directly makes sense to them.",False
+1c09962d15b82a2b6042dfb17b1b8d9fb4ce07c6,2018-10-27 03:33:44,Florian Krönert,Removed comment on missing of class construct,False
+066de53a8ccf39d2be61525615039132e720e740,2018-10-17 13:46:54,Matthias Benkort,"Merge pull request #483 from alessioscalici/typo-in-chapter-12
+
+Typo in Chapter 12",True
+b24a89a9710cfcd6c024ba690c5d3084ad17db5e,2018-10-17 13:25:38,Alessio Scalici,Typo in Chapter 12,False
+046cf624faf0349561b4c5f480d6ad53ac331cb8,2018-10-15 00:13:36,Matthias Benkort,"Merge pull request #471 from tabatkins/patch-1
+
+Chapters 8-12 exist now",True
+d1ec41a3f640e232634ec1d657270eb3147643af,2018-10-13 17:34:13,eevman,"Ch08: Replace `concat` with `append` in one example.
+
+Fixes issue #479.",False
+65a863148b4a9fd0f367a045593de070597bb2d8,2018-10-01 13:12:33,Matthias Benkort,"Merge pull request #473 from eevman/master
+
+Appendix c: Fixed type signature for `flip` function",True
+c4c8b9d93cdee4df695ad123bb340da05297e27a,2018-09-30 23:01:31,eevman,"Appendix c: Fixed type signature for `flip` function
+
+Closes issue #472.",False
+cd1a61140336d8449a908540540e8621ff1f4c58,2018-09-17 23:17:30,Tab Atkins Jr,"Chapters 8-12 exist now
+
+I assume that Chapter 13, about monoids, will be the last chapter in your ""basic typeclasses"" part.
+
+Also corrected tense of the sentence, now that 8-12 *do* exist. ^_^",False
+860eb4d8b995a5c9a278dc2ca6b590e72de62aa1,2018-07-26 19:42:00,Matthias Benkort,"Merge pull request #462 from sAs59/ch8/fix/461
+
+Fix #461",True
+c1a0e9ce520412e5c011d15a1d42be73134115af,2018-07-26 19:34:44,Akmurat Saktagan,"Update ch08.md
+
+sortBy('date') => sortBy(prop('date'))",False
+4cc558cbcd728e798d682d98b7a2b68228953048,2018-07-24 19:59:43,Matthias Benkort,"Merge pull request #457 from kottkrig/master
+
+Add npm scripts to generate epub and pdf",True
+5f2f92347cca1e2edffff59191ddd64c471099ce,2018-06-27 15:21:08,Johan Larsson,Update readme with a note about additional requirements to build the ebook,False
+757d06569e92ef06f9dfcf648cbb5fd751cfee8d,2018-06-27 13:40:46,Johan Larsson,Ignore generated book files,False
+7300e450a8257d46f4018edd33706fdb04bb9ca8,2018-06-27 13:40:17,Johan Larsson,"Add npm scripts to generate pdf and epub
+
+The old example is referencing a globally installed gitbook package which might not be installed on the user’s system. The new npm scripts uses the locally installed gitbook package in `node_modules`.",False
+f4a1c4bbcb2187047025af4665f3f5a3d8408d58,2018-06-27 13:18:58,Matthias Benkort,"Merge pull request #456 from kottkrig/master
+
+Add cover image and title to generated EPUB",True
+3eea763587e52689763d13d660df1a073ed52225,2018-06-27 13:13:22,Johan Larsson,Merge branch 'master' of https://github.com/kottkrig/mostly-adequate-guide,True
+379cff9fe4114287bf544c5d86e79f7be556b557,2018-06-27 13:13:18,Johan Larsson,"Remove cover jpg
+
+The png worked just as well when referenced properly in book.json",False
+0cea97f8524aa2f3e558793c60639fdf9b1c6871,2018-06-27 13:12:48,Johan Larsson,Use ”cover” property in book.json for the cover image,False
+d6f0f173ac9cb49432dd031b1f4cd69ea8e0275b,2018-06-26 18:29:22,Johan Larsson,Move title from README to book.json,False
+671910f015290b41911db2a895ccf32b740fd427,2018-06-26 18:23:11,Johan Larsson,Add title to book.json so that the generated EPUB gets the correct title,False
+5eff75f9ea299becfad4e7c32a134ac9943d472a,2018-06-26 18:11:54,Johan Larsson,"Add title to README
+
+The README title is used to automatically add the correct title to EPUB: https://toolchain.gitbook.com/config.html",False
+ffdea9d931986a92b31f2cde9c77d35e3c401925,2018-06-26 18:08:18,Johan Larsson,"Add cover image to root
+
+Add a `cover.jpg` to project root so that it's included in EPUB: https://github.com/GitbookIO/gitbook/blob/master/docs/ebook.md",False
+57f8e4e6c17e0d8d3ac6fd43f5083441be0eca7e,2018-06-05 17:50:04,Matthias Benkort,"Merge pull request #451 from ryanlaws/FixAppendixTypoPeak
+
+Fix typo (peak -> peek) in appendices A, B, and C",True
+40006aa3e882f09141c07c3d46f39a96ca776897,2018-06-05 17:19:49,Ryan Laws,"Fix typo (peak -> peek) in appendices A, B, and C",False
+d89c9e28305c563b40b4fc013a46181fe2369f63,2018-05-29 13:47:15,Matthias Benkort,"Merge pull request #448 from mastern2k3/patch-1
+
+possible missing parameter in `dbUrl`",True
+da59a3e09983399f966aab1172f0dfde405b35f8,2018-05-29 00:28:40,KtorZ,Make a proper npm module with all the support functions,False
+fc63e4caa73a06718ec31c92d9493e46be203245,2018-05-27 19:30:06,Nitzan Zada,possible missing parameter in `dbUrl`,False
+2c8decedb4f83a5a46e97472b0eaea038bf782f3,2018-05-24 20:00:08,KtorZ,"Introduce variadic _compose_ in ch05 and fallback to simple _compose2_ for reasonning
+
+Close #443
+Close #447",False
+afdc71011646d77423800800dd3ae6e6caf52443,2018-05-24 20:00:08,KtorZ,adjust style of compose & other functions in the appendix,False
+7aa75588ce0cbe1a1854dcb8a1b9905a1ad03b4a,2018-05-24 20:00:08,Akshay Iyer,Remove mutation and use reduceRight,False
+d45c52b5150df1b268768840c9af99ff51399ec5,2018-05-24 18:24:17,Matthias Benkort,"Merge pull request #438 from martindrq/fix/links-ch12
+
+Fix links in ch12",True
+b5636e3d94e6700df1fab89befca44d7216a65fc,2018-05-24 18:22:56,Matthias Benkort,"Merge pull request #439 from cuyl/patch-1
+
+Ch 03 `const` -> `let`",True
+b92c534abab367ef96d23880140fd23ea5c66305,2018-05-24 17:23:10,Matthias Benkort,"Merge pull request #446 from nimish-gupta/master
+
+fix: change the git url in ch04",True
+603875ea0477d873a47dd675e8fce75253f8a0b2,2018-05-23 19:56:47,Brian Lonsdorf,typo,False
+a54cc9324f693cc5f858caaa73ae99582decdf9d,2018-05-23 13:16:56,KtorZ,Merge branch 'explain-travers'. Close #432.,True
+9ddc31b21f65c132f51c31d4d57436be9ee5bee5,2018-05-23 13:16:35,KtorZ,Reword a bit and re-organize the traverse explanation from ch12,False
+b3c7955b3fa3c276c193ddc6ee4ae6eda65932bd,2018-05-17 09:04:46,Nimish,fix: change the git url in ch04,False
+c40792de2bdf40b5fde013f51c1ac74d06169ca0,2018-05-10 08:28:40,YuChao Liang,"Ch 03 `const` -> `let`
+
+`minimum` is a mutable variable not constant",False
+32a391bc585db533e4a22f13ed32d9b3ced55aec,2018-05-08 07:37:30,Martin,fix links,False
+8f5c5a175452eeeaf5c9d8e2b2a2bdc437c3a276,2018-04-17 01:47:30,CeddlyBurge,Clarify javascript syntax,False
+955ed62fe28d22a04c9826d5f4daf136e9ae03d1,2018-04-17 01:29:12,CeddlyBurge,Stick to the variable names from the annexe,False
+7626d8a20dcf786323905c59e7436a89c96177fb,2018-04-12 14:53:21,Matthias Benkort,"Merge pull request #433 from ianrosedev/fix-typo
+
+Changed the text flock_a to flockA to match the code",True
+56ba79c1a3714704e6047b8b3e33bdc850c90bdf,2018-04-12 09:25:32,Ian Rose,Changed the text flock_a to flockA to match the code,False
+2628c19d04c88606b881b665d5d4e88e5dc6242f,2018-04-07 17:54:23,CeddlyBurge,"Replace colons with dots, make casing and inline code formatting consistent",False
+051c0757d663d71c3fac4e18d45c3da8f226891d,2018-04-07 17:51:05,CeddlyBurge,Remove dots and merge text in to titles,False
+355ae1b0f70becf6e2eedf6a896b2f9576e35c03,2018-04-07 17:48:06,CeddlyBurge,Flatten the description of the logical branches,False
+b7e5fff72dafb349c02023c6d02d6402c3035dfc,2018-04-07 00:02:42,CeddlyBurge,Describe implementation details of List.Traverse,False
+1d966763f25e8292c08af79448575227583933f5,2018-04-04 15:01:54,Matthias Benkort,"Merge pull request #430 from harryvederci/patch-4
+
+Change const 'initials2' to 'initials'.",True
+952b277b60a35cdd07d48f233f0d9f2dc56fa0be,2018-04-04 14:50:11,harryvederci,"Change const 'initials2' to 'initials'.
+
+Alternatively, the example could only call initials2 instead of initials (or both initials and initials2).",False
+35de5a8773662630f22ded6ff09049018b8badf2,2018-04-03 20:31:42,Matthias Benkort,"Merge pull request #427 from harryvederci/patch-1
+
+Small styling fix (spacebar).",True
+009f6e68acfa4a274f211ca66ebb9becedf389d3,2018-04-03 20:26:51,harryvederci,"Styling.
+
+Added a space to fix styling.",False
+8637f25cbd94295abc72fba66d794015eb4b54f7,2018-03-28 13:29:34,Matthias Benkort,"Merge pull request #409 from ayeseeem/ayeseeem-clarify-demo-app-selector
+
+Clarify Flickr demo app selector",True
+58ffddeb30e2e6d1219ca198053f3ecc420d2acc,2018-03-28 13:28:58,Matthias Benkort,"Merge pull request #426 from 41semicolon/spelling-variants
+
+Fix spelling-variants on programming language names.",True
+615ec2c746d6a94995ce9dabfd42f1ff2a16da45,2018-03-28 12:07:24,41semicolon,"Fix spelling-variants on programming language/library names.
+
+haskell to Haskell, purescript to PureScript, swiftz to Swiftz, and
+scalaz to Scalaz.",False
+77a0a4c79c80621b8869927e451551847b93b5fd,2018-03-21 15:08:00,Matthias Benkort,"Merge pull request #422 from rafaelmaza/patch-1
+
+Replacing functions with ones shown in example",True
+0d9f48af7b11f47e133e3da0a3a5d6205ec7a490,2018-03-21 10:49:32,rafaelmaza,fixing typo,False
+c7c21803dc8c019d61676dd43f37a593f46fa745,2018-03-21 10:35:27,rafaelmaza,"Replacing functions with ones shown in example
+
+There are no references for `hasSpaces` or `findSpaces`, so I think it was meant to be `hasLetterR` and `removeStringsWithoutRs` instead.",False
+da91d853e6d6209dd9e9e295ca70b84951f0c52f,2018-03-19 19:04:41,Matthias Benkort,"Merge pull request #419 from HunderlineK/HunderlineK-fix-map-signature
+
+Fixed signature for map",True
+b4e73dc9b1145baea13a3a4847be97fc51eb63b3,2018-03-19 16:42:13,Matthias Benkort,"Merge pull request #420 from blackwindforce/patch-2
+
+docs(ch08): fix typo",True
+3cd8a11f08f08c4663fc8410811f8c05096093b1,2018-03-19 16:41:35,Matthias Benkort,"Merge pull request #421 from blackwindforce/patch-3
+
+docs(ch09): fix ReferenceError",True
+3a362e189ba7ff458f67e3e24a4c585bb47e75dd,2018-03-18 16:06:06,Akira Tsai,"docs(ch09): fix ReferenceError
+
+'uname' is not defined
+
+Close #382",False
+8f086846b79a9d7129480dddad8a74dce6c25fac,2018-03-18 08:37:21,Akira Tsai,"docs(ch08): fix typo
+
+replace eventstreams with Event streams",False
+f592e3f849e694185749a97a7a5cee63f192943d,2018-03-17 23:39:05,H,Fixed signature for map,False
+d59dd7e84ddd57a7fba73091daf020976588809e,2018-03-12 14:03:55,Matthias Benkort,"Merge pull request #416 from ayeseeem/ayeseeem-stylistic-nitpics
+
+A few tiny stylistic nitpics",True
+28b425200e79dfe20a80015e6e914577dff4ddd0,2018-03-12 14:03:14,Matthias Benkort,"Merge pull request #417 from ayeseeem/fix-license-link
+
+Fix link to LICENSE - it's not .md",True
+a28dd24b2b2598622429174c1c48578a3470fde0,2018-03-12 14:02:11,Matthias Benkort,"Merge pull request #414 from ayeseeem/ayeseeem-more-simple-typos
+
+More simple typos",True
+31fe4deb982b9eed6b77e4f0c66bfb26729188fd,2018-03-12 14:01:30,Matthias Benkort,"Merge pull request #415 from ayeseeem/ayeseeem-more-complex-typos
+
+More complex typos",True
+6d07fccd895eb0075a46f37ae3ee1599907d5407,2018-03-07 22:13:38,ayeseeem,Remove apostrophe from plural maps,False
+b796451c2f005b95e0bb15d9a8799de0eef1bf52,2018-03-07 22:10:56,ayeseeem,"Turn ""how low..."" into a question, retain ! for style
+
+How low can we go needs a ? But I've chosen to keep the ! to retain the author's style. But it could be dropped.",False
+861f3cec219c165834085c403304a25c2211d197,2018-03-07 22:10:55,ayeseeem,Remove reference to underscore - $value has none,False
+321d267f76bd60df8b0c217c6428b6eadcd91e3d,2018-03-07 22:10:54,ayeseeem,"Hyphenate fortune-telling to prevent misreading
+
+It's adjectival; otherwise it reads oddly when you get to the word app. It reads like ""we have made our fortune telling people what to do""",False
+a812a31be5569a2416a9a7b34e8920c49440042b,2018-03-07 22:10:53,ayeseeem,Use and rather than & in text,False
+e311385e6d50d356fa087eb8c8c37a340ca76e1f,2018-03-07 22:10:53,ayeseeem,Remove apostrophes from plurals,False
+4b377bda1064ff47ba6142edc20d736b20a9b499,2018-03-07 22:00:58,ayeseeem,"Make boo! an exclamation
+
+Boo is normally an exclamation (when not used as a verb)",False
+d76e064faa6a2af528ae6d7a81822daec55e74dd,2018-03-07 21:45:50,ayeseeem,Correct is -> if,False
+fa6673d77880a65b85c75045cb0c45f6246b5460,2018-03-07 21:45:50,ayeseeem,Remove spurious apostrophe,False
+fe9b8704d8f4024de67cd5ce6d241b9762a56d59,2018-03-07 21:45:49,ayeseeem,Fix typo Considering,False
+df0fc94abe2840fa96e368fad9ef11e0b36fe4f1,2018-03-07 21:44:13,ayeseeem,"Fix wrong function name in text
+
+The name getUserName in the text/comment is wrong, and needs to be
+changed to match the function findNameById in the JS.",False
+8345b381793f50eeacb40faebb6aa02740e24feb,2018-03-07 12:37:17,ayeseeem,Change layer -> each layer,False
+7d6d624e31e0d0d1a85cb952978a34dd3ccc6c2d,2018-03-05 13:53:47,Matthias Benkort,"Merge pull request #404 from ptrfrncsmrph/patch-9
+
+Correct the order of arguments for `concat`",True
+39fb1f7b045edea1b67e6ff35d3f8aaec52ae3ac,2018-03-05 13:52:47,Matthias Benkort,"Merge pull request #411 from ptrfrncsmrph/patch-13
+
+Ch 10: `toUpper` -> `toUpperCase` (to match docs)",True
+3738a3c6b7530347e0bfac1bc5ceb31062bc84b2,2018-03-05 13:52:04,Matthias Benkort,"Merge pull request #412 from ptrfrncsmrph/patch-14
+
+Minor typo: Tis' -> 'Tis",True
+5d128d58893ebb62586c219c2a80d96817b29f3d,2018-03-05 13:51:12,Matthias Benkort,"Merge pull request #413 from ptrfrncsmrph/patch-15
+
+`Maybe` -> `Maybe.of` in example",True
+6f5d2a49c705ce0bd8f1b132e65dae73e4cc1e71,2018-03-05 06:43:01,ptrfrncsmrph,"`Maybe` -> `Maybe.of` in example
+
+`Maybe` -> `Maybe.of` in example, throws an exception without a constructor",False
+1ef916080a79db8433393763cd05a1d4191d220b,2018-03-05 06:38:35,ptrfrncsmrph,"Minor typo: Tis' -> 'Tis
+
+Apostrophe should be at beginning, marking omission of the _""I""_",False
+fbf8700632a751f2e392cceb2bbaf2846810a589,2018-03-04 06:26:21,ptrfrncsmrph,"Ch 10: `toUpper` -> `toUpperCase` (to match docs)
+
+The docs define `toUpperCase`, but not the alias `toUpper` used in Ch 10 (presumably borrowed from Ramda).",False
+9d9661af6a670ac2fa1311fa3874db6721b98cb5,2018-03-02 22:01:00,ayeseeem,Fix link to LICENSE - it's not .md,False
+e0b10555002d960a9363ebe367dac8cdd2c8ed31,2018-03-02 20:15:35,Matthias Benkort,"Merge pull request #408 from ayeseeem/ayeseeem-simple-typos
+
+Ayeseeem simple typos",True
+83ba5e717a58feddb2ada04953bca90c9b5ed16e,2018-03-02 19:05:28,ayeseeem,Consistently use #js-main as selector,False
+4140e5a8f065716e3bb0d3f3f7a67acba0898e8f,2018-03-02 19:05:27,ayeseeem,Clarify we don't touch the body element,False
+b31f08d4732f1ecdd8912fbfe8659b5ea97614a6,2018-03-02 19:05:27,ayeseeem,"Clarify it's the <main> element now, not the <body>
+
+Looks like this text was not updated when the app code was changed",False
+d3c23db77b823844616d7ff9dfe6981ad0318a41,2018-03-02 19:05:27,ayeseeem,Fix selecting #js-main by id,False
+0a5d8e430373ae6bebeca30bd74710ed7afccb31,2018-03-02 19:05:26,ayeseeem,"Change app title from Demo to App to match code
+
+Make the code in the chapter consistent with the code provided in the Exercises.",False
+a544f66da59ae82915e617d93764ee906730834e,2018-03-02 18:46:49,ayeseeem,Fix backticks to style the CD command,False
+e4f70941d8ce4316879cebf7f6ad78c3f4098931,2018-03-02 18:46:49,ayeseeem,Fix typo in 'plumbing',False
+1045196eecfbccebfb3602ceaaa1f05d0cf11a79,2018-03-02 18:46:48,ayeseeem,Correct too -> two,False
+60899aace319fc317885e0368dc5d4b79ceb1d29,2018-03-02 18:46:48,ayeseeem,Remove extra space,False
+ff13c035de0febc9ff2c05f9188180abded80bc8,2018-03-02 18:46:48,ayeseeem,Fix typo by inserting space in A slightly,False
+80a283482cf7be142e2bb29e1a8f2a190b7c4eb2,2018-03-02 18:46:47,ayeseeem,Insert missing space before parenthesis,False
+8cbe769b3aed2c40e9ba0c314d2c9f207849a20e,2018-03-02 14:42:59,Matthias Benkort,"Merge pull request #407 from ceddlyburge/clarify-order-of-evaluation
+
+Clarify order of evaluation",True
+6c1b1c42af5d19cbde5e633ad65cc51826a97f62,2018-03-02 14:38:20,Matthias Benkort,"Merge pull request #406 from ptrfrncsmrph/patch-11
+
+Minor typo ch09.md",True
+e3f5df02388ad2a5127071671b160c3becc15376,2018-03-02 14:35:19,KtorZ,Merge branch 'patch-8',True
+318a63d756c2f90b09830fed709764c45162b678,2018-03-02 14:35:19,KtorZ,adjust style & signature for appendix_c's reverse,False
+4aad9d3f2a8ec192cb436f2cd038f0db06a25453,2018-03-02 14:35:19,ptrfrncsmrph,Update appendix_c.md,False
+fb4915eba4a03a0394786234e12b1a16cc053314,2018-03-02 14:35:19,ptrfrncsmrph,"Add `reverse` function to appendix_c.md
+
+`reverse` is referenced in some examples, missing from appendix",False
+be0fd0fa310f9aea5bb289c7bdaa44126bd97e6e,2018-02-28 13:20:30,CeddlyBurge,Clarify order of evaluation,False
+628e0afc1f0f9fad0005705e39bba971558ff206,2018-02-28 07:40:23,ptrfrncsmrph,Update ch09.md,False
+ea1fffe2057b65589c8c32ad50c246d86e0974e5,2018-02-26 19:03:26,ptrfrncsmrph,"Updated example ch08.md
+
+Changed the arguments in `Maybe.of` & `concat` so that they produce ""Rock over London, rock on, Chicago""",False
+0bf54795e613c2f0376ff4934dede2b32e6b99d7,2018-02-26 14:36:44,Matthias Benkort,"Merge pull request #405 from ptrfrncsmrph/patch-10
+
+Correct typo in ch06.md per todo",True
+d097efe4357f8d54ffefac6e3c48c2c6e58d2709,2018-02-26 07:22:05,ptrfrncsmrph,Update ch06.md per todo,False
+cf30ca65c97b479f30bb35961f1fe0dc83e3291d,2018-02-26 07:03:23,ptrfrncsmrph,Correct the order of the arguments for `concat`,False
+97dae0e2243a38c0c0912ffee1758846e2c1d168,2018-02-25 20:28:01,KtorZ,re-generate summary to include recent changes,False
+c8840861d00637332750d653ca5d502719a2ab85,2018-02-25 20:27:30,KtorZ,raise warnings when of is called on Left or Right classes,False
+1372368bae8bb799ad4ede23624e5762be999240,2018-02-25 20:02:39,KtorZ,add missing 'replace' to Appendix C. Close #401.,False
+ecc18f740289f710d526d719f1257680c15fa540,2018-02-25 19:59:53,KtorZ,use more flexible String coercion for toString definition,False
+f8fc95aff51e02d6223f82ac1e975d45a9cbcb69,2018-02-25 19:58:42,KtorZ,Merge remote-tracking branch 'ptrfrncsmrph/patch-5'. Close #394.,True
+e4313fa91005e93b12ab6c2d2ca88d67289f83f6,2018-02-25 19:56:54,KtorZ,add link to Indonesian translation,False
+d2d88bdb89a849538cc49f088bdee6f734d5b0aa,2018-02-22 23:16:23,Matthias Benkort,"Merge pull request #397 from blackwindforce/patch-1
+
+docs(ch09): fix typo",True
+7e17d3f5c2778a2af386804422067c0bc9a479b2,2018-02-22 20:19:09,Akira Tsai,"docs(ch09): fix typo
+
+replace uname with email",False
+b723f52c80959b54d97bc6dd70a6f46c8f234b00,2018-02-22 15:03:55,Matthias Benkort,"Merge pull request #395 from ptrfrncsmrph/patch-6
+
+Remove needless commas ch08.md",True
+a03839fbf09b15aca84d26272340c9b40fa05dfb,2018-02-22 15:01:59,Matthias Benkort,"Merge pull request #396 from ptrfrncsmrph/patch-7
+
+its -> it's",True
+d8c93279370bd79eb2bcb6ee3b2450ecd9c76990,2018-02-22 08:53:27,ptrfrncsmrph,"its -> it's
+
+Add apostrophe for contracted it's",False
+f5fe2666392923ec891c8548b44329bbfa407bac,2018-02-22 07:01:21,ptrfrncsmrph,"Remove needless commas ch08.md
+
+Removed commas from two instances of ""can't help, but"", so they now read ""can't help but""",False
+8c910a6770faa9a7686484380dbf67862aee00bf,2018-02-22 06:20:16,ptrfrncsmrph,Update appendix_c.md,False
+6beee67fb1437a3d96a3077de8f7e4f8a99a06a7,2018-02-22 04:57:38,ptrfrncsmrph,"Added toString to appendix_c.md
+
+Changes per code review: added a simple (limited) implementation of toString.",False
+354a5621386e1c78e0d7c1f3f68710995cc486ce,2018-02-21 13:56:11,Matthias Benkort,"Merge pull request #393 from ptrfrncsmrph/patch-4
+
+Punctuation nitpicking ch04.md",True
+5eced8d271dba4dbebd19379c74d96362cdab748,2018-02-21 13:55:32,Matthias Benkort,"Merge pull request #392 from ptrfrncsmrph/patch-3
+
+Uppercase Milner in ch07.md title",True
+47af954ee2f0b2d1dff8c9b0e60cfc5503a9f804,2018-02-21 13:54:41,Matthias Benkort,"Merge pull request #387 from ptrfrncsmrph/patch-1
+
+Minor correction ch04.md",True
+17dabd222c18801d367b4bd06323e8fa5673549f,2018-02-21 13:54:27,Matthias Benkort,"Merge pull request #386 from buzzdecafe/mapmap
+
+map map in Task example",True
+ac17ded680dde9e7401eeb1ee50a47580ba2c719,2018-02-21 09:18:51,ptrfrncsmrph,"Type signature nitpicking ch08.md
+
+I know we can play fast-and-loose with types in JS, but technically add returns a number and concat takes a string, no?",False
+a7c96a5a13369240bd2953874bd7f3860c5b0beb,2018-02-21 08:08:15,ptrfrncsmrph,"Punctuation nitpicking ch04.md
+
+Fix punctuation and stylize higher order function definition to match definition of other terms.",False
+0cdb0ce163a117a8c7c590f9efd6d4d68e351804,2018-02-21 07:02:55,ptrfrncsmrph,"Uppercase Milner in ch08.md title
+
+Milner is proper noun (surname) and seems to have been mistakenly lowercased.",False
+ac6a6b1fcf2fc41508c0de68a067f57c8f0c5f92,2018-02-18 00:11:46,ptrfrncsmrph,"Update ch04.md
+
+Remove duplicate ""means""",False
+a2e802772c50b2064b3a7e2fc6705c613771e8bd,2018-02-17 05:55:35,Michael Hurley,map map in Task example,False
+b15e1706f3fb3d3ee0bf278ebb5a68beb8aab420,2018-02-12 18:26:13,Matthias Benkort,"Merge pull request #381 from datenreisender/unify_headings
+
+Unify headings",True
+2d41ed08badfee61976d30e1255f3108c1902620,2018-02-12 13:19:08,Marko Schulz,"Unify the headings capitalisation
+
+According to the Chicago Manual of Style.
+
+Used https://marketplace.visualstudio.com/items?itemName=zkirkland.vscode-firstupper#overview
+for it and manually checked the results afterwards (the extension
+wanted to capitalise the “n'” in “Types n' Types” but this seems
+wrong, since it is an abbreviation of “and”.)",False
+823a1420c016a07526168bec4161fe057534f850,2018-02-11 13:14:34,Marko Schulz,Correct syntax error in headings,False
+1559ba83d95a9d11fa404b216124811acc634ed6,2018-02-10 19:26:48,Matthias Benkort,"Merge pull request #374 from benshine/clarify-curry-match-example
+
+Clarify curry example by matching the letter r and linking to regex d…",True
+21df454bb925749ff84e6ac18451ccf7c8e9b82a,2018-02-10 19:21:58,KtorZ,Merge branch 'fix_summary'. Close #379.,True
+ec0af308d47004bd56a8b02cff1b241d3c118d96,2018-02-10 19:20:47,KtorZ,use perl from package.json script to call generate-summary rather than standalone execution,False
+97dc063cac7e3b4335c57ef73c5bfc56e68d1095,2018-02-10 18:45:26,Marko Schulz,"Correct summary
+
+Add script to generate the SUMMARY.md and use it fix many small issues.",False
+1f4d4753fd04dc80f7838e81dcc73d9eb93fe952,2018-02-10 18:43:14,Marko Schulz,"Fix minor inconsistencies
+
+- Remove whitespace in header of chapter 7
+- Correct header levels in chapter 10
+- Correct main header in chapter 11",False
+6e91ae975de9fd02aa06b98f67d7cb0518aba851,2018-02-10 04:19:48,KtorZ,add .editorconfig :+1:,False
+6af3c7a33ac875137a5c79868e7b3913acdd587c,2018-02-07 00:11:49,Brian Lonsdorf,"started monoids
+
+most copy
+
+ch13 sans exercises
+
+remove exercise sketch",False
+bd6023cb7ad3686a7ec95d08d73f4fff264e0ca4,2018-02-05 04:47:53,Matthias Benkort,"Merge pull request #377 from christianhg/patch-1
+
+Corrections for ""Pure Error Handling""",True
+0ccbbbab4945bad1f81e4795302e663b06c4cd7c,2018-02-05 03:04:48,Christian Hamburger Grøngaard,"Change ""short circuiting"" to ""short-circuiting"" as it is used as a verb",False
+89ad7a533f7a50d1349b53cd14e0a7fad523fdcc,2018-02-05 03:04:47,Christian Hamburger Grøngaard,"Add space before ""(""",False
+29c0d6bcf0f808491b360451bb6de1cbc2bb2c73,2018-02-05 03:04:22,Christian Hamburger Grøngaard,Change `birthdate` to `birthDate`,False
+10c2a1eedf7b66f3bb13da5c4c96fa1e8ea2b77e,2018-02-05 02:45:20,Christian Hamburger Grøngaard,Fix error message inconsistencies,False
+2ae25c44d6576b8dd0b5cfc2efc254b04711b3cf,2018-01-29 20:13:09,KtorZ,refer to replace and toLowerCase functions in the appendix fro ch05. Fix #336.,False
+991a0408b7b386c49e4d86525e250d95173c6e72,2018-01-29 20:04:23,KtorZ,clarify Left vs Right example in ch08. Fix #369,False
+37001409ad2b28eb93fc190c3910c4ad387e35ac,2018-01-29 20:01:17,KtorZ,expose inspect and eq from the support. Fix #367,False
+6a8230b88a43321e910949276f5112f10437e2a0,2018-01-28 23:02:08,Matthias Benkort,"Merge pull request #370 from datenreisender/correct_gitbook_links
+
+Update gitbook links",True
+001e4c65429ea33bfe09f9c1c371171c6a61505b,2018-01-28 18:36:12,Matthias Benkort,"Merge pull request #373 from benshine/fix/frisbfy-not-risby-issue-368
+
+The gentleman's name is Frisby not Risby",True
+f68f85f630533ffee4451db95bf99906fb56b8b6,2018-01-27 07:14:09,Benji Shine,Clarify the explanation of regular expressions,False
+0f069ee8c11f7a3d81ac184e40c6457a8c36e503,2018-01-27 07:07:23,Benji Shine,Clarify curry example by matching the letter r and linking to regex docs.,False
+d2daa81719a6986a5ad793363719c78fd349e492,2018-01-27 06:14:59,Benji Shine,The gentleman's name is Frisby not Risby.,False
+41ae3ee9d9a6c72eee71f153187f43bd27647a8c,2018-01-22 21:43:24,Marko Schulz,"Update gitbook links
+
+The gitbook is now found under a new URL.",False
+228ea3d3a0c52e5e0a840d85f0e65444299b6160,2018-01-21 18:13:38,KtorZ,trigger gitbook sync,False
+3f9817c6a5eed818552eeeac1c3092b2f22f5ac9,2018-01-21 16:25:06,KtorZ,fix reference to MostlyAdequate plugin exercises,False
+79a79d10e9940801b8f1b8b79b1a9550c4f07358,2018-01-21 15:54:52,Matthias Benkort,"Merge pull request #365 from datenreisender/highlight_links_in_sepia
+
+Bug: With sepia the links are not highlighted",True
+01cff9527e88d2c51333c95ade60c02fa60af7bc,2018-01-21 15:53:52,Matthias Benkort,"Merge pull request #361 from KtorZ/es6/es7
+
+ES6 + Restructuring. Close #273 #352 #295",True
+4be90f94d52e6411a35b35841edc4389b2fc4a0f,2018-01-18 14:35:34,KtorZ,add missing summary link to ch07#constraints,False
+96796db37c768dd80b7a7d68fd3c0f49e518b1c3,2018-01-18 00:40:54,Marko Schulz,"Bug: With sepia the links are not highlighted
+
+This is an old problem in GitBook as described in GitbookIO/gitbook#949.
+I copied the workaround described there in https://github.com/GitbookIO/gitbook/issues/949#issuecomment-285365251",False
+8b0712cc9a77b5c6b88bca1c4d54de4424620d22,2018-01-17 14:39:48,Marko Schulz,"Adapt text to moved trace function
+
+Before the function was defined above but the text did not reflect that yet.
+
+Also: Because the trace function is less important, I moved it below
+`getJSON` and `setHtml` in `Impure`.",False
+b620e1dc34eecc9c39363d7c6e0b92a1836cc2c4,2018-01-16 21:25:04,KtorZ,increase consistency between omitted arguments and anonymous closure,False
+e945daef11f74990ca1da3c9ad24a43dabc01c74,2018-01-12 14:55:32,Scott Mueller,Fixed type signature for fromPredicate,False
+4fd007a74537604bf68ce27445974eb12d1e54cf,2018-01-12 14:53:27,Matthias Benkort,"Merge pull request #363 from samueller/patch-1
+
+Fixed type signature for fromPredicate",True
+d3d3967b8426ce945b9fc7757a202d3ce55b43ca,2018-01-11 21:57:48,Scott Mueller,Fixed type signature for fromPredicate,False
+4c5ed3be2ab4e782cbebd35f964a65ec5ec2b151,2018-01-09 04:13:31,KtorZ,fix typo in npm command example: ch4 -> ch04,False
+2c920727d8ef82d30bed8f2adecbb0f9d7c71ffc,2018-01-09 04:04:52,KtorZ,Merge remote-tracking branch 'mostly-adequate/master' into es6/es7,True
+7dcf0668f1d4c5fcd9358bd1f0035840b8208173,2018-01-09 04:04:17,KtorZ,update book.json with new plugins,False
+e4edba82a82f82e7d0cb7939609255232fc8744f,2018-01-09 04:04:17,KtorZ,proof-read one more time all chapter's exercises,False
+c7e28bd28190e572e7b0eb7e2936de38fa15df9b,2018-01-09 04:04:17,KtorZ,remove 'use strict' from support.js,False
+08059eb068075c87e9b73df467f1c1b36dd48d51,2018-01-09 04:04:17,KtorZ,update appendixes with all the code present in support,False
+6739f6a1667ea8d0df7243b6c42d255e5d387df8,2018-01-09 04:04:17,KtorZ,add various type assertions in support to help debugging and learning,False
+8263b27c9e01e244e5ddb34a933e876d6e42463b,2018-01-09 04:04:17,KtorZ,convert exercises of chapter 12 to the new format,False
+93235b66569a9d4d70820d9b52a0c46953040b0c,2018-01-09 04:04:17,KtorZ,add missing link to exercises from SUMMARY,False
+b138f3237493b8f29f49b7300d928d97249bfc81,2018-01-09 04:04:17,KtorZ,remove natural transformations old code,False
+ef0075f3be0bdccbc05ee331ebb05fc8f74dcb6b,2018-01-09 04:04:17,KtorZ,convert exercises from chapter 11 to new exercise format,False
+fc22cbdb67165ce50e6b0116148bfacf2a307f5d,2018-01-09 04:04:17,KtorZ,update ch11 & ch12 with airbnb style,False
+aff415637851c01b42a5cff1cc56fc18b03e8a04,2018-01-07 01:07:52,Matthias Benkort,"Merge pull request #360 from MostlyAdequate/fix/traversable-exercise
+
+Use full __dirname and throw Error object",True
+211175685af0b1e279ac16e8b98c7d3835fe3d91,2018-01-07 00:58:28,Brian Lonsdorf,use full dirname and throw error,False
+2b7890d629ca546aecef4469ea470e379c5ed694,2018-01-06 11:08:30,Brian Lonsdorf,"Merge pull request #359 from ptrfrncsmrph/master
+
+Simple typo fix: ""amendable"" -> ""amenable""",True
+7a4ac3a6c04c1eb99618b5e80abad26eb14642fa,2018-01-04 23:11:11,Peter Murphy,"Simple typo fix: ""amendable"" -> ""amenable""",False
+0bd038dcae6a8037b1f20a3962bc251dcb9b732c,2018-01-04 00:24:37,KtorZ,Merge remote-tracking branch 'mostly-adequate/master' into es6/es7,True
+eb5620784318b4acf7ffed51b6d9a4d308de246a,2017-12-31 21:49:34,KtorZ,review package.json(s) and README,False
+adb216eade8aa1bbab17a3d6fa73aaacb806ab96,2017-12-31 21:22:59,KtorZ,remove old 'code' (now replaced by 'exercises'),False
+6fed3b78e5ee0d5be80fc4b970a03e3d472bb943,2017-12-31 21:21:45,KtorZ,add leading 0 to all chapter below 10,False
+2cea5d81cfa72d10ff6afbf5853de0f9280b0061,2017-12-31 21:08:40,KtorZ,cleanup old files,False
+9400fb7af5e4faaca523ad44da594b337aca0a47,2017-12-31 21:00:04,KtorZ,add exercises for chapter 10,False
+f66ac5761a7a41b1aadb2e1aa85eb27b631508f6,2017-12-31 19:45:45,KtorZ,automate creation of new exercises template files,False
+494de5c54db66bb1944464d408b936411ab03172,2017-12-31 07:39:18,KtorZ,review exercises for chapter 9,False
+19b3f7e9e7cef81e51b18b028213064f4c1b8d9d,2017-12-31 06:09:15,KtorZ,include exercise's prelude in each exercise_*.js,False
+79d43887fb1879dd7b75065876c6b4bee807b71c,2017-12-31 04:51:36,KtorZ,enable mocha to run exercises,False
+c058358e41506da5b7f0e6c1d55d4fbba6f50cb1,2017-12-31 02:36:30,Matthias Benkort,"Merge pull request #357 from MostlyAdequate/pt3
+
+:tada: Part 3 :tada:",True
+c690e9f765bb11ae8f3c5df221453c72fbdf008b,2017-12-31 02:30:08,Brian Lonsdorf,various updates from initial feedback,False
+6135f4b94b727836b3a8ed45c5e5cb30b0576f28,2017-12-31 01:31:13,Brian Lonsdorf,curry sequence,False
+05fb31bc7a5e300828f3c58382757aabe88f31ca,2017-12-31 01:29:41,Brian Lonsdorf,update ch number,False
+8853f8a7c926589b216b9dfba7adc5ee09f2ee2e,2017-12-31 01:29:22,Brian Lonsdorf,spelling fix,False
+dfd7600b6a3b6de21b1bd7091943b2cd6893daa4,2017-12-31 00:42:42,KtorZ,review exercises from chapter 8!,False
+ef57aff7ba47207e5a39133686987076e72fa049,2017-12-30 21:37:51,KtorZ,fix typos in ch8 + align examples with appendix definitions,False
+8d1737b75c2aed15b76a8d2e754e77b5e2f5381c,2017-12-30 20:47:03,KtorZ,apply airbnb styleguide to forgotten chapter 7,False
+d2d3c1be44afb470af10bf567ed5351a587fce51,2017-12-30 20:41:17,KtorZ,move ch6 app code to exercises/ch6,False
+18ee70f7511e6b8c3548c7c755065b4858505a04,2017-12-30 20:01:31,KtorZ,add comments explaining few quirks of the support.js file,False
+30728ced530ab0a63a1750fe867b9d9ac7328169,2017-12-23 22:39:55,Brian Lonsdorf,traversable exercises,False
+d488dae6fe1d588c19bd68d74977075cba002824,2017-12-21 22:59:47,Brian Lonsdorf,exercises,False
+bbe55a587b0cdf858672cd8365e76bb04d345996,2017-12-21 20:36:55,Brian Lonsdorf,start ch11 and 12,False
+e73b539f039b097fab6fe9eb52e9cf48460f210a,2017-12-15 03:05:48,KtorZ,review compose exercises from ch5,False
+ce3279d65b41573a936ebb1d324c083fb8905930,2017-12-13 13:45:29,Matthias Benkort,"Merge pull request #355 from rma4ok/patch-1
+
+folktalejs.org redirects to a fishing site",True
+c0458408e49a153bda753630d54e5201320cc422,2017-12-13 00:45:31,Kiryl Yermakou,folktalejs.org redirects to a fishing site,False
+b80e4e2e0db76cf05dfa33c83ac3b4a0c472d955,2017-12-12 04:49:32,KtorZ,review curry exercises from ch4 (embedding with gitbook plugin),False
+536d89b221a4afc6bb0e0e1a30629e18db332462,2017-12-09 23:18:15,KtorZ,create appendixes to centralize definitions of functions and structures,False
+acb7f35f542ad6f15ac5082d36945543ff5d8d64,2017-12-09 21:15:46,KtorZ,apply airbnb eslint style guide to all examples in chapters,False
+4b806f2b54ee8cf6f0b078d26438aa6799d61c27,2017-11-02 14:06:41,Matthias Benkort,"Merge pull request #351 from Hemaolle/master
+
+Fix reversed_cars variable name",True
+52674158467fc1dbf7c5c6281391a611d61e992d,2017-11-01 20:34:54,Oskari Leppäaho,"Fix reversed_cars variable name
+
+Looks like there was a mistake in the variable name since we're taking
+the last car her, not reversing the list of cars.",False
+30636a2e07627edc84a6a487612899487373e640,2017-10-31 13:16:47,Matthias Benkort,"Merge pull request #349 from tstelzer/master
+
+Update JIT presentation link with more recent video.",True
+bff0b3907b82e77f8627d028f7366391fa4ed3ce,2017-10-30 16:08:34,Timm Stelzer,"Update JIT presentation link with more recent video.
+
+Same presentation by same guy, but higher production value and overall
+better presentation.",False
+281b907b8cdc82f1dc1ac4d5be8a91153bbe5747,2017-08-17 16:25:25,Christian Takle,Chapter 10: Add missing `liftA2,False
+65b4bce34f70cd42a72f2b0b006f533291fd0a7e,2017-08-16 13:14:25,Matthias Benkort,"Merge pull request #283 from loque/patch-2
+
+compose_exercises.js",True
+0094f17a1f0d01f9388be7b9687f4580f8310218,2017-08-16 13:11:13,KtorZ,"remove commented 'curry' and trail whitespaces in support.js
+
+Close #340",False
+2b72dfda57625b002c91ed6ceadd453ed5bd4932,2017-08-16 13:10:34,Eliran Malka,update name,False
+6620e561b18e1c07339cdbead731c84931ef0e75,2017-08-16 13:10:34,Eliran Malka,encapsulate array slicing,False
+477e3f4365ce413a99c6f5e7b8ca24524605b9e4,2017-08-16 13:10:34,Eliran Malka,remove redundant arg in slice call,False
+34389858e3afd0963bf68b23438a9e9957bbe289,2017-08-16 13:10:34,Eliran Malka,"fix missing toArray 
+
+replace a call to `toArray` (which declaration is missing), with a simple `Array.prototype.slice` invocation.",False
+4f3c8a196dfd4bf6283043526d24dd401ca44f5f,2017-08-15 16:51:01,Matthias Benkort,"Merge pull request #341 from Ilyes-Hammadi/master
+
+Add PDF download link",True
+cdadc94876d22b4e32a2996a1c3a49db6e515447,2017-08-15 02:18:21,Christian Takle,gitbook: Update plugin **include-codeblock**,False
+182b4d588577b09f292aad5af615ec302d268334,2017-08-15 02:17:27,Christian Takle,npm: Update toplevel package.json,False
+ebae706f2aa23688d4271db0f77f457df7f68171,2017-08-15 01:55:46,Christian Takle,Exercises: Add missing changes after rebase,False
+cb80f392cd8d1f3079dab19675325ce80a76d9ba,2017-08-13 08:32:25,Ilyes Hammadi,Add PDF download link,False
+15e5edc60d9bbfc7d435a843954d7944e711f69e,2017-08-11 01:29:46,Christian Takle,Helpers: Add script to check exercises,False
+38aa14dcb501493f70c950873ec7e77e3916084d,2017-08-11 01:29:25,Christian Takle,Package: bump versions,False
+d157fdf0ae563d52f7fd04f52498eac354295c51,2017-08-11 01:19:45,Christian Takle,Excercises: curry match upstream,False
+a15f536bf9ca895784b6b60d8630a452d3bfe517,2017-08-11 00:41:11,Christian Takle,Docs: Fix typo,False
+1844cc00fbe7090a5d09f36a70f8123638e2ed04,2017-08-11 00:40:37,Christian Takle,Exercises: Fix broken code,False
+c630831d1f448f683e7e63fc23ab2609bc4d332a,2017-08-10 14:06:23,KtorZ,"Merge remote-tracking branch 'rapPayne/reformatting_and_link'.
+
+Close #291.",True
+1a6679ef90eb3ddca6e9180ebaece9f03d316f12,2017-08-10 13:51:53,Hyunsok Oh,"Update TRANSLATIONS.md
+
+starting translation.",False
+8b07a51750e271d534ee1f18c4c6dfc9b72127a2,2017-08-10 13:45:01,Matthias Benkort,"Merge pull request #333 from ivanzusko/ukrainian-translation
+
+Add ukrainian translation",True
+b8d2efa1099432c5aa1824ff4a8482e6a9d2305d,2017-08-09 22:28:03,Matthias Benkort,"Merge pull request #329 from stevemao/patch-2
+
+add a space before ""(""",True
+828c0ef2d89832e17d282f4c964cfc834477bc5f,2017-08-09 13:45:32,Matthias Benkort,"Merge pull request #338 from DanielPintilei/patch-3
+
+Remove offensive phrase from ch5.md",True
+f7756d7046db8aa928bae4857a53ae40361459d8,2017-08-09 13:45:24,Matthias Benkort,"Merge pull request #339 from DanielPintilei/patch-4
+
+Remove offensive phrase from ch8.md",True
+dee2506536bf7151675238f6f86bf827d934c2cc,2017-08-09 13:45:10,Matthias Benkort,"Merge pull request #337 from DanielPintilei/patch-2
+
+Remove offensive phrase from ch3.md",True
+7055ecd1d8924a8e92a2763c465833dcb7ee9e72,2017-08-09 11:31:20,Daniel Pintilei,Fix offensive phrase from ch5.md,False
+f4daf73e6379c606da685b7f74674b56f8252300,2017-08-09 11:31:10,Daniel Pintilei,Fix offensive phrase from ch3.md,False
+fdbe89fa057ed49ea783ba772a0dde2e7fd1506e,2017-08-08 19:43:43,Daniel Pintilei,Remove offensive phrase from ch8.md,False
+d79cbe1461b32f37fb2af4e79f59725fdd57ae46,2017-08-08 19:42:40,Daniel Pintilei,Remove offensive phrase from ch5.md,False
+e229232ccc54a8087bc804226ed28bfac9a8ff7a,2017-08-08 19:41:56,Daniel Pintilei,Remove offensive phrase from ch3.md,False
+a9e4a1c12bb8833bb35e3ebc5743fe6446e0a2e8,2017-06-13 19:47:02,ivanzusko,ukrainian translation,False
+80962ffd27e96271bb76abca4a115dc8161339ff,2017-04-15 15:09:28,Steve Mao,"add a space before ""(""",False
+bc25486987a1a25f5fcdc06e27f99b45d891679c,2017-04-12 21:36:04,Brian Lonsdorf,"Merge pull request #315 from HenryMarshall/patch-2
+
+Change invalid date format to make unparseable",True
+9fddf534846a400ee3a6328cfc6b6454ff126294,2017-04-12 21:35:30,Brian Lonsdorf,"Merge pull request #322 from jsms90/fix-test-script
+
+fix test script - mocha doesn't have to be global  fixes #312",True
+5fb4fd97258ae1663fdf761a77567e5af855f685,2017-04-12 21:34:58,Brian Lonsdorf,"Merge pull request #324 from jetpackpony/update-chapter-4-exercises
+
+Update Chapter 4 exercises' descriptions",True
+0a6e5e2c390265091f60e3fd7319e117b06a5052,2017-04-12 21:34:21,Brian Lonsdorf,"Merge pull request #326 from qm3ster/update-dependencies
+
+Update dependencies for examples",True
+cbed5cd8d6a91adf85866232cec0289ccd07365d,2017-03-08 20:31:44,Mihal Malostanidis,Update part2_exercises dependencies,False
+ee08dfa4f59baafc54915399e603fc8b57ade438,2017-03-08 20:30:37,Mihal Malostanidis,Update lib dependencies,False
+70d17e0d4402a2c31b1b90a4df14143df199f1d1,2017-03-08 20:29:16,Mihal Malostanidis,Update part1_exercises dependencies,False
+89bd76517c06ddc1751c5c38f6c42727e036a165,2017-01-27 20:18:46,jetpackpony,Update Chapter 4 exercises' descriptions,False
+921981b27a450d859889392e78428506f1aa7f13,2017-01-10 21:10:56,jsms90,fix test script - mocha doesn't have to be global  fixes #312,False
+1d4d08c463f47bf186ff9101e49ef20a49e60a90,2016-12-12 07:19:24,Takle,Global: Remove unused images,False
+f8781caef1f4acd3c6f722f1b943da212529a6d1,2016-12-12 06:37:37,Takle,"Chapter 6: Include app/main.js
+
+Reduce code duplication",False
+b81c49e5d7c67e67f28ee46c0956eeafcc571fc9,2016-12-12 06:35:25,Takle,Global: Make gitbook explicit,False
+6cd08cfd586b24f59edc2f77cafaed88d1003b3f,2016-12-12 05:04:54,Takle,Remove: Whitespace,False
+6ef7c04d453e41d77502311882d0b1990c2cb659,2016-11-22 05:37:51,Henry Baughman,"Change invalid date format to make unparseable 
+
+As of moment 2.16.0, the command `moment(""20010704"", ""YYYY-MM-DD"")` **is** successfully parsed. You can achieve the desired error by changing the date string to something very malformed like ""July 4, 2001"".",False
+c97f4d25ad999eafb2ef95e33778d0172b5c0b56,2016-10-16 23:05:01,Brian Lonsdorf,"Merge pull request #311 from matt-paul/patch-2
+
+Correction to curry exercise 1a answer",True
+6a78b65fba118a8eb5a07a1653691d19ff757577,2016-10-09 22:38:47,Matt Paul,Update curry_exercises.js,False
+bf07eeb012914df93e424f7193bd97db58f471ce,2016-10-09 21:50:17,Matt Paul,Update curry_exercises.js,False
+41b580bd6775dc88b0f7137d0a9a79803ae1dd2f,2016-10-09 13:42:27,Matt Paul,Correction to curry exercise 1a answer,False
+5904c9ee82229d5342faafe8216f3299afa9216d,2016-09-29 01:26:36,Takle,Add: missing dependency,False
+536fe475717e834fc0f22e8ee2eba56e422aa537,2016-09-29 01:25:50,Takle,Update: dependencies,False
+26921edc4bb0507c12c11b85de8603970e51b79f,2016-09-28 01:21:53,Brian Lonsdorf,"Merge pull request #302 from gusvargas/ch8-functor-comp-demo-fix
+
+Ch 8 - Fix type of ctmd.getCompose",True
+fe7e917efe08705c097bd8f7989b82fe84e0b025,2016-09-28 00:59:06,Brian Lonsdorf,"Merge pull request #308 from mdouglasbrett/patch-2
+
+Tiny typo",True
+ea722853561e162332894dab18d01f77de4d42e2,2016-09-28 00:58:55,Brian Lonsdorf,"Merge pull request #310 from toddmerrill/master
+
+fix: Error in ex. 6 'showWelcome' code",True
+838515ea97f56dfaa7f16b15d13c8c7eecb8d0e4,2016-09-26 18:06:07,Todd Merrill,fix: Error in ex. 6 'showWelcome' code,False
+ea585c002ce15aa53126be8c5eed14fe8769a185,2016-09-23 17:10:55,Michael,"Tiny typo
+
+Hi there, this is a great book. Think I spotted a small typo (If not, I'm going to have to re-read the HM chapter) :)",False
+75e5471e8eda55644d34c6d1c7d57812fdc7d831,2016-08-31 15:29:31,Matthias Benkort,"Merge pull request #301 from artemruts/patch-2
+
+Deletes \",True
+5a2ddc0664d1cf9b8eac488b9b59b778e3ff25f0,2016-08-28 04:38:47,Gus Vargas,Fix type of ctmd.getCompose,False
+9340629437dbe4920cb9c6ad4c85c5b70e51bf00,2016-08-27 22:33:52,Artem Ruts,Deletes \,False
+8b5ef7ea20bf5be4347d24d46593d989906781ea,2016-08-02 22:28:41,Brian Lonsdorf,"Merge pull request #289 from kgish/master
+
+Polished up some of the text to make it flow more freely, at least in my opinion.",True
+6165dbc7a7eaaf1291bd3d2e9a7c1062cb2dc2bf,2016-07-24 08:12:33,Brian Lonsdorf,"Merge pull request #294 from peripateticus/fixing-typos
+
+Fixing a few typos",True
+bc2bb1e362a48ea619e299ae5029a428e2142912,2016-07-24 08:11:42,Brian Lonsdorf,"Merge pull request #293 from nicolasfont/master
+
+Fix conjugation",True
+97221283d72e6c00532d30696a176658a3764a9b,2016-07-23 09:32:24,Alex Perkins,Fixing a few minor typos..,False
+abc161fcd424b2aaf28828f132e167bf04beb6a1,2016-07-23 03:51:51,Nicolas Font,Fix conjugation,False
+4e2900d3137ddcd5c6b7271a57722f5750ce0d93,2016-07-21 03:06:30,rapPayne,Minor reformatting and added a Wikipedia link,False
+b8213061726636acde1c65ad728c7ba3a820d0a8,2016-07-20 17:49:25,Kiffin Gish,Reworded some items in the second chapter.,False
+342c3b6f5398b5c88470a5a9da7e6f469cf75282,2016-07-20 09:30:00,Brian Lonsdorf,"Merge pull request #287 from nicolasfont/master
+
+Fix schrodingers-maybe anchor id",True
+6b5c700c52c216afe36b53565f75796640a45dcd,2016-07-20 00:44:00,Kiffin Gish,"Polished up some of the text to make it flow more freely, at least in my
+opinion. Feel free to disagree with me.",False
+38169f80770851911500eca66dba6042af033a5f,2016-07-19 23:20:17,Brian Lonsdorf,"Merge pull request #288 from iblamefish/patch-2
+
+Add missing bracket in sentence about Either's greatness",True
+8ae99ffc0d013ed1e69caa4eee2880bbcb217bfb,2016-07-19 22:53:59,Clinton Montague,Add missing bracket in sentence about Either's greatness,False
+f853e27b8f835d89ff775b217248de9e67263114,2016-07-13 01:01:23,Brian Lonsdorf,"Merge pull request #275 from Delapouite/alt
+
+fix: add missing alt attributes for images, for eBook validation",True
+965e09d51aaf4977fde3cc2488314574934b0184,2016-07-13 00:59:59,Brian Lonsdorf,"Merge pull request #281 from radiofreejohn/patch-2
+
+make argument to reduce match the ch4.md value",True
+f4d52946928c13119b09fc25d1d13ad918be5f89,2016-07-09 06:34:34,Nicolas Font,Fix schrodingers-maybe anchor id,False
+21bfe7c058fb1f88c5d404682256e5fafc311b42,2016-07-05 22:48:51,Brian Lonsdorf,"Merge pull request #285 from naehrstoff/ch10-typos
+
+Fixed some typos in chapter 10",True
+a4f1ac33a0ec475c58c47a7ad117a4a29671f7e2,2016-07-02 20:35:15,Peter Gassner,Fixed some typos in chapter 10,False
+39fb450cb659d58cd23d0078f3a66d77bfc22606,2016-06-24 07:09:07,Takle,Fixes: Typos and mistake during speed read,False
+f3244c00c5727d20d4aa10c239ba9e4d665268f1,2016-06-17 21:19:09,Lucas Soler,"compose_exercises.js
+
+Use ramda's toLower instead of toLowerCase (as it's not curryed) in Exercise 4.",False
+b0a90861f69aaf6fdda66d9dabda343bb4875778,2016-06-16 22:36:26,Brian Lonsdorf,"Merge pull request #282 from radiofreejohn/patch-3
+
+Fix link to parametricity",True
+c3a4a3c5f48196499e98dd8d1569a4b1bc8c1005,2016-06-15 05:19:47,John Clover,"Fix link to parametricity
+
+kept the italics formatting, but added correct link format, and changed to https since wikipedia redirects to https anyways",False
+116f7719bc15c7d71617bf61516ae8b284b63e4b,2016-06-15 02:28:32,John Clover,"make this match the ch4.md value
+
+Is it worthwhile making this 1:1 with the text?
+
+For example, in the text it shows:
+```
+// REFACTOR THIS ONE:
+var max = function(xs) {
+  return _.reduce(function(acc, x) {
+    return _keepHighest(acc, x);
+  }, -Infinity, xs);
+};
+```
+
+versus the above without `_.reduce`",False
+a63f17f17e846874d4d18332e665964892fb83ea,2016-06-14 08:05:27,thurt,fix strange alt attribute,False
+1ff506ead59f78fcdc2ee19648590bd58e97adc8,2016-06-13 02:46:07,Brian Lonsdorf,"Merge pull request #279 from aneophyte/cleanup
+
+Added gitbook artifacts to .gitignore and removed .DS_Store",True
+b3990004dffe213a6ff9193c551f2bc1e7adaec1,2016-06-12 17:42:00,Bhasker Raj Shrestha,Improved .gitignore entry to match gitbook .md artifacts better,False
+524fe57f1192b6b9064276405e779c2671cc9296,2016-06-12 09:23:47,Bhasker Raj Shrestha,Added gitbook artifacts to .gitignore and removed .DS_Store,False
+c0577d85c196e59662a8f8f9f11f9e42d8e8d1c1,2016-06-07 08:12:36,Takle,Code: Cleanup support.js,False
+b1a7b12215f66343dc7efb60e28c30549e8479f8,2016-06-07 05:34:58,Takle,Gitbook: Add plugin to embed excercise files.,False
+6ed69713b34e21b2ee2f251097d759cc8ced79f7,2016-06-04 08:45:35,Brian Lonsdorf,"Merge pull request #277 from jtangelder/patch-2
+
+Fix typo",True
+fad87e0d05bc8936763bf501cd58aa2789320a1c,2016-06-02 12:24:00,Jorik Tangelder,Fix typo,False
+69c4f4fb2b9515f4cbd07b273f57d4dc5d57d69e,2016-05-31 14:36:37,Takle,ch6: fix silly mistakes,False
+07980c37f1d63f03afd66125aa0dbf3be115e799,2016-05-31 07:54:13,Takle,All chapters: Adding ;,False
+02ecbaa8f8edda3982bbd075079553e03f28dacb,2016-05-31 05:24:29,Takle,ch10: remove '_.' prefix,False
+a7247eb8b8ea98efb90420fabce53e8cdcd0fa1a,2016-05-31 05:23:57,Takle,ch6+app: Reflect app changes,False
+0fd6ff23fd04d55674c495aa0279c3b63aefe2a0,2016-05-30 20:56:22,Takle,Exercises: Flatten,False
+72926226505848f60f100667491fb7e3ffee4642,2016-05-29 09:51:47,Takle,Exercises: Initial rewrite,False
+4b7083712942f3ebc8cc8b5a45286a9e483ff603,2016-05-26 10:07:43,Taylor Hurt,fixes mostly-adequate-guide/#271,False
+bd64f54c88ff7d0725e09ee8d0e68c4e3dc7c134,2016-05-25 13:05:45,Taylor Hurt,"Fixes mostly-adequate-guide/#269, adds Babel to part2_exercises/package.json to allow Mocha tests to run with ES6 syntax, modifies part2_exercises/package.json scripts, modifies part2_exercises/readme.md to reflect script changes
+
+I ran into a couple problems after setting up babel.
+
+SyntaxError in part1_exercises/support.js: Assigning to arguments in strict mode (51:6)
+- resolved with `var _arguments = Array.prototype.slice.call(arguments)`
+ReferenceErrors for global variables in part2_exercises/support.js
+- resolved by adding `global.` prefix to global variables
+
+side note: I find it odd that there are separate package.json for part1 and part2. It seems like these should be merged so that there is only one package.json for both.",False
+6f80fbdd4473ec3e9e22ee299cd297f5f86858a7,2016-05-24 04:54:28,Takle,"chapter3: const -> let
+
+* based on feedback from @ChetHarrison",False
+6505c3e14cd505e85324431304571a279ef8f843,2016-05-22 22:08:09,Brian Lonsdorf,"Update ch9.md
+
+Fix mcompose (kleisli)",False
+191a3b619a92cced708b706f7852f55e0191743c,2016-05-12 20:25:00,Delapouite,"fix: add missing alt attributes for images, for eBook validation",False
+671f1c024bafd72e02e2dc16221e733409a5c039,2016-05-03 04:45:27,Takle,chapter 2: Use object methods,False
+874b08da11962e54601d998cb1b4ab4b10f9d7c0,2016-05-03 04:25:57,Takle,Update chapter 10,False
+f1608d399c4045c0fe2b18824464c91e3afe9645,2016-05-03 04:25:15,Takle,Update chapter 9,False
+d167d83a2036b328bb1f0a74f8224f77034e4ee3,2016-05-03 04:24:38,Takle,Update chapter 8,False
+5cf6ceace193c2cdf055796b7e887779dcbc4a3a,2016-05-03 04:24:18,Takle,Update chapter 7,False
+3518f5276d3c7d9e744b42bc66ed4dbc523d86d8,2016-05-03 04:23:46,Takle,Update chapter 6,False
+c0bc737fb1822cd112ca2973815db2948c51a010,2016-05-03 04:23:20,Takle,Update chapter 5,False
+cc9c4a3c5c50f864b57d8da2a7cbd61356d826a8,2016-05-03 04:22:44,Takle,Update chapter 4,False
+b567be31ab30b193d2319cc04c148ff007ce51d1,2016-05-03 04:21:41,Takle,Update chapter 3,False
+2e71aa1ad7b628258e3e01c492ad9a74518272a6,2016-05-03 04:21:00,Takle,Update chapter 2,False
+7e3feea8641542abbbf9a1aac3d170bd112328e5,2016-05-03 04:19:56,Takle,Update chapter 1,False
+2c95999023b77507167b91dbf858c7d3e45519db,2016-04-24 18:01:47,Matthias Benkort,"Merge pull request #270 from vitalymak/fix_duplicate_d
+
+Fix duplicate 'D': 'd' in toLowerCase",True
+00b1f69446d02825e405dbe9b7ddf61338e35a47,2016-04-23 13:35:04,Vitaly Makarevich,Fix duplicate 'D': 'd' in toLowerCase,False
+c241d1c5984cef460bb6fd561fdbfc9eda8289c3,2016-04-10 21:49:05,Brian Lonsdorf,"Merge pull request #265 from DanBurton/patch-2
+
+Update ch9.md with correct IO join per #264",True
+a4527bb04cd15ed8259f4d8c8dc75e34a6dbbb51,2016-04-06 20:21:51,Brian Lonsdorf,"Merge pull request #266 from gunar/master
+
+Fix answer for part2/functors ex6",True
+f92f758445e122bd54cccad21b1eaafd95454314,2016-04-05 07:21:57,Gunar C. Gessner,Fix answer for part2/functors ex6,False
+3cf9675d366b746673f53c7c4e0153a93e24d8e0,2016-04-03 13:08:22,Dan Burton,Update ch9.md with correct IO join per #264,False
+b122c0ddbb33091b81bcf08e08f0248661153a32,2016-04-01 03:06:32,Brian Lonsdorf,"Merge pull request #263 from exiadbq/patch-2
+
+Update ch4.md",True
+2df3669a9548502003ae0eec8d28eb48fd07b5b0,2016-03-31 04:40:53,Ray Dai,"Update ch4.md
+
+lodash-fp package has been discontinued in favor of lodash/fp.",False
+879a88ba458f824a35167e6fbcd119e0c205460e,2016-03-25 21:00:01,Brian Lonsdorf,"Merge pull request #85 from manuganji/master
+
+Instructions to setup immediate feedback loop while answering questions",True

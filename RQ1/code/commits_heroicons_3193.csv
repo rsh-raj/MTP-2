@@ -1,0 +1,690 @@
+Hash,Date,Author,Message,IsMerge
+fa902f44d071eac776758cfd6e0522cb7c37b1c3,2024-12-27 03:19:17,Ingo Köpp,"Upgrade semver from 6.3.0 to 6.3.1, which fixes a high severity vulnerability (#1253)",False
+2d1c52ce682b375e8900b1b119aa02a6f1706327,2024-11-18 21:08:00,Jonathan Reinink,Add description and keywords to package files,False
+b350e27d3421dc69a7076872c3406f91e3889011,2024-11-18 21:07:41,Jonathan Reinink,Update publishing instructions,False
+0435d4ca364a608cc75e2f8683d374e55abbae26,2024-11-18 21:01:50,Jonathan Reinink,2.2.0,False
+f327cbe38385c6add89a4e7bb72e701b4e50f25a,2024-11-18 20:57:22,Jonathan Reinink,"Add React 19 support (#1247)
+
+* Add React 19 support
+
+* Update changelog",False
+56c073c2c9a66d2e51adb93d8e87e2e941d5b6db,2024-07-22 20:30:29,Jordan Pittman,Update changelog,False
+64e23681c1fc84cfe47778a013d6291963603ff2,2024-07-22 19:46:43,Randy Coulman,"Remove clip-path from 20/arrow-left-circle (#1211)
+
+At size 20, the `arrow-left-circle` icon was not displaying correctly in my Elixir Phoenix LiveView application.
+
+Comparing to the other `arrow-*-circle` icons of size 20, as well as the other sizes of `arrow-left-circle`, this is the only variant that contains a `clip-path`.
+
+Removing the clip-path allows the icon to display correctly.",False
+ad0ad1f6d51bd64dcd67e363d2b2833a8de25154,2024-07-10 23:26:13,Jordan Pittman,2.1.5,False
+58d511e23db9c801ba9078186f54f30a6ed6c250,2024-07-10 22:53:12,Jordan Pittman,"Add new icons (#1204)
+
+* Add new icons
+
+* Optimize icons
+
+* Update changelog",False
+c1b192b8cd0f1b3c569d25ba995d170f3db86039,2024-06-18 03:28:30,Jordan Pittman,2.1.4,False
+e2e487fed03d9f9651f3952eddc52997f7abe78d,2024-06-17 19:16:08,Jordan Pittman,"Make sure calls to `forwardRef` are marked as pure (#1192)
+
+* Make sure calls to `forwardRef` are marked as pure
+
+* Update changelog",False
+cafc7d6cb6c2233b07667ae1fb77a43866a333e3,2024-05-23 01:12:26,Robin Malfait,use `size-*` instead of `w-* h-*` (#1182),False
+9a17872e685bf48b83c047572c45617b6fd345e7,2024-04-26 19:46:26,Davy de Vries,Update README.md (#1167),False
+01c786b0353c7e51b86bc903a329e81d7578333d,2024-03-23 01:39:11,Jonathan Reinink,2.1.3,False
+1b9fc17423757a9707c9879733e213833fe7fc83,2024-03-23 01:37:06,Jonathan Reinink,"Improve project READMEs (#1152)
+
+* Improve project READMEs
+
+* Update shields
+
+* Update changelog",False
+fb6bdfac85147ac0a5b126954fdf818346c33351,2024-03-22 23:49:00,Jonathan Reinink,2.1.2,False
+d84ffa54054a131a01b6f10f9f2eb39a1b46234f,2024-03-22 23:19:32,Jonathan Reinink,"Include license file with published packages (#1151)
+
+* Include license file with published packages
+
+* Update changelog",False
+957ba2f549546d9c37926d52fc656bc1a9b636a4,2024-03-22 22:46:59,saibotk,"ci: add provenance to published packages (#1145)
+
+This commit adds provenance for all published packages. See the NPM documentation [0].
+
+Provenance will allow people to verify that the packages were actually built on GH Actions and with the content of the corresponding commit. This will help with supply chain security.
+
+For this to work, the `id-token` permission was added only where necessary.
+Additionally, the repository link was added to the `package.json` for this to work.
+
+[0]: https://docs.npmjs.com/generating-provenance-statements",False
+f7368258ce5e491ad572f2917a4a2c80da0700f0,2024-02-13 23:19:02,Jonathan Reinink,"Update package-lock.json file
+
+Co-Authored-By: Fabian Urrutia <12889292+fabianurrutia@users.noreply.github.com>",False
+df1be9efd1dd3c08901c948e45b0f26b687c1659,2024-02-13 23:17:46,Jonathan Reinink,"Fix changelog links
+
+Co-Authored-By: Fabian Urrutia <12889292+fabianurrutia@users.noreply.github.com>",False
+88ab3a0d790e6a47404cba02800a6b25d2afae50,2023-12-19 01:38:11,Jordan Pittman,2.1.1,False
+4397ab40cf79bbb1649d4dc30a157d63756cdf46,2023-12-19 01:36:54,Jordan Pittman,"Fixed 20x20 chevrons (#1106)
+
+* Update chevrons
+
+* Rebuild icons",False
+b2dbc3279d42ddd17e84b71ced71b5c291665131,2023-12-18 23:53:24,Jordan Pittman,Bump vue & react versions,False
+d1971c5550e858d4c024d81398781c83951ace19,2023-12-18 21:12:25,Jordan Pittman,2.1.0,False
+4783a8b871bce99c0c6a18b34ae7562d6e5b9e54,2023-12-18 21:10:36,Jordan Pittman,Tweak changelog,False
+856b33e8ca185672d5000ecc50911b8aa2c517e6,2023-12-18 21:10:13,Jordan Pittman,Update changelog,False
+55fcd7a634d698a93ed3b12f2db55e0d4c0c2d3d,2023-12-18 20:57:39,Jordan Pittman,Rename icon,False
+5f834ee604305be47c5e5f510f00da8b79dcb1d8,2023-12-18 20:48:31,Jordan Pittman,Rebuild icons,False
+ae56ba46f0522cd6179a048e7832830379b57179,2023-12-18 20:48:26,Jordan Pittman,Update deprecated list,False
+189204fbbcb6a676d0373ceb2bf2fd7fa379216c,2023-12-18 20:48:00,Jordan Pittman,Remove viewfinder dot — it wasn’t supposed to be renamed,False
+44ae92add96af69eb4f03e39f97b66f3801b496c,2023-12-18 20:47:44,Jordan Pittman,"Remove `bold`, `italic`, and `underline` icons
+
+These weren’t supposed to be added",False
+a0b5790cc4fe42669a544f9d7d8c75dee87e9f9a,2023-12-18 20:25:32,Jordan Pittman,Rebuild icons,False
+09740d9c42ff7f0ff0f9f68666d56e4d3f9f7428,2023-12-18 20:25:23,Jordan Pittman,Add data-slot attribute,False
+a3c7692ceeb378ced7819d346faf787e5b3ac7e0,2023-12-18 20:03:21,Jordan Pittman,Update copy in various places to mention 16x16 set,False
+9600adbaa2246a82f46f7b1af0c41a8980fc1cd8,2023-12-18 19:57:40,Jordan Pittman,Update exports for Heroicons Micro,False
+74fdac4b0b164fc7ccf9f6085617c5ac4114881c,2023-12-18 19:57:40,Jordan Pittman,Make sure micro set is actually generated for React + Vue,False
+ec6d82ad2e34c6efd0a00ff605573a44723d3a42,2023-12-17 01:19:50,Jordan Pittman,"Add micro set (#1104)
+
+* Update exports for Heroicons Micro
+
+Add 16px icon set
+
+wip
+
+* Add new icons
+
+* Update icons
+
+* Tweak verification script
+
+* wip
+
+wip
+
+* Fix cap icon
+
+* wip
+
+* Refactor build script
+
+* Move deprecated icon list to own file
+
+* Mark deprecated icons in React and Vue",False
+f937b6fee525976b4021a39b97b798b7a1adf235,2023-10-17 20:26:21,Robin Malfait,"Update `bold`, `italic` and `underline` icons for 20/solid (#1086)
+
+* update `bold`, `italic` and `underline` icons for 20/solid
+
+* generate optimized examples
+
+* update changelog",False
+6ffaf34b1777edc0fe2f300451681496dfb08e77,2023-10-16 22:32:24,dependabot[bot],"Bump @babel/traverse from 7.18.11 to 7.23.2 (#1085)
+
+Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.18.11 to 7.23.2.
+- [Release notes](https://github.com/babel/babel/releases)
+- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)
+
+---
+updated-dependencies:
+- dependency-name: ""@babel/traverse""
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1e4b5ec07ab4a46729cdd409df1e43df72fc7511,2023-10-16 21:31:54,Robin Malfait,"Add `bold`, `italic` and `underline` icons (#1084)
+
+* add bold, italic and underline icons
+
+* sync package-lock.json
+
+* add optimized version of bodl, italic and underline icons",False
+88e98b0c2b458553fbadccddc2d2f878edc0387b,2023-09-29 01:23:40,Jordan Pittman,"Update to SVGO 3 (#1078)
+
+* Optimize assets using svgo2
+
+* Rebuild SVGs
+
+All of the diffs here appear to be spaces after flag values — they’re only ever one character which means the space isn’t required except for some software which doesn’t parse them correctly.",False
+eee05eb77af6cdedfb97f128d1998773fc984b28,2023-06-06 19:18:53,Adam Wathan,Update README.md,False
+f64c10b59dcd6417732a984ce4376bed13799485,2023-05-09 22:46:04,Jordan Pittman,2.0.18,False
+1f7551eaa950a2fc364c84b9f855aee315fd1371,2023-04-27 16:11:41,Robin Malfait,"add CI workflow (#989)
+
+This will run the build script as a minimum to make sure that the build
+script itself works. This doesn't verify the output yet.
+
+However, this should prevent version bumps in packages with a different
+API to be (auto) merged.",False
+4649df53478856ad03fc79e23879aee1a0d06000,2023-04-27 16:01:34,Robin Malfait,update changelog,False
+ec572ada61474b2fa2c8caf536426373a126ceb0,2023-04-27 15:55:26,Nicholas Brown,"Bugfix: Include the correct import paths for esm (#988)
+
+* Update package.json to include the correct import paths for esm
+
+* Don't overwrite line endings
+
+* add missing `esm` to path
+
+* downgrade `@svgr/core`
+
+This PR (https://github.com/tailwindlabs/heroicons/pull/985) was merged,
+but we don't have CI running for PRs therefore no errors were shown.
+
+Downgrading to get the old behaviour. Will setup CI and bump the version
+in separate PRs.
+
+* adjust build script to include `esm`
+
+---------
+
+Co-authored-by: Robin Malfait <malfait.robin@gmail.com>",False
+10804358705599a53b095e07f34d6f2864c54d4e,2023-04-26 06:29:06,dependabot[bot],"Bump yaml and @svgr/core (#985)
+
+Removes [yaml](https://github.com/eemeli/yaml). It's no longer used after updating ancestor dependency [@svgr/core](https://github.com/gregberge/svgr). These dependencies need to be updated together.
+
+
+Removes `yaml`
+
+Updates `@svgr/core` from 5.5.0 to 7.0.0
+- [Release notes](https://github.com/gregberge/svgr/releases)
+- [Changelog](https://github.com/gregberge/svgr/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/gregberge/svgr/compare/v5.5.0...v7.0.0)
+
+---
+updated-dependencies:
+- dependency-name: yaml
+  dependency-type: indirect
+- dependency-name: ""@svgr/core""
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+af8933a0a08d7b0c6c71bbd42e821273648b9f81,2023-03-31 02:34:53,Jonathan Reinink,Add Prettier and run it against the project,False
+20c6123fadc5b6ae7f993081abfadf6459e01095,2023-03-31 02:28:26,Jonathan Reinink,Add line return to end of package.json files,False
+857ba1b04f8017a36c7c0fd6e2738fef37492f18,2023-03-31 02:15:07,Jordan Pittman,"2.0.17
+
+Update version for re-publish",False
+29648c88507caf30ef83d12d5728325e1c08da41,2023-03-31 02:08:58,Jordan Pittman,update changelog,False
+cb6e10c79a6418557ea34c066febaa56659ba437,2023-03-31 02:08:11,Jordan Pittman,"Fix React icon types (#966)
+
+* Fix React icon types
+
+* Update changelog",False
+1ef549d0b7eaba7224b3db9654894fad12364f7f,2023-02-17 22:02:25,Jordan Pittman,tweak changelog,False
+dc3540c8146da5a2b2e7d1874838b3c070390011,2023-02-17 22:01:29,Jordan Pittman,Update changelog,False
+790c1cfd809f428920a317e9f057ff2149a5ee6f,2023-02-17 21:59:42,Jordan Pittman,2.0.16,False
+1a07e812164e12da83e6bd90d652aa91a27e0eb1,2023-02-17 21:33:08,Jordan Pittman,Fix package file generation,False
+b66e3605e439579a09a30aa2f5cfa053f69c926f,2023-02-17 21:32:42,Jordan Pittman,Update file list,False
+33deb7b4759828bdd794d7a389dfd030fc2a41fd,2023-02-17 21:24:55,Jordan Pittman,"Add root-level import (#936)
+
+* Add root-level import
+
+* Fix error message
+
+* Tweak copy
+
+* Add comment",False
+60bcd8e611308b3b8aa4d9fccc0599a02dca2112,2023-02-11 20:32:22,Manaus,Update Vue example to use script setup (#931),False
+e9cf3d4adbc32e1c4fc14a2622405086ff876867,2023-02-09 01:53:53,Jordan Pittman,2.0.15,False
+436b957522502c39c077710390119133ce32375a,2023-02-09 01:49:54,Jordan Pittman,Mark packages as side-effect free (#929),False
+ddb4af0ae0cfdf02ee138c7cd7eeb321fd35fd40,2023-01-26 02:01:50,Jonathan Reinink,Add publishing information to contributing docs,False
+d93386a68909995339a747217840d4f3c702033b,2023-01-26 01:46:10,Jordan Pittman,Update individual package version numbers,False
+421f8f545d19668c832e3b51a3605ec82164c88e,2023-01-26 01:41:01,Jordan Pittman,2.0.14,False
+82593a4fa8e2438601e234f61dfc2af2db6e1543,2023-01-26 01:41:00,Jordan Pittman,update changelog,False
+b1a35fe3eded1ffb65065d7d784e996658b9d5f0,2023-01-25 22:57:16,Jordan Pittman,Update changelog,False
+f53375d9f9b8948c45e93ba1977fdf6af9d98180,2023-01-25 22:47:48,Alexander Nanberg,Fix React ref type (#903),False
+edb9526147c41f60aa6e8c4fd7b0644055e01717,2023-01-25 22:30:20,Jordan Pittman,Add exports field (#920),False
+1765c5608205c0766599441834e4a337ffa88335,2023-01-09 15:54:05,dependabot[bot],"Bump json5 from 2.2.1 to 2.2.3 (#909)
+
+Bumps [json5](https://github.com/json5/json5) from 2.2.1 to 2.2.3.
+- [Release notes](https://github.com/json5/json5/releases)
+- [Changelog](https://github.com/json5/json5/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/json5/json5/compare/v2.2.1...v2.2.3)
+
+---
+updated-dependencies:
+- dependency-name: json5
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1511059c0584aa0d2690cb89c01b183c4ae011d7,2022-11-02 18:03:57,Jonathan Reinink,2.0.13,False
+fe04b0c467cdaef10fb60428c6f7208ee9417362,2022-11-02 17:50:37,Robin Malfait,"Add release workflows (#872)
+
+* update changelog
+
+We were missing the `2.0.12` notes.
+
+* add `release-channel` and `release-notes` scripts
+
+* bump actions, hoist env, use $GITHUB_ENV
+
+* add prepare-release and release workflows",False
+fe073d2e7225c3dbb7123d75fb6686d1e6d96aa5,2022-11-02 01:22:14,Robin Malfait,generate optimized build of `solid/20/minus` icon,False
+571587f869d4b67b098eb668e907ce85d7d179df,2022-11-02 00:36:45,Jonathan Reinink,Update CHANGELOG.md,False
+0a88242ffddbd79177b8cd4cf954d3a54be121a6,2022-11-02 00:34:49,Jonathan Reinink,Fix off centered minus icon,False
+55fd2a2c13e8b79b5117915b1b82018e6eb769a1,2022-10-31 23:39:26,Hubert Moncenis,"Update CHANGELOG.md (#871)
+
+* Update CHANGELOG.md
+
+* Update CHANGELOG.md
+
+Co-authored-by: Adam Wathan <adam.wathan@gmail.com>",False
+e58d022d02b8c9a8042ff071249f44621368ef97,2022-10-06 01:49:25,Robin Malfait,2.0.12,False
+fcb37b84f1549ccd51d88a7574ff008b721927db,2022-10-06 01:45:24,Robin Malfait,bump React and Vue package versions,False
+6b4ab65d35321ed6672b4990a638704a85a0f9d7,2022-10-06 01:12:15,Robin Malfait,"Fix `information-circle` icon alignment (#846)
+
+* update information-circle icon
+
+* update changelog",False
+bbe210e9eef61f1e77ed4147abe2b4b097865d1f,2022-09-13 15:07:10,Robin Malfait,"Add `title` and `titleId` props to the React types (#814)
+
+* add `title` and `titleId` props to React types
+
+* update changelog",False
+4278687013bf68060f26b073acef0b9bcebf8cb1,2022-09-13 00:22:52,Robin Malfait,2.0.11,False
+a96ab51f0d2a34ac309d0816f85cfad86dab7825,2022-09-13 00:22:51,Robin Malfait,update changelog,False
+f3899b4c881b0834247260cd37b526f92036990e,2022-09-13 00:20:18,Robin Malfait,bump React and Vue package versions,False
+4658f973a30bb2791b94a306dda2505003bbdbf9,2022-09-12 22:42:50,Robin Malfait,"Add new icons (#809)
+
+* add new icons
+
+* optimize new icons
+
+* update changelog",False
+56246254bc143ea9b4e940497030f182ba4e42c4,2022-09-02 21:23:50,Robin Malfait,"add Changelog file
+
+This will make it easier in the future to track changes.",False
+b933d51df1f27c35414389fea185e9bac0097481,2022-08-30 22:14:41,Robin Malfait,2.0.10,False
+67fc81800a51b5eeff4513b5469f1085e334184d,2022-08-30 22:14:31,Robin Malfait,bump React and Vue package versions,False
+137be289889ffb86ff59c74e182b07e33876a4ec,2022-08-30 22:13:36,Robin Malfait,"Fix arrow path direction (#786)
+
+* fix typo
+
+* ensure arrow path icons turn in same direction",False
+a896dd600a0282ee905bbbbe7294a1e0b6088848,2022-08-30 21:55:04,Robin Malfait,2.0.9,False
+07d5da915e6b441bd0a657d413e6052becd50ded,2022-08-30 21:54:55,Robin Malfait,bump React and Vue package versions,False
+4238c99dae4b99301c47f00e9473f2c9a737b29f,2022-08-30 21:54:17,Robin Malfait,"Add missing icons (#785)
+
+* rename `arrow-path` to `arrow-path-rounded-square`
+
+* generate optimized icons
+
+* only lint `.svg` files
+
+(And not .DS_Store files for example)
+
+* re-balance some mini icons
+
+* generate optimized icons
+
+* add new icons
+
+* generate optimized icons",False
+ea53d076110a3341b7e28ea89c6a56c1df189cab,2022-08-30 16:50:07,stefanprobst,Allow setting title via prop (#779),False
+a73b45d95d9ebd479155732fe1b70ba5016ff223,2022-08-27 00:40:11,Robin Malfait,2.0.8,False
+a95f205ba6b5024afd1c8c8e88a0f4b599fa04db,2022-08-27 00:40:02,Robin Malfait,bump React and Vue package versions,False
+c33036bb7c1ba487cfbe5954757b7672900833d6,2022-08-26 20:16:12,Robin Malfait,"Improve Check icon (#770)
+
+* improve check icon
+
+* generate optimized icon",False
+7fdead8759bbb0c84a17750f4557417655abd96b,2022-08-26 19:54:03,Robin Malfait,"Improve mini Tag icon (#769)
+
+* update mini tag icon
+
+* generate optimized icon",False
+b6e71f3d381d4d45eb2e3e6285c960a4f102af32,2022-08-26 19:37:38,Robin Malfait,"Arrow icon improvements (#768)
+
+* improve arrow icons
+
+* generate optimized icons",False
+02e95bf680ff0da3e48b116e2260435fdd52b87c,2022-08-26 19:13:24,Robin Malfait,"add quick little lint script
+
+This will verify that all files exist in all variants",False
+abee3bea0aa5b1c968fc43e10680c3396b2376ce,2022-08-26 18:22:29,Robin Malfait,"publish specific version intead of using --prefix
+
+--prefix doesn't seem to be supported for `npm publish`",False
+5f09ef56a50ed156c114f5ebc72f46af89b924d8,2022-08-26 18:16:41,Robin Malfait,"Next batch of improvements (#767)
+
+* add release insiders workflow
+
+* update a bunch of icons
+
+- mini/heart.svg
+- mini/minus.svg
+- mini/pencil-square.svg
+- mini/user-plus.svg
+- mini/x-mark.svg
+
+- outline/hand-thumb-down.svg
+- outline/hand-thumb-up.svg
+- outline/minus.svg
+- outline/plus.svg
+- outline/user-plus.svg
+- outline/x-mark.svg
+
+- solid/hand-thumb-down.svg
+- solid/hand-thumb-up.svg
+- solid/minus.svg
+- solid/plus.svg
+- solid/user-plus.svg
+- solid/x-mark.svg
+
+* add new user-minus icon
+
+* optimize icons",False
+2fa81a72257897b5e6d17aee91fca769876045cd,2022-08-25 21:27:59,Robin Malfait,2.0.7,False
+a5ec813cabd6df403521fc0f5eef435db933bf80,2022-08-25 21:27:52,Robin Malfait,bump React and Vue package versions,False
+cfa44ee23bd411881108a2abe38d10ed06f2d715,2022-08-25 21:27:22,Robin Malfait,"More improvements! (#764)
+
+* improve minus, plus and hand thumbs icons
+
+* optimize icons",False
+e2c739490ce8508fe516a6efd2b1bf613151e6be,2022-08-25 21:12:22,Robin Malfait,2.0.6,False
+c1b3537f8b45909bbe51b7b4e2bdc054d102e74e,2022-08-25 21:12:13,Robin Malfait,bump React and Vue package versions,False
+78d1d2d65ea7f4cfd158f77c9c5d611557c7ea68,2022-08-25 21:11:50,Robin Malfait,"Improve more icons (#763)
+
+* improve chevrons, minus, plus and funnel
+
+* optimize icons",False
+635836cba6af78830dc7df5ea95779fba1b1cbe7,2022-08-25 19:35:31,Robin Malfait,2.0.5,False
+7752ab7fbbb14b87c96e5276510f19cf87915c46,2022-08-25 19:35:26,Robin Malfait,bump React and Vue package versions,False
+6db09fd3aaa53e0a2a77afa81e971c3e4d92eb9f,2022-08-25 19:35:02,Robin Malfait,"Add improved check icons (#762)
+
+* update check icons with newly redrawn check icons
+
+* generate optimized icons",False
+641410903ac577f41ce2c4622171c0ce01934cd5,2022-08-24 21:32:42,Robin Malfait,2.0.4,False
+c7877cca7be68d0a933b4e2032dd0a04c628ca7d,2022-08-24 21:32:35,Robin Malfait,bump React and Vue package versions,False
+61048b28a843c299807b9cdbdb55a9ca1b8ed955,2022-08-24 21:32:09,Robin Malfait,"Fix outline of newly added missing icons (#759)
+
+* update incorrect outline icons
+
+* optimize fixed icons",False
+b78ee7bb5cca17e9a394b04c69598a771c0e1136,2022-08-24 21:06:44,Robin Malfait,2.0.3,False
+c0eb93fe90f7dddc4d1d143c42699a0931dbe619,2022-08-24 21:06:39,Robin Malfait,bump React and Vue package versions,False
+80d68485d6759d9999de8eb0410b919bee7d2af4,2022-08-24 21:06:01,Robin Malfait,"Add some missing icons (#758)
+
+* add prebuild script to cleanup generated files
+
+* add missing `rss` icon
+
+* add missing `chevron-up-down` (formerly known as `selector`)
+
+* add missing `bars-arrow-down` (formerly known as `sort-descending`)
+
+* add missing `bars-arrow-up` (formerly known as `sort-ascending`)
+
+* generate optimized icons",False
+59edb22aee052ef3f8d6517df6eb447316ec4283,2022-08-24 20:47:18,Robin Malfait,apply consistent naming for `code-bracket` (#756),False
+862f202a8cdb5980347c15d63e84183c05128de4,2022-08-24 18:40:33,Robin Malfait,2.0.2,False
+1150454f350fd945e795f1f2074f0462d036ad91,2022-08-24 18:40:17,Robin Malfait,bump React and Vue package versions,False
+4ade40d5d57a687a9c0b1a6455fbc33da0c6d612,2022-08-24 18:39:14,Andrea Vanini,"FIX typos in exclaimation (#735)
+
+* FIX typos in exclaimation
+
+* Rebased and built optimized versions",False
+14c8075ea265b2d95898f556cd0bbb3100f2a981,2022-08-23 23:37:44,Robin Malfait,2.0.1,False
+061758144e953e2d3ab54c39412798e68e28dc15,2022-08-23 23:37:35,Robin Malfait,bump React and Vue package versions,False
+f5086588a9b25fd425578fbe185deb38d6b8505f,2022-08-23 23:31:02,Robin Malfait,add outline/solid upgrade error scripts,False
+45f7f3fc36f15dbb32757052ef37e8aa5ca41e00,2022-08-23 21:27:32,Robin Malfait,update README to include all imports,False
+76b6af672491bff1ca7a3a067432bffd04a2b2e7,2022-08-23 20:43:21,Robin Malfait,2.0.0,False
+dc0a9de6ee6e4a2f37b4ae5764021b8aa27f871c,2022-08-23 20:42:48,Robin Malfait,bump React and Vue package versions,False
+d1cc32fbf8fa080fe5a7fd07f8f33385de52078c,2022-08-23 20:16:08,Robin Malfait,"v2 release prep (#733)
+
+* wip
+
+* move files around to their new location
+
+- `solid` -> `24/solid`
+- `mini` -> `20/solid`
+- `outilne` -> `24/outline`
+
+* rename svgo configs to reflect new names
+
+The diff is a little bit confusing. It looks like it moved
+`svgo.filled.yaml` to `svgo.20.solid.yaml` but that should have been
+`mini`.
+
+The reason it does this is simply becaue the contents of
+`svgo.filled.yaml` and `svgo.mini.yaml` are the same.
+
+* rename optimized files
+
+* update paths in build scripts
+
+* ensure to publish the files in the 20,24 folders
+
+* update README documentation
+
+* update README logo's
+
+* change dimensions of logo a bit
+
+Co-authored-by: Brad Cornes <hello@bradley.dev>",False
+db29d11448c947c42822aca42026a9f14806530d,2022-03-17 00:32:18,Adam Wathan,Update config.yml,False
+f9a484554542ff6d925c048d80de5ddb7e22b62b,2022-03-14 18:40:26,furkan mavili,"Update README.md (#644)
+
+Move stroke-width attribute to svg",False
+71b15b9e72e0211c5dbb28fb75f280deedaec28d,2022-03-02 17:03:35,Brad Cornes,Fix esm path,False
+b4008fc45ab657312524e67ec5308127366c856e,2022-03-02 16:51:53,Brad Cornes,Bump package versions,False
+05d5a67eb5aff99ad8dd890a4260ce898b90b1f0,2022-03-01 23:33:52,Brad Cornes,"Move stroke-width from path to svg at build time (#631)
+
+Co-authored-by: Adam Wathan <adam.wathan@gmail.com>
+Co-authored-by: andronocean <26490481+andronocean@users.noreply.github.com>",False
+7134b92d32f39c1fb8482f3f7d33c08770bf94d5,2022-02-24 23:02:26,Michalis Giannas,Fix vue TypeScript declarations. (#608),False
+63fa47e4866d0e2bb32b415a9662dcba30756909,2022-02-22 20:30:40,Vjacheslav Trushkin,Fix folder icons (#598),False
+99adc53916974ba71da0d74a4c30cdddd72d7f85,2022-02-22 20:21:38,Darius,"Add sideEffects to package json files (#572)
+
+Adds sideEffects to package.json files, plus some misc. cleanup and improvements
+
+Rationale: bundlers like webpack and esbuild use this field to drop unused symbols. See https://esbuild.github.io/api/#tree-shaking",False
+b9d17511d269da33177b660b654830444bcbd1e7,2022-02-21 21:17:36,Robin Malfait,"feat: add forwardRef support for react components (#614)
+
+Co-authored-by: impulse <ecklf@icloud.com>",False
+be7c9dee326867ff951f2b3c3a019237a74b9018,2021-10-22 22:46:04,Brad Cornes,1.0.5,False
+6fca88b7e66568cf22084691875d6e10c5459f5a,2021-10-22 22:45:53,Brad Cornes,Bump react and vue package versions,False
+282b78bb72d9b56332f97ebd11a7ecb67f800344,2021-10-22 21:29:05,Brad Cornes,"Add `{""type"":""module""}` to `esm` folders",False
+d10250fb97deca99e05f1b8d8f2a6ca830a0d9f4,2021-10-22 20:51:25,Brad Cornes,"Fix `solid/arrows-expand` icon
+
+Co-Authored-By: Palau <pepalauisaac@gmail.com>",False
+ede96207e70912d6cae8420bf82e482bb3907010,2021-10-22 20:46:54,Brad Cornes,Regenerate optimized icons,False
+1d512146c15354804be4658df5c64b02d770d243,2021-09-30 18:25:08,Nicolas Spehler,Fix solid arrows-expand fill color (#515),False
+a4c18e9068c48f0d6247d3986fc9217439cba32c,2021-09-11 06:49:46,Keisuke Kan,refactor: remove .DS_Store (#167),False
+3a8270a32c13bee1a6124917474955d95d3d78b5,2021-09-11 06:48:36,Eugene Kopich,react/vue hashes in readme (#249),False
+327c42900bcd42340a0b91c31d7741fa81c1f3f3,2021-09-11 06:47:57,dependabot[bot],"Bump lodash from 4.17.20 to 4.17.21 (#273)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.20 to 4.17.21.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.20...4.17.21)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+14c4c8f1104aa66081f5d2521b74ea56e518d7a5,2021-09-11 06:46:49,Peter Neupauer,"Add `aria-hidden=""true""` attribute (#261)
+
+Signed-off-by: Peter Neupauer <peter@neupauer.sk>",False
+2ab9ca8017429eea00d9f5bddf1afeba7027b566,2021-09-11 06:45:49,AryaveerSR,"Added README.md to package.json's Files Array (#324)
+
+Co-authored-by: aryaveersr <AryaveerSR@users.noreply.github.com>",False
+a9df7922475f106ce65cb0cb474a2461457b31be,2021-09-11 06:45:23,dependabot[bot],"Bump browserslist from 4.16.3 to 4.16.6 (#283)
+
+Bumps [browserslist](https://github.com/browserslist/browserslist) from 4.16.3 to 4.16.6.
+- [Release notes](https://github.com/browserslist/browserslist/releases)
+- [Changelog](https://github.com/browserslist/browserslist/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/browserslist/browserslist/compare/4.16.3...4.16.6)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+67684c9d540033ebe1ad8e763707b1f4f86823a2,2021-09-11 06:44:48,Sachin Raja,chore: remove cached .DS_Store files (#295),False
+a8cf40141f4220d14445922d63db6edf57ec0dbe,2021-09-11 06:44:22,Sébastien Vanvelthem,"chore: add MIT licence to package(s).json (#317)
+
+Co-authored-by: Adam Wathan <adam.wathan@gmail.com>",False
+e4d24fa361d595024f3c26ae7792004119669063,2021-09-10 04:34:33,Simon Vrachliotis,Update config.yml,False
+8dcaacbc064174c45a6a43693e5199256704ecfa,2021-09-10 04:33:21,Simon Vrachliotis,Create config.yml,False
+9d6d4ec336f39e7383cb7694857c8e94c1ecba13,2021-08-17 23:00:38,Brad Cornes,bump react and vue package versions,False
+0b76085d2015575967533a30b22cb456be710adb,2021-08-17 22:59:52,Brad Cornes,1.0.4,False
+2d3a08a612f6ee3291fe389b54686a209e081c0a,2021-08-17 22:57:06,Zhiming Wang,"Fix vue TypeScript declarations (#322)
+
+* Fix vue TS declarations
+
+The declarations generated by #254 aren't correct, leading to tsc errors as
+seen in #318.
+
+* Use `RenderFunction` instead of `DefineComponent`
+
+Co-authored-by: Brad Cornes <bradlc41@gmail.com>",False
+29bfad1cc0743145554d957fd6d58b13a4ced876,2021-07-26 15:29:46,Robin Malfait,bump react and vue package versions,False
+6d227ebf26d22ce1f50d3cc3cbc0a2e15c1f37bd,2021-07-26 15:25:21,Robin Malfait,1.0.3,False
+56703ae8bc92d33181d7e1e0dcc648ab6566f403,2021-07-26 15:24:37,Mia,feat: type declarations for vue (#254),False
+6b2fc5dc1554c903809a31a6beb0745ca56df124,2021-07-09 15:27:57,Brad Cornes,bump react and vue package versions,False
+860955f564f1ec81b0d2add67f932a997be633e4,2021-07-09 15:27:07,Brad Cornes,1.0.2,False
+6077074854724f5f0d3557bb46b4a965bb17ba33,2021-07-09 15:27:05,Brad Cornes,add correct `plus` icons,False
+4cc9c1722695b8414f5287de44f36864b6102f7b,2021-05-15 16:16:47,Adam Wathan,Update README.md,False
+1fb087132ecfd4b4caa5df9ab6c6b1de25fff3ab,2021-05-15 16:16:35,Adam Wathan,Update README.md,False
+589214a21c6c5bae84cd026be3902615094e64ec,2021-04-14 21:04:05,Brad Cornes,1.0.1,False
+574423fd7aa21ff6f7ee89a2e430ec81009ca712,2021-04-14 21:04:03,Brad Cornes,bump react and vue package versions,False
+8c91dbdd60a1efe5f6d7883c470332aece3d26e3,2021-04-14 21:02:57,Brad Cornes,add small arrow icons,False
+291190184f400cd7294e23cf4579b1ef363754de,2021-03-30 02:27:43,Valentin Kaelin,docs: add correct import for vue version (#228),False
+2fd30b5205984a9bcb22df3084db7545fa988ffa,2021-03-29 23:35:56,Adam Wathan,Update README,False
+0978240f8fb1779cb44b39cc2bb399aa916885c1,2021-03-29 23:34:39,Adam Wathan,Update README,False
+1c9205ad0a29dbcdc98c8e4c9989fe2f396595e4,2021-03-29 23:33:36,Adam Wathan,Update README,False
+0c6a1174d5de05a77d5e2df27ce48360fe1f9455,2021-03-29 23:32:33,Adam Wathan,Update README,False
+5da5a4e1cf5e169446a975e9afbd1822db6419ed,2021-03-29 23:32:08,Adam Wathan,Update README,False
+cf2f2960e8797e069b10025fee16bd2f6eb9eedb,2021-03-29 22:54:09,Adam Wathan,Update versions,False
+2f643969c7dee6126aba0225a73c1113e81c7bfd,2021-03-29 22:53:14,Adam Wathan,1.0.0,False
+bb41c1445d4102efbf10c8fd0673a0154cfebac7,2021-03-29 20:57:17,Brad Cornes,restore version number,False
+766c7aa46122cd52d8b24730bec0dfd2d0f21920,2021-03-29 20:57:17,Brad Cornes,rebuild,False
+e690344d3fed164dbb416e88a2db0a6cf33c1743,2021-03-29 20:57:17,Brad Cornes,update scripts,False
+6d59034b51182a2caba9c6acebb3509c502ae8b9,2021-03-29 20:57:17,Brad Cornes,add prettier config,False
+037e66d97603a80be83ac840cadc261265342303,2021-03-29 20:57:17,Brad Cornes,update packages and scripts,False
+7df8321ae4c033b5b6c7e7722938631c53680167,2021-03-29 20:57:17,Brad Cornes,add new vue package,False
+22168a19c203905bb3b51cae70bca9c6fb8f96cc,2021-03-29 20:57:16,Brad Cornes,add new react package,False
+48b54543523004e4fdfa0a141f2962884e1ec042,2021-03-16 20:41:13,podpage,"Removed white background (#171)
+
+* Update academic-cap.svg
+
+fixed white bg
+
+* Update truck.svg
+
+fixed white bg",False
+1cef5f13f97bddbbdbf04e352099cecca52d754d,2020-09-02 17:38:47,Adam Wathan,0.4.2,False
+bc66ab6a7c7a7b7ba322662d8558443a326bcf83,2020-09-02 17:37:13,Adam Wathan,"Merge pull request #122 from tailwindlabs/fix-windows-build
+
+Replace prepare with prepublishOnly",True
+91c9b682a5b904d2cc2f571596e3dd72f6f36fac,2020-09-02 13:04:24,Robin Malfait,"replace prepare with prepublishOnly
+
+The old `prepare` was running before a publish but also when we `npm
+install`. This is not so good and breaks builds for windows users
+(#121). A fix for this is to only run the code before an actual publish.
+This can be configured with the `prepublishOnly` script name.
+
+See: https://docs.npmjs.com/misc/scripts#deprecation-note
+
+Fixes: #121",False
+40787a8a10cca0010396d86bd43ec4ec24371cbb,2020-08-26 21:28:39,Adam Wathan,0.4.1,False
+a64e81b66fbff610143c4c0bdea005c6f8a8bf82,2020-08-26 21:14:11,Adam Wathan,"Update gitignore, add optimized folder",False
+e7658c4bbfe1fcad69721d3ab126a196f24c36e1,2020-08-25 06:21:01,Adam Wathan,0.4.0,False
+1d3e24af9111de824c40f7b67052053022a54300,2020-08-25 06:20:30,Adam Wathan,"Build to ""optimized"" folder, gitignore other dist files",False
+5dd8bf1132b8e81dec5795bd44b7ea5c1d19309f,2020-08-25 01:03:19,sschoger,Updated images,False
+387291faa99d8c622c3933761d6f377d2d2c10f5,2020-08-25 01:00:33,sschoger,Added plus and minus icons,False
+674ebf24cc0be7e548db217ebcca835eb5af7645,2020-08-24 22:48:41,sschoger,Fixed icons for small fire and shopping-bag,False
+82f6a4d82bac701402da82eca57b2f2b9037c914,2020-08-10 01:13:59,sschoger,Added solid login icon,False
+acbf099e0b4fe043c0cee1e6a62427988b81e2ef,2020-08-10 00:18:35,sschoger,Removed path fill on wifi icon,False
+73db856fe6bf7883eec46702447c63efd7fc4b92,2020-08-10 00:16:58,sschoger,Removed white background from wifi icon,False
+28085da5b75d89478d34ea0990cef00a1f2b61d0,2020-08-10 00:13:11,sschoger,"Fixed outline icons that rendered as filled
+
+Applied to most recent update",False
+ecfba30b87166c07993ed8162ce47073752e41f9,2020-08-06 23:09:20,sschoger,"Added 102 new icons
+
+Added 102 new icons in solid and outline sets (51 in each). Updated designs for ""cloud-upload"", ""cloud-download"" and ""logout"".",False
+fd7537549f717d1134bfffda9c4be6ea8ca250b0,2020-07-23 20:04:47,Adam Wathan,0.3.7,False
+34f796f9a78024050c8a974056081b5100aff84b,2020-07-23 20:04:03,Adam Wathan,Rebuild icons with namespace,False
+d3cbaa8af961a18a56406a9fd3ba7f9b022551a6,2020-06-02 06:25:22,Adam Wathan,0.3.6,False
+72de3e77c8be939d5b8004a0247de6c204823f66,2020-06-02 06:25:14,Adam Wathan,Switch to custom React icon build,False
+b51566be7e19ebb1c6280766dbc9a803bedad05b,2020-06-02 00:53:31,Adam Wathan,Use JSX extension for React components,False
+6fb77f2043a39ad332d3d7cbd22236403785cd95,2020-06-02 00:25:43,Adam Wathan,0.3.5,False
+d424e532789a7376ccfecdbc524b11e0f404dea9,2020-06-02 00:25:22,Adam Wathan,"Export Vue components as default, weird Vite bug I think",False
+7050ce646e4e85aeb5d593733d51ff57d625d94e,2020-06-02 00:14:35,Adam Wathan,0.3.4,False
+db48b808594582b357877b6139634e389948c587,2020-06-02 00:14:30,Adam Wathan,Build for Vue 3,False
+98c17e8b8b82414fbeff49a95d5299905e9372e7,2020-06-01 23:29:43,Adam Wathan,0.3.3,False
+7288bbedad686aa7f1248f6b94ff90d2447c7f83,2020-06-01 23:29:39,Adam Wathan,Build Vue components as .vue files using templates for now at least,False
+4ed03b0b3fa7a8dc6a763fe67b18abf2ca41636e,2020-06-01 23:19:09,Adam Wathan,0.3.2,False
+da406d044a081623acf300908527ec20d74192e1,2020-06-01 23:19:03,Adam Wathan,Use ESM syntax for Vue,False
+a4ec0712a7faf5db9711a961f57c3e0e84b1e2f8,2020-06-01 23:11:46,Adam Wathan,0.3.1,False
+16052075bf90eb4c0cee4539d127c9d6782dd85e,2020-06-01 23:11:40,Adam Wathan,Publish Vue components,False
+40c83f4ec986e6e8b1f26a944cf002db82756a0d,2020-06-01 23:09:43,Adam Wathan,Build missing React/Vue icons for 0.3.0,False
+a0d55de4454d38b5ce3be40a4a598e51d11ceb6d,2020-06-01 23:07:43,Adam Wathan,0.3.0,False
+aa8fe98dc1106fe0cfd68f0c91b2fa1c4f7a147a,2020-06-01 23:07:30,Adam Wathan,Add React and Vue components,False
+60e6750e1cee2477e62f62f54f4023690de7336c,2020-05-27 19:13:52,sschoger,"Added 22 new icons
+
+Added icons for solid and outline sets
+
+- fire
+- shopping-bag
+- thumb-up
+- thumb-down
+- hand
+- arrows-expand
+- view-grid
+- puzzle
+- folder-download
+- folder-add
+- folder-remove",False
+bdbd41c50700c77300e4da38b1020a1765d14481,2020-05-18 19:26:30,Adam Wathan,Add prepare script,False
+447192cb2308020b8c41168006229416949f6fed,2020-05-18 19:25:12,Adam Wathan,0.2.0,False
+c4b1b66b0d392359724da969d2c2c06b7f1f1e15,2020-05-18 19:02:25,Adam Wathan,Reorganize and rename icons,False
+b2c4d84c2bfdb13f29c0146ae0f2abc5ab1c063b,2020-05-18 18:41:35,Adam Wathan,Remove misplaced icons,False
+e66ffae9d1a1f856c5641e3ee17bd868b0020356,2020-04-25 18:57:59,Adam Wathan,Fix duplicates/incorrect names,False
+73f9188eccec4f224d56f95269e0e9c651017fda,2020-04-24 19:39:14,sschoger,"Fixed ""md-stop""
+
+Square wasn't appearing in md-stop icon",False
+3d28948e88014629fb62b82bf986f61091ff76a5,2020-04-24 19:31:41,sschoger,"Fixed stroke properties and fill shapes
+
+Fixed mixed stroke properties and solid fill shapes from previous update",False
+7fa35ac92bfb0249d8cd54c5d133cfcce6ed34c0,2020-04-24 19:20:41,sschoger,"Added 30 new icons
+
+Added icons for sm and md sets
+
+- desktop-computer
+- chat-alt-2
+- support
+- newspaper
+- bookmark-alt
+- view-grid-add
+- library
+- play
+- pause
+- stop
+- star
+- terminal
+- chart-square-bar
+- eye-off
+- chart-bar",False
+86bacc7c2b9b6ccacbd0f585ee7fcbf80bab9f5a,2020-03-28 00:14:23,sschoger,Add link to heroicons.dev in readme,False
+41bd40f1bd605dd1d71cf2a8b22c6c772c284d12,2020-03-28 00:01:45,sschoger,"Add new icons
+
+Added icons for sm and md sets
+
+- chat-alt
+- logout
+- key
+- ban
+- download
+- microphone
+- badge-check
+- cursor-click
+- speakerphone
+- document-report",False
+c1b34e87d5c207e62c781245675c408095c8e244,2020-03-19 00:11:49,Adam Wathan,Fix md icons that were being optimized to fills,False
+2abb8143c5cf89633d38565b2df44a392bd3d2fd,2020-02-24 20:30:50,Adam Wathan,Fix inbox icons,False
+d70eaaa3cddb987b62d202d51753ec146615b64c,2020-02-24 20:11:53,Adam Wathan,Create LICENSE,False
+43ed0d2ca7744aa030cf177303ac896c413dcbc9,2020-02-24 19:50:19,Adam Wathan,Update README,False
+d693ab20f8b91c7b6895d85398d9241950d47ffb,2020-02-24 19:46:24,Adam Wathan,Init,False

@@ -1,0 +1,1982 @@
+Hash,Date,Author,Message,IsMerge
+b92745a9d6760e6b4b2394bfac78cbcd258a8c8d,2025-02-21 14:37:39,Luigi Pinca,[dist] 8.18.1,False
+b3d97470ce3dea64be4a7aceeaa1ce121ea2b496,2025-02-20 20:14:57,Luigi Pinca,[doc] Fix nit,False
+021f7b8bff3233a607b74937bc73a224ed8b2951,2025-02-20 20:13:05,Luigi Pinca,"[test] Shorten the path lengths
+
+Shorten the length of temporary file and UNIX domain socket paths.
+
+Refs: https://github.com/nodejs/node/pull/57005#issuecomment-2666921592",False
+b9ca55b0aa8c72b39a778542bd0fa9b6c455d4c4,2025-01-14 18:59:42,Luigi Pinca,[pkg] Update eslint-config-prettier to version 10.0.1,False
+c798dd4ee20efb2d7591b5659839ad05cdb3eb70,2025-01-02 00:43:35,Syed Sadiq Ali,[doc] Fix typo (#2271),False
+68614728c164eb55462ff12ba24cb30451d28ec6,2024-10-26 21:30:08,Luigi Pinca,[ci] Test on node 23,False
+019f28ff1ffddfcdc428d1de5ecd98648057a2ab,2024-07-14 18:50:58,Isaiah Thomason,[minor] Improve JSDoc-inferred types (#2242),False
+bfe1b2a623eb881a107ccf9a95042e8b22933687,2024-07-04 23:07:58,yuhao,[doc] Remove unnecessary period (#2240),False
+f7dc46971768b9678b4a255f9f3e202ab203135e,2024-07-04 11:26:58,Luigi Pinca,[doc] Fix the type of the `data` argument,False
+976c53c4065c49ede73bfba824caf5a6e0f290cb,2024-07-03 22:06:56,Luigi Pinca,[dist] 8.18.0,False
+59b9629b78aa66bcf9acce20468004cd3751c136,2024-07-02 21:20:16,Luigi Pinca,"[feature] Add support for `Blob` (#2229)
+
+Closes #2206",False
+0d1b5e6c4acad16a6b1a1904426eb266a5ba2f72,2024-06-17 00:51:28,Luigi Pinca,[security] Use more descriptive text for 2017 vulnerability link,False
+15f11a052a231d1f819fffef53bf4b287646d1ca,2024-06-17 00:30:17,Luigi Pinca,[security] Add new DoS vulnerability to SECURITY.md,False
+3c56601092872f7d7566989f0e379271afd0e4a1,2024-06-16 19:05:43,Luigi Pinca,[dist] 8.17.1,False
+e55e5106f10fcbaac37cfa89759e4cc0d073a52c,2024-06-16 15:12:59,Luigi Pinca,"[security] Fix crash when the Upgrade header cannot be read (#2231)
+
+It is possible that the Upgrade header is correctly received and handled
+(the `'upgrade'` event is emitted) without its value being returned to
+the user. This can happen if the number of received headers exceed the
+`server.maxHeadersCount` or `request.maxHeadersCount` threshold. In this
+case `incomingMessage.headers.upgrade` may not be set.
+
+Handle the case correctly and abort the handshake.
+
+Fixes #2230",False
+6a00029edd924499f892aed8003cef1fa724cfe5,2024-06-14 01:23:40,Luigi Pinca,[test] Increase code coverage,False
+ddfe4a804d79e7788ab136290e609f91cf68423f,2024-05-18 20:41:07,Luigi Pinca,"[perf] Reduce the amount of `crypto.randomFillSync()` calls
+
+Use a pool of random bytes to reduce the amount of
+`crypto.randomFillSync()` calls.
+
+Refs: https://github.com/nodejs/undici/pull/3204",False
+b73b11828d166e9692a9bffe9c01a7e93bab04a8,2024-04-28 11:11:02,Luigi Pinca,[dist] 8.17.0,False
+29694a5905fa703e86667928e6bacac397469471,2024-04-26 11:34:47,Luigi Pinca,"[test] Use the `highWaterMark` variable
+
+Use the value of the `highWaterMark` variable instead of `16384`.",False
+934c9d6b938b93c045cb13e5f7c19c27a8dd925a,2024-04-26 10:56:49,Luigi Pinca,[ci] Test on node 22,False
+1817bac06e1204bfb578b8b3f4bafd0fa09623d0,2024-04-26 10:56:49,Luigi Pinca,[ci] Do not test on node 21,False
+96c9b3deddf56cacb2d756aaa918071e03cdbc42,2024-04-24 19:12:40,Luigi Pinca,"[major] Flip the default value of `allowSynchronousEvents` (#2221)
+
+Flip the default value of the `allowSynchronousEvents` option to `true`.
+
+Refs: https://github.com/websockets/ws/pull/2218",False
+e5f32c7e1e6d3d19cd4a1fdec84890e154db30c1,2024-04-24 19:02:43,Luigi Pinca,"[fix] Emit at most one event per event loop iteration (#2218)
+
+Fixes #2216",False
+2aa0405a5e96754b296fef6bd6ebdfb2f11967fc,2024-04-15 18:33:11,Luigi Pinca,[minor] Fix nits,False
+53a88881cf5da8307ecbd5020db0a8fb72cf0d20,2024-04-15 17:50:52,Tim Perry,"[feature] Allow the `createConnection` option (#2219)
+
+Allow passing in a custom `createConnection` function.",False
+b119b41db3bde7c5929609b4a52aa95c3af06f04,2024-04-09 22:44:02,Luigi Pinca,[pkg] Update eslint to version 9.0.0,False
+2405c17775fb57f5e07db123c6133733dd58bbab,2024-03-29 17:23:43,Jana R,[doc] Add punctuation for readability (#2213),False
+8be840e0a93c9c90565c6f137834ecacba0f14bf,2024-03-16 19:54:36,Al-phonsio,[doc] Replace `url.parse()` with `new URL()` (#2208),False
+5e42cfdc5fa114659908eaad4d9ead7d5051d740,2024-01-24 12:21:20,Luigi Pinca,"[meta] Add FUNDING.json
+
+Refs: https://github.com/websockets/ws/issues/2194",False
+d343a0cf7bba29a4e14217cb010446bec8fdf444,2023-12-26 21:01:20,Luigi Pinca,[dist] 8.16.0,False
+391ddf3a9a8852ac70fed55a17fad803e27a77ee,2023-12-26 21:00:43,Luigi Pinca,"[test] Use `stream.getDefaultHighWaterMark()` when available
+
+Refs: https://github.com/nodejs/node/pull/50120",False
+01ba54edaeff0f3a58abd7cb9f8e1f3bf134d0fc,2023-12-26 21:00:22,Luigi Pinca,"[feature] Introduce the `autoPong` option
+
+Add the ability to disable the automatic sending of pong responses to
+pings.
+
+Fixes #2186",False
+527ec97264cf063bd9c75f33e6a085559fb7d1da,2023-12-20 22:51:29,Luigi Pinca,[doc] Add missing subsubsection to TOC,False
+3e230c16b70efa82fd28da7aca45c341a2b3efd8,2023-12-20 15:32:13,Luigi Pinca,[doc] Fix nits,False
+d37756a973d48c4e924344916823a9189cbfa454,2023-12-20 13:47:04,James,[doc] Clarify legacy deps (#2184),False
+a57e963f946860f6418baaa55b307bfa7d0bc143,2023-12-12 23:32:46,Luigi Pinca,[dist] 8.15.1,False
+4ed7fe58b42a87d06452b6bc19028d167262c30b,2023-12-12 23:30:08,Luigi Pinca,"[major] Rename the `allowMultipleEventsPerMicrotask` option
+
+Rename the `allowMultipleEventsPerMicrotask` option to
+`allowSynchronousEvents`.",False
+fccc580061a4a35e5f286babafe7416768fd777b,2023-12-12 12:59:34,Luigi Pinca,"[fix] Emit the event when the microtask is executed
+
+Emit the `'message'`, `'ping'`, and `'pong'` event when the microtask
+for that event is executed.",False
+297fff8eded6328e4386fda735002b9c4d17b537,2023-12-09 20:19:10,Luigi Pinca,[dist] 8.15.0,False
+93e3552e95ba5ad656c30b94f6be96afe22d4805,2023-12-09 20:19:10,Luigi Pinca,"[feature] Introduce the `allowMultipleEventsPerMicrotask` option
+
+The `allowMultipleEventsPerMicrotask` option allows the `'message'`,
+`'ping'`, and `'pong'` events to be emitted more than once per
+microtask.
+
+Refs: https://github.com/websockets/ws/pull/2160",False
+603a0391de32732df415778ed32f311a21c82731,2023-12-09 20:19:10,Luigi Pinca,[doc] Add JSDoc for the `finishRequest` option,False
+c320738b1d2236900d2dd2fe391ab83bbed1e63f,2023-12-09 20:19:10,Luigi Pinca,[test] Fix nits,False
+5a3036e3f502c07dc4fdd64e5d40b9280de139be,2023-12-09 20:19:00,Luigi Pinca,[test] Merge some tests,False
+dd1994df04670df521a3744af6e6ba435ede7cba,2023-12-09 01:43:55,Luigi Pinca,[ci] Test on node 21,False
+208220d018a3571b5bbac541b1e513d1027a6d66,2023-12-08 22:15:44,Luigi Pinca,[lint] Fix prettier error,False
+726abc3d1e96a51eebb8d1460303dc68d9d3d4b4,2023-12-08 22:13:13,Luigi Pinca,[test] Fix flaky test,False
+a049674d936746c36fe928cc1baaaafd3029a83e,2023-11-05 01:19:31,Luigi Pinca,[ci] Update actions/setup-node action to v4,False
+d8dd4852b81982fc0a6d633673968dff90985000,2023-09-19 20:51:19,Luigi Pinca,[dist] 8.14.2,False
+7f4e1a75afbcee162cff0d44000b4fda82008d05,2023-09-19 19:20:08,Luigi Pinca,"[fix] Add missing rejection handler
+
+Use `queueMicrotask()` when available and add a rejection handler to the
+shim for it.",False
+7460049ff0a61bef8d5eda4b1d5c8170bc7d6b6f,2023-09-08 21:22:39,Luigi Pinca,[dist] 8.14.1,False
+397b89e3db6782022bbcf328b1191f5a1eb7800f,2023-09-08 21:11:04,Luigi Pinca,[ci] Update actions/checkout action to v4,False
+fd3c64cbd60606f75763350133ba2757b6a64545,2023-09-08 21:00:59,Luigi Pinca,[test] Fix flaky tests on Windows,False
+ae60ce0d1eaa239844bc8d60d220b47e302c3d45,2023-09-08 19:42:32,Jérôme Benoit,[ci] Cache downloaded npm dependencies (#2166),False
+511aefece49ee38c6fcca19d230c115fbfeaefd8,2023-09-06 19:48:08,Luigi Pinca,[pkg] Silence npm warning,False
+ddba690ab8c5da2da2fc9af3131d5e5629cbdbd4,2023-09-06 19:47:06,Luigi Pinca,[doc] Fix the type of the `socket` argument,False
+d30768405fc295f0365c4bad8b7e14a9ad54c64b,2023-09-06 19:05:25,Luigi Pinca,[dist] 8.14.0,False
+c1d26c372efb116e3339284f9b7d269b21790a8f,2023-09-06 19:00:33,Luigi Pinca,[test] Fix failing test,False
+5b577fe6653f896859f936255d8e2b792a75c501,2023-09-06 18:36:15,Luigi Pinca,"[pkg] Remove native-duplexpair dev dependency
+
+It seems to be no longer maintained.",False
+62521f26d7d7b349ec4e532db85a4b0d2de1296a,2023-09-01 01:07:11,Luigi Pinca,[minor] Fix nits,False
+31da41728ff5484bbc10e6f9b5487198d396fcb7,2023-09-01 00:39:31,Tim Perry,[fix] Make `server.handleUpgrade()` work with any duplex stream (#2165),False
+347aab6cd1609797295f482ef4368e7ffbf4c53a,2023-08-28 18:35:57,Luigi Pinca,"[feature] Allow http and https schemes (#2162)
+
+Allow HTTP(S) URLs to be used in the WebSocket constructor. They are
+immediately converted to the ws and wss schemes.
+
+Refs: https://github.com/whatwg/websockets/pull/45",False
+79dab96227f1df55c93fc99569fc9d0b33240483,2023-08-28 18:35:11,Luigi Pinca,"[fix] Emit at most one event per microtask (#2160)
+
+To improve compatibility with the WHATWG standard, emit at most one of
+`'message'`, `'ping'`, and `'pong'` events per tick.
+
+Fixes #2159",False
+67007fc8003a0a9822a559a6b0234227af382aee,2023-08-21 20:20:15,Luigi Pinca,[test] Reduce message size from 20 MiB to 4 MiB,False
+8eb2c4754a9418a2dac56a5330322cc1d9721508,2023-08-20 14:43:58,Luigi Pinca,[test] Fix nits,False
+5299b0ee6cfbdc50991a2f78f3600c36df1d3f4d,2023-08-20 14:43:46,Luigi Pinca,[test] Remove redundant tests,False
+8f5cc9df0e9e930a021142f0dbd4d1a4878bf350,2023-08-19 14:00:15,Luigi Pinca,[pkg] Update eslint-config-prettier to version 9.0.0,False
+0b235e0f9b650b1bdcbdb974cbeaaaa6a0797855,2023-07-11 17:40:14,Luigi Pinca,[ci] Run the lint step on node 20,False
+12a0a9c65d095cf565086706dd676cd7c6976d01,2023-07-11 17:36:34,Luigi Pinca,[pkg] Update eslint-plugin-prettier to version 5.0.0,False
+0368beb23755462ab1a64dab7d8b9e28502f17f9,2023-07-11 17:35:48,Luigi Pinca,[pkg] Update prettier to version 3.0.0,False
+06728e444d8f54aa5602b51360f4f98794cb1754,2023-04-26 00:10:37,Luigi Pinca,[ci] Update coverallsapp/github-action action to v2,False
+d1bb536cbc35a9a1af15486d973ae05f1ff2f4b5,2023-04-20 00:55:01,Luigi Pinca,[ci] Test on node 20,False
+5bdc8803f2a2887b7dc81d0ad82aedb0a7ef0ea1,2023-04-20 00:54:12,Luigi Pinca,[ci] Do not test on node 19,False
+45e17acea791d865df6b255a55182e9c42e5877a,2023-03-10 23:17:00,Luigi Pinca,[pkg] 8.13.0,False
+23acf8cfaff73fadf89c69be669b3baa29b60233,2023-03-10 20:43:07,Luigi Pinca,[test] Fix nits,False
+cd89e077f68ba9a999d408cb4fdb3e91289096a7,2023-03-10 19:46:35,Matthijs van Duin,"[feature] Add option to support late addition of headers (#2123)
+
+This supports the use-case where headers need to be added that depend on
+the socket connection (e.g. for TLS channel binding).",False
+b4b9d5a76e8c105fdeec64232fb6f12b6f88416d,2023-03-10 01:54:34,Matthijs van Duin,"[test] Fix failing test when using the domain module (#2126)
+
+Fix a failure in `test/create-websocket-stream.test.js` if the domain
+module is loaded (e.g. due to `NODE_OPTIONS` in environment).
+
+The cause of the failure was that installing an `'uncaughtException'`
+event handler on `process` causes the domain module to prepend its own
+handler for the same event, which confused the test.
+
+Fixes #2124",False
+41dc56a4ba504243a6efd0eb614510320e32d4cf,2023-02-15 01:31:42,Luigi Pinca,[doc] Remove misleading information,False
+a04578e36611998d089fbb7c6057d1363a5d5754,2023-02-14 01:44:47,Luigi Pinca,[dist] 8.12.1,False
+0d114ef48d8baca790733dd2bce23938dd08cb10,2023-02-14 01:42:13,Kalin Kostov,"[pkg] Add browser condition (#2118)
+
+Fixes #2117",False
+2862c2fef1064940c1deb9c4aa961cb76c279feb,2023-01-24 02:50:23,Luigi Pinca,"[doc] Add error handlers to examples and code snippets
+
+Closes #2112",False
+a3214d31b63acee8e31065be9f5ce3dd89203055,2023-01-08 00:57:46,Luigi Pinca,[dist] 8.12.0,False
+42d79f60efb739b349b84b020c9d0ee062150633,2023-01-08 00:34:25,Luigi Pinca,"[minor] Use `buffer.isUtf8()` if possible
+
+Closes #2110",False
+ff63bba37fc0c052a609c7db88cc6d47bfc320e7,2023-01-07 03:24:43,Luigi Pinca,[pkg] Update utf-8-validate to version 6.0.0,False
+d412358ccb5320bc00c8993ecd5d9b992df0753e,2022-12-21 02:11:28,Luigi Pinca,[minor] Fix nits,False
+2dc2812942c8a70d55012887e99723795590d448,2022-12-21 02:06:13,Luigi Pinca,[minor] Make `sendAfterClose()` call the callback in the next tick,False
+fb1dfd217861757d60c1d02c6e66b4da3630cc93,2022-12-16 15:00:38,Luigi Pinca,[doc] Fix badge URL,False
+83c72cfbe03ba9a5cc999776524f72f472c8ac29,2022-12-14 02:20:47,Luigi Pinca,"[perf] Make `toBuffer()` use `FastBuffer`
+
+Skip unnecessary parameter validation performed by `Buffer.from()` when
+possible.",False
+1b057f98709b2b3be31827ec8a89549fa012d52a,2022-12-13 16:02:20,Luigi Pinca,[minor] Fix nit,False
+e6a32f85a77c56f9bfe03e91b38b504192c8df5a,2022-12-13 15:13:28,Luigi Pinca,"[perf] Use `FastBuffer` instead of `Buffer#subarray()`
+
+`Buffer.prototype.subarray()` performance is subpar on
+Node.js < 16.15.0.",False
+9e0fd77799a0fcf16b8eb2f767358ef8bb834ec8,2022-12-12 15:48:17,Luigi Pinca,"[minor] Use `Buffer#subarray()` instead of `Buffer#slice()`
+
+`Buffer.prototype.slice()` is deprecated.",False
+a6fa37a1409c12f6a8672e6759a91d0fadd1b409,2022-12-09 20:17:38,Luigi Pinca,[license] Update copyright notice,False
+8a8fc88430b2d32163d343ef507e201ffc48570a,2022-12-09 18:55:50,Luigi Pinca,"[minor] Validate the payload length of the close frame sooner
+
+Avoid unnecessary work if the payload length is 1.",False
+ea761933702bde061c2f5ac8aed5f62f9d5439ea,2022-11-25 23:34:43,Luigi Pinca,"[doc] Improve doc for the `callback` argument of `WebSocketServer`
+
+Clarify that the `callback` argument is added as a listener for the
+`'listening'` event only when the `port` option is set.
+
+Fixes #2100",False
+afd8c6269bf5056a052281c543e9f19c7d88673d,2022-11-07 00:00:29,Luigi Pinca,[dist] 8.11.0,False
+1cec17da060ef1a4656a6d530c2b686039b7e094,2022-11-07 00:00:09,Luigi Pinca,"[fix] Add the same event listener only once
+
+Prevent `WebSocket.prototype.addEventListener()` from adding the same
+event listener multiple times.",False
+9ab743aa706be653e3b3c94d07960fe4342f9da5,2022-11-07 00:00:05,Luigi Pinca,"[feature] Add support for objets with a `handleEvent()` method
+
+Make `WebSocket.prototype.addEventListener()` support an event listener
+specified as an object with a `handleEvent()` method.
+
+Fixes #2092",False
+38f78794ca68770e962d76fcdb50dd264696a5e5,2022-11-02 21:05:35,Luigi Pinca,[ci] Test on node 19,False
+cdca711ad434fe4f691392807cba3f83a515eebe,2022-10-25 00:29:36,Luigi Pinca,[dist] 8.10.0,False
+211d5d3833893bcfde30e17e4aa9d61e0b408ee5,2022-10-25 00:06:48,Luigi Pinca,"[pkg] Add package.json export
+
+Fixes #2091",False
+c4d6eb3907e8bf6e9d1526772a4778834f9b025c,2022-10-21 01:00:47,Luigi Pinca,"[ci] Do not use the set-output command
+
+The `set-output` command is deprecated. Use the `GITHUB_OUTPUT`
+environment file.
+
+Refs: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/",False
+966f9d47cd0ff5aa9db0b2aa262f9819d3f4d414,2022-09-23 01:47:12,Luigi Pinca,[dist] 8.9.0,False
+e628f2bdb6277fa36e8607cf1c3fbaf713f7bcef,2022-09-23 01:46:59,Luigi Pinca,"[feature] Support Windows named pipes (#2079)
+
+Document how to connect to a named pipe endpoint and the limitations.
+
+Refs: https://github.com/websockets/ws/pull/1808
+Refs: https://github.com/websockets/ws/pull/2075",False
+7ff26d975a7c5e0012a6799ed15a7ef8211b59bb,2022-09-21 20:09:27,Luigi Pinca,[doc] Fix nits,False
+4ed2c8725ec796283498e4a9c90171668eef9117,2022-09-21 20:08:30,Luigi Pinca,"[doc] Remove ""note that""",False
+0da60366f36a38e93bb1a31da54f260a146eb86c,2022-09-21 15:35:53,Luigi Pinca,"[test] Remove leftover from test
+
+Refs: https://github.com/websockets/ws/commit/2995349f",False
+6b71a49d1d02e8220eaa983e9202517c9680d2b2,2022-09-21 13:31:04,Luigi Pinca,"[minor] Rename the `invalidURLMessage` variable
+
+Rename the `invalidURLMessage` variable to `invalidUrlMessage`.",False
+2995349f5d27d39e492a273796a3145d40ec11b3,2022-09-21 00:27:40,Luigi Pinca,"[minor] Simplify the ws+unix: URL form
+
+Remove the two forward slashes after the scheme. The URL is parsed in
+the same way and it is easier to grok.",False
+c22cbc9e743a001b3fc55c1aa77b0afcc1018ee9,2022-09-19 00:18:05,Dathan,"[doc] Revise `WebSocket#send()` docs for clarity (#2077)
+
+Add reference to Node.js's own related documentation about the
+constraints on `Object` values.
+
+Fixes #2076",False
+975382178f8a9355a5a564bb29cb1566889da9ba,2022-07-15 20:53:55,Luigi Pinca,[dist] 8.8.1,False
+bc8bd34e4125a5edc37211fb384c17a4703e9000,2022-07-15 20:53:52,Luigi Pinca,"[security] Fix same host check for ws+unix: redirects
+
+Drop the `Authorization` and `Cookie` headers if the original request
+for the opening handshake is sent to an IPC server and the client is
+redirected to a TCP server (ws+unix: to ws: or wss:), and vice versa
+(ws: or wss: to ws+unix).
+
+Also drop the `Authorization` and `Cookie` headers if the original
+request for the opening handshake is sent to an IPC server and the
+client is redirected to another IPC server.
+
+Refs: https://github.com/websockets/ws/commit/6946f5fe",False
+0ae302affd469f3f2c46718b5c0a7317f41f8dcb,2022-07-15 12:47:41,Luigi Pinca,[test] Fix nits,False
+1117af6bf45e040fb51864e29c1c2c1a6b456ab7,2022-06-30 23:42:20,Lee Trout,[doc] Fix typo (#2062),False
+3b6af82be91713fcc21cb2e56c500977fcb63f45,2022-06-20 19:05:00,Luigi Pinca,"[minor] Prevent opening handshake headers from being overridden
+
+Ensure that the `Connection`, `Sec-WebSocket-Key`,
+`Sec-WebSocket-Version`, and `Upgrade` headers are not overridden.
+
+Refs: https://github.com/websockets/ws/issues/2048#issuecomment-1159832034",False
+982b7826f940b7caec5dd7ea82386dc531c5fdd4,2022-06-09 22:46:41,Luigi Pinca,[dist] 8.8.0,False
+becf237cef8924a765075ecbd45599bc10fb6d18,2022-06-09 22:30:23,Luigi Pinca,"[feature] Add the `WS_NO_{BUFFER_UTIL, UTF_8_VALIDATE}` variables
+
+When set to non empty values, the `WS_NO_BUFFER_UTIL` and
+`WS_NO_UTF_8_VALIDATE` environment variables, prevent the optional
+`bufferutil` and `utf-8-validate` dependencies  from being required,
+respectively.
+
+These might be useful to enhance security in systems where a user can
+put a package in the package search path of an application of another
+user, due to how the Node.js resolver algorithm works.",False
+0792742de13bfac0faecf044d290485808192665,2022-06-09 00:49:07,Luigi Pinca,[doc] Fix nit,False
+c1a126f2bd986c9fe6c1052a6be549506bc69bf5,2022-06-08 19:49:31,Luigi Pinca,[doc] Rename WS Error Codes section to Error codes,False
+a6dbd1c3846ce910a759118729cdb5366d8838be,2022-06-04 12:23:40,neilnaveen,[ci] Set permissions explicitly (#2051),False
+5e4149ec6a82e0367a925881abca5667667030e9,2022-05-30 21:02:18,Luigi Pinca,[test] Fix typo,False
+4b62fbf945cee92f0b06535d8249b0a1d5037cea,2022-05-26 22:46:17,Luigi Pinca,[dist] 8.7.0,False
+6e5a5ce341ffab5ea48542f0aa82c7f4eae80df9,2022-05-26 22:24:39,Luigi Pinca,"[feature] Introduce the `'wsClientError'` event (#2046)
+
+Add the ability to inspect the invalid handshake requests and respond
+to them with a custom HTTP response.
+
+Closes #2045",False
+903ec620117d95ed31cdec8c893b7c4fbe79314d,2022-05-26 22:24:39,Luigi Pinca,[doc] Update the type of the `socket` argument,False
+d68ba9e1aa6a939fd7aa39894a4b9c2f020f9361,2022-05-26 22:24:34,Luigi Pinca,"[security] Drop sensitive headers when following insecure redirects
+
+Drop the `Authorization` and `Cookie` headers if the original request
+for the opening handshake is sent over HTTPS and the client is
+redirected to the same host over plain HTTP (wss: to ws:).
+
+If an HTTPS server redirects to same host over plain HTTP, the problem
+is on the server, but handling this condition is not hard and reduces
+the risk of leaking credentials due to MITM issues.
+
+Refs: https://github.com/websockets/ws/commit/6946f5fe",False
+a690791df31cede48e7bcbce9d56411483309246,2022-05-21 11:21:32,Luigi Pinca,[ci] Exclude node 18 on Windows x86 from the test matrix,False
+8889e48018bc3381e3daa8398be7786c07f8db02,2022-05-21 11:16:20,Luigi Pinca,[test] Increase code coverage,False
+fb658bdd11e05a89ad5dc48e126e53976c5bb67a,2022-05-21 10:55:52,Luigi Pinca,"[minor] Use consistent error messages
+
+Make some server error messages consistent with the respective client
+error messages.",False
+0fdcc0af78c4d9a77f17faba48071d2f66a79662,2022-05-21 10:44:20,Luigi Pinca,"[fix] Abort the handshake if the Upgrade header is invalid
+
+Close the connection if the Upgrade header field in the HTTP response
+contains a value that is not an ASCII case-insensitive match for the
+value ""websocket"".",False
+e56cdfe1ec54cdb04bc83ca91f8c4c983db6cde4,2022-05-20 20:17:22,Luigi Pinca,"[minor] Clarify why the handshake is aborted
+
+Add more details about why the handshake is aborted in the HTTP
+response.
+
+Refs: https://github.com/websockets/ws/issues/2045#issuecomment-1130081274",False
+ba214d96939737304fb76f662700e9df01bb4418,2022-05-02 00:35:41,Luigi Pinca,[dist] 8.6.0,False
+8e3f1181f2b1c7a4de8ceb120165276d2b1ccfaf,2022-04-24 10:42:02,Luigi Pinca,"[feature] Introduce the `'redirect'` event (#2030)
+
+Add the ability to remove confidential headers on a per-redirect basis.
+
+Closes #2014",False
+69e682806df1913ad881643e36c8b999522b175f,2022-04-22 12:04:23,Luigi Pinca,[ci] Test on node 18,False
+0b6eb71665eabadc7d55584fdb3de7b56ae2439e,2022-04-22 12:03:54,Luigi Pinca,[ci] Do not test on node 17,False
+d062ded6225a1cd2593afdce0ecd91ef8317950a,2022-04-15 16:40:21,Luigi Pinca,[example] Fix require path,False
+2cf6202f8a023d98c0ee3435ba03a4c9ad855278,2022-04-13 01:09:04,Luigi Pinca,"[example] Use the `WebSocket.WebSocket{,Server}` aliases
+
+Closes #2034",False
+62e9b199ad96e6f7d4b44a7ed84669fdaf48ba65,2022-04-07 19:21:59,Luigi Pinca,[doc] Fix nits,False
+2619c003cef5ffc9bff66debfcc52231b7995a5a,2022-04-07 00:18:41,Luigi Pinca,[minor] Fix nit in comment,False
+d086f4bcbbe235f12f6fa2ddba5a8ce1342dac58,2022-03-27 01:28:51,Luigi Pinca,[minor] Make `abortHandshake()` emit the error in the next tick,False
+ff80d665f9ea9452f8b8ae69f2838bdc08fe85d6,2022-03-24 18:51:49,Luigi Pinca,"[test] Do not use a relative URL
+
+Use different username and password in the redirect URL.",False
+dd3d5a710b490d7b4211f92e882b34b5114c8bc2,2022-03-10 12:42:29,airtable-keyhanvakil,[doc] document the default value of the `maxPayload` option (#2020),False
+9c18b1e78617c0906c9ad51009b3a4b412c345da,2022-03-07 00:58:09,Luigi Pinca,[ci] Update actions/checkout action to v3,False
+7cf94db6290f86470ce2da87a88d05b604794fd9,2022-03-05 13:00:11,Proxtx,[doc] Fix typo in code snippet (#2018),False
+a0524e15586c7a51546a772bd0be31d616254125,2022-02-26 02:04:18,Luigi Pinca,[ci] Update actions/setup-node action to v3,False
+c9d5436500fad16493a2cc62a0ce6daed83c9129,2022-02-08 00:53:55,Luigi Pinca,[dist] 8.5.0,False
+6946f5fe781bafe99a36ed954904966203422b3d,2022-02-08 00:51:37,Luigi Pinca,"[security] Drop sensitive headers when following redirects (#2013)
+
+Do not forward the `Authorization` and `Cookie` headers if the redirect
+host is different from the original host.",False
+75fdfa9a2bb0f6f0cba2cd9e1b77b90cc1f5a6ff,2022-02-05 02:51:13,Luigi Pinca,[test] Fix nits,False
+e1ddacce06d302884e674f50c12cb376e000c6ea,2022-02-02 00:55:02,Sergey Bakulin,"[feature] Introduce the `WebSocket` option (#2007)
+
+Add the ability to use a custom class that extends the `WebSocket`
+class.",False
+8a7016dc2fe4d9d63c428c67588d7c1f33a72e5c,2022-01-31 00:57:45,Luigi Pinca,[test] Simplify test,False
+33fd1016ec4266464027ab8d4a6e06649c93e938,2022-01-14 19:58:24,Luigi Pinca,[dist] 8.4.2,False
+0c0754b897f62a68d7da3600f96924fab54e4f8f,2022-01-14 19:56:07,Robert Nagy,"[fix] Use the byte length of the data (#2004)
+
+Ensure that the correct length is used when framing the data.",False
+6ebfeb8be70aee060852134c953794864ccf31dd,2022-01-14 01:10:28,Luigi Pinca,[dist] 8.4.1,False
+5b7fbb000972edd34b4882384e1185f033000220,2022-01-14 00:56:14,Luigi Pinca,"[perf] Reduce buffer allocations (#2000)
+
+Do not convert strings to `Buffer`s if data does not need to be masked.
+
+Refs: https://github.com/websockets/ws/pull/1998",False
+8de448fbd105deeecada886344ca58237d423a8c,2022-01-09 20:40:24,Luigi Pinca,"[test] Fix failing tests
+
+Refs: https://github.com/websockets/ws/commit/e173423c",False
+91f3c07b26795cf3e4e221ae468d298ae5a3be2d,2022-01-09 20:27:01,Luigi Pinca,"[minor] Replace echo.websocket.org with websocket-echo.com
+
+The echo.websocket.org service is no longer available.",False
+ad3fe6dc4fb4669b62e22a94d0ef336b5000bec7,2022-01-06 22:55:52,Luigi Pinca,[test] Improve test title,False
+4081a368ffee896aa12bcc8c241523257ee34387,2022-01-06 20:21:18,Luigi Pinca,[test] Do not call the `done` callback prematurely,False
+d2c935a477fa6999c8fa85b89dfae27b85b807e7,2022-01-04 12:18:06,Tobias Nießen,[doc] Fix typo in `WebSocketServer` description (#1996),False
+5edf1f4a1b1750109c1bb56eff7ad78902eee7dc,2021-12-31 00:46:37,jugglinmike,"[doc] Clarify interpretation of `verifyClient` (#1994)
+
+Prior to this commit, the documentation for the `verifyClient` option
+was somewhat confusing due to its use of the passive voice and an
+uncommon interpretation of the term ""arguments"".
+
+Explain the way `ws` interprets the value of `verifyClient` using an
+active voice and more traditional meanings of ""parameters"" and
+""arguments"".",False
+00c34d726dca1c558fe5ee5e346979159b2297fe,2021-12-21 01:37:56,Luigi Pinca,[dist] 8.4.0,False
+35d45c2a4fead953654ae7bcf029cdf6d2590121,2021-12-21 01:32:56,Luigi Pinca,[perf] Skip masking and unmasking if the masking key is zero,False
+eb2e3a84a1f1c75428d7bde1578a00eed2809c88,2021-12-21 01:32:56,Luigi Pinca,"[feature] Introduce the `generateMask` option
+
+The `generateMask` option specifies a function that can be used to
+generate custom masking keys.
+
+Refs: https://github.com/websockets/ws/pull/1986
+Refs: https://github.com/websockets/ws/pull/1988
+Refs: https://github.com/websockets/ws/pull/1989",False
+c82b08737fbe142dd910fc7e429399e23b95c6d6,2021-11-23 20:02:40,Luigi Pinca,[dist] 8.3.0,False
+0a8c7a9c4f5ae357b094fb586c90ee5db8793fcc,2021-11-23 20:02:22,Luigi Pinca,"[api] Add `WebSocket#pause()` and `WebSocket#resume()`
+
+Add ability to pause and resume a `WebSocket`.",False
+ed2b803905289fc57616c3aef6b1690a3ca282b9,2021-11-23 14:44:20,Luigi Pinca,"[fix] Resume the socket in the `CLOSING` state
+
+When the value of the `readyState` attribute is `CLOSING`, the internal
+socket might still be open. Resume it to read any remaining data and to
+allow the connection to be closed cleanly.",False
+b8186dd11577979d5870a933fc0ce4ac29f893eb,2021-11-22 19:57:29,Luigi Pinca,"[fix] Do not throw if the redirect URL is invalid (#1980)
+
+If the redirect URL is invalid, then emit the error instead of throwing
+it, otherwise there is no way to handle it.
+
+Closes #1975",False
+5a905e49be91203c04a2546bfc292717b8e9bee9,2021-11-21 01:23:54,Luigi Pinca,"[minor] Add missing label to the issue form
+
+Fixes #1974",False
+89d81e86703f4a494373154bd91a614668d994af,2021-11-17 00:38:00,Luigi Pinca,[minor] Fix nit,False
+4916d03ad84fe0e609ce3d4286e7637f193b5004,2021-11-17 00:30:16,Austin Cheney,[minor] Allow to write frames with up to 2^48 - 1 bytes of data (#1973),False
+5991c3548404e441129a16887e6a15250722a960,2021-11-02 01:36:17,Luigi Pinca,[doc] Fix nits,False
+65717f64b4ad12f209d8c0e4e9b5f0c1d60e4d2e,2021-10-20 22:53:28,Luigi Pinca,[ci] Test on node 17,False
+a3a22e4ed39c1a3be8e727e9c630dd440edc61dd,2021-10-11 12:02:09,Luigi Pinca,[pkg] Update eslint to version 8.0.0,False
+cfd99b6309d59da5c35c4087520b480ec060cbd9,2021-10-03 00:01:21,Luigi Pinca,[dist] 8.2.3,False
+fef7942a18889eb45903ff3a678f7e005a0a5f06,2021-09-30 16:24:28,Luigi Pinca,[ci] Fix typo,False
+41ae56313be61a8c2344e714603eb6da56d5ea99,2021-09-29 20:12:31,Luigi Pinca,"[fix] Ignore the `threshold` option if context takeover is enabled
+
+When context takeover is enabled, compress messages even if their size
+is below the value of `threshold` option.
+
+Refs: https://github.com/websockets/ws/issues/1950",False
+474aa3616fc9ebbb23369c7c3d3760f68d72b56e,2021-09-28 20:00:19,Luigi Pinca,"[doc] Improve `WebSocket#{p{i,o}ng,send}()` documentation
+
+Specify that an error is thrown if the ready state is `CONNECTING` and
+that if an error occurs, the callback is called with the error as its
+first argument.
+
+Fixes #1953",False
+055949fd23b0d7f6a23ba9b9532b7834909df192,2021-09-14 00:09:43,Luigi Pinca,[doc] Remove no longer needed noop function from code snippet,False
+5b85322f5490fdaed950ad6b8d7ad381077164df,2021-09-12 01:12:52,Luigi Pinca,[ci] Update coverallsapp/github-action action to version 1.1.3,False
+f871195c55cff39ac51020ea344ec6a2c4ea9f4e,2021-09-10 01:14:52,Luigi Pinca,[doc] Update issue template,False
+72296e54cad6b105f901b82174f86837b4bcd414,2021-09-09 01:12:28,Luigi Pinca,[dist] 8.2.2,False
+3039b6b9d2b290eca74f67e444dc7aa44e574f00,2021-09-05 00:14:38,Luigi Pinca,[doc] Change label text to CI,False
+04c032c51b3219f76a3a48897027e38f4a9f5f50,2021-08-31 13:25:03,Luigi Pinca,[ci] Use Github Actions for Windows x86 testing,False
+48c2cb36df1555745063633ced0a4a07d7f8c245,2021-08-31 12:19:52,Luigi Pinca,[pkg] Update eslint-plugin-prettier to version 4.0.0,False
+ec9377ca745e51cf182c11550d4c39872e3d307f,2021-08-30 23:50:45,Luigi Pinca,"[minor] Skip unnecessary operations if the socket is already closed
+
+There is no need to remove the already removed `socketOnData` listener,
+resume the socket, and call `websocket.close()` if the socket is already
+closed.",False
+cc7a7798b749cf263636abcba4ba19532161c3ea,2021-08-28 20:37:15,Luigi Pinca,[dist] 8.2.1,False
+869c9892cd5f1f574fae3181231e462e1d4ab740,2021-08-28 20:12:49,Luigi Pinca,"[fix] Resume the socket in the next tick
+
+Ensure that `socket.resume()` is called after `socket.pause()`.
+
+Fixes #1940",False
+ea6c054e975a715b83a8ca20e5af1bbcf80f90e5,2021-08-21 19:25:22,Luigi Pinca,[test] Reorganize some tests,False
+7647a8920b6a7ada107c28be68e4e82393dac893,2021-08-18 10:50:48,Luigi Pinca,[dist] 8.2.0,False
+d5e3549a0350dd94103af88f6fb329d9a27ce193,2021-08-17 15:25:51,Luigi Pinca,"[minor] Add `WebSocket.WebSocket{,Server}` aliases (#1935)
+
+Add `WebSocket.WebSocket` as an alias for `WebSocket` and
+`WebSocket.WebSocketServer` as an alias for `WebSocket.Server` to fix
+name consistency and improve interoperability with the ES module
+wrapper.
+
+Refs: https://github.com/websockets/ws/issues/1877
+Refs: https://github.com/websockets/ws/issues/1932",False
+c677aab97852f11bf146fc4e46fe5bdfd4c727d8,2021-08-16 00:27:07,Luigi Pinca,"[doc] Fix `createWebSocketStream()` documentation
+
+The ES module wrapper exports `createWebSocketStream()` as a named
+export and not as a static method of the `WebSocket` class.",False
+f38247e5e00b8d18e736a9240388dbcdb1a474c9,2021-08-12 14:44:30,Luigi Pinca,[doc] Sort options alphabetically,False
+142f0911b550f85741297f68f33af0dc72a7f043,2021-08-12 01:24:06,Luigi Pinca,[dist] 8.1.0,False
+d21c81034f53be7c5c292c5d2486eb3db41bc31a,2021-08-12 01:23:51,Luigi Pinca,"[feature] Add ability to skip UTF-8 validation (#1928)
+
+Add the `skipUTF8Validation` option to skip UTF-8 validation for text
+and close messages.
+
+Refs: https://github.com/websockets/ws/issues/1878
+Closes #1924",False
+9bd3bd1251a4342511142a2cd32ce4a92b39a44c,2021-08-11 19:05:27,Ikko Ashimine,[minor] Fix typo (#1929),False
+1e938f1a739b33d5936c2a02bcddcf14d18e2123,2021-08-11 11:53:37,Luigi Pinca,"[major] Use an options object instead of positional arguments
+
+Make the `Receiver` constructor take a single options object argument
+instead of multiple positional arguments.",False
+7f0b5c42bbec7a25ee5c559c04e82c27b0953b70,2021-08-09 12:26:18,Luigi Pinca,[example] Update uuid to version 8.3.2,False
+fd47c961fb99e7647a76a41d53784972959f4229,2021-08-07 11:43:03,Luigi Pinca,[test] Move code block closer to where it is used,False
+c95e695d35b1a469704035bc94fa2efee43d86cc,2021-08-07 01:13:59,Luigi Pinca,"[fix] Fix misleading error message
+
+Use the correct error message if the server sends an empty subprotocol
+name.",False
+6a72da3e636ea658a22b3fe80acb07336683c3c3,2021-08-06 22:19:48,Luigi Pinca,"[fix] Do not rely on undocumented behavior
+
+Use the chunk returned by `socket.read()` to handle the buffered data
+instead of relying on a `'data'` event emitted after the `'close'`
+event.
+
+Refs: https://github.com/nodejs/node/pull/39639",False
+04e74a1f8c27f639c4c761e92208133f26429144,2021-08-03 12:13:04,Luigi Pinca,[license] Fix license text,False
+fc4024898c0da9b587c50a4a2d02d3ff88cddf06,2021-07-29 10:41:28,Luigi Pinca,[dist] 8.0.0,False
+21e65004e0a0fc00f45bb428a8ec548f0a561cc0,2021-07-29 10:41:28,Luigi Pinca,"[major] Overhaul event classes
+
+- Remove non-standard `OpenEvent` class.
+- Make properties read-only.
+- Update constructor signatures to match the ones defined by the HTML
+  standard.",False
+bd7febb685caaa240667cab8091d7af6128a62a9,2021-07-29 10:41:28,Luigi Pinca,[minor] Fix nits,False
+6756cf58081c34388d5a523447988aecdee5e2fa,2021-07-29 10:41:28,Luigi Pinca,"[fix] Return `null` if the event handler is not set
+
+Make the `onclose`, `onerror`, `onmessage`, and `onopen` getters return
+`null` instead of `undefined` if the event handler is not set.",False
+8c61563b5a5c73478e968ae92cea9fef92ef864c,2021-07-29 10:41:28,Luigi Pinca,"[fix] Make listeners added via event handler properties independent
+
+Prevent the `onclose`, `onerror`, `onmessage`, and `onopen` getters and
+setters from returning or removing event listeners added with
+`WebSocket.prototype.addEventListener()`.
+
+Also prevent `WebSocket.prototype.removeEventListener()` from removing
+event listeners added with the `onclose`, `onerror`, `onmessage`, and
+`onopen` setters.
+
+Refs: https://github.com/websockets/ws/issues/1818",False
+ea95d9c49cbd90776134cf796998b5c74a338134,2021-07-29 10:40:51,Luigi Pinca,"[major] Ignore listeners not added with `WebSocket#addEventListener()`
+
+Make `WebSocket.prototype.removeEventListener()` only remove listeners
+added with `WebSocket.prototype.addEventListener()` and only one at
+time.",False
+9558ed1c73fa1c77237efa90b058f5d1d5e44d71,2021-07-29 10:40:31,Luigi Pinca,"[major] Make `WebSocket#addEventListener()` ignore non standard events
+
+Make `WebSocket.prototype.addEventListener()` a noop if the `type`
+argument is not one of `'close'`, `'error'`, `'message'`, or `'open'`.",False
+77a675c344e5c003cf0d0a4687a005cb75e4cc0f,2021-07-15 14:55:55,Luigi Pinca,"[minor] Remove unneeded setters
+
+Refs: https://github.com/websockets/ws/commit/ecb9d9ea",False
+64b3c71ee621737fcabb431d5113d78e1355af1c,2021-07-15 14:47:02,Luigi Pinca,[pkg] Update mocha to version 8.4.0,False
+abde9cfc21ce0f1cb7e2556aea70b423359364c7,2021-07-15 00:56:04,Luigi Pinca,"[major] Call the callback with an error if the server is closed
+
+Match the behavior of Node.js core `net.Server` and call the callback
+of `WebSocketServer.prototype.close()` with an error if the server is
+already closed.",False
+df7de574a07115e2321fdb5fc9b2d0fea55d27e8,2021-07-15 00:56:04,Luigi Pinca,"[major] Do not close existing connections
+
+When `WebSocketServer.prototype.close()` is called, stop accepting new
+connections but do not close the existing ones.
+
+If the HTTP/S server was created internally, then close it and emit the
+`'close'` event when it closes. Otherwise, if client tracking is
+enabled, then emit the `'close'` event when the number of connections
+goes down to zero. Otherwise, emit it in the next tick.
+
+Refs: https://github.com/websockets/ws/pull/1902",False
+78adf5f7737b10166c6f4903e6a5cdbbbb59934c,2021-07-15 00:56:04,Luigi Pinca,"[major] Add an ES module wrapper
+
+Fixes #1886",False
+e173423c180dc1e4e6ee8938d9e4376a7a8b9757,2021-07-15 00:56:04,Luigi Pinca,"[major] Do not decode `Buffer`s to strings
+
+Avoid decoding text messages and close reasons to strings. Pass them as
+`Buffer`s to the listeners of their respective events. Also, make
+listeners of the `'message'` event take a boolean argument to speficy
+whether or not the message is binary.
+
+Refs: https://github.com/websockets/ws/issues/1878
+Refs: https://github.com/websockets/ws/issues/1804",False
+ebea038f82a8aa2ece7dc69d5e811e0d9deccfab,2021-07-15 00:56:04,Luigi Pinca,"[major] Throw an error if the connection URL is invalid
+
+Make the `WebSocket` constructor throw a `SyntaxError` if the URL
+contains a fragment identifier or if the URL's protocol is not one of
+`'ws:'`, `'wss:'`, or `'ws+unix:'`.",False
+552b50679590eb97b92101574f9fafe73c09cf9a,2021-07-15 00:56:04,Luigi Pinca,[major] Drop support for Node.js < 10,False
+e814110ee6cd269a8982a529e38b55632c37ad28,2021-07-15 00:56:04,Luigi Pinca,"[major] Make the Sec-WebSocket-Extensions header parser stricter
+
+Make the parser throw an error if the header field value is empty or if
+it begins or ends with a white space.",False
+1877ddeb9f79a6204a2fc9c85c85aec470657037,2021-07-15 00:56:04,Luigi Pinca,"[major] Validate the Sec-WebSocket-Protocol header
+
+Abort the handshake if the `Sec-WebSocket-Protocol` header is invalid.",False
+0aecf0c95b41eaeeec9e265d5f1cb6c96e2f4d08,2021-07-15 00:56:04,Luigi Pinca,"[major] Validate subprotocol names
+
+Make the `WebSocket` constructor throw a `SyntaxError` if any of the
+subprotocol names are invalid or duplicated.",False
+4c1849a61e773fe0ce016f6eb59bc3877f09aeee,2021-07-10 10:56:57,Luigi Pinca,[dist] 7.5.3,False
+772236a13ff2bd28291c911b7c25fbfe99580ed1,2021-07-09 16:17:58,Luigi Pinca,"[fix] Abort the handshake if the server is closing or closed
+
+Prevent WebSocket connections from being established after
+`WebSocketServer.prototype.close()` is called.",False
+5a5873048005cf5d25a2186fb9dc6db2a85096b0,2021-07-09 14:36:26,Luigi Pinca,"[fix] Emit the `'close'` event after the server is closed
+
+Ensure that `WebSocketServer.prototype.close()` does not emit a
+`'close'` event prematurely if called while the internal HTTP/S server
+is closing.",False
+ea63b29e81f95f7c5d38079487952b2eae94391e,2021-07-08 22:51:44,Luigi Pinca,[minor] Fix typo,False
+66e58d279ffabe5108424c08ab71403aceddcad9,2021-07-08 17:25:29,Luigi Pinca,"[fix] Make the `{noS,s}erver`, and `port` options mutually exclusive
+
+Remove ambiguity and prevent `WebSocketServer.prototype.address()` from
+throwing an error if the `noServer` option is used along with the
+`port` and/or `server` options.",False
+ecb9d9ea8f126416f2c07a2a8485b1d1e4ab3989,2021-07-07 16:37:17,Luigi Pinca,"[minor] Improve JSDoc-inferred types (#1912)
+
+Refs: https://github.com/websockets/ws/pull/1910",False
+0ad1f9d6a48ed1b30bda09b958cb142c1e09cced,2021-07-04 10:52:35,Luigi Pinca,[dist] 7.5.2,False
+aca94c86e000675900b09729559e405f9207d154,2021-07-03 13:45:19,Luigi Pinca,"[fix] Abort the handshake if an unexpected extension is received
+
+Abort the handshake if the client receives a `Sec-WebSocket-Extensions`
+header but no extension was requested. Also abort the handshake if the
+server indicates an extension not requested by the client.",False
+38c6c734daf8e15d5cd902ed3e47b8651fd1032c,2021-06-29 10:23:49,Luigi Pinca,[dist] 7.5.1,False
+2916006477bd50d5a7513640fcb610f7fd0dddda,2021-06-29 00:38:28,Tim Perry,[test] Add more tests for `WebSocket.prototype.close()`,False
+b434b9f1653d6fda562c937f65b1f07f81c6aa1a,2021-06-29 00:38:28,Luigi Pinca,"[fix] Fix close edge cases
+
+Ensure that `socket.end()` is called if an error occurs simultaneously
+on both peers.
+
+Refs: https://github.com/websockets/ws/pull/1902",False
+c3fdc994502cfb2f9a1274e78530a08609f5efb1,2021-06-28 14:46:11,Luigi Pinca,[minor] Fix misleading comment,False
+145480a5b520ee951d848009d51069bfd7ed928c,2021-06-20 23:21:56,Luigi Pinca,[test] Fix repeated typo,False
+e3f0c1720aab640fe78dc578907046fb84422ccd,2021-06-16 18:43:32,Luigi Pinca,[dist] 7.5.0,False
+1d3f4cbb0ebb2519f6cc707e9f4344006d74ce03,2021-06-15 19:50:37,Luigi Pinca,[doc] Fix anchor tags for error codes,False
+6eea0d466b08a278c048092ee1cb06aee9f48cc9,2021-06-15 19:20:18,Luigi Pinca,[doc] Fix typo,False
+bb5d44b11880861f9fb0429e2c132f435a78198b,2021-06-15 19:18:30,Luigi Pinca,[doc] Sort error codes alphabetically,False
+c6e30806704cd1ff35282b85132bd29fca8acec8,2021-06-15 18:52:01,Tim Perry,"[minor] Attach error codes to all receiver errors (#1901)
+
+Fixes #1892",False
+074e6a8be7275a69a407f6c1fa2270c754d2834b,2021-06-10 01:01:36,Luigi Pinca,"[fix] Don't call `ws.terminate()` unconditionally in `duplex._destroy()`
+
+Call `ws.terminate()` only if `duplex.destroy()` is called directly by
+the user and not indirectly by the listener of the `'error'` event of
+the `WebSocket` object. Calling `ws.terminate()` right after the
+`'error'` event is emitted on the `WebSocket` object, might prevent the
+close frame from being sent to the other peer.",False
+8806aa9a836c3a616c9511adad159c65eeb153b0,2021-06-10 01:01:36,Luigi Pinca,"[fix] Close the connection cleanly when an error occurs
+
+Instead of destroying the socket, try to close the connection cleanly
+if an error (such as a data framing error) occurs after the opening
+handshake has completed.
+
+Also, to comply with the specification, use the 1006 status code if no
+close frame is received, even if the connection is closed due to an
+error.
+
+Fixes #1898",False
+05b8ccd639a91428d7440ad350b8d4301636b2e2,2021-06-06 00:32:44,Mestery,[doc] Fix broken link (#1897),False
+03a707884c591d56ad69c4c1ddd34cab0449b1fe,2021-05-31 22:38:20,Luigi Pinca,[doc] Remove unsafe regex from code snippet,False
+7ee31157d7b14bb94e0d0fd223a4a5508f4c39b9,2021-05-30 00:51:01,Luigi Pinca,[doc] Add logo to coverage badge,False
+edff6bb01f1102ad2cc389ad25fce7a6aef40f72,2021-05-28 15:13:17,Luigi Pinca,[test] Fix nit,False
+262e45ac93622ffcf5ad0c33a2acf1eab481a501,2021-05-27 12:32:55,Luigi Pinca,"[test] Rename certificates and private keys files
+
+Rename `ca1-cert.pem` to `ca-certificate.pem`, `ca1-key.pem` to
+`ca-key.pem`, `agent1-cert.pem` to `client-certificate.pem`, and
+`agent1-key.pem` to `client-key.pem`.",False
+d18c677dbd88f38ab8312d341f2b0284e1648713,2021-05-27 00:57:29,Luigi Pinca,[security] Update link to point to published security advisories,False
+2f2b3e8f8417c799fd579ced1a3e89f9a18fbb1c,2021-05-27 00:51:11,Luigi Pinca,"[test] Update certificates and private keys
+
+Fixes #1890",False
+c05d51f167e2464a3e8cf1888d60ac1da9b38197,2021-05-25 22:03:07,Luigi Pinca,[security] Add ReDoS vulnerability to SECURITY.md,False
+f5297f7090f6a628832a730187c5b3a06a247f00,2021-05-25 21:41:07,Luigi Pinca,[dist] 7.4.6,False
+00c425ec77993773d823f018f64a5c44e17023ff,2021-05-25 21:39:51,Luigi Pinca,"[security] Fix ReDoS vulnerability
+
+A specially crafted value of the `Sec-Websocket-Protocol` header could
+be used to significantly slow down a ws server.
+
+PoC and fix were sent privately by Robert McLaughlin from University of
+California, Santa Barbara.",False
+990306d1446faf346c76452409a4c11455690514,2021-05-25 20:18:37,Luigi Pinca,[lint] Fix prettier error,False
+32e3a8439b7c8273b44fe1adb5682f529e34d0ba,2021-05-25 19:32:21,Luigi Pinca,"[security] Remove reference to Node Security Project
+
+The Node Security Platform service no longer exists. New security
+advisories will be published to GitHub Security Advisories.",False
+8c914d18b86a7d1408884d18eeadae0fa41b0bb5,2021-05-04 15:48:24,Luigi Pinca,[minor] Fix nits,False
+fc7e27d12ad0af90ce05302afc85c292024000b4,2021-04-23 23:54:19,Luigi Pinca,[ci] Test on node 16,False
+587c201bfc22c460658ca304d23477fc7ebd2a60,2021-04-23 23:53:23,Luigi Pinca,[ci] Do not test on node 15,False
+f67271079755e79a1ac2b40f3f4efb94ca024539,2021-04-18 13:30:59,Luigi Pinca,[dist] 7.4.5,False
+67e25ff50230d131d76b1061ca0be5c991df161f,2021-04-18 13:22:27,Luigi Pinca,"[fix] Fix case where `abortHandshake()` does not close the connection
+
+On Node.js >= 14.3.0 `request.abort()` does not destroy the socket if
+called after the request completed.
+
+Fixes #1869",False
+23ba6b2922f521f2b656891a997ab562b7139dd4,2021-04-17 19:53:19,Luigi Pinca,"[fix] Make UTF-8 validation work even if utf-8-validate is not installed
+
+Fixes #1868",False
+114de9e33668075f0af88dc440f1ebd813161e72,2021-03-07 22:20:40,Luigi Pinca,[ci] Use a unique ID instead of commit SHA,False
+d75a62ed661af25244e4825bec4813688886e3bd,2021-03-07 11:24:46,Luigi Pinca,[ci] Include commit SHA in `flag-name`,False
+a74dd2ee88ca87e1e0af7062331996bc35f311a6,2021-03-07 01:59:14,Luigi Pinca,[dist] 7.4.4,False
+92774377166b9e9241982cada4e80331093021ae,2021-03-07 01:49:06,Luigi Pinca,"[fix] Recreate the inflate stream if it ends
+
+Refs: https://github.com/nodejs/node/issues/37612",False
+cbff929b810529f64a88e4b7b8f25d19023dc912,2021-03-03 14:12:29,Luigi Pinca,"[doc] Improve `websocket.terminate()` documentation
+
+Fixes #1858",False
+489a295be632feea34266c9966a16d5453f123dc,2021-02-26 22:12:21,Luigi Pinca,[ci] Use GitHub Actions (#1853),False
+77370e00ca75b2f88c35be7202fbe641abab5ee7,2021-02-25 00:48:51,Luigi Pinca,[pkg] Update eslint-config-prettier to version 8.1.0,False
+99338f7ec6a869dbdd48ae0bcf56ca5d9aaa3f90,2021-02-07 13:08:09,Ryan Christian,[doc] Fix `data` argument type (#1843),False
+223194e5af389d1ab8019010cd54baccb79f0916,2021-02-03 00:46:11,Luigi Pinca,[dist] 7.4.3,False
+4e9607bb259dc3747881c2c22c3f65127d018a16,2021-02-02 23:48:21,Stefan,[perf] Reset compressor/decompressor instead of re-initialize (#1840),False
+2789887c4c3769721c371a0edf3caa6c6933f114,2021-01-27 13:23:40,Luigi Pinca,"[minor] Use `request.socket` instead of `request.connection`
+
+`request.connection` is deprecated.",False
+2079ca5e373738e7783d2010f03432f287695e0f,2021-01-26 21:19:10,Luigi Pinca,[test] Increase code coverage,False
+d1a8af4ddb1b24a4ee23acf66decb0ed0e0d8862,2020-12-30 01:40:42,Luigi Pinca,[dist] 7.4.2,False
+48a2349d229e1814ad6bcd2eb25e4e04e8b67aef,2020-12-30 01:40:42,Luigi Pinca,[pkg] Update eslint-config-prettier to version 7.1.0,False
+a2c0d447af711ca245cb534159fa7c4d9ae67e64,2020-12-29 02:12:32,Luigi Pinca,"[minor] Silence deprecation warning
+
+Fixes #1829",False
+c171962844e1862cadff27804700e00e2f2adbf5,2020-12-05 02:11:31,Luigi Pinca,[dist] 7.4.1,False
+38d6ab3b0605e245e7177e056a767a100f617e4f,2020-12-05 01:44:30,Luigi Pinca,"[fix] Handle cases where the `'error'` event is emitted multiple times
+
+The `'error'` event can be emitted multiple times by the
+`http.ClientRequest` object in Node.js < 13. Handle the case properly.
+
+Fixes #1819",False
+3d5066a7cad9fe3176002916aeda720a7b5ee419,2020-11-08 13:55:37,Luigi Pinca,[test] Check configurability and enumerability of WebSocket properties,False
+eb36a63183bfaeb130eb288d8e1374533cd7dfbe,2020-11-08 12:11:21,Luigi Pinca,[dist] 7.4.0,False
+3f185bf34a03dc4c94c0ff92b21d1a7d4c784623,2020-11-07 14:11:03,Luigi Pinca,[minor] Use the public `binaryType` property,False
+2069e684707f078d8f5f4f4a3f026ea89c491418,2020-11-07 13:59:12,Luigi Pinca,"[fix] Fix the enumerability of some properties
+
+Make the `CONNECTING`, `OPEN`, `CLOSING`, `CLOSED`, `binaryType`,
+`bufferedAmount`, `extensions`, `onclose`, `onerror`, `onmessage`,
+`onopen`, `protocol`, `readyState`, and `url` properties enumerable.",False
+eabed8fcc3694893e603460008994e3f4bcbaf42,2020-11-07 13:59:06,Luigi Pinca,"[fix] Make read-only properties read-only
+
+Fixes #1814",False
+7d39f19ee2b87e5c4eaec34c13a88de651533bdc,2020-11-07 00:32:30,Luigi Pinca,"[minor] Pass the request object to `server.handleUpgrade()` callback
+
+Fixes #1813",False
+572c81f375e7ba771af0db24860f5c08c644bf2b,2020-11-06 01:23:09,Luigi Pinca,[ci] Test on node 15,False
+237960e915b3f41b8c7aabfa5c938171976f2978,2020-10-22 16:07:37,Luigi Pinca,[codestyle] Use 80 characters per line in JSDoc comments,False
+02ecf45a29ccee55b3d09521f29689769b66e5be,2020-10-22 15:52:40,Dmitry Kirilyuk,[minor] Specify optional parameters in JSDoc (#1799),False
+69172fc9c0d25d51d412002f748d9844e75cf89f,2020-10-22 14:17:26,Luigi Pinca,[minor] Add missing parameters in JSDoc comments,False
+d972c33cb47c87439a1c68c7cf06d9a2aa9f7141,2020-09-17 11:18:21,Eugene Maslovich,[example] Write 401 response before destroying the socket (#1798),False
+535c55648db0602735f2ff8466131adfca911dae,2020-09-02 00:32:17,Luigi Pinca,[ci] Do not test on node 13,False
+40a9d2aff0214e255294efceadab59f4f38d099d,2020-08-06 11:12:37,Luigi Pinca,[test] Fix typo,False
+9a99197698a9ea8b56983cb187b2ed4bdc98359a,2020-08-05 22:49:39,Luigi Pinca,[test] Clarify comment,False
+42abb0ef55279d98c3071e4230d7a0ecde073a8b,2020-08-05 20:40:09,Luigi Pinca,[test] Use `os.tmpdir()` instead of hardcoded /tmp,False
+622e2f3371cd23621108b553a3853bbcbc902e43,2020-07-29 23:52:35,Luigi Pinca,"[meta] Remove 3rd-Eden from FUNDING.yml
+
+3rd-Eden is not yet enrolled in GitHub Sponsors.",False
+cc656df6804465864a1b7fa51f1812395daee186,2020-07-29 22:40:05,Luigi Pinca,[meta] Add FUNDING.yml,False
+da42ea17451f11eed54adb54d3beeedbb1c2aa70,2020-07-20 23:45:43,Luigi Pinca,"[doc] Improve documentation for `websocket.bufferedAmount`
+
+Closes #492",False
+d09daaf67c282e301eeebe21797215ddffd819c5,2020-07-05 10:48:22,Luigi Pinca,[dist] 7.3.1,False
+a162942649e27174590bb0162bbbc63912941ce7,2020-06-29 23:03:59,Luigi Pinca,"[fix] Use `socket._writableState.length` instead of `socket.bufferSize`
+
+Refs: https://github.com/nodejs/node/pull/34088",False
+41b0f9b36749ca1498d22726d22f72233de1424a,2020-06-24 23:02:06,Luigi Pinca,[minor] Fix nit,False
+44bcbc85313373e31eef8a5ca7b2be4447982763,2020-06-24 23:02:06,Luigi Pinca,[minor] Fix JSDoc comments,False
+e1349c047d7f1c120ca606364e35d5c4c627c599,2020-06-24 23:00:04,Luigi Pinca,"[fix] Take into account the data that is being compressed
+
+Improve `websocket.bufferedAmount` accuracy by taking into account the
+number of bytes of a message while it is being compressed.",False
+0954abcebe027aa10eb4cb203fc717291e1b3dbd,2020-06-23 22:37:56,sa-linetco,"[doc] Add clarification for `http{,s}.request()` options (#1773)",False
+88d0345997ea14b262519c7d5b5baaf6f9d78035,2020-06-13 12:21:03,Luigi Pinca,[pkg] Update prettier to version 2.0.5,False
+b6ae22a5b54dbdaba11dc3dfb5cb77747598d72b,2020-06-13 12:14:49,Luigi Pinca,[pkg] Update eslint to version 7.2.0,False
+c4c7f3c545e96d273ba27fe24641eda12831463f,2020-06-13 12:14:42,Luigi Pinca,[ci] Run the lint script only once,False
+14d53d72507ab367cff3e4609889bd8a7f68d1df,2020-06-13 12:07:34,Luigi Pinca,[pkg] Do not run the lint script before the test script,False
+c02a4b77c2b257336400c7aed9ca7c222d87c6ff,2020-06-03 23:34:41,Luigi Pinca,[pkg] Remove Greenkeeper configuration,False
+01b07e1d205a6b57cb3e6a7d82b600dc4b2742fc,2020-05-27 20:57:18,Luigi Pinca,[minor] Add missing tag to JSDoc comment,False
+41f5e4ff11e6447250dc0860336e368276ac08bd,2020-05-10 10:53:28,Luigi Pinca,[dist] 7.3.0,False
+2e5c01f5b550ae4171d127b0b707ebcec5925cc3,2020-05-07 23:27:28,Sceat,[feature] Make `addEventListener()` support the `once` option (#1754),False
+97ddfce98347eb46b993eb2708cddbb388c0a75f,2020-05-07 12:12:28,Luigi Pinca,[ci] Test on node 14,False
+2b49c4821f68dd9be519b95671198725b7c7f96d,2020-05-07 12:11:06,Luigi Pinca,"Revert ""[ci] Use GitHub Actions (#1644)""
+
+This reverts commit 49ed88968d0abb04e6bc8c7a20f584ce2ab71289.",False
+82f05372bab3bead89aef2ba66478c01957eef99,2020-05-07 12:00:46,Luigi Pinca,"Revert ""[ci] Test on node 14""
+
+This reverts commit 73f8bb67b74d8b2317c5bc80a2eff8a10318c1be.",False
+b167d1cd45176d20a7d7a484afaf59c2f1d9efd0,2020-05-07 12:00:12,Luigi Pinca,"Revert ""[ci] Update Coveralls GitHub Action to version 1.1.1""
+
+This reverts commit 78e1c01959c59e07a9e1a9f464dd90f8a012c4fb.",False
+78e1c01959c59e07a9e1a9f464dd90f8a012c4fb,2020-05-02 11:19:40,Luigi Pinca,[ci] Update Coveralls GitHub Action to version 1.1.1,False
+e6949791fa1fcae3c2180330f9bfdcdbcea4d4a4,2020-04-25 17:00:30,Luigi Pinca,[doc] Fix badge URL,False
+67983cbba428d3b55c6f97d4cf17d29e32a113d0,2020-04-25 16:16:08,Luigi Pinca,[dist] 7.2.5,False
+18d773d1f52d4a5b76ec3a58dabacc05422a4a43,2020-04-25 16:06:03,Luigi Pinca,"[test] Fix failing tests
+
+Do not rely on the `'drain'` event for synchronous writes.
+
+Refs: https://github.com/nodejs/node/pull/32887",False
+73f8bb67b74d8b2317c5bc80a2eff8a10318c1be,2020-04-24 01:13:14,Luigi Pinca,[ci] Test on node 14,False
+7a0ad901c4515a9ad8d6805ad8ca7f669f91ac31,2020-04-24 01:10:43,Luigi Pinca,[doc] move ISSUE_TEMPLATE.md to .github/issue_template.md,False
+49ed88968d0abb04e6bc8c7a20f584ce2ab71289,2020-04-23 12:45:01,Luigi Pinca,[ci] Use GitHub Actions (#1644),False
+373046710b80716d55058f418f3f9925d4b3a842,2020-04-22 13:57:09,Luigi Pinca,"[test] Do not call `duplex.end()` prematurely
+
+Keep the `WebSocket` connection open while the test is run.
+
+Refs: https://github.com/nodejs/node/pull/32780",False
+651d6627f7825026d80f45569880b0f3a817340d,2020-04-22 13:57:09,Luigi Pinca,"[fix] Call the `_final()` callback before destroying the stream
+
+Ensure that `'finish'` event is emitted.
+
+Refs: https://github.com/nodejs/node/pull/32780",False
+62f71d1aa67f2803a121539580b3d4695a69c39c,2020-04-22 11:02:24,Luigi Pinca,"[minor] Throw an error on invalid method usage
+
+Throw an error if `WebSocketServer.prototype.completeUpgrade()` is
+called more than once with the same socket argument.",False
+79dfbcf9f2d45032748f8471b3c147ecd0634cfb,2020-04-22 11:02:24,Luigi Pinca,[test] Move test to appropriate section,False
+06d866004e11ec00a3ea5fc60fb118856ba0a8fa,2020-04-22 11:02:24,Luigi Pinca,"Revert ""[minor] Throw an error on invalid usage""
+
+This reverts commit 364126620bf3fe4e6e0042d3b74ec53b5ccbbb08.",False
+c56d4ec19269cf8241d94c9c59e6782c5fd90372,2020-04-22 11:02:24,Luigi Pinca,"Revert ""[minor] Set the flag to detect invalid API usage only when needed""
+
+This reverts commit 91b5173c776881dc1a229ac5b0ba928dcb775602.",False
+1a501d555296fe32107e18f91f5eb9e3f1755cc0,2020-04-19 23:36:06,Luigi Pinca,"[doc] Fix example to not use deprecated property
+
+Fixes #1743",False
+6b4e2a89ffa4f0b866ba8078868b45d2c4eea6d7,2020-04-17 00:13:52,RomanTerentev,[doc] Improve authentication example (#1741),False
+c31150fbeb2f2e9b6c08c0d33c0a11d8b515bd02,2020-04-15 23:03:32,Luigi Pinca,[test] Remove unneeded options object,False
+3bf4ac8033abf9fd25f2286b70591fc1d5c2c0ea,2020-04-15 22:51:11,Luigi Pinca,[test] Remove unneeded `Buffer#slice()` call,False
+bdfb987e537f72f7937cd33930bf55f6c189ae92,2020-04-15 22:37:43,Luigi Pinca,[minor] Use `Buffer.from()` instead of `viewToBuffer()`,False
+db55f7720cd5f1a07f688897170a1f931e01ddfd,2020-04-11 19:40:47,Luigi Pinca,[dist] 7.2.4,False
+af279e303c3607dbc1b4cf378dc5d45ccdf9e8e8,2020-04-11 19:31:27,Luigi Pinca,[minor] Fix nits,False
+eaf2ad1335ff7b502a7b119c576ea3c611c7a70c,2020-04-11 17:14:22,Eneko Lakasta,[fix] Honor the `auth` option (#1734),False
+021d4ef4e3c61c2804651c77a97e4608deebb29c,2020-03-18 20:28:37,龙腾道,[minor] Fix typo (#1715),False
+5fcdc42ef76d2d0ab920aa37631468e6f1066bcd,2020-03-09 22:45:31,Luigi Pinca,[dist] 7.2.3,False
+e54f08daeef64d4b78f10ec2d7258b429961dac2,2020-03-09 22:33:39,Luigi Pinca,"[fix] Make `WebSocket#{p{i,o}ng,close}()` check the data size
+
+Throw an error if the data size is too large to fit in a control frame.",False
+af4f7227a31090a69c282cd18d5c42fb42554b03,2020-03-08 12:12:47,Luigi Pinca,[dist] 7.2.2,False
+b29154bfac8cb98fbcc4c6514d77efa9adb60e3a,2020-03-08 01:53:19,Luigi Pinca,"[fix] Call buffered send callbacks on abnormal closure (#1702)
+
+If the socket is closed while data is being compressed, invoke the
+current send callback and the buffered send callbacks with an error
+before emitting the `'close'` event.
+
+Refs: https://github.com/nodejs/node/pull/30596",False
+3e7f69c3abe7d6c02f585111cadd99a91852e5bf,2020-02-29 23:57:31,Luigi Pinca,"[fix] Do not swallow errors emitted while destroying (#1672)
+
+Refs: https://github.com/nodejs/node/pull/29197",False
+a39756ace2829bedd36e57015017dad809c4b8de,2020-02-16 23:24:12,Jake Merdich,"[doc] Clear the timer on close (#1696)
+
+In the heartbeat example, clear the timer on close.",False
+9535702e50525621313941f0e1a972fdca403045,2020-01-25 17:11:22,Luigi Pinca,"[fix] Make `_final()` a noop if no socket is assigned
+
+Prevent `_final()` from throwing an error if `duplex.end()` is called
+while the websocket is closing and no socket is assigned to it.",False
+1863504c9bee26fc0811b14cf73b45fac6d65abc,2020-01-25 17:10:04,Luigi Pinca,"[test] Use `WebSocket.CONNECTING` instead of 0
+
+Use the `WebSocket.CONNECTING` constant instead of hardcoding its value.",False
+cd607c028dc6bdb31f0a51a5e50d5fa6d3a5905b,2020-01-24 22:33:07,Luigi Pinca,[pkg] Update mocha to version 7.0.0,False
+4f293a8726092c75539287dd07358afaf151a2e5,2020-01-22 01:33:22,Luigi Pinca,"[fix] Close the connection if the MASK bit is incorrectly set (#1681)
+
+Follow the specification and close the connection when a non masked
+frame is received on the server or a masked frame is received on the
+client.
+
+Refs: https://tools.ietf.org/html/rfc6455#section-5.1
+
+Closes #1679",False
+b6430fea423d88926847a47d4ecfc36e52dc1164,2020-01-22 01:30:04,Ben Falconer,"[fix] Allow close code 1014 (#1682)
+
+IANA has assigned 1014 as ""Bad Gateway"".
+
+Refs: https://www.iana.org/assignments/websocket/websocket.xhtml#close-code-number
+Refs: https://developer.mozilla.org/en-US/docs/Web/API/CloseEvent",False
+748a8442a98650353cf2fcd1cf8016d5bd42b4a0,2020-01-19 13:01:44,Luigi Pinca,[minor] Use spread syntax instead of `Object.assign()`,False
+401a5852dcdd313490a379563ecb523c3c71c406,2020-01-04 15:22:57,Luigi Pinca,"[minor] Fix misleading comment
+
+As of commit https://github.com/nodejs/node/commit/0e89b64d66 the
+`zlib.flush()` callback can be called if `zlib.close()` is called
+while data is being processed.",False
+b59eff640163bc0193c7a20a64c77fb72e1d0e9b,2019-12-23 19:23:08,greenkeeper[bot],[pkg] Update nyc to version 15.0.0 (#1671),False
+9531cd0f20be0b0cd059443c31ea4bda2670c7f1,2019-12-14 14:41:53,Luigi Pinca,[dist] 7.2.1,False
+a4b9e0befb4106620dac93727b0c64c1f76d7423,2019-12-12 01:31:54,Luigi Pinca,[ci] Test on node 13,False
+6df06d9751937e1bed526644d468a5be31ef33cc,2019-11-30 22:04:58,Luigi Pinca,"[minor] Use `Infinity` if `concurrency` value is falsy
+
+Refs: https://github.com/websockets/ws/commit/950e41a8#r36203961",False
+950e41a8149255a69a64e9f5dbc1176925a523c2,2019-11-30 00:30:43,Luigi Pinca,[minor] Remove async-limiter dependency,False
+329328432b830d48a08535803d429ce14f56bc88,2019-11-23 20:27:48,Luigi Pinca,"[minor] Remove unnecessary optimization
+
+It does not make much sense to optimize for empty messages.",False
+f06a7389459bd5b7d3609d92d9f2244d03cd179d,2019-11-14 13:01:12,Luigi Pinca,[pkg] Add engines field,False
+289724f67d28d37fe02c4c66a6b86c581d7f4f97,2019-10-24 00:37:01,Sebastian Silbermann,"[pkg] Add bufferutil and utf-8-validate as peer dependencies (#1626)
+
+Add bufferutil and utf-8-validate as optional peer dependencies.",False
+65f7800d4ed5d6f2076b5bd00b3c4cabfa4d22ef,2019-10-19 19:53:07,Luigi Pinca,[dist] 7.2.0,False
+54e301199386e328d56dcfe7358417b7f6d4de91,2019-10-19 19:45:41,Luigi Pinca,[doc] Fix Travis CI URL,False
+a6c42383d6506f0348036aedc4de311b03160445,2019-10-19 19:16:32,Luigi Pinca,"[example] Close the WebSocket connection on logout
+
+Fixes #1653",False
+2b7d84d002623d3b4b2bd0c2e9483db1a36c0ad1,2019-10-14 19:59:40,Tadeusz Wójcik,"[minor] Add ability to specify the `readableObjectMode` option (#1647)
+
+Fixes #1640",False
+96d8c8fde3b9d533038a4283fdd72c47e4a8d499,2019-10-07 00:51:52,Luigi Pinca,[test] Increase timeout for failing tests on Windows,False
+08c6c8ba70404818f7f4bc23eb5fd0bf9c94c039,2019-09-15 12:44:54,Сковорода Никита Андреевич,"[fix] Ensure that `concat()` never returns uninitialized data (#1600)
+
+This is just a safeguard that ensures that for cases if `totalLength`
+is by some mistake miscalculated, no uninitialized memory would be
+leaked.",False
+5b7315fa15385efa909224258ec4165bb3e842bd,2019-08-25 16:09:12,Luigi Pinca,[perf] Use `TypedArray#set()` instead of `Buffer#copy()`,False
+74bac8e592ff5dbbdda1190d1d4b209c504979d4,2019-08-12 21:17:05,Luigi Pinca,[dist] 7.1.2,False
+3a695e8144e6ebc86087cac559c54098d205c9f5,2019-08-12 21:11:28,Yosi Attias,"[fix] Ensure `_compress()` callback is always called (#1618)
+
+Fixes #1617",False
+fa991731cca990f40ecedb120918d14d08129673,2019-08-05 19:03:39,Luigi Pinca,[doc] Fix nits,False
+0a612364e69fc07624b8010c6873f7766743a8e3,2019-08-05 00:43:09,Adrian Hope-Bailie,[doc] Discourage use of `verifyClient` hook (#1613),False
+91b5173c776881dc1a229ac5b0ba928dcb775602,2019-07-22 20:41:12,Luigi Pinca,[minor] Set the flag to detect invalid API usage only when needed,False
+cf467dbed312e7dc6e7318c08666b72ea3213b76,2019-07-19 20:11:37,Luigi Pinca,[dist] 7.1.1,False
+364126620bf3fe4e6e0042d3b74ec53b5ccbbb08,2019-07-14 18:11:28,Luigi Pinca,"[minor] Throw an error on invalid usage
+
+Throw an error if the same `server` option is used for multiple
+WebSocket servers at the same time.",False
+dd42c8bc3ac215668bbfe1788b3dab197219df2a,2019-07-08 21:24:05,Luigi Pinca,[dist] 7.1.0,False
+a49a827b4eabb4c720993ee1a0c45b737cc148bb,2019-07-08 21:18:57,Luigi Pinca,"[feature] Add utility to wrap a `WebSocket` in a `Duplex` stream (#1589)
+
+Fixes #113",False
+dbacf582a5907af75c6d424f017af39096ab0b93,2019-07-06 01:13:33,Luigi Pinca,"Revert ""[minor] Remove unneeded `if` statement""
+
+This reverts commit 297f56df79f6bf4757465fb6b59884faf5b75337.",False
+db1486492a00f5cd6b43bed06773668d54994593,2019-06-26 00:57:50,greenkeeper[bot],[pkg] Update eslint-config-prettier to version 6.0.0 (#1599),False
+c62ea9fb5ab5991d47ac4d2632a6f93b6617098c,2019-06-23 22:29:34,Goktug Yilmaz,[doc] Improve comment in code snippet (#1597),False
+47e7d64f2a78f160b7d5dab0086f2c5444faf613,2019-06-22 14:22:31,greenkeeper[bot],[pkg] Update eslint to version 6.0.0 (#1595),False
+d9b5562e2b9be191abb5c58a15ae006bd5c347fd,2019-06-19 11:09:53,Amit Novick,[doc] Improve server broadcast example (#1590),False
+38d3bf24a0caa2f504361926582ed679a22e08f8,2019-06-17 21:43:43,Luigi Pinca,[dist] 7.0.1,False
+a0af76440eb11c7a567581141554585e3a6e7409,2019-06-17 21:33:49,Luigi Pinca,[test] Use the correct value for the Content-Length header,False
+b08617910daa3dfcd7fd79cdb004ef383d9a35a1,2019-06-16 01:38:01,Holger Koser,[fix] Allow to disable sending the SNI extension (#1587),False
+e9e8ba53bc259bf7e34195df05d348717c185542,2019-06-15 15:23:23,greenkeeper[bot],[pkg] Update eslint-config-prettier to version 5.0.0 (#1588),False
+36ef7570786d423038627877034cb866da8f8901,2019-06-08 15:25:55,Michał Gołębiowski,[doc] Add missing dependency in code snippet (#1581),False
+911bb6fb1145c9b09ae4b1cf4c993b3b8ce9e1cf,2019-05-14 18:34:20,Rishabh Kohli,[minor] Fix typo in JSDoc comment (#1565),False
+8050d5f395146e060140defa2119132c9f0f3ba2,2019-05-12 22:50:54,Luigi Pinca,[lint] Enable quotes rule,False
+995c527c87d0d4833d8093c18dcfa2e4a41d9582,2019-05-04 12:55:32,Luigi Pinca,[test] Enable --throw-deprecation,False
+fbc077bddbe9ae9aff26f8a2ba20d0ababe93bfc,2019-05-02 21:45:24,Luigi Pinca,[test] Do not use the deprecated `outgoingMessage._headers` property,False
+092a822a41eb22f6d6745c18bc29b9c40715680f,2019-04-30 21:31:37,Luigi Pinca,[dist] 7.0.0,False
+1b85466a993561d6c7db793ab6d6df849164235e,2019-04-26 18:05:26,Luigi Pinca,[minor] Use `crypto.randomFillSync()` to generate the masking key,False
+993b0cd46c39456ffc3bb772a94f9b0b38cc7fc5,2019-04-26 16:03:21,Luigi Pinca,[minor] Make `extension.parse()` use null-prototype objects,False
+aca385806934f5cf7d27ff8a3063619731f0c36c,2019-04-25 23:16:55,Luigi Pinca,[example] Clean up examples,False
+4a9a7732ebdc40a56e02f52766ab3a4ac76862c6,2019-04-25 21:34:07,Luigi Pinca,[example] Rename serverstats to server-stats,False
+3eff077ce81ad7950dcedbd6b57ac25ec3bafb63,2019-04-25 20:49:48,Luigi Pinca,[example] Remove unmaintained fileapi example,False
+379def63c8d51516b99344bd5a780281853a6808,2019-04-25 20:44:46,Luigi Pinca,[lint] enable no-var rule,False
+01bb91d607670d5869ac191ca14f624ebeffcaca,2019-04-25 18:17:39,Luigi Pinca,[ci] Test on node 12,False
+6824e8c04aa1764fd4beee620200cd2ead18ef72,2019-04-25 16:26:40,Luigi Pinca,"[minor] Use `Reflect.apply()`
+
+It is faster than `Function.prototype.apply()`.",False
+ddf0acaae43d5e5cf7f5d838bfd4350699c5406a,2019-04-25 15:34:51,Luigi Pinca,[minor] Use object spread syntax instead of `Object.assign()`,False
+692d7b47624c5392d78fe4ea1351b5daa17bad94,2019-04-25 14:27:49,Luigi Pinca,[major] Drop support for `url.Url` in the `WebSocket` constructor,False
+1e6999bb67e86d486da0b61f5bc71ed9f8417e65,2019-04-25 13:53:20,Luigi Pinca,[major] Drop support for Node.js 6,False
+5d751fbd4c0ab3478a6de4194d4d06908bc8ac00,2019-04-25 12:15:10,Luigi Pinca,"[major] Change `WebSocket#{p{i,o}ng,send}()` behavior (#1532)
+
+- If the `readyState` attribute is `CONNECTING`, throw an exception.
+- If the `readyState` attribute is `CLOSING` or `CLOSED`
+  - Increase the `bufferedAmount` attribute by the length of the `data`
+    argument in bytes.
+  - If specified, call the `callback` function with an error.
+
+Fixes #1515",False
+5479eaedff6d92bf1f2cac8f269c474344f88749,2019-04-18 10:56:31,Luigi Pinca,[pkg] Use caret ranges for all dependencies,False
+1a15120fa8175f95d2136ec795d240b6a1c4f8e8,2019-04-18 10:31:22,Luigi Pinca,[pkg] Update nyc to version 14.0.0,False
+beccc795ce9b1f01a9ebd3bd50547b21cacceb73,2019-04-17 12:13:15,Luigi Pinca,[pkg] Remove package-lock.json,False
+ebdf0f7dfdbacd2facb9a4afdea0db4995f81e14,2019-04-13 12:59:24,Luigi Pinca,"[pkg] Move Greenkeeper configuration to package.json
+
+Fixes #1550",False
+3a7faf7b8ee75cf09ad5ad79aeeb231c468f5807,2019-04-13 12:44:18,Luigi Pinca,[pkg] Add greenkeeper.json,False
+078336e29a3d5f45afd2bfee10a58a79ff085811,2019-04-13 12:44:11,Luigi Pinca,[pkg] Add package-lock.json,False
+8a5a2cf04ec3b0fb9067bd9918202971820c9c5e,2019-04-13 10:37:58,greenkeeper[bot],chore(package): update prettier to version 1.17.0 (#1549),False
+e8e39ea839a715759f7672d1538c9821ed98c281,2019-04-13 01:41:05,Marcin K,"[doc] Update HTTPS example, remove new createServer (#1548)",False
+7e7c8d6da353bb5e00847f05ea3a3fef512281c0,2019-04-08 10:55:37,greenkeeper[bot],chore(package): update mocha to version 6.1.0 (#1544),False
+736c082931c108f613b55c811663182dfdaddfce,2019-03-31 00:13:59,greenkeeper[bot],chore(package): update eslint to version 5.16.0 (#1541),False
+d57db27daf0e610590e3168266a214201a8c1d3a,2019-03-27 14:04:10,Luigi Pinca,[dist] 6.2.1,False
+40734d83dc0837c0e101f385d000781734c0906d,2019-03-27 02:42:27,Luigi Pinca,[minor] Add missing option in JSDoc comment,False
+0556f314a01543ba4e706d8892b288b613df25c6,2019-03-27 02:18:50,Teddy Toussaint,[doc] Add TOC to ws.md (#1539),False
+aa1dcd506543b8979053589a8d5fc67482f0f9ed,2019-03-26 22:53:27,Luigi Pinca,"[fix] Make `WebSocket#close()` set the close timer immediately
+
+If there is buffered data to write and the stream is not flowing, it
+is possible that the callback of `Sender.prototype.close()` is never
+called.",False
+297f56df79f6bf4757465fb6b59884faf5b75337,2019-03-21 13:36:09,Luigi Pinca,"[minor] Remove unneeded `if` statement
+
+The `'error'` event can be emitted after the `'close'` event only if
+`socket.write()` is called on a closed socket. If this happens, it's
+a bug.",False
+bcab373b2b05342029db878872f95cc8f870350f,2019-03-20 17:07:14,Luigi Pinca,[test] Increase code coverage,False
+3a5a20aebfd5b9b717f6470d3e5bbcf72183f4b3,2019-03-20 13:23:12,Luigi Pinca,"Revert ""[ci] Cache dependencies""
+
+This reverts commit 9a89e5d5164415021db86da665d3b691321656c7.",False
+9a89e5d5164415021db86da665d3b691321656c7,2019-03-20 12:40:06,Luigi Pinca,[ci] Cache dependencies,False
+7f5025ddc43be633395ebe7741777424bb45a148,2019-03-19 22:49:47,Luigi Pinca,[test] Fix flaky test,False
+148c37363a2d4267135c970cfe18eb7b1be405fd,2019-03-17 12:19:47,Luigi Pinca,[test] Prefer arrow functions,False
+3df82423e6e77d046fdc0e5e045401dda1ae4857,2019-03-17 00:43:03,Luigi Pinca,[test] Remove comment to disable eslint rule,False
+a40e29fd32753c154352ac416fac47de63d7b9cd,2019-03-15 22:17:51,Luigi Pinca,"[minor] Remove length threshold
+
+Do not use a length threshold to determine whether or not to copy data.",False
+6c225842ae494457eb3e338a269ada477b5ebeb2,2019-03-15 20:59:01,Luigi Pinca,"[minor] Buffer writes if the frame to send is made of multiple chunks
+
+This allows to write all chunks at the same time via
+`Socket.prototype._writev()`.",False
+1842197de24d644b50cc325b83cb3099a19939f8,2019-03-15 20:52:44,Luigi Pinca,"[test] Remove useless test
+
+It should have been removed in 8ead18d0.",False
+eb6f8b05a5862b4e422c98395afff4584c9f1839,2019-03-06 12:37:29,Luigi Pinca,[dist] 6.2.0,False
+161f303b606401bd11d829045793a1ab74503c0e,2019-03-06 12:16:59,Luigi Pinca,"[feature] Add ability to follow redirects (#1490)
+
+Fixes #812",False
+a6e94f4954ca6fe2ac40b0ddf6d56125b4eca8e1,2019-03-02 23:25:16,Luigi Pinca,[minor] Move all buffer conversion functions to the buffer-util module,False
+71ee9ed0cc3b57bf1e5b9f0b46f4f340f22eb0c9,2019-03-02 19:53:04,greenkeeper[bot],chore(package): update eslint to version 5.15.0 (#1522),False
+855494da8d8f86821c8be7621a9b83f6ec32af9c,2019-03-02 19:51:50,Luigi Pinca,[test] Fix flaky test,False
+8c21adde2fc0ebc6e2f36928cc415b45d994bf69,2019-02-28 14:55:12,Luigi Pinca,[codestyle] Add .gitattributes,False
+faf9b36b7f31c56aae2b8c01fd7b9fc2e547e5b2,2019-02-28 14:32:04,Luigi Pinca,[ci] Let Travis CI handle x64 Windows tests,False
+bcb8a9891d6f6a0881c7628225f46f438d5ed62a,2019-02-28 14:11:07,Luigi Pinca,[ci] Test on macOS,False
+5e238fb8b7ea029788a11ef5665defd6c4a7cd3c,2019-02-28 14:01:10,Luigi Pinca,[doc] Add logos to badges,False
+295786bcb1d9e758c6442f6e612d5f50c8054ae9,2019-02-27 01:37:07,greenkeeper[bot],chore(package): update eslint-config-prettier to version 4.1.0 (#1518),False
+160af45bf3bed83237a0552bf8df3daff762b5fc,2019-02-22 15:16:38,Luigi Pinca,[fix] Abort the handshake if the Sec-WebSocket-Key header is invalid,False
+1d93fb2739ffff9bd96cafecf7f2153c8c8d5b69,2019-02-21 22:58:06,Luigi Pinca,[codestyle] Use single quotes in YAML files,False
+6ad4d868c0244e93dada6c267a8838f7055829ac,2019-02-21 22:46:26,Luigi Pinca,[pkg] Remove prettylint,False
+dd5833a8f576f8dda86c693ff82f0013fcffcc6b,2019-02-19 12:47:37,greenkeeper[bot],chore(package): update mocha to version 6.0.0 (#1511),False
+dc745cc10918eec23bd0680bcc7bce26101b8e2d,2019-02-16 22:24:41,Luigi Pinca,[dist] 6.1.4,False
+15b0bb35900c1069f45b6cda38c891b7b4aa9bb7,2019-02-16 22:22:48,Luigi Pinca,[test] Remove redundant test,False
+92b0a650d01727a84cb3ab8f6a5bed2c33127aa7,2019-02-16 22:20:21,Luigi Pinca,"[fix] Use the `defaultPort` option (#1510)
+
+Prevent the default port from being added to the `Host` header when no
+`Agent` is used.
+
+Fixes #1505",False
+8b5422eb96a96d1e66f5af03bfc453f57985bcd0,2019-02-16 11:46:49,greenkeeper[bot],chore(package): update eslint to version 5.14.0 (#1509),False
+5c82aacc1fea8c6030b30f1bff811e5b3ffe7b72,2019-02-15 11:49:17,greenkeeper[bot],chore(package): update nyc to version 13.3.0 (#1506),False
+b45e9121f4a1f067a142c0fb4f2fae65658e90fc,2019-02-05 12:10:24,greenkeeper[bot],chore(package): update nyc to version 13.2.0 (#1500),False
+75cd966f86b125eb06854a22590919c4293dd5ea,2019-02-02 02:04:53,greenkeeper[bot],chore(package): update eslint to version 5.13.0 (#1497),False
+460ae81a88f0b6a34bcc33889e090fd7ffb07ef3,2019-01-27 02:07:46,greenkeeper[bot],chore(package): update eslint-config-prettier to version 4.0.0 (#1496),False
+6fa6b8b388ad002a7d754d9ccdfac73d2bf73bc2,2019-01-24 12:24:10,Luigi Pinca,[dist] 6.1.3,False
+6d2930a65e541842053b2f8124865e9027cbab59,2019-01-24 12:21:22,Luigi Pinca,[minor] Fix style nit,False
+3df4809523bafcedf6e20908c26e33b2899b8011,2019-01-24 00:33:06,mwm-twx,[fix] Handle close frame which spans multiple packets (#1494),False
+c61218fa77e86b43712f97f1e11219668e59a7c4,2019-01-23 12:06:45,greenkeeper[bot],chore(package): update prettier to version 1.16.1 (#1492),False
+4f889592d16a0347f9b1e4e022168a61121dde4d,2019-01-20 01:59:01,greenkeeper[bot],chore(package): update eslint-config-prettier to version 3.6.0 (#1491),False
+f9d4b09ddb983c431d3be51d402cccf370b97696,2019-01-19 23:26:57,Luigi Pinca,"[minor] Use `Array.prototype.includes()`
+
+Use `Array.prototype.includes()` instead of `Array.prototype.indexOf()`.",False
+63adb732a5722f7c44376f79ff11068945acf7e1,2019-01-19 23:26:57,Luigi Pinca,"[minor] Set the handshake timeout via the `timeout` option
+
+Set the handshake timeout when a socket is assigned to the request.",False
+f7b947030657f1735afefadeab787f28f2777290,2019-01-17 12:13:07,greenkeeper[bot],chore(package): update eslint-config-prettier to version 3.5.0 (#1488),False
+a515600f415a5581d0728484e81e74475af02dde,2019-01-15 12:29:19,Luigi Pinca,[minor] Fix nit,False
+0236e999117d7c5233721efdfc3fbf3d9e007e7e,2019-01-14 01:49:04,greenkeeper[bot],chore(package): update eslint-config-prettier to version 3.4.0 (#1486),False
+f502916509fe0892a0b8e8eb7f09c92dd8ba2448,2019-01-12 01:08:20,Fábio Maia,[doc] Remove no longer needed --save flag (#1484),False
+dc92e75f45c76230d9ecfbf209c32300b1748017,2019-01-11 01:54:06,Luigi Pinca,[pkg] Update eslint to version 5.12.0,False
+3d6692ac1097d5f85ccf36001434b005f6d0552d,2018-12-24 19:46:54,Luigi Pinca,[minor] Refactor `PerMessageDeflate.prototype.cleanup()`,False
+e8ada8affcdd2cee01e193f4f79b0bf2598a682b,2018-12-23 16:59:08,Luigi Pinca,[pkg] Update eslint to version 5.11.0,False
+5a45029687189a316465f71f73b14a5fab67b322,2018-12-14 22:02:57,Luigi Pinca,[minor] Simplify `if` condition in `toArrayBuffer()`,False
+14d9088391ac4495d04e64d76c3b83d4e75f80e2,2018-11-18 01:18:38,Luigi Pinca,[dist] 6.1.2,False
+cc86d22e4fcc7f0e4f294aafd4375ec493058b89,2018-11-18 01:16:34,Luigi Pinca,[test] Remove no longer needed comment,False
+26436e05d0e8452b0709ca08a92092de3696cef8,2018-11-18 00:53:47,Luigi Pinca,"[fix] Restore compatibility with Node.js < 6.13.0
+
+Fixes #1472",False
+96b638c6f42d770d74142de4e9dd9df467722744,2018-11-17 16:13:58,Luigi Pinca,[pkg] Fix lint script,False
+761b1a4d204452d96bbc0f21b64c5e7dcc96d8d3,2018-11-17 14:34:05,Luigi Pinca,[doc] Fix formatting in ISSUE_TEMPLATE.md,False
+b9fad73f53c786bffc831e4cc7740da83b82f23b,2018-11-17 14:09:58,Luigi Pinca,[lint] Use prettier,False
+029de0cc87bc33da460b81321713f04af2d98c56,2018-11-17 12:29:37,Luigi Pinca,[dist] 6.1.1,False
+b213bee0651d0ca519f12c19d384a7adc187aa95,2018-11-16 13:55:25,Luigi Pinca,"[pkg] Update list of published files
+
+Refs: https://github.com/npm/npm-packlist/pull/14",False
+95bf991ca5cec7964d80387edb67db3cb132c2ee,2018-11-16 13:36:20,Luigi Pinca,[pkg] Update dev dependencies,False
+f26fac817e670a59138f4dd9c1f45c823246b528,2018-11-14 12:31:18,Luigi Pinca,"[minor] Ignore callbacks when clearing the send queue (#1471)
+
+Do not invoke callbacks when clearing the send queue due to premature
+socket closure.
+
+Refs: https://github.com/websockets/ws/pull/1464#issuecomment-435578571
+Fixes #1226",False
+591420614766c747f06b39e5c5600a1d99f27bce,2018-11-09 12:07:02,Luigi Pinca,[doc] Fix nits,False
+3fa0e03cc6a134d0132733a5a738c88deaa9b974,2018-11-08 15:38:38,Manix,[doc] Suggest implementation of heartbeat on the client (#1469),False
+7d51fb9686733d7bfcc77a820d9e378c197c96ae,2018-11-06 12:18:37,Brandon Fulljames,[fix] Do not waste time compressing when socket is closed (#1464),False
+1ebff19864acd1232536c2389e2507421b7d4c16,2018-11-04 13:56:41,Luigi Pinca,[ci] Test on node 11,False
+7e061bce4c78affbd9f30a4ffeadb8fb669d9b01,2018-10-30 02:37:13,Luigi Pinca,[pkg] Update nyc to version 13.1.0,False
+bc0f8ab4efd0afe2d7dbedc0a41e9bd0581a1e41,2018-10-30 02:37:04,Luigi Pinca,[pkg] Update eslint to version 5.8.0,False
+45f817bdb1edaeb673ae5b0aeda69fc9621b27fc,2018-10-30 02:31:32,greenkeeper[bot],chore(package): update eslint-plugin-node to version 8.0.0 (#1466),False
+cddbcf6667e3ead4636b30120477742a430b6454,2018-10-30 02:26:17,Luigi Pinca,[test] Remove unused variables,False
+0da3fdb506dd8a8a3ae2837873cd9878fe1f6965,2018-10-30 02:21:53,Luigi Pinca,[minor] Do not use the legacy URL API,False
+d2317b1d8dda7d36f1ba952f533ff45e2464ae52,2018-10-11 13:03:58,Adrian Hope-Bailie,[benchmark] Add Unix domain sockets to bench (#1456),False
+9022a0d2fa2b2fe7a8d0f6ad49dceade03a0ccb9,2018-10-07 22:18:39,Muhammad Umer,[doc] Remove `clientMaxWindowBits` option from README example (#1454),False
+b9ce38d80f847a843c05edfe1a907278bcffde0c,2018-10-05 12:11:08,Luigi Pinca,[dist] 6.1.0,False
+9fe2f3393d5efa02ba198ad7fffeca7dfb232512,2018-10-05 00:38:14,Luigi Pinca,[test] Fix failing test on Windows,False
+90407bbf3476b379673b69ae440db44c906d60d8,2018-10-04 11:21:34,Luigi Pinca,"[feature] Make `WebSocketServer#close()` emit `'close'` (#1453)
+
+Fixes #1375",False
+6de05e07df9ca1d5ab5023b1fe82836896517778,2018-10-01 13:49:29,Luigi Pinca,[pkg] Update nyc to version 13.0.1,False
+26b65daebb54796e3a2ca81baf53605b244f7405,2018-10-01 13:48:40,Luigi Pinca,[pkg] Update eslint to version 5.6.1,False
+7d7ddfd2e2e010bbdba6acfd9b8fb0f0ab79c951,2018-08-29 13:34:23,greenkeeper[bot],chore(package): update eslint-config-standard to version 12.0.0 (#1440),False
+19a0225062a7f60a0e0775cd31d09707c33d9d84,2018-08-29 13:31:49,Luigi Pinca,[lint] Add missing spaces,False
+30335cbece34f9c9e230269209ef3d427f2454f5,2018-08-29 11:09:26,greenkeeper[bot],chore(package): update eslint-plugin-standard to version 4.0.0 (#1439),False
+1e78aba9b9b29407517ec7ba1da97427c1678e5c,2018-08-18 13:46:34,Luigi Pinca,[pkg] Update eslint-plugin-import to version 2.14.0,False
+2bb93fbc6ee536fe65a053746149a736d60af2c5,2018-08-18 13:43:57,Luigi Pinca,[pkg] Update eslint to version 5.4.0,False
+07d337a0fb06cd05fb139954d64f23ff2a60e50f,2018-08-18 11:02:35,greenkeeper[bot],chore(package): update eslint-plugin-promise to version 4.0.0 (#1432),False
+1ee42fd67d365409096c11af0d6bc70fbe292c60,2018-07-21 19:02:50,Luigi Pinca,[dist] 6.0.0,False
+d963003a40bfe6cdd58eb3d3e4458eb2b2090a2c,2018-07-20 11:15:00,Luigi Pinca,[example] Update dependencies,False
+38d2e8b3f75ebccf8b0b205fafac959c1702ddfb,2018-07-17 17:46:27,greenkeeper[bot],chore(package): update eslint-plugin-node to version 7.0.0 (#1420),False
+fc957939460cd0c461618bef4c6d59a9b5a4b90e,2018-07-12 01:11:31,Luigi Pinca,"[fix] Fix use after invalidation bug
+
+Fixes #1418",False
+fbd43914ad557ed915c41108b2f98b508a720216,2018-07-08 15:15:48,Luigi Pinca,[fix] Fix compatibility with Node.js 6,False
+b354cd138e62dcb1e4e05ce8b0bc097534f23d76,2018-07-08 11:17:36,Luigi Pinca,[minor] Remove no longer needed workaround for `socketPath` option,False
+ef5a8f5f5e4d3843d318d2b8a463b49d8105bd2e,2018-07-08 11:02:02,Luigi Pinca,[pkg] Update eslint-plugin-standard to version 3.1.0,False
+80e20021f314d66e80032ecb8c2854ac61c6073c,2018-07-08 02:31:18,Luigi Pinca,[major] Drop support for the `memLevel` and `level` options,False
+92d0a2e9fc2b1cca6eb1ddf88ec4347986164cb1,2018-07-08 02:14:11,Ban44n,[major] Add `maxPayload` option for the client (#1402),False
+9f87842888688318464af498300395b197b29712,2018-07-08 02:00:01,Huan LI,[major] Make bundlers use a browser shim that throws an error (#1345),False
+72bfbe84f3d747b96416a646728932c9181ceffd,2018-07-07 22:02:47,greenkeeper[bot],chore(package): update bufferutil to version 4.0.0 (#1413),False
+5bb29ed019529f17a557d59b3eb5d9a14f9e5643,2018-07-07 22:01:48,greenkeeper[bot],chore(package): update utf-8-validate to version 5.0.0 (#1415),False
+3bc6b9672f60b7178f115e51beaf4f664f91484c,2018-07-07 21:58:38,greenkeeper[bot],chore(package): update eslint to version 5.0.0 (#1403),False
+d73885c3f7c70b583030d683d9a0a025c98fbe00,2018-07-07 21:57:04,Luigi Pinca,[major] Drop support for Node.js 4,False
+5d90141505dc41c129ab5d5228e37d49979d7541,2018-06-25 00:47:21,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.13.0 (#1405),False
+175ce4605b80d610e558c858b0f8d74599a16db1,2018-06-23 21:31:12,Luigi Pinca,[dist] 5.2.1,False
+307be7a81ee1c08cbd1e2acf2ea98fbf26ae390d,2018-06-23 21:19:14,Luigi Pinca,[fix] Remove the `'data'` listener when the receiver emits an error,False
+6046a2873944793b01457488aed8062ccaa53743,2018-06-20 02:19:42,Luigi Pinca,[fix] Do not prematurely remove the listener of the `'data'` event,False
+bf9b2ececbe42dd07ef9619d2b4953f57243c843,2018-06-04 11:19:18,greenkeeper[bot],chore(package): update nyc to version 12.0.2 (#1395),False
+bcab5310beb5a07f62fff92105d4183b0e011252,2018-05-25 10:53:05,greenkeeper[bot],chore(package): update eslint-plugin-promise to version 3.8.0 (#1389),False
+e4d032c383dd2931de7dfbe81a0a8185cdffbf52,2018-05-22 00:41:33,Luigi Pinca,[dist] 5.2.0,False
+e7bfe5f13895701cab8492a6ed7872ec6b724da2,2018-05-19 10:59:18,greenkeeper[bot],chore(package): update mocha to version 5.2.0 (#1385),False
+6dae94bc65f9aa6acf21891ba0d46457d5d095a7,2018-05-17 18:09:30,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.12.0 (#1384),False
+aebda2bce3c0e0216f2ef79d192d2e79ffaee29b,2018-05-16 10:51:49,greenkeeper[bot],chore(package): update nyc to version 11.8.0 (#1382),False
+d871bdfdc806122862ee5e2b781989b576771caf,2018-05-13 01:12:31,Dmitry Kirilyuk,"[feature] Add `headers` argument to `verifyClient()` callback (#1379)
+
+Add ability to specify custom headers when rejecting the handshake.",False
+bb9c21c1aff2949b648747825f1b482d389fd2ae,2018-05-05 20:39:59,Luigi Pinca,[test] Fix failing test on node 10,False
+6d8f1f4d494c0470629680ffd77b18390c641668,2018-05-05 19:26:36,Luigi Pinca,[ci] Test on node 10,False
+4385c7890a45ebc38df2404def4f648aa8ed228d,2018-04-30 11:04:55,Luke Avsec,[doc] Add `request` to emit arguments in shared server example (#1372),False
+690b3f277c6f5c3aef8cd84792929450f516b3ae,2018-04-23 13:37:20,Luigi Pinca,"[minor] Replace bound function with arrow function
+
+Do not mask potential issues, like #1280, with bound arguments.",False
+9dc25a380d003142aad9bf1bbfce6fa5d1b5e81c,2018-04-19 14:30:24,greenkeeper[bot],chore(package): update nyc to version 11.7.1 (#1364),False
+a81e580badd6141f23532c9a5f453a8ade8ba8fc,2018-04-13 10:56:52,greenkeeper[bot],chore(package): update mocha to version 5.1.0 (#1362),False
+3215cf3bf8bd754728b4a0bff070fe41d5788520,2018-04-12 20:33:30,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.11.0 (#1361),False
+0100d82045125ef08b703ad0722822a3969cda37,2018-04-12 01:59:58,Zoli Kahan,[doc] Improve FAQ example for X-Forwarded-For header (#1360),False
+c801e991ae52fdaaeabe0dd647db41f0f831e6d1,2018-04-09 01:13:54,Luigi Pinca,"[doc] Improve docs and examples (#1355)
+
+Fixes #1334
+Fixes #1338",False
+10c92fff16c53be18c7be05c8a4c65d25cae8088,2018-04-02 18:47:31,Luigi Pinca,[dist] 5.1.1,False
+f335d7994142ecf61b3ad325752c82a8e26fa763,2018-04-02 18:37:10,Luigi Pinca,"[fix] Add default value for `servername` option (#1347)
+
+Fixes #1346",False
+2d7bf88eafdf4bce81c16edd35c811d6a2a87743,2018-04-02 18:20:34,Luigi Pinca,"[perf] Use js version of `{un,}mask()` for very small frames (#1348)",False
+f52debe945f412f22f4fe27b9c1c9a9bfb82accd,2018-03-30 19:48:42,An-Li Ting,[doc] Explain the behavior of `server.close()` more precisely (#1342),False
+83ce53489617d6ae68cf0f4ec314103be0160a5f,2018-03-30 18:29:08,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.10.0 (#1340),False
+7c74567b974b79253ac32aac8f7d3dcb3e6d17e8,2018-03-19 22:53:31,Luigi Pinca,[dist] 5.1.0,False
+9e152f920a1818d8a23e0a113b4625c83f90d30d,2018-03-19 18:34:19,Luigi Pinca,"[feature] Allow all options accepted by `http{,s}.request()` (#1332)
+
+Do not use an agent by default and add ability to use all options
+allowed in `http.request()` and `https.request()`.",False
+938cddedc09d01e58a2ba7353666e577f47275ba,2018-03-17 11:57:46,greenkeeper[bot],chore(package): update eslint to version 4.19.0 (#1330),False
+1504d6713138431dacd67407c115290c0985899c,2018-03-16 19:32:25,Arnout Kazemier,"[fix] Allow URL instances as URL in WebSocket constructor (#1329)
+
+Fixes #1143",False
+57d3dbb9e1b6d81132bbf2c18a35f09eab783a87,2018-03-13 12:43:49,greenkeeper[bot],chore(package): update nyc to version 11.6.0 (#1326),False
+23f5957d908d08569fb5eee688bc34935556f392,2018-03-11 12:24:23,Ruben Bridgewater,"[fix] Remove buffer `noAssert` argument (#1324)
+
+The `noAssert` argument is not supported in Node.js 10.x.
+
+Refs: https://github.com/nodejs/node/pull/18395",False
+2a55ddae7c6274d87d4bd7e26a9d0289778ef45c,2018-03-09 01:39:04,greenkeeper[bot],chore(package): update eslint-plugin-promise to version 3.7.0 (#1321),False
+d3af50627de62b0d8b9c42d915e8c6a426238363,2018-03-06 19:41:56,Luigi Pinca,[dist] 5.0.0,False
+7abe823874f713d8d60a315a7c0ea877b6f544a8,2018-03-06 16:11:51,Luigi Pinca,[minor] Rename `abortConnection` to `abortHandshake`,False
+7fb82a3adaa5dcaf5bf4e244ef406f55c7eac4d2,2018-03-06 15:02:55,Luigi Pinca,"[fix] Rename the `'close'` event to `'conclude'`
+
+Avoid collisions with the `stream.Writable` `'close'` event.",False
+fb05059620609d5ff71cee87c5d85e5ed10534ea,2018-03-06 12:28:05,Luigi Pinca,[test] Fix faulty test,False
+3f80ab717c3bf1a7a6fd175a1c3bfb8e76b22976,2018-03-04 18:06:53,Luigi Pinca,[major] Drop support for Node.js < 4.5.0 (#1313),False
+14538dbf965e73e040d71069d39fdefb9a19fcba,2018-03-03 11:57:20,Luigi Pinca,"[major] Fix subprotocol handling (#1312)
+
+Do not close the connection if the server does not agree to any of
+the client's requested subprotocols.
+
+Fixes #1296",False
+3913c594b403513feb670ba9834f7e1e9636c2c6,2018-03-02 16:27:20,Luigi Pinca,[benchmark] Fix parser benchmark,False
+a4050db3ad981db1c49daf5ba756ec4f4f71bc44,2018-03-01 16:56:18,Luigi Pinca,[major] Do not re-emit `net.Socket` errors,False
+aa2c423e3ea232afd5b3d184a806fdcd878efb3e,2018-03-01 16:56:18,Luigi Pinca,[minor] Do not use `Readable.prototype.pipe()`,False
+70fff53e6e3701f3a07fe166331500dad18e8121,2018-03-01 16:56:18,Luigi Pinca,[minor] Make `Receiver` inherit from `stream.Writable`,False
+d390dc5b34c269669d5fa4450cd394d957055296,2018-02-22 13:30:56,Luigi Pinca,[dist] 4.1.0,False
+a70bd65485fe78f7b4fe56d48c3715f90c372367,2018-02-22 13:24:42,Luigi Pinca,[test] Fix typo,False
+d8da1b2a183381e180982548f5e6ecbc0da2d1bb,2018-02-22 13:23:17,Luigi Pinca,[doc] Add missing `zlibInflateOptions` option,False
+053a3220fa80e800097c2c2e24b6ac1269fa045e,2018-02-22 13:08:51,Samuel Reed,"[minor] Add `zlib{Deflate,Inflate}Options` options (#1306)
+
+Useful to adjust other options, and rather than support and document
+every single one, it is simpler to allow passing on an object
+wholesale.
+
+The `level` and `memLevel` options are still supported but should be
+removed in 5.x.",False
+f2b5105b0389be854c2f09ed1b0ff481eae73f46,2018-02-22 12:12:00,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.9.0 (#1309),False
+84fa837dc074baef3d4f81d33120602b58a6c133,2018-02-19 11:49:29,greenkeeper[bot],chore(package): update eslint-config-standard to version 11.0.0 (#1307),False
+36f249df9ca23720f4cd4bbe57ac600b5cf1b0b4,2018-02-17 12:03:44,greenkeeper[bot],chore(package): update eslint to version 4.18.0 (#1304),False
+563edbd6fa14d70aace66f56b613927be05d5d0c,2018-02-15 21:09:03,Luigi Pinca,[test] Use `WebSocketServer#address()`,False
+75b63975d1d90a3e366fb4ca40e230113dc40c27,2018-02-15 20:30:13,Luigi Pinca,[fix] Ensure that the status code is not incorrectly overwritten,False
+c8408c04c472b49ba63eea4d2c1795bcd74b5fd5,2018-02-11 02:01:50,Luigi Pinca,[doc] Fix docs for `onerror` listener,False
+91947706f4a2ce6d73d8b0f59f6e05c014554823,2018-02-11 01:58:09,Luigi Pinca,[doc] Fix typo,False
+98d195578eb36b171ad8ce8c5ee7c9e733db911b,2018-02-10 18:48:41,Julien Fontanet,"[doc] Add a link to isomorphic-ws (#1298)
+
+`isomorphic-ws` is a tiny wrapper around `ws` (peer dependency) which
+returns `global.WebSocket` on the browser.",False
+828194044bf247af852b31c49e2800d557fedeff,2018-02-06 01:31:26,greenkeeper[bot],chore(package): update eslint-plugin-node to version 6.0.0 (#1295),False
+8d61fa057ecc509376713ba42ee1fdea4340ff90,2018-02-06 01:18:05,Tossapon Nuanchuay,[api] Add `WebSocketServer.prototype.address()` (#1294),False
+66b0d553d146cfc9fa17c93f954d2540667b4731,2018-02-03 17:20:20,Luigi Pinca,[minor] Use `do...while` in `Receiver#startLoop()`,False
+8ea9402928f2c2d16ad4e78220984a71e2ec04db,2018-02-03 15:58:13,Luigi Pinca,"[fix] Emit the first error that occurred, not the last",False
+6f32e1715ccbaba0a14e2ecdc88a86833d2a4fe2,2018-02-03 12:17:32,greenkeeper[bot],chore(package): update eslint to version 4.17.0 (#1291),False
+57c8d29d7139d5bb899fc9e08b58d6b5c27d16f8,2018-01-31 22:12:43,Luigi Pinca,[fix] Ensure that the `'error'` event is emitted at most once,False
+7e5ed3d8216d2b5220bdfd84b1823912334fc0d5,2018-01-31 18:44:24,Luigi Pinca,[minor] Optimize `Receiver#cleanup()` for the common case,False
+9c39adfc9734073c1e949c62d56614f3c315ebee,2018-01-28 00:25:17,Luigi Pinca,[minor] Remove ultron dependency,False
+be0b5652b26ffd0eb6e28784f452b782d4b5c87a,2018-01-28 00:25:17,Luigi Pinca,[fix] Handle cases where `socket.bufferSize` is `undefined`,False
+5d8ab0eecff0c905150b9fe9a0925bb34d24b5d9,2018-01-28 00:24:44,Luigi Pinca,"[minor] Discard any data received after the close frame
+
+Remove the `'data'` listener when the close frame is received.",False
+b8900786c2925a43543751e6dcf8fec671ebe504,2018-01-25 14:57:17,Luigi Pinca,"[minor] Clean up and rename `Receiver#readBuffer()`
+
+Rename `Receiver.prototype.readBuffer()` to `consume` and merge
+`Receiver.prototype.hasBufferedBytes()` into it.",False
+c7b71435460083d1110eba55d6d3567c4ae6d283,2018-01-20 12:20:23,greenkeeper[bot],chore(package): update eslint to version 4.16.0 (#1284),False
+141b696b0481dfdd8f59e5edf55e99fb2c88b1b6,2018-01-18 11:49:25,greenkeeper[bot],chore(package): update mocha to version 5.0.0 (#1283),False
+8d364067d4fc99df137b331bcb2c1294d3a71ab7,2018-01-17 23:14:59,Luigi Pinca,[benchmark] Take into account both the incoming and outgoing data,False
+e3660934e8de9891e8b06ce04a6585cc10e1fce4,2018-01-15 23:26:25,Quentin Barbe,[minor] Remove license comments (#1278),False
+be3717e29dd95c121cebe1f41f213d5c427823fb,2018-01-08 21:03:01,Luigi Pinca,"[test] Replace no longer valid test with a new one
+
+When an error occurs data can no longer be added to the parser as the
+socket is destroyed.",False
+435f92370d9a77b9be11c35c41703229c357625c,2018-01-08 20:59:52,Luigi Pinca,[minor] Fix JSDoc comment,False
+02274090a4eeaffc2d3fbc9f927517b8a31b0ee6,2018-01-07 11:48:36,greenkeeper[bot],chore(package): update eslint to version 4.15.0 (#1273),False
+a04d9855a5a3d9bab62f9d22bcf5d1ee8185726b,2018-01-05 15:09:18,Luigi Pinca,[dist] 4.0.0,False
+d03ada231a7961ebfbd797c1ea54632dc8078707,2018-01-05 14:31:51,Luigi Pinca,[minor] Rename some variables for clarity,False
+a206e986fcdbf6f71d008c910fdd60f5141ba7ac,2018-01-05 14:31:51,Luigi Pinca,"[major] Remove `WebSocket#pause()` and `WebSocket#resume()`
+
+This is in preparation for read backpressure handling when
+permessage-deflate is enabled. The user should not interfere by
+pausing/resuming the underlying `net.Socket` stream.",False
+1c783c295c9e6bc3f3149c712434b5dff018f586,2018-01-05 14:31:51,Luigi Pinca,"[major] Rename the 'headers' event to 'upgrade'
+
+Refs: https://github.com/websockets/ws/pull/1082#issuecomment-295755780",False
+9bbc9783681160e3ef98f2be47de1ecef228a1a9,2018-01-05 14:31:51,Luigi Pinca,[test] Reorganize tests,False
+fdec524555a29875b3a449d597a3432e453e87f8,2018-01-05 14:31:51,Luigi Pinca,"[fix] Fix `extentions` property type
+
+Make `extensions` a getter that returns the negotiated extensions
+names.
+
+Fixes #1244",False
+46461a937f8fe6d25cd83510f7bfda69c23109be,2018-01-05 14:31:51,Luigi Pinca,[minor] Refactor server client initialization,False
+ee9b5f3515f21509242162942d8efb1ec723c836,2018-01-05 14:31:51,Luigi Pinca,[major] Remove non-standard `bytesReceived` attribute,False
+7f8ebc660896abd586d2abcad63a5533e577b9d6,2018-01-05 14:31:51,Luigi Pinca,[major] Remove non-standard `protocolVersion` attribute,False
+30c9f715247b2f5ad0c691e535708f894d82ed2b,2018-01-05 14:31:51,Luigi Pinca,"[major] Make `WebSocket#p{i,o}ng()` accept an optional callback
+
+Fixes #599",False
+63e275e75f8ab8f4385e7ef104a74c582cd0c793,2018-01-05 14:31:51,Luigi Pinca,"[fix] Pass an `ErrorEvent` to the `onerror` event handler
+
+Fixes #1173",False
+3936f3a8a8b3e37e8d43ebcb9558d226d44fb964,2018-01-05 14:31:51,Luigi Pinca,[major] Rename modules files,False
+63ce954d8fa1446cbeea555ce18859fc2c4e4cdc,2018-01-05 14:31:51,Luigi Pinca,"[major] Remove ErrorCodes module
+
+Move the `isValidErrorCode` function to the Validation module and
+rename it to `isValidStatusCode`.",False
+695c5ea988801ed75c121ad9bc76ed7abd70ccd1,2018-01-05 14:31:51,Luigi Pinca,[major] Improve error messages and use specific error types,False
+a31b1f6439936e6de8cc1f7775410455551a2792,2018-01-05 14:31:51,Luigi Pinca,"[fix] Use 1005 status code if close frame payload length is 0
+
+Fixes #1257",False
+f941a4046481f1aa182aba11bb958e4306fd92fc,2017-12-29 12:35:32,greenkeeper[bot],chore(package): update mocha to version 4.1.0 (#1265),False
+5678618f191113c17169d5e0a0e920954f1c88fb,2017-12-24 12:00:31,greenkeeper[bot],chore(package): update eslint to version 4.14.0 (#1262),False
+cc815a76d111816bbc752c6758a4e7150633339b,2017-12-22 22:26:27,Luigi Pinca,[fix] Make permessage-deflate parameters validation stricter,False
+180b388a2ed83fddd667d88970a943d0f47d32ec,2017-12-20 12:17:27,greenkeeper[bot],chore(package): update nyc to version 11.4.1 (#1258),False
+157f58a73250674eb57c505a522c7e5fe5fb3bee,2017-12-17 14:53:10,Luigi Pinca,[dist] 3.3.3,False
+6a6ae04ef3514e2f8b1b0890649523d59dcf27f4,2017-12-16 23:26:41,Luigi Pinca,[minor] Send the close status code only when necessary,False
+85919f2d11ad7fc0aa3bc20c9f35b4737fdc37e3,2017-12-15 11:34:57,H1Gdev,[doc] Remove duplicate 'is' (#1252),False
+beff62081d5591c4f1beb9a3993b24ea7473d792,2017-12-11 02:48:52,Luigi Pinca,[fix] Use status code from close frame if received,False
+ae903b1ab2d2f0a9e1b41e849317977e49dcf789,2017-12-09 22:10:32,George,[doc] Fix rendering of history in SECURITY.md (#1250),False
+ca76e58f4a969618319e1993e3072f406679cde9,2017-12-09 11:36:22,greenkeeper[bot],chore(package): update eslint to version 4.13.0 (#1249),False
+f6e56855ab213510ab058b1171cffba3dce0f701,2017-12-03 18:10:27,greenkeeper[bot],chore(package): update utf-8-validate to version 4.0.0 (#1247),False
+b3bc7dbb881605e1717baf6d99220c1a6c3bb280,2017-12-01 18:29:34,Luigi Pinca,"[minor] Do not set `allowHalfOpen` to `false`
+
+Use the default value when the HTTP server is created internally.",False
+a166af4c50ab7092c0bc64c42579ed2c34b49cc5,2017-12-01 15:23:26,dcharbonnier,[test] Skip `family` test if localhost doesn't resolve to ::1 (#1246),False
+009d05c4384b5fe4762decaa6e37592d8885fafe,2017-12-01 14:42:03,Luigi Pinca,[test] Mark skipped tests as pending,False
+4e7d48aafec4ad85958e4c5171db2fd2b0e85ea4,2017-11-28 19:02:24,Luigi Pinca,[fix] Close cleanly only if a close frame has been sent and received,False
+81cd85b85c1057659e7a15d8c83ab1fbcfbdef78,2017-11-26 12:17:40,greenkeeper[bot],chore(package): update eslint to version 4.12.0 (#1242),False
+ac86a04bafc92207d5f57b532a8226fe33b3489a,2017-11-25 21:14:02,Luigi Pinca,"[minor] Refactor `WebSocket#finalize()`
+
+Clear the close timer only when it could be set.",False
+5ccb86e4a880ed139bb5ef141753c10451c318b2,2017-11-25 02:27:30,Luigi Pinca,[test] Simplify a test,False
+355d24a2db2c32a8ed7b2b820ddf60e511f26d7c,2017-11-21 14:03:16,Luigi Pinca,[doc] Add direct links to the Autobahn test suite reports,False
+46b25476b13fdd24e1ab2c85d304b05bea75287e,2017-11-21 12:12:24,Luigi Pinca,[dist] 3.3.2,False
+02d0011e73786fd00b09f66a06338ee204535255,2017-11-20 20:38:19,Luigi Pinca,[test] Use an OS-assigned arbitrary unused port,False
+9c73abe805db1cf7d8fd511c7e0a46b3a7139ede,2017-11-19 15:28:06,Luigi Pinca,[minor] Remove some redundant code,False
+0a9621f9ff35e6f80c9c8471d0b202af4e357705,2017-11-19 00:38:58,Luigi Pinca,[minor] Merge `pushOffer()` and `pushParam()` into `push()`,False
+16f727d3e061eff7713eabc1ae367f65438d8ddb,2017-11-18 20:35:12,Luigi Pinca,[doc] Clarify `PerMessageDeflate` options,False
+0c8c0b8785ad0b85ef248cf921e58b1b5026db3c,2017-11-18 19:59:12,Luigi Pinca,[minor] Add JSDoc for `PerMessageDeflate` constructor,False
+b4465f6c86e0ca7317f97a180b347baa0f109f6e,2017-11-18 13:00:17,Luigi Pinca,[test] Increase code coverage,False
+5d973fb42d4cd96ff742946a0224d687f03b0209,2017-11-18 13:00:17,Luigi Pinca,"[minor] Parse the Sec-WebSocket-Extensions header only when necessary
+
+Avoid parsing the `Sec-WebSocket-Extensions` header if the only
+supported extension, `permessage-deflate`, is disabled.",False
+b7089ffc4e10b3dea9703fa1953c99db2241c22d,2017-11-18 13:00:17,Luigi Pinca,"[fix] Rewrite the parser of the Sec-WebSocket-Extensions header
+
+Make the parser correctly handle quoted values and close the connection
+if the `Sec-WebSocket-Extensions` header is invalid.
+
+Fixes #1235",False
+d96c58cda8fa2e67784cb4e37d375c14b2634fb1,2017-11-11 11:55:32,greenkeeper[bot],chore(package): update eslint to version 4.11.0 (#1234),False
+cfdecaefe68e48c97e7702fbeb393694bc40ec85,2017-11-08 23:23:11,Luigi Pinca,[security] Add DoS vulnerablity to SECURITY.md,False
+70eb3b2f6284a361768ea518acb072d13986dade,2017-11-08 21:32:01,Luigi Pinca,[dist] 3.3.1,False
+c4fe46608acd61fbf7397eadc47378903f95b78a,2017-11-08 19:29:47,Luigi Pinca,"[security] Fix DoS vulnerability
+
+Ignore extension and parameter names that are property names of
+`Object.prototype` when parsing the `Sec-WebSocket-Extensions` header.",False
+56f80625399de02abfe6c0d718ea5a8939969318,2017-11-04 14:50:38,Luigi Pinca,[dist] 3.3.0,False
+72751d3d72007f64f97f14f1d4472665b6354e63,2017-11-02 15:16:34,Luigi Pinca,[test] Skip `family` option test if IPv6 is not supported,False
+e5772a35f151f397f6b555ee3a947b4654c95676,2017-11-02 13:20:31,greenkeeper[bot],chore(package): update nyc to version 11.3.0 (#1230),False
+db729efe920d8ebca53254c5cbf0a57f7f43744a,2017-11-02 12:28:05,Luigi Pinca,[doc] Add documentation for the `ecdhCurve` option,False
+d0741faeec6fc6bc6db163545b3534ed822f6cf3,2017-11-02 03:05:31,Hativ3,"[feature] Add ecdhCurve option (#1228)
+
+Support ecdhCurve option as discussed in #1227.",False
+9303db3cfafcc1f97e27501d5d3ddc4079f15f5c,2017-11-01 15:03:43,Luigi Pinca,[ci] Test on node 9,False
+48b0496879899f35602856d80460926a4a6c299d,2017-10-31 15:41:45,Luigi Pinca,"[ci] Do not test on node 4.1.0, use 4.2.0 instead
+
+All versions in the range >=4.0.0 <4.2.0 are bugged.",False
+d6934afcf22afed25b1b9fd06bd4b1df66659aae,2017-10-31 13:37:19,Luigi Pinca,[test] Fix error validation on node 9,False
+31c81a96914c3367b52c667b211dbaf2cf773b11,2017-10-30 19:09:15,Luigi Pinca,"[minor] Refactor `PerMessageDeflate#_decompress()`
+
+If context takeover is enabled there is no reason to remove and add
+the listeners of the `'data'` and `'error'` events every time
+`PerMessageDeflate#_decompress()` is used.",False
+1d6ba8678bf138b7fd4307cc6c97d943501292ab,2017-10-30 13:41:55,Luigi Pinca,[minor] Prevent possible property name collisions,False
+8ea3739d62fd7b2e467ec814e31c7f65d32da98b,2017-10-30 13:25:33,Luigi Pinca,"[minor] Remove unreachable code (#1224)
+
+`zlib.DeflateRaw` emits an `'error'` event only when an attempt to use
+it is made after it has already been closed and this cannot happen in
+our case.",False
+5e0424ce627a8879a4a4995b6bcdc542c3fdd21c,2017-10-28 21:22:28,Luigi Pinca,[doc] Fix broken link,False
+5bb78ddc72712a62c2e2f4a4ba82c2339fa6d33f,2017-10-28 11:24:40,greenkeeper[bot],chore(package): update eslint to version 4.10.0 (#1223),False
+e01fa4a3805cf1a337c6df996abe0e20babf6218,2017-10-19 18:01:34,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.8.0 (#1219),False
+b6a928b5119117f756b7266b194e3bd30f40248a,2017-10-15 12:35:16,greenkeeper[bot],chore(package): update eslint to version 4.9.0 (#1217),False
+c751a45283976374762816e75e576cca12702871,2017-10-14 00:47:53,greenkeeper[bot],chore(package): update eslint-plugin-promise to version 3.6.0 (#1215),False
+f8cb85b6d998b06ad563a1e4ab72d066b52584c8,2017-10-03 14:15:22,Luigi Pinca,[test] Fix issue that prevented process from exiting,False
+892a84ff272ed259ea49f00feff835ad3366ae64,2017-10-03 14:10:48,Luigi Pinca,[ci] Remove no longer needed `dist` key from .travis.yml,False
+71bb8f4c6412bee227034a268c29e597156c9f95,2017-10-03 13:38:08,greenkeeper[bot],chore(package): update mocha to version 4.0.0 (#1211),False
+6f44ee982ef7bec03cfd77f9508f3903bd9738a8,2017-09-30 13:03:32,greenkeeper[bot],chore(package): update eslint to version 4.8.0 (#1210),False
+9fe606e5d957fd13951803f5ae5c247720bcab8d,2017-09-28 19:59:45,greenkeeper[bot],chore(package): update eslint-plugin-node to version 5.2.0 (#1209),False
+36e1c7aa3654e8f7d2e71db34d0d1779fb39d669,2017-09-16 11:03:24,greenkeeper[bot],chore(package): update eslint to version 4.7.0 (#1206),False
+4082e695cd56cbd7a2e4bd385b77a78acd2a5b53,2017-09-15 11:32:33,Luigi Pinca,[dist] 3.2.0,False
+f2d18b6a6e488290dba216e964d787fbf27b1267,2017-09-13 11:27:06,Samuel Reed,[feature] zlib deflate concurrency limit (#1204),False
+80445e7d6caf0ec021f0dcdb703d048b2f005dce,2017-09-08 02:09:03,Samuel Reed,"[feature] Allow 'level' option (#1199)
+
+This corresponds to the zlib level as described
+in https://nodejs.org/api/zlib.html#zlib_class_options",False
+7234fd4981cd799198ddbec5d7df6b7623d4be24,2017-09-06 01:49:21,greenkeeper[bot],chore(package): update nyc to version 11.2.0 (#1198),False
+92750e359462c732edc74234d6c7a58f94233011,2017-09-02 10:33:54,greenkeeper[bot],chore(package): update eslint to version 4.6.0 (#1197),False
+6663b89cd7c19269c6f9a527e96f3cd7db0c5fea,2017-08-19 10:53:40,greenkeeper[bot],chore(package): update eslint to version 4.5.0 (#1190),False
+ed4cf531001aa8e330daf1cec5526769963cb232,2017-08-17 15:47:10,Luigi Pinca,[test] Remove hybi-util.js,False
+381e7e0411fc45e05b3bb4fa9fd884ff03c6c886,2017-08-17 12:55:51,Luigi Pinca,[benchmark] Fix parser benchmark,False
+a1ac65994d59d46feb7b93ab1f91cd658394e301,2017-08-06 00:35:14,greenkeeper[bot],chore(package): update eslint to version 4.4.0 (#1183),False
+63b3c11f0cadcd5ba3ac897e7f1b20299cb24597,2017-08-01 10:50:07,greenkeeper[bot],chore(package): update mocha to version 3.5.0 (#1179),False
+faea8121a0fc05561b170cca9c523a0751df1df0,2017-07-30 02:59:56,greenkeeper[bot],chore(package): update nyc to version 11.1.0 (#1178),False
+4e3ada1291b58c2a46303744835e5d466fcbc9b1,2017-07-27 11:29:12,Luigi Pinca,[dist] 3.1.0,False
+b32016995e9620ed6d5826464b2c3ee931e2240a,2017-07-27 11:12:35,Ido schachter,[feature] Allow client to specify handshake request timeout (#1177),False
+5c06c8f4127b8aea4ec34cb3f2236a579901214a,2017-07-22 00:21:28,greenkeeper[bot],chore(package): update eslint to version 4.3.0 (#1176),False
+ab6c1c23fc2bac092d4f0ad0aaeb4322bdd48252,2017-07-16 18:51:36,Luigi Pinca,[minor] Remove redundant assignments,False
+d7811907ad590cbc7a6354f61dd283e36d1eee4d,2017-07-09 10:48:21,greenkeeper[bot],chore(package): update eslint to version 4.2.0 (#1169),False
+16bbddb23adec778978d4dd9cdd6a56ce92e4786,2017-07-07 11:02:45,Matt Audesse,"[doc] Fix ""unware"" and ""reponse"" typos in README.md (#1168)",False
+3544e3045794b011426368d3e26e0fd3f934b6a7,2017-07-06 22:34:46,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.7.0 (#1167),False
+afb36e92ca7dba7b7f70fe5b58104e8a9692cade,2017-07-05 19:31:30,Yaowei,[doc] Fix typos in API docs (#1165),False
+833766fc5d9df27f5bfd5476c03e8f96f92a324d,2017-06-26 11:11:57,greenkeeper[bot],chore(package): update eslint-plugin-node to version 5.1.0 (#1155),False
+034ab89734d61c0d12a26fa033a37ca7ab398d56,2017-06-24 11:12:48,Luigi Pinca,[ci] Test on node 8,False
+c311c43bff75e961e719df6d1e41a98de4c712e0,2017-06-24 11:08:15,Luigi Pinca,[lint] Fix lint issues,False
+043442855f58f84a99f1b2eb21ef76d98b7c1144,2017-06-24 11:05:57,greenkeeper[bot],chore(package): update eslint to version 4.1.0 (#1151),False
+2d4dc08a624ec8fee135135f47df2c208da8e5fc,2017-06-24 00:15:27,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.6.0 (#1149),False
+cd55ced624c910469ddfe0d288fd11ad89579342,2017-06-23 01:32:59,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.5.0 (#1147),False
+bb2e952e6be9f92cd75a501935ac215b97413458,2017-06-20 01:45:48,Roy Miloh,[fix] Set wasClean to true when close code is in 3000-4999 range (#1146),False
+f8f149e54e70f8fc1a49dd44b674e0fc9ddcf763,2017-06-14 10:40:26,Steve,[doc] Fix typo (#1141),False
+8c02d923413ec01afb660e98c12b583486e596be,2017-06-10 13:52:21,Luigi Pinca,[example] Refactor SSL example,False
+942f825ff0702ce7ce66d8731a56b071269d88b4,2017-06-03 12:56:58,Luigi Pinca,[minor] Simplify if condition,False
+4e53caa723ed34e33c43cc2b562d00e2a33ab728,2017-06-03 10:45:48,greenkeeper[bot],fix(package): update safe-buffer to version 5.1.0 (#1132),False
+9c8024c41f5e2887975071c20c3ed0cf4effaf9e,2017-06-02 10:27:12,greenkeeper[bot],chore(package): update eslint-plugin-node to version 5.0.0 (#1129),False
+b66a6562aaf62a2b13bae942d0146adf52328bc5,2017-06-02 10:26:43,Luigi Pinca,chore(package): update nyc to version 11.0.1 (#1130),False
+5af6f79e644800c900108ac792e367d933e1bc62,2017-05-30 00:14:49,Anoop Mundathan,[doc] Fix typo (#1127),False
+2e7f0b0f70393bd95f873d313423d24438198dc7,2017-05-28 13:39:18,Luigi Pinca,[minor] Use zlib module constants,False
+a7bd1e3b4042cf6a4a4f06a53185e9306c66cf28,2017-05-27 13:17:08,Luigi Pinca,[doc] Add ISSUE_TEMPLATE.md,False
+4edcc45cf001ac0f0036111b4e50d2a84b1dcffa,2017-05-27 12:44:35,Luigi Pinca,[minor] Merge two consecutive if statements,False
+cb1c893ce94f3d800cd6e4166e6640bda24d74ab,2017-05-24 17:36:46,greenkeeper[bot],chore(package): update eslint-plugin-import to version 2.3.0 (#1121),False
+62cd03ea3705123136c20eedac1b57559d8ea542,2017-05-23 11:10:24,Jussi Virtanen,[doc] Fix typos in API documentation (#1119),False
+dbab3fd0fd37d70b21639bfbde591380332e0c0e,2017-05-21 14:29:29,Luigi Pinca,[doc] Add FAQ about proxy support,False
+38df5a330aa91123851d8b49c231adf6c337ea77,2017-05-17 12:42:45,Luigi Pinca,[dist] 3.0.0,False
+e6f6eb1b1ab261c5058da54a7e4b79bba0648174,2017-05-17 11:09:17,Luigi Pinca,[doc] Add missing argument types,False
+fe44ff81cc414495f19416847ce658cbea079d06,2017-05-17 10:53:21,Luigi Pinca,"[major] Have permessage-deflate disabled by default (#1107)
+
+This commit disables permessage-deflate by default on the server.",False
+439dbce25d7ef446321495bea77dbcd7646d9d81,2017-05-17 10:53:21,Luigi Pinca,[major] Prefix all private properties (#1105),False
+d2c848120f4eb97913ce266df69debbb4c8eefe8,2017-05-17 10:53:21,Luigi Pinca,"[major] Remove the `upgradeReq` property (#1104)
+
+The `http.IncomingMessage` object, instead of being attached to the
+`WebSocket` object, is passes as the second argument to the
+`connection` event.",False
+c15118f0636d81497db9ad34663efc98b9ddc9c3,2017-05-17 10:53:21,Luigi Pinca,"[major] Remove the `flags` argument (#1101)
+
+The `flags` object specifies whether the received data is binary or not
+and whether it was masked or not. This object is actually redundant and
+therefore removed in this commit as the spec requires client-sent
+frames to be masked and server-sent frame to be unmasked.
+
+The `typeof` operator can be used to check whether the received data is
+binary or not.",False
+68f12aa0cbb4facc64a87bb0bb2ee80e99acecbd,2017-05-17 10:53:21,Luigi Pinca,[major] Remove unnecessary events (#1100),False
+839eac8bc76674313f343e402f567d40abe21138,2017-05-15 10:54:14,greenkeeper[bot],chore(package): update mocha to version 3.4.1 (#1108),False
+1849ac26ee852df3804e8b4093ab316ed787a7f5,2017-05-14 10:16:47,Gibson Fahnestock,[test] Skip test if 127.0.0.2 unavailable (#1106),False
+abd27fe449e514c048846a43b8d51efa4317b74a,2017-05-09 14:49:51,Luigi Pinca,[doc] Tweak markdown formatting,False
+9d0efbb274518e40845ee778fc87236cf191777b,2017-05-09 14:18:22,Luigi Pinca,[doc] Fix typo in code snippet,False
+2e92c7426cbd0eee0c6dd978986b9b33e813fdbb,2017-05-09 14:05:41,Luigi Pinca,[doc] Add FAQ and TOC,False
+cce4d0f096169c4cd99592e2895da310fec19e19,2017-05-03 14:04:18,Luigi Pinca,[test] Add callback to `wss.close()`,False
+d75ab9dc91e98673a9fcfdf585d5a0c8cfc48e99,2017-04-29 13:21:42,greenkeeper[bot],"chore(package): update nyc to version 10.3.0 (#1091)
+
+https://greenkeeper.io/",False
+6ade76ddd1637da28a91dd3b7f69e93daef655f8,2017-04-24 18:57:06,greenkeeper[bot],"chore(package): update mocha to version 3.3.0 (#1086)
+
+https://greenkeeper.io/",False
+732aaf06b76700f104eeff2740e1896be4e88199,2017-04-20 23:10:11,Luigi Pinca,[dist] 2.3.1,False
+3633d6c5226c2fa47fcf1bcfca7047b749816cfc,2017-04-20 22:17:59,Luigi Pinca,[fix] Make `WebSocket#close()` work when called from a headers listener,False
+309d77f27ac2a505261c9d17dcfcf1a7ad0b1cae,2017-04-20 19:24:52,Luigi Pinca,[dist] 2.3.0,False
+2d66ec92f2dc58036725b8ff77ae13b884e48040,2017-04-20 19:22:51,Luigi Pinca,[pkg] Remove .npmignore in favor of `files` package.json field,False
+b5b095474a4a25aad89b5cff97295c4c64c499b2,2017-04-20 19:07:38,Jason Walton,[feature] Add headers event to WebSocket (#1082),False
+860cc23690b0c20ada50f7d71d59a544fdc6d8dd,2017-04-18 18:26:11,Arnout Kazemier,"Merge pull request #1080 from websockets/fix/deopt
+
+Prevent `Sender.frame()` from being deoptimized",True
+3dbb58a82e118707fb08dc12c8c4e3f5c67f1005,2017-04-18 17:29:32,Luigi Pinca,[perf] Prevent `Sender.frame()` from being deoptimized,False
+e182e96d2db4dadf347fd1bd04628a8b70b56ce8,2017-04-14 11:21:10,Luigi Pinca,[doc] Fix typo in README.md,False
+2bacadca97f9dbdf67a802e216f34b966f41e0a2,2017-04-13 13:34:45,Luigi Pinca,[doc] Update optional modules section,False
+94c3c8b8db98deff4f4dbd4cd9f85d6823e2891f,2017-04-11 21:15:02,Arnout Kazemier,"Merge pull request #1078 from dgrcode/enhance/add-browser-readme
+
+Added a note about browser usage in the Readme",True
+2efbdbc7ab3f0deb2ad8c891c969635486ae6824,2017-04-11 20:29:01,Daniel Gonzalez Reina,Added a note to tell possible confused users that they should be using the native WebSocket in the browser,False
+c4202c67427c485d0f6a4c4c0afb3bdd6f7b538c,2017-04-07 11:02:54,greenkeeper[bot],"chore(package): update eslint-config-standard to version 10.2.0 (#1075)
+
+https://greenkeeper.io/",False
+26bf7754ecd9364f55f1d4e89a3ea09bd06f4d02,2017-04-07 00:29:38,Luigi Pinca,"chore(package): update eslint-plugin-standard to version 3.0.0 (#1074)
+
+Closes #1073
+
+https://greenkeeper.io/",False
+13cff408419fef5a2ccc882ba32adfbcced5a771,2017-04-07 00:28:53,greenkeeper[bot],"chore(package): update eslint-config-standard to version 10.1.0 (#1072)
+
+https://greenkeeper.io/",False
+eb89db6b9b469d01aa1f55cda3a94d5a1c2f01d9,2017-04-07 00:14:51,Arnout Kazemier,"Merge pull request #1070 from websockets/add/request-argument
+
+Make all hooks have access to the upgrade request",True
+617aeacaf96f2ac31f437354734ce53fc9cdc73c,2017-04-06 13:44:11,Luigi Pinca,"[minor] Make all hooks have access to the upgrade request
+
+Closes #787
+Fixes #783
+Fixes #683
+Fixes #525",False
+a4cc55d1c707e1515bfdba6da357231443454b39,2017-04-05 11:29:54,Luigi Pinca,"chore(package): update eslint-config-standard to version 10.0.0 (#1065)
+
+https://greenkeeper.io/",False
+0d7cd2b5bde5bdb0e16ae5d4155255cfa779625f,2017-04-05 11:13:14,greenkeeper[bot],"chore(package): update eslint-plugin-standard to version 2.2.0 (#1064)
+
+https://greenkeeper.io/",False
+212c7aab04a5f23d89111c1722371211efa2dd89,2017-04-03 15:28:56,Luigi Pinca,[dist] 2.2.3,False
+20bd7c7c1a88c181008e3ce822c2035d9eec9165,2017-04-03 02:32:59,Luigi Pinca,[fix] Don't reassign the `options` argument when `protocols` is `null`,False
+459809362a584693812277587f7e4212030bd294,2017-04-02 23:24:56,Luigi Pinca,[minor] Use safe-buffer (#1059),False
+c50a6b36a4a0be67416f9c9803964546fd9cd270,2017-04-01 11:21:24,greenkeeper[bot],"chore(package): update eslint to version 3.19.0 (#1057)
+
+https://greenkeeper.io/",False
+105374c94e2e08807f58ada9fe00fe0f4e0a2415,2017-03-28 14:32:25,Luigi Pinca,[test] Increase code coverage,False
+52d78421f29762add44c35528ab7de0da7673758,2017-03-28 14:30:33,Luigi Pinca,[test] Use nyc for coverage,False
+286d513c1239bc2f1c9d23d997de1c954d3c8615,2017-03-22 02:13:25,Luigi Pinca,[dist] 2.2.2,False
+35119fdeeb3310e7ad8b4d34520591fa7acb53a8,2017-03-21 19:58:27,Luigi Pinca,[test] Delete test/testserver.js,False
+2ace70d913a7dc0fc741147deb559dda914d1498,2017-03-18 12:02:10,greenkeeper[bot],"chore(package): update eslint to version 3.18.0 (#1048)
+
+https://greenkeeper.io/",False
+3e6c8d3b0d93fef8efceb75ca9b7512a581a4067,2017-03-17 01:24:05,Luigi Pinca,[test] Fix origin header in integration tests,False
+1b3810ed95d2d2572314b3c361e97eaab73c41ef,2017-03-14 15:23:46,Luigi Pinca,[minor] Add missing JSDoc comments,False
+08eb82725afce71f495f82e5f24d3e375a1670d2,2017-03-13 12:26:41,Luigi Pinca,[dist] 2.2.1,False
+738e07f337fd601ba8ab0c0afc50f79296920fc8,2017-03-11 19:36:19,Luigi Pinca,[fix] Make `WebSocket#terminate()` destroy the socket (#1033),False
+72170d455c38637ef5702c5d8270e72c55313181,2017-03-10 14:04:06,Luigi Pinca,[codestyle] Fix nits,False
+d29f30682e3330609c27d35053785373530aaa26,2017-03-10 13:57:42,Dorian,[minor] Improve error message for unsupported protocol version (#1036),False
+fecc4f5b5b96bd98318d5c962eac6f0d9d3d37fc,2017-03-08 19:30:59,greenkeeper[bot],"chore(package): update eslint-config-standard to version 8.0.0-beta.1 (#1035)
+
+https://greenkeeper.io/",False
+05970f6a11fd153dd89559ed95a54fd8d1375c48,2017-03-08 19:12:46,Luigi Pinca,[pkg] Add missing dependencies for eslint-config-standard@8,False
+e057bfc8274e4b64fc6752cfddcfc634ebddd87e,2017-03-08 19:01:54,Luigi Pinca,[example] Avoid using deprecated APIs,False
+4a605b9853a36ce53332f3cad87127b47d4d1030,2017-03-04 11:50:44,greenkeeper[bot],"chore(package): update eslint to version 3.17.0 (#1030)
+
+https://greenkeeper.io/",False
+e13ef4a603db913e02c9375e3b1393f9f76ef8ff,2017-03-03 17:04:22,greenkeeper[bot],"chore(package): update bufferutil to version 3.0.0 (#1029)
+
+https://greenkeeper.io/",False
+4ae630af7409ba830a043dcf7eff24f655923aa6,2017-03-02 20:13:30,Luigi Pinca,[perf] Avoid using `Buffer.concat()` (#1026),False
+a70c6d0a2b0f65583f79379835cd6d952a51262d,2017-03-02 13:35:14,greenkeeper[bot],"chore(package): update eslint-plugin-standard to version 2.1.0 (#1027)
+
+https://greenkeeper.io/",False
+944b788c2b01ac2ea874f48fa4b143be37deeeb4,2017-03-01 13:46:01,greenkeeper[bot],"chore(package): update eslint-config-standard to version 7.0.0 (#1024)
+
+https://greenkeeper.io/",False
+2aec9a4abe6f62116d09ab01a873ca486b39d2ac,2017-03-01 13:26:42,Luigi Pinca,[lint] Remove eslint-config-semistandard dev dependency,False
+f9b2bdfb7f82c7f49b48261ab6479ee40eb7e5fc,2017-03-01 12:18:48,Luigi Pinca,[lint] Comply with the new standard rules,False
+703adf85ec732d1ae8fb9bea9f4cf02436942916,2017-03-01 12:08:05,greenkeeper[bot],"chore(package): update eslint-plugin-promise to version 3.5.0 (#1025)
+
+https://greenkeeper.io/",False
+ae42166ec5966e4924d5995c84514d58d206a7ea,2017-02-28 14:47:19,Luigi Pinca,[dist] 2.2.0,False
+625e9bf76acbe11bf2be13951c8fcca7733477ac,2017-02-27 19:21:23,Luigi Pinca,[perf] Optimize for cases where buffer is not a subarray,False
+6a734ae17473e28a712661e54808908f8a0bc530,2017-02-27 15:11:50,Luigi Pinca,[minor] Fix nits,False
+30eccee554f1b653239abc8a9de93dd1a1c44179,2017-02-27 13:36:51,Guy Margalit,"[feature] Add ""fragments"" as possible value for `binaryType` (#1018)",False
+af8f00390c20bb0eaafae02be089eb268d893789,2017-02-26 20:43:39,Luigi Pinca,[feature] Make `Sender#frameAndSend()` a static method (#1016),False
+eed0814853dbd4ac9b1ca3a29057121c8a0a703f,2017-02-21 16:12:01,Luigi Pinca,[minor] Remove no longer needed `if` statements,False
+5edb4601a71202cc9bf7bf0a173145cbe62a9a1c,2017-02-21 15:54:43,Luigi Pinca,[fix] Use a random masking key also for zero-length frames,False
+8127ebc7c1eb86a1938685c5b8a70f8c4046bed0,2017-02-21 15:54:24,Luigi Pinca,[minor] Move shared constants into lib/Constants.js,False
+e94a6ab386b2ec841a7e5279d8b425509a450bc1,2017-02-21 14:06:24,Luigi Pinca,"[minor] Inline {BufferUtil,Validation}.fallback.js into parent modules",False
+bfa575541244405ed32094ee29c80ab0c92274df,2017-02-20 22:51:49,greenkeeper[bot],"chore(package): update eslint to version 3.16.0 (#1012)
+
+https://greenkeeper.io/",False
+ca4a6226c311c30d02344d361dce5984ec9a2a07,2017-02-20 20:18:55,Luigi Pinca,[minor] Avoid using deprecated APIs,False
+5bccfe59252923b85e7cffd56e3ddc1bd742f378,2017-02-18 12:44:24,Luigi Pinca,[dist] 2.1.0,False
+060b275d978ff7d095a92863fc3a1f7bcea878ed,2017-02-17 19:05:36,Varun Malhotra,"[feature] Allow path to be specified with UNIX domain sockets
+
+This change allows URL path with params to be specified with
+UNIX domain socket URLs.
+
+An example URL with UNIX domain socket looks like:
+  ws+unix:///absolule/path/to/uds_socket:/pathname?query_params
+
+Note that ':' is the seprator between socket path and URL path.
+
+Existing URLs like the following also work:
+  ws+unix:///absolule/path/to/uds_socket
+
+In the above case, path gets set to '/'.",False
+3b9f4ca282d736db79f9f903da3c03f961741ea6,2017-02-16 19:03:23,Luigi Pinca,[perf] Enqueue send operations only when strictly necessary,False
+8ead18d00cb1bc7f7e40ab3abc9a14810a17ce3f,2017-02-16 19:03:23,Luigi Pinca,[perf] Write to the socket as soon as possible,False
+6695bd44dc2d899ab7f774222f7e07295b786000,2017-02-16 18:13:20,Luigi Pinca,"[fix] Fix parser crash on synchronous socket error
+
+This commit fixes an issue that could happen when the parser was
+processing data and an error was emitted synchronously on the socket,
+for example when writing to a socket whose connection had been
+abruptly closed (ECONNRESET).
+In these cases the parser was cleaned up prematurely and crashed when
+trying to use resources no longer available.",False
+ac8fcce52d10dc6fbc303f61650c4c2cd211fbfe,2017-02-16 01:47:17,Luigi Pinca,[test] Do not override `Receiver#error()`,False
+72cf8bee2dcdbdfdc523a5117fb0d82bcfb878bc,2017-02-14 17:07:11,Vasily Loginov,[example] Add Express session parsing example,False
+92d869695978dc73350be6590456c83ac9e80593,2017-02-09 19:08:42,Luigi Pinca,[fix] Accept only GET requests,False
+e86d28421bf3a4f7a0dc6a1d47608c8c5d1f117a,2017-02-09 18:58:09,Luigi Pinca,"[minor] Remove unnecessary `if` statement
+
+Optimize for the most, hopefully, common case (no error).",False
+3918e11d200e574beca9d5abd61fbe3020434aed,2017-02-08 19:02:12,Luigi Pinca,[dist] 2.0.3,False
+d90f481426c51539309ff7f547a38f1766a27177,2017-02-08 18:54:28,Luigi Pinca,"[fix] Prevent the parser from triggering a stack overflow (#992)
+
+This makes the parser work with buffers containing thousands of frames.",False
+5f83ae8de604469430d34192eb904dc05e137caa,2017-02-08 13:42:20,Luigi Pinca,Merge tag '1.1.1',True
+f043b52aea2d8e739fe5b3a9d6b776e7d7500739,2017-02-06 23:24:04,Tom Atkinson,Restore support for default port numbers,False
+66917d04d18e1e6b13d0102dc4d4914886e03943,2017-02-04 12:09:03,greenkeeper[bot],"chore(package): update eslint to version 3.15.0 (#988)
+
+https://greenkeeper.io/",False
+ed18a8f2c9daa59df8511ec0ef1594ca052b892f,2017-02-04 01:27:26,greenkeeper[bot],"chore(package): update utf-8-validate to version 3.0.0 (#987)
+
+https://greenkeeper.io/",False
+04f9ebcdbd3391ffc126e243a93f7b8624e7f6dd,2017-02-04 01:27:08,greenkeeper[bot],"chore(package): update bufferutil to version 2.0.0 (#986)
+
+https://greenkeeper.io/",False
+f0d03cc79fb55d2df438120dedab01e016ba67b2,2017-02-03 22:40:46,Luigi Pinca,[dist] 2.0.2,False
+466e210b7eb81a5428e33ae8f605944216168b26,2017-02-03 22:23:56,Luigi Pinca,[minor] Add support for bufferutil@2 and utf-8-validate@3,False
+a8d21d40b3852f49e8a902ddc95055e9a1957130,2017-02-01 15:55:59,Luigi Pinca,[dist] 2.0.1,False
+6a49182a9078cc3758c0a7c7aebcfc165d13e13f,2017-02-01 15:54:27,Luigi Pinca,[doc] Update URLs based on HTTP redirects,False
+715c1da2b2114e1cb9538d5b3ab6c4a664ab3adf,2017-02-01 15:47:02,Luigi Pinca,[test] Remove unused fixture,False
+d856dcb3b698c6184b393b93fe9e8e382fa971b8,2017-02-01 15:14:13,Luigi Pinca,"[fix] Save the value of the `compress` flag
+
+Fixes #983",False
+cb50a2958523770735be0a4118027ef6d1262328,2017-01-30 17:15:05,Luigi Pinca,[dist] 2.0.0,False
+236ea222f8ddde18fbac0e234ec7297cfd66f4ab,2017-01-25 14:15:08,Luigi Pinca,[dist] 2.0.0-beta.2,False
+d74a32e1761a4016764b44f617d57180e9e3af5b,2017-01-25 14:06:26,Luigi Pinca,"[fix] Take into account the data queued in the sender (#971)
+
+This makes the `bufferedAmount` getter take into account the data
+queued in the sender.",False
+bc35fa4eee26c4dfea20b0998893515487b2f0a7,2017-01-21 20:42:25,Luigi Pinca,"chore(package): update eslint to version 3.14.0 (#974)
+
+https://greenkeeper.io/",False
+7fb84babfa48ef099c56555a4a2b09c197a7ff8b,2017-01-18 20:23:01,Arnout Kazemier,"Merge pull request #965 from websockets/remove/outdated-link
+
+Remove outdated link and rephrase sentence accordingly",True
+42f364e91b85644306d8864f9b26cd95a308fdaa,2017-01-18 20:21:07,Luigi Pinca,[doc] Remove outdated link and rephrase sentence accordingly,False
+24f09038ca10d2d154c1bd2040a74ec5460c6059,2017-01-18 19:56:34,Arnout Kazemier,"Merge pull request #966 from websockets/add/permessage-deflate-section
+
+Add WebSocket compression section",True
+e62b9ba0c89aaf7b3a2d17084c23f4f983acf339,2017-01-14 21:50:23,Luigi Pinca,[dist] 2.0.0-beta.1,False
+ac2dade21a553a0d2c3f529f935f9fbfd5487c78,2017-01-14 19:36:01,Luigi Pinca,"[fix] Prevent WebSocket#close() from triggering an infinite loop (#969)
+
+This prevents `WebSocket.prototype.close()` from triggering an infinite
+loop if called from an error listener while connecting.",False
+bd41a05db9aae496615c5cb3a7fbeb3ef9e47e0b,2017-01-14 19:35:12,Tom Atkinson,"[fix] Use `Object.assign()` for `send()` options (#968)
+
+This avoids mutating the passed in arguments.",False
+4d9209246dc9b748b4226d4158fbcc0dff523a2e,2017-01-12 18:38:03,Luigi Pinca,[doc] Add WebSocket compression section,False
+7bec220f9e3650afc5d92c17fb04a949dce0e7fd,2017-01-11 20:57:52,Luigi Pinca,[doc] Modernize examples,False
+fd910f1460d12bc669afde6ca80a4ba9969e8b99,2017-01-11 15:11:34,Hanson Wang,[feature] Accept hostname lookup `family` option (#962),False
+19ce183fad0e826a025bf9709eef48e279a1cb75,2017-01-10 19:35:23,Luigi Pinca,[dist] 2.0.0-beta.0,False
+772a814fbe999b41dae0bf8ae6b09a5c079c4a40,2017-01-10 19:13:50,Luigi Pinca,"[fix] Abort the request if `close` is called while connecting (#956)
+
+Fixes #388",False
+443d0baa814f6dae4e6f1fb7c5aec40676f04d4b,2017-01-09 20:07:43,Luigi Pinca,[test] Increase code coverage,False
+e3d5d4817fe5d871d0cb7f3f1e20fd220b1d9382,2017-01-09 19:27:52,Arnout Kazemier,"Merge pull request #961 from websockets/greenkeeper/ultron-1.1.0
+
+Update ultron to the latest version 🚀",True
+07974eefb21bd375e8ecd1cd14fb008c36f7a1d6,2017-01-09 19:19:19,greenkeeper[bot],"fix(package): update ultron to version 1.1.0
+
+https://greenkeeper.io/",False
+f0cc971bcf5067c43c010835e599c043b4b159c6,2017-01-09 17:27:37,Luigi Pinca,[test] Add test for 20585ee,False
+20585ee8de2740e14c85b4e27db33ad038eabe14,2017-01-09 16:13:59,Jacob Bogers,[fix] Prevent `on<event>` setters from removing all listeners (#955),False
+c843e6ac9db14bec7c6271d6faa246ac9015d5b9,2017-01-09 15:23:37,Jackson Tian,[doc] Update coding style for README.md (#960),False
+758e6a06f0ef8ed092b699fcfc1d0f52067ed425,2017-01-07 02:42:54,greenkeeper[bot],"chore(package): update eslint to version 3.13.0 (#957)
+
+https://greenkeeper.io/",False
+8aa65e2f4da33083d1c20e46240aacc4fe40822c,2017-01-05 12:01:41,Danny Ho,[example] Update serverstats example to work with Express 4 (#954),False
+323db27415a3d35ee168756118e86fa10a985bcf,2017-01-04 19:29:51,Luigi Pinca,[example] Update express to version 4.14.0,False
+55843a9c0ad68658d120de2f2dbf38e478bca601,2017-01-04 17:06:29,Danny Ho,[example] Update fileapi example to work with Express 4 (#953),False
+45d5c389ca54fa8fa111dc103540680fb532c051,2017-01-03 19:44:48,Luigi Pinca,[fix] Treat 0 like any other number,False
+b187775ecd8a5beef9a0bd87e58a6f89b9e420d1,2017-01-03 17:47:06,Arnout Kazemier,"Merge pull request #951 from websockets/use/boolean
+
+Use a boolean instead of an options object",True
+aabbffc956a6360cf740cdd7a049235be2392260,2017-01-03 13:12:55,Luigi Pinca,[test] Increase test timeout,False
+44f9e89a501026b0459bad725216dc9500355d63,2017-01-03 12:57:42,Luigi Pinca,"[fix] Consume all data before emitting the `close` event (#945)
+
+Fixes #799
+Fixes #923",False
+623872f13f6ed5aa14dcb2c0ee54fc427e80740a,2017-01-03 12:54:07,Luigi Pinca,"[minor] Simplify closing handshake (#914)
+
+Fixes #784",False
+338327c8ef834fe751609550163896517e6ebd6c,2017-01-02 20:09:19,Luigi Pinca,[major] Use a boolean instead of an options object,False
+8846f14396e4cb0b52d3c4146e00478754d209f8,2017-01-02 02:42:31,Luigi Pinca,[benchmark] Fix parser benchmark,False
+2ffd470e9408d086c0e8fe5ddedc11bd19acb9ea,2017-01-01 22:00:28,Luigi Pinca,[minor] Prevent out-of-range slices in `Receiver#readBuffer()`,False
+cb58cc97808ef90031c49031f9b2a31c9cd7213b,2017-01-01 16:19:16,Luigi Pinca,[minor] Initialize `Receiver` handlers to `null`,False
+549cbe11527320f123e423bb13a1b20bc1807874,2016-12-23 14:33:04,Luigi Pinca,[test] Simplify some tests,False
+fa03221b70d5e0864e7b836ded740e950cc7786f,2016-12-23 13:58:09,Luigi Pinca,[test] Remove redundant tests,False
+51993d41d4dd63cea51525d3c683fd0d7c031625,2016-12-23 12:20:16,Kevin Vu,[doc] Fix typo in ws.md (#942),False
+9b708e82279081082f027469be9b0befffacff14,2016-12-22 23:20:36,Luigi Pinca,[pkg] Fix package description,False
+4c3586c7f81734417a863190eea7e7c72d2e1558,2016-12-22 22:56:32,Luigi Pinca,"[fix] Prevent callback from being called twice
+
+This prevents the callback of `PerMessageDeflate.prototype.decompress()`
+from being called twice when `maxPayload` is exceeded.",False
+3c68d33028cb993d248180d309db6ac2a2ac455f,2016-12-20 20:16:45,Arnout Kazemier,"Merge pull request #939 from websockets/merge/onbinary-ontext
+
+Use the same handler for binary and text messages",True
+097f39fdd0ea2b4029aa1df05783966aa636fe5a,2016-12-20 19:38:15,Luigi Pinca,[major] Use the same handler for binary and text messages,False
+fc956f8071e3930de432676ea2ea9cc075ee9fde,2016-12-20 17:07:05,Luigi Pinca,[minor] Remove unnecessary `_closeReceived` property,False
+5816e33059cfad4bf9fa533fa2474d6e60ed2ca0,2016-12-20 15:02:09,Luigi Pinca,[minor] Remove unnecessary `try...catch` statements (#937),False
+103fddbeafee3a349646908071b6d44bf10dd3ef,2016-12-19 16:24:25,Luigi Pinca,[test] Clean up some permessage-deflate tests,False
+9c116af775bf37ac1a47c093a2376b2cbe66fdeb,2016-12-16 22:42:30,Luigi Pinca,[minor] Change `Sender.prototype.frameAndSend()` signature (#933),False
+76143e9909f1dc6d4630ad2e3c3c8e9681402eec,2016-12-15 14:41:16,Luigi Pinca,[minor] Remove unnecessary `buildHostHeader` function (#932),False
+cf40f959c3c5bd5baee51432cfeaedd4c3ddb165,2016-12-15 14:35:28,Luigi Pinca,[minor] Initialize more properties in the constructor,False
+68994638178123e4fd7ad798d5286e257bda71cb,2016-12-15 00:05:46,Luigi Pinca,[minor] Set `readyState` to `CONNECTING` in the constructor,False
+099c63647fd95249e8e9f3fc980802169fc16729,2016-12-14 22:30:29,Luigi Pinca,[major] Refactor `WebSocket` to use class syntax (#930),False
+5a8ead573f1fb2b7c061431a85b3b79c91013f6c,2016-12-13 23:23:45,Luigi Pinca,[doc] Improve documentation,False
+d93f69f7c0bbb6a11c6f1289d4d7a1add9173eda,2016-12-13 01:51:07,Luigi Pinca,[license] Add LICENSE file,False
+90269e2dcc8334f98013c1e469f3bfdd9820d95e,2016-12-13 00:15:12,Luigi Pinca,[ignore] Add appveyor.yml to .npmignore,False
+3d4273d95208e45af7de45cbbe48984e872b05d7,2016-12-12 22:51:46,Denis Andrejew,[doc] Fix typo in ws.md (#935),False
+838ba0971b5dcbd8d38f68caab53dc6dd23ec9fe,2016-12-11 18:08:20,Luigi Pinca,[fix] Convert data to buffer in `Sender#send()`,False
+ff7257ea7dd41ea4ca4c0a2e61054ba520ecb58c,2016-12-11 00:52:22,Luigi Pinca,[test] Fix failing tests on node 4,False
+53a67ab085a006ee5aec1c7adac72d977436c918,2016-12-11 00:35:11,Luigi Pinca,[test] Add more tests,False
+a720a7601cbee38ed4e4c097295d4a8a5bf5c61f,2016-12-09 22:43:57,greenkeeper[bot],"chore(package): update eslint to version 3.12.0 (#931)
+
+https://greenkeeper.io/",False
+5d2ae65de38029223a7d0a3f3c426a7bc0d001c5,2016-12-08 21:07:20,greenkeeper[bot],"chore(package): update utf-8-validate to version 2.0.0 (#927)
+
+https://greenkeeper.io/",False
+b409ec96f8daef3d96c80be78a077e21b6ca5955,2016-12-07 17:54:52,Arnout Kazemier,"Merge pull request #875 from websockets/remove/stream-method
+
+Remove `stream` method and ability to send a stream",True
+61c54c3747d7f2e07b5110c1a848e0f6c4cd9d0c,2016-12-07 17:52:21,Arnout Kazemier,"Merge pull request #926 from websockets/remove/factory-functions
+
+Remove `WebSocket.createServer()` and `WebSocket.connect()`",True
+54f902407c152d2710645f2ec911c54091d1e067,2016-12-07 15:18:27,Luigi Pinca,[fix] Make `WebSocket#removeEventListener()` work with any listener,False
+5375617e528359749e081a31229f3d6cb3dbfefd,2016-12-07 12:48:25,Luigi Pinca,[major] Remove `WebSocket.createServer()` and `WebSocket.connect()`,False
+22d3b77cabff3ff71f25594ee2376cd0975fce4d,2016-12-06 16:14:46,Luigi Pinca,[fix] Call close callback when using a precreated server,False
+8303c5c759f9a049e4a8e84bbcc8dd4600b099d9,2016-12-06 02:17:26,Luigi Pinca,[test] Fix failing test on Windows,False
+4ea3661e399754d1f272fc409e51747089bb3f18,2016-12-05 17:36:47,Luigi Pinca,[fix] Call `Sender#close()` callback when data is written out (#908),False
+e032dd94e88d4a865fc27957beb35687bfd51766,2016-12-05 17:30:58,Luigi Pinca,[major] Remove `supports` attribute (#918),False
+b94fd2f6274b42c88a98a2852058c40ec4092dcb,2016-12-05 17:23:28,Arnout Kazemier,"Merge pull request #920 from websockets/move/event-target-methods
+
+Move the EventTarget methods to lib/EventTarget.js",True
+f0caae4a5f1c30024ee96e595b2d2fdd2f374980,2016-12-05 14:38:42,Luigi Pinca,[ci] Use container-based infrastructure for faster builds,False
+4874b5e64846abdb057568453d90ded4de37dadb,2016-12-05 14:37:59,Luigi Pinca,[doc] Add AppVeyor badge,False
+9896d5b722901c01c7702b8777a84d5253e2a2be,2016-12-05 14:35:34,Luigi Pinca,[ci] Add appveyor.yml,False
+c16d595a1862b5f812139de695f515aefd79c5fa,2016-12-05 00:05:00,Luigi Pinca,[minor] Move the EventTarget methods to lib/EventTarget.js,False
+8e1b092dc94e79c548f8b2e6fb38b8fafefc6b69,2016-11-30 19:34:30,Luigi Pinca,[minor] Clean up `initAsClient()`,False
+584b81d7bd4c280b186089c9c7d3b4af8e4d1150,2016-11-30 00:23:00,Luigi Pinca,[minor] Clean up `WebSocket.prototype.addEventListener()`,False
+fff499b704319b39c199d6b3d92fd581ff44171d,2016-11-29 22:22:55,Luigi Pinca,[test] Increase code coverage,False
+984d35b661b76b304257b078a13f2c5aecd4e44f,2016-11-29 22:01:20,Luigi Pinca,[major] Make error message consistent,False
+d3b98d4428a64401fe9f1e57a6bab95b8ab43f51,2016-11-27 13:02:28,greenkeeper[bot],"chore(package): update bufferutil to version 1.3.0 (#915)
+
+https://greenkeeper.io/",False
+1a8e4818a4af280bd87fa7823afa2d7152128942,2016-11-26 06:50:25,Arnout Kazemier,"Merge pull request #913 from websockets/greenkeeper/eslint-3.11.0
+
+Update eslint to the latest version 🚀",True
+2a4e78f84946a86bcb1c2a059981470ebd420ab0,2016-11-26 03:53:48,greenkeeper[bot],"chore(package): update eslint to version 3.11.0
+
+https://greenkeeper.io/",False
+2dc201d4587a2f24b37f16df2aa166879ce30367,2016-11-25 21:43:40,Luigi Pinca,[test] Simplify `removeEventListener` test,False
+078e96a31dd7c1c9fee9f51db806e91db7b5aeac,2016-11-25 19:14:55,Hans-Peter Herzog,[feature] Add removeEventListener method to WebSocket interface,False
+7253f06f5432c76f3e82e2c055fcea08b612d8b2,2016-11-25 17:08:57,AJ ONeal,[fix] Use `crypto.randomBytes()` to generate the masking key,False
+269dff8bfe99437c77f5ef558278acb120f929ec,2016-11-25 15:18:33,Luigi Pinca,[deps] Use tilde ranges,False
+abc5c965b531f4ddce5c02478f941b13ec5f1996,2016-11-25 13:18:32,greenkeeper[bot],"chore(package): update mocha to version 3.2.0 (#912)
+
+https://greenkeeper.io/",False
+d2997e733fc7f0ce362b86d1ce49f429cf215dd1,2016-11-23 13:46:43,Luigi Pinca,[minor] Rename some methods of the `Sender` class (#905),False
+e4e6163425896e9e8a4561f01e7566de33334574,2016-11-23 13:45:57,Luigi Pinca,[major] Refactor `WebSocketServer` to use class syntax (#903),False
+199c248a4a65d175fdcb351ff1d29c87debaf855,2016-11-18 15:27:52,Luigi Pinca,[minor] Remove redundant checks,False
+c5a31ab265949baa01529aab9d2ea1e30a4865dc,2016-11-18 02:52:35,Arnout Kazemier,"Merge pull request #900 from websockets/greenkeeper/eslint-plugin-promise-3.4.0
+
+Update eslint-plugin-promise to the latest version 🚀",True
+64eba5e019513fdd457c3d687f3699fd0a5c2bc8,2016-11-18 02:52:11,Arnout Kazemier,"Merge pull request #897 from websockets/move/complete-upgrade
+
+Move `completeUpgrade` to `WebSocketServer.prototype`",True
+ef0a379d88dbf6d951c6880f9b8f506437a4ca84,2016-11-18 00:47:04,greenkeeper[bot],"chore(package): update eslint-plugin-promise to version 3.4.0
+
+https://greenkeeper.io/",False
+40291cb8de609ab58ee5d4e9003b8e2fc993f745,2016-11-17 22:13:50,Luigi Pinca,[minor] Move `completeUpgrade` to `WebSocketServer.prototype`,False
+44950b668fab76a1baa17f43075992c7b8abfb90,2016-11-17 22:08:46,Luigi Pinca,[test] Fix flaky test,False
+3e1aa854dee6c1c4c9c1d820ff907356841949ce,2016-11-17 21:12:27,Luigi Pinca,[minor] Use arrow functions for lexical this in lib/PerMessageDeflate.js,False
+f2ac5f151393b9b664f5be59b0a8e06344d790be,2016-11-17 19:56:44,Luigi Pinca,[codestyle] Fix nit,False
+8cd6dd2704f23edfbcfe768ec4c44f41389101f1,2016-11-17 13:48:49,Luigi Pinca,[travis] Add after-script to send coverage data to coveralls,False
+d93e864938c3fd84ae1fbb4b816f81ede0b825f3,2016-11-17 13:37:04,Luigi Pinca,[doc] Add more badges,False
+5583051f85f206a154631ce8deeb968437dac680,2016-11-17 12:07:49,greenkeeper[bot],"chore(package): update dependencies (#896)
+
+https://greenkeeper.io/",False
+04530ad939c1fed63e2e5ef26bca250e8a4b1e7f,2016-11-17 00:50:15,Luigi Pinca,"[fix] Don't emit the connection event if socket is closed prematurely
+
+Fixes #380",False
+c917a9dc5f3babd787daa2692dd38279b336ed18,2016-11-16 20:00:08,Luigi Pinca,[test] Fix failing test,False
+dcdc652df3532389c9973c5ebe2911509ce685ed,2016-11-16 19:53:55,Luigi Pinca,"[fix] Use `null` as default value for the `host` option
+
+Fixes #588",False
+4056bde03b1e123a7ce8145a1d8a8c097fc451bb,2016-11-16 03:28:23,Antti Risteli,[test] Fix Autobahn tests (#894),False
+109db7fd97264a60204a6abfed09e779ab629bb2,2016-11-15 22:31:34,Arnout Kazemier,"Merge pull request #890 from websockets/remove/handle-protocols-callback
+
+Remove callback from `handleProtocols`",True
+490d9212c336c3dd667f467787cde215fda23321,2016-11-15 22:30:41,Arnout Kazemier,"Merge pull request #892 from websockets/fix/close-callback
+
+Invoke the close callback when the close event is emitted",True
+084369dde8f99af7a7e2bfc63b286648d10181b1,2016-11-15 20:17:55,Luigi Pinca,[fix] Invoke the close callback when the close event is emitted,False
+6a8d707483f2a4ba4c754894a2c0e0c258fe3407,2016-11-15 15:40:56,Luigi Pinca,[minor] Use ultron to handle the events listeners on the server (#889),False
+6bd0a57f17a5ed75127ebe67b27661c25f4ba3ec,2016-11-13 16:45:44,Luigi Pinca,[major] Remove callback from `handleProtocols`,False
+e909cf177b3566d638a1aa683640ab1dff32ef6e,2016-11-12 13:01:36,Luigi Pinca,[minor] Fix nits,False
+bdcd18b97e7324dbe8effa7d06866b29172709e7,2016-11-12 12:39:49,Antti Risteli,[fix] Call zlib flush with the correct flush level (#733),False
+8eb551edc1b4cb0504f707cfc75da572eed1a3be,2016-11-10 03:02:56,Arnout Kazemier,"Merge pull request #885 from websockets/remove/path-registry
+
+Remove path registry",True
+e1a24751d7cbf35fe39791b908e3967c04a05474,2016-11-10 03:02:45,Arnout Kazemier,"Merge pull request #886 from websockets/avoid/copying-buffers
+
+Avoid copying buffers when possible",True
+13181b550191a08a06db446624b6df62097c729c,2016-11-10 03:01:10,Arnout Kazemier,"Merge pull request #877 from websockets/rewrite/parser
+
+Rewrite the parser",True
+442ca0abb5726d667c9ffd9296c0f92c78097721,2016-11-08 18:58:12,Luigi Pinca,[major] Remove `stream` method and ability to send a stream,False
+d83117d5fbaf2ece7e4ffe575efd486469abc29d,2016-11-08 18:29:26,William Yaworsky,[test] Add tests for `WebSocketServer.prototype.shouldHandle()`,False
+647242518f8ea2ccafbd2bc008327d8b7fedbebd,2016-11-08 18:22:28,William Yaworsky,"[minor] Add `shouldHandle()` method to `WebSocketServer`
+
+Moved the check to see if a `WebSocketServer` instance should handle a
+given request into a public method. This will allow people to override
+this logic with a patch if they desire.",False
+5cfe70ea1dc656f77bd43bfccd2c48b5db839d8a,2016-11-07 23:17:09,Luigi Pinca,[minor] Avoid copying buffers when possible,False
+2fc1965e63008f0d65301ba1ee923ddc4c3d1415,2016-11-07 01:42:08,Luigi Pinca,[major] Remove path registry,False
+ebf86b58f1fb1e96ab96ebf95782bad7bc5ab8ca,2016-11-06 16:30:52,Luigi Pinca,[minor] Remove redundant checks,False
+72a4bda5bc144b037702dfcea84dd58223f60cb0,2016-11-05 14:12:14,Luigi Pinca,[fix] Reset the `processing` flag inside the `nextTick` callback,False
+8cbb5f5f70dc0a77bf0c71cefe40812a98644f3d,2016-11-05 13:05:08,Luigi Pinca,[test] Ensure that the RSV1 bit is set as intended,False
+6696543dde0cf364e6ce3d0a7ff9f36afb29b04b,2016-11-05 11:57:51,Luigi Pinca,[deps] Bump eslint to version 3.9.x,False
+dd9c973e06592183fb38726f34afd5f9f3be68be,2016-11-05 07:32:01,Tom Atkinson,Use noAssert when writing to buffers,False
+158c6725f92f35cef527874273d8f3e92697def3,2016-11-05 02:16:37,Tom Atkinson,Uncomment test,False
+8d0cdb6fb269b40b40b12c5ef19f6a28e3feba4b,2016-11-05 02:14:47,Tom Atkinson,Support sending an empty buffer as a compressed fragment,False
+87904d7b0362d3574b8ef21336ad3cc22ff73611,2016-11-05 01:49:46,Tom Atkinson,Fix sending empty compressed fragments,False
+2dd55269bea2047ecc33829fc3a28a7ef189506e,2016-11-05 01:24:34,Tom Atkinson,Allow compressed empty first fragment,False
+9823f710f95eea0a19ea674f74a98361b040f161,2016-11-05 00:20:07,Tom Atkinson,Remove unneeded `encoding` argument to `socket.write`,False
+e4514483989c5e1706a6618dfb30f3f66a690be2,2016-11-04 23:59:25,Luigi Pinca,[codestyle] Update JSDoc comments in lib/Sender.js,False
+16bd0c1ceb71ab7507905d6ea17dbb3ba7d84eeb,2016-11-04 23:53:18,Tom Atkinson,Fix sending empty fragment,False
+d3fef3b407239171a7bcc516ff8bdb19606d36bf,2016-11-04 23:36:12,Tom Atkinson,Fix compression threshold use with fragmented messages,False
+1b46f5ed97db6fb99a88e1bd4128e5c9d61e6a81,2016-11-03 21:42:19,Luigi Pinca,[fix] Handle empty frames correctly in compressed & fragmented messages,False
+73d6880b3dea0e3627653077456241c5ba6b7d5b,2016-11-03 18:49:13,Luigi Pinca,[major] Rewrite the parser,False
+060b6cad09eeb1b01d6d073d829e976d7c3be1a9,2016-11-03 15:55:06,Luigi Pinca,[fix] Prevent data corruption when sending ping/pong messages (#881),False
+c8f3ed4f4d33610b33bf48ae0a6f58cbcd1d87e0,2016-11-02 20:20:07,Luigi Pinca,[fix] Ignore the case of the Upgrade header value as per spec,False
+95001508cdec29dfe49b9e87a493f9d9f559bcb7,2016-10-31 23:57:16,Tom Atkinson,Use `binary` instead of `latin1` encoding for node 4 compatibility,False
+5a025dcb730427be1d696718003784b33babd696,2016-10-28 18:44:24,Luigi Pinca,[minor] Remove unnecessary `typeof` checks,False
+d4ac814f8613e2931f39bd4fbd4516d8d56118b5,2016-10-28 16:01:38,Luigi Pinca,[ignore] Clean up .gitignore and .npmignore,False
+31c05b01cc57d4e688b7b79a59ef22931c5b0b42,2016-10-28 15:51:00,Luigi Pinca,[test] Add secure WebSocket (wss) integration test,False
+747965003e91735f736a53ad4239ee45d2b4ddf5,2016-10-28 14:23:49,Jackson Tian,"Merge pull request #874 from websockets/remove/makefile
+
+Remove Makefile in favor of npm scripts",True
+53f033acea1ff6fe5b836f9a9f5ddc1b41b067de,2016-10-28 14:10:43,Luigi Pinca,[minor] Remove Makefile in favor of npm scripts,False
+36e60fcc93b524369cdb0bc5d8d1a780e7e01f64,2016-10-28 14:03:45,Luigi Pinca,[test] Don't use the NODE_TLS_REJECT_UNAUTHORIZED env variable,False
+32750aa86445eb6d7efa6a57498c5cc754521f5a,2016-10-28 00:28:25,Luigi Pinca,[test] Clean up tests further,False
+47f8b9b8eb992519a23fe50ead62d86e01973f6e,2016-10-27 16:10:12,Luigi Pinca,[test] Clean up tests and remove should dependency,False
+bf8ab467fe391888a2ebed9b44cac66d94b2f4fa,2016-10-26 22:16:03,Luigi Pinca,[list] Fix remaining lint issues on examples/*,False
+7214fc0b7273bb97a36d6d2738cdd6e1c4e39b8f,2016-10-26 21:39:55,Luigi Pinca,[lint] Run eslint --fix on examples/*,False
+fa66b98d562dca70575395e2fb912b3bf27611db,2016-10-26 21:38:43,Luigi Pinca,[list] Fix remaining lint issues on test/*,False
+460e37488227131b961a6c148088aed9ba30332f,2016-10-26 12:59:44,Luigi Pinca,[lint] Run eslint --fix on test/*,False
+398d88a864557a8cfdb45eb8c723fc15b990cb1b,2016-10-26 12:44:26,Luigi Pinca,[ci] Add node 7 to .travis.yml,False
+a10f3c113e0e65bce30f7cc4e538223233321da1,2016-10-26 12:44:13,Luigi Pinca,[deps] Bump eslint-plugin-promise to version 3.3.x,False
+bd0851d4c860657892a5f5a5a43654604b68e8ed,2016-10-25 16:32:02,Tom Atkinson,Fix sending buffers as text,False
+dd885a8d95db7686484db8b57c37f65c5ed36f86,2016-10-25 14:15:56,Luigi Pinca,[minor] Rename hybi-common.js to hybi-util.js,False
+200db3354fed6b97ee0c5bfbf4d37586783fc1c6,2016-10-25 13:39:28,Luigi Pinca,[doc] Improve documentation for `WebSocket.prototype.send()`,False
+2b74c1f9fc73244ce7f9457a3c494f160253de00,2016-10-25 12:16:40,Luigi Pinca,"[doc] Clarify how classes are exported
+
+Fixes #828",False
+d6717423f839d9929a6c49b37a7060ebfa6aced0,2016-10-25 11:56:58,Luigi Pinca,[major] Drop support for Hixie-76 (#871),False
+f026859be3568f880056b4e75aa6d47200526615,2016-10-24 17:39:18,Luigi Pinca,[minor] Remove unnecessary `fragmentedOperation` flag,False
+27e15ed13b144d070fe24b78e0484fb916dbe03a,2016-10-24 17:39:18,Luigi Pinca,[minor] Remove redundant code,False
+545635d2e616fc4c0b7693de1a33be93e078f32d,2016-10-24 17:39:18,Luigi Pinca,[fix] Reset `currentPayloadLength` only on final frame,False
+6b3904b42dbd48aed2e0d8d599787cca04f05384,2016-10-24 16:42:50,Tom Atkinson,Add threshold option to compression.,False
+63314f7d1c9942b1e5d937f50619f635097acfee,2016-10-23 01:57:33,Tom Atkinson,Remove unnecessary checks,False
+4ffadc21af35633f634dd64a7be04fec096688a1,2016-10-23 01:55:34,Tom Atkinson,Use a common buffer for the fixed trailing bytes in deflate,False
+c60078f4fa2a7f4558416e479017173209ae547f,2016-10-22 20:13:29,Luigi Pinca,"[minor] Remove duplicated cleanup code
+
+`Receiver.prototype.reset()`, called by `Receiver.prototype.error()`,
+does the same cleanup.",False
+dbfa5bab1f4413fc484b258192b2aba338a2e2d8,2016-10-22 19:47:59,Luigi Pinca,[benchmark] Add 1 MiB test to the benchmark suite,False
+ea50be7ab12ad028b41a315e924aa8c442c095d7,2016-10-21 16:21:22,codingphil,[fix] Do not override the `fin` option of the `send` method,False
+78425d0c3360acd67280f33cab89c84a46d3eb0d,2016-10-21 14:55:38,Dirk Krause,[doc] Add broadcast to everyone else example,False
+b7ae3b49218fb58fe2af2560d010f6691671efff,2016-10-20 23:40:47,Luigi Pinca,[test] Clean up `Receiver` tests,False
+5f53194a3192db730c6043771a0abbdf4edd420f,2016-10-20 17:44:17,Luigi Pinca,[major] Make `extensions` a required argument for `Receiver` constructor,False
+c0e62781bd347342a905ee9e9ea54309ac4179df,2016-10-20 17:43:09,Luigi Pinca,[minor] Coerce `maxPayload` to a number in `Receiver` constructor,False
+faf201a1c1230e8f3b143b348d84124893b5436c,2016-10-20 01:03:35,Tom Atkinson,Use a shared noop function,False
+c4c5a0e8b8fccbd74edca8405001740558f072f7,2016-10-20 01:03:35,Tom Atkinson,Remove applyExtensions and call decompress directly,False
+df49d99ef5261fdfc7bab811580cbb6b531861f3,2016-10-20 01:03:35,Tom Atkinson,Remove messageHandler mechanism,False
+e5a2ab4a9e2921597a835c244b7b284f6e269926,2016-10-18 20:57:09,Mattijah,[minor] Remove redundant check for binary support,False
+41e7caef067bc9674355eae830e08057ebac9d76,2016-10-18 15:58:23,Luigi Pinca,[major] Refactor the `abortConnection()` function,False
+8c5476fe69790a7c2d014b236b8fe9561ba78711,2016-10-17 20:25:58,wangxiaolei,[fix] Call `abortConnection()` when path validation fails (#534),False
+0cfa5cc94d50bebd6f85b78ec1094dd9a7a17d62,2016-10-16 16:58:47,Luigi Pinca,[minor] Use arrow functions for lexical `this` in lib/WebSocketServer.js,False
+192a9bd2ea179cf78379a4144ed82735e987f2f6,2016-10-16 16:58:47,Luigi Pinca,[deps] Bump eslint to version 3.8.x,False
+b58f688bf0fa0e87a3cef87c2f5d01bf43590668,2016-10-15 20:22:24,SEAPUNK,"[fix] Allow close codes 1012 and 1013
+
+IANA has them assigned as ""Service Restart"", and ""Try Again Later"",
+respectively.
+
+http://www.iana.org/assignments/websocket/websocket.xhtml#close-code-number
+https://developer.mozilla.org/en-US/docs/Web/API/CloseEvent",False
+a432e95fe954ab6eb198cfa3a7dbcab2dcb42709,2016-10-15 19:28:20,i8alery,"[fix] Add leading slash to requestOptions.path if missing
+
+Fixes #821",False
+73ab3701987774005a3a4c17df6e239bd1380fd1,2016-10-14 16:11:40,Tom Atkinson,Replace BufferPool with a buffer list,False
+5a0b6f5e168d87c75fd1a8c06609851825ddea39,2016-10-14 11:26:03,Luigi Pinca,[major] Remove Sender inheritance from EventEmitter (#861),False
+98a9121533dc63249624c8453eeb557d828c112b,2016-10-13 16:15:13,Tom Atkinson,[perf] Use messageHandlers only if permessage-deflate is in use (#853),False
+73298bf278a59f663be03873469ca7d983bc0c6a,2016-10-13 14:32:02,Luigi Pinca,[minor] Use arrow functions for lexical `this` in lib/WebSocket.js,False
+3c8acc1f78bff777852e4ab57a1be689b1fc480d,2016-10-12 20:12:50,Luigi Pinca,[benchmark] Move functions only used by the worker in the worker branch,False
+00cd45add4ab551b8ae3ed6d361741b908e2ce54,2016-10-12 19:31:59,Luigi Pinca,[lint] Fix lint issues on bench/*,False
+da953df605f375822ca7b72b722a5e1720ca2208,2016-10-12 19:12:07,Tom Atkinson,[minor] Simplify upgradeHead handling by using socket.unshift() (#854),False
+59185150254319fb97ba5e099bcc9195c0afe56a,2016-10-12 18:43:15,Arnout Kazemier,"Merge pull request #806 from lpinca/use/set
+
+Use a set instead of an array to track clients",True
+03847d34c8ec35e18debbb65c3858cf60c4f392f,2016-10-12 18:38:02,Tom Atkinson,"[perf] Improve performance of fallback mask and unmask functions (#856)
+
+
+
+* Fix lint",False
+d2c5bb831530108038df94a241aebc4feeebc898,2016-10-12 18:35:25,Luigi Pinca,[major] Use a set instead of an array to track clients,False
+b188799559ee882ca45a9df518423357fd018ab5,2016-10-12 18:10:13,Arnout Kazemier,"Merge pull request #847 from lpinca/cleanup/speed-benchmark
+
+Clean up speed benchmark",True
+616d2276692118dd98cc09fc1ddaf9a941e2e757,2016-10-12 18:08:00,Arnout Kazemier,"Merge pull request #855 from lpinca/remove/redundant-check
+
+Remove redundant check",True
+de93b7f7fb782072228f75f3bc360e5f3adf8076,2016-10-12 18:06:49,Arnout Kazemier,"Merge pull request #860 from lpinca/semistandard
+
+Use semistandard",True
+9330da4465aa2ecea0017487b0b7c917861c16c5,2016-10-12 17:52:24,Luigi Pinca,[lint] Fix lint issues not fixed by eslint --fix,False
+9fe7d78f897ea0f3d5c43e25b63e693cb2f6e53a,2016-10-12 14:20:21,Luigi Pinca,[lint] Run eslint --fix on index.js and lib/*,False
+e721cd5354e9b4da5ca6031a549241b20b3a57f5,2016-10-12 14:13:27,Luigi Pinca,[lint] Use semistandard instead of a custom set of rules,False
+149ad9cd004dc692e95f77807deed516b45dac6a,2016-10-12 13:35:31,Luigi Pinca,[deps] Bump mocha to version 3.1.x,False
+7fbfed062e3a0d7074fa0e6d73072b8eaff54f9d,2016-10-11 20:30:21,Luigi Pinca,"Merge pull request #850 from lpinca/update/eslint-config
+
+Add mocha env to eslint config",True
+88ec9c941c61d6f2d937de30a4d87b3f8ef4094f,2016-10-10 18:43:55,Luigi Pinca,[minor] Remove redundant check,False
+335f1ad578414e7bf84e0bf3707032b8029c701d,2016-10-02 20:03:52,Luigi Pinca,[deps] Bump eslint to version 3.7.x,False
+87e36b63fa9c491b7b158743721187e293947e57,2016-10-02 19:58:41,Luigi Pinca,[codestyle] Add mocha env to eslint config,False
+58c7722fab635c1253d1793632b177e23938fd31,2016-09-30 17:15:52,Luigi Pinca,[benchmark] Use a sane value for the `maxPayload` argument,False
+ded20731dd1c9e5df5a31787a66c561cbf6c0b9f,2016-09-30 17:15:44,Luigi Pinca,[benchmark] Clean up speed benchmark,False
+cad49db8a825d99c68a9330be86e0aa590ecf53e,2016-09-26 22:36:33,Luigi Pinca,"Avoid using `Function.prototype.call()` (#846)
+
+* [minor] Avoid using `Function.prototype.call()`
+
+* [codestyle] Replace `var` with `const` in lib/Receiver.js",False
+da3b47a52e342dfe380f8be4ecc59b470ea31d10,2016-09-26 06:49:56,Jackson Tian,"Merge pull request #843 from lpinca/fix/benchmarks
+
+Fix and clean up parser and sender benchmarks",True
+250b1d5e52af8f23987cb8a0cd40262a83d2008c,2016-09-26 06:43:07,Tom Atkinson,"Cleanups (#841)
+
+* Remove third argument to unmask as it is always true.
+
+* Remove readUInt16BE and readUInt32BE and use the builtin functions.",False
+d2175a3a0c1db3aba22ff147906f4fcf1b295e4c,2016-09-26 06:41:24,Tom Atkinson,"Replace bufferSize with highWatermark. (#842)
+
+* Replace bufferSize with highWatermark.
+bufferSize was removed from node in 0.9.12 so this test was ineffective
+
+* Set stream encoding in options argument",False
+a2e7338b8311f8697a1375a86c3c5a06185fb259,2016-09-25 23:53:55,Luigi Pinca,[benchmark] Fix and clean up parser and sender benchmarks,False
+fc4edd4f5d946c7dccb3fe49adadcca421c7cdb5,2016-09-23 22:41:51,Luigi Pinca,[benchmark] Fix speed benchmark (#839),False
+9475ebbb09e8de7b713985d3ec75d81d64c04102,2016-09-22 11:29:41,Jackson Tian,"Merge pull request #810 from timjrobinson/fix-flush-stack-overflow
+
+Fix stack overflow crash",True
+e0776e5c0198784cd3c1d27cf7164baba0c3b74f,2016-09-22 01:44:09,Ed S,Correct spelling of 'occurred' (#834),False
+acce83e6c65f1b14df16da4f6d67232ff0be73a6,2016-09-17 22:16:44,Tom Atkinson,Avoid using Buffer.concat() on single part messages and provide length otherwise (#826),False
+a45c991afd9e0624487773315f3010d69f07a582,2016-09-16 02:25:25,Joshua Wise,"Added checkServerIdentity option to WebSocket (#701)
+
+* Added checkServerIdentity option to WebSocket",False
+49c67a9a71ec1426987e1874f5689f61aae9dcd3,2016-09-15 16:08:44,Arnout Kazemier,"Merge pull request #811 from JoshuaWise/master
+
+increased performance of frameAndSend",True
+584842a991fad1745ffc82a58b07c14d177c40d6,2016-09-15 15:33:04,Tim Robinson,Adding test case to reproduce crash,False
+becd825443537d2410c915dd55f47c02798aa213,2016-08-20 22:22:25,Joshua Wise,fixed benchmark syntax,False
+9c231998a90b8364189eb21ff409c38a759de914,2016-08-20 22:13:35,Joshua Wise,"cleaned up frameAndSend, and improved v8 optimization potential",False
+bed724a3280027457c8919d6216d0f40f1c97198,2016-08-20 11:11:44,Joshua Wise,improved getBufferFromNative performance,False
+4d57782a76f28358d56a18a3cdba67405fd30581,2016-08-20 09:09:29,Joshua Wise,increased performance of conversion between Buffers and ArrayBuffers,False
+55c68e76e05c808bad905388e3d11159ca050ab3,2016-08-20 04:54:18,Tim Robinson,Fix stack overflow crash,False
+6aa67c8c6c344fbe34e9236c9e78984df90d9730,2016-07-28 13:04:15,Jackson Tian,"Merge pull request #795 from pavkriz/master
+
+Allow 'backlog' option for listening socket",True
+df2ebff2574222168bf71c204958216e2a0bfc39,2016-07-27 21:25:10,Pavel Kriz,Allow 'backlog' option for listening socket,False
+4167e5c7997633334fed5ba270567687d4b0b8ce,2016-07-21 05:11:28,Arnout Kazemier,"Merge pull request #789 from lpinca/emit/errors
+
+Make sure that no string is emitted as an error",True
+7e401e4a4e5d4120aad7556618f124d34a5a5b76,2016-07-20 21:20:23,Luigi Pinca,[minor] Make sure that no string is emitted as an error,False
+419411f9b9b32597261d2747a1094b99770e0263,2016-07-20 02:32:01,Arnout Kazemier,"Merge pull request #788 from lpinca/remove/dead-code
+
+Remove some dead code",True
+3cbdeff4d195299884f2fece094390db92690f3a,2016-07-18 20:35:27,Luigi Pinca,[minor] Remove some dead code,False
+3291c4786a5b1b2460be8f19111f372e229dde1a,2016-07-17 20:04:03,Jackson Tian,"Merge pull request #786 from lpinca/remove/unused-property
+
+Remove unnecessary assignment",True
+2b8a484448a1ce6e1daa051c31b825343a6d34af,2016-07-17 12:33:16,Luigi Pinca,[minor] Remove unnecessary assignment,False
+fba58584e283c450d402fe2ffb8b36b2c14d4ebc,2016-07-14 13:09:35,Jackson Tian,"Merge pull request #782 from JacksonTian/classes
+
+use classes",True
+ec7ee1ab57b167d70544f4946fe180c0d0ae1260,2016-07-14 10:24:59,Jackson Tian,use classes,False
+595f8abc679f2a93f8dd42401dcec27a0c7f4a3e,2016-07-14 09:33:52,Jackson Tian,"Merge pull request #781 from JacksonTian/refine
+
+add max-len rule",True
+4e285c4e91f77e498c7a8ded20dbd8189169d465,2016-07-14 09:23:29,Jackson Tian,add max-len rule,False
+68e196588795ada431596bec27c434677d78c2fd,2016-06-30 12:12:17,Jackson Tian,"Merge pull request #774 from JacksonTian/buffer
+
+Use native writeUInt{16|32}BE method",True
+0e6bf5c7a31be9d31150ce34c74775726571dcee,2016-06-30 12:02:05,Jackson Tian,Use native writeUInt{16|32}BE method,False
+ca949a212a5f729978cae6903cc83edd300dcf95,2016-06-30 10:00:18,Jackson Tian,"Merge pull request #773 from JacksonTian/nodelib
+
+remove the NODE_PATH environment variable",True
+3e00cae77dbee4df2c5045d703cfefc71ab25f6b,2016-06-30 09:56:26,Jackson Tian,remove the NODE_PATH environment variable,False
+1c274a811f4a08d04c0735844fa37c9ee266f43f,2016-06-30 09:56:01,Jackson Tian,"Merge pull request #772 from JacksonTian/eventemitter
+
+use EventEmittor = require('events') directly",True
+7c57252a7936eee166cd8bf48d9fd467b259a354,2016-06-30 08:50:53,Jackson Tian,use EventEmittor = require('events') directly,False
+e591ba61022ffc7a6c0c865c8759309c2b2a35c3,2016-06-30 08:33:14,Jackson Tian,"Merge pull request #771 from JacksonTian/comma
+
+Comma",True
+14a8a8a553efcb501a6a6717e2f4a204dca73169,2016-06-30 08:28:57,Jackson Tian,use const,False
+e022a50458e1fb3eece5974e1928b87bf1a3e1fa,2016-06-30 08:21:27,Jackson Tian,add comman-style rule and update code,False
+12bf889c6f815078d253cc2fe8d408701cd67aa3,2016-06-29 11:40:37,Arnout Kazemier,"Merge pull request #755 from JacksonTian/arrow
+
+reduce usage of self = this",True
+9b021ea6acc8108f552162fea1cf094d3d55f8a9,2016-06-28 12:10:07,Daniel Cousens,wss: fix typo s/sepcific/specific (#765),False
+c7bb7306cb0e1d17df141f61a220056eaa5e3502,2016-06-24 17:52:19,Arnout Kazemier,[dist] 1.1.1,False
+0328a8f49f004f98d2913016214e93b2fc2713bc,2016-06-24 17:51:57,Arnout Kazemier,[fix] Default to a sane value,False
+3e1caf42088c7cd236f23b972917588368ad8531,2016-06-24 17:46:30,Arnout Kazemier,[fix] Default to a sane value,False
+500aabadde29f2d6ad4c679fb890bc17e2c75e3d,2016-06-15 10:35:44,Jackson Tian,reduce usage of self = this,False
+f30da5dad547595c7df134be97be919b4cb5062a,2016-06-15 10:15:07,Jackson Tian,"no more dependen on options (#753)
+
+We just use a little options' feature, it can be implement with
+ES6 feature now.",False
+cbc7548a4c5b89c761bf9daadc969d487a95a784,2016-06-15 10:07:05,Jackson Tian,refactor code (#754),False
+b1de21be112e06cfbb04f09792d1fa7ba09d7c54,2016-06-15 08:27:43,Jackson Tian,Add keyword-spacing rule (#752),False
+3805d5493f1b0b91e6fa16b3ca6e9b908ae53f39,2016-06-13 15:10:52,Jackson Tian,"Merge pull request #749 from JacksonTian/quotes
+
+Add quotes rule and fix coding style",True
+47933b97b5c3b180976d469545258dd7df07689e,2016-06-13 15:05:19,Jackson Tian,Add quotes rule and fix coding style,False
+43b9d03e1a6c3bd4103febdc6a5cd58434d5a352,2016-06-13 14:55:03,Jackson Tian,"Merge pull request #655 from JacksonTian/use_strict
+
+use strict mode",True
+aa36969301f27b330df1036be6934297eb754fd1,2016-06-13 14:48:44,Jackson Tian,lint the project before run test,False
+da8215263298e49d35f0b4281e7d10deffd587b6,2016-06-13 14:46:40,Jackson Tian,Add strict rule and update code,False
+51e7af23a02089c5d027c5693f054c0d75b57543,2016-06-13 14:38:30,Jackson Tian,Add space-infix-ops rule and refine code (#747),False
+cab5c80308ac5b61a818941eeda4cf7b854d3cf9,2016-06-13 14:21:31,Arnout Kazemier,"Merge pull request #748 from JacksonTian/indent
+
+add indent rule and update code",True
+d7db84cd296f15c71d4cad88ac8b7db64bb393ba,2016-06-13 14:11:54,Jackson Tian,add indent rule and update code,False
+b1894999f31993be1aad1b7278ea41f484d4a0b1,2016-06-13 13:11:40,Arnout Kazemier,"Merge pull request #739 from JacksonTian/clean_up
+
+Clean up code",True
+f0c56991000d9106a4a1115bf1b2e594e6a2cb58,2016-06-13 12:56:29,Arnout Kazemier,"Merge pull request #746 from tejasmanohar/fix/node_6_crypto_binary
+
+specify data encoding type 'binary' at hash#update",True
+dc936946463c2bd696339f8aedaaafe250bf0da0,2016-06-13 12:55:55,Arnout Kazemier,[ci] Nuke 0.12,False
+e9b4a0d20a07ee6c01af392371b5cd039cf8ba0b,2016-06-13 12:55:27,Arnout Kazemier,"Merge pull request #745 from JacksonTian/refine
+
+refine code via eslint",True
+1874dcee4a5bac45fbb9c2b174cb722ab62a0a13,2016-06-13 12:50:42,Arnout Kazemier,"Merge pull request #744 from JacksonTian/fix
+
+fix PerMessageDeflate options pass issue",True
+04ccdf79e210663db6977a92dcdf9fc4425ef6a4,2016-06-13 11:25:12,Tejas Manohar,specify data encoding type 'binary' at hash#update,False
+2a9e027b421332ac2d5ef8cb3391e8f544237a6c,2016-06-13 09:12:31,Jackson Tian,refine code via eslint,False
+cc5afb528cf537030fc8f228a0912409b2a177e7,2016-06-13 08:35:36,Jackson Tian,fix PerMessageDeflate options pass issue,False
+284706358d6ff8bdb617cd07369e6cdaf560569d,2016-06-12 22:57:08,Arnout Kazemier,"Merge pull request #743 from JacksonTian/lint
+
+Add eslint as lint tool",True
+ac915a86e97f3d2d5315470e169b04edafa5c578,2016-06-12 22:56:32,Arnout Kazemier,"Merge pull request #741 from JacksonTian/travis
+
+Add node 6 into travis list",True
+7ed327f6c80684b7f88731439c059405037eb47e,2016-06-12 20:27:45,Jackson Tian,Add eslint as lint tool,False
+bb5e960eb4d1964093c1451bf58cd7093dee4e4a,2016-06-12 20:16:23,Jackson Tian,Add node 6 into travis list,False
+a786c25e564b00b364f575d739757cc91bb4cabf,2016-06-12 18:57:48,Jackson Tian,Clean up code,False
+80be19e4456a1ca9a253dbbeb1d654facdfdafbd,2016-05-02 06:03:12,Arnout Kazemier,"Merge pull request #720 from mscdex/test-fix-should-usage
+
+test: update `should` usage",True
+403a0ee7c32afeca844745bb2dae947a6c0ace2a,2016-05-02 05:47:36,Brian White,"test: update `should` usage
+
+These changes are in anticipation of upcoming changes in node v7.0.0.
+See: https://github.com/nodejs/node/pull/6102",False
+4263f26d4dbe27e781c41a1ddfe3dab87dd9e1dc,2016-04-11 17:30:07,Arnout Kazemier,[dist] 1.1.0,False
+24625acac4135553e0566de204d2415e90fc0c01,2016-04-11 17:27:39,Arnout Kazemier,"Merge pull request #336 from MosNicholas/nmos_server_crash_fix
+
+added small fix to prevent server from crashing on empty this.state",True

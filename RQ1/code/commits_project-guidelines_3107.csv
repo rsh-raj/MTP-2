@@ -1,0 +1,704 @@
+Hash,Date,Author,Message,IsMerge
+87c9014ec4f96f8469984538ec5c6601e6f09e7e,2024-12-09 13:29:04,Mostafa Rahmati,"feat(translation): Add Persian translation (#174)
+
+* add persian lint to all md file
+
+* create readme-ir file
+
+* translate part of the sentences
+
+* translate some git rules
+
+* align image to right
+
+* fix image align
+
+* fix width & height imgage
+
+* remove comma word
+
+* add dir rtl wrapper
+
+* translate git workflow
+
+* fix translate git workflow
+
+* Translate writing good commit messages
+
+* Translate documentation
+
+* Translate environments
+
+* Translate consistent dev environments
+
+* Translate consistent dependencies
+
+* Translate dependencies
+
+* Translate testing
+
+* Translate structure and naming
+
+* Translate some code style guidelines
+
+* Translate enforcing code style standards
+
+* Translate logging
+
+* Translate api design - part 1
+
+* Fix dir ltr for code box
+
+* Fix ltr dir for code section
+
+* Fix rtl persian
+
+* Translate api design - final part
+
+* Translate accessibility
+
+* Translate licensing
+
+* Fix rtl persian",False
+3d5e2b378413878ec69d190cf1041235d8833cd6,2022-09-13 19:11:10,Ikko Ashimine,"Update README.md (#168)
+
+Github -> GitHub
+github -> GitHub",False
+d433cc218e5b37280f55db5b147634fef9263d84,2022-05-03 19:02:28,Vahid Panjganj,Update README-it.md,False
+fc066b3ece319140265a0d844f1758520ad762f6,2022-05-03 19:01:15,Vahid Panjganj,Add Italian (#167),False
+8500bbd9faaff4fac6160d509dd46c5e5150757c,2022-05-03 18:57:52,RP1458,"Italian translation (#166)
+
+* Italian Translation
+
+* Completato paragrafo 3
+
+* Codice di stile-inizio
+
+* Finito 7.1
+
+* more translation
+
+* Translation first draft completed
+
+* Checked for typos
+
+* Italian translation completed, revision needed
+
+* Italian translation completed
+
+* Italian translation final revision and typos fixed",False
+99781e7ee52a6f3b7312699c0dc3496737ce68d2,2022-02-07 21:01:37,Ayan Ali,"Accessibility rules1 (#163)
+
+* feat: accessability section
+
+* feat: add accessibility rules-part1
+
+* feat(accessibility): add subsections and remove nested whys
+
+* update: readme copy
+
+* feat: add more accessibility rules and fix links
+
+* fix: typos and links
+
+Co-authored-by: Caroline <caroline@elsewhen.com>",False
+98c3a50b50813fe501c2d0d4d7f8a07757734a91,2022-02-03 15:51:00,ktym4a,typo 修正 (#164),False
+ad15ab34d6aa7ecbd332916994c320c4905e1687,2021-05-20 18:26:55,Flouse,"Update README-zh.md (#161)
+
+update the link about api-guideline controller",False
+ae13328e458d35a44fac71de4e48531b66cc8e50,2020-10-06 14:21:22,Thomas Gotwig,Align logo of README.sample.md to the right (#156),False
+9cb84dc9aea92db1765d76e1563ff586e698ad82,2020-10-06 14:20:54,Thomas Schaaf,Always use plural for resources name (#157),False
+aebebd5fa661e00032989d670f4fb4bd2fb85653,2020-10-06 14:20:02,Divyansh Gupta,Doc(Readme en): fix controller read more link (#158),False
+3b905676d7499029151ccabed7a00ed32ecdac0d,2020-10-06 14:19:20,Pavel Shakhov,Fix typo in russian (#159),False
+dc4a7cca0d32baffe8602f77478fa31e86f2b96b,2020-07-09 18:55:56,Thomas Gotwig,Remove newline (#155),False
+d39ba65e6faee65632b9c6dfa82bb6f5113f22c2,2020-04-30 15:19:05,Alexandre Fernandes dos Santos,"Fixing issues pt/br translation (#153)
+
+* Fixing some issues in the README-pt-BR.md
+
+* fix in the line 513",False
+83dcb60e15691a7b6e0fa4356db81c97e793fb72,2020-04-16 03:13:40,Charles-Antoine Francisco,"fix error code in README (#152)
+
+-",False
+89f9aa2493c246ae6ca9c5eeb9f739142d60c5a1,2020-01-15 22:58:48,Vahid Panjganj,Fix typo,False
+fdb97cbfeab7e1feefa1e5706e30c6e141990684,2020-01-15 22:56:12,Vahid Panjganj,change url (#150),False
+b897fa40ef459806f9ec4b8a569b9800880ab350,2020-01-10 21:12:13,cWillow,Update README.md (#149),False
+8318b40ee69dd1895abf62811ed0f5ee45b40421,2019-10-28 20:26:10,Chandrashekar Dasari,"Fixed broken link (#147)
+
+Replaced the broken link with another article link which explains the concept.",False
+a1aa4f144e4a663350ccdbbb421a090f1eeab4eb,2019-07-30 23:52:21,Vahid Panjganj,remove link to starter project,False
+37a29d5dfc9dff2e276f0def0cf55492d099dd2b,2019-06-03 00:54:53,Jason Cooke,docs: fix typo (#145),False
+421ddb6747194926d34dd8951eb1a305ee3a2373,2019-05-20 18:44:35,Charles Assunção,Translation PT-BR (#143),False
+1f572e8aebd0610a1554c84c3db12b7fbfeed0df,2019-05-20 17:10:33,Alexander,"feat(translation): adds russian translation (#142)
+
+minor fixes
+
+fix typos",False
+687dad2fac3e04694bae4558e5aa19ee07614df8,2018-10-29 16:28:21,Piotr Gajowniczek,"Update Git workflow 1.2 Make changes (#137)
+
+* Update Git workflow 1.2 Make changesi
+
+- Advise to use add --patch
+- Switch to use commit without --all
+
+* Fix space
+
+* Change usage for git add
+
+- Describe specifying file list
+- Include --patch as tip",False
+716eff01f74da7cb1d3b1e471fa290a86c93d044,2018-05-17 20:55:56,Vahid Panjganj,Add Saucepan promotion,False
+b35bd5d35036baa162a1cb556e955e102856d56f,2018-05-13 18:12:04,Domenico Ruggiano,"Ignore IntelliJ *.iml files (#132)
+
+Add *.iml to .gitignore to ignore all IntelliJ modules info files.",False
+c88b96c1ece2cc4736cc76241983dc8aea0b3f17,2018-02-25 16:34:01,AJ Hsu,Add badges for the README sample file (#130),False
+285513a461c6d961a86448bcf02098183a06f33d,2018-02-21 23:35:22,Romain Le Quellec,"replacing english ""why"" with korean one (#129)
+
+removing the english ""why"" to add the korean ""why""",False
+8bf2e6c26d6e3d9b90beab8c7704c9f5628caea2,2018-02-12 23:53:08,Vahid Panjganj,"Rebrand to from hive to elsewhen (#128)
+
+- change the logo
+- change the links
+- change name mentions",False
+2b4adfdab9d88e9ac72e7886fae119046c929f5f,2018-02-06 19:29:09,Vinicius Kiatkoski Neves,"Adds 204 status code as an option (#127)
+
+* Adds 204 status code as an option
+
+* Fix typo",False
+3ad76fe95052eff70e34dbb1f271f06ec1b9b890,2018-01-31 13:33:48,Trey,"Update README.md (#123)
+
+Fix minor typo",False
+7e8bb338d483fc8ef5d8f5217e691f44ff5b4202,2018-01-30 13:41:54,michaeljklassen,Update README.md (#121),False
+3d14725be15fcbdef8ce7296f0ca3771ed9dbf1a,2018-01-30 13:41:13,jzr1991,"Update .gitignore to cover all .DS_Store (#120)
+
+.DS_Store files tend to pop up in subfolders too - added * pattern to ignore any that appear in subfolders rather than just the root dir.",False
+b0e468d2eff4c84378bb4b37d755d31c7f21d52e,2018-01-30 13:40:32,suin,"Fix Japanese translation of ""imperative mood"" (#122)
+
+The word ""imperative mood"" (Meireiho; 命令法) in the source language was translated as ""subjunctive mood""(Kateiho; 仮定法) in Japanese by mistake. Both moods is different in English linguistics. The translation should be fixed.",False
+8d66826950159ac9a0194ae52121707e8241f30e,2018-01-29 17:56:57,Joakim Wånggren,"Adds --no-color for command for local branch prune (#119)
+
+When using zsh or a gitconfig that adds colors, the command does not work.
+Reading branches with `--no-color` fixes the problem.",False
+41c99494001b29cdac56d9f184c8e22bcf223d70,2018-01-28 01:38:35,Roman,"Fixed camelCase / PascalCase typo. (#107)
+
+* Fixed camelCase / PascalCase typo.
+
+* Remove React-specific naming convetions.",False
+70f67166f1132db8d198dff5bf81bc365b8ce7a1,2018-01-27 19:07:43,Atef Ben Ali,format & fix typos (#118),False
+73a3e2d59c67d4045af07b1cfe4502e189bc53a1,2018-01-27 16:29:52,Adam Dobrawy,Reference to GitLab about protected branches (#117),False
+3dffcfd87df5b2103ea859942f669dca329b0049,2018-01-26 13:23:10,udgw.hogemax,重複表現、助詞等を修正 (#114),False
+2af7cd72966e3124f7ea3f389b455a4d86d91e91,2018-01-25 21:21:59,卓鈺翔,"Fixed code block syntax of README-zh.md (#113)
+
+change the code block syntax from <5 space>``` into <4 space>``` for rendering the page correctly.",False
+c8957e6fdbeb7fb1c792b929ec2c5eac4fcd8a6c,2018-01-25 21:15:40,Robbie Ferrero,Add .serverless to .gitignore (#112),False
+4baf60bab3fc3d4616712b04f3dab48a3774d20c,2018-01-25 15:55:10,赵吉彤,Fix typo and add space between Chinese and English (#110),False
+dc521baa00f2c1d456cd48f1f17dd89dc9da58eb,2018-01-13 21:52:18,Matt Watson,"Adds an 's' to conflict, and adds a comma. (#106)
+
+The new sentence would read ""If you don't have conflicts, skip this step.""",False
+3f6eb7b0ee2053a156a2f6061a66acc5c80bf446,2017-12-29 01:50:43,Jérôme Pott,A few grammar fixes (#105),False
+934998710b7980b5c33a70a8431bba76a9d6b5df,2017-12-03 18:22:45,Sadi Kaya,"Fix typo: ""branches.It"" to ""branches. It"" (#104)",False
+03fd9ee85db424b9471b5f2466f1aca907d133ff,2017-11-20 17:01:44,Anton Paras,"Add Vim swap files to .gitignore (#103)
+
+Vim creates swap files when open buffers are edited.
+
+These files preserve un-written changes in buffers. They are useful for
+recovering from system crashes, preventing multiple write-buffers on a
+single file (which could cause ""phantom-edits""), etc.
+
+However, these swap files should not be tracked in a git repository.
+
+For a given working file, Vim will create a swap file of the format
+`<filename>.swp`.
+
+Vim will attempt to remove swap files upon writing & exiting Vim.
+However, swap files aren't always cleaned up. This may happen if Vim
+terminates improperly due to a system crash or similar.
+
+So, if Vim attempts to create a swap file of the format
+`<filename>.swp`, but that path already exists, then Vim will create a
+swap file of the format `<filename>.swo`.
+
+If `<filename>.swo` already exists, then Vim will create a swap file
+`<filename>.swn`.
+
+Vim will continue backwards through the alphabet until it finds an
+available swap-file path.
+
+If `<filename>.sw[a-p]` is completely occupied, then Vim will attempt
+`<filename>.sv[a-z]`, and so forth.
+
+However, I did not include `*.sv[a-z]` in this change because I believe
+that would be overkill, and it may trespass on other programs.
+
+I am reasonably certain that no other programs rely on `*.sw[a-p]`
+files. I am less certain about `*.sv[a-z]` files.
+
+Also, having that many swap files is a rarity. The disadvantages of
+including `*.sv[a-z]` in the .gitignore outweigh the benefits.
+
+So, I only included `*.sw[a-p]` files in this change.",False
+8c00601687c56530d3802bd7a457992797586abd,2017-11-20 17:01:13,Anton Paras,"Fix typo: ""as follow"" to ""as follows"" (#102)",False
+3ecb3d21db10d632f97bbb7abd9ed44200966431,2017-10-20 03:49:46,René Herrmann,"Use valid instead of allow in configWithTest (#101)
+
+The current validation using `allow` will allow any kind of string, not only the specified ones. 
+`NODE_ENV=foo` is totally valid. Using `valid` instead should fix this.",False
+07463964fc50e03a15cad9eeef6797e20b981ea3,2017-10-01 22:27:21,Teruo Kunihiro,Fix typo and add the description of editorconfig in ja-file (#99),False
+74e7ccc07e6d6a4aa7f39d813a7a3b05cb6791a8,2017-09-16 16:19:38,HyunSeob,Add Korean translation (#98),False
+1f7c0ee0b30d3d9909686bd2a1e35951c94f9453,2017-09-07 22:48:35,Cory Robinson,"code style 7.2: add .editorconfig info #90 (#96)
+
+Adds an explanation of using .editorconfig in the project root for IDE code style standardization on a project.",False
+c22597c84fff4980884f625477804ef938c560c3,2017-09-05 21:03:28,Gianfrancø Palumbo,Fix few small grammar issues (#95),False
+99285e6ff43af4ed95da52b917ea9c080a9aa5a4,2017-09-04 16:13:03,KUWASHIMA Yuichiro,Fix typos (#94),False
+549b63ea6025e3fbe5cc28d4ebf1bdd22cd622c8,2017-09-04 14:32:13,Vahid Panjganj,"Add separator between language links (#93)
+
+* Add separator between language links
+
+* Add separator between language links
+
+* Add separator for language links",False
+289be10906cdc5c01e775820ec49f59abdaf0412,2017-09-03 04:07:04,Teruo Kunihiro,Add the README.md translated to Japanese (#92),False
+35c88d2a92e9ff966dce02562ee8851d46d10d15,2017-09-02 18:14:18,tcme,"Check the API Security Checklist Project (#91)
+
+- https://github.com/wearehive/project-guidelines/issues/74
+- https://github.com/shieldfy/API-Security-Checklist",False
+63c23bac8975a3956a07a4ef1abe172b228e3a05,2017-08-16 13:01:46,xcold,"Fix Chinese translation for `Serialize ` (#86)
+
+9.2 API security",False
+8f3afebbb98848cfa0f9721bbba82b3db818e14d,2017-08-13 15:00:39,编执狂,"Polish the translation (#85)
+
+1. Remove invalid whitespaces.
+2. Fix some fatal translation.
+3. Add some extra relevant words when translating(the Git part) to make it mostly like native Chinese speaking.",False
+984823d22a30be8330f78da5fe08d13cbb767525,2017-08-12 21:48:08,编执狂,"Fix Typo && Maybe Better Translation (#83)
+
+1. Localize more symbols like colon and period.
+2. Improve some translation especially the section of Git.
+3. Sync the doc with the English one.
+4. Translate 'you' into Chinese using the honorific instead of the mixed usage.",False
+a76dae8a6f2d366f96305a99fef1ed17cf4a7a62,2017-08-04 23:10:42,Franklin Yu,Fix some periods in README (#81),False
+2d9140032ef7eff781d4c79f407287844cbd52cb,2017-08-02 16:52:09,Kunall Banerjee ✌️,"Add a section on Git hooks (#66)
+
+* initial commit adding git hooks under section 7 (code style)
+
+* add a section on code style check within the editor
+
+* add a section on using prettier with pre-commit hooks using husky
+
+* update links
+
+* reformat section to follow existing flow
+
+*  :ok_hand: make changes and update links
+
+* follow current text format and remove redundant point",False
+479621190e3644c61066b088334ee6e68ae64e4a,2017-07-29 02:48:07,Mohamed Oun,Basic auth on HTTPS is OK. (#79),False
+7880278c38bdc84de4148a7eab10ed3a8b3c3615,2017-07-27 21:43:36,hongmin.qiao,"merge the latest commit (#78)
+
+* translation part one
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* use [中文版](./README-zh.md)
+
+* remove readme.html
+
+* fix some grammar
+
+* fix some letter
+
+* fix the article
+
+* update document",False
+b81656a622d8f3ae996a7c8657f4d381ed912d17,2017-07-27 19:15:41,Vahid Panjganj,Add code of conduct,False
+28e0e23a355509fb33d2fef35f5f2d2bf122a698,2017-07-27 19:08:23,Vahid Panjganj,Copy change (#77),False
+8daeca58e18e1cf6f12d61773a7fa0650a8396d2,2017-07-27 17:56:46,Vahid Panjganj,Fix icon path for Licensing,False
+d61054b63a1736ecdf7079f0aa597bc0313c3d1a,2017-07-27 17:53:55,Vahid Panjganj,"Feature/add icons (#76)
+
+* Add new logo
+
+* Rename logo file
+
+* Fix file name typo
+
+* Make logo smaller
+
+* Add icons
+
+* Add branching image
+
+* Set the branching image right
+
+* Add icons to both english and chinese
+
+* Fix logo and add link to english",False
+3ca37394a3e8ab80d01b3242d50888c3c9b4aaa9,2017-07-27 13:19:18,hongmin.qiao,"fix some issue. (#75)
+
+* translation part one
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* use [中文版](./README-zh.md)
+
+* remove readme.html
+
+* fix some grammar
+
+* fix some letter
+
+* fix the article",False
+8ec3b5cfc4857acb3874b701fb9fdf3f65d55b31,2017-07-25 13:29:52,hongmin.qiao,"Chinese (#73)
+
+* translation part one
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* use [中文版](./README-zh.md)
+
+* remove readme.html
+
+* fix some grammar",False
+6ff4b48a676b6c130c6a76414529571964f5342e,2017-07-24 22:05:26,Chandan Rai,corrected typo (#72),False
+4b53ee0037d084d1eb1e67a0191630631283d388,2017-07-24 14:48:44,hongmin.qiao,"Chinese Done (#71)
+
+* translation part one
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* add more
+
+* use [中文版](./README-zh.md)
+
+* remove readme.html",False
+26cf4be63188e34286123aa82e3c765aa2a30e71,2017-07-21 19:35:39,Rounak Das,"Add git repository initialization (#69)
+
+Add git repository setup step to git setup part of README. 
+Fix indentation issue on `git add ` step",False
+11a9829071c1c0cf861b4b869e79792ba9adee37,2017-07-18 00:47:00,Eduardo Cancino,Miscellaneous typos (#67),False
+03f521c9787b8fbf9b8bf8a6d22425599b0d0cd7,2017-07-16 19:09:24,Vahid Panjganj,"Improve security section (#65)
+
+* Fix formatting for HTTP methods section
+
+* Add clarification to some bits of API section
+
+* Add security best practices
+
+Apply some reformatting to API section",False
+fd528574171e61585fd0ed6b7ea94455bbeb345d,2017-07-16 17:33:32,Michał Załęcki,"Add commands for removing local branches (#64)
+
+Second command comes in handy especially when you pull branches for doing QA/CR but you don't merge/delete branches.",False
+9bff300e31e42b59b16eacd0099918b2d14f83a9,2017-07-15 03:16:22,Matthew Stingel,"Adjust ""a interactive"" to ""an interactive"" (#63)",False
+dd60bfc25a114b1e8361a62ccd67a069754cd2ec,2017-07-14 12:36:21,Lucas,Fixed typo (#61),False
+e5266b01999de71c10516470f20b14392e337fe0,2017-07-14 04:16:02,Garrett Sanderson,"fixes typo on refactoring code. (#60)
+
+fixes typo distraction to distracting",False
+b3fe9d24c48ce79f1dffeac4728c0b1eeffb47a3,2017-07-13 02:51:42,Edmundo Rodrigues,"Remove duplicate block, move pure functions explanation (#59)",False
+a94e654fe5c9bf97804a798e2e21afbfe0c81296,2017-07-12 21:48:48,Vahid Panjganj,"Content improvement (#57)
+
+* Reformatting and adding more whys
+
+* Add new source",False
+5706fe3734ed264bb457c393ec140d9128e55040,2017-07-12 16:46:26,Vahid Panjganj,"Reasoning improvements (#56)
+
+* Typo and grammar fix
+
+* Add links
+
+* Fix case inconsistency
+
+* fix typo
+
+* Fix grammar
+
+* Fix grammar",False
+a2a6c1bbc5c542b95eacbea283325f15f38c392c,2017-07-11 21:04:40,Vahid Panjganj,"Merge pull request #55 from wearehive/add-more-whys
+
+Improvements and add more whys",True
+524ac8dbe94f640ca8d0c0c8206572b82df26ac4,2017-07-11 21:04:03,Vahid Panjganj,Improvements and add more whys,False
+6c44b294c78f28e9050df818fb673ebcd732f01f,2017-07-11 21:02:36,Vahid Panjganj,"Merge pull request #54 from techmexdev/patch-1
+
+Fix minor typos",True
+cb7a7abc948250c11eb1e90884eb4ffb6b767437,2017-07-11 20:55:46,Rodolfo Rodriguez,Fix minor typos,False
+3100b7565c77e566b8817c96782240b9b0d89ac1,2017-07-11 17:03:13,Vahid Panjganj,"Merge pull request #53 from wearehive/more-whys
+
+Restructuring folders",True
+5bb7f41aebbfda8d69dd3cf6ee4cdde86c06cf1f,2017-07-11 17:02:22,Vahid Panjganj,Restructuring folders,False
+2c9b2b8a9540e39fa0f1b62279138c7a5943d2a2,2017-07-11 16:36:03,Vahid Panjganj,"Merge pull request #52 from wearehive/more-whys
+
+Improving grammar and adding more whys",True
+956b07f77ca20a3309fab44c1538813b74673d4d,2017-07-11 16:34:35,Vahid Panjganj,Improving grammar and adding more whys,False
+f616706f68f0177221a06bf3d92f5938a3566d81,2017-07-10 22:52:40,Vahid Panjganj,Reformat folder structure (#50),False
+af252f21d7dc3b30dd9ce4259ab043b0a725f653,2017-07-10 22:19:12,allen joslin,"gitIgnore addition (#49)
+
+support multiple .env files",False
+6c071c6c2f5fef25e9997f06db7c370d3020a22f,2017-07-10 21:45:59,Vahid Panjganj,"Add more whys (#48)
+
+* Tidy up
+
+* More whys",False
+05126203ee7491137802ac97f71f797057148a0f,2017-07-10 18:07:25,Vahid Panjganj,Add more whys (#46),False
+a4b1834fab3e9159ddfccc2da0053fddb464b523,2017-07-10 14:51:38,Tim Pap,Fix typo (#44),False
+d71b61410440f888fca28d359c2093a019e007bb,2017-07-10 12:25:16,Michael Edelstone,"Typo fix (#43)
+
+Change ""thst"" to ""that's""",False
+81c82bd57a8bc9301d00785c2c919ed96abc3fe5,2017-07-10 07:14:52,Yorke,fix chapter error (#42),False
+2ecf2b368a76c51e443f39beabd62b6e2d64c5db,2017-07-10 06:08:09,Vahid Panjganj,"Add reasons for each item (#41)
+
+* Add first section with `why:` format
+
+rearrenge git sub sections
+
+* Format md
+
+* Reformatting md
+
+* Fix typo
+
+* Add some of the reasons
+
+* Add logo link
+
+* Fix logo link
+
+* typos and fixes",False
+25132e2212c0846ff9cc8700397f5435e146fd6a,2017-07-09 04:50:27,Mohamed Oun,"Enhance HTTP Status Codes section some more (#39)
+
+* Fix grammatical issue
+
+* Update README.md
+
+* Enhance HTTP Status Codes section some more.",False
+3e15a0fa6db93b9207c4d71bea71ee0cbb89ed7d,2017-07-09 03:03:55,Vahid Panjganj,Edit to sound less opinionated on code style (#37),False
+3185ad8143b61336fcb95aa768b8d2c2af43a8c0,2017-07-09 02:18:02,Mohamed Oun,"Enhance HTTP Success section (9.5.2) (#36)
+
+* Update HTTP Success section
+
+Update HTTP Success section and fix grammatical issue.
+
+
+
+Merge remote-tracking branch 'origin/Mohamed3on-patch-3' into Mohamed3on-patch-3
+
+
+Merge remote-tracking branch 'origin/Mohamed3on-patch-3' into Mohamed3on-patch-3
+
+* Fix typo",False
+e749c0302fb3a1c9c84803ad5cf9825951485e74,2017-07-09 00:52:56,Martin Alix,Orthographic corrections (#35),False
+83219d8001e592a8f8091786e67e1ecbfeed0e06,2017-07-08 22:07:15,Vahid Panjganj,Trim `.gitignore` file,False
+3aff6662b39e2298216b0398073b5be64905fd4a,2017-07-08 21:36:05,Mohamed Oun,Fix grammatical issue (#34),False
+c81ace7308bf754789ea4cfcbe4146b9ff9bf1cf,2017-07-08 21:06:54,Vahid Panjganj,"Comments vs cleancode + some rephrasing (#33)
+
+* Add `sh` for commands
+
+Some rephrasing to fix grammar
+Change PR to Pull Request
+
+* Better highlighting for shell command
+
+* Fix highlight consistency",False
+ae1f59af33447156bbd3dc7837c600f6b060611a,2017-07-08 01:03:47,Vahid Panjganj,"Merge pull request #31 from yeskunall/patch-issue-30
+
+Remove Miredot and Enunciate from the list of API design tools",True
+588fb3661fe24ab3ead09f5c13e32c5470c5eb86,2017-07-08 00:54:18,yeskunall,Remove Meridot and Enunciate from the list of API design tools,False
+5b22fcf58f03ad462f95112b6f4e77ddf452dd67,2017-07-07 22:34:51,Vahid Panjganj,"Merge pull request #29 from Mohamed3on/Mohamed3on-patch-1
+
+Add Link to 'imperative mood' definition",True
+317861582569a56b3ad545ec7c2317c73978a5d4,2017-07-07 21:47:05,Mohamed Oun,Add Link to 'imperative mood' definition,False
+00404d7048e0c8dc497af82d7ab3d759f54e6b9a,2017-07-07 19:40:38,Vahid Panjganj,"Merge pull request #28 from yeskunall/master
+
+✎ Improve general sentence structure and fix grammatical errors",True
+908596b5e2aa6d22508daa2376bbdfaed1468648,2017-07-07 19:23:03,yeskunall,Improve general sentence structure and fix grammatical errors,False
+32160201ee5430d8293f01847eed7346267b950e,2017-07-07 07:48:28,Vahid Panjganj,"Merge pull request #24 from techmexdev/master
+
+Fix minor grammar mistake",True
+dc885d95f39b7bd0fc35dfc87356791ce7832cf8,2017-07-07 07:37:47,Rodolfo Rodriguez,Fix minor grammar mistake,False
+4bc98156c6e14dcb823f31bab028c6ca0e2a3d29,2017-07-07 01:46:21,Vahid Panjganj,"Merge pull request #23 from yeskunall/master
+
+Fix minor grammatical error",True
+710a9c3a4ca2307260eca70e41883df4bc5f0202,2017-07-07 01:30:01,yeskunall,Fix minor grammatical error,False
+7178172bc976e15bc65fffaaf4927c640fc3a50c,2017-07-07 00:55:44,Vahid Panjganj,"Merge pull request #22 from SarahDunlap/patch-1
+
+JavaScript - capitalized the J and S.",True
+ddd240d1fe0b26035200243c147bdf44296ab63f,2017-07-07 00:41:18,Sarah Dunlap,JavaScript - capitalized the J and S.,False
+34eea3e1e01c0dc0bf789cab17fcdac3cf1caa78,2017-07-06 20:35:15,Vahid Panjganj,"Merge pull request #21 from idready/master
+
+Fix git command option order",True
+a6e9e5ff63f08a2696346e0d77a1044522bd5045,2017-07-06 19:48:02,idready,Fix git command option order,False
+b2fb48a22bac1ad370730d103da0a0e255946ebe,2017-07-06 12:45:23,Vahid Panjganj,"Merge pull request #17 from gulping/patch-1
+
+Add JSON syntax highlight to README.md",True
+25861ffff3f9b75066fde8ce5c477ccd0c644716,2017-07-06 10:27:21,gulpin,"Add JSON syntax highlight to README.md
+
+make it more readable",False
+ab279cc1a751ebc41a93e91023644308988af49e,2017-07-06 10:03:07,Vahid Panjganj,"Merge pull request #16 from sunzoje/patch-1
+
+Fix Atlassian Git tutorials link in README",True
+fb83aff3770a2d898571cd56d1144f01c4d72558,2017-07-06 04:59:31,sanjju simha,Fix Atlassian Git tutorials link in README,False
+ce5190dc40fb189e26edb0f01f719d0324f70b8c,2017-07-06 01:53:08,Vahid Panjganj,"Merge pull request #15 from crowchirp/patch-1
+
+corrected minor typo",True
+541e7681875b5b1e8752c4feb717429ef8bea3d7,2017-07-06 01:47:09,Vahid Panjganj,"Merge pull request #14 from tiago/fix/push-force
+
+Use `git push -f` after rebase",True
+9cfbcfb928172fe28003e2df725dae2db9879fc0,2017-07-06 01:44:33,Chandan Rai,corrected minor typo,False
+da33af3eb77bec19b00f2fb6cd96b8aad2efdaee,2017-07-06 01:40:32,Tiago Oliveira,Fix push command to use the force flag,False
+586e23ba4cb1bf771ae0f788731b668998a2e247,2017-07-05 20:32:45,Vahid Panjganj,"Merge pull request #12 from CapacitorSet/patch-1
+
+Add commit guidelines",True
+76f3200c03374f24610adbcdbecb43b9ec39e42f,2017-07-05 20:31:35,CapacitorSet,Fix quotation marks,False
+82c46e85d0bbae524301e1348b55e15e7ed575eb,2017-07-05 20:09:25,CapacitorSet,"Add commit guidelines
+
+Add some guidelines for commit messages, taken from https://chris.beams.io/posts/git-commit/#seven-rules.",False
+b59b204580039066732fb83f06635b0822201d0b,2017-07-05 20:04:17,Vahid Panjganj,"Merge pull request #11 from titouancreach/master
+
+use double quote instead of curly double quote",True
+5b0c204919b5848d662358039de1e66abaf9e240,2017-07-05 19:42:44,Titouan CREACH,use double quote instead of curly double quote,False
+f4d0a234a1da2f9b31f620c65f1256d27d80a67d,2017-07-05 19:04:39,Vahid Panjganj,"Merge pull request #9 from DroidX86/master
+
+Adding the add step to rebasing",True
+242ecf1d28de953776ee0f0efa44a7eecbc26e75,2017-07-05 17:35:05,DroidX86,"Adding the add step to rebasing
+
+in README, adding the step `git add` for marking files as resolved
+before continuing with rebase",False
+b3d89edb4451ed126259d5bfcd2f611cd95b3b37,2017-07-05 17:34:39,Vahid Panjganj,"Merge pull request #8 from liatwaser/master
+
+Adding License",True
+7c4b7dd6f1726dd6f4d6e80da12e951912b36464,2017-07-05 17:30:29,Liat Wassershtrom,Add hive link,False
+13cd5c0153041bd75301f258896c03b69f10af22,2017-07-05 17:29:03,Liat Wassershtrom,Add License,False
+e0c83f7d33bb655fe4da0f9a93c0ae9e8e1a6bed,2017-07-05 17:07:38,Vahid Panjganj,"Merge pull request #7 from wearehive/some-rephrasing
+
+Clarify why",True
+896ebed0bfa70874dc2c751d32a2ff9c9d99ccde,2017-07-05 17:06:40,Vahid Panjganj,Clarify why,False
+092db575e38b8bc5f0656dd25bb783589a464f98,2017-07-05 16:58:13,Vahid Panjganj,"Merge pull request #6 from bluepeter/patch-2
+
+Fixes #5. Clearer examples and a few minor edits.",True
+d115c60f1555a8fb3ed4e4724f6262d42d8bd68b,2017-07-05 16:44:39,bluepeter,Fixes #5. Clearer examples and a few minor edits.,False
+db7f6724b86a5f74245ac50cd2c342381c36d3ac,2017-07-05 15:14:43,Vahid Panjganj,"Merge pull request #4 from InamTaj/master
+
+correction of some mistakes",True
+3e232659f4ef121d17690b99748de6841149b93d,2017-07-05 15:05:59,Inam Ullah Taj,Merge branch 'master' of https://github.com/wearehive/project-guidelines,True
+2a3f8a134b3200374f2e4f9e4bc26ba01ed6efbc,2017-07-05 15:01:10,Inam Ullah Taj,"correction of some spelling mistakes
+
+Changes:
+ - changed url to URL
+ - corrected spelling mistakes
+ - corrected uppercase and apostrophe mistakes",False
+4b49682ef3d176cf76536bcb42fa6a587507a5aa,2017-07-05 14:56:19,Vahid Panjganj,"Merge pull request #3 from anonoz/patch-1
+
+Added indentations to code blocks",True
+78cf282564ac5d3c46ee0d1784585eab3c144703,2017-07-05 14:51:53,anonoz,Added indentations to code blocks,False
+f866688e5727c71b9e8e819627b9a673f408f16f,2017-07-05 12:46:33,Vahid Panjganj,"Merge pull request #2 from KMASubhani/patch-1
+
+Spelling",True
+12dd6814ff1111c201b2b066ef405f0bc1486454,2017-07-05 10:16:33,Khaja Mashood Ahmed Subhani,Spelling,False
+d03c88e11b8b6ed82a86426ed560d43222ecf4f0,2017-07-04 17:06:22,Vahid Panjganj,"Merge pull request #1 from wearehive/some-rephrasing
+
+Rephrase and make things clearer",True
+4f3bcda770347efcf90a3774f22a6703bc874b1a,2017-07-04 17:04:25,Vahid Panjganj,Rephrase and make things clearer,False
+2ae6ad2f6ca64bd4f1696e903e6714bce88e8c8f,2017-06-30 20:46:43,Vahid Panjganj,Remove hive,False
+297889662a609e1a62327aa0a82ed4281bd2e545,2017-06-30 19:42:45,Vahid Panjganj,Tweak copy,False
+953411f777da109be514644b2a784d6fa5eb36eb,2017-06-30 18:41:27,Vahid Panjganj,rephrasing,False
+6e03c8501a7d48171e288b1ddc32913534ac87b3,2017-06-30 18:39:18,Vahid Panjganj,Fix typo,False
+511e7d3188c6f0054d2b6c7582331be3c1783d71,2017-06-30 17:22:15,Vahid Panjganj,remove hive,False
+4a55865e3e388dd21c19d38aed81bbf9bc079972,2017-06-30 17:17:38,Vahid Panjganj,Copy change,False
+26790ac42e52b4bb8f169fe246f9e7d933074c5a,2017-06-30 16:40:53,Vahid Panjganj,"Add contribution section
+
+Add Contribution and badge",False
+dd4d874cf8b9c108f41426f9a1b0042e17a293fb,2017-06-30 16:26:16,Vahid Panjganj,Fix links,False
+56bf2681e094e8fe9c8da99fe7e225bda5ceadc7,2017-06-30 16:24:53,Vahid Panjganj,Foot notes,False
+a0e8886f259ae4ca16f43f9485ef19a33403e1d8,2017-06-30 16:20:34,Vahid Panjganj,Foot notes,False
+4f8ef49e503001aa8e57ad065dae3777411d5326,2017-06-30 16:19:14,Vahid Panjganj,Fix links,False
+567aab6e4aa0d86817ab2360a25c685f585c7ff8,2017-06-30 16:18:22,Vahid Panjganj,Fix links,False
+102d4f00dbb89d6bc20af7c97192a6555d694c37,2017-06-28 22:27:40,Vahid Panjganj,"Fix typos, adding git section",False
+1d5f2ad1ce8b73160ad32def42fa295f1e4f6e52,2017-06-28 15:12:45,Vahid Panjganj,Fix typos,False
+cc79afda0974dda976158c50a3946dfe5de0bd93,2017-06-27 22:14:00,Vahid Panjganj,add api design section,False
+09103818c6cbbea91b80f24eecb6f4715e5b5db6,2017-06-16 20:29:03,Vahid Panjganj,Change copy,False
+3f25fbdd3647089baa6441bed9c831b8873cc063,2017-06-15 21:41:36,Vahid Panjganj,.gitignore created online with Bitbucket,False
+4e31f9c9dba611d89600a91187ac39a10a0d7c3d,2017-06-15 21:40:14,Vahid Panjganj,fix broken link,False
+4c4dddee3bb9d2b265dc1aebfc267f0d1788efa2,2017-06-15 21:32:16,Vahid Panjganj,remove id for anchors,False
+a09b58655dc7641e75d9378dc550673f543f0c33,2017-06-15 21:24:17,Vahid Panjganj,Change name to id for anchors,False
+96bd8516d4197de344a7c368af39627e2de23c5d,2017-06-15 21:21:05,Vahid Panjganj,Initial commit,False

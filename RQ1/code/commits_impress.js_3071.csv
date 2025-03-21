@@ -1,0 +1,681 @@
+Hash,Date,Author,Message,IsMerge
+5da68e068691a7415aa4c6363ce0db22b40126dc,2024-04-26 22:43:34,Peter Briggs,"Fix typo in index.html
+
+wont -> won't",False
+fd945d557498b9310d1d9ba20690b492578e0e15,2024-02-29 15:54:14,Falco Nogatz,Add missing < in opening <a> tag,False
+784b51663fd05c5e6035d45427c7fdf61af6abd0,2024-02-29 15:54:14,Falco Nogatz,Remove link since in its current form it's invalid HTML,False
+f7e19b459eb2d2a1f7d618bf11e55cd540e27ce6,2024-02-12 04:15:25,dependabot[bot],"Bump async from 2.6.3 to 2.6.4 (#859)
+
+Bumps [async](https://github.com/caolan/async) from 2.6.3 to 2.6.4.
+- [Release notes](https://github.com/caolan/async/releases)
+- [Changelog](https://github.com/caolan/async/blob/v2.6.4/CHANGELOG.md)
+- [Commits](https://github.com/caolan/async/compare/v2.6.3...v2.6.4)
+
+---
+updated-dependencies:
+- dependency-name: async
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+eb3c3301844919666d0f0b356d53795e37473d99,2024-02-07 17:09:11,emmanuel,"Update README.md (#868)
+
+Typo is corrected",False
+b3a7a632c7a29a036bc9eedb7c12aed30f538436,2023-12-05 09:55:20,Thomas Reitmayr,"Fix default substep order when no explicit order given (#855) (#856)
+
+This affects both going to the next and previous substep.",False
+d0ba7ff88474b989482e52848eac34efece4317a,2023-11-01 04:43:40,Meng Weng Wong,"New ""bookmark"" plugin allows hotkey fast-travel to specific steps (#852)
+
+add plugin bookmark supporting direct access via hotkeys
+similar to ""click"", we can now fast travel using hotkeys e.g. 1 2 3",False
+9475720f42f8b8ffcf6efafe2f5bf80a9e59fcbd,2023-02-02 17:44:44,Janis Hutz,Plugins documentation / getting started guide (#835),False
+4edb9e08a04934c9c30ef8ddafe5a49b2dc686c0,2023-02-02 17:41:33,Janis Hutz,"Getting Started Guide  (#831)
+
+Also update version and copyright information",False
+0e26510cb49e146ba4e075eacb696ee1413f85ea,2023-02-02 03:34:44,Janis Hutz,Npm readme (#836),False
+7817f12c12b36b1616e050b01e9451ce4de3342b,2022-12-23 20:22:07,Falco Nogatz,Allow multiple data-substep-order with the same value (#825),False
+972dc413f37cc6e0593c5ecdb8411f4b2acb2da3,2022-12-19 21:25:17,Falco Nogatz,Add .slideView or .preView classes in speaker console view (#827),False
+64d66bf77feda50c6dcdf4d01bf5ef22a79e4df4,2022-12-12 06:33:49,Falco Nogatz,Replace backslashes by slashes in href to CSS (#828),False
+b572362c3ad7ac7861c8eb1e5fc0063791a8f104,2022-10-17 06:09:54,thawk,"Auto guess slide title from first non-blank line (#821)
+
+* Auto guess slide title from first non-blank line
+* If line content is too long, trim to the first 40 bytes",False
+0d52faa60ddbf380e74081f2dfbb391bee87eca5,2022-10-10 01:46:02,thawk,Fix incorrect tag in 3D-positions example (#822),False
+f8dd0e92b4b0d553a7926abd9851d2c355257f5a,2022-08-19 14:27:48,thawk,"Improve markdown support. (#817)
+
+1. Support `marked`, you can using it instead. #811
+2. Auto trim the indentation, so it can be indent like regular HTML.
+   #812",False
+dc3cf69747e0b1b0d1fe534509d09c3c48030e68,2022-07-22 00:19:39,thawk,Fix issue that data-x/y/z can't use relative-to-screen-size unit. (#815),False
+78c954ac09e7bc93c3f5467755e2cf47f217b188,2022-05-29 14:11:25,Henrik Ingo,"Change default target resolution to HD 1920x1080.
+
+If you aren't setting target width and height explicitly in the root div,
+this change will likely affect the size and layout of your presentation
+steps. See DOCUMENTATION.md for details and how to fix.",False
+20cd28ff00f031a14210248122333f473a023d2b,2022-05-29 14:11:06,Henrik Ingo,Add fsevents to package-lock.json,False
+bc3612118a03c7759055404d8677983c5dabb67e,2022-05-02 19:03:18,Christoph Neumann,Fix impress().lib.util reference in blackout.js (#810),False
+629f7686f3b95900fc97bcd901cb4d564769c2ee,2022-04-25 00:07:50,thawk,"Add relative move and rotate to rel plugin (#794)
+
+The relative position in rel plugin is currently based on the world coordinate. So for the same effect, like fly in from the right-hand side, we must use different `data-rel-x/y/z` value. Why not let the plugin do the hard part?
+
+So I introduce a `data-rel-position`, when set to `relative`, all relative attribute is based on the position and rotation of previous slide. So no matter the rotation of previous slide, data-rel-x=""1000"" always looks like fly in from the right-hand side. We can change the position and rotation of one slide, and the position of all following slides will be changed too.
+
+When `data-rel-position` is set to `relative`, relative rotation has a clear meaning. It describes the relative rotations between slides. We don't need to set rotations for all slide, setting the key slides is enough. If `data-rel-position` is not relative, the effect of `data-rel-rotate-x/y/z` is not clear, so they're only used when `data-rel-position=""relative""`.
+
+After the introduction of relative rotation, there're 6 attribute that will inherit from previous slide. If we want to set a relative X move, we have to set all other 5 attributes to 0. It's boring. So a `data-rel-clear` is used to set all 6 attributes to 0, and then the value specified in current slide is applied. 
+
+The `examples/3D-positions/index.html` shows some usage. As you can see, the html code of two slide ring is the same, and slides except for the first two in a ring has no position attributes. It work by inheriting the previous one.
+
+This PR invokes a lot math calculations. Basically, the rotation of a slide is translated into the coordinate describing the directions of X/Y/Z axes. And `data-rel-x/y/z` can be easily calculated by that. The rotations is the hard part, I mainly use the algorithm in the Quaternions and spatial rotation - Wikipedia to compose two and more rotations.  I'm not a math guy, hope I don't make much mistakes.",False
+d3760dfa0a9c3f19150fea4ec253169aefb1b25d,2022-02-13 16:05:52,thawk,make data-x/y/z supports relative-to-screen size (#804),False
+20f74a8b56102dc7e53415b2fc346c8be97d1e0c,2022-01-30 20:47:56,thawk,Fix relative-to-screen-size calculation (h and w)  (#799),False
+ecbdd43ca8b9109438f41201a6b013df2d19b331,2022-01-30 20:36:42,hugocvx,use element title as navigation select option text when available (#803),False
+4bceee7fd28ea71dfda8c35d7d4e9a9e7e4e059d,2021-08-03 15:52:23,thawk,use decodeURIComponent() to get ID from URL hash,False
+63dba5f128fd90eff055a671f6446aec53e8783e,2021-07-29 00:35:03,Ikko Ashimine,Update impress.js,False
+762bdd8da47c26675ca4fc5e4cc37c1381e0342d,2021-07-29 00:35:03,Ikko Ashimine,"Fix typo in impress.js
+
+transtion -> transition",False
+e366207ceafcbf5c46a2944c82113fa71596462f,2021-07-28 13:31:40,thawk,apply markdown dialect to all elements,False
+f68e5fff298469cf9836fa6121f665d8ab323e2a,2021-02-27 18:22:33,Henrik Ingo,"Pimp the cube demo a bit.
+
+I always wanted to do it this way. Today finally had some free time to
+hack it this weekend.",False
+4c9d2e38aaf1ea038118d4ff6549609df6f1fab3,2021-02-26 19:54:10,Daniel Sockwell,"Add ability to specify substep order (#779)
+
+The substep plugin currently shows each substep in the order in which
+it appears in the HTML.  This is not always an ideal fit for some
+presentation styles, where it would be helpful to specify a different
+order (e.g., to add annotations to an image).
+
+This commit allows users to specify a custom order via the
+`data-substep-order` attribute.  Substeps without a
+`data-substep-order` attribute are revealed last.
+
+This commit also updates the Substep README to document the new
+feature.",False
+4229a3e25c84e4276595e1fa984355b7f71d589a,2021-01-04 22:26:36,Bartek Szopka,@bartaz removes himself from tutorial text ;) (#777),False
+dcc844678881d88057c8f50a16f1883c8ebf786b,2021-01-04 00:01:27,Henrik Ingo,"Remove npm-update from CircleCI (#778)
+
+It started failing 2 months ago and shouldn't be needed at all.",False
+d0c427f172453b6306fb88d638df7d1594c476c8,2020-10-11 13:12:48,kdxcxs,Support Chinese in impressConsole (#774),False
+d8e2f17f95d926edefcb25dc6792509fadeb8438,2020-09-13 23:03:02,Tim Gates,"docs: Fix simple typo, glithes -> glitches (#773)",False
+ddfb5eb78cbee4b0aeb550c8df4f7764fa9ec9d6,2020-04-10 23:28:05,Henrik Ingo,Release version 1.1.0,False
+a5e5b962917f03c53ac269916270189890c38f22,2020-04-05 19:44:18,IngridRegina,"created impress-common.css (#760)
+
+Co-authored-by: Ingrid-Regina Vähi <ingrid.vahi@adm.ee>",False
+93b846f07acf33ab080e9c9952f30318af1bd705,2020-04-02 15:51:20,Mohamed Feddad,"Add autoplay URL parameter trigger. (#764)
+
+Resolves #720",False
+203b85808cae2fe0ea16ebc2a5de5d56b1649e29,2020-04-01 12:38:27,Mohamed Feddad,"Add markdown dialect attribute. (#763)
+
+Resolves #724",False
+ef57b5b471c2631cf089b252922597ea8030750d,2020-03-29 14:02:18,Henrik Ingo,Add `npm run all` to run build+test+lint,False
+99484d11b855ebd8d5f726023ca79b88e5c42d18,2020-03-29 13:58:54,Henrik Ingo,"node build.js forgotten in a media plugin update
+
+Fixes b7983887aa8ecb6e496a73975c0d7e18c19c8a47",False
+511d87e72661b49c6dd7524f322693e895ec0b99,2020-03-29 13:56:05,Henrik Ingo,Update all node_modules to newest versions,False
+d3c467b0fd1cd132c2daf8b632ec4667c6098443,2020-03-23 18:13:12,Henrik Ingo,"Use darker text for classic-slides
+
+Based on audience feedback from conference talk.",False
+64dd0f406466420e26e8e360d84bf5c3c2f90e5c,2020-03-23 17:55:15,Henrik Ingo,"Add documentation and examples for scaling to larger screens.
+
+Document all attributes to root element (#impress) in DOCUMENTATION.md.
+
+For the main demo (/index.html) add width, height, max-scale, min-scale
+attributes to the main demo. These just use the defaults, except
+data-max-scale=""3"" which allows to scale to larger screens (HD, 4K).
+
+For examples/classic-slides, add attributes to root element and set it
+to target Full HD 1920 x 1080 resolution. Adjust CSS to match.
+
+Add notification everywhere that defaults will change in 2021.",False
+6ced0516f61a2aab75ecaef656366c932e8d00e0,2020-03-22 18:35:43,Eduardo Moreira,Remove bower from project (#762),False
+b7983887aa8ecb6e496a73975c0d7e18c19c8a47,2019-12-07 15:10:07,Tobias Bora,media plugin doc: autostart -> autoplay (#748),False
+d5bbbc40aef1f30eeda3b7a94023b172a456ea59,2019-10-30 00:34:49,Henrik Ingo,Remove dead link from demo slides,False
+934c2266c4e705716f2e7970c6be9f29fdc2202a,2019-09-11 17:12:24,Oliver Sanders,substep: add substep-active class (#741),False
+2826aecde7ccf7bdcae30c1dfb2b71210cba68c7,2019-07-06 14:01:46,Jason Cooke,docs: fix typo (#738),False
+646fc3c45a529f7a8921bdff6aa569e1e748cb6c,2019-06-27 11:37:33,Henrik Ingo,Fix lint,False
+05cf6ffded9537c0c7a4ab88dac7d82334808266,2019-06-27 09:28:48,Henrik Ingo,"rel: In teardown, only reset data-x/y/z attribute if we modified it.
+
+Fixes downstream bug in impressionist:
+https://github.com/henrikingo/impressionist/issues/20",False
+628b78f3fd9829c66479c1b0bcf91ecfb2427742,2019-06-13 15:57:27,Christoph Weiler,"Bugfix: Scaling bug on swipe, when window scale is not 1 (#736)",False
+c61403d57ad4603a45117d893e99877d58530604,2019-04-25 16:11:50,Will Soares,Trigger event on substep enter (#730),False
+c6d468ed26360097db79dc6e5343f01c7b3bf762,2019-04-25 13:43:56,drna3r,"Remove ""that""! (#726)",False
+3e4d7d2e42be6319ddeb8d69cff17aadfd97ac39,2019-04-11 15:29:38,Henrik Ingo,Small README edit,False
+898083116bdc74331520b7d2fedfb0f5aab627f1,2019-04-10 12:51:23,Moritz,"Update dependencies and remove outdated ones (#722)
+
+* Update dependencies and remove outdated ones
+* Add package lock file
+* Add minified file
+* Karma now uses headless browser to run QUnit
+* Add to readme that node and npm install is required
+* Update license info
+* Add lint-new but don't use it in CI yet",False
+97546a5536f762ff7948c771896723a48309c89b,2019-02-06 17:06:04,Guilherme I F L Weizenmann,"Add fullscreen with support to remote presentation controller (#712)
+
+- F5 to enter/exit
+- Escape to exit",False
+6db3f7c87727edd66293d5d42624ecff68e174c5,2019-02-06 16:55:11,Guilherme I F L Weizenmann,"Add support for ""."" to enter/exit blackout screen (#716)
+
+* Add support for ""."" to enter/exit blackout screen
+
+- This is the default on Power Point
+- THis add support for remote controller presentation blackout key
+
+* Rename autoplay event call from resume to play",False
+6776a0dab76b2c7a1a6dde67ec2135f1dd78f7ff,2019-02-06 16:51:51,Guilherme I F L Weizenmann,"Add pause and play events to autoplay (#713)
+
+This is useful to request pause/resume from other plugins",False
+24e28cc43f56a33e9bb331703c4f1f48bd078428,2019-01-02 17:05:27,Henrik Ingo,Fix example in plugin README,False
+4d3adb09cd99ce43f93703dee358f29637dddd74,2019-01-02 01:10:46,Henrik Ingo,"Fix form plugin for input fields.
+
+It turns out input[type=text] will only find input fields where
+the type attribute is explicitly set to text, but would skip
+fields that left it out and defaulted to type text. This changes
+to catch all types of input elements.",False
+f6f4a36766454a46aca2853804e8d11c2baf3e1c,2018-12-18 01:05:15,Henrik Ingo,"Add test/HOWTO.md (#696)
+
+Note: I will now expect new PRs to add tests for the functionality they
+add or change. (Including my own, mostly...)
+
+Fixes #657",False
+65870699f43fc90c8250f9fc9a5372e5e635a018,2018-10-22 20:48:53,zilioti,Add keyup event for shift space previous slide (#706),False
+dd74d3da0afd68cb9392b2ed830896a153db0100,2018-10-22 20:46:53,zilioti,Add keyup for 191 keyCode (#705),False
+4b326d416473d0fedb9fd37d401559d3041a6619,2018-05-08 22:39:58,Henrik Ingo,"Remove edits to example presentation, used to test previous commit",False
+194ae3bb62e8e621771c68d025d3ab7889aa712a,2018-05-08 22:31:11,Henrik Ingo,"Fixes to data-rel-to
+
+Fixes 80ffff0e8f603a82d9abb6eb51647732c2c8563e",False
+67079504b53c267068d3f6fdd9fb0f50ce3b11f5,2018-05-08 21:48:07,Henrik Ingo,Run node build.js to update js/impress.js from previous commit,False
+80ffff0e8f603a82d9abb6eb51647732c2c8563e,2018-05-02 00:27:40,Holger Teichert,rel: Add relative positioning relative to any previous step. (#686),False
+c09ce88749f4b6467a701a629b97663b29f628f1,2018-03-17 20:03:34,Holger Teichert,"New plugin: media (#676)
+
+The media plugin can autoplay and autopause/autostop <audio> and <video> elements when entering and leaving a step.
+
+Support for impressConsole: don't autoplay in preview window and play but mute clips in current window.",False
+09b5d46c853852828354bf541da4b737d80ab014,2018-03-15 12:27:45,Henrik Ingo,"Update npmignore to publish v1.0.0 on NPM
+
+Fixes #679",False
+e8394d0899a887a1f02f34ea4dee3dcbea4f648f,2018-03-09 13:53:25,Henrik Ingo,"Remove beta label from version strings.
+
+Also update Copyright / Author info in core module.",False
+436f92e09b45a0deb389d72b634d3123dcd82e64,2018-03-04 18:09:13,Henrik Ingo,"Another attempt at fixing the race issue in tests for Chrome.
+
+Seems like setting iframe.src to a dummy value causes Chrome
+to trigger the onLoad event when it 404s.",False
+fbb17083d5810171c5e629d33a112b44ae453c84,2018-03-04 17:28:41,Jon Schlinkert,"Fix condition in if statement for data-rotate-order
+
+References #673",False
+2a3dd7ebb26e59b433ee61dfa702c48d46f80eb9,2018-02-25 16:42:15,Henrik Ingo,Remove outdated comment about copying syn.js into repo. No longer the case.,False
+e52866d1c46228049d7ac6e8860bf8e9145b1467,2018-01-08 03:50:58,Henrik Ingo,"Remove CHANGELOG.md as it was no longer up to date.
+
+For release notes, see Github release page:
+https://github.com/impress/impress.js/releases
+
+For absolutely every detail, see Github commits page (or `git log`)
+https://github.com/impress/impress.js/commits/master
+
+Fixes #574",False
+e99a2df7f24dc59b9b3c594ae093a1d3a4e9ec5d,2018-01-07 22:16:36,Henrik Ingo,Fix typo,False
+4b5fe0fbf83e11def59f374d40475eab99947d99,2018-01-06 21:58:34,Henrik Ingo,"Set stopPropagation() event handlers for text input fields
+
+Fixes #525 #140",False
+8b14eda98fd3b8de7e541888fc431072df751e51,2018-01-01 19:33:13,Henrik Ingo,"Broader try-catch for handling impress-console-button disappearance (#652)
+
+The previous attempt at merely reading a property of event.target was
+incorrect. It worked at first but errors reappeared later, so must
+have been a reace.
+
+This wraps the entire navigation event handlers in the try-catch, and
+then checks for the very specific error and suppresses it. Other errors
+are rethrown as is.",False
+784a6d245bdeff7da28abdb8f811fa5fd9fcddcb,2018-01-01 19:02:16,Henrik Ingo,Also sync js/impress.js / Forgot to run `node build.js`,False
+729651dd5dd0ae35d5178937b53b1b8507b84ff7,2018-01-01 18:57:33,Henrik Ingo,Fix lint errors,False
+e92e02ccb4aa8552efb892eda41974e28f6f9417,2018-01-01 18:35:55,Henrik Ingo,"Make impress-console-button actually clickable (#651)
+
+Changed the onclick handler to trigger the impress:console:open event
+and not use the impressConsole() global function any more. The latter
+is considered deprecated now that impressConsole is integrated into
+impress.js itself.
+
+Also catch some errors that appear in event handlers when the target
+for the click event was immediately removed from DOM.
+
+Fixes #651",False
+b86214c6e9dde44c7eaa1375b8e2a34a16cbb743,2018-01-01 16:24:55,Naja Melan,impressConsole: Don't put onclick inside style attribute (#652),False
+df3532085f32ace5b2743a024b48fa6b1d90a065,2017-12-31 18:06:43,Henrik Ingo,"impressConsole broke init() if root element didn't have id=""impress""
+
+Also adds regression tests to prevent this from happening in the future
+as well as upgrades karma-chrome-launcher to newest version.
+
+Fixes #654",False
+cd499ed8cf1014d7151d21c94771a7495b379106,2017-12-11 16:34:01,Blaine Carter,"Fixed the link to ""extra addons"" in the plugins README (#647)
+
+* Fixed the link to extra addons. It was 404, now it's linked to https://github.com/impress/impress-extras
+
+* Added new sentence describing how to use extra addons.",False
+ba1fe7f6d6eb7d649453c07a1adec853391f371d,2017-12-02 01:18:16,Henrik Ingo,"Add link to Github release page for downloading stable releases.
+
+Intentionally omitting git checkout <tag> alternative for simplicity.
+Those that now how git works, will know it anyway.",False
+c5e93f68856234ed09987ad68be37635749b939d,2017-11-13 01:11:13,Henrik Ingo,Fix a couple links in README.md,False
+7354dbf5fc9ac2e44d9485d737ceb0966c18e24e,2017-11-12 22:59:24,Henrik Ingo,"Merge pull request #643 from impress/dev
+
+1.0.0-beta1: Merge 2 years worth of work from dev to master!
+
+Highlights
+
+* New plugin based architecture allows adding more features without bloating core src/impress.js file
+* Source files are in src/ and compiled into js/impress.js with npm run build. End users should continue to use js/impress.js as before.
+* 19 new plugins
+* Integrates impressConsole.js by default (press 'P' to open speaker console)
+* Markdown support for those that are too much in a hurry to type HTML
+* 5 new demo presentations under examples/ show case the new features
+* Removes the code that prevented impress.js from running on mobile phones",True
+8a1384769c81b4fecc7b6fb4e2226d7226323ded,2017-11-12 22:41:58,Henrik Ingo,"Fix the DOCUMENTATION.md for impress:stepenter and impress:stepleave events
+
+Use event.target and event.detail.next in the examples.",False
+f7f217114ecf993391985f5fb2c67c3597b80ff8,2017-11-05 22:48:32,Henrik Ingo,Add example of a plugin capturing the impress:init event to plugin README,False
+1946c5be55fe467948526db696acefaf1e7d4a8f,2017-11-05 22:12:27,Henrik Ingo,Change hyperlinks to github.com/henrikingo/impress.js back to upstream repo,False
+003664c84028191bd0471abb95ea340b92818084,2017-11-05 22:12:27,Henrik Ingo,"Add impress-extras as git submodule
+
+This adds extra addons, which are 3rd party libraries, into extras/
+
+* Highlight.js
+* Markdown.js
+* Mathjax.js
+* Mermaid.js",False
+d6c6cd47c2e3252b29adec66e097759456c8ab84,2017-11-05 22:12:27,Henrik Ingo,Change gc.lib.addCallback to gc.lib.pushCallback (#626),False
+2d229bf4a6a8e3c91fc6ea8f6f14c08be4a2542a,2017-11-05 22:12:27,Henrik Ingo,Update karma.conf-sauce.js to work with the post-merge way of testing,False
+2a8f7845924594347890a7d0a730522fd0175b86,2017-11-05 22:12:27,Henrik Ingo,Bump version to 1.0.0-beta1,False
+3ef230053e0bc01a8b1460951fda16b5b04aab06,2017-11-05 22:12:27,Henrik Ingo,"Update README.md to match the new repository structure
+
+Explains the plugins, lib and build.js, etc.
+
+Also delete the contributor guidelines in .github. We won't be using
+those going forward, what README.md says is enough.",False
+443a4a82c1954bd9265ada79f89cb7121862e0c7,2017-11-05 22:12:27,Henrik Ingo,Fix goto plugin: set lib variable from impress:init,False
+7505838891f86a7fe15e0c039e0d952cb2b00a11,2017-11-05 22:12:27,Henrik Ingo,"Use autoplay and toolbar plugins in the main impress demo
+
+For all the other features, see demos under extras/",False
+ff036a5dbd26cf6e079020b11c6b3c0e76f491ed,2017-11-05 22:12:27,Henrik Ingo,"Add demo examples/2D-navigation
+
+Show cases the new non-linear navigation possibilities of goto plugin.",False
+cfd1200dcce14434010ff8afa680d9cb074068e0,2017-11-05 22:12:27,Henrik Ingo,"Add new demo presentation examples/3D-rotations
+
+...to showcase a truly 3-dimensional presentation and also the
+use of the new data-rotate-order="""" attribute.",False
+4a62376145fad3d490c1bfaa19884956544fe465,2017-11-05 22:12:27,Henrik Ingo,"Add new demo examples/cube to showcase a simple 3-dimensional presentation.
+
+Also nice demo of multi-dimensional navigation from impress#465",False
+a37723fd82356d86a3adaf5c5ec0a5c5ce686af3,2017-11-05 22:12:27,Henrik Ingo,"Add demo presentation: examples/markdown
+
+This demo presentation is written entirely in Markdown, as provided
+by the combination of the extras plugin, and extras/markdown/markdown.js
+
+The idea for using Markdown instead of HTML came from users who felt that
+sometimes when you just need to quickly toss together some slides, using
+Markdown is faster than HTML. Same approach is also familiar to Hovercraft
+users, where RST is converted to a traditional HTML based impress.js presentation.
+
+Unlike Hovercraft, using Markdown.js allows you to write Markdown directly into
+your html file that is the presentation. It is converted in the browser, and no
+separate command line tool is necessary. As a result you can also mix and match:
+some slides can be HTML (when needed) and some in Markdown.",False
+e847fb4fb4d2c01a865d698158ca7a3697dc39b8,2017-11-05 22:12:27,Henrik Ingo,"Add another demo presentation: examples/classic-slides
+
+Add one presentation that provides a very simple demo, using
+impress.js to create a very traditional ""slide show"". Possibly
+it's an easier way to learn impress.js (it's commented, just like
+the official demo.) It uses the relative positioning plugin and
+uses ""speaker notes"", which aren't shown in the presentation,
+but are picked up and shown in the speaker console (press 'P').
+Also uses autoplay, forms... and includes short demo of all the extra
+addons from extras/. (Highlight.js, Markdown.js, Mathjax.js, Mermaid.js)",False
+478a572294630dc102e83acb072a34b06637cb43,2017-11-05 22:12:27,Henrik Ingo,"Add data-rotate-order to DOCUMENTATION.md, as well as a link to plugins README.md",False
+c9c1943f39ac1351cead4e865d53cd051cdec69a,2017-10-30 20:37:14,Henrik Ingo,"Update build.js to activate all the plugins added in previous commits
+
+Also adds esversion:6 to .jshintrc. This is required by impressConsole.js.",False
+f11a01d6fc99e3cbe1e865a1571271711701275c,2017-10-30 20:37:14,Henrik Ingo,"Add skip plugin
+
+Add class=""skip"" to a step to cause the step to be skipped when nagivating
+with prev() and next(). A goto() to the step will still work.",False
+3bb704578af44cbc80f7f2b85cc7feefe9d6d08b,2017-10-30 20:37:14,Henrik Ingo,"Add toolbar plugin
+
+The toolbar plugin produces a generic toolbar container, which then can contain
+buttons, drop-downs or any html inside it. The user can position and otherwise
+style the toolbar, and any widgets inside it will follow.
+
+Other plugins that wish to expose graphical controls (navigation-ui, autoplay)
+will use the impress:toolbar:appendChild event to 'send' their controls to
+this plugin.",False
+156da0bb3f9a2d77f9a7b851fe4c39ef443340c3,2017-10-30 20:37:14,Henrik Ingo,"By popular request: substep plugin!
+
+References:
+https://github.com/impress/impress.js/issues/81
+https://github.com/impress/impress.js/issues/600",False
+b0ee19950e9a171cb76e20f26cf5d1b22c03e9f6,2017-10-30 20:37:14,m42e,"Add progress bar plugin by Matthias Bilger (@m42e).
+
+Originally from https://github.com/m42e/impress.js-progress and
+adapted for the new plugin api. Also made the sample CSS produce
+a smaller bar and font.
+
+Adds event.detail.next to impress:stepleave event in impress.js.",False
+f6ec70cd036ddf16a4054d69bff765b8b7d344b8,2017-10-30 20:37:14,Henrik Ingo,"Add navigation-ui plugin.
+
+navigation-ui plugin provides ""back"" and ""forward"" controls,
+as well as a select drop down list to jump to any step. It is
+added to act as an example of a UI plugin, meaning that it
+exposes visible html elements.
+
+(This plugin depends on the toolbar plugin, which is added 3 commits
+from now.)",False
+713557d4d24761d8e5443cb88717fad791390c4b,2017-10-30 20:37:14,Henrik Ingo,"Add mouse-timeout plugin
+
+This commit adds a generic mouse-timeout plugin. (Same code was
+originally part of toolbar plugin, but is now general purpose and
+available to user to apply any CSS to it.)
+
+Although this implementation is different and more generic, the
+suggestion to add ability to hide mouse cursor came from
+a pull request by Sebastian Clausen (@sclausen):
+impress#536
+
+The functionality is simple:
+
+After 3 seconds of mouse inactivity, add the css class
+`body.impress-mouse-timeout`. On `mousemove`, `click` or `touch`, remove the
+class.
+
+A user will then use (or not) his own CSS to hide whatever he wants to hide
+after 3 seconds of mouse inactivity.",False
+3697c5b540739c30872b435752a80cd589b0d80d,2017-10-30 20:37:14,Lennart Regebro,"Add the popular impressConsole.js from Lennart Regebro.
+
+Press 'P' to show a speaker console in a separate window.
+
+Supports:
+- Navigation controls
+- This slide and next slide preview screens
+- Speaker notes
+- Clock and timer
+
+Also applies this patch, which makes impressConsole.js follow the new
+impress.js plugin standard: regebro/impress-console#22
+
+Note: As impressConsole is now a plugin, it is included by default. You
+no longer need to include it with a separate <script> tag. Nor do you
+need to call its init() method.",False
+0c891e792c0277506bad93f3deab1f6b03aadea4,2017-10-30 20:37:14,Henrik Ingo,"Add help popup plugin
+
+Shows a help popup when user presses H. Add
+
+    <div id=""impress-help"">
+
+...to the presentation to enable it.
+
+Other plugins send their help text to this plugin as events.
+
+The idea and style for this help popup comes from hovercraft, which would
+generate such html code into each presentation it creates.",False
+1af3c739f819607fceff97ed724d85e61d3cbd38,2017-10-30 20:37:14,Henrik Ingo,"Add form plugin
+
+Adds new form plugin, which blurs() focus on impress:stepleave. This is to
+prevent an input field from being focused when it is no longer visible.
+
+Related to supporting forms, in an earlier commit we already changed the
+navigation plugin to only listen to keypress events from body and html
+elements. This was to allow presentations to have, for example, form
+elements, where users can type text, including spaces, use arrows, etc.",False
+78c412cacee83e009d6eb5e7a2f5eb81bb1a9cc3,2017-10-30 20:37:14,Henrik Ingo,"Add extras plugin
+
+To make loading of extras/ addons simpler, and remove cruft from
+presentation html files, I created a new plugin src/plugins/extras/.
+
+If any of the extra addons (highlight.js, markdown.js, mathjax.js
+or mermaid.js) are added to the html file with a regular <script> tag,
+then this module will discover and know how to init the module for you,
+so it is not necessary to do that in html. If you're not using
+the extras, this plugin does nothing.
+
+Note that in the branch history where you are reading this commit,
+the extras/ directory doesn't actually exist yet, nor do the
+examples/ that use them. But they will hopefully join this branch soon.",False
+2757613fd4800071fd3e56bf29ae82f0eec011ff,2017-10-30 20:37:14,Strikeskids,"Add blackout plugin
+
+Press 'b' to hide / unhide presentation content.
+impress#372",False
+4bec5db356e5a764b27fac4a010681b0ddc6483f,2017-10-30 20:37:14,Henrik Ingo,"Add autoplay plugin
+
+The autoplay plugin will automatically advance to the next slide
+after N seconds.",False
+fd8bc69eb9493ebbd7d68f3f84af9e297d757f36,2017-10-24 00:59:59,Henrik Ingo,"Add code comment that impress().swipe() is internal API method.
+
+By internal, we mean it is not documented on DOCUMENTATION.md.",False
+b56b16d1cfd42a434c7fe6b565cfdef7ebc07db3,2017-10-24 00:59:59,Henrik Ingo,"Add support for data-rotate-order=""xyz"" attribute.
+
+It turns out in CSS 3D, the order in which you specify for example
+the rotateX(), rotateY() and rotateZ() transformations matter.
+Each rotation is relative to the objects then-current position.
+Impress.js being hardwired to always do rotateX->rotateY->rotateZ
+was therefore limiting, and in fact there are some positions that
+can never be reached with an xyz order. The new data-rotate-order=""""
+attribute allows to specify the order as a permutation of the 3
+letters x, y, z, thus relaxing this limitation.
+
+See http://openlife.cc/blogs/2016/october/3d-rotations-css-and-impressjs
+for (much) more details.",False
+aa93a8b563306d0aea382c7cf977a3df0e4e5932,2017-10-24 00:59:59,Henrik Ingo,"Support data-transition-duration attributes for step elements.
+
+If the next element has its own data-transition-duration attribute,
+use that value instead of the global setting.
+
+References:
+https://github.com/impress/impress.js/issues/142",False
+b15b07ef49a28e670e1579dfc5463d5c43cab8ee,2017-10-24 00:59:59,Henrik Ingo,"Trigger impress:steprefresh for every onStepEnter ( goto() )
+
+Unlike impress:stepenter, we emit impress:steprefresh event also
+when the ""entered"" step is the current step. This allows plugins
+to reload or redraw objects if needed.
+
+(Note that resize plugin already calls goto() on the active element
+for similar purposes when it sees a window resize event. Emitting
+impress:steprefresh allows other plugins to join in such a refresh,
+and also others can call goto() if a refresh is needed.)",False
+f0b99f81ac7bd6238c7548dd6f778acc77dc4020,2017-10-24 00:59:59,Kurt Zenisek,"Add Mobile plugin, which allows authors to hide most slides with CSS.
+
+The Mobile plugin adds CSS classes body.impress-mobile and
+div.prev, div.next. These can be used in CSS to hide non-active
+steps completely, in order to reduce memory consumption on
+small mobile devices.",False
+b10f71049977defd240a7e4cc6fafc9430d9712e,2017-10-24 00:59:59,and3rson,"Add swipe support for navigation between steps
+
+Also:
+ - Removes the code that allowed navigation by tapping left/right edge of screen.
+   - Actually, this was already removed in this branch...
+ - Removes the code that disabled impress.js on mobile devices
+ - Adds new API call impress().swipe()
+
+Refactored for the plugin api from this pull request by @and3rson:
+https://github.com/impress/impress.js/pull/496
+
+Manually ""cherry picked"" from
+https://github.com/henrikingo/impress.js/commit/c44fd0f4c102e98a90ee564b91a5cf4f66cec6c3",False
+10632c2ebc6f0096a0cda214a60c5a8a8560f445,2017-10-21 17:01:56,Henrik Ingo,Add rel goto and skip plugins to build.js too,False
+56458490790099daa5fb1859b1c49febdebf9148,2017-10-21 14:52:22,Henrik Ingo,Small comment fixes from code review,False
+82ff7cbde05c5ccbc65ed2afc162c114c830f7de,2017-10-21 14:52:22,Henrik Ingo,"Add a framework for synchronously executed preInit and preStepLeave plugins.
+
+This allows plugins to register to be executed at the beginning of
+impress().init() and impress().goto() respectively. By returning false,
+a plugin can also cancel the event.
+
+Also adds 3 plugins that use this: rel, goto and stop.",False
+8902a0a70924c38f8d2abb35e1ef21e79130fc4c,2017-10-09 16:49:42,Fagner Brack,"Remove second example for "".tear()"" (#627)",False
+a66947e119a0c8d7c0cb1be297aa889fc3c6a554,2017-10-09 12:32:18,Henrik Ingo,"Merge pull request #625 from henrikingo/merge-lib
+
+Common libraries in src/lib",True
+8c12757b96f699488de7bc1e257f8365dd3471ae,2017-10-09 12:00:11,Henrik Ingo,Documentation fixes based on code review.,False
+f3d193d63698d1a68fd03f69058749a0902943ad,2017-10-05 20:27:16,Henrik Ingo,"Move helper functions from core to src/lib/util.js
+
+This facilitates them being used from plugins as well as core impress.js.",False
+9b958f0e00168892fd0e25c7fc560437ad45131e,2017-10-05 17:27:59,Henrik Ingo,"Add a framework for libraries, and a first library `gc`
+
+- Libraries are under src/lib/
+- Added to build.js as usual, before plugins.
+- See src/lib/README.md for details
+
+gc library implements a ""garbage collector"" library, which allows
+both the core and plugins to store elements and listeners to a list,
+and when impress().lib.gc.teardown() is called, to have all of them
+removed from the DOM. It also allows plugins to register their own
+callback functions, which are called at teardown.
+
+Commentary:
+
+This work is based on copying the src/lib/gc.js from impressionist. While it was
+useful, it turns out on the impress.js side there was much more a need to reset
+attributes rather than delete elements. For now, this means lots of plugins do this
+via their own lib.gc.addCallback() functions. Probably it would be nicer to add
+some generic lib.gc.resetAttributes() functionality for this particular case.
+I'll return to this in a future patch.
+
+extras/ are not supported for impress().tear(). What can I say, they're extras.
+Maybe in the future I'll support them, for now I can live without.",False
+9198ca854ba4c59c0f39f260d3cb04216bcfd02a,2017-10-03 02:23:24,Henrik Ingo,"Merge pull request #622 from henrikingo/plugin-framework
+
+Introduce plugin framework",True
+ab30317cd0ff469476063cade15dddeed5d12ce3,2017-10-03 02:22:04,Henrik Ingo,Set browser:true in .jshintrc,False
+525e4fc5f2c2da28323672ea7a41ac574475819f,2017-09-25 13:44:35,Bartek Szopka,"Merge pull request #616 from darkshell/master
+
+changing link fonts.googleapi.com  from http to https",True
+0dc8b436502cde657dda3137c17271e8fb3e87a0,2017-09-25 05:31:58,Henrik Ingo,"Introduce plugin framework
+
+* Source files are under src/
+* js/impress.js is now generated, but remains part of the repo (so it just works)
+* npm run build
+* build.js uses buildify node module
+* Break out navigation and resize plugins from core src/impress.js file",False
+c58b7b8a44015b5cdb707041088ba57325858f0d,2017-09-24 16:37:52,Bartek Szopka,"Merge pull request #621 from henrikingo/merge-testing
+
+Merge more testing coverage from henrikingo fork",True
+0b6dbede8b0eb1677c2f5f780c32128ed7aa587c,2017-09-24 16:02:49,Henrik Ingo,Lock versions for firefox and syn node modules,False
+deca6c0ec3c0c5643e581a7665460ef391f05398,2017-09-19 02:30:39,Henrik Ingo,"Remove embedded qunit.js and syn.js, only use them as node modules
+
+I will squash this commit with the previous so that qunit.js and syn.js
+are never pushed to the repo.",False
+7aaea7fd37fb414f5d24172cedc22eb7548d2463,2017-09-16 15:38:51,Henrik Ingo,"Merge more testing coverage from henrikingo fork
+
+* core_tests.js and navigation_tests.js have more tests
+* qunit_test_runner.html runs QUnit in a browser (without karma) and
+  provides a generic iframe based platform to test different  presentations.
+* copy qunit.js and syn.js into the repo. This allows qunit_test_runner.html
+  to work without any dependency on node/npm. (Karma obviously does need them.)
+* Move jscs cli option to .jscsrc instead",False
+cf010d787cc2f182de4fb44d5c184329a4e4a3e2,2017-05-07 20:04:07,冬日の骑士,"Update index.html
+
+linking google fonts from http to https",False
+0b4bd08f44b03b07f26eaef6b928be4dac96be63,2017-05-03 12:49:34,Naeri Adam Fernandez,Update DOCUMENTATION.md (#610),False
+82bc45e6b002a6bb02b032f6bf2405b6e4769ff1,2016-11-02 18:06:31,Chad Whitacre,Fix typo from 'arraify' to 'arrayify' (#595),False
+1bf05799a058c26f9c544ee7d9b249cbeddb06ce,2016-10-29 05:16:25,John-David Dalton,Breakout perspective for better IE11 support. (#594),False
+20fe5189fb72ded625bcf3c1884ec2d0d6cacd4a,2016-10-28 17:30:46,Chalk,Corrected the version in the header (#591),False
+cf99e23c33eba0ccf6e7a85d65a20b2415db47c5,2016-10-25 08:10:47,John-David Dalton,Move creds to circle-ci accnt config. (#593),False
+53214e584915e521f9c89f2a3e05d20f0b2d90fc,2016-10-01 23:04:40,Fagner Brack,"Add encrypted sauce credentials with new key (#584)
+
+* Add encrypted sauce credentials with new key
+
+* Remove binary workaround in "".gitattributes""
+
+* Revert a5fd940cd9a32cf0e3cf66880f2b7350d516c426
+
+* Use the -out syntax instead of >>
+
+* Revert ""Use the -out syntax instead of >>""
+
+This reverts commit 7caf1de18c9103ea9c7397c1c8f0a45c31850ec6.
+
+Is this commit causing a ""npm: command not found"" error in CircleCI?
+
+* Update sauce-encrypted-env-vars to use `export`.
+
+* Normalize `transformOrigin` result for IE11 and Safari.
+
+* Add webkit prefixes for Safari 8 test pass.",False
+d021b5131db913590c74e230e73e81a594cd36f9,2016-09-30 07:56:47,Leo Arias,"Fix wrong URLs in the issue checklist (#587)
+
+Closes #586",False
+da4c08aa2311f8d2e057d98d7f8fd515e48218c4,2016-09-27 04:59:03,John-David Dalton,Add .gitattributes.,False
+66ca2c02d8e1f9f359e3978bb744310ca33c9a3d,2016-09-27 04:41:06,John-David Dalton,Add sauce test script to package.json and command to circle.yml. (#582),False
+a5fd940cd9a32cf0e3cf66880f2b7350d516c426,2016-09-27 04:41:06,John-David Dalton,Fix openssl command. (#583),False
+1cb50db20028f6a9d27e5346e384a02fa2d7dd1e,2016-09-27 04:41:06,Fagner Brack,Create encrypted environment variables from SauceLabs,False
+77a9ce5e4a8eb6ace2e05dc011999c34c3b8c8cd,2016-09-27 02:40:54,John-David Dalton,Add sauce labs integration.,False
+a308758cce6ee86242e47bd507408ef8f2b68b8a,2016-07-06 17:38:08,Bartek Szopka,"Making it more clear where to find the documentation.
+
+Follow up to #572, fixes #573",False
+1f074925b28119bcd36c63b962cb405208ddf26b,2016-07-03 13:46:40,Fagner Brack,release version 0.6.0,False
+4f6b54ac568f776a6bf2dcf5768d528b48230357,2016-07-03 13:37:38,Fagner Brack,Add release steps,False
+2d70120cba85c14d26d2116f7465f7f25b4ea310,2016-07-03 13:21:16,Nik Butenko,"Add .npmignore
+
+Do not upload unnecessary files to the npm registry
+
+Closes gh-567.",False
+eab24a7761b8b3fc11fa4d69f1190570e27e9681,2016-06-25 18:40:14,Fagner Brack,"State support only for evergreen desktop browsers
+
+Closes gh-565.",False
+9945b51e85090d4bd7771af8962765f4f71eda65,2016-06-25 18:38:13,Fagner Brack,"Add impress.js documentation
+
+Closes gh-563.",False
+28bfa35e6ada8c6ed7cf18c2e6166b65f422b3ea,2016-06-25 17:55:27,Nik Butenko,"Add CircleCI build badge
+
+Closes gh-569.",False
+8e97d25a072cd489676e7449abfb073d06ded1cb,2016-06-25 17:44:19,Nik Butenko,"Add CircleCI config
+
+Closes gh-568.",False
+2c27f31263d388a166c5833b4db215255f51c8f8,2016-06-16 17:05:08,Nik Butenko,"Run tests with Karma test runner
+
+Closes gh-566.",False
+967017115bd659aca02913763b6b4ebf8d1f9f01,2016-05-28 13:57:49,Matt Lockyer,"Rework introduction to sound less elitist
+
+Closes gh-562. Closes gh-540.",False
+a1d6475bd5f31b46586ae73a5d6e995d3ca4732b,2016-05-14 13:04:44,Fagner Brack,"Remove strict need for an issue in the PR template
+
+There are some exceptions where an issue is not necessary
+
+Closes gh-559.",False
+5bdd53432161f5d67664cc4f4cd01c0c13f74d91,2016-05-07 14:10:30,Fagner Brack,"Execute the tests through npm
+
+Closes gh-556.",False
+bfc03f980e1732870a3d381393ce92d8604eea95,2016-05-07 13:53:12,Morton Fox,"Update links to CONTRIBUTING.md
+
+Closes gh-558.",False
+f54cd8fab17eab31f8988f90c601422ee1a2510e,2016-04-30 08:34:29,Henrik Ingo,"Adding qunit test framework and first set of basic tests
+
+Some changes were cherry-picked from henrikingo/impress.js#1
+
+Closes gh-510. Closes henrikingo/impress.js#1.",False
+d489ea7295703b02a1e4c30d63d4b224d7857f28,2016-04-27 18:37:32,Fagner Brack,"Add template for issues and PRs
+
+Closes gh-551.",False
+3f4eddeb6e8c88642c50a2fdd2d10c4e74519ca5,2016-04-16 12:25:49,Fagner Brack,"Apply JSHint and JSCS with jQuery configs
+
+Closes gh-535. Closes gh-529.",False
+8e4888385355059d60b608a19245bd300752bb86,2016-04-01 14:17:21,Bartek Szopka,"Merge pull request #546 from perpi/patch-1
+
+GitHub links updated.",True
+5dc1f3925f92efa40f60de4000f67ca716ae288d,2016-04-01 14:00:14,perpi,"s/bartaz/impress/g
+
+3 links are redirected from /bartaz/impress.js to /impress/impress.js
+It made me a bit confused for a while! I was thinking if /impress/impress.js is the main account/repo, why you're keeping /bartaz/impress.js?!",False
+f9c41968eb0f06b1c20e3f631e1d7e5a464baf55,2016-03-19 11:31:23,Fagner Brack,"Remove duplicated bower 'main' entry
+
+Closes gh-522",False
+c7324c297dd1634cc629156fe0ef3a3c8f36b3ee,2016-03-19 10:05:21,Fagner Brack,"Require an issue for a feature Pull Request
+
+Closes gh-528.",False
+8159876c980d409a85f538ea27d524a5f899328a,2016-02-28 14:40:28,Alex Rock Ancelet,Fix IE support in README,False
+d13428ec226bcb5f6cb918b854507fde1856d042,2016-02-28 07:34:57,Fagner Brack,"Merge pull request #520 from FagnerMartinsBrack/contributing
+
+Create initial version of the CONTRIBUTING.md file",True
+2b3e830ec69977b070bff6f2f34d4f397469e834,2016-02-23 18:45:26,Fagner Brack,Create initial version of the CONTRIBUTING.md file,False
+c68fe624026e8dfdd84e94a6405325c4b3b64237,2016-02-07 19:23:23,Fagner Brack,"Merge pull request #351 from wellsfargo/master
+
+Upgrade to typographer quotes",True

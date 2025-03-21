@@ -1,0 +1,1411 @@
+Hash,Date,Author,Message,IsMerge
+f71310c74936f33ba9bc23d334cd1c0d860ff85a,2025-03-21 04:14:13,dependabot[bot],"Bump jspdf from 2.5.1 to 3.0.1 (#371)
+
+Bumps [jspdf](https://github.com/MrRio/jsPDF) from 2.5.1 to 3.0.1.
+- [Release notes](https://github.com/MrRio/jsPDF/releases)
+- [Changelog](https://github.com/parallax/jsPDF/blob/master/RELEASE.md)
+- [Commits](https://github.com/MrRio/jsPDF/compare/v2.5.1...v3.0.1)
+
+---
+updated-dependencies:
+- dependency-name: jspdf
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+f95841f0e7fe61f64d40f266378c2a59261cc080,2025-03-21 02:55:36,1ilit,Migrate to tailwind v4 (#370),False
+a358b56d7e4228af5c726f90fc392aa08a9e0620,2025-03-21 00:09:49,Christofer,"Use custom types when importing from postgresql (#261)
+
+* 🐛 add custom enums or types when importing from postgresql
+
+no longer defaults to blob
+
+* allow for quoted enum/types to be correctly imported
+
+used prettier for formatting as per contributing.md
+
+the type/enum check is case sensitive as there is no way I found to verify if the type was declared in quotes (case-sensitive) or without (to-lowercase by postgres)",False
+6cae92ce10041c9fdf046a2ea2e933bd639f94c6,2025-03-19 04:16:41,dependabot[bot],"Bump axios from 1.7.4 to 1.8.2 (#369)
+
+Bumps [axios](https://github.com/axios/axios) from 1.7.4 to 1.8.2.
+- [Release notes](https://github.com/axios/axios/releases)
+- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)
+- [Commits](https://github.com/axios/axios/compare/v1.7.4...v1.8.2)
+
+---
+updated-dependencies:
+- dependency-name: axios
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+eb48fa1d359e7ebd32dc14df84afa2c1d22cdead,2025-03-19 03:51:26,1ilit,"Fix syntax errors in types for pg export (#368)
+
+* Fix syntax errors in types for pg export
+
+* Fix syntax errors in types for generic pg export",False
+3e7d1ac6f61bd3d7dc87e4d5627534f0f46f5086,2025-03-17 03:20:59,Kratik,"Toggle datatypes visibility (#366)
+
+* showDatatype setting added in view control panel
+
+* removed shortcut
+
+can be discussed later
+
+* fixed linting issue and made sure the condition check is above div element
+
+in table.jsx code
+in the else part im directly returning the element by keeping a check  for settings.showDataTypes?
+which helps to not add empty element
+
+for setSetting issue
+I used the similar code used just above the snippet and modified it",False
+2a03298d29d6eb332a1084af379df1a62680889f,2025-03-16 22:07:36,1ilit,Upgrade node-sql-parser to v5.3.7 (#367),False
+38c0a99b51a682dab9b3fdcaa2092df14b52622e,2025-03-16 01:13:49,1ilit,Fix column and fk constraint in dbml export (#365),False
+7f5f481cea8fdf12604fd470b7417ed83eeb5a28,2025-03-14 23:36:26,1ilit,Increase heap size (#363),False
+9396edddb2df61ab06c0046e1717cbfd747344b0,2025-03-14 23:20:53,1ilit,Update workflow (#362),False
+fa1e736436f45f1653bba79c3cc2cd1e3dde2e40,2025-03-12 03:10:39,1ilit,Add speed insights (#359),False
+6cc994206273df576958609a9e899130f4d3224d,2025-03-07 22:41:50,1ilit,"Fix hotkeys (#357)
+
+* Fix hotkeys(#356)
+
+* Check for meta key(#356)",False
+e1ca9b0cd6056baf250c492accc4fa737975596a,2025-03-05 22:57:50,Tamás Balog,Add missing entries to the Hungarian translations (#354),False
+885eb8298f09c31d2c180d0fdc67362b40be23cd,2025-03-05 00:28:39,1ilit,Deprecate ddb export(#353),False
+8fe4ec5ac874c3e152be57a3e2389976caa17cca,2025-03-04 01:22:15,1ilit,Update README.md,False
+0e54dbed1bbb72d13fcb180d40270cbb9bd19a24,2025-03-04 01:20:50,1ilit,"Remove funding (#352)
+
+* Remove funding
+
+* Remove support us from landing page",False
+0d813fc0dddf089bb2ce7cc6670a1afeefa52b7e,2025-03-01 23:54:53,1ilit,"Import from and export to DBML (#351)
+
+* Add export and import functions
+
+* Add import from dbml to control panel
+
+* Add the import key back into locales and show import error
+
+* Parse relationships",False
+e3877ef982d1e99505452f604ba548f44851d5ff,2025-02-26 22:57:25,David,Add romanian locale (#348),False
+799a79e8a8e967fade8b6ebe411424ad103438d2,2025-02-26 00:32:49,Swapnil Ingale,"Add translations for Uyghurs language (#345)
+
+* Add translations for Uyghurs language
+
+* Add Uyghurs Language Properly
+
+* Remove First Line",False
+1e6aeca05e4ab91559f09924423772cf5dccd1ce,2025-02-15 03:24:45,1ilit,Add documentation links (#343),False
+4ac039f2f14a0ffa04310f6bf092f5cca796ae33,2025-02-05 17:16:38,1ilit,"Merge pull request #341 from tasnim0tantawi/fix-mermaid
+
+fix mermaid cardinality",True
+0e19da0004a2b4ad06886aadc7e76017eed195ec,2025-02-03 17:50:13,TasneemTantawy,fix mermaid functionality,False
+da8961c584925c3617c15cb33f7baf866748a0f0,2025-02-03 00:30:20,1ilit,"Merge pull request #339 from HeCorr/uuid-default
+
+Allow setting default value on UUID columns",True
+910d4732c7e56d4dd6a94ac9f705c10ead5e70e3,2025-02-02 08:36:37,HeCorr,"Fix wrong cursor style on disabled inputs
+
+*something* is setting the global cursor style for :disabled elements to ""default"" and I don't know what, but it conflicts with the intended cursor style of SemiDesign, so let it be determined by semi classes instead.",False
+1580650d927bde012735d89cce9e59f201a3e446,2025-02-02 07:33:33,HeCorr,"Disable noDefault on UUID type
+
+so it is possible to set a default value on UUID columns",False
+aaf83b6f2833b2a336e5a5d94b9192a0a7453ccb,2025-01-20 23:22:26,1ilit,Show relationship names on the diagrams(#314),False
+0d0c6341c0bbf93ef5806aff0347f0fc1595c702,2025-01-20 23:22:26,1ilit,Add editing relationship names(#314),False
+319f3f5cf305c03c44d2d8c0184ef4c9d928dfc0,2025-01-20 23:22:26,1ilit,Update relationship naming convention(#331),False
+e6a36cd90b3405e4eca981ebfe5b45db543c4c83,2025-01-19 01:15:33,1ilit,Add counts to tab titles,False
+40ef1ca91ba03bc49ecfc8422409b5aef3085a45,2025-01-18 23:56:42,1ilit,Disable keepDOM in tabs and collapses (#335),False
+f0adcf1a256f1f68e0ebcbe2cfea488f8f7751af,2025-01-18 17:46:13,1ilit,Fix import from sql for mssql,False
+5476470aa7ece8e93b8bc736fbe34a8741931855,2025-01-03 22:19:11,Denisskas,"Add new lines for Russian localization (#324)
+
+* Add new lines for Russian localization
+
+* Revert ""Add new lines for Russian localization""
+
+This reverts commit fd153f040bb84100fe319e293ef61b4bdb3d5c5e.
+
+* Update ru.js",False
+2704a007b8269292a6850e10c219be1669018160,2025-01-03 21:40:50,1ilit,Fix primary key assignment from out of line PK constraints in pg,False
+cb9e49b74c90b44ba87312ffe27fe1b406097bf6,2024-12-06 11:10:25,1ilit,"Merge pull request #313 from sudhirVoid/nepali_language_extension_feature
+
+Add nepali translations",True
+55e4b50741077f3162535a269986627db431fee8,2024-12-03 01:08:21,sudhirVoid,nepali language feature added,False
+f9317797ecbe28b4f7072ac5b2b4af86b24c0d76,2024-12-02 05:06:25,1ilit,"Merge pull request #311 from picimako/update-hu-loc
+
+Add 'unshare' entry to the Hungarian localization",True
+b139a15a3a5f58a6c38f22c45f23ba43d890eac3,2024-12-02 01:37:21,Tamas Balog,Add 'unshare' entry to the Hungarian localization,False
+4136cc32c6376d83d97f2a69fc15419f173aeb3e,2024-11-29 22:26:40,1ilit,"Merge pull request #306 from drawdb-io/add-copy-to-code
+
+Add copy to code",True
+a5fea9c05a9133a5bf0530152a54d600c39e2122,2024-11-29 22:23:33,1ilit,Fix overflow,False
+8301cea0bdf1c8acddf95ad44848418bf215cde1,2024-11-29 22:15:21,1ilit,Add copy button to code exports,False
+881768b765c9268fda562969f78379727266328c,2024-11-23 21:48:26,1ilit,"Merge pull request #302 from drawdb-io/unshare
+
+Ushare a diagram",True
+a344e85db8365ea62a511581f57810d5a8069236,2024-11-23 21:31:34,1ilit,Fix loading already shared diagrams,False
+8eb88cc15bf6ab7f21801a2e3edd7d4152d7b621,2024-11-23 12:48:26,1ilit,Add unshare functionality,False
+ce85bb66804b1137bf516434b818d7fa9f3e2c19,2024-11-12 12:58:10,1ilit,Fix relationship swap table crashing,False
+d389c28fb7d0204f32ef52a0743700f50eb0f876,2024-11-10 14:41:00,1ilit,Update readme,False
+98c046e018da57ce5d78f555f3dbce3b12263a34,2024-11-10 13:20:58,1ilit,Update node-sql-parser version,False
+d7d3cdc15b355182f22bf4e48d0cc397b8bc7c5d,2024-11-08 22:26:44,1ilit,Cache settings,False
+f27fbaa43929e1f337f0601e975db6c341002257,2024-11-04 21:13:59,1ilit,Parse references in sqlite,False
+bc35a613976777cd1812f370329cf534db2f2ead,2024-11-03 17:43:34,1ilit,Show import failed error,False
+28ec12b80a6e1bfc8d7e3e08a8912e865228753f,2024-11-03 09:28:46,1ilit,Parse default casting,False
+9a9df56867975add7fa8a976f62e7561e7b0439e,2024-11-03 08:59:29,1ilit,"Merge pull request #281 from Bit0r/main
+
+Refactor date parsing logic and add Vector datatype",True
+317c3cc9bac6660a1a91a811a1934c4a14ba3026,2024-11-02 13:20:01,1ilit,Fix invalid sql after swapping fields (#287),False
+cd2627332f5a2d0021752c5056033bb72e5f265a,2024-10-31 22:14:10,1ilit,Fix header for rtl languages,False
+35d55a02f15567804d45d3407b2595cc0b6c5b64,2024-10-27 19:16:50,1ilit,"Merge pull request #282 from ruizhiii/fix/foreign-key-case-sensitive
+
+Fix foreign key comparison case sensitive",True
+dcf73e6f95ba6176c735a592b3ae70b98d831dff,2024-10-27 17:57:47,zhi,Fix remaining case sensitive foreign key comparison,False
+9d68dd9185182efd8a7c88d06ae7725b14ba6288,2024-10-27 09:34:04,zhi,"Fix foreign key comparison case sensitive
+
+SQL keywords are case insensitive although they are often written in all caps. Object return from node-sql-parser is actually case sensitive based on the imported sql, thus ""foreign key"" doesn't work as expected.",False
+60a9c0d34f95105dee76f2665b9f91216dcda085,2024-10-27 08:49:45,Bit0r,Refactor date parsing logic and add Vector datatype,False
+90f70a707401222ccd6174299b320d19bdcbff16,2024-10-26 17:10:22,1ilit,"Merge pull request #280 from rahulkumarbhagat-coder/add-japanese-locale
+
+Add Japanese Locale",True
+14e7e1d117a8692f0a3a44fab4a081ae574f01e5,2024-10-26 15:49:12,rahulkumarbhagat-coder,Add Japanese Locale,False
+ed79fac521162843a936503dcec305d8330709a3,2024-10-26 05:42:23,1ilit,"Merge pull request #279 from JamalArshad147/add-urdu-translation
+
+Urdu Language Support",True
+d01d9aa463143adc5031e603dde19f0aeed9a9af,2024-10-26 05:09:27,Jamal Arshad,Add Urdu translation support,False
+fc936b92e5080937823edfeb1498a43638dcb7b3,2024-10-25 05:38:22,1ilit,"Merge pull request #273 from rritik772/fix/no-error-location
+
+Fix parser silently failing when there is no error location",True
+d65276badc8e58735a91517d0224317c28cb97c5,2024-10-24 20:27:02,Ritik Ranjan,"if no error location is avaliable
+
+if no error location is avaliable gui does not show any error. It falls
+sliently",False
+b03b785b628d3dda916616b7b802a24573b8a86c,2024-10-23 11:12:30,1ilit,"Merge pull request #271 from dantemogrim/feature/swedish-translation
+
+Add Swedish translations",True
+b041abb56aa867db6d6d15c0337d978462ecde02,2024-10-22 23:45:23,Dante Mogrim,feature(translation): provide swedish locale,False
+de84c0825d2d752265c779fb44377ec21d402817,2024-10-19 13:58:34,1ilit,"Merge pull request #263 from dantemogrim/main
+
+Make buttons more responsive",True
+d81714a930ec8a94a6682f585bb4a107f47122ad,2024-10-19 13:46:14,1ilit,"Merge pull request #267 from MechanikGamer/main
+
+Added  Norwegian Language",True
+3a989ad0228d4a48b6c083b3444d161567fe6002,2024-10-19 01:39:08,Tomasz Seredynski,Added  Norwegian Language,False
+c8a33c32220c5b6cdeeb17b3c4601eb9a2e17d61,2024-10-19 01:32:10,1ilit,"Merge pull request #266 from MechanikGamer/main
+
+Added Polish Language",True
+20a4310d6180ebd7e4b2a28b44ba2fdd4d2880b6,2024-10-18 23:46:10,Tomasz Seredynski,Added Polish Language,False
+249d11f9e5d8c9b9b3808ad2b89364c4d44e1712,2024-10-15 22:53:38,Dante Mogrim,Make buttons more responsive w/o relying on flex,False
+feb1eb8364b3fea3fdcf6f088cc9b978c87a1335,2024-10-14 22:02:52,Dante Mogrim,"Make buttons more responsive
+
+On tablets and larger phone screens, these two were lacking a margin
+setting (leading to a ""squished"" look). This commit resolves that.",False
+81c4728ea5ddfb4dea76ce551f23d0dd83d5ebe9,2024-10-13 01:13:22,1ilit,"Merge pull request #262 from somya-05/feat/add_kannada_locale
+
+Add kannada locale",True
+486974f26e1273221e2295afa3bed1c8c8fc9442,2024-10-12 18:16:55,Somya Bansal,feat: add kannada locale,False
+df54f864da9396ffc0c19e8fa41701bbf0a23987,2024-10-11 17:15:09,1ilit,"Merge pull request #258 from rudcode/main
+
+Add type size when exporting postgres",True
+d208e37a4118f31709fc164ce077d3c5f14c1e68,2024-10-11 17:11:30,1ilit,Merge branch 'main' into main,True
+9f834dae2bdf1364b3601f9da9a326d42b337433,2024-10-11 16:58:17,1ilit,Clean up,False
+7d3d1dd9e2e6091348cd04c7abaff0a9ca6f5147,2024-10-11 16:38:10,1ilit,"Merge pull request #252 from csc530/main
+
+Fix export for enum and set types for mysql",True
+2bf3bd6ec1ba241a1f7eaa790353b614f3ecd2cb,2024-10-11 16:29:44,Rudy Nurhadi,"Fix postgres auto increment primary key
+
+Add ""GENERATED BY DEFAULT AS IDENTITY"" if field is auto increment",False
+c8386a0f991160f66c1f6a256d46cb7064340b50,2024-10-11 16:29:44,Rudy Nurhadi,Add timetz datatype for postgres,False
+468210f28aa1cf95a9473b7e63eb0d59a173bb2d,2024-10-11 16:29:44,Tamas Balog,Add new entries to the Hungarian localization,False
+25542b58b3aed8588ccdd0277d7a8226451d84e2,2024-10-11 06:00:57,Rudy Nurhadi,Add type size when exporting postgres,False
+5c2262e7594e40ac95744279e7f781bcb2faa997,2024-10-11 05:59:53,Rudy Nurhadi,Remove TEXT size from postgres datatype,False
+6314f9876c7a9ab4f999dfd2ceed7f47195c2861,2024-10-08 13:19:21,1ilit,"Merge pull request #255 from rudcode/main
+
+Fix postgres auto increment primary key",True
+c78245cb3ac45647d15b533a9f263a631b58fa27,2024-10-08 12:34:33,Rudy Nurhadi,"Fix postgres auto increment primary key
+
+Add ""GENERATED BY DEFAULT AS IDENTITY"" if field is auto increment",False
+257209c3e15acc2f028ddd470984f843ce19619b,2024-10-03 11:53:24,1ilit,"Merge pull request #253 from rudcode/timetz
+
+Add timetz datatype for postgres",True
+b56024bc832b7d78399b65a0baea7692e00f0308,2024-10-03 09:41:12,Rudy Nurhadi,Add timetz datatype for postgres,False
+cd873ec1ba8d3095bee8281c79eb893a41490fd6,2024-10-02 20:07:45,csc530,"format code
+
+using javascript and typescript language features extension in vscode",False
+9cfdecacf92e3aecac3c1eac649da5ec50be559d,2024-10-02 20:07:00,csc530,fix enum and set export syntax for mariadb,False
+b37e7202762c6cfe3ae69e42e20cab3be02edd00,2024-10-02 19:59:04,csc530,remove console log & format code,False
+624bd1ed2c7977b665fd85cd56869512cf22ce71,2024-10-02 06:53:45,csc530,fix export for enum and set types for mysql,False
+3127d70c3ab42ee8fdc9c7f51dd6891fb854d6f0,2024-09-29 18:09:01,1ilit,"Merge pull request #250 from picimako/i18n-hu-update
+
+Add new entries to the Hungarian localization",True
+922d49f916a749165cb91d1bdb54a850568bb5e4,2024-09-29 17:57:25,Tamas Balog,Add new entries to the Hungarian localization,False
+bf50125a4d60b2b98fc996492c8d6ff08c257b99,2024-09-28 20:47:54,1ilit,"Merge pull request #249 from drawdb-io/dependabot/npm_and_yarn/dompurify-2.5.7
+
+Bump dompurify from 2.4.7 to 2.5.7",True
+075f51e183107a2cb6ac51a4d7811c79a9ea0d5f,2024-09-28 20:43:06,dependabot[bot],"Bump dompurify from 2.4.7 to 2.5.7
+
+Bumps [dompurify](https://github.com/cure53/DOMPurify) from 2.4.7 to 2.5.7.
+- [Release notes](https://github.com/cure53/DOMPurify/releases)
+- [Commits](https://github.com/cure53/DOMPurify/compare/2.4.7...2.5.7)
+
+---
+updated-dependencies:
+- dependency-name: dompurify
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+9fd682ccdc350824274f73692ce12f225805bd95,2024-09-28 19:32:49,1ilit,Fix corrupted endFieldIds after import,False
+935900d32bd5181496e9a0268e03c8fafcfb9d12,2024-09-28 18:18:48,1ilit,Fix import from alter statements failing,False
+ff1e83b8b5b0071163790469e5a140585ab3b62f,2024-09-28 17:56:01,1ilit,Fix import from postgres sql end field check,False
+d85be39b10c39d6378df0c407c2fa4c4e8ee57b5,2024-09-27 22:00:58,1ilit,Import composite types in postgres,False
+1721471cc0ebaff9227f00167859678b6a6a8cd1,2024-09-21 22:55:20,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb,True
+b5e23fef2010e90da4c1099105c1eeabd65e4e3c,2024-09-21 22:54:56,1ilit,Fix import failing on single statements (#244),False
+5b01a89f703a79085a63f81d1ee282c179f5cca1,2024-09-17 12:55:59,1ilit,"Merge pull request #236 from ewqazxc/main
+
+Fix fitWindow not finding element id",True
+f635d0774c0076a8bead257a50983bf660e8211c,2024-09-16 20:55:31,1ilit,Clean up locales,False
+2bcc8657161cfdc84c814f64e384b427944c5fbf,2024-09-16 20:48:06,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb,True
+77c060bb98db00b9fabb75e4a0444dab6ce608a7,2024-09-16 20:47:49,1ilit,Update node-sql-parser version,False
+322ef962d865692c732e4ed740ae6616295a8f93,2024-09-11 11:29:31,1ilit,"Merge pull request #240 from ilogus/fix-docker-build-warning
+
+Fix casing do not match warning",True
+ef188566d5b5d5595728d420216dc750e6a367b3,2024-09-11 00:02:35,ilogus,fix casing do not match warning,False
+419ea13c4b7fcc8e38f3a53f6deb587cd4004338,2024-09-09 22:27:13,1ilit,Support special values for postgres defaults (#238),False
+557ce72961cc6ba5f5e5880479b490b0561d230b,2024-09-08 01:22:03,1ilit,Add sidesheet for editing relationships,False
+6cd0a691dcbe76764751ea4fdc484e07f8264738,2024-09-05 13:58:19,1ilit,Use i18n keys to store cardinality (#231),False
+0231fd937fc48d3ca148ef437453ca994f2a0834,2024-09-04 13:46:04,XC,Fix fitWindow not finding element id,False
+7b9d9c21ec689295f84385bf438b651ee4388129,2024-09-01 23:22:06,1ilit,"Merge pull request #234 from drawdb-io/share
+
+Implement file sharing using gists",True
+fcf2251e9bfef0a64bdcb477a937a49269cd266b,2024-09-01 23:07:00,1ilit,Handle incorrect links and corrupted files,False
+47ef0dfa82fe8c92ce47e64f903e673678d4e485,2024-09-01 22:24:35,1ilit,Merge branch 'main' into share,True
+877ec72e03defb8aabc1b7ab91e4561dfa0f0547,2024-09-01 22:10:48,1ilit,Disable sharing for templates,False
+6eddfd983f9a5d221cead1efdced6c7a1139966c,2024-09-01 22:06:20,1ilit,Remove github token modal,False
+85cf795fc968d8ced3267e7b503f035ef1a823a0,2024-09-01 21:54:09,1ilit,Prevent the diagram from getting overwritten when reloaded,False
+59a388f44c30dee801083301c145a936e53b3146,2024-09-01 21:23:03,1ilit,Fix wrong url being generated for shared diagrams,False
+9aec2f02d042848b58ae228cf407a1a650f80905,2024-09-01 20:45:58,1ilit,Prevent creating duplicates when loading from gist,False
+c6c24d02b99eed0490712248447beec2dbbc6920,2024-09-01 14:52:04,1ilit,Load diagram from gist,False
+ed7fd87f7a026851f878952f6d335664cbba16a0,2024-08-31 21:19:43,1ilit,Fix gists being controlled on button load,False
+c03202fef03991e9b12704e3894e76b6a0359e10,2024-08-31 13:39:46,1ilit,"Merge pull request #229 from LuigimonSoft/feature/LC-add-new-export-to-create-the-documentation
+
+Add export for database documentation",True
+cb6c8bcbfd7f5802752c66c80b73de9504461c2f,2024-08-31 09:14:37,Luis Carlos,fix the plus between documentationTypes and \n\n,False
+65a86ee4f59d33067ac5ef6651790422b6eba270,2024-08-30 12:39:50,1ilit,Remodel the copy link modal,False
+fcdb872502cbdd63249709e6de6225ecbd4161eb,2024-08-30 00:38:29,Luis Carlos,add if when the database has types,False
+c76d2ec37cfba41af26882d8ed5c28b272edce04,2024-08-30 00:34:02,Luis Carlos,add filter if the database has types,False
+3f24ceaf93aa928f1157a164ad584718ef738d1c,2024-08-29 21:23:10,1ilit,Copy share url,False
+7dcecf3c1fd6021e8305b6b8a880bc64c50dd2a2,2024-08-29 18:35:47,1ilit,Create and update gist on click,False
+8f185bc6956a949ed4fd235d8f05e4671c89a5f8,2024-08-28 16:46:39,1ilit,Fix mysql field name not getting exported (#233),False
+6e18b6a4f14a6b0eddbb81e6649c301cc7cf4ee4,2024-08-28 16:39:50,1ilit,Fix mysql field name not getting exported,False
+3dbc60636d90667bc4b81c830e1136e576547269,2024-08-28 09:48:43,Luis Carlos,"Add enums, types and Index",False
+488641ddccaebe72ab8955d1478a1c4f8290f48a,2024-08-28 01:09:14,1ilit,Add modal for github token,False
+75f930ba768c7f4d31505602cceece0206eb7760,2024-08-27 19:00:32,1ilit,Set up upload workflow,False
+ee3dea74cf4fa7358ef73071e1b41466391ec341,2024-08-27 12:38:30,1ilit,Add share to header,False
+11df4fabdf975c7170090449c98104418bc89433,2024-08-26 21:22:10,Luis Carlos,add translation text,False
+ee3a50912a35e9aaf15ad73e4735fb80dfae5b24,2024-08-26 21:18:58,Luis Carlos,fix the PR comments,False
+4aef6c6e253a9472c8ee99878c6ce15f00f7f083,2024-08-26 10:12:47,Luis Carlos,Add languages,False
+2bca034671e35a4e2e0368ddb6c03e5bab55ccda,2024-08-25 10:32:58,Luis Carlos,Add references in the table,False
+3cd0633c01b03efcc44eedfa9bd3c54da2c09721,2024-08-25 01:23:10,1ilit,Fix multiple foreign keys not being exported from generic to sqlite,False
+728a092ac6920b83a5312e4a3196002a8822d565,2024-08-24 18:54:22,1ilit,Fix multiple foreign keys not being exported in sqlite (#226),False
+1a1fa057cb74ce35db89a39f9c05954da941fef4,2024-08-24 16:34:03,1ilit,"Merge pull request #227 from i-m-soumya/development-115
+
+Add Bengali (বাংলা) Translation to drawDB",True
+bda52861403c2435e1ead001ce0c605dd9aedd18,2024-08-24 16:26:35,1ilit,"Merge pull request #225 from picimako/update-hungarian-translation
+
+Update 'set_precision' and add the missing 'unsigned' key",True
+f9e7810702966868672560882726affa96d12c09,2024-08-24 16:16:45,1ilit,Fix types and enums not being imported (#224),False
+f5925a174d7e914fda095be23790e95c8674c50e,2024-08-24 13:36:55,Soumya Ghosh,Adding bengali language for drawdb,False
+3aa9c6a0bcb27e73e5a181d0bcc2ab814245c04b,2024-08-24 09:57:47,Tamas Balog,Update 'set_precision' and add the missing 'unsigned' key,False
+f71f41d11cf3dcc373eb68d644e6e10c957f7f1e,2024-08-24 02:20:53,Luis Carlos,Add documentation menu and generate documentation markdown,False
+1ec8e1df74c0f418e7f5548b79752e77b25e9044,2024-08-23 20:35:38,1ilit,Move to node-sql-parser v5.3.1,False
+ff57dbc16d9b7ba5a3a03169be4f1b3630dd66c7,2024-08-23 19:57:59,1ilit,Use COMMENT keyword when exporting comments,False
+1139ad45f4a701f9d6266dd47eb1abb0620b49cb,2024-08-19 22:26:16,1ilit,"Merge pull request #222 from kavyakunder/fix/comment-import-issue
+
+Fix comment not getting imported issue",True
+28cfe3dace44c2b0e2ff8d00abeae1e249a5165f,2024-08-18 01:42:04,kavya_kunder,Fix comment not getting imported issue,False
+b5b87f4280ff73467689ebae5341d8dfd71d5106,2024-08-16 15:43:39,1ilit,"Merge pull request #221 from drawdb-io/dependabot/npm_and_yarn/axios-1.7.4
+
+Bump axios from 1.6.2 to 1.7.4",True
+93a0130d828b54119a325159127639b338a15944,2024-08-16 15:37:16,dependabot[bot],"Bump axios from 1.6.2 to 1.7.4
+
+Bumps [axios](https://github.com/axios/axios) from 1.6.2 to 1.7.4.
+- [Release notes](https://github.com/axios/axios/releases)
+- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)
+- [Commits](https://github.com/axios/axios/compare/v1.6.2...v1.7.4)
+
+---
+updated-dependencies:
+- dependency-name: axios
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+927d4e67077e5986ac0eafcf304da992f29eace7,2024-08-16 15:13:23,1ilit,"Merge pull request #220 from drawdb-io/dependabot/npm_and_yarn/braces-3.0.3
+
+Bump braces from 3.0.2 to 3.0.3",True
+cb1ecdc886bb33923f30fd6947003f1ff2ac8bce,2024-08-16 15:05:49,dependabot[bot],"Bump braces from 3.0.2 to 3.0.3
+
+Bumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.
+- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)
+
+---
+updated-dependencies:
+- dependency-name: braces
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+1f63aca387a49d0c6d85516ef8c2b5731be1f7b8,2024-08-16 14:57:27,1ilit,"Merge pull request #219 from drawdb-io/dependabot/npm_and_yarn/vite-5.4.1
+
+Bump vite from 5.1.1 to 5.4.1",True
+2ad65962d3b986996a253012f4914d7e1e57de36,2024-08-16 14:44:27,dependabot[bot],"Bump vite from 5.1.1 to 5.4.1
+
+Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 5.1.1 to 5.4.1.
+- [Release notes](https://github.com/vitejs/vite/releases)
+- [Changelog](https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md)
+- [Commits](https://github.com/vitejs/vite/commits/v5.4.1/packages/vite)
+
+---
+updated-dependencies:
+- dependency-name: vite
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+7b079b67a565a08ca8beb961650208b08639bd6d,2024-08-16 14:42:10,1ilit,Fix zoom shortcuts,False
+ab460f8773f8d6fed3c7aa4f4569d8d27356475f,2024-08-14 17:14:40,1ilit,"Merge pull request #218 from Pankaj2612/main
+
+Add Odia locale",True
+6e6324e452dde0e77515922b15393d517725222c,2024-08-14 15:40:01,Pankaj Kumar,"feat: Add Odia locale #115
+
+Added Odia Language to the App",False
+9b33591c93abf1ba231fe57d0db12a4ed16284d9,2024-08-13 15:29:00,1ilit,Increase default table width,False
+03647fb3f859b2ebcb059afd9f2f8805b4abe7c3,2024-08-13 15:19:35,1ilit,Add question mark to show if a field is nullable,False
+c44c0c5e4b5c40ed6776d319fdd1443e5fbe330c,2024-08-13 13:31:59,1ilit,Fix extra comma added after enum definitions,False
+e5de535dcd86ad180415e78e3464a7ad1e4ae4ad,2024-08-10 12:25:21,1ilit,Fix twitter link on landing page,False
+2f26d12f6ac5d1a7c91da327c4300e0325928b47,2024-08-08 01:30:19,1ilit,Make language modal wider,False
+7ad10599908f2787fbb487a6d2b6869e3de00ee5,2024-08-07 22:16:55,1ilit,Update landing page,False
+9ed89df9e33f07a2a691fdf9a2d85b239f9399df,2024-08-07 13:23:03,1ilit,"Merge pull request #211 from progh2/korean-translation
+
+Add 
+Add Korean translation",True
+0732b7e2e1cd94dbe9967bf559f70a6379bb01f2,2024-08-07 11:22:11,Gihun Ham,add korean translation files,False
+07d7766fa8e3153d258b187fe363b519e89d48db,2024-08-06 17:03:35,1ilit,Recognize many to one relationships on sql import,False
+d0b5f4c6c560974c7580a5a823c0e3e22be4bf0a,2024-08-06 02:15:02,1ilit,"Merge pull request #210 from davevad93/italian-translation
+
+Add Italian translation (Italiano-it)",True
+eee1b9925c56c70f01839a83b4fdd759ebc7d2e1,2024-08-05 21:00:40,davevad93,Add Italian translation (Italiano-it),False
+8572ef349a1fc08a1aab8c3d56eec13b4eec2c4d,2024-08-05 18:16:57,1ilit,Remove fa kit,False
+0b95ad2b8167fca3f7ad03017f736f96bb7cbc74,2024-08-05 15:19:12,1ilit,Fix undefined precision,False
+c8cdad353865de34f2de3f199621e5babb0b0e33,2024-08-05 14:52:11,1ilit,"Merge pull request #209 from tasnim0tantawi/rtl-fix
+
+Change UI to rtl for rtl languages",True
+94a076c9bcff32640a438d34d3e6c6a650eb7987,2024-08-05 14:01:11,tasnim,rtl-fix address issues,False
+048704f572bf613d09e97e533f07b9a768a067da,2024-08-05 12:45:37,Tasnim Tantawi,Merge branch 'drawdb-io:main' into rtl-fix,True
+2f1cca13d6a9e8dc232a53a894849271ba073c10,2024-08-04 19:32:29,1ilit,Support unsigned types (#177),False
+1df8e4d4e0e707f5263e2319ef2cbb23a3ffc414,2024-08-04 19:04:06,1ilit,Allow connecting serial and int field (#169),False
+d9654f3f573f7eee07cef1f6fd310498f5c56471,2024-08-04 18:32:54,1ilit,Add buy me a coffee to funding,False
+de0847b45b272bc241d06e90a616795df6862ffb,2024-08-04 17:59:35,Tasnim Tantawi,Merge branch 'drawdb-io:main' into rtl-fix,True
+5ec54e244531638632809fe6b93ffecf52b9a264,2024-08-04 17:57:31,tasnim,Display UI in RTL languages correctly,False
+318ed9a0ec55fe3c7e8b0fb3c29cb6b8adc4773a,2024-08-04 15:11:42,1ilit,"Merge pull request #206 from nktfh100/fix-multi-line-field-comments
+
+Fix multi line field comments in SQL export.",True
+763bf9f06f35f020082de2d320c7e2e87d04d064,2024-08-04 14:32:48,1ilit,"Merge pull request #207 from patelherat/main
+
+Add Gujarati locale #115",True
+51ec5aef3d1c40ff67049608a73a1f356cd54640,2024-08-04 08:56:42,Herat,Add Gujarati locale,False
+432df7f1dab9be193eb3a02138d06b78d0a56247,2024-08-03 16:52:56,nktfh100,Fix multi line field comments,False
+a62a6ba2953e584b484b3df0c4e78ce249abd793,2024-08-03 16:07:11,1ilit,Merge branch 'cleanup',True
+da555e470688dc220f24d24c2cd5805c2b327432,2024-08-03 16:06:48,1ilit,Rename 'import' to 'reverse engineer' on the landing page,False
+114dd663091eaf385f686dad6cab2ef43251c835,2024-08-03 15:57:18,1ilit,Rename inport sql modal title,False
+726a93108ccbcd3ccdb688b65a98e4603453abbf,2024-08-03 15:52:19,1ilit,Clean up export as,False
+8e430a3b17f6f06a229600eed713ab203357eb57,2024-08-02 22:46:16,1ilit,Update issue templates,False
+3ca07317d91829586df053c8b9127504742c68f4,2024-08-02 22:42:47,1ilit,Update issue templates,False
+52b447706529cbdfd8ab775d4a235346865a2759,2024-08-02 17:29:21,1ilit,Check for invalid references on import,False
+ed12e3b9f5e87ed202ab0c72d43d227367fd5770,2024-08-02 16:04:43,1ilit,"Merge pull request #200 from tasnim0tantawi/mermaid-feature
+
+Add export mermaid feature",True
+5565668988c91bca861b19504d43c25e30350380,2024-08-02 13:42:40,1ilit,"Merge pull request #204 from AbdurRahman2004/main
+
+Add Tamil language",True
+32cf7c6814153b4b3ed1f15ff30f25a26cf990b7,2024-08-02 12:36:55,1ilit,Fix import from sql when overwrite is off,False
+51247d4a719c4c614d104a72129d9025578124f7,2024-08-01 23:26:41,AbdurRahman2004,Add tn Tamil Language,False
+6f7b080e622d0c313e9104a412928de5bb36c77f,2024-08-01 16:14:22,1ilit,Show field size on the diagram,False
+844b24100ea940695e12193ec9f9d22cebe883af,2024-07-31 21:42:28,1ilit,Fix field type not updating when enum name is changed (#193 part2),False
+34d9045229953cc50a2c19bafbdbf2cdd21499fc,2024-07-31 18:19:28,1ilit,"Merge pull request #202 from picimako/hungarian-translation
+
+Add Hungarian translation",True
+57339d6fa7fb6928a179b63eee85da07e27993ef,2024-07-31 18:12:59,Tamas Balog,Add a missing comma in hu.js,False
+474238dd723d776438da900ebb3c7dbb9f924c07,2024-07-31 18:10:19,Tamas Balog,Fix eslint errors,False
+52248f10167e479a15c04f52db19efd3b0bf61a5,2024-07-31 17:20:06,1ilit,Fix field type not updating when Type name is changed (#193 part1),False
+f746d08e1e8af3968898cfdc1c2f7c099f4f7780,2024-07-31 16:51:26,Tamás Balog,Merge branch 'main' into hungarian-translation,True
+22503bd1eff651ded5cb44da927a1454518fce01,2024-07-31 16:40:44,Tamas Balog,Add Hungarian translation,False
+7dec05c0646cfca988b2b321c169eb0d33b862bd,2024-07-31 14:44:33,tasnim,Add export mermaid feature,False
+1a2ac7442434221a160ecee4ed1b66e0e981c631,2024-07-31 11:26:28,1ilit,"Merge pull request #191 from rakeshkumar1019/fix/adding_telugu_in_local
+
+Add Telugu",True
+5d9ce4a627c2ea36f264338d9cf67fa313117161,2024-07-31 11:09:27,1ilit,"Merge pull request #195 from picimako/fix-typos-in-engligh-translation
+
+Fix typos in the English (en.js) translation",True
+0ae635392bd9d02e6c5cb1f8d69616d731bac434,2024-07-31 07:39:14,rakeshkumar1019,feat: name in english,False
+c31cb982d167558740708152d9518a47187c13cb,2024-07-31 07:37:45,rakeshkumar1019,feat: add telugu to local,False
+39d2b2972d3ad72480bd9cd3854b5bd63800caaa,2024-07-31 00:29:04,Tamas Balog,Fix typos in the English (en.js) translation,False
+d5c2fb16cb59b315249e4191975e4fb7769c7a0a,2024-07-30 21:04:21,1ilit,"Merge pull request #194 from thxrhmn/main
+
+Add Indonesian locale",True
+f6989ec7a3bceacc2cdd72f55f6c7d0eecd04522,2024-07-30 19:12:08,thxrhmn,feat: Add indonesian locale,False
+06f7284ea884da4e1878ae22b255d8f17536c072,2024-07-29 22:37:15,1ilit,"Merge pull request #187 from PeterDaveHello/Fix-i18n
+
+Fix i18n",True
+5c6da21b6a683f3df292fc53f50bfc6d194f858d,2024-07-29 22:31:18,Peter Dave Hello,"Fix i18n, cc #178 #118 #115",False
+68af0723cf62586208b4461428f275ace782bd38,2024-07-29 15:21:07,1ilit,"Merge pull request #185 from beladevo/users/beladevo/add-hebrew-localization
+
+Add Hebrew localization",True
+cbc5858e1d9fdecbe20066737e0ae80a0da47dc5,2024-07-29 15:07:19,Omri,Minor fix of language name,False
+bfd4f766bd538b6c38c95db1408403bb2a03af10,2024-07-29 14:36:18,1ilit,"Merge pull request #186 from nowo/main
+
+Fix Simplified Chinese translation 'comment' Word",True
+4cd913ce0bbac22ca02f63647b530e919c5de402,2024-07-29 14:23:01,cooj,Fix Simplified Chinese translation 'comment' Word,False
+8a0328a501b8d09904943b2264cefc7827c0edf3,2024-07-29 13:56:49,Omri,Add Hebrew localization,False
+2516bb11d7644beb390166a304bb419093b9b0a0,2024-07-29 00:39:51,1ilit,"Merge pull request #178 from PeterDaveHello/Add-zh-tw-locale
+
+Add zh-tw Traditional Chinese translation",True
+795c268c92b6d4b89f3537836df93b24cf7eb5e4,2024-07-29 00:29:46,Peter Dave Hello,Add zh-tw Traditional Chinese translation,False
+61f5cd0cf21d6c0525131f865be1a13f78c396f7,2024-07-28 21:33:40,1ilit,"Merge pull request #171 from kartik1112/main
+
+Fix size not exporting to sql (#170)",True
+8655aa183c5ef5379c28ffcd9b83b8e67ff24b00,2024-07-28 21:00:19,Kartik Buttan,removed console logs,False
+e8f7da6c46c37d06240b2d432af315b06bda7042,2024-07-28 01:46:47,1ilit,"Merge pull request #176 from AymenStudios/patch-1
+
+Add Arabic translation",True
+fc94be3bf77304c88f7f23497488660899acb477,2024-07-28 01:30:03,Aymen Abdelouahab,Create ar.js,False
+fb873aec17ed803f50b0900840cd7119632f0813,2024-07-28 01:23:19,Aymen Abdelouahab,"Update i18n.js
+
+Create translation for Arabic",False
+3679f345b3aaef0ff1e923eecd7a763feca51690,2024-07-27 22:27:12,1ilit,Add Armenian translation,False
+7db4cc76a526ff88f1c6b73d1ca50a191173954a,2024-07-27 00:51:26,Kartik Buttan,Export with size bug fixed,False
+95366776e8f488331e208fa0cac275bf040614cc,2024-07-26 13:45:23,1ilit,"Merge pull request #165 from volkankoc/main
+
+Add Turkish Language",True
+653f4010d37e9d96f5046443418cec099cbaba87,2024-07-26 13:39:49,1ilit,Merge branch 'main' into main,True
+835c1dd41fe6bffb0a1182c5c057ff98ca82c2db,2024-07-26 01:59:07,volkankoc,correction made,False
+ab5b02355d2ec3b68566870cdbac28a07bcab180,2024-07-26 01:30:15,1ilit,"Merge pull request #166 from kartik1112/main
+
+Add French and Punjabi locales",True
+28fa40bfb82a2178c5e24944027e42b59ce0d4c3,2024-07-25 23:13:34,Kartik Buttan,Add Punjabi locale,False
+82b7949e68261c81559ead9bdd51d900a11724a6,2024-07-25 22:59:21,Kartik Buttan,Add French locale,False
+7005e0ca53ef2af7758cd2e5ebda995ee09e1d6c,2024-07-25 17:55:13,volkankoc,added Turkish Language,False
+faf1699022296afd1f96ede4af0560aa2fbd2a83,2024-07-25 06:20:22,1ilit,"Merge pull request #163 from Ameychopde/feat/adding_marathi_in_local
+
+Add marathi translation",True
+65960da99c635158825e3d758c4dd30b0e15163b,2024-07-25 05:56:46,1ilit,Update registry to ghcr,False
+5922fc6575d7e35c01923702f85670c2c3018155,2024-07-25 05:31:42,1ilit,Merge branch 'joao-zanutto-patch-1',True
+342b9db4359ba08ee8648f23e450fd2c286b82c1,2024-07-25 05:29:44,1ilit,"Rename secret
+
+Renamed GITHUB_TOKEN to GH_TOKEN because for some reason secret names starting with GITHUB are not allowed",False
+1044e4f797a968147eccecaad664285844d7728a,2024-07-25 05:24:29,1ilit,Merge branch 'patch-1' of https://github.com/joao-zanutto/drawdb into joao-zanutto-patch-1,True
+c9174deb88359e62936a1d170ec2327bc0ffb213,2024-07-25 00:56:45,Amey,add marathi to local,False
+805fc70c0b737c5494dbb72f66958fbb350d9350,2024-07-24 13:20:24,1ilit,"Merge pull request #162 from TheMohit2003/issueExternalLinks
+
+User routed to different tab for external links",True
+04c38b299297aa0d311cdcbf8bb1531cea5e95eb,2024-07-24 13:15:45,Mohit,rel attribute added to anchor tags,False
+f9efe663897c434921c2db315f5d9ca3ca1e108e,2024-07-24 10:41:37,Mohit,User routed to different tab for external links,False
+e18122aec07087e5ea61429970849fc3f01479b2,2024-07-23 22:17:49,1ilit,"Merge pull request #159 from eltociear/patch-1
+
+Fix typo in template 3",True
+20de37dc52dfe4a50d7e29ceb17448335277ad02,2024-07-23 21:27:29,Ikko Eltociear Ashimine,"chore: update template3.js
+
+recieved -> received",False
+85504f317c9817e650a91b1ef80c0c3036bf2ef7,2024-07-23 18:17:24,1ilit,"Merge pull request #157 from huyjs9/fix/update-title
+
+Fix update title on first page load",True
+16b2d30b8c0c411e0fcbbdb0aa02756d705a7da2,2024-07-22 22:23:11,1ilit,Fix message in timeline for panning,False
+faf4b157ff0cb18866b58473daf2a052e75cce9d,2024-07-22 11:53:24,1ilit,Fix moving tables not working in simple canvas,False
+d38713eaa01907dc180cd17c96b855665ba5b001,2024-07-21 19:30:32,1ilit,"Update LICENSE
+
+Update LICENSE to use AGPL instead of MIT",False
+4485bf73a797c6449f0f2253990688af99431187,2024-07-21 15:52:23,Huy Bui,fix: change approach to use key for reconciliation,False
+1bff574d56125e0c8e106681df41d2b07ce1d1b0,2024-07-21 15:28:47,Huy Bui,fix: update title on mounted,False
+90ee0962d3abe483dfd5c20dae38e2be7d5e3ba1,2024-07-20 13:11:35,1ilit,"Merge pull request #135 from vsn4ik/fullscreen-indicator
+
+Fullscreen native indicator",True
+9f66df90b1e1799137ed38e63e9d4d7d65fe52e6,2024-07-20 04:52:48,Vasilii A,fullscreen indicator,False
+9393f5c933330d12daa827d97d4fd642cb6293c7,2024-07-18 23:43:26,1ilit,"Merge pull request #156 from FelixZY/fzy/scroll-x/1
+
+feat: support horizontal scrolling",True
+8a736b5ef956173468e2ff45c20c6dfcb73e30eb,2024-07-18 23:17:47,Felix Zedén Yverås,"feat: support horizontal scrolling
+
+Certain input devices, such as laptop touchpads, support horizontal
+scrolling. This commit adds support for such horizontal scroll
+inputs.",False
+4d0983b3f7266b71cefa24b0824fd2e948877f51,2024-07-18 02:12:28,1ilit,"Merge pull request #148 from FelixZY/fzy/mobile/1
+
+Basic touchscreen support (#147) and rewrite of coordinate management",True
+5a56c3b35487c86f8ad99ac279e13485eeb58ae2,2024-07-18 01:52:52,Felix Zedén Yverås,"refactor: export `CanvasContextProvider` to follow established context pattern
+
+As noted [in the review](
+https://github.com/drawdb-io/drawdb/pull/148#discussion_r1681584836
+), I disagree with this pattern. However, I will follow it to get
+these features added.",False
+471d2ebdf0d64e45349195a330397081dc32aa12,2024-07-18 01:52:52,Felix Zedén Yverås,style: remove `//@ts-lint` which caused warning,False
+3659ba914345f17d5e7ed0e5465c3b10e64637cb,2024-07-18 01:52:52,Felix Zedén Yverås,"fix: release pointer capture when using `onPointerLeave` events
+
+Certain input sources (such as touch) are ""captured"" when they
+press an element. This means the pointer is always considered
+""inside"" the element by the browser, even when they visually are
+not. This caused some issues on mobile browsers where touch and
+stylus events could not connect table columns with each other.
+
+Just to be safe, I've added the required `releasePointerCapture`
+call everywhere `onPointerEnter` or `onPointerLeave` is used.",False
+47fce123d38b0d862fb1674c8e2625ec68a04e15,2024-07-18 01:52:52,Felix Zedén Yverås,"feat: support scroll wheel panning
+
+This is similar to tools like figma, where the scroll wheel pans
+the view and scroll is only done if the control key is pressed.
+
+New bindings:
+scroll wheel: pan y
+shift + scroll wheel: pan x
+ctrl + scroll wheel: zoom",False
+67851dad8fbe9c5ff9950b6098d9acfd7a9e317a,2024-07-18 01:52:52,Felix Zedén Yverås,fix: reduce jitter by disabling pointer events on line,False
+e4e22dee20b3f56f3ed1ceec891910debdee338b,2024-07-18 01:52:52,Felix Zedén Yverås,"fix: rewrite coordinate management
+
+After some initial smaller fixes, it turned out that I had broken
+the red line used when linking fields. Fixing this was not trivial
+as I found myself battling a lot of small bugs relating to scale
+and translation in the existing code. This was made extra difficult
+as a lot of coordinates were calculated when necessary in
+Canvas.jsx.
+
+This commit attempts to simplify the coordinate management in a few
+different ways:
+* There are now two distinct coordinate systems in use, typically
+  referred to as ""spaces"". Screen space and diagram space.
+* Diagram space is no longer measured in pixels (though the
+  dimension-less measure used instead still maps to pixels at 100%
+  zoom).
+* The canvas now exposes helper methods for transforming between
+  spaces.
+* Zoom and translation is now managed via the svg viewBox property.
+  * This makes moving items in diagram space much easier as the
+    coordinates remain constant regardless of zoom level.
+* The canvas now wraps the current mouse position in a context
+  object, making mouse movement much easier to work with.
+* The transform.pan property now refers to the center of the screen.
+
+A new feature in this commit is that scroll wheel zoom is now based
+on the current cursor location, making the diagram more convenient
+to move around in.
+
+I have tried to focus on Canvas.jsx and avoid changes that might be
+desctructive on existing save files. I also believe more refactors
+and abstractions could be introduced based on these changes to make
+the diagram even easier to work with. However, I deem that out of
+scope for now.",False
+32c82168fe134b122052661808e10a4e65c46e04,2024-07-14 19:06:54,Felix Zedén Yverås,"feat: add debug coordinate overlay
+
+Makes debugging issues in conversion from screen space
+to diagram space easier.
+
+Only adding english translations as I do not speak the
+other languages.",False
+354ea47529895d314b15790c2365eb3fda548914,2024-07-14 19:06:54,Felix Zedén Yverås,"fix: validate transform data before storage
+
+During testing I accidentally managed to submit `NaN` as a pan
+coordinate. This had the unfortunate side effect of bricking the
+editor.
+
+Given the serverity of an accidental `NaN` and that `NaN`s are not
+impossible considering the amount of math involved in mouse move
+operations, this commit introduces a simple validation step.
+
+The new validation step should additionally be able to unstuck
+anyone who have happened into this state by accident already.",False
+cdecf7c633d97649f63c0cbbc9546e3b2068b2d1,2024-07-14 19:06:54,Felix Zedén Yverås,"feat: add basic touchscreen support
+
+This is basically a migration from mouse events to
+[pointer events](
+  https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+).
+
+The `PointerEvent` interface inherits all of the `MouseEvent`
+properties, meaning that existing code can essentially be left
+as-is. The only major change is making sure we only respond to the
+""primary"" pointer.
+
+Known issues include:
+* stylus hover is not detected
+* touchscreens do not have a concept of hover, making it difficult
+  to e.g. resize areas
+* no touch gesture support, e.g. ""pinch-to-zoom""",False
+075a98d4447b8133c390efbeccb504f5e9144fb1,2024-07-14 19:06:54,Felix Zedén Yverås,fix: remove unused ref,False
+caae8e7385c264cc086edd1676ee2db9e10ca0bf,2024-07-14 19:06:54,Felix Zedén Yverås,"fix: improve support for browsers with collapsing url bars
+
+Some mobile browsers (e.g. chrome) uses collapsing url bars (the
+bar collapses when you scroll). In such cases, `100vh` typically
+refers to the full height of the viewport when the url bar is
+collapsed (see also `svh`, `lvh` and `dvh`, e.g. at
+<https://ishadeed.com/article/new-viewport-units/#the-small-large-and-dynamic-viewport-units>
+). This meant that on my tablet, the editor would extend below the
+visible page until I scrolled it into view.
+
+This commit re-uses a fix from some of my other projects
+(specifically
+<https://github.com/dansdata-se/api/blob/5c7e788d40006097a258be5dbfe456cb260fa25f/src/styles/globals.css#L14-L28>
+) where the root element is set to fill 100% height. This avoids
+dealing with viewport units altogether. On my tablet, this means
+that the url bar is visible and that the editor does not extend
+below the visible page.",False
+4a7d312e2aea8d34d863f39515829fe5d1c744e1,2024-07-14 02:15:53,lilit,"Merge pull request #153 from FelixZY/fzy/url/1
+
+fix: update remaining vercel urls to drawdb.app",True
+95e84705fb05eee235cb589d320249faffe442ac,2024-07-13 16:28:36,Felix Zedén Yverås,"fix: update remaining vercel urls to drawdb.app
+
+@1ilit started making similar changes in 4cc0811.
+
+This commit performs a full search and replace for
+`drawdb.vercel.app` to `drawdb.app`, fixing remaining ""bad"" urls.",False
+a459f36f584c026f55a26383d867675a45a111b3,2024-07-10 23:53:30,1ilit,Fix increment being deleted when type is updated,False
+84abae7d06fbba0195b9995003613257feb93af8,2024-07-08 14:24:04,1ilit,Save database type and enums for templates,False
+6fee6553f180f93e78d56a6e3059190ba9c07bf6,2024-07-08 06:52:44,1ilit,Remove unnecessary commas in export index statements,False
+159dcca4dcb84a88ad23425238970dfdfd65420c,2024-07-08 06:33:41,1ilit,Fix import diagram,False
+09f9117b72a7c7f6ce06f01df9398ff4fafa3356,2024-07-08 06:09:01,1ilit,Remove unused console.logs,False
+f682abdafeae54c3abe72c1a6de9d0c88b80f50f,2024-07-08 06:04:01,1ilit,Fix import index for postgres,False
+52455a75d0a32ff71668a992327e6e28b23abf2b,2024-07-08 05:51:43,1ilit,Make databases a proxy,False
+c84990ca6d9bfe8de2011934d6133fe19d6f20da,2024-07-08 04:48:12,1ilit,Fix loading the diagram on open to load in types and enums,False
+c907cfea47458e4c2518e553f79ceb46ab50d7b1,2024-07-08 04:39:51,1ilit,Add database icon to diagrams,False
+7c7177c4027421aee16dd0c8f6b187b6a8fabe84,2024-07-08 04:28:16,1ilit,Update landing page,False
+4cc0811bc1782d5bdef5e28577feb867342ae000,2024-07-08 04:21:46,1ilit,Update README to have twitter link and new url,False
+aecc5a134e056c0b7c2c13ee8cfa1b51f5303759,2024-07-08 04:12:48,1ilit,Fix choose database not showing on first ever diagram,False
+322bb6e9888dee71c7f01ae13dba7f439ef13261,2024-07-07 20:27:33,1ilit,"Merge branch 'main' into select-db
+
+# Conflicts:
+#	src/i18n/locales/en.js
+#	src/utils/exportSQL/generic.js",True
+d5568c42bffc92ddccb026a7a416ed187b27609a,2024-07-07 19:51:54,1ilit,Fix scrollbar height and corner,False
+9e2bb48fb87ffd0db870da151dcf3e2a2575c848,2024-07-07 19:25:04,1ilit,Fix quotes on columns in checks,False
+897c125e3b1e30612a950896d2001722261fa50a,2024-07-07 00:15:51,1ilit,Import from mssql,False
+982cac1d3a95101e66da08cbd8e85bda8296ae80,2024-07-06 18:42:09,1ilit,Remove types from mssql,False
+a3976bf250141595cf73f468e04b7daa5999051f,2024-07-06 17:22:42,1ilit,Export mssql,False
+1580641e972523b7b6234280644c9cfde8876582,2024-07-06 00:59:42,1ilit,Delete types and enums on clear,False
+c0050200488312a70f62d29c92a0b62e5cdaf056,2024-07-06 00:58:44,1ilit,Add option to declare an array,False
+9b606114dfa453f7f4cb3f1f73f406f8bf6b7bb4,2024-07-05 01:48:20,1ilit,Rename TablesContext to DiagramContext,False
+3b1af3772e860474b8b8b948474bfb5c560862d3,2024-07-05 01:36:09,1ilit,Add empty enums illustration,False
+a7fd4ec416f91db64798b742b5704acc6f90cf9e,2024-07-04 23:27:06,1ilit,Fix select db modal opening after close,False
+d00c21b2e35d850eb9d06bc393b498a4f7fb0f85,2024-07-04 22:12:11,1ilit,Add MSSQL types,False
+d7025e1ff1896adca5fd2c678a075bfb729659b1,2024-07-04 04:40:24,1ilit,Add error checking for enums,False
+d48ccfff4b6c1c5bde4f5509f8053ab7232364d7,2024-07-04 00:24:46,1ilit,Add enums to select types,False
+7c1eecd7a0a420146de83c82bb30182f33953c73,2024-07-03 23:51:44,1ilit,Undo and redo enum editing,False
+1430db881c5c950cb93629afa8e93acead1aca28,2024-07-03 15:55:24,1ilit,Export and import enums in diagrams,False
+219a5a877bf7e8374f7f9874675e5512a9ad66d6,2024-07-03 05:57:36,1ilit,Fix UNIQUE not added in postgres,False
+61d97e8143c28550abd348630450f208f7959246,2024-07-03 05:38:53,1ilit,Import implicit foreign keys,False
+c1f651cb545b4f20af75c5e5eb4d20bce953f189,2024-07-03 03:03:23,1ilit,Clean up postgres export,False
+3c1e72fbdd86548657748cc6e0ad1e3183480502,2024-07-03 01:56:45,1ilit,Export enums to sql,False
+55295a67900b7131b5d9436b742ffcda7a523a91,2024-07-02 15:48:38,1ilit,Add FUNDING.yml,False
+dd2aafe80b8cdd55328e9d518e05bf3b715a651f,2024-06-30 18:08:25,1ilit,Import enums from source,False
+5b18b02946732cade528429085be17ef1d0b9364,2024-06-30 16:06:57,1ilit,Fix db names on open modal,False
+85ccb19d8fcffa10ceb461d134b3e6559fadaad2,2024-06-30 15:52:34,1ilit,Show info icon only for generic diagrams,False
+810afe4bc083e3c45c91ee4366d19cefab4b0253,2024-06-30 15:49:21,1ilit,Add enums tab,False
+9acc619d479dc7324f77a433099b87ecb6d25634,2024-06-27 14:25:48,lilit,"Merge pull request #137 from huyjs9/feat/search-nested-fields-tables
+
+Search nested fields in tables",True
+259835892a135f7b592bd809d6811759d7c57f69,2024-06-27 14:04:21,1ilit,Fix add field for types to work with dbToTypes,False
+d79b0c205d6007144484c59cdaf3e191417fb75d,2024-06-27 13:42:09,1ilit,Return types after import,False
+9e2684e7a9447cdee869489443b2366cb8841d24,2024-06-25 04:37:57,1ilit,Swap INTEGER for INT in generic diagrams to maintain backward compatibility,False
+d8128f50103e62f0f934091eec4e613a34638c6f,2024-06-22 06:43:44,1ilit,Import from postgres,False
+0899b2c453f7f3e5905d88c586a1503dd38b78ea,2024-06-19 21:52:07,1ilit,Fix extra comma being added after index on export (#141),False
+c43adae5612de0f046dc0a1bc9e60ef0d7b3142b,2024-06-19 07:01:36,lilit,"Merge pull request #139 from huyjs9/feat/table-info-color
+
+Add color for table info",True
+c90b33cd74aed277da6add838dbb024e2ff72b5d,2024-06-17 17:45:00,lilit,"Merge pull request #138 from huyjs9/fix/add-area
+
+fix: add area on side panel",True
+e5a09042b37c481c30f42417e0bf4c1446b4ad4b,2024-06-17 11:12:10,Huy Bui,fix: add area on side panel,False
+d925d166158d86fbc34ef144b252235969056c62,2024-06-17 11:09:41,Huy Bui,feat: add color for table info,False
+1fb947cf2a652eafc5af011d658311f88592fa61,2024-06-17 01:28:30,lilit,"Merge pull request #136 from huyjs9/fix/todo-details
+
+Fix todo details value",True
+960d8feec35007053b51a52533f2d273a9fc9cc5,2024-06-16 23:13:43,Huy Bui,feat: search nested fields in tables,False
+43e4744afadd380d6780a6ce0c0661a1e01fdfa9,2024-06-16 21:12:44,Huy Bui,fix: todo details value,False
+a4fe117c80a9cd72724718489e6e2c2fb68e0bd6,2024-06-16 07:38:28,1ilit,Move export sql above export as in menubar,False
+9ddc4316ea021840591d5a54c18974a3e2f83076,2024-06-16 07:36:16,1ilit,Export mysql for mysql diagrams,False
+3f6dfe643796026c29e1f484cf2a6733b520d739,2024-06-16 07:24:03,1ilit,Import and export to mariadb in mariadb diagrams,False
+8441d3db73b48876a5dacb333d54a82681902a58,2024-06-16 04:24:20,1ilit,Accept 0 or 1 for bool values,False
+4ba0e5af8bd5a3ff9c775bc82dcc7d8ad5fe1edc,2024-06-16 04:19:26,1ilit,Fix checkDefault,False
+490cb738de86049b27865d5e05fa0d7fc3c038c1,2024-06-16 04:08:22,1ilit,Convert unsupported types in generic diagrams on import,False
+0a108fc33af4fe62430eeefe9a604072a0db8f37,2024-06-16 02:53:48,1ilit,Import from mysql,False
+1d1dde27e73565e1993ec5cf5e8162da318b88d0,2024-06-16 01:16:19,1ilit,Crop long types,False
+77d1a9ea41d475406d1a4cee4a24979cb2a66b9a,2024-06-15 23:07:39,1ilit,Fill in datatypes for mysql,False
+bff10e6fe9aba1c2c2f50dc8172c9d54496e7c4f,2024-06-15 07:11:06,1ilit,Remove unnecessary fields in datatype,False
+7953b7fdc00eb14bb3bd44dadcffbc765c5dbf9d,2024-06-15 02:02:58,1ilit,Add hasDefault and canIncrement to types,False
+e61757f93d45c30234ae56fde2fb750b436bd3f1,2024-06-14 03:30:47,1ilit,Import SQLite source,False
+c0584f11c6bd6e5633ea8d3e8f8f6de8a577dae3,2024-06-11 10:00:30,1ilit,Show database type on open,False
+6c1ff1518f3b19d3b54ac37d333ab98e20879884,2024-06-11 01:27:21,1ilit,Set up multiple imports for generic diagrams,False
+7716980be47c4b210de153a01e1939935829807d,2024-06-10 20:57:38,lilit,Fix title on json export,False
+73dff50f14af2c4bf8430d7112670dd3d13f73f3,2024-06-10 17:53:57,1ilit,Export sqlite,False
+9c31e2be5245eddc971b97dc8e4b5b95d9cbd974,2024-06-10 04:47:43,1ilit,Move all type data to datatypes.js,False
+0908d040e05474eab7bf6a0aa5f121cac4933f01,2024-06-09 22:48:12,1ilit,Load database type on open,False
+b13d576c5ed041021a6068999c08aa235f7593b4,2024-06-09 20:40:51,1ilit,Require selecting a db on new diagrams,False
+77bdb77a9ed1f74197416547ef15bb56776b00d3,2024-06-07 16:48:05,1ilit,Enable editing index names,False
+be6ecb066c3e27002a4909c41ee6de275d9ef434,2024-06-06 22:54:05,1ilit,Load types for selected db,False
+1283f66a868e5bd33f9685e996c9a3c85a222f61,2024-06-01 23:53:48,1ilit,Fix hyphenated languages not having a border when selected,False
+23d0f13a59faed9d21481a17aba330bc862d3ffb,2024-06-01 23:52:48,1ilit,Fix table name not showing in default error,False
+5020509626b4669313814c77019ec45816ae8b46,2024-06-01 23:23:07,1ilit,Expose host directly in compose,False
+e99f5a1692dc6c6d9be9564d310bd0e00680a873,2024-06-01 23:07:28,lilit,"Merge pull request #119 from JeanFranz73/main
+
+feat: add Docker Compose",True
+44d5f7be20cf227984ccbc4f1c140d4e506feacb,2024-05-31 22:48:40,1ilit,Fix recovering relationships after delete operations (#84),True
+3988b8d990a5125f1be532212e8d4289a899f2e7,2024-05-31 22:47:21,1ilit,Recover relationships after undoing table delete,False
+679f6b05e5e1016a844349f40ab1d10e88c1134a,2024-05-31 21:49:58,1ilit,Recover relationships after undoing 'field_delete',False
+9c820664dc773ebbdfe319eb183dab5895a65626,2024-05-31 19:48:03,1ilit,Fix label for cannot connect toast,False
+1768c39d435441f67c550721404c4be0a8e18d44,2024-05-31 02:44:37,1ilit,Move links to navbar,False
+5e2acf91b765e410fbe8dd9ecdf36d9ba606b315,2024-05-29 15:08:31,lilit,"Merge pull request #129 from makarbass/main
+
+feat: Add Russian locale",True
+0b26f030fe8b8906385bcc438fd41dbcdeac6a23,2024-05-29 14:50:52,Artem Makarov,feat: Add Russian locale,False
+b7b3cd80803ee3a40982bbbeb19dfd9267b0bc14,2024-05-29 04:35:01,lilit,"Merge pull request #128 from Fenix328/main
+
+feat: Add Ukrainian locale",True
+5b3364c1d8b440dfd19b2eb77fc43a4612d59919,2024-05-28 18:48:11,Oleksandr Korotash,feat: Add Ukrainian locale,False
+6774a8f1e13d1ffcd4f10a9a1aa3e599408795b5,2024-05-26 01:50:51,1ilit,Fix parsing default function names,False
+c99f58d8ddd93469d8e969df64a04ae0b4e593e6,2024-05-24 09:11:30,lilit,"Merge pull request #125 from aniketjadhav16/main
+
+feat: Add hindi locale #115",True
+3c35c0488d49d7091d71e5933fa287cea9347f0d,2024-05-24 01:52:40,aniketjadhav16,feat: Add hindi locale,False
+09fe552f0318bb044e813d9bdf5651ee43040095,2024-05-22 17:47:07,1ilit,Create .dockerignore,False
+f353b092f97f52a0b7f7107a70ac828b7ac84ca0,2024-05-22 17:29:41,1ilit,Create CONTRIBUTING.md,False
+bf744630c072d749391bf3c4f04f87a41a86ef85,2024-05-21 07:38:47,lilit,"Merge pull request #123 from AyshaHakeem/main
+
+Update en.js To Fix Spelling",True
+573918eaa0ced3fa921ae5dd7bc5d9bd3fc65935,2024-05-21 07:36:54,lilit,"Merge pull request #122 from atiehamidi/main
+
+feat: Add persian locale #115",True
+5cac5d140a342e6ea51239697a15898018335f85,2024-05-21 05:17:15,Aysha,"Update en.js To Fix Spelling
+
+Fix spelling error in editor's navbar submenu Item: 'Ask us on Github'",False
+b6d141d2c22ccde92051580cf0e874eca58d1ed2,2024-05-20 17:43:14,Jean Franz,Merge branch 'drawdb-io:main' into main,True
+4aa179c86d281f41894059913928cf2ae8842065,2024-05-19 21:02:14,Atieh,feat: Add persian locale,False
+768c540c844a48c5707ebc898c62c14907356ec7,2024-05-19 12:19:30,lilit,"Merge pull request #121 from phamhieu275/fix/load_name_lastest_diagram
+
+Load name of latest modified diagram",True
+e30a84398f57a119a7a0de58244b8e422db36566,2024-05-19 08:47:01,pvhieu,Fix: load name of lastest modified diagram,False
+4c64bc3e9cdde5ecfe51ee120709457c4f7ddac4,2024-05-18 09:55:22,Jean Franz,add compose.yml,False
+f2628805d117f8c0b736ff0eb7b9ce4855e18571,2024-05-18 07:10:31,lilit,"Merge pull request #118 from JeanFranz73/main
+
+Add portguese locale",True
+6865a44e724e4864a2e78835179fedd57dc1ca3a,2024-05-18 01:52:19,Jean Franz,fix: edit type field locale,False
+d336b63956e0bc851c69264af4b55b707b634f89,2024-05-18 01:45:18,Jean Franz,feat. add Portguese locale,False
+148b45be4db195bd9fe5b21a219c4ee5566c48e0,2024-05-17 21:37:21,lilit,"Merge pull request #117 from SoraXV/feat/add_locale_german
+
+Add german locale",True
+d3170b19662b68e479bd2d05d228605c52f888b4,2024-05-17 21:33:42,lilit,Merge branch 'main' into feat/add_locale_german,True
+f3621194d9242b8685a6a4166f0b3efb79ee1058,2024-05-17 21:22:34,SoraXV,Added german localization regarding issue #115,False
+42fe2402e90990d61a035f43e5f73ea366f03886,2024-05-17 21:17:08,lilit,"Merge pull request #116 from phamhieu275/feat/add_locale_vi
+
+Add vietnamese locale",True
+91c4528b16492a630f487f174fd1c9e508a1274b,2024-05-17 16:32:22,Pham Hieu,feat: Add vietnamese locale,False
+002e240b7ea3424b98dd86bdde419f16f35905e1,2024-05-17 06:30:43,lilit,"Merge pull request #110 from drawdb-io/i18n
+
+Configure i18n and add simplified Chinese (#99)",True
+4e93212cf9bd263053695af6a8782f5cb5337d5b,2024-05-17 06:19:18,1ilit,Sort languages alphabetically,False
+cd050a59f9a3d231ca14ce383a7daf9a765d1cd7,2024-05-17 06:15:42,1ilit,Fix styling for overflowing elements,False
+6c6d3265449e918a5868ed23ea132194d9ee2fcc,2024-05-17 05:28:28,lilit,"Merge pull request #114 from DNLRQ/i18n
+
+Spanish translation added",True
+2b5312eac90541ebcd4f8ea5f630c82a17964524,2024-05-17 05:27:59,lilit,Merge branch 'i18n' into i18n,True
+3ded8fb37f667cbb5fed09e6d7994392b813b643,2024-05-17 05:24:56,lilit,"Merge pull request #111 from LovelessCodes/patch-1
+
+Add danish translation",True
+cb3a41361e18e1368445fc50776e0165640f1cb7,2024-05-17 05:22:55,1ilit,Fix Simplified Chinese translation,False
+39c88ac277ba8b3bb11a2b59b0234c3c2be1208b,2024-05-16 21:40:15,DNLRQ,Spanish added,False
+466c9ed1a24c38c6224de0a090c84e60bdd0fdd8,2024-05-16 13:14:07,LovelessCodes,changed: updated i18n.js to include danish translation,False
+6edc2c7ce32e0f352413f8654e2262777b057fbc,2024-05-16 13:10:54,LovelessCodes,feat: Danish translation file to locales,False
+0366bb8ea9590dea4f255ab4c3594405d858069f,2024-05-16 09:53:53,lilit,"Merge pull request #108 from harris2012/patch-1
+
+fix NoteInfo.jsx for undo",True
+03716068299fa3f3aade055ebd210ebfe2582a98,2024-05-16 09:31:55,lilit,Merge branch 'main' into i18n,True
+2b4b01c358b2bd00b02b41995978b2a9b4ef2881,2024-05-16 09:15:47,1ilit,Configure i18n and add simplified chinese (#99),False
+fb17307a79d131c97739574117bc53a43cf00e4f,2024-05-15 15:10:51,Harris Zhang,fix NoteInfo.jsx for undo,False
+30886ac48f4663c65724848e746644879369f454,2024-05-14 09:53:56,lilit,"Merge pull request #105 from l123wx/place-optional-argument-at-the-end
+
+place optional parameters of functions at the end(#104)",True
+a33b68bfd0211b42496eb035e78fbf9d8cabd714,2024-05-14 08:52:13,liao文禧,place optional parameters of functions at the end(#104),False
+9de091c990d92c1792b0cabe7fd7ff039d024c06,2024-05-13 08:51:40,lilit,"Merge pull request #102 from l123wx/collapse_child_re_rendering
+
+Optimize the rendering logic for the Collapse and Tabs child components(#101)",True
+2695e5b8a2ebf54ef6fc34ed29ff0c3debe908f2,2024-05-13 08:44:51,liao文禧,Optimize the rendering logic for the Collapse and Tabs child components(#101),False
+792c760eec79cdfe54467ddc043f1f42b5d61225,2024-05-13 01:27:40,lilit,"Merge pull request #65 from MagMongoing/main
+
+Include comment statements when exporting MySQL SQL script",True
+0d39919889f548916d58bf412b066a136dad59f8,2024-05-11 01:16:18,lilit,"Merge pull request #94 from l123wx/auto-swap-for-foreign-key-name
+
+Auto swap for foreign key name (#79)",True
+9e489d602b817f2c8dfe3ea176466b7146e2a19f,2024-05-08 09:16:50,liao文禧,Auto swap for foreign key name (#79),False
+36900bc6f9425936fc7d2bfce13fca98b76d5870,2024-05-08 07:07:09,lilit,"Merge pull request #67 from drawdb-io/dependabot/npm_and_yarn/follow-redirects-1.15.6
+
+Bump follow-redirects from 1.15.5 to 1.15.6",True
+794e0c886837f5e3bc7acde2191e109d3ea4c5f2,2024-05-08 06:35:40,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb,True
+fc904fb7404c67b508dda45bf92d787075684fda,2024-05-08 06:33:04,1ilit,Edit relationship on double click (#68),False
+b9215bcf3f1a0f0a2b3da6a37e39db9ba3e4b6cb,2024-05-04 23:40:16,lilit,"Merge pull request #77 from l123wx/enum-values-on-mobile
+
+Fix enum values were not split on blur",True
+d0572ee55aeaebc1881fcb722fa85833b84867a9,2024-05-02 20:26:26,lilit,"Merge pull request #61 from HaecheonLee/enh/update-opacity-when-an-item-is-being-dragged-over
+
+Update opacity style when an item is being hover after another item is dragged over",True
+8fdb5790c2dd3c7ddabda48e61dd33a5fe13c3d6,2024-05-02 19:37:23,1ilit,Merge branch 'enh/refresh-search-list-result-after-modification',True
+f827145a273a819d604b305630bbfab7c4febd53,2024-05-02 19:14:20,1ilit,Remove unused import,False
+62e431859294bb9154c349639b66bb4ef70a39ea,2024-05-02 18:53:18,1ilit,Fix opening type and table at the same time,False
+4424173a102e0adbe23076f79deeaf7755fa9dc5,2024-05-02 18:23:02,lilit,"Merge pull request #52 from HaecheonLee/enh/open-note-when-note-title-is-clicked-in-search-in-note-tab
+
+Open note when a note's title is clicked in search in note tab",True
+3b0d03ed3b01ca2998cce4808b9fd66c5b7da7c2,2024-04-30 07:18:40,liao文禧,"Fix enum values were not split on blur
+
+close #73",False
+d05ba8de653df9c04da6eafd2a07198a5f72e7aa,2024-04-25 09:04:55,mag,"Merge pull request #1 from drawdb-io/main
+
+merge from drawdb",True
+1b9dc9dc1dbbc6119ef597607c1706b8ee0dfa92,2024-04-24 21:21:22,dependabot[bot],"Bump follow-redirects from 1.15.5 to 1.15.6
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.5 to 1.15.6.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.5...v1.15.6)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+4cfd91d75bc8f5a1e637143e85ddf2a76f227a12,2024-04-24 21:15:50,1ilit,Merge branch 'fix-import-from-source',True
+3c7c0eafde70176e61817f853f92f6ef7ce9f03c,2024-04-24 21:15:30,1ilit,Change not null button title from nullable to not null (#66),False
+22331080d888a86d4c2288939ecf5ed2082568d8,2024-04-24 21:07:50,1ilit,Accept null values for nullable fields,False
+a2c5b8156f7b5db195fad9e1722baed618fd1f17,2024-04-24 20:58:28,1ilit,Remove nested parentheses for checks,False
+a88bc9799f9bb51847eacf5de1ab550d811a5ecf,2024-04-24 20:47:41,1ilit,Parse nested check statements,False
+aaaca8675fa1621c8f6ad9402b060d7e90e495c0,2024-04-24 19:17:26,1ilit,Remove double precision warning,False
+aad146949600068dd16a31f0e8689e79078a5536,2024-04-24 17:39:38,1ilit,Handle null as default,False
+583138949bc567a70a5a51804f5b893035baf428,2024-04-24 14:49:36,1ilit,Remove quotes for defaults that are keywords,False
+2751a6d6df124a9c3e973c2196d0eeefadef1bcf,2024-04-24 14:19:00,1ilit,Take in functions as defaults,False
+3bf5eadc7030f512a5f3029fe8bd1ec9043233ec,2024-04-24 12:43:46,MagMongoing,Include comment statements when exporting MySQL SQL script,False
+ca8ee61ee96fbe5aa2bac465ab5c41fcbb3b6560,2024-04-24 01:18:27,1ilit,Fix parsing alter statements,False
+11e83bb12bdcb6d5cb3c7f9e93a7235084be5048,2024-04-23 00:13:51,1ilit,Arrange tables in import from source (#28),False
+4a879354122d4540c7121a54c9f1c30516fb99e0,2024-04-22 15:35:46,1ilit,Fix field precision and size input and parsing,False
+f87df3f9d524182fe0f54976ac7a344bc633db9b,2024-04-22 11:04:35,haecheonlee,Remove unused import,False
+f30efef74740823fa0785e39c2f998233370715b,2024-04-22 10:57:45,haecheonlee,Update opacity style when an item is being dragged over,False
+3a580149be258c8b32d268e4647a80faca9b3c88,2024-04-21 12:10:56,1ilit,Update relationships when fields get reordered,False
+b9a8cdee8b97fe21c451df0a455cb321878acee9,2024-04-21 12:10:01,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb,True
+7436b6037d5e6470dc65739f158325bd105c4db4,2024-04-21 11:05:01,lilit,"Merge pull request #54 from HaecheonLee/fea/make-table-fields-draggable-and-order
+
+Make table fields draggable and order",True
+b0c271753adc19024d746a2c1035cf938ceeb78a,2024-04-21 10:54:36,1ilit,Merge commit 'refs/pull/54/head' of https://github.com/drawdb-io/drawdb,True
+898d81d6e90c7ac8579e01bffb731cc5042e3a76,2024-04-20 20:46:41,1ilit,Display sql error location and message on import,False
+e8ea47fd3f61f9d7aaf0071f622a45780d42316f,2024-04-20 17:53:29,1ilit,Accept `CURRENT_TIMESTAMP` for datetime,False
+22f7012c472f043f8ed255a353067f80daaa3f95,2024-04-20 17:34:55,1ilit,Validate default values for set data type,False
+c51bf5815fc547f0667652ae3c2c64a037dfdc1b,2024-04-20 17:10:49,1ilit,Accept empty precision input fields,False
+2f837d625bdd446273c71bbb0ea1d8fcf1ff64e6,2024-04-20 16:59:20,1ilit,Make boolean defaults case insensitive,False
+124af2735fab305ef4a0f15d985089b49d506f94,2024-04-20 16:44:46,1ilit,Fix `field.size` parsing,False
+bce0aeac4837ad9e3a2755c734a9f961674e5dce,2024-04-20 16:29:05,1ilit,Handle enum and set value parsing,False
+1beed53cb640c831ec6d772cf0cbef0f5dfa9fdd,2024-04-20 14:10:28,1ilit,Handle default function parsing,False
+f57ff74cabbeaac9ac767ff2987edd0577d66861,2024-04-19 20:03:20,1ilit,Merge branch 'switch-to-codemirror',True
+05beabb3829dc24a850739a1dd4d6166e661664c,2024-04-19 20:02:44,1ilit,Fix alt in Readme,False
+3656d600994bf90cc58303737ee358ab5a09434b,2024-04-19 19:58:32,1ilit,Switch to codemirror,False
+82c00bcdc470b16f59ce4f014952096c5b6dd305,2024-04-18 18:33:40,Joao Zanutto,"Update .github/workflows/docker.yml
+
+Co-authored-by: Timon Klinkert <83671398+DenuxPlays@users.noreply.github.com>",False
+cd712c37399a5f2c9be1c566c8a404f837762e1f,2024-04-18 09:18:05,joao-zanutto,add multiplatform support,False
+da273ee5ecb57f0615686d7d00c352b75419c783,2024-04-18 09:17:24,joao-zanutto,add concurrency configuration,False
+0347dbf4a2d38466d711d3496615ee2ade4de98b,2024-04-17 08:02:08,haecheonlee,Remove console,False
+8f659eb975f46f70a0d99502ed85c0c2c54d8e2b,2024-04-17 08:00:47,haecheonlee,Set isDragging to false when dragging ends,False
+aed1882165278ee34a7d636be662b345cc095893,2024-04-17 06:39:23,haecheonlee,Make table fields draggable and order,False
+7f9b760b58a876720c4d92050c58529ad6ab4a6d,2024-04-16 12:22:21,haecheonlee,Refresh search list after modification,False
+d545d141be44fd58fd35f00fea40785cb2ce845f,2024-04-16 04:39:44,haecheonlee,Open note when ote title is clicked in search in note tab,False
+578fa6e85d2a304bf73f8b328a35a6d4deb3d1d2,2024-04-16 02:59:56,joao-zanutto,adjust docker login credentials to target github container registry,False
+37d07dd37904b82faeb29489b5a1fa100fc8e480,2024-04-16 02:59:05,joao-zanutto,adjust image tags,False
+82396c8d386c5c81e5f5ae8476ccdbf6b1577b07,2024-04-16 02:58:50,joao-zanutto,adjust docker login tag,False
+213497642ded8ce7c36dc775a2f9e8806212f3b4,2024-04-16 02:58:20,joao-zanutto,adjust trigger,False
+0c8bbdfd663b855bba20bb3e04f39733f10b2c91,2024-04-15 22:35:25,Joao Zanutto,add docker build and push to container registry,False
+38534551fca76771335885b5a73a6dec9eb6d788,2024-04-15 11:16:20,1ilit,"Merge pull request #50 from HaecheonLee/bug/fix-to-show-the-state-of-field-summary-in-setting
+
+Fix to show the state of field summary in setting",True
+a193bf6a48f8581361c3a1b946acca73be6f91c0,2024-04-15 10:51:41,haecheonlee,Fix to show the state of field summary in setting,False
+89ccd61213c3fcec801bc7d36cd0b8cb4c0c0b29,2024-04-15 07:49:45,1ilit,"Merge pull request #49 from HaecheonLee/enh/open-note-in-tab-after-clicking-button
+
+Open note in tab after clicking edit button",True
+d95b0852766d2119359c64af915b92e6ef66c31b,2024-04-15 06:59:38,1ilit,"Merge pull request #48 from imhalid/main
+
+fix table color selector design and refactor code",True
+157888ff46b9364f261dd5f0b95564b7ea73e5b2,2024-04-15 03:03:15,haecheonlee,Remove unused import,False
+c0437b543345cee96a124efc5b9936f828789509,2024-04-15 02:58:18,haecheonlee,Open note in tab after clicking edit button,False
+173522edc3e078df147d0f459c1affde58fcecf4,2024-04-14 15:31:32,Halid,fix table color selector design and refactor code,False
+9efee285c8edb89df59f7b8e07bb36c031e816c6,2024-04-14 12:58:08,1ilit,Fix subject area title overflow,False
+e3f3f9d5bd065f0e108221a08a8ca58370524168,2024-04-14 12:56:31,1ilit,Fix note title overflow,False
+598f41fed2ef248e83d463c4358439129cbd131f,2024-04-14 12:53:02,1ilit,Remove inline styling,False
+025479e52d3b0ef71827a548eae49bfa1c4387fa,2024-04-14 12:50:14,1ilit,Fix dockerfile comments,False
+626e87ad342879e047921b483e285454cf279beb,2024-04-14 12:48:45,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb,True
+e959d0e89f23c21c5ae311b4341f77bc9a822dda,2024-04-14 12:46:30,1ilit,"Merge pull request #47 from HaecheonLee/bug/fix-rendering-area-in-safari
+
+Fix rendering area in safari",True
+f4f55faf2be24f129cf34eec315241ae269fcc12,2024-04-14 12:43:23,1ilit,Merge commit 'refs/pull/47/head' of https://github.com/drawdb-io/drawdb,True
+e06f0d45e98916195af8aa779159db4a22615f9b,2024-04-14 12:43:07,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb,True
+25e127ed8a7798dbb28c869873517574a7aa3b34,2024-04-14 12:41:45,1ilit,"Merge pull request #46 from HaecheonLee/bug/fix-button-in-notes-rendering-in-safari
+
+Fix button in note rendering in safari",True
+527f335f6827c8968ed4fc61b519689ffd3725d6,2024-04-14 12:35:34,1ilit,Merge commit 'refs/pull/46/head' of https://github.com/drawdb-io/drawdb,True
+611d39fc4105d531630ee4521a7b30803fed845b,2024-04-14 12:35:20,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb,True
+1649d07b0dd25854d1ed0bd5898a1dd9c027c092,2024-04-14 12:31:54,1ilit,"Merge pull request #35 from ClaPalo/Fix-field-circle-icons
+
+Fixed field circle icons not moving in Safari",True
+2ac0f047a12638fd2f02a5dba650c93db592d3ba,2024-04-14 12:29:25,1ilit,Merge commit 'refs/pull/35/head' of https://github.com/drawdb-io/drawdb,True
+7639dacb14672c516a93dcd3cdbe9de38a7cb563,2024-04-14 12:27:43,1ilit,"Merge pull request #33 from santilapi13/popovers_comments
+
+Fix to comments visualization in tables and fields popovers",True
+cc32ffdd803f8b3efbce59b6e1bb6614eff828e4,2024-04-14 06:00:56,haecheonlee,Fix rendering area in safari,False
+5b6c34d9aa0ee8792cbc2c453bc427f42995df95,2024-04-14 05:01:29,haecheonlee,Fix button in note rendering in safari,False
+9e18adf1e914fde1f983ba5271c3cc9ba8eca005,2024-04-12 08:54:50,ClaPalo,Fixed also template page,False
+0797a3fd7a203a81bc82fd36d12414ea5ca0f9fe,2024-04-12 08:00:40,santilapi13,fix: set field comment width instead of popover width,False
+6580a40017c97d15306d985a75c186e658a46593,2024-04-12 07:16:47,Santiago N. Lapiana,Merge branch 'drawdb-io:main' into popovers_comments,True
+9faf99d9d751b95ff445d3c4a0a762697bb14793,2024-04-12 06:54:19,1ilit,Remove magic numbers in table height calculations,False
+93b924aec75ee27b61cb6e7b0ab0ec7e1ae94605,2024-04-12 06:40:54,1ilit,"Merge pull request #36 from HaecheonLee/bug/fix-class-name-evaluated-by-short-circuit
+
+Fix class name evaluated by short circuit",True
+99cee1c10434ede1cbe4f8806909b9e14564f310,2024-04-12 06:38:05,ClaPalo,Reintroduced opacity using RGBA,False
+f6e6a50e9d98a5ac7d703f084a4d4ab95b101a82,2024-04-12 05:50:29,ClaPalo,Fixed Landing page,False
+eadcff091a5e7223275e25d95f63db35d822d9ee,2024-04-12 05:41:33,haecheonlee,Fix class name evaluated by short circuit,False
+35092864264b4827ea397dceec280cf07f979616,2024-04-12 05:39:19,ClaPalo,Fixed field circle icons not moving in Safari,False
+dd57df8bc284e5cab08f760d9fe794a6f279b91b,2024-04-12 03:45:28,santilapi13,fix: comment visualization in table and fields popovers,False
+217b7e82348370e856f484c1d4763b695945e348,2024-04-12 01:16:50,1ilit,"Merge pull request #31 from ClaPalo/bug-default-boolean
+
+Fix to boolean default values not displayed",True
+c63b362ce88305c211c7ad73320e284f2ab40e5d,2024-04-11 23:35:24,ClaPalo,Fixed bug default boolean value when importing from source,False
+0913ee81083d766555128a56d286da6bc085700f,2024-04-11 13:41:02,1ilit,Add tags to indicate if a setting is on or off,False
+2f7702a5936947198aeaaf2c53ed899bf5135406,2024-04-11 13:14:13,1ilit,Add warnings to destructive operations,False
+f87f969b35a81873b537b1473b1a98be2f4c4256,2024-04-11 10:35:46,1ilit,"Merge pull request #30 from ClaPalo/Switch-theme-button
+
+Added button to switch theme",True
+12fbeeceb025f37ecb2c071fc0c9914c0465b381,2024-04-11 10:18:17,ClaPalo,Added button to switch theme,False
+2740aeeb9f896a202f719a089c58d5eab0ef5004,2024-04-11 10:00:17,1ilit,"Merge pull request #29 from HaecheonLee/bug/fix-remaining-popover-after-deleting-table
+
+Fix to close remainig popover after deleting table",True
+cd90faeb53b406b64a1e54bb0a62a917ff7cb858,2024-04-11 09:40:08,1ilit,"Merge pull request #27 from gautamkrishnar/feat/double-click
+
+Added double click to open the table editor",True
+1f78ba899b12ba42053df55dd18ec2f1f981a743,2024-04-11 08:26:38,1ilit,"Merge pull request #16 from yash-chudasama/main
+
+Docker Support",True
+b788fd86dc303d3c2e032f718d26d0a29103c4b7,2024-04-11 05:26:19,haecheonlee,Fix to close remainig popover after deleting table,False
+7023b2e6113edcfc8a4de99303fd9d5e3d0fcf34,2024-04-10 14:45:48,Gautam krishna R,added double click to open editor,False
+3ca2da3e057158f1a61b0bef1e57e86303266ede,2024-04-10 11:21:04,Yash Chudasama,Updated nginx default.conf file,False
+d35461dbd3b718ef13b7ef8868ff608d9d3d0b47,2024-04-10 09:23:18,dot,"Merge pull request #24 from drawdb-io/change-tablewidth
+
+Add a setting to resize table width (#21)",True
+895c1da2b0d7455b3ed1b2d12a28487adae62dd5,2024-04-10 09:17:06,1ilit,Add a setting to resize table width (#21),False
+13897e7217ebe25074b30832805b6a172326fb0e,2024-04-10 08:18:16,1ilit,Replace useEffect with useLayoutEffect (#23),False
+6ab13a70d2621a689f90bd2c231fbe21c9a713d7,2024-04-10 07:52:10,1ilit,Fix form label color in sidesheet for editing a table,False
+21ed333f7dc9220aca812320fe0d99e940047d3e,2024-04-10 07:42:39,1ilit,Fix panning when the sidesheet for editing a table is open,False
+895059c76a983bb4b4b66d4cb57625fd7ad596f4,2024-04-10 07:27:07,1ilit,Support empty strings and strings with quotes for default (#10),False
+9c34e6c40d2c89a0036c0c65685927fc62672b25,2024-04-09 05:47:23,1ilit,"Merge pull request #20 from jonas-grgt/main
+
+Add build CI/CD workflow",True
+89522a416cc1d4f97759e379b69ebd3e2e33587c,2024-04-08 23:48:23,Jonas Geiregat,Add build CI/CD workflow,False
+4f6eb301468bddc47b22559635be5d102dedf2cc,2024-04-07 20:56:48,Yash Chudasama,Added Docker Support,False
+9b5c548e159cbd16a85e0f4cc10540a33ec7533e,2024-04-07 02:50:24,1ilit,Update discord link,False
+d8fd3292b79a8385d051d274d32a09e24e38c9e6,2024-04-06 16:29:39,1ilit,Add NotFound page,False
+c2319afcd388055482e86d2c15389172d70c1263,2024-04-06 15:48:34,1ilit,Update github links,False
+28d26552124297f743037dbf4073d1fbf5285b57,2024-04-06 15:09:13,1ilit,Update Readme,False
+2c525a2ffd697ae5c78f3e461e552813b9969262,2024-04-06 13:41:12,1ilit,Add prettier,False
+da0cf2247c62c05233d0420063c7c7c5b7d9fa5d,2024-04-06 13:25:54,1ilit,Add license,False
+378c6846a9fa8d309b099cd2eb1358c3e23210ed,2024-04-06 13:06:22,1ilit,Clean up index.css,False
+155810d7e6e3e890373dec2ae1bf5475fb771849,2024-04-06 12:57:18,1ilit,Fix typo,False
+1efd72dfe344763d96b9b672799b33e2aa97c663,2024-04-06 12:26:20,1ilit,Use ColorPallete in area popover,False
+234d4fc04b2e8aaa92f1c495346070785cece65d,2024-04-06 12:21:38,1ilit,Remove duplicate logic to edit table,False
+0ec280b821baed1ec114236ce9b6d8075f0d65ea,2024-04-06 10:52:23,1ilit,Fix import source,False
+173b02daa2571f7b2514a98cfe5a5819b4fc2f2b,2024-04-06 10:49:12,1ilit,Move controlpanel modal and sidesheet into folders,False
+1576b3fb96a2d160e6a9c6883723a93296d0fc7f,2024-04-06 07:49:13,1ilit,Add robots.txt,False
+c5cdcba459afecb09d64aacc63ff39a7391cb8ae,2024-04-06 07:29:18,1ilit,Merge branch 'main' of https://github.com/drawdb-io/drawdb-client,True
+40800f8f28ef8550ba7f4cd835d6764a167b27db,2024-04-06 07:28:42,1ilit,Clean up tabs,False
+639518e3bff0d6859e080934227fffaf07bd018b,2024-04-06 01:04:25,1ilit,Clean up pages,False
+83985ba188497a51067f84a3eb2dca8e5e357cbe,2024-04-06 00:39:43,1ilit,Clean up workspace,False
+c67f7f512e54a68474a7744f65fa6d49fef4b36d,2024-04-05 09:21:07,1ilit,Add reference links to lexical editor files,False
+afa8fca00cd6a753ec0b3955ad63cbef143dd199,2024-04-05 09:02:35,1ilit,Fix import,False
+8cf95a9a06ebac8892062a75ceacf336192adafe,2024-04-05 07:42:50,1ilit,Fix imports for hooks,False
+9036a96a22a87e2e5b1a873f5024784de502f108,2024-04-05 06:49:36,1ilit,Move custom icons to a separate folder,False
+eff3f570717858e2861e2a1dfd585298897d0177,2024-04-05 05:38:00,1ilit,Bump up db version,False
+10e0e279cc631080b8b2fe2865bb810eb97689d2,2024-04-05 05:35:09,1ilit,Remove coords from relationship objects,False
+fa8fdae863458d01c129c4f46c560e83f03d9e71,2024-04-02 19:14:29,1ilit,Fix wording in info for types,False
+ee44cd2b7ccf9003df26eadf8946552a7e0df6ac,2024-04-02 18:35:07,1ilit,Fix table names taking half of the table width when not hovered,False
+4d7f18c26edb0dcd74541635974ac0bf6a297605,2024-04-02 06:08:58,1ilit,Removed isHovered from Table,False
+cf71859f5cf5b24fa6bbe707711dd6ac01789f5f,2024-04-02 03:18:24,1ilit,Fix broken discord link,False
+5347f7552980c12d2bb2a712fbed10315f0e5566,2024-04-02 03:08:53,1ilit,Remove select dbms from import source modal,False
+6fda5356b0dd47a9c4aa190bea49c84ffe9dad3e,2024-04-02 02:52:07,1ilit,Add primary key icon to fields,False
+1283dcd94626f1252d7fb08c5e3970a1afa12d09,2024-04-02 01:32:13,1ilit,Fix collapse panel overflow in the sidebar,False
+d9fa03ae01806543e637fe2477ac3d209949d9de,2024-04-01 23:27:13,1ilit,Fix table name overflow,False
+19ca8a55c275d1bd502ef295e6930115ba0801d1,2024-04-01 23:01:24,1ilit,Fix field name overflow,False
+9df95279507df0d8bcf50f3ded7dbd8629297005,2024-04-01 22:14:50,1ilit,Reorganize files,False
+d4bc5a9669de1dc0140e1d50ba59ecda22020eee,2024-03-17 01:54:16,1ilit,Rename `NoElements` to `Empty`,False
+5895d4c96ec693afe45947bc8dba56aba84444bc,2024-03-16 05:53:10,1ilit,Clean up,False
+7a406eb6d3b172ed4074fb482dcf494cfc62d46e,2024-03-16 00:39:50,1ilit,Fix env variables,False
+725f01d8da01e49305bf55ea65de074a00737564,2024-03-16 00:25:43,1ilit,Make exports consistent,False
+3ec93f42c6ffd0c130fc52e2c523f360e0835879,2024-03-15 20:07:22,1ilit,Make variable naming consistent,False
+1132edbbb3e3d7f92810fecb5efb3c088e785882,2024-03-15 19:30:23,1ilit,Abstract save state from editor,False
+d347e856a855eabb4ab5d648bb834585b6b70790,2024-03-15 00:00:22,1ilit,Implement exit,False
+697291fe66f8bed4b639e87e727bcae5cee7ce68,2024-03-14 03:57:09,1ilit,Fix setSelectedElement in contexts,False
+34f8d9491b303a6a91ab0ee8a89e40e528c8c95e,2024-03-14 00:39:29,1ilit,Abstract tasks to a context,False
+40ef1b057e16db7e11ccd1ba6607e2e1062a2021,2024-03-14 00:09:16,1ilit,Remove tab context,False
+24eecdc39b3e02f3b67b4c3264585ed2d712eb4c,2024-03-13 04:57:42,1ilit,Abstract types from editor,False
+1280219ac91aa5e8068b2d6b097285d178a853a9,2024-03-13 04:28:03,1ilit,Stop resize onMouseLeave,False
+8a265831edd692cc904d62df2aadc059436475cb,2024-03-13 03:54:12,1ilit,Clean up public folder,False
+54c043204aaa90b315fc47380e649d5c3d21c08c,2024-03-13 03:08:13,1ilit,Abstract notes out of editor,False
+d06074451ea16111f919c0ed2ce525be486c7511,2024-03-12 17:22:01,1ilit,Move vaidateDiagram to issues.js,False
+9e32c49306d71306055082147b8beb37bac440f5,2024-03-12 03:29:04,1ilit,Abstract areas,False
+787b7b9817546103d8d31a352a4a3fb131fc3aef,2024-03-11 06:15:44,1ilit,Declutter utils,False
+680d349380bdb487aca86ac37c63741ffe01ef1b,2024-03-11 05:20:34,1ilit,Abstract controls on fullscreen,False
+dc8bbc0f9c0c351c3c3452ac798e72e1788ad6a0,2024-03-11 03:25:23,1ilit,"Abstract tables, undo/redo, selected element",False
+91549d308919839f26df0ff30603825230168f1d,2024-03-11 00:55:23,1ilit,Clean up relationship component,False
+23bc6278a2ac8b3a2367862e0775ec96c3dc5375,2024-03-10 22:55:22,1ilit,Abstract TransformContext,False
+dd4ec59e5673e1a53b9699ec83a37601a3548fc0,2024-03-10 04:54:26,1ilit,Fix table and relationhsip render order in simple canvas,False
+6c0ebcf7bcc7f283b388d2f28528f08c8ff24f88,2024-03-10 02:09:46,1ilit,Abstract SettingsContext out,False
+f3eb6d7c04ebe60f79430da0ce14f2fd59388ee6,2024-03-10 00:05:04,1ilit,Separate zoom and pan from settings,False
+610e2fa5c575bd444a5418d5eacaef69dfe4a13a,2024-03-09 23:12:09,1ilit,Abstract LayoutContext,False
+c9ad695abbe5be315e6127c7cd43318dc0883370,2024-03-07 16:58:43,1ilit,Clean up dependencies,False
+aac1eb45846b684f91e7c5bf5b867729e377f129,2024-03-07 16:40:33,1ilit,Remove files from older version,False
+9bfbdceda25f20c0a2046bc072703b274c75ca66,2024-03-07 14:51:09,1ilit,Fix pan spamming,False
+603c2cc3e2d8de803fd950c80bc4481c52d7e4e1,2024-03-01 01:15:44,1ilit,Update readme,False
+113e0f3593953a00ca4d62fc833e73882fbece73,2024-03-01 00:18:49,1ilit,Update relationships that come after deleted tableId,False
+96e2daad6d6504a35fed2bd0e792ff8234372fb5,2024-02-29 22:36:08,1ilit,Fix save button in toolbar,False
+9e68b88213bc7bd2dd55546d524f90e93ae69f61,2024-02-29 22:21:43,1ilit,Fix popovers for editing when sidebar is off,False
+420006ca57f728798fafcc04489a9970a46fdf7e,2024-02-29 19:44:41,1ilit,Add vercel anaytics,False
+c3f5f86dd111105099ec1dcceb57417d2d01793b,2024-02-29 06:25:07,1ilit,"Merge pull request #7 from drawdb-io/fixes
+
+Fix save as",True
+5e120bee1c91a74daf33a4680ca30a8d14d37fd4,2024-02-29 06:18:24,1ilit,Fix save as,False
+17326042a713d16dfff0fba8398752775dfd5235,2024-02-29 04:02:47,1ilit,Test meta image tag,False
+601298f90a82a5ed6eafc0a6e80e836432416f5c,2024-02-29 02:35:16,1ilit,"Merge pull request #5 from drawdb-io/release
+
+Release",True
+3ab820d7ee88490eaffa5170b4461b9cc81da9d9,2024-02-29 02:33:40,1ilit,Add title to json and ddb export,False
+a5e1eec3c5f8c10ab66fbced08f151e3b2bde23d,2024-02-29 02:24:43,1ilit,Clean up index,False
+141b303e50b8f6f4b3a11296fbbcfb1d88da8dc2,2024-02-29 02:17:07,1ilit,Seed templates,False
+d3625dd9802652e2bdd5c130ec8216da00e3ef24,2024-02-28 21:26:32,1ilit,Fix long field names,False
+f1dfd63fb3abf50d024c980d37a5fbd181095034,2024-02-28 21:09:45,1ilit,Edit logo images,False
+c507d5106d21c6b6fff256294db68dee72e791cb,2024-02-28 20:37:39,1ilit,Change export file name to include title,False
+079229b268f98113f28648475764132d5356ccb8,2024-02-28 20:23:59,1ilit,Make the logo higher quality,False
+9554e363f6c8580897e69121dcb4bc8c60d357dd,2024-02-28 19:05:21,1ilit,Add meta tags,False
+934de53f33fc1649730158135eaf067b67b57009,2024-02-28 17:39:23,1ilit,Fix features link on mobile,False
+9feac14c3ea42ea3a24756d0468ef4bfdfd8ac47,2024-02-27 18:46:14,1ilit,Add vercel.json,False
+711f8cb19b5787f4122e0aff6f1775ab3caa08af,2024-02-27 16:09:29,1ilit,Add description meta tag,False
+eca7bf52938f2d5f8086d329a2a2bc9381c21150,2024-02-27 05:44:38,1ilit,Fix index title,False
+4f69e687f6151f1dc0681d8845fcc63435b2a938,2024-02-26 16:52:55,1ilit,Remove fullscreen tick,False
+d798a1fca9087d28aea4483dc1642515ce8b693d,2024-02-26 16:47:20,1ilit,Fix scroll restoration,False
+03cdd8eef07ad470b22adffd54fedc0bc1947f9a,2024-02-26 06:18:03,1ilit,Clean save dependencies,False
+6a5f18f1def3de3fed2d31be09711490dbbf845b,2024-02-26 06:12:46,1ilit,Save pan and zoom,False
+a7f4fca58024ea77b0a9a9dc032cb04b30da740b,2024-02-26 05:46:09,1ilit,Add animations,False
+f0f90e3d850d8bdc2b54e33b61548e55075e1b35,2024-02-20 16:55:44,1ilit,Make landing page responsive,False
+f38acf24ee7c725433fb8cbfcf8b8991b9e2870a,2024-02-20 15:02:19,1ilit,Fix fit window,False
+47707146b8c06c91e102f168ec1cfc0e37cd92cc,2024-02-20 12:33:08,1ilit,Save todos,False
+c9a8d76e8ed1d9b1db0f5b5662c2d10b480e6934,2024-02-20 06:32:17,1ilit,Fix relationship overlap,False
+d7927913948a8d3fc713f00d6195ea5e31fbc14b,2024-02-20 02:51:38,1ilit,Fix popover theme and change color button,False
+2355673dde7c68d58835ce3d8c63ed9928798f53,2024-02-20 02:10:24,1ilit,Add discord link to menu,False
+781b5b81434b16b57f3855723258e3be0e4e025b,2024-02-19 17:44:32,1ilit,Move timeline to settings,False
+38943d80f26aae2414d4ec927860cee6e3dbc1ae,2024-02-16 19:57:09,1ilit,Add thumbnails to `create new` modal,False
+c578374857bea52050ec279d320fad48837aca87,2024-02-15 23:28:11,1ilit,Add connect us section,False
+198232426b54cb1d06e48c3f446b5dd2e8215580,2024-02-15 06:52:07,1ilit,Add features and supported dbs sections on landing page,False
+62e3faa6fbcf369adb814284eaf971bfbaa66899,2024-02-14 23:22:58,1ilit,Add mssql,False
+2cc703b9b50fddf911e76d34c42aa32009023c63,2024-02-14 18:38:51,1ilit,Make logo a link everywhere,False
+7cea7c9f5fed9c0d22aca57023ab7543756ca447,2024-02-13 00:35:21,1ilit,Fix dependencies,False
+604bed67dd4e27a324553710f0c6fe523c5198a3,2024-02-06 04:12:11,1ilit,Allow self references,False
+1f84e36f8cc0e7fa58af3c49d05535cc4b3a1731,2024-02-05 18:08:38,1ilit,Fix schema,False
+215bd55b991dbd133f3bdb61b1b3f2d357270484,2024-02-05 17:32:39,1ilit,Fix overflow,False
+7e1c8fc1ca4eb7b967eb1576a415085c151becea,2024-02-05 17:10:59,1ilit,Add MariaDB,False
+f9dd80f39c23f4a311c4fc6e70ca82f1fd1107e3,2024-02-03 17:18:07,1ilit,Add presentation mode,False
+6985eb2fdc9604e69a34b175d46daff847e36f02,2024-01-31 20:30:15,1ilit,Support SQLite,False
+a31e60cf0d50a18ffab67ae9071e9a99f3cbd80a,2024-01-31 03:42:09,1ilit,Remove mandetory relationships,False
+4f2386563c7f0288f465450f62d02896219367d8,2024-01-29 19:49:12,1ilit,Add some stuff to the landing page,False
+78d0a268076e128cfe2578588f41279ab153dc2e,2024-01-29 15:09:06,1ilit,Add instructions for custom templates tab,False
+ba1dd5ab540ef66c8c1c7d2bb73477e79b4a6a52,2024-01-29 13:31:54,1ilit,Fix favicon,False
+e35ee8270c1803fa824119d383408d6d4ebdcfaa,2024-01-29 13:23:05,1ilit,Fix settings,False
+6f262185d0f546e35c57bdec54fc08dc2e640613,2024-01-23 13:45:28,1ilit,Handle inline foreign keys,False
+d67fa7cb080177c63d89035887d28934ec512de9,2024-01-23 12:37:33,1ilit,Fix typo of dbms,False
+08ec175800f53ecbb7b614ef4e54a2bc5d72dbcb,2024-01-23 12:36:02,1ilit,Fix inverted relationship labels on a straight line,False
+646571ef767674eec04a091efc95fc81706ada71,2024-01-23 12:27:21,1ilit,Fix relationship position update bug in undo,False
+f29716814d6cfa47060bbd95c00870c989bb5876,2024-01-23 12:08:59,1ilit,Fix banner text color,False
+b8f7ac2812d8c8f83a332e946b36451c4429c6e5,2024-01-22 21:46:21,1ilit,Remove popconfirm from canvas field delete,False
+3efbb0de2a5bc658208abb590a60eb494c1dc532,2024-01-22 21:26:57,1ilit,Fix undo for unchanged note content,False
+9f508bc97720cbd9c2bbf4fee9a37d30d49a6692,2024-01-22 20:10:39,1ilit,"Merge pull request #4 from drawdb-io/mvp-dev
+
+Import diagram from source",True
+1c89805ca7a630bb49b3c22958133e00c5dabfc4,2024-01-22 20:05:01,1ilit,Parse relationships from alter statements,False
+d32ee38d0576155f68089bd9551fa87fa35c66a6,2024-01-21 14:52:45,1ilit,Handle index parsing,False
+789ab9c07636a7d18bf40bb98672d370bbf429ca,2024-01-21 12:36:50,1ilit,"Merge pull request #3 from drawdb-io/mvp-dev
+
+Mvp dev",True
+b0d262e2a0272496f72cc03b8bcb6f6664397881,2024-01-21 12:35:43,1ilit,Handle simple sql table parsing,False
+6c65134c933ead5e9d4aeb9728ac49734ed557e1,2024-01-18 16:15:58,1ilit,Fix precison for float bug,False
+df9a3f8089e94217168046e72207a18b5c734884,2024-01-18 12:51:30,1ilit,Add framer motion,False
+58bafcfcaf31b91d9f1afaa5df41cbbc6f387260,2024-01-18 07:54:38,1ilit,Add hero,False
+9f981b62ecfd349971b914067b488b1c84545534,2024-01-14 09:05:03,1ilit,Remove login and signup,False
+5daf3fb7bace05f15e46c7d96950a2f7b0e91d5d,2024-01-14 06:28:56,1ilit,Rename,False
+42ffc246afbb0c798309d10bd5fd11e4ac529664,2024-01-14 06:15:03,1ilit,"Merge pull request #2 from drawdb-io/mvp
+
+Mvp",True
+c4f73ba178ec2314c183f4b2088d44309f7094a7,2024-01-14 06:13:22,1ilit,Add settings to header,False
+ce267fb0491075245fd2b20a5d4145ce822c7c1a,2024-01-14 05:51:44,1ilit,Remove everything sockets,False
+8fcd7c9003878ac033504201d31a2fdd019b4bd5,2024-01-14 05:43:10,1ilit,"Merge pull request #1 from drawdb-io/mvp
+
+Mvp",True
+6f2b7a42b4bab228621b71d937cf17a32971802f,2024-01-14 05:35:07,1ilit,Remove sidebar,False
+005c3fd2a6608eec99854f411449a452be57eea6,2024-01-14 04:58:21,1ilit,Remove share,False
+7436f79c2b7b24a01750aa058807bfffe684444e,2024-01-14 04:48:51,1ilit,Test main,False
+6ae3406644a0cec9a5a377d7082eda28e90adb99,2024-01-14 00:06:13,1ilit,Add share modal,False
+9256c75621a5b910676ee6ff8baf86eaadaa0f83,2024-01-12 07:40:49,1ilit,Handle undo for collab,False
+f870c213ae3276eb1b34b64a459cce42560ce7a0,2024-01-10 08:46:06,1ilit,Real time editing,False
+d080790aedc9df08f0c3193d7b7e60161140a470,2024-01-08 23:09:27,1ilit,Add dashboard,False
+fa1ea7a9d49b617c31fd8d58b141712f9403ad4b,2024-01-07 08:40:34,1ilit,Connect to login endpoint,False
+679a58a9a3daa4adf866bc94fe7de524a77011a1,2024-01-06 01:08:59,1ilit,Redo login page,False
+144600c5bbf4e90688d8966e866460772a68af18,2024-01-04 01:07:44,1ilit,Redo signup page,False
+3ec1f91903d0af05bb05095ad6a519c0b9ba953d,2023-12-30 02:10:37,1ilit,Add showCardinality setting,False
+187b70cbdfb62802978c30fa0f87435b478d415b,2023-12-28 10:41:49,1ilit,Add cardinality labels on relationships,False
+f11419f60bd806123d791adf65f128f61cc28b77,2023-12-28 09:47:48,1ilit,Fix relationship coming over table,False
+f44b5fd388b2be8b020f271c88c93523225e5e4f,2023-12-27 08:15:23,1ilit,Fix field delete,False
+2395a334bb5a72d83822dd8b68e5554d06dcae67,2023-12-26 20:10:47,1ilit,Fix save,False
+0e041ed91337f99320dda62d870ab74d7ac0aef1,2023-12-25 02:56:14,1ilit,Edit templates,False
+b9fbcfb9b68a8c005608d637e187fb8f2b86b78b,2023-12-24 06:36:49,1ilit,Handle template loading better,False
+78ce0839d817c96cb3d6d88e080159c4f8700649,2023-12-23 06:46:54,1ilit,Add delete for custom templates,False
+ece4a9e95a424b0a06eaaa50047c0c56b841f8ab,2023-12-20 06:27:29,1ilit,Fix import,False
+dec6362fa9f5758a025c9cbd1d6e0a6dd82eef99,2023-12-19 08:06:10,1ilit,Add `Save as template`,False
+c5f929ac559591007c2a1073999d4166624e2690,2023-12-18 04:51:33,1ilit,Fix buttons,False
+46685a98fee4cc62d17fbfb02c06c856146323e8,2023-12-16 09:09:13,1ilit,Migrate to Vite from CRA,False
+503d55b528bb7739d299f175c87f28152f094d2e,2023-12-12 04:44:29,1ilit,Seed templates,False
+705251a275b20300459e0dc63fc466484de3fd37,2023-12-12 02:41:30,1ilit,Handle thumbnails for templates,False
+c3f28093135f801ce0470c3e5303963b48c76209,2023-12-11 06:30:25,1ilit,Add structure of templates page,False
+407e060b771602185d43f800d68b3a228f290e37,2023-12-03 02:57:25,1ilit,Seed templates,False
+aae695a61ee5fac5d2c31318bad87a79ab57aacf,2023-11-30 18:32:13,1ilit,Fix spacing,False
+50c776077a7da86367d4999cee51fa86948ce84d,2023-11-30 12:48:41,1ilit,Add templates page,False
+f6199cfd9784a1e47d3fe4f45d3e6ad4d335bd2e,2023-11-29 02:38:45,1ilit,Make `New window` a duplicate of the parent window,False
+0cbc4bb6f8a067fa528c29cded6b4d3f975e98e1,2023-11-24 22:43:49,1ilit,Flush storage,False
+76ef62d13fb48b05017390d15f8a793379600ed9,2023-11-24 21:58:39,1ilit,Autosave,False
+045715cff9e9551eb7ef86730f0a134e49a55459,2023-11-24 05:02:26,1ilit,Add setting for disabling panning,False
+f312b943e6c85711b9869e631422e8d02c31736a,2023-11-23 23:04:38,1ilit,Fix typos,False
+e5b2a2be2f747254bd390b72eac1924785bb92d0,2023-11-23 01:02:17,1ilit,Save diagram id in window name to avoid loading latest diagram when not empty,False
+1ec9b5fd1f9c8c722c8508c6f1e95ffc2068ccdf,2023-11-02 20:15:11,1ilit,Smol fixes,False
+9588d7c918053ebfa7423b9a5c47c1eea2773c28,2023-11-02 17:01:26,1ilit,Create a new diagram,False
+50d82fb4352e4b55e6c01f5e4c53c46ecd757fe8,2023-11-01 17:05:57,1ilit,Fixed save for diagrams,False
+092a08e6240cf567c3550a8e3101404715e6f011,2023-10-28 04:41:31,1ilit,Delete diagram and save as,False
+08aa18e4672883eca7e238203e9bf4be783f24c0,2023-10-27 23:40:17,1ilit,Load latest diagram,False
+7f5534dfea07a45b2c3602b162a4710ffa1b6c37,2023-10-27 22:48:28,1ilit,Load diagram from db,False
+63be981131e03ef623789e275ac07d1ddc62b582,2023-10-26 22:56:13,1ilit,Add open modal,False
+4596864e2f638e373f7427b8b3fd5a82b37b87ed,2023-10-26 19:05:50,1ilit,Save diagram to IndexedDb,False
+0b1a6d2eae9f8ca81aee22d48156cadc71b3a360,2023-10-24 15:34:33,1ilit,Make navbar responsive,False
+dfe48ef560a8207549da069bc2ab39bbeb31f6b3,2023-10-23 20:09:05,1ilit,Fix linking bug,False
+f4bee4de5b49fa36da8c565e55ab98e0a49e5c48,2023-10-22 11:31:43,1ilit,Fix table schema validation,False
+b41942c794a06cc0e393e47ad3ac253e4df9f4dd,2023-10-21 22:15:13,1ilit,Rename diagram,False
+69dd120c0df35ad84feadac8e5b24ac6afe8ae97,2023-10-21 17:07:04,1ilit,Add favicon,False
+23b325776270bdf3a5392bdcc7565181d53d9435,2023-10-20 23:07:06,1ilit,Add sidesheet for the bot,False
+4623e391b92ae33a7b228ad7a9fac47f70534a76,2023-10-19 14:06:46,1ilit,Rename files and reorganize directories,False
+74a06fccf357ba59da615397674e63737c2e5ffa,2023-10-14 19:32:45,1ilit,Change route names,False
+651c8f9de71cb869f32c285f379507ac6ee2591d,2023-10-14 19:13:22,1ilit,Fix rich editor styling,False
+e2a37b68e4ba95e9238f05b9fd8cc5f32484e825,2023-10-13 01:47:23,1ilit,Add survey page,False
+eaf4812dbe922cc85970c897e2436e31ccc051e3,2023-09-30 13:47:04,1ilit,Add login page,False
+a006c0cda4ea6169540934288cf8802a11a8ad22,2023-09-30 12:42:09,1ilit,Connect to signup route,False
+432efe91fdb3f989994ee16f5f84117476d01c7f,2023-09-28 22:59:22,1ilit,I dont remember,False
+bb0229ac5cd8cc91c66d60461295a559deaf79ec,2023-09-24 22:08:39,1ilit,Add signup page,False
+72ad69bc66034dd8e3fbf888f8f9a7870c660934,2023-09-23 00:48:34,1ilit,Make report bug page responsive,False
+0e7bebd971d40e66a689b4d5aeb32d91f5695b7d,2023-09-23 00:30:20,1ilit,Add loading spin and reset form on successful bug report,False
+03c981f65f6210a0b905f2c04bba95a59e0de1a0,2023-09-22 22:39:02,1ilit,Submit bug reports by email,False
+af08bae76fc233f714c0b72d0ae254c6aba105bd,2023-09-19 18:22:03,1ilit,Extract editor classes to richeditor.css,False
+392e7218de3095717be78b79d0c0013179f86594,2023-09-19 18:22:02,1ilit,Parse content to html,False
+45c95c7f116e15d80b22361628bb0b6e153bfb78,2023-09-19 18:21:59,1ilit,Add rich text editot,False
+f2b02e5d429697765d3fb1da474847f48e9e2052,2023-09-19 18:21:49,1ilit,Add bug report page,False
+884bd325157fa427feb512021e9d1bd7fddea21d,2023-09-19 18:21:46,1ilit,Change media queries,False
+6509d424783f8d95d6db58a776b5c70a30da7fa7,2023-09-19 18:21:44,1ilit,Add shortcuts page,False
+a51d5cf03dbe68536c7c1337c9c0adff39ac0778,2023-09-19 18:21:43,1ilit,Save theme in local storage,False
+f774699bfb7c45378b2d0b77b6b03c9c100fcf73,2023-09-19 18:21:40,1ilit,Add navbar,False
+fad46955fb563341f9130654219173d126d1db55,2023-09-19 18:21:37,1ilit,Make json schemas for custom types,False
+6172d48bf5988325f3e3cdc075f995dfb77b2207,2023-09-19 18:21:36,1ilit,Parse types for postgres,False
+9a1c0868708e6fb2b115400cef9c0ce3a14737b1,2023-09-19 18:21:34,1ilit,Add custom types to the selection,False
+796e302eeb0507e1f0de9a48fad76b483f836c81,2023-09-19 18:21:32,1ilit,Use better foreign key names,False
+f6ab5906234cca77e814a2e29121bd36ff182af3,2023-09-19 18:21:30,1ilit,Handle issues for custom types,False
+6515b87988197de17fed4d18477eeb13a5316626,2023-09-19 18:21:29,1ilit,Add size and value to type fields,False
+273d398dd27502b2b83040df72882b16f431ab17,2023-09-19 18:21:28,1ilit,Support custom types,False
+36ad44f0db1542e6448fa809634b3f4012385b5d,2023-09-19 18:21:26,1ilit,Suppost postgres,False
+69aabaefa959e33cfd87bd87fe8d558acc859521,2023-09-19 18:21:25,1ilit,Handle check expressions,False
+028e80a487847760f43c0006571cacd091e7238b,2023-09-19 18:21:23,1ilit,Handle invalid references,False
+10fae6d5186f663f9f5bc034c829ca2efb9a2afe,2023-09-19 18:21:22,1ilit,Handle defaults and sizes for all datatypes,False
+9311c1fbaf34e45ecb21c268c6bfcf1f3270193a,2023-09-19 18:21:21,1ilit,Validate field default values,False
+81792a524315effe15aee633ebda607820129698,2023-09-19 18:21:20,1ilit,Fix error when field.values is undefined and add it to issues,False
+aa7b8905b81a35d22262ce5764a39619a066a11d,2023-09-19 18:21:18,1ilit,Replace titles with tooltips,False
+953af7e0d7c74e396cc30e302c01984c52c1c8a3,2023-09-19 18:21:17,1ilit,Add input validators,False
+1016c3536efa19b1a7f9699da3e0ebd95b374cd0,2023-09-19 18:21:16,1ilit,"Catch empty or duplacate fields, indices, names, relationships",False
+794ecdba0819077774ed7c858cceff6ef625f840,2023-09-19 18:21:14,1ilit,Handle issues in the diagram,False
+d8f709299d167432b99d3e60c9653584fd576bdd,2023-09-19 18:21:13,1ilit,brr,False
+13a2eab410b3935ebefd7eb59347b8e5606e21c9,2023-09-19 18:21:11,1ilit,fix borders when element is selected,False
+1dd645f1a7bef47e101b8d94143e7c4dc2c4abb7,2023-09-19 18:21:08,1ilit,add dark theme,False
+8a17540d3161745c9b40db5727890f7cc23170dc,2023-09-19 18:21:02,1ilit,add badge for new messages,False
+4181ef4c746dd90541df81cea82ba0835d91bb25,2023-09-19 18:21:00,1ilit,refactor chat,False
+274c434206b4676f350ce2a542ee723e76a376ca,2023-09-19 18:20:57,1ilit,added chat,False
+be0ec46e4b3499dd4f769d7fb7a624ecc8259a43,2023-09-19 18:20:55,1ilit,switch to lists for timeline,False
+aec4d826b51a9826a8ac6eabc9d9b7d1f3f22ddb,2023-09-19 18:20:53,1ilit,todo list,False
+7426012154472800424c12a957a395112a249718,2023-09-19 18:20:52,1ilit,added timeline,False
+d61a90530fe1b70d417d8898f8d2b4477da280d7,2023-09-19 18:20:49,1ilit,hi,False
+155690e0f7e8802ce1fd17126b9a565bd0fd883e,2023-09-19 18:20:47,1ilit,Swap primary and foreign tables,False
+2b2e4840c9bcb60676df2775b35472939cab47d5,2023-09-19 18:20:46,1ilit,Undo redo parsing for references,False
+ab0dc2c44e8c5fc5749d0b688d7147b622002789,2023-09-19 18:20:45,1ilit,uuuugh,False
+2760f458afced2a3210346d4b409caa7686dca04,2023-09-19 18:20:44,1ilit,add sets,False
+662e2294e813803b60409f7543f9bbee0a94a128,2023-09-19 18:20:43,1ilit,add enum type,False
+fc287d12f041ed546ac7c769a3219caeb0676f92,2023-09-19 18:20:42,1ilit,"add restrictions on default, autoincrement, length",False
+348363acbbc991a75d022118b5c1d97bdec54f0f,2023-09-19 18:20:39,1ilit,parse tables,False
+38da28ac9989aabef224e267e04723b322c1d962,2023-09-19 18:20:37,1ilit,migrate to monaco editor,False
+ac09ad7112e0eaa8087ba4b9621c000ddd4b256c,2023-09-19 18:20:35,1ilit,fix delete functions,False
+8e5753c8d387ea129422a6c388a25c55010d9c25,2023-09-19 18:20:32,1ilit,copy paste cut,False
+8500fdf0fb474c15bccc4666e09cdb96f68411db,2023-09-19 18:20:30,1ilit,delete and duplicate,False
+5b5e55e3454a8d342a8e3db5c96a29306a91f779,2023-09-19 18:20:28,1ilit,edit elements,False
+d571a09b391e543e6c7b10c4cf3030988e002e9c,2023-09-19 18:20:24,1ilit,janky fit window,False
+2d36c04a49295f3a2ee863389bbc48822b4bca94,2023-09-19 18:20:22,1ilit,keyboard shortcuts baby,False
+850a4b68cf679b0bc91ede2d867c74af87999998,2023-09-19 18:20:20,1ilit,yey,False
+157634a0ebb68c96825391e6eca4eea0c08b2b8c,2023-09-19 18:20:18,1ilit,brrr,False
+d1a372d40b708d59058bd886d56f19766f9cc9cb,2023-09-19 18:20:16,1ilit,im hungered,False
+614e2ed24bb1ecfc1a28e2ac10cea2da2b09fa6d,2023-09-19 18:20:15,1ilit,bit clean up,False
+60193c33b8445b8749e6ed7822206f425b4c1fc4,2023-09-19 18:20:12,1ilit,im thirsty,False
+bccee804cfa8a8cac9f6563c6a03974b8c1e2c84,2023-09-19 18:20:09,1ilit,yum,False
+f04ed5df9aeeb81afa3c3fe4cb592f8dc89e25c7,2023-09-19 18:20:06,1ilit,boo,False
+21d01b1fe2c300d498a0e619ad7647e6cea5c682,2023-09-19 18:20:04,1ilit,hi,False
+44e179f15abf920a8f25b33cde4cc82e6e0a4233,2023-09-19 18:20:02,1ilit,yum,False
+16bc0edd366ae9eaa75f69d6daa676e7648b52bf,2023-09-19 18:20:00,1ilit,more undo redo for resize and panning,False
+be66cf6e84580122a57ee2628482bfcd1c14f73d,2023-09-19 18:19:57,1ilit,Clean up,False
+39a8dbb315a1b40d4843b37fe8c3c0d451b0a2a9,2023-09-19 18:19:52,1ilit,more undo redo,False
+a030656bcf802d68f76a00efab8c84a8a16693bc,2023-09-19 18:19:50,1ilit,Delete shapes and header,False
+364866a70a8ae3e4d96d8dd4bec90b5e0af4a8b6,2023-09-19 18:19:50,1ilit,Fix import and export too early bug,False
+982d2daa11bc5d703f7debf9683b30d70968e7b6,2023-09-19 18:19:48,1ilit,Fix panning,False
+4ec9f3f55be4f80925960bc7fa1a7d5272965555,2023-09-19 18:19:46,1ilit,Complete menu bar somewhat,False
+c79999d7737d9e9b94325e3f278228c170fb9a88,2023-09-19 18:19:44,1ilit,Undo and redo for moving and adding objects,False
+59609b1cd8859c929950ffd66176e4c524002f0a,2023-09-19 18:19:43,1ilit,brrrr,False
+2cfcc94a5dbc08e92d678f3fed286a1bb83e8df5,2023-09-19 18:19:41,1ilit,shtuff,False
+b73ba02240e00fe568153b1a12bb9fa92b7a015a,2023-09-19 18:19:40,1ilit,rm sum shit,False
+d2515a0bcb4f3a5bb3c80eeff8c8b1fcc6dcaa49,2023-09-19 18:19:39,1ilit,"Clear diagram, copy as image",False
+df6b352824d54433df2f9ac000258301ad1641f2,2023-09-19 18:19:37,1ilit,Show grid setting,False
+94df100726085fe34c58fb9ec9d0733330a14940,2023-09-19 18:19:36,1ilit,Zoom buttons,False
+56619849921ea3a03e26ac020d17be7055c64c42,2023-09-19 18:19:34,1ilit,Fix panning and dragging with zoom,False
+cfa60763a061c407f975d9b62d3e2222e0ee2581,2023-09-19 18:19:32,1ilit,Add zoom on mousewheel,False
+6eaad6e7203d90b9479c20dee66328795dcda587,2023-09-19 18:19:31,1ilit,Import ddb files,False
+a4a170d97a51c754ded041863717a50a8f1976ae,2023-09-19 18:19:30,1ilit,Export to ddb,False
+ff08984b55438a0ff2f3e8903a4d7c025842d563,2023-09-19 18:19:29,1ilit,Add import from json,False
+db843f32f3085b14c9a6bc5e28b574d2dd9b7aaa,2023-09-19 18:19:28,1ilit,File validation,False
+423e4e9b2d47b36411f0ac7ab31ed1b91fa38ab1,2023-09-19 18:19:25,1ilit,Fix add field,False
+a3307784cd4e342df1f71960bec04819d2eaf797,2023-09-19 18:19:24,1ilit,Export to pdf,False
+83cdb9201ee1489ebfc56048a97a4b1c30f5ab9e,2023-09-19 18:19:22,1ilit,Add delete button to table,False
+fb214b8f7bbc7810e1b553166c3720b2ee80e398,2023-09-19 18:19:21,1ilit,Add pop confirm to delete field,False
+974c254e48f6650a53245a0430e8a85b7c5061cc,2023-09-19 18:19:20,1ilit,Parse diagram to json,False
+70df6dd2a9c65028eb74cbbb9c07368bba30cbd4,2023-09-19 18:19:18,1ilit,Edit icons,False
+dafa8747a039c120ef2e0c7395319ba50d2019c8,2023-09-19 18:19:16,1ilit,Add setting to show field summary,False
+3a335950b5d4246240b9cf9fe2f412778add4911,2023-09-19 18:19:14,1ilit,im hungry,False
+973db157af2145281d9a5986d5681a9bc18bb54d,2023-09-19 18:19:13,1ilit,Add issues panel,False
+9b8e6c2593b736bb76cc8505bbfa2ee5ee517e95,2023-09-19 18:19:11,1ilit,Add note overview,False
+6f7dbd9f41da98d4c066e721f231ca6647a0c2b1,2023-09-19 18:19:09,1ilit,Add notes,False
+395ba77a37ba3d2eacbc7d7454c5d0fce904da61,2023-09-19 18:19:07,1ilit,Remove shapes tab,False
+83301438af0a306972deb33eb0ff6220fd5f93b1,2023-09-19 18:19:05,1ilit,Move repo to organization,False
+b5ccfab7f2a7509f557dd245ca7ed7d4cf35ed86,2023-09-19 18:19:03,1ilit,area shape,False
+b954a2b46fe26b943db81e33271cddb2d9820391,2023-09-19 18:19:02,1ilit,remove floof,False
+9e5e1c808eb1ae905c13d91b4718aa546860ff56,2023-09-19 18:19:00,1ilit,note shape,False
+b590236811c708a561cc90a105762e58c4a5c9fa,2023-09-19 18:18:59,1ilit,pweety tables,False
+246aad77d023b83b2ffd467413d99f94f252b657,2023-09-19 18:18:57,1ilit,fix tab error,False
+8da14317e519ea8f2ca21a587385eddc5874b40a,2023-09-19 18:18:55,1ilit,subject area overview,False
+ce92a35c9fb7e73c60d8bd4003aa8c242ef319d2,2023-09-19 18:18:53,1ilit,edit table sidesheet,False
+2a04f651d37d9ea4a74b8683a8c729129570fc45,2023-09-19 18:18:51,1ilit,nice stuff,False
+25926cb9b8d3fbb2729898aa2d48ebe8c84132dc,2023-09-19 18:18:49,1ilit,table and relationship context,False
+1eea618faaffd826d695e2ef1d94e0f1add3a5b1,2023-09-19 18:18:48,1ilit,layout context,False
+23e58a011044b8d0000b64d1686cdee76282a8d3,2023-09-19 18:18:46,1ilit,layout context,False
+f8998344019c2243b871b5e52c579767ac7a7961,2023-09-19 18:18:45,1ilit,fix panning,False
+032d77df2cec726bd62d260438a37df380adddbf,2023-09-19 18:18:44,1ilit,brrr,False
+24190bc46023da088d4ab198c1cf36b951c2708b,2023-09-19 18:18:42,1ilit,Make area resize smoother,False
+50d49e380a6ca9b6a8e237a37c1b27a502263feb,2023-09-19 18:18:41,1ilit,my tummy hurts,False
+2a0c5071a43364244b12cabc347bcca6894c5c2a,2023-09-19 18:18:38,1ilit,css,False
+ef09ded98c6856bf35273d19d77384ef837e3edc,2023-09-19 18:18:35,1ilit,Handle entering and exiting fullscreen,False
+a2aa12f59815499944ab2046be11289e9f367d06,2023-09-19 18:18:34,1ilit,Manage layout,False
+b0737e1a89803dd5d83e104232865d6a5cb699d4,2023-09-19 18:18:33,1ilit,Add table shape,False
+525ca9f5c7c73af2e7f5aa507d0d5a75ab8b0fdd,2023-09-19 18:18:32,1ilit,Add search for relationships,False
+4fec674ac63bb74745481ccbe4eb41833155c217,2023-09-19 18:18:31,1ilit,Make sidebar resize smoother,False
+16102ac7a9d7df85c8b95126cf225f1a47ddf862,2023-09-19 18:18:30,1ilit,Remove resizable lib,False
+f71671ea7ef42a9b211daded69b38228a67725ea,2023-09-19 18:18:29,1ilit,Add fullscreen mode,False
+e37ae6ce84928cc2d12f3e4e17ea77663cd17f53,2023-09-19 18:18:28,1ilit,Add empty illustration,False
+7f015692c5fbd340a829b4bc911276868be306d8,2023-09-19 18:18:27,1ilit,export jpeg,False
+92343dd6456ac65682db4b955f09b214c4a4e3fb,2023-09-19 18:18:26,1ilit,export png,False
+ddaeec79ec73c12b494cd23c91c33c21f78f7bd9,2023-09-19 18:18:25,1ilit,functional navbar yey,False
+c83667be4ec15e4ac5c533353d68a0730ef6cd14,2023-09-19 18:18:24,1ilit,brr,False
+76b9f7fc943c78e0b755b5ba30d9cb40d93a70c3,2023-09-19 18:18:23,1ilit,dots,False
+da7aed543bc85b4ca5881cfcb381ec162e70d076,2023-09-19 18:18:22,1ilit,brr,False
+f760f844bb54b30cc326e68328beb063169b8b0a,2023-09-19 18:18:21,1ilit,brr,False
+33c5118c83442ee6feb986a0b4ecb08b12d96e9d,2023-09-19 18:18:20,1ilit,brr,False
+003c2f734c72dc7a84ce982692083a480354be13,2023-09-19 18:18:18,1ilit,brr,False
+876df7f6b15f713c09cbb7168b760daa60f4aa36,2023-09-19 18:18:17,1ilit,brr,False
+5678fa0fa9c16127316dab7b00ecf985a1c19105,2023-09-19 18:18:16,1ilit,pafs,False
+868a992a7ab1d8b7564e7de25ce02467f1a84809,2023-09-19 18:18:15,1ilit,smol comit,False
+8bd5e19cee64ecdbb5b5d863aa5b232dd1e65018,2023-09-19 18:18:14,1ilit,clean up,False
+7f6a2d208f62e6814523dcc47c6b15ed8ca32e3e,2023-09-19 18:18:13,1ilit,fix deleting tables,False
+d3897f8112cea3c889b84010bdf0dce4ea437f20,2023-09-19 18:18:11,1ilit,backup,False
+519b9d0a27b9786df8a9eb7e5abff5e3becf4eea,2023-09-19 18:18:09,1ilit,add search table functionality,False
+a49e90991b989f785642adcf78e57fd8529b72e0,2023-09-19 18:18:08,1ilit,legalize nuclear bombs,False
+00231d9f01594c69f8dea47feaf26108801de24d,2023-09-19 18:18:07,1ilit,clean,False
+0e4879bab5a7daa63c6bc4ff8e8953123256608a,2023-09-19 18:18:06,1ilit,i wanna cry,False
+f34ebf2edc64e6ea2279bf1bcbec628fd3f763ef,2023-09-19 18:18:05,1ilit,fix panning,False
+df89b1047ddbf2ceb3c3b8a71f6484de092b9bac,2023-09-19 18:18:04,1ilit,areas,False
+8929639d6d9727dc9d3e7ce5bcc1f7b2d4d50085,2023-09-19 18:18:03,1ilit,bdoof,False
+50f5086e2dd0a278ef3d8e3d1a2f59e2ba5edf6b,2023-09-19 18:18:02,1ilit,dshh,False
+109158165c94be1b32adb26f5ff5468e91090047,2023-09-19 18:18:01,1ilit,bruh,False
+c3071ebf13615a8965db479890a11bbbd736d907,2023-09-19 18:17:59,1ilit,fix linking just click bug and endTableId error,False
+0601f764972622467c8f9ad8fb83e18f6ff43afc,2023-09-19 18:17:57,1ilit,comments yey,False
+1dc2c4d3d34c26adbb82da2c0d0384a59dbe6a0b,2023-09-19 18:17:56,1ilit,make overview functional,False
+52ed3a88b74ea92e1241afb8490f5289937a551e,2023-09-19 18:17:56,1ilit,placeholders,False
+c020a40e20496bb4bdd0584af4ac736375257afc,2023-09-19 18:17:55,1ilit,table indices,False
+de529fa402a1c70308e25952d5fbca1726249876,2023-09-19 18:17:54,1ilit,colors yey,False
+249435f696375c0a2db8156a41e9f0b796ad018a,2023-09-19 18:17:53,1ilit,popover to edit field,False
+4bf37c143c0e1424758864eb38f9484d28c48a18,2023-09-19 18:17:52,1ilit,comments for fields,False
+e3bed1d7898d6368867fb74baa08765694accf2c,2023-09-19 18:17:51,1ilit,aaaargh,False
+41112a29b8e0649e183f5af26ba4afe8e288de53,2023-09-19 18:17:51,1ilit,basic layout for the overview,False
+d441ff5fcb977a9d710f4b582d0f24fbff03efb6,2023-09-19 18:17:50,1ilit,move data to data.js,False
+9c618159993e1bf685ae184e8356979302810ee0,2023-09-19 18:17:48,1ilit,sidesheets,False
+58642f3e8e603a140045ac8d2e74fc70bc310bbd,2023-09-19 18:17:48,1ilit,update link positions on table move,False
+09f7142d7535f7b0c3ca1264b93479a3b9ccd5dc,2023-09-19 18:17:47,1ilit,add panning for the line,False
+5e2c205f3960c70b412929715a41bf93caab555f,2023-09-19 18:17:45,1ilit,add relationships,False
+e39feea551cd59802251f8129f4509ed16ff388e,2023-09-19 18:17:43,1ilit,rename stuf,False
+6777abf10949772be2b080558786f649dc621c4f,2023-09-19 18:17:41,1ilit,move table data to the top fix general functionality,False
+4447fa2f48d58ecfa5df2c3d8368f6acd4492187,2023-09-19 18:17:38,1ilit,fix drawing line on just click,False
+a328545ad4a6abffa32235d049944103e0cf3c14,2023-09-19 18:17:35,1ilit,add template link,False
+a5ffee462d0b9c7467f71cfe9775a92d3c377822,2023-09-19 18:17:34,1ilit,remove nodes and links,False
+b0a5098926f1c833ec28be19b4971b2cbce6005d,2023-09-19 18:17:33,1ilit,add popconfirm to delete,False
+5ce1073bc032012c4b0d6af25b25dab1a3c42d2f,2023-09-19 18:17:32,1ilit,fix modals,False
+c10399d90e809acf358e59fd09c9fef6328749db,2023-09-19 18:17:31,1ilit,make dit modal functional,False
+79874a0413e845d7652bfce304c2d384718c9d3e,2023-09-19 18:17:30,1ilit,fix add field,False
+11d2d2810d8da6d10b81b2d1082d46b54749b8ad,2023-09-19 18:17:29,1ilit,read field info from modal form,False
+31ae83addd932ea7c0e0a7112d26fe2fec8ea2fe,2023-09-19 18:17:28,1ilit,add popovers to fields,False
+5ed62c8714f6e4268e448110fc09e755d9b5957c,2023-09-19 18:17:26,1ilit,delete table,False
+c3fa9277efc3bf6d16b13d01422277929ab47c10,2023-09-19 18:17:25,1ilit,edit modal for fields,False
+eeec8998e0bb1b0e46ef39c816e6dfc8c5f04d3c,2023-09-19 18:17:24,1ilit,add modal for new fields,False
+a4d3dab249871a92bfd3653443070386c4c86a12,2023-09-19 18:17:20,1ilit,make table name editable,False
+cc1a73d6dd199f24583131435d048e128b8f0f43,2023-09-19 18:17:19,1ilit,dynamically remove fields to tables,False
+67073eaba0f2211b6a1b5eb42934378b43cf4fd9,2023-09-19 18:17:18,1ilit,dynamically add fields to tables,False
+ec1712afa00bbb0f25d5e879b7a556ba24609cc6,2023-09-19 18:17:17,1ilit,add simple table design,False
+73ae5a87a7ec2b190e94b3f6cde7b07ccf880ed6,2023-09-19 18:17:16,1ilit,shitty toolbar,False
+6fdb4ecc3f808029818b274d8bf018440ad239b3,2023-09-19 18:17:15,1ilit,dropdown menu,False
+cdce22fdd66d437114abd2fcc21ff4d4629e3cc0,2023-09-19 18:17:14,1ilit,sum stuf,False
+5c62a71ebd82a8c9dcf80f41d14506c0740f9497,2023-09-19 18:17:13,1ilit,panning :D,False
+45963eafdba75808ce324163fa3a442574144a4f,2023-09-19 18:17:11,1ilit,responsive links hehehe,False
+7dd588378bbb5f00f68019d0e75b312e15a6d061,2023-09-19 18:17:11,1ilit,link rects with lines,False
+65a33e1fc36643ac1e3d172a7009933c2954e118,2023-09-19 18:17:10,1ilit,i dont remember what,False
+91a18e2338f63569630ec156c3bddf63fdabbf18,2023-09-19 18:17:08,1ilit,add text input into rects,False
+99c74070490b2d796536e1a7cea97aa30f7ffe4b,2023-09-19 18:17:08,1ilit,yeet jointjs,False
+1fb3239db085ec6cbaacc7260002209a10c8087c,2023-09-19 18:17:06,1ilit,Get rid of jointjs,False
+62ad20fb1d2c49c12a02e0c834e2a072c3f1d47c,2023-09-19 18:17:04,1ilit,parse sql into gui yaaayy,False
+4cfc2edc81643d78223ebcd7d5149c286da738ba,2023-09-19 18:17:03,1ilit,Add exporting src and diagram as img,False
+58656f5e6664fa7a071c944244f100f3b0395f9a,2023-09-19 18:17:01,1ilit,geneeral clean up,False
+f3d010b66853a541dbc6e45bfba1b1b07527249c,2023-09-19 18:16:59,1ilit,rename everything,False
+180fdd5ab3cdd6fc1f844fdb9a20b5176f6b1cb6,2023-09-19 18:16:58,1ilit,stinky poopy working code to drop shapes,False
+e08c381e0da1d19ae773878cd729675d787d2f00,2023-09-19 18:16:56,1ilit,i want something yummy,False
+09c84e037981067bea60fa0a4738681666b2f6e4,2023-09-19 18:16:54,1ilit,stinky poopy working code to add shapes,False
+fb969323793e34a7c694e1a8964b766dbddd7010,2023-09-19 18:16:50,1ilit,Add code editor,False
+02541374eab3f0e051a08ee262de46790e43fac7,2023-09-19 18:16:48,1ilit,Plan layout,False
+64835d8800f7536dee095cf7f833e8b2bdcbd703,2023-09-19 18:16:46,1ilit,Make logo,False
+e65905cd3e8ddab6c610f3bd302d197f18d0b3e8,2023-09-19 18:16:44,1ilit,Make windows,False
+990016b03682f7513e4edb5af342194350f18622,2023-09-19 18:16:43,1ilit,Shapes go brrr,False
+db580f892de048db98f4c076a5c7ba14273b2f05,2023-09-19 18:16:40,1ilit,Add tailwind,False
+cc6e46f4c345cd871255fbc74b4949e0041a7404,2023-09-19 18:16:33,1ilit,Initial commit,False

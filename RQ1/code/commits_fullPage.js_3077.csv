@@ -1,0 +1,2099 @@
+Hash,Date,Author,Message,IsMerge
+b60275989fbb61486641ea310d00d8423b59549d,2025-03-03 22:53:43,Álvaro,"Merge pull request #4693 from alvarotrigo/dev
+
+Merging dev branch 4.0.34",True
+b68d64d1341e74930f2f548b012704ef5c2c59a5,2025-03-03 22:47:08,Alvaro Trigo López,- Updating version & dist files,False
+b8df11257aa06f56482c67a3517a63d9300f702a,2025-03-03 22:35:16,Alvaro Trigo López,- Documentation: added docs for `fp-loaded` state class #4681,False
+4611fb27598bfde8b8489d3228448046c66f360f,2025-03-03 22:29:39,Alvaro Trigo López,- Documentation: provided list of more CDNs with latest version,False
+bfddf0e094444d721199ae2cdea18c0bde1f4b32,2025-03-03 18:32:34,Alvaro Trigo López,"- Documentation: improved description of the ""credits"" option #4690",False
+8b427218089670c35bc4ac348601cd82605a89ee,2025-03-03 18:13:09,Alvaro Trigo López,- Fixed bug: css3:false might cause gap that shows the prev/next section when scrollingSpeed is low #4666,False
+80bcdcba892278a79e4d4159df1d8af2870237f7,2025-03-03 18:00:36,Alvaro Trigo López,"- Enhancement: new state classs ""fp-loaded"" for lazy loaded sections #4681",False
+890db79b6afdc55645a43c576c340563dc12bab1,2025-03-03 17:51:51,Alvaro Trigo López,- Fixed bug: destroy('all') won't remove watermark from the DOM #4691,False
+4666dc780c0c2d8cb1829e7393c78027e435e91d,2025-03-03 17:44:09,Alvaro Trigo López,- Fixed bug: Sections won't resize on viewport change when using scrollBar:true #4692,False
+02f92a2cb97974fd780b7ac760bb1436bc7ae39a,2025-02-25 01:08:42,Alvaro Trigo López,- Updating website & adding sponsors link,False
+17050b608fb72ce505a66b69d0071d79ee7ef2a6,2025-01-28 00:21:27,Álvaro,"Merge pull request #4684 from alvarotrigo/dev
+
+Merging dev branch 4.0.33",True
+2e49e545dd73117db67a504380a61af73dad0a5d,2025-01-28 00:19:44,Alvaro Trigo López,- Updating dist files,False
+ee2c00d7ec594b9728849d72dc4cdbc5f6d1fcfc,2025-01-28 00:18:44,Alvaro Trigo López,- Documentation: adding docs for `adjustOnNavChange`,False
+8d7c7c9e482e88cd015d6a1b5d9c6a572a7d729c,2025-01-28 00:17:56,Alvaro Trigo López,- Enhancement: new option `adjustOnNavChange` to prevent resizing when hiding the address bar #4682,False
+64e54305f15c88012f1651dd618a1025e0baba2b,2025-01-27 23:15:31,Alvaro Trigo López,- Updating version & dist files,False
+44b152b6245be7faef779fa4ee57038837ed3595,2025-01-27 23:14:33,Alvaro Trigo López,- Fixed: The left arrow works like the right arrow in the custom-arrows example #4668,False
+9e281847550559a2e0c292249eb297c379d8ca20,2025-01-17 18:23:29,Álvaro,"Merge pull request #4683 from alvarotrigo/dev
+
+Merging dev branch 4.0.32",True
+b2031b97dd0fee74602b00a0eeb301724678f9d2,2025-01-17 18:21:10,Alvaro Trigo López,- Merging dev branch 4.0.32,False
+1fce9b866936b58b8947b803f117fa287bc9e5e3,2025-01-17 18:16:34,Alvaro Trigo López,- Improving fix for #4676,False
+acf4ecefa6065c0d613e1e7d4dc120c9395ac689,2024-12-09 06:35:52,Alvaro Trigo López,- Documentation: adding contributing file,False
+60d4898070c0cd0161b08595fd39e5022c3e5b8d,2024-12-02 23:16:19,Alvaro Trigo López,- Updating version & dist files,False
+40373597eb80c6b08d2331092d4bd10d9d6e3d3d,2024-12-02 23:13:57,Alvaro Trigo López,- Fixed bug: Focus on form input when fitToSection:true can scroll page and hide the input #4676,False
+c0fb41cef6b2fb6369d133fc90ec45d714aacbdc,2024-11-29 18:38:21,Alvaro Trigo López,- Fixed bug: Scrollable content could end behind nav bars on mobile devices #4674,False
+1f098309cbe397797d8a6bf391392b5ce681474d,2024-11-28 19:16:14,Álvaro,"Merge pull request #4675 from alvarotrigo/dev
+
+Merging dev branch 4.0.31",True
+1d503821878bcda298b0f58c982d1d09a95b9caa,2024-11-28 19:14:18,Alvaro Trigo López,- Updating version & dist files,False
+0f03e7be625ad8843669991222777ab7c44af840,2024-11-28 19:12:34,Alvaro Trigo López,- Documentation: adding link to GitHub Sponsor,False
+a66eeda027c959e81966d24242eb103e9fca4607,2024-11-28 18:42:11,Alvaro Trigo López,- Documentation: adding LambdaTest sponsor,False
+4f56b7937b9b725ab318c3f432d80d78868bed37,2024-11-19 17:35:47,Alvaro Trigo López,- Enhancement: improved docs for Parallax adding compatibilities #4672,False
+10f82859aabc7136fa378e379dd3b577bac584f3,2024-10-25 05:28:03,Alvaro Trigo López,- Updating dist files,False
+c4a023b782e06a7a3425476f129c05bbb74cea0b,2024-10-25 05:26:08,Alvaro Trigo López,"- Fixed bug: using custom arrows might result in ""prev"" acting as ""next"" #4668",False
+d507d021aa8655d027eb30f97266ad5c7c7b0378,2024-10-14 21:57:45,Álvaro,"Merge pull request #4665 from alvarotrigo/dev
+
+Merging dev branch 4.0.30",True
+7b98bb3c624d18b9399d2f96451af7e58ba8d08a,2024-10-14 21:55:08,Alvaro Trigo López,- Updated version & dist files,False
+5540b97069b7a43b9ac4f1ff2b0cbf5be208544b,2024-10-14 21:39:35,Alvaro Trigo López,"- Fixed bug: third party scripts can modify ""body"" inline styles conflicting with FP #4657",False
+dbdad478d7d6799041fbe424ffdef7dea9ff7453,2024-10-10 21:12:46,Alvaro Trigo López,- Enhancement: improved skipIntermediateItems example with anchor link,False
+6698e527d21981df77728612adb1facceb6d0d8c,2024-10-09 17:36:15,Alvaro Trigo López,- Fixed bug scrollOverflow won't turn into auto-height on responsive #4664,False
+a45ba737bfac03d15834b94c932abd0a49d4c7c1,2024-09-26 22:57:38,Alvaro Trigo López,"- Enhancement: ""autoplay"" media (video, audio) should automatically play #4658",False
+a33817bddd9743472367de47037253619420af49,2024-09-26 22:46:33,Alvaro Trigo López,- Fixed bug: Anchors with whitespace throw error #4659,False
+9c83e71227f542f6e88d253f078b0c0de5415533,2024-09-06 16:32:06,Álvaro,"Merge pull request #4655 from alvarotrigo/dev
+
+Merging dev branch 4.0.29",True
+f61d5bd4b9036712f326221c4d619f53f31aa84d,2024-09-06 16:14:43,Alvaro Trigo López,- Updating version & dist files,False
+4c3519bcf0e4fc88000473a59355a97621f32c66,2024-09-06 16:13:15,Alvaro Trigo López,- Updating dist version,False
+bc4339cf4e9595268f734eb1b4b2267ba3feea5b,2024-09-06 16:13:04,Alvaro Trigo López,- Enhancement: improving rollup config,False
+e9aac1710e4cee9ad6fa8786911a5a6fdc814ce5,2024-09-06 04:30:20,Alvaro Trigo López,- Fixed bug: fitToSectionDelay not working in extensions file & React #4654,False
+0a5899091be6ad27b3a7c698bc505e38d9829e53,2024-09-05 16:23:01,Alvaro Trigo López,- Updating version & dist files,False
+29363a8e1fac237896e88543d0a0b8c634a8c936,2024-09-05 16:20:23,Alvaro Trigo López,- Fixed bug: lazyload error on fp-auto-height sections #4653,False
+2c4ae3dcf17defc78a9ebee1fabedcbbf57d575a,2024-08-30 22:50:45,Alvaro Trigo López,- Documentation: improved Japanese locales #4642,False
+7de02d7f52b208e5e6ab3a25f1be06ebef2d6fff,2024-08-30 15:43:48,Alvaro Trigo López,- Documentation: updating website locales,False
+bb21c5cf3b56443a57d8da3387b34ae35d96dfd6,2024-08-30 15:21:36,Alvaro Trigo López,- Fixed bug: getScrollX won't return the right value on afterLoad #4652,False
+d3098220ef14aa23160372007c6df4a05ef84a4b,2024-08-23 23:18:00,Álvaro,"Merge pull request #4650 from alvarotrigo/dev
+
+Merging dev branch 4.0.28",True
+5376a34d8a104ff99639518dc305cbe07a660c37,2024-08-23 23:15:57,Alvaro Trigo López,- Documentation: improving descripion for lazyLoadThreshold,False
+6f4705c2d3e376e9059795261a86ef7a2ccdfc53,2024-08-22 22:07:50,Alvaro Trigo López,- Enhancement: improving lazyLoad example with lazyLoadThreshold,False
+ba12d97acfb169276e366438ae3596c5fef0da36,2024-08-22 21:47:55,Alvaro Trigo López,- Updating version and dist files,False
+dce4a7edd82d84d3ed09d861f03e7969932c6a49,2024-08-22 20:57:38,Alvaro Trigo López,- Updating docs with new option `lazyLoadThreshold`,False
+ceceb86b8afa6fedad0f6613852aa939505c52c1,2024-08-22 20:56:04,Alvaro Trigo López,- Enhancement: new option `lazyLoadThreshold` to preload adjacent sections/slides #4576 #3714 #1973,False
+113df1993ce12c21afab37b1ac0c6390c4f04423,2024-08-19 17:44:50,Álvaro,"Merge pull request #4649 from alvarotrigo/dev
+
+- Documentation: fixing typo on heading type",True
+e38423e99e76412b900b087a28dffdb2af4a2d74,2024-08-19 17:44:13,Alvaro Trigo López,- Documentation: fixing typo on heading type,False
+d0cd888b422e86d96394e571218158f3a5a675f6,2024-08-19 17:39:59,Álvaro,"Merge pull request #4648 from alvarotrigo/dev
+
+Merging dev branch 4.0.27",True
+f78fea590467db7b05f51f38d6aeb119a5051516,2024-08-19 17:34:07,Alvaro Trigo López,- Update version & dist files,False
+c1755e67d2bfa4686228e80111fd81e0945d7d79,2024-08-19 17:31:05,Alvaro Trigo López,- Fixed reserved words for minified file with skipIntermediateItems,False
+1691bd413e0f8df90c3bbb5c4bcb0f2eebca86db,2024-08-19 17:28:59,Alvaro Trigo López,- Adding skipIntermediateItems to docs in all languages #4643,False
+bb89177628677d822de209f2ced8c09666f24bde,2024-08-19 17:20:19,Alvaro Trigo López,- Enhancement: new option `skipIntermediateItems` to skip the animation when jumping non consecutive sections/slides #4643,False
+4113ce9f6d7a6f68177c1998ce113a03c51f23bb,2024-08-12 16:03:20,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+59ea50fa2dd4580c940854ea29411472c1426b26,2024-08-12 16:03:14,Alvaro Trigo López,Delete browserstack.json,False
+683b8e5887c92442ee39ef8e6ee27e1d2c9369be,2024-08-04 04:23:50,Álvaro,"Merge pull request #4644 from taeseong/master
+
+Translate remaining English sentences into Korean",True
+bf2afed0147ca143f09ddfd8df5544e4d0da5bc1,2024-08-03 19:41:04,TaeSeong,Translated previously untranslated text into Korean,False
+de9ded9d4400536a228e272985f73d135242b7f9,2024-07-24 05:08:50,Álvaro,"Merge pull request #4642 from hoqqun/chore/proofread-jp
+
+Proofread and update Japanese docs",True
+995c02cfc48457e12edf477f1813e098ce6c4434,2024-07-24 03:26:11,Hokuto Shimura,proofread and translate JP website,False
+2e8ebc118d31b4b64345f89dcebedfa956c32da5,2024-07-24 03:24:33,Hokuto Shimura,proofread and translate JP parallax,False
+17495b16937d4c299640925ef24bff1ceae34de4,2024-07-24 03:19:54,Hokuto Shimura,proofread and translate JP how-to-activate,False
+7a04c5bbe4b9e2da0e8a8420e84ec2fae4ac4855,2024-07-24 03:17:06,Hokuto Shimura,proofread and translate JP README.md,False
+84f0758192aa5c5b9a261230b86f06ab72da6e28,2024-07-24 00:37:50,Álvaro,"Merge pull request #4641 from alvarotrigo/dev
+
+Merging dev branch 4.0.26",True
+fbbbb5a785f4fcd424380019ff408bf8f2678c44,2024-07-24 00:32:51,Alvaro Trigo López,- Updating version & dist files,False
+86579b70a280a5c14148ffb287f0edd1f447e73d,2024-07-24 00:22:15,Alvaro Trigo López,- Enhancement: improved console log warnings,False
+9f66b258336c36472b3b3eae56dbd5be5b51238e,2024-07-24 00:20:30,Alvaro Trigo López,- Enhancement: fixed expired link on Issue Template for Github,False
+40011664c5062867e74a81c80bfb2ca8cb1df4dc,2024-07-24 00:19:23,Alvaro Trigo López,- Fixed bug: fitToSectionDelay doesn't work on the extensions file #4640,False
+386f92f60a227df1dd875b861b0c5567b4966412,2024-07-24 00:08:05,Alvaro Trigo López,- Fixed bug: Clear fitToSectionDelay when declaring setFitToSection(false) #4590,False
+0de17a20d099340f4f96d3696696a8326976720c,2024-07-23 23:59:31,Alvaro Trigo López,- Fixed bug: setAllowScrolling prevents scroll within the scrollable section itself #4530,False
+53736f5af926d5c817d2be445fb8c0498fa476e7,2024-07-23 23:37:05,Alvaro Trigo López,- Fixed bug: URL access with slide anchors won't slide to correct slide on mobile #4613,False
+a0b8edcf6f7747eb9ce7796397369302171d9778,2024-07-23 16:33:59,Alvaro Trigo López,- Documentation: improving docs,False
+88e78fa88e649c864646ea0a74ff05fd15cd3394,2024-07-21 07:02:45,Alvaro Trigo López,- Documentation: website localisation in Japanese,False
+83b8633c01647ff374721043f33f1217428b4940,2024-07-19 18:02:49,Alvaro Trigo López,- Documentation: improving Japanese & French docs,False
+4983424bc4b736dcadc1438d18f977353a48bf64,2024-07-19 18:01:30,Alvaro Trigo López,- Documentation: improving Japanese docs,False
+a89fd3e4f59f3b0dc01b61c4aba9fff8245b5efd,2024-07-19 17:55:25,Alvaro Trigo López,- Documentation: adding more Japanese docs,False
+c4be615f356d18d62838c0ec72d761dc21d3cb47,2024-07-19 17:52:10,Alvaro Trigo López,- Documentation: improving Japanese translation,False
+73bff7e85db0926c944522ba0b62edb284c8a757,2024-07-19 17:51:22,Alvaro Trigo López,- Documentation: adding Japanese translation,False
+162d77639b9dd15aaad547c196fd41a6bbcd85b5,2024-07-09 01:42:18,Alvaro Trigo López,- Fixed bug: wheel events will now propagate on navs wrappers #4637,False
+e0231e7126b916104e5e66277d2fa876c5d18094,2024-07-07 18:02:45,Alvaro Trigo López,- Documentation: spanish - missing language definition on code block,False
+b286598b805f699c8942f3fd6ff93161b268d488,2024-07-06 23:34:27,Alvaro Trigo López,- Documentation: updating spanish word,False
+7ed83e0444ad35f8ab1f968f4421b20ce30f1ad3,2024-06-25 21:28:02,Alvaro Trigo López,- Documentation: removing reference to FP v2,False
+3e002b92c155e501c32930f9d04a725f28f2e8c5,2024-06-22 20:06:07,Álvaro,"Merge pull request #4634 from alvarotrigo/dev
+
+Merging dev branch 4.0.25",True
+40ce0058fd8092a64a154b7fc570e01987256440,2024-06-22 20:04:59,Alvaro Trigo López,- Updating version & dist files,False
+d0a179b4ea9fd26a3f1aa519baf0b81bc3790f2f,2024-06-22 19:57:19,Alvaro Trigo López,- Fixed bug: fullpage.js won't scroll loaded inside iframes when using mouse wheel (trackpad works) #4633,False
+c2eff2bb8b3c60d314bcfedb79a5ffa0f87e03fe,2024-06-21 23:13:52,Álvaro,"Merge pull request #4631 from alvarotrigo/dev
+
+Merging dev branch 4.0.24",True
+c478b77fdf3616e00c8bf14c207a00bcc74c0572,2024-06-21 23:12:20,Alvaro Trigo López,- Documentation: updating contributors image,False
+cd4a8c2b56ed0db89f81b3b2cc350e85d4327fa3,2024-06-21 23:10:24,Alvaro Trigo López,"- Documentation: replacing ""who is using fullPage.js"" image",False
+0120aa342c776efcf1a5dabf606aa0ec7c60f91f,2024-06-21 23:10:03,Alvaro Trigo López,- Updating version & dist files,False
+9f71335ad102c6e440fd2b08d5d741ff8a19fe99,2024-06-21 23:09:05,Alvaro Trigo López,"- Documentation: replacing ""who is using fullpage"" images",False
+d732caf43728af371c571ebcd866241e1b2fe216,2024-06-21 22:38:21,Alvaro Trigo López,- Fixed bug: regression preventing scroll on scrollable sections #4630,False
+bbebac38725e33f0b60e5ab6a6b9cfae2bbf8084,2024-06-20 23:17:52,Álvaro,"Merge pull request #4629 from alvarotrigo/dev
+
+Merging dev branch 4.0.23",True
+4f5fdd6d73d243e7c5500d237aef75efbe855580,2024-06-20 23:14:05,Alvaro Trigo López,- Updating version & dist files,False
+18966061f3654736897293bc0441e5cb672ddc9c,2024-06-20 23:11:47,Alvaro Trigo López,- Enhancement: preventing scroll of parent frames on scroll,False
+fc103409a63c12df98693f427d7daf29653cad2d,2024-06-20 22:06:20,Alvaro Trigo López,- Fixed bug: loading fullPage in iframe forces scroll of parent window #4628,False
+f8438d102cbdf49a94d6aaae0a82421f3d9fa4ca,2024-06-20 21:18:14,Alvaro Trigo López,- Docs: reindenting code blocks in options,False
+14a7bdedff6dfcb509567264241da293402cbf3a,2024-06-20 21:16:28,Alvaro Trigo López,- Docs: Spanish. Convert options to headings.,False
+a2217d01088a47da2deccaa73d2591385d1a04b0,2024-06-20 21:13:06,Alvaro Trigo López,- Docs: Russian. Converting options to headings.,False
+e1df45eef7ab8d881478f23bbd483a93aed31e63,2024-06-20 21:08:36,Alvaro Trigo López,- Docs: Korean. Converting options to headings.,False
+1a443c1a7f19284b83baf09255d99b67ed84669d,2024-06-20 21:08:01,Alvaro Trigo López,- Docs: chinese & french. Adding line jumps after defaults,False
+efe27da1a648267b1ffd8d6c46a7fb2c3eae0c43,2024-06-20 21:02:31,Alvaro Trigo López,- Docs: french. Converted options into headings,False
+5b5a8ee7610bbf88a78dc15672d61c1c21a5b54e,2024-06-20 16:50:09,Alvaro Trigo López,- Docs: chinese version. Options as headings.,False
+d41311c4b19160e06b2bce9cc2ffd2f31fd670a8,2024-06-20 16:42:23,Alvaro Trigo López,- Docs: brazilian-portuguese options as headings,False
+018fa63c9677e634ce5c87cb960a1fdd544c227b,2024-06-19 20:56:12,Alvaro Trigo López,- Docs: removed indent for options code,False
+3b11c6465f66523d44be28db48ceb4307d6d3325,2024-06-19 18:12:13,Alvaro Trigo López,- Docs: Options as headings,False
+c9fabb7b86674b3bc78ae9c6f2376c7786f957c0,2024-06-18 17:42:19,Alvaro Trigo López,- Fixed bug: fp-auto-height-responsive not working on large content #4626,False
+379895a27c045927c6de0ff53cb65081921e53dd,2024-06-03 21:52:07,Alvaro Trigo López,- Fixed bug: Error on loading with anchor #4622,False
+18fad02960f667cb7a54c51129ce92b38be4744a,2024-06-03 21:35:17,Alvaro Trigo López,- Fixed bug: Menu not working when not specifying anchors #4620,False
+669a9b35de2e9b02d8253462c433465c42dedd9c,2024-05-16 15:58:30,Alvaro Trigo López,- Documentation: removing links without FP,False
+fb0a1aecf09c30b697dd5e7b0541acaa24c73741,2024-05-16 15:52:59,Alvaro Trigo López,- Documentation: adding contributors pics,False
+64e5f5094c88c5333638e71d8310630978a4480f,2024-03-26 18:08:45,Alvaro Trigo López,- Fixed bug: Keyboard navigation broken after calling destroy + init #4611,False
+58dcbc100e750ffa1e100a68cba2ec628f910314,2024-01-31 18:11:26,Álvaro,"Merge pull request #4604 from alvarotrigo/dev
+
+Merging dev branch 4.0.22",True
+fe68120810b036c8d0994bc48a96f38b0260a5bb,2024-01-31 18:10:18,Alvaro Trigo López,- Fixed bug: parallax and card extensions not working,False
+bb9ef06e57b4476f81fc254fbccbf4dd1ce1c4a8,2024-01-31 18:09:18,Alvaro Trigo López,- Fixed bug: parallax and cards extensions not working,False
+b7a8e7b3d8b400093733cee642e0bb85d1343f65,2024-01-30 20:26:47,Álvaro,"Merge pull request #4603 from alvarotrigo/dev
+
+Mergin dev branch 4.0.21",True
+776c5c944acc53f4be4b1e7d1078a8900e557cf7,2024-01-30 20:19:30,Alvaro Trigo López,- Updating version & dist files & examples,False
+e30c54df07efd64fd505af5ad607a64c7a2728c3,2024-01-20 06:50:18,Alvaro Trigo López,- Updating version & dist files,False
+29681a0d1fef6a4e874c6ab1bf6f79420b6590ba,2024-01-20 06:47:23,Alvaro Trigo López,- Fixed bug: iPad Scrolling adjusting to section when using autoScrolling:false #4602,False
+5bf1f1d50210c578061b67d6b15df1833b9d9beb,2023-10-04 20:56:47,Alvaro Trigo López,- Docs: clarified scrollOverflow requirements,False
+35f1d220005bb9966616d48f49f888eeb7d3df29,2023-06-29 15:46:53,Álvaro,"Merge pull request #4563 from jefferyjohn/typo-throw-through
+
+Fix typo: throw->through",True
+907b0b53ed8c8e25e6137c187a3e1fa0e514c5d7,2023-06-29 15:27:38,jefferyjohn,Typo: throw->through,False
+3a26592355cb67f8d2e9f79c8c366bed58dd2dfb,2023-06-13 20:20:25,Álvaro,"Merge pull request #4556 from JayBox325/patch-2
+
+Added the <summary> element to focussable elements constant.",True
+b79edfd3e622e7c16cd96c1809656c07eaae1d92,2023-06-13 19:54:18,Jay Collett,"Update constants.js
+
+Adding the summary HTML element to the focusable elements constant.
+
+Building an application using the Gov.uk Design System and found a bug where the Details component wasn't focussable.
+
+https://design-system.service.gov.uk/components/details/",False
+eada2d8847c48340507b9689ee6e0f2bed64443c,2023-05-30 16:55:48,Alvaro Trigo López,- Updating module loaders examples,False
+3201d4afdd675056b73f70c3eee14a89f8dafd76,2023-05-29 20:00:19,Álvaro,"Merge pull request #4554 from alvarotrigo/dev
+
+Mergin dev branch 4.0.20",True
+ab2ccfac0285ae1bf82e2a40825b1c44eda46638,2023-05-29 19:55:37,Alvaro Trigo López,- Update dist files,False
+8ee9e41f7d9da8e5e87e3a9dbf73d803720d6cda,2023-05-29 19:54:56,Alvaro Trigo López,"- Fixed bug: destroy(""all"") not removing all styles #4537",False
+ef5de75f93747bc2303257633ea4354e7b7fc552,2023-05-29 19:23:04,Alvaro Trigo López,- Fixed bug: Fast tabbing creates UI problems #4550,False
+80a2e328cc05737bf4940be1a9f5f9b82be3e3f1,2023-05-29 19:11:26,Alvaro Trigo López,- Fixed bug: Tabbing won't work vertically when anchors are not defined #4549,False
+ab7f43397659ecec16170bbc8b19b1aad04d829f,2023-05-29 18:51:30,Alvaro Trigo López,- Updating brazilian language docs,False
+03e5db74ac6ac7267f6944bd7a7703fda3d66ade,2023-05-29 18:51:13,Alvaro Trigo López,- Updating version & dist files,False
+7efee985c3d43d4202dc9714fd1299668f86ad33,2023-05-29 18:50:39,Alvaro Trigo López,- Fixed bug when height larger than viewport.  Adding option scrollBeyondFullpage,False
+163b0cacb016a9a46a07406a3b15ec2a672b2cc3,2023-05-29 18:49:08,Alvaro Trigo López,"Update slides.js
+
+- Fixing error message bug on touch devices on nav",False
+83940e712de0e3b617248601c8f60694cfcb805f,2023-03-14 17:20:09,Álvaro,"Merge pull request #4527 from alvarotrigo/dev
+
+Merging dev branch 4.0.19",True
+06709e9e66338f5828a318621780355803287bb6,2023-03-14 17:18:15,Alvaro Trigo López,- Updating version on docs,False
+a9b8d880b80b9340269996e9b268727fa159aefa,2023-03-10 23:22:57,Alvaro Trigo López,- Updating version & dist files,False
+f25592748ad5da7f8333d549c5fead1f6ad1b512,2023-03-10 23:22:21,Alvaro Trigo López,- Fixed bugs with DragAndMove (horizontal bullets not activating + JS console errors),False
+8f02a514cd1957ded1abc68a16374b85373819b6,2023-03-10 23:19:37,Alvaro Trigo López,- Reverting fix for Safari bug #4522,False
+ff96a6cd303725e9da48a509d9d3dda1bd3967ce,2023-03-02 00:54:44,Álvaro,"Merge pull request #4523 from alvarotrigo/dev
+
+Merging dev branch 4.0.18",True
+3ff9ef79aba0a9f1290e22e5f9c88f155a325a04,2023-03-02 00:51:55,Alvaro Trigo López,- Updating version & dist files,False
+00dced766ee9a6ebbb581119bb8de0934b86b660,2023-03-02 00:50:04,Alvaro Trigo López,- Fixed bug: Flicker on scroll in Safari #4522,False
+39e3ecda507412a365bd8a7781d9a609afc861cc,2023-03-02 00:45:03,Alvaro Trigo López,- Fixed bug: autoScrolling: false and state class fp-viewing- not applying correctly #4521,False
+0d45ac151566c1cf8d44f948a73c3bd8842fb774,2023-02-16 18:46:46,Álvaro,"Merge pull request #4515 from alvarotrigo/dev
+
+Merging dev branch 4.0.17",True
+1f1b404d463dbc9adfa89b12e3ec958fb6f4ed30,2023-02-16 18:44:42,Alvaro Trigo López,- Updating version & dist files,False
+f84aba62f65f0911329ab8847b17bf460d08dc00,2023-02-16 18:43:09,Alvaro Trigo López,- Fixed bug: Cannot type on input on scrollOverflow sections #4514,False
+216d241943c9327c3b0626c04815ec636dc96d20,2023-02-02 22:53:33,Álvaro,"Merge pull request #4512 from alvarotrigo/dev
+
+Merging dev branch 4.0.16",True
+3cae6d175fc46183489214aee19401b13b80989e,2023-02-02 22:45:47,Alvaro Trigo López,- Fixed bug: applying fp-noscroll on section with slides prevented scroll #4505,False
+036bf5d995c9c5a549b500baa236d5a6c3147f80,2023-02-02 22:17:56,Alvaro Trigo López,- Fixed bug: using credits: false causes fullPage.js invalid license message #4510,False
+34e8a7a5794685e09c813eedb77deea6874ae4ff,2022-12-16 00:42:27,Alvaro Trigo López,- Updating dist files,False
+622d2334f2f78e1cae2c2a79bf35c64edbdebab4,2022-12-16 00:41:51,Alvaro Trigo López,- Fixed bug: Jumps to wrong section on scroll on Safari #4493,False
+b6da6036b08810d77009666f33643514fed7164b,2022-12-15 00:46:38,Alvaro Trigo López,- Updating CSS dist files,False
+0dd0f24aab896bc0432b08cac954243df3fc3f1a,2022-12-15 00:45:56,Alvaro Trigo López,- Fixed bug: fp-auto-height and scrollOverflow not working together #4498,False
+b4fee20d0503635329cbea0ab98bc88b4b4e945a,2022-11-29 22:22:30,Alvaro Trigo López,- Updating version & dist files,False
+b2be188b79a76e10ed81bb6c9991133f0bb566bd,2022-11-29 22:21:31,Alvaro Trigo López,- Fixed bug: invisible first section throws JS error,False
+747f6cc88b415a2f1276b54fa4b0ba684d0c2a1b,2022-11-23 00:32:07,Álvaro,"Merge pull request #4492 from alvarotrigo/dev
+
+Merging dev branch 4.0.15",True
+c2806026734cfbfce44deec6748c11a9073a4a0f,2022-11-23 00:21:17,Alvaro Trigo López,- Updating dist files,False
+565417d65097f113cf5731b569eb2b56432d9365,2022-11-21 22:08:31,Alvaro Trigo López,- Updating dist files,False
+c8e8da2c210046026dd1987032ef462317ff96ff,2022-11-21 22:08:12,Alvaro Trigo López,Fixed bug: Offset sections extensions not working as expected #4491,False
+d6f3d4c9a3f879c1797b490a5e91960ea133dfa0,2022-11-21 22:07:36,Alvaro Trigo López,- Fixed bug: Offset sections extensions not working as expected #4491,False
+b1582b57f22446c1f3fea56ab86531b3fc323a4f,2022-11-21 22:06:06,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+9692272f16d859517615ee895a16b9ccb2aade21,2022-11-21 22:06:04,Alvaro Trigo López,- Fixed bug: scrollOverflow: true + scrollBar: true causes touch events issues #4490,False
+155c19845d0127589f4ad935e4751d8ed04273ab,2022-11-21 17:55:51,Álvaro,"Merge pull request #4488 from cloydlau/master
+
+docs: fix outdated 'gziped size'",True
+85babfb9db5d8fc7a4759ee1d79650d315491940,2022-11-19 20:21:48,cloydlau,docs: fix outdated 'gziped size',False
+8ea21289f4ea59801f1a10cb1a13be7c2493539f,2022-11-15 05:00:23,Alvaro Trigo López,- Updating version & dist files,False
+e76ca8da36a8a5f387bafa0baf3f85f806733c2d,2022-11-15 04:59:30,Alvaro Trigo López,- Fixed bug: Safari applies wrong offset on scroll to anchor & scroll #4484,False
+63183686c1f244919cd0615355ec3ca93bb2298b,2022-11-11 23:30:27,Álvaro,"Merge pull request #4482 from alvarotrigo/dev
+
+Mergin dev branch 4.0.14",True
+4bdca7da9a2662a2d20da4703206a42dbfedf471,2022-11-11 23:29:43,Alvaro Trigo López,- Updating version & dist files,False
+7c9da27615916d11f19c10ae65ddeb7fc567199c,2022-11-11 23:29:04,Alvaro Trigo López,- Improving package.json,False
+ecd2e8137a4020f7881a01312d392a5a5fc6d939,2022-11-11 23:01:52,Álvaro,"Merge pull request #4481 from alvarotrigo/dev
+
+Merging dev branch 4.0.13",True
+ec206db4e5d41c6ba3366bd06160bf882777701a,2022-11-10 23:54:53,Alvaro Trigo López,- Enhancement: allowing extra domains,False
+787e4627fc17c6e33402d313114b541dbb6be831,2022-11-10 23:54:24,Alvaro Trigo López,- Enhancement: allowing extra domains,False
+21c50c93936e52a50d417d2e4dc178261d444314,2022-11-10 22:50:54,Alvaro Trigo López,- Updating dist files,False
+e2d40d650e703c38deb616feaecd13c91b2584fc,2022-11-10 22:49:42,Alvaro Trigo López,- Fixed bug changes on ScrollOverflow content trigger scroll page #4479,False
+f032c6f73ae0596c88bce1e129bdb623b51a724c,2022-11-10 22:16:30,Alvaro Trigo López,- Fixed bug: offsetSections extension had issues on page load,False
+f4497eaa978bb1554aff7fed676ca7124e730f0f,2022-11-10 18:49:03,Alvaro Trigo López,- Updating dist files,False
+bf5f7abfbe21166cdb1f4cedb8f31f3af1033cca,2022-11-07 19:21:44,Alvaro Trigo López,- Updating dist files,False
+a1db66e877da042704509eff8957d3568d84d643,2022-11-07 18:49:46,Alvaro Trigo López,- Fixed bug: auto-height sections ignored min-height #4471,False
+27416deef188f9ff4ba369356f8dcd1a030dfef7,2022-11-03 22:22:40,Alvaro Trigo López,- Documentation: updating backers,False
+ab9a407ff60740262ad34876914148b178980597,2022-11-03 22:19:16,Alvaro Trigo López,- Documentation: updating bakers.md,False
+2b35dbeb4036c0fdc53ad3685d5f2b8dfe98c294,2022-10-28 17:20:56,Alvaro Trigo López,- Updating version & dist files,False
+55d5236f717b8342c4a570f56be706c8a60a2e23,2022-10-28 17:00:34,Alvaro Trigo López,- Fixed bug: responsiveSlides showed a console error,False
+047dc069ca1108dd09ea81ac49f757cd21f149c6,2022-10-25 03:47:47,Álvaro,"Merge pull request #4472 from alvarotrigo/dev
+
+Merging dev branch 4.0.12",True
+de25a6df1a00a3f96618156d309cd55b0a1c8116,2022-10-25 03:37:29,Alvaro Trigo López,- Dist files,False
+5feff19878d05215c7a8f5add4236652db7deef3,2022-10-25 03:36:59,Alvaro Trigo López,- Docs: removing websites with no fullpage.js,False
+d2a884e6b976a747df2ab646941c3f8a6749a207,2022-10-21 00:11:12,Alvaro Trigo López,- Fixed bug: auto-height sections ignored min-height #4471,False
+078c6d80efde4bde1d9166070c4a7af42ca72a44,2022-10-17 21:17:23,Alvaro Trigo López,- Updating dist files,False
+41d4bc1e81e2a5e3a7b9d4099f28997b60aebf4e,2022-10-17 21:17:10,Alvaro Trigo López,- Fixed bug: Responsive Slides bugs fixed,False
+05755401fdc14a2d3702135d0126a7fed71b71e1,2022-10-17 21:16:25,Alvaro Trigo López,- Forcing credits when license invalid,False
+81d642041af47086c1abe14a6e8e72cf79d2161b,2022-10-03 23:27:43,Alvaro Trigo López,- Updating dist files,False
+ac2044c8344291e89257e8b6fd20ac2d31b48cfc,2022-10-03 23:27:32,Alvaro Trigo López,- Fixed bug: scrollBar:true didn't prevent touch scroll sometimes,False
+2394f19d636a27abf9556edf4c5d28208f502d35,2022-10-03 22:23:00,Alvaro Trigo López,- Updating dist files,False
+3309fd57afb1cd336e098b0014141cf022b47b55,2022-10-03 22:22:23,Alvaro Trigo López,- Fixed dev bug: variable was getting overwritten,False
+84f8566fc62ac8a4c1a6042e07588ccadacaafd7,2022-10-03 22:09:54,Alvaro Trigo López,- Updating dist files,False
+6feb40b82be6a3e4a124fb15fad903ed9305e1c5,2022-10-03 22:08:59,Alvaro Trigo López,- Fixed bug: Auto Height Section Issue When Auto Scrolling Off #4467,False
+a5fde57f4e24cf26d28bd22e6dd79a2a2407ecf9,2022-09-18 21:47:06,Alvaro Trigo López,- Fixed bug: gplv3 license was giving error #4463,False
+d524e2c44dea351e3fc743e20374cb2c3d442634,2022-09-18 18:34:41,Alvaro Trigo López,- Dist files,False
+33df31540597de5669765c29a80309f4d441f951,2022-09-18 18:34:31,Alvaro Trigo López,- Fixed bug: slides not sliding after resizeEvent triggered on input change #4466,False
+9a650606c041044156885aace7a69d81161ece8a,2022-09-16 20:30:10,Alvaro Trigo López,- Documentation: updating links to https,False
+99ccdd46b45070bb352842a29d7ce8fd0ef3fc4a,2022-09-16 19:41:37,Alvaro Trigo López,- Documentation: indent sublists + removing unnecessary text,False
+d3806f9c63f4e2c474869c83d65e438017bd25cd,2022-09-16 18:22:28,Alvaro Trigo López,- Documentation: Indenting options lists,False
+ed5fb2ecca4208deb6fd088ac778b4b90b698aef,2022-09-16 18:04:20,Alvaro Trigo López,- Updating version & dist files,False
+5c4dfc4225475d3f10486f57592fd914c434c8c1,2022-09-16 18:03:48,Alvaro Trigo López,- Refactoring: transforming event strings to properties,False
+9bf95e6fe6c8bd7bb4becb157434f7eaf80c9634,2022-09-16 18:01:38,Alvaro Trigo López,- Enhancement: removing commented out styles,False
+20374f9b55a20cb2c6076385f9f6b672da523e8b,2022-09-16 17:59:20,Alvaro Trigo López,- Fixed bug: Loading page with anchors shows wrong section/slide when using scrollOverflow #4464,False
+1e8ff7f286b199fe120cb02ff4d9822e2dad56f1,2022-09-08 16:45:02,Álvaro,"Merge pull request #4459 from alvarotrigo/dev
+
+Merging Dev branch 4.0.11",True
+7a0f623f0930241483f8507bb2113a3978f7ea1e,2022-09-08 16:44:27,Alvaro Trigo López,- Fixed bug: licenseKey was showing an error on IE 11,False
+6ef392a81d5beb307254592576dccb59c632ce24,2022-09-08 16:11:37,Alvaro Trigo López,- Updadting examples dependencies,False
+2ce89f8d970d51b6050fe5e55fc676d2215ebebf,2022-09-08 16:09:27,Alvaro Trigo López,- Documentation: adding links to brazilean docs #4417,False
+70804fbae0827b05c33afebbbd7f2f929b7014d5,2022-09-07 23:39:56,Alvaro Trigo López,- Fixed issue with scrollOverflow: true and verticalCentered: false,False
+3e263c32ed97190dde37d5144de770d91f1f05b7,2022-09-07 21:21:27,Alvaro Trigo López,- Documentation: updating link to migration guide,False
+f39c07a0647b583adff0f71b236495caa5b1bede,2022-09-06 22:17:06,Alvaro Trigo López,dist files,False
+4965c2b586007c96a9e1fca56e89c3b0b3f20422,2022-09-06 22:16:41,Alvaro Trigo López,- Fixed bug: fp-noscroll didnt show top of content #4430,False
+510e2fae2baab2d5035a5d1597953594549958b5,2022-09-06 21:56:56,Alvaro Trigo López,- dist files,False
+2fb2a7e339b07a03b71fee667f36f7db7040db47,2022-09-06 21:56:46,Alvaro Trigo López,- Undoing #4430,False
+39537a7a16ae03b8f7e6d16882e3d0db6c1156b5,2022-09-06 21:27:37,Alvaro Trigo López,- Documentation: fixed typo,False
+0213baa5913a1ccb4130a7a043113812cf879c5b,2022-09-06 21:21:56,Alvaro Trigo López,- dist files,False
+456b09b3ae5a8dfcdeac169015f55483e9cf32d8,2022-09-06 21:19:33,Alvaro Trigo López,"- Fixed bug: scrollable content wasn't able to have background #4448 #4447
+
+- Enhancement: dynamically adding content will automatically create scrollable elements when using scrollOverflow: true.",False
+614dcf4ad9c28822454c68dd485bf431fcd616d6,2022-08-30 20:28:14,Alvaro Trigo López,- Reverting fitToSection from CSS Snaps to custom JS,False
+30beb1b04a8115fb7211c4e427abdc8bbafedcad,2022-08-30 16:04:19,Alvaro Trigo López,- Updating dist files,False
+4be022da6eb3f4693d44a4dfd29e619b568bf290,2022-08-30 16:03:49,Alvaro Trigo López,- Fixed bug: scrolling issues iOS + ScrollOverflow + horizontal slides #4454,False
+7769ef30059137d815ef5bc4ebb0414795e6993d,2022-08-30 15:58:01,Alvaro Trigo López,- Fixed bug: Section Overflows with scrollBar:true & large content #4447,False
+fd941cc9ecabf9ae3cadf2137fe57d3c54b7ebca,2022-08-27 00:33:02,Alvaro Trigo López,- Updating dist files,False
+2c36b0e508fed9870ed5c6e560548edd97bdf1e1,2022-08-27 00:32:42,Alvaro Trigo López,- Improved: tabbing did't force scroll #4453,False
+d476e2073f01698ad7b7e988d9f4f4a4f69938f4,2022-08-26 23:56:40,Alvaro Trigo López,- Improved: tabbing did't force scroll #4453,False
+ca3f3fb9757700915703f9fc0f2396e80fb66321,2022-08-25 23:21:32,Alvaro Trigo López,- Updating dist files,False
+32c51e00ba58d37ef9f27c69848dd7bc0a9141e6,2022-08-25 23:20:43,Alvaro Trigo López,- Fixed bug: Fast click on nav bullets caused unwanted glitches,False
+5737c0894af783aa7e7f657f7af4d15e1a6832d8,2022-08-25 23:08:36,Alvaro Trigo López,- Updating dist files,False
+1e65392e4c8b2cb6dfcad84e6ee2d3737fffd7fc,2022-08-25 23:08:07,Alvaro Trigo López,- Fixed bug: scroll event not being captured on window object using CSS snaps with fitToSection: true,False
+ec267aecb4b05e32dad41cb635fbff1ccc97c9d4,2022-08-25 16:09:39,Alvaro Trigo López,- Updating dist files,False
+1da0d7bc3af5f562b86699ba0ab501db8943a62b,2022-08-25 16:09:22,Alvaro Trigo López,- Updating version & dist files,False
+94be027ba05fdbc126a59329e4ce5902c130ada8,2022-08-25 16:08:25,Alvaro Trigo López,- Dist files update,False
+ee9d8bf3c8f09ec5f01d086c95be688ba6d9fb05,2022-08-25 16:06:52,Alvaro Trigo López,- FIxed bug: Keyboard scrolling not working on responsive mode #4452,False
+21e63855482644a53c2fb56a6f7f32fe3fe92844,2022-08-24 13:30:19,Álvaro,"Merge pull request #4450 from BossElijah/patch-1
+
+Fix minor grammar issues",True
+6b52438a1ff1b2e0445ce6fbe0fd2eaa680a9c08,2022-08-24 13:16:33,BossElijah,Fix minor grammar issues,False
+c2c6ccd433bf4fdf2929b7e6a129a4c7619744a9,2022-08-24 01:01:02,Alvaro Trigo López,- Fixed bug: keyboard navigation on scrollOverflow section didn't focus/blur,False
+da56d488f9929a2a2bc9217b80396d455d291ecf,2022-08-23 22:19:39,Alvaro Trigo López,- dist files,False
+6a6f9667b29c90ace25d6059beb1c69224434a52,2022-08-23 22:17:33,Alvaro Trigo López,- Fixed bug: Section Overflows with scrollBar:true & large content #4447,False
+14be7deb3cdefe4d3ac15a266cf55d7dcf7c85c4,2022-08-23 21:18:47,Alvaro Trigo López,Dist files update,False
+e1e62b001fcd53bc36f3cdbc372e9390ac6c41d9,2022-08-23 21:15:32,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+ff8a0644835a3d8e8382024fa0e281b9ee8ab0d3,2022-08-23 21:15:16,Alvaro Trigo López,Dist files update,False
+101511944700e6ac4373b314ebfa1bf4b874170f,2022-08-12 03:36:03,Álvaro,"Merge pull request #4417 from guilherssousa/dev
+
+Add translations to Brazilian Portuguese",True
+3ee71c04efc61abce075a6a2b487b16df68ff4d6,2022-08-07 17:27:25,Álvaro,"Merge pull request #4440 from alvarotrigo/dev
+
+Merging dev branch 4.0.10",True
+d5efc85afb1371184fc8790673fad990bb87dfdb,2022-08-07 17:17:44,Alvaro Trigo López,- Updating dist files,False
+7bfcc81e8cf0c578e8f37f74346198521dc679e6,2022-08-07 17:15:15,Alvaro Trigo López,- Documentation: fixing codepen link,False
+ae52d51d20e8a767a2de144d87c2a2e8d6754371,2022-08-07 17:08:58,Alvaro Trigo López,- Fixed bug: auto-height + scrollOverflow #4435,False
+8056f4b53895da9e4b7d4180653b827e8ce6e70e,2022-07-27 21:15:07,Alvaro Trigo López,Updating dist files,False
+9161f217b63885681680b88d610eab18467e4bd6,2022-07-27 21:14:41,Alvaro Trigo López,Fixed bug: menu doesn't work when I use responsiveWidth #4432,False
+085102da5395736840cd417a8a5cdb41cfbe3753,2022-07-18 11:39:35,Alvaro Trigo López,- Updating dist files,False
+bf29bc35801663cedafce7cee6e17bf31ce1dba5,2022-07-18 11:39:12,Alvaro Trigo López,- Fixed bug: fp-noscroll not working #4430,False
+905ffe8e8886195da9d5cad135b5cf6c4d10c6d4,2022-07-11 16:06:17,Alvaro Trigo López,- Enhancement: improved error message for licenseKey,False
+590597cffe7d0bade010a654d6015cc333727629,2022-06-21 16:14:21,Alvaro Trigo López,- Updating dist files,False
+ab85f2444961abd744ddfed67a50a5d824dc2492,2022-06-21 16:14:06,Alvaro Trigo López,- Fixed bug:  white screen when clicking input on Android #4420,False
+e3272e84f7d4088f7348c03ed19ce16c6bdf3d77,2022-06-17 16:26:39,Alvaro Trigo López,- Fixed bug: beforeLeave not triggered on scroll on page load #4418,False
+e658e786729faa1eacadbb040d5bd8f54059dbaa,2022-06-17 04:58:26,Guilherme Sousa,Fix link references in README.md,False
+73a0d00231807b4ca10aec93d0c7cfc09b985e39,2022-06-17 04:52:25,Guilherme Sousa,Remove double anchor #2,False
+cbd1b164c2cc9efe74e1ab9046781f94fc4ea3d0,2022-06-17 04:52:06,Guilherme Sousa,Remove double anchor,False
+d3efa3168b338fa533068ef02f200b330f32346a,2022-06-17 04:51:34,Guilherme Sousa,Change README.md main sentence to portuguese,False
+266af509ddf4d8b74a62ea1c81dab7dc9b1b6412,2022-06-17 04:50:54,Guilherme Sousa,"Change ""Reportando falhas"" to ""Relatando Problemas""",False
+db199ed79e5ccd19b422cd247851d15b07ba084e,2022-06-17 04:49:25,Guilherme Sousa,Update other languages .yml to add br references,False
+5c8e560d97e716c578d92d2a0225ac055cf9d06f,2022-06-17 04:43:14,Guilherme Sousa,add parallax-extension.md in portuguese,False
+7b0b54977ec9d4baa566aac966356ef88c4d2f5b,2022-06-17 04:21:30,Guilherme Sousa,Undo name change,False
+3c0059121fc214d6796444969161a4c6721d2b91,2022-06-17 04:20:34,Guilherme Sousa,change alvarotrigo to guilherssousa to test hyperlinks,False
+daa25b50ced7785bcc8373436623f675c74a890a,2022-06-17 04:19:34,Guilherme Sousa,remove brazilian folder,False
+5dc6c1e45885db4344be4c6caa8046d26f0acd27,2022-06-17 04:19:07,Guilherme Sousa,Merge branch 'dev' of https://github.com/guilherssousa/fullPage.js into dev,True
+a9ccd7a715bda3ed8f9347db37a9997da938e701,2022-06-17 04:19:00,Guilherme Sousa,add other languages hyperlink for pt-BR README.md; fix links on pt-BR,False
+d46f7ccbe26392fb40e18a623592a1063a96958d,2022-06-17 03:59:33,Guilherme Sousa,Create README.md in Brazilian Portuguese,False
+870d60a7b5a4fb2b79f7b479623a8d41532c024c,2022-06-17 03:11:52,Guilherme Sousa,Create br.yml,False
+f3f7da0a7602bbd9ffb493d52a1460869c45ae64,2022-06-16 21:20:27,Alvaro Trigo López,- Examples: Improved callbacks example,False
+40b4baac22fa0236ead4a35456c2a06fa798143b,2022-06-16 21:20:07,Alvaro Trigo López,- Updated version & dist files,False
+f6a15993004440a20771715082ed007382d85fc8,2022-06-16 21:19:07,Alvaro Trigo López,- Fixed bug: scrollOverflow + parallax didn't work,False
+f831e955a26b5a6359e0583098bab5793def0e84,2022-05-30 22:36:43,Álvaro,"Merge pull request #4401 from alvarotrigo/dev
+
+Merging dev branch 4.0.9",True
+957f1793aae5d75c36ee685c0a53057e01002b8e,2022-05-30 22:34:24,Alvaro Trigo López,- Updating dist files,False
+de65a8102499a2df0bae29060cc17e7fc128c161,2022-05-24 21:31:27,Alvaro Trigo López,- Updating dist files,False
+1f561ab8ce8a6ba7a49f4d153f3233ac5d4079e0,2022-05-24 21:31:00,Alvaro Trigo López,- Fixed bug: scrollBar causes no scroll transition scrolling back #4398,False
+d39e66ddfa7f326abf53cece394834123610ce45,2022-05-24 21:00:44,Alvaro Trigo López,- Updating dist files,False
+7667478283f03aac3f04b274ef8c42d2df758bb1,2022-05-24 21:00:30,Alvaro Trigo López,- Fixed bug: Fullpage stops scrolling while swiping before movement ends #4397,False
+bae59d34fe340d7c9bdc8c31cbf29d77167317e6,2022-05-24 20:05:11,Alvaro Trigo López,- Updating version & dist files,False
+cbfa95518cc0ae48d7efc3f4fcb75429b871ca29,2022-05-24 20:03:04,Alvaro Trigo López,- Fixed bug: Fullpage stops scrolling while swiping before movement ends #4397,False
+09c5a67d41bd1fe10915123f4c573a263adebe96,2022-05-20 23:22:29,Álvaro,"Merge pull request #4395 from alvarotrigo/dev
+
+Merging dev branch 4.0.8",True
+7a73073851c674cdf9b19c68189cc5ad9ce9bcf8,2022-05-20 23:17:07,Alvaro Trigo López,- Updating dist files,False
+a797d88753b961e891e291a01e684987d3573c82,2022-05-20 23:15:55,Alvaro Trigo López,- Fixed bug: fixing problem with react-fullpage &  gatsby #325,False
+df2dca784ffd785b97ca4b54aa4c46364c9c637a,2022-05-20 23:11:30,Alvaro Trigo López,- Fixed bug: focus input on Android mobiles #4393,False
+dbd57aabd3ef34079a382e9786db9306d147dcb9,2022-05-20 23:10:50,Alvaro Trigo López,- Enhancement: improved scrollBar: true performance #4344,False
+0b27e29d2c13324cbe79d5ab53d1866c7eeb615d,2022-05-20 22:42:32,Alvaro Trigo López,- Improving #4393,False
+46c021129e1ba4ff025ee195efd43a9894ed6247,2022-05-19 21:33:35,Alvaro Trigo López,- Fixing bug on input focus on Android #4393,False
+7ac0c5b8773ddeb31bb37a00b7a1110f441373f5,2022-05-11 17:27:15,Alvaro Trigo López,- Updating dist files,False
+29756b8d3aed0cc4974ef34ad3790b7b70d37ad3,2022-05-11 17:26:58,Alvaro Trigo López,- Fixed bug: scrollOverflow + floating distances prevented it from moving to next section ##4391,False
+63120b676e2ed294b8f4a7144293d27b8049751b,2022-05-11 16:51:36,Alvaro Trigo López,- Updating version & dist files,False
+57d163c5df02d62fcef0e38be8e0b95dd9669f12,2022-05-11 16:50:38,Alvaro Trigo López,- Fixed bug: fullpage.js didn't work on Safari < 13 #4390,False
+a95be5ec92e907948913c4233a0916711582cb88,2022-05-09 21:39:06,Álvaro,"Merge pull request #4389 from alvarotrigo/dev
+
+Merging dev branch 4.0.7",True
+83f28a6cc12aed47d9a323f43027e9c1940b969e,2022-05-09 21:30:11,Alvaro Trigo López,- Updating dist files,False
+a3f088ef97ba09d6ebb641c9a1a8bc8b6acef595,2022-05-09 21:28:21,Alvaro Trigo López,- Updating dist files,False
+a4fe5de92d91fc3535efd0b0db17611d36ba21d0,2022-05-09 21:10:32,Alvaro Trigo López,- Fixed bug: ScrollOverflowReset not working as expected #4388,False
+299417b90b77dce1de1f908293d065252257c498,2022-05-09 21:09:20,Alvaro Trigo López,- Fixed bug: scrollBar & fp-auto-height & fitToSection not working #4380,False
+97b1ca932bb8f67729fe19925e672bf9169a7af5,2022-05-06 14:55:06,Alvaro Trigo López,Update fullpage.extensions.min.js,False
+9f5b9f22e3271952cadc509bf0fc6e94c92738ba,2022-04-30 18:50:59,Alvaro Trigo López,- Fixed bug: watereffect + dragAndMove minified options issues,False
+40d9c7fab9ea2bf0195a0ed0bcc482bec166e89a,2022-04-26 23:14:03,Alvaro Trigo López,- Fixed bug: Spacebar not working in form fields #4373,False
+c376ca61d0d6086147ae9594832ef2dad338ba2f,2022-04-26 22:27:07,Alvaro Trigo López,- Fixed bug: touchScreen swipe with fitToSection:false & scrollBar:true - always scrolls down #4376,False
+3ad6702e1252debe6c25c3841f1a9652f58bec5a,2022-04-21 00:22:40,Alvaro Trigo López,- Fixed bug: invalid license breaks site #4368,False
+e558fc7c8d267d826b33728b6a03dcd2756d7414,2022-04-19 16:40:51,Álvaro,"Merge pull request #4367 from alvarotrigo/dev
+
+Merging dev branch 4.0.6",True
+47a81332d49bb124d3097c61191ada22ca0ad4c4,2022-04-19 16:40:31,Alvaro Trigo López,- Updating version,False
+79962ff708f1619ba06ccd4b6609c33d16cbb654,2022-04-19 16:36:41,Alvaro Trigo López,"- Fixed bug: getActiveSlide didn't work
+
+- Fixed bug: problems with licenseKey verification",False
+97bd9207f436f93f3ca44cec59a6f357ceed0241,2022-04-13 03:34:29,Álvaro,"Merge pull request #4361 from alvarotrigo/dev
+
+Merging Dev branch 4.0.5",True
+1bfdae99e801346166eca7939031f1962225d0fa,2022-04-13 03:31:35,Alvaro Trigo López,"- Fixed bug: scrolloverflow wheel didn't work on touch screen devices
+
+- Fixed bug: security issue",False
+e7a5db42711700c8a584e61b5e532a64039fe92b,2022-04-13 01:44:07,Álvaro,"Merge pull request #4360 from ranjit-git/ranjit-git-patch-1
+
+Ranjit git patch 1",True
+1bfccc545c1d165a6f0d3982467538404b50a2ed,2022-04-12 22:58:24,ranjit-git,Update slides.js,False
+368cf10ea52ab294b08c4ede4d90339616dad4ce,2022-04-12 22:57:48,ranjit-git,Update sections.js,False
+8e8dbd280ff09f1ae3faac5b9ac220eb258fd696,2022-04-12 22:56:29,ranjit-git,Update fullpage.extensions.min.js,False
+3fd81be964fb7d778bf5696de4b613d4b960f88c,2022-04-12 22:55:43,ranjit-git,Update fullpage.js,False
+84e1a42b0b1530537d91ba3bbecaff950fbfddfe,2022-04-12 22:39:37,ranjit-git,Update fullpage.min.js,False
+0955c40e2f2006a2ae2f3eae200d5b30cf523bf3,2022-04-12 05:05:03,Álvaro,"Merge pull request #4359 from alvarotrigo/dev
+
+- Fixed bug: some options didnt work in minified files",True
+fc4873f60e9f5a9f19c258ded143f4ce7fe6e71e,2022-04-12 05:04:40,Alvaro Trigo López,- Fixed bug: some options didnt work in minified files,False
+a314d399049f80e8eca0cb8a20ecf08adafbe621,2022-04-11 21:39:02,Álvaro,"Merge pull request #4357 from alvarotrigo/dev
+
+Fixed bug: jQuery adapter failed with minified file",True
+83d66e4b62938217a0ed1fc29a009f477fa12a33,2022-04-11 21:38:21,Alvaro Trigo López,- Fixed bug: jquery adapter failed with minified file,False
+581a8dd402a27046073c10426b7a2431f2e32efe,2022-04-11 20:47:17,Alvaro Trigo López,- Updating version,False
+bf62492a22e5d296e63c3ed918a42fc5645a0d48,2022-04-11 08:06:51,Álvaro,"Merge pull request #4351 from alvarotrigo/dev
+
+- Fixed bug: jquery adaptor didnt work",True
+48c474e366163ef341121a8c8f56aa2dc94ea60e,2022-04-11 08:06:28,Alvaro Trigo López,- Fixed bug: jquery adaptor didnt work,False
+9ece753a75f956d553befae8d5ba3921c4256775,2022-04-11 07:40:29,Álvaro,"Merge pull request #4350 from alvarotrigo/dev
+
+- Fixed bug: extensions issues",True
+5fad59f0ea7770eb3eb0cc29cde1846e41ff79c7,2022-04-11 07:40:04,Alvaro Trigo López,- Fixed bug: extensions issues,False
+50790f9b2161c5f7eb826ed64c9629b0425ad942,2022-04-11 04:54:14,Álvaro,"Merge pull request #4349 from alvarotrigo/dev
+
+Docs improvements",True
+9cc55a660d180f44bee3697f998456b982d70a3f,2022-04-11 04:52:33,Alvaro Trigo López,- Docs: removing //methods on example,False
+e5ff6ec71eb5eb41034f5b7527518d71ca25fa53,2022-04-11 04:51:13,Alvaro Trigo López,- Docs: removing reference to scrolloverflow.min.js,False
+9bc6e8327e55884a35e79b5da7c276f1ef3d03ef,2022-04-11 04:48:58,Álvaro,"Merge pull request #4348 from alvarotrigo/dev
+
+- Docs: updating compatible  img",True
+9fb2c36464149e79c5689d2abe3a621b16335168,2022-04-11 04:48:40,Alvaro Trigo López,- Docs: updating compatible  img,False
+0ded7085c599c6a442551071d70ef795ea945779,2022-04-11 04:47:43,Álvaro,"Merge pull request #4347 from alvarotrigo/dev
+
+- Docs: updating version",True
+c0c456e57777438a445b7935ae5cb2e84c7f4df0,2022-04-11 04:47:05,Alvaro Trigo López,- Docs: updating version,False
+189177e5d4450af62482141768f9374db3e3982c,2022-04-11 04:46:13,Álvaro,"Merge pull request #4346 from alvarotrigo/dev
+
+Merging dev branch 4.0.0",True
+d7f4194f0c98b0eb58451bb8c4dd4c234910b7e4,2022-04-11 04:39:10,Alvaro Trigo López,- Docs: en compatible img,False
+7e7ad9e93e96977fc46d4773b763851c5493c6f5,2022-04-11 04:37:11,Alvaro Trigo López,"- Docs: fixed en version
+
+- Docs: dropped iE 9 support",False
+9121fde19f05c18964f5a1710d24d5f1997f3c57,2022-04-11 03:39:51,Alvaro Trigo López,Examples: updating dropdown list,False
+d8de5fa2be60d6194e364d5df7814f6a69c73c11,2022-04-11 03:34:41,Alvaro Trigo López,- Examples: updating list,False
+c22784505613c5c308be32aa7de9d416284600a6,2022-04-11 03:25:56,Alvaro Trigo López,- Documentation: updating version,False
+40573ed315f913b8e42ef246a7406cea0920d8de,2022-04-10 03:56:33,Alvaro Trigo López,- getScrollY for autoScrolling: false & scrollBar:true #4043,False
+76a8107d05fb894fb2441f4b6238bd1210872981,2022-04-10 03:50:35,Alvaro Trigo López,"- Fix + feature
+
+- getScrollY and getScrollX #4043
+- keyboard scroll inside scrollOverflow
+- docs: fixing ""this"" in callbacks #4050",False
+19df3c9f78445a5b13a127219de19e0b3290d7b0,2022-04-10 00:40:25,Alvaro Trigo López,- Documentation: getting rid of confusion #4256,False
+99f17ae9e853ccb8420b406ed73171e71d256dec,2022-04-10 00:34:57,Alvaro Trigo López,- Enhancement: added security file #4328,False
+731daf30d87e4f1989511a792b6013573eb41423,2022-04-10 00:08:01,Alvaro Trigo López,- Updating version numbers & updating gulp task for it,False
+7c42997a804db1602ad87aa6c2d22d936cea87d7,2022-04-09 23:46:56,Alvaro Trigo López,- Adding migration guide,False
+733c54a855314376f3ab5a58028bb0c04a3679ac,2022-04-09 23:16:32,Alvaro Trigo López,"- Fixed bugs & improved examples & added more
+
+- Fixed bug: resize when inside beyond fullpage
+- Fixed bug: couple of extensions issues
+- Docs: removed fitToSection
+- Docs: added migration guide",False
+b0b972546e1a3efc4d90da3cd9e51da38a2a0aed,2022-04-06 23:31:19,Alvaro Trigo López,- Fixed bug: slide on autoHeight slide when not active section on control arrow click,False
+59c73e22aeccc8a382202b11bba35f22bb77efad,2022-04-06 23:16:28,Alvaro Trigo López,- example: active-slide update,False
+17b1b8502d0897a166239d952f55dded2cd7fc43,2022-04-06 23:12:14,Alvaro Trigo López,"- Few improvements
+
+- onScrollOverflow now reports direction (updated docs too)
+- removing/adding slides keeps active one
+- examples: callbacks updated
+- examples: hide-sections
+- examples: observer
+- examples: scroll-after-fullpage",False
+84b5a584eef2507f582b0dbc0f2fb3553d983630,2022-04-06 19:03:12,Alvaro Trigo López,- Fixed bug scrollBar: true didn't work on scroll,False
+fc41a21677ad69f629b002bcfe30abea343cf258,2022-04-05 23:35:57,Alvaro Trigo López,- Removed old examples,False
+49a089bf47fadf33673755dac5f412b8e32edec2,2022-04-05 22:36:30,Alvaro Trigo López,"- Improvements
+
+- Docs: added new options for scrollOverflowReset
+- Fixed bug on dragAndMove with fitToSection: true
+- Used variable for fp-overflow string",False
+c6d155efd304562c262a512a5d0213af3d02d99f,2022-04-05 21:05:10,Alvaro Trigo López,"- Improvements
+
+- Beyond fullpage.js scroll with keyboard
+- Add table class inside styleSections
+- Added scrollTrigger ""menu""
+- Scroll to nearby section on sections removal/hide",False
+6aca1275a715a90eaaba93a1e009309bcbcc0471,2022-04-02 17:43:56,Alvaro Trigo López,updating dist files,False
+890b717ae244cb2b198b17e481b9f79be453afa9,2022-03-31 21:15:38,Alvaro Trigo López,- Updating dist files,False
+6ff0cb67832e691ecf13078a40e3b3caa934460f,2022-03-28 21:08:59,Alvaro Trigo López,- Minor changes,False
+d2ba3ea85b9b0af0760802c4ebb6d959c1aec41d,2022-03-27 22:30:24,Alvaro Trigo López,- Reducing output file size a bit more,False
+cd81f3cda14556165dce9debcc33acd8d9b00ff6,2022-03-27 20:58:32,Alvaro Trigo López,"- Update
+
+- Fixed bug: overwriting default values
+- Fixed bug: dragAndMove and snap scroll
+- Fixed bug: parents 100% height for extra wrappers around FP
+- Fixed bug: allowCorrectDirection was not working on touch
+- Fixed bug: destroy emitter not working as expected
+- Documentation: updated to v4
+- Removed v3 files & vendors",False
+0998df37c7bf86643007ab843a8f8ae05bd5b1f6,2022-03-16 23:35:05,Alvaro Trigo López,- Improving tests,False
+902c448afa827c5474f42cb3ee50a039d472e787,2022-03-16 23:33:59,Alvaro Trigo López,"- v4 version
+
+- Split code in folders
+- Added watermark
+- Added license system
+- Gulp tasks for extensions",False
+5ba4118bc62f7023f04b63b1866dae1d3bcd82d4,2022-03-16 23:15:11,Alvaro Trigo López,"Update .gitignore
+
+- Ignoring hidden gulp file",False
+ee05b1de8e48f9ad37de54c115d797d245b32613,2022-03-16 21:46:14,Alvaro Trigo López,"Update .gitignore
+
+- ignoring extensions files",False
+0f900727eaf30f9e63c981646b06764487b7966c,2021-11-11 22:32:01,Alvaro Trigo López,- Splitting in modules,False
+b7622c54f501494852471fd327c69f603ad029f0,2021-10-21 22:24:10,Alvaro Trigo López,- Scroll Beyond fullPage.js,False
+ab3d66ed059afb8292fc1dec186985044ba23a39,2021-10-06 02:59:36,Alvaro Trigo López,"- Adding allowCorrectDirection option
+
+- Fixed keyboard scrolling on scrollable sections
+- Fixed problems with invisible sections/slides
+- Fixed bug with fitToSection + scrollBar
+- Fixed bug with keyboard/wheel scroll on scrollOverflow while moving to another section
+- Fixed scrollOverflow on horizontal slides
+- Fixed css snap and move to section
+- Removed multiple timeouts for resizeHandler",False
+51ff9e58e39cd98e3e7f02d9c49d49efc8bb7ee0,2021-09-28 20:53:29,Alvaro Trigo López,- Added option `scrollOverflowMacStyle`,False
+1153f6fbb0fd0a65d41f057fef364a940b2d3991,2021-09-27 22:57:04,Alvaro Trigo López,"- Improving state implementation
+
+- Fixed bug with scrolloverflow on slides
+- Updating state correctly on dom changes + resize
+- scrollOverflow callback
+- Fixed issues with  css snaps when using fitToSection",False
+a3ae0bb98b9d25f51d1600860314e97123f577f8,2021-09-21 23:35:46,Alvaro Trigo López,"- Fixed bug adjust to viewport on resize
+
+- Fixed bug: verticalCentered with scrollOverflow",False
+a8e2b9e9c205e2941fd2975ab7cbac7bce8fb63d,2021-09-21 02:49:26,Alvaro Trigo López,- fullpage.js improvements + fixed bugs passing tests,False
+ad5bb71b89d19ccd08ae46b9f98a60cbe9e27df3,2021-09-17 21:48:01,Alvaro Trigo López,"- fullPage.js improvements
+
+- Removed scrolloverflow dependency
+- Better internal stage management
+- Fixed bug with unintnetnional scrolling when using scrolloverflow
+- Added new callback beforeLeave
+- Added new param on callbacks: trigger",False
+5707dd5ea89d3d36936b7961a1669f40141acfda,2021-09-14 21:31:32,Alvaro Trigo López,- Docs: improving russian docs,False
+40395beff42aaa700fbeff9e149e1b29d452aa7e,2021-07-30 22:52:18,Alvaro Trigo López,- Fixed bug in documentation,False
+79aa8f5d43673b053f14c466290452097104aa0b,2021-07-05 21:18:00,Alvaro Trigo López,- Fixed bug: sections height were not full-height when content was scrollable,False
+c6dc73153111ab6d82b9109ce38bb351778c0359,2021-07-05 19:42:33,Alvaro Trigo López,"- Replacing pixel height for 100% or 100vh
+
+- Removing fp-tableCell
+- Replacing display: table for display: flex
+- Removing height on px for 100% or 100vh",False
+a5f17af4030250df7d214eef4bcbdfbb83da0652,2021-07-02 22:32:36,Alvaro Trigo López,"- Automatic rebuilds
+
+- Improving automatic scrollOverflow update
+- Auto detect new sections / slides",False
+12a9eb3ba0e5f318624ce2ab7d58e9404ae91666,2021-07-01 23:05:54,Alvaro Trigo López,- Added new option too use custom arrows for slides,False
+ca9dd1401664449b3f138cbf7e5e34cf0454fc7c,2021-07-01 22:23:17,Alvaro Trigo López,- Triggers mouse wheel event once per scroll action,False
+4833d9b3978d40584ca702d3d2d1087f98acdf3c,2021-06-30 23:05:48,Alvaro Trigo López,- Adding snap-css when autoScrolling:false,False
+116bd816c1d132c51110d0bd28614b2551990a82,2021-06-30 21:09:00,Alvaro Trigo López,- Auto building scrollOverflow when changes detected inside sections/slides,False
+7e2c7e2f7ad8199174ce539814d2d74bee5156a7,2021-06-30 20:20:34,Alvaro Trigo López,- Auto fire reBuild on sections change,False
+cc20f6cb46dd1fdc84599ad82aff5b0412970915,2021-06-23 17:59:28,Álvaro,"Merge pull request #4231 from alvarotrigo/dev
+
+Merging dev branch 3.1.2",True
+1d30cf5a3427c563f955209403a1e4edb75761eb,2021-06-23 17:58:58,Alvaro Trigo López,- Updating docs version number,False
+f69674dcea3c2618fb157d0eeeeb67d05f3073df,2021-06-23 17:56:59,Alvaro Trigo López,- Updating docs with waterEffect options,False
+24544a0fe952489333a4b7fe84d43bfb1402b529,2021-06-23 17:50:52,Alvaro Trigo López,- Updating version & adding extensions examples,False
+4d7be5c6935d496b173599936f84a9ef2b119dc2,2021-06-22 23:09:53,Alvaro Trigo López,- Water Effect extension added,False
+91ad8db86fd6ddb0c32af3d3e5800070794f66ba,2021-05-05 03:53:38,Álvaro,"Merge pull request #4210 from alvarotrigo/dev
+
+Merging dev branch",True
+c25fb330ff0448361bd725ebb406818a2147ee34,2021-05-05 03:49:07,Alvaro Trigo López,- Updating dist files and version number,False
+e7ab8e37b8d606be6722a6df9467657bdb897160,2021-04-08 21:25:50,Álvaro,"Merge pull request #4191 from owjs3901/owjs3901-patch-1
+
+fix cdn link in korean README.md",True
+988c1d528e9cdcccbe6f3d57aad00e4eb84c052f,2021-04-08 20:48:46,Jung Min O,"fix cdn link in korean README.md
+
+fix cdn link url",False
+efe929f7485513f7762eb1b2bb22fcdafc2c092b,2021-03-31 20:29:17,Alvaro Trigo López,- Fixed bug with reBuild preventing callbacks to get fired #4185 #4183,False
+4058bc3d56082a4f0683fb22bd46e5c21f991c5d,2021-02-17 17:23:47,Álvaro,"Merge pull request #4164 from alvarotrigo/dev
+
+- Documentation: adding dropEffectOptions in english",True
+7f07915c384855735c4c9766024155a07f40d550,2021-02-17 17:22:38,Alvaro Trigo López,"- Documentation: adding dropEffectOptions in english
+
+- Documentation: adding dropEffectOptions in english",False
+5b62a5555d5fcce6ee487aef3cda292f5e760683,2021-02-17 17:21:03,Álvaro,"Merge pull request #4163 from alvarotrigo/dev
+
+Merging dev branch",True
+01d8748febb213f4fc1f43db8a5249a668d4d43d,2021-02-17 17:11:45,Alvaro Trigo López,- Updating version and dist files,False
+74aae0a7e413ac3e14675a7996856fa58b3e065d,2021-02-16 23:25:28,Alvaro Trigo López,Gulp: update README.md version number,False
+07f78d55f1b8ef2d5d913889f6fcfcd22e8b2e44,2021-02-16 23:21:32,Alvaro Trigo López,- Gulp: updating default task,False
+2734588d14907f85d7a8dce26fc1b1dc2397d705,2021-02-16 23:10:30,Alvaro Trigo López,"- Console error: removed dot after URL
+
+- Console error: removed dot after URL
+- Fixed bug: disabling scroll-behavior for those using 3rd party smooth scroll libraries",False
+8d0c8fa5c6627c0fde276570818fae3f7a652706,2021-02-15 16:42:40,Alvaro Trigo López,"- Updating extensions file
+
+- Updating extensions file",False
+b69428cbf78b59be4e83dcf7965c838d001f2600,2021-02-06 23:45:29,Álvaro,"Merge pull request #4156 from forrestkirby/patch-1
+
+Update README.md",True
+93c7828efd4987df16e288b26c950e99dc4af9b1,2021-02-06 23:14:35,forrestkirby,"Update README.md
+
+typos",False
+0b70fd21394eee62b49248dda3677df0bdafa53f,2020-11-28 18:02:11,Alvaro Trigo López,- Fixed localhost showing extensions not active error,False
+aa17d831fb4d1790717a5a5f62c926f352d4c80a,2020-11-25 22:49:23,Alvaro Trigo López,- Adding extensions bundle compatibility,False
+3ac0cbbe220caaa626396385b3d2c379ded0e5ec,2020-10-06 16:07:05,Alvaro Trigo López,- Fixed bug: dragAndMove slow move back to 1st slide on 1st section #3962,False
+a8bef922715a1fed21bc662209a2b9cd349aa449,2020-09-22 20:18:03,Álvaro,"Merge pull request #4053 from Arash-11/dev
+
+Adding word fix to README.md file",True
+295ba3d15d1460238bb7203b527f7725f6940304,2020-09-22 18:17:12,Arash-11,Adding word fix to README.md file,False
+bae23a194d3680de92ed39280ef41b19fea5088a,2020-09-07 15:42:39,Álvaro,"Merge pull request #4042 from ivan-balanar/dev
+
+- Documentation: Removed 2 invalid links from documentation in all la…",True
+cec68d88f48ac444c8f1d7dae2c8801bff234f0e,2020-09-07 14:36:08,ivan_bal,"- Documentation: Removed 2 invalid links from documentation in all languages (https://www.coca-colacompany.com/annual-review/2017/index.html; http://medoff.ua/en/). Added a small piece of text (Donations, Sponsors, People) in README (French)",False
+80667d3984725c43edbdc6c600d1054acc271d74,2020-07-27 16:03:20,Alvaro Trigo López,Enhancement: created gulp task to auomate version variable update from package.json,False
+352412bcee971e2ca5a6ba38f8530fcf5cfc84bb,2020-07-27 15:56:54,Alvaro Trigo López,Fixed bug: (regression) isResizing was not reset to false on mobile devides in certain cases #3897,False
+ba0b12b0e22c75ad8795558db266a892ddc7fca1,2020-07-10 22:29:59,Alvaro Trigo López,- Updating dist files #4010,False
+208dd8613b93693d6ed48728a2d869b1a3f7175b,2020-07-10 22:24:20,Alvaro Trigo López,Fixed bug: anchors not updating when usinig option `sectionSelector` #4010,False
+ed9979ec5a5edcf8a8f303018e386abb19e3164a,2020-07-07 15:40:18,Álvaro,"Merge pull request #4008 from alvarotrigo/dev
+
+- Documentation: fixed syntax errors",True
+904ece72e265072e393096931ac918e64ec3bad8,2020-07-07 15:39:46,Alvaro Trigo López,- Documentation: fixed syntax errors,False
+7a832445d64ef52e064e0f3a30aa23da7802cccc,2020-07-07 15:36:50,Álvaro,"Merge pull request #4007 from alvarotrigo/dev
+
+Documentation: removing old links",True
+5200b0a69c19bf02d63b5b7f39f28f21d130d7dd,2020-07-07 15:34:23,Alvaro Trigo López,Documentation: removing old links,False
+697a2143e854dd8b622ecfc25aabbb70ec29cbf2,2020-07-07 15:29:27,Álvaro,"Merge pull request #4006 from alvarotrigo/dev
+
+- Documentation: removing old links",True
+755a9669120724ca519ff0640aacf38806eaa965,2020-07-07 15:28:54,Alvaro Trigo López,- Documentation: removing old links,False
+7513db603b21c10928aba5dc74477899ab1cd6e4,2020-07-07 15:15:15,Álvaro,"Merge pull request #4005 from alvarotrigo/dev
+
+- Documentation: link to elementor + small fixes in french docs",True
+6bd8c5205896c78596d1ad00a35b86ca5a7792f8,2020-07-07 15:14:39,Alvaro Trigo López,- Documentation: link to elementor + small fixes in french docs,False
+fc9f06c9cf6b3d988327566f9cc17402d1d17b48,2020-07-07 15:10:42,Álvaro,"Merge pull request #4004 from alvarotrigo/dev
+
+- Documentation: improved french docs links #3856",True
+2779d629038c29f224eea1c4c10dd45c664c7664,2020-07-07 15:09:35,Alvaro Trigo López,- Documentation: improved french docs links #3856,False
+6115d849e578233b8a0be660df573d556b0e1431,2020-07-07 15:01:25,Álvaro,"Merge pull request #4003 from alvarotrigo/dev
+
+Merging dev branch 3.0.9",True
+06d30debac83885f37c76dd9dfe5b7bc107ccb14,2020-07-07 14:40:40,Alvaro Trigo López,- Vendor dist files,False
+2bb5e077d8eabe0c2ec93716f35e5ad654bf2cdb,2020-07-06 22:21:54,Alvaro Trigo López,- Updating version & dist files,False
+b4865998cafc672bb839025e49e1dc33bec44449,2020-07-06 21:53:06,Alvaro Trigo López,"- Documentation: added french link to docs
+
+- Updated version number
+- Added link to Elementor plugin",False
+26c264d73a5cf2bee62c6df49034c666d6985200,2020-07-06 20:54:21,Alvaro Trigo López,Documentation: removed chinese typo #3935,False
+07d4f4416c1c48ced502157977bc7451a0a7a5c3,2020-07-06 20:30:55,Alvaro Trigo López,- Fixed bug: added minimum transition laps when using a very fast scrolling speed #3826,False
+7ac386278d5212dcada81a81f937d401fd5520fd,2020-07-06 20:11:09,Alvaro Trigo López,Documentation: fixing links and index for french docs #3856,False
+975ba5cffc0f21c228c3b0f855ff4838acdac567,2020-07-06 20:10:34,Alvaro Trigo López,Adding wiki files #3856,False
+52cc060fd261eac9515ca813416b97eba18652dd,2020-07-06 19:37:11,Alvaro Trigo López,Merge branch 'pr/3856' into dev,True
+1902588a4dc8a1480f42c3b6a4c5f21a63e7d13d,2020-07-06 19:29:22,Alvaro Trigo López,Ignoring vscode folder,False
+d1baebced48d0261cf23a7b9c909ca5d4374d6f0,2020-07-06 19:26:01,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+3a49a951e913396c22a5adf5d7c5ba23037a8e74,2020-07-06 19:25:58,Alvaro Trigo López,Updating webpack example,False
+dffb3816143a1252cff4c29bcdc809d026d086b7,2020-07-06 19:17:19,Álvaro,"Merge pull request #3973 from AlekseiKrivo/patch-1
+
+Fix for #3931 (normalScrollElements option)",True
+565650de13e7c95ccb17a4ca85d4aee2d5ce496a,2020-07-06 18:03:57,Alvaro Trigo López,- Documentation: clarifying that scrollBar is only for vertical sections,False
+c66c72c8c8d2163a16d6ff779d6c34a5846eec8f,2020-07-06 18:01:11,Alvaro Trigo López,- Documentation: added demo for `bigSectionsDestination`,False
+c9f322ef4d259182b092d69cde8cc3da6fbb4788,2020-07-06 17:57:31,Alvaro Trigo López,"- Documentation: parallax specific for ""slides"" or ""sections""",False
+399d96a8f0f54ea050cb8dc7942f21894ea301e4,2020-07-06 17:47:45,Alvaro Trigo López,- Documentation: added demo for bigSectionsDestination + clarified description #4002,False
+6c213ac05c80d6ee4588fc507383f82e9b5483a5,2020-07-06 17:29:55,Alvaro Trigo López,Fixed bug: wrong active section when switching landscape to portraint and using ResponsiveHeight #3897,False
+c4983ef277249bb5b7936f6c4dfa550c82f5a75b,2020-07-06 15:14:15,Alvaro Trigo López,Fixed bug: anchors won't be applied when not used for all sections #3983,False
+1db522010e4b3adfbd33c3bca557932cc65cd662,2020-07-06 15:08:10,Alvaro Trigo López,- Fixed bug: fixing screenreaders info in horizontal slides bullets #3898,False
+475f5b99a568587871c6f6b0d3125ce9538ab695,2020-06-18 21:29:35,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+f5869a4036e265e2d5c48498d19026c8e534b84a,2020-06-18 21:29:31,Alvaro Trigo López,- Fixed bug: dragAndMove slow moving back to 1st slide within section,False
+4642a2543f1a941e9fff63bb6b3e85f03c5a6222,2020-05-26 15:01:40,Álvaro,"Merge pull request #3980 from maxxxxxdlp/master
+
+Fixes a small typo in fullpage.js",True
+e2327af0a09d828bce91d3870ff0e2f729f2233e,2020-05-12 00:22:17,AlekseiKrivo,"Fix for #3931 (normalScrollElements option)
+
+There is a fix for the issue #3931, that appears when ""normalScrollElements"" option is added and mouse cursor leaves from a browser window.
+
+When the mouse cursor left the viewport, the ""scrollable"" variable was not assigned a value, because the ""target"" parameter, in this case, is null. So, I just added a check for the ""target"" parameter value in 2409 line.",False
+7fb5bd63216ff5524a7a47cd6f2a5c8b14601a56,2020-05-09 23:04:04,Álvaro,"Merge pull request #3972 from kafinsalim/update-title-in-examples
+
+Rename angular & react document title in examples",True
+92eabadc2bc1aad58bc9385cad606148a120edcd,2020-05-09 01:00:01,Kafin Salim,rename angular & react title in examples,False
+8ede401868246fdd5f861294a4dc875c1a453d00,2020-03-31 18:47:19,Alvaro Trigo López,Updating dist files,False
+7a24554e8573a2cd0577027d1596b8461c6f8e34,2020-03-31 18:46:46,Alvaro Trigo López,- Fixed bug: lazy load ignores fp-auto-heigh-responsive #3944,False
+d1aaa1e6df04e30ee3247ecb2f3907c467ea2cce,2020-03-31 18:45:48,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+26f97f630419674e9c398aafcff710a93c15abd3,2020-03-31 18:45:04,Alvaro Trigo López,"Revert ""- Fixed bug: Lazy load ignores  fp-auto-height-reponsive #3944""
+
+This reverts commit 3a7414ef903d3f4ee669054a1af2afa1502d877c.",False
+3a7414ef903d3f4ee669054a1af2afa1502d877c,2020-03-31 18:44:32,Alvaro Trigo López,- Fixed bug: Lazy load ignores  fp-auto-height-reponsive #3944,False
+fcf07f1e828a7543d45c1b66c27b6576070f4c29,2020-03-14 07:30:13,Álvaro,"Merge pull request #3927 from alanalvarado/dev
+
+#3925 Vertical Center #fp-nav Using 2D Transform",True
+766d82e5cec428265bbc53e8584e82bc29ac144f,2020-03-14 05:58:17,Alan Alvarado,"#3925 Vertical Center #fp-nav Using 2D Transform
+
+Vertical Centering of #fp-nav was achieved by mixing css margin-top
+and Javascript which applied directly to the element resulting in
+having to use too much css overrides and !important when moving the
+navigation with callbacks or styling the vertical navigation menu
+
+Signed-off-by: Alan Alvarado <alan@alvarado.top>",False
+1a60f45165b49c8e7c305a2433a46cb5d9e723e8,2020-03-13 22:13:53,Álvaro,"Merge pull request #3924 from arnavb/patch-1
+
+Remove repeated right property",True
+394389e57f162246e9b461a1241084fad35a27e2,2020-03-13 22:11:00,Arnav Borborah,Right property is repeated,False
+0ae0c63dc6c3186d0457eb70abf3ff4dead395d8,2020-01-13 18:29:46,Alvaro Trigo López,- Fixed bug: dragAndMove with scrollOverflow,False
+2f9d3dbbd401e95d2d3100b79e8372cf21580b4a,2020-01-09 06:23:58,=,French documenatation reviewed,False
+c3108fbc6440b5e12d3212a3f39bef9d5e38958f,2019-12-17 23:38:54,Alvaro Trigo López,- Fixed bug: scrollOverflow not work in Microsoft Edge #3840,False
+edc0aa77b4c3af041e5bac36aed8ce7a00c3380f,2019-12-12 23:13:31,Alvaro Trigo López,- Improving comment for #3832,False
+d68b5ac502889f92b075b11cbc9da195a5e04a27,2019-12-12 23:09:42,Álvaro,"Merge pull request #3832 from jbez/dev
+
+Reassigning value for isWindowFocused on focus event",True
+bfdc0ef5793d066af6237819fb98825b889c6863,2019-12-11 21:15:54,jbez,"Setting isWindowFocused back to true after focus events.
+
+Currently, isWindowFocused is set to true once on initialise(), then either forever true, or changed to false on blur events via the blurHandler(). Having triggered one blur, this is never set back to true upon any kind of focus event triggering on the window.
+This, in turn, causes the keyUpHandler to never assign the variable controlPressed back to its original state of false, causing scrolling to not work, due to the MouseWheelHandler checking for !controlPressed.
+
+This commit adds a focusHandler and adds it via window.addEventListener so isWindowFocused gets set to true again.",False
+59f014f92cb7b405105f75d4ac96cff31d58dddf,2019-12-02 18:45:26,Alvaro Trigo López,- Fixed bug: normalScrollElements + scrollOverflow when no scrollbar created,False
+650d52f83f3d702a8ff52673fd05a1a28cea497f,2019-11-28 22:14:23,Álvaro,"Merge pull request #3822 from alvarotrigo/dev
+
+- Documentation: fixed typo",True
+252785598061f3a3ed525660b761c2349fb17287,2019-11-28 22:13:57,Alvaro Trigo López,- Documentation: fixed typo,False
+c59bf9653bb4a698e4b7bb7e95cf0d4f5e911d41,2019-11-28 22:12:34,Álvaro,"Merge pull request #3821 from alvarotrigo/dev
+
+- Documentation: updated link for open source license request",True
+004bd44d0dea8f87ebac05a14fecf7ae09a67155,2019-11-28 22:11:27,Alvaro Trigo López,- Documentation: updated link for opeen source license request,False
+ca7c4321daa4b2a0c3c3f44946e9ad6ab39dbe10,2019-11-25 19:36:12,Álvaro,"Merge pull request #3814 from alvarotrigo/dev
+
+Merging dev branch 3.0.8",True
+9719c293333c59b3cfc206aafc4ecfe58dcd9e72,2019-11-25 19:17:14,Alvaro Trigo López,- Adding React + Angular examples,False
+88833c909ecf5d61d431b57ff578ae808472789f,2019-11-25 19:14:27,Alvaro Trigo López,Removing file,False
+367de53868c91b64bf62abc36e387a087badbaf5,2019-11-25 19:13:19,Alvaro Trigo López,- Updating version and dist files,False
+fc79184b476e650021c0a49e55296939650d8b2a,2019-11-25 19:08:55,Alvaro Trigo López,- Reverted: added french docs #3743,False
+a8be1d8e33019f6f9446304349a8658e0e363040,2019-11-25 18:54:37,Álvaro,"Merge pull request #3813 from alvarotrigo/revert-3758-master
+
+Revert ""translate to ukraine""",True
+526f7f3326acf2ef51232decfb29c54fd1eb7814,2019-11-25 18:54:07,Álvaro,"Revert ""translate to ukraine""",False
+65f5f8330316ada424e184053c47d37da159f53f,2019-11-25 18:44:10,Alvaro Trigo López,- Duplicating credits on the very top,False
+861079d3ce4b5369d91771b823dc379851727e75,2019-11-25 18:23:49,Alvaro Trigo López,Enhancement: jshint improvements,False
+c331bcadd81088c7eb0ba31c57e401a346f2009d,2019-11-25 17:45:35,Alvaro Trigo López,- Enhancement: removing console.log in dist files,False
+d23f1bc561625a2c72fc73d229f9970cefb5b760,2019-11-22 01:06:36,Alvaro Trigo López,- Fixed bug: normalScrollElement bug after clicking on the element #3808,False
+ac96628b06e1d44975d913d67a611fb0927403d0,2019-11-21 23:27:20,Alvaro Trigo López,- Fixed bug: normalScroll + normalScrollElements on firefox #3775,False
+2bf6b370c9fb6698c3099847668f07c9ca251686,2019-11-21 23:25:52,Alvaro Trigo López,"Update scrolloverflow.js
+
+- Fixed bug: normalScrollElements only works in first section #3754",False
+ca81a465e391ac58fff9f33523f174de4fa3ac84,2019-11-21 22:58:13,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+df86b204d3ae55d31cef631f8c11acb7588fa48f,2019-11-21 22:53:28,Alvaro Trigo López,"Update fullpage.js
+
+- Fixed bug: normalScroll + fixed element didn't work well on firefox #3775",False
+e804824e579d8db01ad712d52ae398a45cf1dad7,2019-11-15 05:57:35,Álvaro,"Merge pull request #3802 from haider-ilahi/master
+
+Remove redundancy and hedging from README",True
+814efd8a1d6824b8283204fdc89774dd34656081,2019-11-15 05:01:56,haider-ilahi,Update README.md,False
+50a1a4b600454fc640304fb80196b174fb9cbfab,2019-11-15 05:00:26,haider-ilahi,Updated README to remove redundancy and hedging.,False
+7339b5b70be61dedccc9a86f478e000e1878bbd7,2019-10-05 18:46:16,Álvaro,"Merge pull request #3763 from MercureTony/master
+
+French grammar improvement and website translation added",True
+4f3c103325285f68bb7bca2b656ccacc172630e3,2019-10-05 00:33:24,=,Grammar improvement,False
+8dd673f86b4f000fdae51ca80f461abfa0d8c738,2019-10-05 00:15:21,=,main and extension page translation added,False
+51ad0634772680725af505631d0e5a7fc26ba78f,2019-10-04 23:34:55,=,French documentation extended,False
+89234d86fa582830c7b903937915c483d6d8cf50,2019-10-04 23:34:32,=,French documentation extended,False
+d40920778ab904b3a681c4a636f88b210e94f47c,2019-10-04 16:16:11,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+3bb6e492df9b740bf6e6ea4a5849add6d1e78b62,2019-10-04 16:16:03,Alvaro Trigo López,- Added translations used on the webpage,False
+2587ef8a32c37f0a5c27d91e2038e328c4063dd3,2019-10-04 16:07:49,Álvaro,"Merge pull request #3758 from piterxxx/master
+
+translate to ukraine",True
+5df8d44ee038f114aef4ebe46a041d776a4593c7,2019-10-04 03:50:01,Black,"README
+
+README by ukraine",False
+adfb7124409b7a3522e7b1aee19813b0791a23f8,2019-10-04 03:44:02,Black,"parallax-extension
+
+parallax-extension BY UKRAINE",False
+f92c56b7c0c3438f104e530d64d16cf03f088d08,2019-10-04 03:43:24,Black,"how-to-activate-fullpage-extension
+
+how-to-activate-fullpage-extension BY UKRAINE",False
+d5fb7f834deb98f12a96eadafabbca13a9d56ad1,2019-10-04 03:42:52,Black,Create parallax-extension.md,False
+3efcba11cf0864dfbe720f203984b7088f003a60,2019-10-04 03:40:14,Black,Delete README.md,False
+13fd3b522a56302b55702343939dd7dc5c351a8d,2019-10-04 03:39:09,Black,Create how-to-activate-fullpage-extension.md,False
+49c75420c2609524a684a4e4688320db356d8f85,2019-10-04 03:37:07,Black,Create README.md,False
+8fb726a3d3a3acae8473c04d0c5a6ce3b14d7548,2019-10-04 03:36:55,Black,Delete ukraine,False
+d53e509cae3df019c987820fd62d48829c4f716f,2019-10-04 03:33:39,Black,Create ukraine,False
+9da68a9f4a3742595cb5ce1ee27b17f1d6303a6d,2019-10-01 20:55:53,Alvaro Trigo López,Improving french docs #3743,False
+8cedc6d601588f52220ff689d60d9466b634d04c,2019-10-01 20:35:44,Álvaro,"Merge pull request #3743 from MercureTony/master
+
+French Documentation added",True
+99b82ddd8f018de3b664dc1adff7ffd87e3634b5,2019-09-27 21:16:20,=,Fix syntax error,False
+b075b69ad5c7b27a973d05b0f73a0e529db7664e,2019-09-27 20:35:27,=,links fixed,False
+f4fc71a05fbbe346fcd70664733ac45bf408c55c,2019-09-27 20:13:09,=,French Translation of the FullPages.js Documentation,False
+153ebe709c2ab2ed3f8a9418fb5406716c5ce72b,2019-09-25 22:40:31,Alvaro Trigo López,Adding console.warn for warnings,False
+a871a9bd0d4de9ec32e03f785492dcf8009dcc82,2019-09-25 22:28:02,Alvaro Trigo López,- Removing console.log,False
+e00874875323a74e2d4dc1904df8e6c78a37a28c,2019-09-24 23:15:01,Alvaro Trigo López,- Updated extensions file,False
+ba481776cf61266753d0bdad16405eda22df80c4,2019-09-24 16:45:26,Alvaro Trigo López,- Updating dist files,False
+ae6e90d047008d2c58ea4cf6c4cb63b0d06ba2f0,2019-09-24 16:44:20,Alvaro Trigo López,- Fixed bug: overflow:scroll isn't scrollable inside scrollOverflow #3725,False
+b1cd7841a4a6d0d17044c178a7efe6eb3822cc9d,2019-09-04 20:51:27,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+488d7eb877b8c8265e4938a7634d6a7c71956029,2019-09-04 20:50:39,Alvaro Trigo López,Documentation: adding liks to Divi and Elementor plugin,False
+2ace0b9bd642d47652ae3e36634f3bfa1fec111a,2019-08-08 21:33:23,Álvaro,"Merge pull request #3711 from AnMokoto/patch-1
+
+Improved further formatting issues",True
+34db2aab06c8b9e639c2cfbdd049c2b9ff0daed6,2019-08-08 20:44:37,AnMokoto,"Improved further formatting issues
+
+Improved further formatting issues",False
+e20fbbac42463c02af1201be25d649032bb61bb8,2019-08-08 15:56:48,Álvaro,"Merge pull request #3710 from liufushihai/patch-1
+
+update: Chinese README.md",True
+2346ae5fe6f22170a4664a52707cd4db2580e6a5,2019-08-08 11:50:44,liufushihai,update: Chinese README.md,False
+aa04ae8309a26b7ff1e634409bccb82031e24a71,2019-08-05 16:15:13,Álvaro,"Merge pull request #3708 from AnMokoto/patch-1
+
+Update Chinese documentation",True
+3979b4c2e9ef8e2083eb08160b72afdff7608921,2019-08-03 11:43:08,AnMokoto,"Unified words
+
+Unified words",False
+aea2d0c147fdde851e59d98b8399e6636bdf8826,2019-08-03 11:39:20,AnMokoto,"Unified words
+
+Unified words",False
+bdcf3287c46713e1f445df84c871e91059008a77,2019-08-02 19:54:04,AnMokoto,"Update Chinese documentation
+
+Update Chinese documentation, and replace keywords (section/slide)
+thx @alvarotrigo review the pr",False
+a7706d459467716bee50bd9bfaabc62e302e4326,2019-08-02 12:06:29,MAMBO,Update fullpage.js,False
+b4919b15b4f643be6c146158ad5af7f7d3380bee,2019-07-29 22:00:08,Alvaro Trigo López,- Updating file,False
+ca15cb153e405c0ed3c5973366b5055b09d6c852,2019-07-29 21:34:57,Alvaro Trigo López,- New version,False
+c3c3acf541335d5921619ee0c85a3294b9859989,2019-07-29 21:28:33,Alvaro Trigo López,- New updated version,False
+99e43b334eb7484a49c43d4836137cb7ad82133c,2019-07-19 22:21:07,Alvaro Trigo López,"- Updating activation key docs regarding multiple domains
+
+- Removing jQuery remainings from the docs",False
+fe7ff787379754c372c4678acec841e0f95ed3b1,2019-07-11 05:19:51,Álvaro,"Merge pull request #3692 from alvarotrigo/dev
+
+Merging dev branch 3.0.7",True
+5d0a88daebc50bfbb23325f1ebe52a7ac7243ebd,2019-07-11 05:10:39,Alvaro Trigo López,- Updating version number,False
+bfb2d98ccac614ba7fcb309749e48a2aa383abef,2019-07-11 05:10:12,Alvaro Trigo López,- Fixed bug: dist files were not up to date & console.log was forgotten in extensions file,False
+d87f441f4bb50b6344d615c512b8c6fb185295fa,2019-07-10 23:31:59,Alvaro Trigo López,- Updating vendors version and dist files,False
+985de2d60562047c600e788c102c7b990e44788d,2019-07-10 23:31:16,Alvaro Trigo López,- Fixed bug: scrollOverflow not working in mobile #3690,False
+4d6d535c2a5ffdbeadff26d592e1dcd067f9123f,2019-07-10 23:03:43,Alvaro Trigo López,- Updating dist vendor files,False
+54a56240ef4bbc60cda8caad240c73070a2cc89b,2019-07-10 17:23:16,Álvaro,"Merge pull request #3691 from alvarotrigo/dev
+
+Merging dev branch 3.0.6",True
+9d1bbc8350f44f30bf97b2e3f2c230ad5508b7fc,2019-07-10 16:55:14,Alvaro Trigo López,- Updating version & dist files,False
+1f91e19c938d6966ce3cfce55a99bca9158b050e,2019-07-10 16:54:44,Alvaro Trigo López,- Tests: added browsertstack,False
+274f683ea5ac4a0432baac898151fe4b72493ced,2019-07-10 16:54:30,Alvaro Trigo López,- Updated tests,False
+886352c70458963d68e4a6c9bd8428cc142293ac,2019-07-10 16:35:52,Alvaro Trigo López,- Reverting css snaps feature. Need to polish it.,False
+21703f3ebc0cd8e55d96043afce945d15aa79ffc,2019-07-09 17:25:19,Alvaro Trigo López,- Tests: updated tests to match the new version,False
+190dbc96f4ae4ebe225e31d29407952ce00c8f1b,2019-07-09 16:23:23,Alvaro Trigo López,- Github: adding jsfiddle and codepen links to issue skeleton,False
+c6cac6c7f509b85abc9885ba5347a3df00206dcf,2019-07-09 16:22:57,Alvaro Trigo López,- Ignoring bug-* files,False
+adc05c184e9a9be33dba47afde816a35b62a8725,2019-07-09 16:19:28,Alvaro Trigo López,"- Improving resize bug fix #3488 #3336
+
+Now it will check the dimensions a few times and only act when they are different.
+Before that, it was delaying the check quite a lot instead of checking it multiple times.",False
+a1d47c74434d4ca60f382bb5efc489911092e1ec,2019-07-08 22:21:04,Alvaro Trigo López,Enhancement: spacebar won't cause scroll on HTML videos and audios #1977,False
+332b70982d8202b75e7c09082cdc0a19daddbdca,2019-07-08 22:19:36,Alvaro Trigo López,- Styling code,False
+546d49dbe2e4d66f09070c4ac755af2e1062ff3e,2019-07-08 22:07:28,Alvaro Trigo López,- Enhancement: css scroll snaps feature,False
+947aa924d15dfc98a5304966a549f3b4a54a6502,2019-07-07 21:26:08,Alvaro Trigo López,- Fixed bug: wrong navigation dot activated when using continuousVertical #3688 #2917,False
+7f8b1d07f65cd2b260a5825a0124cf1a5f145a22,2019-07-07 21:25:27,Alvaro Trigo López,- Refactoring,False
+69e0fee9daa7c9ec909c61028d0a06d543bd1452,2019-07-05 21:54:46,Alvaro Trigo López,- Enhancement: caching $('html') element,False
+369d5efa6e1c0006a619ce1bfa91c4518f5fc2ad,2019-07-05 21:43:27,Alvaro Trigo López,Fixed bug: Middle Mouse Scrolling is Broken. #3684,False
+c00c645241c1f7e6719cbcfcd4059bb393f0f5cf,2019-07-05 21:25:27,Alvaro Trigo López,- Removed normalScrollElementTouchThreshold option,False
+b5bb0076759d00d1355d6247a16d3ee58ce2f4ff,2019-07-05 21:23:48,Alvaro Trigo López,- Renamed variable,False
+9684f02bd999e36fcd52f0470e255d5ccde19ecc,2019-07-05 17:32:36,Alvaro Trigo López,- Removing unnecessary file #3527,False
+9eb1a7e11ae48c53d30d78d28e9f5d888ef2a88d,2019-07-05 17:30:22,Alvaro Trigo López,- Fixed bug: ScrollOverflow event order issue prevents to scroll to the bottom of a section #3527,False
+ff62ded34488b3e25184d173f5ebf7d0eb58164a,2019-07-05 15:32:25,Alvaro Trigo López,Fixed bug: scrollOverflow was not working in IE #3415,False
+da2b5ced831ff5080d1a4b9f0567d2ea03058033,2019-07-05 15:30:08,Alvaro Trigo López,Fixed bug: Content gets hidden at the bottom when using lazyload:true and scrolloverflow:true #3621,False
+6a2c456942949d55e3293fa71c6d176db321b5f5,2019-07-05 15:28:35,Alvaro Trigo López,"Revert ""- Fixed bug: ScrollOverflow event order issue prevents to scroll to the bottom of a section #3527""
+
+This reverts commit 4f936b8fae79242843b953e998e99fded231eb5a.",False
+4f936b8fae79242843b953e998e99fded231eb5a,2019-07-05 15:27:20,Alvaro Trigo López,- Fixed bug: ScrollOverflow event order issue prevents to scroll to the bottom of a section #3527,False
+ba57b71505de5c95ca0fbb429917a20ab926f843,2019-07-04 22:10:08,Alvaro Trigo López,Fixed bug: content gets hidden at the bottom when using lazyload:true and scrolloverflow:true #3621,False
+410a8ac0d9e05d71a2b1a9b7682d34ee9aab1f58,2019-07-04 17:05:52,Alvaro Trigo López,Fixed bug: origin param in afterLoad call back is null #3671,False
+3347d44ec1a417607d1ffc4c23412f9a773b8a21,2019-07-04 16:44:10,Alvaro Trigo López,- Enhancement: added CSS Snaps when possible,False
+4441d2e8cf34bf525209e16eec97a282f7b2e48c,2019-07-04 01:43:45,Alvaro Trigo López,-Fixed bug: Lazy loading fp-auto-height does not load all images in viewport #3647,False
+a131fc40f4e0a8fe2f60ede9ec815814d1f49737,2019-06-30 17:40:26,Álvaro,"Merge pull request #3682 from alvarotrigo/revert-3681-patch-2
+
+Revert ""docs: fix typo""",True
+e37e5438d5673dceeec8818b2e3509a43d51f6be,2019-06-30 17:40:17,Álvaro,"Revert ""docs: fix typo""",False
+013bba19b6c94ff61a115f20b4944b6e4b39a4ec,2019-06-30 17:40:12,Álvaro,"Merge pull request #3681 from Jason-Cooke/patch-2
+
+docs: fix typo",True
+ffe234974ed34ec31e34c3d094b7ef67f6adb81a,2019-06-29 10:04:42,Jason Cooke,docs: fix typo,False
+bd8a2d506ec8d5af0ab9e68ccd5d7f0c351f6d98,2019-06-28 22:06:52,Alvaro Trigo López,- Fixed bug: Scroll overflow and the padding-top #3609,False
+2f8df06e6a8879bb2856a0ee84435e06d658f7e4,2019-06-26 21:03:07,Alvaro Trigo López,- Fixed bug: normalScrollElements and fancybox not working as expected #3661,False
+f673d915b145cda6cfbaa0f348978b2bc28e2ac0,2019-06-26 20:02:44,Alvaro Trigo López,- Improved #3336,False
+c12fae76a582f68baa05f9e69e9cabe3794b8cf6,2019-06-26 19:43:17,Alvaro Trigo López,- Fix #3336 for firefox and other browsers too,False
+9c7ac6d26c74654bd9761f6f7da5405fbe131c89,2019-06-26 16:23:35,Alvaro Trigo López,- Code improvement: clearTimeouts & remove duplciate,False
+7b0a772f2ec64f55495e318d3f318c22ac42b191,2019-06-26 16:08:48,Alvaro Trigo López,- Replacing setInterval for setTimeout #3675,False
+c6ad0d28abf63d5ce928a775bb9592c4b8803386,2019-06-26 15:59:43,Alvaro Trigo López,- Improving #3675,False
+da5f3c34155c2ee76e13f4c7e1fd2b11d2a5e3ab,2019-06-26 15:54:45,Alvaro Trigo López,- Fixed bug: OrientationChange breaks layout on Chrome mobile #3336,False
+c681d44aa467d04f49a16d54254f5e2d1bab8730,2019-06-25 23:15:39,Alvaro Trigo López,- Fixed bug: facebook & instagram browser miscalculates page height #3675,False
+4ee6b25829c79f2510126c30c3aae8bd2d05ef07,2019-06-19 17:12:26,Alvaro Trigo López,Documentation: added afterRebuild callback to the docs,False
+c32b2f0a044117c8673d5ae5343fdf96c3c11055,2019-06-19 16:54:04,Alvaro Trigo López,- Documentation: added demo for Autoplay- pause media,False
+1760ec5c2a63feec072f30501c1fafa5ca1abd14,2019-06-18 23:24:14,Alvaro Trigo López,- Documentation: improving docs for fadingeffectt,False
+c94d73ffdec47d35be7bc21f0ba1ca4c2e72fc4c,2019-06-18 23:20:43,Alvaro Trigo López,Documentation: improving fadingEffect docs,False
+5ab7cca9be0781bd3bc55644978b7203084734bd,2019-06-10 21:18:59,Alvaro Trigo López,- Updating dist files,False
+3d06f17b3750a5e5f294d50984691ad080822fff,2019-06-10 21:16:45,Alvaro Trigo López,"Update fullpage.js
+
+- Fixed bug: $(...).fullpage is not a function after destroy #3649
+- Fixed bug: $(...).fullpage was failing when not providing any option.",False
+fc2255f9b0033d7429fd5804754ff56a1afa6fe1,2019-06-10 17:46:59,Alvaro Trigo López,Updating dist files #3661,False
+553ad6600323536eabbaa4da8131a1cb14802c6f,2019-06-10 17:46:12,Alvaro Trigo López,- Fixed bug: normalScrollElements & fancybox not working as expected #3661,False
+fc37e7f6687ec9959dcaf4c81dbda50945ab25f8,2019-06-07 16:55:57,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+3e316680f2d9f4808a2b369f9801eef418545632,2019-06-07 16:55:50,Alvaro Trigo López,- Fixed bug: scrollOerflow + verticalCentered + paddingTop #3609,False
+168cbebd7c2f1edf2c0698a192ace626db82ea76,2019-06-03 05:24:13,Álvaro,"Merge pull request #3657 from controversial/patch-1
+
+Fix typo",True
+9adb608321a86e0b8035766bf7d9df944cfa3f44,2019-06-03 00:48:22,Luke Deen Taylor,Fix typo,False
+d61c2f45813042b2481933db8a6118dcb7155797,2019-05-31 20:50:44,Alvaro Trigo López,- Documentation: adding links to Gutenberg WordPress plugin,False
+e2184bf5a1d0a4608d7c1484d442756c9d0cfe05,2019-05-31 16:53:02,Álvaro,"Merge pull request #3655 from gnuletik/dev
+
+fix(scrolloverflow): IScroll is not defined when using bundler",True
+742919bfefa71ad6cbd3060b91448c636b4f9b8b,2019-05-31 05:44:04,Martin Desrumaux,fix(scrolloverflow): IScroll is not defined when using bundler,False
+d801a68a7cf40ebb41283ef991c38e74dc522f14,2019-05-28 16:29:18,Álvaro,"Merge pull request #3653 from Jason-Cooke/patch-1
+
+docs: fix typo",True
+88ac4e0896074349543a3dfbf34f0a47b4e782f1,2019-05-28 04:29:57,Jason Cooke,docs: fix typo,False
+218a11fbd0346cea9931f5677cd9281d11c137c4,2019-05-22 16:41:11,Alvaro Trigo López,- Fixed bug: dragAndMove was not compatible with normalScrollElements,False
+1eeae701c55f5c328db5c82683eebe326f5eeefd,2019-05-16 23:32:03,Alvaro Trigo López,- Documentation: added link to Wordpress plugin for Gutenberg,False
+0d77acdadca712d59cc333e7da7d287cfa358ff2,2019-05-16 21:50:13,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+7ef3ea43b04aa6e3ca2af145a7dc1f0922fec403,2019-05-16 21:49:57,Alvaro Trigo López,- Documentation: adding normalScrollElements demo,False
+7ad3d76a8b3616063b13af95c45e878b60b0f63c,2019-05-13 16:04:51,Álvaro,"Merge pull request #3643 from SulphurDioxide/dev
+
+Clarifies section index starts at 1 and slide at 0",True
+8a9198dbd85785584db42d27c4378de2bfd15b03,2019-05-13 01:24:42,SulphurDioxide,"Clarifies section index starts at 1 and slide at 0
+
+In reference to alvarotrigo#3626 - clarifying that the first section will have an index of 1 but the first slide (in any section) will have the index of 0.",False
+8bed990477d0d18366dc0a887cf3abd511cdab89,2019-04-10 22:05:26,Álvaro,"Merge pull request #3625 from alvarotrigo/dev
+
+Documentation: fixed typo",True
+0ec442ea111388b04abb6e98ee89fdb19789e2ed,2019-04-10 22:04:46,Alvaro Trigo López,- Documentation: fixed typo,False
+064df512f21f0af3c5f1b4d97d33c519e98b157d,2019-04-10 22:03:49,Alvaro Trigo López,- Documentation: fixed typo,False
+69fcfd2c055ed3c87931ea9624f06491a7b02cbd,2019-04-10 22:02:31,Álvaro,"Merge pull request #3624 from alvarotrigo/dev
+
+Merging dev branch 3.0.5",True
+4eec40c8dbca79d4d2af8704f4adf39192f50636,2019-04-10 21:59:27,Alvaro Trigo López,- Documentation: removing link from who is using fulllPage,False
+064d33b161afff40c621bb1f04a4e6bc09bae67a,2019-04-10 21:35:26,Alvaro Trigo López,- Fixing options typo & updating dist files,False
+223ce1f987aa08c5cea08d039ba0966b6e453d0f,2019-04-10 16:25:11,Alvaro Trigo López,- Update dist files,False
+4a8c0195f08e6212463ef5da1a1fd5bdc819913d,2019-04-10 16:19:56,Alvaro Trigo López,- Improved PR #3623,False
+f64080931c78b48377fc86da2ee6b4cd5b0c9270,2019-04-10 16:18:04,Álvaro,"Merge pull request #3623 from englishtom/dev
+
+Fixes #3613",True
+81686c233569022e7d4f3a1d5c4c8ebc0be55a61,2019-04-10 16:08:30,Thomas English,"Implementing Alvaro changes
+
+- Using domElement rather than accessing $(options.menu) for a second
+time",False
+a7036d063af34873fe02e7a01ff4aad9dea69866,2019-04-10 06:33:38,Alvaro Trigo López,- Updating backers,False
+0d764b5484684831645fc4a6a59743cc9ccd484f,2019-04-10 06:32:26,Alvaro Trigo López,- Updating version and dist files,False
+585869e3f900b0327a30653f0cc03997aff36457,2019-04-10 06:27:33,Alvaro Trigo López,- Documentation: cards docs,False
+b8b29340469c562d96eed6140c7bd8412205991f,2019-04-10 06:24:17,Alvaro Trigo López,- updated test regarding scrollBar:true and recordHistory #3566,False
+13466d955bd86b6a5f5f39089e4118c7988eb380,2019-04-10 06:22:07,Alvaro Trigo López,- Fixed test,False
+7d31d07a7d169453b6a50b398d1edcb8aeec5427,2019-04-10 05:49:59,Alvaro Trigo López,- touchWrapper related,False
+c4e5b75fc294f27c7b0da916723c0d5a447f8671,2019-04-10 05:48:18,Alvaro Trigo López,- Enhancement: getFullpageData as function #3588,False
+74cfcad14a11942528ada9cf445e224e07ffca4f,2019-04-10 05:46:39,Alvaro Trigo López,"Improvements
+
+- Cards options
+- touchWrapper
+- scrollOverflow improvement
+- Display message when open source license",False
+803d95aa47dfda39a6152299696cfa517aacc4cb,2019-04-09 22:40:48,Thomas English,"Issue #3613
+
+- Updating `styleMenu` and `activateMenuElement` to support multiple
+menus",False
+bd9ddabda9efa29c666fc0dd9a1a13146fdd53f4,2019-04-09 22:39:43,Thomas English,"Issue #3613
+
+- Updating tests",False
+600c15255d82f9c21da9e7dc42bce77c624d72e5,2019-04-09 22:11:23,Thomas English,"Issue #3613
+
+- Added QUnit tests describing this issue",False
+bdc7819e72b32338485148d8d629780a63d37620,2019-03-29 20:33:06,Alvaro Trigo López,- Updating dist files,False
+d89a65aa0779e3dade2d1707a7228803e0a9984a,2019-03-29 20:29:59,Alvaro Trigo López,- Fixed bug: scrollOverflow can't scroll if modal closed on mobile #3576,False
+c0981999ebd08b73b1bab7885bc6d7aa8cf94140,2019-03-15 17:39:16,Alvaro Trigo López,- Fixed bug: Flickering error on Google Chrome 73 #3600,False
+36208d274530d7abd99aa62bec0ba3a6f8222e11,2019-03-06 22:44:05,Alvaro Trigo López,- Fixed bug: recordHistory not working with scrollBar:true #3566,False
+b71fdb9ad88ceb5d91c3f2dd738e8ef10419b361,2019-03-06 22:25:52,Alvaro Trigo López,- Fixed bug: $.fn.fullpage methods not available in afterLoad #3510,False
+43d896812d2fb82f9a54e2ed8f523033ce9c6dd4,2019-03-06 22:00:38,Alvaro Trigo López,- Fixed bug: scrollOverflow tilting when reaching bottom #3415,False
+e16fb82c964d845cc688d115023eea90a82b8cf4,2019-02-22 21:19:24,Alvaro Trigo López,"Update fullpage.js
+
+- Fixed bug: `direction` param in `afterSlideLoad` and `onSlideLeave` was not being passed when using slides navigation bullets or anchors.",False
+74334caa9d611c030e183fe0692fe8f6c1169539,2019-02-12 16:56:43,Alvaro Trigo López,- Updating gulpfile and dev dependencies,False
+824d3653b46b3735af26d6f4ed8067c9391739fb,2019-01-31 17:06:34,Alvaro Trigo López,- Documentation: extensions only available for fullpage v3,False
+2ceaf214e378197d0590a0d202491922d241cac9,2019-01-21 18:02:41,Alvaro Trigo López,- Fixed bug: dragAndMove slowed down when sliding to 1st slide,False
+8682f83a3d01942e490830608d9ded9bfcdecb8d,2018-12-28 01:58:25,Alvaro Trigo López,- Documentation: removing link from who is using fulllPage,False
+80ff3a93d9f70f9469540c8df27bc01dbbbe37dc,2018-12-18 16:32:16,Alvaro Trigo López,- Fixed bug: updating vendors minified files #3525,False
+89201972acb628d625821c072ca09f8d5d5571b6,2018-12-14 18:15:13,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+85da3ab48589b82b521b46f52e2e625d0131dd06,2018-12-14 18:15:10,Alvaro Trigo López,- Fixed bug: setAllowScrolling(false) was still preventing mouse actions on mobile #3520,False
+087cd037fa82f5e533f4ca8c17550c8348a439bf,2018-12-12 21:17:32,Álvaro,"Merge pull request #3517 from obendev/dev
+
+Update PULL_REQUEST_TEMPLATE.md",True
+ed9835e6779e089d35337478a8582a488a328ca4,2018-12-12 20:49:48,Luca,"Update PULL_REQUEST_TEMPLATE.md
+
+Fix numbered list (formatting)",False
+367adebceb28e4eab321694c6240c5167ffc06c2,2018-12-11 22:12:33,Álvaro,"Merge pull request #3516 from alvarotrigo/dev
+
+Documentation: added new backers & a couple of style improvements",True
+c298183a08f0d5d9c94274f294f9deb8d01664b4,2018-12-11 22:09:20,Alvaro Trigo López,Backers: added new backer: flatlogic.com,False
+c3171d505cd0fcf970fae29ffda6a953e97a6f93,2018-12-11 22:07:18,Alvaro Trigo López,"Update README.md
+
+- Documentation: added new sponsor: flatlogic.com",False
+b28e022e31f232cabae08a0bc935bbf5f22dd381,2018-12-11 22:05:34,Alvaro Trigo López,"Update README.md
+
+- Documentation: added new sponsor: flatlogic.com",False
+3d5b310949c068858392eea13608eabc6b5ac855,2018-12-03 21:44:51,Alvaro Trigo López,- Backers: update,False
+f1b89a8cb340f015a70c9f4366dfec6470e369ad,2018-11-30 21:17:47,Alvaro Trigo López,Merge branch 'dev' of https://github.com/alvarotrigo/fullPage.js into dev,True
+8d04589f67d6eebb450503c7c8276db1c45bd951,2018-11-30 21:17:44,Alvaro Trigo López,Updating version property,False
+f15300a077acc4131f249f3ea569166f34098721,2018-11-29 22:14:20,Álvaro,"Merge pull request #3505 from obendev/master
+
+There was a wrong formation for the code",True
+25014d85c7c8b5785fa69021c5caa093f53d05f2,2018-11-29 22:11:51,Luca,Fix wrong code formation,False
+e5237bf3e4bf6ed2a68f28a17e7a9b201493074a,2018-11-29 21:44:13,Álvaro,"Merge pull request #3504 from alvarotrigo/dev
+
+Merging dev branch 3.0.4",True
+fdc1eb7aa41e1c26d96abf3536a56ebff33885a5,2018-11-29 21:19:10,Alvaro Trigo López,- Updating version and dist files,False
+949e129e26a0982fd92b3b00f1da672c8b8c2d17,2018-11-29 21:10:15,Alvaro Trigo López,- Add conditional statement before remove eventListener #3441,False
+0c7de0877580a24add1c6a397bd03f7f792728e9,2018-11-29 20:42:54,Alvaro Trigo López,- Documentation: updating sponsors,False
+d70f54da5e3ab120e75b61a50c7aba5ebf1039c7,2018-11-29 20:31:52,Alvaro Trigo López,- Backers: adding Codefirst sponsor,False
+ed600a6b508c876a0e66449b3ba7cd5b0f75c2af,2018-11-29 20:30:52,Alvaro Trigo López,- Documentation: adding Codefirst sponsor,False
+21c12b7a7a19f3bd069227a046653d6effb12361,2018-11-27 23:41:56,Alvaro Trigo López,- Enhancement: using menu without using anchors #2755,False
+5c33eff6bf0b63489cd06c856a0cefed8e242b0e,2018-11-27 22:05:56,Alvaro Trigo López,- Fixed bug: OrientationChange on Slides breaks Layout on Chrome (mobile) #3336,False
+4f9c3d99f5050c693250ce7978a8c93d8d578b92,2018-11-26 22:46:17,Alvaro Trigo López,- Documentation: Link to fp-auto-height-responsive demo is broken #3483,False
+0ce2f1e28fe18235c6699efe8618f6dd003b6cce,2018-11-26 22:31:41,Alvaro Trigo López,- Fixed bug: normalScrollElements requires a 1st touch in touch screens #3481,False
+63410630354534e740ab1aa30a3e7efb9954c21e,2018-11-26 21:55:02,Alvaro Trigo López,- Fixed bug: paddingTop & scrollOverflow & verticalCentered #3335 #3484,False
+10fc1dd8a53e039587c8a8f93d1e5c59b8267719,2018-11-26 21:04:44,Alvaro Trigo López,- Documentation: fixing broken link & format typos #3494 #3489,False
+375874cdace8f2b232601beb2709cb42433228c9,2018-11-26 20:57:52,Álvaro,"Merge pull request #3494 from Abott1222/master
+
+Fix for issue #3489: Broken link on documentation",True
+4ddb3d3db11d60780a4ec5c865982cd3b1ceb5f7,2018-11-26 20:55:00,Alvaro Trigo López,- Fixed bug: setAllowScrolling not working in `afterLoad` #3490,False
+b8559257be46b27e135c98f5050891ec4dfc57b6,2018-11-26 20:50:15,Alvaro Trigo López,- Improving stuff,False
+1c872e8c00f7bd39c2032716ea070958e45df70c,2018-11-19 23:22:33,Álvaro,"Merge pull request #3496 from i22tha/patch-1
+
+Fix ""isLast"" issue #3471",True
+a4e49bb0e2d137980a9c95db748d92126d8f6387,2018-11-19 22:35:14,i22tha,"Fix ""isLast"" issue #3471
+
+Restrict NodeList for ""isLast"" index comparison to child elements of parent node",False
+6203a1ddc3c4c14d981652e2b0e2871fec7ca9b0,2018-11-19 22:01:05,Alexander R Bott,"Updated README.md
+
+Updated link for IScroll",False
+a8ac6058234767e4895ae7b8a02da1a7307e2e4e,2018-11-19 21:57:38,Alvaro Trigo López,"Update fullpage.js
+
+-Fixed bug: Direction on afterLoad Event Undefined when not using onLeave #3480",False
+89dff54402301e96940f9d5f57a195ed4a2a7161,2018-11-18 12:07:08,Alexander R Bott,"Update README.md
+
+Fix for issue #3489: Broken link on documentation :)",False
+2f6e0ee108de50c2998a12666b1a2b2fd67ae315,2018-11-16 18:26:41,Alvaro Trigo López,- Improving docs with Angular wrapper links,False
+0e4b478168025a1a0a797eaafc594626ea8e81e5,2018-11-10 18:52:42,Alvaro Trigo López,- Fixed bug: destroy('all') showing error when scrollOverflow file present but not used,False
+c0ac450c59d6d3ed9a89b534566ee57eaffa7b46,2018-11-07 22:03:05,Álvaro,"Merge pull request #3441 from splex7/dev
+
+Add conditional statement before remove eventListener",True
+456bf9eb0e13a81866ec05a8c63740f63bcf6b1e,2018-10-10 19:01:58,Hyungju Moon,Add conditional statement before remove eventListener,False
+7a77116399d52f514e9f408594f23e64566f1ea1,2018-10-10 17:37:31,Alvaro Trigo López,- Updating extensions file #3440,False
+6f893101b1d244f2e25fdadea0e42fa5b9f9552e,2018-10-10 04:14:59,Alvaro Trigo López,- Improved: removed jQuery dependency in package.json,False
+d68bc3004240d0d0d85b7d180a74225ea6b21126,2018-10-06 04:19:05,Álvaro,"Merge pull request #3436 from Khusainov/dev
+
+Bugfix: loss attached events on unwrapping",True
+228b5e70702a90859d652fdc08d221ff751b6b5f,2018-10-06 02:11:21,Damir Khusainov,"Create unwrap function;
+Use unwrap function in ""fullpage - destroy all"" and in ""scrolloverflow - destroy"";
+Unwrap function: keep existing DOM objects (instead of recreating them using innerHTML) to save all event listeners attached to them",False
+88531f84accd8be2650fa25f91de4f76e485789b,2018-10-02 22:07:37,Alvaro Trigo López,- Fixed bug: initialisation fails with jQuery adapter using a class #3433,False
+8f2037c4d3d4c9a55a8c9d6c1f293097537d3534,2018-10-02 21:05:30,Alvaro Trigo López,- Improved: internal function deepExtend,False
+628b491f5e913cb2d58d0f986f5bd82cba466a73,2018-10-02 20:58:32,Alvaro Trigo López,- Fixed bug: scrollOverflow causing maximum call stack size exceeded in certain cases,False
+f9cf07374d6af7c157d43b6e63c55f3105d6f519,2018-10-01 20:57:13,Álvaro,"Merge pull request #3431 from alvarotrigo/revert-3426-dev
+
+Revert ""workaround for issue #44. """,True
+df233139e20b3b184b627616a89adb8999a1cd25,2018-10-01 20:56:59,Álvaro,"Revert ""workaround for issue #44. """,False
+9d101f2eff258c18d8965ee1c9b98e7529daf462,2018-10-01 20:56:49,Álvaro,"Merge pull request #3426 from Cai3ra/dev
+
+workaround for issue #44.",True
+8d59e6ef8e512aa45057ab7cb1ed2ccc5054f106,2018-09-28 20:40:36,Alvaro Trigo López,- Fixed bug: data-anchor attributes stayed in DOM on destroy('all'),False
+f2e0cfe4b2ead6ba1dce5f88745bb75f12e06cec,2018-09-27 19:43:55,Caio Bassetti,workaround for issue #44. Check WRAPPER_SEL exists before removeListeners on touch events,False
+3f2a8ef9405d64a7d24460811435c561870f9259,2018-09-26 17:27:10,Álvaro,"Merge pull request #3422 from alvarotrigo/dev
+
+Merging dev branch",True
+0adfe2a73f9b33718bfeb83aa6dd778b185806c8,2018-09-25 21:28:23,Alvaro Trigo López,- Documentation: clarifying usage of licenseKey,False
+f4db249e85066571dcc0c53685e58aa986cad516,2018-09-25 20:24:38,Alvaro Trigo López,- Documentation: improving readme for module loaders,False
+3fe2a925f5da3f27f37d893f1dacf07c12ef5e99,2018-09-25 20:18:09,Alvaro Trigo López,- Ignoring testing purpose files,False
+114b5a249d1431b5953a9007cea79a6f961d682b,2018-09-25 20:17:53,Alvaro Trigo López,- Updating dist files,False
+4e67238dda9e19a270cbd77e364ff6cd96dabee9,2018-09-25 20:16:12,Alvaro Trigo López,- Documentation: using module loaders,False
+48a291ae2b2f6da277e6aea3739db90b471e11f7,2018-09-25 20:01:04,Alvaro Trigo López,- Documentation: updating version number,False
+f35bad1b5a4a0543c38fc7775b27ac7f43f7cde0,2018-09-25 20:00:27,Alvaro Trigo López,- Adding Vue and React links on the introduction,False
+40282eb092f2a3210bacc489d1a4387b82db2614,2018-09-25 19:33:07,Alvaro Trigo López,- Updating module loaders examples (extensions & scrollOverflow),False
+b2bf35fd84be918d4b0b6da62d63c224076531aa,2018-09-25 16:05:55,Alvaro Trigo López,- Fixed bug: IScroll is not defined when using Require.js to import it #2250 #2281,False
+6c02f53bf71ebd9a31c2fd3946bd86e6983734b7,2018-09-24 21:30:41,Alvaro Trigo López,"- Examples: adding module loader examples: requirejs, web pack & browserify",False
+6b236e3043f8f0603c711f86afbdd65914e187a6,2018-09-24 14:49:28,Álvaro,"Merge pull request #3419 from outloudvi/patch-1
+
+chinese/README.md: Fix markdown link",True
+d1a0ccd40b5c0e4b84623a3cad9664a95a5cd479,2018-09-24 13:37:17,Outvi V,chinese/README.md: Fix markdown link,False
+48c47b4234a9ff5ef789108a91b2e14d3daffd01,2018-09-21 19:26:19,Alvaro Trigo López,- Fixed bug: Edge is showing an error on destroy(all),False
+18fa12ed5c597c3a95adba3361a6bcccf3d45062,2018-09-20 22:06:49,Alvaro Trigo López,- Updating docs,False
+331f66da70c768f73dc521fbfc1050b260c5e098,2018-09-20 21:45:03,Alvaro Trigo López,- Updating intro image,False
+e63cf97b1b8676d87c598075848ad6c1f5afe91c,2018-09-18 23:33:32,Alvaro Trigo López,- Fixing tests for extensions file,False
+7387c7bac5015ca3fb7ed8a0c4e2fe8db67ea12b,2018-09-18 23:32:54,Alvaro Trigo López,- Updating vendors file,False
+a70e8f6b16dfa40bbe6a39c54b03c15754363fe7,2018-09-18 23:31:27,Alvaro Trigo López,- Updating extensions file,False
+762a1f7e63638b83f9b6258437277308fd5cff24,2018-09-18 23:29:52,Alvaro Trigo López,- Fixed bug: scrollOverflow when resizing throws error #3335,False
+bea36590390109cd72152eb852cae1d67757c9d2,2018-09-18 22:21:06,Alvaro Trigo López,- Commented a couple of functions,False
+cc0b7bc64f3b68e3cf3600bc2f188c2eb0f8e21f,2018-09-18 21:44:02,Alvaro Trigo López,- Fixed bug: autoScrolling:false & scrollOverflow: true should report a warning #3403 #3406,False
+b7c19794e124d3dc0b14086576a39c235e589d9e,2018-09-18 21:42:51,Alvaro Trigo López,- Tests: added tests for #3403 #3406,False
+206b39682f2ee638d2437b5a541b808454922bd7,2018-09-18 21:25:22,Alvaro Trigo López,- Fixed bug: mouseHijack not being liberated on destroy #3392,False
+f27efd8e3f6c08bdde088630fd6203c407448678,2018-09-18 21:15:52,Alvaro Trigo López,- Fixed bug: numeric anchor vs text anchor was not matching,False
+8aee5bbdcd190083810d5e80095bf5050d6ff1c1,2018-09-18 21:14:57,Alvaro Trigo López,- Fixed bug: Can't Tab to fixed anchors #3144 #3408,False
+6ff50a45e76b83bf2e213b6c8107dfa65a0729d8,2018-09-18 21:06:52,Alvaro Trigo López,- Fixed navigation tests for #2704,False
+7d7c8b7507fababf587e64228abf6a218ab71890,2018-09-18 21:05:35,Alvaro Trigo López,- Fixing displayWarning tests due to license error warning,False
+86848610336771473fe2c7e9ed8ac5eb046258f5,2018-09-18 21:04:58,Alvaro Trigo López,- Commenting unfinished test,False
+d5546f08b2ee2fa91bde9d27395b5b8cbc4d27bb,2018-09-13 15:33:47,Alvaro Trigo López,- Fixed missed parenthesis #3406,False
+04bea95ce46ed0a7070a575b12053940f39275a6,2018-09-13 15:15:28,Álvaro,"Merge pull request #3406 from dotEthan/dotEthan-patch-3392
+
+Bugfix #3403: autoscrolling and scrolloverflow are exclusive.",True
+dc639c73fa59bbeca8239c5be5a57cc1da431eab,2018-09-12 23:17:59,Ethan Strauss,autoscrolling and scrolloverflow are exclusive.,False
+edf90820ed32a7dcfd0c0905f2684d4b477a255d,2018-09-12 22:21:11,Alvaro Trigo López,- Added comment in getBulletLinkName function,False
+d42d80799df63b23926191c756d94ffd7ddaeb6d,2018-09-12 22:20:26,Alvaro Trigo López,- Improved styling style #3405,False
+3cec7f3fce2114024f2892a0b8dfce520fa0a75b,2018-09-12 22:18:13,Álvaro,"Merge pull request #3405 from dotEthan/dotEthan-patch-3392
+
+Bug Fix: #3392",True
+5bf712ddeb71f2d0b8c8c853a94c020603c26e81,2018-09-12 21:01:26,Ethan Strauss,"Add scroll check in mousewheelhandler
+
+Added a quick check to see if scrolling is allowed in the MouseWheelHandler function. If not, prevent default behaviour and return.",False
+76cbd49d80ba8c922a29d42515b20d2f43ccabfb,2018-09-12 19:54:56,Ethan Strauss,"Bug Fix: #3392
+
+setAllowScrolling: false does not work with scrollBar:true.
+
+Added else if update to ensure scrolling stopped when appropriate.",False
+b31f737d259d4470d70addd9080c8ce04fe9c07c,2018-09-10 22:30:11,Alvaro Trigo López,- Fixed bug: Padding Issue with ScrollOverflow #3335,False
+ffcfea71aefa47b74296dc90723a3580535b94d6,2018-09-10 22:18:43,Alvaro Trigo López,"Revert ""- Fixed bug: Padding Issue with ScrollOverflow #3335""
+
+This reverts commit 5a1297d38fdb00fbed5317aabf3311d14c42554e.",False
+c1dce4ad33362b910d874a92aa8743d2d8a773ac,2018-09-10 22:16:18,Alvaro Trigo López,- Updating scroll overflow version #3335,False
+5a1297d38fdb00fbed5317aabf3311d14c42554e,2018-09-10 22:14:51,Alvaro Trigo López,- Fixed bug: Padding Issue with ScrollOverflow #3335,False
+9c52067186cd7be288f64a137d4601f3f65b6dac,2018-09-05 21:15:36,Alvaro Trigo López,- Improved: enhanced accessibility issues with navigation bullets #2704,False
+d869f7f74cba5af20451024cb597df840f9612ea,2018-08-17 23:08:29,Alvaro Trigo López,- Fixed bug: fp-auto-height-responsive was not removing scrolloverflow in certain occasions,False
+d7d4fcc6a749b2465b2426cdad9f28c5c00d0167,2018-08-17 15:29:19,Alvaro Trigo López,-Documentation: updating jsfiddle link,False
+ca34e93eb5ac85dd5768aabc0990dd18ee231d0d,2018-08-16 14:43:38,Alvaro Trigo López,- Fixed bug: jquery & fullpage globals unknown on react-fullpage.js when using jQuery github/react-fullpage#14,False
+6fe65cb47066b4843fa76120f2ee4b8feafb6b15,2018-08-16 14:33:37,Alvaro Trigo López,- Examples: fixed trigger-animations example,False
+8e1e8906730d839fecca70aa8fcdae8d82c08250,2018-08-15 15:39:04,Alvaro Trigo López,- Documentation: fixed link to example #3348,False
+0d5ce4ec4e48efe4d0770c7923a87ef422cdee39,2018-08-15 15:16:12,Alvaro Trigo López,- Fixed bug: click and touch events were not being removed on destroy('all'),False
+57604388e7cda8b4c70f69b6ccdc1e916cdc8008,2018-08-15 15:11:32,Álvaro,"Merge pull request #3366 from jmgiaever/dev
+
+Added showError to fp_utils as its required by the jQuery Adapter",True
+4cff59efa6e0f09be1bda58b19ae3a1caa5e9af0,2018-08-15 04:43:20,Joachim M. Giæver,Added showError to fp_utils as its required by the jQuery Adapter,False
+b54f6ef8701bac174e688274f83bd78de1521840,2018-08-13 17:51:26,Alvaro Trigo López,"- Documentation: adding codeine link next to ""demo online""",False
+1544b8d011adbd3bfabb2fa4d37fc0a373a4f7f8,2018-08-13 17:44:32,Alvaro Trigo López,- Documentation: adding links to the official React.js wrapper,False
+10db391329609020cd5777c8b3790fb1dd9a8f51,2018-08-13 17:27:50,Alvaro Trigo López,- Fixed bug: prevent focus on tabindex=-1 and hidden focusable elements,False
+fac21c4dd71f68ad27ce1eca6dd32f8a7bb49ac7,2018-08-12 23:06:09,Alvaro Trigo López,- Removed variable #3364,False
+cc7337e097390e71626ec1fffe289091261d6641,2018-08-12 23:04:11,Álvaro,"Merge pull request #3364 from ArsalanDotMe/dev
+
+Add safeguards in onTab",True
+0048d12ef0f016efd64e8738f6266085120750da,2018-08-12 23:02:06,Arsalan Ahmad,"Consolidate return of focusedElement
+
+Return the focusedElement if defined in a single statement",False
+3fad516cc2863fa25d9308838f80315b9ba123ca,2018-08-12 22:28:41,Arsalan Ahmad,"Add safeguards in onTab
+
+Checks for undefined before calling focus() on an element",False
+79b8d1b8f4023fa6bd8c6497a42a7fb26d4039a0,2018-08-09 01:39:13,Álvaro,"Merge pull request #3355 from bpmusicDE/master
+
+fix: call wrong object key; +: linear ease; -: console.logs",True
+26ef3e9732e88328b68960b3c3560a96e86ffdd5,2018-08-08 23:33:15,Benjamin Pietzner,"fix: call wrong object key; +: linear ease; -: c.logs
+
+Checked to use 3.X: window.fp_easings was not defined after run into mobile browser address bar problem with Fullpage 2.X & attached background pics (FP option css3: false)",False
+ff18308ee1bf4f66aff6517f17b848b6da8db1b0,2018-07-30 18:47:57,Alvaro Trigo López,- Updating docs fiddle link,False
+4ba9a4a404b9c96ea8acef3714f7f47d87ae7fe0,2018-07-26 16:53:25,Álvaro,"Merge pull request #3333 from alvarotrigo/dev
+
+Merging dev branch",True
+1c8d4cfc91865cf4423355d30efe607853baee06,2018-07-26 16:41:18,Alvaro Trigo López,- Updating version & dist files,False
+e30a74e7a8f8bb74a214199df56060b5f598590e,2018-07-26 16:32:57,Alvaro Trigo López,- Updating tests file,False
+2fceec53474ace45ab53056ab079c337f7fd9009,2018-07-26 16:31:12,Alvaro Trigo López,- Removing browserify & web pack examples,False
+bd1bc752c4520508f6be646b6889b0c34a30d17f,2018-07-24 02:58:40,Alvaro Trigo López,- Fixed bug: Latest scrolloverflow.js update breaks functionality on dev #3319 #3330,False
+eac5788816a03ce337b4da324c509bf232304036,2018-07-23 20:11:51,Alvaro Trigo López,- Fixing typo in docs,False
+26f4da16f18326906469873862dfb1fa73cc3e06,2018-07-23 20:03:45,Alvaro Trigo López,- Updating extensions file,False
+680a9bbea7dd0fd16d9ef44fea5561470a98342d,2018-07-23 20:02:54,Alvaro Trigo López,- Updating dist files,False
+5dc7e19034b2a0be43bc63131d8bf96279ccdc77,2018-07-23 20:01:06,Alvaro Trigo López,- Fixed bug: sectionSelector failing when using multiple separated by comma #3326,False
+7d24224c8858c4bce44095c528209dac94ae8f0b,2018-07-21 05:02:40,Alvaro Trigo López,- Adding module loaders examples,False
+985ea8e8277eeed1882ddc643ac39faa73e64bcf,2018-07-21 05:01:13,Alvaro Trigo López,- Ignoring any node_modules,False
+5e40e891b48f1f11413b61e481245067781fdc82,2018-07-19 15:29:17,Alvaro Trigo López,- Fixed bug: Navigation dots not working when not using anchors #3320,False
+b43af8819671274494f0b0031be38691328bec08,2018-07-19 04:06:48,Álvaro,"Merge pull request #3319 from AntonyMayer/bugfix/npm-scrolloverflow
+
+IScroll fix",True
+b9b5c03a6facf654fac7ae1107f56b31950b5cea,2018-07-18 23:51:20,Anton Kuzniatsou,IScroll check,False
+9ec2adaadc986420eff9a67a77f730e6f12f5661,2018-07-18 20:19:16,Alvaro Trigo López,- Improving docs,False
+b960968fa3f2c23cec2e303803d437efc4523789,2018-07-18 17:24:32,Álvaro,"Merge pull request #3316 from steriley/dev
+
+Prevent jQuery adapter from loading when fullpage is not global",True
+2762d712c5007bb64262b9b38ee6a7a2f5b9a864,2018-07-18 16:56:45,Álvaro,"Merge pull request #3317 from HiMrHu/patch-1
+
+Modify the chinese README.md markdown grammar",True
+ef65d7eef2114181a82c28a24bdf28a38f5b06ac,2018-07-18 11:55:40,MrHu,Update README.md,False
+798d64fd74e0c082fffc753f2b996d583aeb2751,2018-07-18 11:39:20,MrHu,"Update README.md
+
+fix link",False
+12462e63b1929122c762581567fbde04ffece1eb,2018-07-18 00:59:50,Stephen Riley,should not make assumption that fullpage is global as could be bundled,False
+472e4f97982af2469461815c4a8306be634c0aea,2018-07-17 21:18:27,Alvaro Trigo López,- Updating dist files,False
+c9a72fc47b8edeef5234049ff1daf7c02dca5072,2018-07-17 21:17:39,Alvaro Trigo López,- Improved: fullpage can be now initialised passing the DOM object and not only the element's selector,False
+2a737ee38d0a7ba4024b4ce3eb652916a47cf8e8,2018-07-13 23:34:48,Alvaro Trigo López,- Updating dist files,False
+6d3b32aab59fa8f221249975f8de31bfe727f29b,2018-07-13 23:29:09,Alvaro Trigo López,- Removing comments,False
+68c66019f6f274160cf25c0f1f179fb960c2f1a1,2018-07-13 23:28:13,Alvaro Trigo López,- Fixed bug: navigation bullets were showing an error sometimes on the console #3309,False
+afccd8dc19cf4bcf2728c268579ab6d99255b869,2018-07-13 22:49:00,Alvaro Trigo López,- Added test for source element inside picture element,False
+fce3c9598b360c48e047fb5a9783513434ad4a29,2018-07-13 22:48:27,Alvaro Trigo López,- Updating dist files,False
+93a6ccd3c40d4b780b2e061e2e6b17e990714aed,2018-07-13 22:47:34,Alvaro Trigo López,- Fixed bug: lazy load failing in picture element inside a source element,False
+5f49fc2ac87dd9796b758829e200544307df94d0,2018-07-13 22:46:47,Alvaro Trigo López,- Improving examples,False
+030f7064fbcabfd0a446499aab964799b71cc258,2018-07-11 17:56:18,Alvaro Trigo López,- Updating dist files,False
+900cd4ee22f2bd4e7a4f5f97d05de7fb9fafe52a,2018-07-11 17:55:15,Alvaro Trigo López,- Fixed bug: Input tabulation not working #3296,False
+c213c18d705a10ee031ca29ea83a24a817e9b7c5,2018-07-11 17:33:51,Alvaro Trigo López,- Removed traces of version 2 on the warnings,False
+fc2802518a0100ad6cd453cc2fd2d46382ae9604,2018-07-10 22:13:40,Alvaro Trigo López,- Updating dist files & adding tooltips example,False
+00ae34d017ca0e2aa343233e4dd543341ee0cf07,2018-07-10 22:12:57,Alvaro Trigo López,- Fixed bug: ToolTip Position not correct #3306,False
+d6b5b286c7e8e55cea75c452b24bed6057d7d205,2018-07-10 22:12:02,Alvaro Trigo López,- Updating examples,False
+4d01700285d7e168dba631235206884bdd13ad44,2018-07-06 23:55:01,Alvaro Trigo López,- Fixed bug: data-anchor doesn't work #3299,False
+849d6ba7a332edc4a36c592ca30476cd58661994,2018-06-29 15:49:02,Alvaro Trigo López,- Fixing slides background issues,False
+41244da4649dfe1a719545767635347956b7783c,2018-06-29 15:48:49,Alvaro Trigo López,- Updating extensions file,False
+aefbf8f7947408ed3105a6e6af307ea32ef96502,2018-06-26 22:06:25,Álvaro,"Merge pull request #3276 from alvarotrigo/dev
+
+Merging dev branch",True
+223d5c40d30a448455e7e50eaaa1da76b3344a59,2018-06-26 22:05:07,Alvaro Trigo López,- Updating version for nam,False
+f18d2d3cc2113fe0ca2310c8326942aad2aef778,2018-06-26 22:02:50,Alvaro Trigo López,- Updating extensions version,False
+df188f11a894c4ce492b030dc571594234b06106,2018-06-26 21:46:31,Álvaro,"Merge pull request #3275 from alvarotrigo/dev
+
+- Updating intro image",True
+46b8aac9896e03e53a0f5ff1fa24b474166b2c21,2018-06-26 21:45:59,Alvaro Trigo López,- Updating intro image,False
+fa59dd800910eaee5df8db83c4477b11a0937c7b,2018-06-26 21:40:15,Álvaro,"Merge pull request #3274 from alvarotrigo/dev
+
+Major update to version 3",True
+3abbcc34ef55636e95db1694b5eae1b0306d537b,2018-06-26 21:38:11,Alvaro Trigo López,- Updating intro image,False
+9854ad39dccc28a0ae811f119b4877697e2fb34b,2018-06-26 20:55:19,Alvaro Trigo López,- Adding new sponsor,False
+e7d2621a4898a5a23c56d269097701cd9d8e075d,2018-06-26 20:53:48,Alvaro Trigo López,- Adding new sponsor,False
+1d49855c7532d4c07859b435bfbab940183e9a7f,2018-06-26 20:52:20,Alvaro Trigo López,- Adding new bronce backer,False
+f8076663763d4279bc52111b4a8ead92119a1a4e,2018-06-26 19:46:08,Alvaro Trigo López,- Updating extensions file,False
+674faf748335fb39c979dec904b77c133b16e56e,2018-06-26 19:44:19,Alvaro Trigo López,- Fixing passive event error & adding dist files,False
+d918b731d1dc7a0b355095bd12325f3b7e7560b0,2018-06-23 23:52:19,Alvaro Trigo López,- Removing IE 8 compatible from the docs,False
+4f120059b9e8bba7710a039ff595348661f4e1bc,2018-06-23 23:47:37,Alvaro Trigo López,- Updating examples paths,False
+f619563eb41316093024b4e5242942f34aaa3798,2018-06-21 23:09:03,Alvaro Trigo López,- Removed typo,False
+c2eea4a0c1af06eab7effc28cbec4aed5a784431,2018-06-21 23:03:52,Alvaro Trigo López,- Adding dist extensions file,False
+a293d814c8c8004bb20de67b8b1b41ebfc182f0c,2018-06-21 23:02:50,Alvaro Trigo López,- Updating gulp file & gitignore for extensions file,False
+88c3aceda27733ef41a0c90f308439128b39b1f5,2018-06-21 22:58:03,Alvaro Trigo López,- Removing demoPage example,False
+be135835b0c636de426b945441f04cb96d814e59,2018-06-21 22:57:19,Alvaro Trigo López,- Removing jQuery dist files,False
+16ec7d24784bbb24d0cb400f0afc6cfcf52e6c48,2018-06-21 22:56:44,Alvaro Trigo López,- Updating gulp & dist files,False
+58bed77a3964c8cb955e1b3f3fc0e3e19af7d3f8,2018-06-21 22:55:52,Alvaro Trigo López,"- Updating gulp, package and bower files",False
+27f4f8ec22435ce01e73de7ee75395b5d42e9698,2018-06-21 22:55:28,Alvaro Trigo López,- Adding fullpage.js v3,False
+97b4ad54921a007d08a24b5dd2c7a87727981990,2018-06-21 22:54:52,Alvaro Trigo López,- Adding vendors minified versions,False
+6d961bca74cdde35fa5b088abc3a2a79cc80440f,2018-06-21 22:54:29,Alvaro Trigo López,- Improving scrollOverflow,False
+ca915d5a1978eadb172a24eae916aa5813a7e8ec,2018-06-21 22:53:18,Alvaro Trigo López,- Removing utils,False
+ce8329a3da2b18cef8a48f97f3c1634ff7c8bdf6,2018-06-21 22:52:46,Alvaro Trigo López,- Removing pure javascript alpha,False
+9afc13c483b44ef21c487490a0be5bac4fdda88b,2018-06-21 22:42:46,Alvaro Trigo López,- Added few things to gitignore,False
+346d42a31bf66b17d46f226fe0d98b3be4ae758f,2018-06-21 22:42:11,Alvaro Trigo López,- Removing package-lock.json,False
+b26fc0848ade1c294e09afda55a5c22b96e4c42e,2018-06-21 22:25:30,Alvaro Trigo López,- Updating localised docs,False
+c17f7ac0f7130fe4af8506c222308dc8b30f29fc,2018-06-20 21:37:30,Alvaro Trigo López,- Removing old tests,False
+48d865cb06ce668d9893fbfec13879fa5bf3d707,2018-06-20 21:36:37,Alvaro Trigo López,- Updating examples,False
+bd7b2160ed55c10902b18d6cdd8f21c179ff639a,2018-06-20 17:44:02,Alvaro Trigo López,- Visual change,False
+4ba988e4f9ff6cbd23d195a7ef5e31012b9cb92e,2018-06-20 17:43:21,Alvaro Trigo López,- Minor improvement,False
+9e9f3c237b6939234287e920f09ab615d57b454d,2018-06-20 17:42:44,Alvaro Trigo López,- Repositioning license link in index,False
+ac0fde226d144d743a6d38d4da09b9d6c19af338,2018-06-20 17:41:36,Alvaro Trigo López,- Licence change to GPLv3,False
+7727ec123d58873739a1ccc22e6ba1004bdd5183,2018-06-20 17:40:43,Alvaro Trigo López,- Updating  english ready,False
+b9740ea7e81cebf25e2dd23fc7531867d53368cd,2018-06-18 22:12:26,Alvaro Trigo López,- Updating gulp file,False
+fc1338f11794e180d77dc1c0df1882d2009ea192,2018-06-14 20:13:46,Alvaro Trigo López,- Updating examples with fullpage v3,False
+ebb6be3a29e01b63c587a6449e633a7afc718fe2,2018-06-13 22:13:05,Alvaro Trigo López,- Improving tests,False
+0d0d80cdb4044ecffb236279fcd25236c98af938,2018-06-07 22:31:56,Alvaro Trigo López,Backers,False
+2f7506b3cdeadbec22941ed707011282bbba0ad7,2018-06-07 22:25:14,Alvaro Trigo López,Backers,False
+56e16928507e824f28dd904a4babb7cee5cff62c,2018-06-07 22:20:07,Alvaro Trigo López,Backers,False
+f3b39e5a1a99c84cc350a2b5094761fa15f0ccde,2018-06-07 22:15:14,Alvaro Trigo López,Backers,False
+224dbbfc20293b1d43d93691e2c4e9731faa96f8,2018-05-25 20:19:57,Álvaro,"Merge pull request #3244 from alvarotrigo/dev
+
+Mergin dev branch",True
+5f7a0336f1c0ae33f403ba821ea5ddc8cfc45ec4,2018-05-25 18:36:00,Alvaro Trigo López,- Updating who is using fullPage.js,False
+624fab1840795ef5b288c5d33d2eacaeabe28aa6,2018-05-25 18:33:54,Alvaro Trigo López,- Who is using fullpage.js,False
+362275239b0a091472ce4c56bcde37ea1f6169ee,2018-05-25 18:26:10,Alvaro Trigo López,- who is using fullpage.js,False
+502a4767c9f144894b9325fd9c06e153cacbbb00,2018-05-25 18:25:07,Alvaro Trigo López,- Who is using fullpage.js,False
+08e61c75303d34eed8b0facdf83dd28f43b2b6ac,2018-05-25 18:19:14,Alvaro Trigo López,- Adding logos,False
+b08c29c6df1392048b6294f8e444835dcd93f490,2018-05-25 18:13:39,Alvaro Trigo López,- Updating logos,False
+e2ab938fcbd9f72abb797344961f0dab0c2ece7b,2018-05-25 18:12:38,Alvaro Trigo López,- Updating logos,False
+ddc6bf53eecb8d6d3c1374f66bc6cbe538196170,2018-05-25 18:11:19,Alvaro Trigo López,Updating logos,False
+e6422485f6a5f58f870d84a183263ebdc317cac1,2018-05-25 18:09:39,Alvaro Trigo López,- Upading logos,False
+43e61ee40e15ec3b2ff019e791f102f238e71b0b,2018-05-25 18:08:28,Alvaro Trigo López,- Updating logos,False
+1f87677c65260f21d67ba97d387bb6ec9d4ac5e2,2018-05-25 18:04:52,Alvaro Trigo López,- Adding new logos to who is using fullpage.js,False
+b6d9c5564f467827a4ead4e43969cb218ee20e9c,2018-05-24 22:08:25,Alvaro Trigo López,- Added sponsors and Patreon link,False
+7e9d8e51acf874d43fcc104d7fba2d6ea04b57d4,2018-05-24 22:03:20,Alvaro Trigo López,"- Adding CodePen sponsor
+
+- And Patreons page",False
+f3bc5e8b1255685470118c2aa51d9dd9b28a8224,2018-05-24 21:55:35,Alvaro Trigo López,- Improving sponsors images,False
+2b7386000367f7acee4b85e1d5c8b72ab19d9ddc,2018-05-24 21:47:09,Alvaro Trigo López,- Added hostPresto sponsor,False
+68dadff0317e6843dc8c3b71514a632ed8481f2a,2018-05-15 05:27:35,Álvaro,"Merge pull request #3233 from lauradegroot/gender-neutral-readme
+
+Make README gender neutral",True
+7fd5b0ef5daf561d8ea0ffc38622b8c17f99c94d,2018-05-15 00:31:54,Laura DeGroot,Make README.md gender neutral,False
+f2da5ec0027ef88042d404dbc14c16072f543c22,2018-05-11 18:15:29,Alvaro Trigo López,New easing file Vanilla Javascript,False
+0a9e4d79ce724ce0aaf366289f55c0b5f22dd4b3,2018-05-11 18:15:08,Alvaro Trigo López,- Improved tests execution speed,False
+abed3e1f36c5f01e158196b67ff88e9e582864a0,2018-05-11 18:13:22,Alvaro Trigo López,- scroll overflow v2.0.0 for fullPage.js v3,False
+094c9994b6460de41d3aea44c710009ddfd26092,2018-05-10 19:55:26,Alvaro Trigo López,- Starting to port it to vanilla,False
+a5b57ad62a17cb65f3670d27e351e305067442f7,2018-05-08 19:24:35,Alvaro Trigo López,"Bunch of unit tests
+
+- Bunch of unit tests",False
+663960f8eb41c5826863c30980cbe7ddcab10cb6,2018-05-08 19:19:56,Alvaro Trigo López,- Adding tests,False
+71b2b5ecf1186772c5e6cb47fad9d57a56b8b407,2018-04-20 16:26:47,Álvaro,"Merge pull request #3195 from prplx/dev
+
+Fix #2865",True
+f35909eb3a41d36b9587cbcbdcaa28b54ca0d20d,2018-04-13 13:43:18,Konstantin Kolesnikov,Fix lazyLoad for picture tag.,False
+5c055879fc344d5f5ef0f4173b81e89fe1112cb6,2018-04-12 21:23:41,Konstantin Kolesnikov,Fix #2865,False
+fd77935d895ee553d58030a55567a5f182d50356,2018-04-12 19:36:41,Alvaro Trigo López,- Updating jsfiddle link in “Reporting issues”,False
+4ea3a3352594d7ec8e761d3f925547945eaf2b70,2018-04-11 20:09:43,Álvaro,"Merge pull request #3193 from alvarotrigo/dev
+
+- Adding iScroll license in the minified file of scrollOverflow",True
+df36fe1511ac54cd62be749bdb8b63d69b01ae74,2018-04-11 20:08:44,Alvaro Trigo López,- Adding iScroll license in the minified file of scrollOverflow,False
+1e91c1eb608fce9267362acd0402ba637ba094f3,2018-04-11 20:05:30,Álvaro,"Merge pull request #3192 from alvarotrigo/dev
+
+Hot fixing minified version of scrollOverflow",True
+10b50bf55523b24bc0112fc834cada51df81e0da,2018-04-11 20:03:43,Alvaro Trigo López,"- Fixed bug: minified version of scrollOverflow.js was not up to date.
+- Improving credits in scrolloverflow",False
+8012fb9c8c057e9f5fc10571310a4d1f6293cd1f,2018-04-09 20:59:30,Alvaro Trigo López,- Added: become a sponsor,False
+766fed71ce1e4c76a1478920d09c4af871c8c45d,2018-04-09 20:58:27,Alvaro Trigo López,- Added: become a sponsor,False
+710472111b190d062486ddd3c9d18bfae9391d70,2018-04-09 17:26:23,Álvaro,"Merge pull request #3188 from alvarotrigo/dev
+
+Merging dev branch 2.9.7",True
+215a43318122b5da071104e5a53346148b4a9c6a,2018-04-09 17:00:38,Alvaro Trigo López,- Added: a bunch of unit tests,False
+59b70a6cb7af9ec71be3eea2ed27b948cbcf2fc1,2018-04-09 16:56:07,Alvaro Trigo López,- Updated version and dist files,False
+f1f9313f50100a0b7e8d6e2be037aa07050d67c4,2018-04-08 18:02:24,Alvaro Trigo López,"- Fixed bug: wrong direction value of onleave callback when using
+continuousVertical #3118",False
+d0aeccb2af6ab3da09a3ec402d57ca874d2adcd3,2018-04-08 17:11:28,Alvaro Trigo López,"- Fixed bug: destroy(‘all’) was not working when using
+scrollOverflow:true #3117",False
+b700accc489962e4545ccc382888d5923973e2c5,2018-04-05 22:04:43,Alvaro Trigo López,Fixing sponsors logo,False
+4666ec24d41c624f46bcb41a2d56884a2b2143a7,2018-04-05 22:02:54,Alvaro Trigo López,- Added sponsors section,False
+7e4b46008ef585cdf7c7e334d3af8b87da5e39f6,2018-04-04 21:57:38,Alvaro Trigo López,"- Fixing English docs link
+- Improving language menu using localised name for the language",False
+8400074ada1b1f418f06ecac33ebef828b6c4841,2018-03-29 16:49:59,Álvaro,"Merge pull request #3172 from flea89/3170-csp-inline-style
+
+Use jquery height to set wrapper height, instead on relying on style …",True
+53900d3ce6da0b9b0fa5c621cfc1ed398f206d48,2018-03-28 22:30:37,Paolo,"Use jquery height to set wrapper height, instead on relying on style attribute",False
+2872497ad26c487422e65a3b1a7e6b5e5d49377e,2018-03-21 16:18:36,Álvaro,"Merge pull request #3161 from thisisfed/patch-2
+
+Wrong version",True
+4400b29773c57c2153f1a49773f7bdd2c6d0a563,2018-03-21 16:16:30,Federico Ferrari,Wrong version,False
+615e15f16689046302c1c44bb4ec750715149909,2018-02-27 18:05:36,Álvaro,"Merge pull request #3125 from archferns/master
+
+Remove keyup handler on destroy",True
+12d644abdb4cff98765422301d9dc56656798ff5,2018-02-27 18:03:27,Arlston Fernandes,Version bump,False
+82ef515988aeba089663283314664c03642e6ef1,2018-02-27 17:59:15,Arlston Fernandes,Remove keyup handler on destroy,False
+37fe61406c7b065e6f1dc336a7b39b57b09f2195,2018-02-27 17:53:04,Álvaro,"Merge pull request #3124 from archferns/master
+
+Remove keydown handler on destroy",True
+fb48c0ec776aeb5a49c8529d0dc4437c506e5ecb,2018-02-27 11:48:50,Arlston Fernandes,Remove keydown handler on destroy,False
+8c4727aa14979c982e39d383f1231775a67aeb8f,2018-02-25 19:24:24,Alvaro Trigo López,"- Remove duplicate code in scroll overflow.js
+- Fixed bug: scroll overflow didn’t work on desktop when creating the
+scroll bar on resizing down",False
+82e7d99e7ed800d91ccf0a99eab77d590f558017,2018-02-25 18:59:37,Alvaro Trigo López,- Upading version,False
+4f8d0d682d100dee7ad57b82ea0ed286dea8e2f9,2018-02-20 21:23:06,Álvaro,"Merge pull request #3114 from josephahern/dev
+
+Updating gulp-uglify to latest version as well as changing deprecated…",True
+d01bacaabf25c646b84f84dd0f02adb64534f8cf,2018-02-20 21:19:43,Joseph Ahern,"Updating gulp-uglify to latest version as well as changing deprecated ""preserveComments"" with new syntax. This solves the problem of minified versions of fullpagejs from being compatible with webpack bundling.",False
+947df4cc93dddce3fe63f7c084092e54085538fe,2018-02-13 16:10:22,Álvaro,"Merge pull request #3102 from ChangJoo-Park/patch-1
+
+Missing backtick(`) after section",True
+2cc1edfa0de01135d9270f6ce317fe783fea9e2d,2018-02-13 08:20:55,ChangJoo Park(박창주),Missing backtick(`) after section,False
+c164bd48d4fa128c6c0c2d10e444826b2d22326f,2018-02-09 02:00:24,Alvaro Trigo López,"- Fixed bug: console error when using empty anchor #
+- Fixed bug: focusable elements with tabindex=“-1” and the use of tab
+key",False
+0999762d4ba94d6ebaa76d5596693cc563b7c172,2018-01-30 22:47:51,Álvaro,"Merge pull request #3085 from joelangford/patch-1
+
+Cancelling the scroll before it takes place",True
+db0f11ed2d04127a5261b03d06c25390cc6cce85,2018-01-30 22:45:30,Joe Langford,"Cancelling the scroll before it takes place
+
+Modified so https://github.com/alvarotrigo/fullPage.js#cancelling-the-scroll-before-it-takes-place works on the pure js version.",False
+f0bcdd59393723d075b6c9544a69a434d510d3a5,2018-01-30 21:37:20,Álvaro,"Merge pull request #3084 from Odrin/dev
+
+Move getPaddings to upper scope",True
+ec4efeea649423085e69efeafdf671863443b103,2018-01-30 19:20:24,Egor Komarov,Move getPaddings to upper scope,False
+c0019fbc33ee54c82a593d91fa556b572352aa32,2018-01-29 23:03:22,Álvaro,"Merge pull request #3080 from alvarotrigo/dev
+
+- Documentation: improving Korean & Spanish docs",True
+e2e1759e5a4778778f648d365fc28993e232ce33,2018-01-29 23:01:11,Alvaro Trigo López,"- Documentation: adding title in Spanish & Korean to “how to activate
+fullpage.js extensions”",False
+749905771903752f581e8796a221c15879e60b9d,2018-01-29 22:43:15,Álvaro,"Merge pull request #3079 from alvarotrigo/dev
+
+Fixing docs links",True
+cd6362f38f86b98dcdfee90452ab19863af13db8,2018-01-29 22:36:54,Alvaro Trigo López,- Documentation: korean docs links,False
+80cafa9c932a11824ee77634f1567c8980c3fb8c,2018-01-29 22:34:48,Alvaro Trigo López,- Documentation: russian docs links,False
+30ba2c29d1f5681d41a6c8a51c1c17f89daa841e,2018-01-29 22:33:26,Alvaro Trigo López,- Documentation: chinese links,False
+eed567efacf773194078f7d6e051176796f4c6df,2018-01-29 22:30:52,Álvaro,"Merge pull request #3078 from alvarotrigo/dev
+
+Merging 2.9.6",True
+0fa75794a3b6b45224b78bfa2b482306ce3de69a,2018-01-29 21:51:55,Alvaro Trigo López,- Removing unused module,False
+c4d2964c060e5805a0855dd7493afbe9feb03a77,2018-01-29 21:41:03,Alvaro Trigo López,- Updating version number & dist files,False
+527d3394567e45e021d524b6eb1825d26cbfae2e,2018-01-29 17:59:04,Alvaro Trigo López,- Improving consistency #2706,False
+2e4bc0fd5b2a53156d920f8f44b834f2e151ad82,2018-01-29 16:01:44,Alvaro Trigo López,- Removing resource,False
+61ba3cf2e19c2dcaf2f248bda4bd0882c45991e8,2018-01-27 00:41:50,Alvaro Trigo López,- Fixed bug: back history to 1st horizontal slide was broken #2706,False
+59319ba63487af12998a12fb59ba3d5f81aaead4,2018-01-26 22:26:19,Alvaro Trigo López,"- Fixed bug: swipe horizontally in Firefox mobile not working when
+using autoScrolling:false #2741",False
+aa4b3f43f994691b5206ac92d086eebd509842e5,2018-01-26 00:12:51,Alvaro Trigo López,"Fixed bug: setAllowScrolling + normalScrollElements + scrollBar fails
+#3050",False
+5c783d0f4cc89c22bff2d3b4c9e8c1b71c70f118,2018-01-24 16:26:03,Alvaro Trigo López,- Documentation: fixing Chinese languages typo,False
+0a6d078e95843048ed36c2e82a4f3b9144aa2b23,2018-01-23 18:09:22,Alvaro Trigo López,- Documentation: fixing Chiense docs typo,False
+ee8a2dc45c8ae179dd2f68a7b9f8633cbf652e9c,2018-01-18 00:09:46,Alvaro Trigo López,- Documentation: update vue-fullpage link,False
+d68ace66f6444bac6eb955b00f63bf6cde45d231,2018-01-18 00:06:48,Alvaro Trigo López,- Documentation: updating all languages parallax docs links,False
+4e9689e9c0b4de94594aca9a0cde4ef78311df91,2018-01-17 23:55:13,Alvaro Trigo López,- Documentation: updating Korean parallax docs links,False
+e3a09ac76bb3d4339e784385f4137e8060cc2a22,2018-01-17 23:39:44,Alvaro Trigo López,- Documentation: updating Spanish docs links,False
+c26c93829c00ad9112070e5a0468fc4e7c3ac1c1,2018-01-17 23:39:16,Alvaro Trigo López,- Documentation: updating Russian docs links,False
+2f2deff4a53a3e0df620df5f130b2178a675a36c,2018-01-17 23:38:57,Alvaro Trigo López,- Documentation: updating Korean docs links,False
+6c364f174243b34e801d2e3a94a5a03d1787e8ea,2018-01-17 23:37:47,Alvaro Trigo López,- Documentation: updating Chiense docs links,False
+5e65214e79936fa35b373d1f75649884183b8679,2018-01-17 23:36:59,Alvaro Trigo López,- Documentation: updating Chinese docs links,False
+db3fc02355e1ed34315b7cd7030f46acad15bcff,2018-01-17 22:44:03,Alvaro Trigo López,- Documentation: correction of internal links in Spanish,False
+4e39af7372f4b682cac38a8dbbdb71119d1a4987,2018-01-17 22:42:33,Álvaro,"Merge pull request #3046 from sampaio96/master
+
+:)",True
+bafdf167d2aa282580fa96c11550d10569682697,2018-01-17 22:42:17,Alvaro Trigo López,"Revert ""- Documentation: fixed typo #3046""
+
+This reverts commit 3034cc5ac03144c092d7e7f4713070c6a8dd53d6.",False
+3034cc5ac03144c092d7e7f4713070c6a8dd53d6,2018-01-17 22:41:32,Alvaro Trigo López,- Documentation: fixed typo #3046,False
+1d385b04dc9dbe5410742625602ec8ddef239956,2018-01-17 22:30:27,Alvaro Trigo López,Documentation: added more spanish docs,False
+57c985b9594e75de29ce422645443ff98632c6bf,2018-01-17 22:27:56,Alvaro Trigo López,Documentation: added more spanish docs,False
+af9f481af71ebcfcbd809e07ed19d8c4b2c05edf,2018-01-17 18:36:47,Alvaro Trigo López,- Documentation: fixing typos,False
+a92c09ccf42447d64e3791e0f0e64b3f109b0983,2018-01-17 00:30:58,Alvaro Trigo López,"- Corrections on: destroy(‘all’) was not adding back styles that were
+#3059",False
+0b99382b91ab8031652fa0a42ff7d5c64af7300d,2018-01-16 22:31:24,Alvaro Trigo López,"- Fixed bug: destroy(‘all’) was not adding back styles that were
+originally overwritten by fullPage.js #3059",False
+6391fb92bfbe2646326cce3c7984d3b883f60c51,2018-01-16 21:28:10,Alvaro Trigo López,- Fixed bug: Using the “tab” key was breaking fullpage.js #1237,False
+68e16fe6702f58582ee65999410cb715dd366c5a,2018-01-13 02:29:45,Alvaro Trigo López,- Chinese docs improvement,False
+264704ebdb1849d53fc58eaaa708c9700ee557ec,2018-01-12 01:13:56,Alvaro Trigo López,- Adding vue-fullpage.js resource,False
+6a2242a7951cfca5694fd94978feb273afc7beab,2018-01-12 01:13:07,Alvaro Trigo López,- Adding Chinese docs,False
+8e6be2b391ca3d24bbffd0e259051aa46ad19281,2018-01-10 23:44:16,Alvaro Trigo López,Updating scrolloverflow.js version #3002,False
+5c12583a0925053b60a0f63171d487beab9cb9e1,2018-01-10 23:43:20,Alvaro Trigo López,"Fixed bug: scrollOverflow + paddingTop was creating unnecessary
+scrollable elements on resize #3002",False
+c917019d986c68a26131a33d0538e654af463ba2,2018-01-06 16:44:31,Alvaro Trigo López,- Tell people to load the scrollOverflow script after jQuery #3053,False
+eb4b00d5a78975bd77dab8cfa670de7b53c58b04,2018-01-05 01:24:52,Alvaro Trigo López,- Tell people to load the scrollOverflow script after jQuery #3053,False
+3b52d41f7df0721953429fa28acbd6f62182bec8,2018-01-05 01:16:41,Álvaro,"Merge pull request #3053 from vityavv/master
+
+Tell people to load the scrollOverflow script after jQuery",True
+82e663de895bedcf23ac1ee41176e5a469d5f2c6,2018-01-05 01:04:19,Victor Veytsman,Tell people to load the script after jQuery,False
+02e94381624c4e4006651ab0368c23af5b4315df,2017-12-28 23:52:51,sampaio96,:),False
+37c350de64e0d2b3ee925c78010bda84d4ec257b,2017-12-26 23:35:54,Alvaro Trigo López,- Added: Russian & Korean language links,False
+c8f102cedd3cd4d32822a87e306e2b27c296216b,2017-12-26 23:34:58,Alvaro Trigo López,- Added: Korean and Chinese language links,False
+bba1bcf4690da26477e9609b52ca261552ab592d,2017-12-26 23:28:51,Alvaro Trigo López,- Added: Chinese docs,False
+03f57d70c16c4c3b140064344c1535ded1a94bf3,2017-12-13 05:42:04,Alvaro Trigo López,- Fixed bug: afterRender was getting fired on resize #3032,False
+040ce00afaf38fa54537734e417323d44ed571ec,2017-12-03 06:29:13,Álvaro,"Merge pull request #3020 from alebarbaja/patch-2
+
+correction of internal links in Spanish",True
+4d3107749ce4c1eee5eb995ff1582562d1e1a8d4,2017-12-03 03:34:03,Alejandro Narvaja,correction of internal links in Spanish,False
+492278ecb127284ceae2d7a38d0b3b5b20f245a5,2017-12-01 23:00:45,Alvaro Trigo López,"- Fixed bug: normalScrollElements on mobile didn’t work in fullPage.js
+Extensions File #3015",False
+37eb3dcf72ec48823b0dd4fd36a681ba290f7442,2017-11-29 23:28:23,Alvaro Trigo López,- Improvement: Spanish docs,False
+2a8d7e8727ce8317ec67caa9e1d9d11c42a8a5a3,2017-11-29 23:17:59,Alvaro Trigo López,- Improved: spanish docs,False
+f37eaf294ab43c1f6402db591e2df895daf98b71,2017-11-29 21:48:15,Álvaro,"Merge pull request #3009 from kant/patch-6
+
+Semantic issue",True
+33e1fc7e16d9101847f9f01e8f6000397ebc3951,2017-11-29 20:59:44,Alvaro Trigo López,- Added korean menu,False
+5478b028ea532071b47557dd46970abafeee6aad,2017-11-29 20:58:50,Alvaro Trigo López,- Added: Korean language in the menu,False
+f93000c6019b46955e941acb40c1c172be6bd68f,2017-11-29 20:42:09,Alvaro Trigo López,- Added: Korean docs,False
+8efd9029f9286c775b369bd66ef1ecf912249858,2017-11-29 00:40:46,Darío Hereñú,Semantic issue,False
+44cc3fb1b9049d9d7be610d45fb49d9b44caad43,2017-11-25 17:48:40,Álvaro,"Merge pull request #3000 from kant/patch-2
+
+Typos found",True
+284c95382df0f1866122346afb7c95be844b2566,2017-11-25 09:01:12,Darío Hereñú,"Typos 
+
+and some minor fixes (proposal)",False
+4cd6789d77cd631c280ccf618ef4d5bd6d5ef720,2017-11-24 17:38:31,Alvaro Trigo López,- Fixed bug: data-srcset in picture source tags doesn't work #2865,False
+9fd1e70ef95398b2ae3df1108df09362b26cc119,2017-10-27 20:27:06,Alvaro Trigo López,"- Fixed bug: scroll overflow didn’t work when using jQuery.noConflit()
+#2962",False
+da62b76c9f83d4a8ae4065361851a15e240a5048,2017-10-27 20:25:02,Alvaro Trigo López,"- Fixed bug: scroll overflow didn’t work when using jQuery.noConflit()
+#2962",False
+c490c4dace5887dc7c4fb990a49e59277f5a2a06,2017-10-26 17:23:19,Alvaro Trigo López,Merge branch 'master' into dev,True
+fc34fb061ea7e03dac93a45c0673b2307ee6a76d,2017-10-25 17:58:05,Alvaro Trigo López,- Updating language links,False
+e02bfcb997897451a9d92f462b3a7fcc6b656d34,2017-10-25 17:55:08,Alvaro Trigo López,Merge remote-tracking branch 'origin/master',True
+5399d595608d1c2cd88b9b0828ff042ba8897909,2017-10-25 17:55:00,Alvaro Trigo López,- Removing spanish docs from main folder,False
+e547981141aefc7e7f68012d7872040599234ac3,2017-10-25 17:52:55,Alvaro Trigo López,Merge branch 'dev',True
+cd5d4cc65ce86e737f60892f025834133900e18a,2017-10-25 17:48:32,Alvaro Trigo López,- Revert removing spanish docs.,False
+445a685c62e0fe750a06805475092e9ed805a3d8,2017-10-25 17:46:00,Alvaro Trigo López,Merge branch 'dev',True
+18e78a9421c72d9859b090bd1868fb158f459a98,2017-10-25 17:38:03,Alvaro Trigo López,-Documentation: updating lang docs,False
+b9400e0acb3d781da3f830d5165aac3284084076,2017-10-25 17:36:22,Alvaro Trigo López,- Documentation: updating logo,False
+f218d723a1f2f883df32a972bb8d73066f98dd12,2017-10-25 17:34:28,Alvaro Trigo López,- Documentation: updating list of sites using fullpage.js.,False
+8f9d2f0bcceef74a89252f598efb652417bf12ac,2017-10-25 16:30:53,Alvaro Trigo López,- Updating version and dist files,False
+12c4e972fe49e58e8e40f7086eecab9d8eaa1ae0,2017-10-25 16:29:11,Alvaro Trigo López,- Added: scrollOverflow minification build task,False
+9a1427f31e61d06b4ff8086f69431ba3b82d5afe,2017-10-25 16:22:48,Alvaro Trigo López,- Documentation: adding jsdeliver stats and updating version,False
+944e75d43d474961e78e08089f8c6f06142b4b4a,2017-10-25 01:01:34,Álvaro,"Merge pull request #2956 from LukasDrgon/patch-2
+
+Add jsDelivr hits badge",True
+ab9ef55b5cd808f0b9e0f6174f8ef0a5ee1cdee9,2017-10-24 23:50:40,Lukas Drgon,Add jsDelivr hits badge,False
+2f2cb861443e4427d60573a845f4ed9da7976207,2017-10-24 20:21:00,Alvaro Trigo López,- Removed the minified file outside the `list` folder,False
+33e399d3cf91b7ebcfb65193c34ca91f476ac7d8,2017-10-24 18:40:20,Alvaro Trigo López,- Documentation: russian wiki docs,False
+425640917fc00e0d2e3bcec49e89e63371cebf20,2017-10-24 18:39:01,Alvaro Trigo López,- Documentation: updating russian wiki docs,False
+a084f7f66dca2bd32788f07e71c4f5feed3b1d39,2017-10-24 18:34:45,Alvaro Trigo López,- Documentation: adding wiki docs in russian,False
+9062095c2e58d029ad8f0f51146ac8981d4ff1b3,2017-10-24 17:41:08,Alvaro Trigo López,- Documentation: updating links in lang docs,False
+66d55451e99acd71af3384b4c9dfe35642ec0d06,2017-10-24 17:20:52,Alvaro Trigo López,- Documentation: languages menu,False
+60218a83d1869094db2efc84fbe8f42958a67903,2017-10-24 17:19:45,Alvaro Trigo López,- Documentation: languages menu,False
+88933f19b68cc9ca7de6e0746601c370c8bdb484,2017-10-24 16:54:03,Alvaro Trigo López,- Documentation: fixing typo & updating russian,False
+44d1490695f5e67b0a0980252c5e0fa223619a5f,2017-10-24 16:50:40,Alvaro Trigo López,- Documentation: updating lang docs,False
+45fd7c46370fba08b288874c273b0e1615f31217,2017-10-24 16:50:01,Alvaro Trigo López,"- Documentation: remove scrollOverflow on responsive.
+- Documentation: Better explanation of responsive auto-height
+- Documentation: added Demo for fp-auto-height-responsive",False
+d19c115d357f0fd98a2642171e0ea4f0495beeaa,2017-10-24 16:30:40,Alvaro Trigo López,- Fixed russian typos,False
+a01fc9e544325b498e595d69dfc2deff9d9db8b5,2017-10-24 16:28:38,Alvaro Trigo López,- Added: Russian docs.,False
+005ad23a4fe241b5d95185097dd8b7fefc9297c9,2017-10-23 22:52:33,Alvaro Trigo López,- Fixed issue with scrollOverflow when not using it.,False
+631daae392f2a95e9f74aa48c31f24c1d24e539d,2017-10-23 22:17:52,Alvaro Trigo López,- Improved: adding data-src for video elements without source,False
+b77d30d5d83208b1055e787b016866d62dfc957e,2017-10-23 22:06:52,Alvaro Trigo López,- Fixed bug: there was an error when using audio with data-src,False
+f8e2940ffc2b0c9a316a1e2718d72027795c69fb,2017-10-23 21:15:56,Alvaro Trigo López,- Updating extensions file,False
+66014484b189705fff11f07efbe276927422737d,2017-10-20 18:57:49,Alvaro Trigo López,- Improved: Adding 'scrollOverflow:false' while responsive. #958,False
+e9356c650acf679fb755910c84faae72d00631f5,2017-10-16 20:05:45,Alvaro Trigo López,- Removed duplicate description for fp-enabled.,False
+f36dc80a016b1897d33af46badb0105e3383900c,2017-10-16 20:02:17,Alvaro Trigo López,- Improved: now dragAndMove extension provides more options.,False
+961cb9a63c8e4745adfbee47aa2eae1175cd03b1,2017-10-12 21:30:15,Alvaro Trigo López,- Improved: fitToSection only on sections without fp-auto-height #1724,False
+ca98a879f4b48a44cdd37a9db2409debb8c70618,2017-10-12 21:02:48,Alvaro Trigo López,"- Fixed bug: onLeave returning wrong direction when using
+continuousHorizontal #2662",False
+85fde7c15194e5a3815750120cba71396b4feb68,2017-10-12 17:30:38,Alvaro Trigo López,"- Improved: Menu links don't work on anchors that begin with a slash
+#2803",False
+a6477b3e92c7c8a8f00f6c49f21f083cfc1d8300,2017-10-11 21:52:27,Alvaro Trigo López,- Improved: Remove style superContainer from CSS #2812,False
+522271632dd6aaa818e5f0fd334098409d9fec15,2017-10-11 21:42:37,Alvaro Trigo López,"- Fixed bug: data-srcset in picture source tags doesn't work #2865
+- Added: fullpage.js public version number",False
+ffc69b61a5f1796c28305c3c8170cebd38ee9797,2017-10-11 21:19:43,Alvaro Trigo López,"- Updating extensions file
+- Removed JS errors when using DragAndMove and scrollBar:true #2892",False
+b08c094ddd23245540985f934a99dd1e8aef86d2,2017-10-10 20:01:22,Alvaro Trigo López,- Fixed bug: Parallax animation breaks if onLeave returns false #2906,False
+2b8737d4ac14ace69b02ada14f139a9edce369a9,2017-10-10 19:55:12,Alvaro Trigo López,"- Fixed bug: onLeave return false won't work on 1st or last section
+when using continuousVertical",False
+776ba59130b548457c8e6d04317f4fed8a68ece0,2017-10-10 19:35:33,Alvaro Trigo López,"- Moving all the scrollOverflow feature to a separate file:
+scrolloverflow.js",False
+579acd13658bfba1ff73dd2ff1d83b366153643a,2017-10-09 22:08:51,Alvaro Trigo López,"- Fixed bug: Horizontal nav with many elements not centered for mobile
+view #2736",False
+4336791b08aa0edfdb251f3c647b229c593c3358,2017-10-09 21:56:46,Alvaro Trigo López,"- Fixed bug: offsetSections used with scrollOverflow #2878
+- Fixed bug: offsetSections not working when using paddingTop #2876
+- Fixed bug: continuousVertical not selecting proper navigation bullet
+#2917",False
+27db5b43943b28400cddf0203481e3dab2d62eae,2017-09-01 20:56:47,Álvaro,"Merge pull request #2880 from BelakorrGithub/patch-4
+
+Update README_SPANISH.md",True
+da3c326052dd0a7a57f58581eb4cfc7eab509bf6,2017-09-01 18:29:10,BelakorrGithub,"Update README_SPANISH.md
+
+Fixing some typos",False
+7e0e44ea1427e94a756f8af45c14d6a599e7be2a,2017-05-31 04:00:54,Álvaro,Update README_SPANISH.md,False
+93cb745423ec1d0e9913c5c5c34c10be12d22db5,2017-05-31 04:00:07,Álvaro,Update README.md,False
+e9e3e637c2ff1a73df3a1aa8147b5bb637af7f72,2017-05-31 03:55:27,Alvaro Trigo López,- Aesthetic changes,False
+74933e4d3fa83196afc73066361593041bc22212,2017-05-24 01:25:46,Alvaro Trigo López,"- Fixed bug: setAllowScrolling(boolean); and
+setKeyboardAllowing(boolean) was not undoing the
+setAllowScrolling(boolean, directions) and
+setKeyboardAllowing(boolean,directions)",False
+b1303839a04128f98147e3132b0d912fa4098471,2017-05-24 01:22:51,Alvaro Trigo López,"- Fixed bug: setAllowScrolling(boolean); and
+setKeyboardAllowing(boolean) was not undoing the
+setAllowScrolling(boolean, directions) and
+setKeyboardAllowing(boolean,directions)",False
+eab96e17384e9ece2562786d5e7a39f0aa1fc63d,2017-05-08 20:19:10,Álvaro,"- Moving scrollHandler to a separate file, combining it with scrolloverflow.js",False
+ed10ac5d746d8b3815cadfff12a59d1e96bcde1b,2017-05-08 15:39:20,Álvaro,"- normalScrollElements was not working properly when using scrollBar:true #2691
+- Removed the function checkParentForNormalScrollElement and all its calls",False
+e02e30852e206120791f2569cca727da60291e44,2017-05-02 15:08:38,Álvaro,- Fixed bug: Fading Effect extension issues on resize,False
+f1b76e5d37cbb05eff73edcc9d83cf5e5fe42b97,2017-04-29 01:30:39,Álvaro,"Merge pull request #2691 from toulatip8/patch-2
+
+Re-re-submit of pull request #2665",True
+4d5ba923f9d9ab40db75cbd91c062ad514c95260,2017-04-29 01:27:55,toulatip8,"Re-re-submit of pull request #2665
+
+Fix for #2664",False
+21174eadcc450eaf58c50ffeb9cc58c5a275c138,2017-04-28 22:55:47,Álvaro,"Merge pull request #2665 from alvarotrigo/master
+
+Adding touch event listeners for ""normalScrollElements""",True
+4483466755f5cf7e7ee5a233c80a0ce02a4339fd,2017-04-28 22:54:44,Álvaro,"Merge pull request #2689 from alvarotrigo/dev
+
+Dev",True
+b6c9684cfd27e5a94cafcc7fa8b53cd5bd455868,2017-04-28 22:54:24,Álvaro,- Aesthetics changes,False
+68eac3c0e7ccadb6f6cbc60d5463b0eebe68ba69,2017-04-28 22:52:42,Álvaro,- Revert,False
+741162f2e3f1f9ab4f376f335f6da4932ddea0c7,2017-04-28 03:24:51,Álvaro,"Merge pull request #2688 from alvarotrigo/revert-2661-dev
+
+Revert ""- Aesthetics changes""",True
+bca2fb79893f0a2cf4b1d7ca27a107e51c04188a,2017-04-28 03:24:43,Álvaro,"Revert ""- Aesthetics changes""",False
+e653eb5d3b409cfb041513b0b9300309f5927a2f,2017-04-28 03:21:49,Álvaro,"Merge pull request #2687 from alvarotrigo/revert-2683-patch-1
+
+Revert ""Re-submit of pull request #2665""",True
+e7e095312074556fc428dfe53d8c4b0c5e72fbb8,2017-04-28 03:21:35,Álvaro,"Revert ""Re-submit of pull request #2665""",False
+0fe578005e5a6e10676ab7fda30687780f8b8d6e,2017-04-28 03:13:46,Alvaro Trigo López,Aesthetics changes,False
+6563fe0850a34eb86adb34482802e26c7a09777e,2017-04-26 19:16:22,Álvaro,"Merge pull request #2683 from toulatip8/patch-1
+
+Re-submit of pull request #2665",True
+60f0fd30502a2c79a1569963a6cc11635f0b748f,2017-04-26 19:08:16,toulatip8,"Edit for pull request #2665
+
+Addressing issue #2664",False
+5dc85ede9be28224c5fa02e54c446990d02125ed,2017-04-19 14:58:47,Álvaro,"Merge pull request #2661 from alvarotrigo/dev
+
+- Aesthetics changes",True
+0c853b9081842b6ff22da43d81ad7388da312ef1,2017-04-19 14:58:20,Álvaro,- Aesthetics changes,False
+0e5df28a8fed7d997a22b2f6fc77903ff3bfc8b2,2017-04-19 14:57:28,Álvaro,- Aesthetics changes,False
+6c856eb74fedb8814b6dc3e70e0a871d2e1153e8,2017-04-19 14:55:13,Álvaro,- Aesthetics changes,False
+80c2586a0db44224057990d78e6e4e862f19b6ba,2017-04-03 22:27:08,Álvaro,"Merge pull request #2639 from alvarotrigo/dev
+
+- Docs aesthetic changes",True
+4f641b535a855e8ecda898e24eeee2e57e9c0628,2017-04-03 22:26:05,Álvaro,- Aesthetics changes,False
+02e80d0d3154fa5b1ebd1c202a690e9cefd8d857,2017-03-31 15:28:52,Álvaro,- Fixing problems with labels in scrollOverflow elements #2634,False
+74c5218d2fd86a903a05056d70bf4b5328868559,2017-03-20 17:36:45,Álvaro,"Merge pull request #2621 from alvarotrigo/dev
+
+- Documentation aesthetics changes",True
+f349a2c3f4718025f35b89fd101f5b3db7e1f6f3,2017-03-20 17:36:19,Álvaro,- Aesthetics changes,False
+5843cf32ebfc4ca071d5f29402c3c6128dca0493,2017-03-20 17:31:58,Álvaro,"Merge pull request #2620 from alvarotrigo/dev
+
+- Documentation aesthetics changes",True
+6d88f75547970663bea0c0959d61ff37c9e3e208,2017-03-20 17:30:15,Álvaro,- Aesthetics changes,False
+5cdeaca635ef79970129f87b67a230bb7522d42b,2017-03-20 17:25:40,Álvaro,- Aesthetics changes,False
+5a632e3522e7a0ab39654882b1dc0071e09cfd29,2017-03-20 17:22:21,Álvaro,- Aesthetics changes,False
+c967a4b23a3dfec6827c6791fa6bc16a6dbbf0bb,2017-03-20 17:18:44,Álvaro,- Aesthetics changes,False
+cb27b6887d13294a9cfaa39e4cfd1f013a91be29,2017-03-20 17:18:18,Álvaro,- Adding link & banner to wordpress theme,False
+c546e8456a074946325daed20c8c370e4b015f6c,2017-03-20 17:12:02,Álvaro,- Aesthetics changes,False
+de30a54cd720e0143ecffd2edd8110313f1d096c,2017-03-20 17:10:39,Álvaro,- Fixing typo,False
+18e181a4e0825b6d08e2300085053a1cb5cbd88c,2017-03-20 17:10:14,Álvaro,- Fixing typo,False
+e00cec5d6dbc9da81c1c3739f583cfc3c821ca32,2017-03-20 17:08:07,Álvaro,- Fixing typo,False
+c23640af57cff80364983c23e3140b905519ab64,2017-03-20 17:03:46,Álvaro,- Fixing typo,False
+802acc424830da43cf172ecbf2725d9168f50cb9,2017-03-20 17:00:02,Álvaro,- Fixing typo,False
+c2d3fb5793790ed2af173e0915803dc967158777,2017-03-10 22:02:52,Álvaro,"Merge pull request #2607 from alvarotrigo/dev
+
+Merging dev branch 2.9.4",True
+37bfeb711357059d335c8605207201fda4c671b2,2017-03-10 21:59:43,Álvaro,- Updating version,False
+31430c3e73ce6c3504d3bcaa4303ae4946cac43c,2017-03-10 21:57:48,Álvaro,- Updating version and dist files,False
+99e439df69215f1d2e76d3127cd25c8522353921,2017-03-10 21:56:35,Álvaro,- Documentation: fitToSection,False
+fb4ba897b7b99ddea926995ffc5a5a5c61f872e9,2017-03-10 21:18:41,Álvaro,- Updating examples list,False
+55702d7786448928053f1a3c470b325fedb2d995,2017-03-10 21:11:06,Álvaro,- Adding lazy load example,False
+8483a872cac1dd57ae1fe3718f2b624cf125eeb3,2017-03-10 21:09:55,Álvaro,- Updating extensions file,False
+354e290db67d35a2a2249f53a13df2d2df5ac6f0,2017-03-10 21:07:10,Álvaro,- Added: lazy load for picture srcset elements #2355,False
+6e09dbc3649fad6266abe320381aa344e72fd556,2017-03-10 18:35:15,Álvaro,- Updating extensions file,False
+584808563ea24d61037330c27bd9a53856cad061,2017-03-10 18:33:13,Álvaro,- Adding some comments,False
+74cd65d3c8db92bbb1cb8152348619ff87bc7a44,2017-03-10 18:17:07,Álvaro,- Added: new method `fitToSection()` #2575,False
+e8be9c7840b5a70bd1b7b290224a58f6b9e56197,2017-03-10 17:57:49,Álvaro,- Fixed bug: direct URL links wouldn't work when using an active slide for page load #1646,False
+c1e7060776086abd8982ee9663236fe586e84862,2017-03-10 17:21:12,Álvaro,- Fixed bug: resizing viewport pauses media elements on slides #2471,False
+87098ee342b7b46433cae72150439940d8fec161,2017-03-10 16:33:54,Álvaro,- Fixed bug: afterLoad always fires first index=1 even accessing the page on any other section #2519,False
+83997c2062b52013f97c5af1a1bb7a679c730b95,2017-03-10 14:52:52,Álvaro,"Merge pull request #2606 from alvarotrigo/dev
+
+- Fixed bug: Unlicensed message appeared when loading (but not using…",True
+21fd7960ff489a2766c15662f9ae380a5b275563,2017-03-08 17:31:23,Álvaro,- Fixing bug: Unlicensed message appeared when loading (but not using) extensions,False
+cb9924198d6e9a9706b9cf8c56394a8d2f283531,2017-03-01 20:35:17,Álvaro,"Merge pull request #2591 from alvarotrigo/dev
+
+- Adding parallax example",True
+9acb95b4fa190a2b6b55c87023dc772311ac48ff,2017-03-01 20:33:34,Álvaro,- Adding parallax example,False
+88145209d3a5737d19be704ae77fd3f9efcbc94b,2017-03-01 19:05:26,Álvaro,"Merge pull request #2590 from alvarotrigo/dev
+
+- Updating packages version",True
+45524eb03144796d1ea9565a32c641e4a3c8995d,2017-03-01 19:05:01,Álvaro,- Updating packages version,False
+3cc7d233b81882568803824c0103080fc4e7da40,2017-03-01 19:03:55,Álvaro,"Merge pull request #2589 from alvarotrigo/dev
+
+Merging dev branch",True
+785a2716f398aea6adf4b7e7cd555db7c283f02c,2017-03-01 18:57:04,Álvaro,- Updating extensions version,False
+3a08ecc79bc44c90e74ff41d75e18b2ba9f6099c,2017-03-01 18:51:24,Álvaro,- Updating version and dist files,False
+658eeaf387d147c5a3889d9bb731daea71eccb7c,2017-03-01 18:49:15,Álvaro,- Adding parallax extension,False
+5d95f253dcc7c615af6938748fb089d153a09a38,2017-02-28 17:46:31,Álvaro,- Updating spanish docs,False
+ae0ae73a42ec661c733b8a46092b73b76c42297f,2017-02-28 17:40:05,Álvaro,"- Removing links from ""who is using fullpage.js""",False
+1f24f3bb8a7cce5b479b8fb094e012b271897f74,2017-02-28 17:23:33,Álvaro,- Improving adding a few aesthetics bits,False
+9af54ccbdda82e001764f0f15f165876226d9c12,2017-02-28 17:22:00,Álvaro,- Improving adding a few aesthetics bits,False
+db051cc81351ab6827ecd5dd0292f9811fe841f6,2017-02-28 17:19:11,Álvaro,- Improving adding a few aesthetics bits,False
+6efab7e45a447fa9af40edf6d4f52f725fe1ac28,2017-02-28 17:09:16,Álvaro,- Improving adding a few aesthetics bits,False
+3bc8791d711df5254f51ce161c6a881707aa030e,2017-02-28 17:06:06,Álvaro,- Adding parallax docs & improving adding a few aesthetics bits,False
+c15d4e39c6aa6b515a51cd47f12b036de1c1c62f,2017-02-28 17:04:43,Álvaro,- Improving cross browser compatibility image,False
+5824cf0eadcc6768b05fd28871522c3ab6c681e5,2017-02-23 00:39:51,Alvaro Trigo López,Updating extensions file,False
+6dce6f33f21f44d1d59a941f15b99a4a0d67ebf5,2017-02-16 16:30:01,Álvaro,- Fixed bug: Chrome devices dev tools show error when using scrollBar:true #2507 #2567,False
+882800530111f6a9e6ee83754a59cb6a936056da,2017-02-07 16:57:18,Álvaro,- Fixed bug: dragAndMove:true & fp-auto-height scrolling to the top of the viewport #2551,False
+c17a715dece26f21666b028e04dacefdc8cf4a84,2017-02-06 19:03:27,Álvaro,- Fixed bug: extension drag and drop not working with resetSliders: true #2549,False
+5eee3f5f880e26169df54e233f745ceefb705e4c,2017-02-06 18:22:59,Álvaro,- Fixed bug in extensions file when using loopHorizontal:false #2548,False
+2b6d40568b96e9976f8efa0248782e286c625cdb,2017-02-02 22:03:35,Álvaro,- Added support for Fading Effect + responsive,False
+6340d59cfd0377afcd55bab6903d99a42e3bd8fb,2017-02-02 21:43:22,Álvaro,- Now scrollOverflow and offsetSections are compatible,False
+d570591396d7c82b22b9a5193406f6096477c70d,2017-01-16 23:18:41,Álvaro,- Remove container transitions on destroy('all'),False
+5e1a2b99ec7f8fe242917436040ab231f32dfeeb,2017-01-16 23:07:29,Álvaro,- Fixed bug: Chrome devices dev tools show error when using scrollBar:true #2507,False
+9ad42556c955dac2601440809d71abd4543e3c9f,2017-01-11 18:02:32,Álvaro,"Merge pull request #2502 from alvarotrigo/dev
+
+- Extra resource removed",True
+b888b325df1762e208be31d7424d1fe546211367,2017-01-11 18:01:47,Álvaro,- Extra resource removed,False
+e94b8b686b100a8e268360568fd3718a7fd13ce9,2016-12-19 23:44:32,Álvaro,"Merge pull request #2468 from alvarotrigo/dev
+
+- Updating version and dist files",True
+546beb4caf24716875e167b229dfd9746195747a,2016-12-19 23:43:55,Álvaro,- Updating version and dist files,False
+eac695631722c52de03d819e7beeed005cda16c1,2016-12-19 23:40:13,Álvaro,"Merge pull request #2467 from alvarotrigo/dev
+
+- Updating version and dist files",True
+733b0cae4b01fe8d4a8bd3fa61af234f37d7feb6,2016-12-19 23:39:47,Álvaro,- Updating version and dist files,False
+e80322ffab7636b723a06c9202c9bd9b11cfde85,2016-12-19 23:33:47,Álvaro,"Merge pull request #2466 from alvarotrigo/dev
+
+- Fixed typo",True
+921ea6e00858e5369f6383417a6c0ed93f562e6d,2016-12-19 23:33:14,Álvaro,- Fixed typo,False
+e7a63fe0b610b009de3cc6a2c19bfc9e3cf9d2d3,2016-12-19 23:32:41,Álvaro,,False
+4084c1bd696b712a97eb23cd78ea3faa8c78c5f6,2016-12-19 23:30:58,Álvaro,- Fixed typo in package.json,False
+fcc11b0118305e13d80ca2b4dcf84f8795a8fd57,2016-12-19 23:27:59,Álvaro,"Merge pull request #2465 from alvarotrigo/dev
+
+Mergin dev branch 2.9.1",True
+97788da7bb20a4a4e68f2307b3e33d8ae9e452c8,2016-12-19 22:42:55,Álvaro,- Updated version and dist files,False
+b3e3e3e53e5c4673b36747efb17120c2e2a876d7,2016-12-19 22:41:43,Álvaro,- Documentation: added new option scrollOverflowReset,False
+1babac56b88480ac83db227f7c22d4d57bad1d9e,2016-12-19 22:40:28,Álvaro,- Added new option scrollOverflow:reset,False
+89eae16721a9554ab132adbbefce42e0a86889f4,2016-12-19 22:39:41,Álvaro,"Merge pull request #2464 from alvarotrigo/revert-2420-offsetTop-option
+
+Revert ""Offset top option""",True
+3a4a9f39a78210aabee236cb0ed04a7bdb19daa2,2016-12-19 22:39:31,Álvaro,"Revert ""Offset top option""",False
+233c7535985fdadc4a9518547224a961c6254f2f,2016-12-19 22:36:18,Álvaro,- Examples: updating examples dropdown + scrollOverflowReset + change some filenames,False
+4c33c4b5412a9453c51d0b9e723be28c0d80161f,2016-12-19 22:30:56,Álvaro,- Examples: added 2 more examples,False
+2b8c6b124a93e3f3d3431e790536eee091d6b5cd,2016-12-19 22:30:33,Álvaro,- Examples: added normalScrollElements.,False
+59ec06a75b677062bb6f330bfb1418b614e79bf7,2016-12-19 21:06:53,Álvaro,"Merge pull request #2420 from passion4code/offsetTop-option
+
+Offset top option",True
+01bd9f17184a678124fe5f9f8c7c303c6f3a10d8,2016-12-19 21:00:50,Álvaro,- Documentation: scrollOverflow not compatible with IE 8 #2459,False
+3e33e653f579ad7f6ba927af3bb6aeb4881a436e,2016-12-13 18:40:49,Álvaro,"Merge pull request #2456 from alvarotrigo/dev
+
+Merging dev branch 2.9.0",True
+e23e1f4af01fed55918e14bdcedd61a9e6e4c1c2,2016-12-13 18:38:59,Álvaro,- Added nextSlideIndex parameter for the callback onSlideLeave #2450,False
+a193ea8da402c5bd1364e22ab334c4e86e98f5f5,2016-12-13 18:34:55,Álvaro,- Updated version and dist files,False
+103df2a400ef4643eaf6653bd9b4aeb9ae95c713,2016-12-13 18:17:47,Álvaro,,False
+94cd5745994b108f3e7c85b2e02984e34c6aadc2,2016-12-13 18:14:51,Álvaro,,False
+a0accb67e86363587b39882683af270eb6b8f637,2016-12-13 18:12:28,Álvaro,- Resource: adding new wordpress theme,False
+1197f6f7f8c7695367e370e075867189a1ba6c9f,2016-12-09 20:56:24,Álvaro,- Adding more tests,False
+9b7be96776a3a017f668a46b15ea4c3afbac0200,2016-12-09 14:36:34,Álvaro,- Improving demos: removing twitter + better centering,False
+7fcbb08393f8dc9d1c3b1cc12fd885ad1aa00ddf,2016-12-09 14:31:32,Álvaro,- Improving demos: removing twitter + better centering,False
+2e8b655d0f026cb9fb9ec73a7229e7dc56891cb1,2016-12-09 14:27:14,Álvaro,Improved: backgroundVideo.html hiding controls,False
+3d5ced00cec9a9a23d93555b0348b544939e254c,2016-12-09 14:20:26,Álvaro,- Improved: backgruondVideo example.,False
+386b6b8341a698ed6fa7458f696cdfff9f434bf2,2016-12-08 22:50:23,Álvaro,- Documentation: improving docs for extensions,False
+6372358920ab9cb8c7c373ab5be8773eca95d354,2016-12-08 18:12:33,Álvaro,"- Repositioned some code #2443
+- Updated extensions file #2443",False
+4bbbae3dbda7d411b75b8883fce9dfb0100ed5bb,2016-12-08 18:03:24,Álvaro,"Merge pull request #2443 from publicJorn/dev
+
+Prevent keypresses to fire prematurely",True
+b690f01fab4decb74a1ae0a98e854b704d9f5228,2016-12-08 18:00:08,Jorn Luiten,Merge branch 'dev' of github.com:alvarotrigo/fullPage.js into dev,True
+5912fca2fabf05431f32eaad86556ab9f5eb5921,2016-12-08 17:58:51,Jorn Luiten,Change to Alvaro’s proposal,False
+2c131b0a01945cef2afc00f440d17929dfea6ad7,2016-12-08 17:58:51,Álvaro,- Fixed bug: Swiping slides on touch won't work when using autoScrolling:false #2447,False
+221441a575b198a44ff48a2f16ff25e46b615a5e,2016-12-08 16:33:03,Álvaro,- Fixed bug: Swiping slides on touch won't work when using autoScrolling:false #2447,False
+f6777b8457aba700669904dc6b23a3879dfd41e6,2016-12-07 13:29:44,Jorn Luiten,Prevent keypresses to fire prematurely,False
+914c1a33b98f052c92207b241af1911b6f85e65d,2016-11-30 17:46:00,Álvaro,- Fixed problem with subdomains and activation key,False
+29d805e6d68be7b1a80f123b5da7bd9890e3a717,2016-11-25 15:34:13,Álvaro,"Merge pull request #2431 from thisisfed/patch-9
+
+Update README.md",True
+6ba53994a8be46275b2f40f5913f00867656155e,2016-11-25 15:33:56,Álvaro,"Merge pull request #2430 from thisisfed/patch-8
+
+Update README.md",True
+25abf6b04b7faf310060d425d252c4360dafd2ca,2016-11-25 15:18:00,Federico,Update README.md,False
+b8dcdb0765bac524f40ec413ff41505c03efeeb6,2016-11-25 15:15:53,Federico,Update README.md,False
+0a447999b1fad25151366f96e44ae0519879f9aa,2016-11-23 21:38:27,Álvaro,- Fixed bug: problem with translate value in responsive #2426,False
+52f68a9e28c3d6e97c78733257127b06996c9ff3,2016-11-21 22:21:10,Álvaro,"Merge pull request #2424 from alvarotrigo/dev
+
+Mergin dev branch 2.8.9",True
+0415e6ac1e55ec731556a9705ccbc04f7d2bd6c0,2016-11-21 22:01:55,Álvaro,- Updating minified file,False
+09f9b69a83b08221a048289dfdb88702f964a4af,2016-11-21 22:00:53,Álvaro,- Updading version and dist files,False
+2ff7d783d4736cd849a26d56f019041e6cb9f8a5,2016-11-21 22:00:06,Álvaro,- Adding extensions examples,False
+d1fe0103216d63411990eae3d5fbe3506cadebd8,2016-11-21 19:06:52,Álvaro,- Fixed bug: iScroll on page load scrolling not working #2353,False
+d1682517abf4cba93df377d2ff2073e3b4c76e23,2016-11-19 02:12:13,jrose,merge,True
+9f4913fbc3ee8f69e76224b19fb0f2d0c0ff0626,2016-11-19 00:28:47,jrose,simple option for offsetTop,False
+c57b7dcea361c73a2374ae481b3a5bb64f1350b6,2016-11-18 19:15:20,Álvaro,- Adding new option: dragAndMove that enables the dragging and flickering of sections and slides with mouse or fingers #2182,False
+7d1031f8b30f72cca365eafba37bd4df9da10e4d,2016-11-18 00:49:23,Álvaro,"Merge pull request #2415 from thisisfed/patch-4
+
+fixed typo / 2",True
+30cd8e724d4e6ccacab9cd9e954f2ac934a4ff87,2016-11-18 00:29:39,Federico,fixed typo / 2,False
+58bf45985d58396c7e4a8d45b5128d6f361d0fb7,2016-11-17 17:32:31,Álvaro,- Documentation: Update docs about media autoplay on mobile devices #2409,False
+24e11f9d393d0ea3f1b0fa46ff8c692baf1e8b29,2016-11-17 17:26:18,Álvaro,- Removed unnecessary scrollOverflowOptions,False
+6dde698c3b307f63276f851cca2d7a2f3844282b,2016-11-17 16:33:24,Álvaro,- Fixed bug: -webkit-overflow-scrolling:touch is not working on scrollable elements since 2.8.8 #2372,False
+a48aadf9ba0903ed8f6ca3746ff3ea4f8537f6fb,2016-11-17 01:35:31,Álvaro,"Merge pull request #2412 from jagi/patch-1
+
+#2409 Add info about lack of autoplay feature on some devices",True
+d3e63b3ecee31c32fe1fd4dcc1280a1d8912c5aa,2016-11-16 23:59:07,jagi,#2409 Add info about lack of autoplay feature on some devices,False
+a2b34227573e26a2edfc76f644b9a288a8882be8,2016-11-16 20:45:24,Álvaro,"Merge pull request #2411 from thisisfed/patch-3
+
+Fixed typo",True
+6d0490a520660f4a6efa49517e33e1e3779a6347,2016-11-16 20:28:08,thisisfed,Fixed typo,False
+254a00f4150edb35d2ddc2d6d4cc5d641b1595d1,2016-11-15 23:05:56,Álvaro,- Fixed bug:'touchmove' event no longer fired after cancelling movement onSlideLeave #2406,False
+4189a96e5061b4fb30141c6965c95a39a9a62096,2016-11-09 21:02:07,Álvaro,- Fixed bug: Clips start playing when window is resized #2388,False
+a004c816301a2185198738bf0cd9f3c3892b84d0,2016-11-09 20:35:58,Álvaro,"- Documentation: continuousVertical:true is not compatible with scroll bars #2390
+- Improvement: added console warning when using continuousVertical and scroll bars #2390",False
+8010adeb01bdb39a051b9dff23bcc013efc01ff3,2016-11-08 05:57:10,Álvaro,"Merge pull request #2384 from konekoya/patch-1
+
+Remove extra white space",True
+37c9fbd1075c7b096c54d5a1f5ff06b52fc161c4,2016-11-08 05:53:45,Joshua,Remove extra white space,False
+0d5e400d2360d4c680ff6f4da3e43e86a43ff0c1,2016-11-05 20:46:56,Álvaro,"Merge pull request #2378 from qertis/master
+
+fullPage without jQuery some fixes",True
+7c4da640f1eab55e86d967ae21b8730a6b9ced94,2016-11-05 19:59:05,Denis Baskovsky,"#20: babel import fix,
+#1010, #1069: firefox scroll fix,
+#1757 space link fix (like url: /#some thing",False
+a264f9c9f50fced1f8be1c13e5f66e2fec74cc67,2016-11-04 23:34:00,Álvaro,- Fixed bug: (Extensions file) Unknown URL anchors throwing a javascript error and stopping execution #2377 related with #2284,False
+09d82308eb1762fae9d7a968e34a5acb0843b932,2016-11-04 21:11:20,Álvaro,- Fixed bug with sub-domains,False
+2d7ad55f15ef003e2b6cfa4654769afa750701af,2016-11-03 14:25:51,Álvaro,"Merge pull request #2374 from GustavSt/patch-2
+
+Use $ instead of jQuery",True
+3165ebe682e4d18d269cb893ca725cf067f075aa,2016-11-03 14:24:51,Gustav Stensson,"Use $ instead of jQuery
+
+I got error since I didn't have jQuery globally defined. All other places in the code `$` is used as well, not sure why `jQuery` was used here",False
+a242cd71d430ec68cf8f338c0d0b7f4f5aa57a7d,2016-11-02 20:20:57,Álvaro,- Removing unnecessary code,False
+b02bd60133d5a54824b0f8947581d01829debc42,2016-10-31 14:46:31,Álvaro,"Merge pull request #2368 from xfq/patch-2
+
+Typo fix",True
+5fa27198446318aef53b2a4216bf19480eb61278,2016-10-31 13:16:23,Xue Fuqiao,"Typo fix
+
+Fix a typo.",False
+d1bd619486a832eb57d2b362a3c113bbc52ee0da,2016-10-27 22:54:29,Álvaro,- Updating links for the spanish docs,False
+56a1d27ff5d7c4df9d2c87c5da108ce2382c3bc1,2016-10-27 22:45:42,Álvaro,,False
+6a86055edcb20773f1a50d6b9b3a15987a954aaa,2016-10-27 22:44:32,Álvaro,- Added tabs state,False
+3f170a632d27f08a050705e302e0ce2e99772170,2016-10-27 22:38:59,Álvaro,- Improved link in spanish tab,False
+e93913176bcf91710dbe2d45881691a7a0626505,2016-10-27 22:38:13,Álvaro,- Removed space between language tabs,False
+6d962aeba92dc26e21da5850629511eeaff43854,2016-10-27 22:37:28,Álvaro,"- Improved readme 
+- Added language tabs 
+- Added lazyLoading option on the initialization",False
+e44c1fcd42a1a266669b4c02550a7ff3d7ab2a36,2016-10-27 22:35:45,Álvaro,- Added spanish readme,False
+9616da816a75edfc3b892acb074630b07bda540b,2016-10-27 22:35:21,Álvaro,- Added spanish tab,False
+905f4c8808a71d38119da2b67b0556809b0496ba,2016-10-27 20:19:54,Álvaro,,False
+fbca2b891a16ee536619afa56b118e051f2a14a5,2016-10-26 02:03:06,Alvaro Trigo López,Renamed license,False
+85d69d901ad376697a0d4c3334be65ea45d2d553,2016-10-26 02:00:11,Alvaro Trigo López,- License file added,False
+2eaf7052796ce0ea644851d3dde957ae00db985b,2016-10-24 16:20:33,Álvaro,"- Added website to ""who is using fullPage.js""",False
+b550f5c940432378076d035352c51348c540129e,2016-10-24 16:04:00,Álvaro,- Added new extension: Offset Sections #1627,False
+1e1ae2bcd6e1d7d11c51356a154557e1522585d5,2016-10-24 15:22:37,Álvaro,- Fixed bug: scrolloverflow not working on page load: #2353,False
+96ee45848e825241d888a5bc1de07f92136f5ca4,2016-10-24 14:56:29,Álvaro,- Fixed IE 8 compatibility #2350,False
+9fb132fc1dde5c4339ef64b7388c1339bd28ec6a,2016-10-21 19:09:22,Álvaro,- Documentation: pure Javascript version not supporting extensions and `setAllowScrolling` #1803,False
+7f995d7496af66762d592b7d20ba6d7139e14066,2016-10-21 01:49:20,Álvaro,"Merge pull request #2346 from alvarotrigo/dev
+
+- Updated minified",True
+8fc93e8b20c6e0df4b2ed71f6abf6e9d86d66db5,2016-10-21 01:32:54,Alvaro Trigo López,- Update minified,False
+e13f9d994c802f78aff9ec33b76d7501a9ced458,2016-10-21 01:15:29,Álvaro,"Merge pull request #2344 from alvarotrigo/dev
+
+Mergin dev branch",True
+866118899faffc9b53528633dd4d0628c2d8a085,2016-10-21 01:03:57,Alvaro Trigo López,- Updating version and dist files,False
+b225e762b8e2ee874a1fe8f66b09b96933e1a507,2016-10-20 22:09:30,Alvaro Trigo López,- Update extensions file,False
+e38b3f8d64a7b35c9f2443f87849da44901f001b,2016-10-20 16:10:08,Alvaro Trigo López,- Updating extensions file,False
+f66feb6bcddafa6d1beb87284bba623433cbc969,2016-10-20 15:47:50,Alvaro Trigo López,- Update extensions file,False
+62577896b7cbbd3265fc84547a7d0085887838b9,2016-10-20 01:16:06,Alvaro Trigo López,- Reverted example change,False
+c8f640ab2e904e1eebe44a43a63f26c766f407d1,2016-10-20 01:13:44,Alvaro Trigo López,- Reverted example changes,False
+506ec544aef4f77af21b4a3518c48c3fea15ea08,2016-10-20 01:10:58,Alvaro Trigo López,"- Fixing touch and click vents propagations and fixing iOS bouncing in
+other way #2338",False
+736ac0f8d2c3d04816d749aa1eb6dc8531385f2d,2016-10-18 17:17:14,Álvaro,- Updating extensions file,False
+19617c0822d29fac5068ac8387f3f99eb4217685,2016-10-18 17:14:26,Álvaro,- Updating extensions file,False
+f4367330b113c375b66d69c0e21881822cd671ad,2016-10-18 17:13:07,Álvaro,- Fixed bug: 1st section wouldn't get active when using scroll bar and fp-auto-height for the 1st section #2267,False
+5090b9b06b0e24b92a99ca46ea3fb73126ab30c0,2016-10-18 02:48:13,Alvaro Trigo López,- Fixed bug: click events not working on touch devices #2338,False
+9feb3d6ce73277004bc65073f5e378f5b80a41da,2016-10-17 20:28:44,Álvaro,- Fixed bug: prevent iScroll from scrolling in inactive sections #2290,False
+4a462d438e14bb1198869df2592c771309ce76ee,2016-10-17 20:01:04,Álvaro,- Fixed bug: media elements playing on section leave #2336,False
+37f54b766b6ef4bb279dbd989a89a90acda8089c,2016-10-17 17:46:33,Álvaro,- Fixed bug preventing scroll on mobile devices when using `autoScrolling:false` or responsive mode on #2335,False
+7df97240e925abe7f231ed3fcd8801f335e1a39f,2016-10-17 17:04:46,Álvaro,"Merge pull request #2334 from publicJorn/dev
+
+Bugfix: continuousHorizontal should default to false",True
+1157da6b12adc58ad007078db32372e049b51907,2016-10-17 16:52:21,Jorn Luiten,continuousHorizontal default set to false. Extension warning made clearer.,False
+835fa7b3c5bb8abdc54dbcf4b90b44286035f858,2016-10-17 16:51:21,Álvaro,"- lazyLoading Variable change to camel case #2320
+- updated lazyLoading docs",False
+cd703a6f3fcc7159efcb8447ec427a9dab79721a,2016-10-17 16:50:55,Jorn Luiten,Intellij added to .gitignore,False
+8a0f231fcb0cc3b14dc880c3171c4e8e729f01e5,2016-10-15 16:38:37,Alvaro Trigo López,- Fixing issue with domain name,False
+5edabe6d15f865c1f608f2f523d704c27485574c,2016-10-14 16:02:35,Álvaro,"Merge pull request #2326 from CorpusCallosum/master
+
+Removing touch events when fullpage is destroyed",True
+752b5cd957b8c5f3f8373a4480fb052034c98075,2016-10-14 01:04:24,Jack Kalish,"Removing touch events when fullpage is destroyed
+
+Before only click events were being removed, which caused multiple touch events to be fired when reinitializing Fullpage.",False
+9a56f13fb07819cccb8513acd126f832601f203f,2016-10-13 20:58:33,Álvaro,"Merge pull request #2320 from publicJorn/dev
+
+Made lazy loading optional to prevent conflict with other lazy loadin…",True
+5a290289dc2640efcd2132232771637bdd584985,2016-10-13 20:46:07,Jorn Luiten,Updated readme to reflect `lazy` => `lazyloading` option change,False
+e7be5429c61b0d3a3cfd56122245474edb93ae4a,2016-10-13 20:46:07,Jorn Luiten,Option `lazy` => `lazyloading` and caching jQuery selector,False
+ffd68dec71bd4587296548a3d55c4f12cb8f3b50,2016-10-13 20:43:40,Jorn Luiten,Made lazy loading optional to prevent conflict with other lazy loading plugin,False
+e4a33e8ab1b50476cfa8c5d005a5115d33017165,2016-10-13 15:01:18,Álvaro,- Updating npm dependency,False
+9c19c7c0556c20fa77b2232493a6e183addc927b,2016-10-13 14:58:55,Álvaro,"Merge pull request #2325 from alvarotrigo/dev
+
+- Removed comment from extensions file",True
+a7cc63953f3b302cb1208cb36b0689f68b46c46e,2016-10-13 14:40:47,Álvaro,- Removed comment,False
+17bd7913cbb24c0760cfb68069ea32a52d037f3c,2016-10-12 17:41:00,Álvaro,"Merge pull request #2323 from alvarotrigo/dev
+
+Mergin Dev branch 2.8.7",True
+b636f04bcc17ed97aa645f9b5c7a66160a1a5208,2016-10-12 17:29:10,Álvaro,- Updating extensions version,False
+d5557c09f3483170cdeb5f1b951fdf00ab64b224,2016-10-12 16:20:02,Álvaro,"- Added fullpage.js extensions version
+- Updated gulp file with task to create extensions file 
+- Updated dist files 
+- Update version",False
+9f66597e952d8ebb35c6129ece994f53937abcc3,2016-10-12 16:16:13,Álvaro,- Remove a console message,False
+28ee99bec83f1ade6e4a95e4207305060cd90a01,2016-10-12 16:13:30,Álvaro,- Improving jshint validation,False
+5973175d3c2610dc43bde9ccd107559147f3dccd,2016-10-12 03:18:27,Alvaro Trigo López,Merge branch 'master' into dev,True
+6a81981ad69dbe807e317d9d2216871b6bf80c35,2016-10-11 22:39:17,Álvaro,- Extensions details,False
+d94ea5676bcbe4b414ad0b82075fbc6a9e3a5c34,2016-10-11 22:33:03,Álvaro,- Added warning regarding extensions,False
+e396e60ef2d336448a2adfa9ef28870b87237705,2016-10-11 21:49:17,Álvaro,- Removing extensions from unminified code,False
+88741816298c084da3bc80064e114c0e9919c541,2016-10-11 21:39:34,Álvaro,- Clear timeout,False
+c5654a7524c67bb65bde457095571f9365ba6a0d,2016-10-03 15:51:17,Álvaro,- .scss file removed #2297,False
+203f0b706bbe065111d8435b1049f4483756921f,2016-10-03 15:48:18,Álvaro,- Added `dist` folder to NPM and removed .scss file #2297,False
+694ee394b9826b831157b699ce1d8d0f3126c9fb,2016-10-03 14:18:20,Álvaro,- Documentation: added `normalScrollElements` can not be used for section/slides #2301,False
+4d5ab3296723a125a3e79b45d940eec60346a310,2016-09-30 19:56:32,Álvaro,- Documentation: responsive mode not functional in the pure Javascript version #2259,False
+bb8d87ebe7e43d828d11896111eb0682ac79d617,2016-09-30 19:53:43,Álvaro,- Fixed bug: removed the addition of `api=1` in vimeo videos #2288,False
+226a8551eb05d9ebca416f6e01f76672c361065d,2016-09-30 19:50:54,Álvaro,- Documentation: added docs for the use of `data-tooltip` in each section #2292,False
+eac0c528f92f5f10b38d13914d23d5b0afcf9ad7,2016-09-30 19:41:34,Álvaro,- Documenting callback `afterResponsive` #2296,False
+29290c38366711a20bd2c7bfba41b1babd00a62f,2016-09-29 13:31:08,Álvaro,- Fixed bug causing a break on JS execution when the URL hash doesn't belong to any section/slide #2284,False
+e8834ca63bf0b4af4bc19a511a8fd40c7cd49014,2016-09-29 13:13:10,Álvaro,- Fixing bug with iOS 10 causing bouncing effect when scrolling #2285,False
+a0587ec6c623955a86bede40ab0aa1f525dc752e,2016-09-15 22:30:54,Álvaro,- Resources: added React implementation of fullPage.js,False
+f351c329dcfc512439f8f25a96906b0e1b642beb,2016-09-15 22:24:46,Álvaro,- Resources: Added fullPage.js Rails Ruby gem,False
+041a4f80c2cea25cf1da6155e9e72bba79382bc8,2016-09-15 22:20:34,Álvaro,- Resources: Added ember-cli fullpage.js addon,False
+004d64b0852164c082181d563b3340df2f9dc354,2016-09-05 16:10:12,Álvaro,"Merge pull request #2244 from faisalhmohd/patch-3
+
+Corrected spacing and misc in Options section",True
+b8df48c0680a14d4f49fc0d945cec5559f527b1a,2016-09-05 16:04:26,Mohammad Faisal,Corrected spacing and misc in Options section,False
+8be3a53ffae635d5cbb368afeebe642e659de7d3,2016-09-02 22:35:24,Álvaro,"Merge pull request #2241 from alvarotrigo/dev
+
+2.8.6 Merging Dev branch",True
+1544befdf5a9a23e569c0baef0eeb412cdf34022,2016-09-02 21:49:49,Álvaro,- Added example Responsive Auto Height + updated list of examples,False
+e87f0109bae758c9898b1ae1cd5a043c5b77333c,2016-09-02 21:37:14,Álvaro,- Updating version and dist files,False
+c72da3992f7386193d26036ad439e0e013836dd8,2016-09-02 21:34:48,Álvaro,- Documentation: added explanation of the new extension `fadingEffect`,False
+b94396c47826b9c4fa17fef48f592be7e0be344b,2016-09-02 21:28:25,Álvaro,- Changing public functions declaration and saving a few bytes,False
+592d947151d4040979f0bfef9a604471597c67de,2016-09-02 20:37:21,Álvaro,- Added support for new extension: `faddingEffect` that changes the scrolling effect for a fading one #2113 #1625 #1093 #783 #760 #517 #121,False
+baa3daa22fa15b9659cac49b50cef13dcf6430d8,2016-09-02 20:06:12,Álvaro,- Fixed invalid bower package information #2184,False
+a60281efb53b633f4d2b1e1c9a56041111b5e17c,2016-08-30 22:03:00,Álvaro,"Merge pull request #2235 from alvarotrigo/dev
+
+- Sync with master",True
+dd155581cbd1c3081e0915ff7b546f3aa49e0dae,2016-08-30 22:01:00,Álvaro,- Sync with master,False
+078937cb690b44f53c27641d12641c6fe16d0129,2016-08-30 21:52:27,Álvaro,- Fixed typo,False
+af4c20dd083961bf3cd464083ee1e2ff7f667fcc,2016-08-30 20:55:36,Álvaro,"Merge pull request #2233 from alvarotrigo/dev
+
+2.8.5 Merging Dev branch",True
+7e5837cfa13d1783d92bead314d24739cfbaf909,2016-08-30 20:48:45,Álvaro,- Updating version and dist files,False
+48a3c1ba2ebac44a4177b9509deb6b2a53e192c0,2016-08-30 20:47:23,Álvaro,- Fixed bug hiding slides navigation temporarily on scrolling,False
+34bbd28860bd538b4c4eeb0dbff8d002959fa8fb,2016-08-30 20:46:05,Álvaro,- Documentation for responsiveSlides,False
+85683aa9297d3e929f8bc30b6f281a40f0986513,2016-08-30 17:11:16,Álvaro,- Added support for new extension: reponsiveSlides that turn slides into sections on responsive #1919,False
+57d6592dc62acf45b7eb7508b4d9c8296a7731d7,2016-08-26 20:47:20,Álvaro,- Replacing iScroll for scrolloverflow,False
+7ca1fa2fc92bd6f992022cfd5a4375ee314609bd,2016-08-26 20:31:07,Álvaro,- Removed scrollOverflowOptions.,False
+f667919b6a6f3b1d218aef373a85b64dcd924460,2016-08-26 19:17:18,Álvaro,- Fixed bug with caused autoplay of youtube videos without data-autoplay #2214,False
+92aa4bbb04170ca33769d257b695897dfb2afd2a,2016-08-26 18:06:38,Álvaro,"- Fixed bug when resizing the viewport
+- Added new callback `afterResponsive`",False
+bf803bee27fa5ea5ecdb60f0773f10e183902906,2016-08-24 20:23:27,Álvaro,"Merge pull request #2224 from Yurciu/patch-1
+
+Fixed typo",True
+2b7444ac500ff75baf798f62427c7c1206d536ab,2016-08-24 19:57:32,Jędrzej Skrzypczak,Fixed typo,False
+1c427050064522f0077287e4def218f48438ffb3,2016-08-18 02:01:27,Álvaro,"Merge pull request #2207 from sagech/dev
+
+Changes CommonJS detection logic",True
+4d070e9cedee59d8cc237b2e53cc840cfe8b0823,2016-08-17 23:27:57,Sam Cheng Hung,Changes CommonJS detection logic,False
+1c8476a12ff5453f73fe28d4e49e7c8a35c7698c,2016-08-17 15:28:58,Álvaro,"Merge pull request #2205 from alvarotrigo/dev
+
+Updating version and dist files",True
+2d2919b19ec419a418036a35adb5a795e09dc834,2016-08-17 15:27:37,Álvaro,- Updating version and dist files #2203,False
+f426bb32f2c74b0ff0febedbca04f50900a6c3e6,2016-08-17 05:22:15,Álvaro,"Merge pull request #2204 from alvarotrigo/dev
+
+Fixed problemin IE thanks to @ironprogrammer #2203",True
+585045fcc07db4245d9de76222bc0159fbd0f35b,2016-08-17 05:19:13,Álvaro,"Merge pull request #2203 from ironprogrammer/dev
+
+removes redundant getTransforms",True
+fe267850b10ed040af1471b76f3f631c68c63d25,2016-08-17 05:06:12,Brian Alexander,"removes redundant getTransforms
+
+makes IE happy again",False
+91bd3333d2610379b8bae1787412417d10765d56,2016-08-15 22:50:45,Álvaro,"Merge pull request #2200 from alvarotrigo/dev
+
+- Fixed link to extension",True
+f18b059139bf775b48f9cc797efa6be015b90728,2016-08-15 22:50:26,Álvaro,- Fixed link to extension,False
+5b04bfb32689d409bd6a7e2e05c267c449b9327a,2016-08-15 21:45:51,Álvaro,"Merge pull request #2199 from alvarotrigo/dev
+
+2.8.3 - Mergin Dev branch",True
+db4a851da8b261d6b5761d311632a6283ff8f33d,2016-08-15 21:39:40,Álvaro,- Documentation: Added explanation of `fp-noscroll` to use when using scrollOverflow:true #2190,False
+7751b26a530459df814e1df1c365981eaea42ffd,2016-08-15 21:37:02,Álvaro,- Fixed bug: state class didnt change when using autoScrolling:false and no anchors #2160,False
+baf62d770f304ea522424dec591ac7bde2c88769,2016-08-15 21:30:05,Álvaro,- Fixed bug with scrollOverflow:true. Now scrollbars are interactive #2187,False
+8d026352cc0c37d006ae2eafe2952dfb10380381,2016-08-15 21:25:40,Álvaro,- Updating version and dist files,False
+ca5bc6ea44a598a7456b51b169783c106e714074,2016-08-15 21:21:37,Álvaro,- Extensions documentation,False
+42ef0a268c9152332f9e4949034d79bcb721c70f,2016-08-15 21:21:17,Álvaro,"- Extension option resetSliders 
+- Extension boolean interlockedSlides",False
+2ef56e926511d3fe21db3b37f64c9e77e82b884a,2016-08-15 18:47:54,Álvaro,"- Supports for fullpage.js extensions (continuousVertical, scrollHorizontally, interlockedSlides, resetSliders)",False
+70c1ca05966575bdac27342e6deea6f1953919e2,2016-08-08 16:54:21,Álvaro,- Improved horizontal swiping in touch devices when using smaller sections with auto-height.,False
+69d8b539d8d8855e3dc4bb15155dda29122f4028,2016-07-14 14:44:01,Álvaro,- Improved issue skeleton,False
+23dbceb21aac499910f7073c2802ef89f8535588,2016-07-11 17:58:52,Álvaro,"- Removed outdated auto play media example 
+- Added new autoplay media example 
+- Fixed bug with autoPlay and youtube videos in page load",False
+6575f1f3b8254d8dca577973c028b0219c78a122,2016-07-08 17:30:34,Álvaro,"Merge pull request #2142 from alvarotrigo/dev
+
+2.8.2 - Mergin Dev branch",True
+791de953f51d46256d0d52d9e82ccf8539810527,2016-07-08 17:29:58,Álvaro,"- Updating version 
+- Updating dist files",False
+5f8ab7b878b9a3ca2e99a5d3a10890a1516ea28c,2016-07-08 17:10:40,Álvaro,- Improved bottom section detection when using `fp-auto-heigh` for it.,False
+7df75bd6af3d106be17e5c4687c22cdfaa634673,2016-07-08 15:56:54,Álvaro,- Added new option `bigSectionsDestination` to define the destination for big sections when using `fp-auto-height` #1854,False
+ffabc5b4ec728f807af673d178695fe8be3d8c71,2016-07-07 14:48:09,Álvaro,- Updating issue skeleton,False
+baeadd96c5e2a1112565b96cd8dc31106f54de38,2016-07-05 20:34:00,Álvaro,- Repositioning variable declarations,False
+33460e9ab8800eccf2a29d43512dd49adddac9c0,2016-07-05 20:24:08,Álvaro,- Destroy will load all lazy load content #2110,False
+2e36236e6584586dd7c3718495ca6d599d252bc5,2016-07-05 20:12:18,Álvaro,- Section and slides selectors will only be used within the library container #2104,False
+a5023c79a563f5f40f8ff9151bcfb747cf263b4d,2016-07-05 20:04:53,Álvaro,- Added autplay and autopause features when using scrollbar #2135,False
+9c8157a52cc4432f698815139f6185366f74719d,2016-07-05 19:47:18,Álvaro,- Fixing bug with links and scrolloverflow #2035,False
+2137fc0b84787d189931bf17a869b1bc82237d5c,2016-07-05 19:31:41,Álvaro,- Fixed bug with scrolloverflow when resizing #2109,False
+539498a9aecff23bbc0e4f8004bb6c9ee1d1cb72,2016-07-05 17:15:52,Álvaro,- Documenting `fp-auto-height-responsive` #2111,False
+4d7c8f92a48be9f8e43d4167d72b57131606ef72,2016-07-05 17:02:33,Álvaro,- Documenting `setResponsive` #2132,False
+ee00a7b3e47bed6859f9c6df2623983d71724762,2016-06-15 18:01:19,Álvaro,Update README.md,False
+38a8e3915eefebcd8236145c6d013e8f921bfa89,2016-06-10 01:07:19,Álvaro,"Merge pull request #2083 from setheid/dev
+
+remove class RESPONSIVE from $body in destroyStructure function",True
+bc95cf98e0b3ff21901f091e0e5e533ba27001dc,2016-06-09 23:30:15,setheid,remove condition,False
+98ed5bdca4cd3f8955c80b902cea4788250c89e6,2016-06-09 08:06:14,setheid,remove class RESPONSIVE from $body in destroyStructure,False
+0ae494eeb49b2957af698cbdaf6f428a303efd56,2016-06-07 00:28:24,Álvaro,"Merge pull request #2069 from mortonfox/patch-2
+
+Fix link to scrolloverflow.min.js",True
+5c08a3b788300b25602df4a1d37eeba9f7393512,2016-06-06 22:49:16,Po Shan Cheah,"Fix link to scrolloverflow.min.js
+
+
+Fix link to scrolloverflow.min.js",False
+6f8e2978035997dc4034842c1fc7e2d3a466332a,2016-06-06 16:07:42,Álvaro,- Fixed problem with scrollOverflow:true and margins #2071,False
+5b09fe00bade0194ccc3fb0fc0613b56d3dd6bcf,2016-06-01 15:32:12,Álvaro,- Added Bugatti and eDarling in the list of sites using fullpage.js,False
+b135e2227e2552d2ce53b779125c36b54f431644,2016-05-31 22:56:47,Álvaro,#2044,False
+87c7b66935b5a03699c65bd42205dc8db387a989,2016-05-31 15:43:46,Álvaro,Merging dev branch,True
+4c761d78168a202df4794eaa30f17cfa6feef16b,2016-05-31 15:38:32,Álvaro,- Updating version and dist files,False
+423457d8b836dee9bfdda5d32b793b315eedf7c6,2016-05-31 15:19:33,Álvaro,"Merge pull request #2038 from meiblorn/ng2-fullpage-readme
+
+fullpage.js Angular 2 directive",True
+0306876737107387d76ecbd4f6cf5d25a0dd0382,2016-05-31 14:43:22,Álvaro,- Fixed bug causing broken links when using scrollOverflow:true #2035,False
+e45072dffa291eafa17f7f0dbad678e053fe1174,2016-05-31 14:42:25,Álvaro,- Fixed bug causing fullpage.js to break in certain circumstances #2044,False
+d62182425a39c2c200101c410b853e387c3ee2e3,2016-05-28 12:56:18,Vadim Fedorenko,- Added resource: fullpage.js Angular 2 directive,False
+19ad792893e3a9e5c7737a7cc235bb94729b39f1,2016-05-26 21:51:01,Álvaro,- Replaced deprecated gulp-minify-css,False
+4c5c2263b02c4086d16e2b5aced760e196bdd7fc,2016-05-26 14:39:45,Álvaro,"Merge pull request #2029 from yyken/dev
+
+fix bug for safari when anchor is unicode",True
+197e0aed6531950fe46e06eef423bf1672512270,2016-05-26 13:36:24,Yeh Yen-Ke,"Update jquery.fullPage.js
+
+fix bug for safari
+
+if the value of window.location.hash is Chinese, auto scroll will fail on safari",False
+88feaaaeeaf0c21df6905bfb8fa8c9d73119c6f1,2016-05-25 14:46:13,Álvaro,"Merge pull request #2028 from alvarotrigo/dev
+
+Solved typo in bower.json",True
+c3aa58f1075a361a445fcc51383d73adf8e79831,2016-05-25 14:45:23,Álvaro,"Merge pull request #2027 from bordeo/patch-1
+
+Typo on main file name",True
+f813a0f65abde2fcd586c63283950116e91964d1,2016-05-25 13:15:42,Alex,"Typo on main file name
+
+My Gulp process with asset-builder can't get the correct file because of typo",False
+d48a29674ac7b63512251144103bfe61b58fccc2,2016-05-24 17:33:41,Álvaro,"Merge pull request #2025 from alvarotrigo/dev
+
+- Updated version",True
+886be39b6f1b732f2fa33f83d608363ebeeeff18,2016-05-24 17:33:23,Álvaro,- Updated version,False
+842d52516ae64d7f0c5733127a2544d87f5234af,2016-05-24 17:28:29,Álvaro,"Merge pull request #2024 from alvarotrigo/dev
+
+- Removed `resize` option",True
+85627480ddd9c005c8e3f72925c06015e98de954,2016-05-24 17:27:36,Álvaro,"- Removed `resize` option 
+- jshint improvements",False
+0ac86741b80c6daebc5a789099ec1b2bb9a568f3,2016-05-24 17:11:38,Álvaro,"Merge pull request #2023 from alvarotrigo/dev
+
+Mergin Dev branch",True
+fb883942166c24f35ff6d3c2a3153b5718735e77,2016-05-24 17:03:51,Álvaro,"- Updated dist files and others 
+- Documented iScroll.js",False
+0460b69e22e6e1b1e14d4c3191188d6eba000210,2016-05-24 16:37:45,Álvaro,- Auto play/pause youtube videos & audio,False
+a2742f525d7ce4c2e2f3368ccb680ff9aedc433c,2016-05-24 15:08:41,Álvaro,- Apply scrollOverflow on specific sections #1869,False
+23153ae36c7b44033110a5dea1d32d8997061afd,2016-05-23 21:03:32,Álvaro,,False
+41a7df38cd71090d317d6ba4f188a0e19e3490bf,2016-05-23 21:01:06,Álvaro,- Added lazy load for iframes #1897,False
+f4841086409865af7bb272a9dcba4e2803609d38,2016-05-23 21:00:13,Álvaro,- Solved bug with iScroll and user options,False
+169889592a7548146a6376df6d0634497bdf74b7,2016-05-22 01:56:33,Alvaro Trigo López,Replaced slimScroll for iScroll.js,False
+fc883d83cf1a5e3cced3259ee35d3afc039a87f7,2016-05-22 01:54:46,Alvaro Trigo López,"Replaced slimScroll for iScroll.js
+
+- Replaced slimScroll for iScroll.js
+- Added ‘dist’ files in bower",False
+ec577e71e31cf652e58d8d280d24c0ca1d20fdff,2016-05-11 16:44:38,Álvaro,- Added github templates for issues and PRs,False
+dd36d3c113d51fed5b13781239b8b14e6e53d322,2016-05-10 19:37:37,Álvaro,"Merge pull request #2003 from esoniq/set-options-from-dom-improvements
+
+using $.filter() in setOptionsFromDOM()",True
+b85009b5fdb4c4892b26a9f7adc2ebc3a9a942db,2016-05-10 18:10:43,esoniq,"using $.filter() in setOptionsFromDOM()
+
+Allows use of any kind of selector as options.sectionSelector",False
+e3bb98632ec1e45ad4b48e37bc0b4c2d8e6b5a71,2016-05-06 22:44:39,Álvaro,- Fixed bug for old IE,False
+fa18ded3306a7556f7a5d36c6d408701b002d76a,2016-04-29 17:20:57,Álvaro,"- Replacing scrollOverflow for iScroll.js #1543, #1479, #506",False
+1a07967a7e52ad696f351fdc2d71a07697fbb51a,2016-04-29 14:56:35,Álvaro,"Merge pull request #1968 from panczarny/dev
+
+Added .fp-responsive-auto-height, fix for issue #1852",True
+9ea05ab1172b60b55ffd78ddeceb58dcfa4db8f5,2016-04-29 14:01:16,Michał Czarnota,"fixed css files, moved responsive-auto-height completely from js to css",False
+78be50847598c16af90652c2512a5cd69dcac2a5,2016-04-29 13:51:09,Michał Czarnota,Merge branch 'dev' of https://github.com/panczarny/fullPage.js into dev,True
+c7de72fc889a204bef27f06e8b34e6c270637465,2016-04-27 16:58:52,Álvaro,"Merge pull request #1982 from zhangciwu/dev
+
+Fix: scrollToAnchor may not be called",True
+6880e3b289e112392a77e147c0db2c3c968e1f27,2016-04-25 00:13:28,zhangciwu,Back to onload but with document.readyState check,False
+862ac75b648a48d10fe5be47bc97e3499a67b06f,2016-04-24 22:27:43,zhangciwu,"Fix: scrollToAnchor may not be called
+
+on load will not be called if it's binded after onload event,
+and jquery ready function will always be called whether document is ready.
+(if document has been ready, it will be called immediately)",False
+573ce0aa0a58fa2112d693938178c1ecfc7187dc,2016-04-20 20:26:59,Michal Czarnota,"moved auto height responsive to css, now it's independent",False
+dda9727d74bcf4e2ab62ef67cbbac49f49d8d0d6,2016-04-18 19:14:32,Álvaro,"Merge pull request #1970 from alvarotrigo/dev
+
+- Updated minified version",True
+ab6ddf0d6c53b8a5ea5af3f047910286b194f82f,2016-04-18 19:12:08,Álvaro,- Updated minified version,False
+d861556a23d3b96ae1fd1ca9ab43910474005ccf,2016-04-15 17:23:44,Michal Czarnota,Added .fp-responsive-auto-height,False
+777389eab848132f88be2071cac780284d3ffd43,2016-04-08 22:44:03,Álvaro,"Merge pull request #1958 from alvarotrigo/dev
+
+Dev",True
+e130d993639ca486e72ed5714a3135cf8329140b,2016-04-08 22:43:41,Álvaro,- Updating version number,False
+007233967eb1066ee408131eb8a5e20df49c4e35,2016-04-08 22:42:17,Álvaro,- Updating version number,False
+3a8fe092bbdc31d2d2f0ce1cf910408ee668f74b,2016-04-08 22:41:02,Álvaro,"Merge pull request #1957 from alvarotrigo/dev
+
+Mergin Dev branch",True
+4c4ca59ec34ea3d8a95d6eb9b6d58cb8d3e81c7e,2016-04-08 22:40:32,Álvaro,- Updated version number,False
+cb1fe63cdea2e286b05c57be0bc25680318c62df,2016-04-08 22:38:49,Álvaro,"- Added autoHeight.html example 
+- Update dist files",False
+3031f74dda1127a7a92761873f50a82c05be3b83,2016-04-08 15:22:05,Álvaro,- Removed some website links,False
+500b012c474e8a12eca2a22868fc69baebf885e5,2016-03-30 15:44:40,Álvaro,- Removed the old easeInQuart javascript animation,False
+25b7acaecb619fdd48961d4ed5148550429e4e88,2016-03-30 15:35:00,Álvaro,"- Fixed bug on resize when using fp-auto-height on the last section #1933
+- Added auto-height example",False
+4a236aa1a2806a523afaa65ab57c8aec9b324d9d,2016-03-29 21:04:11,Álvaro,"Merge pull request #1934 from mmautomatizacion/patch-1
+
+Update README.md",True
+2271baf35041427da55889af518e77876fd9c269,2016-03-29 21:02:44,Luis,Update README.md,False
+43e0961808d32af51b6eefeb1089c379157582ef,2016-03-23 19:25:15,Álvaro,- Fixed bug with silentMoveTo #1835 #1885 (removed requestAnimFrame),False
+bfdd3bca0bf42674b8bb0c5cc1a922e487ab47e1,2016-03-23 18:54:16,Álvaro,- Prevent keyboard navigation over contenteditable elements #1904,False
+3f2e4581626ff7b1a84b85cc2f32d568321c3a0f,2016-03-07 22:57:39,Álvaro,Added McDonalds to who is using fullpage.js,False
+a10d6d2734ec3e57463084e3ef3b6ceb1ff26e4c,2016-03-07 18:02:05,Álvaro,Added codepen for auto height feature #749,False
+6564a228c92ed2eb85331aef0d0387ce1da0c62d,2016-02-25 20:48:36,Álvaro,"- Fixed bug with elements containing name=""id"" within forms #1855",False
+c757a1c93052b130bffe4646f5c09ed4ba720cdc,2016-02-25 16:05:14,Álvaro,- Added resource: fullpage.js angular directive,False
+c03ce80ba6bfdd68564027b0dc51cdbe109fc3c7,2016-02-22 21:59:09,Álvaro,"Merge pull request #1845 from alvarotrigo/dev
+
+- Merging dev branch (fullpage.js 2.7.8)",True
+b0b9d72ab888e7ec7b2717cb28730ac8850b660e,2016-02-22 21:51:58,Álvaro,"- Added prefix to state class name
+- Updated version number 
+- Updated dist files",False
+49c8e3380216c3b9b38bc8833e635338024df39d,2016-02-22 21:38:54,Álvaro,"- Preventing fullpage.js from getting initialized more than once
+- Added warning message when initializing fullpage.js multiple times #1812",False
+ea560cb2624b9da8b373a8b0dad79035ec953c1a,2016-02-22 21:12:27,Álvaro,- Fixed bug Auto-height not working with `scrollBar:true` and `fitToSection:true` #1489,False
+549909bcadcdc58b2cc655bc853251f3b07ded17,2016-02-22 21:00:12,Álvaro,- Adding a note regarding the compulsory HTML doctype declaration #1831,False
+18baac59ad27420b6db89e459b9356bed060bef0,2016-02-22 20:54:59,Álvaro,- Fixed bug setAllowScrolling(false) doesn't work when using mouse middle button but scroll #1844,False
+f687a79f35b71089c19fc6abe0f952c14063d3df,2016-02-19 19:02:47,Álvaro,- Showing error message for case insensitive conflict between `id` and `name` attributes with `data-anchor` values. #1245,False
+e9967392e0672d501b675860237044e7f391ceea,2016-02-17 20:34:55,Álvaro,- Fixed bug causing sections not to be full height #1830 (requires better understanding of why its happening),False
+0d741f5b829b468702712bf01c7fe3757c90be9e,2016-01-26 21:19:02,Álvaro,- Fixed problem when scrolling to sections bigger than the viewport #1797,False
+ed64dd62b33ef7d4e311f39dcca71c86c402966f,2016-01-25 19:03:15,Álvaro,"Merge pull request #1794 from alvarotrigo/dev
+
+Mergin Dev branch",True
+47af282e54206a8af105ec87175ce38b795e8692,2016-01-25 18:55:59,Álvaro,"- Updating dist folder 
+- Updating version number",False
+e14758bb6a101e9204ec2ea36b474750d4679017,2016-01-22 16:52:33,Álvaro,"- Improved documentation (contributing, reporting issues, state classes, use of wiki links...)",False
+fe1fa95fbce7f618a879eed6468548d0378b4dc0,2016-01-22 16:46:38,Álvaro,"- Improved documentation (contributing, reporting issues, state classes, use of wiki links...)",False
+41cb92920bf3746d500dd598b76c8dea00e9b7f8,2016-01-22 16:42:26,Álvaro,"- Improved documentation (contributing, reporting issues, state classes, use of wiki links...)",False
+317ed905a9aa5682639913208c1dd4209db27bc8,2016-01-19 17:07:45,Álvaro,- Setting tooltip from data-attribute #1771,False
+75b0fc77d2602bd5798682d36d08fb014d2cf44b,2016-01-19 16:43:59,Álvaro,- Change outerWidth javascript for jquery #1769,False
+9de445726cd75a8e6e530a144331a968bed1b485,2016-01-18 21:40:49,Álvaro,- Setting tooltip from data-attribute #1771,False
+ab87891704bdbcc6a3563096ce2767c10e623303,2016-01-14 21:47:46,Álvaro,- Added comment,False
+0a3d5c48e953f8f045f9ecfc0f6f10690278d68c,2016-01-14 20:49:29,Álvaro,"- Added relevant comment 
+- Removed duplicated variable
+- Added history method scope",False
+bb50d1ac1044c07572c7ed5bb84800fc24fdce02,2016-01-12 21:06:47,Álvaro,- Solved problem with auto-height when applying paddingTop #1729,False
+8464467c385185211c0110e6988a6f303f02383c,2016-01-12 20:49:47,Álvaro,"- Group event bindEvents 
+- Clickable tooltip text #1734",False
+98ea189c71da601c87c25bce8cc9f9b2d31e07b3,2016-01-08 22:47:08,Álvaro,"- Solved problem when using small sections without scrollBar.
+- Centralization of events' bindings.",False
+48f1c0557b88a3cb9df0149710fb75a068568fdf,2016-01-08 21:45:30,Álvaro,"- Solved problem with autoScrolling:true and big sections: #919, #1751, #1632
+- Started developing hybrid mode (autoScroll in some sections and normalScroll in others)
+- Improved scrolling of small sections when using autoScrolling",False
+118ba5cae6b008313dfd876b79d3574de1a6f105,2016-01-08 17:00:18,Álvaro,"Merge pull request #1752 from hang-qi/dev
+
+Fix the wrong active section flag under normal scroll",True
+1e0f361117b2a2a167d44f3afbc8db719decb0ed,2016-01-07 01:22:10,Hang Qi,Enable active for fp-auto-height sections.,False
+42163d809d87a7bb87fe430ed9dd612c7dab57f5,2016-01-06 15:26:46,Hang Qi,Fix the wrong active section flag under normal scroll (autoScrolling: false) when the section is longer than screen height.,False
+e4da8d0e0d18000b8f2c3ee0cac79ebb5759a143,2016-01-05 22:00:36,Álvaro,"Merge pull request #1748 from alvarotrigo/dev
+
+Mergin Dev branch",True
+03356365ca81b3177357aed42a34a7df5b5351b4,2016-01-05 21:46:27,Álvaro,- Security issue warning #1747,False
+14defe98c82ff9b44830f440a37baf7adb26f9e6,2016-01-05 21:44:28,Álvaro,- Security issue warning #1747,False
+47fa3313753c23609af24f07f742e3fe41b7455f,2016-01-05 15:54:15,Álvaro,"- Added site to ""who is using fullpage.js""",False

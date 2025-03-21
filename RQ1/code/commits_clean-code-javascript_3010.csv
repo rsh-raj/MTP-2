@@ -1,0 +1,1113 @@
+Hash,Date,Author,Message,IsMerge
+5311f64b03fc0c2450ab17a45ee9818669c8b9b5,2023-02-11 22:58:23,Ryan McDermott,"Merge pull request #356 from hamettio/master
+
+Persian translation added (Fluent + RTL styled)",True
+a4c884f603ea05fe4eb771c8f3c81723d934c787,2022-08-21 23:05:59,Ryan McDermott,"Merge pull request #383 from eugene-augier/french-translation
+
+French translation",True
+5b49d62756ad8ad3a75324a5fa1bc85a5e5ff9a8,2022-08-21 23:04:05,Ryan McDermott,"Merge pull request #392 from agilatakishiyev/master
+
+Fix wrong naming of `default parameters`",True
+2cab77b8e58dce3f6c418595b7ef70adca1a4258,2022-07-10 22:35:45,Agil Atakishiyev,fixed naming,False
+98f1d4a5a3b00c7b201400db6a443817d759859b,2022-04-13 17:38:10,Eugène d'Augier,French translation,False
+384665f8da2de749ad96c694a9e18227cfd08b45,2021-07-23 22:34:42,Hamed Abdollahi,Persian translation added (Fluent + RTL styled),False
+3ff9eba6d460f31db8146762bade4fcc32626762,2021-05-24 00:22:44,Ryan McDermott,Fix `paintCar` example to include `color` as param,False
+20563d0e9cb4a5847222485531a47bf3f68cb9c5,2021-05-23 23:22:51,Ryan McDermott,"Merge pull request #341 from jamestharpe/patch-1
+
+Make example more succinct",True
+753d6d8b33dece69e08b2ec0ea0807592881fbf2,2021-03-29 18:08:27,James Tharpe,"Make example more succinct
+
+""PER"" has the same meaning as ""IN_A"" but is less verbose",False
+da76556c9728b170e8e3086304ef7921c5efe263,2021-01-21 08:57:39,Ryan McDermott,"Merge pull request #326 from doskovicmilos/patch-1
+
+Add Serbian translation.",True
+029c4c2f8aef211caa99ab4cd39dcdbd496ba669,2020-10-10 21:34:42,Miloš Dosković,Add Serbian translation.,False
+ca37c9cfc725625d52b71071adeb2bf0b951847c,2020-10-08 08:53:25,Ryan McDermott,"Merge pull request #325 from jdsandifer/issue-321-remove-pass-by-reference
+
+Fix stray hyphen turning into a random bullet",True
+30282195952b7eb01d2c8e0f022f83d60cde9284,2020-10-08 08:45:53,J.D. Sandifer,Fix stray hyphen turning into a random bullet,False
+8f678c8c60f1f1b2172b9d05b8ed500883c31602,2020-10-08 00:11:03,Ryan McDermott,"Merge pull request #320 from ychek/add-calculation-for-milliseconds
+
+Add calculation for milliseconds in a day",True
+597a5107ab57a34f2403e5ff7661a4b95c74d4de,2020-10-07 03:48:17,Ryan McDermott,"Merge pull request #323 from jdsandifer/issue-321-remove-pass-by-reference
+
+Replace pass-by-reference with mutability, clean up",True
+3b9504ef2ac585fadeec0523bb22ca39ca626e6b,2020-10-05 09:20:25,J.D. Sandifer,"Replace pass-by-reference with mutability, clean up
+
+This edit only affects the Avoid Side Effects (part 2) section.
+It replaces the discussion of pass by reference with an explanation in terms of mutability. 
+By avoiding the confusing terminology and possible links to the implementation details of 
+different JS engines the explanation can be kept at an abstraction level that's great for 
+beginners and experts alike. I also cleaned up some grammar, typos, etc.",False
+365717f8bb54f0046e226606b0bbd3c9123e3594,2020-09-06 17:53:12,Yaniv Chekroun,Add calculation for milliseconds in a day,False
+4d15e1cfb1305d74b6e992fff734425011b18272,2020-07-31 08:39:45,Ryan McDermott,"Merge pull request #288 from sbimochan/patch-1
+
+Change argument name from inner variable name",True
+c56cc59540152e0fd89fb5ecfb404152f3b97b90,2020-05-03 07:17:08,Ryan McDermott,"Merge pull request #312 from nebakry/patch-1
+
+Fix calling animationModule in ISP bad example",True
+5f52d7dad479c45bc56b2ec3c8fabd10b431b2f6,2020-04-17 09:09:54,Ryan McDermott,"Merge pull request #313 from mindfr1k/master
+
+Ukrainian translation is added",True
+93888080dd76f609ff36a233cc40d53593208805,2020-04-16 19:27:44,Oleksandr Zaychenko,Update README.md,False
+ec7baf25c13147d62d175d9518d24aa2fff56cc1,2020-04-01 21:17:12,Denis,Fix calling animationModule in ISP bad example,False
+0dcac22745001ff25820ea057bed12583f7053c9,2020-03-31 22:49:00,Ryan McDermott,"Merge pull request #311 from bsonmez/master
+
+Turkish added",True
+46869c86bce8612bccf876b9b451f5e5890b8a4a,2020-03-29 10:31:27,Burak Sonmez,fix,False
+1470b0b5e4ca00feeb19cba28af4c8ee183ea305,2020-03-26 11:16:06,Burak Sonmez,Turkish Added,False
+60a33571e766b3aa05ac5c7cd0d871f035802d3e,2020-03-26 11:13:25,Burak Sonmez,Turkish added,False
+87185d9b797a1de7d48902f6561a20f79a64c8e3,2020-03-26 11:12:09,Burak Sonmez,"Revert ""turkish added""
+
+This reverts commit 2edfeef74002f7aeaa15a7bea4adb047b85dd539.",False
+2edfeef74002f7aeaa15a7bea4adb047b85dd539,2020-03-26 11:05:58,Burak Sonmez,turkish added,False
+b8b16ebc8ffc3f5f06b2ec33553ae6eacd3c87c1,2020-02-12 09:31:46,Ryan McDermott,"Merge pull request #297 from Risto-Mcintosh/patch-1
+
+Fixed a small typo",True
+c90b109b38fe6174c68f0c30d02b1b32149a5371,2020-02-07 19:42:47,Risto McIntosh,"Add an underscore to ""Use explanatory variables"" 
+
+This makes the destructuring a little more readable",False
+e6f9934eb64313e2d1920d963ba39cae9587830f,2020-02-07 09:38:06,Ryan McDermott,"Merge pull request #290 from justin0022/patch-2
+
+Update README.md",True
+5f8daa0121e4dfab1eb0d685226e669da0984e50,2020-02-07 09:14:02,Risto McIntosh,Fixed a small typo,False
+dd7e665ed32d83ec28bfa5f4d358aa36947d22a9,2020-01-22 22:08:35,Ryan McDermott,"Merge pull request #291 from rudotriton/master
+
+Sort translations",True
+a812aa93c8e7eeca7bfa27e930244987644a5a90,2020-01-22 05:50:22,Raigo Jerva,add armenian translation to the list,False
+c18b9766f4330f301d8fb68de8f38286f1c42cef,2020-01-22 05:49:37,Raigo Jerva,sort translations,False
+2e808e2694eeee709097fc1ae8802f48c6be9871,2020-01-22 02:55:07,Ryan McDermott,"Merge pull request #289 from justin0022/patch-1
+
+Update README.md",True
+0ab8ebaed48ac72c4f27680f7c680dc7e6cf407d,2020-01-22 02:50:28,Justin Lee,"Update README.md
+
+Small grammar correction",False
+ba9797eb939b0f5edad0b19babc904f697bced58,2020-01-22 02:47:12,Justin Lee,"Update README.md
+
+Small grammar correction.",False
+8491866a87641708ee4253a1b89b5d8a0243d426,2020-01-21 13:58:48,Bimochan Shrestha,Change argument name from inner variable name,False
+54492ac43c4cbf0398afc1601d2bef53d8b3b981,2020-01-21 04:17:55,Ryan McDermott,"Merge pull request #280 from oger-p/patch-4
+
+Add advantage in function parameters",True
+0ff4abade1c09bd81e1a44ded71beb33877ac5a8,2020-01-19 10:40:59,Ryan McDermott,"Merge pull request #283 from uxitten/patch-1
+
+Added numeric separator for improve readability",True
+3afe391aa0a1a053d1b16b895097ea51b39af27e,2020-01-18 19:14:32,Behnam Mohammadi,Added number separator for improve readability,False
+4503a25d5c91555db4392d7777818df9efc38514,2020-01-10 18:36:03,Pierre-Antoine OGER,Add advantage in function parameters,False
+1c0b20a91eb2efe529760eaa6cc4c9cc21daf547,2020-01-02 23:17:09,Ryan McDermott,"Merge pull request #277 from InsomniacSabbir/master
+
+Added source link for bengali translations",True
+425d4c9f2a56ad253bc27891ec617b6d14bede92,2020-01-01 12:30:05,Md. Sabbir Alam,Added source link for bengali translations,False
+e7968b7fb59bbe4436f8b02208109b630a2e6f91,2019-11-22 10:16:37,Ryan McDermott,"Merge pull request #273 from geekf/patch-1
+
+Fixing bad code example for over-optimization",True
+0762d8fa077705b879cd52e7ea3d7de9ffc8a5ac,2019-11-22 01:10:44,Fakhruddin Ali Hussain,Fixing bad code example for over-optimization,False
+b36557a90ebbb9cbfdd429e8d1259279b7649d9a,2019-11-18 21:30:02,Ryan McDermott,"Merge pull request #272 from trylovetom/master
+
+Added link to the traditional chinese translation",True
+12b650949effe96e1d06e75cb795f44a1b8428b6,2019-11-18 18:26:08,"TZU-YEN, CHANG",Add Traditional Chinese,False
+01bdbf0e09aec73b7224a24ccd8464afe0a31522,2019-10-29 21:04:11,Ryan McDermott,"Merge pull request #268 from Userbit/master
+
+Some corrections in **Concurrency** section",True
+0f5326f19d4cdb705a8e8f6c386fcef39cf8af34,2019-10-25 19:38:21,Userbit,Some corrections in **Concurrency** section,False
+d31c5fbadd012cc408da0c6d0a00ac60ff1ea296,2019-08-23 22:19:09,Ryan McDermott,"Merge pull request #264 from oprogramador/patch-1
+
+fix typo - Indonesian",True
+7b3107acce118181f7a797e905b8d3d8eced1f2c,2019-08-21 18:41:36,Piotr,fix typo - Indonesian,False
+4e15fde57facccb4f5c6e547d67087cd75520c48,2019-08-09 04:25:57,Ryan McDermott,"Merge pull request #263 from Chengings/master
+
+Update plain http links to https",True
+c7cd5c4cb6570e19a4ed037676a61e8454d0a878,2019-08-09 03:44:46,Chengings,Update plain http link to https,False
+0461538b791de6eea7a2b10db6d4c39781e1cd73,2019-08-05 21:44:27,Ryan McDermott,"Merge pull request #262 from tylim88/master
+
+fix wrong syntax",True
+bcb1526ce137f3b5707a1af114576ffbd6fca164,2019-08-05 21:27:12,tylim,fix wrong syntax,False
+a6875f48fa38f4157dd8563963992e2302ff77d9,2019-07-23 20:58:59,Ryan McDermott,"Merge pull request #261 from Haroenv/patch-1
+
+remove distracting reference in ""testing single concept per test""",True
+84205ae700acf2b89157cba74c5ab7468415a024,2019-07-23 16:51:01,Haroen Viaene,"remove distracting reference in ""testing single concept per test""
+
+This distracted me from the code at hand, so I suggest changing the text to be more neutral.",False
+188f76946cc4e790f8bda9f0b70e924341810ec0,2019-03-25 02:43:44,Ryan McDermott,"Merge pull request #258 from GavBaros/master
+
+Update README.md",True
+bcab32deb72d6aa0e0741a3d2a791652c86ea91d,2019-03-24 19:28:47,Gavish Barosee,Update README.md,False
+b1c3a6ec1a71cce9c40fe8f6bc7c58d66d1589f4,2019-02-11 06:41:05,Ryan McDermott,Format using Prettier's Markdown formatter,False
+5e866b745c41bc1ad6398617fb01ffddc3ee5700,2019-02-05 21:44:20,Ryan McDermott,"Merge pull request #256 from tureey/feature/addSpanishTranslation
+
+Added link to the new spanish translation",True
+ce1d3833ba3da6b09006c786f5f55f2bb2564006,2019-02-02 15:34:13,Victor Ribero,Added link to the new spanish translation,False
+a9b8b76cf9a8e092802aace06b74dcf139cca9d2,2019-01-24 08:28:55,Ryan McDermott,"Merge pull request #244 from wolfoo2931/master
+
+improve ""Functions should only be one level of abstraction"" example",True
+4373896016f14b27b8936c3aea7f98d27d5bef97,2019-01-24 08:26:11,Ryan McDermott,"Merge pull request #243 from ForJing/patch-1
+
+Fix OCP example",True
+bf28ea77b599e8ebeae3054c7e1dafeff7261927,2019-01-24 08:24:44,Ryan McDermott,"Merge pull request #253 from alex-schmitt/functional-programming
+
+remove map method in favor functional programming",True
+cb0f7d551bb524b8d7fa2b495bfaf26beeaf9533,2019-01-21 22:55:38,Alex Schmitt,remove map method in favor functional programming,False
+445af32cce5583623a4afea7c0758a0eabd8e394,2018-10-16 02:37:18,Ryan McDermott,"Merge pull request #247 from frappacchio/add-italian-translation
+
+Add italian translation",True
+bf099802610963b6935c177d9a385dbc0fd6ef9d,2018-10-13 17:36:57,Francesco Colonna,Added link to italian translation,False
+aea143ea035e13bf17280cb9992384d2a913ee0d,2018-10-13 17:29:03,Francesco Colonna,italian translation,False
+c5c23b59bd437520285f4a317ad0631ce121892f,2018-10-13 17:24:38,Francesco Colonna,italian translation,False
+68300c2c3b735bf6d9aca90bcbe0fd71b07076af,2018-10-13 17:24:14,Vse Mozhet Byt,fix some typos in the README.md,False
+99b7116c244fa0b7beaa8e656dc7384a60d28093,2018-10-13 17:23:53,Ryan McDermott,Refactor flags exmaple to be DRY,False
+0c12d9b70dcc665b1c7811a96b3bf079b7792a92,2018-10-13 17:23:53,Jhonatan Salguero Villa,use this to access object methods,False
+41b9ee43eebe98be4491a2f385e0f638554d600c,2018-10-13 17:23:53,Ryan McDermott,Remove subsection regarding legal comments in source files,False
+c05459838481f77733e1cc8806aaade2ce8ebb26,2018-10-13 17:23:53,Ryan McDermott,"Remove ES6 constants subsection
+
+We need a better explanation for when to prefer `const` over var/let,
+as this has confused many readers.",False
+d8c12c0c485f14e3618b2ff0dd0489fb4d4b8919,2018-10-13 17:23:53,Ryan McDermott,Fix method chaining subsection typo,False
+fc0f5c7303f0c0ed087284936c67db3a4522bfd6,2018-10-13 17:23:53,Ryan McDermott,Remove quip about JavaScript and Haskell being like beer types/brands,False
+b49352608adc2156fdea66a51729b2568760f15f,2018-10-13 17:23:53,Duncan Bay,"fix output in Object.assign() example
+
+Something looked off about this so I did a quick check in node.
+You must have been distracted at the time of writing :)",False
+54796aad8cc68a2210c965515341b41b27327e0a,2018-10-13 17:23:53,Dara Hak,"Mention async functions as part of ES2017 instead of ES7 (ES2016) + switch to ""ES<year>/ES<edition>"" when mentioning ECMAScript versions.",False
+3adcc2c42da13dccd19c7a78adff07c2ecd27290,2018-10-13 17:23:53,Jhonatan Salguero Villa,"return true on save method to continue chaining
+
+The save method isn't returning this, so the car variable
+is equal to undefined instead of a Car object.
+
+BTW, Thanks alot for this guide.",False
+deef735a8d0e610f16c6dca597380575f36f73a5,2018-10-13 17:23:53,Daniel St. Jules,Add mention of jsinspect for duplicate code detection,False
+9272fa29f3eba4d77bfb5d727e88587e2a96cade,2018-10-13 17:23:53,rodu,"Improvement on email client function
+
+In the section ""Functions should do one thing"" this change uses
+the Array.filter method to get the active clients, then emailing
+those with the forEach loop.",False
+509260bac42f804d82ea3087b2a7b3d5f12fc569,2018-10-13 17:23:53,Vse Mozhet Byt,fix indentation in a code example,False
+a74ba88c966161b813d49cda986ea03aeb6a18aa,2018-10-13 17:23:53,Jordalgo,Add: Error Handling Section,False
+fe03625698adb5772927a6e3c8f2578d5449abe5,2018-10-13 17:23:53,Acidio Alan,Adjusted the commentthat show the result,False
+e35533fdd6383ba94a42b01f86c39945e7ce764b,2018-10-13 17:23:53,Stewart Rand,Correct spelling of Cessna airplane,False
+5da0302c73523a90a3c4de2a14bec76d503b6e29,2018-10-13 17:23:53,Nils Schönwald,Fix typo,False
+992b1b00526303f059b4211f56e3954fef940d7e,2018-10-13 17:23:53,Nils Schönwald,Change var and let to const where necessary,False
+9fc2093abfef6c49f9921729f72af65580513c2e,2018-10-13 17:23:53,Christopher Nikkel,"use const in rule ""Use explanatory variables""
+
+per preceding rule ""ES6 constants when variable values do not change""",False
+de317862ac5e049b2672317859d9f3510f57055e,2018-10-13 17:23:53,Anton Paras,"Fix semantic mistake
+
+The original phrase ""As stated in the Gang of Four..."" is semantically incorrect.
+- The ""Gang of Four"" is a group of authors: Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides.
+- They wrote a famous book: Design Patterns.
+- Here, Ryan McDermott is referring to the software-design principle ""you should prefer composition over inheritance.""
+- This principle was stated in the book, Design Patterns.
+- It was not stated in the Gang of Four -- the authors themselves.",False
+3f973412fb8afb0e33cff4515422142228c1680b,2018-10-13 17:23:53,Chris Connelly,"Remove redundant object from Object.assign example
+
+In the ""good"" `Object.assign` example, the initial new object is redundant as the defaults are also specified in a new object.
+
+This is a bit pedantic, and doesn't change the semantics of the example, just removes an unnecessary object creation.",False
+6873385d1afc1b1dffef8b5f2189b5a99ed00131,2018-10-13 17:23:53,Jordan Rome,"Update: promise catch logic
+
+Use `console.error` at least as `console.log` essentially turns a thrown error into a muted console log.",False
+39c75cf433115b508bab350d7ea1b3c41797899d,2018-10-13 17:23:53,tonytran1,Use constants when variable values do not change,False
+feaa4e16abfe6bb616e8eadf5e0c13ac28996fc3,2018-10-13 17:23:53,Iheanyi Ekechukwu,"Update README.md
+
+Hey there. As a Software Engineer who happens to be Nigerian, I think there are better ways of explaining a side effect than perpetuating stereotypes about a specific group of people. So I just made a small fix to make it more appropriate.",False
+a35666a4b34e31096047d556a8b3e776990c1a40,2018-10-13 17:23:53,Ryan McDermott,Fix Object.assign example,False
+dd185ca603b14e0b02d93a252c66345cda8e29c5,2018-10-13 17:23:53,Federico Brigante,"Add missing function call to ""no side effects""",False
+70aa57fad3099d2e12d152741e2d070289e5013f,2018-10-13 17:23:53,Rico Ruszewski,"Some minor property missmatch
+
+Property title is assigned to property buttonText.",False
+28740cc50f819914d55b365403ad08b8574764d9,2018-10-13 17:23:53,Florian Goße,fix(avoid-type-checking-part-1): fix variable name,False
+6b5508758d9d26dc29417da1b5528639aa3783f2,2018-10-13 17:23:53,Henry Harrison,"Update README.md
+
+fixed typo",False
+acfc98fc69d96e840cef10803f14a7d7ebd82fc6,2018-10-13 17:23:53,G. Kay Lee,Update README.md,False
+46aa24166a63528c311790cd865e838361842f47,2018-10-13 17:23:53,G. Kay Lee,"Update README.md
+
+Fix #2",False
+041574cde3b38869e022bfe636e9f162dd43f0ca,2018-10-13 17:23:53,Gao Jia Siang,"Update README.md
+
+Must pass parameters to the conditional function or it might cause variable pollution.
+692 add fsm, listNode arguments
+696 add fsmInstance, listNodeInstance parameters",False
+06f8296b8dd3ac9346aa2118227a771df503aaf2,2018-10-13 17:23:53,Gao Jia Siang,"Update README.md
+
+Filled and replace argument names in ### Functions should only be one level of abstraction
+308. fill code argument
+350. fill tokens argument
+361. replace ast into tokens",False
+76b4038194ef1ebeed219d1af837f194d13d8094,2018-10-13 17:23:53,Adam Laycock,Add missing function argument in LSP section,False
+0856eb86602f1b59ab43cfc2b9d15f7fc304eed4,2018-10-13 17:23:53,Adam Laycock,"Add getArea method where it is necessary.
+
+Without this, the `shape.getArea()` call below will cause an error.",False
+931c84841cfffec5aee99cd7d10c1b37d82c0290,2018-10-13 17:23:53,Jake Harclerode,Use explanatory variables bad and good examples should match ([1] + [2] instead of [0]),False
+a7747d629abf24638cf6aeb124c5996725bba8ae,2018-10-13 17:23:53,Jake Harclerode,add missing commas in objects,False
+773922d82e5ea47f16ca163e96d75409c340897d,2018-10-13 17:23:53,Chiara Felice Sant Cassia,"Remove duplicate code ""good"" example - Remove unnecessary, misleading statement",False
+7fffb04e39ec0122430a7614bb18b7db538380f8,2018-10-13 17:23:53,Mario Tacke,(docs) Correct spelling errors and remove unfinished sentence.,False
+0732925aac2cbd743eabc7cff88f8c32dc7d861a,2018-10-13 17:23:53,Chris Andrejewski,"fix ""do one thing"" code example
+
+The world almost just ended right here.",False
+7d6ec5388e0e1b28c7324afbb5871cb9778d1acd,2018-10-13 17:23:53,Ryan McDermott,Functions should be at one level of abstraction,False
+59330daffeb062b88b507a0a455bb32cf592ea4e,2018-10-13 17:23:53,Ryan McDermott,Drive home pont of limiting function arguments,False
+75ec41ad32782e5fff4690295232b265004ea32e,2018-10-13 17:23:53,Ryan McDermott,"Remove subsection anchors, favor automatic marking",False
+95e3ec7f96539846c5df91e74a1947b074228ee4,2018-10-13 17:23:53,Ryan McDermott,Attempt another GHFM link,False
+dbc02d32c18893645b8eb79dc6a4a18779b8ff09,2018-10-13 17:23:53,Ryan McDermott,Add first subsection marker,False
+3dfab883819f587d82a669867f116648b98cc00e,2018-10-13 17:23:53,Ryan McDermott,Single concept per test,False
+15bd7caab627db17de260e7b046ce49657a37022,2018-10-13 17:23:53,Ryan McDermott,Encapsulate conditionals,False
+ecfe2030ac62ef791a98d6c2f073e55f1bbd9f2a,2018-10-13 17:23:53,Ryan McDermott,Avoid negative conditionals,False
+c72690d81e8c75084bce31765ef018fa2b79cef1,2018-10-13 17:23:53,Ryan McDermott,Function names should say what they do,False
+8d22ceda036ae5852eb951ea899b2bf5b9fb79e7,2018-10-13 17:23:53,Ryan McDermott,Remove dead code,False
+f190fedbc6061167d75c5bb139ab194b371b748c,2018-10-13 17:23:53,Ryan McDermott,Avoid positional markers,False
+68107087dbf1d0253f8ca6dc10337f2d737ef5a0,2018-10-13 17:23:53,Ryan McDermott,Use explanatory variables,False
+d3ecccf2e60ac1783d370203935bd0f587dc2e92,2018-10-13 17:23:53,Ryan McDermott,Add proper introduction,False
+3db31e30d260d95007cc4112fb520edde2a5c57f,2018-10-13 17:23:53,Ryan McDermott,Add coverage tool note,False
+cf41bcde15704ebee60dea94b5b377fdeafa2f30,2018-10-13 17:23:53,Ryan McDermott,Add testing section,False
+e8d55dfa4df9cd2f9dcf45660d821ac2dfd47d19,2018-10-13 17:23:53,Ryan McDermott,Drive home point of DIP and decoupling,False
+781f76d7d160342c6e04a52a12b935b923dca5d3,2018-10-13 17:23:53,Ryan McDermott,Dependency Inversion Principle (DIP),False
+6cbba6add4da6ba8c3c94903cda1b7b71b453a72,2018-10-13 17:23:53,Ryan McDermott,Interface Segregation Principle (ISP),False
+13a950e2a518a6fbf7dbf2d641fef2a298b1a3c1,2018-10-13 17:23:53,Ryan McDermott,Liskov Substitution Principle (LSP),False
+0c0aec0233fd1e337ec2bf20bf4371ee57f938f9,2018-10-13 17:23:53,Ryan McDermott,Open/Closed Principle,False
+f5f2110abe987c595d8078487bcf6807069a0d53,2018-10-13 17:23:53,Ryan McDermott,Short-circuit don't use conditionals,False
+1c4ba5f8532ada25f1afdcaa38b24557fec3d24b,2018-10-13 17:23:53,Ryan McDermott,Don't overoptimize,False
+a984bd1b1de0788b84f04a5cde43182cadefb780,2018-10-13 17:23:53,Ryan McDermott,Use private members,False
+8a403a27452f2076c58ffb274405666fc7820d53,2018-10-13 17:23:53,Ryan McDermott,Prefer composition over inheritance,False
+309bd04d953418f6fcc3b267d4cb64347ac8854c,2018-10-13 17:23:53,Ryan McDermott,Drive home point of formatting,False
+8548008df774298af92c7e8bc3e2a7700780025d,2018-10-13 17:23:53,Ryan McDermott,No legal comments,False
+1530ed7ec404723ba0751fca7b106e6c30aaf32d,2018-10-13 17:23:53,Ryan McDermott,Fix formatting problems,False
+30c3a4c1deb6771340181e9460d1c0e5c0b236ba,2018-10-13 17:23:52,Ryan McDermott,Vertical distance,False
+5cdb13b1fd97003a56cea432361f9f7067cc7640,2018-10-13 17:23:52,Ryan McDermott,Add Formatting section,False
+cff6a33888879814de3b8655453f1c5e2b173fea,2018-10-13 17:23:52,Ryan McDermott,SRP,False
+5a2e6029935e4e43dc468756c8706a0f55b649a8,2018-10-13 17:23:52,Ryan McDermott,Use getters and setters,False
+6a705edf7500307eff7bd7ba14cac57c9871f65e,2018-10-13 17:23:52,Ryan McDermott,No journal comments,False
+6788e1d0fd783895b110a817b504f7d42cf7f6cd,2018-10-13 17:23:52,Ryan McDermott,Fix link,False
+c7bcc09b60b2107d051e2ee3c8238795a014570f,2018-10-13 17:23:52,Ryan McDermott,Method chaining,False
+286a3f6a9584f9f5566ea3202c6de40d01546f5e,2018-10-13 17:23:52,Ryan McDermott,Avoid type-checking (part 2),False
+de899e6183e94d91c6c6360e8dec1d3f3a0a8ca2,2018-10-13 17:23:52,Ryan McDermott,Avoid type-checking part 1,False
+db6eece21cf22507db9c4b555b0e777fc6c6c066,2018-10-13 17:23:52,Ryan McDermott,No duplicate code,False
+e82719d723350d938690860519f16cdf47e1df58,2018-10-13 17:23:52,Ryan McDermott,Functions should do one thing,False
+d72c99f0073c06c2c34bc86832dc447c88c0b518,2018-10-13 17:23:52,Ryan McDermott,Avoid conditionals,False
+58ccd78d10b470eb1e7111e85bb50e51cc627b62,2018-10-13 17:23:52,Ryan McDermott,Object.assign,False
+6bfc5d70401aef23213d49c43da247be08f72517,2018-10-13 17:23:52,Ryan McDermott,Explain more about side effects,False
+4b4746f1b9b49ea6480485c6ee7cadda02334677,2018-10-13 17:23:44,Ryan McDermott,Use functional programming,False
+05f136b70df8d919755fa81f978acb62146e6dcc,2018-10-13 17:23:43,Ryan McDermott,Async and Await,False
+0d7f5c696c9441358fca913a44e94195ab0b766f,2018-10-13 17:23:43,Ryan McDermott,Use promises,False
+5302a3678d96706c386c04c8056069a1e2766ccf,2018-10-13 17:23:43,Ryan McDermott,Back to top links,False
+86fc8c7228b350130db6babab4bc6384ec52ef86,2018-10-13 17:23:43,Ryan McDermott,Test back to top,False
+6bae6e4a62aa8653a534d163b137a2d85bda9f51,2018-10-13 17:23:43,Ryan McDermott,TOC,False
+c78e34b0e3aa509954693801e5104d19fd554d8f,2018-10-13 17:23:43,Ryan McDermott,No messing with globals,False
+c62e62d6f364f30d5e58788b17fd97a13c03df31,2018-10-13 17:23:43,Ryan McDermott,ES6 Classes,False
+82622c0f4cbb98f607a78f99bb5e045a64f62b82,2018-10-13 17:23:22,Ryan McDermott,Don't add unneeded context,False
+b758ac9886a9fed6a075f435d660808e2143f00f,2018-10-13 17:23:22,Ryan McDermott,Capitalization,False
+1ead9f707358a6673c99449c0dc89071c5eab2c2,2018-10-13 17:23:22,Ryan McDermott,Commented code,False
+74de217c4c270c687f478775340d35e10f2f08e7,2018-10-13 17:23:22,Ryan McDermott,Avoid mental mapping,False
+135c2486dc25448495acbbf837977377acbf39ba,2018-10-13 17:23:22,Ryan McDermott,Searchable names,False
+739f00029771eed5205a38442c6a6ae7dc00306b,2018-10-13 17:23:22,Ryan McDermott,Avoid side effects,False
+f6ba6edaf585f1790e8c994ba4206258e4a8c009,2018-10-13 17:23:22,Ryan McDermott,Default args,False
+64d352ff1e35c2733b9c1aa2030d83ea1c7d96c8,2018-10-13 17:23:13,Francesco Colonna,merge,False
+86a8a0187528bb032bf742467f1c9a082899d5f7,2018-10-13 17:14:43,Francesco Colonna,translation,False
+6cabe5d7a7e91060ea091a01f8d3ac3fc4c28eef,2018-10-13 15:42:23,Francesco Colonna,italian translation,False
+095c269dd7f23983399db4833046d7504f8ee689,2018-10-13 15:39:32,Francesco Colonna,translation,False
+9cf38fabc2a6bd1862654b83ca3889a2d01879e8,2018-10-13 15:07:09,Francesco Colonna,translation,False
+064ad71e5290af6f05e2f0b3859a72b567ea1a80,2018-10-13 14:44:03,Francesco Colonna,translations,False
+dc12ea6931d215d5680a1ac03fb62c897230e89d,2018-10-13 14:09:16,Francesco Colonna,translation,False
+7b6f3d658977db32d80e1d431df2275e2c55540b,2018-10-13 12:40:19,Francesco Colonna,translation,False
+a08fd6917b18c0b4d34bc8e68cc6c3f03bf49921,2018-10-12 11:28:02,frappacchio,Update README.md,False
+abf7b81b642a1c423f686e5a206cd739f17615d1,2018-10-12 11:24:00,frappacchio,Update README.md,False
+fa1b8dbdef0708eba093d9f438e2085289c39ec9,2018-10-12 01:47:33,Francesco Colonna,translation,False
+a755162e9df0a55c891b9b17e6236c6dc1e32a0e,2018-10-12 01:29:18,Francesco Colonna,translation wip,False
+2baf082f7b5db98fdc5535c21b67b80f7fc13c35,2018-10-11 22:03:32,Francesco Colonna,translation (wip),False
+a2cd63a041fa836089761fa64074e7430c654904,2018-10-11 11:26:58,Francesco Colonna,Improve some translation,False
+7b280e4b9d50fe89eb514a59bd473a7b55997539,2018-10-11 11:21:21,Francesco Colonna,Starting translate,False
+d98f9e71f0619f33c44926616fa7649aee20dce5,2018-07-08 13:00:35,Wolf Oliver,"improve ""Functions should only be one level of abstraction"" example
+
+- rename ast variable to be more explicit (see, Avoid Mental Mapping)
+- rename function lexer to include a verb in it's name (see,
+  https://herbertograca.com/2016/09/03/clean-code-3-functions-by-robert-c-martin-uncle-bob/)
+- from my understanding, the term lexer is usally used for the
+  process of building a stream of tokens. So lexer and tokenize are
+  different names for the same thing",False
+4dfb70766f0080bdfae3a7e528ee78f95c55d42a,2018-06-24 18:40:10,edward liu,"Update README.md
+
+there are `nodeAdapter`,  no `httpNodeAdapter`",False
+64a57f1c6ab7cb186cff234212c4b6908ec1e28b,2018-03-05 03:18:31,Ryan McDermott,"Merge pull request #239 from fknipp/patch-1
+
+Changing order in example of *Functions should only be one level …*",True
+3ada14239ba970aa3ccf832334b2e9205468f3fc,2018-02-23 17:09:12,Franz Knipp,Fixing typo introduced by previous patch,False
+f6ab827ed7394f8661669a5b6de86aac825193d6,2018-02-23 17:03:13,Franz Knipp,"Changing order in example of *Functions should only be one level of abstraction*
+
+Like said in https://github.com/ryanmcdermott/clean-code-javascript#function-callers-and-callees-should-be-close, the code is read from top to bottom, so I'd prefer the definition of the *function parseBetterJSAlternative* above the functions called within.",False
+bd05a5f0000f6db20427cfef6fc99bbc580f4e91,2018-01-20 22:49:04,Ryan McDermott,"Merge pull request #238 from JvanderHeide/master
+
+Change argument name of ""Use default arguments instead of short circu…",True
+69df4896bdd85ab3167c6bf32d3dcb79b7dea335,2018-01-15 16:35:09,Jeffrey van der Heide,"Change argument name of ""Use default arguments instead of short circuiting or conditionals"".
+Did not adhere to ""Don't add unneeded context"".",False
+00f20727045c4d7616d6083c8af48ad5cce4e01e,2017-11-22 22:14:53,Ryan McDermott,"Merge pull request #234 from valtism/master
+
+Change complex reduce code sample to clearer map reduce.",True
+eb364be959c3477a5c5e911e5bab5e8c1b51109a,2017-11-22 05:14:15,Dan Wood,Remove unnecessary INITAL_VALUE const,False
+a3233f5517f6aa6bbb9fbfe5d972a635b075dd34,2017-11-21 12:27:44,Dan Wood,Change complex reduce funciton to clearer map reduce.,False
+6741e85ebf1b6d23a95ff88e4919d905674a12a3,2017-11-13 01:20:32,Ryan McDermott,"Merge pull request #233 from vnbrs/master
+
+Fix ""Use searchable names"" section",True
+eafc041635ee8dc73493cf8d442647e1b63fc18d,2017-11-06 00:46:16,Vinicius Brasil,"Merge pull request #1 from vnbrs/vnbrs-patch-const-1
+
+Fix ""Use searchable names"" section",True
+263d2b1cb49b9c8392002de4aa9ef8afae9b6e09,2017-11-06 00:45:57,Vinicius Brasil,"fix ""Use searchable names"" section
+
+It doesn't need to be a global constant. JavaScript constants are block-scoped.",False
+72fd417a216a32879a3112d7b27b7cede594373b,2017-10-16 20:49:36,Ryan McDermott,"Merge pull request #232 from ngdo-pro/patch-1
+
+Update README.md",True
+dda95822ed3f0a00eaaec79a6b466b004e91d065,2017-10-16 20:32:45,Nicolas Gomes De Oliveira,Update README.md,False
+b3e1359ff76848a139c079d241317ec10207de26,2017-09-19 21:54:23,Ryan McDermott,"Merge pull request #229 from scraggo/patch-1
+
+minor grammar edit",True
+672434a461bb444a830e6abd79e3d8ffe637f9b5,2017-09-19 21:43:17,Dave C,"minor grammar edit
+
+There's -> There are",False
+6b90694a5be707e185c868142b896a03141e2b6f,2017-09-06 08:46:41,Ryan McDermott,"Merge pull request #228 from vokar97/vokar97/replace-map-with-destructuring
+
+Replace map method with object destructuring",True
+1d7362d986570ea1221c3efaa56a641df5216c2b,2017-09-03 04:37:24,Vladimir Karamyshev,Replace map method with object destructuring,False
+ea0e4a8593eca47765165f8d6e3ed75c730f868a,2017-08-04 04:33:03,Ryan McDermott,"Merge pull request #227 from open-node/master
+
+'data' is never reassigned. Use 'const' instead.",True
+0969000e810804964ccc34324596a5e1ae833159,2017-08-04 04:32:12,Ryan McDermott,"Merge pull request #226 from snirad/patch-1
+
+Update README.md",True
+177b636bc00382f39a8305929155dca48b6542ca,2017-07-29 23:07:00,snirad,Update README.md,False
+2ae57ca9beb9bac75bdf1a6ccf455226b13d9e95,2017-07-29 05:26:37,Redstone Zhao,'data' is never reassigned. Use 'const' instead.,False
+288bf218d9ae324f540108105599ec48db74488f,2017-07-20 02:29:53,Ryan McDermott,"Merge pull request #225 from LayZeeDK/patch-1
+
+Object style consistency",True
+fdbd90782d61772e9a6a309271567541f4237a51,2017-07-20 02:17:33,Lars Gyrup Brink Nielsen,"Object style consistency
+
+Remove space before colon in object.",False
+025f7f933c7c00a95a21a085222cb3e4c29436a9,2017-07-12 20:13:23,Ryan McDermott,"Merge pull request #222 from filipetedim/patch-1
+
+Fixed duplicate code",True
+e12f62f10574eb557d1b9317f5710bc840c68c58,2017-07-05 15:04:56,filipetedim,"Fixed duplicate code
+
+The proposed ""good"" way of coding was actually changing a property's name in the developers object.
+
+While one can argue that in this case they could be the same, the point of the example was to show that you can still remove duplicated code that require *different* things.",False
+6e7b67bdf934477bff30c098c3f941d569120548,2017-06-10 02:49:41,Ryan McDermott,"Merge pull request #220 from GrzegorzZajac000/patch-1
+
+Capital letters in const, remove default data in class Car",True
+465c3800ab371337b6a561a56b6484fd5948dd0b,2017-06-08 00:01:27,Grzegorz Zając,"Pass make, model and color in constructor",False
+eae257506cd019b17290d2680a4b284e34dc3d8d,2017-06-02 22:02:07,Grzegorz Zając,"Update README.md
+
+Capital letters in const, remove default data in class Car",False
+51683128c4d58372027c112f797c605266d578bb,2017-06-02 10:17:17,Andi R. Hermawan,"Just Add an Indonesia Language Link (#219)
+
+* translate kata pengantar / introduction
+
+* translate variabel
+
+* typo
+
+* function 1/2
+
+* 1/2 replace
+
+* translate ### 😂
+
+* translate Function section in Bahasa Indonesia is done
+
+* 1/2 SOLID translation to Bahasa Indonesia
+
+* SOLID translation to Bahasa Indonesia is Done
+
+* translating Error Handling to bahasa indonesia is done
+
+* well done, translated to Bahasa Indonesia
+
+* review 1, check typo
+
+* review 2
+
+* just link",False
+f727215ab4a4d51ff90ced4df7ae88594268f2f5,2017-05-16 05:13:39,Ryan McDermott,"Merge pull request #217 from greg-dev/patch-1
+
+Add Polish translation",True
+ccd53bfb9362604fdb26e1fac71d68173dcdd89b,2017-05-16 03:41:25,Greg Dev,Add Polish translation,False
+3a3bb901a796e9b408e915883414922c5cb2b572,2017-05-11 21:53:23,Ryan McDermott,"Merge pull request #206 from rouzbeh84/patch-1
+
+Update README.md to include explanatory function names per #200",True
+0a8199a9e5d6631cad93ccf67942ace6c7cd7370,2017-05-11 09:44:01,Ryan McDermott,"Merge pull request #216 from Neatoro/fix-duplicate-code
+
+Fix duplicate code example",True
+f5085c9204ea1f25057f30516b30e4eb9ef6f182,2017-05-06 16:31:08,Moritz Schramm,Change indentation to spaces,False
+3b350e1df148ffcf9a245b4b8275df638100551f,2017-05-06 16:28:12,Moritz Schramm,Fix indentation,False
+63db5914a2109da7371453b1e808464aa83a764c,2017-05-06 15:28:18,"Schramm, Moritz",Fix code example for duplicate code,False
+578f35c614d7af33655075ec88a6af8a83a05879,2017-05-04 21:34:44,Ryan McDermott,"Merge pull request #215 from elliothimmelfarb/patch-1
+
+fixed a grammatical typo",True
+db8790fa57e2e59d346435c6b4ee89db6cfc72b5,2017-05-03 01:06:08,Elliot Himmelfarb,"fixed a grammatical typo
+
+...you will find that those *case*... -> ..you will find that those *cases*...",False
+20cd84416a97bea790838f57012b8b7957133311,2017-04-28 23:45:19,rouzbeh84,"Update README.md
+
+updating L278 to `isActiveClient`",False
+8e89be37bd1213764682e73eb5146aeda9bf2960,2017-04-28 08:13:51,Ryan McDermott,"Merge pull request #210 from mitsuruog/ja
+
+Add Japanese translation",True
+d70698c26add9af0320d4264a57db9495ebed680,2017-04-28 04:47:53,Mitsuru Ogawa,Add Japanese translation link,False
+94076b02b259f7a62da0b025df3d755157d48a61,2017-04-25 22:03:18,rouzbeh84,modify function name for `isActiveClient`,False
+43c9f7d71e9f672b660b39bdde7fd80898098635,2017-04-25 21:58:14,Ryan McDermott,"Merge pull request #207 from kantuni/patch-1
+
+Mistake in the Set default objects with Object.assign",True
+a995cc4993236c8b6f88e4cca1c0911526c51d66,2017-04-25 19:22:42,Henrikh Kantuni,"Mistake in the Set default objects with Object.assign
+
+In the Bad section, shouldn't it be config.cancellable !== undefined?",False
+59bc2d0162e71114a5ee8a3e2e5da43b42e8a98f,2017-04-20 22:44:29,rouzbeh84,"Update README.md
+
+updating function name per #200 thanks to @marzelin to clean up some issues",False
+2ff9c4f263c462c2e3467d007eb2f4e5c43d2428,2017-04-17 08:31:06,Ryan McDermott,Add 3 Rs of Software Architecture link,False
+3720dc542aa23fea9510b4cec3883af93664c730,2017-04-02 22:18:15,Ryan McDermott,"Merge pull request #202 from feimosi/patch-1
+
+Fix broken link",True
+eb9d05bcc4b5c04011a352d0a0d97b97348872c7,2017-04-02 18:36:35,Marek Grzybek,"Fix broken link
+
+Remove extra space",False
+70cb4d2321064543311b99a714ece468ba217cae,2017-02-23 10:31:50,Ryan McDermott,Add beginor's Chinese translation,False
+d0ecda5fd717b0e0c0c508165cc91f3fd468956c,2017-02-17 11:11:12,Ryan McDermott,"Merge pull request #197 from piotrwitek/patch-1
+
+fixed a mismatch between bad-good example",True
+f868d6fdcdbd98db91eb4fc62ca093f6029c0041,2017-02-17 11:08:24,Ryan McDermott,"Merge pull request #198 from andersontr15/patch-1
+
+Add Spanish translation",True
+915ce719f99720de7286a25483f4360ad2880fc4,2017-02-17 00:15:38,Theodore Rollin Anderson,update link,False
+f6c1f729dd8b4564d165bf2f6dcd9da6fa0cb025,2017-02-17 00:12:13,Theodore Rollin Anderson,fix repo link,False
+72b4a2932b1abc861c7f2116920909a2a1bbe9cf,2017-02-16 21:16:59,Theodore Rollin Anderson,"working on spanish version of your repo 
+
+currently translating it all to spanish.",False
+6992d6e4b017d0273fe3a586d97f556197cba9bb,2017-02-16 16:48:25,Piotr Witek,fixed mismatch between bad-good example,False
+7af698504c562e235067ac9a577b2d0bca5459b9,2017-02-15 22:09:22,Ryan McDermott,"Merge pull request #196 from rohmanhm/master
+
+fix angularjs typing",True
+7177853ac9b8ac491d4026052db97187fd38741d,2017-02-15 15:32:51,Muhammad Habib Rohman,fix angularjs typing,False
+fce691998e5b43a7c7a581d66278b1b6799e6210,2017-02-11 07:01:19,Ryan McDermott,"Merge pull request #193 from imsobear/fixed-code-style
+
+fix: code style",True
+65e10142691a0034fa83fd166940ade5da593b93,2017-02-10 22:13:27,Ryan McDermott,"Merge pull request #192 from timjacobi/require-import
+
+Use ES6 style imports instead of require",True
+473302693bfea82c87a7790e6f46b45a73f66c7a,2017-02-10 14:34:53,liuxiong.lx,fix: code style,False
+3a25ed2f8a0c00afb5208014bb3cdfc6ab32a778,2017-02-10 10:06:52,Ryan McDermott,Break SOLID principles out into their own section,False
+3108a3b21e95c996e32969d5725405c20b7d7795,2017-02-09 15:22:41,timjacobi,use ES6 style imports instead of require,False
+dce1bcd0a95e24f715aea24b0c0caa42a16e3ee2,2017-02-06 02:51:37,Ryan McDermott,"Merge pull request #187 from maksugr/add-russian-translation
+
+Adds second Russian translation",True
+323682ff6bedc73f565fdd225cfe7ecf4bbe5748,2017-02-06 02:43:19,Ryan McDermott,Merge branch 'master' into add-russian-translation,True
+daa074afde9388baa4cc9ab9e9aff284617c53f4,2017-02-06 02:07:53,Ryan McDermott,"Merge pull request #186 from hienvd/patch-1
+
+Add vietnamese translation",True
+d5ecffebf06018f281c2c50f5f7d1d6a79d816e3,2017-02-06 02:05:26,Ryan McDermott,"Merge pull request #188 from maksugr/typo-fix-1
+
+Fixes some typo issues",True
+a59d78b42c2bf67f497655c2c5b988921680579d,2017-02-04 14:59:18,Roman Ponomarev,Fixes some typo issues,False
+0358273e70ef5780d9d1ce9bf92f25872a100815,2017-02-04 14:41:15,Roman Ponomarev,Adds second and actual russian translation,False
+60a5a14891328c169154883cb074f0c01093dd3b,2017-02-04 11:20:34,hienvd,Add vietnamese translation,False
+b82b63bf57adf9d584af2ca684849f2a9b20e0fc,2017-02-02 10:53:52,Ryan McDermott,"Merge pull request #183 from DavidVujic/getters-setters
+
+getters and setters as functions, also without the get/set keywords",True
+69aac0446f7402bb331ef9843d1f0975cdb67a29,2017-02-01 13:48:14,davidvujic,"getters and setters as functions, also without the get/set keywords",False
+ac6a51d640064ec4ac6cada7af477df8967dd193,2017-01-30 21:08:16,Ryan McDermott,"Merge pull request #182 from DavidVujic/liskov-substitution
+
+Liskov Substitution (SOLID section) - width/height/length as constructor params",True
+90e9b243628f1baffd32352b5bb965cc98e67a27,2017-01-30 17:48:07,davidvujic,fix: typo,False
+a624d544fe8ec46992c97a321bf7cc37d2085cb1,2017-01-30 17:46:28,davidvujic,refactor: Liskov Substitution - width/height/length as constructor parameters,False
+47dbe9dce21949853efced046e112c395ac0232b,2017-01-28 07:35:13,Anna,"Explicit function name (#177)
+
+* Explicitly describing a function #175
+
+* Keeping consistency by using singular nouns",False
+49df233edec661161596ca3a5dddda930a9f4412,2017-01-27 09:49:42,Ryan McDermott,"Merge pull request #176 from hueitan/patch-1
+
+Update the example from ""Single concept per test""",True
+bfd763a0a12ad1d5cbdddc4735c2dae1e8e0283c,2017-01-26 17:56:17,Huei Tan,"Update the example from ""Single concept per test""",False
+471371e4c7745612b6413ed56087b956daee22f0,2017-01-26 10:31:48,Ryan McDermott,Add note about default arguments,False
+348760e0279aad767d45ae3c59ef4a9b11e48924,2017-01-25 10:50:16,Ryan McDermott,"Merge pull request #173 from DavidVujic/suggestions
+
+Maker function instead of Function constructor",True
+37d929c5b617cbcba62699001c7742d1fefc0c4c,2017-01-24 19:33:06,davidvujic,refactor: inline function,False
+beaaa370e40f286841cfe428d9d0638164b28385,2017-01-24 17:40:19,davidvujic,Object instead of Class,False
+eec04a7b4deff5a336720b8328271fb7691ee199,2017-01-24 09:21:15,Ryan McDermott,"Merge pull request #171 from travellingprog/patch-1
+
+README.md: change 'peddle' to 'pedal'",True
+166d7d4181d6d34d290d1f4a370ea20b34cdce02,2017-01-24 09:16:15,Ryan McDermott,"Merge pull request #172 from BoryaMogila/patch-1
+
+Add russian translation",True
+8f37510bab5dac8789003a61aa5e1f712484bb35,2017-01-24 02:23:54,BoryaMogila,Add russian translation,False
+dd791e9724a67c20d5640f34422157bb048998f9,2017-01-23 23:43:33,Erick Cardenas-Mendez,"README.md: change 'peddle' to 'pedal'
+
+**Pedal** is the act of using bicycle pedals. *Peddle* means to travel around selling something. I think you meant the former.
+
+BTW, thanks for the great guide!",False
+b436426ce4f3d800a21ba494d73f401dff2982e9,2017-01-22 09:16:37,Ryan McDermott,"Merge pull request #166 from MarkWaldron/master
+
+Fix method call in getter/setter example",True
+59d4182738cc4644756b1b19f5cbc47460f1e5de,2017-01-22 05:31:19,MarkWaldron,Fix class method call in getter/setter example,False
+a8c2046167535fb82b20bacb99cf829b6debbd5f,2017-01-22 01:27:06,Ryan McDermott,Improve language of function arguments subsection,False
+7c709688dc298eb2688461bd7dc5164c5174dafc,2017-01-22 01:07:25,Ryan McDermott,"Merge pull request #165 from bali182/master
+
+Changed Function arguments section to include destructuring",True
+209f944c579e637912964d8efa1d9052b78b9e4f,2017-01-21 08:07:44,Édes Balázs,Changed Function arguments section to include destructuring,False
+35f5c5c8f7e21c3efd04b3d82fc400de523cb5e0,2017-01-20 07:12:01,Ryan McDermott,"Merge pull request #137 from MarcAragones/apply_searchable_name
+
+Change literal for a constant",True
+62dfd20314345e2596a778c3cd5ac546cbed90b5,2017-01-20 07:10:52,Eduardo Sganzerla,"Fix some **Good**: to **Good:** (#145)
+
+Fix **Good**: to **Good:**",False
+85029c42273f129e905b625204b729cfa52fb323,2017-01-19 21:42:23,Ryan McDermott,"Merge pull request #157 from qkraudghgh/translate
+
+Add korean translation",True
+b22ab6bc8b0ce247dd29d396082645322ee7c982,2017-01-19 12:54:07,myoungho.Pak,Add korean translation,False
+d41598d12273a36f071cb6036c0a7dcab30d5c43,2017-01-19 07:28:37,Ryan McDermott,Add German translation,False
+e075d8d13e3d571b9a5bb7f5c6fe09fa27e4f7cb,2017-01-19 05:46:54,Ryan McDermott,"Merge pull request #156 from fesnt/master
+
+Add translations section + fix minor typo md error",True
+4f6d14183662074189863fe1fcf5b8a593bb9d5f,2017-01-19 04:13:08,Felipe Santos,"Add translation section
+
+Add translation section same format AirBnb style, with Brazilian Portuguese and Chinese translations",False
+4d082341ed9f54cb2e119e67dddf414ea1b32078,2017-01-19 04:04:36,Felipe Santos,Fix minor markdown error,False
+f0a34877242663f991e343b6e0880a0c36dd45d8,2017-01-18 10:23:29,Ryan McDermott,"Merge pull request #153 from vsemozhetbyt/naming
+
+fix confusing example",True
+35a0cf8f77d6a7895f1ed0ea54eaabb27bf38ac0,2017-01-18 10:16:16,Vse Mozhet Byt,"fix confusing example
+
+Ref: https://github.com/ryanmcdermott/clean-code-javascript/pull/151",False
+ab29de61d0af98b65751809d678ece7d4713076b,2017-01-17 22:33:35,Ryan McDermott,"Merge pull request #152 from Gregoirevda/patch-1
+
+Immutable error",True
+55ec74a1c87811f5cf11b944101ac476ba578c97,2017-01-17 22:29:14,Van der Auwermeulen Grégoire,"Immutable error
+
+`cart` is an Array. the ES6 spread operator can be used : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator",False
+ff6fdc1406930c0087f84b3d5a3b7c8177aa443f,2017-01-17 09:49:08,Ryan McDermott,Fix side effect part 2 list,False
+68447308a597925bc90838025bf655ac035a08f3,2017-01-17 09:45:50,Ryan McDermott,Expand side effect part 2 discussion,False
+5e581f9af69410fbe615e3a960c455ada9ad967d,2017-01-17 09:18:44,Ryan McDermott,"Merge pull request #123 from kbariotis/patch-1
+
+Add Side Effects pt.2",True
+7dabe473264605f5a03dc2a410e93cba6c228aba,2017-01-17 01:44:29,Ryan McDermott,"Merge pull request #149 from Endlessline/patch-1
+
+Fix issue #130",True
+89a0725d45f31b4266e266b752cdd027f5f3a907,2017-01-17 00:57:14,Ryan McDermott,"Merge pull request #147 from LiranBri/composition-over-inheritance
+
+fix is-a order in Prefer composition over inheritance description",True
+17512c316379d2b93b35f00e2a1f1be6f87bc1e8,2017-01-16 23:13:13,Collin,Update README.md,False
+fae51115b827f99534ab96f0eaf5bbd2609ae053,2017-01-16 20:25:41,Kostas Bariotis,Update code example,False
+ec8dbd195c44972d4e0f1abf1c48fd7852781b45,2017-01-16 19:44:24,Liran Brimer,fix is-a order in Prefer composition over inheritance description,False
+a4718d4d3ed5db2e2cca5a8b450c5af7d9f20e44,2017-01-16 15:44:56,Kostas Bariotis,Change example,False
+daf2d6c70af72729866a11424a6e66646a1212ce,2017-01-16 15:33:50,Kostas Bariotis,Add caveats,False
+5d209dafdf8a9b1e1e321421faea3360899aa900,2017-01-16 15:26:40,Kostas Bariotis,Typo and rewording,False
+00a50681b1c0a24e9c8c08d8872fee9c76da17d5,2017-01-15 22:53:13,Ryan McDermott,"Merge pull request #144 from vsemozhetbyt/typo
+
+remove duplicate word in 'Remove duplicate code' :)",True
+ca1cd96574610e29ae8a84b98957bee05ae56f78,2017-01-15 19:44:30,Vse Mozhet Byt,remove duplicate word in 'Remove duplicate code' :),False
+3b42f996f798487b9b0911de29e320ec6dc2dda9,2017-01-15 09:24:08,Ryan McDermott,"Merge pull request #141 from vsemozhetbyt/nits
+
+fix some code style nits in examples",True
+ba3e34fcf443dfa235789b21cce916b27151b1c1,2017-01-15 09:19:55,Vse Mozhet Byt,fix some code style nits in examples,False
+b1b37eb23421f54a705f00fe4be756dd39339158,2017-01-15 05:04:05,Ryan McDermott,Make meaningful variable example even clearer,False
+2721980572e9e31c95a073fa5adf1cca6c99d544,2017-01-15 05:02:21,Ryan McDermott,"Merge pull request #140 from krzysztof-grzybek/master
+
+Modify open/closed principle",True
+aa71b3068c3daeeaa8fb2e0ce4a8c8e2549a9a15,2017-01-15 01:49:37,krzysztof-grzybek,modify open/closed principle,False
+3364af5f98722eedc9f60c47e6c67bafad7acf43,2017-01-15 00:48:35,Ryan McDermott,"Remove stark warning against duplicate code, let's just strongly suggest to avoid it",False
+84f8ea6f8dc2d9693a290f13c1bce8d05766689f,2017-01-14 23:20:51,Crisoforo Gaspar Hernández,"Simplify ""Use searchable names"" example (#121)
+
+* Simplify ""Use searchable names"" example
+
+There is no need to create an arrow function to execute a function inside of the timeout.
+
+* Remove `this` to avoid context problems",False
+aa069b37d4c504c8b6437f8e40f9d4b56637350b,2017-01-14 22:55:39,Ryan McDermott,"Merge pull request #128 from ianstormtaylor/patch-1
+
+fix async/await example",True
+e94afcf3cfa16b3776a6a09bc9557007e679294b,2017-01-14 22:00:25,Marc Aragonès,Change literal for a constant,False
+dd47a0d0f40727fb7bdf399e9d1c20133d368aa2,2017-01-13 21:03:24,Ryan McDermott,"Merge pull request #134 from ejribeiro/master
+
+Fix lookupManager typo",True
+9becf1c0d84fb0f414e90d0ce78be00b270fa0cf,2017-01-13 18:04:59,ribeiroje,Fix lookupManager typo,False
+7ec1fe7a62d769c0e01110b1e4c0013a860ea28f,2017-01-13 09:56:53,Ryan McDermott,"Merge pull request #83 from iamken1204/fill-missing-commas
+
+Fill missing semicolons",True
+e550f1ea79563d7fa1242ec626d1147db1123446,2017-01-13 09:29:43,Kettan,merge origin,True
+ab48c4c86dd9ab38e3c4a177eff7706f6f22d0c8,2017-01-13 08:59:40,Ryan McDermott,"Merge pull request #118 from vasanthk/master
+
+Rename state to zipCode to avoid confusion",True
+a09a69685b4295adff7a8751f04b1400efcac7f3,2017-01-13 08:44:40,Ryan McDermott,"Merge pull request #124 from vsemozhetbyt/diff
+
+make bad and old examples more comparable",True
+d97805d66e0b5c5cc0973c970b07aa4e21e6013d,2017-01-13 08:43:14,Ryan McDermott,Remove Law of Demeter,False
+6774f750f2a1f19137eabba255b1133a05499c26,2017-01-13 06:46:48,Ian Storm Taylor,"fix async/await example
+
+There's no need to `await` a call to `require`, and they might sooner be written in single lines to mimic the style used for the previous examples.",False
+54aed62267168d011b19776a16b6441445e61a00,2017-01-12 16:32:44,Vse Mozhet Byt,"make bad and old examples more comparable
+
+Also address performance concerns.",False
+e8812779b574fb49b098227eeb0e23dba98a4672,2017-01-12 15:20:55,Kostas Bariotis,Add Side Effects pt.2,False
+30e7a39bf20f27cba8edbc931ed82fa2084c1dbe,2017-01-12 11:57:32,Vasa,Fix naming for bad code as well,False
+cd50889707b1b567d5a8c2860d54b37806896d4b,2017-01-12 11:22:19,Ryan McDermott,"Merge pull request #65 from vsemozhetbyt/simplify
+
+Simplify some code examples",True
+08601465f3b80ee0097e9e59f7f94dec60b7f2f7,2017-01-12 11:09:20,Ryan McDermott,"Merge pull request #114 from vsemozhetbyt/new-clean
+
+fix new instances of previously fixed cases",True
+783f7c589576c84dd02b46aaf179e995b1e80979,2017-01-12 11:09:02,Ryan McDermott,Merge branch 'master' into new-clean,True
+e7ef70e367b3fa6eaba9996aee936e621760c739,2017-01-12 11:03:07,Ryan McDermott,"Merge pull request #120 from JakoD/master
+
+""Use searchable names"" and correct unit of time",True
+05089ba5de6a50190eaadd14276225d06863a8a0,2017-01-12 07:06:50,Jako Danar,"""Use searchable names"" and correct unit of time
+
+Assuming that waiting 1/1000 of a day was not intended.
+Second parameter of setTimeout() is in milliseconds.",False
+7761d2499e5eed0960a9d9e2a411a32c32a7c22b,2017-01-12 00:42:09,Vasa,Fix erroneous line break,False
+887c779bad4435e2ebfdd956acc4f115875d1108,2017-01-11 23:49:50,Vasa,"Rename state to zipCode to avoid confusion
+
+Destructuring state using the regex was a little bit ambiguous since there is no state in the address (zip code instead).",False
+6fcbecea0ee6d4b9c8453d65957235fc655f45eb,2017-01-11 18:45:29,Vse Mozhet Byt,"fix new instances of previously fixed cases
+
+Add missed semicolons.
+Comment out ellipses.
+Use object shorthand.
+Delete block padding.
+Delete default constructors.",False
+383dd49144d9c0a356ea0177f054a3536d2af503,2017-01-11 10:14:06,Ryan McDermott,"Merge pull request #64 from HemantPawar/master
+
+Fixed few examples",True
+e4100a30adf7f11e00a2394b854a82daa1719e61,2017-01-11 10:11:54,Ryan McDermott,"Merge pull request #111 from irazasyed/patch-1
+
+Fix Typo",True
+34abb0bbb8b2961ae0c389e230a032fe2e7c22a4,2017-01-11 10:09:25,Syed Irfaq R. ⚡️,Fix Typo,False
+0b3aba1ae90c7ba6e4107062e7f7c84e1434fb7f,2017-01-11 09:15:08,Hemant Pawar,Merge branch 'master' into master,True
+50850a937040c341f7ec8aff95b5293b046081a0,2017-01-11 09:14:21,Ryan McDermott,Fix unorganized list in Objects section,False
+50e5c1b02e7de1b402f91d2f61c660af0a382d0e,2017-01-11 09:00:48,Ryan McDermott,"Merge pull request #33 from wordofchristian/patch-1
+
+Use const instead of var",True
+cea298d2bc64a2ca0e809dd53f44976ab58ef5d6,2017-01-11 08:59:27,Ryan McDermott,"Merge pull request #37 from SebastienElet/feat/use-destructuring
+
+Use destructuring for explanatory variables",True
+67942527ae75f753e2cdaf380c2b04e1dc71f4aa,2017-01-11 08:53:08,Ryan McDermott,"Merge pull request #34 from acparas/master
+
+Rephrase default value advice",True
+f93513e68db4e48fa7662f65b84c54bd3e54fe9e,2017-01-11 08:51:13,Ryan McDermott,Fix argument ordering,False
+bf749576cd3b09283d6f74855ffcfb9508024d98,2017-01-11 08:50:23,Ryan McDermott,"Merge pull request #47 from Tarabass/master
+
+Improve example ""Function names should say what they do""",True
+f350f2be8a718714d9bd88ae10ac1d5581819e29,2017-01-11 08:50:05,Ryan McDermott,Merge branch 'master' into master,True
+0c4fa28c0ee8297bc6e40e99de9121c3f088a9f6,2017-01-11 08:47:44,Ryan McDermott,"Merge pull request #81 from vsemozhetbyt/arrow-parens
+
+parenthesize arrow function arguments consistently",True
+99bee74a4139ac4a29ed1d05091ee2ed0bf346a2,2017-01-11 08:46:50,Ryan McDermott,"Merge pull request #82 from vsemozhetbyt/prefer-template
+
+replace string concatenation by template literals",True
+87d6d3bbd7a55fe540c4e5506d4f9d785db340a4,2017-01-11 08:46:04,Ryan McDermott,"Merge pull request #95 from vsemozhetbyt/anon-functions
+
+address anonymous functions",True
+7fe566c5bc64cdd75982df0c80b1661c07ed8502,2017-01-11 08:40:11,Ryan McDermott,Fix extra good example in getters and setters,False
+0951bc270a49c3d939b9afecc5dcc0fe51ae2885,2017-01-11 08:35:01,Ryan McDermott,"Merge pull request #101 from kurtommy/fix/getter-setter
+
+Fix/getter setter",True
+ce4315fd616b070cbf7f574b54e74a93e41573d0,2017-01-11 03:28:49,Tommaso Rossi,function name change,False
+fda83577a4a594c246e7fa89f2cf51699c9bdd0c,2017-01-11 03:26:52,Tommaso Rossi,"Update README.md
+
+added fake method",False
+eaa3477dbfda8b555647d484a35dec7aebb8944d,2017-01-10 22:23:09,Anton Paras,"Lower ""bad example"" count
+
+-The section, ""Use default arguments instead of short circuiting or conditionals""
+originally had 2 ""bad examples"" and 1 ""good example.""
+
+- This commit lowers the ""bad examples"" count from 2 -> 1.
+
+  - The 1st ""bad example"" demonstrated the ""conditionals"" approach to default values.
+  - The 2nd ""bad example"" demonstrated the ""short-circuit"" approach to default values.
+  - I decided to only show the ""short-circuit"" approach as the 1 bad example, since that's
+    what most people would use traditionally in ES5.
+  - Few people actually use the ""conditionals"" approach, so I felt that warning 
+    against the ""conditionals"" approach was unnecessary.",False
+aec7b4c420899c23e9f269ec72e0b1ad226590ea,2017-01-10 21:05:47,Vse Mozhet Byt,fix misspelled property name,False
+f5e59ee9ea8012dc2a00bcf5b8545d8b090ab28c,2017-01-10 20:52:44,Ryan McDermott,"Merge pull request #90 from vsemozhetbyt/single-quotes
+
+use single quotes consistently",True
+3bf55e0751e20302d9bbd11d055d263bd350adaa,2017-01-10 20:50:57,Ryan McDermott,"Merge pull request #93 from vsemozhetbyt/brace-style
+
+fix a brace style inconsistency",True
+8f7c8cee15af2068f56352d8e2c6f5b7b4cc5cba,2017-01-10 20:49:37,Ryan McDermott,"Merge pull request #102 from othree/master
+
+Fix one code exsample use `console.log` to print error",True
+58ace72293a64f478b011c83864d99586d111ea4,2017-01-10 20:42:19,Ryan McDermott,"Merge pull request #105 from checkaayush/fix-typo
+
+Fix consecutive occurrence of 'have'",True
+b326ee5a53119add77264baaa67f677e0a01c608,2017-01-10 19:53:06,Aayush Sarva,Fix consecutive occurrence of 'have',False
+f70ac0998276cb914933c4994c707407df85a393,2017-01-10 17:45:45,Hemant Pawar,Merge branch 'master' into master,True
+23e0da33799f3ec1c5d2367a5c32255ea91566fe,2017-01-10 15:34:55,othree,Use `console.error` to deal with error,False
+e56b69e4a78a759556c575ab0253c0c3704c0b55,2017-01-10 14:55:53,Tommaso Rossi,Added real getter and setter,False
+d7b8cc1ea0ba3b2ba539b7cdc493386340bbb00e,2017-01-10 14:53:16,Tommaso Rossi,Update README.md,False
+1f1cd46a2535bb8acbd6e12b9cb0f1491aaf3d78,2017-01-10 13:41:43,Vse Mozhet Byt,Merge branch 'master' into anon-functions,True
+44c324128bc943ca18057914419202185b33f2d7,2017-01-10 13:39:59,Vse Mozhet Byt,Merge branch 'master' into brace-style,True
+0b5587274d7d47a96e7a042d4cc1fc597fe11def,2017-01-10 13:36:41,Vse Mozhet Byt,Merge branch 'master' into single-quotes,True
+fcfab4e44e1a38662152167fc812b9dbdb592b89,2017-01-10 09:11:51,Ryan McDermott,"Merge pull request #91 from vsemozhetbyt/eqeqeq
+
+replace == with ===",True
+c613772562bd8c8dd6779fee216ddbd858dfda6c,2017-01-10 09:11:16,Ryan McDermott,"Merge pull request #88 from vsemozhetbyt/class-methods-use-this
+
+correct using of `this` in examples",True
+d9712543976f96ea6083a4cd463a6d8ad2210977,2017-01-10 09:08:37,Ryan McDermott,"Merge pull request #92 from vsemozhetbyt/break
+
+add `break` statement to prevent erroneous fall-through",True
+847e340f90e549fad9faf6007542017a9bb0b4f6,2017-01-10 09:08:05,Ryan McDermott,"Merge pull request #94 from vsemozhetbyt/operator-assignment
+
+use assignment operators",True
+3f94eb22f4c7b1c64af802faeadf438988f6fbf7,2017-01-10 08:56:50,Ryan McDermott,"Merge pull request #96 from vsemozhetbyt/no-use-before-define
+
+reorder class declarations",True
+2d59de73e2e299ee745258e1c6a5d3de004cb672,2017-01-10 08:48:52,Ryan McDermott,"Merge pull request #97 from vsemozhetbyt/no-shadow
+
+fix variable shadowing",True
+bfa3eb307c01e0e7eca3fd9ea6a7c2f5657605f3,2017-01-10 08:43:57,Ryan McDermott,"Merge pull request #98 from danielstjules/magic-numbers
+
+Mention tools for identifying magic numbers",True
+63b46b5871538884e96fd5688fd2cae8684c0ba5,2017-01-10 07:05:43,Daniel St. Jules,Mention buddy.js and ESLint for magic numbers,False
+ac12cb8137fd5c33f66461470f6fc4dca1d8ff72,2017-01-10 06:34:19,Anton Paras,Merge branch 'master' into master,True
+bd5d9ef48d94cb23ea1d459c71d2bd4b6e337af0,2017-01-10 06:09:34,Daniel St. Jules,"Fix package name, s/jsinpect/jsinspect",False
+25791b0361a54d98e26084b438ede22637c06542,2017-01-10 00:08:17,Vse Mozhet Byt,fix variable shadowing,False
+b70664e2bf9d10000aec243f5fe1e7723995ebd8,2017-01-09 23:48:02,Vse Mozhet Byt,reorder class declarations,False
+b11adc4fb61e22b286c6006b0736a1765b231283,2017-01-09 23:15:16,Vse Mozhet Byt,address anonymous functions,False
+d6b1a7121b819c0566eb5fed24224563d455e64e,2017-01-09 22:35:11,Vse Mozhet Byt,use assignment operators,False
+df660d3bffa58ab6863ab4232f546e0e0b0fe03f,2017-01-09 22:21:10,Vse Mozhet Byt,fix a brace style inconsistency,False
+82618ee1df40b91aacc40f6788b1571bb2ff0556,2017-01-09 22:13:23,Vse Mozhet Byt,add `break` statement to prevent erroneous fall-through,False
+83a565ecccc1a2e3421eb04972b636f787702740,2017-01-09 21:49:37,Vse Mozhet Byt,replace == with ===,False
+c92b792832acc1e288ac1fc8704159b07dbb2291,2017-01-09 21:39:15,Vse Mozhet Byt,use single quotes consistently,False
+f3f62618eb94c1b74549ec5932d0edb1188f0b8d,2017-01-09 21:21:57,Vse Mozhet Byt,correct using of `this` in examples,False
+594dd6286809f868e8ef5f4c80d1078616d364c4,2017-01-09 20:54:18,Vse Mozhet Byt,Merge branch 'master' into arrow-parens,True
+d279012dd43b34241a170cbc0c07295e98b70e1e,2017-01-09 20:52:46,Vse Mozhet Byt,Merge branch 'master' into simplify,True
+907617b8d35223cc5edc043fcf43e59265b46118,2017-01-09 20:49:14,Ryan McDermott,"Merge pull request #87 from vsemozhetbyt/const-let
+
+fix new cases with const and let",True
+8e469dbae560170280aa1edd86a884add694177e,2017-01-09 20:48:10,Ryan McDermott,"Merge pull request #86 from Asheboy/less-fewer-grammar
+
+Corrects usages of less for fewer",True
+d59f32edfd84915fe8796ebef0e2f8f7630d0688,2017-01-09 20:47:03,Ryan McDermott,"Merge pull request #76 from raerpo/fix-typo
+
+fix little typo in arrow function argument",True
+3369c524e3b9ebefa75b77ef6c5ed507cc8f0f60,2017-01-09 20:46:16,Ryan McDermott,"Merge pull request #80 from vsemozhetbyt/comment-out-ellipses
+
+comment out all the ellipses consistently",True
+b3b40209b174159276d6b9e5e52cb10360668def,2017-01-09 20:45:25,Vse Mozhet Byt,fix new cases with const and let,False
+5c2f16a7fcb7863942d4033beaf8e8713f1244b9,2017-01-09 20:45:19,Ryan McDermott,"Merge pull request #79 from vsemozhetbyt/tabs-to-spaces
+
+replace accidental tabs by spaces",True
+82f9d39b8eceb1abee59d81dab3ba54517f7adbd,2017-01-09 20:43:33,Ryan McDermott,"Merge pull request #84 from posva/patch-1
+
+Fix indentation in code",True
+86036b50dbfb5d5356f768933acba2155dbff110,2017-01-09 20:41:13,Asheboy,Corrects usages of less for fewer,False
+c3e754dbf75353b912e5cf7882e06095804ce69a,2017-01-09 18:02:35,Rafael E. Poveda,Merge branch 'master' into fix-typo,True
+d2d705170e994aa14a51d06eda6d2075b63898c9,2017-01-09 16:07:18,Eduardo San Martin Morote,"Fix indentation in code
+
+from 6 to 4 in Function callers and callees should be close",False
+f4467831b09d7fde6d222265e2e941f979cd6e4c,2017-01-09 12:37:19,Sébastien Elet,refactor(explanatory-variables): add input example & remove first group,False
+748ba65f3196a0f98696309fc58076a79810bc59,2017-01-09 09:37:08,Hemant Pawar,Merge branch 'master' into master,True
+fadfb57b9468388c186da10d4a45c6fd42ca7616,2017-01-09 08:04:01,Kettan,Fill missing commas,False
+73817c71d702058b03a0edba22224860b949d3a2,2017-01-09 07:42:37,Vse Mozhet Byt,replace string concatenation by template literals,False
+eb264270a7966632b5217fd5e24c1c15fa7fb3ff,2017-01-09 06:42:41,Vse Mozhet Byt,parenthesize arrow function arguments consistently,False
+f9fb07847aa009a6730ed14e14abe54777f177a9,2017-01-09 06:27:58,Vse Mozhet Byt,comment out all the ellipses consistently,False
+ccda22e6aa8da5d37474f14d058af450abe014dc,2017-01-09 05:39:40,Vse Mozhet Byt,replace accidental tabs by spaces,False
+d2c5364717c7bc114f9904df6e759c50bf1909a9,2017-01-09 00:12:33,Anton Paras,Merge branch 'master' into master,True
+62afdb2b033710f5ab4a80b23cab5b17d9c6a7a5,2017-01-08 23:48:35,Ryan McDermott,"Merge pull request #62 from vsemozhetbyt/typos
+
+fix some typos in the README.md",True
+3ea61da2e9197e6d31cee47fd6dbc4037fe192c4,2017-01-08 23:44:38,Ryan McDermott,Refactor flags exmaple to be DRY,False
+8d3f8da1b9ec69a770f398c5662a7f710ce2b5e9,2017-01-08 23:42:33,Ryan McDermott,"Merge pull request #56 from sney2002/patch-1
+
+use this to access object methods",True
+ec8fd242cd3c073474fc2f3ec5c339344d5edacc,2017-01-08 23:34:02,Ryan McDermott,Remove subsection regarding legal comments in source files,False
+ac47e8231d32d4a8117a7539d6e75cb6e7483c80,2017-01-08 23:29:06,Ryan McDermott,"Remove ES6 constants subsection
+
+We need a better explanation for when to prefer `const` over var/let,
+as this has confused many readers.",False
+d333e12d721e4ead46676e6b928facd3e96ccfb2,2017-01-08 23:23:54,Ryan McDermott,Fix method chaining subsection typo,False
+d28b1e3c2f8f0df82160362376d5775f5cc3596c,2017-01-08 23:21:29,Ryan McDermott,Remove quip about JavaScript and Haskell being like beer types/brands,False
+ce9f41fe0967504066d622a423c40ef9cac2108b,2017-01-08 23:15:37,Christian Schlensker,Merge branch 'master' into patch-1,True
+d7cc370485728033d5c8d6bf016eff2faff94891,2017-01-08 23:12:50,Vse Mozhet Byt,Merge branch 'master' into simplify,True
+2dc28e2d2efd3a2cde3a3e4628b82fa2e504d0e8,2017-01-08 23:08:40,Vse Mozhet Byt,Merge branch 'master' into typos,True
+d35896ba9fbf1c0ee17eea5dd4dbd2378dac43d1,2017-01-08 23:05:22,Ryan McDermott,"Merge pull request #53 from DJTB/patch-2
+
+fix output in Object.assign() example",True
+e88e5366b858d1d99e7d7a757a008de091b17a57,2017-01-08 22:58:44,Ryan McDermott,"Merge pull request #66 from darahak/master
+
+Mention async functions as part of ES2017 instead of ES7 (ES2016)",True
+04c29e4c38de985d8521b14c037d7571873302b3,2017-01-08 22:53:13,Ryan McDermott,"Merge pull request #54 from sney2002/master
+
+return true on save method to continue chaining",True
+4a2e3c4ea315d1b6dfed2b87adccffe1c4b7a1a7,2017-01-08 22:51:01,Ryan McDermott,"Merge pull request #58 from danielstjules/danielstjules-patch-1
+
+Add mention of jsinspect for duplicate code detection",True
+e9b473f83433f651232403400eba1f65a03dab63,2017-01-08 22:35:13,Ryan McDermott,"Merge pull request #60 from rodu/minor-naming-improvement
+
+Improvement on email client function",True
+576f4ef170a334a3f98d5c1879cdc040ba605591,2017-01-08 22:28:47,Ryan McDermott,"Merge pull request #69 from vsemozhetbyt/indentation
+
+fix indentation in a code example",True
+62f0b70c7f9664cf18339bc54966d40ca4134eec,2017-01-08 22:12:26,Ryan McDermott,"Merge pull request #51 from schoenwaldnils/master
+
+Change var and let where necessary",True
+9f0289bf4085a765ada0494dddc7c065e1733828,2017-01-08 17:39:32,Rafael Poveda,fix little typo in arrow function argument's remove duplicate code section,False
+9fe05688ddb129062412c399ce739a1c01c3c350,2017-01-07 21:13:42,Hemant Pawar,fixed few examples by adding missing semicolons,False
+37344ac710fbe035e92e0f65b698f0cd94b69a21,2017-01-07 21:05:08,Vse Mozhet Byt,fix indentation in a code example,False
+63ca18611de41f79504fea5033cd6c3fe3f1683a,2017-01-07 19:58:58,Nils Schönwald,"Merge branch 'master' of github.com:ryanmcdermott/clean-code-javascript
+
+* 'master' of github.com:ryanmcdermott/clean-code-javascript:
+  Add: Error Handling Section
+  Correct spelling of Cessna airplane
+  Adjusted the commentthat show the result",True
+2200e40ad55fc6160c5a8e2ea025c7b87c973bab,2017-01-07 19:36:29,Nils Schönwald,Fix typo,False
+759985961164edf463b7eade878c20310a0efa25,2017-01-07 19:28:18,Dara Hak,"Mention async functions as part of ES2017 instead of ES7 (ES2016) + switch to ""ES<year>/ES<edition>"" when mentioning ECMAScript versions.",False
+14e83d5ce922fac5f9ef726447ea6e4b44b70785,2017-01-07 19:07:00,Vse Mozhet Byt,"use functional Array methods
+
+Also exclude hidden type coercion from array elements comparing.",False
+7035841c0370ebe2a7f8084bc5a8e3353f95f406,2017-01-07 19:02:37,Vse Mozhet Byt,"remove default constructors
+
+Ref: http://eslint.org/docs/rules/no-useless-constructor",False
+465f3bfd2b72f522119edcc5b1ac58f9a9e06cc6,2017-01-07 18:53:45,Vse Mozhet Byt,use object shorthand notation,False
+77102116a96f391151d7571345fbd5e0b3804499,2017-01-07 18:44:26,Vse Mozhet Byt,fix some typos in the README.md,False
+5d882d928d81317ff869c7d5ede50d0791b14e60,2017-01-07 16:51:17,rodu,"Improvement on email client function
+
+In the section ""Functions should do one thing"" this change uses
+the Array.filter method to get the active clients, then emailing
+those with the forEach loop.",False
+d6e52d56897c8e4682704f7d1289b31a1eb4bacb,2017-01-07 11:19:27,Daniel St. Jules,Add mention of jsinspect for duplicate code detection,False
+8135d47c69f10dddde3129e174420aeff2fdca7f,2017-01-07 10:46:13,Jhonatan Salguero Villa,use this to access object methods,False
+2da4d4b4687b61924941b270626dabf5626bbf0e,2017-01-07 10:22:14,Jhonatan Salguero Villa,"return true on save method to continue chaining
+
+The save method isn't returning this, so the car variable
+is equal to undefined instead of a Car object.
+
+BTW, Thanks alot for this guide.",False
+45f40fac0f24af9a5c5d96abf8764a053c21b220,2017-01-07 09:21:44,Duncan Bay,"fix output in Object.assign() example
+
+Something looked off about this so I did a quick check in node.
+You must have been distracted at the time of writing :)",False
+ddd0181918797d98f07d9ac6d8922ed6a08070d2,2017-01-07 08:43:30,Ryan McDermott,"Merge pull request #43 from jordalgo/jordalgo/errorHandling
+
+Add: Error Handling Section",True
+8be1793b3335f71956555e154eba0735a2ddce4a,2017-01-07 08:07:54,Anton Paras,"Change Bad/Better/Best to Bad/Bad/Good
+
+- This commit concerns the document's comparison of 3 approaches to default values.
+  - Conditionals
+  - Short-Circuiting
+  - Default Arguments
+
+- In my original pull request, I ordered these from bad to best:
+  - Conditionals (Bad)
+  - Short-Circuiting (Better)
+  - Default Arguments (Best)
+
+- In this commit, I am rephrasing the **Bad/Better/Best** ordering scheme to **Bad/Bad/Good** because:
+  - The rest of the document uses the **Bad/Good** format.
+  - We should use *consistent language* throughout the document.",False
+100628cd10b7ebe155b68dc7c76d175fa2740a48,2017-01-07 07:53:25,Jordalgo,Add: Error Handling Section,False
+2f1142fda33dcfb7ed858b9fb5ec574bb45f5aa1,2017-01-07 07:07:56,Ryan McDermott,"Merge pull request #39 from acidio/master
+
+Adjusted the comment that show the result",True
+7876a64afdbd6975bbdb65bfb976c407502504c1,2017-01-07 06:58:42,Ryan McDermott,"Merge pull request #46 from stewx/patch-1
+
+Correct spelling of Cessna airplane",True
+17b01a2b8c447e608584029a3cd9f029b8038703,2017-01-07 03:29:42,Nils Schönwald,Change var and let to const where necessary,False
+fd293bc98018efbca1f8523258ec94694b287cb3,2017-01-07 00:43:30,Tarabass,"Improve example ""Function names should say what they do""",False
+243a54513adca7032c7f72ed5a53549b575c90ad,2017-01-07 00:04:14,Stewart Rand,Correct spelling of Cessna airplane,False
+64b771fa89e5437d316f23d166cedfdd254cc4fc,2017-01-06 19:15:17,Acidio Alan,Adjusted the commentthat show the result,False
+19b1f36da104390fba132fc0759d86ede69cbfcd,2017-01-06 14:08:28,Sébastien Elet,feat(explanatory-variables): use destructuring,False
+10bece91f7d6ffed891114dcc04a43b70ee7b77d,2017-01-06 12:46:50,Christian Schlensker,Use more plausible const example,False
+2837f0fe3ca5f16f7147aafa5882faf7c859f810,2017-01-06 10:42:07,Ryan McDermott,"Merge pull request #35 from ChrisNikkel/use_const
+
+use const in rule ""Use explanatory variables""",True
+08dd958d46679473663bc46b290ade28fedcb2f9,2017-01-06 10:28:01,Christopher Nikkel,"use const in rule ""Use explanatory variables""
+
+per preceding rule ""ES6 constants when variable values do not change""",False
+f0278efd773592e4ad8500d371d17e9b7bdede8a,2017-01-06 09:42:23,Christian Schlensker,"Use const instead of var
+
+This example should follow the guidelines about `const` vs `var` mentioned earlier",False
+dfb9544da58927596d6c2aea294fb98ca55a7590,2017-01-06 09:41:35,Anton Paras,"Rephrase default value advice
+
+- The original document asserted that ""Short-circuiting is cleaner than conditionals""
+- ...only to override this assertion later with ""Use default arguments instead of short circuiting.""
+- This is a poor design-choice for an advisory document.
+
+        - If you are going to say x > y,
+        - then later say z > x,
+        - you should just say z > x > y upfront.
+        - Otherwise, many people might not see the z > x later on,
+        - because many people will probably use this as a referential document. They probably won't read the entire work.",False
+a22d1d9029be1223f1f4fc599a89f832c2a7580d,2017-01-06 09:32:28,Ryan McDermott,"Merge pull request #32 from acparas/master
+
+Fix semantic mistake",True
+fa5f27d7dd33a37defa125c45200de75f014c294,2017-01-06 09:09:42,Anton Paras,"Fix semantic mistake
+
+The original phrase ""As stated in the Gang of Four..."" is semantically incorrect.
+- The ""Gang of Four"" is a group of authors: Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides.
+- They wrote a famous book: Design Patterns.
+- Here, Ryan McDermott is referring to the software-design principle ""you should prefer composition over inheritance.""
+- This principle was stated in the book, Design Patterns.
+- It was not stated in the Gang of Four -- the authors themselves.",False
+11b72718479948c16ec589cc7a054043a5affdd7,2017-01-06 08:04:41,Ryan McDermott,"Merge pull request #27 from connec/patch-1
+
+Remove redundant object from Object.assign example",True
+52a925173b4d2479c84a9f8ae23144caffe6fdc6,2017-01-06 07:49:48,Ryan McDermott,"Merge pull request #29 from jordalgo/patch-1
+
+Update: promise catch logic",True
+e9044457c937ded03a7980a18f74e7e53e69e29b,2017-01-06 07:16:08,Jordan Rome,"Update: promise catch logic
+
+Use `console.error` at least as `console.log` essentially turns a thrown error into a muted console log.",False
+55e612d67683e64bcd0312e83ddac09c9377b185,2017-01-06 04:59:30,Ryan McDermott,"Merge pull request #28 from tonytran1/master
+
+Use constants when variable values do not change",True
+f090f77a32eb2739124d93fe8282a8103f1489dd,2017-01-06 04:32:48,tonytran1,Use constants when variable values do not change,False
+c51445ef1f3820b6ad4cd02e87f7765fc4c802fd,2017-01-06 03:57:17,Ryan McDermott,"Merge pull request #26 from iheanyi/patch-2
+
+Update README.md to remove Nigerian Prince reference",True
+17a5f24a815988f689670e2067bb5875903f8f5a,2017-01-06 03:02:53,Chris Connelly,"Remove redundant object from Object.assign example
+
+In the ""good"" `Object.assign` example, the initial new object is redundant as the defaults are also specified in a new object.
+
+This is a bit pedantic, and doesn't change the semantics of the example, just removes an unnecessary object creation.",False
+337fa7e961ac0ac620e21193723416694095fb69,2017-01-06 02:12:16,Iheanyi Ekechukwu,"Update README.md
+
+Hey there. As a Software Engineer who happens to be Nigerian, I think there are better ways of explaining a side effect than perpetuating stereotypes about a specific group of people. So I just made a small fix to make it more appropriate.",False
+d00ca4c70c97076b9678c193b125fdf9b810b89e,2017-01-05 20:58:49,Ryan McDermott,Fix Object.assign example,False
+bd8bd1e24252cc24f7eb28de4a2a6181f675658c,2017-01-05 20:23:51,Ryan McDermott,"Merge pull request #20 from bfred-it/patch-1
+
+Add missing function call to ""no side effects""",True
+2388798350899d1c4c16e14c14b6c77ff0d0f300,2017-01-05 20:23:01,Ryan McDermott,"Merge pull request #21 from Chaosbohne/patch-1
+
+Some minor property missmatch",True
+5cdf7a80a81c6aa9eb63149d7920c00d3cee8806,2017-01-05 20:21:53,Ryan McDermott,"Merge pull request #22 from floriangosse/patch-1
+
+fix(avoid-type-checking-part-1): fix variable name",True
+5d3bd8ae01bbe6b34f78b078e11f6bfa5d71a22a,2017-01-05 20:21:22,Ryan McDermott,"Merge pull request #24 from hennelh/patch-1
+
+Update README.md",True
+e80238091759c536484dfe852beee4187dba5c6b,2017-01-05 20:06:36,Henry Harrison,"Update README.md
+
+fixed typo",False
+b1ef827d91b5dd58f08408222a9dba5993ff5d62,2017-01-05 17:35:48,Florian Goße,fix(avoid-type-checking-part-1): fix variable name,False
+08fe61e8a3b1d2f48f1107eccda577d255b8c3be,2017-01-05 13:19:32,Rico Ruszewski,"Some minor property missmatch
+
+Property title is assigned to property buttonText.",False
+a037f0e00b2efd69858db2aabeb47e20991eaea2,2017-01-05 13:00:38,Federico Brigante,"Add missing function call to ""no side effects""",False
+2564bae26f3d26e3dca283281bbdbb90fcea816b,2017-01-05 10:47:49,Ryan McDermott,"Merge pull request #19 from gsklee/patch-2
+
+Fix error in example code",True
+b7a5d73562c864a53c82692bd6cc9630da2295a7,2017-01-05 10:41:08,G. Kay Lee,Update README.md,False
+473675298f12a6b35cc60226f83e6e711366a125,2017-01-05 10:15:39,Ryan McDermott,"Merge pull request #18 from gsklee/patch-1
+
+Update README.md",True
+4155a2b9b49c12b288709bc974d14154c2485b88,2017-01-05 10:12:09,G. Kay Lee,"Update README.md
+
+Fix #2",False
+37c236c1f8ac7d9798d77f541d34b366f9795064,2017-01-05 08:46:36,Ryan McDermott,"Merge pull request #17 from jsgao0/master
+
+Update README.md",True
+a79076f38d83dc7b0e36a587ed5f302e605776a3,2017-01-05 08:42:55,Gao Jia Siang,"Update README.md
+
+Must pass parameters to the conditional function or it might cause variable pollution.
+692 add fsm, listNode arguments
+696 add fsmInstance, listNodeInstance parameters",False
+c0cd8f878b60bad73e80b8d07af4e7aa6058e746,2017-01-05 08:02:35,Ryan McDermott,"Merge pull request #16 from jsgao0/master
+
+Update README.md",True
+b5c7100d0d7bdcbae7a690742bfb09fe5987ae05,2017-01-05 07:59:34,Gao Jia Siang,"Update README.md
+
+Filled and replace argument names in ### Functions should only be one level of abstraction
+308. fill code argument
+350. fill tokens argument
+361. replace ast into tokens",False
+03bcebd347d0bb09812d75bc7fdb4793bf869b10,2017-01-05 07:10:42,Ryan McDermott,"Merge pull request #8 from alaycock/patch-1
+
+Add getArea method where it is necessary.",True
+667ff354b267dc38589eb561e5798442ed94e4b8,2017-01-05 07:08:35,Ryan McDermott,"Merge pull request #10 from Yahkob/patch-2
+
+ Use explanatory variables bad and good examples should match ([1] + …",True
+dcbca4382a2d0eee754ffe7ccb74090dd0a9c7ef,2017-01-05 07:04:13,Ryan McDermott,"Merge pull request #11 from Yahkob/patch-4
+
+add missing commas in objects",True
+e560b130ec0608c085a1975244d0ecdee9a302ff,2017-01-05 07:02:33,Ryan McDermott,"Merge pull request #6 from chiarafsc/master
+
+Remove duplicate code ""good"" example - Remove unnecessary, misleading statement",True
+20a8c6c04623ce2dfcbda8367d3b457c567c3efd,2017-01-05 07:01:56,Ryan McDermott,"Merge pull request #3 from mariotacke/fix-spelling-errors
+
+(docs) Correct spelling errors and remove unfinished sentence.",True
+ce3064476d5b62106bce1f1a8959710a4dbb4ed5,2017-01-05 03:16:30,Jake Harclerode,add missing commas in objects,False
+071dfdc3c79b5567bd4b9a9f2fcc701e6c820757,2017-01-05 03:10:24,Jake Harclerode,Use explanatory variables bad and good examples should match ([1] + [2] instead of [0]),False
+b49c5716977283d28ce2ac87638f31ca26878f02,2017-01-05 02:35:09,Adam Laycock,"Merge pull request #1 from alaycock/master
+
+Add missing function argument in LSP section",True
+95ad6fbd99bb2792840a9d72fd51cbbc8d49e7ba,2017-01-05 02:33:49,Adam Laycock,Add missing function argument in LSP section,False
+cc8c767686393629716b2c4d2c763090ad55b941,2017-01-05 02:26:39,Adam Laycock,"Add getArea method where it is necessary.
+
+Without this, the `shape.getArea()` call below will cause an error.",False
+0a1fc61b2ac02551e69bcbfaea619244b3abd954,2017-01-05 01:25:55,Chiara Felice Sant Cassia,"Remove duplicate code ""good"" example - Remove unnecessary, misleading statement",False
+a3e6e97a0acf220db8eddaf30032918900f261a3,2017-01-04 23:10:56,Mario Tacke,(docs) Correct spelling errors and remove unfinished sentence.,False
+bc1ae6af558312d2e8d1ea83aa458c117fb0e01a,2017-01-04 20:58:54,Ryan McDermott,"Merge pull request #1 from andrejewski/patch-1
+
+fix ""do one thing"" code example",True
+0661e527db31e12bf18062901674f675646d37b5,2017-01-04 11:58:51,Chris Andrejewski,"fix ""do one thing"" code example
+
+The world almost just ended right here.",False
+55304802c86d49aeabad87f96fdeca3b785b37fb,2017-01-03 06:04:54,Ryan McDermott,Functions should be at one level of abstraction,False
+b8b382dff9c4909d3c0253d2063be1147711db09,2017-01-03 05:53:38,Ryan McDermott,Drive home pont of limiting function arguments,False
+d783297b8518ab0c80ce3aef19e08d9d10e2e782,2017-01-03 05:41:23,Ryan McDermott,"Remove subsection anchors, favor automatic marking",False
+4440e351589a515beae9b77ca892c3623bf98204,2017-01-03 05:39:49,Ryan McDermott,Attempt another GHFM link,False
+8c13a414ce48fe02b8d9f55cc15f6255ab6bd2ed,2017-01-03 05:30:44,Ryan McDermott,Add first subsection marker,False
+f87128340f3600e21999b0ccd45e71bc1fcf2f94,2017-01-03 05:26:47,Ryan McDermott,Single concept per test,False
+8f4a8d24086e1f97d464be74630c32615c6e7a7a,2017-01-03 05:01:14,Ryan McDermott,Encapsulate conditionals,False
+03820514da4076d936d8e2e7a0c8e2795d4e3a6e,2017-01-03 04:57:55,Ryan McDermott,Avoid negative conditionals,False
+e7ca5c97d1b004101488ce46b3d55b90fc665725,2017-01-03 04:52:24,Ryan McDermott,Function names should say what they do,False
+f83f4e495844335b32b1cc10f1a101d81bdd2eee,2017-01-03 04:37:54,Ryan McDermott,Remove dead code,False
+ea1735d49fc3c4b09de66b383e63396598d2adb5,2017-01-03 04:32:29,Ryan McDermott,Avoid positional markers,False
+c0803003895f5c2deb7bd4e9ebe3a59223f8ac2e,2017-01-03 04:27:34,Ryan McDermott,Use explanatory variables,False
+85bfa0c4776a54e0954f35e093917ff694815652,2017-01-03 04:13:33,Ryan McDermott,Add proper introduction,False
+d02640b02721f4bfc9273557bdada2350d513517,2017-01-03 02:02:04,Ryan McDermott,Add coverage tool note,False
+887ee233b4327c8532ab3bf37f22495e869ee0f2,2017-01-03 01:59:11,Ryan McDermott,Add testing section,False
+2f8c0cecfbef6bf62d605edf103d097185d038b4,2017-01-03 01:44:59,Ryan McDermott,Drive home point of DIP and decoupling,False
+13a692a9d203fa290f5c61cce840f0b9e1287c05,2017-01-03 01:15:08,Ryan McDermott,Dependency Inversion Principle (DIP),False
+a15c393c9ac8fc371191c9c62a1ecfa7d1d2f720,2017-01-02 10:43:23,Ryan McDermott,Interface Segregation Principle (ISP),False
+c85e78ca3017de8ef303c6ddbe1889d593a5c7ee,2017-01-01 09:33:47,Ryan McDermott,Liskov Substitution Principle (LSP),False
+b19273f6a3bd4ef4e064c1fb76346912fe49fbbc,2017-01-01 00:36:14,Ryan McDermott,Open/Closed Principle,False
+59def8205738e387323d391f358bae5341050b42,2016-12-31 07:47:57,Ryan McDermott,Short-circuit don't use conditionals,False
+47f7e5a4ac4a0c247bd0ec66cecdb5af4d5fc807,2016-12-31 07:34:31,Ryan McDermott,Don't overoptimize,False
+c713bc2d9cb59d93b4c7a527efa8dd24a83ed58d,2016-12-31 07:27:11,Ryan McDermott,Use private members,False
+75c6c21ee688759ff7e34e113c672f94803cd9c9,2016-12-31 07:02:38,Ryan McDermott,Prefer composition over inheritance,False
+3870738748fe7b55747e0baf20f8181cd3da7e8d,2016-12-30 04:02:46,Ryan McDermott,Drive home point of formatting,False
+7799e772f768a677e10f8c9873009e2dc3b5407e,2016-12-30 04:01:50,Ryan McDermott,No legal comments,False
+66a5f80657cf2465970458b333f862fa80a8e6cc,2016-12-30 03:54:05,Ryan McDermott,Fix formatting problems,False
+e9d40ba13b04173deb9b3678d7fbb54edb0c4aa4,2016-12-30 03:52:56,Ryan McDermott,Vertical distance,False
+93a311f7d15730af8b09220998f7bbdc4db380df,2016-12-30 03:33:41,Ryan McDermott,Add Formatting section,False
+dfe15ca4a052365c9e51edbd37d6172679d57f96,2016-12-24 02:40:49,Ryan McDermott,SRP,False
+9fd64e09c94bc4b295a3cfc1a276f747aa9c21a7,2016-12-23 13:17:58,Ryan McDermott,Use getters and setters,False
+d038b410576da8b9d96862f0d174fe441e7539fe,2016-12-21 12:22:38,Ryan McDermott,No journal comments,False
+c62367f576c1b7442248df2d6b7728cf1aa6becd,2016-12-20 12:29:05,Ryan McDermott,Fix link,False
+d540785870b473aa03372f025c304115de7f2379,2016-12-20 12:26:44,Ryan McDermott,Method chaining,False
+d1d0aee84245d349a0f9766599c6c320535d89f0,2016-12-19 12:02:13,Ryan McDermott,Avoid type-checking (part 2),False
+4cf59e10f758632c3d51f0126151c6b1ac8cae98,2016-12-16 12:23:49,Ryan McDermott,Avoid type-checking part 1,False
+ed7a224be56bfe7fdf7cc73c40ecef419572546d,2016-12-14 11:34:16,Ryan McDermott,No duplicate code,False
+0e33f7ab0c0124e3585776af10039cd48115677e,2016-12-14 11:21:02,Ryan McDermott,Functions should do one thing,False
+2bae01aeb353bc489b556fbe82bd540f9870604a,2016-12-12 10:16:28,Ryan McDermott,Avoid conditionals,False
+0f3dea4146078692638065cbb48f9965bdb3697b,2016-12-10 09:21:41,Ryan McDermott,Object.assign,False
+14de7dc88e3514ee9a81f1cb8bc0c9e5105ba1dd,2016-12-10 09:13:01,Ryan McDermott,Explain more about side effects,False
+708f91c4f875bbb7c69dbd1c4d029d477e94c8fe,2016-12-09 12:13:58,Ryan McDermott,Remove README.md from linguist documentation,False
+af4fc0be7f8f87692493de42b3477a6c169bd5f8,2016-12-09 11:32:20,Ryan McDermott,Use functional programming,False
+15d2ad822f88679a2b98c8682125cee8e8867734,2016-12-09 11:12:25,Ryan McDermott,Async and Await,False
+286f59af777d8b229c6ba12dd9e72e0916918443,2016-12-09 11:04:56,Ryan McDermott,Use promises,False
+2fb5e1da7a19016cbea8f84a52ea6945a68d81db,2016-12-06 12:14:18,Ryan McDermott,Back to top links,False
+5bf7a2accd876dea2e798555f969c81ee0812795,2016-12-06 12:10:48,Ryan McDermott,Test back to top,False
+a6da688c9f7e544b711b137bf36dd40989aea101,2016-12-06 12:06:51,Ryan McDermott,TOC,False
+6b0eef35b550e45232933bbcef3060c826cbec97,2016-12-06 11:59:33,Ryan McDermott,No messing with globals,False
+0eaa023dc83054f7c2dc8f9f889e6af9c92d2725,2016-12-05 09:06:37,Ryan McDermott,ES6 Classes,False
+ca4a2a39f4f57a9ed1dc3ae5ae6928ef414e4a8c,2016-11-30 11:13:48,Ryan McDermott,Set language to JavaScript,False
+64d27d852025baa3fdd7520f18c11ad296a8dcb1,2016-11-27 23:24:27,Ryan McDermott,Don't add unneeded context,False
+0882313f715e43f7bb55e670610a37f892d7abb4,2016-11-27 22:52:27,Ryan McDermott,Capitalization,False
+15561904aaad30612f7d8cad1a586d215f4043ba,2016-11-27 22:30:03,Ryan McDermott,Commented code,False
+b4b30a4cd0faedb96f130147ee4a23f032049f89,2016-11-27 05:09:37,Ryan McDermott,Avoid mental mapping,False
+0229fc51d9dfad4dfca94bb0b293513c4a8a117a,2016-11-27 05:01:57,Ryan McDermott,Searchable names,False
+65f5783cb98c46cb603567fb9f5dd52cb6416264,2016-11-26 04:24:58,Ryan McDermott,Avoid side effects,False
+9e0135d1ac599962a3a11d382cab99cf9124289a,2016-11-22 11:18:09,Ryan McDermott,Default args,False
+23923fe9745c346c2d70ba8305b2875dbaaca7c3,2016-11-12 07:53:24,Ryan McDermott,First commit,False

@@ -1,0 +1,1478 @@
+Hash,Date,Author,Message,IsMerge
+e92b871953d04581d3e5b35e942a02c85031d662,2025-03-18 19:25:28,Serhii Butenko,Remove RU localization from the list (#333),False
+6f832d987472b30e1e3ede82de22e517af69e40b,2022-12-16 04:03:36,dependabot[bot],"chore(deps-dev): bump husky from 8.0.1 to 8.0.2 (#293)
+
+Bumps [husky](https://github.com/typicode/husky) from 8.0.1 to 8.0.2.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v8.0.1...v8.0.2)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3d23c5cacd795881bce3c071eb8685771289b7a2,2022-12-16 04:03:24,dependabot[bot],"chore(deps-dev): bump prettier from 2.7.1 to 2.8.0 (#294)
+
+Bumps [prettier](https://github.com/prettier/prettier) from 2.7.1 to 2.8.0.
+- [Release notes](https://github.com/prettier/prettier/releases)
+- [Changelog](https://github.com/prettier/prettier/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/prettier/prettier/compare/2.7.1...2.8.0)
+
+---
+updated-dependencies:
+- dependency-name: prettier
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c5edd830f9bb8339231591915abc7f20c7b70f5b,2022-12-16 04:02:11,dependabot[bot],"chore(deps-dev): bump lint-staged from 13.0.3 to 13.0.4 (#292)
+
+Bumps [lint-staged](https://github.com/okonet/lint-staged) from 13.0.3 to 13.0.4.
+- [Release notes](https://github.com/okonet/lint-staged/releases)
+- [Commits](https://github.com/okonet/lint-staged/compare/v13.0.3...v13.0.4)
+
+---
+updated-dependencies:
+- dependency-name: lint-staged
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+63501d7ed48572395690ad99165a77e61c9933fd,2022-11-13 01:32:57,dependabot[bot],"chore(deps): bump chalk from 5.0.1 to 5.1.2 (#288)
+
+Bumps [chalk](https://github.com/chalk/chalk) from 5.0.1 to 5.1.2.
+- [Release notes](https://github.com/chalk/chalk/releases)
+- [Commits](https://github.com/chalk/chalk/compare/v5.0.1...v5.1.2)
+
+---
+updated-dependencies:
+- dependency-name: chalk
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1513cdc45695ee767b7e0e9bd8cae9af31c55d45,2022-11-05 17:15:57,Shahriar,Fixed typo (#276),False
+3a34c001e9b408dbeacdc270701a6565c02b5e53,2022-09-30 17:45:57,dependabot[bot],"chore(deps-dev): bump semantic-release from 19.0.3 to 19.0.5 (#277)
+
+Bumps [semantic-release](https://github.com/semantic-release/semantic-release) from 19.0.3 to 19.0.5.
+- [Release notes](https://github.com/semantic-release/semantic-release/releases)
+- [Commits](https://github.com/semantic-release/semantic-release/compare/v19.0.3...v19.0.5)
+
+---
+updated-dependencies:
+- dependency-name: semantic-release
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+72a8382ef8a858f6bea36715ed2e8d7b3575c1b5,2022-09-30 17:45:44,dependabot[bot],"chore(deps): bump meow from 9.0.0 to 10.1.4 (#282)
+
+Bumps [meow](https://github.com/sindresorhus/meow) from 9.0.0 to 10.1.4.
+- [Release notes](https://github.com/sindresorhus/meow/releases)
+- [Commits](https://github.com/sindresorhus/meow/compare/v9.0.0...v10.1.4)
+
+---
+updated-dependencies:
+- dependency-name: meow
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+99a68206ea1401e1d49a2ad34cee31259ec07340,2022-09-30 17:40:44,dependabot[bot],"chore(deps-dev): bump prettier from 2.6.2 to 2.7.1 (#268)
+
+Bumps [prettier](https://github.com/prettier/prettier) from 2.6.2 to 2.7.1.
+- [Release notes](https://github.com/prettier/prettier/releases)
+- [Changelog](https://github.com/prettier/prettier/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/prettier/prettier/compare/2.6.2...2.7.1)
+
+---
+updated-dependencies:
+- dependency-name: prettier
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+50b94c23e94086ced71db4c4699275f6277d3b38,2022-09-30 17:40:26,Sviatoslav Sydorenko,Link the GitHub Sponsors profile (#274),False
+eb470de1727febab733508f65b39b95ae502505c,2022-09-30 17:40:11,dependabot[bot],"chore(deps-dev): bump lint-staged from 13.0.0 to 13.0.3 (#267)
+
+Bumps [lint-staged](https://github.com/okonet/lint-staged) from 13.0.0 to 13.0.3.
+- [Release notes](https://github.com/okonet/lint-staged/releases)
+- [Commits](https://github.com/okonet/lint-staged/compare/v13.0.0...v13.0.3)
+
+---
+updated-dependencies:
+- dependency-name: lint-staged
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1711912c31301e64909f9acbb1c4b98da54ef1ca,2022-09-30 17:40:00,dependabot[bot],"chore(deps): bump update-notifier from 5.1.0 to 6.0.2 (#264)
+
+Bumps [update-notifier](https://github.com/yeoman/update-notifier) from 5.1.0 to 6.0.2.
+- [Release notes](https://github.com/yeoman/update-notifier/releases)
+- [Commits](https://github.com/yeoman/update-notifier/compare/v5.1.0...v6.0.2)
+
+---
+updated-dependencies:
+- dependency-name: update-notifier
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2abeb5aeedf54b181f6c935eb58a2a9afc7d5d2e,2022-09-30 17:36:39,dependabot[bot],"chore(deps): bump boxen from 6.2.1 to 7.0.0 (#266)
+
+Bumps [boxen](https://github.com/sindresorhus/boxen) from 6.2.1 to 7.0.0.
+- [Release notes](https://github.com/sindresorhus/boxen/releases)
+- [Commits](https://github.com/sindresorhus/boxen/compare/v6.2.1...v7.0.0)
+
+---
+updated-dependencies:
+- dependency-name: boxen
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+001378ab84ed62dce1c0f2ffdffdf9f4998fba5f,2022-09-30 17:12:41,semantic-release-bot,"chore(release): 1.22.8 [skip ci]
+
+## [1.22.8](https://github.com/denysdovhan/wtfjs/compare/v1.22.7...v1.22.8) (2022-09-30)
+
+### Bug Fixes
+
+* broken link in zh-cn translation ([#278](https://github.com/denysdovhan/wtfjs/issues/278)) ([c6f8310](https://github.com/denysdovhan/wtfjs/commit/c6f8310e4af46e01b00dcff940fbe59df5582e22))",False
+c6f8310e4af46e01b00dcff940fbe59df5582e22,2022-09-30 17:11:59,XYZ,fix: broken link in zh-cn translation (#278),False
+7ad136dd5580f631224c618704ffe5123d6c098a,2022-06-16 18:08:00,dependabot[bot],"chore(deps-dev): bump semantic-release from 19.0.2 to 19.0.3 (#262)
+
+Bumps [semantic-release](https://github.com/semantic-release/semantic-release) from 19.0.2 to 19.0.3.
+- [Release notes](https://github.com/semantic-release/semantic-release/releases)
+- [Commits](https://github.com/semantic-release/semantic-release/compare/v19.0.2...v19.0.3)
+
+---
+updated-dependencies:
+- dependency-name: semantic-release
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+9311427042bf840eb48657298f7bbb5af64dd106,2022-06-04 20:01:26,dependabot[bot],"chore(deps): bump semver-regex from 3.1.3 to 3.1.4 (#261)
+
+Bumps [semver-regex](https://github.com/sindresorhus/semver-regex) from 3.1.3 to 3.1.4.
+- [Release notes](https://github.com/sindresorhus/semver-regex/releases)
+- [Commits](https://github.com/sindresorhus/semver-regex/commits/v3.1.4)
+
+---
+updated-dependencies:
+- dependency-name: semver-regex
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+3380323a4f012e6679271b6246fa2b80627ac6de,2022-06-03 17:47:57,dependabot[bot],"chore(deps-dev): bump husky from 7.0.4 to 8.0.1 (#256)
+
+Bumps [husky](https://github.com/typicode/husky) from 7.0.4 to 8.0.1.
+- [Release notes](https://github.com/typicode/husky/releases)
+- [Commits](https://github.com/typicode/husky/compare/v7.0.4...v8.0.1)
+
+---
+updated-dependencies:
+- dependency-name: husky
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+c3a696f8bfe92458910c36f5e62243d0e6b312e2,2022-06-03 17:47:46,Enteleform,added nested example @ `Accessing object properties with arrays` (#218),False
+71c2514530335e25e5972c6cd282772b9b395327,2022-06-03 17:44:01,dependabot[bot],"chore(deps-dev): bump lint-staged from 12.4.1 to 13.0.0 (#257)
+
+Bumps [lint-staged](https://github.com/okonet/lint-staged) from 12.4.1 to 13.0.0.
+- [Release notes](https://github.com/okonet/lint-staged/releases)
+- [Commits](https://github.com/okonet/lint-staged/compare/v12.4.1...v13.0.0)
+
+---
+updated-dependencies:
+- dependency-name: lint-staged
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+024d90af36dd7639302a3299d766eaa8b35f428a,2022-06-03 17:43:18,dependabot[bot],"chore(deps-dev): bump doctoc from 2.1.0 to 2.2.0 (#258)
+
+Bumps [doctoc](https://github.com/thlorenz/doctoc) from 2.1.0 to 2.2.0.
+- [Release notes](https://github.com/thlorenz/doctoc/releases)
+- [Commits](https://github.com/thlorenz/doctoc/compare/v2.1.0...v2.2.0)
+
+---
+updated-dependencies:
+- dependency-name: doctoc
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+0e8b6fc7cfe4682d4ae4aba2993e3f9a562c397e,2022-06-03 17:43:07,dependabot[bot],"chore(deps): bump npm from 8.7.0 to 8.12.0 (#259)
+
+Bumps [npm](https://github.com/npm/cli) from 8.7.0 to 8.12.0.
+- [Release notes](https://github.com/npm/cli/releases)
+- [Changelog](https://github.com/npm/cli/blob/latest/CHANGELOG.md)
+- [Commits](https://github.com/npm/cli/compare/v8.7.0...v8.12.0)
+
+---
+updated-dependencies:
+- dependency-name: npm
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+42bc51e6c8921d1f8d574983f9177bee343ab27b,2022-05-02 17:46:09,dependabot[bot],"chore(deps-dev): bump lint-staged from 12.4.0 to 12.4.1 (#252)
+
+Bumps [lint-staged](https://github.com/okonet/lint-staged) from 12.4.0 to 12.4.1.
+- [Release notes](https://github.com/okonet/lint-staged/releases)
+- [Commits](https://github.com/okonet/lint-staged/compare/v12.4.0...v12.4.1)
+
+---
+updated-dependencies:
+- dependency-name: lint-staged
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+d4a5b8054b8650910e1ce632c721d4bc9161d4cb,2022-04-26 21:50:37,semantic-release-bot,"chore(release): 1.22.7 [skip ci]
+
+## [1.22.7](https://github.com/denysdovhan/wtfjs/compare/v1.22.6...v1.22.7) (2022-04-26)
+
+### Bug Fixes
+
+* Add new examples and fix wrong translations (Chinese) ([#216](https://github.com/denysdovhan/wtfjs/issues/216)) ([cb01e63](https://github.com/denysdovhan/wtfjs/commit/cb01e63e813be97cc921cdcf2c7c675e4de2238f))",False
+89f4dc274232042f0928267f6a9be6c9e1a13ffa,2022-04-26 21:49:55,dependabot[bot],"chore(deps): bump path-parse from 1.0.6 to 1.0.7 (#250)
+
+Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+- [Release notes](https://github.com/jbgutierrez/path-parse/releases)
+- [Commits](https://github.com/jbgutierrez/path-parse/commits/v1.0.7)
+
+---
+updated-dependencies:
+- dependency-name: path-parse
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+1711701e0a8bab0f66674f49c9c52257847bd138,2022-04-26 21:49:44,dependabot[bot],"chore(deps): bump hosted-git-info from 2.5.0 to 2.8.9 (#249)
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.5.0 to 2.8.9.
+- [Release notes](https://github.com/npm/hosted-git-info/releases)
+- [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+- [Commits](https://github.com/npm/hosted-git-info/compare/v2.5.0...v2.8.9)
+
+---
+updated-dependencies:
+- dependency-name: hosted-git-info
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+01117494fabd81ac11079179ff7c663264ad5548,2022-04-26 21:49:35,dependabot[bot],"chore(deps): bump minimist from 1.2.5 to 1.2.6 (#251)
+
+Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
+- [Release notes](https://github.com/substack/minimist/releases)
+- [Commits](https://github.com/substack/minimist/compare/1.2.5...1.2.6)
+
+---
+updated-dependencies:
+- dependency-name: minimist
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+cb01e63e813be97cc921cdcf2c7c675e4de2238f,2022-04-26 21:48:54,迷子 (Maiko Tan),"fix: Add new examples and fix wrong translations (Chinese) (#216)
+
+* update motivation part
+
+* update notation part
+
+* better
+
+* update first example
+
+* docs: add new n fix existing motivation
+
+* docs: add new paragraph
+
+* docs: fix typo and add comments
+
+* docs: fix typo/commas
+
+- It is weird to use half-width comma and dot in Chinese,
+even that mixed English words.
+also, Chinese don't use comma to separate enumerated words, we use ""、""
+
+- ""return"" should be translated as 返回, unless it is in code.
+
+- unordered 无序 is one of comparison relationships, it should be noted.
+
+* docs: add paragraph
+
+* docs: add more examples
+
+* docs: fix typo, update word
+
+* docs: fix unessesary spaces
+
+* docs: rewrite sentences
+
+* docs: fix spaces
+
+* docs: translate comment
+
+* docs: add new paragraph
+
+* docs: fix some weird sentence
+
+and sync with en version
+
+* docs: fix weird sentences
+
+* docs: typoes
+
+* docs: fix wrong translation
+
+……
+……
+……
+
+特么不理解意思也不要乱翻啊！！
+
+* docs: fix sentences
+
+* docs: fix some sentences
+
+* docs: fix some sentences
+
+* docs: fix
+
+* docs: fix?
+
+* docs: add paragraph
+
+* docs: translate more
+
+* docs: more?
+
+* docs: fix wrong translation
+
+* docs: fix some sentences
+
+* docs: translate more
+
+* docs: translate more
+
+* docs: fix
+
+statement should be translated to 表达式
+
+* fix some words
+
+* docs: fix
+
+* dics: fix some sentences
+
+* docs: better
+
+* docs: add example
+
+* docs: better translations
+
+* fix?
+
+* fix and translate more
+
+* fix:
+
+looks like statement should be 语句 and 表达式 is expression
+
+* little adjustment
+
+* adjustment
+
+* fix translation
+
+* adjust order
+
+* fix wrong translations
+
+* fix a lot of wrong
+
+* translate more
+
+* fix typo
+
+* stash
+
+* translate more
+
+* translate link
+
+* translate escape
+
+* translate more
+
+* translate
+
+* translate more
+
+* the last one?
+
+* fix add newline
+
+* update",False
+e143610dca8b89127395359cd0fb3fa993294300,2022-04-26 21:47:16,dependabot[bot],"chore(deps-dev): bump semantic-release and @semantic-release/git (#248)
+
+Bumps [semantic-release](https://github.com/semantic-release/semantic-release) and [@semantic-release/git](https://github.com/semantic-release/git). These dependencies needed to be updated together.
+
+Updates `semantic-release` from 17.4.7 to 19.0.2
+- [Release notes](https://github.com/semantic-release/semantic-release/releases)
+- [Commits](https://github.com/semantic-release/semantic-release/compare/v17.4.7...v19.0.2)
+
+Updates `@semantic-release/git` from 9.0.1 to 10.0.1
+- [Release notes](https://github.com/semantic-release/git/releases)
+- [Commits](https://github.com/semantic-release/git/compare/v9.0.1...v10.0.1)
+
+---
+updated-dependencies:
+- dependency-name: semantic-release
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+- dependency-name: ""@semantic-release/git""
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+44d2d701a49e49ed8cd10de1fc4ffefeea9b697b,2022-04-26 21:44:39,dependabot[bot],"chore(deps): bump boxen from 1.2.1 to 6.2.1 (#242)
+
+Bumps [boxen](https://github.com/sindresorhus/boxen) from 1.2.1 to 6.2.1.
+- [Release notes](https://github.com/sindresorhus/boxen/releases)
+- [Commits](https://github.com/sindresorhus/boxen/compare/v1.2.1...v6.2.1)
+
+---
+updated-dependencies:
+- dependency-name: boxen
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+600db422aeec9438ccbd643f19e37d033ab959e3,2022-04-26 21:05:49,dependabot[bot],"chore(deps-dev): bump semantic-release from 17.3.7 to 17.4.7 (#245)
+
+Bumps [semantic-release](https://github.com/semantic-release/semantic-release) from 17.3.7 to 17.4.7.
+- [Release notes](https://github.com/semantic-release/semantic-release/releases)
+- [Commits](https://github.com/semantic-release/semantic-release/compare/v17.3.7...v17.4.7)
+
+---
+updated-dependencies:
+- dependency-name: semantic-release
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+40ab00993363596e3ddb8e5f10b68ff33e715573,2022-04-26 21:05:33,dependabot[bot],"chore(deps): bump chalk from 1.1.3 to 5.0.1 (#241)
+
+Bumps [chalk](https://github.com/chalk/chalk) from 1.1.3 to 5.0.1.
+- [Release notes](https://github.com/chalk/chalk/releases)
+- [Commits](https://github.com/chalk/chalk/compare/v1.1.3...v5.0.1)
+
+---
+updated-dependencies:
+- dependency-name: chalk
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+694884b30a4b2c966f15d0aa17ae0a7a0833040e,2022-04-26 21:05:24,dependabot[bot],"chore(deps): bump through2 from 2.0.3 to 4.0.2 (#240)
+
+Bumps [through2](https://github.com/rvagg/through2) from 2.0.3 to 4.0.2.
+- [Release notes](https://github.com/rvagg/through2/releases)
+- [Commits](https://github.com/rvagg/through2/compare/v2.0.3...v4.0.2)
+
+---
+updated-dependencies:
+- dependency-name: through2
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8b4683d9e48dfa786e5e40a0feff9af11c1e1c2c,2022-04-26 21:05:11,dependabot[bot],"chore(deps-dev): bump @semantic-release/git from 9.0.0 to 9.0.1 (#238)
+
+Bumps [@semantic-release/git](https://github.com/semantic-release/git) from 9.0.0 to 9.0.1.
+- [Release notes](https://github.com/semantic-release/git/releases)
+- [Commits](https://github.com/semantic-release/git/compare/v9.0.0...v9.0.1)
+
+---
+updated-dependencies:
+- dependency-name: ""@semantic-release/git""
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+944733daaf284bde46e3b4facade78f4dc4b2639,2022-04-26 20:33:09,dependabot[bot],"chore(deps): bump msee from 0.3.3 to 0.3.5 (#244)
+
+Bumps [msee](https://github.com/firede/msee) from 0.3.3 to 0.3.5.
+- [Release notes](https://github.com/firede/msee/releases)
+- [Changelog](https://github.com/firede/msee/blob/master/History.md)
+- [Commits](https://github.com/firede/msee/commits)
+
+---
+updated-dependencies:
+- dependency-name: msee
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a8ba04196cc7a3dd49801ad33aae6f80fb2fcfb0,2022-04-26 20:16:41,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+1eab2377ac0305b93626fa3c57c1f09f40fb283f,2022-04-26 20:16:34,Denys Dovhan,chore: bump meow and update-notifier,False
+4206e7231b04a8015ab08617c268c7eb144acc5f,2022-04-26 19:47:51,semantic-release-bot,"chore(release): 1.22.6 [skip ci]
+
+## [1.22.6](https://github.com/denysdovhan/wtfjs/compare/v1.22.5...v1.22.6) (2022-04-26)
+
+### Bug Fixes
+
+* Eliminate duplicate entries for `null>=0` [#232](https://github.com/denysdovhan/wtfjs/issues/232) ([#233](https://github.com/denysdovhan/wtfjs/issues/233)) ([af3a6d8](https://github.com/denysdovhan/wtfjs/commit/af3a6d823d8d200290c73c666e90363c208195ee))",False
+af3a6d823d8d200290c73c666e90363c208195ee,2022-04-26 19:46:54,Bence Cs,fix: Eliminate duplicate entries for `null>=0` #232 (#233),False
+34357b4230b73d64be03203280ad76798c58361f,2022-04-26 19:44:09,semantic-release-bot,"chore(release): 1.22.5 [skip ci]
+
+## [1.22.5](https://github.com/denysdovhan/wtfjs/compare/v1.22.4...v1.22.5) (2022-04-26)
+
+### Bug Fixes
+
+* Merge two `Math.max()<Math.min()` entries [#230](https://github.com/denysdovhan/wtfjs/issues/230) ([#231](https://github.com/denysdovhan/wtfjs/issues/231)) ([070ed39](https://github.com/denysdovhan/wtfjs/commit/070ed3967ebe793b2483074414daadaec7190380))",False
+070ed3967ebe793b2483074414daadaec7190380,2022-04-26 19:43:28,Bence Cs,"fix: Merge two `Math.max()<Math.min()` entries #230 (#231)
+
+* Merge two `Math.max()<Math.min()` entries #230
+
+* chore: fix formatting
+
+Co-authored-by: Denys Dovhan <denysdovhan@gmail.com>",False
+2be93107c3ecc31ef0e24469f6b59332aa846e45,2022-04-26 19:41:53,Denys Dovhan,chore: format files,False
+87d78b129ab5f7a3517401ae0d957ea10daee631,2022-04-26 19:38:30,semantic-release-bot,"chore(release): 1.22.4 [skip ci]
+
+## [1.22.4](https://github.com/denysdovhan/wtfjs/compare/v1.22.3...v1.22.4) (2022-04-26)
+
+### Bug Fixes
+
+* fix formatting scritps ([e87440b](https://github.com/denysdovhan/wtfjs/commit/e87440bb1a9f05a0fa784269cbfa2cfe8c0c4fe0))",False
+048990d2aa3f535a3d06d332dee363d10ce546e8,2022-04-26 19:37:38,Denys Dovhan,ci: add dependabot,False
+257a025fc0c1b3ee21633390bd913f7c73d74058,2022-04-26 19:35:52,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+494cab534f93275a5839a002e9eba734a119b6c3,2022-04-26 19:35:39,Denys Dovhan,chore: format all files,False
+b95579dde9b2746f046d5782f020acf482cefe91,2022-04-26 19:35:09,Denys Dovhan,ci: Add validation script,False
+e87440bb1a9f05a0fa784269cbfa2cfe8c0c4fe0,2022-04-26 19:34:52,Denys Dovhan,fix: fix formatting scritps,False
+5773ebd84631e6c2492b1fd27f1a68754e086489,2022-04-26 19:33:16,Denys Dovhan,build: Update formatting and linting,False
+4808fd25b94f91145083edd781050e98d6b3ae16,2022-04-26 19:13:22,semantic-release-bot,"chore(release): 1.22.3 [skip ci]
+
+## [1.22.3](https://github.com/denysdovhan/wtfjs/compare/v1.22.2...v1.22.3) (2022-04-26)
+
+### Bug Fixes
+
+* Updating references to typeof tables ([#229](https://github.com/denysdovhan/wtfjs/issues/229)) ([9483529](https://github.com/denysdovhan/wtfjs/commit/948352913ff6ae444448a61303de0b5481821904))",False
+948352913ff6ae444448a61303de0b5481821904,2022-04-26 19:12:26,Lucas Santos,fix: Updating references to typeof tables (#229),False
+e31310f5204e278b4024d20ae95d3045174a5a58,2022-04-26 18:43:29,semantic-release-bot,"chore(release): 1.22.2 [skip ci]
+
+## [1.22.2](https://github.com/denysdovhan/wtfjs/compare/v1.22.1...v1.22.2) (2022-04-26)
+
+### Bug Fixes
+
+* fix typo in zh-cn translation ([9989a3b](https://github.com/denysdovhan/wtfjs/commit/9989a3b422c0a56472a4c276eb4e41eeb7c2857b)), closes [#228](https://github.com/denysdovhan/wtfjs/issues/228)",False
+9989a3b422c0a56472a4c276eb4e41eeb7c2857b,2022-04-26 18:42:34,Denys Dovhan,"fix: fix typo in zh-cn translation
+
+fix #228",False
+7f5d1b4cba4cf072489107ca4798f9653bb348bd,2022-04-22 18:54:46,semantic-release-bot,"chore(release): 1.22.1 [skip ci]
+
+## [1.22.1](https://github.com/denysdovhan/wtfjs/compare/v1.22.0...v1.22.1) (2022-04-22)
+
+### Bug Fixes
+
+* fix description ([#220](https://github.com/denysdovhan/wtfjs/issues/220)) ([b28f5b5](https://github.com/denysdovhan/wtfjs/commit/b28f5b58bb208b6233d42d13674c04be21f4241a))
+* fix doctoc in deps ([78f3384](https://github.com/denysdovhan/wtfjs/commit/78f33844b0b198d0a3d670a4976ee920bc53deaa))
+* **readme:** Add notice about Ukraine ([d288e70](https://github.com/denysdovhan/wtfjs/commit/d288e70b388fddf4aa418cf267b248501a742913))",False
+898a5b3ddaa0c1c57c5698984246c5917b535396,2022-04-22 18:53:52,Denys Dovhan,ci: Use npx in scripts,False
+de0dd96188a717164f2e3befea85859ea10e57be,2022-04-22 18:50:38,Denys Dovhan,ci: update release workflow,False
+78f33844b0b198d0a3d670a4976ee920bc53deaa,2022-04-22 18:46:07,Denys Dovhan,fix: fix doctoc in deps,False
+da4ce7af774201dd0854917c241721a6d5fe4f6a,2022-04-22 18:39:21,dependabot[bot],"chore(deps): bump trim-off-newlines from 1.0.1 to 1.0.3 (#237)
+
+Bumps [trim-off-newlines](https://github.com/stevemao/trim-off-newlines) from 1.0.1 to 1.0.3.
+- [Release notes](https://github.com/stevemao/trim-off-newlines/releases)
+- [Commits](https://github.com/stevemao/trim-off-newlines/compare/v1.0.1...v1.0.3)
+
+---
+updated-dependencies:
+- dependency-name: trim-off-newlines
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b88264a934892511c8c3bc83ade3af54fd780cfd,2022-04-22 18:39:08,dependabot[bot],"chore(deps): bump node-fetch from 2.6.1 to 2.6.7 (#236)
+
+Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.1 to 2.6.7.
+- [Release notes](https://github.com/node-fetch/node-fetch/releases)
+- [Commits](https://github.com/node-fetch/node-fetch/compare/v2.6.1...v2.6.7)
+
+---
+updated-dependencies:
+- dependency-name: node-fetch
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+2c9be683c0b55e69d13f65b187707de4a395b6f5,2022-04-22 18:33:00,KYHyeon,Fix: [KR] fix dead link (#223),False
+5c4621099729c65dac085329d46c4cec06d5a001,2022-04-22 18:32:13,dependabot[bot],"chore(deps): bump lodash from 4.17.19 to 4.17.21 (#227)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.19 to 4.17.21.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.19...4.17.21)
+
+---
+updated-dependencies:
+- dependency-name: lodash
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8cac7bebec81065c3005e781a663fd0d78739d2d,2022-04-22 18:32:00,dependabot[bot],"chore(deps): bump handlebars from 4.7.6 to 4.7.7 (#225)
+
+Bumps [handlebars](https://github.com/wycats/handlebars.js) from 4.7.6 to 4.7.7.
+- [Release notes](https://github.com/wycats/handlebars.js/releases)
+- [Changelog](https://github.com/handlebars-lang/handlebars.js/blob/master/release-notes.md)
+- [Commits](https://github.com/wycats/handlebars.js/compare/v4.7.6...v4.7.7)
+
+---
+updated-dependencies:
+- dependency-name: handlebars
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b28f5b58bb208b6233d42d13674c04be21f4241a,2022-04-22 18:31:28,es183923,fix: fix description (#220),False
+71386c27e128f1e06af897333cf3b9977582e59b,2022-03-14 23:32:34,Denys Dovhan,Update StandWithUkraine banner,False
+d288e70b388fddf4aa418cf267b248501a742913,2022-02-24 23:29:32,Denys Dovhan,fix(readme): Add notice about Ukraine,False
+bc6560b70440a9c0673e894cb0c562fddc54c695,2021-06-07 13:59:13,semantic-release-bot,"chore(release): 1.22.0 [skip ci]
+
+# [1.22.0](https://github.com/denysdovhan/wtfjs/compare/v1.21.2...v1.22.0) (2021-06-07)
+
+### Features
+
+* A setTimeout object ([#210](https://github.com/denysdovhan/wtfjs/issues/210)) ([156d265](https://github.com/denysdovhan/wtfjs/commit/156d2652fb3c44331b3667f871e87a938fab3474))",False
+156d2652fb3c44331b3667f871e87a938fab3474,2021-06-07 13:58:43,Παναγιώτης Γεωργακόπουλος,"feat: A setTimeout object (#210)
+
+* setTimeout(not-a-function, )
+
+* Fix typo & add to list
+
+* fix: fix formatting issues in the PR
+
+Co-authored-by: Denys Dovhan <denysdovhan@gmail.com>",False
+d58f43fe06f4457a0472edd4991f21c7556a73dc,2021-06-07 13:54:08,Konrad Linkowski,"Fixes issues with some wtfs (#206)
+
+Fixes:
+""Why you should use semicolons"" - example
+""Double dot"" - explanation",False
+0778f2a102feb573e9b841f344e7bfcc8e6286c5,2021-06-07 13:53:25,semantic-release-bot,"chore(release): 1.21.2 [skip ci]
+
+## [1.21.2](https://github.com/denysdovhan/wtfjs/compare/v1.21.1...v1.21.2) (2021-06-07)
+
+### Bug Fixes
+
+* grammatical issues from Korean translation ([#205](https://github.com/denysdovhan/wtfjs/issues/205)) ([e1b8200](https://github.com/denysdovhan/wtfjs/commit/e1b8200fadda7af34ec040a22b608f18b2867be3))
+* typo ([#203](https://github.com/denysdovhan/wtfjs/issues/203)) ([2e00b3d](https://github.com/denysdovhan/wtfjs/commit/2e00b3de9f3094c4896aee31b2e5c1d14ccc8111))",False
+e1b8200fadda7af34ec040a22b608f18b2867be3,2021-06-07 13:52:52,Steve Juneyoung Kang,fix: grammatical issues from Korean translation (#205),False
+2e00b3de9f3094c4896aee31b2e5c1d14ccc8111,2021-06-07 13:52:16,Sam Lang,fix: typo (#203),False
+b0f3c859b8e56c73743a07d144af3ad930d8d3f6,2021-03-22 18:51:38,semantic-release-bot,"chore(release): 1.21.1 [skip ci]
+
+## [1.21.1](https://github.com/denysdovhan/wtfjs/compare/v1.21.0...v1.21.1) (2021-03-22)
+
+### Bug Fixes
+
+* ""savous"" to ""savons"" ([#202](https://github.com/denysdovhan/wtfjs/issues/202)) ([f0afdea](https://github.com/denysdovhan/wtfjs/commit/f0afdeab2e502dbdc56faf50d7381f12b6fdbdf2))",False
+f0afdeab2e502dbdc56faf50d7381f12b6fdbdf2,2021-03-22 18:50:56,Stéphane P,"fix: ""savous"" to ""savons"" (#202)
+
+Fix typo in fr README translation",False
+44d019116162b00c2093cae9f4ac4ef18b5d002f,2021-03-10 19:14:26,semantic-release-bot,"chore(release): 1.21.0 [skip ci]
+
+# [1.21.0](https://github.com/denysdovhan/wtfjs/compare/v1.20.1...v1.21.0) (2021-03-10)
+
+### Features
+
+* Korean translation ([#201](https://github.com/denysdovhan/wtfjs/issues/201)) ([58cc055](https://github.com/denysdovhan/wtfjs/commit/58cc0552cb4327fe7cc38782ebc4937597c930c7)), closes [#174](https://github.com/denysdovhan/wtfjs/issues/174)",False
+58cc0552cb4327fe7cc38782ebc4937597c930c7,2021-03-10 19:13:28,Matsunaga syun,"feat: Korean translation (#201)
+
+* :memo: Create README-kr.md
+
+* :heavy_plus_sign: Add README-kr.md in README.md #Tranlation
+
+* :adhesive_bandage: Apply suggestions from #174",False
+5949e9abceffece0736de31fbb17e99391c63599,2021-02-26 00:51:43,semantic-release-bot,"chore(release): 1.20.1 [skip ci]
+
+## [1.20.1](https://github.com/denysdovhan/wtfjs/compare/v1.20.0...v1.20.1) (2021-02-25)
+
+### Bug Fixes
+
+* ""agruments"" to ""arguments"" ([#200](https://github.com/denysdovhan/wtfjs/issues/200)) ([42d8ff7](https://github.com/denysdovhan/wtfjs/commit/42d8ff719041ccc90df924e0b01f882cd1438825))",False
+42d8ff719041ccc90df924e0b01f882cd1438825,2021-02-26 00:51:06,Wlad Gumenyuk,"fix: ""agruments"" to ""arguments"" (#200)
+
+Changed ""agruments"" to ""arguments"".",False
+5e3829afd13163049356ecea5eb3302fca6d9503,2021-02-23 02:03:32,semantic-release-bot,"chore(release): 1.20.0 [skip ci]
+
+# [1.20.0](https://github.com/denysdovhan/wtfjs/compare/v1.19.1...v1.20.0) (2021-02-22)
+
+### Features
+
+* Sinhala translation ([#130](https://github.com/denysdovhan/wtfjs/issues/130)) ([b5df627](https://github.com/denysdovhan/wtfjs/commit/b5df6279498a1b65a21ccf1a150216d74a78e91d))",False
+b5df6279498a1b65a21ccf1a150216d74a78e91d,2021-02-23 02:02:57,Pavindu Lakshan,feat: Sinhala translation (#130),False
+44c42d01196d4edbf965647f51553c70a6099821,2021-02-09 19:48:32,Denys Dovhan,Delete FUNDING.yaml,False
+eb58d359c52ade5d6bce25bab5d2c96cd02c8c80,2021-02-09 19:48:15,Denys Dovhan,chore: Create FUNDING.yml,False
+b369ed8b4b3c52b235d9a31b9bfecbb75feb151a,2021-02-09 19:46:15,Denys Dovhan,docs: Remove TOC from Contributing Guidelines,False
+f0f7efc698c63cecfaf2b9d20491620f0180b3b6,2021-02-08 23:09:30,semantic-release-bot,"chore(release): 1.19.1 [skip ci]
+
+## [1.19.1](https://github.com/denysdovhan/wtfjs/compare/v1.19.0...v1.19.1) (2021-02-08)
+
+### Bug Fixes
+
+* TOC only for readmes ([86ed538](https://github.com/denysdovhan/wtfjs/commit/86ed5388d864615445b2f172e6d7a1c0699fc60c))",False
+86ed5388d864615445b2f172e6d7a1c0699fc60c,2021-02-08 23:08:41,Denys Dovhan,fix: TOC only for readmes,False
+e1320b248be7b2f6528858b131152630a14e66a3,2021-02-08 23:07:00,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+00c3985ecf40d84b8380b5c864c7aae28bb12446,2021-02-08 23:06:26,semantic-release-bot,"chore(release): 1.19.0 [skip ci]
+
+# [1.19.0](https://github.com/denysdovhan/wtfjs/compare/v1.18.0...v1.19.0) (2021-02-08)
+
+### Features
+
+* Continuation of ""function is not a function"" bug ([#102](https://github.com/denysdovhan/wtfjs/issues/102)) ([6a7a826](https://github.com/denysdovhan/wtfjs/commit/6a7a826b1944814261ac1742e218ce50e617e3eb))",False
+6a7a826b1944814261ac1742e218ce50e617e3eb,2021-02-08 23:05:58,Evgenii Popov,"feat: Continuation of ""function is not a function"" bug (#102)
+
+* Continuation of ""function is not a function"" bug
+
+Need help with an investigation of a reason(s) for this behavior. Maybe be null as a parent should be used only for abstract base class?
+
+* docs: Add an explanation
+
+Co-authored-by: Denys Dovhan <denysdovhan@gmail.com>",False
+a6f6d375a50022ae11f858ea3b128fb2b271b66e,2021-02-08 22:59:11,Denys Dovhan,docs: Update tr-request link,False
+e3f507958c33d5b16260b88ef0a6473da56d8237,2021-02-08 22:51:09,Denys Dovhan,docs: Add PR templates,False
+ed6802078c5f8c804a8daea957c4c21c5226b57a,2021-02-08 22:45:06,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+e7c65ee4b460aa94f9888c982bfed2cc54dd2095,2021-02-08 22:44:54,Denys Dovhan,chore: Add new example issue template,False
+af49bcf3975522ac85cf8c27d18fa7b285522001,2021-02-08 22:38:08,Denys Dovhan,docs: Add CONTRIBUTING.md,False
+50136cdf9ef196957fccfd428ec505d0a9989332,2021-02-08 22:37:48,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+e4003af58099e1d7d4e1c00091de810dbc0ac54e,2021-02-08 17:35:22,Denys Dovhan,docs: Improve notes about supporting,False
+136e818af0178e64d169859a9c9aabcfd412bfa5,2021-02-08 16:24:22,semantic-release-bot,"chore(release): 1.18.0 [skip ci]
+
+# [1.18.0](https://github.com/denysdovhan/wtfjs/compare/v1.17.0...v1.18.0) (2021-02-08)
+
+### Features
+
+* Hindi translation ([6b45ff7](https://github.com/denysdovhan/wtfjs/commit/6b45ff79b9ae237ac5d145d970e0c89e20dd22c9))",False
+6b45ff79b9ae237ac5d145d970e0c89e20dd22c9,2021-02-08 16:23:51,Denys Dovhan,"feat: Hindi translation
+
+Hindi translation",True
+b526124dbc8d347b1c9dfdd389b8427103977fca,2021-02-07 03:41:04,Denys Dovhan,docs: Add Supporting section,False
+81febd60c8a995341067b0fdde920ee683160f8a,2021-02-07 02:26:21,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+3c2ddcfcebffbd967fff40f7d6fba03eff3a9a48,2021-02-07 02:25:55,Denys Dovhan,docs: Add Russian translation. Close #134,False
+b25f4cf4cba4d604191af648b60a935d82810017,2021-02-07 02:22:28,semantic-release-bot,"chore(release): 1.17.0 [skip ci]
+
+# [1.17.0](https://github.com/denysdovhan/wtfjs/compare/v1.16.0...v1.17.0) (2021-02-06)
+
+### Bug Fixes
+
+* Lint markdown files ([aa26445](https://github.com/denysdovhan/wtfjs/commit/aa26445d9cec46bffe73767b38bdeaa3aae95fa9))
+
+### Features
+
+* Add A stringified string example. Close [#113](https://github.com/denysdovhan/wtfjs/issues/113) ([de081e4](https://github.com/denysdovhan/wtfjs/commit/de081e4aafe6bc4ca1df47389ac0c3e8b0dff9d1))
+* Add alert from hell. Close [#55](https://github.com/denysdovhan/wtfjs/issues/55) ([1d973b9](https://github.com/denysdovhan/wtfjs/commit/1d973b9d80f0e1ad6f2e6ea27e661584d27f2ddd))
+* Add an example with arguments. Close [#35](https://github.com/denysdovhan/wtfjs/issues/35) ([1289b0c](https://github.com/denysdovhan/wtfjs/commit/1289b0c4e9afdee1432de7f4a3bd18d551132b1c))
+* Add an infinite timeout example. Close [#61](https://github.com/denysdovhan/wtfjs/issues/61) ([f356deb](https://github.com/denysdovhan/wtfjs/commit/f356deb09a7b3c935937b9167b7fe277697ec074))
+* Add comparison table. Close [#107](https://github.com/denysdovhan/wtfjs/issues/107) ([c40b0df](https://github.com/denysdovhan/wtfjs/commit/c40b0df6ca638ee0433e06a3e2ee000524c45b4a))
+* Add double dot example. Close [#124](https://github.com/denysdovhan/wtfjs/issues/124) ([597b5ee](https://github.com/denysdovhan/wtfjs/commit/597b5ee9ecd6d81b110bddbf20caeaf5fad63a8d))
+* Add example with Math.min and Math.max. Close [#23](https://github.com/denysdovhan/wtfjs/issues/23). ([ad120b2](https://github.com/denysdovhan/wtfjs/commit/ad120b264c5de8a8bf01aacb765c18f0b64fd84f))
+* Add Extra Newness. Close [#78](https://github.com/denysdovhan/wtfjs/issues/78) ([81316dc](https://github.com/denysdovhan/wtfjs/commit/81316dcefd50bb9e89b5e82efcb3fbf03aa0cffb))
+* Add Split a string by a space. Close [#171](https://github.com/denysdovhan/wtfjs/issues/171) ([827da42](https://github.com/denysdovhan/wtfjs/commit/827da423e4a461539da2e3155c553c1211954cb0))
+* Add Why you should use semicolons. Close [#112](https://github.com/denysdovhan/wtfjs/issues/112) ([7488b34](https://github.com/denysdovhan/wtfjs/commit/7488b341b53ff4fb0e6f64f4680559894d4d84c1))
+* Non-strict comparison of a number to true. Close [#135](https://github.com/denysdovhan/wtfjs/issues/135) ([0242818](https://github.com/denysdovhan/wtfjs/commit/024281866dc1bdfbc64c8f22b036e6e834553c49))",False
+024281866dc1bdfbc64c8f22b036e6e834553c49,2021-02-07 02:06:58,Denys Dovhan,feat: Non-strict comparison of a number to true. Close #135,False
+de081e4aafe6bc4ca1df47389ac0c3e8b0dff9d1,2021-02-07 01:34:08,Denys Dovhan,feat: Add A stringified string example. Close #113,False
+827da423e4a461539da2e3155c553c1211954cb0,2021-02-07 01:27:18,Denys Dovhan,feat: Add Split a string by a space. Close #171,False
+7488b341b53ff4fb0e6f64f4680559894d4d84c1,2021-02-07 01:19:18,Denys Dovhan,feat: Add Why you should use semicolons. Close #112,False
+81316dcefd50bb9e89b5e82efcb3fbf03aa0cffb,2021-02-07 01:10:53,Denys Dovhan,feat: Add Extra Newness. Close #78,False
+597b5ee9ecd6d81b110bddbf20caeaf5fad63a8d,2021-02-07 01:03:38,Denys Dovhan,feat: Add double dot example. Close #124,False
+f6cbab423ef34f019fc6ce679c3259a943d9ebbb,2021-02-05 22:13:21,Denys Dovhan,docs: Improve explanation of 'it's fail'. Close #115,False
+c40b0df6ca638ee0433e06a3e2ee000524c45b4a,2021-02-05 22:05:35,Denys Dovhan,feat: Add comparison table. Close #107,False
+f356deb09a7b3c935937b9167b7fe277697ec074,2021-02-05 21:56:02,Denys Dovhan,feat: Add an infinite timeout example. Close #61,False
+1d973b9d80f0e1ad6f2e6ea27e661584d27f2ddd,2021-02-05 21:47:22,Denys Dovhan,feat: Add alert from hell. Close #55,False
+1289b0c4e9afdee1432de7f4a3bd18d551132b1c,2021-02-05 21:38:09,Denys Dovhan,feat: Add an example with arguments. Close #35,False
+721e88e05055bd231bc63e2c6b7a84664c1feccc,2021-02-05 21:37:54,Denys Dovhan,deps: Update lint-staged,False
+aa26445d9cec46bffe73767b38bdeaa3aae95fa9,2021-02-05 21:26:12,Denys Dovhan,fix: Lint markdown files,False
+ad120b264c5de8a8bf01aacb765c18f0b64fd84f,2021-02-05 21:25:55,Denys Dovhan,feat: Add example with Math.min and Math.max. Close #23.,False
+edc81e9098ccbfb9a30d0f6c06ea28fa6272d25a,2021-02-05 20:51:35,Denys Dovhan,docs: Add note about translations,False
+76e8cec622917ea0d16b2fe9d097216bb116a699,2021-02-03 22:33:13,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+d7771b2dcc3334cdc682eb7008d8558646b1e25a,2021-02-03 22:31:31,semantic-release-bot,"chore(release): 1.16.0 [skip ci]
+
+# [1.16.0](https://github.com/denysdovhan/wtfjs/compare/v1.15.0...v1.16.0) (2021-02-03)
+
+### Features
+
+* {}{} is undefined example ([619aba1](https://github.com/denysdovhan/wtfjs/commit/619aba1590056a30ea70fd6dc3a4dc5d445887ed))",False
+619aba1590056a30ea70fd6dc3a4dc5d445887ed,2021-02-03 22:30:53,Denys Dovhan,"feat: {}{} is undefined example
+
+adding ```{}{}``` is undefined section",True
+9f2d70ef38a508b289aff7da58363626bc74200e,2021-02-03 22:30:28,Denys Dovhan,Merge branch 'master' into master,True
+cc4c309fee8e1b2cbba3097a1da7e2c8b4a441ee,2021-02-03 22:27:31,Denys Dovhan,chore(package): include package-lock in releases,False
+04da785c95dbb0758e34bd08f8a22908f4b5d7bb,2021-02-03 22:25:25,semantic-release-bot,"chore(release): 1.15.0 [skip ci]
+
+# [1.15.0](https://github.com/denysdovhan/wtfjs/compare/v1.14.0...v1.15.0) (2021-02-03)
+
+### Features
+
+* Publish release commits ([044bca2](https://github.com/denysdovhan/wtfjs/commit/044bca2c926f875c027fab1403954fac7d62cbad))",False
+81c8ba8f037e1103ea1dcfea650ac2324c5d6923,2021-02-03 22:24:37,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+044bca2c926f875c027fab1403954fac7d62cbad,2021-02-03 22:24:08,Denys Dovhan,feat: Publish release commits,False
+fe49ee0c7e23098080256fbbd6ac3b6e186950ef,2021-02-03 22:10:16,denysdovhan,Update TOC,False
+59474e8a340c311adf12ad95476b94cb057561cd,2021-02-03 22:09:47,Denys Dovhan,"Merge pull request #180 from Arash-11/object-is-and-strict-equal-weird-cases
+
+Added special cases comparing Object.is and ===",True
+6b4126d7cd30b90a098724d7b3bdd44e695f9e76,2021-02-03 22:08:12,Denys Dovhan,feat: An attempt to generate TOC before release,False
+22a1eec084e9dfc8a462494d6750d41044ba51a9,2021-02-03 22:00:32,Denys Dovhan,chore: Remove item from TOC,False
+d87a05e629a3812141dcaee49b32a1b8960db9e3,2021-02-03 21:58:23,Denys Dovhan,fix: Attempt to fix formating TOC,False
+1797145828aa993c3ef3ad0b9ccc9b7740393c28,2021-02-03 21:45:17,Denys Dovhan,docs: Fix some typos. Better formatting,False
+c36b046fb1ba42af8a13f0a13b80eb766711aa32,2021-02-03 21:40:22,Denys Dovhan,feat: Add format workflow,False
+2d6d861916972f4a99ffc1241baa4b1e286d6a99,2021-02-03 21:39:46,Denys Dovhan,docs: Manually update TOCs,False
+32d0e66dd883277355b907f959032f5bbb00a27a,2021-02-03 21:19:45,Denys Dovhan,Merge branch 'master' into master,True
+8a4e098592a1395a1cebdbef1196c30661ffc55f,2021-02-03 21:17:09,Denys Dovhan,chore: Avoid formating of Markdown,False
+04205e234f581fd6dc684842b26161cda9d09420,2021-02-03 21:14:29,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+d36065d182686fe6ad197ecd6d170fdc1bae48aa,2021-02-03 21:14:15,Denys Dovhan,chore: Add automatic formating on CI,False
+f3897b9cb24a7b0d69f46002ef071aea60d84808,2021-02-03 20:43:19,Denys Dovhan,"fix: Fix outdated links to Abstract Equality Comparison
+
+Fix outdated links to Abstract Equality Comparison reference",True
+51317599a74dd3484e4024eaee67e3b00865575d,2021-02-03 20:39:36,Denys Dovhan,feat: Add autopublishing via semantic-release,False
+92732160d768d1879cae61d0c057d6e9a11d1d73,2021-02-03 20:39:14,Denys Dovhan,chore: Remove postpublish script,False
+5058cb47995cdcf96a259d27d233018570c6275e,2021-02-03 20:38:53,Denys Dovhan,docs: Format readmes,False
+4129c7e128d10877eb66596128830538a1ac0e65,2021-02-03 20:34:36,Denys Dovhan,docs: Add FUNDING.yml,False
+5505e025c54bc056f01efdbc5c5ba9d387fa4883,2021-02-03 20:25:35,Denys Dovhan,feat: Add semantic-release,False
+8fb3ce5ed9a369b47f6ef5963f4bfc1640365082,2021-02-03 20:24:05,Denys Dovhan,chore: Update deps,False
+b64153f971e8b5ee7dc64539d5737110e9b46fca,2021-01-24 06:49:43,Arash-11,Added special cases comparing Object.is and ===,False
+2f3a0983378f2f04f3a90acc3fba9842ccc882e3,2021-01-19 12:54:38,Jesús Miguel Benito Calzada,Fix outdated links to Abstract Equality Comparison reference,False
+656d055f309d948e5364f949ad7dd7aee8734b4a,2020-12-23 12:28:02,fireattack,"Revert some formatting and errors in example code
+fix #175",False
+ebe02bc88399b96878e35c1604fc5a95ea8238be,2020-11-19 19:48:56,Denys Dovhan,1.11.0,False
+f661d4f86e45aa99961f19843e68678d7d3129f5,2020-11-19 19:48:24,Denys Dovhan,"Merge pull request #168 from ricsirigu/master
+
+Added italian translation",True
+6023b391cef63041c356f2afde0e0c015d46bae8,2020-11-16 19:50:18,ricsirigu,Improvements,False
+77c6d0208729e8a11cc88e75956759129c21d6b2,2020-11-14 21:21:13,ricsirigu,Improving the translation thanks to the feedback,False
+681de60523abff5cfad48d7e5a418edff128a521,2020-11-11 15:29:03,ricsirigu,Added italian translation,False
+a82063c58d5dbce7717a21f8703cee501aefb4ae,2020-11-11 15:23:50,ricsirigu,Added italian translation,False
+bf293fb6ed4a817b066da5cbaf94ed52f3d9e5fe,2020-11-11 15:10:32,ricsirigu,Added italian translation,False
+4ea2b0efea3bd246ae6f27c7c583fccbb4252980,2020-10-30 18:30:21,hsl0,Update README.md,False
+35fdc3251e0e706e851e2ec1cadce0494cc56fbe,2020-10-30 18:24:35,hsl0,"Update README.md
+
+The explanation was helped by libook at #165",False
+25a91fa1cf339fa2a0c3af9864913ea4f60f6f6c,2020-10-26 03:43:20,Denys Dovhan,1.10.0,False
+d9fc5da86df1da994f6c05d0ce9bccf4cb0362cb,2020-10-26 03:39:23,Denys Dovhan,"Merge pull request #157 from mbiesiad/master
+
+Polish translation",True
+d07ff456ec075b815542053b26dbdab73c354bcc,2020-10-24 17:00:26,Michal,"Update README-pl-pl.md
+
+Fixed small typo.",False
+177c968cb1be37b862154b268eca21f52066371f,2020-10-24 16:44:45,Michal,"Update README-pl-pl.md
+
+Final fixes for CR PR #157.",False
+ce09d4efa162a0192dfabc4060586774aba349df,2020-10-24 16:35:54,Michal,"Update README-pl-pl.md
+
+Initial fixes for CR PR #157.",False
+18f3dd3ad4cd4f8b1a9d61c2c2a33b6b2afb212b,2020-10-20 22:03:28,Denys Dovhan,Merge branch 'master' into master,True
+14e480d659ecc9c8a0bee5fc9c88a3307f488295,2020-10-20 22:02:46,Denys Dovhan,"Merge pull request #119 from libook/master
+
+ Add ""resolve() won't return Promise instance""",True
+b5c7b3231b4f20e3b731e9b78836cc512bacf2b9,2020-10-20 09:04:03,libook,Update information from MDN for 'resolve() won't return Promise instance',False
+324ff4aa8ba30c1b378f5dbe421502df0dd51394,2020-10-20 08:53:45,libook,Merge branch 'upstream' into master,True
+d3adfb3897ead3c14dedba05c800f734bb479bde,2020-10-19 21:02:41,Hidayt Rahman,Update README.md,False
+5a7c51fa1ba68a058bbdbd7c0063ac6767a508ac,2020-10-19 18:21:25,Denys Dovhan,"Merge pull request #122 from Archakov06/patch-1
+
+true() is not a function",True
+5842a26562b185e3b94a6c5bb863bd0438101cc1,2020-10-19 18:20:13,Denys Dovhan,"Merge pull request #114 from DCsunset/patch-1
+
+Fix output of `new f()`",True
+7bca2990bd56c9bab42c5eee815f1b758ce53a12,2020-10-19 16:43:44,Denys Dovhan,"Merge pull request #148 from denysdovhan/dependabot/npm_and_yarn/minimist-1.2.5
+
+Bump minimist from 1.2.0 to 1.2.5",True
+28dd6bc7e41c13b49e7d5b9f1b52cffc8483dd4a,2020-10-19 16:43:35,Denys Dovhan,"Merge pull request #129 from denysdovhan/dependabot/npm_and_yarn/mixin-deep-1.3.2
+
+Bump mixin-deep from 1.3.1 to 1.3.2",True
+5ea4a757054fd692cb3f10ca8521cc0187ad3df9,2020-10-19 16:43:25,Denys Dovhan,"Merge pull request #128 from denysdovhan/dependabot/npm_and_yarn/extend-3.0.2
+
+Bump extend from 3.0.1 to 3.0.2",True
+943d536090b3fb913ee15c913bbe369809507acd,2020-10-19 16:43:08,Denys Dovhan,"Merge pull request #127 from denysdovhan/dependabot/npm_and_yarn/js-yaml-3.13.1
+
+Bump js-yaml from 3.12.0 to 3.13.1",True
+54ee6714f8a33bf044c9a5ac6ada971ddd1fc32b,2020-10-19 16:42:37,Denys Dovhan,"Merge pull request #153 from hellotaotao/patch-1
+
+Update README-zh-cn.md",True
+9815740d4d1748d2739f02e73ea7f114c18b0c68,2020-10-19 16:41:41,Denys Dovhan,Merge branch 'master' into master,True
+f759ed62e56c4c66c75d907c614ffc3bdcfe98ba,2020-10-19 16:41:07,Denys Dovhan,"Merge pull request #161 from denysdovhan/dependabot/npm_and_yarn/lodash-4.17.19
+
+Bump lodash from 4.17.10 to 4.17.19",True
+f0bb411d8e60b12f946c03e6d36595a2f8b529b5,2020-10-19 16:38:27,Denys Dovhan,"Merge pull request #149 from jlozovei/translation/pt-br
+
+Brazilian Portuguese translation",True
+7fbfe5dcc7b757d1987db7c817d2ebf6a3c6b0c9,2020-07-16 14:34:49,dependabot[bot],"Bump lodash from 4.17.10 to 4.17.19
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.10 to 4.17.19.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.10...4.17.19)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+fa28e80d57b75f822ce4f11a5071f2b2c060fd1f,2020-06-13 06:04:41,Michal,"Update README-pl-pl.md
+
+Updated ToC",False
+e868a7c100e495b65ce2b72ceb724e15d8a9bb6d,2020-06-13 05:12:41,Michal,"Update README-pl-pl.md
+
+Updated with pl",False
+007de6f6ff68d04e24100e017880784bfcf2eca1,2020-06-13 04:54:50,Michal,"Update README-pl-pl.md
+
+Updated until 1515 l.",False
+843d5ddf10c05c70948b8b86cdedb372b348ea23,2020-06-13 04:09:22,Michal,"Update README-pl-pl.md
+
+Updated until 1040 l.",False
+de3072e7f3aa3d399e47111198f584f43774655a,2020-06-13 03:09:14,Michal,"Update README-pl-pl.md
+
+Updated until 651 l.",False
+45e06ef834ec46c94f25afb6e2f03abe877253b6,2020-06-13 02:40:04,Michal,"Update README-pl-pl.md
+
+Small fixes.",False
+64714cfb21172a3f21d00fe97d5af30789b353f9,2020-06-13 02:39:23,Michal,"Update README-pl-pl.md
+
+Updated until 393 l.",False
+8502eebe4b3ad4827d725a5dc1e9e22d69e3a450,2020-06-13 02:14:14,Michal,"Update README-pl-pl.md
+
+Updated until 179 l.",False
+4f2b23c96e2e4683d182b7ed955b379b0bdae7dc,2020-06-13 02:00:07,Michal,"Update README.md
+
+Added Polish.",False
+c0cac269d31bfbcc47c5a0fe28f10c94794b7dfc,2020-06-13 01:59:28,Michal,"Create README-pl-pl.md
+
+initial",False
+a15f68e710988579dc3e562eb2cec874034963b1,2020-05-20 14:04:07,Tao Wang,"Update README-zh-cn.md
+
+typo",False
+e6b3e864514a5ef066c4b6623b9353f0181ba9f7,2020-05-16 00:14:02,Julio Lozovei,Merge branch 'master' into translation/pt-br,True
+80d54beb6784317dbf5cca8780dbc9df9b2dd2fc,2020-05-06 16:11:38,Denys Dovhan,1.9.0,False
+0702ea425153186c4f7841f407334ca8564adbf4,2020-05-06 16:11:31,Denys Dovhan,Better formating,False
+1af6c6bc62ce0b930a8adfd5824dbbfa114508d3,2020-05-06 15:54:35,Denys Dovhan,"Merge pull request #133 from hexangel616/french-translation
+
+French translation",True
+b920b512e6ecbb0d56e65167d9c04ea7394819a3,2020-05-02 17:59:26,Emilie Gervais,"Merge pull request #2 from adriantombu/french-translation
+
+Fixes some typos",True
+376b8a9d46c83197ea1bee50a272b966952582fe,2020-05-02 16:04:58,Adrian Tombu,Fixes some typos,False
+dfa96b0f2c40d2c695a43e19916698d1ea526c9c,2020-05-01 20:35:34,Yoriiis,Revert formatting on specific code block to fit base example,False
+27457767995fd6139678efbd2e04905dc6becdb2,2020-05-01 20:35:34,Yoriiis,Run markdown format with npm script available,False
+7d2bd630d1194689db683bb3f8609f2ac6cc2e0a,2020-05-01 20:35:34,Yoriiis,Update french translation,False
+a813e38c53e50464f9bde0a27f2ff9f59a10a196,2020-05-01 20:35:34,Emilie Gervais,docs: add french translation link to Translations,False
+fed8c69cd88049ff0ece21a8a1c1ef5e69d2e458,2020-05-01 20:35:34,Emilie Gervais,docs: add french translation (README-fr-fr.md),False
+8252848998b61140a7940a755a0f3b11ab204c29,2020-05-01 20:35:34,Jason Cooke,docs: fix typo,False
+6852ee004a93b9985915c6d639d61415adc2ac30,2020-05-01 20:35:34,NN,"Fix typo
+
+defenitions => definitions",False
+c97b333027840331c5558251dd7e4fd8091894f7,2020-05-01 13:16:30,Hidayt Rahman,correct file name with hindi language,False
+3858d3d5c9f707417ecd3844fa8b8172c6234438,2020-05-01 13:14:11,Hidayt Rahman,added hindi language translation,False
+b6448c82ceb6ba4d4bda6de403b77bc01843cb89,2020-04-30 23:21:07,Denys Dovhan,"Merge pull request #151 from JamieREvans/patch-1
+
+Fixing typo",True
+5799e5d5d390401bc0db60aaec7b852691fc141d,2020-04-30 23:18:50,Denys Dovhan,"Merge pull request #150 from EmNudge/master
+
+updated explanation for why {} + [] differs from [] + {}",True
+6b6aa41366d17a627b6592637f1b568b60cfd28f,2020-04-30 23:17:47,Denys Dovhan,Make code blocks as js code blocks,False
+8961a4c38dababde2c9b8d99a8b46c487f33995a,2020-04-30 23:16:19,Denys Dovhan,Add new lines after code blocks,False
+0279173abd344f12937dca9a9b9d075333b4e956,2020-04-30 20:50:53,Thiago Almeida,"Corrected a few typos and changed 'sessão' (ammount of time, session) to 'seção' (division of something)",False
+0d3dcd9c0948cd121a51b8cc463080127709fefb,2020-04-29 22:17:18,jlozovei,"update translation w/ @cassiodias suggestions
+
+thanks buddy!",False
+dfdfb69447c788a50f294dd9588f50eac7476970,2020-04-29 01:04:29,Thiago Almeida,Finished translation review for PT-BR. Included 'Fixing typo #151' as well.,False
+382b51876559201e5935ce56a644f9c5ac2e244a,2020-04-28 21:01:46,Thiago Almeida,Translation review - part 1. Few typos and minor changes,False
+0b7fc35091e5f64dc6a5f608318e9076c461bd3e,2020-04-28 20:05:23,Jamie Evans,"Fixing typo
+
+A banged array is falsy, so comparing it to false should return true.",False
+02aeb7c0b1287b4643905e2146881795129624d3,2020-04-28 03:40:54,EmNudge,"updated explanation for why {} + [] differs from [] + {}
+
+It is not a case of concatenation, but rather `{}` being interpreted as a code block rather than an empty object.",False
+63cc5a683c69a8ff36815e96d06dd20251fd57c8,2020-04-28 02:40:01,Denys Dovhan,"Merge pull request #136 from simonmysun/patch-1
+
+Corrections, typo fixes, readability improvements and new contents to…",True
+d9be0d23af0547545a48a8cdbfda9f64a6c76534,2020-03-23 05:13:54,jlozovei,add english link to pt-br md file,False
+be54fbf1ea619e470244bcbbecb38889751f242d,2020-03-23 05:08:30,jlozovei,update readme translation list,False
+f726f6aa06a740c6eb27bed4cff5f12e9a208547,2020-03-23 05:08:21,jlozovei,add pt-br translation,False
+43e2acd40037f46982ce456cb9dfe9f7c42b3fbc,2020-03-14 03:28:33,dependabot[bot],"Bump minimist from 1.2.0 to 1.2.5
+
+Bumps [minimist](https://github.com/substack/minimist) from 1.2.0 to 1.2.5.
+- [Release notes](https://github.com/substack/minimist/releases)
+- [Commits](https://github.com/substack/minimist/compare/1.2.0...1.2.5)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+1acc41916867a6f84eed3786de2abd31590518ad,2020-01-09 21:43:10,孙茂胤,"Corrections, typo fixes, readability improvements and new contents to the Chinese version
+
+The document still remains little translationese.",False
+ad8bc52bd6c9e514dfd6972ef9983b98b98fd96e,2019-10-20 10:04:49,dependabot[bot],"Bump mixin-deep from 1.3.1 to 1.3.2
+
+Bumps [mixin-deep](https://github.com/jonschlinkert/mixin-deep) from 1.3.1 to 1.3.2.
+- [Release notes](https://github.com/jonschlinkert/mixin-deep/releases)
+- [Commits](https://github.com/jonschlinkert/mixin-deep/compare/1.3.1...1.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+6b0de4a18f44caf9b687c8551047d414804d062b,2019-10-20 10:04:48,dependabot[bot],"Bump extend from 3.0.1 to 3.0.2
+
+Bumps [extend](https://github.com/justmoon/node-extend) from 3.0.1 to 3.0.2.
+- [Release notes](https://github.com/justmoon/node-extend/releases)
+- [Changelog](https://github.com/justmoon/node-extend/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/justmoon/node-extend/compare/v3.0.1...v3.0.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+d5ac54a14faf782ff1d1fa5f341d6be054ea959e,2019-10-20 10:04:47,dependabot[bot],"Bump js-yaml from 3.12.0 to 3.13.1
+
+Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.12.0 to 3.13.1.
+- [Release notes](https://github.com/nodeca/js-yaml/releases)
+- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/nodeca/js-yaml/compare/3.12.0...3.13.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+a1f91ef7ff86dfab97ce9e9bd54d8299a54f9470,2019-08-04 13:29:24,Archakov Dennis,"true() is not a function
+
+incorrect demo",False
+e2e6be741ceacde4d2ded848d2cfaae53b3be94e,2019-08-02 09:13:27,libook,"Add Chinese translation for ""resolve() won't return Promise instance""",False
+5313596b7bec174b65b1c04f6205098f27023026,2019-08-02 08:41:08,libook,"Add ""resolve() won't return Promise instance""",False
+e58d8564340f34b1c550de5b2b17b77ce14a1568,2019-07-16 17:55:05,DCsunset,"Fix output of `new f()`
+
+`new f()` should also output the name of the function.",False
+0fc52f2d57f820a2aa87d6180775ed0c90691240,2019-07-09 15:35:37,Denys Dovhan,"Merge pull request #111 from Jason-Cooke/patch-1
+
+docs: fix typo",True
+b9e95f86bb9c9416e22dce2bfa94c90efd5834af,2019-06-29 10:06:03,Jason Cooke,docs: fix typo,False
+c52cfbaa86761fa2cba2948ff4e1cb025dc0fe91,2019-04-08 14:34:11,Denys Dovhan,"Merge pull request #110 from NN---/NN----patch-1
+
+Fix typo",True
+779a28200aaacb31cc45c9d106f0c81a10bd8137,2019-04-08 14:33:38,Denys Dovhan,"Merge pull request #108 from gnirob/patch-1
+
+Fix anchor of other resources",True
+7ec17dfbb5d6554b6de3e0f3cd23974a5bcd4124,2019-04-07 13:55:17,NN,"Fix typo
+
+defenitions => definitions",False
+e484f89337148089be62242f10014057c5218898,2019-03-18 13:15:30,Boring,Fix anchor of other resources,False
+f3496fd6b52d1dc772be1669c8d8f8cdf5f7ded4,2019-01-11 14:24:35,Denys Dovhan,"Merge pull request #100 from eddex/patch-1
+
+added result of baNaNa expression",True
+d35f9acc9958faba3c426a8c0418f4b0693fda5d,2019-01-08 12:43:51,Marco,added result of baNaNa expression,False
+965e5dd1dc024c79364a543b6823f7fdabcef1e9,2018-12-06 19:20:36,Denys Dovhan,"Merge pull request #98 from shenlvmeng/patch-1
+
+Fix some wrong translation in Chinese version",True
+b6b454ce6a08859d760276bdd15deacd68b21577,2018-12-06 09:21:05,shenlvmeng,"Fix some wrong translation in Chinese version
+
+- ""function is not a function"" / ""It's just a bug that has now been fixed"" => “这只是一个错误，现在它已被修复”
+- ""undefined and Number"" / ""According to the specification:"" => “根据规范”
+- ""Calling functions with backticks"" / ""This is the magic behind famous library called 💅 styled-components, which is popular in the React community. Link to the specification:"" => “这是💅 styled-components这个React社区很流行的库背后的秘密 规范的链接”
+- ""Object as a key of object's property"" / remove useless translation
+- ""arguments and arrow functions"" / remove useless original sentences",False
+0b3c72b10df479e457893300ade56ba08e29c700,2018-11-30 22:29:54,Denys Dovhan,"Merge pull request #97 from tripolitov/array-sort-default-behavior
+
+Add a WTF about default behavior of Array.sort() method.",True
+4e968066e8825e91538d5956cff872e30c477e28,2018-11-30 22:29:38,Denys Dovhan,Clean up Array.sort section,False
+11cc5ec72ad82b36ca9e3fc914940c5c7bba2614,2018-11-30 05:18:42,Mikhail Tripolitov,Add a WTF about default behavior of Array.sort() method.,False
+1db12fcb9e8c7d53c8394b22f3e195d1d5391f36,2018-11-22 15:29:35,Denys Dovhan,1.8.0,False
+6ad283bb4ea0dfcb0880286f538d70675fd97e3b,2018-11-22 15:28:01,Denys Dovhan,"Merge pull request #96 from shengis/chaining-assignments-on-object
+
+Chaining assignments on object",True
+d491abca1f58f707f06345f18730e44d20b1e33a,2018-11-21 22:53:58,Aurélien Rouëné,"fix ""chaining assignments on object""",False
+67633b50a42accaf10c9216a38506fa28cd0558f,2018-11-21 22:39:43,Aurélien Rouëné,"adding ""chaining assignments on object""",False
+7284abb20c7be752e1b2cfe6efa9d4aa60bbbdf9,2018-11-20 19:07:00,Denys Dovhan,"Merge pull request #94 from Neil188/Tricky-return-minor-fix
+
+Tricky Return - Remove semicolon",True
+5bafa79618af8c0910b1e32f1b95a21ada5ba356,2018-11-20 02:51:07,Neil Lupton,"Remove semicolon
+
+It's not Automatic Semicolon Insertion if the semicolon is already there :smile:",False
+8859d39ac0f2a45d07af2da33a65507ef1c8a15c,2018-08-27 17:32:01,Denys Dovhan,1.7.1,False
+368e6ccd939ab822dcec9e419c0165a7caec9be7,2018-08-27 17:31:53,Denys Dovhan,Fix npm version badge in Chinese version,False
+7508b72114fd6e1b25a9dfdc91ab06943eaa07e9,2018-08-27 17:28:42,Denys Dovhan,1.7.0,False
+5dcb953fff3883d9dbcd8292a6e2bc0088fa6b9b,2018-08-27 17:28:19,Denys Dovhan,Add stack of books as an icon for Other resources,False
+82de5e1f4a37b97b453308b5c0a6964237234543,2018-08-27 17:26:33,Denys Dovhan,"Add Prettier, lint-staged and husky",False
+ec2269b1acc01fbeeef76c495811fa3b31b255ba,2018-08-27 17:18:31,Denys Dovhan,Fix command name in binary,False
+fe4d5b4fcf13fa513135c877d4d03a95820820c8,2018-08-27 17:18:13,Denys Dovhan,Better translations section,False
+3b1634234ac418be68692780711c0bf53e83b72f,2018-08-27 17:12:37,Denys Dovhan,"Merge pull request #21 from river-lee/master
+
+Add Chinese translation",True
+6f4ec3325fe0af58bfa1b74323a7219dcc2fe696,2018-05-03 01:01:45,Denys Dovhan,1.6.0,False
+c7e7ab31705e3b42bbd9d439f017ea33588f8546,2018-05-03 00:57:24,Denys Dovhan,"Merge pull request #83 from codermarcos/master
+
+Adding 'Arrow functions cant't be a constructor'",True
+6d4ee8628aeb62439be98d8451cfb0c74249a974,2018-05-02 20:45:17,codermarcos,adding 'Arrow functions cant't be a constructor',False
+783d8ce330730052fea4810a325e5b2ea535ad8d,2018-04-20 16:59:49,Denys Dovhan,"Merge pull request #82 from sudheesh001/ParseIntFloats
+
+Add explanation for parseInt of floating point values",True
+bc80e3425cfce2ffc6b8499e58e69ba94a4f89c2,2018-04-19 09:39:45,Sudheesh Singanamalla,Add explanation for parseInt of floating point values,False
+c72f0a19180c488ec0065d02f40056350d6715e1,2018-03-20 16:32:16,Denys Dovhan,1.5.0,False
+7e170cc77285a499b6e00e33703c00a0e23764ed,2018-03-20 16:30:55,Denys Dovhan,"Merge pull request #80 from mcmonkey4eva/master
+
+Correct explanation for the toFixed oddities.",True
+6441ab0c1728378f0410975b9a4f3fb46004cdda,2018-03-20 16:26:45,Denys Dovhan,"Merge pull request #81 from NN---/patch-2
+
+var a,a,a;",True
+52500390ab49f52a57251f5fd39ba97c76db3597,2018-03-20 00:21:25,NN,"var a,a,a;",False
+c4f54e236040d627bc8853566f020639231aeb7f,2018-03-09 12:08:58,mcmonkey4eva,Correct explanation for the toFixed oddities.,False
+40ce068692e53e1a76ec21b90b9b3d8863c6438d,2018-01-15 15:21:37,Denys Dovhan,1.4.0,False
+33bba45573f3a1293814efaf742ee531e7888ad1,2018-01-15 15:20:12,Denys Dovhan,"Merge pull request #44 from vermuz/math-min-max
+
+Math min max",True
+6cc2b989b0138beb5ad276d6d44c7e7e7b29a9c6,2018-01-15 15:19:42,Denys Dovhan,Update TOC,False
+ce55579aca00166c78a51cf9a751fe5a3f973cdd,2018-01-15 15:18:34,Denys Dovhan,Fix heading for Math.min & Math.max,False
+af195a3d0fa3a600d0e0c140406e3a1117aef068,2018-01-15 15:15:37,Denys Dovhan,Remove blank line when it's not needed,False
+d2c746384d1a9792bfd11fd0e1322f58ac376591,2018-01-15 15:14:38,Denys Dovhan,Add missing blank line,False
+c99a9b240423c57b840051231348be4280fc43c5,2018-01-15 15:13:36,Denys Dovhan,Merge branch 'master' into math-min-max,True
+b30a16b2dbb28644409b3bbd2932189f1610e04e,2017-11-24 12:38:12,abel,update anchor,False
+f12887e53a09a567db02a6c5fc6f1591e5d7a851,2017-11-24 12:31:14,abel,Update more,False
+4aa7a6e082a7c1d39de1abb5aa6ea7e6d572c26a,2017-11-22 08:21:42,abel,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+b652dd578efb73bafd52c5b50f5873d452443013,2017-11-22 01:37:11,Denys Dovhan,"Merge pull request #75 from Geo1088/master
+
+New section about comparing 0 and null",True
+9672dd2acd7713efee8c9b2c27026be15e895582,2017-11-21 00:09:00,George,"Regenerate package-lock.json apparently
+
+idk npm told me to",False
+a4ba3b8089e396cfcf550d077f3dfef6f619d0e2,2017-11-21 00:08:43,George,Regenerate TOC,False
+feb06ae9a5956fb8af7e7075ff5757915fe2b211,2017-11-21 00:02:15,George,New section about comparing 0 and null (fixes #43),False
+bd3b941f67b585d47d330f2fb5613680b54b9a45,2017-11-20 17:03:32,Denys Dovhan,1.3.2,False
+49c3977870d04b0e06ea2cd6f2d96e7ceba45ef8,2017-11-20 17:02:06,Denys Dovhan,"Merge pull request #74 from Geo1088/patch-1
+
+Better explanation for [] is equal ![]",True
+705fd1fa189363d7682aa6d21320c50b621adad0,2017-11-13 18:11:19,George,Add link to related wtf,False
+ec033a106556a8b02fd6933f168117e67f35a1eb,2017-11-12 22:37:25,George,Better explanation for `[] == ![]`,False
+17fcf15d157178441d7830625f9aec59be663ea9,2017-10-30 18:23:51,Denys Dovhan,1.3.1,False
+7501e89e9049fcb3ff388c8aa459f5af0c67d9bb,2017-10-30 18:22:40,Denys Dovhan,"Merge pull request #73 from shlomif/correct-typos
+
+Correct some of the grammar.",True
+d0cc4cb50d7b85fd24e461abd950d3208e8a5d11,2017-10-25 21:51:40,Shlomi Fish,"More corrections.
+
+Some were to the previous commit.",False
+bec9d9da58f563b45186cf3292c9e177f0283c58,2017-10-25 21:46:33,Shlomi Fish,"Correct some of the grammar.
+
+I found one problem with ""it's"" vs. ""its"" and grepped for other ""it's""es
+and found other problems, which I also corrected.",False
+947804744e7e7cc067b9c45dc07ad01340ff736f,2017-10-25 21:24:16,Denys Dovhan,"Merge pull request #72 from squatto/fix-typos
+
+Fix typos, grammar, etc.",True
+f7ee897126aed1e74a2d675e3f108b48ccddbd4e,2017-10-24 01:38:26,Scott Carpenter,"Fix typos, grammar, etc.",False
+29747d32fb82843ef6a9c603a8a89e14ef78b65e,2017-10-18 16:33:51,Denys Dovhan,"Merge pull request #71 from varbrad/patch-1
+
+Addition to `Tricky Arrow Functions`",True
+4aa6d332be24e8bf4e784ce1b9154814e0404584,2017-10-09 01:23:27,Brad Davies,Fix comment return style,False
+3bde090282408029795e0b244a6a302be9f6a2f3,2017-10-09 01:21:04,Brad Davies,"Addition to `Tricky Arrow Functions`
+
+Add a small footnote as to how an arrow function can indeed return an object directly.",False
+694dbe3a850f1e370d936489077a560fa17dc76c,2017-09-18 21:06:47,Denys Dovhan,"Merge pull request #69 from kmkr/master
+
+Improve two sentences in array equality",True
+ec4be5b50e5af23105a4e7146612c75d5e884517,2017-09-18 16:31:54,Kris-Mikael Krister,Improve two sentences in array equality,False
+c2b38a183a6c13c8ceb44eb1e55238d17875e95c,2017-09-13 14:54:01,Denys Dovhan,"Merge pull request #67 from Geo1088/master
+
+Add ASE explanation to ""Tricky Return""",True
+f7dd364071b4b0d0ff6e238aed36aaea50c8fb14,2017-09-09 22:24:28,George,"Expand explanation for ""Tricky Return"" (fixes #47)",False
+b845529fe930e4cbf270186d0d93f5be08a0ebff,2017-09-06 14:29:07,Denys Dovhan,"Merge pull request #65 from sdjkjkjjk/master
+
+the last section 'Number.toFixed() display different numbers',is not a good link.",True
+bda9793e591eaa959fa5befe8fe1d89deb95a366,2017-09-06 13:29:01,erstens,Update README.md,False
+f4adf70eba21709be4558c4d9e5816dea69a1387,2017-09-06 13:28:28,erstens,Update README.md,False
+d6535ae7efe611f320c4fdce20c09dfbbb40ad78,2017-09-06 03:34:46,Denys Dovhan,1.3.0,False
+87d11c8f3b3bb3dc699b7367ade2575c9ae828cc,2017-09-06 03:34:07,Denys Dovhan,"Merge pull request #62 from sdjkjkjjk/master
+
+Number.toFixed() function",True
+628fbcbf554a98c572712dc7fe274f60d35e3291,2017-09-06 03:33:29,Denys Dovhan,Merge branch 'master' into master,True
+7d117409fd98319cdac9b7ad3cc5f23a9c0cb8b1,2017-09-06 03:23:47,Denys Dovhan,"Merge pull request #64 from abinavseelan/task/add-null-relational-wtf
+
+Add null >= 0 wtf",True
+b17cb8bd9942358fb667719f3000d0d85069a207,2017-09-06 03:23:25,Denys Dovhan,Rewording explanation for null and >=,False
+4b32aba1be67f15859125bd210361c49a904309a,2017-09-05 12:24:39,Abinav Seelan,Add null >= 0 wtf,False
+ce97a75749d02901095dbfdd5580276c7022c8f0,2017-08-30 14:09:00,erstens,"Update README.md
+
+fix 'numbertofixed-display-different-num' link",False
+1da0f4c4a9b261f9976a981463c59fd47f279f50,2017-08-30 14:04:51,erstens,"Update README.md
+
+I encountered in the work of this problem, I believe that also meet the conditions you included it",False
+c946a1d59040ebfb6efa07f52b501bf602cf2380,2017-08-29 01:02:38,Denys Dovhan,1.2.0,False
+ab9b56d2c5ad3d01640cf4017cbdaf594c21c11c,2017-08-28 23:21:34,Denys Dovhan,Add Unary + reference to the baNaNa section. Close #46,False
+7360f2a6e47f9b38ad48b9fb529b0874bacf1c0e,2017-08-25 04:42:00,vermuz,pull from upstream,False
+1dbbd4a8894a5095b04733b30fd832942310ef7e,2017-08-25 04:40:15,vermuz,Merge branch 'master' of https://github.com/denysdovhan/wtfjs into math-min-max,True
+167af374df60d0706c3b39f8df45f1fba463fe2c,2017-08-24 03:43:05,Denys Dovhan,"Merge pull request #56 from dej611/document.all
+
+Proposed new section on document.all",True
+ecfb0468471d83a91f823b4cf36700057f63c1ca,2017-08-24 03:42:01,Denys Dovhan,Add note about document.all as browser API,False
+e403af9110cdf39ada39011927edf457cacc01bf,2017-08-24 03:38:32,Denys Dovhan,"Merge pull request #57 from dej611/arrow-function-arguments
+
+Proposed new section on the arguments object and arrow functions",True
+da3b95624ae511a823884afc07ed713b1d834b04,2017-08-24 03:37:57,Denys Dovhan,Fix returend value in arguments and =>,False
+88dcdc79a329928bb0da3c6e2144e5a5d5920c23,2017-08-24 03:30:45,Lexis,updated spec link at minimal value is greater than zero (#59),False
+2a70f01bfc28e643a508b7924872d47e82e35a44,2017-08-23 22:12:19,Lexis,corrected true statement and added additional explanation (#60),False
+84f03d3865ceaa2da2b574a9892c61e5c48a6c0a,2017-08-20 20:53:41,dej611,Add entry in the TOC,False
+21c2b0167a6b4e78491011fecd23111a25e5ba54,2017-08-20 20:51:20,dej611,Add arguments example for arrow functions,False
+2bfb25ee547a19529d07d0cafc02e67ee34a4490,2017-08-20 20:35:23,dej611,Proposed new section on document.all,False
+8867b3d9f9453351f6beb3673fdfb17bbbe83e81,2017-08-20 12:13:37,vermuz,Merge branch 'master' of https://github.com/denysdovhan/wtfjs into math-min-max,True
+2422068e3081278c9ea36894014e898e511e3103,2017-08-19 15:25:15,beastlike,"typo - changed construnctor to constructor (#53)
+
+typo - changed construnctor to constructor",False
+95d3eb64f30c6e17de31f1f476e90c67701367ce,2017-08-19 15:23:15,Sebastián González Chaves,changed wikipedia mobile links (#50),False
+8197b06bf34fe2d9ad646ad3ce0285223c8d25c0,2017-08-19 15:22:09,Flavio Corpa,Add link to spec for Array spread operator 📝 (#45),False
+2b4a2e2739b9731214b8f14d246e25fcbdabb6ca,2017-08-19 15:21:19,Cool4ZBL,Fix typo - comas -> commas (#54),False
+eabda0661dd3255bfa52baa210b3dc9b12e82177,2017-08-11 19:52:35,Denys Dovhan,"Merge pull request #48 from aslafy-z/delete-extra-tick
+
+Delete extra tick",True
+f7a55a4127aa3883bb0a2ce04b98cb4d0beda385,2017-08-11 03:31:54,Zadkiel,Delete extra tick,False
+ed36e09e523a920ba637f2ec392907b181a34158,2017-08-10 11:03:55,vermuz,[math-min-max] regenerate README,False
+c2a1d3a615a281ceab35ce67cf0c4e2b1a0a3379,2017-08-09 22:19:17,Mani Ali,[math-min-max] run doctoc,False
+ff7e1d7bc4e96dc6ada1646ed375696b1e478e8e,2017-08-09 22:08:53,Mani Ali,[math-min-max] Add example for a funny example,False
+4c42f77c4b3bcfb7b3ff965bc43a346eecfc3e2f,2017-08-09 09:36:16,abel,The current version has been translated,False
+588876f2b8ea398ecb2f6eacfa59ae6005b67f27,2017-08-09 07:51:54,abel,update upstream,True
+ea06f428641d862a15d1809d280302d5e924a733,2017-08-08 19:47:14,Denys Dovhan,1.1.0,False
+44a2647d76d799118a89cd298f9364f6de67e4b3,2017-08-08 19:46:14,Denys Dovhan,Add 'Array equality is a monster' by @futurist. Close #37,False
+2d7009bb82a421251e37e081bcfbf773ab0192c8,2017-08-08 19:34:40,Denys Dovhan,Add 'Trailing commas in array' by @aemkei. Close #29,False
+34b3fd0f4ddb1eebe8b03a3e2a787d413a2d5786,2017-08-08 19:20:23,Denys Dovhan,Add missing ?. Close #24,False
+cc35f6c0995c501d315588503d24a8d8c17148ca,2017-08-08 19:15:16,Denys Dovhan,Add other resources. Close #15,False
+f0f3e891169b96726a30c1db78f1054d6f9d5517,2017-08-08 19:07:17,Denys Dovhan,Improve example. Close #11,False
+fd3f1d17633332bbc5a8c71f63ce480f3f5d0f59,2017-08-08 19:04:45,Denys Dovhan,"About parseInt, toString and valueOf.  Close #10",False
+59e5e10375423b2ed9c8f2a7d1c22ee3f018ebf5,2017-08-08 19:02:54,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+9a55c04cc723f7d5c54fc8e38d5541f719d5d33d,2017-08-08 19:02:49,Denys Dovhan,Update TOC,False
+3f91c213610b811ebb800eeb9015ec97ff47f822,2017-08-08 18:58:09,Denys Dovhan,"Merge pull request #40 from MapleGu/patch-1
+
+ECMAScript 5 specifies that 10 (decimal) is used",True
+d94bbe9d1c1e67ace55e3f266cf978f3da945b28,2017-08-08 18:57:45,Denys Dovhan,Remove spaces,False
+942ea5d66a62592b1c897c542267ac777a81570f,2017-08-08 18:55:33,Denys Dovhan,Merge branch 'namirsab-patch-1',True
+dffd6d98c3291866f619e95e59ba5433f6afe856,2017-08-08 18:55:21,Denys Dovhan,Resolve merge conflict,True
+ae1e59f22e70814ae84e817080e06def754b8798,2017-08-08 18:51:47,Denys Dovhan,Merge branch 'bougarfaoui-tricky_function',True
+692e7b46e17b5a3ad8dfa40ea7de1be749b8b245,2017-08-08 18:51:34,Denys Dovhan,Update styling,False
+87295e2bbe47114ae9b9348bd3f59c5b06a0f165,2017-08-08 18:46:05,Denys Dovhan,Merge branch 'tricky_function' of https://github.com/bougarfaoui/wtfjs into bougarfaoui-tricky_function,True
+aab4db908af40fcfaf004be8c8b29624be5bf186,2017-08-08 18:44:27,Denys Dovhan,"Merge pull request #36 from pero5ar/master
+
+English Language Corrections",True
+0ada82a85f4717f3a811b88783aa57b3cc1a70f0,2017-08-08 18:44:18,Denys Dovhan,Merge branch 'master' into master,True
+056f81241bce1dee5de3880ee8a7ee893c125ce5,2017-08-08 18:41:54,Denys Dovhan,"Merge pull request #32 from mars/patch-1
+
+Remove references to using these as interview questions.",True
+0c042ec449638ad560e8704f96bf81a6a3290e40,2017-08-08 15:58:09,MapleUncle,"the input string begins with ""0""",False
+2f8d51bf902ba3902b14565676ed858f54f18802,2017-08-08 15:56:25,MapleUncle,"the input string begins with ""0""",False
+bc94e349173578282506218b1020d59ff5be6ce3,2017-08-08 15:42:49,MapleUncle,ECMAScript 5 specifies that 10 (decimal) is used,False
+32b7297ee247c6a804f209e6efed135a74ede374,2017-08-08 14:59:18,Namir,"Add ""accessing-object-properites-with-arrays"" section
+
+Add ""accessing-object-properites-with-arrays"" section",False
+9a60aeee67b30ab145c36b46ea8a8ecf12706a5c,2017-08-07 21:52:57,Denys Dovhan,1.0.0,False
+bda2375b8be052a6311a3dce0ecd43bf9de8f12d,2017-08-07 21:51:27,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+3019ca49bb6a30d5a0119059d70a6ec65f1c2b60,2017-08-07 21:51:20,Denys Dovhan,Add baNaNa,False
+712eee443816349ce900f8e1ac47c7748f297d6a,2017-08-07 21:47:41,Denys Dovhan,Add CLI,False
+1ea1bc4f851550872b34cc4e7e39ad554684c071,2017-08-07 21:47:28,Denys Dovhan,Add CLI,False
+fcaf0ce97310702584b6eabc92ed5a947c082e38,2017-08-07 21:25:33,Bougarfaoui El houcine,tricky arrow function & return,False
+9588521f5d0d64eea181c392811d8887d5c01ab1,2017-08-07 20:52:11,Denys Dovhan,Add .gitignore,False
+0e31e9ffc6d897b2f61016c7cf2964836e18b565,2017-08-07 20:52:02,Denys Dovhan,Add .editorconfig,False
+a7624935e5408b26bc83db606ec1e3129fd80ea8,2017-08-05 21:17:47,Petar Kovačević,edit from line 560,False
+6049184c2245b26e08ec0238aae014c159bbe607,2017-08-05 20:44:34,Petar Kovačević,edit from line 260 to 560,False
+be5dcc62ec2f6c1a5065e67a57f79f0ab00d137d,2017-08-05 20:07:36,Petar Kovačević,fix error in previous commit,False
+5d14c525c7a8cd1ea4f031b3cc3e9d4880a7f3da,2017-08-05 19:55:54,pero5ar,resolve conflicts with source,True
+b262bdb3645226c7273a277e5f2c772ec60801b5,2017-08-05 19:45:10,Petar Kovačević,edit from line 75 to 260,False
+71fef9cc941e8317baa3c1c549bd2e4100434080,2017-08-05 19:26:21,Petar Kovačević,edit intro and motivation - second pass,False
+2b6a835a4a9620e0d118ba83a56c753d8d61b26b,2017-08-05 00:06:28,Denys Dovhan,"Merge pull request #31 from yuezk/patch-1
+
+Update adding arrays explanation",True
+ca32c2d3b2e1af47add6db0946a4e10434879e6f,2017-08-04 23:45:10,Mars Hall,Remove references to using these as interview questions.,False
+afe4838efe73435bb45c4b2b0eaf972557d2d2f1,2017-08-04 13:01:00,Kevin Yue,"Update adding arrays explanation
+
+I think when adding two arrays, its `toString` method is called first, and then `toString` calls `join`. As when we adding two objects, it prints `[object Object][object Object]`.",False
+03324e45fa51b7ab2ab6d0c3ca71ea994f376e79,2017-08-03 08:07:17,abel,Remove reference，setp by step,False
+aa78420ce8a7c5899767794b7f641b2834edc046,2017-08-03 07:58:25,abel,add list,False
+d5119596691365edce0a6cb1bb54f0059c18fbb3,2017-08-03 07:55:25,abel,corrected typos,False
+32fd9b593c18838f1c1812da23ce4242fb71e864,2017-08-03 04:09:03,Denys Dovhan,"Merge pull request #26 from mperreux/patch-1
+
+correct typo",True
+f56fd249dbed515078cab025d5da79a89a892213,2017-08-03 01:03:09,Michael Perreux,correct typo,False
+7545a2c14ef0b2ef61dc67fb9fe43cef6e64846f,2017-08-02 21:46:56,abel,"add false is equal array , false is equal not array too;",False
+a30421504f053cd16883be805ecca595e99fb96d,2017-08-02 21:09:10,abel,Update some,False
+89dc519ff7556469649c9df40a80ee06308be4f7,2017-08-02 21:03:50,abel,Link address error,False
+3989bc963350aead8253453e5a297fbceea737a7,2017-08-02 21:02:47,abel,correction,False
+4b8116be13335f18be15c93ab31dafafdffd59b6,2017-08-02 20:14:58,Denys Dovhan,"Merge pull request #22 from crowchirp/patch-1
+
+corrected typos",True
+a8becd70375d7a9c20107aef904d65010917bdeb,2017-08-01 21:35:56,Chandan Rai,corrected typos,False
+53f174c23c6aa84aa3b4e371332fc5d72e338c37,2017-08-01 19:20:43,abel,add tips,False
+78c8e092756e4f2c4adc3a1bfe024ef0cbf995c5,2017-08-01 19:11:04,abel,deno,False
+5558159e93efdcaadb2c79eb2d05ad753ef7253d,2017-08-01 19:09:32,Petar Kovačević,edit intro and motivation,False
+4880e3d435bb27a35c95213415d8376845c29190,2017-08-01 18:23:53,Denys Dovhan,"Merge pull request #9 from Geo1088/master
+
+Computed prop name example: Add link to object initializer spec",True
+401b36f27af8198b70ba28703008d11f0a1bfd13,2017-08-01 18:22:33,Denys Dovhan,"Merge pull request #14 from Chalarangelo/patch-1
+
+Fix typo",True
+4d4e4d47d38c1f352f333509ec1b886963040696,2017-08-01 18:21:31,Denys Dovhan,"Merge pull request #16 from Ginden/patch-1
+
+Primitive types are never wrapper instances",True
+02c6063b00e7e8afe063a68758a229b2edbbf35e,2017-08-01 18:20:06,Denys Dovhan,"Merge pull request #17 from chrisbujok/patch-1
+
+Fix misspelling and typos",True
+ac6d0869e8067826a9e92a9529263d3881851706,2017-08-01 18:18:12,Denys Dovhan,"Merge pull request #13 from GantMan/patch-1
+
+Clarify sneaky `i` in one section.",True
+b492c806a7560c9afd9f8e82012f4b3c2e8e76ff,2017-08-01 18:16:49,Denys Dovhan,"Merge pull request #18 from Kwpolska/patch-1
+
+Expand “Magically increasing numbers” and 0.1+0.2",True
+36f3940301e6df88ace6a945cb999ebfbff3f3a1,2017-08-01 18:16:31,Denys Dovhan,Align returned values,False
+6ecd5759ae28faa833288806206bf6e3a3569ec3,2017-08-01 18:14:35,Denys Dovhan,"Merge pull request #20 from BirkhoffLee/patch-1
+
+Fix typo",True
+55ee83f105d450de8e0e5c0ef1b174634c575cb5,2017-08-01 17:40:59,Birkhoff Lee,"Fix typo
+
+Should be ""f*ck"" instead of ""fuck""",False
+cb347447b384ce52dd5f1e6da1c137948eabc3d1,2017-08-01 17:13:59,abel,Translate part of the content,False
+ce9f80c440e515db34f083761b0ac04962fc68c3,2017-08-01 15:29:44,Chris Warrick,Expand “Magically increasing numbers” and 0.1+0.2,False
+f25c874c23ba80c766647d84ac4f65d06827cb26,2017-08-01 15:22:46,Chris Bujok,Fix typos,False
+7663cc33cae30d63f3e1f1c90bf8f1a579bb43eb,2017-08-01 15:06:26,Michał Wadas,Primitive types are never wrapper instances,False
+23afec6b4037616750f30bfee6a563ae2c4e95d2,2017-08-01 11:50:23,Angelos Chalaris,"Fix typo
+
+Just fixed a minor typo I saw.",False
+1ce2fddd0f6cab65c09c3807544b23c7e0e9068e,2017-08-01 08:53:21,Gant Laborde,Clarify sneaky `i` in one section.,False
+cae1bbce294597afb93fb2fec4266408ff5f659b,2017-08-01 02:54:55,George,"Add link to object initializer spec; correct typo
+
+More clarification may be needed here",False
+c0977d3e2d222a8c2c9f16312716a688f56326be,2017-07-31 19:49:46,Denys Dovhan,"Merge pull request #8 from DouglasLivingstone/patch-1
+
+Extend explanation for why `NaN` is not a `NaN`",True
+29209021b428df4739a3f6c4d1abde47151a6f98,2017-07-31 19:37:03,Douglas Livingstone,Extend explanation for why `NaN` is not a `NaN`,False
+0dda390cf41be8cfd741ccfe4cb6d45a1ee0c5cb,2017-07-31 17:49:02,Denys Dovhan,"Merge pull request #5 from SebCorbin/patch-1
+
+Typos in chapter title",True
+dfdc8baf0c56122f3afc81eca2df85a5dfd23db1,2017-07-31 17:32:54,Sébastien Corbin,Uh again,False
+070e18bc66f2d6d18c471cac11d4557f1f8e035d,2017-07-31 17:30:33,Sébastien Corbin,s/there/three in title,False
+2e3b0f38e9b1294d8de635f7da902cb0a8d08d3c,2017-07-30 19:06:00,Denys Dovhan,More examples,False
+30aeb9d06e4925ff75cc622661646d1f1acccb5f,2017-07-30 18:28:02,Denys Dovhan,Add 'Adding arrays',False
+ee0147a23ac5ef29cad138a467a3898cdb03f90b,2017-07-30 18:23:11,Denys Dovhan,Update TOC,False
+d110045f9155cc89f880a8c828a2f57f7865b3ce,2017-07-30 18:20:18,Denys Dovhan,Drop precommit hook,False
+e16ad24cda89dafc72a28bb2a87af9579acedd42,2017-07-30 18:19:49,Denys Dovhan,Add 'call call call',False
+1e005eff9f6d38722dea5093db124b8ab9bd39ac,2017-07-30 18:19:35,Denys Dovhan,Add 'Addition of RegExps',False
+d06ab1f5e85b5a6361f9fe98be6a73c57b97f37a,2017-07-30 18:19:18,Denys Dovhan,Add 'Minimal value is greater than zero',False
+30ea1ead1c87e04fdfc4319bc59acc03604aa322,2017-07-30 18:19:04,Denys Dovhan,Add 'NaN is not NaN',False
+96675ecd12c0434cb07006796a92b04318ffeeba,2017-07-30 18:18:40,Denys Dovhan,Add link to WTFJS talk,False
+0ca483b0a2bdfc34ab3733641b31e2607165a386,2017-07-30 18:18:25,Denys Dovhan,CC-BY-4.0 -> WTFPL-2.0,False
+b25c293c5f31d30e498fdf82615a792a2e3d9dce,2017-07-30 16:58:04,Denys Dovhan,Add 'fooNaN',False
+58860855b41af086e49111de616fe07242e57a77,2017-07-30 16:44:16,Denys Dovhan,Add 'Non-coercible objects',False
+5a12754a5af0789a29bb3d71686b28c6f444ca21,2017-07-30 16:32:51,Denys Dovhan,Add 'Is this multiple inheritance?',False
+e27646e8d9dd7ab93fa4cd31e050389e32202470,2017-07-30 16:19:25,Denys Dovhan,Some fixes,False
+a1ad9284e4757f9a6235f4c69cc81883ecf8fac8,2017-07-29 23:08:24,Denys Dovhan,Add comments to Notations,False
+e7d7c05f4f53a8ccad211e5c7b88b7270e62d74e,2017-07-29 23:00:55,Denys Dovhan,Add emojis,False
+3a2f03b65bec33e999b041ef63f51f4c1c6a984d,2017-07-29 22:57:02,Denys Dovhan,Add 'function is not a function',False
+2729f093c447bf626bfa68242da6304841d27f7d,2017-07-29 18:22:54,Denys Dovhan,Add classes example,False
+abc134dae0b71ccf6fb7adcc414187b2f86cd525,2017-07-29 18:06:31,Denys Dovhan,Add an example with generator,False
+9154e7ad7a01eb16eaded9459a1e0909e3f2d198,2017-07-29 17:37:42,Denys Dovhan,Name Examples section,False
+c9ebfff14929d75f5ab562d65844a25fcddb28fe,2017-07-29 17:34:23,Denys Dovhan,Add precommit hook for TOC,False
+7b11601c6ebf46aff370f68b46ec3117b385ae12,2017-07-29 17:22:16,Denys Dovhan,Add doctoc for generating TOC,False
+cad1751b1ff8777ed71b2022d986a0dbffa4cf3f,2017-07-29 02:24:24,Denys Dovhan,Merge branch 'master' of github.com:denysdovhan/wtfjs,True
+e5c758dfbc50340d4f24998313a2baa15b0d08d4,2017-07-29 02:24:18,Denys Dovhan,WIP: More explanations for other sections,False
+8748fdcb6f4205e662c76edb8cd2a55af797cd31,2017-07-29 02:02:25,Denys Dovhan,"Merge pull request #3 from anxolerd/patch-1
+
+Fix typo: lenght -> length",True
+00e1320eba8f223efbca1bf75dd0d1ba8ff8a1eb,2017-07-28 22:55:38,Oleksandr Kovalchuk,Fix typo: lenght -> length,False
+0bf1110c0c772f1d2a636a9b17a69d357622fe74,2017-07-28 20:16:35,Denys Dovhan,WIP: More explanations for other sections,False
+6aec0412af08f59a2e423e44bca4e760712158eb,2017-07-28 20:16:13,Denys Dovhan,Resolve merge conflict with @sapegin's PRs,False
+4ff18368b4a8f6fab16dd4b8d176769d2d730112,2017-07-28 19:45:10,Denys Dovhan,More explanations,False
+e8cea8cbceafef4c464539a4ee1f8b520a6d42bd,2017-07-28 18:48:21,Denys Dovhan,Add explanation to number sections,False
+538309d615fa9269d4f85f626ddd58cb19d6d4a3,2017-07-28 18:13:40,Denys Dovhan,Add explanation to '[] and null are objects',False
+04d80d7a122e77163d4e06aaba208a14052cdee4,2017-07-28 17:54:16,Denys Dovhan,Improvements by @iamakulov suggestions,False
+2f9a5d31c670371caa15d650dbfc19ceed03f49b,2017-07-28 17:50:22,Denys Dovhan,Add explanation to 'HTML comments are valid in JavaScript',False
+75750ecc533db724d70acd2012d63d85a02fa14e,2017-07-28 16:58:59,Denys Dovhan,Add explanation to 'Math with true and false',False
+ffb3da807d99f4bad45686d8477b6c59753826cd,2017-07-28 16:47:09,Denys Dovhan,Add explanation to 'undefined and Number',False
+189f90c79046394f63fbc1fc73acbef666590296,2017-07-28 16:38:15,Denys Dovhan,WIP: More fixes,False
+f614abe44dc337145e20acf6aefc48a1d8cc5321,2017-07-28 15:49:51,Denys Dovhan,Better formatting,False
+45330cefd97e9aab64655ff33cea254a8b2d4c79,2017-07-28 15:43:45,Denys Dovhan,Add more examples,False
+f20173adf324af6915327acdb0acfeab7bd8cd99,2017-07-12 23:23:16,Denys Dovhan,Initial commit,False

@@ -1,0 +1,1857 @@
+Hash,Date,Author,Message,IsMerge
+541295c0e6dd348db2d3f52772b59cd403c59d29,2025-03-09 18:57:00,Andrey Sitnik,Release 10.4.21 version,False
+8d555f7e5e665d6a70e1d08db6e0bc9c4262db66,2025-03-09 18:55:39,Andrey Sitnik,Update dependencies and sort imports,False
+5c2421e82af45ee085d0806110fcef66bbebe59b,2025-03-09 18:52:51,Andrey Sitnik,Update Node.js and pnpm on CI,False
+af9cb5f365f66bf5169f1f42e08036651453b1a6,2025-03-09 18:50:54,マルコメ,"fix: replace `:-moz-placeholder-shown` with `:-moz-placeholder` (#1532)
+
+* fix: add blocker `-moz` prefix for `:placeholder-shown`
+
+* docs: add `:-moz-placeholder`",False
+dae6eb465da5640bb03ecda8b6d6b73e9ba26429,2024-08-03 02:40:57,Andrey Sitnik,Release 10.4.20 version,False
+ee43652953044be536fbec3b79c15e28798f49fc,2024-08-03 02:38:39,Andrey Sitnik,Fix fit-content for Firefox,False
+cf808243ce6eef1087ddedfd0e1bfca3af6db9c8,2024-08-03 02:28:28,Andrey Sitnik,Update dependencies,False
+49d5ec656a38188f05c69d621242512891b61c68,2024-08-03 02:26:57,Andrey Sitnik,Move to pnpm 9,False
+8060e33a78f39759f32781dd3518dae90740dc38,2024-03-21 04:32:26,Andrey Sitnik,Release 10.4.19 version,False
+fe7bae45970d38eee86c4d26e5f19fa100df3039,2024-03-21 04:30:59,Andrey Sitnik,Remove end→flex-end warning,False
+5f6f362a1ebca975777ffcb0dc14b1ea5fb04def,2024-03-21 04:29:18,Andrey Sitnik,Update dependencies,False
+13a86df5abf9cf66d298ff75df3faa9f4d0eb07c,2024-03-19 22:32:44,Andrey Sitnik,Move to flat ESLint config,False
+b3e0579452b6ce164c26ecb4999e6f99fff5563c,2024-03-19 22:30:38,Andrey Sitnik,Update dependencies,False
+90dc18d7201608ccf1a02aba476feec28f60257e,2024-03-01 21:56:26,Andrey Sitnik,Release 10.4.18 version,False
+0af1be8a7453d28701f99cfdeefe026548c690cf,2024-03-01 21:55:20,Andrey Sitnik,Update dependencies,False
+1efe165b9511049b72f4abdb537cf9494889e48e,2024-03-01 21:54:13,Andrey Sitnik,Update c8 config,False
+80ff109c02e9ab40e4f8de57584309372f90ec5a,2024-03-01 21:53:17,Andrey Sitnik,Add Node.js 21 to CI,False
+5e5d1935b81c41a5f9bbcc1b63377e32b8c6de59,2024-03-01 21:53:01,Andrey Sitnik,Automate release creation,False
+e72c36a761b07b8083c2d746f200e7d2e7fc7e47,2024-03-01 21:52:52,Andrey Sitnik,Update actions,False
+ec68b5212fee8d25354cd68566311a808dbe96d8,2024-03-01 21:51:37,Carlos (Goodwine),Preserve -webkit-box-orient when -webkit-line-clamp is present (#1511),False
+46cd2cccabab8f829c6bde17eb47a856ebda9e84,2024-01-17 23:16:50,Andrey Sitnik,Release 10.4.17 version,False
+2738f72023caf5e64dcfdeb2e7cbda8ecb1eae18,2024-01-17 23:16:15,Andrey Sitnik,Update dependencies,False
+b0a4007c49da09e23fa39cb0113fa61f46818962,2024-01-17 23:15:40,Andrey Sitnik,Fix user-select: contain,False
+1db31f0e6d84664abc647e763b0229426e88cffe,2024-01-16 23:11:29,Andrey Sitnik,Update dependencies,False
+026083ccde85fd16607d1056d3fa058480004184,2023-09-21 02:50:57,Andrey Sitnik,Release 10.4.16 version,False
+4cda7ae9ab0d326d393209928643dc745d0f4222,2023-09-21 02:19:16,Andrey Sitnik,Update dependencies,False
+7a49d6ad5a6e2d71b1a90bfca5d994dddd951b86,2023-09-21 02:18:01,Andrey Sitnik,Update CI,False
+a87f4cd73eefb1e8005181c0439e377a61e95edf,2023-09-21 02:17:28,Romain Menke,improve performance (#1500),False
+0d6496e44d0ce0fa99fafbee5f7a465be1aa1213,2023-08-17 20:25:13,Andrey Sitnik,Update dependencies,False
+d9064cb4c82089ce7ea08b0d3a21f551744feab1,2023-08-14 16:34:32,Christian Oliff,"Remove deprecated browsers from README (#1499)
+
+Brackets and Atom code editors have long since been deprecated and neither plugin has been updated in even longer. I think it makes sense to remove links to these.
+
+REF:
+- https://github.com/sindresorhus/atom-autoprefixer
+- https://github.com/mikaeljorhult/brackets-autoprefixer",False
+aa633244098cba0f199944017ef5502e4f4161c4,2023-08-13 21:10:00,Andrey Sitnik,Release 10.4.15 version,False
+e6f597d8e2a9f56e7ac2b64dbbbef842a177e809,2023-08-13 21:06:41,Andrey Sitnik,Run tests in parallel,False
+8611ba63e367549620cba812986ef8f03b909be6,2023-08-13 21:05:35,Andrey Sitnik,Update dependencies,False
+f8d8dab24e1ded8d6c2a4c16124dfb0e5bef3322,2023-08-13 21:05:01,一丝,"feat: `::backdrop` using `@mdn/browser-compat-data` (#1498)
+
+Before that, we added the `-wekbit-` prefix to Safari, which is not really needed.",False
+66d23f6c8687ebb6c5b6d3631337b1ef682dd6c1,2023-07-08 17:15:22,Andrey Sitnik,Update dependencies and code style,False
+4a629f52e35e008cf4a63e09612675bfe9e346a2,2023-07-08 17:11:42,Andrey Sitnik,Move to pnpm 8,False
+029aed678fc5bbb015ac2cc2e9a680fb2b3c90c9,2023-07-08 17:10:40,Andrey Sitnik,Use Node.js 20 on CI,False
+b440be2b063c3cba0fa99ff885fd482a9bf263c1,2023-07-08 17:10:21,Andrey Sitnik,Lock pnpm,False
+e8b3b7d32bdb733b25175594eb3685f51b3e678d,2023-03-26 18:08:47,Andrey Sitnik,Update dependencies,False
+9cabd686e1ce32401016fd5cfc91ccf6483497b4,2023-03-26 18:08:47,Andrey Sitnik,Add funding option,False
+e2f5c26ff1f3eaca95a21873723ce1cdf6e59f0e,2023-03-10 16:40:05,Christian Oliff,HTTPS and update URLS in README (#1494),False
+db162a1884fda0dc8dfe3346b92329a471045d46,2023-03-10 03:11:38,Andrey Sitnik,Release 10.4.14 version,False
+b385c2e4783c6c983ae00b33219d7ca2bef5639d,2023-03-10 03:10:09,Andrey Sitnik,Update dependencies,False
+48010ae6a74d661b5a4b777cc4b4f35a451c958f,2023-03-10 03:09:04,Kārlis Gaņģis,"Improves startup time by requiring specific caniuse files (#1492) (#1493)
+
+* Improves startup time by requiring specific caniuse files (#1492)
+
+* Update lib/browsers.js
+
+Co-authored-by: Andrey Sitnik <andrey@sitnik.ru>
+
+---------
+
+Co-authored-by: Andrey Sitnik <andrey@sitnik.ru>",False
+c5a86ab13d8a6c9258dcf4139ee6f5870f6da7c3,2023-01-26 13:41:11,araya,"Fix package manager info (#1489)
+
+This project uses pnpm for package management since 0d47b914998edd809718e5e3211d327157500865
+
+Co-authored-by: araya <araya@araya.dev>",False
+3e0ef96c0d268acb2b1320c0715a60a6d0c175b3,2022-12-13 15:19:42,Andrey Sitnik,Update dependencies,False
+e07754bdd84d0b30daf27298ee010b7d592f2035,2022-11-15 17:44:56,Andrey Sitnik,Remove old CI config,False
+3c6f9f1eac767c409d5fec96177ee2f6061fc503,2022-11-11 17:21:49,Andrey Sitnik,Update dependencies,False
+4782f797322c7046fc34f82976f7fd06ab204266,2022-11-11 17:21:03,Romain Menke,update postcss to 8.4.19 (#1485),False
+1895e98067d5433da847b2013a2b6802a87add52,2022-10-28 01:59:21,Andrey Sitnik,Release 10.4.13 version,False
+8caf4912a102f51d1ec19734b31e1d854e23293d,2022-10-28 01:57:48,Andrey Sitnik,Update dependencies,False
+878d82cd226d96dd5c6dd36cdcdd10cdbd963ee8,2022-10-28 01:57:10,Andrey Sitnik,Ignore CSS Custom Properties on prefix in value lookup,False
+a16e12f435f5aa53ca90dd29825fe9dec170a96a,2022-10-24 04:24:20,Andrey Sitnik,Update dependencies,False
+959554bc296e991568386f9e63d64a19bfef0abc,2022-10-24 04:23:31,Andrey Sitnik,Add Node.js 19 to CI,False
+933052df3dd83df07810a8c760f5814252a427bd,2022-09-30 21:04:47,Romain Menke,update tests results for postcss 8.4.17 (#1481),False
+0d799e80b80c76be7353c5cc6b893f9ab71aea90,2022-09-21 04:30:39,Andrey Sitnik,Release 10.4.12 version,False
+542bd8529904adb867e2608dd093f798ce790618,2022-09-21 04:27:09,Andrey Sitnik,Fix gradients cleaning,False
+2d286dd8b7dda067c4d5f3445f6bd1f17094202f,2022-09-21 04:12:26,一丝,fix: unitless zero for `<angle>` values are allowed in CSS gradients (#1479),False
+c33816556e2308068b8ef073af5a1ef5b1dd51e9,2022-09-21 04:12:11,Andrey Sitnik,Update dependencies,False
+961fae7cfa77978c6691dfc25b0775a2b82f2e96,2022-09-14 23:23:30,Andrey Sitnik,Release 10.4.11 version,False
+2f815ea2519aad6271a94e84302e4e3022ad7bba,2022-09-14 23:19:14,Andrey Sitnik,Clean up code,False
+6d4f3db6dd73be857913d9b5fd16cd2e9035ba08,2022-09-14 23:18:25,Romain Menke,update data for text-decoration (#1478),False
+f47866174b1a40f51f6e8948ecdc1cdf7593e33e,2022-09-13 20:22:30,Andrey Sitnik,Release 10.4.10 version,False
+db484cc62dd39471136df0a974946d5faf3eab68,2022-09-13 17:49:35,Andrey Sitnik,Move to MDN data for unicode-bidi,False
+07c3cf10a297419d7747c9238a8dfa6c37e8e484,2022-09-12 05:08:46,Andrey Sitnik,Release 10.4.9 version,False
+acfe2ad0177c8961179e7e47a859d49d4b3f81f2,2022-09-12 05:07:07,Andrey Sitnik,Fix unicode-bidi import,False
+135d11feecd6cafbf2ea3a0de543eeccdf70a9d7,2022-09-07 22:43:42,Andrey Sitnik,Update dependencies,False
+244a99cfaf42716d72934ff781572ffb6dda01ab,2022-09-02 12:52:20,Andrey Sitnik,Update dependencies,False
+5124eae5f042afdeb368b5a8e8436fa721950f93,2022-09-02 12:50:29,Andrey Sitnik,Clean up CI config,False
+63e391872a594422151876649d271d075438a29d,2022-09-02 12:45:16,Alex,"Update test.yml (#1472)
+
+Signed-off-by: sashashura <93376818+sashashura@users.noreply.github.com>
+
+Signed-off-by: sashashura <93376818+sashashura@users.noreply.github.com>",False
+65e2dae12cb64aab79efa73ddb204f3577f4e8f6,2022-07-29 16:26:23,Andrey Sitnik,Release 10.4.8 version,False
+9b670b4f6e2162a034eb6ea9acf17bb6e3f92055,2022-07-29 16:11:39,Andrey Sitnik,Do not print warning if print-color-adjust is also in the rule,False
+bcc5ff604757982f9d8852fff278101d7911061f,2022-07-29 16:10:15,Andrey Sitnik,Update dependencies and example in docs,False
+616c44240a1478e54d8b7bc79ed8fa5db6392d11,2022-05-03 16:25:43,Andrey Sitnik,Simplify CI config,False
+20fd9994a92a22d467b837fd6a8ddab9e2dce476,2022-05-02 20:31:36,Andrey Sitnik,Release 10.4.7 version,False
+c8319f49aa95e946526082d1c66ee513a4109582,2022-05-02 20:31:05,Andrey Sitnik,Update dependencies,False
+8fe5b66a446b97b349bce240a020da4e74d0d7c3,2022-05-02 20:28:27,Andrey Sitnik,Fix print-color-adjust in FF,False
+0a82431f06bda4310112ba8f3e7aee75439f0f01,2022-05-02 04:32:00,Andrey Sitnik,Release 10.4.6 version,False
+51b991c6175fe5e0f90e20041e10441df1434670,2022-05-02 04:30:33,Andrey Sitnik,Improve handling print-color-adjust,False
+08d960e79dde97479f6d9d8d2c40d879c20c510b,2022-05-02 04:10:53,Andrey Sitnik,Fix Node.js 12 on CI,False
+684afedca932723024447553a6afeb435f038444,2022-05-02 04:09:10,Andrey Sitnik,Update dependencies,False
+89c5b9a3e16d62390180832cdc8b26e812813984,2022-04-25 02:43:49,Andrey Sitnik,Update dependencies,False
+e9478dbde49e35c0eb3de2d309a05370d800d0b5,2022-04-25 02:43:23,Andrey Sitnik,Clean up ESLint config,False
+fca3f015282756fd8a7d06e2588778c69e39fc4d,2022-04-24 03:11:02,Andrey Sitnik,Fix test name,False
+1c0adb8a0d627d1c8ceac89be3d5192c0280848c,2022-04-24 03:10:50,Andrey Sitnik,Fix test,False
+fdddbf364d80bbc65b9871f3452da3944321ef9d,2022-04-24 03:06:45,Andrey Sitnik,Release 10.4.5 version,False
+4ad9f72ada6154ef640d00faf65b7120cefca74b,2022-04-24 03:05:15,Andrey Sitnik,Update dependencies,False
+f6fa524611e191548765b9ee125f3364476a31f4,2022-04-24 03:05:15,Andrey Sitnik,Update CI config,False
+355a87af074ef1ef7463f563be3fd399ef8d43f9,2022-04-24 03:02:28,Sukka,"Fix #1446 (#1457)
+
+* Fix #1446
+
+* Test: cover the `utils#isPureNumber`",False
+37f26d65746b6f7c6751eb6c8dc31fe129ab4041,2022-03-16 14:09:33,Andrey Sitnik,Release 10.4.4 version,False
+f6328f4d1595b98a3af835875a310d1c00bcddf7,2022-03-16 14:08:59,Andrey Sitnik,Update PostCSS,False
+18d54174eda4b032dcb135f0e36ab97a4b83a3c4,2022-03-16 14:06:35,Andrey Sitnik,Revert funding URL format changes,False
+e41d4f56a81eeb7cfeca7c37f59b7ffed1cb3498,2022-03-15 23:59:14,Andrey Sitnik,Release 10.4.3 version,False
+ec8e48211b045af1a74da9218a10231512454f94,2022-03-15 23:58:41,Andrey Sitnik,Update PostCSS,False
+65c7bda68df35734e8b46db98fed38074986229d,2022-03-15 23:53:03,Andrey Sitnik,Update dependencies,False
+fbc094b262529a0cf50ae6f9b0a223e29cdf0ffd,2022-03-15 23:52:58,Andrey Sitnik,Fix funding URL format,False
+2d923aef4cfd745b3890ac52422790dfb6ae1ae5,2022-03-15 23:39:08,Andrey Sitnik,Update dependencies,False
+f18db88e1ab3497d0ff2a8af55b8d729e24b9ba9,2022-03-15 19:08:32,Álvaro Mondéjar,Update `funding` key in package.json (#1448),False
+3041c7bfced438875d668767432666b10a88ef36,2022-01-30 07:03:20,Andrey Sitnik,Update dependencies,False
+13b754299710428dd2e040aae9931909dd7d38cc,2022-01-07 19:09:05,Andrey Sitnik,Release 10.4.2 version,False
+09f1a891b85caf4308565119b99023abc206a958,2022-01-07 19:07:13,Andrey Sitnik,Fix stretch prefix,False
+b764cc0a23c6ac396901dc79749b4126bd52e158,2022-01-05 09:51:45,Andrey Sitnik,Update dependencies and clean npm ignore,False
+7bba67a880af1f9b78a3b55a6cdd2a17c42b1cd9,2021-12-29 21:52:16,Andrey Sitnik,Release 10.4.1 version,False
+c942166bba0c94158cc0cfa87f6aa6233841c213,2021-12-29 21:40:03,Andrey Sitnik,Clean up npm ignore,False
+748ef8efb44d784fa80c6d447b6060f0a053ff16,2021-12-29 21:35:13,Andrey Sitnik,Move from Jest to uvu,False
+e3e8c08dd6d3b14a5d7ded6544248ce76169613f,2021-12-29 20:03:44,Andrey Sitnik,Remove TS from project,False
+1db514c3257abc93d2a6d1aa4ea2d80bf20412e1,2021-12-29 19:57:15,Andrey Sitnik,Remove Windows test on CI,False
+48ecb06a1609a0d2288dd869cbdd3e8c6add6f9e,2021-12-29 19:55:39,Andrey Sitnik,Fix CI,False
+0d47b914998edd809718e5e3211d327157500865,2021-12-29 19:53:43,Andrey Sitnik,Move from yarn to pnpm,False
+c2fd84e6c163c3f2faa8fd8b886a54d271f65622,2021-12-29 19:50:45,Luke Warlow,Use caniuse-lite data for ::file-selector-button (#1438),False
+d3469a8c083421977d64c1401a262cceea46de42,2021-12-29 19:50:15,Andrey Sitnik,Update dependencies,False
+c35cb718449015dd44bed1666e1263474884b6f4,2021-12-17 19:09:58,Ville Kentta,"Fix CLI dependency installation instructions (#1439)
+
+Without `postcss` fails with error:
+`Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'postcss' `",False
+c0ba72664a9240537a51c06dd350a7a8662e0fe5,2021-10-28 16:00:53,Andrey Sitnik,Release 10.4 version,False
+56c7f283ffe1c86086f5b6e47e162b65fe08bbd3,2021-10-28 15:23:24,Andrey Sitnik,Update dependencies,False
+11f6fe8044e73b53c4869bca9e6fa1019ce35ff6,2021-10-28 15:21:09,Andrey Sitnik,Fix CI,False
+f2aa29232455d240daf6f4c2ed9fbb1bc72423f9,2021-10-28 15:16:33,Andrey Sitnik,Update CI,False
+cab489e1ffc52a7cc8bd742182641baedcbf9de4,2021-10-28 15:14:57,Luke Warlow,"Add support for prefixing :autofill (#1430)
+
+Bumped caniuselite to latest version",False
+b5e78ef8a755962f6703bd7e0c983a874328e39b,2021-10-21 02:42:22,Ludovico Fischer,"chore: update picocolors (#1431)
+
+Help deduplication with browserslist picocolors dependency.",False
+fc10c83206ff24a0b9c2067a85f732e9c12d9f65,2021-10-05 01:56:55,Andrey Sitnik,Remove TS config from npm package,False
+53a8b7135dafc0322fe29d485c7728d075b6b274,2021-10-05 01:55:44,Andrey Sitnik,Release 10.3.7 version,False
+56f5cbefb9fa26d5f951eb498f4eb279ece31774,2021-10-05 01:50:07,Andrey Sitnik,Update dependencies,False
+35b205a4a265f4c302edf5e077c5cc17c3c571ed,2021-10-05 01:48:36,Andrey Sitnik,Replace nanocolors to picocolors,False
+c3263a0bffabf1fe3beeaafbe9a94955dc389a96,2021-09-27 19:24:36,Christian Oliff,"Add bugs field/URL to package.json (#1424)
+
+Useful for contributors to quickly go to GitHub after they've cloned the repo.
+
+Similar to how it's done at: https://github.com/postcss/postcss/blob/e2f59d057f30d419e8fa7fac0095d3a47795714d/package.json#L66",False
+f693ca361cd1040275c293fb111aeb1b222af4b7,2021-09-26 13:26:09,Andrey Sitnik,Release 10.3.6 version,False
+afb06a81413024b01c03af25a652d15498007b72,2021-09-26 13:25:37,Andrey Sitnik,Clean docs on release,False
+38efcddf070f3f27a4a46fb646272bd69f1e5458,2021-09-26 13:24:37,Andrey Sitnik,Update dependencies,False
+ef8731298e2bfaa6e0b21c23f1fcda44258964fe,2021-09-26 13:04:02,Andrey Sitnik,Update dependencies,False
+b332bf06a49a4f38c925dc22219d8aa5e9223c73,2021-09-22 11:38:07,Andrey Sitnik,Release 10.3.5 version,False
+1c5a2d6c9e32eee025d0671784c89831c1b6bac2,2021-09-22 11:32:42,Andrey Sitnik,Update dependencies,False
+1666516f4b8c18dcf9c36cc00e897e8e7ace6b6e,2021-09-22 10:52:09,Andrey Sitnik,Update Nano Colors,False
+de9969fb22b0127669c0484004df22a1ca58e48a,2021-09-21 17:57:52,Andrey Sitnik,Update dependencies,False
+71e0e766dbd7b86ecc869f25bbe0b3050060b3a5,2021-09-21 17:55:23,Andrey Sitnik,Replace colorette with nanocolors,False
+1341747bc8142a147342f55eea5ed4286a3ca318,2021-09-03 03:08:44,Andrey Sitnik,Release 10.3.4 version,False
+c1bc741b9b673eace0e7938fa1c7107d79723ac3,2021-09-03 03:08:23,Andrey Sitnik,Update dependencies,False
+089ac2f7d84ee86e69b77af7509645c8b249e3fc,2021-09-03 03:04:20,Andrey Sitnik,Fix stretch in latest Firefox,False
+d56b44def3d932f0e536b51b0a607cb2add71251,2021-09-03 02:59:30,Andrey Sitnik,Speed to test,False
+b5b5f5d01c03923d2750f827421b0f4db4b5e1e1,2021-08-26 20:48:45,Andrey Sitnik,Release 10.3.3 version,False
+80e17d32ab34a2c3895d04b87ed6e2020adc6a09,2021-08-26 20:47:58,Andrey Sitnik,Update dependencies,False
+e75889e5df72625741c5b1bd314ddc81b3e32b62,2021-08-26 20:46:03,Usman Yunusov,"Added blocker -moz- for ::file-selector-button (#1421)
+
+* Added block -moz- prefix
+
+* revert fix and add new test
+
+* replaced all prefixes with a -webkit-",False
+7ac31b9e89f760acc902aa45dd90f6cc6c9fd0ca,2021-08-21 23:49:05,Andrey Sitnik,Typo,False
+a75a37f35af3be153f37d3328dae9b7257699f14,2021-08-21 23:47:58,Andrey Sitnik,Release 10.3.2 version,False
+adf87e20250cf95889e53761a869c42fd2a59a13,2021-08-21 23:46:43,Andrey Sitnik,Update dependencies,False
+7e5540b374d04b00cde135f84cbf732f11902041,2021-08-21 23:43:02,Andrey Sitnik,Clean up tests,False
+e47f86b722ae0a5cf92334c0399bfb727fbf5ffc,2021-08-21 23:39:44,Usman Yunusov,Fix ::file-selector-button pseudo-element (#1420),False
+21f26fb460f03dd267a4aea80a519121bf0b465c,2021-08-01 16:08:23,Andrey Sitnik,Update dependencies,False
+efca4fae67068ca2e5e840a8926a42e2deb9eff7,2021-07-12 22:59:19,Andrey Sitnik,Release 10.3.1 version,False
+1febed0ff16598641cd9efb17f4b751fedf107ed,2021-07-12 22:58:38,Andrey Sitnik,Update dependencies,False
+4e315738ce019f8631e40cf68b8bf3eb5f4b3494,2021-07-12 22:54:31,Luke Warlow,"Fix: Term element in content value gets parsed (#1414)
+
+* Fix: Term element in content value gets parsed
+
+* Remove duplicate css and change check",False
+006146dad72b923beb8e8556b50af16977d8acca,2021-07-10 16:38:07,Andrey Sitnik,Release 10.3 version,False
+5f9a9b5e2033ccee12462fd222330986a61963f7,2021-07-10 16:26:56,Andrey Sitnik,Clean up dependencies,False
+9a114c5d6dd34ca9469d5d9e12dd1ea27f4af5d3,2021-07-10 16:26:12,Andrey Sitnik,Update dependencies,False
+5468c9f109240747715a28539077ad6088e36380,2021-07-10 16:24:23,Luke Warlow,"Autoprefix the file-selector-button pseudo-element (#1412)
+
+* Autoprefix the file-selector-button pseudo-element
+
+Prototype using MDN compat data where caniuse is not usable.
+
+* Hardcode data instead of using MDN
+
+* Add test to hacks block",False
+05cfed63bd29fa8dda8c493f8075a4e4a7e8108b,2021-07-05 12:14:50,ThesllaDev,"Fix: remove broken link with 404 error (#1410)
+
+When you hit the link, it takes you to the Google developers page, but you can't find the referenced page, it looks like the setup/configuration section where they recommended using the autoprefixer has been removed.
+
+[![Image from Gyazo](https://i.gyazo.com/55aeedd59c7a318b3631ccbaef235835.png)](https://gyazo.com/55aeedd59c7a318b3631ccbaef235835)",False
+d4ced645d1d92de7df9622226f6ac87154541e25,2021-05-26 20:01:24,Andrey Sitnik,Release 10.2.6 version,False
+c1b26d1229ab167343f2dd60f994b304e37adb51,2021-05-26 19:46:01,Andrey Sitnik,Better warning text,False
+8d492b36dee27bdbe414b2c9119655443c7f90f1,2021-05-26 19:26:08,Andrey Sitnik,Update Jest,False
+5daaa3f84bfd0e319d26d404fd25aa513ce18d87,2021-05-26 19:23:32,Andrey Sitnik,Use Node.js 16 on CI,False
+397d796fb961e7ddc1e76dddf069609088d6df14,2021-05-26 19:23:06,Pwntheon,"Clarify warning about no targets (#1409)
+
+* Clarify warning about no targets
+
+Due to user error or outdated sctips, users may be warned about no prefixes being applied.
+Rewrite this error message to be more understandable.
+
+* Fix missing append operator",False
+9836cfae6c52bf077a2ecb225c2ea2113b31169d,2021-05-26 01:54:01,Andrey Sitnik,Update dependencies,False
+88892154c9215e92fee011ff91c10d4b4ba5f1f6,2021-05-21 05:40:09,Andrey Sitnik,Fix Node.js 10 on CI,False
+e72998a4afc1bd383e7850dca4c672fd8349305f,2021-05-21 05:34:38,Andrey Sitnik,Update dependencies,False
+60ae9a617d7468ef0ad9fa83a2d675ac936f2893,2021-05-21 05:32:00,Andrey Sitnik,Update lock files,False
+190569b1f1076b2fd96c01766d0d88e6c8628ee4,2021-05-21 05:30:57,Alicia Paz,update postcss to patched version (#1408),False
+d779351699bdc3582f151e4195c503e71be305c9,2021-05-20 01:23:29,Yash Singh,Add console syntax highlighting (#1407),False
+310eecf991dac3348bde1a1173226d3ffb8c5b52,2021-05-08 20:30:14,Oscar Otero,"Code changes to ease the conversion to Deno (#1404)
+
+* code changes for Deno conversion
+
+* fixed module export plugin
+
+* replace const with let",False
+03e4891f53ce2e2cb885f2739f7e89921922a807,2021-03-12 07:12:58,Andrey Sitnik,Update dev practices,False
+bf5c8667ce84bb7df9e48e49f42b9e2858ac85c9,2021-03-12 07:09:01,Andrey Sitnik,Update GitHub Actions,False
+293dfec68514b65d52e50ff23642f9bd897ba8e8,2021-03-05 20:08:04,Andrey Sitnik,Release 10.2.5 version,False
+72a8574690f96ff1cb056eb649f03b8fff160ac5,2021-03-05 20:02:47,Andrey Sitnik,Update dependencies,False
+cf87be4d7eb5c382613b54942f87962afe4e1cfe,2021-03-05 19:53:30,Dmitry Semigradsky,Fix error throwing when `supports-selector-fn` has pseudo-classes or pseudo-elements as argument. (#1398),False
+b63e143987516bf8886d904d506372e3d61385fb,2021-02-12 20:50:32,Christian Oliff,"Correct CodePen name (#1394)
+
+CodePen is one word",False
+61f71e9a8613b0c90357472d58fdcce26324ef4f,2021-01-29 22:51:34,Andrey Sitnik,Release 10.2.4 version,False
+92747e324bb16edda46bba62e8a828a64e9c1bef,2021-01-29 22:50:19,Andrey Sitnik,Update dependencies,False
+76d8cdb87a8eaa37846e5b3ed72410995769bd80,2021-01-29 22:48:39,Andrey Sitnik,Add more browser names in --info,False
+7276fd23e221aea0468dfadcfc9a9303e2ee9fa9,2021-01-20 00:41:26,Andrey Sitnik,Fix test coverage,False
+1b506649f35a6378d7e23643e60f86f6df4155c1,2021-01-20 00:15:13,Andrey Sitnik,Release 10.2.3 version,False
+5d52463998e114ebfabff239b555c035eaffe721,2021-01-20 00:14:45,Andrey Sitnik,Fix clone for PostCSS 8,False
+ee657801bcacd5bd0a037477487f2d39bfb5cc18,2021-01-20 00:07:01,Andrey Sitnik,Release 10.2.2 version,False
+8476c1d7fb72d8977403bb75f02d41611fbaf272,2021-01-20 00:06:06,Andrey Sitnik,Move from Once event to OnceExit,False
+c3b166b8e2fd78a3fadd749944d2591abed0b8e0,2021-01-20 00:03:14,Andrey Sitnik,Update dependencies,False
+d6b42f108ccf87d068dde353f9ed57235dc166f2,2021-01-08 07:11:49,Andrey Sitnik,Release 10.2.1 version,False
+8b88da303c9f900a788de44fbc8958a171da1c58,2021-01-08 07:02:56,Andrey Sitnik,Update dependencies,False
+5bfb37e4b3080ff8b738885647f7676a19bc5a3c,2021-01-06 18:02:26,Andrey Sitnik,Add TS auto-fix,False
+010ce4b9438629ad0cd473a132e18d24d099009a,2021-01-06 18:01:55,Flo,"check transition-property value list before warn (#1385)
+
+* check transition-property value list before warn
+
+* new transition-* test uses `check` function
+
+* use one-line assignment for `hasAssociatedProp` transition check
+
+* make eslint happy",False
+9365ef0fbd9030fdeaff139bee183100cc5b9fd1,2021-01-06 07:38:33,Andrey Sitnik,Release 10.2 version,False
+7fa9d998201b623691a9874997eabc8b8ae8ac76,2021-01-06 07:25:01,Andrey Sitnik,Update dependencies,False
+70a122b97542aadd3f120e723e01c11dd29c21d2,2021-01-06 07:22:20,Dmitry Semigradsky,Add typings (#1382),False
+3803763852b845b0dfd8f668300002d485e6c1c8,2021-01-06 07:11:29,Flo,"fix CONTRIBUTING.md formatting (#1383)
+
+- logo src path
+- code blocks indentation",False
+6d6421e4d461fb81728cb3c1c4d231167b9381d8,2021-01-05 18:02:10,Andrey Sitnik,Update dependencies,False
+6b1629d3b102c47c9d6749e2f0e948f3550d28dc,2020-12-10 23:59:19,Andrey Sitnik,Update dependencies,False
+16f619ffbca5fbc43d4ca605a4384a1fd74cb538,2020-12-08 13:12:04,Andrey Sitnik,Release 10.1 version,False
+d29e56803dc8c3a5008f72f2849e738ddef7111f,2020-12-08 13:09:07,Andrey Sitnik,Update dependencies,False
+42b3dff77459068dbaaa143a3791904564b08257,2020-12-06 06:17:04,Andrey Sitnik,Update dependencies,False
+0765b30b365e19365b297276f68a272c0350fb8c,2020-12-06 06:15:47,Robert Eisele,Added dpcm resolution support and made calc more precise (#1380),False
+856a567b333b5c199613d28c89f33025c93a919f,2020-11-28 02:58:47,Andrey Sitnik,Release 10.0.4 version,False
+9e52e876352f3d9a265f9528f280a42c57da354f,2020-11-28 02:55:52,Igor Kamyshev,Fix Cannot read property 'proxyOf' of undefined exception (#1377),False
+d228d5c9c1f42ec00ce8b47281c362e62c4ac4b0,2020-11-27 03:31:12,Andrey Sitnik,Release 10.0.3 version,False
+8aaced6f7636c29d8e4a70d6d1da94f545d918bb,2020-11-27 03:30:05,Andrey Sitnik,Update dependencies,False
+1c82076876b0922ae5785f906369dde7be8a8d00,2020-11-26 23:27:00,michelle enos,"fixed misspelling of ""subtract"" for mask-composite (#1378)",False
+bbb717ecef0e3fed8a6d2c1b19953f93f21cf1dc,2020-11-11 04:53:07,Andrey Sitnik,Update dependencies,False
+76143219a502289a06573df8b2d5bbe1bfde7e14,2020-11-09 23:50:32,Andrey Sitnik,Release 10.0.2 version,False
+427af5a102b196b1d7b9bc556519e499494c5a19,2020-11-09 23:48:33,Andrey Sitnik,Update Browserslist,False
+e47d5db6d2b1671e2b8b45bb181614c94788c071,2020-11-09 19:15:14,Andrey Sitnik,Avoid -ms-user-select: all,False
+244657f7ee88ae8fc6f9ffea55188e909bc98838,2020-11-08 17:45:32,Andrey Sitnik,Add Node.js 10 to CI,False
+68c305a47bb413af9879791fbd1ab85dc5f9f040,2020-11-08 17:40:22,Andrey Sitnik,Move from Travis CI to GitHub Actions,False
+ff54aac52e1e0d3d309180caac4f8d6efa519031,2020-11-08 17:39:20,Andrey Sitnik,Update dependencies,False
+9c9107d5488ad37ce1b65d055b2bd18059a0f3db,2020-11-04 16:56:22,Andrey Sitnik,Fix warning,False
+215d31511d801a88a6330272f3c14907dc128f3e,2020-11-04 16:56:16,Andrey Sitnik,Update dependencies,False
+d46eb26a39fdafa6639caab9b2e9fb74b2410d2d,2020-09-27 06:12:47,Andrey Sitnik,Release 10.0.1 version,False
+207f4ad1f3e0c1d580735cfcc484d2334e9b68f6,2020-09-27 06:10:16,Andrey Sitnik,Use OpenCollective,False
+d54490b53805d13f1a48885f5f91a9bb49436d35,2020-09-27 06:09:48,Andrey Sitnik,Update PostCSS,False
+82329413574e2443cf63dedfcb7463e0d95067c7,2020-09-26 08:25:22,Sukka,Refactor cache into Map (#1364),False
+f8fed49756b88a62dac5b9fa0bc79d723a394561,2020-09-26 06:06:42,Sukka,Simplify uniq util (#1363),False
+7756b1fe0575a926ff1ddc84d38bec4086b77522,2020-09-20 22:26:53,Andrey Sitnik,Update dependencies,False
+2d05cd9e590fc1d6fdd5d7fbfb3a5167ef0a6210,2020-09-16 00:27:06,Andrey Sitnik,Improve release process,False
+25829ae728074395291b549919e6fcd4b39358d4,2020-09-16 00:24:52,Andrey Sitnik,Release 10.0 version,False
+fcfb1a44bf5ae89ef8e80dcf0f0435b066ccd02b,2020-09-15 22:59:46,Andrey Sitnik,Update size limit,False
+491b738da1056ae38973e250ea67a6a3ce704465,2020-09-15 22:53:57,Andrey Sitnik,Update PostCSS,False
+abe667cc847dae09e30bfec746652d4a4b8daa39,2020-09-07 03:15:02,Andrey Sitnik,Move postcss to deepDependencies,False
+1c2082f2b736b7ff982f4567a184837971294e9b,2020-09-07 03:09:06,Andrey Sitnik,Use PostCSS 8 API,False
+a9074d15a811ee9d33814f8d63dafeeb8880cd94,2020-09-06 03:52:34,Andrey Sitnik,Update dependencies,False
+62ccf5acbf03f87a3132f267108eefb8533b1b59,2020-08-13 01:41:36,Andrey Sitnik,Remove old Babel hack,False
+151f0980baa369d8b96944c71ae52daca96effe8,2020-08-11 13:22:36,Andrey Sitnik,Use PostCSS 8,False
+a693c60dfb720d650b1446fc889cef9917da9de8,2020-08-11 13:17:56,Andrey Sitnik,Update npm ignpre,False
+202f5ad6aa72726dbed95f2c8386cbb9443177b4,2020-08-11 13:17:10,Andrey Sitnik,Update linter and code style,False
+61c6b620a40354abdb5ebc6c3de50067c05990f3,2020-08-11 12:34:42,Andrey Sitnik,Remove build tools,False
+5124799100a7ec595afc8a0dbfadd691fdcaf324,2020-08-11 11:37:07,Andrey Sitnik,Remove browserify build,False
+8dea3497b6d2f76173fd55f72e6f22355c9fc26b,2020-08-11 11:36:41,Andrey Sitnik,Drop old Node.js versions support,False
+34fa5addbdfc21872f43014f3c794f54e4602141,2020-07-31 01:46:41,Andrey Sitnik,Release 9.8.6 version,False
+61b515cbbd7a422be47c3f767186abeb6c27a33c,2020-07-31 01:33:09,Andrey Sitnik,Update dependencies,False
+474661a581a2eb4b20811829cc4ac3ab90181c0c,2020-07-30 04:46:07,Andrey Sitnik,Clean up code,False
+21becd444a2fe65648ec994c204884ace4c0dc82,2020-07-12 10:15:01,Andrey Sitnik,Normalize CHANGELOG.md,False
+3c807f26dc019ff62bbc5b225891c993c230a25e,2020-07-12 09:25:32,Daniel Tonon,"Change log fix for v9.8.5 (#1339)
+
+Co-authored-by: Daniel Tonon <dan503.npm@gmail.com>",False
+9a4ea8b042796a630731027dd3e14c71b689c779,2020-07-11 11:11:06,Andrey Sitnik,Release 9.8.5 version,False
+ffc183359288b58ef47a870010e6d24120166017,2020-07-11 11:10:50,Andrey Sitnik,Fix size limit,False
+cd557581467e4c7b9aaa8ba31ee8100471d3cd00,2020-07-11 11:07:57,Andrey Sitnik,Update dependencies,False
+a6250bf2d30f447538460d58884447da86170ba8,2020-07-11 10:53:03,Andrey Sitnik,Merge branch 'Dan503-Dan503/#1335-justify-align-self',True
+4ea1c3aed228d55f591e68e846cb1fa5a343f9bd,2020-07-11 10:52:41,Andrey Sitnik,Merge,True
+0343bdc058f0bf99166c9c9183d1b89ef435055c,2020-07-11 10:48:49,Daniel Tonon,"Fix for #1333 - No warnings when grid is turned off; Also added a subgrid warning (#1334)
+
+* Fix #1333 - /* autoprefixer grid: off */ will not output grid warnings
+
+* Adding test for #1333 (preventing warnings when grid is turned off)
+
+* Adding ""npx"" to ""gulp play"" command in playground CSS comment
+
+Not everyone has Gulp installed globally.
+This prevents people who don't have Gulp installed globally getting confused why ""gulp play"" doesn't work.
+
+* Triggering a warning if ""subgrid"" is used for any CSS value
+
+IE does not support subgrid and Autoprefixer can't polyfill subgrid either.
+
+* Updating tests to include subgrid warning
+
+Co-authored-by: Daniel Tonon <dan503.npm@gmail.com>",False
+5f0f91800e091f40682fed9dd2e606946d06d93c,2020-07-11 09:47:07,Daniel Tonon,Adding test for #1335 fix,False
+d1a9711563eb5a8dd20b58c10faf42dceaf2a1c8,2020-07-11 09:12:00,Daniel Tonon,Fix for #1335 - align/justify-self not grid prefixing if display: flex,False
+58a210ca7fb8f6b68913d64718b2753b6be88329,2020-06-24 08:58:40,Andrey Sitnik,Release 9.8.4 version,False
+255deabe3f3e62f9d547e83f035a338dfb549ccf,2020-06-24 08:52:06,Andrey Sitnik,Replace kleur to colorette,False
+b4c9546a032c73dee86179c7813c99e0d8334cd9,2020-06-23 20:01:03,Andrey Sitnik,Release 9.8.3 version,False
+27612f725bf047b4d8c80e327ad5ef6870cf066d,2020-06-23 19:59:01,Andrey Sitnik,Update dependencies,False
+8d6c6cc633d26e4729b7aa5ca987b5e154813c58,2020-06-23 19:56:01,Andrey Sitnik,Add old non-LTS Node.js versions to engine,False
+387a587614a44ab6824c03d8d751ed930c97199f,2020-06-23 01:24:58,Andrey Sitnik,Update dependencies,False
+739ec3fc8496be7b8a844402d9893320b583a9a6,2020-06-21 07:08:59,Andrey Sitnik,Clean up changes,False
+02efcaca419b1b6686d3de015475d59762ef662f,2020-06-21 06:51:27,Andrey Sitnik,Release 9.8.2 version,False
+6842832f79705e350e8f80705ffd94ac8ab63723,2020-06-21 06:48:31,Andrey Sitnik,Remove old buggy Node.js from supported list,False
+92372cdc5fd2b49a66672072274146e28f993e74,2020-06-20 02:52:29,Andrey Sitnik,Release 9.8.1 version,False
+89d14bb4000f40766c7de300cd5ed4429422ee7e,2020-06-20 02:47:03,Andrey Sitnik,Update dependencies,False
+5acf784bb6e04830685860d72a4703e9411b1054,2020-06-20 02:46:54,Andrey Sitnik,Update example,False
+b221f4ab480bb1d526840dcdec769e3ed3342dd0,2020-06-20 02:35:12,Luke Edwards,"chore: swap color lib (#1327)
+
+* chore: swap color lib
+
+* chore: bump version",False
+43d089f6b2f82f1dbd74acdbf9cfea9bf4b1f136,2020-06-19 00:24:23,mbomb007,"Update README.md grunt-postcss URL (#1325)
+
+The linked project was abandoned. Linking to an actively maintained fork instead.",False
+0283e319ff7bcde0454c959036e0d91ae0bb326f,2020-05-17 10:32:24,Andrey Sitnik,Release 9.8 version,False
+af0151e00696a863847a2ac323c4763cc71d1750,2020-05-17 10:19:02,Andrey Sitnik,Remove debug,False
+76f3f4764553338d3a62e1d621a628d8ab091326,2020-05-17 10:07:24,Andrey Sitnik,Fix size limit,False
+d2ce094d39224d0faf219d0b2bca4490e024e704,2020-05-17 10:04:17,Tanguy Krotoff,Hack for :placeholder-shown (#1312),False
+9c4c7d8b40f57f388cfa996e9d0f5a55663fbc93,2020-05-17 09:49:32,Andrey Sitnik,Update dependencies,False
+98711950e57d948f8c1a999bde0589cca3384a65,2020-04-09 03:09:04,Andrey Sitnik,Fix TOC,False
+c64012921c1d95dcb0ecf2b5b14b7672d7797926,2020-04-09 03:06:32,Blaine Bublitz,Add Tidelift enterprise language (#1300),False
+9413f99907e44eca5eb724a60b6f6e82b18015a0,2020-04-07 02:36:09,Andrey Sitnik,Release 9.7.6 version,False
+196bd089aab7adbc60cee4cd7b87bf6a6f31bb12,2020-04-07 02:34:15,Andrey Sitnik,Update dependencies,False
+846cde892759401cdfe47b0512feea588014bbdc,2020-04-07 02:31:01,Andrey Sitnik,"Revert ""Fix stretch support""
+
+This reverts commit a38e42678567139bd95bbe2d32fa8c551f1ebb64.",False
+ed0f32df67304e3a3ee59db894e4e162e2540cfa,2020-03-27 21:47:25,Andrey Sitnik,Remove old non-specific AP plugin for VSCode,False
+c09b3b3be8a67bfb258dd29ad63de31a69949588,2020-03-27 21:44:45,kanlukasz,"Added another Text Editor (VSCode) (#1297)
+
+Co-authored-by: dev-null <dev@null>",False
+817a42aa8da4489d5841ec6b66dc7884e686e3d0,2020-03-24 05:58:48,Andrey Sitnik,Release 9.7.5 version,False
+a38e42678567139bd95bbe2d32fa8c551f1ebb64,2020-03-24 04:48:05,Andrey Sitnik,Fix stretch support,False
+d3e5058da7890ca2d3e73893cedc9a7e43d91a6c,2020-03-24 04:47:53,Andrey Sitnik,Do not collect coverage on all Node.js versions,False
+db9fbe2a8031548bbb6f95795cbf9103e3fb93e7,2020-03-24 04:36:33,Andrey Sitnik,Update dependencies,False
+99f3ea0b6b9a7a7fbf75a3f5f445dca98b36a1ce,2020-01-22 01:40:05,Mike,Fix link to PostCSS warning API docs (#1277),False
+fcdd87911c4eb0a635307e118b74d840df2bd990,2020-01-15 01:54:38,Andrey Sitnik,Release 9.7.4 version,False
+503ac708e4b695793768317cc8a9255e2bb4d975,2020-01-15 01:52:22,Andrey Sitnik,Update dependencies,False
+c0ec973a3a4a6fdfd7610ffc068eaa5e556145d3,2020-01-15 00:39:27,Dmitry Ishkov,fix typo (#1276),False
+0ee84d70f3f474e6f408c3078fe61db65a26ee0a,2019-12-31 00:53:18,Andrey Sitnik,Clean up CLI,False
+a09d9f13cfbfbe1cfceda0ea696b4cbc35ff090d,2019-12-09 02:26:41,Ivan Solovev,Clean up tests (#1273),False
+05e515e3fde3cc051f785219075cca95a42339e7,2019-12-08 22:42:32,Ivan Solovev,Add test for at-rules (#1272),False
+4a3e207af5084964d29018a1a2fc337243a11f95,2019-11-30 20:39:27,Andrey Sitnik,Release 9.7.3 version,False
+55027d714ef01d17fc6bb2737c85181c002ed656,2019-11-30 20:20:19,Andrey Sitnik,Fix Node.js 6 test in CI,False
+f09a9288dbe04631a8a69b29df08f1f029a90c23,2019-11-30 20:18:07,Andrey Sitnik,Do not run Size Limit for Node.js 6,False
+0fa06b49d87ea48b580f2ea1001d8bed0493368d,2019-11-30 20:10:41,Andrey Sitnik,Update dependencies,False
+7f1e95331b4878c134c88c20dcc591094dfe5fe7,2019-11-30 20:10:08,Andrey Sitnik,Clean up RegExps,False
+33ee9897b1eaa591ed3bb80bb098b29fbed5eab7,2019-11-30 19:50:14,Andrey Sitnik,Fix compatibility with CSS Modules,False
+8afc95e20e3f1c8ba9a566b51676f74524ea5ffa,2019-11-30 19:32:53,Andrey Sitnik,Fix JSDoc indent,False
+31e240aaa9042bfb8245cdbb195fa6bc31f25453,2019-11-19 04:56:33,Andrey Sitnik,Release 9.7.2 version,False
+f34429bdc2233956f32aab23eec998db1de63678,2019-11-19 04:53:22,Andrey Sitnik,Add -ms-user-select: element support,False
+2f5976f649ae59f2fb0d000d4c134c1494bed4c4,2019-11-19 04:44:54,Andrey Sitnik,Downgrade Size Limit to fix Node.js 6 support on CI,False
+4681c289c791e442fafcfb0a06c46aa99bdc034d,2019-11-19 04:27:39,Andrey Sitnik,Downgrade chalk to keep Node.js 6 support,False
+85f8d1163296cda332284f525b80bbc31dbc11a7,2019-11-19 04:09:37,Andrey Sitnik,Update dependencies,False
+d352c291d2b925bb86255ac278d260f4219a9bd1,2019-11-19 03:46:45,Andrey Sitnik,Add Tidelift funding,False
+cc9c2406c2bf7db29cbcbd45922b87099e39ceb6,2019-11-04 17:12:39,Daniel Tonon,"Updating environment variable documentation to include multi-platform support (#1262)
+
+It previously only explained how to support windows. It now also supports Mac and any other platform that cross-env supports.",False
+7dcaf45d964133cb7e7965735e78aa4f0846b570,2019-11-01 16:34:28,Daniel Tonon,"Adding better environment variables documentation (#1261)
+
+The documentation now gives a step by step guide on how to use environment variables to turn on CSS Grid prefixing.
+
+I've also added it to the table of contents.",False
+bf2e89eee774cd8258f096fb4ccfa1efc4fb8c69,2019-11-01 06:30:35,Andrey Sitnik,Release 9.7.1 version,False
+db0623f417b9ae57ce834237ba29b47f02ef19d9,2019-11-01 06:28:29,Andrey Sitnik,Update dependencies,False
+5cfde2965a462b5326dbcd8d4d5b3b2253dd62fb,2019-10-31 00:27:52,Andrey Alexandrov,"Feature/vendor specific transition (#1260)
+
+* Add tests
+
+* Check if transition prop is inside vendor spec rule
+
+* Filter prefixes for transition + update tests
+
+* Remove cache and make logic more clear
+
+* Remove process method, update ruleVendorPrefixes
+
+* Update logic for old flex prefixes",False
+400d48feb9e2d060d944908ac99d03cd4f0cc540,2019-10-29 15:24:23,Andrey Sitnik,Update ESLint config,False
+89d723c0546a59db066397dfd4fa92a812d5453d,2019-10-29 12:21:39,Andrey Sitnik,Fix fit-content in Firefox,False
+9eb27f0eeab4cfe6bac01dd12bb85a5769287a87,2019-10-29 04:42:47,Andrey Sitnik,Revert fit-content fix,False
+7869a83f13fd2851a099f9fdf71e3345477177b0,2019-10-29 04:31:02,Andrey Sitnik,Fix fit-content prefix,False
+f4553aa0277bd5a8b5151673b9d9e83c330f75c6,2019-10-24 18:28:24,Andy Trevorah,Fix typo (#1259),False
+22871d1504e053708fca4215da0929be90e5ab78,2019-10-24 18:22:42,Andrey Sitnik,Release 9.7 version,False
+ed1cf687fb9deaea187d04aaf447a89ac2b55c40,2019-10-24 18:18:49,Andrey Sitnik,Update PostCSS,False
+3f99d30bc66df368145718b66930e3f5675d56ae,2019-10-24 13:42:15,Andrey Sitnik,Fix size limit,False
+d654c01f8ee10903d59b6ac22c81efc73247d7dc,2019-10-24 13:40:12,Andrey Sitnik,Fix env variable nam,False
+d612e274f46423d37cab8bce1d8586e9d0303dc7,2019-10-24 13:36:13,Andrey Sitnik,Update dependencies,False
+994feec162aea3b1bc1e23f22aad78dfbaf42723,2019-10-24 13:36:02,Andrey Sitnik,Add Node.js 13 to CI,False
+c3d7206e2484dc9635f92f378c637ada3ee91630,2019-10-22 21:23:22,Andrey Sitnik,Fix ESLint path,False
+cc827ab5d4696f7222cd7e90d236ed4031c82b2e,2019-10-22 21:21:54,Andrey Sitnik,Fix missed options error,False
+3d1d021047e703058c931bebe82337ad5a396bd2,2019-10-22 21:20:34,Andrey Sitnik,Fix ESLint,False
+24b9aedfe9e8a459fe031a3ab923b08605619f77,2019-10-22 20:55:01,Andrey Sitnik,Add AUTOPREFIXER_GRID env support,False
+db0b34b1e508e7c4493c8fef1734a5c11a1777e1,2019-10-22 20:31:00,Andrey Sitnik,Update dependencies,False
+913a68486faca3253608d7fa78453d9e541f351e,2019-10-14 13:25:10,Andrey Sitnik,Release 9.6.5 version,False
+352a90b1c1bd5177e71c8842c5b76e63b760d817,2019-10-14 13:22:25,Andrey Sitnik,Update dependencies,False
+f6264415c401edfe60acef9c0bbab86b206b6234,2019-10-14 13:19:10,Andrey Alexandrov,"Bugfix/separate selectors (#1253)
+
+* Fix #1196
+
+* Add tests for grouping rules
+
+* Use instance data instead of global const
+
+* Make solution more proper and easier to reason about",False
+37957945d011d13ac67bb68022ea2a4da8705893,2019-10-05 22:25:23,Andrey Sitnik,Release 9.6.4 version,False
+b07ba02357839037ecbf29d48bef04b594e3016f,2019-10-05 22:23:48,Andrey Sitnik,Uncomment line,False
+3f1583b9f2effcfe75c29303bf96db97e3333b69,2019-10-05 21:58:53,Andrey Sitnik,Release 9.6.3 version,False
+3151e611ea710ba5dc746f1f73e525ae1be21271,2019-10-05 21:56:49,Andrey Sitnik,Fix undefined node error,False
+f5f8869cd9ce1519a8f433d270719458a1b37864,2019-10-05 11:01:33,Andrey Sitnik,Release 9.6.2 version,False
+a90e46b2584a892569ec91e905765b7220ecfa18,2019-10-05 10:42:49,Andrey Sitnik,Fix npm ignore,False
+887717b5018752149746c177ba9ba097c8c60e63,2019-10-05 10:40:42,Andrey Sitnik,Clean up ignore files,False
+414efbe6d4df48efb10265176e40a6046ff893c1,2019-10-05 10:38:26,Andrey Sitnik,Fix false warning,False
+60cf224f556d654a14b959db6a9e915a3db7f28a,2019-10-05 10:32:36,Andrey Sitnik,Update dependencies,False
+8768ce4c00e8dd261bb25a07b450e99ac02ef43e,2019-10-05 10:32:27,Andrey Sitnik,Clean up code,False
+4cea909027137de8aa60baf318df7ec215d8a6c9,2019-09-09 10:35:12,Andrey Sitnik,Put OpenCollective first,False
+9eb894b8721c51e74310697e2c38d8c0705e1160,2019-09-09 10:33:08,Andrey Sitnik,Add OpenCollective,False
+ff0bdfea8020234ee00caf7c1bfbec8db5c16e63,2019-08-22 21:40:17,Andrey Sitnik,Update dependencies,False
+04bd4860f73827a952f8dadfcfd0b0ca8b796ed3,2019-08-07 01:26:32,Andrey Sitnik,Fix Size Limit on CI,False
+ea5efd044b2080b68d584196b39e61da500945c8,2019-08-07 01:19:58,Andrey Sitnik,Fix CI,False
+b718be112a2f8109a57bdea5a15c76974a79ecb3,2019-08-06 03:31:38,Andrey Sitnik,Update dependencies,False
+27ccb6dd2ca3172524cfdf737ab5f7351bfbb7fb,2019-07-06 02:50:14,Andrey Sitnik,Release 9.6.1 version,False
+69ed8a0d35cd3d8445c1a713f63ccfc32db29bb9,2019-07-06 02:44:07,Andrey Sitnik,Add hack for -webkit-line-clamp,False
+4c7f00f7d8846171e024e64ac42f75f2312df875,2019-07-06 02:06:20,Andrey Sitnik,Update dependencies,False
+3617e8263e60f769841951e06d79edc616b5eb0b,2019-07-05 07:02:21,Andrey Sitnik,Increase size limit,False
+c997bb003a6dc8b2367407c1ad39072a194f2144,2019-07-05 06:58:17,Andrey Sitnik,Update dependencies,False
+f0c2e856996e4d5d77f704efd9b0aed914235eed,2019-06-03 23:55:17,Andrey Sitnik,Release 9.6 version,False
+7980d0ac3ebb0d1adbbe6a75d248ca3702b2d5f3,2019-06-03 22:05:50,Andrey Sitnik,Fix for console-less env,False
+1d16dcc68cc0e4c4df464d6483b28f552322e5f3,2019-06-03 21:55:36,Andrey Sitnik,Ignore .github in npm package,False
+77e25a5f982bc7d0bdd55f7ad65991d5c13275cb,2019-06-03 21:54:49,Andrey Sitnik,Update authors,False
+e4fc6252f39940a792a424b85ff967fe1ac54c46,2019-06-03 21:48:52,Andrey Sitnik,Fix contributing docs,False
+a4d087006fc13f111f546b84ab1fbd6365987be3,2019-06-03 20:47:12,Andrey Sitnik,Update dependencies,False
+c55c780ca76dac3ef98e96f7e0000a5c38b2c351,2019-06-03 20:43:30,Andrey Sitnik,Add 2x as alias for 2dppx,False
+f625a57ba33f06e0ac6049ef357ad39b5ee6720c,2019-06-03 20:39:09,Andrey Sitnik,Move CONTRIBUTION to sub dir,False
+e56a4676c99ddc916d17fe64fa7b1ea64698fb16,2019-06-03 20:38:45,Juan Martin Marco,"Add/how to contribute (#1093)
+
+* Add how to contribute base file
+
+* Add topics and expand 'making changes' section
+
+* Add example to 'Making Changes'
+
+* Remove unnecessary whitespace
+
+* Fix typo
+
+* Housekeeping
+
+* Add TOC and reorganize a bit
+
+* Remove whitespace guideline and npm
+
+* Add testing section, missing bullet and remove unnecessary whitespace
+
+* Add suggested changes
+
+* Clarify what we mean by 'hack'
+
+* Fix indent level
+
+* Rephrase wording
+
+* Add hack section
+
+* Expand unit testing a bit
+
+* Add last steps for unit testing
+
+* Expand 'Fixing Bugs'
+
+* Expand 'Filling issues'
+
+* Use proper name for caniuse
+
+* Fix casing for caniuse
+
+* Fix typo
+
+* Fix typo
+
+* Fix phrasing
+
+* Change section order of 'filing issues'
+
+* Add code block
+
+* Capitalize sentence
+
+* Fix missing statement
+
+* Clarify 'stacktrace'
+
+* Fix broken issues link
+
+* Fix typo and broken link
+
+* Fix broken URL",False
+026ffa0050ee501493dac9091d736cf11ffabf19,2019-06-03 20:35:59,Andrey Sitnik,Add text-orientation support,False
+c0515d7a64b6845a944fe0483f5454da876ec8a0,2019-06-03 20:33:15,Andrey Sitnik,More real example,False
+897433c9465d037665d3c6481d63b438467ca28e,2019-06-03 20:32:00,Andrey Sitnik,Improve code examples,False
+44b7eb94c2f01f82bd46cef1dc1e05a5d1445724,2019-05-28 18:40:29,Ivan Verevkin,Removed dead link 'No prefixes in production' (#1218),False
+edfa86c1b53dceed8f59b4f324e5bd85cf27f7c4,2019-05-25 22:59:43,Andrey Sitnik,Update dependencies,False
+6ed7c22bb6503968185935d807a61d6a593f352c,2019-05-25 22:37:32,Andrey Sitnik,Replace browsers option to overrideBrowserslist,False
+5b99adb53815eaddc892bef2dd8d0ea3c2cd27ba,2019-05-25 21:15:30,Andrey Sitnik,Clean up docs,False
+50bc247a88ae834492f74f0d4358fbbcb3638bf1,2019-05-24 13:13:50,Andrey Sitnik,Add Sponsor button on GitHub,False
+24b28b6dbdc34a5e5800986e76f48cbaf9bbbc32,2019-05-06 11:03:44,Andrey Sitnik,Update dependencies,False
+dda9cfd9735b974118b093d8a473632bb5fa2460,2019-04-26 05:50:11,Andrey Sitnik,Update example,False
+6b563a294b90bc02a311e8c89d9ddf89f900f45c,2019-04-26 05:43:31,Andrey Sitnik,Update dependencies,False
+ca11c4fdf68d59ae2360534bb843146db21ddd70,2019-04-07 21:44:01,Andrey Sitnik,Release 9.5.1 version,False
+37f7602573cb6d5a73654bf02cb373f188c1da82,2019-04-07 21:41:15,Andrey Sitnik,Fix resolution prefix for old Firefox,False
+fcb216f60ed77e8fe01b78b3c02eb3e284fc7799,2019-04-07 21:30:15,Andrey Sitnik,Add backdrop-filter -ms- to -webkit- convert,False
+74425f54cecca353f3c01d352ab1383f9a0544de,2019-04-07 21:23:08,Andrey Sitnik,Update dependencies,False
+b73d0ce362c2c304133935f34627db66b0a7f459,2019-04-07 21:22:56,Andrey Sitnik,Clean up imports,False
+5ded94bf1e3e9f2904ad989f9e5d7fb9bfa632ec,2019-04-07 21:11:00,Andrey Sitnik,Clean up code,False
+ced6f051f8b0955c8f4d74c40077cade98fe24ba,2019-04-07 21:07:47,Oleh Aloshkin,Fix for backdrop-filter to support it properly in Edge 17/18 (#1208),False
+9be02a0593eae22e4a12d096a60e637634c9e263,2019-03-29 01:48:14,Andrey Sitnik,Add security note,False
+c66491cb689373eaa9840595ffc4320b99381eee,2019-03-14 23:45:50,Andrey Sitnik,Release 9.5 version,False
+9a0ca6b55d9f43a548e5f639ea8248e7ffe4c600,2019-03-14 23:29:33,Andrey Sitnik,Update dependencies,False
+3b857c2b9ac87a0483fb1d4e509971553fc939c8,2019-03-14 22:21:47,Andrey Sitnik,Speed up code,False
+4f9a4230e832bb25cab92c13a001825bb3ce7a84,2019-03-14 22:18:49,Gibr,"Fix tests for OS Windows (#1204)
+
+* Fix tests for OS Windows
+
+* Move universalizer function to the beginning of the test",False
+07958ea19aa692f2a3a475d6a9510afda91fcf7b,2019-03-14 03:02:16,Semen Levenson,add mask-composite (#1202),False
+653b10dda7a714cd4bc7b0f211222df3828a11ec,2019-03-09 19:57:17,Andrey Sitnik,Update dependencies,False
+b33024bf37d4fa097b86a9291a84d3dc666e5a54,2019-03-07 20:05:36,Andrey Sitnik,Fix Travis error,False
+41e256cf8221272a991acda8242cabd4366d848a,2019-03-07 09:12:26,Andrey Sitnik,Try to fix Travis CI,False
+1edc2b305f861d7c8196c1621a6ba3961be41293,2019-03-07 09:06:26,Andrey Sitnik,Update dependencies,False
+dc967e0774f5f2ba44fd9b059c2d6f6a8b05e1b6,2019-03-05 06:13:34,Andrey Sitnik,Release 9.4.10 version,False
+b54ea06d208e8aace8553c003e4b640e9c87a6f2,2019-03-05 06:10:50,Andrey Sitnik,Add warning for names Grid lines,False
+3ac3c38cf23761a8c0a1f34cccf500081f3c83eb,2019-03-05 05:57:27,Andrey Sitnik,Update dependencies,False
+5ece1de2fe9817def2740ca74f658f63a6ff6cfc,2019-03-01 05:20:02,Even Stensberg,edit webpack link (#1195),False
+595896355823d9529ad1ce8bc430849eba9f5e37,2019-03-01 03:28:03,Andrey Sitnik,Clearify docs,False
+c4917798def75abd4b45857bbeb06fd4c2cf4f58,2019-03-01 03:24:40,Andrey Sitnik,Recommend Parcel instead of Gulp,False
+3541c6164ce61b29d865ed01370d6e0825337656,2019-03-01 03:23:54,Andrey Sitnik,Simplify docs,False
+c507f0db83889d992fe4bf28f24cdf3b30ba9c7e,2019-03-01 03:21:32,Sire,"Update README.md (#1194)
+
+Added important note about Visual Studio / WebCompiler and how to enable Autoprefixer.",False
+ee4ef6d7c57fdb07ed38ee93b390cedfb01e8a3e,2019-02-25 09:14:11,Andrey Sitnik,Release 9.4.9 version,False
+11d592de4893bbc45f4b1e2b587559f9bab53c6e,2019-02-25 09:11:18,Andrey Sitnik,Update dependencies,False
+0e7466232a0eb13372651341987b59514a355c52,2019-02-25 09:10:11,Bogdan Dolin,"[css-grid] Fix bug when grid-area rules are not inserted (#1192)
+
+* [css-grid] Fix bug when grid-area rules are not inserted
+
+* [css-grid] Add test cases
+
+* [css-grid] Change the comment line
+
+* [css-grid] Add new line",False
+1f95a6bdeafeb806cb4c255f06503c1744c3034a,2019-02-20 06:13:22,Andrey Sitnik,Release 9.4.8 version,False
+b213b0903f1def6e67419c277546ece821674e59,2019-02-20 06:08:44,Andrey Sitnik,Update dependencies,False
+76127d192634da49e753a825150eab522caed3d4,2019-02-20 06:06:40,Andrey Sitnik,Fix calc() in grig-gap,False
+233eeea2dfa64b88443cf7678e56d6e496ed1c5c,2019-01-29 01:32:41,Andrey Sitnik,Release 9.4.7 version,False
+3da016efc360b98764015fbe1b8d58594dd45bc9,2019-01-29 01:30:31,Andrey Sitnik,Update dependencies,False
+5b055676bf696d8f2baf34a01692796955e73921,2019-01-29 01:22:54,Andrey Sitnik,Fix infinite loop,False
+e88ae21786263973193404e2e39c98524cd3606e,2019-01-21 18:06:05,Andrey Sitnik,Release 9.4.6 version,False
+63241328e76a06c69a58c033e14a5e7485abc57d,2019-01-21 18:04:11,Andrey Sitnik,Update dependencies,False
+4e1ec08506a7bde532f701087cd9c94e5e7e8ffb,2019-01-20 23:04:01,Albert Juhé Lluveras,Fix 'implement' typo (#1182),False
+902614468d2b221b51d79c1eaa2f7ebed72e5235,2019-01-12 22:30:01,Andrey Sitnik,Release 9.4.5 version,False
+3d093f727c37d82a3aef28932b3bef527ba748ee,2019-01-12 22:24:34,Andrey Sitnik,Add text-decoration-skip-ink support,False
+b07222b8a72ce2cb866bebc2fc05c99a20ba33cc,2019-01-12 21:47:03,Andrey Sitnik,Update dependencies,False
+3d26929fcdae02cedc8dd00e94f317336d0d4d27,2019-01-03 15:50:05,Andrey Sitnik,Release 9.4.4 version,False
+efde3f543f247c19db1b167c98bac012d8212b4e,2019-01-03 15:46:21,Andrey Sitnik,Smarter direction test,False
+9a7786805a274de5572bfc23994cbc502ac25517,2019-01-03 15:46:12,Andrey Sitnik,Update dependencies,False
+2a0b24f5b24214997bd4a40d171b441e52296fde,2019-01-03 15:35:05,Denys Kniazevych,Add `ms-writing-mode` value based on `direction` declaration (#1175),False
+74b5dc65f5dc4192d3ce12b664d7e2617a05f6ae,2019-01-03 03:18:14,Andrey Sitnik,Update tests,False
+d4e603efdd2ef8dfcd7226346286733169141ae9,2019-01-03 02:27:57,Timothy,Fix spelling of template (#1177),False
+d7a3deac91390bb71075aafbc04d91968432b020,2019-01-02 02:58:44,Andrey Sitnik,Update dependencies,False
+485988acbc311c64ab1b8a35f6d66d5f0f0f3b05,2018-12-24 06:24:18,Daniel Tonon,"Gulp 4 code fixes (#1173)
+
+* Replacing `path.join()` with a `join()` function
+
+`path.join()` doesn't always work properly in Gulp 4. It is safer to use this simple `join()` function.
+
+let join = (...folderPath) => folderPath.join('/')
+
+* Gulp 4 code improvements
+
+- It now runs 'build:lib', 'build:docs', 'build:bin', 'build:package' all in parallel rather than one after the other
+
+- replaced old `gulp.start()` commands with propper `gulp.series()` syntax
+
+- Fixed the ""watch-playground"" gulp task syntax",False
+ea3a4ac5250c4d9940e9794cd0259fe79ffb68dd,2018-12-17 05:55:26,Andrey Sitnik,Release 9.4.3 version,False
+e4ca19287888e948e571f23735645dd999eee7d6,2018-12-17 05:52:01,Andrey Sitnik,Update authors list,False
+f9bd957f63f858505a64cd0a2aaa7d65366f85df,2018-12-17 05:50:42,Andrey Sitnik,Update dependencies,False
+62ccb12e28bea6642ea88507189dca633ad2bd25,2018-12-17 04:44:58,Antoine du Hamel,"Add warning for some content-distribution and alignement properties (#1172)
+
+Fixes: https://github.com/postcss/autoprefixer/issues/1170",False
+d0cacfa295751589465a3f593319973904cee527,2018-12-07 20:45:17,Andrey Sitnik,Clean up code,False
+bde80e352a11d0af0b3436c9e239e664e1e5653b,2018-12-06 11:49:37,Christian Oliff,HTTPS links (#1168),False
+0c75de3266a4758a559c60122a97deb5e5634a17,2018-12-04 20:22:10,Andrey Sitnik,Typo,False
+83a12f8715a2840af10f1d1e62bd188265129407,2018-12-04 20:15:59,Andrey Sitnik,Release 9.4.2 version,False
+e4a4aec0b930a178afe227949120f86906d287e0,2018-12-04 20:15:19,Andrey Sitnik,Typo,False
+2991d75eee23798ae65bdd6f50e06a340fc2f8bd,2018-12-04 20:14:01,Andrey Sitnik,Update dependencies,False
+a8cc4e31f15949c8d0a5986e244603941d914b5e,2018-12-04 20:11:19,Andrey Sitnik,Fix Grid autoplacement warning,False
+b17be450bfc4e8ae00073d1cde1187fb4bcb8ed7,2018-12-04 15:14:21,Andrey Sitnik,Replace Taobao to Alibaba,False
+68342251d4724be3cc77e24520174135a9977047,2018-12-04 15:03:57,Andrey Sitnik,Release 9.4.1 version,False
+3d167d11b376a3efa20124506f665d6a79955c7f,2018-12-04 14:55:50,Andrey Sitnik,Update dependencies,False
+bfc1333be0d43d6deb5a3ad513423eec7f3b155f,2018-12-04 01:04:44,Andrey Sitnik,Update dependencies,False
+ee50896d6104bd8774b115e323055b50d4356482,2018-12-04 01:02:26,Andrey Sitnik,Do not use flexbox prefixes in Grid elements,False
+09a2fd667dd5f41444d5b650b7ea69772c391c03,2018-12-03 21:57:21,Andrey Sitnik,Typo,False
+55d1f8b72f3a94f81e2035a77fcffcf07f1070b7,2018-12-03 20:40:09,Andrey Sitnik,Always show TOC,False
+262bf7d09f09b5e008bec2300ac0c976d7aa2333,2018-12-03 20:37:03,Andrey Sitnik,Clean non-importnat subsections in doc TOC,False
+6350cd674da6b98e2fee3363a54f2846b48284bf,2018-12-03 20:34:42,Andrey Sitnik,Clean up docs,False
+5601e7de33665bb6b2546af5a18217681358d2f1,2018-12-03 20:31:17,Andrey Sitnik,Update CSS-in-JS docs section,False
+5e6c1dc3d475171e6984ea5426f0fe3bc547d708,2018-12-03 19:39:25,Daniel Tonon,"Fixed enabling autoplacement in old projects section recommendation (#1163)
+
+The previous recomendation of swapping the order around was wrong. The nth-child selector will still overpower the single class selector even if the single class selector comes after the nth-child selector.",False
+9eb57d16e2ac9ea54767763b24f7a261e424e365,2018-12-03 12:58:56,Andrey Sitnik,Release 9.4 version,False
+c470fa2b7f490935e0e603996c320063d655053b,2018-12-03 11:07:21,Andrey Sitnik,Update size limit,False
+2e82382fa4b848adb728f28085882e960d773c15,2018-12-03 11:07:04,Bogdan Dolin,"[css-grid] Implement autoplacement (#1148) (#1151)
+
+* [css-grid] Implement Autoplacement feature
+
+* [css-grid] Add test cases for autoplacement
+
+* [css-grid] fix grid-template-rows/columns values
+
+* [css-grid] add support for 'grid-auto-flow' property in autoplacement
+
+* [refactor] move part of functionality to grid-rows-columns hack
+
+* [css-grid] Add test cases for grid-auto-flow and for rows warning
+
+* update size limit
+
+* [css-grid] Comment out grid-auto-flow warning (at least for now)
+
+* [css-grid] Show warning when grid-auto-flow: dense is used
+
+* [css-grid] add FIXME about commented out warning
+
+* update size limit again to make CI pass
+
+* [css-grid] Show grid-auto-flow warning only if grid template is present
+
+* [css-grid] Fix warnings
+
+* [refactor] Add comments
+
+* [css-grid] Add support for grid: 'autoplace'
+
+* [css-grid] Remove the unneeded output
+
+Now as we support grid: 'autoplace' option, autoplacement works only where defined,
+so autoplacement won't work in grid-status.css now.
+
+* update size limit value
+
+* [css-grid] Add autoplace conditional comment
+
+* [css-grid] Add test cases with autoplace conditional comments
+
+* [playground] Add support for grid autoplacement
+
+* [refactor] Remove todo comment
+
+* [css-grid] Change autoplace conditional comment and fix test cases
+
+* update size limit value
+
+* update readme.md
+
+* update readme 2
+
+* Adding a table of contents
+
+(install this VS Code extension to easily keep it up to date: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#overview)
+
+* Fixing FAQ heading levels
+
+The TOC wasn't generating correctly because the FAQ heading levels were incorrect
+
+* Grid autoplacement readme updates
+
+* (alias for deprecated value `on`) text in readme
+
+* [css-grid] fix grid areas algorithm
+
+* [css-grid] Add test to check the output for different grid options
+
+* Updating readme with ""no-autoplace"" grid setting.
+
+* Readme ""Do not create `::before` and `::after` pseudo elements"" section
+
+* Fixing ::before/::after example in readme
+
+* Removed word ""both"" (there are 3 items)
+
+* Minor readme fixes
+
+* [css-grid] Add warning when grid-gap is used without template or autoplacement
+
+* [css-grid] fix grid-gap warnings
+
+* update size limit
+
+* Added section about changing the grid-gap value to the Autoplacement guide
+
+* Adding note about the lack of auto-fit and auto-fill support
+
+I think we need to point this out specifically since people will get excited when they here auto-placement support is coming and think _all_ of auto-placement support is coming.
+
+* Fixing inconsistent indentation in Readme
+
+I'm used to having an indent size of 2 spaces. The rest of the readme uses an indent size of 4 spaces though so I've increased any 2 space indents to 4 spaces.
+
+* [css-grid] fix rows/columns values
+
+* [css-grid] Add warning for grid-template-columns property",False
+27d90f3636fcf3475cf681f93cf292aff61bd8c9,2018-12-03 10:53:38,Andrey Sitnik,Update dependencies,False
+726bbc9ed73ca3303604b958509e169da48e7fc9,2018-11-27 11:46:51,Andrey Alexandrov,"Remove warning from grid-[column/row]-end: span X; + grid-area combo … (#1159)
+
+* Remove warning from grid-[column/row]-end: span X; + grid-area combo (#1157)
+
+* Add clause to warnIfGridRowColumnExists method in lib/hacks/grid-utils.js
+
+* Update tests
+
+* Update test case
+
+* Fix no newline at the end of the file",False
+ccd30ff49b20f28881b1f71184c3bd47d45eaefc,2018-10-29 23:10:10,Andrey Sitnik,Add Node.js 10 to Travis CI,False
+1371f49e7f50fd08e30327b9c9c739666e250274,2018-10-24 17:28:54,Andrey Sitnik,Release 9.3.1 version,False
+e6067b75bda036d9c0e6ead276a7d3fdc3ff2ca5,2018-10-24 17:23:34,Andrey Sitnik,Update dependencies,False
+c0eb6c6fd71266e577e8f51ba7c36eab0a5f5f6f,2018-10-24 17:09:44,Bogdan Dolin,"[css-grid] Fix bug when grid-rows/columns are prefixed with wrong values (#1149)
+
+* [css-grid] Fix bug when grid-rows/columns are prefixed with wrong values
+
+* [css-grid] Add test cases",False
+cac7636d9b954796e3fa8ca9037cd1b01fb5b4d6,2018-10-23 16:22:25,Andrey Sitnik,Release 9.3 version,False
+b3080dd9527a3194e91ba16a0bd42c4d68759621,2018-10-23 15:58:45,Andrey Sitnik,Update dependencies,False
+1956607e3a507baaed4ec85d53d8243e84bdb122,2018-10-23 15:55:22,Bogdan Dolin,"[css-grid] Fix/row column span inheritance bug (#1147)
+
+* Fix bug when updated row/column span values weren't applied
+
+* Update the test cases to show that the bug is fixed
+
+* Update the test assertion",False
+6b8a25d6322f171e6b5c4767183df97fac5161ba,2018-10-20 12:29:38,Bogdan Dolin,"[css-grid] Implement hack for place-self property (#1144)
+
+* [place-self] Implement place-self hack
+
+* [place-self] Add test cases
+
+* [place-self] Add test case for place-items warning
+
+* [place-self] Add check for grid status",False
+41e3a04c40a1048e10e65f6082c7d8e462055d4b,2018-10-17 05:14:25,Andrey Sitnik,Release 9.2.1 version,False
+6453afec6be1b508e1d1222f339dbb7cf096473e,2018-10-17 05:13:21,Andrey Sitnik,Update dependencies,False
+1ec9169b858f851035f4a2d23b272b19b9332507,2018-10-17 05:11:37,Andrey Sitnik,Fix broken Node#parent,False
+57ab7475e74c07d4d6eb1c85f05989ce8bde189f,2018-10-17 05:00:37,Andrey Sitnik,Fix indent,False
+2072e73d77fd1abc67e49f74950e3df2d6599026,2018-10-14 22:48:23,Andrey Sitnik,Release 9.2 version,False
+ee778d49d38e7a26434153f18bdfd44673ba730d,2018-10-14 22:47:23,Andrey Sitnik,Update dependencies,False
+a7e88ce912ef28369e9173c44c669470a92da41f,2018-10-14 11:35:24,Andrey Sitnik,Normalize titles in old versions,False
+7090ae35eee5ed9079dd5bda2de4b910cd498e9a,2018-10-14 09:57:28,Andrey Sitnik,Update dependencies,False
+55c4eb2a62dac28301bb4b42e156ff5c8daa77e5,2018-10-14 09:20:47,Andrey Sitnik,Update authors,False
+1a8f9a07d666ba6a23737adf87bc785957832196,2018-10-14 09:13:38,Andrey Sitnik,Disable grid in specific supports at-rule,False
+ba21db9c71e283faf8e699e939145625cfa10d4a,2018-10-14 08:23:56,Andrey Sitnik,Fix if,False
+839953e7e5be1c92c810a3c354e9d96e895d884c,2018-10-14 08:23:33,Andrey Sitnik,Fix indent,False
+22ba456c71a5581536942b8ca6cb301fd0239dd5,2018-10-13 23:34:39,Andrey Sitnik,Improve docs about grid option and control comment,False
+7585947f72f1bfa10364dfe26eb42869efa58362,2018-10-12 21:55:31,Andrey Sitnik,Fix indent,False
+bbd2d6c9955d4934a28135416f712d1a9666befd,2018-10-12 21:54:33,Andrey Sitnik,Fix indent,False
+df2806e669f50b3fa71fdf77534a3e47818b52e2,2018-10-12 21:48:08,Andrey Sitnik,Clean up code,False
+912dd5072818c93c02ef9ae803ae9b6cb2157e61,2018-10-12 21:47:39,Andrey Sitnik,Impove tests,False
+f441bafc4e2dffede00bc8d9cc42bad8c3b53bd6,2018-10-12 21:43:55,Andrey Alexandrov,"Control grid option via comment (#1138)
+
+* Control grid option via comment
+* Add gridStatus method to Processor
+
+* Add test case
+
+* Update README.md
+
+* Update gridStatus method
+* Remove unused code
+* Update test
+* Update README.md",False
+ef7175cd7c2f94d52d346c369f5641fb00d224c2,2018-10-11 21:18:23,Mat Gadd,Improvements to the README (#1139),False
+1454f27f7a0a89053e82c3d3bfb6b0ef6e9965c2,2018-10-03 16:01:12,Bogdan Dolin,"[grid-gap] Inherit gaps from less specific rules (#1126)
+
+* Add feature to inherit gaps from less specific rules
+
+* Add test cases
+
+* Add a test case with descendant selector
+
+* Update size-limit
+
+* Change argument of 'split' function to regExp
+
+* Fix bug when prefixed grid-area didn't count the inherited gaps
+
+* Fix test cases with the prefixed grid-areas that didn't count inherited gaps
+
+* Fix bug when gap values is inherited from rule with higher specificity
+
+* Add more cases to test the inheritance of gaps
+
+* clear the playground
+
+* Implement splitSelector function
+
+I needed this utility function to break selectors into small parts.
+See [utils.test.js](https://github.com/postcss/autoprefixer/blob/master/test/utils.test.js) 
+test file to see the examples.
+
+* Add the ability to inherit from more complex selectors
+
+* Add complex test cases",False
+39b6b686edc4b4195b7eebea5dbdf4ac1f75bf76,2018-09-30 14:57:36,Andrey Sitnik,List has no maintaince,False
+97fb83f02160fbfebbf28a8f5985cd846e5bb647,2018-09-23 06:29:11,Andrey Sitnik,Update warning code,False
+d77ecbedcf89e1343bed6e545ee7f139b8495ffe,2018-09-23 06:12:31,Daniel Tonon,"[Updated] Add warning to align/justify-items/content in IE (#1129)
+
+* Add waring to align/justify-items in IE
+
+* Split align/justify-items/content to two different warning and also add tips to waring to align/justify-items/content.
+
+* putting the ""i"" and the ""e"" the right way around
+
+* Adding missing align-content test
+
+* Making warning message clearer
+
+- Triggers on more than just ""display: grid""
+- Personalizes the ""align/justify-self"" suggestion based on what the user entered
+- Splits the warning message into multiple lines to make the warning easier to read
+
+* Increase size limit and fix function to arrow
+
+* Fix tests
+
+* Revert ""Fix tests""
+
+This reverts commit a353ef6610886861182733744261fd182a3a98b3.
+
+* Attempt at fixing grid test fails
+
+It is still failing for some reason but I think the code is a bit closer to how the code is meant to be.
+
+I also added further personalisation to the warning messages as well in this commit.
+
+* Adding missing warning test
+
+* Removing rouge quote mark from warning
+
+* Theoretically this should fix the last 2 real errors
+
+* Fix for inconsistent warning error
+
+* Fix for ""ei"" class names
+
+* Deleting align-content test
+
+I'm deleting this test due to an issue in Autoprefixer causing Jest to not act consistently
+
+Details here
+https://github.com/postcss/autoprefixer/issues/1127
+
+It isn't as simple as just swapping the values around because Jest expects different things depending on what test is being run.",False
+5e4f31b85144d370692ee1a5c5ced7bf0b81480b,2018-09-21 20:59:37,Joshua Hall,"Update Visual Studio build tool link (#1128)
+
+Currently the readme links to an older version of the Visual Studio plugin, the new version of the project is WebCompiler, also by Mads Kristensen.",False
+557560fdef0d2c0cf1b0812f10130e7fd0710f04,2018-09-21 16:22:37,Bogdan Dolin,"[css-grid] Show warning if grid-area and grid-(row/column) both present in the same rule (#1125)
+
+* Implement warning
+
+* Add test cases
+
+* Add ""a"" article to a warning message",False
+154cb6f0a8dbe5a09265830d320ef1ddd1b49eeb,2018-09-19 21:31:36,Andrey Sitnik,Use defaults browsers in playground,False
+8026656b74996e61c1ed74e4cb389f759d039898,2018-09-19 21:30:50,Daniel Tonon,"Playground fixes (#1121)
+
+* Fixing playground watch task
+
+It was still pointing to the old playground file name. Now it watches the correct file.
+
+* Fixing CSS Grid translation support",False
+7f9d522c4eb1df093b44a617f874bb85baa062bd,2018-09-19 02:31:44,Andrey Sitnik,Clean up test,False
+2471de84d0596778a38c915c2e70c47945aad92c,2018-09-19 02:26:50,Bogdan Dolin,"WIP: [grid-area] implement duplicate grid-areas (#1095)
+
+* [grid-area] implement duplicate grid-areas
+
+* Adding tests for #1091 duplicate area names
+
+* small refactoring
+
+* typos in the test case output
+
+* fix typos in the test cases
+
+* remove duplicate selectors
+
+* fix the order of rules (now it is correct order)
+
+* change the selectors
+
+* Implement areas with duplicate selectors
+
+this needs refactoring, but overall it should work fine
+
+* fix incorrect duplicate selectors spawning
+
+* Implement warning if grid-template selector is not found
+
+* Add tests for warning
+
+* remoove unnecessary 'expect' function
+
+* Fix bug when -ms-grid-row/column-span wasn't added
+
+I forgot to fix this in the previous PR, so doing it now :)
+
+* refactor and add comments
+
+* warn user when grid is enabled and display: contents; is used
+
+* fix bug when last similar rule is undefined
+
+* fix areas to be inside @media with grid-template (only if areas above)
+
+* add more test cases
+
+* fix the previous test case (some rules is merged now)
+
+* merge rules inside test case
+
+* add the functionality to allow more rule merging
+
+* remove unnecessary conditions and refactor
+
+* small refactoring
+
+* Remove 'duplicate area names' warning functionality
+
+* Rewrite the implementation of insertArea function
+
+Hack API wasn't enough to implement grid-area rules with 
+duplicate area names, so I moved the call of insertAreas
+function to processor.js and rewrote it from the start.
+
+* Update stylesheet test cases to fit the new duplicate rules feature
+
+As we have duplicate grid-area rules support, the order of rules is changed now. Before that the pack of duplicate rules with prefixes was inserted after the last grid-area rule, but now each duplicate rule is inserted right after the matched rule.
+
+We also preserve the order of prefixed grid-area rules and merge the rules with the same media parameters
+
+* Change the order of test case with media rules
+
+We should pay attention to this commit, I'm not sure if it's right, but the output order for grid-area rules inside media rule is changed. Can it break something?
+
+* Fix the warning test to match the changed css test case
+
+* Rename duplicate-grid-areas-above -> duplicate-grid-areas-complex
+
+I also added the additional complex test case as Dan showed [here](https://github.com/postcss/autoprefixer/pull/1095#issuecomment-412489115)
+
+* [refactor] add comments for clarity, move the piece of code to a different function
+
+* Change warning message (make it more informative)
+
+* Fix typos
+
+* Fix the bug when not found grid-area identifier crashed the compiler
+
+* Change the warning message a little
+
+* Improve warning function to show warnings only for selectors with duplicate area names
+
+* Change warning message
+
+* Add more test cases
+
+* Fix the bug when control comments were ignored for grid-area",False
+e474569e088b4fc36c4c1900a10a5a7cb4a03b59,2018-09-19 02:21:01,Andrey Sitnik,Simplify file names,False
+b72db541ce892d46ec0bf66610758d9ea7d252bd,2018-09-19 02:19:08,Andrey Sitnik,Fix linter,False
+876b0c352807ea3bb8b32bac5e3588521703ebfa,2018-09-19 02:18:13,Andrey Sitnik,Move playground from build,False
+bd0f9e3283007e9e90308ec3652ad454913edcdd,2018-09-19 02:16:52,Daniel Tonon,"Adding a basic experimentation playground to the repo (#1120)
+
+* Adding a basic experimentation playground to the repo
+
+1. Run the command ""gulp play""
+2. Write some CSS in playground.input.css and save the file
+3. View the output CSS in playground.output.css
+
+* Theoretically this should fix the Travis CI error",False
+6a892607a19efb0298c2f19ead6f69646a5de1d6,2018-09-12 23:17:07,Ivan,"Refactoring, remove reduanded else (#1112)",False
+2df05119b85e425d3592a1d9efbd0eb1bd45d24a,2018-09-12 20:17:52,Ivan,"Refactoring, delete unnecessary else (#1111)",False
+69365a7772b09fddb8a8784b31425d8dc393ee42,2018-09-10 10:42:31,Ivan,Fix typos (#1107),False
+ebc1e2399a28f1c03e9544926b1fec2d6b88b0e7,2018-09-05 15:06:42,Roy Revelt,"update babel-preset-env link (#1105)
+
+it was migrated since",False
+139c1092bc54c3ec9454ad7254e4dd1e35abc873,2018-09-04 16:22:49,Andrey Sitnik,Release 9.1.5 version,False
+cbf84543b1332516ddc4854fc9598e65ad5941eb,2018-09-04 16:22:30,Andrey Sitnik,Update Size Limit,False
+bdfdda184f0dd738ddb97b7c799758c71c8893df,2018-09-04 16:20:43,Andrey Sitnik,Fix package.json compiler,False
+4baed8f75fd86a2d2b91e5cdf80c09b7f48fb1d2,2018-09-04 12:28:48,Andrey Sitnik,Release 9.1.4 version,False
+9a7cd076e7292acc2e24c707b03a318eadb989cf,2018-09-04 12:27:02,Andrey Sitnik,Clean up package.json build,False
+b837f682ce3880653851bc2b9da3be7f77773961,2018-09-04 12:26:21,Andrey Sitnik,Update dependencies,False
+2f780d6b0da51fbf7ec3a0ed019cc91373692269,2018-08-30 23:32:19,Andrey Sitnik,Fix tests,False
+fc0cb651bf85db420878264b6d4c6882115b8d94,2018-08-30 13:17:33,Andrey Sitnik,Move Babel targets to Browserslist,False
+bf3110867980d666ae3e293a4155b28f3c398062,2018-08-30 10:12:30,Andrey Sitnik,Use babel 7 in stabdalone build,False
+970c73fe00da76dd30cfafc36013089443931939,2018-08-30 10:07:28,Andrey Sitnik,Use Babel 7,False
+d2bf54e7d6dd837208dbce414e898cfb2532675b,2018-08-30 10:04:48,Andrey Sitnik,Keep git clean from npm/yarn errors,False
+be14801070fac24d1b98b1a3f66d8333b86daa1c,2018-08-30 10:00:44,Andrey Sitnik,Update dependencies,False
+690c5dfffede6f28dfd9b7bd1fb3d6051549d1d5,2018-08-22 12:41:11,Andrey Sitnik,Release 9.1.3 version,False
+5e70d0c9ec20daaa94cb16542f5ab5c0c7a74e7e,2018-08-22 11:30:59,Andrey Sitnik,Fix old FF gradient prefix,False
+a2f77b76c79723ad826299faf584209d3a1a5c84,2018-08-22 11:27:12,Andrey Sitnik,Fix code indent,False
+37c37e78b75c2066b758d59a4c45f3137fda84ec,2018-08-22 11:06:12,Andrey Sitnik,Update docs,False
+6dae47e93a9abf9daad1790bc57d5567a2b76197,2018-08-22 10:57:51,Andrey Sitnik,Sort info output,False
+68050a3ccf2399a272c7b5566e2f9d909ac02244,2018-08-22 10:57:42,Andrey Sitnik,Update dependencies,False
+b73442813ef6f3403e8c00b755a7d435985fee7f,2018-08-20 00:20:53,Andrey Sitnik,Release 9.1.2 version,False
+7d49e606e6f4cb25a91a4f40e9d9c310c04d6314,2018-08-20 00:11:47,Andrey Sitnik,Disable expecte-expect rule,False
+02361dff5523a7faa3861a327e3b43e6fad17f33,2018-08-20 00:10:05,Andrey Sitnik,Fix info on new Node.js,False
+88e1099facfca5aa9ea479d7f543d438db060e2c,2018-08-20 00:04:15,Andrey Sitnik,Update dependencies,False
+82b877d6a67b215e00a3f71d76f97db525be5f38,2018-08-13 08:11:22,Andrey Sitnik,Release 9.1.1 version,False
+2041045121a11996442ee4d8f4a3f05141e9a157,2018-08-13 07:56:15,Andrey Sitnik,Update authors,False
+05ed667c2d23df0e0c46341fc9db0d13912e9803,2018-08-13 07:55:13,Andrey Sitnik,Use Logux ESLint config directly,False
+cc9f533f28282a3e986d2236a9f8c9aba8f04fa9,2018-08-13 07:51:36,Andrey Sitnik,Update dependencies,False
+5dd4a9e38981b19f40ac74fcab45bc8c90b7a2a4,2018-08-07 22:24:55,Bogdan Dolin,[css-grid] fix bug when searching areas and update tests (#1097),False
+ee08b1ec7a2d8e472935dcb60070fba25dff4d4c,2018-08-05 20:09:11,Bogdan Dolin,"[grid-gap] retain gaps through media (#1092)
+
+* [grid-gap] retain gaps through media
+
+* update size-limit
+
+* [grid-gap] fix inherited grid-gap values, refactor and update test case",False
+d07c19d1aa786dff0aa0531842747aa549fe2788,2018-08-05 01:52:02,Bogdan Dolin,"[grid-column] prefix ""span X"" safely (#1090)
+
+* [grid-column] prefix ""span X"" safely
+
+* [grid-row] prefix ""span X""",False
+bd9a765211aa6883fc9500b129064e161c13fcd7,2018-08-04 06:48:44,Eduard Kyvenko,Update the description of `postcss-preset-env` in the README.md (#1089),False
+309e14c6f56e91a2cb8236130a4c7fea9a141a92,2018-08-04 01:35:22,Bogdan Dolin,"[grid-area] fix sequence of breakpoints (#1087)
+
+* [grid-template] fix adding -ms-grid-(row|column)-span
+
+* update code style
+
+* fix rule comparison
+
+* [grid-area] fix grid-area breakpoints sequence",False
+2a9df825131d3146c987cc871e5ac5e91fa72d26,2018-08-03 06:54:13,Andrey Sitnik,Release 9.1 version,False
+11c61e3d60a688e14128bd7927be29110fcc33df,2018-08-03 04:55:42,Andrey Sitnik,Fix code style,False
+73c7b6ab090a9a9a03869b3099096af00be7eb7d,2018-08-03 04:35:34,Andrey Sitnik,Add background-clip support,False
+eba08b850617a0752863e04da093ef3fb3a2ad31,2018-08-03 04:19:56,Andrey Sitnik,Update dependencies,False
+ef59cd39e0581b483dd50bcdcceb7f6f5969c101,2018-08-03 01:06:56,Bogdan Dolin,"[grid-template] fix adding grid span for IE (fixes #1084) (#1086)
+
+* [grid-template] fix adding -ms-grid-(row|column)-span
+
+* update code style
+
+* fix rule comparison",False
+016e53a5f78ef703ea434081d07dadc01803ea61,2018-07-31 01:31:19,Andrey Sitnik,Clean default value of homepage in npm,False
+345664baf2111b3576370c5e184b295fb76b7cde,2018-07-31 01:14:09,Andrey Sitnik,Release 9.0.2 version,False
+ca59a6508c1575e57f202693fbe9b302562a5b3d,2018-07-31 00:46:10,Andrey Sitnik,Update authors,False
+1e7e7a482c2bcd648e740655360ce86537a207b9,2018-07-31 00:41:48,Andrey Sitnik,Update code style,False
+b8d6873e0c32a20c872c8afee2a2d1a7f3f08a87,2018-07-31 00:20:01,Andrey Sitnik,Add name to authors,False
+8bea281348e21130b703ed1f9bd7f0ac5f8e0402,2018-07-31 00:18:21,Bogdan,"Show warning if grid-area has a non-unique identifier (fixes #1038) (#1080)
+
+* implement findNonUniqueAreaIdentifiers
+
+* add tests
+
+* remove todo comment
+
+* add showing warning for grid-area in media rules
+
+* fix showing warnings inside media rules
+
+* fix warnings (add multi-line warnings)
+
+* fix warning indentation
+
+* skip node if no areas are found",False
+8d578e8dae2a0a65e1be2ac73bcf9abc200201ec,2018-07-25 10:46:42,Sven Wagner,"chore(package.json): add homepage attribute (#1082)
+
+* chore(package.json): add homepage attribute
+
+see https://docs.npmjs.com/files/package.json#homepage
+
+* chore(package.json): add #readme to the homepage attribute",False
+3c3a7ca16ca31b52d9e56506d40f2de64bcb7ee3,2018-07-21 23:50:48,Andrey Sitnik,Release 9.0.1 version,False
+d1d86db159974ae357d570a8b5b6df3b90647c4f,2018-07-21 23:50:19,Andrey Sitnik,Update ESLint,False
+f0b5a2482eca1bd1930cea1a7e1bf8744403eab7,2018-07-21 03:44:04,Andrey Sitnik,Update dependencies,False
+d52ea0a957f49c2b2544cc1cd009112dcc9703cf,2018-07-21 03:40:18,Andrey Sitnik,Update authors,False
+fa42e408685aea97c3c4882d109048131cc9cbb4,2018-07-20 21:56:45,Ivan Malov,Fix nested @media rules (#1077) (#1079),False
+9f1878a8c5472dc801544ba22802958d7b65f115,2018-07-18 21:43:43,Matt Buresh,Fix readme typo (#1078),False
+8f09522e093c774217d314e92f1d3f6a6b822a4a,2018-07-17 03:24:22,Andrey Sitnik,Release 9.0 version,False
+7f430f2b5b8f2545c3121a93b917009d89b1ca48,2018-07-17 02:28:11,Andrey Sitnik,Remove AUTHORS from npm package,False
+b98e795544b5856bb9a0527fbde0ade1c49214ad,2018-07-17 01:42:37,Andrey Sitnik,Update code style,False
+f99ddc1fb79526a2e33689e5a0ee184571518f7e,2018-07-17 01:14:54,Andrey Sitnik,Update Babel targets,False
+e5fdbff5296548b756c216e46730321f4d3e6c97,2018-07-17 01:14:33,Andrey Sitnik,Update dependencies,False
+b41f52a939144f0f2e230801986bc7142f163e03,2018-07-17 01:12:36,Andrey Sitnik,Remove Node.js 4 and 9 support,False
+d70ba2f6b8120b3ade79af5037e3ede7adc5bc0a,2018-07-06 10:55:11,Andrey Sitnik,Release 8.6.5 version,False
+bc61818392eaed269a0efdada2fc5ce0c5095ee3,2018-07-06 10:51:02,Andrey Sitnik,Do not show Grid warning without IE,False
+4fef19b4bb7f54d76cfb8b726b0de25eda2aa73e,2018-07-06 10:48:20,Andrey Sitnik,Clean up tests,False
+5f128b34b3351dae842f6422d0ca91339f5b6346,2018-07-06 10:36:36,Andrey Sitnik,Update Can I Use,False
+c63d1cc51cbdbad274d2d5c6f5a7d6cbed75d40f,2018-07-04 22:31:02,Andrey Sitnik,Remove outdated advise,False
+10997bef6469b2a301e15c540b4f9dfb39e3c5c9,2018-07-04 22:30:12,Andrey Sitnik,Update link to Grid guide,False
+6d0c171593ee1744b3d03b65ecae18da0a9954b5,2018-07-03 03:43:00,Andrey Sitnik,Remove not important anymore sections from docs,False
+7b0b7bc7b751dc23bdd58924f744c22081f8a769,2018-07-03 03:41:15,Andrey Sitnik,Clean up docs,False
+09ace8332a2ae1b1e27f93f91e81b17d34bb8486,2018-07-03 03:39:04,Andrey Sitnik,Fix line breaks,False
+ed045410af0c2c879148c49baade3d6b923a545c,2018-07-03 03:37:30,Andrey Sitnik,Typo,False
+83cbac764f6b0f9e48704d78620e8f555e018430,2018-07-03 03:36:38,Andrey Sitnik,Clean up Autoprefixer Grid docs,False
+900a835d21392621b43b39e6f2121b247731bafd,2018-07-03 03:22:04,Stanislav Lashmanov,"Add a FAQ section for IE grid support caveats (#1075)
+
+* Add a FAQ section for IE grid support caveats
+
+See: https://github.com/postcss/autoprefixer/issues/1074
+
+* Add a simple example and link to CSS tricks article",False
+dd77253a99cc6c60949de10602f41560e3263cef,2018-06-26 20:44:19,Andrey Sitnik,Release 8.6.4 version,False
+c4488fe1cc8db1790dad97a7e61e57e6671ba75c,2018-06-26 20:40:35,Andrey Sitnik,Fix stretch prefix,False
+be27584ad3c726c1aa4612bf625f063e6d5ef569,2018-06-26 20:34:18,Andrey Sitnik,Update dependencies,False
+93ada5802ba19339c64b965509ed55b4e4a38901,2018-06-26 01:12:58,Michael Prentice,"fix(readme): Best Practises -> Best Practices (#1069)
+
+according to http://www.dictionary.com/e/practice-vs-practise/ since this is being used as a noun
+it should be spelled with a `c` in both American and British English",False
+490fdb781d59b3f579832e78bc294c317b07cb37,2018-06-18 18:43:40,Andrey Sitnik,Release 8.6.3 version,False
+12deed2966483a963e92815b1d0bbe6e3932a0db,2018-06-18 15:00:25,Andrey Sitnik,Add display: grid and display: inline-grid note to info,False
+ef3ddcd8e94bbc0e74274dd446f4db718d485f0b,2018-06-18 14:56:46,Andrey Sitnik,More clear about Grid properties in info,False
+3841751484a299e393b2ebd11064bf2bed9383c4,2018-06-18 14:49:05,Andrey Sitnik,Clean up code,False
+30f381216a08a281716d8a635aca7ee906bda502,2018-06-18 14:46:05,Andrey Sitnik,Add warning for Grid auto features,False
+09ba48eae312cf2b9f4e8555f81e5206c3539796,2018-06-18 14:30:28,Andrey Sitnik,Clean up code,False
+f8ce7b3458b50594e74772c1e47bf3a724ca0aa5,2018-06-18 14:16:51,Andrey Sitnik,Add warning about old grid properties,False
+a987b70827ea330588caea5890c8ecf1b7515acd,2018-06-18 14:11:42,Andrey Sitnik,Update Can I Use db,False
+d43b44a3acdd20e40d1f12100bc62b3129bbf525,2018-06-09 16:11:36,Andrey Sitnik,Release 8.6.2 version,False
+3bca3bb96994462c16fd513e39d1f8866c2802a7,2018-06-09 16:01:56,Andrey Sitnik,Update dependencies,False
+e1fcde9d00319d422c054e88bc368fe063624760,2018-06-09 15:53:06,Yevgeny Petukhov,[css-grid] Fixed error with media (#1059),False
+ef13295ce9a3545e3722405c5e6532942743c48a,2018-06-07 19:26:16,Andrey Sitnik,Release 8.6.1 version,False
+d4a369288e683a19cc22c8d11b94a59137af43ca,2018-06-07 19:25:47,Andrey Sitnik,Update size limit,False
+f52aa97d615c3d23b56fbd5bc7b622146dde57f9,2018-06-07 19:19:15,Andrey Sitnik,Update dependencies,False
+34bad61d432f72d095218f40a02cdc807e260424,2018-06-07 18:57:15,Yevgeny Petukhov,[css-grid] move media query cell placements to come after cell styles (#1057),False
+9a2ab804651e506acb8ca7af8b60e76328a27792,2018-06-02 15:41:57,Andrey Sitnik,Release 8.6 version,False
+01b2d24d49ca4ee9a7fb6682c1f753b0264784c1,2018-06-02 03:45:42,Andrey Sitnik,Add ignoreUnknownVersions options,False
+eb4d50f1300e2a3ff21f84d8b1924ebec3ead082,2018-06-02 03:36:00,Andrey Sitnik,Increase size limit,False
+c5b6f1e9a330c2bff604907ee61f87872601301f,2018-06-02 03:32:38,Andrey Sitnik,Update dependencies,False
+bd182d1c9102f1eb456ba0426d23beb311cad1bf,2018-06-02 02:33:06,Yevgeny Petukhov,"[css-grid] Two values, gap prop (#1054)",False
+23f3e53e0d4d4ef3c75600aa3cfccec8fd1e2c44,2018-05-30 15:52:29,Andrey Sitnik,Release 8.5.2 version,False
+f571e597aa5eb4121e50977d1ddaf1d821c9b5b0,2018-05-30 15:28:59,Andrey Sitnik,Update authors list,False
+0a6a6091c04a14dbb528ae3fafbc90dd4b11ddbc,2018-05-29 18:08:43,Yury Timofeev,"Fix grid template parsing in case of auto row sizes (#1052)
+
+* fix grid template parsing in case of auto row sizes
+
+* get rid of redundant check for prop name
+
+* move test cases to different files
+
+* simplify logic",False
+72f91aa6531ee8a941f92b7c2fe74ba192ea54ca,2018-05-25 16:59:43,Andrey Sitnik,Release 8.5.1 version,False
+89627f3ac2bf2cbf632951b475d94bd512fef0ee,2018-05-25 16:56:31,Andrey Sitnik,Remove warning on -webkit-fill-avaiable,False
+7e7d1efe435c66f60b2d24ba4da337d9d80743f4,2018-05-25 16:48:54,Andrey Sitnik,Update dependencies,False
+e919e93027c5083c0f38cecefc6c4d4cb864544c,2018-05-14 15:48:22,HongShaoRou,update prefixer disabling way in less (#1042),False
+8609085d9ff61b9ff99599b239c26a6ee5785cf1,2018-05-13 13:32:49,Andrey Sitnik,Release 8.5 version,False
+847bfd5d5312967ddab6808e5196e21915ea0a30,2018-05-13 13:17:35,Andrey Sitnik,Better radial gradient direction fix,False
+f020c4bddfded4bf5868b599a1bec8a326092662,2018-05-13 10:32:49,Andrey Sitnik,Update authors list,False
+8979cabf1236e1b388726659f7af280cbfd96c4b,2018-05-13 10:24:46,Evgeny Petukhov,"Add support for grid-gap (#1032)
+
+* [grid] Test for grid-gap
+
+* grid-gap with grid-template-areas
+
+* [grid] grid-gap with grid-template
+
+* Update Size Limit
+
+* [grid] Clean up code
+
+* [grid] Skip grid-template-row in warnings",False
+3b2ba01b193f64704efa906139f6df8b7b57faef,2018-05-13 10:21:45,Andrey Sitnik,Update Size Limit,False
+e5554628a259078fcfdf6ae0dd7436d9d54489a1,2018-05-13 09:23:03,Andrey Sitnik,Speed up CI,False
+7ea45c50d650b6e6a90e53ce6644ff5592c36951,2018-05-12 10:01:25,Andrey Sitnik,Update dependencies,False
+26c43f544d9476ac51c1698a8d01549d1e0c8884,2018-05-12 02:50:14,phanikandula,"Fix minor typos (#1040)
+
+* Fix minor typos
+
+* Update README.md
+
+* Remove unintended new line",False
+5922206e396325c90e55547035978fb8093c3252,2018-05-12 02:42:24,phanikandula,Fix minor typos (#1039),False
+0338ee9d5e58d728b2867d13a03ba43987ca845f,2018-05-07 22:07:17,Andrey Sitnik,Clean .npmignore,False
+b69e919aae3965119068aabc96a88a3b4425456e,2018-05-07 22:00:38,Andrey Sitnik,Update Node.js versions,False
+18a9f24d84d8144ec9c2bf104b8489f105cc5c06,2018-05-07 22:00:16,Andrey Sitnik,Update dependencies,False
+627fd84c0402b39958810dce87d26de3026a248e,2018-05-05 11:09:35,Huáng Jùnliàng,Fix typo (#1033),False
+eec9bbfd0ab479945cb8da1bd0542922d0a00999,2018-04-28 14:14:51,Andrey Sitnik,Release 8.4.1 version,False
+f2954cf37a9762824f771afea1a69918edcb17ac,2018-04-28 14:03:30,Andrey Sitnik,Fix 80 columns line,False
+58152701c7243cf0e6f98f171261b58599e78db5,2018-04-28 13:59:50,Diablohu,fix Processor.disabled(): check if node has parent before get prev() (#1028),False
+26c252708f2f571acb8c8adf3c9d8ef932b1fc11,2018-04-28 12:15:32,Andrey Sitnik,Better control comment example,False
+dc96427f13361d2ca371cab406cacb10726a9ef3,2018-04-28 12:03:25,Andrey Sitnik,Release 8.4 version,False
+f89be261545b22f2d3d0ebb3310ff4f07f285321,2018-04-28 11:36:34,Andrey Sitnik,More compact code,False
+18be4fe1cd2b44fbe85f73738d8586c4a2e41c74,2018-04-28 11:36:20,Andrey Sitnik,Clean up tests,False
+e5007fee0f8c20b34ab20479c8e04cffed683c25,2018-04-28 11:13:04,Andrey Sitnik,Clean up code,False
+9bb36ce2797d7361feb14a989be650d7e072a31b,2018-04-28 11:11:25,Andrey Sitnik,Update dependencies,False
+d64d31db622576f3651fecebc7f75262ba098189,2018-04-28 10:28:51,Andrey Sitnik,Fix line breaks in docs,False
+f8f61764a6380adce3f1dad57647c7f9c3b9071a,2018-04-28 10:27:04,Andrey Sitnik,Clean up disabling docs,False
+fe77376016b39664bcccf4c170c007d7c031b36c,2018-04-28 10:22:06,Pavel Vostrikov,"""autoprefixer: ignore next"" support (#1027)
+
+* Update documentation about ""ignore next"" comment
+
+* Add tests for ""ignore next"" comment
+
+* Actualize test cases for ""ignore next"" comment
+
+* Support comment ""ignore next""
+
+* Use Node#prev shortcut to find sibling comment ""ignore next""
+
+* Fixed typo
+
+* Actualize test cases for ""ignore next""
+
+* Disable only rule or at-rule without inner properties in case of rules with ""ignore next"" comment",False
+90d435d40d452dda4853a8c278f1334534f596ec,2018-04-28 01:55:04,Andrey Sitnik,Clean up docs,False
+a71af7bf51a8717f5417d6b110e2b19e652b1448,2018-04-28 00:51:59,Filipe W. Lima,"Update examples for Browserslist w/ best practises (#1026)
+
+It came to my attention recently that using [`last 2 versions` may be considered harmful](https://jamie.build/last-2-versions). This specific article uses Babel as an example, but I also remembered that autoprefixer uses Browserlist. I was erroneously thinking that by using `last 2 versions` I would be targetting only most recent browsers, but I learned that it also targets ""dead"" browsers.
+
+Browserlist's repo [recently added a best practise section](https://github.com/browserslist/browserslist/commit/019cb298c433dcd797d0538df8027fa2b2effc25) mentioning this.
+
+I was thinking it would be a good idea to also update the examples here.",False
+21ac5a18e0b152082003e37f251646765825af90,2018-04-26 07:34:28,Andrey Sitnik,Update dependencies,False
+4485c0ed282056d7a37f2e460c53523daac80f7a,2018-04-16 08:18:43,Andrey Sitnik,Release 8.3 version,False
+67e8d22aa24c95c4647e8497ecfbdb24c9ce15b8,2018-04-16 07:36:00,Andrey Sitnik,Fix spaces between in grid hack,False
+196a366d3b1c72f45f92d14aa77da83e932bc68c,2018-04-16 07:10:23,Evgeny Petukhov,"[grid-template-areas] Supported grid-template(-areas) in media rules (#1018)
+
+* [grid-template-areas] Supported grid-template(-areas) in media rules
+
+* fixup! [grid-template-areas] Supported grid-template(-areas) in media rules",False
+c80c4ab7ca1a6005c6699981c910dc2d0b45b6b9,2018-04-16 07:05:16,Andrey Sitnik,Update dependencies,False
+54fa0acda1c42adc7a6c195c1b4df97b047ebfde,2018-04-12 08:58:27,Andrey Sitnik,Improve warning test,False
+c860ba64da9406aac9701fabbd5ab783a360520b,2018-04-12 02:19:33,Gustavo Real,"Look for outdated gradient syntax only inside radial-gradient block (#1017)
+
+* Look for outdated gradient syntax only inside radial-gradient block
+
+* Increase package size",False
+c4b213f7c16aa024684e485afb932be2d88ee220,2018-03-22 05:03:51,Andrey Sitnik,Release 8.2 version,False
+f1fc3e1bcc26c58a697766cc70503b69ab1df4e4,2018-03-21 23:54:01,Yuriy Alekseyev,Clean up requires in data/prefixes,False
+d5ce643a4857e10dc7203511d321a50961fcfe85,2018-03-21 23:35:05,Andrey Sitnik,Update dependencies,False
+7c4dfb150e9c11761ddffa1ffb9d6444fd16b02b,2018-03-21 23:33:24,Sergey Lysenko,"Add color-adjust declaration support (#1009)
+
+* Add color-adjust declaration support
+
+* Remove unnecessary mistakes array, fix hack test name
+
+* Change feature name and link in prefixes.js, add 'print-color-adjust' to names array in color-adjust.js, change html elements to class names and fix indentation in color-adjust.out.css
+
+* Upgrade caniuse-lite version
+
+* Upgrade yarn.lock file",False
+cbf41b977dce6533be0fdb5a87b54e84d5bb0802,2018-03-21 23:29:54,Stanislav,"[color-adjust]: added support for color-adjust declarations (#1007)
+
+* wip: added hack and test, awaiting for caniuse PR
+
+* test(autprefixer): added `color-adjust` property to COMMONS",False
+6579eb594861361cbbac09a856c864fdec061651,2018-03-10 23:36:52,Andrey Sitnik,Removed flexbox section since current browsers do not need it,False
+579461c5f2f87fec0b44eac9c6137eb185137833,2018-03-08 20:47:58,Andrey Sitnik,Update dependencies,False
+5ec9b4a819465a38eb4fb5849d8637639d0dd9c5,2018-03-08 20:13:03,Andrey Sitnik,Rename latest Node.js version in Travis CI,False
+44bb938a2cd47add37291e675ac18fd0bab6d58b,2018-03-03 01:56:15,Andrey Sitnik,Release 8.1 version,False
+32d6a6e0d3444c4de66a3025a7391f356181e6a4,2018-03-03 01:54:52,Andrey Sitnik,Update dependencies,False
+c5b141e090e706b6ec998ded67d8178860117867,2018-02-26 19:29:04,Andrey Sitnik,Fix other line break in the docs,False
+a34f7848c0ed37f04bd30ad5ee69371ad145b509,2018-02-26 19:28:16,Andrey Sitnik,Fix line breaks in docs,False
+5ee600a35a9ae040f33d947f5553b13e20c97d45,2018-02-26 18:21:28,Andrey Sitnik,Update size limit,False
+28a4587cfa3b101e31b0e402141a507299799ba7,2018-02-26 18:16:13,Andrey Sitnik,Fix test coverage,False
+1bea25744a0c4c2a96a4d35973577efbf16d93cd,2018-02-26 17:49:55,Andrey Sitnik,Disable grid tests in prefixes cleaning,False
+bbadec625ca54180034910205a5b635832ecb366,2018-02-26 17:49:29,Andrey Sitnik,Clean up code,False
+9032090a7658658c4c06211b37ce985d2c462cc1,2018-02-26 17:43:51,Evgeny Petukhov,[grid-area] Better grid-area (grid-column/row-end) support (#994),False
+d3cf17dca66e4a591a08a16510669afc427f4680,2018-02-24 05:28:33,Andrey Sitnik,Add Cult of Martians badge,False
+49eecefaae3f9c721dabb192f07021cf9fe005d4,2018-02-24 04:22:34,Andrey Sitnik,Add overscroll-behavior support,False
+2e9c5000cd67d5f4f9afd042b6f42cf8b54c47c1,2018-02-24 03:49:11,Andrey Sitnik,Use fake result in support prefixer,False
+76553dc9b8a704188a774b25fd215f61bf73121b,2018-02-24 03:48:42,Andrey Sitnik,Update Size Limit,False
+d4089a53ebb1f5a8ee545eb9ff25450cffa2bff5,2018-02-23 23:24:01,Andrey Sitnik,Update dependencies,False
+57372472554341529fb071273e3bcd1c16794d4e,2018-02-23 23:18:19,Andrey Sitnik,Unify require style,False
+c5a57ef997ce22e5a18cf1ac19d46a39f442ba0f,2018-02-23 23:16:50,Evgeny Petukhov,"[grid-template] Added support for grid-template shortcut  (#992)
+
+* [grid-template] Renamed file with utils for grid
+
+* [grid-template] Test for fully support grid-template shorthand
+
+* [grid-template] Fix tests
+
+* [grid-template] Added support for grid-template shortcut
+
+* [grid-template] Removed useless method
+
+* [grid-template] Some refactoring",False
+1280d93ed170d6e39205f53c1ff414c03b586428,2018-02-22 16:36:43,Nic Nilov,"Readme stale counts removed, wording improved (#991)",False
+6cf02cf6e051f141494aa41d9dded85987b40739,2018-02-12 05:12:05,Andrey Sitnik,Release 8.0 version,False
+d44d9bd9888e037102394183f5799779b162b2af,2018-02-12 04:21:00,Andrey Sitnik,Promote postcss-preset-env instead of cssnext,False
+25490fa16cb071c6caafcb0840ab2b0604905dc9,2018-02-12 04:19:42,Andrey Sitnik,Fix title paddings in docs,False
+143686d54007c6584b9d39296ddf8d58bd66c19d,2018-02-12 01:49:11,Andrey Sitnik,Update Size Limit,False
+e1853af6d7f735a8ba3b453a4cb394bf0b907ef5,2018-02-12 01:42:42,Andrey Sitnik,Remove page-break-* support since it is not a prefix,False
+ca6ff9bc85852480c8a6e32a7b445f1f379b2669,2018-02-11 16:54:01,Andrey Sitnik,Rename autoprefixer CLI,False
+5bc3c123045d9908f71f4799a327551d8dbe2d5d,2018-02-10 22:52:37,Andrey Sitnik,Use Browserslist 3.0,False
+e1feb331f7ec5f022de4cdf2127202c4c90e4c1c,2018-02-10 03:49:38,Andrey Sitnik,Release 7.2.6 version,False
+ba05148ffad4a4af3ddb5e3d2cd6a9e6a0175f3c,2018-02-10 03:44:35,Andrey Sitnik,Update dependencies,False
+aaecf3bd0370c56a8263422606dda8ec9d204004,2018-02-10 03:40:58,Evgeny Petukhov,"[grid-template-areas] Repetitive grid-area declarations (#983)
+
+* [grid-template-areas] Add test for repetitive grid-area declarations
+
+* [grid-template-areas] Fix prefixing of repetitive grid-area declarations",False
+15a54ab974a45f1ba07c208e702c35422172899c,2018-02-07 20:24:38,Andrey Sitnik,Fix Browserslist config name,False
+312dfffbf88be77e253af46f8872b05844b988d6,2018-02-03 18:14:31,Ryan Zimmerman,"Don't require sub-files in postcss (#981)
+
+Fixes #980",False
+5d94aecd81e1c507406179dd90548d03c69f2617,2018-01-30 14:11:50,Stephen Edgar,"Add missing space in `autoprefixer -info` CLI docs (#978)
+
+* Add missing space in `autoprefixer -info` CLI docs
+
+* Use correct `npx` syntax",False
+f37e5ba9cff5c2d4429306b3f0562f130c7b6d6c,2018-01-12 17:48:01,Andrey Sitnik,Release 7.2.5 version,False
+ecd7eed7d9a66bac493d7dbfa58617908ec09f74,2018-01-12 17:41:20,Andrey Sitnik,Fix value prefixing,False
+e7d0fd3d9aff0142a7dbd0ea2be4c7c3a8ec324c,2018-01-12 16:15:07,Andrey Sitnik,Update dependencies,False
+d6415945f8a7ee1ef11be0a87d61ef6a5a6c6cea,2018-01-02 08:14:50,Andrey Sitnik,Release 7.2.4 version,False
+588f910ee092da9df6f2e9b17da81472900e7c4a,2018-01-02 07:58:53,Andrey Sitnik,Update Browserslist,False
+b3e61296939bd92179efa93085d27697742504fb,2018-01-02 06:51:52,Andrey Sitnik,Update PostCSS,False
+3e477074575f45f70e440936e3d5cad0bb052344,2018-01-02 05:20:00,Oleh Aloshkin,Fix for IE 9/10 in class which use extends (#963),False
+f75818a288b6b77045af608420a136b1b7fb5de6,2018-01-02 04:24:09,Andrey Sitnik,Delete development sections from build package.json,False
+2b4a829e3c866d18c1f618eb543bd2c8012c41e7,2018-01-02 04:21:21,Andrey Sitnik,Remove unnecessary browserlist config from package.json,False
+b37588f21e7ee619bde019b58278194d6f0296b8,2018-01-02 03:55:37,Andrey Sitnik,Use Jest 22,False
+555f957340373456c9911370ea7e6ea7e7f62d7d,2018-01-02 03:53:09,Andrey Sitnik,Update AUTHORS,False
+868c765f8d93a258d4acecdf036a49f00f673e1d,2018-01-02 03:40:24,Andrey Sitnik,Update dependencies,False
+67c1008620c3ee4821ecb3e9a63e41dda34902b4,2018-01-02 03:38:46,Andrey Sitnik,Remove unnecessary dependency,False
+fe3c73dabb9659e1655a0a821a2b45f32a60b3d1,2018-01-02 03:35:29,Andrey Sitnik,Add IE 10 support to build,False
+9c52095150b365c1538c77de98e02c2bdced9913,2017-12-16 19:17:00,Andrey Sitnik,More clear disabling docs,False
+7af5965d3a17fece4a73544ae15bb13276b24bd5,2017-12-14 00:32:39,Andrey Sitnik,Release 7.2.3 version,False
+361ca8cb3c1921554cc598d9080acd9dbd5b5517,2017-12-14 00:29:10,Andrey Sitnik,Update dependencies,False
+0550db0a9a4d024c78ac16fe80f2a80f789975cf,2017-12-14 00:27:53,Andrey Sitnik,Fix test,False
+c762f4bbc1a86aadd5dd0bbb18571976493f91dc,2017-12-13 20:55:18,Evgeny Petukhov,"Fix #954  (#955)
+
+* Add grid-template-areas support
+
+* Fix of GridTemplateAreas
+
+* Fix tests
+
+* Refactoring of GridTemplateAreas
+
+* Add warning for GridTemplateAreas
+
+* Return tests for grid
+
+* Fix #954",False
+c8a69e2669178c38aa255bc6d792c6bcf5e46444,2017-12-08 07:09:28,Andrey Sitnik,Release 7.2.2 version,False
+fe8ec43906667f1eba201e73e36c11106e691820,2017-12-08 07:08:41,Andrey Sitnik,Fix Size Limit warning,False
+93e12e87f04c25232cda6fa4e01a157c0016dc6e,2017-12-08 07:06:01,Andrey Sitnik,Update dependencies,False
+00721633f4900c9c2d2e006a4dd3d29828e8993f,2017-12-08 07:03:45,Andrey Sitnik,Fix strange issue by stacktrace,False
+462f05c2b861df5d03077782c54c7f532beb619c,2017-12-06 19:02:51,Michał Gołębiowski-Owczarek,"Reduce size & make animation check a little faster (#949)
+
+Array#some stops executing once it finds a matching element which makes the
+code a little faster than using Array#forEach in some cases. It's also smaller.
+
+Ref b8cbd673b81360214c3bb4d597b83639aca0027f
+Ref ai/autoprefixer-rails#128",False
+0864685dc120a638c086b3574164cb56cd6e544d,2017-12-04 06:59:56,Andrey Sitnik,Release 7.2.1 version,False
+b8cbd673b81360214c3bb4d597b83639aca0027f,2017-12-04 06:56:25,Andrey Sitnik,Fix old JS runtimes support,False
+842b392c8e1fb73cffedbc7bc2c20c7a40c9608c,2017-12-03 22:24:51,Andrey Sitnik,Release 7.2 version,False
+c3ef200fcac6ef12e375790e938adfd9834e1eea,2017-12-03 21:54:00,Andrey Sitnik,Fix grid-template-areas warning,False
+151f84f995c0559d86fabd0019c90886ae18b936,2017-12-03 21:41:24,Andrey Sitnik,Clean up code,False
+08a0db01867a04cd6f17002d08cb3d3343b3bbab,2017-12-03 21:32:36,Evgeny Petukhov,"Add grid-template-areas support (#948)
+
+* Add grid-template-areas support
+
+* Fix of GridTemplateAreas
+
+* Fix tests
+
+* Refactoring of GridTemplateAreas
+
+* Add warning for GridTemplateAreas
+
+* Return tests for grid",False
+f460f382dfa9ae0488324f5c73f515abd91c88f8,2017-12-03 21:32:19,Andrey Sitnik,Fix Jest warning,False
+8eb84035c948037127bdd926844a35f4d4ce9fd4,2017-12-03 21:31:25,Andrey Sitnik,Update dependencies,False
+79b48cfc27ea347d382a2cc7c5b2cb570ef4ee4f,2017-11-27 20:05:23,Sami Suo-Heikki,Add missing semicolons (#946),False
+7d22d1fdc7e511e5675b6787670cc399b1dca7a5,2017-11-20 04:28:46,Andrey Sitnik,Update Size Limit,False
+01c5385b17bdd4e1f53c9b1a20adb6da9efdbe20,2017-11-20 04:02:44,Andrey Sitnik,Copy bin scripts to build directory,False
+1cb2b6bbddfe0987bc42d0453f078e74d54bb795,2017-11-20 03:57:35,Andrey Sitnik,Add autoprefixer-info CLI tool,False
+83de1e82c0d418aac4a5fa0faebf71a354babdc3,2017-11-19 23:38:48,Andrey Sitnik,Remove unsupported Grid warning,False
+d5801a634f0ebf47c7236b3013ee922a004e14a0,2017-11-19 23:16:27,Andrey Sitnik,Improve test coverage,False
+eb11f027a50c25140e2d1ac84da164b6c97b27e5,2017-11-19 21:05:23,Andrey Sitnik,Add warnings for old radial syntax,False
+0d337529b530670ffd509d425dc0129e488ccf69,2017-11-19 20:52:24,Andrey Sitnik,Use ESLint CI instead of ESLint,False
+36f44e8ed604d0ecaf7c467a379ad2882624d0fd,2017-11-17 21:50:57,Andrey Sitnik,Update dependencies,False
+7c5ec6d9f9d7382b26783b09545de669e15713ff,2017-11-17 21:49:07,Andrey Sitnik,Clean up grid hacks,False
+ac2eb81dcd3ac994b543084b9ef7924a54816ba1,2017-11-17 18:48:16,Evgeny Petukhov,Merge branch 'master' into master,True
+903102ec90fd01d343f3f94f035e9b69bdd8ad9a,2017-11-17 18:44:36,Evgeny Petukhov,Add support for grid-template shorthand,False
+84f1f0fbd346d38f8718134368449346c0d2d52b,2017-11-09 17:50:10,Dmitry Semigradsky,"Add code coverage, tests of initializing and remove not used code (#928)",False
+1f3bae669d2576ace23fe0c4a9443f23ccf0e9d7,2017-11-09 02:12:53,Andrey Sitnik,Update dependencies,False
+713a01946018867f703b82b37386af5d500f1a23,2017-11-09 02:09:37,Andrey Sitnik,Clean up code,False
+1d3ef1c969ab7cfad31e50f9de83d14ba4c5c29b,2017-11-08 21:21:51,Alexey Komarov,"Add partial grid-area support, improve grid-row and grid-column support (#938)",False
+9a523b5631edcffe995f785af41ca6a5dde84e77,2017-11-06 00:56:11,Andrey Sitnik,Do not prefix modern animation-direction values,False
+178547b4cb61b3fbd0c9ea0e726bcce6687321de,2017-11-06 00:51:40,Andrey Sitnik,Clean up code,False
+4effadcc0d25989336eac52c67126351343d9504,2017-11-06 00:29:52,Andrey Sitnik,Update dependencies,False
+aa55b76e6f76f4df8b9c3c76c470eddda93f1832,2017-11-06 00:24:38,Andrey Sitnik,Add Node.js 8 to Travis CI,False
+5857d6a05f729580c558c510f85862b198e2f6f8,2017-11-06 00:21:14,Phil Dokas,Provide a default file path for info() output (#932),False
+f3a633e0ba8ea984eea7666bce255f8f3f84ad7e,2017-10-22 04:21:28,Andrey Sitnik,Release 7.1.6 version,False
+c754a9cbbf396a8793777b9d0151d670c8a35f8a,2017-10-22 04:14:32,Andrey Sitnik,Add warning for multiple control comments,False
+001995840d7f60fcb5dbf68033d991d9930b4220,2017-10-22 03:49:05,Andrey Sitnik,Add warning for having browserslist option,False
+8d457bd81f92516de7a368b70da7dc33767ff96c,2017-10-22 03:43:43,Andrey Sitnik,Fix rare case in indent changes,False
+0a5d38d4025677f60939dfb274419a95011cc5e6,2017-10-22 03:43:02,Andrey Sitnik,Update dependencies,False
+96c8cfb7714f4764c59f4130f718756a47c2fbf3,2017-10-07 03:01:06,Andrey Sitnik,Release 7.1.5 version,False
+fe790bdf63cc15628070cfe55e057071b610ebf3,2017-10-07 02:51:32,Andrey Sitnik,Fix ::placeholder prefix for Edge,False
+a2ef2a4a664888e6fae8b941e364014b676114d0,2017-10-07 02:35:24,Andrey Sitnik,Fix common values in flex-direction,False
+be2742b765044a7e53dcd58d9e12247ed519c613,2017-10-07 02:29:45,Andrey Sitnik,Update dependencies,False
+ac37fce2d4f1ba4ee1901c1a40f91b594dfc173b,2017-10-07 00:41:26,Andrey Sitnik,Clean up comments,False
+a4444f73ffeaa6f0bad1169f2741fb8387045534,2017-10-07 00:38:44,Yet Another Minion,"Bugfix reuse of global RegEx object. (#918)
+
+When the same global regex object is used, you need to reset the lastIndex property.",False
+2de3db86c53bb34f36ad3aa8966613175564b067,2017-09-25 12:55:43,Andrey Sitnik,Update dependencies,False
+6c8f609866e0fbac784835ce00dc5b9342495c4d,2017-09-16 12:09:44,忆初,Fix typos (#908),False
+ebd01872461ace01ffdd5b9da31d209c281766b0,2017-09-08 14:41:51,Andrey Sitnik,Fix other builder section,False
+f343524885eb1cf516b31e43a1e9e17742a018f3,2017-09-08 14:37:11,Andreas Haller,Link to Neutrino build tool integration in Readme (#901),False
+c6eb543248bf6ef6d9b4160689c39c62130f3d45,2017-09-07 10:37:55,Andrey Sitnik,Release 7.1.4 version,False
+5968ea514fe84a7a20ded89db1f0322a057e057a,2017-09-07 10:29:21,Andrey Sitnik,Reduce Size Limit quota,False
+c6a6237cf0c506ecc472fee7a17e8ead153de1d2,2017-09-07 10:01:43,Andrey Sitnik,Allow to use image-set in cursor,False
+46a2d41b31b389d9540de7c9e42743608f9a5dbf,2017-09-07 09:59:16,Andrey Sitnik,Fix radial gradient direction convertion,False
+27e9fb0402ad242af22bdfd85bc7a22da90bd95b,2017-09-07 09:49:13,Andrey Sitnik,Update dependencies,False
+c85dcea48c2c7fe74a9d6a81208af3feea5664ae,2017-09-02 17:38:15,Peter van Westen,"[Refactor] Removes redundant else structures (#895)
+
+Removes redundant elses after early returns.
+Result: less indentation, more readable, easier to follow",False
+f45c1e615ebdb690242d241ed0da1251f1ff9f6e,2017-09-02 17:36:45,Peter van Westen,"[Refactor] Removes redundant else structures (#889)
+
+* [Refactor] Removes redundant else structures
+
+This one has a bit more refactoring going on, so you will need a good test run n this. Or drop it, if you don't think it is worth it :)
+
+It would clean stuff up a bit to extract a large part of the code in the for loop to a separate getItem method.
+That way you can do early returns more easily and only need one result.push(item);
+
+Something like:
+``` 
+                item = this.getItem(propPrefix, decl);
+                result.push(item);
+```
+
+* Update value.js
+
+* Update value.js",False
+fb68a0b721acae83f02cbe9a408aa11c12d4232e,2017-09-02 16:01:41,Peter van Westen,"[Refactor] Removes redundant else structures (#891)
+
+Removes redundant elses after early returns.
+Result: less indentation, more readable, easier to follow",False
+d92b5e831879c63676a8db47d2c0c8721291eb13,2017-09-02 16:01:35,Peter van Westen,"[Refactor] Removes redundant else structures (#892)
+
+Uses early returns (and continues inside loops) so else statements are made redundant.
+Result: less indentation, less code, more readable, easier to follow",False
+1510c6ded4e630b7437a6699429771e3d657345f,2017-09-02 15:58:17,Peter van Westen,"[Refactor] Removes redundant else structures (#893)
+
+Removes redundant elses after early returns.
+Result: less indentation, more readable, easier to follow",False
+877fde7eb3887b1f5e9260a2d4e38094f8416d5f,2017-09-02 15:57:58,Peter van Westen,"[Refactor] Removes redundant else structures (#890)
+
+Removes redundant elses after early returns.
+Result: less indentation, more readable, easier to follow",False
+aafd9ee60899de869b10ed7d750e2986be6ddec2,2017-09-02 15:17:44,Peter van Westen,"[Refactor] Removes redundant else structures (#888)
+
+Changes if/else structure (flips it) so early returns can be used and else can be removed.
+Result: more readable, easier to follow",False
+efc12c8459d79a0beec105c1a8094f8957f016f7,2017-09-02 15:16:29,Peter van Westen,"[Refactor] Removes redundant else structures (#887)
+
+Uses early returns (continue inside loops) so else statements are made redundant.
+Result: less indentation, less code, more readable, easier to follow",False
+111c1b80723222e45ac94c74df7d22e1cca1bed1,2017-09-02 15:00:05,Peter van Westen,"[Refactor] Removes redundant else structures (#886)
+
+* [Refactor] Removes redundant else structures
+
+Removes the else after the continue (inside a for loop).
+Result: less indentation, less code, more readable
+
+* Update resolution.js",False
+103c891277d26a809f816cff87887093367d4bb9,2017-08-28 10:45:20,Andrey Sitnik,Release 7.1.3 version,False
+23228b405e34ba4596c759c6b82aeb64b8c90f51,2017-08-28 10:30:46,Andrey Sitnik,Update dependencies,False
+d270841acb16c7897a60a9b929500dddb4bace8c,2017-08-24 05:04:41,Andrey Sitnik,Add warning for old radial gradient direction,False
+7b4975a3015844434e5f9839a1a93558f7c0962f,2017-08-23 07:13:45,Andrey Sitnik,Update dependencies,False
+d85c6b6fceff7c62b17b4e45896374d9b9b4356f,2017-08-15 06:33:21,Andrey Sitnik,Update Browserslist,False
+5f8582c882557b2385d104f49def286bf9f6eb78,2017-08-15 06:06:46,Andrey Sitnik,Update dependencies,False
+ee3487aeb5e190f6c2807c9abb0f79ed3d8f54ca,2017-08-10 12:14:29,Andrey Sitnik,Clean up CLI example,False
+8599f6bb6e76e3d0f859c1d088a4255008ae2af4,2017-08-10 12:13:26,David Narbutovich,Added npx example for CLI (#872),False
+548eb7e93a6bda26ce3c9abd26f7606b290a65a4,2017-08-07 07:20:55,Andrey Sitnik,Update dependencies,False
+5d7c109ee5446ac4e9d026ee52cd0e90255030e9,2017-07-31 20:02:57,Andrey Sitnik,Update dependencies,False
+a3964d2661f647f43992ecb296b44933cd1a390f,2017-07-22 23:26:47,Oleksandr Sergiienko,Update dependencies (#867),False
+d84ee1722d2ff41ef1d18260451e5c0876dea4b0,2017-07-17 21:30:32,Andrey Sitnik,Update dependencies,False
+eff6a2c487a134ccbd5bf0821cad61e7ba6d2f5d,2017-07-11 22:51:30,Andrey Sitnik,Update dependencies,False
+e91b38136dcbc68791e5bc7a4b04d68a4f5edfa6,2017-07-10 03:17:10,Andrey Sitnik,Update Size Limit,False
+bc10af0a737103ccc75673df3b26ee432f3fe90c,2017-07-06 21:05:40,Andrey Sitnik,Release 7.1.2 version,False
+005cc51c228f434b2cf7a78531ba34045302e4ab,2017-07-06 21:00:42,Andrey Sitnik,Add text-decoration support,False
+633226a11616c3b506b5d7427c4646fb074bfadd,2017-07-06 21:00:32,Andrey Sitnik,Update dependencies,False
+107594038155b416da98713e2b6ea066e03df38f,2017-07-03 17:03:58,Andrey Sitnik,Add Babelify to standalone build,False
+351456f33e6962a648b9537d4cdc65ff60619bff,2017-07-03 16:51:07,Andrey Sitnik,Update dependencies,False
+296f0ec0ab5db4df7d23b673995c1850fc76dce2,2017-07-03 02:48:09,Andrey Sitnik,Update Size Limit,False
+c77a7d902f819dc3fdb9c8ec52e163019c90363a,2017-07-02 20:55:04,Andrey Sitnik,Add size-limit,False
+e8a8b0e2902530ea3350cfdc9ce709b4fcef58c4,2017-06-30 17:12:02,Andrey Sitnik,Update dependencies,False
+ad1d3bf4fb274b237ae929cf93de7371ecf64537,2017-06-19 20:37:11,Andrey Sitnik,Add min-resolution to FAQ,False
+2c81a92a8f5a24bf70a8953aa94382928194244d,2017-06-13 20:23:40,Andrey Sitnik,Update dependencies,False
+9302357d77031a23c328b8de3a4e10f5453d3022,2017-06-13 00:24:16,Andrey Sitnik,Update dependencies,False
+666856ba1c6b68153c480dd00d37569f8241f398,2017-06-13 00:24:10,Andrey Sitnik,Fix indent,False
+7a24a56c636a9b2a48dddfa656548f7b2bd76796,2017-06-04 21:20:37,Pavel Pustovalov,"Add the usage description for webpack 2 (#847)
+
+* Add the usage description for webpack 2
+
+* Add the usage description for webpack 2",False
+e8eac6926c592cc299ca66bdb5d8339caf40e0e7,2017-05-18 20:00:59,Andrey Sitnik,Release 7.1.1 versionn,False
+98502f3299a8c739e6a79eecebdd48d947dc26e3,2017-05-18 19:52:05,Andrey Sitnik,Clean up code,False
+247ac4b151173bf8b5802982baed00719938fb3e,2017-05-18 19:45:40,Andrey Sitnik,Update dependencies,False
+7e2f44840855a9f28bc75aeb70aedb1ce65de7c0,2017-05-18 19:34:26,一丝,"Fix: In CSS grid, only Safari needs to add the -webkit- prefix to min-content/max-content values. (#840)",False
+77472b67ed16f93d3c523e5346409bf27d6c3859,2017-05-15 04:57:37,Andrey Sitnik,Release 7.1 version,False
+07c503babf350e656ffed275a01ea0bfa66d4b47,2017-05-15 04:39:11,Andrey Sitnik,Add unicode-bidi support,False
+bb27fb7dadb46157771e2a826d368998603affb4,2017-05-15 04:09:17,Andrey Sitnik,Move Jest and ESLint from Gulp,False
+e4f12de2e1fa1efaed5374c4585c24dfcc9d5bfd,2017-05-15 04:05:29,Andrey Sitnik,Update Can I Use,False
+99def371c9511212dfc9c1eaa573abfee813b97d,2017-05-13 03:36:54,Andrey Sitnik,Fix intrinsic prefixes in Grid,False
+382f152d82bb805f66bf95a33d5f44f1d27e24c1,2017-05-13 02:44:21,Andrey Sitnik,Use -webkit- prefix for appearance in Edge,False
+5671602d1c91e7b7fc1c919fc4a5557de4b206bc,2017-05-12 20:04:54,Andrey Sitnik,Explicit way to set directory for info(),False
+ba2292bf829b846a9d7d6ae8aa523a50c58f4ee5,2017-05-12 19:59:23,Andrey Sitnik,Update dependencies,False
+22ff61f40bae75f4ab402891011ee70a26db5bd1,2017-05-12 19:56:04,Andrey Sitnik,Clean up process.cwd usage in info(),False
+03deec80895b9d6892478c7bc6d4ac5ccb09c696,2017-05-12 19:51:43,Fangzhou Li,fix: info() not picking up browserlist configuration (#838) (#839),False
+a0d7c31f146f39c1826e47e9808096b68d20696d,2017-05-10 19:00:55,Andrey Sitnik,Clean up section about postcss-unprefix,False
+1bfd0045863c8c5b9d7661a112017f9234347a26,2017-05-10 19:00:02,刘祺,add link of `postcss-unprefix` (#836),False
+84c07624b889d1c57038e8d4f66b27260cf91347,2017-05-10 05:00:32,Roman Dvornov,Fix typos (#835),False
+00a23917af31c480542bc52f9c5399d620a02ede,2017-05-07 21:31:40,Andrey Sitnik,Release 7.0.1 version,False
+c7524ea6af46e46b9bafa547b910ad8b6031c8b6,2017-05-07 21:29:27,Andrey Sitnik,Fix Autoprefixer for old V8 and browsers,False
+a869009ec766107ec5b2918d3fb225282c4bb905,2017-05-07 21:21:53,Andrey Sitnik,Update PostCSS,False
+e197c55915252b568387f54577958b973d0e7527,2017-05-06 18:59:56,Andrey Sitnik,Release 7.0 version,False
+4c36f15ffd8c5427aae7cd64b05844d3a25b58f2,2017-05-06 18:19:19,Andrey Sitnik,Update Browserslist,False
+0900e12cde11f44d53e66fea93a8a6971e78a2fd,2017-05-06 17:30:47,Andrey Sitnik,Use PostCSS 6.0,False
+35501b310d5c3c1fee4a135295a1875461a35bba,2017-05-01 16:20:44,Andrey Sitnik,Update dependencies,False
+e936cbd052436b6febf9d2d8d78cf083dc986c27,2017-05-01 16:19:02,Andrey Sitnik,Disable grid option by default,False
+3eec9d50dc92d24934193c8a7d7cb414f16e67fd,2017-05-01 16:19:02,Andrey Sitnik,Split disabled logic for add and remove,False
+a5917f3791d466b1bfe77be6192fac079d4f6524,2017-05-01 16:19:02,Andrey Sitnik,Clean up code,False
+bdfb7a4860d825b5eb15b5e44524515470ad7d2f,2017-05-01 16:19:02,Andrey Sitnik,Update Browserslist,False
+eed46f905baa9a2df115cce3b236918344fa2c1c,2017-05-01 16:19:02,Andrey Sitnik,Use Browserslist 2,False
+05a75dccd9c8b8460d75716000b38ce97b330a0f,2017-05-01 16:19:02,Andrey Sitnik,Fix -ms-grid-column-align,False
+c5dbf4420681a8a0a9485399b8b8c931714c0f33,2017-05-01 16:19:02,Dmitry Semigradsky,Replace initClass() to static propeties,False
+72d0b97a3f502a727197859cb19ff86f64d5f156,2017-05-01 16:19:02,Andrey Sitnik,Add missed test after Coffee to JS convertion,False
+50eb27a79809dba99047e5fdbf6a6ede9f4fa0bc,2017-05-01 16:19:02,Andrey Sitnik,Fix transition prefixer after Coffee to JS convertion,False
+e56147444f5de232ada07f139b04eb4946ecf379,2017-05-01 16:19:02,Andrey Sitnik,Clean up code,False
+c6286d3bf69d4a6f31388489c396638ccb97aa4c,2017-05-01 16:19:02,Andrey Sitnik,Normalize if spaces,False
+a4947d9b445a29b06125b60afc0b9346eabe8c7f,2017-05-01 16:19:02,Andrey Sitnik,Make clear vars and beforeEach connection,False
+97801ea4eccf85a43d1c831b8e2d018a9ca5da5c,2017-05-01 16:19:02,Andrey Sitnik,Clean up tests,False
+b87e181561893ed46c616ebc0bd40297b53cc335,2017-05-01 16:19:02,Andrey Sitnik,Replace Mocha to Jest,False
+4498f1c80cbee696197d082140c1246e8484a2f6,2017-05-01 16:19:02,Andrey Sitnik,Fix cache checking,False
+3287f34e8c71fad48abc60a2de0f5e01fb7dcd83,2017-05-01 16:19:02,Andrey Sitnik,Add browsers to babel-preset-env,False
+38ce5c739947f39ba385ccde1fabad2ed66a9e16,2017-05-01 16:19:02,Andrey Sitnik,Remove browsers from Babel build,False
+bc52ed18cf4e64c4f61afcff116e8e5d97923bf9,2017-05-01 16:19:02,Andrey Sitnik,Update Yarn lock,False
+0bb817e448b2e62a7dfda978a9cc140b5fd5659e,2017-05-01 16:19:02,Andrey Sitnik,Add ESLint CLI,False
+e3da8b7b43ea2f6897cc5ae14880e4e1754ea8d9,2017-05-01 16:19:02,Andrey Sitnik,Clean up after ES6 migration,False
+7a535194a91f4197b8e42e9addd09b8683278739,2017-05-01 16:19:02,Andrey Sitnik,Add lint-staged,False
+f806224c4b691e5f4edfcd58fa67077f3d05d501,2017-05-01 16:19:02,Andrey Sitnik,Enable lint for tests too,False
+d5cd704e8bc0aa7658aa49d725288d4a671f7d74,2017-05-01 16:19:02,Andrey Sitnik,Fix test/prefixes.js,False
+9167caa4bf1ce6734967bdc78fce966b8c570979,2017-05-01 16:19:02,Andrey Sitnik,Fix test/prefixer.js,False
+c64fca1249f1fdd5ebbc296860c96aa316d26a10,2017-05-01 16:19:02,Andrey Sitnik,Fix test/old-value.js,False
+bdd3cca59938d4cb09bff791930815089127ddc8,2017-05-01 16:19:02,Andrey Sitnik,Fix test/old-selector.js,False
+636b63db64ccae3d70fcbed8f5cf564dcd9ec423,2017-05-01 16:19:02,Andrey Sitnik,Fix test/info.js,False
+eeecb002c8d3638101f49dc5d0c3532539982969,2017-05-01 16:19:02,Andrey Sitnik,Fix test/declaration.js,False
+c35a5bc08d3f8d76be9d99c05fb6738215feb3d5,2017-05-01 16:19:02,Andrey Sitnik,Fix test/browsers.js,False
+ea6fa8bea2afc433bc853d8c3f5e910c7ec0429d,2017-05-01 16:19:02,Andrey Sitnik,Fix test/brackets.js,False
+658ef9dc6e20dc1fcd8a74c1b0951dd8bf4050d3,2017-05-01 16:19:02,Andrey Sitnik,Fix test/at-rule.js,False
+ab3cfd96257b9145d0b220953a838dccf343b69e,2017-05-01 16:19:02,Andrey Sitnik,Fix test/selector.js,False
+b000e452a0c0b9cd44de9bfa4875e17677173d29,2017-05-01 16:19:02,Andrey Sitnik,Fix test/supports.js,False
+1f1c0450faf15aae11f6c25358453059a606f32f,2017-05-01 16:19:02,Andrey Sitnik,Fix test/utils.js,False
+2c5f3d9d490f6238fbfe7dee5bcc745c992e6018,2017-05-01 16:19:02,Andrey Sitnik,Fix test/value.js,False
+39ebb356740a4507648d37775cb51d0f98653514,2017-05-01 16:19:02,Andrey Sitnik,Update yarn.lock,False
+fc0c82efef819592f5d7cf6451d15eff4a693095,2017-05-01 16:19:02,Andrey Sitnik,Fix data/prefixes.js,False
+3cf1a9b07c374312e4becaf8042777419e210fad,2017-05-01 16:19:02,Andrey Sitnik,Fix code string max length,False
+e01b3536d791e2dc24733cbbbb26d13ec6657a60,2017-05-01 16:19:02,Andrey Sitnik,Fix ignoring important file,False
+8168be73b660a6468e39ff87819353dd49eb2ab2,2017-05-01 16:19:02,Andrey Sitnik,Fix gulpfile,False
+48f08d5b888441c9164bbfe370603a44116631a1,2017-05-01 16:19:02,Andrey Sitnik,Remove bad disables from ESLint,False
+4f8168d71b9ca6858d318e36c17c6f93fe1613e9,2017-05-01 16:19:02,Andrey Sitnik,Update AUTHORS,False
+d1ebc9d798cccb4a517636b7ad34c61ad7089df4,2017-05-01 16:19:02,Andrey Sitnik,Use standard PostCSS .editorconfig,False
+e78a38216aa779320054be477108a8fd56eb768a,2017-05-01 16:19:02,Dmitry Semigradsky,"Porting to JavaScript (#812)
+
+* Rename files
+
+This commit needed for saving git file history
+
+* Run decaffeinate and autofix eslint errors
+
+* Make it work
+
+* Manual editing",False
+17e0e41d9663bab58c37bcefc3f0c7749eed477d,2017-05-01 16:19:02,Ben Briggs,Initial caniuse-lite implementation.,False
+1ccc84d48336aa88a54c4f339671f04f1916c37d,2017-05-01 16:19:02,Andrey Sitnik,Remove node.js 0.12 limits,False
+6439deda8c6c6ef660d77a434a54272b306e5c24,2017-05-01 16:19:02,Dmitry Semigradsky,"Drop Node.js 0.12 support
+
+[Node.js 0.12 maintenance ended last year.](https://github.com/nodejs/LTS)
+Maybe it's time to drop support.",False
+a9ac2f3c0c3ad672b5168458e1106d95f85a413f,2017-04-29 00:49:27,Kevin Pfefferle,Update PostCSS API URL (#829),False
+4851bbce599e9f91b98d5af5bca87655bbcf6d33,2017-04-14 04:28:48,Andrey Sitnik,Update dependencies,False
+5e193416a1a82b7122f987bd8e632774f05468dd,2017-04-09 04:08:57,Andrey Sitnik,Update dependencies,False
+c82a85fee6d604f0109c8fcf2d6a50c798a84331,2017-04-07 00:27:31,Ryan Zimmerman,Fix postcss-cli usage (#808),False
+2cf251118e8aed06806b78330ab1097f634901c9,2017-03-29 20:45:00,Joan León,"Update link to Codekit (#809)
+
+- Update link to Codekit",False
+93c2e0c4159a9278074b6ac2f9af7e3d154c77d0,2017-03-21 13:44:27,Andrey Sitnik,Update dependencies,False
+18bf5550ffa8a4b6125bc306a36f3b7c8c452cf4,2017-03-15 13:50:37,Lucas Caton,Update README.md (#800),False
+3b4cfbe6cbbefd0b2d61538a871f00cfebfded52,2017-03-11 16:50:15,Andrey Sitnik,Release 6.7.7 version,False
+b12960c536df721deae225030fae0a4e1e906b14,2017-03-11 16:44:19,Andrey Sitnik,Fix order for non-digit values,False
+2ea3946695bfc72369db2c0635370344b12fede8,2017-03-11 16:39:27,Andrey Sitnik,Update dependencies,False
+9bcd7397a00f01cf1e1ea7f082a4919f24bc148e,2017-03-06 22:31:28,Danny Pule,"Update README.md (#797)
+
+Fixed typo. 'last 2 version' to 'last 2 versions'",False
+5abd5cebfc024a9825d2c42426a32645f7526adb,2017-02-28 15:32:15,Andrey Sitnik,Release 6.7.6 version,False
+658ea41e7a83f85104988e113f899a37492c3585,2017-02-28 15:31:41,Andrey Sitnik,Update authors,False
+410df73587c32edf55e5c16e055afb45c59e3122,2017-02-28 15:25:21,Andrey Sitnik,Update dependencies,False
+9873d84bc972713a4233219aa1e58cdc5f5dd203,2017-02-28 15:23:35,Kiwi,"Derive from font-kerning feature (#795)
+
+`font-kerning` should derive from `font-kerning.json`",False
+f60c72e46ea09cc6b36058a0c68d072d20dde4a6,2017-02-22 17:36:14,Andrey Sitnik,Release 6.7.5 version,False
+fc8692cdb575f0fcec48852e8a4e924288809d15,2017-02-22 17:32:11,Andrey Sitnik,Update dependencies,False
+e0dace0bae48bc1b28dc5016950dc8ac22bb2ee3,2017-02-22 17:29:22,Kiwi,"Clip Path should derive from css-clip-path feature (#793)
+
+I think clip-path should derive from `caniuse-db/features-json/css-clip-path.json` instead of `caniuse-db/features-json/css-masks.json`.
+This was a real quick patch. Please check for correctness.",False
+9ea0a3ec6bc956fc488f239eeeeb75ae72a66266,2017-02-22 17:29:01,Kiwi,"Add prefix to text-decoration-skip in IOS (#792)
+
+For the sake of completeness and to make one more test pass on our way to make https://github.com/cssinjs/css-vendor comply with autoprefixer :-)",False
+4aa8029515d750ffd179e1a87fe7c980657d4a4a,2017-02-22 17:24:20,Andrey Sitnik,Add ChangeLog description,False
+ac7c8131edcf17af97bc133f741b43d02c921ea8,2017-02-20 19:41:04,Andrey Sitnik,Release 6.7.4 version,False
+f99ac5afa411a09312af197daa3798609000929e,2017-02-20 19:38:21,Andrey Sitnik,Update dependencies,False
+3726958a1e0ccdf1d252197aaecb1cd9bd5816d5,2017-02-15 19:15:46,Andrey Sitnik,Release 6.7.3 version,False
+0b0b7e874f6057be8417fcca322a2dde99e33be2,2017-02-15 18:16:16,Andrey Sitnik,Update dependencies,False
+922c5123e21ffaafa9c47b2aa085908a173e5c2b,2017-02-14 23:46:35,Andrey Sitnik,Rename fill to stretch,False
+bd8a671af05b1047049dfd6274a78e7e35f20e15,2017-02-08 19:32:08,Andrey Sitnik,Clean up Sass comment note,False
+ecb2d56213f2f6dc97f053705e07b8e819d55ccc,2017-02-08 19:30:47,Darius,"Shorter documentation for disabling in Sass/SCSS (#788)
+
+* Added documentation for disabling Autoprefixer in Sass/SCSS
+
+* Shorter documentation for disabling  in Sass/SCSS",False
+42da6b6109d35ee5a52921da44c1d5fc28d6fc23,2017-02-02 19:11:51,Andrey Sitnik,Fix typography,False
+ed25dec3af72c18f04eae1669cc5fd577050a3b6,2017-02-02 19:10:52,Junliang Huang,add postcss-font-family-system-ui to FAQ section (#780),False
+b2a30f91d1cb0909ad3c61ce0a777465912bf199,2017-01-31 21:32:56,Andrey Sitnik,Release 6.7.2 version,False
+e71602f5e14a9f093b37bb711f2ce13cf327ee8c,2017-01-31 21:20:28,Andrey Sitnik,Update dependencies,False
+7a4350aa9dbfa725be396e3c4a46294a12f62cd6,2017-01-31 21:18:14,Andrey Sitnik,Do not generate flex/grid prefixes in supports if user disable them,False
+f1af49805f304c0661cf629ca074346bda110ef9,2017-01-30 18:31:20,Andrey Sitnik,Release 6.7.1 version,False
+bdda6b041d6ec0cc5864218fbc2f3feecad54fbb,2017-01-30 18:10:07,Andrey Sitnik,Update dependencies,False
+72bc74fdb6e699839d311450f0870d6ac1505569,2017-01-22 18:35:09,Andrey Sitnik,Release 6.7 version,False
+b6a86b795f39a2e9e6198d64236fac460c2698ed,2017-01-22 18:20:51,Andrey Sitnik,Update dependencies,False
+9957a1e5566cee9d22fe54afa1ad1114160ef39c,2017-01-21 16:13:25,Andrey Sitnik,Update Browserslist and PostCSS,False
+26f59760052746c70aebb32354bae566843b5931,2017-01-19 17:36:11,Andrey Sitnik,Add flex-flow partial support for 2009 spec,False
+9a72742744236bdf2f8f02365a82956a431acae9,2017-01-19 17:35:46,Andrey Sitnik,Clean up code,False
+77067928bb31290c90fcdeb4aab9231881fcd39c,2017-01-19 01:37:04,Andrey Sitnik,Fix no-prefix future warning,False
+27431e018d68adcd48bcbc46618ef6a60a02023d,2017-01-19 00:01:01,Andrey Sitnik,Update dependencies,False
+181c6e767535e3b5463151a1dfb0e767a49715e9,2017-01-03 10:54:32,Andrey Sitnik,Release 6.6.1 version,False
+02a73550cf508631ddc3a8a3ab8429d450f8e16d,2017-01-03 10:36:03,Andrey Sitnik,Update dependencies,False
+726edbe8f21794b0f6beeeb06a0fa88c507fb97e,2016-12-27 09:33:36,Nick Marchenko,Update README.md (#760),False
+3340d179187e58641dde7788aae4216ccba62dca,2016-12-26 13:41:24,Andrey Sitnik,Update dependencies,False
+fb2c2f94e132394eecd15e0e937302d959c36257,2016-12-24 12:29:21,Chi Vinh Le,Augment prefixes data with feature name (#758),False
+dba1e87d7453608af10fb1351c14b5780253e621,2016-12-23 17:46:27,Artem Yavorsky,Fix README. (#757),False
+dfb11c84393589297b3b2e49ba2ea66e3a20d059,2016-12-23 09:33:06,Andrey Sitnik,Release 6.6 version,False
+23271508d85bd966d9910377c819ed502006cfb8,2016-12-23 09:17:08,Andrey Sitnik,Add yarn.lock to git,False
+3de19bf91d0b175e3c8c8a42aa12d88d4fa344a3,2016-12-22 14:58:33,Andrey Sitnik,Use Browserslist 1.5,False
+89efe39c5770200d9dc11f1507604538fde0d4b2,2016-12-22 14:53:32,Andrey Sitnik,Fix indent,False
+cd59652aaa16a46bde241ec247c162c7f924e0be,2016-12-13 03:13:54,Andrey Sitnik,Release 6.5.4 version,False
+f1dc40cdc6da5dfe6d4eff62629ede0d17d96d77,2016-12-13 02:47:53,Andrey Sitnik,Use yarn,False
+b6bbf5ecbb4c55b860f94cda87df856762c23997,2016-12-13 02:46:02,Andrey Sitnik,Update dependencies,False
+8a3dfb8ba6b89219a751f2884b5ccfa79a1fe9a9,2016-12-13 02:44:43,Richard Wang,"Add hack for unitless 0 basis in IE10/IE11 shorthand flex (#749)
+
+Only applies when there are three components in the flex property.
+
+This is because when there's one or two components only, it's
+ambiguous whether whether the first component being a unitless 0 is
+intended to be flex-grow or flex-basis. Browsers resolve this by
+treating such cases as a flex-grow of 0.
+
+Note with IE11 that even though it understands the unprefixed flex
+property, we don't apply the hack there. Instead we let it treat the
+unprefixed version as invalid, and fall back onto -ms-flex.
+
+Finally, although some CSS minifiers may revert the 0px to 0, we
+don't use 0% instead, even though many of these won't touch 0%.
+See https://bugs.chromium.org/p/chromium/issues/detail?id=495306
+for why this is the case.
+
+Workaround for:
+https://github.com/philipwalton/flexbugs#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored
+
+References:
+https://www.w3.org/TR/2012/WD-css3-flexbox-20120322/#flexibility
+https://www.w3.org/TR/css-flexbox-1/#flex-property
+https://www.w3.org/TR/2016/CR-css-values-3-20160929/#component-combinators",False
+df689154cdac9345996d3552eb506b6b59de73fc,2016-12-08 05:08:00,Andrey Sitnik,Clean up AUTHORS list,False
+03cbbe27e8917a6324c68be59f71c62f8658476d,2016-12-08 05:06:29,Richard Wang,Add AUTHORS using list generated from git log (#751),False
+7954b4938e06bcab5238862b63860968e31860b4,2016-12-05 18:41:01,Andrey Sitnik,Update dependencies,False
+b98671169fa7d829ca89ad5b47c5a8cbb5d7304c,2016-11-11 19:39:42,Jack Moore,Removed unused require (#743),False
+bba90fc888115127ac5f378b06f79b28e778f030,2016-11-10 17:58:16,Andrey Sitnik,Release 6.5.3 version,False
+90a145458da06e57b761f4a6faffab7c2e84b9c3,2016-11-10 17:49:48,Andrey Sitnik,Add warning for popular mistake,False
+c55c69ca3ede6f813dfa66bb237d6af54bef7369,2016-11-10 17:46:04,Andrey Sitnik,Updatae dependencies,False
+268a2694f449fb4b08e7ea1e57e67bc85951232a,2016-11-06 17:35:58,Andrey Sitnik,Release 6.5.2 version,False
+009958ad47db33e7693db352b2cd66c78760b73d,2016-11-06 17:32:39,Andrey Sitnik,Update dependencies,False
+4ed0b1f240a57992aa59921096fb09db829ff5fc,2016-11-06 17:32:25,Andrey Sitnik,Add nod.js 7 to Travis CI,False
+d26eaa09246ae8667195e102a32b8681f60445aa,2016-11-06 17:28:19,Reinaldo Schiehll,Remove duplicated text-emphasis (#740),False
+db408712fe28fe31cc130b6ba11e78fc927c6651,2016-10-24 18:18:18,Andrey Sitnik,Update dependencies,False
+11fc78f97290079a6cd0a1f9c4671176386ca0fe,2016-10-14 03:41:08,Paul Statezny,Fix minor typo in README.md (#733),False
+cbc0171f24ddf7ede53c15d838c55006af57e1d4,2016-10-13 02:02:39,Andrey Sitnik,Release 6.5.1 version,False
+f4e1c9f6fb98a303dc244e4695cfeae1bbfbde16,2016-10-13 01:56:36,Andrey Sitnik,Update dependencies,False
+8f7e0e62af4734191a9c9a28072468d3a06c8246,2016-10-13 01:52:57,Andrey Sitnik,Fix -- selector support,False
+c84a801a4acb739ca34ced47b0c952df1f48e759,2016-10-03 14:44:26,Andrey Sitnik,Update dependencies,False
+2fd4bfbadd547c3b719b2dbff28aae57456f1112,2016-10-02 23:35:51,Igor Adamenko,fix link to autoprefixer-rails (#725),False
+d98f39ef999c44f4026cbabbf208981e31279f3c,2016-09-29 15:17:10,Andrey Sitnik,Update dependencies,False
+a5614af70d63645b8437224d174b7b8581bb11fb,2016-09-27 14:26:05,Andrey Sitnik,Release 6.5 version,False
+09ba43d7474fee7391b6e8c8d531e08ac493fe2b,2016-09-27 14:08:46,Andrey Sitnik,Update dependencies,False
+e6223783aa9f960295294bee3c23f4ad98b4038f,2016-09-27 00:57:41,Andrey Sitnik,Generates -ms-flex-item-align on align-self instead on align-items,False
+a46c4ae31befc264229ffb74437d9a574e8e7dff,2016-09-27 00:56:55,Andrey Sitnik,Fix align-self cleaning on webkit and webkit 2009,False
+54c0db1aee0f686eae24635906b07100a2ba0f4e,2016-09-26 22:15:02,Andrey Sitnik,Do not add grid prefix for align-items with flexbox value,False
+2a7a167322de02fcb2326a19798a792b3a6f61ae,2016-09-26 18:56:20,Andrey Sitnik,Update dependencies,False
+30254b7590b4e00f94c5eac7ba14bbce41b9f142,2016-09-12 06:54:32,Andrey Sitnik,Update dependencies,False
+337b7d92b3374cd672dd0c939c4b5d1d6f3dfa2a,2016-09-02 05:35:33,Andrey Sitnik,Release 6.4.1 version,False
+6754a6013f04a2013fb9ea55d4a634f5dcdc6a69,2016-09-02 05:33:33,Andrey Sitnik,Update dependencies,False
+01e34a77692af8d1159562220b561aa48947b964,2016-09-02 05:23:10,Andrey Sitnik,Fix null cloning,False
+01767bcb8c0670e3694a13d902e91cee6441558f,2016-09-02 05:23:03,Andrey Sitnik,Update EditorConfig,False
+37635bcf330c4559b2f24e05f157b1bc8d31455f,2016-08-23 00:36:43,Andrey Sitnik,Update dependencies,False
+a7f618659299f623306ebded9f80384e53ac5b3a,2016-08-17 20:28:16,Craig Martin,update postcss-cli link (#700),False
+6ab2e3ceff0c253a092c96fa4691956d0857ff9d,2016-08-14 02:56:08,Andrey Sitnik,Update dependencies,False
+bc491770e37940a39d079a4d36b4be7fc9e0ed16,2016-08-03 16:04:26,Andrey Sitnik,Add code format to ChangeLog,False
+c6d90e957e4a3d222c476a291644c47372eea75e,2016-08-03 15:58:20,Andrey Sitnik,Release 6.4 version,False
+7cb5d47a6c4c01538b2b23505ad55ffdba906185,2016-08-03 15:30:38,Andrey Sitnik,Add :any-link support,False
+0956c030a6fc0d78ccc381d8b01c43857827e8da,2016-08-03 15:27:31,Andrey Sitnik,Update dependencies,False
+69a164198355e2288ba4549eb9c36d9be4542cea,2016-08-01 14:13:06,Andrey Sitnik,Use better data for text-decoration-skip,False
+28194ba7d72368adc2e7cecb2bd4afba18c2d0ea,2016-08-01 14:13:06,Andrey Sitnik,Fix node.js 0.12 support,False
+3b7d6eb76d86161f27dd26ee0c9a35f61fceacf9,2016-08-01 14:13:06,Andrey Sitnik,Fix backface-visibility prefix for Safari 9,False
+da51422c8fecfa16f2c4b0f861fcf109107dc7f3,2016-08-01 14:13:06,Andrey Sitnik,Use Safari way for Opera 12 transition,False
+15b00ad10216953aad91405e01f48705ec638240,2016-08-01 14:13:05,Andrey Sitnik,Add text-decoration-skip support,False
+4da9091d8270e3a960c665557866c934ea2d3590,2016-08-01 14:13:05,Andrey Sitnik,Add transition: duration property; support,False
+cd664525353d9e4fdb970e900b88106ba3376f04,2016-08-01 14:13:05,Andrey Sitnik,Remove Grid Layout Safari TP support,False
+117a71a1c9e73504f16921431cd130f29d404ac4,2016-08-01 14:13:05,Andrey Sitnik,Add postcss-flexbug-fixes,False
+51589230541f71f482f607022cd0ce776224eed3,2016-08-01 14:13:05,Andrey Sitnik,Make tests independent from browsers statistics update,False
+5b31556ca2b61da29d1ca82287a32f21ca1d873a,2016-08-01 14:13:05,Andrey Sitnik,Update dependencies,False
+abc07dcb7d59ea586d186fc29104978516832779,2016-08-01 14:12:19,刘祺,Repair unit conversion. (#664),False
+5a729f338fbd0d6c9b83744ba12189bbd90745b9,2016-07-01 23:20:33,Andrey Sitnik,Release 6.3.7 version,False
+26da3e2378825da9d5c47c15708ec6378d299307,2016-07-01 23:08:16,Andrey Sitnik,Update dependencies,False
+f69d28b97ba10a7e252533d0a023913deef99072,2016-07-01 22:59:41,Andrey Sitnik,Fix stranhe null.constructor() error,False
+764dd8ad6c25fb9aaf4f1fdd644177118be4bb16,2016-05-31 15:26:10,Andrey Sitnik,Update dependencies,False
+4def27dbf86540f8cb8b555f42c0e9018513adfa,2016-05-31 15:23:12,Andrey Sitnik,Add .editorconfig to .npmignore,False
+e64db571b259ba60eb9ecf95077538a5bd6a2b02,2016-05-31 15:22:58,Andrey Sitnik,Use node.js 6 on Travis CI,False
+dd5bf14ba4ae6e579296f35b7c7fa5f5f11c0250,2016-05-28 02:25:43,Andrey Sitnik,Add new question to FAQ,False
+6ff318ec51eb83b17817dccdc2ec1730cd9404c0,2016-05-24 16:38:38,gucong3000,"fix #661 (#662)
+
+* fix syntax error
+
+* fix syntax error",False
+9cd1ca68580adb6f625ce861cdd008c751ace225,2016-05-16 02:23:33,Andrey Sitnik,Update dependencies,False
+8e95d6ebd5d04c134023eee7b04438cbd014b0a6,2016-04-03 00:32:56,Andrey Sitnik,Release 6.3.6 version,False
+62f03b0e16bfd61b691ced99d61342c80464f6e2,2016-04-03 00:24:42,Andrey Sitnik,Add -webkit- support to Grid,False
+730d20379a366dd85adeef4adf6c2466ac3c8eca,2016-04-03 00:22:58,Andrey Sitnik,Clean up code,False
+12ac9ccfab7c9cb0939f89df9ec467363b92fdba,2016-04-02 22:17:10,Andrey Sitnik,Update dependencies,False
+707fd121cf70cb77861abe61f7851ca0bf76a38d,2016-04-02 22:17:05,Andrey Sitnik,More robust Opera prefix test,False
+4402a9d2de039f80c0be47e7be5b66e142d15b4d,2016-03-27 13:47:32,Andrey Sitnik,Release 6.3.5 version,False
+01476c97a01452b641b78deffe92e18a85444766,2016-03-27 13:01:11,Andrey Sitnik,Prevent double prefixing,False
+93507521315408fb31d38b9406b9e377bf330089,2016-03-27 12:30:37,Andrey Sitnik,Update dependencies,False
+f088a32cfce11e4f368255ac2d382eaf1738c63b,2016-03-21 12:10:29,Andrey Sitnik,Release 6.3.4 version,False
+63aca655604a4b6eafa7fd746df207c9bacce576,2016-03-21 12:08:26,Andrey Sitnik,Add newline between browsers and coverage,False
+574e21d13187dabe906125cd645971fc6b3578c2,2016-03-21 12:02:55,Andrey Sitnik,Update dependencies,False
+5465a06f31c7ecbd15cfba6982f1bd200a4d2ccd,2016-02-13 18:43:14,Andrey Sitnik,Release 6.3.3 version,False
+eac54bb7e3ac161d0901ac5d8ee093c94f1756d1,2016-02-13 17:51:08,Andrey Sitnik,Fix compilcated transition warning,False
+24ce5a479f35ed7d4ae3d8d417734823c94251a6,2016-02-13 17:47:05,Andrey Sitnik,Use shared ESLint config,False
+6873e1cefa1f1c7eb53ac6d512a241832782d349,2016-02-11 02:01:16,Andrey Sitnik,Sudo option is now default on Travis CI,False
+ab1d78a1188b7f7b800cfce4178d1f20c338afdd,2016-02-11 01:08:08,Andrey Sitnik,Release 6.3.2 version,False
+f9e0f8f23aa73d69c608e71895a4184e7cb24e16,2016-02-11 01:05:13,Andrey Sitnik,Update dependencies,False
+9a18cddcd7494b10d01b8447e085be71ebdf07e7,2016-02-11 01:01:00,Andrey Sitnik,"Merge pull request #619 from MeoMix/master
+
+Add .json file-ending to all relevant require statements",True
+4d7bf01ed9c32c1d92ad6d7a4ac6e2541eadeec3,2016-02-10 22:22:03,Sean Anderson,"Add .json file-ending to all relevant require statements
+
+It's bad practice to implicitly load files by name without specifying
+their extension. This fix helps autoprefixer work more easily with
+jspm's expectations of how files should be require'd.",False
+2084d2d6bd8a16c6a1d937c84a33c7cb45fab31b,2016-02-04 19:47:15,Andrey Sitnik,"Merge pull request #615 from coryhouse/patch-2
+
+Grammar fixes",True
+a3546ca6ea23f89cf826c1e7d62e4f62bf2a2d5a,2016-02-04 19:30:53,Cory House,Grammar fixes,False
+ed6144638efdbe925005a3f2538c400c46576518,2016-01-29 05:04:54,Ben Briggs,"Merge pull request #613 from mortonfox/patch-1
+
+postcss-cssnext repo has moved",True
+d7ac944748579dc960d91b93ba12462a4089954f,2016-01-29 04:09:29,Morton Fox,postcss-cssnext repo has moved,False
+396dbbd7fecb364cf9b69d28ea7b6116c57197ec,2016-01-15 16:28:21,Andrey Sitnik,Release 6.3.1 version,False
+518e98296e88849092ca4fbde615e35f74112f16,2016-01-15 16:26:14,Andrey Sitnik,Fix Flexibility compatibility,False
+dd783de623cc8ae4a3009499a5ad8cb64e2bd746,2016-01-15 01:27:26,Andrey Sitnik,Release 6.3 version,False
+689aaafece0a2e51ca81c7f8b37e16f364f2904d,2016-01-15 01:04:03,Andrey Sitnik,Add stats option to pass it to Browserslist,False
+bb053aae2b062703f018f0c8812eb985b91c0dd3,2016-01-15 00:11:35,Andrey Sitnik,Update dependencies,False
+d269721839093c8529fe064c4d358dc728dc495b,2016-01-13 16:38:07,Ben Briggs,"Merge pull request #607 from harianus/patch-1
+
+Fix styling backtick",True
+91481769caae3da4a2aba24bcee04da68afd904e,2016-01-13 16:26:22,Adriaan,Fix styling backtick,False
+5b21e91038cabbd02ebda162454fec0f9efa217f,2016-01-11 20:25:37,Andrey Sitnik,Warn user on unsupported Grid features,False
+a64a06652ba06c2ece737c311995cb1fac9f1ade,2016-01-11 20:12:55,Andrey Sitnik,tes no warnings during common tests,False
+3dc28b1d53ea954a3c1f5db34c667bfcd0a5f4f5,2016-01-11 20:05:36,Andrey Sitnik,Do not prefix unsupported values,False
+3dc263b15490a40f87cbe1143822efe568b08517,2016-01-11 19:59:13,Andrey Sitnik,Add grid-row and grid-column support,False
+fcb8b0353f1b868570de350a9ef15c91f0116ca8,2016-01-10 15:25:43,Andrey Sitnik,Add text-spacing support,False
+87db0e312a255c2b5448554beeee9346bc0341f9,2016-01-08 00:15:53,Andrey Sitnik,Add grid-*-end basis support,False
+891c67ca428e2fc1ef9508fc291cb00cc9e55317,2016-01-07 05:25:41,Andrey Sitnik,Fix README option value example,False
+b6d228fe4b5fc6f326d5bc80d0300ca157147db7,2016-01-07 05:24:57,Andrey Sitnik,Allow to disable 2009 flexbox,False
+f89353ef45b0e5391d43f3c16ee1d5b94ffebd5f,2016-01-07 05:09:05,Andrey Sitnik,"Allow to disable at-supports, flexbox and grid support",False
+b558b1e156b0d6da0e0fb30c06bd9faf5421ea73,2016-01-07 05:08:17,Andrey Sitnik,Clean up indents,False
+d100c5741a49762f968d452700768ae420dbf332,2016-01-07 04:20:46,Andrey Sitnik,Fix compatibility with other PostCSS plugins in some cases,False
+882a97f713d824a42ddad1ebd4918567a716128c,2016-01-07 04:03:43,Andrey Sitnik,Add Grid Layout support,False
+eafe8bef13e2b84d8b4d3d41eddd854beb2f6066,2016-01-07 02:34:52,Andrey Sitnik,Clean up code,False
+feba200d954609a529692c43122dc96fcd75112e,2016-01-06 19:49:03,Andrey Sitnik,Update Browserslist,False

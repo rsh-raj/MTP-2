@@ -1,0 +1,2492 @@
+Hash,Date,Author,Message,IsMerge
+be621152d2c0a23079296035bb26e57cebe2f319,2024-09-13 18:18:05,Pelle Wessman,17.1.2,False
+004e63b782b3d40c8c81ae6fe052d688e70dfd43,2024-09-13 18:17:41,Pelle Wessman,"Unpin and bump eslint-plugin-react
+
+Follow up to #1976",False
+75a18774ebd9fb565527dc0463141c2bcb928683,2024-09-12 19:43:36,Pelle Wessman,17.1.1,False
+d535d98f673ee73739bee6cf12372548c4171121,2024-09-12 19:42:45,Pelle Wessman,"Pin eslint-plugin-react to `7.35.2`
+
+Fixes #1976",False
+170a02fd52fddec2d5556c0b2d324ceb246b1bf6,2024-07-20 00:13:24,Pelle Wessman,"Deactivate cron on external tests
+
+Since I'm the last committer I'm the one that's getting all of the failures and I would prefer not to mute this repository in my notifications simply because of that",False
+3b3c316a358ad8d306229a59a67c92891e0827f3,2024-01-23 14:46:09,Linus Unnebäck,"Merge pull request #1962 from SebastjanPrachovskij/feature/add-searchapi-logo
+
+Add SearchApi logo to users",True
+dbf114274535705ad6c23e116ce9764261ddcec0,2024-01-23 14:39:26,Sebastjan Prachovskij,Add SearchApi logo to users,False
+5ff8441adf9e6dadadc24950bbe91d8cb709967a,2023-12-14 14:50:57,Rhett Bulkley,"Merge pull request #1936 from poozhu/master
+
+docs: Update email address.",True
+f40f923acf8acd9dadb0ca3cfaed00678157f19b,2023-11-24 10:52:42,Rhett Bulkley,Merge branch 'master' into master,True
+3b6f95da8b629cdd98bbcf17c05e3691d6f45709,2023-11-22 16:18:24,NintenHero,"Edit Discord badge. (#1954)
+
+Add white Discord logo. Label the badge as ""Discord"". Use the official Discord logo's color value of 5865F2.",False
+c57d3f8b52b783503817a809b40b13b4733b3f07,2023-11-16 15:13:05,"Shahar ""Dawn"" Or","Merge pull request #1928 from standard/mightyiam-patch-1
+
+doc: discord instead of irc",True
+c127e7e7358d1755248f4131100ca51ab673d0f3,2023-10-07 11:02:35,"Shahar ""Dawn"" Or","Merge pull request #1943 from standard/rm-lock-threads
+
+build: rm lock threads workflow",True
+8c9391bd350820e0c27a131ab2e21f4cd6ef7172,2023-10-07 11:00:24,"Shahar ""Dawn"" Or",build: rm lock threads workflow,False
+4364ae0f167e9e5f02073e9b62c5b7c636c5afda,2023-10-07 10:58:40,"Shahar ""Dawn"" Or","Merge pull request #1937 from standard/add-to-project
+
+build: add-to-project workflow",True
+4f920cd55d2e4d16420205124e0cb2443d17093f,2023-10-07 10:49:44,Rostislav Simonik,build: add-to-project workflow,False
+1e2c8c394fd4a082e14274548e182a7edc957e9c,2023-09-16 12:50:37,Rostislav Simonik,build: add-to-project workflow,False
+928f11c0970e6a1ccc87ae70a8569ba55d71f5ec,2023-09-16 12:50:34,Rostislav Simonik,build: add-to-project workflow,False
+dc0cf436318fd2fc1adedbf864bc614dca90bc80,2023-09-16 12:50:31,Rostislav Simonik,build: add-to-project workflow,False
+2f1f7f493d1f21e11c3876242205c4b7fe03aa8e,2023-09-16 12:50:28,Rostislav Simonik,build: add-to-project workflow,False
+00487f9e6fe4af993e02d5d22586df68f0dd0cf7,2023-09-16 12:50:25,Rostislav Simonik,build: add-to-project workflow,False
+c5ea6c1d07b5ced323c17c8abce9e46554dd0982,2023-09-16 12:50:22,Rostislav Simonik,build: add-to-project workflow,False
+9da6c390eeedf31b47bd7c28bbe06845898ee5c3,2023-09-16 12:50:19,Rostislav Simonik,build: add-to-project workflow,False
+f5f9549933f31de33045143e9fe6090ee4e3da0f,2023-09-16 12:50:17,Rostislav Simonik,build: add-to-project workflow,False
+30f37f4f0bf886dba03c1cf0c137b1638346e63e,2023-09-16 12:50:14,Rostislav Simonik,build: add-to-project workflow,False
+ff22aac4a5b2e8bfda81437469ae15c16de6dc0d,2023-09-16 12:50:11,Rostislav Simonik,build: add-to-project workflow,False
+92848086b649f9b568a74c8494e2da67553ed4a5,2023-09-16 12:50:08,Rostislav Simonik,build: add-to-project workflow,False
+01c6cbe42fea96ff98758976710f609390ed9c87,2023-09-16 12:50:05,Rostislav Simonik,build: add-to-project workflow,False
+82c6e5837d573cf395eded9ab798fbe975ac2ed3,2023-09-16 12:50:02,Rostislav Simonik,build: add-to-project workflow,False
+0249fcbdbaefb2306db6603edc3323d5b9bc846f,2023-09-16 12:49:59,Rostislav Simonik,build: add-to-project workflow,False
+7a4b6810d2d1b21eb59802e307d8ecddb6917993,2023-09-16 12:49:56,Rostislav Simonik,build: add-to-project workflow,False
+febd4f68db4954b40bc11921b69411695a781f6d,2023-09-16 12:49:53,Rostislav Simonik,build: add-to-project workflow,False
+ca325f40e39ce24bcd6cf3142f80f59f69e58a4d,2023-09-16 12:49:50,Rostislav Simonik,build: add-to-project workflow,False
+01a439fa25cb97c6ef91fbb42fd73c0c99d6ca0b,2023-09-16 12:49:47,Rostislav Simonik,build: add-to-project workflow,False
+11f36b85fd648040f409a7bc750708d0a27a4def,2023-09-16 12:49:44,Rostislav Simonik,build: add-to-project workflow,False
+591c22c0486ffd580edeffe409730e32d15a50b3,2023-09-16 12:49:42,Rostislav Simonik,build: add-to-project workflow,False
+60881763f0d08330f623a7e46aa4ad63790d7a3a,2023-09-16 12:49:39,Rostislav Simonik,build: add-to-project workflow,False
+93499d875f588758c8fb4ea832659f0bff3e6eb5,2023-09-16 12:49:36,Rostislav Simonik,build: add-to-project workflow,False
+2bcc1516be2a515159a9f96e51c337c6a9f5db4a,2023-09-16 12:49:33,Rostislav Simonik,build: add-to-project workflow,False
+b49a182269fbb27b536f7064495b93ae5d20652b,2023-09-16 12:49:30,Rostislav Simonik,build: add-to-project workflow,False
+3ed67318df146356ff1aa446cf54224f25ce1d6d,2023-09-16 12:49:27,Rostislav Simonik,build: add-to-project workflow,False
+bcbd90ea1634b52a3417142d5d8a711aa927a770,2023-09-16 12:49:23,Rostislav Simonik,build: add-to-project workflow,False
+3d2c4a782cb11803db369d625cf88961579763ce,2023-09-06 10:07:52,poozhu,docs: Update email address.,False
+c4df482e1fdc440369965f7ed55fa4ce65e2e39d,2023-07-29 22:13:16,"Shahar ""Dawn"" Or","doc: discord instead of irc
+
+I didn't see anyone inside the IRC room. However, the Discord server has users in it.",False
+bc58126eb72433953df2275643800aa86e185ac7,2023-06-16 18:13:20,Feross Aboukhadijeh,Merge pull request #1914 from GowoonJ/patch-1,True
+24ad28efe2623e0b4d10fa159f3288556057dc28,2023-06-12 08:11:18,Gowoon,"Update RULES-kokr.md
+
+fix: markdown synax error",False
+78da6e6afd35409e33237db0786354d0c15f3bbf,2023-06-09 22:39:41,Feross Aboukhadijeh,Merge pull request #1904 from naturalkei/patch-1,True
+16af4a2811ccf27980e4b5ad2d68a89918bd09fc,2023-05-31 22:07:06,dependabot[bot],"build(deps): update standard-engine requirement from ^15.0.0 to ^15.1.0 (#1909)
+
+Updates the requirements on [standard-engine](https://github.com/standard/standard-engine) to permit the latest version.
+- [Release notes](https://github.com/standard/standard-engine/releases)
+- [Changelog](https://github.com/standard/standard-engine/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/standard/standard-engine/compare/v15.0.0...v15.1.0)
+
+---
+updated-dependencies:
+- dependency-name: standard-engine
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+8f448be27a937b55e332696336eb4664b372e5cb,2023-05-30 19:54:25,Pelle Wessman,17.1.0,False
+a4049f871c4a55e75184cb7e5c1c1b6eba311695,2023-05-30 19:47:31,Pelle Wessman,"Prepare release 17.1.0 (#1908)
+
+* Prepare release 17.1.0
+
+* Downgrade to `eslint-plugin-n` to avoid breaking
+
+Else would need to drop Node <16",False
+c5966f2c7f8a36859f479fbef98388a056bb09e7,2023-05-18 10:28:36,Natural Kei,Update RULES-kokr.md,False
+0e531b3df233bc60deae7207a512415e410d7116,2023-02-06 20:30:35,Fawaz Ahmed,docs: update broken ESLint link (#1888),False
+e4deb800278c8f0cd295dc9faf3c93a7a7bc3a96,2022-11-09 18:37:45,Linus Unnebäck,"Merge pull request #1865 from standard/dependabot/npm_and_yarn/eslint-plugin-n-tw-15.5.1
+
+build(deps): update eslint-plugin-n requirement from ^15.1.0 to ^15.5.1",True
+fac23c8df0d2125493755e5e341bfbaa505b198e,2022-11-09 17:31:42,dependabot[bot],"build(deps): update eslint-plugin-n requirement from ^15.1.0 to ^15.5.1
+
+Updates the requirements on [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n) to permit the latest version.
+- [Release notes](https://github.com/eslint-community/eslint-plugin-n/releases)
+- [Commits](https://github.com/eslint-community/eslint-plugin-n/compare/15.1.0...15.5.1)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-n
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+0934b1a1d1e6f0c08472f9ab3ab798c68c2af108,2022-10-22 14:13:35,Pelle Wessman,remove npm org packages from external,False
+6516bf87f127b7968c34cac0100d48d6c455a891,2022-10-08 16:51:08,Pelle Wessman,Test on Node 18 (#1854),False
+caa357395b48bc5e1cced3c85a5eb47bbf4aeac8,2022-08-10 00:43:29,Dan Flettre,update broken link (#1833),False
+6dd2162312d3bed7f9ff673f247293600afa5ce1,2022-07-19 15:53:55,Pelle Wessman,fix: silent exit on unsupported node.js versions (#1829),True
+f635e4e9295b7dbceaff299ef6029b311c324c4e,2022-07-18 20:52:09,Pelle Wessman,Skip dev dependencies for `old-test.yml`,False
+26efe34f14a308519bbf0ab7ff10c6203c94e5e0,2022-07-18 20:51:41,Pelle Wessman,Stop using the cache for `old-test.yml`,False
+85316d1906af302053c7140d360d159cbe30d315,2022-07-18 20:51:41,Pelle Wessman,Add `4` to the matrix of old versions,False
+d1cc665188b1c7be5e380230d598cb9569a8af8d,2022-07-18 20:51:41,Pelle Wessman,Gather non-`index.js` top level js-files in `lib/`,False
+7dc2ab0073fc5f5da2a3c54b4f0986867fec0eb0,2022-07-18 20:51:41,Pelle Wessman,Add `version-guard` to silent failure on old node,False
+8d832307d9f4e5875c7c32487e596d29db2cf10f,2022-07-13 04:07:01,Chris Gray,"Remove the reference to Typescript being fixed by the pre-commit hook (#1827)
+
+It no longer is since #1675",False
+3bfa8525387d8b549f57cb1e3607d8c5c6f2817d,2022-06-14 05:29:55,Feross Aboukhadijeh,sponsor,False
+94c80e16e0feb7ba2e5ccaa2828d093019d25324,2022-05-29 14:47:43,Linus Unnebäck,"Merge pull request #1815 from ddiu8081/bugfix/docs-update
+
+docs(rules): fix markdown formatting issue",True
+6c2232185be03fec9616135f2eb8567108ffa6dd,2022-05-25 13:36:04,ddiu8081,docs(rules): fix markdown formatting issue,False
+d4d8c08234b6d75d0167f58cb9dd5c483aa4b357,2022-05-24 15:20:32,Mot,docs: add dotenv logo to README (#1811),False
+e89112beb4dd78f15314596a40b5eec170f25d56,2022-05-16 15:01:05,neilnaveen,"chore: Set permissions for GitHub actions
+
+ Restrict the GitHub token permissions only to the required ones; this way, even if the attackers will succeed in compromising your workflow, they won’t be able to do much.
+
+- Included permissions for the action. https://github.com/ossf/scorecard/blob/main/docs/checks.md#token-permissions
+
+https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#permissions
+
+https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
+
+[Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/research/github-actions-preventing-pwn-requests/)
+
+Signed-off-by: neilnaveen <42328488+neilnaveen@users.noreply.github.com>",False
+3c1c6e0ee5c8cc8bcdc2bb9d07f4811396064de0,2022-04-21 03:37:07,dependabot[bot],build(deps-dev): update minimist requirement to ^1.2.6 (#1804),False
+cb919e0aa001deea8865ea46641c6278f7b084d9,2022-04-21 03:35:20,dependabot[bot],build(deps-dev): bump hallmark from 3.1.0 to 4.1.0 (#1769),False
+b680453d43e57afca236c6f13d09bfc52201458a,2022-04-21 03:11:53,dependabot[bot],build(deps-dev): update simple-get requirement to ^4.0.1 (#1771),False
+ea810f974e9786215eba0dc045f1707862632df4,2022-04-21 02:42:54,dependabot[bot],"build(deps-dev): update tape requirement from ^5.3.2 to ^5.5.3
+
+Updates the requirements on [tape](https://github.com/substack/tape) to permit the latest version.
+- [Release notes](https://github.com/substack/tape/releases)
+- [Commits](https://github.com/substack/tape/compare/v5.3.2...v5.5.3)
+
+---
+updated-dependencies:
+- dependency-name: tape
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+5a0969494128bce49b7d180fdc4289a91ef49097,2022-04-21 02:40:28,dependabot[bot],"build(deps): bump actions/setup-node from 2 to 3.1.0
+
+Bumps [actions/setup-node](https://github.com/actions/setup-node) from 2 to 3.1.0.
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/v2...v3.1.0)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+631227154560bff02518c876706fed71abcb459e,2022-04-21 02:40:05,dependabot[bot],"build(deps): bump actions/cache from 2 to 3.0.1
+
+Bumps [actions/cache](https://github.com/actions/cache) from 2 to 3.0.1.
+- [Release notes](https://github.com/actions/cache/releases)
+- [Changelog](https://github.com/actions/cache/blob/main/RELEASES.md)
+- [Commits](https://github.com/actions/cache/compare/v2...v3.0.1)
+
+---
+updated-dependencies:
+- dependency-name: actions/cache
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+ead3af43a56b1bafd7fedeab9f2e5e482152a835,2022-04-21 02:23:30,Divlo,"test(external): disable `feross/simple-websocket`
+
+It uses deprecated `babel-eslint`.",False
+2af241b8b05ce05e5d5c62a97674f27daa836268,2022-04-20 20:41:24,Pelle Wessman,"Merge pull request #1803 from standard/release-stable-17
+
+Release stable 17",True
+d511a2bb79a9cc860b7d15c3245dfe3b861401b3,2022-04-20 20:33:01,Pelle Wessman,17.0.0,False
+67af3a4135567fbddcd1132218490d0df9837309,2022-04-20 20:30:20,Pelle Wessman,Update `CHANGELOG.md`,False
+2ca9ad4fbd41a24261db32ce6f1e7b003ef2a204,2022-04-20 20:24:30,Pelle Wessman,Update dependencies,False
+717ae8e728078adf36d92070adf1a760ecd2962f,2022-04-20 19:29:26,Pelle Wessman,"Disable/remove packages broken for other reasons
+
+See https://github.com/standard/standard/issues/1777#issuecomment-1103931191",False
+41a78f370618fba4269203ee3073382d80fad9a7,2022-04-20 19:29:26,Pelle Wessman,"Disable packages broken by `eslint 7.19.0`
+
+See https://github.com/standard/standard/issues/1777#issuecomment-1103931191 and https://github.com/standard/standard/pull/1702#issuecomment-932961087",False
+72774e89f8b48e61e136991c36a0e717070672d7,2022-04-20 19:29:26,Pelle Wessman,"Disable packages broken by `eslint-plugin-n`
+
+See https://github.com/standard/standard/issues/1777#issuecomment-1103931191",False
+0dd0ea43b1c125e04e6d7fda64c3b98a65d047be,2022-03-04 22:30:21,dependabot[bot],"build(deps): bump actions/checkout from 2 to 3
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 2 to 3.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v2...v3)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+ca1219cb9917d7b1a13fcc3d938b5d60d1c2ee19,2022-02-04 00:31:27,Pelle Wessman,"Merge pull request #1776 from standard/prerelease-17.0.0
+
+Prerelease `17.0.0-2`",True
+439b57c25d93d15ae1d080753b0624c363faf519,2022-02-04 00:27:10,Pelle Wessman,chore: add CHANGELOG entry,False
+a16c41aed6a451438acf2692d870c6f6b4a4043c,2022-02-04 00:23:44,Pelle Wessman,17.0.0-2,False
+c120a60fb66c84aff8ae9e4948bc2684d8e19f3c,2022-02-03 23:55:12,Pelle Wessman,fix: update `eslint-config-standard-jsx` (#1775),False
+40f573d57e791b6c46e1b3508ef67ddfe65995fa,2022-02-01 03:29:48,Pelle Wessman,"Merge pull request #1773 from standard/prerelease-17.0.0-1
+
+Prerelease `17.0.0-1`",True
+d58f637d3395278c53d0b7448fd5ec64c54c95ec,2022-02-01 03:24:19,Pelle Wessman,17.0.0-1,False
+6d5d759130195c779ed633fd1322324ad002e73f,2022-02-01 03:23:14,Pelle Wessman,Prepare for 17.0.0-1,False
+09da4ac30c5e0ae01711b2f16cc0a235eb4e34b6,2022-02-01 01:39:45,Pelle Wessman,"Merge pull request #1772 from standard/prerelease-17.0.0-0
+
+Prerelease `17.0.0-0`",True
+4849cf741d704d8fdaa56a7b127605facf5c4b30,2022-02-01 01:36:35,Pelle Wessman,17.0.0-0,False
+398b7518a0705fa256379aaf2d0371c6734ab742,2022-02-01 01:33:33,Pelle Wessman,Prepare for `17.0.0-0`,False
+e25e9da1494108cd2bdc8cbaf309ec6c3ba64ee7,2022-02-01 01:21:32,Michaël De Boey,"feat: support ESLint 8.X (#1725)
+
+* feat: support ESLint 8.X
+
+BREAKING CHANGE: Requires Node@^12.22.0 || ^14.17.0 || >=16.0.0
+
+* build(deps): eslint-config-standard-jsx to 11.0.0
+
+* ci: only test-external with lts/*
+
+Co-authored-by: Divlo <contact@divlo.fr>",False
+836c2b59c46ccb63a2ecf895e14f03c772e37259,2022-01-16 19:24:41,Linus Unnebäck,"Merge pull request #1763 from aleetsaiya/updateDocs
+
+Update internal link in docs/README-zhtw.md",True
+6bf2a076a4024d0b6a42b2cc0722ca135c0d6f29,2022-01-16 11:08:28,aleetsaiya,Update link in docs/README-zhtw.md,False
+9428ab68a07aef87a0b89f0ac41911aa58dccb7d,2022-01-13 20:32:54,Divlo,feat: update standard-engine to v15 (#1754),False
+3daa16a410e68e523125e30bc6f3b2ebc93a9123,2021-11-29 21:34:37,dependabot[bot],"build(deps-dev): update tape requirement from ^5.3.1 to ^5.3.2
+
+Updates the requirements on [tape](https://github.com/substack/tape) to permit the latest version.
+- [Release notes](https://github.com/substack/tape/releases)
+- [Commits](https://github.com/substack/tape/compare/v5.3.1...v5.3.2)
+
+---
+updated-dependencies:
+- dependency-name: tape
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+605fb5c2d9c3c8c99c5df8d1d621475296ed1f7b,2021-11-29 21:32:11,Pelle Wessman,"build(dependabot): ignore non-major action updates (#1752)
+
+Follow the lead of fastify/fastify#3451
+
+No need to add the PR noise of every little patch or minor update to official GitHub actions. That just creates alert fatigue and drowns out actually substantial and/or important PR:s.",False
+ed04ed4a8f80d68157d0a78e77cd81adaa137825,2021-11-15 23:18:42,Pelle Wessman,"Limit external runs to single Node version
+
+Picking `lts/*` to have it always run on the latest node.js LTS",False
+78efc6c31ab743763cef1d1941696549240d4022,2021-11-15 23:18:23,Pelle Wessman,"Run external tests periodically
+
+To ensure that we catch errors in external modules early.
+
+This runs the tests every third day at 4:47. The time is randomly chosen as is best practice for cron jobs.
+
+GitHub Actions schedule syntax: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#schedule",False
+f3e27f6b42d4e4745315d8026cd2017780a4565b,2021-11-12 15:30:58,dependabot[bot],build(deps): update eslint-plugin-promise to ~5.1.1 (#1731),False
+31c210a707d7bcdfc27b48a4411b4f1c7eb034ce,2021-11-12 15:28:35,dependabot[bot],build(deps): bump eslint-plugin-react from 7.26.1 to 7.27.0 (#1740),False
+8275a9b63ee2cd2b598d38ec9af8187477414152,2021-11-12 15:28:18,dependabot[bot],build(deps): update eslint-plugin-import to ~2.25.3 (#1741),False
+7699a5f92c66e6cd836c10d1f57f338f34482b1f,2021-11-10 19:38:24,Linus Unnebäck,"Merge pull request #1738 from stephenmathieson/patch-1
+
+Fix bikeshedding link",True
+8f32fbf3317806e05f76fc27121205d28ce10756,2021-11-09 03:46:47,Stephen Mathieson,Fix bikeshedding link,False
+c6b120d4f2ea16e04c8c16d88f86312012845b6c,2021-11-06 03:33:43,dependabot[bot],build(deps): bump eslint-plugin-import from 2.24.2 to 2.25.2 (#1728),False
+d2e6dc83f799eceeb673d10945e11e1d78f1cb91,2021-11-06 03:33:16,dependabot[bot],build(deps): bump actions/checkout from 2.3.5 to 2.4.0 (#1737),False
+792876a0140d0548cff879b0b8bad9cd69ff4249,2021-10-26 23:54:53,Pelle Wessman,"Add Lock Threads action (#1734)
+
+Fixes #1717",False
+17c6c17fd35d4711c58fb774937cb5c75463d5af,2021-10-26 23:54:37,Pelle Wessman,Start testing on latest 17 (#1736),False
+7ab8604c31939900abc8f8f99c4a073189683fa5,2021-10-26 14:40:33,Greg Coladarci,Add peek logo to readme,False
+7da7c00694d1abd86568a5aca2a166ef45a5cdbf,2021-10-18 19:31:20,dependabot[bot],build(deps): bump actions/checkout from 2.3.4 to 2.3.5 (#1730),False
+e8e7d3a2be4c43eb7e692ac093e10034b3eab938,2021-10-09 13:46:56,Nacho Caiafa,docs(readme-ptbr): link to different sections fixes (#1721),False
+8ff8471854457c41d3730fadfdccf893d5b75a1a,2021-10-09 13:46:01,Nacho Caiafa,docs(readme-iteu): link to different sections fixes (#1720),False
+ace9f3cd93bb48fc4bac85076d93f17b3728d238,2021-10-08 15:02:49,Linus Unnebäck,"Merge pull request #1722 from NachoKai/patch-4
+
+Link to different sections fixes",True
+54c4388b70ccce2747f2075f4fe583ee72887212,2021-10-08 00:47:21,Nacho Caiafa,"Update docs/README-fr.md
+
+Co-authored-by: Linus Unnebäck <linus@folkdatorn.se>",False
+bb146ea2fbd624fbb6e75f924448912669d81bbf,2021-10-07 21:09:50,Nacho Caiafa,Link to different sections fixes,False
+bae81144f8d5958f9a2934670cf30a762c89693a,2021-10-05 21:27:39,mishina2228,docs(readme-iteu): add missing backticks (#1718),False
+6b6acf187b5134b3396b01bbfa3068f626d0074b,2021-10-03 20:32:41,Pelle Wessman,chore(release): v16.0.4 (#1716),False
+b1833de9708d98075dd14d8d955c7e5b81e0ecef,2021-10-03 15:16:49,dependabot[bot],build(deps): bump eslint-plugin-react to ~7.26.1 (#1714),False
+5403a9b49a930efbc6457b71409b0cf42cc4dbde,2021-09-30 11:28:06,dependabot[bot],build(deps): bump actions/setup-node from 2.4.0 to 2.4.1 (#1713),False
+cb456f51718a93e5e2dce298ad9aee06ee1678d7,2021-09-21 20:19:50,dependabot[bot],build(deps): bump eslint-plugin-react from 7.25.3 to 7.26.0 (#1711),False
+694e175dde19e7756f7d58d7b84c9143fa8d33a7,2021-09-16 15:21:49,Jimmy Wärting,feat: usage of ESM imports instead of CommonJS (#1707),False
+b9abb8453168d8b9d95ff21de7d19af5ed881eaf,2021-09-06 02:35:11,dependabot[bot],build(deps): update eslint-plugin-import from ~2.24.0 to ~2.24.2 (#1705),False
+2bb34ef54441d0106202b14cff31b0d19f40af4e,2021-09-06 02:34:47,dependabot[bot],build(deps): bump eslint-plugin-react from 7.24.0 to 7.25.1 (#1706),False
+1460685759d74e1f5b540054e7c1b23c65a313ea,2021-08-15 16:43:10,dependabot[bot],build(deps): bump eslint-plugin-react from 7.21.5 to 7.24.0 (#1671),False
+da5cd9a03ccb0d4f55e0f169d1bf80e5742d0ab0,2021-08-15 01:03:37,Divlo,ci: add Node.js v16 (#1703),False
+0aacac1f615f6bc2f66c3bec1d4551208320322a,2021-08-15 00:22:50,Divlo,test: separate internal/external (#1680),False
+f0a6b8ec014226a351cc5fff35d99dd9403fd2ce,2021-08-12 00:29:30,dependabot[bot],build(deps): bump actions/setup-node from 2.3.0 to 2.4.0 (#1698),False
+ce28f2f28ce586fa8f40a94a6e2ebc4e10724fbb,2021-08-12 00:29:09,dependabot[bot],build(deps): bump eslint-plugin-import from 2.23.4 to 2.24.0 (#1700),False
+acc70cb800ee3a05c8612ce1625e306a6b3643f5,2021-08-12 00:28:45,dependabot[bot],build(deps-dev): update tape from ^5.3.0 to ^5.3.1 (#1699),False
+a4569c9aedae047be54200aa0f1e1f6860960d2e,2021-07-27 23:47:45,dependabot[bot],build(deps-dev): update tape requirement from ^5.2.2 to ^5.3.0 (#1693),False
+33bcbe22fb47c1a4f274f57fdf758bad9281b4d0,2021-07-21 17:57:53,dependabot[bot],build(deps): bump actions/setup-node from 2.2.0 to 2.3.0 (#1689),False
+7fc229de6425bcc163b41c2ade803fc3dabe7175,2021-07-04 23:05:26,dependabot[bot],build(deps): bump actions/setup-node from 2.1.5 to 2.2.0 (#1683),False
+546d710b5f5dd903d8e349fb847c1e3500b291ee,2021-06-30 19:10:54,dependabot[bot],build(deps): bump eslint-plugin-promise to 5.1.0 (#1682),False
+6b7a0fcd1203d56baa0400d02c49ce23cffe8d89,2021-06-29 22:02:41,dependabot[bot],build(deps): bump eslint-config-standard from 16.0.2 to 16.0.3 (#1667),False
+a94771e523e60009ed5e8b5ab9c82fa2d40795a4,2021-06-29 22:02:19,dependabot[bot],build(deps): bump actions/setup-node from 2 to 2.1.5 (#1660),False
+60b56131b32f3eea3eb4fbccd9f397eb4a116b72,2021-06-29 22:01:58,dependabot[bot],build(deps): bump actions/checkout from 2 to 2.3.4 (#1659),False
+cf4faf51057c17b3dbc77b5ad93795168519efd2,2021-06-29 22:01:34,dependabot[bot],build(deps): bump eslint-plugin-import from 2.22.1 to 2.23.4 (#1670),False
+eda2cac73867ba245a952edc900d413fffca3369,2021-06-29 22:01:13,dependabot[bot],build(deps): bump actions/cache from 2.1.5 to 2.1.6 (#1669),False
+b0b00b0a34bb5c6fb9d234c8693af5a3a81695a1,2021-06-29 21:44:28,Divlo,test: disable cerebral/url-mapper (#1679),False
+093b05608589e9345535db1f7d61cb5c4c006829,2021-06-28 19:00:24,Sid Kapur,chore: remove typescript files from .pre-commit-hooks.yaml (#1675),False
+c4fa50760698e61b6aa24e988a4e3fbf001210ee,2021-06-09 00:19:48,Feross Aboukhadijeh,rules: attempt to markdown formatting issue,False
+9ea14d66e1fee8f1789e3e896e125db0e3721c63,2021-05-22 01:05:06,Amandeep Singh,docs(readme): update brand image and url for Vercel (#1662),False
+c260e248cba92347ac70228c61c6849de72b4f89,2021-05-11 17:19:10,Linus Unnebäck,"Merge pull request #1657 from eltociear/patch-1
+
+docs(readme-fr): fix GitHub format",True
+bd7446f3e0cac1c2c4b6fb9a47070b166eba1239,2021-05-10 23:39:48,Ikko Ashimine,"docs(readme-fr): fix GitHub format
+
+Github -> GitHub",False
+9b0ca41258efd2db5c1e50e440c34382a37f4303,2021-05-04 07:25:04,Feross Aboukhadijeh,wormhole logo,False
+3598017d552df8cb76c7dd38c8edbcb07874b123,2021-05-04 07:22:07,Feross Aboukhadijeh,wormhole logo,False
+05b78e7245ffc079886f4ba78a3f76903fe58ec3,2021-05-04 07:09:24,Feross Aboukhadijeh,fix image link,False
+3dde79d207370981a549197a53799f6eeda6b5ce,2021-05-04 07:07:29,Feross Aboukhadijeh,add wormhole sponsor,False
+60d1c90fe0e154d1c7357e633f9f816f04b9b04e,2021-04-14 17:41:59,dependabot[bot],build(deps): bump actions/cache from v2.1.4 to v2.1.5 (#1654),False
+f8de6cec61aabbf42816238604937fd5de856cc5,2021-04-05 22:40:36,geojs,"docs(readme-fr): fix typo ""JavaScript"" (#1651)",False
+2dcc2362c3be6aad0aa7a24e00d8da498b55e780,2021-03-12 07:18:45,Feross Aboukhadijeh,add 5.0.0 to changelog,False
+17586b81dd6aaa4b365166b3042a9da258bf5bfd,2021-03-04 19:42:40,dependabot[bot],build(deps-dev): update tape requirement from ^5.2.1 to ^5.2.2 (#1647),False
+3561369d6c01c75177ac5b974d7902a272baecd3,2021-03-01 16:12:27,dependabot[bot],build(deps-dev): update tape requirement from ^5.2.0 to ^5.2.1 (#1646),False
+8e5969db6e301a87bab586ff9fc5a7e63a863009,2021-02-24 06:25:09,Feross Aboukhadijeh,"Merge pull request #1644 from standard/chore/update-vscode-extension-identifier
+
+docs: update vscode extension identifier",True
+5af2a9faacd7cfcd7e439ef897b9816e31df0532,2021-02-24 03:52:06,divlo,chore: update vscode extension identifier,False
+d78ea5cc68c52bf9aa859e15693d72b4356e6584,2021-02-23 23:05:42,Feross Aboukhadijeh,Merge pull request #1615 from standard/docs/translation-french,True
+d2cf6cbe78ec704913c760d959bb00ecd8b2048e,2021-02-22 18:16:17,Divlo,Merge branch 'master' into docs/translation-french,True
+4b353be023ed73bcab5252d18bfe1dc3eeccc794,2021-02-22 15:43:10,dependabot[bot],build(deps-dev): update tape requirement from ^5.1.1 to ^5.2.0 (#1643),False
+8d82c1d5eaf18bc3589d21057f8479d77ba4ff4b,2021-02-14 00:22:52,Jan Küster,docs: rename babel-eslint to @babel/eslint-parser (#1640),False
+7db023b3782b1d7e0766557591cb9388233f523f,2021-02-11 14:29:28,dependabot[bot],build(deps): bump eslint-plugin-promise from 4.2.1 to 4.3.1 (#1639),False
+fed0d29b73d98907c166aa27543571b3fc1caddc,2021-02-10 17:32:28,dependabot[bot],build(deps-dev): bump run-parallel-limit from 1.0.6 to 1.1.0 (#1637),False
+8af4be41c995787e2a032519046f10f724896020,2021-02-09 22:56:04,dependabot[bot],build(deps): bump actions/cache from v2 to v2.1.4 (#1636),False
+c316f4ed271a9302bdc1b6793bd493ba57fea08a,2021-02-03 22:10:47,HonkingGoose,"ci: set fail-fast to false, so that all tests run (#1635)",False
+5c0677d56567c72ab0c708cce7b06cbcacc27ee5,2021-02-02 14:16:40,mishina2228,docs(readme-iteu): remove english content (#1631),False
+434b4712c619b06f1011b29b8e9debcb3c6d942a,2021-02-02 14:13:15,mishina2228,docs: fix the links to webstorm.md (#1630),False
+5e24757b6e2da734bfa2a3a2d50ce2c537a06752,2021-02-02 14:07:58,HonkingGoose,docs(readme): improve URL behind test status badges (#1632),False
+d1341a009ca498d25c56370e864da5be237c2b06,2021-01-30 17:50:54,dependabot[bot],build(deps): update tape requirement from ^5.0.1 to ^5.1.1 (#1626),False
+b640e17690b40dc0a5fffda8ea41de5bb7434fe6,2021-01-30 17:47:47,dependabot[bot],build(deps): bump eslint from 7.14.0 to 7.18.0 (#1627),False
+2fa92f666b7ccf14048f9acfd7749899b6839eba,2021-01-30 01:37:29,HonkingGoose,ci: usage of GitHub Actions instead of Travis (#1629),False
+946eef0142c701ad354c32d19a7a244e586300e2,2021-01-16 11:22:24,Todd Bluhm,"Merge pull request #1616 from toddbluhm/improve-readme-typescript-docs
+
+docs(readme): improve typescript documentation",True
+5d93ad1feed6f7128f286beab67c2239896a096b,2020-12-30 22:46:54,Todd Bluhm,docs(readme): improve typescript documentation,False
+ff2d3364a95d51ae5b397578bf41d10dad97ae8a,2020-12-09 05:23:14,Feross Aboukhadijeh,Update FUNDING.yml,False
+b25d95611093847a8c4451b09857c04877f7d9a9,2020-12-06 15:29:00,divlo,docs(readme-fr): update typos,False
+6f50238d409e6d9a58a6f9199cefb45e436a9a80,2020-12-06 05:12:50,divlo,docs(readme-fr): up to date explanations,False
+eb64ed6be9488ec9c34b112b61d4388327acc6d7,2020-11-26 06:35:21,Feross Aboukhadijeh,Merge pull request #1608 from munierujp/update_docs_ja,True
+432e4ee424cab07ecb2b23a562912dcff02b1406,2020-11-26 06:29:10,Feross Aboukhadijeh,"Merge pull request #1610 from standard/dependabot/npm_and_yarn/eslint-7.14.0
+
+Bump eslint from 7.13.0 to 7.14.0",True
+b826fb657bf4f31dfd4abb6f492ed099183c4be6,2020-11-23 13:24:33,dependabot[bot],"Bump eslint from 7.13.0 to 7.14.0
+
+Bumps [eslint](https://github.com/eslint/eslint) from 7.13.0 to 7.14.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v7.13.0...v7.14.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+0790a0e8952d7b2e47a97a97b9aac6d7dca464bd,2020-11-23 09:24:33,Feross Aboukhadijeh,test: remove babel-eslint dev dep; install deps for clone tests when needed,False
+c05740fd8977cd7e6a776951fabab8d38cfd1df7,2020-11-23 09:10:15,Feross Aboukhadijeh,package.json: update engines to match supported versions,False
+654e2573085dee07439514de3182ef54f9cb8959,2020-11-23 09:01:24,Feross Aboukhadijeh,"test: clone: add ""install"" option for packages using @babel/eslint-parser",False
+8308346d16659611c533886600438353b32374e8,2020-11-21 20:25:07,Munieru,Update docs/README-ja.md,False
+228f15ecec21c1bbfb414951db410acf203effa5,2020-11-21 20:17:21,Munieru,Fix typo in README-ja.md,False
+99ff656940a41c536d875c5df1d2da1f2d256780,2020-11-21 20:08:31,Munieru,update RULES-ja.md,False
+690c19d47100f1954ba390a4697cb024824d4d9e,2020-11-21 20:05:36,Munieru,update README-ja.md,False
+848818d0e6bc164ea08dfd5d67df5d9e337693fe,2020-11-20 22:42:06,Munieru,empty commit for draft PR,False
+357466782cdde1de89591fd6fa97a3918ec3f19b,2020-11-18 07:27:57,Feross Aboukhadijeh,update authors,False
+7b30583c2229b8bcdd3341974622a4ac91de836f,2020-11-18 07:27:55,Feross Aboukhadijeh,16.0.3,False
+de8a3901daae8350f43a2d7bb6dbb7f0d651bf10,2020-11-18 07:25:47,Feross Aboukhadijeh,changelog,False
+66a83900e3645b061de404deaace13ee955827ff,2020-11-18 07:25:44,Feross Aboukhadijeh,eslint@7.13,False
+4eb38d7745919eaca8137e1b925598f40fb36236,2020-11-18 07:24:16,Feross Aboukhadijeh,eslint-config-standard@16.0.2,False
+9f139496223a9efdab607a49c98ba38bde643d61,2020-11-18 04:03:35,Feross Aboukhadijeh,Update CHANGELOG.md,False
+5937e954bc143af521e7dc5e461e67649fcae767,2020-11-17 10:37:05,Feross Aboukhadijeh,Merge pull request #1600 from standard/dependabot/npm_and_yarn/hallmark-tw-3.1.0,True
+63c8aba23ff08eb91493ebb8e72f9a78f31fe0c6,2020-11-16 13:09:08,dependabot[bot],"Update hallmark requirement from ^3.0.0 to ^3.1.0
+
+Updates the requirements on [hallmark](https://github.com/vweevers/hallmark) to permit the latest version.
+- [Release notes](https://github.com/vweevers/hallmark/releases)
+- [Changelog](https://github.com/vweevers/hallmark/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/vweevers/hallmark/compare/v3.0.0...v3.1.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+ddff89a37978a6aa514ee8e48887e6acfd9b14a8,2020-11-12 10:51:38,Feross Aboukhadijeh,Update stale.yml,False
+e228c05f6fca56451b49cb3cc2b285f3b9b8b22c,2020-11-12 01:23:46,Feross Aboukhadijeh,Merge pull request #1596 from thclark/master,True
+e7f22a970d6c722019f150e804e7364dc88ef3ea,2020-11-12 01:18:44,Feross Aboukhadijeh,Merge pull request #1598 from om4csaba/feature/macos-xargs-r,True
+f2615edc425bff4b6bf7b02416628a10033d70ee,2020-11-12 00:59:58,Feross Aboukhadijeh,update authors,False
+f6be09144f94c7a8f05cf6042af0b5ff668edd8d,2020-11-12 00:59:55,Feross Aboukhadijeh,Update update-authors.sh,False
+2532ceca7dcf907bb9f5da2dae73504cfe97c92e,2020-11-12 00:54:58,Feross Aboukhadijeh,16.0.2,False
+c8eb1c03e473e5677f4ae1e6c3ee23e42347dd4a,2020-11-12 00:52:52,Feross Aboukhadijeh,changelog,False
+7ddbd69642e198837233614492396b4727981a64,2020-11-12 00:50:32,Feross Aboukhadijeh,"Merge pull request #1597 from alanclarke/support-node-11
+
+Support node 11",True
+530258ced298724ab4d245863991f511a5ae09e1,2020-11-11 14:35:57,Tom Clark,"Added file types, more concise advanced config",False
+49ac4397b174d5d57f042a5a32d2b348e96fc072,2020-11-11 14:30:34,Tom Clark,Added operation on .mjs and .cjs files,False
+901327c48bfa3a6b2ed54379f80da82d7dfedad0,2020-11-11 10:32:35,Csaba Maulis,Make xargs-r() macOS compatible,False
+964132ddc4f1575240c07e645cfd74a932b9ad5d,2020-11-11 04:45:07,Feross Aboukhadijeh,Merge pull request #1595 from toddbluhm/update-typescript-support-docs,True
+d456d05a7032444d2e6c3a43c22a4dc367443429,2020-11-10 18:35:00,alanclarke,Support node 11,False
+25b25cd14c9daff44997a7d8fa50c39c7940789f,2020-11-10 14:30:37,Tom Clark,DOC Added .pre-commit options to the README,False
+729ed21b1fbdedb358dda77e772c1879f915de55,2020-11-10 11:42:52,Todd Bluhm,docs: update typescript support documentation,False
+c1332e60a17a30bdf175d8b73f70400222b53f10,2020-11-10 09:07:50,Feross Aboukhadijeh,npmignore: vs code workspace,False
+a1896fb1c8415f2dbaa56de699562a8c140d4c56,2020-11-10 07:39:48,Feross Aboukhadijeh,Merge pull request #1594 from ajgrover/patch-1,True
+ec333d965d2fd55ea5688e83b3831cb5f636b573,2020-11-10 04:02:33,Alex Grover,"Fix json syntax for typescript configuration
+
+Trailing comma is not valid JSON",False
+e29f0fc94ee46485c51d46af932eebf4c4d5eef0,2020-11-06 15:17:31,dependabot[bot],Merge pull request #1591 from standard/dependabot/npm_and_yarn/standard-engine-tw-14.0.1,True
+3cd8f9bbcb8490fc7182d302837170b38206a6f3,2020-11-06 03:18:38,Feross Aboukhadijeh,Delete .tidelift.yml,False
+3eeb8557f758dcecb8e945285cec166da076cee1,2020-11-06 03:16:33,dependabot[bot],"Update standard-engine requirement from ^14.0.0 to ^14.0.1
+
+Updates the requirements on [standard-engine](https://github.com/standard/standard-engine) to permit the latest version.
+- [Release notes](https://github.com/standard/standard-engine/releases)
+- [Changelog](https://github.com/standard/standard-engine/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/standard/standard-engine/compare/v14.0.0...v14.0.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+d4257c709394383956e8648174560c90b530534d,2020-11-06 03:13:31,Feross Aboukhadijeh,Merge pull request #1582 from HonkingGoose/patch-1,True
+1921ae805e8f06fb150cc2ee6e15113630c9f5e4,2020-11-04 06:47:00,Feross Aboukhadijeh,"add bot config
+
+seems to have stopped working from the standard/.github repo",False
+a031dd0d05f874cd4ea7b54c14def7f2195db6f6,2020-10-31 08:31:59,Feross Aboukhadijeh,16.0.1,False
+447ddaec917c66bc96eeab2c81545cda6e1c22d1,2020-10-31 08:28:44,Feross Aboukhadijeh,Merge pull request #1586 from standard/warnings,True
+15754e60044311204f36afd3cd59a7eee5008169,2020-10-31 02:49:58,Feross Aboukhadijeh,changelog: 16.0.1,False
+01ae6acc8d4efb9ee87310e71b75af10bf62f671,2020-10-31 02:49:56,Feross Aboukhadijeh,fix changelog links,False
+f330be9e30cea57ce6d2a7a1a4997963e88ecd2d,2020-10-31 02:49:56,Feross Aboukhadijeh,eslint-config-standard@16.0.1,False
+413c374f21b019c2ae98a026a80db0cbd0b50dea,2020-10-31 02:49:56,Feross Aboukhadijeh,re-enable previously failing repos,False
+76fc8dbeef80f6c30bc52cf74dd277428f464e63,2020-10-31 02:49:45,Feross Aboukhadijeh,prep changelog for 16.0.1 release,False
+8e485f597a12ed6e79e30a4740e127726abce7fb,2020-10-31 02:37:49,Feross Aboukhadijeh,readme: What is the difference between warnings and errors?,False
+1ec621909cca65cefa06beed4d47aa2a304048bd,2020-10-30 13:22:56,HonkingGoose,Improve Dependabot config,False
+f594a5452eb016f4e7e6597a3372b0c49bc7ab08,2020-10-30 09:55:34,Feross Aboukhadijeh,Merge pull request #1498 from watson/test-min-node-version2,True
+6d70f93762ff0cc7886cc5c2bcd5ed7b7c4c1802,2020-10-30 05:40:52,Feross Aboukhadijeh,"test: for old version test, just test Node 0.10",False
+901c82f61b76a39d0c97cf0f5f7d08eda915d571,2020-10-30 05:05:19,Feross Aboukhadijeh,Merge branch 'master' into test-min-node-version2,True
+2f5c529aa00868f6ca198e15eba48761d6779a4a,2020-10-30 05:04:51,Feross Aboukhadijeh,Update for Node 10 support; test all old versions,False
+5b9732580585a2a5bfe5323683e073740065fa09,2020-10-30 05:01:14,Feross Aboukhadijeh,Merge pull request #1580 from AkiaCode/master,True
+3903e6549b7382c7e69cad5380ae557ac956408c,2020-10-30 05:01:02,Feross Aboukhadijeh,Merge branch 'master' into master,True
+5452d93bc142fff6c174eb427837a2d6d70771a4,2020-10-30 04:23:35,Feross Aboukhadijeh,readme: sponsor,False
+be5c51f5d5f7758632fa7d4041e85def086a5569,2020-10-30 04:20:55,Feross Aboukhadijeh,readme layout,False
+3372d34d0747791c6948cf912fee884ae9ca005a,2020-10-30 04:14:31,Feross Aboukhadijeh,add sponsor: speakeasy,False
+81e0526b3a0edcbd385e968d8caa8d5b57de056f,2020-10-30 01:41:31,Feross Aboukhadijeh,changelog,False
+1ee503e4023e533a04270020d740c476ee6db540,2020-10-29 17:55:21,HonkingGoose,Create basic Dependabot configuration,False
+fa0c1e40c205f825f11fc3eab6973ec702384ba4,2020-10-29 11:06:19,Feross Aboukhadijeh,update authors,False
+81de7190133debadcb8bd2629770318892096f75,2020-10-29 11:06:18,Feross Aboukhadijeh,16.0.0,False
+9f94f98b62bb72ffd609ea3a773e3feacd283d02,2020-10-29 11:05:10,Feross Aboukhadijeh,prep changelog for 16.0.0,False
+f5b298a9b5e80260ac3f62516e696f05c5c4c9ef,2020-10-29 11:03:51,Feross Aboukhadijeh,standard-engine@14,False
+9f73bf29e3fbf648816462a50d26d4e2fb0dfb1a,2020-10-29 11:03:46,Feross Aboukhadijeh,eslint-config-standard-jsx@10,False
+0ce671d406a8fc98b0f3a712a99b37991b8cdeae,2020-10-29 11:03:35,Feross Aboukhadijeh,eslint-config-standard@16,False
+dfea036bf783a225857598f15f965c384e8058e3,2020-10-29 10:57:28,Feross Aboukhadijeh,changelog,False
+c167c0abd9fd529f041e12de54d44fe0909355ef,2020-10-29 10:53:58,Feross Aboukhadijeh,disable failing repos for 'no-var' rule,False
+24ddf3f28f3bf3b4734066357817c30876d09c13,2020-10-29 10:38:08,Feross Aboukhadijeh,changelog,False
+258ee488e931ac266b95998c2262a9b9d131573e,2020-10-29 10:38:03,Feross Aboukhadijeh,disable no-var rule for cmd since it needs to run on all node versions,False
+59dc70e09efded4a8995c099cc14be53d6a1653f,2020-10-29 09:35:38,Feross Aboukhadijeh,"remove eslint-plugin-standard
+
+Fixes: https://github.com/standard/standard/issues/1316",False
+7c7dbec59e86c62647c3574fd3be318c9a603cf6,2020-10-29 09:15:47,Feross Aboukhadijeh,changelog,False
+6fbe538dfb43333e9db55f9039c9f53020d781e1,2020-10-29 09:15:08,Feross Aboukhadijeh,test: fix logs,False
+e5e0b370b6650c4d7d447a5fbe02b9ed38504000,2020-10-29 08:44:07,Feross Aboukhadijeh,test: disable failing repos,False
+a98eba71d56846b1865721324e457563e9fecf62,2020-10-29 08:29:46,Feross Aboukhadijeh,test: re-enable disabled repos which now pass!,False
+0bfd7933d2550bbbcfef2985d119f9e7ec49031b,2020-10-29 08:28:04,Feross Aboukhadijeh,test: disable non-existent repo,False
+6f9f2f1f98c8d3124d24987f1655d80a68b63591,2020-10-29 08:26:27,Feross Aboukhadijeh,test: add script to detect non-existent repos,False
+0d429d042be842cba32689af67b8b939370906f3,2020-10-29 08:25:52,Feross Aboukhadijeh,test: remove non-existant repo,False
+0b64eb3819befe82d9da47201b06770f79aa05da,2020-10-29 08:13:59,Feross Aboukhadijeh,"test: add --write option to save changes to ""disable"" prop",False
+8b97b72f11e3cd520ae2267f70aee4ec56fb0b7d,2020-10-29 08:07:59,Feross Aboukhadijeh,"test: add test packages into same repo
+
+Moved from standard-packages. Simpler to keep this updated if it's not in two places",False
+e1b04665d7949b55e420257e8bd9c014122db30e,2020-10-29 08:07:01,Feross Aboukhadijeh,changelog,False
+692c0fe40cd7d4bf941e841937d8b1c4eee341fc,2020-10-29 07:40:31,Feross Aboukhadijeh,changelog,False
+c30a5842c3910fe3609914b070ce13f5ec224e62,2020-10-29 04:41:14,Feross Aboukhadijeh,remove mkdirp dependency,False
+3632f3f04226b82dc16967f1a524d018138475f0,2020-10-29 04:01:19,Aki,띄어쓰기,False
+d1f9de1e740196fc798eb5c83794f976b70b3fdb,2020-10-29 01:44:01,Feross Aboukhadijeh,remove broken eslint-index package,False
+8bbe08635876a86fc75ef34ffb95f20ce0120254,2020-10-29 01:37:45,Feross Aboukhadijeh,"changelog
+
+for: https://github.com/standard/standard/issues/859",False
+e1c0410f23dc8300e7af6574a854d1cd0464af44,2020-10-29 00:42:38,Feross Aboukhadijeh,"Revert ""use npm 7""
+
+This reverts commit a5a5fdf858640750232dbe88836ea2b3475d8c41.",False
+cbb95f9b0c6d61533c7f1faab0bfedc975e1fe9e,2020-10-28 23:59:22,Feross Aboukhadijeh,Merge pull request #1579 from AkiaCode/patch-1,True
+7bc55490c6714253dfec90aff82742686982bce8,2020-10-28 18:50:31,Aki,"띄어쓰기 수정
+
+맞춤법 검사기로 확인 했습니다",False
+88705b10deeeca52b7a06e7a7161359bd1b533e5,2020-10-28 10:14:21,Feross Aboukhadijeh,changelog,False
+e9a3890044d787a55d903e5faaa5360655c9746d,2020-10-28 10:09:59,Feross Aboukhadijeh,standard-engine@13,False
+21dca21d12da841033e432fc52f690321c39f33f,2020-10-28 10:09:51,Feross Aboukhadijeh,changelog,False
+8ea6016ddac3f1119bcb0b910e582287bfe3b6ae,2020-10-28 10:07:17,Feross Aboukhadijeh,eslint 7.12.1,False
+a5a5fdf858640750232dbe88836ea2b3475d8c41,2020-10-28 08:43:04,Feross Aboukhadijeh,use npm 7,False
+d12f1707f7238bd32130ab1aacee9da76f37f079,2020-10-28 08:41:33,Feross Aboukhadijeh,15.0.1,False
+7a911db27ca69b2ec6e080d35288cb7e0e07ddc5,2020-10-28 08:39:05,Feross Aboukhadijeh,eslint-config-standard@15.0.1,False
+a669fe7d6090a7d0df4174c9488fa8a56d5bfd9b,2020-10-28 08:35:30,Feross Aboukhadijeh,bump deps,False
+2306febd5c2f5f729c7c20782ff20b724dec9e9a,2020-10-28 08:34:55,Feross Aboukhadijeh,package.json bin,False
+d4cec1adcf8620af6619a327c6c9bb33abc9d467,2020-10-24 00:12:35,Feross Aboukhadijeh,Merge pull request #1563 from yoga1234/master,True
+95d7022a2560e0603e31f24dd7cecd46b935f978,2020-10-23 20:40:34,Septiana Yoga,updating error,False
+8e18c666bf00a073406e3798d91e2c332cd31f53,2020-10-23 14:14:05,Septiana Yoga,update translation RULES and fix typo,False
+ce88677e3af2cc48fea9c3229eb9eca1cab7b356,2020-10-22 08:22:09,Feross Aboukhadijeh,changelog,False
+866a666f04ed54bb50bfff3796e14da7f18678f5,2020-10-22 08:18:42,Feross Aboukhadijeh,package metadata,False
+34a39d28bbfcfb78dbaf1a6e86651130a4678aaa,2020-10-22 08:18:41,Feross Aboukhadijeh,update authors,False
+5a63a036c44c71d118c82f7321d41afc21fe4551,2020-10-22 08:18:39,Feross Aboukhadijeh,15.0.0,False
+36cbcd8c3117641ab74072276f69a658d8293fd6,2020-10-22 08:15:18,Feross Aboukhadijeh,changelog,False
+ab0e7a5f04ece0a01ca3be0362456b680d709933,2020-10-22 07:37:40,Feross Aboukhadijeh,update deps,False
+3d0ea44d1399822a18478d39a35cac4835136828,2020-10-22 07:37:30,Feross Aboukhadijeh,eslint-config-standard-jsx 9.0.0,False
+8c0513acdf02f56c8c00cf3d960457c923f9f0e7,2020-10-22 07:37:23,Feross Aboukhadijeh,eslint-config-standard 15.0.0,False
+c8c255ceeb4db9b88fabf8dd17fa81576f77b44f,2020-10-22 07:34:48,Feross Aboukhadijeh,changelog,False
+1af9b8a4bb7e7387959b03dcc2456ac3279275bc,2020-10-22 07:34:48,Feross Aboukhadijeh,"use ""Indonesian"" since it's the language name",False
+c0fd5674a32da47f6a0cb577da3f8372cf5f6bc6,2020-10-22 07:34:48,Feross Aboukhadijeh,remove sponsor link,False
+b926ce28d20f3eddcc82ff5a8070f7ccec05881c,2020-10-22 07:34:48,Feross Aboukhadijeh,remove spammy standard user link,False
+1cc9df7c569429b713fbee165937efd882a3261b,2020-10-22 07:34:48,Feross Aboukhadijeh,changelog,False
+8e06e4f536769410d340a3e848b6ce2f3907ae94,2020-10-22 07:34:48,Feross Aboukhadijeh,hallmark 3,False
+e4c002a3da1518f97f48a5146ff47c226662fa29,2020-10-22 07:34:48,Feross Aboukhadijeh,bump deps,False
+8bdade115c05ab00670a23e29c19ee4e9a48c450,2020-10-22 07:18:08,Feross Aboukhadijeh,"Merge pull request #1516 from pikadun/patch-1
+
+Update eslintConfig.rules",True
+0c27f991eff25a4e8e9d673d26ac75ace7b03d9c,2020-10-22 07:13:47,Feross Aboukhadijeh,Merge pull request #1544 from yoga1234/master,True
+59b03fb93c4c3e68f6413af9bda90a209985deef,2020-10-22 07:04:19,Feross Aboukhadijeh,Merge pull request #1461 from munierujp/update_japanese_docs,True
+fd724547b78f5241c029a162738c9246e30f3448,2020-10-22 06:57:38,Feross Aboukhadijeh,Merge pull request #1545 from logustra/add-jublia-to-users,True
+1de76563d63d754c668df1071596ffa0b8cd1a4a,2020-10-22 06:55:50,Feross Aboukhadijeh,Merge pull request #1547 from kidonng/patch-1,True
+6558034edcefd74efaa4e8c3dab5cff9ccdfdf61,2020-10-22 05:58:22,Feross Aboukhadijeh,"add 14.3.4 changelog
+
+Fixes https://github.com/standard/standard/issues/1534",False
+e1fa03e6a1f8b1009cf14dbca8456b4a5f6e797a,2020-10-22 02:58:51,Feross Aboukhadijeh,Update eslint to 7.11.0,False
+4a0e8b06d98381ed38a02d34b97bd731c1c9de67,2020-10-22 02:58:39,Feross Aboukhadijeh,changelog,False
+4a84e61adbcd94c2954a90fff3bcdd2e70c12a25,2020-10-22 02:32:33,Feross Aboukhadijeh,remove weird whitespace,False
+523f00474f835b593b1679975b771c8bc5b161f8,2020-10-22 02:32:21,Feross Aboukhadijeh,"Merge pull request #1519 from standard/eslint7
+
+Upgrade to ESLint 7",True
+8d44c73123de0543dd8659bd76c2d0876f37a0c3,2020-10-03 18:58:24,Kid,Correct indentations,False
+33216fbb8b5b2e5e3ac313e38df2377479ebc591,2020-10-01 23:41:35,Feross Aboukhadijeh,remove sponsor,False
+5d288bada55d5cf8cff88b03d620e57ae780836a,2020-09-25 13:32:39,logustra,add jublia,False
+fe0642bed74f330d4c88911cc33153d78b5c4c88,2020-09-06 22:46:16,Septiana Yoga,"Update issues
+
+Updating issues",False
+40dc99d4f11de8b64da69fa1accda819ba0eab7f,2020-09-06 22:41:35,Septiana Yoga,"Translation for Indonesia
+
+Translation for Bahasa Indonesia",False
+e66c27c262780784b85d85d79aeb5982403df951,2020-08-29 07:22:19,Feross Aboukhadijeh,sponsor,False
+fd643de2f768ef77eec873bc7065758eaee8d101,2020-07-19 14:09:19,Tom Clark,Create .pre-commit-hooks.yaml,False
+6bb55a1dbb042231ae255bad5bb60d9044ca6bc6,2020-07-09 21:06:05,Linus Unnebäck,"Merge pull request #1538 from NachoKai/patch-2
+
+Fix typos, grammar and translation errors.",True
+dfaceeaa8192032cc28593ebc4fe3e3e7fb03f5a,2020-07-09 18:58:11,Nacho Caiafa,"Fix typos, grammar and translation errors.
+
+I used DeepL and LanguageTool to make sure my corrections are indeed accurate.",False
+44558521d455e249336660f46c050aa739e592cd,2020-07-09 17:55:51,Linus Unnebäck,"Merge pull request #1537 from NachoKai/patch-1
+
+Fix typo",True
+4a0967d219d393b074090b0ca4c67518c23382bc,2020-07-09 17:40:41,Nacho Caiafa,"Fix typo
+
+Punto = dot
+Puto = *sweae word in spanish*",False
+f8379ef3473b3285112a0d662af22c1b745ab6e3,2020-06-17 18:07:21,Ciffelia,"remove bundle.js from default ignores in docs (#1460)
+
+* Update the list of default ignored files in documentation
+As of standard 14, bundle.js is not ignored by default. (#743)
+
+* Revert changes on translated docs for now (#1460)",False
+740e0cfa8f4c4c2cfdbd6c1be5ff1014b0193e42,2020-05-29 03:32:27,Linus Unnebäck,"Merge pull request #1527 from javiermendozain/patch-1
+
+Doc: fixed grammar in Spanish",True
+83258f679926b14eab7d64fb796b84e608ebdc1a,2020-05-29 02:21:56,Javier Mendoza,Doc: fixed grammar in Spanish,False
+c54726135f5df5f85b9656b6bc025a18d00b3c77,2020-05-11 22:49:18,Linus Unnebäck,Upgrade to ESLint 7,False
+bf35e5f14bb1a91e5b378ad9b80dc16f69c6a3a1,2020-05-11 21:56:33,Linus Unnebäck,14.3.4,False
+31e10e78b03d950d6bab90dcfc9eb2ca0e96d643,2020-05-06 11:32:40,王刚,"Update README.md
+
+update eslintConfig of typescript",False
+5b2af9cef9031ac0e50af50876f5a126664e9180,2020-04-26 14:55:54,Linus Unnebäck,"Merge pull request #1515 from Vrq/master
+
+Add SwissDev JS Jobs to user showcase",True
+bca7bd2d48e360c0d890b6271867e1432227e490,2020-04-26 14:48:01,Vrq,Add SwissDev JS Jobs to users,False
+5040cff7768ef388e13daa3c741a1cac53f31c40,2020-04-20 23:12:21,Linus Unnebäck,"Merge pull request #1512 from iaurg/patch-1
+
+Adjusting some typo errors in PT-BR Readme",True
+64c0486ca4c48dd425c34a5a47c3ebc7ec82813b,2020-04-20 22:47:06,Italo,Adjusting some typo errors in PT-BR Readme,False
+c7131057bb654b55d231ba60c0cce5d521b0c1d1,2020-04-13 17:20:28,Linus Unnebäck,"Merge pull request #1510 from HCLonely/master
+
+Update README-zhcn.md",True
+fc0ab4fecf3e837d55dd834110dc3d34011daf90,2020-04-13 16:58:57,HCLonely,Fix link cannot be positioned correctly,False
+c93f3f34319aba0d0f45b8cc8c4f8394c048df9a,2020-04-13 16:56:19,HCLonely,Fix link cannot be positioned correctly,False
+8445fee4d054af2ed212f3d2c78902d6e4b64945,2020-03-27 15:53:59,Linus Unnebäck,"Merge pull request #1506 from joshuagoran/patch-1
+
+Update RULES.md to clarify constructor-super example",True
+0243b25a486444aab4b1851805964846bb3d2b95,2020-03-27 01:57:10,Joshua Goran,"clarify constructor-super rule example
+
+the previous example was valid, but itself would break the no-useless-constructor constructor rule so was somewhat confusing",False
+a9dad9ee336675337e8d392ba49e4c8d4187b9ec,2020-03-21 18:04:16,Linus Unnebäck,"Merge pull request #1502 from standard/greenkeeper/eslint-config-standard-14.1.1
+
+Update eslint-config-standard to the latest version 🚀",True
+282702bb25bdd990f7b52815f3ca4e06363f5b38,2020-03-21 01:48:35,greenkeeper[bot],fix(package): update eslint-config-standard to version 14.1.1,False
+2a1d8d1d15d64ab0a5ce1fde84b0d5111e85adf5,2020-03-15 20:51:40,Linus Unnebäck,14.3.3,False
+33acaf9557975cf9a32f64d3df4ff1c989700679,2020-03-15 20:51:36,Linus Unnebäck,Add changelog entry for 14.3.3,False
+367c15e0c9a666e98c2dc2c6833fb5cb0e933983,2020-03-15 20:30:36,Thomas Watson,ci: test on latest non-supported Node.js version,False
+37d8bb202bf7f250f7d403c4c35d0bd097d6b39f,2020-03-15 20:25:17,Thomas Watson,"Don't run on Node.js versions less than 8.10.0 (#1496)
+
+ESLint uses the `s` (dotAll) flag for regular expressions which isn't
+supported in Node.js versions earlier than 8.10.0.",False
+8c0195dde8ee512d37a590d96d0c85c9c09c566d,2020-03-15 01:09:27,Linus Unnebäck,Fix missing link in changelog,False
+558df001336c422913468b9fd89a8f014e1ffc94,2020-03-15 01:06:41,Linus Unnebäck,14.3.2,False
+a8e318e54fa689f3cf9350359cbeb0eb475ceed4,2020-03-15 01:06:37,Linus Unnebäck,Add changelog entry for 14.3.2,False
+133a4c9e93579a96030e23305120b589d0041b79,2020-03-15 01:04:14,Linus Unnebäck,"Merge pull request #1492 from standard/eslint68
+
+Upgrade ESLint to 6.8.x",True
+a2df23b9078fc212e30ff988dc035251b31ed2f9,2020-03-14 19:18:44,Linus Unnebäck,Upgrade ESLint to 6.8.x,False
+fb7e2a3b4322decc9cbd9db7a55c8f4018861c92,2020-02-14 12:50:53,Feross Aboukhadijeh,remove sponsor,False
+f4d572ee636b951e23124c905f7c0a11abdba29c,2019-12-08 08:05:51,Munieru,Update README-ja.md for 4bc1671,False
+4a54911a999d6b759c7a23914c633f64e2304e77,2019-12-08 08:05:35,Munieru,Update README-ja.md for e514626,False
+ecda19871ca3ebcbcf7258280b92f7f06467f1c0,2019-12-02 08:45:23,Feross Aboukhadijeh,Update README.md,False
+4bc1671ae7343b29d2a8e9704fb4bb3df15e8d8a,2019-11-30 00:48:39,Feross Aboukhadijeh,Update README.md,False
+e5146261b7779bc57a7ac8519227e9c11c013580,2019-11-30 00:04:25,Feross Aboukhadijeh,add sponsor,False
+2b86c682cfcb9259aa9aca27da29b9ca9bde44af,2019-11-01 01:26:01,Feross Aboukhadijeh,spacing,False
+a702d2e606fe9d686cb1259b6f84ec1a56ade024,2019-11-01 01:15:22,Feross Aboukhadijeh,"Reposition CodeFund sponsorship link (#1446)
+
+Reposition CodeFund sponsorship link",True
+a28b5d03022e0fbd12a63429f4ca358f85ae6177,2019-11-01 01:06:52,Eric Berry,"Reposition CodeFund sponsorship link
+
+Per request of the sponsors and for ongoing funds.
+
+/cc @feross",False
+0f86fb9a7281048310db4cfed11da647a38abe7e,2019-10-29 10:54:18,Shahar Dawn Or,"Merge pull request #1445 from ZY2071/master
+
+perf: make the rule 'No octal literals' more specific.",True
+b4726d7976c6ae82c5b9360fd30a2f366ccc3515,2019-10-29 10:45:52,zhangyu,perf: Change the examples for rule 'No octal literals' .,False
+4bdaa2fc9c552cbce7ccaecfd08c958c73247f18,2019-10-29 09:15:54,zhangyu,perf: make the rule 'No octal literals' more specific.,False
+f5d758eea937f61393dd81fda4ded900045ff764,2019-10-15 03:13:07,Feross Aboukhadijeh,"Update README-ja.md for d901c54 (#1435)
+
+Update README-ja.md for d901c54",True
+be249c3230b57cba9bd1f61b4b1c7fb23f0fe8a2,2019-10-07 07:25:37,Munieru,Update README-ja.md for d901c54,False
+cfb84fa57c4c07c6d9c40b205ae1f0d473261613,2019-10-06 23:27:29,Feross Aboukhadijeh,"Update README.md with working Typescript setup (#1434)
+
+Update README.md with working Typescript setup",True
+f4d3113487e094e55e7a3443f024c0a66046ad9a,2019-10-06 08:03:19,Adam Jones,"Update links to correct organization in README (#1433)
+
+* Update links to correct organization in README
+
+* Update links in other languages",False
+d901c54fcd86abd8d38e0d5a263c3c8f489f2a21,2019-10-05 23:29:46,Abdullah Alansari,"Update README.md with working Typescript setup
+
+This is because the current Typescript setup would incorrectly emit unused-variable errors (e.g: when you import interfaces):sweat_smile:.
+
+Related to https://github.com/standard/standard/issues/1283",False
+809e78a8cc2a54b1a801ac39a143b8a2690e1092,2019-10-03 09:02:13,Feross Aboukhadijeh,"Update README-ja.md for 3e6b299 (#1432)
+
+Update README-ja.md for 3e6b299",True
+91bc8fbf90c0bd7a7843ca050ff16e88466a258d,2019-10-03 08:11:57,Munieru,Update README-ja.md for 3e6b299,False
+3e6b299583ccdaf3d9e633621010082b5d0ae3ec,2019-10-03 05:52:26,Feross Aboukhadijeh,Update README.md,False
+d5c7ded33c3935c09c88fc02ebb5598439c3a0fe,2019-10-01 09:25:44,Feross Aboukhadijeh,"Add CodeFund sponsorship message to README (#1425)
+
+Add CodeFund sponsorship message to README",True
+c4f168e1830a1c668374c3f5adfb63446b9c0913,2019-10-01 00:33:53,Feross Aboukhadijeh,"fix typo (#1423)
+
+fix typo",True
+63f94075ed8403f7486ef441b1337eb4a63d921a,2019-09-27 01:40:52,Eric Berry,"Add CodeFund sponsorship message to README
+
+[CodeFund](https://codefund.io) provides ethical sponsorships to open source maintainers. This PR will place the ""Sponsored by"" image at the top of the README. The sponsoring companies are not paying per click nor impression. They are paying the maintainer(s) on a per-month basis to be the primary sponsor of this project.
+
+For an example, see https://github.com/gitcoinco/code_fund_ads/blob/master/README.md",False
+bd5e83d6ade9b589f84216db0e607a010f5b4dd2,2019-09-26 01:58:52,にしくま,typo,False
+0ff9acecd3e4f67882240e754b9931e27e8e09d6,2019-09-18 23:31:43,Feross Aboukhadijeh,14.3.1,False
+b52a17fd1f47bf13725bafc6e04444b58b93eaae,2019-09-18 06:31:26,Feross Aboukhadijeh,Create .tidelift.yml,False
+217d2be7303af4c283e978e7a89fbed9f5e23f2f,2019-09-18 06:15:29,Feross Aboukhadijeh,changelog,False
+78865648b782b9b4891497452ea51f5f712fe320,2019-09-18 06:13:14,Feross Aboukhadijeh,"Don't run on Node.js versions less than 8.6.0 (#1418)
+
+Don't run on Node.js versions less than 8.6.0",True
+4869b15818f8c5e85e24a53a6fb923fa77e96b10,2019-09-18 05:52:40,Feross Aboukhadijeh,"Update Japanese documents to follow original documents (#1417)
+
+Update Japanese documents to follow original documents",True
+264db54d3b1ec803b4eef296477bfa32b071b57a,2019-09-18 01:07:46,Thomas Watson,"Don't run on Node.js versions less than 8.6.0
+
+ESLint uses the spread operator which isn't supported in Node.js
+versions earlier than 8.6.0.",False
+03d56a9b068982f5c0a7b118be518a4e74c52db9,2019-09-17 13:08:40,Munieru,Update Japanese document for 2c9be54,False
+fd5db17b24e92928566f669fc73f69871b3f4ea5,2019-09-17 13:06:38,Munieru,Update Japanese document for 600880d,False
+9dd6012709b52ad28cfd699eb5a52ea4d96f0882,2019-09-17 13:05:25,Munieru,Update Japanese document for 7c38176,False
+bc9d3321df9cfcd0a5e099ec6a68f03a0cac13d0,2019-09-17 13:03:34,Munieru,Update Japanese document for d195586,False
+8be039b2ff3f3a3f7c9eddee9c4db754bd59a8e0,2019-09-17 13:01:55,Munieru,Update Japanese document for b28fa54,False
+b0e5e62ad50657bf4e852cb18a1cad64f21988ad,2019-09-17 13:00:46,Munieru,Update Japanese document for b8c7b33,False
+d1fcbf425892c474355126998f0a4fb728126504,2019-09-17 12:59:00,Munieru,Update Japanese document for ca5ac99,False
+300753d78e87a7cc5e3ca4b799df72611365fdbf,2019-09-17 12:54:14,Munieru,Update Japanese document for b83c629,False
+86bbd1e85e5b05aad5481b8c817074d06106c76e,2019-09-17 12:52:28,Munieru,Update Japanese document for c003b84,False
+c5f525b4c967a28cc82ed4821bfb264acdb7c820,2019-09-17 12:44:17,Munieru,Update Japanese document for ae04dbb,False
+7bf56310d2c73bd84dab470ef667354a340974a9,2019-09-17 12:35:42,Munieru,Update Japanese document for f125f0c,False
+3ad61f1319011d65c0c25c3d898dc9be96e1ce54,2019-09-17 12:26:32,Munieru,Update Japanese document for bd44694,False
+5764e7fcb4dd11d5932a673a93da480649563bc2,2019-09-17 12:23:08,Munieru,Update Japanese document for 4dcd00a,False
+b42def800567c620ae772add4000b21254a158da,2019-09-17 12:19:09,Munieru,Update Japanese document for 318bfac,False
+1c3a2582be9bc8cdd2a65d34fe4dc5c519386143,2019-09-17 12:14:47,Munieru,Update Japanese document for 329a2e0,False
+c419903ebe669918c7b0f51ab18a914c83774386,2019-09-15 01:55:26,Feross Aboukhadijeh,14.3.0,False
+ace0bd7490637f281bc75f067333df9c3f6466ea,2019-09-15 01:53:57,Feross Aboukhadijeh,Update CHANGELOG.md,False
+0bf344177a91a80005c215ad71797a488a3ca9b7,2019-09-15 01:52:52,Feross Aboukhadijeh,"Update eslint to the latest version 🚀 (#1411)
+
+Update eslint to the latest version 🚀",True
+138284944f6abbdebe94987b6bd69e2038ddb354,2019-09-14 07:14:42,greenkeeper[bot],fix(package): update eslint to version 6.4.0,False
+027e7e9c2e6aa90b3f6f79aaac7de75baf810f6b,2019-09-12 00:47:52,Feross Aboukhadijeh,update authors,False
+379a28bb5a78cbe0d2f673e64be259340034a334,2019-09-12 00:47:52,Feross Aboukhadijeh,14.2.0,False
+a45c511d6aa32b8e060ad27ba43ca7c197218f9f,2019-09-12 00:30:57,Feross Aboukhadijeh,Update CHANGELOG.md,False
+d1ef5f8c859f4c2ddd0cfea3abb148632a2bed7c,2019-09-12 00:26:12,Feross Aboukhadijeh,"Update eslint to the latest version 🚀 (#1395)
+
+Update eslint to the latest version 🚀",True
+f4f9bdea577097070f9ee90e290c5115478f4901,2019-09-11 06:29:53,Feross Aboukhadijeh,optimize grab.png,False
+a4216aaebc597803e306cc6c75cb506274f46732,2019-09-11 06:28:25,Feross Aboukhadijeh,"Add Grab to users list (#1396)
+
+Add Grab to users list",True
+f71b65b5554ac11ffc9ac764cfd7bc7e32cfce40,2019-09-10 07:17:25,Feross Aboukhadijeh,"chore: .npmrc with package-lock=false (#1407)
+
+chore: .npmrc with package-lock=false",True
+5b2b360da6e80b7d36040327e3309ce044ba0d74,2019-09-09 21:38:49,Shahar Or (mightyiam),chore: .npmrc with package-lock=false,False
+80c560568b3f02adaf6842bc0df7312c67387b1e,2019-09-07 01:47:20,Feross Aboukhadijeh,"Format AUTHORS.md with hallmark (#1404)
+
+Format AUTHORS.md with hallmark",True
+28d6fd110566358c21169654d13d3678e65aa291,2019-09-06 15:30:31,Vincent Weevers,Run update-authors,False
+19bce00c2cf560becf766f86622e7e2895ab1e88,2019-09-06 15:28:12,Vincent Weevers,Format AUTHORS.md with hallmark,False
+ad1fd1d70f2fe4d07e3eeb9da957cb7f02599b82,2019-09-05 12:18:20,Feross,"Merge pull request #1398 from standard/hallmark
+
+changelog: Run 'npx vweevers/hallmark'",True
+d5ddd5efbed505f6be4b58a38d2ba916952921d7,2019-09-05 11:14:22,Feross,"Merge pull request #1399 from standard/greenkeeper/eslint-plugin-node-10.0.0
+
+Update eslint-plugin-node to the latest version 🚀",True
+02d3ea6bf538572cd675fadf8a4920bb5fac8130,2019-09-05 08:15:36,greenkeeper[bot],fix(package): update eslint-plugin-node to version 10.0.0,False
+dc3fea5ee476985dbbda899abedc8e05706fc8c9,2019-09-05 03:47:29,Feross Aboukhadijeh,"changelog: Run 'npx vweevers/hallmark'
+
+This massively improves things. Caught lots of inconsistencies. Love it!
+
+There's still lots of other issues it is reporting that are not fixed by this PR, but I wanted to get these changes in regardless, since they're nice.
+
+cc @vweevers",False
+3505a8c3c1a7ec0b5867ab840a80890adb060f5f,2019-09-05 00:17:16,Feross Aboukhadijeh,"Merge pull request #1394 from standard/greenkeeper/eslint-plugin-node-9.2.0
+
+Update eslint-plugin-node to the latest version 🚀",True
+b337cc59ee325a39fe13785976747cf483c03bc6,2019-09-05 00:12:39,Feross Aboukhadijeh,"Merge pull request #1397 from standard/greenkeeper/cross-spawn-7.0.0
+
+Update cross-spawn to the latest version 🚀",True
+faa9be0fe39f31ebe32c5cb1668169ff264908f7,2019-09-03 17:33:41,greenkeeper[bot],chore(package): update cross-spawn to version 7.0.0,False
+53b2591509857e2887c171981628901c09a88f84,2019-09-03 12:52:53,LitoMore,Optimize logo,False
+2c9be54e60cf5bc37d01d000c1a1164564b348b3,2019-09-03 12:43:05,LitoMore,Add Grab to users list,False
+79220de690c55f6492fb3d54444a63fd6fc16b3f,2019-08-31 01:28:18,greenkeeper[bot],fix(package): update eslint to version 6.3.0,False
+5228b201f40659b811f301e99b7feaef0b4c4893,2019-08-29 15:50:09,greenkeeper[bot],fix(package): update eslint-plugin-node to version 9.2.0,False
+babf166744759eb3f465c3acafa44eb38b98a773,2019-08-29 11:02:04,Feross Aboukhadijeh,Update CHANGELOG.md,False
+bc2a07317d586c8aff65bc469e19d605401fae22,2019-08-29 11:00:35,Feross Aboukhadijeh,Update CHANGELOG.md,False
+efa9950fa850627fb1647fca6f63771a38eab298,2019-08-29 10:56:44,Feross Aboukhadijeh,14.1.0,False
+78ecd2419aff01dc202fd09e556b5580de51905d,2019-08-28 03:45:44,Feross Aboukhadijeh,eslint-config-standard-jsx@8.1.0,False
+776bf9a40f351837d2c6b8fa311cf15fe420d1c1,2019-08-28 03:45:37,Feross Aboukhadijeh,eslint-config-standard@14.0.1,False
+c988fbe3b2a603aca3dbfa4ea6c6f4d804fb3e13,2019-08-28 03:44:59,Feross Aboukhadijeh,add 14.1.0 changelog,False
+db55c9887e80e414736b3b308dd532467b77802a,2019-08-28 03:24:19,Feross Aboukhadijeh,"babel-eslint@^10.0.3
+
+Contains fix for eslint@6.2.0 breakage",False
+1987362673a882f069b917ac70e62c482185bb88,2019-08-28 03:24:00,Feross Aboukhadijeh,eslint@~6.2.2,False
+2ad67c0c8fdaad6253500ce078f711aa176a5e5d,2019-08-28 03:23:52,Feross Aboukhadijeh,"Remove `funding` experiment
+
+Glad we ran this experiment. See https://feross.org/funding-experiment-recap for thoughts.
+
+Also, this post is excellent https://blog.licensezero.com/2019/08/24/Process-of-Elimination.html",False
+08b5be00b9071b565157439af507a8597863c03f,2019-08-23 04:56:18,Feross Aboukhadijeh,typo,False
+649935353722d6b80f97cae832055361e7f58705,2019-08-23 04:27:03,Feross Aboukhadijeh,14.0.2,False
+100a1f65b2b9f034031e8029884e113243fecfc1,2019-08-23 04:25:56,Feross Aboukhadijeh,Update CHANGELOG.md,False
+f90ec1af97264135a5d333178b97084a96369409,2019-08-23 04:25:49,Feross Aboukhadijeh,eslint-config-standard@14.0.1,False
+e667d38d532247c4b2c05b29f8ecf664fdfb72bc,2019-08-23 02:48:43,Feross Aboukhadijeh,14.0.1,False
+939da1d98ab28f655824a2a9bd302744472e87ec,2019-08-23 02:47:37,Feross Aboukhadijeh,changelog: 14.0.1,False
+0024594891a0432490b33d3f246b8bbba78edf36,2019-08-23 02:47:23,Feross Aboukhadijeh,changelog: fix broken links,False
+3ed715e19a4b02935d34189c408d0155a3896c84,2019-08-23 02:44:17,Feross Aboukhadijeh,"For configs, switch back to exact versions
+
+I realized that without exact versions, we don't have to release a new version of standard when we relax a rule in one of the configs, like I just did for https://github.com/standard/standard/issues/1382
+
+I would rather be forced to release a new version when I do this, so we have to add a changelog entry and document the change.",False
+87b3f50dc08a24567e4342a12178c35c78f05be0,2019-08-20 11:18:55,Feross Aboukhadijeh,fix changelog,False
+600880d0f5977daa70c0be0d0e3c730a02f55c2f,2019-08-20 07:36:30,Feross Aboukhadijeh,fix security link,False
+a7762a2ac0f8c5e43000ccc33304613cfb5f6569,2019-08-20 07:35:13,Feross Aboukhadijeh,use keep a changelog format,False
+d80f99c4b2352bc73784d6e5000ae08a80cca4e3,2019-08-20 03:13:47,Feross Aboukhadijeh,changelog: add note about discord server,False
+d2a9b7ae20846238d64455adf5ff689b5129200d,2019-08-20 02:21:17,Feross Aboukhadijeh,Update CHANGELOG.md,False
+f1191c59b3b6e39101aa9b116630b3de63d7a451,2019-08-20 02:05:22,Feross Aboukhadijeh,update authors,False
+528ae3b901059545cb35118cb9d1f34f527ebdf8,2019-08-20 02:02:35,Feross Aboukhadijeh,14.0.0,False
+409e00412a6f4e34c31b986e25188f71cc34c26a,2019-08-20 02:02:20,Feross Aboukhadijeh,standard-engine@12,False
+1933a7f216ea85a15933fe999d127322a18b0df4,2019-08-20 01:59:30,Feross Aboukhadijeh,eslint-config-standard-jsx@8,False
+c35a1faa8d07da9fad557da56c76f5576bd46426,2019-08-20 01:59:10,Feross Aboukhadijeh,eslint-config-standard@14,False
+e78c3280e9ec2443891498295aa244e7fd20b0b4,2019-08-20 01:56:33,Feross Aboukhadijeh,Move all new rules into shareable configs,False
+42d224801e7c969e6ea6f003b9166dbe93c614de,2019-08-20 01:35:57,Feross Aboukhadijeh,14.0.0 changelog,False
+27cd9a116f290624d2f6a21ed104c53bcd1d5c9d,2019-08-20 01:35:33,Feross Aboukhadijeh,npm install funding,False
+7c3817697c0c4d6bd13a44a19fc462a2f1a47b47,2019-08-18 23:19:01,Feross Aboukhadijeh,add discord chat badge,False
+694f9bf1d430c93dcee224340c49297294a3d33f,2019-08-16 06:19:48,Feross Aboukhadijeh,"Merge pull request #1374 from MarvinJWendt/patch-1
+
+Change `*.ts` -> `**/*.ts`.",True
+d195586f58de8e1fc68b50ec4ad0468fb8c48cb5,2019-08-16 04:00:22,MarvinJWendt,"Change `*.ts` -> `**/*.ts`.
+
+This will lint TypeScript files with the same behavior that `standard` has by default",False
+7117e53619927173855242376f3f3c5c9aa03114,2019-08-15 08:29:43,Feross Aboukhadijeh,14.0.0-1,False
+c1ebec6a09d15f9f3e2ff6c28eead789e7dc3d0c,2019-08-15 07:58:38,Feross Aboukhadijeh,"Disallow spaces inside of curly braces in JSX expressions in children (react/jsx-curly-spacing)
+
+Fixes: https://github.com/standard/standard/issues/1373",False
+2d619f32a491b251a708634f5b7ae603eec44b54,2019-08-15 07:52:39,Feross Aboukhadijeh,"Require linebreaks in curly braces in JSX attributes and expressions to be consistent (react/jsx-curly-newline)
+
+Fixes: https://github.com/standard/standard/issues/1372",False
+5dfdc831de844eb0be16df7d6eed623e3e4bbb49,2019-08-15 07:48:56,Feross Aboukhadijeh,"Require JSX event handler names to follow conventions (react/jsx-handler-names)
+
+Fixes: https://github.com/standard/standard/issues/1371",False
+ff4ef4950df22254e93b57553de99453b14660c1,2019-08-15 07:45:51,Feross Aboukhadijeh,"Require JSX attributes and logical expressions to be indented correctly (react/jsx-indent)
+
+Fixes: https://github.com/standard/standard/issues/1370",False
+13e4bee7ab305d9a194c7eca26d43c3bce765150,2019-08-15 07:29:30,Feross Aboukhadijeh,"Disallow missing `key` prop in JSX elements that likely require a `key` prop (react/jsx-key)
+
+Fixes: https://github.com/standard/standard/issues/1369",False
+29861dc6613f32e451560aaa1f3acba442a274ab,2019-08-15 07:25:44,Feross Aboukhadijeh,"Disallow accidental comments in JSX from being inserted as text nodes (react/jsx-no-comment-textnodes)
+
+Fixes: https://github.com/standard/standard/issues/1368",False
+c852a112a7823bb30663775be69b3e213e83f091,2019-08-15 07:22:36,Feross Aboukhadijeh,"Prevent usage of unsafe target='_blank' (react/jsx-no-target-blank)
+
+Fixes: https://github.com/standard/standard/issues/1367",False
+30eddfa33c0ada4572e8f0ff1c29be2e179e598b,2019-08-15 07:17:40,Feross Aboukhadijeh,"Disallow unnecessary curly braces in JSX props and children. (react/jsx-curly-brace-presence)
+
+Fixes: https://github.com/standard/standard/issues/1366",False
+d3d14a561edb516990d6310e5bd69bc5cc0bdc7b,2019-08-15 07:11:16,Feross Aboukhadijeh,"Require PascalCase for user-defined JSX components (react/jsx-pascal-case)
+
+Fixes: https://github.com/standard/standard/issues/1365",False
+93027d9c33c49c70f69a13609724dfc2802b4bac,2019-08-15 07:09:12,Feross Aboukhadijeh,"Require shorthand form for JSX fragments (react/jsx-fragments)
+
+Fixes: https://github.com/standard/standard/issues/1364",False
+093b7f0e70233f426f080cb3d2326b2c25bac0a1,2019-08-15 07:06:26,Feross Aboukhadijeh,"Disallow multiple spaces between inline JSX props (react/jsx-props-no-multi-spaces)
+
+Fixes: https://github.com/standard/standard/issues/1363",False
+6ee9fb147f0c0df156608070c0c805d34ca6baa2,2019-08-15 05:18:34,Feross Aboukhadijeh,alphabetize rules,False
+d179362d466d703ec8688baeb929027ba17cd4f7,2019-08-15 05:18:25,Feross Aboukhadijeh,remove rule which already shipped,False
+f8551e9439805a4ad9b9f755c4f95699b031a974,2019-08-15 05:10:27,Feross Aboukhadijeh,"Require JSX closing bracket to be aligned with the opening tag (react/jsx-closing-bracket-location)
+
+Fixes: https://github.com/standard/standard/issues/1361",False
+d9e2ae46837eee8023b44369c9cf99e9f32a5574,2019-08-15 05:09:22,Feross Aboukhadijeh,changelog: consistent wording,False
+1504ebcfa7d5ecbd1c751765790ce0dcc8c16896,2019-08-15 04:47:29,Feross Aboukhadijeh,changelog: use square brackets on percentage,False
+d5559b3993339ce1b1a771d3b2bc6dd22dedc6af,2019-08-15 04:41:21,Feross Aboukhadijeh,"Enforce boolean attributes notation in JSX (react/jsx-boolean-value)
+
+Fixes: https://github.com/standard/standard/issues/1360",False
+ee41ee91f6668063c15e9ee7ba793c7e9ec1876b,2019-08-15 04:40:11,Feross Aboukhadijeh,"The first JSX property should always be placed on a new line if the JSX tag takes up multiple lines and there are multiple properties (react/jsx-first-prop-new-line)
+
+Fixes: https://github.com/standard/standard/issues/696",False
+e0d3256392535daf4fab5c67f50a301de8e2db37,2019-08-14 10:19:48,Feross Aboukhadijeh,"Make react/jsx-tag-spacing options explicit
+
+This changes nothing",False
+ccaf4390d9ae0829fdd31b2d69df143e9138e77d,2019-08-14 09:47:56,Feross Aboukhadijeh,"Prevent missing parentheses around multiline JSX (react/jsx-wrap-multilines)
+
+Fixes: https://github.com/standard/standard/issues/710",False
+71134bf6ad67257cf301589067ffe4cb7f25e254,2019-08-14 09:29:48,Feross Aboukhadijeh,"Require JSX closing tag to be aligned with the opening tag (react/jsx-closing-tag-location)
+
+Fixes: https://github.com/standard/standard/issues/1358",False
+7e61b870d18ef37b26a5cb15a405707a8513cbee,2019-08-14 09:05:07,Feross Aboukhadijeh,"Enforce consistent line breaks inside braces (object-curly-newline)
+
+Fixes: https://github.com/standard/standard/issues/782",False
+3384a2ecc7316e9e930955089f9d0cd27dabfc85,2019-08-14 06:31:08,Feross Aboukhadijeh,Remove `bundle.js` from the default list of ignored files,False
+b28fa54a78daf7486a69e05558d2fcd7cb25663f,2019-08-14 06:11:04,Feross Aboukhadijeh,Update README.md,False
+b8c7b331b2c534be8d57d5dbd7caac23a0a907e7,2019-08-14 06:05:34,Feross Aboukhadijeh,docs: add new logos,False
+75cc843eebae2af46b6554ce0b9bc661568da439,2019-08-14 05:39:15,Feross Aboukhadijeh,Lint `*.mjs` and `*.cjs` files automatically by default,False
+cd8742a1f146b3e2d824e80c926573e1a3fac823,2019-08-14 04:10:55,Feross Aboukhadijeh,use org-wide security policy,False
+f75b86bd2d184772d3c83547acec9b760b8fa4ae,2019-08-14 03:37:10,Feross Aboukhadijeh,Use org-wide CONTRIBUTING.md,False
+2685b4d6e07917d1e353ac862019a8a8c642f4fd,2019-08-14 03:23:45,Feross Aboukhadijeh,Link to central org-wide security policy,False
+77b79084f3bd3dae44e065d2b48e19a44c547348,2019-08-14 03:09:59,Feross Aboukhadijeh,"remove .github files, rely on org-wide files",False
+86d745e4953edf24105ddac69ed5e6fafda86249,2019-08-14 01:58:21,Feross Aboukhadijeh,14.0.0-0,False
+8f2657ac011e33b058171c12c51cd1461694f22a,2019-08-13 13:55:18,Feross Aboukhadijeh,Relax rule: Disallow labels that are variables names (because all labels are already disallowed),False
+2e977eb39f1fc00169f4f7a66c05444e89f288aa,2019-08-13 10:01:59,Feross Aboukhadijeh,Disallow lexical declarations in case/default clauses (no-case-declarations),False
+d96386f31f3540da5757388cf7b633dc8edc9034,2019-08-13 10:00:18,Feross Aboukhadijeh,"Support ES 2019, the latest version of the ECMAScript specification.",False
+fbf7d5ed5545473365f6c4071b586109f9b85509,2019-08-13 09:17:47,Feross Aboukhadijeh,"Disallow use of the void operator (no-void)
+
+Fixes: https://github.com/standard/eslint-config-standard/pull/135",False
+745b3edc543bb11470724e0341aafb8ae89c4a31,2019-08-13 05:15:48,Feross Aboukhadijeh,"Relax rule: Don't check indentation on template literal children (work around for ESLint bug)
+
+Fixes: https://github.com/standard/standard/issues/1176",False
+134fe58db17977790279ada852bd47fdc5d764fc,2019-08-13 00:24:32,Feross Aboukhadijeh,changelog: http -> https,False
+a2d9cb095cc1df90503326e7a6e87fe41b7b6933,2019-08-13 00:23:47,Feross Aboukhadijeh,Pipeline operators should appear at the start of a line,False
+5a175557a8845e35ea3f51709d86c37bbe2aa3f4,2019-08-13 00:11:25,Feross Aboukhadijeh,doc: fix language relative links,False
+43ffc012eadd2a133a3bf852299915bf28951272,2019-08-12 10:25:11,Feross Aboukhadijeh,"Merge pull request #1353 from standard/es-style
+
+Use modern ES style",True
+ef2944a629e551d6468c34322bfca860c6ca83d5,2019-08-12 10:18:49,Feross Aboukhadijeh,"changelog: add missing change for v12
+
+For: https://github.com/standard/eslint-config-standard/pull/98",False
+4b761524353d01cfea83e7cabe510a372c6c3277,2019-08-12 07:56:11,Feross Aboukhadijeh,"Remove greenkeeper bot from list of authors
+
+Fixes: https://github.com/standard/standard/issues/1173",False
+d8a3e25c604ce4e3894b3e315ea0afd085ce16ef,2019-08-12 07:02:32,Feross Aboukhadijeh,Fix: compatibility with old Node.js versions that lack `const`,False
+9fe2f40b751ce41ee72f5f83c5d5489a0b8f50f6,2019-08-12 05:36:30,Feross Aboukhadijeh,"Use modern ES style
+
+Supersedes https://github.com/standard/standard/pull/1198 by @jimmywarting. Thanks for the handy lebab command!",False
+ca5ac9922b58b7b26590522399d361c63599ff64,2019-08-12 05:16:43,Feross Aboukhadijeh,readme: fix formatting,False
+afd0998fb6d09ab5b2e95774796cd8e0318f4d17,2019-08-12 05:15:23,Feross Aboukhadijeh,logo: compress puma browser logo,False
+59d910be6f8f3ea7c098ee5e28f07db54c7f2a6a,2019-08-12 05:13:57,Feross Aboukhadijeh,"Merge pull request #1351 from html5cat/master
+
+Add puma-browser logo",True
+b83c6290ac909b1abad9a7227b8fc62d2e367328,2019-08-10 07:20:29,Yuriy Dybskiy,Add puma-browser logo,False
+af6377bcb392828c5f64973ccbfdf12e7e126288,2019-08-06 04:38:07,Feross Aboukhadijeh,Update FUNDING.yml,False
+ff52bd20aadc3cf833b25db799aec19b65d66934,2019-08-06 04:30:23,Feross Aboukhadijeh,Update lock.yml,False
+25f2902e92cce01a63cb86b6ea70c1bcacd69280,2019-08-06 04:28:00,Feross Aboukhadijeh,Update lock.yml,False
+2a46c1bd860fabbf98fb628ddbd6e3560952e7cf,2019-08-05 22:39:46,Feross Aboukhadijeh,docs: update logos in all translations,False
+26802b5b30bdd88f7b8917ae7815304106f272a9,2019-08-04 22:48:45,Feross Aboukhadijeh,Update config.yml,False
+d74d9d4c28e8d86414c53fe9232c992b0ea2307b,2019-08-04 22:46:16,Feross Aboukhadijeh,Update stale.yml,False
+59ddffb3d0dbf80c6e53c33d9a62e854766cbea4,2019-08-04 10:43:35,Feross Aboukhadijeh,Update no-response.yml,False
+70e75cb75442efdc5c597b6805d36f38d8a3c80a,2019-08-04 07:20:22,Feross Aboukhadijeh,"Merge pull request #1350 from standard/greenkeeper/standard-packages-3.6.1
+
+chore(package): update standard-packages to version 3.6.1",True
+cc7284bec0edb5cbf3a26b54aa8c92a5537771ba,2019-08-04 06:49:36,greenkeeper[bot],chore(package): update standard-packages to version 3.6.1,False
+f4a8e09383ee59ac36a25834ca7155370d28d90f,2019-08-04 06:29:03,Feross Aboukhadijeh,"Merge pull request #1346 from dangen-effy/patch-4
+
+Fix typo and following conventions",True
+db18da3e4c5dd14f2f7d51f52117109844ec4de6,2019-08-04 05:59:51,Feross Aboukhadijeh,"Relax rule: Don't require newlines between *single-line* member functions or class field declarations
+
+Fixes: https://github.com/standard/standard/issues/1347",False
+a269c99475465241da795fddc9044518708f0b23,2019-08-04 04:04:28,Feross Aboukhadijeh,"JSX: Enforce no spaces before closing brackets (i.e. no `<div >` or `</div >`)
+
+Fixes: https://github.com/standard/standard/issues/1348
+For: https://github.com/standard/eslint-config-standard-jsx/pull/38",False
+28ffc204d8e9f765dc6d3f16f732c4cd2ee4b7bf,2019-08-04 02:42:36,Feross Aboukhadijeh,"BREAKING: Ignore patterns from `.git/info/exclude`
+
+Fixes: https://github.com/standard/standard/issues/1277",False
+098ce061e4e3368005c076cf68f0b8766079cc5f,2019-08-02 16:09:34,dangen,Fix typo and conventions,False
+98c36bc2853655ae94668c7e133ae44d8b3564ba,2019-07-29 05:48:26,Feross Aboukhadijeh,disable npm cache,False
+b3ceb717adaf55e37d62f39fbd9ec51be6c2f1d1,2019-07-28 09:35:05,Feross Aboukhadijeh,Update CHANGELOG.md,False
+5e3161b7d39a36be1712da724c8974d7b9f036bd,2019-07-28 09:28:57,Feross Aboukhadijeh,"Require Dot Notation Whenever Possible (dot-notation)
+
+Fixes: https://github.com/standard/standard/issues/1344",False
+33f3c3578306bbd3d7a5fcc92d33d5db703ba6b3,2019-07-28 06:48:51,Feross Aboukhadijeh,"Forbid import of modules using absolute paths (import/no-absolute-path)
+
+Fixes: https://github.com/standard/standard/issues/1343
+
+Undoes: https://github.com/standard/standard/issues/861",False
+757abf038e1ba3c1216cd6c7e5c12895d9f2c683,2019-07-28 05:27:50,Feross Aboukhadijeh,"Disallow self assignment of properties (no-self-assign)
+
+This rule was actually enabled in a prior upgrade of ESLint. Let's set the option explicitly nonetheless.
+
+Fixes: https://github.com/standard/standard/issues/1186",False
+c003b842b48abc983d4f8fac792d1ddab5f64e22,2019-07-28 05:16:07,Feross Aboukhadijeh,"Disallow template literals when placeholders or tagged template features are not used
+
+Fixes: https://github.com/standard/standard/issues/838
+Fixes: https://github.com/standard/eslint-config-standard/pull/151",False
+0fd684af5dad21213ba3d2903f386ca49c856dc7,2019-07-28 05:08:34,Feross Aboukhadijeh,test: Reduce clone parallelism,False
+ef2351a9465820a2a30150e671f9f8e0f4b3a7d2,2019-07-21 11:55:34,Feross Aboukhadijeh,Update AUTHORS.md,False
+60b616fa28264c1c8872e2c75d3abcb39f4fb4a2,2019-07-21 11:55:01,Feross Aboukhadijeh,13.1.0,False
+8493c9d8b27494b41f57bf4283a830b681a02b07,2019-07-21 11:54:06,Feross Aboukhadijeh,Update CHANGELOG.md,False
+588e50541a78375dcad63453bd4efbeeaf69b320,2019-07-21 11:52:04,Feross Aboukhadijeh,"Merge pull request #1337 from standard/greenkeeper/eslint-6.1.0
+
+Update eslint to the latest version 🚀",True
+9040ae8ff6b1e6e81fb365c522211724ad733ebd,2019-07-21 09:19:53,greenkeeper[bot],fix(package): update eslint to version 6.1.0,False
+a263dfcff67321476524266bcdeb05285bb7cbc5,2019-07-21 03:05:26,Feross Aboukhadijeh,"Merge pull request #1336 from epixian/patch-1
+
+added oxford comma for consistency with next line",True
+15a11052afe2e8a3ee2e83be33cede1a79e71de0,2019-07-18 21:15:25,epixian,added oxford comma for consistency with next line,False
+9539d71e3a7ee42fbcd3f69cd9bcc21983d54592,2019-07-13 02:51:56,Feross Aboukhadijeh,13.0.2,False
+9b9d0fc999003d8a328cc42303da697456f9aed2,2019-07-13 02:51:11,Feross Aboukhadijeh,changelog,False
+d1d0b7ad3c21364d0dbe9e4f624fc4cc0538fce9,2019-07-13 02:49:10,Feross Aboukhadijeh,"Fix global installs: standard-engine@~11.0.1
+
+Fixes https://github.com/standard/standard/issues/1329 https://github.com/standard/standard/issues/1328 https://github.com/standard/standard/issues/1327",False
+edce3f397e17803f3fd071fc5a121a870873ce06,2019-07-13 00:06:40,Feross Aboukhadijeh,"Merge pull request #1323 from standard/greenkeeper/standard-engine-11.0.0
+
+Update standard-engine to the latest version 🚀",True
+2f3c712d728b4c151844f8ee0d7595b939ba45b3,2019-07-13 00:05:25,Feross Aboukhadijeh,fix tests for standard-engine 11,False
+ae04dbb9ed92a3332a4e40cad537c1c81fe86777,2019-07-12 03:26:30,Feross Aboukhadijeh,Cleanup the readme,False
+c713e2eae76e56d77829c0e06a77fdc8cd7cdc66,2019-07-12 02:44:49,Feross Aboukhadijeh,13.0.1,False
+72e0f1be223aba08248da1394d643cacb90f933f,2019-07-12 02:43:44,Feross Aboukhadijeh,Update CHANGELOG.md,False
+934a5b8039d1c595d42c3e374cba9343f64510f2,2019-07-12 02:41:35,Feross Aboukhadijeh,eslint-config-standard@13.0.1,False
+0474066af00c505c388dff6700f3ff36f025ec19,2019-07-12 01:21:37,greenkeeper[bot],fix(package): update standard-engine to version 11.0.0,False
+501624c178bec3e94dfd787dba5906d1fd873bfa,2019-07-11 05:16:48,Feross Aboukhadijeh,Update CHANGELOG.md,False
+9c505a9c5a5762479d076cb5f7a400e12d0f61a4,2019-07-11 04:50:39,Feross Aboukhadijeh,13.0.0,False
+7f3dd5db2729479a59b16f3af8ea17f19e9f7246,2019-07-11 04:49:43,Feross Aboukhadijeh,eslint-config-standard-jsx@7.0.0,False
+8cfb0eec345f906de67df2d5727d9911182aae50,2019-07-11 04:49:34,Feross Aboukhadijeh,eslint-config-standard@13.0.0,False
+e235cb5096a91e859a2c1b019bfedfae6c78daa9,2019-07-11 04:48:19,Feross Aboukhadijeh,changelog 13.0.0,False
+f125f0cacd5e040547dddacb29299693241a2c37,2019-07-11 01:11:11,Feross Aboukhadijeh,add link to security disclosure policy,False
+bd44694ae5b63a758da4fdf5e113d7431dea2ae1,2019-07-09 06:31:49,Feross Aboukhadijeh,add nodejs logo; change logos to 4 per row,False
+f7f98bfd64a2008a94f638c82cbd9d7b4e2c50ee,2019-07-06 12:21:02,Feross Aboukhadijeh,Update CHANGELOG.md,False
+5e6315c9534f8db29a0851d222afd9f4bcd5ca25,2019-07-06 05:38:33,Feross Aboukhadijeh,remove badge,False
+e3862be6efe71319cf6dae7904d989caca90ae4b,2019-07-06 05:35:45,Feross Aboukhadijeh,Update AUTHORS.md,False
+f7969957659123667e95b8d1bec772ad6c4560b8,2019-07-06 05:34:33,Feross Aboukhadijeh,13.0.0-0,False
+16ffaef602b6ba3548d36f4d4d55ca596b262fbc,2019-07-06 05:33:04,Feross Aboukhadijeh,Update CHANGELOG.md,False
+c1f817e95681a1cefe650175af3a4a50be4885d4,2019-07-06 05:33:02,Feross Aboukhadijeh,bump deps,False
+ffb0b8e10059cf128e5d7a26002006418b6e95d6,2019-07-06 04:53:02,Feross Aboukhadijeh,"travis: drop node 6, add node 12",False
+d5565b5ff3f177d88d012427649538365ba8f922,2019-07-06 03:54:53,Feross Aboukhadijeh,Update CHANGELOG.md,False
+4dcd00ad325e9ee2359d660ae57d75d3eb1a9f07,2019-07-06 03:54:53,Feross Aboukhadijeh,"add Nuxt.js logo
+
+Fixes: https://github.com/standard/standard/issues/1313",False
+ee3104d1d21992643393a9ebebfdefd6a683d88f,2019-07-06 03:54:53,Feross Aboukhadijeh,compress logos,False
+6e077d7db611907cd483c48ce4c737720e0a2072,2019-07-06 03:54:53,Feross Aboukhadijeh,standard,False
+d33bfe997a7e47bf367cc2216ca2e5c6f6a5a020,2019-07-06 01:12:52,Feross Aboukhadijeh,"Merge pull request #1308 from munierujp/update_japanese_documents
+
+Update Japanese documents to follow original documents",True
+dd8fe0023a27fbf715030d57624c269c9de75a61,2019-07-05 23:40:43,Feross Aboukhadijeh,Create FUNDING.yml,False
+318bfac96e5f95a07e9348c02f03e1c51c16d816,2019-07-05 23:40:43,Feross Aboukhadijeh,readme/changelog: global installation changes,False
+329a2e0a2af835e3cd80686e5c5cc0598ad4e8fd,2019-07-05 23:40:43,Feross Aboukhadijeh,readme: fix typescript instructions,False
+db61e3f47709c0fe6178bcea9b6a401ef66e4e9d,2019-07-05 23:40:43,Feross Aboukhadijeh,Update CHANGELOG.md,False
+7c661ebd7516a60fb9dd30e96c7b5f766de88fda,2019-07-05 23:40:43,Feross Aboukhadijeh,Automatically pass on Node 6 or earlier,False
+0cfc9327fc5af4c79fa6735153e31e183a96f6b8,2019-07-05 20:43:08,Munieru,Update Japanese document for 40d1d5e,False
+13ffec86f1a84f3258cd648090ccb0af894f3f29,2019-07-05 20:42:13,Munieru,Update Japanese document for 3afee69,False
+7e723ff94f52c4c7ac6f4c8a8d7725e300b0d496,2019-07-05 20:37:13,Munieru,Update Japanese document for 6326ad2,False
+915eae68fcfd9faaaefb9c53b6c37719f7a2f525,2019-07-05 20:35:13,Munieru,Update Japanese document for 38eb535,False
+9c5bc89eb65bede2895e7a102e8397d875a34b32,2019-07-05 20:31:52,Munieru,Update Japanese document for d591993,False
+8c1339dfba14e9d4f66333591320c30bafdb03e2,2019-07-05 20:18:17,Munieru,Update Japanese document for 87c6e99,False
+576db8d5dd70bd3da8d3c2d9179838a1711b759e,2019-07-05 20:15:52,Munieru,Update Japanese document for 44877f8,False
+9c02b307941989cb3b5680c8b70c0fe3e063d7b8,2019-07-05 20:07:00,Munieru,Update Japanese document for 4ac2ccc,False
+969d90b6feaae1bc359be8ca4611e101050aaf18,2019-07-05 20:01:09,Munieru,Update Japanese document for dc0ae5e,False
+254fbd2d8df061a89978f0ba58a745f8a27e7da0,2019-07-05 20:00:10,Munieru,Update Japanese document for da127f2,False
+dfe9a503e1dbcfb9104a181e34a772eeca7804c9,2019-07-05 10:59:39,Feross Aboukhadijeh,"Merge pull request #1213 from munierujp/add_japanese_translation
+
+🇯🇵 Add Japanese translation for document",True
+8cab03567d8328c548bc4469914f567a4820e125,2019-07-05 10:57:21,Feross Aboukhadijeh,"Merge pull request #1307 from standard/greenkeeper/eslint-plugin-import-2.18.0
+
+fix(package): update eslint-plugin-import to version 2.18.0",True
+f7950c26e5a9ba0a19071ea1724a2ab28d793d71,2019-07-05 10:57:02,Feross Aboukhadijeh,Merge branch 'master' into greenkeeper/eslint-plugin-import-2.18.0,True
+2080fb9c9fd27cb759aa1b7217aa83beebe67622,2019-07-05 10:56:16,Feross Aboukhadijeh,"Merge pull request #1306 from standard/greenkeeper/eslint-plugin-react-7.14.2
+
+fix(package): update eslint-plugin-react to version 7.14.2",True
+26b2b3631ea2c32bd9c496e5f330fae66e677c9b,2019-07-05 10:55:41,Feross Aboukhadijeh,Merge branch 'master' into greenkeeper/eslint-plugin-react-7.14.2,True
+482f017fef6ba624e9f456f4d02d74a626a452ab,2019-07-05 10:41:47,Feross Aboukhadijeh,"Merge pull request #1288 from Amabel/feature/update-rules-zhcn
+
+Translate rules into Simplified Chinese",True
+7000e234c041054f4eda6efca65349d94b4b5ea1,2019-07-05 08:39:11,Feross Aboukhadijeh,"Merge pull request #1285 from aaronhong/patch-1
+
+Add local installation usage",True
+279c058403419bea7472460f87346f3decb17984,2019-07-05 08:37:52,Feross Aboukhadijeh,"Merge pull request #1293 from eladchen/fix-bad-typescript-docs
+
+Align docs / Fix bad example",True
+4c37f710dac6530083f2412aaeb61cb1d8c914f6,2019-07-05 08:36:14,Feross Aboukhadijeh,"Merge pull request #1299 from davecarlson/patch-1
+
+Update README.md",True
+40d1d5e60666f2ea8d0e65579bb5829d0fb3e2f9,2019-07-05 08:36:03,Feross Aboukhadijeh,readme ordering consistent,False
+967a99fc45c92e81a53ea83a6c0dcc8f78f2240f,2019-07-05 08:11:40,Feross Aboukhadijeh,"Merge pull request #1305 from standard/greenkeeper/eslint-plugin-node-9.1.0
+
+fix(package): update eslint-plugin-node to version 9.1.0",True
+8967f62575f6dd27373c592ac9fe4d1fe5ed56c3,2019-07-05 08:11:33,Feross Aboukhadijeh,Merge branch 'master' into greenkeeper/eslint-plugin-node-9.1.0,True
+b4dcca28c81037fb7306b85709beefd25577fea1,2019-07-05 08:07:24,Feross Aboukhadijeh,"Merge pull request #1304 from standard/greenkeeper/eslint-plugin-promise-4.2.1
+
+fix(package): update eslint-plugin-promise to version 4.2.1",True
+e1ea417210b44eb43b7671e3043608842c6a9f2e,2019-07-05 08:06:02,Feross Aboukhadijeh,"Merge pull request #1297 from standard/greenkeeper/babel-eslint-10.0.2
+
+Update babel-eslint to the latest version 🚀",True
+9db51fee2db26424fbcc1449a33c453235f25745,2019-07-05 08:03:03,Feross Aboukhadijeh,"Merge pull request #1303 from standard/greenkeeper/eslint-6.0.1
+
+fix(package): update eslint to version 6.0.1",True
+31ef0ddce0d785bac78c65e931d4f5bebbabecc1,2019-06-25 23:08:23,greenkeeper[bot],"fix(package): update eslint-plugin-promise to version 4.2.1
+
+Closes #1268",False
+64569425c477ccb92b2f58cd83a183396e90129d,2019-06-25 07:21:18,greenkeeper[bot],"fix(package): update eslint to version 6.0.1
+
+Closes #1300",False
+6832d95451a9919f507e1421b5949c6bfeb7d525,2019-06-25 03:34:50,greenkeeper[bot],"fix(package): update eslint-plugin-import to version 2.18.0
+
+Closes #1272",False
+08b6806b9cab2853775885f42d9252704cf16780,2019-06-25 02:21:26,greenkeeper[bot],"fix(package): update eslint-plugin-react to version 7.14.2
+
+Closes #1237",False
+3afee698ba0a7d60a8967bc6adfc6b9461bdb0e6,2019-06-20 19:01:11,Dave Carlson,"Update README.md
+
+Call out jest as an env, as it is increasingly likely to be the test runner",False
+6895b5bf70f62f6df4b0d6a399736fd4a445103b,2019-06-17 19:46:22,greenkeeper[bot],chore(package): update babel-eslint to version 10.0.2,False
+6326ad224b65db1b97985e87fbb9c3dadd1b96c1,2019-06-10 12:26:45,Elad Chen,Align docs / Fix bad example,False
+cf92f4f07c99a3fb243716c0cf787514b661e365,2019-06-03 18:29:18,Amabel,Translate rules into Simplified Chinese,False
+155d52710f587439d58b146f790df322336e195a,2019-06-03 17:31:17,Linus Unnebäck,"Merge pull request #1287 from dangen-effy/patch-3
+
+fix typo.",True
+79df3f74c8379201a59102b93c14cdf255dd311a,2019-06-03 10:32:14,dangen,"fix typo.
+
+vaiable => variable",False
+38eb535449b75b6ee8fdb36adaf5d265a21393a2,2019-05-28 22:06:38,aaronhong,Add local installation usage,False
+b62418dd5418c340c9901d8460f101f0438861f9,2019-05-23 15:48:13,greenkeeper[bot],"fix(package): update eslint-plugin-node to version 9.1.0
+
+Closes #1275",False
+4ffb21771c6739eaf5feb0968156e0283c0921d9,2019-05-11 04:16:47,Linus Unnebäck,"Merge pull request #1278 from Tommytrg/update-docs
+
+update typescript usage docs",True
+d5919931db947a686b19dd30648d061c39b8af2e,2019-05-11 03:50:37,tomastrg,"update typescript usage docs
+
+fix #1255
+
+Co-authored-by: mehmetnyarar <mehmetnyarar@gmail.com>",False
+0d3a7c8bb58a27cc5d8caeafbb65bce28d320b09,2019-04-12 19:41:11,Linus Unnebäck,"Merge pull request #1267 from standard/greenkeeper/eslint-5.16.0
+
+fix(package): update eslint to version 5.16.0",True
+6cfc54d0e5b6089d0bf3fe39548225c0606e7623,2019-04-01 20:14:09,Linus Unnebäck,"Merge pull request #1260 from LinusU/flowsent
+
+Add Flowsent to companies using Standard",True
+0af68b25668526d88621d90d49b3fabd2d460fe6,2019-03-30 23:31:28,greenkeeper[bot],"fix(package): update eslint to version 5.16.0
+
+Closes #1251",False
+9585c0bc523f93f07949a9f47869b8ec681f8483,2019-03-26 10:53:04,Feross Aboukhadijeh,Update SECURITY.md,False
+62209dd71d3aed7c80ecc8a553139807345bc450,2019-03-20 19:05:19,Munieru,"Merge pull request #10 from kohashi/add_japanese_translation
+
+Fix redundant Japanese.",True
+179ec4f254149270fc43b0e7d87e96fed26a1a70,2019-03-19 20:19:20,Linus Unnebäck,Sync companies using Standard to all languages,False
+87c6e9928c806261b565a3dda789ae5b8b13736a,2019-03-19 20:18:59,Linus Unnebäck,Add Flowsent to companies using Standard,False
+6bdeb7614fc811009f73e1c9112bed3b209f1a72,2019-03-19 18:51:26,kohashi,fix typo.,False
+830e422afd1be984c308e3f7afae19209149d167,2019-03-18 17:25:15,kohashi,Improve translation of readme,False
+1fb3de249ef34ea795c402ae0e1f8c042bfe2a85,2019-03-18 17:25:06,kohashi,Add words to make it obvious.,False
+092633885edd7c9364bc99fb34fe6517137ee346,2019-03-18 17:24:36,kohashi,"replace redundant translation.
+
+- `No XXing` should be translated as `XX禁止`.  e.g. `No parking` is `駐車禁止`
+- Japanese honorifics style are not recommended in tech-documents.
+   - Redundant.
+- `Should not` should be translated as `するべきではない` or `推奨されない`.",False
+e3ee079eabf09a525694369e3e8dba3583dca237,2019-01-17 12:53:52,dangen,"Broken link solved (language relative) (#1226)
+
+RULES.md#javascript-standard-style
+
+->
+
+ RULES-kokr.md#javascript-standard-style",False
+44877f8c00376892784150e95b5be001a2a2857c,2019-01-17 12:51:44,Chris Brody,"Add pointers for those who disagree with standard (#1240)
+
+* Add pointers for those who disagree with standard
+
+* empty",False
+4ac2ccca2460da46e5655e2856a79a2ae3d71d65,2019-01-14 18:13:05,Austin Orth,"Fix TOC links in README.md (#1215)
+
+* fixed inner links in readme
+
+* change the word pretty in table of contents to match formatting of title.",False
+d9cc218fdbca4d42c2f0475cc34249d89c63ffe4,2019-01-08 17:02:53,Linus Unnebäck,"Merge pull request #1210 from jtrussell/update-eslint
+
+Bump eslint to 5.6.0 (compat with react-scripts)",True
+dc0ae5ea9fe207b95effb4409d4311913c0b9a4c,2018-11-23 13:29:02,Feross Aboukhadijeh,update supporters,False
+da127f26ee401054393d74ec5d28b4e8b042e9cd,2018-11-02 01:44:42,Feross Aboukhadijeh,update sponsors,False
+829ac035e7f9a7a7099491d3740166af876e5394,2018-10-14 21:36:27,Munieru,Fix Markdown syntax,False
+8736969f9e6313a0a027c80ba9391fc5cf621c51,2018-10-14 21:32:07,Munieru,Fix Markdown syntax,False
+9d6338ec0390def93860b926c19937511cc449fc,2018-10-14 20:50:04,Munieru,Add Japanese translation for README,False
+7cba8434b8320fba1435dacc3b213f6956dd3e10,2018-10-10 01:38:09,Justin,"Bump eslint to 5.6.0
+
+This minor version bump of eslint is for compatability with react-scripts@2.x which
+insists on this version of eslint on startup.
+
+This change will allow folks to continue using standard in conjunction with new react-scripts
+releases without issue.",False
+0f85904c6046feaf6622270c486ba4cca7593fdb,2018-10-08 19:59:28,Munieru,Add Japanese translation for RULES,False
+bc02256fa2c03632e657248483c55a752e63e724,2018-09-15 03:09:31,Feross Aboukhadijeh,readme: tweak tidelift badge,False
+8af5cad73462da5a1e8132de7848cb134ce49922,2018-09-15 03:06:39,Feross Aboukhadijeh,readme: add tidelift badge,False
+9ef6d7b9be75cf2e3ba08ae8579df0646d431495,2018-09-12 06:43:19,Feross Aboukhadijeh,"Merge pull request #1195 from dangen-effy/patch-1
+
+No 'ok' sign at 442 line",True
+84d46db4bcf4c08ec01789f940bb84ac08772e1c,2018-09-07 12:35:22,dangen,No 'ok' sign at 442 line,False
+1d5a0b562b99ce6fe17e419c8e0ff6e3cb8fa689,2018-09-07 10:15:37,Feross Aboukhadijeh,Better BitMidi logo,False
+1647b9fdc02f73800d067a1a4cc4be5f2969c387,2018-09-07 10:00:57,Feross Aboukhadijeh,ImageOptim,False
+7f4d81bad92610f040d204b3738fbceef949c93d,2018-09-07 09:53:42,Feross Aboukhadijeh,Add BitMidi to users list,False
+12362dc59b4066edcf65444ca9fbd0d7c88a1074,2018-09-07 09:49:37,Feross Aboukhadijeh,remove duplicate french tranlsation links,False
+231fbca2c8e7d8b1b300b98607bce39775a486f5,2018-09-07 09:48:17,Feross Aboukhadijeh,sort translation links,False
+584cadd899f269cb0d5848006483ee9363991dcb,2018-09-07 09:46:02,Feross Aboukhadijeh,"Merge pull request #1193 from charliegerard/master
+
+Translate RULES.md in french",True
+e49c86bc675c0295c720dfdadf07b10506c3c5dc,2018-09-04 08:27:36,Charlie Gerard,Translate RULES.md in french,False
+2ae108a7e99772ca611a8ccf7f2314e1a9b32ddb,2018-08-31 03:00:42,Feross Aboukhadijeh,"Merge pull request #1191 from standard/greenkeeper/standard-engine-10.0.0
+
+Update standard-engine to the latest version 🚀",True
+519f4bd781992d2245621ff14621167bf015a848,2018-08-31 02:30:07,greenkeeper[bot],fix(package): update standard-engine to version 10.0.0,False
+53dcb81b30d7cc91b26112173831c60390a4deaa,2018-08-31 00:23:45,Feross Aboukhadijeh,package.json engines node >= 6,False
+6e28e3195af8732f987cefcf7b47edde903dc117,2018-08-30 12:28:51,Feross Aboukhadijeh,authors,False
+b8741d066c95a280d41f2a1e4649a491fcaf0d8c,2018-08-30 10:31:32,Feross Aboukhadijeh,12.0.1,False
+7839edfdd40cabe6fcdce43afcf45d6195725f15,2018-08-30 10:29:59,Feross Aboukhadijeh,changelog,False
+523c15e243faab43f30567d3c15f11263f0c9f89,2018-08-30 10:27:31,Feross Aboukhadijeh,"Merge pull request #1190 from Gerhut/patch-1
+
+Silently pass in node 4",True
+9ee4d0f24cdf6a39def467b88e8504c28be15cfd,2018-08-30 08:54:05,George Cheng,"Silently pass in node 4
+
+Since [ESLint 5 no longer support node 4](https://eslint.org/docs/user-guide/migrating-to-5.0.0#-nodejs-4-is-no-longer-supported), standard should silently pass in node 4.",False
+e1560df6e65f099805bf519caa1b8179f0a99164,2018-08-29 10:24:11,Feross Aboukhadijeh,fix readme translation links,False
+5fc2231002d16f9034fde0ad7345d55214081b37,2018-08-29 10:11:06,Feross Aboukhadijeh,fix changelog,False
+0a910f2d392a209b22bc9d9a2b211c8141aeb261,2018-08-29 09:47:59,Feross Aboukhadijeh,lock config versions,False
+ff1a15638853c5ab93223566238c68c7eeb6695b,2018-08-29 09:10:59,Feross Aboukhadijeh,authors,False
+17727fc20b48c8f0714f9ec6838e824c72ebd875,2018-08-29 09:10:34,Feross Aboukhadijeh,12.0.0,False
+bdbd248c2ba8a1f3e2e356af923e541ca8d5f4dd,2018-08-29 09:07:47,Feross Aboukhadijeh,changelog,False
+3db3a624560a33e69e3b59fda361aefe93f40b79,2018-08-29 08:36:24,Feross Aboukhadijeh,https,False
+cf1802c945d83b7163059c5736762c619ffaea57,2018-08-29 05:20:46,Feross Aboukhadijeh,eslint-plugin-standard ~4.0.0,False
+7d779b87a25348b1fbd37b50b1f88af005f9cbf8,2018-08-29 05:20:39,Feross Aboukhadijeh,eslint-plugin-import ~2.14.0,False
+66f676b8678698b3d8c7dcea849a4dc5535c834e,2018-08-29 05:20:12,Feross Aboukhadijeh,eslint ~5.4.0,False
+3933c6b778b624cb1de4de24eabcd545f17ab41e,2018-08-29 05:16:29,Feross Aboukhadijeh,Use npm versions of eslint shared configs,False
+c00dc668f3bc4fb1b7d7fa31220cf8f6309d0adb,2018-08-29 05:16:15,Feross Aboukhadijeh,Use ~ for eslint dep,False
+588d5ab541889efe93bc05a70e9bf0593bf264e0,2018-08-29 05:05:31,Feross Aboukhadijeh,Add links to French README translation!,False
+aee57b4d4dd8779b38ead873ad309193ceeaa91f,2018-08-29 05:05:31,Feross Aboukhadijeh,ESLint 5,False
+c89d5c7e77264cd92a0bd330514e6ca37531a9f6,2018-08-29 05:03:58,Feross Aboukhadijeh,"Merge pull request #1145 from theo4u/patch-1
+
+docs: vim ale standard fixer",True
+6477dbf2559552ec86d9a7375c8a97379ff361d8,2018-08-29 05:01:58,Feross Aboukhadijeh,"Merge pull request #1184 from standard/greenkeeper/babel-eslint-9.0.0
+
+Update babel-eslint to the latest version 🚀",True
+8792b9b3718e918cca072e57fb53c4e5980bf422,2018-08-29 05:01:49,Feross Aboukhadijeh,"Merge pull request #1180 from standard/greenkeeper/eslint-plugin-promise-4.0.0
+
+Update eslint-plugin-promise to the latest version 🚀",True
+ff070b8ee778c3b6f42a98b9fed77b80ac9ff4b3,2018-08-29 05:01:19,Feross Aboukhadijeh,Merge branch 'master' into greenkeeper/eslint-plugin-promise-4.0.0,True
+df1b7c4d7ffc1506987d45fcc7b290f79f657ed7,2018-08-29 05:00:39,Feross Aboukhadijeh,"Merge pull request #1187 from standard/greenkeeper/eslint-plugin-react-7.11.1
+
+fix(package): update eslint-plugin-react to version 7.11.1",True
+3e65b08a0fd9c8485acd30e5fca0c3ba071bae20,2018-08-29 05:00:27,Feross Aboukhadijeh,"Merge pull request #1164 from standard/greenkeeper/eslint-plugin-node-7.0.0
+
+Update eslint-plugin-node to the latest version 🚀",True
+b3402160cd2e5b72963500019a25573940b67b65,2018-08-29 04:53:14,Feross Aboukhadijeh,"Merge pull request #1162 from charliegerard/master
+
+translate README in French",True
+cb2de870f1af5c3e750768c1ebcb28cd57cb7504,2018-08-29 04:47:22,Feross Aboukhadijeh,Update package.json,False
+2f3665014304101f810c312492cba61c1576bfa5,2018-08-28 08:01:24,greenkeeper[bot],chore(package): update babel-eslint to version 9.0.0,False
+82780e5a20b4fc02aa3153bee50495ac6511bf85,2018-08-18 02:58:29,greenkeeper[bot],fix(package): update eslint-plugin-promise to version 4.0.0,False
+506ac11fbc0eaa617bbb23c703c6eea630aa00fe,2018-08-15 01:55:51,greenkeeper[bot],"fix(package): update eslint-plugin-react to version 7.11.1
+
+Closes #1130",False
+b6919b47573ec6940eb8eee36d8d16969ff46103,2018-08-13 22:13:07,Linus Unnebäck,"Merge pull request #1178 from brodybits/patch-1
+
+README.md add standardx",True
+4db4dbf5712cd4df55f5ae1ed57d46a6729b48a8,2018-08-13 22:04:52,Christopher J. Brody,README.md add standardx,False
+9aa4f21eb8bb6c6cb5ffdf6f3683b92646871a6c,2018-07-17 14:39:13,greenkeeper[bot],fix(package): update eslint-plugin-node to version 7.0.0,False
+4ca879031fbc7454514198346f356bddfd0a0e8d,2018-07-10 18:16:28,Charlie Gerard,translate README in French,False
+79159b499d536981ea99182b4f06a4b043b7f95e,2018-07-07 15:56:45,Linus Unnebäck,"Merge pull request #1160 from standard/greenkeeper/eslint-plugin-import-2.13.0
+
+fix(package): update eslint-plugin-import to version 2.13.0",True
+e4c30ac806a7afdb149b555a7dc0c62e2ea28478,2018-06-24 22:11:50,greenkeeper[bot],"fix(package): update eslint-plugin-import to version 2.13.0
+
+Closes #1136",False
+f772106a4eefe8a61d2e2d3666d19891bd67ee4a,2018-06-05 04:59:34,Theophilus Omoregbee,docs: lint and format ale vim on save,False
+046f73edcdf4ce8a08db8e059c1c7579c41ccc69,2018-06-05 04:23:32,Theophilus Omoregbee,docs: vim ale standard fixer,False
+92405e943a50970918e423f1baffd610a57bded4,2018-05-25 11:33:31,Feross Aboukhadijeh,ProBot No Response: tweak comment,False
+d8cc57e0bd1c2987385f75b2a62e29771dff7070,2018-05-25 11:33:31,Feross Aboukhadijeh,ProBot Welcome: tweak comments,False
+64c159b2f36e6fa6991ebde9c7070ee13b4c7617,2018-05-25 11:33:31,Feross Aboukhadijeh,ProBot Request Info: tweak comment,False
+67c0ec9600ebab207c63d7773aa10702a978ca32,2018-05-25 11:33:31,Feross Aboukhadijeh,ProBot Lock: 90 days,False
+ccd5e20aa8721ddba722e049110e6feb65486ce9,2018-05-25 11:13:15,Feross Aboukhadijeh,"Merge pull request #1140 from standard/greenkeeper/eslint-plugin-promise-3.8.0
+
+Update eslint-plugin-promise to the latest version 🚀",True
+fac1d2bd0cbd1a55cc59e27769d65892c6fde3cc,2018-05-25 04:02:32,greenkeeper[bot],fix(package): update eslint-plugin-promise to version 3.8.0,False
+3f2af6c781a74fb5edba1c4f453268715dae3c0a,2018-05-18 11:08:40,Feross Aboukhadijeh,ProBot Welcome: PR message tweak,False
+97b7a63982ae8c86b69d0e49cbced2c8d89b718c,2018-05-16 16:33:10,Feross Aboukhadijeh,"Merge pull request #1098 from fa7ad/patch-1
+
+Fix web worker / service worker mismatch",True
+01cc9ca15606b2e36b6ad6a9d2f1a954888571d9,2018-05-15 15:58:08,Feross Aboukhadijeh,Merge branch 'adriantrunzo-1018-pre-commit',True
+c171e8d2978fb344c4fef75b79942b6d5aeb55ee,2018-05-15 15:57:41,Feross Aboukhadijeh,Merge branch '1018-pre-commit' of https://github.com/adriantrunzo/standard into adriantrunzo-1018-pre-commit,True
+5f34aa5055bf053802221b12f7dfe4cf8bb60150,2018-05-15 15:27:50,Feross Aboukhadijeh,"Merge pull request #1134 from standard/greenkeeper/standard-engine-9.0.0
+
+Update standard-engine to the latest version 🚀",True
+7dc845c7ed946a90135947d04d6e2278d1715434,2018-05-15 15:12:30,greenkeeper[bot],fix(package): update standard-engine to version 9.0.0,False
+b9c88cc3f0c642b123a24e6fe6e066d04929b983,2018-05-15 14:52:55,Feross Aboukhadijeh,"Merge pull request #1133 from standard/npmignore
+
+npmignore for smaller install size",True
+a0b32a7196e16193648e3e8b86157a4ae14ada34,2018-05-15 14:37:09,Feross Aboukhadijeh,"Merge pull request #1132 from standard/tools
+
+bin/update-authors.sh -> tools/update-authors.sh",True
+e692e61db32db5ad068d1c3d4bddfb7e8c051672,2018-05-15 14:05:28,Feross Aboukhadijeh,npmignore,False
+2b909f4b11194ed13af35a2bad225a3cf299946f,2018-05-15 14:01:05,Feross Aboukhadijeh,"bin/update-authors.sh -> tools/update-authors.sh
+
+Let's
+
+bin/ is for command line programs (published to npm)
+tools/ is for development tools (not published)",False
+6e54774df2ea0feda468d9becb2ec4cbdb7b3b03,2018-05-11 11:26:04,Feross Aboukhadijeh,"Merge pull request #1129 from standard/lacymorrow
+
+Improve no-label-var code example",True
+6d552f70170834b020f98bb4f330d9c0251d3e80,2018-05-11 11:13:23,Feross Aboukhadijeh,"Improve no-label-var code example
+
+Credit to @lacymorrow for this commit
+
+Fixes: https://github.com/standard/standard/pull/1029",False
+a3e8b7e02945bd981b8e8c7a77f7c2f507b7cfcc,2018-05-11 11:12:44,Feross Aboukhadijeh,"Merge pull request #619 from standard/global
+
+Recommend `/* global */` comment over `window.`",True
+63ea6957409fe4f3561d318f98f05d5b9bc6f558,2018-05-11 11:00:36,Feross Aboukhadijeh,"Merge pull request #1128 from standard/issue-template
+
+Add an issue template",True
+b0050fb63868215d0911eaa73f1834ce540efe99,2018-05-11 06:22:13,Feross Aboukhadijeh,ProBot Stale: never mark 'meta' issues stale,False
+42add64976e51e0b47ec83bed2b7abafc05cfc34,2018-05-10 12:52:01,Feross Aboukhadijeh,ProBot Welcome: tweak message,False
+24b6625c34cb4aeb8b8ab1cd3e20c32f8cf1e477,2018-05-10 12:49:45,Feross Aboukhadijeh,"Merge pull request #1121 from cnwangjie/master
+
+change example of rules about setter & getter (fixes #1120)",True
+eaca5742e42724b262456dc83109dbe993f559d8,2018-05-10 08:52:09,Feross Aboukhadijeh,ProBot No Response: tweak message,False
+e5a6ddddf4862e9d51330e9f51ebeeb4d043a53a,2018-05-10 08:44:46,Feross Aboukhadijeh,ProBot Request Info: add label,False
+cc082a4a2e3907e064bec0a163aa396af0a9a962,2018-05-10 08:39:21,Feross Aboukhadijeh,Add an issue template,False
+b8efa407bc36b62b7efcf82944666ff092e30e30,2018-05-10 08:31:37,Feross Aboukhadijeh,"Merge pull request #1127 from standard/probot
+
+Add bots!",True
+7920b228437366bca2e521e744272b09981b90ed,2018-05-10 07:49:58,Feross Aboukhadijeh,ProBot WIP,False
+ea9531c7b8ab7ca9942a9c65b627bb8f62d1f2c3,2018-05-10 07:49:53,Feross Aboukhadijeh,ProBot Welcome,False
+4f7a51b3dc00a84092423bba9dd4f8a09e676ca3,2018-05-10 07:49:47,Feross Aboukhadijeh,ProBot Request Info,False
+599317b97f3a0ad58678cff11c646913eac1612c,2018-05-10 07:49:40,Feross Aboukhadijeh,ProBot Lock,False
+6160592a2918f0479608d83efc32815f41a714b3,2018-05-10 07:49:33,Feross Aboukhadijeh,ProBot No Response,False
+7521cbca775bc91bc81328827235cb81bb81d344,2018-05-10 07:49:27,Feross Aboukhadijeh,ProBot Stale,False
+ccbbd92ee880f9c6e3605c78d8c2ed4e181b6668,2018-05-10 05:10:15,Feross Aboukhadijeh,Include full list of gotcha characters,False
+eea84335ce3b7bdb59289c2232ae4e5bcdd5f579,2018-05-10 05:03:50,Feross Aboukhadijeh,Fix rules link in docs,False
+acfe6e0f900a7165faef645e4db32a3c04a80096,2018-05-09 07:19:35,Feross Aboukhadijeh,eslint-plugin-standard@3.1,False
+9965dc90dbf7ab98be596b3cbb8a1867a182dedc,2018-05-09 07:19:26,Feross Aboukhadijeh,eslint-plugin-import@2.11,False
+5dd395bc59c9c9a8e07ceddab03b6ddb68c6ea4e,2018-05-09 07:17:48,Feross Aboukhadijeh,Use eslint configs from `master` (easier development),False
+81cce458a6a157e3decf3fb0b08e04f054ee1520,2018-05-09 07:02:53,Feross Aboukhadijeh,"Merge pull request #1125 from standard/drop-node-4
+
+travis: Drop node 4 support",True
+5f5624a982b0786941e66dd9580dc1ab83b36642,2018-05-09 06:47:33,Feross Aboukhadijeh,travis: Explicitly specify supported versions,False
+3a0395f64e4ee6abb4dec9a6f10e10be8f5d0e0e,2018-05-09 06:46:29,Feross Aboukhadijeh,travis: Drop node 4 support,False
+a2da214f83b47555f5e4c443935d12f14b8bf4bd,2018-05-09 06:45:35,Feross Aboukhadijeh,"Merge pull request #1124 from standard/eslint5
+
+eslint@5.0.0-alpha.2",True
+65d17d2b265bfcd2836fcffab9c584c1ec78dd16,2018-05-05 11:08:27,Feross Aboukhadijeh,eslint@5.0.0-alpha.2,False
+31e5d3d69a5d505c471e7f6908b609e8d3db1116,2018-05-01 16:51:32,WangJie,change example of rules about setter & getter,False
+1332ceb71863792927b717e66e9e1b1335d5c674,2018-04-30 12:31:25,Feross Aboukhadijeh,"Tiny rewording
+
+Fixes: https://github.com/standard/standard/pull/1020
+
+Thanks, @earthrid",False
+d0a563388f2ee2e5a0e21e191a722424516ece63,2018-04-20 12:02:42,Feross Aboukhadijeh,"Merge pull request #1111 from andresattler/master
+
+clarified the documantation for vim with ale",True
+213802a83b6d16c00b5a7a59f9128f0a324fcc70,2018-04-19 01:58:47,Linus Unnebäck,"Merge pull request #1113 from lucasbaldassari/master
+
+Language and aditional list item correction.",True
+a45e2ea2ca2011be22a4d8da104fca38239bf1ea,2018-04-19 01:47:31,Lucas Baldassari,Language and aditional list item correction.,False
+0d721c9331355002cb28e60e3de1e3f9c0d7e763,2018-04-16 23:34:31,Andre Sattler,clarified the documataiton for vim with ale,False
+1c616efd6d45aa12aff0558118fb9f0cc6d02d72,2018-04-13 04:26:23,Feross Aboukhadijeh,"Merge pull request #1109 from elowes/patch-1
+
+Update RULES-zhcn.md",True
+5b27bbdfa3c0745673510ed4100654ffec7f387d,2018-04-12 18:16:19,kaijun,"Update RULES-zhcn.md
+
+miss letter 's'",False
+9c61f9c7261370399676a8be7f46aaa4752d8242,2018-04-03 05:16:45,Feross Aboukhadijeh,Update NodeSource link,False
+6513ae22dede89fcf616ff290ac38ad24288ec88,2018-04-03 04:50:14,Feross Aboukhadijeh,Add NodeSource (Gold sponsor),False
+2e6c92d268ca389910d6a3eed20e332e77ecc220,2018-03-24 23:14:49,Fahad Hossain,Fix web worker / service worker mismatch,False
+54ecf2494afc321efa0c44886cd067b8e4312939,2018-03-24 04:08:45,Feross Aboukhadijeh,"Merge pull request #1093 from standard/greenkeeper/eslint-4.19.0
+
+Update eslint to the latest version 🚀",True
+4402f434c2bc5774dc4f424746e8369f2a6d5982,2018-03-24 03:00:34,Feross Aboukhadijeh,"Merge pull request #1094 from aichholzer/master
+
+Broken link to Webstorm how-to",True
+96d320490e58d9545e3b5cab13993182a93d9c19,2018-03-23 10:29:50,★★ (งツ)ว ★★,Broken link to Webstorm how-to,False
+384910112a427a09605333a111aea6cdae1f1a31,2018-03-17 02:20:02,greenkeeper[bot],fix(package): update eslint to version 4.19.0,False
+670a3be9e96cc1808b47ecabcddb742bff49f898,2018-03-15 04:44:15,Feross Aboukhadijeh,authors,False
+b7e6cbc4c04fc1df1de2d9ccb31fdc5ff176b924,2018-03-15 04:32:49,Feross Aboukhadijeh,11.0.1,False
+34a3c40ba20797d44f7894fdf5277f0116dfdfa7,2018-03-14 20:28:23,Linus Unnebäck,"Merge pull request #1092 from watson/elastic-logo
+
+Replace Opbeat with Elastic logo",True
+538264304d7a93b97998d2b2d0d666b054a1312a,2018-03-14 20:13:38,Thomas Watson,"Replace Opbeat with Elastic logo
+
+Opbeat have been acquired by Elastic and the Opbeat brand is shutting
+down in a few months.",False
+c40c799e96f67e2c80bd840ca0dde5a65f399490,2018-03-14 20:00:03,Linus Unnebäck,"Merge pull request #1091 from mackermans/master
+
+Update Typeform's logo",True
+504fcffa42401cfe0b9926bb33029b6325128975,2018-03-14 19:48:26,Maarten Ackermans,docs(README): update typeform logo,False
+a5b779f479a63ccebb114ebc2edff64c31730611,2018-03-13 10:28:23,Thomas Watson,"Swap README.md and RULES.md symlinks (#1090)
+
+Fixes #1074",False
+e818224c4a3832bcd01b6edafa881adb731c1dbf,2018-03-09 00:57:14,Feross Aboukhadijeh,"Merge pull request #1072 from standard/greenkeeper/eslint-plugin-react-7.7.0
+
+Update eslint-plugin-react to the latest version 🚀",True
+9dc888fe0b1b6400c5617b74daaf49637dd8e07f,2018-03-09 00:41:18,Feross Aboukhadijeh,Merge branch 'master' into greenkeeper/eslint-plugin-react-7.7.0,True
+a5293dd7cb9209d4fd9749647e70d4da5fe9dfcc,2018-03-09 00:40:16,Feross Aboukhadijeh,"Merge pull request #1075 from standard/greenkeeper/eslint-plugin-import-2.9.0
+
+Update eslint-plugin-import to the latest version 🚀",True
+ebf662083e55beacdc8638e77a8ad189aa7dc85b,2018-03-09 00:36:27,Feross Aboukhadijeh,"Merge pull request #1087 from standard/greenkeeper/eslint-plugin-promise-3.7.0
+
+Update eslint-plugin-promise to the latest version 🚀",True
+116a87190bd6c1a1e1b0e51b4f273fa859bb9731,2018-03-08 23:40:05,greenkeeper[bot],fix(package): update eslint-plugin-promise to version 3.7.0,False
+738edc4021109897c6141a7f7176d3ad9303402d,2018-03-03 01:56:56,Feross Aboukhadijeh,readme: add standard talk,False
+c93ac0d56402496f80570288692004443b997804,2018-02-23 16:38:31,Linus Unnebäck,"Merge pull request #1076 from tumobi/fix-links
+
+Fix webstorm.md links",True
+4f8c1f5632bac8317327c2822961e7580d71321d,2018-02-23 13:47:42,tumobi,Fix webstorm.md links,False
+cb3071213d2223bdbe447a1a17aca9694bf0ff75,2018-02-22 06:27:21,greenkeeper[bot],fix(package): update eslint-plugin-import to version 2.9.0,False
+7bdc9f252a5bb3115bf1d15972d75b68a074620b,2018-02-20 13:37:15,greenkeeper[bot],fix(package): update eslint-plugin-react to version 7.7.0,False
+9b687add2ea654b43df57195a1303801dd37d1b6,2018-02-20 10:46:22,Feross Aboukhadijeh,authors,False
+3ec7e04d2feec2cbb9fe56e0c2ea47a0cc5cc312,2018-02-20 10:45:09,Feross Aboukhadijeh,"Merge pull request #1070 from standard/ematipico-patch-1
+
+Fixing personal email to the correct one",True
+7c390c907472049f20056c3d0fc3c30987bfc2ba,2018-02-19 15:57:10,Emanuele,Fixing my personal email to the correct one,False
+a5994268773a1c12d9e1e23c786ed8f7e90d41e5,2018-02-19 05:28:34,Feross Aboukhadijeh,authors,False
+4b7fac5e97b09b3d102fb07db8c6ccf0fbe6c1a3,2018-02-19 05:28:01,Feross Aboukhadijeh,11.0.0,False
+76bf851c5e24a2a956a19c04a1d635021418506f,2018-02-19 05:21:22,Feross Aboukhadijeh,standard-packages@3.4.0,False
+22673fc7ac2dad0239e8a16660734ac4b1c50056,2018-02-19 05:10:28,Feross Aboukhadijeh,test: add --fix flag to attempt fixing packages before failing,False
+50c466cb2a287cbac365629fbd634baf2a8b27e5,2018-02-19 04:58:35,Feross Aboukhadijeh,remove hardcoded npm run test scripts,False
+cc7929058a9f22a89de85e68dcb410f70cad501e,2018-02-19 04:08:26,Feross Aboukhadijeh,".npmignore
+
+dot files are automatically ignored, no need to specify them",False
+7b5e48249747fe3dc54dfa224d118b31dd9c55a9,2018-02-19 04:08:04,Feross Aboukhadijeh,".npmignore
+
+npm seems to include .npmignore in the final package, let's see if we can exclude it like this",False
+538f087761b34cca4d9a8d5f9c4d71cf41968a07,2018-02-19 03:53:00,Feross Aboukhadijeh,standard-engine@8.0,False
+01479896b434eb22ea9b5b4b87b2036ccfbccdd8,2018-02-19 03:52:53,Feross Aboukhadijeh,eslint-config-standard-jsx@5.0.0,False
+7ff022fe1e5e4c81bbc6e5ac2e0849a48ab0cc63,2018-02-19 03:52:45,Feross Aboukhadijeh,eslint-config-standard@11.0.0,False
+c9e8503a3e7e9a0117ae6aa3bae8fa7154ff3192,2018-02-19 03:52:35,Feross Aboukhadijeh,changelog,False
+a5333eb74c28f83a98ad741886512e298cf0726c,2018-02-19 03:19:32,Feross Aboukhadijeh,changelog,False
+98f513c65c685551cb85113dafeed541f1a75d7e,2018-02-18 06:27:44,Feross Aboukhadijeh,test style,False
+8376af6b9bb2bf45afc380bbb9cce11d5a237e7a,2018-02-18 06:26:40,Feross Aboukhadijeh,don't peg CPU when running tests,False
+47489dad065b9e5df04fc8b4d0a77f6fea97777f,2018-02-18 05:33:36,Feross Aboukhadijeh,update changelog,False
+4ff2152aa43563752d522dee5b82d68f94943474,2018-02-18 05:33:32,Feross Aboukhadijeh,eslint-plugin-node@6,False
+78be32440ff00790cb7721fb3a28b9fd4b36f652,2018-02-18 05:33:25,Feross Aboukhadijeh,eslint@4.18,False
+c2bd85c35103c84e913687501c10bad68e0aee00,2018-02-17 05:02:34,Feross Aboukhadijeh,"Merge pull request #1054 from standard/greenkeeper/initial
+
+Update dependencies to enable Greenkeeper 🌴",True
+5edd7c3548bc7a38259487c2070a8888664b1584,2018-02-17 04:23:17,Feross Aboukhadijeh,chore: adapt code to updated dependencies,False
+aef406affe2726d6bb973f9b2e9ced704384dc88,2018-02-04 07:04:56,Feross Aboukhadijeh,copy,False
+ff379a0c5e02c29fe6b48342e1f4113078fbe5d1,2018-02-04 06:33:28,Feross Aboukhadijeh,add stdlib sponsor logo,False
+c1770a93718c5c6646cca54482b37a42c8e48b78,2018-02-04 06:33:28,Feross Aboukhadijeh,readme tweaks,False
+4acfb744eec7192632076e6569d81eae6a9bbbd9,2018-02-03 04:26:43,Linus Unnebäck,"Merge pull request #1057 from sonicdoe/patch-1
+
+Fix typo",True
+e1c58fb1aa48daad349970b3b3daf09ccade2a7c,2018-02-03 00:13:47,Jakob Krigovsky,Fix typo,False
+f945a2f1a35c35db6d089cb7a308154000440389,2018-01-29 16:50:44,greenkeeper[bot],docs(readme): add Greenkeeper badge,False
+22f15d5e8efe2d4b92d7e0667874af06a58af93d,2018-01-29 16:50:41,greenkeeper[bot],chore(package): update dependencies,False
+6930d5351aaf50a0f796674602c2592faf94aa1a,2018-01-27 04:47:48,Linus Unnebäck,"Merge pull request #1051 from tonyfinn/patch-1
+
+RULES.md -> /docs/RULES-en.md in README-en.md",True
+ef927d308df4637b996b31fc5cd4e87667b1595c,2018-01-27 03:22:01,Tony Finn,"RULES.md -> RULES-en.md in README-en.md
+
+Noticed a broken link while reading the readme, this should fix it.",False
+8077142d1f87961354962447cb24fdeac66fcfe9,2018-01-15 05:20:05,Linus Unnebäck,"Merge pull request #1043 from idlua/fix/portuguese-readme
+
+Fix portuguese typo and some reference links",True
+ce894b11f02e23be4f90b3feae2f5181ea97d90e,2018-01-15 02:38:39,Luan Vicente,Fix typo and some reference links,False
+98c4153b0bfb81705c8bd3ab28cb59c2d331e7da,2017-12-26 16:09:38,Linus Unnebäck,"Merge pull request #1034 from pablopunk/patch-1
+
+Update email in AUTHORS.md",True
+9bc26cc4d2cac3e4470071bc4904c8d3a7ce9a1b,2017-12-25 01:28:22,Pablo Varela,Update email in AUTHORS.md,False
+7f62e5475b32fec2d1e6381d88cf39d6361ad7ce,2017-12-14 22:28:13,Dan Flettre,11.0.0-beta.0,False
+79411dd6d00f8deb263c9ffd25d7981e8699deb8,2017-12-14 22:27:49,Dan Flettre,update CHANGELOG,False
+749eec91e07c79044228ae9eb4d9a91c2fd6d085,2017-12-13 23:35:14,Dan Flettre,"update to eslint 4 (#1027)
+
+- attempt to --fix repos with eslint 4 breaking changes",False
+b7a8ede547d5caa96fd186bd7f27826cd383edd2,2017-12-07 21:52:14,Adrian Trunzo,Update pre-commit hook to be more widely compatible.,False
+3a8b411b43044e9af7ace67f4e596573cf41b2d0,2017-11-13 21:40:49,Linus Unnebäck,"Add Eaze and Ctrl Alt Deseat to list of companies using standard (#1011)
+
+* Add Eaze to list of companies using standard
+
+* Add Ctrl Alt Deseat to list companies using standard
+
+* Fix GitHub rendering issue
+
+* Update non-english readmes list of companies",False
+bd5445c57220ac27d43f94e0cd5ff1237fc64df8,2017-11-08 01:28:50,Dan Flettre,"Hook: prevent running standard without input files (#1015)
+
+(Thanks @ttencate)",False
+2e1fdbf8f54a80e00d93d7438c670d06c9b83bf9,2017-11-07 14:38:51,Emanuele,"Merge pull request #1014 from standard/970
+
+fix error example 修复错误的示例",True
+80da796bb4aa6d50942dbf73213ce17c98997d6a,2017-11-07 04:50:53,Dan Flettre,remove extra ticks,False
+474bd796dd9778316cf48b1c3cea4bef8ec8218e,2017-11-07 04:43:25,developerjin,"Update Translate README-kokr and RULE-kokr (#991)
+
+* Translate: alternative atom linter plugin
+
+* Neo4j is using standard
+
+* Translate fix minor typo
+
+* Translate TypeScript instructions
+
+* Update rentograph is using standard
+
+* Update Adding valid example for no-unsafe-negation
+
+* Translate Mention `standard-eject` in README",False
+afb19c14d65e3e6f0f607c7951e4129c810b466e,2017-11-07 04:40:45,Dan Flettre,"Merge pull request #998 from sonicdoe/editorconfig
+
+Add .editorconfig",True
+e6c7f896ee90a6705db05944e11300b9addf10f7,2017-11-07 04:37:00,Dan Flettre,"Merge pull request #1005 from helloitsjoe/master
+
+Fixing links in README and RULES files",True
+69adb7bbd2f07ceec5a78a4d2cb50480633132ef,2017-10-23 05:21:38,Joe Boyle,Updating links in all README and RULES files,False
+0f081b932bbf0eeb6bb662abce50e2f520da028d,2017-10-23 05:19:19,Joe Boyle,updating links in README,False
+4cba0808cf185c315cd8cb84d91005d50e667ec0,2017-10-09 23:38:56,Jakob Krigovsky,Add .editorconfig,False
+c4bc5828ec7a4334062049873ef7b7ee62eb2704,2017-10-04 04:11:05,Dan Flettre,s/poorly/vaguely,False
+dc5d1dacda93de1f7fdd91fc53b75d013bad3f4b,2017-08-25 23:47:40,Dan Flettre,"Merge pull request #973 from josephfrazier/mention-standard-eject
+
+Mention `standard-eject` in README",True
+7a90f223fdc13652e6105b59812be49f6ea28c44,2017-08-25 15:12:53,Emanuele,"Merge pull request #972 from LionNatsu/patch-1
+
+README-zhcn: fix typo",True
+6985ce9423ab1c8d1dca319af8a9f60742a2c438,2017-08-13 03:56:11,Joseph Frazier,"Mention `standard-eject` in README
+
+See https://github.com/standard/standard/issues/971#issuecomment-321669543",False
+d57525f10759050fb072ec3b77fdec8a45634380,2017-08-11 07:21:56,Lion Yang,"README-zhcn: fix typo
+
+分号 - ;
+逗号 - ,",False
+cffb1de62295a0c2ae604030afc3819df83b29d5,2017-08-09 21:26:12,Sola,"fix error demo
+
+fix the error demo on the rule 「eslint: brace-style」",False
+91e80a1feba31bb1c7b1ab57283c4e3cd93d56ab,2017-08-07 00:08:21,Bret Comnes,10.0.3,False
+82a0d5c1361fe1c294b58626a3c644e682dc5e29,2017-08-07 00:07:28,Bret Comnes,changelog,False
+d22676e6cee35965d9b9231cd9e6c93588cacd09,2017-08-06 23:59:43,Bret Comnes,"Merge pull request #963 from daper/patch-1
+
+Update dependecy of eslint-config-standard-jsx",True
+cfb84fedbff8f80ace02d9ab692db6b7c815105f,2017-08-05 14:06:55,daper,Remove tilde to lock down eslint-config-standard-jsx version,False
+4a6e0d0bd4e8548dbda1bbf8ab0d9d201dbc5e5d,2017-08-04 21:52:10,daper,Update dependecy of eslint-config-standard-jsx,False
+ac9e09e007c12254bb1f163c38ba85dd3f929dd4,2017-08-01 01:45:23,Bret Comnes,"Merge pull request #961 from igorsantos07/patch-1
+
+Adding valid example for no-unsafe-negation",True
+873bc9b117c8f9fbb615f6b2db3a741d019546de,2017-08-01 01:08:48,Igor Santos,"Adding valid example for no-unsafe-negation
+
+It wasn't quite clear what's the reason behind no-unsafe-negation, as the ""avoid"" statement wouldn't make much sense anyway.",False
+f00b169c74a1f8e3052433b9f7b53d05ca142826,2017-07-18 02:25:55,Feross Aboukhadijeh,more feross/standard -> standard/standard,False
+97703038334a80694c3bd5198014879bc9dbcb38,2017-07-18 01:15:33,Feross Aboukhadijeh,"Merge pull request #954 from standard/security
+
+Add a security policy",True
+8cc2285fa954e9e74b2bffbae53786c3ba69cb2d,2017-07-18 01:10:50,Feross Aboukhadijeh,Add a security policy,False
+2fa8b0f4f93898f56be0e052948028c4aca5da17,2017-07-18 00:13:56,Feross Aboukhadijeh,change more feross/standard -> standard/standard,False
+e79a6920ad65152e003451ebd4b10263617e799e,2017-07-18 00:08:01,Feross Aboukhadijeh,Merge branch 'devjin0617-translation-kr',True
+34490f7240242d44a26a4ebe07a9abf210670499,2017-07-18 00:04:35,Feross Aboukhadijeh,Merge branch 'translation-kr' of https://github.com/devjin0617/standard into devjin0617-translation-kr,True
+6d59566cfc898dc895be779ac468ccd6412e5bef,2017-07-17 23:56:35,Feross Aboukhadijeh,"Merge pull request #953 from standard/translations
+
+Move english readme/rules to docs/ folder",True
+3895bc6f6a05e1ac03b51c5dce802a31f4a253f5,2017-07-17 23:48:54,Feross Aboukhadijeh,move english readme/rules to docs/ folder,False
+6bba965b216f6898460885ed77b9cea65383e0d7,2017-07-17 23:48:07,Feross Aboukhadijeh,add consistent translation links to every page,False
+abb6c975d31cdf413fcbebbaea2d0ca5e11a288e,2017-07-17 23:43:32,Feross Aboukhadijeh,"Merge pull request #952 from standard/repo-url
+
+feross/standard -> standard/standard",True
+65a845ac6ab0e1913f514f9bc189b1e98cf20fe1,2017-07-17 23:25:13,Feross Aboukhadijeh,"Merge pull request #934 from ematipico/feature/ItalianTranslation
+
+[DOC] Italian translation",True
+e7c5e836613a3ec4ea264fd60f3ab55923221f82,2017-07-17 23:21:39,Feross Aboukhadijeh,feross/standard -> standard/standard,False
+37932eb9fc7daaa2753f00592632c81a2e4e65dc,2017-07-17 23:16:28,Feross Aboukhadijeh,compress logos,False
+034fac7ef67f7baba16a1f691e87a0c79dadcb97,2017-07-17 23:14:34,Feross Aboukhadijeh,"Merge pull request #936 from CafeLungo/patch-1
+
+Update README.md with current repo",True
+878ea7b58f73c0052ddc99383cb3b261fc2fafd2,2017-07-17 23:08:46,Feross Aboukhadijeh,"Merge pull request #945 from rentograph/add-rentograph-logo
+
+Rentograph is using standard",True
+94b404422db4903e467f433f1a7d141ae1444063,2017-07-04 23:07:56,Jared Reich,rentograph is using standard,False
+6dd2c056e96b40d8a69df110062f5b2473d74eba,2017-06-28 06:04:05,Bret Comnes,"Merge pull request #939 from anteriovieira/patch-1
+
+Fix typo",True
+1d35e6de1e83cfe98dd19df50d7fd4deca5ef5c3,2017-06-28 05:58:48,Antério Vieira,Fix typo,False
+54e5b9500e6dc8619fcf86f453b1ba040bc38c3f,2017-06-26 20:27:58,CafeLungo,"Update README.md with corrent repo
+
+""feross"" -> ""standard"". All updated static content links verified to be valid. But feel free to verify for yourself, too.
+
+I wasn't positive on the license line if it should be changed to a standardjs.com name or not-- someone else can comment about that if it should also be updated.",False
+60e0c82c622ff8d6f114cdb0b1599f9b8b29a9cb,2017-06-26 19:48:22,"Stoppa, Emanuele",Added link to Italian translation,False
+6448e2da18f039e5652ee372337a4c9631952e21,2017-06-26 19:46:33,"Stoppa, Emanuele",Added README and RULES tranlated files,False
+0404f5132ff46a9dfddc03d3dc87cb9f1529ffbb,2017-06-24 03:45:03,Feross Aboukhadijeh,"Merge pull request #926 from Aladdin-ADD/patch-2
+
+Update README-zhcn.md",True
+07b5668a55df2dfbdef39d5cf15619669142bca1,2017-06-24 03:44:43,Feross Aboukhadijeh,"Merge pull request #878 from didilinkin/master
+
+Fix 'README-zhcn.md' Wrong translation",True
+d2177f0e02779cffa9e96a211858500fe658ebe2,2017-06-24 03:43:42,Feross Aboukhadijeh,"Merge pull request #930 from imrobinized/imrobinized-patch-1
+
+Fix typo on JavaScript",True
+27dc376b6184526427f2cd6489f18bf35700f49f,2017-06-22 14:07:52,Robin,Fix JavaScript typo,False
+fff43d355892c140cbb97bc8fa11e3458e90da84,2017-06-22 14:07:08,Robin,Fix JavaScript typo,False
+d54c031a597c8c05b7983cf455d1de54918c8ac2,2017-06-22 14:03:41,Robin,Fix JavaScript typo,False
+ba78616e3c7aa0c34139fa5685645e558e112190,2017-06-22 13:42:07,Robin,Fix JavaScript typo,False
+45ef32eca065b30c52199fea38621e5ff56c1bc0,2017-06-22 08:40:07,Feross Aboukhadijeh,losslessly compress logos,False
+90e99bfc89a8cdabe7570e6f6537daa30b0dcabc,2017-06-22 07:26:43,Feross Aboukhadijeh,"Merge pull request #928 from feross/readme-typescript
+
+readme: Add TypeScript instructions",True
+01e3675f596e583a287e6fe6d3f5156a82feace4,2017-06-22 04:08:30,Feross Aboukhadijeh,readme: Add TypeScript instructions,False
+05595b5929d0300e87fe277555ba9b013844592a,2017-06-21 05:25:38,Feross Aboukhadijeh,"Merge pull request #912 from yyjazsf/patch-1
+
+update link",True
+5476220d76d2bd6aacdc5cb91007d73078a12220,2017-06-20 21:40:31,薛定谔的猫,"Update README-zhcn.md
+
+fix typo.",False
+fa22de5289e875e1d388427781ec66a4ff151e26,2017-06-08 08:45:35,Ivan Ying,"update link
+
+更新2个超链接地址，旧的失效了",False
+55180064f1c55c869c978ac79f48a06c0e2f593e,2017-05-30 10:58:55,Dan Flettre,"Merge pull request #886 from gustavnikolaj/readme-standard-engine-linter
+
+add alternative atom linter plugin.",True
+7e46c72af71a512a2a7071581dc5fe56bca944a5,2017-05-30 10:57:17,Dan Flettre,"Merge pull request #897 from AlexxNica/patch-1
+
+Fix minor typo",True
+007a4aa12918e5b3b4152a905966a6974ebf023e,2017-05-30 02:49:08,Alexandre Nicastro,fix minor typo,False
+5eb3eac7544c3a480da8dcd777f347bc46842237,2017-05-26 21:42:11,Dan Flettre,"Merge pull request #894 from pe4cey/add-neo4j-logo
+
+Neo4j is using standard",True
+b2557b50c74990f3a0bbf9bf6c211fb9190cea29,2017-05-24 13:54:46,Mark Peace,"Neo4j is using standard
+
+Added logo to README",False
+d086ec096348e6b02eca39c773f0ace677411730,2017-05-12 19:11:51,Gustav Nikolaj Olsen,"add alternative atom linter plugin.
+
+@novemberborn and I have been working on an alternative atom plugin
+for standard and other standard-engine compatible linters.
+
+We thought that it might be of use to others.
+
+The main differences are that it is not bundling the code of the
+linters into the plugin, but will use a compatible linter installed
+in the given project.",False
+5e0ddb09a1557d4c9c86c26a69b2eb48675c85ee,2017-05-09 21:05:50,devjin0617,Add korean link in all docs files,False
+bc74491461e9fd1d81fd04407becacd80c6e95e3,2017-05-09 21:03:56,devjin0617,"Merge branch 'master' into translation-kr
+
+# Conflicts:
+#	RULES.md",True
+e0ab338955896368b6f1ca4e115b853f9933f477,2017-05-09 21:02:28,developerjin,"Merge pull request #1 from feross/master
+
+update origin",True
+ecd1a79a40564c3ba00953c7135117c398bd47f7,2017-05-09 20:59:49,devjin0617,Fix docs link,False
+e154cbf5014865ff9cddd0cc4b84585c89eacf37,2017-05-09 20:56:32,devjin0617,Fix rule link,False
+805610a5cfb95e9800940a96b77dca8d43eabe36,2017-05-09 20:53:45,devjin0617,Translate RULES-kokr,False
+9004e28308688a840840ce36a4541472f64ce18e,2017-05-09 19:08:50,devjin0617,JavaScript Standard Style,False
+535f8f3b08d58f27f26d33cccee70695cadeffa7,2017-05-09 19:08:44,devjin0617,Fix readme,False
+da50be41a4c785960bf4986a63f25c049eab51f3,2017-05-09 19:02:43,devjin0617,Create RULES-kokr.md,False
+b4aa24cd333aef1ad9e14567a10a27a2a5ddf522,2017-05-09 19:01:06,devjin0617,Fix markdown syntax,False
+0553409350cd0f08b7a77936612b3032770020e8,2017-05-09 19:00:08,devjin0617,Fix header link,False
+5bbb0a6f41621618017b38bea50b6c28a3e9cb50,2017-05-09 18:51:18,devjin0617,Fix,False
+4563c9976211cf597f68e14d7a527fc8869916d7,2017-05-09 18:50:08,devjin0617,Test link,False
+82d6aaa1dfc24db6171bb819046c713626487616,2017-05-09 18:46:06,devjin0617,How do I contribute to standard?,False
+0f5ff79dd464b36692b7d2a89bf7b7554556ff8c,2017-05-09 18:36:01,devjin0617,"`standard.lintFiles(files, [opts], callback)`",False
+fa9ef4c116e6e58c7f3ff6fd65e37cceebf05886,2017-05-09 18:31:04,devjin0617,"`results = standard.lintTextSync(text, [opts])`",False
+ffc925a79976ae7fbc080fcbe23245e2398c4dc6,2017-05-09 18:29:30,devjin0617,"`standard.lintText(text, [opts], callback)`",False
+7938cfc217d09aa26ace158dc188e87293accb04,2017-05-09 08:48:41,yanxiaodi,Fix 'README-zhcn.md' Wrong translation,False
+37baeac59660e192c04451c2ef6784bda4decb33,2017-05-09 03:39:11,Dan Flettre,"Merge pull request #877 from termosa/patch-1
+
+Fix link to text editor plugins",True
+286e3f8b4d8a81384f651663d3619121084588ff,2017-05-08 23:06:41,Stanislav Termosa,Fix links to text editor plugins,False
+e1a4a9d0cb2f56394e7be248ac8480a61dda2dcf,2017-05-08 15:58:33,devjin0617,How do I make the output all colorful and pretty?,False
+aabdc6828ce9b46d1da5ef1b2797a49565ea1f04,2017-05-08 15:56:29,devjin0617,Is there a Git pre-commit hook?,False
+88ee91361340c0454b473960e6ff27ec41446415,2017-05-08 15:54:46,devjin0617,Can I check code inside of Markdown or HTML files?,False
+10ebdaa0062a2cbe4d2289665a0e7bf9f5e36bda,2017-05-08 15:51:53,devjin0617,What about Web Workers?,False
+fafb9a4313d68937250a22a20c83cadbe132251e,2017-05-08 15:49:34,devjin0617,"Can I use a JavaScript language variant, like Flow? and What about Mocha, Jasmine, QUnit, etc?",False
+3a1713392e51f2cb8ca8ccd836082e77bf52d241,2017-05-06 08:51:01,devjin0617,How do I use experimental JavaScript (ES Next) features?,False
+893dd7bd032726498c3c56dfe154be5849f45961,2017-05-06 08:46:07,devjin0617,"I use a library that pollutes the global namespace. How do I prevent ""variable is not defined"" errors?",False
+4bf0c9bffe548d6445f37a6f1a0abbc4f1f62f17,2017-05-06 08:40:35,devjin0617,How do I hide a certain warning?,False
+b07b6c033dd4d7c34d81de6d0b22551c484d8188,2017-05-06 08:34:59,devjin0617,How do I ignore files?,False
+b780a3d86c84939ea4eb7274cfd7287ba2ea8d8c,2017-05-06 08:32:00,devjin0617,Is there an automatic formatter?,False
+ef727f5c5f533b6bd12e6310f5f5f688d8f32a32,2017-05-06 08:27:16,devjin0617,But this isn't a real web standard!,False
+989d7b96d900bd3aa09d42403310fcb45cb3f770,2017-05-06 08:23:26,devjin0617,"I disagree with rule X, can you change it?",False
+b4987e253a48e95416a9df527e85a8941f24dc45,2017-05-03 02:54:41,Linus Unnebäck,"Merge pull request #875 from ehmicky/patch-2
+
+Fix typo",True
+56c4de00f72866053896178cd36e1a2c8ae10bb9,2017-05-03 02:54:29,Linus Unnebäck,"Merge pull request #874 from ehmicky/patch-1
+
+Fix typo",True
+98871e4477fbd9beaec2bd2fac8423c5ea4501b0,2017-05-03 01:02:23,ehmicky,Fix typo,False
+7f32c3a8a0d37477f366610dddce2bd6d5df3493,2017-05-03 00:48:14,ehmicky,Fix typo,False
+c0b3930f30dfab848b5e288088709e4bac137c4b,2017-04-27 20:28:26,devjin0617,Is there a readme badge?,False
+b08498a6d8fe66ac7db3fb27c13cd1e6d09cd6c1,2017-04-27 20:25:34,devjin0617,Fix Are there text editor plugins?,False
+51075ec434c2e92f97b637f6b81a9a0b2f513963,2017-04-27 20:22:54,devjin0617,Are there text editor plugins?,False
+74fd8e57c19f4dd28add26d7abb4006d056ded96,2017-04-27 20:02:01,devjin0617,Who uses JavaScript Standard Style?,False
+c10c8eeed7eb609616ffc670245bdb2694f4a8a5,2017-04-26 19:25:53,devjin0617,Why should I use JavaScript Standard Style?,False
+ec7664ea00f82576a91caf26810e4fd1f315147f,2017-04-26 19:11:37,devjin0617,What you might do if you're clever,False
+c1839c716b3a05a3f4492c27cc6836b9f6b9a854,2017-04-26 19:05:19,devjin0617,Usage,False
+3aea85cf36847c0cf43d38eb3fc21c45c910af48,2017-04-22 13:51:15,devjin0617,Install,False
+1612758b622906a2cb0a3c3ba5d8a1146736d793,2017-04-22 13:45:59,devjin0617,Table of Contents,False
+f999f43db008dac863f967888f3956e15cfae35a,2017-04-22 13:27:08,devjin0617,The Rules,False
+8cb68cbe4aaf3a15c61ece3a895c19909ecb399c,2017-04-22 13:13:54,devjin0617,The Rules,False
+5cf91388588499043c4414df16238b71c976abea,2017-04-22 13:00:48,devjin0617,"JavaScript style guide, with linter & automatic code fixer",False
+b178771c36ebe4afadef3b0b032dc286f7e35d07,2017-04-22 12:52:56,devjin0617,"JavaScript style guide, with linter & automatic code fixer",False
+52f39a7122dd6de53d7c0a9c65bdc72b580dcebe,2017-04-22 04:49:53,Feross Aboukhadijeh,"Merge pull request #864 from xiaoyu2er/patch-1
+
+update RULES-zhcn's link",True
+a1f13b6808caa01ab23fbf16326ff1fb405c226d,2017-04-21 21:41:26,devjin0617,Create readme file,False
+1da451cfceb4c891477bef4de3bca3f6c3d73498,2017-04-20 06:46:42,xiaoyu2er,update RULES-zhcn's link,False
+8b43d45da875f7324b340da42773baaef69a74fc,2017-04-14 22:39:40,Feross Aboukhadijeh,authors,False
+b002f41446ff125073320320b4794bcaf262df9d,2017-04-14 22:39:33,Feross Aboukhadijeh,10.0.2,False
+f1f772af342482a5ab6fb12b80b3ae6b5957d963,2017-04-14 22:35:49,Feross Aboukhadijeh,changelog,False
+9994f1d4298c2f0b175673d63b8a65ee34b0af19,2017-04-14 22:35:43,Feross Aboukhadijeh,eslint-config-standard@10.2.1,False
+8aa90eae02ea3b080604b0590cc676d65be9c52c,2017-04-14 01:08:27,Feross Aboukhadijeh,"Merge pull request #858 from feross/feross/flow
+
+readme: Add more specific Flow instructions",True
+1e66bdf669c7223d8a1989a477edc67a8c922d62,2017-04-13 08:04:05,Feross Aboukhadijeh,"Merge pull request #851 from feross/readme-vim-ale
+
+Recommend w0rp/ale over syntastic",True
+e0bdcdcfcf6b8ce0eaca3088665898a4bebe372e,2017-04-13 07:49:48,Feross Aboukhadijeh,Update README.md,False
+3c64877e99b318dd70576a5b92fbe52539897174,2017-04-13 07:12:39,Feross Aboukhadijeh,"readme: Add more specific Flow instructions
+
+To address the confusion in this issue:
+https://github.com/feross/standard/issues/850#issuecomment-293742025",False
+5126e74aecc7b856de74c412bd51a72011bff111,2017-04-13 06:07:43,Feross Aboukhadijeh,"Merge pull request #855 from pablopunk/patch-1
+
+📖 Spanish docs fixes",True
+99b9e7620bc39de21910dc5bf9327f403652795c,2017-04-13 05:58:28,Pablo Varela,Fix list indentation,False
+1366340d674d8c6be0c5eacb1e638a573ae84c93,2017-04-13 05:23:43,Feross Aboukhadijeh,"Merge pull request #854 from wayou/improve-translation
+
+improve readme translation for simplified chinese, fix typos",True
+f737f2299d2cfd0ba7d3787c53df081398cec66f,2017-04-11 21:46:45,Pablo Varela,"📖 Spanish docs fixes
+
+* Spelling mistakes
+* Rephrasing
+* Broken links",False
+4b9ad6028ab48aced30d194da155dcd6d362e94d,2017-04-11 18:43:16,wayou,"improve readme translation for simplified chinese, fix typos",False
+c7500e2490328728678ba53b6c1a89409440650b,2017-04-11 10:16:28,Rico Sta. Cruz,Readme: add mentions of neomake and syntastic,False
+d60d2debbc06823ca62a8331359b627954517851,2017-04-11 00:20:43,Rico Sta. Cruz,Update README.md,False
+8363d04c8e1a3bd85f183159c2dbabeb037acfc5,2017-04-08 01:45:47,Feross Aboukhadijeh,Fixes for PR #843,False
+746d2830fd6698b015da0c7f638e5741ff58f628,2017-04-08 01:42:13,Feross Aboukhadijeh,"Merge pull request #843 from wayou/readme-cn-translation
+
+Translate README into Simplified Chinese",True
+e72b7bbb4827b7ce24781daff6abdd1782e8aa47,2017-04-07 23:07:49,wayou,Merge branch 'master' into readme-cn-translation,True
+490fb6c7daa93367c4cfabe5d46701f1051aca7f,2017-04-07 23:05:57,wayou,"translate README
+- translate readme into simplified chinese
+- improve the translation of rules",False
+d37028e3443d86b508f74dbb84da310b48533d00,2017-04-07 03:40:37,Feross Aboukhadijeh,authors,False
+6b48c9f6af21c44d818f0900fe774ebe13da364a,2017-04-07 03:32:04,Feross Aboukhadijeh,10.0.1,False
+332e0ff18b959563e3cb2de9e239c8f5ba29cb4a,2017-04-07 03:29:19,Feross Aboukhadijeh,changelog,False
+9f63f6be2690f7005af6df73761288e738530324,2017-04-07 03:29:19,Feross Aboukhadijeh,eslint-plugin-standard@~3.0.1,False
+1b08ba24a0a743f7654bd37fc612a311dcdf13b7,2017-04-07 03:29:19,Feross Aboukhadijeh,eslint-config-standard-jsx@4.0.1,False
+9cb1097663e34b8ce78afd3e136fd6c23cde51f9,2017-04-07 03:29:19,Feross Aboukhadijeh,eslint-config-standard@10.2.0,False
+4c888b0df324a6390094893d802296c62a7aee03,2017-04-07 03:13:57,Feross Aboukhadijeh,"Merge pull request #839 from feross/watson-patch-1
+
+Add the word IRC to README.md",True
+8fd2b37cd6e7e24aa2cb6a87f6f26b76dd0d4099,2017-04-07 03:13:30,Feross Aboukhadijeh,Update README.md,False
+59e8048befa1d8f2164cf1c9173326ee41877aef,2017-04-06 14:37:27,Thomas Watson,"Add the word IRC to README.md
+
+To help people (like me) who's searching the README for the word IRC to see if there's a mention of an IRC channel",False
+f1070958a94ff2d8bbd55fc016fc97b4fffbf73e,2017-04-05 08:46:06,Feross Aboukhadijeh,changelog,False
+9223ed237af739ed7ce9f3d4a18d634411d3ed99,2017-04-05 06:45:22,Feross Aboukhadijeh,changelog,False
+ce20f3ca0d13fefaa2858778e0017d1ca6f5371d,2017-04-05 06:38:29,Feross Aboukhadijeh,changelog,False
+c07325d769d4726a8b70f9ed614adb5642826e6a,2017-04-05 06:35:26,Feross Aboukhadijeh,update authors,False
+e9fc1d9c936c1f40eb86eeff8afda14e22f39997,2017-04-05 06:34:00,Feross Aboukhadijeh,10.0.0,False
+7ab3770ec08f10df87b832d7aa6eac11145b8a39,2017-04-05 06:30:55,Feross Aboukhadijeh,eslint-config-standard@10.0.0,False
+fea419a4a0eeba74ce8c19fb7af68f32a6beb480,2017-04-05 06:30:18,Feross Aboukhadijeh,changelog,False
+9bbdbf28027a0dbef640eae3234733f9c9b17471,2017-04-05 06:30:18,Feross Aboukhadijeh,docs: add docs for standard.lintTextSync(),False
+e618256fa7e62dae1689b88b9d82ce1fb2e1044f,2017-04-05 06:30:18,Feross Aboukhadijeh,"standard-engine@~7.0.0
+
+Fixes: https://github.com/feross/standard/issues/807",False
+009d352580d34a09d6e48f7c90aa355caa3ad691,2017-04-05 06:30:18,Feross Aboukhadijeh,eslint-plugin-standard@~2.2.0,False
+05beded341c83744d2ef7cf45f5935ed6c3dcc31,2017-04-05 04:31:28,Feross Aboukhadijeh,"Merge pull request #837 from falmar/spanish-readme
+
+Update spanish README.md",True
+68a501935541de98df90edc1593fdb49f6d5106c,2017-04-05 04:20:18,David Lavieri,"Update spanish README.md
+
+According to: https://github.com/feross/standard/pull/830",False
+ee5b12f8cd455f9c389b980eda9fafb4b79ce851,2017-04-05 03:37:04,Feross Aboukhadijeh,RULES: add link to Simplified Chinese translation,False
+987e6940e10a7208101bd2a672f5b375681dfeb3,2017-04-05 03:36:33,Feross Aboukhadijeh,readme styles,False
+dc8717d4504a90bb0d7862e869a624011a883650,2017-04-05 01:01:42,Feross Aboukhadijeh,"Merge pull request #836 from wayou/cn-translation
+
+Translate RULES.md into Simplified Chinese",True
+994b874b072d5b79b99cce3d1c48b3dd5a5815b5,2017-04-04 23:22:38,wayou,align the references in other translations,False
+9ef216e1eb7c73737949140919f23f6a5b293568,2017-04-04 23:15:19,Wayou Liu,translate standard rules into simplified chinese,False
+df430c997cef59dd88f54bc489200dd25c0b9b92,2017-04-04 22:10:49,Dan Flettre,"Merge pull request #834 from feross/update-email
+
+update email",True
+4a60871f623840cfb4b776de03829d6cdf53f08c,2017-04-04 21:45:46,Feross Aboukhadijeh,"use eslint-index for rule lists & summaries
+
+Fixes https://github.com/feross/eslint-config-standard/issues/60
+
+cc @wagerfield",False
+25adb31755ce7cde51b9201835c33303d00862de,2017-04-04 21:44:43,Feross Aboukhadijeh,eslint-plugin-node@~4.2.2,False
+e009d9997a25d886a2a66d62c9085ba780030cfb,2017-04-04 21:23:25,Feross Aboukhadijeh,eslint@~3.19.0,False
+fc3391090caaefee3105e21813374a2d62059a5b,2017-04-04 05:40:35,Dan Flettre,update email,False
+cda1d8c77f8b85da8e9bb9b9fedc0cc2b5d35b42,2017-04-04 04:59:41,Feross Aboukhadijeh,Update README.md,False
+3d7a8c67f7e2f934b335321595a0a78f959b065d,2017-04-02 11:25:58,Feross Aboukhadijeh,"Merge pull request #830 from feross/pitch
+
+Improve pitch",True
+9dbbc09db4914205e621bd0c28eb717fe9d0c65f,2017-04-01 08:28:48,Feross Aboukhadijeh,"Improve pitch
+
+1. Mention automatic fixing in the list of time-savers
+
+2. Include the phrase ""javascript style guide"" in the title, which will
+hopefully help with SEO. We rank 7 for that on Google right now.
+
+3. I also think that having the phrase ""JavaScript Style Guide, with
+linter & automatic code fixer"" appear early on in the readme is really
+helpful for people to understand what `standard` is, since ""One
+JavaScript Style to Rule Them All"" isn't really enough.",False
+7fa2ad88f55dfa7b629da01ee4ab4c061d409832,2017-03-31 03:18:46,Feross Aboukhadijeh,Show eslint-config-standard download count,False
+70093f5a93ce39b0f2ab4740b89a48f491c75d0e,2017-03-22 04:37:48,Feross Aboukhadijeh,readme,False
+11a96351f0de81e292a6f011aeb8fb8d0898cfd9,2017-03-21 08:03:52,Feross Aboukhadijeh,standard,False
+2c3312ad09f00107f828b1ea27158827af68571a,2017-03-21 07:58:04,Daniel Cousens,"Merge pull request #827 from feross/https
+
+Link to https version of standardjs.com",True
+b1dd3262ac40b9423c457704d8fd4665935f2afe,2017-03-21 07:39:40,Feross Aboukhadijeh,Link to https version of standardjs.com,False
+5674dc5317ef42962f2f87ad4d80a9b07ce55982,2017-03-21 01:12:32,Feross Aboukhadijeh,fix table formatting,False
+b8f3d45257f501ce6dde463e7be49ae9d7309374,2017-03-19 05:48:04,Feross Aboukhadijeh,"Merge pull request #824 from falmar/spanish_docs
+
+Update Spanish README-esla.md and RULES-esla.md",True
+8a104c606b7816fba0679645f7244bf9e82ec2f7,2017-03-19 00:23:06,David Lavieri,Finish rules translation to Spanish,False
+61f3b859ffbfaca18abe1ca251ec2b6ebe0f4666,2017-03-18 20:21:32,David Lavieri,Partial translation of rules to Spanish,False
+e0234d9fecddb657d3b9a86bf161d61621863903,2017-03-18 08:22:52,David Lavieri,Last changes for readme translation to spanish,False
+47524141ba6d140871a2d115b9123fa20733fbe9,2017-03-18 07:46:34,David Lavieri,First update for spanish readme translation,False
+caead163de08fff23cb8af294d54dc0ed719e70a,2017-03-18 06:52:47,Feross Aboukhadijeh,10.0.0-beta.2,False
+31801feafee2cbd2952910e17544e53c09dec689,2017-03-18 06:46:36,Feross Aboukhadijeh,eslint-config-standard@8.0.0-beta.2,False
+8e7662e71ad31c912de2601123b8d49b64f0d4d6,2017-03-18 06:45:53,Feross Aboukhadijeh,changelog,False
+6c221e88670e757646dfafcc63a936f0fea15bd2,2017-03-18 06:43:26,Feross Aboukhadijeh,changelog,False
+8b9a322398b37173b234c6231f7babf631f447a3,2017-03-18 06:42:52,Feross Aboukhadijeh,eslint@3.18,False
+77f851006f664e7d8323afa235f397bbf3b9174b,2017-03-18 06:41:09,Feross Aboukhadijeh,changelog,False
+897d60ab44a25411c7451494e6df20b367baaabb,2017-03-14 01:34:29,Feross Aboukhadijeh,"Merge pull request #820 from feross/feross/fix
+
+Fix broken images on npmjs.com package page",True
+e0f2b0806d5d08afd08e2d2edac8c098326537a0,2017-03-11 00:10:19,Feross Aboukhadijeh,Fix broken images on npmjs.com package page,False
+41649f979f2026a796d677be1ce4e6dae75f77c4,2017-03-08 02:08:27,Feross Aboukhadijeh,authors,False
+600c70bf705557fe38ea19f75ed4e9eabdc6b03c,2017-03-08 02:08:00,Feross Aboukhadijeh,10.0.0-beta.1,False
+28fcf871d4dff1adbe79c128a4fed2cf0b5a6837,2017-03-08 02:07:41,Feross Aboukhadijeh,eslint-config-standard@8.0.0-beta.1,False
+155391a56fa5a437c3b45d507d7843a049b64565,2017-03-07 08:51:14,Asoul Yang,"Merge pull request #817 from PeterDaveHello/zhtw
+
+Update zhtw translation",True
+bceafce41e5fbb174c651ebee0c144172eabc4e8,2017-03-07 07:45:30,Peter Dave Hello,插件 should be 外掛 in zhtw,False
+b1bf35f470ba66b5860c3580f64e17d473dfa457,2017-03-07 03:02:29,Feross Aboukhadijeh,"Merge pull request #815 from feross/translations
+
+Update spanish/portuguese translation docs",True
+66eeb3d1977755d88044f33615dcafb0ee75b88e,2017-03-07 02:59:38,Feross Aboukhadijeh,"Update spanish/portuguese translation docs
+
+- Link to the other translations
+- Update the header to match the new style",False
+32acf1c71bb5de35b0cb5cc63a1692444fde08d7,2017-03-07 02:45:51,Feross Aboukhadijeh,"Merge pull request #813 from Asoul/zhtw-docs
+
+Add traditional chinese (zh-tw) for README and RULE",True
+0060c6ff92cf6bf423808ac4a954d35eab41ce5b,2017-03-06 14:23:19,Asoul Yang,Fix typo. Thanks for @floating-cat.,False
+f9f89b09dc48664c55cd236a4215797d96f58501,2017-03-05 19:51:09,Asoul Yang,Polish some words,False
+eb16a9a23982459761f4744e00fb30529860aa41,2017-03-05 15:36:28,Asoul Yang,Add link in main doc,False
+1c74ae0f2309b9b78dd8e30532fd6fc3c9817421,2017-03-05 15:31:55,Asoul Yang,Fix links and polish,False
+8b17d3b911a5136e3f33326a1553fbbf8639fcdc,2017-03-05 15:17:27,Asoul Yang,Translate RULE in taiwanese,False
+83411633f619a0470aea64c1fae4c1732a16fff6,2017-03-05 14:08:51,Asoul Yang,Fix typo,False
+5c814cb90c67f263e3e7d1dd1132704fe92f93c4,2017-03-05 05:45:22,Asoul Yang,Only show other languages on translations,False
+a4f669062f972cb626ac66295b2b22a37993cc4b,2017-03-05 05:37:14,Asoul Yang,Start traditional chinese translate on RULE,False
+02d4e651a551243472ce065ddc08def9aeb48d53,2017-03-05 05:35:28,Asoul Yang,Add link in main doc,False
+826f8c349fb07dd0d13b5b2f7273dc3190938420,2017-03-04 21:32:58,Asoul Yang,Fix wrong document links,False
+3d214d6738c5e679b4d9f3dd479b3e3b739dffce,2017-03-04 21:30:49,Asoul Yang,Try to fix company images link,False
+c6d890e0aa07f4e78a9618de5c27ecda0c5a4f43,2017-03-04 21:28:54,Asoul Yang,Fix title links,False
+4a4a86d84e48d913959713bfec9815e1c5fc19d5,2017-03-04 20:59:51,Asoul Yang,Translate README finished!,False
+90cb0308ca0c234205a84b7403cfe4f4d3bd5e4d,2017-03-04 15:34:10,Asoul Yang,Translate half of README!,False
+2a8aebabc1e36ebc145a0728b456810e65702e9c,2017-03-03 01:38:12,Feross Aboukhadijeh,10.0.0-beta.0,False
+fa5fcf7c7e36290c530573c42b4d34e36e7ce92d,2017-03-03 01:19:52,Feross Aboukhadijeh,eslint-config-standard@8.0.0-beta.0,False
+a15d8ea2b1ea191f4e754a9be46ca32c5c3cb6b8,2017-03-03 01:15:49,Feross Aboukhadijeh,changelog,False
+759d2d101033834fdbd27f84c565fba097e38159,2017-03-03 01:15:45,Feross Aboukhadijeh,eslint-plugin-promise@3.5,False
+21c4e41d8c3f2df28642a28cf6b946a01c78ebda,2017-03-03 01:15:36,Feross Aboukhadijeh,eslint-plugin-react@6.10,False
+da0fb5130d93d499def2998215f5ef9c7aab7bfe,2017-03-03 01:15:29,Feross Aboukhadijeh,eslint-plugin-standard@2.1,False
+21e62314ba3f075cb88e700cb91f38dbd76e37e3,2017-03-02 12:52:58,Feross Aboukhadijeh,v10: depend on eslint-plugin-node@4.1,False
+04baf9e119c5ea8617218b1b1af9c281495425b8,2017-03-02 12:52:51,Feross Aboukhadijeh,v10: depend on eslint-plugin-import@2.2,False
+d14e64630c59b4067e17a6bc1eee191c6f20d7a8,2017-03-02 05:13:47,Feross Aboukhadijeh,eslint@3.16,False
+7b607f6e1cefded23d6b097e18610959da0d68d7,2017-03-01 19:10:19,Asoul Yang,Start traditional chinese translate on README,False
+a5e3e858c26f01dfdae4ddd346445c3128ee96c1,2017-03-01 04:21:34,Feross Aboukhadijeh,changelog,False
+70fe58e4ca829547ed33be167d4ed0f057b04607,2017-03-01 04:18:45,Feross Aboukhadijeh,authors,False
+617f47717250fe77cc79a9956ec77d793b6b903c,2017-03-01 04:18:30,Feross Aboukhadijeh,9.0.0,False
+10356dbe7ca31cbb02ac4f1f8fd48c040239a737,2017-03-01 03:45:20,Feross Aboukhadijeh,eslint-config-standard@7.0.0,False
+3dbd008dbe9ba85627773cd6dc9ba8c039b756c2,2017-03-01 03:43:35,Feross Aboukhadijeh,changelog,False
+5b263694c3ae800125b167e8f61929930235286d,2017-02-16 05:06:07,Feross Aboukhadijeh,Update README.md,False
+31fda49efe7b593a560d1eb1b21a05e6bb0a748b,2017-02-16 05:04:29,Feross Aboukhadijeh,Update README.md,False
+519c018deabce7f9a1fed57559c7e7678120bb02,2017-02-12 06:20:24,Feross Aboukhadijeh,"Merge pull request #783 from nyuszika7h/patch-3
+
+RULES.md: Add more examples; minor fixes",True
+938e1195bb048e3cd90a92afb2db263b1afffeac,2017-02-12 04:42:20,Feross Aboukhadijeh,readme: add nodesource,False
+64d6f3f566f587e0ce9964619bd8130e918233e4,2017-02-11 20:26:39,nyuszika7h,RULES.md: Add more examples; minor fixes,False
+52f98993fbe3e70d6588c41a09b577a095dad247,2017-02-09 13:04:45,Feross Aboukhadijeh,authors,False
+4673527e325c82536ae970f910a698ea15953694,2017-02-09 13:04:32,Feross Aboukhadijeh,9.0.0-beta.0,False
+bffcea38460514613b9d9c079a6948c7d802dab9,2017-02-09 13:02:49,Feross Aboukhadijeh,test: don't include disabled packages in total count,False
+6b8235a5ecb172c862e532c5b0a1c73758ec2cfa,2017-02-09 13:02:49,Feross Aboukhadijeh,eslint-config-standard-jsx@3.3.0,False
+05efb792eeadebce36aa41197da4eb31b2fae1fd,2017-02-09 13:02:49,Feross Aboukhadijeh,eslint-config-standard@7.0.0-beta.0,False
+adcd8544e48812b170cdcfc8d73c8f272ed5e359,2017-02-09 13:02:49,Feross Aboukhadijeh,standard,False
+74ca2ff1fd52ea3a84cb1f06c562d968d36ab835,2017-02-09 13:02:49,Feross Aboukhadijeh,changelog,False
+2f66c3e6e16df344d4adc0540a846f47868794b4,2017-02-09 13:02:49,Feross Aboukhadijeh,standard-engine@5.4,False
+67e615cc9e32e07a7b47688e5bde9b387ca48350,2017-02-09 13:02:49,Feross Aboukhadijeh,eslint-plugin-react@6.9,False
+75c0e3046ba1fb5e423dc576693eb1717449bded,2017-02-09 13:02:49,Feross Aboukhadijeh,eslint@3.15,False
+57d1b8a54daad9c4b5faa333100560d6a38c3f83,2017-02-09 13:02:49,Feross Aboukhadijeh,travis: add node v6,False
+57f9c79ab69021aa0231a07f1cdb344c036a0e43,2017-02-09 01:52:54,Feross Aboukhadijeh,"readme: add karma, greenkeeper",False
+4f5ec53ec8a9f619a9e0abfd336f562c8c765800,2017-02-07 13:18:15,Linus Unnebäck,"Merge pull request #774 from peterjenkins/patch-1
+
+Fix typos",True
+bca2434352555540056d0aee40dbdbddb5d5777f,2017-02-07 02:02:40,Peter Jenkins,Fix typos,False
+a5267581a1c63bef364b195c7f00b45402eee271,2017-01-31 06:20:57,Feross Aboukhadijeh,"Merge pull request #763 from joshuacolvin/rules
+
+WIP - Add missing rules to RULES.md",True
+5eaeb61b26fd1aaa8b2e9fb14a62dc7c1b32c4ef,2017-01-30 07:28:51,Joshua Colvin,Add missing quote to RULES.md,False
+33997d6070298eae508bb49e806ddca4a11b0ce3,2017-01-30 02:58:45,Joshua Colvin,Finish adding missing rules to RULES.md,False
+5b973b6d0507aa5b87be29207cef682f207addc1,2017-01-30 01:43:11,Feross Aboukhadijeh,"Merge pull request #767 from despia/patch-1
+
+added missing ""/"" in github logo link",True
+e538a4ca551a8541a4fece2867dec00855eb050e,2017-01-30 01:06:44,despia,"added missing ""/"" in github logo link",False
+9aa1c0b6932cdc025efb02b2c2da77b828ed98c5,2017-01-28 03:13:40,Feross Aboukhadijeh,readme: fix toc link,False
+6a42fd93fbb1a5d70294ad8ec1944cb15f571bba,2017-01-28 03:09:43,Feross Aboukhadijeh,readme: fix broken toc link,False
+ba4daca8b9e492aa42d18241c78647c91441096d,2017-01-28 03:08:45,Feross Aboukhadijeh,"Merge pull request #764 from feross/feross/readme
+
+readme: Add company logos, other readme cleanup",True
+6920b669df8663f76444161efcc51741eead834e,2017-01-28 02:46:29,Feross Aboukhadijeh,"readme: Add company logos, other readme cleanup
+
+For: https://github.com/feross/standard/issues/744
+
+Moved some of the early sections (""Badge"", ""Text editor plugins"") into
+the FAQ section, so important sections like ""Why should I use
+JavaScript Standard Style?"" and ""Who uses JavaScript Standard Style?""
+come first. Once they're convinced, the can read about badges and text
+editor plugins.
+
+- Renamed, reordered some sections.
+- Converted h3s into h2s since it delineates the sections better",False
+5d8c17594ce8bf7c284489b297e6ef1656caa3a5,2017-01-28 02:44:00,Feross Aboukhadijeh,"Merge pull request #765 from feross/feross/npmignore
+
+Ignore misc package files",True
+714b7b9107ebf2f29100a5b6fb5e069a05146f83,2017-01-27 07:43:58,Feross Aboukhadijeh,"Ignore misc package files
+
+Usually I'm against this kind of hyper-optimizing. But unlike most
+modules, the tests aren't really very useful documentation about how
+`standard` works. We have README.md and RULES.md for that.",False
+d73bc7617c92f92cc1174c48397f5c2c109183a5,2017-01-26 16:08:52,Joshua Colvin,Add more rules,False
+a594b38936797d131b4982231866cd1f8c656d29,2017-01-25 05:47:28,Feross Aboukhadijeh,"Merge pull request #759 from yanxi-me/patch-1
+
+Update webstorm.md",True
+b14421884668e71fbfb135c91fbfb45a7f552a60,2017-01-25 05:27:05,Joshua Colvin,WIP - Add missing rules to RULES.md,False
+a160e94a0ccfbc340220ff8fdabbf437d8ce93ed,2017-01-25 04:39:26,Feross Aboukhadijeh,replace one other instance of %20 in badge url,False
+821add0da677e52454d0e9c5d6e1a59371308de2,2017-01-25 04:37:20,Feross Aboukhadijeh,"Merge pull request #761 from callmecavs/patch-2
+
+fix #760",True
+847ef63a2059408e74795b9982ca10ecaa2c3361,2017-01-24 20:55:15,Michael Cavalea,fix #760,False
+b7438bb922eb87f63f174b5b4c357858b97a632b,2017-01-24 06:09:07,Yanxi,"Update webstorm.md
+
+force to put space before closing bracket tag  <div_/>. see https://twitter.com/webstormide/status/705688309079654400",False
+6f2d82129911100921cf80278a587f84d1bcf67e,2017-01-23 09:33:09,Feross Aboukhadijeh,"Merge pull request #754 from falmar/spanish-readme
+
+Fixes and updates on README-esla.md according to changes on PR #753",True
+228302e72b2f06a1879db28da03705eb3dbf30ae,2017-01-23 09:27:13,Feross Aboukhadijeh,"Merge pull request #753 from feross/readme
+
+Lots of readme improvements",True
+bf1de4720862e3f5a6e167af895b20edd370b620,2017-01-22 01:00:44,David Lavieri,Fix minor typos,False
+f6745d06e300c40b08b4447a9cfadcc602c3c724,2017-01-21 11:24:57,David Lavieri,Fixes and updates on README-esla.md according to changes on PR #753,False
+86e04541b285fbfeb8e2010c0331b8489ac859ff,2017-01-21 04:07:59,Feross Aboukhadijeh,"Lots of readme improvements
+
+- Add a new ""How do I check code inside of Markdown or HTML files?""
+section
+- Merge the ""Can you make rule X configurable?"" section with ""I
+disagree with rule X, can you change it?""
+- Document command line flags like --parser, --env, --global and their
+aliases
+- Remove link to overcommit, because it's installed with RubyGems,
+something not all our users will have
+- Document that WebStorm supports `standard` natively now!",False
+e6b623c8720f88182aa56c7bd11089d4460efe5b,2017-01-21 03:37:06,Feross Aboukhadijeh,"Merge pull request #752 from feross/translation-links
+
+Add translation links between language versions",True
+92192185f0f936dfe8b9d44fc82147d83f3bb362,2017-01-21 02:27:23,Feross Aboukhadijeh,Add translation links between language versions,False
+949181f75b4a07c9a918a450aea15a65a5173ad2,2017-01-20 07:40:39,Feross Aboukhadijeh,remove unnecessary script frontmatter,False
+1e75ce325d003681907db98be1f4ff734a65d703,2017-01-16 18:29:00,Feross Aboukhadijeh,"Merge pull request #748 from falmar/spanish-docs
+
+add readme & rules in spanish",True
+36eef5fd57794111ef152d31f639abbf0296397d,2017-01-15 03:26:36,David Lavieri,Add translation link to main README,False
+4cc9270eae4df6467d7a4623cfc77d37642e3217,2017-01-15 02:58:20,David Lavieri,translate RULES to spanish and update README as well,False
+d13767b354f63362117acafe6f2a5082910dcfaf,2017-01-15 01:41:12,David Lavieri,Translate README.md to spanish README-esla.md,False
+566b8b886464fb0a4002fe406c0ce1955c847c66,2017-01-14 21:54:18,David Lavieri,Start spanish translate on README,False
+493720b2384c9e4e61d580537074171d37bae3fb,2017-01-14 06:47:31,Feross Aboukhadijeh,move translations into docs/,False
+ca323e0ea8ae10cfb37c736b494d23794e304a79,2017-01-14 06:26:07,Feross Aboukhadijeh,readme: clarify ignore text,False
+555f1a02f2364011a27fffe02f303c94141faa30,2017-01-14 06:24:39,Feross Aboukhadijeh,"Merge pull request #702 from alexmoreno/master
+
+Added portuguese version",True
+028e0dc87d399a13c0b14c9427e86b642af10e71,2017-01-14 04:24:11,Feross Aboukhadijeh,"Merge pull request #741 from joshuacolvin/eslint-rules
+
+Add reference to responsible rule in RULES.md",True
+153a3ffb7ffc3d86898068853685c4664cd005b6,2017-01-10 20:11:07,Joshua P. Colvin,Add reference to responsible rule in RULES.md,False
+3b433fc3581687832d36c96b5bcbdbedf5a0115e,2017-01-08 05:48:45,Feross Aboukhadijeh,"Merge pull request #739 from lukasoppermann/patch-1
+
+Added --save-dev to readme",True
+a58296f785984a2679a6004260ae02abb0867957,2017-01-07 18:31:37,Lukas Oppermann,"Added --save-dev to readme
+
+I think it would make sense to add the `--save-dev` flag, since this would mean `standard` is installed when people clone and `npm install` a project. Since one advantage is that teams have a common base, this seems to be a typical use case.",False
+2b9afb6e49fb72d7043916b66e310f802f29f6cf,2016-12-09 15:09:15,Feross Aboukhadijeh,"readme: link to expressjs/body-parser as sample file
+
+Fixes: https://github.com/feross/standard/issues/714",False
+d99fc386efb0a0996c7e2e8b5a27ff6a34c26251,2016-12-08 03:57:07,Daniel Cousens,"Merge pull request #713 from erikmueller/patch-1
+
+Update RULES.md",True
+ef17442d842efe5e8decccfda2ccfdb57eb4854e,2016-12-08 02:36:58,Erik Müller,"Update RULES.md
+
+Remove unnecessary `*`",False
+d68e968d02f8b33519f687927dc81e74d8103e9c,2016-11-26 00:52:28,Feross Aboukhadijeh,"Merge pull request #705 from prigara/master
+
+Updated configuration file for WebStorm",True
+a2ce52260d8fe36011208cdc91b22e96ed5250f1,2016-11-25 22:17:09,Ekaterina Prigara,WebStorm config: no spaces within object literal braces,False
+cf85c033097e1b74d5327e824e649d0b7d8bde6f,2016-11-25 22:00:37,Ekaterina Prigara,"Updated configuration file for WebStorm
+
+<XML> is now required in the configuration.
+<option name=""SPACE_WITHIN_BRACKETS"" value=""true"" /> contradicts the code style used  in the samples (`var list = [1, 2, 3, 4]`)",False
+489f850eb403c125ee031921e522946d9cbcf9d7,2016-11-24 20:05:30,Alex Moreno,Portuguese version,False
+898537c6d8b72040730d2688732c03dda51b0b50,2016-11-24 20:03:09,Alex Moreno,Portuguese version,False
+3f88a12d661d936612c6f5337ee8085d014d31e5,2016-11-24 01:56:05,Feross Aboukhadijeh,8.6.0,False
+b77140834eed5c7a8efc4f7edfd1408370890e1d,2016-11-24 01:52:21,Feross Aboukhadijeh,changelog,False
+4c82bc846ec3e869f481df76137d8b62a54e111a,2016-11-24 01:52:21,Feross Aboukhadijeh,"Remove standard-format references
+
+standard-format is now deprecated",False
+938dcc3f2e1156a2327724e6480531e1683f3e09,2016-11-24 01:52:21,Feross Aboukhadijeh,standard-engine@5.2,False
+21f0ca4e830f180c44bbfece4bfcbf647f124906,2016-11-24 01:52:21,Feross Aboukhadijeh,cross-spawn@5,False
+451da5f39b2b82cf9cdd99c2927bf60fb29bd9a1,2016-11-24 01:52:21,Feross Aboukhadijeh,eslint-plugin-react@6.7,False
+f27f1df658c6c40070ec79c6863811b3a68ca678,2016-11-24 01:52:21,Feross Aboukhadijeh,eslint-plugin-promise@3.4,False
+e542e0399714642006ddb480bbc29e66e70ef60a,2016-11-24 01:52:21,Feross Aboukhadijeh,eslint@3.10,False
+66f1ead7035ee123b28d0de7aec655270425ee15,2016-11-24 00:02:58,Feross Aboukhadijeh,"Merge pull request #684 from capaj/patch-2
+
+added vscode-standardjs-snippets",True
+a0280a9b7682eb4bf136c6a7fe6b5813b62965ef,2016-11-14 05:06:47,Jiri Spac,added vscode-standardjs-snippets,False
+1623ef3aded910bb136ca4f96d0f3cd8c9b96193,2016-10-26 00:37:53,Feross Aboukhadijeh,authors,False
+62d7bf4d79eeec2667c6b58ccf35cb0513c35bc5,2016-10-26 00:27:43,Feross Aboukhadijeh,8.5.0,False
+a9b6d587e27fa557631b354fffdaa5ec50e17294,2016-10-26 00:20:38,Feross Aboukhadijeh,changelog 8.5.0,False
+d9c6e2a453ea7c169b1410da111bfa75a140893d,2016-10-26 00:20:23,Feross Aboukhadijeh,eslint-config-standard@6.2.1,False
+e0e197d1818b195a49bf2d272e8b5f8d4d091f8b,2016-10-21 18:39:51,Feross Aboukhadijeh,eslint-plugin-promise@3.3,False
+cf9b3b6a0798fa15922aea9a39bed11823657662,2016-10-21 18:39:41,Feross Aboukhadijeh,eslint@3.8,False
+41617d2cafc6742a4bde9e5c80068fbaf06c6af3,2016-10-17 17:18:25,Feross Aboukhadijeh,"add ""parser"": ""babel-eslint"" for Flow
+
+Fixes: https://github.com/feross/standard-www/issues/10",False
+34ef51533c6ac3ff472d616fea44fe4ea4313694,2016-10-11 14:33:55,Feross Aboukhadijeh,"Merge pull request #653 from robinwhittleton/better-alt-text
+
+Better alt text for standard JS badges",True
+2a5d0dc1c02859c2e63c07b3f256b740e20ff56f,2016-10-11 13:29:49,Robin Whittleton,"Better alt text for standard JS badges
+
+The existing ‘JavaScript Style Guide’ is a bit generic and doesn’t really define what standard does. This amends the alt text to be more explanatory to the user.
+
+This also updates the alt text of the README header to match the badges.",False
+76d4e9dbb52a7b46d571708556f4b3b65d558c7f,2016-10-11 05:19:43,Feross Aboukhadijeh,authors,False
+bc05f8bc679b50614d08215ded6ab1347112854f,2016-10-11 04:04:40,Feross Aboukhadijeh,8.4.0,False
+4aad40cc95fbe05ac6b8e57b28bde02fa240c5ed,2016-10-11 03:55:08,Feross Aboukhadijeh,"Merge pull request #656 from feross/feross/deps
+
+8.4.0 release",True
+73e2650aca5391aee2fb9adb8707adb24bda3d4b,2016-10-11 03:29:00,Feross Aboukhadijeh,8.4.0 changelog,False
+09ca0a524f56c37b23aa10da05b16a388da7fdd2,2016-10-11 03:28:20,Feross Aboukhadijeh,"Merge pull request #655 from feross/feross/654
+
+Dependencies: Use ~ instead of ^.",True
+c0a4af5ccfd831d9d07f77ce49b511caafec495b,2016-10-11 03:17:50,Feross Aboukhadijeh,eslint-plugin-promise@~3.0.0,False
+9e1291cbd5e358da7d38b204ed489c757ce7eb16,2016-10-11 03:16:32,Feross Aboukhadijeh,Update ESLint to 3.7.x,False
+99a1d9081c626770b4e0d1df809c463c24f7a523,2016-10-11 03:10:29,Feross Aboukhadijeh,"Dependencies: Use ~ instead of ^.
+
+Fixes: https://github.com/feross/standard/issues/654
+
+I think one improvement to the situation is to switch to ~ instead of
+^. This is slightly more conservative, and would have prevented the
+breakage described in the above issue. We use ~ already for ESLint
+since minor versions are more likely to introduce incompatibilities
+than patch versions.",False
+92743f484f95b3efd2ee741d0ac45ba35523257b,2016-10-07 13:36:06,Feross Aboukhadijeh,"Merge pull request #651 from feross/feross/webstorm
+
+Webstorm instructions should reference eslint-config-standard-jsx",True
+a33cf31ab1c7b85da850ebc34ca13645f0a8f67f,2016-10-07 13:03:37,Feross Aboukhadijeh,"Webstorm instructions should reference eslint-config-standard-jsx
+
+The Webstorm instructions don't tell users to install
+[eslint-config-standard-jsx](https://github.com/feross/eslint-config-sta
+ndard-jsx). That's fine, but they're not getting the full set of rules
+that `standard` includes for JSX.",False
+12e3bef9341fbf3599d57185170dd715302ee654,2016-09-30 04:52:35,Feross Aboukhadijeh,Fixes for PR #644,False
+d962c0fccde11f9f3bfc6e4b206f063d49d5b2b4,2016-09-30 04:50:40,Feross Aboukhadijeh,"Merge pull request #644 from chenxsan/update-vscode-formatter
+
+update vscode editor extension part",True
+d657d0534fc6eeea87f1533629726f15ff2be543,2016-09-30 03:58:43,sam,update text,False
+d2b47bd18925f8ff51128799bb2d73d57cda5ca9,2016-09-29 23:58:07,Feross Aboukhadijeh,8.3.0,False
+06ed19e19bd20b6a8f78578e00b4266b50e30bc4,2016-09-29 23:54:36,Feross Aboukhadijeh,changelog,False
+6d1e2d881f2d1150392fca2223db1950a45a0a02,2016-09-29 23:49:50,Feross Aboukhadijeh,eslint-config-standard-jsx@3.2.0,False
+b5ec4977b66d47756845910568ac54149ecdefae,2016-09-29 23:49:38,Feross Aboukhadijeh,eslint-config-standard@6.2.0,False
+6c99af3ab40de48d42ca5a4b02f8e4517941f365,2016-09-29 23:49:12,Feross Aboukhadijeh,babel-eslint@7,False
+ab30aed9e48e712b46e25f446841177c54bff1ec,2016-09-29 07:39:33,sam,update vscode editor extension,False
+784c235cbecefecad21fbd76df690600be20ae3c,2016-09-27 08:11:27,Feross Aboukhadijeh,readme,False
+5abf020c50f03ec9ec5789608dd8b8a821367f43,2016-09-27 04:53:03,Feross Aboukhadijeh,"Document all Node API options
+
+Fixes: https://github.com/feross/standard/issues/640",False
+a8b2f7871ca8673edc08be550e18cc0475f32a11,2016-09-27 03:19:49,Feross Aboukhadijeh,authors,False
+95b5f099d47b6902f1979f5d1fe5cda16cdef35a,2016-09-27 03:18:07,Feross Aboukhadijeh,8.2.0,False
+bdcad4374e8975334311ccff51c137b8e424017a,2016-09-27 03:13:46,Feross Aboukhadijeh,changelog,False
+94b0e7f8975f29ff2d374f0df2e5fc0e00a82057,2016-09-27 03:13:11,Feross Aboukhadijeh,"eslint-config-standard-jsx@3.1.0
+
+#639",False
+00bda98a88ffad9b45fe4630d2300eba1d1cdca7,2016-09-27 03:12:56,Feross Aboukhadijeh,"eslint-config-standard@6.0.1
+
+#639",False
+c633efe341c5690556702ceda61f9781a3ffd703,2016-09-27 02:11:59,Feross Aboukhadijeh,"Merge pull request #638 from feross/lu-patch-1
+
+eslint@~3.6.0",True
+45c026bd2561253ff5dd7c00aaa9226f44fe4041,2016-09-25 15:37:06,Linus Unnebäck,eslint@~3.6.0,False
+2e2847a49684cc03e581cfb6756806842c1ce4ea,2016-09-17 23:55:22,Feross Aboukhadijeh,AUTHORS,False
+4e0667d7be86202a28de628fa8fb1beb7c13a3bd,2016-09-17 23:49:39,Feross Aboukhadijeh,8.1.0,False
+3c9ac4fcd31e21e1bb571a4993db1498fc93c00e,2016-09-17 23:44:26,Feross Aboukhadijeh,changelog,False
+f99d5bb6031beb40ddc3e83c07a872097b287564,2016-09-17 23:40:10,Feross Aboukhadijeh,"Merge pull request #627 from feross/update-deps
+
+Update dependencies",True
+0879f41f4a9de25598eee9291a6b7064eda51d8e,2016-09-16 21:26:09,Feross Aboukhadijeh,eslint@~3.5.0,False
+8a9b75e03075e92aa10cfc907434a0213376d351,2016-09-16 21:16:33,Feross Aboukhadijeh,eslint-config-standard-jsx@3.0.1,False
+f4407e3e7c68a3b625c2700acb8abc8418aebf2b,2016-09-16 21:16:22,Feross Aboukhadijeh,eslint-config-standard@6.0.1,False
+8cd51d97c740edef95c8de549322fd7381950475,2016-09-15 04:28:46,Feross Aboukhadijeh,"Merge pull request #624 from feross/timoxley-patch-1
+
+Add example of usage within npm scripts",True
+0b2270e918e5b36f0aff62bdd567b1f8d3941182,2016-09-15 02:34:51,Tim Oxley,Revert to previous wording for npm script example,False
+19b58bfbe051fca880ace52c7f3491cd6f20872b,2016-09-15 02:17:34,Tim Oxley,"Add example of usage within npm scripts
+
+Related https://github.com/feross/standard/pull/621#issuecomment-247145748",False
+d67d6aa0ff8a64f853a4eeac41b8f0b056cc7d71,2016-09-11 20:49:54,Feross Aboukhadijeh,"Recommend `/* global */` comment over `window.`
+
+I think using a comment at the top to make global dependencies explicit
+is the nicest solution.
+
+Context: https://twitter.com/feross/status/774766522124218368",False
+39ded115df8a20d07be21e3fa70c440c200cc0fb,2016-09-11 01:08:12,Feross Aboukhadijeh,Fix markdown rendering error on website,False
+478aff0d0977960d4a2e64598d29c78c4789a6c5,2016-08-29 01:14:12,Dan Flettre,"Merge pull request #605 from masylum/patch-1
+
+Update information about usage with flow",True
+7ba947934c433bfea14fc8be867450d15b6f883f,2016-08-28 17:36:08,Pau Ramon Revilla,"Update information about usage with flow
+
+Those modules are outdated.",False
+4f6cb0e5e8589df35181432f8f398b24c933bacf,2016-08-26 07:46:02,Feross Aboukhadijeh,readme,False
+d1793a96d5a90c46b697bf38233aa1706ec65960,2016-08-26 07:35:54,Feross Aboukhadijeh,"Merge pull request #604 from JaKXz/patch-1
+
+Document adding eslint plugins to config",True
+0d7a680364d3593aa68dd496e469fa246c5d57fc,2016-08-26 00:25:22,Jason Kurian,Document adding eslint plugins to config,False
+cf127d86e25a1b25d6b23fb19f74ee7af50b6d68,2016-08-25 05:43:04,Feross Aboukhadijeh,readme,False
+e6b074df0e63578a3d1825231ff82d20308308e1,2016-08-24 11:23:23,Feross Aboukhadijeh,eslint-config-standard@6.0.0,False
+378f75bfe24e3a2a67b7180123bc481e4cbae5f2,2016-08-24 08:04:14,Feross Aboukhadijeh,8.0.0,False
+3c3de020fd6f7e602ee7e93f9845024b5b546563,2016-08-24 08:00:17,Feross Aboukhadijeh,"Merge pull request #603 from feross/v8
+
+Changelog for standard v8",True
+33670e9c34f788d2e51061bed35140efa63088f5,2016-08-24 07:46:08,Feross Aboukhadijeh,"Changelog for standard v8
+
+Fixes: #564",False
+3c66f4d6c93d48013460bfa5d8e01298e664bcd7,2016-08-20 02:13:03,Feross Aboukhadijeh,"re-center readme title
+
+sorry i just like this better, standards be damned",False
+daf6d8ecf3cf1f0231d9c7f28ae2d022744abf36,2016-08-19 11:59:41,Feross Aboukhadijeh,8.0.0-beta.5,False
+ba0a995f242309bf10d13598361f367a35dfba55,2016-08-19 11:58:40,Feross Aboukhadijeh,"Merge pull request #597 from feross/eslint3.3
+
+standard v8.0.0-beta.5",True
+36e89a4b5f2f6a3f4eca2dad422147562ec8c131,2016-08-19 11:46:07,Feross Aboukhadijeh,eslint-config-standard-jsx@3.0.0,False
+08a05f40f4a15f621273c208a04e26297b707ef4,2016-08-19 11:45:59,Feross Aboukhadijeh,eslint-config-standard@6.0.0-beta.3,False
+9b87fc7b2313279bf6884808ac5274127f0a86c7,2016-08-19 10:38:09,Feross Aboukhadijeh,eslint@3.3,False
+fd7fe77a3a4ae5bbf854f6acfd49aa92c7e2a87e,2016-08-18 08:34:07,Feross Aboukhadijeh,"Merge pull request #590 from feross/legacy
+
+Improve standard v8 behavior on legacy versions of Node",True
+85e19d6de535d863613d67ad0f6d3bb6eae9bab3,2016-08-18 08:25:09,Feross Aboukhadijeh,"add ""Node v4 or greater is required"" message",False
+9a5f404fe33139dc2dc3613a47f937d9ea41131c,2016-08-18 08:23:57,Feross Aboukhadijeh,add engines node >=4,False
+05b90433069051e2dd4cb7d275e6548ce8b56eee,2016-08-18 07:59:08,Feross Aboukhadijeh,alphabetize scripts,False
+36c14d8835d76318cfa3b8f69d0f8f990048914d,2016-08-11 04:34:13,Feross Aboukhadijeh,8.0.0-beta.4,False
+81c16a6c1b867667385c08277cfd2e48ccc3d292,2016-08-11 04:26:56,Feross Aboukhadijeh,Remove deprecated 'formatter' option (for standard-engine@5),False
+629dc158375838ec8b7ade104f5cff4460c8b7c3,2016-08-11 04:25:19,Feross Aboukhadijeh,"standard-engine@5
+
+Changelog:
+
+- BREAKING: Remove formatter support (replaced by ESLint's --fix)
+- BREAKING: Drop Node 0.12 and 0.10 support (because of ESLint 3)
+- Add `{fix: true}` option to `lintFiles` and `lintText` API
+- Support auto-fixing source text from stdin (standard --fix --stdin)",False
+727ab637a91e7640361ca5e63a59ea4545e82551,2016-08-11 04:02:35,Feross Aboukhadijeh,eslint-plugin-react@6.0.0,False
+45e705c151be6b101bd492d920be86cc6a0727cd,2016-08-11 03:47:07,Feross Aboukhadijeh,"Merge pull request #584 from feross/remove-0.10
+
+Remove hacks for Node v0.10",True
+b43d0ce37fd0a0cb143eec4933d598c5476ad436,2016-08-11 03:39:05,Feross Aboukhadijeh,"Remove hacks for Node v0.10
+
+Note: We already lost Node v0.10 support when switching to ESLint 3
+(which now requires at least Node v4).
+
+standard v8 won't support less than Node v4.",False
+3bd0b23c45c9bbee35b7a5341ad3ea0f978c0e85,2016-08-11 02:47:04,Feross Aboukhadijeh,style,False
+6d0c6bac1b95098aa734831642bb9d8d832b1736,2016-08-06 11:15:52,Feross Aboukhadijeh,Update AUTHORS.md,False
+ca179c328593831d7a7f0487937e57d2b3e650d3,2016-08-06 11:15:45,Feross Aboukhadijeh,Improve AUTHORS.md formatting,False
+d5d3e26be605aa27bd962eda78468ba4326d3c00,2016-07-29 11:20:23,Feross Aboukhadijeh,Update README.md,False
+ef6ec6e88a14563327e7f8b677991dc8e2632b0d,2016-07-29 11:19:56,Feross Aboukhadijeh,center the title,False
+3900df7516238bdd0b9ee867a3592a2b9beaefeb,2016-07-29 11:19:38,Feross Aboukhadijeh,use markdown style links,False
+81e28f8508e6591235eb55455d835aa6d1804d97,2016-07-29 11:12:37,Feross Aboukhadijeh,"Merge pull request #577 from RichardLitt/feature/standardize-readme
+
+Standardize Readme",True
+d37ef42ede4623314ca68c4c2c7fb17956f8628d,2016-07-28 20:43:21,Richard Littauer,"Added top install, edited installation instructions",False
+ba543a263829a6a209ddc8764a84df2a5b750910,2016-07-28 15:21:58,Feross Aboukhadijeh,"Merge pull request #579 from mortonfox/patch-1
+
+Fix the vscode-react-standard link",True
+52de05341aa96e862b43812a296c8e92807c7a36,2016-07-28 10:15:02,Morton Fox,Fix the vscode-react-standard link,False
+c995478ab0d699d064a4d2ce61558d2841daddda,2016-07-28 04:11:54,Richard Littauer,Edit install section,False
+30fc2f816f77bf5d78f1572861c3ba1b80294f98,2016-07-28 04:11:32,Richard Littauer,Remove flat square badge,False
+e5dd3b35e06fc75fa486b37bb4574d74c58e47bd,2016-07-28 04:11:16,Richard Littauer,Move Hero above title,False
+4fce32a9588b1186c989905109abeefa33689b87,2016-07-27 21:07:06,Richard Littauer,"Standardize Readme
+
+This is the most minimal change to standardize the README, following RichardLitt/standard-readme. See #558 for more on this.
+
+Big changes: Move the title and the badges, take away the centering. This is a bit less pretty, but you should not have to think about this stuff, and standardizing will remove some aesthetic decisions, sadly. I also added a contribute, a Table of Contents, and moved badges into usage - I think this is the best move. Linked to the license. What do you think?",False
+4414c12449f4c1ce22b7fabe8e0bdf5950723860,2016-07-26 04:53:40,Feross Aboukhadijeh,AUTHORS,False
+e9d2a07ef6afca449ff9096a07bf83cd4410b039,2016-07-26 04:49:43,Feross Aboukhadijeh,8.0.0-beta.3,False
+2f7fadbc01ce8d173ad6fb10cae244d5490de01a,2016-07-26 04:31:30,Feross Aboukhadijeh,eslint-config-standard@6.0.0-beta.2,False
+f6b92de498c745ae807071b81cfa29726493c855,2016-07-26 03:05:35,Feross Aboukhadijeh,Enforce latest versions of all deps,False
+627ed96b61e5b14a7e1dce72a20081d9776f1571,2016-07-26 02:09:47,Feross Aboukhadijeh,readme,False
+966939bb4ad8f82455655f74523f3c1c4b6aca94,2016-07-26 02:04:51,Feross Aboukhadijeh,"Merge pull request #575 from TimonVS/patch-1
+
+Add link to vscode-react-standard",True
+4bf85b04309ecdb738455a5014010717bb3319c7,2016-07-25 00:11:20,Timon van Spronsen,Add link to vscode-react-standard,False
+25c9e0330a22d1dc48341d7449de954595c69888,2016-07-23 10:35:37,Feross Aboukhadijeh,8.0.0-beta.2,False
+cf7ecaf3fc1c1457bdf8f9f6ca8c85cca0506367,2016-07-23 10:22:58,Feross Aboukhadijeh,eslint-config-standard@6.0.0-beta.1,False
+7310a8944f5aaa70e3553e98efa53f82f081b429,2016-07-23 05:38:29,Feross Aboukhadijeh,AUTHORS,False
+7ac14f5b7e2eaf8143147c7d6a5112950c8a60cd,2016-07-23 05:38:16,Feross Aboukhadijeh,8.0.0-beta.1,False
+2e476b2bc6c5d54fb18b0e0a03c1e49817b47c7a,2016-07-23 05:37:15,Feross Aboukhadijeh,readme,False
+71201e8c02360cd6b2c72718259ee9cdbe9ed43a,2016-07-23 05:37:15,Feross Aboukhadijeh,test: more detailed error message,False
+5884e2fbcc2167498286d268830135c9f00171d5,2016-07-23 05:37:15,Feross Aboukhadijeh,eslint@3.1,False
+df2868c8447815bab7164e04cd1235c4f2da8e2f,2016-07-23 03:51:45,Feross Aboukhadijeh,"Merge pull request #571 from fatpixel/master
+
+Fixed a couple typos.",True
+961838ff291aee93a1fab8db4c00ba5389c1aeed,2016-07-22 19:52:41,David Moseley,Fixed a couple typos.,False
+9c814de068764bcfbd2ba767ba4b0235b68109ca,2016-07-14 08:15:40,Feross Aboukhadijeh,improve standard alt text,False
+ea3a4fb2fb67bd92e7a5075263a127d275ec9e92,2016-07-14 03:41:45,Feross Aboukhadijeh,Update AUTHORS,False
+e9d1c9c280a2b5e8ad90ee324a0c7bf6467e8efb,2016-07-14 03:35:18,Feross Aboukhadijeh,8.0.0-beta.0,False
+60d05986bd2bd4599de01db1329cb609da11c9e6,2016-07-14 03:34:35,Feross Aboukhadijeh,Update formatter message,False
+1aaf3246d225b15eb7230e28f240446bbd02a6a9,2016-07-14 03:22:28,Feross Aboukhadijeh,standard-engine@^4.1.0,False
+0a7c5716584119323ab3052b3efa2593a685d224,2016-07-14 03:21:02,Feross Aboukhadijeh,eslint-config-standard@6.0.0-beta.0,False
+13c84431a12ff2042c0e46682609985e67891ca1,2016-07-14 02:06:21,Feross Aboukhadijeh,eslint-config-standard-jsx@2.0.0,False
+75a8e8365ecdc747d91a3a70510ec62a97635914,2016-07-14 02:05:58,Feross Aboukhadijeh,eslint-plugin-standard@2,False
+ec1e622ee55e14184c13cf5cff9ef1799311f004,2016-07-14 01:18:25,Feross Aboukhadijeh,eslint-plugin-promise@2,False
+27aadf2f51e53913d8a1e6066149fa160b3d80e3,2016-07-13 03:28:52,Feross Aboukhadijeh,"Merge pull request #565 from feross/eslint3
+
+Use eslint v3",True
+4bc5e7c7c84032e7aef3f518ba8e5f88af07ba25,2016-07-13 02:59:16,Feross Aboukhadijeh,Drop Node 0.12 and 0.10 support (because of ESLint 3),False
+44aded0cd615b46aa1e0fee7f46b5108d0c7ff44,2016-07-13 02:59:16,Feross Aboukhadijeh,eslint@3.0,False
+97d9d66611b25eb8c0c4f03b3e871105a22430ba,2016-06-07 20:14:37,Feross Aboukhadijeh,"Merge pull request #546 from Alexsey/master
+
+Improve Webstorm doc",True
+7655a335e4c2b0c9a68bb1394f163ec5db536017,2016-06-07 19:57:03,Aleksey Bobyr,"Improve Webstorm doc: fix numeration, add info about ES7 support, add details about ESLint package selection and some minor formatting fixes",False
+22efedfd0941d93487915badec59601ded505de7,2016-06-07 04:42:40,Feross Aboukhadijeh,"Merge pull request #543 from bash/bash-patch-1
+
+Fix missing spaces in es6 imports",True
+0a6132665601355e18bf35c87a9bb9c747f7823c,2016-06-06 14:18:39,Ruben Schmidmeister,Fix missing spaces in es6 imports,False
+b8592ae3ee9d466ffc4db767be0389203588dfa0,2016-06-05 11:54:13,Feross Aboukhadijeh,"Merge pull request #541 from CodinCat/patch-1
+
+add backtick to the semicolon rule in readme",True
+fc1e8ca9f7058abdd8acc1e144f9da7d55988ad7,2016-06-05 11:41:44,Feross Aboukhadijeh,readme,False
+19741e46ced7a2300c78b1773d5b7c4cdb42ae36,2016-06-04 18:57:43,CodinCat,add backtick to the semicolon rule in readme,False
+7e0a3534be040a4186522db6aee574335147b9e7,2016-06-04 03:46:36,Feross Aboukhadijeh,7.1.2,False
+5d278feb7be269f7a764a3d2bbfe708dbec11989,2016-06-04 03:41:51,Feross Aboukhadijeh,changelog,False
+902391fd5bd27a804261d6a856f649a802edd891,2016-06-04 02:13:02,Feross Aboukhadijeh,Update README.md,False
+d796b826dbe942be67fc008e9f056b2192773453,2016-06-03 01:43:44,Feross Aboukhadijeh,eslint-config-standard-jsx@1.2.1,False
+35cfb41d826908b55f40d41338e95be751b2db9d,2016-05-27 02:52:37,Feross Aboukhadijeh,cross-spawn@4,False
+6815a3427328fced88ba8093bd6a7432f74fdd07,2016-05-26 13:29:00,Feross Aboukhadijeh,7.1.1,False
+a09ff14ea6a895eb1928564713980cc284f0f6db,2016-05-26 13:24:18,Feross Aboukhadijeh,changelog,False
+24e28439bf71364ffa6bcceba510a83cba3734b8,2016-05-26 12:47:43,Feross Aboukhadijeh,"Merge pull request #531 from feross/0.10
+
+Add back node 0.10, 0.12 tests",True
+8ea6a1007015f6a65d369c990b60d879e4e587b2,2016-05-26 12:09:36,Feross Aboukhadijeh,"add back node 0.10, 0.12 support; fix warning
+
+use cross-spawn to fix warning",False
+61a54d1b47e54a16e77323f1774e2c85dbe98aba,2016-05-17 06:19:30,Feross Aboukhadijeh,authors,False
+e879f30fa328791f5b87421920db0cb90b2c7bd9,2016-05-17 06:12:24,Feross Aboukhadijeh,7.1.0,False
+9a898ea134a45c66b8374411c387839bfd54f75d,2016-05-17 06:07:22,Feross Aboukhadijeh,changelog,False
+e9ed666e8d8fa89ac6585be7f1dd62c3a133cbc0,2016-05-17 05:59:42,Feross Aboukhadijeh,eslint@~2.10.2,False
+1a992d3dd9b1e6624b62951b717a3ba0a94f3ecd,2016-05-08 20:46:00,Feross Aboukhadijeh,"Merge pull request #514 from JBlaak/fix-webstorm-double-quotes
+
+Fix Webstorm double quoting",True
+0d21eb128c2e02b4e6c1f7f1e826e3bed4604654,2016-05-07 18:24:49,Joris Blaak,"Fix Webstorm double quoting
+
+Prevents Webstorm to format generated code with double quotes, e.g.:
+
+`import Bar from 'bar'`
+
+instead of
+
+`import Bar from ""bar""`",False
+cc792b5117152db5a7a848fae10bd6d1be160e99,2016-05-04 20:18:14,Feross Aboukhadijeh,7.0.1,False
+9bbf172175bfb848fe0a8b5a4fe89abcc842ef2f,2016-05-04 20:18:10,Feross Aboukhadijeh,CHANGELOG,False
+76a5ba12d29fe3da2d9d0b27c9c4912715500efd,2016-05-04 20:17:17,Feross Aboukhadijeh,"Merge pull request #511 from feross/greenkeeper-eslint-config-standard-5.3.1
+
+Update eslint-config-standard to version 5.3.1 🚀",True
+14019cd472575fc2cd6d05e38841a5df1f3727a3,2016-05-04 20:16:33,greenkeeperio-bot,"chore(package): update eslint-config-standard to version 5.3.1
+
+https://greenkeeper.io/",False
+a7c95155f34d6bc40a1fc0eabb3695bf8971f68d,2016-05-04 20:07:51,Feross Aboukhadijeh,"Fix Flycheck link 404
+
+Closes https://github.com/feross/standard/issues/509",False
+96d3e9f1cd1cc86697bc49ef1fb41716554069c4,2016-05-02 19:47:00,Feross Aboukhadijeh,CHANGELOG,False
+a2ed4b1107c08047045b9ce72d8d4af619db99cc,2016-05-02 19:46:36,Feross Aboukhadijeh,CHANGELOG,False
+3b85fa99e14902b9dc0cecff07c62b4158025c51,2016-05-02 19:43:44,Feross Aboukhadijeh,7.0.0,False
+3aa9d57f1c4591e9dc911a5096ee0d5166053298,2016-05-02 19:40:36,Feross Aboukhadijeh,CHANGELOG,False
+0dc1b5db78782e4e8f2b1524eb74ece457b13c96,2016-05-02 19:37:37,Feross Aboukhadijeh,eslint-config-standard@5.3.0,False
+af003ad682dae4eda105bda74332b9eed74c113e,2016-05-02 19:16:34,Feross Aboukhadijeh,"Merge pull request #505 from feross/greenkeeper-eslint-2.9.0
+
+Update eslint to version 2.9.0 🚀",True
+6d99ffcfa5f828bdcdd92d6235a0dea66c025d91,2016-04-29 22:42:56,greenkeeperio-bot,"chore(package): update eslint to version 2.9.0
+
+https://greenkeeper.io/",False
+5a02ded232c50a992400ec4056f15e722cfe031b,2016-04-29 12:41:35,Feross Aboukhadijeh,add webstorm vote link to readme,False
+65efd35a3dca6c633acf9e9df36b67666f4fe447,2016-04-24 14:11:25,Feross Aboukhadijeh,AUTHORS,False
+1f33bd784db7ba90b9f7b353bc842b67f85ec573,2016-04-24 13:50:47,Feross Aboukhadijeh,7.0.0-beta.0,False
+56731773264a98dc6ba8a8ddf4ea808d6d07a710,2016-04-24 13:36:58,Feross Aboukhadijeh,standard-engine@4.0.0,False
+57a53772aa7d2e0691858a14cedf0bbdc5c78d76,2016-04-24 13:35:02,Feross Aboukhadijeh,eslint-config-standard-jsx@1.2.0,False
+82f286d842a12b47b3b1401c5bd030249000a3c9,2016-04-24 13:34:36,Feross Aboukhadijeh,eslint-config-standard@5.2.0,False
+418a077484c48fa866c3ef975c5513d92f668fdc,2016-04-24 10:32:11,Feross Aboukhadijeh,"Merge pull request #469 from feross/undo-config-hacks
+
+Undo config hacks added in v6.0.2 and v6.0.3",True
+dd7471f84f28b222c1e085f666150b2222be6b37,2016-04-24 10:13:03,Feross Aboukhadijeh,Remove cwd option to standard-engine,False
+be75cdab34a2f5931f216bbc213db403f7a8224d,2016-04-24 10:13:03,Feross Aboukhadijeh,"Undo config hacks added in v6.0.2 and v6.0.3
+
+These hacks were added to deal with bugs in eslint v2.0.0:
+
+https://github.com/feross/standard/compare/v6.0.1...v6.0.3
+
+Should not be necessary now.",False
+730dcafbdba2f7618a41571bc07bcb9ae7371018,2016-04-24 09:35:35,Feross Aboukhadijeh,"Merge pull request #488 from feross/greenkeeper-eslint-2.8.0
+
+Update eslint to version 2.8.0 🚀",True
+8fbb22b6f774436c7b473be7e5d7cf941bb2bab0,2016-04-24 06:10:52,Feross Aboukhadijeh,"Merge pull request #492 from darrhiggs/darrhiggs-patch-1
+
+Update pre-commit hook regex and exit logic",True
+f61dd29d9550f6928d2936dccdca0ed4419b785a,2016-04-22 06:11:57,Feross Aboukhadijeh,"Revert ""save badge for web""
+
+This reverts commit 0dc84a374af5c378ac1a157649607f68a9b9284d.",False
+47aeb82bc34fadbea1b76adc90c7bbe5cabdc758,2016-04-22 06:11:54,Feross Aboukhadijeh,"Revert ""attempt fix to huge svg badge on linux (#494)""
+
+This reverts commit 31254b6141c2871b1a4f403cd8e13b0b3fb03aa3.",False
+31254b6141c2871b1a4f403cd8e13b0b3fb03aa3,2016-04-22 06:01:39,Feross Aboukhadijeh,attempt fix to huge svg badge on linux (#494),False
+5e8ed7bb27a7d5a24400ecb78171c9866e79d08a,2016-04-20 15:19:25,darren higgins,"Update pre-commit hook regex and exit logic
+
+Standard defaults to matching all files with the extension .js or .jsx
+Update pre-commit hook to match files with both extensions.
+Update pre-commit hook to only exit upon failure of command.",False
+0922006f66194dd931d2d96082513c5654c59f83,2016-04-19 06:12:15,greenkeeperio-bot,"chore(package): update eslint to version 2.8.0
+
+http://greenkeeper.io/",False
+fa2091f521b7b955135f138596714f2aaa2f58ad,2016-04-19 06:12:01,Feross Aboukhadijeh,"Merge pull request #491 from feross/greenkeeper-eslint-plugin-react-5.0.1
+
+Update eslint-plugin-react to version 5.0.1 🚀",True
+522a710c05fca9656e2d9d32a59e1b1593e046fc,2016-04-18 14:26:32,greenkeeperio-bot,"chore(package): update eslint-plugin-react to version 5.0.1
+
+http://greenkeeper.io/",False
+0dc84a374af5c378ac1a157649607f68a9b9284d,2016-04-16 06:54:41,Feross Aboukhadijeh,save badge for web,False
+9fc643f7eb371737c20765f8f6d8ce6690d90a0a,2016-04-15 06:21:36,Feross Aboukhadijeh,"Merge pull request #487 from feross/Flet-patch-1
+
+update README.md",True
+6bbe55f36ebb80e566755d2cf01b8c7e75fc56dc,2016-04-15 05:47:46,Dan Flettre,update README.md,False
+1a68a32359ae23e2b658e6c224ddfce239f166be,2016-04-11 15:07:09,Feross Aboukhadijeh,Update README.md,False
+4f4c6484bc71bf00a23d6aa06ad93e98a04aeb81,2016-04-02 09:58:51,Feross Aboukhadijeh,Add CONTRIBUTING.md,False
+fdd248e8ee654fbfee815cf02801f4f68f2ba933,2016-04-01 12:30:14,Feross Aboukhadijeh,"Merge pull request #474 from joshuajabbour/patch-1
+
+Update CLI usage when using glob patterns.",True
+36ff5b37c5d7f63186f10a63d56fe5b964c182b4,2016-03-30 12:34:20,Feross Aboukhadijeh,"Merge pull request #472 from feross/greenkeeper-babel-eslint-6.0.0
+
+Update babel-eslint to version 6.0.0 🚀",True
+541ce2aad2ae51561f26792a9ae5ad50b01694c6,2016-03-30 12:23:43,Feross Aboukhadijeh,Merge branch 'master' into greenkeeper-babel-eslint-6.0.0,True
+140f2913c55e7788b62cd9bc47647fa7131ae6dc,2016-03-30 12:21:21,Feross Aboukhadijeh,"Merge pull request #477 from zeke/add-standard-summary-to-readme
+
+add standard-summary to readme",True
+cb8d36baffd410fdacfe22bcfe093fb817ba0914,2016-03-29 11:29:02,Zeke Sikelianos,add standard-summary to readme,False
+4f6924e374e0dc8de584d5a9033060a3165f8e98,2016-03-28 20:05:19,Joshua Jabbour,"Update CLI usage when using glob patterns.
+
+Globs need to be quoted or they will be expanded by your shell and not standard. This means that explicitly matching the default patterns (`standard **/*.js **/*.jsx`) will likely result in a different result than just relying on the defaults.",False
+be7d3c4762b054926637d72eda4ea96e5231e0cc,2016-03-27 16:02:09,Feross Aboukhadijeh,"Merge pull request #473 from tusharmath/patch-1
+
+Broken link fix",True
+a785ddda864ed1b173c7f33a3b0f86628ce84ed2,2016-03-27 12:18:52,Tushar Mathur,Update webstorm.md,False
+05d6425437229eb08e6d24000dca66e84de9d647,2016-03-27 12:18:36,Tushar Mathur,Update webstorm.md,False
+8c15bd1d10435c7096cad523774a949f86918669,2016-03-27 12:17:48,Tushar Mathur,Update webstorm.md,False
+08232f2d7edcdfc0080a15632946fa7b05688004,2016-03-26 09:32:33,greenkeeperio-bot,"chore(package): update babel-eslint to version 6.0.0
+
+http://greenkeeper.io/",False
+51a719d41d55b3ec09008516f3b67fd170181179,2016-03-17 03:58:51,Feross Aboukhadijeh,update authors,False
+fb7153ca8a5e031d3e47c41501ec7ba54a99a114,2016-03-17 01:49:43,Feross Aboukhadijeh,readme: link logo,False
+9cc85100e18a24dda120b24c24c700b27bd1c6d8,2016-03-16 23:29:41,Feross Aboukhadijeh,update authors,False
+00594a65589818e2877841f7e390db19674e976d,2016-03-16 22:14:37,Feross Aboukhadijeh,"Merge pull request #461 from wadey/patch-1
+
+fix markdown formatting in RULES.md",True
+6b8cb1f009a2a2a280d6d31f2dc61281459d2aa4,2016-03-16 21:16:26,Wade Simmons,"fix markdown formatting in RULES.md
+
+A previous commit broke the formatting on this line: https://github.com/feross/standard/commit/e765b91c878ee454300dc3a9d76c41472d416b0c#commitcomment-16730715",False
+ef1c775b46ea18885e851cd2931edcd7cb225068,2016-03-12 05:35:55,Feross Aboukhadijeh,badge order,False
+21e7268003a1c589f923a39ff036a1ed72b1ccb1,2016-03-12 05:35:14,Feross Aboukhadijeh,"awesome readme title format
+
+thanks @ngoldman",False
+6615044fa182801e6b6e10108cedf50d865a0a2c,2016-03-12 05:12:04,Feross Aboukhadijeh,"Merge pull request #457 from feross/authors
+
+Give contributors credit! – Add AUTHORS.md",True
+c0e90c34abb878a2d0227143bee847a86d4d38c4,2016-03-11 13:07:42,Feross Aboukhadijeh,Give contributors credit! – Add AUTHORS.md,False
+5087aeb98cd85e3a9b76f2c6d8210ee9b8d73043,2016-03-08 10:24:50,Feross Aboukhadijeh,"Merge pull request #454 from feross/webstorm-doc
+
+fix markdown for webstorm.md",True
+2307314818a6466043e4da80fd5fded0cf3179d8,2016-03-08 10:05:27,Dan Flettre,fix markdown for webstorm.md,False
+3d29fde0962875881a824d3ce8782b4c2a735640,2016-03-08 00:44:15,Feross Aboukhadijeh,6.0.8,False
+666ca5fdd124b99ccddea5fabe2fa4a1f933c97b,2016-03-08 00:38:55,Feross Aboukhadijeh,pin eslint to ~2.2.0,False
+839409d6723437eddd2a7a3af4fb8f8aca0fa79d,2016-03-07 23:44:03,Feross Aboukhadijeh,"Merge pull request #445 from ibotdotout/master
+
+Update document Vim automatic formatting on save",True
+373748e8d375b811a1b23f83f860f9879f06fa37,2016-03-07 23:43:35,Feross Aboukhadijeh,"Merge pull request #450 from zigomir/patch-1
+
+Also include eslint-plugin-promise",True
+e41e86a6377b8d74c28196023a2bdcf2ce83569d,2016-03-07 23:43:23,Feross Aboukhadijeh,"Merge pull request #451 from zigomir/patch-2
+
+Link to webstorm.md is broken.",True
+68e6155be32e2c9f3ea9a5cbadea56a8fcde7452,2016-03-06 08:29:30,Žiga Vidic,"Link to webstorm.md is broken.
+
+At least on http://standardjs.com/. I'm not 100% sure my fix is correct one, since it's not relative. I wanted to point out a broken link.",False
+15e700ec1a210a603a8e5b52ad9f34086cdebff4,2016-03-06 08:24:52,Žiga Vidic,"Also include eslint-plugin-promise
+
+unmeet peer dependency error",False
+08c8d6fdaf0352b42a5c0ee57cef3b08bedf0acb,2016-03-03 10:50:22,botbotbot,"Update document Vim automatic formatting on save
+
+that `standard % --format` was move to `standard-format` but document about Vim automatic formatting on save not updated.",False
+6d3d2009c212bd2ac709a1633fe0f72b11195051,2016-02-22 06:46:39,Feross Aboukhadijeh,"Merge pull request #434 from jwhitfieldseed/master
+
+README: use standard-format instead of--format",True
+7b3a6d2fe47bdf8d2c672d5c8aad3f17740f6cdf,2016-02-22 05:11:02,Joe Whitfield-Seed,README: use standard-format instead of--format,False
+6afca4156af07ca18a8aea1d01adf6c33af20a11,2016-02-20 06:18:34,Feross Aboukhadijeh,"Merge pull request #431 from feross/greenkeeper-eslint-plugin-react-4.0.0
+
+Update eslint-plugin-react to version 4.0.0 🚀",True
+da09a05b1a6a686dc04d8363965decc260afd80f,2016-02-20 00:36:09,greenkeeperio-bot,"chore(package): update eslint-plugin-react to version 4.0.0
+
+http://greenkeeper.io/",False
+c94e00749f24ee2d2013c68c12b3089a3ea2c0a9,2016-02-19 13:16:55,Feross Aboukhadijeh,6.0.7,False
+1ab7aa336da8a004e0d7329e0a5e9bb7daad96ee,2016-02-19 13:10:33,Feross Aboukhadijeh,add 6.0.7 to changelog,False
+e4f3ba4865eee3d0d602d7043fc820936ed695ba,2016-02-19 13:08:08,Feross Aboukhadijeh,"Revert ""Merge pull request #427 from feross/fix-snazzy-8""
+
+This reverts commit 2be47e24ba9bf4d6ab63d074c1a31373589db041, reversing
+changes made to e436970f5521bde689b92bfd8577b0bff1ad075e.",False
+8a20333d41d1aa03078876fe26ac7bb455ccef2e,2016-02-19 06:55:55,Feross Aboukhadijeh,CHANGELOG,False
+0d59a3de85e2ec105644c8b5c34cfaae251dcfe2,2016-02-19 06:42:48,Feross Aboukhadijeh,6.0.6,False
+2776708f804728c818ebbebc02b1bfd4a704cb9e,2016-02-19 06:27:00,Feross Aboukhadijeh,bump standard-engine to 3.3.0 minimum,False
+2be47e24ba9bf4d6ab63d074c1a31373589db041,2016-02-19 06:21:25,Feross Aboukhadijeh,"Merge pull request #427 from feross/fix-snazzy-8
+
+Use install location of standard as eslint `cwd`",True
+e436970f5521bde689b92bfd8577b0bff1ad075e,2016-02-19 06:03:57,Feross Aboukhadijeh,"Merge pull request #420 from feross/greenkeeper-eslint-2.1.0
+
+eslint@2.1.0 breaks build 🚨",True
+9ccab075d47242b951232180a369607913baa54b,2016-02-19 06:03:43,Feross Aboukhadijeh,"Merge pull request #422 from feross/greenkeeper-babel-eslint-5.0.0
+
+babel-eslint@5.0.0 breaks build ⚠️",True
+1dac9379fcfdd32917ad17786ee1b41e6eb93496,2016-02-19 03:34:50,Feross Aboukhadijeh,"Use install location of standard as eslint `cwd`
+
+Fixes https://github.com/feross/snazzy/issues/8",False
+72befa0945e41a4a027f09d0a44aecf58333bf75,2016-02-17 04:44:51,greenkeeperio-bot,"chore(package): update babel-eslint to version 5.0.0
+
+http://greenkeeper.io/",False
+480e6ecdcc93ee13d414523d3da16ff749c2108e,2016-02-16 03:42:24,Feross Aboukhadijeh,"Revert ""doc: npm install RC version of eslint (fix #409)""
+
+This reverts commit 690984d7ea1b5c6c3bc587e391c9c1cfcb75e6e9.",False
+42b613062785af9404e1a8cd9959773fd5e78171,2016-02-16 00:24:38,greenkeeperio-bot,"chore(package): update eslint to version 2.1.0
+
+http://greenkeeper.io/",False
+5fd4f0f591ef32b2c07d8ade787d8206f53979c1,2016-02-13 00:13:24,Feross Aboukhadijeh,6.0.5,False
+f924c20999fba7b4926390a8752b398d51cc838a,2016-02-12 23:50:21,Feross Aboukhadijeh,"Merge pull request #418 from feross/greenkeeper-eslint-2.0.0
+
+eslint@2.0.0 breaks build 🚨",True
+8e9145c2861934a55b6c711ff6561f300dadf221,2016-02-12 23:29:52,greenkeeperio-bot,"chore(package): update eslint to version 2.0.0
+
+http://greenkeeper.io/",False
+c79c9dfd8a8eba3d9e60b71e22de9b9d2e7e0eef,2016-02-08 02:25:55,Feross Aboukhadijeh,"Fix broken link
+
+Fixes https://github.com/feross/standard-www/issues/6",False
+9ae510b07040e13a6e1d961a60de3e465a2c3073,2016-02-07 23:13:43,Feross Aboukhadijeh,6.0.4,False
+10c3b1d95e882f844e01dc17e4915c6cc646ddae,2016-02-07 23:08:35,Feross Aboukhadijeh,update changelog,False
+ec24bc24387f18752de01206cc962767daff8bdd,2016-02-07 23:04:13,Feross Aboukhadijeh,eslint-config-standard-jsx@1.1.1,False
+690984d7ea1b5c6c3bc587e391c9c1cfcb75e6e9,2016-02-07 11:12:16,Feross Aboukhadijeh,doc: npm install RC version of eslint (fix #409),False
+cc5009146b79516dbeadb4f1686d65085de77d61,2016-02-07 10:05:15,Feross Aboukhadijeh,6.0.3,False
+ce1826e9d072153cad5b9a0f4cd4a843ce1ad319,2016-02-07 10:00:59,Feross Aboukhadijeh,quick hack to fix eslint cwd change,False
+0c62f580b69865453ba7038472ad4ecfdf3123f4,2016-02-07 09:31:59,Feross Aboukhadijeh,6.0.2,False
+a5b7724069f37afddd6ab325ba6301acc83f8145,2016-02-07 09:20:38,Feross Aboukhadijeh,inline eslint config,False
+4885e41bcfb5fa2375a0b321867726fbf38fc003,2016-02-07 08:31:33,Feross Aboukhadijeh,eslint-config-standard@5.1.0,False
+b5ee357bfd0b0db5ee73e0452a5ceabef540b469,2016-02-07 08:31:28,Feross Aboukhadijeh,eslint-config-standard-jsx@1.1.0,False
+baad0ad5cfb42530eb47254e65cb0bf137876a3c,2016-02-06 12:18:11,Feross Aboukhadijeh,6.0.1,False
+21c16f76ba066bd155c34bc68e1ab9a2e627dabc,2016-02-06 12:10:46,Feross Aboukhadijeh,move .eslintrc file to root folder,False
+a42ee0e7de38e64e950cb6e52fb0209d629a0c8a,2016-02-06 12:09:13,Feross Aboukhadijeh,changelog tweaks,False
+39a54d33f95ca564d976ea2cb97f4c3a45ed0c09,2016-02-06 12:01:41,Feross Aboukhadijeh,6.0.0,False
+3afcc2cfe565c4101a53d851750681ba2a6133c1,2016-02-06 11:56:13,Feross Aboukhadijeh,CHANGELOG.md for 6.0.0,False
+0b71b075c4cb5315b27c5260de57003a2b829a19,2016-02-06 11:06:51,Feross Aboukhadijeh,eslint-plugin-promise@1.0.8,False
+4b725bdcd75878396808b10d9a13b63cc3e092e1,2016-02-06 09:37:45,Feross Aboukhadijeh,lock to latest deps,False
+0a9a77b88c668b41954fe96002cab66bef121d0f,2016-02-06 09:33:22,Feross Aboukhadijeh,eslint-config-standard@5.0.0,False
+48fb60cdf115ebf34144c5051dd577685ea6f57a,2016-02-06 08:35:27,Feross Aboukhadijeh,"add eslint-config-standard-jsx
+
+Basic JSX sanity check rules. See:
+https://github.com/feross/standard/issues/351#issuecomment-180664176",False
+8802ea73d64a1412e6b83b132a79272e7f9e0d37,2016-02-06 04:13:40,Feross Aboukhadijeh,run standard on ourselves,False
+6fbd66d1d16c7dfb7674f23df4d4a7e181b27226,2016-02-06 02:57:51,Feross Aboukhadijeh,test: add --disabled flag to run disabled tests,False
+910eaa539897f7315c9424ce24fb6d6bb424ff90,2016-02-05 12:41:50,Feross Aboukhadijeh,depend on eslint-plugin-promise,False
+f0d19833fb6ae1d474e87d9909905c1c66e4e278,2016-02-05 04:47:12,Feross Aboukhadijeh,Remove React-specific rules (fixes #351),False
+8a095f18c84d40352fb40876e720ff044d8afb47,2016-02-04 16:43:04,Feross Aboukhadijeh,"readme: add one more gotcha
+
+Supersedes PR #376 from @rstacruz",False
+fbb66c410d79f2c354f477c1df9e3912ef0d1763,2016-02-04 16:43:03,Feross Aboukhadijeh,package.json,False
+44b551adf01589b9a69de557a652461697e6c92c,2016-02-04 16:43:03,Feross Aboukhadijeh,remove one more usage of `win-spawn`,False
+f1ad085ddd9bebd5b8144ab591bd1cae1d2da65c,2016-02-04 16:43:03,Feross Aboukhadijeh,eslint@^2.0.0-rc.0,False
+1cdd9f541bc95ad51f45f10ac797a9bb85fc9707,2016-02-04 16:43:03,Feross Aboukhadijeh,clone test: ignore git output,False
+22971ce3dd5dc0b026555198988ecf51fe433481,2016-02-04 16:43:03,Feross Aboukhadijeh,"use cross-spawn-async
+
+win-spawn is deprecated",False
+3e2001d364d9cb3542268b96ed204bfb527a0e8a,2016-02-04 16:43:03,Feross Aboukhadijeh,add standard-format instructions to --format,False
+60d4a87d8bc87766dc0c676f7a5f9dd249906e1d,2016-02-04 16:43:03,Feross Aboukhadijeh,install babel in dev-deps for test repos that need it,False
+134de73bccbab60b9bbbcc4a618ada5223aef128,2016-02-04 16:43:03,Feross Aboukhadijeh,use standard-packages@3,False
+f1493074834465c14615943e32e1a59220ec621f,2016-02-04 16:43:02,Feross Aboukhadijeh,cleanup,False
+3c86923bd2143c14525c62b6f1e0f9701084db5d,2016-02-04 16:43:02,Mathias Buus,remove standard-format. fixes #340,False
+9b3a14d557b9734914413c96ca59ac30729bd451,2016-02-04 16:42:21,Feross Aboukhadijeh,"test: add --quiet option
+
+supresses standard’s output",False
+c59a55ce18c6b162a821e318c5047810e9281d78,2016-02-04 16:42:21,Feross Aboukhadijeh,"test: test 500+ standard packages
+
+This improves the tests in the following ways:
+
+- Test the most-depended-on packages that use standard. Packages that
+use standard (excluding folks who’ve modified rules, or
+eslint-config-standard users) are included. ~500 packages.
+
+- Add —quick option to run select repo tests
+
+- Add —offline to make run tests using cloned repos without trying to
+`git clone` or `git pull`",False
+cb625b4e0135c05d3fad9633be7333527c35a2e5,2016-02-04 16:42:21,Feross Aboukhadijeh,test: add command line --help test,False
+ee7ffcc11dc6f75d0aa54aed2159d0318e010e6b,2016-02-04 16:42:21,Feross Aboukhadijeh,test: remove fs.access shim for 0.10,False
+3b1e8154b94f764e80d113e8f17e265fce508ae8,2016-02-04 16:42:21,Feross Aboukhadijeh,test: parallel limit should match CPU count,False
+fa970d5c32a45e5aa84dc833ee690a3d9b76756f,2016-02-04 16:42:21,Feross Aboukhadijeh,travis: drop node 0.12 support,False
+664a891d8c7dc95a5576de9e69c911f5b81ffe7a,2016-02-04 16:42:21,Feross Aboukhadijeh,standard-engine@3,False
+05303425182eae5bc2078f163139325a26c6db62,2016-02-04 16:42:20,Feross Aboukhadijeh,style,False
+0ac16a3831e1e74fa5be3106168fcca02f0ce0be,2016-02-04 16:42:20,Feross Aboukhadijeh,badges,False
+200315df96f0f6d8e3a23a5d0c05711d6067791b,2016-02-04 16:42:20,Feross Aboukhadijeh,"Depend on eslint
+
+In preparation of this change
+(https://github.com/Flet/standard-engine/issues/45) to eslint-engine.",False
+938341c930974a0464ba85558ac5c925370ca102,2016-02-04 15:29:54,Feross Aboukhadijeh,"Merge pull request #378 from paulkernfeld/master
+
+Note that users may need to create `codestyles` WebStorm dir",True
+3e7084457524f87fade28922a61c7dffcbc5ed09,2016-02-04 15:15:56,Feross Aboukhadijeh,"Merge pull request #401 from feross/docs/mocha-serviceworker
+
+Readme: document mocha support",True
+7b3218eaa84dbebd9329ea729bcd0ae3488b1364,2016-02-04 14:52:10,Rico Sta. Cruz,Readme: document mocha support,False
+5b63275d43693872e20e5c982028377f8c93bc03,2016-01-28 20:47:54,Feross Aboukhadijeh,rules: emphasize avoiding cleverness,False
+15d0326276a53fe37c801ada94c55240e2680ba9,2016-01-28 20:40:20,Feross Aboukhadijeh,"Merge pull request #391 from rajcoss/patch-1
+
+Improve the description of 'no semicolons'",True
+df6d540ca9c813c808cf8809a0f1bbf227eba4ae,2016-01-28 08:55:05,Feross Aboukhadijeh,.npmignore badge images,False
+fb27c06ca3cc3c8c5f290744f7ce16ffe7e66727,2016-01-28 08:52:42,Feross Aboukhadijeh,Add the true standard sticker ;),False
+246af5c8e28c0b728fbc4906b616bea811ea9418,2016-01-28 08:52:12,Feross Aboukhadijeh,remove the logos/ folder,False
+623bf8f5c1725d1cd2a45adf6530b1d7fa0e8e81,2016-01-28 08:50:30,Feross Aboukhadijeh,explicitly ignore tmp/ folder,False
+9a927d0fb22a0dc765413b566411e7bc825ff1a9,2016-01-27 02:57:46,rajcoss,"Improve the description of 'no semicolons'
+
+> This is the only gotcha with omitting semicolons.
+
+This statement seems to convey that its still a gotcha, and programmers need to keep this is mind even while using standard for code linting. However, since standard catches and flags it, its not a gotcha anymore.",False
+a57d1b7cb6f0ce59a7b0357a1126a7a275b76cbb,2016-01-10 17:43:16,Paul Kernfeld,Note that users may need to create `codestyles` WebStorm dir,False
+d63da8fb080db81918369a76952d647eed109ebe,2016-01-02 18:23:26,Feross Aboukhadijeh,"Merge pull request #368 from DaleJefferson/patch-1
+
+Correct atom package name",True

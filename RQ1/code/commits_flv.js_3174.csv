@@ -1,0 +1,515 @@
+Hash,Date,Author,Message,IsMerge
+42343088f22619cf014a057b3878fe3d320016a6,2021-09-13 07:58:53,xqq,package.json: Bump to v1.6.2,False
+3d9a5eaa73c27fd61af268c803545324985f52b3,2021-09-13 07:56:29,xqq,"Revert ""flv-demuxer: Implement pull request #671""
+
+This reverts commit 09982effa023e3bda8462b811caa5f47535e333f.",False
+9671d9c344d378d04da5006d291af6f6e6b49f06,2021-07-28 19:21:38,xqq,package.json: Bump to v1.6.1,False
+cc7db07a8c7dfd4bb8d027300bddc92d3751b8de,2021-07-28 19:20:47,xqq,webpack.config.js: Fix ES5 compatibility,False
+18aa6a7c458f71a9f234fca396f084bdba05e473,2021-07-17 18:49:45,xqq,gulpfile.js: Remove outdated file,False
+61d2353d19249c0f19fe0041a03aa190005d904f,2021-07-17 18:48:40,xqq,.babelrc: Remove,False
+da286e0d7b5fd2aca943a10b4820238b4470938d,2021-07-17 18:46:06,xqq,package.json: Bump to v1.6.0 & remove incorrect fields,False
+351a8692adb3ddabacf8a23b4a74fb3ccd2490c8,2021-07-17 18:39:34,xqq,src/flv.js: Update comment,False
+09982effa023e3bda8462b811caa5f47535e333f,2021-07-17 18:22:07,xqq,flv-demuxer: Implement pull request #671,False
+a211168ab0ac4d1e98d342f7767adc30cf4d6586,2021-07-17 17:57:41,xqq,README.md: Fix typos,False
+a2364bc88135768a5bbb9d28965410aa2e5a5fdd,2021-07-17 17:55:31,xqq,README.md: Update,False
+f5d221669580328685e0a2d44e50f3d92109c438,2021-07-17 17:51:27,xqq,README.md: Update build guide,False
+32067abd5ce92da63835e40bd3f526317a7910e6,2021-07-17 17:46:16,xqq,src/flv.js: Adapt version tagging by webpack,False
+a41efd7fc8326384c4cb4987801eaa9d2020d7e6,2021-07-17 17:44:55,xqq,transmuxer: Migrate to webworkify-webpack,False
+a7393173709ab6132cd1ca08f9596258e3a95025,2021-07-17 17:44:19,xqq,Migrate build system to Webpack 5 + TypeScript compiler,False
+1e8a0d9b7d037ad76918aea8170324877b98e38b,2021-07-05 18:23:43,xqq,"Revert ""feat: skip tag which has error timestamp""
+
+This reverts commit 3cd67b3414f424a328acea0b83b4ccb63c9aca0d.",False
+3cd67b3414f424a328acea0b83b4ccb63c9aca0d,2021-07-03 18:10:01,zhzhang,feat: skip tag which has error timestamp,False
+26d00d93c7f7dfcad3d94d1a6ff20024008d19ca,2021-04-28 18:55:27,James,"use a new silent frame insert algorithm for audio remux (#354)
+
+* use a new silent frame insert algorithm for audio remux.
+the old algorithm cannot cover some common situation, like:
+1. audio frame dts does not increase by a standard duration, sometimes it increase for a large duration(more than 1.5 * refSampleDuration), sometimes it increase for a small duration. But the average duration is more or less to refSampleDuration. the old algorithm would insert silent frames which result into video/audio unsync.
+2. for network living stream, because of network jitter or frame lost, the encoder would generate the audio frames whose dts is not correct. but if the gap between two adjacent frame is not over 1.5 * refSampleDuration and the accumulate gap would become larger and larger. the old algorithm never insert silent frames for this case.
+
+* initialize _audioNextRefDts when seeking
+
+* fix: lint error
+
+* test
+
+* fix a curRefDts update mistake
+
+* reuse some original variable which has the same meaning
+
+* fix some variable mistake
+
+* bug fix: incorrect byte length
+
+Co-authored-by: xiaosong <kunkkaco@gmail.com>
+Co-authored-by: wangjiankai <wangjiankai@cmhi.chinamobile.com>",False
+4485c09cfb60f6f6f041fe8d52fc591e8d79bf7c,2021-04-23 12:04:44,xqq,README.md: Mention mpegts.js,False
+9ea4b4231433dfc60a4169af719e1ada02509cd7,2021-04-23 11:59:01,xqq,FetchStreamLoader: Adjust details for using AbortController,False
+6924c82e9fcb607e0aed6d5002e2e01ecf9d438c,2021-04-18 17:45:06,Mingli Wu,"FetchStreamLoader: Fix aborting problem before entering _pump() (#535)
+
+* Update fetch-stream-loader.js
+
+修复在进入请求_pump前调用abort请求没中断的问题
+
+* Update fetch-stream-loader.js
+
+修复在进入请求_pump前调用abort请求没中断的问题",False
+90b3463c5789e2aa892bf127d555ffa95070cef0,2021-04-18 17:43:27,Mingli Wu,"Use AbortController to abort fetch to fix aborting bug (#448)
+
+* Using AbortController in fetch-stream-loader.js
+
+* create pull-request",False
+8c1bed1245640deb51ec5545bc2f4e9080f01ded,2018-12-14 06:42:15,xqq,v1.5.0,False
+73679d437ef4d5a8ba888387259b9c63bcaf0862,2018-12-14 06:41:06,xqq,package.json: Update devDependencies,False
+2b0df5544abd12d47b548307711e9a46f965f29e,2018-10-07 17:24:08,xqq,MP4Remuxer: Fix Source too large exception caused by incorrect byte length,False
+b01194cbfa69d35ba9f15e16dadbcad0b4d71251,2018-09-21 08:15:50,xqq,FLVDemuxer: Notify all possible ScriptData object through onScriptDataArrived callback,False
+07615ed559a3f23679d68664fc3212437df7167c,2018-09-21 07:52:15,Vladimir Vainer,"Added onScriptDataEvent (OnCuePoint, OnTextData)
+
+Added event to support OnCuePoint and OnTextData script data objects",False
+6a0be2f0cf4b8f0b6360f5fa4da1fe9b3f09f44b,2018-09-20 21:35:44,xqq,Add additonal headers feature into MozChunkedLoader / RangeLoader / MSStreamLoader,False
+93b786298f7c6c0f62b9bc3e4ff8f4567f45fe7f,2018-09-20 21:35:44,xqq,Add declarations in config.js & flv.d.ts for additional headers config field,False
+c3578dbed5beeb3677ba633c965f3c6e0a432c76,2018-09-20 21:35:44,Yaroslav Pogrebnyak,Added optional additional headers to createPlayer config for FetchStreamLoader,False
+e0229076f66673bc3b834c217cb9b1b676a48fbc,2018-06-23 08:44:08,L&H,Update FlvPlayer/NativePlayer types,False
+6e8d165e7992a086a583d754ca84b69c06490490,2018-06-23 08:44:08,L&H,Fix FlvPlayerStatisticsInfo type,False
+e861e0d6bb8dbda7bd45165567f6b77c8a69557d,2018-06-23 08:44:08,L&H,Better types,False
+7ab51b122d8b235d2e067ec7dda3673ea6504bc8,2018-06-15 22:27:30,bodylifter,Wrapped `ms.removeSourceBuffer(sb);` in try/catch,False
+f8edb33b985792579fef04af140894f12e89f833,2018-06-15 22:10:47,xqq,package.json: Rename lint -> dtslint to avoid confuse,False
+a002df5888a533ad6f8748dc4ad52faee7e979af,2018-06-15 22:10:47,L&H,Reset comment changed,False
+c098530ae887b580da287a04354be152c82f23da,2018-06-15 22:10:47,L&H,Add type test,False
+6e946ae7e2a9bb09440ac8917005e792a34815cd,2018-06-15 22:10:47,L&H,Rename flvjs to Flvjs for user who want to reuse interface in namespace,False
+30577960c78112462cda90e4b40dd11d77ce8b1b,2018-06-15 22:10:47,L&H,Remove illegal protected and abstract keyword,False
+1047d758334e27ad55776f90f190931e0c2ec26d,2018-06-15 22:10:47,L&H,Fix some lint error,False
+55c4f685444d3e26716d7a1b375f1bb4008c30cf,2018-06-15 22:10:47,L&H,Add TypeDefinition lint,False
+88e9bf8937eba164641b95dc99ca8470d80ddc71,2018-05-04 08:58:14,xqq,MetaDataArrived: Refine #309,False
+97eac6eddc8497fc1c441e8eea75e130d60b3420,2018-05-04 08:49:41,bodylifter,Added support of metadata events,False
+8aef9e788d7a92c07545df59b2a040623bd89723,2018-04-30 13:33:36,Jack Works,Fix typo nubmer -> number,False
+a876715dcfd2ac902943bbe1e0a2ddbff8d49e56,2018-04-29 06:43:03,xqq,customLoader: Refine config / d.ts,False
+d4657bba04d163b0f5fdcb5c27f414ff4709b9b6,2018-04-29 06:12:15,progre,"Add custom loaders structure (#307)
+
+* feat: add loader to config
+
+* feat: add loader to config
+
+replace Class with instance
+
+* fix: revert space
+
+* fix: revert version
+
+* feat: replace instance of custom loader with constructor
+
+* fix: remove unnecessary parameter",False
+8631a1a76ef79ea25b5a71b5e107750d49fac7a5,2018-03-06 19:17:01,xqq,v1.4.2,False
+1e6271beea382eab7c777bd366ff3ba99df4216d,2018-03-06 19:16:33,xqq,FetchStreamLoader: Check whether Early-EOF when received done callback,False
+9cce42874e212ef03dd2c5fc177d9f21477ceaf2,2018-03-02 09:26:19,xqq,v1.4.1,False
+172aa5ba39be0449c185d913a254b51120657a7d,2018-02-11 22:31:45,xqq,TransmuxingController: Fix multipart duration overflow caused by inaccurate segment duration in MediaDataSource,False
+824f390d5044936dbe6453db43c9c4b7d167bb61,2017-12-29 11:27:56,xqq,v1.4.0,False
+1feb5a23e8132dbb8c41a0118ad6b1aca6b45c34,2017-12-28 14:02:22,xqq,MP4Remuxer: Not process if only one sample existed to avoid guessing sample duration,False
+3d81d155b352706f47712ff22f3418d91e372da7,2017-12-28 12:08:45,xqq,MediaInfo: Export h264 ref_frames,False
+a8f9da1c44d30936199e6a471775ca39fe7694ad,2017-12-25 17:16:33,xqq,FLVDemuxer: Optimize SI24 cts parsing with speedup,False
+cef6e66b4e4866979376b3ebecc8b081f125f893,2017-12-24 12:49:48,xqq,README.md: Fix hyperlink,False
+91460c1f16dfa7df9852a29cb7f7f840d840cf69,2017-12-24 12:39:50,xqq,README.md: Move demo link,False
+60ca720523d3519d1ab91a1e7126eb653d4babfc,2017-12-24 12:33:15,Jun Zhang,Add Demo pages link.,False
+c109921adfaa24afaf81ebbd3d1a205f3eb8c21b,2017-12-24 10:25:34,xqq,FLVDemuxer: Support negative cts offset,False
+6a1274b8799a01a73ea128174597918f38110ada,2017-12-24 09:13:34,xqq,MP4Remuxer: Fix null ref bug in flushStashedSamples(),False
+bbc60235842a6490e19f89087c2f696d960f1aec,2017-12-24 09:01:41,xqq,demo: Improve,False
+e6cb2afe572f136a4bc172ffb6c01136150843a7,2017-12-24 08:58:44,imspace,"demo/index.html: Fix bug that can not save settings.
+Click on the label can check or uncheck the checkbox.",False
+5b8344228119ae03d736da8158f25aa65b913ee7,2017-12-24 08:58:44,imspace,demo/demo.css: Add margin and change font-size to 13px,False
+f7b3e0f5e99a7119eeec343d72c8b637729fef9d,2017-12-24 08:58:44,imspace,demo/demo.css:  CRLF to LF,False
+6cd85d983455144dbf4bf77a19635839fae29016,2017-12-24 08:58:44,imspace,demo/: Make demo easier to use.,False
+aaad13a8ea8a321ba018d7172cefa56a258c4b53,2017-12-21 18:36:09,xqq,IO/xhr: Remove unnecessary & incorrect judge of withCredentials,False
+b687494268f64a2f73dd07a832bc6726a294180a,2017-12-16 12:47:42,xqq,v1.3.4,False
+ffa11c4eece4a819bf707cc3f6ffe5f3dba1de1a,2017-12-16 12:40:45,xqq,Merge branch 'master' into accurate-sample-duration,True
+2dfb3230a71af3b4054f9979fcdde91f0d88389b,2017-11-16 17:15:44,xqq,flv.d.ts: export default flvjs,False
+bdc89125060ebfa82d34acb5598202d86ccaef34,2017-09-08 19:58:58,xqq,auto-reload: Fix details,False
+e1f6b89eedbf623ded0909198436f48b8a3f7f55,2017-09-08 19:44:10,xingoxu,add readme & remove http-server in package.json,False
+5f678f39d3558c4904649e7671cbff40dc384679,2017-09-08 19:44:10,xingoxu,fix asynchronous gulp pipeline,False
+29c148e65e32abd0c961e6771ccf3d961860b5d3,2017-09-08 19:44:10,xingoxu,add real reload in dev,False
+ccb5aac7dd9f98d995ae3ce4ca214daf4f632d59,2017-09-01 14:33:02,xqq,v1.3.3,False
+f89b41f2d53b08beb956db6ec03a0b2459882f2d,2017-09-01 14:26:59,spacemeowx2,FetchStreamLoader: Fix memory leak,False
+da341fb5a7a5b5251c3022f24f6c37930c799ca2,2017-08-22 20:55:16,xqq,"XhrRangeLoader: Use reference filesize from dataSource to avoid full request
+XhrRangeLoader/MozChunkedLoader: Discard data if error",False
+f0b3fec859a18c03f08e7888940c2b331fb67ffa,2017-08-04 09:25:46,xqq,api.md: Refine error related description,False
+023ab2ebac82be117cdd23d0d84b948c68292c12,2017-08-04 08:01:27,Rafael Miranda,Fixed table formatting,False
+140ee9c4a6f1b573ad5a39c7f90e3f0d2111dcec,2017-08-04 08:01:27,Rafael Miranda,Added missing documentation,False
+2edad7fbc6599ccc73bfe13d5657abe91f4fe4e5,2017-08-02 20:10:10,xqq,MP4Remuxer: Refine last sample duration calculation logic to be accurate,False
+71aa7eda58541edcfac36392fde5283f7e2a4359,2017-07-06 17:47:27,xqq,v1.3.2,False
+a6e1832d154d497f8cafb839f7498ed88ac720d9,2017-07-06 17:38:26,xqq,demo/index.html: Avoid es6 string template,False
+e5150ab3682682e300307bc5fab7e5e3cc4195e5,2017-07-06 17:24:25,xqq,demo/index.html: Unset enableAll = false,False
+57d276f8996db024769a806595c00d133156bc1c,2017-07-06 17:20:01,xqq,LoggingControl: Add logcat callback feature (addLogListener),False
+24482d5c300ea1d50990c307bedd661f9c940f31,2017-07-06 13:41:23,xqq,config: Add field fixAudioTimestampGap to control silent frame generating,False
+b07a53693912527a43d695ad9f15513bcd91093c,2017-06-24 07:19:28,xqq,MP4Remuxer: Disable silent frame generating under Safari for now due to MSE error,False
+d7baf9bab9ec3e31f276e0e3eb7ecacabe942dec,2017-06-21 10:41:26,xqq,v1.3.1: Fix d.ts definition,False
+8a56b672d979da4687213044c29dfe245a93fce4,2017-06-21 10:29:02,xqq,v1.3.1,False
+8fe9b8fbc6cfefbd2e2305598e0fd7abd5ddf4d4,2017-06-21 10:28:27,xqq,api.md: Mention play() returns a Promise,False
+dfab25770291a1e23594193dafd45f32ab861b12,2017-06-15 15:12:26,xqq,Player: Allow play() returns a Promise from HTMLMediaElement.play(),False
+43534eb8f143cfe27fe624d4a1d1f03ee7ef3aa3,2017-06-12 21:07:26,xqq,MSEController: Support SourceBuffer auto cleanup to reduce memory usage for live stream,False
+d2d98936eff5787d2a96c09e83275fc50b5c6235,2017-06-02 13:00:31,xqq,v1.3.0 release,False
+74845e621a552e008ee8c912b09cfb46d39f4ac6,2017-05-28 19:33:05,xqq,MP4Remuxer: Fill silent frames to workaround a/v unsync issue,False
+b6819c34632d44dfe59411d7fc3f527d248c189c,2017-05-27 21:32:15,xqq,MP4Remuxer: Entirely refactor remuxAudio / remuxVideo logic,False
+1bbc32a4b4032cd09206f0bd1b2fb852c12f1429,2017-05-27 18:59:18,xqq,FLVDemuxer: Improve originalCodec calc logic,False
+8d17db52036533bccc93cedcb20608988a4ddf23,2017-05-27 18:39:44,xqq,FLVDemuxer: Keep refSampleDuration as float,False
+6541ebadde01ecc6178c86c3c8f7b79d28d51191,2017-05-27 18:16:11,xqq,aac-silent: Generate suitable samples for HE-AAC codec,False
+97b837990a73e3677da64d377671b3447dc86ec8,2017-05-27 17:32:22,xqq,FetchStreamLoader: Fix lint,False
+90c179929a7cf2e0c9f5eab599f46e9d59a4bfd8,2017-05-23 14:32:23,xqq,package.json: Add jsnext:main field pointed to source file,False
+eefaa098779ec58d2b40bf955e4d5e4e7720b45f,2017-05-06 23:50:30,xqq,api.md: Add referrerPolicy field in config,False
+780ab0248638266f2d4a969875c8872c7913bc43,2017-05-06 23:41:15,xqq,FetchStreamLoader: Support referrerPolicy indicating & workaround Safari,False
+5d099840595a611b2b5d393c43680cc8c8fa2379,2017-04-30 08:59:44,xqq,FLVDemuxer: Fix typo mistake in mp3 (meta.channelConfig),False
+1cf0d66aefec2e1276520ff90827b77aef0efca5,2017-04-24 21:32:34,xqq,multipart.md: Fix typo,False
+59955d351ea7e095a953445db6d371a179bfd0db,2017-04-24 21:29:25,xqq,multipart.md: Mention hasAudio / hasVideo field in MediaDataSource,False
+4760552795976831e096a8f6369e96b34bfa8e4d,2017-04-24 21:23:00,xqq,"FLVDemuxer: Support indicating hasAudio / hasVideo flag in MediaDataSource
+Improve audio-only / video-only stream playback",False
+74ded6d4294c4e5b3f1d03939b9dfd7809434eb3,2017-04-24 21:01:04,xqq,MP4Remuxer: Fix null audioMeta visit bug,False
+2b48558d4d8b61b44014ed35c9e7422c0c8b65bf,2017-04-24 19:58:41,xqq,livestream.md: Mention http-flv support on new version of Edge and Safari,False
+4a86602e7afed27dd769813ab46b2b62b73a311a,2017-04-24 19:48:07,xqq,FLVDemuxer: Skip invalid onMetaData structure,False
+e9bce339ff88f077ff69f21fbd4e69d7d84e4307,2017-03-24 22:43:04,xqq,FLVDemuxer: Fix #114 incorrect calculation of tagPosition offset,False
+6f66327d69b3cce751592741d3716c0c97623257,2017-03-20 14:29:24,xqq,v1.2.0 & Update package.json dependences,False
+e11cf53d60bd7ddd2db0ed0a06b484c8f0df7b2c,2017-03-20 13:55:04,xqq,"Merge branch 'dev-mp3-audio-support'
+Add mp3 audio codec playback support (pull request #112)",True
+183e9dbe6c1453a2914bd670b0c5005abc3ebac1,2017-03-20 13:48:05,xqq,Merge branch 'master' into dev-mp3-audio-support,True
+b6b9ce1cb3c78a8e3a3a4c229913670be71d603b,2017-03-19 23:04:56,xqq,README.md: Mention mp3 audio codec support,False
+59974328fd5d3e824be209111bf7b7b883067e75,2017-03-19 22:44:54,xqq,"MSEController: Fix NaN duration caused by mpeg audio track in Safari
+Manually set MediaSource.duration for 'audio/mpeg' track to correct media duration.",False
+ada6fba37770c61e25d4af8a61b5d1f258f0c2ba,2017-03-18 21:56:57,xqq,"MP4Remuxer: Write MP3 packets into MPEG raw segments for 'audio/mpeg' SourceBuffer
+This commit makes mp3 audio playback works in Chrome and Safari.",False
+2f02fa5c20f6b9fd83ce7370ccff10c978b1dfd1,2017-03-18 19:48:36,xqq,utils/Browser: Browser.mozilla -> Browser.firefox,False
+7197ebbc9077b4d5fec596d729b4ad81f8d4ab60,2017-03-17 18:45:43,xqq,livestream.md: Mention http-flv support on new version of Microsoft Edge,False
+d599f6ebecea571b097bd823b6a6a18b63c604e5,2017-03-17 18:31:43,xqq,FetchStreamLoader: Remove Microsoft Edge Build 15048+ from blacklist,False
+0f06f5b9e071259cf93c9476f92a815cba2e67ca,2017-03-17 16:53:06,xqq,FLVDemuxer: Support no-present-flag or no-onMetaData video playback,False
+f52639b0fa500f65642cfd8489205857eaba3bff,2017-03-17 16:32:33,xqq,FLVDemuxer: Relax restrictions in probe(),False
+8dbea65bc039e85dc21230a1ecc6b385ac74998a,2017-03-07 22:58:38,xqq,"MP4Generator: Generate .mp3 box for mp3 audio track in InitSegment
+This commit makes mp3 audio playback works well in FireFox.",False
+e1db184bef4d5783fccab6aed21365922977f3d1,2017-03-07 21:59:03,xqq,FLVDemuxer: Fix wrong timestamp of audio frames,False
+4314b6b2f5df856ee8b9b689e9ba343fe526f912,2017-03-07 19:50:21,xqq,FlvDemuxer: Add mp3 audio codec support,False
+0baa41eaedac3207390d75ee78e7502ce1273e10,2017-02-20 22:37:22,xqq,FLVDemuxer: Allow multiple SPS PPS in AVCDecoderConfigurationRecord,False
+537f7e8e89605c7762c5fcf97a8d65252e1dc6c6,2017-02-13 20:07:50,xqq,IOController: Fix WebSocket URL judgement bug,False
+81a5186bd8b1d0cd2d8429d26c3227dd1d833c91,2017-02-01 20:45:21,xqq,FetchStreamLoader: Fix Early-EOF judgement if code field undefined,False
+e76a3c8a34e25914af8590d8782fadde93617433,2016-12-11 21:15:52,xqq,config: Introduce lazyLoadRecoverDuration field,False
+9c622f36a38bd15214c4db92a406e3ff040114ab,2016-12-11 21:00:17,xqq,IO: Support redirected url reuse (config.reuseRedirectedURL),False
+1342101d9cee29f2e246c08c8d5ff418fb5dec02,2016-12-10 22:49:56,xqq,IO: Report url redirection (301/302) to statisticsInfo,False
+85d9fbf364dd060e23d0d4a212f91bc68351dce7,2016-12-10 19:33:22,xqq,IOController: Reduce live stashInitialSize to 384KB (same as vod),False
+560e20910e107fdca88278c1f442dea90ac6c875,2016-12-09 15:01:30,xqq,Update README.md,False
+cf81f50c801f233ceffc5d60f9508bb68dc1cbed,2016-11-25 11:46:38,xqq,v1.1.0,False
+8b77b7bb50e6b966608476637ef5505cd046db06,2016-11-23 12:49:19,xqq,WebSocketLoader: Support blob message type,False
+ea5e082a831229fcc3228314ece8f9ee3aaee691,2016-11-17 15:17:53,xqq,TransmuxingController: Fix seek back bug,False
+94eca734fa4f7fb890b82e929f50482598bd3f6b,2016-11-11 14:14:19,xqq,polyfill: The newest es6-promise library needs to call polyfill manually,False
+74a7cc56107278ed58e2d97b00d70708dbe0d0bb,2016-11-07 23:10:14,xqq,livestream.md: Fix cors.md link,False
+2ccd577a7cc9159cb2dc21d0f55442cb70704dc4,2016-11-07 22:59:28,xqq,docs: Add livestream.md for livestream playback guide,False
+57526441471457de2626138ee5c01f773cdec097,2016-11-07 19:56:51,xqq,Log TAG: Record class name explicitly instead of this.constructor.name,False
+371a64ff07addd38476ca99a391f1d5537b567d1,2016-11-07 14:57:49,xqq,FlvPlayer/NativePlayer: Compatible with HTMLAudioElement,False
+b374afe6420cac49d825da6e8287c7d3e66369b9,2016-11-07 14:55:59,xqq,TransmuxingController: Remove segments field from export mediaInfo,False
+3fd708d157143464e33c204980cb6b372fe03748,2016-11-07 14:22:37,xqq,IOController/SpeedSampler: Report more accurate realtime speed,False
+5bfc77577623a6172419f9fe48f18109b8abe518,2016-11-07 12:43:34,xqq,FlvPlayer: Move statisticsInfo report logic into TransmuxingController,False
+2163c171d7363444aac279cc6ebb82526f57412b,2016-11-06 23:27:34,xqq,TransmuxingController: Always notify MEDIA_INFO event once mediaInfo updated,False
+0f60e4db2e8d173fb55d16e8da51b7400537065b,2016-11-04 19:24:32,xqq,README.md: Fix typo,False
+190a5975a8e46328206f89b6555922cc72a6c4bf,2016-11-02 09:42:37,xqq,"gulpfile: Apply browserify's umd wrapper instead of export flvjs object into window
+Apply browserify-derequire plugin",False
+0ceb19765702258fed118cd8625fa378189ec3ad,2016-11-01 14:36:50,xqq,Bump to v1.0.0,False
+8036233eb876c890a4e0dbfa889f1cfb50687adb,2016-11-01 14:23:10,xqq,Add .npmignore,False
+9aad0d382920899103ad5161acfce547c1cd456b,2016-11-01 13:29:40,xqq,Update package.json & README.md & .gitignore,False
+b1e641293c10485e4077de995c8d0cd3ecc325eb,2016-10-29 23:55:43,xqq,cors.md: Add CORS spec link,False
+0d70ea8f1516421644ac43d55b5e3d9f38a6b57f,2016-10-29 23:42:01,xqq,multipart.md: Fix markdown highlight,False
+bd7ad601536a76a280828e9506b4938621eddcc4,2016-10-29 23:38:51,xqq,docs: Add multipart.md for multipart playback guide,False
+4968a5e7d0bf667cef8972ce648f0bf710e65ecb,2016-10-29 22:58:06,xqq,docs: Add cors.md (Cross Origin Resource Sharing),False
+5012b8aff2b80ef229b99fbdaab30b1c297d94aa,2016-10-27 16:49:22,xqq,api.md: Fix label jump,False
+2dcd9f5bebbab95c9d3df781d71a130fc3c1ea02,2016-10-27 16:41:27,xqq,README.md: Add links for api.md & design.md,False
+9b5f1434478359c12ef7546d89e04347d2a8bc3f,2016-10-27 16:18:53,xqq,docs: Add api.md & design.md,False
+d6da7874b8d779d80016c5b2d25d28f4cd49e0b8,2016-10-27 10:52:48,Vinicius Reis,fix highlight code,False
+f16e33298666df3e9275640b9178ce64e7bbbdf5,2016-10-27 09:35:14,Mingye Wang,"Copyedit README
+
+Do I need to sign a CLA for this?
+
+- markdown-tag: h3 -> h2
+- general-ce",False
+382b26771325c69cb068cc5a40a93600bcb679c0,2016-10-27 09:06:45,xqq,package.json: Add types field for TypeScript compiler,False
+e8919d95bf41c52061d00b67f81fba93c8342855,2016-10-26 20:37:24,xqq,demo/index.html: flv_stop -> flv_destroy,False
+5176f5d935c41a1ee8dbd9eca65b3a6fe7df6b9e,2016-10-26 12:52:00,xqq,Licensed under Apache License 2.0,False
+8aee2ca6b9aa596d3eeee2db46b05a1ad328f934,2016-10-26 08:42:48,xqq,Remove unused codes,False
+9fa78f6dddd5dd2abf479abbf7de193e5606eb79,2016-10-24 09:45:19,xqq,package.json: Update dependences,False
+c4a746f5d892395c48b63c860372b8cabbf10f26,2016-10-20 23:49:05,xqq,"FLVDemuxer: Handle input buffer with FLV header
+TransmuxingController: Call parseChunks manually on init chunk arrival",False
+ea81ec1cd67082d0fdc34a88562fb08bbccf90fc,2016-10-19 14:29:47,xqq,flv.d.ts: Add missing type field in Player interface,False
+88c47e205e0b2b04691904462ac4e1f088963468,2016-10-14 10:00:11,xqq,RangeSeekHandler: Allow zero-start range request for first time load,False
+bb4ef740587d64d6c1c9774033a3f8c8535f0f3b,2016-10-08 09:11:30,xqq,FlvDemuxer: Renamed to FLVDemuxer,False
+15e5b180ddd5c889edd3feb3f0ce67ed7cf79609,2016-09-28 08:17:12,xqq,RangeLoader: Improve initial chunks' size determination by speed,False
+ae001b3aa874c7e559d2d8c33424977511ea6f43,2016-09-27 15:12:20,xqq,FlvPlayer: Improve playback stuck if stalled under Safari 10,False
+a629024dfde221faa15cc34c1583f17562162221,2016-09-23 19:48:01,xqq,FlvDemuxer: Skip malformed Nalu which has no enough data,False
+7e4dac24276a1d974957edf3557757e6fa77782d,2016-09-23 15:16:25,xqq,FlvDemuxer: Ignore first item in keyframes which is actually AVC Sequence Header,False
+d1c323913fee9b1d2ebe152ac0e0fb93137a40bb,2016-09-23 15:15:29,xqq,FlvPlayer: Improve playback stuck whose video frame begins at vary late timestamp,False
+cf9b290fe0459be1049fd127deb608936bb0d72c,2016-09-22 19:54:44,xqq,FlvDemuxer: Use table lookup instead of switch in parseAudioData,False
+762eb461da588df55e1dd20025f3e461b5744f0e,2016-09-22 12:47:37,xqq,MP4Generator: Pass codec width to avc1 to fix Safari SAR scale issue,False
+c7a0bb98d9e86f054aeca4d30d3261fdf8c68501,2016-09-21 13:48:53,xqq,FlvPlayer: Workaround for Safari to avoid seek(0) video stuck,False
+38f7d0b0761fb1c4f816da05d3d5147df2d13633,2016-09-21 12:39:41,xqq,TransmuxingController: Only pass PTS for recommend_seekpoint if Safari,False
+a72ecf29cd1f47ceea25511d1613a923b875adc0,2016-09-21 09:55:48,xqq,MSEController: Add workaround for Safari 10 InvalidStateError,False
+b05166065ac499a45670cf4249ff6b27d797d4e6,2016-09-21 09:52:37,xqq,TransmuxingController: Pass PTS to recommend_seekpoint event,False
+7863a1117dbaf522adea3e8436d02927a83ef0f0,2016-09-19 09:54:53,xqq,config: Disable worker by default (unstable),False
+22690b77794992c2e084243e053904a4989678db,2016-09-18 19:31:49,xqq,MSEController: Fix endOfStream if loading complete before onSourceOpen,False
+a037974bbbe046c535c8ecff1653d150a3d9d763,2016-09-18 09:56:08,xqq,"TransmuxingController: Fix possible 'Non-FLV, Unsupported media type' bug",False
+1c1979715c0cec68f7f912f752507de28cdd1496,2016-09-13 08:21:07,xqq,IO: Disable xhr-msstream-loader because of random browser crash in wininet.dll,False
+beb3567e77e7d6aa0f47976008249967c2240fad,2016-09-12 20:05:38,xqq,IO: Add WebSocketLoader for FLV over WebSocket live stream,False
+c64b6a517c386edffb404cbfd616c27de4336cef,2016-09-12 09:28:37,xqq,FlvPlayer: Fix empty TimeRanges visit exception,False
+046c77ec2e1c47efb11f24a68b30b10f0cf3401c,2016-09-12 09:15:57,xqq,FlvPlayer: Hit currentTime to beginPTS if seek to video begin to avoid re-download,False
+f19eca9292e5c0ac3be5e273efdf74fddfb9d59a,2016-09-11 20:03:32,xqq,IOController: Cleanup obsolete code,False
+ec85f415a3c1cd866698962e8ec62fc1eac37440,2016-09-11 13:22:25,xqq,IOController: Optimize stash size policy for live stream,False
+28301cd7f37b8c190918508c14df84a23559cc2c,2016-09-11 13:08:21,xqq,XhrRangeLoader: Fix incorrect length calculate,False
+da8011bebc58f0a4d1541a06a0d6c7c2a92b66e0,2016-09-06 14:35:42,xqq,MP4Remuxer: Compatible with ATC timestamp (for some live stream),False
+3092fda790b3e10ab13797ed31c80b62933caa31,2016-09-05 13:04:59,xqq,"eslintrc.json: Enable no-var (require let or const instead of var)
+gulpfile: Replace var with let/const",False
+e6149f199224ecd4470afa1598d6434d3ad9a65f,2016-09-05 12:38:04,xqq,XhrRangeLoader: Fix 416 Range Not Satisfiable if seek to end,False
+620e3bd4d9f3a91814081fc1409f348227b96a76,2016-09-03 08:35:57,xqq,FlvDemuxer: Fix presentation resolution SAR scale,False
+1eb439af15bb7934df6208a505786f392b49868e,2016-09-02 12:54:13,xqq,Events/Errors: Introduce RecoveredEarlyEof / UnrecoverableEarlyEof event & error,False
+31209f2cffeefc7bac02653b0bb2c968eb21045e,2016-09-01 12:57:59,xqq,MSEController: Ignore SourceBuffer operations if MediaSource closed,False
+58bc706f4c2e10a530e79bb2d25e6c4bf602d6eb,2016-09-01 08:58:25,xqq,FlvPlayer: Add LOADING_COMPLETE event,False
+ca4cc0d492f78d0d9c9f9aef7617b85f00a25268,2016-08-30 13:00:09,xqq,FlvPlayer/NativePlayer: Fix IE11 set currentTime InvalidStateError,False
+379080fa7a80553647b237aed2fad056ae711b88,2016-08-30 09:16:19,xqq,polyfill: Adjust es6-promise polyfill call,False
+08f8e66e2a047b9430add7a4d28868ceba8f8b99,2016-08-30 00:03:47,xqq,TransmuxingController: Discard media segments after new-segment cross-seeking,False
+b81ae86bef0d97d6b0db88943b161a90ee6c1c24,2016-08-29 23:56:23,xqq,MSEController: Do append media segments only if no pending remove ranges,False
+6ad6e830531b2cd36566c46bd1e9d2fa37ddd61c,2016-08-29 23:55:08,xqq,"MP4Remuxer: Fix potential dts repetition of two adjacent video frame
+MP4Generator: Update compressorname",False
+00253c8e6b2536bc5d2e4cbb31de93eb35be8ba4,2016-08-26 16:43:54,xqq,flv.d.ts: Fix missing ?,False
+4ec51e372c24258f5d9e42147192cb6750f7ec9d,2016-08-24 07:03:12,xqq,package.json: Update dependence packages,False
+0c6bd06e2e9c193f922dfa593e66b82e5e0d36b6,2016-08-23 21:10:38,xqq,"FlvPlayer: Defer load after MSE onSourceOpen by default
+Add config field to configure whether to use defer load",False
+e1cfbc6f23e4b9ba9c31acdc502ec7c6774b9bbc,2016-08-23 15:10:17,xqq,MSEController: Tiny adjustment,False
+07ea43ff06dc8d6f7090530b02754a472a440d55,2016-08-23 14:38:48,xqq,FlvPlayer: Bugfix,False
+600e7e37f72da8f033c6c27207ef7eb2b09975ed,2016-08-23 12:30:30,xqq,FlvPlayer: More accurate lazy-load checking,False
+bb7023c6677b491a1415c739cc9cf08fab396e32,2016-08-22 14:08:52,xqq,FlvPlayer: Add experimental accurate seek feature,False
+689beab169c6615ac0223b8f92b3af880e5ea48b,2016-08-22 14:06:37,xqq,MSEController: Fix non-buffered bug under background tab,False
+0bce7cff1ee761046a62f01b355be98eb32e2759,2016-08-19 13:46:49,xqq,IDRSampleList: Fix exception caused by unordered append,False
+cf41a1c7de7f3114cef5ff5cd1b12248af378c35,2016-08-19 08:59:56,xqq,Transmuxer: Fix worker release bug,False
+367fa365d9e07ea387c20d8e1b98fc0a6056fad9,2016-08-18 21:22:16,xqq,MSEController/NativePlayer: Do MediaElement.removeAttribute('src') while detaching,False
+ca360d2f93400bbb02c65a368790892dcfb274cb,2016-08-18 13:59:13,xqq,FlvPlayer/NativePlayer: Bugfix,False
+8a140eec1c3dd8074780974b6841acbc07e3d787,2016-08-17 09:54:45,xqq,Errors: Use PascalCase string for error definitions,False
+ee1909f2a77ef4a290ad4e82ca816a15addac605,2016-08-16 15:21:39,xqq,"FlvPlayer: Improve statistics info report frequency
+config: Introduce statisticsInfoReportInterval field",False
+9d8cf4987a503d073fdfafa3595537f92cfd7883,2016-08-14 12:53:01,xqq,FlvPlayer: Fix audio only stream seeking,False
+3f8452606ec662d716fce8508435908dc93d9448,2016-08-13 14:55:05,xqq,FlvPlayer: More accurate lazy-load controlling,False
+435136fa4ac6c350da60a4f924d3735fcca9f35a,2016-08-12 08:08:08,xqq,XhrRangeLoader: Adjust chunk size,False
+2faa6efa5b6d9b942f7bfe4deefc935d91af72bc,2016-08-11 08:50:45,xqq,MP4Remuxer: Fix typos,False
+693a06bc7d9f07d643845aa82f8644d6d322a825,2016-08-10 16:37:24,xqq,"MP4Remuxer: Insert slient aac frame after keyframe-seeking under IE11/Edge
+In order to workaround seek freeze under IE11/Edge",False
+9546f1e1f89928191a6531f0b164c474810705d8,2016-08-09 12:22:26,xqq,README.md: Update,False
+1b6e061ad76ba0e342bfcdea8a118fde3ac5a90d,2016-08-09 12:21:48,xqq,flv.d.ts: Add Events/ErrorTypes/ErrorDetails definitions,False
+c9e966f700ff6e55f7a085e201e880758561fc4f,2016-08-08 08:33:50,xqq,FlvPlayer: Fix IE11 InvalidStateError issue,False
+c798124df5131030507e3b70b10d138364b2ebab,2016-08-06 15:03:11,xqq,FlvDemuxer: Compatible with x264 open_gop,False
+b927aae73ef6123a997f79b61ea51f73ba65fd84,2016-08-04 16:48:29,xqq,Add README.md,False
+6818856c37a9d1c9308840447d2c97ce42d1bbe9,2016-08-02 15:32:44,xqq,FlvPlayer: Optimize transmuxer pause-resume logic,False
+6bcd70c2276fe10cd5f28e3bb05ba53dfca55272,2016-08-02 09:46:07,xqq,Add TypeScript definition file: flv.d.ts,False
+86dcf6725ab989b9cb7d86ed4bc0353c9a7dcbb7,2016-07-26 08:52:02,xqq,Add some comments,False
+69870cb9bd20b5ca37ea89bc4773e2d7faabce30,2016-07-25 12:58:15,xqq,FlvPlayer: Adjust progress bar seek latency,False
+778368ea1678762108389ddada11cc8133d7b9b0,2016-07-21 08:02:35,xqq,MSEController: Fix typo,False
+85bc8c8280713ef09ba73c373f9d9ea1b3a860ee,2016-07-20 19:42:32,xqq,MSEController: SourceBuffer.abort() can only be called if MediaSource.readyState === 'open',False
+7132e97c188888fbf5586a008cc314136d8e5d41,2016-07-20 14:51:36,xqq,IOController: Make stashInitialSize configurable from config,False
+b4c8204e6c8c4512d43408ace5bac3e112a1dee0,2016-07-20 14:33:39,xqq,Adjust auto-reconnect policy & optimize for live stream reconect,False
+6c1f6da7310825dc77985f7957446e76d43890bb,2016-07-20 14:24:55,xqq,MSEController: Call endOfStream if transmuxer loading complete,False
+8099c9e7261b601e5020daf6caa58bb642f135b4,2016-07-14 16:11:37,xqq,FetchStreamLoader: Make Microsoft Edge happy (disable for win10 insider's buggy fetch+stream),False
+b85b6e3db62057162d8c63b4323b69926b103905,2016-07-14 16:04:48,xqq,MSEController: Make Microsoft Edge happy,False
+896f49d002d4dd3bd2721e48459b44a0bdb83f1e,2016-07-12 16:12:57,xqq,Add error report event & refine error definitions,False
+f85af3c4aed7794e5212c68c035b93da9fae90fb,2016-07-11 08:37:39,xqq,Add comments,False
+05c7f7861bc9a0054a8ea96bc0d43138e578af82,2016-07-08 14:10:25,xqq,Improve error information table,False
+f33fc9c288afa206abdad3af28725dab64087bc8,2016-07-07 09:52:22,xqq,Move event definitions into separate files,False
+c9db78433853dbb1876ffb578beed278a428aea2,2016-07-05 09:17:08,xqq,MP4Remuxer: Force first sample as IDR on chrome < 50.0.2661,False
+dd6ef45a94d8262cd4d0571f27c213e0ec1ca3c0,2016-07-04 10:01:15,xqq,IO: Add comments,False
+828fef0755e02be91eca8da569626cc996097301,2016-07-02 09:11:06,xqq,IOController: Support enableStashBuffer config,False
+f9512f78d184fac00dd1bc70e838944d241da465,2016-06-30 08:42:09,xqq,IOController: stashInitialSize increased to 512KB for live stream,False
+9c5d0ee890fd20980521435cbf40a46b0097bcd6,2016-06-27 13:11:04,xqq,package.json: Update,False
+8f22bc126a5745ce8d3f40a857bfe5fef43222f0,2016-06-27 13:10:32,xqq,SPSParser: Export h264 level string,False
+1f253a2a7e0479cf592e5d8d2e0417dd16f25000,2016-06-22 13:16:15,xqq,Features: Fix breaking feature detection caused by IOController change,False
+8c260a928229f4d74a6a0d6ff52745f0a06ac54e,2016-06-22 09:08:13,xqq,IO: Introduce seek handler to make seeking method configurable in config,False
+7ef2d066d4e1589fea8dd1cd6dfdbcc2d6a469ae,2016-06-17 22:10:01,xqq,"FlvPlayer: Introduce config object
+MP4Remuxer: Fix live stream memory leak",False
+2e2aa9ec08249b1fe1c5e826cdf863498e2f5767,2016-06-16 21:31:26,xqq,SPSParser: chroma_format_idc default to 1,False
+92b6f6afcda2dc996395d61b7608276086dd3134,2016-06-14 15:21:42,xqq,"FlvPlayer: Lazy load by suspend transmuxer, if remain data can play for 3 minutes",False
+51597d96af7d014bb9604011a297a282904f2f30,2016-06-14 08:23:23,xqq,FlvDemuxer: needBuildKeyframes is no longer needed,False
+6c91eb39e45d260aeedf8f37678a7a55c16355a6,2016-06-14 08:01:50,xqq,FlvDemuxer: AAC fault tolerant,False
+2021cdee3d103ed3050ec3a59e4902ec24894a53,2016-05-29 15:14:10,xqq,"FetchStreamLoader: Detect support by ReadableStream
+ReadableByteStream has been deprecated in whatwg/streams spec, and removed support in chrome 52.",False
+52ba7c267c17dc037689329316a89c0cf26ff036,2016-05-22 19:56:11,xqq,Always throw an Exception object instead of description string,False
+5b394d8be68dc747029c9ce9bd0c70bfd5b136a1,2016-05-22 19:49:30,xqq,"utils: Add Exception class (RuntimeException, IllegalStateException, etc...)",False
+30b2928d3bc82760d0824ae496e801f34494de2d,2016-05-21 10:33:45,xqq,flv.js: Move getFeatureList() into features.js,False
+52eb2aa86a2a54cb8e4e87267b542a1563e1c187,2016-05-20 22:48:14,xqq,"flv.js: Move PlayerFactory into flv.js, add getFeatureList for feature detection",False
+91f2ca243ab470efad01c1ac1634e922a10ea3da,2016-05-18 09:29:20,xqq,Player: Support muted property,False
+ea6bc83429b4d187ab7cd7e23eff1307eaf1b62f,2016-05-17 13:57:01,xqq,Player: Add volume property,False
+b50e18c4ff7a4564d308b89def90201adc6f9a61,2016-05-17 08:57:19,xqq,Player: Improve and report mediaInfo / statisticsInfo,False
+590f19b6337051f6147422a1853310fd129c17b2,2016-05-17 08:27:23,xqq,TransmuxingController: Report statistics info & reduce logcat,False
+1dca0e698aba41ae853d6852edc183cda99ded4e,2016-05-16 19:31:42,xqq,FetchStreamLoader: Fix name,False
+285b109df6e9907c5f7f8a99c634a2ea7cd79b6d,2016-05-16 19:08:57,xqq,MediaInfo: Bitrate -> DataRate,False
+ddfe9243d38f7c56854b862d5b622f04aecbc5ef,2016-05-16 14:29:12,xqq,"IOController: Export url, speed, loaderType information",False
+81ea57944367a086b7d9d3259accd5f796a31244,2016-05-16 12:03:13,xqq,core/Transmuxing: Reduce verbose logcat,False
+32575ba7dfd5f22912d4f308d21af8527f94db01,2016-05-16 11:58:46,xqq,demo/index.html: Update with multipart playback demo,False
+182a914b7e0fc2aa3738c15c0da7cfb5e278fa95,2016-05-16 11:57:46,xqq,"Player: Lazy initialization on load, introduce load/unload method",False
+9caa4abaea4e52513c8c6aa08a9879b0a6bdbbc1,2016-05-15 13:42:02,xqq,IOController: Reduce verbose logcat again,False
+b032f6b1709e37096a2322176e7bc1d651c0623d,2016-05-15 13:40:08,xqq,IOController: Reduce verbose logcat,False
+577a5b444f0b7420bf62ceca985f9bd8472b37f9,2016-05-15 13:37:31,xqq,MSEController: Reduce verbose logcat,False
+047783296bda9b8fef5dc271d08a168ae3f033ec,2016-05-15 13:14:51,xqq,"MSEController: Lazy initialization on attach, and release resources correctly",False
+d0e66e3ed127c221314cbc7f855dd31bff16d777,2016-05-13 14:13:22,xqq,Player: prepare() method renamed to load(),False
+51b6ed15d0ee476ee5c1f7285943c0fc03437471,2016-05-13 13:53:43,xqq,TransmuxingController: Fix single-part playback issues,False
+c4c619b13082fa6e38ee17a544a686c5c684ed4a,2016-05-13 12:15:39,xqq,TransmuxingController: Add multipart media playback support,False
+9857792702a9a39a108f1c58865ee987e2f716f4,2016-05-13 12:09:37,xqq,FlvDemuxer: Apply timestampBase for multipart compatibility,False
+7af2b6b42d5022b64d9c52d08d7bb62a4f98c025,2016-05-11 22:57:48,xqq,core/Transmuxer: Use Promise.resolve().then(...) instead of create instance,False
+b34a5a13e16e7f78513f7eecff69375981278802,2016-05-11 13:16:52,xqq,io: SpeedCalculator renamed to SpeecSampler,False
+a08e4067f0d835354b2ae1d318e991f408b10139,2016-05-11 08:37:27,xqq,core/Transmuxing: syncPlayback has been obsoleted,False
+173784d3ecd561f9ac617cbd2bc1689ab16237e0,2016-05-10 16:07:58,xqq,io: Support cors/withCredentials configuration by dataSource object,False
+0a3ad6794efecbd461a985c52e56544329c5250d,2016-05-09 16:21:03,xqq,"FlvPlayer: Only do IDR-seek in unbuffered ranges if chrome < 50
+MP4Remuxer: Force first sample as IDR if chrome < 50",False
+fc15b84cdeeb7428075e830f5648fce7891238d4,2016-05-09 16:09:55,xqq,utils/browser: Expose major / minor / build version numbers,False
+1e6e7f8108ee092778db13e1e87791c73c96e04b,2016-05-09 15:42:58,xqq,utils: Add browser type / version detection utility,False
+0b447e5f3ceed536b03db3e32650abc2459964b6,2016-05-09 14:57:07,xqq,Polyfill: install() should be done on module loading,False
+2cde8a71bac29084e6d33c9aa6a40a2b18049d33,2016-05-08 14:14:56,xqq,"core: Remuxer renamed to Transmuxer, Remuxing renamed to Transmuxing",False
+020c1b83962f04bc654a2c132d28d63f58df8a1f,2016-05-07 20:09:37,xqq,"FlvPlayer: Do IDR-seek even if in buffered ranges
+MediaSegmentInfo: Add IDRSampleList structure
+MSEController: Record video IDR frames into IDRList",False
+cbb553cf2a2cc863a675471b5c681250a7b97bdf,2016-05-07 20:00:38,xqq,FlvDemuxer/MP4Remuxer: Record keyframe fileposition,False
+1f3eefe9ad1d1cd59f28206bf9d84f2fbdbf1778,2016-05-07 17:55:28,xqq,Improve logcat,False
+0f878587546cd5c6fc8a46dd570d2e654cc08e05,2016-05-07 08:30:51,xqq,SpeedCalculator: Optimize lastSecondKBps,False
+804e24d0722e6e2df780f531d66eb73cd7016a17,2016-05-06 21:13:58,xqq,FlvPlayer: syncPlayback is no longer needed,False
+119c825cd862ab55dcb7b9a2723b056167134c24,2016-05-06 13:26:14,xqq,RangeLoader: Fix xhr onerror callback bug,False
+8cfc49092bd703ba481473ebb3536994b96c7d6b,2016-05-06 12:57:15,xqq,SpeedCalculator: lastSecondKBps return currentKBps if lastSecondBytes is zero,False
+1d8c7c2124368ef5f76e96a69205d55a3ce0d9d2,2016-05-06 12:55:59,xqq,IOController: Enable stash should be determined by specific loader,False
+18cfac6eba858bb2508308aadddce7f244269f29,2016-05-06 09:16:01,xqq,io: Add univesal RangeLoader for browsers which don't support stream IO,False
+0e06d064f4392eee4cfe7112d5a31f5e079469b1,2016-05-05 09:48:37,xqq,MSEController: Fix redundant curly brace,False
+83911da8979137592034957344aa2dd9fbe55fd5,2016-05-05 09:48:03,xqq,demo: Update index.html,False
+738d6ac97405ac1ed7e041fa9474edd98be12d59,2016-05-05 09:39:40,xqq,MSEController: Remove all appended buffers on seeking,False
+11e2f300f4c9c6cef7ce45736fe4a23e8eefdbb8,2016-05-05 09:38:38,xqq,IOController: Clear progress ranges on seeking,False
+487e8dd38874cff9de9b736c077efd44be27e45f,2016-05-05 09:37:42,xqq,MP4Remuxer/MediaSegmentInfo: Clear segment info list on seeking,False
+4ef17a63a1715eb65955d7d8c40371310314dcb7,2016-05-04 22:19:01,xqq,core/Remuxer: Continue load from break point if seek-back to previous buffered ranges,False
+6286bfc355c1e319d74473490c4a31138803e07b,2016-05-04 22:14:55,xqq,IOController: Support continue load previous range,False
+f4e65f751d729c995ce486e46cc9f84a836cfb41,2016-05-04 15:21:37,xqq,MediaInfo: Support search keyframe by fileposition,False
+c69125adb05365c43e0ac86167dd6e6769d43b4f,2016-05-03 14:13:08,xqq,Polyfill: Add ES6 Object.assign polyfill,False
+089845a6f2955177ea1eb5ea24df048f1d0395e6,2016-05-01 22:51:16,xqq,"FetchStreamLoader: chunk must be ArrayBuffer which passed in callback
+Fix IOController dispatch bug if stash disabled",False
+6a20917ecf5179e8f36e2d6b14dd456d16b34d40,2016-05-01 13:45:16,xqq,SPSParser: Fix bug,False
+75954e46e7b0a2cd84dd8441b15db013291e632f,2016-05-01 00:44:27,xqq,MediaSegmentInfo: Fix missing curly brace,False
+f7f2d2aef1eb6231106bfa8e85b8643989daddc7,2016-05-01 00:37:21,xqq,MediaSegmentInfo: Skip splice if idx === last,False
+9987fd93a0c385ec93d642f1aaf2361971de2966,2016-05-01 00:35:43,xqq,MSEController: doAppendSegments only if no pending remove ranges,False
+092410c273562b566fb444ac7144e9c51bf9970e,2016-05-01 00:32:51,xqq,IOController: Discard all stash data after seek position without dispatch,False
+275e7fce9bd3f5758e8e4aa5ac0a95d53fd0d2c5,2016-04-29 23:22:09,xqq,MSStreamLoader: Reduce verbose logcat,False
+b0e3a452c7eaaeff048928f02df424d12f824f55,2016-04-29 22:15:19,xqq,MSEController: removeBuffersAfter renamed to seek & discard pending segments,False
+150a21ce9af67fca1ea652b508b9d21fd0476f9c,2016-04-29 16:24:06,xqq,MP4Remuxer: Fix null pointer exception,False
+86264760e953d1cd989d7411580e28e1394db9c5,2016-04-29 16:23:29,xqq,MediaSegmentInfo: Fix search bug,False
+13e988d6dc00acbb0debb36ad95f6ca1dbca0238,2016-04-29 11:56:55,xqq,IOController: Remove all buffered ranges if seeking requested externally,False
+0d975bcff2fe926c5f50649639185c6101c7a8e7,2016-04-29 09:51:24,xqq,MozChunkedLoader: Reduce verbose logcat,False
+ab32340bd237361db644600df5128eacbb6492a5,2016-04-29 09:50:36,xqq,FetchStreamLoader: Report EarlyEof error only if e.code === 19 (NETWORK_ERR),False
+4f6825621bfe65656421e386816d1e380f06a42b,2016-04-29 09:30:54,xqq,"FlvPlayer: do MSEController.removeBuffersAfter when seeking
+MSEController: Remove unneeded segmentInfoList recording",False
+ed3f9e009775931cf0c54c0fa161319b491f6477,2016-04-29 09:28:26,xqq,utils: Update,False
+949df539696ac009bdc64d32576f5f9ef200f3f3,2016-04-29 09:26:07,xqq,"MP4Remuxer/MediaSegmentInfo: Remove segments after seekpoint if unbuffered seeking requested
+Simplify sample duration correction logic",False
+0143e9e5f9f6d014f28f8811857e5cf5a7a039de,2016-04-28 15:43:03,xqq,MSEController: Support removeBufferAfter(timestamp),False
+4ffd9ce273290abe62421938352fe9a3d405f8ca,2016-04-22 21:21:13,xqq,FlvPlayer: Fix missing semicolon,False
+fd9d5c83fa92b821f0e8d478fa5d6c25a9dc0af2,2016-04-22 15:43:18,xqq,Remuxer: Report MediaInfo update through callback,False
+b5051d916436e989aee9984e13a70551d8d991fe,2016-04-22 15:27:26,xqq,utils: Introduce utils/polyfill.js,False
+e1ce6c1d47aff54cf26227b9fd580d037a32cfa5,2016-04-22 13:03:28,xqq,FlvPlayer: Pause remuxer if msecontroller report buffer full,False
+4944f580fb63ffc1e91640ab3fa8e5c8e41641e9,2016-04-22 12:23:36,xqq,MSEController: Report error / buffer_full events,False
+73ab4934b19390a406c1283104bf9a2c08fa524e,2016-04-22 09:50:11,xqq,IOController/Remuxer: Support pause / resume,False
+52fac7b2c372d2a66efc9e91f0d95df970241f57,2016-04-22 09:43:39,xqq,MediaInfo: getNearestKeyframePosition renamed to getNearestKeyframe,False
+987dfb4060089edd6f075c179f11a50052776bcd,2016-04-22 08:55:42,xqq,Remuxer: Dispatch callbacks async,False
+5bd8b06633da24b7927e50e3331a7cc9cf9cebce,2016-04-21 16:03:13,xqq,Add es6-promise polyfill.,False
+9f5a4e623c6f2b6a2f6312484f2a1f7f1a64d1e1,2016-04-20 12:17:39,xqq,FlvDemuxer: timing_info in sps is untrusted if framerate is not fixed,False
+2a0962a1a809614f3bb89343800339b5d3e68c1f,2016-04-19 22:33:23,xqq,RemuxingController: Allow seek after IOController complete,False
+10b8cd2f70f06281e11e2a2556d9770042fdcbba,2016-04-19 20:37:50,xqq,FlvDemuxer: Build keyframesIndex when meet IDR frames if onMetaData does not contain keyframes.,False
+6f5071507a98aca9c068cbf179a9c46e46363224,2016-04-16 13:12:50,xqq,"MSEController: Record SegmentInfo for each appended segment
+media-segment-info.js has been moved to src/core/",False
+f4955ef516476e51f067c507bdbb8b15c5fc31d1,2016-04-16 12:12:44,xqq,MediaSegmentInfo: Record segment beginPts/endPts,False
+a21b0ae4fba331c000f06907c6e5b310e8c9d117,2016-04-15 16:30:01,xqq,MediaSegmentInfo: Record sample pts,False
+3af7ad105fdcece90aae3be266c64c1e066234b4,2016-04-15 16:23:09,xqq,NativePlayer: Update,False
+81d59f0aeeea4d97ee6e36df44c0b588bd217e9c,2016-04-14 09:58:40,xqq,MP4Remuxer: startDts renamed to beginDts,False
+04d8e321fb7a16437c6149c52ea0e359ebe92545,2016-04-13 21:26:56,xqq,MediaInfo: audioBitrate/videoBitrate may not be present,False
+51a322e5e270f252327a39d6cbaa7799a545cd6f,2016-04-13 21:01:26,xqq,FlvDemuxer: PPS is no longer needed for videoMeta,False
+355b9f4f2c8dbe62f77318575d2324093672df67,2016-04-13 16:28:53,xqq,MSEController: Allow mimetype change dynamically (e.g. resolution change),False
+c80e5d6f99c654b94479e49091c7c41707bd7321,2016-04-13 15:09:30,xqq,RemuxingController: Always insertDiscontinuity after IOController seeked (even if internal),False
+7fa162bb53c446a6e30dad1232d47cee40b242be,2016-04-13 14:35:50,xqq,MP4Remuxer: Improve dts correction logic after seeking (Fix time gap between segments),False
+6adbd7bed2cdbe4dfe551eac694f4763c113fc93,2016-04-13 14:18:49,xqq,FlvDemuxer: Calculate reference sample duration in FlvDemuxer,False
+d2e5df3371feea0a67028b9e1e86b75ffc85660c,2016-04-07 09:46:09,xqq,remux: Record startDts/endDts of each segment into MediaSegmentInfoList,False
+b71757494a4ccb0165290b21a39a5d6d817e8d22,2016-04-05 21:21:01,xqq,FlvDemuxer: Pass original audio codec to MediaInfo,False
+d0b1bc21ed05176477edd1c9018b69c1249e761a,2016-04-02 23:13:17,xqq,FlvDemuxer: Extract more media information to MediaInfo,False
+237b088d5fba886bea066c31f9d5989ac7adf09a,2016-04-01 16:12:39,xqq,MediaInfo: Extract more info from FlvDemuxer,False
+f5f71b8c36b69f7f5669c94907918835bda995a0,2016-04-01 16:02:02,xqq,Simply support seeking,False
+8cb03c0dc4b011b726bb02cd02d3b85c7711aaf8,2016-04-01 15:02:22,xqq,IOController: Reset stashSize after seek & fix bug,False
+608bad33b998c30442e127f9cb75faf430a5c7d3,2016-04-01 09:40:45,xqq,MP4Remuxer: Fix insertDiscontinuity bug,False
+a36c1588bbc90740be0c442c058c2129de2c1f4f,2016-04-01 09:04:16,xqq,"FlvDemuxer: Remove ES6 for...in, use Array.forEach",False
+b25323a4564a51167804f7fc7410adef80ac5579,2016-03-31 21:16:18,xqq,FetchStreamLoader: Use ES6 arrow function instead of bind(this),False
+47c50cf3948376d730d8eb19b986732f6ae6dc42,2016-03-31 20:47:31,xqq,FlvDemuxer: Add dataSize checking to avoid crash by dirty data,False
+0bdb3fa94680496fedf8cf0d13b660c8b5e013f7,2016-03-31 19:50:18,xqq,"MediaInfo: Store keyframes index table, add getNearestKeyframePosition method",False
+f7619a2570bc89de45313d5518e648964132af5e,2016-03-31 19:29:49,xqq,core: Use EventEmitter by combination instead of inheritance,False
+4dc7a156d5f9b9cf496273d2c533ed8cb94b81ea,2016-03-30 16:11:35,xqq,FlvDemuxer: Introduce onMediaInfo callback instead of passing mediainfo to remuxer,False
+965e31dfc987b4af172cb7e908a88958e0fdcc53,2016-03-30 08:52:31,xqq,MSEController: Defer first init segment appending. Ensure all sourcebuffers to be created continuously,False
+6fcbe362703f2297cb0f93b54d0436563a217d7e,2016-03-30 08:40:59,xqq,FlvDemuxer: Ensure audio & video initial metadata to be dispatched together,False
+491dd0cdda8b18cd43535fdd21e5c07ca169b2f0,2016-03-30 08:33:39,xqq,ExpGolomb: Fix typo,False
+c6550d8dab80739c1755de4929998a2a2c6bc53f,2016-03-29 15:39:51,xqq,FetchStreamLoader: Improve Content-Length report logical,False
+cacee98c1d65a247bffd9065563169f9c07c67c8,2016-03-29 15:37:56,xqq,io: Add MSStreamLoader (stream io) for IE11/Edge browser,False
+bef52ea325e9a4070d8ec819180641e54abb5591,2016-03-29 12:28:29,xqq,MP4Generator: Compatible with IE11/Edge,False
+3cdf301de4f09de6c63409f281cc6e3d180ce94f,2016-03-28 14:35:10,xqq,FlvDemuxer: Add zero-check when get framerate from onMetaData,False
+d2c70eb7f15b8c1fb5fc4d17968f4b504dfd56bd,2016-03-28 14:07:29,xqq,FlvDemuxer: Use framerate in onMetaData as reference frameRate,False
+b4a3974aa1fe3fee89f2ecd35039952ef41d6de4,2016-03-28 13:24:23,xqq,SPSParser: Do ebsp->rbsp unescape before sps parsing to avoid timing_info missing,False
+414db4d454c220fcf6cbed9e93045771ea97a28b,2016-03-26 22:09:46,xqq,MP4Remuxer: Add dts correction to fix time-gap between media segments,False
+8cc7aee26d4988fe93a89286ea20cadd9ca06afb,2016-03-25 08:37:06,xqq,MSEController: Plugged in Media Source Extensions API,False
+70064de20f47230d693d74ffcc97c9b9d253ee44,2016-03-24 08:26:32,xqq,"demo/index.html: Support url param ""src"" to assign default video url",False
+54be2867dfee215671de10edfe2a95ba51f6b074,2016-03-23 10:46:45,xqq,IO/MozChunkedLoader: Fix 10s early eof (timeout) bug,False
+1b0184be435eac1749b451e0b99022539d2336e8,2016-03-22 21:06:00,xqq,MP4Remuxer: Fix duration underflow caused by negative initial dts,False
+b74926df7176c25ffe03b5f11b5ef045dd68399c,2016-03-22 16:53:21,xqq,FlvDemuxer: avcc use new buffer instead of reference arraybuffer,False
+28304001059e57d0adae8fc7bc948cc842ddad15,2016-03-22 16:52:04,xqq,MP4Remuxer: Fix crash bug,False
+2dcedba408f22f127dac73f706878d4a2e17a66c,2016-03-22 16:37:03,xqq,demo: Update index.html,False
+1bf062141101f6f825b0958fb8c34547442672cc,2016-03-22 14:00:15,xqq,MP4Remuxer/MP4Generator: Bugfix,False
+c186ee100cec4504e13038b051ce72f98574cd32,2016-03-20 19:52:27,xqq,flv.js: Refactor interfaces into namespace flvjs,False
+96d649547bb6251b7103c8158c217d9cebab61cd,2016-03-20 15:09:49,xqq,IOController: segments renamed to ranges,False
+20fb4d1332d18de992133c3f8c9dd995760ff94d,2016-03-20 14:23:15,xqq,utils: Add LoggingControl class,False
+39a787b13b483fd2532d5a6400c2d36067e4a23b,2016-03-20 13:00:36,xqq,demux/remux: Update,False
+44be0102d47a2e5925e28b771a9204807276803c,2016-03-17 08:35:52,xqq,Remuxer: onWorkerMessage bugfix,False
+ff8fc0d2f8cef22a29f0d8cbd2d4ce51075a9af1,2016-03-17 08:19:22,xqq,FlvDemuxer: Fix missing extensionSamplingIndex,False
+53be6be5ee5a01b7f03adcb3be0eff65c4ebb3c5,2016-03-15 15:16:07,xqq,MP4Remuxer: Pass codec and container string when trigger onInitSegment,False
+69b7c759f0f5005be45dc6c7cf3b3fd1d4cbe93c,2016-03-15 13:17:16,xqq,"core: Update Remuxer, RemuxingController, RemuxingWorker",False
+43a16dbd0f247ae1227ccb544f797750af78b227,2016-03-14 21:37:05,xqq,"MP4Remuxer: Merge moof and mdat into one buffer, and pass ArrayBuffer",False
+41c149f058f07e01ed2551a87581eac6316f7dca,2016-03-14 14:48:09,xqq,FlvDemuxer: Ignore ScriptDataObjects which is not onMetaData,False
+e1e51f6e3615c65bcb6392cab83f1062b983c230,2016-03-14 14:29:49,xqq,FlvDemuxer: Remove unnecessary reserved flag checking,False
+951cb6e7f5a709f67ac9862577b891db5f9eba3d,2016-03-14 14:21:19,xqq,AMFParser: parseValue with fault tolerated,False
+63219eca6b06e60f40310287bcc6119adee1a36f,2016-03-14 14:12:16,xqq,AMFParser: Fix bugs and add workarounds,False
+d029554b94db6f04c68273c074d60a9ad5abbf5b,2016-03-14 09:21:37,xqq,MP4Remuxer: onFragmentGenerated -> onMediaSegment,False
+d8ac8a7bc0cad9cda02ec8d3438c7b5888e19cb0,2016-03-11 13:26:19,xqq,FlvDemuxer: Reduce verbose logcats,False
+822f03bb37f0496d0180ca0dc6b98e853d352d5c,2016-03-11 13:15:45,xqq,MP4Remuxer: Implement complete,False
+fd3e9e28536b2e60a25c51fcef7474eb8f884704,2016-03-10 20:53:40,xqq,Add .eslintignore,False
+06ad06faccc3d03b2a9c091b98800d293fdb15b7,2016-03-10 18:16:25,xqq,demux/FlvDemuxer: Flush demuxer before notify new metadata,False
+81f56538232789d8df655401204a063341340742,2016-03-10 08:37:10,xqq,"remux: Add mp4-generator, an ISO BMFF boxes generator",False
+241adf33b90a8baeb7fe738993439f2f0fef64f4,2016-03-10 08:14:58,xqq,demux/FlvDemuxer: Update,False
+97294a3c87bd5631012fd8cd012be52b6c282533,2016-03-08 15:41:29,xqq,demux/FlvDemuxer: Update & add onMetadata callback,False
+ac4eebf8403f08c52d1d163f9481d8fdf8db5ce5,2016-03-07 12:44:17,xqq,gulpfile: Also watch gulpfile.js,False
+d30b34a56f9a77b85c0e971dd710cb000d3bc08a,2016-03-06 17:58:33,xqq,gulpfile: watch supports both watchify and eslint ondemand,False
+6f65d36764c9accca52ddaab382d7a450278d18b,2016-03-06 15:34:23,xqq,gulpfile: Add watchify,False
+c93ed4070351620a0d186dd5e3315d2dd97c12a3,2016-03-06 13:08:08,xqq,Fix code style problems which conflicts with eslint,False
+d60857444a3f8dd92e65b99d650921ccfe8816fa,2016-03-06 13:05:29,xqq,Replace jshint with eslint,False
+3dd85841cac3968fc436a300fdd7c6000b398489,2016-03-06 06:49:26,xqq,Build system: Switched to gulp + babel6,False
+fc829f636a299a57eab96b051f0fb92447a2bb69,2016-03-04 08:57:52,xqq,"core: Update Remuxer, RemuxingWorker, RemuxingController",False
+2bcdaa7ce615702c4dcef3ff51d9abbe0d6db9ee,2016-03-03 13:52:21,xqq,"demux/FlvDemuxer: Add onError callback, improve error handling",False
+ae9dd59d524d6fc39ea4923a94f3bb6d50c785da,2016-03-03 13:51:07,xqq,IO/Loaders: http 2xx should all be success,False
+a55d972d9a480ef1f03e62c3c226888e0227e7bb,2016-03-03 08:39:20,xqq,IO/IOController: Flx seeking problem caused by dropping unconsumed,False
+b5024e0a1a595a8b897bbe21d343b634ea7ed275,2016-03-02 14:43:15,xqq,IO/FetchStreamLoader: Improve error handling,False
+1a2b7dd28ea7bd1402dccbd261ba4909cf603059,2016-03-02 14:26:55,xqq,"demux/SPSParser: Extract more info (profile, chroma, fps, ...)",False
+c9f6ce70e52ba03b9589bc63e3d305bb327c7c49,2016-03-02 09:55:45,xqq,demux/FlvDemuxer: Update (implement complete),False
+6bfa3d0b071ccc45175253e2444a85d9be89c056,2016-03-01 13:23:56,xqq,demux: Add H264 SPS Parser to extract info like width & height,False
+3303a45280bf31e83c4088dca5c37cabf42c18cf,2016-03-01 13:06:55,xqq,demux: Add ExpGolomb (Exponential-Golomb decoder),False
+4bad4be14543c152b8fa030043f57b78f761cffc,2016-02-28 15:34:23,xqq,IOController: Fix seeking/reconnection problem caused by drop in flushStashBuffer,False
+60640a6512764aeee811eaf43213a878ccd1b6f8,2016-02-28 10:04:55,xqq,Utils: Add custom wrapped logger for verbose level controlling,False
+2fd6ae152f1b8b80744497e48b265c9d1f879a33,2016-02-27 13:48:56,xqq,demux/AMF: Remove Swap32 / Swap16,False
+4362cd899851e410c15e6e1a997247a8fccffa2f,2016-02-27 13:40:15,xqq,demux: Add AMF parser for flv metadata parsing,False
+c93221261d1cfcc0b743f49792858b5aaaf62878,2016-02-24 15:36:53,xqq,IO/Loader: Remove LoaderStatus.kEarlyEof,False
+2d82c26903c5a0de993c8a592b72e662b8bdfe28,2016-02-24 09:57:28,xqq,IOController: Error callback & support http reconnect automatically,False
+2612da018a3bada9ef484336f4b8587580526a89,2016-02-24 09:52:23,xqq,IO/Loaders: Improve and fix error handling,False
+211239c08f1dc178a2d4c84f94e2e397a24b519b,2016-02-23 09:23:25,xqq,IO/FetchStreamLoader: Improve error handling,False
+ca23ae85397cda5952f9d485b06136abafd76da2,2016-02-23 08:48:49,xqq,IO/Loaders: onTotalLengthKnown -> onContentLengthKnown,False
+ed2b26bc10953c334b9a18920a300413d7a594cd,2016-02-22 17:30:53,xqq,IOController: Continue loading from appropriate position after segment complete,False
+e78179f32012fedd6f8c40baea2009b22b40f15b,2016-02-22 17:28:08,xqq,IO/Loaders: Report Content-Length if exists,False
+59b19d21933acedf72a1fed89522060c7caa58fc,2016-02-22 08:31:41,xqq,FetchStreamLoader: Use call() instead of bind & call,False
+9d5067a5e53570e0dfd8c9bc0f20d0d6d9d018e0,2016-02-21 22:06:24,xqq,IOController: Adjust stash buffer size according to network speed dynamically,False
+7d0843a23e86f5fb5817fca4224f40c360b90f82,2016-02-21 16:09:18,xqq,IO: Add SpeedCalculator for network speed statistics,False
+a3039a29d485da938888230a50605249071f7504,2016-02-21 09:09:56,xqq,Use self to reference global context (both window / WorkerGlobalScope),False
+da164c169177fd665d698c5da857b45b1b4b63f7,2016-02-20 20:55:31,xqq,IOController: Distinguish consume remained storage / stash storage,False
+36cd893a23314f967496b0d5a51562c87accb1e5,2016-02-19 09:51:06,xqq,IOController: Fix byteStart = 0 bug in dispatchChunks if stash disabled,False
+71db2cdfd5d1825a2ed140ea681bc6f4d5324344,2016-02-19 08:47:30,xqq,IOController: Add chunk stash & seek logical,False
+af0c70f163e4d15049e4a9f7975e8e6d01ff0329,2016-02-18 22:45:17,xqq,MozChunkedLoader: Do not trigger onComplete callback after abort(),False
+f628359b242020543f05dff518ebbe24bb65d38f,2016-02-17 22:29:28,xqq,Add MozChunkedLoader for FireFox with the purpose of stream I/O,False
+cc1303fabe69f00786107f590c431e6b00bdb146,2016-02-14 16:20:49,xqq,"Loader/FetchStreamLoader: Add receivedLength / Content-Length validation
+Add some comments",False
+38aeca429c4894b32ca1404bbd29fe5af2bd3364,2016-02-11 13:22:51,xqq,FetchStreamLoader: Implement completely,False
+914bdb947db02c888660829f4e45f24ed1cfb979,2016-02-03 16:19:26,xqq,Add missing media-info.js,False
+f8e972a4dbf18888f828957c4b7ffae88f7c1027,2016-02-03 13:36:00,xqq,Initial commit,False

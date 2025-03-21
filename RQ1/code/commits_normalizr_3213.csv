@@ -1,0 +1,633 @@
+Hash,Date,Author,Message,IsMerge
+c2ab080641c7ebc6f5dc085a4ac074947f48ca58,2022-03-20 04:09:16,Paul Armstrong,end: no longer maintained,False
+a213bbc6e7bf328cdd46f61a3367b952dc5f30da,2021-10-25 06:05:06,Paul Armstrong,docs: add maintainer help wanted to readme,False
+3d0f233e8ebfe2892e18b721d0c7f77205904847,2021-08-10 19:45:36,Paul Armstrong,docs: clarify that idAttribute functions,False
+6c57049a21b1b6689f07576c845629262de5425d,2021-03-21 21:18:47,dependabot[bot],"chore: Bump ssri from 8.0.0 to 8.0.1 (#466)
+
+Bumps [ssri](https://github.com/npm/ssri) from 8.0.0 to 8.0.1.
+- [Release notes](https://github.com/npm/ssri/releases)
+- [Changelog](https://github.com/npm/ssri/blob/latest/CHANGELOG.md)
+- [Commits](https://github.com/npm/ssri/compare/v8.0.0...v8.0.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+a0bc627a57700e1367189872a518946b485a96a0,2021-01-12 10:55:35,Paul Armstrong,Create FUNDING.yml,False
+1f6ae6ad6f3155888a41eacab3ed1e12c07a9c8b,2020-10-17 22:21:38,Paul Armstrong,v3.6.1,False
+de44009e90275c6d1a9913025751efc03cd5ec76,2020-10-17 22:18:32,Paul Armstrong,chore: remove example yarn.lock file (#456),False
+5aaa67fd4a648242e83c1690b1ae8390e1cb4b0e,2020-10-17 22:10:10,Paul Armstrong,"Merge pull request #455 from paularmstrong/update-dependencies
+
+chore: Update devDependencies",True
+fc53e5b0c826c7f97dd653aea5f4d2da217c9f54,2020-10-17 22:03:15,Paul Armstrong,"ci: use node 10, 12, 14",False
+239107107f4d39f42779e9f611ecdbe2c4166b02,2020-10-17 22:00:16,Paul Armstrong,chore: upgrade rollup,False
+a46a7a4950b3aec448d420932ac64bef369ea482,2020-10-17 21:59:58,Paul Armstrong,"chore: upgrade npm-run-all, rimraf",False
+784c44457d5d846fede2477afb209dad80ea80de,2020-10-17 21:59:51,Paul Armstrong,chore: upgrade babel/jest,False
+dc16e804832472d06e8b962502af25d1c3ca241e,2020-10-17 21:48:01,Paul Armstrong,chore: upgrade coveralls,False
+9c8e344a7532fc1d57bfc158a0a8fbf3d86b348c,2020-10-17 21:46:12,Paul Armstrong,chore: upgrade flow to 0.136.0,False
+b751eca7507d5e7e6c41d898ea9fb775f518eb8c,2020-10-17 21:44:39,Paul Armstrong,chore: update eslint/prettier deps,False
+93fc6ad4592ed67f2f86d0d07e8a8d18353cce54,2020-10-17 21:21:18,dependabot[bot],"chore: Bump qs from 6.3.0 to 6.3.2 in /examples/redux (#452)
+
+Bumps [qs](https://github.com/ljharb/qs) from 6.3.0 to 6.3.2.
+- [Release notes](https://github.com/ljharb/qs/releases)
+- [Changelog](https://github.com/ljharb/qs/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/ljharb/qs/compare/v6.3.0...v6.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+6d32393c602bdbc5f5a8bcdeba6d4b961565abe0,2020-07-17 07:38:35,dependabot[bot],"Bump lodash from 4.17.15 to 4.17.19 (#450)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.15...4.17.19)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: Nathaniel Tucker <me@ntucker.me>",False
+99fdc3e6337867c9b8cb0bb3cfa1bc1e7f95a236,2020-07-17 07:36:16,dependabot[bot],"Bump lodash from 4.17.15 to 4.17.19 in /examples/redux (#451)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.15...4.17.19)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+db5b4b068ef263c641678524ba798f535e6dda00,2020-04-18 23:04:17,aimergenge,"docs: fix example of fallbackStrategy (#439)
+
+* fix example of fallbackStrategy
+
+* remove `toEntity` helper for less confusion
+
+Co-authored-by: Paul Armstrong <paularmstrong@users.noreply.github.com>",False
+d354a296fecf62d62174291ad7d0120cab53a53c,2020-04-18 23:01:06,Vadim Sikora,fix: Add types for fallback strategy (#441),False
+ed12f1306f88198f881612ceb5207f3b5a9a7d2b,2020-03-14 19:54:32,dependabot[bot],"[chore] Bump acorn from 5.5.3 to 5.7.4 (#436)
+
+Bumps [acorn](https://github.com/acornjs/acorn) from 5.5.3 to 5.7.4.
+- [Release notes](https://github.com/acornjs/acorn/releases)
+- [Commits](https://github.com/acornjs/acorn/compare/5.5.3...5.7.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b46bd7bbfbb841bff2c775b1467bfac12665efbe,2020-02-22 22:57:28,Paul Armstrong,v3.6.0,False
+06c45514829e427d6a4e9bbab599677d5bb8ec8a,2020-02-22 22:49:04,Bjarte Bore,"added a fallback strategy for denormalization (#422)
+
+* added a fallback strategy for denormalization
+
+* changed signature of fallbackStrategy to be (id, schema), no point in passing entity when the fallback is only executed when entity is undefined, + updated tests and documentation
+
+Co-authored-by: Paul Armstrong <paularmstrong@users.noreply.github.com>",False
+a8ac881101156943b92816c413cd761b4f5e4569,2020-02-22 22:45:10,Michael Martin,fix(typescript): entities undefined if none found (#435),False
+09256f60d2216fa49a923c95157ec02a31989988,2020-01-24 00:12:52,Paul Armstrong,Remove greenkeeper badge from readme,False
+b942760e78445cb0b8b11db66e77f3e96b2a5a52,2020-01-24 00:09:49,Paul Armstrong,v3.5.0,False
+a61b8cf315464bee9f5ceea2f8bdc637a3f11a6c,2020-01-23 22:37:37,Oliver Joseph Ash,"Add ability to dynamically set nested schema type (#415)
+
+* Add ability to dynamically set nested schema type
+
+* Re-use type
+
+* Use blocks
+
+* Add response type
+
+* Update types, add tests
+
+Co-authored-by: Paul Armstrong <paularmstrong@users.noreply.github.com>",False
+3246f914b9713b60ec3de2fb4d9b3946261fe4ab,2020-01-23 22:35:13,Francesco Pipita,"fix(schemas): don't use schema to attribute mapping on singular array schemas (#387)
+
+Co-authored-by: Paul Armstrong <paularmstrong@users.noreply.github.com>",False
+5992d346404746b26fc3f371b08919f041e3c27d,2020-01-23 22:30:32,Nathaniel Tucker,"[fix] When normalize() receives null input, don't say it is an object (#411)
+
+* [fix] When normalize() receives null input, don't say it is an object
+
+* only special case null
+
+Co-authored-by: Paul Armstrong <paularmstrong@users.noreply.github.com>",False
+b5f570a3928e97ca9548f348d5b7725c09ae0248,2020-01-14 12:31:06,wurstbonbon,Enable loose transformation for object spread operator to improve performance (#431),False
+3df7d0781f642574b0d309613dacc48a73f82c81,2019-12-28 21:20:41,dependabot[bot],"Bump handlebars from 4.1.2 to 4.5.3 (#429)
+
+Bumps [handlebars](https://github.com/wycats/handlebars.js) from 4.1.2 to 4.5.3.
+- [Release notes](https://github.com/wycats/handlebars.js/releases)
+- [Changelog](https://github.com/wycats/handlebars.js/blob/master/release-notes.md)
+- [Commits](https://github.com/wycats/handlebars.js/compare/v4.1.2...v4.5.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+df459545714ecd3cfb4bafe0f7010a012b25f716,2019-10-10 22:41:56,wurstbonbon,"Improve performance of circular reference detection (#420)
+
+* Improve performance of circular reference detection
+
+* Use type and id for circular reference lookup",False
+2524e66e36d036e530a8bac90684e5dd1a9214fa,2019-09-03 09:36:02,dependabot[bot],"Bump lodash from 4.17.3 to 4.17.15 in /examples/redux (#402)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.3 to 4.17.15.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.3...4.17.15)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+b7e8d58ce1167778a36c7a2196b8d0e3a9045e24,2019-09-03 09:32:52,dependabot[bot],"Bump eslint-utils from 1.3.1 to 1.4.2 (#412)
+
+Bumps [eslint-utils](https://github.com/mysticatea/eslint-utils) from 1.3.1 to 1.4.2.
+- [Release notes](https://github.com/mysticatea/eslint-utils/releases)
+- [Commits](https://github.com/mysticatea/eslint-utils/compare/v1.3.1...v1.4.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+05ac83c323260e68ae1e73ae4621b1f0d2d2af36,2019-09-03 02:04:39,Oliver Joseph Ash,"Correct usage of word ""entities"" in documentation (#416)",False
+8d03c8c30d498e517548f8db628db5ef71fb2b6a,2019-08-06 02:22:38,dependabot[bot],"Bump lodash from 4.17.5 to 4.17.15 (#409)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.5 to 4.17.15.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.5...4.17.15)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+e79b1627e67e59921719c45bb955ad0d116cc3d1,2019-08-05 21:13:42,Paul Armstrong,v3.4.1,False
+7573fbff7d25f2ad1050bc65d32d490970fd586f,2019-08-05 21:12:14,ktmouk,Fix schema key is not in entities (#380),False
+15f6dfea856ecfd5f109a2f5ad49cb6aa6467011,2019-08-05 21:07:56,Nathaniel Tucker,[enhance] Improve typescript types with generics (#365),False
+88a25c531f0cbb96c87ba02bc0cf4031d7c120f5,2019-06-20 00:05:25,dependabot[bot],"[chore] Bump is-my-json-valid from 2.15.0 to 2.20.0 in /examples/redux (#385)
+
+Bumps [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) from 2.15.0 to 2.20.0.
+- [Release notes](https://github.com/mafintosh/is-my-json-valid/releases)
+- [Commits](https://github.com/mafintosh/is-my-json-valid/compare/v2.15.0...v2.20.0)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+9284d60ff483ae9bb91c308b791fcdc38981dbcf,2019-06-19 22:26:59,greenkeeper[bot],"[chore] Update flow-bin to the latest version 🚀 (#384)
+
+* chore(package): update flow-bin to version 0.101.0
+
+* chore(package): update lockfile yarn.lock",False
+b02f730fe7110a18056941af585c196ed01dbfc4,2019-06-19 22:21:28,Paul Armstrong,"[chore] Update rollup & rollup-related dev dependencies
+
+Closes #382",False
+b611343eeb41fd9f80bdeb5f1a9935cef46bc440,2019-06-19 21:53:59,greenkeeper[bot],"Update eslint-config-prettier to the latest version 🚀 (#386)
+
+* chore(package): update eslint-config-prettier to version 5.0.0
+
+* chore(package): update lockfile yarn.lock",False
+3991a7159413fd46dcbb9688b417746ccced110a,2019-06-06 22:27:33,Paul Armstrong,[chore] update bug template with codesandbox link,False
+8b73f771d0511bde495d0000380ab3e014a007c9,2019-05-31 23:17:25,greenkeeper[bot],chore(package): update lockfile yarn.lock,False
+cd95ff36c35ea9c2adf29cba1969d599e329f521,2019-05-31 23:17:25,greenkeeper[bot],chore(package): update flow-bin to version 0.100.0,False
+1bfbffbd993ea4186bd1866fbd5b18d9b4fd30c3,2019-05-30 02:16:23,Paul Armstrong,v3.4.0,False
+c85a9ea9f2c3e6610912d2dff2e6b2c35bc97beb,2019-05-29 16:18:25,Paul Armstrong,[chore] resolve typecheck & test conflicts,True
+3bc53c4e2937235181a8d3c857d39c7f21941ffa,2019-05-29 16:07:03,Paul Armstrong,"[chore] remove typescript-definition-tester, use tsc directly",False
+29724e049b4e370783412607908ed7d06febc1ef,2019-05-29 15:54:04,greenkeeper[bot],chore(package): update lockfile yarn.lock,False
+7d77305e3de6655193d93531cd92c58faa05605a,2019-05-29 15:54:00,greenkeeper[bot],chore(package): update lockfile examples/redux/yarn.lock,False
+0f4f4e9936492dd46d92ee80c326c6e9e8811447,2019-05-29 15:53:56,greenkeeper[bot],docs(readme): add Greenkeeper badge,False
+3c83ea6ba681a7107103eb2a5961762457b28a8b,2019-05-29 15:53:51,greenkeeper[bot],chore(package): update dependencies,False
+088126152910dc7d0b1d3bddb052476fa4aa507e,2019-05-29 15:53:48,greenkeeper[bot],chore(package): update dependencies,False
+87f54e05ac42fa43dcd03053d6bf475b06a9e282,2019-05-29 15:53:45,greenkeeper[bot],chore: add Greenkeeper config file,False
+43bbb63979bdc17de8f6a339f663861d14d83cec,2019-05-29 15:17:26,Paul Armstrong,"[chore] remove broken readme links
+closes #373",False
+08e9570f651587590397ae2ac72099bdfa6a32e8,2019-05-29 15:08:37,Paul Armstrong,[chore] add md prettier to lint-staged,False
+3b3a58fbd03519f6f2cf526bde4da8f34b00f6a8,2019-05-29 15:07:59,Paul Armstrong,[chore] run prettier on docs,False
+badf93c82974e1d7113c73ae2e6a8bf4714de956,2019-05-29 15:05:56,Paul Armstrong,Merge branch 'ntucker-symbol-key',True
+6a8f96ca60c37004de53462173046664c1251788,2019-05-29 15:05:43,Paul Armstrong,Merge branch 'symbol-key' of https://github.com/ntucker/normalizr into ntucker-symbol-key,True
+4cff8afbf1da3393564b16ee5e774d37561c1009,2019-05-29 15:03:05,Paul Armstrong,[chore] update rimraf,False
+63fd7b378d9044516e80ef8799be168ba973f78c,2019-05-29 14:58:29,Paul Armstrong,[chore] update travis to node 8,False
+295212307ac0b8025fc21c8dce3408308e535777,2019-05-29 14:43:03,Paul Armstrong,[chore] update coveralls,False
+c4e22102a7af114b48ee4c37f9bf7dd58ad685fc,2019-05-29 14:41:49,Paul Armstrong,[chore] update rollup,False
+104808caef21a27bb8c2825d83c8d11e35233964,2019-05-29 14:34:57,Paul Armstrong,[chore] update npm-run-all,False
+89cba5d44fb0162f0b14fdd6d4b72ac15b7a2596,2019-05-29 14:32:46,Paul Armstrong,[chore] update typescript,False
+237766d7727931759b1127e8ad533777d6527056,2019-05-29 14:30:35,Paul Armstrong,[chore] update eslint,False
+006f13f98d7c51a5a58e6a4974ce42d46d6aa027,2019-05-29 14:16:38,Paul Armstrong,[chore] update flow-bin to latest,False
+74692bc6d7ca38d2b89002507fa52ca99e0c167d,2019-05-29 11:55:57,Paul Armstrong,[chore] upgrade prettier,False
+74ee3c2b55dc928fa2cee7569ffe0288ed463b34,2019-05-29 11:55:23,Paul Armstrong,[chore] upgrade eslint plugins,False
+d91a1fe77ac33d1ef1d06944099b813fc4ac756d,2019-05-29 11:54:18,Paul Armstrong,[minor] upgrade to babel 7,False
+4d94a0d198f9b67e779d1d3a6b2f6029975ddac2,2019-04-07 06:17:23,Nathaniel Tucker,update docs,False
+06d25bdabe3ccbfc7f371d9a21f792150c6f1af7,2019-04-07 06:13:15,Nathaniel Tucker,Allow symbol for Entity key,False
+d04f889675c5ecb2fa340fc29cf7523742aa8366,2019-03-06 09:56:58,Paul Armstrong,Merge branch 'circulardependencies' of https://github.com/zoneofdanger/normalizr into zoneofdanger-circulardependencies,True
+48dd7cc1a09e4b780d10b0edb688a549a4381f84,2019-03-06 09:54:27,Paul Armstrong,Merge branch 'bsara-master',True
+6c80c7f888c0655a2d1e0b6efb218b4a0cc7d7ab,2019-03-06 09:54:08,Paul Armstrong,Merge branch 'master' of https://github.com/bsara/normalizr into bsara-master,True
+c1a5537e2aea12e96f1e5bb37813d3872345c330,2019-03-06 09:47:00,Paul Armstrong,Merge branch 'VincentLanglet-patch-1',True
+99acce34453ad1bbed6e8d329df8151d68124c16,2019-01-24 22:30:16,Vincent Langlet,Fix,False
+d854fe288ca86576d99c1502fe2bd2506842f513,2019-01-24 22:20:07,Vincent Langlet,Update index.d.ts,False
+3e706ec7c2f3feaac9659459afbcd9db6c337bf3,2018-10-25 00:35:07,Peter Shih,Merge branch 'master' into circulardependencies,True
+a2706cff79e96ef866006fdaecb0d4acb65a5f62,2018-10-10 00:17:35,Paul Armstrong,v3.3.0,False
+b012f3a315bf48a72ae3ee72e4f30dcd2be99f69,2018-07-20 06:28:00,Brandon Sara,fixed issue where having an Object schema which contains a sub schema that allows for a potentially falsy id is skipped during denormalization,False
+942d983375dba130f7549dd7cf4e651ccc8e6552,2018-06-04 03:18:06,Peter Shih,"Refactored based on suggestions in PR
+
+Remove the use of `JSON.stringify` for comparing equality; instead use `Array.prototype.some` to check equality",False
+2f4fe33499d44a5d540f8ff53967c8594bc2c751,2018-05-11 02:35:33,Peter Shih,Add support for circular references,False
+6c5af279cc890a94fb7cde53a32811ccc7c2e28b,2018-05-07 19:42:00,Paul Armstrong,add probot lock file,False
+571e7fc37507d1580ca0e46782fedc3651e646d7,2018-05-04 21:10:49,Paul Armstrong,[meta] convert github issue templates,False
+27be1ef172aba853d9faf65dfe36ae6f86c6146b,2018-04-17 20:52:03,Paul Armstrong,"update eslint, prettier config, jest versions",False
+b1425536697ff8fbc6fc9cb8db6dee38b3744291,2018-04-17 20:00:23,Paul Armstrong,Merge branch 'kud-patch-1',True
+bf0fcf1432ba9a31430a8dda9b8f2f3bd983ddb1,2018-04-17 19:59:51,Paul Armstrong,clarify install docs,False
+e44a4752da664ebbb664ac5b721c7c89db78d1d7,2018-04-17 19:57:48,Paul Armstrong,Merge branch 'patch-1' of https://github.com/kud/normalizr into kud-patch-1,True
+9e427ffd84c637f3433a49a6836a8c27ce26d461,2018-04-17 19:54:59,Paul Armstrong,"Merge branch 'unindented-patch-1'
+
+Signed-off-by: Paul Armstrong <paul@spaceyak.com>",True
+4dc97fa34d2459307009fbbaf2abf02dd37e539c,2018-03-22 16:10:55,Erwann Mest,docs(README): add install part,False
+8dc6ca0b0ac9000b8bb3446117a76ec0a78c7eba,2018-02-10 05:02:54,Daniel Perez Alvarez,"Fix type error for array+object shorthand 
+
+Something like this didn't work before:
+
+```
+const allFeedSchema = new schema.Entity('posts', { authors: [{ node: authorSchema }] });
+```
+
+Fixes #322",False
+84bac9d05c24af3e6cedd8898689e782e5a22144,2018-02-09 00:22:31,Paul Armstrong,Merge branch 'Andarist-dedupe-babel-config',True
+4c02272b91590a361f9e230a6c94127de57da20d,2018-02-08 22:43:34,Mateusz Burzyński,Deduplicated babel config,False
+8bfdd9821416e678d9fb180eac4e6002835650a1,2018-02-08 21:58:05,Paul Armstrong,"Add prettier, lint-staged, etc",False
+b9d2df53656fa031f7ed117a8aea15fd37762709,2018-02-08 21:53:09,Paul Armstrong,Merge branch 'Andarist-es-build',True
+02f1760771da1d50e34726514f55804342796ae6,2018-02-08 21:52:52,Paul Armstrong,Use specific babel plugins instead of stage-1,False
+a097346932afe63341a3b74223315d41d87e9e15,2018-01-28 23:42:19,Mateusz Burzyński,"Refactored build process, distributing module entry",False
+802d6d9e9af562693982f3a8b13fe522a3b1aded,2017-10-10 02:58:08,Paul Armstrong,v3.2.4,False
+11a6b9e03c2b65280b0c03aac75a1676d18de5ad,2017-10-10 02:56:37,Paul Armstrong,Merge branch 'nikita-ushakov-fix-demormalize',True
+ba1847bb859ae12a448e6175e0d0b4aca4e9249b,2017-10-01 15:45:40,Nikita Ushakov,Use input as id for unvisitEntity,False
+c9c8c8bfd616c76446c3d687c6c6d3cd1c48550c,2017-09-29 23:13:48,Paul Armstrong,Merge branch 'dkrieger-master',True
+271975ca3931a58cc0fc3df890cb055cadf566a3,2017-07-22 00:38:26,Doug Krieger,"denormalize: replace falsy input check with undefined input check
+
+Returning falsy input causes valid ids such as """" and 0 to be returned,
+even if they could otherwise be properly denormalized. Loosening this
+check to undefined will allow `null` to be processed, for example, but
+that shouldn't be too much of an issue.",False
+a20d535c0ddd21c95cf8498647fa8e060b5ed8a8,2017-07-20 00:06:35,Paul Armstrong,Merge branch 'acontreras89-patch-1',True
+948bc94011396fc2c6d677b3811cc4bd7c8695fa,2017-07-19 15:55:50,Aaron Contreras,Fix typo in api.md,False
+08b7d3ea8f6ea31efb745a991c1b759b448d57e1,2017-06-09 22:31:04,Paul Armstrong,Merge branch 'Webini-master',True
+082c28afbfa7e6e6ef53fca9f1c29e7aaf09a1da,2017-06-09 22:30:49,Paul Armstrong,simplify hasOwnProperty check in ImmutableUtils,False
+b25f2021c9a84be52684ff45ca156d2d96978646,2017-06-09 22:26:59,Paul Armstrong,Merge branch 'master' of https://github.com/Webini/normalizr into Webini-master,True
+28f085b8ab00a9968e05a38704999dc3f24d80ac,2017-06-09 22:24:06,Paul Armstrong,"Add IIFE and document build files
+
+Closes gh-249",False
+d251e9a31e721c22e1ecb19c2c2fce8a60e102b4,2017-06-09 22:09:53,Paul Armstrong,add instructions for yarn from root for redux example. closes gh-250,False
+37d35d6ce528e2a6d40a9fcee0573e6237e58aed,2017-06-01 08:43:54,Paul Armstrong,Merge branch 'paulsonnentag-patch-1',True
+a6726c6218cfafde5a289fe4a539c68e38b99ccd,2017-05-31 21:34:12,Paul Sonnentag,Update api.md,False
+9a696f788cd90cb8df1260c91e2caa480c5dd691,2017-05-21 20:53:06,Nicolas,fix line length,False
+bdcefef63fcf5544da23763d5e3ef77ae902e708,2017-05-21 20:01:31,Nicolas,added function type check,False
+7b56d03632d42aca555ce6b59ec31bdd81b81650,2017-05-21 19:39:38,Nicolas,hasOwnProperty error,False
+d77c91bf65e912192c1164d8e255323492485249,2017-05-18 21:22:05,Paul Armstrong,Merge branch 'Stenerson-patch-1',True
+505c5ddab7b06d980a1d4ecf2a1a98f4aa8d1c25,2017-05-18 01:56:03,Matt Stenerson,"Doc review changes
+
+- Fix typos
+- Update example to actually work",False
+2859a7be34fa89008b4432994fe65e04926b704b,2017-05-17 20:54:25,Matt Stenerson,Clarify `idAttribute` behavior,False
+aa8f097e4833b6785c9438bdee334e4c675cbb45,2017-05-17 20:19:52,Paul Armstrong,Add JSONAPI doc. Fixes gh-224,False
+f7aa24259aedb0b43d58a1a280a52a871296e0a7,2017-05-17 20:11:44,Paul Armstrong,v3.2.3,False
+8dbcd8d440855b46defecd7b949f6298b924d378,2017-05-17 20:09:34,Paul Armstrong,Merge branch 'Mordred-master',True
+83fd185e281fb7bfc2f9ca5117d70eecedb48d19,2017-05-17 20:09:19,Paul Armstrong,Merge branch 'master' of https://github.com/Mordred/normalizr into Mordred-master,True
+00fcbb4d3e24d39be16a5af56bb92f0bcecdc2b7,2017-05-17 20:08:17,Paul Armstrong,Merge branch 'n-sviridenko-patch-1',True
+ad50f7245990f1145f4a5aa03db238a670707c02,2017-05-06 12:23:08,Nikita Sviridenko,Modified tests for the union schema,False
+cb183feb410b82eefb8e9183ced0ccc21883f863,2017-05-06 12:22:46,Nikita Sviridenko,Added less expensive immutable getters,False
+76719f6f043d8210c303686fa09347deafc9f9ac,2017-05-01 23:52:37,Nikita Sviridenko,Added missing immutable check to denormalization,False
+d0fd0a1caf0aa2bb5981769e03a25b236753b1e7,2017-04-03 20:09:19,Martin Jantosovic,fix(definitions): Fixed Entity#key definition for typescript,False
+48d4dedc7209625f559ed3d232a95716518ed378,2017-04-03 20:08:47,Martin Jantosovic,test(Entity): Added test for Entity#key getter,False
+a4c7e725469b9ac87c69c3daf37fc04a5c5bd76f,2017-03-26 20:10:15,Paul Armstrong,update jest to v19,False
+b10e50254c9e825d951ed6cb0f3871ed9dfedbcb,2017-03-23 19:52:11,Paul Armstrong,Merge branch 'kevinjhanna-fix/changelog-typo',True
+716ad3783ef72d4a156db31c5624f2e930442b3b,2017-03-23 19:51:54,Paul Armstrong,Merge branch 'fix/changelog-typo' of https://github.com/kevinjhanna/normalizr into kevinjhanna-fix/changelog-typo,True
+503f73f1e066b40b9dfe569580f332be73a51041,2017-03-23 19:50:40,Paul Armstrong,Merge branch 'amonks-master',True
+47f1718c5fdceafa326f9d9a319c3f8e24b638f5,2017-03-23 19:49:36,Paul Armstrong,"reorder build steps, add AMD build",False
+cbde986b3650b661f2b1f2620490cfb80cac18bc,2017-03-23 11:38:32,Andrew Monks,"Add UMD build
+
+With multiple rollup targets, we can no longer pass a 'dest' into the
+filesize plugin. I updated the filesize plugin version because 1.2's
+default renderer shows the output path.
+
+Multiple targets might be a good approach to minification also.",False
+ccb5e77cf6e83ee26a0f30c2a6b43048cb275a47,2017-03-23 11:37:55,Andrew Monks,Update rollup-plugin-filesize,False
+9c6d6db4c5ed119f25405f8b37e8e96a5855b7f3,2017-03-15 19:39:04,Kevin J. Hanna,Fix typo in changelog,False
+e9ba85b8f9044b2aa97f4b28bd1de19dbe8df4e9,2017-02-23 21:38:33,Paul Armstrong,v3.2.2,False
+2d60121de8810e6694a353c815f4f93a9424ef5d,2017-02-23 21:34:26,Paul Armstrong,Update docs for Immutable and recursion on denormalize,False
+3497183e45406c656c3a746e03c317e3b74a7100,2017-02-23 21:33:30,Paul Armstrong,Merge branch 'jcarbo-feature/recursive',True
+066dc847ecb9d774966003e50162390e9185ca56,2017-02-17 12:16:59,Jeff Carbonella,Add specs for referential equality,False
+ff7d52164e08354f201607cf24cb531d6d585079,2017-02-16 12:24:01,Jeff Carbonella,Handle recursive relationships in denormalize,False
+e1d7066a585581e3c658704fbd5317f435bb82c8,2017-02-10 23:20:16,Paul Armstrong,v3.2.1,False
+bcc6e8a083c463cad5d5ce291ade75f2f4b9c66c,2017-02-10 23:19:16,Paul Armstrong,Merge branch 'revert-recursive',True
+71f05ef25e4c9f52bcc5a1906db203d429091bb2,2017-02-10 23:03:01,Paul Armstrong,"Revert recursive denormalization
+
+reverts gh-220",False
+ad09bedf22c0d157c7fcccac5da45f1b407c4d95,2017-02-10 02:22:40,Paul Armstrong,v3.2.0,False
+488c92a18818096eef35df8c4f3d8d728574d796,2017-02-10 02:22:11,Paul Armstrong,Update docs for Immutable and recursion on denormalize,False
+34ee22e838c00f4fd2e5a216f99b35e6a98f2d86,2017-02-10 02:15:46,Paul Armstrong,Merge branch 'jcarbo-feature/handle-not-found',True
+aab4a8c3afc5c4d50504f4cff38d130b51a6c94a,2017-02-10 02:13:56,Paul Armstrong,Merge branch 'feature/handle-not-found' of https://github.com/jcarbo/normalizr into jcarbo-feature/handle-not-found,True
+88136e116732e505bfedc0f62d27e83c32512cce,2017-02-09 23:58:45,Jeff Carbonella,Denormalize missing data as null,False
+fcee5664ce87e1720c27fbab34d14704ddd45a19,2017-02-09 22:21:46,Paul Armstrong,modify array test to ensure all branches hit,False
+f12cc4eff806b0e4e63c7a2275ff368d2db01a52,2017-02-09 22:13:41,Paul Armstrong,Merge branch 'jcarbo-feature/immutable',True
+99baca4975578e2abf055d1a5eedf20c4c5be5df,2017-02-09 21:51:28,Jeff Carbonella,"Handle null/undefined, add Immutable.Record specs",False
+2d379ab328d3f52ef4438e971478c11c6b8255cc,2017-02-03 19:58:04,Jeff Carbonella,Code review clean up,False
+72365c1c45202aae582dd7bcf802ca9e23d46d7d,2017-02-03 09:58:42,Jeff Carbonella,Use separate denormalizeImmutable function,False
+4debf74fe53451b244856c904b192f3d62e14376,2017-02-03 08:27:21,Jeff Carbonella,Support denormalizing from immutable entities,False
+b4dd2488a4492eeb80e5775d084d79af45282a25,2017-01-31 02:54:04,Paul Armstrong,"Refactor denormalize/unvisit.
+
+Fixes gh-225",False
+5b73515abc596e9c18365022f50c3ee034c7bbe9,2017-01-31 01:46:33,Paul Armstrong,Merge branch 'atrefz-get-id-attribute',True
+7f778aa71b79f0c7739d6ef20185b701242bd15f,2017-01-31 01:45:38,Paul Armstrong,Merge branch 'get-id-attribute' of https://github.com/atrefz/normalizr into atrefz-get-id-attribute,True
+1594bc52b2a463f941b2cdd9cb8e7becd956399c,2017-01-31 01:44:03,Paul Armstrong,Merge branch 'donavon-feature/constify',True
+82226dd2070cdca851fe22adc002bb229319f9e1,2017-01-31 01:43:33,Paul Armstrong,Merge branch 'feature/constify' of https://github.com/donavon/normalizr into donavon-feature/constify,True
+3a98d351d148d8b42357a888e74923c2940064bf,2017-01-31 01:41:49,Paul Armstrong,Merge branch 'maxsbelt-denormalize-resursive',True
+3aad3f74b41de01eb0d4481182e128e03312ee07,2017-01-31 01:41:31,Paul Armstrong,refactor recursive denormalization tracking,False
+885505bc52f4b323c0649b75863ae756d13a6c7d,2017-01-31 00:57:04,Paul Armstrong,Merge branch 'denormalize-resursive' of https://github.com/maxsbelt/normalizr into maxsbelt-denormalize-resursive,True
+af261c1a8389f1f6b8eb8da22060889197643fb6,2017-01-26 00:05:21,donavon,"Convert `denormalize` to single statement
+
+Gets rid of multiple `return` statements",False
+34d22d6fe119f20cc1f130cd56a69249326ff875,2017-01-26 00:04:31,donavon,Convert two occurrences of `let` to `const`,False
+32a518f17640ed26a1943ca5fc86b3abe03b83d2,2017-01-25 23:14:03,Alexander Trefz,Add `get idAttribute()` to schema.Entity,False
+064ae64d4ca391a333204f4ddb3e8ab5a0ce3a71,2017-01-16 06:20:16,Sergey Makarov,Fixed recursive strategy and added iaAttribute support,False
+eaa68e8435fc88e6c185a29582fd18046b3ecf16,2017-01-14 13:04:02,Sergey Makarov,Added additional parameter visitedEntities,False
+c1fa0ec4ed3abf9b09cb6ef76544a57cc51f0dce,2017-01-14 03:15:21,Sergey Makarov,Added recursive dependencies support for denormalize method,False
+5f8fd21c665d1bd7f560a622d06ad5889a26fc60,2017-01-11 21:58:46,Paul Armstrong,v3.1.0,False
+e365e5196b48540b5c95d15b42b70cf4defd78ae,2017-01-11 21:51:53,Paul Armstrong,"Point package main to babel, non-rollup files
+
+Closes gh-213",False
+e65c57fe64559da45262c00736584b90b4c9449a,2017-01-11 21:41:25,Paul Armstrong,Merge branch 'denormalize',True
+0b6b178560276c30d4a8ec90780d0ca04bcb4f2f,2017-01-11 21:40:55,Paul Armstrong,fix output example for values schema docs,False
+5fc61d0e791cfd8475eb54870fc4bcdeeaee821c,2017-01-11 21:34:33,Paul Armstrong,fix links to docs in README,False
+f987b81b23353fccdd42fc6ab79a6988fcdd4f20,2017-01-11 21:34:31,Paul Armstrong,docs for denormalize,False
+48d31a977c84368633fc2b08e0020a0dd3f8e6d8,2017-01-11 21:34:29,Paul Armstrong,add denormalize to  interactive redux example,False
+21438d044b5887755f0d6ff899e40523f22e716c,2017-01-11 21:34:26,Paul Armstrong,denormalize coverage to 100%,False
+a407062815ad6137bbfb1db126d9a1f39d6b2e51,2017-01-11 21:34:23,Paul Armstrong,compromise integrity and add denormalize,False
+058d5df53521cfb154677ddc02634e5e363ffe1b,2017-01-11 21:32:23,Paul Armstrong,"Merge branch 'feature/retain-non-defined-polymorphic'
+
+Fixed gh-207",True
+b525f9e5e45468d95414472ca0a240c8480a0a52,2017-01-11 21:29:40,Paul Armstrong,add documentation for retaining undefined polymorphic data,False
+b51f9eedc78f37e6f183dedbd8f3c062110fdfdd,2017-01-07 02:16:42,Paul Armstrong,Merge branch 'frooeyzanny-edit-readme-example-output',True
+d76917e71ed219df92f734ca402465d1eac37319,2017-01-07 01:42:56,Evgeny Samsonov,Edit example output in readme,False
+386ddbfe31801e1246908f3b832a920144bfeebd,2017-01-06 19:45:57,Paul Armstrong,Retain items in polymorphic mappings without defined schema,False
+1d7c0b004ebb94ab21097c6f8ae9141be0d7f1ce,2017-01-04 21:58:21,Paul Armstrong,v3.0.2,False
+fb37f338fb4e7fd81917c652e7759a2ad266e411,2017-01-04 21:57:43,Paul Armstrong,Merge branch 'afnpires-patch-1',True
+f15fdadc1c50bd2bd0e84f7a253eaae70c5d4398,2017-01-04 21:52:09,Alexandre Pires,test(typescript): update Entity.ts to include type in processStartegy function,False
+7d9cfa20b1329b7da5d4cfc091ed150e424fdb5c,2017-01-04 21:51:31,Alexandre Pires,"fix(index.d.ts): create new type for EntityOptions.processStrategy to return any
+
+Closes #204",False
+ef83d8379e361a280f993c7bdb374c4e2003bbcb,2017-01-04 20:43:56,Alexandre Pires,"fix(index.d.ts): SchemaFunction return updated to any
+
+Fixes #204.",False
+ff86fcbb7823612ba0f38412af39e12299f53e59,2017-01-04 03:29:18,Paul Armstrong,v3.0.1,False
+d8bfc2ab48706a0285c10a33d292adb7108e4ad5,2017-01-04 03:28:01,Paul Armstrong,"Do not use Object.values.
+
+Fixes gh-203",False
+a40e6382381ec91c0020fc85f63e9786db869291,2017-01-04 01:28:36,Paul Armstrong,"Add output examples to API Usage docs
+
+Closes gh-202",False
+e7e077085ad0dbf8f3e0904d19807e9dd062137a,2017-01-02 20:53:42,Paul Armstrong,add contributing guidelines for issues,False
+741581b21cfbcd33b4bbf83cfc23354f5a8844bf,2016-12-31 19:42:11,Paul Armstrong,docs: missing comma,False
+c809d14c6d74aafbb26fe8fc832349dbd6236426,2016-12-31 19:41:33,Paul Armstrong,Merge branch 'zazapeta-patch-1',True
+816cfa358f8f0a6eb5a8c80c6a345ac4d6039a08,2016-12-31 05:15:18,Ghazouane,Add missing comma,False
+a9fc8c0f91908a5451090cd4217470df2b24234e,2016-12-31 02:55:55,Paul Armstrong,Merge branch 'nktssh-patch-1',True
+8f8aff25a64ad678321a99e9300bdda6ff130161,2016-12-31 02:55:40,Paul Armstrong,Merge branch 'patch-1' of https://github.com/nktssh/normalizr into nktssh-patch-1,True
+2544d6008963bf0193dd06699f90813e41243dd6,2016-12-31 02:22:02,Nikita Shulipa,fix typo in docs,False
+0ff36bd93a619214f261fc7915522a9194ae97c6,2016-12-31 00:51:56,Paul Armstrong,v3.0.0,False
+38697a905a81b1d63b44923f790e5757d9d1c8eb,2016-12-31 00:50:44,Paul Armstrong,"Merge remote-tracking branch 'origin/normalizr3-typings'
+
+Closes gh-189",True
+d596ba1aba38e05de597a28c4298e70256c065cd,2016-12-31 00:11:56,Daniel Perez Alvarez,Add typings for normalizr v3,False
+bd5a7a4e06ef621c9edc563df85c96511ca2d794,2016-12-30 19:54:18,Paul Armstrong,Add documentation for definition method on schema. Fixes gh-195,False
+2522bb91def7f8bae99097f1af462121610188ed,2016-12-29 23:25:04,Paul Armstrong,Remove entity key inferring function option.,False
+b4ad95f3c19484341407c1ccee94e4bab79f7091,2016-12-28 23:18:33,Paul Armstrong,change normalizr3 branch references to master,False
+cf4118e9e538a50325d5f15695dedb750f2fed94,2016-12-28 22:18:23,Paul Armstrong,Use a single ADD_ENTITIES action in redux example,False
+ab3bf1d7a84e4a5db31eb0b41560548bd3899488,2016-12-28 02:34:48,Paul Armstrong,v3.0.0-beta,False
+5c981221b3f4379abe98be5e01ac28b8d87981d7,2016-12-28 01:34:41,Paul Armstrong,Compat: Ensure undefined/null values are filtered out,False
+c1cb33000deb3f7a42308c82f7448996818d0f01,2016-12-27 23:13:44,Paul Armstrong,"Ensure normalization of entity schema is run on processedEntity, not input",False
+d0755606e1e369aef369119b13c97f7a374b1555,2016-12-27 20:15:40,Paul Armstrong,Add coverage to travis/readme,False
+a528fa868d1b829e8119c327731a05c5bee34398,2016-12-27 20:00:40,Paul Armstrong,100% test coverage,False
+2b4f14b2c128bbae65f307d421155fdaffa5987f,2016-12-27 19:45:41,Paul Armstrong,add coverage/* to gitignore,False
+848a0e6f6c5f645ad97c98e44600fb8e6b332674,2016-12-27 19:44:14,Paul Armstrong,add contributing doc,False
+af732c461b1384b2244b997366be883d854f8ad2,2016-12-27 00:31:54,Paul Armstrong,Add usage gif to redux readme,False
+6917cb6e22c77ecea6dbdd02957af35a8e21f545,2016-12-27 00:10:16,Paul Armstrong,Merge branch 'normalizr3' into feature/redux-example,True
+573f77a251091dfac46cbb4968a23e03690450bf,2016-12-27 00:06:10,Paul Armstrong,Add redux link to main README,False
+9c3b2698d284f0822f0947f12e2ac509f2b59727,2016-12-27 00:05:45,Paul Armstrong,readme and cleanup for redux example,False
+4027869e9d333aea08be47ece4c4a5ca2a27c91b,2016-12-27 00:00:44,Paul Armstrong,"add data fetching, browsing options",False
+6a29490be185060474ccd40fd6a8736d199d8323,2016-12-26 20:18:56,Paul Armstrong,"add state browsing, repo setting",False
+7b36839b2083b9e8da0152d6f03c1e3dac042038,2016-12-26 09:46:00,Paul Armstrong,Update Issue and PR Templates,False
+a945390e388d3f3580dd3d910d47b52f95a04b57,2016-12-26 06:20:05,Paul Armstrong,skeleton of redux example,False
+22ade660c4214d054bcb704b9fe466b1ad3fba48,2016-12-26 05:39:24,Paul Armstrong,add heading to example readme,False
+c85dfa0d7924fe2fbcbf526ffd5cbd0a3819f672,2016-12-25 20:34:34,Paul Armstrong,Add relationship example,False
+161160d5dc6381cb70f475e0592752210e8d799d,2016-12-25 19:55:53,Paul Armstrong,FAQs,False
+a28a651d922de44c1996341d71e0e71f444a871f,2016-12-25 01:02:30,Paul Armstrong,ensure pre-normalized values stay that way,False
+d933307a2ea06b0e340e3df2cad0e653d6328fb9,2016-12-24 09:33:42,Paul Armstrong,fix usage example for Union,False
+c9fab38d174ce50273e7c16f29208c707cac23db,2016-12-24 09:31:14,Paul Armstrong,3.0.0-alpha.5,False
+ce2e3532dda346e7e7ca3b33ba8fa402e32a7f59,2016-12-24 09:30:58,Paul Armstrong,fix Union normalization,False
+e00d47d1056a04dd4dcba7a0cde5c46af08f71f6,2016-12-24 09:20:22,Paul Armstrong,Update github example to use polymorphic Array for issues or pull request,False
+0adbfdca037eb3b7f22c4072962febf114c3fe30,2016-12-24 09:12:15,Paul Armstrong,3.0.0-alpha.4,False
+0960df5778184447d9372cee88847625287ce7e5,2016-12-24 09:10:13,Paul Armstrong,fix entity anchor link in docs,False
+766b9c72dea8ad44d6c0453b393f0a3025de0b67,2016-12-24 09:09:02,Paul Armstrong,Add TOC to api docs,False
+ce01647e120fb582ff207ded8f2bd8c2c1cc5342,2016-12-24 09:06:13,Paul Armstrong,"Use generic PolymorphicSchema for Array, Values, Union",False
+6bbaf49f5feef3cc64c280ff8c6885090a1aab31,2016-12-24 04:21:01,Paul Armstrong,Splits ArraySchema into simple arrays and multiple array,False
+e5e09b517b3f20a9f82be59c4f820610816093be,2016-12-24 01:37:09,Paul Armstrong,3.0.0-alpha.3,False
+518db6806323e62c6d9bb11147fb68677c75ffd5,2016-12-24 01:36:39,Paul Armstrong,"Ensure getKey and getId use the input value, not the normalized entity",False
+017cb1d5b00fadb8aafc4acec8f024293bf918ad,2016-12-23 23:19:26,Paul Armstrong,3.0.0-alpha.2,False
+512e1bf1da0a10b35a46b922282ccb1247add7d3,2016-12-23 23:18:12,Paul Armstrong,missed an Object.entries,False
+8686005369adbb3a2639e367cb282d6024686e05,2016-12-23 23:14:03,Paul Armstrong,3.0.0-alpha.1,False
+2d506318e18e385c24cae9195f3136b37ce36bec,2016-12-23 23:13:40,Paul Armstrong,Don't use Object.entries,False
+f39d5730db31101a9eaceb9f701bd41fd09431ff,2016-12-23 22:20:15,Paul Armstrong,Move to alpha status,False
+67449678adeea0ca11c2d3534b1c465d97d8d6b4,2016-12-23 19:30:17,Paul Armstrong,change get key to getKey,False
+861e8ecee355aa0f15890d91081fca4c86033423,2016-12-23 09:38:09,Paul Armstrong,add Dan to contributors,False
+f984b7a683bc87c35527f6c4c8b4fe5e918aea7d,2016-12-23 09:35:57,Paul Armstrong,move tests into src/__tests__,False
+5841bc7f9980f0b6be21bdf68b2cc9d3deb09909,2016-12-23 09:31:43,Paul Armstrong,Merge branch 'master' into normalizr3,True
+329d804bf0ecd16149659888f06af204c3e00465,2016-12-23 06:54:37,Paul Armstrong,add docs TOC to top readme,False
+baa21eda221f0a72944a9b9df924685303aabb95,2016-12-23 06:50:35,Paul Armstrong,clarify example title in readme,False
+3ce4858c0767ad52196bf57f5781e1e440abf810,2016-12-23 06:49:30,Paul Armstrong,explain files in github example,False
+e122294e4b4ecfed6873eeea5105ccaf65dbe169,2016-12-22 21:08:50,Paul Armstrong,Update github issues example to output json,False
+460b18280641e959f2936e551d01a43af4eb5144,2016-12-22 20:22:17,Paul Armstrong,2.3.1,False
+b7320c248f990726a03036fa1adaca181e8a4f77,2016-12-22 20:21:41,Paul Armstrong,Merge branch 'zaycker-master',True
+45864843fd64f253749ec3a4acc7f929bd4a3ec9,2016-12-22 20:21:18,Paul Armstrong,Merge branch 'master' of https://github.com/zaycker/normalizr into zaycker-master,True
+a37f4ee4e61a64b9bced3542678eba35b94715c9,2016-12-22 03:39:01,Paul Armstrong,"move docs, add simple normalize input docs",False
+21f2dc8900545458bb7893aa4ca2ad989804fe40,2016-12-22 03:29:35,Paul Armstrong,Add github issue/pr templates,False
+35d330d4389be9e9d171a4993b6da3309824cd14,2016-12-22 03:22:57,Paul Armstrong,Add github issues example,False
+2c0b597bd6dcab364eae27f8ec26386b5cfec799,2016-12-22 02:46:58,Paul Armstrong,remove performance penalty from Object/Array shorthand schema,False
+3d1d1a31a0ef507061d65cf331f87a246f19123e,2016-12-21 21:57:18,Paul Armstrong,copy quick start to docs,False
+5791148ee9aad9e4f658dbc39ce043ed16e9a9a5,2016-12-21 21:45:29,Paul Armstrong,fill in package.json,False
+3e3348b98bf5af3c8100964710685322f1c0f413,2016-12-21 20:29:33,Paul Armstrong,fix lint,False
+34e101d3433da4ce06346133b718439f34a7a12e,2016-12-21 20:27:19,Paul Armstrong,"ensure processStrategy receives parent, key",False
+bc77962ba74eb710e6cb6c3ebf9f25639a2cbaf4,2016-12-21 20:26:51,Paul Armstrong,Pass parent object as children's parent when visiting array children,False
+1a4b8cb61b2be855e221c4a48652dc52fe4e96c7,2016-12-20 19:16:57,Paul Armstrong,yarn.lock updated,False
+081f6b737c3d07c229ad83c0efa840cadc27660c,2016-12-20 19:14:56,Paul Armstrong,Merge branch 'master' of github.com:paularmstrong/normalizr,True
+ac9c0fa105ad1a2bf2ba8edc76552d65b9bcd1d6,2016-12-20 05:44:02,Paul Armstrong,"Fix values, update docs",False
+61f6d84194cffb3694b2ed03cc43a260574f0c0c,2016-12-20 05:19:23,Paul Armstrong,"Add schema docs, first pass",False
+2bc633aa71da16e3c92538bd5cda97bec58db756,2016-12-20 04:30:40,Paul Armstrong,remove unused options argument from normalize,False
+aac03878718b37b94daebbdfd440f332801e4244,2016-12-20 04:28:36,Paul Armstrong,"standardize visit arg order, add shorthand for {} and []",False
+eca406a998fb93a01c833d8d31c36306401727ef,2016-12-20 03:44:08,Paul Armstrong,fix error in code example,False
+e5bf4879afa8221b7220285bf4bab9c75153b3ea,2016-12-20 03:42:12,Paul Armstrong,add example/quick start to readme,False
+a7e8178ecd333c9ceb4a026e85cb897b8bd3a190,2016-12-20 03:07:30,Paul Armstrong,start docs,False
+43708fdb9641658a2ce1de0e9d13cff6a6d9296a,2016-12-20 02:48:36,Paul Armstrong,start changelog,False
+7b837100069c399541e8ce7ead8fffd3588f2e16,2016-12-20 02:48:22,Paul Armstrong,rearrange some args for normalize on schema,False
+e1519115f4b6a60513d9e7f44a4e479ac7def480,2016-12-20 02:22:22,Paul Armstrong,ensure original input is not modified,False
+1aff9f11067ed1c9fa049f91f14fa513f28829ba,2016-12-20 02:16:19,Paul Armstrong,Add failure tests,False
+0c2ccec320462d98dc49748bc723fa49c30b2cfb,2016-12-20 01:21:29,Paul Armstrong,Add Dan back to LICENSE,False
+3b320ba18439dc5bb4733cc8dc64c048cf4ac95c,2016-12-20 01:11:07,Paul Armstrong,add lint and flow to travis,False
+e2ed67878adb8c5f3c675ddc6edfdba610b6b0ae,2016-12-20 01:10:29,Paul Armstrong,Add flow,False
+c1582a3b5c79d6f821913f15c42a64ede365e24c,2016-12-20 01:06:30,Paul Armstrong,add travis config,False
+1a1918f6dc79f6a7d43cee592182213296fd9ed0,2016-12-20 01:04:54,Paul Armstrong,initial v3,False
+08555e0e90c2c6ec616855b8ef5b5092f7f9135a,2016-12-08 05:31:08,zaycker,"#178 index.d.ts is in the same directory as index.js after installation. but also this path has to be inside package.json. TS cannot resolve module path without right ""typings"" config",False
+4674342b59958fc407e7f4256c97b71745808302,2016-12-07 23:06:40,Paul Armstrong,2.3.0,False
+8f693de18b20ec2d82a6529d611791a7ffa40a28,2016-11-27 23:10:34,Paul Armstrong,point typings at lib/index.d.ts,False
+1f35822375f90e13642d414b9d0200cf2dd54b1a,2016-11-27 21:05:06,Paul Armstrong,update yarn.lock,False
+c658c790e92e82fad09becaa00e9eef988c31b54,2016-11-27 21:03:09,Paul Armstrong,Merge branch 'akomm-fix/146',True
+e7389f44c8553c77972d0a940696e3dbcc706179,2016-11-27 21:02:54,Paul Armstrong,Merge branch 'fix/146' of https://github.com/akomm/normalizr into akomm-fix/146,True
+8ba321ae81d9e4d3be892862fcd4c3976c20e3ca,2016-11-27 20:59:06,Paul Armstrong,Merge branch 'nhducit-patch-2',True
+ed4339a84d089c6a7926da2895f71c8d2c98ee28,2016-11-27 20:55:40,nhducit,Update Redux repo link,False
+a2592678f0e74f266f9cf7f3e109c9ba3e9e5660,2016-11-27 20:32:05,Paul Armstrong,Merge branch 'nhducit-patch-1',True
+54fddd3352f4c945ebe9513f5042b89b65ee6981,2016-11-27 19:47:40,nhducit,Update redux real world example link,False
+918166b272cec52b443e2245c7ba3e5f92c432c6,2016-11-24 16:23:16,Andriy Komm,updated yarn.lock and removed index.d.ts from package.json,False
+948ed678ecb7f84277404a5646a589fcf789a2bc,2016-11-24 00:14:06,Andriy Komm,index.d.ts should be located in the same directory as index.js (build),False
+10b4b5ec9094cb72e69997810d3956303d0d7d1d,2016-11-17 22:15:48,Paul Armstrong,drop node 4 from travis as well,False
+1770fed4ebe28214aad7fb8d48e560d201cae903,2016-11-17 21:51:00,Paul Armstrong,"drop test support in 0.10, 0.12",False
+bfbe6c70d99a909affc90ee144b258eb77f2d169,2016-11-17 20:38:42,Paul Armstrong,jshint isn't used,False
+dd5b34aa34a14b28399a54e0f7d552d4d5901ccf,2016-11-17 20:37:56,Paul Armstrong,stylistic changes to tests,False
+bfa546366c54d127f5e5ff6cf82ebc2e83f8a4f5,2016-11-17 20:23:48,Paul Armstrong,update tests to jest. update packages,False
+102630015d5f1ebea3cf02c470a27aba891f3a7a,2016-11-09 08:30:03,Paul Armstrong,Use yarn for dependency management,False
+20f85ddaecdf6fad606e288dde9e8aa5b3974e16,2016-11-09 08:24:37,Paul Armstrong,Merge branch 'timhwang21-idkeys',True
+7d527b64c6d5f19486ce9d4c2225b56061e36744,2016-11-08 23:55:18,Tim Hwang,Can normalize entities keyed with their ID,False
+0389142a29a1a001729494a88b591ec08a400cfb,2016-11-08 20:14:46,Paul Armstrong,Merge branch 'fxck-dynamic-schema-rebase',True
+6141785d94c23073422c5cb34ce07f9a13d6c542,2016-10-17 16:00:57,Ales Rechtorik,update typings,False
+d09f1d1607c420a44bc877eefc2b54cb12abcc1f,2016-10-17 15:58:55,Ales Rechtorik,add ability to use function to get schema,False
+339111231c58245707e272e9f1f73dd6509b0c9f,2016-09-02 19:09:09,Paul Armstrong,"Merge branch 'Kestutis-master'
+
+Closes gh-145
+Closes gh-144",True
+635f2f3703a98869f6d8b78cf77ccddd1ed40431,2016-08-12 19:24:05,Kestutis Gramba,#144 - add defaults typings,False
+bd0c7b2a06a348e776df967bf112d80803f5bd1f,2016-07-21 19:34:00,Paul Armstrong,ensure typings file is included in package,False
+456ba12851b80c845b7d6071a5be33cc16d6ad23,2016-07-21 19:30:54,Paul Armstrong,add redux to keywords,False
+1346ac915271edc432eef91827c3f00f7c617071,2016-07-14 20:57:39,Paul Armstrong,2.2.0,False
+63f19fb6cd39d82e22639e60f3ef51b6928e5c41,2016-07-14 20:55:38,Paul Armstrong,Merge branch 'feature/2.2.0',True
+ec22af3a8dbea778d61b88a72b50df81e4e2dd91,2016-07-14 20:30:29,Daniel Perez Alvarez,"Add type declarations
+
+closes gh-84",False
+b880e4c88de79355a11dc0f321e78817fcd510d3,2016-07-14 20:30:08,Slava Shkodin,"Possibility to provide default values for the entity
+
+closes gh-117",False
+acd3ad0b507c8d768b1953e5c8ba157c68706b7c,2016-06-30 01:05:52,Paul Armstrong,"Merge branch 'alexaivars-patch-1'
+
+Fixes gh-125",True
+93c19a4ab431eb76f58052cf0752e50d87595e2d,2016-06-30 00:49:58,Alexander Aivars,"Minor typo fix
+
+Fixed minor typo where obj is undefined in the assignEntity the example and should in fact be output.",False
+f80b831fb53a7607d873e113c542a4365673a323,2016-05-27 18:29:09,Paul Armstrong,"Merge pull request #115 from jkusachi/master
+
+README typofix`valueOf`=> `valuesOf`",True
+3e6fd75dc768ecea362e79e4101b9da8f161716f,2016-05-26 04:03:05,James Kusachi,README typofix`valueOf`=> `valuesOf`,False
+66bfee45917a6fba43da68224e16293ed4aabd99,2016-05-23 22:46:41,Paul Armstrong,Add Issue & PR Templates,False
+d19833351100ee8abab878b447fea95b3d9237e5,2016-05-12 23:35:10,Paul Armstrong,"2.1.0
+
+Signed-off-by: Paul Armstrong <paul@spaceyak.com>",False
+040206af8b84a2dd0f51342ba54295e4ccc8c3b0,2016-05-12 23:30:15,Paul Armstrong,Add docs for Schema assignEntity option,False
+08c8825d7f906a112d5fc2749031686bd8f2e3c0,2016-05-12 23:23:36,Paul Armstrong,"Allow EntitySchema-specific assignEntity fns
+
+This allows custom assignEntity functions on EntitySchemas.
+
+Problem:
+
+When dealing with many endpoints and normalizing across a lot of different schema, a single assignEntity function needs too many checks to determine whether it should have different behavior for particular keys. Often times, multiple schema will have the same keys but not need to be assigned the same way.
+
+Solution:
+
+Add an assignEntity option to Schema/EntitySchema that runs after the main assignEntity option passed to normalize.
+
+Alternative to #97",False
+ab4cc251c6b4f95bbe2e4c0a81b87b58bf34dd5a,2016-05-11 22:40:46,Paul Armstrong,"Update babel, webpack",False
+dbaf3a780ef2df61b93fa56ff097a6396684505c,2016-05-11 22:14:03,Paul Armstrong,Add meta options to Schema,True
+3fabec43d6973fe15fd4a52129120a579ca35d84,2016-05-10 23:17:16,Paul Armstrong,2.0.2,False
+30ec7e658cd2352aa6b895f888a58775ef0dabf7,2016-05-10 22:44:43,Paul Armstrong,Updating package.json with correct URLs for repo,False
+55b773104fffed9687b223f4b4f161d304f4c188,2016-05-10 22:38:31,Paul Armstrong,"Merge pull request #100 from paularmstrong/paularmstrong/lodash
+
+Update lodash",True
+61d5fdb6cfec66535dcd613406b8a627082601c5,2016-05-10 22:20:02,Paul Armstrong,Update CI link and image,False
+dca5073a87f75aea6d70a17795d4cd76822b002c,2016-05-10 07:22:27,Dan Abramov,Update README.md,False
+a9df90bb1c418ec86af0f28372a5009a7b24eebd,2016-05-10 05:11:17,Dan Abramov,"Add credits to README
+
+Putting my name on it :D. I’m transferring the repo to @paularmstrong as he is currently actively using it in production and is willing to do some maintenance that I can’t find the time for.",False
+c1704560f03d159f8746b1514ba9c0066f8efe44,2016-05-07 16:28:35,Frank Wallis,"Merge branch 'master' of https://github.com/frankwallis/normalizr
+
+# Conflicts:
+#	src/index.js",True
+3349e9cd1afe8c20d9cd84f66baea15b538c7831,2016-05-06 19:15:46,Paul Armstrong,Update lodash,False
+42c7debe0a1c758b97ff4e75566f8eb119f9fd7e,2016-04-28 16:09:33,Frank Wallis,add 'meta' properties to EntitySchema and provide schema as a parameter to assignEntity,False
+b99368b69483ccc695f72d96bb080e731703490b,2016-04-21 02:12:59,Frank Wallis,add 'meta' property to EntitySchema and provide schema as a parameter to assignEntity,False
+f729562a33b938c2197e3b2474069fe46a96bc53,2016-04-07 21:19:08,Daniel Perez Alvarez,"Merge pull request #91 from gaearon/revert-56-master
+
+Revert ""Schema.define could return associated instance""",True
+69a307f85882a2c4ae62eb5fec0d3cb6ef82ccf3,2016-04-07 21:14:29,Daniel Perez Alvarez,"Revert ""Test that Schema.define() returns associated instance""
+
+This reverts commit 81d95ddedaba7d0eb8e71792d3f5c91a7ca25a44.",False
+f9b18dd70a3fe58b9e48a5899a9a4a64bf77199b,2016-04-07 21:13:47,Daniel Perez Alvarez,"Revert ""Schema.define could return associated instance""",False
+0141fcce8e059863b9b82724e1df65a7569578d2,2016-04-07 20:55:32,Dan Abramov,"Merge pull request #90 from gaearon/revert-80-consistent-relations
+
+Revert ""Consistent relations, see #70""",True
+80dd18bd44fedd8a4fd30dc512a37de54cd22878,2016-04-07 20:54:45,Dan Abramov,"Revert ""Consistent relations, see #70""",False
+81d95ddedaba7d0eb8e71792d3f5c91a7ca25a44,2016-04-06 13:41:56,Daniel Perez Alvarez,Test that Schema.define() returns associated instance,False
+aafe22009795a00e15d0b86c069ef78772505e03,2016-04-06 13:36:52,Daniel Perez Alvarez,"Merge pull request #56 from xuoe/master
+
+Schema.define could return associated instance",True
+4907dd257cdd72ffc7605ec8c1f7059f08bd7570,2016-04-05 20:43:50,Daniel Perez Alvarez,"Merge pull request #63 from puradox/patch-1
+
+Remove unnecessary Array.isArray() checks",True
+8b12e9dbd722e06797fcb5d78d0ea78fbbf405cb,2016-04-05 20:39:22,Daniel Perez Alvarez,"Merge pull request #80 from YoruNoHikage/consistent-relations
+
+Consistent relations, see #70",True
+27ff8292c176fe346d2c5bc88eb8bff11965306a,2016-04-02 20:50:51,YoruNoHikage,"Remove French comment, :-°",False
+9c9a663adbe9d3041fd664d171c05ae05b10292c,2016-04-02 20:50:07,YoruNoHikage,Clean the code (passing parentId in options was ugly),False
+a1ffb65ee2e9e619b96e7477d723e61c4cbafb20,2016-04-02 20:48:10,YoruNoHikage,Add info about mappedBy in README,False
+d261b0d1bdcb73a66b2390ce82d074bfbc78c9f9,2016-04-02 20:48:05,YoruNoHikage,"Add first draft for consistency between relationship, see gaearon/normalizr#70",False
+ba05cc0c79a218eb3f3bd0217d6239fbd4a67d9b,2016-03-31 01:03:09,Dan Abramov,2.0.1,False
+31c3676c487e03510e852f608407c2739cced3cf,2016-03-31 00:56:22,Dan Abramov,"Merge pull request #82 from paularmstrong/remove-lodash
+
+Fix Safari GC issue by removing mapValues() in favor of Object.keys().reduce()",True
+4374528fa9944f1173e2cb8e94bd34cb06bfe97d,2016-03-30 22:18:48,Paul Armstrong,revert removing all of lodash,False
+f667f2de1ce80e27dce242d0dffdbd8a2c36498b,2016-03-30 21:04:02,Paul Armstrong,include lodash for dev/test,False
+20201756d3bc744d058bb2e41559ad929fae88e5,2016-03-30 05:45:00,Paul Armstrong,Remove lodash dependency,False
+b00ace2e7b6473a4496fd183de2150db77424f7a,2016-03-29 05:50:37,Sam Balana,"Reverted the second check.
+
+The second check is required since it is specifically whitelisting
+arrays. Nice catch gaearon!",False
+b5888f138b45fe31e6b38dbd53fc73a061e83f7d,2016-03-25 19:18:21,Paul Armstrong,"Merge pull request #60 from fredrikolovsson/master
+
+Edit Usage and normalize() examples to explain second parameter better",True
+a74def24d9802a634cf6275ea073ba71d1962aa0,2016-03-25 04:03:42,Fredrik Olovsson,"revert trailing whitespace changes
+
+As per: https://github.com/gaearon/normalizr/pull/60/files/1a48a1f5ed06f4a1e7a9ce0afcba573cf4a09ff1#r57388101",False
+738676cca341c847b74dc1cc12f5500f9d9f68ee,2016-03-25 02:36:47,Paul Armstrong,Update README for assignEntity test link,False
+a0931d7c953b24f8f680b537b5f23a20e8483be1,2016-03-25 02:35:19,Paul Armstrong,"Merge pull request #72 from paularmstrong/feature/assignEntity-access-original-object
+
+Give assignEntity access to the original input object",True
+816ba795ef3292ae7836a5a1c16460cf26d6e9f7,2016-03-25 00:23:00,Paul Armstrong,"Merge pull request #57 from gpfunk/master
+
+update example in README.md",True
+5dc42064a6814467106e163138c680c14a599d91,2016-03-25 00:21:50,Paul Armstrong,"Merge pull request #59 from chabou/doctypo
+
+Fix typo in valuesOf example",True
+5d5e5e17f8fc1f153d7c326230b0a2fd385b7f59,2016-02-26 00:47:56,Paul Armstrong,"Give assignEntity access to the original input object
+
+Resolves gh-64",False
+b87e79ee1a331f0b0b726ff8d100405aa4530cfa,2016-02-19 03:07:30,CHaBou,Fix typo in valuesOf example,False
+4831a8522ac651a1ab4f10b7371958c041dcb7b8,2016-02-19 03:05:52,CHaBou,"Revert ""Fix typo in valuesOf example. Remove some traling spaces""
+
+This reverts commit 783753a0b6a0214e2fee0c3ce1143c2c8b16a079.",False
+d3fd23c9f39854193ff8357581ccd4690d8810cc,2016-02-05 00:09:37,Sam Balana,"Remove unnecessary Array.isArray() checks
+
+The Array.isArray() checks included in the normalize function were not needed since lodash's isObject() already checks for valid arrays
+```
+_.isObject(value)
+Checks if value is the language type of Object. (e.g. arrays, functions, objects, regexes, new Number(0), and new String(''))
+```
+[source] (https://devdocs.io/lodash~4/index#isObject)",False
+1a48a1f5ed06f4a1e7a9ce0afcba573cf4a09ff1,2016-02-01 06:16:09,FREDRIK OLOVSSON,Add more examples to normalize() specification,False
+c132ebf434eddfce231ff84a942e8dfcdf3e98fb,2016-02-01 06:15:39,FREDRIK OLOVSSON,"Refactor Usage example to be more informative by showing two different normalize cases
+
+–Displaying two examples of the second parameter to normalize(),
+depending on structure of response.
+–Displaying more of the response object to clarify how the nesting is
+handled.
+–Using contributors as example, consistent with the arrayOf()
+specification.",False
+f5262dc7fc85fd1722c562d1292740c6fb822290,2016-02-01 06:14:30,FREDRIK OLOVSSON,Add missing bracket and colons; remove trailing spaces,False
+a046aed54a8df7300751e52b1c90b79ffffb67bd,2016-02-01 05:47:29,FREDRIK OLOVSSON,"Remove collection schema from Usage example, because it is not used and only adds noise",False
+783753a0b6a0214e2fee0c3ce1143c2c8b16a079,2016-01-31 19:30:38,CHaBou,Fix typo in valuesOf example. Remove some traling spaces,False
+0ca335970037574b309b2622f6c81e1e1485aa40,2016-01-23 14:35:19,Graeme Funk,update example in README.md,False
+e18819bfde3ea230e63ecfd016d0b06ed2b9dda3,2016-01-21 02:40:20,Alex Diaconu,Schema.define() returns associated instance,False
+d3457983661351a96ef222e95c2845b65e12ee0b,2016-01-13 16:33:08,Dan Abramov,Update README.md,False
+47b2873113da994d03e61a002451f0ca1a4c54b8,2016-01-13 16:20:50,Dan Abramov,2.0.0,False
+1298d0ec3918793f1b645b44d2d3bd9df4fe0dfd,2016-01-13 16:19:09,Dan Abramov,Style neat,False
+476ea5e583e1796dc72876b1ab8f94154d18a009,2016-01-13 16:18:06,Dan Abramov,Fix merge conflict,True
+400bc9b638b56ea599d0c23598670a6fdec6022c,2016-01-13 16:11:15,Dan Abramov,"Merge pull request #48 from lukekarrys/master
+
+add back idAttribute method",True
+5ede07e50b17a457015fcc3940a2446ec8059726,2016-01-13 16:10:12,Dan Abramov,"Merge pull request #42 from eyston/unionof
+
+unionOf -- extend polymorphic unions to fields",True
+4438438f0b3a58c1716c1686aad4ba87b3278161,2016-01-13 10:35:29,Will Binns-Smith,Use lodash v4 and shortened paths,False
+1e87505522d6571a13ce2914df9d17316763ee4f,2016-01-09 01:07:21,Luke Karrys,document/test getKey and getIdAttribute,False
+cc8c6ef060bb625bdea2296b56f9ce29489cbd4b,2016-01-07 05:58:46,Huey Petersen,added documentation for unionof to README,False
+ba15c7d1a009e995c7a0bd617580d94251b15ca6,2016-01-07 02:13:49,Luke Karrys,add back idAttribute method,False
+cc15f168653cce02cb2ef343d0f18772682875e9,2016-01-02 03:46:33,Dan Abramov,1.4.1,False
+113d1250f3b6ae89c072f2b0d227333020705f8f,2016-01-02 03:46:25,Dan Abramov,Replace npm blacklist with a whitelist,False

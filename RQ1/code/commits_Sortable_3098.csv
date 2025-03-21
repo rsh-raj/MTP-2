@@ -1,0 +1,843 @@
+Hash,Date,Author,Message,IsMerge
+63ecb31937d19fcb30aa924e82ee8a769ef34492,2024-11-28 23:47:58,Owen Mills,1.15.6,False
+22172395df8554f2ef4f43bc7b540b4d25ef7870,2024-11-28 23:39:56,Owen Mills,#2244: Allow supportPointer to be enabled by default for IOS,False
+7d7d5d66c3220594379ec2027ab33c4053c8201a,2024-11-28 23:35:48,Owen Mills,restore old fallback selection clearing behaviour,False
+104d731585f260315116eacb56542a32653ad3bb,2024-11-28 04:38:12,Owen Mills,1.15.5,False
+a81251f406f3bfc629bdb91f596b15066b688773,2024-11-28 04:26:52,Owen Mills,#2410: Further improve selection handling on drag start,False
+ca13d2c3dde73604f41dd04d9165864db6441220,2024-11-28 01:56:45,Owen Mills,#2410: clear selection after drag start only with fallback,False
+62f0498ac3585982aa44f4492bbcfcb3e8776a80,2024-11-24 01:41:36,Owen Mills,1.15.4,False
+7fd5baf55982617212ec242c7f325b77f414570a,2024-11-23 20:24:49,Owen Mills,#1897: Prevent multi-select of non-draggable and filtered items,False
+afb71dcb96a321f1fbd8cb485773f76348a62109,2024-11-23 01:19:09,Owen Mills,npm audit fix,False
+f7a645c6f2a50d3303074bd4170e7ff7da7cf6b3,2024-11-23 01:14:32,Owen Mills,fix text selection during fallback drag + improve pointer event support,False
+dcb8f9e85b972292db1e0cab2ff9d7cd359ff352,2024-09-02 04:22:20,Owen Mills,1.15.3,False
+e7b4859ae29e7cdcde9435ad64ffc5b87229fb9d,2024-03-23 02:43:06,Owen Mills,"Merge pull request #2347 from driskull/master
+
+fix: set the target as the host element when target contains a shadowRoot",True
+9fab4b9230d0456601078b271cd9a0b7f0de7fac,2024-03-18 23:48:04,Matt Driscoll,remove trailing comma for consistency,False
+1e9ad0d56a9a88d75cad4872eb0b5e87ec56ec44,2024-03-18 23:46:30,Matt Driscoll,"review fixes
+
+uses getParentOrHost utility and moves logic to appropriate place",False
+41ff81f4aa3bc0d71c6f90a5b8972d016abbe1d7,2024-03-17 17:19:23,Owen Mills,export expando with utils + include src with npm package,False
+7f0a4637eab4db9a1589e299212de9c037f0165b,2024-02-15 00:31:53,Matt Driscoll,fix: set the target as the host element when target contains a shadowRoot. #2346,False
+07708fa1e7d9cf9d4563a7b1a09f7a47771522ed,2024-01-14 05:52:55,Owen Mills,1.15.2,False
+38e4d8739285deabb71469730bdf35065c874e55,2024-01-13 23:06:57,Owen Mills,#2339: Use child containing rect for ghostIsLast & ghostIsFirst,False
+1b7575f6f9d3f0a9e857786be5fdfe1e6ab73037,2023-12-01 03:33:15,Owen Mills,1.15.1,False
+5604d6e23a7ce7de9b6230b4efa6024e74afcf4a,2023-12-01 03:27:56,Owen Mills,npm audit,False
+d12f4b0455b9665441e129c4f446dd1c98617e15,2023-12-01 03:23:18,Owen Mills,Merge branch 'master' of https://github.com/SortableJS/Sortable,True
+70bf73879b335ee85dfdae81dbfa3236f61779c9,2023-12-01 03:22:55,Owen Mills,#1686: Use parent rect in ghostIsLast & ghostIsFirst,False
+ed0242632da53fa29db115e09869c8c7c1222b1d,2023-10-22 04:08:26,Owen Mills,"Merge pull request #2309 from Gudine/master
+
+docs: properly capitalize forceAutoScrollFallback option",True
+029d0d47b257019afc4dd1bf9f540178ea7e3f21,2023-08-26 22:29:15,Gudine,docs: properly capitalize forceAutoScrollFallback option,False
+c5a882267542456d75b16d000dc1b603a907613a,2023-07-03 05:35:17,Owen Mills,#2203: Fix multi drag sort event not firing,False
+a66e04d2086de6112e08e02da8d0c8083c88525e,2023-07-03 04:56:57,Owen Mills,"Merge pull request #2291 from anton-gustafsson/patch-1
+
+docs: remove dollar sign from code blocks",True
+d3a7f096ca77d61213d7648385f4798585edf2b5,2023-07-02 01:46:17,Anton Gustafsson,"docs: remove dollar sign from code blocks
+
+For code blocks on github there is a button that lets you copy the input. Before it would include the dollar sign which would not work in the terminal
+
+example before:
+$ npm install sortablejs --save
+
+after:
+npm install sortablejs --save",False
+7af63fdc5d7512e7f0b8abb10970d473521b31a5,2023-04-28 23:35:01,Owen Mills,"Merge pull request #2263 from lucaplays/master
+
+Added conditional statement whether dragged element should be dropped",True
+87fc7417983246aa27d6333b0fc3d60e655735b7,2023-04-06 14:01:41,Luca Dalpra,Added conditional statement whether dragged element should be dropped,False
+babf6ab85fdfc5e13be1027827cecfbba2fb0d1e,2022-03-20 21:56:34,Owen Mills,1.15.0,False
+632d70b8e5c5ce62be6e01fb382b1da586790d75,2022-03-20 21:25:18,Owen Mills,fix vulnerabilities,False
+63762d48cc5714478cddc6896d5904e8624c70c7,2022-03-20 00:04:01,Owen Mills,"Merge pull request #2095 from itsjohncs/prevent-next-click-failure-android
+
+Prevent ignored touches on Android Chrome.",True
+8e8a107b8e36c15b4ed05f75d5e01c1c52fb323d,2021-12-02 08:06:05,Owen Mills,"Merge pull request #2094 from vanboom/master
+
+Issue #2093 remove ID from the cloned element prior to adding to the …",True
+c047ac2bdb63d6052a46587c6c0eb1b6106864a3,2021-12-02 07:53:34,Owen Mills,"Merge pull request #2104 from jombLiu/patch-1
+
+Update package.json",True
+bf6690240cf86d277014d6288c02809b3bb03ef4,2021-11-18 17:18:54,jombLiu,"Update package.json
+
+Windows packaging cannot generate root directory sotrable.js problem fit",False
+cf04481aa4f18ebcabf2665625c7425068746989,2021-10-20 04:48:16,itsjohncs,"Prevent ignored touches on Android Chrome.
+
+Android Crhome will not trigger a click event if a user drags an item,
+even if the item is dropped back into its original placement. This
+means that whenever the ""ignore next click"" handling is activated, the
+user's _next_ click (unrelated to dragging) will be ignored.
+
+This commit solves this by never activating the ""ignore next click""
+handling on Android Chrome.",False
+840f9aef8452e2944e6984d49965bcc86ed96863,2021-10-20 00:33:18,Don,"Issue #2093 remove ID from the cloned element prior to adding to the DOM. 
+
+We should not create a duplicate CSS ID.",False
+daaefedad3c59204edfdbb27706e1447e6eb41d8,2021-10-04 01:02:35,Owen Mills,"Merge pull request #2072 from code4fan/master
+
+fix the drag position problem when existing non draggable elements at the end of the list",True
+b8940a989b68dd20b99a4be708a7c2039a775102,2021-10-04 01:00:01,Owen Mills,"Merge pull request #2084 from Agnaev/master
+
+avoid implicit deselect on outside click",True
+796bb3f7f2a59da8de2244c26ce787d3b9be7374,2021-10-04 00:59:35,Owen Mills,Update README.md,False
+e5d428aa8d8de821f0d8001eeade849851fb5a2d,2021-09-27 19:38:04,Agnaev,avoid implicit deselect on outside click,False
+6bf291431e3b0cd4881d5ce43d4aead5687fbc42,2021-08-23 20:46:19,code4fan,"Merge pull request #1 from code4fan/fix-drag-position
+
+fix the drag position problem when existing non draggable elements at the end of the list",True
+3eb35640f095a716782fa5e4f476e1b3a73c3751,2021-08-23 20:44:14,code4fan,"fix the drag position problem when existing non draggable elements at the end of the list
+
+When dragging an element to the end of the list, and existing non draggable elements at the end of the list.  Appending it to the end of the list is not incorrect, It should be inserted before the next sibling of the last draggable element.",False
+21f7ede93326cd02f8613075146fdabc6d3a769e,2021-08-09 08:18:05,Owen Mills,fix multidrag originalEvent,False
+4684991aabfdf5cab989427fe204814d99520509,2021-07-04 07:34:34,Owen Mills,1.14.0,False
+101b92e49cc1bca97f4195b4db5214159246fb50,2021-06-27 08:40:37,Owen M,"Merge pull request #2034 from Yopai/patch-1
+
+Trick for emptyInsertThreshold",True
+7d0c6a062ca1929c71778e044b2d815a2e51fae0,2021-06-27 08:40:03,Owen M,Update README.md,False
+a1015e2fd4404eb93ad05cc7b8778b43b49c9373,2021-06-27 08:33:34,Owen M,Update README.md,False
+e294ab9898e37edb15e696f07dab8230c1c31080,2021-06-27 01:57:16,Owen Mills,fix deepscan issue,False
+593235d138db3d076a60c719b7838d042b3b2d18,2021-06-27 01:52:06,Owen Mills,fix _ghostIsFirst error,False
+558c633570288e498b56e5be13f3ba268154288b,2021-06-27 01:26:07,Owen Mills,preformance improvement,False
+d83734a8802035f8c952c85e256ce76ab8c8de0e,2021-05-10 06:44:33,Owen Mills,Add forceAutoScrollFallback option,False
+0a1bab7bbe1ebe8fb8be135e350e6b9917e7a8bb,2021-05-09 03:21:14,Owen Mills,#2025: Fix reverting with nested sortables,False
+415506bf3efb0fd54c067e2863876586d23edce5,2021-05-05 14:52:22,Yopai,"README : trick for emptyInsertThreshold
+
+Give a pure-css workaround to emptyInsertThreshold option.",False
+e83eb7ee0b2e9289e87160fb713d43ad37a30039,2021-05-02 23:42:07,Owen Mills,#2021: Fix multidrag indicies,False
+77e048187b9e2e0370bc67b3b25281a5656277d3,2021-05-02 20:44:22,Owen Mills,#1942: Check if ghost is first,False
+a12fb2bc5e61f2e4ce7afbe611f8794c764b272d,2021-04-21 07:50:45,Owen M,"Merge pull request #2028 from lianruhe/master
+
+Update package.json: The entry file uses the compiled",True
+ff4585f562a0b38cd62436c4bf361505e836a91d,2021-04-13 08:57:25,Shanks,Update package.json: The entry file uses the compiled,False
+0656d6245f222c4dc26cd08777d7bd04b7699c29,2021-02-04 09:07:44,owen-m1,Clarify dataIdAttr option docs,False
+8a987c007cff0535edf65cd19a1a0a70cd880a07,2021-01-08 07:33:50,owen-m1,1.13.0,False
+5afb802aea900f8fe350495983bec8d5092a17f4,2021-01-08 06:35:04,owen-m1,#1954: Add useAnimation option to sort(),False
+a0e160a5189cdbb09a6e310413a2e4e719be6323,2021-01-07 08:43:07,owen-m1,#1571: Dont use pointer events in Safari,False
+7408673c81d4676159d6b0ac3d91573b7e3e0359,2021-01-06 08:28:31,owen-m1,Further improve AutoScroll docs,False
+cd2d6e2bb2b2f23a6f4463869e0ee24ffc08ff87,2021-01-06 08:25:52,owen-m1,Improve AutoScroll docs,False
+84a9b609336af94e01c1e50a1711b950aedabeea,2020-12-30 22:22:49,owen-m1,#1878: fix onMove docs,False
+82711e10c8b9235d374ddde9e3a46cf66c9243ef,2020-12-30 07:53:25,owen-m1,Fix #1904,False
+8b1d76d23c41db494c5f5721871341afd6b3c2cf,2020-12-30 05:18:22,owen-m1,Error when mounting duplicate plugins,False
+88838bfa5647e278f4cf87fdd4c3e34cd24fb33c,2020-05-24 19:03:31,Owen Mills,"Merge pull request #1834 from alexzuza/patch-1
+
+Not tree-shake repaint function by compressors like terser",True
+541e6c3217eb847fbdf9f057aff8d345b9a14986,2020-05-22 09:49:21,Alexey Zuev,"Not tree-shake repaint function by compressors like terser
+
+Closes #1658",False
+e02baa8ebb2a71e93d61c1281ae63e286212ee78,2020-04-14 08:23:26,Owen Mills,"Merge pull request #1784 from RomualdoGrillo/master
+
+Solves ""insert Before error"" issue on nested lists",True
+5a8603d6ff892ea28e6e2aa42e68170c3250a718,2020-04-13 18:19:20,Wayne Van Son,"Merge pull request #1794 from waynevanson/master
+
+moves issue templates to the correct folder",True
+49216127b747c22658a68c2da21c9950996366d7,2020-04-13 18:18:32,Wayne Van Son,moves issue templates to the correct folder,False
+a4b8846e5aff6e3009e78710f1b1399598144d6e,2020-04-13 18:16:27,Wayne Van Son,"Merge pull request #1793 from waynevanson/master
+
+creates new github issue templates",True
+2f2d88020b2998d260e9b355966378d036e87861,2020-04-13 18:14:26,Wayne Van Son,removes old issue template,False
+f959618fb1b45384ea7b5a5784b59460277215aa,2020-04-13 18:12:31,Wayne Van Son,adds message with links to issue and codesandbox,False
+4427db5485965c24de2d2bbebf07f123585cb94a,2020-04-13 17:53:32,Wayne Van Son,creates new github issue templates,False
+c724964869515c7c4cd50c491461eb45e15a8197,2020-04-04 15:55:10,RomualdoGrillo,"Solves ""inser Before"" issue on nested lists 
+
+That solves an issue with nested sortables.
+example of error https://codepen.io/romualdogrillo/pen/jOPoRJe
+An error appears when all following conditions are met:
+1)You have two nested sortable containers
+2)option “pull:clone” i set at least on the parent container
+3)You drag an item from the parent container into the nested container
+
+The item is moved but not cloned and you get the error: 
+“Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted”",False
+c36f49b770692267698181f8d5856c86c171de18,2020-03-07 21:49:57,owen-m1,"Merge pull request #1764 from drank/master
+
+Fixed a typo in the description of the 'closest' method",True
+44972f429654de913c6fda288fe71ab985466580,2020-03-07 21:20:01,Dragomir Denev,Fixed a typo in the description of the 'closest' method,False
+edc9c317a07d5ad4ee3f982d2507bf8a8e4226da,2020-02-17 23:21:12,owen-m1,"Merge pull request #1681 from cawabunga/master
+
+Fix clicking select tag",True
+901c5b22b7ffaff23751cf820dd4fc2eda4fb4b0,2020-02-17 04:52:11,owen,update example,False
+9105c17d389d92899a5f5086b1b65d2214c612d8,2020-02-09 21:44:46,owen-m1,"Merge pull request #1732 from xyx-is/master
+
+Minor fix for IE compatibility in st/app.js UI of thresholds demo",True
+ed7042acfc8931fbbf9e196a52306fee1e1a5193,2020-01-28 19:22:50,xyx,Minor fix for IE compatibility in st/app.js UI of thresholds demo,False
+2addddd67387b6e4b6b5e51806eb698f0a3eee88,2019-12-26 01:08:51,owen-m1,1.10.2,False
+aae2c97180e2096aaa539ba3357080612469d000,2019-12-25 10:47:16,owen-m1,#1699: Fixed multiplying ghost transform,False
+de5e7a45be69c79898d54a2f4b9e82afdf931fe7,2019-12-16 06:53:35,owen-m1,"Merge pull request #1647 from pangjian/master
+
+Fix(utils): Chrome < 44 not support scrollingElement",True
+5a3ee2d5e328678246712b1689f1f81f81e58f89,2019-12-16 04:15:25,owen-m1,"Merge pull request #1705 from waynevanson/patch-1
+
+Update README.md",True
+4105c13108da8ce51d585d56393a1a731558a0a7,2019-12-16 04:11:42,Wayne Van Son,"Update README.md
+
+Adds Typescript definitions package in Features",False
+143c63c47d2251d244b552b875dc2f8fef54dda9,2019-12-05 22:39:49,owen-m1,"Merge pull request #1700 from SortableJS/dependabot/npm_and_yarn/mixin-deep-1.3.2
+
+Bump mixin-deep from 1.3.1 to 1.3.2",True
+eea402765a1e5320e00d1e926c41130b8941918d,2019-12-05 21:56:55,dependabot[bot],"Bump mixin-deep from 1.3.1 to 1.3.2
+
+Bumps [mixin-deep](https://github.com/jonschlinkert/mixin-deep) from 1.3.1 to 1.3.2.
+- [Release notes](https://github.com/jonschlinkert/mixin-deep/releases)
+- [Commits](https://github.com/jonschlinkert/mixin-deep/compare/1.3.1...1.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+1a796461af8f84b7c0d5de870fd80d92ac6ade49,2019-12-05 21:56:23,owen-m1,"Merge pull request #1689 from kcak11/master
+
+Added type check for 'dragStarted' variable as this is causing thousa…",True
+ac5ec44ac666c1278699e84f79046ea60ef8af3e,2019-11-19 08:54:07,Ashish Kumar KC,"Added type check for 'dragStarted' variable as this is causing thousands of console errors in Chrome, Firefox, Edge, IE, Safari before the first drag.
+This change is harmless because it is just checking if the variable dragStarted is declared before using it.
+
+Tested across all of the above browsers and working fine after this change.",False
+61a06e7c62590addfae6bcbe4d8eead00efb6429,2019-11-07 16:57:42,Emil Ibatullin,Fix clicking select tag,False
+ec7b5e9469f3d246b192d1bb3988fddcef057cdb,2019-10-23 08:11:52,owen-m1,"Merge pull request #1674 from jmfolds/ie11-multidrag-fix
+
+add MSCSSMatrix to matrixFn options",True
+caca04a00eddf478945120a143c676e51fc3d898,2019-10-22 00:46:38,Jeremy Folds,add MSCSSMatrix to matrixFn options,False
+118828dc12f7debabf4e4d3068c499207ef5d823,2019-10-12 07:53:18,owen-m1,"disable delayed drag events during destory
+
+disable delayed drag events during destory",True
+e97937010a112b4550b613e47f9e0019624d827d,2019-10-12 05:45:22,Oliver Hepworth-Bell,#1644: Remove transform on drop,False
+8b07ba20e943c7c3a251d4086e84076a41da8e8f,2019-10-11 19:06:51,jess,Added Open Collective,False
+e824ed17d1aeea15a692874f326ad0bf685b5b74,2019-10-03 06:01:05,owen-m1,Fix optionListeners typo,False
+8d7cb8840cc90cd5026c467a5a9c392ba9be547c,2019-10-02 03:12:48,owen-m1,1.10.1,False
+278b587246eff62f9abbf742a3eb63bbb4dec7c1,2019-10-02 03:05:31,owen-m1,Fix saucelabs logo for npm,False
+576e33540c545dcefe0d805754ac2f454b55538f,2019-10-01 07:33:50,owen-m1,Do not throw error if imported in nodeJS context,False
+5fccf71d9c9971a48acc6aa02d911bd9ebfeed08,2019-09-28 04:47:08,owen-m1,#1646: Fix SSR rendering,False
+9fd576951eed5742138152c36cd68122c162e1bc,2019-09-27 07:01:56,owen-m1,#1640: Fix OnSpill destroy error,False
+3f0a9bde8c82d0a3f57f5d5aa03c5b1480e00233,2019-09-25 08:33:42,pangjian,Fix(utils): Chrome < 44 not support scrollingElement,False
+425cd3576d5e5314644137a494561472a3d7081b,2019-09-18 13:44:00,zjffun,disable delayed drag events during destory,False
+82ce396042600f03e3cc63dd6f12a4966e417cad,2019-09-16 00:24:31,owen-m1,1.10.0,False
+2e6df839008bdab8d913a294b5ec4cf36d421a38,2019-09-16 00:22:25,owen-m1,#1598: Allow selecting with SHIFT key without multiDragKey being down,False
+a60ded8c9400661ea024e5d73d1d0fd2a072246a,2019-09-15 21:06:57,owen-m1,#1634: Fix onSpill plugins on mobile,False
+f75c972d3cbebce24dc59b73d440c61a8727c9a5,2019-09-12 06:18:48,Pete Stuart,Fix call to animate() (#1630),False
+652eec883094d330304847e7fe29cea1e8b6598f,2019-09-12 04:10:59,owen-m1,Animation performance improvements,False
+1c7847b12b52cb35a31d95b2e370c24a8a5a0712,2019-09-06 21:05:32,owen-m1,#1599: Support for transforms on ghost element,False
+4f17fb0604a67b3be820ab59b43180474c3e0ef0,2019-09-03 05:27:11,owen-m1,#1597: Fix docs for enabling plugins,False
+0e4eabfef572f61df7a9cc38b5f56bbbc75d11ff,2019-09-02 07:13:10,owen,#1611: Remove MultiDrag events on GLOBAL destroy,False
+c3d1ea7f35bc3addeef95a2d102d660d3884cff3,2019-08-30 20:42:49,owen-m1,plugin API revamp (#1595),False
+211b030000c32721ec6034414d5cd8b47025374f,2019-08-01 02:48:20,owen-m1,Create LICENSE,False
+1fed4eeb97c097bb0aa05bb65a52d833a53065b7,2019-07-30 22:49:01,owen-m1,Improve OnSpill support with multiple sortables + fix drop events,False
+99c8695b970314a0c52a5b0c5628999fa0a72c5f,2019-07-24 06:43:13,owen-m1,#1514: Add conditional for rootEl,False
+a8836d5699c80c298ceca18e8791d2afeb5bc340,2019-07-19 07:08:25,owen-m1,#1580: Fix plugins' references to options,False
+705fb322b75a760048103e3bd2cc5527231d2173,2019-07-16 21:30:42,David Beljan,Fixed missing forEach indexes + Fixed CircleCI Config,False
+caf3e1278baabf47de35a3ef6aac86a6c3340f94,2019-07-16 20:28:09,owen-m1,Fix CircleCI for PRs,False
+9a9abcfd369ea895a9654df4f9b91facc54992a1,2019-07-11 05:52:49,owen-m1,Add tests,False
+1279457ef41c3055808b2070fef46fc2f3e1616f,2019-07-10 20:35:27,owen-m1,Thanks to SauceLabs,False
+a09bddb7ef0af5f51a2f8aeb0a5ee557004acfb4,2019-07-04 04:32:47,owen-m1,#1556: Fix delayOnTouchOnly for android,False
+e1d3de84df1676fc5f1cb0dce84631475861a78f,2019-06-27 06:22:59,owen-m1,1.10.0-rc3,False
+e5b239674b76893f244c4a5248ea9e2962dd8ae0,2019-06-27 06:13:01,owen-m1,Mark IOS as not supporting native drag & drop,False
+854fed779876074d564c053afb2b6fe7ed99088e,2019-06-23 07:50:24,owen-m1,#1539: Better loop safety,False
+528dfc4f3c9b804fc8dafd302c6329fe36a14730,2019-06-14 19:10:15,owen-m1,minor performance improvement,False
+0738f377205ea8c53890550bf28c6bb41b0fcb58,2019-06-14 18:32:47,owen-m1,#1517: Mark Chrome for Android as not supporting native DnD,False
+2ca1ff5f0ea0354e973c968f5be155ed7b845e43,2019-06-11 05:44:36,owen-m1,Better IE compatibility,False
+28a2444ca130b54b8a3b2ba5f5794d189e500fbe,2019-06-07 07:14:45,owen-m1,1.10.0-rc2,False
+aeba84e125640aa52078168b0e3ad9b3b89d4c0c,2019-06-07 07:05:18,owen-m1,Fixed some ESM issues,False
+500c33744ec33566791bed5a15dd44361e85599e,2019-06-07 05:34:48,owen-m1,Better plugin docs,False
+799413533a9fcd94c2e734887826131811c31c0b,2019-06-07 05:12:04,owen-m1,correct plugin mounting examples,False
+5c0a7eccd72b5e7e9967332bad0f4b24112a1bac,2019-06-06 06:35:52,owen-m1,1.10.0-rc1,False
+3a3f4e14d3a61bdf5eced8694cd4d6d17387b0f2,2019-06-06 06:08:42,owen-m1,Updated demo,False
+c2ef63737e193e85bdab0c44725142944da36fa1,2019-06-06 05:50:29,owen-m1,restore 1.9.0 different row/col behaviour,False
+822e54dcadec8a9ddf246c2e2aecb21e6befb303,2019-06-05 20:57:06,owen-m1,"Merge pull request #1528 from Aitthi/patch-1
+
+fix: error in angular server side render",True
+2ae403af84a3bbfd495233a8dfd474e890e273b1,2019-06-04 06:52:15,owen-m1,restore 1.9.0 _ghostIsLast,False
+127abd999dab26b791a9af6bbbf674fee6362614,2019-06-04 05:35:06,owen-m1,Update CONTRIBUTING.md,False
+87c9a063f82eeadf7d2a1f3a4c1f1dc61d2645e1,2019-06-04 04:35:46,owen-m1,#1527: Added MultiDrag indicies event options,False
+ff213bbd06ccb9f0019369199558d5be7d5eeedf,2019-06-03 16:06:15,Aitthi Arsa,"Update Sortable.js
+
+[ FIX BUG ] fix error in angular server side render",False
+ef63dfd70a75a3470dab6d865fa3f54719876928,2019-06-01 20:24:21,owen-m1,Next version (#1524),False
+b321482d5110e36b5c214c022cd417e6a198ff55,2019-06-01 16:50:37,Simon Bobrov,rename angularjs to angular (#1526),False
+c6de94db34cb349822a2d688e0b2502bbf8f59a0,2019-05-29 16:03:52,Luis Vegerano,Add EmberJS addon to readme (#1523),False
+2f00519da6918876433df81c548d87682477022c,2019-04-20 06:28:34,owen-m1,1.9.0,False
+640eccde34aebdba60e9bed22c5651e0c600b46b,2019-04-20 06:09:24,Seán O'Grady,Add option to only apply delay on touch events (#1482),False
+9fae0529ffd8ec9964be5ae63b698aeec6d35ae4,2019-04-20 04:56:45,owen-m1,#1469: Fixed delay option on Android,False
+7244a670fc2763cb7b026ea23b1b23e8afa21a5e,2019-04-19 06:38:22,owen-m1,#1492: Improved repaint trigger,False
+aef7af6504310ff6b46047a84ce9b67293846cdb,2019-04-19 05:02:27,owen-m1,#1489: Fix infinite loop in detecting shadow DOM,False
+000d59ed23bf4be25653f9564119b5cdf2ec9508,2019-04-12 05:57:33,owen-m1,Merge branch 'master' of https://github.com/SortableJS/Sortable,True
+6f7fc27e5fc6a9c58623851101711f175275588e,2019-04-12 05:56:38,owen-m1,#1487: Detect for empty insert always if not inserted,False
+4ca519e1fa4f7bfd6405dbbf1845ec16b7c88672,2019-04-09 01:35:27,MGelinas1,#1472: Added oldDraggableIndex + newDraggableIndex,False
+48365021fb8ccfbc9287aa1f1377d9fbe9de1308,2019-04-05 06:53:40,Jürg Lehni,Optimize nearestEmptyInsertDetectEvent callback (#1483),False
+75a48822d6a92b2916c90349f51892577a49840c,2019-03-31 19:46:12,owen-m1,Better fix for unwanted IE event capturing,False
+119ed2aff86a597887de989af3eb6e905a1ba89b,2019-03-29 03:59:44,owen-m1,#1476: Stricter requirements for supportPointer,False
+5b907bf8116edcc56ca35df9d26f2cb51b1ba063,2019-03-27 04:50:08,owen-m1,#1475: Fixed _lastChild failing to ignore display:none,False
+b483211c101f7a77839bd2477c9851922a6a805e,2019-03-17 21:16:49,Owen Mills,#1471: Use real event properties when doing empty insert,False
+3692fa890235fb86109510aabf6ab4c44b996467,2019-03-11 23:36:41,Owen Mills,fixed field,False
+971f76a2742343312f115aba5316def05e83a0a3,2019-03-11 23:19:28,Owen Mills,1.8.4,False
+e6b496d5889e4023d4d4a410e0cbca3ee27a334c,2019-03-10 05:20:41,Owen Mills,#1448: Position ghost absolutely on IOS,False
+452436a183ec57dadc1f9fcc881dbeb3e547da94,2019-03-09 07:06:44,owen-m1,improvements to completed(),False
+7742067365624885dd9823d573bc666677e3962c,2019-03-07 22:48:57,Owen Mills,#1457: Improved detection of empty sortable,False
+92ce2af282fca9fc0121b2312b7c5cdf95967f55,2019-03-07 06:34:48,owen-m1,revert Sortable.min.js to last release,False
+2027d1bc9241ccc31e0793dea417ffb55136890b,2019-03-07 06:31:44,David Desmaisons,Added pullMode to event object + added originalEvent to onStart,False
+9a32b93317565d29edf4073585179cb25e9d8265,2019-03-03 07:19:02,owen-m1,removed unnecessary _getScrollPosition function,False
+d903902fbe27c63aa932e43a9cbf9ffcf81332dd,2019-03-03 04:53:29,owen-m1,Merge commit 'f27342a2aa6cbfa16b4066a494e90107e334be36',True
+c6ae91ec2d5702b69efc6c5b77cc7b7d4dd17237,2019-03-03 01:34:49,owen-m1,#659: Fixed delay in FireFox + Delay browser compatibility fixes,False
+7411d2dadd93dfaafc081ab1782c8668c551d2ba,2019-03-01 07:02:33,owen-m1,fixed fallback text selection on Safari,False
+bc6b60381d55b902c228b0869d081ce32eeb5d04,2019-03-01 04:01:01,owen-m1,Merge branch 'master' of https://github.com/SortableJS/Sortable,True
+1c36e080760553a437f9458edda999418cfeaf81,2019-03-01 04:00:30,owen-m1,#1458: Fixed autoscroll on MacOS Safari,False
+0b042d08b43a6c6f40923f1b773e984949533e21,2019-02-25 22:25:10,owen-m1,Added thanks to BrowserStack,False
+deefe8dc201046967210b3d5e40aded088e57982,2019-02-16 08:16:09,owen-m1,#1451: Detect grid direction,False
+047f94e2c4af73ed1c68c6cb162151db58ed20de,2019-02-12 04:15:28,owen-m1,1.8.3,False
+355c748e125ab7106ac00c24f11c3e49de1320f6,2019-02-12 04:13:38,owen-m1,#1446: fixed dropEffect,False
+890f378e68d152b03bbc9e8444e0fe99e2fe273d,2019-02-11 02:22:43,owen-m1,1.8.2,False
+1283230777eb637e9008f2d4553ba257cc2ad04d,2019-02-11 00:23:41,owen-m1,always give ctx if includeCtx,False
+bb3a5621f042a345fd7bd74cc62154f24173ef02,2019-02-11 00:22:58,owen-m1,empty sortable detection on touch move,False
+41fd3e44d50dad1eab753a9b1a23fa356599b881,2019-02-10 23:14:39,owen-m1,#1436: Allow touchmove if not cancelable,False
+74be32eb558f3ad64afa30ef27899ba185abc700,2019-02-10 23:11:12,owen-m1,fixed detect direction for floats; revamped _ghostIsLast,False
+071f190410af462b148a1720b2869f7d5aa2dd60,2019-02-08 07:10:23,owen-m1,fixed detection for display:block,False
+f27342a2aa6cbfa16b4066a494e90107e334be36,2019-01-26 00:23:24,owen-m1,added scroll adjustment,False
+d373ea05e22da265b5f6fc8f218251b78f00ba71,2019-01-24 20:28:00,owen-m1,#1434: Target must be immediate child of sortable,False
+aca3a25da8d0d6df038190a4eba887762dc48726,2019-01-19 06:08:52,owen-m1,#1431: Remove pointercancel; #985: remove dropEffect,False
+41e339483d70618752d091d77d12c35c299e3af0,2019-01-16 05:49:04,owen-m1,1.8.1,False
+629872b938cd5ea39b27f20ce0fb5fca13741cc2,2019-01-15 07:12:35,owen-m1,1.8.0,False
+b7473acd9dcc3ab8479f4f7929bb42f23a4d60d4,2018-12-19 22:50:54,owen-m1,Merge branch 'master' of https://github.com/SortableJS/Sortable,True
+97b5a035a2817dd4eec874acba1f05b013e4819e,2018-12-19 22:49:00,owen-m1,migration to gulp,False
+ad9efbd8fd52d441f1433a156623f54c5220c780,2018-12-18 05:54:02,owen-m1,fixed ghostEl dimensions,False
+6e99cb3c198585e499a436061d19914754a276a3,2018-12-16 03:51:02,owen-m1,CDN,False
+f1579794c36215483fa8f6db06561a6dceeaaafb,2018-12-16 03:46:00,owen-m1,1.8.0-rc1,False
+84d6358ca97ec1235f4f7672c8cb051cdf94f2b8,2018-12-12 05:59:37,owen-m1,Fix JSBins,False
+113944e9febc791dd0cd300de88c71f2de44b125,2018-12-12 05:06:52,owen-m1,fix clone issue,False
+93b991229f9f7948a66231685ce7b769b22e42dd,2018-12-11 06:53:17,owen-m1,undo 1d2beb514713f49840491bc94f42f07f8623b89e bc detects touch on PC,False
+073a57458dfd24e00826a02917cc49eb7c2f06fb,2018-12-11 06:48:13,owen-m1,fixed clone rootEl mismatch and removed lastPullMode,False
+4a18d9a0b97053c7fcf32f54df04761939025efb,2018-12-10 03:26:19,owen-m1,"Merge pull request #1382 from saloonio/dev-firefoxShadowRoot
+
+Fix event path for firefox",True
+4235f3a692d7492c33306fd113dc74af685d21b7,2018-12-06 07:14:03,owen-m1,"Merge pull request #1333 from Sapphire2k/master
+
+Fix Android start dragging doesn't work",True
+afcd0737bbdd2334aca91aafb8e5071b79422ba7,2018-12-04 22:17:54,owen-m1,Updated links,False
+9ae38d1906e454540172b2ba43955ab58f65da01,2018-12-01 02:44:12,owen-m1,Merge branch 'master' of https://github.com/RubaXa/Sortable,True
+489ec1e7340d19080c596494ffbebada38311c67,2018-12-01 02:38:58,owen-m1,fixed owner detection; pull/put allow if same group,False
+73252ce1a9010d7de10a0eb0cc86a51c8740645a,2018-11-29 17:10:43,owen-m1,"Merge pull request #1389 from yak80/fix-ios-android
+
+Fix delayed dragging in Ios and Android",True
+43f798804f04ad32856cc0e8d0765ace0428df60,2018-11-29 04:03:21,owen-m1,added dragoverBubble support for fallback,False
+ead514791fa00344582dc7f2bbd09a36529b07a2,2018-11-24 22:45:04,owen-m1,"Merge pull request #1386 from RubaXa/autoscroll-revamp
+
+Autoscroll revamp",True
+463bb6b509adcb45e3a512d75d7814c7b0aded30,2018-11-24 22:04:58,owen-m1,fix body autoscroll,False
+8ca15a35421c4c0ccc569bf800ee48b2991ee463,2018-11-24 09:54:31,owen-m1,added documentation,False
+f3b245eafc8e222f5210c2f6376f29ca96bdb6ff,2018-11-24 09:09:26,FIRST_NAME LAST_NAME,added `bubbleScroll` option; added proper ability to cancel _throttle,False
+fea174b28d61f0f6b94232c4524efa70581fafa1,2018-11-24 00:52:56,owen-m1,Modify instructions,False
+0c3a103b46a943af570e0462d6d32a45a1f7b3f1,2018-11-21 14:30:09,yak,Fix delayed dragging in Ios and Android,False
+584f5e52d0ca13fc03b9a4325521352c304c4647,2018-11-19 04:05:46,Flame2057,Return if over el,False
+7bb73f46aa345d6354cf09f8e06fc6988b9edf02,2018-11-18 07:18:05,Flame2057,Resolved PR #1338,False
+d8d7e909740d3828ee059cc4f59a1df89d523b4c,2018-11-18 00:51:55,Flame2057,check names for equality instead of whole obj,False
+83dea7a9255d21b33f9fe2e2dfa8e112057768f4,2018-11-17 01:24:46,Flame2057,Document allowing arrays in `put`,False
+34e3f82ac8b188330ac21f9856d393e7ee9158f2,2018-11-17 00:37:37,Flame2057,"Updated toFn
+
+Allow for 'clone' to be returned if value is 'clone'",False
+8537fc4fe5875472c2c52f8fe2993689acbfd4f0,2018-11-16 23:25:30,Flame2057,toFn redo,False
+cd01d01fce598e1be99d40771ce3f16860dde1d7,2018-11-16 21:49:17,Flame2057,Fix for scroll == HTML element,False
+9c8a3330163505d734865508b25adde9bccebfd6,2018-11-16 06:15:14,Flame2057,"fixed toFn issue 
+
+Fixed issue in toFn causing checkPull and checkPut to always be true when `value == null`",False
+35aabddf5a1c721121249e3ec0de0444f7903ac3,2018-11-16 03:33:28,Flame2057,"Merge pull request #1363 from timoschwarzer/master
+
+Fix deadlock when having a form with name=host",True
+465e2ffb4ddc1a8840bedb78b8ba1307c5f36fd9,2018-11-16 03:31:25,Flame2057,Undo sortable.min.js modification,False
+18cccbac11e2e050155878bc250fea6a6042d50f,2018-11-13 07:10:55,Flame2057,"Added autoscroll revamp
+
+In short, this revamp allows for elements that are parents of the currently hovered element to also autoscroll.
+
+For native DnD, it autoscrolls the parents, but does not autoscroll the hovered element, as this is handled by HTML5.",False
+4ef871c330e369faf210be9e676def182cd3ad41,2018-11-09 06:25:44,Flame2057,"Merge pull request #1322 from p-herbert/master
+
+(fix) Bind context to setTimeout",True
+645a7d06e69e8567dd23c0142fbb9a5804a97e5f,2018-11-09 04:27:45,p-herbert,(fix) Bind context directly to function,False
+bebf1f67a4b0641c884a7f491b1e1ca9637caafd,2018-11-09 00:41:31,Flame2057,"Merge pull request #1384 from chinacoolboyzz/master
+
+Modify the onChoose event firing order to allow for getting element information before chosenClass is applied",True
+1bdd60979932b67b3d6c863af4dee25141b21a63,2018-11-07 03:09:05,Flame2057,"Merge pull request #1381 from ibrahimbutt/master
+
+Fix README.md list formatting",True
+a9d8eb4a89eaa20a81c6bddaefc197d72817b35a,2018-11-07 03:00:16,Flame2057,Fixed indent,False
+23a327964786018ed76702a06a48e48aac6ea47f,2018-11-06 22:40:17,Flame2057,toggle chosen class after events dispatched,False
+94df83c33cd994b8439c4b8831cd1bedece29268,2018-11-05 07:01:40,chinacoolboyzz,"Modify the onChoose event firing order
+
+How the onChoose event is fired before the sortable-chosen style is added, it should be able to do more fine control",False
+891094b0f5dcb95257ddfe33a00e0552da348e77,2018-10-29 20:38:37,Gaetan D,Fix event path for firefox,False
+83948199880c2ec208257039e6cb8d91f3d76327,2018-10-27 00:08:13,Ibrahim,Fix README.md list formatting,False
+a8b83eeac35ea678935c30ebd97002ff7cec6ce6,2018-08-24 15:00:30,Timo Schwarzer,Fix deadlock when having a form with name=host,False
+1d2beb514713f49840491bc94f42f07f8623b89e,2018-06-21 12:06:29,Sapphire,Update Sortable.js,False
+96a5fec870ec6faa1bf167da2c3dddb465166461,2018-05-24 09:46:01,RubaXa,Help wanted,False
+39b5c3b4627966409c7d3ec2a60fb1f47a6d1db4,2018-05-12 10:57:51,p-herbert,(fix) Bind context to setTimeout,False
+8794188794eff5685ded3e5755fe8e9212ab994f,2018-02-26 21:25:31,RubaXa,+ touchStartThreshold (default by window.devicePixelRatio),False
+d8b46ee39465b953032fffd1558827986943c7ad,2018-02-26 21:23:08,Lebedev Konstantin,"Merge pull request #1205 from pohnean/master
+
+Adding the 'touchMoveSensitivity' option",True
+06204668a5432c51511ad783280ad35def0d019a,2018-02-26 21:22:38,Lebedev Konstantin,Merge branch 'master' into master,True
+847cc6b28a415f3a502b4e22d1290c564967396f,2018-02-26 21:16:31,RubaXa,#1282: * shadowRoot,False
+ab9f9600e8e722f3f54c22e789c33697d95c1d46,2018-01-25 19:13:16,Lebedev Konstantin,"Merge pull request #1272 from 2xAA/patch-b8a358a
+
+Fix HTMLElement.matches error introduced in b8a358a",True
+c35043730c22ec173bac595346eb173851aece20,2018-01-25 19:01:42,Sam Wray,Revert Sortable.min.js,False
+dcb463397a1940688a92e729e8f1c8fea5077e7d,2018-01-25 18:58:59,Sam Wray,Revert Sortable.min.js,False
+46129ac0c8b94864fd47177d4f2c7d1222ad326d,2018-01-25 16:31:45,Sam Wray,Compact try catch,False
+144ad2b84cc2ee259deb8500f549a14e5c6a13cb,2018-01-25 16:00:49,Lebedev Konstantin,"Merge pull request #1266 from noelheesen/master
+
+Extend scrollCustomFn",True
+3785502f1f4fece876ff40a64a973185a5530308,2018-01-24 17:08:24,Sam Wray,Fix HTMLElement.match error introduced in b8a358a,False
+07da2fc4b08443e9c8ec2a2ce21d25000400489f,2018-01-24 04:33:14,Noel Heesen,Remove keepOriginalScroll option,False
+363062a09c32b960921857fb42be0d34b8a92ade,2018-01-24 04:24:12,Noel Heesen,Merge Sortable/master,True
+d86e2b9548b25dd78dd506a7845f313faec6fab2,2018-01-23 11:04:06,Lebedev Konstantin,"Merge pull request #1262 from 2xAA/expose-original-event
+
+Expose original event",True
+94ffa4bee8ab8d0e3ef6fa5a9b85044c0a5e2843,2018-01-23 11:02:25,Lebedev Konstantin,"Merge pull request #1251 from andrews05/master
+
+Use Element.matches for improved selector support",True
+afd5854069cc1d60e6772f6240ba8138d217d4fc,2018-01-12 00:28:16,Noel Heesen,Update readme with 'keepOriginalScroll' option,False
+e518620ec24a86ff0cef65a6eeca15bfab28f215,2018-01-12 00:25:50,Noel Heesen,Add 'keepOriginalScroll' as option,False
+423e055acddb73c8d7c33344b79016ff2d016a60,2018-01-11 22:43:59,Noel Heesen,Update readme for new parameters to scrollCustomFn,False
+507c969e800cbeb501e9de9c3085e734771b7bb8,2018-01-11 22:40:05,Noel Heesen,Add 'touchEvt' and 'hoverTargetEl' to scrollCustomFn parameters,False
+ac7c17eac4394d428108318b7aee6ed07d0f1c08,2018-01-11 17:31:52,Sam Wray,"Merge pull request #2 from 2xAA/expose-original-event
+
+Expose original event",True
+7c5f9c079a276e9abd24868500f5796a0ffa03dc,2018-01-11 17:31:13,Sam Wray,Merge branch 'RubaXa-master' into expose-original-event,True
+712cd7d6a3fb949423e25092489e270c0d30e26a,2018-01-11 17:30:58,Sam Wray,Merge from upstream,True
+b8a358a5f653e35c5d14837d886673c8584d2018,2017-12-18 01:28:22,FriendlyWeb,Use Element.matches for improved selector support,False
+dc38e43ce959cf86456e0a043e1ca0d815c44053,2017-12-15 14:28:22,Lebedev Konstantin,"Merge pull request #1248 from ddett/master
+
+fixes issue #1243",True
+826d66aa5f9b91bcaab87428504bf6ac831133c8,2017-12-15 00:40:13,ddett,"fixes issue #1243
+
+fixes issue #1243
+""cannot drag elements in Cordova iOS app""
+https://github.com/RubaXa/Sortable/issues/1243",False
+9b5250364208fad3da49ab2bafe8c075a6e7365c,2017-12-12 14:16:35,Lebedev Konstantin,"Merge pull request #1242 from Yqnn/master
+
+Fixed animations when code is optimized with Angular build-optimizer",True
+c1a94f2e55108ca1e042a4dcce924df8df14cfaf,2017-12-12 14:12:16,Yann Armelin,Fixed animations when code is optimized with Angular build-optimizer,False
+8ba4a544d8d6970f4ff9ba7708d97cbc35ae01cc,2017-12-07 15:42:51,RubaXa,* rebuild,True
+495b9deb861b92da2e8a7685a54f783adee2d22f,2017-12-07 15:42:02,RubaXa,#1236: Creating clone if it really needs,False
+cc95fd94a06ae5276b7a92c29a796adf36d03079,2017-11-21 17:05:42,Lebedev Konstantin,"Merge pull request #1225 from epoberezhny/checkboxes-fix
+
+Checkboxes fix",True
+dc2bdf756c889f8a47c084fd8662dc7d08661a10,2017-11-21 16:47:32,epoberezhny,rebuild,False
+d9ae21c6f848280c9aad7cd09573173bb3aba8c7,2017-11-21 16:22:24,epoberezhny,"move back to checked property, add nullifying array before saving checked inputs",False
+6d4bd8fed12466298bf056a0fad2be1338c2d3e9,2017-11-20 14:20:22,Lebedev Konstantin,"Merge pull request #1221 from epoberezhny/checkboxes
+
+Checkboxes",True
+54873d1db04a13706377cae46d84ff3872a65919,2017-11-16 05:06:00,Eugene,indexOf doesn't work,False
+b0389176ea47bf24af5f162c931bf4189681392c,2017-11-16 04:47:44,Eugene,update working with checkboxes,False
+64e4491ce87675a20b3f58d90bf8a97b96572229,2017-11-06 17:27:38,RubaXa,"v1.7.0: * events, iframe, timeouts and etc",False
+d49f468d831e65a2c5e8e666522c9059f45cb414,2017-11-06 17:22:18,RubaXa,- passive mode,False
+3e2e94bd6b285eb6c1c646720058057662e1a79d,2017-10-31 18:02:41,Tai Poh Nean,Adding the 'touchMoveSensitivity' option,False
+47de7844aa88556133384211620ada8a7dea3f65,2017-10-28 12:49:45,RubaXa,* rebuild,False
+d1e6026cff304c0395ed808e251ec93e9b2ebe33,2017-10-28 12:48:10,RubaXa,+ supportPointer (low level api),False
+811e448711a63fd88099345d307be34d5b6b68c1,2017-10-27 21:55:54,RubaXa,#1202: passive mode,False
+2600dc6b508f80ce0e2c6fe766f515cd96a75c6b,2017-10-24 17:42:33,Lebedev Konstantin,"Merge pull request #1200 from elo7/shadow-root
+
+Fix touch event listener when element is inside a Shadow DOM",True
+e2a57cbbd943d4dba1d5df25f690e880eb331cb6,2017-10-24 17:25:09,Luiz Corte Real,Refactor,False
+f5cae641f76a9ebcfd6fb3daef89e0a341163602,2017-10-23 23:08:11,Aline Lee Nogueira and William Seiti Mizuta,Fix touch event listener when element is inside a shadow dom,False
+a88beffbdbba6f5e76c413762dc2608f1a2cca2f,2017-10-18 16:16:30,Lebedev Konstantin,Update ISSUE_TEMPLATE.md,False
+cd2f41955498626a662d29c0fd72353193bc997c,2017-10-07 19:49:43,Lebedev Konstantin,"Merge pull request #1191 from lahmatiy/patch-1
+
+typo",True
+21e9b0f467b6269931f52d4503827aeafa0a0a3c,2017-10-07 15:14:44,Roman Dvornov,typo,False
+47e70b64e183a74ecd34c12fcc729a1d8b185577,2017-09-28 17:07:16,RubaXa,+ mouseover,False
+1b6d956f03217d59fe90b2a8836e73fc172844d1,2017-09-28 15:12:26,RubaXa,* fixed start/stop,False
+1f7036c6c391ebc84506a2af806c570d7e55db1c,2017-09-27 18:09:05,RubaXa,#1143: + additional parent check,False
+1e79040e1df9f9ced4735c9e067d9dd03a7b3c05,2017-09-26 20:13:15,RubaXa,#1143: + IFrame support workaround,False
+56022568d9f1f485dff620c89a9092bb13293bc4,2017-09-18 21:15:46,RubaXa,+ dev,True
+5720a6d6d61cd3f8cf78494fb161a69605ddfb11,2017-09-18 21:02:02,Lebedev Konstantin,"Merge pull request #1051 from joey-becker/dev
+
+evt.to in onAdd, onSort, onUpdate, onEnd",True
+f1af267bff6cc178411fe9fc260f4cac4ab76b37,2017-09-18 21:01:52,Lebedev Konstantin,Merge branch 'dev' into dev,True
+cc1eb94101e70dafc25964bff752e28d622bdf7e,2017-09-18 20:48:00,RubaXa,#1182: will-change (transform -> all),False
+b57d97839f3a3f6e7584ad1e32adbc73b3f2e553,2017-09-13 01:39:50,Lebedev Konstantin,"Merge pull request #1168 from LukasDrgon/patch-1
+
+Update jsDelivr links and remove old/broken cdnjs link",True
+a6a352818b194489c3ea59d050b80aa2a7cc8a60,2017-09-05 16:34:23,Drgy,Update jsDelivr links and remove old/broken cdnjs link,False
+3f555dfc41a14ba6274e0daba365859f0c592acf,2017-08-29 16:24:58,Sam Wray,Adds 'originalEvent' property to events to expose original DragEvent,False
+b818a9639de5e4ad6639a486ff4eb848be9a2f06,2017-08-28 13:05:25,Varunkumar Nagarajan,v1.6.1: #1158,False
+1a89437ef7926e2bf30c58bb01805994c275fb2b,2017-08-28 12:48:07,Lebedev Konstantin,"Merge pull request #1159 from varunkumar/dev
+
+Fix issue with evt.path in Firefox, IE",True
+394367a380e9454d48c30e03be6c8f8458150bdc,2017-08-23 18:57:13,Varunkumar Nagarajan,"Fix issue with evt.path in Firefox, IE",False
+f355f751b5ce90414ed127691d6ec3463e47a7e3,2017-08-10 14:39:42,Lebedev Konstantin,"Merge pull request #1148 from storyn26383/patch-2
+
+cancel dnd if original target is content editable",True
+5a7bb1bc802b487d3a229b816a0ac82d307a5e98,2017-08-10 14:38:47,Lebedev Konstantin,"Merge pull request #1145 from ohute-couture/dev
+
+Fix #1144 problem with supporting css pointer-event in IE",True
+17d634bbd8da52870c23c855c0629146b230503b,2017-07-26 09:55:38,Sasaya,cancel dnd if original target is content editable,False
+70af8f8ee9690eac67269f87d3f660d3c1aebfaa,2017-07-24 11:56:06,ohute-couture,"Fix #1144 problem with supporting css pointer-event in IE
+
+- IE does not support css pointer-event",False
+8748beab7f2c3487562486c4f9e60e03ad22bfdc,2017-06-26 17:17:05,Lebedev Konstantin,"Merge pull request #1121 from steverandy/master
+
+Add checking for pointerdown type",True
+db57cd2ebd3b98ea0fe1d99df3b82f8e101ffecc,2017-06-26 17:10:17,Lebedev Konstantin,"Merge pull request #1125 from camargo/dev
+
+Prefer Polymer first over $ for DOM selection in _clone",True
+e8b72a34fedbbcebb8904c6980a83e32f7abc4bb,2017-06-19 17:16:08,Lebedev Konstantin,"Merge pull request #1129 from miherlosev/dev
+
+example of e2e tests with testcafe (related to #1040)",True
+47f90157d76e30c6983a54507043dd610d2b3370,2017-06-19 16:54:20,miherlosev@mail.ru,example of e2e tests with testcafe (related to #1040),False
+f4f5fbb61057b5bf97689a175964afa923e23600,2017-06-10 02:02:50,camargo,formatting,False
+2f45d5f15cfd2d731bc6d08ae2bc7d05a4750908,2017-06-10 02:01:33,camargo,prefer Polymer first over $ in clone,False
+81a59789aebb88d14352e9a9ad82938898cb55e2,2017-06-05 09:09:39,Steve Randy Tantra,Add checking for pointerdown type,False
+56c696520c6123a8bdaa5a06ae50b35072fe711c,2017-06-02 21:10:01,Joey Becker,Add documentation for evt.to in onEnd,False
+bb37f20045eb998f3a702ee56f5b73551f28095e,2017-06-02 20:52:55,Joey Becker,Merge changes with Rubaxa/Sortable/dev,True
+91edeac12b9f1d84c0868d19d7e762f27f69e846,2017-06-02 14:49:08,Лебедев Константин,v1.6.0: + willInsertAfter,True
+8696a15149ae44b593dd9eae2ce2378655b2e099,2017-05-31 15:39:41,Lebedev Konstantin,"Merge pull request #1116 from yu1222/dev
+
+fix #1071",True
+f096574f54e82d34a3c6fa97e521cf71fb189299,2017-05-30 20:44:41,진유정,"fix #1071
+
+- off pointercancel event",False
+c628c53a0318efdccdd8ca6c39416e901db14767,2017-05-25 15:09:45,Лебедев Константин,+ dev,True
+f35d81b73cf773f7e214909cd053f7b7ce5ea804,2017-05-25 14:43:06,Lebedev Konstantin,"Merge pull request #1084 from David-Desmaisons/dev
+
+send insertAfter information in move hook",True
+18c7bd5efb6c02b9c9af917b3b74f1b3a83f3d7e,2017-05-25 14:41:05,desmaisons_david,Remove junks,False
+27b4912fb3c3672c78a090e52a5f5d606f928a80,2017-05-25 14:36:14,desmaisons_david,Resolving conflicts,True
+1369c914c51f7309e9304189c71502a2b77b020f,2017-05-25 13:47:01,Лебедев Константин,+ master v1.5.1,True
+da80bb575b96b9ca67bbdefa028b6ad140cd7302,2017-05-25 13:37:51,desmaisons_david,Regenerate sortable.min,False
+0cb1fe82f603a6a30b2fe254e183753075f9cfc6,2017-05-25 13:28:43,desmaisons_david,Rename insertAfter  into willInsertAfter,False
+78b6f4dc378433ef53111aca73fad90243d21202,2017-05-25 13:14:09,Lebedev Konstantin,"Merge pull request #1106 from marvin659/dev
+
+Fix drag and drop issue in ""http://jsbin.com/fecaquk/edit?html,css,js…",True
+08b0143f98b58dd8682ccb5b59abaa9f6521ec4d,2017-05-24 20:11:13,desmaisons_david,removing junks partIII,False
+b9e780f384d918cef43ab60f2ae80447c706c7b4,2017-05-24 19:58:28,desmaisons_david,"Remove junk changes, part II",False
+84d0a99d54d51338b4462448c58bf1311ef8a27e,2017-05-24 19:37:26,desmaisons_david,remove junk changes,False
+a304be9e2555939a695e010b4f1a44bbb02cdedc,2017-05-24 11:37:05,Lebedev Konstantin,"Merge pull request #1075 from billy-hardy/master
+
+Add null checks",True
+d69d501676fcaa935a143125ec321f38dbe00f72,2017-05-23 08:22:18,mleung@riotgames.com,"Fix drag and drop issue in ""http://jsbin.com/fecaquk/edit?html,css,js,output""",False
+8451985bd83004a7147ab82c001a7cf60f4c5924,2017-04-09 08:20:54,desmaisons_david,send insertAfter information in move hook,False
+5e4f6d78abdb57d5226c3a5fc09140729a7720ec,2017-03-28 23:14:46,Billy Hardy,ran grunt,False
+3014466f43a6ec41f972a37167772e214797763e,2017-03-28 23:13:45,Billy Hardy,add guards for null,False
+ee7b8a71e2229d0a0b58af42c8d629c4e5d2b55b,2017-02-28 20:33:01,Joey Becker,"evt.to in onAdd, onSort, onUpdate",False
+473bd8fecfd2f2834e4187fb033dfa6912eb3b98,2017-02-24 12:13:17,Lebedev Konstantin,v1.5.1: #1046,False
+9187775e6269f265b3eddefc07d04676b7b66191,2017-02-22 14:15:27,Lebedev Konstantin,Merge branch 'master' of github.com:RubaXa/Sortable,True
+f485742d26281c078ab78b779fd271fbb73917d6,2017-02-22 14:07:43,Lebedev Konstantin,#1046: fixed removing clone,False
+d9dacba86585f9406412dc2ebb686cf89252f499,2017-02-20 21:52:02,Lebedev Konstantin,Update README.md,False
+3a99522d4bb5499a696a7e791a235235faea6b9a,2017-02-19 23:41:07,Lebedev Konstantin,* upd,False
+ef8f5e9d4c59bdff438c2d4a56de466ae85468d0,2017-02-19 23:39:02,Lebedev Konstantin,* rebuild,False
+9723f86bfd5981cc8356cb3e956c3f556a8ac370,2017-02-19 13:36:24,Lebedev Konstantin,+ comment,False
+946bec37c54c49d2508787b7b80455cf7150cfd3,2017-02-19 13:34:02,Lebedev Konstantin,#973: * touchmove,False
+452a1d50d94d3e9c8456265829a9f368382aa80c,2017-02-19 13:14:05,Lebedev Konstantin,* 2017,False
+14c44fdd98c6e180bb1fd6a67d49ec9a7be75121,2017-02-19 13:13:44,Lebedev Konstantin,* prepare v1.5.0,False
+ecde5eb467e515d0d5f775280aaaa6f26e49d7d2,2017-02-18 23:35:21,Lebedev Konstantin,+ prepublish,False
+3e562a85fae39298be44d4a98dac1f7a853228a1,2017-02-18 22:27:57,Lebedev Konstantin,#680: fixed radio state,False
+03b49f72948db77538d2da5234ac273dd55ce8d9,2017-02-18 21:56:51,Lebedev Konstantin,* forceFallback + select (fix),False
+e91fa29f3a62cca9a781f72229aff39e5cd18685,2017-02-18 15:14:53,Lebedev Konstantin,Merge branch 'touch-action',True
+1d1e7817e192dcb920a5cbfc15a5cee39e425310,2017-02-18 15:14:43,Lebedev Konstantin,* captureMode,False
+97e9054c48ead86f101e3e9a7d22e827602fa07d,2017-02-18 15:11:58,Lebedev Konstantin,"Merge pull request #1043 from elonmallin/patch-2
+
+fix: make drag on touch work in scrollable element",True
+7bd21a9583c4d3f6bb2851ba8f841e855ba9d407,2017-02-18 06:53:27,Elon Mallin,"fix: make drag on touch work in scrollable element
+
+With Chrome version 56 the passive capture option in addEventListener defaults to true instead of false which causes dragging on touch devices to simultaneously also scroll.
+Tested on Android Chrome, and device mode in Edge, Chrome and Firefox.",False
+7b6f91fd1c990eff3d407f9402a14643db9ab25e,2017-02-17 14:03:01,Lebedev Konstantin,* cs,False
+7415f8d8a66b46794f3a810cbc00ee647c4dd7d1,2017-02-17 12:56:56,Lebedev Konstantin,* upd,False
+314db5e828b1077f62af40032a93f897f16842ec,2017-02-17 12:54:08,Lebedev Konstantin,#1022: + touch-action,False
+42bb4e89d2226b38fff421d800f85190fe138f06,2017-02-17 02:32:52,Lebedev Konstantin,+ master,True
+6e084fd8353f3d3279487e79ed11d9447f74c38e,2017-02-17 02:30:04,Lebedev Konstantin,#1037: fixed dynamic checkPull behavior,False
+efa0d6d3339310a479f3510c96a3a5142b415e21,2017-02-17 01:05:10,Lebedev Konstantin,- Package,False
+df4a7f853d96978714292046eb6f9aba49648e37,2017-02-17 00:45:14,Lebedev Konstantin,#1017: + doc,False
+da6ee2fa5723c42578107673c4decca7738a4c5f,2017-02-17 00:41:07,Lebedev Konstantin,Merge branch 'revertClone',True
+779b52a21c1c48ea3475c7cd2b17c8da4d23a819,2017-02-17 00:14:07,Lebedev Konstantin,#1014: remove http,False
+0bd46593ff60aa0b923e441cf37ddb9ca9f024f9,2017-02-16 22:26:54,Lebedev Konstantin,#1017: + revertClone,False
+258a1198370a941aca02aaa563b407239568d5b3,2017-02-16 22:25:54,Lebedev Konstantin,Merge branch 'dev' of github.com:RubaXa/Sortable into dev,True
+b0af97c1acbbe7fbf62ff5f39e7f4a5ab63d379b,2017-02-16 22:25:00,Lebedev Konstantin,#1017: + revertClone,False
+ab5dae4c6f6f5d73f55a3e4360de8f578448466e,2017-02-16 20:15:23,Lebedev Konstantin,"#1025: clean clone, fix",False
+45f9618bc7bed4611c277002f241f21c9580b38c,2017-02-16 20:14:50,Lebedev Konstantin,#1025: clean clone,False
+42f57f1ee34c0c1199405e6ee1aac18216e62d2d,2017-02-16 14:34:38,Lebedev Konstantin,"#1022: + capture: false, passive: false",False
+0b5cf381d985332f6cbe65bdbbe2e2b5c5eb56ce,2017-02-16 12:16:05,Lebedev Konstantin,#1024: + files,False
+1a8471453614e2559d107c9a2d2a346c906cc5eb,2017-02-16 11:59:57,Lebedev Konstantin,#1036: fixed handle + filter,False
+a7cddbcd6ebd07705fa93737c577ce1a3c925d90,2017-02-16 01:12:05,Lebedev Konstantin,#1029: + lastDownEl,False
+1aa0121c3197c3d8e7853927c1595ab0216913c6,2017-02-16 00:54:39,Lebedev Konstantin,#1029: + preventOnFilter,False
+15f2f3e6fbe835641258004b1799e900a3599820,2017-02-15 22:00:13,Lebedev Konstantin,"Merge pull request #1033 from victorngkp/onunchoose
+
+Add onUnchoose after onchoose is introduced",True
+2ecd5034ea040cfcff84f2a97e6e42a636ee84fb,2017-02-15 21:57:14,Lebedev Konstantin,#1009,False
+26a7c9767ede94887d4e9c6dda18c19f5037ecc5,2017-02-15 21:53:16,Lebedev Konstantin,"#997, #998: + prevent on forceFallback",False
+5dac5c40192a853df063c8e9b8be116b2e3c386b,2017-02-11 20:09:44,Victor Ng KP,Add onUnchoose after onchoose is introduced,False
+6e9ec0adf0a1fca8641f764edece6ba3b8fdfd3c,2016-12-27 11:48:02,Lebedev Konstantin,"Merge pull request #1013 from ycloud/master
+
+Fix error when use scrollFn",True
+a9a4b93980c06225bf97b67b9fa26e755bf91b93,2016-12-20 14:13:40,Jang Jun,Fix error when use scrollFn,False
+451e4f87ca84d80518ce4fc2634e2d772cbae79d,2016-11-17 22:54:13,RubaXa,* upd,False
+9f05641cacfeb568db55c1ec2f1849b848109480,2016-11-17 22:52:31,RubaXa,Merge branch 'master' of github.com:RubaXa/Sortable,True
+9c51030aa48b2297452aaa0a3c15063fb0983322,2016-11-17 22:51:35,RubaXa,+ Vue.Draggable,False
+e2fe25c6899a2b5f7ceedce4737663d304bc17af,2016-11-17 22:33:26,Lebedev Konstantin,"Merge pull request #995 from LIYINGZHEN/master
+
+[Fix] missing semicolon in README",True
+da1e75f8b1d42eb0948d3b5c48483a7db44f637c,2016-11-17 06:42:43,Max,[Fix] missing semicolon in README,False
+8e48c2aa1e4f23b7f061caa3a6a276216fff0b67,2016-11-15 00:54:53,RubaXa,v1.5.0-rc1,False
+6777972557df5382220777bf4db5b69496288ab7,2016-11-15 00:53:21,RubaXa,"Mert push origin master:wq
+ge branch 'virtualidentityag-master'",True
+2a33f3bc4a3608d0b678f41c113731b8e8efa84c,2016-11-15 00:53:06,RubaXa,+ master & #913,True
+f4f1ad395bfdacdb71f1e4b54a39a5791d5feb86,2016-10-02 12:32:01,RubaXa,- exec,False
+97633e4e8a96c267bc574a68ea0cd18165296727,2016-10-02 12:31:24,RubaXa,* removed,False
+7f1b75d8d001295064ebe9fc581e47913656976f,2016-10-02 12:20:02,RubaXa,#930,True
+b1cc5829ec254914efd2f09570275c33e3081c43,2016-09-29 18:43:39,Lebedev Konstantin,"Merge pull request #965 from steveperrito/patch-1
+
+Update README.md",True
+140ab8e4cc9fba01f3a85209e2017a1739489942,2016-09-29 18:40:49,Steve Perry,"Update README.md
+
+I thought this would be useful.",False
+750174a10ff05e5cf9caf1cc35477c95260e533b,2016-09-28 13:59:17,Lebedev Konstantin,"Merge pull request #961 from n-sviridenko/patch-1
+
+Update Sortable.js",True
+ace2da13e272b36107c250db0be102cc42dadf26,2016-09-28 13:56:18,Nikita SVIRIDENKO,Update Sortable.js,False
+d8d74e007836c47ce05f5ba97f2827b9d0d823eb,2016-09-27 21:38:00,Nikita SVIRIDENKO,"Update Sortable.js
+
+In some cases `el.host` is the current host name",False
+4e92279effa9996d32478cf5e66eadfe0c4de6c7,2016-09-01 13:28:56,Lebedev Konstantin,Update README.md,False
+887fe9d4897bd61dd9506a7041bd0fa6e4ceb411,2016-09-01 10:55:27,Lebedev Konstantin,"Merge pull request #943 from FurnaceCMS/master
+
+Handles inside polymer elements",True
+1e92db51f8d5799a76771ac5e84ca6e5b212b66a,2016-09-01 03:44:34,Aaron Job,updated with suggestions from @RubaXa,False
+b3c6d8b7ead82216f98d5442d114a12c948ac5c1,2016-08-16 12:33:24,Aaron Job,added in evt as path is a pro of that,False
+6d2d56d44298d89eaed2699bc4e982ba2b87c6d0,2016-08-16 12:04:26,Aaron Job,added ability to use a handle that is in a shadow dom,False
+1a0e0aa8a1e6fdf60f3bde8ccf7bffc81b5f61b7,2016-08-08 11:24:17,Lebedev Konstantin,"Merge pull request #923 from Rendalf/IE11-Pointer-Events
+
+IE-11 pointer events",True
+3003909a974ff3d03c8326a70eaf5306ba02dd90,2016-07-27 20:37:39,Artem Lipatov,"Fix problem with supporting css pointer-event in IE11 #920
+
+IE-11 supports css pointer-events incorrect:
+if your draggable elem contains pseudoelements,
+Sortable.js will solve that your draggable elem
+are dropping to itself.
+So Sortable.js will place your draggable elem to end of list.
+
+This PR let to Sortable.js solve that IE11 doesnt support pointer-events",False
+7194499eb8c9bbbe3e8821447f9a48f548d5f708,2016-07-12 13:25:44,Lebedev Konstantin,+ master,True
+830f168b28ece5f9b126e53cfb5b7067b8775f65,2016-07-12 13:19:50,Lebedev Konstantin,* fixed bool,False
+205f01fe9d1d7074fcd6681da545e3cc9a6188d3,2016-07-06 21:03:26,Lebedev Konstantin,Merge branch 'will-change' into dev,True
+be4aee2eb6b14e5cd22335efbbd43b4ad6e6d98e,2016-07-06 20:42:51,Lebedev Konstantin,#901: * nulling,False
+a4d5aa15f45f92000b1a818526433715a475364a,2016-07-06 13:18:53,Lebedev Konstantin,#902: * clearSelection,True
+c85767e52fdc66e59a773b88aba5fc5ae646086f,2016-07-06 13:13:33,Lebedev Konstantin,"Merge pull request #903 from massanho/fix-jshint
+
+fix errors reported by jshint",True
+ac8e1e2bbfb208632207268d2665f93379184aa2,2016-07-06 13:12:50,anerth,fix problem with jshint and exact check of null,False
+71ea5b82e4969bf48ddf541b57fcc1a9b130387e,2016-07-06 12:00:20,anerth,fix errors reported by jshint,False
+5c7a897e27fd252347cc6f5dcfa6de11ba711802,2016-07-06 11:56:25,anerth,Currently in IE9 dragging an element does select the text because document.selection.empty() does fire to early. Adding the timeout fixes this problem.,False
+04485bf6e81dbcf754c89320cfd1192e8c1af1db,2016-07-06 11:08:04,RubaXa,* fallbackOffset,True
+6af0e89fd6859ccc16b57f30410375b6d7cdd747,2016-07-06 11:07:18,RubaXa,+ master/moved,True
+efa74e65a05a89d375edbb4859a8f219e6429287,2016-07-05 18:59:18,Lebedev Konstantin,* typo,False
+e87d68d0e2a786964991ba0103a80f8083eb65f5,2016-07-05 18:53:56,Lebedev Konstantin,[MOVED] https://github.com/SortableJS/angular-legacy-sortablejs,False
+82fdb4dccfcad1ba42d34219b7ba42d169b0078c,2016-07-05 11:28:20,RubaXa,* upper,False
+a7f3b28fbad9e8e356f9ad6616133f3859b9a07b,2016-07-05 11:27:28,RubaXa,+Bindings,False
+605dbc59cbb804861383fb637d7b085c27adefcf,2016-07-05 01:59:19,RubaXa,* es,False
+4756be09b28dd2aea47988d7298f7cdc79df8272,2016-07-05 01:56:21,RubaXa,* react,False
+fb57b98b615ee70cdaa460abbb5db2495d7029e1,2016-07-05 01:50:50,RubaXa,[MOVED] https://github.com/SortableJS/react-mixin-sortablejs,False
+75306c406ebe5efdd3e62f799df719ea7583c3ef,2016-06-27 20:47:59,Lebedev Konstantin,"Merge pull request #893 from sdesapio/dev
+
+Replaced xOffset and yOffset -> fallbackOffset: {x: 0, y: 0}",True
+4f358aeb17a83e2a41a08c893b7df32f4e031d7d,2016-06-27 18:26:51,Scott DeSapio,"Added fallbackOffset = options.fallbackOffset, and this.options.fallbackOffset -> fallbackOffset",False
+dcb3bae44c52b810d3d65fe68e3a14ed05d478dd,2016-06-25 08:50:05,Scott DeSapio,"Replace xOffset and yOffset -> fallbackOffset: {x: 0, y: 0}; Forward PR into dev-branch.",False
+cc397706856e7d6fd42b7622be4c5628e30384dd,2016-06-24 17:41:13,Lebedev Konstantin,* MOVED,False
+e06f7d9f041cc55ecf68ef1f37a8270081c7380b,2016-06-24 17:39:17,Lebedev Konstantin,+ nulling,True
+69fe74ed856fef645a77a4fda10a212d67af6c68,2016-06-24 17:36:50,Lebedev Konstantin,Merge branch 'nulling',True
+269ea9fe5090c8b9bd78fa427a089af39eb58a5d,2016-06-24 17:36:33,Lebedev Konstantin,"Merge pull request #892 from RubaXa/revert-864-fix-destroy
+
+Revert ""Fix Destroy workflow""",True
+caf43c8799e46051a2e6ae26cde69410e700d965,2016-06-24 17:36:20,Lebedev Konstantin,"Revert ""Fix Destroy workflow""",False
+1d2f4b88e7dc0bd0238334df61a2268613eea2ba,2016-06-24 17:35:09,Lebedev Konstantin,[MOVED] https://github.com/SortableJS/polymer-sortablejs.git,False
+ff33930ebbe2da18568ed88f04f4c87bc4414f55,2016-06-24 17:33:35,Lebedev Konstantin,"Merge pull request #864 from alexk111/fix-destroy
+
+Fix Destroy workflow",True
+af383bd277738a975dc9813b9a540476167a25a2,2016-06-24 17:19:06,Lebedev Konstantin,* dev,True
+d7b0c87a0390111eab50b46e10dace3f9af33791,2016-06-24 17:15:57,Lebedev Konstantin,+ master,True
+cb060d8547b64b6994e8ed7e93b9b027135eb453,2016-06-23 18:14:25,Lebedev Konstantin,"Merge pull request #890 from KorsaR-ZN/bugfix-1
+
+Added support attribute ""data-ng-repeat""",True
+995519ac0953f29cafc59aa9d14ceb233c127327,2016-06-23 18:10:46,Stanislav Kiryukhin,code improvement,False
+e0f9a114c5ba793b6a978b7aa6429ad26b8597ea,2016-06-23 16:47:22,Stanislav Kiryukhin,"added support for ""data-ng-repeat""",False
+21cdb8ce4acd0f1a9ae82939a996a71153575556,2016-06-22 21:27:30,Lebedev Konstantin,"Merge pull request #839 from TimvdLippe/fix-es5-compilation
+
+Fix compilation on ES5 for Polymer",True
+238216d8c94009947505cef8ffd4d1cf9d7fee10,2016-06-22 20:57:47,Tim van der Lippe,Fix feedback,False
+6c93d48e682bb3f9b0fed22525f32a8f48b8a95d,2016-06-22 17:29:45,Lebedev Konstantin,[MOVED] https://github.com/SortableJS/,False
+fefff20f1f08d8f2372ab3eb724cf1d25244acbf,2016-06-22 17:10:23,Lebedev Konstantin,#772: newIndex,False
+3fde492e010e5c4875c3e7a7653edf6ac5272dfe,2016-06-22 17:09:30,Lebedev Konstantin,#772: newIndex,False
+d347d2d6ce49913e525823e0dca6b164067d3e9d,2016-06-22 16:15:49,Lebedev Konstantin,willChange -> will-change,False
+cb1e453fe497bd8da2b4bbcf14a6fb49c84a58bd,2016-06-22 16:12:19,Lebedev Konstantin,#857: + will-change on drag,False
+eee775c8c0e2c78943a50936ce8ea4c1acd777d2,2016-06-22 13:43:25,Lebedev Konstantin,[MOVED] knockout-sortable to https://github.com/SortableJS/knockout-sortablejs,False
+05b7d2daeeebd46846c263427109fa6941166e62,2016-06-22 13:30:56,Lebedev Konstantin,Merge branch 'master' of github.com:RubaXa/Sortable,True
+52bde83397b8b21defaefcddf2524e5ab0b47e66,2016-06-22 13:30:51,Lebedev Konstantin,* cs,False
+cfae80664fab3451329b4336ec39ffbfc61c4c6f,2016-06-22 13:29:11,Lebedev Konstantin,Merge branch 'dev' of github.com:RubaXa/Sortable into dev,True
+5a1ffc264610c7ab6c2af9d50709d616bb457a77,2016-06-22 13:29:04,Lebedev Konstantin,Merge branch 'master' into dev,True
+d497e64ca9a52a49fa0065c7f7ed8084f8a9f513,2016-06-22 13:18:14,Lebedev Konstantin,#864: + check Sortable.active in nulling method,False
+d2e3a6fa455d2d62a1e19d29399653163e42b1a2,2016-06-22 13:10:31,Lebedev Konstantin,"Merge pull request #884 from vasiakorobkin/custom_autoscrolling_function
+
+Custom autoscrolling function",True
+b11772918e624c5b70b56fa29d5a7f96b74fff9d,2016-06-21 22:15:43,Boris Sergeev,Update README.md: info about custom autoscrolling function,False
+f11bf04aaa4bb3d358f9662a44ad43c6638c97a3,2016-06-21 22:13:06,Boris Sergeev,Add option for custom autoscrolling function,False
+369ae8dc545ff24855a57d1ce9f8c980c6fb5a2d,2016-06-21 18:37:19,Lebedev Konstantin,"Merge pull request #831 from ne0-cz/jquery-binding-fix
+
+jquery.binding: fixed non-working widget method",True
+b7cc23841dc5789fea57ff52835768e69b34a13d,2016-06-21 18:33:08,Lebedev Konstantin,"Merge pull request #881 from kalaspuffar/manually_handle_updates
+
+Manually handle updates",True
+35a8a14115a66c2854ab5bd311d08c667f24d679,2016-06-21 18:32:57,Daniel Persson,Added manuallyHandleUpdateEvents and documented usage.,False
+babcc09e229ca9a4efc4b3685ff4ef351bbcac46,2016-06-21 18:26:53,Daniel Persson,Small change to update the data instead of the polymer collection.,False
+4d65727212d43bf6a44a37606ff6f856ff585aec,2016-06-21 18:26:53,Daniel Persson,Small change to update the data instead of the polymer collection.,False
+48f3a11f428ab080302ab52d7606dc914bc83024,2016-06-21 18:20:51,Lebedev Konstantin,"Merge pull request #834 from joual/dev
+
+Add the original mouse event as parameter in onMove()",True
+3b1b116a78ea038603385c9cabb36c1fafe02d58,2016-06-21 18:19:12,Lebedev Konstantin,"Merge pull request #883 from circlingthesun/angular-debugInfo-dev
+
+Enable the angular directive to work when debugInfo is off",True
+49d853539981483e455fc83bc03825e9d65bd0da,2016-06-21 17:53:05,Rickert Mulder,Enable the angular directive to work when debugInfo is off,False
+c8c3f48b95ba42e68e85c3395cbe4ec0dfda4d6c,2016-06-21 17:28:28,Lebedev Konstantin,"Merge pull request #843 from falkolab/patch-1
+
+typo fix",True
+3957f60ae8d982c3c8ce3631c45d519e6dff5caf,2016-06-21 17:27:53,Lebedev Konstantin,"Merge pull request #854 from harrymt/patch-1
+
+Missing comma on fallbackOnBody and fallbackClass",True
+d7680eb688a1bbf8d5521274644bdb6e36555736,2016-06-21 17:27:40,Lebedev Konstantin,"Merge pull request #862 from KadoBOT/patch-1
+
+Fixed missing comma in React ES2015",True
+cedd070ade3fe7efb15aa78d08aa84f9a13d937d,2016-06-21 16:39:46,Lebedev Konstantin,"Merge pull request #871 from christianp/ko-deferred-tasks-fix
+
+knockout: run deferred tasks early",True
+395658766fbdc74ed23674af02a93c69b82467a5,2016-06-21 16:38:33,Lebedev Konstantin,"Merge pull request #872 from KuroToro/dev
+
+Include setData option on angular watchers",True
+1923228c78e1fbb7b10284940979ea87cb952871,2016-06-21 16:31:35,Lebedev Konstantin,"Merge pull request #880 from syuilo/master
+
+Fix incorrect example code",True
+cabde8c65ab68e6d24e61de23c0dbf69ba0c43f4,2016-06-18 18:53:47,古谷向日葵,Fix incorrect example code,False
+8f11edd3c54335f8d1076a93fe826f9072b2b28d,2016-06-14 06:56:57,Mykel Ray Perez,"Include setData option on angular watchers
+
+setData is not triggered on isolated scopes http://jsbin.com/yimununobo/1/edit?js,console,output",False
+aaf292c538d266490cb58f55c07c523330d0ef3a,2016-06-13 14:30:13,Christian Lawson-Perfect,"knockout: run deferred tasks early
+
+If `ko.options.deferUpdates = true`, then updates to the UI don't happen immediately when you modify the viewModel. 
+For the sortable binding, this means that after removing a moved item, it doesn't recreate it at the new position.
+Calling `ko.tasks.runEarly` before re-inserting the item into the observableArray makes KO register the removal.
+
+This is the fix proposed by @adriaanmeuris in RubaXa/Sortable#712",False
+bf1c2ce3b072c7146e14a74994e085342be89aa1,2016-06-07 19:30:24,Borreda,"- get Sortable running with IE and touch devices, aka pointerevent support
+- don't forget to turn off standard pointerevents for scrolling:
+-> touch-action: none;
+-> -ms-touch-action: none; //older IE versions
+- drawback/known issue : option delay isn't supported in conjunction with ms touch",False
+9b70f32921b6017469dba41456797d0e377507be,2016-06-04 12:02:10,alexk111,Fix Destroy workflow,False
+019e687ccb21054b8feacdecaca93f7138a58edf,2016-06-02 17:21:11,Ricardo Ambrogi,Fixed missing comma in React ES2015,False
+abec27faa104da93e25790f845b23e4680654d59,2016-05-20 18:13:11,Harry Mumford-Turner,"Adding missing comma on fallbackClass
+
+Adding a comma on the following line will make the options valid javascript.
+
+`fallbackClass: ""sortable-fallback""` to `fallbackClass: ""sortable-fallback"",`",False
+c3faf181081335057c92eb41ef92030de6be8151,2016-05-20 18:08:57,Harry Mumford-Turner,Missing comma on ```fallbackOnBody```,False
+5d67a8894e55a8d4f51eacab31c2b154bd819fe1,2016-05-13 23:28:25,Andrey Tkachenko,typo fix,False
+643d9afe85d31e3cae4eb6277868a8efacc02876,2016-05-03 19:26:37,Tim van der Lippe,Fix issue with dragEl undefined when moving with a Polymer element,False
+ee86bc2bbcc2b3d1c173dda5c942da4d948b869c,2016-05-03 17:10:18,Tim van der Lippe,Fix compilation on ES5 for Polymer,False
+6264428b97f2002b9bcc9323c2cc41fbefdcc095,2016-04-22 22:12:11,Joel Marcotte,Add the original mouse event as parameter in onMove,False
+16f1cb03e0f4e02dd0b4af5bbaac8ba571ff2338,2016-04-21 16:13:26,Luděk Uiberlay,jquery.binding: fixed non-working widget method,False
+acef394c9a11e0e164ae4a22754ac898b650bf64,2016-03-22 11:18:30,Lebedev Konstantin,"Merge pull request #809 from piotrwitek/patch-1
+
+Update README.md: Add Support React ES2015 / TypeScript syntax example",True
+610527f029fb40571c08ed472c5bdcdab655c571,2016-03-22 03:27:03,Piotr Witek,"Update README.md
+
+Add Support React ES2015 / TypeScript syntax
+As mixins are not supported in ES2015 / TypeScript syntax here is example of ES2015 ref based implementation.
+Using refs is the preferred (by facebook) ""escape hatch"" to underlaying DOM nodes: [React: The ref Callback Attribute](https://facebook.github.io/react/docs/more-about-refs.html#the-ref-callback-attribute)",False
+f8a5ddb3545c1ce3c19a1cdbd615c481dabe5144,2016-03-13 12:44:00,Lebedev Konstantin,"Merge pull request #801 from AndreasGalster/master
+
+[Polymer component]Added method to re-initialize sortable",True
+4745fb294e782e4d541d5845bdc5092ef8b3f388,2016-03-12 19:58:19,AndreasGalster,"Added methods to re-initialize and destroy sortable
+
+Moved attached initialization of sortable into a method and run that method on attached.
+Did the same for detached and created a destroy method.",False
+b2d13e021031f9ccf7aa7cd0bcd505c2c2067af0,2016-03-12 19:40:19,AndreasGalster,"Add method to re-initialize sortable
+
+Currently it is not possible to re-initialize the sortable component after it's been destroyed. I've added a method and wrapped everything in the attached in there and instead I'm calling that method on attached.",False
+e1a655866c4b2e53bc10ba72eab2601b4e09fc6f,2016-03-11 11:18:43,Lebedev Konstantin,"Merge pull request #783 from pocketcowboy/fix-missing-arg-for-index
+
+fix missing arg for Sortable.utils.index expecting draggable selector",True
+d28d019b71ac0d8fd3195262fdca61df336875f4,2016-03-03 22:46:50,Lebedev Konstantin,"Merge pull request #793 from ajjohnston/master
+
+Fixed Polymer example.",True
+693485cdae2a8cac029b113cf8f3bedee84e20c1,2016-03-03 04:59:57,Andrew Johnston,Fixed Polymer example.,False
+1bf357899b4b364b7e62068ca7c6413f8e1ba7ff,2016-02-19 14:27:09,RubaXa,Merge branch 'master' of github.com:RubaXa/Sortable,True
+a3fbeb29d25406e83b8edcf06b16e5aaacfbb917,2016-02-19 14:26:44,RubaXa,+ ISSUE_TEMPLATE,False
+0663cf9b0ae8e69d358b1dfd1d0baa840fc21e91,2016-02-14 10:22:08,pocketcowboy,fix missing arg for Sortable.utils.index expecting draggable selector,False
+58dd583db5b11bf919d6b5d2c0661a899c0f9344,2016-02-10 13:24:12,Lebedev Konstantin,"Merge pull request #778 from pra85/patch-2
+
+Fix typos",True
+f701b8a89c46c64587fb207db9eebd045b68a97d,2016-02-10 13:07:56,Prayag Verma,"Fix typos
+
+`possiblity` → `possibility`
+`definied` → `defined`",False
+2876924ab7cc513f2b19d79d6c28b24d50a36143,2016-02-06 00:24:36,RubaXa,SortableJS/sortablejs-meteor -> SortableJS/meteor,False
+f426153d3d60a5f90bf7ce4098102283b94414ab,2016-02-06 00:21:05,RubaXa,[MOVED] SortableJS/sortablejs-meteor,False
+b1ff319e770ddaeb2cbb1f992c23c8597d4aebed,2016-02-06 00:19:03,RubaXa,[MOVED] SortableJS/sortablejs-meteor,False
+6f72f4ea5b5a130c6e00d5e5d8c9b31a3edd26bd,2016-02-04 14:27:19,RubaXa,+ dragClass,False
+99680382600c916391ef3949ab6c6af5c174dbdb,2016-02-04 14:04:11,RubaXa,Merge branch 'dev' of github.com:RubaXa/Sortable into dev,True
+b1defd32ff4a51d7d5c482444ed00df06712e6e1,2016-02-04 14:04:01,RubaXa,* code style,False
+3c28c5ff6302001aba3d347240dc1fe535cd70d5,2016-01-27 14:51:47,Lebedev Konstantin,"Merge pull request #762 from kriscooke/polymer-rm-object-assign
+
+Replace Object.assign for IE support",True
+f58999fca796febffd3bf33e4739be4a6db699a6,2016-01-27 14:17:56,Kristen Cooke,replace Object.assign to regain IE support,False
+fdb08aef7dd53b482fa6c9e8434edb553a43533e,2016-01-26 14:08:48,Lebedev Konstantin,"Merge pull request #758 from pra85/patch-1
+
+Update license year range to 2016",True
+adfc37c683f12d29c5c4ca66824c83fe452974ae,2016-01-26 13:56:39,Prayag Verma,Update license year range to 2016,False
+c52a82b4a14f254e0070482a88b820cd765d4fd8,2016-01-21 20:19:52,Lebedev Konstantin,"Merge pull request #746 from dev101/dev
+
+Calling this[fn].bind requires extra check",True
+3e9da2d4bcebc348a8c12be72bf32875507f24b6,2016-01-21 20:18:03,dev101,"Merge pull request #3 from dev101/dev101-patch-2
+
+Removed brackets in typeof",True
+6be0ded0197551ddc98c9d85b07165828969bb1c,2016-01-21 20:17:39,dev101,Removed brackets in typeof,False
+1f8b001bcba8cd9be9982c465a714462ba51eda5,2016-01-21 16:22:29,dev101,"Merge pull request #2 from dev101/dev101-patch-2
+
+Calling this[fn].bind requires extra check - cont.",True
+8e8dc72b1a6c390cbf2a7e224bc7247cbbf6df9c,2016-01-21 16:21:19,dev101,"Update Sortable.js
+
+Checking `typeof(this[fn])` is enough",False
+3d3ad91a5b7412fd70f123a035c760c8fae8fdcd,2016-01-21 14:15:48,Lebedev Konstantin,"Merge pull request #744 from n00dl3/dev
+
+trigger most specialized events first",True
+b7db3455e701c0df000f5844658c204709a57a57,2016-01-21 14:11:05,n00dl3,Add \n before comment,False
+9b9704e1828c84211011b8d8c6385efa1deaa59c,2016-01-21 00:01:35,dev101,Update Sortable.js,False
+0dc1c1b91fbc45ead29eeb494861b52e1e113639,2016-01-20 16:05:57,n00dl3,trigger most specialized events first,False
+43d2b4cc9588a5b2c8d9d3d8b6be297581839bfb,2016-01-20 14:31:18,Lebedev Konstantin,"Merge pull request #742 from why520crazy/master
+
+new PR for https://github.com/RubaXa/Sortable/pull/741",True
+d1356e16338536bff4a7611e5e809e86833c6527,2016-01-20 14:27:32,why520crazy,fix bug for https://github.com/RubaXa/Sortable/issues/628,False
+504f868d4a5446dda7433c96f7b0c1a82ea2b9d8,2016-01-20 12:06:57,Lebedev Konstantin,"Merge pull request #715 from livelazily/dev
+
+small fix with #373",True
+e40abac2ef97d5e485e40a463931ea1f3d7e831a,2016-01-19 11:29:24,Lebedev Konstantin,"Merge pull request #739 from didiermoniquet/dev
+
+React Mixin - Fixing check for existence of getDOMNode function",True
+b6d5fb656730f8a1288440c942a439d1d58e79d2,2016-01-19 04:35:35,Didier Moniquet,React Mixin - Fixing check for existence of getDOMNode function,False
+569b1187bdef8b10d3bb4d873df22ff8286b54cc,2016-01-19 02:19:44,RubaXa,#707: + abs for _ghostIsLast,False
+6963281a2bba5283a986213797e084deed915d13,2016-01-18 19:54:23,Lebedev Konstantin,"Merge pull request #737 from petemill/patch-1
+
+knockout-sortable - prioritise global dependencies if available",True
+025fd97865df3efcd9df4148468067ad4e4b2b2b,2016-01-18 06:45:40,Pete Miller,"knockout-sortable - use global dependencies if available, then fallback to require / AMD",False
+01a2991548faec3f9d87f0677fdd11c1b27f99d6,2016-01-15 14:10:15,RubaXa,Merge branch 'dev' of github.com:RubaXa/Sortable into dev,True
+ba2b0863d11aed6a7ecc21447cfa6ab74e910729,2016-01-15 14:09:57,RubaXa,#732: fixed 'preapreGroup',False
+ea407ce24b20acb77e933b984d566fb193a2a8fb,2016-01-14 14:48:20,Lebedev Konstantin,"Merge pull request #730 from dangreen/master
+
+Throw error if call in node",True
+da5a74b054f91b2d062d26eebb40e4aeb7da9274,2016-01-12 22:59:22,Lebedev Konstantin,"Merge pull request #727 from calexicoz/dev
+
+Allow event functions to be defined as functions AND strings.",True
+764b060cbd2ff26a5570c0047d7f2b1941aa763b,2016-01-12 22:31:45,Julien,"Allow event functions to be defined as functions AND strings.
+
+The current behavior (in `master`) is to define the handling functions for events as strings. Default for `onSort` for example is `handleSort`. Commit 8cef762d11dbabb27e489727bcc8fd5dfe8d844d changed this behavior forcing handling functions to be defined as functions in the options. This breaks all existing code, resulting in a no-op even with the default options (which still define the default handlers as strings).
+
+This commit restores previous behavior AND allows you to define your handlers as functions directly, if you’re so inclined.",False
+7f3ee38b160ebfd215508b754e6fe1fb53fa448f,2016-01-12 02:48:50,RubaXa,#718: * fixed context in 'add' & 'sort' events,False
+2ffa00f62392adf7e5733e72d31ec41aa8b28c51,2016-01-11 20:21:29,Lebedev Konstantin,"Merge pull request #725 from auxcoder/dev
+
+#666 Return DOM information of element in env object",True
+59b6818b4c74bcb7f9ec9832c6878ba476543c42,2016-01-11 20:11:47,Pavel Duran,#666 Return DOM information of element in env object,False
+ff3deb04335fa2cab73257e765d4b6d796f0cfc8,2016-01-11 12:25:57,Lebedev Konstantin,"Merge pull request #720 from livelazily/fix-un-watch
+
+`scope` does not has ""off"" function",True
+dc2e736e5793db53768c6f4bf0f121c33b3c6dce,2016-01-07 09:10:04,livelazily,"`scope` does not has ""off"" function",False
+5617c507cff82574eceb84ac0aeafca608980ecf,2016-01-06 19:27:37,livelazily,fix ng-repeat with other element in the same parent element,False
+a1790fdf233d270b56e34f432bd61a081bf5c32f,2016-01-02 23:39:11,RubaXa,#677: + pull/put as functions,False
+9eb3ef5b2d4894e75e5869041f0ab207a7ff36fd,2016-01-01 19:46:33,RubaXa,* on ->,False

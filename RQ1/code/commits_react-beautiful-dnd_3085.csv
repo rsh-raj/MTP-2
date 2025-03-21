@@ -1,0 +1,1478 @@
+Hash,Date,Author,Message,IsMerge
+b833d66c437b6a96c13591bcc9f7b3f4d2a6170e,2024-10-15 04:38:07,Alex Reardon,"Merge pull request #2674 from atlassian/updating-emoji
+
+no longer reusing same emoji in banner",True
+b4ada57c5dfb5bb69c76ac2ac96881a047facb56,2024-10-15 04:36:01,Alex Reardon,"Merge pull request #2671 from Pawikoski/master
+
+Change netlify.com to netlify.app",True
+ef2e6d0efc4f25b756465aa27a3478f24b30f322,2024-10-15 04:33:59,Alex Reardon,no longer reusing same emoji in banner,False
+c6993694e28dcd2c4725081616784fd4a2b26fa6,2024-10-15 04:31:53,Alex Reardon,"Merge pull request #2673 from atlassian/adding-deprecation-notice
+
+adding deprecation notice to readme",True
+e3a722c82bd6cbaa23e2db28e1f7b8dd39ee285c,2024-10-15 04:03:34,Alex Reardon,adding deprecation notice to readme,False
+206823559235852291f577786f5785671ae6757d,2024-10-06 18:47:44,Paweł Stawikowski,"Change netlify.com to netlify.app due to deprecated automatic .com redirects
+https://answers.netlify.com/t/deprecating-automatic-com-redirects/115442",False
+ae7bcf326928fea3615dfed092dd4261a3976e0d,2024-04-04 05:05:40,Alex Reardon,"Merge pull request #2574 from atlassian/updating-readme-with-notice
+
+adding notice about Pragmatic drag and drop",True
+c1e8e4ebc2bee0bab4f8841ca4debd75e1e0dfb4,2024-04-04 04:24:28,Alex Reardon,updating formatting,False
+81eff66248f638e1dcf3c6a2d000740ec53b5ea4,2024-04-04 04:02:20,Alex Reardon,updating section message type,False
+3bce4c19d8ad6ef3c317680b9dcd240854535a35,2024-04-04 04:02:20,Alex Reardon,adding notice about Pragmatic drag and drop,False
+96fedc3c68624b9d3ee1c19100bcd7f24ae251b6,2024-04-04 04:01:13,Alex Reardon,"Merge pull request #2575 from atlassian/trying-to-fix-build
+
+fixing build",True
+a302056b9753d332aba00d01fe59ba636ed4b697,2024-04-04 03:57:00,Alex Reardon,reverting timeout change,False
+099fea20de463b9d01dbeafbbc20e29307f18758,2024-04-04 03:02:40,Alex Reardon,disabling a11y browser test for now,False
+96844518693b932bd86d54738d75fc4ba1e91d0a,2024-04-03 16:45:06,Alex Reardon,increasing timeout,False
+b98206b99bd1a0331b3c4c3bf94c900dcb556728,2024-04-03 16:16:45,Alex Reardon,increasing lighthouse timeout for ally test,False
+f72a7004564e187445bef833e937783a6f5e8734,2024-04-03 16:08:59,Alex Reardon,trying to fix build,False
+013bfceac04ff48548c33cdc468dd2927446fc1b,2023-06-08 08:20:02,Daniel Del Core,"Merge pull request #2499 from k-sav/patch-1
+
+Docs: Update setup-problem-detection-and-error-recovery.md",True
+1efc28093d754a1b14c985305cfa08002020c0e6,2023-04-20 15:26:16,Kris,"Update setup-problem-detection-and-error-recovery.md
+
+Fix small type. Assuming a non-rbd /runtime error also cancels any active drag",False
+468c710f7b440ba1556d4381fca24ae78eb5cd4e,2022-11-15 04:23:58,Daniel Del Core,"Merge pull request #2454 from paulmoliva/patch-1
+
+Update draggable.md style spread example",True
+73517f3439be2e4b724c106627fee54ac6676773,2022-11-11 02:29:22,Paul Oliva,"Update draggable.md style spread example
+
+Style overrides should occur AFTER the spread of the style props, to match the guide.",False
+1a380855d0d008c5d6ef8e34c7c8ffb96c66a881,2022-08-30 09:42:18,Daniel Del Core,13.1.1,False
+d75f40f14e10e9d4854ba4517f64821e69d6dc52,2022-08-30 09:04:41,Daniel Del Core,"Merge pull request #2429 from jankanty/master
+
+Updated peerDependencies to react@^18",True
+5795f1c1de4ff8c1f86be1dc8f3439e23059c991,2022-08-30 09:02:13,Daniel Del Core,"Merge pull request #2405 from eltociear/patch-1
+
+Add Japanese link",True
+a0ddeaa197f8c497bab62b3b515ca069e67d9968,2022-07-14 17:23:16,Jan-Kanty,Updated peerDependencies,False
+a97901adb6596bcfd2ae44e4185a3815aaa74b3b,2022-05-19 15:26:47,Ikko Ashimine,Add Japanese link,False
+ed57ed6a2366833d92eb48ffd68aeecf1e025724,2022-02-10 10:46:31,Dave Draper,"Merge pull request #2368 from atlassian/greek-translation-link
+
+Update link to Greek translation",True
+fd493d31f7a3a6cfe3e1a89293bbc64bd2cebd81,2022-02-10 09:52:45,Jack Lo Russo,Update link to Greek translation,False
+d77908e2c31a081aef766c0f624994bbbc7edb9c,2021-10-15 11:36:19,Daniel Del Core,Update README.md,False
+fd55d77b0e2330b6af08206b2e05f2e24e67bbca,2021-10-15 11:01:52,Daniel Del Core,"Merge pull request #2322 from atlassian/danieldelcore-patch-1
+
+Adds maintenance & support disclaimer",True
+99198933fa9bdb897e0d1b77bb6641fa0817d28b,2021-10-15 11:00:49,Daniel Del Core,Update README.md,False
+7ded1b2b1ac6eb48ffc553abbc3b8056f23648d6,2021-10-15 09:59:21,Daniel Del Core,Update README.md,False
+0e7c388f9ebb3d8dda1cb68d909aba65a35f3eef,2021-10-15 09:58:25,Daniel Del Core,Update README.md,False
+e17aa45700b210e91fdf25e60c702506b98dba13,2021-08-31 05:14:46,Daniel Del Core,"Merge pull request #2302 from atlassian/updating-author
+
+updating author section",True
+1e2fa69a024931cadbc2005f01e73695c2e27eb4,2021-08-31 05:11:49,Daniel Del Core,Update README.md,False
+84f91616abcc5ced9761e451cbb19d10fe74dc5b,2021-08-31 04:53:30,Alex Reardon,updating author section,False
+799d2153fcdee3393a54863f4e67e8804895752d,2021-06-17 08:28:48,Daniel Del Core,Merge pull request #2244 from atlassian/renovate/jest-monorepo,True
+8c2962a2323108de4029343b38bcc52e1ba783b7,2021-06-01 06:59:29,Renovate Bot,Update jest monorepo,False
+f5f4cb272cf9f29044badd5d693d0321b07f65fe,2021-06-01 05:16:58,Daniel Del Core,"Merge pull request #2207 from atlassian/renovate/wait-port-0.x
+
+Update dependency wait-port to v0.2.9",True
+2f0bac66608b1237a361ceaa55913ab660bb7e95,2021-06-01 05:15:23,Daniel Del Core,"Merge pull request #2148 from atlassian/renovate/globby-11.x
+
+Update dependency globby to v11.0.3",True
+0310f3aee79fa9bda34bd8c80214c55e125c6c2e,2021-06-01 05:14:54,Daniel Del Core,"Merge pull request #2206 from atlassian/renovate/stylelint-config-prettier-8.x
+
+Update dependency stylelint-config-prettier to v8.0.2",True
+efa843e46f5d889a01e84111e89632d168c047e6,2021-06-01 05:13:40,Daniel Del Core,"Merge pull request #2205 from atlassian/renovate/eslint-plugin-cypress-2.x
+
+Update dependency eslint-plugin-cypress to v2.11.3",True
+010c82dd7ee2738ae3c910255fc637bf75c2186d,2021-06-01 05:13:16,Daniel Del Core,"Merge pull request #2232 from lukeingalls/master
+
+fixed typos",True
+5fb201db1d7d9fe2cfecc533967d4a4817303359,2021-05-22 07:49:48,Luke Ingalls,fixed typos,False
+5be456e8e03bdb97a5627c19379331fe0dce684b,2021-05-12 05:43:06,Daniel Del Core,"Merge pull request #2215 from atlassian/dependabot/npm_and_yarn/hosted-git-info-2.8.9
+
+Bump hosted-git-info from 2.8.5 to 2.8.9",True
+a2c101fd08bc194ee22d38e259be7d3b2198ad29,2021-05-10 07:16:06,dependabot[bot],"Bump hosted-git-info from 2.8.5 to 2.8.9
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.8.5 to 2.8.9.
+- [Release notes](https://github.com/npm/hosted-git-info/releases)
+- [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+- [Commits](https://github.com/npm/hosted-git-info/compare/v2.8.5...v2.8.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+8fccf85f4d3654b8cf8fa701fb6b9deb6b7a14bb,2021-05-05 05:27:21,Renovate Bot,Update dependency wait-port to v0.2.9,False
+717fc6793ed86a91aab74f46dce5b058dd79e4ec,2021-05-05 05:27:05,Renovate Bot,Update dependency stylelint-config-prettier to v8.0.2,False
+deb0319bc910f61816bf3a8aac1dd407098d95af,2021-05-05 05:26:20,Renovate Bot,Update dependency globby to v11.0.3,False
+a84e325391251aa6b4d6f86e0506ff2ab1ddd756,2021-05-05 05:23:37,Renovate Bot,Update dependency eslint-plugin-cypress to v2.11.3,False
+e0cce3ba909acd056702a3d156445134b32d8d7e,2021-05-05 05:22:33,Daniel Del Core,"Merge pull request #2190 from atlassian/renovate/rollup-plugin-terser-5.x
+
+Update dependency rollup-plugin-terser to v5.3.1",True
+24d577d4feee989cd4182e3b2865d829ecd32c15,2021-05-05 05:22:16,Daniel Del Core,"Merge pull request #2191 from atlassian/renovate/stylelint-13.x
+
+Update dependency stylelint to v13.13.1",True
+f8791a919974510f2f6667affddbe75896cfc78a,2021-05-04 07:10:02,Daniel Del Core,Update combining.md,False
+3bc40b901d1cc06f1283edc0c4922a0812e6c21d,2021-05-01 18:18:51,Renovate Bot,Update dependency stylelint to v13.13.1,False
+3cbb1e5643265840694a26833556595cd2714a59,2021-04-21 05:41:43,Renovate Bot,Update dependency rollup-plugin-terser to v5.3.1,False
+82db624d0bbcf2aef260121d249355b30ef1129d,2021-04-21 05:38:54,Daniel Del Core,"Merge pull request #2126 from atlassian/renovate/atlaskit-theme-9.x
+
+Update dependency @atlaskit/theme to v9.5.6",True
+ade72ec4aa0a1fb95432e37ff1cda0d4feb552ca,2021-04-21 05:38:44,Daniel Del Core,"Merge pull request #2132 from atlassian/renovate/eslint-config-prettier-6.x
+
+Update dependency eslint-config-prettier to v6.15.0",True
+2d1fd077ef235c39956bcf102fee813854f754d5,2021-04-21 05:37:59,Daniel Del Core,"Merge pull request #2144 from atlassian/renovate/eslint-plugin-jsx-a11y-6.x
+
+Update dependency eslint-plugin-jsx-a11y to v6.4.1",True
+d7c00181151430ff9e1885aaaac729dc87e6042e,2021-04-21 05:37:26,Daniel Del Core,"Merge pull request #2134 from atlassian/renovate/eslint-plugin-import-2.x
+
+Update dependency eslint-plugin-import to v2.22.1",True
+5565f12cc196803541a5bf481478cd27fed1d584,2021-04-12 05:41:55,Daniel Del Core,"Merge pull request #2150 from atlassian/renovate/jest-axe-3.x
+
+Update dependency jest-axe to v3.5.0",True
+ec828680c78de68dc3b851cd9f38941f581861c5,2021-04-08 06:33:55,Daniel Del Core,"Merge pull request #2167 from atlassian/renovate/react-window-1.x
+
+Update dependency react-window to v1.8.6",True
+8770df70cc2abf9d7319d412fb45a358dbefe2f9,2021-04-02 16:24:04,Renovate Bot,Update dependency react-window to v1.8.6,False
+2360665305b854434e968e41c7b4105009b73c40,2021-04-02 16:22:59,Daniel Del Core,"Merge pull request #2147 from atlassian/renovate/fs-extra-9.x
+
+Update dependency fs-extra to v9.1.0",True
+7950af6f19bdca9697fe7a7bff096912c3d4e71d,2021-03-31 13:39:12,Renovate Bot,Update dependency eslint-plugin-jsx-a11y to v6.4.1,False
+f6aa91157d8c5a5a875fb91c3ea467ec56c8bf40,2021-03-31 10:54:49,Daniel Del Core,"Merge pull request #2162 from atlassian/dependabot/npm_and_yarn/y18n-3.2.2
+
+Bump y18n from 3.2.1 to 3.2.2",True
+e851ec386b7cf5b18aa58fe2d58e1d638bc048c6,2021-03-31 10:54:01,Daniel Del Core,"Merge pull request #2127 from atlassian/renovate/testing-library-react-10.x
+
+Update dependency @testing-library/react to v10.4.9",True
+b10bd02eff2a91c15337b2c527dfc4fad4dc66ce,2021-03-31 05:47:16,Renovate Bot,Update dependency @testing-library/react to v10.4.9,False
+9043966fa89138c9103da9cd17e1e1108d9311ed,2021-03-31 03:46:40,Daniel Del Core,Merge pull request #2151 from atlassian/renovate/jest-watch-typeahead-0.x,True
+cb4cf05e742baadc58ea313a8f5f0d20f9008372,2021-03-30 20:07:44,dependabot[bot],"Bump y18n from 3.2.1 to 3.2.2
+
+Bumps [y18n](https://github.com/yargs/y18n) from 3.2.1 to 3.2.2.
+- [Release notes](https://github.com/yargs/y18n/releases)
+- [Changelog](https://github.com/yargs/y18n/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/yargs/y18n/commits)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+8264c50baedea16f3674495f679ab1e822f8b617,2021-03-23 15:59:15,Renovate Bot,Update dependency @atlaskit/theme to v9.5.6,False
+32cdf4c9bca10de9643ce952985474bd97c198b4,2021-03-23 11:04:11,Renovate Bot,Update dependency jest-watch-typeahead to v0.6.1,False
+495f1fc5e004a4a02948dd37a8251d948dc41a85,2021-03-23 11:02:55,Daniel Del Core,"Merge pull request #2145 from atlassian/renovate/eslint-plugin-prettier-3.x
+
+Update dependency eslint-plugin-prettier to v3.3.1",True
+d376b52f1532bd256db240c96e1c5a71cfc46137,2021-03-23 09:33:55,Renovate Bot,Update dependency jest-axe to v3.5.0,False
+74f936614124a0e61682f0b83987a68fae305bc1,2021-03-23 09:32:18,Renovate Bot,Update dependency fs-extra to v9.1.0,False
+59b76ccb2e269446de4ee06ffcde44561926b96b,2021-03-23 09:31:44,Renovate Bot,Update dependency eslint-plugin-prettier to v3.3.1,False
+7fcf06667f5913076f6471f5508bd067764d3443,2021-03-23 09:31:30,Renovate Bot,Update dependency eslint-plugin-import to v2.22.1,False
+1069d36de9e5e4b8fdc714acfe5cee2d3e3b391b,2021-03-23 09:31:16,Renovate Bot,Update dependency eslint-config-prettier to v6.15.0,False
+b8810492fb8ff87ec40861df92ea5590b4a19e1e,2021-03-23 09:31:09,Daniel Del Core,"Merge pull request #2128 from atlassian/renovate/cross-env-7.x
+
+Update dependency cross-env to v7.0.3",True
+27ed6e46e8761f317998ba9b259d4ecd5276d0d6,2021-03-23 09:29:44,Daniel Del Core,"Merge pull request #2125 from atlassian/renovate/atlaskit-css-reset-5.x
+
+Update dependency @atlaskit/css-reset to v5.0.12",True
+2247614d8eec6af09aa0b5c92794a7d2dc60c58e,2021-03-23 09:29:28,Daniel Del Core,"Merge pull request #2124 from atlassian/renovate/docker-cypress-base-10.x
+
+Update cypress/base Docker tag to v10.22.0",True
+48aa62802222564048fe9921e72be0f05ebfd974,2021-03-23 09:29:07,Daniel Del Core,"Merge pull request #2140 from atlassian/renovate/storybook-monorepo
+
+Update storybook monorepo to v5.3.21",True
+aa07523ecf482bb0f519bd51e7c0238a259d2954,2021-03-23 09:28:44,Daniel Del Core,"Merge pull request #2133 from atlassian/renovate/eslint-plugin-cypress-2.x
+
+Update dependency eslint-plugin-cypress to v2.11.2",True
+a75c475feb554021f0ca7ec8b817c9119307e806,2021-03-23 09:28:25,Daniel Del Core,"Merge pull request #2135 from atlassian/renovate/eslint-plugin-jest-23.x
+
+Update dependency eslint-plugin-jest to v23.20.0",True
+71dabe128aeb1438c8eb7a7accf6fbcc9a62625f,2021-03-23 03:01:11,Renovate Bot,Update storybook monorepo to v5.3.21,False
+5d073e6674517c3998aa8067ee5f852a1611a9a9,2021-03-22 05:24:59,Renovate Bot,Update dependency eslint-plugin-jest to v23.20.0,False
+7dd153fbabaf15aeddfacf6548c37af7afe784c6,2021-03-22 05:23:50,Daniel Del Core,"Merge pull request #2122 from atlassian/renovate/docker-circleci-node-10.x
+
+Update circleci/node Docker tag to v10.24.0",True
+5435dba20a1e5d491529c4c6f3cfa669410d80e6,2021-03-22 04:59:57,Daniel Del Core,Merge branch 'master' of github.com:atlassian/react-beautiful-dnd into master,True
+ef95e905af0b1fdce5bbffc9f41f2cd1e9b9392c,2021-03-22 04:55:06,Renovate Bot,Update dependency eslint-plugin-cypress to v2.11.2,False
+3de5cb262200a0861c5377efb5139287dbf58f4d,2021-03-22 04:53:52,Renovate Bot,Update dependency cross-env to v7.0.3,False
+c38d72c9586904e3f1be3584ce4dd7410e0ab49f,2021-03-22 04:53:07,Renovate Bot,Update dependency @atlaskit/css-reset to v5.0.12,False
+a74a9adfc8ca8b15964f6c1e389bc87b8a58de90,2021-03-22 04:50:47,Daniel Del Core,"Merge pull request #2119 from atlassian/renovate/pin-dependencies
+
+Pin dependencies",True
+05bc8d6360601ad1eba6298e974dfdbbd0e10e80,2021-03-22 04:50:19,Daniel Del Core,"Merge pull request #2120 from atlassian/renovate/node-10.x
+
+Update Node.js to v10.24.0",True
+83a22564a01d53aef24717d5f977c7e832f129fb,2021-03-22 04:04:51,Daniel Del Core,13.1.0,False
+e3f71bcd95ad0fd7f8b87447bf70d5e710cd4861,2021-03-22 03:34:25,Renovate Bot,Update cypress/base Docker tag to v10.22.0,False
+f5bdcd5eff6a48edee3ce7ac89c5a09b85a55aab,2021-03-22 03:34:22,Renovate Bot,Update circleci/node Docker tag to v10.24.0,False
+dd1b02b79973bba691b4da0beac32fff0ab7b543,2021-03-22 03:34:15,Renovate Bot,Update Node.js to v10.24.0,False
+88fdea115aa554f7ad130cbc35b4a0de33a09926,2021-03-22 03:34:05,Renovate Bot,Pin dependencies,False
+d94f4bd59e1b86153852f2941069055695d02585,2021-03-22 03:32:35,Daniel Del Core,"Merge pull request #1860 from atlassian/renovate/configure
+
+Configure Renovate",True
+57f4d610e0fde8e7f40c1ebb0e503248ae248dec,2021-03-18 13:55:59,Renovate Bot,Add renovate.json,False
+00b9209f017767702ee8166e38dc6c1474755f08,2021-03-18 10:42:38,Daniel Del Core,"Merge pull request #1943 from vkentta/patch-1
+
+Fix reparenting code example",True
+4a14a3f7aadd0b5d921750d0e10435d656884061,2021-03-18 10:40:21,Daniel Del Core,"Merge pull request #1981 from agilatakishiyev/text-fixes
+
+Replaced provided.isDragging with snapshot.isDragging in droppable.md file.",True
+bcfaf331e4b2f9c3b8ec5ff43f617c6986101335,2021-03-18 10:34:24,Daniel Del Core,"Merge pull request #2011 from ValentinH/fix-touch-sensor-typo
+
+Rename use-touch-sensor default export to useTouchSensor",True
+3ff34897a85f06319ece96c785e0bb30291d5195,2021-03-18 09:12:52,Daniel Del Core,"Merge pull request #1838 from vladmoroz/export-default-sensors
+
+Export default sensors",True
+7e1e0bff4ec02131173aad47383f81e8c5d76111,2021-03-18 08:24:08,Daniel Del Core,"Merge pull request #2071 from petyosi/patch-1
+
+Add react-virtuoso examples to virtual list doc",True
+fa4af86277dee3a378ae375a656d5250196fcc73,2021-03-18 08:21:19,Daniel Del Core,"Merge pull request #2044 from ToriK17/patch-1
+
+Update preset-styles.md",True
+a39e89289c1e539496e76daf1a28bcaa4746ea2d,2021-03-18 08:14:20,Daniel Del Core,"Merge pull request #2035 from 100terres/allow-react-v17-as-peer-dependency
+
+Allow react v17 as peer dependency",True
+124998f97f15a422e7ee8ef3de682f73190ff991,2021-03-18 08:05:35,Daniel Del Core,"Merge pull request #2096 from hdks55l/master
+
+add documentation in greek",True
+8fa807ee8173ffe0a1b88705f448d5f22853377c,2021-02-22 00:09:15,hdks55l,add documentation in greek,False
+15b33eea516b7eff60b6546dc80f8337854f2aef,2021-01-26 15:36:21,Petyo Ivanov,"Add react-virtuoso examples
+
+Links to the documentation of the project and a fork of the react-window code sandbox.",False
+fb503621d6f314d744d868322abeaf9089236584,2021-01-04 09:12:48,Daniel Del Core,"Merge pull request #2040 from 2stash/add-addon-storysource
+
+added storysource 5.3.18",True
+70d1ce42fd40fd7d9de767b3eada4e49d41190e1,2021-01-04 08:48:32,Daniel Del Core,removes package-lock,False
+4ffafcf71bce9260668e142f18c17ccd9140c722,2021-01-04 08:36:54,Daniel Del Core,"Merge pull request #2049 from inokawa/patch-2
+
+Update reparenting.md",True
+147b0e885e7bb7805b89f8a9da65f1288252ae86,2021-01-04 08:35:49,Daniel Del Core,"Merge pull request #2048 from inokawa/patch-1
+
+Update drop-animation.md",True
+6b9c79cc1f407a3cb2359bdddd15b4902b169292,2020-12-31 20:49:25,inokawa,Update reparenting.md,False
+4beb083b1f6cb4cda08415b4fcbe78b1bff081a4,2020-12-31 19:56:18,Daniel Westlund,added package with yarn,False
+f24c1eb3cc645570f4bee906b16c0397a5b19cc0,2020-12-31 19:10:33,inokawa,Update drop-animation.md,False
+f37c905fc2ec95258a90f65e66946d743b43f67f,2020-12-31 05:31:18,Daniel Del Core,"Merge pull request #1847 from hednowley/patch-1
+
+Fix error in example code",True
+07cccc63c830793b386902e453b8b9883f825865,2020-12-31 05:21:31,Daniel Del Core,"Merge pull request #1954 from hodovani/patch-1
+
+Remove an event listener in componentWillUnmount",True
+1a579346a205ab8a5cf6761c7c19d4e7ff5a4ae7,2020-12-30 04:51:54,Tori,"Update preset-styles.md
+
+Felt it was more confusing to users to create a link to a page that doesn't have explicit information about the item you clicked.",False
+92690b42d6c2a246cc4494a6c5f0ad41984d339c,2020-12-22 20:02:20,Daniel Westlund,removed config options that are not needed in 5.3.* storysource,False
+d8cc9cbeee33f793cd05106375bdf4c77043f772,2020-12-21 21:20:56,Daniel Westlund,adding package-lock.json,False
+e42671ade1635c3f318e6fbe22f5559818479d29,2020-12-21 20:44:40,Daniel Westlund,added storysource 5.3.18,False
+5f3e0bce84af917c785857c6f2b93c97919c51ae,2020-12-21 05:30:07,Daniel Del Core,"Merge pull request #1908 from alexbudure/patch-1
+
+Fixed typo in docs",True
+87bcf69a2a7b71d4b083f84e484bf6b633186272,2020-12-21 04:51:19,Daniel Del Core,"Merge pull request #1957 from johnrees/patch-1
+
+Update @atlaskit/tree URL in README",True
+3b5b75d1232370d4289e66264f8f5fd5a2e60c28,2020-12-20 15:47:41,Daniel Del Core,"Merge pull request #2006 from featherbear/patch-1
+
+Fix documentation grammar and example code issues",True
+d7b802d9f0a43990cd1fa29ecb873fb2afeaff87,2020-12-20 15:45:14,Daniel Del Core,"Merge pull request #2019 from paulshen/patch-1
+
+Fix @atlaskit/tree README link",True
+bf4f7136679e30dbf55333a18f2e845ceb095371,2020-12-20 15:44:26,Daniel Del Core,"Merge pull request #2004 from GarrisonJ/patch-1
+
+Remove incomplete sentence",True
+5556b6be86cc28c1888b3748f9323780d40d1ff2,2020-12-11 11:53:49,Gabriel Santerre,Allow react v17 as peer dependency,False
+e74706521e48fcf7a31f9211cb952111dc5f7591,2020-11-19 07:34:15,Paul Shen,Fix @atlaskit/tree README link,False
+a7693a36f0f9970b02e624a9322447e5f91c661a,2020-11-10 19:19:46,Valentin Hervieu,"Rename to useTouchSensor
+
+This is not super important but found it misleading that the default exported function name was not matching the actual file name 🙂",False
+f85333a290c088d75c9ad12ac49c04b6c8cbe3a3,2020-11-05 11:36:42,Andrew Wong,Fix documentation grammar and example code issues,False
+0e51fd62bbe5f1088d0ae20c4228490e66761d5e,2020-11-04 03:32:45,Garrison Jensen,"Remove incomplete sentence 
+
+""Keep in mind that if you remove the dragging item or it's...""",False
+45fc6461595ba8785be1a4c9b7479ee80bbfaef3,2020-10-19 01:03:23,agilatakishiyev,replaced `provided` with `snapshot`,False
+1fa50e4f8d682c4ee3b9d6afeb2c65e13e1fe6a1,2020-10-02 04:31:57,John Rees,Update @atlaskit/tree URL in README,False
+7564598639c7ec968588f8b8959860dcc5c8a7e7,2020-09-25 15:19:15,matvii,"Remove an event listener in componentWillUnmount
+
+Event listener for event securitypolicyviolation [:36] added in componentDidMount [:35] is never removed from document [:36] , remove it in lifecycle method 'componentWillUnmount'.",False
+e9e2f6d089cb0a32d6d6c408cc25e84a93ca32c9,2020-09-10 17:37:11,Ville Kentta,Fix reparenting code example,False
+962b77f8d08467f427924ee83ff36f469cd1e9ec,2020-08-04 03:40:02,Alex Budure,Update reparenting.md,False
+6838c38d3bb8a35447acba3965fb636a01c340e5,2020-08-04 03:32:13,Alex Budure,Fixed typo in docs,False
+ec06fa266e1617cab2402e0613b36d88b9547f7f,2020-07-24 05:45:05,Alex Reardon,"Merge pull request #1894 from RavenAlly/patch-1
+
+Copy edit changes",True
+167bb0857c83af4512b95e543398752bbacb4f78,2020-07-23 13:33:05,Allison Ravenhall,"Copy edit changes
+
+Minor edits, added role and role description notes, added aria-describedby example, added NVDA details.",False
+7dc12ebb5ca5480c18f081301635801741d4ddd6,2020-05-25 02:32:55,Ned Howley,Fix error in example code,False
+a715d888bb83470b354ddfae06e528c397c2cc8d,2020-05-15 23:46:35,Vlad Moroz,Export default sensors,False
+b1ed2f17e94fbf4fab250847ad8882b3f4c346fc,2020-04-17 16:54:14,Alex Reardon,"Merge pull request #1675 from zrachlin/zrachlin-new-example
+
+Added codesandbox to examples in docs",True
+387a13aa423ce59aafc17bb8ff9c2efd997077c2,2020-04-17 16:52:29,Alex Reardon,"Merge pull request #1822 from atlassian/bumping-deps-for-realz
+
+Bumping deps for realz",True
+b163bf4436510d8622225d376c5151a589163150,2020-04-17 16:45:43,Alex Reardon,fixing responder timing test,False
+c46cc7e7ac7115e9229f3aa4abb2f3a8b2e1ed5c,2020-04-17 15:52:42,Alex Reardon,fixing test by lowering react testing library - awesome....,False
+c482a95465aaa62848a2a60ffb2e4808073ed09c,2020-04-17 15:41:26,Alex Reardon,updating snapshot,False
+490f1b9dca7e687b2ad9d5c4c3ec6a76d17b292b,2020-04-17 13:00:00,Alex Reardon,fixing a11y test,False
+684c320a21a0e0fc00c74af168591ba3f2774ef9,2020-04-17 12:47:43,Alex Reardon,Merge branch 'master' of github.com:atlassian/react-beautiful-dnd into bumping-deps-for-realz,True
+2bdcdabfea2eac97c38237e43638e6f800def715,2020-04-17 12:45:24,Alex Reardon,updating snapshot,False
+9186352bcc19985371438b6c9465f645d8d85b06,2020-04-17 12:44:40,Alex Reardon,initial bumping,False
+6a8d2776e8c51de01a88abef8e4667b06724eee2,2020-04-17 12:37:54,Alex Reardon,"Merge pull request #1798 from gburnett/gburnett/named-store-devtools
+
+Adds name to store for devtools",True
+a1403637e63cc90fc33fd8aa055ebf49b8547ade,2020-04-17 12:27:55,Alex Reardon,"Merge pull request #1820 from atlassian/adding-storybook-addon-performance
+
+adding storybook-addon-performance",True
+0600bbbd1beebfdac8b28e7799d71475cb56601e,2020-04-17 12:22:36,Alex Reardon,"Merge pull request #1818 from theBstar/patch-1
+
+Fixed typo on documentation",True
+28a0d897588efdfa013b43691fc4cb5b9e049005,2020-04-17 12:21:39,Alex Reardon,bumping version,False
+a1ea72049822430c1a06449d1cac459b81749e43,2020-04-16 03:46:12,Alex Reardon,Merge branch 'master' into gburnett/named-store-devtools,True
+d99d59452322bf3a7b94b62f8a7465aaabeb5c2a,2020-04-16 03:45:35,Alex Reardon,Merge branch 'master' into patch-1,True
+c32394bed5f9520c0df50b8433aff9e036a1de52,2020-04-16 03:45:22,Alex Reardon,"Merge pull request #1805 from Ardeshir81/patch-1
+
+minor typo fix",True
+31f3c381ee9daed896d7c11dde530e990d1bb0fd,2020-04-15 14:39:15,Bikram Sutar,"Fixed typo on documentation 
+
+The last line says ```We do not using reparenting out of the box because of this performance drawback.``` while it should be ```We do not recommend using reparenting out of the box because of this performance drawback.```",False
+1d9ba6f1576d7c285725412f445b7e5b6e82d52f,2020-04-14 04:22:35,Alex Reardon,adding storybook-addon-performance,False
+97b613b735b5cd655a7fa3c457dcbdb70ac4d392,2020-04-04 14:55:32,Ardeshir81,minor typo fix,False
+dab15a46f43752f14af76e95ee6b8ec68c8ef3bc,2020-03-27 22:26:11,gburnett,Adds name to store for devtools,False
+591ff2c3f3fe96ece7223a0f7b46e3eedb68c5c6,2020-03-06 06:33:42,Alex Reardon,adding additional media links,False
+a669b21becd5386e2adc09d14cf4e0a4a1fc0ce5,2020-03-03 09:20:43,Alex Reardon,"Merge pull request #1765 from phrazzld/patch-1
+
+Touch up copy",True
+d9e4a3ec14b66f7517a030e5558ea317f2ef5e6e,2020-03-03 09:03:04,Alex Reardon,Merge branch 'master' into patch-1,True
+2a402092bceb1955e0eb98c2fee08f92365553ea,2020-03-03 09:02:32,Alex Reardon,"Merge pull request #1766 from phrazzld/patch-2
+
+Quick grammar fix",True
+08b0e6a289ed24b74849038aea641d9f11736f79,2020-02-28 06:07:31,Phaedrus Raznikov,Quick grammar fix,False
+5123810f9c34c7f1e759add77d4dce46452f2f67,2020-02-28 05:57:59,Phaedrus Raznikov,"Touch up copy
+
+Fix typo, inconsistent object references, and unclear language",False
+c80236b10f99ee926ec896c59b8982ba324e58af,2020-02-26 08:32:09,Alex Reardon,"Merge pull request #1762 from timhwang21/tim/upgrade-react-redux
+
+Upgrade react-redux to 7.2.0",True
+c548c71f6b7370fe134b879637d3b86b6f242d70,2020-02-26 03:49:56,Tim Hwang,"Upgrade react-redux to 7.2.0
+
+7.1 had some annoying issues like memory leaks, etc. (summarized in
+their changelogs). I didn't find a Greenkeeper PR for this for some
+reason. Currently we're just using resolutions in our project, but I
+figured I might as well file an upstream fix!",False
+e0db866d69ab91fa5011ec496c8df2f955f1379d,2020-02-25 03:05:23,Alex Reardon,v13.0.0,False
+4e36611ae92e3d5f474e0fac965d7ed2196f2281,2020-02-20 14:19:38,Alex Reardon,v13.0.0-beta.1,False
+293dbc1a3509b37270e727880c7e22cdf47d79a4,2020-02-20 08:25:32,Alex Reardon,"Merge pull request #1754 from atlassian/html-dumping
+
+Handling early <body> changes",True
+85a51c44586f8e037cd41a1b6a4673fcaada81a3,2020-02-20 08:03:26,Alex Reardon,updating comment typo,False
+4d2292c964bc221cb553e50b8a02121021de6718,2020-02-20 07:52:01,Alex Reardon,updating bundlesize,False
+c44cd9823150505c45972f4c49f9e17010157772,2020-02-20 07:50:48,Alex Reardon,"renaming files, removing old temp spec",False
+cc35ccaef6faeb7bd456e2a3c11fdc5467d66f18,2020-02-20 07:44:48,Alex Reardon,renmaing file,False
+303c6a5e83dbb09558f546fa5152c6a1c5ec9eb9,2020-02-20 07:40:51,Alex Reardon,adding new catch all test for html dumping,False
+95e465e7de82b63c79fb40c512d14dcf11d6077d,2020-02-20 05:44:00,Alex Reardon,"Merge pull request #1752 from sdb1228/master
+
+Fix uncaught DOMException error",True
+f67c198c25ef9fc43e5547ccff0dde08972dfd9c,2020-02-20 05:37:10,Alex Reardon,Merge branch 'master' into master,True
+506cc2f5e7c3be30ca38b3df96eaba1e514f1590,2020-02-20 02:53:28,Alex Reardon,more accurate usage description,False
+43356114b7c53deb944c3927e24aa4e006806a4f,2020-02-19 14:58:42,Alex Reardon,Merge branch 'master' into master,True
+925c4fefe9b431dd18134ba9967b74c34e3b2462,2020-02-19 14:57:46,Alex Reardon,"Merge pull request #1741 from atlassian/accessibility-refresh
+
+Fixing lift announcements",True
+5c9b77fac5b0c9c6812ac402fcd22bd5b5c6811c,2020-02-18 22:04:35,Steven Burnett,Fix uncaught DOMException error,False
+f51f9682094bc8675c28abe0763cef27ecfcb54a,2020-02-18 11:35:21,Alex Reardon,Merge branch 'master' of github.com:atlassian/react-beautiful-dnd into accessibility-refresh,True
+a419edb9c0bd5e9ebf3ac54d3ab1cb84a8c23e45,2020-02-18 11:30:50,Alex Reardon,fixing outdated references to data attributes,False
+fc32f5ccabd926574e57adc8e448a2fe926ee7bd,2020-02-17 04:14:52,Alex Reardon,"Merge pull request #1744 from atlassian/greenkeeper/cypress-4.0.0
+
+Update cypress to the latest version 🚀",True
+fbc71b40ade606c711837e8f49665a113d82ab95,2020-02-14 03:33:20,Alex Reardon,aria notes,False
+cf59caf398678d80554d767cfffcc52bf0abf4da,2020-02-14 03:00:29,Alex Reardon,fixing lighthouse violations,False
+7be513bcead66ae42a430cd74d9df2159baf0d03,2020-02-14 02:42:10,Alex Reardon,adding some nicer assisted text,False
+249e1ad704ff6e07d65276aacaebbc19dd464a60,2020-02-13 02:59:01,Alex Reardon,improving comments,False
+7b2dfcf81240500775c2a072141fe3e4bfe776e8,2020-02-13 02:40:34,Alex Reardon,more refinements based on testing with NVDA,False
+157bfa72aeb777832c1b63befb62c0d2a615c7b4,2020-02-12 02:37:37,Alex Reardon,more work on the screen reader guide,False
+0d0b1d593755ab60ae2b31489ee3a8e7b021f026,2020-02-11 11:22:57,Alex Reardon,removing role from drag handle for now,False
+c19e7be64cd01f38bd30b9f4907b97b8699c507e,2020-02-11 02:15:33,Alex Reardon,giving useUniqueId memo function a name,False
+9204fb4ac35ad8375eb72e7258792d4ae964ad28,2020-02-11 02:14:22,Alex Reardon,useUniqueId now returns the same reference every time,False
+68046be9333efd0f3f7ec32db8b865fa75eb31c1,2020-02-11 02:10:40,Alex Reardon,new wirering for unique id,False
+d2c5eca5cf08afe086b20aad71bef74e98314b9d,2020-02-11 02:03:57,Alex Reardon,unique id helper,False
+8a194f31404fddc9e563d9189273694f199bdf5b,2020-02-11 01:42:03,Alex Reardon,using shared noop,False
+c3c7af3c73cb74400e453feddfbf1ad682e5c682,2020-02-07 03:32:08,greenkeeper[bot],chore(package): update lockfile yarn.lock,False
+f7a813204740e5c5aee16c7f4d040e158644810c,2020-02-07 03:32:03,greenkeeper[bot],chore(package): update cypress to version 4.0.0,False
+37e558da09fc9362b94b3da61704240a41bd6c23,2020-02-06 08:32:45,Alex Reardon,fixing broken links and tests,False
+af854b2f55909afd49ab1317db41917005fcecde,2020-02-06 05:46:01,Alex Reardon,updating snapshots,False
+f359c9ede865a20fd195a30cc1694188da00914f,2020-02-06 05:42:00,Alex Reardon,removing aria-roledescription for now,False
+1e60d82d7bc8e342a2a23545643db2b1c53482b4,2020-02-06 05:28:13,Alex Reardon,updating draggable attributes,False
+a6c90e193da164745bc2dec4d0ccffb9492f6cf3,2020-02-06 05:22:08,Alex Reardon,making getId more robust,False
+f8708b96679ef4146d1f5cc6b402c4b9017411ac,2020-02-06 05:20:04,Alex Reardon,renaming useHiddenText,False
+45ef30cd3ea422f8b9fb7eb142072f7e97b5272b,2020-02-06 05:07:30,Alex Reardon,removing redundant live region role,False
+dc89ad3c894966b8fd37f5cf2193b024ec3b250d,2020-02-06 05:05:02,Alex Reardon,restructing screen reader docs,False
+53331cd688b719d8a846cb9104d4616e93ba9863,2020-02-06 04:54:33,Alex Reardon,adding accessibility thinking,False
+4721a518356f72f1dac45b5fd4ee9d466aa2996b,2020-02-04 12:17:30,Alex Reardon,"Merge pull request #1738 from atlassian/bumping-for-funsies
+
+Bumping dev dependencies",True
+1ee6d16b4fb1e0bee61a7f119371e4759b5fbfbc,2020-02-04 12:11:22,Alex Reardon,removing unused comment,False
+3cadd3b4622788ef90b58a49990b80d5c32ec3c0,2020-02-04 12:06:46,Alex Reardon,updating bundle snapshot,False
+59b578275955fb4a69e90017615a7b17691b996d,2020-02-04 12:02:17,Alex Reardon,fixing lock file,False
+8eede2e5fe67733b4f3b1586c51d2bd1b4f18221,2020-02-04 11:53:05,Alex Reardon,updating flowtypes,False
+adb3957fd6421db863dab4b7f121425a76ed2221,2020-02-04 11:36:45,Alex Reardon,fixing linting,False
+fc9ac278744830015b92d1de23da2b4734a6681f,2020-02-04 11:22:33,Alex Reardon,bumping dev deps,False
+5bc9fb1f1b2c8000173e96601340160b043a4ffb,2020-02-03 09:17:32,Alex Reardon,"Upgrade eslint-plugin-es5 (#1733)
+
+Upgrade eslint-plugin-es5",True
+44045c6d6bad7f1accea7df61c17334811e8c172,2020-02-01 17:58:34,Bogdan Chadkin,"Upgrade eslint-plugin-es5
+
+Number.isInteger is forbidden now. Object.assign is added to exceptions
+globally.",False
+3b904004a954c9f887ba74b0090df9fbdc4d388a,2020-01-31 15:54:01,Alex Reardon,"Drop core-js in favour of custom fallbacks (#1725)
+
+Drop core-js in favour of custom fallbacks",True
+4e85653ec9595f96438ba2faea122967578b94c0,2020-01-31 15:43:50,Alex Reardon,Merge branch 'master' into drop-core-js,True
+f222575ed311119054f4bbb1273a41ede88f2731,2020-01-31 15:41:41,Bogdan Chadkin,Upgrade babel to fix issues with tests,False
+d7ec692bc68da12ec9ed0cd7d54150f089e2c965,2020-01-31 15:30:37,Bogdan Chadkin,Polyfill Object.assign with extends helper,False
+6ada21f2377334d26a1831a25ec9606acbad7d34,2020-01-31 04:47:14,Alex Reardon,"Merge pull request #1729 from aTuck/patch-1
+
+Update sensor-api.md typo",True
+3fb16caf71ad5ccb02cf0ccd01b5b7c11509b24d,2020-01-30 04:15:22,Adam Tuck,"Update sensor-api.md
+
+Typo: multipole -> multiple",False
+82ef6f6034fc9d101a42fa6b86baae5a597a6ab0,2020-01-28 20:32:41,Bogdan Chadkin,Fix lint,False
+f04fb494af0a18a76b52e46efec989fd494db725,2020-01-28 20:12:42,Bogdan Chadkin,"Drop core-js in favour of custom fallbacks
+
+Ref https://github.com/atlassian/react-beautiful-dnd/issues/1629#issuecomment-572408426
+
+I forbid using es6+ methods I added eslint-plugin-es6. It does not
+forbid isInteger but I send PR https://github.com/nkt/eslint-plugin-es5/pull/37.",False
+ebe816c23f9a60c0d88d65a12dbb446a17f2418d,2020-01-17 05:53:23,Alex Reardon,adding more media links,False
+6951143ae84aacab5fbaaa0687f3540e8d49be8c,2020-01-09 02:36:52,Alex Reardon,Merge branch 'master' into zrachlin-new-example,True
+0106a90d3b38686d78402e994ed6715dfd9ccf91,2020-01-09 02:35:25,Alex Reardon,"Sensor issue (#1702)
+
+Fixes issue with SensorAPI | tryReleaseLock",True
+d7f2ed23b6426f268b22d7475bdb50fd93210724,2020-01-09 02:15:37,Alex Reardon,Merge branch 'master' into sensor-issue,True
+9ab2498abc0a9d620d683afb3a9feb9fb8931d3b,2020-01-09 00:38:55,Alex Reardon,"Merge pull request #1690 from elamje/patch-1
+
+Update tables.md with grammar fix",True
+f9b546f783ea3fc2e56945adc67e7b0735001811,2020-01-08 16:59:15,Alex Reardon,Merge branch 'master' into patch-1,True
+8606c858c275e9a77cd493c0e5faf2775f1fc013,2020-01-08 16:58:22,Alex Reardon,"Merge pull request #1692 from elamje/patch-2
+
+Update tables.md",True
+7a22b0ff3d7dd0e188a2af5181d399a7e0d41863,2020-01-08 16:37:47,Alex Reardon,Merge branch 'master' into sensor-issue,True
+14002d3e040ea6711180ac96dafcf1e6cfd82093,2020-01-08 16:36:36,Alex Reardon,Merge branch 'master' into patch-1,True
+eceeed46d44ecc8b4ebcf3d26f439d3adbbe8db4,2020-01-08 16:35:44,Alex Reardon,Merge branch 'master' into patch-2,True
+d32292d75563d9ba9860510b677fc34969a2022c,2020-01-08 16:34:41,Alex Reardon,"Merge pull request #1703 from atlassian/cleaning-circleci-cache
+
+breaking circleci cache",True
+5d59071604298019e9eeb9c3954b41c3ed308a4c,2020-01-08 15:07:57,Alex Reardon,breaking circleci cache,False
+c439b54e2600e85adc1a842f88a2732970ade848,2020-01-08 15:04:00,Alex Reardon,fixing sensor aborting,False
+92d630d3d65ce8c8473c6dd64d8ec50a9ecf86a6,2020-01-08 03:29:46,Alex Reardon,wip,False
+d08526c21f728c51b1ab1997718ba116182d1d37,2020-01-08 02:40:23,Alex Reardon,adding breaking test case,False
+b5bb5ad1ca08d232e54726ac2dc4889b7aff5014,2019-12-26 22:47:10,John,"Update tables.md
+
+Added a beginner friendly example that doesn't require using responders. I specifically had a lot of trouble getting the styling (column widths) to apply while an element was being dragged using the current fixed layout strategy. The current guide makes it sound like you must use event responders and set styling based on if the element is dragging or not. This is not necessary (see sandbox link), and adds complexity for many beginners.",False
+f8b764cda662d6722de7218a6d49182f4420c153,2019-12-26 05:02:04,John,"Update tables.md with grammar fix
+
+Past tense.",False
+6d0878d54cbc7078da2db73c9ce032ebdcc250ae,2019-12-20 00:58:31,Zach Rachlin,"Added codesandbox to examples in docs
+
+Hi! I'm a novice at contributing to open source, so I apologize if I'm not doing this the right way, but I wanted to share this example with the community. I basically combined the ""Simple DnD between two lists"" example with the ""Using with function components"" example, and then added the ability to add a droppable area and add/delete an item into a new droppable area. It's not much, but I think it shows some of the awesome modularity and power of react-beautiful-dnd.
+
+Happy to remove this PR and add the suggestion elsewhere if you let me know the best way to proceed. Or just ignore this and I'll continue on my merry way!
+
+Thanks for the amazing library!! It's exactly what I was looking for.",False
+08c387ec79ce0fedcff4dbbff1f0429aa1b3c918,2019-12-06 02:52:43,Alex Reardon,being clearer that we are using function.bind with global scope (internal cleanup),False
+80209f1544ccfa9c60445315c92dce09da0cba76,2019-12-05 14:16:03,Alex Reardon,removing old combining behaviour description,False
+64557012dc256de2c8951dd8a1934c162e4e5d36,2019-12-05 14:11:10,Alex Reardon,adding media links,False
+24aac5d7b9a7ba7fc4b16484274799d235f8895d,2019-12-05 09:07:11,Daniel Del Core,v12.2.0,False
+c54e5097202ab5546967cdf9b5e9caca2c2761cf,2019-12-05 03:44:56,Alex Reardon,A new collision engine (#1638),True
+5f4320622fe3dd81f573ca06f364beaf06d47146,2019-12-04 11:51:34,Daniel Del Core,"Merge pull request #1657 from atlassian/distance-from-draggable-origin
+
+Fix the distance calculation to support varied lists",True
+73aecc85a94bc79cc9bf300abd55862033b3d3dc,2019-12-04 11:30:21,danieldelcore,rename droppables,False
+f34d0d36ac523966ff6ca92c945e7622cf2802cb,2019-12-04 11:19:41,Alex Reardon,adding some comments,False
+f40e208219f31e6d554284e3fad4ed908c5ae9b1,2019-12-04 11:13:29,Alex Reardon,new mechanism for measuring distance,False
+35d03301613c5bf69254583e22acd191fa2d17de,2019-12-04 11:11:58,danieldelcore,updated testcase for distance calculation,False
+0388fecf787bb8959819fab8c8766d251fe94c5f,2019-12-04 08:55:46,Alex Reardon,Merge branch 'master' into dev,True
+743cdc95a1da718cd89bcd2f33b73cff98aa4cbc,2019-12-04 08:48:15,Alex Reardon,"Merge pull request #1643 from atlassian/dan-time
+
+New logic for moving between lists",True
+a8df500c648c20137fe52a1c8ff705d9fe65b158,2019-12-04 04:15:53,danieldelcore,added test case for preferences,False
+ba85f4754848bd98b9c41fb47bcddc58ab85b287,2019-12-03 14:30:49,Alex Reardon,fixing linting,False
+b930eeafc7454d7c3c40129e3288aada21c6e5ef,2019-12-03 14:28:43,Alex Reardon,refactored get-droppable-over to only be O(n) rather than 3n,False
+251cfa6abf4447fb6430eabb8588abc53a056401,2019-12-03 05:48:39,Alex Reardon,v12.2.0-alpha.1,False
+7ec906674f281dc3a5fe9b4b6890e454cb7f951b,2019-12-02 16:28:01,Daniel Del Core,add test case for preferences,False
+63f3f1dc88b0ddd86e8a75a947ff7ec282ae1629,2019-12-02 10:30:31,Daniel Del Core,adds test case for item is totally over droppable,False
+d1f825765c6bf4c8346e654376c7bdb1088cf40f,2019-12-02 09:49:07,Daniel Del Core,remove describe blocks from test,False
+18c5dc683f58ad44701619cf0b8799efede6cbda,2019-12-02 09:46:48,Daniel Del Core,add test for item edge detection,False
+82b4cf20ca794456fc58464f11d01ca26a4e2f8a,2019-12-02 08:19:27,Daniel Del Core,added test cases for is-not-visible,False
+c765538043ef594aaada3720c722838a07942789,2019-12-02 03:54:37,Alex Reardon,lint and comments,False
+a341cc3fd3e3cc6e5aa8fc80dbb5f5c22bac5ddf,2019-11-30 13:56:38,Alex Reardon,fixing new tests,False
+6babfd8b8b5537d460cce45a1b1c166c0244ee4e,2019-11-30 13:48:27,Alex Reardon,breaking test into two,False
+03c0ca5268bf61ff3767b26f5d1aa8cf24c73e5a,2019-11-29 14:30:21,Alex Reardon,fixing get drag impact tests,False
+5279330b2778f0937cad6914a632c2ed44934862,2019-11-29 14:13:06,Alex Reardon,more tests for combining,False
+c0744b50a1a22b740369fe9b18fc229eb6a5c217,2019-11-29 14:00:19,Alex Reardon,new api for get drag impact,False
+a4bfca81884a0539971e70f5231179ee3f174395,2019-11-29 11:28:49,Alex Reardon,more test setup,False
+9d956286cc3f99f83a50e67177a42badf86e235a,2019-11-29 09:26:00,Alex Reardon,basic tests,False
+7910fa90f4c26e3dde16e0c6b228cb5bd29df25b,2019-11-29 09:14:23,Alex Reardon,adding empty test files,False
+fbdfe887688acd6d7d7c74e589b160e636f3e0aa,2019-11-29 09:08:52,Alex Reardon,adding comment,False
+cf5c7274ae983a560056903e0e3090339b277fc0,2019-11-29 09:04:41,Alex Reardon,"Remove duplicate code in dimension locking example (#1637)
+
+Remove duplicate code in dimension locking example",True
+27e45ae05889b727f40d9ba0b1f98c76101614ed,2019-11-29 09:01:27,Alex Reardon,moving file,False
+8f3b94c145d24b22643c6e23d1d2e38522956f99,2019-11-29 08:50:11,Alex Reardon,using active area,False
+9a35d6507843e8dcf25b8e8ed32bdc1241fbeff3,2019-11-29 08:23:41,Alex Reardon,its alive,False
+29fdadc0b4d0461c6a64456ec8dfff3612908ff5,2019-11-29 05:42:24,Alex Reardon,Merge branch 'master' into patch-1,True
+f186052fe0710faad5655953aff6865e9a98bf41,2019-11-29 02:38:58,Alex Reardon,more flexibility to mixed list width example,False
+f5b21f9a608d72f1e216a6ce386a0d181642ebc7,2019-11-28 09:17:45,Alex Reardon,adding more robust example,False
+5d1bbb979ebe1442780c5dae73b81e63b3bcf5af,2019-11-28 08:54:07,Alex Reardon,exporting divisor,False
+5b3537472a411a62d2fbc37b1c1b141260a4d4f7,2019-11-28 06:07:29,Alex Reardon,Using target center for displacement (#1620),True
+72a24ebaf239a6194e34c5bba9a225a206f1a325,2019-11-28 03:58:24,LinusCenterstrom,Update useIsomorphicLayoutEffect check (#1636),False
+f9d9567e7282d51e16f7471fa63044d51d8031d5,2019-11-28 03:29:28,Alex Reardon,fixing lint issues,False
+363915db2044dc026051b40d9e25477ecccb63bb,2019-11-28 03:21:01,Alex Reardon,fixing combine test,False
+be41e86556b701ea0eee5f5d80fab6b503afbd65,2019-11-28 02:39:27,Alex Reardon,fixing with-droppable-scroll,False
+c6b143e82d321eacf69182f8ee298cf19bc729ce,2019-11-28 02:33:09,Alex Reardon,moving utils around,False
+4f8256624929fb7bbf94a2b8b5a84d6fa100f8fd,2019-11-28 02:29:39,Alex Reardon,fixing combine disabled tests,False
+8e4c3845e8d396e8baf5d95c6077d49f09b9913b,2019-11-27 16:34:04,Craig Egerton,"Remove duplicate code in dimension locking example
+
+The same boolean check is performed twice, once after the other.
+
+This cleans up the example for readability and to fix redundancy.",False
+9eb43b78bb46e76d2ae51f18f5013a7888287abc,2019-11-27 13:41:54,Alex Reardon,more combining tests,False
+d127ff930bd697792990842f383701eb11b48ed5,2019-11-27 13:41:54,Alex Reardon,fixing test an dcomment,False
+009470b769ee60f9d11b93e4de3000878066b978,2019-11-27 13:41:54,Alex Reardon,tweaking combining logic,False
+12b2a47a358813b7816eaa9ac07c2feb31560c14,2019-11-27 13:41:54,Alex Reardon,swapping argument order for after-point and before-point,False
+527a9a50abd774080451d4a762411270bf6b282e,2019-11-27 13:41:54,Alex Reardon,wip,False
+1e292c445581b8b3e6aa8542f795e4089b010488,2019-11-27 13:41:54,Alex Reardon,more tests,False
+9f5b13ff12d03f491b495253421dd806e24d5da0,2019-11-27 13:41:54,Alex Reardon,after critical combine tests,False
+e5fb81f4a9186cce43a7154c1cd5d455110e2742,2019-11-27 13:41:54,Alex Reardon,reorder impact tests,False
+79bc09a1d01ff7a028a237ac990dbfdafd9d9252,2019-11-27 13:41:54,Alex Reardon,adding comments,False
+797aac052fc11bea3ab09545f3ac3c5b9545410a,2019-11-27 13:41:54,Alex Reardon,updating tests to reflect new logic,False
+0bc3d8f73ec3bed8afaa66cafa1b12b63a17e7d3,2019-11-27 13:41:54,Alex Reardon,more tests for reorder updates,False
+a99b4e4cb03291a823373b09e6f0855ce0b6beba,2019-11-27 13:41:54,Alex Reardon,standard reordering tests,False
+203ae43f1909ac1aef6fa5e7982806669bfd1524,2019-11-27 13:41:54,Alex Reardon,getting into reorder impact tests,False
+993518b47466a6e72d291a732bad47837fa65782,2019-11-27 13:41:54,Alex Reardon,basic get drag impact,False
+d793862e6ad359fd57bd85184a4c3f28b4794547,2019-11-27 13:41:54,Alex Reardon,move to next place tests,False
+19b6f825d848d5f7a93f124e17e610a0dd14c351,2019-11-27 13:41:54,Alex Reardon,more test user direction removal,False
+a5f83a64118de62b79e8c2c3807186d3a4e6c813,2019-11-27 13:41:54,Alex Reardon,removing user direction in more tests,False
+b1612273bcf746f33f0f61c8869ac08cbd40b0ec,2019-11-27 13:41:54,Alex Reardon,removing user direction tests,False
+8806888b09e63eeee051f5e763cf9e66e8c22a6e,2019-11-27 13:41:54,Alex Reardon,reformating,False
+234f124c94f0663df3c5b3de827f72731a5bafc5,2019-11-27 13:41:54,Alex Reardon,greater than checks,False
+b0efae979379295dfaf09f371e0c55864816434b,2019-11-27 13:41:54,Alex Reardon,different combine threshold,False
+9d18e2ba6187a8782c4041a90ead7b22fa6a786a,2019-11-27 13:41:54,Alex Reardon,removing userDirection,False
+eaee1b5144a7dfb125ffea0ffe9786debee03ce1,2019-11-27 13:41:54,Alex Reardon,toggling combining for example,False
+564fafbe5dd26081a5a2c53238c0747b813089c5,2019-11-27 13:41:54,Alex Reardon,adding algorithm for combining,False
+907f855e37d2e647fb9a99063db3af3db9ade0ed,2019-11-27 13:41:54,Alex Reardon,minor touches,False
+c1c8b32b64881f9bef711f5fa8f0f8c1dd22f5a9,2019-11-27 13:41:54,Alex Reardon,adding TODO,False
+9eb3aef86e9f56253daced598a765b0198b6d210,2019-11-27 13:41:54,Alex Reardon,first attempt at using target center for displacement,False
+acb9206634f76e7826023da7dee67248403c2089,2019-11-27 11:35:53,Daniel Del Core,Remove duplicate boolean checks (#1635),False
+c09aa9cabf0306b596428d09747982af996bed69,2019-11-25 15:17:42,Alex Reardon,fixing mixed sized list example,False
+45e395f78da92d8d03ac7eb216949645f6574c8d,2019-11-21 03:41:42,Alex Reardon,Wide lists experiment (#1619),False
+dec0c876424271be38f5ac0252fa5b5a881df419,2019-11-19 11:56:43,Alex Reardon,"adding examples for mixed sizes (#1618)
+
+adding examples for mixed sizes",True
+ed74de64567e89d4b354b6f4183e6c6350903f77,2019-11-19 11:51:45,Alex Reardon,adding examples for mixed sizes,False
+280a848ecedddbb9f1327b14ae1e53f6913a8b44,2019-11-15 14:07:28,Alex Reardon,v12.1.1,False
+fa063fd555535c83540ed1c939ba2a5b89b861b3,2019-11-15 14:06:39,Alex Reardon,"Change dependency to dev (#1614)
+
+Thanks for the pickup!",True
+35bacd7a833e3bee4fa31f03d270a80837068020,2019-11-15 13:34:47,Dominykas Blyžė,"Change dependency to dev
+
+`jest-axe` is only used during testing, therefore it belongs in `devDependencies`.
+
+This is normally not a big deal, aside from increased install time, but still.",False
+11517993622968807b123a3e46b17ffba1b0c96f,2019-11-15 03:00:45,Igor Rocha,"Fix small typo on docs (#1611)
+
+Update from ""then"" to ""than"" on ""We cannot give more information then this because things might change""",False
+cbedc3262e4124deccb436fd966dd837eaf44f2b,2019-11-14 13:00:04,Alessandro Rodi,correct aria-label for lift button (#1606),False
+cbd63274989b2d1ee99c2d8e2bd0b37d7da335d7,2019-11-14 12:02:54,Alex Reardon,v12.1.0,False
+277ac61fbd70f014bfebbb59af763554daf20b08,2019-11-14 11:50:23,Alex Reardon,fixing issue with docs,False
+4a0755e189ee4e01c99e38427924c90ff9dd62ce,2019-11-14 10:43:32,Alex Reardon,updating DragDropContext docs,False
+c8c86601b3666b8236ff46d56daeedaf9c41e566,2019-11-14 10:35:18,Alex Reardon,Adding onBeforeCapture Responder (#1605),False
+c943a8a2a9c0fc6dbf74fee236750816709c407e,2019-11-08 10:51:54,Alex Reardon,adding clearer readme link,False
+1b751f8e47fa59e4646da7f92010fc4526cde0ec,2019-11-08 10:46:06,Alex Reardon,fixing issue with announcer and hot module reloading (#1585),False
+14a66deddc2824f7ed6d277ab4763a389ff3ba51,2019-11-08 05:58:22,Sean Curtis,Improving the accessibility for lift instructions (#1578),False
+4fc113bfe8d853a9e31eccd8993b77bb6f9b5de2,2019-11-06 14:56:02,Alex Reardon,cleaning urls,False
+3b4a72341314516541758d03aa3e93d140351a05,2019-11-03 14:04:22,Michaël De Boey,"[ImgBot] Optimize images (#1567)
+
+*Total -- 71.67kb -> 68.70kb (4.14%)
+
+/stories/static/media/bmo.png -- 19.64kb -> 17.21kb (12.4%)
+/.storybook/compressed-logo-rbd.svg -- 3.74kb -> 3.62kb (3.24%)
+/stories/static/media/jake.png -- 9.43kb -> 9.28kb (1.64%)
+/stories/static/media/princess.png -- 21.28kb -> 21.13kb (0.68%)
+/stories/static/media/finn.png -- 17.58kb -> 17.47kb (0.63%)
+
+Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>",False
+2c9e070c0d4e8a0b6ec2b1c009cbcbc694b55f97,2019-11-01 08:48:46,Colin Cummings,update react-beautiful-dnd-test-utils in the community section (#1577),False
+669d4cb9f291a5b3558ee0d9ab804b1b98fb85f4,2019-10-30 02:47:47,Alex Reardon,removing emoji from untriaged label,False
+82f4146c1f3da27048ddbb81ef972ba8feff4e86,2019-10-30 02:44:16,Alex Reardon,updating bug report template,False
+0d042521875cf9751171044e8ea80a75018be722,2019-10-29 04:31:43,Alex Reardon,updating blog links,False
+46c136d0fbcd2d632c4bd97d0135aba6d0fcd404,2019-10-29 04:26:52,Alex Reardon,v12.0.0,False
+24a8e6021600920c0b2a28f89d5ffb17538fe96c,2019-10-29 04:10:24,Alex Reardon,12.0 (#1487),False
+e76574bd4e64b0509401a5b90e5cd756495faafc,2019-09-19 10:45:16,泊客,Remove Chinese docs link (#1499),False
+55a1259fab54afd27473032bb416160e95969679,2019-09-09 07:13:38,Sébastien QUIAIOS,"Multi select using Ctrl Key does not work on Linux (#1441)
+
+Inversion condition.
+Ctrl Key is used on windows & linux, meta key only (of my knowledge) on mac",False
+5b4cc1ffdb9a131f84f3db09fbbf8aa916e475eb,2019-09-09 07:03:43,Farhad Yasir,chore(testcafe): Removing testcafe dead codes from the repo (#1481),False
+c61759cbaa61f5ed99d55327066fc989f3181781,2019-08-09 05:16:27,Solomon Legodi,"Fix spelling mistake in multi-drag.md (#1440)
+
+'We' should be 'When'",False
+6a28c12af6395df0525d1157f102d24bfe5e18fe,2019-08-06 12:05:56,Sebastian Aigner,"Fix small grammar mistake in droppable.md (#1433)
+
+Should be 'whose', not 'who's'.",False
+be248380ce54800f02a15d5a6966bbf5ce28147c,2019-08-02 11:23:52,Alex Reardon,"Update common setup issues documentation (#1431)
+
+Update common setup issues documentation",True
+921a538fa25ab16bf34f063bcfff0b1d10aac083,2019-07-31 23:28:34,Kevin Lee / 이지환,"Update common-setup-issues.md
+
+The documentation was not updated to reflect the fact that `react-beautiful-dnd` now uses hooks and breaks on `React <= 16.8.5`.",False
+fe9b0e94c164d576aabf4cbeeab15958a61a2df7,2019-07-29 12:24:40,Leandro Lourenci,Add react-kanban lib to the community section (#1423),False
+dc286f77f9d56e5bb4264fe551ca2f6b8188c1fc,2019-07-22 06:56:28,Alex Reardon,v11.0.5,False
+3fd58eb9b6952cdf926454aab995f9b2f3c00bba,2019-07-22 06:55:19,Alex Reardon,"Merge pull request #1407 from atlassian/fixing-force-press
+
+back porting force press fix from virtual branch",True
+0218553bb43cab6c44dff0a96cb02a4f156e8432,2019-07-22 06:30:56,Alex Reardon,things got a little smaller,False
+8858522ed7ab49f5edd23b91c1cb56da6badba22,2019-07-22 06:25:02,Alex Reardon,changing webkit hack,False
+ca8287f9f7dbc3d33ac21baa362c03d59b5558f4,2019-07-22 05:34:15,Alex Reardon,always respecting force press for touchpads,False
+9376bba73f677836a5e57d14b769f3540bffa551,2019-07-15 12:02:22,Alex Reardon,fixing issues from build,False
+808281210de8a3df3aaa72ce1a95a002c71dd706,2019-07-15 11:55:29,Alex Reardon,back porting fix from virtual branch,False
+0bf807258853f6830a607afda9aa527948cd2002,2019-06-25 17:06:09,greenkeeper[bot],"Update eslint-config-prettier to the latest version 🚀 (#1379)
+
+* chore(package): update eslint-config-prettier to version 5.1.0
+
+* chore(package): update lockfile yarn.lock",False
+43fb29ed113984976ae32e285bacfe2d6598800b,2019-06-25 10:53:51,Tim Haywood,"fix: language links styling (#1371)
+
+update language links to use consistent text style (bold)",False
+286b2a5241a92d748108da7dcd725d0b73c30295,2019-06-20 09:42:22,Denis Chernikov,"Update responders.md (#1369)
+
+Missing `mode` in the type description of DragStart.",False
+b57d6ca67dfe2bd04de602a2dee84eedc9e03a87,2019-06-11 04:54:07,Alex Reardon,v11.0.4,False
+27deb49ecc69b0aae334e73d6d2ec8ee579c84d6,2019-06-11 04:51:13,Alex Reardon,last minute bump (#1351),False
+1bc5d54a9863aa912bcbb454dee7c9185ece8f8d,2019-06-07 12:54:14,Alex Reardon,using older theme (#1347),False
+eddd0de66a7f8fdc60412d639b83862ffe86610f,2019-06-07 12:33:35,Alex Reardon,Bumping yet again (#1345),False
+e5a968fceb51a4398cbdcba9c65b33e962f8d3f1,2019-06-07 12:09:05,Alex Reardon,fixing incorrect visibility detection for horizontal lists (#1344),False
+b90b35a00ae45ecd1375fd3ef509b47db44f2aa6,2019-06-06 04:39:55,Paulo Silva,"docs: pt-translation (#1341)
+
+- Added link to PT translation repo",False
+96098a689d1117a6cf008255d0dd3c467e607d16,2019-05-20 11:26:10,Vladyslav Tereshyn,docs: ru-translation - Added link to RU translation repo (#1316),False
+91056daffa3a3ed9a2e0ce253739eb106c4c9cc6,2019-05-11 02:07:14,Colin Cummings,add react-beautiful-dnd-test-utils to the community section (#1300),False
+afb96a2047cbb64bec189c377d6e9100b859c525,2019-05-08 06:08:53,Alex Reardon,v11.0.3,False
+1823f6200dc742cc2e6b3821995f5843ce80ad0f,2019-05-08 06:07:36,Alex Reardon,bumping deps (#1297),False
+56239d693388a26115415bc2eca96a1fed052cb8,2019-05-08 06:02:43,Alex Reardon,fixing firefox touch dragging (#1296),False
+ea4270ae18c58a4c8d2fe33af2b3d9757da26631,2019-05-08 05:41:09,Bogdan Chadkin,"Remove custom ExpectError from source code (#1294)
+
+ExpectError is not always defined in user config and flow fails there.
+
+MutatableRefObject is just exact object with current field. I don't
+think it will be exported.
+
+```js
+type MutatableRefObject<T> = {| current: T |};
+```",False
+2923695e5ec09a5e615999023fc2d6fcb65ddc4a,2019-05-06 10:26:24,greenkeeper[bot],"Update @atlaskit/theme to the latest version 🚀 (#1287)
+
+* chore(package): update @atlaskit/theme to version 9.0.0
+
+* chore(package): update lockfile yarn.lock",False
+66cea7ad6990f66d8b4e6b74687b91371192acb9,2019-04-29 06:47:55,Alex Reardon,v11.0.2,False
+4d55d465556c5eb3fbada41cbb3fd1a9b3b7e583,2019-04-29 06:46:49,Alex Reardon,A bit of defence for using index in keys (#1284),False
+70f0795c76f43cfee1c2c74f2b2467f8318b3083,2019-04-26 08:41:56,Alex Reardon,Linting for use layout effect (#1281),False
+ce8a68cdbfdb71502faed5fefa421f4b28334893,2019-04-26 07:09:25,Alex Reardon,adding docs about keys (#1280),False
+645e641185df77d8a7e887f45e2c1eed15a8d6e8,2019-04-24 07:29:48,Alex Reardon,v11.0.1,False
+c0eb647d2818ffc68aecde8804500217216fefe0,2019-04-24 07:26:01,Alex Reardon,drag handle no longer stealing focus on mount from autoFocus elements (#1271),False
+484c5b8acaf8df1397e1bcf7345a40181d22bb28,2019-04-24 05:26:13,Tim Haywood,"Fix Responders headline styling (#1270)
+
+Moved the 's' in Responders inside the back-ticks",False
+164ffa1d79b3f749b696152e12a1284c364d6aec,2019-04-23 04:51:55,Alex Reardon,updating media section,False
+207e798f30c8e17e9eab4c053dc846f05d1a3ad1,2019-04-18 10:19:34,Alex Reardon,adding destination clearing information to docs,False
+e587d504637ad1b54be2dbe508d569e83705f4c6,2019-04-18 10:15:14,Alex Reardon,"Function components in docs (#1266)
+
+Adding some more function component examples to the docs",False
+daac2573c5e3aeec8c16174fa46bc53d38ff10e1,2019-04-18 07:24:33,Alex Reardon,updating media section,False
+d9b17f52b4df91b303942046ff61f0947fa26ccf,2019-04-18 04:21:57,Alex Reardon,moving to useMemoOne aliased import (#1264),False
+c798045733a63e00e46a540ec33ab54c3a0b2279,2019-04-15 10:25:02,Alex Reardon,v11.0.0,False
+82482675405eef23c2cbfbec6c53e9dc7b86764a,2019-04-15 10:24:17,Alex Reardon,11.0 🎣 (#1236),False
+5ae73147dca38e36c2f98feecd227cb236e14730,2019-04-09 12:33:14,Erik Beuschau,Fix broken link to Provider component (#1235),False
+416491fa45ae00051291b9672a09d82a8eccc30d,2019-03-27 08:34:45,Alex Reardon,v10.1.1,False
+f4b1f1cfc16f83d662cdf98fd5b0b40f298e506e,2019-03-27 08:31:19,Kanitkorn Sujautra,Fix link and breaking sentence in issue template (#1202),False
+5c1b96459fdcb4227e3aeb6628aed6506550e81d,2019-03-27 08:22:00,Alex Reardon,Bumping dependencies (#1195),False
+e693441be2159ef640c87e97229b04144be6b01a,2019-03-22 05:38:57,Alex Reardon,respecting force touch preference for mouse dragging (#1192),False
+cb5b934c01a4199a4f769b5865e27db614671798,2019-03-22 03:42:52,Alex Reardon,"Refactoring droppable (#1188)
+
+Correcting droppable state snapshot",False
+23a79290c8c960b1173714a7d82ed0126c76e306,2019-03-21 08:01:12,Stefano De Carolis,"Updated link to ""Unsupported margin setups"" (#1174)
+
+This pull request updates the *More information* link in **No margin collapsing between `Draggables`**.",False
+1949094321ddea5e6a38f82b9712dd03fb989ae5,2019-03-21 06:10:52,Clement Fradet Normand,Update multi-drag.md (#1171),False
+b91e66590b9186b480f668327907f2e746faf4c3,2019-03-21 05:53:43,Maxim Mig,Corrected license ID (#1184),False
+66d3fffb9e37cd4fd4931b60d2c6d26d4d6240f2,2019-03-21 05:49:03,Alex Reardon,"Draggable refactor (#1187)
+
+Fixes #1178",False
+779fe7823639624c13349292dd1e5afe23d6dc3b,2019-03-14 09:26:27,Alex Reardon,adding example for function components (#1167),False
+bef501442a41f0113927ffca1a376d2445766497,2019-03-14 08:35:04,airuikun,【typo fixed】affordences ---> affordances (#1164),False
+f8fbeffd3ec7e69e92315cfe163735f2042debac,2019-03-13 02:54:24,Alex Reardon,updating title,False
+a67e670ac74e1a4fe815571d73cc302d86f11523,2019-03-12 10:24:36,Alex Reardon,adding new articles (#1161),False
+45cc88ad4cdf7cd800a8030932cf221fef8a782e,2019-03-12 05:21:04,Alex Reardon,v10.1.0,False
+67b96c8d04f64af6b63ae1315f74fc02b5db032b,2019-03-12 04:49:11,Alex Reardon,"Merging dev to master (it's happening) (#1158)
+
+New animation interaction pattern",False
+1c1f42ef43072f36776167c99532abdd3d31cef3,2019-02-27 07:52:11,Neel Kapse,Fix broken example source link (#1121),False
+c782b2a0d225a5619550bde94515964802a8b122,2019-02-18 06:35:19,Ian Schmitz,"Fix dead link in README.md (#1106)
+
+Fixed a dead link to the `how we detect scroll containers` guide.",False
+dedd3c9a996aa3b72222a899e62fe98f0e34b602,2019-02-13 03:52:07,JSON Deppen,Fix typo (#1102),False
+4518e53bdd713c1b4edd65a4f73e4f6149983769,2019-02-04 04:52:08,Alex Reardon,"Ie 11 window scroll fix (#1091)
+
+* initial fix
+
+* adding tests
+
+* safari friendly check
+
+* fixing tests",False
+2e93958477bdaa039cee39c4064562fc71d5528d,2019-01-31 06:09:15,Alex Reardon,adding options to storybook setup (#1087),False
+adc5a2efa0af32b58382e090c1a61dbbbe4a3d1f,2019-01-31 04:43:44,Aziz Abbas,"compose with redux dev tools in development mode only (#1085)
+
+* compose with redux dev tools in development mode only
+
+* prettier
+
+* address feedback",False
+fc61e8a1efb8d11473144eaf1925fbd48ade5849,2019-01-30 09:51:26,Alex Reardon,"More storybook popping (#1083)
+
+adding missing commit",False
+5fb1532ff024a1f03c699ca1d6b04d560355f990,2019-01-30 09:22:05,Alex Reardon,pop out button (#1082),False
+fa03b1f13f726566b1310e832724d9b9ceb7b69d,2019-01-30 06:00:15,Alex Reardon,"adding iframe pop decorator (#1081)
+
+<img width=""317"" alt=""screen shot 2019-01-30 at 11 19 12 am"" src=""https://user-images.githubusercontent.com/2182637/51949507-e4875900-2480-11e9-89d0-43b86af000bb.png"">",False
+65770cc5fd9e46650c916a74bd4fc613035c8050,2019-01-30 05:51:05,Daniel Del Core,"Join the community on Spectrum! (#1080)
+
+Adds the Spectrum badge to the readme 👍 
+
+![image](https://user-images.githubusercontent.com/3030010/51947037-93269c00-2477-11e9-97a5-440c6b95a2c4.png)",False
+a7438c149cfa48bab68616d5269fb05a6337b661,2019-01-29 09:14:45,Alex Reardon,goodbye for now (#1076),False
+d6be54835622ff22dfa839e1c50d24e661cb3e38,2019-01-29 09:03:01,Alex Reardon,adding nvmrc (#1077),False
+1cd6d138815cc0b3cddf8c10f2f1e850b4df47c9,2019-01-29 05:21:54,Alex Reardon,v10.0.4,False
+9b4165c502711437cf5dcb99168dee60de19716e,2019-01-29 04:37:42,Alex Reardon,"adding doctype links (#1075)
+
+* adding doctype links
+
+* adding warning message",False
+e8eff6e07b556b634835886be2c08ec253939911,2019-01-29 04:17:16,Aswin V,Minor Typo fix in Readme (#1071),False
+726c500b0599aa807046bd5a79fac22ef265b40d,2019-01-29 03:13:17,Aswin V,"Drop react-motion from the Technologies list (#1070)
+
+React-motion has been replaced with css animations.",False
+b0089d6596c6b0ade29b24e415595a69e19893e4,2019-01-25 10:09:59,Alex Reardon,"Viewport dimensions (#1068)
+
+Fixes #1040",False
+baf78734bc3f5e1b31958a4789588e95a3cc910a,2019-01-24 04:08:59,Alex Reardon,more robust typeof element checks (#1067),False
+e5c01cd0561c8499a721c5e991ed5ebcd60a3ae4,2019-01-23 09:20:40,Aswin V,README update for Recommended Droppable performance optimisation. (#1061),False
+56c1f4d7c56138d89155ef7753e91380534d0a2a,2019-01-23 08:25:58,Alex Reardon,"Bumping dependencies (#1065)
+
+* tests passing
+
+* updating flow-typed definitions
+
+* relaxing react lint rule
+
+* removing headless firefox - having issues starting the browser",False
+0f79b5c428ab95688efdd76338adc2f5cfeca531,2019-01-23 06:10:19,Aswin V,Fix typo in Identifiers doc (#1059),False
+759e7a405743c1ec21af3b3688c9d3bd1083cf94,2019-01-23 06:04:40,Aswin V,"Update README.md (#1062)
+
+Change Droppable -> Draggable",False
+3193cfb28ebdda0f76b3abb05714f1b45cc3d6ed,2019-01-23 05:06:13,Hannes Van De Vreken,Fix closing tag in docs (#1064),False
+b0b47661b6975f0b09e7a0c69f7420b482cd2bc7,2019-01-11 10:22:40,Aswin V,Fixing typo (#1042),False
+7d3e205e44b031ee91f918d031b780a1fd101718,2019-01-03 03:34:29,Chafic Najjar,"Fix typos in docs (#1031)
+
+onDragBeforeStart -> onBeforeDragStart
+OnDragBeforeStartResponder -> OnBeforeDragStartResponder",False
+de49797ed0c3edfae5e7c2e508312337f752f036,2018-12-19 03:13:34,megos,Remove duplicate prop (#1011),False
+59d2344510ebbdf17b162b5f0ba1c7ad0a1e5d37,2018-12-18 03:51:18,Alex Reardon,"Fixing storybook (#1020)
+
+Fixes #1019",False
+5c4703944c7bfc7549ba90dd4216d782999f0f0a,2018-12-17 10:09:32,Alex Reardon,bumping memoize one and flow (#1017),False
+c4e74233fd257620acc422e14da0ea391fecc0a1,2018-12-14 10:29:19,Jon Simpkins,docs: tweak to grammar in onClick section of README (#1014),False
+9064d4729a47a617e622b7387beb4f03003680da,2018-12-12 08:17:30,Alex Reardon,v10.0.3,False
+92e4a6ad78ce7b96fafc71e5e4fffa26211e23e9,2018-12-12 08:17:06,Alex Reardon,updating snapshot,False
+0c3ed67c42a4c52dcac3f0977a223de5738d0ddf,2018-12-12 08:07:15,Alex Reardon,adding comment,False
+899be35aa52c209df2b0060dde7ffe251110528f,2018-12-12 06:21:32,Alex Reardon,setting max workers (#1008),False
+4f063a2fa8f0033ea4d1cb32d9f3100db1add576,2018-12-12 05:21:24,Alex Reardon,"Bumping more deps (#1005)
+
+* minor bump
+
+* bumping memoize-one and babel",False
+a3c7db1b585b4b65d545bd64798613b4d33b7ef3,2018-12-11 11:08:01,Alex Reardon,bumping deps (#1000),False
+3bd3e0d3961094815b13978fb77065e2cce8cca3,2018-12-10 08:52:09,Alex Reardon,adding react version section,False
+61ea21ac36d31a243ec31bd0cd6af1d7d9d2e5a1,2018-12-10 08:43:47,Alex Reardon,common setup guide (#995),False
+cd71d9c43b61233ab56c5499770efc716fb919e3,2018-12-10 08:35:38,Alex Reardon,"docs for ids (#994)
+
+Fixes #708",False
+748311b1ca50a3d61a94d4d1e1d2fdf4d5fb0858,2018-12-10 04:16:48,greenkeeper[bot],"Update rollup-plugin-node-resolve to the latest version 🚀 (#993)
+
+* chore(package): update rollup-plugin-node-resolve to version 4.0.0
+
+* chore(package): update lockfile yarn.lock
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+2d15595a75899ff8306dce3d6a372074312988d3,2018-12-10 04:12:38,Alex Reardon,moving to storybook 4 (#989),False
+a80f5eac6e5d2b05c452b0f8ee6217c4356ce97b,2018-12-10 03:50:15,Alex Reardon,adding choosing-the-right-scroller test (#988),False
+ac57253d187f97ddca3daab84e09372b885fc0d2,2018-12-07 10:25:47,Alex Reardon,"Auto scroll grab near edge (#976)
+
+Fixes #349",False
+b7d549c92371487919ebafc99456fad1ee2219ce,2018-12-06 03:53:42,greenkeeper[bot],"Update emotion to the latest version 🚀 (#980)
+
+* chore(package): update emotion to version 10.0.2
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+89e38a02e0b6f3a59d0492df59ee0b01bc3e6d55,2018-12-03 08:28:17,woohling,fix: droppable-get-dimension withScroll (#966),False
+8b2422ef4579febebefcc54f0238f82ee43ebb30,2018-12-01 02:22:21,Fil Zembowicz,"Fix README link typo (#970)
+
+Type guide wasn't linked correctly",False
+81c854ab31373f6c94dbd911a2928fda7cb00ffa,2018-11-27 11:50:44,Alex Reardon,adding test for client hydration (#960),False
+602141e102404900bc64742cb0a8baeb30ee1e0e,2018-11-26 03:47:41,Michael Blaszczyk,Fix dead doc links that were not root-relative (#955),False
+1ada331df12f2bc5e30b45c9abbec047deec0b38,2018-11-23 11:17:05,Dmitry Gonchar,Update documentation - `Draggable` does not have `type` property anymore (#952),False
+75e8223cacad020fb80ec4670c5cb49dfaa67a4f,2018-11-22 04:03:01,Alex Reardon,More dev only prop checks (#945),False
+a0d9925e5eb6e15fb652670fb2916651fc244d5c,2018-11-22 02:23:34,Daniel Wilczewski,fixed incorrect names in docs for drop animation (#947),False
+0dc9e3e84c943fe94e4b8cbd9767de9c11d3b4dd,2018-11-21 10:36:05,Alex Reardon,updating docs,False
+a087d6ae948f34e8c0a89f2b4a35ee3f3e5ee92c,2018-11-21 09:47:43,Alex Reardon,updating media,False
+564a369f016fe3d4c21cf7c91bcf4610912230f3,2018-11-21 05:39:29,Alex Reardon,v10.0.2,False
+56fed1ddfd81f5ed1f27949c7ac6fb9b1156a52d,2018-11-21 04:54:54,Alex Reardon,Docs love (#943),False
+65a6899939c89a47a6bc682b0c2a9e1d7d499fa8,2018-11-20 11:54:16,Alex Reardon,Website love (#939),False
+158ed3c06948aee96aa6f20ebc2d003030a73522,2018-11-20 11:47:09,Alex Reardon,updating scroll container doc,False
+6e60d2ec13a602df1a0e3f9fb327ff9ddf8d2c5a,2018-11-20 11:29:37,Alex Reardon,fixing typo (#938),False
+9645fe8efba83ca1606bf9468ae5fd689273926a,2018-11-20 08:45:09,Alex Reardon,now adding placeholder room before doing cross axis visibility check (#936),False
+b787844e03b5e0d6539578b589331d40b42cb4ef,2018-11-20 05:34:53,Alex Reardon,"Better scroll container detection (#929)
+
+Fixes #904",False
+d301806c9bf0be737e7915917613ab03508ffaf8,2018-11-20 03:16:01,Alex Reardon,adding more detail to issue template (#934),False
+64205bf5adc1d10df5a39b05038435ab8da9abcf,2018-11-19 14:50:20,Wei-Wei Wu,removing note about polyfilling Array.prototype.find (#933),False
+a257068733ea3f1eaad59adce65408c616309f58,2018-11-15 06:17:15,Borja Alonso-Majagranzas,"Update using-inner-ref.md (#926)
+
+Add note for styled-components v4 innerRef prop deprecated",False
+cd2b3a0647e196adafdb62b78677e417585116f9,2018-11-15 05:37:36,Alex Reardon,adding checkers link,False
+f71b4b2d2d4c97426663835014b4b023202fb977,2018-11-14 08:52:25,Alex Reardon,moving to more robust cross axis spacing solution (again) (#919),False
+783497135a2f9c219118c43c7eb83288ba5a001c,2018-11-14 04:47:27,Alex Reardon,v10.0.1,False
+89a384463a80a3311fb02e87af5b6c26a7e910df,2018-11-14 04:39:42,Alex Reardon,More robust spacing fix (#918),False
+b9255f8000edde5b54c6a6937a541db3acfc21c1,2018-11-14 03:44:03,Bogdan Chadkin,Correctly expose Droppable and Draggable component types (#910),False
+c17788a42ee108fbc3795e63b68d07e269e56ab7,2018-11-13 09:16:46,Alex Reardon,Spacing fix (#913),False
+fa7fca94f5666de18004f0422d2585ae3838a970,2018-11-12 05:09:45,Alex Reardon,adding upgrade notes,False
+67b54c5eddb05828027f9365dad4606a272543d0,2018-11-12 05:07:25,Alex Reardon,v10.0.0,False
+3dbb70446309a347c131a65c6cad28196c72818a,2018-11-12 05:01:01,Alex Reardon,next (wip) (#823),False
+5fc46a8296e8a91ab7e417d0a948c2f69cfafd43,2018-10-31 10:27:28,Hai Nguyen,"Add Simple Trello project to docs (#878)
+
+* Add Simple Trello project to docs
+
+* Move to community section",False
+1a9b3e12bf63ed4b47fd7ab6300b1fa1ade9abdf,2018-10-24 04:31:36,Aquib Master,"Modify multi-drag pattern to support windows specific modifier (#863)
+
+Closes #769 by updating the multi-drag story & pattern to support platform specific modifiers to toggle selection in a group.",False
+6f71b45c13aab36807f9da952437a5d63d52d696,2018-10-13 04:41:33,Luke Hendrick,"Add Community Section, with link to Glitch™️ task app. (#856)
+
+* Added 'Community' Section, and a link to the kanban-dnd glitch per issue #688
+
+* Updated description of kanban-dnd",False
+129530d3397ee99db9e56e513a8e46a330041bcf,2018-10-07 13:13:22,Dmytro Lytvynenko,Add Addons section to the README (#841),False
+8b485a1114aae9f33163d48925323c54a721624b,2018-09-28 08:13:09,Samuel Attard,chore: dont validate yarn lock file on greenkeeper branches (#839),False
+1f9313bbb1fb6a744b447afb31d7c2056ad40711,2018-09-27 11:58:45,Samuel Attard,ci: dont run update / upload twice (#830),False
+095cd54674387fcd82a27d2580938f1463a32742,2018-09-26 09:55:59,Samuel Attard,ci: run greenkeeper lockfile management steps before checking if the lockfile is OK (#826),False
+3773ffa4dc0c9a97e194ad849dc3abe40ba6193f,2018-09-12 06:22:37,Pavithra Kodmad,Adding images to markdown in the website (#789),False
+9baa3e7bc129843ec8c011504fdbedf1025527af,2018-09-06 07:00:46,Wei-Wei Wu,"Updating README to include note for IE 11 polyfill (#783)
+
+closes: #724 
+
+Add note to users that `Array.prototype.find` needs to be polyfilled",False
+9f53ccaa8bbe4de16bd6afef906c01c68a24b9bf,2018-09-06 06:05:31,Ben Conolly,"remove trailing numbers from titles for md documents in website (#786)
+
+This will allows ordering of them",False
+8ab37f6a3178a286198214ef2adbba67b4030461,2018-09-04 06:58:45,Matt Davidson,"Fix a link in the readme (#780)
+
+Markdown link was written the wrong way around.",False
+89f2213231056542b2365090e205bc677b0d1526,2018-08-31 16:41:45,Pieter,Fix non-working link (#776),False
+6e5d44583bbd31d05b92a638fe37f3c03ef77002,2018-08-30 09:04:15,Alex Reardon,v9.0.2,False
+93cc9bd2a5b7a706e91ec600a0218398bfcdc05e,2018-08-30 09:03:36,Alex Reardon,bumping flow and friends (#771),False
+55ce7a5b98ac299c327841938f7d27edfff54639,2018-08-28 13:02:15,Bogdan Chadkin,"Upgrade to babel 7 (#766)
+
+* Upgrade to babel 7
+
+* ignore babel config",False
+7330551fe799569b99a26fe728b8a37647d5da6a,2018-08-27 11:18:19,Alex Reardon,Website wip (#762),False
+f13939396cc5ebf86153f55215881d06ee44ab7e,2018-08-23 03:56:59,Pavithra Kodmad,Gatsby v2  (#725),False
+9a33ead7fc18717c412d9f8b28d7567abaf23650,2018-08-22 06:16:53,Ben Conolly,Use emotion instead of styled components (#722),False
+dc16558cea065dc8f539cb8defb2086438b68d7a,2018-08-22 05:57:16,Alex Reardon,adding backup install step for forked builds (#723),False
+568cdbe8186de2de87b81f36a970581618106919,2018-08-20 05:05:22,Alex Reardon,v9.0.1,False
+e7197ad31f66076717fcc1067cba441655bd8d08,2018-08-20 04:57:17,greenkeeper[bot],Update stylelint to the latest version 🚀 (#718),False
+619b0cce53943ff44e801c1172f3c08f19b891c8,2018-08-20 04:46:40,greenkeeper[bot],Update eslint-config-prettier to the latest version 🚀 (#705),False
+48e0d8458591a293bd2c8ffeae829c8877336a4f,2018-08-20 04:39:26,Alex Reardon,"Fixing memory leak in DragDropContext. Fixes #715 (#720)
+
+Fixes #715",False
+b939e9ad74e496329fe6bdd885fbaffe67ea8c53,2018-08-14 04:44:46,Kyle Halleman,Update Hook types to return `mixed` vs `void` (addresses #695) (#704),False
+ac63abe29d37339f0a09a07c336a624891c6e13a,2018-08-13 06:48:33,greenkeeper[bot],"Update tiny-invariant to the latest version 🚀 (#702)
+
+* fix(package): update tiny-invariant to version 1.0.0
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+0215cb244b5e38106c8ebd3a6d76b374817fecb6,2018-08-13 05:09:55,Alex Reardon,Giving love to debug (#701),False
+2d6504fe23f2a91b1db6bcb94ad71b2f28e83bab,2018-08-09 11:16:24,Alex Reardon,v9.0.0,False
+31e7b3c30ef48a959c1d90edbb8abdbe93153e44,2018-08-09 11:15:41,Alex Reardon,Fixing disabled on launch. Closes #693 (#696),False
+55aa7c325b65ce6dddfc49ec269c35701056ad28,2018-08-09 05:38:42,greenkeeper[bot],Update testcafe to the latest version 🚀 (#698),False
+5de1a9315366a16cf4736b4df7d3be76c89c61d1,2018-08-09 05:26:43,greenkeeper[bot],Update flow-bin to the latest version 🚀 (#686),False
+20adb8af96df16c2e95c3e6fd63d176dfcd5ce23,2018-08-08 16:50:10,lukebatchelor,Fixes broken test filename (#697),False
+19b7ebf1fcb214df3d3007437c6f3bf161b7b1be,2018-08-07 15:08:37,Bogdan Chadkin,"Upgrade to babel beta 56 (#687)
+
+Babel runtime was split with @babel/runtime and @babel/runtime-corejs2
+pacakges which allows to omit large core-js pacakge in many cases. Babel
+runtime with only helpers became a default so users could include
+necessary polyfills by themselves.",False
+30062594ab74df05c6e58734506d27bbb1ce2659,2018-08-03 07:33:31,Samuel Attard,ci: run greenkeeper lockfile management steps before checking if the lockfile is OK (#684),False
+1a81e90c0a662a4c93e22a6cf3beb10604c0f48e,2018-08-02 08:40:54,Alex Reardon,bumping react and loosing restriction on prop-types (#681),False
+4fb9432999c92a55cc6c1549e94c565ce5668100,2018-08-01 12:33:43,Alex Reardon,v8.0.7,False
+34ba7a31b9be64ca95cd5b41a414877f141d4a74,2018-08-01 12:32:59,Alex Reardon,fixing flow issue with floating dispatch (#677),False
+d59dbc816cb7113dab1804d77912830004ee843b,2018-08-01 11:38:22,Alex Reardon,updating snapshot,False
+0ea9d1fec34393e00ccdfbbb0d43cd69c7cda159,2018-08-01 11:36:50,Alex Reardon,v8.0.6,False
+9760dc7696542a73b638bac8d79212c131e281e3,2018-08-01 11:21:30,Alex Reardon,Fixing timing of onDragStart (#676),False
+d905634204bcdb4c78697d97c7c85cf27c6f1b4a,2018-07-31 12:31:00,Alex Reardon,Flow 77 (#673),False
+016f59b3a45c7e4f9396dde9a14c2221c2f01e55,2018-07-30 07:09:45,Andy Beaudoin,updates docs (#666),False
+c31dcf6bc85b9cc934375482b70c02ba997253c4,2018-07-30 06:51:06,Alex Reardon,"Adding getting started section. Closes #363 (#671)
+
+Closes #363",False
+4fc1197d44ab26d5ee5a75daf9d22d61b229a28a,2018-07-27 08:43:34,Raja Bellebon,Rbellebon/add test cafe (#661),False
+518278f5206cdeb03a846e42c9ef13a57c8bb63c,2018-07-27 08:04:46,Samuel Attard,ci: ensure the yarn lock file does not change during install (#665),False
+ff46be11d9a4a5a718f0379c487895fc55b92721,2018-07-26 11:21:16,greenkeeper[bot],Update stylelint to the latest version 🚀 (#663),False
+a00ee1bdcf68e783a27ba14d26b514358ddb4d0d,2018-07-26 09:24:40,Alex Reardon,Adding more detail to droppable optimisation. Closes #660 (#662),False
+9a625b14eeaf7dc72a0efd1700dee868afcc6678,2018-07-24 15:05:16,Bogdan Chadkin,"Remove object-rest-spread plugin from dev dependencies (#659)
+
+* Remove object-rest-spread plugin from dev dependencies
+
+It exists in babel env preset for a few months and can be omitted.
+
+Upgraded babel.
+
+* Add newlines. Good for vim users",False
+0f001e846e3a34ff8b08107138d66bc5d8fe87f5,2018-07-19 12:41:18,Samuel Attard,ci: remove travis CI (#654),False
+8d6849d3656ce72811d4ada69b05804ce36408de,2018-07-19 11:59:27,Samuel Attard,"ci: :allthethings:, workflows, caching, faster CI :) (#653)",False
+5c5bd2fa66fd7fce43cf65afb14597da92b8fbe9,2018-07-19 10:45:46,Samuel Attard,ci: add yarn packages to PATH,False
+721b8ed415c2be49633611a0bfea3a6d9036c535,2018-07-19 10:41:45,Samuel Attard,ci: add CircleCI support,False
+08d71b947caba17d2fd14fd5cc5b692660bbe159,2018-07-19 06:51:25,Andro Babu,"Updated README.md with valid sandbox url (#639)
+
+""Simple DnD between two lists"" is updated with valid sandbox url",False
+c2a5b795c694c9295203f8a6b470fbea9f4e9646,2018-07-18 07:02:19,Alex Reardon,v8.0.5,False
+b276e4780c42ad662400631c9f315edc791a9cd8,2018-07-18 06:57:21,Alex Reardon,Fix/ie 11 scroll listener (#646),False
+a4f9ac1fea80c0cf4f055f23f4f52471b7df2acb,2018-07-17 11:26:27,Alex Reardon,v8.0.4,False
+11484b3955800ceae07fb2c10e04dfda86ad2242,2018-07-17 11:21:43,Alex Reardon,bumping raf-schd (#643),False
+65dc82eb2f5862ec1bc12d3b96c4d4acec3f85d7,2018-07-17 09:19:47,Alex Reardon,checking if the SVGElement constructor exists before using it (#641),False
+6589244dc2a509944cd3f63bd09b56017c3bb725,2018-07-17 08:30:05,Samuel Attard,"build: update travis yml file to fix yarn global bin issue (#642)
+
+🔗 https://github.com/travis-ci/travis-ci/issues/9885",False
+1b7197b3683b23942631c640a4741c438f0cf58e,2018-07-11 07:06:32,Alex Reardon,v8.0.3,False
+a70a34cdb9f6aac9a20150667cb2700a7892625f,2018-07-11 06:29:02,Alex Reardon,fixing invariant check in reducer (#633),False
+6437dc19a5cfe476ce536786c44f67eeb63e3f20,2018-07-11 06:18:49,Samuel Attard,test: enable puppeteer testing using xfvb to avoid headless flakes (#630),False
+68ef72a273973fafb31028d2ccaf2e1e0b687627,2018-07-11 05:09:37,Alex Reardon,Accounting for cross axis scrollbars in auto scrolling. Fixes #628  (#632),False
+3337ad15efa021e77fdac397815f2bc592fda7f4,2018-07-09 12:48:15,Alex Reardon,Broader prettier (#629),False
+639ab347ca8a4469f30b8f4dbeca16eb49fe5c16,2018-07-09 11:28:05,Alex Reardon,removing unused comments,False
+4fd7dc08aead2261da2aa72b6376c15889380a37,2018-07-09 11:27:06,Alex Reardon,"Draggable refactor (#627)
+
+Removing disabled checks from Draggable as they are not needed.
+
+I also split up our super drag-handle.spec file (3500 lines!) into smaller chunks",False
+bf9722028f740331d15d3e59a0549d40357dc8ca,2018-07-06 13:01:15,Bogdan Chadkin,Upgrade babel to 52 and upgrade rollup (#624),False
+372be755db75f9006b71cdc66b7bd79aca75ee08,2018-07-06 10:27:38,Alex Reardon,v8.0.2,False
+9fc3856a9d6d284dbb8e9392e0cb633d98b9450d,2018-07-06 10:18:01,Alex Reardon,"SVG warnings. Closes #613 (#619)
+
+Closes #613",False
+b32720848f17125246bde9b524dee39298beb096,2018-07-06 09:18:25,greenkeeper[bot],Update @babel/runtime to the latest version 🚀 (#622),False
+8bf03cc0a1d2090084a0ccde2106ac420e0de8c2,2018-07-05 06:05:31,Alex Reardon,core change (#618),False
+0e6ccf8e103f102671f05cfbff91dbd1e42d4bf3,2018-07-04 09:32:04,Alex Reardon,v8.0.1,False
+a65c77aa361cfe3cbb5261b4c9cffb2308090815,2018-07-04 09:31:09,Alex Reardon,unwinding event blocking if cannot drag. Fixes #615 (#616),False
+33ef97314b2f8f86d0ed3be49a7fd408e3a8ef1f,2018-07-03 12:55:26,Alex Reardon,v8.0.0,False
+fc4e6380c63c9b394119937d312a2693f4e5a13b,2018-07-03 12:50:22,Alex Reardon,Merging dev to master (#607),False
+1e83642aa23f1489964a5cdc6e2a6b9d396afd65,2018-07-01 15:38:14,Alex Reardon,updating size snapshot,False
+d8d446e3acec49cfc1592cdb8a770197f22278fe,2018-07-01 15:35:16,Alex Reardon,"Revert ""Update rollup-plugin-size-snapshot to the latest version 🚀 (#601)"" (#602)
+
+This reverts commit a8043021d27668bb37fcf834891cdb1a4ef08454.",False
+a8043021d27668bb37fcf834891cdb1a4ef08454,2018-07-01 15:23:06,greenkeeper[bot],Update rollup-plugin-size-snapshot to the latest version 🚀 (#601),False
+a2a80967c71850cdafa101580b367d2ec116eecb,2018-06-27 06:33:04,Alex Reardon,fixing using inner ref guide link,False
+a9127281473d57f70f8038e949ae532fcd372bd3,2018-06-27 06:31:47,Alex Reardon,Update using-a-portal.md (#583),False
+538692415196abdd2f608eab137465f01f96e48f,2018-06-26 15:27:01,yobrave,"Add chinese 🇨🇳 docs link and New translation UI (#579)
+
+* Add chinese docs link and New translation UI
+
+What would you think 😊
+
+* Move translate
+
+Like this ?",False
+a4af5086283603cc089a8c32f521ffc87d1139de,2018-06-26 06:17:45,Raja Bellebon,"Extend Jest timeout (#575)
+
+* Extend Jest timeout
+
+* Add a link to the stackoverflow issue",False
+cea1a62c0011f8560edf7935dc06cdfa71d51110,2018-06-21 04:56:10,Bradley Ayers,fix(readme): typo (#561),False
+b152ebc1292f0204339ab1ebed2689be772e4fab,2018-06-20 07:03:09,Bogdan Chadkin,Fix link and newlines (#550),False
+b2816ae43484ad153cba3a3c2fe36439e95d1612,2018-06-15 12:57:37,Alex Reardon,Correcting Bogdan's twitter handle,False
+ffa140574a522f86efd9e59ff48698e45a82db89,2018-06-15 11:34:52,Alex Reardon,further improvements to using-inner-ref guide,False
+aed107a50461090fc2c962ff96cce50ae742005d,2018-06-15 11:19:46,Alex Reardon,Update using-inner-ref.md,False
+dace3a68d93a153bcbb1a9c1374db026912c19b3,2018-06-15 10:43:14,Alex Reardon,Update README.md,False
+195bba9fed9d824b800579737a5f27b748035645,2018-06-15 10:39:22,Alex Reardon,Update README.md,False
+a6b56712f1e7e81cbb3209b78939b11917c098ab,2018-06-15 10:33:21,Alex Reardon,adding using refs guide. Closes #455 (#549),False
+3a7a6d9edfb24e639c2744248cf38aa26efcf1a3,2018-06-07 05:17:33,Alex Reardon,Update README.md,False
+2029cdbc6e54a0a560465562525d48e3736820f1,2018-06-05 07:08:56,Ilya Panasenko,"Update README.md (#535)
+
+fix typo: `point-events` => `pointer-events`",False
+b19e0085547652884874c0ee2b5a3b76e073dbd9,2018-05-30 13:00:34,Ben Conolly,"Made website sandboxes point to master (#531)
+
+Pulling in new version of codesandboxer, as well as pointing the example file fetching at master instead of a deleted side branch of mine.
+
+Noticed another codesandboxer issue which I'm looking to fix and get out this week, so may be another PR.",False
+327d6e71d0a987badcb3a7cc65d50f055d2bc79c,2018-05-28 13:13:09,Homer Chen,Update stylelint to version 9.2.1 (#527),False
+55de4c8bcbc9ee9b5419cd3f7d6fd92d868c69aa,2018-05-17 16:23:20,Alex Reardon,v7.1.3,False
+f5cd8d4cb7a713d47df35a3c5293fcb71c98c770,2018-05-17 16:19:43,Alex Reardon,Disabled droppables and keyboard. Fixes #430 (#509),False
+2ce0a1d9214faa506ff8f88b724dca57037f4964,2018-05-17 10:47:46,Alex Reardon,Update README.md,False
+8fbff2c7cdc821d79f3a30461efb244c1829dcf2,2018-05-16 11:48:15,Ben Conolly,improvements to the website's sidebar (#506),False
+b7f26e02c50ee244f373e5954f025fc84dea98e1,2018-05-16 06:34:30,Jehun Seem,Fix using a portal link url (#505),False
+715e35f9f886188c908105e5532d3f4b85229d67,2018-05-14 04:41:00,Alex Reardon,more notes about update blocking,False
+eb0487dd6d7704b77027d1e0919c2de47c7def7d,2018-05-10 16:01:16,Alex Reardon,adding brand (#497),False
+582c459b0e20a1f04b726287622e62f3bdf19d40,2018-05-10 14:46:50,Homer Chen,Add stylelint (#496),False
+07764b92f21df9ef7964b8e364ae87d3490f58fc,2018-05-04 04:29:53,greenkeeper[bot],"Update css-box-model to the latest version 🚀 (#489)
+
+* fix(package): update css-box-model to version 0.0.13
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+d8eb998b748c3da21ac4a6cb79c11bdfb724ea4d,2018-05-01 06:27:37,Bogdan Chadkin,Upgrade size snapshot plugin (#483),False
+ccd36338d2bc2c60297f3f4a53b9af23e713d6be,2018-05-01 04:01:31,Alex Reardon,Sidebar rethink (#481),False
+0851ee8b74ffb599a336da00376ccaccd83ecb91,2018-04-30 12:32:55,Ben Conolly,most of website now has a layout (#472),False
+8b02824514db5e3b64867cf19bc4763213db9015,2018-04-30 10:46:01,Alex Reardon,v7.1.2,False
+347f1d7d3a88b1116642ad203503c862dfcf95a7,2018-04-30 10:45:52,Alex Reardon,updating snapshot,False
+a6a78fc7dc29ed133553cde971c606f10d41323c,2018-04-30 10:28:08,Alex Reardon,bumping redux and others (#477),False
+7887411e869d99ce564caf5d080493c8100faaca,2018-04-30 09:56:51,Alex Reardon,v7.1.1,False
+2a895c5f51da2d3bf791e3e85af29c33b51e4559,2018-04-30 04:54:43,Dennis Thompson,"Adding more examples (#478)
+
+Struggled a bit to follow examples in storybook since my application doesn't use `flow`. Adding a simple example for others",False
+37ebd41df0167aa30fae0d15f87a6ed915cd75ca,2018-04-27 16:44:22,greenkeeper[bot],"Update flow-bin to the latest version 🚀 (#475)
+
+* chore(package): update flow-bin to version 0.71.0
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+66122a3b1959b56bc38345ca0ce719ad6fc5e75f,2018-04-27 16:30:58,Alex Reardon,Scrollable droppable now works correctly. Fixes #461 (#476),False
+7179eaf4875bcdc308a09111755beeb4fe3c21ce,2018-04-27 07:07:40,Alex Reardon,Improving box model (#471),False
+72a5fbd86faee23cf1499aa4986bb3bd46a05615,2018-04-23 05:34:26,Alex Reardon,adding redirect changelog (#459),False
+1885e36bf0abfc2bbfcd758be4397f1f6ec1bc57,2018-04-20 12:05:29,Alex Reardon,moving files out of layouts,False
+b00970464abccf844e95c6899875b17330d8b6f1,2018-04-20 12:00:15,Alex Reardon,moving landing page,False
+63c8085974bc1f72011a77ca71ae138780989cc2,2018-04-20 11:20:18,Alex Reardon,Website work in progress: adding landing page (#457),False
+8bbf33f8d3b88a37758dcf1e486af99dac3baa17,2018-04-20 10:46:28,Alex Reardon,v7.1.0,False
+57f52bcc9b49bda72e2cae5b6b23433b0cd6e663,2018-04-20 10:45:17,Alex Reardon,addressing feedback from michael (#458),False
+f966b6f883e574194815e46dc21defe15ab7289d,2018-04-19 06:20:47,Alex Reardon,Maintain focus when moving between lists (#449),False
+78c30a056c0aa7514cd5374a55072f9f798a1cdc,2018-04-17 16:33:20,Alex Reardon,v7.0.2,False
+82a387d9af05c25777a833a6cfd8e17a159fc4df,2018-04-17 16:31:09,Alex Reardon,Upgrading deps (#446),False
+848e79e60945ea43b5248222424cd54955be7339,2018-04-17 05:14:10,Alex Reardon,updating size snapshot,False
+e4d0b370cab70a511faf58e751feb597dc82831b,2018-04-17 04:03:03,Alex Reardon,"Scroll event fix (#445)
+
+Avoiding incorrect window scroll event handling when droppable scrolls",False
+b9035e23c906cc45f6e0fa0f598d33a23ed05558,2018-04-16 06:29:51,Alex Reardon,v7.0.1,False
+66ab11d7697a8bf4e42f94ad22d3360c31dc6218,2018-04-16 06:20:47,Alex Reardon,Avoiding placeholder collapse caused by flex siblings (#439),False
+7b9ddc192da54bf8ee25029e265e7a0c7e299057,2018-04-13 12:58:01,Christian Hamburger Grøngaard,Fix typo in README (#438),False
+b61e7a46630b11c511fa8a40f649c3633d15efc3,2018-04-11 11:54:25,Raja Bellebon,"Update to 1 min (#434)
+
+Increasing timeout to 1 minute as Travis CI is slow. Closes #433",False
+d96c08edbb4a3cad852843cb193865985ac07e00,2018-04-11 11:27:52,Alex Reardon,removing old type prop from draggable,False
+6ba24c80f7680d8493ce2ab47343050d01fa391d,2018-04-11 11:00:02,Alex Reardon,v7.0.0,False
+f00ffe20098f090a99b34ab418e7b9d2f832a583,2018-04-11 10:25:11,Alex Reardon,removing .umd suffix from umd build (#432),False
+7aeb3d5a238e241c174f37323085e27a543cf8f4,2018-04-11 09:40:54,Alex Reardon,React 16 upgrade (#406),False
+5d56d2be5314a6156ad7b1464b0e735a3ecfa384,2018-04-11 06:47:17,Martin O'Grady,Cancel drag when no visibility #83 (#396),False
+54708dc36a806553a3ae903879811f70c9e1c244,2018-04-11 04:56:03,Bogdan Chadkin,Provide cjs and esm bundles with information about treeshakability (#429),False
+32225124aa0096b0f4b2e3f5d7c6b42fbed3c450,2018-04-09 08:21:09,Bogdan Chadkin,Combine rollup configs with multiconfig and add size snapshot (#405),False
+c9b8333f667b17dc12f50ba905bbb9ae461541a4,2018-04-08 16:13:51,Ben Conolly,Website 2 (#424),False
+56228d502f7b2379b41a29674c41b375e618da19,2018-04-05 04:40:30,Alex Reardon,no longer starting a mouse drag if a modifier key is pressed (#423),False
+116c153144eea8bc93a7d81c17e6e71e1824541a,2018-04-03 11:21:54,Alex Reardon,v6.0.2,False
+f25bee2fa4893693058b16825b59bf2774f600e6,2018-04-03 11:21:12,Alex Reardon,iOS 11.3 fix (#416),False
+bbec4c9486e48d14c8b30ba74c52b5c73d728deb,2018-03-29 15:41:44,Alex Reardon,improving the screen reader guide (#404),False
+924741a64ac161b9d5e45e9b0e0868f36238a911,2018-03-29 11:50:15,greenkeeper[bot],Update flow-bin to the latest version 🚀 (#409),False
+42da276b32edc086e05bab18053b7ff6258a7f50,2018-03-29 10:33:35,Ben Conolly,"Add website (#394)
+
+It's happening",False
+2737f8e764ec85371f293effb68ce805a4c8af82,2018-03-29 07:39:06,Raja Bellebon,"Add puppeeter simple test (#407)
+
+* Add puppeeter simple test
+
+* Fix for puppeeter
+
+* Extend timeout
+
+* First attempt to run puppeeter in CI
+
+* Removing the args sandbox
+
+* Put back the args without the breach issues
+
+* Update based on review
+
+* Remove silent
+
+* Put back the sleep work around
+
+* EOF
+
+* Remove css file
+
+* Find a way to wait for the port 9002 to be connected with 10 s
+
+* Add a version for wait-port",False
+6219d1ab5cd18d2ce6bee0897ae20d600fa975ca,2018-03-23 09:12:57,Alex Reardon,v6.0.1,False
+a52225ea17ae63fb21b80f175550f5d43770ba37,2018-03-23 08:47:49,Alex Reardon,minor doc improvement,False
+f89a21c8167b582232ee66c0d7ccd780af88a279,2018-03-23 07:51:39,Alex Reardon,Correctly blocking SVG elements within interactive elements (#401),False
+0cadfaf9fda1c12f4da318341d23386dc1024a25,2018-03-23 07:34:08,Alex Reardon,updating deps and build scripts (#402),False
+7fb5c837b491ccfd40b3b7c101f902f9d891663c,2018-03-23 06:22:55,Alex Reardon,fixing typos in multi select guide,False
+ce976e5fa337f453fdcb01323484a3fe87f50326,2018-03-23 05:15:04,Bogdan Chadkin,Upgrade flow (#386),False
+4f4c3307a4e0bf066cf8e7dea694d40d8aac9aab,2018-03-21 04:50:49,Alex Reardon,adding 6.0 upgrade link,False
+05054f4556e8f2613cb0e7faeb0efcc579624021,2018-03-21 04:27:12,Alex Reardon,minor multi drag doc refinements,False
+645eee5de2d96b934aa8574bdfb4377d85e2a67d,2018-03-13 15:23:14,Alex Reardon,adding a good example for touch multi select,False
+ea3ab68989921082f5b3a8e586c4d26f3e71ea9e,2018-03-13 15:00:50,Alex Reardon,doc cleanup,False
+1e6a137da045370f2e0a90c6d28944d282007b1d,2018-03-13 14:38:53,Alex Reardon,mutli drag doc improvements,False
+1858afe02e1c96a9c8382db6dfe1f32b7aec1ab2,2018-03-13 12:01:35,Alex Reardon,v6.0.0,False
+828be4a9d3808112f423d8f26f0e45454c54243f,2018-03-13 11:59:14,Alex Reardon,Adding a multi drag pattern (#383),False
+702f699eb768b5de6ec7af59cf55103be0dfdd34,2018-03-13 05:54:56,Alex Reardon,now calling dimension publisher first when drag is ending (#382),False
+e8da50fcced6a39624e9e7ff59047dba0167278c,2018-03-12 10:50:40,Alex Reardon,Improved event handling (#379),False
+6b4d4bc908def4f80927360090ba6bebf055ba40,2018-03-12 06:24:15,Alex Reardon,phrasing content within a button (#368),False
+0e6b080baab7375d714b04db0bee132a4bfd99a4,2018-03-06 05:02:06,greenkeeper[bot],Update styled-components to the latest version 🚀 (#371),False
+f8e670ff1c7c0c135d4fcd09e9d00dc1fc1ee4cb,2018-03-06 04:23:52,b1f6c1c4,Build ES6 module (#369),False
+3e9ba9c96e52aa8de54dca8821c008f4aae6ccec,2018-03-05 15:15:03,Alex Reardon,less dom reads (#358),False
+a8a274f9486f1b6f799a174f03adc0a47be3dd39,2018-03-05 05:15:14,Alex Reardon,Render timing fix (#365),False
+a49432133d9d284c09632eb872d486b43345ec7f,2018-03-05 04:03:24,Alex Reardon,adding Draggable index to docs,False
+1dd3510b09fdd55035315839700119653560e6c0,2018-03-01 08:30:21,Alex Reardon,Using box model terms (#356),False
+c596a99f29b73a5e40814e13c14abee25b1c3c57,2018-03-01 00:52:10,Alex Reardon,Fixing drop on empty list (#351),False
+14ed8a8feb930ae44758c77b7680bd276cfb7106,2018-02-28 13:40:58,Bogdan Chadkin,Simplify flow types distribution (#347),False
+717b75bf298bc1e19b6762c025ab036fcaf67a9d,2018-02-28 09:42:31,Bogdan Chadkin,Reduce umd bundle size (#346),False
+65500ae61562ca8c86ca8f857aca425a5dfb30d8,2018-02-28 09:09:39,Alex Reardon,adding more info to docs,False
+566fc69a6fb577e40deca187562de59c2ec6ad64,2018-02-28 08:58:54,Alex Reardon,correctly blocking onClick for all element types (#353),False
+25665c9bf598d101d25299df31b6ac3901953ccc,2018-02-26 08:18:03,Michael Blaszczyk,Add `resetServerContext` function for SSR (#345),False
+fc35bd22a546243d8f811fa8f88c4b5e77077eb1,2018-02-23 05:39:44,Alex Reardon,v5.0.0,False
+66c5355b9e395ac617ee43874a564e14f62542d6,2018-02-23 05:35:11,Alex Reardon,adding example screen reader behaviour gif,False
+4f391df7537caf829dce76c21cbd07c48dc04476,2018-02-23 05:34:56,Alex Reardon,disabling travis auto deploy,False
+03036b80fa832aecdfce45d476428319fb679ee9,2018-02-23 04:45:46,Michael Blaszczyk,Minor readme updates (#340),False
+79105c7297f6f11b6f6cf48bd2137c01d023f82d,2018-02-23 04:40:36,Alex Reardon,fixing linting issue,False
+5b486bab1fd84a54dc0302d66432314f3b44237d,2018-02-23 04:34:36,Alex Reardon,Greenkeeper/rollup 0.56.2 (#342),False
+63d319db56d9d1123743371ab2984753251f081e,2018-02-23 04:07:11,Alex Reardon,doc improvements,False
+4374d7bebc7b260669276cd2cc9a33ff5e810fbf,2018-02-23 03:43:35,Alex Reardon,babel-preset-env round 2 (#341),False
+a7f53d3c912024247e819726046b2f2481dcfff6,2018-02-22 11:54:27,Alex Reardon,doc fixes,False
+65f115fcb1a67f72c4e3fb17a97dd79f5323c2d2,2018-02-22 11:44:53,Alex Reardon,"Auto scrolling (and more!) (#321)
+
+It's about time!",False
+9ce5b7afdcb939c1d0d1796965a9f28d66dd2f49,2018-02-14 16:29:06,Jess Telford,"Add a note about table support (#324)
+
+* Add a note about table support
+
+* Clarification on when table layouts break
+
+* Linkify a referenced issue in the docs",False
+fd34409ec4974636b27f3154448cd094fc9dc0ce,2018-02-06 04:47:55,Ajay Narain Mathur,"strip console from builds (#309)
+
+* added rollup strip plugin to remove console
+
+* updated strip config to remove debugger",False
+d4ac2aa5e957804bfd9364a88be7fd6f2e114a11,2018-02-03 15:31:16,CaptainAme,fix typo (#307),False
+7901c6e47d2e2c7b3a3716c3e62ee162084c2c6d,2018-02-03 08:08:18,Alex Reardon,"Revert ""added new logger module (#225)"" (#308)
+
+This reverts commit a19aeab8b17da35fc40f5a73c422f66399cddde7.",False
+a19aeab8b17da35fc40f5a73c422f66399cddde7,2018-02-01 04:52:36,Ajay Narain Mathur,added new logger module (#225),False
+06d6c208fce4f29627f1a4548fbe6490025bdcf3,2018-01-30 15:18:26,Alex Reardon,adding codesandbox examples - moving away from webpackbin,False
+2605fb0789047db3e38224f81a7b925aff7c170f,2018-01-19 07:58:32,Alex Reardon,simplification of drag handle scheduling (#278),False
+ce7907f882c323436a4cfe0e427c2f94eeda4c59,2018-01-18 05:50:53,Alex Reardon,adding clojurescript docs (#276),False
+419f842029b0ef1074c706497416b9e533a4c670,2018-01-17 06:49:13,Alex Reardon,v4.0.1,False
+aae1493a020fd56c45429a34b35ba68efbe8632a,2018-01-16 11:46:22,Alex Reardon,Fixing drag start lock (#271),False
+7261bae166d8d26633705055deda211838696a5c,2018-01-16 06:00:00,Alex Reardon,fixing issue where get-droppable-over incorrectly calculates clipping (#269),False
+74645c39345a687e2763193b5a8b94186b77a366,2018-01-15 15:11:52,greenkeeper[bot],Update rollup to the latest version 🚀 (#259),False
+83302f8db90ddd48de2653f98c4b92b889905ce8,2018-01-15 10:42:55,Matthew Rowles,Fixes 'flowtype' URLs (#267),False
+d1b087f8385439758d7f12db149d917b2a007ffc,2018-01-15 09:36:49,Alex Reardon,disabling partially implementated experimental behaviour (#264),False
+b0823fd53af76c14087a59b37a3d72fcf76b2ff5,2018-01-14 08:01:27,Alex Reardon,fixing basic example. adding link to upgrade notes (#263),False
+dc43ff38026a347e3b1abb640d1f1b2a540c9c02,2018-01-14 07:03:46,Alex Reardon,adding more tests for connected components (#258),False
+347738a47d178cdbd1dcc6b4feec283aff7c55aa,2018-01-12 02:28:46,Mike Parton,"Update README.md (#257)
+
+Fix typos in simple usage example",False
+b40f6c9a570ff32c88d33e142b141bb08ab89696,2018-01-11 09:55:26,Alex Reardon,adding index to draggable examples in readme,False
+5f6fd239dfe0b60cb4429dfb8f4f85fa00fa5d56,2018-01-11 08:31:45,Alex Reardon,v4.0.0,False
+4618e34a7fbf5495fe2a954f5c358a0043faa11e,2018-01-11 05:59:38,Alex Reardon,removing old preset styles section,False
+1b6b8141ca5403709cc1bbfe3d629dc716229b52,2018-01-11 05:52:13,Alex Reardon,updating example link,False
+3cfdc4b5bcd88f6f00c95ea9951e841fe1f99a7a,2018-01-11 05:48:55,Alex Reardon,Bumping deps (#254),False
+538211eb1a02e3b48619f05d97fc1b9e98610378,2018-01-11 03:51:24,Alex Reardon,"Greenkeeper/rollup 0.53.3 (#252)
+
+* chore(package): update rollup to version 0.53.3
+
+Closes #237
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+e0a5e32fb1f639150e00552ec7c2963c7e348e6f,2018-01-11 03:46:26,Drew Walker,Added support for React 16 as a peer dependency (#249),False
+b554655efcc9e386c26dc7d0047497ab7c4bb521,2018-01-11 03:34:52,Alex Reardon,adding more tests for consumer redux usage (#251),False
+0fb4dc75ea9b625f64cac48602635ac2822f26ec,2018-01-11 03:23:15,Alex Reardon,"Drastic improvements to performance (#226)
+
+Drastic improvements to performance",False
+f9cdebc80db54e3a4967df0c1d578dd6dba9c580,2018-01-06 01:26:25,Alexey Shpakov,"Move react and react-dom into peerDependencies (#245)
+
+Reads react as peer dep",False
+e08273606cf76eefff0e2385bb83940ed9cc72b4,2017-12-23 10:57:51,Thomas Broadley,docs: fix typos (#238),False
+9ec49268a30a16061cbf662d1ca19781f1a4f2a1,2017-12-21 00:48:11,greenkeeper[bot],"Update rollup to the latest version 🚀 (#232)
+
+* chore(package): update rollup to version 0.52.3
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+cda92b00848976bff82cd00722eae5dc3a3ad45d,2017-12-19 03:51:33,Alex Reardon,"Greenkeeper/jest 22.0.1 (#231)
+
+* chore(package): update jest to version 22.0.1
+
+Closes #230
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+5a52f028fad8d48ea8a2a1bdff3c98bb6dc24589,2017-12-10 01:13:32,greenkeeper[bot],"Update flow-bin to the latest version 🚀 (#220)
+
+* chore(package): update flow-bin to version 0.61.0
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+4054e4c6893a6229779e762e9e724bd9e6a765fc,2017-12-06 05:54:01,Ajay Narain Mathur,doc: minor typo: where update to were (#218),False
+4927340b0a7efb3eabeee1f74bdbadefa2aa7a06,2017-12-04 04:44:35,Alex Reardon,"Greenkeeper/flow bin 0.60.1 (#215)
+
+* chore(package): update flow-bin to version 0.60.1
+
+Closes #213
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+34cf50eeb52a094a9c3c401f44b4d71904ca5d57,2017-12-01 04:46:51,Alex Reardon,fixing styling on horizontal stories,False
+f3697186fbaa9e62df35f58fc9c1f0b8f11f034f,2017-11-29 03:48:47,Alex Reardon,adding notes about portals,False
+dc450576e1aff0950e66adb139dbc1b4e1b314fd,2017-11-29 03:47:29,Alex Reardon,"Greenkeeper/react test renderer 16.2.0 (#206)
+
+* chore(package): update react-test-renderer to version 16.2.0
+
+* chore(package): update lockfile
+
+https://npm.im/greenkeeper-lockfile",False
+efad500f2e8eb73920478a6b472750257aad4f78,2017-11-28 09:39:34,Alex Reardon,bumping version,False
+d7576b8a64f6ee2f6548ac48b05a0746d6128703,2017-11-28 09:39:00,Alex Reardon,adding travis logging to help debug automatic deploys,False
+5954e30ae9d38322ac955d26b86e3960f5b1be2d,2017-11-28 09:30:46,Alex Reardon,Placeholder cleanup (#200),False
+423b242661684aeb226548729a4e31125b015568,2017-11-27 11:55:44,Alex Reardon,minor doc tweak,False
+d50e84040382f61a4a485d2a6a04ca3cc407f415,2017-11-27 11:39:58,Alex Reardon,more information about bundles,False
+30f6da832e6abc4ba30746d802d06b95e74d96d9,2017-11-27 11:30:13,Alex Reardon,adding more information about umd bundle,False
+0f415a354003fe6fec442c65a142d1a2da5cb721,2017-11-27 11:29:42,Alex Reardon,adding flow eslint plugin to avoid files missing flow annotation that should have it (#198),False
+818baa09a2f9c7b6de1f227db6df30b54148df09,2017-11-27 09:33:05,Alex Reardon,minor doc improvement,False
+22a451e129e23d289e4c1572cdc087a18cd1541b,2017-11-27 08:44:36,Alex Reardon,fixing error in dist build when process.env is not available (#197),False
+56d782c95f7036e8208e4d285616cbf5ecd0f9cb,2017-11-27 07:45:27,Alex Reardon,cleanup of test utils (#196),False
+b61813dde3c2a82742988b4825e28d247aea6bf7,2017-11-27 07:23:49,Vini Falavigna,chore(build): adding dist build (#186),False
+bc4d25e5471f8615f2ecc4e9af2fab26523e9e87,2017-11-27 02:33:19,Alex Reardon,removing unused flow types,False
+c19b15864aead32fa6d660c1fd70ceddd9950f21,2017-11-24 14:02:32,Alex Reardon,minor doc improvement,False
+b2783e222e11793ef1a2f9117fd6fa5c727edb5f,2017-11-24 10:35:48,Alex Reardon,"Improved default for interactive element (#195)
+
+Improved default for interactive elements",False
+02096e6919f2f3051ce7d0946d1d9b3050a42ed3,2017-11-24 10:14:50,Alex Reardon,"Moving to long press only to start drag (#191)
+
+Moving to long press dragging",False
+55e9f118eaa938931ab339399f9d66909bf56b51,2017-11-21 05:11:41,Alex Reardon,undoing attempted travis fix,False
+750326101868b78d80a1478618bac4e55b425be9,2017-11-21 05:03:18,Alex Reardon,bumping version,False
+a7edf7f5d40c8610aae7db401439d566531f3b4b,2017-11-21 05:00:51,Alex Reardon,"adding warning about empty droppables. also minor doc cleanup (#187)
+
+Adding warning about empty droppables. also minor doc cleanup",False
+97c05ddea53a795030486b4f30889e9249cf489e,2017-11-21 03:27:31,Alex Reardon,explicitly importing react types to avoid deprecation warnings (#184),False
+bc2f4210b527cf67793d875db22e8100a7a0dd2e,2017-11-20 11:37:16,Alex Reardon,installing rimraf before deploy (#183),False
+87e3d81e53185e6494b1e173d54f7f071704b8ce,2017-11-20 11:09:40,Alex Reardon,bumping version,False
+928e7b88345e1932e9eaf0132283a60fa035eb5f,2017-11-20 10:02:57,Alex Reardon,minor doc improvement,False
+3e8f5624fe6f386074130f8f5c55bc6883111281,2017-11-20 09:38:40,greenkeeper[bot],"Update dependencies to enable Greenkeeper 🌴 (#182)
+
+Adding greenkeeper",False
+ecdab862e02c8c0e8db1c39d2432a5ac09ac73f5,2017-11-20 09:15:58,Alex Reardon,"Upgrading all the deps (#181)
+
+Upgrading flow and other dependencies",False
+738db14896ffdd8569c01121531a852a84ee287a,2017-11-17 09:03:13,Ian VanSchooten,⬆️ Upgrade raf-schd to 2.0.2 (#178),False
+5def35597398eef567f9d1c791243243f3fdfe9c,2017-11-16 08:22:32,Alex Reardon,bumping version,False
+596f6bdd0059419c58729b225ee902c0999ceb94,2017-11-16 08:18:04,Alex Reardon,"fixing nested touch dragging (#175)
+
+Fixing nested dragging on touch devices",False
+41101c729015e372be4a2f1585db6da2c7cea993,2017-11-16 08:13:09,Alex Reardon,"Improved drag flow (#172)
+
+Cleaning up drag lift flow to be more simple and robust. Adding tests for lift flow",False
+e73251dc593b1eed9e4b383795a09f5a20c3ebdd,2017-11-15 03:21:20,Alex Reardon,Update README.md,False
+5e83843146cd5f63636e2b04714a02700cb83f87,2017-11-14 14:36:51,Alex Reardon,minor doc addition,False
+b5a6592edddeec083379a8b46d33bf7cd2c572ef,2017-11-14 14:17:49,Alex Reardon,bumping version,False
+164255476331d7bf8d817f7da9e8320439740154,2017-11-14 14:17:19,Alex Reardon,fixing touch dragging (#169),False
+2850e8e6a5aa3d24eeff440abeeaa2feefe10269,2017-11-14 11:01:07,Alex Reardon,adding mobile example to docs,False
+43e3c933818c1a0ecc97abbc141ee1c812a8eab9,2017-11-14 10:34:01,Alex Reardon,bumping version,False
+c6b779e069126d1b989bf9184872bba1ca4afda6,2017-11-14 10:32:36,Alex Reardon,"Touch support (#165)
+
+Adding support for touch dragging",False
+9b195e9719e47f548b7d86ae31fe0272b4a0addf,2017-11-10 02:36:05,Sean K. Roth,"Update README.md to match WebpackBin example (#168)
+
+The `getItemStyle` in README.md had a bug when I tried it but the one in the WebpackBin code worked perfectly. This commit brings the change in the WebpackBin example to README.md.",False
+08eae44649e618c97c3a06d1a6ec7f058ef67194,2017-11-04 03:40:01,Theo Salzmann,"Remove disclaimer for moving between droppables (#160)
+
+The feature has been implemented with v2.2.0 and therefore the
+disclaimer is no longer necessary.",False
+b568df6640b035e8b8dec204868e39d34b3de451,2017-10-30 11:17:15,Jared Crowe,bumping version,False
+fa21790e05d750b852a23b7fa02609f80be92dc4,2017-10-30 11:08:24,Jared Crowe,"add ignoreContainerClipping prop (#148)
+
+* add ignoreContainerClipping prop
+
+* actioned feedback
+
+* add docs
+
+* update docs",False
+7fa791eac469a4a5018e05d2ce0dc3cd5a163728,2017-10-27 04:11:16,Hung Q. Le,Added patching inputs inside Draggable example (#152),False
+27ebb6728f9ce8840f3b2a33259a3dd24b73274e,2017-10-26 06:24:12,Jared Crowe,document Droppable's direction prop (#151),False
+d3ead39d5b26c2d363bbfce0c6299c3ae02a04e6,2017-10-25 06:42:27,Hung Q. Le,Update Typo (#146),False
+9eb2586b481f3d07c43a048ff34af788bbabc598,2017-10-17 08:38:02,Jared Crowe,bumping version,False
+b7226033e6fced7cf7e8248b2b55c288bbc95d94,2017-10-17 08:33:38,Jared Crowe,"Keyboard drag dimension clipping fix (#137)
+
+* cross-axis keyboard movement now clips droppable dimensions when calculating best droppable
+
+* move getCorners into spacing.js. add tests for untested spacing functions. add comment.",False
+2f19969595462328c6a9ffeb04a16ce04eb70609,2017-10-16 07:38:02,Kian Gorgichuk,"Incorrect Binding to Window Event Listeners Fix (#140)
+
+* Fix incorrect event listener bindings
+
+Dragging now does not always bind event listeners to the global window object.
+
+* Fix broken tests
+
+When testing this.props.draggableRef is not defined. 
+Therefore when testing, default to global window object.",False
+506bf99cbcdf797c7633ee59055880bf611a2ec4,2017-10-12 07:02:13,Jared Crowe,"droppable dimensions include the size of the draggable placeholder if… (#132)
+
+* droppable dimensions include the size of the draggable placeholder if they are a foreign list and were hovered on the previous tick",False
+e419cdb1dc358e906d5876e1777ce86f22dd9d59,2017-10-05 08:43:45,Jared Crowe,bumping version,False
+29f9fa76931dd70ef447d65bd1912c090c9ca838,2017-10-05 06:32:18,Alex Reardon,"Allowing dynamic hooks (#127)
+
+Allowing dynamic hooks",False
+778f3cfbfc7e42e90b07ab4867abe4d5124615c8,2017-10-04 08:12:53,Alex Reardon,"dimension clipping now considers margins (#123)
+
+* dimension clipping now considers margins",False
+2a46a0591fe0cdde7957f344e8263ce66f799375,2017-09-28 10:33:28,Jared Crowe,"fix race condition when cleaning state when a drop occurs before a li… (#125)
+
+fix race condition when cleaning state when a drop occurs before a lift has completed",False
+afdcf212653cda8efca5ee41026ff173c5a8073c,2017-09-28 09:37:10,Alex Reardon,mentioning typescript definitions in the readme. closes #118,False
+b08c2628fe18ac91235851e4f0e9fdfab794a60d,2017-09-28 06:25:19,Jared Crowe,fix horizontal list story (#124),False
+4d56f3eeda1e0683b5d3e54f84b97e994925c2b6,2017-09-27 15:21:57,Alex Reardon,Update ISSUE_TEMPLATE.md,False
+f7ea5bdf71c95ece749203d0989d483cb7d4e020,2017-09-26 11:41:28,Sean Curtis,"Improved focus styles for storybook examples. (#100)
+
+* Improved focus styles for storybook examples.
+
+* New outline styles now pull colour from the constants file.",False
+22cb39176da059c0bf2723f6d204455a15901cf6,2017-09-26 08:23:02,Alex Reardon,removing redundant eslint opt out. adding more docs (#119),False
+1266ee5137e46defdf5200794b85a1ef2f03c101,2017-09-26 05:32:19,Mike Mathew,[docs] Makes various spelling/grammar corrections (#117),False
+1e969bcdaa063c1728a69ba98db7e7da0b2dbdb6,2017-09-25 09:53:35,Alex Reardon,Flow cleanup (#113),False
+dfa670bceedccb33f1290a7f21990c486e75f116,2017-09-25 08:25:59,Alex Reardon,bumping to latest eslint version (#115),False
+301c44016085d7fec252e793afa3a13f8de25b88,2017-09-22 11:28:06,Jared Crowe,bumping version,False
+e26fc265b884c72af14337a8de98b1d5b20e8ff9,2017-09-22 09:48:58,Alex Reardon,"Adding internal interactive docs (#112)
+
+Adding docs on internal interactive elements",False
+d1233c8062261bfd287dc70644d35e1a4a9fcf7e,2017-09-22 09:23:10,Jared Crowe,"Shared scrollable parents (#111)
+
+allow multiple droppables to share a scroll container",False
+867f79670e7fcaf47f0d0cc827da427721c052d7,2017-09-20 09:03:00,Alex Reardon,"travis will now release on tags from master (#106)
+
+* travis will now release on tags from master
+
+* bumping node version in travis file",False
+f2564a40be17257a7afa6b065cfdc4fe75e23f70,2017-09-20 07:37:59,Alex Reardon,bumping version,False
+a4cc9e8013faa1f9e313bb5627d4b40381bd4047,2017-09-20 07:21:49,Alex Reardon,adding movement description to docs (#104),False
+611523f86153660efd09c2e6b54d3a9fcef4d704,2017-09-19 13:17:05,Alex Reardon,"fixing keyboard dropping when inside of a nested list (#102)
+
+* Fixing bug where dropping a draggable inside another draggable would cause the parent to lift
+* Adding support for using spacebar to scroll the window during a mouse drag",False
+d7775bdbf1818df58b53e28cbefa3768cbcbef30,2017-09-18 12:22:19,Alex Reardon,"Fixing drop site when dropping outside of a droppable when the home has been scrolled (#96)
+
+fixing drop location when dropping outside of a droppable and the home has been scrolled",False
+4a7575255f6b3e4001d8880715ceae87acc38255,2017-09-18 12:03:08,Alex Reardon,"get drag impact refactor (#92)
+
+Cleaning up get-drag-impact and simplifying how page properties are handled",False
+75a9a39e0bbcd38fd0b955fdd63205e232048c9c,2017-09-15 18:27:52,Alex Reardon,bumping version,False
+ab96cb1452d2ebcac776fe21ef221913bc1b49b9,2017-09-15 18:25:12,Alex Reardon,"what droppable you are over is based on center position of draggable (#93)
+
+Base what droppable you are over is based on center position of draggable and not the mouse selection point",False
+599de4a98fdd38b2bb8fda894079f966bc545e85,2017-09-15 09:03:04,Alex Reardon,fixing board story by avoiding shared scroll container (#90),False
+bf9d5e8cc48a7dab70a83ffcfe6688379882775d,2017-09-15 04:54:44,Alex Reardon,bumping version,False
+faf2fad9fd5fd60439d87fb59bc62f2c7f194f24,2017-09-15 04:52:25,Alex Reardon,adding Jared to list of maintainers,False
+243eb12deabeb5e118571dbb23572b568092e61f,2017-09-14 17:00:33,Alex Reardon,droppable placeholder now takes up correct size (#88),False
+182c272c44ffdb6a2c7b786feb1a9a5b41a986e9,2017-09-14 16:09:19,Alex Reardon,bumping version,False
+4723e0b12d69a70bebdd7ab053803b0c717fb0ff,2017-09-14 16:05:01,Alex Reardon,no longer relying on margin-collapsing for lists in stories,False
+a0e86fae9f0915b74c237a1d640a1bc2f71ec188,2017-09-14 13:38:19,Jared Crowe,getWithSpacing function correctly calculates top and left dimensions,False
+5f3a4e55e036bec04d858c4f2a5f89858d9c0e21,2017-09-14 11:46:04,Alex Reardon,adding more keyboard information to readme,False
+f9c37cc9433e1c51c7b12031c920581bbbb41ae1,2017-09-14 11:32:35,Alex Reardon,fixing moving to an empty list that has padding with a keyboard,False
+6538630004bc1df9e6fc1ddf520be579df8d3030,2017-09-14 11:20:46,Alex Reardon,bumping version,False
+24f01df7327e8fc6d2649595a7c4144d4c89e390,2017-09-14 11:19:42,Alex Reardon,"Moving between lists (#73)
+
+Adding support for moving between lists",False
+4e128a3a9a834d94b5b934af0e898d95e35282f5,2017-09-12 16:06:16,Denis Iogansen,"Decrease minimal react version ( closed #84 ) (#85)
+
+Decreasing minimum peer dep react version",False
+7f26c7750065b1404c2fcbc6f66047dd3a2257ce,2017-09-11 06:06:44,Alex Reardon,"Update README.md
+
+Making feature set language more universal to horizontal and vertical lists",False
+32b26a5e26257929a9b6f72cc636ef9c94720b72,2017-09-07 09:09:16,Alex Reardon,bumping version,False
+c562bbd893b0d99d3846b9978a8701ed214b8b32,2017-09-07 04:40:33,Alex Reardon,leaning on eslint config rather than options to control linting targets (#76),False
+99bec53375b6d4379c31cc632cba963e4617f90a,2017-09-06 11:56:37,Leandro Lemos,issue #16: Add .babelrc to .npmignore (#75),False
+f7ffeec623f94559277b9a1e0a46d0113c65af6d,2017-09-05 05:42:59,Alex Reardon,Update ISSUE_TEMPLATE.md,False
+f54a16bae0d201001f006fee4584b376484a7ccf,2017-09-04 06:20:13,Alex Reardon,Update README.md,False
+241d1a7178c3cfa9b31b13a8a71454d4190f131c,2017-09-01 11:43:49,Alex Reardon,bumping version,False
+4716f4b4a40777902baa4b2e4dd3ca7b3f5a9790,2017-09-01 11:41:49,Alex Reardon,bumping version,False
+5f6938ae9e482401005973c9e55686ca1221e5ab,2017-09-01 11:40:54,Romello Goodman,"Adding npm badge to readme (#71)
+
+Added npm version badge to the readme",False
+daea240ea54a9a5e1f714d6b5a5b4cac7792918b,2017-09-01 11:38:55,Alex Reardon,"Exporting public flow types (#70)
+
+Exporting flow types for public consumption",False
+0cf94bbc4287a6173a6e96e04bd6d500031a8a2d,2017-09-01 05:29:58,Alex Reardon,bumping version,False
+4595ef16ed4b432aa40d3caebb254866660698f3,2017-09-01 05:26:43,Alex Reardon,adding tests for server side rendering (#69),False
+ea751ad50d5a92f8504315d8703b0fd0d917b922,2017-09-01 05:19:22,Alex Reardon,"fixing force press interaction (#67)
+
+* fixing force press interaction - fixes #62",False
+5b9bb26e9dec8df7149a8bcedb99ee2dd57797ce,2017-08-31 17:52:05,Romello Goodman,"Checking that the window is defined before accessing it. (#66)
+
+No longer calling window on mount to allow SSR",False
+2ac979440b6fc861050b4155938cb34706b668ce,2017-08-30 06:29:35,Alex Reardon,"updating flowtype lib defs (#56)
+
+updating flowtype typing and lib defs",False
+079daa9733f4e3322ec0542ed14f146eba1c5cf7,2017-08-25 03:51:42,Alex Reardon,bumping version,False
+1093486ecb6e37c4b6a361620d1ad647fbe94f1f,2017-08-25 03:49:52,Alex Reardon,"fixing keyboard dragging for large items (#57)
+
+fixing keyboard dragging when dragging an item more than twice as big as its sibling",False
+4aa9d6571b3da8e765de2c06b3846db4b1fd96af,2017-08-23 16:45:01,Alex Reardon,adding more stories (#55),False
+f8b3530123ff67041a5ec1c007c43bcaac91ed15,2017-08-23 06:11:46,Alex Reardon,removing backlog from readme,False
+7151ededd0ed78f18ed12610bd49a017851ee185,2017-08-23 05:26:18,Alex Reardon,bumping version,False
+36ca7ba9f73be97f03091d978561a5568c5b3ccd,2017-08-23 05:24:53,Alex Reardon,adding support for horizontal lists (#53),False
+f9996f64149f027bcc7d84098fa4b74049ba4344,2017-08-22 09:31:39,LeeHyungGeun,"Add a link of README.md by Korean (#51)
+
+* Add a link of README.md by Korean",False
+13d5e5494adebf81c073d1b07c1ca32d0b0ea332,2017-08-21 11:42:09,Alex Reardon,updating readme with warning about position fixed (#50),False
+0f557e036fc5bdedeb5ba13de9540de28883aa4a,2017-08-20 17:24:14,Alex Reardon,using recommended packages to avoid deprecation warnings (#48),False
+5d58f95de38f58039695b3d9af4630ec5e5f795f,2017-08-20 17:19:31,Alex Reardon,bumping deps (#46),False
+13fc5243962668e05996a1dc6b2385554d12f5d1,2017-08-20 16:04:19,Alex Reardon,bumping version,False
+89970c6ba71aa1c76f82efd061f2ccddb8210992,2017-08-20 16:02:11,Alex Reardon,draggables with margin-top or margin-left will now be positioned correctly (#45),False
+98ff512a7b6921da5c0296aa82479979b2f34464,2017-08-20 15:00:44,Brikou CARRE,"Reformat js snippets and fix typo (#43)
+
+* Reformat js snippets",False
+2460bf5ef0ba69c7dd48e3e6c0d56c724e27805c,2017-08-18 08:40:43,Alex Reardon,adding contribution guidelines (#42),False
+04de146249d2eb4ce223c1e775b76e17c9c9cfce,2017-08-18 03:12:07,Tobias Andersen,Fix typos in README (#41),False
+bcbd440f4cfeb3d92a41ea13644a3262d6592971,2017-08-17 15:00:57,Anton Kulakov,"Update README.md (#39)
+
+Add `<kbd>` tags to shortcuts section",False
+8f86be8c2d9aee3e033a46e4a7888be7044095e4,2017-08-16 09:24:08,Alex Reardon,updating readme with language from blog (#32),False
+81a1891d90e0061b2dd79baea39ce35a9afcf5b8,2017-08-15 06:34:58,Alex Reardon,bumping version,False
+feb04b7fb05685a00b8e0f4dd9da00301eb0148c,2017-08-15 06:34:23,Alex Reardon,adding animations for cancelling a drag (#30),False
+e1b7cdbf8fb1cfd482a3dde015464ad9caa9445c,2017-08-11 16:56:42,Alex Reardon,moving basic example higher in the readme,False
+a4ae6f4ffb8aae8f02b7e0c232930dcddcb563b4,2017-08-11 16:54:09,Alex Reardon,moving design principles up higher in the docs,False
+aec897c9a3609dd16634b443b82d869fad0af9ae,2017-08-11 12:01:52,Alex Reardon,adding design principals to docs (#28),False
+419452f1af5f100fbb33d5e5cf329cf9edd2c81f,2017-08-11 09:43:16,Alex Reardon,adding supported browser matrix,False
+10424c566f610295587c4f820ef855185670e30a,2017-08-11 09:42:38,Alex Reardon,adding issue template (#26),False
+683b916361a672071f0d9664447c16bb4b62604b,2017-08-11 07:09:34,Alex Reardon,adding better example gif (#23),False
+be3a776da48a4d531734510a71bfd628daeeff8c,2017-08-11 07:05:13,Ben Gummer,"Move storybook deps to devDeps (#22)
+
+fixed #21",False
+fb6e25c2b38ee3aa2485fed0db611cbafa912b60,2017-08-11 06:06:35,Alex Reardon,removing redundant full stop in docs,False
+c7ae7fc4e7804a0a642047ac5acc505932abee91,2017-08-11 06:00:17,Alex Reardon,bumping version,False
+ddc12f8abc28687287331b7b275ec4da07fa8811,2017-08-11 05:58:25,Jed Watson,"Update .npmignore, fixes #16 (#20)
+
+I brought exclusions forward from the `.gitignore` file and tweaked it to be appropriate for npm.
+
+re: @bengummer's list, imo the babel and eslint configs *should* be published to npm since we're publishing source, and they describe how it should be interpreted.",False
+444183f8f37e9f810ec26ee3f16e6a8073f6b6e8,2017-08-11 04:58:31,Alex Reardon,making the description consistant (#19),False
+c102b348d913f68fbb918fd6fa1244622aa7732c,2017-08-11 03:36:59,Alex Reardon,adding more clarity around react-dnd comment (#18),False
+824a81e0749eba8f50a48625e228d7b4f7819643,2017-08-10 12:44:05,Alex Reardon,initial commit,False

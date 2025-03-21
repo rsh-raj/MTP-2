@@ -1,0 +1,1556 @@
+Hash,Date,Author,Message,IsMerge
+9066ceeb391d9c7ba6aba650109c2fa3f8e088eb,2024-01-03 07:05:22,Lee Robinson,Deprecate `pkg`.,False
+bb042694e4289a1cbc530d2938babe35ccc84a93,2023-07-19 13:04:57,dependabot[bot],"build(deps): bump semver from 6.3.0 to 6.3.1 (#1958)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+ace66bef06f3f12ae040d084da3fdefc87f23dc3,2023-07-19 12:26:32,dependabot[bot],"build(deps): bump word-wrap from 1.2.3 to 1.2.4 (#1965)
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+73a03d1c27d879ff82a6d7b58c5f08c1da8a6a6b,2023-06-21 13:00:08,Martin K,fix: missing entrypoint when launched from self-created child process (#1949),False
+e51efbe14ffd6d649420419cbd835146d1a7a612,2023-05-07 05:24:53,Blaine Bublitz,fix: Add missing functions from restored fs.Stats (#1923),False
+76010f66a4b178d0d517c9f30bd14f6bd0a4474f,2023-05-02 14:05:27,Connor Davis,chore: bump pkg-fetch to 3.5.2 (#1914),False
+7255f6470484774459e84375411e0d95b1711f4e,2023-04-28 12:32:17,Sun Yimin,"test: ignore pnpm test for node14 (#1919)
+
+* Ignore pnpm test for node14
+
+according error message of the actions and https://github.com/pnpm/pnpm/issues/6297
+
+* trigger ci",False
+c353cc9ce8afba97bb6f5c92f71384498835071b,2023-03-28 11:59:35,Ignatius Bagus,chore: remove unused dependencies (#1769),False
+265c00e435d139c3d6d0cc50de60209ca7b1c9f9,2023-03-22 13:15:32,some1chan,test: update tesseract.js test for v4 (#1864),False
+4fe0b4d3308624ebeed3283891ff9e4328c55a1c,2023-03-21 15:38:27,Corentin Mors,"chore: remove eol nodejs in tests (#1889)
+
+Co-authored-by: Daniel Lando <daniel.sorridi@gmail.com>",False
+8eef5eace55a55c4095a719926156ec2d5166a53,2023-03-20 16:02:41,Corentin Mors,chore: make corruption test pass on macos (#1890),False
+e38898355817df7af322c05a74b7d536a660bc12,2023-03-18 16:34:54,Blaine Bublitz,feat: support node19 (#1862),False
+edfdadbca6ddd9526dedcc81bd876d408aae825f,2023-03-18 01:25:58,Corentin Mors,"feat: add option to skip signature on macos (#1878)
+
+* Add option to skip signature on macos
+
+* Add unit tests for no-signature
+
+* Add macos-latest to matrix
+
+* Macos CI various fixes
+
+---------
+
+Co-authored-by: Brad Parham <baparham@gmail.com>",False
+5dc987b90ffd191263eb0202833dc382cea0d47d,2023-03-08 06:49:28,Lee Robinson,5.8.1,False
+f19285db72f4592110f49335923d9199da49a137,2023-03-06 14:42:39,Brian,"fix: add force flag to codesign to avoid already signed error (#1756)
+
+Co-authored-by: Daniel Lando <daniel.sorridi@gmail.com>",False
+e3ac4902e9cb023f0ac2a596e21ff9166d2e268c,2022-11-08 19:02:42,Praveen A,chore: bump prebuild-install@7.1.1 (#1788),False
+be1123c474b3653abf3bfb89c068378f66b3849b,2022-10-31 15:43:10,Ikko Ashimine,style: fix typo in test-99-#1192/main.js (#1790),False
+614c02a06830e0a4a898e6cf4eb35dbbf6110af3,2022-09-21 13:39:45,Ignatius Bagus,chore: upgrade actions runners (#1767),False
+39e99859fe2fd33fb59c4a75318389b477c1a443,2022-09-21 11:37:17,Ignatius Bagus,chore: remove unused entry (#1766),False
+b8deba40c0c9dced29e5c15aaefe575285e716d6,2022-09-20 14:59:52,Ignatius Bagus,chore: use `@types/babel__generator` package (#1755),False
+332c7d971a6a8f918f6d24470557f2dcb1de5abf,2022-09-20 13:28:07,Ignatius Bagus,chore: separate individual test scripts (#1759),False
+6efa7cfbbac323a019680609c2c78bbf7b9fff0f,2022-09-20 11:48:29,Ignatius Bagus,chore: add prettier check in linting step (#1764),False
+56135b583b901d552e3780e749e79e70e71fd3ea,2022-09-19 21:54:48,Ignatius Bagus,chore: clean up obsolete eslint disable comments (#1760),False
+dd9de59c9fca2751bf5d22b57bd9b03d43e85e80,2022-07-22 07:13:12,Jesse Chan,"producer: properly call ""prebuild-install"" if N-API is used
+
+Bug: #1695",False
+f81a08cb130076dccc0f88e2c04c30dc789b9a54,2022-07-13 09:03:29,Lee Robinson,5.8.0,False
+6c930c9be24c53f407eeab34cc09afc638992001,2022-07-12 21:57:23,Jesse Chan,Bump to vercel/pkg-fetch@v3.4.2,False
+5a0eaa64e453bca73296a72c2d9421460b94fb08,2022-06-22 00:04:48,Ikko Ashimine,"fabricator: ""wierd"" -> ""weird"" in comment (#1661)",False
+6c98d4919c69c240498929cf07e4a4f4eb6229fc,2022-06-06 14:11:22,Jesse Chan,detector: use Babel AST and default plugins,False
+3f1c883d98d83c2049b5fc26a94e871da7a45d3f,2022-06-06 14:11:22,Jesse Chan,dependencies: bump (minor),False
+7c72f3a6a8dcffb5e727f8bbbbb25066f92a94a5,2022-06-02 03:52:20,Jesse Chan,"test: fs-runtime-layer: remove ""birthtime"" check
+
+This does not make sense since we use the stat() of the executable
+for all stat() inside snapshot.",False
+e7e67aa2c1a238d21a19e3f8f978ffd3ad49289c,2022-06-02 00:04:32,Jesse Chan,"test: rearrange and fix order
+
+- we care other tests more than compression, so move it to the back.
+  - plus it is really time consuming.
+- tests for issues are out-of-order, due to strcmp ""1000"" < ""2"".",False
+7e4fef9f0828b11c7a9655b95425f32094f2daa2,2022-05-18 08:22:28,Lee Robinson,5.7.0,False
+207b6539efef71238b724e88a0795ac27e67c1b7,2022-05-14 08:46:40,Jesse Chan,Bump to vercel/pkg-fetch@v3.4.1 (#1616),False
+f0c4e8cd113e761958ab387f4b0237f4d8797335,2022-05-10 03:49:28,renkei,"fix(bootstrap): prevent overriding existing node addon file (#1611)
+
+Fixes: #1589 
+
+Co-authored-by: Keimling, Rene <r.keimling@krohne.com>",False
+137a9e0b24308d8ccde744c99c74c1259673149c,2022-05-10 01:20:03,Jesse Chan,"dependencies: replace the multistream typing override with ""@types/multistream""",False
+0227babeb2689556e70735d14379b23ab332ec82,2022-05-10 01:20:03,Jesse Chan,"dependencies: drop unused ""progress"" and ""tslib""",False
+fb3de6bebc70020b9bb4b568750bb4a69e2ef4cc,2022-05-10 01:20:03,Jesse Chan,"follow, walker: replace core module routines with ""is-core-module""",False
+c18c3c6c105a252323d29177b7c0209d64dee476,2022-05-10 01:20:03,Jesse Chan,"follow, walker: fix types of follow, reduce confusion",False
+eb03b567692c24b0a901cafb7917c36913a5d156,2022-05-10 01:20:03,Jesse Chan,dependencies: bump (minor),False
+193b778b62cd15523225f25aff1648880ac16414,2022-05-05 10:28:14,Nikolai Kolodziej,test: test pnpm packages only on node >= 14.19 (#1613),False
+8cd98af1ad7ab74df40fa9ffd5e6decdfb298969,2022-04-05 23:17:36,Lee Robinson,5.6.0,False
+acfe83a2ce9567f9e62d01081b5dc1bcf5121fcb,2022-04-05 22:23:54,dependabot[bot],"build(deps): bump minimist from 1.2.5 to 1.2.6 (#1579)
+
+Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to 1.2.6.
+- [Release notes](https://github.com/substack/minimist/releases)
+- [Commits](https://github.com/substack/minimist/compare/1.2.5...1.2.6)
+
+---
+updated-dependencies:
+- dependency-name: minimist
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+fde330c965feed802a0f0f5dc7a2e0f348cef3c3,2022-04-04 05:24:01,Jesse Chan,Bump to vercel/pkg-fetch@v3.3.0 (#1578),False
+63eaeabb4c80344f242aac04d61cba9493f82549,2022-04-02 00:44:59,Paul Maréchal,"fix: do not overwrite temp .node files (#1547)
+
+This can happen when two processes try to load the same .node file.
+
+Co-authored-by: Daniel Lando <daniel.sorridi@gmail.com>",False
+46b3aa5831d5d788cd7f1c9b245d0d4b05cd6d92,2022-04-01 05:44:55,Paul Maréchal,"fix: `bytecode` option is a boolean (#1554)
+
+The `bytecode` CLI flag is specified as a boolean option in the
+arguments passed to `minimist`.
+
+My formatter also removed a useless trailing space in the same file...",False
+edfcc7b139d667d6be0e46f4101e917ca9c154bd,2022-03-21 22:39:32,CommanderRoot,"chore: replace deprecated String.prototype.substr() (#1560)
+
+.substr() is deprecated so we replace it with .slice() which works similarily but isn't deprecated
+
+Signed-off-by: Tobias Speicher <rootcommander@gmail.com>",False
+53b23fb58d3a7da813f088069e4d076952e2bca2,2022-03-18 00:56:41,L,feat: add simple type export (#1557),False
+a67c92667b110b8cfca6a759e7875385c384f13f,2022-02-22 13:28:38,dependabot[bot],"build(deps): bump simple-get from 3.1.0 to 3.1.1 (#1512)
+
+Bumps [simple-get](https://github.com/feross/simple-get) from 3.1.0 to 3.1.1.
+- [Release notes](https://github.com/feross/simple-get/releases)
+- [Commits](https://github.com/feross/simple-get/compare/v3.1.0...v3.1.1)
+
+---
+updated-dependencies:
+- dependency-name: simple-get
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+64774c5ebface08a7c787b5a5c036454c93f8140,2022-02-12 12:02:37,Nikolai Kolodziej,fix #1505 and add test (#1511),False
+72bc8b36ba3e674f4818ac8d57881cd161c0e4d7,2022-02-03 12:02:19,Daniel Lando,"fix: allow copyFile and copyFileSync from snapshot (#1484)
+
+Co-authored-by: Nikolai Kolodziej <7687617+kldzj@users.noreply.github.com>
+Co-authored-by: Jesse Chan <jc@linux.com>",False
+37cc27e8de4de7bf2249ede816719de7f4e78cfa,2022-02-02 10:00:40,dependabot[bot],"Bump node-fetch from 2.6.6 to 2.6.7 (#1497)
+
+Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.6 to 2.6.7.
+- [Release notes](https://github.com/node-fetch/node-fetch/releases)
+- [Commits](https://github.com/node-fetch/node-fetch/compare/v2.6.6...v2.6.7)
+
+---
+updated-dependencies:
+- dependency-name: node-fetch
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b61c60fd71421cc71e91c4840d38509be690fa3c,2022-02-02 05:19:23,Paul Maréchal,bootstrap: extract native addons not in node_modules to the temporary folder (#1435),False
+501041159c3bca02ca8e702947acee8363ae9c88,2022-02-02 03:50:42,Nikolai Kolodziej,fix: bootstrap: fs readdir and readdirSync (#1130/#1299) (#1495),False
+b5997209335f3a183cb62536b476aa51a05cf606,2022-01-31 03:24:18,trippier1,"bootstrap: always copy module folders to temporary folder (#1492)
+
+Co-authored-by: trippier1 <>",False
+813163a78913af40609d2bd51bf6f1b380549979,2022-01-17 18:12:12,jonaugustine,README: fix markdown code block styling (#1483),False
+2ef4cd95371ec81545069ba3541423332b09fd14,2022-01-14 01:31:10,Lee Robinson,5.5.2,False
+7ac539b348a3b37665813fb88417a45def619cad,2022-01-14 01:30:05,Jesse Chan,Bump to vercel/pkg-fetch@v3.2.6 (#1478),False
+f081c634c73aaf00cff69750c561771442092098,2021-11-29 08:10:00,Lee Robinson,5.5.1,False
+66e7e5774f30c05ab598fddc6fd058b7cb22f357,2021-11-29 07:56:36,Jesse Chan,Bump to vercel/pkg-fetch@v3.2.5,False
+d26e4572ce591c3f4768bf22391717ddb3c52114,2021-11-29 06:19:44,Lee Robinson,5.5.0,False
+58b3e2c909a6aa1f95184d53a98ff6bf37cb9235,2021-11-29 06:19:17,Lee Robinson,5.4.2,False
+1bf9be8794c6759db70fe3b4d26c6d6d9f82d674,2021-11-25 03:07:28,Dan,"Add support for import with `node:` (#1405)
+
+This PR adds support for pkg to identify any built-in/core module that's being imported using the `node:` protocol. 
+
+Fixes: #1309, #1363",False
+b63df87586dfb0a5f56e8698f753846edee4a498,2021-11-13 00:24:23,Nick Chan,ldid: explicitly mark signature as adhoc,False
+72e877f57ac8db008bcd400aed991565b073934d,2021-11-10 15:36:04,Jesse Chan,.github: add issue templates,False
+62f6da937a915dde824e30e5b9af7f707ba391fb,2021-11-08 14:52:37,Jesse Chan,dependencies: bump (minor),False
+6c8224b99cdb0109c3df4fe99946bb36562f1498,2021-10-31 06:33:12,dependabot[bot],"Bump path-parse from 1.0.6 to 1.0.7
+
+Bumps [path-parse](https://github.com/jbgutierrez/path-parse) from 1.0.6 to 1.0.7.
+- [Release notes](https://github.com/jbgutierrez/path-parse/releases)
+- [Commits](https://github.com/jbgutierrez/path-parse/commits/v1.0.7)
+
+---
+updated-dependencies:
+- dependency-name: path-parse
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+db58f7d117fc1a5413c576294a50e7f0af3d4268,2021-10-30 21:30:39,Lee Robinson,5.4.1,False
+628d077ff663e93539ec836e6ade89d8cf5108f6,2021-10-27 11:40:00,Jesse Chan,Bump to vercel/pkg-fetch@v3.2.4,False
+13db95c11755b4d38c94deb4205a13f028ace74b,2021-10-26 11:59:14,Lee Robinson,5.4.0,False
+08fa5ab49486906cf68f78e3c227751c0299ec11,2021-10-26 11:58:54,Lee Robinson,5.3.4,False
+7f0b492a175ca755dceb50660ecee11b40de641d,2021-10-20 13:23:03,Daniel Lando,fix: improve `unlikelyJavascript` check,False
+4ed2ee42044b72cf9cebf4e4619bcd3de28d978e,2021-10-20 13:23:03,Daniel Lando,"feat: add `no-native-build` option to skip native addons build
+
+Fixes #1319",False
+85ccec331bd81dcbc49916ba9862955e0e053ec6,2021-10-11 02:30:32,Daniel Lando,feat: allow to skip dictionaries patches with `--no-dict` option (#1330),False
+e9ad32628d8adb49f56f7e9e7c8e1d2e139a433f,2021-10-09 09:01:34,Daniel Lando,"bootstrap: fix module parsing for all os (#1331)
+
+Seems that the regex fails in Windows, this is because the path separator is hardcoded in the regex.
+
+This fix uses a different and cleaner approach and will work on every OS. It also handles cases where
+the required file isn't inside node_modules folder
+
+Fixes: #1319",False
+ff2092c7bc5db1e69b947feabafd0ab0f2a9af1e,2021-10-06 13:20:45,Daniel Lando,fix: catch babel parse errors (#1324),False
+bf8c62c428a81cc7873ef2a73f0306a6e36ed0db,2021-10-04 14:31:30,Daniel Lando,bootstrap: skip regex when dlopen path isn't inside snapshot (#1327),False
+48ddda02a4e8d157d503e4e56ada07ca1ff0a097,2021-10-01 19:20:53,Lee Robinson,5.3.3,False
+df02066325c0b27b6f71d4376df8aeb498bdf7c6,2021-10-01 11:39:19,Jesse Chan,CI: master -> main,False
+165617a2a5ab207f5008616875a21ab18602f032,2021-09-30 23:02:16,Daniel Lando,"bootstrap: better support of `.node` files (#1321)
+
+When a `.node` file is required `pkg` copies it in a temporary folder like `/tmp/<hash>/addon.node` the problem is that for modules like `sharp` this isn't working as them are statically linked to other `.so` files using relative paths. This pr will copy the entire module folder inside the temporary directory, this allows also to remove the `tryImport` function as there is no reason to try again if that fails. 
+
+I tested this on my end and it's working
+
+I also grouped all hash folders inside `pkg` folder to be sure that the copy will run when users will update pkg, otherwise the copy may not be done when the folder already exists but was created with a previous pkg version
+
+Fixes #1075",False
+59125d1820cdb380f3f592604bcfd7c017495e77,2021-09-11 07:14:26,Lee Robinson,5.3.2,False
+2c57b62fd3e6816fb992091cb709f9df03bda900,2021-09-11 07:13:13,Jesse Chan,Bump to vercel/pkg-fetch@v3.2.3 (#1308),False
+09c3f21f5706041e171e17cd5e060dc53fe1434b,2021-07-22 05:12:37,Lee Robinson,5.3.1,False
+d65eb64e896bc4d9c95713dc4467306684c23b46,2021-07-14 21:08:28,Jesse Chan,"README: mention ""ldid"" utility on Linux for macOS signing",False
+8cd96a1686ab4e79e6b7d6242a52034760f75943,2021-07-14 21:08:28,Jesse Chan,"Allow to fallback to ""ldid"" for macOS ad-hoc signing
+
+ldid is a ""codesign""-like open source utility to sign Darwin
+(macOS/iOS) executable or package. It is possible to run ldid on
+Linux.
+
+Bug: #1251",False
+03c5e98d90600417c1f0d7c6c61335141803afd6,2021-07-05 16:09:48,Jesse Chan,Bump to vercel/pkg-fetch@v3.2.2,False
+58130161bf31558ea03fc871eaa546d5f56431e3,2021-06-25 23:51:36,Jesse Chan,Bump to vercel/pkg-fetch@v3.2.1,False
+932a3193668d80e1a47ebe91453427182a5d9f85,2021-06-24 05:59:21,Lee Robinson,5.3.0,False
+cd5ce74ec181d0f6cd7ae0b218658b6c449e5655,2021-06-08 16:34:29,Etienne,"Revert^2 ""allow to compress files in virtual file system (#1115)""  (#1200)
+
+v2:
+
+- fix issue #1191 
+- only compress VFS if --compress is set (#1192)
+- improve random access with the compressed virtual file system",False
+2070696f157cb15f3e55687fd567cdf9f5156ab7,2021-06-07 19:38:22,Jesse Chan,"tsconfig: bump target to ""es2017"" as Node 8 is the minimum",False
+5c82b6d39d3dface49b35abd3d741836fcca3ce8,2021-06-07 19:38:22,Jesse Chan,"Remove unused ""appveyor.yml""",False
+30b25ab9ceb43914885f3ebbd24ee9270e00a412,2021-06-07 19:38:22,Jesse Chan,"Fixes ""no-nested-ternary""",False
+ff568722a7b0dea2cd661962b70f66ccd305e8d4,2021-06-07 19:38:22,Jesse Chan,"Fixes ""@typescript-eslint/naming-convention""",False
+38a9a8c1298150bf544f3209ac8f02f2c1b61005,2021-06-07 19:38:22,Jesse Chan,eslint: use airbnb-base rules for TypeScript as well,False
+96eceedd1f1a06c10bed355e3ba590dc5a7c83f7,2021-06-07 14:11:43,Etienne,"injectSnapshot: always use ""C:\snapshot"" on win (#1212)
+
+Bug: #1207",False
+80103ddeb85786548726c8c71b348d053d21e991,2021-06-04 10:50:35,Alexander Wunschik,producer: improve readability and remove backed up native addon at the end,False
+bcec96cd95ebee70a2666344e0fb0e6a2e9f59e1,2021-06-03 13:25:22,Etienne,test: add tests for #1191 and #1192,False
+d696260a8ded830a19ddfeafe3db9f1bf2a35eb9,2021-06-03 13:25:22,Etienne,"test-50-fs-runtime-layer-3: use ""Buffer.from"" instead of ""new Buffer""",False
+208e2414fbb29303b5bf981a0f03592f003678f4,2021-06-03 13:25:22,Etienne,"bootstrap: use ""const""/""let"" instead of ""var"", require at top",False
+a22fd8017af347da7ccaf68892cc71ebeba9bd94,2021-06-03 13:25:22,Jesse Chan,bootstrap: remove support for Node < 8,False
+52ddf231ded0b7a17562c95a8697811c82a6c1e9,2021-05-31 22:02:27,Jesse Chan,"Squashed revert ""allow to compress files in virtual file system (#1115)""
+
+This reverts commit 82ce62558e55360f1a7815e5899f5e88a1ce7ddb.
+This reverts commit ea231969d6dedb31a91dbd2278e1387aea3d77d2.
+This reverts commit ea7d72bc2052e717bd89ab1714d5894dd5e9bfa7.
+
+Bug: #1191, #1192",False
+e8a2c634d90c506c8599d9fadca203304f0a2351,2021-05-28 03:46:24,Jesse Chan,"README: add notes about ""linuxstatic"" and native bindings",False
+447b2db7475f22f364288f93c9d584a95b6f1645,2021-05-28 03:46:24,Jesse Chan,"README: add notes about ""macos-arm64""",False
+bd5f361ba9864d4163bd86d3305bb24ec3ac6302,2021-05-28 03:46:24,Jesse Chan,README: add notes about building for different archs,False
+709d7116dcacb9f21782717a75971f596025366e,2021-05-28 03:46:24,Jesse Chan,"README: link to vercel/pkg-fetch in the ""Build"" section",False
+491941b54318075ec4fc6cf633aeeb86d6b2bbe3,2021-05-28 03:46:24,Jesse Chan,README: update the target list,False
+010cf842342cedec0910db66cc79620a585bc126,2021-05-28 03:46:24,Jesse Chan,"README: use ""HEAD"" instead of ""master"" for links, see nodejs/node@26e318a32",False
+9c6973d4629907bb4022209becf2eddd5bd3ce9e,2021-05-28 03:46:24,Jesse Chan,README: remove dead dependency badges,False
+760b9c4de28846dfec6cb0597afb97d6dc50eb51,2021-05-25 18:26:01,dependabot[bot],"Bump browserslist from 4.16.3 to 4.16.6
+
+Bumps [browserslist](https://github.com/browserslist/browserslist) from 4.16.3 to 4.16.6.
+- [Release notes](https://github.com/browserslist/browserslist/releases)
+- [Changelog](https://github.com/browserslist/browserslist/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/browserslist/browserslist/compare/4.16.3...4.16.6)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+2c720b117df00387c205ae262e5130794d355335,2021-05-24 20:57:59,Lee Robinson,5.2.1,False
+1f3e2356aa71eae4aedb77eb38d2971c3ff34e0b,2021-05-24 19:53:39,Jesse Chan,Bump to vercel/pkg-fetch@v3.1.1,False
+82ce62558e55360f1a7815e5899f5e88a1ce7ddb,2021-05-24 13:07:30,Jesse Chan,prelude: create tmpFolder only when needed for decompression,False
+4488ab716a2ab827d693a97622baf78346352a25,2021-05-20 19:59:15,Lee Robinson,5.2.0,False
+6fac6dc63b9215b0035f67c917e998ec74787cd9,2021-05-20 12:36:04,Jesse Chan,Bump to vercel/pkg-fetch@v3.1.0,False
+ea231969d6dedb31a91dbd2278e1387aea3d77d2,2021-05-13 14:39:01,Etienne,fs.createReadStream and --compress (#1158),False
+c2b7d6cbf5072bb0698eaf921979659e4625c1ef,2021-05-12 16:50:58,Jesse Chan,Add a warning about the macOS mandatory code signing requirement (#1176),False
+8d2799daa6f9868f2fdbf535f2caaa6552d1b502,2021-05-12 11:38:35,dependabot[bot],"Bump hosted-git-info from 2.8.8 to 2.8.9 (#1177)
+
+Bumps [hosted-git-info](https://github.com/npm/hosted-git-info) from 2.8.8 to 2.8.9.
+- [Release notes](https://github.com/npm/hosted-git-info/releases)
+- [Changelog](https://github.com/npm/hosted-git-info/blob/v2.8.9/CHANGELOG.md)
+- [Commits](https://github.com/npm/hosted-git-info/compare/v2.8.8...v2.8.9)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+b8ef5708425e8fea0d431bb3fc14764145e30841,2021-05-10 19:27:45,Rob Lensen,Add support for fs.realpath.native (#1173),False
+0b55f9adba1f52d2aed171ca902d44fffa114af0,2021-05-10 13:26:29,Jesse Chan,"Ad-hoc sign the fabricator binary temporarily to generate bytecode on macOS
+
+The fetched/built base binaries MUST NOT have an existing signature if we
+want to sign the final executable. However, we do need to run the base binary
+to generate bytecode on macOS, and the binary has to be signed due to the new
+mandatory signing requirement.
+
+This change ad-hoc signs the base binary to allow pkg to generate bytecode on
+macOS.",False
+be5c2aee1180f59d7951ab14c5338bda07ca923a,2021-05-10 13:26:29,Jesse Chan,"feature: allow macOS code signing by including payload in str table
+
+Bug: #66, #128, #1023",False
+551d07d383eeeafc87fca960839e15aa2e1413d3,2021-05-07 20:56:22,Jesse Chan,test-50-fs-runtime-layer-2: remove unnecessary assertion on hint,False
+ea7d72bc2052e717bd89ab1714d5894dd5e9bfa7,2021-05-01 16:16:24,Etienne,"feature: allow to compress files in virtual file system (#1115)
+
+Bug: #885",False
+3027f3f017369751a7b530875440e7925cf11bb9,2021-04-27 18:38:38,Lee Robinson,5.1.0,False
+655ee183681c770cf1e5ff146604f43c09045590,2021-04-27 14:44:20,Jesse Chan,test: test with Node 16,False
+6adde0fb3c72e75f03ba29381969944744d88019,2021-04-27 14:44:20,Jesse Chan,CI: add Node 16 to matrix,False
+36c28f9e7ec2ee676f6ab03323faf76592471cd4,2021-04-27 14:44:20,Jesse Chan,Bump to vercel/pkg-fetch@v3.0.4,False
+382f643c258243cf09445dda66d45b97ec60a440,2021-04-25 01:00:44,Blaine Bublitz,Support RegExp mountpoints (#1121),False
+3941c7d9b187bc6f63779ea5893dd79827a046ff,2021-04-24 14:16:52,Etienne,fix .node loading issue on windows (#1335) (#1143),False
+a3f9110187768e2f2d447477fa67fb0419cada5d,2021-04-23 19:34:07,Jesse Chan,"Use ""linuxstatic"" to generate bytecode for different arch on Linux (#1144)
+
+Currently `pkg` can't generate executable for different arch:
+
+> Warning Failed to make bytecode node14-arm64 for file ...
+
+as it attempts to run binary of different arch.
+
+We can set up QEMU and binfmt to allow emulation. However, the ""linux""
+binary needs libraries from the system, and it is PITA to set up the
+entire sysroot of a different arch.
+
+This change workarounds the issue by using ""linuxstatic"" to generate
+bytecode for different arch.",False
+82a43db92a8ed577291036cad80287b0cca344ae,2021-04-23 17:09:51,Etienne,"improve doc to explain how to pass multiple baked options (#1132) (#1133)
+
+Co-authored-by: Daniel Lando <daniel.sorridi@gmail.com>",False
+1f05232fdd1e3ff70ffc94b9d9c6b56b91b2d57a,2021-04-23 07:55:33,Jesse Chan,test: bump expected major to 5 (#1145),False
+ee8808a9eebe089b03a871ea5878ea7005f10ade,2021-04-22 22:50:45,Lee Robinson,5.0.0,False
+08b26a454bfa69403db09435630fefd200b77eb9,2021-04-22 22:49:40,Jesse Chan,Bump to vercel/pkg-fetch@v3.0.3 (#1142),False
+211da6e6f0e981e1f8e004b423c7e11d6e23fcd1,2021-04-22 20:30:34,Jesse Chan,Bump to vercel/pkg-fetch@v3.0.2,False
+779adf8a936f9f6ed5c7c3db537b1875a0b3c609,2021-04-22 14:10:21,Sören Beye,Fix isPublic check for licenses array (#1140),False
+63f4ce03f71f926521eb8f94dd49b24fb58190ed,2021-04-11 17:39:09,Jesse Chan,"test: add ""node14"" to fetch-all",False
+6ecd52a2d29dcdd510e60f1108c467da68cfff6d,2021-04-11 17:39:09,Jesse Chan,Drop references to Node < 8,False
+247d1d523b48c4229c52bea05241df4a71574cea,2021-04-11 17:39:09,Jesse Chan,"Fix ""pkg-fetch"" types",False
+bba81480d5302fbbb7d9df1d08e36a062801fdd5,2021-04-11 17:39:09,Jesse Chan,Don't mix objects of different types,False
+5a97ee20728cc4463580c582cc92b5fb4ab90c20,2021-04-11 17:39:09,Jesse Chan,Cleanup dependencies,False
+14fb420fd43401de9af5f5d07a48bb3a659db56e,2021-04-11 17:39:09,Jesse Chan,Bump to vercel/pkg-fetch@v3.0.1,False
+8756fc1b95360d7668895e68e3d50268e2dcf375,2021-04-08 22:14:11,Blaine Bublitz,Support mkdir at mountpoints (#1120),False
+94cdb69af57fa454e54ae9e8f33d9f428933d2ed,2021-04-07 14:17:23,Etienne,test: add unit test for #775 (#1118),False
+3507e2c5614e395f6c44c7050168c339060d3121,2021-04-07 12:43:06,Etienne,Skip pnpm tests when nodeversion is < 12 (#1122),False
+6deb8124ef587aba2e7ec0aec31883c9a59913a7,2021-04-01 17:45:39,Andrew Lisowski,TypeScript Rewrite (#1099),False
+b7426dac35cf4f1b473d0a2bcce36262558de5ba,2021-03-31 19:58:18,Lee Robinson,Remove coverage badge from README. (#1114),False
+d3b95859f6fb357fc39b464ffc449acaf40e54df,2021-03-31 19:40:25,Etienne,Extend ESLint to test files. (#1107),False
+bbb20b2dbc9efc08be8efc47d57c375d90edcd1f,2021-03-31 19:39:52,Lee Robinson,Update License Zeit -> Vercel. (#1113),False
+eb8921a031914e91d790c48355b063f6c1fbcec3,2021-03-31 19:15:49,Etienne,Add support for symlink and pnpm. (#1060),False
+79cca5444ac46ecad4b12397ad90e632e5401fc1,2021-03-30 17:21:02,DevSide,"feat(parser): handle template literal without expressions (#981)
+
+Co-authored-by: DevSide <DevSide@github.com>",False
+2c1fa89dd452bd3a73e3b96ab4ad5b792eb91327,2021-03-30 11:40:40,Black_Yuzia,typo fix in readme (#1108),False
+d9dc558205cf67c3b811682705383ce06f2de142,2021-03-29 19:50:21,William Hexberg,Add section about bytecode flag to README.md (#1106),False
+c9ad6ffe4b0066b9c121b53f2c713c74f73c53fb,2021-03-28 20:43:57,Etienne,Add Windows builds on CI. (#1105),False
+11b93bf0c013c10c61cc149ee853bd9c242e3520,2021-03-27 03:03:36,Etienne,Update all dependencies to latest. (#1062),False
+cceb78a6842dcc8e1fbd12d9ee7b835af7d7a7f4,2021-03-26 20:59:53,Lee Robinson,Update release script. (#1102),False
+c332fbb468c3918b13e742edd256776786081072,2021-03-26 20:54:33,Lee Robinson,4.5.1,False
+f08d083a5dd2c359a4f1b406f6f4f60d804c7063,2021-03-26 19:59:31,Alex,"Add pkg.outputPath as a configuration option. (#574)
+
+This allows the output path to be specified in package.json, instead of needing to be manually passed as a command-line argument every time.",False
+165fcd543d293fdb2ebff32ffbba38bfd107f47d,2021-03-26 19:54:42,Daniel Lando,chore: make pkg-fetch dep static (temporarily). (#1100),False
+9bb4f70295e918a4b99e913bb82c99a8780a6c06,2021-03-26 19:49:49,Andrea Pinazzi,promisified exec and execFile should return a promise with ChildProcess instance attached (#880),False
+e463accdfac87151454795832b6ed44c80798c24,2021-03-26 00:42:52,Andrew Lisowski,Upgrade ESLint + move to `eslint-config-airbnb-base`. (#1088),False
+1c219c8575ff010237ccdf9c0a10b8741c0051ef,2021-03-25 22:09:54,Daniel Lando,Remove incorrect \\?\ prefix on windows and fs.promises fixes (#1095),False
+663f3f03b11d470abcc3297c5b138d219b3cbb9e,2021-03-25 20:12:06,Daniel Lando,Drop dependabot.yml in favor of repo settings. (#1092),False
+ddf5217a0687cd44107f71c9631fb5a879c9b02b,2021-03-25 06:04:30,Andrew Lisowski,Set up and run Prettier over entire codebase. (#1076),False
+31e8bf7da05a884449e807438bfaf57ce71aeb29,2021-03-24 22:38:39,Daniel Lando,"chore: add ci, stale workflows and dependabot (#1074)",False
+9598890350cc1d18672ddbc5032d142c4f019369,2021-03-24 20:32:28,xanonid,bootstrap: support both old and new internalModuleReadJSON,False
+a20111e91d64c2380e4a10ce9a4a27848b427a5e,2021-03-24 20:32:28,Alex Kaul,bootstrap: adjust for internalModuleReadJSON of newer Node.js,False
+7423b281dacc6df4683f53b5d578485f7608579a,2021-03-23 18:50:39,SnakeDrak,Added documentation about NODE_OPTIONS  (#996),False
+a9df2bcb6372db3a22d222f444fcdf51235a1cec,2021-03-22 20:53:50,Lee Robinson,4.5.0,False
+3b947c8c6368fb55fb1f03e783d59c92672d623e,2021-03-19 09:31:07,David Mohr,"Add cross-platform support for dot-node files. (#1066)
+
+* feat: use prebuild-install to fetch platform specific node files
+
+* fix: adjust test results to remove minor differences in error output
+
+* fix: remove copy-paste from tests as it just hangs",False
+55cda5f20d8550bfc34cea65d66f52f3ef6319f1,2021-03-14 01:58:42,Lee Robinson,Update ZEIT to Vercel in package.json. (#1064),False
+9024c09fdf31dc0280c67f310523d48d047b6a61,2021-03-13 21:20:48,Etienne,Replace deprecated `assert.equal` and `assert.deepEqual`. (#1063),False
+c929f4ab89cb1f1e3627ecb2b089f58118b4b0a4,2021-03-12 22:29:10,La Byoungyoung,"Bugfix for fs.readdir(), fs.readdirSync() (#992)
+
+* - bugfix fs.readdir(), fs.readdirSync()
+
+* - bugfix fs.readdir(), fs.readdirSync()
+
+Co-authored-by: la9527 <la9527@sk.com>
+Co-authored-by: Lee Robinson <me@leerob.io>",False
+7a9257ac91efaddc90c558173af1a6bec5da6cdd,2021-03-02 19:59:41,Daniel Lando,docs: MAKE_JOB_COUNT and PKG_IGNORE_TAG env var (#1053),False
+a56886b3f1dee66b5e4027b9b233c4ed2e3aae25,2021-03-02 19:42:14,Guillaume Besson,Add support for Node native addons (#837),False
+d33b1c5cdd36dc00efb4920409f188f5e9916894,2021-03-02 09:00:38,Gerkin,Fix configuration for node-notifier (#1021),False
+c7deaeab7929dc1b873ef5060b5e85cc8e20c3c0,2021-03-02 08:56:18,Alexis Svinartchouk,Add missing stat.isSocket (#720),False
+d6f1d7c4d73e1d2215352f399dc90b4306f78c6e,2021-03-02 08:53:07,Daniel Lando,"Added environment var section on Readme (#684)
+
+Co-authored-by: Lee Robinson <me@leerob.io>",False
+52b4933aeab3acaddbe4884aef8ee5f127e4a468,2020-09-21 02:17:55,dependabot[bot],"Bump lodash from 4.17.15 to 4.17.19 (#945)
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.15...4.17.19)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: Igor Klopov <igor@klopov.com>",False
+d3ba3d08adc54b88f2e2ddcc42fc2d8d18b222fb,2020-09-21 02:16:59,Igor Klopov,"update tests test for node 14 CI (#977)
+
+* add a case for NODE_VERSION_MAJOR
+
+* add another case for offset < 0
+
+* add node-to-npm mapping",False
+7fbf6f17cfb787e9a7f388b10e64b75112c1d5ec,2020-08-04 04:33:46,Steven,Update badges in README (#949),False
+f1eaf05c2af6bc9575327f5ac648c5f0388cd7e9,2020-07-11 13:02:09,Jacob Marshall,"Branding change (#939)
+
+* Branding change
+
+I changed ZEIT to Vercel
+
+* Vercel Now -> Vercel",False
+6e0578e3adafb3f9e0b39482539416e16f34c489,2020-06-29 02:16:11,IgorKlopov,4.4.9,False
+9e70a799d6aebc63df6a692326389d4cbaf2178b,2020-06-29 02:14:17,IgorKlopov,bump pkg-fetch,False
+6f65427d1fdab143b45e6d77fca75c5807a368c9,2020-06-29 02:10:40,IgorKlopov,decouple node14 from node12 in test-50-fs-runtime-layer-2,False
+463e58ddbb6a4944bdcda20cc517cfe789714130,2020-05-11 02:28:36,IgorKlopov,bump node versions in CI,False
+2ad45486ddf3ba3642623739adbd03a47294f789,2020-05-11 01:59:04,IgorKlopov,move dictionary-related work to readDictionary,False
+66b7326d8ba0cb6d71d2d2002fc45b78e83008a0,2020-05-11 01:36:22,pkt-zer0,"Added support for user-defined pkg config for 3rd party dependencies (#868)
+
+Co-authored-by: György Kovács <gyorgy.kovacs@goodgrind.tech>
+Co-authored-by: Igor Klopov <igor@klopov.com>",False
+64c40421396fdeaa3607037731962f7fca5365c3,2020-04-27 02:16:10,IgorKlopov,4.4.8,False
+78a736593dd01312dab1ddc9ee7bec970d48e9ee,2020-04-27 01:46:30,IgorKlopov,add testing node 14. remove testing node 8,False
+5cfe31a2eaf5a7c208e6a8cc87903645a357a21b,2020-04-27 01:46:26,IgorKlopov,bump pkg-fetch. adds node 14,False
+f085794089eec60a086b81313d6e4ecbdf8ab973,2020-04-27 00:09:24,Francois-Guillaume Ribreau,"feat: support for classPrivateProperties  (#891)
+
+* feat: support for classPrivateProperties
+
+* fix: remove package-lock as its untracked in pkg package",False
+14544ca1fe0ff79d1ed12bedf3b35bc90ebf3d31,2020-04-13 01:53:26,IgorKlopov,4.4.7,False
+1634ca3e08a83914f91e533fbdefca9f54a761ae,2020-04-13 00:27:17,IgorKlopov,uppercaseDriveLetter is not needed in posix normalizePath,False
+8540b3e88a9a279c2a0a93ff1366d916225fcd6c,2020-04-13 00:05:14,IgorKlopov,fix URL file paths for win32,False
+591be0231888919c54fcdea9273e7a1284170f4f,2020-04-12 22:19:51,IgorKlopov,make isRootPath support directory path as buffer,False
+c446a5c9766aca4e40817aef7d93e92f22423a46,2020-04-12 04:21:36,IgorKlopov,consider file path as Buffer and as URL. fixes #886,False
+b069daa225ec688127cd448251390d437ad877f4,2020-04-11 18:33:23,IgorKlopov,fix tests runner and test-50-fs-runtime-layer-2,False
+4856b09fddd787b34fbebff3b3221a3baf586602,2020-04-06 02:27:51,IgorKlopov,4.4.6,False
+fb1aba427f8a933173f3b80937a96b3a71ce0aec,2020-04-06 02:24:40,IgorKlopov,"reset yarn.lock, bump kind-of to 6.0.3",False
+03f8dba31a9ef64f36058499e8279ef9e51142bd,2020-04-06 02:22:22,IgorKlopov,pin fs-extra temporarily. fixes https://github.com/zeit/pkg/issues/883,False
+16bb96323c2188dfd5fa07898a415d3ba46cea02,2020-03-30 01:55:27,IgorKlopov,4.4.5,False
+54c0ccae4e67ebeb67640eed77bfdd3bc6fa443f,2020-03-30 01:53:35,IgorKlopov,bump dependencies,False
+fa2aff6e38556d70eaea72bb759aa4c268e0de31,2020-03-14 21:59:16,IgorKlopov,dictionary for compressjs. fixes #827,False
+466b5fda8464de6c4363af27cd796fe2babcf828,2020-03-14 21:34:52,IgorKlopov,update dictionary for node-forge. addresses #791,False
+c1e1d68f68b833be93e72412fac06e3600da625d,2020-03-14 14:20:09,dependabot[bot],"Bump minimist from 1.2.0 to 1.2.2 (#867)
+
+Bumps [minimist](https://github.com/substack/minimist) from 1.2.0 to 1.2.2.
+- [Release notes](https://github.com/substack/minimist/releases)
+- [Commits](https://github.com/substack/minimist/compare/1.2.0...1.2.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+290375389fdd5e369d28c5b1340f278ce20a421d,2020-03-14 14:17:54,dependabot[bot],"Bump acorn from 7.1.0 to 7.1.1 (#866)
+
+Bumps [acorn](https://github.com/acornjs/acorn) from 7.1.0 to 7.1.1.
+- [Release notes](https://github.com/acornjs/acorn/releases)
+- [Commits](https://github.com/acornjs/acorn/compare/7.1.0...7.1.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+47d315bd8197333af66ef5954d3636273ece6cd2,2020-03-02 06:31:29,IgorKlopov,4.4.4,False
+d50bb118d00732f094fe511b3b5543279ee3bd0e,2020-03-02 05:30:52,Igor Klopov,"Fix for #808 (#856)
+
+* rename a test
+
+* a new test that fails. reproduces #808
+
+* fixed test-50-package-json-6c
+
+* fix regression in simple case
+
+* fix regression in test-50-invalid-package-json-2
+
+* fix regression in test-50-package-json-4
+
+* new regression test
+
+* fixed regression in test-50-package-json-5
+
+* single path.dirname will not cover all cases
+
+* fix win32 tests",False
+076745e43b419a5c2aaafa683348cd6358b5af77,2020-02-24 20:43:03,Matthew Slipper,"Add support for native bigint parsing (#771)
+
+Closes #768.
+
+Co-authored-by: Igor Klopov <igor@klopov.com>",False
+a80b5e39fa855227adc6bf5d6cd58b6d80166759,2020-02-24 04:33:02,Charlie A,"Load image over HTTPs (#853)
+
+This change should stop the NPM site from displaying 'Not Secure' due to an image being loaded over HTTP, not HTTPs.
+
+Co-authored-by: Igor Klopov <igor@klopov.com>",False
+6c5009aeda9d4c6b73f36c5eb844ec16bd1461ea,2020-02-24 04:30:51,haider-ilahi,"Fixed grammar and sentence structure (#797)
+
+Fixed some grammar and sentence structure to improve readability and comprehension.",False
+5c4a5ce62a9197f1bc4a1af275c16a283e7e0fd5,2020-02-24 04:30:00,Igor Klopov,"readdir-options (#854)
+
+* fix isRootPath, add options_
+
+* readdirOptions
+
+* separate entries
+
+* modify entries
+
+* mock dirent, getFileTypes
+
+* fix test-fs-layer-2 temporarily",False
+58f80bdc2c441c322fd562698439fb18dc8d5249,2020-02-09 19:34:03,IgorKlopov,4.4.3,False
+fd9b62b72043698e9a4cb8865332dee1ea57e0e3,2020-02-03 22:33:39,IgorKlopov,bump some dependencies,False
+5e2dacc946d5a68419ecc8e7c1e2e65127f421f7,2020-02-02 19:05:02,IgorKlopov,test for 460ff6c,False
+460ff6c332e157b5f1215267c88d127a9328ebf3,2020-01-19 05:20:50,IgorKlopov,"fix ""inside node_modules calling itself via package name"" case",False
+0da806e080f7aa13872b03adccf05311a9b5510b,2020-01-19 04:18:10,IgorKlopov,legend to clarify what are %1 and %2,False
+ef9ca3fb1fdf5fa4e1c873c9a57260179ff13ac4,2020-01-19 03:44:59,IgorKlopov,test for regression fix,False
+075df45581e073267d3e940b0690e26cfc2e2222,2020-01-19 03:44:34,IgorKlopov,fix a regression,False
+1db8310508171c50e389fb119f418a4361d307fe,2020-01-19 02:04:12,IgorKlopov,update leveldown dictionary. addresses #758 and #825,False
+82737779d592842b4fa35c84c425cc0ca19280c5,2020-01-19 00:27:18,IgorKlopov,restore test for opn,False
+fad82c5885d9518a73b901efd5d31f752f35df35,2020-01-13 09:53:13,IgorKlopov,preserve the dictionary for opn,False
+db8487acd2d40af7b0cb1e63e133a707f93d725f,2020-01-13 09:50:01,IgorKlopov,rename opn to open. fixes #824,False
+7ce5226ef78f19c07076c2982159eac33d91adcf,2020-01-13 09:20:33,IgorKlopov,update zeromq dictionary and test,False
+0bd70cfe65fdbb21b775973e291ccda5ce938efa,2020-01-01 03:53:43,Matthew Sweeney,"Add ZEIT Now Disclaimer (#823)
+
+* add now disclaimer
+
+* correct naming
+
+* use codeblock",False
+8b9d9322c8e59426419fc201bcf7f068b0e8b1b5,2019-12-15 15:10:01,IgorKlopov,4.4.2,False
+a92889afe99917361e2902c530922b6209f52b8d,2019-12-15 04:47:09,IgorKlopov,don't parse files that are unlikely javascript. fixes #75 and #317,False
+6bfcb279b59a13e6499221cb73b9deeb916ad1d2,2019-12-15 02:11:23,IgorKlopov,describe how to make 'microjob' work. fixes #811,False
+8b2db419cf0058b50c1b512405540576d8dc4eea,2019-12-15 01:06:35,IgorKlopov,take natives from 'resolve' and adjust them. fixes #807,False
+72a919d1836f46e9cd6f465d30ea036bd00566e1,2019-12-08 18:48:56,IgorKlopov,Release 4.4.1,False
+7af8d04be28588fe45fc5f16fc80dd0ce49d0801,2019-12-08 07:59:03,IgorKlopov,adopt new version of 'resolve' dependency,False
+718d9744b793642ec08b559824f5ed0524711108,2019-12-08 06:10:37,IgorKlopov,fixes for globby. test fixes. bump pkg-fetch,False
+89a1a49b116f7d96f3cddc0a2e27f08823e9df92,2019-12-08 03:24:39,IgorKlopov,update dependencies,False
+7ff64301cbe4f044d30c0db659663db03a5d57e7,2019-12-08 02:35:13,IgorKlopov,test: test-50-bakery-4 for baking non-v8 options,False
+061a9770b1d4bd66d4802eecf4e6655465f217f0,2019-12-01 00:32:18,IgorKlopov,tolerate underscore in bakes excluded from fabricator,False
+50da7523beccfd0cf14d2c5cab02763cbab08c0e,2019-05-11 21:11:21,Igor Klopov,Release 4.4.0,False
+460b1c97d01b9d1d359bd0e3f4f7cd112d4e096d,2019-05-11 13:49:17,Igor Klopov,don't limit test-50-promisify to host-only,False
+3952f39c15b44abf961290455046bdfca4258ab6,2019-05-11 13:29:33,Igor Klopov,node 8 changed from util.createPromise to new Promise as well,False
+ee56bd7ef302a37a4f7f1f5eae1fde0c64490566,2019-05-11 12:15:43,Igor Klopov,raise babel target to node 8,False
+1d47858b4ff7911343a6b935dfd31ceb15198761,2019-05-11 04:00:26,Igor Klopov,"adjustments (#680)
+
+* adjust promisify to node 10+
+
+* run test-50-reject-* on linux only
+
+* set host to node12
+
+* enable armv7 in test-42-fetch-all
+
+* add 12->6 to npm version map in test-79-npm
+
+* remove unneeded test-50-bakery-4",False
+b0da4ee72719fa52017777735674624275dbdacc,2019-05-10 07:19:02,Igor Klopov,tests: remove test-46-multi-arch from no-npm run,False
+005117cb80c146f2aa51f22c8f69cfc8fa1bdddf,2019-05-10 07:08:21,Igor Klopov,"tests: add node 12, remove node 6",False
+8616bb631e0bda2aee836ecff86875d00c9c5304,2019-05-10 07:06:35,Igor Klopov,update test-42-fetch-all to reflect base binaries we provide,False
+215af152894b345476d9ebe58cf22d88a82bc346,2019-05-10 01:51:59,Igor Klopov,upgrade pkg-fetch and babel,False
+589c6a5ee730bd56b4a263609b47896a9a5a06e3,2019-05-09 02:06:05,Igor Klopov,bootstrap.js: don't check PKG_DUMMY_ENTRYPOINT in worker threads,False
+58f81cfdb7286fb011926fcad7d13f86da8bf99b,2019-05-09 02:05:16,Igor Klopov,adjust test-50-may-exclude to node 12,False
+9121a16441014bb1eb46d0f90fe45496c8e219ce,2019-05-09 02:04:26,Igor Klopov,bump pkg-fetch,False
+3775ab6decc2f8f013142e1282934c12fbd1881e,2019-05-01 19:57:05,Igor Klopov,path.resolve argv[1] for non-default entrypoint. fixes #671,False
+e736f8590dcc69c428aa48a5c72d829645f124b1,2019-04-27 18:01:30,Branden Dane,"Fix pkg example express app (#668)
+
+* Fix pkg example express app
+
+Currently, following the instructions provided in the README result in pkg failing to build the executable. The error output references ""node7"" as being an undefined target in package.json.
+
+pkg relies on pkg-fetch for retrieving Node versions to be used as targets in building executables. As of pkg-fetch v2.5, no node v7.x.x is listed as an available source. Changing ""node7"" to ""node10"" fixes this issue as it is available via pkg-fetch v2.5.
+
+Additionally, this PR:
+*) Adds files/folders to .gitignore related to the example express app which should not be included in master.
+*) Improves README ducumentation for example express app.
+
+* Revise example app node target version
+
+Changed `pkg` target from `node10` to `node8` in order to pass CI build errors due to missing peer dependency for babel at that version.",False
+619fc782f3c4ce1b41a0cd7bf4561e2461c4299d,2019-04-16 22:51:13,Igor Klopov,Release 4.3.8-canary.0,False
+95e9334dfdaa85645a5d3dc7c64ac03d22077566,2019-04-16 16:44:45,Igor Klopov,"bump dependencies, including pkg-fetch",False
+4bdbd6a95f64479a3e651a155fa0d72f1f38c489,2019-01-11 05:10:33,Igor Klopov,Release 4.3.7,False
+bdb59b384f5fe7c9a635ffe06d0632a1f7f2aacb,2019-01-11 02:12:23,Igor Klopov,bump pkg-fetch version,False
+d226b6fda8a6c97c7bdef58e9bf1e7aa5524ca65,2019-01-10 21:29:06,Igor Klopov,Release 4.3.6,False
+b19d97acc73211f075fdc02076c7b06c096c73ba,2019-01-10 19:07:53,Igor Klopov,bumped dependencies,False
+dda3119dfccbfcbd32b12c7b945ba673ffa32aec,2019-01-10 17:19:21,Igor Klopov,disable mongoose test temporarily to make travis pass,False
+3890e8486d68d0399a2504c547cb1ebf1f444465,2019-01-10 17:17:58,Igor Klopov,remove 'asyncGenerators' plugin as unneeded + lint fixes,False
+9db59ff1a24d6659e0ceefd3112685aee02af7ce,2019-01-10 16:47:34,Randall Knutson,Update globby to fix broken dependency. (#606),False
+42946d5e6094f7ed19dc9191bbfa1baadc5b0c34,2018-12-14 03:23:06,Alexander Bartels,"Add Support for tinify, svgo and sqip (#417) (#418)
+
+* Add Support for tinify, svgo and sqip (#417)
+
+* Add missing test cases (#417)",False
+2e39a52580d4ffc28530d634dc07746b5e0c4186,2018-12-13 03:02:43,Matt Willer,"Fix handling of files with for-await-of loops (#538)
+
+* Fix handling of files with for-await-of loops
+
+* Revert accidental change
+
+* Fix lint errors",False
+d271f13dc2d6f7fa71573397b9b5e396d667f726,2018-12-02 10:43:31,Ron Korving,"Fixes small typo in readme
+
+it's -> its",False
+2b1b278e1a2d83bfab852016298135c266726245,2018-12-02 03:58:06,Igor Klopov,add alpine to list of platforms in readme. apply #474 manually,False
+860028903ac932b58b38e95230b599bd233fedaf,2018-12-02 03:50:57,Jacob Ford,"Clarify scripts and assets entries support arrays (#514)
+
+Code already supported this; I'm just updating README
+
+closes #367",False
+90754ede417d3c5df6d01942664f8de421e28a60,2018-12-02 03:45:55,Pavel Feldman,Use internalModuleReadJSON where it is defined. (#579),False
+2faf045f6e615aa188f92434100158610747b651,2018-12-02 02:55:46,Igor Klopov,"tolerate root-ish ""files"" entry paths in package.json
+fixes everything dependent on 'array-from'",False
+723aa6b70ea73786e0e490da5da19e116bd29f63,2018-11-30 20:11:04,Igor Klopov,Release 4.3.5,False
+3f540c02a68cc0256de1be46baf9c98766f0d8e9,2018-11-30 09:30:42,Igor Klopov,minor rename for clarity,False
+9c5d7996fc1e4e439d451fbaf6817e0274d54ed3,2018-11-30 09:30:05,Igor Klopov,prevent sharp test to block exiting,False
+a21041933b0e52c3a8a639df8135336b9e7962b7,2018-11-30 08:49:39,Igor Klopov,fix test for puppeteer,False
+480bb89ebffd2a930f47c0f2a8110a1d8fafc5de,2018-11-30 08:34:58,Igor Klopov,fix test for google-closure-compiler,False
+5dbeb9cd640c624abb8bb965d5f39fde5578c3c6,2018-11-30 03:54:18,Igor Klopov,bump outdated dependencies,False
+27cb4d1a4a3d2f0390743e6d14549f7e9894fb64,2018-09-23 02:37:07,Evil Rabbit,Update repo banner,False
+e67e30758d06ba9994c79562cdcf52defbdb50f0,2018-09-23 02:36:46,Evil Rabbit,Update repo banner,False
+ceaf9dd8fa643e45ccf1324a4a8e610a1603b26d,2018-08-09 15:31:26,Leo Lamprecht,4.3.4,False
+0029ec5609e932bb097bf0ad005b2600d95e57dc,2018-08-09 15:30:36,Leo Lamprecht,"Updated link to Spectrum (#499)
+
+* Renamed text files
+
+* Link to ZEIT Spectrum community
+
+* Renamed lockfile for npm
+
+* Lock dependencies properly",False
+5d157b0a7912fd7c7f015bf9f7c94142ec002a33,2018-06-22 03:11:17,Igor Klopov,Release 4.3.3,False
+b846a7e89f0a026e37c5079beaacd356126cc1c4,2018-06-22 02:21:18,Igor Klopov,"switch from acorn to @babel/parser. fixes #206
+see https://github.com/acornjs/acorn/issues/651",False
+5fc422f06745ffcae7ca8d77601d57d7d1c18960,2018-06-22 01:29:20,Igor Klopov,switch from babel-preset-es2015 to babel-preset-env,False
+881eabe7a79d850cf6220c09ba28299b12930f24,2018-06-22 01:10:34,Igor Klopov,switch from simple-bufferstream to into-stream. fixes #442,False
+20e6d00c5d679e2d29e49f6dfc5cea258cf7d71e,2018-06-22 00:10:13,Igor Klopov,undo patch for PKG_INVOKE_NODEJS + test,False
+85080d2c5d881ac4d9a5c0c9712327d45c9d7b75,2018-06-21 13:46:07,Igor Klopov,fix fs test for node10,False
+1081a4ec20c3af8d12ac9272130f6e6c5a1948a5,2018-06-20 21:05:30,Igor Klopov,run node 10 on ci,False
+db437460252cd2aa8d12745c814e93b73444ae1a,2018-06-20 19:48:11,Igor Klopov,Release 4.3.2,False
+ee6a57fb306dfb77bf59d0c40e42f4b1266e8636,2018-06-19 14:00:55,Igor Klopov,bump dependencies,False
+0d2465e5e894dd4477bd365e8a097580371eea63,2018-06-17 16:57:18,Igor Klopov,readme: usage of max_old_space_size. fixes https://github.com/zeit/pkg/issues/447,False
+203b0303b2dbb9bbe023ebae68f35b71b22c5698,2018-05-16 05:03:38,Igor Klopov,read major node version properly,False
+fa78544f08ed77b183b3e7ca7c66a647a6596f15,2018-05-16 04:34:53,Igor Klopov,add node10 to tests,False
+1306ce534c096d4bfa0a0cf115bc76daa5361c1e,2018-05-16 04:14:12,Igor Klopov,remove fake ** glob from test.js,False
+6d968bc0d1a4ceb0dbcf5c8efdc7307bb8b251c8,2018-05-16 03:56:59,Igor Klopov,remove marker from record structures,False
+046a1b90439ed7b51610b397bc444d88ccb9cf6a,2018-05-16 03:56:59,Igor Klopov,pass marker separately from record to all fns,False
+2ee793bcbec1630845e2afccdf40af20bf4769f8,2018-05-16 03:56:59,Igor Klopov,stepActivate and stepDetect to accept marker instead of record,False
+8b5247eeee9ed9cd89f525a8bf6fd32a56e15927,2018-05-16 02:08:21,Igor Klopov,lint fix,False
+5fe02ab2d52c18d20ede8b9e8565495dba3dcdaa,2018-05-16 02:06:36,Igor Klopov,fix fs-2 test for node10,False
+50e1958a4464c13af5e19130c65cc39facb58e6f,2018-05-16 02:01:54,Igor Klopov,improve logging little bit more + revert resolve dep,False
+767c46ffdf437a1fb7907811d69c6d979e53367d,2018-05-16 01:45:57,Igor Klopov,better logging of where a file is required from,False
+540f0f7be7c3a013f7d9b64810e797d7628e0ffc,2018-05-16 01:07:40,Igor Klopov,adjust code and tests for new deps,False
+804d185c2ed61e1068bbbe29315454d80caf4ffd,2018-05-16 00:39:16,Igor Klopov,bump dependencies,False
+122ee65710db64f1426fa7cefdbb2d4911bef608,2018-05-16 00:24:29,Igor Klopov,don't run homebridge test on ci,False
+4e6eb9ce796fd7d48129f3a1d0164deb385d74dd,2018-05-15 23:47:23,Igor Klopov,don't run hap-nodejs test on ci,False
+4391335d727907138d6a3ac014e068f262159be2,2018-05-15 08:41:06,Igor Klopov,support node 10. step 1,False
+47fa9bea3070d2824f81512d8cf20c3f35c90b6f,2018-05-15 08:08:40,Igor Klopov,filter out bakes that don't influence the bytecode. fixes #308,False
+c8b6d4c592d4ef0fb6265b720a51a3a414781ef8,2018-03-29 02:20:28,Igor Klopov,dictionary: negotiator. fixes #387,False
+b343d4b056c11fbf7f2354adcce2c96066875373,2018-03-27 04:07:01,Igor Klopov,4.3.1,False
+74444c587368d78afce7d2d1a126a862e38d88f7,2018-03-27 02:34:57,Igor Klopov,"disable update-notifier in ci, fix nodejs version in appveyor",False
+dbcebf276b47836ed1b309768688b2b26276bc87,2018-03-26 22:49:11,Igor Klopov,"fixed update-notifier, reviewed recent PRs",False
+b9e1e9ac9503e9aeb5660008572365b6051914ba,2018-03-26 21:07:37,Mika Fischer,Support exiftool.exe and exiftool.pl for dist-exiftool (#246),False
+b945d693a0d4cef71f057bda8449a8a22aac6394,2018-03-26 21:04:27,Igor Klopov,"update acorn, add a test for object spread",False
+4782b0c065091e3e19614cb8df55832f0f324993,2018-03-26 20:59:48,Igor Klopov,"Revert ""update readme""
+
+This reverts commit 778b70d76f9f89630668f62be746c4905d5791fa.",False
+778b70d76f9f89630668f62be746c4905d5791fa,2018-03-26 20:58:57,asaf cohen,update readme,False
+ef9832025733b31d7324fc951b820f53aeff2647,2018-03-26 20:58:57,asaf cohen,fix,False
+253ff5263f9ae1c4b468ab7b36c25173e39acea3,2018-03-11 11:23:05,Leo Lamprecht,Added Spectrum badge,False
+9925a26db35352d434e2bdafc65c61de63db2bbb,2018-02-20 03:14:57,Igor Klopov,no need in ./,False
+26fbb6e06b4aa6d627f47c5b78fda5f8173b0be8,2018-02-13 19:56:29,Michele Fiordispina,"logform support (winstonjs library) (#337)
+
+* added dictionary for logform package (winstonjs dependency)
+
+* fixed eslint issue
+
+* added test",False
+1919967ad178f4ee8eb0253f3b7fdd34f7771003,2018-02-13 03:05:13,Igor Klopov,implement --public-packages. thanks to @szaffarano for idea,False
+2090eb4a83e37caaba2448914851da13048518ad,2018-02-13 02:27:09,Igor Klopov,introduce params to walker. pass public cli opt value in it,False
+02001a7eafab414c1668ddad15b082aee5b854f0,2018-02-13 02:25:04,Igor Klopov,rename 'permissive' to 'public' to align with cli opt,False
+ba847f454d9a58ca0cdffe85354349bbd3216f71,2018-02-13 02:24:34,Igor Klopov,move marker.toplevel to index.js,False
+c90cd7c0df6b781e4880fca05485147d1f57a803,2018-02-03 00:24:51,Igor Klopov,support tiny-worker. fixes #334,False
+fb59d4b441705b7f7e36fa30d56a31c7b41f8488,2018-01-21 00:41:57,Igor Klopov,4.3.0,False
+8dde7c0d70bf0b78a8f269e4656ca65e2a1593bb,2018-01-20 00:56:06,Igor Klopov,fix v8flags package,False
+06e7c2399d623fe9d4995a53061023337aaf647a,2018-01-20 00:41:33,Igor Klopov,handle callbacks for exec and execFile,False
+ce18e4ee01c515be50292875344e8d325c1c7430,2018-01-19 23:58:59,Igor Klopov,fix hanging mongoose test,False
+b1a5b6340206a275d781111dfb11b95707fd4b0a,2018-01-19 22:49:08,Igor Klopov,fix script,False
+cd936f3b0dd66657b71dab905ff68a958adca0af,2018-01-19 22:34:10,Igor Klopov,reduce testing time by removng node0 and node4,False
+727e847583081030e78dc99fab0a8edfbc2984b0,2018-01-19 22:33:06,Igor Klopov,trying to fix stuck opn test,False
+bff58f15d699b786a32fdf269ee00682354f5a2e,2018-01-19 22:22:49,Igor Klopov,proper cleanup in nedb test,False
+1b847b95e7365af9d98679c6068d71a0b7a0527b,2018-01-19 20:32:16,Igor Klopov,fix npm version corresponding to node 9,False
+d9bb95ce428031c470b1a4ed61251c4ce050e0fb,2018-01-19 19:48:53,Igor Klopov,add corresponding test for blessed,False
+bb2cd2a5fc8ccf1072d8e5c1b83f73f7c38f61d2,2018-01-19 19:15:42,Igor Klopov,"remove freebsd from obligatory platforms, add armv7",False
+02fec7f45909f709f412045e9769418cf725949f,2018-01-03 00:24:49,Nathan Rajlich,"fix ""blessed"" npm module (#314)",False
+6c7718bb9f815a0fc1292764edfed6201d868d47,2017-12-14 02:22:57,Igor Klopov,4.3.0-beta.5,False
+76b817d1c77a54185613bf806e7b2fa0c55b42ac,2017-12-13 22:15:41,Igor Klopov,pkg-fetch@2.5.4,False
+58499e4813a71c1f902931fbfa1420448efcda63,2017-12-03 21:56:58,Igor Klopov,fix grpc dictionary,False
+f7fbf7893a94aa9c25e7af48259483354d2bb4ad,2017-11-09 19:51:01,Igor Klopov,4.3.0-beta.4,False
+83e9147a0d7ac9f4474ae3010ae9ec5d1737d41b,2017-11-09 19:50:40,Igor Klopov,bump pkg-fetch again,False
+5ed4bc3855772053dc1f752e9ffa3b8a31a98f72,2017-11-09 19:06:40,Igor Klopov,4.3.0-beta.3,False
+c5b2950165fa0f13d817391e9af8d2545ab6fe2b,2017-11-09 18:56:47,Igor Klopov,bump pkg-fetch,False
+0190b0c9a8686db122b0fe63b1a3f4c4dc6af31a,2017-11-06 08:23:29,Evil Rabbit,Update readme.md,False
+c4bc418720a8883a53f1f4171bcc3e0a5151f178,2017-11-06 08:22:24,Evil Rabbit,Update readme.md,False
+d2cc507900ecd7d43c28bafae07a8246aad41e44,2017-11-06 08:16:42,Evil Rabbit,Update readme.md,False
+558a4190fbbd5ce0cfa5a3d3f7efba593c3bdda8,2017-11-06 08:12:50,Evil Rabbit,Update readme.md,False
+7277744ec0e65da0f4f7b46b571945e285bcfa0d,2017-11-06 08:07:21,Evil Rabbit,Update readme.md,False
+46dcb6592a29c84559d8cc029b993ac166aa21c4,2017-11-03 23:22:42,Igor Klopov,upgrade pkg-fetch,False
+b52cf143924b94d8b7ee474fb2b91f9c1b16d7ec,2017-11-03 17:36:50,Igor Klopov,4.3.0-beta.1,False
+793896e52da68c4527e6bd77045603bf428b261f,2017-11-03 16:06:49,Igor Klopov,test node versions in desc order and add 9,False
+f5037d47303147869260b8988c8b362f9563caad,2017-11-03 16:02:02,Igor Klopov,pkg-fetch@2.5.0,False
+7d4b793c95e6d6968e8e718b3e3a89fb7384b877,2017-11-03 03:35:42,Igor Klopov,added a todo about one more reverting patch case,False
+ec4257e4f94f5a205516750f29c3b3a4e3dedad7,2017-11-03 00:20:59,Igor Klopov,give it clear name,False
+57f082097d6dde639d858e896f907116b00bdba0,2017-11-02 03:02:38,Igor Klopov,switch other tests from fallback to PKG_TALK_TO_DANA,False
+75ef23d571cfae66b41bf894c0a8a5041989a5ca,2017-11-02 02:56:06,Igor Klopov,test that nodejs does not intercept dash or double-dash args,False
+058be23dc80fddeed9455daf3a41c26cfa4977fe,2017-11-02 02:52:05,Igor Klopov,PKG_TALK_TO_DANA to access internal nodejs,False
+32f2b4570a2fa38255be5985b81fa5e3a336a1c8,2017-11-02 00:52:30,Igor Klopov,fix test cleanup,False
+e7d0c1d46e3a66a36ca464c94af78c90811a9900,2017-11-01 23:28:09,Igor Klopov,test for arguments. fails currently,False
+c5ba3b176c56b3a669e29db6c0f50f166a115a0f,2017-11-01 03:17:47,Igor Klopov,4.3.0-beta.0,False
+c9b4e8beea448d382ae238dcf081ac0b9fab5cc4,2017-11-01 02:54:51,Igor Klopov,remove node7 from tests,False
+e3f6667b5529371c2cf44143e70c8a05d103a75e,2017-11-01 02:54:19,Igor Klopov,fix to support node0,False
+83cbd63206429e58eba7b2c31e1e03a1e9d05c4f,2017-11-01 00:15:45,Igor Klopov,suppress testing all binaries presence while in beta,False
+ffbfea624145e368ebbfaf8c7aafcba04f79200e,2017-11-01 00:11:13,Igor Klopov,switch --pkg-fallback to PKG_EXECPATH in tests,False
+b01242fd7cb1c1e8695676b23ce0fee0d63f4e92,2017-10-31 20:54:26,Igor Klopov,update pkg-fetch to 2.4 accordingly for PKG_EXECPATH,False
+f9cc688d87975866ad2597442b0c77e799d3d516,2017-10-31 20:47:08,Igor Klopov,pass notFound to injectPlaceholder,False
+4af7b20e68f8dc88faead392336650dbd45e6eb1,2017-10-31 20:46:42,Igor Klopov,inject-only approach,False
+0d865e4935d4235561ef83aa0a61bf8a720627c6,2017-10-31 20:35:29,Igor Klopov,restore 'position' term,False
+2d3c04ee86106ed39fe39e33acfba8dd8b44fe91,2017-10-31 20:35:24,Igor Klopov,inplace bakery injection,False
+91198201513a2c57bb2dc65292055e33692082c4,2017-10-31 20:35:20,Igor Klopov,opts.env based spawn approach,False
+efead449ccaddb4c5d4ba6a3562cc6141ddf93be,2017-10-31 20:35:11,Igor Klopov,"process.argv.splice, otherwise first arg is overwritten",False
+3c1be5a141a38b047cf51cdb5f84345c9a03f02c,2017-10-31 20:35:05,Igor Klopov,switch fabricator to PKG_EXECPATH,False
+be4c5b3f15a13aef236da31c777afd7ff4215eee,2017-10-31 17:28:22,Igor Klopov,minor rename,False
+8fb815d51bc9e3781bcb92a17735a6894a4c4d06,2017-10-21 18:42:03,Igor Klopov,first readme troubleshooting entry. fixes #262,False
+fc7b6c1d22e326062fecb1ab84f7ada24dd70014,2017-10-20 22:27:02,Igor Klopov,proper clean up of fabricator children. fixes #254,False
+ca94640ca3ecbd0881022895a93f2bf9e8c40b46,2017-10-15 01:09:23,Mika Fischer,"Use prepare instead of deprecated prepublish (#248)
+
+This also fixes installing from git",False
+405b6466058859806bc7db09535980c49572dbe3,2017-10-14 23:40:16,Igor Klopov,test for webdriverio npm package. improve #260,False
+99460fdd0b4b908b3e892d94803b985e465cdcde,2017-10-14 23:28:33,Igor Klopov,replace vfs regarding double dollar sign. fixes #260,False
+db33efd9196bfa014d8ad1508b0926f96756764a,2017-10-06 14:08:56,Igor Klopov,4.2.5,False
+5c1d9f251fefcad65beba9024d7effc242058c5b,2017-10-04 16:37:03,Igor Klopov,update tests,False
+a1d1c5978a3a3583429de6315435a094fbde2895,2017-10-04 01:27:09,Igor Klopov,pkg-fetch@2.3.11,False
+939c0dfb700fd709b05222e19dcdfe14a19d8f26,2017-09-16 03:39:34,Igor Klopov,"chdir to proc.env.PWD, that can be passed explicitly. fixes #231",False
+4a2055e94718e2d30d5cb5e4cadedd7b9adea764,2017-09-08 02:32:03,Igor Klopov,skip opn test in appveyor,False
+c8dfbbcbc9726f384aecdebb364a77d56741f44f,2017-09-06 20:40:34,Sven Luijten,Add syntax highlighting to readme (#217),False
+aa6e7a490c0f6c9e21abad93a384014db3331806,2017-08-26 22:57:02,Igor Klopov,support opn. fixes #207,False
+f579a2d75fd97531cbd5aa1eb24e6a81775c32b8,2017-08-25 21:00:11,Igor Klopov,test for level npm package,False
+07555fdec52bb8833b81abdafc4bf724a22e1159,2017-08-23 17:40:06,Igor Klopov,trying to switch travis to node 8,False
+d6eba331b33944ef4f26d12a3671b79e85c00eb3,2017-08-23 16:45:00,Igor Klopov,tell users what is file and what is directory,False
+175a780c467d2d986a5fe035e5a62f1d0bd936b5,2017-08-23 16:28:01,Igor Klopov,support puppeteer. fixes #204,False
+d9a1185db8c78e3860922dc6f303b28017b81d2d,2017-08-21 16:54:12,Igor Klopov,4.2.4,False
+ebf8f877dd2063abe3f3ffeeba2b8520950cc866,2017-08-21 14:54:47,Igor Klopov,promisify fs.read and fs.write. addition to #198,False
+69aebf829f265988e56eae990e762c71afebced7,2017-08-20 22:46:17,Igor Klopov,winston-uber similarly to winston. fixes #197,False
+b65355cadad0166fbfb4110f75376d36852e43ce,2017-08-20 19:59:23,Igor Klopov,fix for node0,False
+eb19144822fc3ba863d20929f6c3f4efb6d4c9e4,2017-08-20 19:26:47,Igor Klopov,repeat promisify in bootstrap + test. fixes #198,False
+a1fe6a1c3ee966574e7790b4a195d3827970f930,2017-08-19 20:56:32,Igor Klopov,index.js inputJsonName. fixes #199 + test,False
+e6aefc7c7e7dd6d96deeebfa37f4e4a55b8cfa89,2017-08-19 20:43:56,Igor Klopov,test for feathers,False
+8c2881974f23a6ad573032381508f3c64d38b03a,2017-08-18 00:10:02,Igor Klopov,test for nedb,False
+700a61a7d10d275913c926cc5acd3de5b5eadb81,2017-08-15 22:03:44,Igor Klopov,ignore not found path.join(__dirname) for non-toplevel,False
+d2feacb060a0eefcfefa54d0d9b893b427c3d98b,2017-08-15 21:22:45,Igor Klopov,4.2.3,False
+0107b03d5495d42563aedab11b8c340e9edde208,2017-08-15 20:38:47,Igor Klopov,fix test for reproducible executables,False
+4bd70d007334a88b5e56f5eb83586477f30dca63,2017-08-14 21:25:55,Igor Klopov,pkg-fetch@2.3.10,False
+a12159f18b4d42ad77fcb6954f75e1a635959cd3,2017-08-14 18:01:31,Michael Hsu,chore(chalk): bump version (#192),False
+8ba3dca4971a1b818a4725f9f9a871d0ab167c87,2017-08-13 22:51:59,Igor Klopov,fix for pg-query-stream,False
+ae0f9cec1a1d55355bce3cb2004e33ae04dee309,2017-08-13 22:02:26,Igor Klopov,patch for strong-globalize,False
+62b48958ee3606c1e1bb5403fce6aa94a9d22d97,2017-08-06 15:59:26,Igor Klopov,4.2.2,False
+92dac92e7132c2d2706c99de1f661ddfee57aae4,2017-08-06 14:52:18,Igor Klopov,set of new licenses to improve isPermissive,False
+8ad0e6d942c4f06c4fc5891d12996c46037099ba,2017-08-06 14:00:56,Igor Klopov,lacks a set of dictionary items,False
+dc6e7bb1cab8793fb77ff724d9d79d0ef57321b1,2017-08-06 02:18:01,Igor Klopov,finally correct one,False
+8a09758be4b29eab4a50ae8b638a1d51e529db25,2017-08-06 02:09:04,Igor Klopov,another way to specify platform,False
+f861a12efb7f0406261c9e08a3e0f32f226f534b,2017-08-06 02:04:25,Igor Klopov,trying `platform: x64` on appveyor,False
+2be9836f1a2804b05420db9a6174ff23e4333417,2017-08-06 01:15:25,Igor Klopov,ignore fetch errors in times.js,False
+f4d888e025ceccec569f1d71547e2d4aa9d472f4,2017-08-06 00:22:39,Igor Klopov,fix deployFiles for drivelist and sharp,False
+f68c75dddfdb3ffa784c33eba3b14041140715d6,2017-08-05 20:42:23,Igor Klopov,move one more warning to debug after 07d664ff0,False
+48150ab964cbd639486b0bb37dd902692bed4ba5,2017-08-05 20:38:35,Igor Klopov,fix odd case 'pause-stream' package.json.license,False
+0a26c2e0e61f4462df9f3531f062ae883d7fa90b,2017-08-04 21:37:52,Igor Klopov,exactly same logic as suggested by 'cannot include' warnings,False
+8b721b1de374afd1f86303badbbc7025de75b38f,2017-08-04 15:08:00,Igor Klopov,4.2.1,False
+3e79f4c8d1ba486b99d118f9d76611d008a020ff,2017-08-04 14:28:09,Igor Klopov,deployFiles suppresses addon warning. it provides it's own,False
+9f50ec97af9bf1fa2e96ed8fb9a3d6c1e8325f05,2017-08-04 14:21:13,Igor Klopov,bypass node_modules for native addon if placed deeper,False
+0648267363999af98db56c575df1d62e84c00157,2017-08-04 14:12:13,Igor Klopov,added correct deployFiles for sharp,False
+9ab508a3a9ee82a4998137092e5da5980ad461db,2017-08-04 13:31:25,Igor Klopov,.json and .node can be specified as scripts,False
+60607ec1a2617e44e17c24a4769de1d44c599051,2017-08-03 23:04:41,Igor Klopov,4.2.0,False
+ba522d130688f8dfb29327066dbf7349cf26c91b,2017-08-03 22:36:27,Igor Klopov,one more attempt to reveal the mystery,False
+f9896150e294c0235e6f9892f3c0d3e02f58634c,2017-08-03 21:56:32,Igor Klopov,still fighting with tesseract,False
+9c24b039367e6151ae61639dedc6a61b22e28562,2017-08-03 20:56:29,Igor Klopov,tesseract: i need reporducible tests,False
+c996ac25b8e13af15fcd837f40f97b1dd9d0760a,2017-08-03 20:15:28,Igor Klopov,finish deployFiles for electron for headful machine,False
+f5bdf63dbf72d9819b122c8d8829b8dac654fbae,2017-08-03 19:49:02,Igor Klopov,fix to tesseract test,False
+49db7fa0fbbc4163c85c2ba9fc623572a30506b8,2017-08-03 19:45:32,Igor Klopov,revoke nightmare from all ci platforms,False
+2e3bfad6877958f65c9bf7c185f4159effe3e80b,2017-08-03 19:42:23,Igor Klopov,support tesseract.js. fixes #183,False
+f43f7f07807d342c4c1e6ae82051d452e51b7867,2017-08-03 15:07:19,Igor Klopov,separate semaphore-based times.js for ci,False
+0c0e6cb77306e16ab333c690cee4dac4d07eb3bc,2017-08-02 21:45:46,Igor Klopov,disable nightmare test on appveyor,False
+6408bad2572471bd6ef48fd3d8365083e06be69a,2017-08-02 21:02:02,Igor Klopov,don't check abandoned packages in ci,False
+4ee8338589cc4ca30537718c1ed36072ae9b6406,2017-08-02 20:10:45,Igor Klopov,add minstache fake test - fix ci,False
+348d215d3459d876c85ad6aef1a1688c7d1c04a4,2017-08-02 19:51:49,Igor Klopov,"adjust 'nightmare' test, implement directoryFrom",False
+f3de360e829b3adf799c69bc9d8d40243826368f,2017-08-02 19:05:28,Igor Klopov,simplify deployFiles testing,False
+cd9601fc9e558217838fe2332ab48c7ab489d793,2017-08-02 18:54:04,Igor Klopov,support electron (sort of) and nightmare. fixes #179,False
+6e66c59949aed668cbc77373a06601230d86f800,2017-08-02 18:19:05,Igor Klopov,restore shebang for cross-spawn-async,False
+eaa4f5fe98da3d7d61ecb850fbebed9663509f36,2017-08-02 15:15:11,Igor Klopov,npm outdated,False
+13b12ca0732f8a7797b83b2c5b2a47d88747dbba,2017-08-02 15:11:31,Igor Klopov,fix for win32,False
+ab21308d060622694907968c020e6009355129fb,2017-08-02 14:48:11,Igor Klopov,test for e4d50db,False
+1c26127178fa1313cb00c531405fe714398d4c90,2017-08-02 14:42:16,Igor Klopov,test to check 'native addon' warning,False
+511c2e4fb3fcd5b03fe1c4be3a7d0e844f473672,2017-08-02 14:32:53,Igor Klopov,test for 1986f6d,False
+b9e20d9a74d76faba08e883e3d73a7f51fc71640,2017-08-02 14:18:45,Igor Klopov,unnecessary shebang cleanup,False
+219d313ef69ac41e6aaff422be0d9a2deddc0ac3,2017-08-02 14:14:33,Igor Klopov,test for 9f6aa89,False
+e4d50db8e0a227d82b59fa4a0bb8c51fd5c824e2,2017-08-02 13:59:10,Igor Klopov,show a warning that css gets into 'scripts'. addresses #79,False
+07d664ff0b21981ed4be74e7f7101821790603d4,2017-08-02 00:24:55,Igor Klopov,dont warn `Cannot resolve` on non-toplevel. fixes #48 sort of,False
+9f6aa89e3997d566f7e343abb914204b436f103a,2017-08-02 00:22:39,Igor Klopov,custom messages. similar to #72,False
+b6d9d1aa83b6aff3280ed32432ea9b0c2d160ea8,2017-08-01 23:11:31,Igor Klopov,set of patches and tests to fix #108,False
+f59ec6b1d260da27947294f4b5d8503788c3c545,2017-08-01 14:47:15,Igor Klopov,"Revert ""dont warn `Cannot resolve` on non-toplevel. fixes #48 sort of""
+
+This reverts commit 0ae96a4e966a411f5ebdea8d929585243c282c0c.",False
+0ae96a4e966a411f5ebdea8d929585243c282c0c,2017-08-01 13:54:35,Igor Klopov,dont warn `Cannot resolve` on non-toplevel. fixes #48 sort of,False
+1986f6db8f5e6676b1b2c45cae9143132a740ff4,2017-08-01 13:09:24,Igor Klopov,show warnings about deployFiles. fixes #72,False
+d47246d5ecf4afda5c4b3a71a718db34b9b6c104,2017-08-01 02:41:13,Igor Klopov,prettify deployFiles.deployTo target directories,False
+0707900895c43bec5e70ebcb4f1bea91911991fd,2017-08-01 01:46:14,Igor Klopov,remove redundant 'node_modules/packyName' from dicts,False
+170558144f08e0157822520cf19b6152dce457e0,2017-07-30 23:16:59,Igor Klopov,fixed node-notifier for linux,False
+b82fa89e3527306662d8cc16f6c0bccd69d428c1,2017-07-30 22:13:29,Igor Klopov,move deployFiles to dictionaries,False
+8deaec4883eb90832f7aecf5ddd8a1e9ed1e151f,2017-07-30 20:15:39,Igor Klopov,fix node-notifier and phantom,False
+a502ddd299d63a8ed4b42c805e0362be00be855c,2017-07-30 19:49:12,Igor Klopov,pkg-fetch@2.3.8. fixes zeit/pkg#174 and zeit/pkg#173,False
+5284049de585c44d607eade024fad3c456c9d414,2017-07-30 18:53:37,Igor Klopov,copy same bits to deployFile.deployTo,False
+068a03a3d32b13ea3e43855fad4c9ec776111d4c,2017-07-30 18:20:45,Igor Klopov,fixes for node-notifier and phantom,False
+42e76c5b8bca6cc34ab635abf697697901e89a4e,2017-07-30 16:59:33,Igor Klopov,add phantomjs-prebuilt test,False
+d205bdadd338bba70c2db04b86cc70e9816c9d67,2017-07-30 16:47:00,Igor Klopov,align patch for node-notifier with drivelist etc,False
+36231b4ed5ace37df966ab454f6775814762b9dc,2017-07-30 13:53:59,Igor Klopov,fix for phantomjs. fixes #147,False
+18da0dd4a7466badf8d85110aaac1d01f48dc385,2017-07-30 12:45:57,Igor Klopov,patch for github npm package,False
+0bb67d88ddcca2e52019c4bd4b0f9d9ea967fa81,2017-07-30 11:30:39,Igor Klopov,regression test for reproducible builds,False
+a5c0288f6abd26189535d5fe7c53f6f5db85c9df,2017-07-30 03:49:50,Igor Klopov,move blksize and others to bootstrap.restore,False
+3e0c51410a57e3558bb87ddcf3098b1a73bf16d3,2017-07-30 03:17:43,Igor Klopov,apply stat of EXECPATH to stat on internal files. fixes #177,False
+8b6a709c1b8804ebc17645490c6378af7427fefa,2017-07-30 02:36:35,Igor Klopov,Refusing to overwrite non-file output,False
+fefba86dcf59053a3186b90c3410e64eb86ba521,2017-07-30 02:31:39,Igor Klopov,show file name on second line,False
+ee30bfd591f6e082cba78703fed698f41345877a,2017-07-29 23:14:18,Igor Klopov,google-closure-compiler: don't take jar into executable,False
+27a3933c7f08236177ba5591ad3b54b923553c25,2017-07-29 23:03:39,Igor Klopov,lint,False
+992df2ef35736cf75ffbae931ae587c3194a87ac,2017-07-29 22:55:36,Igor Klopov,drivelist: don't take scripts into executable,False
+983dbb701e7ff7a4608ecb859fe978f316cd996b,2017-07-29 22:25:45,Igor Klopov,deployFiles option to point from and to,False
+3ffa4fcef2f5b46e79fa2daef4cef5dcbd565b2e,2017-07-29 20:50:42,Igor Klopov,fix for google-closure-compiler. fixes #156,False
+2965678f6434988deb3d6fe236e12827600b3550,2017-07-28 21:19:39,Igor Klopov,4.1.4,False
+c8049c20b94727262fa3141f99d745a954cb6a02,2017-07-28 20:28:17,Igor Klopov,npm outdated,False
+b346eeef582649eca0d1c02ffc87587362a1b1bd,2017-07-28 20:19:31,Igor Klopov,remove few outdated tests from ci,False
+a470c010ef4ca0321ed8ccb25dc0f1971e35618a,2017-07-28 20:17:07,Igor Klopov,test for node-sass + disallow ci improvement,False
+5458ccaba72206e65bd20ea80625d8b100441387,2017-07-28 19:52:37,Igor Klopov,cleanup log file after bunyan,False
+d1f5d49db84010b6eedf0abca74021b2ef6c8a93,2017-07-28 19:09:29,Igor Klopov,fabricateTwice for all odd cases of 'cached data not produced',False
+9a072b247a729e0616e54145fbf4c307bc3e7e19,2017-07-28 18:43:42,Igor Klopov,no need to show full fabricator info,False
+5d4ecefbde62918b144e74ecd8a92968d6fa9968,2017-07-28 18:11:48,Igor Klopov,clone to make 'skip' mutation work,False
+6cc2981b9f21394a2401a0c038f2e7f34cf1e5c4,2017-07-28 17:08:50,Igor Klopov,fix test for reload,False
+f59377c6a78aa42487d806818b87791f4c95b812,2017-07-28 14:44:14,Igor Klopov,findNativeAddonSyncFreeFromRequire. fixes #176,False
+f3ba810bbe5e619800765855aa7aac44bb1f850e,2017-07-28 13:20:29,Igor Klopov,[wip] test-50-native-addon* should fail,False
+79d5a03aa50809bff6b84692813916ed63885eca,2017-07-28 11:37:18,Igor Klopov,unify the style of cb/non-cb,False
+798aa267df84361ef7ac413797e671f19a427e0a,2017-07-28 11:33:21,Igor Klopov,introduce findNativeAddonSyncUnderRequire,False
+e0226592d6732ed7cfeba6ed5779f9a08f0cbd1e,2017-07-26 15:47:43,Igor Klopov,better check for missing 'main' entry. fixes #162,False
+36f00e959ab3238eac66049bb13b0a13f766d471,2017-07-25 23:44:42,Igor Klopov,cover few more cases by 'insideSnapshot'. fixes #172,False
+6130f311c9a926497a63524e5312cdf82c6ecc47,2017-07-25 15:17:04,Igor Klopov,fix require_optional test,False
+fb6f9a3cd3bb28a8b9fc1b78d59d7389c35d25a0,2017-07-25 01:01:52,Igor Klopov,pkg@2.3.7 fixes #171,False
+10b934d658ff52ee94bfb6f8a44ed86f7a40e2bd,2017-07-24 16:27:54,Igor Klopov,pkg-fetch@2.3.6,False
+a68c487c1a1853e0bc1e3ebf0c462fb1d91852dd,2017-07-22 23:55:46,Igor Klopov,npm outdated,False
+9b3b20e87790b3c5b75ea5050e937a6c2c026a97,2017-07-21 19:56:25,Igor Klopov,4.1.3,False
+8272a7352d30f6e83abe8ea4d089e17458ad2bcc,2017-07-21 18:26:42,Igor Klopov,fixes for node4,False
+d4b770843281de480f05867ced4380685a000219,2017-07-20 19:54:16,Igor Klopov,fix test for v8flags@3,False
+c2ab8712a27052b19c178731b6bc2996539d16ab,2017-07-20 19:00:35,Igor Klopov,move checking ci to flags arg,False
+2fc2ab64171a4ad671dca7db0d55362d2164b505,2017-07-19 22:23:37,Igor Klopov,wording 'Failed to make bytecode',False
+350e20a4abdd41624abf2423f05bf3061742b80e,2017-07-19 22:14:43,Igor Klopov,typo in 'Malformed requirement' message,False
+39ce7c0edf204f41d09d8119ec95b23680c20e1e,2017-07-19 22:04:34,Igor Klopov,got seems to be ok without electron,False
+2cdc914e578781d8128a8a73788cb0f9e5645f88,2017-07-19 21:54:49,Igor Klopov,"Revert ""ditched dedicated configs in favor of package.json.pkg""
+
+This reverts commit d99995e9f3887c63febd8245f4f869b64f397cd6.",False
+cd170b3d0efa0a3e1b740690dc0b53faf7a7ea12,2017-07-19 17:20:25,Igor Klopov,fix test for pg@7,False
+edc8a7e3da7b3f46cf290ac11b818dbcc6824ec3,2017-07-19 17:09:54,Igor Klopov,no need to tamper license in dictionary,False
+1d0b3b47e97785ea07b80eaf0eae37976d8d5780,2017-07-18 22:33:51,Igor Klopov,protect #123 with a test,False
+a0dae5a21cce92099ff211c6af97ceae8d5cab05,2017-07-18 22:06:02,Igor Klopov,consider .config.json like package.json,False
+5f11a1d24d3a96f9305e55332f92d796143acd8f,2017-07-18 21:45:32,Igor Klopov,renaming config to package.json. step 3,False
+dc138064336acbab0982194f6fa52c24c7a78fa2,2017-07-18 21:13:39,Igor Klopov,renaming config to package.json. step 2,False
+d99995e9f3887c63febd8245f4f869b64f397cd6,2017-07-18 20:59:36,Igor Klopov,ditched dedicated configs in favor of package.json.pkg,False
+3e4d3dd6815f57af5773893f01c6c2a4429f782d,2017-07-18 20:48:51,Igor Klopov,renaming config to package.json. step 1,False
+439ea29dfa9c194db8f383d3e27aa1387991f146,2017-07-18 20:36:06,Igor Klopov,pass package.json path as 'addition'. fixes #123,False
+33d285a2a7a18176481b3e62e1a1617f59858ef3,2017-07-18 20:18:00,Igor Klopov,point to package.json.pkg as the only variant,False
+c7002b33a4893efaaf5e3369c4ce34e302374200,2017-07-18 20:00:47,Igor Klopov,send fabrication errors to stdout in debugMode,False
+866822a9ccbd633c98b43d92d10bd3014cf66f91,2017-07-18 19:13:56,Igor Klopov,"protect against ""assert"": ""**/*"" that causes filling all disk",False
+275a958f0ee50bb1b031efbf9254dec5c9b8dd20,2017-07-18 16:29:03,Igor Klopov,reconstruct specifiers of import statement,False
+825dbf6f50575da6ee950cf5a0f5623a1bea3c62,2017-07-17 23:47:08,Igor Klopov,draft for visitor_IMPORT,False
+f3faccaf6936cb889c75ae2941944ebee5a05f11,2017-07-17 23:24:09,Igor Klopov,support regression@2,False
+07edda7a83996dde0fa5b0a7157abccffe22285c,2017-07-17 23:19:01,Igor Klopov,more fixes for tests after 4c86333,False
+f9614a68389ce4c87dc02d68777c00a3f58dd306,2017-07-17 23:03:56,Igor Klopov,`Was not able to make bytecode` is not fatal anymore,False
+776f298e4573ebf77ab4bb186b0da194f85079e6,2017-07-17 22:54:56,Igor Klopov,proper logging and a test. closer to #123,False
+4c8633387e41a01b401f8e295d7829ac5fc88a1a,2017-07-17 22:16:20,Igor Klopov,dont stop on fabricator errors. only warn,False
+f6d2bc392fba293557bc4cefb852fb3298a822be,2017-07-17 22:08:58,Igor Klopov,process.exit(2) in child => discard it and start new one,False
+c80ace3a5364b3ee3108bd23c331c5206511fa6a,2017-07-17 19:30:18,Igor Klopov,when 'licenses' is not an array,False
+25466448b669a4ed35cc4b9ee59915ccaa3e1578,2017-07-17 16:47:27,Igor Klopov,more permissive licenses to improve --no-bytecode,False
+da018a30b88562b71c6933b92fda87ecf6666b5c,2017-07-17 15:52:11,Igor Klopov,allowImportExportEverywhere. partially fixes #123,False
+b0cfcee578d1d24802812602fcbc806b728d3930,2017-07-15 23:08:06,Igor Klopov,no need findNativeAddonSync at all if flag was off,False
+d542a10140ef7d37a19c5708d64b20389f06713b,2017-07-15 21:29:12,Igor Klopov,test for general native addon use,False
+dafd470476faeb43f6de4238d65f712936dfae13,2017-07-15 21:11:48,Igor Klopov,"move tests around, get ready for one more test",False
+a393ec7f7ab411bd93dfc667e41a5a3be2bcebea,2017-07-15 20:53:37,Igor Klopov,fix log4js test,False
+c5f191bb4e8fddcbb26791aaf703c76b9a50505f,2017-07-15 20:26:35,Igor Klopov,--public option to disclose the sources of top-level project,False
+06efd5e9867fcba91014296c1b24b73663f428eb,2017-07-15 19:12:58,Igor Klopov,several pairs of input-output for native-addon-2,False
+b93566bf46a95b4baf67004ffe2d22782cff697a,2017-07-15 17:47:41,Igor Klopov,test-50-native-addon-2,False
+12b7f0d62d804fadefce29768ac735cc5faaa75d,2017-07-15 17:30:02,Igor Klopov,var->const for node0,False
+75ef1066d1b1973d763fdc88b889827338adf35f,2017-07-15 17:23:00,Igor Klopov,make road to native module except module itself,False
+4845e8267247928bd723861128ec72a38ee9954f,2017-07-15 15:53:34,Igor Klopov,refactor to make a duplicate,False
+0f8a99729936ee2b179e0f36d43356db74f066ae,2017-07-15 15:21:35,Igor Klopov,better example for api usage,False
+782337bd1c7f307de7260f8f998cf3e6cbe8fd28,2017-07-15 15:17:56,Igor Klopov,document API,False
+fb9d097da7c29cce1fba9ab55fab1d48dcdebfc5,2017-07-15 15:12:04,Igor Klopov,test-50-many-addons. new approch to testing native addons,False
+c486cec2cef69e6cd3003d6d303853b6e779c698,2017-07-15 13:53:13,Igor Klopov,4.1.2,False
+99fb78e8a83b5c4943eedaa0e00c5d35665dc732,2017-07-15 00:55:25,Igor Klopov,linting,False
+ec4d1865d5cc2dc183c5dcb8e1bd2008b6f4657e,2017-07-15 00:48:16,Igor Klopov,seems that Module._extensions['.node'] is non needed,False
+f7a9b715a167e61907d1ca366f720f04feb5db86,2017-07-15 00:45:41,Igor Klopov,prevent poisoning Module._pathCache with snapshot fs value,False
+d3228e24044aacce0133bce99c833d82f3229c32,2017-07-14 22:21:47,Igor Klopov,workaround not needed for bindings since callsites fix,False
+e29c883005c8fab1dbfc53c8ec49751f9fe5e5dd,2017-07-14 18:52:40,Igor Klopov,add 'snapshot' entry to readdir('/') results,False
+70c4f28f3563ca48550f62947e8580ee517e5b39,2017-07-12 01:48:55,martinstarman,Pretify debug targets JSON (#70),False
+cf076de0882462fd9a4306662dbb2c0ff4128150,2017-07-01 17:50:19,Raidou,dictionary: bunyan (#154),False
+b778a2324377358d2b6cf60f25f315acb10cbf82,2017-06-30 02:56:22,Igor Klopov,more explanation about dynamic require,False
+637a37c449287518a4ef52414e72d90ddc02016e,2017-06-28 20:59:01,Igor Klopov,"skip node0, node4 and node7 in CI",False
+4e17fa33604a3709d95848c3e01f1a505d83dd81,2017-06-28 18:52:59,Igor Klopov,do not add '.exe' twice,False
+42ff8cbea5fe224fb045b11f135cc28a81281cb5,2017-06-28 16:38:05,Igor Klopov,append '.exe' when single windows target. fixes #148,False
+de88da6b96c714579b14682a4374deae5e6935e7,2017-06-28 16:19:43,Igor Klopov,make --no-bytecode error more descriptive,False
+06a0648a52984d531a79b829e751f7f1cabcfcac,2017-06-28 03:39:23,Igor Klopov,pkg-fetch@2.3.5,False
+b3497d0d28374e2c15df53a5c3939c688fe287c9,2017-06-26 23:48:42,Igor Klopov,no need to take gulpfile.js into executable,False
+6b286a4d481d5b108113afc03c65524a7b76e5a5,2017-06-26 23:42:33,Igor Klopov,4.1.1,False
+5798cf399e413bc87e8cdcc908e9deef3acd0f01,2017-06-26 20:43:28,Igor Klopov,update package-lock.json,False
+dae7c7d16dbeb9b3262adf951bb13c5a1499a154,2017-06-26 20:34:34,Igor Klopov,pkg-fetch@2.3.3 to address #146,False
+d606cdc6d5f0d97e92bd5a926954777cdb06569b,2017-06-24 23:44:25,Igor Klopov,replace spread for node4,False
+6fdce17a3e5389519f836921333adece072e59df,2017-06-24 17:35:22,Igor Klopov,get rid of npm test and simplify the whole testing,False
+1ef2fa9c83febeb75ef7374546200352111e2798,2017-06-24 17:25:07,Igor Klopov,upgrade gulp example to show how to pack gulp,False
+6616dd7082c859eed4ebb5f21d1f2cc991333a09,2017-06-24 01:52:45,Igor Klopov,throw if no source and no bytecode,False
+d474d17ba037603cdd3e289d15eca38ee821503a,2017-06-24 01:21:13,Igor Klopov,make express example pack sources,False
+bd0dabb9d5f2f1456dfdcdfe68ce9ae4734536dc,2017-06-23 23:58:00,Igor Klopov,"bump linter, fix linter warnings",False
+5d4217729f67d0244545576a6158d6148ba61e31,2017-06-23 22:12:33,Igor Klopov,add support for oauth2orize. fixes #102,False
+6cd16c8175f80ebf1b353a1386000e3a2e3e825d,2017-06-23 21:56:38,Igor Klopov,fix for child.stdout race #2,False
+e930ef18fbbc5f818573bebeb562b508e0ac6836,2017-06-23 21:55:19,Igor Klopov,internal term 'options' is confusing. hence rename,False
+a21687639ce690eb3892b9d10db60fe85d52741b,2017-06-23 21:11:53,Igor Klopov,experimental option --no-bytecode for cross-cpu packaging,False
+99fc0060565c2c1e226c1cf03426f6c1bf7b4c27,2017-06-23 20:30:54,Igor Klopov,include nodegit extensions into binary. fixes #120,False
+a46bcd8f13653fc4e78decd32a56d0a20ef4152f,2017-06-23 18:47:38,Igor Klopov,minor rename and cleanup,False
+b2693ea456fe4090dcabc96d229f86a3554e07e5,2017-06-23 18:47:26,Igor Klopov,revamp how .node search works,False
+6e17a9789a6bcb23f34bf678e5d4debb4ab1c3a7,2017-06-23 16:15:02,Igor Klopov,fix for child.stdout race (see appveyor for prev commit),False
+a0155fee1cd2ef34a41ff25d5c1f5f8126c916d5,2017-06-23 15:11:44,Igor Klopov,several possible paths from projectToFilesystem. fixes #141,False
+fb59976c73c525d9d364be0615f65f7cb8cc37b3,2017-06-18 01:59:37,Igor Klopov,pass entrypoint through walker (like refiner). fixes #134,False
+cf4229f5f29f7e85ca44bd83e8d7a498236f9e80,2017-06-18 00:45:08,Igor Klopov,test/odd-entrypoint to address #134 [fails on appveyor],False
+1e25ea97e6f686d6fbb9b401f3ebfabb525c0542,2017-06-18 00:04:52,Igor Klopov,trying to figure out appveyor 1.0.15 build failure,False
+c050913088f7e610e5ca9920919b3de8b7096845,2017-06-17 23:12:12,Igor Klopov,readme: mention external javascript plugin or config,False
+1b748da6ded978d524966ec3d1f090408e75c7a8,2017-06-13 14:55:30,Igor Klopov,4.1.0,False
+5e2bb5cada6a512600737ef10a1e3cdb9b4dba3c,2017-06-13 12:05:14,Igor Klopov,test previous version as well,False
+30287c9cf053a26e7d5f2c02ac2213b22a41fdd5,2017-06-13 11:37:00,Igor Klopov,fix npm sequelize test - remove mariadb,False
+76fde56eca1be9c811ad0e9a6864d946b4b167e1,2017-06-13 10:24:19,Igor Klopov,"Revert ""trying to figure out appveyor failure reason""
+
+This reverts commit 2b6f1b3922ce9177ce393b90228b6918967d8877.",False
+fe09b4cfda11e94bd80279c8ed9ab4625d39522d,2017-06-13 10:23:40,Igor Klopov,"Revert ""take node0 child.send args into consideration""
+
+This reverts commit eb0cb99d4c78046db8024d3bb748a9af3759c2ab.",False
+dbf32138ccb2d8ef5b19c5199c8fe3a602870c99,2017-06-13 08:53:40,Igor Klopov,don't exit child unexpectedly for master,False
+eb0cb99d4c78046db8024d3bb748a9af3759c2ab,2017-06-13 01:32:12,Igor Klopov,take node0 child.send args into consideration,False
+2b6f1b3922ce9177ce393b90228b6918967d8877,2017-06-13 00:52:36,Igor Klopov,trying to figure out appveyor failure reason,False
+35efab9bf17aae8e3530ccbc7ffc263347c8d21c,2017-06-13 00:02:12,Igor Klopov,test/test.js improvement for manual run (one more),False
+241cda7e5d5be05d0830abd5a068a70ba542ec8d,2017-06-12 23:51:18,Igor Klopov,one more change to try to fix appveyor,False
+5da4757131ad757c8ce5996e061318b969f22cbe,2017-06-12 23:49:00,Igor Klopov,update tests after 8054d9d,False
+c6da156c1fc5e41e271ff272b7666a963bce8e26,2017-06-12 23:44:02,Igor Klopov,fixing and improving AppVeyor,False
+8054d9d9e67e872d75fb8b17dc8e9579405962bd,2017-06-12 23:37:55,Igor Klopov,out-dir -> out-path (no change in tests to test deprecated support),False
+43704a808d484c410fb1605338894db2f0b85e12,2017-06-12 23:30:12,Igor Klopov,test/test.js improvement for manual run,False
+a1e1c90d49e82e033d9de010e1b25a68f11654fd,2017-06-12 23:24:05,Igor Klopov,fix denominator in win32,False
+3d87aca8db664b3bc2e52b1be71f6824e0afc79a,2017-06-12 23:22:19,Igor Klopov,npm: image-size,False
+5511787c46bcf2a076fe9a2888f5e5fd119d095d,2017-06-12 18:44:23,Igor Klopov,add appveyor.yml,False
+1588df8c55971de1d81448742e82273ffea872be,2017-06-12 18:37:23,Igor Klopov,fix involved tests,False
+4ea56b7861bba49038f784ac63c4f4ad7b66db21,2017-06-12 18:34:17,Igor Klopov,refiner.js + apply denominator. fixes #97 and #116,False
+f42dc4d341441b82edaec86f95c3003c02056d7e,2017-06-12 18:25:51,Igor Klopov,improvements to retrieveDenominator and snapshotify,False
+bdf4260ad69ce82232956dd0942a87b08a9ec5c8,2017-06-12 03:04:52,Igor Klopov,data-preflight seems long to install,False
+66379f9276106b938fe234be3512ed52ac29aa6c,2017-06-12 02:37:08,Igor Klopov,revoke denominator work from snapshotify,False
+35b3716fbffb6eecbc6848658f60c7c319424f37,2017-06-12 01:06:53,Igor Klopov,craft 'snap' as a separate term instead of 'file',False
+995f42fd918da185b378852444a2e3b52e03ee4e,2017-06-12 00:47:59,Igor Klopov,"Revert ""[wip] draft for refiner""
+
+This reverts commit ebe171359841c785ab1ede988fdc8e966b0103cd.",False
+ebe171359841c785ab1ede988fdc8e966b0103cd,2017-06-11 23:08:34,Igor Klopov,[wip] draft for refiner,False
+f6f2d09662cd78c9e262d46ea714a4b0bd9ba1e6,2017-06-11 22:31:01,Igor Klopov,fix for win32 + one more test,False
+3ccccc68396c425d17f7ecf9c701a534fdec3cd1,2017-06-11 21:42:02,Igor Klopov,simplify denominator retrieval,False
+24f6f51256a5db562b3339cc0143b38ca9f12b99,2017-06-11 14:37:57,Igor Klopov,test for retrieveDenominator and snapshotify,False
+688ac9f66b94b04e056bdf44e4c097e5b8785cdc,2017-06-06 04:27:59,Igor Klopov,draft for denominator,False
+104b4a2c775b9c1a61aab0312049a32160939b19,2017-06-06 02:20:25,Igor Klopov,minor renames to get ready for denominator,False
+d569dccc8a63f260aec8fa255ea209303f68fc0c,2017-06-05 18:54:56,Igor Klopov,fix express example,False
+f58704fc367e3b7d1ab370057f6f2c1c1a7c7d51,2017-06-04 23:53:47,Igor Klopov,4.0.0,False
+a57eb1293e3f9778521154e28496172d9499ee10,2017-06-04 23:53:39,Igor Klopov,fix npm scripts,False
+62d97213bfe9eb39fd7baa3d8f04204223bb4ba6,2017-06-04 22:01:50,Igor Klopov,detect shell of any kind by -c option,False
+9df488c4ecd9cb03958ac789870e0d8315458d2c,2017-06-04 20:00:23,Igor Klopov,cover more edge cases in spawn/exec/execFile,False
+585bb528674863f513449d9d713bf0c9478817bc,2017-06-04 02:44:01,Igor Klopov,prepare for divider,False
+2c7b37bdd9c7200fba9420a7d436682bc2c5f296,2017-06-04 01:12:44,Igor Klopov,purge checklist + more fixes,False
+5953b19b94b29887a2ddbd2528c3e182579a876b,2017-06-03 23:27:48,Igor Klopov,suppressed exec+win32+node0,False
+2125ed83a792954fcccf0d016adbb8e5e3f11c2a,2017-06-03 21:53:59,Igor Klopov,adjustments for win32,False
+559240cac21c05adea1f6c703b9d762c27d62c4c,2017-06-03 17:27:21,Igor Klopov,another way to handle 'npm i' failure,False
+1f3976b01a5df5fdba7f0e3ae936cbf7e2ecb732,2017-06-03 15:25:58,Igor Klopov,cleanup and minor fixes,False
+7d476fd971908ca9396f886e89b701f456e066f1,2017-06-03 03:23:46,Igor Klopov,fix complexity + test/spawn-c for win32,False
+4e3df4f91d4faabcaf71e9bd539a20e1ef281c91,2017-06-03 02:35:02,Igor Klopov,freebsd reports few obstacles,False
+4a9e6340fdd2b64d86a351dc4bde9b2a041f4ebe,2017-06-03 02:04:08,Igor Klopov,detect 'cmd.exe' and scan it's args as shell lines,False
+1b5738bd98256becd1d9312023793cf3e26efafc,2017-06-03 00:39:19,Igor Klopov,explicit host + prepare to fix cross-spawn-async bug,False
+c215477529aa03ae3b1f726fc7a359ea5ad71c26,2017-06-02 23:23:29,Igor Klopov,restore test/fetch-all,False
+115b17f9a76f93878d0b11bd442458649f706f1f,2017-06-02 23:19:25,Igor Klopov,fix flakiness of test/update-notifier,False
+eeb93ac7bb5658083ea9c95600ce2310a3e4fc2f,2017-06-02 22:43:41,Igor Klopov,fix exec/execSync for win32,False
+a16eebdaaf6bc83fb1aeaf92523c27c01b091ac7,2017-06-02 22:23:58,Igor Klopov,"no-npm, only-npm, run npm tests for host (not for node6)",False
+7800f00d849fd56bac34be7be5a133fc00c4d959,2017-06-02 22:08:47,Igor Klopov,partially revert,False
+dd978847543a1cf531a253156f4ada2a89b36f22,2017-06-02 21:37:26,Igor Klopov,ditch few more packages from travis to see time diff,False
+84ed090c8ace02bded14c5d2deb9b3769a299e29,2017-06-02 20:34:35,Igor Klopov,trying to reduce travis testing time,False
+eaed7d449175ef4d5d76528a6d53358f135c0c18,2017-06-02 19:59:56,Igor Klopov,implemented exec and execSync + simplify shelljs dict,False
+d46569ed9387afcd64c8aa1dfc9e37e9a6cd87d0,2017-06-02 19:30:55,Igor Klopov,implemented execFileSync,False
+6b757d721da8c474a1bbc7ffabbfc219a589f9b9,2017-06-02 19:14:09,Igor Klopov,reduce test/spawn set + improve bootstrap/modifyArgs,False
+18bc17d8595fafd534fa1d1535ae84941256e63e,2017-06-02 19:00:19,Igor Klopov,really implement execPath + revoke patch from v8flags,False
+9acf8a9763c764e5d9022b0f41525deb3f0e19b2,2017-06-02 18:46:57,Igor Klopov,implement execFile,False
+f62bf208b9685493ba82e69a27b2fa18b6ef5f31,2017-06-02 18:13:04,Igor Klopov,implement spawnSync,False
+085d7152d5a27942fc0c7048af33d6ff3be20856,2017-06-02 16:45:54,Igor Klopov,test spawn(process.argv[0]),False
+11670ca6e354de4c8a579b478ce4ed8fbb62b592,2017-06-02 16:40:49,Igor Klopov,new directory structure of test/spawn,False
+fda19c38f3c48c23ceb637ec74b62e32c05c31c7,2017-06-02 16:19:13,Igor Klopov,fix test/redis-parser,False
+9b12ae4ea38d0945bc8905b3a0d28ce1951c7b2a,2017-06-02 13:41:42,Igor Klopov,strip --debug-port from createWorkerProcess from node0,False
+319c4f2625e845bb23f6b84e2b4e954f00d8aeba,2017-06-02 11:19:47,Igor Klopov,adjust test-class-to-string,False
+b9f2179fad5ffcfb06542cbdfaa52ffab7bca309,2017-06-02 10:39:29,Igor Klopov,pkg-fetch@2.3.2,False
+570e09b7850668ab4dcc56f19ffdc1f1d4ff8ebe,2017-06-02 10:38:51,Igor Klopov,"Revert ""resume test-fetch-all""
+
+This reverts commit 64c290653e0f32036fdcfc0e3fc279fd1588353a.",False
+986e2616bf4fab516d16d5bab60a0089e98e3ace,2017-06-01 19:49:29,Igor Klopov,[wip] let it apply hooks even if entrypoint is out,False
+eb199ecc234c725bde80acd3a41ac370d6af7c37,2017-06-01 19:19:44,Igor Klopov,[wip] switch from --entrypoint to --pkg-fallback,False
+464017326c86b86f3d64d74df6f79a85662752c6,2017-06-01 18:06:05,Igor Klopov,fixes and improvements to spawn,False
+7e482afe67a294f2fa4b7248d00c7f09c118f361,2017-06-01 16:05:18,Igor Klopov,spawn: always rearrange and repoint to execPath,False
+64c290653e0f32036fdcfc0e3fc279fd1588353a,2017-06-01 14:32:29,Igor Klopov,resume test-fetch-all,False
+d6a44b01338119b186e78ec1d991e3fa238bceec,2017-06-01 14:30:07,Igor Klopov,fix test for update-notifier,False
+486ae6af785d034c583daeb4d6f81fbad27bf6ef,2017-06-01 14:30:01,Igor Klopov,fix update-notifier,False
+aa0fe85e5399126cc6848d0d459c1c4304eec6f2,2017-06-01 02:27:04,Igor Klopov,fix stdin.onError bug,False
+a25151315b73171d3694c018699230c64e9b8d98,2017-05-31 23:55:58,Igor Klopov,pkg-fetch@2.2.3,False
+b4818ff2ab0212e8be6f1cb175be41f9442f955f,2017-05-31 20:39:58,Igor Klopov,revision of node versions in tests + fix bootstrap,False
+9eab80d359dbfe1ab50eaeabb47d1300c142e8ba,2017-05-31 20:09:11,Igor Klopov,populate checklist with node8-macos items,False
+0ba92e6f48f3cff9a074fbd34ed967c154730707,2017-05-31 19:40:26,Igor Klopov,fix `npm install several packages` for npm5,False
+e249bc2ca9a2e84e623e92e072f4891f42d87f36,2017-05-31 18:27:53,Igor Klopov,check npm version in npm tests,False
+47b43f62a3cff8d77457f27c7a777adf18da8f2f,2017-05-31 17:35:38,Igor Klopov,package-lock.json,False
+ec22ecbbc98ec169287cee677692424de917b041,2017-05-31 14:32:24,Igor Klopov,add test/inspect + fix node0,False
+6ad76d1a085b83420244407d6117b7191eff3134,2017-05-31 14:21:50,Igor Klopov,"fix tests: fsevents, grpc, zeromq",False
+5b146921258718a5d0bafb1b7d181bb9240f560d,2017-05-31 13:35:29,Igor Klopov,update call style for 'makeRequireFunction' for node8,False
+9b50d1b9c2a1c319ac762b62fbf7ed0cbefeb72f,2017-05-31 00:17:45,Igor Klopov,minor fixes 3,False
+a604f3309e350bc8850569cff6832007f3c64d21,2017-05-30 23:06:36,Igor Klopov,minor fixes 2,False
+2d36e8806398ef3dcb8dddccba16d7317165434f,2017-05-30 22:08:26,Igor Klopov,minor fixes,False
+7283252b6833c1e713683e657261a2f6b4f34167,2017-05-30 18:26:00,Igor Klopov,avoid using regexps in runtime,False
+5b4955e95a4ab0cd2cac15ba388f2e77a502f9fa,2017-05-30 17:35:32,Igor Klopov,"Revert ""make 'windows' flag top-level""
+
+This reverts commit b7de74b14825b55b530dfc872bd83540b4f46e25.",False
+1654ad4cb41439768a870e035700e856d82db7c3,2017-05-30 17:29:03,Igor Klopov,fixes #117,False
+b7de74b14825b55b530dfc872bd83540b4f46e25,2017-05-30 16:36:28,Igor Klopov,make 'windows' flag top-level,False
+f62e0ac3c5df5e5a3a3fb751353959c934edd649,2017-05-30 03:01:29,Igor Klopov,ditch node0-related iat patcher to speed up app start,False
+dfc2fdcd12b6b08217077becb852538d1b48c41d,2017-05-30 02:50:12,Igor Klopov,"Revert ""PAYLOAD_BLOB, override readPayload and readPayloadSync""
+
+This reverts commit 557ebc1495f8d8756cf46f0eab88edf798dafe4a.",False
+557ebc1495f8d8756cf46f0eab88edf798dafe4a,2017-05-30 02:44:23,Igor Klopov,"PAYLOAD_BLOB, override readPayload and readPayloadSync",False
+1101e2bf3678bd627473ae30123bffd55d2b002b,2017-05-30 02:33:57,Igor Klopov,test to cover #62,False
+01d1c97c507ef1fbec53bf91c1f120da0b2f9943,2017-05-30 01:52:23,Igor Klopov,fix test/verify-pkg-version,False
+ebcbcfbcc5e8dcc38dba1b0d780e02e156ec0de9,2017-05-30 01:41:50,Igor Klopov,no more 'module_root' hack for 'bindings',False
+8094a2d5a0d503e616fec7ff1e420ed0aacdbb8e,2017-05-30 01:41:13,Igor Klopov,merge branch 'discrete-payload' to 'master',False
+5e444ca416826b48dce10c81217411ab9a75075c,2017-05-30 01:38:51,Igor Klopov,[wip] packer and producer are rewritten from scratch,False
+07bf19d181007469f07ee77dc63c66458a2d4ecb,2017-05-30 01:38:06,Igor Klopov,compiled code -> bytecode,False
+093bb6b95d5f99955253c2b08ae6bb201ff7efa4,2017-05-30 01:15:45,Igor Klopov,new Buffer to Buffer.alloc and Buffer.from,False
+613fdb66bef1c91359250cd1e26781e8feb2aaaa,2017-05-30 00:58:19,Igor Klopov,minor rename 2,False
+65e88d8c5cc6a65bc3f3994cbc3b3f1958da1b61,2017-05-30 00:32:59,Igor Klopov,minor rename,False
+55c2ae8b9bcd60e1f8be780dbb9b5077802389e9,2017-05-29 23:31:39,Igor Klopov,"error-source-pos, fs-layer-2: add win32 support",False
+7a8603052d2148d63ae8719a787c12f10ed38437,2017-05-27 23:34:03,Igor Klopov,mass rename CODE->BLOB. because 'code' term is too general,False
+81fd2f52892178ceccccf7397ad71ef014a0d2c3,2017-05-25 16:02:02,Igor Klopov,fix 'const' issues for node0 area,False
+8557637934d499bd67926d2ff8d6f94afd25a255,2017-05-25 15:47:18,Igor Klopov,minor simplification,False
+46e0ef0ef9b5c40a760bb737a1f38954b03df257,2017-05-25 15:19:25,Igor Klopov,test source position as well as error message,False
+030541f607bb685c5715133f61097882e66796f3,2017-05-25 02:05:13,Igor Klopov,error-source-position + minor modification,False
+1cb1031a32212c202b597d52975beaaad8d684b6,2017-05-24 23:53:54,Igor Klopov,explicit host version where version check or 'fetch',False
+a5f89843484ebbb3ac01f1540be27f48f4b6f2f9,2017-05-24 22:17:05,Igor Klopov,new test: bad-error-message,False
+0ac0eb835905bf69f18210581e0e78d2618bb6b4,2017-05-24 20:38:49,Igor Klopov,missing test for require(STORE_CONTENT),False
+3a2ccf1884b4a1a7e438d5c954629c0649fdc193,2017-05-24 15:56:35,Igor Klopov,3.0.5,False
+80a1992dfc89d4a4c7d66e12a7bae7077ca2ccb4,2017-05-24 13:48:31,Igor Klopov,fix: add dictionary to mute 'compare' test,False
+af10e79f469d76853588d32007593bcc8fa30dec,2017-05-24 13:34:51,Igor Klopov,remove empiric rules for FLAG_DISABLE_DOT_NODE. fixes sha3,False
+8c55615670932bf0468163541ab841552f56dc77,2017-05-24 12:57:38,Igor Klopov,"ancestor._resolveFilename.apply(this, arguments)",False
+7e4a7090640f9e4f8f8e2d3977d3f3c770650c60,2017-05-22 22:32:17,Igor Klopov,findNativeAddonSync because it only works in sync mode,False
+ef490ed053f5d79e7c0b05c6718976bdecc7118c,2017-05-22 16:07:22,Igor Klopov,isPermissive to cover more cases,False
+bb9b26922c662e961f6b217075ca69d737fbbc54,2017-05-22 16:07:15,Igor Klopov,remove run-time area regexps from common.js,False
+f62d18e4a765f5b2ce79b85cf1c1a4346bcfbdcf,2017-05-22 16:07:00,Igor Klopov,test-48-common to cover more cases,False
+23551420ce378079d2ba11bb58bdc8bceae1954f,2017-05-21 22:39:44,Igor Klopov,testing fs.realpath in fs-layer-2,False
+b82aed8ec8d17156dc22fc7b358bc9dd32cd553a,2017-05-21 20:00:50,Igor Klopov,populate insideSnapshot per platform instead of comparing,False
+a37f23fb92979c4903d670ae17a728d34ea7c6e0,2017-05-20 22:43:54,Igor Klopov,wtf for exists in fs-layer-2,False
+ee81c36f938ca2e04bbcc9f70ecbed69ce194387,2017-05-20 22:36:45,Igor Klopov,restore the idea of comparing instead of asserting (where poss),False
+39d275bd913d07d15a9ccb84a1d223b7d28addc6,2017-05-20 22:21:22,Igor Klopov,testing fs.exists in fs-layer-2,False
+b8055cee1a8b4412985f5de91cedece4df81df73,2017-05-20 22:15:43,Igor Klopov,no sense to use theFile with '.notExists',False
+69feb59531b6f6fa526b9cfb84a14fe23614d47f,2017-05-20 18:16:28,Igor Klopov,testing EISDIR in fs.readFile in fs-layer-2,False
+2284374fdc2c170a7bdd6b42fd66115d8e7d3c49,2017-05-20 18:15:59,Igor Klopov,testing fs.readdir(theFile) on fs-layer-2,False
+d3e21cd120a6aaa993b2087996dd22431698cea4,2017-05-20 11:13:34,Igor Klopov,test fs.readdir in fs-layer-2,False
+7a4f9af551e0f12f482b2b1a7045824b82e9ea83,2017-05-19 12:09:04,Igor Klopov,one more improvement,False
+cd166fcf340cf06886a0c769e00cef1689d0fc76,2017-05-19 12:08:56,Igor Klopov,improvement for test-fs-layer-2,False
+cdf90c4277990e157a51a114ee712d6a28aa5454,2017-05-19 12:08:16,Igor Klopov,improve npm geoip-lite test,False
+6ada13643a1254624ac29ddf4a3320a354311bcf,2017-05-18 20:32:55,Igor Klopov,test fs.writeFile in fs-layer-2,False
+fdc2622c266d2651263a93e228481e4bfda7347f,2017-05-18 20:32:51,Igor Klopov,assert errors and their absense in fs-layer-2,False
+28c20bf9b9b2ad9aed6c59b8cf6563385bf12144,2017-05-18 20:32:44,Igor Klopov,testing fs.readFile and it's dezalgo in fs-layer-2,False
+0d4753f7dd50992a507a3a6afc65526363cfc819,2017-05-18 20:32:35,Igor Klopov,improvement for fs-runtime-layer to test dezalgo,False
+2c6f75063599e52ae650783e9fa8517742f4272a,2017-05-18 13:29:45,Igor Klopov,less path components in test-42-path-related-values,False
+bc86716e56647c03b2f35b5b910bd1ae62ff8458,2017-05-16 13:38:10,Igor Klopov,placing root to snapshot properly - fix for win32,False
+f28d01d8ca68cf3919cda382b3be975be5237526,2017-05-16 03:18:57,Igor Klopov,placing root to snapshot properly,False
+53309673e0ec735316670db58c85e44615ac5661,2017-05-15 17:50:06,Igor Klopov,switch from deprecated fs-promise to fs-extra,False
+b1451bb85dab32d9658319a861a5b84ea60f7b28,2017-05-15 17:19:28,Igor Klopov,improve test-fs-layer-2 + harmless addition in readFromSnapshotSub,False
+8e878565ac2037451a402691613e9f08a6a08b4c,2017-05-15 16:35:12,Igor Klopov,fix insideSnapshot for win32,False
+4e06f578f14c043bcd1b5e10c6b3328838d290b9,2017-05-15 16:34:32,Igor Klopov,test insideSnapshot for both win32 and posix,False
+f2202329d10d8bf493020b69c076486415e67f77,2017-05-14 19:12:56,Igor Klopov,fix const->var,False
+8d121ccbd2e42f4f4f14189acf25c784a28015a8,2017-05-14 19:07:38,Igor Klopov,speedup insideSnapshot,False
+2a69b4c7ac8caeee0f81e92a3ddda9551ed5b489,2017-05-14 04:44:34,Igor Klopov,3.0.4,False
+f3352454580bd720b8679e4d1d75efbc5f3be528,2017-05-14 04:15:19,Igor Klopov,apply derivatives immediately after activation,False
+3ad2d66f9216563ce3e5b2e04de35793cee7fee5,2017-05-14 04:03:44,Igor Klopov,test reproduces something like #75 (license is permissive),False
+0f124f3985163e2a621dd9f527fb639d9bc0c04c,2017-05-13 05:14:48,Igor Klopov,dictionary: fix uglify-js,False
+1bcdc720fdd2426f959404e2c7961eac06c02d8e,2017-05-13 04:57:17,Igor Klopov,dictionary: engine.io. fixes #86,False
+52b790c29733ffd2a4cf8b4251dc58c7289cfc9b,2017-05-13 03:21:40,Igor Klopov,dictionary: tabtab. probably fixes #83,False
+6a52fdcee8faa314ed31b03d19780e70d4a52ca0,2017-05-13 02:31:59,Igor Klopov,check Buffer.alloc. fixes #82,False
+46d8be27944300a8d75885c89c5c9d7db1aa23ab,2017-05-08 13:33:32,Leo Lamprecht,"Coverage badge added
+
+This closes #61",False
+bb0399d908a370a4a46b9ac12b74fe8a7a9ba351,2017-05-08 09:54:38,Igor Klopov,"bootstrap: readFileFromSnapshot: if content is present, try it",False
+0e8af2caa5ae4e523d030c4f89279a31b094411e,2017-05-08 04:56:17,Igor Klopov,no need in callback in packer,False
+be3eb1dd023a083a6de70cdcb66d9a3514fbc04b,2017-05-08 04:54:02,Igor Klopov,"Mostly revert ""Typos + simplify code (#56)""
+
+This reverts commit 40730c611745b897852e670fcb02f6dbe92fe741.",False
+40b8ea02b2e76e5e06878efbf6ddb677faecb1ca,2017-05-08 01:32:20,martinstarman,Show version before compilation (#77),False
+2c7ce5f937010079e42530a91b5a6922aaab2597,2017-05-06 06:07:03,Igor Klopov,more clear about second padding [prepare for discrete],False
+fcacd566a14522cb9ef9dd4cb21733b678c04e14,2017-05-06 04:25:10,Igor Klopov,"express example, root for static-serve",False
+2e2f451253a01465d2be5564d14c0faa028ca324,2017-05-06 04:24:17,Ryan M Harrison,"Add david-dm dependency shields to README (#60)
+
+See if repo dependencies are up-to-date at a glance. Also checks known security vunerabilities via [nodesecurity.io](https://nodesecurity.io).",False
+d99024961a40161bd9d64c1df2ef651e6ef45a5c,2017-05-06 03:11:10,Igor Klopov,readme: native modules compatibility + pkg package.json,False
+c893da8930883dd4aa5af84aeea54dca838fb1d5,2017-05-06 02:32:58,Igor Klopov,3.0.3,False
+80ecce79410a5b2cbe14434f83e86761eecb862d,2017-05-06 01:53:51,Igor Klopov,npm outdated,False
+cff459bb9a7adfdc1075cbdd5f7d343012dea9ea,2017-05-05 23:36:05,Igor Klopov,unbreak shelljs expanding dollar sign,False
+bbff40a7e3d5cace5f547e14991eb60b15511794,2017-05-05 11:10:20,Igor Klopov,use original 'resolve' because of https://github.com/substack/node-resolve/commit/a983d38c47ea26e57e0824f22929985ecb24faca,False
+2311b8c96adb1cbe12418f648b8b59bba343f73c,2017-05-05 06:06:07,Igor Klopov,remove broken drivelist@4.0.0,False
+8ff6451fce18e7dfff5dbe7d32053ed0e1892b0b,2017-05-05 05:52:24,Igor Klopov,change isolator directory name,False
+103b06b9f2f44c5b453fb7b2cbc8ff63421c3900,2017-05-05 05:49:08,Igor Klopov,fix node-notifier test for headless linux,False
+68231c79ff8573d1bfd021f18da462c7b0995f90,2017-05-05 04:06:39,Igor Klopov,dictionary: fix grpc,False
+86ebc77a63c70b504ea64058e3331927eb65dad9,2017-05-05 03:24:33,Igor Klopov,dictionary: node-notifier,False
+d935afb6a8d5656fc8b16c0df3460c80d956b5a9,2017-05-04 22:53:11,Igor Klopov,dictionary: zeromq,False
+fa72ccbf1cf9bfad482248980dd04606b28463a1,2017-05-04 12:03:42,Igor Klopov,dictionary: grpc,False
+ff94df7c6af6d6e199cff537b1f67578b74b8a18,2017-05-04 08:31:48,Igor Klopov,3.0.2,False
+d87bcc5704e2ae35f20d276a24310a5cfad7ebb8,2017-05-04 06:37:34,Igor Klopov,fix 'jsdom',False
+5b94def9aa9c3aef9b07d9f378b16d0c55dcc349,2017-05-04 05:43:39,Igor Klopov,fix 'require-uncached' after 'callsites',False
+104c60f98b3c9361f8e838cf890330ae23c61f9b,2017-05-04 04:40:29,Igor Klopov,fixes #37,False
+b433914cfefd9f790cb0f572be5e60da0fc7e630,2017-05-04 01:58:24,Igor Klopov,add eslint to 'npm test' to lint PRs + lint after #59,False
+d94d3ad5a8424558c5ce2f911665f8ea3e861b39,2017-05-04 01:52:26,Igor Klopov,temporary fix for #58,False
+d3cc3da7effe7317106154ff46a79b2acb7cd59b,2017-05-03 23:47:26,martinstarman,[cli] Show version (#59),False
+19e80043dd0ad165dc77a10fa0110090d678c9be,2017-05-03 11:46:37,Igor Klopov,minor refactor of parseTargets,False
+3542cf9033042622b07a6662935967ec7c6bb341,2017-05-03 11:14:56,Igor Klopov,fixes #54,False
+565167850f8afd4ab90dc0092365a615fa385c2b,2017-05-03 10:27:28,Igor Klopov,use name from config (prepare for #54),False
+c0dd2542ec964e81993e2c9b5864e645598a84e1,2017-05-03 06:55:52,Igor Klopov,fix for #57 + regression test,False
+baf802ffe666cd2d5be1ab987041837b1f3561a9,2017-05-03 06:29:44,Igor Klopov,minor styling after PR,False
+40730c611745b897852e670fcb02f6dbe92fe741,2017-05-03 06:17:20,martinstarman,Typos + simplify code (#56),False
+a7e81888b57d16aa92fda3d567938487f1389c9b,2017-05-03 04:10:03,Igor Klopov,show full target on fabricator failure,False
+740c0ebd92ad94c2fea3aa6d4cbde6d9648ec3d5,2017-05-02 12:19:33,Igor Klopov,adopt 'padded-blocks' eslint rule,False
+6094358f6449a42dee1ceb6ec5fe7c8ff1bd3485,2017-05-02 06:45:00,Igor Klopov,3.0.1,False
+99ac8c1b515929346612dc3d457ff895c8aeaa39,2017-05-02 05:39:30,Igor Klopov,dictionary: googleapis,False
+d3f66161e37a83f6d5876af0b7ca9f090479f57f,2017-05-02 02:58:09,Igor Klopov,pkg-fetch@1.9.3,False
+a2121c9f10e31f5d03f0a00184fc16b6ca43d64b,2017-05-01 23:07:16,Igor Klopov,"Revert ""No need to ignore anything for linting""
+
+This reverts commit cd8a660b5b8cae23fe68f0d748c07da402310555.",False
+ce90ba64b843525e44bb52e12dae4ac23a5d8d1d,2017-05-01 17:33:55,Leo Lamprecht,3.0.0,False
+60c7e92856c32dbac868d56870db24da8c573abb,2017-05-01 02:33:11,Leo Lamprecht,Repo banner added,False
+63ce726983e809d0eecf0917e2cb93cc530f8198,2017-05-01 02:21:14,Leo Lamprecht,Correct headings,False
+4eb206c85dadb6a93c7d1b9614d23a622e333387,2017-05-01 02:20:09,Leo Lamprecht,Proper description,False
+cd5a639d1c41cb7c3e631923ca547485d637c7b1,2017-05-01 02:19:14,Leo Lamprecht,Badge for slack community added,False
+e9a93a66c46af0e6e7a87509a3540d3c3b8451b1,2017-05-01 02:18:50,Leo Lamprecht,Public build badge added,False
+e93c6e99efa4d6113a983126c2cbe7b8208708b1,2017-05-01 01:18:55,Leo Lamprecht,License and small char file names added,False
+6cc2d5c9d16ab9bb1f88309105f536d1b018e093,2017-05-01 01:17:55,Leo Lamprecht,Missing package fields added,False
+cd8a660b5b8cae23fe68f0d748c07da402310555,2017-05-01 01:16:45,Leo Lamprecht,No need to ignore anything for linting,False
+e09498dfc63a7598b87e3c7945f11f78792ec6a6,2017-05-01 01:08:18,Leo Lamprecht,Added description for package,False
+b711abde5c512400dffc117d10f510f432e998d0,2017-04-29 23:41:06,nkzawa,add readme,False
+74a9dc1da59e9ade7a2b0e88fb9986758eafcb95,2017-04-28 08:32:19,Igor Klopov,3.0.0-beta.33,False
+2bff1be0c933bed59005698ccf52f8a64eba4084,2017-04-28 07:56:11,Igor Klopov,pkg-fetch@1.9.2,False
+0f1176b559189970a9153ca48ca6817d043d83cf,2017-04-28 07:07:50,Igor Klopov,introduce 'dryRun',False
+93a83a48361815312722c4fd41c45a1b37bd96bc,2017-04-28 02:01:22,Igor Klopov,3.0.0-beta.32,False
+5c18ba3428b7f09cce041610b86dce8d8d8eb9fb,2017-04-28 01:24:07,Igor Klopov,test-nonexistent-pj-bin-2,False
+38f59ccba2fdbaa04f2566aec39bc796ed4d59fd,2017-04-28 01:14:47,Igor Klopov,test-nonexistent-pj-bin,False
+ed184a2da67a8b27dc240db8ddcafa79429dd05a,2017-04-28 00:57:25,Igor Klopov,test-nonexistent-pj,False
+fab70b13e5fc8e389b06336fc405eca14674f317,2017-04-28 00:35:34,Igor Klopov,minor wording + tests improvement,False
+63f794a6bad9f55494940a4dcd1f614b5e13070c,2017-04-27 23:58:07,Igor Klopov,readme: deploy -> run. kudos to @matheuss,False
+c4f060631a14d0d619bbf9880e908b7ae6c5d01f,2017-04-24 04:25:28,Igor Klopov,3.0.0-beta.31,False
+c85a0852eed63bdb76433f43c54df063c7fa827c,2017-04-23 08:59:12,Igor Klopov,change 'virtual' term to 'snapshot',False
+c1279778b4fb33013784a64017418e0fa134d8f5,2017-04-23 08:41:31,Igor Klopov,argv[1]-related fixes for readme,False
+c1591636e67c9944b019a9e7c545d057221a2e86,2017-04-23 08:02:41,Igor Klopov,no need to patch argv[1] instead of __dirname,False
+9ebc463c01dda33b0e53242a48444aa26ef4dcb3,2017-04-23 07:04:44,Igor Klopov,fix 'cors' package,False
+4cfd483c54cd4bcfb7fd78c15aa3892b0ae2c580,2017-04-23 05:30:31,Igor Klopov,fix spawn examples to more sound counterparts,False
+03c7bc6c3888f6a0d9d53201b1620c42a969aa0f,2017-04-23 05:19:19,Igor Klopov,seems callsArgv1 is needed to fix it all,False
+5ed26107017eaeaf88aa821b3d2215f67d456e54,2017-04-23 03:51:28,Igor Klopov,fix test-50-spawn: argv[1] -> execPath,False
+970dac8f3b822a8c798e9b5f21984b9aa3337608,2017-04-23 02:57:06,Igor Klopov,fix test-50-mountpoints: argv[1] -> execPath,False
+eb0bf9163a64e12aa1d4841e0a35b8fcb92ce78c,2017-04-23 02:20:59,Igor Klopov,switch process.argv[1] to ENTRYPOINT and see what happens,False
+44f89f3f121885d0d1b8afe0aed2dea1be20785e,2017-04-22 06:42:49,Igor Klopov,3.0.0-beta.30,False
+53f46c53a88872e2e907c7721c202135c285f084,2017-04-18 12:25:20,Igor Klopov,fix for thebox rename,False
+72b2a567c4be1724bcc5a7d250c0bd6dfeb6f4cd,2017-04-18 12:24:55,Igor Klopov,conform https://github.com/nodejs/node/pull/11288,False
+cfab09009b2dd6ec2422fdf59f459ce168cd1012,2017-04-18 11:08:31,Igor Klopov,total rename thebox->snapshot,False
+b755585ec4ef5a842314cc9ebdb043805713d2bc,2017-03-20 00:31:30,Igor Klopov,minor rename to align invalid cli tests,False
+0abfcae2bddde19105eb648c9b8a3b5fd0fa8a46,2017-03-20 00:30:53,Igor Klopov,test for incorrect target tokens detection,False
+b515681670c58246fa5f5d5bc1c2afddaa201e6a,2017-03-16 01:02:17,Igor Klopov,3.0.0-beta.29,False
+8d8979c3163bf953c9a80f2977a6bfead4ae5845,2017-03-16 01:01:40,Igor Klopov,better detection of incorrect target tokens. kudos @tootallnate,False
+0e157b30af1634b70f2dba647e0c92ae23a71617,2017-03-16 00:53:03,Igor Klopov,pkg-fetch@1.9.1,False
+f8c668782af25697217286ff2a86a7355e04b34f,2017-03-01 02:34:25,Igor Klopov,styling 2,False
+029ee5fab4776934869ac773687d501c623c2acd,2017-03-01 02:32:47,Igor Klopov,styling,False
+5f4d344f7681f617ac1cc7c77957f1246d357b81,2017-03-01 02:25:37,Igor Klopov,show relevant message if main entry not found,False
+50870ff2f6b6b0ef6e45a3463cc72c42902df35d,2017-02-27 20:51:15,Igor Klopov,3.0.0-beta.28,False
+c57e8b808071fe09b3e352165603787326b4c203,2017-02-27 19:53:44,Igor Klopov,and one more test,False
+be010fc3abe4252cc908c67083a592ba16cef550,2017-02-27 19:52:26,Igor Klopov,the same but for next test. paticularly because of 'qs',False
+b2e1780a0b544cbefc218f7d1a9be53453f34e67,2017-02-27 19:43:14,Igor Klopov,improved the test to untie from pkg's node_modules,False
+bda5e09f6bf3d3816e7fceee0ecc9c90a5111a67,2017-02-27 16:50:41,Igor Klopov,that only suppressed the warning. here is the actual fix,False
+dbf2e055f7d4ccb4020c5c67174ab641dd8f3cfd,2017-02-27 16:16:07,Igor Klopov,fix for that '@types/something' bug,False
+e3f0ea7261311854ddfe6241f50c16b8fd768aea,2017-02-27 14:43:12,Igor Klopov,a hint in what cases the assert may hit,False
+69a4f2f1629361f64b861ee5fe578c03c31ec11f,2017-02-27 14:17:04,Igor Klopov,[wip] test requiring @types/* in a chain,False
+f8ebceecc01310db4099b058939b150523a3faa5,2017-02-27 13:44:56,Igor Klopov,renumber tests to insert into middle,False
+d554b7bcad72df02421733388e33f9dc848c8b58,2017-02-26 20:33:38,Igor Klopov,pkg-fetch 1.9.0,False
+3a60c2ce1105b3369e6cdc49a1adc9602dc61554,2017-02-26 19:34:57,Igor Klopov,preparing pkg-fetch arm binaries is a premature obstacle,False
+c746ebddb937029719c1034222946fadfd2cc5d1,2017-02-24 14:42:48,Igor Klopov,old graceful-fs (from npm@2.5.1) does not support node 7,False
+d718d80f1334929d0cc58dd7032851c0b2746cfc,2017-02-24 14:00:29,Igor Klopov,seems that contextify is broken after 7.6 (new v8),False
+24125f7faf2c7f0bf195812897a60c9952f3abe3,2017-02-23 12:47:43,Igor Klopov,added support for 'reload' package,False
+59001bbd26e3d477352860ad42fad5fc83335802,2017-02-23 02:49:56,Igor Klopov,added support for 'supervisor' package,False
+fdc2152b9807eeceed02751f2f651391c2355136,2017-02-17 16:04:13,Igor Klopov,3.0.0-beta.27,False
+7e03b81f0cf0de3f57bcae1601efb537c6231c52,2017-02-17 16:04:01,Igor Klopov,applying empty readme,False
+f3d9f52500df91b94d114bafae2e1076f2e9178c,2017-02-16 18:49:23,Igor Klopov,3.0.0-beta.26,False
+7ee4cd658db5d12dc3687851c7d4c1013114f067,2017-02-16 16:43:20,Igor Klopov,update yarn.lock after npm outdated,False
+2be3fa7b8c55a28d62f3dccc3f4f45c7e674702a,2017-02-16 15:15:55,Igor Klopov,fix for xlsx,False
+e0fd5131b3d6da909213f6ab1719c09b86364ed9,2017-02-16 03:15:23,Igor Klopov,npm outdated,False
+f56f7b1fbe31d57dade93ae6efca1a9b364a9156,2017-02-16 03:10:15,Igor Klopov,trying to override npm's readme. not time to release yet,False
+c6df63327665937cc6e19390216802c5d06a4223,2017-01-23 14:02:32,Igor Klopov,final fix for socket.io,False
+79bedc09feb743eeab8e56bb2e6923e166fb6f8d,2017-01-23 12:52:58,Igor Klopov,one more fix for socket.io,False
+cb380d2650a6ed6c3e49f92a2173d3a51c9104f1,2017-01-23 12:05:34,Igor Klopov,fix for drivelist@4.0.0,False
+362295bac482d19fac09404058659dd8aa0baca0,2017-01-23 11:39:56,Igor Klopov,fixed test for socket.io@1.7.0,False
+ea902f14710ab7326fb819b4ca38670f5c867619,2017-01-22 19:50:08,Igor Klopov,3.0.0-beta.25,False
+f8dbf4c804e203155901a0c573c315d282963ed1,2017-01-22 19:49:22,Igor Klopov,fixed test for bson@1.0.0,False
+48132ed0659a9b97878dd94d7b6daf4b60424840,2017-01-22 19:37:26,Igor Klopov,fixed test for socket.io-client@1.7.0,False
+3e3424467a4f2fffea4dd2fb60e72720cee8ceca,2017-01-21 23:25:26,Igor Klopov,fixes for shelljs@0.7.6,False
+4ad682f68840f5277cd59c61455050b7ffdd878b,2017-01-21 21:37:28,Igor Klopov,npm outdated,False
+556d51f5c04d499ee38183d9a2e3c2ee1a0c2895,2017-01-21 21:35:05,Igor Klopov,hint about alpine in help.js,False
+414f5eb6587dca88deb6062cf8bfdc7c86b2b1cf,2017-01-21 21:29:50,Igor Klopov,pkg-fetch 1.8.5,False
+ed018d7ff37e554f729f8ebd49e2172a67819a19,2017-01-20 19:36:16,Igor Klopov,useful link. cant help but saving,False
+36534d388a78ef57c39a4c4e456a5273561eefbf,2017-01-15 22:11:58,Igor Klopov,more es6 to walker.js,False
+1f6dc347a118f2822bb2bc77e30f20d148fd1c1e,2016-12-19 20:08:46,Leo Lamprecht,chore(package): update acorn to version 4.0.4 (#26),False
+fb4b2de643de3c29e5a3c4a95a0347a06fa88e76,2016-12-15 13:55:53,Igor Klopov,3.0.0-beta.23,False
+221f8d5fabb7468c85f375e70a59b1cd12b836d2,2016-12-15 13:53:44,Igor Klopov,move README to lib to hide from `npm publish`,False
+590de8cd9a05e514962e280d9d54e7398f869a2c,2016-12-12 00:30:45,老外,chore(package): update babel-runtime to version 6.20.0 (#25),False
+14a2fcdf943a475678c45a654888a88069b327b3,2016-12-09 18:16:16,Igor Klopov,3.0.0-beta.22,False
+031410d6a732fee153119ba5166fca2c646c9975,2016-12-09 18:04:54,Igor Klopov,fix `publicsuffixlist` package defect,False
+036330d88e625eaaa071894b63b2dcb7140a7d80,2016-12-09 17:50:19,Igor Klopov,be able to override dependden,False
+36239f4f377b61e4a754859c51b3aefbad2fee78,2016-12-09 16:12:02,Igor Klopov,dont ignore yarn.lock,False
+29476fb1e23b76970ac2a59c9bf05ee42ccccdf2,2016-12-09 15:55:41,Igor Klopov,debug messages to help trace where is package required,False
+76eb48f804d5d5cbca1fe1cf1a5987c851add136,2016-11-23 16:56:44,Leo Lamprecht,chore(package): update babel-eslint to version 7.1.1 (#24),False
+5179a6f4e64e85e0b3c437dfdc5c6f60951e2773,2016-11-17 15:49:57,Igor Klopov,ignore yarn.lock file,False
+651fda928d5878ab81f7c1e5d4e5512714972a63,2016-11-17 12:13:40,Igor Klopov,3.0.0-beta.21,False
+7f8a281ab75eaa7ba196f5d2079a6dbfd8fb8a61,2016-11-15 22:20:58,Leo Lamprecht,chore(package): update babel-runtime to version 6.18.0 (#17),False
+283f158079111f4be097aa61ac31a00c40d5e3cf,2016-11-15 22:18:57,Leo Lamprecht,chore(package): update babel-register to version 6.18.0 (#16),False
+96a86cf5e5673211564ed501304b6902ac13e785,2016-11-15 22:18:47,Leo Lamprecht,chore(package): update babel-cli to version 6.18.0 (#14),False
+aadc6067aa2c4dc35316a6088cc2eb6a1235b5c8,2016-11-15 22:18:26,Leo Lamprecht,chore(package): update babel-eslint to version 7.1.0 (#18),False
+32e0c1b780320826afb6cf9493b1e4b1fa40adef,2016-11-15 22:18:16,Leo Lamprecht,chore(package): update globby to version 6.1.0 (#19),False
+0bdedb6b49d793ec220247a29dc710d2af1b6da2,2016-11-15 21:48:28,Igor Klopov,1.8.2,False
+4488540f79514bc805299ce4b222b9b9d8dcca5b,2016-11-15 21:28:30,Leo Lamprecht,chore(package): update fs-promise to version 1.0.0 (#20),False
+79cf1965b581657f2a4a55cd02672af311bf4c66,2016-11-14 23:50:05,Igor Klopov,pkg-fetch 1.8.1,False
+19642b5f882d16c4c3ae11e2b2ed251b77477233,2016-11-14 19:24:50,Igor Klopov,parse async/await and test --harmony-async-await bakery,False
+a06f6dd62db7d200bc5158c44163795d65733e27,2016-11-14 19:13:55,Igor Klopov,adapt fs-runtime-layer-2 to node 7,False
+1c25ddf9c5bb52762bf6fa2639a1731b505a9ffb,2016-11-14 15:55:27,Igor Klopov,pkg-fetch 1.8.0,False
+5a8a05accec9279b7fca480d08e8d1c856f45e83,2016-10-25 18:19:25,Leo Lamprecht,chore(package): update babel-preset-es2015 to version 6.18.0 (#15),False
+71b36cc223103bd482bef683eecedaa7a6e32420,2016-10-15 20:54:06,igor,3.0.0-beta.20,False
+e788f148dcbb98e8568aae8ed7175bbbbf045988,2016-10-15 12:34:24,Igor Klopov,fix for cross-env package,False
+c586a0183ff57d5800941e6c4b4e7d9fb6307c2d,2016-10-11 11:36:26,igorklopov,pkg-fetch 1.7.4,False
+77683be1f2a7f50658ebce79a90d8b34a2a03818,2016-10-10 23:22:10,Igor Klopov,testing armv7-to-armv6 crosscompilation,False
+2f37814690b5ab72105128ed39e9929073c3064f,2016-10-07 23:27:41,Igor Klopov,3.0.0-beta.19,False
+822cf0f83a1c746a54ed7189eb2c00eedb2012f4,2016-10-07 23:27:28,Igor Klopov,add stub dicts,False
+5dc5db477d0cfb9b5cea6eb57c8ea0a6734af3c3,2016-10-07 23:06:31,Igor Klopov,support multi-digit node major versions,False
+fe9f9262af4edc298ae50b8aade08c2b17f609ea,2016-10-07 22:27:48,Igor Klopov,improved and clarified `express-with-jade` example,False
+eb02da17c355c22cd47911d00c65bd3e4f00228c,2016-10-07 22:15:51,Igor Klopov,add tests for `s3` and `natives`,False
+aa87d7590b13518585091bb934ff87e32a6145ad,2016-10-07 21:53:58,Igor Klopov,"fix tests for: machinepack-urls, require_optional, socket.io",False
+968b1c350b8a21a7a769f22d984a663b2eb597e4,2016-10-07 21:26:21,Igor Klopov,readme: native addons,False
+faf9887cf0b641d617db0bec8d2dd4e8733b70fe,2016-10-07 21:21:01,Igor Klopov,reverted publishing from travis. maybe next time,False
+5c3a7614ab4ab2faebbf950f0a64b56c947088de,2016-10-07 21:05:19,Igor Klopov,publish only from master branch. otherwise manually,False
+def34b25dbe8f96ceddb2135ef3fde8714775701,2016-10-07 20:20:14,Igor Klopov,3.0.0-beta.18,False
+7dc51575f2933ad897fdd451fb8c7f7cb575ac87,2016-10-07 20:20:01,Igor Klopov,forgot to make npmrc,False
+72ce44785db25eeeab9573fdfe5bd8ba893f1871,2016-10-07 20:16:01,Igor Klopov,3.0.0-beta.17,False
+3e9df88385e8bea1b9ffc54d5dfc653e4a1a93e3,2016-10-07 20:15:32,Igor Klopov,using travis to publish to npm,False
+59e9930485a479458fdd5f92e8a092875b680011,2016-10-07 19:07:25,Igor Klopov,3.0.0-beta.16,False
+ab22554a03b70cd87bd1a5029ce0df3968aec273,2016-10-07 19:07:15,Igor Klopov,trying to fix a bug when `lib-es5` dir is removed from `npm i pkg -g`,False
+b625f9b54ec87bbf63f43351a2997813007e8f2b,2016-10-07 16:59:39,Igor Klopov,new tests: for baking harmony into node 7 + any-promise,False
+786dd6ca252f066fc5a7ba8bc601c178abd07499,2016-10-07 13:22:28,igorklopov,handle the case when package.json has no 'name' property,False
+c96bab19304d36cd853decc9686364f46ce267b3,2016-10-07 12:27:57,igorklopov,push 'pkg-fetch' to greenkeeper.ignore,False
+55c36611ea0a5746fb0d536099bbffc7edcb513b,2016-10-07 10:03:32,igorklopov,minor wording,False
+0ee71a48f54f17d593f81e84320274b6391debc6,2016-10-06 22:04:50,igorklopov,readme: node -> Node.js,False
+19825e650e5e1cbb171edf9c8bdd22f06eac1db2,2016-10-06 21:59:40,igorklopov,"readme: options, output, debug, build",False
+4ab30bc50afce97499907d4b309254ed46edf592,2016-10-06 21:06:30,igorklopov,readme: finished vfs,False
+6f8957f8cdfcfe1c473bf7408c1847de447e0856,2016-10-06 20:33:35,igorklopov,readme: comments to table,False
+52ead204571ad8f61a3d67600da87cfd3336ccc4,2016-10-06 20:28:36,igorklopov,readme: finished comparison table,False
+810c15913aa219d9c44094bc3cc33b7b37538b3c,2016-10-06 19:59:18,igorklopov,test-42-path-related-values,False
+19401585f1b75da58cc94023dc3f1f85fc844d79,2016-10-06 18:55:24,igorklopov,wording fixes,False
+1e218bd83caa4edf7c67e5f84a1433ca92280d02,2016-10-06 18:44:45,igorklopov,"readme: scripts, assets and the beginning of vfs",False
+92068a9daf3f7e597136731578490846df630c5e,2016-10-06 16:49:36,igorklopov,3.0.0-beta.15,False
+e824e6c1ede3564487537fd092961ab1a8848375,2016-10-06 16:49:27,igorklopov,remove obsolete `pkgConfig` entry of package.json,False
+2e46e84b021597d7964b34d95a3f9204ba8c78a4,2016-10-06 16:30:43,igorklopov,minor wording,False
+52ab6094c5c9257131a898d0a271c77f352ab3dc,2016-10-06 15:34:06,igorklopov,pkg-fetch 1.7.2,False
+c180bffa06d3124422bcec5f746c9c214c878fce,2016-10-06 13:33:44,igorklopov,"readme: install, targets",False
+0d66a7c05675bc526c63881a78fc0fb8d14c19c9,2016-10-05 23:02:59,Igor Klopov,pkg-fetch 1.7.1,False
+0fab41c3b3d55c9381c9cf4d8eadb70c773a1893,2016-10-04 23:10:30,Igor Klopov,test for symlinks,False
+70e8f9e12c28b8d99a7c1fbd4fb32e602699d41f,2016-10-04 22:54:08,Igor Klopov,minor fixes for tests,False
+1f36a177e77f97be3b2d1ce83b22ed2859df0872,2016-10-04 19:59:27,igorklopov,unusual case with non-ascii path,False
+5b6e5eb10117b7dc4db12397490d59dc4404d777,2016-10-04 18:48:05,igorklopov,3.0.0-beta.14,False
+975cabfd9b176c77417990a13f88ad4c20c16cce,2016-10-04 18:47:51,igorklopov,pkg-fetch 1.6.1,False
+e2df487ad10f2533f1ad82ede7a751b2686b1e20,2016-10-04 17:50:17,igorklopov,3.0.0-beta.12,False
+5ef9665296e838252d718ff51d1ed75ac164ea0d,2016-10-04 17:49:59,igorklopov,temporary fix,False
+089d622c2fd93a2a5567b7821de4ff90cdc1752f,2016-10-03 22:09:50,igorklopov,3.0.0-beta.11,False
+780d49d070732576b2a5eac8c9312272c1c2fcd3,2016-10-03 22:09:17,igorklopov,multi-arch-2 to test how foreign arch binary is actually made,False
+88b91aa531bfcb6eb19a2a74bbc7faf8c49c2382,2016-10-03 21:54:42,igorklopov,new test: cross-arch linux-x64 linux-armv7,False
+e58daa3a764342c857f34836c97d489c2124957e,2016-10-03 21:17:36,igorklopov,we are still able to do cross-arch on most win and macos systems,False
+42b19b3e8d65454d26d424763777a2d77e1afcf3,2016-10-03 21:02:39,igorklopov,fix for `ia32`,False
+c5725f85915e7946e7c22511016c66642df81020,2016-10-03 20:17:54,igorklopov,clarified some TODOs,False
+7a3725da4eb49b34d1e1f34e61e05cc30c872f73,2016-10-03 20:06:34,igorklopov,relint. step 3. camelcase fixes,False
+5bc85337694896f7e95bb21438f12f60f20bdbea,2016-10-03 19:24:21,igorklopov,relint. step 2. non-camelcase fixes,False
+55eda3d02e68a9d4607ff477f6f4241c3f65e7cf,2016-10-03 18:16:23,igorklopov,relint. step 1,False
+f6936f420c2dbe0b1baccd0ffdaefe8ec2c91663,2016-10-03 17:14:03,igorklopov,simplify prepublish script,False
+eec2c44b66aed983c6257473398dbf255ae20185,2016-10-03 17:00:47,igorklopov,throw when trying to make cross-arch compilation,False
+fb59dd932c09c6c179e7fb1db95bbe7c49d96960,2016-10-03 16:10:02,igorklopov,"should damage before padding, at least `boundary` bytes before end",False
+31124597029218a916c54b8d152185ca4864ae0b,2016-10-03 15:36:06,igorklopov,seems geoip-lite is ok in travis and in droplets. now arm is the aim,False
+98a338e8edac0ea56ab56ce042d20884f2fe19b6,2016-10-03 15:31:26,igorklopov,checking cachedDataProduced in `producer.js`,False
+e2fcf389c3b9bc6cbae3f57115a5a308837a9e4c,2016-10-03 15:21:38,igorklopov,reject code with syntax errors etc,False
+17f72efa8b50d2885197a0d5c645a662b3861c32,2016-10-03 13:38:26,igorklopov,bake %PKG_VERSION% into bootstrap to provide `process.versions.pkg`,False
+f1097b9545d471f564a11b6e83f16ecfb6d6f0de,2016-10-03 13:18:28,igorklopov,improvements to `test-77-compare-dicts-and-tests`,False
+a11ea3c6d4b2a64846d59bd675277a1698fe9c56,2016-10-03 13:13:13,igorklopov,restored `test-50-nonexistent`,False
+1ac7bf8c083892f1b1063fcec80427f1d47922c0,2016-10-03 12:55:52,igorklopov,"dont run prepublish script when `npm i`
+https://github.com/npm/npm/issues/10074",False
+c692acc46aaa631120bfcacf75357bc5694f487b,2016-10-03 11:33:15,igorklopov,"path-related fns must not modify in unusual cases, just passthough",False
+089557af6708421936ab6449a96dece972d5715e,2016-10-03 11:03:06,igorklopov,dont fetch all in prepublish. lets fetch all only in CI,False
+f4806b039a987d3eb789695679c920a1f29ca47a,2016-10-03 00:51:10,Igor Klopov,pkg-fetch 1.5.1,False
+c4f02c7748a9dd40bb26994d8df5c8a474e9c382,2016-10-03 00:48:59,Igor Klopov,make use of `dontBuild` exposed from `pkg-fetch`,False
+0b32804a00cce3678479f1757e7ec76a47c03d11,2016-09-30 18:01:19,Igor Klopov,"Merge pull request #9 from zeit/greenkeeper-pkg-fetch-1.5.0
+
+Update pkg-fetch to version 1.5.0 🚀",True
+8bdd785fda97fec99e5a08bfd25fa6c514e897cb,2016-09-30 17:40:56,greenkeeperio-bot,chore(package): update pkg-fetch to version 1.5.0,False
+d1cbfe364304aa9513105ed82564821a895dbba3,2016-09-30 17:17:59,Igor Klopov,"Merge pull request #8 from zeit/greenkeeper-eslint-config-klopov-0.11.0
+
+Update eslint-config-klopov to version 0.11.0 🚀",True
+c7f36be5d89d868c008aa32ea8e7e22739d9dc79,2016-09-30 16:46:24,greenkeeperio-bot,chore(package): update eslint-config-klopov to version 0.11.0,False
+f11bb4bd26928730e6f9d71197368ab21fa40a43,2016-09-29 23:06:05,Igor Klopov,added greenkeeper entry to package.json,False
+6b821ab8d21547db196da1f276119235a5e15d2e,2016-09-29 23:05:37,Igor Klopov,update eslint-config-klopov + according linting fixes,False
+e6cfbf7d9a7671e76652f041ecca3a84033a7409,2016-09-29 23:02:04,greenkeeperio-bot,chore(package): update dependencies,False
+63bf569938f565d899f0ac625c13c4075c0db207,2016-09-29 22:05:30,Igor Klopov,"Merge pull request #6 from zeit/greenkeeper-babel-register-6.16.3
+
+Update babel-register to version 6.16.3 🚀",True
+f3930c9741e2a24d671332b61f1130c6269bbe5a,2016-09-29 21:24:37,greenkeeperio-bot,chore(package): update babel-register to version 6.16.3,False
+04f6b88fb36583e57149043f773ac1f5df043b20,2016-09-29 15:42:23,igorklopov,add help entry about --options + minor wording,False
+534a363167ea41e6576d730429234830014327e7,2016-09-29 15:28:13,igorklopov,test-50-signature overwrite to keep executable bit,False
+92465c40d03ab399a87c713f0b57a65480db383c,2016-09-29 15:11:24,igorklopov,npm outdated,False
+6a7601b7b7f5c58ad56ba44f21410ac1832e8881,2016-09-29 13:05:10,igorklopov,test for package.json.pkg and minor fixes,False
+b630fa5494611c230054a787cfb8a6bb0b371c28,2016-09-29 12:24:06,igorklopov,package.json.pkgConfig -> pkg,False
+9a0ea66b126d3aa41fd1b178d8ae12437766e13e,2016-09-29 12:15:44,igorklopov,test-50-signature,False
+dc3abad5cb8e70788f957f2cb915e8d0cfef3ea2,2016-09-29 12:13:15,igorklopov,revert test-46-* back to 'latest',False
+a54021f906d5555b85b66c5d6b61603f9d410218,2016-09-29 11:38:08,igorklopov,trying to enable npm mongoose tests,False
+58155dc6b6cd13544305ff47658a8e3ce98b704e,2016-09-29 11:37:44,igorklopov,dont use latest. pin to node 6,False
+0031ac513d3b6b4e138bfa169238f419f75cef1e,2016-09-27 23:30:22,Igor Klopov,new boundary according to pkg-fetch 1.4.x,False
+71f9eb79c1b6d518d8d542af13d5bfda942bb97d,2016-09-26 17:33:41,Igor Klopov,3.0.0-beta.10,False
+119bb3a92fc99ce92d753de5b03266678eff059b,2016-09-26 16:34:34,Igor Klopov,include node7 to tests,False
+4cc6f12b2ee3588c28a5d442926e5f780cdc5b04,2016-09-26 15:38:25,Igor Klopov,3.0.0-beta.9,False
+b1d0da80d81c750e6c98c00c2ec20972874bce92,2016-09-26 15:14:09,Igor Klopov,separate `changes` from text above,False
+c716566610d28becdaecadccc61f4e2f37cd2d0c,2016-09-26 14:23:13,Igor Klopov,pkg-fetch 1.2.1,False
+c9c7c5be393f52b27712ec4b2de8cc60ad9139ba,2016-09-26 14:02:10,Igor Klopov,`latest` is not really useful. introducing target named `host`,False
+118e3572bee3657c9490ef8640b5e8feb20786a2,2016-09-26 13:39:39,Igor Klopov,fix node7's `Buffer without new` deprecation warning,False
+f282c7b3656a8a854cf5497b6fb88b6d4bd22507,2016-09-22 23:20:01,Igor Klopov,pkg-fetch 1.2.0 + tests for new bakery/runtime solution,False
+548aee305845815768624ee8fa52db3f5d0a7f33,2016-09-22 22:13:11,Igor Klopov,show changes to checklist in travis log,False
+1eba90119fb538ca41aa16633d29cbf82928d34a,2016-09-22 17:26:24,Igor Klopov,file not needed,False
+431f7396cc40e142158c548451b152c90accc624,2016-09-22 17:15:43,Igor Klopov,lint fix to pas travis,False
+7f110938fb342dd2cd853c0a7ef01a5900465c51,2016-09-22 17:10:43,Igor Klopov,added --options to help,False
+b248b1380dd35eb0a9a724891b6f8df645c882e9,2016-09-22 17:04:34,Igor Klopov,tests for baking v8 options,False
+0c0ba2f3a02e17ba08175860dd9dc2773159d341,2016-09-22 16:26:44,Igor Klopov,runtime -> prelude. too many `runtime` term meanings,False
+f15b01f9c355a9447335a5aa1f8aa56530ca9aed,2016-09-22 16:22:05,Igor Klopov,pkg-fetch 1.1.0,False
+8b70434a165c7629ade39f41586ed542e88f3149,2016-09-22 10:55:10,Igor Klopov,fixed premature resolution when rejection followed,False
+9c74d84ada30d7b53fb940410717114faf7ec717,2016-09-20 04:21:17,Igor Klopov,baking v8 options in executable,False
+5a18d7300ae1c33c0ef91907460840bc282d1f18,2016-09-20 04:05:39,Igor Klopov,parseTarget -> parseTargets,False
+05b46aafbfefb3254259a634872b587d50767ca9,2016-09-20 04:04:26,Igor Klopov,prologue -> sentinel,False
+e4e892c387b55d742edb0a4da2564247e26d0f9c,2016-09-18 17:43:47,Igor Klopov,3.0.0-beta.8,False
+5544ed30ddc154e1707859bd8f95de9303ed3707,2016-09-18 16:10:00,Igor Klopov,test node0 and node4 in travis along with node6,False
+7f273b62fde23a44111ad6391b8f438e768d6545,2016-09-18 15:06:41,Igor Klopov,`var` instead of `const` - this code is shared among all node vers,False
+866be1b7f78aaaa3846fd987e40452bb2d1d3ca6,2016-09-18 14:28:07,Igor Klopov,3.0.0-beta.7,False
+a9e7ddaa935ae4cb5be7ff251befa461f1b79520,2016-09-13 16:35:31,igorklopov,`libavahi-compat-libdnssd-dev` is not whitelisted. workaround,False
+98cb28a92d64e1123e33fd5fa02f57bf72094eb5,2016-09-13 15:53:24,igorklopov,npm run prepublish,False
+301b3efedd4761a012b9bb8ca6bda322b5b79151,2016-09-13 13:48:08,igorklopov,added `libavahi-compat-libdnssd-dev` to run `mdns` based tests,False
+8495a26ab5ba3da735f5e3b5da4bcfa073c75d6f,2016-09-13 11:24:45,igorklopov,trying to switch to gcc 4.8 to compile node addons properly,False
+475b0f14d56e7ad56c70bdae9931c1832bfaea04,2016-09-12 22:08:14,igorklopov,minor improvements + troubleshooting travis,False
+b193ebff35f5e782089b79071b140330ffa27f12,2016-09-12 18:59:43,igorklopov,"first check all, then erase all. to simplify troubleshooting",False
+cd9447b60c221b01659c30f3db1eb3a5f9183bb5,2016-09-12 18:41:34,igorklopov,fix for test-46-outdir-target,False
+52ee60ae79bc256c51240d77a7c3656ecc7342a2,2016-09-12 14:56:38,igorklopov,sychronize with pkg-fetch,False
+79fb5045238ec2f8cba50d20a926c5369607a641,2016-09-12 13:39:22,igorklopov,new producer based on multistream :tada:,False
+3b409236bb4b3f14474724ba0d9cdf6292196200,2016-09-12 03:52:38,igor,spawn.js + making use of new pkg-fetch approach [wip],False
+cc295d647bc271ea925acfb4582b0a24e02b138b,2016-09-09 20:16:06,Igor Klopov,"move ""undoPatch"" routine to pkg_bootstrap",False
+0a1df63e627c0b5cd4434ef2dccda9fbf8cdaff2,2016-09-07 14:39:34,Leo Lamprecht,Test on travis,False
+96dcfa184876005724bde41411d490b30758d3e9,2016-09-07 14:38:13,Leo Lamprecht,Build badge added,False
+c290180d5cfd2e9885d40d6ef06c2152c609d98a,2016-09-07 14:36:28,Leo Lamprecht,Replace OSX with macOS,False
+25cdfea9ee1ad93038cfd803e15c99d45527a0cf,2016-09-07 14:34:29,Leo Lamprecht,Comments for ignored stuff,False
+0aeae1f044e87fea0d984b6996b0cd8d9a254a9e,2016-09-07 14:34:02,Leo Lamprecht,Use files property instead of excluding,False
+65cf88d3c9511eac76092a85f402962cf8bf17dc,2016-09-07 00:32:34,igor,3.0.0-beta.6,False
+c8e6a62f2c3313abbf27204cced8bd43aae86333,2016-09-07 00:32:19,igor,tests for '--out-dir',False
+bb385cc440a63d0c10be3986d6f5dffebd067df9,2016-09-07 00:21:18,igor,added `out-dir` and examples to help.js,False
+a20d6bed4f7233e722e4f3ba0d4101063c9e3f92,2016-09-06 23:55:17,igor,--out-dir,False
+3b80dcc7d605408c7a0ba47375ca619aeeeb07ce,2016-09-06 22:01:52,igorklopov,3.0.0-beta.5,False
+34d40c64826a3eb69116ccc0fc880dfb713f8043,2016-09-06 21:58:11,igorklopov,simplifty output names: output-node6-linux-x64 -> output-linux,False
+8b970b0cee4888dbad725f093eada640addfc78f,2016-09-06 20:26:37,igorklopov,lint,False
+7e29ee0f414e4148d0dd5ce9e1e3fec61f07db6d,2016-09-06 20:23:14,igorklopov,verify if input is going to be overwritten by output,False
+68fff0897364fb6476c82bfed9db3d9399af6ec6,2016-09-06 19:54:11,igorklopov,'.exe' extension is expected for autoOutput for win targets only,False
+f702b1a6491bf4b318423d9e5957914d7af96e75,2016-09-06 19:14:17,igorklopov,fixed a bug that caused `.js.exe`,False
+17863bab5ce502cd506edb0de301a455a9c904d0,2016-09-06 17:58:48,igorklopov,enable x86 in test-fetch-all since osx is ok in gh releases,False
+8d4e0dcff0c6e267e3eca76cf7a661b3f1c486a3,2016-09-06 17:08:59,igorklopov,even more tests,False
+7248244b14172c921068c45e17ad8b45790d81ba,2016-09-06 16:50:22,igorklopov,latest -> current + more cli tests,False
+06894d333b8424c0419c2137991a809e4c721841,2016-09-06 15:56:54,igorklopov,tests 46-input and 46-input-js,False
+c156c7207766591f4a7a341a1c48da27e607f3bd,2016-09-06 14:17:20,igorklopov,minor improvements,False
+4e389bd7e89ca06ebbb33c3fff18c0e9a728297d,2016-09-06 02:14:29,igor,will substitute with particular node version (node6),False
+730616777ebae7470962a22ee6ea1a696b9cfb77,2016-09-06 02:13:20,igor,just copy for now,False
+389ce86c4e0a56f6e6cdae602e92375a6fd8b482,2016-09-06 02:12:52,igor,let it be second,False
+088cb77b8c4b45d62dc9c660212b5154a8bba4d1,2016-09-06 02:07:30,igor,tests should start with `fetch-all` to pre-download base binaries,False
+bed69c43507b1ee087500dfa8fa30f60396f9e03,2016-09-06 02:05:49,igor,we can include osx since we have all nodeRanges and archs for it,False
+5d87c8ec98bbcaa1aded68b7396c9f80d49dca7b,2016-09-06 01:10:46,igor,bump pkg-fetch to 0.1.6,False
+777e713cd869d1e86d8551bbdaeba7af812225eb,2016-09-06 00:55:46,igor,removed targets synchronously,False
+b2996edd2e4f0b60e5f8ae1b7e0d0454e2017928,2016-09-05 23:05:25,igor,just copy for now,False
+ebbced79ae28cc9d880523193a5baaf9a939eaf7,2016-09-05 22:59:30,igor,input-output-target js/exe combinations,False
+3bcee5e15083fb76f57043637406f588df83223c,2016-09-05 21:48:16,igor,"check before list, after list and newcomers",False
+1fc0c1739dac70ea515a6075b27508b5f22606bf,2016-09-05 18:44:35,igor,first cli test,False
+9ed7173139b3375537388dad99c6212e41fd44ac,2016-09-05 18:41:54,igor,flaky test - failed on slow vm,False
+c8d010a27b27bfbfd4874be29064e302b605bc57,2016-09-05 10:35:07,Igor Klopov,share log.js with pkg-fetch,False
+dffb72413277b7ab21e78a76a6f8402c09553d2b,2016-09-05 02:29:39,igor,"since we use `console.log` here, switch the stream to process.stderr",False
+bdd253fab5e26934c8fc68e9ae4b6af06e6021ff,2016-09-04 13:00:42,igor,fixed tests to run with both 'v6' and 'node6' + bump pkg-fetch,False
+00c2a8bde606dc71901fb7fa192d68976f82525d,2016-09-01 19:20:01,igorklopov,one more fix for progress bar,False
+a590626f12fe092a8ac5614d9d5aeea556c58d8b,2016-09-01 18:28:02,igorklopov,cache of target binary names to avoid calling 'need' twice,False
+f9af641737d5babfe68a98d69fb3d8a474a2fd89,2016-09-01 16:57:13,igorklopov,fix for `forceBuild`,False
+1880706bacd8fa9f55b9bcdfccc5e5a68433bfbc,2016-09-01 16:50:59,igorklopov,update v6->node6 + default target is latest,False
+9a8ede31021792f311e8c28a1b9c44123346762d,2016-09-01 15:57:05,igorklopov,light tests should come first,False
+0121b75bf8b01a0c3e8ad2d956595867d06b5807,2016-09-01 15:56:06,igorklopov,pass `build` argument as `forceBuild` to pkg-fetch,False
+a2394ef52d6d6d6a7c9f1f83dc922e65fa1c16cd,2016-09-01 13:37:55,igorklopov,modify according to pkg-fetch #4,False
+d2e71e26222dad32cecd3a2d396390d46ce23f2f,2016-09-01 12:22:02,igorklopov,fixes to `log` ported from pkg-fetch,False
+6caffa90f9894f52c8c072588dd358ccb03dceea,2016-08-31 22:30:15,igor,adjust tests to new ui,False
+10d23e4fd65375ce97a29b87360ab64e5a2e580b,2016-08-31 21:55:38,igor,--help,False
+113b1067187f2e5ef5190673a4125ed32004befb,2016-08-31 21:38:06,igor,make use of log.wasReported,False
+29fdd63a5b0b8fe61b08a6ae1ececbe24673f765,2016-08-31 20:13:18,igorklopov,avoid passing arrays to log,False
+eed4868acd22d879343090e1134f7a71fb02ee59,2016-08-31 20:09:44,igorklopov,switch all other files from reporter.js to log.js,False
+111f10513442767648d7359eb2639a37736b56d7,2016-08-31 19:26:06,igorklopov,switch walker from reporter.js to log.js,False
+c4fe9f018dddf1ac29cb4ab162c0e980be4096fe,2016-08-31 18:51:27,igorklopov,solution against babel-runtime-like main-less packages,False
+9e52bbf179727abb364763e0aacc3c7fbbac5735,2016-08-31 17:35:54,igorklopov,... fix them for linux,False
+cd4e3c25e053878d8e363ea9508ba4af54ba7eed,2016-08-31 17:30:19,igorklopov,fixed some `insideTheBox` edge cases,False
+c057bd6943a6204c060c9ef0b07f6c6af7763890,2016-08-31 16:52:31,igorklopov,restored visitor_NONLITERAL and visitor_MALFORMED + tests,False
+bac4f7948bd2ee267cbe096ed463a87660af6129,2016-08-31 14:12:44,igorklopov,improvements to `log`,False
+9d4d34a1170d1e9b8a5bff19c0e6879ceed39c84,2016-08-31 11:31:35,igorklopov,update linting,False
+319069fb3b88be668310042c852bc4c70ba40ea6,2016-08-31 02:31:02,igorklopov,fix dictionary directory,False
+7e879d069577c80546bf357f9052fa22ce675139,2016-08-31 02:18:29,Igor Klopov,forgot shebang to make cli work,False
+e354fc5e3516290e4c1c623458782a18d20828e9,2016-08-31 01:33:53,igor,update `npmignore` and `pkg-fetch`,False
+f505ad476d10f3b1c93a928baf0f2bbe23a1ed51,2016-08-30 23:54:48,Guillermo Rauch,no desc for now,False
+6c460db1f248abfa5764d790fb894066f379051b,2016-08-30 23:54:27,Guillermo Rauch,remove '^',False
+61cc3e507887d15248451d8e91aae643435e8c5b,2016-08-30 21:50:31,igorklopov,+ important TODO,False
+a888eb0c983e5a6f1103a7e6f4c7e4de327ed969,2016-08-30 21:14:34,igorklopov,"take output path from input, but basename from inputJson.name/inputFin",False
+00adbed717d227e8c656490433ac467208af8a9e,2016-08-30 20:45:41,igorklopov,unresolved glitches sometimes have a simple solution,False
+7394c56451cf4dde899d76612baf7d7fe94763d1,2016-08-30 20:40:42,igorklopov,fix in case { stdio: 'inherit' } is passed,False
+0151faf9700f83671f02a3dff95def3f81afee75,2016-08-30 20:25:28,igorklopov,test for non-top-level `files`,False
+98c0aabde7fa834face06f91dab24ec99e2defae,2016-08-30 20:04:10,igorklopov,pure javascript `files` of top-level package are passed as STORE_CODE,False
+6059845d5a11bdb161349c44d389510913e59891,2016-08-30 19:00:25,igorklopov,take default output name from input name,False
+a3e9409a4154817de749f4c63acf091aa0421145,2016-08-30 18:24:13,igorklopov,`Could not resolve` is not a showstopper anymore,False
+75caac2f5dcd767729dedbc33d288c150e1338b2,2016-08-30 16:52:28,igorklopov,problems should at least go to `info` loglevel instead of suppressing,False
+40288e3eb4cfca56585bff5d6ed2efdd25e8d098,2016-08-30 16:21:25,igorklopov,temporarily exclude `diskpart`,False
+ba38d36e7c1bc5cbf2161dcbc2200e3632eb82f4,2016-08-30 16:19:14,igorklopov,`ignore` is more broad term than needed,False
+92c6fcf45cd91380c2986275359fcdc32d4b96f0,2016-08-30 14:15:11,igorklopov,fixes for `exceljs` and `etcher`,False
+1f103a8667c272e51f8b916fa0b84af1561294cd,2016-08-30 12:38:16,igorklopov,temporarily removed examples,False
+9c0580896bca2314bb715aa7560ed1e34ca181ef,2016-08-29 22:21:16,igorklopov,rebrand to `process.pkg` and `process.versions.pkg`,False
+69bf5e1bb52b3bfc493b93919fcf6688a7174a7d,2016-08-29 21:31:55,igorklopov,dictionary (hopefully temporary) for `voc`,False
+1534efbf1c661882e93ffc6a946878b7aba6da1b,2016-08-29 21:11:43,igorklopov,`macmount` is the same,False
+90d6ed4ac5aeecccbdf3bbd8bbd43e5494212b0b,2016-08-29 21:06:00,igorklopov,`fsevents` are optional and deps lookup fails on non osx machine,False
+1703a35f83325e49c87dd76e1c1bc47a10f9302a,2016-08-29 20:46:35,igorklopov,revert `files` as scripts. bad idea,False
+156d1cf6af4972c97d7326f5b1d5ef37c302cc41,2016-08-29 20:34:18,igorklopov,clarify isDotJS,False
+8deb3ef5cc6a49cb8ae1ac422c114db6595c92ff,2016-08-29 19:08:33,igorklopov,add 'system' to natives list - with example of usage,False
+504edc14b054d98e38cd74395d935f562e7aca24,2016-08-29 18:27:41,igorklopov,decide if `files` are scripts or assets + test,False
+184bde522c1075d8053dee230649751bcadd8df8,2016-08-29 17:35:29,igorklopov,fixes due to removal of patch `minimatch`,False
+d2122059ecc1ed259eb6980edbed4f90f0a1da6f,2016-08-29 16:33:20,igorklopov,finished `activate` + tests,False
+2b0aba14cfdb5b908d999a387a30fa60cc8735dd,2016-08-29 01:33:32,igor,newPackage + minor renames,False
+21102da0b3e93dc2bfbe324c6a4e67b2f5c6e75b,2016-08-29 00:40:49,igor,patches are pre-calculated and stored globally,False
+b6cb1762b4d0330931ceb05142c8f5d20ee4f0ea,2016-08-29 00:04:55,igor,minor cleanup,False
+d1a0651c98e75cb74e248aab4b26d665329a5e3c,2016-08-28 21:38:16,igor,dependencies in `package.json` are detected,False
+dcbdf8aec1c76ddcdf9b0aa277f46283e166e102,2016-08-28 20:05:17,igor,use `-c package.json` along with old-style config,False
+266d2bd300d9e311114db292c53352a02047c478,2016-08-28 19:23:32,igor,cleanup natives + finished es7 in walker,False
+a47dd21b534605fbe23ad7a0ff71cbd5016ab47c,2016-08-28 18:23:42,igor,read dictionaries only once,False
+4c7577fb8d6b0c720f2fb7b386e850df50c784ee,2016-08-28 17:56:31,igor,calculate `permissive` only once,False
+379aa0269069067414f136036fcedff3ae561be3,2016-08-28 17:27:12,igor,enabled and improved linting,False
+4d0b381cc7342b1a5eefd0b8cf21fc6da5b10ca4,2016-08-28 13:19:23,igor,promisified `follow`,False
+97431de3deefb3998318191d0e295b47a4ed53b4,2016-08-28 12:46:47,igor,update walker to es7 - step3 [wip],False
+d006bac68597498e0d9663a3aca7ab956c401133,2016-08-28 10:45:58,igor,activate tuple's config even if no dictionary,False
+93cedc44df1e4076781ae6cc9029a88d44962de3,2016-08-28 10:41:45,igor,derivatives will be extracted from `package.json` deps as well,False
+999baed6b42f1bc9243cd6b55d224f68cd34acb0,2016-08-27 23:20:59,Igor Klopov,update walker to es7 - step2 [wip],False
+8a1593f13dcf862358591788dd6f005b4bf6912f,2016-08-27 23:09:26,Igor Klopov,update walker to es7 - step1 [wip],False
+c1ec6408e5cfe52073f0bda257aea505d0348b34,2016-08-27 22:23:14,Igor Klopov,move `stepDerivatives_ALIAS_AS_RESOLVABLE` to `followAlias`,False
+ce70adf2ad78658f21fc26c635b5249eaab4239a,2016-08-27 22:17:17,Igor Klopov,`file` term will be used later,False
+d5823db3918a0adbdd66bec0879c3fa4ed883c54,2016-08-27 21:57:00,Igor Klopov,"regard sub-object ""bin"": { ""now"": ""./build/bin/now"" }",False
+de138c5450945a2718097c27b7d5891363da7dfe,2016-08-27 21:16:52,Igor Klopov,fixed backbone.radio test,False
+00a018b0f9483779ad5ea96f16b6799a963d6353,2016-08-26 19:42:50,igorklopov,read `package.json` as input,False
+cc9991f67fac2c1c5a8a5257ee286a410f3a910c,2016-08-26 18:17:35,igorklopov,move root `tuple` populating logic to `index.js`,False
+424f88ab3edd248b1f2d38e5b68fb632eb7db5a6,2016-08-26 17:52:02,igorklopov,test non-existent input file,False
+2074f9a1f43b0273606b59f88a026fcd3f278140,2016-08-26 16:44:31,igorklopov,remove `scripts` entries from some dictionaries,False
+f298be8ed62017895dd44ec7d103bbaee3481c56,2016-08-26 16:28:38,igorklopov,work on `files` entry in `package.json`,False
+99beffcff7998d47bd66750920f340944ca3aaa5,2016-08-26 16:12:15,igorklopov,step2: wrapped dictionaries in `pkgConfig` to apply to package.json,False
+172881e11cda601cf4ff6b4540c36aa08be046fe,2016-08-26 13:43:28,igorklopov,pkgConfig - step 1,False
+1829055feec59d51780384946ac17242c255d710,2016-08-26 12:44:49,igorklopov,"improved `common.js`, fixed edge cases",False
+ee2dde8f5bcac8d8da714c96a400107a400b940f,2016-08-26 10:47:59,igorklopov,more fixes,False
+8faa0f8bf9428e33a2f6760fe6cae7149fe509c4,2016-08-26 01:16:33,Igor Klopov,fix babel-core and data-preflight,False
+15f090201781945e6f5b8d883724372403b794ef,2016-08-26 01:05:00,Igor Klopov,"newTuple = { config, base } - very close to supporting package.json",False
+5a603f277370710876990e6d604c0f06c5e0a789,2016-08-26 00:59:12,Igor Klopov,minor renames in preparation for upcoming refactor,False
+1004337e933ae8dacf53fff2100d2c2f43140d54,2016-08-25 23:56:13,Igor Klopov,"remove addConfigFromFile, enhance addDictionary",False
+9997da2185f24955e176db9445a185184f9ac648,2016-08-25 23:43:23,Igor Klopov,"remove cli-only configs, move boot logic to `index.js`",False
+c0300687e2900ba12ef27b65d74e976c8c7de0ea,2016-08-25 23:17:19,Igor Klopov,"Revert ""non-cli (object) configs turned out to be useless. removing them""
+
+This reverts commit d639a4db4b6daab63229a49b854e69a750a8a4da.",False
+72fcde69f1a75ddf9a69badedd747bf26fc7b070,2016-08-25 23:03:56,Igor Klopov,array is an object as well :smile:,False
+d639a4db4b6daab63229a49b854e69a750a8a4da,2016-08-25 23:01:01,Igor Klopov,non-cli (object) configs turned out to be useless. removing them,False
+83c9a66919f8b5a596b961b009ca0cf50fbed49c,2016-08-25 22:15:00,igorklopov,minor fixes,False
+c4e668af46af1abd34d90189c9fb1d1979a99918,2016-08-25 19:47:35,igorklopov,all tests pass in all node versions. including 0.12,False
+2ee692f7662374bf159880b1cb06096216c78957,2016-08-25 17:31:39,igorklopov,enabled remaining tests,False
+dfe649d3e9f3d81d6dd3a43afa166b43b36aa097,2016-08-25 16:19:14,igorklopov,enabled `test-50-ast-parsing-2`,False
+8b12d4e6b2bb7318dcaccbe4169cd3ba40fae873,2016-08-25 14:02:31,igorklopov,dont append '.exe' if output name was specified explicitly,False
+3b25eff9a79de729c33a836900a729c06644ada8,2016-08-25 13:32:06,igorklopov,force specifying a target when running tests,False
+c86330090a8fb28bd9f1436ec2cd2ec4c41bfe62,2016-08-25 12:44:21,igorklopov,update dictionary,False
+8e1a965a5e0ebee98a90dd8e607f0df22e9c7453,2016-08-25 10:57:29,igorklopov,append `.exe` even if only one target,False
+c8887c0822448792ca111ee95998a576731e1177,2016-08-24 23:44:35,igorklopov,temporary fix for geoip-lite,False
+1ba9031285a611ab39cc75b92cd9935062768677,2016-08-24 22:03:33,igor,regard `output` option when choosing default `targets`,False
+6464f28372812f798ed2e5a062ef7a12a538b308,2016-08-24 20:09:37,igorklopov,"'linux,osx,win' if no targets specified",False
+f3b41d5387327d1eef9390f28615c7c68f1775ec,2016-08-24 19:25:59,igorklopov,"implemented loglevel, enabled loglevel-dependent tests",False
+0911d971e542bdb9b631db34458c3f55a2b6aecb,2016-08-24 18:04:13,igorklopov,pass only `target` to tests,False
+6d98c68805076f6cfae69c3ae8e5f09ead2f9401,2016-08-24 17:15:30,igorklopov,restored `config` option. reenabled tests dependent on `config` option,False
+82257c497473992cc3a1fb454c67dfd3485dc04e,2016-08-24 16:30:31,igorklopov,espima seems really outdated. switch to acorn,False
+5b3c2f98150f079a5fea25a9892a8a55741b57bf,2016-08-24 16:01:14,igorklopov,almost all tests are restored,False
+a5803803949cf57764d211644b832fca2ef75fdf,2016-08-23 23:11:26,Igor Klopov,babel-eslint now lives in root `pkg`,False
+65efc94bedef708a2f2dac589334f1d12b7365d6,2016-08-23 22:56:58,Igor Klopov,improved linting,False
+51177c834af3395e71f39935d44dfb2e0d2d65f4,2016-08-23 22:42:04,Igor Klopov,add es5 eslintrc files to `tests` and `examples` to mute linter,False
+7d8706de12e474a137db7bb9a0e536e69faad648,2016-08-23 22:05:30,Igor Klopov,"Revert ""removed 'use strict'""
+
+This reverts commit 77b5b04bbc552dfab318d0653cf927e3af6023f1.",False
+bd7fecf50c7891f685015b3699f6ad06b4e79ce1,2016-08-23 17:53:33,igorklopov,wrapper to run `pkg` synchronously in tests,False
+2f5a30da9551ae08304aa3d7fb10cf8d84dd4df1,2016-08-23 17:18:18,igorklopov,`output` arg to set output file name,False
+475054285dd2261f4c17fdfdea7a0b56531965a3,2016-08-23 14:51:37,Leo Lamprecht,Create README.md,False
+17fa8416037a764ddb0046cb80a65a458789c237,2016-08-23 14:43:38,igorklopov,remove detector-ast + replace `let` to `const` where possible,False
+9c28708684f2eb1a5b02acc8f13720f3f0cc3c77,2016-08-23 14:28:40,igorklopov,prepare `common.js` and `bootstrap.js` to move to `pkg-runtime`,False
+3defae6e7e7f2e6a8b8e4f6340fb9ad2d7297729,2016-08-23 14:01:32,igorklopov,"distinguish platforms by path slashes, divide stripes to slashes",False
+d48257d510addbda3345000be9fa712657128a9c,2016-08-23 13:55:50,igorklopov,"theboxify(slash), replaceSlashes to generate windows paths in unix",False
+746f4d471ebb9b325e168446681f35d1ed41348e,2016-08-23 13:20:27,igorklopov,get rid of bundler,False
+00ed39aa19f2cbde92a18af94986f286509b8210,2016-08-23 13:11:34,igorklopov,move natives list to separate file `natives.js`,False
+baa9c4a2c4282f4837a615d001c643b16730fc1a,2016-08-23 12:53:56,igorklopov,i tend to use `exec(argv.slice(2))` as the only api entrypoint here,False
+cb3a3babb49fa245ffeddd8238100c9da329debb,2016-08-23 12:12:07,igorklopov,append '.exe' extension for windows output,False
+2dee46a1a2b433fd623069c104b3ef9ee7d5db7a,2016-08-23 11:57:20,igorklopov,bugfix: stripe will be reused to make other targets. hence clone it,False
+43ec99d36840bd5177961c708643d59e862073df,2016-08-22 22:17:31,Igor Klopov,"chmod +x fabricators before executing, chmod +x final binaries",False
+97040d0f37ed99b96859a004f8a8244d384c2929,2016-08-22 19:54:44,igorklopov,"promisify producer, write produced binaries",False
+a30e408b65bab44b28fe45703281110cf67dd1b2,2016-08-22 19:31:49,igorklopov,promisify bundler + improvment for `log`,False
+b3e63880b73411fa8462c23fb487d9bacba1ef30,2016-08-22 19:14:17,igorklopov,"fabricatorForTarget, corresponding fabricator for targets",False
+45765bb5d27363205ab69f62f5504966238add9a,2016-08-22 18:09:42,igorklopov,Targets not specified. Assuming default values,False
+756224fad3a3018a012e7671ebe21aa6eb3d44da,2016-08-22 17:22:43,igorklopov,"babel, bin.js, parsing targets",False
+6bc1e30c802b4638cc6ba635cff1bf0528815837,2016-08-22 12:05:28,igorklopov,distinguish fabricatorName (host binary) and houseName (target binary),False
+9b55e722ab370206437ee2e9cc2bb9ee9671cd16,2016-08-22 03:35:10,Igor Klopov,"Update code style to standard (#2)
+
+* replace linting package
+* magic of `eslint --fix`
+* removed 'use strict'",False
+5c7c5e00138a9589e9880e9c0096862a53f50d0e,2016-08-20 23:01:05,Igor Klopov,"Switch from `v8-ast` to esprima (#1)
+
+* `ast` does not work anymore - we are running inside official node [wip]
+* empty stub for esprima-based detector
+* revert parser-agnostic code
+* name, value -> node
+* revert forge
+* reimplemented REQUIRE_RESOLVE, REQUIRE and PATH_JOIN using esprima
+* babel seems to mute uncaught exceptions
+* bugfix: since we have `v2: m ? n.arguments[1].value : null`",False
+851c5c6d097d6b4bc18937e2f925a1e21b29457e,2016-08-17 21:17:34,igorklopov,"takes version from cmd line, passes to `pkg-cache`",False
+ebb6339c03fb421783d9272e4a3b4edcb89cea4e,2016-08-17 19:24:02,igorklopov,uses binaries from `pkg-cache`,False
+6c1f292f8790aa556e88cb332ba474d9b8f44592,2016-08-17 14:36:42,igorklopov,all `build` functionality has just moved to `pkg-cache`,False
+42d2b2e9be1d949a17cdbd41a8a4bbd9649870a5,2016-08-09 01:39:21,igorklopov,initial commit,False

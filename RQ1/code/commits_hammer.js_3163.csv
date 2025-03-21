@@ -1,0 +1,119 @@
+Hash,Date,Author,Message,IsMerge
+ff687ea0daa3c806b9accd2ecb1a46165ea3c00a,2019-05-28 23:19:24,Chris Thoburn,"Merge pull request #1179 from leelabysani/BuildConfigChanges
+
+Making changes in package.json and .babelrc to successfully build it",True
+6ae5058edece924edabadc4f5c305b6c51f82ae1,2019-05-28 23:18:45,Chris Thoburn,"Merge pull request #1217 from jDramaix/patch-1
+
+Fix jsdoc annotation of inArray method.",True
+4f7a85eaed6f0e8a77d64997499c3b7c6e55fd62,2019-05-11 03:50:22,Julien Dramaix,"Fix jsdoc annotation of inArray method.
+
+This method always returns a number. and the rest of the library is treating the result of this method as number. Using {Boolean|Number} as return type confuses the closure compiler.
+
+Related to cl/247235272",False
+969004e677e3a3e328a11c04d6484b16e5d9d956,2018-06-07 15:55:37,leelabysani,Making changes in package.json and .babelrc to successfully build it,False
+563b5b1e4bfbb5796798dd286cd57b7c56f1eb9e,2017-10-21 22:46:04,Jorik Tangelder,"Merge pull request #1147 from choskim/readme
+
+Update README.md",True
+4ada7bce58cc01fff5386e4455b8ea3c1ea73669,2017-10-21 21:59:49,Cho S. Kim,Update README.md,False
+37206a3d2209aefa5a34e59dfa3800a3150011a3,2017-04-19 19:48:30,Jorik Tangelder,Update LICENSE.md,False
+17a543b6ac47540a43dff455a362efa959b65026,2016-10-19 18:07:27,Chris Thoburn,"Merge pull request #1013 from anotheredward/patch-1
+
+add license to bower.json",True
+0f499fd09ac736457d6cbf2cd40412a08512e351,2016-10-19 18:06:40,Chris Thoburn,"Merge pull request #1031 from arjunkathuria/dev
+
+chore(rollup version): bumps up rollup version",True
+1b7bb3b23d16f310a14dff220163e02bec49b93e,2016-10-15 20:50:31,Arjun Kathuria,chore(rollup version): bumps up rollup version,False
+a28c530297f6e66785476013a6c9162305a2ce42,2016-09-30 20:36:41,Alexander Schmitz,chore(build): Commiting most recent built files,False
+c55f4956598b726f323ccf7df756a0556ae8767a,2016-09-30 20:36:41,Alexander Schmitz,chore(test cleanup): Add missing messages to asserts,False
+1881fc0ff50d3f815bcde6f418fdb8c3a842cf19,2016-09-30 20:36:41,Alexander Schmitz,chore(npm-scripts): Remove linting of built file,False
+92f58919accfd3e9e521c3810352011d3c851c2a,2016-09-30 20:36:41,Arjun Kathuria,chore: saner npm tasks,False
+78de9a3a35b0a4ad03bee01bd6bf6c678aaf3638,2016-09-30 20:36:41,Arjun Kathuria,"chore(bye Grunt): removes Grunt, its plugins and other related stuff from codebase",False
+240a8c01868e0d319f57e70aaeeddd2a6bf75afc,2016-09-30 20:36:41,Arjun Kathuria,chore: various fixes after rebase.,False
+f34de954b99faed43d229411d1ec8788f5bcfb9d,2016-09-30 20:36:41,Arjun Kathuria,feat(npm scripts): adds npm scripts,False
+d4a73d2d6d65ebeae1cb836902569db978f9cdbe,2016-09-30 20:36:41,Arjun Kathuria,feat(npm-assets): adds test assets management via npm,False
+33ec25afd6a95ae0b7c827ab6868abccc4947b98,2016-09-30 20:36:41,Arjun Kathuria,chore: fix styling issues and lints tests,False
+a7f0965488319680b2c1b08828bae0eb959f7a6c,2016-09-30 20:36:41,Arjun Kathuria,chore: renames a variable for code consitency,False
+a24d42cef25a634e5e37de7752971da8b0673ed5,2016-09-30 20:36:41,Arjun Kathuria,"test(QUnit 2.0.0): upgrades the test harness and cases from QUnit 1.14.0 to QUnit 2.0.0, also upgrades asset jQuery to 3.0.0",False
+48a8d9bc73cb15a89fba6e0d38afa52572b2f880,2016-09-30 20:36:41,Arjun Kathuria,chore: moves 'defaults' out of the constructor,False
+caebb3dbe9224f70183068592f217864a7e3d111,2016-09-30 20:36:41,Arjun Kathuria,chore: refactors 'defaults' back to a property,False
+ed3b3abae88930b5653f35293fbe1210036639ff,2016-09-30 20:36:41,Arjun Kathuria,feat(ES6 classes): adds the ES6 class syntax and functionality,False
+a6a59b3d6a5db6dafb35b2cf9eb4ea103cf8be26,2016-09-30 20:36:41,Arjun Kathuria,chore(coffee to js): converts Gruntfile.coffee to Gruntfile.js for better consistency and Bumps up a few old package versions to newer ones,False
+697d33181639953f2b4e34d1b503238428896916,2016-09-30 20:36:41,Arjun Kathuria,fix(jscs): Bump up ember-suave to 3.0.1,False
+c337e873b455ba2fabc91ebc7b907fd41fbeffc4,2016-09-30 20:36:41,Arjun Kathuria,style(arrow functions): adds the nice ES6 arrow-function syntax for callbacks,False
+6b415f6bcd3c39360470e3da4e2cc1fb29849609,2016-09-30 20:36:41,Arjun Kathuria,style(code-review): adds the respective code review corrections as directed,False
+adafc8fd5230f3164105aed589e1276a5f6fc67a,2016-09-30 20:36:41,Arjun Kathuria,style(jscs requireEnhancedObjectLiterals): Resolves Property assignment should use enhanced object literal function.,False
+a307e64f0e9facaa572733dcbd560eaf540e95ee,2016-09-30 20:36:41,Arjun Kathuria,"style(jscs requireCommentsToIncludeAccess): you must supply @public, @private, @protected for block comments",False
+cf3738464eed8089d074349dad39750dd9a741dc,2016-09-30 20:36:41,Arjun Kathuria,style(===): replaces equality == with strict equality ===,False
+2f50305b9026da20bce22634fc0544a5ad6d9b36,2016-09-30 20:36:41,Arjun Kathuria,style(Object Destructuring): property assignments now use ES6 object destructuring,False
+d02c294c43058aa8a83da3c723231e29feade337,2016-09-30 20:36:41,Arjun Kathuria,style(template strings for concatenation): uses the new template string notation for concating string,False
+7adaab4d0f6215bdde0f8c2968967daf039d7296,2016-09-30 20:36:41,Arjun Kathuria,style(disAllow Var): replaces all var with let or const,False
+67de3cbf4f591be143ecd0327dceeef467cc3b5e,2016-09-30 20:36:41,Arjun Kathuria,style(jscs fix): files jscs src --fix fixes,False
+9e3d469bef1fdd75fd342b02572524d6a148c45a,2016-09-30 20:36:41,Arjun Kathuria,chore(cleanup): remove redundant files,False
+15d257e324873bbf946dfbe36dcd0bb5be23f1dd,2016-09-30 20:36:41,Chris Thoburn,"feat(code-style): updates code style rules, this will cause some pain",False
+0a1c6a4aa59e11c86398a4e048229d0f2c1c1aea,2016-09-30 20:36:41,Arjun Kathuria,style(formatting): formats imports & exports with nice spacing and indentations,False
+10be6de9a9d777aca457880db1ad5177b6afe987,2016-09-30 20:36:41,Arjun Kathuria,chore(cleanup): remove redundant files,False
+7823c95d6e06c06f789db61f66ca10b0c60d4db8,2016-09-30 20:36:41,Arjun Kathuria,"use kebab dasherized case for file names, not camelCase.",False
+3204eda1d701108ffbe7f6f402ff31dda4bf4b7f,2016-09-30 20:36:41,Arjun Kathuria,chore: removing redundant files,False
+5cc9fe1bb1728846c7b4d56245eff8f92287c0fa,2016-09-30 20:36:41,Arjun Kathuria,"Tests fix, tests the rollup build, now A-Okay",False
+fff23e2e2fb408c155fd0c08ab86eb74c11549f8,2016-09-30 20:36:41,Arjun Kathuria,"tests hack, testing build now produced by rollup manually via rollup -c command instead of uglify:test to accomodate es6",False
+dc6ab05739fece651abc5d04c3ec7ab3df493259,2016-09-30 20:36:41,Arjun Kathuria,"fix! missed to replace concat with rollup in watch task, now done",False
+d51b00d347e6e0b17083c10716707f9debc700db,2016-09-30 20:36:41,Arjun Kathuria,"builds hammer with rollup via grunt task, removes concat completely. modified package.json to update to newer versions, excluded test task for the moment. build passes jshint and jscs tests",False
+5018bda7f78868e8cde113ef3a7a1328aa672409,2016-09-30 20:36:41,Arjun Kathuria,implemented default exports and renamed utilsjs folder to utils,False
+103a02f7f71ad279a8fecd94b04e132522b9f06b,2016-09-30 20:36:41,Arjun Kathuria,all code lintered properly along with the dot config files,False
+e22a057c8776527f8c7d71f2bb03790de041ffd4,2016-09-30 20:36:41,Arjun Kathuria,inputjs files lintered nicely,False
+e6d6e498eac8d152d4875376818457e29bafba0f,2016-09-30 20:36:41,Arjun Kathuria,utils properly linted,False
+bbbb13e9918c7c8a33908de044589843087e0e19,2016-09-30 20:36:41,Arjun Kathuria,"further exposes hammer, adds 'on' 'Tap' etc, build closer to default",False
+fdfdddd4ebecbf3e02f400e69d4db585a8702495,2016-09-30 20:36:41,Arjun Kathuria,exposes global,False
+be1a9b1d0534fc452f9e9891d1649dfd62149aaf,2016-09-30 20:36:41,Arjun Kathuria,"Long commit, adds all files required in src, basic rollup build up and running",False
+a4c13c693f84feb5540c6e1017a9f65cc7bf21bd,2016-09-30 20:36:41,Arjun Kathuria,"modulazied all files under src/input, import exports code",False
+b225fed52a2bcdb096c306654508c8e912f8c50b,2016-09-30 20:36:41,Arjun Kathuria,Broke down input.js into individual modules with explicit import exports,False
+e37379547f97286eba998b901815fe33d2d7a9aa,2016-09-30 20:36:41,Arjun Kathuria,broke down utils.js into idividual modules with explicit import exports,False
+6ebe52a2fed43d9465a96f38d00728bb736a7ad0,2016-08-30 04:09:33,Ed,add license to bower.json,False
+8e69a361b3914c3c21c2c565f9d546a234607912,2016-04-23 18:29:53,Alexander Schmitz,Changelog: Fix formatting for new markdown processor on jekyll site,False
+17c3ee5d14e1a0d05c337a1ea60d638d6cabdd32,2016-04-23 08:02:11,Alexander Schmitz,Changelog: formatting,False
+f9f9672b7b50d4ae058cb1b109f2dd1188581663,2016-04-23 07:48:00,Alexander Schmitz,Changelog: update for 2.0.8,False
+49731688380a91be07653ee2491ab48ece7952b5,2016-04-22 21:44:36,Alexander Schmitz,2.0.8,False
+bb1158eecfe5e338d04ed6f5215e6cfec0dd4a25,2016-04-22 21:44:11,Alexander Schmitz,Build: add files for 2.0.8,False
+c0fcf637fd675f9c76e800e8424e03a1035fae75,2016-04-22 20:49:32,Alexander Schmitz,"Merge pull request #899 from sculove/fixtestcase
+
+test: fix wrong test filepath",True
+085d3a87eab8674c45e9d3a14c4ca44ad7b97e26,2016-04-22 20:44:47,unknown,"Manager: Make sure that the required parameters are present
+
+Closes #908",False
+514e998ffafaf039bf0b45c267902146ae2905a7,2016-04-22 20:29:11,Alexander Schmitz,"Merge pull request #904 from sculove/restoreCssProps
+
+fix(Manager): Hammer.defaults.cssProps are restored on destory",True
+bafcb7ef03ea7096c0848385c0c315d6e0162eab,2016-04-22 20:25:51,Alexander Schmitz,"Merge pull request #962 from cfrank/master
+
+Update simulator test to point to the correct hammer file",True
+f255e337be5689a46f134fbea37efb7017121330,2016-04-22 20:25:02,Alexander Schmitz,"Merge pull request #957 from stucox/fix-banner-license
+
+chore(gruntfile): fix license string in banner",True
+17a8d90a414938eaefd157e9de6cb284885f68ac,2016-04-22 20:24:12,Alexander Schmitz,"Merge pull request #956 from arschmitz/touch-action-fix
+
+TouchAction: Add support map for specific values of touch-action",True
+024e59a9d05f6351a08b00dd60316e9706da0936,2016-04-22 03:12:56,Alexander Schmitz,2.0.7,False
+7e4c43ee8415f3a09b7f2a0632ce3911b19b2652,2016-04-22 03:12:29,Alexander Schmitz,Build: Add files for next release,False
+cdc4f89d0a9bdfb6f85463e0adae5d3dd3042c76,2016-04-14 11:40:42,Chris Frank,Update simulator test to point to the correct hammer file,False
+be77366e02de652a8462b1e1cb58ed7f8921f06d,2016-04-08 13:05:15,Stu Cox,"chore(gruntfile): fix license string in banner
+
+Template tag was incorrect and hence rendering empty: ""Licensed under the  license"", presumably
+since c2578cd.
+
+Closes #949",False
+9b11f706fc8c19c1be1564c6f72b4a3101800402,2016-04-04 09:04:54,Zoe Xi,"Build: Bump to grunt-contrib-uglify v0.7
+
+Closes #944
+Fixes #787",False
+bfeb89a77f778c527f771150d1e9687bd318ce8d,2016-04-04 08:54:19,Kara Erickson,"Input: fix de-duping of mouse events on surface
+
+Fixes #917
+Fixes #863
+Closes #951",False
+fbe9fd775fe8cb3d43faa9428bfa56b61b16edc7,2016-04-04 08:37:50,Alexander Schmitz,"TouchAction: Add support map for specific values of touch-action
+
+Fixes #952
+Closes #955",False
+7d0e60f6743517db3c05a38e966fb9fb5052fa03,2016-01-12 07:24:08,sculove,fix(Manager): Hammer.defaults.cssProps are restored on destory,False
+bd6b82eef7b18e30982d1443a4c574fb6104e19c,2016-01-07 04:40:41,Alexander Schmitz,Utils: Fix jsdoc comment for merge,False
+446c63322b9fb5beed2fd6c5fcf5c231299c6075,2016-01-04 07:54:48,sculove,test: fix testfile path from test_propagation.js to test_propagation_bubble.js,False

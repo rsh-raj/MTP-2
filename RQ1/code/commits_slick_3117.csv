@@ -1,0 +1,560 @@
+Hash,Date,Author,Message,IsMerge
+549ab0e87409fa6bfa40d53f149e6e3aec3e64c8,2024-08-31 01:11:50,Ahmad Alfy,"Merge pull request #4305 from markvantilburg/patch-5
+
+Update LICENSE",True
+0c1ba5ef094502f9b21c64e8e0362a75cac7a9a7,2024-08-27 21:30:57,Ahmad Alfy,"Merge pull request #4146 from billyct/patch-1
+
+Update scss url with interpolation",True
+d0716f19aa730006ee80ab026625fb1107816a97,2024-08-19 14:49:32,Ahmad Alfy,"Merge pull request #4304 from markvantilburg/patch-3
+
+Update slick.scss",True
+bde4d34c369744932a399974893b60cd04f6b1f2,2024-07-29 13:34:51,mark van tilburg,"Update LICENSE
+
+update year to 2024",False
+6701700e006882bd69731cadb90dbc5bf8a2ab0c,2024-07-29 13:31:27,mark van tilburg,"Merge pull request #1 from markvantilburg/patch-4
+
+Update slick.less",True
+83ac2a57174da347525384a13b85f2aba1eb892e,2024-07-29 13:27:56,mark van tilburg,"Update slick.less
+
+Fix #4302",False
+7628a075fcd2822d92db8946b1f098985d60a819,2024-07-29 13:27:26,mark van tilburg,"Update slick.scss
+
+Fix: #4302",False
+dfcc28a27275065a87d999d937794c1d21d883db,2024-07-15 19:47:27,Ahmad Alfy,"Merge pull request #4050 from paulschreiber/fix/woff2
+
+Add WOFF2 support",True
+4dbc8afd5a9a1ce2eeccccdbda43b89b6188de01,2024-07-15 19:46:08,Ahmad Alfy,Merge branch 'master' into fix/woff2,True
+ba81d087588e303af96800d4311d8bbe803d5de8,2024-07-10 15:26:23,Ahmad Alfy,"Merge pull request #3647 from su-narthur/patch-1
+
+Fix typo",True
+7d983a8095947ee5ecf3a93aa6260db517575da4,2024-07-10 15:18:58,Ahmad Alfy,"Merge pull request #3899 from wderuijter/slick-font-display
+
+Adds support for slick font display",True
+305fb42931c3591fe88f3bfc392ee1b52f1a190c,2024-07-10 15:18:37,Ahmad Alfy,Merge branch 'master' into slick-font-display,True
+d126bd96f86024704e71f690acda8e4bd4bceef0,2024-03-11 16:18:25,Ahmad Alfy,"Merge pull request #4244 from viclen/patch-1
+
+FIX: Add font display swap for optimization",True
+b33dbba0ac30d96275df2a2bbb13b0d5711606d7,2024-03-11 15:52:44,Ahmad Alfy,"Merge pull request #4291 from markvantilburg/patch-2
+
+Update CONTRIBUTING.markdown",True
+e7aedf494f3a08c87635e4be1593d7e796dafd33,2024-03-11 15:40:50,mark van tilburg,"Update CONTRIBUTING.markdown
+
+Remove reddit link as it's not working anymore",False
+5f84fd10f29517ea7581de5693f270219d2250fd,2024-03-11 14:49:39,Ahmad Alfy,"Merge pull request #4151 from michaelsiddall/patch-1
+
+doc: always use `https` for requests",True
+a119b04ed2c971e4ee1d012a6bbde2edad66deb9,2024-03-11 14:46:08,Ahmad Alfy,"Merge pull request #4053 from markvantilburg/master
+
+Add files via upload",True
+236afd20a2ea0357a8e33ae4589a8019e8795d05,2023-11-13 21:19:03,mark van tilburg,Merge branch 'kenwheeler:master' into master,True
+fcbb70db301451d5542b12277be9222b61007306,2023-04-19 16:21:53,Ahmad Alfy,"Merge pull request #4106 from sebikeller/patch-1
+
+FIX: @charset wrong quotes used",True
+e3ca25e4aaba5178ef9a1108193511c3719218c9,2023-03-09 19:10:17,Victor Lengler,fix: add font display swap for optimization,False
+03679c54e702d060559f3b40fb6ad8539fe488c3,2022-06-28 15:10:00,Ahmad Alfy,"Merge pull request #4196 from bboro/4195-fix-slick-dots-aria-label
+
+Fix the counter in slick dots buttons' aria-label",True
+d399c0b1d5efaaa13109cd06b9995ad430ae5462,2022-06-20 18:51:01,Bysa Boro,Fix the counter in slick dots buttons' aria-label,False
+89554ba6f8a15fdcc486a35acd6fdd8d8b171a7c,2021-11-30 09:54:41,Mike Siddall,"Update README.markdown
+
+The links in your slick.min.js, slick.css, and slick-theme.css files are broken.",False
+f22a766b3d2c6fb52dcd096423146e01db61e396,2021-11-02 07:59:24,billyct,"Update scss url with interpolation
+
+vite may replace the url with `@return url(../node_modules/slick-carousel/slick/$slick-loader-path + $url);`",False
+b2618eb1567dfdfb75c666a0bb03b191d4e0a736,2021-05-25 15:27:32,Sebastian Keller,"FIX: @charset wrong quotes used
+
+see https://developer.mozilla.org/en-US/docs/Web/CSS/@charset#valid_and_invalid_charset_declarations",False
+ff8101595b3b411e72d8cd289a9e06d99e919923,2020-12-21 17:16:48,mark van tilburg,Add files via upload,False
+e014f8878fb4b21cd367cc5c22a3107cea461278,2020-12-15 07:23:42,Paul Schreiber,add woff2 to font stacks,False
+9098bc41df44e21a0e8aa0c18417136eb45f5b7b,2020-12-15 07:23:28,Paul Schreiber,add slick.woff2,False
+34960aa1ce39a0b3a1e14b81f6b18b32d747a9d4,2020-01-04 12:33:42,Wim de Ruijter,Update slick-theme.scss,False
+c7168cf9bb21f5038e33660bb0f2bd6866056778,2020-01-04 12:33:26,Wim de Ruijter,Update slick-theme.less,False
+5afc563e96f045927c04ebb3e00c9bca3bea66c4,2020-01-04 12:33:03,Wim de Ruijter,Update slick-theme.css,False
+7daf56cb83e1365e7b7b0ef551f4a6b6b82a0f78,2019-11-27 05:25:19,Ken Wheeler,"Merge pull request #3877 from MartinKolarik/patch-3
+
+Update jsDelivr CDN links",True
+ecb5ba28f328180a06521291e205c04da1eec7d8,2019-11-14 02:40:43,Martin Kolárik,Update jsDelivr CDN links,False
+9c55b531245e8c866324652a353bead23f9721a0,2019-07-17 01:14:46,Ahmad Alfy,"Merge pull request #3688 from nkm8/version_fix
+
+Revert ""1.9.0""",True
+a877b94f5b645b94fe322c7cb82fee7901d90db5,2019-07-16 16:06:50,Ahmad Alfy,"Merge pull request #3809 from explorador/hotfix/issue#3560
+
+Fix #3560",True
+05d488f2890e48115c8117ad9e8b04bda004b980,2019-07-13 23:56:21,Cristian,Fix #3560,False
+a3131ca42004e32706928d645567000f2ce060eb,2019-01-18 21:05:48,Nick Marnik,"Revert ""1.9.0""
+
+This reverts commit a2aa3fec335c50aceb58f6ef6d22df8e5f3238e1.",False
+4335d7e95f40ba84f7cf119b9390b15c6c2e1ddc,2018-12-01 01:34:20,Nathan Arthur,Fix typo,False
+a2aa3fec335c50aceb58f6ef6d22df8e5f3238e1,2018-04-18 01:19:13,Ken Wheeler,1.9.0,False
+bcb5d4d78463befb53b921391d5958b43cd63b7b,2018-04-18 01:08:17,Ken Wheeler,"Merge pull request #3403 from turnercode/master
+
+Fixed centering logic when using swipe",True
+5910693d59470a26c6be87dc60f0d4c54ee87415,2018-04-11 11:35:24,Jack Thomas,build,False
+0f27346505904894eb05f345716d4ab75a5c1e03,2018-04-11 11:25:11,Jack Thomas,Fixed centering logic when using swipe,False
+9325b64f3ce8af474e7958e7bf61345d16ffb3c9,2018-03-22 20:42:21,Ken Wheeler,"Merge pull request #3384 from davemacaulay/master
+
+Ensure focus events correctly propagate to other bound handlers",True
+ed0efa1de98fb766985b17189749c60afbe5d497,2018-03-20 20:48:37,Dave Macaulay,Ensure focus events aren't stopped propagating to other events. Fixes #2901,False
+ee7d37faeb92c4619ffeefeba2cc4c733f39b1b3,2017-10-03 23:21:17,Ken Wheeler,versions,False
+0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee,2017-10-03 23:19:29,Ken Wheeler,1.8.1,False
+dcdc97c995ba946afe98440fbb5c77620a8ca580,2017-09-15 13:32:59,Greg Westneat,"Merge pull request #3109 from alexandrubotez/tabindex
+
+when focusOnChange is false -> remove attr tabindex",True
+eb67d9e6c02da6697b89d4b4ed75889c053e4466,2017-09-14 20:50:45,Botez Alexandru,when focusOnChange is false -> remove attr tabindex,False
+34612b42641e8fd4250f70666a8da67eb624d002,2017-09-12 18:00:32,Greg Westneat,"Merge pull request #3001 from amapparat/patch-1
+
+Fixes bug in responsive rows",True
+d8e958aced43c19f18ed8e05bc396172f904669b,2017-09-12 17:56:02,Greg Westneat,"Merge pull request #3068 from MarkimusMaximus/patch-1
+
+Update - added focusOnSelect",True
+86ed071e59aadc8253e881ee0a1a6658da4fcdbb,2017-09-12 17:55:03,Greg Westneat,"Merge pull request #3037 from Munawwar/patch-2
+
+Not to scroll when infinite scrolling isn't on",True
+91d5038164752e2838511a4a92bf8e5d371df2c4,2017-09-12 17:50:30,Greg Westneat,fixed readme,False
+6cbbe4cc31eabbd066033b6f3b2476666b423c0e,2017-09-12 17:04:56,Greg Westneat,"Merge pull request #3080 from cbieser/patch-1
+
+Show dots only when needed",True
+4909f267cfbf85deb66f99d064b4b0ce7229745a,2017-09-12 16:57:47,Greg Westneat,"Merge pull request #3097 from tbirdsall/wcag_num_slides_fix
+
+Changed the logic for adding aria describedby attribute",True
+f9a8733207a558bcd0ace7c0746f596660f89dbf,2017-09-12 16:38:14,Greg Westneat,1.8.0,False
+0c3bcfb0f83d485d2fc7b41823ed71d2e70d788a,2017-09-05 22:39:41,Taylor Birdsall,Changed the logic for adding aria describedby attribute,False
+5a3c6fb0f5e1f5f63a9e3fcc029079a4a861e5ff,2017-08-28 18:35:35,Christian Bieser,"Show dots only when needed
+
+Issue #3009: Show dots only when needed",False
+597d942654b73bdcf2006d6e21444588c81181bc,2017-08-22 07:24:51,Mark Pesantes,"Update - added focusOnSelect
+
+As per issue #3044",False
+b3eaa612f680b59871d1ba42d34784b75e696c47,2017-08-07 17:21:56,Munawwar,Not to scroll when infinite scrolling isn't on,False
+8ccd846dd2f63963ed4388c1963c77dc2869c482,2017-08-05 01:31:49,Greg Westneat,"Merge pull request #3032 from leggomuhgreggo/focusOnChange
+
+Added option to enable focus on slide change",True
+da4bdcbd9312ea7efb05bdb0709a29ede20b4430,2017-08-05 01:29:25,Greg Westneat,updated readme,False
+729dcd49d4d313b6fc74c6d6160286caca331515,2017-08-04 09:06:49,Greg Westneat,added option to enable focus on slideChange,False
+038f84eda8b7d87cfe9762dc263a5e03924603cf,2017-08-04 08:21:14,Greg Westneat,"Merge pull request #3027 from Schleuse/master
+
+Fix JavaScript Error when enabling arrows by breakpoint",True
+a3cefec4398c5fd2026894ee3a39eb7ed0e73d16,2017-08-03 14:56:07,schleusner,Fix JavaScript Error when enabling arrows by breakpoint,False
+c83dfa4cb9b9b2cb06cffe55484f7608ee81a9a2,2017-08-02 09:30:26,Greg Westneat,changed jquery from dependency to peerDependency,False
+0577bca7010fb3fe2ef9ddc68aec65ca05112831,2017-08-02 02:09:26,Greg Westneat,updated cdn links,False
+1b454414260b0340ddd56939411f28fde3db6c5e,2017-07-31 01:25:33,Greg Westneat,"Merge pull request #3012 from ViliamKopecky/master
+
+fix vertical + centerMode issues (#2998)",True
+77101f1dc3e72cb44c253c81a74f9d4881b093a6,2017-07-31 00:49:13,Greg Westneat,1.7.1,False
+c8c5c6798e8b5c7eafcebfba01be0f482e70ed2d,2017-07-30 12:59:40,Viliam Kopecký,fix vertical+centerMode issues,False
+ce2d75af770a6e85f641dcb6354aa2c608e44c34,2017-07-30 03:11:45,Greg Westneat,"Merge pull request #2946 from nicolaspernot/t-1207
+
+#1207 White spaces when using variableWidth and infinite to true",True
+fda50ab641f7e10fbab5b1253b5b5cc671d386a5,2017-07-27 09:58:46,Greg Westneat,"Merge pull request #2966 from corvus-007/master
+
+Aligns slides in the center",True
+40cc0d48118006028fb3acc63d1f01e4734461b3,2017-07-27 09:52:30,Greg Westneat,"Merge pull request #2969 from vanilla-thunder/patch-1
+
+conditional @font-face hack for slick-theme.less",True
+34042b408ea7dc26d1033e908bcf0fa345dd883c,2017-07-27 08:43:15,Greg Westneat,"Merge pull request #2981 from tbirdsall/master
+
+Removed Aria-pressed label for html validation reasons",True
+be0d17cc858fb30e6a4d6b28cc29860c7170040d,2017-07-25 14:22:40,Oliver Moritz,"Fixes bug in responsive rows
+
+Open since 2015: https://github.com/kenwheeler/slick/issues/1871",False
+60ebe8684d4beb373bc5ab57137c318e1e0eb2db,2017-07-11 20:44:34,Taylor Birdsall,Removed Aria-pressed label for html validation reasons,False
+b0622cce712a01790b59970994cc63a3eee3560c,2017-07-11 01:35:14,Greg Westneat,"Merge pull request #2119 from cielt/master
+
+accessible slick as tablist widget",True
+ada9367ca87bfa2d450f03541889a9a2806c08fe,2017-07-09 22:42:36,leslie tu,update  option description in README,False
+8e490aad71da9846c02bf440054591c3224ed379,2017-07-08 06:11:00,leslie tu,enable arrow key controls while prev/next buttons have focus,False
+a4ee0bf6f43441da12cb4eeff4afee67de62361e,2017-07-08 05:48:40,leslie tu,allow slick instance to be focussed if .slick-arrow buttons receive focus,False
+66fca9cdf4d2230b4419df915265e0931305b2ca,2017-07-08 05:00:52,leslie tu,"set up slides with role=tabpanel, etc. only if slick instance has dots (i.e., tabs)",False
+c74e4f3288725c275dda226c7162f23d3495cde3,2017-07-08 04:51:40,leslie tu,"after slide change in accessible slick, set focus to current slide [role=tabpanel] rather than first child of slide",False
+6cab829820e0e39e83a7bcb22506f1c4e0719b53,2017-07-08 04:18:23,leslie tu,Merge remote-tracking branch 'upstream/master',True
+bd884b7359a02406b533b39acace67f05e88cd7a,2017-07-03 16:18:54,Marat,"conditional @font-face hack for slick-theme.less
+
+font files should only be loaded if they are needed, like sass file already does.",False
+ef8c742b8f6c7a6ceb7ca98865f5b53a25cca7ad,2017-07-01 01:48:16,Денис,Aligns slides in the center if the number of slides is less than slidesToShow,False
+0d7ab4375dd8dd45dfe9ee2aa25ca48d180cebbb,2017-06-19 18:33:03,leslie tu,"update accessible slick behavior
+* for current showing slide (group), allow first child to be focussable
+* where autoplay === false, set browser focus to first newly showing slide after slide change
+* rename var for better clarity",False
+3ab76ec0c4a808d0393abfcf481d5c5d92b3c514,2017-06-17 07:01:46,leggomuhgreggo,"Merge pull request #2942 from leggomuhgreggo/a11y-buttons
+
+A11y button fix",True
+d3b9557af69418f176a0eda8d720ada78a8fb0db,2017-06-17 04:23:07,Greg Westneat,added type=button back and removed unnecessary tabindex=0,False
+98631b2ba5d01662921bb9ff5fbff6bdbc80c257,2017-06-17 02:36:35,leslie tu,sync forked branch with upstream/master,True
+b84a4c20c46a46dff7808fee25cf0965045fb095,2017-06-16 21:30:30,Nicolas Pernot,"refs #1207 : Solve the #1207 issues about white spaces when using variableWidth and infinite to true, solution gave by xXanth0s (https://github.com/kenwheeler/slick/issues/1207#issuecomment-263908723)",False
+d127809d62c107c1cd9ee45f3bf19d940da53a88,2017-06-16 08:51:52,leggomuhgreggo,"Merge pull request #2843 from Sonesta/master
+
+1937: Removed aria live attribute",True
+0dea4d4b95cfcb680f4e00540076bc6c06a82982,2017-06-16 08:49:21,leggomuhgreggo,"Merge pull request #2893 from bapplejax/bapplejax-patch-1
+
+Took Out Described-By Attribute",True
+d14fb3f287f37935ca0ffe1f01c91f686c9c3040,2017-06-16 08:48:56,leggomuhgreggo,Merge branch 'master' into bapplejax-patch-1,True
+16e4515137720cb7e272735f2885bacb2584b468,2017-06-16 08:44:40,leggomuhgreggo,"Merge pull request #2932 from keeganstreet/2639-corrected-aria-attributes-on-dots
+
+2639 corrected aria attributes on dots",True
+4f9f950d99fe07d92e5b07c22a7a0c950230adb4,2017-06-16 08:27:29,leggomuhgreggo,"Merge pull request #2939 from PaoloFalomo/patch-1
+
+Fixing head",True
+a0bdb73c85af52b6fb3ddcd445b78e52ab1e5f0a,2017-06-16 05:45:42,Paolo Falomo,"Fixing head
+
+Github recently updated way headings are parsed.",False
+3eff79bfb46e1267e8e3f5f3be183f7d198951ea,2017-06-14 09:42:22,Keegan Street,Changed aria-selected to aria-pressed as this is a state for buttons.,False
+dd8f92684adc9ec79ce03c80dff91d9f4ef1986c,2017-06-14 09:42:09,Keegan Street,"Removed incorrect role=“presentation” attribute - element contains a functional button, it is not purely presentational.",False
+015924ff490614cee56435af0d69a9ddcc8351ef,2017-06-14 07:40:38,Keegan Street,Removed redundant attributes. Buttons inherently have a role of button.,False
+efd774912b68128cdb09c3edbc0185cedacb7d6a,2017-06-14 07:35:13,Keegan Street,"Removed role=“tablist” attribute, as this is meaningless without associated tabs and tab panels.",False
+409197cc1b1db6d4132ffb589c664c5db035beff,2017-06-14 07:33:07,Keegan Street,"Removed role=“listbox” attribute, as the carousel is not a list of items from which the user may select.",False
+0075e79fb5c0071696d123042c435cb1c5df913c,2017-06-14 07:29:00,Keegan Street,Applying “aria-selected” attribute to the dot button which is linked to the active slide.,False
+156d34f9b87d52a7b67d57802b4106f93088d6b7,2017-06-14 07:28:32,Keegan Street,"Moved ID to button rather than list item, as the button is the actual element that controls, and is related to, the slide.",False
+31662ad46bd677452ae22e5089d5f66748b71777,2017-06-14 07:19:40,Keegan Street,Removed “aria-selected” attributes from dots which were not being updated correctly anyway - the first item was always selected.,False
+7cab60c80e717203b063dcbeec422622b2daf9f0,2017-06-14 07:12:24,Keegan Street,Removed redundant “aria-controls” attribute which was not linked with anything.,False
+9757103f502c29a7f5dc3c250c0e882778296dfd,2017-06-14 07:10:54,Keegan Street,Removed “aria-hidden” attributes from dots. Screenreader users should not be prevented from using interactive controls that other users can use.,False
+92c543900a9867551dff2c10e33296a977d6332c,2017-06-02 12:15:18,leggomuhgreggo,"Merge pull request #2822 from flaviocysne/master
+
+Fix bullet and click event problem when slideCount <= slidesToShow",True
+bded4209c5debd6337426476b9ad5dbe2ee67d66,2017-05-16 01:26:32,Jake Bapple,"Took Out Described-By Attribute
+
+The aria-described-by attributes make the page fail WAVE testing. This patch removes them.",False
+78bd96432df7f4db525900a46071207811a32a1a,2017-04-20 12:18:38,leggomuhgreggo,"Merge pull request #2853 from kenwheeler/revert-2605-vertical-center-mode-offset
+
+Revert ""Center active slide in infinite vertical center mode""",True
+1801566535ef683599c448f772f1380f84b915c5,2017-04-20 12:18:20,leggomuhgreggo,"Revert ""Center active slide in infinite vertical center mode""",False
+492b822df6a54f75f5714b2c5389058217064752,2017-04-20 07:08:50,leggomuhgreggo,"Merge pull request #2852 from leggomuhgreggo/master
+
+Prepend Semicolon",True
+fcc8d52735eb6d61e6a466a8143dbe0f4cdd65b7,2017-04-20 07:07:20,leggomuhgreggo,Update slick.js,False
+0c3ddff1fa02191851b21961db6b9b6b37a8f217,2017-04-20 06:29:41,leggomuhgreggo,"Merge pull request #2750 from eirslett/patch-1
+
+Fix for jQuery 3",True
+c21002c927301cefd356f76545986a1134c83f83,2017-04-20 06:19:24,leggomuhgreggo,"Merge pull request #2691 from BrownBoots/fix-broken-attribute-selector
+
+fixed syntax related to [dir=""rtl""]",True
+bf03077d38ba78fe679f8e0340b3277cadf0523e,2017-04-20 06:09:14,leggomuhgreggo,"Merge pull request #2605 from illarionvk/vertical-center-mode-offset
+
+Center active slide in infinite vertical center mode",True
+cab526e40a8a02299d1bab317d0f2db4ec415978,2017-04-20 00:30:52,leggomuhgreggo,"Merge pull request #2521 from marcelombc/master
+
+[fix] https://github.com/kenwheeler/slick/issues/1252",True
+bfc1f941446a371af86fe6bb60c368cefaea176e,2017-04-14 22:31:36,JordanDDisch,1937: Removed aria live attribute,False
+5b812dc0334ad3a577a463b8162156e435edf41b,2017-03-30 01:33:31,Flavio Cysne,"Solving /kenwheeler/slick Issue #2821
+
+https://github.com/kenwheeler/slick/issues/2821",False
+84b0bc1a3909652a0256dfa75ab5191b5c129524,2017-03-30 01:20:39,Flavio Cysne,"Solving /kenwheeler/slick Issue #2821
+
+https://github.com/kenwheeler/slick/issues/2821",False
+dfe16e05dd73e73771870d6686f920f593635cf1,2017-03-30 01:02:18,Flavio Cysne,"Solving /kenwheeler/slick Issue #2821
+
+https://github.com/kenwheeler/slick/issues/2821",False
+b574b3dc1623c7f487b6109862bdfc57acbd8da5,2017-03-29 23:39:25,Flavio Cysne,"Solving /kenwheeler/slick Issue #2821
+
+https://github.com/kenwheeler/slick/issues/2821",False
+88286ef065c3982373650870ce4942d4b530a204,2017-03-29 23:12:44,Flavio Cysne,"Solving kenwheeler/slick Issues #2821
+
+https://github.com/kenwheeler/slick/issues/2821",False
+015add56f5d86ff9a897afb8cc8ff801df11f626,2017-02-06 20:42:53,Eirik Sletteberg,"Fix for jQuery 3
+
+https://api.jquery.com/ready/
+
+> jQuery offers several ways to attach a function that will run when the DOM is ready. All of the following syntaxes are equivalent:
+>
+> $( handler )
+> $( document ).ready( handler )
+> $( ""document"" ).ready( handler )
+> $( ""img"" ).ready( handler )
+> $().ready( handler )
+> As of jQuery 3.0, only the first syntax is recommended; the other syntaxes still work but are deprecated.",False
+961b623aacdd44bdfe5738278425ee668bfd9a69,2017-01-11 06:20:40,Jordan Bradford,"fixed syntax related to [dir=""rtl""]",False
+851da94243016b6fdcce276baf641c2a847a4a56,2017-01-11 01:14:10,Ken Wheeler,"Merge pull request #2690 from leggomuhgreggo/jquery-ready
+
+update on ready event listeners to jquery 3 compliant syntax",True
+17f4d8947caaadbb0b4e08ece51f926b364e7300,2017-01-11 00:50:07,Greg Westneat,update on ready event listeners to jquery 3 compliant syntax,False
+f7db4edf42643018d68a4bd753581a73207a0c04,2017-01-07 00:35:35,Ken Wheeler,"Merge pull request #2681 from fozzleberry/master
+
+Lazy loading with srcset and sizes attributes",True
+3e6147c69af3d2f515753164bfa0e6e883af0da9,2017-01-06 03:25:56,Adam Forrest,fixup! enable lazy loading with srcset + sizes,False
+008bf4ec3e551df13c4eb1bbbef4d96c38bc2ada,2017-01-06 03:18:11,Adam Forrest,enable lazy loading with srcset + sizes,False
+21a426d66a3fad2a2d700aaac548e3866e64af56,2017-01-04 01:02:47,Ken Wheeler,"Merge pull request #2647 from hkrutzer/registerbreakpoints-hasownproperty
+
+Check hasOwnProperty before accessing field",True
+0713ff84d4813c7920d1124779b133493c8fcdb9,2016-12-05 23:14:32,hkrutzer,Check hasOwnProperty before accessing field,False
+19cfa9300236edc1061c5573fc8a64841f4c03c6,2016-11-11 21:01:51,illarionvk,Center active slide in infinite vertical center mode,False
+95e1be8c69ea63e9b957fb5e8f9e882edc63063f,2016-10-26 17:38:47,Ken Wheeler,"Merge pull request #2456 from Rendez/master
+
+Added lazyLoad option 'anticipated' to preload {n} images",True
+c74ed21a65caea8cffdfe0be29add23f7ab7bb99,2016-10-19 04:50:09,leggomuhgreggo,"Merge pull request #2557 from wolfika/hotfix/bower-deprecated-field
+
+Remove deprecated version field from bower.json file",True
+6ceabee9e19ec68e795a222a071aa85f79e1c0ef,2016-10-11 00:09:55,Máté Farkas,Remove deprecated version field from bower.json file,False
+c36399072a6614dd64f7d58b30571f86f5f3aaab,2016-09-21 18:01:55,Marcelo Conceição,[fix] Small issue when carousel is vertical.,False
+38a41dafbab3ea02e30d8cfffbf12facd4b09a57,2016-09-20 14:55:08,Marcelo Conceição,[fix] https://github.com/kenwheeler/slick/issues/1252,False
+a737a4c98a4e342f33dcb548f54725c864b917e3,2016-09-16 18:14:03,leggomuhgreggo,"Merge pull request #2118 from engelfrost/master
+
+Center even number of horizontal slides when centerMode is true",True
+c803470bb4849a2c8a2bb8851c11d11b5c85b502,2016-08-05 12:27:28,Luis Merino,Simplified logic from @AlaaSarhan providing lazyLoad anticipated preload,False
+a34ae427534c8d87a952c4534f4985f9bf2d27c1,2016-08-05 12:26:05,Alaa Sarhan,Added pre-loading feature with a preLoad option,False
+f40ed0350f51b11a0cd65efe7d0fa365f6484394,2016-06-27 20:47:56,leslie tu,make proper jQuery object  before chaining,False
+6db519a9523c9b0a59359440b3be82cb483ec460,2016-06-22 06:01:59,leggomuhgreggo,"Merge pull request #2346 from ibarsi/aria-describedby-tags
+
+Aria describedby Tags - Hide if dots are disabled, evenly distribute  when more slides than dots",True
+454010e5c577ce493b0d6a8b5e22f080a7cc574c,2016-06-16 03:19:12,leslie tu,"edit postSlide behavior such that, instead of setting focus to current slide, interactable-with child elements of this slide are made focusable (again)",False
+a0212e8d4a24b4c02c079f1bcc6a430b9c3986a8,2016-05-27 06:39:54,Igor Barsi,- Evenly distribute aria-describedby tags through available dots.,False
+b6569fd54f64ff8305eb58aedcb35dfaa747e2f7,2016-05-26 06:11:15,Igor Barsi,- Add aria-describedby attributes to slides only if dots are enabled.,False
+0f521c716b8b7390f5cde374498757c10349b380,2016-05-23 08:20:46,leslie tu,Merge remote-tracking branch 'upstream/master',True
+0aee9fe00e440cc9d72c2dc11768ad9277880603,2016-05-06 18:05:49,Ken Wheeler,1.6.0,False
+94ad0687422ad06e1fe654fa70c1889905e0105a,2016-04-28 18:31:45,Simon Goellner,closes #2271,False
+85cae05b99a2f9262c445194dbc13df223773a1f,2016-04-21 18:42:08,Simon Goellner,"Merge pull request #2152 from mazzaker/#2146
+
+Small fix for non-infinite carousels having the wrong amount of pages.",True
+65b2b612acc584ecd900151c51b05f558886ea86,2016-04-17 03:51:01,leslie tu,Merge remote-tracking branch 'upstream/master',True
+f96171ea8a695653d47c8213d51de479668eda6c,2016-04-07 12:26:20,Josef Engelfrost,"Fix indentation
+
+Got the indentation wrong somehow, fixed it",False
+7a79c43f2864ba4087e2961849c2da7bdcfe2de8,2016-03-16 10:50:09,Ken Wheeler,Update slick.jquery.json,False
+411f5ef18a93b3b0d0dcc1fb149a309144377037,2016-03-16 01:20:26,leslie tu,Merge remote-tracking branch 'upstream/master',True
+2564ea9fc0f5087486c0b985108d31c6bc99b49a,2016-03-14 11:38:17,Simon Goellner,"Merge pull request #1045 from tanmancan/patch-1
+
+Changed arrows and dot to use ISO entity code",True
+c902d6171371ddf5e75db6e46fe7bc089911eb96,2016-03-10 21:53:34,Tanveer Karim,Added comment indicating entity code output.,False
+3e11f5bc1a0f0c76bca74773b1962b4caf982497,2016-02-26 01:22:26,leslie tu,sync with upstream,True
+35caa073f947b355ed26ce0623373b26523deb6a,2016-02-24 12:52:52,B. Tiedemann,Something wrong with arrows in vertical mode,False
+8a5d91898c6af84bfca6aef9ce8ee43f5cf2b0df,2016-02-23 20:05:48,simeydotme,Merge branch '2114',True
+3309c974b16d468846d80d03c26b575d49f4aa9d,2016-02-23 20:01:15,simeydotme,"refactor 2114
+- clean up the code from mazzaker to be more like
+  the original style, and also add readability spacings",False
+56362d566d290e3262793ac801d5cee3110ec418,2016-02-23 18:36:28,B. Tiedemann,Something wrong with arrows in vertical mode,False
+d9db550031c4dc8fb8e28757148f5f5414e56598,2016-02-21 21:49:47,Simon Goellner,"Merge pull request #2144 from pra85/patch-1
+
+Fix a typo and add syntax highlighting language",True
+fd5c716f18f5ea305703e112533f2b0d73a2f977,2016-02-21 21:47:20,Simon Goellner,"Merge pull request #2145 from simeydotme/bugfix-2091
+
+Bugfix 2091",True
+c19b5165736caf2354c4c545c4f6db9ec95a339e,2016-02-21 21:43:17,simeydotme,"[ lazyload error ]
+- add error handler to normal lazy load
+- add readme docu for lazyload error event",False
+6b0ecd414a61d0c9aa6f47eaafc8e6778d84519c,2016-02-21 21:30:50,simeydotme,"[ lazyload / progressive ]
+- fix infinite loop in IE
+  - ( https://github.com/kenwheeler/slick/issues/2091#issuecomment-179954332 )
+- add some retries to errored images (incase server/internet poops)
+- make code more similar to Slick.prototype.lazyLoad()
+- add error event trigger
+- add image source to event data for both lazy loads",False
+8e7ac35bee93a4a5d8a60cd01bebb749418cb56d,2016-02-21 21:21:41,Prayag Verma,"Fix a typo and add syntax highlighting language
+
+`intialized` → `initialized`
+Add syntax highlighting language to HTML, Shell and JavaScript code blocks",False
+5aeadba2ba28dcee84ac2d5961092d317bbbae96,2016-02-20 22:56:17,Simon Goellner,"fix typos, remove some extraneous spacing.",False
+148a01267c9d2ea8573848f4f6dd00ae7f79e283,2016-02-20 21:41:59,Simon Goellner,Update ISSUE_TEMPLATE.md,False
+88c51fd7579efcd70b1bd45e17b19c71cd10b0a0,2016-02-20 21:40:30,Simon Goellner,"Merge pull request #2142 from simeydotme/master
+
+lets see if this actually works...",True
+b6e77d8adc8cfd0b708ce3937e51b30ec46d289c,2016-02-20 21:38:30,simeydotme,lets see if this actually works...,False
+48961abda1b14627c23d75605b43bd782be898c1,2016-02-20 15:56:12,Simon Goellner,"Merge pull request #2131 from carolozar/hotfix/accessibility-fix
+
+Remove aria-required attribute in buttons.",True
+ed986388fa7ec2564a0e9fafc4fab3433a6aa010,2016-02-18 04:22:05,Carol Ozar,"Remove aria-required attribute in buttons.
+
+This attribute causes accessibility test to fail as it is only valid for input tags.",False
+ccb028fac1558c3771b935846e4a939e61c5195b,2016-02-15 17:14:53,B. Tiedemann,Wrong direction value on vertical swipe,False
+ebf2a71dae6fedbc43c9c9887a5485260caa0047,2016-02-14 19:07:07,Ken Wheeler,"Merge pull request #1823 from ByScripts/patch-1
+
+Update README. (Fix Settings table)",True
+d76ba2a4428ce23c6768f261474b6549b27b40ed,2016-02-12 16:14:15,Josef Engelfrost,"Remove the rtl condition
+
+The `rtl` condition was a mistake and completely unnecessary",False
+021287980c028e6005fc14dbe9130a74c319bb9a,2016-02-12 15:43:12,Josef Engelfrost,Center even number of slides when centerMode is true,False
+0f11b9715544ac87a5aa82c7def8cf404ed7f440,2016-02-12 03:45:21,leslie tu,add arrow key handler to slick dots where a11y true,False
+3b4fb45e2f333f4e208054f8912fabd1c05cf814,2016-02-12 01:26:25,leslie tu,"where a11y true, on slide change set focus to current slide",False
+8dff2aa29b7729fb9257351f92fd7adad0ed1dda,2016-02-12 00:03:31,leslie tu,correct slick dots total for aria-label text to nearest containing whole number,False
+645c6a335b9f3dc8b090eff84b89c3d6c87e37b2,2016-02-11 01:54:55,leslie tu,"adjust slick slide & slick dot aria attribute indices
+
+account for instances of slick where slide to dot mapping is not 1-1",False
+7cfffd01c97175e1762e6f2a57c782707b22ddd0,2016-02-10 21:28:48,leslie tu,Merge remote-tracking branch 'upstream/master',True
+b195cf9b3d073db7f05a5e5836bf9c9074644036,2016-02-10 18:44:04,Simon Goellner,"Merge pull request #2112 from kenwheeler/revert-2038-master
+
+Revert ""Update: Fix Issue #2035 - Extra dot when slide count was not divisibl…""",True
+fd4d429b3a0037640614b3eb2d077e944d1a42a0,2016-02-10 18:42:22,Simon Goellner,"Revert ""Update: Fix Issue #2035 - Extra dot when slide count was not divisibl…""",False
+26c1db897e6b7c7bc0df3eaafc170f6cde2e3612,2016-02-08 01:49:05,Ken Wheeler,"Merge pull request #2001 from ImmobilienScout24/master
+
+[lazyLoading] Fix partiallly visible elements",True
+84481f2e0bebe7e114451e05962d7f78df02e8a3,2016-02-05 00:18:36,Simon Goellner,"Merge pull request #1941 from ahmadalfy/master
+
+Added note about browser support",True
+1da95039192641c068cfb143364d57cf79e8eb8b,2016-02-04 04:28:33,leslie tu,Merge remote-tracking branch 'upstream/master',True
+4eb5425f88719519605013f09e5c1bed0f9129f1,2016-02-03 13:51:50,Simon Goellner,"Merge pull request #1981 from aicarlson/patch-2
+
+Update slick-theme.less with variables for font path and image loader path",True
+1ebc88f2cec8478f739476222fedb08727722300,2016-01-30 00:05:59,leslie tu,merging,True
+0b984185947943b7fe3337bc8b3096619cda8612,2016-01-30 00:02:45,leslie tu,introduce aria-selected; update a11y attributes of current slide control / tab in initADA,False
+787dc655ecea19cd206496690024085f71660165,2016-01-29 23:41:37,leslie tu,update attributes of slick dots button elements in the context of accessible tabpanel UI pattern,False
+a9c9b35ee8b7281b9bd4f35670a0d2eef340224c,2016-01-29 23:32:11,leslie tu,Merge remote-tracking branch 'upstream/master',True
+b238a6bc52cacdcf8afa5f8e1d9c65e102c0d1f1,2016-01-29 07:28:02,Simon Goellner,"Merge pull request #585 from codekipple/master
+
+Ignore package.json for bower installs.",True
+f7904db83d2e223fd39cf70c462a9da60b941397,2016-01-29 04:44:45,leslie tu,"edit a11y attributes of slick dots, treating the carousel as an implementation of tabpanel",False
+0c5e8cf68b70606076fb624a35a557cc6f5bd58d,2016-01-29 04:38:38,leslie tu,edit / add key a11y attributes of slick slides,False
+c780461bf1b0c9507ead8c7b1ab34b12adcd6f6e,2016-01-28 04:25:36,leslie tu,"Remove attributes not needed from slick dot button markup
+
++ `aria-required` is not needed here; helpful more on, e.g., input fields that are required",False
+6dfe2efbfdecec5a4bec364294540a5ea4d8ced9,2016-01-28 04:19:32,leslie tu,"Remove attributes not needed from default prev/next arrow button markup
+
++ `aria-label` not needed where button text content reads as we want screen readers to read
++ `tabindex` not needed since button element is able to receive focus by default
++ `role` not needed if intended role matches default of element",False
+15ac6a4e291d73d115e10a24ff25d138720dbd59,2016-01-25 23:27:09,Simon Goellner,"Merge pull request #2068 from simeydotme/bugfix-2055
+
+[ bugfix 2055 ]",True
+f81746449a9898605de6b7ec0fdf2a01528f88d2,2016-01-25 23:26:17,simeydotme,Merge branch 'master' of https://github.com/kenwheeler/slick,True
+3f16928bf1057ce48a621ff09174f0e00e855156,2016-01-25 23:20:09,simeydotme,"[ bugfix 2055 ]
+- error with the handling on slider refresh
+- happens when going to a breakpoint with more slides to show than actual
+  slides.
+- fixed bad condition structure.
+
+fixes #2055",False
+66489de2975ff7282edd57e31ab4584fdd1758f2,2016-01-24 23:27:47,Ken Wheeler,Merge pull request #2062 from kenwheeler/package-update,True
+e7b35617a375a8d1ca74b8a3652815f1f8e288a2,2016-01-24 22:04:11,Simon Goellner,add contributors,False
+8b8c638785b5173ad3c9594f48fbede54209668a,2016-01-24 21:06:56,Simon Goellner,Update CONTRIBUTING.markdown,False
+324f9c36cf6ba963410e3c61ae2b6cc7607bbc8d,2016-01-24 07:28:05,Ken Wheeler,"Merge pull request #2057 from earlyster/master
+
+End of carousel and resize with decimal value for slides to show",True
+3d724c084fc67f6f5dd411cb958c7f00456bce15,2016-01-23 19:48:37,Simon Goellner,"Merge pull request #1214 from oller/patch-1
+
+Nest .slick-prev and .slick-next :before pseudo classes",True
+ae0fcfb42886850ec65a9d04c04484055f27eaac,2016-01-23 19:08:14,simeydotme,"Add a check in `postSlide` for unslick.
+because `postSlide` was running after animation,
+it was posssible for the method to re-enable auto play moments before
+destroying the slide, leaving any `asNavFor` targets with two timers
+advancing them, and no way to clear the timer.
+
+fixes #1031",False
+f9f17f3dd78409a4e0603ff923eb6a900fed7d6c,2016-01-23 18:47:50,simeydotme,"Properly addresses #908 - when carousel initialises with autoplay off, but
+pauseOnHover to true, then calls `play` ; now it correctly allows
+`pauseOnHover`",False
+3b50d8710acbdd4dffb8c51e9d304e4be0e52abe,2016-01-23 18:35:11,simeydotme,"[ touch handle for autoplay ]
+Allows interruption of caroulse while swiping/touching
+- properly address: https://github.com/kenwheeler/slick/pull/884
+- closes #884
+- fixes #1694",False
+11c339ef613a3efe9d119c29e4fa8abdba565d3f,2016-01-23 18:22:53,Simon Goellner,"Merge pull request #2060 from simeydotme/autoplay-rewrite
+
+Autoplay Rewrite",True
+753a2cd724cfa48c6d7136233273e312a8b66a74,2016-01-23 17:58:07,simeydotme,"fix small issue with manually setting `pauseOnHover` with
+`slickSetOption`, it was not correctly unbinding and rebinding events,
+fixed now.",False
+785d1698d157e13067b800ff902ff495d954670c,2016-01-23 16:31:19,simeydotme,clean up prototype ordering,False
+0fd456b2cf8c1dcba0d1af9d324ac8a75d398652,2016-01-23 16:28:27,simeydotme,clean up quote marks,False
+8d93ae9a45535ac4a8bb43f47aeb1ee8cae74673,2016-01-23 16:26:51,simeydotme,Document new options from autoplay fixup.,False
+030c1c5be2f4d2dc314870eaa5729d9a866f94af,2016-01-23 16:14:23,simeydotme,"[ autoplay revamp ]
+- clean up autoplay handling
+- new option: `pauseOnFocus` (bool)
+- new states: `paused`, `interrupted`, `focussed`
+
+There were many open PRs and issues with autoplay.
+the main problem was the discrepency between autostart and autoplay and
+the fact that hovering restarted autoplay even when paused, this addresses
+it by using new states to track pause/focus/interrupt which allows fine
+control over whether the slide is temporarily interrupted (hover/close
+window), whether it is focussed, and whether it has been paused
+programmatically. -- the interator method now correctly checks all of
+these states.
+
+- closes #2047
+- closes #1946
+- closes #884
+- fixes #908
+- closes #1021
+- fixes #1041
+- fixes #1166
+- closes #1501
+- possibly tackles #1694
+- fixes #1833",False
+f8e7a80da2e31d11036fc90ccec732a91c477fce,2016-01-22 23:33:24,Simon Goellner,"Merge pull request #1422 from MaxKorz/slick-active-after-reinit
+
+Make sure slick-active is currentSlide after reinit()",True
+d989c84aa9330491e502685ee1d70e6650f626ab,2016-01-22 05:08:08,Justin Early,update to 1.5.10,False
+08fb94245ba75f940cd60f35eee30f71eb7640b4,2016-01-22 05:07:11,Justin Early,"_.currentSlide can't be decimal value 
+
+when we refresh we sometimes get a decimal value here if _options.slideToShow is a decimal value rather than integer value. i.e 4.45 vs 4.",False
+77903c7eae7dd96b2393656996ef6818ed79b96c,2016-01-21 19:42:38,Simon Goellner,"Merge pull request #2030 from openmarco/master
+
+fixing bug when ""init"" event fires before breakpoint is initialized",True
+5c0ed8142c03930c255a135efcf43c712cd52016,2016-01-20 20:27:07,Ken Wheeler,"Merge pull request #2050 from coliff/patch-4
+
+Update slick.less",True
+7a80be84355ec206279dd108e14fcba58416b259,2016-01-20 20:26:54,Ken Wheeler,"Merge pull request #2049 from coliff/patch-3
+
+Update slick.scss",True
+312fca2ad1b1243a5e7157c0f624a44104817ded,2016-01-20 20:26:43,Ken Wheeler,"Merge pull request #2044 from coliff/patch-1
+
+Remove unneeded -moz-box-sizing from slick.css",True
+9d309b560fffb99ffa5830716e2e43e7bcc8f755,2016-01-20 20:04:59,Christian Oliff,Update slick.less,False
+a5e7ef7e3220f1ccc3c91af3c2c54a47d7a51d93,2016-01-20 20:01:36,Christian Oliff,Update slick.scss,False
+286d120948f283786b8220f842f1535cb2bfc6ae,2016-01-20 18:37:58,Simon Goellner,"Merge pull request #2048 from engelfrost/patch-1
+
+Add missing documentation on adaptiveHeight",True
+3060e9715bb40d0eb5069d62f56b6aa08f2a697a,2016-01-20 15:26:05,Josef Engelfrost,"Add missing documentation on adaptiveHeight
+
+I assumed this was missing since it's present on http://kenwheeler.github.io/slick/ but on in the README",False
+6e450d139f763511ad138471792ea22c41fac3dc,2016-01-19 12:49:18,Christian Oliff,"Update slick.css
+
+Remove unneeded -moz-box-sizing. Fixes #1121",False
+f8b090a30c207a465571921a9ed0461202f69439,2016-01-17 19:49:17,Ken Wheeler,"Merge pull request #2027 from krzysiek1507/patch-1
+
+Fix readme default useTransform value",True
+8214946b8dc17942402e7c734ce5cacab979d41c,2016-01-17 16:17:42,Simon Goellner,"Merge pull request #2040 from simeydotme/bugfix-1248
+
+Fixes #1248",True
+2205ef7cfa4cecad018ca57d8bfa4895cc1642a6,2016-01-17 16:02:45,simeydotme,"Fixes #1248
+
+Because of a condition in `sliderHandler()` checking if `slidesToShow <=
+slides` we could never set the slide classes for a nav slider.
+
+Had to split the asNavFor in to two parts, and set the slide classes
+in the `slideHandler()` method when `asNavFor` is set and the
+`slidesToShow <= slides` -- the other option I didn't want to tackle was
+to re-architect the whole `slideHandler` method.
+
+bit hacky. but stable. This architecture  should be reconsidered in 2.0.",False
+36adf672843d6b502eebca0cb5432303f09baa31,2016-01-17 14:28:25,Simon Goellner,"Merge pull request #2039 from simeydotme/bugfix-1446
+
+Issue #1446 - Pause on Hover after `slickPlay()`",True
+22433573a80e5f4addefc226e216762c193d5c73,2016-01-17 14:18:59,simeydotme,"Issue #1446 - Pause on Hover fix
+---
+Seems that when programmatically setting `slickPlay()` it actually
+is triggering `autoPlay()` but never setting `options.autoplay` to `true`
+and thus the `mouseenter` even cannot verify that autoplay is running and
+will never pause the slider.
+
+Fixes #1446 by setting `_.options.autoplay` to `true` when using
+`slickPlay()` ... also updated README to document it.",False
+dfe038358b8b5c40aacb0285d363f2e48d142896,2016-01-17 05:53:04,Ken Wheeler,Merge pull request #2038 from taylorKonigsmark/master,True
+62d7eaf135f32eaaa01e1ac24da95f534e23f70f,2016-01-17 04:43:58,taylorKonigsmark,Update: Fix Issue #2035 - Extra dot when slide count was not divisible by slides to show,False
+d4c88e9a41d820c3cc31e3921eee9c0e79d73b68,2016-01-16 00:33:39,Ken Wheeler,"Merge pull request #2032 from pra85/2016
+
+Update year range to 2016 in License",True
+98e483ebc5718059620d82d22c2a50369d110936,2016-01-16 00:18:51,Prayag Verma,Update year range to 2016,False
+572d9bf65d4f3ef2640d5b3d8c48eea69b282fc4,2016-01-16 00:17:58,Ken Wheeler,Merge pull request #2031 from doubleswirve/feature/wordpress-vip-compatibility,True
+e7ff6008981c3093df9ae6440e9639d4c7b80025,2016-01-15 22:04:01,Saxon Stiller,update ul class attribute setting in buildDots method,False
+6bdd32c80b5cc447cc0d59d78158b71b3c2159be,2016-01-15 21:55:10,Saxon Stiller,replace innerHTML call in cleanUpRows method,False
+7c1deba53eae6a007f3c18afbd5d8dabe76a3749,2016-01-15 21:54:16,Saxon Stiller,remove innerHTML usage in buildRows method,False
+288948be6df453c0ab69ecc161fce48a3d9bf93b,2016-01-15 21:48:54,Saxon Stiller,change customPaging default func to use jquery dom construction instead of html concat,False
+896cd4a5e03c6c1b2992ca2f49987516a4fabbdb,2016-01-15 21:46:42,Saxon Stiller,fix call from text to append in buildDots method loop,False
+cd03c26debfc4efeeea4661c0ac534a37af5dd98,2016-01-15 21:43:58,Saxon Stiller,replace html string concat with jquery dom construction in buildDots method,False
+844207216fc3f89f584c4679da727e7b2bc7c064,2016-01-15 21:30:01,openmarco,"fixing bug when ""init"" event fires before breakpoint is initialized",False
+68a36ec941b18ef666bf20a125d5d70c1647ea48,2016-01-15 19:07:07,Krzysztof Rybka,Fix readme default useTransform value,False
+643fdcd1d470b2beb9c5fe0fdbc32ea8d6eb65cc,2016-01-15 07:29:04,Ken Wheeler,Fixes #2011,False
+64a483d01f2db2672e67d4ce1e78d39b0c767329,2016-01-15 05:59:23,Ken Wheeler,"Merge pull request #2025 from kenwheeler/revert-2010-master
+
+Revert ""Rebuild rows after breakpoint""",True
+89b8ea03b055fd40d4a5054e9c2f0fbcd5436f1d,2016-01-15 05:59:09,Ken Wheeler,"Revert ""Rebuild rows after breakpoint""",False
+67dd77a543041cf75fdd663892db53a18792b01b,2016-01-11 19:23:50,Ken Wheeler,"Merge pull request #2010 from sebastiancichos/master
+
+Rebuild rows after breakpoint",True
+61e03f22057c7ca85bb6d96a3e3820a27ae9fe26,2016-01-11 17:08:18,Sebastian Cichos,Update slick.min.js,False
+510b7f515c72fae540a870adf26f2bc3dccef0bb,2016-01-11 16:29:20,Sebastian Cichos,Update slick.js,False
+71423f22e7186c32a9f18667abe2e112856c930f,2016-01-10 20:24:15,Ken Wheeler,gitignore,False
+597ba3215aa95f6d0e6331560d0e14ca9fbf7543,2016-01-10 20:14:31,Ken Wheeler,Fixing useTransform default,False
+aa64378f27fdbe4200c930da1e5e14ec6dce663c,2016-01-10 09:35:47,Ken Wheeler,"Merge pull request #2006 from sankaran8/patch-1
+
+update slick-theme.css to avoid erro in gulp",True
+e4f455c64ebfeb267ffa1c52cf8f7832ba7ff364,2016-01-05 20:50:11,jzastrow,"Fix partiallly visible elements 
+
+Fix partiallly visible elements when using fractional slidesToShow settings.",False

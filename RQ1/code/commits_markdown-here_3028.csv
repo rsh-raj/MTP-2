@@ -1,0 +1,89 @@
+Hash,Date,Author,Message,IsMerge
+a7dd5c56daf58a278af4f2a05f41807ec6cbbe4a,2024-12-11 07:26:41,Adam Pritchard,"update the privacy policy to mention LaTeX rendering service; make LaTeX support off by default
+
+This is prompted by PR#877, where a user pointed out that the caveat should be present.
+
+I am uncomfortable enough with this that I'm making the feature off by default. If #874 (local LaTeX rendering) ever gets implemented, this should be again made on by default.",False
+0dec4db6b756ff51f1793c08b42834d9a367264e,2024-12-10 07:33:11,Adam Pritchard,fix French typo,False
+aa4197d167662501b83c54f19132268b4cbfa0e8,2024-12-10 07:24:53,Adam Pritchard,"Merge pull request #683 from Gitoffthelawn/patch-1
+
+i18n AMO & Opera links",True
+04449669560c9810899601aeec30e8361d6d9083,2024-12-10 07:20:43,Adam Pritchard,Merge branch 'master' into patch-1,True
+4d0e0e98d5c827db878765381c3a0c1c62c1380f,2024-12-10 07:07:17,Adam Pritchard,fix typo,False
+08ec9fcfb166474d85cd0f49e2120248b041201c,2024-12-10 07:05:33,Adam Pritchard,fix typos,False
+5b470b3f595f2034733fb644f7145c769ffcfe00,2024-11-25 07:43:36,Adam Pritchard,update my own CLA with new md5sum,False
+0f3fe0aef54ad5de2e4e7062051ede9d5f702213,2024-11-24 23:18:59,Adam Pritchard,replaced GGroups with GHDiscussions; removed support for Postbox and Inbox,False
+0db8508a6ec6881be0f7ee9261a17032c181d991,2024-11-12 07:04:53,Adam Pritchard,"Merge pull request #876 from mtlynch/donations
+
+Add sponsorship button to Github",True
+a37f879d71b4053cb8b819468ae723b3508dcf5c,2024-11-11 01:04:57,Michael Lynch,Add sponsorship button to Github,False
+40200b3e50e6e74a29773ed58d46d8037ceabf79,2024-11-10 06:51:55,Adam Pritchard,re-enable opening the changes on update,False
+f623b0dd75bf14793a291dae725dfe9ed0d289b6,2024-11-10 06:45:43,Adam Pritchard,"Merge pull request #875 from adam-p/dev
+
+switch default TeX renderer",True
+605f64b8d54995a2fc7fe09bf67aef10b3930919,2024-11-10 06:43:52,Adam Pritchard,bump version; add change note,False
+0f8fecb3543334e79cb9e3c5dc36fb1fd1f25468,2024-11-10 01:56:13,Adam Pritchard,"Merge pull request #873 from adam-p/new-latex
+
+Switch LaTeX renderer to CodeCogs",True
+9628a6dcf67fda9690a0f3a8261794f66b583302,2024-11-10 01:49:38,Adam Pritchard,"use codecogs for LaTeX rendering by default
+
+Note that the changes in the translation files is mostly just churn. The non-English locales' JSON files weren't properly getting English fallbacks added to them; I did that and sorted the keys on output, to prevent future churn. But the difference in order and whitespace bloated the diff. In the future this shouldn't happen.",False
+a513139e3ac83140e1122e407d90e29dd4501e0e,2024-11-09 22:38:05,Adam Pritchard,fix test broken by previous change: default schema is now https,False
+4bfd5746e627fa4716489a0d3375e411fac1386e,2024-11-06 07:15:28,Adam Pritchard,update the home page of the logo artist,False
+480509832c9695cf19d1b7ce06099b602ea3331c,2024-11-05 17:16:56,Adam Pritchard,"upgrade a lot of URLs to https
+
+Because it's embarassing to have http URLs in 2024.",False
+bdb817736a6bd5f440c56a60d15730c6d57bef7b,2024-10-17 19:01:16,Adam Pritchard,"switch to fetch for checking for the test file
+
+getLocalFile intentionally doesn't cope with errors, so it was the wrong choice.
+
+This could have been causing real errors on the options page (as `loaded` wasn't being set to true), but I didn't observe any problems.",False
+f48a41eb2d9e10ba5d4ee7878ddb01225124f203,2024-10-13 02:47:24,Adam Pritchard,"Merge pull request #870 from adam-p/manifestv3
+
+Support WebExtensions V3",True
+d11c42a7cf6b24b38f728e570512b9f8d40e0015,2024-10-13 02:46:04,Adam Pritchard,update version number and changelog,False
+e151d381d9dea8f92c5f5f822b94031ded606461,2024-10-13 02:46:04,Adam Pritchard,add pointer cursor when hovering checkboxes and their labels,False
+2ba02d9a169f2ed937b9d0199289ef3f7ddbe949,2024-10-13 02:46:04,Adam Pritchard,"update archiver packaged used for building
+
+The old version of archiver didn't seem to include CRCs. This would cause errors from 7zip and made me nervous about the builds being correct.",False
+0b288c599437e5be0de2df4eb6cd0afbcd702344,2024-10-13 02:46:04,Adam Pritchard,update instructions,False
+dd3da2502292a88d61cfac90fc5b87cd13b0ffc9,2024-10-13 02:46:04,Adam Pritchard,"remove all uses of XHR; rework getLocalFile
+
+The service worker background doesn't allow XHR reqs, so replace with `fetch`. Also expanded use of `getLocalFile` so that it's used for all(ish) local file requests (rather than sometimes using XHR/fetch).",False
+1f7445355a7111162341cf84fe486cdce81dfd7f,2024-10-13 02:46:04,Adam Pritchard,MV3 nominally works in Chrome,False
+85017cad33b77739d6eb1916ffdc9026e9008cee,2024-10-06 02:28:42,Adam Pritchard,add privacy policy file,False
+7a229821f35fb15781f30254b94bac328d40a658,2022-02-16 11:15:05,Gitoffthelawn,i18n AMO & Opera links,False
+1df5aee09cae90e2991db4e9cfb8c1b65a3c1898,2018-09-30 18:47:46,Adam Pritchard,"Merge pull request #527 from adam-p/fix-tbird-intl
+
+Fix #524 and #526: Broken in non-English Thunderbird",True
+83539e4d1cebd2035969c0690cb75827d3e26cd2,2018-09-30 18:42:20,Adam Pritchard,"Bump version, add CHANGES note",False
+54fb24b77b34a1a3f2952f779ac17c53049f3043,2018-09-30 06:24:00,Adam Pritchard,"Fix #524 and #526: Broken in non-English Thunderbird
+
+A string added in the Firefox 60 fix wasn't copied to the non-English `messages.json` files, which meant that it wasn't in the non-English `strings.properties` and `string.dtd` files. This caused Thunderbird to not load the overlay in Thunderbird, which prevented it from being present in the message window.
+
+To help mitigate this in the future, to some degree, the `i18n.js` script makes sure that all English strings are present in the other languages when creating the the .properties and .dtd files. But I still have to remember to run that script.",False
+78febfcaefd922fd98e0910d75da8cb26494fdd8,2018-09-14 06:29:58,Adam Pritchard,"Merge pull request #520 from adam-p/tbird-fix
+
+Fix #495: Stopped working in Thunderbird 60",True
+ff5f1dbc98b00c09d27252f03007ddb34d6642fb,2018-09-13 06:04:39,Adam Pritchard,Fix some problems blocking Tbird extension submission,False
+79e02bfcb0e02af41704c22bc3ab2caf78be811e,2018-09-12 07:16:35,Adam Pritchard,"Bump version in manifests
+
+And copy over some linting stuff from the defunct xul branch.",False
+0982ef4d012a674ba7dbe3f519227f67094b2133,2018-09-12 07:03:29,Adam Pritchard,Fix #495. Add changelist item.,False
+d16a0d9fef154d7ddd3d5c5b4caa22d01033965f,2018-09-12 06:51:39,Adam Pritchard,Add prompt to help old-Thunderbird users find open-options menu item,False
+cade5ea02e6fa39c14853d7576105161dcf4d5d1,2018-09-12 05:45:18,Adam Pritchard,Add ability for Thunderbird <= v59 to open options,False
+c151c4e6bc3cb4c3e26fb67d333abc236ce6382c,2018-09-04 00:04:36,Adam Pritchard,Refactor Thunderbird prefs getting/setting,False
+843dd3a247eee6cdca4bb864f71846dd21ef13e7,2018-08-27 06:28:50,Adam Pritchard,"Merge pull request #518 from dugite-code/TB60
+
+Thunderbird 60 Fixes",True
+1d0d3878ed1b63ceb0d33856c626194758501e6f,2018-08-21 11:37:47,dugite-code,Sign CLA,False
+e4075637edd44491df2ed75e07c0cb35b6312805,2018-08-21 11:08:26,dugite-code,fix last-version key name,False
+496c0224b473107502e8c6fdb91e9b0ba0b1b928,2018-08-21 10:51:07,dugite-code,"Thunderbird 60 Fixes
+
+- CSS for the preference dialogs has moved
+- NsISupportsString in setComplexValue() has been dropped in favour of setStringPref()
+- Thunderbird 60 refusing explicit decliration of option type 1 in install.rdf",False
+6bdab321d3b1415ff99d7dc9bba4f2ebf714bc7d,2017-11-08 20:58:56,Adam Pritchard,Remove WebExtensions notes,False
+82c2900e4453da7350358e18cc7453dec190b7e6,2017-10-30 07:35:07,Adam Pritchard,"Merge pull request #318 from michaelstepner/master
+
+Forgot-to-Render check for Fastmail",True

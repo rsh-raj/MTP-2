@@ -1,0 +1,63 @@
+Hash,Date,Author,Message,IsMerge
+f5990756495bfd6d86495733bfb238c96771cbbf,2016-08-05 11:07:30,zhangyaning,"Merge pull request #237 from bardiharborow/patch-1
+
+Rewrite and cleanup README.",True
+6ca53fd9de25f25fc6498b75003462de5a539ec5,2016-08-05 10:59:01,Bardi Harborow,Rewrite and cleanup README.,False
+951598fde31ec86e3901ad56fcaff8eaa7095cef,2016-06-03 14:35:41,zhangyaning,"Merge pull request #233 from shakeelmohamed/master
+
+Update favicon to have a transparent background",True
+4a9ef4a25a3e0f7aa0dba9614e46be4cd1214062,2016-06-03 14:30:42,Shakeel Mohamed,fix aspect ratio,False
+3030974302fddf033dfdb696670453e6226166a1,2016-06-03 14:27:43,Shakeel Mohamed,Update favicon to have a transparent background,False
+ed9d7149afac5cff03f9dbac0e3a79008389f519,2016-06-03 14:24:35,zhangyaning,"Merge pull request #232 from shakeelmohamed/master
+
+Fix broken languages link",True
+5302ed4f4bc6454d334dbe83c03f843a4b400b47,2016-06-03 14:21:00,Shakeel Mohamed,"Fix broken languages link
+
+This especially broke the link when the language is C++ because the + characters weren't encoded properly",False
+72af4ba508713dc99bb3b87192b25b0aa4e086ad,2016-06-01 13:43:26,zhangyaning,"Merge pull request #231 from joaosa/master
+
+Fix processing empty descriptions for private repositories",True
+e86661054ff34b5fe5f5f0b78f027dddaac3e013,2016-06-01 13:41:05,zhangyaning,"Merge pull request #230 from himanshub16/master
+
+Added favicon icon",True
+825763d4c3def30fcc64f41be7025cc31aaed25c,2016-05-26 20:05:46,Joao Andrade,Fix spacing,False
+59281630d849fca9e318ac0af8ac0f032c30b901,2016-05-26 20:03:08,Joao Andrade,Fix processing empty descriptions for private repositories,False
+25f60bfd36e1593727324aaeefc4c79d2934325e,2016-05-19 17:05:15,Himanshu Shekhar,Added favicon icon,False
+2790a6d55a53f20523a632c6cc6e190f35f10a36,2016-05-07 11:32:50,zhangyaning,"Merge pull request #228 from aldahick/issue210
+
+Fix #210",True
+e4e6b1efb9986f6149fedf7ee9f42c90a69c4a27,2016-05-07 11:30:38,zhangyaning,"Merge pull request #229 from himanshub16/patch-1
+
+Autofocus added to index.html",True
+70d691145797330b8b521506ebed624df7701268,2016-05-07 11:09:38,Himanshu Shekhar,"Autofocus added to index.html
+
+index.html has now autofocus on text input.",False
+6e2c7ee30dc982b8c11d27ae25081f66998eb102,2016-05-06 00:48:55,Alex Hicks,Fix #210,False
+07b3a6d3a831b3de5d582f7b171ff4ca913ab4ac,2016-02-22 08:17:56,zhangyaning,"Merge pull request #225 from PeterDaveHello/patch-1
+
+Update index.html",True
+0ea9185489821b619f372cf18e7b5c0b2ab76e26,2016-02-22 08:11:21,Peter Dave Hello,"Update index.html
+
+It's GitHub not github.",False
+60a71261dfadddb43107c9cf0813f33f1a941b25,2016-02-22 07:42:30,zhangyaning,"Merge pull request #224 from PeterDaveHello/examples
+
+remove the users haven't opted in in index example",True
+6f7bbcc8a65bfb497c261cd8c01693d6a6270c27,2016-02-22 07:40:23,zhangyaning,"Merge pull request #223 from PeterDaveHello/patch-1
+
+Update index.html",True
+1293a65ca4fcbe47a9e7155477e3af48239f5cd9,2016-02-20 20:04:10,Peter Dave Hello,remove the users haven't opted in in index example,False
+eda11c68867ef18e56a9e975dd4398b4e0b1082c,2016-02-20 19:53:19,Peter Dave Hello,"Update index.html
+
+Googlecode platform is going to close, so load html5shiv from CDNJS with https.",False
+56c155c1fdcaacd8b77665b8093474a22c1577fd,2016-02-19 09:53:55,u2,per_page maximum only 100,False
+41c61e7ee9223b1b5023765d73fc028b476537f1,2016-02-19 09:14:17,zhangyaning,"Merge pull request #221 from PeterDaveHello/patch-1
+
+Update index.html",True
+672c1c0278dad3ece478daa7dc1cb18d677f1c18,2016-02-19 08:53:34,Peter Dave Hello,"Update index.html
+
+Load yui from cdnjs to benefit from http/2.0
+
+yui-s.yahooapis.com doesn't support http/2.0 yet, load resource from the same domain can speed up, also more people uses CDNJS.",False
+734a592f7d638f30fd34ecc81c0b74285956fa16,2016-02-18 22:29:32,zhangyaning,"Merge pull request #211 from simonardejr/master
+
+just adjusting some texts :-)",True

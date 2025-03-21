@@ -1,0 +1,274 @@
+Hash,Date,Author,Message,IsMerge
+cea522bc41bfadc364837293d0c4dc585a65ac46,2022-09-22 21:53:15,lopezvit,"Update package-lock.json
+
+trying to fix https://github.com/eligrey/FileSaver.js/issues/696",False
+9806041b0e800979dddabbaa1b5f6ce6952d7cd7,2022-07-11 17:43:59,Eli Grey,"Merge pull request #568 from micahjon/master
+
+Add namespace to prevent conflict with Chrome Poper Blocker extension",True
+b5e61ec88969461ce0504658af07c2b56650ee8c,2020-11-19 19:04:15,Jimmy Wärting,Update package.json,False
+b590aeeb3958a1baebfaa86000938c64a026e721,2020-11-19 19:02:58,Jimmy Wärting,Update FileSaver.js,False
+5bb701bd6ea05a02836daf8ef88ec350a1dd4d83,2020-05-28 07:35:15,Eli Grey,Merge pull request #652 from rajivshah3/fix/only-macos-webview,True
+43bbd2f0ae6794f8d452cd360e9d33aef6071234,2020-05-22 08:19:09,Rajiv Shah,chore: Rebuild dist,False
+a60d75f18b5769774838d8643a9b225b80a1467d,2020-05-22 08:18:52,Rajiv Shah,chore: Bump version to 2.0.4,False
+e5e74d69f4e0eb05d4b69f71fcd87a028ccac949,2020-05-22 08:18:19,Rajiv Shah,fix: Refine macOS WebView check so that it is false for browsers,False
+648ff96f8b2b69024c719e018ec20712771b8470,2020-01-31 06:14:01,Eli Grey,"Use FileReader in macOS native apps using WebKit (#613)
+
+Use FileReader in macOS native apps using WebKit",True
+7a8ff3cc6ae717b6c7628b3c280a5c593c2206ee,2020-01-31 06:10:57,Rajiv Shah,"Switch isWebKit and isSafari conditions to maintain behavior
+
+Using isWebKit before isSafari could cause Safari to use FileReader even if force === false, since the user agent for Safari also includes AppleWebKit",False
+0a2e868b48b6d745a0f2b9bf448f9226925efcd0,2020-01-31 05:50:04,Rajiv Shah,Rebuild dist,False
+16a8bb9e8fb419d97d810c68e00ce3f4f888eb07,2020-01-31 05:48:02,Rajiv Shah,Bump version to 2.0.3,False
+572f2548349da990a4e03e9b89a385fc9fe1051a,2020-01-31 05:30:37,Rajiv Shah,Ensure Chrome iOS still works,False
+d3d2bd20d636b6b786bec05374d8807d06efe344,2020-01-31 05:20:01,Rajiv Shah,Merge branch 'master' into feature/webkit-macos,True
+480d547986765f6cd402702c5606f27be6fd810b,2020-01-26 03:36:39,Susanne Gerber,fix small spelling error,False
+db7880179f1ad1b78197744b3adb7e9e3291d1c7,2019-12-22 04:11:53,Rajiv Shah,Use FileReader in macOS native apps using WebKit,False
+9a0a1e4ae2732c2d8eedc0214ef1c0fa32d15150,2019-10-22 23:12:27,Eli Grey,Add GitHub Sponsors funding method,False
+1ea2325a7521a97ad7c09ba7f11c2d06942675e1,2019-10-15 01:43:09,Eli Grey,"Bump mixin-deep from 1.3.1 to 1.3.2 (#601)
+
+Bump mixin-deep from 1.3.1 to 1.3.2",True
+35e9d8127d25883fb6a5bd803334e29869b31d79,2019-10-14 23:52:49,dependabot[bot],"Bump mixin-deep from 1.3.1 to 1.3.2
+
+Bumps [mixin-deep](https://github.com/jonschlinkert/mixin-deep) from 1.3.1 to 1.3.2.
+- [Release notes](https://github.com/jonschlinkert/mixin-deep/releases)
+- [Commits](https://github.com/jonschlinkert/mixin-deep/compare/1.3.1...1.3.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+538c4b57519a35d6245fb2390b6efc4233012dd4,2019-10-14 23:51:37,Eli Grey,"Bump lodash from 4.17.11 to 4.17.14 (#575)
+
+Bump lodash from 4.17.11 to 4.17.14",True
+556db1f6df33da0fe8954dcea3fb49b11830e9c5,2019-07-16 12:04:35,Eli Grey,"Merge pull request #577 from chrisdoble/master
+
+Fix downloads in Chrome iOS",True
+b95a82a3ecb208fef5931e8931b2a8e67a834c02,2019-07-16 11:44:44,Chris Doble,"Check that FileReader exists, not that it's an object
+
+Fixes #576",False
+35f0e568d99d250d2f091d3ebfeac765dd7d8764,2019-07-11 09:11:59,dependabot[bot],"Bump lodash from 4.17.11 to 4.17.14
+
+Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to 4.17.14.
+- [Release notes](https://github.com/lodash/lodash/releases)
+- [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.14)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+a7e1ccfc44decde2679b078cf6f31b450db9523f,2019-06-12 11:09:07,Eli Grey,Create FUNDING.yml,False
+0403f771ac53500266a19805bc2e9a0329a24c1e,2019-06-07 23:52:21,Micah Miller Eshleman,"Add namespace to <a> tag to prevent conflict with Chrome Poper
+Blocker extension
+
+Fixes issue #561",False
+1bc9ed39c4844108f37f801b9b092038a5f5f8b4,2019-05-14 13:30:17,Jimmy Wärting,bump minor version,False
+71f266f93ec005001755b6c6d75c67e723de1b74,2019-05-14 13:16:41,Marcin Rybacki,Missing dist build,False
+9bd5261f602cef5ba5a6dcf7a4e44f2ea26c40a0,2019-05-14 13:16:41,Marcin Rybacki,"Catching an exception on Send. This happens when request for HEAD returns 405 Method Not Allowed. Instead of error http status, this may throw an exception. Return false and fallback to link download.",False
+3caf053bbd62b83bd3be4f0f641afa135a34ae63,2019-05-14 13:15:57,Oskar Köök,fix autoBom documentation,False
+04ca36440df3819a1a9f4b4e5d67cb782e53cfa1,2019-03-01 14:17:36,josephrocca,Updated Chrome data,False
+d87b4196169cb35b3bb0e02421c9e75fa8673e49,2019-02-17 22:15:48,zachary parrish,"Update README.md
+
+Just made some minor grammar changes",False
+3e46b730528fa34a82fcd97ba98d6e08c6f8eddf,2019-02-17 19:54:08,Jimmy Wärting,Update package.json,False
+b1ab5889468b580f2754cde18edaea5a6b5d8ccb,2019-02-01 15:59:14,TypeError64,Update README.md,False
+4a73fd7a2dcdc6ce2947433af3d3fbad56a019fa,2019-01-07 17:32:54,Nathan Phillip Brink,Fix a few spelling errors.,False
+0e905a3e06ac52cc22368aa6269ba0a2bb675b54,2018-12-29 15:32:50,Alexander Светлый,"Update README.md
+
+Fix import",False
+283f438c31776b622670be002caf1986c40ce90c,2018-12-29 15:31:25,segovia,"Fix accidental rewrite of global saveAs function
+
+The change is just to put parentheses around the code after `var saveAs = _global.saveAs ||`
+and then indent it properly.
+
+closes #498",False
+be09a02e8cd3fe7046a692b19f6aa9631d0146c7,2018-11-14 17:04:32,Jimmy Wärting,"Removed eval
+
+closes #491",False
+72effade4db27b0647bd0e39404cfaa120baaf54,2018-11-03 00:15:09,NeeEoo,Fixed grammar and punctuation,False
+3ecf5a9f55bdf33971738bab83215afdfcaac9d9,2018-11-02 18:32:44,Vasyl Zuzyak,fix: make typo go away,False
+6d09d0980b8eb5f1e098409e6a7c80ceb319c361,2018-10-25 16:41:46,asaarnak,Add sourcemap to /dist folder. #481,False
+00183093bf92592fe231e56b0e681fe150123ccb,2018-10-18 15:10:36,Jimmy Wärting,don’t throw on module.exports,False
+cf70d125b048349fb084d8c8395ee790b83c685c,2018-10-17 03:28:13,Ben Ni,"replaced the non-breaking space at with space
+
+This is causing IE to unable to recognize the { on line 49",False
+bbecae4d41bef588e2806b8c310637ee37135fe3,2018-10-11 00:51:16,Eli Grey,"Merge pull request #477 from jeffbdye/patch-1
+
+Minor misspellings in comments",True
+b08a6d256c0c151873cc0d33f56e03c320677eea,2018-10-11 00:42:43,Jeff Dye,"Minor misspellings in comments
+
+Just some quick fixes for comments in the file.",False
+767f830766dcad6afc68b6f0d9aa6dc64f956cb0,2018-09-28 18:31:52,Patrick Löcker,Fix spelling of click-function,False
+74846b33fe477286fccc47f549367d17c27040c4,2018-09-28 00:30:17,Jimmy Wärting,switched export method,False
+556af82e6ae8e2d5cd5023ffcfc77a88094daf07,2018-09-26 23:03:47,Jimmy Wärting,changed the way how you import,False
+15d96ca835a556c7f4161873f0884096637ad483,2018-09-26 22:57:47,Jimmy Wärting,Update CHANGELOG.md,False
+047fa34d15bcbc384c818642e620a9c2e8749a1e,2018-09-26 22:27:34,Jimmy Wärting,Rename changelog.md to CHANGELOG.md,False
+5183da9c57fa94cdec111b29dd04d1ec8b68f6d3,2018-09-26 22:18:39,Joshua Rippon,Updated how saveAs is imported,False
+b796e069a9ea6a32db683267b374a1af59d924ec,2018-09-26 20:42:48,Jimmy Wärting,reference another issue,False
+410208d4f98028fc8e9f0b7d4fdac99769943782,2018-09-26 20:40:49,Jimmy Wärting,made issues to links,False
+70c261d0268e4d02154c12e8ffd6069f82275ac8,2018-09-26 20:34:34,Jimmy Wärting,"rc.2
+
+Dispatch event instead of using a.click()
+closes #465
+
+added a changelog
+closes #466
+
+Made third argument as a object instead for easier transition to v2",False
+f3b45ae5807e4b1f7bf8f2c1692b969a1288cc28,2018-09-26 16:10:14,Jimmy Wärting,"Remove the implementation
+
+The spec was abandoned.
+
+Many download files from the server so recommend them to use headers instead",False
+31eccd14f95e3220d4e30b095e481157f3ee6ac2,2018-09-26 15:49:51,Jimmy Wärting,everything but dist folder,False
+eb11f655e6541035541e1601f2ec64fb4c909838,2018-09-26 15:42:52,Jimmy Wärting,fix bom api docs,False
+eaeac8dc3c2b1d0c260006cf0a93002dab560fd4,2018-09-26 15:39:50,Jimmy Wärting,fix BOM api docs,False
+9e931126f5c3dc48ce88deac9598f2c83470ec5a,2018-09-26 15:30:35,Jimmy Wärting,docs for using url,False
+37d757bbc613e0613d296bcbb362c44fac2c61c0,2018-09-26 15:30:35,Jimmy Wärting,don’t crash in worker,False
+4de5ebccc835edd2d19fdf3855ce1617a8f3b8d6,2018-09-26 15:30:35,Jimmy Wärting,new version,False
+5cbe331ec875950cfb6a50942a01091857a9f6e6,2018-09-26 15:30:35,Jimmy Wärting,include the list folder,False
+a67731daf458ce8782a05ce49a008ec5e8f566fc,2018-09-26 15:30:35,Jimmy Wärting,update dev rep,False
+660c35cdb8b9e5c26d9b5b7dcb7af2799f80cef1,2018-09-26 15:30:35,Jimmy Wärting,remove old demos,False
+5db588a568aa542b98b04d5708fb8a1448961001,2018-09-21 02:48:25,Owen Blacker,"Amended link to Apple's WebKit bug (#454)
+
+WebKit bug №102914 is no longer the ticket referencing the ""iOS can't do this"" problem — that ticket has been closed since it was resolved on MacOS.
+
+The appropriate WebKit bug ticket is №167341: [iOS] Add support for the download attribute, so I have updated the link appropriately.",False
+1144ac42bb762f40d6dd272ea8d6aa88f2cb8e49,2018-08-07 23:14:51,Jimmy Wärting,"Add precaution note about file constructor 
+
+closes #455",False
+00e540fda507173f83a9408f1604622538d0c81a,2018-07-17 23:20:43,Eli Grey,"Merge pull request #450 from ps011/master
+
+Added import statement in syntax section for ease of use",True
+23d400231f637fb75201dbf54438b8b664b3cabc,2018-07-03 14:31:01,Soni,Added import statement in syntax section for ease of use,False
+e865e37af9f9947ddcced76b549e27dc45c1cb2e,2018-03-23 02:39:13,Eli Grey,Revert #408,False
+a606064f3747d8e8f753e9a3d9eedbed8799431a,2018-03-23 00:18:05,Christopher Hunt,Revert interface change. (#411),False
+28a86d90c44ecccebd1bb459a3cd15438625cb51,2018-03-23 00:17:45,Bryan Wain,"Fix files included with npm (#413)
+
+the files pointed to by main and module are not included in the npm installation",False
+5914e2a57341d6ff2fb3d4699fae1d2f8971e46a,2018-03-21 03:00:18,Eli Grey,Version bump for 1.3.7,False
+6356c3f6f6832e1ec784230b43689310445b6857,2018-03-17 03:15:20,Eli Grey,"Set target=""_blank"" on save link
+
+Also normalize setImmediate usage
+
+Fixes #408",False
+24f9aaca805b946907ee64e39bd4691535e987bd,2018-01-25 15:16:34,Eli Grey,"Merge pull request #397 from Rillke/patch-1
+
+Update @source in FileSaver.js",True
+f1959c87cdfec2e328c89592b7a84026585f5733,2018-01-25 06:24:51,Rainer Rillke,Update @source in FileSaver.js,False
+dfd58561fb18c7a1fb0d3cacbd77e85a2b3fd320,2018-01-23 05:23:17,Eli Grey,Use `export default`,False
+a5dbf55c17286930a3488004f83dfc94c1fcca2d,2018-01-23 04:19:06,Eli Grey,"Merge pull request #391 from ogonkov/use_babel
+
+Run build via `babel`. More changes and cleanup to come",True
+5978f3c5773ba5ddae51367b234b87afb45ec6d1,2018-01-23 02:42:19,Alexey,Avoid using `window` in export,False
+9570cf7362b6d0dbd74c6053c750f42293ade0d7,2018-01-14 14:20:55,Alexey,Update readme,False
+b1158d0c33b1a22af311fdf66db04c6062b89b04,2018-01-14 14:14:50,Alexey,Update `main` in `bower.json`,False
+b6c236d96d3e49fbef88ce33e01535522634b4f8,2018-01-14 14:13:44,Alexey,Add check for `window.saveAs`,False
+164deec5abd1e052ef6ed7db91884979984b4ce2,2018-01-13 14:31:32,Alexey,Build to `dist` folder,False
+99a89750b0916a3c9e8fa6fb57bf66ee180ebd41,2018-01-13 14:09:48,Alexey,Update prepublish script name,False
+ff675f80526a79477210e8c2cee794b95f7d326f,2018-01-13 14:07:02,Alexey,Change to named export,False
+17d5c67eb318bd22d1ecfd3ef1a8fdbfd771dc51,2018-01-13 14:07:02,Alexey,Fix `files` section in `package.json`,False
+70bb521e5def15277ae4d908e26ddea8e2c60401,2018-01-13 14:07:02,Alexey,Preserve generated files location,False
+b4c11367c083204206506edfcf85050745b8f69f,2018-01-13 14:07:02,Alexey,Build minified version,False
+281a1c1a93c053bc88e7d714df12238b358e656f,2018-01-13 14:07:02,Alexey,Run build before publishing,False
+d02373e40d232a409c430fdd01f4b42bc77862ab,2018-01-13 14:07:02,Alexey,Preserve source file for npm,False
+d7f5db32448211622f0a93bd11b807c54d29cea3,2018-01-13 14:07:02,Alexey,Run build via `babel`,False
+b4a918669accb81f184c610d741a4a8e1306aa27,2018-01-12 18:33:49,Eli Grey,Update version number for #387,False
+5733e40e5af936eb3f48554cf6a8a7075d71d18a,2018-01-12 18:30:59,Eli Grey,Fixes #387,False
+74f089808ec84ddb10e34b9b85319725742e63c8,2018-01-12 18:26:18,Eli Grey,"Merge pull request #387 from arasabbasi/patch-1
+
+Fix RollUp-Error because of This is Undefined Rewrite",True
+fe42ec4055a28e005839b99ad12eb7a6d31d06d7,2018-01-12 18:16:49,Aras Abbasi,Update FileSaver.js,False
+0b9054253529ab294a7ebd84cee052f0706c8466,2018-01-12 17:44:59,Aras Abbasi,Update FileSaver.js,False
+c3e4a45021f205a790a2699f4af7a5b85fb63e09,2017-12-06 17:17:35,Joshua,"Fix typo (#378)
+
+Fix typo",False
+db089ce81efca5f7419545d93f8ad0fdaed46b90,2017-12-05 00:12:44,Aras Abbasi,Update FileSaver.js,False
+1bf9b35b544700254d3d509b3cca006e2230bc81,2017-12-05 00:10:44,Aras Abbasi,"Fix RollUp-Error because of This is Undefined Rewrite
+
+make it compatible with RollUp
+rollup/rollup#759
+MrRio/jsPDF#1533",False
+c347c51f6e6e56221b2fa3d8c9b32e181f76355c,2017-09-30 06:23:01,Eli Grey,"Merge pull request #374 from thijstriemstra/patch-1
+
+fix typo",True
+945f08bc7498af25a28f7b44b2245feae21fd630,2017-09-30 05:40:23,Thijs Triemstra,fix typo,False
+dffa3a49896d4635eb1e8f67730b85699c1eb743,2017-06-22 12:31:12,Jimmy Karl Roland Wärting,"Updated browser support
+
+closes #12",False
+4db4a78aad96b8e9d68316b568a76c5caf9c0225,2017-03-09 20:31:41,Jimmy Karl Roland Wärting,"Merge pull request #310 from marvinscharle/master
+
+Include informations for how to get Typescript definitions into README.md",True
+d89ed13171274b380a3bfab456d68f666bb94598,2017-02-15 21:54:53,Marvin Scharle,Updated README to include information about typescript definitions eligrey/FileSaver.js#277,False
+aa9f4e0e03bd1892482ff5e24ca91d42312dbf18,2016-10-14 14:24:05,Jimmy Karl Roland Wärting,"Merge pull request #273 from Amitesh/require-syntax-usage
+
+ Saving text using with require statement",True
+cafa1bfebbb0acbe5c4609ee7b0182a5c1b662ba,2016-10-14 12:09:50,Amitesh Kumar,Saving text using with require statement,False
+5ed507ef8aa53d8ecfea96d96bc7214cd2476fd2,2016-10-05 16:17:35,Jimmy Wärting,constructor test in safari 10 has nuked,False
+eb8d76f845ef6ad1e39a840c29bb852098c6a401,2016-09-02 03:39:41,Eli Grey,Closes #257,False
+8739c467c670b27ebc86fd68831f1dfc1e11f102,2016-08-30 03:31:25,Eli Grey,"Merge pull request #159 from zky829/patch-1
+
+Add safe module name to avoid requireJS errors",True
+d8870ded6822aa4aa7ccf5637107c141380099bf,2016-08-29 00:12:48,zky829,Resolve conflicts,True
+975159128137bc3ccfbe66706f439a18761aa0ee,2016-06-16 23:56:36,Jimmy Wärting,new release,False
+b3cad8efeac7dd4ff0ac9350a4bd15a973f0a0f5,2016-06-16 23:51:31,Jimmy Karl Roland Wärting,"Merge pull request #240 from EnigmaBridge/chromeIosSaveFix
+
+Workaround for #179 - use datalink for Chrome iOS",True
+3843680045878ba910fa517501c9de50d30bf0b4,2016-06-16 12:34:45,Dusan Klinec,"Workaround for #179 - use datalink for Chrome iOS
+
+- Blob links / url objects are not supported in Chrome iOS for now
+- thx @jimmywarting for suggestions & help with improving this PR",False
+4ac2c6d6c286ea5e57e4098c58b33bfe9ec26f05,2016-06-07 02:39:13,Jimmy Wärting,Fixed min version,False
+f1a8bf9fb0db1b807a6752b843233885482575a3,2016-06-03 20:38:08,Jimmy Wärting,Better to use text/plain for safari so it can be rendered and then be saved,False
+b2bf6d86f53358525a48af1256c0b0979921735e,2016-06-03 15:10:32,Jimmy Karl Roland Wärting,typo,False
+0b137cf80aaa461b5f20e5cc1206d973a0aaa13d,2016-06-03 14:49:55,Eli Grey,"Merge pull request #236 from eligrey/jimmywarting-patch-1
+
+Public relations (PR) for StreamSaver.js",True
+d84a5c2f3aa8cafee8e7128a4bf76b6bbb72479b,2016-06-03 14:37:17,Jimmy Karl Roland Wärting,Public relations (PR) for StreamSaver.js,False
+47ff4cd74afe17b74e0fb47337ef60e2784e4838,2016-05-31 13:16:57,Jimmy Karl Roland Wärting,moved some text,False
+c0c85f387b358e0c9426dde16540271c2fa9daeb,2016-05-31 13:16:11,Jimmy Karl Roland Wärting,moved some text,False
+3eeddf11459770171052540e10942ed467951906,2016-05-31 13:00:32,Jimmy Wärting,1.3.0,False
+bc0ba24aaa96f7bf1c8366f50fe718baa5ebaa3c,2016-05-31 12:45:12,Jimmy Karl Roland Wärting,"Added failsafe
+
+Closes #216",False
+ae387dbbac56a3d3456166182d2e5f3a8a2fa74b,2016-05-31 12:42:32,Jimmy Karl Roland Wärting,"Merge pull request #233 from eligrey/remove_filesystem
+
+Removed filesystem and support saving with file name",True
+b6107311752d47886d568d0e25bbc515522591dd,2016-05-30 19:09:07,Jimmy Karl Roland Wärting,"Merge pull request #234 from sjurba/patch-1
+
+Don't ignore the minified file in bower.json",True
+9aee87175225900b3c3363b02360037cecb0ebfb,2016-05-30 19:06:36,Sjur Bakka,Don't ignore the minified file,False
+1bb6b9044351e66615aa99179808dc3974178e08,2016-05-28 02:55:24,Jimmy Wärting,"closes #174
+fixs #231",False
+a5a0ae83dbec4b49cd9aff7a51e40c0feba34e7c,2016-05-27 13:01:19,Jimmy Wärting,updated versions,False
+8e64e56f4729e97b9e3c3f56b1d078a816964253,2016-05-27 07:34:32,Eli Grey,Workaround for #230,False
+53b6226cb89846808aa3885b96c580074102ad78,2016-05-27 04:29:52,Eli Grey,Update demo resource links,False
+e9d941381475b5df8b7d7691013401e171014e89,2016-05-27 04:26:00,Eli Grey,Undo #219 and fix #232,False
+3937bb4c33830cecf2eeb26ae0c7f58da41d39d8,2016-05-26 18:03:55,Eli Grey,Update canvas-toBlob.js demo link,False
+8407c874d2904c65cce887d50d039f63c9c7c638,2016-05-26 17:54:02,Eli Grey,Minified demo script,False
+d2b5086afcd008f077d5ec350df87f1e448bd214,2016-05-26 17:52:55,Eli Grey,Update demo script links to latest versions,False
+597b6cd0207ce408a6d34890b5b2826b13450714,2016-05-26 17:49:04,Eli Grey,Use toBlobHD in demo script,False
+242c1dccc1b2f859afbe3d15ad39fb71f151d5de,2016-05-26 03:13:11,Jimmy Wärting,closes #134,False
+89a12bd9ac23f8e02b9427601e5c320956847532,2016-05-26 03:03:42,Jimmy Wärting,Added build command with package.json,False
+3247084327affd972edd1ca7fd9016ac98186f20,2016-05-26 03:03:03,Jimmy Wärting,how to install filesaver,False
+cb8e076073d44a994e29dd653a02c95af2036ad5,2016-05-26 02:34:22,Jimmy Wärting,Added npm and bower son,False
+a6d11998e279e94f2926b2a897231355dfab48ab,2016-05-26 01:52:13,Jimmy Karl Roland Wärting,Now use minor version instead of date,False
+1be5622d52e40b3b49590df883978bf87feefed1,2016-05-22 15:46:52,Jimmy Karl Roland Wärting,Fix typo #223,False
+967f5c18518e0f815f851f27cc41b96ee3e7add6,2016-05-22 15:45:20,Jimmy Karl Roland Wärting,"Merge pull request #223 from 719media/patch-1
+
+missing semicolon",True
+921c78ff43fdbb69e3a35f8e67ba8f0da5f20fd6,2016-05-21 07:07:27,Eli Grey,"Change UTF-16 BOM to UTF-8
+
+Fixes #219",False
+a7ae1786045be47f04c1f2dd561eb5243524fe5a,2016-05-13 02:04:49,719media,"missing semicolon
+
+missing semicolon",False
+683f689326c231002164621dc8a6451df4e86e8a,2016-03-29 07:46:23,Eli Grey,Removing dead link from demo,False
+6ad591cc849f04fbd425d229074d42d6ef60cba3,2016-03-29 07:37:59,Eli Grey,Update demo scripts,False
+5c1857363e0742bf8e094baa2e9e7fde8d357190,2016-03-29 07:22:09,Eli Grey,Adding Edge to the browser support table,False
+62d219a0fac54b94cd4f230e7bfc55aa3f8dcfa4,2016-03-29 01:37:08,Eli Grey,"Semi-workaround for #205
+
+This solution still isn't technically correct because it could take more
+than 40 seconds to download a file. I could simply not revoke any files,
+but then users would run into issues once they have saved a cumulative
+total of over 500MB (
+https://bugs.chromium.org/p/chromium/issues/detail?id=375297 )
+
+Complain to @sicking and @arunranga for creating and standardizing an
+incomplete revocation API.",False
+7ef5187eeb76053ebce4b1d9d05406b0c2dbb290,2016-03-20 04:42:36,Eli Grey,"Merge pull request #208 from evilaliv3/issue/207
+
+Fix issue #207",True

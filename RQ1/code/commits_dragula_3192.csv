@@ -1,0 +1,99 @@
+Hash,Date,Author,Message,IsMerge
+09ab978dd550490f1f8e456551a1a39ed0d7f984,2024-03-16 07:49:21,Nicolás Bevacqua,Update example.css,False
+fc677de374bf43125fa1b0e62e4ca26e77459c4a,2024-03-16 07:48:16,Nicolás Bevacqua,Update index.html,False
+835e5c37db77064d18abe8acfb37b3264d1839f5,2024-03-16 07:40:50,Nicolás Bevacqua,rm sponsor stuff,False
+e0bcdc72ae8e0b85e17f154957bdd0cc2e2e35db,2020-09-29 21:51:52,Nicolás Bevacqua,Slack link fixes,False
+495664213ed81d17598bd7e5afa09116ae2bb26e,2020-09-29 20:50:35,Nicolás Bevacqua,bower not a thing,False
+e2df38f079270d039fb9d7a2f75301b8fd4fd6d0,2020-09-29 20:50:09,Nicolás Bevacqua,"with bower gone, make a git tag via npm",False
+978fa144f19b41eb710c0e5bcab03b12874ad629,2020-09-29 20:46:23,Nicolás Bevacqua,setup yarn.lock,False
+1437a6ad2b7b46aaa7be01b33705a833e7957ad9,2020-09-29 20:46:03,Dario Cantatore,Update changelog.markdown,False
+9a3dc849e73c7ddb92f01540ca0575f63160679e,2020-09-29 20:45:28,Dario Cantatore,Merge branch 'master' of https://github.com/bevacqua/dragula,True
+7f8311aba6165fe602884d59f4a41d0ac570bbc8,2020-09-29 20:45:08,Dario Cantatore,Release,False
+2feac15c264e712f77828eaede3c786bec4179ae,2020-09-29 20:24:10,Nicolás Bevacqua,setup patreon button,False
+63d25edf1f7966c152e9b385911dad482f5e7505,2020-09-29 19:43:28,Dario Cantatore,Merge branch 'package-updates',True
+807a87048c0f432303ed3385c0aca93ad3788fc3,2020-09-29 19:42:31,Dario Cantatore,added slideFactorX and slideFactorY,False
+a7062a3e79dbc7f35de6ee780724b78edd872a45,2020-09-29 02:19:29,Dario Cantatore,built with latest build tools,False
+6a768950b61eb699f40b5cc339d191b9b035b148,2020-09-29 01:51:51,Dario Cantatore,"fixing default values
+
+- causing tests to crash
+- throw errors when e is undefined and math is attempted on it",False
+9ea56c1b3f1041c484394c89ab1409dbfecbd830,2020-09-29 00:51:00,Dario Cantatore,Merge branch 'package-updates' of https://github.com/bevacqua/dragula into package-updates,True
+85a9c5710832ad0c4f715dbb3449cf7493e6e2ae,2020-09-29 00:50:54,Dario Cantatore,updated travis to lts node version,False
+84ed4b7a7d8ec502e98a36f5de3b0e5ccbea7828,2020-09-29 00:42:56,Dario Cantatore,Update readme.markdown,False
+2032e37f2d792f92af662cce3c716a9fee54fc93,2020-09-29 00:40:21,Dario Cantatore,"Update package.json
+
+bumping versions to latest",False
+13d55102aa9fda977679277c6efa08e95baac386,2020-09-28 20:24:51,Dario Cantatore,Update readme.markdown,False
+59273b3e827c7e54041731326e89283c5dd9a6d1,2020-09-28 20:23:50,Dario Cantatore,Readme link update,False
+a8b85a58b4be6b64d16fede69f2017b77e05d01b,2018-12-19 01:33:55,Nicolás Bevacqua,"Merge pull request #595 from FoXoLoT/master
+
+Added a very important yet SUPER secret addition",True
+cc37fe5a94a01c8e423424a1b0e70c72a3555afc,2018-11-02 01:09:04,FoXoLoT,Add a very important yet SUPER secret addition,False
+7b9d90ede238bb20d01fe5c62a58b1cf55ac91f3,2017-06-11 10:18:19,Nicolás Bevacqua,"Merge pull request #497 from sayzlim/master
+
+Install Carbon",True
+ee3e3f7a0e6b29283a913fab903765355fc7b52a,2017-06-10 00:55:15,Sayz Lim,Install Carbon,False
+00ff5f9fa4ff62f09c5d16509dc290699344bec0,2017-01-28 02:40:02,Nicolás Bevacqua,renamed angular-dragula to angularjs-dragula,False
+a13d7db9e698fa9bc866855a5556ca5fb61f2bc2,2016-09-12 18:05:14,Nicolás Bevacqua,Release 3.7.2,False
+687d86f026519112b60145c09d140eb58ac4fac0,2016-09-12 18:04:55,Nicolás Bevacqua,changelog updates,False
+6b050234ca4b2bb91f6dc8d1bef37fd591f4ec23,2016-09-12 17:58:30,Nicolás Bevacqua,"Merge pull request #424 from gnujeremie/master
+
+Fix #423",True
+d998d1c8c5c9b9b35597f756f2fd6bab17b48871,2016-09-10 21:47:37,Jérémie,Fix #423,False
+9eb97aa2b01781e5a9f97f4210b02d9f34572dbd,2016-06-02 19:44:58,Nicolás Bevacqua,issue template,False
+5078168d7064bbaed946f863314b26a613fae757,2016-05-20 22:32:48,Nicolás Bevacqua,Release 3.7.1,False
+fe1b715ac4458c501096bf9b0c8fb5c32cf9bb2e,2016-05-20 22:32:36,Nicolás Bevacqua,bump contra fixes #380.,False
+8c7f7a02bd6bc83aae2bbd0e591355761523c14b,2016-05-12 13:14:12,Nicolás Bevacqua,Release 3.7.0,False
+4b8c97f74bb0426f322f690a6dd8c7689a4409d2,2016-05-12 13:14:00,Nicolás Bevacqua,added canMove method.,False
+d2918202a49160b4f262a47e8ef7f86c1bc59e5b,2016-03-23 20:20:29,Nicolás Bevacqua,"Merge pull request #352 from jimf/add-tape-run
+
+Replace testling with tape-run",True
+5dfc384de901245873a9a10d23ef13523f3e09f3,2016-03-23 20:09:04,Jim Fitzpatrick,"Update travis config for tape-run
+
+As per
+https://github.com/juliangruber/tape-run/blob/master/README.md#headless-testing",False
+2a7d4be140f73426640804e83005f789b6ac7286,2016-03-23 20:06:16,Jim Fitzpatrick,"Replace testling with tape-run
+
+Replace testling, used by `npm test`, with tape-run, an alternative tape
+test runner that defaults to Electron. testling frequently seems to
+leave zombie processes around, and is currently abandoned.
+
+See https://github.com/substack/testling/issues/111",False
+fc1138e5d8c494bbd5784245420ebbb10d78a526,2016-03-23 06:34:38,Nicolás Bevacqua,"Merge pull request #350 from jimf/fix-tests
+
+Fix tests",True
+a5a47d9160c7760dd121c378df722052a1fc279f,2016-03-23 06:17:57,Jim Fitzpatrick,"Fix tests
+
+Fix failing tests. The assertion for all four of these tests is no
+longer valid. While still copies, the copies themselves are quite
+different from the original nodes and can no longer be compared with
+`deepEqual`.",False
+e97d3b6a784bc42972afc8f5b8a184180cdad5f9,2016-03-18 00:32:07,Nicolás Bevacqua,"Merge pull request #342 from MaralMosayebi/patch-1
+
+Update Handle",True
+691eb985eb81aedf07d8e88c3ea05087e949493e,2016-03-18 00:28:09,Maral Mosayebi,Update Handle,False
+697f228a02d79331a55518b5925c165200a26726,2016-03-01 00:25:00,Nicolás Bevacqua,"Merge pull request #326 from NathanWalker/angular2-bridge-link
+
+added angular2 bridge link",True
+3dac7dbcf6a36365e7e22457b54e15c5df290e5a,2016-03-01 00:04:47,Nathan Walker,added angular2 bridge link,False
+54e0165ac4e7eeb2661a6a6dcf6f942350458d38,2016-02-29 07:15:29,Nicolas Bevacqua,Release 3.6.8,False
+69137e8b5dd26ce164cb9096469269984bf4b5c8,2016-02-29 07:15:17,Nicolas Bevacqua,fix copy behavior,False
+f6ad8b24112bd443312bc6722559f273d6a694ee,2016-02-26 00:09:49,Nicolas Bevacqua,Release 3.6.7,False
+c3c4d41d88582e8da37bb13d819d848739fe97bb,2016-02-26 00:09:28,Nicolas Bevacqua,"fixed #14, miscalculation on edges for position candidacy",False
+df11db5e6495a6845a5a38b365f340b921725c96,2016-02-25 23:05:03,Nicolas Bevacqua,"replace flattr with supporter, we need coffee",False
+d22b371076eb9f6b22a022b5f1470326b2028489,2016-02-10 21:25:02,Nicolás Bevacqua,"Merge pull request #314 from charbelrami/fix-copy-sort-example
+
+replace left with document.getElementById(left)",True
+f24a92c05e897c1bcb40f017cd4b7a8246ee96ec,2016-02-10 20:11:16,Charbel,replace left with document.getElementById(left),False
+46054aee3c9499593a5103311ca6661c5f1d9243,2016-02-09 19:16:49,Nicolás Bevacqua,"Merge pull request #312 from jaw4ik/repeatedly-drop-bug
+
+Can't repeatedly drop item"" bug fixed",True
+e64150c5639fdb13e5b66a26bcf732b243fc9552,2016-02-09 13:00:26,Yuriy Savchuk,"Can't repeatedly drop item"" bug fixed",False
+ea2830c6991e48e839a67d2c752032aeab192be8,2016-02-07 05:14:05,Nicolás Bevacqua,clarify documentation for `invalid` option,False
+369aa22546585f4a11df55ae7fe78c81a9209da1,2016-02-06 00:51:10,Nicolas Bevacqua,Release 3.6.6,False
+9e8159d1ba0702a76286ddc448c49ac94f063e05,2016-02-06 00:51:02,Nicolas Bevacqua,click fixes for #261,False
+db431e4d9e8768fba731da8128d07484c813403c,2016-02-06 00:41:31,Nicolas Bevacqua,Release 3.6.5,False
+22d9df0c7c2a3dfc88223527541ef76095191034,2016-02-06 00:41:18,Nicolas Bevacqua,updated changelog to reflect merge patch,False
+587227eb843fbc1a26e6d1c317db1cd17c96e44e,2016-02-06 00:37:09,Nicolás Bevacqua,"Merge pull request #271 from jaw4ik/shadow-event
+
+#270: Shadow event working inconsistent",True

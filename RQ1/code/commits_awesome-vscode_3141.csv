@@ -1,0 +1,1223 @@
+Hash,Date,Author,Message,IsMerge
+95e0d5c41f72cb76f1547901c89ebc9a78753a4f,2023-08-03 13:12:23,Valerii Iatsko,"Merge pull request #403 from oliverjhyde/master
+
+Add Mathworks MATLAB extenison.",True
+f13e41577814235126bd2aff08f66a2628ebc0be,2023-06-21 23:55:57,Oliver Hyde,Add Mathworks MATLAB extenison.,False
+125ef48c3a3717b6c0406f3a55c8db224881f954,2022-11-15 10:16:05,Valerii Iatsko,"Merge pull request #392 from Miloslav/master
+
+Add PHP Tools extension",True
+8ef8f588f9d1817ff163498b2a111d02123f675d,2022-11-15 10:14:47,Valerii Iatsko,"Merge pull request #391 from MrMcEpic/patch-1
+
+Fixes issue #387",True
+5f24adf160bfdeb1b42dd75d1c551886776baf03,2022-11-01 21:07:10,Miloslav Beno,php tools desc update,False
+981643188e79ba83041a7e00ea381bae6fa4ea17,2022-11-01 20:49:46,Miloslav Beno,PHP Tools desc updated,False
+943b40309a1e6768e534032362e2ac4ec5270789,2022-11-01 20:48:26,Miloslav Beno,Add PHP Tools extension,False
+8a374816a82482919f26d1c281f0f0429dceaa2d,2022-10-19 16:50:18,MrMcEpic,Changed extension name to be lower case as that's the official name,False
+9bc0f14ba69ea52f1b2ad4c44d59675b951c5eaf,2022-10-19 14:26:56,MrMcEpic,Fixed ToC,False
+b91bb0716394c06313803d5ee0b1349af88bdbbe,2022-10-19 14:19:45,MrMcEpic,Fixes issue #387,False
+474273c989f171733cd9174ebafe95288de3d61f,2022-08-11 12:55:37,Valerii Iatsko,"Merge pull request #380 from jamcmich/master
+
+Moved Browser Preview to Productivity; Added deprecated tag",True
+e57fdd20cca7ab132615bd9017be4cc031e9b137,2022-08-07 01:59:19,Jacob McMichael,Moved Browser Preview to Productivity; Added deprecated tag,False
+f3c53995fcc8a0773264f69f503004ca6dfae305,2022-06-09 11:42:59,Valerii Iatsko,"Merge pull request #354 from ScriptAutomate/add-dendron
+
+Add Dendron to Productivity extensions",True
+ffd942417d1891f38f8fba8d11bd4ae96e8d11de,2022-03-25 14:09:23,Valerii Iatsko,"Merge pull request #372 from kleenkanteen/update-close-and-rename-extensions
+
+Update README.md",True
+6ef0838a5e85753b031cdc39010dec77ec85515d,2022-03-14 16:46:02,Sabih S,"Update README.md
+
+According to https://www.roboleary.net/vscode/2020/08/05/dont-need-extensions.html, auto renaming HTML/XML tags has been a native feature for more than a year, the default was just false. And for auto closing tags, it was also a native feature for more than a year, and the default has been true so no need to mention it.",False
+ddcdf46831c35626b7a1ea0e35f6192e638a2e07,2022-03-14 03:50:07,Valerii Iatsko,"Merge pull request #365 from yahavi/jfrog
+
+Add JFrog",True
+5ec281e5710146d7fd45972b318b5130624f204d,2022-03-14 03:48:10,Valerii Iatsko,"Merge pull request #368 from roharon/master
+
+Fix: Markdown syntax support to static site",True
+ee1259bc1ae3212fcdf37ec009997eef7c0660d6,2022-03-14 03:44:49,Valerii Iatsko,"Merge pull request #359 from zardoy/typed
+
+Add `typed-vscode` to libraries",True
+63738c606e1c87d584fcfd588a30c19a62fb64c4,2022-02-01 20:22:24,roharon,Modify: one more blank line,False
+dfd82e9fe3b0089a86bd6f9b585d8a68f0a75b57,2022-02-01 20:07:58,roharon,Fix: MarkDown syntax support to static site,False
+0a8719d0b78679a24558e8a96b9c39e529728068,2022-01-07 13:50:07,yahavi,Add JFrog,False
+0e1b53bcfbbe1823753ca5b2fac0cd5d190a9db9,2021-12-09 20:58:11,Valerii Iatsko,"Merge pull request #360 from zardoy/github
+
+Introduce `GitHub` section with new extensions",True
+1acb2f0868c40550fa7387540cd3a5f293dffb13,2021-11-30 22:07:41,Vitaly Turovsky,add GitHub Pull Requests and Issues,False
+5602aaef47967b9dbd16abebe5ec9adc15593491,2021-11-30 19:53:25,Vitaly Turovsky,Introduce `GitHub` section with 2 new extensions,False
+51dbe773b17f6ddc7cedae3c279de69894e29d1d,2021-11-30 19:24:45,Vitaly Turovsky,Add typed-vscode in libraries,False
+8b483a032dda0d8eda7f3491d23a4590380a031d,2021-11-21 18:07:00,Valerii Iatsko,"Merge pull request #358 from zardoy/duplicate-marker
+
+Remove vscode-text-marker duplicated image",True
+fd9efd21f7158f87fe599d35362b82f5ac501ed4,2021-11-21 18:06:49,Valerii Iatsko,"Merge pull request #357 from zardoy/toggle
+
+Add `toggle` extension",True
+3507af039b45df88e5bcb6a7daf24632b83c4072,2021-11-21 18:06:13,Valerii Iatsko,"Merge pull request #356 from zardoy/postfix
+
+Add TS/JS postfix completion",True
+e7b4d31c86ef38fc9ca5535d8e3b81600eb23fc8,2021-11-19 21:17:04,Vitaly Turovsky,"Remove vscode-text-marker duplicated image
+fix #341",False
+9d103dfe3a89271f24db3fc525febcc832e0799d,2021-11-19 21:10:22,Vitaly Turovsky,add toggle extension,False
+29c682b9f005739c17dc8ae5ebc3e5f4a4c6a5a0,2021-11-19 20:54:18,Vitaly Turovsky,add image,False
+e2a8545160d7135a588d3ff91d7a3473e34fd522,2021-11-19 19:12:13,Valerii Iatsko,"Merge pull request #351 from tgjones/patch-1
+
+Add HLSL Tools",True
+c50f6b879713e946aa79f4912f8e3e124b3a114e,2021-11-19 19:12:04,Valerii Iatsko,Merge branch 'master' into patch-1,True
+2fd60f7c32024cb5221597a834f72d654ac90be1,2021-11-19 19:10:55,Valerii Iatsko,"Merge pull request #355 from zardoy/master
+
+remove extensions that are now replaced by builtin settings",True
+8435f6ac9de993de83106340337b82f369c7075f,2021-11-19 18:42:36,Vitaly Turovsky,add TS/JS postfix completion,False
+01b285833eb9c5f59bc3b51101405d1200a2dbcd,2021-11-19 18:18:27,Vitaly Turovsky,Merge branch 'master' of https://github.com/zardoy/awesome-vscode,True
+f616e9c0e3ec6acfec1ab637f0ab312b05877ff0,2021-11-19 18:18:25,Vitaly Turovsky,"remove extensions that are replaced by builtin settings
+- SmoothType: `editor.cursorSmoothCaretAnimation`
+- Bracket Pair Colorizer: `editor.bracketPairColorization.enabled`
+- TypeScript Hero: replaced by better builtin TypeScript language features extension
+fixes #347",False
+a411f9f28fa7835261436c9a8a41cba8bd0a6f6f,2021-11-05 01:35:08,ScriptAutomate,Add Dendron to Productivity extensions,False
+6ceac70951777551ad39a48f00b17dbddb5e9002,2021-07-03 18:58:38,Valerii Iatsko,"Merge pull request #352 from zardoy/master
+
+remove outdated / deprecated extensions",True
+7bf6559be38dcf62bcaa48dd0a41c5d9ba1704d7,2021-07-03 18:49:53,Vitaly Turovsky,mark tslint as deprecated,False
+8b30c5085a8456cd50f4c81ddc3305cab57e45e8,2021-07-03 18:46:19,Vitaly Turovsky,revert removal of `tslint` in both sections,False
+abe0848664a5227314a5fcc69bb7ae386f286499,2021-07-03 18:42:24,Vitaly Turovsky,finally remove `settings-sync`,False
+ab8d9a5b9060b6eab651a4b962f865bbb8ca4fdf,2021-07-03 18:15:48,Vitaly Turovsky,remove outdated / deprecated extensions,False
+e1fd49eec6952e38dae70a61ecc8405448f1e0d2,2021-06-29 03:42:53,Tim Jones,Update README.md,False
+7889fcd1dd9cf36eaa80dd2badc058707ef20edc,2021-06-29 03:38:47,Tim Jones,Add HLSL Tools,False
+85ac88a045141d45605ebd542cc77519d133cd49,2021-06-13 14:01:24,Valerii Iatsko,"Merge pull request #350 from mkloubertego/update/vscode-powertools
+
+update vscode-powertools",True
+346290e9536ab2d37646195786f0af0503681d01,2021-06-13 06:30:59,Marcel Kloubert,update vscode-powertools,False
+afc2537ea86c88a0e29d83bef3614b22ecc1cc5b,2021-03-30 17:42:44,Valerii Iatsko,"Merge pull request #342 from helloWorld2187/added-path-autocomplete
+
+Added extension 'Path Autocomplete'",True
+3d9051640718263f4590f170908b431b9daa1f49,2021-03-30 17:03:50,helloWorld2187,Added extension 'Path Autocomplete',False
+b77e8f0e924846cc351a502b999b46a318daf236,2020-11-04 19:18:26,Valerii Iatsko,"Merge pull request #329 from danieldanielecki/master
+
+Fix: mattbierner Twitter link typo",True
+2ec65672f158b9125d703f65704f91cae9f50833,2020-11-04 19:08:19,Daniel Danielecki,Fix: mattbierner Twitter link typo,False
+8076f3a019b9f414a4c7602ab0859e836796116c,2020-10-24 00:49:05,Valerii Iatsko,"Merge pull request #328 from ftonato/docs/password-generator
+
+docs: adding password generator extension",True
+d6ab037b79c2a31f0a1c26701c0a63299897dff5,2020-10-10 18:15:38,Ademílson F. Tonato,docs: adding password generator extension,False
+86ffe03434db2382f79470a55eb355a90209ffc4,2020-09-09 03:43:34,Valerii Iatsko,https://github.com/cquery-project/cquery -> https://github.com/jacobdufault/cquery,False
+26af8cc4c92b91635c8039f57e681ea99e27b5fe,2020-09-09 03:41:35,Valerii Iatsko,Cleanup,False
+2a0dee18c4442e20aacffee23622335fccff1121,2020-09-09 03:36:29,Valerii Iatsko,"Merge pull request #327 from HaaLeo/patch-1
+
+Add timing extension",True
+2685ec100888feceef2b2fd196fe3f8e39f6fba0,2020-09-08 19:33:40,Leo Hanisch,"Add timing extension
+
+Add the Time Converter extension",False
+a5f6abaead6725b4aad9222caebf83b628bd33f1,2020-08-20 15:19:44,Valerii Iatsko,"Merge pull request #325 from DominicVonk/master
+
+Added parameter hints",True
+413c808be081570e81be184d17777f2d8235d176,2020-08-20 14:24:12,Dominic Vonk,Update README.md,False
+2feac1b3c35b1548634058128773d12859579730,2020-08-20 14:13:18,Dominic Vonk,Update README.md,False
+932312af46ef5210acbcb57771e6b680e633fb75,2020-08-16 20:09:19,Valerii Iatsko,"Merge pull request #324 from ShMcK/patch-2
+
+add CodeRoad",True
+f61c37eb732214c2c3229f189c4f3737c303cc07,2020-08-15 09:18:52,ShMcK,add CodeRoad,False
+52b5faece7a30843eac9e7ed417e44151554adc0,2020-07-16 16:53:39,Valerii Iatsko,"Merge pull request #311 from philnash/ngrok-for-vscode
+
+Adds ngrok for VSCode to the list.",True
+221f512bfe8d88c468e540ffef5821bc3dd9ee3e,2020-07-16 16:53:30,Valerii Iatsko,Update README.md,False
+9202db74d4883ab620c214b13c28f2e2194023a5,2020-07-16 16:51:54,Valerii Iatsko,"Merge pull request #313 from aswinkumar863/smarty
+
+Added Smarty Template Support",True
+743a56c637b568bc96d2ed4e4ca8e94a6b5543b5,2020-07-16 16:51:28,Valerii Iatsko,"Merge pull request #316 from eckertalex/add-borealis-theme
+
+Adding section for Borealis theme",True
+d864f17da49efaf0e739c3b162494fba4788cde7,2020-07-16 16:50:52,Valerii Iatsko,"Merge pull request #315 from tusaeff/master
+
+Added iTerm2 theme sync",True
+c9fd9d0a44f1b9b40efeb8874eaf791b5479528d,2020-07-16 16:50:13,Valerii Iatsko,"Merge pull request #317 from qcz/patch-1
+
+Add Text Power Tools to the list of Productivity extensions",True
+90e1af6a344aed17c63f729f528ad0ffd84361dc,2020-07-16 16:49:40,Valerii Iatsko,"Merge pull request #319 from SvenErik1968/master
+
+Added POV-Ray to Syntax and Lint and IntelliSense",True
+c67ab4d0fda2785a28279992c03ced8bb07beaaa,2020-07-16 16:48:31,Valerii Iatsko,Cleanup,False
+8b358c20854517ace88e375c7bbafd15b4f99c8c,2020-07-10 13:50:54,Sven-Erik,"Update README.md
+
+Removed the second GIF.",False
+5ab92af54bb51f84972ddde07404694e3e9025e6,2020-07-10 13:49:10,Sven-Erik,"Update README.md
+
+Added the jmaxwilson POV-Ray extension to the Syntax and Lint and IntelliSense sections.",False
+b136143a218e5352a478cc06f02eefdd6ada774b,2020-07-02 12:21:22,Valerii Iatsko,"Merge pull request #318 from tusaeff/vscode-typescript-destructure-plugin
+
+Added Typescript Destructure",True
+c0c65ac8918b3ec8a57ba63e7b0f072f30550fa4,2020-07-01 23:43:05,tusaeff,Added Typescript Destructure,False
+7c9c0d30c1cdf25a52ac2d6d15bbeb1bd0983066,2020-06-30 22:42:57,Dániel Tar,Update ToC with Text Power Tools,False
+793bc1b9e7f217f5ed165637a2455d28cb1cddd6,2020-06-30 22:40:51,Dániel Tar,Add Text Power Tools to Productivity extensions,False
+09384eb89f342859919b9db42635840d25947e7c,2020-06-23 15:16:58,Alexander Eckert,Adding section for Borealis theme,False
+d668cf9c8ecc4559c8f4df31f7e9fe3842b31497,2020-06-22 03:09:28,tusaeff,Added iTerm2 theme sync support,False
+abf1f363ecbfc72d733b78654edbc92747a7da4d,2020-06-09 12:02:30,Valerii Iatsko,Removed 404 theme,False
+ec9aed724e5a83561c16b183e0e517334c921569,2020-06-09 12:01:53,Valerii Iatsko,Removed 404 extension,False
+75edceddee2f81946ee731457471e75297bfd4c1,2020-06-09 12:00:24,Valerii Iatsko,"Merge pull request #314 from shubham-saudolla/dev1
+
+Updated the vscode logo",True
+42398008bb7ec91591815d22ad22dd45da0a58c3,2020-06-09 10:35:15,shubham-saudolla,Updated the vscode logo,False
+6a3a4e970fffa448867c85e44b547de43789753e,2020-05-17 14:31:52,aswinkumar863,Added Smarty Template Support,False
+3f48fe3b639412d4283583c92f7c5a200397f7a6,2020-05-11 12:10:53,Valerii Iatsko,"Merge pull request #309 from Kruemelkatze/vscode-dashboard
+
+Included vscode-dashboard",True
+e89c4a0800a4982a296443ad89ade419ccb5cf75,2020-05-11 12:10:05,Valerii Iatsko,"Merge pull request #305 from nvuillam/master
+
+Add Groovy category in linters index, and add VsCodeGroovy lint  gif",True
+06e1a9b9c12fa2ab81259586ceec48449ffe612c,2020-04-28 10:44:37,Phil Nash,Adds ngrok for VSCode to the list.,False
+559bd2d4039215827aed0af9bb420af5bb8649b8,2020-04-12 01:17:11,Kruemelkatze,Included vscode-dashboard,False
+162be6b017205860760ce3df45545a14b1698e0f,2020-04-01 04:02:55,NicolasVuillamy,"Add Groovy category in linters index, and add VsCodeGroovy lint  gif",False
+79f7c0df355bfcec2c8df51b0fe657f8df9a703b,2020-03-23 23:25:46,Valerii Iatsko,"Merge pull request #303 from usernamehw/autohotkey
+
+Change AutoHotkey section",True
+7b4d1ac42863c135ae9e761c631ac2afee739bce,2020-03-23 22:50:06,al,Change AutoHotkey section,False
+4b6c1d44dbb77389b796eea3f4cc55f4f89965cb,2020-03-01 15:46:46,Valerii Iatsko,"Merge pull request #302 from lostintangent/master
+
+Adding GistPad",True
+11f481e0057548dbd0d3230093a26f8463e7ad24,2020-02-29 22:26:16,Jonathan Carter,Adding GistPad,False
+1702ec0c9e6bd945cb88dd31888ab67d0963c957,2020-02-25 02:44:09,Valerii Iatsko,"Merge pull request #295 from MeitarR/add-clangd
+
+Add clangd",True
+98d8644c89118fc53e3d5b53c0d648ffb2105a00,2020-02-22 20:47:30,Meitar Reihan,"Revert ""added how to setup VS Code for C++ with clangd support""
+
+This reverts commit 44cec2b32b047b04cdbe3108dca969b7040d157c.",False
+44cec2b32b047b04cdbe3108dca969b7040d157c,2020-02-22 20:39:35,Meitar Reihan,added how to setup VS Code for C++ with clangd support,False
+842e26ff7bdf4d6952b60183fadb65a79e719ca6,2020-02-22 20:39:13,Meitar Reihan,added clangd line,False
+c005c0157bd6d85a93997b1c604751beda9ab32c,2020-02-21 16:44:42,Valerii Iatsko,"Merge pull request #217 from kazigk/master
+
+Add Vetur",True
+bba31e19f331c64b625b1228afe1cad4416aef83,2020-02-21 16:44:34,Valerii Iatsko,Merge branch 'master' into master,True
+509afb20b1c682abae4afbd6ffd897ca2f8ec8b4,2020-02-20 00:35:36,Valerii Iatsko,"Merge pull request #287 from Tyncture/master
+
+Add Rainbow CSV",True
+7af0f6533b7fb14ec33c518899c6872c9f31eecf,2020-02-20 00:34:39,Valerii Iatsko,Fixing pipeline,False
+b611480ae55f8434dbd52bdd830e22dd71a0c14d,2020-02-20 00:29:57,Valerii Iatsko,"Merge pull request #288 from dotiful/patch-2
+
+Add AutoHotkey section",True
+032741263c2920957ff374b96d7f39b92c1c9bf1,2020-02-16 16:32:49,Valerii Iatsko,"Merge pull request #289 from dotiful/patch-3
+
+Add shellman to Bash section",True
+bb8a18e61112b7dee7374931d186d54811a2b0f7,2020-02-16 16:32:39,Valerii Iatsko,"Merge pull request #293 from royceda/master
+
+Add Tinacious Theme",True
+6d75554edbddca82f4af95e02118de656c8d2b45,2020-02-14 22:42:54,royceda,Update README.md,False
+4153777ca915fed16408236cfad1df52e800a27c,2020-02-14 22:41:59,royceda,Update README.md,False
+7679b1dbf993d9c41de005401e27ee9f58241695,2020-02-14 22:39:54,royceda,tinacious,False
+32b9dfef4e48a531ae0244feb99438cb44c8fd70,2020-02-04 04:58:05,Dots Util,Add shellman to Bash section,False
+d745ac540ff9bf63e56bb4872147c81d1b614034,2020-02-04 04:33:39,Dots Util,Add AutoHotkey section,False
+41a5802538fd7fad26b773bd237f57443d68c4b6,2020-01-24 00:08:20,John Su,Add Rainbow CSV under productivity,False
+392bf3241817fe02333a4b7b85a8b29f56a645ae,2020-01-08 06:23:50,Valerii Iatsko,"Merge pull request #280 from gcobcqwe/master
+
+Add code spell checker for Awesome vscode",True
+477a914c82f3e0ccb94a1a05c7abf42a7e530b4e,2020-01-08 06:23:35,Valerii Iatsko,"Merge pull request #270 from dimateos/patch
+
+Added Markdown Emoji",True
+c7ad77fce33c9bb1803b3dc07dca2deb67a913bb,2020-01-08 06:23:10,Valerii Iatsko,"Merge pull request #278 from christianztamayo/master
+
+Add Jira and Bitbucket",True
+8f472093eea90d87ef693e2c63bd28e3a01fed93,2020-01-08 06:22:46,Valerii Iatsko,"Merge pull request #279 from photoangell/photoangell-update-clojure-plugin
+
+Update Clojure plugin",True
+41ac8e162bdf5c2731fcb69acc56771c4552fa15,2020-01-08 06:22:06,Valerii Iatsko,"Merge pull request #284 from antfu/patch-1
+
+Add Wenyan Lang for VSCode",True
+5dff4a84890a2cc663393d9d7bd55148c3459d1c,2020-01-08 06:21:45,Valerii Iatsko,"Merge pull request #285 from usernamehw/errorLens
+
+Add Error Lens",True
+66da23dca8c5ed788a3df35fc34342bb9f4887b0,2020-01-08 06:21:19,Valerii Iatsko,"Merge pull request #286 from mathvav/patch-1
+
+Fix C# Link in Table of Contents",True
+de97f2466bd9e2375aaf913c98c89219bb665fb1,2020-01-06 08:06:48,Matt Vav,Fix C# Link in Table of Contents,False
+a31d5f645de2423509134875a6eaed639dacad98,2020-01-06 00:51:32,al,Add error lens,False
+6c7d893000a0a9348f743d8aafd4dbf7ba133e08,2019-12-27 07:48:49,Anthony Fu,Add Wenyan Lang,False
+62023ec444c89c9374e81d8fdb56a649bcc23775,2019-12-18 04:04:00,Valerii Iatsko,"Merge pull request #283 from Lujaw/master
+
+Added Remote Development",True
+9fe4725f281451f6d7984290f0a1616c85b4edef,2019-12-18 03:40:30,Luja Shrestha,Added Remote Development,False
+5a4a94520e7458f83d16210ee50bc00d75021a31,2019-12-17 13:56:40,Valerii Iatsko,"Merge pull request #281 from antfu/master
+
+Add i18n Ally",True
+47156718b3cc4468851ae5c2b5d411dd94339065,2019-12-17 11:08:03,Anthony Fu,Add i18n Ally,False
+e252e30670d463d76924b7e6f790b83823bec927,2019-12-05 10:11:47,jim,Add code spell checker for Awesome vscode,False
+4b0adc0d1bebe6fa3c34d61717ab1222ed682d1d,2019-11-28 20:57:19,Stephen Angell,"Update Clojure plugin
+
+extension maintainer has created a new version of this plugin.
+old extension unpublished from Visual Studio Marketplace.
+this change updates the url to the extension and the preview gif",False
+d2b42ae1bfc8ae23441a3b36b8bbb2085ec5e13f,2019-11-28 19:01:02,Christian Z. Tamayo,Add Jira and Bitbucket plugin,False
+9a5bdf47e3485628754c071f87ee501acea95bb1,2019-11-12 11:51:40,Valerii Iatsko,Update README.md,False
+d28e8a571ba0fe86b86090181eee33f0eb6cb7e1,2019-11-12 11:49:04,Valerii Iatsko,"Merge pull request #276 from badsyntax/master
+
+Add Gradle Tasks",True
+9d31a62a9520111d83d46561257743ec2eb80c9f,2019-11-12 01:57:52,Richard Willis,Add Gradle Tasks,False
+ce57bff351503b3d8ec73f956c41387545d1f18d,2019-10-30 16:53:22,Valerii Iatsko,"Merge pull request #272 from Expecho/master
+
+Added ARM Template Viewer",True
+5c8946178698696e037cab530375edbcf8870662,2019-10-30 16:52:24,Valerii Iatsko,"Merge pull request #269 from WaylonWalker/add_ascii_tree_generator
+
+Add ascii tree generator",True
+93c0855d55cf31c26d9bba488eafa84a0be1428a,2019-10-30 16:52:17,Valerii Iatsko,Update README.md,False
+8422c90c8d50e53a076a1ca47e34ca478a175055,2019-10-30 16:51:30,Valerii Iatsko,"Merge pull request #267 from endormi/master
+
+Add 2077 theme",True
+1fccf06186d96495a8887e63dcfb9cdfca87a53e,2019-10-30 16:51:14,Valerii Iatsko,"Merge pull request #273 from JackFairfield/master
+
+Added Visual Studio IntelliCode.",True
+c00c81b7c156e3262ee00b15bf672b002c9c88cc,2019-10-30 16:50:32,Valerii Iatsko,"Merge pull request #274 from pauljurczak/patch-1
+
+Added Julia to Language packages",True
+f4b318707f9310cafc5af8d1139ff7f4c3eae1e0,2019-10-30 16:50:19,Valerii Iatsko,"Merge pull request #275 from emroussel/add-atomize-theme
+
+Add Atomize theme",True
+300cb69403f05d02539e82d32eb86ba18aac2c2d,2019-10-28 01:18:13,Emmanuel Roussel,Add Atomize theme,False
+3965b1f077870ab16fd843572de917d3b7d9a6de,2019-10-27 17:05:49,Paul Jurczak,Added Julia to Language packages,False
+574398e183614608ac9460e77d31cd0cbe16c35d,2019-10-20 12:27:25,Jack Fairfield,"Added Visual Studio IntelliCode.
+
+It is truly a game changer",False
+eaaf71b7da0741464be20e51ecb34c6cee48f03b,2019-10-12 19:14:12,Peter Bons,Added ARM Template Viewer,False
+7bb42c4f754098fc4e401c4e045d6527d199fc62,2019-10-10 10:50:04,Valerii Iatsko,"Merge pull request #268 from WaylonWalker/fix_night_owl_mobile_chrome
+
+FIX Night Owl Image on Mobile Chrome",True
+bc63ffd3f81f150cbeb9c43efda9843efe272a82,2019-10-10 10:49:46,Valerii Iatsko,"Merge pull request #271 from dimateos/patch-shaders
+
+Added Shader languages support for VS Code",True
+4181a5f06419bf419943a9c6d0a8abf8c22248cb,2019-10-06 14:12:38,Diego Mateos,"Added Shaders (HLSL, GLSL, Cg) syntax",False
+4881f436df9425eb69bd1dd492a155d487cb2f74,2019-10-06 13:51:54,Diego Mateos,Added markdown emoji,False
+b88c9c41e2ec753fbd23415eb71e1fdaf014a98c,2019-10-06 07:27:40,WaylonWalker,added link in table of contents.,False
+0bd522cf02f893def2fcdce28a7e13fa8a37c096,2019-10-06 07:24:44,WaylonWalker,Add Ascii Tree Generator,False
+ec3e97668b9562c8e5830695575b36c96adbf580,2019-10-06 06:54:27,WaylonWalker,FIX switched back unintended edit.,False
+b5807543bc779a3b5bc8b751e485464d2f81f65b,2019-10-06 05:21:25,WaylonWalker,FIX Night Owl Image on Mobile Chrome,False
+04e027e046f235a673c6814895941134a14f70c8,2019-10-06 01:45:27,endormi,Add theme to the list with a link to image,False
+a57cd623c4f5ecf1003a6d1b4ad831756365f7eb,2019-10-06 01:40:58,endormi,Add 2077 theme,False
+c75f31c09b44ff7e2d89da417d77e4c47a14cbc2,2019-09-22 12:19:51,Valerii Iatsko,Fixed broken links,False
+fb39e91e5e71a672d1da2bda9c45bceac11e58f9,2019-09-22 12:17:13,Valerii Iatsko,Added Facebook Flow extensions,False
+75e166ac2f48f113cc23b830e300ef6b4f7892e2,2019-09-09 01:34:29,Valerii Iatsko,Removed debugger for Chrome extension screenshot,False
+ad8bfe92df847c0b56429e4bdf5d7fb00ff98878,2019-09-09 01:33:29,Valerii Iatsko,Removed screenshots from C# section where it's obvious what extension is about,False
+d9376d66c0f7c937d3480142ee47577ce6ce1b9e,2019-09-09 01:31:05,Valerii Iatsko,Added Microsoft's C/C++ remote development tutorial,False
+907f261a50792aa8c8b92218cbe4764df628a988,2019-09-05 12:18:58,Valerii Iatsko,"Merge pull request #265 from lennybacon/master
+
+Added camel humps (Key map settings)",True
+542a99bd66514710bc2b8988db5a649159d896c8,2019-09-05 12:18:00,Daniel Fisher,Moved camel humps to migration section,False
+109afc81d51ed860aae7f731dd483c2a7b5e0ed5,2019-09-04 00:57:58,Valerii Iatsko,Fixed issues found by CI,False
+1b4e875412c63a5e0f6c57efb8dfaf6ba4bec8a3,2019-09-04 00:52:33,Valerii Iatsko,"Merge pull request #263 from raedwa01/master
+
+Add PrintCode to README",True
+590c46ef5ecfe571b86bddcf8bf81c61115a4a54,2019-08-24 22:57:13,Daniel Fisher,Updated TOC,False
+fe996ea75b4f22dd034a5fd30afb5ed8a677d8b7,2019-08-24 22:53:39,Daniel Fisher,Added a blog post that shows how to enable camel humps,False
+acbbd91e3135da1ad148963bff5a6e85bf225ec1,2019-08-13 00:38:43,Valerii Iatsko,"Add GitLab workflow extension (#255)
+
+Add GitLab workflow extension",True
+222a8a87a844906d50581d65be70c590a40ad296,2019-08-06 19:10:41,raedwa01,"Add PrintCode to README
+
+PrintCode is the most feature rich code printer in VS Code",False
+76e79cd91f3c3883b002c66f544228318e8278e4,2019-06-24 00:36:46,Valerii Iatsko,"Add jellybeans-theme (#262)
+
+Add jellybeans-theme",True
+373262042d287328d8f28de1efb577d0dc3ea50d,2019-06-24 00:22:33,Dimitar Nonov,Add jellybeans-theme,False
+4aac20f7e14439deb415cd770de9ce0f057940b7,2019-06-22 17:07:07,Valerii Iatsko,Fixed CI/CD issues,False
+be2ae4d7ed3abd290a7440c9fab0e031a607576b,2019-06-22 17:04:17,Valerii Iatsko,Added .NET Core Test Explorer,False
+8dee7484a2e8be4efbc23a0c536fe1d6b00bd3ca,2019-06-22 17:02:28,Valerii Iatsko,Added VSCode Solution Explorer,False
+e3b53330b65eac83ad1ffd39f1e0d25a6872b2d6,2019-05-22 21:51:22,Jordan Schroter,"Merge pull request #260 from selfrefactor/master
+
+Add niketa theme",True
+6d8c4216b48660841b643643132447a36787cbbf,2019-05-22 21:42:09,Dejan Toteff,Merge branch 'master' of https://github.com/viatsko/awesome-vscode,True
+6c3b40d8dcb5d1cadd4b21aede884e8a17337962,2019-05-22 21:34:09,Dejan Toteff,Chore wrong format,False
+7057e97cb50a4a34746a9946363d9625a5f3eac9,2019-05-22 21:20:32,Dejan Toteff,Fix broken links,False
+899de11f6f3991a01a257fe8ff0c7f3c3790453a,2019-05-22 10:43:14,Dejan Toteff,chore: sync with master,False
+5cc527433a29da8a2683e58817a0d9264714dfbb,2019-05-21 20:54:34,Dejan Toteff,Update number of niketa themes,False
+c732ae8b28e17460de21277edd9a5d40bcca28b8,2019-05-21 18:39:37,Valerii Iatsko,"Merge pull request #256 from and-semakin/indent-rainbow
+
+Add intent rainbow",True
+e96011bb10a1bec981791d8b630456b1cac416a5,2019-05-18 22:33:47,Valerii Iatsko,"Merge pull request #234 from askdesigners/code-time
+
+Add Code Time",True
+c69015b517abbd12d215d34e0fff26292ebbafea,2019-04-13 15:27:46,Dejan Toteff,Update README.md,False
+99a1cbc264b58638859e3f8f2843c628c27df24e,2019-04-13 15:26:12,Dejan Toteff,Update README.md,False
+d4507bebd47772805869a34aed1a532d3e858290,2019-04-13 15:19:45,Dejan Toteff,Add niketa theme,False
+e2ab0e61afb0e91becdb50bc4ffb2956cc88d512,2019-04-06 16:03:43,Valerii Iatsko,"Merge pull request #258 from seyedi/patch-1
+
+Update TSLint deprecated link",True
+48ac7e3541751f7e80938ee09910ea7a1fad611e,2019-04-06 15:58:03,Mojtaba Seyedi,Update TSLint deprecated link,False
+8b70d8a4c3353dde6143605c0d99776ac4ca38a4,2019-03-15 17:15:27,Benjamin Lannon,"Merge pull request #254 from mikeshatch/patch-1
+
+Edited grammatical and typo errors",True
+ad1d1b67dd9f1451c0e9d4a88239cd2001e8433e,2019-03-14 23:46:58,Andrey Semakin,Remove extra blank line,False
+ac3c4c20f71864313ee2a103edb0d3184953be22,2019-03-14 23:42:13,Andrey Semakin,Add intent rainbow,False
+0a00adc37fc1f37904f48ad808d9c3da405e18d7,2019-03-12 06:36:56,Brendan O'Leary,Add image,False
+401a28b0a695124c106d04c346ff13ef9d6b549d,2019-03-12 06:33:46,Brendan O'Leary,Add GitLab workflow,False
+d6a6dae4dd6a84a7b7894ded332fae867e561b06,2019-03-09 23:53:04,Mike Hatch,Edited grammatical and typo errors,False
+2286a63e5154550beffec263d3d2b5331e120324,2019-03-08 14:15:40,Valerii Iatsko,"Merge pull request #248 from mischah/add-relaxed-theme
+
+Add releaxed theme",True
+8910caa8efaae4bda13031c34005ae2c5b4d76d1,2019-03-08 14:14:41,Valerii Iatsko,"Merge pull request #249 from oreporan/master
+
+add ColorTabs extension",True
+1c22c6d2798a4e1ca713601feb1418751a59f888,2019-03-08 14:13:38,Valerii Iatsko,"Merge pull request #252 from YaBoiBurner/patch-1
+
+Switch links to using https",True
+c13592394b3fb4885ad44d1e64c39ee7e1067c17,2019-03-08 14:13:22,Valerii Iatsko,"Merge pull request #253 from dotupNET/patch-3
+
+Add Typescript Interface Generator",True
+ec7bcbd77f07a6da520ba559cf5cca8e9d700a79,2019-03-07 01:35:35,Peter Ullrich,"Update README.md
+
+Interface generator added.
+
+Quickly generate interface definitions from typescript classes. Supports all class keywords except comments.",False
+b70cb6d6b00132dc2947cd758039b81d3063c6b8,2019-03-06 12:05:43,Jaden Pleasants,"Switch links to using https
+
+Switched the creative commons icon, online TextMate themes editor, and YouCompleteMe links to https.",False
+4c30b543311027662c354f4577dfc4709de1e08e,2019-03-02 17:47:41,Ore Poran,add colorstabs ext,False
+eb57357e85c51ae301a9bc73493863bb616536a8,2019-02-22 03:54:58,Michael Kühnel,Add releaxed theme,False
+3e500f858316ba013d8f0dea5b1920c9a1cfd0e6,2019-02-04 16:56:30,Valerii Iatsko,"Merge pull request #235 from samundrak/add-esdoc-mdn
+
+Add ESDOC MDN",True
+746c1ba825579893e4907424a1229c7bfa69f734,2019-02-04 16:33:52,samundrak,"Add ESDOC MDN
+Fix - Formatting",False
+6244900935b851c4b8fe33d47835491251049119,2019-02-01 23:40:09,Ryan Cole,add Code Time,False
+49a4eb03795d02279522a2beb4ba5f628621498d,2019-01-28 02:56:13,Valerii Iatsko,"Merge pull request #233 from SimonGolms/patch-1
+
+Add vscode-browser-preview",True
+0bd63c37dc24ca3d9e3cbd04d10c03ec8bd63801,2019-01-26 14:29:41,Simon Golms,"Add vscode-browser-preview
+
+## Name of the extension you are adding
+
+Browser Preview for VS Code 
+
+## Why do you think this extension is awesome?
+
+A real browser preview inside your editor that you can debug.
+Especially useful when developing on just one screen, so you don't have to switch back and forth between open windows all the time
+
+## Make sure that:
+
+<!-- 
+Check off the checkboxes with an 'x' like this: [x] 
+-->
+
+- [x] Screenshot/GIF included (to demonstrate the plugin functionality)
+
+- [x] ToC updated",False
+720bc94180f4d702161dd2b16cdfe70d83a84840,2019-01-23 02:56:11,Valerii Iatsko,"Merge pull request #231 from mkloubert/vscode-powertools
+
+Added vscode-powertools",True
+8d57e477764ed7a89fb65bde035e5f0b9e7bc98d,2019-01-12 04:17:17,Marcel Kloubert,updated vscode-powertools description,False
+11a5f29c45c3450d90321dbbb0f93503f6bc6c68,2019-01-12 04:11:39,Marcel Kloubert,vscode-powertools,False
+e83e006ae4804a6e848399caea3d3409532bdc29,2019-01-11 01:50:32,Valerii Iatsko,"Merge pull request #230 from RiFi2k/format-html-in-php
+
+Add Format HTML in PHP extension",True
+3abd9b669ea1ce9df467c2bead0352b5216a9f52,2019-01-09 13:17:22,Reilly Lowery,Add Format HTML in PHP extension,False
+9050f5239875d17c6eb3c516a32a7b73af68dfb7,2019-01-05 21:35:41,Valerii Iatsko,"Merge pull request #225 from foxundermoon/master
+
+add  vs-shell-format extension",True
+e7a8485b403dbb4c4c140e1d4854b258cfacd5cd,2019-01-05 21:33:04,Valerii Iatsko,Merge branch 'master' into master,True
+b2bf62836132c5959bd3ea545b68d3eb5f8dd287,2019-01-05 21:29:40,Valerii Iatsko,Dropped VIM slack dead link (temp),False
+053b2af8e72a7e35e946f4264684280a3009108c,2019-01-04 19:20:10,Valerii Iatsko,"Merge pull request #185 from WaylonWalker/master
+
+added instant markdown and import cost",True
+bceb90c1c642c4b9e4a1271e1ee48904d903188f,2019-01-03 14:00:59,Valerii Iatsko,The vscode.d.ts node module,False
+05f9da79a6e64f5483d1b700a0276cfec8d07ad6,2019-01-03 13:59:18,Valerii Iatsko,Update README.md,False
+50e8276c14d25900a8cca27decd1be4573b5f9e3,2019-01-03 13:58:34,Valerii Iatsko,Added vscode-recipes,False
+581b73c11183b01ea6a9a2f48b254726fc0328b8,2019-01-03 12:52:40,Valerii Iatsko,"Merge pull request #211 from AustinLeeGordon/master
+
+Added vscode-schema-dot-org package",True
+14720a7fc6e1a9e2201e4b63fed6e88324e33d79,2019-01-03 12:51:49,Valerii Iatsko,"Merge pull request #224 from funkyremi/master
+
+added vscode google translate extension",True
+ac7983724026c0adc1a616f221c477bdcf12a231,2019-01-03 12:50:47,Valerii Iatsko,"Merge pull request #206 from mr-ubik/master
+
+Add TensorFlow Snippets.",True
+12f94d2b5bcd6ea5546d6d1a1896177090561a01,2019-01-03 12:49:58,Valerii Iatsko,Update README.md,False
+7f16b532c9399a7d2665dded3b72a4b9b2b7fca3,2019-01-03 02:27:37,Valerii Iatsko,Added a note that this is a personal repository,False
+8e34ccfaf0ba2cab4510b2c2151a7c3e5e0f799e,2019-01-02 13:19:53,Valerii Iatsko,"Merge pull request #223 from ahmadawais/patch-2
+
+📦 NEW: VSCode.pro Course",True
+020990bc3bfd004f02c8f1e5ee7eae0382f6f9ca,2019-01-02 13:18:17,Valerii Iatsko,Fixed a typo,False
+70447017ad6b0951016ce6f48b560434f0f2a166,2019-01-02 13:17:37,Valerii Iatsko,Fixed styling,False
+0d8fd44852038a7ccfcc3f3b7668c89d731e9c2c,2019-01-02 13:04:09,Valerii Iatsko,"Merge pull request #219 from BrutalSimplicity/add-msbuild-project-tool-extension
+
+Add MSBuild Project Tool extension to C# language section",True
+83db8ca522961c584b26984ead58bca2d3434597,2019-01-02 13:02:39,Valerii Iatsko,Update README.md,False
+e2c967c5d553e96311457b1b4240f125f84966d9,2018-12-27 02:38:09,Benjamin Lannon,"Merge pull request #228 from calebmpeterson/link-fixes
+
+Fix broken links in README.md",True
+22ee20f33dd7843e1817cc61f9beb545e2b837da,2018-12-27 02:28:47,Caleb Peterson,Update README.md,False
+af07c190a70adcca5b6994fb49e6e6742e063ef5,2018-11-28 15:35:00,fox,add  vs-shell-format extension,False
+d6dc5afe41e95fc55ec902349866a845a6230467,2018-11-27 14:52:54,funkyremi,Update README.md,False
+97a924c50181384410dcc99748a4dbf7ccb75100,2018-11-27 14:42:04,Rémi Testa,added vscode google translate extension,False
+582e67f64d547ce3cbbd8ae152e1f0fe8c3fd2c0,2018-11-27 06:38:22,Ahmad Awais ⚡️,🐛 FIX: Syntax Silly me,False
+c9f30a767adab42feaf5344691951973eb4fc350,2018-11-27 06:37:18,Ahmad Awais ⚡️,👌 IMPROVE: Convert to Markdown,False
+01d0c718e2a9b4f7d842eb6ae4b6fd4670b81b11,2018-11-27 06:36:12,Ahmad Awais ⚡️,🐛 FIX: Empty line,False
+f63ff6919e325bb60f9b61547fad7c06a153770b,2018-11-27 06:29:53,Ahmad Awais ⚡️,📦 NEW: VSCode.pro Course,False
+6fd18a88ea841ed2d10865b2ffdb7a7714cfe3f8,2018-11-24 08:41:46,Valerii Iatsko,"Merge pull request #221 from viatsko/revert-220-master
+
+Revert ""Add course to the list """,True
+97b7a20582408fbf2ddab7e69c2a10affb39a989,2018-11-24 08:41:38,Valerii Iatsko,"Revert ""Add course to the list """,False
+bb2d3c58648223354f9e0c64e33f369f7509e295,2018-11-24 08:41:26,Valerii Iatsko,"Revert ""Fixing ordering of Table of Contents""
+
+This reverts commit c4b5047f16bfeeecda2ad6e5b9f2fa0f08dd2d02.",False
+c4b5047f16bfeeecda2ad6e5b9f2fa0f08dd2d02,2018-11-24 07:57:17,Benjamin Lannon,Fixing ordering of Table of Contents,False
+5c1fa1c1f141ad76c7789b159d59ed924f225af1,2018-11-24 07:56:08,Benjamin Lannon,"Merge pull request #220 from saqibameen/master
+
+Add course to the list",True
+02f881982181d29140eda7a3ae260963b80e5e2c,2018-11-24 07:08:05,Saqib Ameen,"🐛FIX: Fix the VSCode Pro course link
+
+Fix the link",False
+375f94ccbe91c6b60711c6f635e91db5e621ecb5,2018-11-24 06:59:24,Saqib Ameen,"📦NEW: Add VSCode Course
+
+Add VSCode Courses into the list.",False
+e33bda33ca9c814d22afd7a7dc3632ff90dbad1c,2018-11-22 18:33:34,Brutalsimpliticy,Add MSBuild Project Tool extension to C# language section,False
+a333f0f44731ef77d2b05dd968fa923a2a47e023,2018-11-19 22:19:46,Jordan Schroter,"Merge pull request #218 from viatsko/jschr-patch-1
+
+Updated rainglow links",True
+8f971a6ecdeb6edeed4386c5af3facc813f79ba2,2018-11-19 08:15:07,Jordan Schroter,Updated rainglow links,False
+d6f25d324b07d5f5024e16360fcd980e0f63aa8a,2018-11-19 08:12:52,Jordan Schroter,"Merge pull request #201 from wolfika/master
+
+Add Rainglow",True
+5e800a74a2ee648bec577d977b9138e4fcfa0876,2018-11-18 21:14:58,Valerii Iatsko,Update .travis.yml,False
+fbdbdd497b1bf56faeedd5786ddd32c6175358e1,2018-11-18 21:11:15,Valerii Iatsko,"Merge pull request #205 from erni93/master
+
+Add TypeScript Hero",True
+c17e89ea94cc12542bfcd721006ce82639272a76,2018-11-18 21:10:45,Valerii Iatsko,"Merge pull request #215 from Yanpas/patch-1
+
+haskell and c++ updates",True
+0f020e04b3b0b1658491517c13c7e71e872745fd,2018-11-11 14:47:30,Gaweł Kazimierczuk,Add screenshot of Vetur extension inline in readme,False
+c7311c2aa4cec2645c703a44e040055f1f265792,2018-11-05 22:30:09,Benjamin Lannon,"Update README.md
+
+Fixing broken image for auto-import extension",False
+9e27e0b6a8ac5a1b0a584dd884ce9417ab8125e2,2018-11-05 19:13:26,Benjamin Lannon,"Merge pull request #188 from alanhamlett/master
+
+Add WakaTime to Productivity section",True
+a0baf1bef165201d7982b58fe16e30d59e03bd3f,2018-11-01 04:53:55,Gaweł Kazimierczuk,Add screenshot for Vetur extension,False
+28584adb4e5814412d578ad99f05104a2c51e30b,2018-11-01 00:12:09,"Michele ""Ubik"" De Simoni","Fix  pull request #206
+
+Fixed the errors introduced in the README.md",True
+a19a8eac467679e5a0dc052d7701c2ff52e5014c,2018-10-31 23:27:56,wolfika,fix rainglow theme addition according to contribution guidelines,False
+99daac9298556c4f165bf78686139ad007e9d6f9,2018-10-30 13:53:43,Yan Pashkovsky,haskell and c++ updates,False
+58557d50af2abd0133c20caaf4bea9d9197dcd7c,2018-10-25 11:13:06,Gaweł Kazimierczuk,Add Vetur,False
+edf71dd67d846f7af6606de3a4e8dc1a3705020c,2018-10-24 23:00:30,Benjamin Lannon,"Merge pull request #214 from opw0011/bash-debug
+
+Add Bash Debug",True
+3a1577d97b47fee5ed6e66a54fa5b60176aef73a,2018-10-23 21:55:09,Benny O,Add Bash Debug plugin,False
+0c35b84649e6fbc5847e164e2d0db5b89b263954,2018-10-23 01:53:58,Jordan Schroter,"Merge pull request #213 from pushqrdx/master
+
+Added Monokai Oblique theme.",True
+c558e44e8d128eca62a82623443c0a679777776a,2018-10-23 01:35:11,Ahmed Tarek,Updated theme link with vscodethemes...,False
+d0efbc276054c7d3db7d3fbe8d9a80469142785e,2018-10-18 22:31:03,Ahmed Tarek,Added Monokai Oblique theme.,False
+2ad38c860c34ee7ccfcb63c15c99c9875bf81cc6,2018-10-18 18:08:14,Austin Gordon,Added vscode-schema-dot-org package,False
+396e809369d52a7a24a3ff4287c519be3ffbf8fa,2018-10-18 12:05:27,Máté Farkas,Move Rainglow to themes,False
+634d6d2122c0039c914af5c02f3f3c57c1ad36fa,2018-10-18 01:42:53,Benjamin Lannon,"Merge pull request #210 from adamralph/patch-2
+
+removed ""Preview"" from Microsoft C# extension",True
+31b66766ab8ddf1a64fa6b41b4c3091bb1470681,2018-10-17 13:08:50,Adam Ralph,"removed ""Preview"" from Microsoft C# extension",False
+388b0afb749c1d9890bbb3f00d062d06d5ac2b39,2018-10-17 07:44:44,Benjamin Lannon,"Merge pull request #209 from opw0011/markdown-all-in-one
+
+Add Markdown all in one",True
+a569b4307b8e776136458392fc200691cede59f1,2018-10-16 21:09:34,Benny O,Update markdown Toc,False
+41c762069782ca55a016e677fde40bde62d57d31,2018-10-16 20:50:38,Benny O,Add markdown all in one,False
+2e2df55b6f9ae984fdff89a7bab989f70e20d9b5,2018-10-15 21:20:38,Jordan Schroter,"Merge pull request #197 from sreetamdas/master
+
+Add Monokai Pro Theme and Fix Checkboxes in PR Template",True
+85963ddf86a9f3ae95fc8f4f1d732c2d2ed5d59f,2018-10-15 21:16:51,Sreetam Das,Fix broken `href` in ToC,False
+0ba784e6ddca9c9e1e47ec8be98d69973eda3d22,2018-10-15 20:55:37,Sreetam Das,Add Commercial tag in description,False
+8166eae1bef63da3c124e45a297f8fa367bbd757,2018-10-15 20:38:53,Benjamin Lannon,"Merge pull request #207 from kristoft/master
+
+Calva - IDE for Clojure",True
+6ab993b7ab784c0256913db63780deed8406cf80,2018-10-15 11:08:39,Timofei,fix Calva gif,False
+4f9d6e697b0cf3698ca127327a7555cc2ebb2f8d,2018-10-15 11:07:43,Timofei,Added Clojure section and Calva,False
+f6860cf9b51d9094bc0289f3cb34ddea8ea28e84,2018-10-14 23:12:46,"Michele ""Ubik"" De Simoni",Add TensorFlow Snippets.,False
+409e783099094f4b63201ec4ae037402be4d1d62,2018-10-14 14:04:58,Valerii Iatsko,"Removed 1C screenshot
+
+The screenshot didn't really serve any ""demo functionality"" purpose but was just showing ""it works!"". Removing the screenshot won't harm the catalog, but will save some data bandwidth instead.",False
+4a39396fecf5e120cb46591a3e5dcea5ad19c6be,2018-10-14 14:01:10,Valerii Iatsko,"Merge pull request #194 from kjbrum/kb-svg
+
+Add SVG language extension",True
+56cadd2ebec74e506a21ca173bba25d298d2a6d6,2018-10-14 10:18:18,Benjamin Lannon,"Merge pull request #179 from spikespaz-forks/master
+
+Add SmoothType extension",True
+24cef0e1eabab2e788bf05688b099d200e2996a7,2018-10-14 10:13:40,Benjamin Lannon,"Merge pull request #204 from chriswmercer/patch-1
+
+Update README.md",True
+9e935f7403274efea3b19192ee0b063feb5c2434,2018-10-14 00:46:48,Ernesto del valle,Add TypeScript Hero,False
+e1d1c98d34bdf6d462dd459b738c46ff214c42e8,2018-10-13 20:05:45,chriswmercer,"Update README.md
+
+Minor spelling/punctuation issue",False
+dac6649568cd688941aeaede6c95815b14191301,2018-10-13 15:18:06,Valerii Iatsko,"Merge pull request #202 from nickbanana/master
+
+Added Remote VSCode",True
+e90ca167fdf0b3a441d32948119cd52e928a85f2,2018-10-13 15:17:10,Valerii Iatsko,"Merge pull request #203 from tanmayrajani/master
+
+Add Jumpy",True
+712434c979f569a78bf6194085811895f6b48b9d,2018-10-13 13:42:23,Tanmay Rajani,adds jumpy,False
+ff593a85bd91e12f22bbfde87bbcbd775632f0d4,2018-10-13 09:30:18,nickbanana,Added Remote VSCode,False
+7963b872dbcfbb57056b109afb58d4f13767498e,2018-10-13 01:39:06,Sreetam Das,Remove Duplicate Entry for Monokai Pro,False
+bd05d815232e92f37624ba749dd28e8a22496a5d,2018-10-13 01:18:11,Máté Farkas,Add Rainglow,False
+99c3ee92d6b1a476f58c73780deb571ac918896a,2018-10-12 23:52:12,Jordan Schroter,"Merge pull request #200 from felubra/slime-theme
+
+Slime Theme by smlombardi",True
+a54b825cf7aacc17bed5a2237fe22557b0877a94,2018-10-12 20:32:08,Felipe Lube de Bragança,Slime Theme by smlombardi,False
+5033d6593dccabc563f4ff7db999eb9466e767d2,2018-10-12 12:27:16,Valerii Iatsko,"Merge pull request #151 from masiulis/master
+
+Adding highlight-matching-tag to the list",True
+96ee5f70a22f47dd765f8b108b6ffd10695e831e,2018-10-12 12:22:53,Valerii Iatsko,"Merge pull request #175 from kagof/master
+
+Add Befunge to syntax list",True
+a6a124046ad94c42f4b0f9feda50cf2bc498688c,2018-10-12 12:22:02,Valerii Iatsko,"Merge pull request #195 from kjbrum/kb-duplicate
+
+Add duplicate action package",True
+f83af194f441bf66444396efb521be0d782efbcc,2018-10-12 12:20:34,Valerii Iatsko,Merge branch 'master' into kb-duplicate,True
+45c0712bee5abcb1e441af5e01ee30daef1e0b2c,2018-10-12 12:18:59,Valerii Iatsko,"Merge pull request #164 from Muljayan/master
+
+Included ES7 React/Redux/GraphQL/React-Native snippets under Productivity",True
+c41761381f5d323a1e7eb381bed46b5a7a45cc74,2018-10-11 16:02:43,Sreetam Das,"Fix Checkboxes in PULL_REQUEST_TEMPLATE
+
+Checkboxes will now work!",False
+ab86846e4d495c27468164a6be9f27cf6677c4a7,2018-10-11 15:51:54,Sreetam Das,"Fix order to Alphabetical
+
+Edited order of Monokai Pro to conform to alphabetical",False
+6f28bcbf88be34e663b54600c8ca98b3500f300f,2018-10-11 15:35:55,Sreetam Das,Add Monokai Pro to README,False
+9ba3b3fd989441efd38bea3de96c1bf509745c45,2018-10-11 15:31:08,Sreetam Das,Add Monokai Pro Theme screenshot,False
+2617db7ba247b7b0792bbcc9e9f69356bb5e121e,2018-10-11 10:03:51,Kyle Brumm,Add duplicate action package,False
+a613aee9cc4554a3ed402aa329b6f261efa6888b,2018-10-11 09:58:10,Kyle Brumm,Remove base16 changes,False
+fd1e2d8354d3eda5d12d3cefe6169bf5c7832b1f,2018-10-11 09:42:51,Kyle Brumm,Add SVG extension,False
+5ae388550d4c4e96af3b1046bd891f24754b1187,2018-10-11 09:22:42,Kyle Brumm,Add Base16 Ocean Dark Extended theme,False
+f02c20c7b5af22758972ba608e5d2642beb9a929,2018-10-11 02:40:54,Benjamin Lannon,"Merge pull request #182 from ericadamski/add-carbon
+
+Add vscode-carbon.now.sh to the list",True
+ae39c12f36bc7a766eb9470eeae744bc1b0ffb26,2018-10-11 00:03:39,Muljayan,"Added image 
+
+Added screenshot for es7-reactreduxgraphqlreact-native-snippets",False
+06e5368fed2b2640ccf5fbffa2df8fce12a34806,2018-10-10 18:40:47,Jordan Schroter,"Merge pull request #186 from redhoyasa/patch-1
+
+Add Terraform to Lint list",True
+2ff32577adaecabcfe1a0d20803c94c20a68d27c,2018-10-10 17:54:36,Benjamin Lannon,"Merge pull request #190 from ahmadawais/patch-2
+
+🐛 FIX: lingo for the intro",True
+1f508fa2de06849cf3365e0083de3870d7f0a40c,2018-10-10 16:37:17,Ahmad Awais ⚡️,🐛 FIX: lingo for the intro,False
+7f6e8311671c45a0eb8602d7960f90af339d6a7e,2018-10-10 11:55:55,Alan Hamlett,Add WakaTime to Productivity section,False
+7efe36d5cdbb3003acd6e25776f912707cdddbcf,2018-10-10 10:02:08,Muhammad Redho Ayassa,Add Terraform to Lint list,False
+2fd3f2b0a50a9bb56561437b9f7f995282476a09,2018-10-10 08:38:03,Waylon Walker,Added Import cost,False
+9346774e12b4efabdf326ac6bae40e7c296e7e74,2018-10-10 08:34:10,Waylon Walker,Added Instant Markdown,False
+611362ba0daa89459dbd59614f8379713f85d27b,2018-10-09 20:20:22,Eric Adamski,Update README.md,False
+3f21014dd86f0237990b33a57299aff2b5067ef5,2018-10-09 17:21:52,Benjamin Lannon,"Merge pull request #174 from lannonbr/feature/twitter-list
+
+Adding list of people to follow related to @code",True
+08f97a78259f775452020fcec054b96d583ce855,2018-10-09 17:19:44,Benjamin Lannon,Fixing TOC,False
+c4ecf516b4aeff6a5b2325afdd5db79f059db23f,2018-10-09 16:21:04,Eric Adamski,Add vscode-carbon.now.sh to the list,False
+51cc0ea12ecd5136e9d97733088602158f6e326a,2018-10-09 16:14:52,Benjamin Lannon,Moving Follow list down README,False
+b2a90dac838d7d46a8c02c04ca0658198269714a,2018-10-09 10:11:31,Jacob Birkett,Move SmoothType TOC link to be alphabetical order,False
+9782ea6901168f60798cd3e40449003d9100a1f0,2018-10-09 10:06:38,Jacob Birkett,Add SmoothType to list & fix Slack's header,False
+f04632d498f46e81dd4f1d3c5e865ecb8d440f87,2018-10-08 22:56:59,Karl Goffin,Add Befunge to syntax list,False
+aeaa985026c3b97f49be6d440857b978ddeaa6e1,2018-10-08 22:08:20,Benjamin Lannon,Adding list of people to follow related to @code,False
+96e4c7d919a1d8217c00f6e44efc9c04c02a5664,2018-10-08 20:36:59,Benjamin Lannon,"Merge pull request #171 from in-in/patch-1
+
+remove Copy Relative Path extension",True
+cf1016cc018d2829c4307e37ccc442f2be53317a,2018-10-08 20:35:20,Benjamin Lannon,"Merge pull request #170 from mr-ubik/patch-1
+
+Change Keymaps to ""Migrating from other Editors""",True
+3836c2e35cfc16fa942205f069abfac439f238b9,2018-10-08 20:19:56,in-in,"remove Copy Relative Path extension
+
+#166",False
+60c5e7a966a4f02fa5f3c838d05beabe7473f7aa,2018-10-08 19:44:06,"Michele ""Ubik"" De Simoni","Change Keymaps to ""Migrating from other Editors""
+
+- Rename the section on keymaps to **Migrating from other Editors**
+- Move `vm-mode` to **Migrating from Vim**",False
+8d7859ee3c1bb5af838b09f0ed2c75272f0dcebf,2018-10-08 14:40:00,Valerii Iatsko,"Merge pull request #165 from jonasbn/addressing_all_markdownlinter_issues
+
+Addressing Markdown issues pointed out by Markdownlint",True
+b05f9bfa4ac2035fc28c788885654a6d325480c1,2018-10-08 12:51:17,jonasbn,Merge branch 'master' into addressing_all_markdownlinter_issues,True
+0e4f8ff8f6881ebcede8e427477309d0afaa260f,2018-10-08 12:37:55,Valerii Iatsko,Added Bash IDE,False
+225936051a0abf7450b1272cf83c080ee8fb70c9,2018-10-08 12:35:39,Valerii Iatsko,"Merge pull request #163 from TrumanDu/master
+
+add shell support",True
+b598d6aa636ac26d8397fde16938c492bd1e650c,2018-10-08 12:34:20,Valerii Iatsko,"Merge pull request #161 from jonasbn/master
+
+Alignment of contents of Table of Contents with actual contents",True
+e85105ad7a4fd8dda87f3660c06e316a3d891e19,2018-10-08 12:02:24,jonasbn,Merge branch 'master' of https://github.com/viatsko/awesome-vscode,True
+19cc3135cdcc775a6492f6c159eb833eb654f9df,2018-10-08 10:27:11,Muljayan,resolved conflicts,False
+7ce1ba4e7c7c00e92ff90182e85f4f850d8adb01,2018-10-08 10:14:09,Muljayan,resolved merge conflicts,True
+44ae5bfe5908d8678c850debaaebe44cebffd15f,2018-10-08 10:07:28,Muljayan,updated pr,False
+864934247cfd15ffad68fc3ff77b081597047376,2018-10-08 07:55:26,truman.p.du,add shell support,False
+32a91abaf0f600c973452021c6c1d8ba8572c938,2018-10-08 07:53:36,truman.p.du,"add shell support
+
+add shell support",False
+e53980f187647316a0d7e4062cf1c7a5a97efae6,2018-10-08 01:08:26,Jordan Schroter,"Merge pull request #162 from iinfin/master
+
+Add mno theme",True
+726bd7794e3bcf1a9da0ff6b082f7d06df1f9f5a,2018-10-08 00:42:10,Han Lyn,Add mno theme,False
+00610ac0985a2f2fdb438d767e86e4fac31381d0,2018-10-08 00:21:03,jonasbn,Merge branch 'master' into addressing_all_markdownlinter_issues,True
+44654cbdbf654447ae74badfdb38e3c6edf3800d,2018-10-07 23:52:11,jonasbn,Updated from upstream project,True
+ebb7619a9fe46cf814cec4555772653dc66bc8b8,2018-10-07 19:30:57,Muljayan,fixed the entry in TOC,False
+ac56b232297ccafa8410efdad04879fef788821b,2018-10-07 19:26:04,Muljayan,simplified description of ES7 React/Redux/GraphQL/React-Native snippets as requested,False
+dacf6450e4514752bd37375a7696dc9f6503556e,2018-10-07 19:18:21,Muljayan,Merge remote-tracking branch 'upstream/master',True
+7cf5d286703262c18458ff310a46ce6d4d541995,2018-10-07 14:51:35,Valerii Iatsko,"Merge pull request #159 from shivendra14/patch-2
+
+Added link for Bond syntax highlighter",True
+43adc0d5a902ec5e2526ebbac33d7f45cb6c2083,2018-10-07 14:48:14,Valerii Iatsko,"Merge pull request #134 from lannonbr/patch-1
+
+Adding JS Parameter Annotations extension",True
+1ea4ea81a2f66c2450a9e383ba198b238a08a893,2018-10-07 12:25:15,Muljayan,fixed linking 3,False
+a371725efa4641a0b22cf12db27dc06f05ad6d2d,2018-10-07 12:20:22,Muljayan,Fixed linking issues 2,False
+1adc32a10e7a93dd2866d43a9d38dbad4587602f,2018-10-07 12:18:51,Muljayan,Fixed linking issues from TOC,False
+fdf5a0b08a3749d4a50feaa54c3bf378dfa60252,2018-10-07 12:16:19,Muljayan,Changed ES7 React/Redux/GraphQL/React-Native snippets under productivity,False
+f47e0fa72e976ed917cf932fea59e23b9e800d9c,2018-10-07 11:59:14,Muljayan,removed example tables,False
+5f598299b00ea181dbf48669e291a16c882b2d50,2018-10-07 11:55:51,Muljayan,Included ES7 React/Redux/GraphQL/React-Native snippets under javascript,False
+29991fe6e277fe08eb462f68956c5465d5efe8bd,2018-10-07 07:26:47,Jordan Schroter,"Merge pull request #157 from aspittel/master
+
+Add Fairy Floss theme",True
+78deb76162b2fd25641927fe7677d83f40d63245,2018-10-07 05:32:52,Ali Spittel,Update header to VSCode Themes,False
+1d36557eb3e970e010df94aa3eedf1c127f127d4,2018-10-07 04:17:11,Shivendra Agarwal,"Added link for Bond syntax highlighter
+
+Bond idl
+https://github.com/Microsoft/bond",False
+450878556ca47110892be8f2a0d79d19936e1e36,2018-10-07 03:29:55,Valerii Iatsko,"Merge pull request #158 from shivendra14/patch-1
+
+Added link for flatbuffers syntax highlighter",True
+b2235b7511520a99d29da19e7e9823b3f75d8323,2018-10-07 01:13:54,Jordan Schroter,"Merge pull request #156 from tricinel/add-edge-theme
+
+Add Edge theme",True
+96aae7d73be7a0448779c17b97bfed8f774d99f5,2018-10-06 23:09:39,Shivendra Agarwal,"Added link for flatbuffers syntax highlighter
+
+flatbuffers idl
+https://google.github.io/flatbuffers/flatbuffers_grammar.html",False
+8a37cdfae493ad8f93a62971cad5c8322bb9283c,2018-10-06 22:31:49,Ali Spittel,re-order fairyfloss to alphabetical order,False
+f314b899003e1284edf2e9a00c398f0a378a6f04,2018-10-06 22:29:22,Ali Spittel,make table of contents link all lower case,False
+a94d43a24ff03d5ab1d70a5bf67d70a589f0d8bb,2018-10-06 22:27:28,Ali Spittel,add fairy floss to table of contents,False
+c2fc8563f81c067d04bcb047de1fbbfd8f8ed75b,2018-10-06 22:23:10,Ali Spittel,change fairy-floss image path,False
+a1f278078b0273e39deead9577b04b3b7295cb74,2018-10-06 22:22:17,Ali Spittel,add fairy floss image,False
+55df6a7a0e2de60416dc8767f214b78154274449,2018-10-06 22:19:46,Ali Spittel,Delete fairy-floss.png,False
+6ed96a910251bb09ec885a38934c939747540a30,2018-10-06 22:15:57,Ali Spittel,add fairy floss screen shot,False
+89674eeb29252d17faaad98d88fe6371f1339183,2018-10-06 22:15:32,Ali Spittel,Add fairy-floss to readme,False
+943c69244adbc5b41019cb9c5ee0a9ec663ba065,2018-10-06 21:05:21,Valerii Iatsko,"Merge pull request #155 from ohana54/patch-1
+
+Add ReasonML",True
+b4ddcd518615e5f09a3c2f6bb6a51a0e4e86b201,2018-10-06 20:56:20,tricinel,Update ToC,False
+81fbf08ce3a5a6b1437b9798d125a2a5aed3dfdb,2018-10-06 20:48:47,tricinel,Update screenshot to use Sketch template,False
+533226d27002f164f9d1f5f5ab42d727adf74529,2018-10-06 20:42:52,tricinel,Add Edge Theme,False
+9556aa4fd96128ca6f5507ff00fc504ccda862af,2018-10-06 20:13:36,Tomer Ohana,Add ReasonML,False
+69f7cf1d0a592589e5a5c41b943088b37164990c,2018-10-06 19:31:13,jonasbn,"Addressed issues pointed out by Markdownlint
+
+Added Markdownlint configuration disabling a set of rules
+
+- ""first-line-h1"": MD041 - First line in file should be a top level heading, ref: https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md041---first-line-in-file-should-be-a-top-level-heading
+- ""no-duplicate-heading"": MD024 - Multiple headings with the same content, ref: https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md024---multiple-headings-with-the-same-content
+- ""html"": MD033 - Inline HTML, ref: https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md033---inline-html
+- ""line-length"": MD013 - Line length, ref: https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length
+- ""blanks-around-headings"": MD022 - Headings should be surrounded by blank lines, ref: https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md022---headings-should-be-surrounded-by-blank-lines",False
+c1ac458699f80ac171ba4e0f8831b3fe563c570a,2018-10-06 12:06:28,jonasbn,"Alignment of contents of Table of Contents with actual contents, Markdownlint reports some 108 issues, I only corrected a few easy ones, which would not
+interfere with the overall Markdown style of the README",False
+853298bf544781275f14e9602261f0873db140fe,2018-10-06 01:33:08,Jordan Schroter,"Merge pull request #152 from fplucas/master
+
+fix links of explorer icons",True
+2936b71eb37f29520e6dd93e967d54ee830ae010,2018-10-06 01:09:07,Lucas,fix links of explorer icons,False
+6fa1d443ee3f27e2d862dd089d3261e7c32d4dfa,2018-10-06 00:24:32,masiulis,fix link,False
+5cbe28cb49a3d0e7bc0e48c6d9fe9cd5af073962,2018-10-06 00:23:45,masiulis,fix link,False
+549919f7553db4fbcced2ced6dd6e927c49a76e6,2018-10-06 00:20:52,masiulis,Add highlight-matching-tag,False
+c5654594a6c92a704c88bd13fdf2ec2de431f7e6,2018-10-05 19:20:51,Jordan Schroter,"Merge pull request #150 from Muljayan/master
+
+Included Material Icon Theme under Explorer Icons",True
+568f0361238407ae14d0a2a3dff600d8e6ca209b,2018-10-05 12:59:49,Valerii Iatsko,"Merge pull request #148 from squarejaw/patch-1
+
+Standardize spelling of GitHub",True
+071cce827c7de5e193fe55c02687793d949ec570,2018-10-05 12:59:29,Valerii Iatsko,"Merge pull request #149 from ahinkle/ahinkle-patch-1
+
+Add Laravel Model Snippets",True
+e1e0cfe28917396d8ab6eafc05f8312caeaf1379,2018-10-05 10:47:16,Muljayan,included material icon theme in the Table of Contents,False
+a40e2b59b7763dd3cad6775edcaf1f234584e0c5,2018-10-05 10:36:25,Muljayan,Included Material Icon Theme under Explorer Icons,False
+bc346998a13ab9a59b3549de28972b63f8cf9339,2018-10-05 07:55:19,Andy Hinkle,Add Laravel Model Snippets,False
+0cb1238d9c967c8978c2a717c87d2c1861937839,2018-10-05 05:38:48,Bryan Bess,Standardize spelling of GitHub,False
+62ee6b73ffbfccd6a5116f6d217a8e445c4e96d7,2018-10-05 01:23:03,Jordan Schroter,"Merge pull request #147 from nikoheikkila/master
+
+Add 'Night Owl' theme",True
+cd197f06348ce60c88ce450631dee66d0a3bf052,2018-10-05 00:22:45,Niko Heikkilä,Point title link to vscodethemes.com,False
+9a914b173edcc7661cceda5da3ec424630f06778,2018-10-04 23:58:29,Niko Heikkilä,Add 'Night Owl' theme by Sarah Drasner,False
+be3e3eb5b9b287c35813675586c63ae9c2c55095,2018-10-04 22:51:47,Valerii Iatsko,"Merge pull request #146 from wesbos/patch-1
+
+Add toggle Quotes extension",True
+4a0d9b368f3c2a61473686444cec601c32f0c2a3,2018-10-04 18:59:53,Wes Bos,Add toggle Quotes extension,False
+ddfc0397d05105b0772ecadd78144d66f0fb639c,2018-10-04 03:48:40,Jordan Schroter,"Merge pull request #143 from noudadrichem/extention/city-lights
+
+Add City Lights Icon Package + preview",True
+e457c4f72c5a7789ca59c125eaf28c43c9a687a5,2018-10-04 03:42:57,Valerii Iatsko,"Merge pull request #144 from sivid/master
+
+adding extension to support Hive SQL",True
+b9f4f361f698a4f04ce17ca92286ee1045912744,2018-10-04 03:42:13,Valerii Iatsko,"Merge pull request #145 from chrislewisdev/patch-1
+
+Add .NET Core Test Explorer extension",True
+d0faa4da1f51fb8c66334bc26517b81b1e5bf46d,2018-10-03 09:39:56,Chris Lewis,Update demo gif to use raw.githubusercontent URL,False
+c418b434b6f23b337e9b7d1d9df21da777737f58,2018-10-03 09:37:47,Chris Lewis,Make ToC link and heading consistent,False
+92aa3aabf45e4b6dc452daf61da1c64ddb926ebf,2018-10-03 09:36:59,Chris Lewis,Add table of contents link,False
+0c2427ab6b26f2bf8c5b28493ea7f4eb8e1fe4db,2018-10-03 09:30:26,Chris Lewis,Add .NET Core Test Explorer extension,False
+6eb9b7981a915886717e33b2524a8b2444141b7f,2018-10-03 03:18:50,sivid,adding extension to support Hive SQL,False
+5ba84fc05249087c2eee589fa9720e30ace9a963,2018-10-02 19:03:26,Jordan Schroter,"Merge pull request #142 from noudadrichem/theme/city-lights
+
+Add City Lights color theme",True
+412d656a907468638e1f0efce15edce4f536f4d7,2018-10-02 14:03:26,info@noudadrichem.com,Add City Lights Icon Package + preview,False
+3529d939f095f425e774ffd437ac8ee749c8235b,2018-10-02 13:14:29,info@noudadrichem.com,added City Lights theme to the list,False
+9a9f0637fdb4ef9aa14bca2388d5336d7257630a,2018-10-01 19:05:52,Valerii Iatsko,"Merge pull request #132 from mkloubert/master
+
+added Remote Workspace",True
+0251140fe0d091ffeb99615655e03962b7631b26,2018-09-30 18:28:58,Valerii Iatsko,"Merge pull request #137 from ngohungphuc/code-comment
+
+add better comments",True
+95e57446e1beff9740e65af1f539ab3c3846d87a,2018-09-30 18:28:36,Valerii Iatsko,"Merge pull request #138 from ngohungphuc/liveshare
+
+add live share",True
+9aea456a08c071f2a723cc78d7deacc589c6a6d3,2018-09-30 18:27:44,Valerii Iatsko,"Merge pull request #139 from ngohungphuc/auto-import
+
+add auto import",True
+1827350b5f53caa85b0ca75166ef6f71fdd6efe6,2018-09-30 18:27:29,Valerii Iatsko,"Merge pull request #141 from alexweininger/master
+
+added todo tree",True
+a0a803bfb4b4fd1606101f9de796336249924a41,2018-09-30 18:26:39,Valerii Iatsko,"Merge pull request #140 from ngohungphuc/md-preview
+
+add md preview",True
+f809cbdb09c9029f1ccdfc6ff950421d1aae1408,2018-09-27 04:22:18,Alex,added todo tree,False
+63870da5ad1e4a64f8d0f00f71a2cdcf31b36075,2018-09-25 13:47:38,ngohungphuc,add md preview,False
+4033dd9ede58010678abf34664abcf8bb0ffe14b,2018-09-25 13:45:05,ngohungphuc,add auto import,False
+5e7af77bc47fae9f6d363d35196f1620d5d8c0a2,2018-09-25 13:40:11,ngohungphuc,add live share,False
+0d653accd91e6bd2467b3071d63e9b3ba417a667,2018-09-25 13:36:32,ngohungphuc,add better comments,False
+c935eb15196c7d4ce3ae9c49ba49f7e6a807ded4,2018-09-17 17:50:44,Valerii Iatsko,"Merge pull request #135 from vaklove/master
+
+Added Bracket Pair Colorizer",True
+fc88ebaf9f5677848372179ca1ca1b6a8a06e5c0,2018-08-31 00:20:02,Vik,Update README.md,False
+c98ce58db6991061d0490935174daa0442ce3585,2018-08-31 00:18:12,Vik,travis ci was failed due from https issue,False
+8f24f6942793a8bee5df9905a67b8209fd65f224,2018-08-30 23:20:34,Vik,Added name title of the package into description,False
+137390d1c17a8e5d35c34c6e66205b424e35bd69,2018-08-30 22:27:27,Vik,Update README.md,False
+2d76eb99093c0f45210cbcb4ffa426e98256d6fa,2018-08-30 22:24:05,Vik,Added Bracket Pair Colorizer,False
+c52472e57e24857b8515763b7d3769fda38018f0,2018-08-30 22:13:46,Vik,Added Bracket Pair Colorizer,False
+68a10b4900d43cce94cb17000be92d7b27764778,2018-08-25 19:23:55,Benjamin Lannon,"Adding JS Parameter Annotations extension
+
+Add an extension to provide parameter annotations in JS / TS files",False
+26f4fc85cd359edcd1f3de1875d7c5418aeb9853,2018-08-07 01:17:46,Marcel Kloubert,added Remote Workspace,False
+8cdd13613aabe3ca54c97e557389c52f2b79ffe0,2018-08-06 01:40:54,Valerii Iatsko,Update .travis.yml,False
+5cc48df05b181b1212ce78e1b3c9922df996fd71,2018-08-06 01:40:25,Valerii Iatsko,"Merge pull request #131 from jschr/more-vscodethemes-links
+
+Updated vscode themes links",True
+908777238ded65c70a350707eb1fc6e9ece0cfe7,2018-08-06 01:35:19,Jordan Schroter,Updated vscode themes links,False
+43242fcb5a999f46d4a7d74a9536392a6a8563ad,2018-08-03 00:14:59,Valerii Iatsko,"Merge pull request #120 from mkloubert/master
+
+Add vscode-kanban",True
+bc97932de20c3cd6e8757210f84d3b67566a6b49,2018-08-02 11:15:46,Valerii Iatsko,"Merge pull request #129 from smkamranqadri/master
+
+Added my bolt language vscode extension.",True
+87879d43bdc76d5ecf555d5e77e772b0a3188496,2018-08-02 02:12:01,Muhammad Kamran,Added my bolt language vscode extension.,False
+6023bdc98ad895065208098b7119ccd144e255e6,2018-08-01 23:56:18,Valerii Iatsko,Update README.md,False
+232506caf39bad6f7c027f6cc792b4bee17418bd,2018-08-01 23:53:38,Valerii Iatsko,"Merge pull request #128 from HardikModha/add-create-tests
+
+Added create-tests extension which helps to generate test files quickly.",True
+ac2b752c5616c1b6cdd0cfcdc5defc9ea0b515ec,2018-07-30 18:10:42,Hardik Modha,Added create-tests extension which helps to generate test files quickly.,False
+e3224bd7d89bcf8d96cb65d2b190651fac6eaa1b,2018-07-27 14:43:56,Valerii Iatsko,Added package.json,False
+e1dedd2a04827dd4afbcace459c21735f83a18cc,2018-07-27 11:01:31,Valerii Iatsko,"Merge pull request #127 from jschr/theme-image-links
+
+Added theme image links",True
+5c8dfeae6e23f25f9cde6e28b447ea088dac2e44,2018-07-27 06:45:55,Jordan Schroter,Allow duplicate links,False
+4a00bc5d27850c5f75c70de3f402a0d0c6b97f58,2018-07-27 06:42:36,Jordan Schroter,Added theme image links,False
+bb68fb98939d4afacf7b39fc3b5f50d5734291fd,2018-07-25 19:46:58,Valerii Iatsko,"Merge pull request #126 from jschr/themes-section-rework
+
+Themes section re-work",True
+aa35d7cc2b080e70739fc4cbff7ab28fb707f473,2018-07-25 18:23:26,Jordan Schroter,Themes section re-work,False
+6ff85da2830c95d17b75c9df3dc0e1d7a5d9d9ec,2018-07-22 20:01:11,Valerii Iatsko,"Merge pull request #116 from erichbehrens/add-github-pull-request-monitor
+
+Add GitHub Pull Request Monitor",True
+47b2cccb97f1b3551ec70594011721ce0c4decf3,2018-07-22 20:00:22,Valerii Iatsko,"Merge pull request #121 from yatki/master
+
+add surround",True
+d361128e662c74f41d6520c23e73f913d8e78817,2018-07-22 19:59:15,Valerii Iatsko,"Merge pull request #124 from goodjack/patch-1
+
+ Add Laravel extensions and php-cs-fixer",True
+8074f92d953a7b46d63bb47a4056c51156bfce0c,2018-07-22 19:58:29,Valerii Iatsko,Update README.md,False
+bdd0ce33ff2161fa60e8bec7029a8393735bef61,2018-07-22 19:56:34,Daniel Balastegui,Update README.md,False
+6af4b9fa13f934fbc507cc2ae891df7b034c3529,2018-07-15 13:24:50,Valerii Iatsko,Set theme jekyll-theme-slate,False
+1f86763f2ab2d9ae1f19843f36916aecab999712,2018-07-06 12:19:17,小克,Add Screenshot/GIF,False
+bc5c9e53c6d787d555c0a366d22f605696fc9e5d,2018-07-06 10:34:20,小克,Update Toc,False
+a49709893526432f1205817904e08b8705b5ceb2,2018-07-06 10:18:54,小克,Add Laravel extensions and php-cs-fixer,False
+9295ee1dea26c1b1e0ac6dbf030cf936cffb4793,2018-07-05 18:26:46,Rostislav Shermenyov,"Fix Git Indicators anchor link
+
+Anchor was missing a ""-"" in ""#git-indicators""",False
+4cd28b547c9717ad662d6bd753deb94673328800,2018-06-18 00:00:22,Mehmet Yatkı,add surround,False
+378d3e30727b0c1202d568f2bab950ce13528578,2018-06-10 00:29:35,Marcel Kloubert,add vscode-kanban,False
+a6685457e59b5d01f46c2980c22b1cb44af04304,2018-06-08 22:39:23,Valerii Iatsko,Update README.md,False
+92d6622f216fe84ddedde1354471d39a1ffec595,2018-06-08 22:38:58,Rome Li,Add Java Debugger to the Java Section,False
+9af0aa89d8562373167b9faa105027f124907ef6,2018-05-06 16:12:05,Erich Behrens,Fix url redirect,False
+8bacba10a13d32306c457666fd26d5d31d5d2b33,2018-05-06 15:11:12,Erich Behrens,Add GitHub Pull Request Monitor,False
+e2510a6618b2389d25a671d1272e713be5149b05,2018-04-02 14:07:55,Ryuichi Inagaki,Revised the extension description to highlight what it makes possible,False
+64f76de0b28af5f3cdefaf6bfdc791140f588fc6,2018-04-02 14:07:55,Ryuichi Inagaki,"Added ""Text Marker (Highlighter)""",False
+b22ba2f762eca3b4be2d384426326f90dd0df908,2018-03-30 14:06:00,Valerii Iatsko,"Merge pull request #110 from mashaal/patch-1
+
+add captain sweetheart",True
+2fe434cc7eb23c4784c9825a03266bcb5f0b7040,2018-03-30 14:05:08,Valerii Iatsko,Merge branch 'master' into patch-1,True
+2116c617a4cc252efb30b235a103e881a4bd4b80,2018-03-30 14:03:06,Valerii Iatsko,"Merge pull request #111 from Tom-Bonnike/master
+
+Add Formatting Toggle extension",True
+230b715e280e6cdef27ef5abcf7031bfbc633583,2018-03-30 14:02:12,Valerii Iatsko,Merge branch 'master' into master,True
+205770f7adc86c06f47ff94ac24bf8e86e0808ce,2018-03-30 13:59:06,Pranay Prakash,Add CSS Peek,False
+975767886fe48ec141fb133c6eaeebfb8f241904,2018-03-30 13:56:49,Evan Brodie,adds migrating-from-intellij-idea to ToC,False
+c8e2a753c8338316556e32ee22088f5ef96da429,2018-03-29 12:26:51,Ahmad Awais ⚡️,"💜 Add Shades of Purple Theme
+
+Add [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) VS Code theme to the list.
+
+### Demo GIF:
+
+![](https://dha4w82d62smt.cloudfront.net/items/032R3i0B353Q3a3u2B3F/Screen%20Recording%202018-03-29%20at%2002.07%20AM.gif)",False
+dd1829a92b11bbcbe3a6bd893483acb4200389f8,2018-03-28 11:31:31,Vaibhav Khaitan,Update README.md,False
+9f750db88e6d356cfbc1ae210ba60dc4b8e8619a,2018-03-28 11:31:31,Vaibhav Khaitan,Added Extensions for C#,False
+44b78c66eea418bcded57f7334ea4903c1201c10,2018-03-19 12:46:36,Valerii Iatsko,Made headers more prominent,False
+3f3f5f2528cf87b5e425aaaea641e0bb0e709cd7,2018-03-19 03:11:24,Valerii Iatsko,Added Configuring Visual Studio Code for Drupal,False
+45e178df78630b26ab6a1b75b840b4a87ada40c8,2018-03-19 03:10:18,Valerii Iatsko,Dropped Twig dup,False
+3f49886eb56f34cdc608e8394ada0c2e85145ad8,2018-03-19 03:09:51,Valerii Iatsko,Moved Twig to it's own section,False
+39c120c878bb40a44b1382b439afdd5ad58def22,2018-03-19 03:08:07,Valerii Iatsko,"Updated PHP and JavaScript sections, updated extensions",False
+5d19984eda637d976425c0c843d0b9c8ec6e732c,2018-03-19 02:16:45,Valerii Iatsko,Swapped link to CDN's one,False
+34e5d012937a5d5a49e769467cb8510626b3fe22,2018-03-19 02:14:23,Valerii Iatsko,Added PolaCode,False
+da8a77af6d7c6972bf1f2dcef791cf5b94944510,2018-03-19 02:12:25,Valerii Iatsko,Added Lombok,False
+1118a590e7e47a65807a4d18e280f9cf5d752398,2018-03-19 02:01:18,Valerii Iatsko,Added Hack extension,False
+d0226035096cc9b192cdb6d0ff8945dd5a328d0f,2018-03-19 01:56:34,Valerii Iatsko,Added another Babel extension and a link to comparison,False
+379a1c23193226d01929f0839991147c853e7f5c,2018-03-19 01:54:09,Valerii Iatsko,Added ST Babel extension (the top one in Marketplace is not working properly),False
+7c930600d1b2e7772f3ddca4209df5f31ca3a6b4,2018-03-19 01:52:27,Valerii Iatsko,Added PHP DocBlocker extension,False
+b87f9c65240af0d34404ce924191655fd791a599,2018-03-19 01:49:27,Valerii Iatsko,Added Maven for Java extension,False
+447878b4c31ddddd4a9c508d14c1587ead772c6d,2018-03-19 01:48:33,Valerii Iatsko,Removed Java from Syntax section,False
+a1a38a2871322bbd85a455f994e962c6a7354f80,2018-03-19 01:46:14,Valerii Iatsko,Added Java,False
+25609212c51abcfe2641fe13d79ba3f0805f7c5d,2018-03-19 01:39:05,Valerii Iatsko,Update README.md,False
+30f9627963393bf158dad66de07341d51ebc3152,2018-03-19 01:38:37,Valerii Iatsko,Update README.md,False
+a33a5d44b4ddb851d8fc1cfb0fd48f278119ff69,2018-03-19 01:35:11,Valerii Iatsko,Moved themes section down below - it provides less value than extensions,False
+d1651fcf95d2496d628197dc83807c2fedc2a6b1,2018-03-19 01:32:36,Valerii Iatsko,Updated Material Theme with a more worked through one,False
+d4fd5cb505b5ae56c70ddd6ff56323b5dd0f00bf,2018-03-19 01:30:16,Valerii Iatsko,Added PHP Intelephense,False
+cc1f06df374fdf8a197d5f801307c9e8fc581a35,2018-03-05 17:36:57,Valerii Iatsko,Create PULL_REQUEST_TEMPLATE.md,False
+312d882a59d9885b42e119eb2a76bd9502154ac6,2018-03-05 16:30:37,Tom Bonnike,Add Formatting Toggle extension,False
+09bfda21daf69d5b3bd5e28c4c0b5a404eff271e,2018-02-27 08:28:00,ømar mashaal,add captain sweetheart,False
+b14bf2c8801906344cf506323dd84d933ab2e3a8,2018-02-26 01:44:54,Valerii Iatsko,Fixed broken link,False
+f082078b23aa6eee64768ed172a1f9de96104b4f,2018-02-26 01:43:08,Valerii Iatsko,Create CODE_OF_CONDUCT.md,False
+33e0044ea7485995da91e0858b4861266fcb0816,2018-02-26 01:41:59,Valerii Iatsko,Got rid of redirects,False
+4ac8db692b2d92da0362465a79d890e776f42b56,2018-02-26 01:40:55,Dimitar Nonov,Azure Cosmos DB changes on description,False
+867d7b1ca03952b580af63fd496aaa60a385d31f,2018-02-26 01:40:55,Dimitar Nonov,Azure Cosmos DB added to Productivity extensions,False
+3682840eb38e3399f742e0472b559adf6877680c,2018-02-10 01:51:22,Yauheni Pakala,Update README.md,False
+2b5bf3111bd6e95e5a57005e89d74d54803f38dc,2018-02-10 01:50:48,Danny Tuppeny,"Update link to Dart Code
+
+We transferred Dart Code from the DanTup publisher to one named Dart-Code. The old URL now displays a message linking here.",False
+a93314b3b1747a4a9e6cff3f32056231b0e48f7b,2018-02-08 12:28:52,Tony Hudson,add azure tool vscode,False
+3d4be895d4c9a30d7a7135ea1a807590925c289e,2018-02-02 13:52:09,Ryuichi Inagaki,"Added ""Edit with Shell Command""",False
+007c96e805d233d33917f57f368833feaf57f774,2018-02-02 13:51:20,Serghei Iakovlev,Update README.md,False
+b78c41f284fdc196ec42979ec5aa957d7e4399cf,2018-01-11 22:51:10,melm,Added Blink Script (The Foundry Nuke GPU Language) syntax,False
+9a8480af3beebc08aefd03509212d8c589221f1f,2018-01-11 22:50:40,kokororin,Add phpfmt,False
+f9cfb386a5cfb50e0ddb198d2c2ca1341e3067d8,2018-01-11 22:50:28,Konstantin Gorodinskii,add wrap selection extension,False
+3a9743ff830d5889abe86c2c0b86c1fd777bd3ca,2018-01-11 22:49:07,Nguyen Long Nhat,Added LaTeX syntax,False
+7c1b50d132f2afe73b5e2d0a9bb98afc60c68fb1,2018-01-11 22:48:53,Kuba Wolanin,Added openHAB to the syntax list,False
+d20ff3d26633ffa477962682c4c793cea4f64a2b,2018-01-11 22:48:39,Mark Probst,Paste JSON as Code,False
+5c51021bd144363373fea94f603880fb10fd88c5,2018-01-11 22:48:02,Wart,add Ariake Dark color theme,False
+90e4246b22633393b1d92e9ce79a59c8aff13fb5,2017-11-25 17:06:05,Matthew Blode,Update README.md,False
+b7cb4d1121cc421f3db23372a4be1a38c9f57d96,2017-11-16 15:00:51,Benjamin Clay,Update Lint and IntelliSense Table of contents,False
+2b72ed741d8979918f19fcfece8244b88a5494aa,2017-11-13 18:05:48,Muhammad Osama Arshad,Improve: add new logo color,False
+b92229299d7dec4ce3273b7ba239444e47e5d512,2017-11-13 18:05:35,Valerii Iatsko,Updated Python extension link,False
+16fad17f1175d2708f836b06e56f98da04305d9f,2017-11-08 20:54:44,Doanh Văn Lương,"change Align Extension
+
+`Better Align` just like that name :D more better.",False
+84594070fee764837d021918f3f0ccf29deec4db,2017-11-08 20:54:14,melm,Added KL (fabric engine) and VEX(houdini) syntax,False
+c4f5aa5ce29677299580291fb2f8bab937e388c6,2017-11-08 20:53:30,Athaher Sirnaik,Added PHP IntelliSense,False
+477859fcecdf6a814d3f8a2ee640fe8c7528fcff,2017-10-27 19:22:51,Valerii Iatsko,Update README.md,False
+fe120c60bd8e2bf1a51666a495379ac8c723c764,2017-10-27 19:10:55,vikrantnegi,add Live Server extension,False
+b2d45deb67c92c69fa7e7e2eeb3fdb0cd1076a94,2017-10-27 15:26:31,Yog Mehta,"Added Kotlin extension
+
+And fixed a typo in TOC heading",False
+51c8b26a0985675e0cfdf9c4d7a6868def719096,2017-10-18 01:42:16,Valerii Iatsko,"Removed ""Migrating from Vim"" link from ToC, fixes #81",False
+5511bc43b7a1d9c91cc9904363dfd6c3e51cf225,2017-10-17 18:54:47,Matt Swensen,Move themer link to tools section.,False
+9430d5f25673018f18fd9fae4df31588a34898ed,2017-10-17 18:54:47,Matt Swensen,Add link to themer in themes section.,False
+3fb2cf0e1f61952781a6776e398c943acbcdf2a2,2017-10-17 18:54:47,Matt Swensen,Remove outdated UI theme information.,False
+76be189023e38965ed23efc929885d1e39e0b36a,2017-10-10 19:56:58,Joonas Yliaho,"Added new VSCode Logo and `align: center` goodness to description & badges (#78)
+
+* Added new VSCode logotype (now with more Awesome branding!)
+
+* Removed logo.ico (Old VSCode logo) from repository
+
+* Some slight styling changes in head of the README.md
+
+* Line break added before # Table of Content
+
+* removed test.md (whoops)
+
+* Serve logo from cdn",False
+ead14303bdd082ac1e4eb1be6c09a152b4813245,2017-10-10 19:31:43,Valerii Iatsko,"Merge pull request #53 from lamartire/master
+
+Add git-indicators",True
+50e9716982ef957ae35c7dc87c32556c731cf3f3,2017-10-10 19:31:28,Valerii Iatsko,Merge branch 'master' into master,True
+b71757dd2c9e582a1ac258cd3c9b8380a5116fd1,2017-10-10 19:23:47,lamartire,Update git indicator demo (replace gif by png screenshots with all states of indicators),False
+e66c3eabcc19972034e16794bc2e034f9d7c935a,2017-10-07 01:59:29,Alexey Lustin,fix toc,False
+4419b5850df7b23c3e4d09bcbf1f378a241d40e4,2017-10-07 01:59:29,Alexey Lustin,remove from lang section,False
+462b4b432fdc5255a25ebc0d108c9b7e8f252e7e,2017-10-07 01:59:29,Alexey Lustin,add 1C-Syntax package,False
+4d5eb892792ab2fc5fe9e6f10e98e5dd6dd9bd7a,2017-10-05 12:07:24,Doanh Văn Lương,"change Arduino Extension by Microsoft
+
+I tried and feel better than other.",False
+8171d52c4863f85c6659f22b3c587edb72b28b56,2017-10-05 12:05:31,Jesús Roldán,Added vscode-spotify,False
+dff8a337b1ee9aec7ff3cf977d78c53944834831,2017-09-27 01:38:07,Markus Wolf,"Add note and link to README.md
+
+Sure, you are right.",False
+eb21d8f0b53c65f3fc6806ef128f0be2ad8e2932,2017-09-27 01:38:07,Markus Wolf,Add github extension,False
+c5f767a857931976ea2f334664d0eb985f282abe,2017-09-26 02:22:59,Vince Picone,Remove Cobalt 2 description paragraph.,False
+83cd7ee34b66bb1a0e12059c70ee264931684c8c,2017-09-26 02:22:59,Vince Picone,Add Cobalt2 Theme,False
+d13a6ecbd4fcc47bb5f2728f501cf7a14f7ed427,2017-09-21 12:09:36,Tantan Fu,Popular Intellij IDEA keybindings for VS Code.,False
+984d6014685da9d534c54035b7e2325fcdb8ba91,2017-08-30 23:41:04,Valerii Iatsko,"Update .travis.yml
+
+Whitelist tslint",False
+2ebb17b993d3c6e52deef07c519b618b1ae2559f,2017-08-30 23:38:02,Valerii Iatsko,"Merge pull request #68 from abinavseelan/task/indent-themes-add-ayu
+
+Fix Indentation issue and add new theme",True
+1f34ee8f07fb71d40628e31b9d0748c7aaeafd27,2017-08-30 23:37:43,Valerii Iatsko,"Merge pull request #69 from OneOfOne/patch-1
+
+Add TSLint under JavaScript as well",True
+de3dc3fee0c754eabea491c272725bdd294d2592,2017-08-30 23:36:29,Ahmed W,Add TSLint under JavaScript as well,False
+83b13ef3c1e1d106aab8803fd6c54be72975f788,2017-08-30 12:23:34,Abinav Seelan,Add Ayu theme,False
+270d4493f6005addd0400810579577a0c49da515,2017-08-30 12:23:20,Abinav Seelan,Fix indentation,False
+919db1f7219820b0c08dcc1d5ae4f9196a31e7cc,2017-08-27 05:08:48,Valerii Iatsko,"Merge pull request #67 from will-stone/patch-1
+
+Add Plastic theme",True
+8112aa0b59028ce2e156990d56147e2787bbbf64,2017-08-25 20:21:24,Will Stone,Add Plastic theme,False
+10cfd1408d0c48149bd2ce4b96757e614985d803,2017-08-25 12:18:55,Valerii Iatsko,Fixed Azure IoT Toolkit screenshot source,False
+30cdbe7a7b42ea2e72028250b8d7f86606a80b86,2017-08-25 12:01:06,Valerii Iatsko,Fixed ESLint link,False
+31d1a335032425acff0849aba24000ef62a1a46b,2017-08-25 11:48:18,Valerii Iatsko,"Merge pull request #66 from formulahendry/patch-1
+
+Update 'Azure IoT Toolkit' to official one",True
+8729916fc6d1f137bbe48854a444d3b5cf7e4613,2017-08-25 11:43:59,Jun Han,Update 'Azure IoT Toolkit' to official one,False
+b0fe5c010b7415a34fb7b1eb6ad85586a975323b,2017-08-16 03:21:50,Valerii Iatsko,"Merge pull request #55 from mkloubert/master
+
+added 'Deploy' extension",True
+02aa6be9427aebc54bf32b78dc9b5d42abb7bcce,2017-08-16 03:21:39,Valerii Iatsko,Merge branch 'master' into master,True
+28e33f2746fc1869ed63cd237b3beb1959bc3f0c,2017-08-16 03:14:53,Valerii Iatsko,"Merge pull request #64 from heronsilva/master
+
+Adds two new themes and sorts the theme section alphabetically",True
+f8c6c2a4a6baa55cf130052d55d76ed9ebbc2d6f,2017-08-15 19:28:41,Abinav Seelan,"Add more extensions
+
+Adds the following extensions to README.md
+- `npm intellisense` to `Productivity` section
+- `Intellisense for CSS class names` to `CSS` section
+
+Also adds the following sections
+- File Icons - For File Explorer Icons
+- Keymaps - For Keymap extensions",False
+06fbe68d9e9f3385dc8c446ccbc93658ac242b0e,2017-08-14 10:02:35,Heron Silva,"Updates section 'themes'
+
+Unintentionally, I removed the ""Atom One Dark Syntax Theme"", as there were two ""One Dark"" themes. And during the conflict resolution, I thought they were duplicate.",False
+c1b1b846dda3456069573086e248acbd9bb09308,2017-08-14 09:48:29,Heron Silva,Merge branch 'master' into master,True
+0ac15d1e7df532635164c23a5479ff5ef9388246,2017-08-14 09:36:49,Heron Silva,Adds two new themes and sorts the theme section alphabetically,False
+1d01ba77a89e74a64556a35ac2c4f5504196e11b,2017-08-13 12:57:33,Ryuichi Inagaki,Fix github link of prettier-vscode extension,False
+fb17639dbbd5af909134c9b76c73d9dfb671c80a,2017-08-13 12:57:33,Ryuichi Inagaki,"Added ""Partial Diff""",False
+447bfb11e762c1cd80244523d13141fdc97fed0a,2017-07-21 12:47:46,Valerii Iatsko,Update README.md,False
+3f0bd8096a33f74cdc482403526dfa867dd94cae,2017-07-21 12:46:01,Mahmoud Ali,Add One Dark and One Light themes,False
+475d83334220dc0f395adde000ae0585752ddd3d,2017-07-21 12:45:00,ANDREW M. TRICE,fixed formatting on output colorizer,False
+1c6e7fe1d98a9518d6e2ac8c390681e99609c640,2017-07-21 12:45:00,ANDREW M. TRICE,"Added ""Output Colorizer"" extension",False
+120dbb007a019eafde1a47581c1c934b185aecd8,2017-07-21 12:44:27,Valerii Iatsko,Moved ts closer to js,False
+0031fba06e4ec41a6fdc82a760f959b5677b1bfc,2017-07-21 12:43:34,Valerii Iatsko,"Revert ""update REAME indentation""
+
+This reverts commit 6610579045e089f6aea5e16f7e6a62edf1f574dc.",False
+33d5de9a352c04c8580d4c2acf7f4e679755e8c1,2017-07-21 12:41:25,Alex Alonso,add typescript tslint plugin,False
+6610579045e089f6aea5e16f7e6a62edf1f574dc,2017-07-21 12:41:25,Alex Alonso,update REAME indentation,False
+6925587f7f30989bdc2b55fbb4e8705b35ba49ef,2017-07-08 00:37:13,Lennon Jesus,Fix anchor in table of contents (#58),False
+90ebbc6d6e3edc4631be938250fd64bed456e4ba,2017-05-28 00:38:43,Marcel Kloubert,updated Table of Content,False
+a24b300e74166b83551147ed7567c9499d95a07a,2017-05-28 00:37:54,Marcel Kloubert,added vs-deploy extension,False
+e3b37f4e4c71e13485683f07c10668f4258cdbde,2017-05-21 17:18:24,Ingvar Stepanyan,Update README.md,False
+fcd5e8016be099a58dde2cb3c5c921423c8a5e8e,2017-05-18 12:18:20,lamartire,Add git-indicators,False
+65ff4caceb6f5a6788fb81d85a95c1a56b8b71a4,2017-05-15 11:25:46,formulahendry,Add 'PlatformIO' extension,False
+a765360f019249e3c76b100e6581d265bbcd3643,2017-05-08 02:10:17,Heron Silva,"Adds ""Settings Sync"" extension",False
+0a6893160ad2d63cb62342aa97540988184cd94b,2017-05-06 13:51:02,Valerii Iatsko,Added travis-ci badge,False
+d5f4944afd69078653d856a246f3f9d8ad77c1b6,2017-05-06 13:48:07,Valerii Iatsko,Fixed path to VSCode logo,False
+2cdaede633b54bf52cfc35e5a96191481fcfd6d1,2017-05-06 13:47:30,Valerii Iatsko,Added VSCode logo,False
+16845975b92a89fd4d7979985d9c2a05083ebbff,2017-05-06 13:42:41,Valerii Iatsko,Added microsoft.com to the white-list because of crazy redirects,False
+d40e7eafccb1a3884cf386394258f8be8e84e744,2017-05-06 13:42:12,Valerii Iatsko,awesome-bot: more strict white-list rule for visualstudio,False
+a0e3dcfe4c534e1ae5a0dbd6200dce5fff925d95,2017-05-06 13:41:27,Valerii Iatsko,Playing with white-list of awesome-bot,False
+919493c97a5beb24ece50af4e2bf9415411c5f75,2017-05-06 13:37:42,Valerii Iatsko,"Fixed more links (http -> https), updated my homepage url",False
+082e08ae6e13a58285b9073f2e8cb7e773cd42ee,2017-05-06 13:36:39,Valerii Iatsko,Fixed a link to microsoft's website,False
+f54057bdde61134cd58c096fcebfebcf87a4d813,2017-05-06 13:36:10,Valerii Iatsko,Removed image which doesn't exist anymore (for VIMMode),False
+9c44da9a7883e693521e70e36681c4b2a679334c,2017-05-06 13:34:10,Valerii Iatsko,Updated some github static assets links,False
+37a7bfcd809260e1ae0fc4897b0ef4d533aac124,2017-05-06 13:32:38,Valerii Iatsko,Updated link to AVA,False
+12e7d0c74898c75270f900676825d10665a8f6c6,2017-05-06 13:32:07,Valerii Iatsko,Trim whitespaces,False
+8f78d54716b6e8fbbb4a060db49dc80ff6d0b272,2017-05-06 13:31:48,Valerii Iatsko,Replaced dead stylus package,False
+8d999e7e6342bc665008ee3b529ad4fae6cf2578,2017-05-06 13:31:34,Valerii Iatsko,Use https links for VSCode releases,False
+3729b4e2c8c8001cf3e8f7ad14bf6db87c49626c,2017-05-04 20:15:33,awesome-bot,[ci] create .travis.yml,False
+dc7e339b69503ad8d61fef364bfbcd33a06d716c,2017-05-04 12:13:46,Wale Eseyin,"Add ""Prettier"" - JavaScript Formatter
+
+Helps in formatting your JavaScript by parsing and pretty printing a consistent syntax 
+
+A simple `CMD + Shift + P` does the magic",False
+db9c2eb84140b91009b52691ad4f6cd74ce12d01,2017-05-04 12:12:19,Artem Govorov,Add Quokka,False
+d1df5e15f01c978d253519e0b5ae68202dbcbb7e,2017-04-06 11:08:39,Benjamin Tarrieux,remove deprecated extension (#48),False
+b65d15f7528d0ac4516f7cb862fcb845f1d4173d,2017-03-29 11:52:48,Marek Lewandowski,Restored vscode-set-text package.,False
+386a9af10173473c1ac74eef0acda398d6e61d8f,2017-03-29 11:52:48,Marek Lewandowski,Replaced vscode-set-text with vscode-test-content package.,False
+c3a99bc50b4ef8f235425c04c1327effa84c4eeb,2017-03-29 11:51:54,Aleksandr,"Update README.md
+
+Added GitLens to table of content",False
+4093d5bc3d73e16d31e79aa4042bea384a396b93,2017-03-29 11:51:54,Aleksandr,"Update README.md
+
+Modify path to GitLens preview",False
+6a2ff9c094dc0a0072f334885a2bcde52d94568a,2017-03-29 11:50:47,Vikrant Negi,add paste and indent extension,False
+f7bee1bd09cd358b6273687bc67bace26e1f6535,2017-03-13 20:04:15,Valerii Iatsko,"Update README.md
+
+Removed join lines",False
+001f88fec1ad0ea9e1e64f15da5356fd1721fedf,2017-03-13 20:02:47,阿发,update screenshot,False
+80743cf9821bdf473a28f2c752754be0a082544e,2017-03-13 20:01:22,Franck Arnulfo,Add Java to Syntax section,False
+3b314e0f9462dd2cca770ec4fff6c7b267a88a12,2017-03-13 15:37:35,Alexey,Added the extension Rust,False
+05b8420f8283632e54ee9cc95820d5464ca0f90f,2017-02-27 00:45:31,Devinsuit,Update broken link,False
+1b7f3424da498f81d4b8b4506b4e8788baca6896,2017-02-18 22:05:28,Hossam Mourad,Update README.md,False
+c95c4cb12d07d84729a3cdb8bc6ddd27ee219172,2017-02-18 22:05:28,Hossam Mourad,add Autoprefixer,False
+043368d53f50dfbbe6f5a0ecc56c21dbb6180e48,2017-02-11 00:52:13,Ines Montani,Fix alphabetical ordering,False
+ec30126a0ee0366df574c13262003e93661b7e27,2017-02-11 00:52:13,Ines Montani,Fix ordering and add Vim Mode to table of contents,False
+3fcb0026e3f8ae4581d0e9ff574810ab1f7b4644,2017-02-11 00:52:13,Ines Montani,Add SVG viewer extension,False
+d536529464ed79af5d59507c110c132150a1d58b,2017-02-11 00:51:48,Orta,Adds UI Forks of VS Code,False
+832fe23c42108541a8ace156a1dd2aa472a9ca5d,2017-01-31 10:03:11,Yuwei,Update Project Manager,False
+ed3e92e23ca836379f56896958812fa0b6bcff3d,2017-01-19 23:11:20,Jerry Batorski,Add GitLens extension,False
+fcfcb6e4ef848e7d448c4055cf5a626fbad7f7ba,2016-12-18 14:41:11,Qinen Zhu,Add GitLink extension,False
+9c9a92d7e8797327c1dc2bb6c385814232824c5e,2016-12-18 14:41:04,bentx,Add Custom theme,False
+57a0d97fded8399b90947d663fe297f9796203be,2016-11-21 15:09:14,Valerii Iatsko,"Merge pull request #27 from Huachao/patch-1
+
+Add REST Client extension",True
+ef4745d77bb68a3f64712e5f5eef41190320bc4d,2016-11-21 14:58:19,Huachao Mao,Add REST Client extension,False
+8d5505ffbae7e9627644fbef098d50cd8e34538d,2016-11-20 13:53:24,formulahendry,Add 3 extensions,False
+d6648af75a7688a8164ac6c30dd0c74dd4a20ff1,2016-11-04 02:03:58,Valerii Iatsko,"Merge pull request #25 from elvishp2006/patch-1
+
+Add package Gi",True
+f7709f6f298e100214e4866a14486f6d7316eb10,2016-11-03 19:36:08,Elvis Henrique Pereira,Add package Gi,False
+141beccef55a3b2ce7ebec4c2180ba879440b6ad,2016-10-25 18:12:21,Valerii Iatsko,"Merge pull request #24 from herrherrmann/master
+
+Added my extension suggestions",True
+a5532fb673de08dbe00653a7f5cc15a8b2ea2905,2016-10-25 02:30:29,Sebastian Herrmann,"Properly sort in ""Align"" alphabetically",False
+d97698d1c26b78ff59bc31840b574d334b39d939,2016-10-25 02:28:55,Sebastian Herrmann,"Add extensions, fix some links and create categories ""Productivity"" and ""Formatting & Beautification""",False
+c1e609ae5e6b21154ab3ee7eba3ba450be420ccd,2016-10-11 10:44:08,Valerii Iatsko,"Merge pull request #23 from hashhar/patch-1
+
+Added YouCompleteMe to C/C++ linters",True
+0d174a91bca036ef8a26e2ae4ce28ee108a1d89b,2016-10-11 06:18:20,Ashhar Hasan,"Added YouCompleteMe to C/C++ linters
+
+It is a great extension which everybody should use if they use any of the C-languages, Rust, JS, TS or Go.",False
+8f2076ab2f6dd93f710e347ccb215b52513bb670,2016-10-03 20:51:54,Valerii Iatsko,"Merge pull request #22 from dustinsanders/master
+
+Update README.md",True
+81e7fa98530a170a8459bb4f75dfefcdc15750cf,2016-10-03 20:46:37,Dustin Sanders,Update README.md,False
+f76968a3838334d9d92e4049ed393271252a0794,2016-10-03 13:24:08,Valerii Iatsko,"Merge pull request #21 from dustinsanders/master
+
+Adding an old hope theme",True
+14467b6669f18490379236a238d48ce7debd9c27,2016-10-03 07:23:07,Dustin Sanders,Adding an old hope theme,False
+65ca38cee28b34ef6b5bf8dee00227ed480450eb,2016-09-14 23:32:04,Valerii Iatsko,"Merge branch 'sozercan-master'
+
+* sozercan-master:
+  changed Slack screenshot to file upload
+  Added Open in Code
+  Added Slack
+
+# Conflicts:
+#	README.md",True
+ceb751e0598008ec7a08b13504854ff0b950446c,2016-09-14 23:29:31,Sertac Ozercan,changed Slack screenshot to file upload,False
+770b63c691c1843d9a76325605ac02e980460718,2016-09-14 21:48:41,Valerii Iatsko,"Merge pull request #20 from romansp/patch-1
+
+Fix 'Git History' link in Table of Content",True
+2dcda7b2d37039ba0590dcffdf872bcada1e9b84,2016-09-14 21:42:08,Roman Pavlov,Fix Git History link in Table of Content,False
+7e9df6115d272a3023ef373088fce7320c112aea,2016-09-12 09:26:42,Sertac Ozercan,Added Open in Code,False
+3186da94748701285a13c19ad54fc18e6aff3ab4,2016-09-12 09:25:43,Sertac Ozercan,Added Slack,False
+8e3b611e854f5d1fff4e152220a3aeb6081b3f2c,2016-08-28 00:38:09,Valerii Iatsko,"Merge pull request #18 from ishanjain28/plugins
+
+Added two plugins",True
+dc83e9ec1c8c09c8222db41d83b1631b94b699d6,2016-08-27 20:34:51,Ishan Jain,Added Git history,False
+a57f210589a3ee5bab36a41a92ef0bbeed8d8e70,2016-08-27 20:26:13,Ishan Jain,Added Path Intellisense,False
+415c62b9153ee241212983f4a626839cc8bb1204,2016-08-13 23:09:16,Valerii Iatsko,Restyle C/C++ part a bit,False
+65ab35c93f556024879cb03e1c4977261cacd689,2016-08-13 23:08:17,Valerii Iatsko,Add Vim mode extension,False
+7d9c3358eb7effd9727a5f4d82bff578cbe953d5,2016-08-13 23:04:39,Valerii Iatsko,Add Microsoft's C/C++ extension,False
+a9f1e6cca5aa3b24af5acc8584f42954a8ac10b6,2016-05-24 08:51:21,Valerii Iatsko,"Merge pull request #16 from danzel/patch-1
+
+Remove JS-IS-JSX and related parts, no longer required",True
+6a94f6c4964575ef2a9258057071341ec50f690a,2016-05-24 08:47:45,Dave Leaver,"Remove JS-IS-JSX and related parts, no longer required
+
+Fixes #9, Fixes #10",False
+eeef43a496bc769cb715d38223472fe691c36c4d,2016-04-23 15:47:26,Valerii Iatsko,"Merge pull request #15 from dyygtfx/patch-1
+
+add  Atom One Dark Syntax Theme",True
+b7a6ef088c72b52ddd8208f2eaa7bbb2034d1c10,2016-04-23 13:04:58,Go7hic,"add  Atom One Dark Syntax Theme
+
+thank you for the awesome-vscode！I once used Atom edit, i like it very much,but some time it's very slow!!! so, now i use vscode instead of Atom。I think the Atom One Dark Theme is very nice!!!",False
+245b1c5e12af456c0520e90a7390198a15ba86c1,2016-04-22 01:04:11,Valerii Iatsko,"Merge pull request #14 from DavidAnson/markdownlint
+
+Add Lint section/entry for Markdown/markdownlint.",True
+e55db2efcf25d1c8bbb5eb481a883de09a6adfd1,2016-04-21 22:37:13,Sam Verschueren,"Merge pull request #13 from Tyriar/patch-1
+
+Link to correct editor config",True
+4ed3900ffb1e97a35614ad392c9e020955b11b09,2016-04-21 22:33:52,Daniel Imms,"Link to correct editor config
+
+Microsoft's version has been deprecated in favor of the community version.",False
+b4fde3ff4ffbc84aef52ccf28b800e9c3e7a1750,2016-04-21 22:12:56,David Anson,Add Lint section/entry for Markdown/markdownlint.,False
+79375d28bf6c1fe875cc8a4327040a745156514d,2016-02-20 17:57:13,Valerii Iatsko,SVG version of CC0 logo,False
+0702418cea07629ac74960674bdf7f72076ee8ce,2016-02-19 00:27:16,Sam Verschueren,add AVA,False
+2f61fb49ad03ed092d09807f9f468e65bb901e18,2016-02-13 03:57:05,Valerii Iatsko,Update CONTRIBUTING.md,False
+b46c8aeca2b00a18932107361f7f3071d856e1c7,2016-02-13 03:56:19,Valerii Iatsko,Update CONTRIBUTING.md,False
+cefe98b47487821b37c135f1a35c3f6a7e8cb489,2016-02-13 03:39:42,Valerii Iatsko,Update README.md,False
+7285647bba79d12b008e087943b1abee763cbebd,2016-02-12 14:30:43,Valerii Iatsko,:art: Add official links,False
+bf9e78e77d0b27cbcb79e717974905ce60b80fc5,2016-02-12 14:27:34,Valerii Iatsko,Added link to official site,False
+343d6929e65c9097f25a948c7257cb71e7fad023,2016-02-12 10:08:15,Sam Verschueren,"Merge pull request #11 from lnishan/patch-1
+
+Fix C++ link in Table of Contents",True
+fe057a10260abe0ffe1f83d759e869afb00c6101,2016-02-12 04:58:17,Jasmine Chen,"Fix C++ link in Table of Contents
+
+The original C++ link points to ""#c++"" which is incorrect.",False
+9d41d50b6fb4cb15a39fd7bd560570a680453863,2016-02-11 13:43:21,Valerii Iatsko,Update README.md,False
+8895096ba9ec85d167f74374790fc7631ab1432f,2016-02-11 13:14:27,Valerii Iatsko,Update README.md,False
+f3b440e95db8f4c9f28dfb2975c9fff448cdd476,2016-02-11 13:12:56,Valerii Iatsko,Update README.md,False
+b52e57894d0e9e472035f224a37852f48484a8f4,2016-02-11 13:09:17,Valerii Iatsko,Update README.md,False
+eb62b4a3278eb3ef44c65329018bf28b339c207f,2016-02-11 13:08:12,Valerii Iatsko,Add more useful syntax files for some languages,False
+a8af42b3910be4dd7b3b16891f87e5222fdd6a36,2016-02-11 13:00:42,Valerii Iatsko,"Add basic information about how to enable Salsa
+
+Related to #10",False
+e0bcd19b4ca20e67fcf74e6070c87a91514b6916,2016-02-08 22:18:44,Valerii Iatsko,Update README.md,False
+3084092facfef34b9cd661039e563bae9da83093,2016-02-08 22:17:55,Valerii Iatsko,Update README.md,False
+62149db77d7c5d9ab0f864e524e7ded5e27ff59e,2016-02-08 22:16:34,Valerii Iatsko,Update README.md,False
+c92db9b4fbd9f3b462f31e0bb89a279bdc0689ad,2016-02-08 14:31:41,Valerii Iatsko,Update README.md,False
+42e2adfd23e326521dca4d215800ea911bb265bf,2016-02-08 14:29:07,Valerii Iatsko,Update README.md,False
+f89df154c42b89c1e719cf1e21a8b91aa915f44f,2016-02-08 14:21:56,Valerii Iatsko,Update README.md,False
+b753a944a631951511f87300d4a52aafffed002d,2016-02-08 14:19:05,Valerii Iatsko,"Merge pull request #8 from viatsko/set-text
+
+add vscode-set-text",True
+e99a46d1c8c448b6a60c48cdce40568cb02c6080,2016-02-08 14:16:59,Sam Verschueren,add vscode-set-text,False
+117341a4ad783483281006542dfd365e94867cc5,2016-02-08 14:04:13,Valerii Iatsko,Add section for extension developers,False
+84caa5d7b6d033d8e43f71a3d82b02986587c4e2,2016-02-08 13:53:41,Sam Verschueren,add XO - closes #4,False
+f82f73141233818e71a1f30b5283de9989573e71,2016-02-08 13:44:23,Valerii Iatsko,Add image of Align extension,False
+ffaccd60c48a39f54ce8a176a939566c4a392295,2016-02-08 13:43:23,Valerii Iatsko,Better picture for Color Hightlight extension,False
+86ab57f225aaffbc9b511665d65e91d58c2ee250,2016-02-08 13:42:32,Valerii Iatsko,Add picture to Dash extension,False
+1ba524a25c592d14ad39cbcb3896e8ab78d37535,2016-02-08 13:34:35,Valerii Iatsko,"Merge pull request #6 from vilinski/patch-1
+
+add Syntax-F# - link to ionide suite",True
+c5259380f98ded28168d86476778b0f9d42b549a,2016-02-08 13:22:18,Valerii Iatsko,Merge pull request #5 from SamVerschueren/tweaks,True
+6115898b98d03f4e8e687f68da76d05fc0b00f36,2016-02-08 13:12:38,Sam Verschueren,tweaks,False
+b31814887d6ec22f7d7f02f189ccb4b70309cf69,2016-02-08 12:44:35,Valerii Iatsko,"Merge pull request #3 from SamVerschueren/yeoman
+
+add vscode-yo",True
+8301a03b7eb39cc0d5ae1eefe0fd5d2929b7428f,2016-02-08 12:42:54,Sam Verschueren,add vscode-yo,False
+4cd47885be29068eb5dcc1db3fe6dc8c176e9562,2016-02-08 12:41:04,Valerii Iatsko,"Merge pull request #2 from SamVerschueren/link
+
+fix lint link",True
+7873e18787ed6d1573d3a566f4f61ffb1deabbe2,2016-02-08 12:38:25,Sam Verschueren,fix lint link,False
+d19ee8dd3f3f1087d54d7dbd50481362826bee27,2016-02-08 06:17:13,Andreas Vilinski,"add Syntax-F# - link to ionide suite
+
+[Ionide](ionide.io) is a bunch of VS Code plugins. Adds an awesome support for an awesome F# language and tools: FAKE and PAKET (installed separately)",False
+abf0cf6201114219df382cc4d6eb6d7be0b11690,2016-02-08 06:02:31,Valerii Iatsko,Update README.md,False
+26fd0bd990406f1ab3eb229fb6e557348020d8e9,2016-02-08 05:59:50,Valerii Iatsko,Update README.md,False
+2ee41a3e45c8224351a3eb2fc0d973ed3dbef0cd,2016-02-08 05:59:22,Valerii Iatsko,Update README.md,False
+0e46dc361621172b8d05547b0a79090a69be005d,2016-02-08 05:56:07,Valerii Iatsko,Update README.md,False
+6f4c58767c30f5366aed0eaed841338f4e12507d,2016-02-08 05:55:38,Valerii Iatsko,Update README.md,False
+0ee2084212ccb4a0ddb83f7cf1b49590907efa0f,2016-02-08 05:47:52,Valerii Iatsko,Update README.md,False
+f62b92f0b6c58f2f75b9cb88376391970f28fb61,2016-02-08 05:47:31,Valerii Iatsko,Update README.md,False
+94f426d3c2ff90b32ce423db116d1a945f1310d3,2016-02-08 05:46:16,Valerii Iatsko,Update README.md,False
+c84b77e054014cffb8925b26521f4845987728a7,2016-02-08 05:43:53,Valerii Iatsko,Update README.md,False
+320ce4a210cf9c2543b3740c99401e519ef37045,2016-02-08 05:42:34,Valerii Iatsko,Update README.md,False
+5ad46dcb792b8f5883ae2fc864b0c05e18145b31,2016-02-08 05:33:48,Valerii Iatsko,Update README.md,False
+91bbf86750aa1a1fe888d8bdf134a2f36a3b51b0,2016-02-08 05:31:41,Valerii Iatsko,Update README.md,False
+363f41bc4d72a63438220e638e152c9037d9e364,2016-02-08 05:30:29,Valerii Iatsko,Update README.md,False
+5d245eee1d65a6df3e043d7f3946e1390dd772eb,2016-02-08 05:29:14,Valerii Iatsko,Update README.md,False
+54be77629dc085ead292c0de9e34e37367731a7b,2016-02-08 05:26:24,Valerii Iatsko,Update README.md,False
+00f8e0bc6331dc6f5b657c3117f11ce8d720b676,2016-02-08 05:25:30,Valerii Iatsko,Update README.md,False
+83f63df6013880c890bf7e6c226ba50e7ff72cea,2016-02-08 05:24:37,Valerii Iatsko,Update README.md,False
+0da6827b8cff2e0e56e7afd5aa7420c34376e2ae,2016-02-08 05:19:10,Valerii Iatsko,Create CONTRIBUTING.md,False
+f600a499537c3393ae7b6899dc2e1b2420dfad46,2016-02-08 05:15:51,Valerii Iatsko,Update README.md,False
+c75631873c29101f72869d4fb9f3d3d340e5c109,2016-02-08 05:14:40,Valerii Iatsko,Update README.md,False
+5c19d8c5a0c6ea4071f2ed743925d9278e8c4a54,2016-02-08 05:10:04,Valerii Iatsko,Update README.md,False
+c16c85a503a851ed8528f7384128faeaee0c3cbe,2016-02-08 05:09:43,Valerii Iatsko,Update README.md,False
+4335c5d2806b5f70bef3cb4ce3a44bc6e62b7138,2016-02-08 05:06:21,Valerii Iatsko,Update README.md,False
+a37c30f5ebdbab40508068b4259708c3b3edd8ae,2016-02-08 05:03:53,Valerii Iatsko,Update README.md,False
+c144cf90d0c573e4dca781e8041c82a066d618ac,2016-02-08 05:00:23,Valerii Iatsko,Update README.md,False
+f2591c1e6aae7cc4d47fe95fe11dbd4b0f96fb0e,2016-02-08 04:53:13,Valerii Iatsko,Update README.md,False
+70b3decc03b18af2611fb27bcfc5d4b1a76aa02b,2016-02-08 04:50:46,Valerii Iatsko,Update README.md,False
+bb378a6361d0ee93f282c0a30688e603e7086892,2016-02-08 04:49:56,Valerii Iatsko,Update README.md,False
+3af3fefecd06421bc280c89005bb88653da8c8cf,2016-02-08 04:47:23,Valerii Iatsko,Update README.md,False
+881ccd2487898e9ef19550eac7529749df84e5fe,2016-02-08 04:38:42,Valerii Iatsko,Update README.md,False
+ee744887bc85cd0d390c8135e453a591020134ea,2016-02-08 04:35:36,Valerii Iatsko,Update README.md,False
+b3296f155582b1bf0b810bfa840c4dde944922e8,2016-02-08 04:33:31,Valerii Iatsko,Update README.md,False
+ffab4b25be4ef1b597ddad36129835702fb01cea,2016-02-08 04:32:45,Valerii Iatsko,Initial commit,False

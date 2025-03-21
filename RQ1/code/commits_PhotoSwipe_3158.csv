@@ -1,0 +1,532 @@
+Hash,Date,Author,Message,IsMerge
+d80c32a62b169e776ad1c983d1fcdc6eea8b48e0,2024-07-18 20:06:32,Dmytro Semenov,docs upd (broken unsplash images),False
+fd85184b450f451bc4aa2697f6d0a79304d13473,2024-05-24 20:44:33,Dmytro Semenov,5.4.4 build,False
+6079bd0d667a8c4c1f76352a15d4bbe47d3ce133,2024-05-24 20:43:47,Dmytro Semenov,5.4.4,False
+44b065a83e2d5e530a9cfe0f1aadc7d43cc0b16e,2024-05-24 20:43:04,Dmytro Semenov,docs upd,False
+a0298e3b2b58cd01e678f8627142b15a7750f69d,2024-05-24 20:41:57,Dmytro Semenov,Bugfix: empty slide if there are 3 slides in total and user swiped through 4 slides fast,False
+1938a36f5f41821698186e648de3ad24c45a6fd0,2023-12-04 20:20:40,Dmytro Semenov,"Revert ""docs upd: Correct 404 markdown links (#2079)"" (#2081)
+
+This reverts commit ac7eaf64df9c60be30fd0acd563c6255c519770e.",False
+ac7eaf64df9c60be30fd0acd563c6255c519770e,2023-12-04 20:09:17,Matthew Petrie,docs upd: Correct 404 markdown links (#2079),False
+13f1ddcec8e6e923dc250eb658a6d77e7518a98f,2023-11-28 23:45:54,Dmytro Semenov,5.4.3 build,False
+38977a9b5d07eea1f7963ad1f7bf506f28479aad,2023-11-28 23:43:44,Dmytro Semenov,5.4.3,False
+79f8159ca0884f71bb2de9b6c2c4bbabd111eb39,2023-11-28 23:41:58,Torjus Bjåen,"Remove restriction of typesVersion to 4.7 (#2078)
+
+Newer versions of TypeScript would not pick up the types when importing from `photoswipe/lightbox` as the types were restricted to version 4.7 or lower.
+
+The types works perfectly fine with newer versions of TS, so by simply removing the restriction everything works as expected.
+
+fixes dimsemenov/PhotoSwipe#2029",False
+2d23b36c99411d2dc45bf6610498754bf301b41c,2023-09-29 13:59:41,Dmytro Semenov,5.4.2 build,False
+d09385ec197feecad72f72745c8c7be8b01b60e8,2023-09-29 13:58:35,Dmytro Semenov,5.4.2,False
+f946f71ca0868722da49414a21bab10c3d5ed3bd,2023-09-29 13:45:35,Dmytro Semenov,docs upd,False
+cac4d41283e5842e5461cfa6185b5bf868f40633,2023-09-29 11:34:28,Dmytro Semenov,Make dataSource optional when used with gallery/children options,False
+f7485654b3db7cb02a664f47e521c722af720108,2023-09-29 10:55:19,Ana Margarida Silva,fix: make dataSource param optional in loadAndOpen (#2069),False
+03eab19b78f633d4dfc27ba669f93ba4cd1d2570,2023-09-17 10:05:18,Dmytro Semenov,5.4.1 build,False
+6796af0ed54aa1236fd70715c84c2d437f3041ba,2023-09-17 10:04:01,Dmytro Semenov,5.4.1,False
+9c237bc5b3ce3f27ec8e0c1845795581d0fb5fe5,2023-09-17 10:02:41,Dmytro Semenov,Docs upd: preventPointerEvent,False
+1fbaeff7a55be03070877f4bb588036876758c32,2023-09-17 10:02:33,Dmytro Semenov,Added trapFocus option,False
+66a6668f574fad7b774bb1c02103ff400cd61a3a,2023-09-13 17:55:23,Dmytro Semenov,build,False
+33c074e0f6032f3d8d2e1554b7b1143bed53659d,2023-09-13 17:54:39,Dmytro Semenov,Added ability to disable preventDefault of the pointerdown and pointermove events,False
+859679d08089e88f18a2b18682abb1178f4de549,2023-09-08 10:59:18,Dmytro Semenov,5.4.0 build,False
+02877748a189d5755538b7b6fe8b80f535973434,2023-09-08 10:58:36,Dmytro Semenov,5.4.0,False
+28baa3d0ee356ddf516d1b6c231bb9608ab9b171,2023-09-08 10:54:23,Dmytro Semenov,"fix: lower version browsers do not support nullish-coalescing syntax
+
+via @zbJinu #2060",False
+d58b06ea27099c55bbaa0e030e949c7354ed6891,2023-09-02 13:47:23,Dmytro Semenov,5.3.9 build,False
+5def42c0c8ce97588fb64bee48636435cea8adbd,2023-09-02 13:46:36,Dmytro Semenov,5.3.9,False
+a75745e5899c292329717138c30c462504e78352,2023-09-02 13:41:31,zt123123,"fix: lower version browsers do not support optional chain syntax (#2058)
+
+Co-authored-by: zhangtian <zhangtian@weidian.com>",False
+798388691d138ba4e5abdb0b23f8f2cf45911f33,2023-08-14 14:19:47,huangzhenpeng,"Docs upd: update vue-image-gallery.md (#2055)
+
+Co-authored-by: 黄振鹏 <huangzhenpeng@xd.com>",False
+75bbcf9eed601dea6607a66cf3a26c846557d173,2023-08-14 10:37:01,Dmytro Semenov,docs upd,False
+d6b46627e16f5b656abeab48b1863248ceffb669,2023-08-05 19:48:24,Dmytro Semenov,Docs upd: update options.md,False
+3849c6783bd5e84b7c0bf6ac94aff9074fc6936d,2023-08-05 19:46:27,Julian Pustkuchen,"Docs upd: update options.md (#2053)
+
+Add initialZoomLevel, secondaryZoomLevel, maxZoomLevel documentation",False
+31c8a855170fc747db08445cb00066b17267b15d,2023-07-03 14:44:22,Dmytro Semenov,5.3.8 build,False
+658dace0e629cd0fa119a0202b921d55e2ac94b1,2023-07-03 14:43:39,Dmytro Semenov,5.3.8,False
+22f7e5c3e87291b4d951d371d3c62ce5c6323c24,2023-07-03 14:43:02,Dmytro Semenov,"Removed `navigator.onLine` so the gallery can be used while offline
+
+fixes #2046",False
+ac0188be13d3a1b4f80796fe7fed59b89bd41da8,2023-04-05 17:01:20,Ivo Herrmann,Docs upd: added custom contentRemove handler to <picture> example,False
+2d8a9114a0f0d0552b4cc7b22739b914296bd286,2023-03-29 11:11:37,Dmytro Semenov,5.3.7 build,False
+e05d25ed7c5cf3666f84cf207e6d82efc627d9ed,2023-03-29 11:09:32,Dmytro Semenov,5.3.7,False
+f481b646e565a3f4352e3069cde15162643e6ae5,2023-03-29 11:03:36,Thomas Navarro,"Docs upd: custom-content.md (#2024)
+
+Fix event names to use the WebP format",False
+d3482fe2e24f9b81a90552d95450ae0d0011fe57,2023-03-29 10:31:14,Patrik Oldsberg,fix: add missing type parameter constraints (#2028),False
+1fcb2b30d2bdc6c78c2abcd036995054faef7a3f,2023-03-16 11:06:19,Dmitry Semenov,Docs upd,False
+05e2193bf94b9bbabab36a288f8788e32c55adf9,2023-02-23 20:43:31,Dmitry Semenov,5.3.6 build,False
+637f2e742065b45b875ca8f8815eaef152e0dcf9,2023-02-23 20:42:53,Dmitry Semenov,5.3.6,False
+97c329fdf5388713e4e8ffa76ae8472ab008bf12,2023-02-23 20:42:08,Dmitry Semenov,"Fix: allow calculation of zoom level before core is initialized
+
+(to define the correct sizes and let srcset load the appropriate image)",False
+beb4810b17e90b8b01a8331974b4c66169cd23a5,2023-02-01 20:13:05,Rasso Hilber,Use `Element.classList.toggle` where appropriate (#2008),False
+2ca18bca05f0611a348fdcba7864019ddd9196ba,2023-02-01 12:10:58,Dmitry Semenov,docs upd,False
+a2e00a97dd432f7665d90672d9638b09dd7c7a90,2023-02-01 12:08:46,Dmitry Semenov,5.3.5 build,False
+1f8d4a5ca1daa963827557a868519b20791cfe0a,2023-02-01 12:07:37,Dmitry Semenov,5.3.5,False
+c33d150e2ed75c8b217967e40f7be64a72423c0e,2023-02-01 12:06:56,Dmytro Semenov,Fix types and strictNullChecks,True
+696d042fd3b6e0100f0ac6a58e3e8df1e424051f,2023-01-30 10:30:25,mishchuk,fix code after review,False
+07a3d3b45a6803927fa93fec8ed4f94291e9e6af,2023-01-12 09:10:05,mishchuk,"fix photoswipe, lightbox types",False
+b1981d5f697da42856af13a16a17473c1e7634c4,2023-01-12 09:10:05,mishchuk,switch on strictNullChecks,False
+dfaf0415c3d374cb6524586cc5c73ced9006085b,2023-01-12 09:10:05,mishchuk,fix opener types,False
+0cb7e55400506dc62e85a5f334cc7252232feee0,2023-01-12 09:10:05,mishchuk,fix main-scroll types,False
+28e675395e2db96c70c98501a24d2e345fce2490,2023-01-12 09:10:05,mishchuk,fix keyboard types,False
+3f0b52340f0bd8f381981a86c18ef09960e7836a,2023-01-12 09:10:05,mishchuk,fix ui/ui types,False
+2b8bbd12b6d0583d718af31e9ef960ff4a413196,2023-01-12 09:10:05,mishchuk,fix ui/loading-indicator types,False
+17d1be07fc7713c2577e3dd073495c0f14b35382,2023-01-12 09:10:05,mishchuk,fix ui/button-arrow types,False
+6ef5279d82334d5ce1c504195da468873bcbfd30,2023-01-12 09:10:05,mishchuk,fix ui/ui-element types,False
+29b631bc0b82777634c10786a18d2ae0386dc2db,2023-01-12 09:10:05,mishchuk,fix gestures/zoom-handler types,False
+ca41582fdce738e2b2911407f14a0217ad2454e3,2023-01-12 09:10:05,mishchuk,fix gestures/tap-handler types,False
+ac6edbffb880b891282f2bec585503c844a06d56,2023-01-12 09:10:05,mishchuk,fix gestures/drag-handler types,False
+941e957d8b982a53235766df9a978ee0a50264d3,2023-01-12 09:10:05,mishchuk,fix gestures/gestures types,False
+586aa8e28b1e3370007efcbfafdecf71f0b9ef1c,2023-01-12 09:10:05,mishchuk,fix slide/slide types,False
+8032640a1e44e54f80b273d1b13af0069a9d9f1a,2023-01-12 09:10:05,mishchuk,fix util/viewport-size types,False
+6009aec7083389b9809f574fcb5664a1b8733e87,2023-01-12 09:10:05,mishchuk,fix util/dom-events types,False
+ecda977d0f82f047855393c33573891477d62d4e,2023-01-12 09:10:05,mishchuk,fix util/animations types,False
+db26460c646de506387475bb03775ba71c8d40b0,2023-01-12 09:10:05,mishchuk,fix util/util types,False
+8af5c8437ae0549a6257ee93ab298ad060f30f54,2023-01-12 09:10:05,mishchuk,fix slide/zoom-level types,False
+b0c777dbb55c3dcd7b30340bc08f6965f499c34c,2023-01-12 09:10:05,mishchuk,fix slide/placeholder types,False
+f6d4b9fec9ca17ca7c7c3d1f152d3967b96ebed0,2023-01-12 09:10:05,mishchuk,fix slide/pan-bounds types,False
+f6d22f6227d942523eab001b42d9257a8e1e07ba,2023-01-12 09:10:05,mishchuk,fix slide/get-thumb-bounds types,False
+6ce199750662984ce7946e32bf29128b470d3e89,2023-01-12 09:10:05,mishchuk,fix slide/content types,False
+50bd95b8a3f0b021ad33d3ab6dbe3723dcac7e09,2023-01-12 09:10:05,mishchuk,fix slide/loader types,False
+0c775333573d6a6327984c8ed9b9d256c0f6abdf,2023-01-12 09:10:05,mishchuk,fix core/base types,False
+3e94d9addfc390d0a53e796c5c4e87334d90d42d,2023-01-12 09:10:05,mishchuk,fix core/eventable types,False
+5911e618acd9735aacf533a478d0c106ec960292,2023-01-04 00:41:34,Dmytro Semenov,Fix RTL issue,True
+13de6620c4b5b19146a59b2190ec93845f8e961e,2023-01-03 21:01:06,Mr.Hope,fix: fix rtl issues,False
+82555d831a8ceb4ec6a3d768e9643bd74eb67e37,2022-11-22 10:53:35,Dmytro Semenov,5.3.4 build,False
+ff2546505980e26846ed2a25971887d08bf9de59,2022-11-22 10:52:29,Dmytro Semenov,5.3.4,False
+8d12ccd9009a4b4ed78cc200e69abd4bd470b3fe,2022-11-22 10:42:56,Dmytro Semenov,Check if element exists before applying aria attributes,False
+4a1e7445f8a453eade9205d41008ac071ebc08f1,2022-11-22 10:30:34,Dmytro Semenov,Accessibility improvements (following ARIA standards),True
+c441470f2abaf30df2137544dfb7dc30aed782ca,2022-11-17 23:07:18,Andrés González,"set id=pswp__items, and ensure buttons have aria-controls pointing to it (note, needs to be unique)",False
+1096bb6aedfbb2ee13ea6a432a6ac35e98d1ae1f,2022-11-17 23:06:18,Andrés González,set/unset aria-hidden according to active slide,False
+752c4ce54e137b3e9c66fe9531a81831ca153a8c,2022-11-17 23:05:08,Andrés González,move aria-roledescription=slide to parent wrapper,False
+a0d13304cdbd45c234a169fb7cb4906e2e613ba1,2022-10-27 23:30:55,Andrés González,Add ARIA attributes to follow 'carousel' pattern,False
+c7a3b5032ee432391dbf028037d2c62fd22e1116,2022-10-25 14:08:03,Dmytro Semenov,Update README.md,False
+c2c3c38356e18748b7e00ea09fead1652622e73d,2022-10-25 14:05:44,Dmytro Semenov,Update README.md,False
+55c63cf8c3ca98321fdaf08cbd21acfe1748905e,2022-10-25 13:50:59,Dmitry Semenov,5.3.3 build,False
+3109654c375163189f03736a16987932effbb672,2022-10-25 13:46:50,Dmitry Semenov,5.3.3,False
+6ef9962c1dcc1efbc845b4d3abccae0cc65ec05c,2022-10-25 13:43:22,Dmytro Semenov,"Merge pull request #1981 from Tw1N88/fix
+
+- Fix unhandled rejection ""EncodingError: The source image cannot be de… 
+- Fix typo in attribute name
+- Fix Cannot read properties of undefined (reading 'applyCurrentZoomPan')",True
+1530ea70f3d9b1889c93d2950770529dcf151e47,2022-10-25 13:38:18,Dmytro Semenov,fix(types): change types of children & gallery options according to docs,True
+d3c3a9c884bc15f1cc13c7dc20a4fe415f8e5b37,2022-10-24 16:27:18,René Schleusner,fix(types): change types of children & gallery options according to docs,False
+ab74267286afc8fe4e8148345b0764c77da12960,2022-10-24 10:55:42,Dmytro Semenov,docs upd: fix typo,True
+5f0c642a89656f3e0fb0b7c44f781624b98026a5,2022-10-21 07:16:17,mishchuk,Fix Cannot read properties of undefined (reading 'applyCurrentZoomPan'),False
+6869420cce5360fef4ab789ae3a12187a2817700,2022-10-21 07:16:17,mishchuk,Fix typo in attribute name,False
+ee629a160586dcc502a5cc1d945adcba11e0b60c,2022-10-21 06:34:35,mishchuk,"Fix unhandled rejection ""EncodingError: The source image cannot be decoded""
+
+https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-decode-dev",False
+42b6272354b91b4e588e49bcdc1628517df20323,2022-09-27 19:46:21,Dmytro Semenov,Update README.md,True
+1474a13a2143fec95c80832eeb14376f7208c809,2022-09-27 19:45:22,Dmitry Semenov,Update README.md,False
+ffebd9fcc4a4629e6cc01533540826740cf613f3,2022-09-27 19:39:36,Dmitry Semenov,Update README.md,False
+e301d781035ab66abad90b1589edbabfb9ea6baf,2022-09-27 14:15:39,Dmytro Semenov,Update README.md,False
+863b8f40116233be47a23855308e33c106ec1618,2022-09-22 19:37:46,Česlav Przywara,Fix typo,False
+b44118fec2bb1021aec11d4d758326f931fe0a6e,2022-09-21 14:52:54,Dmytro Semenov,docs upd: added a Svelte example,True
+270d438a6897f095e9912f484a36880d8c59c322,2022-09-20 23:52:14,Fanki,Added a Svelte Example,False
+6f059fa44996605616af3d3bdc27dd0368f3bef3,2022-08-31 14:03:47,Dmytro Semenov,Update native-fullscreen-on-open.md,False
+4fc97344920c419a7721cb3be87dc2e2853cba4b,2022-08-29 16:52:09,Dmitry Semenov,5.3.2 build,False
+694bdbcd7ae2b85893e5d7e063e77c24d9f284df,2022-08-29 16:51:20,Dmitry Semenov,5.3.2,False
+1b74c5ba8427a69c5fc1ab576695acbb8b7d45df,2022-08-29 16:50:43,Dmytro Semenov,"Replace package.json exports ""import"" by ""default""
+
+#1951",True
+f0db65ca0917eddee0df4292e06c7d694019d16b,2022-08-25 08:22:24,Tw1N88,"Replace package.json exports ""import"" by ""default""
+
+https://nodejs.org/api/packages.html#conditional-exports
+https://nodejs.org/api/packages.html#dual-commonjses-module-packages",False
+e5990aae459d48737d0e7e683668a0089b36c651,2022-08-15 23:19:59,Dmytro Semenov,docs upd: fix broken urls,True
+e84375a7bc204fb01c116af6b96fb17c325caa66,2022-08-15 20:17:06,Alexander,docs upd: fix broken urls,False
+26a1f3bb53009a47e77482c46ba0485a4056dcdc,2022-07-25 22:56:16,Dmitry Semenov,5.3.1 build,False
+1cbdacb828ac6d6d1a541fcc56c9045df25edce4,2022-07-25 22:55:32,Dmitry Semenov,5.3.1,False
+e22bd285adb6324444c728099a17c6d3f56bacd3,2022-07-25 22:52:01,Dmitry Semenov,Reuse placeholder of content is cached,False
+4695d920de561f2e4dd7b331974708dcd494bd60,2022-07-22 12:46:09,Dmitry Semenov,5.3.0 build,False
+46ee7194fa45078c083fd8cecf133a3bae6b291c,2022-07-22 12:45:08,Dmitry Semenov,5.3.0,False
+b37f06c6700d55979df836641d1650616e47319f,2022-07-22 12:11:54,Dmitry Semenov,Types upd,False
+60631c6cb9d01bbb7eaf65ceb0684f94b39c5e0c,2022-07-22 11:20:28,Dmitry Semenov,Docs upd,False
+458cb0f373bb6e5b1a2b0482069bb13eab53670c,2022-07-22 11:14:29,Dmitry Semenov,"Adjust zoomed-in class behaviour to reflect toggleZoom method, #1946",False
+311ed1fdb4d678efab164bacd085fc9bb433585c,2022-07-22 10:44:04,Dmitry Semenov,Remove placeholder after image is loaded,False
+1d6080f4999635a54c3817b326a5dece893a6fd8,2022-07-22 10:16:28,Dmitry Semenov,Allow PhotoSwipeBase for lazyLoadData method,False
+27c079cfa2677fc6569134ff16d7817d8ec06940,2022-07-22 09:57:18,Dmitry Semenov,Append image only after it's fully loaded in Safari,False
+13f18e5497d9234b3e9851a0a8f76bcd43015af0,2022-07-22 09:56:27,Dmitry Semenov,Set sizes before srcset,False
+4bb8a7ed361ff91e135d976b0165875fdbe27adc,2022-07-22 09:52:50,Dmitry Semenov,Size of content is now calculated before it's appended to DOM,False
+266c7b265c4dc7312c6ce90f48872ccc397e5453,2022-07-22 09:50:46,Dmitry Semenov,Allow PhotoSwipeBase type for loader,False
+ddcad46f10f9dbbfd3656c3425b8b8a15699f704,2022-07-22 09:49:11,Dmitry Semenov,"Replace innerHTML to preserve Trusted Types
+
+see #1947
+
+Co-Authored-By: Klára Petrovičová <109086288+klarapetrovicova@users.noreply.github.com>",False
+9a39c556b528b37e443ae5a997267970dc651ef7,2022-07-22 09:44:40,Dmitry Semenov,Allow filtering of size when slide deactivates,False
+41b154bc0ca237e3252977843cc6f292fc198b80,2022-07-22 09:41:22,Dmitry Semenov,Add separate method that updates srcset sizes,False
+c5be33a201775d34764eda0750918cf0e5fc2d90,2022-07-18 10:51:06,Dmitry Semenov,Add Safari browser detection,False
+604523480e346ebbbbf5fa9e91ed5d940e89dd19,2022-07-18 10:49:17,Dmitry Semenov,Add a fallback timer to transitionend/cancel events,False
+89fc577b9f7190977f8e811cefdce9ab107814d0,2022-07-18 10:36:43,Dmitry Semenov,Adjust order of nearby slides reveal,False
+afed6ebcb265fe08724f4b266d93a15a9a1ee6d6,2022-07-18 10:35:55,Dmitry Semenov,Expose method to lazy-load content by data,False
+4391b0d73ab66c9c20b9d17018ebb63a799ef169,2022-06-06 11:29:57,Dmitry Semenov,5.2.8 build,False
+54c0967058a23bf46bc387b736bf8594812a2076,2022-06-06 11:29:04,Dmitry Semenov,5.2.8,False
+7c321934dae143805cce5613d7d79cc9a17a6191,2022-06-06 11:28:45,Dmitry Semenov,build,False
+7f65038ab978583813ee2d9d6e36cf68e8d670b8,2022-06-06 11:28:38,Dmitry Semenov,docs upd,False
+37d8ae37b0fc04f08be05f3f7132d63e9a817f8c,2022-06-06 11:28:02,Dmitry Semenov,docs package-lock update,False
+1b45f57dfc86812dd185147b360045a1c0f790b7,2022-06-06 11:27:18,Dmitry Semenov,Added UMD (transpiled) version,False
+b09cba351a90f42086a7c2881066e4634201c5fb,2022-06-06 08:56:20,Ivan Rudoy,Fix import extensions for TS 4.7 ESM compatibility,False
+87aa7281a1756e5ae7afd988c4c5ff41a1428f24,2022-05-09 15:11:39,Dmitry Semenov,5.2.7 build,False
+87d86265afb4a366142147c71efcbf0032a21bc6,2022-05-09 15:09:45,Dmitry Semenov,5.2.7,False
+61937454154c6175b88303cd3311171f7409768d,2022-05-09 15:08:47,Dmitry Semenov,Fix: domItemData filter not applying,False
+3ef8a2c08bba3465c257a9afe863e229fc9fb833,2022-05-09 15:08:36,Dmitry Semenov,Fix: onFinish property already defined,False
+3060155ebfad3efb6a101d91a07c07d2db7c58ca,2022-05-09 15:01:28,Dmitry Semenov,5.2.6 build,False
+08239c7d41a4370ff2a24ddaade5b1b627ebba1e,2022-05-09 15:00:08,Dmitry Semenov,Fix: change definition of class properties,False
+735226d5b2881d951df2d4c2e85dc92ed70c02f6,2022-05-09 14:27:56,Dmitry Semenov,5.2.5 build,False
+a3c3fdab21a6359e26d06db6805cc13dbdbbd712,2022-05-09 14:27:09,Dmitry Semenov,5.2.5,False
+8b5334768b9dc9729049515f35a649d6abdb9e7e,2022-05-09 14:22:29,Dmitry Semenov,Fix: gettingData dispatched incorrectly and ts error,False
+8678a8610e2da69658207f1ff7d2377d30a18f79,2022-05-09 14:12:58,Dmitry Semenov,Fix: placeholder not applying willChange style,False
+100e46edfbe0ba2e404c93bf3d141c29767a61e3,2022-05-09 14:10:03,Ivan Rudoy,"Implement type definitions generation via JSDoc comments (#1913)
+
+Introduce type definitions for the PhotoSwipe:
+
+* add tsconfig.json
+
+* add types for util/util.js
+
+* increase the `max-len` eslint rule value for comments
+
+* add type definitions for eventable, photoswipe and utils
+
+* emit type definitions
+
+* add type definitions for photoswipe, scroll-wheel, slide and utils
+
+* enable class properties in eslint
+
+* add global declarations file
+
+* add type definitions for ui-element
+
+* improve `createElement` util type
+
+* add type definitions for ui
+
+* add types for base, keyboard, opener, slide/*
+
+* add types for gestures, main-scroll
+
+* add types for lightbox
+
+* expose SlideData from photoswipe; fix ui type
+
+* fix pswpModule types
+
+* remove types from gitignore
+
+* set package exports
+
+* add types for events/filters
+
+* fix types for animations
+
+* add `false` to types showAnimationDuration, zoomAnimationDuration and actions
+
+* allow adding an arbitrary props to the Content
+
+* make dataSource optional for lightbox.loadAndOpen method
+
+* change type for linkEl to HTMLAnchorElement
+
+* hoist Actions type definition
+
+* fix DataSource type for lightbox
+
+* fix lazyLoadData and lazyLoadSlide types
+
+* fix types for event mapping in lightbox
+
+* add type for ItemHolder
+
+* fix LoadState type
+
+* add comments to SlideData props
+
+* move comments to class declarations
+
+* expose PhotoSwipeEventsMap, PhotoSwipeFiltersMap, EventCallback, AugmentedEvent
+
+* add .editorconfig",False
+df24b76eac5555371d2ca706bcf175763e0d642b,2022-05-07 13:14:46,Dmytro Semenov,"Docs upd
+
+Update getting-started.md",True
+af4ded4d32523ccae3572ab287ec90b3e97af88b,2022-05-07 12:16:12,johanoren,"Update getting-started.md
+
+Correction of word ""page""",False
+6047678152024697cd6c588ec17dcd7b508dc49d,2022-05-06 14:52:53,Ed Bond,Fix: duplicate css,False
+735bce7e42d604c02dcaa34de3113363bb1fe210,2022-05-04 09:36:09,Dmytro Semenov,Docs up: Fix link to data sources.,True
+aac5980b4ce9777d0c46ca3c78c2f99b174678b2,2022-05-03 13:54:57,Rick M,"Fix link to data sources.
+
+Fix link to data sources. Added leading `/`.",False
+f0b4ab559509b729867cb6c06dc254aea928b09d,2022-04-18 09:55:59,Dmitry Semenov,Fix: typo,False
+db6fb943b1c860eeab3e003728bb498076b09927,2022-04-18 09:55:42,Dmitry Semenov,"Fix: support width & height props in addition to w & h, for crop animation",False
+8ba36f736c87e3ae673f5968184d8f838c100c70,2022-04-16 01:27:19,Dmitry Semenov,docs upd: react,False
+0a142597c63f134e81a58a0e5dba12e005eb9b67,2022-04-16 01:20:29,Dmitry Semenov,docs upd: added search,False
+02646e1ea71c18461844bf707bb884724898c1cb,2022-04-13 19:21:58,Dmitry Semenov,docs upd: clarify google maps example,False
+4f6307d6b134218fcee38bc7682d631887c88cf9,2022-04-12 19:11:17,Dmitry Semenov,docs upd: URL fix,False
+b134d09790dd193027ce7a68d6fd9270c4ddc047,2022-04-12 09:46:47,Dmytro Semenov,docs upd: fix download icon,True
+73eeb18b83b82e0dcfed43116c3e9daf843c2ba3,2022-04-12 05:07:42,Roman Akhmadullin,Fix download icon path in docs example,False
+fd537dd25ac33c4f8c51f64219362bba329175a0,2022-04-08 09:47:17,Dmitry Semenov,"docs upd, closes #1882",False
+674460e7012dcab7d7c24223c3496bd69ccee71c,2022-04-07 10:28:37,Dmitry Semenov,Merge branch 'master' of https://github.com/dimsemenov/PhotoSwipe,True
+045252c49292d81ea971dbddc84265d2f3fc16fc,2022-04-07 10:26:03,Dmitry Semenov,5.2.4 build,False
+32f4fc9f82e882037d7b3015370859c8b68629d7,2022-04-07 10:25:34,Dmitry Semenov,5.2.4,False
+044ed28ba805ea67aed831b716ebaf41f87a6961,2022-04-07 10:25:13,Dmitry Semenov,Changed pswpModule option class detection,False
+e3fdd59b02f09d4c24a99a64641994087b5c279d,2022-04-06 14:22:06,Dmytro Semenov,Update README.md,False
+5e86f6c2aab1b45db84598183f3f10e57348d780,2022-04-06 09:44:42,Dmytro Semenov,docs upd: Fix data-sources link on react-image-gallery page,True
+593d9ac55b0793cbb29f529b4ccc68e1b15e02e3,2022-04-06 05:06:19,Zach Hale,Fix data-sources link on react-image-gallery page,False
+aaddca8e3bde83abbb5f4b162e9d256f0cf94d71,2022-04-01 16:15:34,Dmitry Semenov,docs upd,False
+55ba96ae50d8041c484ad63dcbe8de31cabba93f,2022-04-01 10:17:26,Dmitry Semenov,5.2.3 build,False
+7a78503be7dcebb6e3f6ee5058a07fad38be6beb,2022-04-01 10:16:45,Dmitry Semenov,5.2.3,False
+59a65732d635484268ba57b6c2585e087b673a51,2022-04-01 10:16:31,Dmitry Semenov,docs upd,False
+e47e1796c8cf80c2094c4b20529f12717e3d8806,2022-04-01 10:04:06,Dmitry Semenov,"Added aria-label to buttons, closes #1869",False
+65c9e4d85f748772c0332dd98a9ac3f582602836,2022-04-01 10:01:14,Dmitry Semenov,Added uiElement filter,False
+afaa07e6df27edd37b03b901b00cd08e5b73b49b,2022-03-29 11:14:35,Dmitry Semenov,"docs upd
+
+closes #1867",False
+d9102c7ac3d1c568632be43de74e62a6bc5f0162,2022-03-27 16:18:42,Dmitry Semenov,build,False
+3ce634baeffcdff0762f9f22206aba93b42e4faa,2022-03-27 16:18:02,Dmitry Semenov,5.2.2,False
+d7362b6515aad0c033c6bc5c78b5edaafbd663bf,2022-03-27 16:17:49,Dmitry Semenov,Update package.json,False
+63d7f75d374c8e304882185bfae5a13f5144ab58,2022-03-27 15:19:29,Dmitry Semenov,Disable text selection for counter,False
+eb287f3c5929c6b9af3a87c92003462a2db765cd,2022-03-27 15:18:43,Dmitry Semenov,docs upd,False
+2b78a0a644ca8f3404b69f6ab82c1998f5fa50a8,2022-03-26 18:31:23,Dmitry Semenov,Update build.yml,False
+80327212b643b0238e5d6ae150193c9f0ffa22a7,2022-03-26 18:29:31,Dmitry Semenov,docs upd,False
+e4403aa7b84aead45bae66b5a2c012b3fa3148d1,2022-03-26 18:26:42,Dmitry Semenov,Update index.js,False
+421c186fcb29b88da059caad0e0fd48ab89285d6,2022-03-26 18:23:22,Dmitry Semenov,Update README.md,False
+1f9daf895468b36a1cb65137b6a1ded247fdaaff,2022-03-26 18:02:55,Dmitry Semenov,5.2.1 build - we're out of beta!,False
+7ed5ae5793a27f6d80b0312c34972b2138a675ee,2022-03-26 18:02:02,Dmitry Semenov,5.2.1,False
+d474937a7adb3d56d35a2bb52d464c73972ff8f1,2022-03-26 18:00:53,Dmitry Semenov,Funding,False
+d6afc49759b199b9f865476fa3a8cc6c09e50e95,2022-03-26 17:52:49,Dmytro Semenov,v5.2.0 - merge from dimsemenov/v5-beta,True
+8e2c635bf7855634777039c7f52bdf6315289d0c,2022-03-26 17:49:52,Dmytro Semenov,Merge branch 'master' into v5-beta,True
+28c587285f2efe6a19396f0b271791e68817e0e9,2022-03-26 17:16:40,Dmitry Semenov,5.2.0-beta.5,False
+55c32e71d02629386ab1804e4e852b455b405560,2022-03-26 17:15:36,Dmitry Semenov,5.2.0-beta.5,False
+83923833645abd25fea8ae9195981dee4d7cb8f3,2022-03-26 17:15:33,Dmitry Semenov,build,False
+c3c2ba7082f75ec2b0e4172cb2f6eeb13999d5ad,2022-03-26 16:41:42,Dmitry Semenov,Update build.yml,False
+c18cac3b9484c9fd7251b8b66b1ac215b7726836,2022-03-26 16:23:59,Dmitry Semenov,Update build.yml,False
+8f0eef4879badb0f156e93ee87f36aa413f523fd,2022-03-26 15:35:57,Dmitry Semenov,docs website upd,False
+183040e8187a102b58ade53d5f3f66d561022381,2022-03-26 15:21:00,Dmitry Semenov,Large documentation update,False
+72ad9c04327fe77033ac092573cae729ca5ff6ec,2022-03-26 15:20:22,Dmitry Semenov,New docs website - migrate to Docusaurus 2,False
+ec7fa504176d692b3425a9954114189e6428c03e,2022-03-26 11:22:02,Dmitry Semenov,Drop support of HTML for indexIndicatorSep option,False
+51633c966ce486adece29a8af21e5002211f15e4,2022-03-26 11:00:00,Dmitry Semenov,Update core initialization,False
+f88116d0988b69d15c86291608e645c14ec8412d,2022-03-26 10:59:32,Dmitry Semenov,Dynamically hide arrow nav if there is one slide,False
+b733ff2ea9ef9f327395379d02d7b89c41d7ad13,2022-03-26 10:58:54,Dmitry Semenov,Remove setSlideHTML method,False
+c310fdb72dd6f962f1d89c7020eebe88c5d7f005,2022-03-26 10:58:32,Dmitry Semenov,"Store cache by index, instead of by src",False
+14c11393e04b7ce0dd6fbf676e4b31e2b6e16f67,2022-03-26 10:57:54,Dmitry Semenov,Added refreshSlideContent method,False
+9d3632147cfc5c06c5a2a3562d7c3ba9e28282d2,2022-03-26 10:53:11,Dmitry Semenov,Allow zoom transition only if slide content supports placeholder,False
+c27c9c5a78a1813e934003b85e9561840b919c99,2022-03-23 00:56:51,Dmitry Semenov,5.2.0-beta.4,False
+a26246e40d4f2a7b52958d85501eeec60b2f83e3,2022-03-23 00:56:43,Dmitry Semenov,Update package.json,False
+4a0bcae97ead17ee22e202e71f39f9d1300247d7,2022-03-22 21:32:26,Dmitry Semenov,Update README.md,False
+792a6a6bdbf1e79f06c6887f11204f7720e65826,2022-03-21 20:23:49,Dmitry Semenov,5.2.0-beta.3,False
+1fa114b6cb26c2d5aee41c9c068eeb1cb5e2375e,2022-03-21 20:21:50,Dmitry Semenov,5.2.0-beta.3 version upd,False
+89062b1225b3b0edef896ada7ba26ccc10793060,2022-03-21 20:18:32,Dmitry Semenov,5.2.0-beta.3 build,False
+096630efe43d1d86eaf19cc7d27699436271c611,2022-03-21 17:37:27,Dmitry Semenov,destroy() core when lightbox is destroyed,False
+a3a997c01f39895dd4b5d83ed9facef51e51269f,2022-03-21 17:37:09,Dmitry Semenov,Improve UI element generation,False
+4ddc970adf87b458baa69700b44c9dcd297dfbba,2022-03-21 13:05:07,Dmitry Semenov,Disable animation if destroy() is called before close(),False
+3a8672b133bdc796b7c723eb83c1e9c57180e237,2022-03-21 11:18:22,Dmitry Semenov,Allow loop when 2 slides are used (for arrow left/right navigation),False
+bf94334a9c62f7e49c5e0e20ebfacee45fe63452,2022-03-21 10:50:37,Dmitry Semenov,code cleanup,False
+cdc58c03c53e0bd8b4ff6c7792e6333a634b9ff8,2022-03-21 10:49:22,Dmitry Semenov,Add openingAnimationStart/End events,False
+29b8440577230b9953cc9da566200678aaaa15c4,2022-03-20 21:00:43,Dmitry Semenov,Rename prop: template -> element. Backwards compatibility is kept,False
+63dd237f2da8e10673ffdfe61c4e1a2d8afd50d8,2022-03-20 20:51:12,Dmitry Semenov,"Improved load error handling, move placeholder from slide to content object",False
+ae2cb666b978c536b7970232368a01d8f53efd52,2022-03-20 14:47:16,Dmitry Semenov,maxWidthToAnimate option,False
+dfa27a9db3460517c80292958f25cd507d098e5b,2022-03-20 14:46:55,Dmitry Semenov,Fix opacity opening transition from 0,False
+e78d38df992271297631418b8b82185506682d0d,2022-03-20 14:39:10,Dmitry Semenov,Remove allowMouseDrag option,False
+9243c4a5b31ecb67fa748847f519dba2a8245aad,2022-03-20 14:38:39,Dmitry Semenov,Add thumbEl filter,False
+367a4d3ab6382d070e7243e18d23461bf284a7d1,2022-03-20 14:38:16,Dmitry Semenov,Clarify placeholderSrc/msrc,False
+94dbc76a21e0e834de29f84e41eae2007a1e3dde,2022-03-20 14:36:51,Dmitry Semenov,Remove getWheelZoomFactorFn option,False
+d10e699dd73a3f9d4c8ff598a25547e1cdbed2c7,2022-03-20 14:35:55,Dmitry Semenov,Add maxWidthToAnimate option,False
+d8d001efd393a46f6e0ff0b53ac3d48d282717eb,2022-03-20 14:05:34,Dmitry Semenov,Drop limitMaxZoom option,False
+f43b779b535b3272f161c0b671dee802406c32fd,2022-03-20 14:04:26,Dmitry Semenov,"Use width & height instead of w & h, keep support of legacy props",False
+6d5eaf0525dd91df7c9319f02f004e825a4d387f,2022-03-20 12:36:14,Dmitry Semenov,Fix: animation doesn't work when bgOpacity:0,False
+d2c1b1532370b0518b4f83c7e1ffbb29119b61fd,2022-03-17 02:24:16,Dmitry Semenov,"Fix: adding content when swiping through multiple slides and loop enabled
+
+potential fix for #1835",False
+813af8ebc5dfa6c563555b14dc1935dda92617f3,2022-03-17 00:47:36,Dmitry Semenov,Define type property of a content,False
+cbffe5b94f00ee1da71ed6457eb198a8c09de89b,2022-03-17 00:33:17,Dmitry Semenov,Destroy slides directly when closing,False
+0f87b567f145bad69adf803aea058237e4984759,2022-03-17 00:25:22,Dmitry Semenov,"Navigating from first to last slide is more performant now (with loop:true)
+
+... and a few more performance optimizations related to main navigation",False
+9ca9429e19e166d7d0cc1d8e56c23f3c7c65b3ae,2022-03-16 22:58:38,Dmitry Semenov,Check if srcset is defined before assigning slide data prop,False
+b8e3320201eb9f5c0d4cb1ee1c5d38a9ba4c3294,2022-03-16 01:42:29,Dmitry Semenov,"Reworked slide content, so it's event based and easy to override",False
+a74b86c384dbccbe4fa506cecaadc9372806a0d5,2022-03-15 15:41:18,Dmitry Semenov,Add clickedIndex filter,False
+af25d4df1382ec649ad2aced8a4c177856da5da2,2022-03-15 14:34:48,Dmitry Semenov,Fix: error when swiping through multiple slides and loop enabled,False
+a39f9523fc84991403830d82e7522ea81e2a9df7,2022-03-14 13:34:47,Dmitry Semenov,Update package.json,False
+81178897dd493c2d1a463299a00fc5f70215627d,2022-03-14 13:34:37,Dmitry Semenov,build,False
+356b4489f82f5adea0fa9e122793c7fa6fa7b912,2022-03-14 13:33:46,Dmitry Semenov,"Allow to set different paddings based on image data or index, closes 1840
+
+(added arguments to paddingFn option)",False
+8f249b1182ea40561f1fdfbc085cdab78c0a4cdc,2022-03-14 00:37:27,Dmitry Semenov,5.2.0-beta.2,False
+401ad682910aafffc4af676d6c952802a62a4f74,2022-03-14 00:23:22,Dmitry Semenov,5.2.0-beta.2 build,False
+340037c07ff07639c18db4dfdc065f1f30bba695,2022-03-14 00:17:49,Dmitry Semenov,Add beforeOpen event,False
+d08d779962439a3e4f5e651dada33a2b81ba7e92,2022-03-14 00:17:35,Dmitry Semenov,"Fix: lazy-loading of non-image slides throws an error
+
+fixed #1855, fixed #1860, closes #1857",False
+80486134132bbc85bb7cf7fb2280060549f00d47,2022-03-13 16:29:27,Dmitry Semenov,5.2.0-beta.1,False
+e9ce7ef063dec417753ab34eb8f522b17b6b7843,2022-03-13 16:29:08,Dmitry Semenov,5.2.0-beta.1 build,False
+3ab34df4118a4e807c009aeff3bf7334ea6fd448,2022-03-13 16:24:07,Dmitry Semenov,lint,False
+d9431c914b1d370b741f0f8b2da9abecf860e00f,2022-03-13 16:22:20,Dmitry Semenov,docs upd,False
+f89975272803115cbc5f685ca710da295c63ff25,2022-03-13 16:16:20,Dmitry Semenov,"Drop built-in import() support for pswpModule
+
+Despite tries, some bundlers try to transpile dynamic import within PhotoSwipe, which leads to errors and just inconvenience. Syntax pswpModule: ""path/to/photoswipe.js"" is no longer supported.
+
+Use either this (if you need dynamic import):
+
+pswpModule: () => import('path/to/photoswipe.js')
+
+or:
+
+import PhotoSwipe from 'path/to/photoswipe.js';
+
+and then:
+
+pswpModule: PhotoSwipe",False
+414d1e3c1727b814be22f6e36d95895956ae36ce,2022-03-12 17:31:12,Dmitry Semenov,5.1.8-beta.0,False
+cf9caf14d977457bc2625fc355eada0f4f916c7a,2022-03-12 17:12:11,Dmitry Semenov,build,False
+8c69285c1b58314c0f039c40dc69ab524a664239,2022-03-12 17:07:50,Dmitry Semenov,Allow passing import() promise as pswpModule,False
+00a2eb7db0293320b0ea4452da9260ba0bf223ba,2022-03-12 17:06:48,Dmitry Semenov,doc upd,False
+466921877ec1cf695ca45d1aa94baa13cdcde513,2022-02-25 22:50:02,Dmytro Semenov,Update README.md,False
+008338268efddc55d36cfc3a8fbbb3940a6ddd23,2022-01-25 23:04:53,Dmitry Semenov,5.1.8 build,False
+8eb386ab55096af66626df2dc50209eef094cda2,2022-01-25 23:02:46,Dmitry Semenov,"Reworked loading indicator
+
+It's now displayed in the top left corner, and is more visually consistent with other UI elements.",False
+90991c6530a89bc99542ac22979f4cb844b8c1dd,2022-01-25 22:27:31,Dmitry Semenov,Allow to filter if slide is loading or not,False
+342e7ddd8c52a6fbbaf9268684e4163535129ff7,2022-01-25 22:26:17,Dmitry Semenov,Support empty slide content,False
+60040164333bd257409669e715e4327afdb3aec7,2021-10-12 19:34:12,Dmitry Semenov,5.1.7 build,False
+19ad6b4af7fba3209933b1eb80b2c8e09cc90093,2021-10-12 18:34:48,Dmitry Semenov,Destroy ContentLoader and its items when gallery is closed,False
+bfd561e59371f6e065c6a729fdf27092a407571b,2021-10-12 18:06:33,Dmitry Semenov,lint,False
+90a451134010866756dca1a707f28888ff6e65f0,2021-10-12 18:04:11,Dmitry Semenov,integrate filters,False
+ad61cde3ce7fd446422ca35d16d8dcef35f293e9,2021-10-12 18:02:57,Dmitry Semenov,Introduce filter api in addition to events,False
+3923c1d42e686da4889753bd90815ad6b347f11c,2021-10-12 18:02:09,Dmitry Semenov,Do not remove placeholder if slide isn't loaded,False
+35fdfe0baf5723a7199952b26b0998869d5ff8e0,2021-10-12 17:59:35,Dmitry Semenov,Load all slides through content loader,False
+2688502dafc2c3289e04ffeb746fe2ac1e10d6b7,2021-10-07 17:32:15,Dmitry Semenov,5.1.61 build,False
+c14db0404b89600b4fafaf275a099499b5216747,2021-10-07 17:29:34,Dmitry Semenov,Adjust maximum secondary zoom,False
+59ec97a68d7075678c55868120ced998b5fc339f,2021-10-07 17:16:16,Dmitry Semenov,Hide/disable zoom controls if slide is not zoomable,False
+c1eb38e20e302acb8e31d3da9101d65ea3538bbe,2021-10-07 17:15:31,Dmitry Semenov,"Introduce addContentType method
+
+Allows to replace slide image with another content, such as video, picture tag, or some interactive element like map.",False
+aabc4c16265aa1372d40108fc8f368865cd1d197,2021-10-07 17:04:07,Dmitry Semenov,Introduce padding and paddingFn options,False
+0b484459cc17b414f5b26abf253e13bc9c185c48,2021-10-06 20:33:10,Dmitry Semenov,Do not capture pointer during pointermove if it wasn't captured via pointerdown event,False
+3dc098effd0ff0a8c49777beee5481f8d4960eb1,2021-09-28 00:52:03,Dmitry Semenov,Adjust how placeholder is scaled and add options that control its behaviour,False
+c958d2b3342138406f199f2c27a09bb00e921b54,2021-09-25 12:07:22,Dmitry Semenov,Avoid re-adjusting main scroll position if width wasn't changed,False
+e0c854d93db25f3f8982a2295bbe7d3c518ae623,2021-09-25 12:05:12,Dmitry Semenov,Adjust zoom friction,False
+4096edb7eae0dc8e9cccbb284eabe5a99a2f7587,2021-09-25 12:04:58,Dmitry Semenov,Allow pan while zoom restoration animation is running,False
+f9af239effe8d777f3703330c357ce1541700941,2021-09-24 09:55:13,Dmitry Semenov,5.1.5 build,False
+925c8ad760bea8af4a6354610f8899915aacf9b0,2021-09-22 20:19:02,Dmitry Semenov,Prevent closeOnVerticalDrag when image is zoomed beyond fit state (was vertical fill),False
+fe976bcdba6ff1e32cf6a2872d004a33cf1f431f,2021-09-22 20:18:16,Dmitry Semenov,"Update resizing logic, so it keeps zoom",False
+1574d11941761aa40b380ad94e2e0e0430d2cc47,2021-09-19 10:25:53,Dmitry Semenov,Fix: zoom gesture not triggering update when only one touch point is moving,False
+9c10070036529c1a980a7c247dc90731f12452ff,2021-09-18 20:37:49,Dmitry Semenov,Allow to preventDefault() wheel event,False
+a6f1ae128f0c8edc631d0d0ece730740ebb66808,2021-09-18 18:08:24,Dmitry Semenov,5.1.4 build (map),False
+44fed181544b90b1927fcdb18bac92cfad77274b,2021-09-18 18:07:29,Dmitry Semenov,5.1.4 build,False
+5392b9d1a55b89f083059914b3e1104ae98f6969,2021-09-18 18:04:45,Dmitry Semenov,#1823 fix - Clicking the surrounding element always opens the first image of the gallery,False
+97805118b2305b424d3e6dd78479fdabd91520ee,2021-09-18 18:03:55,Dmitry Semenov,Reset slide scale and resolution when it becomes inactive,False
+641348d3eb15b5dbde7bb227ee2fe4409891ea70,2021-09-17 23:57:56,Dmitry Semenov,Fix: pan position is sometimes incorrect after zoom beyond the max level,False
+037fe93eb5913d62a9f6162aafd2182d96921ef0,2021-09-15 15:39:06,Dmitry Semenov,Avoid adjusting sizes if image has no srcset,False
+ba4db118aa1131e19abbdcc232b32dd02e076a23,2021-09-15 15:33:24,Dmitry Semenov,Add zoomLevelsUpdate event,False
+758ac3c7e908801dbf7e0fe65e1556deb1b1e162,2021-09-15 15:32:48,Dmitry Semenov,Disable opening/closing transition for slides wider than 4000px,False
+1ba6f499e750850cc842f40ccb3c6372abb54684,2021-09-14 13:25:53,Dmitry Semenov,trigger click/tap actions as events,False
+ae0adf7bba1e94e74ae2dd6dd5f01df2f260b998,2021-09-14 10:48:57,Dmitry Semenov,style the disabled state of the button,False
+56829d9d3e7c7e020317cb9f2a64f0507e9c5ea5,2021-09-13 22:04:13,Dmitry Semenov,5.1.3 build,False
+1f60c1b305aa4e41665db920bfdb2e2227b266f6,2021-09-13 22:01:57,Dmitry Semenov,docs upd,False
+cf4d1d81f889391a602ed5ba31953c4fc597a6e3,2021-09-13 22:00:36,Dmitry Semenov,improve children/chilselector options,False
+9d35d0b440b3f3863e21e484acdc3eac5a6ef092,2021-09-13 21:26:13,Toby Zerner,Change options to allow providing element(s) instead of selector (#1813),False
+fa1b0dc98e6db31d6d9bfb563ef2e12cc4901e83,2021-09-13 21:21:51,Dmitry Semenov,restructure the code of the Slide,False
+f363dad48a28eb7c526c7ab77506676a0d47f2ce,2021-08-31 14:19:31,Dmitry Semenov,improved mouse wheel zoom,False
+bbddc656b6c088b7c622ca353b0f4a01403be275,2021-08-31 13:31:47,Dmitry Semenov,"Simplified pan calculation for zoomTo
+
+and removed option panPaddingRatio",False
+c0ed6fd6d5df715a90dae5dfc2768321789f5654,2021-08-26 15:39:51,Dmitry Semenov,round pan position for animation after drag,False
+d32fa250375acf362f83d5f52d8c8b944237dcf7,2021-08-24 11:07:50,Dmitry Semenov,Added option limitMaxZoom,False
+2947465fbaf93d80520b1c834d7b1c8573dfe271,2021-08-24 11:07:05,Dmitry Semenov,fix: pan animation when beyond maximum zoom level,False
+afc1683f316107c9d10927e60679934d51fca5b0,2021-08-07 10:50:43,Dmitry Semenov,5.1.2 build,False
+0d339617ad7095c721839622f7babd4588abcc78,2021-08-07 10:48:57,Dmitry Semenov,Add an option to decode() when lazy loading,False
+5a0da8920592cdf3e88a6e23bd75c182bbd6619a,2021-08-07 10:16:46,Dmitry Semenov,Fix: flashing in Safari and FF when switching slides,False
+701f77928948fe8f0428580b3632feaf7918b290,2021-08-04 15:39:30,Dmitry Semenov,build,False
+dd4dc950fa88cdd44da54c15407021886811ba3b,2021-08-04 15:21:53,Dmitry Semenov,expose lazy-loading api,False
+f88404c3152819b24cf1a36777db0d1ed374dc08,2021-08-02 14:38:21,Dmitry Semenov,5.1.1 build,False
+f8dafff15264ab3b02939be99cff5b3a73d6f593,2021-08-02 09:47:43,Dmitry Semenov,"Removed currItemData property, use currSlide.data instead",False
+97aaddcac58af175c62d4a7a4edd9dfd156a8aaa,2021-07-23 10:57:07,Dmitry Semenov,build,False
+4bb6937716253d4d730790cf6ccbeb1e6931b812,2021-07-23 10:56:59,Dmitry Semenov,Add beforeZoomTo event,False
+a15a6f270adb97038a0b11e6af38ea1a64a640a5,2021-07-22 15:18:52,Dmitry Semenov,docs update,False
+eda746220e4fdcc1ffff411f2e81019ffb81c3af,2021-07-22 15:18:31,Dmitry Semenov,5.1.0 build,False
+de4bfbeeca5a5a536ffe44f6675c526202d735bf,2021-07-22 15:14:14,Dmitry Semenov,Disable dynamic CSS and dynamic plugin import feature,False
+e4495c7d55a97e847c00f4dd0fcfbdea9b748198,2021-07-22 15:13:26,Dmitry Semenov,Do not overwrite existing UI object,False
+86af27a9b9da5a261e57790347ff8e155d642223,2021-07-22 13:33:07,Dmitry Semenov,clarify how to hide elements,False
+27594eec254845441647cd29606541d29e4d381e,2021-07-22 13:29:17,Dmitry Semenov,allow adjusting button title via options,False
+5548a49c43efb4a0933ee60f3633e9e2fb37a861,2021-07-22 13:13:19,Dmitry Semenov,added moveMainScroll event (when main scroller position is changed),False
+f9ed84c7d572302edfdf6e91d91c847eee658078,2021-07-22 13:12:39,Dmitry Semenov,added init event,False
+b4042e209ba714a96198f66a527a2af3b0e21770,2021-07-22 13:12:12,Dmitry Semenov,"added calcSlideSize event (when size of slide is calculated, but before it's applied)",False
+7c18ec37c2a8962ea775443d0f2999cfc7c970d7,2021-06-24 14:09:01,Dmitry Semenov,5.0.3 build,False
+333b10d3208c477aacbb869a37e5e6f876a040b9,2021-06-24 14:04:09,Dmitry Semenov,syntax correction,False
+b669a0936fd9a75d4055b02ce721b38524844dd0,2021-06-24 13:58:17,Bruno Silva,Added support for pswpModule import without absolute path (#1764),False
+05d7eeafc5b595f252e3c7b8b61461ffcb2dd755,2021-06-10 15:08:39,Dmitry Semenov,5.0.2 build,False
+eadfb7f1fd7b16eaf932dfeea9e3b017485ac1f7,2021-06-10 15:06:31,Dmitry Semenov,"Update resolution after zoom gesture, fix #1761",False
+1e876580ac6c302def12b562fe46494e93c54bad,2021-06-09 11:16:21,Dmitry Semenov,5.0.1 build,False
+bc23c79535e61de80ed011ba18cf9deaf0ee9f09,2021-06-09 11:10:42,Dmitry Semenov,"Avoid decode() after image is appended
+
+(related #1760)",False
+96a4d674e7542da364b578347c6c312966d16d24,2021-06-09 10:50:03,Dmitry Semenov,"Change order on how image properties are set
+
+New order: sizes -> srcset -> src
+(related to #1760)",False
+1e1d143fd242345c73c3e6011b240ce97f412e19,2021-06-07 20:33:01,李鹏坤-执手对影成双,"Fix #1757, error when opening custom ""HTML slide""",False
+1e9135f16dda2f513ae3ff90b23fa2f3d3758671,2021-06-06 19:03:11,李鹏坤-执手对影成双,"Improve img.decode(), fix #1754",False
+4bf028196a59f80eac0eeb8b135826e9543d7d75,2021-05-04 09:15:10,Stephen Brown II,Fix typo in getting-started: Ligthbox -> Lightbox (#1750),False
+b85b2069739470b2b20fd575b75fb509930eaf78,2021-04-29 15:54:43,Dmytro Semenov,Update README.md,False
+00bdf3e3638536feeec38c38e27334d37c5a554d,2021-04-29 15:53:13,Dmytro Semenov,Update README.md,False
+dcaedc7aa711c2015483da900fd95fbfb8601cbf,2021-04-29 15:02:57,Dmitry Semenov,clean up,False
+f733e5f44d9d1bb1428ae03f3bf0f0a8109d1425,2021-04-29 14:53:02,Dmitry Semenov,build,False
+d1d2cd0b09395eeaf3e89a2acedf70a4908c9b4c,2021-04-29 14:48:28,Dmitry Semenov,ensure smooth transition when closing during drag to cropped thumbnail,False
+7e40223fa5c1b7da395c00a7c083fdcd9a93d2bb,2021-04-29 13:56:30,Dmitry Semenov,Update README.md,False
+b585bffe70bce5b87912604d0057a25da6fa7804,2021-04-29 13:49:55,Dmitry Semenov,readme,False
+9d51215d2111efea400a12a0fbade050c277bf0f,2021-04-29 13:44:23,Dmytro Semenov,Create FUNDING.yml,False
+e2949173a41c90ebc763e08bd6b233a3e4f27a97,2021-04-29 13:18:19,Dmitry Semenov,Update native-fullscreen-on-open.md,False
+c513ed22a54b40576976fb2501d8e6c900e05e53,2021-04-29 12:38:17,Dmitry Semenov,build,False
+600b1ad05dd8246fc3577f55d4fe1abeba10fddb,2021-04-29 12:38:08,Dmitry Semenov,npm update,False
+5536aaa9c1ca9ca2e200f074255d1f864eeb3c0c,2021-04-29 12:01:38,Dmitry Semenov,initial v5,False
+80607e12542a1a54ecefa837649e862b35dffd25,2019-01-08 20:13:53,Dmitry Semenov,4.1.3 build,False
+246e035eca4f6f9c9984660fbd35e7ac4ac533b6,2019-01-08 20:13:38,Dmitry Semenov,devDependencies upd,False
+17b35b377c383d9832f9a0cc6b380adb57c72814,2019-01-08 20:12:50,Dmitry Semenov,"fix: pointer events on multi-input devices with Windows 10 and Chrome
+
+closes #1579, closes #1593",False
+fc9ce1a28b8533a732f8f5d5859cc84a4cb4ce0e,2018-02-25 14:55:36,Stanislav Romanov,readme upd: added another ember.js addon,False
+40a50b5aa6ccbe5b710911a0c7b0976eed1d168c,2017-12-18 12:41:34,Daniel Ruf,fix Travis setup (#1464),False
+1e96a5abbdedf2f06397ff1ca8acb10bd76b953e,2017-11-16 21:07:56,Jeroen Desloovere,"Readme update (""Fork CMS MediaLibrary widget"")",False
+aa059df5fc1efade9da562c28271701174c6c52e,2017-11-03 11:13:52,Dmitry Semenov,"Merge pull request #1442 from zachcoss/master
+
+Fixed typo",True
+bd058f6338c6f204eca08433efb074b2181ec3af,2017-11-03 04:48:29,Zach Coss,Fixed typo,False
+e0c76e8072fe9cdb71ef53a13a0b5f054df95808,2017-07-18 10:19:30,Dmitry Semenov,"Merge pull request #1389 from brunob/patch-1
+
+readme upd: add link to SPIP plugin",True
+19b8619b6aeb8c6afc03b49223a2bb3947411044,2017-07-18 01:06:03,b_b,"add link to SPIP plugin
+
+Feel free to merge or reject, anyway, thx a lot for this script :)
+
+ping @Fil",False
+cc285e2c0de81cfe3cedb63beb95c89926aa3ba5,2017-07-07 00:37:02,Dmitry Semenov,readme upd,False
+4a1e3fd35f1e6c2af6844423d3e865bdfc6771ae,2017-06-09 11:01:50,Dmitry Semenov,"Merge pull request #1362 from Polatouche/Polatouche-patch-1
+
+typos in CSS",True
+7f42ac28c64f9562b0ca4dcacdd73de9c6d89104,2017-06-08 17:08:54,Polatouche,typos,False
+b6fdb82ed0b5b635c0943098f3046581a02ead77,2017-04-05 22:03:03,Dmitry Semenov,build (js),False
+d8762097918bddf4afb45be4414ac6289a9cade8,2017-04-05 21:52:27,Dmitry Semenov,"Fix iOS 10.3 resize bug, #1315",False
+c7b9bcd4ca292180788c81454de3fba5ff76199f,2016-10-14 18:07:51,Dmitry Semenov,"Merge pull request #1225 from iBobik/patch-1
+
+Added Drupal module to links in README.",True
+b84a00200b3e59c693d35207c399c502d796d29d,2016-10-11 16:37:38,Jan Pobořil,Added Drupal module to links in README.,False
+703c415b1b97e8983fff217644888062f07d308b,2016-07-23 21:50:45,Dmitry Semenov,readme year upd,False
+cc1f5ee6813b81d14e095f80edcb5395bec8060e,2016-04-05 21:58:43,Dmitry Semenov,build (main css),False
+69cbb974530ed91939ea1e7b51d47d2e9f16f292,2016-04-05 21:57:31,Dmitry Semenov,"Fix: background is hidden in iOS9.3 on iPhone 6* Plus when multiple tabs are open in landscape orientation, closes #1114",False
+07fac524ad529e75c4debad0b004d0518d172dbe,2016-03-04 19:10:05,Dmitry Semenov,"Merge pull request #1088 from markseu/master
+
+Updated link in readme",True
+690ed27a2377243e2ceb36551dc4f2e03ffc2b45,2016-03-04 14:45:42,markseu,Updated link,False
+3ba38bc42bf19b9c466c35b718552226427afeb1,2016-02-21 11:42:58,Dmitry Semenov,"Merge pull request #1076 from pra85/patch-1
+
+Fix a typo in documentation",True

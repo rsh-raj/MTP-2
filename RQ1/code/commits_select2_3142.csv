@@ -1,0 +1,2987 @@
+Hash,Date,Author,Message,IsMerge
+595494a72fee67b0a61c64701cbb72e3121f97b9,2024-09-11 20:23:51,James Addison,"Fixup: convert optgroup child data identifiers to string datatype (#6239)
+
+* Integration test: multiple selection and clearing of grouped options
+
+* Fix: convert grouped option identifiers to the 'string' type
+
+* Build: recompile distributable files",False
+38164bc4f9fd7b47332d696e8206773147014925,2024-09-11 16:53:02,James Addison,"Add support for jQuery 4.0.0-beta.2 (#6332)
+
+* Tests: update `jquery-mockjax` to v2.7.0-beta.0
+
+This beta/prerelease version of `jquery-mockjax` includes jQuery-4.0.0.beta2 support.
+
+See https://github.com/jakerella/jquery-mockjax/issues/362 for details.
+
+* Add support for `jQuery` v4.0.0-beta.2
+
+Co-authored-by: James Addison <james@reciperadar.com>
+
+* Documentation: retain defensive coding in retrieval of code content from HTML elements.
+
+* Build: recompile distributable files
+
+---------
+
+Co-authored-by: marcellov7 <104211738+marcellov7@users.noreply.github.com>",False
+07bd61a0e8b928d490c86f61d6abbdcb61f4bbd4,2024-08-25 02:21:26,James Addison,"Fixups: post-merge updates related to PR #6241 (#6335)
+
+* Fixup: reference `QUnit.test` instead of relying on global namespace entry
+
+Relates-to / merge-resolution-for #6241, #6334
+
+* Build: recompile distributable files
+
+* Tests: temporarily comment-out a failing integration test
+
+* Revert ""Tests: temporarily comment-out a failing integration test""
+
+This reverts commit 18638235a0b0edd8125b5f009007002d82a0f3a1.
+
+* Tests: isolate `selection:update` integration test event handlers
+
+* Cleanup: regenerate NPM lockfile",False
+0e12916e8e13649cf1e95e1370f8abd10dba90d4,2024-08-24 02:49:44,James Addison,"Fixup: unselection of items from AJAX data sources with non-string identifiers (#6241)
+
+* integration test: selection and clearing of data from ajax source
+
+* Fix: normalize response data items received from AJAX requests
+
+* Extension: remove special-case logic for unselection events on multi-select controls
+
+* test fixup: call assert.async test-completion event handler
+
+* test log cleanup: increase the severity threshold for jquery-mockjax log events so that info-level messages do not pollute the test log output
+
+* Revert ""Extension: remove special-case logic for unselection events on multi-select controls""
+
+This reverts commit 8fd9a00c7a86838c8c459bbb5860066ce3474898.
+
+* Relocate AJAX-response-result normalization step, and add 'Array.isArray' check condition
+
+* Lint fixup: rearrange code to fit within line length limits
+
+* Nitpick: remove trailing end-of-line whitespace
+
+* Dependencies: update to mockjax v2.6.1",False
+0ad99bf9786a572ccbfe581f2ac0a98a5b59daed,2024-08-24 02:46:39,James Addison,"Dependencies/CI: updates to prepare for jQuery 4.0.0-beta testing (#6334)
+
+* Dependencies: update to `sass` v1.77.8
+
+* Dependencies: update to `grunt-contrib-qunit` v10.1.1
+
+* CI: update all GitHub Actions workflows to Node v20 (current LTS)
+
+* Build: recompile distributable files
+
+* Dependencies: remove duplicate non-dev `sass` dependency
+
+Co-authored-by: Kevin Brown-Silva <kevin-brown@users.noreply.github.com>
+
+* CI: Fixup: correction for environment variables in YAML config
+
+Co-authored-by: Kevin Brown-Silva <kevin-brown@users.noreply.github.com>
+
+* Linting: delete removed `module` and `test` globals, and delete deprecated line-length limit.
+
+* CI: Run `apt` commands as superuser
+
+---------
+
+Co-authored-by: Kevin Brown-Silva <kevin-brown@users.noreply.github.com>",False
+ed1761a7f6e88c8c5d305e7022fecb264d2271ab,2023-11-15 06:37:11,Per Lundberg,Update django-select2 URL (#6286),False
+4de1d236e602149a5c78d35899b49b3989b94107,2023-03-10 08:05:43,James Addison,Update testing dependencies to support Python3 as an interpreter for node-gyp (#6234),False
+cd545a4794461d835040d0140d6820f862bf5ca7,2023-03-02 22:50:17,Petrik de Heus,"Replace `removeAttr` with `removeAttribute`. (#6228)
+
+This replaces jQuery's `removeAttr` function with the vanilla JavaScript
+`removeAttribute`.
+
+$results, $rendered, $selection and $search all seem to be defined as a
+single element, so we can call `[0]` to get the element.",False
+8bdafc3644656c85f34a00ffa518b3e42a3df9da,2023-03-02 22:49:30,Petrik de Heus,"Replace `addClass` with `classList.add` (#6229)
+
+This replaces jQuery's `addClass` function with the vanilla JavaScript
+`classList.add`.",False
+bafba7b536ab21c0c5d4c560227bd4da4b0c8fc5,2023-02-22 01:51:36,Petrik de Heus,"Upgrade dev node to v12 (#6230)
+
+- Upgrade node to v12 for Github actions.
+- Compiled and minified src with Grunt",False
+0a186ebb4875b080f70e5f48d957f025e97194f5,2023-01-29 23:20:54,James Addison,"Revert ""Unselect events: cache lookup key fix (#6179)"" (#6217)
+
+This reverts commit d961613058cec3e7b1ee184643b483dc92170e54.",False
+ab6d7f2217c7b481ea7f83d44a3c29607405a8cb,2022-11-01 06:44:24,Mahammedi Abdelghani,"[ImgBot] Optimize images in documentation (#6202)
+
+*Total -- 1,717.61kb -> 1,463.41kb (14.8%)
+
+/docs/pages/images/flags/wa.png -- 44.19kb -> 7.72kb (82.53%)
+/docs/pages/images/flags/wv.png -- 44.19kb -> 12.03kb (72.78%)
+/docs/pages/images/flags/hi.png -- 3.10kb -> 1.47kb (52.59%)
+/docs/pages/images/flags/sc.png -- 4.38kb -> 2.27kb (48.16%)
+/docs/themes/learn2/images/favicon.png -- 1.15kb -> 0.72kb (37.72%)
+/docs/pages/images/flags/al.png -- 2.56kb -> 1.68kb (34.39%)
+/docs/plugins/error/assets/readme_1.png -- 40.71kb -> 28.36kb (30.33%)
+/docs/pages/images/flags/ak.png -- 2.16kb -> 1.59kb (26.18%)
+/docs/themes/learn2/images/logo.png -- 1.19kb -> 0.88kb (26.01%)
+/docs/themes/site/images/safari-pinned-tab.svg -- 0.75kb -> 0.56kb (25.42%)
+/docs/plugins/problems/assets/readme_1.png -- 71.20kb -> 53.70kb (24.58%)
+/docs/pages/images/flags/ms.png -- 5.95kb -> 4.54kb (23.6%)
+/docs/pages/images/flags/ar.png -- 10.62kb -> 8.11kb (23.59%)
+/docs/plugins/simplesearch/assets/search.svg -- 0.95kb -> 0.74kb (22.22%)
+/docs/plugins/highlight/assets/readme_1.png -- 163.69kb -> 127.78kb (21.94%)
+/docs/pages/images/flags/nm.png -- 1.49kb -> 1.17kb (21.08%)
+/docs/pages/images/flags/in.png -- 6.82kb -> 5.43kb (20.49%)
+/docs/pages/images/flags/az.png -- 5.32kb -> 4.25kb (20.19%)
+/docs/pages/images/flags/tx.png -- 1.29kb -> 1.04kb (19.64%)
+/docs/pages/images/flags/ri.png -- 6.76kb -> 5.45kb (19.49%)
+/docs/pages/images/flags/tn.png -- 3.91kb -> 3.16kb (19.2%)
+/docs/plugins/breadcrumbs/assets/readme_1.png -- 60.44kb -> 48.90kb (19.09%)
+/docs/assets/rtfm-screenshot.png -- 131.33kb -> 107.16kb (18.41%)
+/docs/pages/images/flags/oh.png -- 7.49kb -> 6.28kb (16.06%)
+/docs/pages/images/flags/co.png -- 2.53kb -> 2.18kb (14.08%)
+/docs/screenshot.jpg -- 147.13kb -> 127.14kb (13.59%)
+/docs/themes/learn2/screenshot.jpg -- 118.97kb -> 102.90kb (13.5%)
+/docs/pages/images/flags/md.png -- 4.01kb -> 3.47kb (13.38%)
+/docs/pages/images/flags/ga.png -- 4.65kb -> 4.05kb (12.89%)
+/docs/pages/images/flags/ca.png -- 6.99kb -> 6.10kb (12.8%)
+/docs/pages/images/flags/wy.png -- 4.24kb -> 3.74kb (11.81%)
+/docs/pages/images/flags/sd.png -- 10.01kb -> 8.89kb (11.24%)
+/docs/pages/images/flags/la.png -- 11.22kb -> 10.01kb (10.8%)
+/docs/pages/images/flags/ne.png -- 13.57kb -> 12.15kb (10.45%)
+/docs/pages/images/flags/or.png -- 9.31kb -> 8.40kb (9.79%)
+/docs/pages/images/flags/nc.png -- 3.90kb -> 3.57kb (8.46%)
+/docs/pages/images/flags/de.png -- 7.72kb -> 7.12kb (7.81%)
+/docs/pages/images/flags/nv.png -- 4.17kb -> 3.85kb (7.69%)
+/docs/pages/images/flags/pa.png -- 10.93kb -> 10.10kb (7.62%)
+/docs/pages/images/flags/mo.png -- 7.32kb -> 6.77kb (7.54%)
+/docs/pages/images/flags/ky.png -- 9.92kb -> 9.19kb (7.41%)
+/docs/pages/images/flags/mn.png -- 7.75kb -> 7.20kb (7.11%)
+/docs/pages/images/flags/ia.png -- 6.94kb -> 6.46kb (6.83%)
+/docs/themes/learn2/thumbnail.jpg -- 20.52kb -> 19.19kb (6.48%)
+/docs/pages/images/flags/ut.png -- 10.42kb -> 9.77kb (6.3%)
+/docs/pages/images/flags/ct.png -- 8.99kb -> 8.43kb (6.29%)
+/docs/pages/images/flags/nh.png -- 12.49kb -> 11.74kb (6%)
+/docs/pages/images/flags/fl.png -- 8.81kb -> 8.33kb (5.4%)
+/docs/pages/images/flags/mi.png -- 10.23kb -> 9.73kb (4.86%)
+/docs/pages/images/flags/ok.png -- 7.12kb -> 6.81kb (4.4%)
+/docs/pages/images/flags/nd.png -- 11.52kb -> 11.01kb (4.38%)
+/docs/pages/images/flags/va.png -- 9.90kb -> 9.47kb (4.37%)
+/docs/plugins/simplesearch/assets/readme_1.png -- 110.46kb -> 106.12kb (3.93%)
+/docs/pages/images/flags/wi.png -- 8.34kb -> 8.08kb (3.12%)
+/docs/pages/images/flags/ks.png -- 7.58kb -> 7.35kb (2.99%)
+/docs/pages/images/flags/ma.png -- 3.89kb -> 3.78kb (2.96%)
+/docs/pages/images/flags/mt.png -- 7.17kb -> 7.00kb (2.46%)
+/docs/pages/images/flags/vt.png -- 6.25kb -> 6.09kb (2.45%)
+/docs/themes/learn2/fonts/fontawesome-webfont.svg -- 433.96kb -> 425.36kb (1.98%)
+/docs/themes/learn2/images/clippy.svg -- 0.51kb -> 0.50kb (1.16%)
+/docs/pages/images/flags/il.png -- 10.11kb -> 10.05kb (0.63%)
+/docs/pages/images/flags/ny.png -- 9.50kb -> 9.45kb (0.53%)
+/docs/pages/images/flags/nj.png -- 6.93kb -> 6.92kb (0.21%)
+
+Signed-off-by: ImgBotApp <ImgBotHelp@gmail.com>
+Co-authored-by: ImgBotApp <ImgBotHelp@gmail.com>",False
+ada14fbbac8e7c6e68c5a347fd5d92efb8609df0,2022-10-26 23:49:54,Andre Gomes,Fix Typo - word 'item' Brazilian Portuguese (#6200),False
+d961613058cec3e7b1ee184643b483dc92170e54,2022-10-25 06:32:30,James Addison,"Unselect events: cache lookup key fix (#6179)
+
+* During selection and unselection events, retrieve cached item data using the original 'option' element as the cache lookup key instead of the event target
+
+* Fixup: only use 'option' element as cache lookup key during unselection -- not selection -- events
+
+* Narrow down 'option' element query to find the unselected item by value
+
+* Consistency: prefer jQuery.find...each pattern as used elsewhere in the codebase
+
+* Lint fixup: fit within line length limits
+
+* Use equality checks instead of jQuery/CSS selector attribute matching to filter relevant 'option' elements",False
+7745d4bf0a9f7e6b400e0bfc8fd074283771f640,2022-10-25 06:17:34,AlphaSolutions-jbj,"Adding ""originalEvent"" to ""close"" trigger args (#6079)",False
+0793d3c219774c8c8ca253039d0793d4f24b3c8f,2022-10-25 06:16:40,Denny Septian Panggabean,"Update Indonesian Localization translation (#6153)
+
+* Update Indonesian Localization translation
+
+- Added removeItem()
+- Added search()
+- Update searching()
+
+* Update src/js/select2/i18n/id.js
+
+* Update src/js/select2/i18n/id.js
+
+Co-authored-by: Kevin Brown-Silva <kevin-brown@users.noreply.github.com>",False
+acef3ca2d6afbbaf8f7e7eaead16eee38eb40287,2022-10-25 06:11:50,David Morais Ferreira,"Luxembourgish translation (#6131)
+
+* Luxembourgish translation
+
+* Fixed linting issue in luxembourgish translation",False
+58951103b8c6fb62936e3ab90974618f21dff882,2022-10-25 06:08:28,Renan Lucas,Update docs.md (#6162),False
+3ce97363592d13d2830eccc9e2c991bda4e233d6,2022-10-25 06:07:27,O. Alper YAZGAN,Update Turkish locale (#6123),False
+512d6f24da2ac6a6e489ac31813e7e8145023500,2022-10-25 06:05:00,iam7seven7,Add missing Traditional Chinese translations (#6157),False
+9017d54454cae3d05d9cd5256c157c7454be784e,2022-10-25 06:03:59,AhmadAmr,"Update Arabic Localization with removeItem (#6175)
+
+* Update  Arabic  Localization with removeItem
+
+* Update Arabic Localization",False
+011fadd96f868fabb370d7bd9d498580af15bfd5,2022-09-19 23:56:11,ئىرشات غالىپ,Add Uyghur (Uighur) translation (#6166),False
+b19d6c6400d9360d57b858c7e928f7c9d93ce746,2022-09-19 23:54:03,damzaru,"Update ro.js (#6190)
+
+Added missing word spacing.",False
+b1107eeac8f452331a630b8182d6f038c90fc576,2022-09-19 23:52:40,Mahmoud Mohamed Ramadan,Fix the typo (#6164),False
+1f46680f9019ae23b836553350b1cb015dea9db2,2022-09-19 23:52:14,David Morais Ferreira,Updated DE/ES/FR/PT/PT_BR translation strings (#6132),False
+5c38f186c98d793c7d396442986191ca05634d0a,2021-11-16 17:54:32,Maciej Kubień,Update Polish translation (#6097),False
+1176368f92afda6b4918518fe3cf80bc02d30d16,2021-06-10 07:17:24,Carlo Teubner,docs typo fix (#6037),False
+bdbaf3844c0f6a25b5023f4d6b2dac93761c5c1a,2021-06-10 07:17:08,luzpaz,"Fix misc. typos (#6045)
+
+Found via `codespell -q 3 -L eacf`",False
+413593c5fccca8b5ec8dabd3ceafb762b85951ac,2021-06-10 07:10:37,Brian Grohe,"Increased sleep for docs when deploying (#5994)
+
+This is being increased to help mitigate a deployment race condition that can cause the JavaScript to not load if the npm release does not finish with 60 seconds.",False
+f10de120589d379603e185dfc69583c1d5ad0b51,2021-06-10 07:10:20,Gareth Midwood,Remove unnecessary reference to pull request in docs (#6006),False
+a41a1ddc831e9227ba010ec8e4aad4b0f583b928,2021-06-07 05:39:53,Mikhail Oleynik,Added theme for bootstrap 5 link to README.md (#5998),False
+0a30b0b3e67843c09b0bcc4d01e65b72d9b1279f,2021-03-05 05:28:35,Krzysztof Bogdan,"Fix error callback with custom transport (#5981)
+
+If custom transport does not return any object 
+then calling error callback would result in `Uncaught TypeError: right-hand side of 'in' should be an object, got undefined`.
+This patch adds check if $request evaluates to something.",False
+04042e10ab99262bc5466809f2f6c4337bed5e66,2021-03-05 05:25:49,Francesco Coda Zabetta,Add missing Italian translations (#5988),False
+10eebea88f720ab3d3455fdb8cf725883b6c1c4a,2021-03-05 05:23:06,Алексей Арх,Add missing Russian translations (#5992),False
+3c4c4da4a8ff84c709b66f519424e09bd8db853d,2021-01-23 09:59:35,Kevin Brown,"Merge pull request #5974 from select2/release/4.1.0-rc.0
+
+[Release] 4.1.0 rc.0",True
+2de1b9aa647454e49b6264c343d93aeac7f70213,2021-01-23 09:55:44,Kevin Brown,Updated changelog for 4.1.0-rc.0,False
+bededdf0e377a9763a6842fb03adb8fdd760da10,2021-01-23 09:44:37,Kevin Brown,Recompiled dist for 4.1.0-rc.0,False
+83202d7637006651cdf22bacf637b43433a6daef,2021-01-23 09:43:40,Kevin Brown,Bump versions for 4.1.0-rc.0 release,False
+2cf64df0e9ed8096a8d41b4597df236abfc5a41f,2021-01-23 09:32:46,Kevin Brown,"Set title for single select placeholder (#5973)
+
+This sets the title of the rendered selection for a placeholder when
+it is displayed within a single select. This is not necessary for a
+multiple select because the placeholder is set on the search box
+which will properly convey the value of it and meets ARIA guidelines.
+
+Because single select boxes currently use a `textbox` role to convey
+the keyboard accessibility of the textbox area, and because that role
+is currently required in ARIA 1.1, it must be properly labelled using
+the `title`, `aria-label`, or `aria-labelledby` attribute. This
+currently happens for single selects without a placeholder, and
+single selects with a placeholder but with an active selection,
+because the `title` attribute is set to the title of the active
+selection. Because it only currently sets it for the active selection,
+this caused an edge case specific to placeholders for single selects
+where the selection was not properly labelled.
+
+The placeholder title follows the same rules for setting the attribute
+value as for the regular single select selection, except placeholders
+will also fall back to just using the text value of the placeholder
+element in the event that the `title` and `text` attributes are not
+specified on the placeholder data option.",False
+af79c80b22a16e22e45934fd4d18609660f4e8da,2021-01-22 21:48:56,Martin Carlin,"Highlight tags first in results even if other selections exist (#5812)
+
+* refactor: check for unselected options when using tags and highlight that option first
+
+* Switch to using a decorator for highlighting tags
+
+This switches the implementation to use a decorator which is only
+added when the `tags` option is set during initialization.
+Functionally it has no change on the effect but it allows for the
+logic to be more isolated. In the end it just keeps it more organized
+and works towards cutting back on what is included in the core results.
+
+This also changes the call for setting the `select2-data-tag` attribute
+to properly set the attribute as a string instead of relying on the
+boolean to string conversion.
+
+* Fix tabbing in newly added decorator
+
+* Add tests for tag focusing in results
+
+Co-authored-by: Kevin Brown <kevin@kevin-brown.com>",False
+5e8699da1e92798d4b785801886d27564bfc827c,2021-01-22 21:46:47,Joe Petrakovich,"Change tab key to select the currently highlighted option instead of just closing
+
+Co-authored-by: Joe Petrakovich <jpetrakovich@bankdirectsystems.com>",False
+be01e76023213f35d99f69ffc440906022e218ee,2021-01-22 19:59:24,PizzaProgram,"Update Hungarian translation for new strings
+
+Updated Hungarian translation.",False
+27345381b1e868934f176cb6c223298a4bc6c467,2021-01-14 08:17:36,Andrew Colchagoff,"Allow pasting multiple lines into the search field for tokenization (#5806)
+
+* Fixes #3712 Allowing Pasting tags from spreadsheet
+
+I was trying to make an easy way for clients to copy and paste tags from a spreadsheet, but I was unable to do this because select2's use of a 'search' input would remove all newline characters from the pasted input. replacing the search text input with a textarea removes this limitation.
+
+* Fixes bug and broken tests
+
+* Missed one spot
+
+* Fixes tests posibly?
+
+* reformat long lines
+
+* Reference options instead of searchElement directly
+
+* make input come first in selector
+
+* Make textarea the default rather than a configurable
+
+* fix weird whitespace
+
+* missing a quote
+
+* Fix styling to be closer to the default for search boxes
+
+This still has an issue with overflows and how the browser will
+completely shift focus rather than slowly move it character by
+character, but this is something which we can work out at a later
+time and shouldn't break things for now.
+
+* Fix tests expecting to find an input
+
+* Skip autocomplete property tests
+
+These tests currently fail in the automated test runner because they
+are checking the `autocomplete` property on the `<textarea>` DOM
+element. This attribute is widely supported across our supported
+browsers, but the property on the JS DOM element has only recently
+started to be supported. As a result, the virtual browser used by the
+test runner does not support this property and cannot read it for the
+tests.
+
+* Fix placeholder test returning incorrect width
+
+The width was incorrect for the placeholders because it was using the
+default browser style instead of the ones from Select2. As a result, it
+was coming back with a width of 104 because it was at 100% of 100px
+with the default 2px padding all around that is browser by the browser
+user style sheets. Now that it is being placed inside of the proper
+container, we can see that the expected styles are being applied.
+
+* Introduce new class to better handle the clear button
+
+This new class allows us to not have to apply the padding for the
+clear icon when the clear icon is not being displayed.
+
+* Update test with proper width of the search box
+
+Co-authored-by: Kevin Brown <kevin-brown@users.noreply.github.com>
+Co-authored-by: Andrew Colchagoff <andrew@tryskillo.com>
+Co-authored-by: Kevin Brown <kevin@kevin-brown.com>",False
+0de98d99993db0d8b0da6ad01836a120060cb8fe,2021-01-08 08:29:25,Kevin Brown,"Fix slow memory leak caused by not clearing cache (#5965)
+
+There was a very slow memory leak that can occur if you were creating
+and destroying many Select2 elements on a single page. This was caused
+by the internal Select2 cache not being cleared for the container
+element, causing a reference to it to be left in memory even after
+the Select2 element was destroyed.
+
+The memory was put in place to make it easier to destroy a Select2
+element after it is initialized, specifically when the user clicks
+off of the Select2 element. Because some pages run with multiple
+versions of Select2 and jQuery at the same time, we specifically
+cache a local copy of the jQuery element to allow it to be
+deconflicted at the time of the call. This cached locally copy was
+not being properly cleared when Select2 was being destroyed though,
+which had the (very small) potential to cause a memory leak over time.",False
+a16a26882ade594d970a88e5e2f3cb84f6368548,2021-01-05 09:02:50,Kevin Brown,"Fix long text causing the search box and selections to overflow on multiple selects (#5964)
+
+* Switch clear button to no longer be floated
+
+This also adds a consistent padding to the right side of the selection
+area to allow the clear button to be absolutely positioned on the right
+side without having to worry about it colliding with one of the
+selected elements. This is not ideal since it always shows up, even
+when the clear button is not enabled. This is also not ideal since
+it maintains the padding for the second row and beyond, even though
+the clear button is not visible on those rows.
+
+We can see if we can work through those issues later. But for now
+it's working consistent in both Chrome and IE.
+
+* Set max-width to 100% on search box
+
+This should keep the search box set so it does not overflow the
+container that it is held within. So when people search for incredibly
+long strings, it properly maintains width and does not break out of
+the container and cause rendering issues.
+
+* Set max-width on the individual selections
+
+This sets the max width on the individual selections such that
+selections with abnormally long width will not exceed the size of
+the container and break rendering. In order to remain consistent with
+how the display is done for a single select, we do not allow the
+contents of selection in a multiple select to break across lines.
+
+In order to fix a rendering issue that occurs when the `overflow`
+is set to anything other than `visible` on the list item, we set
+`vertical-align` to `baseline` to ensure that all of the list items
+are vertically aligned to the same location. If we don't set this, a
+channel that is roughly 5px tall starts to form between the rows. It's
+not clear what causes this channel to form but the current solution
+for working around it is to correct the vertical alignment which
+appears to cause it to collapse and not form.
+
+* Fix remove icon on selection pushing long text
+
+This fixes an issue we saw with long text where if the text of the]
+selection was long enough, the close icon for the selection would
+be pushed to a second row. This is because the close icon was set
+to display as a block-like element and that will cause it to take
+it's own row when it needs to. Now we are absolutely positioning the
+clear icon with a padding applied so it always renders where we would
+normally expect it to.",False
+83f288d2294c1aafa26cc386c34a938989b0ed4a,2021-01-05 08:43:05,Aditya Toshniwal,"Add aria-label 'Search' to search input when dropdown opens. (#5824)
+
+* Add aria-label 'Search' to search input when dropdown opens.
+
+* Fixex per review comments. Added test cases.",False
+80d4234369e22ac346bf3e3f17323a7ad5c0f766,2021-01-05 08:41:30,Artur Janicki,Add aria-controls to combobox (#5942),False
+49611613be72fec086d2456ed4c22f807ddc4352,2021-01-05 08:40:54,Beda Schmid,"Update fr.js (#5957)
+
+removeItem was missing",False
+3df83c83b56ba0886afbe55c64b49d6c2fd39298,2020-12-05 00:25:55,Sergej,"Display ""null"" as the default for tokenSeparators (#5953)",False
+0a1bcdd68f2887573032f1066c1257733782c9ae,2020-12-05 00:25:26,Anthon,"Remove deprecated calls to `jQuery.isFunction` (#5955)
+
+Co-authored-by: Anthonius Alfred Andreas <aandreas@updraftplus.com>",False
+6f93769311cda2ecd83e953b32a95f5b68f0d745,2020-09-06 01:01:42,meldafert,Accessibility: fix role for nested options (#5916),False
+ef33f4be110f5154c11b49d73e7b15921e143398,2020-07-02 22:31:42,nMurali,"Created te.js (#5881)
+
+* Created te.js
+
+Created Telugu language translation.
+This pull request is Translation only.
+The following changes were made
+- Created Telugu Messages.
+
+* Created te.js
+
+Created Telugu language translation.
+This pull request is Translation only.",False
+b73e0be5e370ffbd433b15719d5433495105b1b2,2020-06-08 19:13:39,Laryn - CEDC.org,Add Backdrop CMS integration (#5877),False
+c1b66c27bc7efc5012364be878c52610cf0ff808,2020-05-03 04:02:23,Kevin Brown,"Merge pull request #5849 from select2/release/4.1.0-beta.1
+
+[Release] 4.1.0 beta.1",True
+b63fa44a18436cd74bcc6e242c7f67f344df8148,2020-05-03 03:53:50,Kevin Brown,Updated changelog for 4.1.0-beta.1,False
+facfb55f70cef5f89f60329dafadf7a82cda1cb4,2020-05-03 03:45:29,Kevin Brown,Remove mentions of unmonitored IRC channel,False
+4c16579f30275cc176a9037b19b4d9f2c029a39b,2020-05-03 03:38:40,Kevin Brown,"Update docs for latest 4.1.0 changes
+
+This switches the Bootstrap theme recommendation over to the much
+newer and much more maintained Bootstrap 4 theme.",False
+f6053a15c5c0e863d243e80e3ed22aeeb573b4d0,2020-05-03 02:41:44,Kevin Brown,Recompiled dist for 4.1.0-beta.1,False
+0118abf9081392644edf34a4e3d7d5119ff29f86,2020-05-03 02:39:04,Kevin Brown,Bump versions for 4.1.0-beta.1 release,False
+e1f160efcfa28827a7d8893fbe1d8680005afa84,2020-05-01 06:20:53,Kevin Brown,"Fix selectionCssClass not working in defaults (#5847)
+
+There was a bug in the 4.1.0-beta.0 release which resulted in the
+`selectionCssClass` not being functional. This was because the
+defaults had not been updated to support this option despite the
+documentation and the release notes claiming it was supported.",False
+181170f8a4d5c7eb4670ccd3926add33391b6b2d,2020-04-30 04:46:43,Kevin Brown,"Make the multi-select selection area more accessible (#5842)
+
+* Move selection search out of list
+
+The selection search was previously being injected into the list of
+selections. This was largely done because it was easier to style
+and it matched up wiht how we injected the search box in older
+version of Select2. Unfortunately it was pointed out to us that
+this breaks the semantics of the list of selections, which is
+definitely accurate and impacts accessibility.
+
+The search box for selections, used primarily in multiple selects,
+was moved to be next to the list of selections. Functionally, this
+does not impact Select2 at all because of how we manage focus, but
+it does impact the accessibility and styling of Select2. This moves
+closer to bringing the Select2 selection area for multiple selects
+into an accessible state, by pushing for the selections (the options
+that were previously selected) to be within their own container and
+to not interfere with other elements that may be present. This is
+important because screen readers need to be able to read the current
+selections and differentiate between elments.
+
+This impacts the styling of Select2 internally, without impacting
+how it visually looks to our users. We have switched from floating
+all of the options to keep them visually in line to using a set of
+inline-block elements that better reflect what is actually happening.
+As a result, the base stylng as well as the styling for the default
+and classic themes has been adjusted to use a set of inline-block
+elements while maintaining any spacing between elements that
+previously existed. Because the DOM ordering has changed, anyone
+who was relying on DOM order instead of classes for styling the
+search box will need to update their CSS to reflect the new
+ordering. The same applies to any plugins which were relying on the
+DOM to be stable in order to make changes.
+
+This also switches the selection search to take up the full width
+of the container when the placeholder is visible. This fixes a
+long-standing issue where it was possible for the placeholder on
+a multiple select to be hidden depending on the state of the DOM
+at the time the placeholder was rendered.
+
+* Moved clear button out of rendered selection
+
+The clear button was previously being injected at the start of the
+rendered selection, creating invalid markup on multiple selects
+where the rendered selection is a list, and overloading what the
+rendered selection was for in single selects. It has now been moved
+out of the rendered selection and it is now in front of the rendered
+areas, allowing the clear button to still be floated to the right
+over the rendered selection itself.
+
+The clear button has also been changed to use a `<button>` element,
+though it is still removed from the tab order. This allows for the
+purpose to be properly communicated to screen readers while not
+disrupting the natural tab order of the select box.
+
+This affected the CSS across all themes because the positioning is
+affected now that it is not located within the rendered container.
+This required some small ajustments to get it to appear alongside
+of the arrow within single select boxxes. This also required some
+adjustments in order to get it to appear in the right location and
+affect the rendering order within multiple selects, where the clear
+button should push the search and selected choices down and around
+it instead of appearing directly over it.
+
+Because of the change to a `<button>` element, the clear icon may
+render differently for some users because of the default stylesheet
+rules. This may also come into play within themes where the `<button>`
+elements may be styled differently.
+
+* Add aria-describedby to selection search
+
+This should make it more clear now what the current selections are
+when the selection search is being used. In the future we may switch
+this to pointing at a dedicated element which handles the accessibility
+text representing the current selections, but for now we will rely
+on the rendered selection to do the job.
+
+* Set `type=button` on the ""clear all"" button
+
+This will ensure that when the button is clicked, any form that the
+select is contained within is not triggered. This is because buttons
+default to `type=submit` within forms.
+
+* Render choices inside additional span
+
+This additional span is now being given a unique ID, similar to the
+one which is given each result in the dropdown, and it is being
+associated with the corresonding remove button for that choice. This
+should not affect the rendering of the individual choices but it
+does allow us to move forward on fixing accessibility issues around
+the remove icon within multiple selects. Now when a remove icon is
+focused by a screen reader, it should read out the text of the option
+that would be removed.
+
+* Make the remove item button an actual button
+
+This moves the remove item icon from being a span that can be clicked
+to being an actual button that acts and behaves like a real button.
+This means it is now using a `<button>` element and can receive
+keyboard events to trigger the removal of an item, as well as the
+mouse events it could previously receive.
+
+Because the selection area can receive keyboard events that behave
+differently from the removal of an item, a new handler needed to be
+added for the remove button that stops the propagation of keyboard
+events for it. This allows the enter key to propagate like it would
+previously and trigger the click event.
+
+This required some heavy adjustments to the CSS that will affects
+themes. the click area for the remove item button is now larger and
+visaully is separated from the text of the item itself. The
+separation is done by a solid line to the right of the button which
+can be removed by CSS if the user desires. The background of the
+remove item button also visually changes now when the button is
+hovered or focused, instead of before where it was only the text
+color that changed. The classic theme does not incorporate most of
+these changes.
+
+This also updates the RTL theme to work with all of the styling
+changes that have been made so far.
+
+* Add aria-describedby to clear button
+
+The clear button currently says ""Remove all items"" but it does not
+provide any context to screen readers what items will be removed.
+By adding the `aria-describedby` attribute, they will now announce
+the selected options after annoying that the button is to remove
+all items.
+
+* Hide the ""x"" in the remove icons from screen readers
+
+Previously screen readers would hear the ""x"" be read aloud within
+the different clear/remove icons even though it does not serve an
+actual purpose for them. This hides them so now it should only read
+out the label and that's it.
+
+* Add helper text for the remove item button
+
+This adds a title and aria-label attribute for the remove item
+button. This should ensure that screen readers read out ""Remove item""
+followed by the item text when these icons are focused. This adds
+a new translation for this text, but translations for languages
+other than English will need to be added separately.
+
+* Add aria-label for remove all button",False
+defe232bf6d233f17f3c26b776ad179ad26fe2bc,2020-04-26 08:30:40,Kevin Brown,"Mark highlighted results with aria-selected (#5841)
+
+* Switch CSS to use BEM over attribute selectors
+
+Previously the CSS was using a combination of very specific BEM
+class selectors and attribue selectors based off of ARIA attributes
+that were expected to be present on the elements. This creates odd
+specificity battles that people have been complaining about for
+years, so now we're solving a few of the issues by switching to
+BEM classes instead of using the mix.
+
+This is a breaking change within any applications that override
+the Select2 CSS through creating higher specificity selectors. While
+the attributes are still present on the elements, we are no longer
+going to be treating adjustements to them as breaking changes. This
+is important becuase accessibility is a changing field and we know
+we are going to have to make adjustments going forward.
+
+* Mark highlighted results with aria-selected
+
+This is a breaking change from past expectations where the options
+within the results that were selected within the dataset were
+previously marked as `aria-selected=true`.
+
+When Select2 was first implementing the `aria-selected` attribute,
+the interpretation that we followed was that the ""selected"" state
+was supposed to represent the idea that the option was ""selected""
+similar to what is done within a standard dropdown. This would make
+sense and would align with the interpretation of the WAI-ARIA
+Authoring Practices 1.0 where it explicitly says that it represents
+the selected state of the option. We later found out, after Select2
+had been released, that this intepretation was incorrect and the
+large majority of assistive technologies did not align with this
+interpretation.
+
+The `aria-selected` attribute should represent the location of
+focus within the component. This allows screen readers to read the
+contents out load and also detect changes within the focus location.
+In later revisions of the WAI-ARIA spec, this was made more clear
+that the `aria-selected` attribute forces the focus to be moved to
+the element containing that attribute, which is in line with the
+behaviour that was encountered during testing.
+
+This should fix a bug that has been around for a while where using
+VoiceOver in the Safari browser would result in the currently
+focused option not being read aloud.
+
+* Fix failing test
+
+There was a test which was checking the selected status of an option
+based on the `aria-selected` attribute. Instead this has been
+switched over to check to make sure the new class is not present.",False
+00aa2a59aee0458e457f1bea752a5b39d55bac5d,2020-04-26 05:58:08,Kevin Brown,"Change internal data ID generation to be more unique (#5840)
+
+This changes the internal generation of the ID used to uniquely
+identify an element to be more resistant to collisions. Previously
+it was an incremented integer or the exact ID used on the element,
+which for most cases was unique enough. Unfortunately if any elements
+used by Select2 also had an ID that was a low number, it was almost
+guaranteed to collide with an internal ID that Select2 generated.
+
+The internal generation now relies on a prefix when the ID already
+exists, similar to what we do with core IDs. It also uses a set of
+4 random characters along with the incrementing ID to reduce the
+chance of collisions even further.
+
+It is definitely still possible for a collision to occur, especially
+if two elements exist but one has a prefix of `data-` already, but
+the chances have been greatly reduced. We'll accept it for now.",False
+e41cb2e681328f9e619bf16e0f4445230a6c1fe7,2020-04-25 07:52:54,Kevin Brown,"Support the autocomplete attribute being set on the original <select> (#5839)
+
+* Add test to ensure search autocomplete attribute is set
+
+This adds a basic test to make sure that the `autocomplete` attribute
+on the search box is set based on the value of the `autocomplete`
+option that is passed in to Select2. This alows people to set the
+`autocomplete` attribute on their `<select>`, which is valid
+according to the spec, and have it copy over to the search box of
+their Select2 instance.
+
+* Add tests for options set by HTML atttributes
+
+This adds some missing tests for the disabled and multiple attributes
+and how they can be used to set the corresponding options within
+Select2. This also adds tests for the new autocomplete option that
+ensures it is properly synchronized based on the attribute being
+set.
+
+* Add support for the autocomplete attribute
+
+This will now copy the `autocomplete` attribute (based on the current
+state of the `autocomplete` DOM property) from the `<select>` to
+any search boxes that are used by Select2. This is necessary to
+both handle cases where people do not want the autocomplete
+disabled, as well as handling cases where people are looking to set
+a custom autocomplete which will assist users when searching.
+
+This still maintains backwards compatibility with the `autocomplete`
+option being set to `off` by default. It also allows the
+`autocomplete` option to be set through the standard Select2 options
+to override the `autocomplete` attribute if it is present.
+
+This does not follow the precedent set by the `disabled` and `multiple`
+options where the value is synchronized back to the original
+`<select>` when it is overridden by the options. This is because it
+would break backwards compatibility because the default state of
+the `autocomplete` property is a blank string ('') instead of `off`
+which is what Select2 uses.
+
+* Skip autocomplete attr test when not supported
+
+Not all browsers, including older version of PhantomJS, support
+the `autocomplete` attribute when it is set on a `<select>` element.",False
+f30702d5026e675ed953a5c79d838f33885c80e4,2020-04-25 06:20:29,DenisGriffin,"Fix selection search resizeSearch on close (#5766)
+
+Co-authored-by: DenisGriffin <denis.priss@disy.net>",False
+85b28843c93534044ccade7b227cdbcf6f736528,2020-04-20 05:44:00,Kevin Brown,"Merge pull request #5835 from select2/release/4.1.0-beta.0
+
+[Release] 4.1.0-beta.0",True
+d59edfeb8bdf879a5360eba0ea57ca0fca1041fc,2020-04-20 05:39:57,Kevin Brown,Updated changelog for 4.1.0-beta.0,False
+d4c90037a6c3c1206df11da4f60ea78518cf9e13,2020-04-20 05:27:52,Kevin Brown,Recompiled dist for 4.1.0-beta.0,False
+1c0e418fb0834c3d647254e8a2011550850a6382,2020-04-20 05:23:59,Kevin Brown,Bump versions for 4.1.0-beta.0 release,False
+cbadb0a4090ba5c9405af3ad5c1b35e10e157ad8,2020-04-20 05:16:45,Anton Dyshkant,"Speed up calls to get the currently selected options (#5775)
+
+* JQuery ""find"" replaced with more efficient ""querySelectorAll""
+
+* Refactored to use Array.prototype.map
+
+Co-authored-by: Kevin Brown <kevin@kevin-brown.com>",False
+c6d8a13bf0f9d8dd0e21cd3a48b441e47b0f7dcc,2020-04-20 04:35:52,Amandeep Singh,"Add Punjabi translations (`pa`) (#5831)
+
+* Added i18n: Punjabi language
+
+* Update pb.js
+
+Typo missing semi-colon fixed.
+
+* Update pb.js
+
+Rephrasing sentences for making sentence acceptable by 'Linter'.
+
+* Update pb.js
+
+Fixing code according to 'CI / Linting' test.
+
+* Update pb.js
+
+Rephrase sentence for passing 'CI/Linting' test.
+
+* Update pb.js
+
+* Added i18n language, Punjabi (pa)
+
+Renamed file name ( from **pb** to **pa** ) according to i18n standard.",False
+f7cbd2c93085137a2c4c5d61db3035d83bd5b06f,2020-04-20 04:33:16,Kevin Brown,"Remove support for legacy IE (#5834)
+
+* Replace usage of $.trim with String.prototype.trim
+
+This officially drops support for Internet Explorer 8, since this
+method is not provided by that browser. This is one more step closer
+to removing the dependency on jQuery itself.
+
+* Replace $.isArray with Array.isArray
+
+Now that we no longer support IE8, we can rely on this method
+actually existing now.
+
+* Remove old getAttribute workaround for IE7
+
+This has long been unsupported, and now that we don't care about
+IE8 with quirks mode, we can go back to expecting that `getAttribute`
+actually returns the string like it is supposed to.
+
+* Remove jQuery from Utils.copyNonInternalCssClasses
+
+This also simplifies the logic used to use more modern array methods
+to calculate the list of classes which need to be copied over to
+the destination object.
+
+* Remove unused imports
+
+* Remove use of jQuery.fn.is()
+
+* Replace $.inArray with Array.prototype.indexOf
+
+* Replace addClass, hasClass, removeClass with classList calls
+
+This replaces calls to the jQuery `getClass`, `hasClass`, and
+`removeClass` methods with the corresponding calls to `classList`
+methods on the elements that are referenced. There is one exception
+to this, specifically where results remove a class from any elements
+which may contain it, since that cannot be easily translated to use
+the `classList` syntax.
+
+* Remove legacy DOM modification tracking
+
+This removes the legacy tracking for `onpropertychange`, which was
+used by IE 8, to synchronize attribute changes from the `<select>`
+element back to Select2.
+
+This removes the legacy tracking of `DOMNodeInserted`,
+`DOMNodeRemoved`, and `DOMAttrModified` which was used by IE 9 and
+IE 10 for tracking when `<option>` elements were added and removed,
+as well as when attributes on the `<select>` element were
+synchronized.
+
+Now only the `MutationObserver` is in use for synchronizing changes
+to the `<select>` as well as changes to the `<option>` elements that
+it contains.
+
+* Replace $.map with Array.prototype.map",False
+f999ed8e2ea0361b41de8690dea7bb2ec0e15cc4,2020-04-19 22:14:47,Kevin Brown,"Remove modules deprecated in 4.0.0 (#5815)
+
+* Remove legacy support for `<input />` tags
+
+This never actually really worked, and since we thought this commit
+was coming sooner, we never actually fixed it. Now we can just
+remove it and accept the fact that Select2 currently only works
+for `<select>` boxes, the things it advertises itself as being a
+replacement for.
+
+Closes #3294.
+
+* Removed tests for legacy features
+
+These features will be removed in upcoming commits.
+
+* Remove legacy support for `initSelection`
+
+* Remove legacy support for `query`
+
+* Remove old `select2/compat/matcher` module
+
+* Promote containerCss and dropdownCss to core plugins
+
+These were originally slate to be deprecated and removed during the
+4.1.0 release, but it has been determined that they should still
+remain in the core. These will be stripped down to only the essentials
+before the 4.1.0 release, sincce we don't want to have to continue
+supporting another 6 options on top of the ones we already have.
+
+* Remove dropdownCss and adaptDropdownCssClass
+
+This removes the two options that were specific to the CSS for a
+dropdown. These two options were not well documented and as a result
+are not widely used.
+
+* dropdownCss - Allowed for custom CSS styles to be injected on the
+  dropdown container. Had an undocumented feature where the CSS
+  could be customized per element by passing in a function as the
+  option.
+
+  There is no immediate replacement for this option since Select2
+  will only allow custom CSS classes going forward. The best option
+  is to create a new CSS class which covers the properties that
+  were previously being injected.
+
+* adaptDropdownCssClass - Allowed for the CSS classes which were
+  present on the original element to be cloned into the set of
+  CSS classes which were on the dropdown container.  This was only
+  documented as a possible option but the rest of the documentation
+  was left blank, probably because nobody knew what this did.
+  Internally this was used to make the `:all:` helper function within
+  the `dropdownCssClass` option.
+
+  The suggested replacement for this is to change the CSS classes
+  on the original element prior to initializing Select2, and to use
+  the `:all:` helper to copy those classes over. The `:all:` helper
+  will remain as a supported option going forward.
+
+* Remove containerCss and adaptContainerCssClass
+
+This removes the two options that were specific to the CSS for a
+selection container. These two options were not well documented and
+as a result are not widely used.
+
+* containerCss - Allowed for custom CSS styles to be injected on the
+  selection container. Had an undocumented feature where the CSS
+  could be customized per element by passing in a function as the
+  option.
+
+  There is no immediate replacement for this option since Select2
+  will only allow custom CSS classes going forward. The best option
+  is to create a new CSS class which covers the properties that
+  were previously being injected.
+
+* adaptContainerCssClass - Allowed for the CSS classes which were
+  present on the original element to be cloned into the set of
+  CSS classes which were on the selection container.  This was only
+  documented as a possible option but the rest of the documentation
+  was left blank, probably because nobody knew what this did.
+  Internally this was used to make the `:all:` helper function within
+  the `containerCssClass` option.
+
+  The suggested replacement for this is to change the CSS classes
+  on the original element prior to initializing Select2, and to use
+  the `:all:` helper to copy those classes over. The `:all:` helper
+  will remain as a supported option going forward.
+
+* Updated list of options in docs
+
+Removed `adaptContainerCssClass`, `adaptDropdownCssClass`,
+`containerCss`, and `dropdownCss` which are now no longer supported
+with the promotion of `dropdownCssClass` and `selectionCssClass` to
+the core builds.
+
+Renamed `containerCssClass` to `selectionCssClass` to reflect the
+new name.
+
+Documented the `dir` option and pointed to the MDN documentation on
+the `dir` attribute.
+
+Removed `initSelection` and `query` which were used with the
+now-removed support of `<input />` tags.
+
+* Removed `amdBase` option
+
+Now that we are not dynamically loading in any modules for the full
+builds, we do not need the ability to override the AMD base path to
+search for these additional modules at. The `amdLanguageBase` option
+is still needed to handle dynamically loading in the additional
+lanugage files, though we acknowledge that nobody appears to be
+using this option.
+
+* Remove support for *CssClass being a function
+
+This was an undocumented feature that we are dropping to ease the
+the maintenance burden now that the `dropdownCssClass` and
+`selectionCssClass` options are being included in all builds.
+
+* Rename containerCssClass to selectionCssClass
+
+This should help alleviate much of the confusion that comes from
+people who used Select2 3.x and were used to these classes being
+injected at the container which wrapped the selection container
+instead of on the selection container itself. Now this makes it more
+clear what container these classes are being applied to.
+
+* Internally rename ContainerCSS to SelectionCSS
+
+* Clean up unused adapter logic for *CssClass
+
+* Simplify internal logic for copying CSS classes
+
+* Fixed issue copying classes with *CssClass
+
+We were lacking a test that verified that original classes were not
+copied unless `:all:` was actually specified.",False
+284f6bb02850eae283add5fcaf8dc576714f85f2,2020-04-14 08:57:05,KuboF Hromoslav,"Esperanto translation (#5823)
+
+* Esperanto translation
+
+* shortening ""inputTooShort"" string
+
+the linting test failed because of string ""inputTooShort"" is too long",False
+4bd4bbce2161495859ed66c129c59ecd07db8374,2020-03-15 00:37:08,Luiz Américo,"Increase minimum jQuery version to latest in the 1.x series (#5525)
+
+* Remove Utils.appendMany",False
+ab6f8466e4b56106d73286fceec7fe6cba7e8a2e,2020-02-05 05:11:21,Kevin Brown,"Merge pull request #5765 from select2/stale-exempt-labels
+
+Accessibility issues and confirmed bugs should never go stale",True
+4165cf13fdd74e9e0817ed15fc5828c6ebb9e638,2020-02-05 05:01:13,Kevin Brown,Accessibility issues and confirmed bugs should never go stale,False
+51be56a6910288ea1b98b4191141c8904e2aa5d6,2020-01-28 10:28:42,Kevin Brown,"Merge pull request #5753 from select2/release/4.0.13
+
+[Release] 4.0.13",True
+9fd005f4d98dc8c2369c5043ea55955bdaf29eca,2020-01-28 10:26:05,Kevin Brown,Updated changelog for 4.0.13,False
+10f15408a42c8d5993a698b6f7961082316db78b,2020-01-28 10:20:25,Kevin Brown,Recompiled dist for 4.0.13,False
+3b85e4fe0c4ae36efd9aa25c70358e42cb56ea21,2020-01-28 10:16:00,Kevin Brown,Bump versions for 4.0.13 release,False
+f34c84b77f0d175a1f619fc53c7d0d941d96152f,2020-01-28 10:11:23,Mike Countis,"Prevent opening of disabled elements (#5751)
+
+* Prevent a disabled element from opening via keydown/keypress events
+
+Gist: return early from the Select2#open method if the object is
+disabled.
+
+Add helper #isEnabled and #isDisabled methods to Select2 and selector
+classes.
+
+Add test coverage for the original, expected behavior and new
+preventative behavior.
+
+* Remove single-use method from tests
+
+Co-authored-by: Kevin Brown <kevin-brown@users.noreply.github.com>",False
+e0855a2f651732b4c5447dd877191eab8899693e,2020-01-28 05:59:21,David Bramwell,"Only trigger 'selection:update' once on DOM change events (#5734)
+
+* Only trigger 'selection:update' once on DOM change events
+
+* Fix linting errors
+
+* Add test for adding multiple options to a select
+
+* Switch Array.isArray to jQuery.isArray
+
+Because we're still doing best-effort IE8 support for some reason.
+
+* Fixed formatting in tests
+
+Co-authored-by: Kevin Brown <kevin-brown@users.noreply.github.com>",False
+3b69d358dcaced2be32235b22b22f51af5ce8a50,2020-01-28 05:44:52,Ben McIntyre,"Feed back the keypress code that was responsible for the 'close' even… (#5513)
+
+* Feed back the keypress code that was responsible for the 'close' event s part of the event parameters
+
+* Update core.js",False
+42364b1ec5b3c13c6dcd7dffd18aa24de4f7c443,2020-01-28 05:41:54,Marc-André Lafortune,Trigger 'input' event before 'change' events (#4649),False
+77620ed009c75a7575f143ab286b41ae28054071,2020-01-24 07:35:37,Kevin Brown,"Merge pull request #5741 from VSPPedro/update-readme
+
+Fix Contribute link",True
+48775d027c3e301b0bd2c4bfefbf1e1536e94cee,2020-01-13 18:27:46,Kevin Brown,"Merge pull request #5689 from swrobel/patch-1
+
+Fix ""edit this page"" links in docs",True
+0c155d35d7a549d5041500688bb797400acaf8d3,2020-01-09 20:23:10,Pedro Paiva,Fix Contribute link,False
+44b955ae3561aa34ddb7dad20a8f4212139ca748,2020-01-07 05:04:05,Stefan Wrobel,"Fix ""edit this page"" links in docs
+
+Currently the docs on select2.org link to https://github.com/select2/docs which has been archived. I believe this should fix that.",False
+783ad11003ce20c35937eedc00164016a1838410,2019-12-10 10:26:30,Kevin Brown,"Merge pull request #5721 from opencollective/opencollective
+
+Activating Open Collective",True
+01778814f8f289d0682148ba3d467fd4a7f219c2,2019-12-09 05:40:18,Jess,Added financial contributors to the README,False
+d2f393776445f3d251398f5a686292657cd379c0,2019-11-12 02:52:35,Kevin Brown,"Merge pull request #5700 from select2/kevin-brown-patch-1
+
+Connected GitHub to Open Collective for funding",True
+49f8076291ced9c7cff0cdc10dbda9775b58b93d,2019-11-12 02:51:09,Kevin Brown,Connected GitHub to Open Collective for funding,False
+b73238fbe78878bc774e18bce91f626078efa9b1,2019-11-06 07:01:45,Kevin Brown,"Merge pull request #5697 from select2/release/4.0.12
+
+[Release] 4.0.12",True
+1f97288d96471342d969cada50ea8e834527ec6d,2019-11-06 06:58:33,Kevin Brown,Updated changelog for 4.0.12,False
+752eabba473ddc1a505cfe82945f430373501e32,2019-11-06 06:55:42,Kevin Brown,Recompiled dist for 4.0.12,False
+c94dfadc7fd3bb063b59d690cd6cf4227fcd3a21,2019-11-06 06:53:54,Kevin Brown,Bump versions for 4.0.12 release,False
+1da125f11ee77dbffb35c69271e5262a0dd529aa,2019-11-06 06:42:15,Kevin Brown,"Merge pull request #5691 from paxnovem/GH-5682
+
+Fix support for the Shadow DOM when calculating offsets",True
+69bcf1a0342565bb75a6926d6db8349163fd1aa7,2019-11-01 06:41:33,Brian Grohe,Fix line length issue,False
+69aab8d2d364783f1d5de9c1a8b7336473631746,2019-11-01 06:19:44,Brian Grohe,Added support for the shadowdom,False
+e809aa0fee8a1be34cb01fc85037791b3927c012,2019-10-31 09:17:39,Kevin Brown,"Merge pull request #5687 from select2/swap-cdnjs
+
+Replace cdnjs with jsDelivr in the docs",True
+0d37eed52bd6fc83cdc2f79773b846c6bd81727f,2019-10-31 09:08:35,Kevin Brown,"Merge pull request #5686 from select2/npm-deployment
+
+Fix NPM deployment",True
+884a1a693070cc2b0e7317678513456aad4a381c,2019-10-28 13:58:59,Kevin Brown,"Replace cdnjs with jsDelivr in the docs
+
+This is needed until cdnjs figures out their future in
+cdnjs/cdnjs#13524. Until then, we will just reference their existence
+and promote jsDelivr to the primary source.",False
+37773d408f2fa43cd22f78ff6d3677b126aac654,2019-10-28 13:40:33,Kevin Brown,"Delay documentation deployment
+
+This should hopefully fix any possible issues where the NPM package
+may be released after the documentation is deployed, which could cause
+a cause miss by jsDelivr and cause the documentation to cache without
+pulling in the Select2 dependency.
+
+It hasn't happened yet, but I'm concerned it could happen and I don't
+want to put in the effort to make a more sophisticated way of
+handling this issue.",False
+796ab7bf417a5ce17ea1cdea397757dab27e8a3d,2019-10-28 13:39:40,Kevin Brown,"Fix deploying to NPM
+
+This changes the NPM registry URL to point to the actual NPM registry
+instead of the GitHub package registry.",False
+203e833153b048d94c3ed6da9eeec998a0066aa9,2019-10-23 17:11:34,Kevin Brown,"Merge pull request #5677 from select2/funding-file
+
+Add GitHub Sponsors funding link",True
+08a407e7d16ea858887a689e05cb7d109af4ec35,2019-10-23 17:09:51,Kevin Brown,Add GitHub Sponsors funding link,False
+032d964948417c73e799c4cc872a96c4c63b62b0,2019-10-14 02:05:48,Kevin Brown,"Merge pull request #5666 from select2/release/4.0.11
+
+[Release] 4.0.11",True
+ca1bbd0738c0d58d4032ccfc4fa3e2c847ca0088,2019-10-14 02:00:11,Kevin Brown,Update changelog for 4.0.11,False
+d18d9b6b7105f1dc4741b6f1c2d56e59c861ee29,2019-10-14 01:53:56,Kevin Brown,Recompiled dist for 4.0.11,False
+016f628954de4fd629190872333ab751188d76aa,2019-10-14 01:48:29,Kevin Brown,"Switchs docs to load from jsdelivr
+
+This should hopefully fix the issue we were seeing where the docs
+would not render properly immediately after a release because CDNjs
+has a delay in updating versions. jsdelivr does not have this delay,
+so we shouldn't have any many rendering issues.",False
+deda455aac0887f0a41f00304f8fce3d91c9de25,2019-10-14 01:46:38,Kevin Brown,Bump versions for 4.0.11 release,False
+34689368df1f78132924e6f83ba28f9913dd52fe,2019-10-14 01:38:40,Kevin Brown,Remove Travis CI (#5665),False
+7c67f3e9b66a9d58adf52fc3fec4836d7b768d73,2019-10-10 08:55:12,Kevin Brown,"Enable GPM (#5660)
+
+* Uncomment the deploy_github job for GPR
+
+* Automatically add private scope to package for GPM
+
+This is requires in order to deploy to GitHub package manager since
+all packages must be scoped to the organization that they are being
+deployed to. Because of how publishing scoped packages works with
+NPM, there is no easier way to rename a package that is being pushed
+to both a scoped and unscoped registry.
+
+* Don't run NPM deploy if it's not a release
+
+There was a change last week that now allows jobs to be filtered
+entirely, so this now works like we had originally hoped.
+
+* Tag branch pushes with commit
+
+This is needed because you cannot overwrite a version on NPM, so the
+previous plan of just using the prelease version would only work for
+a single commit.
+
+* Fixed invalid version identifier",False
+7c4131bc27009fbf8f8ad9406ff3de72e8a5c8d7,2019-09-19 07:26:57,Kevin Brown,"Merge pull request #5644 from select2/GH-5584
+
+Fixes jQuery migrate error when getting offset when dropdownParent not in document",True
+31931a4212226c350d9db0a5906886bbdd47b19c,2019-09-19 07:14:25,Kevin Brown,Add tests for when dropdownParent isn't in the document,False
+2c5467b38cfac17aa87ff4ac09370e61d8bf4053,2019-09-19 07:03:13,Kevin Brown,"Fixes error when getting offset of element not in document
+
+This fixes an error which is called out in jQuery Migrate but
+probably never happens in real life. This is because we call
+`jQuery.fn.offset` without checking if the element is in the
+document. Based on testing done here and within the MediaWiki
+team, I'm pretty sure jQuery never actually implemented explicit
+checks and this jQuery Migrate warning is just to cover the case
+where a browser might start returning inconsistnet results. And
+we could at least reproduce the inconsistency, so that's something.
+
+We now default the offset to 0/0 if the parent element happens to
+not be in the document. This appears to be what jQuery used to do
+in the past, and generally appears to be what people expect in
+these cases.
+
+This fixes #5584.",False
+233424da2b837e9c464df87bb33ffc5ce0b86779,2019-09-12 09:23:51,Kevin Brown,"Merge pull request #5639 from select2/github-actions-updates
+
+GitHub Actions updates",True
+2e4c11339c819154d9b7815637ca772aa55278f9,2019-09-12 09:19:02,Kevin Brown,"Disable deploying to GPM
+
+We have to wait to be cleared for the private beta access first before we can actually deploy to this.",False
+3bc5e4ee401ce4fecf9c9ed80540cb806462ce25,2019-09-12 09:18:01,Kevin Brown,Update README with new docs location,False
+5f78d824aca072d18e1e3271aac56d01ea8fb1e1,2019-09-12 09:14:21,Kevin Brown,"Swap Travis CI badge with GitHub Actions badge
+
+Since it's still in a private beta, we can't link to anything useful so the link has been dropped",False
+581308337ad6af6b88068b77573a62d8f896ee7d,2019-09-12 09:04:01,Kevin Brown,"Merge pull request #5638 from select2/github-actions
+
+Enable GitHub Actions to replace Travis CI",True
+7688be5db554d47337b45d5fa3ab67311f10b250,2019-09-12 08:57:04,Kevin Brown,Only deploy docs on releases,False
+e1d64e92c427839221b44d1582f84d26b1582524,2019-09-12 08:45:02,Kevin Brown,HOST_FINGERPRINT is also required but unused,False
+a31d56d47b4ffd21022562704ed23dcf76fbae12,2019-09-12 08:42:52,Kevin Brown,HOST_IP is also required but unused,False
+120065ed4682469f13497b1d090725dc5fe36f34,2019-09-12 08:40:22,Kevin Brown,SSH_PUBLIC_KEY is required but unused,False
+c95ed1796a07c1fac11e95d6212abcaea50836e3,2019-09-12 08:37:31,Kevin Brown,Switch to using rsync,False
+dea726d065e0b053521aea7a62ccc2b9db004dfc,2019-09-12 08:29:11,Kevin Brown,Use new syntax for args,False
+bff3a777ae76a3d10daf0a704301d1beec328547,2019-09-12 08:27:24,Kevin Brown,"Try using strip.components with drone-scp
+
+This should, in theory, strip out the leading docs directory when doing the copy.",False
+29d01a00c5d2c13d5bfde50c8afe76b909f1ebad,2019-09-12 08:21:44,Kevin Brown,"Move docs into root directory before copying
+
+Hopefully this fixes the issue where it was unpacking the enitre directory into the destination instead of the individually specified files.",False
+b3c6d3ebfe9e60dfa09583b092e26b2d00849f2f,2019-09-12 08:05:52,Kevin Brown,Remove trailing slash on destination directory,False
+5e32678e494356941196b641ac83992a4f5d8ea7,2019-09-12 07:59:43,Kevin Brown,Proper syntax for copying dir contents,False
+c891d2ec7218b40231bc7a62d46112b398aef7d1,2019-09-12 07:50:38,Kevin Brown,Deploy docs to the production location,False
+8cb7e33766f4b90bc7198171e70cf1834c8296ff,2019-09-12 07:44:18,Kevin Brown,Fix copying directory during deployment,False
+b4c3eccd7b0570bf4f33deaf78655d564742b492,2019-09-11 13:33:38,Kevin Brown,Merge branch 'docs-master' into merge-docs,True
+3606801728966fadbdd7e0a7232089da26b3ca0a,2019-09-12 07:26:24,Kevin Brown,"Remove old documentation
+
+This is no longer used for deploying the old GitHub pages doucmentation.",False
+fe208f1f86c5aa9788ceb6aeea585d51967cd3a8,2019-09-12 07:19:00,Kevin Brown,"Added workflow for deploying documentation
+
+This does not yet deploy the actual documentation, but it instead deploys the old docs (which are now redirects) to a temporary folder for testing.",False
+891993e39bfbe50e1550d59fcc6f5cae29b0648c,2019-09-12 06:52:02,Kevin Brown,"Renamed deploy.yml to package-deploy.yml
+
+Eventually we are going to want to do documentation deployments so it makes sense to split them up.",False
+dafddb73c8fae24dd3b551901d3ae72c560a10fe,2019-09-12 06:45:02,Kevin Brown,Made NPM deployment step consistent with GPM,False
+7b1367c6a0516a044f8c0cf19521d6c0f2b51feb,2019-09-12 06:43:28,Kevin Brown,"Switch to only deploying when pushing to develop/master
+
+Hopefully this still allows the release trigger to work, but this is relying on undocumented behaviour that nobody else appears to have tried.",False
+e0560c74f79b9d53391aa62ccea49a8f8c6903fe,2019-09-11 13:32:16,Kevin Brown,Move documentation to the docs folder,False
+748d279107173cb1e57541bff6de85c71a954f07,2019-09-11 12:38:03,Kevin Brown,"Extract NPM deployment out to different workflow
+
+This will allow us to limit what branches it runs on.",False
+82c51a319c3ca5ecd4ccb4256166627bf47c4e43,2019-09-12 06:27:40,Kevin Brown,Remove dry run from publish,False
+8b9a99d286eafda30c90130869542eee35cf503f,2019-09-11 06:26:45,Kevin Brown,Enable dry runs for publishing,False
+91838fe0a627ed4095782875c04ace46bd26abf1,2019-09-11 05:37:35,Kevin Brown,"Add deploying to GPM and NPM
+
+This also adds a handler for the release event, which is what we want to be using for pushing NPM builds out.",False
+ffd98a493bb7e3a8c5676cc7f371d3d206d69d09,2019-09-11 05:14:27,Kevin Brown,"Add steps for linting, minification, start deployments
+
+The deployment step is not yet finished and this required splitting linting from running tests.",False
+6758bb50b90d041af2717c86f72d20b1f853e621,2019-09-11 04:58:41,Kevin Brown,Fixed GitHub Actions syntax,False
+f025d675a9d511d3dbe2511fd50cbf2f3c47bdc5,2019-09-11 04:51:22,Kevin Brown,Added basic GitHub Actions workflow to build the project,False
+d6acc57a7c229ee91a76f5c4a5784447ed522e1e,2019-08-29 06:57:53,Kevin Brown,"Merge pull request #42 from select2/develop
+
+Release Select2 4.0.10",True
+7f0800cebad3dbeddb077b79902e1d4638656b36,2019-08-29 06:56:12,Kevin Brown,Bump versions for 4.0.10 release,False
+2a80567151453cc5866e6df9dc6991fafc20a7ca,2019-08-28 08:35:53,Kevin Brown,"Merge pull request #5623 from select2/release/4.0.10
+
+[Release] 4.0.10",True
+3d52d0806349880b8e7b4b37c4e1930946a5f794,2019-08-28 08:33:06,Kevin Brown,Updated changelog for 4.0.10,False
+5f1a91c4471c427e6cd9c6f461a2be30d5cb1ecb,2019-08-28 08:32:40,Kevin Brown,Recompiled dist for 4.0.10,False
+919373e481368887fa2a9014482ccd0a4ff288d4,2019-08-28 08:28:25,Kevin Brown,Bump versions for 4.0.10 release,False
+64e829e447b387dfb1af02cadab1ca380621a5cb,2019-08-28 08:26:27,Kevin Brown,Converting tests to unix newlines,False
+d0c5aca962f16b7a47f4865a194dc01f03cb9a33,2019-08-28 08:24:06,Kevin Brown,"Merge pull request #5622 from select2/GH-5373
+
+Support passing in a selector for `dropdownParent` option",True
+01e68f4dd76e52cae9a446ae0799100000c581b8,2019-08-28 08:18:18,Mikhail Titov,Test for dropdownParent option,False
+357c2a11c293c7d4f7a0b56bc7a99210db2bbb76,2019-08-28 08:01:24,Mikhail Titov,Allow passing non-jQuery objects as dropdownParent,False
+9e4f842fb1d064c99e1e677e058c1fc0f97cbece,2019-08-28 07:57:14,Kevin Brown,"Merge pull request #5621 from select2/GH-5619
+
+Fix bug where dropdowns pointing upwards were incorrectly positioned",True
+d8d2aa5b03d1e7e9bbea2062288d751101bd701a,2019-08-28 07:50:39,Kevin Brown,"Switch back to late binding the positioning handlers
+
+This is how it used to work pre-4.0.9, where the bound handlers for
+resizing and positioning the dropdown were bound at the first time
+that the dropdown was opened. This was changed for the 4.0.9 release
+as a part of 3f75227a693 where it was not clear why this late binding
+was happening, so it was removed to simplify the code.
+
+The late binding is necessary because the handlers within results for
+generating the results, and thus the content within the dropdown,
+are bound after the handlers for the dropdown are bound. This results
+in situations where the handlers for positioning the dropdown are
+bound before the dropdown is updated with content, resulting in the
+positioning being calculated for the old content and thus being
+incorrectly placed. By binding the positioning handlers after the
+dropdow is opened for the first time, we can ensure that the
+positioning handlers are bound after the result handlers, so we
+won't have to worry about this issue.
+
+The handlers are only bound once because they only need to perform
+all the calculations a single time. There is no need to keep checking
+all of the calculated styles more than we need to, so this is guarded
+by a flag which ensures it is only bound a single time per dropdown.
+
+Fixes #5619
+Fixes #5620",False
+bdeb9075f58692f8a5b88703a1f4f4b476c31415,2019-08-22 06:55:07,Kevin Brown,"Merge pull request #40 from select2/develop
+
+Release Select2 4.0.9",True
+3f8c3c54a3962894c8a395b105e75a156f9ad4e3,2019-08-22 06:52:19,Kevin Brown,Bump versions for Select2 4.0.9 release,False
+f8ded17ae743359bbad0c1148739dbde6d400a5d,2019-08-22 06:48:26,Kevin Brown,"Merge pull request #39 from MediaIQ/fix_data_properties_doc
+
+Fix the doc for data-disabled property as not available",True
+d54560f21ecb2e0a8b67fd34ece9625bb687e10d,2019-08-22 06:29:42,Kevin Brown,"Merge pull request #5613 from select2/release/4.0.9
+
+[Release] 4.0.9",True
+1a6d4a1ad8a2189fff61207904b9450be7f6ee1f,2019-08-22 05:56:55,diesl,"Update de.js (#5604)
+
+Improve German translation",False
+4afa7f88a47db77a0d92e68884d1ed37d4364ce9,2019-08-14 05:37:35,Kevin Brown,"The language option now has a clearly defined fallback chain (#5602)
+
+* Made the test suite for translations more complete
+
+There were previously tests for translations within the test suite,
+but they only covered a select few problem cases that had previously
+been fixed. They did not cover the majority of cases, which makes
+changes to how the translation mechanism for Select2 works a bit
+more challenging.
+
+So this adds tests for the majority of edge cases around translations,
+including how one would expect the fallback chains to work and also
+around how defaults interact with the language options. This should
+not be considered an exhaustive list of all of the edge cases, but
+it should be good enough to refactor the internals and not have to
+worry as much.
+
+The one change of note to this test file is that we are now properly
+resetting the defaults in between tests. This should fix any issues
+that we may have seen where the defaults were not being reset, and
+thus tests were not properly isolated and would start to interfere
+with each other. This required pulling the module definition down
+below the imports, since we need to reference the defaults within
+the module definition.
+
+Many of these tests will fail because the translation system is
+broken in many small, unrealized ways. The next few commits should
+make these pass and fix the issues that we are seeing.
+
+* Consistently resolve the language option
+
+This fixes an issue that we have had for a while where we did not
+have a way to consistently take the `language` option from a string,
+array, object, or whatever else is specified and resolve it into
+`Translation`-compatible objects or strings. Now there is a new
+internal `_resolveLanguage` function which is able to take any of
+the supported ways of specifying a language and resolve it down into
+the supported language chain.
+
+This now means that we can properly resolve the following cases,
+and we can do it in a consistent manner.
+
+* When the language is specified as just a string (for example: ""en"")
+* When the language is specified as a string containing a region
+  (for example: ""en-US"")
+* When the langugae chian is specified as a list of strings (for
+  example: [""es"", ""en""])
+* When the language is specifid as an object containing messages
+  (for example, when a user overrides only a subset of messages)
+* When the language is specified as a list of strings and objects
+  (for example, when a user wants to use a language other than
+  English and also wants to ovverride some default messages)
+* When the language is not specified at all (the most common case)
+* When the language is specified as an empty object (an edge case
+  that allows us to skip processing it)
+
+This allows us to consistently produce the language fallback chain
+based on the given `language` option, something which we could not
+actually do before because we didn't have a consistent chain. This also
+means that now the `language` option will consistently be an array
+after going through this process, instead of being any number of
+types before.
+
+The translation generation currently does not support having objects
+and strings mixed as a part of the fallback chain, despite that being
+how the default chain has always worked, and as such there are still
+failing tests around this.
+
+* Move English to always be at the end of the language chain
+
+This was technically true in most cases in the past, because if a
+language chain was manually specified then it would have English
+injected into the end of it anyway. This is needed because not all
+translations are complete, but we know the English one is, and
+Select2 relies on the translation that it uses being complete.
+
+This will result in cases where a user specifies a language but still
+receives English translation for some things, which is what users
+have historically seen when using partial translations anyway. This
+just ensures that there will always be a complete translation that
+is being used, so they won't get unexpected errors and will instead
+get unexpected English translations.
+
+* Filter out repeated languages in fallback chain
+
+This is mostly being done for performance reasons, since Select2
+will not behave any differently when there are duplicates, but it
+makes things cleaner when you ask for the fallback chain and it
+only contains unique values.
+
+This cannot distinguish between languages specified by name (string)
+and languages specified by the contents of their language file
+(such as the default, English), but this should generally not be
+an issue.
+
+* Convert the language chain into a finalized translation
+
+This extracts the logic for converting parts of the language chain
+into the finalized `Translation` objects out into its own method,
+with some small fixes for edge cases.
+
+This can now properly convert a language chain containing both
+strings and objects into a translation object that contains them
+both.
+
+We no longer need to special case the `language` option being an
+array since we know that it will be an array once the language
+resolution process is completed.
+
+* Switch default translation to be empty
+
+This should have no external effects, but it fixes an interesting
+bug where resetting the defaults would not always reset custom
+translations. This was because it was possible to modify the
+included English translation when you were setting a default for the
+language option.
+
+This should not cause any issues because the English translation is
+now appended to the end of the language chain when the defaults
+are applied, which means that English will continue to exist as the
+final fallback.
+
+* Inherited `lang` attribute should be below the default in the chain
+
+It was pointed out in #5468 that the `lang` attribute, when inherited
+from a parent element, was above the option set in the global default
+within the inheritance chain. While this makes sense because of how
+we inherit other properties, it does not make sense for the `lang`
+attribute.
+
+The inheritance chain for the `language` option has been adjusted
+to be the following:
+
+1. The `lang` attribute on the original `<select>` element
+2. The `data-language` attribute on the original `<select>` element
+   (because of how `data-*` attribute resolution affects options)
+3. The `language` option specified when initiailizing Select2
+4. The `language` Select2 default
+5. The `lang` attribute on a parent of the `<select>` element
+
+While this is a breaking change, we believe that this change will
+have minimal to no impact on real-world usage of Select2, because
+of how the `lang` attribute is generally used within documents.
+We believe this will now make setting the default language through
+JavaScript easier and more reliable, bringing it in line with how
+we recommend it is done within the documentation.
+
+This was implemented through a new method `Defaults.applyFromElement`
+instead of within the old `Options.fromElement` method because it
+relies on the global defaults object. While we could have reached
+in to the internals in order to apply it appropriately, it made
+more sense to handle the proper resolution through a single
+consistent place.
+
+This was not implemented in the `Defaults.apply` method because that
+method is not typically passed in a reference to the original
+`<select>` element that it is applying the options for.
+
+Closes #5468
+
+* Properly resolve language chains with dictionaries
+
+It is possible for a language chain to be specified that includes
+both a dictionary and the string translation as a part of the same
+chain, but we would previously throw an error because we assumed
+that the list could only contain strings and that dictionaries
+would never be included in lists.
+
+This fixes the issue so language region normalization only occurs
+when a string is specified in the language chain, which is what we
+were previously assuming was the case but was not actually.
+
+This also now resolves the entire language option during the
+`Defaults.apply` method. This should be a no-op except for internal
+tests, because the `Defaults.applyFromElement` method should almost
+always be called in real-world scenarios.",False
+ed4b780dbb856b8285ca00b20baa00e1c87153fb,2019-08-09 17:54:24,Nagaraj Tantri,"Merge pull request #1 from tan31989/fix_data_properties_doc
+
+Updated the docs to add data-disabled to be added as an info - not al…",True
+330ae4a165e9326b419f24f285cafa06aead91cc,2019-08-09 17:53:09,Nagaraj Tantri,Updated the docs to add data-disabled to be added as an info - not allowed,False
+4db849cd99d09fb7f5db82f7d8e277dce9325050,2019-08-08 07:10:36,Kevin Brown,Update changelog for 4.0.9,False
+dc4e83379cb6a3f4316bbac8e3215dd30ae04262,2019-08-08 07:00:49,Kevin Brown,Recompiled dist for 4.0.9,False
+7fab80268f48552fd636ea491b185704a1d67d02,2019-08-08 06:56:10,Kevin Brown,Bump versions for 4.0.9 release,False
+9ad1b9107b7a9d3d634f26d8018bc2048637383c,2019-08-08 06:55:01,Kevin Brown,Converting tests to unix newlines,False
+7b9cfcaaa061c9fc662e2be18c81f56697321e9f,2019-08-07 16:54:17,Luiz Américo,Remove unused variables (#5554),False
+f13ba12bea4a0781229e582f0b235add47551a8f,2019-08-05 07:33:52,Kevin Brown,"allowClear no longer shifts selections to a new line (#5603)
+
+* allowClear no longer shifts selections to a new line
+
+This fixes an issue that we have had with the ""x"" icon used by the
+`allowClear` option where selections that just barely interacted
+with the position of the ""x"" icon would be pushed to a new line
+that was separate from the normal second line of selections. This
+case was pretty rare, because you only had a ~9px area where the
+interaction could occur.
+
+The issue was cuased by the ""x"" icon being sized for the height of
+the text in the selection choices, which should be the same as how
+the selection choices themselves are sized. Unfortunately this did
+not take into account the fact that the selection choices are given
+a 1px border which increases their size by 2px, which is what lead
+to the odd behaviour. This behaviour could not be replicated without
+the 1px border because the height would then line up correctly.
+
+The issue can be fixed by adding a 2px margin to the bottom of the
+""x"" icon, which would force overlapping selections on to the correct
+second line of selections. This was the method that many users have
+been using to correct this issue, but was not the method we chose to
+use. A 1px padding has been added to the ""x"" icon instead, which
+should expand the touch area of the ""x"" by a little while also
+increasing the height of the ""x"" by enough to prevent the overlapping.
+
+Fixes #4470
+
+* Remove hard-coded height in tests
+
+Because tests are executed on different browsers, and because each
+browser sets their own line height, we cannot depend on the height
+of the default Select2 being consistent across browsers. As a result,
+we must write our tests to calcualte the expected height based on
+known data. In the case of this test, we can calculate ahead of time
+what two rows of selections is supposed to look like, instead of the
+edge case that we can otherwise encounter.",False
+2ccdcb57c60b2ccf844ca689686eee3392f9f767,2019-08-04 11:28:52,Nagaraj Tantri,Updated grunt version so it no longer shows as vulnerable (#5597),False
+e5131d0cc8dffd98ba36a68f3d027bf79e763cb4,2019-07-30 08:04:24,Kevin Brown,"Set the main ARIA 1.1 roles and properties for comboboxes (#5582)
+
+* Move search accessibility tests under selection tests
+
+* Set aria-activedescendent and aria-owns on selection search
+
+This is a reduced version of a5ab08b49cb which is split out to only
+set the `aria-activedescendent` and `aria-owns` attributes on the
+search box located within the selection container. This is the search
+box used within a multiple select, and previously it did not always
+set these two attributes correctly.
+
+One major change here is that we clear the `aria-activedescendent`
+attribute if the result that is selected does not have an ID. This
+was not being done previously, instead the attribute was still
+containing the old value, and it meant that sometimes the wrong
+result was being pointed to.
+
+The test coverage for this was also expanded to ensure that these
+attributes are properly being set.
+
+* Set aria-activedescendent and aria-owns on dropdown search
+
+This is a reduced version of a5ab08b49cb which is split out to only
+set the `aria-activedescendent` and `aria-owns` attributes on the
+search box located within the dropdown. This is the search box used
+within a single select, and previously it did not set these two
+attributes at all. Additionally, it did not set the `aria-autocomplete`
+attribute, which is also needed for screen readers to properly read
+through the list of results.
+
+There was previously no test coverage for this, so the tests were
+largely copied from the tests for selection search.
+
+* Set proper ARIA roles on result elements
+
+When Select2 4.0.0 was originally written, accessibility was tested
+using the Orca screen reader and Mozilla Firefox as the browser.
+Because a `<select>` box could contain `<optgroup>` elements, which
+can further contain additional `<option>` elements, Orca would read
+out a `<select>` box as a tree view. Apparently Orca was the only
+screen reader to do this, but Select2 maintained this behaviour
+because the ARIA spec did not allow grouping elements for the right
+roles.
+
+In the ARIA 1.2 spec, an element with the role of `listbox` (which
+is the proper one for representing a `<select>` element) can now
+contain elements with the role of `group` that can be used for
+grouping. This means that now Select2 can switch to use the proper
+ARIA roles to better match how most browsers represent the `<select>`
+element out of the box.
+
+As a result, instead of the Select2 results list being represented
+as a tree containing tree items, it is now represented as a listbox
+containing options and groups. Notices will be represented as an
+alert, which more closely represents what they were being used for.
+
+This is a reduced version of a5ab08b49cb which is split out to only
+fix the `role` attributes on elements within the results list.
+
+* Switch search boxes to have a role of searchbox
+
+I'm pretty sure this is implicit now, but since we used to specify
+that the search box had a role of `textbox`, we may as well migrate
+that over to specify the role of `searchbox`. This is different
+from the original pull request where this role was changes to
+`combobox`, but that is because we are working against the ARIA 1.2
+spec and the original pull request was working agianst the ARIA 1.0
+spec, which required the search box to have that role.
+
+* Set aria-controls instead of aria-owns on search boxes
+
+In ARIA 1.1, there was a switch to use `aria-controls` on the search
+box to point to the results list instead of using `aria-owns`. This
+is required because the `combobox`, in our case the selection
+container, should have the `aria-owns` attribute pointing to the
+results list. And because only one elment can own another element,
+we must fall back to `aria-controls` to represent that relationship.
+
+The tests have also been adjusted to reflect this new discovery.",False
+f14bdf6b7bdfe5116bc18500e17bdc4ca52090a5,2019-07-30 07:55:19,Kevin Brown,"Fix search box expanding width of container (#5595)
+
+This fixes a bug with the search box where, when it had a placeholder,
+it would expand the width of the selection container because it was
+too large. This bug was specifically caused by the search box not
+factoring in the padding surrounding it when caclualting the width
+it needed to be, which resulted in the search box extending
+outside of the selection container. This bug was easy to notice if
+your Select2 was set to have 100% width and if the container it was
+held within was not a block element.
+
+This fixes the bug by switching to using `width()` for calculating
+the search width instead of using `innerWidth()`, which ignored the
+surrounding padding.
+
+Fixes #5517
+Closes #5518",False
+472e5ad50fa536d0982c2c1a54040d02620e31ae,2019-07-29 00:46:30,Kevin Brown,"Fix dropdown positioning when displayed above with messages (#5592)
+
+This fixes an issue which was usually observed when working with
+AJAX results sets and having a message being displayed, usually the
+minimum characters message or an error. The dropdown would display
+up, like it was supposed to, but the message would appear to be
+floating above the container and detached.
+
+This was occuring because the dropdown position was not being
+calculated whenever a message was displayed in the results, only
+when the results were loaded or new results were appended to an existing
+results set. There are plenty of situations where this could have
+caused issues, but somehow most of the reports were around a very
+specific situation with AJAX which could be reproduced on the
+examples site.
+
+Fixes #4614
+Fixes #4616
+Fixes #5253
+Closes #5196",False
+525f6619159356712e8ed90c45ee4a7e3544411c,2019-07-29 00:19:25,Kevin Brown,"Reposition dropdown whenever items are selected (#5590)
+
+* Reposition dropdown whenever items are selected
+
+This fixes an old bug where if you had a multiple select with the
+`closeOnSelect` option set to `false` and many options being
+selected, the dropdown would not reposition itself if the selected
+options expanded the container down another line. This was because
+the dropdown was only being repositioned when it was opened, closed,
+or if something around it was scrolled or resized. Unfortunately,
+in most cases none of these happened and the dropdown would start
+covering the selections.
+
+This was fixed by telling Select2 to resize the dropdown when new
+options are selected or existing options are unselected.
+
+Fixes #4377
+
+* Attach positioning handlers at bind time
+
+The positioning handlers have been attached at the time that the
+dropdown is opened since when they were first committed many years
+ago. It's not actually clear why this was being done, since they
+don't rely on anything involving the dropdown being open. This
+removes the flag and process for setting these handlers only after
+the dropdown was opened for the first time, and moves these handlers
+to always be set at bind time.",False
+efbfd14414bd749143fbac386ff163cf5c5be8c8,2019-07-28 10:06:51,Kevin Brown,"Remove selection title attribute if text is empty (#5589)
+
+This fixes a bug that was introduced in Select2 4.0.0 and only
+partially fixed in Select2 4.0.6-rc.0 where the `title` attribute
+that is set on the selection container (or individual selections,
+for a multiple select) is not cleared when the text/title of the
+option is not set. In most cases, users no longer see this issue
+because the `text` property of most data objects is set, so the
+`title` attribute will always be cleared correctly. There was a bug
+for cases where the `text` property was not set, or where the `text`
+property was set to an empty string, that resulted in the `title`
+attribute persisting with the incorrect value.
+
+We have fixed this issue by always removing the `title` attribute
+from the selection (or not adding it in the first place, for a
+multiple select) when the `text` and `title` properties of the data
+object are empty or not present.
+
+This also adds in a series of tests to ensure the `title` attribute
+is set properly in a variety of cases, building upon the ones that
+already existed.
+
+Fixes #3895",False
+6645ffd4bddcc178c8c1c8588c6b2a93290a4cca,2019-07-28 07:07:43,Kevin Brown,"Select2 now clears the internal ID when it is destroyed (#5587)
+
+This fixes a bug where if you cloned a Select2, the internal ID used
+for mapping elements (specifically the `<select>`) to the in-memory
+data store would be cloned as well, causing issues when you tried to
+initialize Select2 on the cloned element. This was because we did not
+properly clear all of the internal data and all of the internal
+attributes that Select2 uses when we destroyed it. The internal
+`data-select2-id` attribute was not being cleared, and this was the
+attribute being used for the internal mapping.
+
+Now we properly clear the `data-select2-id` attribute from the element
+when we call `RemoveData` on the element. This aligns with what we
+were trying to do, since we previously cleared out the internal store
+for that ID, and fixes the issue we were seeing when cloning.
+
+Fixes #5247",False
+1f3eceba5a00f5cc71c831978f162a1d53c83906,2019-07-28 02:07:57,Kevin Brown,"Fix generated options not receiving result IDs (#5586)
+
+In order to enable the ability to uniquely identify a result by an ID
+in the DOM, we generate a new ID for the result based on a combination
+of things, including the container ID prefix that is generated and
+used elsewhere in Select2. This has worked fairly well for use cases
+including attaching Select2 to an existing `<select>` and loading in
+options from a remote data set.
+
+Unfortunately, because this process relied on the container ID being
+used as a prefix, this failed for options which were automatically
+generated on initialization using the `data:` option to Select2.
+These were not being generated with an ID because at the time that
+they were being generated, the data adapter was not aware of the
+container it was being used in. This broke some accessibility features
+because we had a mix of options in the results list with IDs, and
+some without, so we fixed the ordering to make this work.
+
+Option generation no longer happens when the data adapter is first
+initialized, which is where it was previously happening, and instead
+it now occurs when the data adapter is bound to the container. This
+allows us to ensure that the data adapter is always aware of the
+container it is being associated with, so now it will be able to
+generate the result IDs.
+
+This also fixes the tests for the array adapter as well as the
+legacy `<input />` adapter so they properly bind to a container
+during the test. This was causing test failures becuase the options
+which would previously be generated during initialization were no
+longer appearing.
+
+Fixes #4350",False
+2fce8ae6c4937b88c332ad3e30e135cf24504cf1,2019-07-22 01:14:37,Kevin Brown,"Fix `maximumSelectionLength` being ignored by `closeOnSelect` (#5581)
+
+* Rewrote maximumSelectionLength tests to use container
+
+These brings the tests in line with other tests which we have, and
+makes it easier to understand what is actually going on in the tests.
+
+This also removes a redundant set of tests where we were testing with
+=> 2 options being allowed. There are no current edge cases that would
+have required this.
+
+* Fix maximumSelectionLength being ignored by closeOnSelect
+
+There was a bug where the `maximumSelectionLength` option would not
+kick in if the `closeOnSelect` option was enabled. Normally, this
+was enabled by someone in their global configuration, but it could
+also be seen when somoene selected an option while holding the
+meta/ctrl/alt keys. This would implicitly enable the `closeOnSelect`
+behaviour, even when it was not globally enabled, and cause the bug.
+
+This fixes that issue by listening to the `select` event which is
+triggered whenever an option is selected, and triggers the ""maximum
+selected"" message based on that event. This should now force the
+message to be displayed, even when the results did not have to be
+queried another time.
+
+Fixes #3514
+Fixes #3860
+Closes #5333",False
+f2d527ea97fdfc05934792ac3906bb1a45e51e6f,2019-07-21 22:34:51,Kevin Brown,"Do not propagate click when search box is not empty (#5580)
+
+This fixes a long-standing bug where if you tried to click in the
+search box for a multiple select while there was text in it, the
+dropdown would close and the text would be cleared. This caused
+many unexpected issues, because it meant that you could only use
+your keyboard to edit text within the search box.
+
+This will still clear out the search field if you click within the
+area of the selection which is not the search field. I'm not sure
+if that is also unexpected behaviour, so for now I am going to
+maintain it.
+
+Fixes #3517
+Fixes #3808
+Fixes #5491
+Closes #5551",False
+89576153a026e5bdf254bf63f7ef2541e8d03928,2019-07-21 21:14:09,Kevin Brown,"Mirror disabled state through aria-disabled on selection (#5579)
+
+This is needed to screen readers know that the Select2 is disabled
+when focus is put on the selection container. Because we were
+mirroring the disabled state to the search input on a multiple
+select in the past, this is really only needed for single select
+elements which would not otherwise has the disabled property.
+
+This was identified in a previous accessibility audit as being
+something which Select2 did not properly report because we were
+not setting the attributes properly.
+
+Fixes #4575",False
+6f88568c99515a3e7aafb4549b5f4701f14c56ec,2019-07-21 08:54:25,Kevin Brown,"Merge pull request #37 from select2/develop
+
+Release Select2 4.0.8",True
+dd90704377478a7f65efa8f933238af2747ceb68,2019-07-21 08:52:02,Kevin Brown,Bump versions for Select2 4.0.8 release,False
+eeefa1e44995732ce6708f5f8f2c71301657aa7f,2019-07-21 08:42:39,Kevin Brown,"Merge pull request #5577 from select2/release/4.0.8
+
+[Release] 4.0.8",True
+5005c564c2a7e63b3b617b0111ae5c7b3cef4602,2019-07-21 08:39:14,Kevin Brown,Update changelog for 4.0.8,False
+8b55e47604c3621bfe5b4429c8fc24eae68e7f26,2019-07-21 08:35:45,Kevin Brown,Recompile dist for 4.0.8,False
+6fbe132e50adc11db2500077a096afd06503b91e,2019-07-21 08:32:46,Kevin Brown,Bump versions for 4.0.8 release,False
+bbd320d75e27d798ca1441097aa24f973c1ce271,2019-07-21 08:31:38,Kevin Brown,Convert source and tests to unix newlines,False
+1b5a9628190d5d2fb3f91c153aeb8d5bfc765fb6,2019-07-21 08:14:28,Kevin Brown,"Revert change to focusing behaviour in 4.0.6 (#5576)
+
+This behaviour, where the focus was happening on a small asynchronous
+delay, was added in commit 933189b92 late last year in a commit with
+no supporting tickets or commit message explaining what the change
+was trying to accomplish. This commit has effectly been reverted within
+this commit, since it caused a regression in how focus was being
+assigned that made it inconsistent with a standard `<select>`.
+
+A test was added for this which ensures that we won't see that
+regression again.
+
+Fixes #5532
+Fixes #5185
+Closes #5552",False
+d9260254c161e81cf09943dbb04114a7e5be1133,2019-07-21 03:39:17,Kevin Brown,"Fix infinite scroll when the scrollbar is not visible (#5575)
+
+Ever since the 4.0.0 release of Select2, there has been a bug where
+if you enabled infinite scrolling but did not return enough results
+on the first load of AJAX to show a scrollbar, then infinite
+scrolling would not be enabled and you could not view anything other
+than the first page of results. The solution for this was first
+proposed in #3888 but it was closed off because of inactivity and
+missing tests.
+
+This fixes the issue by performing the check to see if more results
+should be loaded both on scroll and also when the results are first
+loaded. This solves the issue that we were seeing before, because
+the plugin knows it needs to load in more results, just it did not
+receive the scroll event before and thus was not able to actually
+load in the new results.
+
+This has the potential to trigger multiple AJAX requests to load in
+multiple pages of results if the user has the ability to see many
+options, but only a few are being loaded at a time.
+
+This also adds tests for infinite scrolling, both to ensure that
+it will attempt to load additional pages, even without the scrollbar,
+and to ensure that the regular behaviour of not loading additional
+pages when the scrollbar is visible is preserved.
+
+Fixes #3088",False
+8a5aeabcceccfeb703b4ac58c313de8225a400db,2019-07-21 01:35:48,kevin-j-morse,Remove deprecated jQuery shorthand (#5564),False
+9c4f0c86a159c5facd8ce6f3969963123b158ec5,2019-07-20 22:12:18,Min ho Kim,Fix typos (#5574),False
+1f79acbe5ffa651dfdbed70d6c955c2ee4447cfa,2019-07-10 09:55:40,Kevin Brown,Fix XSS issue in AJAX example,False
+1c394a421b76f26b8923a9634437b99fb6bffec3,2019-07-10 09:30:02,Kevin Brown,Fix XSS issue in templating example,False
+03e1b697511941d5ba36fa852f29393c97085b4e,2019-07-10 08:54:30,Kevin Brown,Merge branch 'master' into develop,True
+bd7ac9df03b008f03bb15c66fcab4682589bfc2a,2019-07-10 06:28:13,Kevin Brown,"Results respect disabled state of `<option>` (#5560)
+
+This check is in place in most other places, mostly because we have
+run into widespread issues under similar circumstances and we like to
+avoid those, but it was forgotten here. There also were no tests
+covering this, so it was never caught.
+
+This adds tests that ensure that the option in the results list will
+be generated with the correct ""disabled"" state based on whether or
+not it, or a parent element, is marked as disabled.
+
+This should have been easy: just check `element.disabled`
+
+Unfortunately the `disabled` property is not inherited within the
+option chain, so if an `<optgroup>` is disabled, the `<option>`
+elements or other `<optgroup>` elements held within it do not have
+their `disabled` property set to `true`. As a result, we needed to
+use the `matches` method to check if the `:disabled` state is
+present for the element. The `matches` method is part of the official
+standard, but it was not implemented under that name for a while and
+as a result Internet Explorer only supports it under the prefixed
+`msMatchesSelector` method and older versions of Webkit have it
+implemented as `webkitMatchesSelector`. But once we use this method,
+it appears to consistently return the expected results.
+
+This `matches` method and prefixed predecessors are not supported in
+IE 8, but they are supported in IE 9 and any browsers newer than
+that. Instead of buulding a very hacky solution using
+`querySelectorAll` that was brittle, I have chosen to act like
+everyone else and pretend IE 8 no longer exists.
+
+Fixes #3347
+Closes #4818",False
+b5f136ff72b61e2f32b7e2e384e237281d74895f,2019-07-10 05:14:33,Kevin Brown,"Add `computedstyle` option for calculating the width (#5559)
+
+This allows for more accurate resolution of the width when compared
+to the `resolve` method. This is more relevant for jQuery 1.x, where
+the `resolve` method cannot find the width of a hidden select box,
+but it also applies to newer versions of jQuery where the `width()`
+method provided by jQuery doesn't fully match `getComputedStyle()`.
+
+Fixes #3278
+Fixes #5502
+Closes #5259",False
+f9decd60943f5b9d8d607a1f5351ba8caea97ccf,2019-07-10 04:43:03,Kevin Brown,"Fix tag creation being broken in 4.0.7 (#5558)
+
+* Add test for losing focus when searching tag entries
+
+* Revert unknown unit test fix
+
+Removing this no longer breaks a unit test, and having it in here
+results in the select box receiving focus unexpectedly. It's not
+clear what problem this was solving, since it was manually applied
+from a series of pull requests.
+
+It claims to be fixing an issue that was specific to IE11, and I'm
+willing to re-introduce that bug because there doesn't appear to be
+a regression test for it, and it's breaking some critical use cases.
+
+The goal should be to focus the search box if it would have normally
+lost focus when the selection was updated.
+
+Fixes #5485
+Fixes #5516
+Closes #5550",False
+9491e1aae246e9c43f868805cc3573b2cc8dd853,2019-06-26 07:35:15,Kevin Brown,"Test against jQuery 3.4.1 (#5531)
+
+* Update tests to be compatible with jQuery 3.0.0
+
+There was a change in jQuery 3 that ensures that the return value of `.val()` on a multiple select is always an array. This is a breaking change from previous versions, where `null` or `undefined` were returned in these scenarios. Because we cannot `assert.equal` on a list of possible values, these assertions were switched to `assert.ok` which should be good enough.
+
+* Properly strip out units in positioning tests
+
+Before we were assuming that there were no units, and only were we stripping them out if we were expecting 3 digits. Now we just strip out all non-digit characters, so that should do the job and get us what we want.
+
+There was a change in jQuery 3.2.0 that caused the units to be returned in these specific calls. They were not previously being returned, so this was not actually an issue.
+
+* Add automated testing against jQuery 3.4.1
+
+No tests appear to be currently failing.",False
+d66e55dd9e6d89b9e0c92cf2e671e8aff7bdb09d,2019-06-26 07:29:56,Waseem Ahmad,removed select2-selection__placeholder from _multiple.scss (#5508),False
+5d2fdd75b51d5810e5c4c00c783bd6e8e03b9d0f,2019-06-05 08:13:52,Kevin Brown,"Update grunt-contrib-qunit to latest version (#5530)
+
+We needed to define the `qunit` module in the unit tests because there was a change in grunt-contrib-qunit 0.6.0 that breaks when you define an AMD loader. It expects that the AMD loader is also used to load QUnit, instead of just being used to support the tests, so if you don't define the qunit module it will just hang and do nothing. Luckily we have the helpers file to help us out here, since it allows us to globally define this module.",False
+70ca392a43de36fcd86e04b7c48f4f955ce1c2a5,2019-06-05 06:48:37,Kevin Brown,"Update dev dependencies (#5529)
+
+* Update dev dependencies
+
+* Adjust dependencies versions to avoid unmet peer dependency error
+
+* Update Travis CI node version to 8
+
+* Recompile dist
+
+This updates all of the minified files to use the latest uglifyjs version, which results in better compression (by a small margin).",False
+36b226d509be4ae303bf565aca0cb628f217b7bb,2019-06-05 06:17:35,bufferUnderrun,"Improve French Translation (#5521)
+
+better translation of the english word ""items"" to ""éléments""",False
+d53958ad2b797bd07d5fcfebae9bac289926a102,2019-06-05 06:16:45,Kevin Brown,"Clean up docs (#5528)
+
+* Remove SauceLabs credentials
+
+SauceLabs is no longer used during builds, so we no longer need to include these encrypted credentials.
+
+* Clean up badges
+
+* Remove SauceLabs from the README
+
+* Misc README fixes
+
+* Disable Travis email notifications
+
+Looks like we accidentally re-enabled these when removing IRC.",False
+0a612f92e1631d3e73eac08e46166c7bd149fb29,2019-06-05 05:56:11,Kevin Brown,"Automatically deploy to NPM (#5527)
+
+* Added deployments to NPM on tagged releases
+
+Previously this was being done manually after each release, which resulted in a few releases not showing up on NPM for  a significant amount of time. Now the builds should be automatically pushed, which should hopefully improve a lot of the issues we were seeing.
+
+* Drop IRC notifications
+
+We no longer use this IRC channel.
+
+* Clean up .travis.yml
+
+* Remove grunt ci
+
+This is no longer needed now that we don't do anything special for CI builds. This also allows us to minify during CI builds, which will be useful for the tagged builds which depend on these minified files being up to date (so they can get released as well).",False
+ad0451d2fd7f7bed70ece586bac71186f19167f4,2019-06-05 05:24:11,Patrizio Bekerle,Fix a typo (#34),False
+8020724bd2685aee75cdc0f67c7580d7fcd118ca,2019-05-08 01:52:31,Kevin Brown,Bump versions for Select2 4.0.7 release,False
+04fce559673684af8ec2912457a9d6380ea90314,2019-05-08 01:44:21,Kevin Brown,"Merge pull request #5507 from select2/develop
+
+Release Select2 4.0.7",True
+f8193c6c82dc0670c97b65d96d506876a603bd4a,2019-05-08 01:38:47,Kevin Brown,"Merge pull request #5506 from select2/release/4.0.7
+
+[Release] 4.0.7",True
+5285eef7b5000323be01adc0ae80910e1bc90c6e,2019-05-08 01:35:00,Kevin Brown,Recompile dist for 4.0.7,False
+20ffd1296ad2bc99127cac5b578e452ddef2c373,2019-05-08 01:32:59,Kevin Brown,Bump versions for 4.0.7 release,False
+d0ddab6cebc69e37fe51dfc287c3e3aa37b5cd1d,2019-05-01 09:14:31,Kevin Brown,"Merge pull request #5494 from select2/develop
+
+Release Select2 4.0.7-rc.0",True
+df3c343490cac72758f12e43391cfed43eb1084e,2019-05-01 09:11:42,Kevin Brown,"Merge pull request #5493 from select2/release/4.0.7-rc.0
+
+[Release] 4.0.7-rc.0",True
+2596f2ab9c479f1def3d6789b5540d73c72150fc,2019-05-01 09:07:24,Kevin Brown,Update changelog for 4.0.7-rc.0 release,False
+647533e98142ce848cdb21098f6b437fe474548c,2019-05-01 09:07:08,Kevin Brown,Recompile dist for 4.0.7-rc.0 release,False
+48e2f56fea7b2a219497b8088e35c66b3a1bf8df,2019-05-01 09:03:21,Kevin Brown,Bump versions for 4.0.7-rc.0 release,False
+f6c455cea90dad43e597cff44f915423e3c746b0,2019-05-01 08:59:11,Carlos Abalde,"Do not close on select if Ctrl or Meta (Cmd) keys are being held as described in #3400 (#5222)
+
+Fixes #3400",False
+2a5f46bcc4691d406e1af1f87cc73b2773afcaff,2019-05-01 08:45:22,Kevin Brown,"Move almost and jquery-mousewheel to devDependencies (#5489)
+
+These two are required at build time to generate the full builds
+of Select2 (for jQuery Mousewheel) and to inject the AMD loader
+(for Almond.js). They are not required for anyone who depends on
+Select2, since jQuery Mousewheel is an optional dependency.
+
+This may result in some people needing to add jQuery Mousewheel to
+their projects as a required dependency, if they were expecting
+it to be added by Select2 before.",False
+39bfabd94bb273d4fb444d5138ccb30d337567f8,2019-05-01 08:43:50,Austin S. Hemmelgarn,"Revert PR #5356. (#5492)
+
+It doesn't really do what it says it does, and it introduces other
+issues (single select elements re-open after selection).
+
+Fixes #5490",False
+a1bd03c4081e127577b61744c1e4a972e441003f,2019-04-28 13:36:35,Kevin Brown,Bump versions for Select2 4.0.6 release,False
+3c26bd0ebdf031d6040958102ec930074c6ae643,2019-04-29 00:09:26,Geoffroy ARNOUD,"Update docs.md (#29)
+
+Fixed ""paginate"" into ""pagination"" in optgroups formmat",False
+6009970b105647fba8448324579944aa4e132b75,2019-04-28 09:36:02,Takashi Kanemoto,docs: add link to @ttskch/select2-bootstrap4-theme to README.md (#5487),False
+5dcc1022bffbccbf6894a26572f34627adaf7599,2019-04-28 08:44:15,Kevin Brown,"Merge pull request #5488 from select2/develop
+
+Release Select2 4.0.6",True
+3e9809d715ef90816be7f43420fba9c6cb010b6c,2019-04-28 08:32:30,Kevin Brown,Update changelog for 4.0.6 release,False
+a2bfa6c867be634d5f852e1f5ae35e35018ed636,2019-04-28 08:13:33,Kevin Brown,Recompile dist for 4.0.6 release,False
+a8ea4cc3e3bcdee5eeb65695885708375da5b219,2019-04-28 08:12:34,Kevin Brown,Bump versions for 4.0.6 release,False
+b4aa3529f39367758a8df2964bebf1a05be45d43,2019-04-25 02:55:35,Kevin Brown,"Removed unused files
+
+* select2.jquery.json - This was previously used by the jQuery Plugin
+  Registry which was shut down and put into read-only mode a few
+  years ago. Since nobody else appears to use this file, it doesn't
+  make sense for us to keep bumping the version in it and keeping it
+  up to date.
+* vendor/ - This was needed back when the full version of Select2
+  actually bundled its own version of jQuery. Since we never actually
+  did this, we no longer need to keep the copy of jQuery around.",False
+650035cf3855b7265ccbd2ba82fe6f153751fb6e,2019-04-28 07:50:56,Kevin Brown,"Restore compatibility with data-* attributes in jQuery 2.x (#5486)
+
+* Start running tests against jQuery 2.x
+
+We were only running tests against jQuery 1.x before and they were
+all passing. This was a problem because apparently all of the data-*
+attribute tests fail in jQuery 2.x.  We are now running both the
+integration and unit tests against both jQuery 1.x and jQuery 2.x.
+
+Right now this resulted in a complete duplication of the test files
+because there wasn't an obvious way to run the tests against both
+versions. We're going to look into removing this duplication in the
+future once the current issues are fixed.
+
+We are also going to look into testing against jQuery 3.x in the
+future, since that is also a supported line of jQuery.
+
+* Force the data-* attributes to be parsed
+
+There was a change made that switched us from using `$.data` and
+`$.fn.data` internally to using an internal data store (managed
+through internal utilities). This had the unfortunate side effect
+of breaking the automatic loading of data-* options in versions of
+jQuery other than 1.x, which included anything that would be
+considered modern jQuery. While the change was made and approved
+in good faith, all of the tests passed and the docs pages appeared
+to be working, the tests really failed when running on newer versions
+of jQuery. This was confirmed when we started running automated tests
+against both versions, which confirmed the bug that others have been
+seeing for a while.
+
+The change was made becuase calling `$.fn.data` on an element which
+contains a reference to itself in the internal jQuery data cache
+would cause a stack overflow. This bug was well documented at the
+following GitHub ticket and was resolved by no longer using
+`$.fn.data`: https://github.com/select2/select2/issues/4014
+
+Unfortunately because `$.fn.data` was no longer being called in a
+way such that all of the data attributes would be dumped out, we
+needed to find a replacement. The substitute that was given in the
+original bug fix worked when the data cache was fully primed, but
+we never primed it anywhere so it actually failed in the general
+case. That meant we needed to find a way to manually prime it,
+which is exactly what this change does.
+
+* Clean up select2/utils",False
+9f8b6fff405924246f512dd4f39091d5a89f931a,2019-03-20 08:46:01,Kevin Brown,"[WIP] Get Grunt consistently working again (#5466)
+
+Get Grunt consistently working again",False
+5977856d81f8cd41d5c0826562f8ee206d6c0de7,2019-03-19 08:49:52,Anastasios Gogos,"minor fix (greek omega used has no diacritic) (#5464)
+
+replaced \u03C9 (GREEK SMALL LETTER OMEGA: ω)
+with \u03CE (GREEK SMALL LETTER OMEGA WITH TONOS: ώ)",False
+a9c1b617facc1007d66c330d59f782b798361530,2019-03-19 08:06:26,Rodrigo,Update composer to remove deprecated dependency (#5165),False
+9032705e2a43cdd4d4a6b87e07644ef2e9ee941e,2019-03-13 07:43:49,MaximAL,More suitable spelling `ещё` instead of `еще` (#5401),False
+97c53045189d5c58cae0f4feb583d9e3658dc30a,2019-03-13 07:40:00,Thanh Phan,Update Vietnamese (vi) translation (#5387),False
+b3705b13be6ee82519acf9f1e54ce461eafcd848,2019-03-13 07:37:42,Kevin Brown,"Enable the Stale integration
+
+Right now we have a ton of old, stale tickets and this should allow us to get a hold of the problem and try to get ahead of it.",False
+d86894d8907c1a1c2caf5d7684679ad0b8f6ea5b,2018-09-17 22:21:04,niftylettuce,"Added documentation example for BS3 modal shown event binding (#12)
+
+* Added documentation example for https://github.com/select2/select2/issues/5189
+
+* Update docs.md",False
+14a059d7eedfd97fc530ac63852c0ee22324df48,2018-09-16 00:52:54,Nisha Kaushik,"#4530 Add tooltip (title) to the 'remove all' 'X' icon. (#5291)
+
+* #4530 Add tooltip (title) to the 'remove all' 'X' icon.
+
+* #4530 Add tooltip (title) to the 'remove all' 'X' icon.
+
+* #4530 Add tooltip (title) to the 'remove all'
+
+* Revert dist folder.
+
+* add tk.js from pull request.",False
+933189b92e352d62373b7739a28c266a129f97c9,2018-09-15 09:44:25,Pedro Felipe de Azevedo Furtado,Update base.js,False
+db30f66afcaeb912fb762f4bb5d22c501ac05742,2018-09-15 08:47:56,Pedro Felipe de Azevedo Furtado,Update focusing-tests.js,False
+f546886b92eddb65910213ec2a9900a90a7d5485,2018-09-15 08:43:08,Pedro Felipe de Azevedo Furtado,Update docs.md,False
+aac99168941d0f09a09946b4be120c9052b02e24,2018-09-15 08:36:14,Stephen,add cdn badges (#5167),False
+c2acb18509095226ff053c06fa3720c812e87786,2018-09-15 08:24:19,Pedro Felipe de Azevedo Furtado,Update focusing-tests.js,False
+1062187958014401695204ebb574e65434fae41f,2018-09-15 08:10:28,Pedro Felipe de Azevedo Furtado,Update defaults.js,False
+1764b8420fab863a29db3ea6b33319dd34392da2,2018-09-12 01:13:45,Simon Charette,"Added the right single quotation mark to diactritics. (#4337)
+
+It should be simplified to a typewriter apostrophe.",False
+9ffcc260a0729712c06378021c86ed895cf5a61b,2018-09-12 00:17:12,ellenhutchings,"Add migration rename information (#22)
+
+Include information on the createSearchChoice -> createTag, selectOnBlur -> selectOnClose changes within migration page",False
+8bc269d63eff2f412ec058febe11cb03e87ea893,2018-09-12 00:02:24,Pedro Felipe de Azevedo Furtado,Update base.js (#5357),False
+2ea17181e3e1ee3b1bea490f405c044385a11ae2,2018-09-11 23:58:59,Pedro Felipe de Azevedo Furtado,"PR for -> autofocus isn't supported #3696 (#5356)
+
+* Update core.js
+
+* Update core.js
+
+* Update core.js",False
+e15046e959f07feeb1f26c650102d9c880e99e10,2018-09-07 19:18:32,Eliyas Hossain,Add Bangla (bn) localization (#5248),False
+2b049c08abf07dafbdc81547055572af4d31a17c,2018-09-06 02:06:20,Bowei Han,"Add scrollAfterSelect as a configurable option for multiselect dropdowns to allow toggling of highlightFirstItem() behaviour (#5150)
+
+* Add scrollOnSelect as a configurable option
+
+* default scrollOnSelect to true to avoid modifying existing behaviour
+
+* added tests and default option for scrollAfterSelect",False
+165f9459378c0c5699fdc79e391129fd754000cc,2018-09-06 02:05:04,Pedro Felipe de Azevedo Furtado,Update docs.md,False
+3b44ae29973d77455b354692b207e20f1116b75e,2018-09-06 01:57:59,Krzysztof Śmiałek,"Add info about the new `clear` event (#3)
+
+Related to pull request #5058 in `select2/select2`.",False
+8fc2e93fd9edfe17e541065c76c446b78c29e6e5,2018-09-06 01:55:21,Jonathan Berger,"Improve language for required properties (#13)
+
+The existing language is a bit awkward. This change reads more cleanly, naturally, and accurately.",False
+e67c9aa34d4af5f06b993046baf6577ac24800ba,2018-09-05 23:01:46,mlpo,Add missing diacritics to diacritics.js (#4118),False
+2c613555ecdfcf6aab065741fdac30a2aea79cac,2018-09-05 22:59:52,Alfredo Barron,Add integration in Angularjs (#4331),False
+7c50570624273a6681d3cfb9928b1e2123f851dd,2018-09-05 22:57:11,Michael J Erwin,fix typo in comment in attachBody.js (#5182),False
+60ee4a1179a09b43d9139fb9556521abe3fd879e,2018-09-05 06:44:22,Pedro Felipe de Azevedo Furtado,"Revert ""Fix pluralization (#5307)"" (#5354)
+
+This reverts commit 5968dccc4c3da027c806b394181222f551ea3bc3.",False
+5968dccc4c3da027c806b394181222f551ea3bc3,2018-09-05 06:43:50,Albin,"Fix pluralization (#5307)
+
+The test return always 's' in translations : inputTooLong, inputTooShort, maximumSelected",False
+ec7c57c288fe6ea26d0af6bb79537fd066c125da,2018-09-05 06:41:36,Tim Graham,Fix typos in comments (#5336),False
+9e613ff22ee09390b010078983589bb42978707f,2018-09-05 06:39:39,Christian Fritsch,Add drupal plugin (#5349),False
+663a7d193da97abe49df33c7591cb8fff7a34011,2018-09-05 06:23:19,hartator,"Make it clearer that ""minimumInputLength"" should be set as a Select2 option and not inside the AJAX hash. select2/select2#38 (#15)",False
+591e6a4855d7d5374172401bb2cd0dc25118a12e,2018-06-02 09:57:17,Tom McLean,"Document dropdownCss and containerCss (#20)
+
+It is not clear that these options expect objects. I tried a string for the entire style-attribute before searching through the sourcecode.",False
+ce57141fe341e543f79f219e0f70ecf33cf599f0,2018-06-02 09:54:36,Emmanuel BALLERY,"Fixed typo (#21)
+
+The example data response for AJAX included the wrong key for pagination.",False
+d1a57156f79ae7e614c0b2fa6158aad84f0d6955,2018-05-25 08:31:22,Samundra Shrestha,"Add Nepali (ne) localization (#5295)
+
+* Add Nepali (np) localization
+
+* rename np.js to ne.js
+
+Closes #5294",False
+69098b179de42c136b2e2e20ef4e7ea078a68106,2018-03-25 06:39:39,Kevin Brown,"Merge pull request #14 from jonathanberger/patch-2
+
+Better title and description",True
+3fb9e4fceb43d4520f7a6fc7d842abeceb8ddf50,2018-02-12 03:06:11,Avtandil Kikabidze,"Add georgian (ka) localization (#5179)
+
+* Add georgian (ka) localization
+
+* Fix jshint warning
+
+* Minor fix",False
+43462737210ae33061826b77fbe144e38da29ff8,2018-02-12 03:01:24,ebejko,"Add Albanian localization (#5199)
+
+* Add Albanian localization
+
+* Fix travis error
+
+* Rename al.js to sq.js",False
+83631cd87ba191d1c913833b0c63dc88186c733b,2018-01-22 10:39:07,Jonathan Berger,"Better title and description
+
+This isn't really an ""API"". Rather it's a list of options. I've changed the title and description to match this.",False
+26c8b9fa0793bde6cb5631e392af22dc03850eda,2017-12-14 16:09:54,Jimmie Lin,Fix minor spelling error in events page,False
+61ba192a3a70c615b04956b6a7667c7cf197a095,2017-12-08 07:45:57,alexweissman,update Select2 version,False
+c90adc102b5e9b2faea2b871b1c764416584ee07,2017-11-22 09:46:57,alexweissman,update changelog and compile+minify for 4.0.6-rc.1,False
+34e8b695f0afd7f581cdf3034269653da6743902,2017-11-22 07:08:03,rodrigo.perez,Fix up arrow error when there is no options,False
+008711447427bcb21a0899683caf46850208895a,2017-11-22 07:06:26,N'Bayramberdiyev,Create tk.js,False
+eeba16b9c4663e29a2dc12e043a0fc55311cc16e,2017-11-22 07:03:18,razh,"Remove duplicate CSS selector in classic theme
+
+Closes #5100",False
+0ad18a00b8ccba255141d68957c1c14268cb5e0e,2017-11-22 06:21:39,tchiotludo,Fix french locale,False
+6d0ecbc912049896af0eab2433a2e361322e1aae,2017-11-21 21:04:09,Nadeem Afana,Exposes select2 instance via .data('select2'),False
+944dfd87d3f8cecd2a84d3d7786aa4475ea6991a,2017-11-19 05:35:25,alexweissman,Merge branch 'patch-1' of https://github.com/zomberg/docs into develop,True
+33f5500adf023754aa123c046073194e30ef41ed,2017-11-19 05:25:21,alexweissman,update CDN version in installation instructions,False
+ee6bb70131cf2b14d546bb4891001c5d63db1d32,2017-11-11 16:40:01,Slava Pavlov,Added missed commas,False
+5424333425ac987ecba31573a8cc507d9321d05d,2017-11-05 06:19:12,alexweissman,Merge branch 'hotfix' into develop,True
+e02b34ba0f883e81c93b1b1a7caf849b464fdd30,2017-11-05 06:18:55,alexweissman,update jsbin links,False
+71b74d9d38c5077656011cee48e943bf38a1037e,2017-11-05 06:12:39,alexweissman,update jsbin template,False
+14f53e7e41ebdb14c840d908c832710af402cddc,2017-10-27 22:11:34,alexweissman,Fix IE11 issue with select losing focus after selecting an item (#4860),False
+bca6a503310a5e0c8b8030c63ff66ab52cd7885c,2017-10-27 22:09:31,Tore Olav Kristiansen,Fixed unit test issue and typo in Norwegian translation,False
+45ee7340e54259156b3b0ed38786f6a730810587,2017-10-27 22:09:22,ToreOlavKristiansen,Fixed Chrome issue: lost focus after selecting a value,False
+6eee443d67b587dc073d50fb4ba4d65e179e94c1,2017-10-27 22:09:10,ToreOlavKristiansen,Fixes IE11 issue with select loosing focus having selected an item.,False
+d9b862468231f38f3b28775a9bc523e2dcec66a1,2017-10-27 03:52:26,alexweissman,bump for 4.0.6-rc.1,False
+a48382e44d6767e4d09e8015e23160f1073d1177,2017-10-26 23:49:09,alexweissman,compile+minify for 4.0.6-rc.0,False
+1864a3d538dd31f11af946fe5748d3bfe5034d6f,2017-10-26 23:42:50,alexweissman,Cache objects in `Utils.__cache` instead of using `$.data` (#4346),False
+62c4f6332bb90c9d6013e97a0a97ec6bcd0a83df,2017-10-26 23:33:02,alexweissman,Merge branch 'master' of https://github.com/NadeemAfana/select2 into develop,True
+77acc56a1e8730e0890edbf128400cc00854c4a2,2017-10-26 23:18:29,alexweissman,fix line length to keep jslint happy,False
+16391c3f586d3694a39c1492d0cdcd8efd52a3b0,2017-10-26 23:08:07,alexweissman,how the heck did they get a tab in there?,False
+20429201c84daf4931b639c1cfe4081feadc995a,2017-10-26 23:05:58,alexweissman,"Removing the double event binding registration of ""selection:update"" within SingleSelection.prototype to prevent multiple calls on the selection event (#4306)",False
+05208f97758b03ce6eba0e3a47d0a95ee8c6ccf1,2017-10-26 22:55:58,alexweissman,Improve `.select2-hidden-accessible` (#4908),False
+7ca986701ac3b0e9bb17dc912fd8c6812edbefa6,2017-10-26 22:54:48,Gaël Poupard,"Improving .select2-hidden-accessible
+
+To match last standards, see [CSS hide and seek](http://hugogiraudel.com/2016/10/13/css-hide-and-seek/) for more explanations :)
+
+Also I removed the negative margin because of unwanted effects in some case, as seen on Bootstrap.",False
+254d3ba42296474706ffb8bd219df12fc87e6ec1,2017-10-26 22:52:54,alexweissman,Add role and aria-readonly attributes to single selection dropdown value (#4881),False
+01d881c8ae4245275d2dcfb4590d550a00a42653,2017-10-26 22:51:57,Michal Kleiner,Move role and aria-readonly attributes from render function to bind function,False
+e1cda224752b2df9bda84d3485d13cd7910d27bc,2017-10-26 22:51:57,Michal Kleiner,Add role and aria-readonly attributes to single selection dropdown selected value,False
+edf1ba17cb842a21274339b81bfc03ebee130fa0,2017-10-26 22:48:46,alexweissman,perform deep merge for Defaults.set() (#4364),False
+2270afa6c7a9a361472ec90fafd0b32d82ef2a6d,2017-10-26 22:47:26,nobodyman,more typos,False
+6d35b1931be5952ef0a8595492aea312c72e631d,2017-10-26 22:47:26,nobodyman,fixing typos in test,False
+8398788069f3d4351716a2b12a560e42a77203cc,2017-10-26 22:47:26,nobodyman,perform deep merge for Defaults.set(),False
+6ff10680a621d626e6ab5921e2b974ffd0b4adf2,2017-10-26 22:36:23,Tim Kang,"Use `attr` instead of `prop` for `select2-selection__rendered` title (#4640)
+
+See #3895, and jQuery docs on `attr`:
+
+> As of jQuery 1.6, the .prop() method provides a way to explicitly retrieve property values, while .attr() retrieves attributes.",False
+a395ad1d7525d32f8bad1adcf2046f95458c1e88,2017-10-26 22:29:04,Tim Kang,"Add failing tests
+
+See #3895",False
+3d8864bcfa8ce2a0f1da82e5863c48e3c09897cf,2017-10-26 10:08:26,alexweissman,"Fix ""the results could not be loaded"" displaying during AJAX request (#4356)",False
+cd08d805a43c2a48c7e07a331573274e50c888c1,2017-10-26 10:06:45,Michael Mackus,Check for string value,False
+c56c20cff07a79765245f6b2a43c4f9075fb6683,2017-10-26 10:06:31,MichaelMackus,"Fix AJAX data source error
+
+Fixes #4355
+
+Verified in Firefox & Chromium",False
+50bf3cdd59c7b087e7d1fa46e38f582b0738fd3b,2017-10-26 10:01:25,alexweissman,Implement `clear` and `clearing` events (#5058),False
+04d3a5da667ca50a68455bd806c39baf1578fd0e,2017-10-26 10:00:31,Krzysztof Śmiałek,"Add dedicated event for clearing
+
+Closes #4929, #5045.",False
+10bda78b3730fcf3bcc9fd16d086362d500bf4d8,2017-10-26 10:00:24,Krzysztof Śmiałek,"Fix value not being cleared when unselect event is emitted
+
+Fixes #5049.",False
+43ffaea24482c6ee35dd4243ffd3b01461bc217b,2017-10-26 09:57:34,Jevon Wright,"Add style property to package.json (#5019)
+
+By adding a reference to the main dist CSS, gulp tools such as `sass-module-importer` can automatically import the stylesheet",False
+18929d6e5a9d42160e001266b96c3219d97c0ddb,2017-10-26 08:47:05,alexweissman,"Add `;` before beginning of factory wrapper (#5089)
+
+Adding ending statement at the start of the code as absence of that causes console error while concatenating files.",False
+09688ff6d209c6e71589bfeb2b33796f9bc7092f,2017-10-26 08:42:58,alexweissman,Clear tooltip from `select2-selection__rendered` when selection is cleared (#4746),False
+1cf42cf6a8702571b7ae2ea08e8dc4985c531f89,2017-10-26 08:42:35,shivamgupta001,on clear cleared tooltip too when placeholder present,False
+e2c654b0ecae5ea4a780a5be9ed9795e5ac5687f,2017-10-26 08:42:20,shivamgupta001,on clear cleared tooltip too when placeholder present,False
+ef2ef8b685c1ade1f5bf5cd691ce94a8b8e55437,2017-10-26 08:15:29,alexweissman,Fix keyboard not closing when closing dropdown on iOS 10 (#4680),False
+7d41ea153eba4ff8c7e9dfb8e1e44cf352af8ca5,2017-10-26 04:07:05,alexweissman,Merge branch 'hotfix' into develop and bump for 4.0.6-rc.0,True
+ebf10c93db7d6d7a0d1330119d4c6f32cbd231d7,2017-10-26 03:38:18,alexweissman,compile+minify for 4.0.5 release,False
+a0df1e86dd4b319fe9a00b05eb66d151d6fcc6f7,2017-10-26 03:36:12,alexweissman,update changelog,False
+633e7074247f2c94beb6c4ceae0943be69c08000,2017-10-26 03:34:57,alexweissman,Merge branch 'patch-1' of https://github.com/frkami123/select2 into hotfix,True
+2a21adeb2e8036829bfac266c63489d3799430c4,2017-10-26 03:29:11,alexweissman,Merge branch 'patch-2' of https://github.com/ettiennelouw/select2 into hotfix,True
+a3952c7302eee20bf3d395bab517601fa388f703,2017-10-26 03:22:35,alexweissman,Replace `autocapitalize=off` with `autocapitalize=none` (#4994),False
+65f85c310965391bf4beecd6a29c398f48a0810f,2017-10-26 03:16:47,alexweissman,Merge branch 'master' of https://github.com/mnrafg/select2 into hotfix,True
+46ed8ae3ae05658b9b0b2cc8e940ee28f3081b98,2017-10-26 03:16:02,alexweissman,bump version to 4.0.5,False
+58d9836b7d08fcef1de74974b09185e613632fb6,2017-10-26 02:25:40,alexweissman,minor formatting fixes for #5093,False
+dac0433e2fab70dfb86de85b06fcfef49ee202e8,2017-10-26 02:25:19,alexweissman,bump for 4.0.5-rc.0,False
+b11d6e20b08f995e53a80a70f0929ba3af6ee1e9,2017-10-25 21:55:50,Julian Yuste,Fix for issue #4632,False
+d9703c4d1de572ad810781b698c952358e2ced85,2017-10-25 03:45:28,Alex Weissman,"Merge pull request #7 from anhphamt/patch-1
+
+Update docs.md",True
+27a29f21e94dbbfc5dea059ed5e56f09298b5b45,2017-10-24 09:10:12,Anh Pham,"Update docs.md
+
+Fix small issue with sample script.",False
+b559310216fea0bfe4fb36ac477a2cbe47478e12,2017-10-24 04:29:42,alexweissman,extra-last-resort,False
+bf6c3c90afef14003ecb956d42edfe6de822fed0,2017-10-24 04:21:12,alexweissman,last resort,False
+f0a3058c4dbd7ab5dc101a721e19a5b0b34ac59e,2017-10-24 04:10:07,alexweissman,set platform for all browsers in grunt-saucelabs tests,False
+131743d25586cd8bbed52b53efe8541e45aee325,2017-10-24 03:51:34,alexweissman,try the testTimeout param instead,False
+f764f89325756a89181cc01522cb2f4a0d4dfc51,2017-10-24 03:03:06,alexweissman,Increase statusCheckAttempts in saucelabs qunit tests,False
+887465f4ae63d197416bd91c39ff3d0eaa8d67f8,2017-10-24 00:41:39,alexweissman,"update contributing, issue template docs",False
+e382d971d65242a615249791edbcb43ecc4fd7ea,2017-10-23 08:01:47,alexweissman,"link to new forum, and add jsbin template",False
+01f821f3072861ac15047d3011a67a164612d7f5,2017-10-21 23:15:09,alexweissman,update changelog,False
+e6bd9d72ac5231e298f7ce84355329532bf6c92f,2017-10-12 21:25:01,alexweissman,document disabling search for multi-select (#4797),False
+fffbad94631eb1bde60567fafb699aa8bafa0b26,2017-10-12 20:53:42,alexweissman,link to v3 docs,False
+b746ddbd90491102e14db3964457af8d3ec28c48,2017-10-12 20:42:59,alexweissman,explain the need to unbind events after calling `destroy`,False
+7eef84ec1a5d7e097b99324ec7b9bcc4bfbef346,2017-10-12 08:20:52,alexweissman,clarify user-defined widths (#5078),False
+93c163965d4ad59dcbd9afde020f5410d1b2e51d,2017-10-12 08:12:44,alexweissman,clarify use of placeholders (#4660),False
+444906bb6dcf938785cb5110ebebbfa109f35dc8,2017-10-12 08:01:42,alexweissman,Add Bower to installation docs (#5047),False
+e04675a234716c3743f7ec02db2930f4a050f842,2017-10-12 08:01:19,alexweissman,selecting multiple items programmatically (#5068),False
+94b06e64c146990df8fe0cfe6889b87e42aac99c,2017-10-12 05:18:18,alexweissman,Merge branch 'develop' of https://github.com/select2/docs into develop,True
+5fc339ba885765870ffb95f5a2876df602bbfefb,2017-10-12 05:18:15,alexweissman,explain server-side filtering,False
+a929ef9bef55815617e820f61a1e65e642cd221f,2017-10-12 05:17:37,Alex Weissman,"Merge pull request #4 from kochnev/patch-1
+
+Update docs.md",True
+3e06ef43b9f79309c135bee3d74e264fd5ba7157,2017-09-28 20:12:55,Alexander,Update docs.md,False
+e579207ab92c7c11b2f8c84c77a9ad0b73931702,2017-09-28 00:01:00,Muhammad Nasir Rahimi,"Merge pull request #1 from mnrafg/1b2d043
+
+ps.js file removed from dist/",True
+23b3896bcff65c6b8ff77089b1f1754e8f83b957,2017-09-27 23:57:22,Muhammad Nasir Rahimi,ps.js file removed from dist/,False
+7c13ecc7959b5c39b2d354082b9596aced9590f3,2017-09-27 01:59:16,Kou Tsuneka,remove a unnecessary quote marks,False
+c1e62b7db76b0d7660668319b14adea6efb1c642,2017-09-26 06:05:37,alexweissman,Czech: Add missing commas and periods (#5052),True
+0cc279ac75acef9285da7ec5a9f808ffd9ae4394,2017-09-26 06:03:40,alexweissman,Merge #4817,True
+671a87c7647f7670e198ee17ebb1394da91065b7,2017-09-25 23:58:57,Ettienne Louw,"Fixed Syntax Error
+
+Based this on on ca.js file",False
+398870d98260a4c3fda612a90d4eba1d6aea0d5b,2017-09-25 14:00:23,Ivan Kvasnica,Add missing commas and periods,False
+3561810a64ae78935209654b98fcd25c225d8900,2017-09-25 07:13:57,alexweissman,Fix line lengths to keep Travis happy,False
+ed24c340289cc952e625cb75adb9d4c0deb447c6,2017-09-25 07:08:04,alexweissman,Fixes French translation (see #4988),False
+389aa1ab970807a9454c4755598c7455cd5ccf93,2017-09-25 02:12:12,alexweissman,Add Bosnian (bs),False
+1afea17194c37f396138888c022c52e8389c54e6,2017-09-25 01:58:47,alexweissman,Fixed Norwegian `inputTooShort` message (#4896),True
+bdc70c80a0673093c438231e531fe29ea2cb5497,2017-09-25 01:57:10,alexweissman,Updated sk.js localisation (#4915),True
+9f55c376d25e7c09fba5e1e6fa2600de657d0d01,2017-09-25 01:53:30,alexweissman,Merge branch 'master' of https://github.com/milupo/select2 into hotfix,True
+22e73a558669bac17b21668e2dd4132bda2e252f,2017-09-25 01:49:47,alexweissman,"Fix typo in Romanian
+
+Merged from @peterlupu",False
+dbe4b3d55144fd626e991120cf19e9c25a1677d4,2017-09-25 01:45:23,alexweissman,update changelog,False
+4930f735fad1e2fed922c86ed4d3f14537b2c844,2017-09-25 01:38:01,alexweissman,Merge branch 'patch-1' of https://github.com/nelson6e65/select2 into nelson6e65-patch-1,True
+b81e62a2eb52ca40df5d8cacf129597d0cbd771d,2017-09-24 22:50:09,alexweissman,update for 4.0.4,False
+16f6b10628f9000918708cef9b3da615119cf6d6,2017-09-24 21:39:35,alexweissman,Compile and minify for 4.0.4 release,False
+4780f074aae3db5ca006be299d86293f68b5f06f,2017-09-24 21:39:28,alexweissman,More link fixes,False
+2855656a2d66d4c021764cd7ca3a4d821ef2d631,2017-09-24 21:33:26,alexweissman,Merge branch 'hotfix',True
+41edff388bc45d7b50b6a572e73769a45eb31605,2017-09-24 21:18:36,alexweissman,"lock version of node-sass and request to deal with Travis build issues
+
+See https://github.com/sass/node-sass/issues/2100",False
+a4ec7fa0c67afcff384531ec986a41784f56a630,2017-09-24 02:37:29,alexweissman,update versions and urls in package configs,False
+904d9b11d12a9f475ed9b7bcc59d6a6ee273c4b2,2017-09-24 02:06:34,alexweissman,Merge branch 'master' into hotfix,True
+a12c134c904a585f0399c6dee10132bd8e5c6765,2017-09-24 02:00:05,alexweissman,Changelog!,False
+0f75431d8d995f02ccebdbc2da8850088f91d7c0,2017-09-22 21:53:01,alexweissman,fix links,False
+5a9c29462b6d9c7c0393d1746cff88856e9f0f68,2017-09-22 21:49:50,alexweissman,add common problem (see #5048),False
+139fb04f9233044d1834ae4847496fdc8361a9ad,2017-09-22 21:49:30,alexweissman,Improvements to event docs (see #2),False
+2b8f1655392950944dee1914692c6ac2c6162eeb,2017-09-14 22:30:32,alexweissman,"document pagination (#3308, #5006)",False
+2a7ddab2ff9016d1e373047c77af5d505249107d,2017-09-14 06:38:22,alexweissman,Suggestions as per #4387.,False
+12b757a11653dd7a3c7d185425fe1ba3fa75d8bf,2017-09-14 06:17:36,alexweissman,Add name attribute to examples (see #4592),False
+5ce020f2632e7dcc04731b6e5bd24c834b4fc765,2017-09-14 05:26:23,alexweissman,Merge branch 'GitHub-files' of https://github.com/PeterDaveHelloKitchen/select2 into hotfix,True
+c4544077aeee56b74f888937677285eae1e801da,2017-09-14 05:25:34,Alex Weissman,"Merge pull request #4434 from PeterDaveHelloKitchen/GitHub-files
+
+move GitHub related markdown files into .github",True
+b61b7f48922adbf277427a0d26fa330090378912,2017-09-14 05:04:37,alexweissman,Improve matcher example (see #4668),False
+890fe27a21ce9e26055824169210f15f9231ff4f,2017-09-14 04:49:20,Peter Dave Hello,Move GitHub related markdown files into .github,False
+d2655a89baa9bd25f5c9d579addd382c94125e63,2017-09-14 04:28:24,alexweissman,Clarify use of matcher,False
+356920421a22e7662ba2809ada669b5110bee6cf,2017-09-13 09:15:19,alexweissman,Fix styling of multi-selects,False
+275ae051283f1de8d7473d661c32692032ee92fb,2017-09-12 06:36:38,alexweissman,Clarify #4244 and retrieval of selected items populated via AJAX,False
+361f7fc31227f96cc1f30030c07581f403dd60ee,2017-09-12 05:55:30,alexweissman,Reorganize and expand AJAX documentation,False
+c9bd2ad71689a02d2a6a4d64918c3df8251ac76a,2017-09-12 05:54:54,alexweissman,Addresses #4835,False
+94b14f35a5afe6fbdd7ffd66a710a23c0192011c,2017-09-12 03:24:22,alexweissman,clarify some basic JS and jQuery concepts,False
+7fd65b30258d1f8988c44eaf98f8ba314b95b41b,2017-09-12 00:04:54,alexweissman,expand the 'programmatic control' chapter,False
+6657444d29db5ab5739718e804ba158a228b9533,2017-09-11 23:26:11,alexweissman,document programmatically adding options,False
+46f6f76aad1a39582eac030b718c30a450ab4fd4,2017-09-11 08:54:32,alexweissman,point back to original GA property,False
+7b3e8c8c92899c3ace19e8674acd0625bec33fb9,2017-09-11 08:53:10,alexweissman,Add link to NextGI,False
+da40dfbcc4881d513645ea5808f47e0bff856753,2017-09-11 08:39:51,alexweissman,"Update license for docs, and add links to footer.",False
+553f6aa00d6f5cb240be63d56448c4096f0887d2,2017-09-11 07:23:08,alexweissman,"Add ""common problems"" section and address #4217",False
+fa1d12582c4d25b852d1d157129a70d6df175ad6,2017-09-11 06:47:57,alexweissman,Addresses #4583,False
+a2482bd41658d3eeb0e609b06d8066625b837b9e,2017-09-11 06:19:57,alexweissman,Addresses #5004.,False
+88b84f74744019dcef7edaf56d4e24967bdea36e,2017-09-11 03:34:00,Alex Weissman,"Merge pull request #5033 from select2/docs-redirect
+
+Replace docs with a redirect",True
+9cf5eb33d569c1cfed5e3ebc5cc272a1d204f229,2017-09-11 03:27:07,alexweissman,update README for /docs,False
+41752144441688940f9041be1d7848b24b38fce0,2017-09-11 03:18:47,alexweissman,update links in readme,False
+a3a8de87e346bedb6ee304d520ad3f34d52430e0,2017-09-11 03:17:28,alexweissman,implement additional redirects for other pages,False
+4fc911f1987e75cc6dc841ebd0f6b83684426590,2017-09-08 23:58:02,alexweissman,"rename ""programmatic control"" to ""methods and events""",False
+af5c13f5150512ee6714250647e6c8c3cc4a7d5e,2017-09-08 23:57:18,alexweissman,events docs,False
+ec6901d89f36403fbd0b775965830ec7c482806a,2017-09-08 23:53:33,alexweissman,"""getting help"" page",False
+a05a26b3bea2a02b9930d4c36a708ab151ad97a4,2017-09-08 09:29:48,alexweissman,author link,False
+67328e3a5512636ccb8a33b0cdb580dfcb8c1db7,2017-09-08 02:54:07,claudiulodro,Replace docs with a redirect,False
+b9ec2edede4d00684cc906972e0e7cc72356a619,2017-09-08 01:22:24,alexweissman,update README,False
+2eadef964f6fc1df66b279f3f2167756e3bbd2b6,2017-09-07 02:35:28,alexweissman,update version in package manager config files,False
+06d2293f3e491690f9b5fbf1004d907bc54b3531,2017-09-07 02:33:04,alexweissman,add changelog,False
+ca4de9dcb0cbaf92e39b1e824dc0dccbd1b67147,2017-09-07 02:29:54,alexweissman,Merge branch 'focus-event' of https://github.com/nino-s/select2 into hotfix,True
+5f7feeb8016035730bf24c56a6127a66aad5ffee,2017-09-06 23:11:31,Nelson Martell,"Update es.js
+
+Update the 'errorLoading' message.",False
+50fa14c2d16f2088fa100bfbccc75a7097c3c2f1,2017-09-06 20:22:14,alexweissman,GA code,False
+08f6165dc6446fb27e79a2eee016844269a6e1a7,2017-09-06 20:19:19,alexweissman,fix more links,False
+7ca42508a8f619aca1c0aec85361e4364211d5e5,2017-09-04 11:08:36,alexweissman,fix more links,False
+cdd620d7637939f6e521b9669295a34b78fa5b35,2017-09-04 08:52:18,alexweissman,Fix links,False
+748eff7c4a60b43ddc3d48d09af8ea1ee99884d2,2017-09-04 08:39:17,alexweissman,finish advanced chapter,False
+bb1fda2654f5653fe69ed921d8c9ba1adb4cbb66,2017-09-04 07:53:13,alexweissman,integrate announcements and backwards-compat,False
+94c5c3a3feef4994f2e3226aba6321ee81d36004,2017-09-04 04:32:00,alexweissman,"begin integrating the ""old options"" page",False
+38286400cae0ae31ffd28d8213095ebe522e800f,2017-09-03 10:31:18,alexweissman,Fix i18n examples,False
+7d0701399d065bc6d47d8d4dae55e47e617bb31a,2017-09-03 10:17:09,alexweissman,Fix tagging examples,False
+0257a6659069bad73a2c4f346ff70565a994a0e2,2017-09-03 10:10:02,alexweissman,fix theme examples,False
+29619aa43a6ceaf2d0383b44d6d2b88d31037566,2017-09-03 09:58:13,alexweissman,Fix urls to images,False
+05cc3a577aa27daaf68f3f0a9c8e6dde056e98a1,2017-09-03 06:04:47,alexweissman,first take,False
+0bbf614ee3c1a4d494db31ac5878487ec1c37108,2017-09-01 22:38:08,alexweissman,Clarify usage of processResults (#4706),False
+60e3925128171da88e0711a3e2871b164115fa72,2017-09-01 22:22:37,alexweissman,"Provide example code for ""can users remove all of their selections""",False
+89c517b589807aea4cb20a18d6fddf12e5d1c4d0,2017-09-01 22:18:33,alexweissman,Merge branch 'patch-1' of https://github.com/ricardokenji/select2,True
+1b2d0424e95f1582e0fe7a94cfe78b2c31de0b83,2017-06-18 11:50:10,Muhammad Nasir Rahimi,Translation improved,False
+dbb1132b7ecad21f68eb95566ecd4d2880665e02,2017-06-17 14:44:22,Muhammad Nasir Rahimi,JSHint maxlen fix,False
+5330a0cc62b8536a012f579e5c417381a1af371f,2017-06-17 14:29:44,Muhammad Nasir Rahimi,Add Pashto (ps) Language,False
+575e862f987936a79c0110e23b485b333c8be39f,2017-06-11 23:32:09,milupo,Create hsb.js,False
+d914a6d5f5f94b4cd2b544e57e8df01100fd8aa5,2017-06-11 23:30:58,milupo,Create dsb.js,False
+5a7f832f12428da4830136f32ece84a387e2f056,2017-06-10 20:33:53,milupo,Create dsb.js,False
+3bc45222004ca68f8f5857f8654813a34062787c,2017-06-10 20:33:05,milupo,Create hsb.js,False
+25fdc6bef441848383a8eb4a141050b4a4c0f687,2017-06-10 20:32:15,milupo,Delete hsb.js,False
+53c4c97411bf841525ca17f996901820816ee719,2017-06-10 20:31:36,milupo,Delete dsb.js,False
+32ba6d7573478913ec1880082c822799659b2c42,2017-06-10 19:34:48,milupo,Create dsb.js,False
+a4a095bda8d9226eb5c771cb5ed6025bf708fb87,2017-06-10 19:32:59,milupo,Create hsb.js,False
+5bb7446d2461c9517bca0bec3270f3dc96f34fb0,2017-05-23 10:52:18,depesr,Update sk.js,False
+e43a1f216586b823bef7feca49178af430946f27,2017-05-23 10:48:15,depesr,Updated sk.js localisation,False
+f38d84df715ad83b927200e7fc2a9063a365d713,2017-05-05 16:32:43,Frederic G. Østby,Fixed norwegian `inputTooShort` message.,False
+2b3dd18d35dcc10bfc385590d95aa3cc579e3684,2017-03-29 21:37:49,Ettienne Louw,"Create af.js
+
+Added afrikaans language file",False
+946149277e71f0b5d4437f72fc946036e984fb4d,2017-03-02 14:43:57,Børge Antonsen,Simplified Norwegian(nb) translation to a more correct text,False
+c155ca5b60c2769da333d3922f4a14f54e9e50e4,2017-02-14 03:48:32,Kevin Brown,"Merge pull request #4794 from crowchirp/patch-2
+
+corrected typo",True
+fafcc103a67bb8388dfeaa983e36994986dffcc9,2017-02-14 00:33:16,Chandan Rai,corrected typo,False
+d54135c444dee18594e93f8ff051a40396520af6,2017-02-13 18:14:39,Chandan Rai,corrected typo,False
+f3d1f5d0b8a64eb1eab68642a6b5b6cecbd9bd52,2017-02-10 06:51:18,Olivier Contant,"Small typo on language (typed lanugage)
+
+Small typo on language (typed lanugage)",False
+f2ae054f2126f165448592a5e8f35d910849a647,2017-02-10 01:09:28,Stan Senotrusov,"Docs, remove mention of private API: jQuery's data in <OPTION> elements",False
+36927664b3e75781d4384ac843c24510d78bf17d,2017-02-10 01:09:28,Stan Senotrusov,Correct spelling in documentation.,False
+bae34d4f8acd0b38986ccea7284a1514c737d799,2017-02-10 01:09:28,Stan Senotrusov,Add event handler example to documentation on how to programmatically access a selection data.,False
+576f93778d014ac3534f32b9e9eb43e1f45a23dd,2017-02-10 01:09:28,Stan Senotrusov,Add documentation on how to programmatically access a selection data.,False
+8dc02bcfb867956b1f25a8e15eb274de7038dae2,2017-01-31 02:50:16,James Pic,"Merge pull request #4745 from FROGGS/patch-1
+
+Show same options in example as used in demo",True
+4ee9f7b5e2e6dbb220be9f507633cae48a222bec,2017-01-11 21:48:16,Tobias Leich,"Show same options in example as used in demo
+
+The templateSelection option was used in the demo, but was not shown in the example code.
+This commit fixes it, so that copy&pasting works as expected.",False
+04c433d70908440761c59c9e9e83033d677a1244,2016-12-30 23:04:40,Kevin Brown,"Merge pull request #4735 from simi/patch-1
+
+correct typo in pt.js",True
+cd7d4be57602987881e0dff112f2573bb2793351,2016-12-30 22:52:49,Josef Šimánek,correct typo in pt.js,False
+751b36767f9f28b9de9428d5e8035c9a404915d9,2016-12-30 22:45:56,Kevin Brown,Corrected linting issue in Turkish translation,False
+f6fa52dcc02341df1523f50348f2effc54ee2911,2016-12-30 22:45:25,mhamlet,"Added Armenian Localization
+
+This closes https://github.com/select2/select2/pull/3993.",False
+fd4a0825315c7055347726d5818c999279f96ff8,2016-12-30 22:20:58,osman orhan,"Add missing `errorLoading` to Turkish translation
+
+This closes https://github.com/select2/select2/pull/4650.",False
+a018dd84a7e52faea95c5b52b1a9b25bd89fbf22,2016-12-30 22:17:07,Kevin Brown,"Merge pull request #4697 from Shnoulle/patch-1
+
+typo in ISSUE_TEMPLATE.md",True
+3b8a5d36605bfe60dd83b932d897fdae2937ef91,2016-12-30 22:14:28,Kevin Brown,"Merge pull request #4730 from quantus/master
+
+Add missing finnish translations",True
+763b3cef3fc8ad6ffa263ea642e0e21bc3797d85,2016-12-30 06:19:32,Kevin Brown,"Updated grunt-saucelabs to the latest version
+
+It was incorrectly set to 0.0.0 instead of 9.0.0 in
+https://github.com/select2/select2/commit/288f0283b1c4f01ad06e7f13d5eab7600ccbfa49",False
+04d582123d2df55c2b6b43c74c04d3d43f7dffd5,2016-12-30 06:17:19,Kevin Brown,Recompile dist,False
+45a877345482956021161203ac789c25f40a7d5e,2016-12-30 06:10:09,Derrick Hammer,"Fix UMD commonjs support
+
+This is based on the UMDJS jQuery template available at
+https://github.com/umdjs/umd/blob/95563fd6b46f06bda0af143ff67292e7f6ede6b7/templates/jqueryPlugin.j://github.com/umdjs/umd/blob/95563fd6b46f06bda0af143ff67292e7f6ede6b7/templates/jqueryPlugin.js
+
+This closes https://github.com/select2/select2/issues/4557.
+This closes https://github.com/select2/select2/pull/4558.",False
+288f0283b1c4f01ad06e7f13d5eab7600ccbfa49,2016-12-30 05:59:01,Kevin Brown,Updated grunt-saucelabs to latest version,False
+0358ee528765157234643d289bce6b8ca5889c72,2016-12-30 05:55:37,Kevin Brown,"Added two test cases (zero and empty string check)
+
+This adds two test cases for 16b4840c0e2df0461998e3b464ee0a546173950d.",False
+16b4840c0e2df0461998e3b464ee0a546173950d,2016-12-30 05:53:48,Mike Dearman,"Support selecting options with falsy values
+
+Previously you could not select an option which had the number 0
+as its value, because there was a check which would detect it as
+an option without a value. There was a similar issue with selecting
+options which had a blank string as the value.
+
+This closes https://github.com/select2/select2/issues/4604.
+This closes https://github.com/select2/select2/issues/4516.
+This closes https://github.com/select2/select2/issues/3252.
+This closes https://github.com/select2/select2/issues/3519.
+
+This closes https://github.com/select2/select2/pull/4605.
+This closes https://github.com/select2/select2/pull/4517.",False
+5313143fdfaf13ca5bd3ffca81d7ef62c30f73f4,2016-12-30 05:42:50,Kevin Brown,"Merge pull request #4663 from sedrubal/fix-typos-in-docs
+
+Fix typos in docs",True
+c8d1c312c8b974e7454d3db9d4d2c52be2a77abf,2016-12-30 05:41:37,Kevin Brown,"Merge pull request #4670 from josa42/add-license-to-bower-json
+
+Add license to bower.json",True
+0a67287c7a472b814510d8973093a54528257cc2,2016-12-30 05:39:28,Stephen A. Wilson,"Answer question about using HTML in selection template
+
+This closes https://github.com/select2/select2/pull/4606.",False
+625fc78ee616baedf64aa37357403b4b72c7363c,2016-12-30 05:31:37,Nimit Suwannagate,"Add errorLoading translation of Thai language.
+
+This closes https://github.com/select2/select2/pull/4521.",False
+f3788e2cda54177397423fdb4364c19dc7b9cae3,2016-12-30 05:29:44,Leandro Regueiro,"Simplify Danish and Arabic translations
+
+This closes https://github.com/select2/select2/pull/4547.",False
+8fcc6202c37f4e06d951342bf142a3b906b6b8e3,2016-12-30 05:29:15,Leandro Regueiro,Update Galician translation,False
+8e6422c570a87da8d89c45daf0d253695a943c84,2016-12-30 05:25:49,mitja-p,"Add Slovene translation
+
+This closes https://github.com/select2/select2/pull/4576.",False
+4df965219ea4c39147fde9335bc260840465933a,2016-12-30 05:18:18,niki7har,"Update de.js
+
+The german errorLoading message was missing.
+
+This closes https://github.com/select2/select2/pull/4711.
+This closes https://github.com/select2/select2/pull/4591.",False
+7d1d13352321e21670ff1c6cba7413aa264fd57a,2016-12-30 05:16:29,Sági György,"i18n hu.js update. Added errorLoading property.
+
+This closes https://github.com/select2/select2/pull/4724.",False
+1167bace78cd3b1a918c1b04f3bac54674eab62b,2016-12-30 04:59:04,Kevin Brown,"Added tests for case insensitive tag matching
+
+This adds a single test for cb9a90457867ffb14c7b1550bb67e872e0a5c2dd.",False
+cb9a90457867ffb14c7b1550bb67e872e0a5c2dd,2016-12-30 04:56:19,Yaron Uliel,"Make tags matching case insensitive
+
+This closes https://github.com/select2/select2/issues/3566
+This closes https://github.com/select2/select2/pull/4509",False
+124087ae2ab1f8c3e571fcb76fcd1ba5ea5903e0,2016-12-22 18:33:12,Pekka Pöyry,Add missing finnish translations,False
+3a1603ce0385feb07735b23b22eadeb0733b2508,2016-11-24 22:28:38,Denis Chenu,"typo in ISSUE_TEMPLATE.md
+
+This pull request includes a
+
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Translation
+- [x] Documentation
+
+The following changes were made
+
+- typo in ISSUE_TEMPLATE.md : ste**p**s
+
+No ticket",False
+321a2460ebee46fd4ffde50cdc170ae765916d93,2016-11-03 15:53:50,Josa Gesell,Add license to bower.json,False
+69600667e6d2a9c98aae6d962d888d672a532b2e,2016-10-30 21:52:31,sedrubal,Fix typos in docs,False
+563198a4a2e0eb9f7adbc4775d360db1037a13db,2016-09-23 20:50:16,Kevin Brown,"Merge pull request #4597 from jpic/patch-1
+
+Add django-autocomplete-light to integrations",True
+3f874a1db45d7d15cd0c5f8ad3c8de4ff3c4b916,2016-09-22 03:38:19,James Pic,Add django-autocomplete-light to integrations,False
+062c6c3af5f0f39794c34c0a343a3857e587cc97,2016-08-19 08:30:50,Kevin Brown,"Merge pull request #4538 from luciano-jr/improve-documentation
+
+Update select.html",True
+ed5707a3d454bf622a65bd523a9930051606fe0f,2016-08-17 21:40:47,Luciano Jr,Update select.html,False
+3f8492b62f72b34f6a25ed5ae8ffc9a6826cb69d,2016-06-24 18:47:24,Kevin Brown,"Merge pull request #4441 from uestla/docs-1
+
+docs: more appropriate terminology (""highlight"" -> ""focus"")",True
+6f21865d8a6022e30a02f913cc86e06214afaa98,2016-06-24 13:24:06,Petr Kessler,"docs: more appropriate terminology (""highlight"" -> ""focus"")",False
+d2d7a9c381041fe0e4b99c3dbf8ba7f437d1d731,2016-06-21 19:30:56,Kevin Brown,"Merge pull request #4435 from ZuBB/patch-1
+
+fix(docs): corrected mistype",True
+3a67616c2f5e54cf25e9aea0dbaeacfb03e145c8,2016-06-21 19:27:19,Vasyl Zuzyak,fix(docs): corrected mistype,False
+294e7e664d95eafb7f41264c2b87412ad9aa48fc,2016-06-16 17:15:21,Nino Schoch,Fixed form focus lost,False
+083c2112df22d73d432f806411524104f8b72056,2016-06-12 05:17:14,Kevin Brown,"Merge pull request #4389 from anasshekhamis/master
+
+Correct typo in ""options"" page",True
+ffe780db53ec43ab3e014ed5067dbcc54384b050,2016-05-29 15:06:00,Anas Shekhamis,"Correct typo in ""options"" page
+
+Correct a typo in the ""options"" page, ""Data Adapters"" section, ""Do the
+id properties have to be strings?"" part.
+""&gt;select&lt;"" to ""&lt;select&gt;""",False
+566c7846fbf8c3b7674346f26d0ee872c0a77629,2016-05-27 06:46:06,Kevin Brown,Update version identifiers for 4.0.3,False
+24a8d73a994a45f131c37479a43d730f5d79ed58,2016-05-27 06:23:18,Kevin Brown,Recompile dist,False
+2343fd4ae490f1ffc11bdbbb7617ba13296cc641,2016-05-27 06:22:37,Kevin Brown,"Clarify the Bootstrap docs notice with the dropdownParent option
+
+This closes https://github.com/select2/select2/pull/4253.",False
+8bc4f5d41dad2b34b70c5e3f30332b7c84d0a736,2016-05-27 06:20:12,Kevin Brown,"Added createTag code samples
+
+This lays down part of the path for
+https://github.com/select2/select2/issues/4023 as well as
+https://github.com/select2/select2/issues/3974.",False
+7eab29e271468dc176dd93be0fce1e95e350fd7a,2016-05-27 06:06:22,Harry,"Added Greek (el) translation
+
+Translated English (en) language file to Greek (el).
+
+This closes https://github.com/select2/select2/pull/4139
+This closes https://github.com/select2/select2/pull/4146",False
+7505347a69dc8e218d3a8f42d90e5562af64e694,2016-05-27 05:55:39,Kevin Brown,"Merge pull request #4379 from petruavram/master
+
+[Docs] Add favicon",True
+d34bff579774c63c19c8a9ae902d1e0caf5ba841,2016-05-25 12:55:47,Petru-Vasile Avram,"Add favicon
+
+I used the logo image on the site to generate a favicon using
+[Real
+Favicon Generator tool](http://realfavicongenerator.net/).",False
+a74547aaa76d406dd0b8a441d0a84dc9694a2829,2016-05-24 09:08:45,Kevin Brown,"Migrate from expect to assert.expect
+
+After we upgraded to QUnit 1.23.1, we gained support for
+assert.expect(). This allows us to guard against any race conditions
+within tests, because now expect() will be linked to the specific test
+instead of the current running test.",False
+2805fa7aa4cb2359b0f90c3b0835591505bba6ba,2016-05-24 09:02:02,Kevin Brown,"Add tests for detecting added and removed options
+
+This adds tests for ea79a197e0ffe55aa600eed6d18cbd1c804c3176.",False
+ea79a197e0ffe55aa600eed6d18cbd1c804c3176,2016-05-24 09:01:17,Kevin Brown,"Select2 now detects added and removed options
+
+Select2 will now automatically update the selection if there are options
+added to or removed from the DOM within the `<select>` element. This is
+supported in all browsers except for Internet Explorer 8. Internet
+Explorer 8 does not support the DOM mutation events which were added in
+Internet Explorer 9, and it does not support mutation observers which
+are the recommended way of handling this in modern browsers.
+
+DOM mutation events also trigger for the `<select>` itself when it is
+pulled from the DOM, so we need to filter these out within the event
+handler.
+
+Despite supporting mutation observers, we cannot accurately detect if
+the removed option was selected at one time or another, so we need to
+always re-pull the selection when an element is deleted.
+
+This closes https://github.com/select2/select2/issues/4248
+This builds upon https://github.com/select2/select2/pull/4249",False
+a75482fd30c105eacbd176b38028706a9e471c3e,2016-05-24 08:55:13,Kevin Brown,"Upgrades QUnit to 1.23.1
+
+This was required for us to get assert.async() support within tests, as
+well as assert.expect() support. This was required because we need them
+for multiple async tests that are coming.",False
+99c248cc34654b584fd4023f8a3be8eba8ecdc98,2016-05-15 08:04:03,Kevin Brown,Recompiled dist,False
+4b9e02f02211248be25ac4c16d4635cf38237bb9,2016-05-15 07:56:56,Kevin Brown,"Corrected check for opening the dropdown
+
+This corrects the check that was used when the dropdown was opened, so
+the results would be immediately rendered instead of delaying the
+loading. Previously it would delay the immediate load but immediately
+load the results when the search term was emptied.
+
+This closes https://github.com/select2/select2/issues/4191
+This closes https://github.com/select2/select2/pull/4192
+This closes https://github.com/select2/select2/pull/4202",False
+481c43883e23874e9c35879d173eb8cc5b994b12,2016-05-15 07:44:20,Kevin Brown,"selectOnClose now properly works with closeOnSelect
+
+Previously we hacked around the infinite loop between closeOnSelect and
+selectOnClose by attempting to detect what event was being triggered
+without knowing what event triggered it. Now we properly relay the
+Select2 event and the jQuery event that triggered the select or unselect
+
+This closes https://github.com/select2/select2/issues/4012",False
+ad8447cc3560a61bb0f135c52edac770ede361bb,2016-05-15 07:31:42,Kevin Brown,"Add a new _type parameter for the first event argument
+
+This will include the event type in the _type property, so it can be
+accessed within the event handlers if it's not normally passed in. This
+should not conflict with any existing handlers, and this should not be
+considered a public property on event arguments.",False
+acd33061925973c683dc5c00114ec4a020869cff,2016-05-15 06:35:30,Kevin Brown,"Added tests for focusing results
+
+This adds three tests related to focusing selected items in the results.
+The tests are for e897d00 and 9f58128.",False
+9f581285d88128b29a01fc1e5fd2d445d610b553,2016-05-15 06:35:14,Kevin Brown,"Renamed focusFirstItem method
+
+This renames the `focusFirstItem` method to `highlightFirstItem`, which
+better reflects what is actually happening. This also ensures that the
+highlight is visible when it is moved by calling
+`ensureHighlightVisible`.
+
+This closes https://github.com/select2/select2/issues/3479
+This closes https://github.com/select2/select2/pull/4238",False
+e897d008a672da262ba84cee2a144578696ada29,2016-05-15 06:34:31,Alexander Leonov,Fixed infinite scrolling issue using down key.,False
+b6f0f3a69e68b66ed8818fa8b103ff079aee86b8,2016-05-09 08:21:46,Nadim Afana,Fixed line is too long warning for jquery-calls.js,False
+8663d1bf0bb27368ced33ac1a9eaf03956569e24,2016-05-09 08:15:58,Nadim Afana,Fixed jshint warnings,False
+5fd270c9e4e1698ddecab7a44a80273b5901290c,2016-05-09 08:02:41,Nadim Afana,Added an integration test to ensure issue does not come back in the future.,False
+fba261c670748c0c75bd36661350d8f631856e0b,2016-05-07 03:24:13,Nadim Afana,Fixed EOL to Unix format.,False
+16e26310e1752da8403d3254b705b3d9043ee8c8,2016-05-07 00:58:49,Nadim Afana,Fixed more indentation issues.,False
+6e9657105bd41b9f98c90eb22ba64ffd591b187f,2016-05-07 00:53:58,Nadim Afana,Fixed indentation.,False
+a1dc7f23d1d5b0913e3954d824e03e4c5e5cdcbc,2016-05-06 10:11:20,Nadim Afana,Fixed unit tests and updated source code to handle HTML5 attribs.,False
+95b1f8b4091a78be67f6013b9d5335d72601c37b,2016-05-06 07:08:38,Nadim Afana,Reverted a line in base.js regarding tab index.,False
+76298267f9e5a202be7d073d493d0365c322a3e6,2016-05-06 06:42:51,Nadim Afana,Updated inputData.js,False
+54e126a6642f882db8332b50003baa7469bd1737,2016-05-06 04:08:31,Nadim Afana,Fixed bug #4014,False
+07aa8a45b0f38d6d34abb1ba393d0aec6f9666ac,2016-05-05 03:00:29,Kevin Brown,"Merge pull request #4342 from damienfinck/master
+
+Add missing French translation",True
+b1ea28bb7d8c02b3b352f558031ccfc8041122eb,2016-05-04 23:25:01,Damien Finck,Add missing French translation,False
+3663b44b83d32621a8d382771f1bb366d33a163d,2016-05-03 07:33:03,Kevin Brown,"Merge pull request #4338 from murb/lt-file-jshint-fix
+
+linting fix for lt i18n file",True
+89dcfef94b98dba7d2ceed448f956514aa49349e,2016-05-03 03:38:06,Maarten Brouwers,linting fix for lt i18n file,False
+f3b91d06807e2cc0b41536c12cdc6168b9bed0f2,2016-04-24 21:51:53,Kevin Brown,Recompile dist with master,False
+5b5eddd183c87bf43165b3a98e03eabe10e9fa58,2016-04-24 08:03:22,Aurelijus Rožėnas,"Fixed broken lithuanian translation
+
+This closes https://github.com/select2/select2/issues/4301.
+
+Signed-off-by: Kevin Brown <kevin@kevin-brown.com>",False
+5a831afb9a7d46e8f20aec21164cfbfd182024de,2016-04-24 07:53:04,Kevin Brown,"Added documentation for ajax.url
+
+This closes https://github.com/select2/select2/issues/4213.",False
+5b207b287ed6342559a118eb7db1ec2e828d8805,2016-04-24 07:08:41,Kevin Brown,"Add test for focus event on inline search
+
+This adds a test for
+https://github.com/select2/select2/commit/02cca7baa7b78e73cdcf393172ee3a54be387167.",False
+3bc7f4ac78b58eff8cd17b3273596638c3c9c5c1,2016-04-24 06:06:39,Kevin Brown,"Added docs section for HTML labels
+
+This will make it easier in the future to test that we support labels,
+and it tells people who are looking to confirm that we support labels
+that we in fact do.",False
+31e7a1d4c52ed7477769fcad5d15166ae3c9b4d0,2016-04-24 05:28:04,Kevin Brown,"Support the `focus` event on the <select> element
+
+This adds basic support for focusing the Select2 element by triggering
+the `focus` event on the underlying <select> element.  This implicitly
+adds support for <label> elements, which will trigger the `focus` event
+on the `<select>` if it is clicked.
+
+This also fixes the focus issue that previously existed if Select2 was
+opened while in a <label>. The focus would be transferred to the search
+dropdown, and then immediately pulled away to the <select> element. This
+happened because the <label> element triggers the `focus` event when a
+`click` event propagates its way up, and we do not stop the propagation
+of the `click` event when it is triggered on the selection.
+
+This closes https://github.com/select2/select2/issues/2311.
+This closes https://github.com/select2/select2/issues/4203.
+This closes https://github.com/select2/select2/pull/4235.",False
+b10976bd25acfc1832dc2f465b64167c572f81be,2016-04-20 23:33:58,Kevin Brown,"Merge pull request #4318 from acorncom/patch-1
+
+Updated old select2-bootstrap-theme link",True
+64a79c3a5bea24f42e6aa0fc256f2511a9914265,2016-04-20 22:41:20,David Baker,Updated old select2-bootstrap-theme link,False
+98f054fc18d4eabe104153cbab0bc6447456d310,2016-04-18 02:45:44,Kevin Brown,"Tune the tests for positioning
+
+These tests did not cover the classes that should have been
+automatically applied to the dropdown based on the space around it. Now
+they both test that the dropdown should be facing down, because there is
+enough space below it to display the dropdown.",False
+ecdc41663508f0a5ea242fe249aa5a9a3a741ba6,2016-04-18 02:28:01,Ryan Cousart,"Fixing bug with non-static parents for dropdowns
+
+The offset of the parent was only being subtracted if the dropdown was
+facing down, this now subtracts it if the dropdown is facing up as well.
+This more or less applies the same fix as
+https://github.com/select2/select2/commit/e260860789db87c68ed2889895c76a22e94dbce1,
+but when calculating the position of the dropdown when it is facing up.
+
+This closes https://github.com/select2/select2/issues/3303
+This closes https://github.com/select2/select2/pull/4267",False
+c09975501227a528b19ee2221a672d8771d9a391,2016-04-15 03:24:48,Kevin Brown,"Merge pull request #4246 from somethvictory/master
+
+add Khmer translation",True
+120672dce79b6862cb17a966af06e0617a404b58,2016-03-28 04:07:27,Kevin Brown,"Added tests for multiple tags and tokenizing
+
+This adds tests to ensure that 3b8cd2e36990e695e4cb4b966c8658e7ca1574dc
+will continue to work in the future.",False
+3b8cd2e36990e695e4cb4b966c8658e7ca1574dc,2016-03-28 03:59:01,Kevin Brown,"Create an option when tokenizing if needed
+
+Previously the tokenizer only worked when creating multiple options
+at once if all of the options existed. It always worked when creating
+a single option, because all of the special cases were handled by the
+tagging module. When working with multiple options, the tagging
+module does not kick in until after the query has been run, which
+is when the tokenizer does its magic.
+
+This fixes the issue by automatically creating the option tags that
+the tagging module would normally create. It only does this if the
+options do not already exist, so we don't need to worry about the
+tokenizer creating duplicates of existing options.
+
+This closes https://github.com/select2/select2/issues/3458",False
+cfb66f5e4f71a56c46a6890c5dde4b7f24f11fa8,2016-03-28 01:14:40,Kevin Brown,"Attempt to detect aborted requests
+
+The error handler should not be raised if a request is aborted while
+another one is sent out. This attempts to detect those cases by
+handling the case where the error was raised and the request has a
+status code of 0, which should either mean we're in offline mode or
+the request was aborted.
+
+This closes https://github.com/select2/select2/issues/4205",False
+fe26b083eb830836061de1458e483782cefef424,2016-03-28 00:54:37,Kevin Brown,"Fix `dropdownAutoWidth` so it actually works
+
+Previously the `dropdownAutoWidth` option didn't work because the
+dropdown was being absolutely positioned, so setting the width to
+`auto` didn't actually have an effect. This cannot be solved by
+just setting the width on the container, because that is also
+absolutely positioned.
+
+This closes https://github.com/select2/select2/issues/3101",False
+ac254ff68dc5d3517d8211021944c6bec9f9f364,2016-03-28 00:46:22,Kevin Brown,"Added tests for jQuery calls to Select2
+
+This adds a test that covers the change made in
+c2c1aeef31c95c6df5545c900a4e1782d712497c.",False
+c2c1aeef31c95c6df5545c900a4e1782d712497c,2016-03-28 00:29:44,Kevin Brown,"Fix calling select2('', args) on multiple elements
+
+This fixes an issue that has existed since Select2 4.0.1 where the
+arguments passed into each `<select>` were mutated. This no longer
+mutates the arguments for each element, and instead only drops the
+first argument once.
+
+This closes https://github.com/select2/select2/issues/4245",False
+8869b170b1b28412d2fdf5273b7179e991728ed2,2016-03-28 00:25:21,jpic,"Set list-style further down the DOM
+
+This closes https://github.com/select2/select2/issues/4225
+This closes https://github.com/select2/select2/pull/4226",False
+84d6b5d840f7f4e6b7a2fb3f08424bf5495c876d,2016-03-28 00:17:06,Kevin Brown,"Added small example of attaching event listeners
+
+This closes https://github.com/select2/select2/pull/4255",False
+962fd63a6798e51a7beb36b7ad1b565116c4eea7,2016-03-28 00:16:29,Kevin Brown,Stub question about event data,False
+78cac8972a245be8329bb65118420f07f6a906af,2016-03-28 00:08:11,Kevin Brown,"Merge pull request #4259 from zapodot/master
+
+Added missing Norwegian bokmaal label used for errors",True
+0212edda954481f47899270d31b171eb0c8d7167,2016-03-16 20:21:39,Sondre Eikanger Kvalø,Added missing Norwegian bokmaal label used for errors,False
+a7738c451751b329bda5c2ab060201936cac2c31,2016-03-10 15:15:27,Someth Victory,fix jshint: Line is too long,False
+a797833e10b783083ee164c705e068f47ed4258b,2016-03-10 15:05:09,Someth Victory,add Khmer translation,False
+6844be777b0fe9af1d2b9a8f6051b7eb7d532247,2016-03-09 07:12:47,Kevin Brown,Missed a version identifier,False
+622a619d25358b86a93c2335f88e1884acc9ccb8,2016-03-09 07:03:38,Kevin Brown,Updated version identifiers for 4.0.2,False
+68a199fc985f8dbe57473959e90f10b690e780d2,2016-03-09 06:58:36,Kevin Brown,Added initial questions for tagging docs,False
+3783354d020d0f39d94ec2361cb7d0fb1b8d78e0,2016-03-09 06:34:57,Kevin Brown,"Add documentation on ids needing to be strings
+
+This closes https://github.com/select2/select2/issues/4052
+This closes https://github.com/select2/select2/pull/4076
+This closes https://github.com/select2/select2/issues/4227",False
+72d905f9e026d49e7c600f37a1ce742c404654d7,2016-03-09 06:24:01,Radu Ungureanu,"Romanian localization
+
+- updated transaltions
+- added translation for errorLoading
+- issue fixes - compare characters length instead of message when adding terminal character
+
+This closes https://github.com/select2/select2/pull/4208",False
+4901e221c97460de89962ab8a77103b0b282c5eb,2016-03-01 20:24:50,Kevin Brown,"Merge pull request #4222 from cheeaun/patch-1
+
+s/incluidng/including",True
+18a453ed9ed9a51b5070aae3319cd17568981b28,2016-03-01 14:46:03,Lim Chee Aun,s/incluidng/including,False
+f2268caf23d2a50944f1d8f8211f1501fa259163,2016-02-19 04:04:43,Kevin Brown,"Added pull request and issue templates
+
+The issue template is largely based on the questions included in the
+canned comment that I use for bugs, which is mostly covered in the
+contributing guide. Even though there are a lot of lines, most of it is
+just ticking checkboxes.
+
+The issue template is focused on bug reports, as those are considerably
+more common than feature requests.
+
+The pull request template was designed to be pretty slim, we haven't had
+many issues with these in the past.",False
+296d2f8879f5d5d163520e73be6458943e58f00f,2016-02-18 03:41:17,Kevin Brown,"Add Sauce Labs matrix to the README
+
+This also updates the Travis CI image to be a vector.",False
+664210c27119a0da6fc6fce6244c08f33e241929,2016-02-18 03:40:39,Kevin Brown,"Update the list of integrations
+
+The integrations are now organized by the name of the integration, and
+themes are now separated out from the plugins. The references for this
+section have been pulled out at the bottom because there are so many.
+
+This closes https://github.com/select2/select2/issues/4150.
+This closes https://github.com/select2/select2/pull/4067.
+This closes https://github.com/select2/select2/issues/3957.",False
+eae6fcc2bdab549de250a4b0255c482a77018470,2016-02-15 03:36:23,Kevin Brown,Update version identifiers to 4.0.2-rc.1,False
+37dbe059fce4578b46b7561e6243b7fdc63ac002,2016-02-15 02:44:58,Kevin Brown,"Document DOM events
+
+This closes https://github.com/select2/select2/pull/4115.",False
+7f8e9dc62a847ef63d38b8cd8f6e13f31bbb2115,2016-02-15 01:46:08,Kevin Brown,"Document the change.select2 event
+
+This closes https://github.com/select2/select2/issues/3620.",False
+ac109685a055f589803fd1773dee4d4639d0eaf7,2016-02-15 01:33:51,Kevin Brown,"Docs for mapping id and text
+
+These modified snippets are from the announcement.
+
+This closes https://github.com/select2/select2/issues/4086.",False
+6369f5f173fb81ec692213782945cc737e248da5,2016-02-15 01:19:39,Kevin Brown,"Fix the Select2 logo
+
+With the update to Bootstrap it was forcing the Select2 text down.",False
+81a4a68b113e0d3e0fb1d0f8b1c33ae1b48ba04f,2016-02-15 01:04:56,Kevin Brown,"Updated Font Awesome to 4.5.0 for docs
+
+This also includes the missing WOFF2 and SVG files that were causing
+errors for some.
+
+This closes https://github.com/select2/select2/issues/4160.",False
+a5e539b509778eabeb8ce79e191b3ee1e81f6deb,2016-02-15 01:03:52,Kevin Brown,"Updated Bootstrap to 3.3.6 for docs
+
+This allows us to custom build it without Glyphicons so we don't have
+any errors about it not being found.",False
+e3f9466d8b51e473d2ffa9040985952d03d1c3f7,2016-02-15 00:33:49,Vasyl Zuzyak,"Reuse result of previous calcualtion
+
+This closes https://github.com/select2/select2/pull/4155.",False
+d976f1c576899c630ded0bfbc168568bbd76cc4a,2016-02-15 00:30:01,Bruno Sampaio,"added test for recursively applying defaults
+
+This adds tests for 983cd8e765c5345bfe7d3bdcc3b0c882a35461ca.",False
+983cd8e765c5345bfe7d3bdcc3b0c882a35461ca,2016-02-15 00:28:14,Bruno Sampaio,"Recursively apply defaults
+
+This closes https://github.com/select2/select2/pull/4130.",False
+65179f16deaf71bf5ef8cf735820164c9e6b5215,2016-02-15 00:18:19,Ben,"Santize automatically generated ids
+
+This closes https://github.com/select2/select2/issues/3618.
+This closes https://github.com/select2/select2/pull/4123.",False
+75163d67cb80e4279965a97e9eeda5b171806085,2016-02-15 00:03:33,Kevin Brown,Switched options page to use Jekyll highlighting,False
+a126b53b4c90fac33b5d855894647cd8bcac3558,2016-01-31 07:31:12,Kevin Brown,"CSS changes for Rouge highlighting
+
+This adds a new CSS file and adjusts existing highlighting files for the
+Rouge syntax highlighting that was enabled.",False
+d5a76aab261eb880385709ea649cf2a2362d5164,2016-01-31 05:00:57,Kevin Brown,Switched 4.0 announcement to Jekyll highlighting,False
+74387b98632c75b06d15d83ad5359b9daf0f5dcb,2016-01-31 04:39:01,Kevin Brown,"Switched examples to use Jekyll's highlighting
+
+This fixes some bugs that were present in the old Prettify highlighter
+when there was a mix of JavaScript and HTML in the same code block. Now
+with Rouge, the highlighter used by Jekyll, these cases are properly
+handled and HTML no longer looks strange.
+
+This does not convert all of the code blocks over, because there are
+still some code blocks which double as the actual JavaScript code
+powering the example that need to be migrated.",False
+54441e6a22be3969dd934ccb769f5d7dde684bfb,2016-01-28 22:24:24,Kevin Brown,"Switched index to use Jekyll's code highlighting
+
+We previously used Google's Prettify, which worked on the client side.
+Now that we are actually using Jekyll, and it has built-in syntax
+highlighting, we might as well change to doing highlighting on the
+backend.",False
+ff9486bbd20b7133f710d02becd86fad5d6f413d,2016-01-28 21:56:00,Kevin Brown,"Merge pull request #4127 from drmonkeyninja/patch-1
+
+Replaced protocol-relative URLs with HTTPS protocol",True
+9b4b9175fc79b26776577031b72312d75ff899ef,2016-01-27 15:51:50,Andy Carter,"Replaced protocol-relative URLs with HTTPS protocol
+
+Use of protocol-relative URLs is now seen as an anti-pattern as it leaves the door open to attacks. As the CDNs serve over HTTPS it should be recommended that people use HTTPS rather than protocol-relative URLs. See Paul Irish's post on [Protocol-relative URLs](http://www.paulirish.com/2010/the-protocol-relative-url/) for more details.",False
+97f7eea9ceefd1ec86737e57a65b2551cc40d504,2016-01-15 06:01:16,Kevin Brown,Recompile dist,False
+0840c3923f0cddda76360cb4c2181a4053fc7545,2016-01-15 06:00:11,Kevin Brown,Code samples and docs for selections,False
+ce2204cff0c19555e404fb2e6262b2198b98132e,2016-01-15 05:59:48,Kevin Brown,"Code samples for options affecting the dropdown
+
+This is just code samples, most of this still needs readable (non-code)
+documentation that actually explains what is going on with the options.",False
+55aa2c64cc247ca417840d9f0a9076f22251dd3a,2016-01-15 05:56:19,Kevin Brown,More docs for data adapters,False
+d6bc96d7dea06a602316673d72b328ddfdcea1b4,2016-01-15 05:10:37,Kevin Brown,"Expand upon the core section of the docs
+
+This adds more code examples where they might be useful, and adds some
+more description where it was needed. This clarifies a couple of the
+questions that have come up about the AMD support and links to the bug
+that Select2 was involved with that some people reported when 4.0.0 was
+released.",False
+69ef214c9220b5706ee40de1efb7b30b2f5414d7,2016-01-05 06:37:37,Kevin Brown,"Display error message on AJAX errors
+
+This display the `errorLoading` translation when there is an error
+during the AJAX cycle. Previously we were just throwing these errors
+out, now we are actually displaying an error message.
+
+This closes https://github.com/select2/select2/issues/3501",False
+db5e947664aca0e9b84db437f1009bd28a03b86b,2016-01-04 05:39:45,Kevin Brown,"Added test for new insertTag option
+
+This adds a basic test that ensures that the `insertTag` option works as
+expected.",False
+e842797aaf9beb0327a106b92ae5f412ee0b455f,2016-01-04 05:38:59,Stretch,"Added insertTag to control the tag position
+
+This adds an option called `insertTag` that controls the location within
+the results where the tag is inserted. The function should take in the
+results array and the tag, and should modify the array in-place to add
+the tag to the results.
+
+This closes https://github.com/select2/select2/issues/3420
+This closes https://github.com/select2/select2/pull/4008",False
+63d531a9c0ab51f05327492a56f3245777762b45,2016-01-04 05:27:49,Kevin Brown,"Fixed responsive example in documentation
+
+This fixes the documentation so the responsive example actually works.
+Everything was working properly, the example just wasn't updated when
+the default for the width was changed to `100%` in
+https://github.com/select2/select2/commit/5fd72d205253b6bac2db113cd6b9a0f8691f234e.
+This is a change from the old `resolve` width setting, which is
+responsible for parsing the style attribute and getting the width that
+was set.
+
+This closes https://github.com/select2/select2/issues/4050",False
+f3b9693ad949081eee1e8a984dd28d8c5147d3ae,2016-01-04 05:04:59,Kevin Brown,"Fixed existing selections not being respected with array data
+
+This fixes an edge case that occurred pretty much whenever anyone would
+use array data with existing selections along with a placeholder. This
+caused the existing selections to be discarded, because the `selected`
+property was not being transferred over to the new option. This was
+based the new data was being preferred over the data that could be
+inferred from the option, and the new data typically did not include the
+selected state. As a result, the option was assumed to not be selected.
+
+This was not cause by existing tests because all of the existing tests
+only covered cases where the selected option was the first option, and
+that was not affected by this bug.",False
+d1ed0a513ab60b41e7a748cec8ffa345544cba27,2016-01-04 04:51:09,Kevin Brown,"Add failing test for existing array selections
+
+This adds a broken test that demonstrates the issue seen in
+https://github.com/select2/select2/issues/3990 where existing selected
+options are being reset once Select2 is initialized. This issue cannot
+be reproduced on the options page [1] because the issue only appear to
+happen if the selected option is not the first one in the list of
+possible options.
+
+[1]: https://select2.github.io/examples.html#data-array",False
+f58c1efc11c7e4c20d792e485302eb480965f9a1,2016-01-04 04:16:01,Kevin Brown,"Fixed failing tests in IE9/FX
+
+This fixes the two failing assertions that only triggered in IE 9 (no
+other versions) and Firefox. Both of them were caused by the offset for
+the dropdown including a constant extra amount, what appeared to be
+related to the size of the container if it actually had content. This
+was not consistent in browsers, so now we are forcing there to be a
+small amount of content within the container and then calculating the
+expected offset based on that height.",False
+09ecd3cdb96da5d62f498ac0f7f1bf0bb6e54621,2016-01-02 04:46:51,Kevin Brown,"Remove dead code
+
+This call to `$.fn.position` was causing an error in IE 8 because the
+`offsetParent` was null on the container for some reason. It's not
+needed, so this line of code has been removed.
+
+This should fix the test failures in IE 8.",False
+e260860789db87c68ed2889895c76a22e94dbce1,2016-01-02 03:45:00,Kevin Brown,"Correct positioning issues for statically positioned elements
+
+There was a commit that landed in 4.0.1 that fixed positioning for
+non-static elements, which are commonly used for the custom
+`dropdownParent` option, but broke positioning for statically positioned
+elements, commonly used in almost every other case. That commit was
+https://github.com/select2/select2/commit/c9216b4b966653dd63a67e815b47899ef5325298
+
+This fixes the positioning issues caused by that commit by properly
+calculating the offsets for statically positioned parents. Statically
+positioned parents are unique, because the offset for the dropdown must
+be calculated based on the closest element that is non-statically
+positioned. Otherwise, the offset for any statically positioned parent
+other than the body will be considerably higher than it should be,
+resulting in the dropdown being offset by a large amount.
+
+The offset parent for the body element is the html element, which is why
+this works for both the body element and any custom parents for the
+dropdown. This would not be needed if the parent wasn't customizable (as
+seen in Select2 3.x) because you will never need to offset the body
+element if it is statically positioned, because the html element almost
+never has an offset.
+
+This also fixes JSHint issues within the tests added in the last commit.
+
+This closes https://github.com/select2/select2/issues/3970
+This closes https://github.com/select2/select2/issues/3639",False
+b5a4698250c0cd244920e85d70b3f95ba61492a2,2016-01-02 03:17:49,Kevin Brown,"Add regression tests for the positioning issues
+
+This adds a regression test that verifies the problem with positioning
+the dropdown when the parent is a statically positioned element that
+still has an offset. This could typically be seen if the body element
+has an offset, which unfortunately it almost always does because of the
+default user stylesheet in browsers. This was not caught during
+pre-release testing because all of the test pages reset the margins and
+padding on the body element.
+
+This regression test verifies that the offsets that should be set for
+the dropdown are calculated correctly. These were surprisingly difficult
+to do because of how the offset is calculated using different
+positioning techniques.
+
+These tests are for https://github.com/select2/select2/issues/3970",False

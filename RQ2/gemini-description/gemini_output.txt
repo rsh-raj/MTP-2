@@ -1,0 +1,401 @@
+validate custom partition templates
+Add a feature flag to switch to the router RPC write path
+Refactor backoff logic, add fade_to, PartialEq, and harden handling
+document side-effect transform in put_schema()
+Implement exponential backoff for objectstore connection in garbage collector
+remove check enforcing numeric constant in date_bin and moving_average functions
+Normalize function call names in the parser
+Add conversion functions for ParquetFile to and from protobuf representation
+Ensure WAL flusher task is aborted on drop to prevent memory leaks
+rename `QuerierChunk` to `QuerierParquetChunk` and related code changes
+connect WAL segment reference tracker actor to the ingester
+remove query only from parquet
+Simplify and fix min/max selectors, and add more selector tests
+replace IF-statement with optimizer rule and use insta snapshots
+Enable linear FILL for selector functions
+implement gap fill with previous value
+log compactor components
+update dependencies tonic and parking_lot
+add configurable ingester circuit breaker threshold to querier
+add test case for dedicated datafusion plan exec
+Add CachedPartition::new and PartitionKey::inner
+use endless stream for partition processing and add process_once option
+add datafusion config to querier
+Move test_most_cold_files_partitions test to avoid state bleeding
+use `to_string()` to avoid a move out of captured variable in closure
+add gossip_compaction crate for compaction-specific gossip types
+Remove nightly build due to permissions issues
+improve namespace autocreate policy configuration with fluent methods
+Box the source error in the WriteInfo variant of the ingester error enum
+track number of partitions enqueued for persistence due to hitting the limit
+Use top-level DataFusion context and register object store
+implement push sort through union optimizer rule
+adds service limit hit metric with limit type
+use transition shard index in in-memory catalog tests
+Revert override of the rust version in circleci config
+rename SyncMessage to ConsistencyProbe for clarity
+add split dedup by time optimizer rule
+Add order_by method to SelectStatement and extend type evaluation
+Update arrow pin in Cargo.lock
+remove duplicate dependencies
+reduce default max tables to 500
+Add logging to compaction driver
+track applied sequence numbers in ingester2 buffer FSM
+Update dependencies in Cargo.lock
+Fix idempotent CREATE INDEX CONCURRENTLY migrations
+Unify partition cache lookup methods
+Update workspace hack
+Add basic metrics for pool usage
+Make TimeRange always returned from split_cond
+support CommandGetImportedKeys metadata endpoint
+ensure scratch buffers are wiped between uses in gossip tests
+Update plugin API and CLI to use file names instead of code, read code from disk.
+Implement gRPC direct-write RPC interface and improved RPC query handler
+Ensure partition resolve future completes even if callers abort
+keep existing test coverage for the new impl
+use errors instead of panic and fix typo
+add test to enshrine JSON ticket decoding used by Go clients
+load sort key using deferred loading mechanism in ingester persist
+correctly determine files to compact by max_compact_size limit
+facilitate RpcWrite DmlHandler testing using mocked RPC client circuit breaker states
+use default metrics/instruments method for jemalloc
+Move compaction outcome actions to scheduler
+Remove color feature and related dependencies
+document potential recvfrom() panic reasons
+Remove the message from `PartitionKeyError::InvalidStrftime`
+downgrade unreachable_pub and missing_debug_implementations from deny to warn
+Pass `PlanIR` by ref in `DataFusionPlanner`
+use upstream FlightSQL metadata implementation
+add check for incompatible chunk_stage and setup steps in tests
+Use the actual catalog resolver for namespace auto-creation tests
+add to_delete field to partition struct
+Use client_util GrpcConnection for ingester write service and include server address in error
+add gcloud login and skopeo installation for image deployment
+implement IntoIterator for ColumnsByName yielding owned column names and schema
+make DmlWrite require a PartitionKey instead of Option
+Simplify error handling and remove unused code in flightsql planner
+Remove query_tests crate and port tests to end-to-end
+Refactor to use hashbrown hashmap with entry_ref API
+update clap parser for ingester addresses and allow multiple arguments
+add checksum type for migrations
+Add LOCF scalar function for gap filling
+move datafusion to dev-dependencies
+implement Extend<SequenceNumberSet> for SequenceNumberSet
+Lower log level, clarify message, and revert file rename in WAL replay
+Remove unnecessary `into_iter` and use the size of the type
+Use the same hasher instance for ArcMap and HashMap
+add query and write subcommands to the influxdb3 CLI
+Update datafusion to version 29.0.0
+implement interpolation fill strategy for GapFillExec
+enforce known categories for columns in type system
+enable writes breakdown in backfill tests
+add hidden CLI options to disable sending telemetry and configure the telemetry endpoint
+Fix argument order for `TestLoader`
+introduce helper type AlwaysSome to manage Option values
+add assurance for ignoring multiple error states when present in exceptions
+implement simple rate limiter for catalog queries
+Move sql script files to end-to-end query tests and apply code review suggestions
+rename wal waker to deleted_file_waker for clarity
+Add /ping API to serve version and revision information
+remove unused db_name field from delete payload
+Add FlightSQL client and basic end-to-end test
+move server_util crate under authz
+Update datafusion dependency to revision 4afd67a
+add info logs for namespace CRUD actions
+make compact_persisting_batch infallible by removing Result return type
+add load generator comparison app and refactor based on PR feedback
+Return 422 for limit errors during partial writes
+Introduce `TokioDatafusionConfig` and rename `QueryDatabase` to `Database`
+add test cases for BufferTree projection logic
+add v3 label to dependabot Rust PRs
+add SequenceNumberSet run optimisation using run-length encoding
+Use table summary for chunk metadata in compactor
+implement parquet cache persistence and use concrete Persister type
+add preliminary usage instructions and remove outdated series id references
+Include sender identity in gossip dispatcher
+correct error message for unimplemented SHOW TAG KEYS ON db
+make chunk summary mandatory
+add in-memory parquet cache to write buffer
+relax required fields restriction when creating tables via CLI or API
+Prevent unauthorized writes in flux "to" function and add test
+move SequenceNumberRange type to root for reuse
+move all gRPC assembly into ioxd_querier
+include full ParquetFile metadata in PersistCompletionObserver
+remove monotonicity invariant asserts and SequenceNumberRange
+change ingester query errors to debug level
+Share the same File instance with a Mutex around it
+Update datafusion to include required changes
+remove hardcoded metric attributes and duration from disk protection
+move tokio_unstable to cargo config and fix docker build environment variables
+add retention flagging to GC
+Remove dead code and codegen without goimports
+Lower query latency by modifying new_chunks function
+define RPC service for converging schema cache content
+add end-to-end test for JDBC integration
+only consider non-empty partitions for the per-namespace buffered partition limiter
+add test coverage for sorting and merging in compactor using itertools for permutations
+expose peer socket address via gossip handle
+Add noop DataFusion plan executor for testing
+Rename commands activate/deactivate to enable/disable
+pre-compute the number of new columns during schema merge
+add test case for division operator not performing cast
+Upgrade datafusion to v18
+include partition ID in panic message
+Update datafusion dependency to revision e222bd6
+Update datafusion to version 28.0.0
+optionally enable and start the gossip subsystem in the router
+Add CLI commands to create and delete metadata caches
+bundle partition cache requests to reduce catalog accesses
+Stream Parquet file bytes to file on disk and only get files not already on disk with the reported size
+Refactor accumulator logic for clarity
+Fix projection pushdown for ParquetExec ordering
+
+remove #7513 workarounds from `influxql_metadata.influxql`
+Add timestamp data type to VarRefDataType and update keywords for `!=`
+Refactor disk space metrics to report WAL directory statistics
+allow UpstreamSnapshot to be initialised with a "contains probe" boolean indicator
+move ringbuffer to heap allocation
+Rename `router_rpc_write` to `router2` and update ingester command
+Add compaction plan debug info
+derive and test partial equality for SequenceNumberSet
+add common lints to service_grpc_schema crate
+recreate test_partition_key via test generator
+remove unused dependencies
+Add InfluxQL metadata to describe group key layout
+build row data for WAL directly in write validator
+avoid unnecessary upstream load when write requests cannot succeed
+Avoid polling a ready future in series set converter
+set default partition hash ID for partitions in tests
+expose namespace custom partition scheme in create and list calls
+fill catalog sort_key_ids for partition with coming data
+Add FILL(linear) support in issue_6112.influxql
+add definition for the output of compacting a partition
+rename retention validator to retention validation
+Update datafusion dependency to version 18.0.0 with new revision
+Box large `Result` error types in data generator
+ensure partitions are only processed once
+Fix flaky `service::tests::test_log_on_panic` and update dependencies
+Fix querying of virtual dbrps and creation of virtual mappings
+replace PartitionKey p1, p2, p3 with ARBITRARY_PARTITION_KEY, PARTITION2_KEY, PARTITION3_KEY
+decode Flight API ticket using try_decode
+update tests and actual time range in compactor2
+Remove iox_arrow_flight crate and update dependencies
+add helper method to construct HTTP write requests
+move partition progress decisions into PossibleProgressFilter
+assert service limit error messages from the catalog
+Use a single `TestLoader` in integration tests
+Remove procspawn and isolate test to reduce dependencies
+add logging layer for ingester to querier V2 client
+Consolidate chunk pruning implementation and remove redundant code
+Revert "Track the record batch origin of series sets"
+add bitcode dependency
+Implement catalog read/write for persister
+add compaction level to commit metrics
+Update datafusion to version 22.0.0
+add expression tree traversal API
+add macro for easily initializing RecordBatch and Schema in tests
+implement all-at-once target level split for file compaction
+improve querier->ingester tracing with hierarchy items and span names
+add checks for column creation when using non-default partition templates
+Ensure template length always returns a value greater than zero
+Document IOx Flight API and add convenience methods for InfluxQL handling
+add tests for same, different, and no database in request header for FlightSQL
+document potential panic during record batch conversion
+add single-tenant mode to IOx routers
+Ensure only one DataFusion memory pool and bridge exist
+Fix shard id handling during compaction by using const shard index to read its ID and refactoring shard ID reading during compactor initiation.
+add output sort key to chunk extraction
+Add gap fill query test for missing time bounds
+Add IOX_COMPARE sort for SHOW TAG KEYS queries with WHERE clauses
+Reorder imports in the ingester to match a consistent order
+Remove unused `ROW_GROUP_READ_SIZE` constant
+move query handling types to query_handler module
+Revert commit removing circuit breaker configuration
+prevent giving the filter a new-style partition
+    Rename querier2 config to querier in compactor tests
+Properly resort columns when performing projection pushdown
+add default log level for influxdb3
+add deleted_at column to Namespace
+use recurring L0 end time as hint for split times
+store query test artifacts for debugging
+stop inspecting RecordBatches after finding one row
+coalesce concurrent partition fetch requests
+move ParquetFileSimulator to compactor2_test_utils and update parquet file sink
+Fix typos and improve clarity in migration documentation
+remove unnecessary subtraction when updating WAL buffer size hint
+replace println! with tracing in ensure_directory_exists function
+Revert flagging partitions for deletion by retention policy
+implement Eq for TablePartitionTemplateOverride, add size function and cache partition template in querier
+increase the number of pre-warmed partitions in ingester2
+allow MockProvider to be cloned
+Add ingester2 crate for Kafkaless MVP
+add ingester-querier protobufs to buf build
+Exclude measurements when the projection has no matching fields
+Wrap join and execution errors in DataFusionError::Context
+allow ParquetFileTx to accept any type convertible to ParquetFile
+add data fusion metrics to compaction spans
+Add MemorySize struct and use it for exec-mem-pool-bytes in compactor
+benchmark concurrent query performance against a single partition
+Refactor catalog configuration to be entirely DSN based
+add compaction_cold_partition_minute_threshold flag
+Create layout tests for scenarios with large size overlap files
+Add tests for ChunkTableProvider::scan and fix predicate pushdown
+fail fast on invalid shard config and fetch transition shard ID
+assert namespace ID consistency in cache entries
+resolve cargo deny failures by updating dependencies
+run object store cache fetches on separate tokio runtime
+add common lints to service_grpc_namespace crate
+add NamespaceSchemaGossip type for best-effort cache convergence using peer gossiping
+updates for Pro, including visibility changes, WAL file parsing, and duplicate removal
+use SerdeVecMap for DB -> Table structure in PersistedSnapshot
+add benchmarks for partition pruning during query execution
+create AmazonS3 object using all environmental variables
+persist last cache configuration to the catalog on creation/deletion
+Download JDBC driver in CI and build client with makefile to fix racing tests
+implement FlightSQL support by serving gRPC requests on the same port as HTTP
+update dependencies and run cargo hakari tasks
+add end-to-end test for measurements containing equals sign
+add benchmark for namespace cache `put_schema()` stack
+add gapfill parameters and time range to gapfill operation
+Update datafusion to revision 3e24795
+extract function to mark and enqueue non-empty partitions for persistence
+Fix parquet cache invalidation
+ensure only the latest scraper is run by addressing the Golang for-loop variable problem
+Replace buffer's backing vec with array and add criterion benchmarks
+Fix description for namespace name query retries
+add helper function to create NamespaceCreated protobuf instance
+update cargo.lock file
+Remove decorator pattern from NamespaceCache
+avoid cloning persist handle in persist_partitions
+improve thread naming in dedicated executor
+add proto definition and configures prost to build the rust types
+Fix mock resolver to panic on multiple calls
+add table and namespace IDs to write buffer wire format
+introduce IngesterId type and initialize it at startup
+Add more detailed tracing to parquet creation
+Arc CachedPartition to reduce memory overhead
+Remove namespace from DmlWrite and DmlDelete structs
+add influx regex to DataFusion regex expression lowering
+add test asserting default partition key format
+decouple catalog and last cache initialization from write buffer
+implement core metadata cache structs with basic tests
+unwrap type wrapper for table ID in persist worker
+Remove executor context and once_cell dependency
+remove cold compactions and compaction_type options
+increase default max desired file size and add or partition filter test
+Remove display inspection of record batches in plan
+Remove op-level sequence number from proto definition
+wrap ReadInfo in a protobuf "Any" in DoGet ticket
+Print diff of SQL snapshots on failure in CI
+determine sort key order for DeduplicateExec
+Remove unused dependencies in `compactor2_test_utils` and `ingester2`
+build scan plan with enable_deduplication option
+remove unused PartitionInfo struct
+use sorted vectors instead of hash maps in cache system
+Fix gRPC errors and panics related to invalid or duplicate group columns.
+introduce compaction job semaphore to limit concurrency
+remove unused LIKE operator tests in InfluxQL planner
+bind the namespace service
+add last-cache create CLI command
+Unify ingester address validation across components
+Reorder fields in NamespaceSchema for consistency
+avoid converting arrow schema to iox schema in chunk extraction
+Fix read group query tests by deleting read filter file and porting tests.
+remove target_level variable from file_classifier/split_based.rs
+add inclusivity checks to CI and update tests for inclusive language
+Fix table limit error message to display "tables" instead of "columns"
+Add workspace_hack dependency and import it in gossip crate
+Correctly insert Option<PartitionHashId> and add tests
+Restructure tests to match enterprise layout
+implement plan_get_xdbc_type_info to use a static record batch
+decouple disk full protection task from disk metrics tracker reporting interval
+implement regular expression operator support
+move service protection limits to namespace level and refactor gRPC handler
+add property test for partition key generation with randomized inputs
+fetch and configure python-build-standalone binaries
+document behaviour when the gossip message queue is full
+change router rpc balancer to return iterator of elements starting from offset
+implement large-size overlapped file support
+Check Parquet files for the whole namespace
+read WAL segment ID from file stem instead of file name
+Disable filtering based on max sequence number in RPC write mode
+add function to read partition IDs to compact
+allow immutable access to ParquetFile metadata in persistence notifications
+Fixes UI crash and updates UI release documentation.
+roll back addition of DatabaseSchemaProvider trait
+Ensure disk full protection task terminates correctly and improve logging
+expose configuration parameters for gossip sub-system on ingester
+Add influxql module with initial implementation
+Make `persisted_file_counts_from_ingesters` an `Option` to differentiate between "not present" and "present but empty"
+Make the system.queries table accessible when queries are initiated in debug mode
+generalize deferred loader helper for broader use
+Add `inspect` command to debug WAL files
+Refactor IOx process shutdown sequence to delegate RPC & HTTP server shutdown
+allow span context creation with optional collector
+wrap migration bookkeeping and script into a single transaction
+implement ChunkOrder::get method
+add metrics for persist duration and queue duration
+Include completed persistence count in ingester query responses
+Add second level of wait to WAL drain & rotate before shutdown
+bound the duration of time a write may take to be processed after being added to the WAL
+add partitioner benchmark to router
+assert user-facing service limit error messages
+introduce InfluxRpcTest trait for Storage gRPC API testing
+stream CSV and JSON query results to reduce memory overhead
+remove indented URL in comment
+configure datafusion threads for persist execution based on logical cores
+Move flightsql code into its own module
+consolidate selector implementations and simplify first/last selectors
+apply standard lints to ioxd_common and fix lint failures
+Suppress clippy::bool_to_int_with_if lint in compactor and trace_http
+rename RpcWrite's generic C to T for consistency
+Remove references to IOx in documentation
+Avoid snapshotting most recent WAL period to prevent data loss
+Refactor op comparison for wal decode tests to be more general
+Remove checksum from SegmentEntry
+prevent sort order mismatches from creating overlapping regions
+Enable remote get to use catalog service regardless of server type
+use constants in CoalescePartitionResolver tests
+add config parameter to determine when a partition is cold
+Enforce non-zero values for n_threads and n_target_partitions.
+add async-trait and test_helpers dependencies to compactor2
+Update DataFusion, arrow, and parquet to version 27.0.0
+add standard lints to parquet_to_line_protocol and fix lint failures
+Remove predicate support from query chunk
+update gap fill planner rule to use LOCF
+use typed stream instead of peeking first element
+add delete_skipped_compactions to CompactorHandler
+emit detailed panic message for missing columns in catalog schema
+Update datafusion to 4dcf985
+Enforce a maximum of 8 parts in partition templates to limit key size
+Make `FilesToSplitOrCompact` cloneable and pass by value in `run_plans`
+move last cache implementation into the influxdb3_cache crate
+include namespace ID in panic message when resolving namespace name
+wire up disk_full_protection guard task to IngesterGuard
+document TTL for parquet_file cache
+add initial support for soft namespace deletion
+adjust bytes_written in test to reflect ColumnData size optimization
+Decouple `QueryNamespace` from `ExecutionContextProvider` and `QueryNamespaceMeta`
+Implement WAL segment file deletion and ingester restart in e2e test
+Update DataFusion to v21.1.0
+add and clarify comments in compactor2
+change TTBR metric to a histogram
+Check catalog on cache miss for namespace auto-creation
+Implement round-robin sharder and benchmark against JumpHash
+run cargo hakari tasks to sync dependencies
+move ignore writes object store to object_store submodule
+adjust memory budget and file size for compactor tests
+update cache_parquet_files signature and add Evict variant for CacheRequest
+refactor compactor to use components for compact execution
+Update DataFusion pin to fda561e
+move skip logic for shard replay to partition level
+Correctly handle equal values with different timestamps in value-based selectors
+Reduce verbosity of ingester time spent log to debug level
+add common lints to datafusion_util crate
+implement remove_if_and_get_with_status function in RemoveIfHandle
+implement probabilistic PartitionProvider decorator with bloom filters
+add namespace autocreation options to router rpc write
+account for memory allocations in InfluxRPC group outputs
+retry authz probe on communication errors
+assert static cache content hash does not change
+Extract compactor2 test utils into `compactor2_test_utils`

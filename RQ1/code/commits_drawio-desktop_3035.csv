@@ -1,0 +1,1107 @@
+Hash,Date,Author,Message,IsMerge
+dbf5909892eb53cb8c745290da581457d61e07f8,2025-03-16 01:56:06,David Benson,Updates for release,False
+e7b7b1bd59ea72dc7c0ac1ca8658ba78805fce3d,2025-03-05 09:22:44,Ashraf Teleb,Removed vsdx export,False
+932e6afe0523576527c643af32f7a7cd48c72245,2025-02-24 16:18:40,David Benson,Updates for release,False
+a28aa5ef95edd4ba028d0c09b9b7f794a85a8267,2025-02-24 14:44:22,David Benson,Reverts commander while 13.1.0 tested further,False
+1c4f3eecd13f0596d7777de334d45218ac0767fd,2025-02-21 23:56:29,David Benson,Merge commit 'de3abd2dc6bd496da3346c44872ddfc0bed15b97' into dev,True
+de3abd2dc6bd496da3346c44872ddfc0bed15b97,2025-02-21 22:47:46,David Benson,Fixes pdf-lib referencing,False
+8373d1edb1c9ced0e5cd7403d10d41a72eade20f,2025-02-21 20:39:21,David Benson,Corrects electron-builder version,False
+8488fb12f13654a3bed2b249a1144ba884ed9c6e,2025-02-21 20:14:11,David Benson,Merge commit '4a2a40ee7901ca7051aa1537a90c80c1e0497811' into release,True
+4a2a40ee7901ca7051aa1537a90c80c1e0497811,2025-02-21 20:13:54,David Benson,Updates for 26.0.15 release,False
+4aea107162b5ae12835fa94c195dcd15987c1097,2025-02-09 20:30:06,David Benson,Update README.md,False
+154f7f08cf63accc2ea6fe0bd06515a41d916b28,2025-02-01 05:24:32,Ashraf Teleb,Updated electron to v34.0.2,False
+1c926f54d03eedd4d16b0a99804d13cf0c9376b5,2025-01-27 19:18:25,David Benson,Merge commit '2ceccf275be66662a030a4d2948e2dc1cca8fce5' into dev,True
+2ceccf275be66662a030a4d2948e2dc1cca8fce5,2025-01-27 17:26:03,David Benson,26.0.9 RC 1,False
+c6ec4eb0effbf9ac789d6bda3cd7a401dd5de26c,2025-01-27 17:25:47,David Benson,Merge commit '48e1fce64e2007e22c63655de74a8f1283f718f2' into release,True
+48e1fce64e2007e22c63655de74a8f1283f718f2,2025-01-27 17:25:12,David Benson,Updates to core 26.0.9,False
+b32fc1b657b68e3a49a179d85751a6f83b20b1b3,2025-01-24 23:38:04,David Benson,Update README.md,False
+687135870f180fa87dd2c8236531c704bb7c745d,2025-01-24 19:55:33,David Benson,Merge commit 'b0e790d706383e50b0e7c70099fc02563bcc86ac' into dev,True
+b0e790d706383e50b0e7c70099fc02563bcc86ac,2025-01-24 00:17:38,David Benson,26.0.7 RC 1,False
+6b4d4b8402ccf4113900ac9a3f95638e99d67dbe,2025-01-24 00:17:19,David Benson,Merge commit 'c7ecd4776eba34d2b7f302de90cd7339178dbf17' into release,True
+c7ecd4776eba34d2b7f302de90cd7339178dbf17,2025-01-24 00:17:09,David Benson,Updates to draw 26.0.7,False
+ff4b60e3dbdd23802a061dfcb18942ca1cd3d0c1,2025-01-06 16:18:03,David Benson,Merge commit '5afd677f5f8afe0d6607affc307ed8fe9b5595bd' into dev,True
+5afd677f5f8afe0d6607affc307ed8fe9b5595bd,2025-01-06 15:26:54,David Benson,26.0.4,False
+6876fdce82aefe0f184a4c186f259d116277ce47,2025-01-06 15:26:30,David Benson,Merge commit 'bbfa5a5c2ed5e12863492b86e85d7f062cb93f3c' into release,True
+bbfa5a5c2ed5e12863492b86e85d7f062cb93f3c,2025-01-06 15:26:05,David Benson,Updates to core 26.0.4,False
+e058771399fe72f14d1f17b120034d6c68a2bfcd,2025-01-06 14:25:02,David Benson,Revert to 32.2.5,False
+5b5fde637f006b02f5bfd1f5b9dc3a865187bab7,2025-01-03 23:09:26,David Benson,Merge commit '96fa402e561f3832701ebf04a071c0dbc5860fc8' into dev,True
+96fa402e561f3832701ebf04a071c0dbc5860fc8,2025-01-03 17:49:13,David Benson,Removes jscolor references,False
+0be7bf009f7001cfa9fe026db6d6a97ced2251ac,2025-01-03 17:34:40,David Benson,26.0.3 RC 1,False
+4dfe0215deb3528cf2f3a17dc7bc514def8b35a5,2025-01-03 17:34:00,David Benson,Merge commit 'f8253404b803e3994617ad948718b6ecc2e414d8' into release,True
+f8253404b803e3994617ad948718b6ecc2e414d8,2025-01-03 17:33:46,David Benson,Updates to drawio 26.0.3,False
+31ad438c3f214b71cc03d93bd3aee9bba4754ef3,2024-12-27 20:13:46,Ashraf Teleb,Updated dependencies,False
+e031c7c27109913bd052dd65b636add447db1cd6,2024-12-27 04:44:18,Ashraf Teleb,Fixed border export option with image formats,False
+bb13e5d639047b14e652d6169b395f7f27fca1c8,2024-12-27 02:41:41,Ashraf Teleb,Added embed fonts to svg export,False
+b09189da108eebebfc8659bcbdd26d20a6adf894,2024-12-26 18:27:22,Ashraf Teleb,Fix possible multiple close confirmation (#drawio-desktop-1894),False
+3ea0a84cd19d58f0d7d59d363e612b60e6553dc2,2024-12-16 18:43:07,Gaudenz Alder,Uses auto as default for svg-theme argument,False
+353a0574853f79e901afcb62cd8088d3999089e8,2024-12-03 17:33:41,David Benson,Merge commit 'f6741fb9677f49a0b45624ae1868c5fe8ae76088' into dev,True
+f6741fb9677f49a0b45624ae1868c5fe8ae76088,2024-12-03 16:44:39,David Benson,Merge commit '9e41e7468ce2a58b70614b3390eef5f4c7e0f3dd' into release,True
+9e41e7468ce2a58b70614b3390eef5f4c7e0f3dd,2024-12-03 16:44:29,David Benson,Updates electron-builder to 25.1.8,False
+b9321ec9ca244f9ec6e879d43de8bf0a82969ff0,2024-12-03 15:59:56,David Benson,Merge commit 'caff4387f2068b8143984f2b034c2b3914ad0983' into release,True
+caff4387f2068b8143984f2b034c2b3914ad0983,2024-12-03 15:59:45,David Benson,Updates notarize to 2.5.0,False
+c800c92cebac578453f74edd8441b7e284dc8efc,2024-12-03 15:21:43,David Benson,Merge commit '4bfd3411aef302d65b5cf7fb2aabc85d98b8df61' into dev,True
+4bfd3411aef302d65b5cf7fb2aabc85d98b8df61,2024-12-03 15:16:36,David Benson,25.0.2 RC 1,False
+0e3507edfb22ff5d3733589636942b9d08c58c3f,2024-12-03 15:15:36,David Benson,Merge commit 'd4ea25746825c280200dd08155dd4385ec0c2004' into release,True
+d4ea25746825c280200dd08155dd4385ec0c2004,2024-12-03 15:14:31,David Benson,Revert electron to 32.2.5,False
+ade9c4d40178965257378b6e43580a389287f603,2024-12-02 23:51:10,David Benson,Merge commit 'c91fac3ff4ccac8864ae406813941f6d89c277c1' into dev,True
+c91fac3ff4ccac8864ae406813941f6d89c277c1,2024-12-02 20:15:57,David Benson,25.0.1 RC 1,False
+e9b957c449629245a0d48a59d7179aef901510a7,2024-12-02 20:15:35,David Benson,Merge commit 'c14ed24bba76a65b80f98d92e1b97bb9859a5177' into release,True
+c14ed24bba76a65b80f98d92e1b97bb9859a5177,2024-12-02 20:15:24,David Benson,Updates to 25.0.1,False
+c22db25a5e25a122aab805cadc98604ce2af6938,2024-11-30 00:32:37,David Benson,Merge commit '0951615e77320a6523a157b48a65de26f681dd4f' into dev,True
+0951615e77320a6523a157b48a65de26f681dd4f,2024-11-30 00:21:44,David Benson,25.0.0 RC 1,False
+91d87fdec90bff7f594d84684505cc506a10c273,2024-11-30 00:21:20,David Benson,Merge commit '06807a0fc6f35f56ecd0d580f75945aad8addd1f' into release,True
+06807a0fc6f35f56ecd0d580f75945aad8addd1f,2024-11-30 00:21:08,David Benson,Updates to core 25.0.0,False
+83afa1b5595b1f67cc0d0298a2aad897ad28fddf,2024-11-29 09:16:15,Ashraf Teleb,Updated build scripts based on latest drawio changes,False
+43e55f6538cd5f95191e11ecd0332eb91272eb19,2024-11-29 00:29:11,Ashraf Teleb,Updated source removal,False
+13a0fb891f81fbb52e65083060c99e9c37d517b3,2024-11-27 03:49:02,David Benson,24.9.1 RC 1,False
+9c10ae1a44dc802123047bf4d3ddf8840caa038b,2024-11-27 03:47:45,David Benson,Merge commit 'd0fddc1135d0f4acbf439b0a703c3f0e7db05f84' into release,True
+d0fddc1135d0f4acbf439b0a703c3f0e7db05f84,2024-11-27 03:47:11,David Benson,Updates dependencies,False
+bad25d2fc6c085bb161f5a440b91e8e5890c8ae0,2024-10-25 22:01:15,David Benson,Allows any 32.y.x version of electron,False
+271ea6b2bc42f76eb69b876b69275225d62b97e2,2024-10-24 16:42:52,Ashraf Teleb,Fixed print page size (#drawio-desktop-1893),False
+d1bb63c97f4b5e33a3adc200687a0c2a7265e290,2024-10-01 21:37:21,David Benson,Merge commit '7945aa1ca0aa15d79b1c67554c0b5bd0f6bb8d41' into release,True
+7945aa1ca0aa15d79b1c67554c0b5bd0f6bb8d41,2024-10-01 21:37:05,David Benson,Updates to draw.io core 24.7.17,False
+665a802be8f4f616ac703a2e350a2d466c4cba44,2024-10-01 20:56:37,David Benson,Merge commit 'bcf02d6915d7396ea14b5f360e29bec2d4471813' into dev,True
+bcf02d6915d7396ea14b5f360e29bec2d4471813,2024-10-01 20:56:04,David Benson,24.7.17 RC 1,False
+c0ee5426c7b05069897d65ac9ee998b8dba60c86,2024-10-01 20:55:31,David Benson,Merge commit 'd4b513222f74195126cfe626c3732a225fb24cd5' into release,True
+d4b513222f74195126cfe626c3732a225fb24cd5,2024-10-01 20:54:58,David Benson,Dependency update,False
+7a3c1add34730c8b53d874fd0c02188dd6912dca,2024-08-29 19:57:19,David Benson,Merge commit '78f353070b6bb3785efcb493d1688e0f763bfbe0' into dev,True
+78f353070b6bb3785efcb493d1688e0f763bfbe0,2024-08-29 17:48:58,David Benson,Fixes yarn file,False
+3da17b4975f29d60f2e434a2bcad9373ffa00fac,2024-08-29 17:47:33,David Benson,Merge commit '3ac88c4fef7d893654ce1ae0ec15b401bcf20df3' into release,True
+3ac88c4fef7d893654ce1ae0ec15b401bcf20df3,2024-08-29 12:14:28,Ashraf Teleb,Updated dependencies (including Electron 32),False
+0e0349aabfe53dabb270ea343b113bedae76fc90,2024-08-28 20:53:28,David Benson,24.7.8 RC 1,False
+c95b804b32fe8a5ece011f734ff2fb17e8b109c1,2024-08-28 20:52:16,David Benson,Merge commit '57f284a35666796ddfaa0c600f717dca048b2efc' into release,True
+57f284a35666796ddfaa0c600f717dca048b2efc,2024-08-28 20:51:30,David Benson,Merge commit '26db52161a21063d3c54e293466040b5e5aa398f' into dev,True
+c506047be27db28300b485dbcb00c3970d908571,2024-08-28 20:50:48,David Benson,Updates to draw.io core 24.7.8,False
+26db52161a21063d3c54e293466040b5e5aa398f,2024-08-09 18:08:03,Ashraf Teleb,Added arm64 to GH build action,False
+5d3a3ad2aee3b26420ca3f7985713ad69cd4d090,2024-08-09 17:44:35,Mohamed Mohamedin,"Merge pull request #1804 from airtaxi/dev
+
+Added Windows ARM64 Support",True
+5bdfb0936b1eff9c4c3cd76ddfc86b36eb9aee49,2024-08-09 14:01:30,David Benson,Merge commit 'ce539a95c8e8eb13f18b62fe231893b1c58f720c' into dev,True
+9b212313309a77e7defda19971be932849abe366,2024-08-09 14:01:21,David Benson,Refreshes yarn depends,False
+d8f7c204957a79a52eb0147e0b89d25d98eb1eec,2024-07-31 22:41:59,David Benson,Update stale.yml,False
+ce539a95c8e8eb13f18b62fe231893b1c58f720c,2024-07-25 22:01:40,David Benson,24.7.5 RC 1,False
+cd41ad7bf6f55d729aec04953cd93cf9e872baf8,2024-07-25 22:01:10,David Benson,Merge commit '1f3739654cff80334aeba5efe7fc93b92c9fc900' into release,True
+1f3739654cff80334aeba5efe7fc93b92c9fc900,2024-07-25 21:49:33,David Benson,Updates to draw.io core 24.7.5,False
+250e02f0e801b411ae6773f7f26f0b75c9531c7d,2024-07-25 19:01:28,Mohamed Mohamedin,Updated packages,False
+250661559015847990ac6f5e915c446577ab857a,2024-07-03 11:04:05,Howon Lee,Added Windows ARM64 Support,False
+7e6d2b0688c833c070752ba609374282ebe681e6,2024-06-27 23:04:37,David Benson,Merge commit '050b0590067aaa6389ffd282593546768e59372f' into dev,True
+050b0590067aaa6389ffd282593546768e59372f,2024-06-27 23:04:07,David Benson,24.6.4 RC 1,False
+c820a4e41354f4ce3848aecc81ed100d69161181,2024-06-27 23:02:47,David Benson,Updates to core 24.6.3,False
+8c1d8143f914760637f8c194049473e5728eeb84,2024-06-26 22:32:07,David Benson,Merge commit '4aa7fcbf0f4453797b8034b0472f984f060e22d1' into release,True
+4aa7fcbf0f4453797b8034b0472f984f060e22d1,2024-06-26 22:31:42,David Benson,Upates to core 24.6.3,False
+2a2ce8aa9dd67b07944bab56cde49451c007d599,2024-06-26 19:22:19,David Benson,Merge commit '1381c5d06773f747dea8445260b35b49f06ebbb9' into dev,True
+1381c5d06773f747dea8445260b35b49f06ebbb9,2024-06-22 19:58:05,David Benson,Merge commit '1ae1a3f85eba5404389c21fc5ab9a993e3c946a9' into release,True
+71c8f6ff0c0b64066921be9b4b0fdd2fcd529d8a,2024-06-22 19:39:48,David Benson,24.6.2 RC 1,False
+1ae1a3f85eba5404389c21fc5ab9a993e3c946a9,2024-06-22 19:39:15,David Benson,Updates to draw.io 24.6.2,False
+f849839294cab5d36324546465cbc15b94583b4e,2024-06-22 19:37:59,David Benson,Merge commit '63830ef016990bf7542ea9362a837d462009c006' into dev,True
+63830ef016990bf7542ea9362a837d462009c006,2024-06-21 22:48:28,David Benson,"One day I shall fix this, but it is not this day",False
+db25420e19ddad641bddeac3e1a86ef55cd7e8a3,2024-06-21 22:41:13,David Benson,24.6.1 RC 1,False
+db0f6612cfeedd5fbad3c5739933b176dd82df17,2024-06-21 22:40:45,David Benson,Merge commit 'a7c888ba100cde98244536e6772d2ce25153a811' into release,True
+a7c888ba100cde98244536e6772d2ce25153a811,2024-06-21 22:40:18,David Benson,Dependency updates,False
+91376f56f6e3a05564cbecf20b581a133b2f0e04,2024-06-20 09:53:33,Gaudenz Alder,Adds UI zoom to application menu [jgraph/drawio-desktop#1359],False
+fb6a654be457e1af2ddd058bad9e9e1331d8fc4d,2024-06-12 18:48:40,Mohamed Mohamedin,Fixed lag when a window is moved [jgraph/drawio-desktop#1780],False
+d47cf25e8ff04e463a3c05125118c064f27d94ab,2024-06-11 20:48:37,David Benson,24.5.3 RC 2,False
+17be0472cfad8f594e3cf7d205464be472bdbcfa,2024-06-11 20:37:44,David Benson,24.5.3 RC 1,False
+8bdf1489ba92265fd6ec3ea99208373ccd4d2701,2024-06-11 20:37:12,David Benson,Merge commit '2052b1e453db0f31216a1e868faa856c0effa596' into release,True
+2052b1e453db0f31216a1e868faa856c0effa596,2024-06-11 20:36:38,David Benson,Updates to core 24.5.3,False
+32badd8f0627841bac7aa4a39adef39bfb8c2f5d,2024-06-08 01:07:19,Mohamed Mohamedin,Removing --no-sandbox argument from file/dir paths (#drawio-desktop-1056),False
+deab898764f37d7709366439f22987cb8f170d53,2024-06-07 15:19:36,David Benson,Delete .github/stale.yml,False
+7d1c0580ad184ca5e94cbf0e4fc2af1dbd6a82e8,2024-06-07 15:16:38,David Benson,Update stale.yml,False
+2892c8635c83b94f60cd192c6e48c377dfdd124d,2024-06-07 03:01:33,David Benson,24.5.1 RC 2,False
+fdd9b72e4d957201b09755aec1a7b27c563eaebc,2024-06-07 03:00:31,David Benson,Merge commit '276d207cf0807182926502e00f93a8973e0af43d' into release,True
+4b993bdddb37abec23793ab4df78b9de24e233ff,2024-06-07 03:00:18,David Benson,Merge commit '806690f3555a5e147fc5c8bee80876bffc8ceda8' into release,True
+806690f3555a5e147fc5c8bee80876bffc8ceda8,2024-06-07 03:00:05,David Benson,Dependency update,False
+276d207cf0807182926502e00f93a8973e0af43d,2024-06-07 02:30:06,David Benson,24.5.1 RC 1,False
+afc38fb459c7bbd0558ba9a8d072f9d4a63c1bf3,2024-06-07 02:29:36,David Benson,Merge commit '2b67ece44b5b670c98e8e3b051404b30ffcf79d8' into release,True
+2b67ece44b5b670c98e8e3b051404b30ffcf79d8,2024-06-05 22:21:30,Mohamed Mohamedin,"Added silent update (env var DRAWIO_SILENT_UPDATE or argument --silent-update) [not tested yet] and disable update argument (--disable-update) [#drawio-desktop-467, 1355 and 1734)",False
+2d36fe90fd062450e0bd83e196b80f729e7d8fa3,2024-06-01 05:24:32,Mohamed Mohamedin,Disabling desktop shortcut creation and auto run after install for MSI also,False
+0285f63d413cf7bd50f02e7e6006cca05dcdf744,2024-05-31 21:42:38,David Benson,Merge commit '5f655d93fedcbebf48f5e4c1cc24354338cb868f' into dev,True
+5f655d93fedcbebf48f5e4c1cc24354338cb868f,2024-05-31 21:04:02,David Benson,24.4.13 RC 1,False
+434a5476e1f641262d429b0bba13d0afbea76c78,2024-05-31 21:03:40,David Benson,Merge commit '4bd7c8e9ab86d44ae94f1f1f63b2b0354373f3ea' into release,True
+4bd7c8e9ab86d44ae94f1f1f63b2b0354373f3ea,2024-05-31 21:03:13,David Benson,Merge branch 'dev' of https://github.com/jgraph/drawio-desktop into dev,True
+5a39b4d47c6442820e84cb00076b13dbdf429694,2024-05-31 21:02:43,David Benson,Updates to core 24.4.13,False
+59511727291e9ce811120b8dffa29ba6de5c9f6f,2024-05-31 01:54:31,Mohamed Mohamedin,Disabling desktop shortcut creation and auto run after install (#drawio-desktop-924 & #drawio-desktop-896),False
+638f0c090b8ba12a8cd9f98f84898526a6daea28,2024-05-24 19:21:43,David Benson,Merge commit '298d412ee6fc86dcb232d930cccb2afd12de1902' into dev,True
+298d412ee6fc86dcb232d930cccb2afd12de1902,2024-05-24 18:22:23,David Benson,24.4.8 RC 1,False
+8fb8c031e705f270419dece9bb2641edd47cf075,2024-05-24 18:22:04,David Benson,Merge commit '39cc3d113f91a1a364c4d3cd63a2d1e267e6db0b' into release,True
+39cc3d113f91a1a364c4d3cd63a2d1e267e6db0b,2024-05-24 18:20:32,David Benson,Updates to draw.io core 24.4.8,False
+f5537f468ad383ed89f4734fb2fa57a32ee4422c,2024-05-24 15:42:36,Gaudenz Alder,Adds missing variable declaration [drawio-desktop-1746],False
+67352946ac5e39ec8d85ede580c6178fe5ed69c6,2024-05-24 11:31:18,David Benson,Merge commit '40f835f72fcc7bd1350e1a6ac9b64973e4ceb725' into dev,True
+40f835f72fcc7bd1350e1a6ac9b64973e4ceb725,2024-05-24 01:50:32,David Benson,24.4.7 RC 1,False
+9b062078d8266b709137fa0312daa8cc7a952db6,2024-05-24 01:50:06,David Benson,Merge commit 'f626ef431da16efa516ff8e054f76ec75ba43966' into release,True
+f626ef431da16efa516ff8e054f76ec75ba43966,2024-05-24 01:49:51,David Benson,Updates to core 24.4.7,False
+1a8b1455c5298eb1e436c85be3553366249fc905,2024-05-22 21:33:23,David Benson,Merge branch 'release' into dev,True
+8557fc4431fe933fe30ec1a931b85207eca04fd9,2024-05-22 18:57:55,David Benson,Merge commit '5bab12f0829768748d25dec0a4f8e9ae4b3db090' into release,True
+5bab12f0829768748d25dec0a4f8e9ae4b3db090,2024-05-22 18:44:27,Mohamed Mohamedin,Fixed treating js files as modules in build scripts,False
+6fac43412fe62437f9cc8308daccd6757f1bc943,2024-05-22 18:19:25,David Benson,24.4.6 RC 1,False
+e8e59d8e2ad4c662d5ff91a41947625e1b780c5c,2024-05-22 18:14:02,David Benson,Merge commit '76ecd8cfd646a29965ed2c1ef8c58b60ba093045' into release,True
+76ecd8cfd646a29965ed2c1ef8c58b60ba093045,2024-05-22 18:13:49,David Benson,Updates to core 24.4.6 and electron 30.0.6,False
+b14b7a982933ef7dc1e5905bb78b6b5af0e02e1f,2024-05-21 15:23:27,Gaudenz Alder,Merge branch 'dev' of https://github.com/jgraph/drawio-desktop into dev,True
+5cfc53f69cb6877b1fec1cada1a067af7eda7e57,2024-05-21 15:23:25,Gaudenz Alder,Fixes crop option for desktop CLI [drawio-desktop-1728],False
+3f6b5d8fd6e93e615ccfb2a58231726acbc4070e,2024-05-18 03:04:22,Mohamed Mohamedin,Upgraded dependencies (including using Electron 30) and using ES Modules,False
+d3206b8b1706599c7faa3fea093346cae1daf18d,2024-05-17 15:14:02,Gaudenz Alder,Adds CSP for bootstrap changes in 24.4.4,False
+838e5cb9e08dd2ec859355b6eb3ad2737d76fe76,2024-05-13 21:04:47,David Benson,Merge commit '26237240203b9b61d3ffe5f4e042318c66383149' into dev,True
+26237240203b9b61d3ffe5f4e042318c66383149,2024-05-11 22:49:17,David Benson,24.4.0 RC 1,False
+21343668dbf5067c54ce96c73d8c2837a1906000,2024-05-11 22:48:56,David Benson,Merge commit 'b399f53e4aeedfb8c1f9cfa3edbdaedf017d017b' into release,True
+b399f53e4aeedfb8c1f9cfa3edbdaedf017d017b,2024-05-11 22:48:33,David Benson,Merge branch 'dev' of https://github.com/jgraph/drawio-desktop into dev,True
+32be5225dfdba3ed6160fc2005b688e74d65f933,2024-05-11 22:48:13,David Benson,Update to core 24.4.0 and dependency update,False
+ed1ec1127d2d6b33c53512df46efebff68611315,2024-05-09 00:21:29,Gaudenz Alder,Removes unused options for PDF export and printing,False
+9449d4f1cec8e3680c18b7d269434903b439e213,2024-05-08 23:49:57,Gaudenz Alder,Fixes internal links in PDF export,False
+2b776a6802c6a96ffbd58be1d500046d2241dc63,2024-05-07 20:42:56,Mohamed Mohamedin,RPM file compatibility with FIPS enabled RHEL (#drawio-desktop-1705),False
+2cd857a366e6d50d0ecce0692e68c70e45e60a90,2024-05-04 13:48:14,David Benson,Update CODE_OF_CONDUCT.md,False
+7f0d35109f7ca2115321c98dcfa77cf6dd526755,2024-05-04 02:00:33,Mohamed Mohamedin,Increased logging level of electron updater (#drawio-desktop-1700),False
+cf09a6b04182e88bc19323728d344d6f6fafa84d,2024-05-04 01:10:20,Mohamed Mohamedin,Confirm restored window position is still within display bounds (#drawio-desktop-1699),False
+a8568b84c4ad73346a30a5b755624606e9765309,2024-05-03 22:16:27,Mohamed Mohamedin,Added full support for fullscreen menu option (#drawio-desktop-1638),False
+057a8ceaad0cf3271c2b68bfe2d752cafee4c488,2024-04-29 21:44:40,David Benson,Merge commit 'baf07467354fce3028bfa957a60fb4bc43f486ba' into release,True
+baf07467354fce3028bfa957a60fb4bc43f486ba,2024-04-29 19:31:01,Mohamed Mohamedin,Updated index.html sha256 hashes,False
+826b79bc26bcb931beff231027f36c11a98ab415,2024-04-27 02:40:27,David Benson,Corrects path to mxgraph source,False
+e4ac9338e823b00b6f6ec3a123c70dcf5c46b45b,2024-04-26 22:37:54,David Benson,24.3.1 RC 1,False
+b0675d39ec3e9de4e471727e0d51028fb0eab494,2024-04-26 22:37:31,David Benson,Merge commit '3c542d3d2bcf44f51ab7229f7cffc288627adbf3' into release,True
+3c542d3d2bcf44f51ab7229f7cffc288627adbf3,2024-04-26 22:37:12,David Benson,Updates to core 24.3.1 and dependency update,False
+bb025e1b4fcb165a76e2c4d9648098de1e362860,2024-04-15 20:37:58,Gaudenz Alder,Merge branch 'dev' of https://github.com/jgraph/drawio-desktop into dev,True
+40034f66faf93bd49b1fb22fe6c3b9d0e7100070,2024-04-15 20:37:40,Gaudenz Alder,Removes unused pageWidth and pageHeight arguments,False
+c7fbd591b6b64e88a017bb76406eeb25e9c668af,2024-04-13 20:11:11,David Benson,Merge commit '7f56b589917ac27a27e99dd3b4a98f34af70eba8' into dev,True
+7f56b589917ac27a27e99dd3b4a98f34af70eba8,2024-04-12 22:31:53,David Benson,24.2.5 RC 1,False
+01b07f5d068083e1f49524d90fee54694f6aebba,2024-04-12 22:31:28,David Benson,Merge commit '95b50c3601150ff3a361179a06592cc8dab477ca' into release,True
+95b50c3601150ff3a361179a06592cc8dab477ca,2024-04-12 22:30:31,David Benson,Updates to core 24.2.5 and dependency update,False
+710db192ddee1222d7adf959ec68ceb29058db5a,2024-04-11 09:55:31,Gaudenz Alder,Fixes saving JSON data [drawio-desktop-1688],False
+3fee9d732fc8b78b2886e042262df8bda8ef6ba5,2024-03-23 23:52:44,David Benson,24.1.0 RC 1,False
+436a66ba28df816400de9e232a290208823dcae1,2024-03-23 23:52:24,David Benson,Merge commit '641da88d8168c0fdda6f1bfad274e39721192fd5' into release,True
+641da88d8168c0fdda6f1bfad274e39721192fd5,2024-03-23 23:50:46,David Benson,Updates to latest core and dependency updates,False
+6374d2fce4f4efe962730b5ecc10d89b5f869ca6,2024-03-10 13:49:04,David Benson,Merge commit '2c47e92b36155bf4109a4fbe83410be8acb70a3b' into dev,True
+2c47e92b36155bf4109a4fbe83410be8acb70a3b,2024-03-09 19:24:12,David Benson,24.0.4 RC 1,False
+c709990cd4bd0e3cd5d7c1b79dbb7d0932e5d22f,2024-03-09 19:22:39,David Benson,Merge commit 'f67b9428bce316785c949c6820341885b715e025' into release,True
+f67b9428bce316785c949c6820341885b715e025,2024-03-09 19:22:22,David Benson,Updates to latest core and dependency updates,False
+7f1d16dbdbdf000f8c2096b8ac36e3c841d73c5a,2024-02-16 05:26:43,David Benson,Merge commit '47b043a4771ff82f22eefd94ac9dba6910f9a43e' into dev,True
+47b043a4771ff82f22eefd94ac9dba6910f9a43e,2024-02-16 05:25:39,David Benson,23.1.5 RC 1,False
+2c1885840c7436da7e66141fd0c6bc253105cacf,2024-02-16 05:25:08,David Benson,Merge commit '63c140021fe46f41f6628d5ddfc6f405637c156a' into release,True
+63c140021fe46f41f6628d5ddfc6f405637c156a,2024-02-16 05:24:47,David Benson,Updates to latest core and dependency updates,False
+4696c1af2537db3b1e56bce920eaedaa88ed3e67,2024-01-26 20:24:16,David Benson,Merge commit '5697c2d9a12f94892eb8ad363cf711e3d5c4c17f' into dev,True
+5697c2d9a12f94892eb8ad363cf711e3d5c4c17f,2024-01-26 16:13:51,David Benson,Merge commit '55231a6e318cfb88ad770b32d9292f3c1c9cba5b' into release,True
+72a49378e294c806a260a1d9f7efd5a2a3ad5162,2024-01-26 15:32:01,David Benson,23.0.2 RC 1,False
+55231a6e318cfb88ad770b32d9292f3c1c9cba5b,2024-01-26 15:30:51,David Benson,Updates to latest core and dependency updates,False
+fd3a7cbcc86e5920e793cc7345655a8ceb4d11bd,2024-01-18 23:41:21,David Benson,Merge commit '0d388ca1249bbca41f520887e97d923b437964a9' into dev,True
+0d388ca1249bbca41f520887e97d923b437964a9,2024-01-18 19:02:35,David Benson,Merge commit '84c61444ccfc9f570c693809c747969649b7fff3' into release,True
+84c61444ccfc9f570c693809c747969649b7fff3,2024-01-18 18:37:04,Mohamed Mohamedin,Removed buggy logging,False
+16eeed69439a5e201f2a2a9558c55885bad6b7fe,2024-01-18 17:53:58,David Benson,Merge commit '29d6a21907fe0d628d3fd542ce24d4a03deb1260' into release,True
+29d6a21907fe0d628d3fd542ce24d4a03deb1260,2024-01-18 03:15:37,Mohamed Mohamedin,Fix for fuses of universal mac arch,False
+427d0524e56ce81e50fa4671a6ded6a83cd4842a,2024-01-18 02:07:56,David Benson,Merge commit 'ffc262369da8c99d1386a7f1f53d3cadccadc3a7' into release,True
+ffc262369da8c99d1386a7f1f53d3cadccadc3a7,2024-01-18 01:36:29,Mohamed Mohamedin,Fixed fuses issues,False
+bdf5a4de3331e8dabab2be4c8f7b1a5427118f3f,2024-01-17 23:23:13,David Benson,22.1.21 RC 1,False
+99906a8dd850368122878dccdfdc20c2977e5b38,2024-01-17 23:22:08,David Benson,Merge commit '97ae635db6e780f43a63edc2c313656a736a9365' into release,True
+97ae635db6e780f43a63edc2c313656a736a9365,2024-01-17 23:20:25,David Benson,Updates to latest core and dependency update,False
+a7d22c38f9670061dcd2ba2da6566482dcea117f,2024-01-17 21:21:09,Mohamed Mohamedin,Fix electron version at 28.1.0 to prevent mac fullscreen issue (#drawio-desktop-1591),False
+e89c275d8dee7ab7e876a7c246ddacd8f4d6901f,2024-01-17 20:26:04,Mohamed Mohamedin,Set Electron Fuses flags for better security,False
+6bf9cc4c517115aa4e1a873188032db636c63ed4,2024-01-12 06:23:07,Mohamed Mohamedin,Fixed code path verification on windows when drive letter case is not matching,False
+ecbc2f75084e91973a68509af7d9b833bcbc8b84,2024-01-11 02:14:16,Mohamed Mohamedin,Reduced size of release files more,False
+6b050fd695eb822276eb77d2c4f48ca9b56ca189,2024-01-10 23:16:53,Mohamed Mohamedin,Reduced size of release files more,False
+a0ce494b838a2d13d07a3b037434d498acd4d012,2024-01-10 18:24:42,David Benson,Merge commit '8079476a8baeed8af0cdbe82c4cbdcbb8df3c7a7' into dev,True
+8079476a8baeed8af0cdbe82c4cbdcbb8df3c7a7,2024-01-10 15:38:17,David Benson,22.1.18 RC 1,False
+4e4ee3495324c702835324e307318bda72cb1aa2,2024-01-10 15:37:27,David Benson,Merge commit 'ed906f6e6c6c14d27496ea6c19f01d3933e531ec' into release,True
+ed906f6e6c6c14d27496ea6c19f01d3933e531ec,2024-01-10 15:34:40,David Benson,Updates to latest core and dependency update,False
+5366ea83a5013d9ce367eea6ebbe3ab0e7c38612,2024-01-06 01:50:36,Mohamed Mohamedin,Added exit menu and fixed isModified detection (#drawio-desktop-1222),False
+c2973ce87e0b751a1cf4429860f5f3eb10670596,2024-01-01 04:32:46,Mohamed Mohamedin,Debug info for CLI not working in Windows,False
+cfb144bf7ce1c11ce0467b19914517cddb5f8887,2024-01-01 02:29:59,Mohamed Mohamedin,Improved release files size,False
+c64aa516c781ed8d87f42ee87a07a8142064d771,2023-12-29 22:41:40,David Benson,Merge commit '626bbfa94ad4e1e9806ef076b5cd5d426bcf4976' into dev,True
+626bbfa94ad4e1e9806ef076b5cd5d426bcf4976,2023-12-29 21:14:09,David Benson,22.1.16 RC 1,False
+c0665f50674bf1e5f8f7b5bc2d2e1f859bcac762,2023-12-29 21:13:44,David Benson,Merge commit '7f76c92ad3362427ae854aa538a4c00498cac03b' into release,True
+7f76c92ad3362427ae854aa538a4c00498cac03b,2023-12-29 21:12:44,David Benson,Updates to latest core and dependency update,False
+f932098654bb371cd7ff76adeccedf8acebef9e0,2023-12-28 23:18:45,Mohamed Mohamedin,Remember window state and position (#drawio-desktop-1433),False
+3c82aa20782664abd17298ea5fc3d3d40b258030,2023-12-28 22:46:26,Mohamed Mohamedin,Added links target option for svg export,False
+231c1c7aef230b2f67cdd0ff868426e812ac20cd,2023-12-28 22:12:13,Mohamed Mohamedin,Fixed export of first page only (#drawio-desktop-1443),False
+b5b62aed6928953ab24cd521a295248facef8b1f,2023-12-28 07:53:35,Mohamed Mohamedin,Added based dark mode svg export (#drawio-desktop-1452),False
+76845d3015cfb546b9272d360a68d8418874b3fc,2023-12-28 03:50:35,David Benson,Merge commit 'd88e95a58ac50fabc9b16ad60ffb662149a3e598' into dev,True
+d88e95a58ac50fabc9b16ad60ffb662149a3e598,2023-12-27 22:49:55,David Benson,22.1.15 RC 1,False
+ce1c68c84100eadb9dacde731858fe38822cb6d3,2023-12-27 22:49:08,David Benson,Merge commit 'a4091986de7c9414c3f5ff71ffe51868cd7746cf' into release,True
+a4091986de7c9414c3f5ff71ffe51868cd7746cf,2023-12-27 22:40:14,David Benson,Updates to latest core and dependency update,False
+ba967c1dfa62eaadd7b1549227e53d8211377aa1,2023-12-27 21:51:21,Mohamed Mohamedin,"Fixed ""Update window display blank"" (#drawio-desktio-1536)",False
+0f2d4e19173089bfbadc1122b5895470b652a47b,2023-12-27 00:58:14,Mohamed Mohamedin,Enabled context menu (copy/cut/paste) for text fields (#drawio-desktop-1541),False
+fb5e4d07637b91902de30608ffae042d7fca4060,2023-12-26 21:08:35,Mohamed Mohamedin,Added support for WEBP in filecheck,False
+6479b32a3361bcaba5a09145900f6b60babce4fb,2023-12-26 20:56:50,Mohamed Mohamedin,Updated dependencies (Now Electron 28),False
+937618129fd3215b5808427622c4bf8849fc66be,2023-12-25 22:32:37,Mohamed Mohamedin,Using stale action instead of the deprecated stale app,False
+a63a70f94f4af5ab0442250b7971622c2e394551,2023-12-21 07:19:12,Mohamed Mohamedin,Changed build GitHub action to use drawio-dev repo,False
+127c8fcace18b7c80b17f8c0cf9b9c8bb5269071,2023-12-19 03:30:10,David Benson,Merge commit '17664ac4085fa57fb0ff0fb80ca506e4cdb5f380' into dev,True
+17664ac4085fa57fb0ff0fb80ca506e4cdb5f380,2023-12-18 23:38:14,David Benson,22.1.11 RC 1,False
+acfaa9a25155c9388f15cd0eaa4cb594209af2cd,2023-12-18 23:37:48,David Benson,Merge commit 'c480500736c2b782b38da6104d87264048a76084' into release,True
+c480500736c2b782b38da6104d87264048a76084,2023-12-18 23:30:21,David Benson,Updates to latest core and dependency update,False
+591f5169dbb2b1e6bcf9e7dffb0228423c32487f,2023-11-16 15:10:01,David Benson,Merge commit '5d406a450146b982d7b4ada2bdccb5f67cfefe3d' into dev,True
+5d406a450146b982d7b4ada2bdccb5f67cfefe3d,2023-11-15 23:14:57,David Benson,22.1.2 RC 1,False
+cfd935a5bcbb3f7208508894ea74fc2660e01676,2023-11-15 23:14:44,David Benson,Merge commit '434bac393cb6f37afed7bdb2f508df78ebb45e7a' into release,True
+434bac393cb6f37afed7bdb2f508df78ebb45e7a,2023-11-15 23:13:47,David Benson,Updates to latest core and dependencies,False
+58d11e9d6f0d5286388d4c4eceeade699858c5ef,2023-10-18 22:26:37,David Benson,Merge commit 'a13abd65713da0b1f34315d2c4397faa114edd2d' into dev,True
+a13abd65713da0b1f34315d2c4397faa114edd2d,2023-10-16 22:53:35,David Benson,22.0.3 RC 1,False
+55fbdfef61ec58ca8937737c8ba3d0bfdda2ca05,2023-10-16 22:49:56,David Benson,Merge commit 'e4e410d4ff09cd746d441039a16b56c2217b74cc' into release,True
+e4e410d4ff09cd746d441039a16b56c2217b74cc,2023-10-16 22:49:16,David Benson,Updates to latest core and dependency update,False
+b4dadca3009f6fc5f18236b08fe4938f252b3b03,2023-10-13 22:28:07,David Benson,"Merge pull request #1491 from mhdonnelly/avoid-rpm-conflict-with-other-electron-builder-apps
+
+Reviewed.",True
+6739accc9201a935550f44fe8436c43c232dc281,2023-10-13 06:49:21,Mike Donnelly,"Do not package build-id metadata for RPM target
+
+fixes #259",False
+89a66eb814fa3a01bb699dfebf06cbb89faf56af,2023-10-04 20:45:49,David Benson,"Update README.md
+
+Updated",False
+64e91ac866981eef6c1e9a17bd2a83315b3b9190,2023-10-03 19:26:11,Mohamed Mohamedin,"Reverted ""Fixed portrait/landscape option in the system print dialog (drawio-desktop-517)"" and it doesn't work in win and broke mac",False
+2fad8fac248a8b7caec8f4af302a2f833e9bf55f,2023-10-03 17:02:51,David Benson,Merge commit '4134cc7c3df6a84e6aac54fc383e4195d9a7c9fe' into dev,True
+4134cc7c3df6a84e6aac54fc383e4195d9a7c9fe,2023-10-03 16:38:21,David Benson,22.0.2 RC 1,False
+40d24762343c96e4613e18ad95e6d07516ff168a,2023-10-03 16:37:47,David Benson,Updates to latest core and dependency update,False
+617d5caf8d9add8c6a31abe259c460c07f9fa2b8,2023-10-02 22:57:56,David Benson,22.0.1 RC 1,False
+96ef68c7adebfa1300fc202ec88c8fd9dde879b4,2023-10-02 22:57:32,David Benson,Merge commit 'b221769961063934ff795cbe8e10e2879436349c' into release,True
+b221769961063934ff795cbe8e10e2879436349c,2023-10-02 22:57:15,David Benson,Updates to latest core and dependency update,False
+ea87ea5c802fb9c9619522aeff002833e35146d9,2023-10-02 22:50:35,David Benson,Merge commit 'b236b7e78ba9def1d0019de975ec05f3a9df1acd' into dev,True
+c6d4e39ebdf805cde9ceba5e14409a563650a1ab,2023-10-02 22:50:24,David Benson,Merge commit '17072da8678576456ac999588738dd251817102f' into dev,True
+b236b7e78ba9def1d0019de975ec05f3a9df1acd,2023-09-30 01:09:11,Mohamed Mohamedin,Fixed portrait/landscape option in the system print dialog (drawio-desktop-517),False
+17072da8678576456ac999588738dd251817102f,2023-09-28 18:33:41,David Benson,22.0.0 RC 1,False
+acb9014018fee3747a5b9a8d97fc16ef68ffd1e1,2023-09-28 18:32:46,David Benson,Merge commit '4b7fdffdc5145e10142c6469913b0757ec9026bf' into release,True
+4b7fdffdc5145e10142c6469913b0757ec9026bf,2023-09-28 18:22:34,David Benson,Updates to latest core and dependency update,False
+e884fe0e32a8f2af5717f6da070a5ebd09516c18,2023-09-28 18:19:57,David Benson,Merge commit '84e1fc5476cdceb21d2b9c9f5edb1f7df33bf7f1' into dev,True
+84e1fc5476cdceb21d2b9c9f5edb1f7df33bf7f1,2023-09-24 21:28:30,David Benson,21.8.2 RC 1,False
+e09bbed4dd75d2a35c61d2865c98351e00361f4b,2023-09-24 21:27:41,David Benson,Merge commit 'cadedebd8c86f5e1189147f24c9e8270d271706d' into release,True
+cadedebd8c86f5e1189147f24c9e8270d271706d,2023-09-24 21:27:26,David Benson,Updates to latest core and dependency update,False
+a34a3a576ebd3d0458e04e9dbaa1daffcaff8796,2023-09-19 20:43:10,David Benson,Update README.md,False
+d25b9fb8c0c3f3fd645d66dcd3ae85ca27209010,2023-09-14 22:23:26,David Benson,Merge commit '569538bf11e58f49d009cbe14272c687a16ec0a1' into dev,True
+1f2863e7ed17c2b8cd35772611524257cafc606d,2023-09-14 22:23:10,David Benson,Merge commit 'b43d9d4ee911014021c4e12fcf553bb59f8e525d' into dev,True
+569538bf11e58f49d009cbe14272c687a16ec0a1,2023-09-14 18:18:36,Mohamed Mohamedin,Push snap to edge channel instead of directly to stable,False
+b43d9d4ee911014021c4e12fcf553bb59f8e525d,2023-09-14 17:28:58,David Benson,Removed incorrectly committed package lock,False
+ed9d9ec475871d21d782e71ec0c4e5aa3437a3a4,2023-09-14 17:14:04,David Benson,Corrects sha to current value,False
+fc7b5697b6010a17216b35e86c1183abd038f271,2023-09-14 03:20:38,David Benson,21.7.5 RC 1,False
+69883a424c68fa6904853d9b9af22355ff14de47,2023-09-14 03:20:06,David Benson,Merge commit 'f9431ee59e682a0c31f0ed62e54e87a74a54f1a2' into release,True
+f9431ee59e682a0c31f0ed62e54e87a74a54f1a2,2023-09-14 03:18:42,David Benson,21.7.5 RC 1,False
+531091b494b13941c2581e552633fb033345a559,2023-08-11 11:46:50,Mohamed Mohamedin,Added Google Fonts toggle menu option and removed all remote connections from CSP (drawio-desktop-1409),False
+655a5672ad070db574d302de8d27fc77ddc90b2f,2023-08-10 22:41:37,David Benson,Merge commit 'dc58c51a5f0af9d272a551d4ab5ac75b7b7509ab' into dev,True
+dc58c51a5f0af9d272a551d4ab5ac75b7b7509ab,2023-08-10 19:18:23,David Benson,21.6.8 RC 1,False
+d0bcf3a0c76c79adbd2e71bfdca68144b6952c76,2023-08-10 19:17:49,David Benson,Merge commit '8c0f162c3d8cc34b4cdf0a9cdb5db2baa6504201' into release,True
+8c0f162c3d8cc34b4cdf0a9cdb5db2baa6504201,2023-08-10 19:16:44,David Benson,Updates to latest core and dependency update,False
+f9da57f035dcc6ba6f4cb68462171bdad3ea57ad,2023-08-09 17:27:01,Mohamed Mohamedin,Updated CSP (to match the updated index.html scripts),False
+0a6f2469193fb9a3840592cb7243ec7ff32eb5d4,2023-08-01 17:21:09,Gaudenz Alder,"Merge pull request #1414 from jgraph/davidjgraph-patch-1
+
+Update README.md",True
+e865002e0185166a1c1c645a9f846bce5f611247,2023-08-01 00:10:46,David Benson,Update README.md,False
+925ce55ec77323bd1a2c3eeb282187ba8611c8ee,2023-07-22 15:25:13,David Benson,Merge commit '0a44fe026ba13ffdf31a72d855312c50402a6a0d' into dev,True
+0a44fe026ba13ffdf31a72d855312c50402a6a0d,2023-07-21 22:21:09,David Benson,Merge commit 'bed5346e508e51a0df717c8a05b1de6d41c41ec8' into release,True
+bed5346e508e51a0df717c8a05b1de6d41c41ec8,2023-07-21 19:33:03,Mohamed Mohamedin,Updated yarn.lock file,False
+0e66466eaf00c5a4f3164a267327ffb80421b63a,2023-07-21 19:29:51,Mohamed Mohamedin,Fixed NPE in window close event (sender is undefined in the latest electron version). Also updated electron to latest version,False
+3b389f70c3436978ae9903b0a7d19c67448ef4ac,2023-07-21 15:21:41,David Benson,Updates node version to 16 on win build,False
+7b087cc45a572f1ed862be90faf9348ced7485dc,2023-07-21 14:57:19,David Benson,21.6.5 RC 1,False
+520dcb470de8016337b18f74f4e23ee71a6da58e,2023-07-21 14:56:57,David Benson,Merge commit '69859e3c0052191983b5e8d323537a5ea2533ebc' into release,True
+69859e3c0052191983b5e8d323537a5ea2533ebc,2023-07-21 14:11:21,David Benson,Updates to latest core and dependency update,False
+7d7aa39e833375ad4b7a92ec3b11e530dc80d889,2023-07-15 07:53:18,Mohamed Mohamedin,Updated dependencies,False
+9b4551827cc717b135d54fec461ecfb7a468ca74,2023-07-08 07:07:32,Mohamed Mohamedin,Added arm64 to linux builds (drawio-desktop-1140),False
+fe84775c5ce86ef3cb52f207c699332d0ace9657,2023-07-06 19:45:39,David Benson,Merge commit 'ee7834ca8115becfebe8695af1198edbc8cb8f8f' into dev,True
+ee7834ca8115becfebe8695af1198edbc8cb8f8f,2023-07-05 22:43:48,David Benson,21.6.1 RC 1,False
+9ac1154911a7b3639628bcd530378780ca1a8bd8,2023-07-05 22:43:25,David Benson,Merge commit '3136d69bed78dcf9fd0a41f356412f3aa8061f25' into release,True
+3136d69bed78dcf9fd0a41f356412f3aa8061f25,2023-07-05 22:43:01,David Benson,Updates to latest core and update dependencies,False
+d53ea438298fa476cdb6a22e2aa3e632e32f0ac1,2023-06-27 20:46:27,David Benson,Merge commit 'a330a63d8198054ea7723411bba8374e4f2839ef' into dev,True
+a330a63d8198054ea7723411bba8374e4f2839ef,2023-06-27 18:34:37,Mohamed Mohamedin,Added teamId secret to the deployment action,False
+2bfd4357cc9386d44896e497a95d08be0e1c0bf0,2023-06-27 13:59:16,David Benson,21.5.1 RC 1,False
+26d63616514e7cd6873124fe42af3d648af04171,2023-06-27 13:58:24,David Benson,Merge commit '8ebfca6877949698f138916128aff46ed1cd61e5' into release,True
+8ebfca6877949698f138916128aff46ed1cd61e5,2023-06-27 13:58:07,David Benson,Updates to latest core and update dependencies,False
+6187088a059baa25603c1246b197324a920c24a7,2023-06-26 23:49:15,Mohamed Mohamedin,Updated @electron/notarize which officially supports notarytool,False
+d3637b139914edb4e0b18ac3e4d25085fadeb404,2023-06-26 15:32:14,Gaudenz Alder,Adds zoom command line argument [drawio-desktop-1359],False
+261b56179ab9aa15c10b0ccc7ba50993a9467446,2023-06-21 01:56:51,Mohamed Mohamedin,Added plugins folder to allowed to load files when --enable-plugins is used,False
+64624299e0b5b99d45b577d2c9842dc559a44b0e,2023-06-20 22:17:45,Mohamed Mohamedin,Using fs sync to ensure file is flushed to the desk after writing and reduce chances of file corruption,False
+b20ad4ecfd556c11c0e691aff9b5b0531c5f53d0,2023-06-20 03:28:34,Mohamed Mohamedin,Using notarytool for apple notarization,False
+9c3e5a0cde102e627448a820999f45a860901ed6,2023-06-19 20:35:55,David Benson,Merge commit '54de90af214147fdd9c61b047878e69eb03764c4' into dev,True
+54de90af214147fdd9c61b047878e69eb03764c4,2023-06-18 20:16:27,David Benson,21.5.0 RC 1,False
+421d9d19a19322f6b7620d97f83e929fd66609b9,2023-06-18 20:16:00,David Benson,Merge commit 'f7c6cc14592f6af21d8922ae7a477e871a88c91e' into release,True
+f7c6cc14592f6af21d8922ae7a477e871a88c91e,2023-06-18 20:13:35,David Benson,Merge branch 'dev' of https://github.com/jgraph/drawio-desktop into dev,True
+f06fe40f920f631ff20b522571eeb2aba94e2e5c,2023-06-18 20:01:37,David Benson,Updates to latest core and updates dependencies,False
+772b4ef0c46d75cebd3965cb0c131111d41b7a6b,2023-06-17 06:59:11,Mohamed Mohamedin,Fixed electron detection for draw.io app only (to stop MS Teams conflict),False
+cbe33bf9bbeade50ae07dc3696d9ebdf513c8678,2023-06-17 04:38:18,David Benson,Merge commit '113a6f4602ddf409dba037baf1c6d790c0ffb334' into dev,True
+a6d377bd9b5c78fd3a4c24933a1dd13227879200,2023-06-17 04:38:07,David Benson,Merge commit '031b2bbefec82e78d0eb7f000392ae9fbb27ed96' into dev,True
+113a6f4602ddf409dba037baf1c6d790c0ffb334,2023-06-17 02:47:14,David Benson,21.4.1 RC 1,False
+f41d5c3dcc4dbfe2afb0b60c5689c18c32ecb1a8,2023-06-17 02:46:45,David Benson,Merge commit '9b6ad63e5580a56cd567ddbbdb938a9bec69018c' into release,True
+9b6ad63e5580a56cd567ddbbdb938a9bec69018c,2023-06-17 02:46:10,David Benson,Updates to latest core and updates dependencies,False
+031b2bbefec82e78d0eb7f000392ae9fbb27ed96,2023-06-16 22:24:47,Mohamed Mohamedin,Moved electron.js to desktop project,False
+0465a8cd8cd82e0ed31bf3d5db9fe78bf0be05d1,2023-06-15 03:51:17,David Benson,Merge commit 'bd43d9180f38603e76b80ae8d534f2838ea2be68' into dev,True
+bd43d9180f38603e76b80ae8d534f2838ea2be68,2023-06-15 03:00:39,David Benson,21.4.0 RC 1,False
+62715141a295a36ecb78d87a021d24916c65831f,2023-06-15 03:00:05,David Benson,Merge commit '443b2c0ee94d34d249b0934d5de7f9f8936c95a9' into release,True
+443b2c0ee94d34d249b0934d5de7f9f8936c95a9,2023-06-15 02:59:15,David Benson,Merge branch 'dev' of https://github.com/jgraph/drawio-desktop into dev,True
+e90f600bfa08fe4506cf823096822c1eab0f797d,2023-06-15 02:54:17,David Benson,drawio submod and depends updates,False
+9684352587e7263fc778cb921743841e4160c696,2023-06-15 02:51:22,David Benson,Merge commit 'eaabd478a565f455304c6fbe58c095c0ea726888' into dev,True
+a59459a732ac6222841f23ecf0006ac3140a32f9,2023-06-08 16:56:01,David Benson,Increase stale period,False
+eaabd478a565f455304c6fbe58c095c0ea726888,2023-06-08 15:49:15,David Benson,21.3.7 RC 1,False
+8893a23768664026edfb84d987b7a0c25c6c11bc,2023-06-08 15:48:39,David Benson,Merge commit 'ff2551c419a23a05a1358e11336733f995817a3f' into release,True
+ff2551c419a23a05a1358e11336733f995817a3f,2023-06-08 15:48:10,David Benson,Updates to latest core and updates dependencies,False
+88b1718ff9d237d0df296d289189922ab67d3e42,2023-05-05 02:33:19,David Benson,Merge commit '6cf17303230fed52b1d62eed7e49b526603d02b6' into release,True
+02b1dfbacc7fe73593cbaea53d52d75db7b8b20e,2023-05-04 22:32:31,David Benson,21.2.8 RC 1,False
+6cf17303230fed52b1d62eed7e49b526603d02b6,2023-05-04 22:31:51,David Benson,drawio submod and depends updates,False
+2ec0fe7d1f6c820302ba7798595ef5f490bd7528,2023-05-03 04:34:42,David Benson,Project name correction,False
+8f2734cecb2bcfc9dd7a0d6f8182fd0bdfe53412,2023-04-20 22:40:23,David Benson,Merge commit '1a8f3f60c7f867d0075bdf507c70c94cc62fc2fd' into dev,True
+1a8f3f60c7f867d0075bdf507c70c94cc62fc2fd,2023-04-20 21:34:02,David Benson,Ubuntu 20+ does not have the package,False
+1c1be64725e27b26e0abea520e191802c184c3d0,2023-04-20 21:23:43,David Benson,21.2.1 RC 1,False
+7b3f2dccceaa3b087730a2b55be15a451eeb96cc,2023-04-20 21:23:30,David Benson,Merge commit '7c7197b48510dba3c94dc253f2a9d0f6e1e2679c' into release,True
+7c7197b48510dba3c94dc253f2a9d0f6e1e2679c,2023-04-20 21:23:13,David Benson,Updated dependencies,False
+eb14b2f9bd363f330caadccd7b506df0aa7d64c8,2023-04-20 20:27:46,David Benson,Merge commit '00027dfb611f5df3ca69920e4d31c3c7e431a599' into dev,True
+784e4e7e034fdae85708a6f173d1f88e6a406ca5,2023-04-20 20:27:30,David Benson,Merge commit '994cb438421375dd01ecafde96076bcb2749ec3e' into dev,True
+00027dfb611f5df3ca69920e4d31c3c7e431a599,2023-04-16 01:08:04,Mohamed Mohamedin,Updated github actions,False
+994cb438421375dd01ecafde96076bcb2749ec3e,2023-04-14 19:33:29,David Benson,Merge commit '772e87f6a681495be07e8f679aecafb0efe8912f' into release,True
+772e87f6a681495be07e8f679aecafb0efe8912f,2023-04-14 19:11:00,David Benson,21.1.8 RC 1,False
+b06fb6928af5d9c6d06f36153aef8badb0cdbb5a,2023-04-12 04:58:36,Mohamed Mohamedin,Updated dependencies,False
+81e7ad9c448fb163d83307049a50f2d1a6304b4e,2023-03-31 17:32:36,David Benson,Merge commit 'faee6c3e17424a473241d9fb2772f1690d14ece2' into dev,True
+faee6c3e17424a473241d9fb2772f1690d14ece2,2023-03-30 21:07:30,David Benson,Merge commit 'e61944851adbd7467dd820717d83e43b01de5167' into release,True
+e61944851adbd7467dd820717d83e43b01de5167,2023-03-30 21:07:07,David Benson,21.1.2 RC 1,False
+e65c81a664af4102c0469aed346d28e4e549928d,2023-03-30 14:47:35,David Benson,Merge commit '2691e046a16b85e3023ce70eb52a5ee96e861243' into dev,True
+d03ae2b0a10f0df5f23768c1ef7af2a8d79a84b5,2023-03-24 22:58:25,David Benson,Update stale.yml,False
+2691e046a16b85e3023ce70eb52a5ee96e861243,2023-02-04 00:45:57,David Benson,Merge commit 'b0ac2e0c39f89cccdc0080873cd662b08d635c4d' into release,True
+b0ac2e0c39f89cccdc0080873cd662b08d635c4d,2023-02-04 00:45:30,David Benson,20.8.16 RC 1,False
+6fa62dcd5ab656df996ee2f1fbe1d4f99a3b32a6,2023-02-01 02:58:09,David Benson,Merge commit '27b59bfe206273e682ceac4a5f20fd8c00f4fc11' into release,True
+27b59bfe206273e682ceac4a5f20fd8c00f4fc11,2023-02-01 02:56:57,David Benson,Updates for 20.8.14 release,False
+382cee60872bbeb108dc7583b097389f81f10338,2023-02-01 02:53:35,David Benson,Merge commit '4122b432cd9b74850430602dd4c581aeac1d1720' into dev,True
+4122b432cd9b74850430602dd4c581aeac1d1720,2023-01-20 23:38:02,David Benson,Merge commit 'b15ee75f648e4cfd1f3ae2f82ad33b84d7af6ef3' into release,True
+b15ee75f648e4cfd1f3ae2f82ad33b84d7af6ef3,2023-01-20 23:37:41,David Benson,Updates for RC,False
+da79cecddb5f60bedcdbab29e37d60c2eb6d2c6c,2023-01-16 14:59:31,David Benson,Added FAQ enret,False
+92da1c2626bf5d59c8353aa8fcb3d76437540430,2022-12-22 23:42:40,David Benson,Merge commit '2767e0058a41cd0fed3acf060aa5d995ff96cb83' into dev,True
+2767e0058a41cd0fed3acf060aa5d995ff96cb83,2022-12-22 22:35:49,David Benson,Merge commit '1f89c237f110619d0d7f43a8fa72bcbd5509ff13' into release,True
+1f89c237f110619d0d7f43a8fa72bcbd5509ff13,2022-12-22 22:18:52,David Benson,"Revert ""Comment out snap build to get linux build""
+
+This reverts commit e01c6c173421bfb9b8d407b29904c123fc4ce2d4.",False
+802bc7383bc31495bb7c129a878ad7ea249e4cae,2022-12-22 21:51:00,David Benson,Merge branch 'dev' into release,True
+16f12eddcb60409b8b7122b4950437cac6b71834,2022-12-22 21:50:43,David Benson,Updates to draw.io 20.7.4,False
+746965ee19cfaa82606400f477ac6aec36886452,2022-12-11 12:04:26,Gaudenz Alder,Adds app data folders,False
+f868d1d9a69d17c094dbc326b9d22b4b56a70080,2022-12-10 20:10:31,David Benson,Merge commit 'cb65267047bdcb63c10c36392ee5bb35052be948' into release,True
+cb65267047bdcb63c10c36392ee5bb35052be948,2022-12-10 20:10:01,David Benson,Updates to drawio 20.6.2,False
+79c7a24c9a71dcabbb9e8659777dc6fca4beaa40,2022-12-10 20:07:59,David Benson,Merge commit 'e5d9e9b772123e4ec439c4e9b2980acfe17895b9' into dev,True
+e5d9e9b772123e4ec439c4e9b2980acfe17895b9,2022-12-08 18:36:23,David Benson,Merge commit '51dbed3372417926b28080701e2f07ab61888f61' into release,True
+51dbed3372417926b28080701e2f07ab61888f61,2022-12-08 18:35:57,David Benson,20.6.1 RC 1,False
+e01c6c173421bfb9b8d407b29904c123fc4ce2d4,2022-12-02 15:06:57,David Benson,Comment out snap build to get linux build,False
+390fd4c7a52a497aeb209b20a1dd2777ceb0f4bc,2022-12-02 04:01:35,David Benson,20.6.0 RC 2,False
+8a8b8452a9887e3628f0da55d06e24e4e19d8b39,2022-12-02 03:46:27,David Benson,Merge commit '9352204112e9c81f5886145981890120e709c9c6' into release,True
+9352204112e9c81f5886145981890120e709c9c6,2022-12-01 21:15:47,Mohamed Mohamedin,Use the new notarize package name,False
+7bc89c1dc09684b8b4e33dc8b2734c3ed9552c64,2022-12-01 21:10:01,Mohamed Mohamedin,Fixed snap publishing,False
+22c0ca5858b248b739f0ff235f9d6570fb68379c,2022-12-01 19:48:42,David Benson,20.6.0 RC,False
+d607298ec7c7a26dcc4fbd3f158311a942c2c78e,2022-12-01 19:48:21,David Benson,Merge commit '20f096043e37bdacc88ef1eb8dde17572e6c243a' into release,True
+20f096043e37bdacc88ef1eb8dde17572e6c243a,2022-12-01 19:45:30,David Benson,Updates to core 20.6.0,False
+5d595d5ee0f87ffb179a61d4175d0898ac621677,2022-12-01 19:08:51,David Benson,Merge commit 'ee9c655f04e69d95373d5e3cd83f8a644548103c' into dev,True
+25ce24bf04a09eff437f2535ae013a23187b14ae,2022-11-04 05:35:44,Mohamed Mohamedin,Upgraded dependencies (and moving to Electron 21),False
+ee9c655f04e69d95373d5e3cd83f8a644548103c,2022-09-09 18:22:52,David Benson,Testing permission change with electron 20,False
+1671c5aac08accfd76c956fe9351aeeb9fbb8543,2022-09-09 17:46:59,David Benson,Merge branch 'dev' into release,True
+aefc3d195eab5a20969b2af9020a23d514e50ffd,2022-09-09 17:18:29,Mohamed Mohamedin,Fixed Mac Arm64 crash issue with Electron 20,False
+b433c9f28c7bf663c2094e18d9961f72667881ed,2022-09-09 17:03:16,David Benson,Updates dependency,False
+300b81e09bc5429668f2250c8c2c251e5c46187c,2022-09-09 16:41:19,David Benson,Testing revert to electron 19 to fix arm issue,False
+bcd53469cd1927ced726e98c2786d57e52d6e958,2022-09-09 14:55:36,David Benson,"Switch to electron-builder 23.4.0, arm build issue",False
+06851c88c5a69b0fe9d9b346a6510ec0ebd82c2e,2022-09-08 18:11:15,David Benson,Merge commit '8215931c5b59ae2621d21a9ae04e0246cdedaf33' into release,True
+8215931c5b59ae2621d21a9ae04e0246cdedaf33,2022-09-08 18:10:33,David Benson,Updates drawio editor,False
+fc22214899a8a6470ea1724005ec579d7465b038,2022-09-08 18:07:45,David Benson,Updates for release,False
+29cdfe408ffb10e57012e90055bb9911da3eb69d,2022-09-06 13:50:32,David Benson,"Revert ""Restores sync.js and with symbolic link in place""
+
+This reverts commit 3ad5777d61129be1089ccd08b84e9567fdd2b66a.",False
+038391dc4f5538fc47216d1ff1162e3170db667a,2022-09-06 13:09:08,Mohamed Mohamedin,Fixed electron builder config files after removing drawio project package.json,False
+1a281d802abdc351915b29201544da7ea34a5c12,2022-09-06 12:02:36,Mohamed Mohamedin,Updated to electron 20 and electron builder 23.5.0 & removed package.json from drawio project,False
+3ad5777d61129be1089ccd08b84e9567fdd2b66a,2022-09-02 20:32:32,David Benson,Restores sync.js and with symbolic link in place,False
+f1ac1ed5dc5dcd5dcb92db3d48f182824b761497,2022-09-02 19:18:41,David Benson,Updates to core 20.2.8,False
+577190b696eaf3bd80a9d1378af6ea7439d023a2,2022-09-02 18:51:04,David Benson,Merge branch 'release' into dev,True
+a90af1594bbe90cdcdba89fe7de1381a9f1d1304,2022-09-02 18:11:59,David Benson,Create SECURITY.md,False
+60d1acf66c4832446700002a2382d8459c5999c1,2022-09-01 18:15:23,David Benson,Changes path to point at desktop package json,False
+cc280ca472dfa7aaf413a58f96c3d7ee60e8df3a,2022-09-01 16:46:58,David Benson,"Updates drawio, version and dependencies",False
+c028fd358add94b4154d3741269908eb4dcc410d,2022-09-01 14:18:33,David Benson,Removed duplicate code,False
+b232a3b8b477ca6c70db02cd244d4570e901c8bc,2022-08-04 22:31:14,David Benson,Updates dependencies to address security issues,False
+67448c1dfd609ba5470cd603e03145261aab51c0,2022-08-04 22:30:49,David Benson,Updates to latest drawio release,False
+71a527a4666c1acba36282269ced2d5717ccc605,2022-06-08 21:50:54,David Benson,Updates,False
+93cd0edb3157dcce50928c922a064916fbaf03c1,2022-06-07 16:06:29,David Benson,Updates,False
+a6c0c54edede5e21e5aa9b8e917e26923ed74dd5,2022-06-07 04:56:19,Ashraf Teleb,Merge branch 'dev' of github.com:jgraph/drawio-desktop into dev,True
+c1b3b31132cacec7513bc195d22a35ce52baaa70,2022-06-07 04:56:09,Ashraf Teleb,Updated to electron 19 and other packages,False
+66b8a35d8e054ec41191ea3f73eb651304e7dd44,2022-06-06 21:18:11,David Benson,Updates,False
+40dcf64e6a51513f988a453e214c1b7ee2d2fc9d,2022-06-04 02:50:50,Ashraf Teleb,Using non-EV certificate to sign windows binaries (Fixed appx),False
+2854ab03cb3ea6394345239aaeb5e84f92aefdf8,2022-06-04 01:34:39,Ashraf Teleb,Using non-EV certificate to sign windows binaries (appx also),False
+a5d441dd346b8daf2af234c0697abab0c15f9cce,2022-06-04 01:03:11,Ashraf Teleb,Using non-EV certificate to sign windows binaries,False
+9ed47c8766490ee6a3f517a0981250112b7a8352,2022-06-03 14:47:33,David Benson,Updates,False
+55f58007102d0cb49c9747610097670c9b84feb1,2022-05-27 02:29:46,David Benson,Updates,False
+931ce8213522844b422b7234b071e711f08052c0,2022-05-16 22:16:48,David Benson,Updates,False
+76c0bb4e11e0d117604187b1dd3a27f241da5a71,2022-05-14 14:50:06,David Benson,Updates,False
+569a27a6ee55ea34a50eecd1b8c90152a90a340f,2022-05-12 02:54:45,Ashraf Teleb,Updated electron to 18.2.2 to fix multi-user sessions,False
+1e6baa72b0c176711722aa94ee7a9abd7f7ffa37,2022-05-11 04:58:00,Ashraf Teleb,Trial to fix snap cannot access removable media #353,False
+95b15ce6f56b7e9df6646b39e7d683a5ae1d36eb,2022-05-05 22:29:11,David Benson,Updates,False
+26a5d3718f4c3e361fbc3273e5fa4ca2dd9abb8b,2022-05-04 22:23:16,David Benson,Updates,False
+67daa6897858843e5cdbdcd03ff9bc8ef4763d8a,2022-05-03 21:20:28,Gaudenz Alder,Adds hint for debugging,False
+ff575bb609ceacec38eed037dd41d73d0dcda56d,2022-05-03 21:16:31,David Benson,Update .gitmodules,False
+fa2350297df128531f66f68c6a2e9b7580ff070d,2022-05-03 16:06:29,David Benson,Version updates,False
+6f671fe29faf6937d68fddfa58d52d8b670ccbcc,2022-04-11 20:02:18,David Benson,Ready for 17.4.2,False
+155e0693748d775afd4f39408cd20c42658e2113,2022-04-11 20:01:19,David Benson,Merge branch 'release' into dev,True
+07fac446abe3ff8dee73fdd736bffcbded6bc9b4,2022-04-11 19:43:23,Ashraf Teleb,Upgraded electron builder,False
+6b4373b631e0daea22fb7b60fb2289efdd2a73e7,2022-04-09 02:57:43,David Benson,Updated,False
+f4e6bb8dc392d43730ec81db4a6d80ea96fda33e,2022-04-09 02:56:51,David Benson,Merge remote-tracking branch 'origin/dev' into release,True
+99dd46e7bb53509d94c1779a00c9bb46e98048c3,2022-04-09 02:56:35,David Benson,Update to 17.4.1,False
+e6401575a3ba3c5c380390aaf10b4a2988c0f4e6,2022-04-05 04:23:53,Ashraf Teleb,Upgraded to Electron 18,False
+a9cc34efbfd4fa2c1067b508f18b55444f8b58cb,2022-03-28 18:09:37,David Benson,Updates,False
+dd6396caf71db5c5d77d19f50d30945c55a92135,2022-03-24 21:13:34,Ashraf Teleb,Updated to electron builder 23,False
+05c3d17174a3f0c86ec29f2d981ab3f4983fee16,2022-03-24 16:37:12,David Benson,Merge branch 'release' into dev,True
+2b02c721bf9f2b757919ea552a3f2ff7f11dd9f7,2022-03-24 16:36:47,David Benson,Updated draw,False
+bc32befe488fb4025572aa8a31d04e992e308c44,2022-03-23 16:49:46,David Benson,Merge branch 'dev' of https://github.com/jgraph/drawio-desktop into dev,True
+b6f60fba166055d838028d6668f175d45e55873c,2022-03-23 16:45:03,David Benson,Updates,False
+636ccdd1a31728c69022a005c995d325bbcf0c8d,2022-03-16 15:15:18,David Benson,"Merge pull request #939 from jgraph/snyk-upgrade-756c7dbf85c2e2f484f2974ca434e908
+
+[Snyk] Upgrade @electron/remote from 2.0.4 to 2.0.5",True
+b171d59aac233bf1d72a7829bb85b7ec4fdfe841,2022-03-15 13:04:21,snyk-bot,"fix: upgrade @electron/remote from 2.0.4 to 2.0.5
+
+Snyk has created this PR to upgrade @electron/remote from 2.0.4 to 2.0.5.
+
+See this package in npm:
+
+
+See this project in Snyk:
+https://app.snyk.io/org/davidjgraph/project/211aa21a-0d9f-4793-ac7b-2cdb7343a25c?utm_source=github&utm_medium=referral&page=upgrade-pr",False
+558a7032ee6891c3100801536770c50c2a952326,2022-03-03 15:42:53,David Benson,"Merge pull request #901 from jgraph/snyk-upgrade-b4cca5a44ae312d51b577902b19b8d58
+
+[Snyk] Upgrade electron-updater from 4.6.1 to 4.6.5",True
+e97095a95ad05f1ab2688a89c0e7ff6ca18e3612,2022-02-18 15:17:44,David Benson,"Merge pull request #916 from jgraph/snyk-upgrade-b66fe861fc080bc996b1001bfa4c0b2d
+
+[Snyk] Upgrade @electron/remote from 2.0.1 to 2.0.4",True
+b58fffcad6907e090a528620b4ad34f230b62921,2022-02-18 13:44:01,snyk-bot,"fix: upgrade @electron/remote from 2.0.1 to 2.0.4
+
+Snyk has created this PR to upgrade @electron/remote from 2.0.1 to 2.0.4.
+
+See this package in npm:
+
+
+See this project in Snyk:
+https://app.snyk.io/org/davidjgraph/project/211aa21a-0d9f-4793-ac7b-2cdb7343a25c?utm_source=github&utm_medium=referral&page=upgrade-pr",False
+9351aa41d50445a51c4e2f9629a3f1361b94eb5e,2022-02-11 14:41:09,David Benson,"Merge pull request #911 from jgraph/snyk-upgrade-dbeb7f4165dd42aa73d4105b132a5902
+
+[Snyk] Upgrade electron-log from 4.4.4 to 4.4.5",True
+2f479660e335cf6a26a7c5f96f208a2c86655833,2022-02-11 14:40:29,snyk-bot,"fix: upgrade electron-log from 4.4.4 to 4.4.5
+
+Snyk has created this PR to upgrade electron-log from 4.4.4 to 4.4.5.
+
+See this package in npm:
+
+
+See this project in Snyk:
+https://app.snyk.io/org/davidjgraph/project/211aa21a-0d9f-4793-ac7b-2cdb7343a25c?utm_source=github&utm_medium=referral&page=upgrade-pr",False
+79a6b62849bc3e7277940bb358fdf06125b4930b,2022-02-05 14:41:41,snyk-bot,"fix: upgrade electron-updater from 4.6.1 to 4.6.5
+
+Snyk has created this PR to upgrade electron-updater from 4.6.1 to 4.6.5.
+
+See this package in npm:
+
+
+See this project in Snyk:
+https://app.snyk.io/org/davidjgraph/project/211aa21a-0d9f-4793-ac7b-2cdb7343a25c?utm_source=github&utm_medium=referral&page=upgrade-pr",False
+6f7d5ebd5419b290b845a62cbad1a9ad31af5ad7,2022-01-28 19:48:05,David Benson,Updates,False
+0853ac45bd7438603c003a34b701e946f1d96c42,2022-01-27 23:19:14,David Benson,Updated draw,False
+22d20f17362f3a53a4b8727c5c6c02d952970306,2022-01-27 23:17:32,David Benson,Merge commit 'd27e77e25b7cb0012b7075ee080a67f9125137d0' into release,True
+b659feeb3089a5bbbec0f73517a51f92b9c79f87,2022-01-27 22:25:37,David Benson,Updates,False
+d27e77e25b7cb0012b7075ee080a67f9125137d0,2022-01-19 17:44:55,David Benson,Ready for 16.4.0,False
+9ec92b9836d873e8d10570768ec5f0b79639cbb7,2022-01-18 18:46:17,David Benson,Updates,False
+756b99ea2e26d59bac3448e872525ffa4a620379,2022-01-18 18:45:19,David Benson,Updates,False
+4f7b290ee5f4d23e210068e6546611890a9081ac,2022-01-09 13:06:20,David Benson,Update stale.yml,False
+0e0af1d6a0b112e2c0fcba9e8d688028f3c4ab43,2021-12-30 15:45:44,David Benson,Ready for 16.1.2,False
+5dce48156e630e604af35a765737e22d9e0cf5bc,2021-12-24 16:27:26,David Benson,Update bug_report.md,False
+7ca405340ecf68c86542a4836e7cfe4ebfd19b81,2021-12-21 21:59:14,David Benson,"Merge commit '392b32172d59bfccd02243887bd7840042c6e0ae' into release
+
+# Conflicts:
+#	package.json",True
+de541eb9b0f18773c239e6f3c4fcf3aa6e79c5b3,2021-12-21 21:58:12,David Benson,Ready for 16.0.2,False
+392b32172d59bfccd02243887bd7840042c6e0ae,2021-12-17 23:21:40,Ashraf Teleb,Updated to Electorn 16,False
+61e40225f39942d7af5d434d7bba57c9a9948dfe,2021-12-17 22:57:00,David Benson,Merge branch 'dev' into release,True
+a261057f3a338019771b8306185d8bed6c9c42fa,2021-12-17 22:56:34,David Benson,Ready for 16.0.0,False
+a1d1161ba4a32cb64b401a6a71d2c66190be49c8,2021-12-17 22:31:07,David Benson,Update bug_report.md,False
+d29d9f29295b1df5b8169da9ee5bfadd4cca6880,2021-12-09 06:57:23,Ashraf Teleb,Added MSI target for windows builds,False
+a936af897fdfad553e056e95eaeba755cf3c189a,2021-11-29 21:24:42,David Benson,Merge commit '08b30afd787a32b4ec0db7f28bbc57c4aba37bd3' into dev,True
+5f33ab84dedfb372036bdcaa0e7635b9e5f4dfd7,2021-11-29 21:24:23,David Benson,Updates,False
+08b30afd787a32b4ec0db7f28bbc57c4aba37bd3,2021-11-25 17:42:04,David Benson,"Merge pull request #778 from 0bmxa/macOS11_AppIcon
+
+Add script to generate macOS icon format & update to macOS 11 design",True
+ca6e037bee4ce0b7837ad390ed66cd09239eef85,2021-11-25 17:13:33,David Benson,Update README.md,False
+b1e358a3a2a3674d425bbac6dc16f127e965be33,2021-11-23 03:54:28,David Benson,Merge commit '85731986e615c478ba0c2213e80e2defe0104564' into dev,True
+3a60f678f9ce105816cdb6895e7bd12f569f4269,2021-11-23 03:54:17,David Benson,Updates,False
+85731986e615c478ba0c2213e80e2defe0104564,2021-11-15 16:02:27,David Benson,Update README.md,False
+8682acc573ea571dcc8a1b84d187fa0af1844281,2021-11-14 20:25:11,0bmxa,Remove icon generation notice,False
+a57fcc3f28c30417ad41242a0d9298574f7b7248,2021-11-14 19:51:53,0bmxa,Update icon to macOS 11 design,False
+29677129b948c724ed900943543f000c06da36eb,2021-11-14 19:51:08,0bmxa,Add script to generate .icns file in macOS 11 design,False
+ed21763497cf68c4c0adc1d814115d36479f86be,2021-11-10 23:09:30,David Benson,Update stale.yml,False
+c37388189280c881b9e46c6c8d35bfe38e65b7cf,2021-11-10 21:55:56,David Benson,"Revert ""Re-build 15.7.3""
+
+This reverts commit 185c356f26ca310f5ba1309396dca34137e8f00c.",False
+185c356f26ca310f5ba1309396dca34137e8f00c,2021-11-10 21:31:33,David Benson,Re-build 15.7.3,False
+0ec972b53781e4b7c8e2993d42c7fd03150d9a53,2021-11-10 21:16:48,David Benson,Fixed electron-builder version to 22.11.11,False
+1839dcf6cd76bccf4c8953ed3320dd72e96d8494,2021-11-10 20:23:07,David Benson,Updates,False
+fafa1f95ed978b66eac6e1214bb80671918733db,2021-11-10 17:19:51,David Benson,"Revert ""Update electron-builder-win.yml""
+
+This reverts commit 9ed9a5beace0f94445df04b9b8fceeba336ddef9.",False
+2d8cdf058b1a93f02e71fa23170213b6447b801b,2021-11-10 17:19:46,David Benson,"Revert ""Update electron-builder.yml""
+
+This reverts commit 2c23febbce98582b917d67cf676ba31cadfa30c1.",False
+0be9340d06e455103626a61db42e00d44f04152b,2021-11-10 17:10:35,David Benson,Merge commit '9ed9a5beace0f94445df04b9b8fceeba336ddef9' into release,True
+9ed9a5beace0f94445df04b9b8fceeba336ddef9,2021-11-10 17:10:12,David Benson,Update electron-builder-win.yml,False
+2c23febbce98582b917d67cf676ba31cadfa30c1,2021-11-10 17:10:05,David Benson,Update electron-builder.yml,False
+e5b2d11a6268f438d7f5ac39281e4148130c775d,2021-11-10 17:06:02,David Benson,Reverting builder due to regression https://github.com/electron-userland/electron-builder/issues/3559,False
+9330d88233afda73da84cef04a7f50b412c82308,2021-11-10 15:48:22,David Benson,Updates for 15.7.2,False
+5305481ae93daa1959262b2860e04989349ff4fa,2021-11-10 00:51:04,David Benson,Updated electron-builder,False
+51b4a7f1646fad4cff9b4235eac56a11cb184732,2021-11-09 23:34:06,David Benson,Ready for 15.7.1,False
+aa6d2876446b5911d39b8a9f5bb327b94a2d6fa6,2021-11-09 23:18:14,David Benson,Merge branch 'dev' into release,True
+8d646aca148d0c89d078236c505317ed9daaf18c,2021-10-29 20:53:59,Ashraf Teleb,Trying universal arch for mac (not-tested),False
+0b5d713b5943e22d533615d8bb85918a46f465df,2021-10-18 21:17:50,Ashraf Teleb,Added SHA generation action,False
+26269ba9ce69ba425d0f34ed20127835272d2a15,2021-10-18 21:13:10,David Benson [draw.io],"Revert ""Merge branch 'dev' into dev""
+
+This reverts commit 79ee3788e6e36835fba15e3b6b3e8f50b6893b70, reversing
+changes made to a5668b3400516d5bf9d0d0d0dfbcc2ff536f6c99.",False
+af539c77931d0a82dc777d7ac11b62c2d11732a8,2021-10-18 21:11:40,David Benson [draw.io],"Revert ""Update stale.yml""
+
+This reverts commit a5668b3400516d5bf9d0d0d0dfbcc2ff536f6c99.",False
+79ee3788e6e36835fba15e3b6b3e8f50b6893b70,2021-10-18 17:53:49,Mohamed Mohamedin,Merge branch 'dev' into dev,True
+4a5a3b20d35f20666174fd4efe912fcecd212589,2021-10-01 03:49:02,David Benson [draw.io],Ready for 15.4.0,False
+a5668b3400516d5bf9d0d0d0dfbcc2ff536f6c99,2021-09-30 14:59:41,David Benson,Update stale.yml,False
+5155a713f838277378a7f523c50fb8183537dbcb,2021-09-29 20:59:34,David Benson [draw.io],Merge branch 'release' into dev,True
+fc084b41c6268ba59cd48ea6e2b6a22a40f3c6d3,2021-09-29 18:45:03,Ashraf Teleb,Changed Actions to trigger on tag only,False
+718623c3efd53b83915870cf0019f9873241d78c,2021-09-29 16:42:32,David Benson [draw.io],Ready for 15.3.8,False
+5cfa57603cebe3b3c13dc56803cecf4a86367a5f,2021-09-28 19:14:30,David Benson [draw.io],Ready for 15.3.7,False
+e91b7545e7bc16389602beaeb5f34b2a054a7e95,2021-09-27 17:00:04,David Benson [draw.io],Ready for 15.3.5,False
+d128f510bee1c43ffca720e9511ce6f9072bcaa2,2021-09-20 16:39:18,David Benson [draw.io],Updated,False
+150ca9ce454c1feaca94e9b5101cbd3368bcf50c,2021-09-17 02:42:45,David Benson,Update README.md,False
+3968b9999b442aa35e348ab2c02efe1eec250063,2021-09-15 01:48:41,David Benson [draw.io],Ready for 15.2.7,False
+4ba21cdd8a46b15cb9c2cc925bd08d75842a3a0f,2021-09-14 22:08:30,David Benson [draw.io],Ready for 15.2.6,False
+db2d1978351deb44ebbce93e4d733f852076d10c,2021-09-14 02:18:42,David Benson [draw.io],Ready for 14.2.5,False
+fcf6577ec1021766063050ddaf95bcf5e5b76ab9,2021-09-12 22:41:54,Ashraf Teleb,Updated to Electron 14 and also upgraded other dependencies,False
+f86094df1bfac01be8dc7d411a5003f6f05c8982,2021-09-08 22:40:42,David Benson [draw.io],Ready for 15.1.3,False
+53e484d0cd6d4e3725583858b48553bb40ffb1c3,2021-09-08 22:19:21,David Benson [draw.io],Updated dependencies,False
+71bbcc0feffd25c7e50455b8ec3315458b4a4994,2021-09-08 22:18:11,David Benson [draw.io],Reduced to latest version published on npm,False
+99b0f4c002e3acaf5606b6c003c1b99e49bbaec4,2021-09-08 19:07:57,David Benson [draw.io],Ready for 15.1.2,False
+fa48b712f3bc05dc4c3d607127043198b1a09952,2021-09-08 15:07:22,David Benson [draw.io],Ready for 15.1.1,False
+648b2fcd68d51bffd31dbef377b9e76424a2b8b0,2021-08-16 14:32:47,David Benson [draw.io],Updated,False
+0acc081d8e3dc53482d0e1f9fb47d9da4af8a4b4,2021-08-16 14:32:03,David Benson [draw.io],Updated draw,False
+2e479a311d22bddb6b171bfa3f6d1dab43e24d89,2021-08-16 14:27:14,David Benson [draw.io],Ready for 14.9.6,False
+bd0cc2722352c8c937a7da392aa7ffe5488f7a80,2021-05-18 07:52:07,Ashraf Teleb,Fixed windows auto-update issue of 32bit and 64bit (#582),False
+37334031fd778e5449a74704a6dd07a9659edb65,2021-05-13 20:39:41,David Benson [draw.io],Ready for 14.6.13,False
+bdf3d95cb66ad71cfab961229db70395924b8faa,2021-05-13 11:45:52,David Benson [draw.io],Merge branch 'release' into dev,True
+7db1dc3520369e1fdbe4ec5d5b2d8cb7ccaf60ad,2021-05-13 04:21:30,Ashraf Teleb,Fixed and improved Github Actions scripts,False
+334a3e0f5479283d7bcb4892ddebd0e6931ae166,2021-05-13 03:57:09,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml
+	modified:   .github/workflows/electron-builder-win32.yml
+	modified:   .github/workflows/electron-builder.yml",False
+ed0bd076e1adbefdbaaec7072c756ad7bdda396c,2021-05-13 03:52:55,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml
+	modified:   .github/workflows/electron-builder-win32.yml
+	modified:   .github/workflows/electron-builder.yml",False
+a9b4819bffffb362a4b549e9354b54a1713a4cbc,2021-05-13 03:43:02,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml
+	new file:   .github/workflows/electron-builder-win32.yml
+	modified:   .github/workflows/electron-builder.yml",False
+b92e099d8a90215b7b73b840f328982ebae236d0,2021-05-13 02:48:57,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml",False
+4f3ec2ac6c0911ed8140bdcd7893c7b7df7ed9f6,2021-05-13 01:58:46,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml
+	modified:   .github/workflows/electron-builder.yml",False
+ebd72fb1e0dcf202e08ef8c4a075c7c68758724a,2021-05-13 01:49:54,Ashraf Teleb,Changes to be committed:#	modified:   package.json,False
+6594f1d4670eea34642fd15b6180e065f4342ee5,2021-05-13 01:33:31,Ashraf Teleb,"Changes to be committed:
+	modified:   package.json",False
+809a3a2c8a25f377338457a647372c4dbf8acdb2,2021-05-13 00:46:02,Ashraf Teleb,"Changes to be committed:	modified:   .github/workflows/electron-builder-win.yml
+	modified:   .github/workflows/electron-builder.ym",False
+75d54dc573290c48d758e0a0288a9e3cf59bbb93,2021-05-13 00:22:28,Ashraf Teleb,"Changes to be committed:
+	modified:   package.json",False
+7399bcab8984fb951c30d8992b8a83f442d25c3e,2021-05-13 00:08:01,Ashraf Teleb,"Changes to be committed:
+	modified:   package.json",False
+029b86a616c79592ebb5e28d5851512b1f346c2e,2021-05-12 04:53:49,Ashraf Teleb,"Changes to be committed:
+	modified:   package.json",False
+655286698c6355dd0516a1795be21c2dd204ad10,2021-05-12 04:35:08,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder.yml",False
+a97a8f018bfac099604a3632573764b6b236db47,2021-05-12 03:58:17,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml
+	modified:   .github/workflows/electron-builder.yml",False
+4ddef17c81d6b6e3d2a37663903308683ddfd6ba,2021-05-12 03:51:52,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml
+	modified:   .github/workflows/electron-builder.yml",False
+2d84c9abe805140120b17bd5bf1fe0d7b8cf7a8f,2021-05-12 03:46:54,Ashraf Teleb,"Changes to be committed:
+	modified:   .github/workflows/electron-builder-win.yml
+	modified:   .github/workflows/electron-builder.yml",False
+278e1e869c77137d82122556ea8e751fa9bd0c75,2021-05-12 03:38:47,Ashraf Teleb,"On branch dev
+ Your branch is up to date with 'origin/dev'.
+
+ Changes to be committed:
+	new file:   test",False
+c5a9d07688bc2f71fca4c6c17a34f880f988aaa4,2021-05-12 01:09:25,Ashraf Teleb,Updated npm packages,False
+f44e5d44d046ded63304c142f9862bf9da6d3e8a,2021-05-09 03:29:27,David Benson [draw.io],Updated drawio,False
+e67434df18cc432f442e82658b3505e3840bf026,2021-05-09 03:24:46,David Benson,Update electron-builder.yml,False
+9220f751e9fc3fe44c70d1a7a3dd7b9c74075c70,2021-05-09 03:24:24,David Benson,Update electron-builder-win.yml,False
+d41e117586fa36a353f8de4e0f28aa6efdaa5149,2021-05-09 02:56:23,David Benson [draw.io],Ready for 14.6.11,False
+b8ba431cbf2634d8a8494fcabc229998cbd58ac8,2021-05-06 17:04:17,David Benson,Create FUNDING.yml,False
+d46750ee678365807cf8fac1424d6ef5f34a6d53,2021-03-25 15:58:29,David Benson,Updated timestamp server,False
+57720a8b114a7aa9d1854673e2a08a6984600771,2021-03-23 23:35:11,David Benson [draw.io],Ready for 14.5.1,False
+a47fff68aa132ee424502abd85be0aa99c8e99f4,2021-03-23 22:49:39,Ashraf Teleb,Fixed git-actions script,False
+13fec2bf880bfb773e86345b99c4183116221647,2021-03-23 22:31:23,Ashraf Teleb,Merge branch 'master' of https://github.com/jgraph/drawio-desktop,True
+99dda620b409efd72b423cb3f6e84d8a10758ab5,2021-03-23 22:30:52,Ashraf Teleb,Upgraded to Electron 12 and latest other packages,False
+8e9fef5382f390a9d1fe7d1146a639f47297ba0e,2021-03-23 17:13:28,David Benson [draw.io],Ready for 14.5.0,False
+3f04964850e74ee10a1134f55ff5a476e4774e94,2021-03-20 13:32:31,David Benson,Increased stale mark from 100 to 300 days,False
+fa60d290034a268c021c45d89670687078351177,2021-03-13 02:22:59,Ashraf Teleb,Improved PDF printing (each page has its own size) + embed XML,False
+0f972b9008add195a6127efa25f7479eda3796ca,2021-03-05 22:50:36,Ashraf Teleb,Fixing installation paths by specifying product name without the dot,False
+32811fc82b966f433f1051246ac2faf447b3cd9d,2021-02-24 22:15:57,David Benson [draw.io],Ready for 14.4.3.,False
+575c50e3289bad0869fe16cd2ca53ec95a542b84,2021-02-24 06:11:06,Ashraf Teleb,Fixed windows auto-update issue of 32bit and 64bit (#1839),False
+c3ffb3031f1458c7236ecda25efc5053d4fdda1b,2021-02-23 03:31:35,David Benson [draw.io],Ready for 14.4.2,False
+cfbaa8e467c7b8555df24bbaa85bea494f971f55,2021-02-23 03:30:50,David Benson,Update electron-builder.yml,False
+78c3cf9b60f25e8b27166b27a9691845cb98d8c9,2021-02-22 23:45:43,David Benson [draw.io],Ready for 14.4.0,False
+f9bc40c0a420c3764078ba82c46e2297848f489f,2021-02-05 00:35:50,Ashraf Teleb,Updated dependencies,False
+fab0281f38fe8d1c97955768ec96c13314ddc9d5,2021-01-03 21:13:44,David Benson [draw.io],Ready for 14.1.8,False
+ab347c9c0e0a8f564894a46195fbd8c4b4012414,2020-12-31 21:58:15,David Benson [draw.io],Ready for 14.1.5,False
+9b7aefcada5a474edbe99885b0756c789bb856d8,2020-12-31 01:31:01,David Benson [draw.io],Re-trying 14.1.4,False
+bf151c047edd9112fe3a20d122939f98825cd783,2020-12-31 01:17:23,David Benson [draw.io],Merge commit '27b08106b43594ea60c8959d74aaa26901fbc5a5',True
+601a96af89e646129a5149f107413ca3f12b4ec6,2020-12-31 01:16:49,David Benson [draw.io],Build test,False
+27b08106b43594ea60c8959d74aaa26901fbc5a5,2020-12-30 22:32:45,Ashraf Teleb,Fixed win32 config file and added back --publish never to snap,False
+699eb983851ebbc2cb7cdeace37f7567fc096c85,2020-12-30 17:09:42,David Benson [draw.io],Ready for 14.1.4,False
+84aa8054ae6f214ca6da16afc4aad392fd9d5a0b,2020-12-30 16:31:05,David Benson [draw.io],Reverted publish settings,False
+af599c3cfb76b8540bcaebdd4f6c03efa31f66ad,2020-12-29 22:23:54,Ashraf Teleb,Split win32 from win64 builds to keep exe file size small,False
+a0b092aaf2260182f0db3ebb978fec2a0d64fe67,2020-12-29 09:19:54,Ashraf Teleb,Updated electron-progress to v2.0.0.,False
+0124724a2905ceda773a41d1b36bc2165d383c75,2020-12-29 04:16:26,Ashraf Teleb,Trying --publish always to create the release,False
+1587365a40d8b785081695a0a74769704339e3a5,2020-12-29 00:49:40,David Benson [draw.io],Ready for 14.1.3,False
+3c0ffe4e4b3889b6d45b75a4c941a993a22aefac,2020-12-28 20:16:10,Ashraf Teleb,Merge branch 'master' into mac-amd64,True
+9dcf4fc347356e4c55278a72b16441cdfc3485de,2020-12-17 07:54:05,Ashraf Teleb,Added support for mac amd64 arch and merged win32 to main windows release file,False
+4e660fab04472fc875a38eb17ac65b96474f9be2,2020-12-11 15:47:49,dependabot[bot],"Bump ini from 1.3.5 to 1.3.7
+
+Bumps [ini](https://github.com/isaacs/ini) from 1.3.5 to 1.3.7.
+- [Release notes](https://github.com/isaacs/ini/releases)
+- [Commits](https://github.com/isaacs/ini/compare/v1.3.5...v1.3.7)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+c4ca5cfd9b04a3d727eb36c71c0ce6becf410126,2020-12-09 20:52:15,Ashraf Teleb,Updated README,False
+c2434f8a415140d48df30cec4715b51ae98ef511,2020-11-25 02:27:10,Ashraf Teleb,Removed appx artifact from github action,False
+e9c4bc98ab5cc2ee6cac0e72e3443a3d57dbfa13,2020-11-24 19:34:15,David Benson,Update stale.yml,False
+d01930691754ebc896d86d971a85d76b37d8f4b5,2020-11-24 19:32:18,David Benson,Update stale.yml,False
+6a11b0bc6a396c2ee0201ce39f452179eef4c7d5,2020-11-22 21:53:00,David Benson [draw.io],Updates draw.io,False
+69602b59f5c76f3becab0b3dd6823ba60769ee4b,2020-11-20 16:22:55,David Benson,Update stale.yml,False
+1a10ac6825b5160b54ccbe8f41be2ee57cd378a0,2020-11-20 03:48:10,David Benson,Update README.md,False
+3c8be20b1785b8502890a0ca71c1210c308a1f76,2020-11-20 03:43:39,David Benson,Update README.md,False
+5b75d4980a76dca819aedfe63de3ac459d406da9,2020-11-20 03:42:58,David Benson,Update README.md,False
+afa5fe0b8646892b7463242b2c2691a7bf7ef15c,2020-11-19 17:01:24,David Benson [draw.io],Reverted,False
+63a85cbd472c8ac02c385a52d64482958a88f261,2020-11-19 15:01:22,David Benson [draw.io],Testing,False
+ef58f1b6c935ed6437998ee19f02509facb2f5f1,2020-11-19 14:58:03,David Benson [draw.io],Increase version,False
+8857df1a1192ea41e018b2fac8d53d14ba982bf3,2020-11-19 14:57:42,David Benson [draw.io],Testing build,False
+e55680e1a9f761bc1882c9b7871654669777ee60,2020-11-19 14:54:40,David Benson [draw.io],Testing build,False
+d563b8998707e4e31759e3d2639cbc60970a6ab2,2020-11-19 14:51:54,David Benson [draw.io],Updated draw,False
+2a95d063cf485d01577f663702da2179ad161dc2,2020-11-19 03:11:51,David Benson [draw.io],Ready for 13.10.0,False
+9373f3889ea47fd4555ae069efd0c5d820f814af,2020-11-18 19:31:47,Ashraf Teleb,Using github actions token to release,False
+ae861d4f289e345390f971d38b96d01eb1c02e7d,2020-11-18 00:45:30,Ashraf Teleb,Only build with version tags,False
+bfe282cfea962d5d4f7c4e809a1d8bad5df00f28,2020-11-18 00:13:20,Ashraf Teleb,Git actions trial 11,False
+0d6d075f82bd21f14190e34663b029dcfc02959f,2020-11-18 00:03:39,Ashraf Teleb,Git actions trial 10,False
+1c6d9840e2172bdd5529bcb9450e6207052c7af5,2020-11-17 22:48:59,Ashraf Teleb,Git actions trial 9,False
+47efdd8d253d895dcc4056994336be010b9920fb,2020-11-17 21:50:19,Ashraf Teleb,Git actions trial 8,False
+b9c469092deb2c560bf25fe9919f1abfa8cb6e44,2020-11-17 20:00:12,Ashraf Teleb,Git actions trial 7,False
+d2655e4f945206480afa8c0227c48862568deee1,2020-11-16 17:39:17,David Benson [draw.io],Governance updates,False
+f35b240e9bb4dffc12b3a9b58c04c18cb724a294,2020-11-16 12:28:55,David Benson [draw.io],Ready for 13.9.9,False
+3063871e3d785b45daaf2018d827fa8d1de512de,2020-11-14 23:44:41,David Benson [draw.io],Merge commit '243f6607caa2c03b12794d25c964800aebc7ab2f',True
+4fe1aa7667198dcedc3b1af29139c5458cb2126f,2020-11-14 23:44:05,David Benson [draw.io],Ready for 13.9.8,False
+243f6607caa2c03b12794d25c964800aebc7ab2f,2020-11-13 01:46:58,Ashraf Teleb,Git actions trial 6,False
+32ea1943373964baf8541cdb7d28879508ba3960,2020-11-12 07:44:25,Ashraf Teleb,Git actions trial 5 [windows],False
+66f66b7a828becc20207ecfee285bd9b2c399d76,2020-11-12 03:07:20,Ashraf Teleb,Git actions trial 4 [disable snap temporary],False
+945eda6d91d74e75015ce4c7a303f2a71a2d0f38,2020-11-12 02:59:49,Ashraf Teleb,Git actions trial 3,False
+41693693c22fcc3926a17e123c54a18b807a3505,2020-11-12 02:23:25,Ashraf Teleb,Git actions trial 2,False
+ab52ac6b16f1aedad1a5e9200260d8dbe6b65f9e,2020-11-12 02:18:26,Ashraf Teleb,Git actions trial 1,False
+49169e030429fc9c9c60578d6c2f5ac6105c9f82,2020-11-11 23:23:36,David Benson [draw.io],Generated yarn lock,False
+cf9ca32ea12159e2324370767f54cf44b2f6347e,2020-11-11 23:22:02,David Benson [draw.io],Ready for 13.9.5,False
+8b67a3158fca720b2adfcdc52414c2809554b7df,2020-10-21 18:01:24,David Benson,"Corrected README 
+
+https://github.com/jgraph/drawio-desktop/issues/384#issuecomment-713307986",False
+011f7575b45d7688b0644f52c3469eb63a31d37f,2020-10-08 22:28:22,David Benson [draw.io],Ready for 13.7.9,False
+e183a28286cb3f661a266b985946a863e190b1ec,2020-10-08 15:15:53,David Benson [draw.io],Ready for 13.7.8,False
+a76bf5ee5888b1826c83b7bf3271c891a16129e4,2020-09-17 21:47:36,David Benson [draw.io],Corrected drawio version,False
+28f01b3003776fcb1c2f02ca309679b6a95a70d1,2020-09-17 20:03:13,David Benson [draw.io],Corrected version,False
+d6820e5d9ab73f019cdff3cc199593bb5540f088,2020-09-17 19:41:09,David Benson [draw.io],Ready for 13.7.3,False
+cf79c09c24a14474089c0e08c6644fbf1eb5b91c,2020-09-16 22:37:27,David Benson [draw.io],updated yarn lock,False
+9d97b902745ee53a2d30730437ece2cfefbe7687,2020-09-16 22:35:39,David Benson [draw.io],Ready for 13.7.2,False
+93814f8dfd4cd34f03fc541e308734bd52621496,2020-08-10 14:52:55,David Benson [draw.io],"Revert ""Nudging build""
+
+This reverts commit 7c08cc1a0cf351c66316b3fdfbf65ddd48ae5969.",False
+7c08cc1a0cf351c66316b3fdfbf65ddd48ae5969,2020-08-10 14:04:32,David Benson [draw.io],Nudging build,False
+4359428b3040c18f0961377f1279be7922da8af4,2020-08-09 03:58:37,David Benson [draw.io],Ready for 13.6.2,False
+f0d75beffef58f30bebe60afa5afe06b120b79d7,2020-07-31 03:58:08,David Benson [draw.io],Ready for 13.5.7,False
+5ad11d8e0a4365c3febb7d9ac80569870622682a,2020-07-24 15:19:14,David Benson [draw.io],Ready for 13.5.1,False
+a06dbddbce480d0c948f0e3c0c2e7cc4202ebcdc,2020-07-16 19:45:10,David Benson [draw.io],Ready for 13.4.5,False
+d3a430e64cdfd0e3597a63d2a50daf9e733b25c5,2020-07-15 21:29:05,David Benson [draw.io],Splits appx build into own builder,False
+63d9b04427247a2c0eedf157c13733a34c1987fc,2020-07-15 17:59:24,David Benson [draw.io],Ready for 13.4.4,False
+14eb312fba784164f125de4abd65b757400ed5d5,2020-07-06 19:10:06,David Benson [draw.io],Ready for 13.3.9,False
+5d94846d86bc24f01da8725db5c3833dd0235cbd,2020-06-29 03:13:03,David Benson [draw.io],Ready for 13.3.5,False
+91064e08f2eaa198b777887371ab1439df85c6eb,2020-06-23 18:10:58,David Benson [draw.io],Ready for 13.3.1,False
+b3a9878210f4d571b92eb2be1209bde462853607,2020-06-18 17:46:50,David Benson [draw.io],Updated,False
+7a357067c8b73fdcf18f84462f93207346604a59,2020-06-18 14:53:51,David Benson [draw.io],Ready for 13.2.5,False
+d121f112ec60bc6529b4d881d1430e9f99843891,2020-06-16 19:26:02,David Benson [draw.io],Ready for 13.2.4,False
+3ecdc956d0b3c4ee4dabd87f2cba6225af0eca96,2020-06-12 14:17:42,David Benson [draw.io],Ready for 13.2.2,False
+f58bdc819bbcde927e0cb4a5ec7f447c33fb906c,2020-06-11 19:41:40,David Benson [draw.io],Updated,False
+6b1112bd255ece24f76d7779410d836d11f2e8fd,2020-06-11 02:45:12,David Benson [draw.io],Updated for 13.2.1,False
+a97eea2c1abe48bec3ea5b850a64d7e25793a1a9,2020-06-03 19:56:52,Ashraf Teleb,Upgraded to Electron 9 + upgrading other packages,False
+c130070bd0b61a5e6a738e0af9c95eeb30cfd237,2020-04-30 00:31:26,Ashraf Teleb,Allows folder selection for windows installer,False
+94ef0314c229899565eb50b618a5c249f24f56e2,2020-04-29 15:31:29,David Benson [draw.io],Ready for 13.0.3,False
+1765630046dc0f685ff8d5aba4693438b5e74aa2,2020-04-29 14:54:14,David Benson,Correct travis link,False
+963257baf71b3ed5f5b28bbffb0f3ff171b4b089,2020-04-29 14:08:57,David Benson [draw.io],Merge commit 'cd419ea7176e65e39ad855c124ce8d94cbd86bec',True
+984e46d51516578e59ba647486250a323376347e,2020-04-29 14:07:15,David Benson [draw.io],Ready for 13.0.2,False
+cd419ea7176e65e39ad855c124ce8d94cbd86bec,2020-04-22 21:24:58,David Benson,"Merge pull request #239 from kant/patch-1
+
+Minor formatting proposals (mostly for the CLI)",True
+9fe2995add5a300036c8cbcd559d3bcd414a10f2,2020-04-22 18:46:02,Gaudenz Alder,Ignores Eclipse files,False
+7ff0741fe0c59389840931283c1d1aff7d7f5b78,2020-04-22 02:57:49,David Benson [draw.io],Ready for 13.0.1,False
+370207f544de362f270aadd0f0c306139934b961,2020-04-21 19:52:16,David Benson [draw.io],Updates to 13.0.0,False
+8eae28bac32d4b3b2d99bfe992d9988f671a3776,2020-04-15 22:26:59,David Benson [draw.io],Ready for 12.9.13,False
+e76395810af95de69f496f4075aa64125969e5e1,2020-04-09 17:13:28,David Benson,"Merge pull request #256 from dvalter/fix/icon-512x512
+
+Fix 512x512.png name",True
+65c62c0c86903feced6b2ea9a3a636bf5e23b084,2020-04-07 23:09:06,Dmitry Valter,Fix 512x512.png name,False
+1917e44ba02bf97b137dada0226f234cc89dd7e6,2020-04-07 19:05:30,David Benson [draw.io],Merge branch 'master' of https://github.com/jgraph/drawio-desktop,True
+2bcfa345dbcb6e14ce313bd0643c81481976f1dd,2020-04-07 17:41:23,David Benson,Update README.md,False
+a99876ba435aea86436cb89ccd66226f710c4820,2020-04-07 13:57:24,David Benson [draw.io],Ready for 12.9.9,False
+4cf7fa0c0a957d0a7b0fc3590f4fb2529b0c4444,2020-03-28 21:08:40,Darío Hereñú,Minor formatting proposals (mostly for the CLI),False
+b0f6047756db75e10796104f39ec9670861ffcd2,2020-03-26 04:32:46,David Benson [draw.io],Fix for missing altool,False
+39168fe489a9a4deb20cbb46a13c586d04a7910b,2020-03-26 04:25:00,David Benson [draw.io],Updated to 12.9.3,False
+3a8cd6668e5269e855b4a703ea5b81c94b3f5c75,2020-03-25 18:25:20,David Benson [draw.io],Updated,False
+0baac7a7ad247cf680f32454d1ae8127e685ad1d,2020-03-25 04:49:34,David Benson [draw.io],Updated to 12.9.2,False
+3126f689ba98024dd151488d622218cae0df5f6e,2020-03-25 04:09:17,David Benson [draw.io],Updated to 12.9.2,False
+a400fcc1e23f5a6f1c93424b4b8301bdb07657dc,2020-03-25 04:06:51,David Benson [draw.io],Merge commit '225782591e70d6a5892f3378844c40334614da6f',True
+1cfcff13a87d58e722934af39b9fb767325fcb9e,2020-03-25 04:06:34,David Benson [draw.io],Updates,False
+225782591e70d6a5892f3378844c40334614da6f,2020-03-06 19:49:06,Ashraf Teleb,Added win 32bit release,False
+2c1a0f4bd6c1ad3878b6a7d15382e87ce6ebc0cd,2020-02-19 08:18:13,Ashraf Teleb,stopping default publishing,False
+ecd497368353ff85ae579b57f0e83171319f3ba2,2020-02-19 07:25:28,Ashraf Teleb,Removed electron-builder publishing,False
+71a1dde15cc501397057a6ab61020c2aef29b8b8,2020-02-19 07:05:12,Ashraf Teleb,Explicitly publish to snap stable channel,False
+fc27b42fbceb01f53f1684c7aafdcfe84e6c9f6d,2020-02-19 04:23:50,Ashraf Teleb,Trying snap publish again,False
+0719369d2e0051fd643a598f79f2b43fb23faeb3,2020-02-18 23:15:34,Ashraf Teleb,"Revert ""Another trial""
+
+This reverts commit 7ca91ddf8201d5cb28dc0dd1b4121a00009e00e5.",False
+31b2134765ad3ab93e9109aef686d52c8849ee38,2020-02-18 23:15:23,Ashraf Teleb,"Revert ""One more trial""
+
+This reverts commit 404bedb6cb0762c81f14a717931461240ff8564d.",False
+404bedb6cb0762c81f14a717931461240ff8564d,2020-02-18 22:25:50,Ashraf Teleb,One more trial,False
+7ca91ddf8201d5cb28dc0dd1b4121a00009e00e5,2020-02-18 22:12:09,Ashraf Teleb,Another trial,False
+4d4d371cbc6dc10174d470e46e2269a4aa3e6e0a,2020-02-18 21:27:32,Ashraf Teleb,Adding snapcraft login to enable publishing,False
+3f013485b6e022d3df7c427af3d2b73542695137,2020-02-18 08:39:51,Ashraf Teleb,Trying to force publishing to snap store,False
+78d2458a00a7546b53d946abc210b53348d11714,2020-02-05 19:55:20,David Benson [draw.io],Ready for 12.6.5,False
+363d7710327c95921592abad5322ec9eccc3efac,2020-01-15 15:01:01,David Benson [draw.io],Ready for 12.5.3,False
+cf528fd61b7d4beadd424bd25722ffb24c95b254,2019-12-16 20:53:36,David Benson [draw.io],Ready for 12.4.2,False
+363dfd904ed53e020a04af81752329cbfa53d7f1,2019-12-14 04:09:50,David Benson [draw.io],Ready for 12.4.1,False
+5ec520bd52298c1461d2e246020e1092034769dc,2019-12-12 18:24:43,David Benson [draw.io],Ready for 12.4.0,False
+1db5bf6e847ca42917e6ec8af18b2eb294065002,2019-11-28 05:09:36,David Benson [draw.io],Ready for 12.3.2,False
+245c4b6bc9f7862707fde9e70b85960fc4b9bddb,2019-11-06 22:59:01,David Benson [draw.io],Updated to 12.2.2,False
+4e78f49ef868267f9bfa4f6e9c0e76a28950fd81,2019-11-05 14:30:17,David Benson,Changed debug mode var,False
+78ad41e2e595f9b9caba15f8ec759189fa13718d,2019-10-27 01:35:06,David Benson [draw.io],Updated to draw 12.1.7,False
+1769f46215aa939a838d7305547dc18ce9a4bdbb,2019-10-24 15:09:27,David Benson [draw.io],Corrected build status,False
+7b9955c9b58d86ca632e12e716319283d69d59aa,2019-10-24 14:49:59,David Benson [draw.io],"Updated to electron 7, drawio 12.1.4",False
+9ec742edd663c3bf5b09b8715ad2a16d1d027085,2019-10-11 18:44:31,David Benson,Update README.md,False
+da90f5fb763a1e97e35d19b812303cc84203cea0,2019-10-10 22:06:39,David Benson [draw.io],Ready for 12.1.0,False
+d890061970bf2f6939eabd59b2b0d58a881d3e43,2019-09-20 22:04:19,David Benson [draw.io],Ready for 11.3.0,False
+21b07be7c8adadeb82d890ea29e7e28b74c0b14d,2019-09-03 22:07:59,David Benson [draw.io],Typo,False
+5ded528c523c1c400d8fac95e9a4e878c15e099c,2019-09-03 22:06:05,David Benson [draw.io],Bump for rebuild,False
+0b2cacaba0f5d47563da4b1fd971e353b1d77717,2019-09-03 21:57:17,David Benson [draw.io],Updated to 11.2.5,False
+5b0be9fae79ad2faf396e28d4cad42d55076c11a,2019-09-03 21:03:43,David Benson [draw.io],Corrected command syntax,False
+fe9ef1c51f4791e9193f76fd7964f4ac4321c437,2019-09-03 18:31:26,David Benson [draw.io],Typo,False
+aaf02c0f713309dfaff0af7cfdcf22530861df59,2019-09-03 18:29:03,David Benson [draw.io],Test 11.2.5 release,False
+f19601c9e1940ebbb68f1e55f1ae34c3c58b7dab,2019-09-03 17:53:07,David Benson [draw.io],Only release snap on linux,False
+becbe21a5e7216726a027e7bb3de2269cad28582,2019-09-03 17:39:00,David Benson [draw.io],Restricted snap install to linux only,False
+a2ccd1938de3257646a10a750bbea73e501c4c4a,2019-09-03 17:32:46,David Benson [draw.io],"Split electron builder into win, linux-mac and snap builds",False
+886df8bd7b9c511bbadb78d74fd568df29f188e8,2019-09-03 04:25:29,David Benson [draw.io],Add sudo snap install,False
+f9a73634b868e57184fff140cd7c39cf64c3e436,2019-09-03 04:21:13,David Benson [draw.io],ubuntu used changed from 14.04 to 18.04,False
+1e44835166a4266fe4aaf186765d2f2d89995ee2,2019-09-03 03:54:08,David Benson [draw.io],Trying sudo,False
+b4e5bb5f69b38cfbbcda87f80e5fb3cbc5e3bcee,2019-09-03 03:45:47,David Benson [draw.io],Install snapcraft,False
+4a3101179514956107f4a343a2159c4901da6acd,2019-09-03 03:32:21,David Benson [draw.io],Actually read the publish docs this time...,False
+eea41a51e5c469133db061bc66a0942d879be8ee,2019-09-03 02:30:00,David Benson [draw.io],Typo closing array,False
+36ec3d44379b0f5ce5c491c683536c0eec64e3ab,2019-09-03 02:24:12,David Benson [draw.io],Moved snap in providers,False
+3bbc8ba28d6e7b07bec680858023f752879b9855,2019-09-02 18:18:20,David Benson [draw.io],Updated to draw.io 11.2.4,False
+c58bcf7c8d6084d5d849181b5d7084a542deeb60,2019-08-22 01:58:04,Ashraf Teleb,Fixed appx images transperancy,False
+89729b7f59330a578747d657dcfb4bd389380801,2019-08-21 22:00:55,Ashraf Teleb,Appx required images,False
+a23e3332f4bcb5072e08c1c98673acee4b093f03,2019-08-21 20:49:53,Ashraf Teleb,Added disableUpdate parameter to sync,False
+4f28742ac1b919abdfb6970b623ae484f20934c8,2019-08-21 07:08:25,Ashraf Teleb,Added appx other required properties,False
+0bea1d5fe4e91590aaca49cf8de85db7af0a9d40,2019-08-20 21:11:56,Ashraf Teleb,Added appx properties to build,False
+37e333ff4177f61019b8334c079d9c1f19afb692,2019-08-08 22:21:22,David Benson [draw.io],Corrected draw repo,False
+c169469cf4c3c95dbe057ecd370ff8eae6f3bda5,2019-08-08 22:01:57,David Benson [draw.io],Ready for 11.1.4,False
+b75e8a3efb1226a9acea59e721f3323598664154,2019-08-08 15:04:59,David Benson [draw.io],Added,False
+d520b4463af8f6152c5eca02f56a1c32a41381d1,2019-08-07 22:47:02,Ashraf Teleb,Changed Linux executable name to drawio (removing the dot),False
+20820f1dafabae09d00079cf0aba2610d3b5a0ad,2019-08-05 17:12:42,David Benson [draw.io],Added icons for linux builds,False
+25e3972aae192378b35872bcc1c1ea24e6119aa3,2019-08-02 21:29:57,David Benson [draw.io],Explicitly refer to electron-builder for dist,False
+3d46dac46e9d21530b13036c9c330c69709b8eb1,2019-08-02 21:21:25,David Benson [draw.io],"Revert ""Force yarn version""
+
+This reverts commit c0d46d971851868cc906d7ae4879976c1c300a43.",False
+de77d7653d9168d34ccf751d4d47ba01d3cbe55c,2019-08-02 21:21:09,David Benson [draw.io],Updated,False
+c0d46d971851868cc906d7ae4879976c1c300a43,2019-08-02 21:18:20,David Benson [draw.io],Force yarn version,False
+5fcdf3aa92ee43f4662e33422ef735d8b0df83f7,2019-08-02 20:28:30,David Benson [draw.io],Added yarn install,False
+a2d1bdac1809d9a910ad419b36a409984648f194,2019-08-02 19:46:07,David Benson [draw.io],Updated to draw 11.1.1,False
+2dc798aed6184ef9a709a455b6224b00cb748ac9,2019-08-01 21:40:40,Ashraf Teleb,Updated electron-updater,False
+2e6ebdfe4e05e52914e15582231482c6693a3030,2019-08-01 21:33:04,Ashraf Teleb,Updated electron-builder,False
+1a99eb13d33c4e9631d09e59153c0830f4c87e37,2019-08-01 03:29:43,David Benson,Update README.md,False
+4415a3972c30c390194bcfe0260afeffb51859fc,2019-08-01 03:28:31,David Benson,Update README.md,False
+5d6d916378e57397d3bc12041f3e05db5806dd14,2019-07-31 21:15:49,David Benson [draw.io],Updated to electron 6,False
+03ed5b2ddbe94975bfd59c06ee59ae108ca415f8,2019-07-18 21:03:42,David Benson,Update README.md,False
+01d9a180fca2765fbfb21dd23947549796f855a1,2019-07-18 21:02:41,David Benson,Update README.md,False
+76f63a7aadcd4914da2ac6f558560f2dfbcda3d3,2019-07-16 22:10:06,David Benson [draw.io],Updates drawio repo,False
+5f8d980acc59bbf6c2a29bf5bc5e3027ad3528f9,2019-07-11 22:17:48,David Benson [draw.io],Updated to draw 10.9.5,False
+25bfc51cf0b756d586c8b4ba6ffa1a5345fcae72,2019-07-11 17:26:14,David Benson [draw.io],Updates to draw.io 10.9.4,False
+f5f15543f57146c8a767aa801d3bd9626ef77e8c,2019-07-09 19:36:44,Ashraf Teleb,Remove unused packages,False
+d1beeb70acff4dc766ba28b51a0e0b77990e905b,2019-07-09 14:17:01,David Benson,"Merge pull request #124 from jgraph/dependabot/npm_and_yarn/tough-cookie-2.3.4
+
+Bump tough-cookie from 2.3.2 to 2.3.4",True
+a3c8088108fc3ecc48262facf1e5a82d4c4b3b52,2019-07-09 14:16:52,David Benson,"Merge pull request #123 from jgraph/dependabot/npm_and_yarn/sshpk-1.16.1
+
+Bump sshpk from 1.13.1 to 1.16.1",True
+deb62a713dd30e5f760937a9ae2e83a1817e3d70,2019-07-09 14:15:27,David Benson,"Merge pull request #122 from jgraph/dependabot/npm_and_yarn/extend-3.0.2
+
+Bump extend from 3.0.1 to 3.0.2",True
+e525496014188a0fbc133b30f447a063e6274f15,2019-07-09 14:14:24,dependabot[bot],"Bump tough-cookie from 2.3.2 to 2.3.4
+
+Bumps [tough-cookie](https://github.com/salesforce/tough-cookie) from 2.3.2 to 2.3.4.
+- [Release notes](https://github.com/salesforce/tough-cookie/releases)
+- [Commits](https://github.com/salesforce/tough-cookie/compare/v2.3.2...v2.3.4)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+b47d1e1a8ddbdea8707fa9d2a06334c4adf7b2f0,2019-07-09 14:14:21,David Benson,"Merge pull request #121 from jgraph/dependabot/npm_and_yarn/stringstream-0.0.6
+
+Bump stringstream from 0.0.5 to 0.0.6",True
+8f96054cb31f4f546fd4fd7b7db9fab1fd8bc518,2019-07-09 14:14:10,dependabot[bot],"Bump sshpk from 1.13.1 to 1.16.1
+
+Bumps [sshpk](https://github.com/joyent/node-sshpk) from 1.13.1 to 1.16.1.
+- [Release notes](https://github.com/joyent/node-sshpk/releases)
+- [Commits](https://github.com/joyent/node-sshpk/compare/v1.13.1...v1.16.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+c4d95f4fc5d393b8fe0918f11b05179a95335989,2019-07-09 14:13:57,dependabot[bot],"Bump extend from 3.0.1 to 3.0.2
+
+Bumps [extend](https://github.com/justmoon/node-extend) from 3.0.1 to 3.0.2.
+- [Release notes](https://github.com/justmoon/node-extend/releases)
+- [Changelog](https://github.com/justmoon/node-extend/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/justmoon/node-extend/compare/v3.0.1...v3.0.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+d30940af407f7b8487a1ec6b5054ee9736c3d9d9,2019-07-09 14:13:29,dependabot[bot],"Bump stringstream from 0.0.5 to 0.0.6
+
+Bumps [stringstream](https://github.com/mhart/StringStream) from 0.0.5 to 0.0.6.
+- [Release notes](https://github.com/mhart/StringStream/releases)
+- [Commits](https://github.com/mhart/StringStream/compare/v0.0.5...v0.0.6)
+
+Signed-off-by: dependabot[bot] <support@github.com>",False
+ced575f1d4e386fe2396f3c29891688efc28fa0f,2019-07-09 14:08:37,David Benson [draw.io],draw.io and dependency updates,False
+ce9041f5213c81f6281c0725db73cebe71f65916,2019-07-01 14:55:46,Gaudenz Alder,Update README.md,False
+5f135f7ba94bbc3a0fcf039cd293808959af7d29,2019-06-21 15:53:56,David Benson [draw.io],Ready for 10.8.0,False
+a90c6efe2fb983502397ce9447254c71ac8a9fa3,2019-06-20 20:53:16,David Benson [draw.io],Cache manifest no longer used,False
+19bee4b760123bfd375aec3cbad7d3cc87e97f43,2019-06-12 18:52:32,David Benson [draw.io],Updated to 10.7.7,False
+f9932de38c345eb183bba599b1f7f04b13f974c6,2019-06-11 22:09:28,David Benson [draw.io],Updated to draw.io 10.7.6,False
+8df830206c2d01cc40a91a745971ceef4316e68d,2019-06-11 21:33:34,David Benson [draw.io],Updated xcode version to 10.2,False
+d3ad1e11d59130410433464575cf177124463ed5,2019-06-10 22:31:08,Ashraf Teleb,Merge branch 'master' of https://github.com/jgraph/drawio-desktop,True
+3fd31a36b4d4656b76fb2093db4a9d6f6d2e3856,2019-06-10 22:30:50,Ashraf Teleb,"#93 Mac Notarization, #107 wrong exec name in Linux, #105 vsdx file association, #96 svg icon",False
+9f84b555f2be8faeb9e78a3e03d5c06278ff1d9d,2019-06-07 16:48:07,David Benson,Update README.md,False
+35f168e6368b420631b23fe52853c81a37c94404,2019-06-06 16:13:22,David Benson,Update README.md,False
+80e998b1dcd9cdd3fbd08b0981505ee26a8b5a55,2019-06-06 02:30:40,David Benson [draw.io],Adds appx build,False
+366498090e6892040aa31e3bb3b251c5fc2c1733,2019-06-05 19:01:44,David Benson [draw.io],Updated to 10.7.5,False
+0cf4aa3cd0650b590a4adcd4d869af0039d1b72e,2019-06-03 18:38:19,Ashraf Teleb,Added file association to installer,False
+3e55c83cba55ff194cac7a0278a8a42ed611f850,2019-05-25 21:12:58,Ashraf Teleb,Added dependencies for pdf text embedding,False
+ca911a8cce04c3a04014e045eaa9d42c84fbfb8d,2019-05-23 20:32:27,David Benson,Updated draw,False
+c42ddd7f96d3bc7b1620ccf4d4b1aed8676067c7,2019-05-23 16:36:31,David Benson,Updated draw,False
+c1a78fa092c555ec6b961f73e5be33ca37ec248a,2019-05-22 15:48:38,David Benson,Ignoring dist folder,False
+ef00d22b6b31300eaa6f01925e952f6437ffaff3,2019-05-21 21:20:26,Ashraf Teleb,Added dependencies needed for auto updater,False
+3dd942577cdd7c2bc1ebf9d71de21d147066959f,2019-05-10 21:21:32,David Benson,Typo,False
+145712e253ab18b3ee4d7728a2318fb57891ac49,2019-05-10 21:18:59,David Benson,Update README.md,False
+69f7fbc102a233503b3f566f0cf9571581653aff,2019-05-10 21:17:18,David Benson,Update README.md,False
+807bac8651a3dd9db18f44e2977278927172f97d,2019-05-10 20:09:02,David Benson,Updated to electron 5.0.1,False
+c120b89579c80a62db8401898b68909d29918476,2019-05-10 20:02:46,David Benson,Updated,False
+6fef2b1a9ed0246e537ec6ce176a314b1b197c33,2019-05-10 19:58:51,David Benson,Updated,False
+a7746b899def446cdbadcf4b8c4faf4ce87b0f2a,2019-05-10 19:28:09,David Benson,Updated,False
+ae61ba64b0ed6b7bf190d8c3981d6f097c1d6100,2019-05-10 19:02:54,David Benson,Updated electron and electron-builder,False
+2cfeebd73c3ae512a868c56793b3ba8f9a88f154,2019-05-10 18:36:37,David Benson,Updated draw,False
+6e538be127ad8e9fd0286f6e327b8b640c383f8d,2019-05-09 22:09:08,David Benson,Updated to latest draw,False
+95a4e2550b5f58c4fa4bc14ff7505f81b91767a7,2019-05-09 22:03:24,David Benson,Updated packages,False
+bc268f143debb0f7ef9fe1a6d16551a3843fdcca,2019-03-22 23:14:14,David Benson,Merge commit '8aa46892ada5157029c7db7b7b05ecc1f4c56cb9',True
+35967309d4b73f9d2e949350a224e16129def269,2019-03-22 23:13:11,David Benson,Added snap and updated versions,False
+8aa46892ada5157029c7db7b7b05ecc1f4c56cb9,2019-03-08 12:45:46,Gaudenz Alder,Updates copyright year,False
+5175e0f1fa7f334d832ce0e815a650d219e287f9,2019-01-03 18:49:16,David Benson,Updated node build versions to 10,False
+7e5cb4cba092c9e97d6045c8d641db1224464164,2019-01-02 19:56:48,Gaudenz Alder,Fixes broken icons,False
+d4cbcc655c90f50e90821d616025fa056a323047,2018-10-30 04:12:24,David Benson,"Merge pull request #55 from hmalphettes/win-portable-47
+
+Fixes #47 - windows portable app",True
+07eef1adb0cde3c678ba8caf2c6fe1fb2a6d590c,2018-10-29 22:01:29,David Benson,"Merge pull request #63 from bjonnh/master
+
+Update to last electron and last drawio. Thanks.",True
+085266b6273644ec91f45f97e0acbcf72a5c1e64,2018-10-29 21:59:12,Jonathan Bisson,Bump version,False
+29c344eb0d305eee6f348b21d460840c2cda3c14,2018-10-29 21:49:39,Jonathan Bisson,Update to last electron and last drawio,False
+3dedcdd06a5f66339ab9291c5965896b40133879,2018-10-13 05:38:58,Hugues Malphettes,"Fixes #47
+
+This change packages a portable windows application as well as the standard installer.
+I tested the build on Win10 with a self-signed certificate and without access to administrative privileges.
+I am happily using it in this fashion.
+
+Many thanks again for your care and this most awesome project.",False
+f41772dbb7eb91e76bc03a6971ece0d710a741c8,2018-06-14 18:02:06,David Benson,Ready for 8.8.0,False
+7abc1586bbcbbf77100ca263af8f099e58f6a968,2018-06-01 21:41:03,David Benson,Updated for 8.7.1,False
+461804cedff2c027aeb7cbe0882bc7fc684c6dea,2018-05-21 18:54:18,Gaudenz Alder,Adds edit image link,False
+dfd02bdeab975772e30e23d360e3d584784c7ed8,2018-05-21 18:52:37,Gaudenz Alder,Adds diagram data to PNG file,False
+499143399a53b690d820b4e477bbd0658938cabc,2018-05-21 18:45:15,Gaudenz Alder,Ignores Eclipse project files,False
+70484e6a6ea7ac5a4840f0df579bf327ec400aac,2018-05-16 02:41:13,David Benson,Bump,False
+85536dc7c42f707dd6bf16d785ce92b4508f5020,2018-05-16 00:30:16,David Benson,Corrected version string,False
+2ebfbd590e064f461690e600891b3a06f09280af,2018-05-16 00:19:38,David Benson,Updated for version bump,False
+ec75128d2fd8b4797ddd347108c17ba6df28add1,2018-05-15 23:12:11,David Benson,Ready for 8.6.5,False
+8ec952d1e21b80bee926de5edb9a9215888d2bf8,2018-05-14 21:52:19,David Benson,Updated for 8.6.4 release,False
+3b996af2bca0e65188512275a69569e1a35879f2,2018-04-10 14:57:15,Gaudenz Alder,"Merge pull request #29 from internetscooter/master
+
+Removed dor from directory name",True
+b6f87feff53b901c6a36d4914f7f8a741ab366d6,2018-04-10 14:34:47,Paul McIntosh,Removed dor from directory name,False
+78cfc5a8df0f2ec85a334243e9500f3e293aaa0b,2018-03-16 21:51:28,David Benson,Updates builder,False
+b852c0807bb63ca448adaa25dbfbc0de8fe18a13,2018-03-16 21:44:16,David Benson,Updated electron version and yarn lock,False
+cab0c2a0af38a9cabeca0264351003935e1380dd,2018-03-16 21:35:13,David Benson,Reverted to electron 1.7.6,False
+0df80d073ce91d244d6956c3510db0931558c46d,2018-03-16 21:29:37,David Benson,Updated electron version,False
+2a0c3ae7fdf4748e4a3355f163f2471c1078f344,2018-03-16 21:27:09,David Benson,Updated draw,False
+a21bdbb1ed7fc2ee56d879738854957d8d0d6cc1,2018-02-11 22:03:46,Gaudenz Alder,Fixes paths,False
+e266f479bff502bfaf275de8353d8ee901003ecc,2018-02-06 19:06:59,David Benson,Updated to 8.0.6,False
+8bd2dd444e3471500af671b99be1572afb285446,2018-02-06 18:59:34,David Benson,"Merge pull request #15 from internetscooter/Updates-to-build-instructions
+
+Updates to build instructions",True
+c47dc7eb3d3dbda0daffa6ae64120e08d60fcb08,2018-02-06 16:26:44,David Benson,"Merge pull request #20 from SISheogorath/feature/rpmBuild
+
+Add rpm building",True
+d8c2ccb6ef01f4ab592fa2bd93bc2cc3ff436659,2018-02-06 04:53:52,Sheogorath,Add rpm building,False
+4d303d128ed84b79fadf6189ae0d2490bfb3a15e,2018-01-24 01:53:23,David Benson,Paths,False
+d4edffe2ae585be8564050bbd5170b8256f61c25,2018-01-24 01:42:11,David Benson,Moare paths,False
+a58e7d692ca20461ccb39ad0561e37ec2c40a982,2018-01-24 00:29:10,David Benson,Updated paths,False
+379904f1e2dea8e26796790787ceb0a40053e6ae,2018-01-23 22:30:31,David Benson,Put submodule back,False
+535166747fef25c79172d7dba4cc5e4745707c98,2018-01-23 18:20:38,David Benson,Removed draw.io submodule,False
+823c861ea1c3ad084c37c03b836020d91eac6950,2018-01-23 18:15:11,David Benson,"Revert ""Corrected submodule name""
+
+This reverts commit 5d9fb0498ec140bc1d7ec6ca087135a0d5a6bc7e.",False
+cdab6d0d99914d371517b1f00979a0445af07ad8,2018-01-23 18:15:04,David Benson,"Revert ""Corrected submodule path""
+
+This reverts commit 0df9156095a05530769c89d74a4d3ebd4e2dc0bf.",False
+0df9156095a05530769c89d74a4d3ebd4e2dc0bf,2018-01-23 17:50:31,David Benson,Corrected submodule path,False
+5d9fb0498ec140bc1d7ec6ca087135a0d5a6bc7e,2018-01-23 17:25:48,David Benson,Corrected submodule name,False
+c51ed3854050e1c8c889d64622cbe471c4f31c56,2018-01-22 20:31:16,Gaudenz Alder,Adds padding,False
+824d12485af960e1453e305d733e3cf676449709,2018-01-22 03:19:54,David Benson,Removed incorrectly named file,False
+5b7fd191e237b4fc0eef6d7be633558e8dffe2f8,2018-01-22 03:17:59,David Benson,Create README.md,False
+cbf4d6c3d66412184629f5833a5f5f0cfc107d2c,2018-01-22 03:17:33,David Benson,Create README.d,False
+3e1463e693e6997a8514f2b8f4757064179762ab,2018-01-21 03:28:52,David Benson,Corrects directory,False
+284d095f0521844080955ee39a26dfe1d170e62a,2018-01-21 03:16:40,David Benson,Path updates,False
+6956d43b7195d679d87d3e3f1667ecbb4a5dbc21,2018-01-21 00:48:56,David Benson,Testing,False
+18d151ffea726ebf2f05196f9df12b2c8605168d,2018-01-05 16:52:02,David Benson,"Monsieur, with these icon changes you are really spoiling us",False
+69dbb32b11f2ad45485c246c94f0b6f7d3ef375c,2018-01-05 16:34:45,David Benson,"I enjoy changing icons, you?",False
+c71615b24c449fc8bf0d7e11c7c0ab587b95aa5f,2018-01-05 14:04:40,Gaudenz Alder,Moves border to icns file,False
+0457b3a8d35d514d42550f6d2979c12e847a9412,2018-01-05 03:40:19,David Benson,Ready for 7.9.5,False
+9055443c63d3d87cac29e436e87c4077170f13d3,2018-01-05 02:53:29,David Benson,Added commander,False
+0f00a256d04fd72240ed0479625b866b11376c1e,2018-01-05 02:10:50,David Benson,Ready for 7.9.4,False
+ee461c6c1891055c7a2ac2387e1d3a8d0345e62a,2018-01-04 17:43:50,Gaudenz Alder,Adds dev environment install step,False
+358637f4385620e06e250a01bf37fa6371c3da66,2018-01-03 16:59:52,Gaudenz Alder,"Fixes macOS icon size, remove black bar",False
+4bb348697b7c45f22637c735cfa50882e27a9245,2017-12-22 22:45:50,David Benson,Ready for 7.8.8,False
+b78154ad0f2fd1ba13e0594aec7b82750ba4e999,2017-12-22 09:29:29,Paul McIntosh,added screenshot to readme,False
+8e3ebfc8f685b606325731f522f16cfaa3158d06,2017-12-22 09:25:39,Paul McIntosh,screenshot,False
+0d3331d3bdb21f6b664196b764e1733abb29ef09,2017-12-22 09:24:52,Paul McIntosh,added diagram to readme,False
+dae3413024f6ca2e687add4f7ef32aefb853778a,2017-12-22 09:08:27,Paul McIntosh,add dependency diagram,False
+b6a0b2a382d57647226c91ec2d5d31a5765e7433,2017-12-22 08:46:22,Paul McIntosh,added git recursive info,False
+285cbcf46c42f5896b6bfa273fc77777812f1113,2017-12-19 22:23:05,David Benson,Ready for 7.8.7,False
+996647a27f767ec8f88d86b58a38d3863463e10b,2017-12-19 20:54:53,David Benson,Updated draw,False
+e959aadf974fc25b16e62e153d2edd07c768841b,2017-12-19 20:54:39,David Benson,i18n manifest patch,False
+d402b5366c46987b7dfb94ee5a8ff14d8d7c5a66,2017-12-18 23:12:05,David Benson,Ready for 7.8.6,False
+29ebcce7c2a10d358e527408074b2727bdbf458e,2017-12-15 22:52:52,David Benson,draw update,False
+50fe1dfb99b14f868c2bdefc8b825b8bc30d9ff3,2017-12-15 22:47:00,David Benson,Removed updater,False
+d06042682a7abc8529289efe25101ab14207bdbc,2017-12-08 19:41:24,David Benson,Ready for 7.8.4,False
+13c436e8c93952a0831c67eb5e07ac2d5725a963,2017-11-22 22:15:47,David Benson,Ready for 7.7.3,False
+754a0a882ae9907170d9d4d6759285ca44530224,2017-11-22 20:19:09,David Benson,Ready for 7.7.2,False
+25d48f0f11a950b8a0fd4caacf65fe0032c7e788,2017-10-30 15:09:49,David Benson,Ready for 7.6.6,False
+979260318c45f25f7cb496aefa87c8ada7af7f62,2017-10-10 21:04:20,David Benson,Ready for 7.5.5,False
+71d742167ac387a24403c35de2ee21c86290518c,2017-09-20 18:56:11,David Benson,Desktop 7.4.3 release,False
+8ae7bd88f7bf71b2211bdd2fa124388e7f594cf4,2017-09-02 13:32:12,David Benson,Updated to draw.io 7.3.5,False
+9f60273213ffc3e7fa844d668da0e7bbf75af733,2017-08-21 14:58:32,David Benson,draw.io 7.1.9,False
+4fec4987532e0726aa45da65622d5c7540c0ebb9,2017-08-17 16:41:31,David Benson,Added release instructions,False
+0eee12932a82d9ff19b44561893b751b64ce9600,2017-08-17 15:53:19,David Benson,Updates to draw 7.1.6,False
+9e9e1bb5cf50a20e1e111b8fd098d91c470c63e9,2017-08-17 15:50:43,David Benson,Updates to draw 7.1.6,False
+a6fb61de42c72ae5737168e7856f1092a54d33d8,2017-08-16 22:20:02,David Benson,"Merge commit '7629267df137bb815446db5c500f4a180cfa7001'
+
+# Conflicts:
+#	docs/_config.yml",True
+2102fc03098a0517ebe2d82f604c43132474392e,2017-08-16 22:18:56,David Benson,Jekyll site,False
+7629267df137bb815446db5c500f4a180cfa7001,2017-08-16 22:16:35,David Benson,Set theme jekyll-theme-minimal,False
+3132c7f7e170a19df8262610a76785cc2f891399,2017-08-16 22:14:22,David Benson,Renamed doc to docs,False
+f99232c7b9697df24505ceb63c532fea2f825858,2017-08-16 22:13:15,David Benson,Added doc,False
+fce789df0964533d492f342dcdb6a32b17b57472,2017-08-16 20:12:56,David Benson,Updated to 7.1.3,False
+798b91786f021b58cb18f4f6383eb20f7741d3be,2017-08-16 17:40:35,David Benson,Updated draw,False
+bab0e658216e2a191f62744dcb17cb2fb7f77879,2017-08-16 16:50:24,David Benson,Updated draw,False
+03f09b6f0095207e92d49c1f2faaf2f55a4037c0,2017-08-16 15:45:15,David Benson,Updated draw,False
+854e257b6b4508e86d2cc2a8edff6897161bcd66,2017-08-15 04:28:47,David Benson,Restores proper versioning,False
+ecacb271b4c881f504ea57119b69c2e8166eabc9,2017-08-15 03:29:15,David Benson,Testing build module fixes,False
+ac8e2dbea5a59e05377614021f883904ffc43fb9,2017-08-15 03:25:48,David Benson,Corrected repo name,False
+d8a1214b8fb7b39ff1de36a7309b1f8e4619fcf8,2017-08-15 03:16:37,David Benson,draw updates and hacked yarn submodules to get updater module in,False
+ce160757522f4422b7faa386bbe8513cc77d7698,2017-08-14 18:09:59,David Benson,Updates draw,False
+dc0c64e0786b6cf3ab6211231f0691515a4d3e6f,2017-08-13 01:28:46,Slava,Update package.json,False
+700540b77a652abb8aab82fa9a955962ca448542,2017-08-12 03:45:36,mediaslav,[skip appveyor] fix travis,False
+ac62590c9f2e8edd765669f341c9423baebfee92,2017-08-12 02:16:29,mediaslav,[skip appveyor] fix travis,False
+b4a83876da1e74b34e8f1d600592dad92edbf7b7,2017-08-12 02:06:54,mediaslav,[skip appveyor] fix travis,False
+36be40174232d020743c552378adcc009e8a8730,2017-08-10 21:24:27,David Benson,Reverted,False
+74947707d3958ea283fcd0b008a8361de1c2ae90,2017-08-10 21:21:46,David Benson,Try and clear cache...,False
+8bf9d01b48b565dbdcbce29ee5f4f3dd868ed063,2017-08-10 21:13:33,David Benson,Updated draw,False
+15c2f55329501b1063c49fc022e045bc191e7c31,2017-08-10 20:37:21,David Benson,Updated draw,False
+b4b50e69a07f501e0562ed1f481b4964ed88c879,2017-08-07 02:36:02,mediaslav,build script cert fix,False
+1d8b435b14ad928232539d8a8a2dbc4c2e4c96d9,2017-08-07 02:33:23,mediaslav,build script cleanup,False
+fc8b6a018f219059d53c2b4222a919aba5c5d217,2017-08-07 02:32:52,mediaslav,update deps,False
+78b5d70ea18073b615c5d0a78dcc42142967efdd,2017-07-24 20:21:49,Gaudenz Alder,Update README.md,False
+5cdf49e3961b56c3ce8167d556d0e68e4fe164be,2017-07-24 20:18:50,David Benson,Bumped version,False
+f6d6f5ad5e97d0e85feb6136aef60a301cc8b7fe,2017-07-24 20:05:53,Gaudenz Alder,Adds setup steps,False
+30257d6111033abdaddf6966a9ae9a02ded6494c,2017-07-24 19:23:49,David Benson,Bumping version to test updater,False
+06c02ee12d83a6feba4eb7e29f7720205de58d38,2017-07-24 18:46:29,David Benson,Correct directory change,False
+9fde33366cdedf42fd8fb33f0bfbaedb2bddfa0e,2017-07-24 18:43:37,David Benson,Electron updates,False
+260da8b08bd26c6e8a895dacc079c3d8e6517809,2017-07-24 17:33:26,David Benson,Try to yarn install in draw.io sub-module,False
+e33383445209105c721064db8facc92990b5a17b,2017-07-21 21:35:38,David Benson,Updated draw,False
+ced1a53bea3c10668ab88843825a3193b6721ecb,2017-07-21 21:24:36,David Benson,Moved sub module clone before yarn install,False
+34e8c84913bd6009f0e5d45b2458b06c97095547,2017-07-21 05:37:51,David Benson,Testing updater,False
+9f3ae640836bfd9837d37428b21a805fa66cbcb0,2017-07-21 05:22:33,David Benson,Updated draw,False
+0be3f891ef5a9074c94f7290e86e2296267db0f4,2017-07-21 04:54:47,David Benson,updated draw,False
+5ca7fc0be21e6f7dfc4fa256cce4ac104fa0a14c,2017-07-21 04:48:36,David Benson,Updated draw,False
+1fe283116ae18063e236050203fc5b58196bbb46,2017-07-21 04:18:41,David Benson,Update draw,False
+4fcb20269caf02ccbaf5a70734615d2f3e5945ef,2017-07-21 04:04:17,David Benson,Restore builder,False
+a1325abd6a764326ab3368006e24d5e2de596378,2017-07-21 01:41:23,David Benson,Updater testing,False
+6a59494245de783599f720c46eb0d14898b569fe,2017-07-21 01:25:25,David Benson,Force version to test updater,False
+c13c70222f1f4cce5ced05418df70312ce45641a,2017-07-20 19:41:58,David Benson,Testing again for https://github.com/yarnpkg/yarn/issues/2660,False
+f2bb1f1d490c0092c1eecdf237f18a139f24c749,2017-07-20 19:15:12,David Benson,"Revert ""Testing whether we're seeing https://github.com/yarnpkg/yarn/pull/2923""
+
+This reverts commit c71def3f5bee9d82d3a20863c654647059275c96.",False
+c71def3f5bee9d82d3a20863c654647059275c96,2017-07-20 19:00:34,David Benson,Testing whether we're seeing https://github.com/yarnpkg/yarn/pull/2923,False
+0c945ba35937f66785147f39d178bffb164a6eb9,2017-07-20 17:36:05,David Benson,Dependency update,False
+a69abdf22adec20e7a5ae4a0af11a80e03921e34,2017-07-20 17:29:18,David Benson,"Revert ""Deleting yarn.lock""
+
+This reverts commit 4f117bd07f9e3e7deece499fb47b24448241c2ba.",False
+4f117bd07f9e3e7deece499fb47b24448241c2ba,2017-07-20 17:08:58,David Benson,Deleting yarn.lock,False
+3254116f97f36272fed615c609729cf9c5462519,2017-07-20 16:14:40,David Benson,Removes all caching,False
+e06c906105c9c129c97a992f2cb25b993ddd13c1,2017-07-20 15:35:30,David Benson,Trying to fix electron-updater module not importing.,False
+35f129547ecebcb4cfdfb783b9b5e4e44fa323d7,2017-07-19 21:17:53,David Benson,updated draw,False
+c00afe7b4fe540f6b64dd201dda18343dd150d5c,2017-07-19 20:15:14,David Benson,Updated draw,False
+6df018c6ce3dfe3f32206d312f124940dc318eae,2017-07-19 20:05:48,David Benson,Bumped version,False
+9c75cf1d4744d6462a06136f80a1efde47ceaba0,2017-07-19 19:54:01,David Benson,Updated yarn.lock,False
+4c37919c0366537863a63026c9fe8c4b20c4b40f,2017-07-19 18:57:18,David Benson,Updates draw,False
+7b6f9f66d597ea3896cde50c90da035bf6e15d1e,2017-07-19 17:15:45,David Benson,Updated draw,False
+2552f9ff8c4d1dcac5cc91b163aea2a00fd37feb,2017-07-19 16:17:13,David Benson,Create LICENSE,False
+3492d1fc8e3c044efa54e75215a8afb2cfcec7fd,2017-07-19 16:15:39,David Benson,Corrected Appveyor badge,False
+0e713e78ad557fae5cc30a7655fb18e5699e3155,2017-07-19 15:49:32,David Benson,Corrected dependencies,False
+b8421b44e5ce768a3048bea9c263d237f8f2db59,2017-07-19 15:18:57,David Benson,Updated draw,False
+691519e4c5a4f12f2d980077797d0b9b5d091f85,2017-07-19 15:06:44,David Benson,Moving back to war,False
+294efbd2549a9c79e9941a394a6ae82280e5dec3,2017-07-19 14:46:48,David Benson,Removed duplicate,False
+53e61a8494ada712f6f6e7feb87fa2b9594097b4,2017-07-19 04:16:02,David Benson,Updated draw,False
+7c3b01398345bf8aa2c39b9e8cc3e54841dff8f4,2017-06-21 19:09:46,David Benson,Updates,False
+94fb096ae1a9228564280667f32135c014c86db6,2017-06-21 19:00:31,mediaslav,[skip-ci] fix start,False
+96c40491288df1dd02fd56ec90d7ad42fe62ac8b,2017-06-21 18:54:05,David Benson,Updated draw.io,False
+c8f72a6298e02ef3255f8b96d9f57799d9f308d6,2017-06-12 21:35:06,David Benson,Restructing project,False
+93664d3867b9e07a666011665651372ed0b7575e,2017-06-07 04:46:30,David Benson,Update appveyor.yml,False
+3d24ab8eed2b873a6b02b5f3636e72bc215334f2,2017-06-07 04:45:29,David Benson,Update package.json,False
+1c96daff3990730e7ac7da7d4954a9be07c56674,2017-06-07 04:44:47,David Benson,Update .travis.yml,False
+7ec0762eb0b73e8515f42dec7582f2bc09f0ff71,2017-06-07 04:11:11,David Benson,Update yarn.lock,False
+3e0e3d9fe9c84138ff90cc9481db2f10e21bb2c4,2017-06-07 04:06:44,David Benson,Updated,False
+3ef061e6283c1871b0a60c19e4e5a86454bf2574,2017-06-06 21:13:49,David Benson,Updated,False
+402a0cc0d5443cd3c73953317b037ee6d4225009,2017-06-06 20:55:25,David Benson,Updated core,False
+0bf738976ed9f6114919bc9fa724742cb433fd59,2017-06-01 03:27:14,mediaslav,[skip-ci],False
+45b55e7ca5ef1f12c858de27b9311fe9a8d44b57,2017-05-29 01:06:42,mediaslav,[skip-travis] fix langstring error,False
+e3ba469a3e6131ab54422b47c567dade8de4acef,2017-05-29 00:04:19,mediaslav,fix repo url for proper publish,False
+9c7cc8203351b5fd120a16d4910e688f2716553c,2017-05-28 23:38:26,mediaslav,add ignore,False
+5e23fe99af00f5112b4d7e5869b5d471514a53f1,2017-05-28 23:36:42,mediaslav,proper ignores and update deps,False
+4bd61390114ed44e467d475e68f7d4a73a129ae4,2017-05-28 23:30:16,mediaslav,proper ignores and update deps,False
+34af83a00931882e2ad4aaed86c63299c309af53,2017-05-28 23:26:47,mediaslav,proper ignores and updated deps,False
+e19c29edb634530faa290185ee93d4f8b7557a60,2017-05-26 14:38:00,David Benson,Updated path to json,False
+c8222e1aa74ff308b2d3346399d4e1e9804538ff,2017-05-26 14:31:55,David Benson,Updated path to electron config,False
+930e712457cecbf8c09968dcd2ad9b148d8ee0a1,2017-05-26 02:40:24,David Benson,Updated to latest draw.io,False
+299f4c35d1e581614c7dcd2ad5024cf175e9937a,2017-03-13 01:48:58,mediaslav,"Excluded WEB-INF from installer, dist size reduced by one third. Dev doc added. Misc cleanup.",False
+0ede809db1e3a44d818e12a2186c2e38d29c05c9,2017-03-12 19:51:17,mediaslav,"fix #1 AppImage issue, update to new versions of native parts,",False
+adb09590f0508c3f375605028c4f2acfe2d6ff8b,2017-03-07 01:33:46,mediaslav,bump ver for autoupdate test 2,False
+677e01736d2074d77cdc1494d95396780ddab2ae,2017-03-07 00:32:01,mediaslav,bump ver for autoupdate test,False
+25753c3ec2d92d7fd28105290b930b78544ef745,2017-03-06 22:11:31,mediaslav,test with signed app,False
+58fd2bb4fd18d9dd1f899fd296f4f65c18c0c442,2017-03-05 01:59:23,mediaslav,ver test,False
+6030db749efe1b60e33836ee897561a4228e4111,2017-03-05 01:46:18,mediaslav,ci submod fix,False
+35947384c6933301b9471d49c815d9ec292a1195,2017-03-05 01:41:52,mediaslav,ci yarn cache,False
+83ee20173518d449a20e7bd10ff7795777572df9,2017-03-05 01:36:01,mediaslav,move postinstall to sync.js,False
+98f2984173ed2742f51f81a42579870bd1c96aa8,2017-03-05 01:11:47,mediaslav,fix appveyor install,False
+35153d19d12733b2f499d5ccd1d076b4100ae895,2017-03-04 20:25:26,mediaslav,fix submodule npm,False
+768f5fac542f02664a10ada5d318893b8e3a64eb,2017-03-04 19:41:12,mediaslav,"- handle submodule npm tasks
+- autoupdate dialog",False
+10acb595189e5413e29240607453a4e2ddce8b2d,2017-02-26 00:16:12,mediaslav,sync version from root,False
+75a8009be9051e4f3cedec502129a8be05d74bc5,2017-02-25 01:44:05,mediaslav,icns with 1024 size,False
+8e665c2de9c60a63c6a4b0a7da26e07ccf7a798b,2017-02-25 01:33:05,mediaslav,appimage icon2,False
+cc2ad0829e1e7592cd8fcf04d4cfeec01340c97b,2017-02-25 00:36:41,mediaslav,appimage icon,False
+c14b3f3ca2ebe5b7813c1996b483c69c41fe42b4,2017-02-24 19:29:11,mediaslav,pkgs,False
+017ec5dd1d9413fdef47cddaf6a9a415af957a29,2017-02-24 19:21:23,mediaslav,sed dirty hack,False
+0d7c1fd1972c7e09a344179a10542934a7123600,2017-02-24 11:13:40,mediaslav,cfg fix,False
+5b2abc7a4e81eb936632829455c684249007c27a,2017-02-24 11:02:51,mediaslav,yarn lock,False
+cafb03bd22bec77e5f722f48ad298733c472f447,2017-02-24 10:11:43,mediaslav,fix,False
+30b261f0cadcb762cd031373afbe7cdb2eba1808,2017-02-24 09:34:36,mediaslav,submodules workaround for travis,False
+3b263ed68a9fee26282c546e9a8fd5ade45bb178,2017-02-24 09:05:26,Slav,Create README.md,False
+bb012048bad5630fa5d6834f0824dc2a3d42a5d4,2017-02-24 09:00:33,mediaslav,initial,False
+849341036d16dd7d958847db2041512dcbe30d71,2017-02-22 04:07:21,Slav,Initial commit,False

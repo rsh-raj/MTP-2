@@ -1,0 +1,1017 @@
+Hash,Date,Author,Message,IsMerge
+d85a64227c7bd4edfd2134970220deb0dff590ce,2024-11-10 14:10:08,Julian Garnier,Update sponsors,False
+b471ced746e4488b0e53587bbdd5999f7af2f668,2024-03-29 21:58:53,Julian Garnier,Update README.md,False
+f3e4994b4dbc360b03f940393fb968b7b89fa209,2024-03-29 21:56:25,Julian Garnier,Update README.md,False
+18ba44adaf7bc2890b41a4bda3b5b10feb8987c5,2024-03-29 21:49:38,Julian Garnier,Update README.md,False
+e101b5ae03595ddce67a72a232eae13771049802,2024-03-29 21:48:23,Julian Garnier,Update sponsors,False
+6e9105c6d0f16c2e7f421ea5f9aa8c6fe5c502b5,2024-03-29 21:35:37,Julian Garnier,Add sponsors,False
+653297802f10ddc4048ed00b5c77e552dd6c6a49,2024-03-29 21:31:26,Julian Garnier,Update README.md,False
+c217e70af0bc9bb31dfff50621585d8cff935882,2024-03-29 21:30:13,Julian Garnier,Update README.md,False
+70ea16d39681f28608df9bb1a5a22e93794afdb4,2023-11-28 17:51:14,Julian Garnier,Update docs,False
+5056829cd5538a40688348f900c5c72d99166209,2023-11-28 17:49:53,Julian Garnier,Update LICENSE.md,False
+239158e83c7ca1e1d27ab5e556a18b58832b4c2f,2023-11-28 14:47:41,Julian Garnier,Bump version number,False
+0da58d22cca4135b883eee2c67b97c8189df5c42,2023-11-28 14:39:23,Julian Garnier,Fix expo easing,False
+620464f6c1af69bc199f504a97c6f15a8edb85ba,2023-10-24 22:24:34,Julian Garnier,Merge branch 'master' of https://github.com/juliangarnier/anime,True
+27a9d002b78d9b1b9bac058985b427b2f14b62f7,2023-10-24 22:24:24,Julian Garnier,Add V4 Notice,False
+f3f269a1de823506b069619726bdb11c14aa1e1f,2023-10-24 22:20:48,Julian Garnier,Create FUNDING.yml,False
+30a9826aa14f62556306e49741a057c332efac7a,2023-10-24 22:16:51,Julian Garnier,Update README.md,False
+3ebfd913a04f7dc59cc3d52e38275272a5a12ae6,2020-10-15 18:28:33,Julian Garnier,Switch GitHub button to dark theme,False
+0a1234bf30c32cdfdd434ddae122e55c696c3070,2020-10-12 20:28:40,Julian Garnier,Rename examples,False
+ad4e5883499b13848f8756ef136d57cf99a8e95f,2020-10-12 20:26:45,Julian Garnier,"remove prefix ""anime-"" of examples files",False
+8badbc020293457d1bffe4841cd215ee6c4a1619,2020-10-12 19:13:56,Julian Garnier,Better elastic easing documentation #694,False
+cc6fa9c25b17494f2e9fb5cbbca67df836b172d9,2020-10-12 19:01:14,Julian Garnier,Fix typo in docs,False
+4ea2ca22db9390630a8db7f5285e38c861cd9235,2020-10-12 18:54:17,Julian Garnier,"Merge pull request #635 from DarkAce65/instance-remove
+
+""remove"" method on instance",True
+351866c0086321bc9d4cdf3914bb525fffeb1d73,2020-10-12 18:53:27,Julian Garnier,Merge branch 'v3.2.1' into instance-remove,True
+225fadd89d2b4fc976bca8064197c82b10e06fba,2020-10-12 18:49:11,Julian Garnier,Bump version number,False
+1a7405cd992db3865083bcf1ff2dd1ff15fd6da5,2020-10-12 18:48:02,Julian Garnier,Bump version number,False
+5d72690faa397fb6afd3b05a4e5b0f563781732b,2020-10-12 18:14:38,Julian Garnier,Add 'OutInElastic' easing example in documentation,False
+7edea3ef92a050d9c450e482da77343ccabad54d,2020-10-12 18:11:09,Julian Garnier,"Cleanup ""is"" helper functions",False
+eb6d11e32da575b9cf2c7e3a8e1612df0a500489,2020-10-12 18:03:30,Julian Garnier,"Merge pull request #540 from nabiltntn/fix-getAnimationType-getAttribute
+
+fix condition for getAttribute when the returned value is 0",True
+b4aaefbccbaf1eff88e1026f049ff28fa46b98b7,2020-10-12 15:48:45,Julian Garnier,Do not scale path coordinates when animating an SVG el #726 #568 #726,False
+eb937a7cd1037ba00daf3c9b845a03b88d8061a0,2020-10-12 13:53:13,Julian Garnier,Add suspendWhenDocumentHidden to the docs #701,False
+a9ecb4d624c0a337c95665d73623fe0dab9d0211,2020-10-12 04:58:48,Julian Garnier,Bump version number,False
+81087f6d7d40e4f469ebd3b05f01796afcf7969d,2020-10-12 01:44:38,Julian Garnier,"Merge pull request #701 from fljot/bugfix/document-visibilitychange
+
+Fix bug with 'visibilitychange' event and paused instances (fixes: #560)",True
+bd8a33ad12cf2c07c2fab2ea7e7d95570603e062,2020-10-12 01:44:06,Julian Garnier,Merge branch 'v3.2.1' into bugfix/document-visibilitychange,True
+396abecca5e4061d12d466ce7f8c613978de29ff,2020-10-11 23:30:29,Julian Garnier,Add OutIn easings to documentation,False
+c329454a58006d2b05fc3dc6dfdde543ccc5d30a,2020-10-11 23:12:27,Julian Garnier,"Merge pull request #684 from ryanpwaldon/add-ease-out-in
+
+Add easeOutIn",True
+3b36f0ab7bb21f4700ff81bcaefe6f0bf1ad78d4,2020-10-11 22:38:31,Julian Garnier,Fix label text wrap in documentaion,False
+f02a24e24046818676a73b7d72ba64fe70043a74,2020-10-11 22:33:48,Julian Garnier,"Merge pull request #704 from MMDF/patch-1
+
+change doc for ranged staggering",True
+1ecb30147be3d3fbf0ee510c1d4aa5dbfa8a0d92,2020-07-19 22:26:15,Pavel fljot,"Add configurable behavior of handling ""visibilitychange"" event (fixes: #335, #711)
+
+because in some projects we want animations to play with throttled rAF
+(it's up to browser to optimize)",False
+545f5f11a589096b57e11bb83899cc24da48f87a,2020-07-19 22:25:55,Pavel fljot,[to squash?] Improve `raf` encapsulation,False
+d6f096be4ca3ee0adfbe25e39b2b47ec196f654b,2020-07-19 22:25:21,Pavel fljot,"Fix ""visibilitychange"" event handling (fixes: #560)
+
+Bug description:
+animation instances, previously paused by user, were activated again after returning back to browser tab ('visibilitychange' event).
+This could cause unwanted animations and memory leaks.
+
+Demo:
+https://codepen.io/fljot/pen/oNbEdBj
+
+Solution:
+Instead of dealing with animations' public API (pause, play methods), which are used in userland code, we suspend engine itself (rAF ticks).",False
+1607c330411f2165630c46e543ad8059eb463dc3,2020-07-19 21:47:49,Pavel fljot,"Improve step algorithm scheduling
+
+minor improvement: removes extra rAF when there were only paused (or completed) instances left after latest tick",False
+ffd7cc0aedd6a9b6658021c44ce2d1fbd574ad78,2020-07-19 21:45:37,Pavel fljot,"Fix bug in step algorithm where some animation instances could be not updated on tick
+
+Details:
+when i-th element was removed from `activeInstances`,
+next `i+1`-th element was skipped because of unconditional `i++`
+
+Also noticed more edge cases, left notes as comments.",False
+b5484f85601fd6e7f5f1b8289e3bbcb0578442de,2020-07-08 14:03:33,Mehmet Efe Akça,"change doc for ranged staggering
+
+The mathematical function for ranged staggering should have been described as `rotate = -360 + ((360 - (-360)) / 5) * i` for the ith element, but the start value(-360) was not written. 
+
+Changed the labels to include the start value.",False
+dd9130cdcbf46c2f1be2050e289293a928d90ff9,2020-05-10 04:38:45,Ryan Waldon,Add easeOutIn,False
+73b4083780ba39718ae8ff0863b3d38843936be4,2020-04-09 20:02:59,Julian Garnier,"Merge pull request #673 from juliangarnier/v3.2.0
+
+V3.2.0",True
+4c4ecea14f55cc6421bd36c8d08926ca9b2b5a83,2020-04-09 19:41:58,Julian Garnier,Update documentation Reverse section #673,False
+eb2d251cf1dc5b75bb42cf62edc758ee10a23805,2020-04-09 19:09:40,Julian Garnier,Add steps easings to ease-visualizer,False
+2c3b051cebf01633549ed96ed680bf228f9b4efa,2020-04-09 19:09:17,Julian Garnier,Stop steps easing from displaying the first frame and jump to the next directly,False
+06247c637e8cc786d7f5986466e2a16966141326,2020-04-07 23:06:22,kn0wn,chore: ran build to update package,False
+6495820cd41d8bd623e3026e1411d3db8baede9a,2020-04-07 23:05:30,kn0wn,chore: bumped version number,False
+b9675d52e3ffb36a703ebc992363fd07476852dd,2020-04-07 23:04:51,kn0wn,chore: updated the documentation reverse to not loop,False
+4d51b837dc38b6279f1cbcac3b971bcfec52562f,2020-04-07 20:18:54,kn0wn,"fix: blinking issue when reversing animation (fixes: #623, #586, #503, #577)",False
+2dec5952cbf5dc328d5bc2bfe7c0c3a0b00bbcba,2020-04-07 18:51:44,kn0wn,fix: moved into src file,False
+ba461e74754aad13b8f6f3c6d135f1b3db60f165,2020-04-07 18:17:15,kn0wn,fix: added matrix values to validTransforms (fixes: #636),False
+9976b4cf2759d7704d5cf32b3c9a7437d3d314c5,2020-04-02 01:47:05,kn0wn,"Merge pull request #670 from mracette/fix-step-easing
+
+fix step easing by implementing jump-start method",True
+5ea05b39a81206f189c61a9f7dd224a1bb69a576,2020-03-24 18:27:33,Mark Racette,fix step easing by implementing jump-start method,False
+2d210e8ac9740d3346933b2b91720f7c26948fbe,2019-12-12 01:51:50,DarkAce65,Update docs with alternate remove method,False
+29f791a8add5560853079599ae519e291acb0a14,2019-12-12 01:39:38,DarkAce65,Add method to remove targets from instance,False
+4d3cae8474d88aaf1b0f8beb3c4473d28d8c0d54,2019-11-13 14:24:33,Julian Garnier,"Merge pull request #604 from Tsympil/patch-1
+
+Fixed CommonJs usage",True
+e4f805e8290eecb7c08541ff5099875ece541635,2019-11-13 14:19:58,Julian Garnier,"Merge pull request #606 from willWashington/master
+
+Corrected typo",True
+a3e116808731664ab35546ba351edc8a40743f2d,2019-09-19 15:33:49,Julian Garnier,"Merge pull request #615 from willowcheng/patch-1
+
+Fix link to grid staggering",True
+6bda02dd0ba946f6922b28d1f9a68022ef909ed5,2019-09-16 21:01:04,Willow Cheng,Fix link to grid staggering,False
+94e93722b1a73909f76a4665799ebd9ddf231a60,2019-09-04 07:13:49,William Washington,"Corrected typo
+
+On line 77, the word Staggering was spelled Stagering. I corrected this.
+(I know, epic change, right?)",False
+aa52410307e109130d6adf75d2ee91da1a803524,2019-08-21 16:02:07,Tsympil,Fixed CommonJs usage,False
+555480b6e5290dbad98bac1ad1fa56ea4839fcf0,2019-07-26 01:49:19,Julian Garnier,Update v3 logo animataion example,False
+697783b1e3fb98e88e28b22b94fad345d7ccdf4d,2019-07-26 01:47:54,Julian Garnier,Update examples,False
+282ae7aad949d21d4925ccc579ae4b80150d7a14,2019-07-25 21:13:23,Julian Garnier,Merge branch 'v3.1.0',True
+5e52c78a916ee6f917618780dd40d52665a298f1,2019-07-25 20:52:37,Julian Garnier,Merge branch 'v3.1.0' of https://github.com/juliangarnier/anime into v3.1.0,True
+a2d28ac6f8d6e6e180c9ab97441fb640c1cd7c70,2019-07-25 20:51:46,Julian Garnier,Update animated easings demo,False
+3a382f860165af6711585c2ef9aeab9f04aee7d0,2019-07-25 20:12:18,Julian Garnier,"Update readme ES6 module instal path #588, #527, #590",False
+4d99c4222816cace87680c13dd9af43893064757,2019-07-25 19:18:45,Julian Garnier,"Merge pull request #580 from web2033/patch-2
+
+Hexadecimal",True
+8b6721cbd666186c2f6f446db010e49421dfd8d4,2019-07-25 19:17:37,Julian Garnier,Bump version number,False
+da7e13a9b778ce51383c145f5c3ce42d85336780,2019-07-25 19:15:34,Julian Garnier,"Merge pull request #554 from DanielRuf/fix/remove-duplicate-properties-rename-flex-pack
+
+Remove duplicate CSS properties and rename flex-pack to justify-content",True
+9290533a2029dfdb7d6ddf1254ee3cc395989553,2019-07-25 19:14:44,Julian Garnier,"Merge pull request #567 from dimitrisraptis96/patch-1
+
+Fix small typo",True
+4a9e7e7f5c258b510b137168cfe9c966bf409234,2019-07-25 19:12:16,Julian Garnier,"Merge pull request #579 from web2033/patch-1
+
+correct sign",True
+7af09c595d09f4c4941effd625d6ac5b73929fbf,2019-07-25 19:06:23,Julian Garnier,"Merge pull request #564 from chrisbrown-io/running-helper-fix
+
+Update anime.running reference when clearing array on visibilitychange",True
+5c105055f2598cea924a40d09b14671a05539c12,2019-07-25 18:58:44,Julian Garnier,Update examples,False
+2eec933055a8848e74b424e0cbac7ed112cc2210,2019-07-25 18:41:22,Julian Garnier,Update staggering grid demo,False
+ff4c7002a5f82f22141f719c9ac01201ccf0de5b,2019-07-25 18:22:41,Julian Garnier,Update anime-mgs-logo-animation.html,False
+4a6f54d6224ad7886ed81072314b6f86c3794911,2019-07-25 18:20:27,Julian Garnier,Update ease-visualizer,False
+2197976280bd8c1731a6bee7c2ffe63dcfeb3739,2019-07-25 17:30:17,Julian Garnier,Update staggering demo,False
+c8dacabfdea85e543428d53c7629279bdf6fd09a,2019-07-25 14:50:33,Julian Garnier,fix staggering example,False
+b48016b96c7e18b55a4d1d64b7fc08649feea3ef,2019-07-25 14:49:30,Julian Garnier,Update examples,False
+8e884cd7adacebe66d185a64fb424ea1cc0628f9,2019-07-25 14:27:52,Julian Garnier,Update anime-callbacks.html,False
+f7dd758b760364961b91248846dc2cccc6a0085f,2019-07-25 14:22:01,Julian Garnier,Update complex properties examples,False
+33755f5c8fde3c64ca7200442ef0e9bfe993abb6,2019-07-25 14:16:55,Julian Garnier,Uodpate complex properties example,False
+1730d5de1c9f8d862cede2e2570392ce96a7af11,2019-07-25 14:13:28,Julian Garnier,Better number parsing,False
+4083aeb57cfa7d7fcb73ae75ac48fee383c0bc49,2019-07-24 15:46:47,Julian Garnier,"Merge pull request #552 from arilotter/fix-float-parsing
+
+Allow numeric values with leading '+' and/or with exponent parts.",True
+b8dd07426f4d65effd79d50bcc183d4d63bfbce4,2019-07-24 15:39:54,Julian Garnier,Fix loopBegin callback beeing called twice,False
+e465db19f6cc25c5eb0b4c9609f7c352f9ce2c4b,2019-07-23 19:34:23,Julian Garnier,"Merge pull request #546 from jnordberg/flash-fix
+
+Set progress to duration instead of 0 when reversed",True
+d9d92cea1a2ddcff665f56f404cf07cb700a53c9,2019-07-23 19:29:06,Julian Garnier,"Merge pull request #542 from g1eny0ung/documentation-patch-1
+
+Fixes typo",True
+600c1eff7f748154b40ab2f4ccf928d9dc5b6682,2019-07-23 19:25:07,Julian Garnier,"Merge pull request #536 from gosseti/master
+
+Fix documentation typo degres → degrees",True
+1ace85f9bc4506babfb44ba252292f0832f602af,2019-07-23 19:23:06,Julian Garnier,"Merge pull request #541 from YuriFA/fix/get-parent-svg-el-function
+
+Fix getParentSvgEl which returned the wrong item",True
+4a9f6fb6c86e14e766914be0fffee6e4253f982c,2019-07-23 19:18:32,Julian Garnier,"Merge pull request #519 from ccjmne/master
+
+Fix a couple of typos",True
+a853b0ca05d21329f800e0726cac27c498a4a032,2019-07-23 19:12:02,Julian Garnier,"Merge pull request #515 from okikio/patch-1
+
+Just fixing a little error I noticed ;)",True
+2e56084c046d16945c133aac9159ab23eb517381,2019-07-23 19:10:14,Julian Garnier,"Merge pull request #510 from Rileygowan/naming
+
+Fix Typo in Variable Name",True
+347036de94286fd30e60c23753c1b5f53f9f6112,2019-07-23 19:08:25,Julian Garnier,"Merge pull request #509 from ItsJonQ/docs/import-paths
+
+README: Update import/require path in examples",True
+db5e876887cf6914eaadf6da9b10f851dd4c1933,2019-07-23 19:06:36,Julian Garnier,"Merge pull request #497 from lordnox/master
+
+fixed value in documentation",True
+c00b4611bbab3ad13487c9b2495528bc2357d692,2019-07-23 19:02:13,Julian Garnier,Fix wrong unit parsing when unit contains spaces #502,False
+a71cbc3cc680a685791f9fdf5eff5492b40c5a4a,2019-07-23 14:08:54,Julian Garnier,"Merge pull request #506 from sneakyness/master
+
+Documentation Typo: degres -> degrees",True
+2d214342da5c5ef3f5109108a88ae80d9457eaab,2019-07-23 14:07:39,Julian Garnier,Update documentation,False
+f814d5b5f3ca1f725062d517d7224b8ac4508252,2019-07-23 14:07:34,Julian Garnier,Easings refactoring + add Bounce easing,False
+31fae15557e2c345420ce7d4ca0867ef1aa3fbac,2019-07-23 14:02:59,Julian Garnier,create v3.1.0,False
+1556b756986ce4a4cc884032de06c9bb3a31e998,2019-06-06 14:43:17,Eugene Kopich,Hexadecimal,False
+32b4f5acaab145da2e0c6a2884510919eb52beb9,2019-06-06 14:30:42,Eugene Kopich,correct sign,False
+75320f30e1878f2a8cd6dae7b96dd0467fc9805f,2019-04-16 13:15:39,Dimitris Raptis,"Fix small typo
+
+Change the world ""indivudaly"" to ""individually"".",False
+fce16371e3f84d40f40bae0911518af655731931,2019-03-28 22:07:09,Chris Brown,Update anime.running reference when clearing array on visibilitychange event,False
+d6f3a3c82a5197095c1059f255eb03c1b5a69b3c,2019-03-08 13:20:11,Daniel Ruf,Remove duplicate CSS properties and rename flex-pack to justify-content,False
+091cb4249b59605c41b06b84678491085c1f26ff,2019-03-07 00:24:46,Ari Lotter,"Allow numeric values with leading '+' and/or with exponent parts.
+Fixes #551",False
+df81656741c26e00c2916156674f9714fa962d87,2019-02-28 19:50:31,Johan Nordberg,Set progress to duration instead of 0 when reversed,False
+93cb4b638ba49818f7aec619e49cd217f77f37c0,2019-02-27 12:37:58,Yuri FA,Revert removed spaces,False
+7472c7dc6e3a69c09d688e4d1027c9686a24e899,2019-02-27 07:25:58,Yue Yang,Fixes typo,False
+77f129bcd160b190e3250e74d406a9048e27cfef,2019-02-26 20:03:58,YuriFA,Fix getParentSvgEl with return parent of svg element but not root svg element,False
+395dac1f353c39dcebbf8631ba6741eb84b2144d,2019-02-26 19:29:24,qvdw7213,fix condition for getAttribute is the returned value is 0,False
+ba35b74830354e3abd3c0fabe3f653586378b3b6,2019-02-17 22:38:19,Lawrence Gosset,Fix documentation typo degres → degrees,False
+b3f851ac53487dd2f1d8ae746f05f5bd4dce804e,2019-02-03 02:50:05,Eric NICOLAS,"Fix a couple of typos
+
+Most importantly, `their is` became `there is`.",False
+ce0fcd404f3618218c994d0ce380478c1dc0ea7a,2019-01-31 04:04:51,whitelight,Just fixing a little error I noticed ;),False
+8fc492ac7b956e54eee3280d2fa710a126dbaa5b,2019-01-27 20:51:58,Riley Gowan,Change variable name from seekCild -> seekChild,False
+52d83ea6499fac19123905cd615b4c101346d61d,2019-01-27 20:42:12,ItsJonQ,"README: Update import/require path in examples
+
+This update fixes the import/require paths for the `animejs` module when
+using it from `node_modules`.
+
+Since the paths are defined in `package.json`, node will use
+`node_modules/animejs/lib` as the root :)",False
+357678e4b9f542b55614705d0d294fe262cfc238,2019-01-24 12:17:58,Nick Pannuto,"degres -> degrees
+
+Small typo",False
+0938ad6f40acfb9ffafb059e364a6de467a89be6,2019-01-20 02:28:50,Tobias K,fixed value in documentation,False
+875a3d6745d4bff2e4c6ffe0e2d24aac3bf8a45a,2019-01-17 16:31:54,Julian Garnier,Direction parameter is now properly changed when animation reverse,False
+90a3962f51fd27ea3129c9e8c201bb8f52d35cb1,2019-01-17 15:30:05,Julian Garnier,#483 remove old instance.finished,False
+55b76fc0e7c01aea402cb04e2b67bd7fe166b267,2019-01-17 15:28:03,Julian Garnier,#483 changes in index.js,False
+1df7de03a2cd39925b15f3aeae4963a91b1451bc,2019-01-17 15:16:57,Julian Garnier,3.0.1,False
+cf5b523ed2347886751c3ec89b11660798756f53,2019-01-17 15:01:29,Julian Garnier,Fix TL promise #159 #483,False
+f74b42a71636a5e1883a7576d358f28344652d5f,2019-01-17 14:57:17,Julian Garnier,Add TL promise in doc,False
+86fd27d611986565fbba2d745e712b0d5ad4f11d,2019-01-16 05:20:33,Julian Garnier,"Merge pull request #483 from tbranyen/fix-replay-issues
+
+Minor changes to fix issues with replaying",True
+ad545ea72c2d6a915b6af487686b5ac1d4fa73f7,2019-01-16 05:04:39,Julian Garnier,"Merge pull request #481 from mattwagl/bugfix
+
+Fix ReferenceError #472",True
+1b24f1b57c2996b9e7273fd13fb43379cf6dd382,2019-01-16 04:48:11,Julian Garnier,Merge branch 'master' into dev,True
+4c169c0b0291033f71f78470e92a080e524e4517,2019-01-16 01:45:18,Tim Branyen,"Minor changes to fix issues with replaying
+
+When replaying an animation the completed state is never reached as the
+property is not reset after `play()` is called subsequent times. I've
+changed the `play()` call to reset this value to `false`.
+
+I also looked into the issues reported for Promises and realized we
+could do a better job when resetting it. This is where I identified the
+previous problem.
+
+I do not believe any API changes will break and I've reviewed the
+examples and everything looks fine.
+
+Closes the following issues:
+
+- https://github.com/juliangarnier/anime/issues/373
+- https://github.com/juliangarnier/anime/issues/378
+- https://github.com/juliangarnier/anime/issues/392
+
+And the following redundant PR:
+
+- https://github.com/juliangarnier/anime/pull/408",False
+74f6403f856456276db7bacada11bdd0d7867a68,2019-01-15 19:11:48,Matthias Wagler,Fix ReferenceError #472,False
+4a988779513def9576f221c9e76293f9a91662b7,2019-01-15 02:40:30,Julian Garnier,Fix typo in documentation,False
+880dfa32096517d5dfd5d6c6db9ecbd3e77c81ed,2019-01-13 16:04:45,Julian Garnier,"Merge pull request #474 from a8t/patch-1
+
+Fix minor typo in documentation",True
+70de08e83c542af2f02e8c9a0305d85f0021d977,2019-01-13 16:01:02,Julian Garnier,"Merge pull request #476 from styfle/patch-1
+
+Fix CommonJS example in README",True
+4073db5f52f07c794b595deb74ba3f769a316a84,2019-01-13 05:06:16,Steven,"Fix CommonJS example in README
+
+This fixes the example so that it uses the CommonJS Syntax",False
+0d745f273471fb6161a67ab95c8b2cd759c56b07,2019-01-12 22:19:36,Andy Tran,Fix minor typo in documentation,False
+4cd7ae4ec38e479cf40a222c1e275a4297e44db3,2019-01-12 17:34:19,Julian Garnier,Merge branch 'dev',True
+287743b323adca42d4da844f1cd9134af985f772,2019-01-12 17:32:50,Julian Garnier,Fix typo #468,False
+8e19aae1440c3a234e774054f749220085edcad7,2019-01-12 17:31:54,Julian Garnier,Add Axis section in documentation #470,False
+648c10a1bfa414d74b3b3803ce0af61bf497aae4,2019-01-11 19:27:49,Julian Garnier,Merge branch 'master' into dev,True
+666b9868d3d79bcbafcf1979f09f033e85b7f92e,2019-01-11 19:12:19,Julian Garnier,"Merge pull request #471 from mbrandau/patch-1
+
+Fix typo in documentation",True
+78f87dd341650b04bb5517268cf3125f3957b76d,2019-01-11 19:09:04,Julian Garnier,"Add CSS colour codes warning in documentation #456, #469",False
+63201f5e90aab4b4b1f16bf787b7ae171195d1b9,2019-01-11 01:31:06,Maximilian Brandau,Fix typo,False
+66afb9930f31bcfc3839add3aafce30c10b0917e,2019-01-09 16:34:01,Julian Garnier,Update v3 release gif,False
+a3b1a280eb3c14bbf16d0ff1d15123a13562a1b5,2019-01-09 16:12:50,Julian Garnier,Add v3 release gif,False
+59bb89033348d0efb25b6a746ed0f9f241ca5443,2019-01-09 16:11:53,Julian Garnier,Add v3 release gif,False
+5596a56349b183d634b41c115949904a67d2df73,2019-01-09 15:40:47,Julian Garnier,Merge remote-tracking branch 'origin/master',True
+e2e3ece064a74ba2edadbf9b50d210113e4d11c9,2019-01-09 15:39:14,Julian Garnier,Merge branch 'dev',True
+9ab0b07df9682cd2f279a0bf729f91a943444077,2019-01-09 15:26:57,Julian Garnier,"Merge branch 'master' into dev
+
+# Conflicts:
+#	README.md",True
+8c7185e00d95eeae0e996e0ac00e251fa9ec06ec,2019-01-09 14:56:12,Julian Garnier,Update issue templates,False
+36809431036c1602c6e44fe38086392a39c305ab,2019-01-09 05:02:08,Julian Garnier,Add link to easings.net in documentation #462,False
+6109551d572c7931a859c01617397047c42208b4,2019-01-09 04:51:14,Julian Garnier,Add https,False
+00fc93c4e7ce5f0928b290472b6d3942e37d2116,2019-01-09 04:46:13,Julian Garnier,Update docs and readme,False
+85916b36024bdbf52480be8b98c3528752f5a238,2019-01-09 04:44:33,Julian Garnier,Fix change callbacks,False
+49495c573a1582b86d970a5620e4c064b548e9d3,2019-01-08 21:01:17,Julian Garnier,Create CNAME,False
+2345ba16cc3e19af331d2e7a73e647360263e6d1,2019-01-08 21:00:14,Julian Garnier,Delete CNAME,False
+bf7c4f29b3228bcc79005c2f9d1ad64260d322a9,2019-01-08 20:58:01,Julian Garnier,Create CNAME,False
+96400d6825be610594337bb341ad7fcad343336e,2019-01-08 20:57:53,Julian Garnier,Delete CNAME,False
+902d3e80b367725367f6358f06622d49ed1e4622,2019-01-07 02:04:30,Julian Garnier,Fix backward timeline seeking + callbacks refactoring,False
+9b95491805f2c131ee0ec96f48886d219fb7678d,2019-01-06 00:36:06,Julian Garnier,Compile code,False
+643a0d39fb467bccd800400f8d859813e0b23b7f,2019-01-06 00:35:03,Julian Garnier,getValue() = get(),False
+bec2f5eb08194201febba2906fd9a9b1a5c42193,2018-12-05 16:37:09,Julian Garnier,Fix begin callback on TL children,False
+b70be3b296513361e235943608e18fa471ef4951,2018-09-22 14:07:40,Julian Garnier,Optimise code,False
+2efea4a3c6138cbfd418f9c26f237c75e886e793,2018-09-22 13:58:49,Julian Garnier,Remove states and startTime,False
+5216fa8aa19691160c4138bd8f4429fdf6eec183,2018-09-22 13:51:18,Julian Garnier,Fix keyframes in min file,False
+38c70548eccfbde487eee6c745b4f78249772f69,2018-09-18 16:00:58,Julian Garnier,Compile code,False
+8b527bd4cd5592bcb9ce189c3139a36fb8ed3310,2018-09-18 15:05:15,Julian Garnier,Update controls demo,False
+08bdc5a62667d533e09c4f73d824099631934ade,2018-09-18 14:46:32,Julian Garnier,Update styles,False
+886ae42ab3134fb117fa61a292fd80a7d9625fec,2018-09-17 22:49:23,Julian Garnier,Update time control example,False
+f2b512972e0f0dc549d4eb910d302680420cafd1,2018-09-17 22:33:48,Julian Garnier,Fix children synching,False
+9486b5103961ba991995e7583685c5eca00b7efa,2018-09-17 22:28:39,Julian Garnier,Fix children seeking,False
+e593913df02e4176d17ce4f3c3fa64165ef956ea,2018-09-17 22:22:21,Julian Garnier,Update examples,False
+f7dcde090e2910751ee7be7d8363fdb24cff470a,2018-09-15 22:14:38,Julian Garnier,Update examples,False
+d2702b8d4576441abe1178124ca1ea92b8a85e28,2018-09-15 18:26:35,Julian Garnier,Update examples,False
+5dbab078f5574a61e8c103743c3c66fcb43a6636,2018-09-14 21:08:32,Julian Garnier,Update staggering example,False
+9639b9d2514a4ffb32ad9686509f1b93a064ff20,2018-09-14 15:51:21,Julian Garnier,Add advanced staggering example,False
+24672c8a9e450083e9a577b8666b2cb746ca110a,2018-09-14 15:12:49,Julian Garnier,New Keyframes syntax !,False
+815944819d4bbbf3c213ba9a31c092d6417961e1,2018-09-13 19:29:14,Julian Garnier,Use built-in get attribute function for svg viewport,False
+0d3001783707888794b1ac5ecadf266fac008121,2018-09-13 14:01:47,Julian Garnier,Update examples,False
+ffed3a107faaea79a3b5b686783bae6c1589ccc1,2018-09-09 15:12:25,Julian Garnier,Update demos,False
+063b1a8b8ef5a475aee8f011ee03d904bb905a92,2018-09-09 15:12:15,Julian Garnier,Do not use attribute animation on inputs #420,False
+e0b31cc55cfbf80f5d3030898b26e5706e4159c3,2018-09-07 20:05:13,Julian Garnier,Update staggering easing,False
+0d06d837821c146bba74a9ff48ef73171f471e57,2018-09-07 16:11:59,Julian Garnier,Fixed grid staggering,False
+f5048fd13fd7c4bf826114f3fbdf77db2039f699,2018-09-06 13:06:06,Julian Garnier,Cleanup TL children synch + TL end loop bug fix,False
+7b445c7521200f1a9bb611cfb550629bd896fd46,2018-09-05 00:35:57,Julian Garnier,Add built-in stagger helper,False
+c9b8c568c4a143255ffd942b2e573d651bf566b4,2018-08-13 14:40:35,Julian Garnier,Stager functions,False
+e71f4aa8e00ac9712bd3bed67c91c53f6e73ba37,2018-08-11 14:13:44,Julian Garnier,Fix states initialisation error,False
+f250c6dbb4f9471b7266c7aa7e94b81fb352f313,2018-08-11 03:26:56,Julian Garnier,Fix seek animation children error,False
+c22893e5b917923adf11fe1612aead04f028f74c,2018-08-11 03:07:29,Julian Garnier,Fix states documentation example,False
+ac69afce8c8061fb1e41e5d63d23c4da49762def,2018-08-10 18:07:11,Julian Garnier,Add easing parsing helper (anime.easing),False
+ae53e489683d52732132dbd3350bfbbdf15d812a,2018-08-08 15:48:01,Julian Garnier,Update documentation,False
+ad20c2b0851a8203bf7a0647906595d04a3c3ffc,2018-08-08 15:37:37,Julian Garnier,Re-add custom easing example,False
+bb040fb7d4005cce77655e0293b915a302bb052e,2018-08-08 14:42:30,Julian Garnier,Update callbacks documentation,False
+5a9e4407ef73b51c8c23cdb67459b25a168b2149,2018-08-08 14:31:40,Julian Garnier,Fix direction reverse regression,False
+7049f5dfbd73749e31b9edc931f4e7c06882f35e,2018-08-06 21:49:34,Julian Garnier,Update callbacks documentation,False
+a7be8f43c0de7f92e91d2d749ffd6bdec3336b42,2018-07-24 18:10:48,Julian Garnier,Update build console log,False
+7099884d136fa0664c5348d15fc8e76f49d8903e,2018-07-24 18:09:07,Julian Garnier,© -> (c),False
+b9840807d9c22ad116a32964eb2eb4c33315941d,2018-07-24 18:08:08,Julian Garnier,Cleanup code,False
+d21a829aae9631bc95107126540d1d083ba09286,2018-07-22 19:50:28,Julian Garnier,Update timeline example,False
+e33a86448817d3218538310a942903370303ffd6,2018-07-22 17:06:42,Julian Garnier,Revert 2.2.0,False
+364ec62614688295656380869c84f43a088503be,2018-07-22 17:06:10,Julian Garnier,Fix callbacks and TL seeking improvement #405,False
+43f3b8a72813c11d0da5d93bbf7a2e3ec1367e3d,2018-07-18 21:28:44,Julian Garnier,Compile code,False
+c197aa688a51c929a3bb35a837c989049c97d1d0,2018-07-18 21:27:24,Julian Garnier,Fix callbacks regression + new callbacks,False
+5f478f84cde020d4fce223662b44db6d305f5d69,2018-07-18 21:19:56,Julian Garnier,Fix callbacks regression,False
+8704a83ae7cb776ca85fdbf103516bccbab96e23,2018-07-18 20:35:02,Julian Garnier,Fix callbacks regression on timeline,False
+8fdff5a4f40890d1aa28411df71bf0878bf78335,2018-07-18 03:44:08,Julian Garnier,Fix timeline callbacks,False
+55942ade732cd370f9468c9bb923ed6a22599467,2018-07-17 20:26:05,Julian Garnier,Begin callback is now called when duration is 0,False
+53c46874cc1765f6fa76f8b93e591fea22bb681f,2018-07-17 15:39:36,Julian Garnier,Add anime callbacks example,False
+5f3e90370406108988b198fa163e92c48ac5d7a1,2018-07-16 16:24:09,Julian Garnier,"New callbacks : replace run by changeBegin, change, changeComplete and add loopBegin & loopComplete",False
+7afd8937753bf2687410affc8e1efc94503e0b33,2018-07-15 16:21:04,Julian Garnier,Begin callback is now called directly,False
+0f66de49c4c5a9c2b14de502e72908abc9c5f152,2018-07-15 16:18:15,Julian Garnier,Cleanup code,False
+98ebaa416b209ea3999893f21cb6e5e73cebeb78,2018-07-15 16:04:55,Julian Garnier,Calculate instance endDelay,False
+41f88c01ff67ec4d9a6deb322c42abbb4b15a83f,2018-07-15 15:23:53,Julian Garnier,Add endDelay property to animation object,False
+28e5109efd145f7f4cfbb449c8fc3fe5cfc61db5,2018-07-15 15:22:12,Julian Garnier,default animation endDelay should only be applied to last tween keyframe,False
+16ed29e12eb0f65991ecc5ef3bec85f56abb4948,2018-07-10 16:55:21,Julian Garnier,Remove website from master,False
+85a8cfe2f772b3438df297d2e665a3ea48f7790d,2018-07-10 14:57:58,Julian Garnier,Compile code,False
+1a59a9dc66161370867826fb9cc0480160fa480c,2018-07-10 14:55:02,Julian Garnier,Update docs font size,False
+90bd49093e779bdad5c526ae3eb9ee7bd66eb5ec,2018-07-10 14:26:18,Julian Garnier,Merge branch 'pr/301' into dev,True
+a4d9a6d39f20dc0c093cfd18a456548b89b10bad,2018-07-10 14:24:30,Julian Garnier,Merge dev into 301,True
+d19207fb7394a41e79a925776be652f8599657e7,2018-07-10 14:01:30,Julian Garnier,Cache el and viewport for responsive path data,False
+14c93d74c375163da2a91f99d4b91eb19e939fd4,2018-07-09 21:55:32,Julian Garnier,Responsive path data #301,False
+515d52f4f057bda29631ea724bb4b4e24e1ced75,2018-07-09 17:53:04,Julian Garnier,Add convertPx helper function,False
+c311eaefae5aef349482f8f5fc8163ec821eec6f,2018-07-09 17:07:20,Julian Garnier,Remove syntax helper,False
+a4bc5ee59b301f95a3ad6da89d302ad0d075cfd7,2018-07-09 15:26:38,Julian Garnier,Tweak docs design,False
+565e2523971d9106e36146ec4a82bb00237a91cd,2018-07-09 14:54:44,Julian Garnier,Tweak custom scrollbar,False
+f1913ec1e9c59f4c736b60752c0221d04ae545fe,2018-07-09 14:07:06,Julian Garnier,Update links design documentation,False
+0362fcf31359d3b9110d766c64e81c647361c6d8,2018-07-09 05:25:46,Julian Garnier,Update docs font size,False
+145a57fa0b52c838c13cbe2c558b36a6a6b127e1,2018-07-09 04:52:47,Julian Garnier,Update docs font,False
+a47b5cb39d80e1a55f86df158482e5606d2e5e04,2018-07-09 04:31:11,Julian Garnier,Update docs design,False
+f38ef2b7c939d790b52c8eedbe1e86a0493aa4b8,2018-07-09 04:07:50,Julian Garnier,Tweak documentation,False
+ebf212d0105c3b697aca1208a1ea0d5c3bb546c5,2018-07-09 03:16:12,Julian Garnier,Update set / get value functions,False
+8014ccf44f760d309db8f9bb90dee09ac0ffb2d1,2018-07-09 02:52:21,Julian Garnier,Better default state initialisation,False
+b798630c0df74aa101f66689c94c157e6b8644e3,2018-07-08 22:02:04,Julian Garnier,States system refactoring,False
+6abcffd6cefc2f4141df0bc64761e5fe4b87f2f8,2018-06-11 15:08:07,Julian Garnier,Make sure parentNode is not document in unit conversion,False
+c342a6a56188df8bff3defa8c652ea4e675d77cc,2018-04-29 18:26:53,Julian Garnier,Merge branch 'website' into dev,True
+d0d87aac80fd84772f160c513dd216f92f9f91ae,2018-04-29 18:26:03,Julian Garnier,Update state syntax example,False
+56e7c13151660662de4ef8f16e9841cfd64749ec,2018-04-29 18:23:29,Julian Garnier,Add support for function values for set(),False
+48515b88f74a103e38609ea89fd8265e0f6c1e55,2018-04-25 18:35:21,Julian Garnier,Cleanup website animation,False
+69131dc2a9fee58de6a9a986015a78341a15deca,2018-04-22 16:38:58,Julian Garnier,"Merge pull request #360 from PJoy/master
+
+fix small error in README",True
+3e48e203a523987044320af71c5e747ba04c450a,2018-04-11 19:01:55,Pierre Portejoie,fix small error in README,False
+7066526e52b96f73372fbe57158b13427111284b,2018-04-08 17:08:29,Julian Garnier,"Merge pull request #356 from Leocardoso94/patch-1
+
+Adding "","" to the example options",True
+48ce8d371caf5cdb711e0deccecb1a304dc37302,2018-04-08 17:07:42,Julian Garnier,"Merge pull request #357 from Leocardoso94/patch-2
+
+fix  badge size",True
+864a733d0536115610dd9ca6440e7abeb45025aa,2018-04-07 04:12:47,Leonardo Cardoso,fix  badge size,False
+12310eb6806ae8c394061c88b5351489ace0e510,2018-04-06 19:34:17,Leonardo Cardoso,"Adding "","" to the example options",False
+67d691e911b7bd8e5d73f840f97696982fbc7a0c,2018-04-01 11:51:45,Julian Garnier,Add example for new states syntax,False
+80938628a7b87ebfd0f6a1354f35d4a802ce5f51,2018-03-16 17:05:01,Julian Garnier,Better blur animation,False
+8913d9c4c9efb96058f48e53f4ce5c8883bc6184,2018-02-28 22:15:57,Julian Garnier,Merge branch '3.0.0' into website,True
+69a3398fea46a84073a63a9748d9f2bc8dba0df4,2018-02-26 22:28:17,Julian Garnier,Merge branch '3.0.0' into dev,True
+54efd0c18a3df9b639acd49f3c4872be13ed250e,2018-02-26 22:27:41,Julian Garnier,Merge branch 'dev' into 3.0.0,True
+632f59aaa1aba697b13f0c12d188f5ae279b0553,2018-02-26 16:04:19,Julian Garnier,Fix wrong initial SVG transform value in some cases #340,False
+a2f3a72224f527af449b8c6294a6e5d5dff87015,2018-02-22 17:07:21,Julian Garnier,Update website,False
+0e168ae170ac61170542a4624637f950c639b280,2018-02-22 00:40:48,Julian Garnier,Update animation,False
+c40a92c1cbc0a565c9ace4a5bd1f026a7794d76c,2018-02-21 21:08:50,Julian Garnier,Simpler website,False
+385425527dbbcd51c7c03607f43b65768a08d1c7,2018-02-21 15:30:05,Julian Garnier,Update website,False
+037872319020968705c370b8d0e0880ba3a006b3,2018-02-21 00:22:25,Julian Garnier,Update website,False
+34d426edcf67e356fa5a96fe8e3b5f177af960e5,2018-02-19 16:51:58,Julian Garnier,Update website,False
+2087db1b7dcea2c3a875e1efd6b0e84f1e38cae6,2018-02-18 20:06:32,Julian Garnier,Clean up documentation,False
+65120268e952961292987944fa24ba3e2177e218,2018-02-18 19:48:00,Julian Garnier,New logo animation,False
+a827f6c12f4b742d07fea7bdbef9360057acad6d,2018-02-18 19:43:29,Julian Garnier,Add anime.set() & anime.getValue() -> anime.get(),False
+998db6d97e18d9f420f6370ec254cedb1e274cde,2018-02-15 23:35:50,Julian Garnier,Update ease visualizer,False
+26c19ff18dd159e3f0a1f3b70920090f1a9f6878,2018-02-14 00:17:06,Julian Garnier,Clean up examples,False
+cd2a406a43a246fdf74427878288c0c9f7313535,2018-02-13 21:53:36,Julian Garnier,Update build script,False
+eff8e974c651efbc59d41b687b8b3faf4d48fba8,2018-02-13 21:49:21,Julian Garnier,Update build script,False
+4484988c0865ee93c271a09428a22b0423d8dcd8,2018-02-13 21:33:14,Julian Garnier,Merge branch 'pr/313' into 3.0.0,True
+2ab0da721c84dcbf94bcb4a703457e8d61f56016,2018-02-13 21:24:32,Julian Garnier,Migrate documentation / website,False
+61b07c902200f3e06e9c80695db502f11aa37e12,2018-02-13 21:24:22,Julian Garnier,Change umd package name to (animejs -> anime) / Update build scripts,False
+d233e1f531b242067da23918a589ee6c7956fe9a,2018-02-13 16:06:27,Julian Garnier,Merge branch 'pr/271' into 3.0.0,True
+5b5cbd6053ed77da75d24a51f215f2b748e17f5a,2018-02-13 16:02:48,Julian Garnier,Merge PR 271,False
+11e5d1516467cb2a06184f06f645ad23bd15be3d,2018-02-13 15:56:35,Julian Garnier,Update examples,False
+53d595e8aa50f64f073aa10d541c15a9b60b5f26,2018-02-13 15:53:40,Julian Garnier,Merge branch '3.0.0' into pr/271,False
+0bc42b0bd37e8afc931df6a9794d1ef222eea057,2018-02-13 15:40:35,Julian Garnier,Better check unit caching,False
+0c67c45eec14ee5773e8d00d1eb069690e2e0312,2018-02-13 14:47:01,Julian Garnier,Update documentation,False
+770d4dfee35365fd1f164661e0f67a9b57a52329,2018-02-13 02:24:48,Julian Garnier,Update min file,False
+d80b92b28bafa9b49e328cdfac0aaf755d637487,2018-02-13 02:22:04,Julian Garnier,Update raadme,False
+3068336806b1f1aa12476f571fb0a8e2c9d22a60,2018-02-13 02:20:30,Julian Garnier,Update doc,False
+35ac765c0fd0118636676a636181a8b1582b897a,2018-02-13 00:50:48,Julian Garnier,Update documentation design,False
+92802576c8fd743e13e2061c25427b0c47dc1e51,2018-02-13 00:36:57,Julian Garnier,Update documentation layout,False
+f253338821d29026b197a519b3a801239a4176eb,2018-02-12 23:06:14,Julian Garnier,default parameters undefined -> null,False
+f0125cc17448f338e0515350fc7c57cd6771eb5c,2018-02-12 23:05:55,Julian Garnier,Update documentation,False
+af0b4c63a9f19836d3648fb7a76d4fd53655b736,2018-02-12 20:05:43,Julian Garnier,Do not convert deg values,False
+547c26693d3b329d919487b73d06c0bb0224a933,2018-02-12 19:20:23,Julian Garnier,Add Helpers section to documentation #151,False
+8bdc3b6f32253e8caaec345bfc0346af1fa32c27,2018-02-12 19:16:14,Julian Garnier,Better unit conversion,False
+b1521d315160bff73fa2ccb1b6380e5b947d0639,2018-02-11 23:55:03,Julian Garnier,Improve states documentation examples,False
+f41dec92ae47b8553c0e9134623809ae96976e61,2018-02-11 23:37:46,Julian Garnier,Only converts unit if units are different,False
+63614c17198b8a968afdbc3c7c6afa8d960b3c10,2018-02-10 22:14:48,Julian Garnier,Update documentation,False
+a9fe938ab2d883c1997e9ea918bc3b5ecd964cac,2018-02-10 22:09:56,Julian Garnier,Remove unit conversion from transforms,False
+6f1ed20cc2900c3622ecc5d7092a936346cdd240,2018-02-10 22:07:10,Julian Garnier,Update documentation,False
+cde7c55400ec8aa3cfae607edd101f35c057e2be,2018-02-10 21:49:41,Julian Garnier,Update docs,False
+cb5c1d4083599f3319872bc625a70e8300f6836f,2018-02-10 21:49:34,Julian Garnier,Add basic caching system and CSS unit converter #331,False
+51938d1b4cf4dd20dd507a9c7b6af569557a8395,2018-02-10 19:51:57,Julian Garnier,Get = getValue,False
+a27e89f451cde763c3bef70255cedeffe338119f,2018-02-10 03:56:19,Julian Garnier,Cache activeInstancesLength in main loop,False
+e23a6e64825dadadb84d66a8f64ad1b1a527011b,2018-02-10 00:16:52,Julian Garnier,Tweak elastic easing,False
+ffa6c01ca967b5eda18b40a9f96157277cdd6979,2018-02-09 18:38:24,Julian Garnier,Update documentation,False
+6d66e36e5469c4b29541fa09794b71479838c690,2018-02-08 23:08:34,Julian Garnier,Update documentation,False
+ebce6a3f7f97ce6aa35741bba0e6751d2bb3a9ec,2018-02-08 22:11:31,Julian Garnier,Update documentation,False
+42d85e33fafd9039ce49126aaf868d4d7f02358c,2018-02-08 20:21:33,Julian Garnier,Update documentation,False
+e19eba6a57e718b4c2cb56f34cbcfcef95d1acc4,2018-02-08 16:54:46,Julian Garnier,Update documentation,False
+4144eb92ba91b1d14ec4a985eba339ebd8e29084,2018-02-08 16:54:33,Julian Garnier,MinMax value for spring easing,False
+b080dd1c2425ec9c88deb69a1fa04b2284aa3036,2018-01-28 23:40:26,Julian Garnier,Update documentation,False
+4a7c4f76eb2839375449f92bfabb9b8e01cab48f,2018-01-28 23:11:51,Julian Garnier,Fix instance update time,False
+8089251ed23eae25205b1b221e6a59b8d591c2f5,2018-01-28 23:10:19,Julian Garnier,Update docs,False
+7bf56454d9c5babb60475962077a4dc680116015,2018-01-26 21:43:37,Julian Garnier,Update documentation,False
+32ca87abf95feeb928b9b3732ecd65eea86becf7,2018-01-25 00:25:08,Julian Garnier,Update documentation,False
+29bba591e531ff0ba6bb1d2fe50117077ddbdfb8,2018-01-24 17:00:21,Julian Garnier,Update timeline documentation,False
+27730ba68f12d71399b55ef4849df1e41a4622b7,2018-01-24 15:01:14,Julian Garnier,Update docs,False
+c0e081b3cb10f87c25712a71a733ceb6a51c3bfb,2018-01-22 23:16:58,Julian Garnier,Update documentation,False
+7bce53ba3881b530a50d27305d2889970364023d,2018-01-22 20:59:39,Julian Garnier,Update documentation,False
+02b1d091c7dbd242c71dfa6663ae2e5b53dd3e4d,2018-01-21 21:07:16,Julian Garnier,Update doc with new offset parameter,False
+d05b08a1586390477d09841738e424ec50790234,2018-01-21 17:34:43,Julian Garnier,Fix build,False
+38cb29f771443b2c6a74a7044aab8670263b9c23,2018-01-21 16:21:28,Julian Garnier,Tweak timeline example,False
+1dcc7e18801ca804cbd2684d4733aacfc390d04b,2018-01-21 05:21:25,Julian Garnier,Fix timeline wrong begin() call,False
+0163c961622fdf1c873567155d95479dfba6268c,2018-01-21 03:32:43,Julian Garnier,Precent run() callback to be triggered after endDelay,False
+660974db046844622a971370ece728fb19e9c4ec,2018-01-21 03:06:44,Julian Garnier,Check for attribute first to prevent SVG attributes being interpreted as transforms #314 + timeline tweaks,False
+1c18b1fc552a90a7dc8ba63c697832efda7f47ad,2018-01-20 23:10:49,Julian Garnier,Add switchTo to states,False
+d98c5b183603b8363cdf210669e29ca430be5fc6,2018-01-20 22:43:33,Julian Garnier,Initial states implementation,False
+156787bc707cc65d2af40f51207be05aae363aa1,2018-01-20 18:41:50,Julian Garnier,Reverte easing syntax / cleanup code,False
+83ec02ee7027032e1cdb54a6aa40ca3e915d945a,2018-01-17 23:30:03,Julian Garnier,Easing optimisation / cleanup,False
+9004f566b5146c4d346e22ffa69ac809196d52e5,2018-01-17 18:26:30,Julian Garnier,Timeline Offset refactoring / add startTime property,False
+7dd10d7faaec84586abc92864f4f0d739a013041,2018-01-16 23:04:36,Julian Garnier,Fix default easing,False
+5b42bd62e434ba2bb09a5dcb824580ce0bd9c75a,2018-01-16 02:56:04,Julian Garnier,Remove public bezier and easings,False
+f2731f1287fc1ba482ed88fca70f0048905da380,2018-01-16 02:53:27,Julian Garnier,Remove anime.set(),False
+49451b253f9f6d69b0cd3f178b549344c5a49065,2018-01-16 00:12:36,Julian Garnier,Add steps() easing,False
+ae88bfc27b3a2954854ab4210533b740dc2d5f7d,2018-01-15 23:21:22,Julian Garnier,tweak timeline demo,False
+5fb19335e2f44e6e4144b91d6306718eb9eeafe1,2018-01-15 22:51:12,Julian Garnier,timeOffset refactoring / timeline cleanup,False
+a3c92f3b689d431cb5da253d55df56147133f6b6,2018-01-15 16:12:23,Julian Garnier,Clean up easing code,False
+e35089f9a8fc463e99bba745f678b3ce484cf226,2018-01-15 04:54:06,Julian Garnier,Easings refactoring,False
+9bc50964c0c00423166a4d49e914c0d0b803cf26,2018-01-15 01:46:22,Julian Garnier,Add spring easing,False
+3a052f8506b6d5e7f2998a73f5e353452b7d3967,2018-01-12 16:30:35,Julian Garnier,Fix remove() for TL children,False
+49c4ae7624fd63c82817398f0f17d3f534e3c6cc,2018-01-12 16:24:38,Julian Garnier,Allow remove() to remove targets from timeline children #318 #286,False
+01e5ca941ea10ae3377e84432761f7cd5493df5b,2018-01-12 04:38:49,Julian Garnier,Add springDuration for future implementation,False
+d0133b5907440e5b7372a405a3980d16697e48e5,2018-01-12 02:35:40,Julian Garnier,Better pause(),False
+af4b23699ab4ab5851552720a2ab572c4e732374,2018-01-01 06:35:16,Luke Edwards,"include built files within repo;
+
+- previous built file was included",False
+998109c73f7378e18f3c14ae1e1e992f226a5367,2018-01-01 06:34:45,Luke Edwards,"update build script & pkg contents;
+
+- added module, umd:name, umd:main keys
+- reordered other fields for clarity
+- replace closure-compiler with buble
+    ~> produced smaller build (bcuz closure unconfigured)",False
+d6a67495584dc42cf95bad08fc3c5566e8d72cc0,2018-01-01 05:50:37,Luke Edwards,move anime source into `src` dir,False
+548e61dcd86165998abe1bb9c273a8f089a6ac16,2018-01-01 05:11:10,Luke Edwards,define existing build script,False
+2069c2b4e1fd38daf3f53756339091ed540c73ce,2017-12-26 21:36:08,Julian Garnier,Cleanup setProgress Code,False
+e417f3e16d77984985dec168b37f937fb02b7bae,2017-12-26 03:39:54,Julian Garnier,Cleanup timeline / transform code,False
+4dcacd63f6ef7be767366a4eaf4e1b770ae876b9,2017-12-26 02:37:51,Julian Garnier,Timeline refactoring (WIP),False
+96830e293e71d08c556427166191195ba0a3104b,2017-12-24 18:11:51,Julian Garnier,No more timeline array parameter,False
+c8a3e0a38b0fbab0256f856591d2baff9eb48d35,2017-12-24 16:41:00,Julian Garnier,Rename timelineOffset to timeOffset,False
+8338490c08da6d05b49cc9be3a198a31277f09ef,2017-12-24 16:39:35,Julian Garnier,Offset parameter can now be passed as a second argument #229,False
+7ecf242881e6cb3aa1a5e84331d9f5765dec8e72,2017-12-24 14:57:25,Julian Garnier,Fix specific id selector doesnt work #281,False
+30a5f5357818e44bca18e970cc40d6ba8fb67fca,2017-12-24 14:51:11,Julian Garnier,Allows object as parameter for anime.set,False
+f1e5be280f6cf85e884eb8800d9f0fa11b4aa8ae,2017-12-24 14:44:07,Julian Garnier,Fix getPath(),False
+1ce8c1721ae84f33b9c223298d2c4f55537e85c5,2017-12-24 14:31:47,Julian Garnier,Better anime.setValue,False
+78e040bb7f8595511ddc9950cce4d9c0861f0ef2,2017-12-24 14:18:49,Julian Garnier,Update speed demo,False
+c1c95e41b89726a39fe11f3c10ce6fd1b048875c,2017-12-24 14:18:38,Julian Garnier,Code cleanup,False
+811c055ea6951dca3ff359f0e77bca9cdddf0072,2017-12-23 22:30:14,Julian Garnier,Update demos,False
+27e286032919f577b40658f814d6c614d014c1f4,2017-12-23 22:30:09,Julian Garnier,Reverse children (needed fo transform values),False
+67e115e56dfd25840862b9c9939b540c70a9dbe6,2017-12-23 21:18:39,Julian Garnier,Update build script + documentation,False
+46c030c129c94dfe7317ba398a8c291fe9cc1546,2017-12-23 21:18:22,Julian Garnier,"Transforms management refactoring, better pause management",False
+22f858f99cba97ba40049dbf984587d846641163,2017-12-22 18:08:18,Julian Garnier,No need to check for activeInstance since everything is removed on the next frame,False
+34c27304b948964a0937809348cedee69f0ea809,2017-12-22 17:54:29,Julian Garnier,"Better pause management, fix flashes / flicker when overlapping animations #269 #257",False
+b8dbeac9b882406067e4f1bc1888eb203300ef8a,2017-12-20 22:28:28,Julian Garnier,Better Firefox borderRadius example,False
+259c66bdc4ab847ad6a1de908494b57fb11cdd7b,2017-12-20 22:25:56,Julian Garnier,"Revert ""Initial remove() refactoring code""
+
+This reverts commit 029c50e13b5e0c2284035b46c03f44bd76f640db.",False
+86704306fba5cd86224a1d5a29795578435eaa97,2017-12-20 22:25:25,Julian Garnier,"Revert ""Improve remove()""
+
+This reverts commit 39007cfbebea89335c051315361b84261c67146e.",False
+39007cfbebea89335c051315361b84261c67146e,2017-12-19 23:05:18,Julian Garnier,Improve remove(),False
+029c50e13b5e0c2284035b46c03f44bd76f640db,2017-12-19 22:39:29,Julian Garnier,Initial remove() refactoring code,False
+91c52f73550c225977bc74d91bc5481dd9946ae2,2017-12-19 19:35:41,Julian Garnier,Cleaner timeline parameter argument,False
+40f58f6bdff2fabbf81416b684ac0937d9f2b711,2017-12-19 19:26:03,Julian Garnier,Fix Cannot read property 'targets' of undefined When there are no TL parameters object and no 'targets' property,False
+199895107c33478c1c2ca34565b997cdea330c35,2017-12-19 19:13:14,Julian Garnier,Fix border radius example in documentation for FF #11,False
+e2fb5907fc6916e5ed702166fd5880b48b2af0bc,2017-12-15 20:44:24,Julian Garnier,Update documentation with endDelay,False
+a4dffacd47b35de6e66f031a39c633c52821fc31,2017-12-15 20:00:29,Julian Garnier,"Merge pull request #247 from quadnix/patch-1
+
+Remove ligatures from code samples in docs",True
+fbd17b8966237f4241e7f6503653b04b6fac0fed,2017-12-15 19:59:34,Julian Garnier,Add endDelay property #254,False
+abfd5bdb5b79fa8dffa05a7745ea09ce81bfaba9,2017-12-15 18:07:03,Julian Garnier,"Create 2.2.1, fix inline style unit detection #251",False
+e2424852faf66b0c0f44845964ce49f79304712c,2017-12-11 18:16:32,Peter,The scaling obviously also affects the angle,False
+6b64c67d72e1856ae5080ccf955d50ca1b08e25c,2017-12-11 16:13:05,Peter,responsive scale is now cross browser compatible (firefox did not update the svg.height / svg.width values),False
+574dd4c8e9a49d77719a2954e4cffeaca7010dca,2017-12-11 01:33:22,Peter,Viewbox aware and responsive svg animations,False
+8d5354ce4040881612f6449462d0b91f1835e089,2017-12-04 21:49:35,Julian Garnier,Add opacity animation example and fix borderRadius on FF #199,False
+f698e5a036253b7ffcf3690e42625bac10df196e,2017-12-04 21:41:15,Julian Garnier,Fixed seek() code example for IE / EDGE #176,False
+33691dbfed011eb3258cb3d3fd3bdf732275d415,2017-12-04 21:35:43,Julian Garnier,Cleanup seek() code example,False
+33e9eea9b5fa2c1e6d895c5d421109579f6b6a83,2017-10-30 04:27:49,Steffen Ebermann,Fix engineTime calculation in tick() for speeds less than 1,False
+5375450ce243475d9c928433407789704a777f82,2017-09-26 20:31:27,Patrick Kage,"add -webkit prefix to font ligature disabling
+
+support chrome 31, opera 19+, safari 7+",False
+04b1acbea3ebdff9cd52c25da6a2d64f6ef3f522,2017-09-26 20:22:45,Patrick Kage,Remove ligatures from code samples in docs,False
+ae9eb90ab66e92f89dad8f9b59e9df3928c16991,2017-09-25 22:16:14,Julian Garnier,Merge branch '2.2.0',True
+b14a3a963a008fed11620a031ed48284b630143b,2017-09-25 22:14:41,Julian Garnier,2.2.0,False
+37c7949070b3398bf4d678ff3b24d5b04a6833ec,2017-09-25 21:59:23,Julian Garnier,Update examples,False
+a1b5b0104bbd8b2749181d9b9b3e0721a077a3eb,2017-09-25 19:37:40,Julian Garnier,Update examples,False
+a8c62789f13676fa016b6bf1cc5fa506e7639c89,2017-09-25 19:37:30,Julian Garnier,setAnimationsProgress optimisation,False
+e017a4d9f355447f8428f74182d098ad9cd3b228,2017-09-25 15:00:50,Julian Garnier,Cleanup array filter polyfill,False
+2032f551a05abb266a0d206db60965618448b3f5,2017-09-25 00:30:37,Julian Garnier,Make sur path value always starts at 0 Fix #245,False
+df826311bfbfef0e9544d699e4cd6e6fb1588aa7,2017-09-24 22:50:58,Julian Garnier,Faster Array Filtering + faster values recomposition,False
+515181f6314af64d25b5e027e7c5173d0ed4cc05,2017-09-23 21:37:26,Julian Garnier,New examples,False
+b8e8f9972ea6993d124bab9eb79f297dd05b9d96,2017-09-23 21:37:19,Julian Garnier,Add colour test page and,False
+95aa3e950aa204dc9829e5e6892892f84d8ddcd5,2017-09-23 21:36:52,Julian Garnier,Improve rgba support,False
+03dd1f70aa9f0bdb34134280335003c4c8a8ba02,2017-09-22 19:03:03,Julian Garnier,2.1.1,False
+0df20b03294285a3beaf4f383715ad566a109edb,2017-09-22 19:02:52,Julian Garnier,Add support for RGBA and HSLA,False
+51a2d9e7f08610e72a6c7129c42e471f7bcec7b1,2017-09-22 14:28:48,Julian Garnier,Refactor recomposeValue function,False
+1489bd41395d55d5a0c0f7445a4722cea8c3a710,2017-09-22 14:27:36,Julian Garnier,Update documentation and examples,False
+d05090561cd61b2e36802d045017b46d801362cb,2017-09-21 23:38:23,Julian Garnier,Update DOM stress test demo,False
+dc77861d485a585125076217a07cfc2156e1980a,2017-09-21 23:06:57,Julian Garnier,Fix duration 0 complete callback,False
+9ac2fa5a7bd08b154ca44f762236d5139e392a81,2017-09-21 22:24:24,Julian Garnier,Update staggered animations example,False
+b6d65e5aa705e661b955f097cb2b77e3154561d2,2017-09-21 22:23:51,Julian Garnier,Optimise getInstanceTiming(),False
+8c4678d467ce1a7e0ba01ddca51ba804c9d40ba2,2017-09-21 15:52:59,Julian Garnier,Update examples and tests,False
+59bc407e876ccdc3d26f495ccba2947bf5c30227,2017-09-21 15:52:37,Julian Garnier,Compile code,False
+495f2e25bae21f8757ef29feef989581f68735a9,2017-09-21 15:52:05,Julian Garnier,Improve TL timings and loops,False
+a2d2b4c22bf35972d2306322cec04e717bcd3d0f,2017-09-17 20:37:14,Julian Garnier,Merge remote-tracking branch 'origin/master',True
+4cac347eb0f7c484c33816b837908ea4b350a98e,2017-09-17 20:34:17,Julian Garnier,Merge branch '2.1.0',True
+78942f537bb8615d5b354075c6d6c5986d0c4e04,2017-09-17 20:28:55,Julian Garnier,Fix default timeline parameters,False
+77a3ee217f3db7174efba6f07026a23dea6d7144,2017-09-17 20:11:06,Julian Garnier,"Merge pull request #196 from aksperiod/patch-1
+
+Fix a typo",True
+5ea2a8d8903a6fa931cc68350cd31b6ba42887cf,2017-09-17 20:03:54,Julian Garnier,Fix timeline promise being fired instantly #159,False
+ceb1a4a265e9e3125e709751511fc5f2fb129c8b,2017-09-17 19:34:28,Julian Garnier,Add support for vmin/vmax/ch units #224,False
+1fede5d3c99e47dadf15d92bad0d8c64a0b8a573,2017-09-17 19:07:02,Julian Garnier,Timeline parameters inheritance #152,False
+b029bd2c135c89afba9f1ae82bedccad167014f3,2017-09-17 18:24:00,Julian Garnier,Remove path check during value recomposition and arrayLength fnc,False
+410bf06d0eebdb3b75ba70aafc12e5ff9cc622b5,2017-09-15 22:22:51,Julian Garnier,Fix TL issues with new seek(0) and duration: 0 changes #236,False
+584278c05fd8378a96c4885a8ee7dc44dc6c9aa1,2017-09-13 01:18:47,Julian Garnier,Initial staggered loop proposal #194 #209,False
+05b17a493bdf1d81b6691f8af9e4b407284bdce6,2017-09-11 01:37:34,Julian Garnier,Update tests examples,False
+f4408cb13a338b0f6277f7e1ae7a22ebe08b047e,2017-09-11 01:37:11,Julian Garnier,seek(0) set the initial properties values #177 + callbacks cleanup,False
+ea5bc5148f4084b3a3f9fdbf073a4833d39cff87,2017-09-10 20:40:20,Julian Garnier,Testing perspective,False
+f15caf91ae818ead917307d1727fe7558a6696bd,2017-09-10 20:40:06,Julian Garnier,Clarify function based property parameter behaviour - [x] Add the perspective property to the transforms list #191,False
+9c2d95c81bc4c1c68beaa4eba170a148f1bcf7f4,2017-09-10 20:39:20,Julian Garnier,- [x] Add the perspective property to the transforms list (#207),False
+89e5227eb808419fdcea972a51b4f0fab63575c4,2017-09-10 20:14:39,Julian Garnier,Update examples,False
+f37b05a25bf0555e527440532f64eda3d909375d,2017-09-10 20:14:21,Julian Garnier,Duration 0 ends the animation instan #228,False
+d38f7781158cad0240673de47c21bbf0e4834a6f,2017-09-10 17:21:29,Julian Garnier,Update doc,False
+ae2c112574f1ba2410e4a77329db44931219c795,2017-09-10 17:21:23,Julian Garnier,Make sure relatives values keep their unit #214,False
+dfba4900c4fe7bf517bb77e1ddbedc2a60f5258b,2017-09-10 15:59:31,Julian Garnier,Examples update,False
+622ea26f2958b15105185e17dec1a7f547ec97f6,2017-09-10 15:59:18,Julian Garnier,getTotalLength() code cleanup,False
+99820877b573c5963a6d3f7ed1f27e8a331afbb6,2017-09-09 22:19:05,Julian Garnier,Update documentation,False
+a057d1c27dc392eb24a1cd5fe72470f4832d541f,2017-09-09 22:18:58,Julian Garnier,"Add support for line animations for circle, rect, polyline, polygon and line shapes",False
+835872c257434e4d259430a039cd953153aa9601,2017-09-09 20:02:59,Julian Garnier,"Revert ""Merge pull request #213 from jeroenrinzema/patch-1""
+
+This reverts commit e0ab3778abaf4088a60c3c147fa1f1fca27a07bb, reversing
+changes made to bc4cb32a2712803b392e07468ff728eecce41e94.",False
+e0ab3778abaf4088a60c3c147fa1f1fca27a07bb,2017-09-09 19:55:40,Julian Garnier,"Merge pull request #213 from jeroenrinzema/patch-1
+
+Bug fix ""getTotalLength is not a function"" when element is SVG line",True
+bc4cb32a2712803b392e07468ff728eecce41e94,2017-09-09 19:45:48,Julian Garnier,Add multiple SVG lines animations,False
+9b440a0e2ecd84f5b33d05b366ec64369e8baaa3,2017-09-09 18:55:06,Julian Garnier,Update examples,False
+1b82d20d6396d3d2b0903f3b9d0688a4bc0f7534,2017-09-09 18:06:09,Julian Garnier,Update documentation,False
+395236e61dadad203783cff3460009c64707b41e,2017-09-09 18:05:57,Julian Garnier,Do not add unit if value contains spaces #223,False
+28bcd414ecab551a15b17801a76254bccd7acbc3,2017-09-09 17:18:31,Julian Garnier,Update doc,False
+5e3ce79400567e147bf49fd8b4d5fe9a4a275725,2017-09-09 17:18:22,Julian Garnier,"Fix wrong unit merging #119 #164
+
+Make sur the value actually ends with unit",False
+f940a3b7bdb5bced46644df7853bd79e5f6db5c4,2017-09-04 15:58:23,Jeroen Rinzema,"Added support for SVGPolyline elements
+
+- Added support for SVGPolyline elements (thanks to @btruono)
+- Created separate functions for calculating the total length of SVG elements",False
+1c889cb899a6c766784d3d5535fa4ebf9485c07e,2017-08-30 19:28:59,Julian Garnier,"Merge pull request #174 from agoat/master
+
+Fix false number recomposing and NaN number problem",True
+178c4b2bf2f88d50b48a79cd5c1cf53cc6a621dc,2017-08-30 19:27:22,Julian Garnier,Merge branch '2.1.0' into master,True
+555420dcd6d71aef6f2318fcda5101ee8ad5bc92,2017-08-30 19:21:22,Julian Garnier,Compile min file,False
+2940142f3db57feb80eed27f3ac7334ec137bf69,2017-08-30 19:14:41,Julian Garnier,"Merge pull request #222 from A-Babin/master
+
+Fixes Issue #116",True
+785804632d6aed59f4793ee6ff25ba5c6dbd31a4,2017-08-30 19:01:24,Julian Garnier,Create 2.1.0 and #153,False
+a0b18b02765b005dc4f0e3376461c30db600ebdb,2017-08-19 09:34:18,Andrew Babin,"Use helper function instead of standard typeof
+
+As suggested in bryanyee's review.",False
+6fd84019befaacea982372911dc877e866deaf8b,2017-08-16 23:24:20,Andrew Babin,"Fixes Issue #116
+
+If either to or from value contains a unit, animated value is casted a string with that unit. Otherwise, animated value is cast to the type of the to value (as set in anime parameters).",False
+1659d587dba611520ad6c89a7ee6ecfaba138cda,2017-07-30 14:49:20,Jeroen Rinzema,"Added support for SVG rectangles
+
+Added support for calculating the total length of SVG rectangles.",False
+7804e4a3a6a1d069fcef697113c23b9d1418e60b,2017-07-30 03:35:52,Jeroen Rinzema,"Bug fix ""getTotalLength is not a function"" when element is SVG line
+
+Fixes #145. This problem is caused when element given to setDashoffset is a SVG line.",False
+b9e56fbfb6a0196c7cc53ebbc08829891f41ba03,2017-06-24 21:14:37,Anthony Salazar,Fix a typo,False
+62f9489009fbab1417a852f9b6c65fb3970f62ae,2017-06-01 11:23:01,Arne Stappen,Don't use not existing array values,False
+255304df93e1f5419559f62f984b5c75ac6296c6,2017-06-01 11:21:32,Arne Stappen,Add minimum a space character when recompose values,False
+4d7be28f2731782e516852147370a67be5fb5f4a,2017-05-31 21:11:12,Julian Garnier,dependencies > devDependencies #149,False
+162198c0651edf5aa090be4ac9f7ec07a3fbda37,2017-05-31 20:42:14,Julian Garnier,Merge branch 'pr/144',True
+ccf745eda642ac24ddfed7911550951f03d036b6,2017-05-31 20:41:26,Julian Garnier,Merge branch 'master' into pr/144,True
+fd7f6e0fe4ed2c2857f284e5698973a2fe125c84,2017-05-31 20:29:14,Julian Garnier,anime-js.com > animejs.com,False
+10f82fe7952f81402875a8c19861eaa337be1ff7,2017-05-31 20:23:49,Julian Garnier,anime-js.com > animejs.com,False
+73efa38cd6dc3f9ce1cc91a7176def1899686b78,2017-03-30 21:19:26,James Hobson,"Readme: fix typos, remove duplicates, show more examples, tabs to spaces …",False
+ca59ad15c82f1c35c6a4bd29ee4404503fca545d,2017-03-29 20:32:11,Julian Garnier,"Merge pull request #140 from hogewest/fix_typo
+
+Fix typo",True
+c502473431dea6a988e86c4af7196d4fbd4a65ff,2017-03-29 20:31:26,Julian Garnier,"Merge pull request #120 from huyhong/master
+
+Fix docs typo",True
+d805ac408e1f30ea7d8ccbb47b4d6774a7c805c3,2017-03-27 20:20:59,hogewest,Fix typo,False
+2db86c63a55fe365d353f189cf1674b215737fb5,2017-03-26 19:54:33,Julian Garnier,Fix CSS prop example on Safari,False
+20b6f4b8a54328d75d13972ccb65cd7b80e16855,2017-03-26 19:52:40,Julian Garnier,Absolute gif path #114,False
+1eb868959d7b629173afaf994dbf6801615eec37,2017-03-26 19:51:12,Julian Garnier,Version 2.0.2,False
+9331806d4d2a2b5d94f5623b163527727b3ab918,2017-03-26 19:46:22,Julian Garnier,Merge branch 'v2.0.2-TL',True
+9a727a64f199e7ad225baccb4fc5815f5517e49b,2017-03-26 19:42:36,Julian Garnier,Compile code,False
+f238ca0aa505af0952e6772191cea7edd0d27998,2017-03-26 19:38:48,Julian Garnier,Compile code,False
+200a41eb0c80ad610383b61d13ec813f74c6e6b8,2017-03-26 19:36:26,Julian Garnier,Fix #123,False
+78cacb225641f57f2ecc3a73c0409037e175b63c,2017-03-26 19:34:59,Julian Garnier,Update timeline example,False
+a3dbe9211569a303aa64a42a68ac19d5760f10ca,2017-03-24 22:55:03,Julian Garnier,#121,False
+ca9357c56c7a979f28f5213eb602be35994273e1,2017-03-21 23:00:22,Julian Garnier,"#122, #121",False
+e0f1dd6e9c0b8870c1db00bc2744bbd405f27d04,2017-03-08 05:21:05,Huy Hong,Fix docs typo,False
+72271554a38e65aa197a35a695e4c38b08babe40,2017-02-25 20:52:10,Julian Garnier,Remove arrow function for better browser compatibility,False
+502d42c53420441d4650cd0c63d435d5df2cba1b,2017-02-25 20:41:49,Julian Garnier,Use minified version with documentation,False
+4d14f156cf9600a128992007d613bb0b566acc03,2017-02-25 20:28:02,Julian Garnier,Update website,False
+8dc0b54ab6220074177d41f7c61d481b2a9ac110,2017-02-25 20:05:46,Julian Garnier,V2.0.1 #112,False
+f7f16013110a33bb14212095b5a5b22f89fa6750,2017-02-25 19:51:53,Julian Garnier,Add documentation link to homepage,False
+aa1618f8ed256cb7176327cd25d17f77abef58b5,2017-02-25 19:40:59,Julian Garnier,Fix #111,False
+5ab7c9ce0ef95a441355c85cbb06d41a9b82cca3,2017-02-23 21:17:23,Julian Garnier,Fix font style,False
+8ac2890bc2ba0c04697f2010f68d4162b99c73b3,2017-02-23 21:12:43,Julian Garnier,Fix font style,False
+164272ee8ca23ba7842667788a86bda1fb211e19,2017-02-23 20:52:15,Julian Garnier,Update readme,False
+7218293b28e9ef86084cf93b0c266bac9cb9b355,2017-02-23 20:44:55,Julian Garnier,Merge branch 'v2.0',True
+363c4bc4053fc6a0d2ac71007a0d6f0d5683abce,2017-02-23 20:03:07,Julian Garnier,Update demos,False
+d74c780631b77aaa2b2811ad2e71a2e2260a9d7c,2017-02-23 19:48:44,Julian Garnier,Update demos,False
+9f9ba7f0a59cabc60348471163b923c176889224,2017-02-23 19:48:25,Julian Garnier,Improve tick() perf,False
+248cc011972c635011331c2ad4ce8491e2a13083,2017-02-22 23:53:54,Julian Garnier,Update sharing assets,False
+13d5ce9b1d6d355d3a77dd93f3e8f80ef7a3f3ba,2017-02-22 21:31:26,Julian Garnier,Remove Update() image,False
+1a926a47f35861c9d2c607ccc5a264cc0b84b458,2017-02-22 21:26:07,Julian Garnier,Remove unused readme assets,False
+8f19bf62cc0769adc228e07470919b8fc1c415dc,2017-02-22 21:24:59,Julian Garnier,Prefixed styles for doc/website,False
+322f72a3186265d3d076fdfe17aa25427d4fa544,2017-02-22 21:24:44,Julian Garnier,Use minified script on doc/website,False
+07287ade1bb73f16799cb76a06fa1b339dc7f07e,2017-02-22 21:21:13,Julian Garnier,"Add credits for Promise implementation
+
+@tbranyen",False
+5671afa64ff99a8635efc00b305441748957a3a2,2017-02-22 21:19:01,Julian Garnier,Update documentation,False
+09c6544431bebd6e0fdae0c17616313210ed5b7e,2017-02-22 20:37:40,Julian Garnier,Improve demos,False
+1573fcf8fa50693ef5f412e2b94716ecaca0b510,2017-02-22 16:19:48,Julian Garnier,Improve demos,False
+d801957194a720c29fa0c67d14581ccccccc2bfa,2017-02-22 03:59:33,Julian Garnier,Design tweaks,False
+abb726d0910751fd77d0144916da214e5dc8aecb,2017-02-22 00:40:47,Julian Garnier,Update site / documentation,False
+86f6614f3962c0c1b290ad166de556b14e1f5cc1,2017-02-21 22:37:39,Julian Garnier,Make sure complete callback is only called once,False
+9a86989e008431c1034bd2752078a0e4d0b7a1ce,2017-02-21 19:39:33,Julian Garnier,Better fireworks demo,False
+769e11e351e22cef8ebf5bb4e9efcb7a75bbda15,2017-02-20 18:17:55,Julian Garnier,Non-minified file in documentation,False
+e9063038443ceaa418c067cfaa3df5074713b8ea,2017-02-20 18:17:28,Julian Garnier,Improve canvas demo,False
+13857f2149d45dbb9ec3332ee2e0c85bc54f7da1,2017-02-20 18:17:19,Julian Garnier,Fix began callback,False
+8a7db0268420c6d270242a14cd392273a16b2482,2017-02-19 00:36:34,Julian Garnier,Clean up build file,False
+e097f7b56442db5281cdea857cacaa9ae7e80339,2017-02-19 00:33:30,Julian Garnier,Replace node-minify by GCC,False
+1e00b03a5c35f8f504fd74e34cc69694eb225f47,2017-02-18 23:31:27,Julian Garnier,Compile code,False
+1737d0a3f906394efbca9241e3059488d0d6f98a,2017-02-18 23:22:08,Julian Garnier,Merge branch 'pr/106' into v2.0,True
+278e0066cc298e73fc2151a2ee5f3835a5f5050b,2017-02-18 23:17:52,Julian Garnier,Change promise log message,False
+c8de216e91afd6434b78117c455026f2589dfb99,2017-02-18 23:14:22,Julian Garnier,Merge branch 'v2.0' into pr/106,True
+0f8c1adf4f7c69523dbf71e8c537ad773bd984f9,2017-02-18 23:10:47,Julian Garnier,Add finished promise to direction testing example,False
+3f30fe0ccc9ea1133a0f955513f58989288e0da7,2017-02-18 23:00:58,Julian Garnier,"Code readability
+
+Declare makePromise before calling it",False
+a9a819d068e3ca26b7c1336a42e39eb5252573c2,2017-02-15 06:04:21,Julian Garnier,Fix timeline playback on same targets,False
+0d94f1968e5c8017081a5fb905072b194c6addc0,2017-02-15 04:20:09,Julian Garnier,Remove SVG check for attribute animations,False
+04998d3a0610d2f462c3b87cf1d7c789067d85a0,2017-01-31 04:16:38,Tim Branyen,"Initial implementation for Promise resolution
+
+This commit adds a `finished` property to the anime instance object
+which will resolve whenever the animation has completed. As promises
+are an immutable resolution (meaning set-in-stone), we cannot simply
+re-resolve the Promise per tick as the `setCallbacks` function works.
+Therefore the `finished` property is reset after each successful
+completion which allows the end user to rebind if desired.
+
+The inspiration for this property comes from the Web Animations
+specification:
+https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished
+
+While the end-user could implement this resolution within their own
+application, I feel that developers will appreciate the added
+convenience in their code with this approach. For instance, Mocha the JS
+test runner, supports returning promises from within
+describe/before/after/it/etc blocks which results in significantly
+cleaner code.
+
+My use case for this change is within a library I maintain called
+diffHTML that accepts Promises to delay rendering until
+animations/transitions have completed.
+
+An example of the possible integration after this change:
+
+```
+// Assume diffHTML is already global...
+const { innerHTML, addTransitionState, html } = diff;
+
+// Animate elements once they are attached to the DOM.
+addTransitionState('attached', targets => anime({
+  targets,
+  translateX: 250
+}).finished);
+
+// Add elements into the DOM.
+innerHTML(document.body, html`
+  <center>Animate</center>
+  <center>This</center>
+  <center>In!</center>
+`);
+```
+
+Looking forward to feedback!",False
+435296ffa5fb5a475c9985229f1b79632cfdfe82,2017-01-30 18:53:13,Julian Garnier,Fix loop counts on reversed delay,False
+b76db00dfc98f5ee23e70856b58cdb68f15d42e2,2017-01-26 23:02:23,Julian Garnier,Add new SVG path example,False
+9836fcde15973116108d572b71b97fb392159362,2017-01-26 19:14:40,Julian Garnier,Better stress test example,False
+1901df265fd4b7305151bd4f6c2dfdce7d32e7eb,2017-01-26 14:40:56,Julian Garnier,Clean up code,False
+ef04facafbc018fecc5ab98fddc11109f29d5098,2017-01-26 14:33:58,Julian Garnier,Compile code,False
+012eb645c63ee47bd291334b97658bb51dabb54b,2017-01-26 14:33:26,Julian Garnier,Remove unused default params argument,False
+afa6f47b0217a4fec4176fb62f3ed35fa5b5e3b6,2017-01-26 03:17:43,Julian Garnier,Set default loop value to 1,False
+b1d609e34533da14de806cf2f37702a65f39eb12,2017-01-25 23:55:05,Julian Garnier,Fix complete callback being called directly in reverse,False
+932ede2653e5eefbd793db85cca638b87beb8c2c,2017-01-25 20:04:19,Julian Garnier,Cleanup code,False
+ce09b678492b5471fa01a2cade21547a55686ac8,2017-01-22 23:55:26,Julian Garnier,"Fix playback issues, add .reverse()",False
+66f821a5fd8a12b4b0613c0a42739e9a3a64a6c7,2017-01-18 00:54:57,Julian Garnier,Update documentation,False
+41fc2c2df117d6d1b82643429364ba53bc395448,2017-01-18 00:08:57,Julian Garnier,Add space to badge,False
+7e1ac3f22a67f9f7816482d74b7988317c89a840,2017-01-18 00:07:39,Julian Garnier,Update badge,False
+c9125b06468e3e982fdd9faf16699818362b9a0e,2017-01-18 00:07:05,Julian Garnier,Update badge,False
+62c95386e20c2f3600e4a2d83888e77dbba59131,2017-01-18 00:06:09,Julian Garnier,Update badge,False
+1c49cea4ee08bb89a4ca18bb20f56d6d49eea79d,2017-01-17 23:49:47,Julian Garnier,Update prop CSS gif,False
+43ab5f0487bd2ba11dfb3b4accf66e22235b82dd,2017-01-17 23:41:29,Julian Garnier,Update gifs,False
+f1c7a841dd8ce168d751c372a9861a577016f9d6,2017-01-17 22:52:55,Julian Garnier,"Merge pull request #103 from codeKonami/patch-1
+
+Fix small typo",True
+5dc3d5972ef98a4b6a35dfb1d98b5c1bf206a262,2017-01-17 22:51:24,Julian Garnier,Relative readme image paths,False
+4414b6810fab6f4159b58f2bbd6afc910daf26d5,2017-01-17 22:29:30,Julian Garnier,Update documentation,False
+fd08f27e2202516b68b5057476b8ce7da0a5ca07,2017-01-17 22:29:20,Julian Garnier,"Tweak callbacks, add run(), fix animation delay",False
+4bf49b6928c2d8720960971dbd8e874aa0e1d787,2017-01-17 20:21:24,Julian Garnier,Import documeantion from gh-pages,False
+186d570dbf8c58aae5bfc1bfec55f4d055c5d0f7,2017-01-17 18:49:27,Julian Garnier,Add reverse() method,False
+2c65c78c7569d0909253ea52d9ef2dee3dfbd234,2017-01-17 04:11:07,Julian Garnier,Update examples,False
+e21cc3b7e58c05ac385622685fc613f8b9acf51f,2017-01-17 03:58:45,Thomas Foricher,Fix small typo,False
+8fc3cf06132fecaddb33c29a96fed131ffc10f0f,2017-01-17 03:56:32,Julian Garnier,Better keyframe lookup,False
+2b57fc23b5ac4609c39b1460455509aa1e85b169,2017-01-17 00:24:07,Julian Garnier,Cleanup code,False
+8704aea964be3e974d5cb872005f5029105373ba,2017-01-16 22:32:18,Julian Garnier,Improved timeline system,False
+a53a144c8bd57a154a78bb9a45bb134b4d06532a,2017-01-16 21:02:25,Julian Garnier,Make sure completed !== false on seek,False
+c4bd995acc458b43fa2391bb842e903a4d4bef1a,2017-01-16 20:55:40,Julian Garnier,Make sure iteration count is reset after complete,False
+4eb75e3feb5092e845843b9a2bbdd37ddf5a9da7,2017-01-16 20:16:00,Julian Garnier,Playback speed improvement,False
+3a053aad3104d9f68ddf39046580069100a6f02c,2017-01-16 05:03:16,Julian Garnier,Update visualiser demo,False
+6481c68f92a142b9230045678345392373b5f400,2017-01-16 05:03:04,Julian Garnier,Fix timeline progress,False
+430bddaf95d26dc4cf7de8a481e9506cbd93ea1a,2017-01-16 04:08:59,Julian Garnier,Improve progression setters,False
+7eac69be067173c2928f3c536c3b5ae3a20897e9,2017-01-16 02:11:32,Julian Garnier,Improve ease visualizer timings,False
+a53ffae296af3d117fcd82e5d2c6061a936994c6,2017-01-16 02:08:07,Julian Garnier,Relative values refactor,False
+e2178c39deb4698f1657ee234853193839e14102,2017-01-16 02:07:10,Julian Garnier,Timeline research,False
+eb4c1c321ceb606867f92ffb9601dda2c6ccec42,2017-01-15 15:19:24,Julian Garnier,Clean up,False
+16445a7a9dee121a09c8bfe1abbd541ca67f2722,2017-01-15 04:30:50,Julian Garnier,Fix keyframe delay if = 0,False
+c9b92361cc296766f5c6bc523c842b28b0b04e19,2017-01-15 04:28:00,Julian Garnier,Update ease visualizer,False
+f2fbe20ae9abcc3da80bb08bac89adb04b352b56,2017-01-15 00:53:30,Julian Garnier,Update fireworks demo,False
+53db4f3777704d18363e16cbe00ce65e0b9c79a4,2017-01-14 23:58:42,Julian Garnier,Pause RAF,False
+c9b4a8ee2a1bbc255f81f927bf803ad1d40ea7c3,2017-01-14 23:43:07,Julian Garnier,Add canvas fireworks demo,False
+0774a8598cc903b4f12d2dcce5be1d9f764ad2b8,2017-01-14 23:18:16,Julian Garnier,Remove mix-blend-mode: lighten;,False
+09fe06f3e968a6897de0a0fa0d18d40f9a457645,2017-01-14 23:10:26,Julian Garnier,Improve ease visualizer,False
+ab392d9ed8095c1cbaa63cbbec0f05caac54e8d6,2017-01-14 00:19:54,Julian Garnier,Merge remote-tracking branch 'origin/v2.0' into v2.0,True
+4211920443532f99c4a52081d8c87b660aaf07d9,2017-01-14 00:19:39,Julian Garnier,Easing visualizer example,False
+4d5a795d310bdcd2a7efe202b00540c4ea744751,2017-01-14 00:18:54,Julian Garnier,Make sure the path value starts at 0,False
+60ee2a0d6278fe74aa9940af19d551b169d700bb,2017-01-12 23:47:49,Julian Garnier,Update README.md,False
+d3c5b34e2e5beb70bbc0daa13cc7233aaf06193d,2017-01-12 23:39:40,Julian Garnier,Compile code,False
+0d63a922f970f5dd65fedcaf4602e101557f057b,2017-01-12 23:38:44,Julian Garnier,Improve unit detection,False
+ab52ef76c251802670b42ca3e567c239abb6cfbf,2017-01-12 23:38:33,Julian Garnier,Clean up examples,False
+27fd6d9fbd6147310445782ad2d402e5fadf4a9b,2017-01-12 22:55:59,Julian Garnier,Remove old examples,False
+a4713b6799cb4786f157ca9c19c43cd119b0674f,2017-01-12 19:04:30,Julian Garnier,Update README.md,False
+ca6418df21488540bc193d9fb7d5abcc97a813e5,2017-01-12 19:03:57,Julian Garnier,Update README.md,False
+20845ee8561601df6d2bcef7c35b61d0f8665c0e,2017-01-12 19:03:25,Julian Garnier,Update README.md,False
+7352950193760c3af480c0fba404ef4dd7a163da,2017-01-12 04:51:36,Julian Garnier,Update README.md,False
+f0a73d8ed5972d85a509d6c183d4c1b9b115332d,2017-01-11 23:40:36,Julian Garnier,Make sure FB values timings return numbers,False
+e594b30d370a6ae6d8f78ab0c60f87108f9096c0,2017-01-11 23:24:07,Julian Garnier,Update README.md,False
+fd1953561355310c78ffbe794c8c1164700afe69,2017-01-11 23:22:04,Julian Garnier,Update README.md,False
+069a729d4fa8470373683561e72fb7ab17a2cc51,2017-01-11 23:20:20,Julian Garnier,Update README.md,False
+2cb030ef954a4324c4b0ffc5bce40e7efc50bf4a,2017-01-11 23:16:59,Julian Garnier,Update README.md,False
+50e2a51e5a5f8d99d32d89df6a4231873df33f86,2017-01-11 23:16:04,Julian Garnier,Update README.md,False
+de38bac43418b28c76a4a1063226fd61334ce5a2,2017-01-11 23:13:42,Julian Garnier,Update README.md,False
+f56f57e1eaee084d106972be3407b9fafd2c5d6d,2017-01-10 00:25:58,Julian Garnier,Update README.md,False
+cc1d803c2b32e90d774de3e995ce1f344b0c18d8,2017-01-09 22:25:53,Julian Garnier,Update README.md,False
+3e79cdd205e1eba7f3b3a76697c33c2ee257e319,2017-01-09 22:15:30,Julian Garnier,Update README.md,False
+cb21a5edcbc5b285de303ed2b07b60becc2bbb73,2017-01-09 21:49:49,Julian Garnier,Update README.md,False
+ca52d424fd611004330d2dc0d1e4351f682f2da9,2017-01-09 21:45:15,Julian Garnier,Update README.md,False
+cdbb07a95f24944b7c73025816364a0a26d78f61,2017-01-09 21:44:36,Julian Garnier,Update README.md,False
+459cf62d70afadf87e16d54a4bf1442665fb00ea,2017-01-09 21:40:50,Julian Garnier,Update README.md,False
+fc344b798cf1083d6641c3d17fe099ba5fe37a1f,2017-01-09 21:38:33,Julian Garnier,Update README.md,False
+57a860ac7b125cd60e383c218a6f2f2d5cec6514,2017-01-09 21:29:09,Julian Garnier,Update README.md,False
+d13498b776ea5180e3b85c05411aea1724e3c422,2017-01-09 17:01:28,Julian Garnier,Compile code,False
+5ec99add03833c5207359726382512ea846b2219,2017-01-09 16:56:57,Julian Garnier,Fix set transforms,False
+359b1e990abcee7fcbd8955fcee9fa50f7225840,2017-01-09 02:56:24,Julian Garnier,Add logo to readme,False
+0c8af23bdfcef09e1b94cd51e04bff8cc7a2ba16,2017-01-09 00:48:45,Julian Garnier,Update readme,False
+f5748a459a5fd17f69feeff0ad853551a8980d1f,2017-01-09 00:40:18,Julian Garnier,Safari < 8 compatibility,False
+80dbc6e8de1c0780831d4c7e917e08eb5ae107ab,2017-01-09 00:30:39,Julian Garnier,Compiled,False
+ced5052d777a0e23de355c1a3b9a554184b3dc86,2017-01-09 00:30:18,Julian Garnier,Active => running,False
+9f6876081863ca70f73a87a9c83310cc7e643f94,2017-01-08 19:44:28,Julian Garnier,"Fix keyframes duration, remove instances array",False
+ecf794273edd0ef674fb829a543acd1073765713,2017-01-07 18:56:12,Julian Garnier,Update animation,False
+6275a6f6a9979826f76b125fd4f4cfd2266af5d2,2017-01-06 21:06:00,Julian Garnier,Tweak anime logo animation,False
+5c9d84c50f2e23ec404e5d6693b06a0a21458dfd,2017-01-05 01:13:52,Julian Garnier,Compiling,False
+f2166da57b5d44c49015925837fe9f8d86833f82,2017-01-05 01:12:10,Julian Garnier,Iterations  = remaining,False
+37c3db0d4fdb19aad67d5844afcebaf0f1c7ac84,2017-01-05 00:38:29,Julian Garnier,Remove basic easing,False
+9d539f1f73669b16b77cb219afa5029873ddeac1,2017-01-04 23:19:10,Julian Garnier,Add pathDashoffset(),False
+e74b118a8043328159532d03861407d202b3a4bc,2017-01-04 22:16:13,Julian Garnier,Rename animationSettings to instanceSettings,False
+e9e1f8af1e6985c754179e87c73d0481bf1f0558,2017-01-04 22:05:34,Julian Garnier,Instance settings refactoring,False
+307673728e22407c96966c150269eb3f2903692a,2017-01-04 21:35:10,Julian Garnier,Rename loop by iterations,False
+99734c67e84702f3e184fca403c4a8c20195019e,2017-01-04 21:28:29,Julian Garnier,"Drop play() parameters argument, add .paused",False
+4f7879294752bd72a98885550ab41ec493a184b8,2017-01-04 03:15:01,Julian Garnier,Tweak elastic easing,False
+c012443eca54b114602dae270a4181888c6780d7,2017-01-03 17:29:14,Julian Garnier,Better point() optional argument syntax,False
+ee5cab3d6f4c385db519d58acf8f801375bad4a3,2017-01-03 17:21:14,Julian Garnier,Cleaner value calculation,False
+d70b8e117477e1072e9b68d161508219aabec410,2017-01-03 17:17:46,Julian Garnier,Timeline > group,False
+154512a9ddaad1bd6f649da05be4aec24a3e1809,2017-01-03 16:53:34,Julian Garnier,Compilling,False
+4826665cfad79ad9c4a67a80bed06dd5718426c4,2017-01-03 15:59:40,Julian Garnier,Clean operator function,False
+d0fdeac6b3199dfecf44d4921ae66d2c873f3904,2017-01-03 15:53:45,Julian Garnier,Compiling,False
+4d05184cacc2897afc0e394be05a7965bde918fd,2017-01-03 15:48:05,Julian Garnier,Rename operations => relative,False
+9fca4b2f3e9483c0ac4c0d4766e3616e46ac3a80,2017-01-03 15:44:22,Julian Garnier,Add values operator,False
+5425a0011fd3b986404d9728f4568e44f6cac91a,2017-01-03 04:17:07,Julian Garnier,Cleanup animation,False
+e8166288fa9c69cf61ddf3b322389509445ca279,2017-01-02 23:43:04,Julian Garnier,Anime js logo animation V2,False
+a4e1a6567c5b064196c10f6d7563f865a1b34a75,2017-01-02 17:32:04,Julian Garnier,Add examples folder / stress test,False
+79f4f3e8ba40eaa563ea156518ef02fcf6da3000,2017-01-02 16:00:24,Julian Garnier,Update min file,False
+1dd039c9a42710d76bffabf1e9a3405ae4124c54,2017-01-02 14:46:36,Julian Garnier,New logo,False
+8f5b37e876fd784ee2f033819184a35a88bfb007,2017-01-02 01:27:26,Julian Garnier,Remove unused autoplay,False
+bb6f72f84d371c908c7d090a4dea5618fde4446d,2017-01-02 01:08:50,Julian Garnier,Merge settings object,False
+371d8057aaa72ba0a4355cc07fe85201dee33cd8,2017-01-01 17:49:54,Julian Garnier,Add motion path example,False
+dcf3f7ffa73f568fa1b988f110c361be6bdc56cb,2017-01-01 16:56:28,Julian Garnier,Add timeline examples,False
+0e773ac3dae8028e74c23e985141707438224267,2017-01-01 15:55:19,Julian Garnier,Improved callbacks documentation,False
+7c506c505604e66a33d8f09df042dabd7791e012,2017-01-01 15:54:30,Julian Garnier,Ended > completed,False
+9a5825034638ca73c702dfe29a514a4f02904e5a,2017-01-01 06:55:04,Julian Garnier,Better menu animation,False
+df9acf6db52f5cbe752e0501d92687f77c28250a,2017-01-01 06:45:27,Julian Garnier,Tweak documentation,False
+4829f27a5f43c2e1814b4d99fd2ecc8cf9aa3108,2017-01-01 06:32:19,Julian Garnier,2016 > 2017,False
+cf8a51d9297cc0dcc8e3a8827cd7cbdf4f57be1c,2017-01-01 06:30:41,Julian Garnier,Fix indentation,False
+055502d1176092194c7304230f3ada5753a5202c,2017-01-01 06:29:16,Julian Garnier,Update doc navigation,False
+01454e6925c63ecc39fc18cb948c277ea9e4ce31,2017-01-01 05:50:00,Julian Garnier,Cleaner Colors example,False
+be0932904f655ac57a04f9eca7e43bc5bbf971fe,2017-01-01 05:45:54,Julian Garnier,Better alternate loop,False
+cea2bf415dc878c4fc09bec1320c174367c88ee4,2017-01-01 05:28:29,Julian Garnier,Add color example,False
+2bb374d76949f96c51450f15e528d5bb9e97b3cf,2017-01-01 05:03:05,Julian Garnier,Tweak some documentation,False
+7fa5e8ea6328f8829acfffa8584db067b6cee810,2017-01-01 03:56:48,Julian Garnier,Make sure the loop is reinitialised,False
+88cb11487754ca68fee1e1e7031f53d4e1ce3fd1,2017-01-01 03:31:14,Julian Garnier,Update logo,False
+5e205d0676058b46cd0999acdcf4209f3f523d64,2017-01-01 02:33:55,Julian Garnier,Fix some styling issues,False
+3f6a49900fd97248fda76300aa267d1f4c3f1ec9,2017-01-01 02:20:58,Julian Garnier,Cleanup HTML output,False
+ff846fd13d175f5cd4514ff05c9fec88b2fac1cd,2017-01-01 00:28:35,Julian Garnier,Inverse documentation layout,False
+8ec169e72081d276a5e9f5fdcdb2a29e9deba98f,2016-12-31 22:33:22,Julian Garnier,Add controls documentation,False
+ab87a019008362ca8ee374c1b2c0500a754cad2a,2016-12-31 22:33:14,Julian Garnier,Fix Instance Began,False
+6fb57667761e5fd5350ead63e6dd369f2b1ab82c,2016-12-31 21:41:47,Julian Garnier,Add function based values example,False
+eb8b669e5e23977cbafddb31b65e727e388539d1,2016-12-31 21:02:40,Julian Garnier,Add keyframes documentation,False
+14d7cb90aa32113a4a2c2585f9f2d641ac3df7dc,2016-12-31 20:43:42,Julian Garnier,Add easing examples,False
+a40b6a51a52750dbd051737ed4d838159ab04e7d,2016-12-31 18:24:40,Julian Garnier,Fix documentation scrolling,False
+6b1a184270f93a412f209771a8cbb4d83feef864,2016-12-30 23:57:33,Julian Garnier,Add demos navigation links,False
+c79ed0b96c776155ce954d413aee06c9777afc38,2016-12-30 22:50:35,Julian Garnier,New documentation template,False
+787a8a5d0e202717ddf00f0b5ef70f33e65516a4,2016-12-30 20:50:42,Julian Garnier,Quick fix to remove avoid using 'auto' as a value,False
+2f55d1b9b4575d50a09514048c98faf18e3024ba,2016-12-30 20:39:54,Julian Garnier,"Add running instance array, fix colour transitions",False
+774ecb966b321f24883f8c61ba3d703b15eccab3,2016-12-29 23:37:43,Julian Garnier,"Add support for ""turn"" and ""rad"" units",False
+8cf3634d25e2b557be72db5010ae7060d5d5c449,2016-12-29 15:44:11,Julian Garnier,Tweak docs,False
+e31aea90c64b72aceede1a514131cc82db8a95cb,2016-12-29 06:20:21,Julian Garnier,Add keyframes documentation,False
+e380dc57c7c5a1898e56e2b87c354009f6cb48fe,2016-12-29 06:20:09,Julian Garnier,Fix tween default duration divider,False
+e90a06902c70cdcb381314d2eacbd50a834fec29,2016-12-29 04:58:23,Julian Garnier,Documentation directory,False
+f11f65ac095d1b654aea60eeb6a942eb83a92ba2,2016-12-29 03:48:53,Julian Garnier,Fix round parameter,False
+0182ecd517c968c04c5e491a0f255ac76368eb6b,2016-12-29 03:48:10,Julian Garnier,Add valid targets value examples,False
+d0e294672bd841bdf2a4eb0febeff7496b3a89db,2016-12-29 02:25:52,Julian Garnier,Tweak loops and directions settings,False
+e62af3e911b9d506e516844cd485d39c9fa48072,2016-12-29 01:53:19,Julian Garnier,Use time instead of percent on seek(),False
+5c4c0caccfb6ecfef5e8a530f54761a39242ad0b,2016-12-29 01:46:30,Julian Garnier,Add basic animation examples,False
+89250d375c5ab3fa6eddf669cf30db1c9b3dba61,2016-12-28 21:09:51,Julian Garnier,Add basic timeline system,False
+19d6f1f7d0f1fa3300e4a582d93b86ba3ddf396a,2016-12-28 20:59:08,Julian Garnier,Update build console log messages,False
+af88408059a44cf077653b7fa5c4a0bb4b2fe002,2016-12-28 18:31:22,Julian Garnier,Fix typo,False
+481cd5b273b7c8a13fa402e115c1686770bf3f09,2016-12-28 18:02:58,Julian Garnier,Fix anime.min.js examples path,False
+47fb4a590d553653fc2a07c9614079f84413a6c9,2016-12-28 18:01:20,Julian Garnier,Fix build script,False
+eb570db8e3da6c1d9a32050d80e97001621a3336,2016-12-28 17:57:58,Julian Garnier,replace parseInt with parseFloat,False
+c4e62db21320859f1d55e83bbfbc5181c7ad22b7,2016-12-28 17:57:35,Julian Garnier,Add build script,False
+feeea15f7ec86f9d38fcff5cb21a4a471baae0b0,2016-12-27 20:11:36,Julian Garnier,2.0,False
+88bef0006a472d336497b11db993d7eda15c8ea1,2016-12-27 19:57:07,Julian Garnier,Remove .log from gitignore,False
+b7acb382e7cf3e3d54f704a5bd7a2911677762d3,2016-12-27 19:56:56,Julian Garnier,Update package version,False
+25ac8a7b13409c87c786736389215855a2fee31b,2016-12-27 19:48:52,Julian Garnier,Merge branch 'v1.1.3',True
+b76605c344122e8f734251a59ec460d78dca68e3,2016-12-24 23:33:32,Julian Garnier,Fix #100,False
+fc5b81eb756d3a2db006fbcfa45eca7f70682272,2016-12-13 21:05:41,Julian Garnier,Fix #98,False
+1226b1289f975b5171acb66f370982b5625e6fd7,2016-10-26 20:51:34,Julian Garnier,Merge branch 'v1.1.2',True
+9d104622e33b502161c8207c1e8b0e9444f8ae38,2016-10-26 20:50:16,Julian Garnier,update anime.min,False
+070eedc0146e3974ed86932b0688bc370ef3cbaa,2016-10-26 20:44:17,Julian Garnier,better color example,False
+6015c1c1f98f358269a4f6bb0aa3da55971ac4d5,2016-10-26 20:09:54,Julian Garnier,fix #79,False
+87f4e72267e4e2f3d3d44c5b0d2a6f93d31273d7,2016-10-05 23:18:44,Julian Garnier,"Merge pull request #84 from alexchantastic/patch-1
+
+Fixed specific target values CodePen example link",True
+078d9a1e63885edac442ef01e14f0be118132e1d,2016-10-04 22:58:21,Alex Chan,Fixed specific target values CodePen example link,False
+bb31d67103a9688c94c5787275514c23d31f4b07,2016-09-05 20:16:05,Julian Garnier,"Merge pull request #69 from juliangarnier/v1.1.1
+
+V1.1.1",True
+a5cf461f3cd5e5247d5c9a818171d629c4438258,2016-09-05 20:14:02,Julian Garnier,add minified file,False
+698f5f66f4245ffe63c96994d5b8e3f4650985e0,2016-09-05 20:13:12,Julian Garnier,add easeOutIn easing functions,False
+c022c7b29ac21b65a04943d6d787a7b18f2f5810,2016-09-05 20:10:14,Julian Garnier,"Merge pull request #68 from juliangarnier/v1.1.1
+
+V1.1.1",True
+ea32cbca49b5256202736569b9ecd35192c08242,2016-09-05 20:09:46,Julian Garnier,add basic easing functions examples,False
+5e1abee2ff87ed007e39da90900a884c4d897430,2016-09-05 19:37:46,Julian Garnier,"Merge pull request #67 from juliangarnier/v1.1.1
+
+V1.1.1",True
+4023785cfe425fe09990ae213b2565e89d6093ad,2016-09-05 19:29:54,Julian Garnier,add minified 1.1.1 file,False
+aeef89cf01e9646f3766e6ba71c59c945f973352,2016-09-05 19:29:41,Julian Garnier,add JS Object example in documentation,False
+4308c2324236fac168e1b7fb23dcd20ff44b033f,2016-09-05 19:05:42,Julian Garnier,add color animation examples,False
+e5c542569d2ea2f852d5e1f1a207e105292b981c,2016-09-05 18:52:20,Julian Garnier,tweak SVG path example,False
+51ee842d706ca08ea86b71a8149b8ccd05aff802,2016-09-05 18:46:58,Julian Garnier,simpler is() function,False
+71ecf7cc0019bf7703eb6590b4bbcd84974896d0,2016-09-03 20:09:31,Julian Garnier,fix wrong animation on Chrome 53,False
+0f4786fd5b5547a25f01946551c68a4976be888e,2016-07-12 03:12:17,Julian Garnier,"Merge pull request #33 from TwinProduction/patch-1
+
+Fixed indentation",True
+ea3efd43c9f7f0f0ee727c13a9c7f4759258c597,2016-07-08 05:50:20,TwinProduction,Fixed indentation,False
+a8ded8a1db99b970546cc10bc768299d4d30631b,2016-07-05 04:17:48,Julian Garnier,fix typo,False
+036f9259f81356290d73ff2a59b8167796ea030b,2016-07-05 03:04:24,Julian Garnier,update packages description,False
+0f73fdb559c082b8ed8e23120c6aec272179e720,2016-07-05 02:55:13,Julian Garnier,"v1.1
+
+force badge refresh 😗",False
+32b7e4a0e077681870f8d0d49e271732c16bfcf7,2016-07-05 02:21:34,Julian Garnier,update min file,False
+4b4275daf8c608baf50a29be6ae8f7bf7f442e6c,2016-07-05 02:18:04,Julian Garnier,fix remove example,False
+240c205ddb0e934359007b1e352bc34705445626,2016-07-05 02:15:20,Julian Garnier,make sure the animation is removed from engine before playing,False
+80f91c09d72e5331b30f9a2b3d3204b0c671856c,2016-07-05 02:07:17,Julian Garnier,Merge branch 'v1.1',True
+dd162bbc2d8de3fc6980d7e3baa7b25598fc028f,2016-07-05 01:52:11,Julian Garnier,add .gitignore,False
+a310e6d0957adeb145f908998bd7fba01353a6a6,2016-07-05 01:35:58,Julian Garnier,better transforms process,False
+512b3378d03d8711dd0c5fb9a5f49d3a9c83f55b,2016-07-04 23:39:05,Julian Garnier,add 3D transform example,False
+4de346acdf4ac2ee10617c79dfa7dcaafde959ec,2016-07-04 23:19:28,Julian Garnier,fix logo-animation examples,False
+c276c4f6b7709e225714023d51cb5bd92514cb04,2016-07-04 23:12:50,Julian Garnier,fix motion path example,False
+27196d6ca8f150bd4580e79a3034e9bcc166c69d,2016-07-04 23:01:13,Julian Garnier,cleanup,False
+3d0b7415b80fb4ba8a00e9cec122157ca4eb5ada,2016-07-04 22:15:31,Julian Garnier,cleanup time logic,False
+7c86bc0d12f953cb608eb8a6aa52b28133fbd9ce,2016-07-04 18:12:04,Julian Garnier,Merge branch 'master' into v1.1,True
+ef6fd0644149da51736984eb6c266ce152971ef6,2016-07-04 18:11:38,Julian Garnier,update min,False
+17bed889e9b8d83333b1290806fd2b8ddb4a03db,2016-07-04 18:05:11,Julian Garnier,better transform prefix handler,False
+454355b01548c10bb335663c4d22e04625158a9f,2016-07-04 17:55:30,Julian Garnier,progress value fix,False
+8167cb092ba009cdee02788eb279af2579d9c298,2016-07-04 17:05:45,Julian Garnier,remove performance.now,False
+765c0b3ab1789a37caab70dfb356e29d025ee905,2016-07-04 04:08:29,Julian Garnier,cleanup,False
+fe9c741b165e1cc68b8a928a282f86949f505487,2016-07-04 00:08:48,Julian Garnier,remove engine controls,False
+ef43bf0285ac8ae10c55fa7b348aeaeacc18d561,2016-07-02 23:24:38,Julian Garnier,anime.remove cleanup,False
+585d0fe930624315a5e23384f1bbff451b6fb12f,2016-07-02 23:13:14,Julian Garnier,add prefixed transforms for safari,False
+7909dc44e1f476f20f18eb07ff516d9cc8218e81,2016-07-02 22:01:24,Julian Garnier,add performance.now polyfill,False
+2beaeb3fcebc320f42ead3f088c664ba8aa1de61,2016-07-02 21:40:32,Julian Garnier,add callback examples,False
+625deb4b87b0e5063ec7e11ddc85b122ecb7b32d,2016-07-02 21:40:20,Julian Garnier,fix complete callback,False
+0dfadb0bcb7c84e93a7bf7850c59a37f6db792c6,2016-07-02 21:16:54,Julian Garnier,gifs paths,False
+d9224232d6e3590d8365adf604e2c4c40da0ed88,2016-07-02 21:07:19,Julian Garnier,add doc gifs,False
+2aa7d52fb5d9ac83ec9f1fcd22929768b664e2bc,2016-07-02 02:59:29,Julian Garnier,Merge remote-tracking branch 'origin/master',True
+131a486f535b0afdf4f851fb94cf3e31e1efe045,2016-07-02 02:59:16,Julian Garnier,fix typo,False
+a0b4f451f054a185715a817b7512b61d7d8ca999,2016-07-02 02:22:13,Julian Garnier,"Merge pull request #26 from Maximilianos/patch-1
+
+Add note to README about being able to use as module",True
+81d627a69eb1b992796b502de42fc811cc849db1,2016-07-02 02:19:45,Julian Garnier,add some examples for easy testing,False
+4464be5d364139f5562a7d0baae9169a3b4d1491,2016-07-01 20:51:36,Max G J Panas,Add note to README about being able to use as module,False
+6bc33066a47ceae516e95d6b1839bd6b227fc685,2016-06-30 22:38:50,Julian Garnier,"remove deprecated ""version"" from bower.json",False
+aa2e468a6c5b67f14ae69bd1ad6d1aa5d27a20b8,2016-06-30 22:35:07,Julian Garnier,Merge remote-tracking branch 'origin/v1.1' into v1.1,True
+fd8ec1a1e0bfa15557e048521ffbdcef11613857,2016-06-30 22:34:51,Julian Garnier,update version number / npm,False
+9996db3fad00ea2ad334dc5ef30b248c870d53a1,2016-06-30 22:19:57,Julian Garnier,"Merge pull request #21 from juliangarnier/single-RAF
+
+Single RAF",True
+1a75c0132c49c33b94bf386d32cbbb8128a226e4,2016-06-30 21:00:23,Julian Garnier,Merge branch 'master' into single-RAF,True
+9241f4e23e4ebe7fdc47475335a453ed88893b08,2016-06-30 20:40:18,Julian Garnier,add recommend values forms in the docs #18,False
+c27175aebece16c9b2624adb17ea6c5658471824,2016-06-30 19:44:38,Julian Garnier,use RAF timestamp & performance.now(),False
+266a50d63d739cc3b4af0cd2df17c5d908568dbb,2016-06-30 18:17:12,Julian Garnier,fix playback after pause,False
+a5847bebf9188ab221f947a4f0d89534eee4afca,2016-06-30 17:57:08,Julian Garnier,loop = engine,False
+3b8160a20af071957cb14e18ec2882e25b7e41ff,2016-06-30 16:13:17,Julian Garnier,"Revert ""backward loops test""
+
+This reverts commit c007d50d2efea03e96048bc9d0130ab96c8380ba.",False
+c007d50d2efea03e96048bc9d0130ab96c8380ba,2016-06-30 16:03:26,Julian Garnier,backward loops test,False
+7718ed5d8809d11c69d10a455f49bc6af576a39a,2016-06-30 15:39:14,Julian Garnier,add single RAF,False
+1c0942cb42c229025290b35a6b8ba53b6c172abd,2016-06-29 00:31:09,Julian Garnier,fix #11,False
+a665d81af86298a65624d9ef3ab1bcacc2575f14,2016-06-28 21:25:02,Julian Garnier,"Merge pull request #9 from FND/camelcase
+
+fix spelling of JavaScript",True
+189de9a1c78b3af8d01a07a8765ead34565f423d,2016-06-28 21:13:57,Julian Garnier,update IE bug link,False
+cf5ba98c92f3a25e221dd7b072cfe8a6ad731fe3,2016-06-28 21:12:33,Julian Garnier,update doc IE and motion path,False
+0eb3cbc79e816cee649d8671f756740010536d49,2016-06-28 12:03:03,FND,fix spelling of JavaScript,False
+ca7ee63466725fd1645b89897ce8debb24cd47b7,2016-06-28 04:27:06,Julian Garnier,clarify motion path documentation,False
+5c41fd40b475b20dd6fa2c30e3541c1bc8eb2eb5,2016-06-28 04:06:53,Julian Garnier,add bower instructions,False
+a58ff089d1c7b6a9e205928db127ad8a12556688,2016-06-28 03:59:22,Julian Garnier,"Merge pull request #7 from datnordstrom/patch-1
+
+Create bower.json",True
+46451653362c5aa5f52e26c1db5834bceeb3db21,2016-06-28 03:39:18,Julian Garnier,add thanks section,False
+eaab9f17f678bbedde6c0016e286616777ed71eb,2016-06-28 01:41:43,Dat,non minified js as main,False
+b0cd534f762e21a270108c8fbf3b5947d439ef8d,2016-06-28 01:40:49,Julian Garnier,"replace ""polyvalent"" by ""flexible""",False
+94d224b00b29e1088620d1b86a3abdb623d12901,2016-06-28 01:34:02,Dat,Create bower.json,False
+a263633a816a38cad83dad07ecdec83e82bcae16,2016-06-28 01:22:01,Julian Garnier,"Merge pull request #6 from Maximilianos/patch-1
+
+Export anime as UMD module",True
+181635ad347829d0c7c5edfa8c4ea1e755fdd2fb,2016-06-28 01:20:09,Julian Garnier,"Merge pull request #5 from ngryman/master
+
+Add size badge",True
+1b9a57145dfcccdfdd707979307cb94e57c2dbbe,2016-06-28 01:18:41,Julian Garnier,"Merge pull request #3 from Gabrielmtn/readme-edits
+
+readme edits for typos",True
+722294999ae086bd16a70742f6cf75a34236058e,2016-06-28 01:17:46,Julian Garnier,"Merge pull request #2 from ASRagabHBC/patch-1
+
+code example fix",True
+07b677c0e60ecaf245fbb70478eb5be5b707905b,2016-06-28 01:16:42,Julian Garnier,"Merge pull request #1 from srikarg/patch-1
+
+Fixed some typos",True
+85de7aa297742e9a8ad7056296ec899ab816abf7,2016-06-28 01:04:42,Nicolas Gryman,add size badge,False
+e45367a90baecc4dda2aa99d304be7b4d74e164f,2016-06-28 01:01:17,Max G J Panas,update minified js with UMD module code,False
+4f0495697379331e8016cd4344f8c3e4e40f6d16,2016-06-28 01:00:18,Max G J Panas,add missing parenthesis,False
+b6b54342fbec06e54e10005ac17cd324f13bd9e9,2016-06-28 00:56:09,Max G J Panas,make anime export as a UMD module,False
+6e2782787537df41131758c94f5a1bbba47cbc27,2016-06-27 22:18:29,Gabriel,readme edits for typos,False
+681925379bed9861c0a75ef1e2e56fff107923c8,2016-06-27 21:35:44,ASRagabHBC,"code example fix
+
+variable name is myPath.",False
+afa3c6adb655714b42c5fbb22a9760033856908c,2016-06-27 20:43:23,Srikar Gudipati,"Fixed some typos
+
+Just a quick PR to remove typos and unnecessary spaces. Thanks for the awesome library!",False
+f765c6df3634cc1a647e8daa60f08223cf7c6a3f,2016-06-27 19:20:04,Julian Garnier,fix typos,False
+c5374ffe202c8f3046b7282667ab8cb1bfef622c,2016-06-27 18:51:25,Julian Garnier,add quick start to readme,False
+26179789add7ff7bd4afc559ea5330b224ec4549,2016-06-27 18:39:27,Julian Garnier,add package.json,False
+e27c0a6d1d56291d457f71bd112575dbb7600d74,2016-06-27 18:27:55,Julian Garnier,public release,False

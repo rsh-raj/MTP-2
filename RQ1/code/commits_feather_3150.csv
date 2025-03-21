@@ -1,0 +1,1129 @@
+Hash,Date,Author,Message,IsMerge
+3dc050d97405062eba78aa57115c0a15c63abdaa,2025-03-11 07:48:59,Cole Bemis,"Merge pull request #1267 from kurtmckee/fix-readme
+
+Fix broken Note, Important, and Warning callout syntax",True
+72bb300f4a1e63354b5b5153b33011eaa54b6782,2025-03-06 18:58:44,Kurt McKee,"Fix broken Note, Important, and Warning callout syntax
+
+Spotted while reviewing the README.",False
+ed76079f606c4b78a45ce8667a5eb1f163e89235,2024-10-16 10:11:08,Sean van Zuidam,ADD: Hyva Feather icons as Related Projects (#1132),False
+1b002399e8758fb2bccea4d07312dc9e0f43dcb8,2024-05-01 11:02:07,github-actions[bot],"Version Packages (#1242)
+
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",False
+6e449d481e7ec7568103289eb4494999843b68ce,2024-05-01 10:31:35,Braden Godley,"Warn about incorrect icon name and handle gracefully (#1241)
+
+* warn about incorrect icon name and handle gracefully
+
+* add changeset",False
+7830e756b2e896a7eec548056c4c5d74ed46b7dd,2024-04-24 05:17:27,Alex Zappa,add new related project to README.md #1150 (#1239),False
+81040345578c0b81bbe524c63484c0330278d7dc,2023-12-28 04:33:46,Shaun Roselt,Added the related project for Delphi Feather Icons (#1221),False
+593b3bf516087d07d362280b34ec1a5383e71572,2023-08-20 09:51:14,Cole Bemis,"Update SVG optimization workflow (#1215)
+
+* Update optimize svg script
+
+* Update tests
+
+* Update error message
+
+* Remove extra newline
+
+* Update test scripts
+
+* Optimize svgs",False
+4dd806252ffd9eb35e181f027da220934ab86045,2023-08-20 08:29:31,Cole Bemis,Add local development instructions,False
+ff2923ecea24c57ff39447cd91ee7561b92d765f,2023-08-20 08:20:42,github-actions[bot],"Version Packages (#1214)
+
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",False
+8f0cc0e6667e88b7de391ccaf75820a6e57f4f13,2023-08-20 08:18:01,Cole Bemis,"Replace semantic-release with changesets (#1213)
+
+* Remove conventional commit system
+
+* Set up changesets
+
+* Create strange-dolls-grin.md",False
+7cfd42c563e18930ce9dc04875a01f9f940ada83,2023-08-20 07:56:10,Cole Bemis,"Update eslint and prettier (#1212)
+
+* chore: Update eslint and prettier config
+
+* chore: Run prettier",False
+9b401f0b92860e7296f09b9bcfba1926d7c0e01d,2023-08-20 07:26:51,Cole Bemis,"Update package-lock.json to v2 (#1211)
+
+* chore: Update package-lock.json to v2
+
+* chore: Update github actions workflow
+
+* chore: Uninstall npm-run-all
+
+* chore: Update ci workflow
+
+* chore: Update setup script
+
+* chore: Rename ci build",False
+4174a22a7b1b6ca9b6985b6815f58120491f3b3a,2023-08-20 06:32:04,Cole Bemis,Remove algolia script,False
+e371aaaa1ebd3eec4f583a80d084369225acc575,2023-08-20 06:29:39,Cole Bemis,Delete .travis.yml,False
+a799adb98ed02e314aa0f600952078f165cad16b,2023-08-20 06:15:25,Cole Bemis,Update CONTRIBUTING.md,False
+a299aad93bffe2b85ad49d49aa04aff735d52a65,2023-08-20 05:59:37,Cole Bemis,Update LICENSE,False
+66c0e19be60e1290d4e58e2b02c706e79be6d076,2023-08-20 05:57:09,Cole Bemis,Create CODEOWNERS,False
+fc6713fbeaa8d77b7d69b909bb3ced4f1dff2b31,2023-08-20 05:56:13,Cole Bemis,Update README.md,False
+3155a814895000041cc08d17e6e2c8fa9bae5d65,2023-08-20 05:54:44,Cole Bemis,Update README.md,False
+2f853910aa796696af93410c7a47a4f9964bced1,2023-08-20 05:50:00,Cole Bemis,Update README.md,False
+cc41ec4ed9a10a90d504c4637df1cac3f45e6c45,2023-08-20 05:49:21,Cole Bemis,Update README.md,False
+61d9adaf13b03f2df4d6f95e777bcb6344c78030,2023-08-20 05:45:31,Cole Bemis,Rename bug_report.yml to 02-bug-report.yml,False
+15ec862e816119f51f55b2f56bdb7d7b1c8ce1cd,2023-08-20 05:45:17,Cole Bemis,Rename 01-icon_request.yml to 01-icon-request.yml,False
+1fefaa74680a238c613ab5a70e708e640efe0f35,2023-08-20 05:44:46,Cole Bemis,Rename icon_request.yml to 01-icon_request.yml,False
+3d5ddc60aa2ad927e78075f99da319d05804713a,2023-08-20 05:42:18,Cole Bemis,Update and rename bug_report.md to bug_report.yml,False
+b216fc3ce7e4f02ba56efa79b0b198ae6dc0c0db,2023-08-20 05:24:07,Cole Bemis,Update icon_request.yml,False
+af130b0055ba529f41b23163a87586a6b185bfac,2023-08-20 05:17:51,Cole Bemis,Update icon_request.yml,False
+0f954a20450f6b274485a9db04242e802fcb6e92,2023-08-20 05:04:12,Cole Bemis,Update and rename icon_request.md to icon_request.yml,False
+9cd166e09980108dbbbb158b412d7f0f598140b6,2023-08-20 04:57:44,Cole Bemis,Update icon_request.md,False
+d476143ea0bfe8eac1de1579dcb33680c75bb71b,2023-08-20 04:54:13,Cole Bemis,Update icon_request.md,False
+40460c3b2f84c82bafd73ce2e7964823b18f6c0d,2023-08-20 04:52:21,Cole Bemis,Update README.md,False
+359a87a4a273dc88a13b1d33b980ce756a29b139,2023-08-20 04:34:47,Cole Bemis,Update icon_request.md,False
+131af8f5c2c6dce01b772bf70d026d61005112d6,2023-08-20 04:34:18,Cole Bemis,Update icon_request.md,False
+57da97a669c06b0c06ac42104648cb40e73acb90,2023-08-20 04:32:46,Cole Bemis,Update bug_report.md,False
+ea1beebb4870f6a723328f5061401c612cbe4d07,2023-08-20 04:31:55,Cole Bemis,Update icon_request.md,False
+233eaba0da09a58bb600917407647cd6d395f7cb,2023-08-20 04:04:42,Josh Soref,"Spelling (#1090)
+
+* spelling: attributes
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: buoy
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+* spelling: feathericons
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+
+---------
+
+Signed-off-by: Josh Soref <jsoref@users.noreply.github.com>
+Co-authored-by: Josh Soref <jsoref@users.noreply.github.com>",False
+053ed1e3a9ebafb4923e5ec389e9be4240b7ef50,2023-08-20 04:03:10,cha147,"fix typo in readme (#1159)
+
+Co-authored-by: Cole Bemis <colebemis@github.com>",False
+77aa0d1cbb88add747ce898c1682af910a6c179b,2023-08-20 04:01:23,Cole Bemis,Update CONTRIBUTING.md,False
+db2364f996e407cb933a37b6cafc96659debf771,2023-03-22 01:41:27,kevintoepfer,"Related Projects: Add figma-feather (#1160)
+
+Co-authored-by: Cole Bemis <colebemis@github.com>",False
+3a0739045042ee93c69f486acfc64904a4411c41,2023-03-22 01:39:53,Eduardo García Maleta,"Related Projects: add qwik-feather-icons (#1171)
+
+Co-authored-by: Eduardo García Maleta <57372721+yeyon@users.noreply.github.com>
+Co-authored-by: Cole Bemis <colebemis@github.com>",False
+7395097bac761d29bb368e0f49bfc8e8afae190d,2023-03-22 01:37:52,"Gang ""Gabriel"" Yang","Add related project (#1195)
+
+Add [astro-feather](https://github.com/gabrlyg/astro-feather) to the list of related projects.",False
+c381800c96dd6e4e70db21f4f1319ebfa36ea15a,2023-03-22 01:37:06,Zaydek MG,"Add Feather viewer (#1196)
+
+🙂",False
+f81cd40fdcdd5e94f3f97eb670a5058e3aac528d,2022-03-30 05:07:37,Cole Bemis,feat: Add `table` icon (#1138),False
+a7e39d665f2ac4f62f5392c75e76b9249563e8a4,2022-03-30 05:00:25,Cole Bemis,Update GITHUB_TOKEN permissions,False
+7da295065337e6f27f249b4e0f8a6d3eef915286,2022-03-30 04:53:24,Cole Bemis,Remove GITHUB_TOKEN env variable,False
+d657e8aa5601558d5d74e0406361c84c2bb8760a,2022-03-30 04:45:31,Cole Bemis,Add env variables,False
+508003d9d37508b87dbbc03dcba47d048fdaa57e,2022-03-30 04:37:02,Cole Bemis,chore: Add ci.yml workflow,False
+734f3f51144e383cfdc6d0916831be8d1ad2a749,2021-09-22 11:28:00,Ryan DiMascio,"Fix return tag on processSvg (#946)
+
+The `@returns` line for the `processSvg` function was using `@param`",False
+a08d064842fe6330c37e4027b74fc974c69b07fd,2021-09-22 11:27:09,tu4mo,Add tags (#985),False
+14ee3558529acd072d61b085cdcc9c3d1a7367b5,2021-09-22 11:25:53,Tommy Chiang,add gulp-feather (#1010),False
+4d61ba72bf59ea87bb32a530b7e614cab2bd2b38,2021-09-22 11:23:39,Mickaël Fernandez,"Replace ""xlink:href"" with ""href"" (#1070)",False
+a718a7e9c39447202f703783336e8ba1c8e32405,2020-12-24 21:35:28,Alex Zappa,"update README, add new Related Project to list (#1021)",False
+8263ca93c4b338dcfafed62321c27a88368ba7cc,2020-06-09 04:42:20,Chris Messina,"docs: Minor content edits (#924)
+
+Removed missing link to roadmap and updated Egghead link.",False
+b15b4a7535d83172d7dee408b4cf099b0550bdcb,2020-04-04 22:47:32,Jonas Drotleff,"docs: Add django-feather (#726)
+
+Co-authored-by: Cole Bemis <colebemis@github.com>",False
+9e0dcca265fa003c0c2bfd2e88776516adc88beb,2020-04-04 22:35:53,Christopher Sandvik,"feat: Add `divide` icons (#568)
+
+Added 3 division icons (also knows as an obelus).  One by itself, one with a circle around it, and one with a square around it.  These are meant to compliment plus, minus, and x icons.",False
+23603b821715d5d3c1df96c08f3feb0508c2ec4f,2020-04-04 22:26:59,Alexander Antonov,feat: Add `dribbble` icon,False
+dca4f121b86577616e90d46ffcd9771942311f71,2020-02-07 22:20:59,drinking-code,"feat: Update tags.json
+
+Thank you, @drinking-code! 🙌",False
+91118a67b6e99f5484c7e462c14b233e83cbaf22,2019-12-11 01:27:57,Max Reynolds,feat: Update tags.json (#797),False
+3e9da32dca90d4e6a7b082d81d386906bc52e7d3,2019-11-16 09:04:45,Cole Bemis,docs: Remove stdlib logo,False
+080262a2bf6f140069ce1494d34c97629c4bd6da,2019-11-08 16:26:50,Cole Bemis,Update description,False
+466b3f0494a39c286efd3271f7171be442a127f6,2019-11-08 15:52:14,Cole Bemis,"Remove roadmap
+
+The roadmap was out of date. Let's track future work using GitHub issues instead.",False
+c05985d34868a07503b8d97eb8b7d69084626171,2019-10-30 20:06:07,Antony Jones,Add Svelte library to list of related projects (#772),False
+ffce177ff42e3ab35731f798c09d940f26f87aa1,2019-08-22 10:46:08,Cole Bemis,"fix: Adjust dots so that they render in Figma
+
+We use lines with 0 length to represent dots. However, lines with 0 length don't render in Figma. To
+workaround this issue, we give those lines a length of 0.01 instead of 0.",False
+c3b87eb62cf18a33a0845b55c668c0f054d787c3,2019-08-08 21:09:01,Alexander Antonov,feat: Add `twitch` icon,False
+5047ddb5689e8021ff8a27b66e32c2de19c55301,2019-08-08 05:08:23,Alexander Antonov,feat: Add `tool` icon,False
+965c0a3d4712a212635e873f72a75de2ed1142c5,2019-08-08 04:56:18,Edwin Kofler,docs: Update vue link (#713),False
+3c64e93543fab6befab54c3abd013dd8db52509e,2019-06-11 05:41:10,Cole Bemis,fix: Update core-js to 3.1.3,False
+10e4e38ae14d61121fb350e03a4402fe24e3ab20,2019-06-06 21:51:49,Cole Bemis,feat: Add `framer` icon,False
+5a991dddeab1cbd59cfa028848adf415165c4814,2019-05-13 10:27:39,dependabot[bot],"build(deps-dev): bump eslint-plugin-prettier from 2.5.0 to 2.7.0
+
+Bumps [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) from 2.5.0 to 2.7.0.
+- [Release notes](https://github.com/prettier/eslint-plugin-prettier/releases)
+- [Changelog](https://github.com/prettier/eslint-plugin-prettier/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/prettier/eslint-plugin-prettier/compare/v2.5.0...v2.7.0)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+8f658193d25e943b196a2367319b5d9e85ee9f9f,2019-03-30 22:52:17,Cole Bemis,feat: Add `hexagon` icon,False
+7b8ff33195a5c3aacf6459bfc290558dad462285,2019-03-30 22:52:17,Cole Bemis,feat: Update `package` icon,False
+8263c2231e65c0129db802e3f8108ffed805e269,2019-03-30 22:52:17,Cole Bemis,feat: Update `box` icon,False
+74aafa1b4ed4bbd7fe995b397bcdc47da3ec85be,2019-03-30 22:52:17,Cole Bemis,feat: Add `codesandbox` icon,False
+f27d8b0f8e177c2715ee206f9cce88fe85380356,2019-03-30 05:49:46,Christopher Sandvik,feat: Add `columns` icon,False
+5d42ac839815c2dd6009330eee049256732efebb,2019-02-27 00:20:35,Ash Guillaume,"Merge pull request #549 from feathericons/add-x-octagon
+
+Add x-octagon icon",True
+7a17d77409a801bbd232f45c117038a4bd7eae9d,2019-02-27 00:19:40,Ash Guillaume,"Merge pull request #548 from feathericons/add-figma-icon
+
+Add Figma icon",True
+6cdea52f2762f738f98ce10e3541d65349a3a0d1,2019-02-26 12:05:05,Cole Bemis,feat: Add `x-octagon` icon,False
+eb106953ae65c956ca41cbcfe905dc402f1c0c0f,2019-02-26 11:59:30,Cole Bemis,feat: Add `figma` icon,False
+e6e667959643cf97e2b2d56b5f308149abb099a2,2019-02-25 12:56:09,Cole Bemis,docs: Update donate link,False
+cd27b8869e4b54744d99301f6292b439e0426e25,2019-02-08 02:43:49,dependabot[bot],"build(deps): [security] bump extend from 3.0.1 to 3.0.2
+
+Bumps [extend](https://github.com/justmoon/node-extend) from 3.0.1 to 3.0.2. **This update includes security fixes.**
+- [Release notes](https://github.com/justmoon/node-extend/releases)
+- [Changelog](https://github.com/justmoon/node-extend/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/justmoon/node-extend/compare/v3.0.1...v3.0.2)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+3e4918be7438e44c124ec3dd02c70e11ad3eee5e,2019-02-05 09:30:41,Cole Bemis,feat: Update `bell-off` icon,False
+1889a0ab79f6c075375d82aaa4fdcabf1a186553,2019-02-05 09:30:41,Cole Bemis,feat: Update `bell` icon,False
+cbee1d1114de838620400ff2e56fc2a3316db2d2,2019-02-02 04:45:38,Ash Guillaume,"Merge pull request #526 from feathericons/update-edit-icons
+
+Update edit icons",True
+ee26fe5e7a344693c14b5bf9e397d9dced242e26,2019-01-31 11:51:10,Cole Bemis,docs: Update description,False
+09d2db7775671c83dccddfd2fd195ab89c476b81,2019-01-31 08:16:34,Cole Bemis,feat: Update `edit-3` icon,False
+8f62ded210c39e3d9380b026a5833bf052b387e4,2019-01-31 08:16:19,Cole Bemis,feat: Update `edit-2` icon,False
+51bb9319374dd2daa2fbc2e2c3524904b77a8507,2019-01-31 08:03:25,Cole Bemis,feat: Update `edit` icon,False
+0a130b77e0c4e1c3149ae96552b419fd5fc37fad,2019-01-29 23:44:03,Ash Guillaume,feat: Add `pen-tool` icon (#522),False
+55c84ac47cd05e6f62c224dd1d8b2609689caad1,2019-01-29 09:59:10,Ash Guillaume,feat: Add `mouse-pointer` icon,False
+c440ee596c0298526d5bc392708446e004a7a8e0,2019-01-29 09:34:25,Ash Guillaume,"Merge pull request #525 from feathericons/update-music
+
+feat: Update `music` icon",True
+51faf5738e1dae8b3f658bfdd26338b7239d7733,2019-01-28 12:48:32,Cole Bemis,feat: Update `music` icon,False
+fff965df899928da96e163a356a09d9dd25e2e45,2019-01-28 10:01:14,Luke Deen Taylor,fix: Add tags for `search` icon,False
+9b1fca0ded731f85e844f916d54a44fb87f04b04,2019-01-25 12:03:23,Ash Guillaume,feat: Update `slack` icon,False
+8da557c9ddcbb898a97546277e7543cb4f8583ed,2019-01-25 11:50:34,Ash Guillaume,feat: Add `key` icon,False
+48735d20a0b7b1c72a1f7c2af595be4289df3cda,2019-01-25 11:28:59,Ash Guillaume,docs: Add Figma section to README,False
+fcd491c8a297d0bf269ef8a29a6ac93fa51e7786,2018-12-23 15:29:36,Cole Bemis,"feat: Add `smile`, `frown` and  `meh` emoji icons",False
+70b1a47b56478789b79d708f188824279264e0f2,2018-11-27 10:11:20,dependabot[bot],"build(deps): [security] bump https-proxy-agent from 2.1.1 to 2.2.1 (#497)
+
+Bumps [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) from 2.1.1 to 2.2.1. **This update includes security fixes.**
+- [Release notes](https://github.com/TooTallNate/node-https-proxy-agent/releases)
+- [Changelog](https://github.com/TooTallNate/node-https-proxy-agent/blob/master/History.md)
+- [Commits](https://github.com/TooTallNate/node-https-proxy-agent/compare/2.1.1...2.2.1)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+fcd9e44681800c99d286c39c31147ef91c0f5109,2018-11-27 10:11:08,dependabot[bot],"build(deps): [security] bump merge from 1.2.0 to 1.2.1 (#498)
+
+Bumps [merge](https://github.com/yeikos/js.merge) from 1.2.0 to 1.2.1. **This update includes security fixes.**
+- [Release notes](https://github.com/yeikos/js.merge/releases)
+- [Commits](https://github.com/yeikos/js.merge/compare/v1.2.0...v1.2.1)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+0bbc3f61dccf0b82de0adccb28712332e92b9d93,2018-11-27 10:10:44,dependabot[bot],"build(deps): [security] bump sshpk from 1.13.1 to 1.15.2 (#499)
+
+Bumps [sshpk](https://github.com/joyent/node-sshpk) from 1.13.1 to 1.15.2. **This update includes security fixes.**
+- [Release notes](https://github.com/joyent/node-sshpk/releases)
+- [Commits](https://github.com/joyent/node-sshpk/compare/v1.13.1...v1.15.2)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+ac50475a458348a9eca3bbf1cc911670cd537c48,2018-11-27 10:10:26,dependabot[bot],"build(deps): [security] bump stringstream from 0.0.5 to 0.0.6 (#500)
+
+Bumps [stringstream](https://github.com/mhart/StringStream) from 0.0.5 to 0.0.6. **This update includes security fixes.**
+- [Release notes](https://github.com/mhart/StringStream/releases)
+- [Commits](https://github.com/mhart/StringStream/compare/v0.0.5...v0.0.6)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+e105533ac1046537af3daea8d5874e638550b5da,2018-10-31 01:04:57,Michael Savchuk,docs: Add php-feather to related projects,False
+e5d9dffac48456ab4b82ce943fdd511678b12390,2018-10-30 01:38:31,Dome,feat: Add `trello` icon,False
+eced6f7414a61ff37f94fd5dbaf71b03d5eeec70,2018-10-28 22:36:21,Cole Bemis,docs: Update example,False
+f94910203395a01347161c3fdc639bf0ca15b0b7,2018-10-28 22:10:41,Cole Bemis,fix: Fix `feather` icon,False
+61803f2129eba75f31ba08da4588bb90360df295,2018-10-28 09:35:59,Cole Bemis,feat: Add `coffee` icon,False
+8aec53b331f1c1876c4fd11f345e8d2000a47eeb,2018-07-19 07:04:53,Yashu Mittal,"docs: Update issue templates
+
+* Create icon_request.md
+
+* Delete ISSUE_TEMPLATE.md
+
+* Create bug_report.md
+
+* creating an example bug report
+
+* Using same bug report from issue template",False
+156c0919c985ec8ff01ce846e372c18ab4e45eae,2018-05-22 02:34:00,Cole Bemis,docs: Add info about SVG attributes,False
+179b482c030dee90641fe276106336b4eed6f0c4,2018-05-19 07:38:46,Cole Bemis,build: Use promises in algolia script,False
+a23698d5befa6af7cf8d69cf5f35c62b3965e82f,2018-05-19 06:38:14,Cole Bemis,build: Initialize tmp index settings,False
+fb057f1f94237885bc027d0f209739cc384166b7,2018-05-19 06:36:19,Cole Bemis,build: Initialize algolia settings in script,False
+21bb9fe6d63fed11ee337bef48ac45e0444df5a9,2018-05-19 06:25:24,Cole Bemis,build: Only copy settings to tmp index,False
+c63f478ff5c06d1c6a6ad288aacd39ba8a9b7f5c,2018-05-19 06:17:05,Cole Bemis,chore: Remove console.log,False
+b424fa779d5cc441e73d7a27b800056bc6371557,2018-05-19 06:11:39,Cole Bemis,build: Add logs to sync-algolia script,False
+01698dea8448bb5fed7aec504122976db1ee0ba8,2018-05-19 05:53:29,Cole Bemis,Merge branch 'master' of https://github.com/feathericons/feather,True
+ae8e149850017796606d64a5d8ae6321189df62d,2018-05-19 05:53:23,Cole Bemis,build: Refactor algolia script to reindex data atomically,False
+9f49fd9560e5661176bfccade32d923e3a062ead,2018-05-19 05:31:29,Cole Bemis,"Merge pull request #415 from feathericons/dependabot/npm_and_yarn/core-js-2.5.6
+
+build: bump core-js from 2.5.3 to 2.5.6",True
+742f45223232a824cdd077d5aae1a4bb5c2aa26b,2018-05-19 05:29:19,Cole Bemis,docs: Update README.md,False
+962870d51cf24e58bcaa7da8bd0fe80da1cb73e9,2018-05-19 05:11:56,Cole Bemis,chore: Fix security vulnerabilities,False
+ba1b12a712e872b60272379e14b16d9ad2140a44,2018-05-19 05:05:01,Cole Bemis,Merge branch 'master' of https://github.com/feathericons/feather,True
+5045ec3b780f95658c0790a049403690c2e19c04,2018-05-19 05:04:56,Cole Bemis,chore: Add comment to sync-algolia script,False
+0d65b5761ba41e124eb47543b9a7994e71e70456,2018-05-19 05:04:26,Cole Bemis,build: Use npx in build script,False
+fcf9aec131085d577897565beff8644f7867ecf7,2018-05-19 04:50:16,Cole Bemis,docs: Update unpkg links,False
+2ee03d261c0b342a30f1a0767aa62ed116d9a208,2018-05-19 04:43:35,Cole Bemis,fix: Set unpkg default to feather.min.js,False
+dc3c0cc47ee8e3f1725358a17f3c48197454edf5,2018-05-19 04:37:18,Cole Bemis,style: Fix formatting,False
+d5ba74d93b9dcedd653a2942aec109d47e388551,2018-05-19 04:37:18,Cole Bemis,"fix: Fix UMD build for node
+
+Prevents webpack from referencing `window` in the UMD build which was causing an error in node.",False
+9b157b399d86272682d80e1a7c8e69e76b784b4a,2018-05-19 00:58:17,dependabot[bot],"build: bump core-js from 2.5.3 to 2.5.6
+
+Bumps [core-js](https://github.com/zloirock/core-js) from 2.5.3 to 2.5.6.
+- [Release notes](https://github.com/zloirock/core-js/releases)
+- [Changelog](https://github.com/zloirock/core-js/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/zloirock/core-js/compare/v2.5.3...v2.5.6)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+c978b1cb4e991fc1221c9814685d5e444263efcd,2018-05-19 00:56:21,Cole Bemis,"fix: Remove unused polyfills and update build config
+
+Removes polyfills for `Object.assign` and `Set` which, as far as I can tell, are unused in the
+codebase. Updates `webpack` from 3 to 4. Replaces `babel-preset-es2015` with `babel-preset-env`.
+Reduces the minified bundle size (`feather.min.js`) by **9.3kB** (72.4kB to 63.1kB). Does not change
+any functionality of the library.",False
+bd129d9dcf9a6991685ba7b965aa06f33987f84f,2018-05-18 22:47:40,Cole Bemis,docs: Update function documentation,False
+90133ea33e4fc0ac52bcd4d24e8f78a1ab96cea2,2018-05-18 12:14:35,Cole Bemis,build(algolia): Add objects *after* clearing index,False
+1a210808c5288fbc80be5c23e36ab391f951a974,2018-05-18 11:57:24,Cole Bemis,docs: Update roadmap,False
+400f34afc2f0d00f8a692f7b20f2bb366ef17358,2018-05-18 11:55:51,Cole Bemis,docs: Update shields,False
+1da9dd43b2acbbcf4d1d9cc6aa38c20d2a34b275,2018-05-18 11:49:02,Cole Bemis,test: Track code coverage,False
+6e7693e6da6cd1fd935865465e1455f04658ec93,2018-05-18 11:42:06,Cole Bemis,test: Update test scripts,False
+32810336ec5919c58c433dbf70357c5f91eb4d1d,2018-05-18 11:38:17,Cole Bemis,test: Test replace() in node env,False
+e374f72cb68319fe8d06aa3415e902d795fa9b7f,2018-05-18 11:37:53,Cole Bemis,chore: Add coverage to .eslintignore,False
+28e74c6e2b39b808cb7b8152a77b6c93da31969e,2018-05-18 11:16:01,Cole Bemis,chore: Ignore coverage directory,False
+3183ae1ef6168644ba3beb79196d0787511763d0,2018-05-18 11:13:41,Cole Bemis,chore: Remove unneeded eslint comments,False
+703b1a78825b885423854bbd9998db5ce58179b1,2018-05-18 11:12:08,Cole Bemis,build: Update build logs,False
+9dffc53b3a8ef0f36812bc9b4e16bb682d20ff80,2018-05-18 11:00:32,Cole Bemis,"ci: Fix ""all"" script in .travis.yml",False
+741ac5632c2d50b5ed68ba65f094acac640afe2f,2018-05-18 10:59:21,Cole Bemis,chore: Replace @commitlint/config-angular with @commitlint/config-conventional,False
+ad3c8a94d01f4d730a20fa7a470970ac2f6d9b66,2018-05-18 10:54:38,Cole Bemis,"ci: Rename ""start"" script to ""all""",False
+76f29d8565ea30d6d6ead053847512f8c2d76953,2018-05-18 10:51:17,Cole Bemis,build: Disable some eslint rules in /bin,False
+23b17b9c5556fd52ff4ac782b682c0a141a5e854,2018-05-18 10:22:27,Cole Bemis,Merge branch 'master' of https://github.com/feathericons/feather,True
+1d3283d81db2b51bc758261e6f3431a1db772786,2018-05-18 10:21:49,Cole Bemis,build: Add sync-algolia script,False
+5031cacbddad870ba6e28919e0b78dce99c51579,2018-05-17 00:23:13,Cole Bemis,docs: Lowercase donate badge,False
+894dcfd6a654c24df62fc0005b84eebbb76120f4,2018-05-14 11:02:36,Cole Bemis,"Merge pull request #393 from feathericons/dependabot/npm_and_yarn/eslint-plugin-import-2.11.0
+
+build: bump eslint-plugin-import from 2.8.0 to 2.11.0",True
+765985a5e3e447a475df89f0d0a9116a96318b13,2018-05-08 04:23:58,Cole Bemis,"Merge pull request #412 from feathericons/dependabot/npm_and_yarn/npm-run-all-4.1.3
+
+build: bump npm-run-all from 4.1.2 to 4.1.3",True
+87f272275adac0eaf19bd61167d1fa6c04908904,2018-05-08 04:23:27,Cole Bemis,"Merge pull request #396 from feathericons/dependabot/npm_and_yarn/html-minifier-3.5.15
+
+build: bump html-minifier from 3.5.8 to 3.5.15",True
+17fb9c99a934f5e3d8c7d38304031d51ac1ec15e,2018-05-07 11:20:08,dependabot[bot],"build: bump npm-run-all from 4.1.2 to 4.1.3
+
+Bumps [npm-run-all](https://github.com/mysticatea/npm-run-all) from 4.1.2 to 4.1.3.
+- [Release notes](https://github.com/mysticatea/npm-run-all/releases)
+- [Commits](https://github.com/mysticatea/npm-run-all/compare/v4.1.2...v4.1.3)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+9167bfc36d91c34857a02761eb1a5651c57adf46,2018-04-26 01:13:52,Cole Bemis,docs: Add donate shield to README,False
+fb0ae8054e790a21b103b64f735e8fcc6db7e436,2018-04-17 10:55:12,dependabot[bot],"build: bump html-minifier from 3.5.8 to 3.5.15
+
+Bumps [html-minifier](https://github.com/kangax/html-minifier) from 3.5.8 to 3.5.15.
+- [Release notes](https://github.com/kangax/html-minifier/releases)
+- [Commits](https://github.com/kangax/html-minifier/compare/v3.5.8...v3.5.15)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+d2369242f1fe53c5bff83e8af92609cb5779ac12,2018-04-13 10:50:04,dependabot[bot],"build: bump eslint-plugin-import from 2.8.0 to 2.11.0
+
+Bumps [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) from 2.8.0 to 2.11.0.
+- [Release notes](https://github.com/benmosher/eslint-plugin-import/releases)
+- [Changelog](https://github.com/benmosher/eslint-plugin-import/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/benmosher/eslint-plugin-import/compare/v2.8.0...v2.11.0)
+
+Signed-off-by: dependabot[bot] <support@dependabot.com>",False
+d33cb6ecf918fdba60396c74d1c49993ca9cc656,2018-04-05 00:16:37,Cole Bemis,refactor: Use uppercase for default attrs import,False
+b22f3b4515e8dc8fec703c6a5fcf65e0fb5945e2,2018-04-02 05:57:55,Cole Bemis,"Merge pull request #374 from feathericons/update-sprite
+
+Refactor buildSpriteString and update sprite docs",True
+94531bbe7c646614b05a7b37aa4777f7093f72aa,2018-04-02 05:34:44,Cole Bemis,docs: Update sprite docs,False
+a3527829b844bb28fc27687ae5b7a4eec61f0382,2018-04-02 04:56:54,Cole Bemis,chore: Add comments to build script,False
+e697b3a927b23321ce3bf5bc6fd969157c24ee3c,2018-04-02 04:55:21,Cole Bemis,refactor: Refactor build-sprite-string.js,False
+920bd45776d45a90e4a67d4b6444cceb83689c22,2018-03-22 03:19:14,Cole Bemis,docs: Rename Client-side Javascript section,False
+cbd3c6184b479aa2cc3e5044f1dfa52e4f0fc60e,2018-03-22 03:16:33,Cole Bemis,docs: Clarify dot vs bracket notation,False
+93dd65f8c5ae6c9cf9d9e23a1ab768e5d0cb0f7e,2018-03-02 12:35:04,Cole Bemis,feat: Add `archive` icon,False
+031f305c832e61ade965edb61630e2cf6fe2e458,2018-03-02 12:35:04,Cole Bemis,feat: Add  icon,False
+1180d2d8b4d33279e854f2b7606f9ad36c79c371,2018-03-02 12:35:04,Cole Bemis,feat: Add `gift` icon,False
+3422f0aaf74b57812daf064eaa6c0b162c1942e6,2018-02-21 06:00:59,Ivan Quirino,feat: Add SVG sprite support (#319),False
+b3655c438f42e01443e522cd249b5ddf7aa13bfc,2018-02-21 02:18:09,Cole Bemis,"fix: Fix semantic-release deploys
+
+Updated .travis.yml to match the example provided in the documentation
+https://semantic-release.gitbooks.io/semantic-release/content/docs/recipes/travis.html",False
+5a8a8b7d93314d9023f9bae2d53e2fdd13002c78,2018-02-07 21:50:57,Dan Bovey,fix: Reorder `help-circle` elements (#308),False
+ba33c8312efb833b2311288096419301ed20183b,2018-01-19 23:02:05,Cole Bemis,"Merge pull request #278 from feathericons/dependabot/npm_and_yarn/eslint-plugin-prettier-2.5.0
+
+chore(dependencies): Bump eslint-plugin-prettier from 2.4.0 to 2.5.0",True
+b15743464557e8d00a89bdb462ddfbf2326ec620,2018-01-19 20:13:27,Cole Bemis,"Merge pull request #277 from feathericons/dependabot/npm_and_yarn/semantic-release-12.2.2
+
+chore(dependencies): Bump semantic-release from 8.2.0 to 12.2.2",True
+6adadf4319fc6b2b204e2dd0514b7ac44ffe16e2,2018-01-19 11:20:26,dependabot[bot],"chore(dependencies): Bump eslint-plugin-prettier from 2.4.0 to 2.5.0
+
+Bumps [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) from 2.4.0 to 2.5.0.
+- [Changelog](https://github.com/prettier/eslint-plugin-prettier/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/prettier/eslint-plugin-prettier/compare/v2.4.0...v2.5.0)",False
+7ea765f04fd7474f22deb79ad908077e99a94ef3,2018-01-19 11:19:42,dependabot[bot],"chore(dependencies): Bump semantic-release from 8.2.0 to 12.2.2
+
+Bumps [semantic-release](https://github.com/semantic-release/semantic-release) from 8.2.0 to 12.2.2.
+- [Release notes](https://github.com/semantic-release/semantic-release/releases)
+- [Commits](https://github.com/semantic-release/semantic-release/compare/v8.2.0...v12.2.2)",False
+2dbe78fc0219b67269d6bfe5d4d04ecf7a2c88be,2018-01-19 11:18:59,Cole Bemis,"Merge pull request #260 from feathericons/dependabot/npm_and_yarn/html-minifier-3.5.8
+
+chore(dependencies): Bump html-minifier from 3.5.7 to 3.5.8",True
+0dce8a8fb91e42562b0a8f4735fb71a7d572c47a,2018-01-19 11:18:25,Cole Bemis,"Merge pull request #265 from feathericons/dependabot/npm_and_yarn/eslint-4.15.0
+
+chore(dependencies): Bump eslint from 4.13.1 to 4.15.0",True
+ed0e08a451786ab50633ae40112354ac8fc1c6e6,2018-01-08 13:33:01,dependabot[bot],"chore(dependencies): Bump eslint from 4.13.1 to 4.15.0
+
+Bumps [eslint](https://github.com/eslint/eslint) from 4.13.1 to 4.15.0.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v4.13.1...v4.15.0)",False
+b5331a253df2502f4626f38673a6396b9f4dcc6f,2017-12-30 04:46:43,Cole Bemis,docs: Updated README.md,False
+ada2681ad4047773133078edc3ba0b03a5d025a7,2017-12-25 13:07:07,dependabot[bot],"chore(dependencies): Bump html-minifier from 3.5.7 to 3.5.8
+
+Bumps [html-minifier](https://github.com/kangax/html-minifier) from 3.5.7 to 3.5.8.
+- [Release notes](https://github.com/kangax/html-minifier/releases/tag/v3.5.8)
+- [Commits](https://github.com/kangax/html-minifier/compare/v3.5.7...v3.5.8)",False
+c7d417e19b67c1d14f9ca6cec34d7e15b979de72,2017-12-22 12:15:53,Cole Bemis,feat: Add tags to tags.json,True
+6999eeba10f30afef2a0bb1dce5377a15ff661ad,2017-12-22 12:11:11,Afnizar Nur Ghifari,Fix typo on icon tags,False
+9e681f8f8966be0fa4dfa1d3ab7b4659dc788d57,2017-12-22 11:44:05,Afnizar Nur Ghifari,Add icon tags,False
+1f5bb6e1dc35a53ae892b866cfa1e1a881f0598a,2017-12-19 13:01:19,Cole Bemis,"Merge pull request #252 from feathericons/dependabot/npm_and_yarn/eslint-plugin-prettier-2.4.0
+
+Bump eslint-plugin-prettier from 2.3.1 to 2.4.0",True
+fbdff6452cee86b284af8e87b6e7fb8261b9b9cb,2017-12-18 13:38:14,dependabot[bot],"chore(dependencies): Bump eslint-plugin-prettier from 2.3.1 to 2.4.0
+
+Bumps [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) from 2.3.1 to 2.4.0.
+- [Changelog](https://github.com/prettier/eslint-plugin-prettier/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/prettier/eslint-plugin-prettier/compare/v2.3.1...v2.4.0)",False
+1f87e256b62eefbaece86a8917e98fb3c850d623,2017-12-16 14:56:48,Cole Bemis,"Merge pull request #238 from feathericons/dependabot/npm_and_yarn/lint-staged-6.0.0
+
+Bump lint-staged from 5.0.0 to 6.0.0",True
+5596f665254f372db27a7cf6c637d4fd460b294a,2017-12-16 14:56:03,Cole Bemis,"Merge pull request #242 from feathericons/dependabot/npm_and_yarn/eslint-config-airbnb-base-12.1.0
+
+Bump eslint-config-airbnb-base from 11.3.2 to 12.1.0",True
+1d3807c00563f7b27f48d0582f852b23dd821177,2017-12-16 14:33:00,dependabot[bot],"chore(dependencies): Bump eslint-config-airbnb-base from 11.3.2 to 12.1.0
+
+Bumps [eslint-config-airbnb-base](https://github.com/airbnb/javascript) from 11.3.2 to 12.1.0.
+- [Commits](https://github.com/airbnb/javascript/compare/eslint-config-airbnb-base-v11.3.2...eslint-config-airbnb-base-v12.1.0)",False
+a7fe66e4b4fa79ff83def3129389e809b278efb4,2017-12-16 14:31:59,Cole Bemis,"Merge pull request #239 from feathericons/dependabot/npm_and_yarn/eslint-4.13.1
+
+Bump eslint from 4.10.0 to 4.13.1",True
+c85cb6556bac36e0ad3427a6219f5dcf910103ca,2017-12-16 14:25:43,dependabot[bot],"chore(dependencies): Bump eslint from 4.10.0 to 4.13.1
+
+Bumps [eslint](https://github.com/eslint/eslint) from 4.10.0 to 4.13.1.
+- [Release notes](https://github.com/eslint/eslint/releases)
+- [Changelog](https://github.com/eslint/eslint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/eslint/eslint/compare/v4.10.0...v4.13.1)",False
+3ad661ecae832270ad9cc3bdda6ee9e44147d9de,2017-12-16 14:25:38,Cole Bemis,"Merge pull request #241 from feathericons/dependabot/npm_and_yarn/@commitlint/cli-5.2.5
+
+Bump @commitlint/cli from 5.0.0 to 5.2.5",True
+4ae3fa8093937e302691ed99336d0770fdd5a7de,2017-12-16 14:25:08,Cole Bemis,"Merge pull request #245 from feathericons/dependabot/npm_and_yarn/eslint-config-prettier-2.9.0
+
+Bump eslint-config-prettier from 2.7.0 to 2.9.0",True
+e3a3cd67279032ff91cff689655b8d7a8f92a7e0,2017-12-16 14:22:08,dependabot[bot],"chore(dependencies): Bump lint-staged from 5.0.0 to 6.0.0
+
+Bumps [lint-staged](https://github.com/okonet/lint-staged) from 5.0.0 to 6.0.0.
+- [Release notes](https://github.com/okonet/lint-staged/releases/tag/v6.0.0)
+- [Commits](https://github.com/okonet/lint-staged/compare/v5.0.0...v6.0.0)",False
+73111225b01d0e71919d684361cb16e03f082c2e,2017-12-16 14:21:59,dependabot[bot],"chore(dependencies): Bump eslint-config-prettier from 2.7.0 to 2.9.0
+
+Bumps [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) from 2.7.0 to 2.9.0.
+- [Changelog](https://github.com/prettier/eslint-config-prettier/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/prettier/eslint-config-prettier/compare/v2.7.0...v2.9.0)",False
+d5e7e14e5b71696adc1f71b439a99239d516ccf8,2017-12-16 14:21:35,Cole Bemis,"Merge pull request #251 from feathericons/dependabot/npm_and_yarn/webpack-3.10.0
+
+Bump webpack from 3.8.1 to 3.10.0",True
+a29480d769944a7184cda5f75a164f5aee821ae8,2017-12-16 14:21:08,Cole Bemis,"Merge pull request #237 from feathericons/dependabot/npm_and_yarn/html-minifier-3.5.7
+
+Bump html-minifier from 3.5.6 to 3.5.7",True
+84b8428ee958f92b1433ded7d2d4e97b16e50565,2017-12-15 15:09:26,dependabot[bot],"chore(dependencies): Bump html-minifier from 3.5.6 to 3.5.7
+
+Bumps [html-minifier](https://github.com/kangax/html-minifier) from 3.5.6 to 3.5.7.
+- [Release notes](https://github.com/kangax/html-minifier/releases/tag/v3.5.7)
+- [Commits](https://github.com/kangax/html-minifier/compare/v3.5.6...v3.5.7)",False
+f6984951a9948c140ec2c005139f8a34cb14c259,2017-12-15 15:08:13,Cole Bemis,"Merge pull request #243 from feathericons/dependabot/npm_and_yarn/husky-0.14.3
+
+Bump husky from 0.13.4 to 0.14.3",True
+e70ae5198063bd542f73668477191c0e45c553f6,2017-12-15 15:08:12,dependabot[bot],"chore(dependencies): Bump @commitlint/cli from 5.0.0 to 5.2.5
+
+Bumps [@commitlint/cli](https://github.com/marionebl/commitlint) from 5.0.0 to 5.2.5.
+- [Release notes](https://github.com/marionebl/commitlint/releases)
+- [Changelog](https://github.com/marionebl/commitlint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/marionebl/commitlint/compare/v5.0.0...v5.2.5)",False
+dd9a0b0fe19ffc1b79bd75fae30e5e0567978b61,2017-12-15 15:07:19,Cole Bemis,"Merge pull request #244 from feathericons/dependabot/npm_and_yarn/@commitlint/config-angular-5.1.1
+
+Bump @commitlint/config-angular from 5.0.0 to 5.1.1",True
+44d6501a8ac3fdfd82e7e28822e2d8263c1d8e96,2017-12-15 15:06:22,Cole Bemis,"Merge pull request #250 from feathericons/dependabot/npm_and_yarn/core-js-2.5.3
+
+Bump core-js from 2.5.1 to 2.5.3",True
+483a3f1738dd5705c453b8eadbec016d38fdb8c8,2017-12-15 13:58:36,Cole Bemis,feat: Add more tags,False
+827d2be993bf7c6ae316711ab39b3070a03d2f26,2017-12-15 13:58:36,Cole Bemis,"feat: Add `zap-off` icon
+
+Closes #96",False
+58c2ec781f71d33cf336db25ed9dd90e59c823aa,2017-12-15 13:58:36,Cole Bemis,"feat: Add `truck` icon
+
+Closes #112, closes #215",False
+4ba17e488b54aee22bc830259e1db1d72a9b6006,2017-12-15 13:58:36,Cole Bemis,feat: Add `shopping-bag` icon,False
+d79db8d1e8603afc15378f2234d01e53cad248bd,2017-12-15 13:58:36,Cole Bemis,"feat: Add `send` icon
+
+Closes #84",False
+c908b6ab31e83915014e52f9df7bf2e1a27f18ac,2017-12-15 13:58:36,Cole Bemis,feat: Add `git-pull-request` icon,False
+1014f53d2a18c119460b50ed4756db0e40447693,2017-12-15 13:58:36,Cole Bemis,feat: Add `git-merge` icon,False
+1f7216a6c73b5e8dc2188a181dbfd1eb27f88282,2017-12-15 13:58:36,Cole Bemis,feat: Add `git-commit` icon,False
+5df24f02b720388b599e1b86f9380719b7c202bf,2017-12-15 13:58:36,Cole Bemis,"feat: Add `git-branch` icon
+
+Closes #218",False
+f527932e2bb715eac55c971fa4694451e0f75dba,2017-12-15 13:58:36,Cole Bemis,"feat: Add `dollar-sign` icon
+
+#182",False
+8161cd71b53b9b7b3098402334db31f943c57067,2017-12-15 13:58:36,Cole Bemis,feat: Update `check-square` icon,False
+1af2cf5a739ff8a64be696e6c5478e85d8c76b62,2017-12-15 13:58:36,Cole Bemis,feat: Update `check-circle` icon,False
+eb8e3d6e3044551be0af9f1e0cf5d573749d7c1d,2017-12-15 13:58:36,Cole Bemis,"feat: Add `database` icon
+
+Closes #38",False
+c847a2b195fa05e49b00c3c42a8804aaa822c5c0,2017-12-15 13:28:20,dependabot[bot],"chore(dependencies): Bump webpack from 3.8.1 to 3.10.0
+
+Bumps [webpack](https://github.com/webpack/webpack) from 3.8.1 to 3.10.0.
+- [Release notes](https://github.com/webpack/webpack/releases?after=v4.0.0-alpha.0)
+- [Commits](https://github.com/webpack/webpack/compare/v3.8.1...v3.10.0)",False
+9d3a802eb297467c92e88f92bd13210fcbb2658c,2017-12-15 13:28:13,dependabot[bot],"chore(dependencies): Bump core-js from 2.5.1 to 2.5.3
+
+Bumps [core-js](https://github.com/zloirock/core-js) from 2.5.1 to 2.5.3.
+- [Release notes](https://github.com/zloirock/core-js/releases)
+- [Changelog](https://github.com/zloirock/core-js/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/zloirock/core-js/compare/v2.5.1...v2.5.3)",False
+10a1b217effef34999ae295d3140e12dea50b857,2017-12-15 05:25:38,dependabot[bot],"chore(dependencies): Bump husky from 0.13.4 to 0.14.3
+
+Bumps [husky](https://github.com/typicode/husky) from 0.13.4 to 0.14.3.
+- [Changelog](https://github.com/typicode/husky/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/typicode/husky/compare/v0.13.4...v0.14.3)",False
+080d5b41871d96650593b847f2e615388a426e02,2017-12-15 05:24:41,dependabot[bot],"chore(dependencies): Bump semantic-release from 6.3.6 to 8.2.0
+
+Bumps [semantic-release](https://github.com/semantic-release/semantic-release) from 6.3.6 to 8.2.0.
+- [Release notes](https://github.com/semantic-release/semantic-release/releases?after=v8.2.1)
+- [Commits](https://github.com/semantic-release/semantic-release/compare/v6.3.6...v8.2.0)",False
+f329a1ef64a10aa0e0cb973c2d54ff1e6902c94f,2017-12-15 04:03:27,Sean Coker,"feat: Add `linkedin` icon
+
+Closes #77",False
+b817fe260568d047e76023df5014f44023e230a5,2017-12-14 23:44:19,Cole Bemis,"ci: Update repository url in package.json
+
+This change allows semantic-release to automatically publish release notes again.
+https://github.com/semantic-release/semantic-release/issues/199",False
+f58b75faf0e7c798b61444fbcfc0c017927f875c,2017-12-14 15:31:19,Cole Bemis,feat: Add more tags to tags.json,False
+fac43e92cf9abd63e4e34774fe6120df5f4000c6,2017-12-14 14:09:45,Cole Bemis,ci: Update .travis.yml,False
+0af964bf298d2c2f40869a1237280e1364fbfcc4,2017-12-14 14:04:03,Cole Bemis,"Merge pull request #247 from feathericons/v4.1.0
+
+v4.1.0",True
+7b9faf5b745e7467d306823af5501304b875e8f8,2017-12-14 13:55:31,Cole Bemis,feat: Update `upload` icon,False
+fd54d891d7a79fc5c5bd146fac81b5c9d2ad5b9a,2017-12-14 13:55:19,Cole Bemis,feat: Update `log-out` icon,False
+031cd1cdcfdf8e3a9984c19c2c79cdf757d702f6,2017-12-14 13:55:05,Cole Bemis,feat: Update `log-in` icon,False
+58e555ac211802a1cbfb2693453b85e4a5c28798,2017-12-14 13:54:42,Cole Bemis,"feat: Add `folder-plus` icon
+
+Closes #166",False
+4e5462b4ead9c320888a6b5ceade278adf637d4a,2017-12-14 13:53:48,Cole Bemis,feat: Add `folder-minus` icon,False
+821eae0fedf2e5857cb5e2155d4517bd319dbeb8,2017-12-14 13:50:42,Cole Bemis,feat: Update `download` icon,False
+c61c9279ebc35aec8e276580959970844971a09e,2017-12-14 13:48:46,Cole Bemis,feat: Add `arrow-*-circle` icons,False
+63485ae1fa67f36359c5de4d5dde068efcb7beb2,2017-12-14 13:02:30,Cole Bemis,feat: Update `clock` icon,False
+c9d3fe4afd99a8790fc9ec8a11ed81548178fd5b,2017-12-14 12:54:29,Cole Bemis,"feat: Add `code` icon
+
+Closes  #24, closes #235",False
+d858fce9acaab2fbaf30464d7d1055e4534a74de,2017-12-14 12:53:04,Cole Bemis,feat: Add `terminal` icon,False
+ef4f52918bd664b18b9473172f789961848834e8,2017-12-14 12:38:54,dependabot[bot],"chore(dependencies): Bump @commitlint/config-angular from 5.0.0 to 5.1.1
+
+Bumps [@commitlint/config-angular](https://github.com/marionebl/commitlint) from 5.0.0 to 5.1.1.
+- [Release notes](https://github.com/marionebl/commitlint/releases?after=v5.1.2)
+- [Changelog](https://github.com/marionebl/commitlint/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/marionebl/commitlint/compare/v5.0.0...v5.1.1)",False
+b6e30348ca7cff8b51d884e71340bc01485757f1,2017-12-14 12:05:16,Cole Bemis,"feat: Add `rss` icon
+
+Closes #13",False
+ce9dadf7604e8a84443b63bf76abd8ba3545c24b,2017-12-14 09:13:14,Cole Bemis,"feat: Add `book-open` icon
+
+Closes #116",False
+aad71c66d9317f984260134e7e9af605674f814c,2017-12-14 09:00:10,Cole Bemis,feat: Update `bar-chart` icons,False
+c8181e483e2f0a6ac846c306d51c0fb7cfa8242a,2017-12-14 08:59:38,Cole Bemis,"feat: Add `hard-drive` icon
+
+Closes  #223",False
+aee7cb6c9a23beff225591605a465a92ed431cbd,2017-12-14 08:28:07,Cole Bemis,feat: Update `shopping-cart` icon,False
+1170414e65d6d7f74aeb12cc7584d716097a14fa,2017-12-14 08:27:47,Cole Bemis,feat: Add `shield-off` icon,False
+3401e752594d54fa1692d658932409323cece884,2017-12-14 07:56:54,Cole Bemis,fix: Fix `arrow-down-left` and `arrow-down-right` icons,False
+a4c9815ca98db0e86b6a0c5ec2c2ec5c881cadfc,2017-12-14 07:39:50,Cole Bemis,feat: Update arrow icons,False
+9df31d48c67f80a97449cb77b271764605f5deef,2017-12-14 05:26:55,Cole Bemis,feat: Update `shield` icon,False
+8c557f70518b692212212acabf9daf50fa347548,2017-12-14 05:26:39,Cole Bemis,feat: Update `search` icon,False
+bb9e45b3366fdc7813f5fd4bc3d500b2c43b8018,2017-12-14 05:26:25,Cole Bemis,feat: Update `more-vertical` icon,False
+c6a7239a2cf8fdd55dbf6273908138f348ed2f5f,2017-12-14 05:26:01,Cole Bemis,feat: Update `more-horizontal` icon,False
+c777ac724d1af8921c6cd110e73cbaca5a23fd29,2017-12-14 05:25:33,Cole Bemis,feat: Update `inbox` icon,False
+38c6a37da6d6d43caa3c0c5b645ad73501f6cf05,2017-12-14 05:25:12,Cole Bemis,feat: Update `at-sign` icon,False
+6dc6e83d399b78604b112456e4de9b9175aed001,2017-12-13 13:55:40,Cole Bemis,docs: Update capitalization,False
+c631a31ebdce41462d7480f0018419375147687e,2017-12-13 13:54:06,Cole Bemis,"docs: Remove target=""_blank""",False
+7047790dc72fd45839542175f931ce7498583caa,2017-12-13 13:53:08,Cole Bemis,docs: Add StdLib logo,False
+c1f40d07c860e406ab2cc30941bb908604eb8af3,2017-12-13 12:19:58,Cole Bemis,docs: Update README.md,False
+ad8fabb569330db80cddd612a589851f092c1b92,2017-12-13 10:17:07,Cole Bemis,docs: Update README.md,False
+ba46d098b3384904af26f95b5785208cdad4bce6,2017-12-13 10:12:57,Cole Bemis,Update README.md,False
+cac14df9a2498b2b0a28ad6c84d09445486e415a,2017-11-20 07:32:49,Cole Bemis,docs: Update TravisCI link,False
+14c796917d63d463694f85619658fa1e655f4000,2017-11-20 07:31:04,Cole Bemis,build: Update linting config,False
+343388c892ff36121e647615e2e4a179847cba49,2017-11-20 06:04:18,Cole Bemis,docs: Update TravisCI badge,False
+c9552b69161d12f67d43b463956805f6420f09f4,2017-11-20 05:59:52,Cole Bemis,"fix: Remove unecessary whitespace from SVG contents
+
+```js
+/* BEFORE */
+{ circle: ""\n  <circle cx=\""12\"" cy=\""12\"" r=\""10\""></circle>\n"" }
+
+/* AFTER */
+{ circle: ""<circle cx=\""12\"" cy=\""12\"" r=\""10\""></circle>"" }
+```",False
+b814a2b94b7e67ab35a55ef84a203a6d71d509b6,2017-11-19 10:24:45,Cole Bemis,docs: Update README.md,False
+f243624fbd175a93cf24fcdf970b72425afa246d,2017-11-19 09:30:16,Cole Bemis,"feat: Update API
+
+BREAKING CHANGE: 
+
+Each icon in the `feather.icons` object is now an `Icon` object with a `name`, `contents`, `tags` and `attrs` property.
+```js
+/* BEFORE */
+feather.icons.x
+// '<line ... /><line ... />'
+
+/* AFTER */
+feather.icons.x
+// {
+//    name: 'x',
+//    contents: '<line ... /><line ... />`,
+//    tags: ['cancel', 'close', 'delete', 'remove'],
+//    attrs: {
+//      class: 'feather feather-x',
+//      xmlns: 'http://www.w3.org/2000/svg',
+//      width: 24,
+//      height: 24,
+//      viewBox: '0 0 24 24',
+//      fill: 'none',
+//      stroke: 'currentColor',
+//      'stroke-width': 2,
+//      'stroke-linecap': 'round',
+//      'stroke-linejoin': 'round',
+//    }
+// }
+```
+
+`feather.toSvg()` has been deprecated in favor of `feather.icons[name].toSvg()`:
+```js
+/* BEFORE */
+feather.toSvg('x')
+
+/* AFTER */
+feather.icons.x.toSvg()
+```
+
+`feather.replace()` now copies all attributes on the placeholder element (i.e. `<i>`) to the `<svg>` tag instead of just `class` and `id`:
+
+```html
+<i data-feather=""circle"" id=""my-circle"" class=""foo bar"" stroke-width=""1""></i>
+<!--
+<i> will be replaced with:
+<svg id=""my-circle"" class=""feather feather-circle foo bar"" xmlns=""http://www.w3.org/2000/svg"" width=""24"" height=""24"" viewBox=""0 0 24 24"" fill=""none"" stroke=""currentColor"" stroke-width=""1"" stroke-linecap=""round"" stroke-linejoin=""round""><circle cx=""12"" cy=""12"" r=""10""></circle></svg>
+-->
+```",False
+0dc2bf5c9d01759e47485d9498aefc02cac1d845,2017-11-13 21:43:11,Cole Bemis,build: Add process-svgs script (#216),False
+f2b7e1f3139705d0d5b8df92a5a088e0d05bb4fa,2017-11-13 05:49:48,Oliver Dumoulin,"docs: Add sketch-feather to ""Related Projects"" section (#219)",False
+bfd736270fdf7e3a449b735226bc190db329d5e9,2017-11-10 08:53:22,Cole Bemis,chore: Generate package-lock.json,False
+8aa917f8261840b9635f9b5529168b1ccac07560,2017-11-10 07:05:04,Cole Bemis,docs: Update issue template,False
+b9533072275c2c13be08fc49deb513e3bd7b882d,2017-11-10 02:12:32,Cole Bemis,Update index.html,False
+3a3df71e3fdb3fec2d081e31eec226087118294c,2017-11-05 09:39:13,Cole Bemis,refactor(replace): Replace `console.error` with  `throw new Error`,False
+0d342b33a5e653f455ea8471f47aa04540ea21eb,2017-11-02 00:06:32,Anatoliy,"docs: Add elm-feather to ""Related projects"" section (#214)",False
+e80f80524adb7804e8bad1b8d34893b843ef4a11,2017-10-12 02:35:10,Brad Bohen,feat: Updated replace() to pass id from placeholder element (#193),False
+b7d22291f109526bf39143cf95ab18dd9dacc240,2017-10-09 11:23:05,Cole Bemis,docs: Change cdnjs badge style,False
+5e62cab89a31773fb99cabda6a16efea92b931b9,2017-10-09 11:22:04,LboAnn,"docs: Add CDNJS version badge in README.md (#196)
+
+The badge shows the latest lib version on CDNJS and gives a link of it.",False
+5dd498cc61a8c780505feca2f6c8a431fbfed0c1,2017-09-26 23:21:47,Lukas Drgon,docs: Add jsDelivr link,False
+29e96b110972a78eb8cd83e96eda39241f43e46b,2017-09-23 08:25:30,Cole Bemis,docs: Add accessibility to roadmap,False
+bc83bcc74b474cf6cce5ef3b3bb52baeeb4d9603,2017-09-06 21:00:09,Alberto Chiusole,"docs: Add a clarification inside the example webpage. (#180)
+
+As discussed in issue #176, the package has to be built using
+$ npm run build
+or
+$ npm run all
+before being able to use it.",False
+950ac1c2d0886effe394c1b8d3e726a728af0f12,2017-08-27 00:06:47,Cole Bemis,Update README.md,False
+d2ea75622b2cb74b760ae1ec6d1f6db13ec355f5,2017-08-11 00:07:46,Cole Bemis,docs: Update CDN link,False
+8926f5fb9bc25b419184a6ce4537d47043eaca9c,2017-08-05 04:03:11,severn101,fix: Fix adding unwanted class 'null',False
+f72c5dd2152db56892ce773ea2cc9257500fa4d4,2017-08-02 00:48:57,Cole Bemis,docs: Add npm install instructions,False
+43dbba3a0a6909327ecf692d3742a37b1b0c4671,2017-08-02 00:45:56,Cole Bemis,docs: Fix npm link,False
+dc2410025f4a7a195333042331fe49890caa761c,2017-08-02 00:40:26,Cole Bemis,docs: Update README.md,False
+365b5d13d580ccf935b7b0a1bad5c7c0ea92dc4a,2017-08-02 00:06:04,Cole Bemis,docs: Add Travis badge to README.md,False
+2ac73d6167ed46e604b4a3fbb5d23b8e94006b04,2017-07-30 13:11:06,Cole Bemis,fix: Fix `bold` icon,False
+002a66a4d8a08cd9f8e5c4a452afb5612c1e499d,2017-07-30 13:03:21,Cole Bemis,feat: Add `underline` icon,False
+fb5d432961e441617d4224361daf0f8d9e26af8a,2017-07-30 13:02:33,Cole Bemis,"feat: Add `shopping-cart` icon
+
+Closes #20, closes #79, closes #159",False
+bad88ba24afdcd0c9b2e9eddb8e6fabd1494b0e1,2017-07-30 13:01:10,Cole Bemis,feat: Add `italic` icon,False
+36f5fa7a89704e25e9d215b97c81843e7e680fc0,2017-07-30 13:00:37,Cole Bemis,"feat: Add `help-circle` icon
+
+Closes #15, closes #158",False
+62a96677a939cc05d452a1962a11838b0d94ffb6,2017-07-30 12:58:57,Cole Bemis,"feat: Add `crop` icon
+
+Closes  #152",False
+3faad03c8305927d2332cd4aa7ad0ab791df0fb9,2017-07-30 12:57:42,Cole Bemis,"feat: Add `bold` icon
+
+Closes #145",False
+906cfb38d5f6cf54479900d454a4ed551f979ce0,2017-07-18 23:59:56,Michael Lancaster,docs: Add CONTRIBUTING.md,False
+20911c216b525c9d78295345072a9d6e64111986,2017-07-14 23:58:32,Cole Bemis,Update README.md,False
+73bc017bdd579f30aabd90a7b957a5d44b56ee2a,2017-07-11 14:09:03,Cole Bemis,feat: Move paths in `wifi` icon down 1px,False
+f41cd6e738295abc978b03bfcf5746f59996b012,2017-07-11 14:09:03,Cole Bemis,"feat: Add `wifi-off` icon
+
+Closes #125",False
+29ff9df0f5acedd6cffe5fdc36d696ad1fe2f2b0,2017-07-11 14:09:03,Cole Bemis,"feat: Add `tv` icon
+
+Closes #106",False
+aa43d5ad0012f71ede8940f4e081a914036165bd,2017-07-11 14:09:03,Cole Bemis,"feat: Add `paperclip` icon
+
+Closes #85, Closes #131",False
+e95e1b270107184757cde90b2a22d5cbd508e883,2017-07-11 14:09:03,Cole Bemis,"feat: Add `sliders` icon
+
+Closes #126",False
+dfc03cd5a770e2d52da5b8ac4fcf91e712f4ac9d,2017-07-11 14:09:03,Cole Bemis,"feat: Add `gitlab` icon
+
+Closes #119",False
+e0216c8ccbeac6c6f48d40e143e45ba865bf5770,2017-07-06 02:13:12,mage3k,docs: Add vue-feather-icon link,False
+d2192ca5715732bf9d513032b460d49b10c23064,2017-07-04 04:54:55,Cole Bemis,"docs: Add ""Related Projects"" to Table of Contents",False
+996d6208936b1fe8fb20e1646cc0641551da75f8,2017-07-04 04:52:40,Cole Bemis,docs: Update README.md,False
+ee36bff7c34a49e3ac0d36a52a83742e7f5cebc4,2017-07-04 04:23:34,Cole Bemis,ci: Update .travis.yml,False
+ac06ad89996698c38d32a0f9e7a855f646cc917c,2017-07-04 04:23:34,Cole Bemis,docs: Update README,False
+5d6c7d2184d6a27e47606a36c144ca274fbbfd88,2017-07-04 04:23:34,Cole Bemis,build: Add script to build `dist/icons` directory,False
+998b2e9add97e0c6bf76c004d6df5816decde16d,2017-07-04 04:23:34,Cole Bemis,chore: Add lint script,False
+0e70a99e8ac41aa268a0880c06805dad822bfb91,2017-07-04 04:23:34,Cole Bemis,docs: Add usage example,False
+ef3e69b3271ee4a4463378188423419542b85a18,2017-07-04 04:23:34,Cole Bemis,build: Build js files with webpack,False
+71f502fc95aa0d13edc55cbcbe4ac9778b54391b,2017-07-04 04:23:34,Cole Bemis,"feat: Add JavaScript library
+
+Add JavaScript library that includes an `icons` object, `toSvg` function and `replace` function.",False
+ae164db70f8bd93a881bf54ef74f55e3371c6507,2017-07-04 04:23:34,Cole Bemis,build: Add script to build `dist/icons.json`,False
+c089ee1f89ee50c00b97669e3c76cf6411376328,2017-07-04 04:23:34,Cole Bemis,chore: Set up ESLint,False
+9b5dc81118e089da3ed569075d0f9f78c3b426b7,2017-07-04 04:23:34,Cole Bemis,"feat: Flatten `icons` directory
+
+Remove icon categories to simplify npm package.
+
+BREAKING CHANGE: The path to individual SVG files has changed. All SVGs now live on the same level
+inside the `icons` directory. For example, `icons/core/home.svg` is now `icons/home.svg`.",False
+75068f6625a0186ad88a1cf58a044f1bd9cb9fca,2017-07-04 04:23:34,Cole Bemis,chore: Update package.json,False
+577494e9690ab537011e6e14e53a6e9a9237ea90,2017-07-04 04:23:34,Cole Bemis,refactor: Move ISSUE_TEMPLATE.md into .github directory,False
+704870bb124ea9954c5349b204bb1fa5d020d411,2017-07-04 04:23:34,Cole Bemis,refactor: Remove website code from `master` branch,False
+8fbe71d45f273c4b976a766d7edee42b4999d1c5,2017-07-02 03:19:45,Cole Bemis,docs: Update README.md,False
+1e43dcb17e711f204a5cc28d7f40982052e59b78,2017-07-02 03:17:59,Carmelo Pullara,docs: Add react-feather link,False
+6c7b365e4b960eb98d934190e7d731eefd4e621a,2017-07-01 23:36:11,The Mighty Panda,docs: Add Related Projects section,False
+9cb49e1b6fa19b7934b3fff1a78a45325e38fde5,2017-06-10 07:21:25,Cole Bemis,"style: Prevent SVGO from merging paths
+
+This will allow each path to be individually manipulated with CSS.",False
+40f5908d4968d7fde65ae7f8f1fb9f3f528cde7e,2017-06-10 07:21:25,Cole Bemis,feat: Add `file-plus` icon,False
+c64304d17c0e69ed017451baa2717dbddfc2cfea,2017-06-10 07:21:25,Cole Bemis,feat: Add `file-minus` icon,False
+3c297deb405a53a4eb5cc7bad4488fadde99570d,2017-06-10 07:21:25,Cole Bemis,"feat: Add corner arrow icons
+
+Closes #62",False
+dd9f0ff1a33ca120a358f47f1827bc2838647338,2017-06-10 07:21:25,Cole Bemis,"feat: Add `percent` icon
+
+CLoses #105",False
+e1107aaee2d64812a10b0e40132c8aa3a213974f,2017-06-10 07:21:25,Cole Bemis,"feat: Change `pie-chart` icon
+
+Closes #102",False
+dfcd3e3ba23a6e010877c553bfe045c23cd941bf,2017-06-10 07:21:25,Cole Bemis,"feat: Add `save` icon
+
+Closes #39",False
+915524f6d315ef94ac999685e048fd96c3dfd1b1,2017-06-10 07:21:25,Cole Bemis,feat: Change `copy` icon,False
+650c8ab167bae7ae5f062a46c6072158fd3610af,2017-06-10 07:21:25,Cole Bemis,"feat: Add `users` icon
+
+Closes #81",False
+89ed5ac57a16f6a50554626b24dd69ac27d66f8d,2017-06-10 07:21:25,Cole Bemis,feat: Add `sidebar` icon,False
+f0a061e2f23b3fe64eb82b3522610d710ef00119,2017-06-10 07:21:25,Cole Bemis,"feat: Add `file-text` icon
+
+Closes #23",False
+044aff80341bef1a228053b9e7810ef45c7acb4b,2017-06-07 22:01:37,Cole Bemis,"docs: Update License section
+
+Closes #95",False
+765b91733f1ced498db58e70b14922141cb1e153,2017-06-07 10:19:52,Cole Bemis,"feat: Add `film` icon
+
+Closes #22",False
+82a62ca0295a29c74257932f4a50125643014a62,2017-06-07 10:19:52,Cole Bemis,"feat: Add `stop-circle` icon
+
+Closes #43",False
+a4a1feda046b7e12db5fb56a0f5d7feda8fa5561,2017-06-07 10:19:52,Cole Bemis,"feat: Add `play-circle` icon
+
+Closes #43",False
+0b5f9d44a528ce85398b54a80200a739c5a1af0c,2017-06-07 10:19:52,Cole Bemis,"feat: Add `pause-circle` icons
+
+Closes #43",False
+e0facf6fbfa6481860cee17047014990943703ab,2017-06-07 10:19:52,Cole Bemis,"feat: Add `tablet` icon
+
+Closes #52",False
+4fa54b53eeaa83ba522fafbc1264eb5a5fd4d8ef,2017-06-07 10:19:52,Cole Bemis,"feat: Add `smartphone` icon
+
+Closes #51",False
+8c12a6d89d267d1b427294154002483589b9830a,2017-06-07 10:19:52,Cole Bemis,"feat: Add `shield` icon
+
+Closes #54",False
+a5a3d7d08d57ef04538d739e7aacf5e552bb5b95,2017-06-07 10:19:52,Cole Bemis,"feat: Add `server` icon
+
+Closes #37",False
+612ab72d7759f90120899738ad35cf827c270553,2017-06-07 10:19:52,Cole Bemis,"feat: Add `credit-card` icon
+
+Closes #18",False
+b6f3986191b9a5dea837f99d1445056c24404771,2017-06-05 19:53:54,Cole Bemis,"feat: Add `github` icon
+
+Closes #72",False
+f6f83d9864699c9e976ec4ad1183c081ff857155,2017-06-05 13:15:49,Cole Bemis,style: Remove unnecessary line,False
+d5eeaeedc9b5a61c11e882a1377dc5297c083fb6,2017-06-05 13:04:17,Cole Bemis,fix: test automated release,False
+adbc129119e749c9738d0321c7b2e60a5ccfb86c,2017-06-05 12:58:24,Cole Bemis,chore: automate releases,False
+1356b013b795058f9997f23573b08283580c895b,2017-06-04 13:33:46,Cole Bemis,Update package.json,False
+99c7c7fcfbedd8b66d6ad721c66b52675a4a9567,2017-06-04 13:21:00,Cole Bemis,Add content to CODE_OF_CONDUCT,False
+cede24210654652891648835cc05f184d9a8277d,2017-06-04 13:18:51,Cole Bemis,Add CODE_OF_CONDUCT.md,False
+85dca37e6d86d8fc4dbe3a19d8329164ff570dfe,2017-06-03 13:04:02,Cole Bemis,Update README,False
+5554766f884553068af10c5b214ca98f17660b83,2017-06-02 11:50:59,Cole Bemis,Change npm name,False
+8c95eacb1593f06192d17178d44897df9024dc2c,2017-06-01 20:33:07,Cole Bemis,Update url,False
+681f00acbe5a8c69c745cb909f63da4fa83a012e,2017-06-01 03:50:39,Cole Bemis,Update tweet link,False
+d924d93c64a0318995eb6f2aaf276677b3cb7a11,2017-05-31 22:23:29,Cole Bemis,Delete commented code,False
+7d1273eef0061970f042bd8581893480e6789c1e,2017-05-31 22:22:06,Cole Bemis,Update accent color,False
+14731962d207d920ffcc789593414a91f53088c1,2017-05-31 09:22:43,Cole Bemis,Change og:image,False
+de03f1cbb4f150152d1b40b0cc51d65c23e3c0d3,2017-05-31 09:18:53,Cole Bemis,Fix open graph image,False
+fe9fb15fe577fd3d8f982f8d25198628538a1111,2017-05-31 09:13:04,Cole Bemis,Update og:image url,False
+96bfb5221527537b11ea66e72a40a38b054e8e86,2017-05-31 09:06:40,Cole Bemis,"Merge pull request #10 from colebemis/v2.1.0
+
+v2.1.0",True
+680eeb3c0bfcbd705410c44e73273f0457d37a2f,2017-05-31 09:04:16,Cole Bemis,Format CHANGELOG,False
+7fec7374be5faf6bad54692deecaea2f100b0312,2017-05-31 08:59:32,Cole Bemis,Clean up package.json,False
+07471c6a443bcd51b8acb6ac021029c362c9cd1c,2017-05-31 08:56:35,Cole Bemis,Update CHANGELOG,False
+7c8e7251795b5836e8408039e6f720e754f7b6f7,2017-05-31 08:48:33,Cole Bemis,Fix CHANGELOG,False
+b25f5eebf92f443ac9e7af9f62df03377d99e45c,2017-05-31 08:47:07,Cole Bemis,Remove tooltip arrow from assets,False
+916274a8a3c9f45b1d195f7edd867394cbc15b43,2017-05-31 08:46:58,Cole Bemis,Add open graph image,False
+dbd26436233673fa4f98cbea250d094a9d7a202c,2017-05-31 06:53:18,Cole Bemis,Fix browser compatibility issues,False
+ffdda301071856fd5e0a5b4cdc6081d7b132f0e0,2017-05-31 03:32:01,Cole Bemis,Merge branch 'v2.1.0' of https://github.com/colebemis/feather into v2.1.0,True
+bc330dc338aa9f727ac400f11870aa61c70444c0,2017-05-31 03:31:10,Cole Bemis,Add copy icon,False
+8aa132e6eade724cba2bf7ea5fbc7072535166df,2017-05-31 03:30:51,Cole Bemis,Add copy icon,False
+a2aa2f17007e5f4ffeb111e48ce040338900d21b,2017-05-31 03:06:44,Cole Bemis,Add speaker icon,False
+2ca4f3fdef87856a1d06e70d55ce5d94049750ed,2017-05-31 03:05:08,Cole Bemis,Add volume icons,False
+8e867e9a2ed419c12bd79e04e1f388a2fc34d99d,2017-05-31 02:19:09,Cole Bemis,Add link icons,False
+6a64e3ee5b8f0815bd8cc05ccb5ecc70a0bffbf3,2017-05-31 02:18:53,Cole Bemis,Add log-in and log-out icons,False
+d797ee5f03b7717db902c13a45a6273caf28668a,2017-05-31 01:10:19,Cole Bemis,Rename trend icons,False
+bcacce5fb477b20d20d6a47de5b975186d1266ea,2017-05-30 12:10:01,Cole Bemis,Change grid icon,False
+a72b8d16717e9db0e586f6b48eeeda25a2f67919,2017-05-30 12:09:23,Cole Bemis,Build box icon,False
+7f47135ba7385b140c80a476f4a62acdfe4ce231,2017-05-30 12:09:11,Cole Bemis,Remove location icon,False
+9bef7e0ad544da6d7480202901c9c3a30eadad8a,2017-05-30 12:08:56,Cole Bemis,Change bar-chart icons,False
+6d0a3bab232471366a47b13b3623bf2b171cfdfa,2017-05-30 12:08:05,Cole Bemis,Add navigation icon,False
+8f193092d6dddc0a0ad7ecaa862e921a7ec6c2c3,2017-05-30 12:05:22,Cole Bemis,Add compass icon,False
+bee1f2cec1cf582d0151257277c2d61d18d8f5dd,2017-05-30 12:04:55,Cole Bemis,Add type icon,False
+9490990aac500f9d1e6bdbe929362ff6f6d012e7,2017-05-30 12:04:20,Cole Bemis,Add share icon,False
+22a83e8a3c0fc1fc48a0f77dfac59b4967e60b04,2017-05-30 12:02:30,Cole Bemis,Add user icons,False
+10e74c784e17aa462978f448c5cc795bfe24eff3,2017-05-30 12:01:15,Cole Bemis,Add list icon,False
+28160b397b0a0e4b9acc35604312d90890481dfb,2017-05-30 11:59:22,Cole Bemis,Add package icon,False
+08470872ab9bcc043509a6eacb8aee8af6cfe65d,2017-05-30 11:56:21,Cole Bemis,Add edit icons,False
+c05a1f3a0d013c7ceaaa8dfd57f5e01da79a866d,2017-05-30 11:50:39,Cole Bemis,Add trend icons,False
+6313b5807dec37a7bfa563a546aa2bb6a688a9bc,2017-05-30 11:49:02,Cole Bemis,Add battery-charging icon,False
+4ca3fc687957db862e9a7bf34b3028ea32930125,2017-05-30 11:48:16,Cole Bemis,Add voicemail icon,False
+85a34b13d12e696eff39d46b52d9a816bda1cc99,2017-05-30 06:14:16,Cole Bemis,Clean up rotate-cw icon,False
+2c34e461ae26c6cdfccbc78d4b5bcec770fa2dec,2017-05-30 06:13:44,Cole Bemis,Add cloud icons,False
+1bd6c0155883defa2d97ddb8d538cd8091914a02,2017-05-30 06:12:53,Cole Bemis,Add slack icon,False
+c22fd76cc7ee0d5df19ae869a07881d7df2ea472,2017-05-30 06:12:34,Cole Bemis,Add codepen icon,False
+951732f8d9b14bd31ca5e9c7563082827fe8f492,2017-05-30 06:12:10,Cole Bemis,Changed twitter icon,False
+fe9117d2dde323491bddebc14211967935b69c07,2017-05-30 06:11:17,Cole Bemis,Change user icons,False
+830b54e757d2213ed5dd7c3abcd3ae5de4131b99,2017-05-30 06:10:29,Cole Bemis,Move mic icons,False
+24b231e527a5fceec56dcab32d139f579d77dead,2017-05-30 06:10:08,Cole Bemis,Add double chevron icons,False
+d27c4ee97ab57b7bc20aa2c4eec71cdc2420a64a,2017-05-30 06:08:49,Cole Bemis,Add more arrow icons,False
+ec384c1afd1d9508db613de157791b6763a08566,2017-05-30 05:56:34,Cole Bemis,Update README,False
+b0522cf7fe37def64f81d8cf9a06e53cfd997648,2017-05-30 05:56:25,Cole Bemis,Seperate header and hero,False
+706e0ebd45fc4e62409cf9b1bdda7579a904e485,2017-05-30 05:35:49,Cole Bemis,Redesign project site,False
+6bb80940e832630c8b8fc9d1d9c288602d825f9a,2017-05-29 11:17:56,Cole Bemis,Add cloud-snow icon,False
+eb54905023354963b565a633abf60278fba30a65,2017-05-28 09:52:58,Cole Bemis,Update site design,False
+8a6b92cbdcdf1d08df6d5d8c98f7db4aed9399bb,2017-05-24 12:45:54,Cole Bemis,Change droplet icon,False
+1e06dab72d64057e889be6144b261e9e1b9ec08c,2017-05-24 12:45:02,Cole Bemis,Add repeat icon,False
+721b106b70af7db1c25f3d6b47e035ea7b90788b,2017-05-24 12:11:31,Cole Bemis,Add icon count to footer,False
+ca0d153cec58173a2d2c0c411f31f1f3eb416931,2017-05-24 12:11:18,Cole Bemis,Change accent color,False
+714b8d3aff2d19a2dfb561a2bc999f326e0cb89f,2017-05-24 12:11:09,Cole Bemis,Update package.json,False
+a77bbb81facb3fe77f965f724768ccbe5b774063,2017-05-24 12:10:55,Cole Bemis,Reorganize icons,False
+9ce597779c8c05eb3033821c2573f27cf82e26c1,2017-05-24 12:09:34,Cole Bemis,Add cast icon,False
+4f9f36b89e0cb7c3db48792dee4478b5314f75fa,2017-05-24 09:43:10,Cole Bemis,Add unreleased section to change log,False
+714c9656b2902f4bf65b668323872d8f4a2b0207,2017-05-24 09:41:23,Cole Bemis,Merge remote-tracking branch 'origin/master' into v2.1.0,True
+917c3ea4ad634df814b433cc5cbb34cc25535737,2017-05-24 09:36:46,Cole Bemis,Format CHANGELOG,False
+5aa402e691a533f856b3c81bcd199d973d5f4476,2017-05-24 09:30:59,Cole Bemis,Increment version,False
+a254c688d94eaec724aed641e0cb9781d790b2ec,2017-05-24 09:16:38,Cole Bemis,Clean up package.json,False
+9a1a2456043ad908afb2ad40efaf6870e4893859,2017-05-24 09:15:20,Cole Bemis,Reorganize icons,False
+0ddc68b4b93552bd36770b80367df3b23c0273f2,2017-05-24 09:14:01,Cole Bemis,Reorganize site,False
+46535e4d967b6b1646a8780b0ec66e5bb0e94817,2017-05-24 02:42:15,Cole Bemis,Change settings icon,False
+b2c5ecab77cf3962372bb6d9bdecade143a42bef,2017-05-24 02:38:16,Cole Bemis,Format svgs,False
+dcef0041cc689ab7cbf34bf8156c22251819abf4,2017-05-24 02:30:24,Cole Bemis,Format svgs,False
+b25a67dc0f3bdd1251b1a02197c519fb35052346,2017-05-24 02:29:21,Cole Bemis,Add svgo,False
+119a9f2c15d1828d780fbc289e11ea861b24037e,2017-05-24 02:04:03,Cole Bemis,Clean up tooltip arrow,False
+4dc1bde023f2c1db961f1d4e7d916c366fde1cc0,2017-05-24 02:03:52,Cole Bemis,Remove old manifest,False
+27f126ffd6806c7e2a4542be9a468a94b7c99dbc,2017-05-24 02:00:06,Cole Bemis,Remove _headers,False
+17efc52497537634e552e8f05963e75ba6bc0aca,2017-05-24 01:59:04,Cole Bemis,Clean up,False
+90ea37c874390ae203a91a41e8dd26bd9035abeb,2017-05-20 23:51:28,Cole Bemis,Add _headers,False
+09676abf1c32282f060caf6d67194eb6cd0c668d,2017-05-19 03:14:42,Cole Bemis,Remove _redirects,False
+11f3719125aeadb4300cb0823d98c1a1e5aab378,2017-05-19 03:14:17,Cole Bemis,Add calendar icon,False
+d5ae8d7ccf2a8a6490427357dd702ced95bc78ba,2017-05-17 10:57:29,Cole Bemis,Update _redirects,False
+b8789c4bbce120ea79e841979073c18dad38bb93,2017-05-17 10:56:02,Cole Bemis,Set up proxy,False
+09a58298b194c9fe15e7e636556ba72c0ba95488,2017-05-17 10:54:30,Cole Bemis,Include _redirects in _site directory,False
+1b822f01ef8f7982cb9d53cdefa9e74996ce9801,2017-05-17 09:40:38,Cole Bemis,Add redirects file,False
+847f7dc129cba74f7837fe98c53b362f0436dd1e,2017-05-15 00:22:56,Cole Bemis,Add shuffle icon,False
+ecddc421d8b26d9b4391af4dd8fb453025f82fae,2017-05-14 12:30:17,Cole Bemis,Add music control icons,False
+c1493e73abfb5fcebb8e16609d87a53d2bf18d9f,2017-05-14 12:19:46,Cole Bemis,Add chrome icon,False
+41f42fa3dc3cf86647596e6c658306d28df67334,2017-05-14 11:05:13,Cole Bemis,Add more icons,False
+3849fd9c5b6040789fa493bcfc6c3b8f987b5ab8,2017-05-14 06:07:00,Cole Bemis,Add clipboard icon,False
+39f0e0f2162fb929a126f4c3325837a5f320b0ce,2017-05-14 05:50:24,Cole Bemis,Change footer,False
+e4a148598c54f868f5ec6babae1d4f9f54b9ad74,2017-05-14 05:46:29,Cole Bemis,Add book icon,False
+82a3535743ff417a8c35795b7008554693a68ea3,2017-05-14 05:34:30,Cole Bemis,Change formatting,False
+d62a465f267882443028809fa3ee5aed1147c298,2017-05-14 05:26:24,Cole Bemis,Add location icon,False
+99b5280a1e096a7f84ff14e95b63958c5bf6df93,2017-05-14 05:21:13,Cole Bemis,Add crosshair icon,False
+41d661cb5225e2187ff8e64ecfd948269979b956,2017-05-14 05:11:30,Cole Bemis,Add chevron icons,False
+39b2af1936f221c595cfbe42c9f39f0ac27f1ec5,2017-05-14 04:50:34,Cole Bemis,Add wifi icon,False
+873c50411f56deb030cbb87be3b4f0a3fd37cce1,2017-05-14 00:00:06,Cole Bemis,Refactor build process,False
+31337f00cc81bd13b22123d073e1025548235e0b,2017-05-13 15:14:55,Cole Bemis,Watch package.json,False
+49bc7a1735975d696d77db3dee1994c3ed317e1d,2017-05-13 15:06:11,Cole Bemis,Add npm scripts,False
+b25e6c255b84035bbe45e35672b891b4a069aa33,2017-05-13 14:20:01,Cole Bemis,Update automated build process,False
+6ee713361c398698b957b77d7abbc9835ee086b5,2017-05-13 11:49:50,Cole Bemis,Clean up,False
+bc56ecb2c2633badfbe68ec7256e1eaa53f19216,2017-05-13 11:24:34,Cole Bemis,Remove Google Analytics from head,False
+566757e2c5318ecb30bcc5e18725356fa0652856,2017-05-13 11:22:09,Cole Bemis,Remove Google Analytics,False
+f4181b16cfc290a1ba93b0d860bc1851a0e140db,2017-05-13 10:12:36,Cole Bemis,Fix donate link,False
+98629acaeb7ab2d9c95927e58ff689b6360c459e,2017-05-13 10:05:44,Cole Bemis,Remove zip,False
+a42d1ac0e8d00910bd8a1bd21a0d64a13ac1a71b,2017-05-13 10:05:13,Cole Bemis,Add build script,False
+f1974091f465478284661b4be6597bb3728a614b,2017-05-13 10:04:50,Cole Bemis,Update version number,False
+fe28ddc6871686a156443ca016552e37ac230115,2017-05-13 06:11:15,Cole Bemis,Change accent color,False
+f18160b5da418b3f8c94968eebda9a123397363f,2017-05-13 05:48:22,Cole Bemis,Merge branch 'gh-pages' of https://github.com/colebemis/feather into gh-pages,True
+21a22b1cd660c8bde8eb2bd81b4dfa28e8b9b7cf,2017-05-13 05:48:19,Cole Bemis,Add Gemfile and Gemfile.lock,False
+bb097fd8b9cfb1606b22e0a0cd71801a9711dc06,2017-05-13 05:21:09,Cole Bemis,"Merge pull request #2 from colebemis/tachyons
+
+Redesign Project Page",True
+8dca7bd5da106fc64b910d581ff1b7c3df45959d,2017-05-13 05:10:18,Cole Bemis,Merge remote-tracking branch 'origin/gh-pages' into tachyons,True
+8b395828751f9a045253190f84195b5abbbb4623,2017-05-13 05:08:08,Cole Bemis,Merge remote-tracking branch 'origin/master' into tachyons,True
+7f955e9b5adc17714b38657724d8948c074181cc,2017-05-13 05:02:49,Cole Bemis,Redesign with tachyons,False
+142acb61eb40e5da93f55642f78fa8442189d864,2017-05-06 05:52:09,Cole Bemis,Build feather-1.1.0.zip,False
+7d00cb1e47f50c2c751221ef27ff27858a00183e,2017-05-06 05:46:29,Cole Bemis,Change focus state,False
+285009c7ca8efb2d323585dd3601f4b5ce41eb60,2017-05-06 05:40:35,Cole Bemis,Add hover state to icons,False
+d802ec14eece0cf1fb4a4c0bcfb44fbd3b3251c9,2017-05-05 11:28:58,Cole Bemis,Add image svg,False
+68137152247cea3f24237514890a3f2a24912949,2017-05-05 11:14:37,Cole Bemis,Add share icon,False
+d92181296ec131129e5db3ccf5cdfd9dc4232f66,2017-05-04 11:23:05,Cole Bemis,Add move icon,False
+bc87de4560f9ceaf9958f81b18a6faad41aeb7bd,2017-05-04 09:58:40,Cole Bemis,Build feather-1.1.0.zip,False
+9943b10519fdf529f1abf04b34769b61029452ec,2017-05-04 09:51:28,Cole Bemis,Add tag icon,False
+12be412c6953c981d65547102bd110c90709cfa3,2017-05-04 09:09:50,Cole Bemis,Add battery icon,False
+285561930758c7c33b50f9e178e27b68d1fcc63c,2017-05-04 08:52:56,Cole Bemis,Add briefcase icon,False
+09a418fa09dde80a6ab8c7116c21e7e9af103cfa,2017-05-04 08:36:04,Cole Bemis,Add toggle icons,False
+6f3001a9033d17f525f66cf746fde7f7e2fc609c,2017-05-04 08:24:33,Cole Bemis,Update sunrise and sunset icons,False
+d893934fb9acc7b5aa330528caffe913828db953,2017-05-04 08:11:33,Cole Bemis,Change refresh and rotate icons,False
+bd385999bab6aceea9dc8f7ba5daab93e8953884,2017-05-04 07:42:27,Cole Bemis,Add download-cloud and upload-cloud icons,False
+262fc877b821b8871aa3efe7ded4c0bcd3fa2d13,2017-05-03 11:29:09,Cole Bemis,Clean up,False
+fa1d0d897d866fda0808ebc19383f97362507da5,2017-05-03 11:26:14,Cole Bemis,Add google analytics events,False
+fbd59fb925a51909bf85d9fd5dd6ee6141be2690,2017-05-03 11:12:10,Cole Bemis,Build feather-1.1.0.zip,False
+75d4bd45b2029bb115c1df62dc536a09e6c46425,2017-05-03 11:10:18,Cole Bemis,Remove male and female icons,False
+ed58484e0c4382708383aae6abafaa132afa84f0,2017-05-03 10:43:15,Cole Bemis,Build feather-1.1.0.zip,False
+224d2d770ccf0a4910fa850bae007b11277bf591,2017-05-03 04:29:07,Cole Bemis,Add external-link icon,False
+540783a2ced1b842a719766237e69779a6473b82,2017-05-03 04:26:52,Cole Bemis,Add play pause icons,False
+eb0123d0bd44b2c2c4d53b2d9c5b0f2650e4c1e7,2017-05-03 03:57:07,Cole Bemis,Add bar-chart-2 icon,False
+dc9659d5b266bb287bc391d246061abec4a3a513,2017-05-02 22:26:57,Cole Bemis,Add bar-chart icon,False
+5b40fa53a1509ac9fff2e80565e701b315c70001,2017-05-02 22:19:27,Cole Bemis,Add delete icon,False
+4468da381a2f60a7125ec9e72327115c33b78875,2017-05-02 22:12:29,Cole Bemis,Add refresh icons,False
+e0e5c10eb325d35602a83e0b74f3bf39ca147669,2017-05-02 21:50:45,Cole Bemis,Add rotate icons,False
+dfb4d42da495c8b34bcd8c226e89b61c9d200f99,2017-05-01 12:40:37,Cole Bemis,Add download and upload icons,False
+93aac29017bb7e6a852fbeae5e8b03c6e1e08c26,2017-05-01 12:22:41,Cole Bemis,Add watch icon,False
+09560f9c1410045c5c5ec4fb4da92336a0a07762,2017-05-01 12:18:26,Cole Bemis,Add thermometer icon,False
+6ca1993653e47cafb7d947b0a2c25255903c7921,2017-05-01 12:12:43,Cole Bemis,Add grid icon,False
+d19af5edfbe5fb1ec03cf4bb2347599857186a1c,2017-05-01 12:06:06,Cole Bemis,Add droplet icon,False
+332edb3c55e6de5efacff3a9cd2d1fc20cf73de3,2017-05-01 11:59:32,Cole Bemis,Add maximize and minimize icons,False
+165aacf1cb591dbaccc8434305537bcdc8b5f068,2017-05-01 06:44:53,Cole Bemis,Add target icon,False
+5a97ffec2b12b84397c6ed6ef475d3ee2bf00331,2017-05-01 06:41:36,Cole Bemis,Add life-buoy icon,False
+0a0fc4a72b169a3160b4e898379109612b11ebee,2017-05-01 06:32:50,Cole Bemis,Update command icon,False
+9ef5cf08840943ec19e737fa261d8b6c42efc618,2017-05-01 06:27:13,Cole Bemis,Add flag icon,False
+fea8628fb92010f6a836672b7f366f848f0b0eeb,2017-05-01 06:21:58,Cole Bemis,Update _config.yml,False
+8e5d1a8debb5904253e3f84660e2d1e000af387c,2017-05-01 06:21:50,Cole Bemis,Add command icon,False
+cc7185cb8ef0c576b7e2cd6fed8dc8fa4653837f,2017-05-01 06:15:36,Cole Bemis,Add trash icons,False
+ca8b91aa4cfa88cb6b21905ba49ca56f8fa25b2d,2017-05-01 06:00:37,Cole Bemis,Add monitor icon,False
+7f501e139e791b6a38f6a1e69ceb453ed7501b54,2017-05-01 05:21:46,Cole Bemis,Add google analytics,False
+0bd43ce36c867f6fe5f311fba1b6b13c26fb0fc8,2017-04-30 14:23:50,Cole Bemis,Refactor head,False
+2eb85fb548ce5a7271403eb5a10898269e7f2b61,2017-04-30 14:23:07,Cole Bemis,Update _config.yml,False
+de51f07b0d3f0434dc62b5ba1a50701bd3f7da5f,2017-04-30 12:54:20,Cole Bemis,Add download link,False
+db374ebb55f8b9ea267b48b464552ce5b67b2ca7,2017-04-30 12:54:05,Cole Bemis,Update footer,False
+8876b4b7528db1a4fd7f260a6894eb2902c14354,2017-04-30 12:53:37,Cole Bemis,Adjust spacing,False
+ac2b458824a991b55d92a1636c3e6e6f24d39e6b,2017-04-30 12:53:21,Cole Bemis,Add Change Log section to README,False
+0fe9272faaa3bd74878cd11c36bb2aca1dfe7c1f,2017-04-30 12:51:57,Cole Bemis,Build feather-1.1.0.zip,False
+d2b675f97c11b2d04464de4f09f6b475181147ae,2017-04-30 12:43:06,Cole Bemis,Add text align icons,False
+e464ceda24cde9dcb36be7bbf8e8d6d2b7978a9d,2017-04-30 12:22:44,Cole Bemis,Add maximize and minimize icons,False
+bd92d5533207ebc9522f2255e4cde51392b0282b,2017-04-30 11:55:25,Cole Bemis,Add layers icon,False
+0bdc179e87405a3902fe80318b839384f12ac879,2017-04-30 11:48:55,Cole Bemis,Add layout icon,False
+fbb352b472b210d95489c8274c8c655c693d8f3f,2017-04-30 11:37:36,Cole Bemis,Add power icon,False
+da9dd42e8b161364141c6e8daaa0cd0db2812671,2017-04-30 11:34:22,Cole Bemis,Add slash icon,False
+630a21d80abefa7b1020caa6de95b2e6de45f3aa,2017-04-30 11:26:18,Cole Bemis,Add check-square and x-square icons,False
+d6d5eccaafe64c46d52e568cfa1155414b3b5e99,2017-04-30 11:01:50,Cole Bemis,Add check-circle and x-circle icons,False
+39feb4fa33a931cc92b3ff5c45501381aaafccd9,2017-04-30 10:45:42,Cole Bemis,Add box icon,False
+ff4e6836bfd5447edaf098146c00ac10954b3fc9,2017-04-30 10:34:17,Cole Bemis,Add menu icon,False
+385aa9e7acc7ada77813a1a58a88b16505457b2e,2017-04-30 10:25:52,Cole Bemis,Add arrow icons,False
+b5ec1ffa8e8e17edf4dbbee6e64b15741ec9c168,2017-04-30 10:12:58,Cole Bemis,Add umbrella icon,False
+9fd2a5f08cff2cce87b56f93c1c74af3672cd2b6,2017-04-30 09:09:12,Cole Bemis,Hide male and female icons,False
+5f3494efb18bd8579d371c77cb0bee222e90e9fd,2017-03-28 11:33:17,Cole Bemis,Change male icon,False
+f425f3ec68d8e8adc8bd99b9cac935afd9b4d828,2017-03-28 03:44:41,Cole Bemis,Add twitter icon,False
+3bd6ae2c85f24124d0422a0fbacf7f039e62b5fb,2017-03-28 01:54:53,Cole Bemis,Add cog icon,False
+552d93e46fbe4a900defa335a34d3fd70c06b19a,2017-03-27 14:09:31,Cole Bemis,Add map icon,False
+87fcf453cf26337b92f79f611720b503d0521d8e,2017-03-27 13:54:09,Cole Bemis,Add male and female icons,False
+99d3e02104e1667736eeae4f1c55972d1126999f,2017-03-26 12:44:25,Cole Bemis,Add pocket icon,False
+5900bf55f851c3a14c62c425af1c8a04971fac49,2017-03-26 10:26:22,Cole Bemis,Add activity icon,False
+fbab61da6d5855dfdf8e51aff2cf4342ad6eaad9,2017-03-26 09:48:33,Cole Bemis,Add disc icon,False
+c19957b3ec74f9a6b4a4b6db2b1c11c5bd2188cc,2017-03-26 09:38:06,Cole Bemis,Add radio icon,False
+4d2c2941856bb7006c68440c38e1f666d58fa097,2017-03-24 14:35:46,Cole Bemis,Add headphones icon,False
+05fa142755a40bdd153be69e46a5158dc4a300e4,2017-03-24 14:24:49,Cole Bemis,Add cpu icon,False
+9e5c5590bb8e3ead76328b41d89aecf0bb94e7cc,2017-03-24 14:08:37,Cole Bemis,Add pie-chart icon,False
+096ce92877b0039e88b2d65d17e3c5049b6eb99f,2017-03-24 13:57:45,Cole Bemis,Add triangle icon,False
+75d4058ace075eda9ca4a080a7dca8582af22091,2017-03-24 13:46:42,Cole Bemis,Add octagon icon,False
+ef6c3fc836cdb796827618ad4bca9bfb53e1b3b8,2017-03-24 13:37:30,Cole Bemis,Add edit icon,False
+3a5ee537ef329edb4cdcaa1a238530cf2cfbe308,2017-03-24 12:36:31,Cole Bemis,Add printer icon,False
+68a106a8b5d2bf1dd8dc0253941a7fb794bdd42f,2017-03-24 12:19:30,Cole Bemis,Add alert-octagon icon,False
+b75ef281200015b1ea9dc40d34eafb7567af52c8,2017-03-24 06:55:23,Cole Bemis,Add alert-triangle icon,False
+9e8e48f08d692bc43b4afb6404e8af367fc5fe18,2017-03-24 06:30:47,Cole Bemis,Add alert-circle icon,False
+e8d778db96d3d3402351bffff1aa71fc5a686685,2017-03-24 06:26:35,Cole Bemis,Add info icon,False
+253e8af9c49034dca62d0197b86ee950803bcbe7,2017-03-13 11:02:59,Cole Bemis,Add music icon,False
+7b790f2150b52b1962d10e1a1691b11503039b72,2017-03-13 09:37:26,Cole Bemis,Add instagram icon,False
+0f13ad3b56d1b9d517408dda16569981624cfe02,2017-03-13 09:29:17,Cole Bemis,Add facebook icon,False
+bf3cfb16cc285b362964dafc7bdb45908576ed11,2017-03-13 09:07:56,Cole Bemis,Add user-minus and user-plus icons,False
+b822309e22c73d917e1f030dc3bdbd1f0387c7fd,2017-03-13 08:53:45,Cole Bemis,Add comment-circle icon,False
+8cd0e5022c161328ef0610c03b128a95627d329c,2017-03-13 08:40:21,Cole Bemis,Add comment-sqaure icon,False
+7980c32eb18fa7f4ef601e1112993bf1796d192e,2017-03-11 14:39:00,Cole Bemis,Add aperture icon,False
+94b9aa5c906c955f1166af8b2937c20fb5f46bab,2017-03-11 14:32:59,Cole Bemis,Add airplay icon,False
+9fac706b751aa5a3259bd0488e951979f94b3379,2017-03-11 13:45:41,Cole Bemis,Add inbox icon,False
+7b0f523daa937c351d3d798b439ee864d5e013c8,2017-03-11 13:40:51,Cole Bemis,Rename icons,False
+0c7d5a57192f16007ab5df9d0ff96b370822955b,2017-03-11 13:25:03,Cole Bemis,Add moon icon,False
+d6691a0abfddb8fb91fbd4bb68005f022204c7ec,2017-03-11 13:19:34,Cole Bemis,Add wind icon,False
+1b580a5aa20facc97c07345ec254736a0d273e5d,2017-03-11 03:28:17,Cole Bemis,Add sun icon,False
+2ba9d51f8e9f9b75e773d79cd3d0cd43128a43a4,2017-03-11 03:23:57,Cole Bemis,Add sunrise and sunset icons,False
+8061874aea675eab5debd3853b8180a38388114f,2017-03-11 03:15:37,Cole Bemis,Add file icon,False
+73a57952406344bed4c0d6515db66b4dd2c830e1,2017-03-11 03:14:25,Cole Bemis,Add clock icon,False
+30324620519788e2c49beeaa26212aee1084724e,2017-03-07 03:16:08,Cole Bemis,Add user icon,False
+3b0545b34978d7d3b750ae8b18be8a43368676d7,2017-03-07 02:56:57,Cole Bemis,Add x icon,False
+0d4c3244680ed9c3602f6d662b189acc1fed8241,2017-03-06 08:41:30,Cole Bemis,Add check icon,False
+f5c3851f94730742c7e6a9677098902630d8046e,2017-03-06 08:30:33,Cole Bemis,Add minus icon,False
+3f8b1a6716537070db24016744897e5ce0dba998,2017-03-06 08:18:19,Cole Bemis,Add plus icon,False
+5c1c1bea21ece17b476e370763b6df919fb45c09,2017-03-06 08:10:11,Cole Bemis,Add square-minus icon,False
+1cd684cad6bba55116169dad220a1b606a7ca7b5,2017-03-06 08:04:07,Cole Bemis,Add square-plus icon,False
+edd9fe8263638d9fd06801d5b1a3384c297649be,2017-03-06 03:36:08,Cole Bemis,Add loader icon,False
+be7633829417721c601d2da1e5303e1cf6685f00,2017-03-06 03:23:07,Cole Bemis,Add filter icon,False
+3398553304286ed67627f2cb131a4b94e6bab451,2017-03-06 03:12:02,Cole Bemis,Add award icon,False
+793ab79aace94252a4a7f249ad30e59b068aefb3,2017-03-06 03:04:14,Cole Bemis,Add zap icon,False
+12ddf707296a334f710606bae8c93da2a4cc8736,2017-03-06 02:58:52,Cole Bemis,Add heart icon,False
+03fe0d5f6fb0ba53fc0ef97139f49dc755cf8d9a,2017-03-06 02:53:54,Cole Bemis,Add globe icon,False
+4d96bf4e8d78ac550486d40f0186e9aad2ce3e71,2017-03-06 02:47:55,Cole Bemis,Add anchor icon,False
+ffb70467cf225cda2149745b8066677d20ac3ba1,2017-03-06 02:46:04,Cole Bemis,Add vidoe-off icon,False
+da1da51176fdbecbbea5686ecd726dd364e3e55c,2017-03-04 05:30:26,Cole Bemis,Add video icon,False
+19254cbfcf7428c28b254002d85dfbe87643f885,2017-03-04 05:21:16,Cole Bemis,Add bluetooth icon,False
+ccd3179a6902df559cbc733f96c6cd4330ca67b8,2017-03-04 05:13:11,Cole Bemis,Add cloud-off icon,False
+1a0ce64abf7920f1939993b001bbd3b7e557a25c,2017-03-04 05:07:06,Cole Bemis,Add cloud icon,False
+c25430db2c462bf8d8083fbbfa4af4ce3c3ec25a,2017-03-04 04:52:08,Cole Bemis,Add star icon,False
+57f64bf1480a51dfdc9d00cfc0a44a4ab3b89650,2017-03-04 04:50:08,Cole Bemis,Add circle-minus icon,False
+266920e61698d1493e6b0985d7e22af3059db2f6,2017-03-04 04:40:38,Cole Bemis,Add circle-plus icon,False
+7c8fee2f69ece45d908c852c8303f892f26ea4fa,2017-03-04 03:17:00,Cole Bemis,Add bell-off icon,False
+dd99b3cd1f4a2c629e1311011c47f226c832d8f7,2017-03-04 03:09:40,Cole Bemis,Add bell icon,False
+25efe646cda22f957ef2f63023810308d4d2f148,2017-03-04 03:06:28,Cole Bemis,Add mic-off icon,False
+5f102ba08e0cf608df2d3aa3f157db17fddce64f,2017-03-04 02:59:16,Cole Bemis,Add mic icon,False
+ad0f30e4806201d232affe7d5c17768ec95dc9a8,2017-03-04 02:49:50,Cole Bemis,Add zoom-out icon,False
+cbcc81b9f4fbfbea165b2a016a22f158a64be9c1,2017-03-04 02:47:06,Cole Bemis,Add zoom-in icon,False
+d6fa319479864ba05db70785a8d5b4380f421758,2017-03-04 02:44:02,Cole Bemis,Add phone-forwarded icon,False
+8a5c9e87faaea6575867e1ac7f0e647b394d6581,2017-03-04 02:35:18,Cole Bemis,Add phone-missed icon,False
+b6724fc64828ab0827b9d5e502f97b3df21baac7,2017-03-04 02:33:03,Cole Bemis,Rename incoming-call to phone-incoming,False
+d40595163347c9d3efa17c9b5135483d48b5d282,2017-03-04 02:31:34,Cole Bemis,Rename outgoing-call to phone-outgoing,False
+51c6d5d76dde5aea4434bff028277db018c8a1ec,2017-03-03 14:05:37,Cole Bemis,Rename phone-outgoing to outgoing-call,False
+27dda37fc64d359973988620d297d179e9aa4b50,2017-03-03 14:04:16,Cole Bemis,Add incoming-call icon,False
+0dceb116bd064a33b20f46b90e804982bfc6e583,2017-03-03 12:07:24,Cole Bemis,Add phone-outgoing icon,False
+1300d780ba3ea53f52327df83d3ff58360ae6ebf,2017-03-03 09:17:41,Cole Bemis,Add icon download tooltip,False
+eee040716202f691606941f7eaf54095425e96ba,2017-03-03 01:46:11,Cole Bemis,Add phone-call icon,False
+8daf3c462b3ccfd152e03db04b16962437267808,2017-03-03 00:37:35,Cole Bemis,Add phone-off icon,False
+19a2438f3ad6343064cd1957b7482a091ebe0adb,2017-03-03 00:24:19,Cole Bemis,Add thumbs-down icon,False
+0805152465c5ddebff4d55e1c1343da6ca8a135e,2017-03-03 00:19:31,Cole Bemis,Add thumbs-up icon,False
+f63a0102e2b38e7e051b2cf1a287cb97bbde2645,2017-03-03 00:08:26,Cole Bemis,Update CHANGELOG.md,False
+afb80c9e665430e3e9d5acde8cf3f0db03aa2bc2,2017-03-02 13:58:25,Cole Bemis,Add phone icon,False
+45006143a4fc98b1fe78b4d7db8726ee42cc5de9,2017-03-02 13:51:55,Cole Bemis,Add bookmark icon,False
+1edb0619382ee3d749aa71ecb4fd6153a9ce1e83,2017-03-02 13:49:30,Cole Bemis,Add home icon,False
+56dd189ea6222a9ac1117987ae94a099fe6eb402,2017-03-02 12:51:10,Cole Bemis,Add hash icon,False
+f735ad2a160645c94f757269a156b63abad95bc5,2017-03-02 12:42:53,Cole Bemis,Add at-sign icon,False
+8c7750354b61ca68d341a419cb8e9e4a9d348be4,2017-03-02 12:32:23,Cole Bemis,Add map-pin icon,False
+39ef8070317f4c74045b8bcebfe79375c9fbf79d,2017-03-02 12:19:05,Cole Bemis,Add search icon,False
+3e0d4614a0256bd11de655f7603dc35ef38a5d19,2017-03-02 12:15:19,Cole Bemis,Add camera-off icon,False
+d417af500b9b1264edb41ceb74e28667642e0c14,2017-03-02 12:03:44,Cole Bemis,Add camera icon,False
+3e913c80bb81ab2dc91f665124593665761c23dd,2017-03-02 12:00:11,Cole Bemis,Add folder icon,False
+e1011bd10c211b543a101fbca44b769b12b10a56,2017-03-02 11:50:27,Cole Bemis,Add eye-off icon,False
+cb7be17f1edc9c9536e6193b5c476299087d62d0,2017-03-02 11:47:48,Cole Bemis,Add eye icon,False
+afa7c152021195610dad0d788c790aef4a618049,2017-03-02 11:36:06,Cole Bemis,Add scissors icon,False
+47e66cc67ada332fb161baaabc704195b18bb43d,2017-03-02 11:25:02,Cole Bemis,Add mail icon to change log,False
+75c48b99dd9ba130d8b568ea1bd19b37c33ab7cb,2017-03-02 11:19:11,Cole Bemis,Add feather icon,False
+da9574c87b718cf637fb32ec7228f388a9e4fbbf,2017-03-02 11:12:38,Cole Bemis,Add CHANGELOG.md,False
+a9dd7b4b569e31b9ed7b368e0f6ce021c7288416,2017-03-02 10:35:58,Cole Bemis,Remove preview image,False
+7344fb09c4bff0e24d7fd08c72b5cd976234a9a0,2017-03-02 10:27:04,Cole Bemis,Add twitter meta tags,False
+d49c10646ece472cb6b29a7944ed253b3fed5497,2017-03-02 10:21:58,Cole Bemis,Add og:image,False
+e19ea6c35c1bd64788a249ee4bcdd1c726e97441,2017-03-02 09:55:06,Cole Bemis,Add favicon,False
+f7bd8edb471eee7038aebac8567f690959e4106d,2017-03-01 11:02:33,Cole Bemis,Rename files and directories,False
+59f037cdc8e2be165c0514749611653712f0578e,2017-03-01 05:10:22,Cole Bemis,Include version in footer,False
+41b8ca19a98251ac1ddb25d2d9e5414b278d16b2,2017-03-01 05:10:11,Cole Bemis,Add package.json,False
+b0c4148d55f2180ae8353afbd1ddd7f43b0d63a1,2017-03-01 03:28:24,Cole Bemis,Change data_dir to root directory,False
+ac531ba6c64ae04285694041352ce853d3a08823,2017-03-01 03:27:56,Cole Bemis,Move icons.json to root directory,False
+f4f82112bd80dc325e1c07d961637b3bace3fd8b,2017-03-01 03:27:25,Cole Bemis,Rename 'icons' directory to 'svg',False
+059e28b91ebbc45410d05fe2a09d8049f216ed0b,2017-03-01 01:50:38,Cole Bemis,Change issue template format,False
+fadf1c5adf0f2e5edd0417b83930325d78ca4510,2017-03-01 01:49:07,Cole Bemis,Change tweet text,False
+1a204b75e04d6f50acb368dc424ef47b5052b000,2017-02-28 11:02:18,Cole Bemis,Fix license link,False
+8b5d6802fa8fd1eb3924b465ff718d2fa8d61efe,2017-02-28 11:01:30,Cole Bemis,Update LICENSE,False
+1c648ed16813aba3eed036910039d67965364ffe,2017-02-28 10:52:58,Cole Bemis,Add LICENSE,False
+fcb9913ec36d5e09a4a6a810efe727ff4de9eea6,2017-02-28 10:28:04,Cole Bemis,Fix merge conflict,True
+615bdd05d72afedc4a583862e69799b6b05795fc,2017-02-28 10:27:10,Cole Bemis,Update ISSUE_TEMPLATE.md,False
+97c748f99bc4641d7ab92d47aab52bea67a9f21f,2017-02-28 10:25:58,Cole Bemis,Change license link,False
+809043c9d40ebd9d9bfb6d18c737ec556e54b69e,2017-02-28 09:09:42,Cole Bemis,Update ISSUE_TEMPLATE.md,False
+11699fc0620bdccac7835d23606cec1b224c605f,2017-02-28 09:07:32,Cole Bemis,Add real tweet link,False
+cf86c77ec4a7c2c5b3e63fa9b7038a35d3c3432a,2017-02-28 09:07:13,Cole Bemis,Change button hover style,False
+8be90100763d407a0e61a461fe8d52a7b886bd60,2017-02-28 09:06:57,Cole Bemis,Add _config.yml,False
+f76c7fa4742de3bb701bef2e3eef600a925ff4cb,2017-02-28 09:06:03,Cole Bemis,Add real icon request link,False
+ebc76104363b6d949fbde4840edf57607b6cc45a,2017-02-28 08:57:38,Cole Bemis,Add ISSUE_TEMPLATE,False
+504fe4b5a3da37ea3d62802e1df7095edaa74b53,2017-02-28 07:58:21,Cole Bemis,Fix paypal link,False
+ec78800760c7a2811dfa45d7369c4e7de41a95f3,2017-02-28 07:58:14,Cole Bemis,Update meta tags,False
+d35968bb69f9cb2abda9b1c646239c204ef3d611,2017-02-28 07:28:28,Cole Bemis,Add meta tags for social media,False
+271b2bfadd7fa0aefbb0618f24e2f255bc6862b8,2017-02-28 07:08:01,Cole Bemis,Add real footer links,False
+a76ae6cb46bd96139de8668c496b9a263b97ca77,2017-02-28 05:02:24,Cole Bemis,Edit README,False
+01744cbf14b821d00fdd7c71ea8b67b0c89bd1be,2017-02-28 03:29:16,Cole Bemis,Update copy,False
+20fdd12e3d9db9ff46bb768c1feaecdfbab2ba38,2017-02-28 03:26:29,Cole Bemis,Add README,False
+4a794e1c149c03631f78dad9045f795365ab3331,2017-02-28 02:14:19,Cole Bemis,Fix font smoothing on firefox,False
+71e0c569ac7fc7886ca9bac70401ee932c94d1f7,2017-02-28 02:12:31,Cole Bemis,Change button hover styles,False
+b24716ebb39a3e7ee082da47c8b73366b21bc5f2,2017-02-28 01:57:41,Cole Bemis,Update styles,False
+92116b8a843a818a58db154820ab1457cbc1e7fc,2017-02-27 06:58:30,Cole Bemis,Update page styles,False
+b5662c709581682ffde75080c0fb8c9b081e72fc,2017-02-27 06:58:18,Cole Bemis,Update footer markup,False
+ad8509dd2f81d7e7c4aeeca8b1cdb28b93e11f81,2017-02-27 04:45:28,Cole Bemis,Style icons section,False
+3f00ee3ef56299e548bed68cabd50ffe62a77d62,2017-02-27 04:14:46,Cole Bemis,Remove SCSS color variables,False
+ff9af77352a5e7c048081fffb5dfaf48a15dbefa,2017-02-27 02:10:07,Cole Bemis,Style request section,False
+f63c1d4342792553bd87fe1158ab1f0ac04d6fa3,2017-02-27 01:57:46,Cole Bemis,Add base icon styles,False
+1e30c63b1ae51934ee68f898aa7f28fdacfbdbfc,2017-02-27 01:57:25,Cole Bemis,Style header,False
+30dcf87cbe2cbb23015c0a7512fad639fbcd560f,2017-02-27 00:32:29,Cole Bemis,Update request section,False
+a059fe8a36f3070921d554ac496558f05d48ce31,2017-02-27 00:32:11,Cole Bemis,Update footer,False
+3e99de0ab18bce8802804fb12e307a4d5429bcfd,2017-02-27 00:31:54,Cole Bemis,Add icons,False
+fd611477eb56b629f82f699bd8293e2b46fe0310,2017-02-26 09:50:58,Cole Bemis,Remove target _blank,False
+b2aefe1d1f0e39826e46aadd8bec840c8a68d292,2017-02-26 09:50:41,Cole Bemis,Add request icon section,False
+6fde539dd4c7e0a0cc95203736f5d564394d3692,2017-02-26 09:38:33,Cole Bemis,Add viewport meta tag,False
+220bfadd589dbbaedb8d26907af47d61a4540b8b,2017-02-26 09:38:10,Cole Bemis,Add footer,False
+e4c1c6f762b1117e1b0f01b9bc60e8fb9594e431,2017-02-26 06:22:25,Cole Bemis,"Clear ""tweet"" href",False
+63c9dc764f83cdfaa39fd952f65a36620c40df23,2017-02-22 14:07:32,Cole Bemis,Update header content,False
+5763da87c86cecad81cc8db4fc1140333144ae66,2017-02-22 13:27:21,Cole Bemis,Add stylesheet,False
+00fbbd6763f4720c5ef36af96201a275aee17487,2017-02-22 12:50:51,Cole Bemis,Use jekyll include,False
+5a3780b0f1664d23e575c390f395763b34a55f7c,2017-02-22 12:42:06,Cole Bemis,Set up hello world,False
+e1ea1aada825bc05042e6e36df5d10f757476f51,2017-02-22 12:15:06,Cole Bemis,Clear gh-pages branch,False
+2053ef2bfef21369ad69b5c85780764857d3b2e2,2017-02-06 02:54:11,Cole Bemis,Update gitignore,False
+dbb4c1c80c23f49cab878fafcdeecff3b0f61c3a,2017-01-29 11:59:48,Cole Bemis,Create IconGrid component,False
+6ebc2a095b37be4814e6c03a72b564bcc0b8c62c,2017-01-29 11:49:59,Cole Bemis,Create IconContainer component,False
+a85b7b6369f3ed6ffaa74414cbcff331ebbaffbc,2017-01-29 11:31:30,Cole Bemis,Create Icon component,False
+4c6b7ad3b85d262ad4c120959a8103d2e0f246e0,2017-01-29 11:31:18,Cole Bemis,Add vuex,False
+29abfc96cff93c39487d08526d4144e635846f73,2017-01-29 05:01:46,Cole Bemis,Install webpack-dev-server,False
+2f70a91dce535e467e2ba2062acb78dca7a5ae9a,2017-01-29 04:45:20,Cole Bemis,Set up vie-loader,False
+9ce3c68a9b0ec53d0ecb5c3d58edd1275a2bbfd0,2017-01-29 04:33:26,Cole Bemis,Import Vue,False
+9cbd7ca24d6c990fab3397d0f62966698c059a40,2017-01-29 04:16:21,Cole Bemis,Set up babel,False
+45602abe9eef71e3b7ae2dba2fba530f45829eaa,2017-01-29 03:25:50,Cole Bemis,Set up simple webpack config,False
+4cf99d1d0a883765d7f843e2f0287e77004b61f1,2017-01-29 03:14:34,Cole Bemis,Install webpack,False
+4bb270201511c9ed98d60e19bc6399a8692f41c3,2017-01-29 03:00:51,Cole Bemis,Move script to main.js,False
+7ce70f6c625c97ed6ec751f3117625ddb939f130,2017-01-29 02:51:40,Cole Bemis,Add new icons,False
+ab3cc7ef5afa1d8e112a02c6ac91ecd25fa551ac,2017-01-26 12:51:52,Cole Bemis,Create Vue app,False
+3afa82d3db7235cef12d3a2c9e0fabc2bcf7e0a9,2017-01-26 10:14:58,Cole Bemis,Inject svg using javascript,False
+48269adfe09d8bd0abaab5ed3e527b305796c0ab,2017-01-26 10:14:30,Cole Bemis,Edit .gitignore,False
+a49847ba959974e4b4540b2581702e420f25337e,2017-01-26 10:14:20,Cole Bemis,Clean out branch,False
+4ae8799c901798fcb4da770424415e1b307cc0d7,2017-01-24 12:27:25,Cole Bemis,Add index.html,False
+3c8850adba168320298ab8d7ff78f87975201e1d,2016-09-15 14:25:23,Cole Bemis,Update README.md,False
+c029e166d14e4f0e0b82c84fdc2a9c483bc5f2ac,2016-09-15 14:02:52,Cole Bemis,Edit .gitignore,False
+867b4e3fa8a177559e41a4e595d0478dbcc73a4b,2016-09-15 12:37:50,Cole Bemis,Edit .gitignore,False
+a7c2ebfc44fa98fbeb57b5f62eb73fbbca57e16a,2016-09-15 12:33:51,Cole Bemis,Edit README.md,False

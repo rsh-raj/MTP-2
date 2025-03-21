@@ -1,0 +1,1893 @@
+Hash,Date,Author,Message,IsMerge
+e04da63b699afdb807ff1b39c274d9f4274f9346,2025-03-21 11:26:18,Yashar,Update privacy policy for compliance; update dependencies,False
+d06107acde788d471dac23f2572336217ccfced8,2025-03-18 04:50:53,Yashar,Fix: passport-twitter breaking change in v1.0.10,False
+a7d97bafd721a3a53864d468215d22ed904f8859,2025-03-13 03:23:16,Yashar,Update dependencies,False
+90ad7626a373217e8aa075cae473d5ccefab4c10,2025-03-13 00:37:02,Sunjay Kumar,Replaced favicon.png with favicon.ico,False
+af65fe21fb92369acd205233aab13a5c090e4bb7,2025-03-06 08:58:43,Karys Barbosa,Dockerfile: updated image and optimized,False
+079a0d7ed1474e328777d47c0fa4af5dd07c0c2b,2025-03-03 19:11:24,Yashar,Update dependencies,False
+35c9d1040f3b1477f828aa0c7aa05b57d49cc2a8,2025-02-21 21:50:27,Yashar,"Migrate from nyc to c8, update dependencies
+
+The code coverage package, nyc, hasn't been well maintained for a number of years. c8 is a drop-in replacement for nyc and is better maintained.",False
+7851fccfa236651633305682ddccc2f300b55d63,2025-02-19 07:30:01,Yashar Fakhari,Fix: Host-header Injection in Password Reset & Email Verification,False
+1e878a2032fafc330a5f1476d91ffdc51a81cfc0,2025-02-19 05:26:08,Yashar Fakhari,Update dependencies; specify Node>=22.12 for require() ESM support (#1327),False
+2b6b9b560dacf230bcb5a4a8ae3cfd2224581cf3,2025-02-06 13:07:09,Yashar Fakhari,Fix the path for popper.js,False
+9692496d0713bb0756c1225fa8697e638be36784,2025-02-03 14:37:22,Yashar Fakhari,"Update README.md
+
+Added working demo link",False
+6aa82de149bdc8c350e23bcdf241e31700a9a2f0,2025-02-02 06:45:22,vimark,"Added Logout Everywhere
+
+Added logout functionality to allow users to log out from all devices and locations.
+
+---------
+
+authored-by: vimark <vimark1@users.noreply.github.com>",False
+2edc5592f791070f1052f77fb9ab42323969555a,2025-02-02 01:31:45,Yashar,Remove CodeQL reference that is not needed,False
+ab6e6dbc333b82302f61500bbaa437ceecf63a66,2025-02-02 01:29:17,Yashar,Don't save sessions in db if not needed,False
+e42d0f59dbfdb639aca6c9915c0a69f7c25e7eee,2025-02-01 23:14:18,Yashar,"Security and integration enhancements, dependency upgrades, bug fixes
+
+Security Enhancements
+- Added URL validation for redirects through session.returnTo (CWE-601).
+- Fixed OAuth state parameter generation and handling to address CSRF attack vectors in the OAuth workflow.
+- Added additional sanitization for user input in database queries using $eq in MongoDB.
+
+API and Integration:
+- Unified formatting for authentication parameters in route definitions and passport.js configuration.
+- Refactored common code for OAuth 2 token processing in passport strategies to improve maintainability.
+- Reworked the GitHub and Twitch API integration examples with additional data from the APIs.
+- Reworked the Twilio API integration example to use Twilio’s sandbox servers and test phone numbers.
+- Upgraded the Pinterest API example to use v5 calls instead of the broken v1.
+- Reworked the Tumblr API integration example with additional data from the API.
+- Added a properly working OAuth 1.0a integration for Tumblr.
+- Removed sign-in by Snapchat due to increased difficulty for developers and a focus on hackathon participants.
+- Removed Foursquare OAuth authorization and updated the API demo with new examples.
+- Renamed Twitter to X (Some of the backend and code still reference Twitter due to upstream dependencies, and the login button is using Twitter colors pending X addition to bootstrap-social).
+
+Update/Upgrades:
+- Dropped support for Nodejs < 22 due to ESM module import issues prior to that version.
+- Migrated from the unmaintained passport-linkedin-oauth2 to a passport-openidconnect strategy.
+--- Added support and examples for openid-client.
+- Migrated from the deprecated paypal-rest-sdk to an example without the SDK, providing OAuth calls depending on the page state.
+- Migrated from the unmaintained bootstrap-social to a fork that can be easily patched and updated.
+- Migrated eslint to v9, and its new config format (breaking change).
+- Migrated Husky to v9, and its new config format (breaking change). Fixed Windows commit issue.
+- Updated dependencies.
+- Added temporary patch files for connect-flash and passport-openidconnect based on pending pull requests or issues on GitHub.
+
+Other:
+- Fixed a bug that prevented profile pictures from being displayed.
+- Added authentication link/unlink options to the user profile page for all OAuth/Identity providers.
+- Fixed typos, broken links, and minor formatting alignment issues on various pages.
+- Fixed spelling errors in startup information displayed in the console.
+- Refactored URL validation in unit tests for Gravatar generation to conform with CodeQL rules. Even though CodeQL does vulnerability checks, this is not a security issue since it is unit tests.
+- Updated the placeholder main.js to use the current format (not deprecated JS).
+- Updated the GitHub repo worker/runner configs to use proper permissions
+- Return exit code 1 if there is a database connection issue at startup.
+- Added the --trace-deprecation flag to startup to provide better information on runtime deprecation warnings.
+- .gitignore file to exclude the uploads path.
+- Updated the copyright year.
+- Updated documentation.",False
+ed7f82d8f80426ab7eb267fb15601668bec993a8,2023-10-29 20:00:43,aslezar,"Update README.md with new twitter logo (#1287)
+
+* Update README.md, replaced twitter with X (twitter)",False
+d1d7b3798f564e8c19cd79667b9a41a471d14b15,2023-10-26 17:29:35,Yashar Fakhari,"Update README.md (#1286)
+
+Fixed the broken tumblr logo and added a divider line before the Project Structure section to improve readability.",False
+cf2f40f4541faddf188b0febc481b98f3fdeb5ca,2023-10-26 08:08:47,Yashar Fakhari,"Limit husky to non-prod & Upgrade/Fix Docker (#1285)
+
+Upgraded the docker-compose to version 3.8.
+Upgrade the docker Node.js image to 20-slim.
+Set mongo image to be the latest instead of a preset version that can go out of date often.
+Added the ability to set the docker environment as development or production.
+Added a check to the package.json prepare script to only install husky’s execution in non-production environments. This prevents npm install from failing in production environments, where dev dependencies may not be installed. Husky has been a dev dependency.
+Fixed a bug where docker-compose was overwriting the application/build folder causing removal of css files that were built with sass.
+Removed the extra end of line spaces in docker-compose.yml.",False
+c7249e9f240f1036f6866f7452d9e3dc28c39db4,2023-10-26 00:19:59,Vatsal Bhuva,"Fix text colors in the api example index  view
+
+Adjusting the text colors to black or white depending on their contrast ratios with the background to unify the text colors while maintaining maximum contrast ratio.",False
+2c9abe36305d0028e1a09525a60ab953bbff7499,2023-10-18 03:51:05,Yashar Fakhari,Update dependencies (#1283),False
+dcf10bd62055c5b5e92af67719228238cc952767,2023-10-03 06:18:01,Yashar Fakhari,Update dependencies: fix vulnerability warnings (#1267),False
+56bd29f7e8d3bfda1bc78350e7d16c82dd2c81cf,2023-07-29 06:56:23,Yashar Fakhari,Update ChangeLog.md,False
+f6cad1522cfa297fd6eba368117c15eb0e169248,2023-07-29 06:42:13,Yashar Fakhari,Update prod-checklist.md,False
+9dbaf8e60ae4e873325fc5e99dbd815f5bb30c40,2023-07-29 06:27:05,Yashar Fakhari,Update readme.me,False
+c2cfcc150c9db7822dd57db3dbf3c3e7d903376c,2023-07-29 00:22:16,Yashar Fakhari,Adjust import order for lint rules,False
+1e08c8b8a0010a1487a01a51bd6a677a9f10ff02,2023-07-28 20:56:43,Yashar Fakhari,Update dependencies & remove chalk (unused),False
+68dc9192ef83a281056600d65157d5daeb136188,2023-07-28 18:51:54,Yashar Fakhari,"Removing Instagram support
+
+Instagram moved to the Graph API and restricted their API access a few years ago.  As part of the restrictions, once approved, apps can only the user’s profile and content.  Meta for Developers portal also states:
+Note that Basic Display is not an authentication tool. Data returned by the API cannot be used to authenticate your app users or log them into your app. If your app uses API data to authenticate users, it will be rejected during App Review. If you need an authentication solution, use Facebook Login instead.
+
+As part of the policy change for an app to get approved during the reviews, the app developer needs to develop a “quality” application using temporary tokens for test accounts.  Prior attempts to obtain credentials from Instagram for the demo stack have also failed. The previously used dependencies such as passport-instagram are no longer maintained and have broken for a few years. Hackathon starter’s login integration and API demo page have been non-functional for a few years (and we haven’t had github issues or requests about them).  Commercial providers such as Auth0 also no longer list login by Instagram as an offering.  Hence removing the Instagram login and API examples from the project.",False
+3fbec293a8cfa3124cba921e53b360e649c26459,2023-07-28 05:50:05,Yashar Fakhari,Minor visual improvements,False
+2cd77b2c855a1cd390ce7df0d18662cbc786ec76,2023-07-28 05:26:57,Yashar Fakhari,Warn about a BASE_URL mismatch,False
+ad011f9511ebfb50035805499aebe41ddbead070,2023-07-27 17:54:58,Yashar Fakhari,Adjust UI spacing (#1243),False
+d5888f6c57552c71bc061bb6fec37233dc756597,2023-07-26 06:39:16,Yashar Fakhari,Update CHANGELOG.md,False
+e7e2204c07f57da20112f6194834033545175ede,2023-07-26 05:01:23,Yashar Fakhari,Update CHANGELOG.md,False
+6bfad197eee5ee8233d7167ebec044d906ecf38f,2023-07-26 04:58:16,Yashar Fakhari,Update CHANGELOG.md,False
+9774ebd86195a6eb002c8761a68c904eaaa335d1,2023-07-26 04:52:06,Yashar Fakhari,Updated dependencies and changelog,False
+5d56b81f6f388d99aca90ce4c641f1c44f42fb8a,2023-07-26 04:01:55,Yashar Fakhari,"Improve the chartjs/AlphaVantage example
+
+Add back up data to display if the API fails to return data",False
+850d964df65b091ca894337cf66ea028d42c9978,2023-07-26 02:10:19,Yashar Fakhari,Adjust formatting for api index,False
+34291655d24742b2e1f1bf072898673d8671e200,2023-07-26 00:51:16,Yashar Fakhari,Add express rate limiter,False
+98a1ad55231747ea339438d475bd73acc74a2937,2023-07-25 23:05:26,Yashar Fakhari,"Improve Last.fm API example
+
+Do not post the error stack dumps in the browser
+Remove the Artist image as it is no longer provided thru the API
+Minor formatting changes",False
+044d77274565f075fe79e70ac6f865bc0f7e3f82,2023-07-25 19:54:29,Yashar Fakhari,Upgrade nodejs for docker,False
+bbdb83ec01bb9ea8a8233796be32e0caf3ae690a,2023-07-25 19:41:29,Yashar Fakhari,"Update default gravatar
+
+Gravatar.com responds with a 404 for the exisitng link. Changing the link to use the example at https://en.gravatar.com/site/implement/images/",False
+8476b2fb4ae4c4d00754395b53f373cbc07f882f,2023-07-25 18:56:18,Yashar Fakhari,Added a new demo link to README.md,False
+4a038ca0fadfa47246a2ccc86c653b78264aa90e,2023-07-25 18:52:43,Yashar Fakhari,Update copyright year,False
+9ce5e07f955821c7c18d998d56a037ce22a59544,2023-07-25 18:38:48,Yashar Fakhari,"Improve user controller
+
+Added additional sanitization and validation for external inputs. Manual testing does not show a vulnerability.  Lusca provides input protection.  The additional sanitization and validation is to add another layer of protection.
+
+Add missing mongoose 7 upgrade changes for the forgot password token processing route.",False
+097abd76cef8b89a19f7f9836840bc3422c0602b,2023-07-25 18:35:26,Yashar Fakhari,Generalize ToS & privacy policy samples,False
+0f0ca447fede63d5b65facc27497e3d9e0788224,2023-07-25 07:21:45,Yashar Fakhari,Add mongodb memory server with MongoDB 6.0.6 for testing,False
+18804e838b8ca4956029b19de4ada47aa5928f3d,2023-07-25 07:03:38,Yashar Fakhari,"Merge pull request #1241 from sahat/test_fix
+
+Fix unit tests for CI",True
+c1339dd270bc073d0362113660f7951f9c4ae05a,2023-07-25 06:54:06,Yashar Fakhari,Respond w/ Page Not Found for 404,False
+ce6d8e4135885fa6a4aeabe710f9be64233de855,2023-07-25 04:14:32,Yashar Fakhari,"Revert ""Migrate off mongodb-memory-server""
+
+This reverts commit 12fa2a0b81b451096050fc83cedc72c0903f9409.",False
+8389b05079e9efc9bb27776818b74217f1aeb80f,2023-07-25 04:04:44,Yashar Fakhari,Add missing parameters to Lob example,False
+a71e5b32808a5c7b151ba4f48072c34968893bc3,2023-07-25 03:54:18,Yashar Fakhari,Add handler for 404 to avoid a 500,False
+95ba6839dcec0f85d1f6570f4a31a82ebc61dd09,2023-07-25 03:34:08,Yashar Fakhari,Update README.md,False
+db130ade69b9cd5de993c04120dc9661253d32f7,2023-07-25 03:31:27,Yashar Fakhari,Remove travis.yml,False
+12fa2a0b81b451096050fc83cedc72c0903f9409,2023-07-25 03:29:41,Yashar Fakhari,Migrate off mongodb-memory-server,False
+384e6d805f18f9e31389df9eabfc104d43b34dad,2023-07-25 03:21:01,Yashar Fakhari,"Rename the cookie and set secure attribute (#1240)
+
+Renaming the browser-side cookie can reduce the chances of fingerprinting the tech stack (ExpressJS) by malicious parties.
+Setting secure attribute in the cookie configs will enable transfer of the cookie over SSL when an HTTPS connection is present.  CWE-614",False
+179b0beb20a8c4a43d5663f5e5798d9630fd2e5b,2023-07-24 23:10:22,Yashar Fakhari,Github Actions: NodeJS CI check unit test and lint,False
+cd07f4b0aa9f3e3be382d0fb55417917631df848,2023-07-24 21:30:57,Yashar Fakhari,Fix broken unit test,False
+55defd3dbaa2adb27486610b104d7a12f423a0a9,2023-07-24 13:33:34,Yashar Fakhari,Mongoose 7 upgrade,False
+7bac14339a6fbf7bb4b460ae84ccc8f08314cf28,2023-07-21 21:50:02,Yashar Fakhari,Fix req.logout for passport 0.6,False
+b2a5a7dc630afdb14aadc33c81551d8d5765a4e3,2023-07-20 23:45:00,Yashar Fakhari,"Remove dependency on tumblr.js
+
+The module hasn’t been actively maintained by its publisher, tumblr, for over three years and deprecated and vulnerable dependencies.  It also accounts for about 15% of module load time during the app startup.  This commit replaces the npm module with just calling the REST API directly using axios.",False
+daca13539a510ba89e2cd110f75f3dddc99a4f6f,2023-07-20 11:12:29,Yashar Fakhari,"Migrate from deprecated node-sass to Dart Sass
+
+- LibSass, the core of node-sass along with node-sass got deprecated in Oct 2020 (https://sass-lang.com/blog/libsass-is-deprecated).  Dart Sass is the replacement.
+- Dropping unmaintained node-sass-middleware which is adding vulnerable dependencies to the project.  The module recompiles scss files during server start up.  We can have the recompile command as part of the “npm start” scripts and remove the dependency.  With this change we are also adding a console log to let the developers know they should use “npm start” to run the application, since they might be using “node app.js” and miss to recompile their scss files.
+- Fixed the location for main.css in .gitignore.",False
+ac7341f0e142733cee908c6f2e4c17a8ea54b157,2023-07-20 01:54:20,Yashar Fakhari,"Migrate from lob to @lob/lob-typescript-sdk
+
+lob is the legacy npm module from Lob.com, which they no longer support and has vulnerable dependencies.  @lob/lob-typescript-sdk is their new npm module.",False
+d3c3f0bf422bc9cf9a1044581e6ca898e4008013,2023-07-19 22:35:07,Yashar Fakhari,Migrate off node-quickbooks,False
+ce6875cef21c24a4ca8516aff8d1c304f71cd789,2023-07-18 18:04:29,Yashar Fakhari,Add comments to .env.example to clarify the keys in the file are dummy keys,False
+b734b033626cbe5e0800a017c55af98df6e0fb53,2023-07-18 17:52:54,Yashar Fakhari,"Remove dependency on passport-twitter, remove twitter-lite and twitter example
+
+@passport-js/passport-twitter had already replaced passport-twitter in a prior commit.
+Twitter has discontinued free to use APIs for getting tweets, and many other previously free to use data.  With this commit, hackathon-starter will only support login by twitter out of the box.  twitter-lite was used for the API example and is no longer applicable, hence being removed with this commit. Developers that have a paid twitter account can add twitter API support based on their need and twitter subscription.",False
+e26bebe6b3f548f4112b5851343d99efb4d53980,2023-07-18 06:55:25,Yashar Fakhari,"Temporary patch for passport-oauth2: better auth failure reporting
+
+This patch incorporates a pending pull request for passport-oauth2.  Without this patch, the module would only report “Failed to obtain access token” on auth failures instead of more descriptive error messages to indicate issues such as an invalid secret, unreachable end-point, bad SSL cert, etc.  We can remove this patch once the change is incorporated in passport-oauth2.",False
+f02e012991cc3487476c4b2d0566ce77a05b1071,2023-07-18 06:04:56,Yashar Fakhari,Migrate from passport-twitch-new to twitch-passport,False
+68155ef54a0d5863e69b775f12e9b88d6f98bd33,2023-07-18 05:20:26,Yashar Fakhari,"Migrate from googleapis npm package to @googleapis/drive and sheets
+
+The googleapis’s package is combination of @googleapis/drive and @googleapis/sheets and other google APIs.  It is 130MB and adds about 40 sec to the startup time because of its massive size.  Devs can add various @googleapis/* packages based on their need.  As of this commit @googleapis/drive and sheets are 2 MB and 646kB respectively.
+Ref: https://github.com/sahat/hackathon-starter/issues/1234",False
+0c8048a02c363b971a73be9a616fc08e5e696f04,2023-07-16 18:27:54,Yashar Fakhari,"Remove dependency on nodemailer-sendgrid
+- Removed dependency on nodemailer-sendgrid. The module is not actively maintained with a vulnerable dependencies.  See https://github.com/sahat/hackathon-starter/issues/1231 .  It is also vendor specific.  This change will move the implementation to use SMTP end-points, which SendGrid provides one as well.  Existing users can use their SendGrid API key as the SMTP password.  Devs can also use other SMTP endpoints such as AWS SES instead of SendGrid by just changing their env values.
+- Changing the hardcoded from email address to an env variable.",False
+67e314595ba5f0c13aeb1f286a55894822e45d16,2023-07-16 18:02:41,Yashar Fakhari,Remove unneeded logging in the Steam example,False
+638e9813a735e5007dadbcdd54c1fc34d171c962,2023-07-14 18:57:52,Yashar Fakhari,Migrate off passport-openid,False
+df2a27dd485c2f6b5e71e98d6cff3920f358b960,2023-07-13 22:49:18,Yashar Fakhari,"Add patch-package and temp fix for passport.js 0.6.0 bug
+patch-package allows seamless patching of npm modules (dependencies) without having to fork them.  You can modify the files in node_modules and use patch-package to capture the changes and reapply them each time the module is installed.
+passport.js 0.6.0 currently has a bug that breaks the logout function.  The maintainer hasn't had bandwidth to fix it, but there is a pull request in github that addresses the issue.  The patch here applies the changes from the pull request to 0.6.0.
+Passport bug: https://github.com/jaredhanson/passport/issues/904
+Passport Fix/Pull Request: https://github.com/jaredhanson/passport/pull/947",False
+a92cb2fe21d5b38690f05e1eacf874d92cf8e86d,2023-07-13 22:34:32,Yashar Fakhari,Add missing error parameter to logout,False
+a7e02193ac9d6552ea20394f0a3a072262628c5f,2023-07-13 20:32:06,Yashar Fakhari,Upgrade to popper 2 as v1 has been deprecated,False
+e897329f9765618a5c89355cd0caac37cf616866,2023-07-13 19:51:32,Yashar Fakhari,Fix pug indentations in header partial,False
+dba99eb971246d17971c0d52d394fe3ca8ae1536,2023-07-13 19:48:26,Yashar Fakhari,"Revert ""Updated error handler (#1226)"" (#1227)
+
+This reverts commit 88ed571780aac9330bd8ebfa603b1ceef76123d2.",False
+9a3039a4e0ab1dfaf7645b3a4aba4c8e11fceda9,2023-07-13 19:36:42,Yashar Fakhari,Fix pug indentations in header partial,False
+040728936c9faf7fda6af6904651013b8ae12870,2023-07-13 11:35:52,Yashar Fakhari,Add Lint-stage and Husky,False
+f1eda61468dedf0b4725b78bc12ec99885972b89,2023-07-13 07:54:53,Yashar Fakhari,Fix lint issues,False
+88ed571780aac9330bd8ebfa603b1ceef76123d2,2023-07-13 07:12:44,soundz77,"Updated error handler (#1226)
+
+Added 4th argument so express identifies the function as an error-handler.",False
+e8f25d1763305632cc76e2ed4065084b77202d32,2023-07-13 07:08:06,soundz77,"Change pug tags with multiple attributes (#1225)
+
+Prevents the ""You should not have pug tags with multiple attributes"" error.",False
+6296aa7efe6cd789dd8fd7df8898c7f0cdba7d23,2023-07-13 07:03:30,Yashar Fakhari,Update dependencies,False
+ab4420a50b0c09620530ec15ae30c760ef66b3ad,2023-07-11 11:17:04,Yashar Fakhari,Fix Tumblr example,False
+8a5bb93daa097ea7ff75521ca79d4ec3add0ea39,2023-07-11 04:05:25,Yashar Fakhari,Fix broken Steam game icons,False
+fdabd8295688dcbbfcad4504318ec0d869c8f525,2023-07-11 00:48:23,Yashar Fakhari,"Update Google Sheet Example
+The spreadsheet in the prior example is no longer available.  Switching to a new spreadsheet.",False
+50ae439ff5b06c8deb784f04c2f33f67ac969e00,2023-07-11 00:27:05,Yashar Fakhari,Fix broken Here logo in the API Examples view,False
+a1751145cad1d742021ede2e0f1beda1f8f9b7ff,2023-07-10 23:59:20,Yashar Fakhari,"Update Chart.js + Datavantage example
+Datavantage has moved some of their data feeds to paid feeds.  Updating the example to use a free feed.",False
+6808e81c18c1e95bf70714969a656de763bdf023,2023-07-10 23:38:25,Yashar Fakhari,Removed Here Map Image API Example,False
+83cd1075ba22b1afd96b3ec1bac39bdac49a1986,2023-07-10 17:59:58,Yashar Fakhari,"Update README.md
+
+Removed unused and broken readme badges",False
+80af16175880763cfdd0a0ebc44298842a7b0fbf,2023-06-17 14:43:07,Yashar Fakhari,Create SECURITY.md,False
+2362938d74273e4b75626e32d20a0f7e765edc2f,2022-03-27 02:36:25,Sahat Yalkabov,Merge branch 'dnafication-cookie-consent',True
+34ec054271e09fa8b191c4bd888d884ddb2792ab,2022-03-27 02:35:55,Sahat Yalkabov,"Cookie consent, privacy policy and terms of use #1107",True
+0076c56d4850cb6684127aabce0c46180c8d700b,2022-03-27 02:29:46,Sahat Yalkabov,"Merge pull request #1133 from codewired/master
+
+Updating GitHub strategy: Check for null email value",True
+0435c0a8d7db3df473bfa40c020cfe13d068bd12,2022-03-27 02:29:02,Sahat Yalkabov,fixed dup dev dependencies,False
+2edcc8af791d75c6c03f83925bd640581a6de0da,2022-03-27 02:27:38,Sahat Yalkabov,use faster bcrypt library,True
+baaeaeddd4711aaf12cfa574f0470b7fed6f1bb0,2022-03-27 02:24:25,Sahat Yalkabov,"Merge pull request #1141 from dssagar93/dssagar93-patch-1
+
+Update Readme.  Fixes #1140",True
+fcaca6d0ed6989516d7d7e41d6ceab3dbb557430,2022-03-27 02:24:14,Sahat Yalkabov,"Merge pull request #1143 from kitarp29/patch-1
+
+Updated README.md",True
+b6ceaa3e4e398420013c7c1a9455957d0de2f45a,2022-03-27 02:23:22,Sahat Yalkabov,"Merge pull request #1153 from haraldkubota/remove-mongodb-for-test
+
+Remove the need for live MongoDB for test",True
+9c9a90f000ff9aa1a0a7a9b7d44e0ed19aa52340,2022-03-27 02:23:16,Sahat Yalkabov,Merge branch 'master' into remove-mongodb-for-test,True
+bfb05308c60260d6f3b0e082b5e3da372c0bd9fc,2022-03-27 02:20:19,Sahat Yalkabov,"Merge pull request #1162 from DanielGilB/master
+
+Removed dot to keep consistency in the documentation",True
+308156f4d5cc8b3be588b80f8cc5d83f842e3e86,2022-03-27 02:19:52,Sahat Yalkabov,"Merge pull request #1164 from RiyazurRazak/master
+
+update to  process manager",True
+377c0e166950e87853067115d4bfcafc2bfd020c,2022-03-27 02:14:45,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+6e9c8b79a06ae8ec9fc384cb0c5d3de32dce3a4e,2022-03-27 02:14:34,Sahat Yalkabov,revert main.js file name,False
+b8e1c8c5e3f5b84dfa03a7f2b1e87bf6c311aeff,2022-03-27 02:13:22,Sahat Yalkabov,"bumped version to 7.0.0, upgraded all packages, fixed breaking changes, switched to bootstrap 5, removed themes in favor of default bootstrap 5 UI",False
+588d348aafd79881cb153ae5cc0b298550cf49b9,2022-03-26 23:24:10,Sahat Yalkabov,"Merge pull request #1168 from sguzmanm/ISS-1140-readme-typo
+
+Fix typo in README regarding OpenShift instructions that didn't have …",True
+184e963d10b9fc1b84ca279b12ada5bc48deef73,2021-10-18 03:15:03,Sergio Guzman,Fix typo in TRADME regarding OpenShift instructions that didn't have much context,False
+37d6507cadab6c29eb4dc0e4ac94dcb51c0f1918,2021-10-02 09:58:57,riyazur razak,update to  process manager,False
+ff9129714afd9558bdff7d3513b0c8190475047f,2021-10-01 20:31:16,Daniel,Removed dot to consistency in the documentation,False
+6776d052452df683c18201b42f8e3a0694420938,2021-07-19 13:39:06,Harald Kubota,Remove the need for live MongoDB for test,False
+2f9235817d6112f3b00528393851b33977860b4a,2021-04-18 03:00:20,Pratik Singh,"Updated README.md
+
+Made sure there is no error in the README of the repo. COrrected all the Spelling and Grammatical errors that were included.",False
+7d0645dc8a5ead5bd67a0ab5d1da8bac07f37ef0,2021-03-30 12:14:33,SAGAR KHATRI,"Update Readme
+
+Added the word ""know"" as it was missing before ""...the new process"".",False
+d647a074479ad0a64ef7d7d015ac383101639458,2021-03-28 21:12:08,LongYinan,Use faster bcrypt implementation,False
+b98f6cd36c1ee039e165aed8e3f3526595ba8a5b,2021-01-19 08:46:57,codewired,Updating GitHub strategy: Check for null email value,False
+53e1ead2b52af28b385ee5ae2b144bca0fd80732,2021-01-14 20:21:55,YasharF,Update dependencies,False
+e19ce9ceeea103feefe1c4d9e788ed70d97489bc,2021-01-14 20:08:57,YasharF,Update copyright year to 2021,False
+d528b3ba9e00c1fd86d0088f8e93dbace5f65c04,2021-01-14 20:01:15,YasharF,"Removing Express Status Monitor
+
+To address volunerability issues:
+- The package seems to fall behind volunerability patching of its dependencies very often.
+- Investigating some of the demo server crashes has pointed to express-status-monitor related socket.io requests as the requests just prior to the crash.",False
+afd298e3cf08c0f783fe028a320c6f285a697f61,2020-12-11 02:08:37,Yashar Fakhari,Add support for SendGrid API (#1127),False
+d2ba8a4a288bf904621b7017781de79604a8e213,2020-12-10 22:08:08,nesarazui,"Refactored sendMail transporter calls #1102 (#1105)
+
+* Refactored sendMail transporter calls #1102
+
+Created a new helper function to abstract sendMail functionality.",False
+62a3d70c545d89740687d11cb3723d54ba1128c2,2020-12-10 21:35:46,YasharF,Update Readme - MongoDB Atlas,False
+7cbf8ed518eac22cf3d641a47c3d979a7f6b839e,2020-12-10 19:28:14,YasharF,Update Depdendencies,False
+e6d8061e942b8c2d6ca2c584f71bad854c41a8b8,2020-10-16 19:47:36,dnafication,cookie consent popup,False
+12724092626c4abd0216e49c99b355a0c2810f9f,2020-10-16 19:47:27,dnafication,policy and links in the footer,False
+d477880b2c413bc75b8812ac6f7474a9696c396a,2020-10-12 23:00:08,Yashar Fakhari,Update docs (#1101),False
+468d51a8ad98cb05204bdb4901f576fa74b64ac7,2020-10-12 22:53:32,Princeyesuraj Edward,migration: migrated from fb grap to direct fb graph api (#1094),False
+a85c6088238d1b06a2d42036f92aca0e4321b88c,2020-10-12 22:26:00,Yashar Fakhari,Update dependencies (#1100),False
+c21dd513310f36114815aeec23cbd3bedd3fdae2,2020-10-12 19:41:55,Yashar Fakhari,Fix build issues (#1099),False
+c147c88df3e8a7d76569ba39011973c8632c6388,2020-10-12 18:41:09,Princeyesuraj Edward,"fix: twitch api integration (#1093)
+
+Fix by adding Client-ID in the header",False
+a58a59755a947bbac6ea2faa7add0a89ba468fca,2020-10-12 18:09:58,Khushal Shah,"Migrate from twit to twitter-lite (#1086)
+
+Migrate from twit to twitter-lite",False
+a063a3529c7cfec66ae371add8ce1102f9820ee4,2020-10-08 00:56:02,Yashar Fakhari,Update Dependencies (#1090),False
+ab05ce661c037daeeea06b8ee34a44db942fbd24,2020-09-19 04:02:19,YasharF,Add reCAPTCHA support to the contact form,False
+2f4f532e2844a4db67ebe62042d5de3269ac703a,2020-09-18 21:54:33,YasharF,Update Lob's logo,False
+f4ed6ed6bf2b3c28eedc2c61e12879a487b66ad4,2020-09-18 21:49:24,YasharF,Remove ClockworkSMS from docs and .env.example,False
+fb13587123970889c2b4a53486c8c8d1dd431813,2020-09-18 21:44:27,YasharF,Remove ClockworkSMS API Example,False
+df0ceb0c727ff7a23b52b71015b88266aba96e46,2020-09-18 20:46:36,YasharF,Update dependencies,False
+28263ec8a0a095cc2a4398971b38a2f1a22c8411,2020-08-27 22:29:32,githubich,add GET /forgot test (#1075),False
+b4898f2cd3af8c9a35fb126f5656bec1604e465c,2020-07-11 19:57:43,Yashar Fakhari,Update Readme for mlab-Heroku plugin deprecation,False
+53e992c659f6a45e59ec76c752db2b4319f609ca,2020-07-10 18:07:06,YasharF,Update Here Maps icon,False
+610725c5816399ce8b5f11dbeffccd73724775b8,2020-07-10 18:00:26,Yashar Fakhari,"Update travis builds: add Node 14, remove Node 13 (#1068)",False
+88f4c465de7cc5d40ca47319d7ce9f2bd2e13e17,2020-07-10 17:50:59,YasharF,Update dependencies,False
+37034e6724a656f912e61a7444cb1ea8588cab5b,2020-03-06 02:51:30,Yashar Fakhari,Update README.md,False
+c8df1150075b6e32129a9974975529e2e7a2dc37,2020-03-06 02:43:30,YasharF,Fix lint issues; Improve Twitch icon load time,False
+901140f3b8949ea79029bab1cf1bf706e8ef2a7c,2020-03-06 02:27:25,YasharF,Add login by Twitch and API example,False
+ba606d910881042d3793aec0d3701802da7b3792,2020-02-27 20:53:01,YasharF,Fix flash message in case of a rare database issue,False
+00189b44ebda286d8c1d5611549379fb8af7312c,2020-02-27 04:16:56,YasharF,Fix sinon being listed as dependency instead of dev dep,False
+b677173cbe2f3d6d9a4fae36c82ee29ab71d09fe,2020-02-27 04:02:39,YasharF,Remove deprecated sudo key from travis configs,False
+6c4d5e9622546db18c22293699152a5662dc1cf2,2020-02-27 03:51:16,YasharF,Handle account verification mismatch,False
+68b7424629fead05e9f28f6d8bc5d03e67175de9,2020-02-27 01:11:46,YasharF,Update dependencies and remove deprecated requestjs,False
+ee3c8f8045608710242f6b9d42bc286145574b48,2020-02-08 09:31:52,Yashar Fakhari,"Update README.md
+
+Fix broken logos",False
+fbbabe5d431a9b6d7498a0e9adb9ffe8ff8cc1c0,2020-02-08 09:17:49,YasharF,Fix Foursquare API example,False
+f7b3b9f9aa1774e03a01bd6c41f2e768d4066893,2020-02-08 09:02:05,YasharF,Fix Github deprecation warning,False
+af3dafd960402fd93ff0cb2f44885e6d495c1a6b,2020-02-08 08:37:50,YasharF,Update dependencies,False
+7cd0e878f26e07dfe88885ce99297940efdcc6fa,2020-01-23 13:44:42,YasharF,Update dependencies,False
+b7e6b726873886b0d8a93f82a803b94858797b8e,2020-01-23 11:41:27,YasharF,Remove unused js libs from .gitignore,False
+c1b8594f7ad4368b6f62786e7949269b673bfad6,2020-01-07 02:05:02,YasharF,"Remove sinon-mongoose & update dependencies
+
+Sinon-mongoose isn't used, and the package isn't being actively maintained by its developers.",False
+6437cdbd9fc9c0e3dddaae210d3c03f61a404bda,2020-01-03 08:39:09,YasharF,Release 6.0.0,False
+f8ba8b2c937156ab295e6377871e2e22c2633e56,2020-01-03 08:33:36,YasharF,Update copyright notice to include 2020,False
+396af4e14915d3d891016e2415200e8368d83568,2020-01-03 08:32:29,YasharF,Update dependencies and drop NodeJS 8 due to its EOL,False
+21f2abb9acdbf731f28f33afb39b663cb9e9985d,2020-01-03 07:54:04,Jonas Roslund,Change drop down menu to show correct theme formatting (#1007),False
+1c1b16986ead5a4b0fcc2bbec1c5f5ee789f6ef6,2020-01-03 07:13:25,Piotr Błażejewicz (Peter Blazejewicz),"Rework .btn-raised as BS custom button style. Fixes #1016 (#1018)
+
+* Rework .btn-raised to be custom BS button style. Fixes #1016
+
+This moves the definition of the `.btn-raised` out of the `default` theme definition into the main style project file, so it can be part of the project style no matter what theme is applied to the project. If users want to opt-out from that style, it's as easy now as replacing the `btn-raised` type with e.g built-in one, like `btn-primary`. The default state of the button tries to retain as much as a possible representation of the button under the default theme definition, while also providing BS based variants for other states of the button like active, focused, disabled, etc.",False
+80c85b1c6793b65c9296cc09bc7f78b53bd0440c,2020-01-03 07:00:08,Piotr Błażejewicz (Peter Blazejewicz),"Fix navbar rendering issues with theme support (#1014)
+
+* Fix navbar rendering issues with theme support
+
+This corrects rendering the navbar using convention used by Bootswatch
+and BS4, which usually either defaults to default styles for navbar or
+uses combination of the navbar custom style and navbar custom baground
+color (bg-*). IF `bg-*` is not present, this could lead to the
+transparent background color for navbar when expanded.
+
+The change contains a backward compatiblity fix for default theme, which
+was done by not overriding `bg-*` value in navbars, but by using custom
+background color as it was used before some changes in BS4. So by
+default theme will use backward compatible override for background
+color, not one that comes with the BS4 for 'bg-light' class.",False
+254bb2b9b095195150e188762ed848dc77823250,2019-11-29 23:02:38,YasharF,Update dependencies,False
+b0955fb4960e1839fe2a34d74ca4a22dbf094b7a,2019-11-29 20:50:09,Elliot Maisl,Update GitHub API Keys instructions (#1022),False
+14adf910ef5c8c2a4ad54e0014483bd1b606e886,2019-11-19 23:51:19,Piotr Błażejewicz (Peter Blazejewicz),"Use HTML5 native client form validation. Closes #1013 (#1017)
+
+Wherever that is possible to sync client HTML5 form validation with the
+rules used on the server to validate user input, use type, min length
+and required when applicable:
+
+- add type=email, whenever email input is expected
+- add minlength attribute, whenever input length is checked
+- add required, whenever input is checked against empty values.",False
+f143b9c578ff00570790f79880f5fce27f360121,2019-11-02 03:28:11,YasharF,"Config mongoose to use the new Server Discovery and Monitoring
+
+Without this config, by default, mongoose.connect() will print out the below warning:
+```
+DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+
+```
+
+The application needs to opt-in using the new topology engine, using this change, to suppress the warning.",False
+a7166506b69e0ac04935627d0642461910e1a6e2,2019-11-02 03:14:55,YasharF,Update dependencies,False
+adfc33bede57329c5c7346790d4719c82a893e22,2019-10-27 06:17:56,Yaniv,Update Readme.md,False
+ec70beda0fae990d8a142e0b3c3ea40656fece53,2019-10-27 06:11:41,Yashar Fakhari,"Update .travis.yml
+
+Add NodeJS v13 to the Travis build.",False
+0bd05df813ab80a5c96e28cbe901734a33f96fd6,2019-10-18 18:51:01,YasharF,Upgrade mailchecker - reduce dep size,False
+ff4c0481f26340f5518580c6569bb04c6828e189,2019-10-18 01:21:48,YasharF,Update dependencies,False
+51bb4e712716c05dce42f54c48e2278c9a1ba5af,2019-10-08 19:48:40,YasharF,Update dependencies,False
+11949afe867ef352ebed93abc6d29ce4bfebbbda,2019-09-30 07:50:43,Yashar Fakhari,Update HERE logo in readme.me,False
+4552c1305dda736db68b5878811f2fb541b6d058,2019-09-30 07:46:18,YasharF,Fix HERE icon,False
+1352c3e18810736e3a404b3dc71e1623614081fd,2019-09-30 07:33:58,YasharF,Update dependencies,False
+a9be8b9a609a4c3284b97414b1ae3b042eb373f9,2019-08-16 05:15:05,YasharF,Update Dependencies,False
+6c1023abbc4490f8a2b4706ae2af1f6a67ab61d7,2019-08-11 01:26:55,Yashar Fakhari,Fix minor issues in Stripe and Lob API examples,False
+97a6e19ddbb6b6d3c4a67120ea0a4dee10cb486c,2019-08-11 01:10:01,Yashar Fakhari,Update Dependencies,False
+e98b70ea0bd353cea9e4a8e4b1ae5ab7b0d42039,2019-08-05 23:52:23,Yashar Fakhari,Update dependencies,False
+64a390c6d9ef218d680e2068b145d534f8607a73,2019-08-05 23:30:26,Yashar Fakhari,"Fix validation bug in Twitter, Pinterest, and Twilio API examples",False
+2ff3ede07bf1385903b0719382c5f552c9551761,2019-08-02 19:33:17,Yashar Fakhari,Update README.md,False
+38314990f95d8f3a699741b249adc774cfc23448,2019-07-29 05:01:14,Yashar Fakhari,Release 5.2.0,False
+a9453342b3550c5bba325b131e2dfb401edb910b,2019-07-29 04:43:07,Yashar Fakhari,Handle email/password login attempts for accounts with no password.,False
+61f89bf402cde8dce7f99c848770b747b94c262b,2019-07-29 04:33:15,James Cote,"Fix typo in README (#993)
+
+Fix typo in README.md regarding the explanation of .travis.yml file.",False
+dcfad818db297ce4d56412ac491558d185ef1601,2019-07-29 04:24:56,Yashar Fakhari,Handle OAuth refresh tokens: Google and Quickbooks,False
+7528032446946d93592379adbc2409aff7917747,2019-07-28 08:09:39,Yashar Fakhari,Add support for email verification,False
+8bb05faac04cbb337d3473293ac5484d1d913315,2019-07-28 05:11:03,Yashar Fakhari,Fix bug in password reset,False
+2af44e95d992721c9e5892d830e65c8b21a506ab,2019-07-28 05:09:06,Yashar Fakhari,Validate password reset token,False
+0fc7bfa1bb439da1df022bd77c0b7923a34a6f01,2019-07-26 03:08:45,Yashar Fakhari,Update dependencies,False
+36126f671a0c84a8012414ad855ecf206ecc6991,2019-07-21 21:54:45,Clark Ngo,"Add Google Sheets API example
+
+Add Google Sheets API example",False
+5df00c2f3471152ce5a3af8ba7f6417bd48ef49a,2019-07-11 19:43:22,Yashar Fakhari,Update Readme - Fix the broken Express tutorial,False
+b63bdceddfa46f78d42c67c5d211c57c6adabb90,2019-07-08 18:47:29,Yashar Fakhari,Fix eslint issue,False
+bc6f4bb783d9154e3e6448c50efbb50eecfc010f,2019-07-08 18:40:36,Yashar Fakhari,Add CSRF check to the File Upload api example,False
+bf7a66f855d290f3b5f1a9c89a8c2f7051f6c8bc,2019-07-03 06:22:33,Yashar Fakhari,Update Steam's logo,False
+19a2ea1bab9163cf148dfcd41e41a1fb32a5576a,2019-07-03 05:40:19,Yashar Fakhari,Remove Aviary API example,False
+b90ebc97c7b1af5c66ccc8f0636bf4f26cae0aef,2019-07-03 04:06:19,Yashar Fakhari,Improve the Here Maps API example,False
+1ac5e532e5d66cc9e60e9189f102bd6254ed90f3,2019-07-03 00:27:56,Tulsi Sapkota,"Unit test user model (#982)
+
+* Add test for model methods",False
+285b6b170d029322b0b000f056c2ce9331728398,2019-07-03 00:19:06,Yashar Fakhari,Add support and API example for Intuit QuickBooks,False
+249cded360a05c2cd5e9116f318742b699edda7d,2019-06-29 03:50:31,Yashar Fakhari,Update README.md,False
+041f1f3f0f36c222f9982357dc2a8e7e071bbf50,2019-06-29 01:04:58,Yashar Fakhari,Add HERE maps API example,False
+96cfaa6a2a6c42a5f8e000742c4b55c60e1fd76f,2019-06-29 00:57:31,Yashar Fakhari,"Update README.md
+
+Fix broken LinkedIn logo",False
+7f6bae892da62e36c10e1837c5e5bc13d4d51d87,2019-06-28 03:59:38,Yashar Fakhari,Fix bug in Login by LinkedIn,False
+83ce056b58bdd262faffbf10356def587ba260d3,2019-06-28 02:17:18,Yashar Fakhari,Update dependencies,False
+8f79ae169153b414d418756e725579815d9f589e,2019-06-28 02:17:18,Yashar Fakhari,"Remove express-validator in favor of validator.js
+
+Express-validator v6 removed legacy middleware methods, which are a breaking change for Hackathon Starter.
+The amount of code that would accomplish the same functionality is about the same.
+Validator.js was already a dependency but not being used.
+Validator.js has 10x more usage than express-validator, according to npm.",False
+220293d83f87647404c0b7fc983f461a318c105a,2019-06-28 00:38:31,Yashar Fakhari,Update README.md,False
+62ca9d7537b6b02d2b7ca619fed623f8fc276307,2019-06-27 20:31:04,Yashar Fakhari,"Upgrade to login by LinkedIn v2, remove LinkedIn API example",False
+163413ff5143c7b68c8c2419aadf5e9eb88d5de7,2019-06-24 05:07:33,Yashar Fakhari,"Merge pull request #980 from TheMissingNTLDR/patch-1
+
+Update prod-checklist.md",True
+c52d7b5426076ced202393245c6a40f00b0f95bc,2019-06-23 20:11:42,TheMissingNTLDR,"Update prod-checklist.md
+
+typo corrected: lunch changed to launch",False
+33f51923ccbf9f6a964550760d822290a2582421,2019-06-17 22:12:19,Yashar Fakhari,Update dependencies: connect-mongo,False
+7d17baf396a91b2939944870a0fe2735571b395f,2019-06-12 01:18:28,Yashar Fakhari,Fix missing await in the Foursquare api example,False
+2972c15ba98ff364756f61da73b2bb8db51d27de,2019-06-12 01:02:19,Yashar Fakhari,Improve the lob.com api example,False
+7a95b9d6f7f81c04944c8c25e74c56385619236b,2019-06-12 00:43:03,Yashar Fakhari,Remove extra function calls in the instagram api example,False
+8e60de3777e2988e77518eeb619f86ad8e7bfcea,2019-06-11 20:58:08,Yashar Fakhari,"Remove deprecated Instagram API calls
+
+This change is to fix two errors when trying the Instagram APIs:
+ - This request requires scope=public_content, but this access token is not authorized with this scope...
+ - APINotAllowedError / This endpoint has been retired
+
+Also note that:
+Posted at https://www.instagram.com/developer
+These capabilities (https://www.instagram.com/developer/changelog) will be disabled immediately (previously set for July 31, 2018 or December 11, 2018 deprecation). The following will be deprecated according to the timeline we shared previously:
+
+Public Content - all remaining capabilities to read public media on a user's behalf on December 11, 2018
+Basic - to read a user’s own profile info and media in early 2020",False
+e2871fde95b0871319353448e2fe84b923116ff7,2019-06-07 04:11:07,Tanaydin Sirin,"Adding API example: Google Drive
+
+- List and provide a link to view/open files from Google Drive
+- Change the logic for identifying the oAuth provider from the URL for the API examples",False
+2e674c6451801e2f5dc929cf55fce1dcd1f4f624,2019-06-05 23:21:23,Yashar Fakhari,Update README.md,False
+88326227f644af25067270b7a211ae3fbfb4b478,2019-06-05 19:56:33,Yashar Fakhari,Update dependencies,False
+9f557f8c97752d98f514bed3cecf09abbae4f1de,2019-06-05 05:32:26,Yashar Fakhari,"Update README.md
+
+Fix broken icons",False
+43c589ef8c12efb4d4290283c74430888e999372,2019-05-28 06:07:38,Yashar Fakhari,"Merge pull request #970 from tanaydin/patch-2
+
+Fix for Google Oauth2 profile picture",True
+78572743fedf12ab0c604f8a932bcb8f0790713f,2019-05-28 05:47:55,tanaydin sirin,"Fix for Google Oauth2 profile picture
+
+Seems Google API changed its response and it is not possible to register a new user with google anymore. This small changes fixes the way to user's profile picture from the JSON data.",False
+ce8d0230d08e38d1c678db28a060b0a8f1df85bc,2019-05-15 08:21:53,Yashar Fakhari,Add nodejs 12 to the travis builds,False
+5aedd4a7cdecb2eaa16fb26cb95d6db98790c860,2019-05-15 08:14:56,Yashar Fakhari,Bump min Nodejs version to Feb'19 sec rel and release 5.1.4,False
+46eed488d2e563a0145a16ab98cfb4f604d056ab,2019-05-15 07:35:54,Yashar Fakhari,Upgrade stripe npm module to v7.0.0,False
+10a879cd48624199fdb68db5ea9d22a2bccfdae4,2019-05-15 07:22:33,Yashar Fakhari,Update dependencies,False
+5287051dca6856f81981692b564666f831b9e188,2019-05-13 06:23:56,Yashar Fakhari,"Update Readme - change live demo link
+
+New live demo server",False
+0a7181583489e25c2d82a0f01f5fb4e4f76a44f3,2019-05-13 04:01:29,Yashar Fakhari,Use BASE_URL for github oauth,False
+efc6a08b41f205c2044d639cc7be61f4063f5a74,2019-05-13 02:39:21,Yashar Fakhari,"Merge pull request #961 from anubhavsrivastava/patch-2
+
+Fixed selectize.js reference link",True
+87f2b89138083281e0dde997499c29a4e3a689b2,2019-05-13 02:38:53,Yashar Fakhari,"Merge pull request #954 from FX-Wood/request-library-to-axios
+
+Refactored to use axios",True
+6d10546d734ea3f97e45a58ac3b4bd42e4e177b0,2019-05-13 00:39:32,Yashar Fakhari,Update dependencies,False
+b60e7cdb49dc2917972d9c7118ac844283fe1425,2019-05-12 21:14:01,Yashar Fakhari,Enable page templates to add items to the HTML head element,False
+fce663ba468cf8ea319041d6276e18f37bb30e28,2019-05-11 12:12:54,Anubhav Srivastava,"Fixed selectize.js reference link
+
+Repository is moved to https://github.com/selectize/selectize.js by owner @brianreavis
+updated selectize.js link to landing page",False
+c4dcbd4cd61c882de31ba0b0d486a549b73eb511,2019-05-11 00:39:33,Yashar Fakhari,"Merge pull request #960 from anubhavsrivastava/patch-1
+
+Removed unavailable UIBOX link",True
+0aaeec2f4029ea8415da09d23c884841ee625dbc,2019-05-11 00:31:57,Anubhav Srivastava,"Removed unavailable UIBOX link
+
+Site is no longer available and domain is up for sale.",False
+451bfac90682b28ad604be3e28d3b19e0c7cc3bf,2019-05-04 04:06:50,Yashar Fakhari,"Update README.md
+
+Minor edits based on feedback from Grammarly",False
+0a50342c226907cda2333aca7348154d32fd7b6c,2019-05-04 03:33:52,Yashar Fakhari,"Merge pull request #958 from Fullchee/master
+
+Fix Typo: Visual Studio Code",True
+0e23fb41cfb4450e84b28c2e77452bbdea33aa94,2019-05-04 03:05:20,Fullchee Zhang,Fix Visual Studio Code Typo,False
+5cc03de6b2154ce98752ca9de294e7630596e4c3,2019-04-30 14:11:15,FX-Wood,Catching edge cases for steam api,False
+13588899ad936260ce7ff7855d2d8c1ee25ce3ce,2019-04-30 14:11:15,FX-Wood,"Code review changes
+
+Catch private profiles
+
+Quick fix",False
+6d84d465fdd180d6ffddcb9c75ff2797a702235f,2019-04-30 14:11:15,FX-Wood,Refactored request to axios,False
+a4f229b34bdd1afb515b9229add473827e8c6a03,2019-04-30 14:10:56,FX-Wood,"refactored steam api to axios
+
+Removing request import
+
+Fixing semicolons
+
+Fixing other linting issues
+
+Final linter fixes
+
+Fixing switch
+
+Fixing indent",False
+80bc62438a8e2b54ba5790f068707f8316746000,2019-04-30 09:10:23,Yashar Fakhari,"Merge pull request #957 from neighlyd/master
+
+Fixed bold issue from 900",True
+452053b54e82bb4d87e0f7d1f95ecee4a302ac7a,2019-04-30 08:13:59,Dustin Neighly,Removed all bold fonts,False
+f48329c4328f5ab890498a2a5a86a95f14600726,2019-04-30 08:11:14,Dustin Neighly,Fixed mac font priority stack,False
+1521e8b4d67f38926c8dd8ca090865bd2d2f1a8e,2019-04-26 22:52:14,Yashar Fakhari,"Merge pull request #956 from luckymurari/master
+
+ #955 Fix Hosted MongoDB Atlas instructions",True
+284aa406087cb1e0bc15ebe08509b4a1ece904aa,2019-04-26 00:57:32,Santosh Lakshman M,"Update README.md
+
+Update README.md",False
+35c8b894a0eccb26d7765fa1587aa0a11815d884,2019-04-23 23:34:16,FX-Wood,Pinterest api now uses axios,False
+e0ff990128cb5c6c8438add0547e85a8890380e0,2019-04-23 08:33:52,Yashar Fakhari,Update Readme.md - Twitter Logo,False
+bf0bc204b35f7f49f79e725f6c8c49dd497d7886,2019-04-23 01:08:22,Yashar Fakhari,Fix broken links,False
+7e00486834798f86e95dbf7fd6fa6b10be37d18b,2019-04-22 22:20:40,Yashar Fakhari,Update Dependencies,False
+c52207372c07c14090a78f49e655b9e1b2aa6c60,2019-04-14 03:58:52,FX-Wood,Refactored most of steam api request,False
+bb572192fdd754d92ceea6998e3de30d84c51f6f,2019-04-14 03:53:27,FX-Wood,Fixed typo in achievements,False
+712b15267fe6d4019febd04e153b60e66b0b3f9a,2019-04-14 01:45:50,FX-Wood,"Finished pinterest refactor, waiting for rate limit reset",False
+86299c5b0060bdd3e26a93fbf1c95e9da914a06d,2019-04-13 13:10:08,FX-Wood,Refactored NYT api to axios,False
+411580762ac609664cb68798fcea86d13f565a5a,2019-04-13 12:02:06,FX-Wood,Refactored scraping to axios,False
+3be444fde839fe3a10baaa2687f6943c88b40a36,2019-04-08 10:04:47,Yashar Fakhari,Update CHANGELOG.md,False
+f23eaf6c26995f06fe8a576092fabaf659b5273b,2019-04-08 09:48:28,Yashar Fakhari,Update README.md,False
+17df7b42b99a302e1f2d0e58734e5be1aa01fcee,2019-04-08 09:38:56,Yashar Fakhari,Update README.md,False
+f376a0902286492975d0a8f3bca4dd4289d31b90,2019-04-08 09:31:13,Yashar Fakhari,Update README.md,False
+54855cf8aaff0d9a9ac71d74979ec56e4534913b,2019-04-08 09:13:05,Yashar Fakhari,Update dependencies,False
+09b2985b9db7f12a2b6f7163349402846dbe1239,2019-04-08 09:05:11,Yashar Fakhari,"Merge pull request #951 from YasharF/post-hackathon
+
+Add prod-checklist.md",True
+fc18b0da07d1941625db15eec1d65e8a0bf115b0,2019-04-08 09:02:41,Yashar Fakhari,"Add prod-checklist.md
+
+This document is to outline some of the suggested changed after the hackathon project is done to help the developers to get their code more production ready",False
+542d5901b4d321dbcd802ab671df0724e896568b,2019-03-31 03:54:15,Yashar Fakhari,"Update Steam API Integration
+Steam API now always responds with a playerstats object with a success property.",False
+c368580bac398aeb6491aa0482f533a588e2385e,2019-03-31 02:42:41,Yashar Fakhari,Update dependencies,False
+b9882f113bb292d398c743c7118e838a16d0b522,2019-03-24 12:58:47,Yashar Fakhari,Update flatly theme files to 4.3.1,False
+d1b4d3a9b5f7937384be5c666f9f47bae361649f,2019-03-24 11:51:39,Yashar Fakhari,Update Github's Octocat image url,False
+edb81a596d9dda87656f26d09ff28eae54c0f1bf,2019-03-24 10:43:50,Yashar Fakhari,"Update README.md
+
+Updated the download links for mongodb
+Changed bcrypt-nodejs to bcrypt",False
+454da6261ea8fb14427f183f9c01ab8c6a3c972d,2019-03-24 06:05:48,Yashar Fakhari,Migrate from bcrypt-nodejs to bcrypt,False
+bd6cdfd98fd984e2bc5765ac1429afe594cd3984,2019-03-23 21:25:53,Yashar Fakhari,Remove extra comments,False
+dbc1fa9ef2cb5b45b209cb8cb451db8e05f2e54e,2019-03-23 21:21:37,Yashar Fakhari,Improve ChartJS+Alpha Vantage API example,False
+7e8cec06703bb6c1ac6cfa3b4a22b2dbc64252d9,2019-03-23 20:44:38,Yashar Fakhari,Fix bug in removing providers,False
+1537e04f22e63c07304cf83794a373512b21c22a,2019-03-23 20:37:06,Yashar Fakhari,Remove utils,False
+ec957e96a8d6686a5dbbeb59ad3d6cd6c188cfb1,2019-03-23 20:11:58,Yashar Fakhari,"Merge pull request #945 from sahat/sahat-patch-1
+
+add YasharF to the contributors list",True
+f316188b44a957c48d72d52e7e1efa0214193f9a,2019-03-23 20:10:00,Yashar Fakhari,"Update package.json
+
+Remove extra comma",False
+7ba24a7a4527b2de83e2b38d220efec9e82ade40,2019-03-08 05:30:13,Sahat Yalkabov,add yashar to the contributors list,False
+2c6b766d283349c9bf49fe710fefc808576b8e81,2019-03-03 15:33:50,Yashar Fakhari,"Merge pull request #942 from T-travis/master
+
+Add Charts Example",True
+0bde08f976d3018dabb8c9e42911136bd893a7c0,2019-03-03 10:31:41,T-travis,Chart.js + Alpha Vantage example,False
+b68c31db4dfce518c8e19fd53e14d4e477c15342,2019-02-26 10:06:38,Yashar Fakhari,"Merge pull request #938 from laurenquinn5924/master
+
+Remove GSDK",True
+31ad09bb5b30c555c31fb1b4f1242a3331113f3d,2019-02-26 09:54:41,Lauren Hodges,"Remove GSDK
+GSDK has not been upgraded to Bootstrap 4 by the maintainer. It can be added back in once it supports Bootstrap 4.",False
+c2d0255acb1b4419e997bcaa65cddba94cf0edcd,2019-02-26 00:00:17,Yashar Fakhari,Update Dependencies,False
+099a11d8b55c4954c960ff90712528d7f9db104a,2019-02-25 05:21:19,Sahat Yalkabov,"Merge pull request #933 from danielhunt/github-email
+
+Iterate through Github private email addresses on register/login of new user",True
+da5aa7e3d5361d2f7c9e35f45b82f565968bfd32,2019-02-25 05:20:34,Sahat Yalkabov,update dependencies,False
+62cf49cf7411e8bceb979c1b5dbc13f8d22fd959,2019-02-22 02:29:09,Daniel Hunt,Iterate through Github private email addresses on register/login of new user,False
+d651ee385e29470b82cd5248b2af83cf3f4d21a9,2019-02-17 01:35:51,Sahat Yalkabov,fixed gender radio buttons spacing,False
+66160589ea82a6decf5770dc446d70c232a3aed9,2019-02-17 01:27:23,Sahat Yalkabov,add lodash 4.7,False
+2b026246c49b2ad397bd554cb1fecc9a72cbdfc3,2019-02-07 21:30:11,Yashar Fakhari,"Merge pull request #932 from eric-sciberras/patch-1
+
+Fixed alignment Issue for login / sign in buttons at certain screen widths.",True
+08bd83225f4482d785a5d199ac943dda567ba594,2019-02-07 16:12:19,Eric Sciberras,"Fixed Allignment Issue for login / sign in buttons
+
+Fix for issue #931",False
+3a4a639c0e9c2db606bf6eb08a80c44f2dd1d1c6,2019-01-28 14:27:54,Yashar Fakhari,Use BASE_URL for twitter callback,False
+c1896bb6d4adde062b1f14c9a3d53dddc4a02356,2019-01-28 11:04:18,Yashar Fakhari,Use BASE_URL for facebook callback URI,False
+47e2e3e28530339f69fa6d10a10bbb97a52e3578,2019-01-27 22:25:39,Yashar Fakhari,Update dependencies,False
+0424221582e5096fa92e0801941f35c5b728b836,2019-01-27 20:28:02,Yashar Fakhari,"Merge pull request #930 from GregBrimble/master
+
+Remove Mozilla Persona information from README since it has been deprecated",True
+5a2fa6e361ce75526bcbfaf7a95723de786ab384,2019-01-27 20:22:02,Yashar Fakhari,"NYT API Example Error Handling
+This change will handle more error codes returned from NYT API than just 403 HTTP errors.
+Remove NYT API from the unit tests since it would depend on NYT's endpoint which may not be predictable.",False
+aae3bbc20ec250dcb8fc1921e715a46552b44a86,2019-01-27 17:45:52,Greg Brimble,Remove Mozilla Persona information from README,False
+7c70f958e9991d0ce86b4509c92ba7b6ac48a47e,2019-01-14 08:34:47,Yashar Fakhari,Adding additional tests to cover some of the API examples,False
+3eca1c8601c0509de02c0394d6f7271d545ff236,2019-01-14 07:35:02,Yashar Fakhari,Update CHANGELOG.md,False
+198b2333e8b4d1772b46b1eefe81a67ca40fca51,2019-01-14 07:33:59,Yashar Fakhari,Update CHANGELOG.md,False
+dc85b88e7bb7bc2eff04327fbef11d38e2d49786,2019-01-14 06:55:45,Yashar Fakhari,Update footer.pug,False
+bff93589a9b475e30425f16632f3bf392cc1228c,2019-01-14 06:55:01,Yashar Fakhari,Update LICENSE,False
+dd5e81e1dfdf49f8adc6df86da556e1f4ce7263f,2019-01-14 06:54:32,Yashar Fakhari,Update README.md,False
+646434f293082dc456370fd10b581435ad3db97e,2019-01-14 06:26:43,Yashar Fakhari,"Update README.md
+
+Fix typo in the MongoDB Atlas instructions",False
+54142e38566ad25224e3275c02f652b0b2759b16,2019-01-14 06:07:45,Yashar Fakhari,"Update Readme: mLab transition to MongoDB Atlas
+
+mLab is now part of MongoDB, Inc. and the service is being replaced in favor if MongoDB Atlas.  This commit replaces references to mLab with MongoDB Atlas, and updates the instructions.  The only exception currently is Heroku's use of mLab, since Heroku has not changed the addon and is still using their old mLab add-on through their UI.  Note that you do not need to use the Heroku Add-on and can just use env variables to point the Heroku dyno to a MongoDB Atlas instance.",False
+4cdb5b98ea45ba70e6d50ced69a613789c39c97b,2019-01-14 04:19:14,Yashar Fakhari,"Migrate the Foursquare API example to use Axios rest calls
+
+Foursquare provides complete documentation of their REST APIs.  By directly using their REST APIs the developers can quickly pick and choose different calls and modify the example.",False
+1bede5a7530bad156a8236eebc19c004ec3f8c6e,2019-01-14 01:52:17,Yashar Fakhari,Fix lint issue in passport.js:SnapchatStrategy,False
+25ce6a1e25becb570a8d9e48ee8863736e3c48a5,2019-01-14 01:43:30,Yashar Fakhari,Fix issue in the web scraping example,False
+dd71d9eeef997bfe1467439e1fc69eb6fe96a129,2019-01-14 01:00:02,Yashar Fakhari,Fix view issue in foursquare api example,False
+0a0bf5932ce67d32b3dfd668f2bef7b942926913,2019-01-13 12:39:35,Yashar Fakhari,Update dependencies,False
+28e688faadc749e793e002c790d64ab576790913,2019-01-13 11:11:15,Yashar Fakhari,"Merge pull request #921 from nicholasgonzalezsc/add-passport-snapchat
+
+Add passport-snapchat and update documentation",True
+d2ef9acadff17d9856436b69b0b01a1dff33504e,2018-12-01 07:18:46,Yashar Fakhari,"Merge pull request #922 from Furchin/master
+
+Re-order JS includes: Popper ahead of Bootstrap",True
+9e2d05ffaafca50aebe6ce384913d4dfb075b818,2018-12-01 04:20:16,Michal Bryc,Move popper ahead of bootstrap as required,False
+7ffb694c41274befac3da4ec9253d674e2c9b600,2018-12-01 02:58:15,Nicholas Gonzalez,Address comments,False
+2bb73f3dccf964b4be83ad00ad586d6e4b3d9eec,2018-11-29 01:42:01,Nicholas Gonzalez,Provide a temporary email address and handle unlink case,False
+96df4ec6fab0b46269a6f140dd225f396d63e32e,2018-11-28 08:11:55,Nicholas Gonzalez,Fix css and typo,False
+1f4f2540a9008cbd5852ca5a6fc09c84030fa6df,2018-11-28 07:56:40,Nicholas Gonzalez,Add routes for snapchat auth and btn. Need to update btn css,False
+1bcc9f14ee1bebfc27badb212ad7fa26d66643d2,2018-11-28 07:11:36,Nicholas Gonzalez,Add passport-snapchat and update documentation,False
+8b16d33d08dd8a79e7c48cae6b137436b751a974,2018-11-24 08:25:50,Yashar Fakhari,"Merge pull request #919 from estevanmaito/pr/bootstrap4
+
+Fix wrapping issues in the navbar and logo indentation",True
+4743216ef4ae8e991721b885395bf730b3372eac,2018-11-15 10:00:01,Yashar Fakhari,"Merge pull request #920 from akupiec/patch-1
+
+Update README",True
+6821c4bf461cb8a70d66e327d468eec90a2833cc,2018-11-15 03:03:00,Artur,"Update README
+
+Deployment to Google Cloud Platform fix
+vm: true - was deprecated",False
+5b2056dee1bc16242a884e88aa04b79761c866bf,2018-11-13 00:40:52,Estevan Maito,fix wrapping issues in the navbar and logo indentation,False
+b8e9e86c4b9f4f8567c55d362a475285859f84e0,2018-10-18 00:32:43,YasharF,"Revert ""Update documentation for use of MongoDB Atlas""
+
+This reverts commit ee2a7115ed8d7376e6076b83d252f1977ecc8a0d.
+
+Reverting due to issues in Mongoose, the native driver, and MongoDB Atlas: https://github.com/Automattic/mongoose/issues/6881.  Will move to Atlas once the dependencies are fixed.",False
+7da67773241764061c99b1b316a4823006f543d2,2018-10-17 23:15:25,Yashar Fakhari,"Merge pull request #916 from mgautam98/master
+
+Update documentation for use of MongoDB Atlas",True
+ee2a7115ed8d7376e6076b83d252f1977ecc8a0d,2018-10-15 19:50:41,Gautam Mishra,Update documentation for use of MongoDB Atlas,False
+35fdde8c471b39615a7e5be826b2ca9163775d11,2018-09-18 03:34:14,YasharF,Fix MongoDB deprecation warnings,False
+1cf3e385b442c15fed0bb7301ab5a666049e2ab5,2018-09-18 03:33:58,YasharF,Update dependencies and eslint fixes,False
+72a787d95c567927a82a8631058a2a871fd3b294,2018-09-04 13:22:53,Yashar Fakhari,"Merge pull request #909 from nero2009/master
+
+Edit code in README.md FAQ to match code in app.js",True
+dbdf500a898cc58f1d6956878a960539b3cffe5c,2018-09-04 06:16:36,nero,Edit code in FAQ to match code in app.js,False
+1fb495ee0fbaf7bd68dbfad9245574d59cf1fb8e,2018-09-01 22:31:29,Yashar Fakhari,"Merge pull request #908 from jagatfx/service-error-handling
+
+fix #854: service error handling",True
+4ab25f365d52fcb1dd6021187d054f48b003011c,2018-09-01 21:16:52,Jacob Madden,fix #854: add production error handler middleware that returns 500 code with Server Error message; update lastfm controller error handling to render lastfm pug template to display error message from lastfm,False
+1b0b085c56767eaa21092695f8159f1482f2ddf3,2018-08-23 13:00:06,Yashar Fakhari,Fix minor code style issues in Contact.pug,False
+faeab0a7143d03b4f22a951081960b05f300bdc9,2018-08-23 12:54:55,Yashar Fakhari,"Merge pull request #901 from peterblazejewicz/feat/899
+
+Add HTML5 autocomplete attributes to some form inputs. Closes #899",True
+84bc95b83b537f4b308a03046a476bc8f71f44cd,2018-08-23 12:16:33,Peter Blazejewicz,"Add HTML5 autocomplet attributes to some form inputs. Closes #899
+
+- fields usually used by users have autocomplete added (defaults to on)
+- the fields like entering new password and re-entering password to
+  verify its correctness have the autocomplete set to new-password hints
+
+Thanks!",False
+623c2a68a6e6c6db7b0f70737a75437f8cc103a8,2018-08-20 03:00:36,YasharF,Fix test bug,False
+462bc11f5e5a6027faa6113c312594a9064645a7,2018-08-20 02:30:39,Yashar Fakhari,"Error checking and downgraded retry for nodemailer
+This patch fixes nodemailer issues with self-signed certificates by gracefully handling the error with a retry logic. Development environments usually only have self-signed certificates, which cause nodemailer to cause a 500 error out of the box. The error is now handled using a downgraded retry and a warning. For warnings is in production, the developer needs to deploy a valid certificate issued by a certificate authority such as Lets Encrypt.",False
+0451b6913156845902b937538c20f0035af1ea2f,2018-08-18 02:28:31,Yashar Fakhari,"Merge pull request #896 from empurium/master
+
+Trivial doc comment format fix for Twitter auth",True
+501404a6a7b396d1d55192e5fc66695b23e6ecae,2018-08-18 02:16:56,Michael Simmons,Trivial doc comment format fix for Twitter auth,False
+f00f65d93a6ef266ac080c62d89b6ae79e3ea952,2018-08-14 04:34:42,YasharF,Formatting changes for eslint 5,False
+a318a5f9f3ce6f0969e1488ce32c75125fabe827,2018-08-14 03:18:52,YasharF,Update dependencies,False
+9717689e788fc2423a2d37738abba30afdfa16ef,2018-08-06 03:33:48,Yashar Fakhari,"Merge pull request #894 from monkeywithacupcake/master
+
+Update the modern theme to be consistent with bootstrap 4",True
+7dd5549f24a26ac380d28362e537b0e1fa2a51f7,2018-08-06 03:14:20,jess,Update _variables.scss,False
+f5fe15466aea374c004589fa72e84489b6bb2cd8,2018-08-06 03:14:00,jess,Update _modern.scss,False
+65ce2d5586d18fea21f670fde15d40decfb096a1,2018-08-04 06:03:53,Yashar Fakhari,"Merge pull request #889 from gesa/patch-1
+
+Update main.scss w/correct fontawesome filenames as of FontAwesome 5.1.1",True
+cf9751ff6aa3163601c026e08c3d5da4f1838f74,2018-08-04 05:50:55,Aki,"Update main.scss w/correct fontawesome filenames
+
+The 5.1.0 to 5.1.1 Font-Awesome update changed the names of those files to drop the `fa-` prefix. More information at their [upgrading](https://github.com/FortAwesome/Font-Awesome/blob/master/UPGRADING.md) guide.",False
+acc95439a531bb0fcb735f105f9f3e6055674f62,2018-08-04 02:05:47,YasharF,Update dependencies,False
+3f1268f4624012c6eb441c329734af486370803d,2018-07-27 17:40:00,Yashar Fakhari,"Merge pull request #883 from binarymax/popper-umd
+
+Use Popper UMD",True
+5b282a04cb67542c1aea2025281bce6679a19388,2018-07-26 23:54:12,binarymax,Use Popper UMD,False
+fb195bbfcfc61acac326903b3c2d4712035bcb91,2018-07-12 09:01:22,Yashar Fakhari,"Merge pull request #879 from aschwtzr/patch-1
+
+Update README.md",True
+be3646f89b0a50039108e1e60b14a5dc77b59325,2018-07-12 02:56:26,Albert Schweitzer,Update README.md,False
+27749450c8c1dc49c8134f1b3d700e30c66c494d,2018-07-06 16:58:40,YasharF,Use property shorthand in Lob api example,False
+49ca482227c866f6eee685869faadc07475fbd4f,2018-07-06 16:32:25,Yashar Fakhari,Update Readme.md,False
+92443252c9bcf91d766e09fbb2f63ef994ed8093,2018-07-06 11:30:09,YasharF,"Fix for Mongoose URL string parser deprecation warning
+
+Fix for ""(node:1561) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.""",False
+9c8cb2458472ca94271b2eea5d42e9e9a26d5a94,2018-07-06 11:03:44,YasharF,v5.1.1,False
+321910cad0157460c1b1e42a47439871aab67b30,2018-07-06 10:54:34,Yashar Fakhari,Update Changelog.md for 5.1.1,False
+0eb242098a490e00846dbff7b8c636f04a1ed7c8,2018-07-06 10:43:16,YasharF,"Revert ""fix: copy libs to public/lib folder""
+
+Since the assets are no longer being copied, these ignores are no longer applicable.
+
+This reverts commit ff6a0c61a8f7169391515ebe2ecf284c75776a6d.",False
+fd31ffaac4d86c0127373603840f8f73270c4a68,2018-07-06 10:31:58,YasharF,"Upgrade FontAwesome to v5.1
+FontAwesome is now integrated as an npm package similar to Bootstrap and jQuery",False
+97538db2f8a3e0b429248d2b0163916d2e195667,2018-07-06 10:04:07,YasharF,Use the JS libraries from node_modules without copying,False
+93f9e1ef56848c4fe4a4007d1baa51cb893d182e,2018-07-06 09:28:26,YasharF,"Update Dependencies
+Fix Lob API Example Issue caused by Lob API changes",False
+31e7a0041513cb59bbeff174b5ec0c2e2a8bad23,2018-06-28 05:06:28,YasharF,Remove invalid eslint param,False
+29e094dca5a694681ff56095eab19c8e1fae1edd,2018-06-28 04:59:16,YasharF,Upgrade dependencies,False
+2b18ae1aef0a71152d988fd7d41710d5e1ae244a,2018-06-28 03:20:12,YasharF,Enable autofocus in the Contact view when the user is logged in,False
+f8b0bdda0d91fe440ede296179275bc613cee6f0,2018-06-27 23:35:07,Yashar Fakhari,"Merge pull request #874 from dkimot/dkimot-bootstrap-bug
+
+Fixed Navbar Home active class bug",True
+69f91484e023bde82d1d2bd4dd307ee39c2f6bbf,2018-06-25 23:44:23,Davis Kimoto,"Fixed active class bug
+
+Fixed a bug on the Home link's active class introduced by Bootstrap 4.",False
+17b529d27c28e49833c946f62ba484e8ce71bb7e,2018-06-23 05:25:46,Yashar Fakhari,"Merge pull request #870 from AhsanAyaz/fix-assets-copy
+
+fix: Docker copy libs to public/lib folder",True
+ff6a0c61a8f7169391515ebe2ecf284c75776a6d,2018-06-23 04:11:28,Ahsan Ayaz,fix: copy libs to public/lib folder,False
+2da1574360a9d6dac37db7467e45c162df535ba2,2018-05-28 08:12:31,Yashar Fakhari,"Merge pull request #865 from garretthogan/twilio-api-update
+
+Twilio api update",True
+5baa753fdb076494cfeb432fce169a1aa41b9c3a,2018-05-28 05:16:56,Garrett Hogan,updating twilio API,False
+a8c2283a8abd107a7418399fea320267d5915bce,2018-05-27 13:06:41,Yashar Fakhari,"Update Twitter API integration
+
+Destructuring statuses from an extra layer deep to fix bug in view",True
+1b9943d523592664b0c9f4e64572cb96b7399320,2018-05-27 09:10:51,Garrett,"Merge pull request #1 from garretthogan/twitter-api-update
+
+destructuring statuses from an extra layer deep to fix bug in view",True
+4123b9226dff0c727f35f1f6229f4208668c0383,2018-05-27 09:05:14,Garrett Hogan,destructuring statuses from an extra layer deep to fix bug in view,False
+da37b83e38c27205597792c47348302bd7c4bff6,2018-05-10 23:20:21,Yashar Fakhari,Update CHANGELOG.md,False
+230e0731f6801a2d50fe57c60568b1bd75cb04b3,2018-05-10 04:31:40,YasharF,v5.1 release,False
+c5b2dcd373253b3fde40829bf8358594c5430a9c,2018-05-10 01:35:17,YasharF,Update dependencies and adding popper.js,False
+f8d25af347d813481b673b0b0c6827586649b8f6,2018-05-09 23:52:16,Yashar Fakhari,"Merge pull request #847 from sahat/bts4wip
+
+Bootstrap 4 Upgrade",True
+6995d0a10cb94fcde88c41f8ce4d9815a00a5cb6,2018-05-02 10:19:11,YasharF,"Readme and changelog improvements
+
+- Changelog is now in CHANGELOG.md.  This change is to reduce the length of README.md as the file had got over 1800 lines long
+- Fixed formatting for the note regarding Azure.
+- Added MomentJS to the Date/Time cheat sheet",False
+e78e82d691cd7fa68a520241e778eb062df73445,2018-05-02 06:41:22,YasharF,"User errorhandler in development only
+
+Per https://github.com/expressjs/errorhandler  the package is intended to be a ""Development-only error handler middleware"".  The conditional use based on NODE_ENV is per errorhandler readme.",False
+e4cc8fbf2cecd0f59c1b9297047331fb9c0d46e7,2018-05-01 23:22:28,YasharF,"Readme update - removed --depth=1 for git clone
+
+Using `--depth=1` causes issues with `git rebase` for picking up updates from the project.  Removing the flag to prevent the issue for anyone that wants to rebase their project at a later point",False
+69e66def883046a095bd0edce54de091edd7bd37,2018-04-30 02:18:25,YasharF,"Improve security by removing X-Powered-By header
+
+Per recommandation from http://expressjs.com/en/advanced/best-practice-security.html#at-a-minimum-disable-x-powered-by-header",False
+945b90a641a8bcaefdfe752ee28b23e8c91ad938,2018-04-30 00:37:42,YasharF,"Set NODE_ENV in Dockerfile to development
+
+Out of the box, hackathon-starter is ready for development, hackathons, etc.  There are quite a few post-hackathon or pre-production additions that need to be marked off the list in the case of each application before it is fully ready for a mainstream production environment.
+
+For example, 
+- The the login/console.log needs to be redirected to a logging system using Winston or a similar module.  
+- Clickstream logging needs to be added.
+- Error handling middleware needs to be disabled for production.
+- API example routes need to be removed, etc.
+- Some assets may need to be moved or called from CDNs.
+- Integration (if needed) with a proxy protection and rate limiting services such as CloudFlare.
+- Internal or hosting service based SSL support
+- etc.
+
+This change is removing the production flag from the Dockerfile to avoid any confusion that the project is ready for full blown production deployment without any changes.",False
+1d0bc7df3fe1b5d3379c90aa3cbc0c7e6570aeb3,2018-04-30 00:19:21,YasharF,"Merge pull request #846 from nacimgoura/promisify
+
+Call only promisify on util",True
+04685edadf82fe5a98f301b81265e2cc54efe897,2018-04-29 10:24:24,YasharF,Fix missing newline at end of file,False
+2928d63dd8a0e81bbcab89190586f587edd2ab1f,2018-04-29 10:18:40,YasharF,Fix navbar opacity,False
+1a8b8fde791548bd6575e746814c451792f97f1f,2018-04-29 09:47:02,YasharF,Upgrade API examples to Bootstrap 4,False
+047211b3cf95f0921716a58af77d60f74887dffa,2018-04-29 08:44:33,YasharF,Fix Tumblr API integration,False
+f2ad8ec7ebae88cd5b0d42498c07190e514b7cd6,2018-04-29 04:50:02,YasharF,Upgrade flash.pug to Bootstrap 4,False
+a4253c5e0695590c9e55cdd8a726a9e89fe6efaa,2018-04-29 04:33:50,YasharF,Upgrade reset.pug to Bootstrap 4,False
+ecb94850fbff3d2af9d3d463eb04d282063de92e,2018-04-29 04:03:57,YasharF,Upgrade profile.pug to Bootstrap 4,False
+a0caa6e7e3342234aefbf88eeaa13f7109dca014,2018-04-29 03:41:40,YasharF,Fix pading in login.pug for better alignment,False
+dff3610140c35f6376537946ece165acaef7e8d2,2018-04-29 03:40:16,YasharF,Upgrade signup.pug to Bootstrap 4,False
+5933c789d168af64fc42df4cf3ed9cf7640df536,2018-04-29 03:39:27,YasharF,Upgrade forgot.pug to Bootstrap 4,False
+931ae224308d48875e7dcfd72c3df9b9b2cc7332,2018-04-29 03:22:11,YasharF,Upgrade login.pug to Bootstrap 4,False
+84f8b111a4f5c3ebfe4af6a1f4a83ac234f883d8,2018-04-29 02:54:57,YasharF,Upgrade contact.pug to Bootstrap 4,False
+f541d05fad75043c04eeabf551a9e17c1817c918,2018-04-29 02:22:39,YasharF,Upgrade home.pug to Bootstrap 4,False
+ce4bfaea80a69d26dc5e4d6b2a52fe6ef80eedda,2018-04-29 02:19:50,YasharF,Upgrade bootstrap & jQuary,False
+f25b2bf7095374274ad0707a909cb36c72174c0e,2018-04-28 23:47:02,nacimgoura,"call only promisify on `util`
+
+Calling only the function that is used allows more clarity and lightness.",False
+fc01cbe8cbdfd0eb577673ee2969802a8a2a3e47,2018-04-28 23:31:35,YasharF,Remove redundant font size,False
+341e229a8e2dd485329543ef20fda75c3e660860,2018-04-28 23:28:54,YasharF,Remove unnecessary comment,False
+0f866165314de908035bfd8b4f5ad408433ae517,2018-04-28 23:27:27,YasharF,Migrate footer to Bootstrap 4,False
+43c8339de692071911e5725a8d474467b84e628c,2018-04-28 23:13:01,YasharF,"Merge pull request #845 from nacimgoura/master
+
+Remove mongoose global.Promise",True
+992702455a2fa7b6b36d6928a474421704073f0f,2018-04-28 23:04:21,nacimgoura,"remove mongoose global.Promise
+
+`mongoose.Promise = global.Promise` is useless with mongoose > 5 because it supports natively Promise.",False
+9485e29f1f298202ab4fe6ab79ac7996686ee645,2018-04-28 21:15:57,YasharF,"Merge pull request #844 from nacimgoura/master
+
+Add nodeJS 10 in travis.yml",True
+c6e689c224228f78f5c4c2f6563d65eb4540946f,2018-04-28 21:11:46,YasharF,"Merge pull request #843 from nacimgoura/getsteam
+
+Migrating Steam API example to use es6 syntax
+Minor Steam API bug fix (edge case when the user does not have any games)",True
+727ba435494c215ecb8be8967da9bdf24de85bf1,2018-04-28 21:08:42,YasharF,"Merge pull request #842 from nacimgoura/uniform
+
+Removing optional return statements for consistency.",True
+655ea5db82ab21ff7dce932d9f9358c922da1ebe,2018-04-28 18:06:19,nacimgoura,"Add nodeJS 10 in travis.yml
+
+It's no longer a nightly, show [blog](https://nodejs.org/en/blog/release/v10.0.0/)",False
+60501cb39b50ed94725313ca13444a067ef208a1,2018-04-28 18:04:22,nacimgoura,"reformat partially getSteam with es6 syntax
+
+Partial reformatting of the getSteam function with ES6 syntax. Fixed a bug that could happen if you had no game. Also, I have the impression that the api steam has recently changed but I haven't done any more research on it.",False
+76e553d57d260d9b032083f50ae945132a8f363c,2018-04-28 17:44:32,nacimgoura,"standardize return
+
+Remove `return` before `res.render`and `next`",False
+56f48691dfcfd709e1ed352218f7d6d0ba52bc89,2018-04-28 10:51:55,YasharF,Upgrade header.pug & related styles to Bootstrap 4,False
+f8415949c2a00345daa588b27636e0ff0183037b,2018-04-26 22:45:55,YasharF,"Merge pull request #831 from nacimgoura/github
+
+Refactor github api with es6 syntax and async/await",True
+bdb51d718e458552dbad95e121ec548c0cfa0d71,2018-04-26 22:45:00,YasharF,"Merge pull request #839 from nacimgoura/twitter
+
+Refactor twitter api with es6 syntax and async/await",True
+1958f5761387b1a37bef605f62ddd5e914233e98,2018-04-25 22:24:36,nacimgoura,"remove return
+
+View https://github.com/sahat/hackathon-starter/pull/831#issuecomment-383263524",False
+f7436c4797ff5400046501e259cc9ce838e5279f,2018-04-25 21:34:06,nacimgoura,"remove return
+
+View https://github.com/sahat/hackathon-starter/pull/831#issuecomment-383263524",False
+1f971f9534294d39f59c87a6c92f3edd0fdd6d66,2018-04-10 04:19:15,nacimgoura,"refactor twitter api with es6 syntax and async/await
+
+[Twit](https://github.com/ttezel/twit) library natively supports promise.",False
+2e43d79ba25e6c1b031eed339f1bd0984bb57b69,2018-04-09 22:05:03,Sahat Yalkabov,"Merge pull request #837 from nacimgoura/master
+
+update README.md with import/export supported by node",True
+b1e41621e40d73cd0dd93ddb0c1dbef95bc98093,2018-04-08 15:39:14,nacimgoura,"update README.md with import supported by node
+
+It describes how to import with the es modules, but they are not supported by current versions of nodeJS. It's [experimental](https://nodejs.org/api/esm.html). You can use them with babel (or another transpilator), but it is not included in the project and will add a layer of complexity. I updated the readme with the currently supported native syntax.",False
+46cddd060032684f89ef762f7de00e9775ac0be3,2018-04-08 03:14:57,YasharF,"Merge pull request #828 from nacimgoura/nodesass
+
+Remove duplicate node-sass in package.json",True
+4739d4598c096bfb3d4d499c5f40de8447995ab2,2018-04-08 02:52:30,YasharF,"Merge pull request #834 from nacimgoura/master
+
+Add instructions for usage of ngrok to add HTTPS support when needed for development",True
+d9b84abb0db14e93c3514257ebabb406d30377ec,2018-04-08 02:50:20,YasharF,"Merge pull request #835 from nacimgoura/numbergamesteam
+
+Display the number of games owned in Steam",True
+3a24ea462762bfa4dcb83f4cf83d088a55112073,2018-04-08 02:33:51,YasharF,"Merge pull request #836 from nacimgoura/jadetopug
+
+Update README.md for the migration from jade to pug",True
+153846b11b3dfabab6abdb0d9f16a13ad40aec1f,2018-04-07 17:26:42,nacimgoura,"update README.md for the migration from jade to pug
+
+There were breaks between the transition from jade to pug (https://pugjs.org/api/migration-v2.html). Some of the links in the readme point to an old documentation or old converter. I've updated all this.",False
+9a36f4fc5ea023bff7165fb26c185fe240cca189,2018-04-07 17:12:05,nacimgoura,"display number games owned
+
+It is now possible to see the number of games for his steam account.",False
+59655ce2862fb62d265caf9b39714a8f6b360244,2018-04-07 02:02:58,nacimgoura,add usage of ngrok,False
+bb77dc209310b9e54f5d26dfb2fbe32736a5be07,2018-04-03 00:50:38,YasharF,"Merge pull request #830 from nacimgoura/lastfm
+
+Refactor last.fm api with es6 syntax and async/await",True
+14c70e6d8735e309de2d25b6863ac4a2bb1dabcd,2018-04-03 00:19:03,YasharF,"Restore fontawsome libs
+Re-adding font-awesome libs that were accidently removed",False
+d5420964119185c3742cab692d3b7264761e5c38,2018-04-03 00:00:52,YasharF,"Update flatly using Bootstrap 4 release
+The content of the files are being replaced by the content from https://github.com/thomaspark/bootswatch/tree/master/dist/flatly .
+Importing the local bootstrap-social",False
+d9a7e07d300bb5071090a9bb99f08ffb9922d21c,2018-04-02 23:38:55,YasharF,"Add public/js/lib/bootstrap.min* to gitignore
+These files are being replaced from the npm surce with npm post-install.",False
+c845a745b211e242e531b9b02612ea0f92b67261,2018-04-02 23:32:57,YasharF,"Bootstrap 4 library upgrade
+Replaced Bootstrap and Bootstrap Social SCSS files with Bootstrap 4 versions.  These files are now being loaded in the project using their npm packages to reduce the longer-term maintenance efforts.",False
+26f4018681d8c9f352b2bd734fa643151c5fef40,2018-04-02 16:35:53,nacimgoura,"refactor github api with es6 syntax and async/await
+
+github library (@octokit/rest) natively supports promise.",False
+2248414fd2acc868c80ffdb5a503ecfaba7540d2,2018-04-02 15:43:18,nacimgoura,"Refactor last.fm api with es6 syntax
+
+I refactorized the code with the es6 syntax. I also took the opportunity to make the variable names clearer for developers and handle the case where information is missing.",False
+1305654edfca88ff4f62b30677ced68135ff425c,2018-04-02 15:30:09,YasharF,"Update Readme - added notes about app hosting services
+
+- Added notes about app hosting services, including their free tiers.
+- Fixed typo.",False
+05d3ee3c719e682b5260b5725807186a7e3cf657,2018-04-02 14:16:40,YasharF,"Merge pull request #827 from nacimgoura/instagram
+
+Remove Popular images - instagram API - deprecated feature",True
+c6a46bc3466ac96c7e52ca3e01d44d2f3ca88325,2018-04-02 13:57:04,nacimgoura,"remove duplicate node-sass
+
+node-sass is already declared in dependencies but it is also declared in PeerDependencies. It should be removed from PeerDependencies.",False
+adb04a09feccbce6a64a66248bb508237ba74d6e,2018-04-02 13:05:32,nacimgoura,"remove Popular images - instagram API
+
+The popular media must be removed because it has been depreciated since 2016 and this prevents the instagram api from working. According to the [documentation](https://elfsight.com/blog/2018/02/instagram-graph-api-changes/), the rest will be depreciated in 2020.",False
+0bf8382fc833c9bc018968ce405543b8dbdccfd5,2018-04-02 10:50:14,YasharF,Update Dependencies and Release 5.0,False
+ccbefb77243b43bbd63162ff70ee264000e2bca7,2018-04-02 10:14:30,YasharF,PassportJS Config: use ES6 to declare dependencies,False
+272708e0b744c589692434f2710bca9be4b93863,2018-04-02 09:18:27,YasharF,"Update Readme - VS Code + WSL option
+
+Stating that Visual Studio Code combined with WSL is an alternative option instead of Visual Studio on Windows.",False
+0593913af42627699a27385065ee68cac6fc702f,2018-04-02 07:48:55,YasharF,"Merge pull request #818 from nacimgoura/bluebird
+
+Remove Bluebird",True
+92a77d2a6de173db6362722e33c7984c933a3d37,2018-04-02 06:59:40,YasharF,"Merge pull request #820 from nacimgoura/instaview
+
+Fix bug display image in view instagram",True
+618a8bce1cd6857bcf6114515798ef8ad11dbd11,2018-04-02 05:21:35,nacimgoura,"Fix bug display image and link in view instagram
+
+For the instagram page the images are not displayed. HTML display '#{user.profile_picture}' instead of value.",False
+e3be7b96b58d6ac2989408f20cdc3f41a6e23e90,2018-04-02 04:28:49,YasharF,"Merge pull request #819 from nacimgoura/readme
+
+Add new files and update list package in readme.md",True
+f9687d620d5a1faa29c7b5acc2fb1912686fa646,2018-04-02 04:19:36,nacimgoura,add new files and update list package in readme.md,False
+072fada7f0e6ac2a3d677ae1bfa9f9345250cd66,2018-04-02 03:12:29,nacimgoura,remove bluebird in package.json and update node version in readme,False
+d6b8bac3507e9790b3742d9f5e3ed3a1292e87c0,2018-04-02 03:11:16,nacimgoura,remove bluebird in controllers/users.js,False
+70cfdb53ccadd73d9d856124e04997501741f51f,2018-04-02 03:10:52,nacimgoura,remove bluebird in controllers/api.js,False
+5a344c6c4f50e2a07f2614b19cbb00dc05fbd6fe,2018-04-01 04:51:34,YasharF,Run eslint during travis-ci runs,False
+525e089a053bfcfd4d5cdfce8008609f4724820f,2018-04-01 04:26:36,YasharF,"Steam account link improvement and bug fix
+Allow a user to link and unlink their Steam account, under the user profile.  Without this patch, there is not a way in the UI to unlink an account linking it through the API example.
+Fix a bug in Steam API example to handle the cases if the Steam API does not provide any Achievements for the user.",False
+cb29987ffc347055c650c880d7cdef74da95cc6b,2018-03-31 11:03:48,YasharF,"Merge pull request #806 from nacimgoura/travis
+
+Add travis",True
+d26efa3d13bc9714209abe672a63847eda0847a3,2018-03-31 10:45:07,YasharF,"Revert ""Merge pull request #750 from ggarber/add_tokbox_support""
+
+This reverts commit 4f0a065ed7bf79800498df6db96b84522fd4f830, reversing
+changes made to f9adc3b81106a4c730e697e4eb8da3ff6e4e053c.",False
+4f0a065ed7bf79800498df6db96b84522fd4f830,2018-03-31 10:29:57,YasharF,"Merge pull request #750 from ggarber/add_tokbox_support
+
+add tokbox/opentok API support",True
+f3f68498e8c9de541f5e54c4b0586de045d1b690,2018-03-31 10:29:24,YasharF,Merge branch 'master' into add_tokbox_support,True
+f9adc3b81106a4c730e697e4eb8da3ff6e4e053c,2018-03-31 09:08:08,YasharF,"Merge pull request #813 from nacimgoura/bugviewfoursquare
+
+fix bug display image in foursquare view",True
+3879fd5d1050ffdc7a0177563b0941a7f47c759c,2018-03-31 08:59:18,YasharF,"Merge pull request #799 from sahat/fa5upgrade
+
+Font Awesome 5 upgrade",True
+3650450b212c3a5935765c076f50b3e2916f3ea6,2018-03-30 17:43:54,nacimgoura,"fix bug display image in foursquare view
+
+I encountered a bug in foursquare view, the html page display `img(src='#{venueDetail.venue.photos.groups[0].items[0].prefix}150x150#{venueDetail.venue.photos.groups[0].items[0].suffix}')` instead of displaying an image.",False
+ce7547274a32f32ec24257f8a251c123167e46d2,2018-03-29 23:14:15,YasharF,"Merge pull request #809 from nacimgoura/coveragetest
+
+Add coverage test and close server after test",True
+468a9ab3638931b10f8d52d1421af773d9e5e6b8,2018-03-29 13:40:35,nacimgoura,"add coverage test and close server after test
+
+I set up a test coverage which allows to see which part of the code is not tested. Also after `npm test` the server was not closing, it is now the case.",False
+9f45616cc3ca0516d627785d494e266e2951dfeb,2018-03-29 13:40:02,YasharF,"Merge pull request #807 from nacimgoura/es6
+
+Use new es6 syntax",True
+0b112258e9f48fa1d6cf63927e4d4132551ae978,2018-03-29 13:06:40,nacimgoura,"reverting for if/else
+
+I'm revert for if/else format, even though I found it clearer and more concise by directly affecting the variable.",False
+c99530f43847f09aec4afe1cbafdf46304690be1,2018-03-29 12:39:56,nacimgoura,"respect new rule eslint
+
+respect `""function-paren-newline"": [""error"", ""never""]`",False
+c815ff3b4a53e02239a7b00ff358b5d2cfd6bb5a,2018-03-28 16:39:54,YasharF,Update .eslintrc,False
+66d1ff03b003d62e3049d5e80028eca7cce88d35,2018-03-28 14:21:24,nacimgoura,add missing es6 syntax,False
+8151219953f2210ac425daa52ed621d568505f63,2018-03-28 13:55:25,nacimgoura,"add travis
+
+Allows you to run tests on every deployment and ensure everything is working properly.",False
+e9f0e8e673cbf9b0f8dd0aef808da14403ab3b4b,2018-03-28 10:13:05,YasharF,"Session management improvements
+
+1. This patch replaces the deprecated clear_interval property in express-session MongoStore, with maxAge.  Since there was no maxAge set, the sessions had the two week default expiration.
+
+2. As an enhancement, the session ID will also get stored in the client side in addition to the server side with this patch.  This change will preserve the session if the user close the browser resulting in:
+   - Elimination of the need by the user to re-login when they navigate back to the site unless if the cookie has expired.
+   - Reuse of the session ID in the session table of the database instead of recreating new sessions for the same user, which was resulting in an excessive number of stale session entries in the db.
+
+3. During logout, the session will get deleted/destroyed.  Prior to this patch, the session was persisting while only the user login (via passportJS) was removed.  This is in line with the recommendations from OWASP.",False
+279cbc92cea390dc76c8e809df4c9562acb1d3f2,2018-03-28 01:18:11,YasharF,"Merge pull request #804 from nacimgoura/bettergitignore
+
+Adding additional entries including entries for different IDEs to .gitignore",True
+72b841bb63e4c1e73c795706c7183137ecea87ad,2018-03-28 00:58:40,nacimgoura,"use new es6 syntax
+
+With recent versions of nodeJS, it is possible to use the template litteral and destructuring assignment. I also used eslint to correct possible syntax errors.",False
+9e5df48c3791c000c9a938fc06b458a8883ab943,2018-03-27 23:54:39,nacimgoura,add end of line,False
+d3e8241a7eb34423e9bf7a46e5384f1df496db33,2018-03-27 21:55:10,YasharF,"Merge pull request #805 from nacimgoura/master
+
+better .eslintrc",True
+9912b49f5bd90d11d4f1981244656f86229a7422,2018-03-27 21:34:24,YasharF,"Merge pull request #802 from nacimgoura/date
+
+update date in LICENSE",True
+53dfde47abe7a93f602cc3f0c85bb299673c547d,2018-03-27 20:57:56,ngoura,"fix bug chai-friendly
+
+eslint always displayed `Definition for rule` chai-friendly/no-unused-expressions' was not found` because the plugin was not declared in.eslintrc.",False
+166f155f2483967477397453adf5739ad98181e3,2018-03-27 20:15:33,ngoura,"add env in eslint
+
+Adding env in eslint allows better code detection. For example `describe` is not underlined in red with this configuration because eslint detects that it is a unit test library.",False
+e6f83028d588c36523e3d5de592bd29a95dd4e4d,2018-03-27 20:10:57,ngoura,"better .gitignore
+
+Based on https://github.com/elsewhencode/project-guidelines/blob/master/.gitignore",False
+87b4b926b5a297b34ce97d04763391d962f0023a,2018-03-27 19:52:07,ngoura,"update date in LICENSE
+
+replace 2016 by 2018",False
+0d5a03d6160d8c54278a7997b0596c71fa3c082a,2018-03-27 03:32:57,YasharF,"Setting Foursquare API version and mode
+
+This update is to eliminate the following two warnings when starting the application:
+warn: Foursquare API version not defined in configuration; defaulting to latest: 20140806
+warn: Foursquare API mode not defined in configuration; defaulting to: foursquare",False
+b6c6177ce7ed640d846771c242ac58a2cba23423,2018-03-26 06:10:14,YasharF,"Font Awesome 5 upgrade
+Font Awesome 5 is not fully backwards compatible with Font Awesome 4.
+See https://fontawesome.com/how-to-use/upgrading-from-4 for additional notes on migrating from Font Awesome 4 to 5.",False
+cdd8c80fef30f12ef5036744efd09d1baece3ad2,2018-03-24 03:13:18,YasharF,"Updated dependencies, updated version to 4.4.0",False
+fb6eff90536d3e2fc99a781ae693d315bcff97f4,2018-03-24 03:09:32,YasharF,README.me: update of the package list,False
+3187314b8d5d86e5cff1e2b76c5668bd834e72d2,2018-03-24 02:43:19,YasharF,Minor formatting update to app.js,False
+6fff1ad3f089388fc7c5247db4c6d9864b703620,2018-03-24 02:40:02,YasharF,"Merge pull request #797 from YasharF/patch-1
+
+Multiple changes to finalize v4.4.0",True
+5e950b694f5f649131d798d1da7a08074c2cc92f,2018-03-24 00:57:28,YasharF,Added v4.4.0 changes to the changelog in README.md,False
+cb26d75aa31cc09ecae27ac5a09ffe769cfbabea,2018-03-24 00:54:55,YasharF,"Removed MONGOLAB_URI from app.js and Readme.md
+MONOLAB_URI has been removed from the .env.example in favor of MONGODB_URI.  This commit is to remove the related references in app.js and Readme.md",False
+64acf4dc8cab9e0d988e54dd023e7bd9073840be,2018-03-24 00:12:46,YasharF,"Minor improvement in contact controller
+Initialize conditionally when declaring the variable",False
+1e3bfb9930e7500b280f5c7175b4948f22006906,2018-03-23 22:56:28,YasharF,"Merge pull request #796 from YasharF/master
+
+Updates to README.md",True
+59265f1c1e40e62c025fe8cd098934d288778fde,2018-03-23 14:35:57,YasharF,"Merge pull request #791 from shreedharshetty/patch-2
+
+Saving queryParams as part of req.session.returnTo for logins and other use cases.",True
+7390a7e386417ca257a23020d2f2ed17d1e04e3b,2018-03-23 09:44:28,Shreedhar,changed to req.originalUrl as req.url is not a native express property,False
+9746b165108709636bb3b273dab89c05ac846661,2018-03-23 04:49:06,Sahat Yalkabov,"removed MONGOLAB_URI env var, use MONGODB_URI instead",False
+b53232b58ae312e6820c4ce8fe52f4106a73a83c,2018-03-22 12:55:26,YasharF,"Migrate from github npm package to @octokit/rest
+
+This migration is to address the following warning:
+
+- npm WARN deprecated github@13.1.1: 'github' has been renamed to '@octokit/rest' (https://git.io/vNB11)",False
+083122a6b07865be44f8c55e7ade3fa93bf82ede,2018-03-22 12:37:32,YasharF,Updated the ports listedin .env.example,False
+6ce20708e78d565a137e6a9dd613c7b4f14070f0,2018-03-22 12:31:16,YasharF,Fixed minor formatting issues in api.js,False
+cb05c8f51a080f1fb79c1f48069cdef6b6ed20b7,2018-03-22 12:23:44,YasharF,Fixed Steam API Integration,False
+1dc6d0fd6142ed829d093d746733eae79acf0aad,2018-03-22 06:45:18,YasharF,"Confirm when deleting an account.
+Since deleting an account is irreversible, when a user clicks on Delete my account button, ask them to confirm it.",False
+84f1933ac9d21f98dabb680fe7ab17efcad2de75,2018-03-22 05:45:21,YasharF,"Contact form improvements
+
+- The contact form will no longer ask for the user’s name and email address if they have logged in.
+- Making the text displayed in the contact form view slightly more friendly.",False
+924189f3efe4c4eda52177470ab9d90faad98174,2018-03-22 04:11:46,YasharF,"Updated views to use https for external images
+
+This is to fix client/browser warnings when serving content over HTTPS -> HTTPS page has requested an insecure image. This content should also be served over HTTPS.",False
+37672cb2480a16367b8c80906df81acaaad07860,2018-03-22 04:00:15,YasharF,Removed bitgo.pug - not in use since 4.1.0,False
+84c77a0a890cccbf125518ba1d02f3e84ac62d5a,2018-03-22 02:55:22,YasharF,"Updated the ports in README.md to 8080
+
+The default port for the express app as defined in app.js is 8080, while the readme.md had references to port 3000.  This update is to address the inconsistency by updating README.md",False
+f82f0ba9bbd3920e7f9c7778bf8fd4142733dc47,2018-03-22 02:43:42,YasharF,Updated docker port in or README.md,False
+89464a5c41b6e0182d308a400aba32172ababe1d,2018-03-22 02:38:57,YasharF,Update broken images and links in Readme.md,False
+c9ab8844f7005a7348b0ed783c35d10814dba722,2018-03-22 00:41:30,YasharF,"Fix and upgrade Docker
+Fixed docker port mismatch to match the app's port of 8080.
+Upgraded Docker-compose to V3 as recommended by https://docs.docker.com/compose/compose-file/compose-versioning/
+Upgraded the docker images to use Mongo 3.6 and NodeJS 8.",False
+6c5e1b8f8f5b4a25e8667bea8fe4d0304aa42285,2018-03-22 00:20:21,YasharF,"Merge pull request #778 from praveenweb/master
+
+updated Dockerfile for better layers, caching",True
+270a630e5185a3740689154792776684758a8ac3,2018-03-19 23:16:35,YasharF,"Merge pull request #743 from diogeneshamilton/facebook-readme
+
+Update Facebook instructions in README.md",True
+2d8184be10d36c62d5419cd370f2141b87e7529e,2018-03-19 20:16:09,Matthew Hamilton,Update README.md,False
+bc7b4700fb8736443e3d5f4383dec4ed451450e8,2018-03-19 13:22:32,YasharF,"Merge pull request #771 from JonLim/fixing-last-fm-api-example
+
+Fixing Pug template for Last.fm API Example",True
+8f4e829918b3f7aefbffcc891c23f3208965d27f,2018-03-19 11:16:37,YasharF,"Merge pull request #757 from whmsysu/master
+
+Using env variables for Google Maps API key",True
+bb365f8fe2a1d14b8c54d56882142adfdc498916,2018-03-19 09:26:34,YasharF,"Merge pull request #769 from JonLim/removing-bitgo-api-example
+
+Cleaning up api/index view to remove reference to BitGo",True
+1b5b94c74d1fef867f736d8cf4c68491eea9bca4,2018-03-19 09:17:40,YasharF,"Merge pull request #749 from strathausen/patch-4
+
+Fix GitHub API example repo link",True
+ebbf5b5b3392d277a16c99618c95eb984adb644d,2018-03-19 09:17:19,YasharF,"Merge pull request #748 from strathausen/patch-3
+
+Update GitHub API example",True
+9f582535fdbb407c6990f6df1780da3438c87071,2018-03-19 09:16:45,YasharF,"Merge pull request #747 from strathausen/patch-2
+
+Update the GitHub section in README.md",True
+d025f4fb1bf8b6d8fa7cefe0f0e60b0025c2f388,2018-03-19 09:10:48,YasharF,"Merge pull request #774 from BrennanMcDonald/master
+
+Updated footer from 2017 to 2018",True
+26e9ee8e3cbda8f891666d5e27d9d58d68681cf0,2018-03-19 09:10:05,YasharF,"Merge pull request #746 from arlemi/master
+
+Update list of Watson services in README.md",True
+c2fada7b39d5d4427602dfb4d8ea01e242547ed8,2018-03-19 09:04:46,YasharF,"Merge pull request #742 from niluroy/master
+
+Update README.md to correct typo in the name of package-lock.json",True
+52fcd4e1964ad631606902b30047872233e12555,2018-03-16 12:24:02,Shreedhar,"fix - returnTo with queryParams
+
+If you want to redirectTo some url with queryParams, it will only considers path. as we set the `req.path` to `req.session.returnTo`.
+This will set `req.url` so path with queryParams will be set to `req.session.returnTo`",False
+11bb9a74ddaf1413a651d5856a9f55965917c6db,2018-03-06 21:21:45,Sahat Yalkabov,dependencies update,False
+3c3de7fc803bf833655cc76eb332d394f498dc9e,2018-01-30 15:15:28,Praveen D,"updated Dockerfile for better layers, caching",False
+fdb82530757a17ae46ad3ac6bb0d6df61f8d57b7,2018-01-11 06:34:59,Brennan McDonald,Updated footer from 2017 to 2018,False
+ae9c91065f852bc84addc6b446933b301b977637,2017-12-17 03:13:21,Jon Lim,"Fixing Pug template for Last.fm API Example
+
+Many of the URLs for images and links in the API Example for Last.fm
+were incorrectly referenced, due to deprecations with attribute
+interpolation syntax.
+
+In addition, the order or promise resolution had mixed up the list
+of top tracks and top albums, causing the same image to be shown for
+all ""top albums"", and the list of ""top tracks"" were actually album
+names. This has been corrected.",False
+bdcbcbb4d3c92724bda4f52cb67a2ed255f8b3ec,2017-12-17 03:09:26,Jon Lim,"Cleaning up api/index view to remove reference to BitGo
+
+Per the changelog from July 23, 2016, BitGo was removed due to a dependency issue
+with `secp256k1` and Windows. This PR removes the reference on the `API Examples`
+page, addressing issue #725.",False
+648533385700cb09fab47620bccf45e005d62d62,2017-11-09 13:55:48,Haomin Wu,Fix google map not showing error and add google map api key to config file,False
+1c95d8695d55acfa369a1d8a1960fa9073c1cbb4,2017-10-22 02:26:27,Gustavo Garcia,add tokbox/opentok API support,False
+52b0898f525c96c94519d9e016b0dbcce107a4df,2017-10-21 15:14:48,Johann Philipp Strathausen,Fix GitHub API example repo link,False
+e8b885e3dbce93217abbe6113e85494704c4c4fc,2017-10-21 14:27:31,Johann Philipp Strathausen,Update GitHub API example,False
+a651b1bd8ce2e561c50c5b26e0428096b0d77e8e,2017-10-21 14:24:54,Johann Philipp Strathausen,Update GitHub section,False
+26b4484ab2902b1274fa7d3e8d5e54d1bd7bd535,2017-10-17 18:10:53,Arlemi,added links for each Watson service,False
+3830501fcbd6ba81cae70e2065375f37d2b2fe9a,2017-10-17 18:05:24,Arlemi,"updated list of watsons services, removed deprecated services, updated descriptions, added new service NLU",False
+e7c6476a17ca02eaf363d785b6971a8b3e708c91,2017-10-11 07:12:04,Matt Hamilton,Update Facebook instructions and add a clarification on Mongo install.,False
+c788a2dfa5daa994b48377471948be9d65f52ca5,2017-10-10 17:11:07,niluroy,changes done in README.md file for the name of package-lock.json,False
+bfaf67978460982ac5accc9b5835a257f1acf09c,2017-08-27 02:08:30,Sahat Yalkabov,"Merge pull request #727 from shahzeb1/master
+
+Fixes dead URL in issue #726 and twitter image issue #728.",True
+6c9ec8559f4c8256dc439ff5d254f75ceb0b33fe,2017-08-21 10:17:24,shahzeb1,Fix for issue #728,False
+a8f90bc0a7528223f40401772b79e070b8aa51ae,2017-08-21 10:07:08,shahzeb1,Fixes dead URL in issue #726,False
+2ef645f76526d48f8ca33b37f4aae4376e5d3eff,2017-08-19 07:58:57,Sahat Yalkabov,remove yarn in favor of package-lock,False
+4807c3692e2b3b726b403b3e904b885fa0107f43,2017-08-19 07:58:44,Sahat Yalkabov,"Merge branch 'master' of github.com:sahat/hackathon-starter
+
+# Conflicts:
+#	package.json",True
+52624ba1e38c5719961f4ecc8247ffe3dbea9cd4,2017-08-19 07:47:16,Sahat Yalkabov,removed package.lock,False
+766dc42769e0d8bb2686015dab5f1d9e755b0030,2017-08-19 07:45:15,Sahat Yalkabov,"Merge pull request #657 from SuriyaaKudoIsc/patch-1
+
+Correct spelling",True
+44ac28ed8452b2433bf8fb947137148d35001c31,2017-08-19 07:45:04,Sahat Yalkabov,"Merge pull request #714 from stanidesis/patch-1
+
+Fixed markdown parsing error on README",True
+e66cdde4ec3d886fe6bb0d53bfe6a5ce8729e1fc,2017-08-19 07:44:52,Sahat Yalkabov,"Merge pull request #715 from bennyn/patch-1
+
+Fixed rendering of 1-step deployments",True
+8055dff7066d7a853662b74a44e48322e7b5032f,2017-08-19 07:44:10,Sahat Yalkabov,"Merge pull request #718 from notJackson/remove-typo
+
+remove typo",True
+99475eded6267252c4cdd158b5ef794cb0361cf0,2017-08-19 07:43:46,Sahat Yalkabov,"Merge pull request #722 from linmic/type-safe-equality
+
+use type-safe equality operator instead",True
+2f511e77342bb8cd982db24e6d059db9a5fc4a05,2017-08-19 07:43:18,Sahat Yalkabov,Merge branch 'demo' into master,True
+bcb077b9a23a98e97e45c34d10cd8fbc2a581e63,2017-08-19 07:41:23,Sahat Yalkabov,updated dependencies,False
+b2dadda5bc7a0ada65b09eb95dc92bef566bdfb3,2017-08-13 10:01:35,Linmic,use type-safe equality operator instead,False
+2cd99b6e3cbf06ddad794f255dc35d98266f1349,2017-08-09 09:35:48,notJackson,remove typo,False
+3314a7b437ec3c401fd6659aa1a8fd9503aab27f,2017-07-17 02:25:17,Benny Neugebauer,Fixed rendering of 1-step deployments,False
+2173a2c6b31118b31e299d5ee6750b43ec91125b,2017-06-27 20:31:13,Stanley Idesis,Fixed markdown parsing error on README,False
+29aee171e0dead2d11b397e134d902b63a0ba076,2017-06-19 03:25:28,Sahat Yalkabov,"Merge pull request #670 from Twanawebtech/master
+
+Bluemix Content Update",True
+731ec259c3d17fbee8171f2d280cbdf283177b76,2017-06-19 03:24:57,Sahat Yalkabov,"Merge pull request #671 from amakhnev/master
+
+normalizeEmail options key remove_dots changed to gmail_remove_dots",True
+09ed2c44e3cd98335134729c0c8d6eed279d42de,2017-06-19 03:24:45,Sahat Yalkabov,"Merge pull request #675 from atonb117/patch-1
+
+Minor Typo Correction",True
+3600e341e93b911052f26609dbf31cd92cd86c7b,2017-06-19 03:24:36,Sahat Yalkabov,"Merge pull request #683 from peterblazejewicz/feature/eslint-changes
+
+:art: Fix ESLint configuration and source errors",True
+ec0cc4bc7300744d26945693e5c4cae4664da4e9,2017-06-19 03:23:46,Sahat Yalkabov,"Merge pull request #684 from bryant1410/master
+
+Fix broken headings in Markdown files",True
+75a2fd16b669a754c06c9f47b387ddab816716f8,2017-06-19 03:23:34,Sahat Yalkabov,"Merge pull request #689 from gregorysobotka/adding-docker-compose
+
+Removing node_modules",True
+b70b0d5b6613c23c06d3d13753f6a28fa295993d,2017-06-19 03:22:58,Sahat Yalkabov,"Merge pull request #691 from ryanhanwu/patch-2
+
+Optimize Dockerfile for production env",True
+459b66f8e82be6acb3a0a4ca276526a62a296a9c,2017-06-19 03:22:13,Sahat Yalkabov,"Merge pull request #697 from christabella/patch-1
+
+Fix minor formatting issue in README.md",True
+192a4e1e17cf6947714575c715e7a508333ad319,2017-06-19 03:21:58,Sahat Yalkabov,"Merge pull request #701 from skatpgusskat/patch-1
+
+Fix unparsed markdown at README.md",True
+68b602e7c2d5c5ab5b265b04db1bad882e901710,2017-06-19 03:21:36,Sahat Yalkabov,"Merge pull request #704 from anasayubi/master
+
+add gender field to facebook strategy",True
+5111e22b5d4603a97958a0777142351629b0b53a,2017-06-19 03:21:00,Sahat Yalkabov,"Merge pull request #707 from User1m/patch-1
+
+fixed markdown issue and promises .then() issue",True
+8aeec2bd5615c7b6387887fe7c8c406bb13d0a38,2017-06-06 04:02:56,Claudius Mbemba,"fixed markdown issue and promises .then() issue
+
+Added spacing to properly markdown Mongoose Cheatsheet. Also added missing closing brace from Promises .then() example.",False
+23bd4c53fd07e35a5b34f378c97a00fda247557c,2017-06-03 12:05:39,anasayubi,add gender field to facebook strategy,False
+17144f7175529f0ca50785384522786647655bb7,2017-05-25 06:22:58,Nam Se Hyun,"Fix unparsed markdown at README.md
+
+on README.md, the section of **Obtaining API Keys** wasn't completely parsed well.
+this commit separate paragraphs with line break after <img> tag.",False
+2d5b05478508d29d1332e0be07d0d81a9f4b2370,2017-05-12 10:41:00,Christabella,"Fix minor formatting issue in README.md
+
+###Heading 3 will not render properly in Github Markdown anymore -- needs a space, i.e.
+### Heading 3",False
+5c19b8711960eb361eca98e7ad632f8debbd70e2,2017-04-28 07:55:20,Ryan Wu,"Optimize Dockerfile for production env
+
+* Smaller - Use `node:6-slim` image
+* Faster - Add `NODE_ENV` for node
+* Faster - Use `yarn` (Pre-installed with official docker images)
+* Faster & Smaller - Install `dependencies` packages only",False
+c2380782a4ac3c0d04a1e3df05264ba3332f8799,2017-04-24 21:17:21,gregorysobotka,"Removing node_modules
+
+Was an example that could have been used to build / save dependencies
+as separate image. However, it is not needed.",False
+c617b94116976288ce434b59e909effb8b405bab,2017-04-17 05:19:49,Santiago Castro,Fix broken Markdown headings,False
+e2249989c57fa19e12c5544e78539d8346ec4a64,2017-04-15 19:04:49,Peter Blazejewicz,":art: Fix ESLint configuration and source errors
+
+This commit:
+- updates ESLint version to recent one
+- configures ESLint to work with Node, Mocha and Jasmine syntax
+- adds Chai assertion friendly plugin to work with
+  no-usunused-expressions configuration rule
+- fixes linting erros in source code itself
+- adds NPM task for lintin",False
+475e05abb917f335634d575f61d7ce6df37dbcd1,2017-03-26 05:36:14,Aton B,"Minor Typo Correction
+
+Space missing in markdown syntax.",False
+73053ac1f82c6e81cdb3bf67a2bf0e9e7f50abcb,2017-03-17 04:28:33,Alexey Makhnev,normalizeEmail options key remove_dots changed to gmail_remove_dots,False
+e287aadb95a486ce026278d9094a09adc2668ea0,2017-03-16 18:02:16,Twana Daniel,Bluemix contant icons,False
+a6faed57cd4acff7605349c2deb5c5e6b292f04c,2017-03-16 18:01:19,Twana Daniel,update icons -> Bluemix part readMe,False
+cc357b1d433d240cc44de55de75477dc08e5c40d,2017-03-16 17:47:52,Twana Daniel,Add new Bluemix content,False
+04c33f97ea39ebd319adf57502e29d9583aae2d4,2017-03-16 11:45:42,Sahat Yalkabov,"Merge pull request #649 from gregorysobotka/adding-docker-compose
+
+Adding docker compose",True
+ae59102043eecb9d0b2ec9e587828b2b2f80c316,2017-03-16 11:40:11,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+1b252903625c93dbc562849f3140796d1352687c,2017-03-16 11:40:02,Sahat Yalkabov,"removed lodash dependency
+
+closes #655",False
+7517742dcf251d5a958f889aeeb78e808937cb47,2017-03-16 11:31:39,Sahat Yalkabov,"Merge pull request #638 from fmcarvalho/feature/promises
+
+Remove async package and use built-in ES6 Promises",True
+32025d962dc9a2fa72dcaeb034df436e57e9a9ba,2017-03-16 11:28:20,Sahat Yalkabov,"Merge pull request #636 from InstanceOfMichael/patch-1
+
+Show the user the MongoDB error message instead of discarding it",True
+74da58f19ff5e5fa216e28e62f9b8d7f6ddbbc82,2017-03-16 11:27:42,Sahat Yalkabov,set 1-hour clear interval for mongo sessions,False
+12702b804d95395cab72c486f77ba6e4a36b481f,2017-03-16 11:19:08,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+a4b4156af64a390fefc1f39e6cceb915c2b987e0,2017-03-16 11:10:40,Sahat Yalkabov,"Merge pull request #665 from gballet/heroku-deployment-node-sass-fix
+
+[fix] Heroku re-deploy issue with node-sass",True
+2edccadccd5a891a590c751e12a7631ad3b4247a,2017-03-16 11:02:29,Sahat Yalkabov,"Merge pull request #645 from Clement83/master
+
+fix owner is undefined",True
+15f63da50d02e5ea2dd67f087bc14f6f99d8d053,2017-03-16 10:59:05,Sahat Yalkabov,"Merge pull request #650 from aamirsahmad/master
+
+change year from 2016 to 2017",True
+49ab60aff9fb3f20ecf005cccb588a694ab71759,2017-03-16 10:56:54,Sahat Yalkabov,Merge branch 'master' of https://github.com/sahat/hackathon-starter,True
+fec31dc3866d7ff6f6eb594590ceb872de87dd5b,2017-03-16 10:56:42,Sahat Yalkabov,"Merge pull request #667 from ibasaran/master
+
+#654 Drowpdown menu not working fix",True
+68d97bf82f83c8213e35368e11c07d1ee3b61859,2017-03-16 10:50:04,Sahat Yalkabov,update dependencies,False
+5723f90518f25bc2823f939d9cabdc04de8fcaef,2017-03-10 13:41:22,İsmail Başaran,#654 Drowpdown menu not working fix,False
+fc5583c6f985ed481c3aa35eb3b3bc0c98bbc14a,2017-03-07 21:06:13,Guillaume Ballet,"[fix] Heroku re-deploy issue with node-sass
+
+When deploying over an already-deployed app in heroku, binaries in the `vendor` directory of module `node-sass` disappear.
+This extra post-installation step will force a fetch, for the application to start properly.",False
+0a1542adc4b4c517b6fdc4e464236782969dafd9,2017-03-04 22:00:23,Suriyaa Kudo ✌️️,Correct spelling,False
+2a0ae933983c2879d379f56096e44833dab27e5c,2017-02-11 04:21:51,Aamir Ahmad,change year from 2016 to 2017,False
+bacd841e1706fa336524f9a4c610d87f6beea7cc,2017-02-08 12:40:05,gregorysobotka,"updating readme
+
+removing repetitive language.",False
+4c0631a8e4e5e4a580683172b29a211c39906f5c,2017-02-08 12:38:04,gregorysobotka,"Adding docker and read
+
+Adding docker-compose file, read me details.",False
+77f6eb4095bb58666193bb6388be32b0005af455,2017-02-07 01:29:02,Clement,fix owner is undefined,False
+f1a79cee07b0fbac1d48f93dc798a7579ed3bc95,2017-01-20 22:16:55,fmcarvalho,Add bluebird. PromisifyAll of crypto. Use inner function expressions. Remove Promise.all and keep promise flow simpler.,False
+c1276cc3de0def5f0e21396c9dace00271a3dc33,2017-01-20 20:48:36,fmcarvalho,Install bluebird. Use bluebird::promisify(). Remove local auxiliary function promisify().,False
+96f7cc85bb71b8049da060855b2a8e27417f15f7,2017-01-16 21:37:50,InstanceOfMichael,Show the user the error message instead of discarding it,False
+92ed037bc7e04869596ccad3253bc5950ec98a71,2017-01-11 02:59:19,Sahat Yalkabov,"Merge pull request #630 from elarb/master
+
+Update readme conform to current version & other small updates",True
+92da660c4682e992afe7789ddc9c2e4080961bca,2017-01-11 02:44:54,Sahat Yalkabov,"Merge pull request #631 from JLBoor/master
+
+Fixed typo for mongo env variable in the Bluemix section",True
+17b2d64954f4043fd17628591535ee686b9841d7,2017-01-11 02:36:23,Sahat Yalkabov,"Merge pull request #632 from RobTS/master
+
+Adapted fb request scope to current definition",True
+936e6328b01a8043d64d2a1cc03bb168feb83eda,2017-01-09 21:32:57,fmcarvalho,Remove async module from package.json,False
+75d6c030a139bcd4eb811fc765d9dee3c2e87f5c,2017-01-09 21:32:37,fmcarvalho,Replace async::parallel() by Promise::all(),False
+5694970ef2419efd97d05f63bae83a90a4c25029,2017-01-06 22:59:33,fmcarvalho,Replace async::waterfall() by Promise::then(),False
+1eb26c7eb30d48813217b4e51af3e8847fa48bb5,2017-01-05 17:28:35,rts,"Adapted fb request scope to match current scheme as previous one caused an error message (not all fields approved for app).
+
+Functionality is the same as before from what I can tell.",False
+fe9849f8c78363264e610a95ea2d60ee0cefc465,2017-01-03 23:52:42,Jean Bourgeois,Fixed typo for mongo env variable in the Bluemix section,False
+c9bcae5984f1a58234beee0773101a4746bdda07,2017-01-01 18:45:48,e_lar,Updated some dependencies,False
+830211060fa286d7f0bf55beae6aabadff34cbde,2017-01-01 18:44:30,e_lar,Updated jquery to version 3.1.1,False
+78922142169a89d15fa2fdf19bff566a1143b1e2,2017-01-01 18:27:28,e_lar,Updated jquery to version 3.1.1,False
+7ededd2997803720bdc71477a87692f504d476af,2017-01-01 18:23:46,e_lar,Small changes conform to the current version of the app,False
+f542e3b69f434f550d03596df0272012a0942780,2017-01-01 18:21:28,e_lar,Small changes conform to the current version of the app,False
+734a75ce99c214bfd37e2ddf519585d5064aa76d,2017-01-01 18:10:25,e_lar,Replaced .jade with .pug,False
+f25e7697f32caf028e5f82635454184baa5c7951,2017-01-01 18:02:06,e_lar,Fixed small grammar error,False
+63af577fd85ade26b966f24c2aa8ad36e0a41343,2016-11-07 09:41:37,Sahat Yalkabov,4.3.0,False
+40e82d477c16c49225392f8871c6fb41224f13ea,2016-11-07 09:27:52,Sahat Yalkabov,"removed ios7, set ""default"" theme as default, import bootstrap-social inside individual themes",False
+67ee32c1453b68a32b613c1dc5659feb7d36b0ed,2016-11-07 09:04:45,Sahat Yalkabov,Merge branch 'master' of https://github.com/creativetimofficial/hackathon-starter into creativetimofficial-master,True
+ecfca893d6893caf4cc4406e97b3f7c00a7ad98f,2016-11-07 09:02:21,Sahat Yalkabov,updated facebook api example,False
+f10d1092c854fc78e73b1e0f856e8811b1231d66,2016-11-07 07:19:15,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+8aa282bec1c783f231f6b2bea25426eb7fb53353,2016-11-07 07:18:14,Sahat Yalkabov,make server address clickable during app startup,False
+d8d94c13949cd1804037232ffbfde783a8e93561,2016-11-07 07:12:00,Sahat Yalkabov,Merge branch 'feature/add-host-link-on-start' of https://github.com/niallobrien/hackathon-starter into niallobrien-feature/add-host-link-on-start,True
+3ff091cff1ff10547e3d3bd1dd4eb552301ccfa8,2016-11-07 07:11:20,Sahat Yalkabov,updated yarn and npm dependencies,False
+9dc07ecb64a040f01db41f1f2a56048154666c8d,2016-11-07 06:36:20,Sahat Yalkabov,"Merge pull request #582 from YasharF/master
+
+Fix redirect issue in the account page",True
+79e4ebbc7b3688a2ab628446f63f121b67f96e36,2016-11-04 17:02:33,Elena-Cristina Conacel,- added gsd kit by creative tim as a theme.,False
+d05f9ace75195f64168a7e628725d428dc352d61,2016-10-30 04:46:38,Sahat Yalkabov,"Merge pull request #612 from sahat/eslint
+
+ESLint",True
+8e6d1b6c8911abb5e62c8eddee01999547349121,2016-10-30 04:43:20,Sahat Yalkabov,conform linting to airbnb-base,False
+93397bcb2519c89077d879ad760e2a4c8a03c7a7,2016-10-28 20:44:10,Sahat Yalkabov,added eslint,False
+1d24048426973c643793ce23eb6c2fe51d93cb9e,2016-10-28 13:58:31,Sahat Yalkabov,"removed es6 default params from gravatar method
+
+3 duplicate issues in 1 month because many people are still running Node.js 4 or 5.
+
+https://github.com/sahat/hackathon-starter/issues/607
+https://github.com/sahat/hackathon-starter/issues/597
+https://github.com/sahat/hackathon-starter/issues/604",False
+897fe514e09597989fe00ed3df5e8c0985ecdbae,2016-10-28 13:48:29,Sahat Yalkabov,fixed cheatsheet relative urls,False
+092e22f309f8351ab5600a17d42ae9ed19ff7cd1,2016-10-28 13:38:58,Sahat Yalkabov,Cleaned up tests,False
+87554b346b9b2d229721d2e65331030e2b97cb35,2016-10-28 13:03:21,Sahat Yalkabov,Merge Mongoose unittest enhancements #588,True
+2a102dd5587f7a195d1a6c9efd1fd9600e271528,2016-10-28 12:48:18,Sahat Yalkabov,removed travis file,False
+257b901164168bf53180d025f48dc24551fa4d89,2016-10-28 12:48:05,Sahat Yalkabov,updated dependencies,False
+50b561282fd8e31bd0eeb0d3c4fbab6663f63aac,2016-10-26 15:52:17,Rowland Ekemezie,Merge branch 'master' into mongoose-unittest-enhancements,True
+813e6b1efa5903c807e29d4d83bbd086c18f0755,2016-10-25 10:29:19,Sahat Yalkabov,Update README.md,False
+201a48a8314d000490c9b03fbd9bc6adbc3dfdca,2016-10-25 10:26:19,Sahat Yalkabov,"Merge pull request #602 from niallobrien/feature/add-yarn-lock-file
+
+Adds yarn lock file",True
+d8aa326eb783d07c69cf5f64783eab009e33d738,2016-10-21 14:17:51,Niall O'Brien,Merge branch 'feature/add-yarn-lock-file' of https://github.com/niallobrien/hackathon-starter into feature/add-yarn-lock-file,True
+0261e73bab8c93ff86d573c6e353e06a2272f9e3,2016-10-21 14:16:37,Niall O'Brien,> Updates the documentation for Yarn,False
+8b611cc6aa4db3907cb5a978d8018103e53cb0aa,2016-10-21 13:33:02,Niall O'Brien,Merge branch 'master' into feature/add-yarn-lock-file,True
+a154db022d0f1e7e2a4b9d4f51d725c7c4e9c8e2,2016-10-21 01:23:59,Niall O'Brien,Adds yarn lock file,False
+35fc99b671063c3815f44b47e7067dd1596ec192,2016-10-20 17:28:00,andela-rekemezie,"test(model): Remove timeout and add dependencies
+
+test(Model): Remove timeout and add dependencies
+
+test(Model): Enhance test using mock model
+
+Remove editorconfig
+
+test(model): Merge with upstream",False
+48cd7dce42b1e671a205bc62b389608a78e025ba,2016-10-20 14:52:32,Niall O'Brien,Merge branch 'master' into feature/add-host-link-on-start,True
+c212cc7745b4e8ea2009c643093d801f499f37db,2016-10-20 07:52:21,Sahat Yalkabov,"Merge pull request #594 from niallobrien/feature/readme-cheatsheets
+
+Adds more cheatsheets to Readme",True
+a22539ada1249d14635bedcbe9508fb1c3420445,2016-10-18 12:47:59,Sahat Yalkabov,"Merge pull request #599 from sahat/greenkeeper-github-5.2.2
+
+Update github to version 5.2.2 🚀",True
+c7c048404bb4c76fab9d47f49b37aefc11dbfdbb,2016-10-15 05:33:00,greenkeeperio-bot,"chore(package): update github to version 5.2.2
+
+https://greenkeeper.io/",False
+a2a2df89ed319ed31f8d40b85582fd01082129f1,2016-10-11 21:27:12,Niall O'Brien,Adds more cheatsheets to Readme,False
+7198172ecb037169211849d07920b443ba02ccef,2016-10-11 21:02:13,Niall O'Brien,Adds link when developing locally on startup,False
+f23975854b82371b526021c5ad04d9112b52216c,2016-10-07 19:41:41,YasharF,Merge branch 'master' into master,True
+bee194fc065bd22fb35ab5c0691588dfe2a04d76,2016-10-07 15:46:26,Sahat Yalkabov,"Merge pull request #586 from kundansingh1/patch-1
+
+Fixed Typo on README.md :D",True
+27af5f12f19c5136d15d8a7e5a5328ecb3f2ba55,2016-10-07 15:45:53,Sahat Yalkabov,"Merge pull request #587 from sahat/greenkeeper-github-4.0.0
+
+Update github to version 4.0.0 🚀",True
+56cad8fa451d477e9676cff1174834a73673dff9,2016-10-07 01:24:35,greenkeeperio-bot,"chore(package): update github to version 4.0.0
+
+https://greenkeeper.io/",False
+17e79fa815d66bba7881e60eab00d3949c465769,2016-10-06 12:50:22,Kundan,Fixed Typo on README.md :D,False
+c6140f40bea1de9226b35ef570ec2373c46a3eb4,2016-10-05 09:42:40,YasharF,Fix redirect issue in the account page,False
+55fe46fae9b43d51068caf6446a404ae48b8856c,2016-10-02 10:06:56,Sahat Yalkabov,"Merge pull request #577 from starcharles/master
+
+Fix Deprecation warning of mongoose.Promise",True
+5052e71fd84fdc2a79654450915e499e6b4d512e,2016-10-02 03:03:42,Sahat Yalkabov,"Merge pull request #579 from sahat/testimonials
+
+Add testimonials",True
+9f47a267b3a81619234e0a3b5490d41d34706cf2,2016-10-02 03:03:23,Sahat Yalkabov,"add testimonials
+
+fixes #532",False
+8ef154c65a808b189df679bc93bd66b2833e7c50,2016-09-29 20:50:31,Naoto Satoh,override mongoose.Promise to global.Promise,False
+51081f15a9b3982162573c09a5f2075dab5b5ff9,2016-09-29 01:11:25,Sahat Yalkabov,hacktoberfest promo,False
+c6f0e72330b65bf6bfed9f45470d32ffb0e23ea3,2016-09-27 10:53:40,Sahat Yalkabov,"Merge pull request #576 from sahat/greenkeeper-validator-6.0.0
+
+Update validator to version 6.0.0 🚀",True
+5a3236f2448b8c352da2aa32f60eaac27d6bf9f9,2016-09-27 08:32:13,greenkeeperio-bot,"chore(package): update validator to version 6.0.0
+
+https://greenkeeper.io/",False
+f5b98a8e4c4ae8c0b279489565a9477a17c520dc,2016-09-25 13:15:15,Sahat Yalkabov,"add express-status-monitor
+
+closes #559",False
+479c8e2e6dbf47d508940f079d0d1dd626c32389,2016-09-24 04:26:01,Sahat Yalkabov,"Merge pull request #572 from imcodingideas/patch-1
+
+Updated README to reflect code examples correctly",True
+e65b4f7b0a8b6f24318213b801dc7ec84c684287,2016-09-24 04:06:54,Joseph Chambers,"Updated README example model
+
+The model needs to require mongoose. Otherwise, you will get an error: ""ReferenceError: mongoose is not defined""",False
+98363d483352f8eadccd58ff2827924f09022a6c,2016-09-24 03:47:13,Joseph Chambers,"Updated README to reflect code examples correctly
+
+I've updated the READ to reflect the changes I see from the code and what's in the documentation. For example `var app = express();` is no longer like it. We're using const for everything in app.js",False
+66e4410b70489154a6a874a66f569fa323bcc865,2016-09-17 05:04:34,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+ce579bcc5f2c21fb2b3af27a728e4bd7754ea97f,2016-09-17 05:04:18,Sahat Yalkabov,switched from github-api to github npm module,False
+cbf7e89bd169e7f550137c15f478eaa8e376788d,2016-09-17 04:54:27,Sahat Yalkabov,"Merge pull request #570 from sahat/greenkeeper-stripe-4.11.0
+
+stripe@4.11.0 breaks build 🚨",True
+404fb11d20883a43d71e7d6496b125d1eb6e2664,2016-09-17 03:21:51,greenkeeperio-bot,"chore(package): update stripe to version 4.11.0
+
+https://greenkeeper.io/",False
+b96713c62bd825015ad826d36e7d5c4804621d7b,2016-09-12 09:36:42,Sahat Yalkabov,"Merge pull request #566 from dskrepps/master
+
+Add missing error guards",True
+cc865e0d377b972362be9e5a540645be318c1766,2016-09-12 06:48:21,dskrepps,Add missing error guards,False
+80638ebb8f8107f98742000ba2b9fba3c9a08305,2016-09-11 08:42:20,Sahat Yalkabov,"Merge pull request #565 from madnight/patch-1
+
+remove wrong placed semicolon from twitter auth code example",True
+6de05ed74e3da7e64362d93d717204d56cb6093c,2016-09-11 05:03:18,Fabian Beuke,remove wrong placed semicolon from twitter auth code example,False
+2ec3136ca9037f2520961dd97c3bba80a59ff8e5,2016-09-11 04:02:13,Sahat Yalkabov,removed console.log in user model,False
+9e6cebb3a8e50c56bae61ccbf7131018d4bb0051,2016-09-07 12:08:58,Sahat Yalkabov,4.2.1,False
+bff80b51bd2238e90e584bf2237759697883f906,2016-09-07 12:03:20,Sahat Yalkabov,removed unnecessary default empty string from profile fields,False
+83a4241d407a90cfb5bf5d7a574c556ffeb8ba22,2016-09-07 12:02:08,Sahat Yalkabov,use ES6 default parameter for gravatar size,False
+7c633a56eb7cb009688cfb359cac413aaa380223,2016-09-07 12:01:34,Sahat Yalkabov,removed jade string interpolation from profile gravatar,False
+a4e5c241cd700ee464a73aec4d23ca7da872efbe,2016-09-07 11:53:09,Sahat Yalkabov,updated dependencies,False
+c191809d057bc6f6d9a178a17e70bf320387b748,2016-08-31 23:42:08,Sahat Yalkabov,pretty terminal logs using chalk,False
+9234e94b3641875a444b6382002428af1d180982,2016-08-24 15:01:40,Sahat Yalkabov,removed jade's string interpolation in header,False
+94e18d364eff004220ea970005cee6590467cc0b,2016-08-24 12:10:10,Sahat Yalkabov,bump version dependencies,False
+8019c74ada7bd724de116d05c411f538f9a1386e,2016-08-24 12:08:30,Sahat Yalkabov,ignore compiled main.css,False
+d66d21e778890179f828c3a8e92e1a653d962dac,2016-08-24 12:07:19,Sahat Yalkabov,updated jade references to pug,False
+c6d4a3368f788ff8be5bce9478d4b2dfccdf65ce,2016-08-24 14:24:54,Sahat Yalkabov,"Merge pull request #560 from milocosmopolitan/patch-1
+
+GET profile page input value issue",True
+9a19f67fa362f46471ae4294d590d394acf64a10,2016-08-22 08:32:36,Milocosmopolitan,"GET profile page input value issue
+
+Pug 0.1.0 (Jade 2.x) removed support for interpolation in attributes.
+https://github.com/pugjs/pug/issues/2305",False
+33580e040c73ecde8a700ccfdc05437f6a7b4586,2016-08-22 04:53:05,Sahat Yalkabov,4.2.0,False
+935f13df7c1b67f9d61ef60abc01330b1cf57756,2016-08-22 04:49:07,Sahat Yalkabov,Replace jade with pug,False
+6cb94c3d72a1b32d3c50ae5edf9c2cdd37887272,2016-08-22 04:37:12,Sahat Yalkabov,update jquery 2.2.0 to 2.2.4,False
+458b40f2ccf7c0249347637e0274c6f2561eaf6e,2016-08-20 15:30:56,Sahat Yalkabov,4.1.1: updated dependencies,False
+018a93bddda45cd6ecdb6b6e9e945b79fbe1aa4b,2016-08-10 09:26:51,Sahat Yalkabov,"Merge pull request #556 from YasharF/master
+
+A few dependency upgrades",True
+ca130a58b9dbe932f4dbac38e29fcf04c2dfb3f8,2016-08-09 04:31:12,YasharF,A few dependency upgrades,False
+7467cfdba0c7ddf8410196b252295a0bbef7df0b,2016-08-06 09:30:11,Sahat Yalkabov,Merge branch 'master' of github.com:sahat/hackathon-starter,True
+8f83439666159c629f6eb137064093175e7d4c01,2016-08-06 07:36:16,Sahat Yalkabov,"added google maps api example
+
+fixes #535",False
+c33e27789b792682c37c82f6c335f662a42568ac,2016-08-06 06:28:16,Sahat Yalkabov,updated font-awesome  v4.6.3,False
+9c4fe893de0e28c3e085c055819594bc241e4ec2,2016-08-02 04:56:51,Sahat Yalkabov,"Merge pull request #550 from sahat/greenkeeper-mocha-3.0.0
+
+Update mocha to version 3.0.0 🚀",True
+d60df7816b1c43ccc479a12bf0969ebf99c0f592,2016-08-01 10:50:46,greenkeeperio-bot,"chore(package): update mocha to version 3.0.0
+
+https://greenkeeper.io/",False
+689457c3218df42dd99ab8d1a9cb3d2475ff728d,2016-07-30 20:35:48,Sahat Yalkabov,"removed yahoo api route
+
+#546",False
+8c2d7b46dfc74c67e3aec8f5d3e7d3b31f6ff55b,2016-07-30 20:33:16,Sahat Yalkabov,"removed deprecated yui package
+
+#546",False
+6b45ab208fdfb054b85c6d8e4b14708cd833077a,2016-07-30 20:25:13,Sahat Yalkabov,Merge branch 'master' of github.com:sahat/hackathon-starter,True
+d48a717e90b300c90ea827f853ba01c95146aae9,2016-07-30 20:24:39,Sahat Yalkabov,"use external tab for oauth keys links
+
+fixes #534",False
+07f5eaae28f47d889391dba001307502b7174d75,2016-07-30 20:07:01,Sahat Yalkabov,"Merge pull request #548 from sahat/greenkeeper-supertest-2.0.0
+
+Update supertest to version 2.0.0 🚀",True
+ba1cd52114d0ae22cebf49eef34f90345f4dee55,2016-07-29 20:08:00,greenkeeperio-bot,"chore(package): update supertest to version 2.0.0
+
+https://greenkeeper.io/",False
+2d28d1a45b67cf67a7ec5676d06d99b969f8d6cb,2016-07-27 06:25:33,Sahat Yalkabov,"Merge pull request #543 from jmdobry/master
+
+Add Google App Engine Flexible Environment deployment instructions.",True
+0e47bbddb15b3b57d9e5c6c84d13cc782f297d68,2016-07-24 06:14:52,Sahat Yalkabov,4.1.0,False
+fc464d8728b862e567a4df51c3a4e0747be353bf,2016-07-24 06:08:07,Sahat Yalkabov,"Removed bitgo
+
+fixes #526 and #537",False
+5b1165800867f955080f9ed0c355e54d0b1d1a00,2016-07-24 05:25:17,Sahat Yalkabov,"Merge pull request #533 from cassidoo/remove_venmo
+
+Remove Venmo",True
+1a07c0fecc7092cc6fa20fd0c0e6e0203e903fab,2016-07-22 21:05:36,cassidoo,Remove Venmo,False
+9796611bbaa87922d76cfc26375eb87cbf60731d,2016-07-22 08:50:19,Jason Dobry,Add Google App Engine deployment instructions.,False
+8a2dd3a9e56c5a8e2348f82d5ad32c530cc7adea,2016-07-16 12:27:47,Sahat Yalkabov,"Merge branch 'master' of github.com:sahat/hackathon-starter
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.",True
+18616382038a3a787c3f8858311d25b57720f3e9,2016-07-16 12:26:13,Sahat Yalkabov,updated paypal logo url,False
+22f5fa42a1f72e93062944a45781a82b11ddee00,2016-07-16 12:24:14,Sahat Yalkabov,updated stripe lib,False
+718fe493a79ad2ad13c7e5f5394172950588b235,2016-07-14 02:09:32,Sahat Yalkabov,"Merge pull request #522 from OllieLy/patch-1
+
+Added comment on file upload",True
+8e17336c6c50183bd0402861e16a65aacc627452,2016-07-13 22:05:06,OllieLy,Added comment on file upload,False
+c872b126bf11915d69389823a21f6100f011a1b7,2016-07-13 10:19:44,Sahat Yalkabov,Travis Node.js v4 (or io.js v3) compiler requirements,False
+22a014f48767adfe5e94dfac212b5ff7e1ab57bf,2016-07-13 09:57:30,Sahat Yalkabov,Merge branch 'master' of github.com:sahat/hackathon-starter,True
+d38efc59e8c54d71953dea55af8f5f1a7c97500f,2016-07-13 09:56:51,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+50bf499c92e86aa9a21a4eb8a3e1ced63570eb67,2016-07-13 09:56:09,Sahat Yalkabov,use ! instead of undefined ==,False
+4bf39a65ba00240cb70e8ee841ff03d78dd80aee,2016-07-13 09:54:55,Sahat Yalkabov,"Merge branch 'master' of https://github.com/deiucanta/hackathon-starter into deiucanta-master
+
+# Conflicts:
+#	app.js",True
+481ed08642eff541869d3cd102417e362a4dd425,2016-07-13 09:53:43,Sahat Yalkabov,fix typo,False
+af1b3966200eea778c9e878d65d88ae30a1526e4,2016-07-13 09:22:03,Sahat Yalkabov,"Merge pull request #521 from sahat/greenkeeper-async-2.0.0
+
+async@2.0.0 breaks build ⚠️",True
+ab7a09f1be953d4493b81cc45fb4a61607c523e3,2016-07-13 05:58:47,greenkeeperio-bot,"chore(package): update async to version 2.0.0
+
+https://greenkeeper.io/",False
+d015525c406be04f36e88bba5fa3855a49b5761e,2016-07-12 04:06:16,Sahat Yalkabov,"Merge pull request #520 from sahat/greenkeeper-mongoose-4.5.4
+
+mongoose@4.5.4 breaks build ⚠️",True
+135fa25d81d1b4c29783b598027591a90e44a33b,2016-07-12 03:53:55,greenkeeperio-bot,"chore(package): update mongoose to version 4.5.4
+
+https://greenkeeper.io/",False
+b061ea02ab2d2a113ac43d0d76a28576e1236288,2016-07-10 04:02:46,Sahat Yalkabov,"Merge pull request #515 from sahat/greenkeeper-nodemailer-2.5.0
+
+nodemailer@2.5.0 breaks build ⚠️",True
+ec0540b8bf9b553a4ccedf8b59eeacf9905d22d8,2016-07-10 04:02:36,Sahat Yalkabov,"Merge pull request #517 from sahat/greenkeeper-request-2.73.0
+
+request@2.73.0 breaks build ⚠️",True
+796da150c8b04b55b230f81095593466e9087b1b,2016-07-09 13:19:44,greenkeeperio-bot,"chore(package): update request to version 2.73.0
+
+https://greenkeeper.io/",False
+525203077bb1a37b768bffff6be5ff90a2c07a17,2016-07-09 01:18:48,greenkeeperio-bot,"chore(package): update nodemailer to version 2.5.0
+
+https://greenkeeper.io/",False
+5d6499e53c69b623b564e182e9f7bf2372906bf8,2016-07-08 11:29:59,Sahat Yalkabov,"Merge pull request #513 from sahat/greenkeeper-express-session-1.14.0
+
+express-session@1.14.0 breaks build ⚠️",True
+2913451a2b51fc84d227388d9017c5c4be08e1fb,2016-07-02 08:45:04,greenkeeperio-bot,"chore(package): update express-session to version 1.14.0
+
+https://greenkeeper.io/",False
+d8620c9a6bdd5308fe33219728a94b44afbffe51,2016-07-02 07:55:13,Sahat Yalkabov,"Merge pull request #512 from sahat/greenkeeper-bitgo-2.0.0
+
+Update bitgo to version 2.0.0 🚀",True
+248d7e66bfeb3c24360a23bde288de3e8fdc2e15,2016-07-02 06:49:03,greenkeeperio-bot,"chore(package): update bitgo to version 2.0.0
+
+https://greenkeeper.io/",False
+cffce68cbc0b3f1329b25a1f54e5f17f3c597457,2016-06-30 08:42:28,Sahat Yalkabov,Updated demo link,False
+30c679d836b7fe3a4ba410839d22752aa553ce54,2016-06-30 06:30:55,Sahat Yalkabov,openshift marker for node version,False
+997615703af9d3db6f6bc8c6fba4db2c082d565d,2016-06-30 06:03:19,Sahat Yalkabov,set openshift host and port,False
+6affc20307bcfd86543b748fd14fbb084365328b,2016-06-30 05:59:27,Sahat Yalkabov,updated dependencies,False
+39770481cd8deb9e0b5c0968f759f64c88cddf8d,2016-06-20 20:50:56,Sahat Yalkabov,fixed cheerio version,False
+2a4b1b9a7255ed20b3a6a95abe62ab96e6fa4a3a,2016-06-18 09:49:43,Sahat Yalkabov,"Merge pull request #503 from sahat/greenkeeper-cheerio-0.21.0
+
+Update cheerio to version 0.21.0 🚀",True
+448dde5abe35db003934f7d83e1d249124e8f0d7,2016-06-18 09:49:28,Sahat Yalkabov,"Merge pull request #505 from sahat/greenkeeper-express-validator-2.20.6
+
+express-validator@2.20.6 breaks build 🚨",True
+927b669f5d9a8c7829aba2e563f196e9c3a7de26,2016-06-18 07:59:47,greenkeeperio-bot,"chore(package): update express-validator to version 2.20.6
+
+https://greenkeeper.io/",False
+104fc50dd2efc10fbd9c76bd10b6934b9149fd5c,2016-06-12 11:08:55,greenkeeperio-bot,"chore(package): update cheerio to version 0.21.0
+
+https://greenkeeper.io/",False
+d8df58bf7b2c69a483afd8802d64bfe8260bd5cb,2016-06-11 14:12:02,Sahat Yalkabov,Updated live demo link,False
+6194d54ac9fa9211a3a202be2d0fb17439445117,2016-06-10 08:49:20,Sahat Yalkabov,Update README.md,False
+c7e4ac7e2f5a567d8837713551afa6a7d7046a3a,2016-06-09 22:32:41,Sahat Yalkabov,"Merge pull request #487 from sahat/greenkeeper-mocha-2.5.0
+
+mocha@2.5.0 breaks build 🚨",True
+ace610954c14c684ea6e93373025064d5a70611b,2016-06-09 22:32:35,greenkeeperio-bot,"chore(package): update mocha to version 2.5.0
+
+https://greenkeeper.io/",False
+3753d76f78b87d5147b64c342dc7d1f5b9111b6d,2016-06-09 22:32:32,Sahat Yalkabov,"Merge pull request #489 from sahat/greenkeeper-bitgo-1.8.0
+
+Update bitgo to version 1.8.0 🚀",True
+08deff02328c48768ef7d5d439136131f50bab03,2016-06-09 22:32:20,Sahat Yalkabov,"Merge pull request #490 from sahat/greenkeeper-github-api-2.2.0
+
+Update github-api to version 2.2.0 🚀",True
+3a09bd9ceb76375ca6bf354a098824cb533227ea,2016-06-09 22:32:08,Sahat Yalkabov,"Merge pull request #500 from StewartJarod/patch-1
+
+Update SendGrid Logo",True
+66fd3bfc254829c230a61aad507fe063c74a510e,2016-06-09 22:19:56,Jarod Stewart,"Update SendGrid Logo
+
+SendGrid has updated their logo.",False
+a9ad3375af2e049b4a983b95dd6fb482404993ec,2016-06-01 22:06:30,Sahat Yalkabov,"Merge pull request #494 from dawsonbotsford/master
+
+support reserved let in node v5.11.0",True
+17b7b64d32ce4d3778a657cf09e14b59ef7f9f0c,2016-05-31 06:09:11,Dawson Botsford,support reserved let in node v5.11.0,False
+0c6a0a3609c4970d70b08486b032b7e4c15a8974,2016-05-28 01:22:18,greenkeeperio-bot,"chore(package): update github-api to version 2.2.0
+
+https://greenkeeper.io/",False
+131edb18c9364a7b64a1a1ccd66cfc24576028ba,2016-05-27 23:41:50,greenkeeperio-bot,"chore(package): update bitgo to version 1.8.0
+
+https://greenkeeper.io/",False
+aaa5135b0f222d1f45bcb1a7b020c804746965d2,2016-05-18 01:03:44,Sahat Yalkabov,v4.0.1,False
+34e42a898a6c6853b6fd1019be574b3be4cb9162,2016-05-18 00:37:12,Sahat Yalkabov,use MONGODB_URI env variable,False
+761fe6eb165841306ab58ffddb1f896466b47ddd,2016-05-18 00:34:04,Sahat Yalkabov,specify node engine 6.1.0,False
+964d3dad6dc1d774cc869571c4922944c54e5c80,2016-05-16 03:36:00,Sahat Yalkabov,"Merge branch 'es6'
+
+* es6: (26 commits)
+  Removed eslintrc
+  missing period
+  Updated readme changelog
+  API controller code formatting
+  API controller code refactoring
+  Passport config code cleanup
+  Contact controller es6 refactoring
+  User controller code formatting and refactoring using ES6
+  Code formatting in user model
+  Updated user model tests
+  Replace fat arrow with function keyword in user model
+  set travis-ci nodejs version 6
+  Updated dependencies
+  Removed eslint
+  api this fixed
+  (2) Update README.md with ES6 syntax
+  test + others
+  app.js es6
+  Update README.md with ES6 syntax
+  indent
+  ...",True
+9dd841fcd02238aa0aebd478e2728f1fbb73c406,2016-05-16 03:35:43,Sahat Yalkabov,Removed eslintrc,False
+8883a5db4cd79c0c8452fcdf44ab20c69b65fdce,2016-05-14 03:41:49,Sahat Yalkabov,missing period,False
+e49a59b65fbd28ac0b6ee72e97f4296d10970492,2016-05-14 03:40:00,Sahat Yalkabov,Updated readme changelog,False
+6583f5d75fe5a00546b0654dbba5762c47720afc,2016-05-14 03:39:48,Sahat Yalkabov,API controller code formatting,False
+8b8ed69431df2579ccb4cfde8c25067f7d3f643e,2016-05-14 03:08:38,Sahat Yalkabov,API controller code refactoring,False
+f60a3a474b4f9b4f94093bd5aed8000e58beb07a,2016-05-14 03:08:30,Sahat Yalkabov,Passport config code cleanup,False
+46ca92149b22d4c352beeb70b9ac6bfe217b50b0,2016-05-14 02:17:38,Sahat Yalkabov,Contact controller es6 refactoring,False
+2f1276ec28448ae7fe9fa7c71523509a808f3069,2016-05-14 02:12:24,Sahat Yalkabov,User controller code formatting and refactoring using ES6,False
+9cbb7c3a2aa1f71839237552e1b8a6c3cdb00194,2016-05-14 01:56:44,Sahat Yalkabov,Code formatting in user model,False
+d1d442f78a7f81937e5624e14da937b8e3381379,2016-05-14 01:50:33,Sahat Yalkabov,Updated user model tests,False
+a7b92b88f247cc203229c4101486fb51fb80fecc,2016-05-14 01:45:52,Sahat Yalkabov,Replace fat arrow with function keyword in user model,False
+eac4bfa0717ef755c91072df65d8006b855f9907,2016-05-14 01:14:06,Sahat Yalkabov,set travis-ci nodejs version 6,False
+5dce4d1fb7ecda661ba7e0773b67837c0efb824d,2016-05-14 00:44:07,Sahat Yalkabov,Updated dependencies,False
+4a6b96238571594ec0036111b2c9dbe1f13d7d5c,2016-05-14 00:42:55,Sahat Yalkabov,Merge branch 'es6' of https://github.com/ChrisVent/hackathon-starter into es6,True
+6d1b1955b3c3565ad8a99b5be4ce97810b3ba7e0,2016-05-13 23:10:53,Sahat Yalkabov,Removed eslint,False
+aa846f75fa0f8f372216ae0683fbacdc6944b340,2016-05-13 23:10:06,Sahat Yalkabov,"Merge branch 'vanshady-es6-refactor' into es6
+
+# Conflicts:
+#	app.js",True
+f5db79f684cf40725b593ce03038e123380adb5f,2016-05-13 22:45:44,Sahat Yalkabov,Merge branch 'es6-refactor' of https://github.com/vanshady/hackathon-starter into vanshady-es6-refactor,True
+1ed553a21d5d882c582305a371f000aa4e23c926,2016-05-13 22:44:54,Sahat Yalkabov,"Merge branch 'es6-refactor' of https://github.com/vanshady/hackathon-starter into vanshady-es6-refactor
+
+# Conflicts:
+#	controllers/api.js",True
+13a487d8ec5b6bfa4b8eb4f120d1d572d956d64c,2016-05-13 14:05:04,Minwei Xu,api this fixed,False
+87c4ff42d448dc76a8188dbc2319df13464ac197,2016-05-11 09:38:35,Sahat Yalkabov,"Merge pull request #460 from sahat/greenkeeper-bitgo-1.6.1
+
+Update bitgo to version 1.6.1 🚀",True
+67976611d7f60cb245db16781801f007d3d685bb,2016-05-11 05:10:29,greenkeeperio-bot,"chore(package): update bitgo to version 1.6.1
+
+https://greenkeeper.io/",False
+20eebc321d7f1679ddc579164e676d5f465d4989,2016-05-10 00:59:14,Sahat Yalkabov,"Merge branch 'master' of github.com:sahat/hackathon-starter
+
+# Conflicts:
+#	package.json",True
+87d6f0a501288c733936b611ffcd45f7b4e198d9,2016-05-10 00:56:07,Sahat Yalkabov,updated dependencies,False
+4aa6bd55982e2d700ee81ea50941e3250b313210,2016-05-05 05:43:48,ChrisVent,(2) Update README.md with ES6 syntax,False
+a2c7cccb332d9d9aaa85c7553d473c9095513674,2016-05-05 05:05:48,Minwei Xu,test + others,False
+d2e1456b0787ac795e370c7275587a06340faad2,2016-05-05 04:58:20,Minwei Xu,app.js es6,False
+938a1d50befa17e7067e48ede343251f32eca0ae,2016-05-05 04:56:43,ChrisVent,Update README.md with ES6 syntax,False
+93687104f69a83ae48a230635925326950dada4f,2016-05-05 04:13:53,Minwei Xu,indent,False
+3f97c95531ad97a63e6660a5ce1b58dccac7b9e2,2016-05-05 04:11:24,Minwei Xu,es6 string concat,False
+ae4d4c81cd0ad4a91e4d585dd9830ad33a8fa1f3,2016-05-05 04:05:03,Minwei Xu,es6,False
+47470825c6e086acc318c72db6e01a47c26d84e2,2016-05-05 03:56:57,Minwei Xu,es6,False
+13b943878740dd455a5f741d2a73185b4363c191,2016-05-05 03:42:37,Minwei Xu,es6,False
+1d1d071268415d798f4fc3cf31826867842f0d03,2016-05-05 03:16:31,Sahat Yalkabov,"Merge pull request #450 from ChrisVent/master
+
+Added <meta theme-color> into layout.jade",True
+5e1f5c725733d511a3887993814743c794190d63,2016-05-05 02:54:59,Sahat Yalkabov,Switched connect-mongo/es5 to connect-mongo (es6 version),False
+e2113b9cf9105c753c0b0ef7a2588b426faa0e76,2016-05-05 02:32:46,Sahat Yalkabov,ES6: app.js,False
+2e85be8e36df60c14c5ee129b161b13e554939f8,2016-05-04 03:15:20,Sahat Yalkabov,"Merge pull request #451 from dawsonbotsford/master
+
+replace broken show function in GitHub API example",True
+39df7264dbe9d8c1c0e8ae21561c883e4a5f9a31,2016-05-04 02:37:10,Dawson Botsford,replace broken show function in GitHub API example,False
+578a79e3b57d38c7e4f07e625e70e0a52e35bf30,2016-05-03 19:34:24,ChrisVent,Added <meta theme-color> into layout.jade,False
+2ff60637bdca961fe57347abb29d3842f8e936e5,2016-05-03 04:59:20,Sahat Yalkabov,"Merge pull request #448 from sahat/greenkeeper-bitgo-1.5.4
+
+Update bitgo to version 1.5.4 🚀",True
+f84a932c32cb1cfecec48b7471fba523859ef9bf,2016-05-03 04:07:10,greenkeeperio-bot,"chore(package): update bitgo to version 1.5.4
+
+https://greenkeeper.io/",False
+4209bf56c9e8a53dcbd4a658df693597f4bcd3e9,2016-04-29 01:52:28,Sahat Yalkabov,"Merge pull request #436 from deiucanta/paypal-fix
+
+paypal urls must be taken from env",True
+e2c04d1c6359f19aed6731a73c1e41e4ddf141ad,2016-04-29 01:51:10,Sahat Yalkabov,"Merge pull request #438 from prashcr/patch-1
+
+Fix Yahoo Weather API example",True
+f3fba1beacb660190befa3daa66225a77f6a80ba,2016-04-29 01:50:45,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+5d6cec233f07400d8c6fada0bd41fc841cc60682,2016-04-29 01:50:28,Sahat Yalkabov,Added spaces within object,False
+d07207e66fd9b39a16d46dc7326af11eafae74dc,2016-04-29 01:09:11,Sahat Yalkabov,"Merge pull request #442 from sahat/greenkeeper-github-api-1.0.0
+
+Update github-api to version 1.0.0 🚀",True
+3575761db8db3a818ba267e70cef63839b71346a,2016-04-29 01:09:04,greenkeeperio-bot,"chore(package): update github-api to version 1.0.0
+
+https://greenkeeper.io/",False
+2d8f349d81be97994e157322a35eed1483c4a07e,2016-04-29 01:08:50,Sahat Yalkabov,"Merge pull request #443 from sahat/greenkeeper-bitgo-1.5.3
+
+Update bitgo to version 1.5.3 🚀",True
+b5f76ea3bf93a4d11ac87408eda4b8a904809ad6,2016-04-28 21:12:16,Ben Rabidou,When normalizing emails dots should be allow in the email. It's pretty common for people to have periods in their email address.,False
+c625d03f588620a6c59a26b30ad6105ca7159032,2016-04-28 05:05:01,greenkeeperio-bot,"chore(package): update bitgo to version 1.5.3
+
+https://greenkeeper.io/",False
+8d8efdc8f3d30859bdd0031e53e73244c7899d11,2016-04-26 09:49:39,Prashanth Chandra,"Fix Yahoo Weather API example
+
+Copy latest YQL example from https://developer.yahoo.com/weather/",False
+ef1eeb186b433fcde4196558287172c7452909fc,2016-04-26 01:13:36,Sahat Yalkabov,"Fixed user first, last name in facebook passport strategy
+
+Fixes #431",False
+e57712117a94e52216a8c4da70b86ca90c465137,2016-04-24 03:12:42,Sahat Yalkabov,updated package.json,False
+841b667b475b918273e71371a62bbf0c41e341cf,2016-04-23 19:05:29,Andrei Canta,paypal urls must be taken from env,False
+3399bfd0535f83de6525ec6d987699d7a253e3ee,2016-04-23 19:00:31,Andrei Canta,improve redirect after login,False
+4e40745a5e66d20eb8d9508bed4e7051d15fc311,2016-04-23 04:57:25,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+99565cd3e45dd15a58a6fffcaabf8bd07d7e3b73,2016-04-23 04:56:55,Sahat Yalkabov,"Updated aviary api example
+
+Fixes #434",False
+e224610137808994386d6bd837d1f5273865da19,2016-04-20 09:19:29,Sahat Yalkabov,"Merge pull request #432 from sahat/greenkeeper-bitgo-1.4.0
+
+Update bitgo to version 1.4.0 🚀",True
+e09b7ef2a1fae65be8cf58ca30c9eefffdf0f96f,2016-04-20 07:00:25,greenkeeperio-bot,"chore(package): update bitgo to version 1.4.0
+
+https://greenkeeper.io/",False
+e18ca6dca310307631e9d1e78a3b308c2d3c9073,2016-04-17 13:24:22,Sahat Yalkabov,"Merge pull request #430 from genderquery/gender-other
+
+Add ""Other"" gender choice on profile page",True
+cf837ab21ffd38c70949460b88514be17395c42e,2016-04-15 07:20:21,Sahat Yalkabov,Merge branch 'master' of github.com:sahat/hackathon-starter,True
+535ed2d5a7acf3a1fb5c8945142ff7e652ca1c05,2016-04-15 06:55:03,Sahat Yalkabov,updated package.json,False
+995edeb3891a95a6c33b65a0a20ebf92df5785fc,2016-04-15 02:54:35,Lana Larsen,"Add ""Other"" gender choice on profile page",False
+110effeb733f523363a1ada1a1bb97b4ea4a2a03,2016-04-12 09:36:33,Sahat Yalkabov,"Merge pull request #429 from sahat/greenkeeper-bitgo-1.3.0
+
+Update bitgo to version 1.3.0 🚀",True
+d41e1e10ab0794d30d68f09829e78ad3768473e6,2016-04-12 06:24:55,greenkeeperio-bot,"chore(package): update bitgo to version 1.3.0
+
+http://greenkeeper.io/",False
+61cc02c46136fb188433e0a71c92655be05b6a09,2016-04-12 01:27:08,Sahat Yalkabov,updated dependencies,False
+0c5cd44205705e9b7f6d4ad0cbca973ea64d1b8b,2016-04-06 00:15:06,Sahat Yalkabov,updated dependencies,False
+fd30e3c261dbe3dd920cb49cc0332de379200c1f,2016-03-29 23:26:36,Sahat Yalkabov,Removed redundant 'done' callback param,False
+efa6e299ae5b6e3a303f586d65f19c09188ea23b,2016-03-29 22:31:39,Sahat Yalkabov,"Merge pull request #424 from johnw424/patch-1
+
+Remove connect-assets from package.json",True
+8d7f73553e3e059b1ea7a968bf5c4f8c0e3cbf66,2016-03-29 11:53:13,John Wang,"Remove connect-assets from package.json
+
+Remove connect-assets requirement from package.json",False
+3eed01e8757cddbd98ec41836153927e546f1e7e,2016-03-29 02:04:20,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+0d678ab86bde27f522cbbc4622abb7d676701814,2016-03-29 02:03:52,Sahat Yalkabov,"User model cleanup, normalize email in user controller",False
+5aebd2268a8061951d1b454c41661b19ec1143c7,2016-03-28 00:34:14,Sahat Yalkabov,Update .env.example,False
+9aead0696a616b5c21238fb5e9f1d4242de1f9d8,2016-03-25 23:50:41,Sahat Yalkabov,Removed mandrill references,False
+c4b9077049a486d18413dc13632b3ba5f0e3516b,2016-03-25 22:54:56,Sahat Yalkabov,Merge branch 'patch-2' of https://github.com/hisener/hackathon-starter into hisener-patch-2,True
+536714d031639fcbffe73fcb1b2c4728567b04d8,2016-03-25 22:50:16,Halil İbrahim Şener,Drop the true from input,False
+2c0255748ca6c76012cb4128d20b4498b27d1f01,2016-03-25 22:50:01,Halil İbrahim Şener,Drop the true from input,False
+a78c6648d8dcdcdacb0618127bf0174f09dcf9e7,2016-03-25 22:49:36,Halil İbrahim Şener,Drop the true from input,False
+8c3f3f8945bad89b58231bb5cdb70e175cee78fe,2016-03-25 22:46:40,Sahat Yalkabov,"Removed method-override
+
+Fixes #406",False
+f8ab70a7197ff838bdd0d0baaa077194ba23247d,2016-03-25 22:44:44,Sahat Yalkabov,"Change autofocus=true to autofocus, added required attributes",False
+860f3e7527beddb41833eed7c552bc30c38c92d4,2016-03-25 22:21:41,Sahat Yalkabov,"Merge pull request #415 from KevinBusse/issue-413
+
+Fixes #413 Can't set headers after they are sent",True
+dd0295bb3702e480e564da3710e0cf79ac3998ca,2016-03-25 22:19:38,Sahat Yalkabov,"Merge pull request #416 from sahat/greenkeeper-bitgo-1.0.0
+
+Update bitgo to version 1.0.0 🚀",True
+dadf1ff648540994d3e8c50db8ebff295648e799,2016-03-23 00:50:37,greenkeeperio-bot,"chore(package): update bitgo to version 1.0.0
+
+http://greenkeeper.io/",False
+3c8ce271862ecf61edf17f5c083cada77c882608,2016-03-21 21:18:25,Kevin Busse,Fixes #413 Can't set headers after they are sent,False
+2c38aa13d9ab806f780dbaca5724f7a1c57ede93,2016-03-19 23:31:36,Halil İbrahim Şener,Inputs must be required,False
+79ea53159554ab7f2bd6d78d64a66c4bdec4c261,2016-03-19 23:30:46,Halil İbrahim Şener,Inputs must be required,False
+b1bc3a35dd2046e5d5a13c0e26189d8fbb334ccc,2016-03-19 23:26:33,Halil İbrahim Şener,Inputs must be required,False
+0db876e7ef663cef664885ad21a08fc4c7e74751,2016-03-15 22:59:32,Sahat Yalkabov,"removed cookier-parser
+
+not necessary as of express-session 1.5.0
+
+#406",False
+b1b9eadb70f23bd106d08e3ea53048360752ff01,2016-03-15 01:10:57,Sahat Yalkabov,flash error when updating email to email that is already taken,False
+e17a53f7e67e81d45d26881400761f754d3726c4,2016-03-15 01:08:02,Sahat Yalkabov,"prevent remove email during update profile
+
+fixes #393",False
+bd96a845643bdd1e3c62bbb750359b34a92925fc,2016-03-14 00:02:30,Sahat Yalkabov,updated travis node.js version,False
+85ca62c25195f46b26a63bced9161cc313798cb5,2016-03-13 22:16:08,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+a4c704baba88e11d18262b098d233fac9fda341a,2016-03-13 22:16:00,Sahat Yalkabov,"fixed returnTo redirect logic
+
+fixes #370",False
+c8c15101680cf4ceeba0b99cab4baba02f8547ba,2016-03-13 21:42:50,Sahat Yalkabov,"Merge pull request #404 from sergeycooper/patch-1
+
+Changed stylesheet file extensions to .scss",True
+c76cbbea53b6dba2e53bd090a3462ed223beac23,2016-03-13 16:31:26,Sergey Ulyashev,Changed stylesheet file extensions to .scss,False
+478b7ae57d323a3d183d8f4cf37e19e54d4b621d,2016-03-11 21:41:37,Sahat Yalkabov,deps: upgraded express-validator and twit,False
+d8aad46785a0082986dcead6a05949e5ef4b8788,2016-03-10 22:26:27,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+d43f00bd2ca529b90bd17973992f1cb13d33400a,2016-03-10 21:37:36,Sahat Yalkabov,"Merge pull request #398 from gabemazerogers/master
+
+Renamed occurrences of Mongolab to mLab to address name change",True
+f8b0dad6635299521f5eec037f03366b83691f18,2016-03-09 19:49:23,Sahat Yalkabov,code refactoring + cleanup,False
+c3e3711181265d678af953f3fb09517173998a19,2016-03-09 07:36:02,Gabe Maze-Rogers,Renamed occurrences of Mongolab to mLab to address name change,False
+4b64b12a2c3da706e02f8d792b04811f1fc0d98e,2016-03-09 04:37:54,Sahat Yalkabov,"Merge pull request #397 from sahat/greenkeeper-bitgo-0.12.0
+
+Update bitgo to version 0.12.0 🚀",True
+88fff38a5044b9df1f584ed47905df19c20a944e,2016-03-08 05:07:03,greenkeeperio-bot,"chore(package): update bitgo to version 0.12.0
+
+http://greenkeeper.io/",False
+2766713135ba26408d2360eb24422494a42f8f4d,2016-03-07 09:42:01,Sahat Yalkabov,Added Yahoo Finance API example,False
+5283c224cc67f33643f6099e440c406760149df1,2016-03-05 08:37:30,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+0510efc29b910259f7d921ad4086b2e25226792f,2016-03-05 08:37:18,Sahat Yalkabov,v3.5.0,False
+bf99b2102f584f638d83fdeea98d61f4e69de30a,2016-03-05 08:36:04,Sahat Yalkabov,Minor  updates,False
+2e78f9b7916be4f43d61533fff3facee1f85b207,2016-03-05 08:28:51,Sahat Yalkabov,"Removed generator, updated readme",False
+a9ee4ccf04a426a71d0f36c80c00ff8b90a90c01,2016-03-05 08:12:30,Sahat Yalkabov,Updated favicon,False
+888c6f1fe4e04bc858fbcbfaa36ee33e3a08a10d,2016-03-05 01:06:29,Sahat Yalkabov,"Merge pull request #395 from sahat/greenkeeper-bitgo-0.11.72
+
+Update bitgo to version 0.11.72 🚀",True
+f6174a6ff25e264b33432465cc972a20571a4440,2016-03-05 01:04:15,greenkeeperio-bot,"chore(package): update bitgo to version 0.11.72
+
+http://greenkeeper.io/",False
+69105937aeedbae2c65a9642c9596ef6dc634d65,2016-03-04 10:11:23,Sahat Yalkabov,"Merge pull request #394 from sahat/greenkeeper-bitgo-0.11.71
+
+Update bitgo to version 0.11.71 🚀",True
+b0ef962bd017e3cbdce699c6e6d884d9bf7edc1b,2016-03-04 01:41:38,greenkeeperio-bot,"chore(package): update bitgo to version 0.11.71
+
+http://greenkeeper.io/",False
+e7a16e3b04e6bab07ada97ba6ad8973e3051455b,2016-03-01 10:57:50,Josh Gruenberg,Add Pinterest OAuth and API examples.,False
+3ae7194caceeae8abb48ca87f3c6f3181f82067d,2016-02-29 23:09:33,Sahat Yalkabov,"Merge pull request #388 from sahat/greenkeeper-bitgo-0.11.67
+
+Update bitgo to version 0.11.67 🚀",True
+5ec3a051fd00ef22349f003588c887b03da1247e,2016-02-27 00:47:00,Sahat Yalkabov,Merge remote-tracking branch 'origin/master',True
+05a836abde7afcb15e74594fff4464942ef31969,2016-02-27 00:46:52,Sahat Yalkabov,Refactored querystring params,False
+913a4375de4a1b9fcdf73509ff0c3e92b2a074f3,2016-02-26 07:23:00,Sahat Yalkabov,"Merge pull request #386 from dsavenko/master
+
+Fix next being undefined for getReset call",True
+2c5a272805b84a55e7350f79e17f311d96f49fce,2016-02-26 05:18:55,greenkeeperio-bot,"chore(package): update bitgo to version 0.11.67
+
+http://greenkeeper.io/",False
+d796f30b56a4108322bdf46ac5c719d962ab0180,2016-02-26 03:03:50,Sahat Yalkabov,Merge branch 'master' of github.com:sahat/hackathon-starter,True
+7f189f35d322b36392213cfefb5ae505fb8258d2,2016-02-26 03:03:36,Sahat Yalkabov,updated dependencies,False
+0c6b796b60f7241474a87b47dbfade081e964e32,2016-02-24 13:35:41,dsavenko,Fix next being undefined for getReset call,False
+818461f76feecb9b8bc409057217d5a8b5b587a5,2016-02-22 21:19:30,Sahat Yalkabov,"Merge pull request #383 from sahat/greenkeeper-lodash-4.5.1
+
+lodash@4.5.1 breaks build 🚨",True
+56448d80be3f07cff394710821377d8a5c9346d8,2016-02-22 21:19:10,Sahat Yalkabov,"Merge pull request #382 from sahat/greenkeeper-validator-5.0.0
+
+Update validator to version 5.0.0 🚀",True
+b07a45e3abca1045ef40c0e67ad0874ff4ed8fdf,2016-02-22 20:27:50,greenkeeperio-bot,"chore(package): update lodash to version 4.5.1
+
+http://greenkeeper.io/",False
+f3c59b6493f065bcfed1a3c118c342edfc416b85,2016-02-22 20:21:44,greenkeeperio-bot,"chore(package): update validator to version 5.0.0
+
+http://greenkeeper.io/",False
+5a4f86ff815ebe160a0d3a80d842093486fa9ffa,2016-02-21 04:40:20,Sahat Yalkabov,Renamed user schema password reset fields,False
+096f32b71e7613902583bb67a92a4c2a2659827c,2016-02-21 04:37:03,Sahat Yalkabov,"Added timestamps to User schema, plus code refactoring",False
+1c46d236817ffd13de152be0cd87bcf12d3d9bd8,2016-02-21 04:28:18,Sahat Yalkabov,Code cleanup,False
+ad61d769df0f72250cd22e3afe59669c8d4c2436,2016-02-19 03:00:44,Sahat Yalkabov,"Merge pull request #380 from sahat/greenkeeper-bitgo-0.11.65
+
+Update bitgo to version 0.11.65 🚀",True
+d85f17fb4bb38df76ec68704aa0f2068d7d64224,2016-02-18 05:54:17,greenkeeperio-bot,"chore(package): update bitgo to version 0.11.65
+
+http://greenkeeper.io/",False
+c8fbf1d55c8baa6f43573f4f7eb451e6c52925c2,2016-02-17 00:56:16,Sahat Yalkabov,updated lodash,False
+04368467f33a21f15c9b108e84c4e2c0f7dc40b1,2016-02-14 08:56:32,Sahat Yalkabov,Merge branch 'master' of github.com:sahat/hackathon-starter,True
+519583897da8cf39d0b024a2c3d918fcb7d043ab,2016-02-14 08:56:13,Sahat Yalkabov,updated dependencies,False
+898a4a5d4ac2eefb23eb80b830eb4767f0892da0,2016-02-12 01:31:56,Sahat Yalkabov,"Merge pull request #374 from dok/patch-1
+
+Add semicolon to test/model.js",True
+132bc723a9466c822ed8a3dd40230a7c1b94c818,2016-02-11 22:10:50,Sean,"Update model.js for syntax error
+
+It was bothering me..",False
+40a68c81e053028f0abcfb15542e89bf6283de2d,2016-02-09 09:04:15,Sahat Yalkabov,Added file upload example,False
+ca6c1cb7cafff6a6596c6276ab348b4f903adf04,2016-02-09 09:00:36,Sahat Yalkabov,Fixed typos,False
+62e1750c3b7e857f6d24c7b78d828c08cfa05287,2016-02-08 00:59:26,Sahat Yalkabov,updated node.js dependencies,False
+5e2b67188f28d72abba2541166833a8394b19cf7,2016-02-07 09:18:47,Sahat Yalkabov,Added paypal donate button,False
+a1c60c2a72349de22f72292dcbf70af289b29e6a,2016-02-06 11:32:35,Sahat Yalkabov,v3.4.1,False
+0ca29a12777c5b87ecf1e1019fe27514e18714db,2016-02-06 11:24:01,Sahat Yalkabov,Removed debug and outputStyle from sass-middleware,False
+82a2268f54aef04eee9dad19a63d935a4ca582ae,2016-02-06 11:15:52,Sahat Yalkabov,Removed Arial-Narrow font fallback in default theme,False
+b37251671387320d54bf7010211e5a2f3790e417,2016-02-06 11:14:52,Sahat Yalkabov,"Upgrade Bootstrap 3.3.6, Font Awesome 4.5.0",False
+5fdc138923611081c187a5e84dcd022d556b72a7,2016-02-06 11:09:31,Sahat Yalkabov,Updated jquery version to 2.2.0,False
+82d448bbe43973c4822537de20d0221b213ea8e7,2016-02-06 11:08:03,Sahat Yalkabov,Updated dotenv comments and instructions,False
+1a6345714874296a3936732f07e5a773939838c4,2016-02-06 00:01:51,Sahat Yalkabov,Fixed readme header formatting,False
+ef121c0f6e07e36bfafa26a6ccc42b698ec36909,2016-02-05 12:00:21,Sahat Yalkabov,Removed ga beacon,False
+be914292cde20efe1be4633f9d7a43a965f70746,2016-02-05 11:59:07,Sahat Yalkabov,"Merge pull request #368 from mplacona/master
+
+Add directions for obtaining Twilio API key. Resolves #367",True
+2bfaba568628c3c46b36cec9e60acc8ed475488a,2016-02-04 23:48:49,Sahat Yalkabov,"Merge pull request #365 from sahat/greenkeeper-lodash-4.2.1
+
+lodash@4.2.1",True
+8640f3c1f132eed946a1016ef44d4a388185c25f,2016-02-04 22:11:44,mplacona,Add directions for obtaining Twilio API key. Resolves #367,False
+50b846299c8e298c89e0410df5563d037c26f548,2016-02-04 14:17:20,Sahat Yalkabov,"Merge pull request #366 from sahat/greenkeeper-passport-google-oauth-1.0.0
+
+Update passport-google-oauth to version 1.0.0 🚀",True
+261108adb99b976173f386d6be9d1c649bf51960,2016-02-04 09:12:51,greenkeeperio-bot,"chore(package): update passport-google-oauth to version 1.0.0
+
+http://greenkeeper.io/",False
+991dc025a8d0e2d45df789198a000ba26281a5e0,2016-02-03 23:24:05,Sahat Yalkabov,"Merge pull request #364 from PascalHelbig/master
+
+fix bootstrap icon",True
+a7b43ce3f237422189d7d08aad6b7245c711044a,2016-02-03 21:36:35,greenkeeperio-bot,"chore(package): update lodash to version 4.2.1
+
+http://greenkeeper.io/",False
+1c2480cca9bfd6c2188630e7128b61b0b684d0dc,2016-02-03 16:51:55,pascalhelbig,fix bootstrap icon,False
+80a312b06728585a7800a719696d6bab3d5cc940,2016-02-02 04:25:38,Sahat Yalkabov,"Merge pull request #363 from SwarShah/master
+
+Updated cheerio broken link in view",True
+9e99660c73b1a8896b60c422b397be98d444ed8a,2016-02-02 03:09:42,Swar Shah,Updated cheerio broken link in view,False
+e103fa43e984a6e67d34765ca628d8384219a475,2016-02-02 00:09:52,Sahat Yalkabov,Merge branch 'master' of https://github.com/sahat/hackathon-starter,True
+1b77230c59cb865477884fc491bb3169b4622184,2016-02-02 00:09:44,Sahat Yalkabov,updated node.js dependencies,False
+18a2dada2300853436948f0f6a834b9aef32fbcc,2016-01-31 09:19:46,Sahat Yalkabov,"Updated pre-reqs link, twitter icon",False
+884a970a93d1eff9f253e0dcdf23819d76db8849,2016-01-31 08:20:12,Sahat Yalkabov,Fixed build status badge,False
+ead2f8e460a133db89a06a58139e4678c1ada690,2016-01-29 01:38:24,Sahat Yalkabov,"Merge branch 'master' of https://github.com/sahat/hackathon-starter
+
+# Conflicts:
+#	package.json",True
+c569b02895e2c1804ee90264edb275f23772d0e6,2016-01-29 01:37:30,Sahat Yalkabov,updated node.js dependencies,False
+6b985ec678f2d222bf1796ac5a608ac9d46d41f2,2016-01-25 00:52:24,Sahat Yalkabov,updated dependencies,False
+c18859b2bc721f7352d33163f5d572a8c5d0cae2,2016-01-19 05:29:05,Sahat Yalkabov,Removed connect-assets (unused),False
+1e5a01c1ab3386b8ed70c8a25eb47d31e2313d62,2016-01-18 02:24:15,Sahat Yalkabov,updated dependencies,False
+45db31cb313955c598f8ae0697db37b52f1040b7,2016-01-15 02:56:45,Sahat Yalkabov,updated dependencies,False
+77f2900df5552333de789163724f5ff6c38ec679,2016-01-07 22:40:00,Sahat Yalkabov,"Merge pull request #355 from mortonfox/patch-1
+
+Fix the second MongoDB download link",True
+69cb54489136f38fabba2879c64b29d43e5a8105,2016-01-07 22:09:59,Morton Fox,Fix the second MongoDB download link,False
+1e4e6ccc56e9f492848db979679a6d1d4a903854,2016-01-06 06:18:06,Sahat Yalkabov,3.4.0,False
+efda77cadfce10145705e0a23a49862d4549185a,2016-01-06 05:57:12,Sahat Yalkabov,Updated generator code to use process.env,False
+4a38809779713eccd96e0e8e2ea4e318482f1ad4,2016-01-06 05:37:53,Sahat Yalkabov,Use dotenv instead of secrets.js,False
+ce66f2ba85e1d8af6047231db7e67c7514c7e400,2016-01-06 05:33:22,Sahat Yalkabov,Updated copyright year,False
+888c844125cd41dce2830c6429e8d8eaef55d722,2016-01-06 05:32:46,Sahat Yalkabov,Added .env file with API credentials,False
+3c9de21105bd390ac1f5308231ac5cc054ea22c6,2016-01-06 05:07:25,Sahat Yalkabov,Added dontenv package,False
+74c82cdc9c01abf3c833fb6efc9fd99e581446bb,2016-01-06 05:04:53,Sahat Yalkabov,Added .env to gitignore,False
+3ffd814d9db202a9ec2c540d011e990f22e88f2e,2016-01-06 04:54:48,Sahat Yalkabov,Fixed broken aviary api image,False
+707c6df616d03099e7557b47e055784883daf39c,2016-01-06 02:36:46,Sahat Yalkabov,Removed outdated /dashboard url from readme,False
+df8d3b4132adcf241d1cc9e953da8c5c89b37d6e,2016-01-05 00:37:49,Sahat Yalkabov,Merge branch 'master' of https://github.com/sahat/hackathon-starter,True
+4ecd9e1ffe6b4b247df97b765e35a691931a16b2,2016-01-05 00:37:42,Sahat Yalkabov,updated node.js dependencies,False
+fa65a4aa3630810a11b0aa55ae5fd7811b490201,2016-01-01 06:29:07,Sahat Yalkabov,"Merge pull request #347 from egladman/master
+
+disabled horizontal resizing of textarea",True

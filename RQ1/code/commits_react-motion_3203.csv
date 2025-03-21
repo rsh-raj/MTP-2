@@ -1,0 +1,810 @@
+Hash,Date,Author,Message,IsMerge
+9e3ce95bacaa9a1b259f969870a21c727232cc68,2019-11-18 05:19:58,Nik Butenko,"Merge pull request #578 from nkbt/Need-to-maintain-same-build-file-locations-577
+
+Maintain the same build file paths",True
+6f886eaa7aabe3ec48ab0711ee1a217fd90aa83b,2019-11-15 15:34:28,Nik Butenko,Update babel build to transform modeules to commonjs,False
+a45d160b04498fc27ce37ed984c54d13c3ea3fe7,2019-11-15 14:06:18,Nik Butenko,Maintain the same build file paths,False
+5d643047762a1c809f4b5317eeb5b9efe9239856,2019-11-12 09:14:37,Nik Butenko,"Merge pull request #575 from theopak/theopak/2019-11-08-rename-unsafe-lifecycle-methods
+
+rename react lifecycle methods to prefix ""UNSAFE_""",True
+fe8aae31bd3bc629221ebac58a67dd34f9ed74e4,2019-11-09 03:16:58,Theodore X. Pak,build output after `yarn install`,False
+a72357295a8043a592d586a6ce5bbb64e36b3db9,2019-11-09 03:08:17,Theodore X. Pak,"configure eslint for the ""UNSAFE_"" lifecycle prefix",False
+7d020c8c94334c576f4c51ae8fddf0013d562ebd,2019-11-09 03:08:02,Theodore X. Pak,upgrade devDep eslint 5.0.1 -> 5.x,False
+bf0b3dd9d9e64bf981fccd864dc052f8a21f9b67,2019-11-09 02:39:26,Theodore X. Pak,"rename react lifecycle methods to prefix ""UNSAFE_""
+
+    - via `npx react-codemod rename-unsafe-lifecycles`
+    - using options: ./src, ""JavaScript with Flow""
+    - fixes console warnings for react v16.9.0
+    - fixes react v17 compatibility
+    - note that this doesn't do address the underlying motive of the
+      warnings regarding unsafe component lifecycle methods",False
+3305ecdcbc81630595b117a379536277ea8cbeda,2018-10-09 16:02:31,Nik Butenko,"Merge pull request #555 from ossdev07/react__motion
+
+Replace phantomjs with headless chrome and remove deprecated phantomjs",True
+0a18feb0e60a96e72fc303576753a164955580e6,2018-10-09 15:12:54,ossdev07,"React-motion: Removed phantomjs dependency
+
+PhantomJS is a unmaintained project removed
+phantomjs dependency from package.json and
+Added support for Karma-chrome-launcher.
+
+Signed-off-by: ossdev07 <ossdev@puresoftware.com>",False
+1b78cdd8504c4427ebce63a19b4e78c377c421f7,2018-08-14 00:00:02,Nik Butenko,"Merge pull request #550 from TrySound/improve-babel
+
+Improve babel config",True
+4ccdd4dfe288554da6c5590ec2ca46c1e99065a4,2018-08-12 15:12:21,Bogdan Chadkin,Remove propTypes in production,False
+dc40c5294d9f25e3ece53e362d05832b201a5a52,2018-08-11 13:27:37,Bogdan Chadkin,Remove babel cli,False
+1a7783835930560e02a60563edbe65d4b8c2a88c,2018-08-11 13:25:22,Bogdan Chadkin,"Improve babel config
+
+- enable loose mode for env and class properties
+- reuse helpers from babel runtime instead of duplicating them",False
+c0897fe77e9725f837a44f08b59d1bf515a978b5,2018-08-11 13:10:45,Bogdan Chadkin,Add prettier (#549),False
+10d3005069e19033973c4e12319b3c51e7a554f2,2018-08-09 14:51:59,Nik Butenko,"Merge pull request #548 from TrySound/flat-bundles
+
+Upgrade babel and build esm and cjs bundles",True
+407b98ea7ea90dd832dac126af097e6d3b3e00e3,2018-08-06 12:56:10,Bogdan Chadkin,"Upgrade babel and build esm and cjs bundles
+
+In this diff I suggest to use bundles instead of transpiled with just
+babel files. There are a few reasons for them
+
+- more controllable size and output
+- slightly faster user bundling
+- faster browser loading if somebody will use it
+- better debugging in development mode without sourcemaps (less webpack stuff)
+- hidden internals which may cause breaking changes if user decide to use them
+
+Size snapshot shows also treeshakability for esm bundles so I can apply
+more optimisation which will be visible to us.",False
+ed00b957d6284bf9503ee9933bbc93f51864231b,2018-07-06 11:41:26,Bogdan Chadkin,"Bundle umd with rollup (#546)
+
+Rollup produces smaller and readable output which do not require source
+maps.
+
+- removed sourcemaps from umd bundle
+- bundle umd with rollup
+- added production umd version
+
+Previously minified development bundle had 31750b. The new one 24575b",False
+d74daba666e9b9ee4bb2f42f1818b481c2d2518d,2018-07-06 03:46:48,Bogdan Chadkin,"Upgrade stack (#545)
+
+* Upgrade stack
+
+I wanted to upgrade only babel but everything else was broken so I
+upgraded babel, webpack, eslint and karma.
+
+Disabled a lot of eslint rules to not change existing code. Maybe it's
+better to migrate to prettier later.
+
+This changes will unblock me from providing smaller output.
+
+* Fix flow",False
+8a094afe1dca51b09958798f95333c3d6aae6b27,2018-07-03 09:33:15,Mikhail Vasin,Fix link (#536),False
+4222c5c61ad4d4e0d8abc71c49bfc4fe1d1efb74,2018-07-03 09:32:46,Alasdair McLeay,chenglou/react-motion#507 performance-now update (#509),False
+f0e51f72cf425731f2c47f50d403c5195b227c97,2018-07-03 09:32:14,tomasz stryjewski,Fixed memory leak (#518),False
+7544df9c1eb8ececd077bca67ac2440497a5240b,2018-07-03 09:31:06,Bogdan Chadkin,Reexport flow types from src (#533),False
+8bd4f7223a8d79535586220f7173f078d4604e07,2017-10-03 04:48:11,Nik Butenko,0.5.2,False
+e414dab4af7b247956915268ceb0e986d88a005f,2017-09-27 02:02:40,Roderick Hsiao,Support React 16 (#496),False
+b1cde24f27ef6f7d76685dceb0a951ebfaa10f85,2017-08-30 15:35:20,Cheng Lou,"Revert ""Upgrade typings to flow 0.53.1 (#485)"" (#487)
+
+This reverts commit 25230a49a43442b958ba95d07eb2995f66fac73e.",False
+25230a49a43442b958ba95d07eb2995f66fac73e,2017-08-30 15:31:21,AugustinLF,Upgrade typings to flow 0.53.1 (#485),False
+d4d4e3e98687151a050a43901e5d61b43dba8af9,2017-08-29 00:53:00,Cheng Lou,Update integration test rm version,False
+cee4eb5ee1c1b91115c9e98d45a593f482395cdf,2017-08-29 00:51:22,Cheng Lou,0.5.1,False
+6be11504ab94d0073bf2ae92fd85cfb812a1817f,2017-08-29 00:49:24,Cheng Lou,"Prepare for new release
+
+cc @nkbt. Thanks again for your great maintenance!",False
+2bbe02497573d5ef577670cfb88a0b521d2fda90,2017-08-29 00:24:44,Sunil Pai,"update flow, fix component annotations (#486)
+
+* update flow, fix component annotations
+
+* revert prettier changes",False
+b3d3901a4ab39d8e9ad30649c3266009c3cc6705,2017-04-26 19:46:06,Nik Butenko,0.5.0,False
+143e5e50122cfe67340322afa8f385d85cedf72f,2017-04-25 19:20:05,Nik Butenko,"Merge pull request #463 from MichaelDeBoey/react-dom/test-utils
+
+Use 'react-dom/test-utils' package instead of 'react-addons-test-utils'",True
+cd5f472a5075aa27d2c0b8db4610fd40b38aa89c,2017-04-25 19:13:49,Michaël De Boey,Fix React dependencies for production,False
+c1c72ba4267ef034050b542216590bc2bf9bca42,2017-04-25 19:08:01,Michaël De Boey,"Use 'react-dom/test-utils' package instead of 'react-addons-test-utils'
+
+Closes #459",False
+e3587ed9d6e43d80e75138819975ab13dd2f8eb4,2017-04-25 19:03:56,Nik Butenko,"Merge pull request #460 from chenglou/split-tests-in-travis-and-use-Node-6
+
+Split tests in Travis and use Node 6",True
+e9866d6932863b4df4a8390738916a7b923702e9,2017-04-25 18:58:01,Nik Butenko,"Remove caching of node_modules
+
+Make travis config as per docs https://docs.travis-ci.com/user/languages/javascript-with-nodejs/",False
+734105e33e7e5435427364fc175156d864dda4a7,2017-04-25 18:58:01,Nik Butenko,Split tests in travis and use Node 6,False
+e8dace0d219cda478894b5b9f110b2e18cb156a1,2017-04-25 18:54:57,Nik Butenko,"Merge pull request #462 from MichaelDeBoey/ES6
+
+Update deprecated 'create-react-class' dependencies in tests to ES6 classes",True
+076f2f14157d46a16edc4486049e2642f1a04457,2017-04-25 18:43:17,Michaël De Boey,Update React dependency for Bower to be compatible with 'prop-types' package,False
+c304b16138a55028086cd2ba0a62fd3a812f263e,2017-04-25 18:42:04,Michaël De Boey,Fix linting errors,False
+030cbcb728df8df66fbac6ab59c1df3608119557,2017-04-25 18:22:09,Michaël De Boey,Update deprecated 'create-react-class' dependencies in tests to ES6 classes,False
+b0a7882370302745259133eb54f814a842fcf6df,2017-04-25 17:34:38,Nik Butenko,"Merge pull request #457 from ifndefdeadmau5/es6-class-migration
+
+Use ES6 classes in ‘Motion.js’",True
+2b19e2047745650f32c8b02ad14df7a24653f080,2017-04-25 17:29:48,Trevor,Set default animationID: 0 -> null,False
+02a88d1c9f12021f534a55c95a8fd8b11c7d30ff,2017-04-25 17:26:54,Trevor,Finally made it I guess...,False
+320bb9d46700f384508cb8bf5aa71f7c470890e7,2017-04-25 17:23:30,Trevor,Fix wrong type definition,False
+072e6a458b5696c1dd914173600ee5f69d63228d,2017-04-25 17:08:55,Trevor,Move all properties to constructor,False
+2fcf72d1bc76c729c1a7c78a37593ce7d134699a,2017-04-25 16:54:56,Trevor,Move prototype properties to constructor,False
+ad403a046cd2a687a6424b7a77d0dd1908184106,2017-04-25 15:33:44,Nik Butenko,"Merge pull request #458 from MichaelDeBoey/peerDependencies
+
+Update peerDependencies to be compatible with 'prop-types' package",True
+bc0819a903e70f4a2815a9fe983346aeb0973d45,2017-04-25 15:12:44,Trevor,Revise #457,False
+aabe3ecbea6ec1fd67520ff107d3978fa9a5fa98,2017-04-25 15:11:02,Michaël De Boey,Update devDependencies to be compatible with 'prop-types' package,False
+d28db01c4a5c4f35b3965b9bfeac910e9933a1f9,2017-04-25 15:02:52,Michaël De Boey,Update peerDependencies to be compatible with 'prop-types' package,False
+40df6d33101808092b2b6b3f16ebd93441fb6e74,2017-04-25 12:49:12,Trevor,Fix flow error,False
+97f354f2b8adab8ca8de85f3bc58f666cfeba416,2017-04-25 12:45:52,Trevor,Fix travis error,False
+08da4f3e4e7ab8e15db5bb0b3a1c647fbe7c0216,2017-04-25 11:18:55,Trevor,Use ES6 classes in ‘Motion.js’,False
+b494d24f977e0b3263b2c4607705eec28bbce9a6,2017-04-25 07:28:25,Nik Butenko,"Merge pull request #455 from Holi0317/es6-class
+
+Use ES6 class style for creating react components",True
+f4c1f3cae22e7ba2339c5dc84a77059d41d67533,2017-04-23 17:28:20,holi0317,"Revert ""Add Idea/Webstorm directory to ignore list""
+
+This reverts commit 36260a2b1ef5bbb2324975f4329953a1226454db.",False
+caa99de6e89bf6be0da3c544c37a3033db6f3576,2017-04-18 20:10:49,holi0317,Use ES6 classes for react components in Demos,False
+2bd26f683b505c4b0d5d5a357827e342533b6934,2017-04-18 19:41:15,holi0317,Use ES6 classes for react components,False
+36260a2b1ef5bbb2324975f4329953a1226454db,2017-04-18 18:50:01,holi0317,Add Idea/Webstorm directory to ignore list,False
+b4859146a19adba5d3fbc8bc7020aa1ca2073c22,2017-04-18 09:29:37,Nik Butenko,0.4.8,False
+95f735c84ee412e175e862acfb79789c03675860,2017-04-18 09:28:46,Benny Yan,externalize stripStyle,False
+7adcf52d8476db24ceb50c8f275d5e9b52d64bea,2017-04-18 09:19:55,Nik Butenko,"Merge pull request #446 from Andarist/master
+
+Migrated deprecated React.PropTypes and React.createClass",True
+6b230645aef2b064042900ade83aba0bc6117962,2017-04-16 01:50:46,Mateusz Burzyński,Migrated deprecated React.PropTypes and React.createClass,False
+e013f93059591b58f83cc1fe5494146e5aa6b756,2017-04-15 04:56:36,Paul Sherman,"Fix link to TypeScript types (#443)
+
+Typings are now nested under the ""/types"" directory. Fixes #442",False
+f9a05d74ca7dab228da3ccd3a3de33c526ddfb6b,2017-03-02 01:32:58,Cheng Lou,Add comment to #420,False
+064190f70931f13ce6a35e46b5be2c5760c0469d,2017-03-02 01:30:46,Alexey,"Unmounted component setState fix (#420)
+
+* unmounted component setState fix
+
+* added one more exit clause",False
+309d295828dde1aa5425d73f4a9d30bc2b13e70f,2017-02-28 13:37:11,Cheng Lou,Fix bad fix of 2373eaf36fc4df774acc8bccf5dcda4391687f67,False
+0f6637bb612691b8459a50ddd8543a33a89ee033,2017-02-28 12:01:29,Tom,"Refactored demo and fixed flow check errors (#435)
+
+* More descriptive variable names in demo
+
+* Fixed flow check errors
+
+* lower-case",False
+d5be778328243ac6b938fb7550ed04984f615566,2017-02-28 11:58:28,Han Lin Yap,Fix broken link (#430),False
+b2cb3c226e2834b33c97ad5e9aaf06e0066ac421,2016-12-16 05:48:17,Cheng Lou,0.4.7,False
+4c0103ba8ad40497b884be3b61d1a44ceff38e88,2016-12-16 05:45:09,Cheng Lou,Better publishing process (change `prerelease` to `prepublish`),False
+e4ef48e6121cbea42a8b47a67e748fc35bf158da,2016-12-13 04:23:15,Cheng Lou,Bump bower and package.json,False
+632b3248f222b2387e6295c902ac16fcf8e25268,2016-12-13 04:20:21,Cheng Lou,"Upgrade karma-phantomjs-churn-launcher
+
+Old version didn't work on macOS sierra",False
+bdfef4e11697cc252334ba3c2e37e9eeb061c5e4,2016-12-07 15:02:59,Henrik Kok Jørgensen,Add didLeave method to TransitionMotion (#399),False
+a70c66d74d9038de752346ee4fa12b68a1791176,2016-12-06 14:27:49,Tom,"Performance optimisation for draggable list demo (#401)
+
+* Now only call reorder when item position changes instead of on every mouse move
+
+* Turned extraneous eslint rule off",False
+c2e003992f6d7bb2f1ddb1058118a56e35b78408,2016-11-29 12:45:13,Nik Butenko,"Merge pull request #400 from therewillbecode/draggable-list-demo-variable-names
+
+Draggable list demo variable names",True
+a2b8712e14e4cf92a211cf25ac6562cbb4d2ff33,2016-11-26 23:11:42,Tom,Turned extraneous eslint rule off,False
+99975441be23f8eecf5846da58de886592e87816,2016-11-26 19:32:29,Tom,Made row variable name more descriptive,False
+1bbac8f9dfb52db83759f1c64f3ecfeb81a643a3,2016-11-26 19:31:04,Tom,Made mouse variable name more descriptive,False
+78cd196c8b936913e0dd8d612860531e637eced0,2016-11-26 18:20:02,Tom,Made lastPressed variable name more descriptive,False
+ce769250737d246cb69f2e8243ef4b478f637870,2016-11-26 18:15:09,Tom,Made delta variable name more descriptive,False
+446a8d0130072c4a59fec1ab788bfc2cc5c5b788,2016-09-26 23:03:49,Cheng Lou,"Bump version
+
+Fixes #369",False
+adbf1de2be796b70cf5ae1817d403fecf768e116,2016-09-25 13:47:30,Chris Cowan,Fix merge errors. (#373),False
+167c1d19c02c47af64c8c07aeee760d9b3c7559a,2016-09-25 12:50:18,Chris Cowan,"Fix flow react element errors, upgrade eslint, expose Flow type info (#371)
+
+* Fix Flow ReactElement errors
+
+In later versions of flow, it requires that generic types have their
+type parameters specified. All of the `ReactElement` declarations were
+throwing an error saying these needed to be specified.
+
+This change updates `ReactElement` to `React$Element<*>`
+
+* Fix another Flow error.
+
+Older versions of Flow didn't check tuple types correctly.
+
+* Update eslint dependency and friends.
+
+Update eslint because the old version being used choken on Flow type
+parameters.
+
+Update code to pass a few of the new eslint rules, but disable the rest
+of the stricter new ones.
+
+Remove references to ReactElement and React$Element and use
+React.Element instead.
+
+* Make CI run Flow.
+
+* Remove need for suppress_comment option.
+
+Properly fix some //$FlowFixMe comments. Change some of them to :any
+casts instead.
+
+* Fix build being broken by hiding type parameters from Babel.
+
+* Include .flow files so that Flow-using consumers get react-motion's type info.
+
+* npmignore the src directory.",False
+ee4a06369664f86df3159b5410192f8f952fef3b,2016-09-25 12:47:40,Brian Geihsler,"Fix Flow ReactElement errors (#361)
+
+In later versions of flow, it requires that generic types have their
+type parameters specified. All of the `ReactElement` declarations were
+throwing an error saying these needed to be specified.
+
+This change updates `ReactElement` to `React$Element<*>`",False
+a303b4ddf3de0e778fbf7a055b530bac8f948563,2016-09-12 11:52:46,npmcdn-to-unpkg-bot,Replace npmcdn.com with unpkg.com (#366),False
+99b9d36c9724a10f43aed16fe250e44852004733,2016-08-28 06:51:44,Nik Butenko,"Merge pull request #362 from amilajack/patch-1
+
+Added syntax highlighting to first readme example",True
+598c16a6142680c1e479e1bf12c746afff8c3c5e,2016-08-27 23:27:53,Amila Welihinda,Added syntax highlighting to first readme example,False
+c57b3c15cf08ba204a2d36ebc5e65df04d90a206,2016-08-13 13:30:27,Yuhei Yasuda,clean imports in demos (#353),False
+e48fdad6d82fda32f2d4e5b3d2f295e82f6c580b,2016-06-14 05:23:52,Samy Al Zahrani,Use RAF timestamp argument if available (#340),False
+2e4a81fa2d20e9747f2a1519ce3011f71f2b79ff,2016-06-14 05:21:01,Marcel Beumer,Fix flow for TransitionMotion.unmounting (#335),False
+0660a724cfac7452c8aadb65b258dd999908974e,2016-06-04 17:13:41,Cheng Lou,Bump to 0.4.4; for 49ea396041b0031b95f4941cc7efce200fcca454,False
+11ea5df5c31db196175082f006021e6932d9ec72,2016-06-04 09:06:25,Stepan Mikhaylyuk,fixed link to d.ts (#333),False
+49ea396041b0031b95f4941cc7efce200fcca454,2016-05-12 00:02:49,Öz,Try fixing souporserious/react-motion-ui-pack#41 by checking if unmounting is in progress.,False
+0d708c1cda4b7340eb0ef6c39508cf97ebf848bf,2016-04-20 12:08:54,Cheng Lou,"Update readme links; bump version
+
+Preparing for a new dot release which contains the new `onRest` API for
+`Motion`.",False
+9cb90eca20ecf56e77feb816d101a4a9110c7d70,2016-04-20 09:00:46,Cheng Lou,"Document & add type info for `onRest` for `Motion`
+
+Fixes #274",False
+3ea9e2ec47ce83f8a216d76f97d9fc9eff8df3ad,2016-04-20 05:59:31,Cheng Lou,"TransitionMotion: pass defaultStyles to styles function
+
+Fixes #296. Also updated the corresponding test. Not sure why an
+`undefined` was put there; might be a lazy copy paste.",False
+8beb22362b70e283f7c7dfabcf79e4a47162f1e9,2016-04-20 05:56:45,Cheng Lou,"Update flowconfig to ignore more files
+
+Since the last `npm install`, a few new deps seem to be causing flow
+type check errors. This adds these to the ignored items.",False
+891501261d3e1275d8685eaea935b22d0a0e4c4c,2016-04-20 05:56:29,Cheng Lou,Add TypeScript definition url to readme,False
+e504166cf6f0e56ec2c57097af1bf5e43892fb73,2016-04-20 03:56:02,Cheng Lou,Merge origin/development into master,True
+089adea6d7d1b6fc6acf450eb63917f735980dc1,2016-04-16 12:33:22,Nik Butenko,"Merge pull request #320 from martijnrusschen/patch-1
+
+Support React 15",True
+a334cd310c956d173255a218810424e0f97edf2f,2016-04-16 12:19:42,Nik Butenko,"Merge pull request #313 from necinc/patch-1
+
+Fix typo",True
+efb39c55c8b315a0051ecd75ec6137ce9ccd2bce,2016-04-10 22:36:09,Martijn Russchen,Bump devDependencies too,False
+23237e0efda5ab625015923d2e8bbb59e1ed298b,2016-04-10 22:29:45,Martijn Russchen,Support React 15,False
+623c694403e0e66ffdf15696a7bd3a3b7da0946b,2016-04-01 14:42:54,Max Vyznyuk,Fix typo,False
+3522a2422806c5f73bc6bc241f8dd74e0da4c835,2016-03-08 03:29:15,Cheng Lou,"Merge pull request #298 from cdebotton/flow-update
+
+Flow update",True
+61a5849625fc558b6cdb9098957056e8897fb8a5,2016-03-06 05:42:10,Christian de Botton,Removing spaces in curly braces,False
+dbf52ac5ca698808b08d8fd3ba975aa0da945b05,2016-03-03 10:34:58,Cheng Lou,"Merge pull request #289 from dozoisch/patch-1
+
+Update the doc about willLeave",True
+6ff1d51eb07b532ec5fd7a583e29dde78a163d19,2016-03-01 21:08:48,Christian de Botton,"Update to support Flow 0.22.0
+
+Flow no longer globally recognizes internal React types.
+Manually import type { Element as ReactElement } to squash Flow errors.
+Also ignoring the test folders via flow config, they are causing superfluous warnings.",False
+1c812d4550cbc2907e8651d38a55f5c6d8e62fc6,2016-02-24 22:51:33,Hugo Dozois,"Update the doc about willLeave
+
+- updated the value property name to style.
+- added information about the style property
+
+- fixes #288",False
+3fafe648ceba280763f56638b701aecf3ebdf6e4,2016-02-23 03:30:59,Cheng Lou,"Precise StaggeredMotion works only with fixed-length collections
+
+Fixes #284.",False
+5fc9449b2790b47c9adc04b96999cf33f2fe300e,2016-02-11 05:46:13,Cheng Lou,"Merge pull request #283 from appsforartists/AUTHORS
+
+Add AUTHORS",True
+47c5744c9c5047030726a39fa2c8e4535bf81650,2016-02-11 05:44:20,Brenton Simpson,Add AUTHORS,False
+078813f87815a0a636b897bd42c33d2076f255e2,2016-02-07 09:39:09,Samar Panda,"Adding button and its interaction to show next items
+
+Use bind for next and previous button clickHandler",False
+85ca75c6de9ed85937d1c95646b6044a66981eee,2016-01-31 09:47:32,Cheng Lou,"Prepare for new patch release
+
+Forgot to correct the `TransitionStyle/TransitionPlainStyle` `key` type
+from `any` to `string`.",False
+026f4d18d3246e14abbf17bef0a9eda536934193,2016-01-31 09:33:42,Cheng Lou,Fix small bugs in todomvc,False
+a701fc4f435bb95be4640c356692f73db7b58e1b,2016-01-30 16:21:28,Cheng Lou,"Use babel react constant & inline elements optimization for demos
+
+Fixes #203",False
+25daf774ba3b40f25c10554c5bfd8e17e05e7686,2016-01-30 15:42:11,Cheng Lou,Add last two TM fixes to HISTORY,False
+f20dc1b9c8de7b387927b24afdb73e0a5ea0d0a6,2016-01-30 15:39:14,Cheng Lou,"Fix TM stale read bug
+
+Repro: go to todomvc, check an item, type something that'd filter it
+out, see that for the brief unmounting animation the check mark is gone
+(stale `isDone: false`).
+
+This fixes that by removing the dirty check in `clearUnreadPropStyle`.
+We now setState every time this is called (every willUpdate). This is
+not underperformant as willUpdate will batch that setState without
+triggering an extra render.
+
+There are a bunch of nuances in this. I knew the staleness was a problem
+but kept the dirty check anyway because fwiw `rehydrateStyles` always
+picked the freshest `data` (the field in `TransitionStyle`), and the
+dirty data is never read anywhere. Apparently I was wrong. This piece is
+tricky and should be revisited/commented better.
+
+(No test yet.)",False
+972b5c6eed59e4478e6bed8157ef4070a6ceff45,2016-01-30 13:43:05,Cheng Lou,"Rewrite mergeDiff keys merging logic
+
+See
+https://github.com/chenglou/react-motion/issues/264#issuecomment-177097941
+
+Recursive/inductive merging of two lists of keys starting from left to
+right is wrong. See the previous series of commits amounting to this
+rewrite.
+
+The new algorithm is formalized and uses MATH and SCIENCE. This means
+it's provably correct. See the commented diff below.",False
+51fccc4d6651111f3b29f17aa8863ab4886d49a5,2016-01-30 13:35:24,Cheng Lou,"Use string key for TransitionStyle/TransitionPlainStyle in tests
+
+See 647a1db74e7a77daf3341e088a4790d461536067",False
+c44037dea6aebd87a188eea98499a031e2d40093,2016-01-30 13:35:24,Cheng Lou,"Types.js: turn key type from any to string only
+
+See previous and next few commits.
+
+We're doing a small rewrite of the `styles` merging algorithm of TM
+that'll cache `TransitionStyle`/`TransitionPlainStyle` `key` as object
+keys internally. This means the user provided `key` must be a string
+since js objects keys cast stuff to that.
+
+(Also adding a TODO following #273.)",False
+7e6f942ad97cf43c62ba2b87d855c88e278eb913,2016-01-30 13:35:15,Cheng Lou,"Make mergeDiff tests more robust
+
+- Add helper to make the tests much more concise.
+- Automate a few checks.
+- Fully commented.
+- Add test cases.
+
+The last one breaks the existing implementation. Will fix in the next
+few commits.",False
+3e03e0739ec395412d1b521bb8d4dd17c8113855,2016-01-28 09:29:06,Cheng Lou,"Merge pull request #273 from appsforartists/on-rest
+
+Add Motion.@onRest",True
+212bb30be2c9d3eae1aefa64e78c3ae88d2d604e,2016-01-28 09:26:05,Brenton Simpson,"Add Motion.@onRest
+
+Addresses #235",False
+ffb0628fbea1f4d83a69ea0f6ed910ee64383c76,2016-01-28 03:33:35,Brenton Simpson,Check for lib in prerelease before trying to delete,False
+988964446b5ac84402c3de69f8558a9dffa91b43,2016-01-28 03:25:32,Cheng Lou,"Clarify way of using prod demos locally
+
+Related: #267.",False
+6a7a0f3f72610c6a7fdad2920b44e728ca6e172d,2016-01-26 11:28:08,Cheng Lou,Update readme link,False
+9877c311cc4a22099eb56fe7c76bad9753519ddb,2016-01-26 11:25:23,Cheng Lou,"Make integration test work better with bower; add README bower install
+warning",False
+e3269729f8ba9b13e08418081bbd6b01498157c7,2016-01-26 11:14:18,Cheng Lou,Fix bower error.,False
+38035e0b96db3d440f19dcbd5a92b53710929be0,2016-01-26 10:40:53,Cheng Lou,Bump version; fix integration test,False
+811338c41f6fdde13296dcaee6dbe5dc586bc4f5,2016-01-26 10:33:42,Cheng Lou,Update HISTORY,False
+05d76f5ec7e9722dbca0237a97c41267e297eb2c,2016-01-26 10:20:58,Cheng Lou,Cosmetic changes to README,False
+fc5c74218b4e59115823f8ec5a83873ec22a1111,2016-01-26 09:48:45,Cheng Lou,Fill the correct links in the README,False
+1cf9ef4a95000ef8b173fdb5a74e9e54597b8e33,2016-01-26 09:32:20,Cheng Lou,Small comment refinement for presets.js,False
+898f3054bd1e06c5bfcd859fed2a49c23c895b52,2016-01-26 05:12:52,Cheng Lou,Put up deprecation `reorderKeys` warning.,False
+4be3aefa1a3b9d6a0f72e7e934265f2df648050f,2016-01-26 04:27:27,Cheng Lou,New README for the new release!,False
+c553d6a9dae847254ea7d6b5da1e603fda2c4b82,2016-01-26 04:26:39,Cheng Lou,Rename `WillEnter/Leave` params for public consumption,False
+a6b3cf9886350c70f5881c957d35a08d52035784,2016-01-25 13:37:50,Cheng Lou,Fix demo 2 (draggable balls) deprecated spring format,False
+833df72bc356dbb5b24b9cdc8f0af6fb8534db41,2016-01-25 12:50:32,Cheng Lou,"Move type def of SpringHelperConfig to Types.js
+
+It's a public definition. README will mention it.",False
+fe3dadbaefb558eab2bd84e1abac100f2959dd88,2016-01-25 10:25:08,Cheng Lou,"Update todomvc demo to follow latest TransitionMotion API change
+
+Aka gather all the misc values that user wants to keep around along
+with the item inside the dedicated `data` field.",False
+532ee65393c32413355639a1b147f056baec4916,2016-01-25 10:11:03,Cheng Lou,"Reserve special `data` field for TransitionMotion misc user data
+
+Instead of letting user do `[{key:1, randomData: 'asd', randomData2:
+123, style: ...}]`, we reserve the `data` field, like so: `[{key: 1,
+data: whateverStructure, style: ...}]`.
+
+This is easier to explain and avoids some extra allocation and function
+calls due to object spread `...` in the logic.",False
+d678f64e1a208d18e48e8ec579f413180e5f4a42,2016-01-25 09:16:48,Cheng Lou,"Simplify type signatures for StaggeredMotion
+
+Last commit simplified TransitionMotion's implementation while removing
+some type noises. This one simplifies the types for StaggeredMotion (no
+logic change).",False
+de5f40ddfc7b71ea8cbc1bd2170747fa346acb30,2016-01-25 09:13:33,Cheng Lou,"Simplify TransitionMotion implementation
+
+currentStyles/Velocities and lastIdealStyles/Velocities used to carry
+data of key and other misc user data. Now they don't have to because no
+one access them. To regenerate the data Array<{key: any, userData: any,
+style: PlainStyle}>, we merge mergedPropsStyles and currentStyles.
+
+Benefits: less state, less overhead for updating state.
+Cons: need to rehydrate the data whenever we need it, e.g. to pass to
+the `styles` and `children` function.",False
+8ca694795efde4d67158ded718154a5b418d1dfd,2016-01-25 08:16:17,Cheng Lou,"Better way to write 43bb2a95a7ebbf8334d93fe6865c0555ee23f5e1
+
+It's a bit more verbose, but next we'll remove key and other data from
+currentStyles/lastIdealStyles/*Velocities, so it'll be worth it.",False
+1e699b957f69965f80f251e16ef041d39c15839d,2016-01-25 08:15:58,Cheng Lou,Add more tests to guard against 43bb2a95a7ebbf8334d93fe6865c0555ee23f5e1,False
+6d78b5c1be996e26dc16c6c7f7ba7820938727ab,2016-01-25 03:51:28,Cheng Lou,"Access .key of TransitionMotion styles from mergedPropsStyles
+
+Rather than from currentStyles. I'm thinking of changing the
+currentStyles format and all so that the only source of truth carrying
+misc user data and key is mergedPropsStyle, in the future.",False
+43bb2a95a7ebbf8334d93fe6865c0555ee23f5e1,2016-01-25 03:49:29,Cheng Lou,"Make TransitionMotion avoid rendering stale misc data
+
+See previous commit's test case for TransitionMotion. This fixes it.
+There are probably better ways of approaching it; will tackle that soon.",False
+28351c447f7d9c3918886fda007bfb7697181e51,2016-01-25 03:43:19,Cheng Lou,"Tests to make sure components don't display stale values
+
+TransitionMotion's case is trickier because we have misc user data to
+carry around, and the normal lifecycle/clearUnreadProps logic fails to
+take into account the staleness of misc data. Currently it fails the
+test. Will fix it in the next commit.",False
+4411191a85c4bc70d04072f37c5645d77d819bf9,2016-01-24 14:17:01,Cheng Lou,"Remove make*Motion wrapper
+
+Now that c8b131f46a9d01fc61b593dd29e3b8797cf98e0f removed the
+react-native build, we can remove the make*Motion wrappers that only
+served the purpose of injecting either `react` or `react-native`.
+
+This also makes flow pick up the real React from imports, and catch a
+few type inconsistencies.",False
+6a19fff223960852ee4157c1e97f4974ab2b30f0,2016-01-24 13:46:57,Cheng Lou,"Optimize/fix TransitionMotion shouldStopAnimationAll
+
+- Use loops instead of every/some.
+- Use simpler logic, and early bail when length of arrays not the same.
+= Previously didn't ensure that, before each `shouldStopAnimation`,
+we're comparing style cells with the same key.",False
+ab22e8eec9fdc8f12a1bbe40f0566d2ee754327b,2016-01-24 13:46:23,Cheng Lou,"Fix todomvc demo mistake
+
+Clicking on X removed every item _but_ the one we're removing.",False
+1ca9c4ffbf60a256232c81a00e7fa03b16f5c3a1,2016-01-24 13:13:35,Cheng Lou,Remove test log statements,False
+dc5b501730812b88053e66e82615083691c763cb,2016-01-24 13:03:34,Cheng Lou,"Dial down the precision of the spring
+
+We support user-provided precision now, but I think it's safe to make
+the default precision a bit coarser. Happy to revert if there's
+complaints.
+
+Related: #100, #235",False
+9c941e86572699c663602926e27addfc7d5cc58c,2016-01-24 12:34:44,Cheng Lou,"Perf optimizations for all components
+
+- Some renames, sorry for the noise.
+- Dirty checks in `clearUnreadPropStyle` so that we don't have to
+  unnecessarily allocate/clone when there's no need.
+- Turn a few `forEach` into for loops.
+- Remove cloning in `startAnimationIfNecessary` (use simple
+  splat/whatever copy as much as possible).
+- Reuse return array for `stepper`.",False
+85b859b7667ff7ce7c2d9f1f49ee659792b835a4,2016-01-24 12:27:08,Cheng Lou,Misc mergeDiff type fixes & more components comments,False
+35ca85a6520e426ccac684445bf3c04a212a290e,2016-01-24 12:22:11,Cheng Lou,"Abstract out shouldStopAnimation
+
+All 3 components use them. It's somewhat the equivalent of `noVelocity`
+before the refactoring.",False
+c8b131f46a9d01fc61b593dd29e3b8797cf98e0f,2016-01-23 13:49:04,Cheng Lou,"Remove native build
+
+Newest version of React-Native uses npm react!
+Fixes #249.",False
+3fc2ce7ecb38df19bcfa3b381bab364134c001c2,2016-01-23 13:38:02,Cheng Lou,"Tweak the tests a bit
+
+Recording objects instead of scalars make sure we're revealing any
+accidental mutation in the components.",False
+b30a28a53267a4a8b58539ea13b35acd5939ada8,2016-01-23 13:37:27,Cheng Lou,"Refine a few propTypes
+
+We could go deeper and specify the spring config shape, but that'd slow
+down dev by a bit too much (?). Plus, they're generated with the
+`spring` helper anyway so probably won't go wrong.",False
+538c8261fa15233236f38202f1f0afd08b2b1887,2016-01-23 13:25:06,Cheng Lou,"Switch back to using Motion for photo gallery
+
+That photo gallery TransitionMotion abuse was fun, but probably overkill
+as a demo.",False
+34b1243404cfd23b9074217ca81445e28e128336,2016-01-23 12:07:56,Cheng Lou,Port water ripple demo to newest api,False
+a72d23862eba044ff2edc440f346c0b9c1e0b311,2016-01-23 11:57:39,Cheng Lou,"Pass whole transition styles cell to willEnter/Leave
+
+Instead of passing just the Style object. More power to the user for
+determining what to return based on some informal check of other fields
+than what's inside the `style` field.",False
+cbe3601c9e7d325e41ecc9504c261690fa76602d,2016-01-23 11:29:33,Cheng Lou,"Fix tests for unmount warning; kill unused Motion test
+
+Component logic was good, the tests were bad.
+
+This also kills the now unsupported feature of stuffing random
+properties inside `style`.",False
+7d20fc3e812c04efaf398ffa758479d9256be095,2016-01-23 10:52:45,Cheng Lou,"Add raf mock cancel function
+
+Used in the next commit.",False
+894cb9723480037e04b2cd578a9dc165098e33e4,2016-01-23 10:06:00,Cheng Lou,"Replace generic `mapObject` + `zero` with `mapToZero`
+
+That was the only use-case of `mapObject` in the repo. Slightly perf
+win?",False
+1ab36c148258469a5d254ad4f5bd7a8ecee3ac34,2016-01-23 09:51:11,Cheng Lou,"Remove reorderKeys
+
+See previous commits: TransitionMotion now uses array styles instead of
+object styles. Reorderkey is therefore no longer needed. If you want to
+have this neat little utility exposed, feel free to leave a message in
+the comments here, and I'll put this into its own library.",False
+48de6e70baef804ce52a538d3f2ccfed6fd4328b,2016-01-23 09:46:57,Cheng Lou,"(Continued) TransitionMotion demo change
+
+Part 4. See previous commits.
+
+Just some straightforward changes to the demo to make it use the new
+API. Array manipulation is indeed simpler for this use-case.
+
+One thing to note is the subtlety of the change to
+`willEnter`/`willLeave`. They don't take as many params anymore and ask
+you to return the _same_ style object, rather than the style along with
+its wrapper that constitutes the array cell, e.g. `{key: 1, style:
+{...}}`. This will be documented better later ofc.",False
+cbaaa5d9f3ae844f94fd5bafd61e6140f7c01903,2016-01-23 09:43:23,Cheng Lou,"(Continued) TransitionMotion tests Array styles
+
+Part 3 of the changes, check previous commit for the component's logic
+changes.
+
+This part is big but mostly brain-dead conversion from object to array.
+
+It fixes a test bug that previous leaked through for the test ""should behave
+well when many owner updates come in-between rAFs"" and the next one.
+Previously, `setState({a: ...})` didn't remove the key b (obviously).
+The intention was to remove it.",False
+f00a29359d5fdc5f5fcb2df35459514e8c8873b1,2016-01-23 09:39:50,Cheng Lou,"(Continued) TransitionMotion Array styles
+
+Part 2. See previous part for changes to the mergeDiff algorithm.
+A big diff, but most of it are straightfoward logic of changing the
+format from `{key1: {x: spring(0)}}` to `[{key: 1, style: {x:
+spring(0)}}]`.
+
+For the justification of the change, see
+https://github.com/chenglou/react-motion/issues/26#issuecomment-165457623
+
+This makes `styles` and the rest somewhat more verbose, but much more
+straightforward to work with.
+
+Documentations coming soon.",False
+f7c86adc995ae4e483f0df3a0757bdf032b546f3,2016-01-23 09:36:48,Cheng Lou,"Switch TransitionMotion from using Object style to Array
+
+This is the first part. We've revamped the type defs (self-explanatory)
+and made mergeDiff work on arrays instead of object. Accompanying tests
+are here.",False
+8506b3dcc7e4eef8554452aaef9f8f2e3ba1ab8b,2016-01-20 02:09:00,Cheng Lou,"Remove weird flow circumvention code, add FlowFixMe
+
+More info: https://github.com/facebook/nuclide/issues / 330",False
+17c47472820f6daa0eae5d5ee0f3c64b09e068a0,2016-01-19 14:11:09,Cheng Lou,Document latest changes in HISTORY,False
+109a097c9023e24b39dbba2762724be1603ac07f,2016-01-19 13:04:20,Cheng Lou,"Temporarily (?) remove optional object field
+
+Might be a flow bug: https://github.com/facebook/flow/issues / 1287",False
+fd19fc5204d6d1b26dda1d63191cc221712191a2,2016-01-19 11:30:37,Cheng Lou,"Reorganize public types
+
+Put all the public types in ./Types.js, rename then to avoid clash, and
+solve a few flow warnings with some reassignments.",False
+e7cc374cb31b970804d33d96e5a7eb3b628ada8f,2016-01-19 11:17:02,Cheng Lou,"Change default import syntax
+
+`import {default as A} from 'B'` -> `import A from 'B'`
+
+Forgot why I wrote it this way. The exports need to keep their `default
+as` syntax because flow doesn't support the shorthand version yet
+(shorthand's early stage proposal).",False
+6e488b7ea52a7188a83c142d483f70d74df5361d,2016-01-19 08:50:10,Cheng Lou,"Merge pull request #261 from nkbt/pretty-matcher
+
+Replace pretty matcher with karma-jasmine-diff-reporter",True
+ca5902d79597c6026ca164fbd70b1e68e36f2ea2,2016-01-19 06:30:55,Cheng Lou,"Upgrade demos to use the new `spring()` format
+
+More detail on previous commit:
+1be045ccb0b820c291295428b3d5166ef722ab1b",False
+1be045ccb0b820c291295428b3d5166ef722ab1b,2016-01-19 06:15:00,Cheng Lou,"Add support for interpolation precision; change spring() format
+
+This changes the format of `spring(val, [stiffness, damping])` to
+`spring(val, {stiffness, damping, onRest, precision})`.
+
+Docs of this breaking change coming soon, but tldr: second argument now
+an object (still optional). `{stiffness: 120, damping: 12}` is clearer
+than the previous `[120, 12]`. onRest is for the future end callback
+(name subject to change, no implementation yet). Precision is the
+rounding of interpolating value. All alltributes are optionals and have
+sensible defaults.
+
+More on precision: #100. We don't actually round the numbers; just a
+check on whether the destination delta and speed is smaller than a
+certain threshold. Rounding the number during interpolation _might not_
+be very useful. The main concern is that we can optimize by not
+rendering, when the number's so small that it doesn't change. But I'm
+not sure the probability of every (rounded) value in `style` not
+changing, at any frame, compared to the last, is high enough to justify
+the overhead of checking it every frame. We'll see.",False
+eca4fa3be8497fc856e06e6858b071df50d1f819,2016-01-18 10:36:53,Cheng Lou,"Add test for StaggeredMotion
+
+Also includes the test for 7a9e986a377a112057a68831f895dcf485916598",False
+bd4736b95cf985cc544eed073dcea9cf7be897fa,2016-01-18 10:36:10,Cheng Lou,"Add test for previous commit's fix
+
+7a9e986a377a112057a68831f895dcf485916598",False
+7a9e986a377a112057a68831f895dcf485916598,2016-01-18 10:15:52,Cheng Lou,"Fix Staggered/TransitionMotion's behavior for styles function
+
+Motion's test ""should behave well when many owner updates come
+in-between rAFs"" (currently last one). But a `styles` function works
+slightly differently (think calling + referring to closures which
+already have the newest value. Don't bother thinking further). Since
+StaggeredMotion didn't have test and TransitionMotion didn't test
+`styles` as function, this went unnoticed. Good thing nobody's using
+master (If you are, sorry for all the trouble. You're brave). Also why
+do I bother writing detailed commit message every time even when
+nobody's watching?",False
+d7a36fff92813ef5c71fa92ba66b129511067ef0,2016-01-18 10:07:02,Cheng Lou,"Type check `spring` second argument (optional) correctly
+
+Forgot to type check that it was optional. Previously passed unnoticed
+because the callers (demos) weren't type checked.",False
+fedfc2276fb0f90e440b1fc3effdd614c5f02c9d,2016-01-17 18:47:52,Nik Butenko,Update karma-jasmine-diff-reporter and use default text background,False
+1a171caa67ba20ca6be6817d1afd68349396b202,2016-01-17 12:30:57,Cheng Lou,"Change internal spring config format
+
+From `{val: 1, config: [2, 3]}` to `{val: 1, stiffness: 2, damping: 3}`.
+Saves an allocation, is more concise and more consistent for adding the
+upcoming `onRest` option. Since this is the value returned by `spring()`
+helper and we've stated that it's opaque, it shouldn't cause any
+breaking change.",False
+b0cdd95df107e4b0c5b9ecac9c1d6359deaa2452,2016-01-16 14:25:47,Nik Butenko,Add karma-jasmine-diff-reporter,False
+f1ce31c36577eb9893dde1857482519d6932dfb6,2016-01-16 14:20:07,Nik Butenko,Remove prettyMatcher,False
+03216796517ef1a520e07af3ddf7c26906ac15c6,2016-01-16 14:17:57,Cheng Lou,"Require React TestUtils as a standalone npm dep
+
+Removes the warning from tests that asks us not to require it directly
+from inside react package.",False
+84999c2e561a564f53d00c7b6a11e09501b631c0,2016-01-16 13:55:29,Cheng Lou,"Add back negative interpolation test
+
+Previously in updateTree-test.js, which we removed in
+45f581f007d87bf770bcfea85e53b28096744d7f",False
+fb03b63d551661ab048472b6d327d6e67a6d828b,2016-01-16 13:36:03,Cheng Lou,"Remove remaining deprecation warnings
+
+See previous commit's message. No need for these anymore.",False
+45f581f007d87bf770bcfea85e53b28096744d7f,2016-01-16 13:29:40,Cheng Lou,"Remove obsolete files & previous deprecation warnings
+
+Most of these aren't needed anymore after the previous commits'
+refactoring.
+
+components.js was also exporting deprecatedSprings.js Didn't feel like
+carrying this over so we'll remove the warnings too. It's been a few
+months already anyway. Next commit will remove the deprecated propTypes
+checks too.",False
+13c825ec34d0926a526ecb4f1edcbe9d261df618,2016-01-16 12:31:35,Cheng Lou,"Document breaking change from previous commit
+
+We'll put a warning wrapper around it.",False
+b388868a7c8b53b863bbb02c58db97ec17affde0,2016-01-16 12:29:05,Cheng Lou,"Refactor TransitionMotion to use the new logic
+
+Mostly done refactoring!
+
+Big code dump, but the logic is very similar to the previously
+refactored Motion and StaggeredMotion. TransitionMotion's slightly more
+complicated because of the entering/leaving keys logic, though that's
+encapsulated in `mergeAndSync`.
+
+This also fixes a few previously unknown bugs. Test cases are mostly
+complete.
+
+There are a few breaking changes, see the modified HISTORY.md in the
+next commit.
+
+Will work on perf later.",False
+e9e44ccee2bc27faa40e8b722e63cc2d6c65dd92,2016-01-16 12:23:28,Cheng Lou,"Slight tweak to a makeMotion-test
+
+Ditch unreadable conditional check",False
+7a8615b069d3dd58cfd0035cb136e8fd69e31a4f,2016-01-16 12:20:39,Cheng Lou,"Improve a few type definitions
+
+- `mergeDiff` type had an error.
+- refine type for `mapObject`, helps dropping a few explicit type
+  annotations elsewhere.
+- same for `myClone`.",False
+1ab38094a63a1123f519db52d19d891014eed496,2016-01-13 05:42:34,Cheng Lou,"Fix demo 3 `defaultStyles` value
+
+`defaultStyles`'s each value `defaultStyle`'s value should be a number
+(or other ignored types), e.g. `{a: 5}`, not a spring config `{a:
+spring(0)}`.
+
+In the past we've allowed the configuration for a `defaultStyle` to be of the format
+`{x: spring(0)}`. This is wrong, since a spring configuration only has
+meaning for a destination, not the initial value.
+
+This is a **breaking** change. The same will apply for
+TransitionMotion's `willEnter` soon.",False
+687af95b8529dac5801270194af4f03d96a7c0d9,2016-01-06 16:12:53,Cheng Lou,"Add correct import for the upcoming new TransitionMotion
+
+Actual implementation will follow.",False
+6bb9f0c1945b538ccbee3d79997d41c286fc6b37,2016-01-06 16:04:51,Cheng Lou,"Remove old StaggeredMotion code
+
+Following previous commit's checked in code for the new StaggeredMotion.",False
+4c9079265df47197f02217f10c4e7e05133dbfff,2016-01-06 16:00:02,Cheng Lou,"Revamp StaggeredMotion using the new Motion code
+
+Basically copy-pasted over the new Motion code, with tweaks for
+StaggeredMotion. Tests aren't written yet, but it works well on demo 2
+and solves #157.
+
+Again, lots of room for optimization soon. Next commit will remove the
+old StaggeredMotion code from components.js",False
+ca421800a4f1205e10d9a7d71d5e7d09fcad6ea7,2016-01-06 10:13:19,Cheng Lou,"Check in some partial local changes to make build pass
+
+Refactoring components.js hardcore right now, partial check-ins broke
+master.",False
+8db630533705b4bbf5da1fd0904bdd752bf0581e,2016-01-06 09:59:55,Cheng Lou,"Check in new Motion component
+
+Last part of the 3 commits.
+This is somewhat of a rewrite that fixes a bunch of bugs and confusion
+points (e.g. #179, #88, #90). The whole thing's typed =D.
+
+The animation loop's logic was preserved but rewritten. Right now it
+resides inside Motion directly, but once we finish refactoring
+StaggerMotion and TransitionMotion, we'll abstract it out again if
+there's any common part.
+
+The motivation was that the old separation of animation loop and
+components was visual and not really conceptual. We still end up passing
+stuff back and forth between the components and the animation loop.
+Furthermore, `requestAnimationFrame` itself is already basically an
+animation loop. Our didn't have much benefit, but I could be wrong.
+Anyhow, the new Motion is hack-free and cleaner.
+
+The tests catch a bunch of edge-cases now too. The numbers mostly
+correspond to the previous animation loop's, with the exception of a few
+js float rounding errors (due to tweaks to new logic).
+
+There are a few low-hanging fruits in terms of perf improvement. We'll
+work on these once StaggerMotion and TransitionMotion have been
+converted too.",False
+88c9c351c5eb9d9dfadab1e8121ddcbf155f264c,2016-01-06 09:55:58,Cheng Lou,"Remove old Motion; Temporarily disable TransitionMotion test
+
+2nd part. Check previous commit for first part. This removes references
+to the old Motion (some partial lines got checked in, blame my partial
+check in skills and git). Next I'll introduce the new Motion for real.",False
+ce63d0ced9874961956e5c1321cfd407ce35e5c2,2016-01-06 09:48:19,Cheng Lou,"Import the new Motion component file
+
+This is just the imports. The commit itself, at this moment, would
+break, since there's no such file as makeMotion present.
+
+I'll check these in the next commit. This is just my desperate attempt
+at not committing big diffs.",False
+c136fb4191a5e9e5052ef778dce1fb0bad785b2a,2016-01-06 06:37:53,Cheng Lou,"Implement rAF mock return correctly
+
+rAF should return a uuid. Components check the assigned id non-null-ness
+for some purposes.
+
+cc @bsansouci",False
+b49f1c97f90bf7c14c01ee767299634c0e5e12a4,2016-01-06 04:30:37,Cheng Lou,"Merge pull request #251 from nkbt/npmcdn-bower
+
+Use NPMCDN bower.zip package, fixes #250",True
+6f3934fa3e07a5c9289383c8ceb686745d76fbf6,2016-01-05 15:41:45,Cheng Lou,"Remove test for rAFing one more time after over
+
+cc @bsansouci
+
+This thing causes everything to render one extra time, which is not
+cool and only supported because style-as-function previously might have
+done this:
+
+```
+style={prevStyle => if (prevStyle.x === destination) return newDestination}
+```
+
+aka it was a twisted way of sequencing animation. This will cause so
+many problems once we implement `onEnd`, I don't even want to think
+about it. For sequencing we should just expose a dedicated API.",False
+9aab6670e455b4642c64a6f082745564d9b6e27f,2016-01-05 15:13:24,Cheng Lou,"Annotate createMockRaf; Swap clock advancing order
+
+cc @bsansouci
+Before, `prevTime` was added after a rAF tick. Now it's after.
+The nuance here is that if during usage, we have two `mockRaf.step(2)`
+in a single test, the second one will have its triggered callbacks
+(which invoke `now()` in the body) getting the wrong time:
+
+```
+step(twice, 2ms) gave timestamp 0, 2
+step(twice, 5ms) gave timestamp 4, 9 (4 - 2 = 2, not right)
+```
+
+Everything got ""shifted"".
+
+Now:
+
+```
+step(twice, 2ms) gives timestamp 2, 4
+step(twice, 5ms) gives timestamp 9, 14 (9 - 4 = 5, right)
+```",False
+c3b90e3c2246f3f51429ab6ded82b981e699f3ad,2016-01-04 15:12:55,Nik Butenko,Update README with npmcdn bower.zip solution,False
+4a0dcd80152084d02448743e93d2c4e68a11fda8,2016-01-04 15:12:02,Nik Butenko,Add sourcemap to bower's exported files and update React dependency version,False
+ff759680f3d916956c7773027c48b94826c40b42,2016-01-04 15:07:07,Nik Butenko,Allow bower.json in npm package,False
+41e34f3e76ef46b8cc7ef2028e29d252d432024c,2016-01-01 22:31:53,Cheng Lou,"Refine some more types
+
+(Local flow used by me is at version 0.20.1)
+Regarding the syntax of react-motion.js:
+https://github.com/facebook/flow/issues/940",False
+5502fc8a0bebdf6991c0aae9e3189f96504993ba,2016-01-01 11:10:08,Cheng Lou,"Update flowconfig following flow/npm upgrade
+
+Local flow used by me is at version 0.20.1
+npm is at version 3.3.12
+
+npm 3 flat dependencies makes some ignored files' path change. This
+fixes it.",False

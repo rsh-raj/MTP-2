@@ -1,0 +1,338 @@
+Hash,Date,Author,Message,IsMerge
+2fa4981a910d7bdedb758bd09868620c9bb21d54,2024-04-08 09:45:08,Blaine Bublitz,chore: Update glob docs with replacement to ordered globs (#2788),False
+fe9dee65f31dd0540116dad8a4e9b976a0014d4c,2024-04-08 09:43:56,Blaine Bublitz,chore: Remove locale docs (#2787),False
+a85eddb1660fd9a61265a5a260c417514be469a7,2024-04-08 09:43:19,Blaine Bublitz,chore: Remove node-glob options from docs (#2786),False
+9c818e68e3e0124ca44ceeafeb4f7d1d934f1e49,2024-04-07 01:14:10,contra,chore: update src.md docs to add encoding parameter,False
+5c4c5473c5582a8e4495c695ecd93b13f0852cbd,2024-03-29 08:26:40,github-actions[bot],"chore: Release 5.0.0 (#2762)
+
+chore: Update changelog for all subprojects (#2763)
+
+---------
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Blaine Bublitz <blaine.bublitz@gmail.com>",False
+bf72116c5d5f613836b392fb83633ea6c14f3a65,2024-03-29 08:19:51,Blaine Bublitz,chore: Add index.mjs to files list,False
+b00de681f5ef6ade283d544f62f770f6b27a9e52,2024-03-25 20:17:55,Blaine Bublitz,feat: Provide an ESM export (#2760),False
+72668c61e445c81fad23bc6ed24967a3238a648d,2024-03-25 06:13:12,Blaine Bublitz,"chore!: Normalize repository, dropping node <10.13 support (#2758)
+
+feat: Support `.cjs` extension for gulpfiles
+fix: Ensure watch does not trigger on negated globs
+fix: Ensure watch allows japanese characters in globs",False
+85896d4f099a80d58dd08d1f6d80586b07678995,2022-12-19 23:32:08,Viishesh Jain,chore(docs): Update stream handbook link (#2711),False
+818bd73e5da1ad69f43eef84214c98d6392a73e4,2021-06-22 23:48:17,Artem Guskov,Docs: Remove gulp-sourcemaps because it is built-in (#2592),False
+598f971a6567401e5760f4fd0b84df0180c2e350,2021-05-04 01:07:34,Seno,Docs: Fix broken link in recipe (#2571),False
+9877de07cf923c889d7f0661d87f3d6f8634eeb1,2021-04-10 02:37:03,Jean-Baptiste Martin,Docs: Guide CustomRegistries to maintain properties on tasks (fixes #2561) (#2565),False
+f91c388beb265e5008202f11100309549162247a,2021-02-09 01:52:24,roydukkey,Docs: Remove typo in custom registry docs (#2543),False
+df252509b52acd712300b3b5d00bf7aedf0dbd40,2021-01-11 04:43:16,Anderson Samir Corrêa Paz de Camargo,Docs: Fix typo in task docs (#2524),False
+b6d6d7c8c37f4be846cf796d3929fe25c5329808,2021-01-11 04:19:51,azu,Docs: fix recipe link (#2526),False
+c26ebcb1c9842251c8dd716461d735e26feb862a,2020-10-22 00:56:14,Blaine Bublitz,Docs: Cleanup registry error message subtitles,False
+d51c6eb8ff51bc7d251f30e1b15288b72492c384,2020-10-22 00:32:40,Blaine Bublitz,Docs: Rename the automate releases recipe file,False
+4c1beadcba7381ae3b938947bd06c8785ca11fb9,2020-10-22 00:21:22,entrywayaudibly,Docs: Add subtitles for registry error messages (#2502),False
+6e56ed8cb5a64cee038475c05f94ea47f7c092d3,2020-10-22 00:19:01,Matija Marohnić,Docs: Update and refactor release workflow recipe (#2498),False
+131b70288475255812e2959d0ba116f3f551fcef,2020-10-15 03:24:34,Matija Marohnić,"Docs: Remove recipe for using a config file
+
+It seems too basic and obvious.",False
+c5ff7e06263d23ee19700a3af0478103590060eb,2020-10-15 03:24:34,Matija Marohnić,"Docs: Remove recipe for splitting tasks in files
+
+It should be very obvious that you can `require` functions from other
+files in `gulpfile.js` and export them as tasks, it seems unnecessary to
+use `gulp-hub`.",False
+147327c4d7b14ba9ee98182cee7d377dc2194d95,2020-10-15 03:24:34,Matija Marohnić,"Docs: Remove recipe for specifying a CWD
+
+The `cwd` option is described in the docs for `gulp.src`, and `--cwd`
+can be found when running `gulp --help`. Having this as a recipe seems
+unnecessary.",False
+1a653a92b7ee567b184109c30028d99f64290458,2020-10-15 03:24:34,Matija Marohnić,"Docs: Remove recipe for running shell commands
+
+gulp v4 supports this natively now, tasks can return a child process.
+
+https://gulpjs.com/docs/en/getting-started/async-completion#returning-a-child-process",False
+e1190ea05e2eb36080bc513512190c895e0cc4b1,2020-10-15 03:24:34,Matija Marohnić,"Docs: Remove recipe for exporting tasks
+
+This is a core feature, it's not necessary to explain it in a recipe.",False
+c4305df006d8c9acc915a8ccc82495cd17ca2f04,2020-10-15 03:24:34,Matija Marohnić,"Docs: Remove recipe for running tasks in series
+
+gulp v4 supports this natively, as explained in the recipe itself, so
+there is no need for it.",False
+486f92750027fa016b3558c9942ed0d37ee9ac93,2020-10-15 03:24:34,Matija Marohnić,"Docs: Remove recipes for selecting changed files
+
+gulp v4 supports this natively by combining `since` with
+`gulp.lastRun()`.
+
+https://gulpjs.com/docs/en/api/lastrun",False
+b7b70b8a4c1ca4f0e78517f57a467b20552a992d,2020-08-24 05:50:08,Blaine Bublitz,Docs: Fix some links,False
+93564bd7b71b953e442babff7cc22d7f91e3c392,2020-08-24 05:43:45,Andreas Nedbal,"Docs: Add advanced section for creation of custom registries (#2479)
+
+Co-authored-by: Blaine Bublitz <blaine.bublitz@gmail.com>",False
+22ce5f58bb1637e800508cb1ed3e2d82320f63cf,2020-08-24 03:11:52,Takashi Fujita,Docs: Fix link to gulp source (#2482),False
+208d6df797b08d0f288ca62ee254ca22fdcd85e7,2020-07-28 22:47:22,Marouane R,Docs: Add gulp-cli answer to FAQ (#2212),False
+9f12c2d25a50f175b6bfe47c5485ab93782b1f7f,2020-07-28 22:42:28,Michal,Docs: Begin adding Polish translations  (#2456),False
+e7a20a48862179192b712356ae179b1003d11b98,2020-07-28 07:14:58,Ru Singh,Docs: Update rollup recipe (#2466),False
+77393e18ae3c8eb439ad78734eb8dcc02e5a9ff4,2020-06-22 01:18:07,Dirk Puge,Docs: End bullet items with a period (#2457),False
+1ce063729714517da92310c8308d50e9541e4a47,2020-05-17 06:26:59,Blaine Bublitz,Scaffold: Remove support template,False
+0864ee0de5282e1a07907c4e51f0fca025c6772d,2020-05-17 06:15:55,Blaine Bublitz,Docs: Update gulp-imagemin usage (closes #2432),False
+27166008c54b262f8718a26378096bc6d82f21fa,2020-05-17 04:22:12,Blaine Bublitz,Scaffold: Fallback to organization community files,False
+b7d9cc1825a77381f1ea424025777deaead50343,2020-04-16 10:20:26,Blaine Bublitz,Docs: Add Tidelift page,False
+29cb96917824bc47349bbf68d458a2bd00716f8e,2020-04-05 07:55:39,Blaine Bublitz,Docs: Fix MDX compatibility,False
+f15e9de2d302cc167ff936b15a22cb9872cfa2de,2020-04-03 03:32:35,Chinh Do,"Docs: Fix ""Async Completion"" code example [ci skip] (#2428)",False
+25c1a28b19c174bef10d24e3e8fd3992364d28b0,2020-03-08 00:35:04,Blaine Bublitz,Docs: Fix ESM link,False
+7672b045a651ab582cb6a0cbbf392481bfaebf80,2020-01-21 00:09:51,Aaron Hooper,"Docs: Correct typo in rollup example (#2406)
+
+Rollup is imported by name, so it should be called like `rollup()`.",False
+be5906b5a20b967e4508aa426223cef4dbc1683d,2019-11-23 10:09:20,Takayuki Sato,Docs: Add enterprise language,False
+6b92e9225d20584a4ea3b7fea6b2d9d3fe159e5e,2019-10-01 09:40:29,Robert Ninness,Docs: Fix typo in last line of Vinyl usage example (#2382),False
+467530f4596dd3f3d7d35f76de307a8709085728,2019-09-04 21:47:59,Blaine Bublitz,Docs: Help users understand fake values better,False
+dff3c1e5161d09c1fb4f553ed75c60c5463f9486,2019-08-26 00:39:02,Bryan Stoner,"Docs: Ensure ""Inline plugins"" example is runnable (#2365)",False
+2a844299c45b15896fd70de83e6a63886895e648,2019-06-14 11:57:54,Blaine Bublitz,Scaffold: Add OpenCollective to funding platforms,False
+876fed9d8efd4acda88274aedd6a566e8de352f2,2019-06-14 11:51:14,Blaine Bublitz,Scaffold: Add security disclosure policy,False
+3bb4ddcf3a86f69c70e98ce3de645db9c104ec98,2019-06-03 13:02:37,contra,Docs: Update README plugin count (#2336),False
+e408d6f6d0d12711c8c3b3c873ec6b6937e5b430,2019-05-23 14:13:16,Blaine Bublitz,Scaffold: Add FUNDING.yml with Tidelift integration,False
+069350a5febf65adc27bc816a7805471b7d96f03,2019-05-06 22:53:08,Blaine Bublitz,Release: 4.0.2,False
+b4b5a68373b4c58d6b92321cea64a6ffcc3ff042,2019-05-06 22:45:33,Blaine Bublitz,Build: Add node 12 to Travis & Azure,False
+5667666ffae15c169f99c7096ca59c05f9440272,2019-05-06 22:39:08,Blaine Bublitz,Fix: Bind src/dest/symlink to the gulp instance to support esm exports (ref standard-things/esm#797),False
+4091bd3aff08801625c6128eec079af4a7b5dccb,2019-04-27 19:54:54,Blaine Bublitz,Docs: Add notes about esm support (closes #2278),False
+3c66d95f014b99f79e0375c43cfa17a7269732a2,2019-04-27 19:40:39,Blaine Bublitz,Docs: Fix the Negative Globs section & examples (closes #2297),False
+1693a1127116a6804a892a4b931c232b1bec9162,2019-04-27 19:20:17,Blaine Bublitz,Docs: Remove next tag from recipes (closes #2277),False
+d9162761f276fce5fe54bc0a60c7eb9efcd5e249,2019-04-27 19:05:23,Blaine Bublitz,Docs: Add default task wrappers to Watching Files examples to make runnable (ref #2322),False
+ea52a927843ff0e84f142f85813572bd5144a656,2019-04-27 19:00:09,Blaine Bublitz,Docs: Fix syntax error in lastRun API docs (closes #2315),False
+5d81f42f9ddc4aa0a0721057eff8b8e24b65861c,2019-04-27 18:53:25,Rafael,Docs: Fix typo in Explaining Globs (#2326),False
+ea3bba4fdf9f2b508699f69569d0191b8c5bc10c,2019-04-21 22:25:44,Blaine Bublitz,Release: 4.0.1,False
+d3734d34288c63d9c80af4d2cb0457e0db5b9c51,2019-04-21 22:15:51,Blaine Bublitz,"Upgrade: Update glob-watcher, gulp-cli, and undertaker dependencies & rimraf devDep",False
+88437f2b71f13c44061f6af6b231adbc4a56842a,2019-03-31 01:25:26,⭐ B3none,Docs: Improve wording of file rename (#2314),False
+53b9037a08807f0fb5a8837f3550f501af36f05d,2019-03-28 23:34:36,Tony Hallett,"Docs: Add note about transpilation to ""Splitting a Gulpfile"" section (closes #2311) (#2312)",False
+f3f05486b872a85bc810492469d4b0e3d6da2fb4,2019-03-26 08:21:06,Danny McCormick,Docs: Add Azure Pipelines badge (#2310),False
+34a6d53e85cba8e00d75391fc15a50dca6f9d26a,2019-03-24 08:17:18,Blaine Bublitz,Build: Fix Azure comment (#2307),False
+b2c6c7e4c6cc85e6f7579b3c32081590d9517728,2019-03-24 06:50:06,Danny McCormick,Build: Add Azure Pipelines CI (#2299),False
+ed27cbeb576111641a72a9a89b8c3e1eb443172b,2018-12-10 22:56:31,Blaine Bublitz,"Docs: Revert ""next"" reference now that 4.0 is latest",False
+24e202b3a3dc9e1eecd3fc1e4b69e2b5379928ea,2018-12-10 22:43:09,Blaine Bublitz,"Docs: Cleanup README for ""latest"" bump (#2268)",False
+75ea6344c2fcd5017fb74375aa81bca6f1e6b041,2018-12-07 04:29:27,Blaine Bublitz,"Docs: Add ""What's new in 4.0"" section (closes #2089) (#2267)",False
+9078c4902358866f8240276ed55b0d58e8a2ecfe,2018-11-20 04:41:41,Blaine Bublitz,Scaffold: Add support-bot template,False
+7239cf197ba69f4ae729da792013794faec6a90f,2018-11-20 01:14:18,Blaine Bublitz,Docs: Update the babel dependencies to install & configuration needed (closes #2136),False
+c6413693a5957b609eeb23ecd7eebfa6fb2dcbe6,2018-11-15 01:26:28,Takuya Fukuju,Docs: Fix broken link in Table of Contents (#2260),False
+9819957a11a1137f3b62bf7476ad26634c635975,2018-11-15 00:30:01,Blaine Bublitz,Scaffold: Add new expense policy,False
+c5af6f18f5532628e20a3c187db9a99a96043c05,2018-11-03 09:26:05,Blaine Bublitz,Docs: Remove front-matter from outdated pages,False
+96c353d082b340f6b32fdfd354437940869241af,2018-10-26 06:13:12,Blaine Bublitz,"Docs: Fix mistake in ""Splitting a gulpfile"" (fixes #2255)",False
+8e9fd70e17d0bfc3cb68f22610b813097f249ef3,2018-10-26 02:34:08,Janice Niemeir,Docs: Improve punctuation in tree (#2254),False
+6d43750a62f324870d81361c933e3b882f7e3980,2018-10-26 02:33:04,Janice Niemeir,Docs: Fix broken link in tasks (#2253),False
+e35bdac100d20bfd700a3565961d86a3d077f11c,2018-10-26 01:40:23,Janice Niemeir,Docs: Add missing link in watch (#2252),False
+8569f85d9e5c84779fe35621a82a2ff00a81186f,2018-10-25 23:34:30,Janice Niemeir,Docs: Fix formatting of lastRun (#2251),False
+ca6ba3559603ad2c3d7e63a1d98d88ef442d7c0c,2018-10-25 23:14:51,Janice Niemeir,Docs: Fix formatting error (#2250),False
+c960c1db8db1c2dea8ed1ba5357bc563ff1cd727,2018-10-25 04:06:28,Blaine Bublitz,Docs: Remove spaces around <br>,False
+eb493a21874b4866f1fe656522d733db1508d6b9,2018-10-25 04:01:05,Janice Niemeir,Docs: Improve grammar in src() (#2248),False
+01cfcc5224ee8dac426521d9cfea50ba862e717c,2018-10-25 03:43:47,Janice Niemeir,Docs: Improve grammar on Concepts (#2247),False
+cb673193a25726208b9c8d3177f36872742e2c5a,2018-10-20 01:44:12,Janice Niemeir,"Docs: Added code ticks to ""null"" where missing (#2243)",False
+d35653e4270f31490f9e4e1343d6412b0f8fb74b,2018-10-20 01:44:12,Blaine Bublitz,Docs: Fix broken link in lastRun,False
+a553cfd2718078816529f1020a4196fb77f6a1be,2018-10-20 01:44:12,Blaine Bublitz,Docs: Add front-matter to documentation-missing page,False
+4c2b9a71879910be5b090acb32090510bab541c6,2018-10-20 01:44:12,Blaine Bublitz,Docs: Fix for nested directories references,False
+6a8fd8f0c5a8cf30f7521957808ef69bdcdb84db,2018-10-20 01:44:12,Blaine Bublitz,Docs: Add some more cleanup for Docusaurus,False
+df7cdcbec2303c923b3a94c9acf6071c0d1e27c3,2018-10-20 01:44:12,Blaine Bublitz,Docs: Temporarily point LINK_NEEDED references to documentation-missing.md,False
+0a687105507215758e6b05d06d1803d1b3b789a8,2018-10-20 01:44:12,Blaine Bublitz,Docs: API documentation improvements based on feedback,False
+d6dd4388ee4bec71c0fe2f78e82d537efd7b0902,2018-10-20 01:44:12,Blaine Bublitz,Docs: Update API Table of Contents,False
+8dd336184f41d13a1d08f75c4f0b944404a73176,2018-10-20 01:44:12,Janice Niemeir,Docs: Add API Concepts documentation,False
+40ee80163cf952f129e6704d98db496c06f03aab,2018-10-20 01:44:12,Janice Niemeir,Docs: Add Vinyl.isCustomProp() documentation,False
+25a22bf571c66cbbe279155a1f2f2876b3571162,2018-10-20 01:44:12,Janice Niemeir,Docs: Add Vinyl.isVinyl() documentation,False
+fc09067fefdea73f255c249f44a2cce48ebbf546,2018-10-20 01:44:12,Janice Niemeir,Docs: Add Vinyl documentation,False
+69c22f0982b3fcede69270609292acab7cb70fee,2018-10-20 01:44:12,Janice Niemeir,Docs: Update watch() documentation,False
+ebb9818461724d96d80a627925ea133684d43a00,2018-10-20 01:44:12,Janice Niemeir,Docs: Update tree() documentation,False
+b636a9c9600137e158f0cdb9a923d526bfad6f80,2018-10-20 01:44:12,Janice Niemeir,Docs: Update task() documentation,False
+d580efa2b696bbcd7ee4f973eb2f56fe2a996f66,2018-10-20 01:44:12,Janice Niemeir,Docs: Update symlink() documentation,False
+d95b45733fe9dc2ce5f96d88e12b1172f22690e1,2018-10-20 01:44:12,Janice Niemeir,Docs: Update src() documentation,False
+4169cb6de2d1bab681aed6f38c00e441bb80578a,2018-10-20 01:44:12,Janice Niemeir,Docs: Update series() documentation,False
+d6804874b14a8f55ac11a87004ac4bad7814e0b8,2018-10-20 01:44:12,Janice Niemeir,Docs: Update registry() documentation,False
+dc3cba7991d94d66cc3a8b111399045a2e7d02c2,2018-10-20 01:44:12,Janice Niemeir,Docs: Update parallel() documentation,False
+363df219e01f7d7ffed8c99930054c9938cecc31,2018-10-20 01:44:12,Janice Niemeir,Docs: Update lastRun() documentation,False
+e447d81342a255ba9f7fac981919fd1f5a9ff495,2018-10-20 01:44:12,Janice Niemeir,Docs: Update dest() documentation,False
+a3b8ce130addedc01a7198942c6b1d96143d5e04,2018-10-20 01:44:12,Blaine Bublitz,Docs: Split API docs into separate markdown files,False
+af4bd514df869ee035b357c68c87437f96ed4616,2018-10-19 05:39:32,Blaine Bublitz,Docs: Fix hash link,False
+c433c702fda288f7efd214ea348cc5b8423c67cd,2018-10-19 05:34:41,Blaine Bublitz,Docs: Replace some links in Getting Started,False
+5c079544db5ac12c8efcb6560e1581f2339aadd9,2018-10-19 05:32:03,Blaine Bublitz,Docs: Remove temporary workaround for facebook/Docusaurus#257,False
+3d051d868313ee408614ae2c8ecc9b850b4b5f3d,2018-10-19 05:25:34,Janice Niemeir,Docs: Fixed a capitalization typo in a heading (#2242),False
+921312c32d4b42e9024d79f8f9afa3997220a078,2018-10-19 05:25:08,Janice Niemeir,Docs: Use h2 headers within Quick Start documentation (#2241),False
+49b5aca613b33c5b626ae68c03a385f25c142f55,2018-08-22 05:28:32,Blaine Bublitz,Scaffold: Add tidelift configuration,False
+a5eac1cff0bcb44683ba71d1e7db03c11dab8d3e,2018-08-22 05:16:44,Blaine Bublitz,Build: Add node 10 to CI matrices,False
+ad8a2f73c7d54635705255bf2e2b818a29ec0c8b,2018-08-22 05:13:33,Blaine Bublitz,Build: Remove jscs & update eslint for code formatting rules,False
+2cecf1ed4826cb6bc5314df338b0533565a34154,2018-07-30 04:20:47,Blaine Bublitz,Docs: Temporarily reference gulp@next in Quick Start,False
+10272369e517dbb31a9ab9f73242f7f5801fde5c,2018-07-30 04:07:32,Blaine Bublitz,Scaffold: Update some links and license year,False
+53e9727653ce4243e19c480fd382c18b196de8f8,2018-07-30 03:47:10,Blaine Bublitz,Docs: Redirect users to new Getting Started guides,False
+2bd75d035a2630e3de089cd9b1ec355461d00f6e,2018-07-30 03:31:10,Blaine Bublitz,"Docs: Create and link-to a ""docs missing"" page for LINK_NEEDED references",False
+84b023460201ba30805e5cbc684aac93cb48965f,2018-07-30 03:14:27,Blaine Bublitz,Docs: Improve & fix parts of Getting Started,False
+9f4a2e96506dec1d85804de8884678e72ffc5aa0,2018-06-01 02:27:39,Janice Niemeir,Fix: Temporary workaround for facebook/Docusaurus#257,False
+a43caf214ebe49397d08b57caffa636268039956,2018-06-01 02:18:43,Janice Niemeir,"Docs: Add Table of Contents to ""Getting Started"" directory",False
+f3f2d9f9b624983fc4985a5ab5b45542e08bcf83,2018-06-01 02:02:04,Janice Niemeir,"Docs: Add ""Watching Files"" documentation",False
+233c3f9aa7f5fbfe6dd4765e3334eb45fddd3f0f,2018-06-01 02:02:04,Janice Niemeir,"Docs: Add ""Using Plugins"" documentation",False
+f8cafa05726f570ef35b08e4fb9e7de623c5d34c,2018-06-01 02:02:04,Janice Niemeir,"Docs: Add ""Explaining Globs"" documentation",False
+ad8b568878b894712801ed46fa8262b13091152c,2018-06-01 02:02:04,Janice Niemeir,"Docs: Add ""Async Completion"" documentation",False
+50fafc6431c54f4a83dbcb2895ad442dd9341b77,2018-06-01 02:02:04,Janice Niemeir,"Docs: Add ""Working with Files"" documentation",False
+31adf075f07d85c238bbf1d025bc9f74a74b4f24,2018-06-01 02:02:04,Janice Niemeir,"Docs: Add ""JavaScript and Gulpfiles"" documentation",False
+21b696213603d35bebfbf9da925a0febf0e675eb,2018-06-01 02:02:04,Janice Niemeir,"Docs: Add ""Creating Tasks"" documentation",False
+6a0fa00b8cae384fddf6ec6b905766bfcaf89ece,2018-06-01 02:02:04,Janice Niemeir,"Docs: Rename ""Getting Started"" to ""Quick Start"" & update it",False
+d693e499ac7c40b6c52891aa111947cad95aa2ab,2018-06-01 02:01:41,Cole Gentry,Docs: Add front-matter to each file (#2109),False
+86acdea1d4b01deb9edcb2400b92b6ebc07fc4a7,2018-05-14 04:16:09,Christopher Andersson,Docs: Fix recipe typo (#2156),False
+b065a132a68ee8d68e94a5c650169e45468a3a78,2018-02-15 01:23:55,Blaine Bublitz,Docs: Reword standard to default,False
+45830cf9bab1c5bf2d39602aea12f30f189d3a65,2018-02-12 04:51:27,contra,Docs: Improve recipe for empty glob array (closes #2122),False
+126423ac824f0a3bc3ac6a718077b5f40d0d0792,2018-02-08 00:47:53,Nathan West,Docs: Add temporary notice for 4.0.0 vs 3.9.1 documentation (#2121),False
+a4e8d4853c1a846654eeb809e6fc6aac30df6c11,2018-01-18 22:46:31,Charles Samborski,Docs: Fix error in ES2015 usage example (fixes #2099) (#2100),False
+a010db615fae4fbf8ecfdaff5530a4d84107d984,2018-01-02 08:42:47,Blaine Bublitz,Scaffold: Mark *.png and *.jpg as binary files to git,False
+55eb23a268dcc7340bb40808600fd4802848c06f,2018-01-01 06:55:46,Blaine Bublitz,Release: 4.0.0,False
+173a532d0b79912ccf0050e6c5b4ffddd0d0fd1d,2018-01-01 06:54:54,Blaine Bublitz,Docs: Fix the installation instructions,False
+ec54d09570a891d39a2ccd6f5b13d9a5dd57c68f,2018-01-01 05:53:34,Blaine Bublitz,Docs: Improve note about out-of-date docs,False
+03b7c9860bea45649dbfd0c3d83e82a9ea58b4b2,2018-01-01 05:52:01,Blaine Bublitz,Docs: Update recipes to install gulp@next,False
+2eba29ed5d4d72209548c5b16798ff4c2d2c50a9,2018-01-01 05:47:53,Blaine Bublitz,Docs: Remove run-sequence from recipes,False
+76eb4d68c72a87cb1450fdbb069882ee6508f235,2018-01-01 05:44:34,Blaine Bublitz,Docs: Add installation instructions & update badges,False
+fbc162fe92b6c73c5332b069f2347a0fe8b5d5f3,2018-01-01 05:20:31,Blaine Bublitz,Docs: Remove references to gulp-util,False
+3011cf9a50898030304a159c9e0bad30630380e3,2018-01-01 04:28:11,Blaine Bublitz,Scaffold: Normalize repository,False
+f27be05f6d7650ffb3ec3f9375f2d9c50c7010df,2018-01-01 04:21:40,Blaine Bublitz,Update: Remove graceful-fs from test suite,False
+361ab63d5d661dee46e032c3ecac1e085c526f1a,2018-01-01 04:21:06,Blaine Bublitz,Upgrade: Update glob-watcher,False
+064d1001528bc493282f006db6b02d24f97bd981,2018-01-01 04:21:05,Blaine Bublitz,Build: Avoid broken node 9,False
+057df5963034eb6426d99650abba15e4d912b0b7,2018-01-01 04:20:14,Blaine Bublitz,Release: 4.0.0-alpha.3,False
+c1ba80cb6b1a2e1469a7f422ec6ee93ac589d714,2018-01-01 04:20:14,Blaine Bublitz,"Breaking: Upgrade major versions of glob-watcher, gulp-cli & vinyl-fs",False
+89acc5c17e115ec03ec6b17341c3ffdf5e2db837,2018-01-01 04:20:14,Matt Sturgeon,Docs: Improve ES2015 task exporting examples (#1999),False
+0ac9e043a4d6947ff2ae4496657ae44b21b5a958,2018-01-01 04:19:29,Callum Macrae,"Docs: Add ""Project structure"" section to CONTRIBUTING.md (#1859)",False
+723cbc40e76f3b43c3ec7d56fa4ed36298e912b4,2018-01-01 04:19:29,Martin van Driel,Docs: Fix syntax in recipe example (#1715),False
+d420a6a742af91dcfc3e5a83f7552d2a8114471f,2018-01-01 04:19:29,Jake Archibald,Docs: Have gulp.lastRun take a function to avoid task registration (#1828),False
+29ece6fc230fec095b84906437530b0257b26a4c,2018-01-01 04:19:28,Blaine Bublitz,Upgrade: Update undertaker,False
+e931cb0bbf5acfb68f3e3086dae311ec733f0f14,2018-01-01 04:19:28,Chris J. Lee,Docs: Fix changelog typos (#1696),False
+477db84761551ab25127447a8425c79dc4808e15,2018-01-01 04:19:28,Lim H,"Docs: Add a ""BrowserSync with Gulp 4"" recipe (#1659)",False
+d4ed3c7e3fb13f3b1bf6f8309cca8459e53f9edb,2018-01-01 04:19:28,xiaoyu2er,Docs: Add options.cwd for gulp.src API (#1645),False
+5dc3b07bd61c217c432c508573583827ef592cd1,2018-01-01 04:19:27,Blaine Bublitz,Docs: Update gulp.watch API to align with glob-watcher,False
+0c660697b8376c0185bb9e65aca0c01107b7433e,2018-01-01 04:18:38,Blaine Bublitz,Breaking: Replace chokidar as gulp.watch with glob-watcher wrapper,False
+c3dbc10afa7dcd8c86eebcd7f87967ac1f680da2,2018-01-01 04:18:38,Gregory,Docs: Clarify incremental builds example (#1609),False
+1351fb8d13531f5ff931bbe902d7cda1bf31f182,2018-01-01 04:18:38,ptb,Docs: Add missing parenthesis (#1599),False
+e89431257333b8089ab39332c279a93aacd30753,2018-01-01 04:18:36,Mike Street,"Docs: Add link to ""Upgrading to Gulp 4"" article",False
+5ddd6734537095c4f8cde846d89160f87d0a54a1,2018-01-01 04:18:04,Jonathan Lee,"Docs: Update ""getting started"" example for new syntax",False
+e1afdfdbd38add2c059532055eb3c9f0299d09e3,2018-01-01 04:16:34,Jere Menichelli,Docs: Add ES2015 gulpfile example to readme,False
+d90198c0f49305fc54baffa7acc0d731bd7ba781,2018-01-01 04:15:06,Mehdy Dara,"Docs: Add link to ""Intro to Gulp 4"" video",False
+a379529aa5a101550f4b578205c622ad821ccdd1,2018-01-01 04:15:06,Bogdan Chadkin,Upgrade: Update undertaker,False
+9fc412590747b5e20b4c5b52f59446aaf84632f9,2018-01-01 04:14:01,Jesse McCarthy,Fix: Add support for gulp.watch usage w/o opts or callback,False
+83f563295a22a04f2c4595671fab6b7baf840979,2018-01-01 04:14:01,Jonathan Lee,Docs: Replace irc with gitter channel,False
+c69157281f26b91c7e6581f2e1e0fba9d1c2b7c6,2018-01-01 04:14:01,Contra,Update: Bind all undertaker functions on the gulp instance to allow destructuring,False
+468a703d01589429be8ac2922ca24e15b2df55a6,2018-01-01 04:14:01,Blaine Bublitz,Update: Use published gulp-cli,False
+b764543fcc2b8a512a771ac104babaa2e4451c44,2018-01-01 04:13:56,Shawn Erquhart,Docs: Update table of contents for API,False
+d0ced7521dcc4a5ee8004d0daf6d8e0f488e28cc,2018-01-01 04:13:18,cssmagic,Docs: Improve format of API,False
+430df3667ee52d9c65b1dc719354e4ab6d37fcd7,2018-01-01 04:13:18,Blaine Bublitz,Release: 4.0.0-alpha.2,False
+7e67502ca611979821ad1036afba5925f0efef64,2018-01-01 04:13:18,Blaine Bublitz,Upgrade: Update undertaker,False
+0f3151edb6f4772aaa8a249a85a42183384c2e3a,2018-01-01 04:13:18,erikkemperman,Docs: Align API with undertaker docs,False
+bc352dd943c4bbd5961901da3798df398d9f0434,2018-01-01 04:13:18,Nick McCready,Update: Add test to make sure no functions are kicked off when they should not,False
+cacc173eef8bfd514d9be66368ae69276e72c932,2018-01-01 04:13:17,Da CodeKid,"Docs: Update ""clean"" task in example for ""del"" syntax change",False
+88b6c338649b78ff8be3a7131f72205713b9e741,2018-01-01 04:12:02,Blaine Bublitz,Upgrade: Update chokidar (ref #1287),False
+263eeeaad217d4bffb1fbaea1eb57a18a3af2967,2018-01-01 04:12:02,Elan Shanker,Docs: Improve gulp.watch API with Chokidar specifics,False
+355fc4e14840fd26db07fe99183e430e8390ae17,2018-01-01 04:12:02,Elan Shanker,Fix: Set chokidar option ignoreIntial: true by default,False
+32abfe5c1479e6662150a692c59b4072d334869c,2018-01-01 04:12:02,Contra,Upgrade: Update vinyl-fs & mocha-lcov-reporter,False
+2cd0e1e91214e41265469df880815ffa82f20444,2018-01-01 04:12:00,Stefan Baumgartner,Breaking: Replace vinyl-fs watch/gaze with chokidar,False
+646044b6f80bc45213cc42ef0f6a8065e7382442,2018-01-01 04:11:18,Blaine Bublitz,Upgrade: Update undertaker,False
+3f843b8585a05500588c741b5bd58c5c87f0b7f7,2018-01-01 04:11:18,Devyn Stott,Docs: Add gulp.registry API & examples,False
+2e4809b08b7a955f1758241e3adc708270c2d603,2018-01-01 04:11:18,Blaine Bublitz,Upgrade: Update undertaker & vinyl-fs,False
+be2df066378166d0cdf5f040291e333044dac074,2018-01-01 04:11:18,Ivan Yan,Docs: Improve API references,False
+c1012cd5524d8265f00898bddab491a8f7fcf41e,2018-01-01 04:11:18,Devyn Stott,Docs: Add example of -T/--tasks and --tasks-simple,False
+8aa1022f22c822db3a2cb62db01e377a88fdd934,2018-01-01 04:11:18,Devyn Stott,Docs: Add gulp.tree API & examples,False
+409f19aacb9489491c82013e9dee28f06f49e8d6,2018-01-01 04:11:18,Stefan Baumgartner,Fix: Throw better error when watch parameters are invalid (fixes #1002),False
+98b95046d788a69746f8d6ce5789edf81149a103,2018-01-01 04:11:16,Blaine Bublitz,Docs: Add recipe for running shell commands with child_process or gulp-exec,False
+f7e7d4c16e97d8f240ec2bad2377e9ef4bed1674,2018-01-01 04:10:47,Blaine Bublitz,"Docs: Update ""split tasks"" recipe to use gulp-hub",False
+6c46116b2c9254d69b596b2fd1102e004430d786,2018-01-01 04:09:42,Blaine Bublitz,New: Expose vfs.symlink API on gulp,False
+1d70cfbf064d5c6ab1677a4389e29fe276b0657b,2018-01-01 04:09:41,Blaine Bublitz,Breaking: Only support tasks that are functions in gulp.watch,False
+c4b6922630dc15f9c7c57890d0d49375bdfeb961,2018-01-01 04:09:41,Blaine Bublitz,Docs: Add note about opt-in symlink following,False
+b085e951ee4e0b5b0a4c9f4810444a08659301b1,2018-01-01 04:09:41,Damien Lebrun,Breaking: Remove array & string task support from gulp.watch,False
+ad627e6110e7a414085e8eaedec0d0131c3dce93,2018-01-01 04:09:40,Damien Lebrun,Docs: Mention .description property & add usage examples,False
+1abb5eda814a42acf1495de6f73842a14365b4db,2018-01-01 04:08:46,Damien Lebrun,Docs: Outline using named functions and when to use gulp.task,False
+d942cf56f774ba47fb344510c8b10b7efe536239,2018-01-01 04:05:50,Damien Lebrun,Docs: Improve incremental build example & add gulp.lastRun API,False
+8806326a4f3823b6deb7e29b31bc0fd82057b653,2018-01-01 04:03:34,Callum Macrae,Docs: Added allowEmpty option for gulp.src,False
+96febce29ae10e4b4a4da001f49ddbe63bf8d0f9,2018-01-01 04:03:34,Blaine Bublitz,Upgrade: Update undertaker,False
+0ac0a0ec0c2fff79099a4c42d353069093287dab,2018-01-01 04:03:20,Damien Lebrun,"Docs: Add gulp.series/gulp.parallel APIs, update gulp.task API & vinyl-fs options",False
+87e9cb687356b666cb6a67af44c62ed7bc42b68d,2018-01-01 03:49:08,Contra,Docs: Improve changelog,False
+cac9a8ad10f92ef3d3206cd5143700499281363c,2018-01-01 03:49:08,Contra,Update: Use unpublished vinyl-fs version,False
+fa85999b3e12627370891332f7e281c5341aea1c,2018-01-01 03:49:07,Blaine Bublitz,Release: 4.0.0-alpha.1,False
+6095f350486ea47fc2d8203a68980230b3573af1,2018-01-01 03:48:43,Blaine Bublitz,Update: Remove gulp-util & depend on unpublished gulp-cli,False
+2d0fa20a030c3111e6ec67be087d8b0c84364f49,2018-01-01 03:48:43,Eric Schoffstall,Docs: Update changelog,False
+6830560bb5d2a4e446d9d2811a8a7d71d38a5868,2018-01-01 03:48:43,Blaine Bublitz,Upgrade: Update undertaker,False
+d331a4e73bf257f334e55ac722bfae64adb45d53,2018-01-01 03:48:41,Blaine Bublitz,Docs: Add 4.0 changelog,False
+9abb0a4f96cc3d0989494e91b51c312ca1d5a589,2018-01-01 03:48:00,Blaine Bublitz,Update: Improve gulp.watch implementation & tests,False
+f787ba51569cc61439f731db9bfe0f0e2452a989,2018-01-01 03:42:46,Blaine Bublitz,Docs: Update syntax in readme example,False
+9fda7b405e15aea6798277bd134b882251784fb4,2018-01-01 03:42:44,Blaine Bublitz,Breaking: Replace Orchestrator with Undertaker,False
+f0942aaf9dbdeda83a33273791686a20ae6d4d4a,2018-01-01 03:42:14,Blaine Bublitz,Update: Replace inline CLI code with gulp-cli dependency,False
+abd73b7fb0ab6eb2ccdc4407e367c169a0e1a887,2018-01-01 03:39:53,Pawel Kozlowski,New: Add the --verify flag (closes #535),False
+5368d2c00cf186e25aa0b0f6e4d762f6e795e0fb,2017-12-27 06:53:21,Andreas Schlapbach,"Docs: Remove duplicate ""the"" typo (#2071)",False
+260d5c41e6d74f2d11e48ca1e9a3be0b3918fe49,2017-12-27 06:52:56,Ronald Eddy Jr,Docs: Update browserify links (#2072),False
+ff4e7197a67cecf6191006e6096c9ebe085cac45,2017-12-27 00:59:41,Ronald Eddy Jr,Docs: Update urls to https (#2067),False
+4b118b9eff679ec76725db632a060e7b5ee5c8a9,2017-12-14 00:42:34,Gabriel Aumala,Docs: Fix and improve Transform example in writing-a-plugin docs,False
+4f9465a420f39832d5ade015c06972378502f8af,2017-12-06 01:58:17,Gregg Christofferson,Docs: Specify where to create package.json (#2053),False
+81fc26ddbc47ab10fa14ae4373850b30c92754e0,2017-11-13 03:07:15,Matthew Bauer,Docs: Change jade references to pug (#2037),False
+2c6d551e089cb3c670548796f7b41ccd65529df6,2017-11-04 05:12:56,Matt Wade,Docs: Recipe for running gulp via cron task (#2034),False
+c4d219e1a2318b9b4a3f921257818113cdd026dc,2017-07-21 23:56:10,Janice Niemeir,Docs: Improve link descriptions (#1997),False
+f1f7d77262c69432fceb6eac3db5314a90abd12b,2017-07-20 02:26:14,Erik Vold,Build: CI test under node version 7 and 8 (#1995),False
+c95e09eba1b96b71a27f0da60adfbd3f205e9642,2017-07-20 02:24:03,Janice Niemeir,"Docs: Improve ""Getting Started"" (#1985)",False
+5df0865bf62e4a399df9c104b9c46fe1532930dc,2017-07-13 04:51:29,HyunSeob,Docs: Fix a broken header in writing-a-plugin (#1984),False
+58b29452e37be23010e259e86434cc5475be0980,2017-07-06 03:52:56,contra,Docs: Replace BetterError with plugin-error reference,False
+24914f31a8fe2125d9c66469d19f8e4b2587ecc6,2017-06-18 06:28:53,Terin Stock,Docs: Remove link to Spanish documentation that no longer exists,False
+45adfc35aeeeaac5678ee63d20a6cdf985f6ceaf,2017-06-18 06:28:14,Terin Stock,Docs: Integrate pump documentation from gulp-uglify (closes #1791),False
+a0ec3ff91c84baa1bd8de5331a502e330f5e3cfe,2017-05-24 01:09:34,Packt,"Docs: Add ""Getting Started with Gulp"" to books section (#1961)",False
+d634e9577bd8bb7ef59b74674a64f08495d0c971,2017-05-17 22:59:57,Tamara Jordan,Docs: Fix sub-lists in writing-a-plugin guidelines (#1955),False
+a2badd687dddd7a5c66599eeb0b4d25452c61ced,2017-05-01 20:47:39,Simon Meusel,Docs: Fix issue with formatting in dealing-with-streams.md (#1948),False
+62323fc55dd080a58ed030c5e9df176bdf551eae,2017-02-24 03:56:44,Kyle Cordes,Docs: Clarify CLI semantics when listing more than one task (#1916),False
+90340b9e64c1e88debc2238fda14b25a4270fb49,2017-01-31 21:57:27,Mordax,Replace tags with keywords in package.json (#1894),False
+325bb225874f86cd9bbb5dafdcdc79dcec9a4ff1,2017-01-25 22:51:03,contra,wow that was overexcited,False
+3f798f5d28782d3ed1da0f25dc9785bb36cc5680,2017-01-25 22:50:02,contra,add a little not about testing 4.0,False
+0070cb162abf56f195ac8a0adca8047a249707d1,2016-12-30 23:47:43,contra,more readable getting started,False
+9703acac2b1387e3f23d227ef739443bb6539709,2016-12-30 23:45:50,contra,make getting started more readable,False
+6899a6c94ce662e9bdcb3e82f39d3c78138e4c3c,2016-12-15 03:28:10,Mohammad Kermani,Docs: Update browserify-uglify-sourcemap recipe with clarification (#1813),False
+af33d4b8eaf393854499c0b20ad607c6a1346844,2016-12-13 17:15:56,Bruno Belotti,"fix link to tagtree video (#1869)
+
+tagtree.io instead of tagtree.tv",False
+54169eb802228f810e77602b4131be1a2a5e6506,2016-11-08 08:55:36,Ben Halverson,Docs: Fix broken gulp-header/gulp-footer links (closes #1851) (#1854),False
+0469094bb8c4c54e5bb8b2cf5994dd72fa8db713,2016-09-21 21:37:51,contra,clarify what an API should look like,False
+4d1a8a8a86127441ce9a94e9d34f7587fddae389,2016-09-16 15:16:39,Callum Macrae,Docs: Create issue template to cover common issues (#1808),False
+de1acf66a6253302c856971f8c00f65ea6c63882,2016-08-27 00:20:14,Derek,Docs: Fix grammar in dealing-with-streams.md,False
+347ed5a731fe4b479d72c35d38503680621c316a,2016-07-06 02:44:46,Pia Mancini,"Docs: Add backers and sponsors from OpenCollective (#1705)
+
+Your open collective backers & sponsors will show up on your readme automatically.  Also added badges on top.",False
+71953b58ee8077ee882272d1834e3f0ded9a2b92,2016-06-29 03:13:14,Cerem Cem ASLAN,Docs: Add npm init step to Getting Started (#1706),False
+b42acd91ae5785c88d37218787f0d85089e8f705,2016-06-19 09:01:42,Permutator,"Docs: Add ""Rollup with rollup-stream"" recipe. (#1690)",False
+362306150fc5be48a61df0d950c83cca356bd593,2016-06-19 07:27:52,MikailBag,Build: CI test under node version 5 and 6 (#1692),False
+4ec7e71f39fe8ab3c95b81b3266317366252e8e7,2016-05-20 01:06:47,Trey Thomas,Fix typo in README.md (#1670),False
+f6e85a85ad4e7253dbd179ac6195c9b2ae59baa9,2016-05-17 23:56:36,Alejandro Oviedo,"link build badge to master branch (#1666)
+
+...and change gitter image badge to svg",False
+5944c1b4d4c0a9dea804bc426b936aa742792cd4,2016-05-14 00:20:29,mako yass,"correct gulp.task signature (#1653)
+
+* correct gulp.task signature
+
+`gulp.task(name [, deps, fn])` means that only `gulp.task(name, deps, fn)` and `gulp.task(name)` are allowed, which is apparently not the case and it's a bit confusing. The correct notation, `gulp.task(name [, deps] [, fn])`, also permits for `gulp.task(name, deps)`, and `gulp.task(name, fn)`.
+
+* fixed indexing",False
+7f5ac012315fca6a3ad8105b6f50e8143b237c94,2016-05-04 01:53:16,Jonathan Lee,#1445 - adding note to let folks know this only works with the latest published gulp-cli version (#1632),False
+02fe60fe14cf37c213ef79b2c48e4382aae6e7ee,2016-04-28 03:55:02,Jaron Thatcher,"Bottom example is now runnable (#1615)
+
+* Bottom example is now runnable
+
+Previously, the app would throw the error:
+
+""Task 'default' is not in your gulpfile""
+
+* Revert change to glob
+
+The change is now closer to the original example, yet still contains the intended reason for the pull request",False
+2395467ed4e4942b24763f421177eab683924bfe,2016-04-26 02:31:30,dargaCode,"Fix small typo (#1612)
+
+Replace `it's` with `its`",False
+f4870fd83a04e5e72afa2be4ea0d32b2c70eb9c9,2016-04-14 01:45:12,contra,"Merge pull request #1601 from adius/master
+
+Minor fixes",True
+db86eedc1a7ae306ec0813e4d554b95a930ecea9,2016-04-14 00:16:39,Adrian Sieber,Fix typos,False
+9f1b90f7c1c16be8aef9f290576aedbb66e1548a,2016-04-09 01:05:31,Slava Fomin,"Updated «Split tasks across multiple files» recipe (#1585)
+
+* Updated «Split tasks across multiple files» recipe.
+
+* Added deprecation notice.",False
+b2915d7fa094475e42bf0400dacd0070029051c8,2016-04-09 01:04:05,Andrew Smith,"Surface 'on' listener functionality (#1424)
+
+* Surface 'on' listener functionality
+
+* change to fit with existing structure of examples",False
+55dec395fc52b27f78aab5928def2c1048f0010c,2016-04-07 05:28:47,Steve Lacy,fix remaining links + add missing link to recipe,False
+e90e289d872c58180df3e5e7a026c9dd187c62f8,2016-04-06 01:42:08,Christian Theilemann,add `run-grunt-tasks-from-gulp` recipe,False
+5585720cbfa927f041602088d27b551659916e88,2016-04-06 01:07:35,Steve Lacy,fix links after repos were moved,False
+da47c760ce2f4d5d3ad767a587557f2cd29411fa,2016-04-05 08:16:55,kdex,"Add undocumented event.type
+
+This event type is fired when renaming a file.",False
+23a9a73c2f315c619ed85a60ce3a058b618c5443,2016-03-29 04:09:09,Blaine Bublitz,"Merge pull request #1380 from kt3k/feature/recipe-browserify-multiple-destination
+
+Add browserify (multiple destination) example",True

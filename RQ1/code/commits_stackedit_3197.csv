@@ -1,0 +1,363 @@
+Hash,Date,Author,Message,IsMerge
+6dce2a5e36b755a0c244522b48a06c91a2df0f59,2023-05-27 18:52:50,Benoit Schweblin,Tag v5.15.4,False
+96a466942ecc88a6bf300362bbea7ae0e689f082,2023-05-27 18:51:37,Benoit Schweblin,Fixed Math expressions in PDF exports.,False
+a969b5b164d7cc33ffabacaf7e58df95613c39bd,2023-05-27 18:14:15,Benoit Schweblin,Tag v5.15.3,False
+d6189e5ddcbc5368a9ed689cf9a0a2e83ee3b6f6,2023-05-27 18:13:26,Benoit Schweblin,Fixed pandoc cli parameters.,False
+aaa4ed4587555ac06235f3627fb7d21f7d111e6f,2023-05-27 17:33:52,Benoit Schweblin,Tag v5.15.2,False
+7c224546e598ee90363bb05cbf6c8a4d94718701,2023-05-27 17:32:48,Benoit Schweblin,Updated markdown-it-pandoc-renderer dependency to work with pandoc v3.,False
+cb1e23c530344332badb96890c167b43be8a47e1,2023-05-19 22:42:33,Benoit Schweblin,Tag v5.15.1,False
+87e5cde68f5767edf4bb2540c6eb987b78fd2eca,2023-05-19 22:35:05,Benoit Schweblin,Upgraded aws-sdk dependency.,False
+2a74a52046ca7fb332cbbf48c8ac053850d7f175,2023-05-15 17:22:43,Benoit Schweblin,Tag v5.15.0,False
+002cc6768139e719e6a67fadcf57234fbccd953c,2023-05-15 17:09:38,Benoit Schweblin,Fixed GitHub API authorization.,False
+46383b5b6a54b65b8720d786ed0a0518b9ad652d,2021-03-30 00:51:35,Benoit Schweblin,Tag v5.14.10,False
+bad9abd1c578db6b5b36241c04559363e528ac96,2021-03-30 00:50:52,Benoit Schweblin,Fixed ingress in helm chart.,False
+97c97c5137005207f9cbef0f1a7d168b612b3c65,2021-03-30 00:02:54,Benoit Schweblin,Tag v5.14.9,False
+f335c386e5cb566b89224279106cb1b06c623b4e,2021-03-30 00:02:29,Benoit Schweblin,Fixed ingress in helm chart.,False
+260f085585a4a55d8ed3a709f4e89c883aff3281,2021-03-29 22:43:59,Benoit Schweblin,Tag v5.14.8,False
+e7bb627385510d8d798c6e3988737113c079e417,2021-03-29 22:17:25,Benoit Schweblin,Update .travis.yml to use node v12.,False
+bc688eab71e7c69400ca62e8fb1d3dc98b994eee,2021-03-29 22:04:13,Benoit Schweblin,Tag v5.14.7,False
+c8987a8e8437358b77b9e37c09743084567caf83,2021-03-29 22:03:29,Benoit Schweblin,"Upgraded Katex to v0.13.
+Upgraded Mermaid to v8.9.
+Removed StackEdit v4 support.",False
+0f0c9bed6c806906c6b1b067da77072a96a2a3bb,2021-03-29 18:17:36,Benoit Schweblin,Tag v5.14.6,False
+b75deaf8a4d123b2bcdc12432e3500b5b498009e,2021-03-29 18:16:44,Benoit Schweblin,Upgraded gulp to fix compatibility with node v12,False
+a61a35be75ce1beba520e068934142b3a490993e,2021-03-29 17:58:44,Benoit Schweblin,Fixed K8s/Helm deployment.,False
+2fdbb67c67159c4ccfddbe51fc9303c6c799dbe0,2019-07-08 18:27:05,Benoit Schweblin,Tag v5.14.5,False
+52cd051198101bf22ba928f1f2e869890217b768,2019-07-08 18:26:38,Benoit Schweblin,Fixed travis build.,False
+3dd66ae280caa9c06dbfb90e0826ed39e3a44400,2019-07-08 17:46:45,Benoit Schweblin,Tag v5.14.4,False
+ede95513568bda42524aeccc3c9567e4567dd0c6,2019-07-08 17:46:13,Benoit Schweblin,Attempt to fix the travis build,False
+c6de74220a88487011316a91dfa6c1313668aadf,2019-07-08 15:07:21,Benoit Schweblin,Tag v5.14.3,False
+8d70a4f4385ca393b5e60fb1333df0a0d543b2c6,2019-07-08 15:06:53,Benoit Schweblin,Fixed travis build.,False
+b4d34a9390d28035232cb86f54808b1b8c01028e,2019-07-08 14:51:56,Benoit Schweblin,Tag v5.14.2,False
+0001e8c178a641e9767c3dd159327d48eefda971,2019-07-08 14:50:04,Benoit Schweblin,Fixed ok button in link and image modal,False
+90520abf936b58d64a7dc9c6e45c6c602f49e3ac,2019-07-07 07:08:00,Benoit Schweblin,Removed kubectl in deploy script,False
+f611060d05154abd6c704b0a93994c1890f36c70,2019-07-03 04:22:58,Benoit Schweblin,Fixed typos,False
+d2867ea1c08a33cbd146f00bd5a3a179b675c070,2019-07-03 01:52:14,Benoit Schweblin,Deploy script upgrades release with kubectl,False
+b2158fc1c31de44dadeac1a2c4676fa916f93013,2019-07-02 15:01:14,Benoit Schweblin,Added helm chart.,False
+5a4fb796e0b13a566aa1f924c53d9b89b0b81703,2019-06-30 18:37:34,Benoit Schweblin,Tag v5.14.1,False
+043a3cd709e068bd4dfd19de92d78f36cfc42edf,2019-06-30 18:37:10,Benoit Schweblin,Added deploy script,False
+8a6df3ef1085cccfe13d62e3e80adb787752cf13,2019-06-30 17:58:37,Benoit Schweblin,"Fixed layout settings badge creation.
+Hide sponsorship if no paypal email is configured.",False
+e9e3cb809d411d3e1d8d972e7fc4f6eb368b9415,2019-06-29 22:09:06,Benoit Schweblin,Tag v5.14.0,False
+07d824faca0f823b9d573980144f02be3708cbeb,2019-06-29 22:03:21,Benoit Schweblin,"Added server conf endpoint.
+New localDbSvc.getWorkspaceItems method used to export workspaces.
+Added offline availability in the workspace management modal.
+New accordion in the badge management modal.
+Add badge creation checks in unit tests.",False
+3f0597601e47ed3122c692759171c48550c495b0,2019-06-25 03:57:59,Benoit Schweblin,"Added per_page parameter to GitLab tree API. Fixes #1505, #1462.",False
+274a8007420ea6cfb574b8918ecf73176397643a,2019-06-23 06:59:11,Benoit Schweblin,Upgraded to Katex v0.10.2,False
+72a15b5039ba2fc1b9e72ec7954fc543fe4752fc,2019-06-23 06:51:50,Benoit Schweblin,Fixed unit tests.,False
+dc08ee4da4917247f0640aa1a0677bbbc43b9d97,2019-06-23 06:26:22,Benoit Schweblin,"Merge pull request #1469 from rkuhlf/master
+
+Enabled momentum scrolling",True
+a98e9a382e73d0133bda6f4c4a20ac37bf1e3db0,2019-06-23 06:21:02,Benoit Schweblin,"Merge pull request #1415 from efemes/1-can-t-rotate-progressive-web-app
+
+Allow rotation of Progressive Web App",True
+a8ee8cdccdfb6c12b0b09745db7c0bffa6961389,2019-06-23 06:17:12,Benoit Schweblin,"Merge pull request #1501 from eralpsahin/fix/checkbox-check
+
+Fix checkbox not checked on HTML export",True
+f05b089485470c54aa012f23eddecab7f71f52cb,2019-06-23 03:26:48,Benoit Schweblin,"Merge pull request #1497 from Flamenco/fix_explorer_natural_sort
+
+Use natural sorting for explorer file nodes.",True
+d6fb85a5ad9ee5b9f6a492b5f49e5e614ae65607,2019-06-23 03:24:28,Benoit Schweblin,Fixed GitHub security warning.,False
+78802448c304e0b909339b0a2aee196a6c0dfcb8,2019-06-23 03:23:56,Benoit Schweblin,Fixed #1503.,False
+1b2d48ff22a0e3e7f198ee237c8c4421c6599741,2019-06-23 02:49:01,Benoit Schweblin,"Removed monetizejs sponsorship support.
+Reduced time counter increment interval.
+Added badge service.
+Refactored user service.
+Replaced Google+ with People API.",False
+2a865ddb446643f5b553a2e844f29866eb03f76b,2019-06-18 18:19:48,Benoit Schweblin,Reorganized side bar menu,False
+c462a13ab563095a3b0514164e16a5e4f1b0b49d,2019-06-18 03:18:01,Eralp Sahin,Fix checkbox not checked on HTML export,False
+8cf0b87f5f958bbb492bc7f0b4041bfc01ca8104,2019-06-16 19:19:50,Benoit Schweblin,Added account management modal,False
+835ef7f5bc97c89baec9c3160355bb95dc84806c,2019-06-12 16:44:08,Steven Spungin,Use natural sorting for explore nodes,False
+8156038c53b15495b14204b5b6a71b60e83bb98b,2019-04-26 06:36:04,Riley Kuhlman,Enabled momentum scrolling,False
+91f8cf3c10b75df65b69f9181cee8151d65a788d,2019-01-26 20:05:21,Benoit Schweblin,"Merge pull request #1402 from GreenGremlin/google-profile-scope
+
+Ensuring profile data is accesible for all Google users",True
+1ac1e057cfa16119c3e211c3a9275d6c367c1c28,2018-11-15 16:57:57,Benoit Schweblin,Tag v5.13.3,False
+da0ccf8d828ee9d308cab5a89fc91df1e5bf788e,2018-11-15 16:56:28,Benoit Schweblin,Fixed payment success modal,False
+cf18184e268d6a313aeb0a64c440c4c6831b2d41,2018-11-15 16:56:04,Benoit Schweblin,Fixed light mode auto-close,False
+deba3c12bef5746f41b3db5372fd41b42a979ba7,2018-11-05 16:25:02,Stefan Meller,Set orientation to 'any' in manifest.json generator,False
+547f44043c0f9d77257ac0d6234640e9ecdd58cc,2018-10-02 11:08:20,Jonathan Felchlin,Ensuring profile data is accessible for all Google users,False
+daadae17205aec63148a392f8e6ef30ff9922e87,2018-09-21 15:24:10,Benoit Schweblin,Tag v5.13.2,False
+0e8aa0a58a4b05633b19486e3a968da8207e38f4,2018-09-21 14:42:05,Benoit Schweblin,Added A2HS prompt,False
+f7542965b61d6c4b1feecd14983788d4159651d9,2018-09-20 16:42:58,Benoit Schweblin,Tag v5.13.1,False
+6fd4513c340266d2cca1a3889f2355b1ba6fb666,2018-09-20 16:42:27,Benoit Schweblin,Fixed git workspace sync/publish locations,False
+fa3d9b30c24a9094e5853393d1f700826b4a37f4,2018-09-20 16:26:58,Benoit Schweblin,Tag v5.13.0,False
+4be3200961f18bdd706f36c11e6bfc09e74f33f3,2018-09-20 16:22:57,Benoit Schweblin,Fixed duplicate Main workspace,False
+da9b87620f683ff356efa71fa322a302a8fb0fa1,2018-09-20 14:30:07,Benoit Schweblin,GitLab provider (part 2),False
+6b91c2bafbc8b57def2b23dc201087ea8bf588a0,2018-09-19 21:58:03,Benoit Schweblin,Upgraded mermaid and katex,False
+2e832fd766790966ea59ed64b6545c642f822815,2018-09-19 14:29:22,Benoit Schweblin,GitLab provider (part 1),False
+fd6ac907bbd3cfbdc78e0660c2e3c0298bacd94e,2018-09-01 22:57:02,Benoit Schweblin,Tag v5.12.2,False
+7828649b3f215c7e7abe40be1736855b54c90bf6,2018-09-01 22:52:53,Benoit Schweblin,Limit abcjs imports,False
+d2af43ac1cbbffb216f5ffac1c32e8b5aeee4ebd,2018-09-01 22:39:05,Benoit Schweblin,Fixed #1376,False
+f7f66ba24923cde47d6e63214422b5bbccbf2e74,2018-09-01 18:01:07,Benoit Schweblin,"Merge pull request #1375 from ursulashan/patch-1
+
+Append the hot key",True
+02de03fc9fe1cc677e224a2d06ffce53803716f9,2018-09-01 17:57:07,Benoit Schweblin,Added ABC notation in landing page,False
+5bc0f37ad1b443dbbe1345b2d710069df84aa0e6,2018-08-28 17:04:59,UrsulaShan,"Append the hot key
+
+ For the strikethrough's hot key",False
+fc8892d990ddba50b3f359171931fc5be1cf74c7,2018-08-23 21:08:52,Benoit Schweblin,Fixed abc extension,False
+72e5ac80720db9e5f2627047d91e074d53354560,2018-08-22 22:04:45,Benoit Schweblin,"Merge pull request #1354 from flxwu/feature/abc-notation
+
+[Feature] ABC Notation Extension",True
+e9638b9251af741849c9d847580e636ed040c591,2018-08-21 20:41:17,Benoit Schweblin,Fixed landing page,False
+0b3600c0b46b068aa335f76bdd82d13512ad6d63,2018-08-21 19:53:11,Felix Wu,resolve merge conflict -> master,True
+e07df091293978016d47f0d0141e2a03247b1c16,2018-08-21 19:46:12,Felix Wu,CRC,False
+89bc00b39ff7ce7ea2449062bbe3e77e02ecd0af,2018-08-21 15:44:51,benweet,Tag v5.12.1,False
+907410a2ca344d00e0619753d34cf100c32ad589,2018-08-21 15:41:01,benweet,Reverted package-lock.json,False
+e76f28294bda15eb98f3975f81a78e408b77e7f2,2018-08-21 15:11:47,benweet,Fixed pdf and pandoc export,False
+10a2d57f753e82204835252c7c40c7a4373f15c2,2018-08-21 14:39:01,Felix Wu,Remove debug modifications,False
+7b623cc77ff895ad7df4669d54c05a0280f404e6,2018-08-21 14:36:37,Felix Wu,remove plugin import,False
+d443be2a47468be1246996164af3298d12b35453,2018-08-21 14:35:51,Felix Wu,"optimize extension, remove markdown-it plugin",False
+beb695e53c984414b8005e1f8972930bd71068ad,2018-08-20 15:20:25,Felix Wu,merge master,True
+87f281c700750746e4b1cb2cb18fb0ed02e3bacf,2018-08-20 15:02:29,Benoit Schweblin,"Merge pull request #1365 from flxwu/feature/bump-katex
+
+bump katex dependency, support new katex commands and unicode",True
+f85e9621b37005f82b5833782f1cdba94eb0cf43,2018-08-20 14:59:13,Felix Wu,merge master,True
+b524171b51ecf5855131a5d8e8d0079f24e367e4,2018-08-20 14:54:46,Benoit Schweblin,"Merge pull request #1353 from flxwu/feature/twemoji-docs
+
+ Docs: add Emoji docs to landing page",True
+c1b80def91fa0f1772ceee4ba9342fab95849c4e,2018-08-20 14:13:15,Felix Wu,"bump katex dependency, support new katex commands",False
+30b1585231f6df6994cef6ed364fede172d23e9e,2018-08-19 22:13:58,benweet,Tag v5.12.0,False
+1273ec7cb355cfcd8e54bf3835681a3baf294d84,2018-08-19 22:10:39,benweet,Fixed unit tests,False
+9a6d0bddc811c80221d089b77da7342b99160aa7,2018-08-19 18:35:01,benweet,Merge branch 'dev',True
+0d39ca85fc043b171d1f55e15ef62e6c4d0bb538,2018-08-19 18:34:43,benweet,Prevent from drag-dropping in a folder child,False
+3fc974c14c2cbdc1bbee43b629e573f1eec1252a,2018-08-19 17:53:33,Benoit Schweblin,Fixed circular reference issues,False
+d4624eba9d015d95dcee8eaedfe9e568a17f4d8e,2018-08-17 15:43:08,Benoit Schweblin,Fixed publishing,False
+bdb01f407b78bcce62c6038a936252b6494992ce,2018-08-09 21:12:17,Benoit Schweblin,Fixed test,False
+b3b1010ebdf094f88e9fdc75a1b10fc6461e6d2f,2018-08-02 02:22:09,Felix Wu,style: undo accidential indentation changes,False
+e773d7ebff6d02191e74604a1c9d3b8fcfe552d9,2018-08-02 02:19:54,Felix Wu,style: remove the indentation changes,False
+bc9c2ca6661852e4b8c452cc19889529d750eb6a,2018-08-02 02:06:57,Felix Wu,feat: readd abcjs,False
+e0284b8072c95233927823f229e5dc8151a156a5,2018-08-02 02:05:55,Felix Wu,build: reset lockfile to original state,False
+cda25587d169dd3913028318fe2853cfceff2769,2018-08-02 02:01:56,Felix Wu,"feat$(abcjs): pass plugin a callback, render notesheet once DOM loaded",False
+748885648903cafbab4e915be3de1c6e02853e65,2018-08-02 02:00:34,Felix Wu,docs$(abcjs): document callback-approach,False
+a4f0c1172684378088584275d93a0d6e1b2f2d23,2018-08-02 00:51:52,Felix Wu,style$(abcjs): some code style fixes,False
+fe111c207c99b23901b1349a4787074d4aeb5623,2018-08-01 23:46:12,Felix Wu,feat$(abcjs): add custom notesSheet markdown-it plugin,False
+218cb99920e43ee475ac34ff137899d18ad81df3,2018-08-01 23:45:44,Felix Wu,fix$(extensions): move katex a priority higher,False
+9809685e53046a42029f838b228362b8ce9af22f,2018-08-01 23:45:11,Felix Wu,feat$(abcjs): add extension file,False
+6dbd81c406aa8755e08932dc17fd788cde630f89,2018-08-01 23:44:54,Felix Wu,feat$(abcjs): import extension file,False
+489e9a571718808ce3301ec7dd0bb888471269a5,2018-08-01 23:44:36,Felix Wu,feat$(abcjs): add extension preset,False
+e4e9631b316db472b8922338af913ea16859e2e4,2018-08-01 23:44:16,Felix Wu,build: add abcjs,False
+b3f46bec11c02dcd9df13d194c3a09315a058723,2018-08-01 14:47:06,Felix Wu,feat$(docs): add twemoji documentation and style fixes,False
+6989d421ed9d4f6fe425ba8e27953963a17102ca,2018-08-01 14:46:35,Felix Wu,feat$(docs): add twemoji screenshot,False
+0632445a2260ed2e5bdf95bf315dbe2607cc8c37,2018-07-18 01:50:01,Benoit Schweblin,Tag v5.11.4,False
+952ceaa76caeed1564f7024e1bae70b290b791a3,2018-07-18 01:45:23,Benoit Schweblin,Merge branch 'master' into dev,True
+a9d119962815ce69209fc51c0ec6acb8968ba8e5,2018-07-18 01:45:07,Benoit Schweblin,Fixed paypal buttons,False
+133419b1b45818aa87b9341962736ab08c30b68d,2018-07-18 01:44:05,Benoit Schweblin,Merge branch 'master' into dev,True
+79e87dbcf347b50116b202e017ccf1f8f63db32f,2018-07-18 01:31:17,Benoit Schweblin,Fixed paypal buttons,False
+987d66ef26692dbdf6969881917864153fd088e8,2018-07-18 01:28:40,Benoit Schweblin,Sync refactoring,False
+a1673d3e87a38f1f5164a37f315899a941640bf1,2018-07-04 05:11:24,Benoit Schweblin,New workspace and sync management modals. UI enhancements,False
+7a87015af15fc63e094766f795983175e87a3727,2018-06-22 00:46:33,Benoit Schweblin,store renamings,False
+e05e7717eb479c12a94fb1d30c1f9ce387c4cc38,2018-06-08 05:26:11,Benoit Schweblin,Added tests,False
+597c747b00454e3a7cf25231c3b9cec0c5817c6a,2018-05-13 18:57:33,Benoit Schweblin,Use of async/await,False
+e97108276865d25baa4405a03d6898deac435e1d,2018-05-06 06:41:39,Benoit Schweblin,Removed changelog,False
+1d8b67c321d02b0b7a8e4877d707463e43884cd7,2018-05-06 06:16:33,Benoit Schweblin,Upgraded eslint,False
+b896a2e086995836a262ea75a3881539a4efef86,2018-05-04 23:37:28,Benoit Schweblin,Github workspace (part 2),False
+53ccee0d84ee83c8a88e5b4fb7595dfbd1aa5826,2018-04-27 20:07:05,Benoit Schweblin,Github workspace (part 1),False
+790ac996ddda7c252592c327e1718d4fabf714cb,2018-04-16 22:42:26,Benoit Schweblin,Style changes,False
+c6eb9bb47964656e8b5cb33e92a3dec3e3b10f37,2018-04-16 05:53:29,benweet,Tag v5.11.3,False
+28165e662bfd94095d8bc6d51c874f50e28f1b30,2018-04-16 05:52:29,benweet,Circled close button icon in light mode,False
+a6d07e1cad3aa407ec25bb4fefc7778f9e2110e0,2018-04-15 22:43:39,benweet,Tag v5.11.2,False
+67a80fdc5bfe0f48cb4debce5bf6bebebfe55655,2018-04-15 22:43:03,benweet,New logo and icon,False
+642a0a0078bdc8be706bceff66bbadc95d276ee7,2018-04-15 20:36:12,benweet,Fixed cursor position on cut,False
+8997b0940ec04cef802419e654861689b9f11de0,2018-04-11 21:03:28,Benoit Schweblin,Tag v5.11.1,False
+4efedee1729d9614b02c2122eef9ccdb7a1288d9,2018-04-11 20:49:20,Benoit Schweblin,Fixed trash in Google Drive workspace,False
+80d9f8b0207adcce405d61c31f1fae81e6569d7c,2018-04-11 20:22:07,Benoit Schweblin,Added new extensions in markdown sample,False
+83bc227d9af58da95a24f71ec766e85fb519046f,2018-04-11 20:20:46,Benoit Schweblin,Fixed file moves in Google Drive workspace,False
+c3de3c1f84e282581aeab979c1ba49826e91f6ae,2018-04-11 14:47:53,Benoit Schweblin,Team drive support,False
+89880ed1a458ac904e990bd23dae09197842c5ce,2018-04-10 22:23:00,Benoit Schweblin,Fixed filename auto width in navigation bar,False
+088a032f64867d0b8e8ac5d0239ec564d2749566,2018-04-09 14:38:29,Benoit Schweblin,Merge branch 'support-team-drives' of https://github.com/stephenprater/stackedit into dev,True
+c42a7787c1727f08f01e2475d113dc6586543cd7,2018-04-08 20:24:28,benweet,Tag v5.11.0,False
+e709da443f9486ce8151ce1ddfc02499eaa3d450,2018-04-08 20:22:56,benweet,Updated changelog,False
+ab97d9d9fcb7ae165c188a6d576f7d16ff8f5980,2018-04-08 20:19:10,benweet,New file properties modal,False
+fb13a52157d0ffcea98691a89cdab4e4b478212a,2018-04-08 15:48:56,benweet,Fixed content merge,False
+6d5951483575bef7f78c2d8568d0d28b55d9222e,2018-04-07 20:30:31,benweet,Check list button,False
+0a361a5ca077e25e110afa3e2206eec38c666255,2018-04-07 00:11:30,Benoit Schweblin,Reactive task lists,False
+12c43b960bbc24f3d8a659c24838847a57a5bfa6,2018-04-06 20:50:02,Benoit Schweblin,Img size extension,False
+e578f83d8e9c6a07fb7a5a28aab388b93d654dbc,2018-04-06 18:37:30,Benoit Schweblin,Task list extension,False
+762913c4007fff926ac7eed8eaf6885ba78870e3,2018-04-06 12:25:55,benweet,Mark extension,False
+83666b044912e40cba8aa1be935bed4e5915aabd,2018-04-06 04:27:50,benweet,No pre wrap in style.css,False
+a2f1f0fa88aef2974a36d39ef8ffdc6eacfc4a5d,2018-04-06 04:25:51,benweet,Enable CORS for woff2,False
+a09d06e961f0f4a678b021054815697bc32469d2,2018-04-06 04:25:13,benweet,Added gfm preset,False
+6a3434c8898fbfe7b783e4988058f726a0d8612a,2018-04-06 01:30:12,benweet,Fixed copy event on disabled editor,False
+0afdaa557ff7deed1bfcd0f4730b7391210d8edf,2018-04-06 01:01:02,benweet,Merge branch 'master' into dev,True
+3625d5e17b5332084dc5d7179800337883f45ab1,2018-04-06 00:28:52,benweet,Tag v5.10.5,False
+e2ec937ac729658e3c01b52e68a8848f6c93a2ff,2018-04-06 00:27:54,benweet,Minor changes in the About modal,False
+907605a2b508039f0629388f7bd576dd6980dc1e,2018-04-06 00:11:37,benweet,Merge branch 'master' of github.com:benweet/stackedit,True
+12c453867f55d49963c8ae58d72ce19965f68450,2018-04-06 00:08:17,benweet,Extension presets,False
+8e4279edc17845b17bebb18c1a44524f1291aaba,2018-04-06 00:05:55,benweet,Disable autp upgrade in light mode,False
+760c7e3e0da5c1b1a57d887bf16c9f5149e2eb5f,2018-04-05 23:59:32,benweet,Fixed triple click on firefox,False
+ef3d3b6a74f25e1d12e9893e34d26e1f7fe3a18f,2018-03-31 04:25:33,Stephen Prater,Support Google Team Drives,False
+2d179f34ddd542f1be9a0ff49f44fa0ab9c4ea8b,2018-03-30 20:39:07,Benoit Schweblin,Tag v5.10.4,False
+0cf15a36c605816c029e85bfc6439700d090fcc7,2018-03-30 20:37:52,Benoit Schweblin,Fixed escaped chars on paste,False
+c67f2c88b9a5ba85e2cc16afc71e6cb70d9a19ea,2018-03-30 18:14:48,Benoit Schweblin,Tag v5.10.3,False
+d6a67f73098e11768a66caee92efff87a0ed5d99,2018-03-30 18:14:23,Benoit Schweblin,Optimized light mode,False
+bde9cf059682079d02d67b87b8367adb287182bf,2018-03-30 17:34:41,Benoit Schweblin,Handle SIGTERM,False
+83a47007b05d128c22733523ceab6476bba8682a,2018-03-30 17:34:14,Benoit Schweblin,Push to docker on tag,False
+0c97f165877216f12fd47f838610baf2d808e61c,2018-03-28 22:52:27,Benoit Schweblin,Added docker to travis build,False
+88294ffa79208df2de0c58e6dafd323a949d2898,2018-03-25 06:30:26,benweet,Tag v5.10.2,False
+9c4d821812a0b57b1af39d725135ee8ef735b009,2018-03-25 06:18:18,benweet,No sponsorship in light mode,False
+d133fc5c28791c57b2e8d44ca34a8d1fda2c642d,2018-03-24 22:34:15,Benoit Schweblin,Fixed user image sharpness,False
+d604501974c06b11572ac99b9be98154f3089ab8,2018-03-24 22:33:35,benweet,Fixed explorer drag and drop in firefox,False
+5973a0acc6f30b212d8bbd96c51944c6d3093b8e,2018-03-24 22:26:40,benweet,Updated favicon,False
+32520d02dab7f3ad9398493dbe8f6e4e2a72e63c,2018-03-18 21:22:53,Benoit Schweblin,Tag v5.10.1,False
+78c547777e03bcd91877b1a7f03287d95f54463d,2018-03-18 21:22:33,Benoit Schweblin,Always show trash,False
+c0adf318010424e14ea92dd0b2689583aa4603d8,2018-03-18 21:18:29,Benoit Schweblin,Fixed del key in explorer,False
+14e35f0eb135231b8249ebaceae3638ac8bbe8c3,2018-03-15 20:20:46,Benoit Schweblin,Update README.md,False
+0091bcbbedef91bee8f3ae113aa54bde08f93ece,2018-03-15 20:09:58,Benoit Schweblin,Update CHANGELOG.md,False
+e9923649048e018982218c4c3ee7b4439f7d58c9,2018-03-15 19:25:37,Benoit Schweblin,Tag v5.10.0,False
+beac7fb1a370e960d33cd9fcf526e7c0c1e28aee,2018-03-15 19:23:35,Benoit Schweblin,Merge branch 'dev',True
+7c0bf68ad37a2f0aa4e64029c8fc956e3c7d8d6c,2018-03-15 19:21:39,Benoit Schweblin,Temporary folder (part 3),False
+c5e0f3e2e4479f38f65caaf910f6b5baac616ae2,2018-03-15 14:07:39,benweet,Fix modals,False
+88cf11972f55e8d1d1a9080880a13db8a5e1e6d7,2018-03-14 06:12:26,benweet,Temporary folder (part 2),False
+53f207658583dc4ab8572d44c9c3755b5510d3c8,2018-03-14 02:22:31,Benoit Schweblin,"Merge pull request #1268 from edDimensi/little-refactoring-modal
+
+Use dynamic component in modal.vue",True
+de2e145a9aaee5fa2f54b6999d4f1f62bd51fc3e,2018-03-14 02:11:41,Nikita Nafranets,little refactoring modal.vue,False
+623c265adcbf5d5391ad2c71519ef58f8178a956,2018-03-12 06:15:54,benweet,Temporary folder,False
+59a05141ca776420487bef73edd2ef2004a0be1e,2018-03-10 17:47:17,Benoit Schweblin,Update CHANGELOG.md,False
+906e672e490565a3830954b0304e578f3d75027e,2018-03-10 17:43:57,benweet,Tag v5.9.0,False
+7d5b9d63e3e0caf5ecd511683f365953cdab1b78,2018-03-10 17:42:19,benweet,Fixed ssri dependency vulnerability,False
+e590eaa2224eef950e00dcce4fb3a45692f2cace,2018-03-10 17:41:03,benweet,Fixed instant preview,False
+fabceeb6267b237b85f5e6549974564c07407082,2018-03-10 03:26:26,Benoit Schweblin,Replaced keyup with keydown events,False
+b06a6a37ebd5725befcee09d62aeccc7513a1925,2018-03-10 02:48:20,Benoit Schweblin,Explorer context menu,False
+4b5cd7aef756b3ec6e57efa01e4a4e7c70b637f7,2018-02-26 14:31:55,benweet,Tag v5.8.0,False
+34e15ee1c465ef4e080044a3ea172fd81f45cb98,2018-02-25 21:15:16,Benoit Schweblin,Editor performance fixes,False
+57f45f0c5f503c277ac4bfad08e51658ca87f5c9,2018-02-25 21:11:25,Benoit Schweblin,Added turndown settings,False
+0b74d48bc849928f79876888b946df0ba36af7b5,2018-02-17 23:34:58,benweet,Performance fixes in cledit,False
+d57d2bb9697c4cb6b250a81d7c47a3e42adf1d16,2018-02-17 16:48:30,benweet,cledit refactoring,False
+f0721c9405528131d69168e0ac8a5f1c1a5ed96f,2018-02-16 14:08:33,benweet,cledit refactoring,False
+efce97c16cbaea732e3ba9e7bbbd3143d38ddce0,2018-02-15 14:11:28,benweet,Merge branch 'master' of github.com:benweet/stackedit,True
+b4e274df666c27f484daf00159f177299e5e0e3f,2018-02-15 14:10:20,benweet,Added changelog link,False
+1bf7ebe1994079e0a0dbb98092847c2a21c7c727,2018-02-15 04:01:30,Benoit Schweblin,Create CHANGELOG.md,False
+c4651fcb3fc8da76481493b29e690b8f76c0e06b,2018-02-15 03:49:54,benweet,Fixed cut/copy from the editor,False
+1e8fa944a15c7194286b13d1fae3c7115b923d89,2018-02-14 04:34:54,benweet,New import menu with HTML to Markdown conversion,False
+5b6b9ebeb860fb429e88556eb997ff40b27cb333,2018-02-14 01:56:11,Benoit Schweblin,Merge branch 'master' of github.com:benweet/stackedit,True
+95b2bae6316b46a3db971947a35c8645c84ed225,2018-02-14 01:55:53,Benoit Schweblin,HTML to Markdown conversion when pasting rich text,False
+bb67113996f4f3dd0c4f2833f27d8ec3b79477a8,2018-02-13 16:13:55,Benoit Schweblin,Custom webkit scrollbars,False
+8d3c4d65b47fa3ac9135f9c85d8d9a118d2b0cfa,2018-02-11 18:09:50,benweet,Removed yarn,False
+b51a772299a68eb950558d58d9f59d3109663279,2018-02-11 18:02:42,benweet,Merge branch 'master' of github.com:benweet/stackedit,True
+d151b9a687db4ae744c3c29476cb8e41c4496941,2018-02-11 18:02:16,benweet,Added travis build,False
+c798df1a676fd02035637867cf693edc9ebd6554,2018-02-08 03:01:51,Benoit Schweblin,Tag v5.7.1,False
+f92ba9340a68493e774d5649c1048247aab4d3bc,2018-02-08 02:55:29,Benoit Schweblin,Fixed custom handlebars handlers,False
+3fa2d7b73e9f1aeabae08e2f2007243a44d942ea,2018-02-03 02:05:42,benweet,Tag v5.7.0,False
+56b715cd3f9686c71900772e6b6abd3c8bc20bdd,2018-02-02 05:23:51,benweet,Added sitemap.xml and google html tag.,False
+4d07cbb1e3ff18add69d5241f709bb97f01f6d7f,2018-02-02 04:45:14,benweet,Fixed paypal buttons,False
+f66f120afc3cae5c4b098ff61ee2c176545d6786,2018-02-02 04:09:14,benweet,CouchDB workspace (part 3),False
+2374f459df87b96d2b36e6ee1fee7b2cac2a91d2,2018-01-30 13:06:33,benweet,CouchDB workspace (part 2),False
+aac305e410485c150d82fc0c262239525c54c73d,2018-01-24 13:01:54,benweet,CouchDB workspace (part 1),False
+ec0d5aac3ed8c802c568b318a0788ccdfb74aa5d,2018-01-21 05:41:29,benweet,Added FAQ,False
+455e88f1838ed1c2917a647e9b34141c946d6476,2018-01-21 05:41:05,benweet,Added tour,False
+ed67f14f6ff1fc462feb4a470fb8e34571f9d2b8,2018-01-20 16:55:11,benweet,Tag v5.6.5,False
+97c634695307f3afb53add0bbe40f0af71ee0d61,2018-01-20 16:54:43,benweet,Fixed Dockerfile,False
+5aec35cb438de052c2e5730e4d9103bde2e58bb9,2018-01-20 16:54:29,benweet,Fixed unknown mutation type: data/deleteItem,False
+cd97855c87d55bf81461c35dab7694ecc3c18a46,2018-01-20 06:28:55,benweet,Tag v5.6.4,False
+c511805cca5d07ba92d223faf7c9df32af1cd815,2018-01-20 06:28:21,benweet,Removed redirect to https,False
+ce1014b8483b10512705b432fc77f1728e0ac362,2018-01-20 05:02:50,benweet,Tag v5.6.3,False
+e65dc094a0b315864df34d025f93826ef015a324,2018-01-20 05:02:14,benweet,Fixed Dockerfile,False
+cc1e3e8379ab11db911996b246d64fc5767ae020,2018-01-20 04:26:41,benweet,Tag v5.6.2,False
+1e371473ad767d05dfb2c39b03ba430057130157,2018-01-20 04:26:11,benweet,Fixed Dockerfile,False
+752ecd0dce79432f453cea55ff063d2541e7a245,2018-01-19 03:26:15,benweet,Tag v5.6.1,False
+ba258a96f68e828f909f1d329f9f5cb09d4cc360,2018-01-19 03:25:59,benweet,Fixed Dockerfile,False
+2ad55c34eacfcfa8b47d81c14aea2e24e80df620,2018-01-19 03:21:44,benweet,Tag v5.6.0,False
+174902d58dadffc7fc4143f750d801857a8380c5,2018-01-19 03:21:14,benweet,Fixed Google Photo import,False
+dfb0d0c382b040548f725366e1edc4f0e510ee17,2018-01-19 01:24:54,benweet,Added v4 in Dockerfile,False
+19f8c695276fb53a8a5f3da8f4c523e093ba2b19,2018-01-19 01:24:29,benweet,Set breaks=true for backward compatibility,False
+99d87fce66952c9a597248f542ea98fc90707f40,2018-01-14 21:57:06,benweet,themes (part 2),False
+dcd8e1c6c5dd20531f9985fe59d9881aa31ace6a,2018-01-11 03:15:34,Benoit Schweblin,themes (part 1),False
+344772c1fa03990c8078634327c751a213141d23,2018-01-07 21:52:37,Benoit Schweblin,Tag v5.5.0,False
+6037b1558947236c292656a46ee50d481d4389ca,2018-01-07 21:52:04,Benoit Schweblin,Added landing page,False
+2d75c4833262ba2591b5481361d2c45f80644733,2018-01-05 04:40:49,Benoit Schweblin,Fixed GitHub client ID,False
+1b79c739d3993c37094b5e34802b020287538846,2018-01-05 04:39:55,Benoit Schweblin,Updated readme,False
+4b9bb3b8331b9edcf1789127f676ed597640f21f,2018-01-05 03:43:20,Benoit Schweblin,Prevent google drive actions to open new workspaces,False
+d0ea2f785044bae7f375a23a826573ea2d3c35e8,2018-01-05 01:49:10,Benoit Schweblin,Support for google drive actions,False
+2f4781bc5d3534db8a3156fa4b8ee2225ca2d0c7,2017-12-24 03:38:52,Benoit Schweblin,Tag v5.4.1,False
+9a1be27e597275f58aadd5a92cd589a56572bf83,2017-12-24 03:38:21,Benoit Schweblin,Fixed undefined data,False
+27842525977979ca7e4e0416b057d2fd622c205a,2017-12-24 01:08:48,Benoit Schweblin,Tag v5.4.0,False
+32aa259790c1ef016f87cd6cffe15199438bda07,2017-12-23 23:55:14,Benoit Schweblin,Workspaces (part 3),False
+abbe1804e2febac2b1e477ca361264ddfc34a781,2017-12-17 20:38:52,Benoit Schweblin,Workspaces (part 2),False
+8263e14bcc6e06b036d3776eec4419029d85d943,2017-12-11 06:23:46,benweet,Fixed workspace ID dependency,False
+9596339684b4f678c2559f40045f1a348450fee3,2017-12-11 05:19:20,benweet,Workspaces (part 1),False
+3a08bc617e7cf5d2a35a8c15b7c8f521526a3c1c,2017-11-27 02:42:31,benweet,Tag v5.3.0,False
+6b6ef52bb47a7e5a9fb33bb29c153ca839b53135,2017-11-27 02:28:24,benweet,Revision history,False
+815c87b5e30a75f2c9a5f7efbceb1c16d39b13c8,2017-11-25 06:00:02,benweet,Fixed #1163,False
+5c7e0ae6620c6791f01d39299f9a17b7b526c700,2017-11-21 13:49:22,benweet,Fixed new comment cancel to keep discussion gutter open,False
+794cd94db683ae6d12130e2f980a36b785f68b71,2017-11-21 13:47:41,benweet,Fixed content unload on reset,False
+0f9f6b6034a2fe3a79858e9fa9601c7efbd6004a,2017-11-21 03:31:30,benweet,Fixed #1165,False
+f9502297082ce4b1ed421ea0c6b730548a529841,2017-11-19 23:58:47,benweet,Tag v5.2.4,False
+920f34d45415be8f5a54b879ef586188e1215f3b,2017-11-19 23:58:10,benweet,Fixed discussion offset restore on undo,False
+505df592041269e5e55633d63e8babf9fc0cb787,2017-11-19 23:56:34,benweet,Fixed custom file properties,False
+1bc7de32bee4c02e8d3df25208a71fb10e289661,2017-11-19 23:55:35,benweet,Fixed Google Photo import modal,False
+bbd257f07ebcd4e6f4e53b73538949972a10abd8,2017-11-18 03:30:47,benweet,Tag v5.2.3,False
+5b251b61e3032fa987f9108e768cf90aa753986f,2017-11-18 03:30:26,benweet,Removed async preview hook,False
+2972ffb97f1fdde2e7ae8d03872f24156d2dc770,2017-11-18 03:17:27,benweet,Tag v5.2.2,False
+3350ba61dba32f937bb02d99b7f3c84e0e9d37da,2017-11-18 03:17:05,benweet,Fixed preview highlighter problem while typing,False
+2e4c1b22fff9cb80f8dacefd815696c074c0d3be,2017-11-18 03:06:28,benweet,Tag v5.2.1,False
+9a220790efe72820e53a420b1285041cc4bca782,2017-11-18 03:05:57,benweet,Fixed account name problem,False
+dd336fab3f1e17e6897c546be7df17a20ae00d4c,2017-11-18 02:05:27,benweet,Tag v5.2.0,False
+217b17c279dde43641842d2bc3b8c917f622186a,2017-11-18 02:03:49,benweet,Force signin before commenting,False
+fdfafc951917273c90381bb7b1d77e13641e4467,2017-11-17 13:50:12,benweet,Fixed text to preview diffs,False
+0dd787a4e614e0f38ee29366c34f9ef6d4d50a5c,2017-11-17 06:08:55,benweet,Fixed google sign in,False
+fcff116d9268d9c3a3de3ab5f106853139d983bb,2017-11-15 13:42:56,benweet,New discussion gutter,False
+8767adc505af3f7554d1003e149d6af89a7cb2e2,2017-11-11 05:09:51,Benoit Schweblin,New discussion button. Discussion highlighter.,False
+167f3f50bcb539bcf52d363a0f0d518b68079ba1,2017-11-06 02:24:12,benweet,Fixed layout resize,False
+8c02d1e221ef3748389250128553610f48d572a7,2017-11-05 06:52:43,benweet,Tag v5.1.2,False
+40f9b6da92d36912986897c487350d8c0bddce23,2017-11-05 06:51:35,benweet,Fixed max width in exports,False
+56959b98d7a138d938ef3d5f5ad854462a25263c,2017-11-05 00:45:23,benweet,Tag v5.1.1,False
+e6d8cca4fe6a09797a71ab4a9004082ed9eed3c3,2017-11-05 00:44:52,benweet,Use body parser only for PayPal IPN,False
+eaac28d4eead46b7aab8bd4bb107b7efbfee25f8,2017-11-04 22:57:25,benweet,Tag v5.1.0,False
+801c344c6c792a426c76851f5b4b9f20a907cc14,2017-11-04 22:56:55,benweet,Moved welcomeFileHashes to localSettings,False
+abd089051249dc83a9d2dd187cbdec48eb4ffcde,2017-11-04 22:29:48,benweet,"Added favicons.
+Added sponsorship options.
+Added pdf and pandoc export.
+Added emoji and mermaid extensions.
+Added find/replace support.
+Added HTML template with TOC.
+Updated welcome file.",False
+43af45a6ed8887ff627a29e7031c9dbd494528e2,2017-10-14 17:15:52,benweet,Tag v5.0.6,False
+42607a8e65868f3498ef409f9e0adf5569a9e099,2017-10-14 17:15:35,benweet,Fixed server lint,False
+83a94dbdffef0ade1d7f9d6b211315f31808190c,2017-10-14 17:09:15,benweet,Added undo/redo buttons. Restore file when imported from Google Drive and Dropbox. Lint server,False
+e15b9fae16117b2e1bdcbdc40ad2ac81626ffce4,2017-10-09 12:41:18,benweet,Added backup menu. Added print menu. Fixed splash screen.,False
+3e9b75d3e86f5b4f9b397cd68fe20b2a8c16b808,2017-10-07 17:08:15,benweet,Tag v5.0.5,False
+6e9e5f552a582b00360122fba66dc4bc353dfe9d,2017-10-07 17:07:51,benweet,Removed unnecessary dependencies,False
+8d182f93621ad0c224f6fe6bea59264a93a6079e,2017-10-07 17:06:10,benweet,Fixed cleanTrashAfter,False
+74bceaf1ee2d1fb1951b4092ae68aedd7934522a,2017-10-07 16:52:24,Benoit Schweblin,Support for ARIA. Added trash,False
+cbb44f4ea6a279c10e1d503ed876ad41e37b4dcc,2017-10-05 12:48:21,benweet,Fixed location synchronization,False
+0a2d8396d62bc1af1bd627020e56784b51e90614,2017-10-05 12:48:02,benweet,Refactored shortcut settings,False
+35cc2952fb07b42f5e1194e51a73727861bd2c27,2017-10-05 12:46:35,benweet,Added trash,False
+a3171399c0416dd2ec3f3a2197934053ccb2445a,2017-10-04 00:17:50,Benoit Schweblin,Create LICENSE,False
+b40a4106d54f2f14c9714cf9f1134482a792e17d,2017-10-04 00:13:14,benweet,Updated readme,False
+f7c09ee7d82348b4613cf2f6a26be8ec48c3efdd,2017-10-03 04:19:54,benweet,Tag v5.0.4,False
+7f2fe941435ff4b656b727fdd552e087c25647ab,2017-10-03 04:18:01,benweet,Reduce svg size. Moved scroll sync to localSettings,False
+fb95df2e14e139dc270c710d4f5c97190b1ce0b3,2017-10-03 00:39:39,Benoit Schweblin,Fixed form entries. Fixed error logs when canceling a modal.,False
+73cea1879d9f9b5dc0c8d7f957d60b05d6d92384,2017-10-02 06:04:48,benweet,Fixed google authorization popup,False
+0a39710dacef301f8b7deb2d800b861c2a380034,2017-09-30 17:48:58,benweet,Tag v5.0.3,False
+651d1a4bd57b2196d9dc428875bf9c98145201ad,2017-09-30 17:48:43,benweet,Use npm to bump version,False
+85b53cc4457a773a2ec0fdce4fe742fb78d307d2,2017-09-30 17:31:29,benweet,Added bump and tag scripts,False
+6bbe22aaa2c4f3b5e3a87c3aa087c9ebcd61c4e3,2017-09-30 00:13:26,Benoit Schweblin,Fixed multiple window issue,False
+f8f3a875593ba452fdc4c3458b59cddc5c2539c7,2017-09-28 01:57:12,Benoit Schweblin,Fixed main provider synchronization,False
+79b954f0f1bdee800fa7778510c0d8d4cd44804a,2017-09-27 04:54:06,Benoit Schweblin,Prepare release,False
+ac66a77741e51890af5e3b5c3692ad563c6ce7ef,2017-09-27 04:24:26,Benoit Schweblin,Modal refactoring,False
+872f557d031559573a01df7c2ac72fb9d12d41ec,2017-09-24 00:31:50,Benoit Schweblin,Added publish providers and templates,False
+0b0bec15e24a5e4c4a85008fac3c19ac42b4db47,2017-09-17 21:02:39,Benoit Schweblin,Added keystrokes and shortcuts. Added templates,False
+cc2f9fa2045bf56f0c733566dfe62d9eeda5febd,2017-08-25 16:07:46,benweet,Added gdrive app data provider,False
+0280df2bbb7f28ecda60745b2c8dbb7da07f99d1,2017-08-19 15:54:08,Benoit Schweblin,Content merge,False
+d258d1c9c4c08941da9c0883ac2d7658ceccc4bf,2017-08-18 04:40:35,benweet,Content sync,False
+1e74fb00dce4f344e38aa9007db801d8aaa1e9f8,2017-08-15 16:13:26,Benoit Schweblin,Added google helper,False
+855e6cb056986b8e53c9c73f0b0e410c211dd19a,2017-08-06 19:34:00,benweet,Added oauth2 callback,False
+d09375dc4c5fe5c25e6f1acafd36761f19f0603a,2017-08-06 06:28:39,benweet,TOC,False
+8b3e3a898bd861c4299d3006a059b0ffe1da23f6,2017-08-05 02:16:06,Benoit Schweblin,Menu items,False
+c7f25f1ed8bbc8e008975cae4ffff2645f87236f,2017-08-04 13:50:50,benweet,Side bar layout,False
+c3d8933a9e3d182727c2a2805f032a1bddc8429b,2017-08-03 22:38:12,Benoit Schweblin,Explorer drag and drop. Local settings.,False
+0c27a8337ad7b6fd4a55c85aece166610a56b943,2017-07-31 14:34:01,benweet,Added explorer,False
+c07fc7135eff3b5ee0937f9874f6b576ca445369,2017-07-29 01:34:12,Benoit Schweblin,Few fixes,False
+8f743dd1b578c2c64fd4020fb81fc211ee42d039,2017-07-28 13:10:24,benweet,Added syncSvc,False
+02a4696b40e6a8661de2bebb98a6ce9650fea01e,2017-07-28 01:49:52,Benoit Schweblin,Store things in localDb,False
+97172e28b314017bb568be2eae69b938a369560c,2017-07-27 13:53:54,benweet,added localDbSvc,False
+f06f872a044a73d942403414aa832e06c50ecabf,2017-07-26 23:41:03,Benoit Schweblin,Added spinner,False
+886fa85b45105e98d6865f87745b1343e51ddfff,2017-07-26 05:04:01,benweet,Added katex extension. Added fonts,False
+3e94b1b16b1d19a00879a6617d32f676505a2285,2017-07-25 23:50:52,Benoit Schweblin,Enhanced navigation bar,False
+274f6608501e65e83a94baa15156a0af62c9b5da,2017-07-25 13:49:39,benweet,Second commit,False
+4622e4842cfe137557d8827c868cc760b49f69f1,2017-07-24 00:12:08,benweet,First commit,False

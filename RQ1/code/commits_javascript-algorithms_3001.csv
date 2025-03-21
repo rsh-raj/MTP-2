@@ -1,0 +1,2219 @@
+Hash,Date,Author,Message,IsMerge
+e40a67b5d1aaf006622a90e2bda60043f4f66679,2025-02-12 21:49:46,trekhleb,"Move ""valid parentheses"" to the ""Uncategorized"" section",False
+c5dd0483bfd873e5f53c6d08f12f0b129caef339,2025-02-12 21:47:52,trekhleb,Fix language code,False
+bd4990955bdd4f06a37d3baa16b6a7910a8401dc,2025-02-12 21:45:16,Maxwell Knight,feat: Added hebrew translation to README in all languages,False
+49e0814c434d52c66403a19f0c8c05bd2dfa6628,2025-02-12 21:34:13,Gianfranco P,"""Italiano"" is ""italian"" in italian :)",False
+ae869ef3faf4f7547e6b047a1d48f45927dd76a4,2025-02-12 21:28:55,Omotayo Obafemi,Added algorithm problem that can be solved using stack data structure,False
+ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2,2024-07-14 00:58:34,Vlad Sosnov,"Update README.uk-UA.md (#991)
+
+Co-authored-by: Oleksii Trekhleb <3000285+trekhleb@users.noreply.github.com>",False
+e7f30a7bf76ffcbcd37a3163f2a5c8f346aea2e2,2024-07-14 00:58:02,Vicente Gutiérrez,Fix typos README.es-ES for linked list (#850),False
+471e6d0791167756d0a7f35a2a197e235bca73f7,2024-07-14 00:57:09,Enzo,Add es-ES translation to search/binary-search (#893),False
+351a63a59fdea2e27eb69d50be897c7416a5951a,2024-07-14 00:55:58,Alaz Tetik,"Update README.md by correcting Turkish lang name (#904)
+
+Co-authored-by: Oleksii Trekhleb <3000285+trekhleb@users.noreply.github.com>",False
+0e2b2574f83d94adfe5822b1f09203ee60a34a31,2024-07-14 00:53:02,Nikita Gurskiy,update the ES README a lenguage correction (#952),False
+0c054f782aa57f4dbc56975452406b73cba8dc09,2024-07-14 00:52:10,Youssef Rabei,"Update README.ar-AR.md (#959)
+
+Co-authored-by: Oleksii Trekhleb <3000285+trekhleb@users.noreply.github.com>",False
+6509304ff613f88191155f1f9834aace8db1c149,2024-07-14 00:50:23,JungHyunLah,"update LRU Cache translation for ko-KR (#987)
+
+* feat: LRU cache translation in ko-KR
+
+* chore: add readInAnotherLan for ko-KR
+
+---------
+
+Co-authored-by: Oleksii Trekhleb <3000285+trekhleb@users.noreply.github.com>",False
+09afeb58d820ae32d6f3ccfa4042981fae4e1a9d,2024-07-14 00:43:11,Stanislav Dolgachov,"Update .eslintrc, improve UK translation for LinkedList (#1128)
+
+* Add ignore patterns to eslint config
+
+* Improve UK translation for LinkedList
+
+---------
+
+Co-authored-by: Oleksii Trekhleb <3000285+trekhleb@users.noreply.github.com>",False
+d7a41a64610db25caa4525d61e9f8545fcb491c5,2024-07-14 00:39:06,Qudratillo,"feat: added uzbek language (#1082)
+
+Co-authored-by: Oleksii Trekhleb <3000285+trekhleb@users.noreply.github.com>",False
+9046d80bdb9e5c2e65c87369575a3e47e9c01978,2024-07-14 00:28:45,Mahdi Azarboon,"Update README.md (#1141)
+
+Before diving into any of the data structures, readers should be reminded of two fundamental laws in software architecture:
+
+1.Everything is a trade-ff
+2.""Why is more important than the how""
+
+So, readers face the nuances and reality of these data structures from the beginning. These two laws are coined by two thought leaders in software architecture: Mark Richards and Neal Ford. They have explained these two laws in various conference talks and books. For example, here you can read about these two laws here:
+
+https://www.infoq.com/podcasts/software-architecture-hard-parts/
+
+
+Also, here is a book for reference:
+https://a.co/d/fKOodW9
+
+Co-authored-by: Oleksii Trekhleb <3000285+trekhleb@users.noreply.github.com>",False
+e5b5944c6849389bbfc39f476fa7a1f97d8ce4c6,2024-07-14 00:26:39,Alexander Cyon,Fix four typos (#1139),False
+2c67b48c21eed86aafbb4d09065ffe391b4fc7e4,2024-03-09 21:45:19,Oleksii Trekhleb,"Ad hoc versions of MinHeap, MaxHeap, and DisjointSet (#1117)
+
+* Add DisjointSetMinimalistic
+
+* Add MinHeapMinimalistic and MaxHeapMinimalistic
+
+* Rename minimalistic to adhoc
+
+* Update README",False
+ac78353e3cbc73befb7db1ffd748764ec59d6a50,2024-03-09 21:43:54,Mira Kwak,"feat: added korean translation for trie (#1071)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+8959566a36b3b7c28064da04c1522f3920956e22,2024-03-09 21:41:53,irene (Irene Tomaini),"fix binary search typo (#1079)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+729bc4d78a2e7f15204bcc406a00605c6251c727,2024-03-09 21:39:21,Vi Truong,"Add Vietnamese translation for LinkedList (#1086)
+
+* translate readme from linked list
+
+* add linked list for viet sub
+
+---------
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+8d1f473610f173713179fcfd4f628b3d67591ac3,2024-03-09 21:36:47,Vi Truong,"Vietsub (#1088)
+
+* translate readme from linked list
+
+* add linked list for viet sub
+
+* add vietnamese readme translation for queue
+
+* add readme in vietnamese for Stack",False
+111ea3dbd30a5c596143a3b69bfd356bbc870d7a,2024-03-09 21:32:29,Arpit Goyal,Update README.md (#1093),False
+76617fa83ac9a8519f20c7a9c938e2d8ef2fd512,2023-07-21 23:38:01,Oleksii Trekhleb,Update README.md,False
+8c5e5f4f0d5bb94439e02fe6ad6bb92b37a23834,2023-04-10 22:17:10,trekhleb,Add repo size,False
+14c563619c300145de3d07d8e67024dc05869606,2023-04-10 22:01:06,Oleksii Trekhleb,Fix repo build for M1 MacBooks (#1029),False
+bbbfd32a45a677950554a91c4ece8976b8b31c38,2023-03-25 21:32:02,Oleksii Trekhleb,Update Bakers.,False
+b9304f4787c9586ad146f24e305244d0df95e080,2023-03-17 01:10:41,Yaroslav Podorvanov,"feat: added Ukrainian translation for factorial (#1006)
+
+* added Ukrainian translations for factorial
+
+* added links to other languages
+
+* formatting
+
+* delete link
+
+* Türkçe
+
+---------
+
+Co-authored-by: VictorPoprozhuk <victor.poprozhuk@gmail.com>",False
+1ad60dc5107216e1f6febf7255e5fc915588c94b,2023-03-13 18:42:43,Oleksii Trekhleb,Add Bucket Sort.,False
+e95d856e6781fdb3a727f139bbc12249d814a80e,2023-02-25 05:36:02,Oleksii Trekhleb,Add bakers,False
+46aae1d708f077ad229f200053cab8276fd6317c,2023-02-25 05:34:35,Oleksii Trekhleb,Add bakers,False
+5a41865787350d1270ae07b2086604caf7d16454,2023-02-20 23:11:58,Oleksii Trekhleb,Add links for code examples for K-Means clustering,False
+af08253a956c994f098f84e5fdd700b6ce99b344,2023-02-01 12:41:25,Oleksii Trekhleb,Adding Heap time complexities,False
+5fc33c0f0ae5c6ccddaf8c40a8af483fb750a3ad,2023-01-30 13:38:17,Oleksii Trekhleb,Add a recursive version of the Longest Common Subsequence.,False
+c9f1caf1ca87cfa23a5a12046a8359f93f337971,2023-01-30 13:31:49,Oleksii Trekhleb,Add a recursive version of the Longest Common Substring.,False
+bcd1cc1b008100098a906b610f79074db2edea0e,2023-01-30 12:49:38,Oleksii Trekhleb,"Upgrade packages and Node versions. (#989)
+
+* Upgrade to Node 16
+
+* Upgrade packages and Node versions.",False
+1d6249d552240794c4ea66e97cd91ae5b062392e,2023-01-27 12:35:56,Oleksii Trekhleb,Update README.,False
+4b4d77071cee9c6ba50390ec3635a9755828daa3,2023-01-24 14:13:12,Oleksii Trekhleb,Add an example of the LRU Cache based on the Map.,False
+69c3a16f75175fa6f49cd936e0049fdc6ede1da4,2023-01-24 13:34:02,Oleksii Trekhleb,Refactor LRU Cache.,False
+fbd77551b3196b15f7ea3373ad0efebc13fd47c1,2023-01-23 23:14:46,Oleksii Trekhleb,Update time complexity table for LRU.,False
+f6a0ed42bcaba0607fb2cc1d843f90d78ea340c3,2023-01-23 23:13:52,Oleksii Trekhleb,Update time complexity table for LRU.,False
+6c4aa1b6a26c45e75d22a92adf1fcdcbc95cd401,2023-01-23 23:13:00,Oleksii Trekhleb,Update time complexity table for LRU.,False
+3d8dd9a67f7e17ff892dd3186e351a5d9caee329,2023-01-23 22:45:13,Oleksii Trekhleb,Update LRU Cache README.,False
+d408abd833181c5866166ce6b6af073576bd5708,2023-01-23 22:37:24,Oleksii Trekhleb,Update LRU Cache image.,False
+e4f2ccdbece78d44d3f4bd908c828408b1c0c791,2023-01-23 22:33:40,Oleksii Trekhleb,"Add an example of the LRU (Least Recently Used) Cache implementation (#980)
+
+* Add an example of the LRU Cache implementation.
+
+* Promote the node on set() as well.
+
+* Add LRU Cache images.",False
+6c335c5d833fd2a68342cf3648a3174bed8c01ad,2023-01-06 19:15:04,Oleksii Trekhleb,Fixing the broken link for QuickSort,False
+65e4a7c8b35914e70bfc2b7cbc58c5a9f654db53,2023-01-06 19:07:36,Oleksii Trekhleb,"Adding a simple cascading solution to generate a Power Set (#975)
+
+* Add a simple cascading version of generating a PowerSet.
+
+* Update README.
+
+* Update README.
+
+* Update README.",False
+a123b9017d53a54853401b21382828b65c712e71,2022-12-05 12:36:38,Oleksii Trekhleb,Reverting Malay translation since most of the links are not working,False
+2a6f724589a1887a8ed6b665fa238e29acbf8c8c,2022-12-05 12:29:33,j0pgrm,"Malay readme (#927)
+
+* update-readme
+
+* deploy
+
+* deploy
+
+Co-authored-by: name <your mail>
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+a6a4d01f95a1f1f2243360d1fd7dbd2275f0fa79,2022-12-05 12:08:35,Oleksandr (Sasha) Khivrych,"feat: added ukranian translations for graph, heap, linked-list, priority-queue, queue, stack. trie (#965)",False
+025b9a390b5cde87d4d00604ee745e8ea83202ff,2022-11-28 21:13:30,Oleksii Trekhleb,Update Permutation and Combination cheatsheets. (#963),False
+565256088a1b99d3d7901b5d8db992fe9acabd2d,2022-11-10 19:36:33,Oleksii Trekhleb,README updates.,False
+8e4225ac713fe2b0747b66ab1cd4206ea72b7791,2022-11-10 19:34:50,Berkay,"Update README.md (#953)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+e62572648c42b23b4e3a7ae68ce9529098eeca32,2022-11-10 19:32:29,Oleksandr (Sasha) Khivrych,"feat: added ukr translations for bloom filter,  Disjoint Set, Doubly Linked List (#957)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+5de9ca28e90cf860dbcb114441f72b5a4342ebb9,2022-11-10 19:30:21,David (Dato) Kadaria,Added Georgian translation && Added link to the translation from other files (#951),False
+c4164bf2240b1458252c3860f584bf01be4a85f8,2022-10-22 01:51:11,Oleksii Trekhleb,Update README.md,False
+da6ae08851b4bb6f35cb3e7a36263cd68689168a,2022-10-10 18:53:32,Mateus Pfeffer,"Brazilian Portuguese translation and typos fixes (#943)
+
+* Update README.pt-BR.md
+
+* TRIE README.pt-BR typo
+
+* TREE README.pt-BR typo
+
+* Stack README.pt-BR typo
+
+* Priority Queue README.pt-BR typo
+
+* hash-table README.pt-BR typo
+
+* doubly-linked-list README.pt-BR typo
+
+* disjoint-set README.pt-BR typo
+
+* bloom-filter README.pt-BR typo
+
+* merge-sort pt-BR translation
+
+* merge-sort README added pt-BR option
+
+* insertion sort pt-BR translation
+
+* insertion sort README added pt-br option
+
+* heap-sort pt-BR translation
+
+* heap-sort READMED added pt-BR option
+
+* bubble sort pt-BR typo
+
+* pt-BR translation for sorting algorithms
+
+Fixed typos and translated all the missing algorithms
+
+* Update README.pt-BR.md
+
+* linked list pt-BR translation
+
+* ml pt-BR translation
+
+* fix typo in README
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+9ef6650207338c41eccb0e303b865ac8c3ff3e2b,2022-10-10 18:35:58,Oleksandr (Sasha) Khivrych,"feat: added ukrainian translations for hash table (#948)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+26a27f360a86548039af5dd0e1d593569a37c3b4,2022-10-10 18:32:41,David (Dato) Kadaria,"Add Georgian translation for 'algorithms: Factorial' (#947)
+
+* Translated Factorial
+
+* Renamed file and added link to it from the original file
+
+* Replaced Wikipedia link with Georgian version",False
+d3c0ee6f7af3fce4a3a2bdc1c5be36d7c2d9793a,2022-09-21 12:42:46,Oleksii Trekhleb,Update README.md,False
+ebfe961f0f61b641a1f4d340ddffe323891ab0b0,2022-09-21 12:40:09,Oleksii Trekhleb,Update README.md,False
+4d2d7189c631218b9c713c8ac070ac4a1d98f6ff,2022-08-30 12:56:36,Oleksii Trekhleb,Add a link to minimalistic data structure sketches. (#933),False
+1d02cd6596df17c74bf33059ee6521321a5627d3,2022-08-29 22:09:05,Oleksii Trekhleb,Update data-structure images.,False
+f9b558b802f8c1fb1b670c7313202457069c1cfb,2022-08-27 21:48:07,Oleksii Trekhleb,Update data-structure images.,False
+6914c654a389a60101cdcce0f3bbaa203b3ef06e,2022-08-27 21:28:14,Oleksii Trekhleb,Update data-structure images.,False
+a81c0bdb2c5a9302fb73b67948cd6ff6b754bf3c,2022-08-27 21:09:41,Oleksii Trekhleb,Update data-structure images.,False
+8c7950a389f948439fc162b74a88f5a9d38a5178,2022-08-27 21:03:39,Oleksii Trekhleb,Update data-structure images.,False
+41038d329728e8136f0604113d0afb64eabf2e97,2022-08-27 18:05:09,Oleksii Trekhleb,Update data-structure images.,False
+928bac1f54d2bef3fa2171c58212f3ee71b04bd0,2022-08-26 23:43:14,Oleksii Trekhleb,Update data-structure images.,False
+8fd8e752eaec9d6f986b344af3f548a64f283e1f,2022-08-26 10:44:32,Oleksii Trekhleb,Update data-structure images.,False
+036a67b9b4852c52f7cdf6eaa0a89fcbf2313e8d,2022-08-21 20:38:30,Oleksii Trekhleb,Update DS images.,False
+b55e79aed2fa35fc0c6b47cc24f4747bb712c95e,2022-08-19 22:50:48,Oleksii Trekhleb,Update BST image.,False
+7236dacb349e2125a5758873466d10bfc3b21c84,2022-08-19 22:38:53,Oleksii Trekhleb,Update Trie image.,False
+28109b4f416dabda7da5b34a6046e6c1a7a6dbd1,2022-08-19 22:37:38,Oleksii Trekhleb,Update Trie image.,False
+ad2f49af381e8ae9c8403b7d8d0244b260f09cc1,2022-08-13 00:28:53,Oleksii Trekhleb,Update Hash Table image.,False
+21b72902f0914269a60288e7f204d4ac32784297,2022-08-13 00:15:10,Oleksii Trekhleb,Update Hash Table image.,False
+18fcead0dcceeb9b91edfe0ae84e559a085a04cb,2022-08-11 20:56:11,Oleksii Trekhleb,Update Hash Table image.,False
+ac31c913b2c62582430e6de41826300062338eb6,2022-08-11 20:04:05,Oleksii Trekhleb,Update Graph image.,False
+3d2cfb99b78dde8da9342a47affa8b09b2210b38,2022-07-30 01:17:38,Oleksii Trekhleb,Do,False
+b7017ede9880c29578debc3389a514cbeb188159,2022-07-27 21:55:52,Oleksii Trekhleb,Update Tree image.,False
+ceb6c858c7442035f65b82578bd7ac1c67d2eba0,2022-07-27 00:29:47,Oleksii Trekhleb,Update image for the Doubly Linked List.,False
+dc65485196ac5307f90994dc8fa0ce58764c536b,2022-07-27 00:24:39,Oleksii Trekhleb,"Update images for Linked List, Doubly Linked List, Queue, and Stack. (#915)
+
+* Update linked list image.
+
+* Update Queue image.
+
+* Update Stack image.
+
+* Update Doubly Linked List image.",False
+fc47fff0894b27414bb5419caf5dd601ec3adb59,2022-07-26 10:56:21,Oleksii Trekhleb,Update Queue images.,False
+c5c795a7f0b5476409192a64992bef5b6ade46f5,2022-07-24 21:57:23,Oleksii Trekhleb,Update Stack images.,False
+10b79ee1d74887d8757ad166565629a6346f7b41,2022-07-24 21:48:53,Oleksii Trekhleb,Update Stack images.,False
+58491c74c9b226205f22faf983c8782ebba167b9,2022-07-24 21:23:46,Oleksii Trekhleb,Update Queue images.,False
+6a99b2075db764231ae2e4021456927e11ea31bf,2022-07-24 21:20:33,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms,True
+5a28fef1a7393c8b991352e2dd011d099c7cd5fb,2022-07-24 21:19:21,Oleksii Trekhleb,Update Queue images.,False
+28b43226a4dec973fc9d440b30f1cde50d25c4cb,2022-07-02 21:20:13,Oleksii Trekhleb,Update README.md,False
+cb7afe18ef003995d8e23cc0b179ee7e37e8a19e,2022-03-12 22:16:09,Oleksii Trekhleb,Update README.md,False
+cd34b52e22b35358395bd1aa41e90f3cc451cbba,2022-03-12 22:15:45,Oleksii Trekhleb,Update README.md,False
+b2427d0e18b97f83ecc30311b83d699f03b7d79a,2022-03-01 23:01:32,Oleksii Trekhleb,Help Ukraine,False
+c89388445e11b4776c40c92e0907f1ed1792d03c,2022-03-01 22:56:25,Oleksii Trekhleb,Help Ukraine,False
+7a37a6b86e76ee22bf93ffd9d01d7acfd79d0714,2022-02-04 13:27:25,Oleksii Trekhleb,Add more followup links for Max Subarray problem.,False
+82f0b5edf04fba49d5fcff898e50142cac9d67a9,2022-02-04 13:26:15,Oleksii Trekhleb,Add a Divide and Conquer version of the MaxSubArray problem.,False
+819f38f7926866a141198f0feff61f3ee4fc6e9d,2022-01-28 01:35:22,Oleksii Trekhleb,Some text fixes.,False
+294eb3c53f3f8d13b7ce4cbd1ebcd90c9688d6f0,2022-01-28 01:34:41,서다솔,"Add merge sort document in Korean (#632)
+
+* Add merge sort doc in Korean
+
+* Update README.md",False
+0006350cc76f6dc8b1245f625bc268cea8feb447,2022-01-28 01:33:48,Lucas De Angelis,"French translation for module ""Graph"" (#634)
+
+The first part of the translation is a direct translation of the
+english part. The second is too, although it wasn't done by me
+but by wikipedia contributors (the second paragraph of the
+English wikipedia introduction is exactly the same as the first
+paragraph of the French wikipedia ""Description"")
+
+Add french version redirection on the README.md. The french
+version is placed before the portuguese version to have a
+cleaner diff (no trailing commas to edit)",False
+8d0f300aa5d54c3dbd9da30097a14646acb2fffb,2022-01-28 01:33:12,Antonio Gonzalez Capel,"Update README.es-ES.md (#628)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+3038c77a8c59269d300a15b5925c22b7ec47a6f3,2022-01-28 01:32:10,0xFF,fix error (#637),False
+cadee1405310b779e965738ff900d2864f40cc17,2022-01-28 01:31:42,TheJang,Fix: spacing word (#639),False
+3fa19670f2c0dca1e2bf474c266712d9759e6fd9,2022-01-28 01:30:45,DS Park,"Add Korean translation.  (#644)
+
+* Translate the Heap README to Korean.
+
+* Translate Priority Queue's README to Korean
+
+* Translate Kruskal Algorithm's README into Korean.
+
+* fix typo
+
+* Translate the Dijkstra README to Korean.
+
+Co-authored-by: cckn <pds@enitt.co.kr>
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+677862540e12b2189f535ff237633c7e25f1afe0,2022-01-28 01:27:33,MrBrain295,"Change Copy Write to 2021 (#652)
+
+Change Copy Write to 2021 from 2018.",False
+82680c03eeeb135c681897c0bfd824eb6e4a391a,2022-01-28 01:26:33,m11o,fix small modification in README.ja-JP.md (#651),False
+47d5c8f744e44d4967bc9e0d295eb94495b73dbd,2022-01-28 01:26:02,Felipe Veronezi Peters,Add pt-BR translation to search/linear-search (#663),False
+8bd329d5e5a03b379ad0869128e10746ad2ab62d,2022-01-28 01:25:13,Felipe Veronezi Peters,Add pt-BR translation to search/binary-search (#664),False
+ef50238ebad761e5c6aab09cea343181cc4ef4e7,2022-01-28 01:24:40,Felipe Veronezi Peters,Add pt-BR translation to sorting/selection-sort (#665),False
+61f2d192f6ff49ef8cff1049e8f5f51ea916d4fc,2022-01-28 01:23:42,Perry,"Update breadthFirstSearch.js (#666)
+
+fix comment",False
+945e7c384e9d9a1683d51521b7d0dcf1d5a16bd9,2022-01-28 01:22:47,Trang Nguyen,"Add Vietnamese translation (#667)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+b816825232d9704913221270f579b4a337a6b9e3,2022-01-28 01:16:06,Marcio Flavio,Adding single quotes type to editorconfig (#670),False
+9083fe12f64593de7ce1914e281a7fd5ebc4deac,2022-01-28 01:14:03,Darío Hereñú,"Typos fixed (lines 81, 130, 166, 248) (#668)",False
+f0ec1395c10cc8a319adb6887883ae3991767afd,2022-01-28 01:10:50,szhou,Update README.zh-CN.md (#685),False
+8e8f28ffcf475ff869ec47d05f8753d8fac7117a,2022-01-28 01:06:39,H2rmone,Use exist method to be consistent with Stack (#708),False
+d227646201ec734590d71e157dac239a8727dd3c,2022-01-28 01:03:47,Aldo Salas,"Fixing typos in Linked List README.es-ES.md (#710)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+1c4e02879af62743ceb3114676bd166e88f04988,2022-01-28 01:01:19,Kim Chan,fix: LinkedList test (#712),False
+d581548b4c804bf24d48921795f4fe7179a1eb78,2022-01-27 14:21:29,tusba,"Fix a typo in linked list's ""ru"" readme (#723)
+
+Deletion time complexity from O(1) to O(n)",False
+c2e5b3d5f1cc1092b2d00386c716980e516484a8,2022-01-27 14:20:47,tusba,Fix error in Queue definition from README.ru-RU.md (#726),False
+80649156ea9ccb8d3e92c4d4e86a72b41b4022b3,2022-01-27 14:19:11,Rafael Araújo,"Created Quicksort documentation in pt-BR (#735)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+7ef78c48aa9303c0e7776d8825db24ae10a50a49,2022-01-27 01:27:01,tusba,"Typos in a doubly linked list's ""ru"" readme (#724)",False
+1216d00937ce43ce525254264a2557406fafbc8c,2022-01-27 01:23:22,Oleksii Trekhleb,Restructure the Big O Notation table.,False
+9ca459ff657318de2d5a86f2c56b8442db8b297f,2022-01-27 01:20:39,Oleksii Trekhleb,Fix lint issue.,False
+2a49b7045a5718c7623cbc4591a8f8c45b5e4721,2022-01-27 01:08:56,rmagillxyz,Add type name to Big O table (#717),False
+aa0f47ed658cbd84e975bd5aa4f0d8659e3817e2,2022-01-27 01:06:54,Muhammed Erdinç,"Linked list turkish readme (#739)
+
+* added README.tr-TR.md for linked-list
+
+* added gap
+
+* linked list description edited.",False
+c1b2e893ff913ab4162620acf3b0adebe13b55ef,2022-01-27 01:05:45,Muhammed Erdinç,"Factorial turkish readme (#740)
+
+* added turkish readme for factorial
+
+* Added redirect link to Turkish document.",False
+00887c2d405a1246738be0eef9f529f87362b145,2022-01-27 01:05:01,observer.js,"[ID] Minor Improvements (#742)
+
+* fix: `menghapus` typo
+
+should be `menghapus` instead of `mengahpus`
+
+* fix: translations
+
+Should be `algoritma` instead of `algoritme`.
+etc is in EN, replace it with `dan lain-lain` (etc in ID)
+
+* fix: adding space to z-algorithm
+
+since Z is the name of the algorithm.
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+7f7e4eae3eacc15c2b7bc2db920c9e26c258cbed,2022-01-27 00:59:51,qiugu,"feat: add linkedList insert method (#774)
+
+Co-authored-by: byj <youjia.bi@weimob.com>",False
+5b64117a2c60979bf0e407165848c591f2702bb0,2022-01-25 22:26:34,Oleksii Trekhleb,Fex READMEs.,False
+d0c359e990d9f5ed5775a1dcc324c9e9529e1496,2022-01-25 22:24:01,Sewook Han,"Add Korean translation (#752)
+
+* Add Korean translation
+
+* Add link to Korean translation in Queue README.",False
+d11f7fadd68b30785e591569ccaa308a813b18dd,2022-01-25 22:18:56,Sewook Han,"Add Korean translation (#767)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+5a83ecc00dc8f9daaac417bf4805ba5509e48ffb,2022-01-25 14:34:32,Anton Kazarinov,fixed spelling error for hash-table (ru) (#775),False
+c29b12ee3b5d6bb8353cbb5207dd1e7ad19bf9a8,2022-01-25 14:33:19,OscarRG,fix typos (#771),False
+5dc17089bcadce02d33c8fdf29fea9474e3933d4,2022-01-25 14:32:35,Bravo Yeung,Correct inaccurate Chinese translation. (#768),False
+ae915372d91dd41352984f37b1d743966c95f2ab,2022-01-25 14:09:11,OscarRG,fix typos (#773),False
+40c54d8354508b09a12904ee8a696018a6977d25,2022-01-25 14:07:30,Suman kumar,"Updating a typo in "" Get bit"" section (#777)
+
+typo- ADD-> AND operation",False
+cc26b93f31717c10c1af017eaffbdb6ca41d8d20,2022-01-25 14:06:45,kyong4,"Grammar change and ""Block "" to ""Jump"" (#780)
+
+* Grammar change and ""Block "" to ""Jump"" 
+
+ジャンプ is jump in katakana
+
+* Update README.ja-JP.md
+
+* Update README.ja-JP.md",False
+6d8195154aa93e4d25798b6af43afda31a5d1b6c,2022-01-25 14:04:17,儿时,Add Chinise  Translation (#842),False
+42c6718cb017dfed5d867af057c8e90827c5fb5e,2022-01-25 14:02:01,kimzerovirus,"Add Korean translation for data-structures Hash Table & Heap (#843)
+
+* Create README.ko-KR.md
+
+* Create README.ko-KR.md
+
+* Update README.ko-KR.md
+
+* Update README.ko-KR.md
+
+* Update README.ko-KR.md
+
+* Update README.ko-KR.md",False
+90addf9b18274ccce734d8d6b70156c154afeb6f,2022-01-24 02:17:57,Oleksii Trekhleb,"Code/README fixes for the ""Palindrome Check"".",False
+ea28788ed81541dc175d52c2986e9d55d2246dac,2022-01-24 02:12:43,liamlylehr,"added palindromeCheck (#806)
+
+* added readme
+
+* added readme
+
+* adding palindromeCheck
+
+* adjusted README
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+b4b511005b5da796ee6d69216d7abe88569b8476,2022-01-24 02:06:02,Piotr Łysik,"Update README.pl-PL.md (#785)
+
+Typo fix",False
+396f5b8feb3117c49a286c84985394320d91b77d,2022-01-24 02:04:08,Matheus Machado,"Fixes README.pt-BR.md (#787)
+
+General formatting and translation fixes",False
+7d13e6863a940fbc81987b32700681a513794f4a,2022-01-22 15:20:33,Oleksii Trekhleb,README fixes.,False
+80d2f508d30d2d53a32026351b4f03cce8978d0b,2022-01-22 15:19:30,Halil CAKAR,"Update README.tr-TR.md (#789)
+
+Fix a typo
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+236379b04cd3ae8646e9dafa4619ef30cd740de8,2022-01-22 15:18:15,Kush Gabani,"Fixed: Translation Typo Error (#796)
+
+This pull request aims at closing the issue #765 by fixing the typo in the translation.
+Specifically,
+Get Bit and Clear Bit, there should be AND operation (&), but not ADD operation (+)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+457b16a5c9f48b049ce0299823c06d2dcc666cbc,2022-01-22 15:14:22,edegil,Add Korean translation for data-structures/stack (#797),False
+e844a2f894fa3873bacd62d0fff4f346f9273f99,2022-01-22 15:13:11,jackbyebye1024,"Update README.zh-CN.md (#804)
+
+* Update README.zh-CN.md
+
+双向链表的删除部分，逻辑修改
+
+* Update README.zh-CN.md",False
+9671b0c4b904a6593cd644db1e13ffc150078586,2022-01-22 15:12:36,joaojgabriel,"Linked List -- PT-BR (#805)
+
+- typos
+- reformulação de ""This structure allows for efficient insertion or removal of elements from any position in the sequence during iteration.""
+- ""vinculadas"" a ""encadeadas"" pra manter o mesmo termo do título
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+6cd19c95697c7a883df6f52c7caa4abc4f34deb2,2022-01-22 15:07:23,Muhammad Affandes,"Typo in README.id-ID.md (#808)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+d80486f1c6a7fcb6b9249f9907c9d2c9ae05c365,2022-01-22 15:05:06,Samay Sagar,"issue #631 solved (#809)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+8c433f9b5d695fcb7cd89b6f1cdc8c4cee4f5d1d,2022-01-22 14:55:59,Kirill Skvortsov,"Update main README.ru-RU, add README.ru-RU for cryptography/caesar-cipher (#810)
+
+* Update main README.ru-RU
+
+* Add README.ru-RU for cryptography/caesar-cipher
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+dd3cbe1bfd0fa3892979c115267b274dce80ffc4,2022-01-22 14:51:37,儿时,"Add Chinese Translation (#815)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+53781db2757d782c787ce9980b719a21008a995e,2022-01-22 14:49:14,Seymur,"Null Reference Exception (#817)
+
+When `n.next = tail` is true, we assign `n` to `tail` and `null` to `tail.next`, so `n.next` also becomes `null`. Then we assign `n.next.next` (because now `n.next` is `null`), we try to get `next` of `null`. That is why we should add an `else` case to check if `n.next` is not equal to `tail`.
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+47048202fd3b864f16352d8e42bc4d43137c057e,2022-01-22 14:43:29,ilkererkek,"Fixed typos in the turkish and added descriptions (#816)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+41ace46d4809a0032108fbdca6f2fe3096ebe5f2,2022-01-22 14:41:41,Hyewon Kwak,"fixed: fixed error in linked list README.ko-KR (#820)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+1b6a6d58127da27c0a692bd0f7c0c58c026acd1b,2022-01-22 14:39:38,Gérley Adriano,"Addition of slight grammatical corrections (#828)
+
+Addition of slight grammatical corrections to documentation in PT-BR
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+5d57f1db2462b38f47cabab6cc499819904eb9e2,2022-01-22 14:38:30,Israel Teneda,"FIx some typos in Spanish Readme (#829)
+
+Fix some typos and translate last quote line to Spanish
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+5cb7e38299b33d60989f9a589c457aa3ee9d877e,2022-01-22 14:35:55,Elif,"docs: add README.tr-TR.md (#833)
+
+* docs: added Turkish translation of Heap (data structures) algorithm
+
+* docs: removed other languages section from translation file
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+3372666d324f35b0e93bd11ae721b2cfdf1aef43,2022-01-22 14:33:57,William Joao Cubillos Quintero,"Update README.es-ES.md (#836)
+
+spelling mistake
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+7d8d3977a21600ab9fd1de6873fe9f4d853594b5,2022-01-22 14:28:38,Oleksii Trekhleb,Upgrade dependencies. (#841),False
+9bb60fa72f9d146e931b4634764dff7aebc7c1a2,2021-10-29 00:40:23,Oleksii Trekhleb,Add the Genetic Algorithm example.,False
+de496a2545c9755e02b49d1010e41490f1e7450c,2021-10-22 21:45:44,Oleksii Trekhleb,Update the cover for Weighted Random algorithm.,False
+683722170b81ad11981410ebf9977a60b8e5ca72,2021-10-22 17:35:31,Oleksii Trekhleb,Update the cover for Weighted Random algorithm.,False
+17bfb551c0d1d38de5ff3ec4ef9c587678ce6ea9,2021-10-22 13:46:37,Oleksii Trekhleb,Add Weighted Random cover.,False
+99945f30deba9fb0ec5077e07ed093d0a531f1c1,2021-10-22 13:26:44,Oleksii Trekhleb,"Add the ""Weighted Random"" algorithm (#792)
+
+* Add the link to the Weighted Random algorithm to the main README.
+
+* Add Weighted Random implementation and tests.
+
+* Add Weighted Random README.
+
+* Add Weighted Random README.
+
+* Add Weighted Random README.",False
+d0576a2594f843cae01abfdb9a2aa08663bdee54,2021-10-18 21:32:40,Oleksii Trekhleb,Upgrade dependencies. (#790),False
+4548296affb227c29ead868309e48667f8280c55,2021-07-26 15:25:40,Oleksii Trekhleb,Binary representation of the floating-point numbers.,False
+2ad5617a4bcf05a59c650d91ab950fd054d0f69a,2021-07-26 11:14:21,Oleksii Trekhleb,Binary representation of the floating-point numbers.,False
+71da6df63312096964eaaf8f538c174d1c39014b,2021-07-26 11:13:07,Oleksii Trekhleb,Binary representation of the floating-point numbers.,False
+badf301ba56040dbd286d908e65d2cac05ff7455,2021-07-16 18:09:35,Oleksii Trekhleb,Binary representation of the floating-point numbers.,False
+b2d1ec83f04a66d9d2d3f09150bcaf0cacb0f7ba,2021-07-16 15:21:53,Oleksii Trekhleb,"Binary representation of floating-point numbers (#737)
+
+* Add ""Binary representation of floating point numbers"" section.
+
+* Adding a half-precision explanatory picture.
+
+* Binary representation of the floating-point numbers.",False
+433515f1b22a1a53443429b20f09f821a3325895,2021-05-26 14:25:57,Oleksii Trekhleb,Fix typo in READMEs.,False
+ee35bd6240af55d3353934cb50261c9e256d1326,2021-05-26 13:59:05,Oleksii Trekhleb,Testing Codecov integration without web-hooks.,False
+6d2d8c9379873d0da2b1262a14dd26d0f9779522,2021-05-18 12:14:13,Oleksii Trekhleb,Testing Codecov integration without web-hooks.,False
+8a24fbfac94dc5d446d51768eaa062637a6c1a16,2021-05-14 13:26:18,Oleksii Trekhleb,Adding more details on how to run the playground code to address the issue #705.,False
+cb50e4e9f394ebaf8172f71bc31dd2f68b1417d4,2021-05-06 10:35:27,Oleksii Trekhleb,Add link to Spanish translation in Doubly-Linked list README.,False
+22b323e6b112a85210369f48bf9044d9fa9c6371,2021-05-06 10:32:52,CodingInvoker,"update linkedlist comment (#687)
+
+Co-authored-by: Jiachen Zhou <jiachen.zhou@rea-group.com>
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+5ffab573ca4610c3ea6bd00709883b0a2ec5b898,2021-05-06 10:30:10,Freivin Campbell,"Create README.es-ES.md (#680)
+
+new translation added",False
+464a84bc7cb8fcc9c78ccb9fab0d77d978e8363c,2021-05-06 10:26:40,justforever,Update README.zh-TW.md (#690),False
+64abcf12f28e02580b28cc8b64bab5ff0ac9c037,2021-05-06 10:16:04,Deniz Binay,add german translation for main readme (#703),False
+d38cecd2e79d64efba1dd0b37cdd9acd60bc42ba,2021-05-06 10:13:28,Coco Guerra,"Update README.es-ES.md (#704)
+
+* Update README.es-ES.md
+
+* Update README.es-ES.md",False
+7ad3fbc0f9eebfc4e86623be94e7c3dfbe9e611d,2021-04-21 21:39:48,Oleksii Trekhleb,Disabling tests in pre-commit to speed up the commits.,False
+912941be1d42d19a0a8b5ded73b35deee8e05718,2021-04-21 21:00:49,Oleksii Trekhleb,Add troubleshooting instructions.,False
+4ca41ea83b8fdbfe2eb056c8b89852466a840a29,2021-04-21 20:42:53,Oleksii Trekhleb,Testing Husky integration,False
+f7d07ae66d0fbd2c9b093bb074c8cb02de7be4b8,2021-04-21 20:39:59,Oleksii Trekhleb,Testing Husky integration,False
+144b6867761a064bfe766c0c1994ebd1be676e74,2021-04-21 20:25:26,Oleksii Trekhleb,Testing Husky integration,False
+cfd9a630ff8cacd17880b16b27f32781eaac6bb7,2021-04-21 11:09:58,Oleksii Trekhleb,"Test that two images are identical for the Seam Carving algorithm. (#694)
+
+* Test that two images are identical for the Seam Carving algorithm.
+
+* Tune the Seam Carving tests.
+
+* Tune the Seam Carving tests.
+
+* Tune the Seam Carving tests.
+
+* Tune the Seam Carving tests.",False
+f0b246a5214f6f392ea4ec19a9fd550a8b26fcbb,2021-04-20 21:17:33,Oleksii Trekhleb,"Adding a Seam Carving algorithm with Dynamic Programming implementation. (#693)
+
+* Adding a Seam Carving algorithm with Dynamic Programming implementation.
+
+* Adding a Seam Carving algorithm with Dynamic Programming implementation.
+
+* Adding a Seam Carving algorithm with Dynamic Programming implementation.
+
+* Testing Husky integration.
+
+* Testing Husky integration.",False
+028ffa6e9a0379c5ca9d11ae74901534b9f5edf6,2021-04-20 10:48:24,Oleksii Trekhleb,"Getting rid of ""React version not specified"" warning while linting.",False
+83357075c4698f487af733e6e0bf9567ba94c266,2021-01-03 15:15:41,Oleksii Trekhleb,Add Chinese translation for Math sections.,False
+848dc351f94557c819dd57f2063bc20800aad7af,2021-01-03 15:12:12,董凯,"Add chinesre translation. (#615)
+
+* Add chinesre translation of math/bits README.md
+
+* Add chinese translation of math/fibonacii README.md
+
+* Add chinesre translation of math/prime-factors README.md
+
+* fix
+
+* fix
+
+Co-authored-by: zackdk <zackvvzackvv@gmail.com>
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+89a86140098e46eb1636a6122fb906d1c854829d,2021-01-03 15:07:11,Oleksii Trekhleb,Add Arabic translation.,False
+4eb66047ed9d4e67965faf4a5d5ec38c7d556523,2021-01-03 15:04:41,Oleksii Trekhleb,Add Arabic translation.,False
+cf61af59c532ad180fd9b65a21a11e88413e6ebc,2021-01-03 14:56:14,Austin Theriot,"optimized for loop & corrected comments (#617)
+
+The existing insertion sort implementation began by iterating from
+0 until the end of the array, but it is only necessary to
+iterate from 1 until the end of the array, since at the
+0th index, there is nothing to compare to the left of
+the element.
+
+In order to complete this change, I also had to update the tests
+to reflect the fact that the algorithm visits each index 1 less
+time.
+
+Finally, I corrected the grammar/wording of the comments.
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+81240342c257a78cfafc0fd0a419af30479be447,2021-01-03 14:53:17,Abdessamad Bensaad,"Add an Arabic version of the README file (#622)
+
+* add the DS link
+
+* Finish translating math
+
+* add Arabic version of the README FILE
+
+* add Arabic version of the README FILE
+
+* add the arabic readme file link to main readme file
+
+* add the arabic readme file link to main readme file
+
+* add the arabic readme file link to main readme file
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+a0a9c35e3ffd78d14de70a53c305aaf888113a1b,2021-01-02 18:19:00,Oleksii Trekhleb,Update Bakers.,False
+711204f13a825cbe2dac25fdc5493f9991ede5f0,2020-12-28 13:46:33,Oleksii Trekhleb,Update CI workflow.,False
+3bc8f108d6488c7b37153c80514e501247049efa,2020-12-23 23:31:03,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms into merge,True
+d35cfba32da319dd457ac096a0d04599541d8006,2020-12-23 23:30:36,Yanina Trekhleb,"Add Ukrainian translation of the main README file. (#613)
+
+* Add ukrainian translate.
+
+* Error correction.
+
+* Add a link to UA version to all README.file.",False
+2c213c4be38cea6a598d9cecf5cfec092259e54a,2020-12-23 21:55:52,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms into merge,True
+2bbe12b83befddb6e8c1080d535795c9dee4a639,2020-12-23 21:54:49,Oleksii Trekhleb,"Add divide and conquer example: best time to buy and sell stocks (#612)
+
+* Add divide and conquer example: best time to buy and sell stocks.
+
+* Add divide and conquer example: best time to buy and sell stocks.
+
+* Add dynamic programming version.",False
+1c1b244d972f2d32f3bc7162886cd93653e469e4,2020-12-23 21:49:53,Oleksii Trekhleb,Add dynamic programming version.,False
+79cf9eb4343ae78151eace6d26705c63f955b9d0,2020-12-23 21:34:02,Oleksii Trekhleb,Add divide and conquer example: best time to buy and sell stocks.,False
+4973392cb9f676a2605a1abe16fb8f5025e1c28e,2020-12-23 21:31:13,Oleksii Trekhleb,Add divide and conquer example: best time to buy and sell stocks.,False
+e71dc8dc1690a631d55dd07d15369dc3d87fcb3d,2020-12-22 21:38:53,Oleksii Trekhleb,Update dependencies.,False
+bc53ba7362517f8d4b821c26304f570d37708488,2020-12-22 21:34:51,Oleksii Trekhleb,Update dependencies.,False
+37871171a5f20cb6ccd3d1409af483852f22423f,2020-12-22 21:29:06,dependabot[bot],"Bump node-notifier from 8.0.0 to 8.0.1 (#607)
+
+Bumps [node-notifier](https://github.com/mikaelbr/node-notifier) from 8.0.0 to 8.0.1.
+- [Release notes](https://github.com/mikaelbr/node-notifier/releases)
+- [Changelog](https://github.com/mikaelbr/node-notifier/blob/v8.0.1/CHANGELOG.md)
+- [Commits](https://github.com/mikaelbr/node-notifier/compare/v8.0.0...v8.0.1)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",False
+4b6c601158b7b0284c9aad3a899fe97285fc7c1a,2020-12-21 00:48:12,Oleksii Trekhleb,Add Spanish link for the Linked List README.,False
+88cef5f5482fb4e4ee60c58abebb885cd1cee623,2020-12-21 00:46:48,Oleksii Trekhleb,Merge branch 'merge' of https://github.com/trekhleb/javascript-algorithms into merge,True
+148f9179c941d9586e36930af4d80c9f2f74bbbf,2020-12-21 00:46:35,Javier Saviñon,"Linked List Spanish Traslation (#409)
+
+* Linked List Spanish Traslation
+
+* Rename the CI workflow file.
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+c44bb91ec4d929f19cc0c07a12d99410727349cc,2020-12-21 00:39:37,Oleksii Trekhleb,Merge branch 'merge' of https://github.com/trekhleb/javascript-algorithms into merge,True
+e07620359090a8f372fe2b4297bb9e806d5d0343,2020-12-21 00:39:09,Yura Sherman,Fix a grammar mistake (#396),False
+f617569760979d540f795e41f039e93204c91af0,2020-12-21 00:36:36,Go,fix typo (#350),False
+fa1f930c99bf869e0074515f981cd018da185412,2020-12-21 00:35:18,Brandon Villa,Add missing step (#345),False
+521e0a9bbd8f4e2ff5bd29840a3d7305fd07351c,2020-12-21 00:30:44,Andy Chen,Remove a extra space (#291),False
+86dea85d97bab880a68ac94818ca185d2f67c220,2020-12-21 00:27:59,Oleksii Trekhleb,Merge branch 'merge' of https://github.com/trekhleb/javascript-algorithms into merge,True
+cfba1d9954ab5b4a33251c7af3f7f55a256a0de5,2020-12-21 00:27:51,Oleksii Trekhleb,Add Rail Fence Cipher.,False
+2794445f9537d8acee3bba3142335a71f0e0628b,2020-12-21 00:27:03,Sagid M,"Add the word ""set"" to avoid misinterpretation in description (#286)
+
+* Add word to avoid misinterpretation
+
+* Rename the CI workflow file.
+
+Co-authored-by: Sagid Magomedov <sagid-m@yandex-team.ru>
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+71db2d27b2a2c92a24cceb83b21d140b55b16d19,2020-12-20 23:11:46,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms into merge,True
+9641940fd78fce6766237118a36647204c67343c,2020-12-20 23:10:22,João Pedro Raskopf,"Add rail fence cipher (#516)
+
+* Add rail fence cipher encoder & decoder
+
+* Add functions to encode & decode strings using the rail fence cipher method
+* Add unit tests covering empty strings, pair & odd number of characters in the input string, n=3 & n=4
+* Add a README.md for the algorithm
+* Update root README.md to link to the new algorithm
+
+* Rename the CI workflow file.
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+22abc6f8080e5f97266c18bdb8eff35245a95a67,2020-12-20 17:35:41,Oleksii Trekhleb,Rename the CI workflow file.,False
+c755110eb19229058ef80f607eaf31b5bb244d79,2020-12-20 17:31:46,Oleksii Trekhleb,Adding Bahasa Indonesia.,False
+4bc72734269daa6f8d39f429944b264d94b9f9e3,2020-12-20 17:22:01,Adjie Djaka Permana,feat(lang): add README.id-ID.md translation for Bahasa Indonesia (#603),False
+569fd95bd08c1a0cb3f21cfeaa9f7324d86902ce,2020-12-20 01:43:11,Oleksii Trekhleb,Simplify k-Means clustering algorithm.,False
+b7cd425ce9a3fc0238321e717c26505335764322,2020-12-20 00:06:08,Avi Agrawal,"Added kmeans clustering (#595)
+
+* added kmeans
+
+* added kmeans
+
+* added kmeans
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+90ec1b76d0ac502a9a6f9c8b632fd317ef966354,2020-12-20 00:05:31,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms into merge,True
+636ebe1e268b1aeb226072c3285e5e3f28813e59,2020-12-20 00:03:35,Oleksii Trekhleb,Adding the Matrix traversal and generation to the Divide and Conquer section.,False
+3e5ddb81431a9967fe1eb28328709ea2c320a48e,2020-12-20 00:02:57,Oleksii Trekhleb,Adding the Matrix traversal and generation to the Divide and Conquer section.,False
+eb97f738acb6e6576da3c4f1541f7a5d4828393d,2020-12-19 23:56:52,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms into merge,True
+adda5c53b37c221573480ec6b949f0f424e4034f,2020-12-19 23:56:02,Oleksii Trekhleb,"Add Euclidean Distance formula (#602)
+
+* Add Matrices section with basic Matrix operations (multiplication, transposition, etc.)
+
+* Add Euclidean Distance algorithm.",False
+610f16fe209d78e9d14de245a0d92beb208f0da3,2020-12-19 23:51:32,Oleksii Trekhleb,Add Euclidean Distance algorithm.,False
+59666ac947c47ddcc61848cb836466f4e13e6973,2020-12-19 23:19:21,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms into merge,True
+8d52ae5d03fec152c715ef2a018d5d4b502c1488,2020-12-19 23:18:10,Oleksii Trekhleb,"Add Matrices section with basic Matrix operations (multiplication, transposition, etc.) (#600)",False
+2c81debb477744d5bb28d0290c16ebf4b3d0197c,2020-12-19 23:15:14,Oleksii Trekhleb,"Add Matrices section with basic Matrix operations (multiplication, transposition, etc.)",False
+e220450d7d35bd59b344a9ed640100c370dca79c,2020-12-17 14:19:57,Oleksii Trekhleb,Code style fixes.,False
+de1cc0b0479b5e7dd2e28d2487eea6d3d207e5e4,2020-12-17 14:19:11,Luan Caldas,"Translate pt-BR (#386)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+d87502b5fd155b116ce0bc17b18e6b43ed3f27aa,2020-12-17 14:18:43,Alexander Belov,"Update README.md (#385)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+536f75a52fde251d98bd52bdc764e79694acdfb3,2020-12-17 14:18:19,lvzhenbang,"update desc (#371)
+
+* update desc
+
+* text error",False
+431560a4e50040e9927e60bece01f0276e2d1683,2020-12-17 14:10:05,Askhat Arslanov,"Translate Linked List Traversal to Russian (#283)
+
+Co-authored-by: Askhat <caelestes961@gmail.com>",False
+07c21083d61ff7784b15158430056fa843cdb635,2020-12-17 14:06:00,Oleg Maslov,"Add missing LinkedList tests (#151)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+38b2b977cd8804e52c1f85ebe7f8a28d407f9b8c,2020-12-17 13:57:32,Oleksii Trekhleb,Add Hill Cipher.,False
+52fbc8a80f67c420b2c50bad71351bc5732e4a04,2020-12-17 13:28:26,Oleksii Trekhleb,Add Hill Cipher.,False
+d899ae1484262999273d7a86c440a2f7e10da850,2020-12-17 12:37:26,Oleksii Trekhleb,Add more details and example to Hill cipher README.,False
+9929ab7fc14fae9e5d685f689583939895ab68a8,2020-12-17 11:56:21,Sherlyn,"add hillCipher at cryptography section (#424)
+
+* add hillCipher.js and its test case first commit
+
+* add README.md
+
+* update style
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+e105460cd6c868c2a38f7a4c8416c34b4eb6ea83,2020-12-16 22:26:57,Oleksii Trekhleb,Update CI badge to point to the master branch status.,False
+4623bb906f6ba6dee85e304cdac660dd08b79175,2020-12-16 12:37:08,Oleksii Trekhleb,Add k-nearest neighbors algorithm.,False
+b13291df62dd67f4e150064b636bfa3c1795cdda,2020-12-16 11:19:10,Oleksii Trekhleb,Trim trailing whitespaces.,False
+871d20d8685df552d6f5c57b23f420b62404ef5a,2020-12-16 11:14:56,Avi Agrawal,"Adding K Nearest Neighbor to ML folder in algorithms with README and tests    (#592)
+
+* Updated KNN and README
+
+* Update README.md
+
+* new
+
+* new
+
+* updated tests
+
+* updated knn coverage",False
+802557f1ac83fa299613a9e5332096547712bf6a,2020-12-15 23:26:09,Oleksii Trekhleb,Update translation for Bubble Sort.,False
+82cf0e6d582c89ed7823025199dd227f9930cb54,2020-12-15 23:22:43,José Vinícius Lacerda de Arruda,"Creating a explanation of Bubblesort in portuguese (#423)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+ae225741fa64a9b5869f37610e626658e2d80108,2020-12-15 23:14:44,bhaltair,Update README.zh-CN.md (#439),False
+94afab0dd95820bc1b150de2fa08120a51573fcd,2020-12-15 14:45:37,Oleksii Trekhleb,Add test coverage thresholds.,False
+d470fa13baa73475a58cecac76cd6a96818fbe46,2020-12-15 12:34:46,Oleksii Trekhleb,Update the Build badge to show the info from GitHub actions.,False
+39a5fa57581235f7673b92e667ad8a337ce88516,2020-12-15 12:27:35,Oleksii Trekhleb,Update the main branch for GitHub actions.,False
+ead275d08f470a381a6880fa0f3197c5966898b9,2020-12-15 12:26:29,Oleksii Trekhleb,Delete Travis yml.,False
+40942425151f5fce18c46065bfbfeaa527dcc52f,2020-12-15 12:24:58,Oleksii Trekhleb,Add GitHub workflow.,False
+1b0e27ab86dbae97b99620db3ecacffafd17d98a,2020-12-11 13:44:48,Oleksii Trekhleb,Add getValues() method to HashTable and update LinkedList READMEs.,False
+46daaf51c5feb3e4fae17988fcd40fe9f55c084d,2020-12-11 13:24:37,JD Medina,"Modify HashTable (#447)
+
+Add a getValues() method to the HashTable data structure",False
+c3d22956b76a8407eec230f5a4f2078d26fed25d,2020-12-11 13:21:13,Eugene Sinitsyn,Fix typo (#459),False
+6e95b0cee743952b3963bdadd1e3ae2c533ecc84,2020-12-11 13:18:57,Donghoon Song,Update README.ko-KR.md (#466),False
+97dd96aa7535cb5893ec37e1ec5f4bef91136139,2020-12-11 13:15:54,Hanseung Yoo,Add doubly-linked-list doc in Korean (#449),False
+30ef6a30e11b674510669f0c663d255cb96634ae,2020-12-11 13:07:06,Oleksii Trekhleb,Add prime factors calculation.,False
+827906c1401a2842575f4d602875b0b4f563507f,2020-12-10 22:24:11,Anmol Gomra,added prime-factors algo in src/algorithms/math (#532),False
+498ab10b1b8eb71a4f6c80a62f84cc9c289a40c8,2020-12-10 22:20:47,vladimirschneider,"Repeated Math operation (#584)
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+bbe0462b1cdeb323ae5964a69189ec218d261198,2020-12-10 22:11:22,deepthan,"fix:  fix playground part  translate error (#587)
+
+Co-authored-by: linkun.he <helinkun@ithinkdt.com>",False
+ea8234b49b426c1ea990d1ece0520059072c67e9,2020-12-09 13:50:24,Oleksii Trekhleb,Add README in Italian.,False
+7608151d9e598c6d7e1d91b092a72c53b8dc83b3,2020-12-09 13:30:53,Riccardo Amadio,"Italian Implementation (#432)
+
+* translating README to italian, middle phase
+
+* test
+
+* test grafica
+
+* finish
+
+* review
+
+Co-authored-by: Riccardo Amadio <riccardoamadio@MacBook-Pro-di-Riccardo.local>",False
+1bfbf1e30642f6535d3b61ae848aa604321cb41c,2020-12-09 13:10:51,Oleksii Trekhleb,Add README in Russian.,False
+e55dc809b6fc0053747d048ef7b3ecb1fd9a4672,2020-12-09 13:07:37,Oleksii Trekhleb,Add README in Russian.,False
+87b5b2b5cffb39b54cc0c474d024bd49a8847d74,2020-12-09 12:48:36,Kirill Kazakov,added README.ru-RU.md (#533),False
+8a12653ac3c1ef5fe2059c38fbf83aaf96618301,2020-12-09 12:43:05,Xiaoming Fu,"Fix typo in comment (#540)
+
+Address issue #528",False
+ebd6ffd2c0f3e9d3120dbf61c1961882b26f38e7,2020-12-09 12:41:03,Brian Tomlin,Fix typo in tree BFS testcase name (#542),False
+2ec7fe2f022d4025545b2068c486c4f5f4100e3c,2020-12-09 12:39:29,Rodrigo Stuani,"set Data Structure to ""Estrutura de Dados"" (#547)
+
+set Data Structure to ""Estrutura de Dados"".
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+9751670a06afb2aab359cb5f5fe78a4be713a023,2020-12-08 14:26:46,Oleksii Trekhleb,Use text formulas instead of images since images a not loading sometimes.,False
+21400e36fc56a8e89ed94a02942bcde06211325c,2020-12-08 14:22:37,Oleksii Trekhleb,Simplify Horner's Method code and add the link to it in main READMe.,False
+fb6a1fae0a0475a498bba27bd2c906c11f9f2498,2020-12-08 13:29:32,Matheus Bonavite dos Reis Cardoso,"Add Horner's Method (#575)
+
+* Add Horner's Method
+
+* Update README.md
+
+Co-authored-by: matheus <matheus.cardoso@sydle.com>",False
+0c566a6f317cf38395ad32330146d1186de4fb97,2020-12-05 03:55:59,Oleksii Trekhleb,Use osx for Travis.,False
+7b7d8d58cb7dee4357e59015b8faa5c27a20e03e,2020-12-05 03:53:56,Oleksii Trekhleb,Use one os for Travis.,False
+fb079d35b20cb72447246fdcd180d0bff7cf6f5d,2020-12-05 03:49:06,Oleksii Trekhleb,Removing osx for Travis builds.,False
+89a1759dce292700a1297f32ea1bffc88b02f1e7,2020-12-05 03:43:58,Oleksii Trekhleb,Use default dist for Travis.,False
+5eb91ebad0c168f10d588b87385865775169c0e2,2020-12-05 03:35:16,Oleksii Trekhleb,Use node 14 in Travis.,False
+db5902ac908165d057f641d03e4f0e840c72a979,2020-12-05 03:15:24,Oleksii Trekhleb,Upgrade packages.,False
+c919122ebaacbccebbd8925a2d9b1b3ad0fb5424,2020-12-05 00:00:10,Oleksii Trekhleb,Update Backers.,False
+2c695b56a2226939242632b0dcc5252a321e264e,2020-12-04 23:57:17,Oleksii Trekhleb,Update Backers.,False
+f1de657bca3c83692a95fe1879ae7c09ad034a28,2020-12-04 23:52:49,Oleksii Trekhleb,Update Backers.,False
+47b4b686064b0746d2da9bb8dfe7de42430ca565,2020-12-04 23:48:34,Oleksii Trekhleb,Update Backers.,False
+c15e2ca7292dc05e2bdaeb15b039765979bcbdc7,2020-12-04 23:47:52,Oleksii Trekhleb,Update Backers.,False
+e5baba45f1be1ad4f0902d0088b7b027529222d5,2020-12-04 23:47:06,Oleksii Trekhleb,Update Backers.,False
+7155cfe0e98ac8a394e1f3eac462c9a2dfdaa7a7,2020-12-04 23:45:59,Oleksii Trekhleb,Update Backers.,False
+922b3aeee2ee2863edbd934b5949308f1f80371d,2020-12-04 23:44:17,Oleksii Trekhleb,Update Backers.,False
+63eebef5de792bfaa1300725bf36169f4cb06f4c,2020-12-04 23:30:27,Oleksii Trekhleb,Update Backers.,False
+fc1c2d877d909f1c876b4715c7f3bc99b16ee3ae,2020-12-04 23:26:25,Oleksii Trekhleb,Update Backers.,False
+83251dfcdc1bfdb6382f15fd7e1cbbbc207a74ac,2020-12-04 23:19:31,Oleksii Trekhleb,Update Backers.,False
+2c74ced8af09e90f60ae45ccbd656e23f3fc64f0,2020-11-28 21:13:29,Oleksii Trekhleb,Fix ESLint issues with MergeSort.,False
+83978e9d2d0dc865e18f6d0f3e23a764a49bb193,2020-11-28 21:05:08,Austin Theriot,refactored merge sort to use array pointers instead of .shift() (#581),False
+ed52a8079e1ad3569782aa9a7cd1fa829d041022,2020-11-02 23:14:48,Oleksii Trekhleb,Add links to Turkish README.,False
+826055e51b818d9253632db86db184324257176a,2020-11-02 23:09:46,Aykut,"Create README.tr-TR.md (#574)
+
+Added Turkish language of README.md",False
+477f30b0bdac6024874d2976de1eca7afe0176dd,2020-10-06 00:56:24,Oleksii Trekhleb,Fix markup.,False
+d6b8dd394a6966f1786915decff63df90fd7e421,2020-10-06 00:43:47,Loïc TRUCHOT,"Chore(math-translation-FR-fr): a pack of translations for the math section (#558)
+
+* chore(factorial): translation fr-FR
+
+* feat(math-translation-fr-FR): fast powering
+
+* feat(math-translation-fr-FR): fibonacci numbers
+
+* chore(math-translation-fr-FR): bits
+
+* chore(math-translation-fr-FR): complex number
+
+* chore(math-translation-fr-FR): euclidean algorithm
+
+* chore(math-translation-fr-FR): fibonacci number
+
+* chore(math-translation-fr-FR): fourier transform
+
+* chore(math-translation-fr-FR): fourier transform WIP
+
+* chore(math-translation-fr-FR): fourier transform done
+
+* chore(math-translation-fr-FR): fourier transform in menu",False
+07bc4a4b975d7069a69421e7e6ad256ba76b721c,2020-08-21 10:59:58,Oleksii Trekhleb,Add more test cases for countSetBits().,False
+6af63239ab2223962ae426570b89c0257df436cf,2020-08-21 10:58:07,Louis Aeilot,"Fix and Update README.zh-CN.md (#469)
+
+* Update README.zh-CN.md
+
+* Update Translation",False
+c093fe4224e1a5006ffe0f84d6be0dd085ef09a7,2020-08-21 10:53:44,Ly,fix: three errors (#487),False
+be185ac9afab48cb3a7b589ac6d9f6c8a3385098,2020-08-21 10:51:20,Alexey Onikov,"Fix infinity loop with negative numbers (#502)
+
+* Update countSetBits.js
+
+* Update countSetBits.test.js",False
+5a3806ff81b316d917cf752e18b4c4eb0f173e2c,2020-08-21 10:38:27,Oleg Khobotov,"Update README.ru-RU.md (#530)
+
+There is an error in deletion complexity",False
+929b210b8e02cd77bdc3575a4e897ad24ad64ad3,2020-08-09 17:46:42,Oleksii Trekhleb,Minor fixes.,False
+2444b9740b444d0554f78d8086d59ae864bd2a10,2020-08-09 17:43:36,Ly,fix: 0->ø (#486),False
+95641c8aafd86ec3d3e83615e3a211168c895d1b,2020-08-09 17:40:15,Boardens,"Add french translation for some chapters (#520)
+
+* Create README.fr-FR.md
+
+* Translate to french ""Priority Queue"" module
+
+* Add english lang redirection
+
+* Update README.fr-FR.md
+
+* Update README.fr-FR.md
+
+* Add French lang version redir
+
+* Create README.fr-FR.md
+
+* Added french translation for Queue
+
+* Added French lang redir
+
+* Update README.md
+
+* Create README.fr-FR.md
+
+* Add french translation
+
+* Index french translation
+
+* Create README.fr-FR.md
+
+* Add french translation
+
+* Index french translation
+
+* Fix translation
+
+* Create README.fr-FR.md
+
+* Add french translation
+
+* Index french translation
+
+* Add wikipedia french reference
+
+* Add french wikipedia reference",False
+00242413a55a8fb69432d825d2bb593fa9c71c40,2020-08-08 16:24:56,Oleksii Trekhleb,Refactor a Caesar Cipher algorithm.,False
+bd7475ee1921fedc0d0272b7ae331a95451023fc,2020-08-08 15:21:22,gifted-s,"Caeser cipher (#517)
+
+* added ceaserCipher algorithm
+
+* added ceaserCipher algorithm
+
+* fixed a typo",False
+e54a3df23184c9e09d57713f8709fee9a799bde1,2020-08-08 15:15:15,Chao Zhang,Fix README typo (#524),False
+f42433e51ee70c7af763aa90eb38bcb1021176bb,2020-07-26 16:53:36,Oleksii Trekhleb,Fix ESLint issues.,False
+2ffb7b7abf693288929fa9906a8c9bba78ba2c92,2020-07-26 16:51:13,vladimirschneider,Swap as destructuring assignment (#497),False
+194f2133af589162dfba47577fbc8a0496b49465,2020-07-26 16:49:28,Suraj Jadhav,"Adding inequality conditions (#489)
+
+A quick fix to add inequality conditions wherever needed.
+
+Co-authored-by: Oleksii Trekhleb <trehleb@gmail.com>",False
+63f5a271520da95c8c91ea51126432cbc5c159d0,2020-07-26 16:36:15,Oleksii Trekhleb,Upgrade dependencies and fix ESLint issues.,False
+4d8baf87dbbc32c2c42164d0e51d398fbed62cce,2020-07-26 16:21:58,Oleksii Trekhleb,Adding OS to Travis config.,False
+099848336c0da082dda39237301733f297063e08,2020-07-26 16:14:58,Oleksii Trekhleb,Using Node v12 for Travis.,False
+d227a33c57008b9c22a56aba87c6b82e939820ad,2020-07-26 16:05:17,Oleksii Trekhleb,Upgrade dependencies.,False
+0fcea277b7b24e559904926da36b231234e08121,2020-07-15 10:23:08,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms,True
+8d32c9fc8c972043249705389836c52bf4020d2b,2020-07-15 10:21:20,Oleksii Trekhleb,Adjusting README.,False
+3bf94e573db98cb29acb0f601923146fbefbe719,2020-07-15 10:19:29,solomon-han,Update README.ko-KR.md (#492),False
+d43f9d894131b1d2f5583d584232fb5c5899a9d4,2020-07-15 10:17:55,Thiago Alberto da Silva,"Update README.pt-BR.md (#490)
+
+Traduzido Trie > Árvore de prefixos",False
+b3b8d4d3e8dfd7321377352a01384f4888f55a1a,2020-07-15 10:16:31,Marcelo-Rodrigues,Fix portuguese translation of graph on README (#503),False
+aa10ffe443c90c0dc31796121611cc53c87c0f9d,2020-07-15 10:13:08,Yong Yang,Link error (#511),False
+70367294f6c0148dc896a1630f71e661b7fedd1d,2020-07-08 12:36:17,Oleksii Trekhleb,Adding sponsorship info and a book link.,False
+fd7cf58df823b475ec92ca470158deafb0bd0dec,2020-07-08 12:32:57,Oleksii Trekhleb,Adding sponsorship info and a book link.,False
+1294afcef587b5e13739b5cbaa90a194e3f19437,2020-07-08 12:31:06,Oleksii Trekhleb,Adding sponsorship info and a book link.,False
+87e74dd8af7830a4c19604cc3b6eddb000bea4da,2020-07-08 12:27:44,Oleksii Trekhleb,Adding sponsorship info and a book link.,False
+a35b776523193cfe7675ecd4fe278dd3b86cbec4,2020-07-08 12:24:21,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms,True
+247bc777ef09f815ecb76af168ee10c862d6ce92,2020-07-08 12:22:17,Oleksii Trekhleb,Adding sponsorship info and a book link.,False
+af09d4b76179a9af25eb662a77d1fd368dc1e53b,2020-07-08 11:24:13,Oleksii Trekhleb,Update FUNDING.yml,False
+503a76d0ae62ffaa5715db3b4fe8aa5946873b08,2020-07-07 02:09:50,Oleksii Trekhleb,Create FUNDING.yml,False
+833f59b34b7e57c1017e6dccf762a8cf5600d242,2020-07-03 11:21:31,Oleksii Trekhleb,Add BACKERS.md.,False
+ba2d8dc4a8e27659c1420fe52390cb7981df4a94,2019-12-08 03:00:04,Oleksii Trekhleb,Add machine-learning algorithm examples.,False
+dc1047df725117c411959692a1ab538f65342b2e,2019-06-25 10:26:44,Oleksii Trekhleb,Upgrade dependencies to latest versions. (#367),False
+94abfec91d111c936670c37d1fdc8349e05ade92,2019-04-16 20:39:37,Oleksii Trekhleb,Fix pt-BR README links.,False
+e954d6d0f3916722b77dd7c092095830a904c616,2019-04-16 20:35:39,Oleksii Trekhleb,pt-BR translations fixes.,False
+ed99f9d216070d48194af2da870448a4767e818a,2019-04-16 20:17:04,Marcos Gonçalves,"Adds Portuguese (pt-BR) translation (#340)
+
+* create portuguese translations
+
+* renames `Lista Ligada` to `Lista Encadeada`
+
+* revert changes on package-lock.json",False
+1520533d110efae320801bde33770ac9fc1fee8a,2019-04-12 11:32:03,Oleksii Trekhleb,Fix issue #315.,False
+2206158b57035294e318badc2f455f23816bb979,2019-04-12 11:14:14,Oleksii Trekhleb,Update image source for Levenshtein distance.,False
+d790aa56a491b888f83ccef5c20b4a6071e7c5d7,2019-04-12 11:11:26,nirvanarsc,"Update README.md (#332)
+
+Fix for https://github.com/trekhleb/javascript-algorithms/issues/311",False
+d18dcd2e422b65ddaad3d48e54394824c2d9681d,2019-04-12 11:06:11,arnold,fix README.md (#333),False
+8590d7ad43f9d00b95006a074fe0e32f64ff72e6,2019-04-12 11:05:37,Nilton Lopes,"Update README.pt-BR.md (#335)
+
+Improving translate",False
+2632a3a683617269ef32b79639b89c3f8e3f18e3,2019-04-12 11:02:08,matsuge,"Add Japanese translation (#1) (#337)
+
+* add japanese translation
+
+* fix typo",False
+5c12f45ddc56fe8f0b2d8a83f92c5ab13e4323a5,2019-04-03 10:27:00,Oleksii Trekhleb,Minor typo fix.,False
+b1c36a85cfa5b5f8c47f22736c1bbfb18f22a1cd,2019-04-03 10:25:48,Oleksii Trekhleb,Minor typo fix.,False
+97e4f5fe2af20eb9df1e53ac4b41a4b859a50b9e,2019-04-03 10:12:16,Sergii Tkachenko,"Add Full Adder algorithm (math/bits) (#334)
+
+* Add Full Adder algorithm (math/bits)
+
+* Full adder: minor spelling fixes
+
+* Full adder: even better comments",False
+339ae02977115ad3d9173768d53d6b2144e30bd4,2019-03-23 17:14:24,Oleksii Trekhleb,Add square root finding algorithm.,False
+4aecd5772f844355169fc1f4e8869caf8018fb97,2019-03-22 11:17:39,Oleksii Trekhleb,Fix README typos.,False
+f36381c7ecc77999d7b033b2ffa8b0b30bda8b19,2019-03-22 11:15:04,Omar Kalouti,adds note explaining origin of the name 'radix sort' (#293),False
+43e1cca3e66bc8ce0f616fab904e952116a5b894,2019-03-22 11:06:35,Stulov Alex,Translate Bloom filter into Russian. (#320),False
+e286a92d8d2a3accf0e7994d89ea2ac68b1fc645,2019-03-22 11:02:44,Stulov Alex,"Feature/translate trie (#324)
+
+* Translate trie into Russian.
+
+* Add image description.",False
+3eab9eef406995841d41114b416c0e1575d6c08c,2019-03-22 10:59:50,linghuam,some mistakes in delete method and time comlexity (#322),False
+db83ec20ec2fed24fdca0b6afaac8331fc939821,2019-03-22 10:58:12,lisq,Update README.zh-CN.md (#326),False
+d569102f06afb132213e6dab7165131103056ed4,2019-03-22 10:57:12,Nilton Lopes,"Update README.md (#331)
+
+Adding link to read in portuguese :)",False
+c510775f399ab3ca88eaaf2e8758a0f29a73f72e,2019-03-22 10:55:48,Nilton Lopes,Translated to portuguese (#330),False
+38d0ccc222f8c43c39ed0e719597dec099266396,2019-03-22 10:48:18,Stulov Alex,Translate disjoint set into Russian. (#321),False
+2267642a3dc78e4f5db2ed017f4438839b26d492,2019-03-08 20:48:31,Oleksii Trekhleb,Change Node version for Travis.,False
+346db12c5b7bdf39ae67cc726e7c5f84d85853e5,2019-03-08 20:40:27,Oleksii Trekhleb,Switch from pre-commit to husky.,False
+ec65ff293493ddd3a0634754f0d55a65fe140a87,2019-03-08 20:08:54,Oleksii Trekhleb,Update Jest and Babel version.,False
+fae265da514160ebe40f765dc9256061d6d9663f,2019-03-08 19:44:50,Oleksii Trekhleb,Update Node version for Travis.,False
+66626271fb1e7f45f2b9de10a2198650e7fdacb6,2019-03-08 19:32:34,Oleksii Trekhleb,Update npm packages.,False
+2371dd28d32419d513c86099b0820bd699b55d42,2019-03-08 16:43:21,Oleksii Trekhleb,Update LinkedList time complexity for deletion.,False
+a1d218dd2921d7895a4e6cc9797e6980b2b30e6b,2019-03-08 16:42:10,oimo23,Fix japanese-translation typo and awkward grammer (#296),False
+b87e326fcf22f8cbdaf04ad3ed526b75a6b166bc,2019-03-08 16:38:18,haalogen,Fix performance measuring code bug (#313),False
+8ab965b483bccd6dd7304732ffeda198b88c8d92,2019-03-08 16:35:50,Cloudyan,Update README.md (#316),False
+d267bd6e303bc62137f97648490239161e0be7cb,2019-03-08 16:32:15,Masato Ohba,"Fix typo: yeild => yield (#309)
+
+```shell
+ag -l yeild |  xargs sed -i '' -e 's/yeild/yield/g'
+```",False
+c8225d73d8bdfff0382fcf8d8ff7cda1a7a0d34c,2019-03-08 16:31:07,rugamaga,"""ツリー""のメニューが""リー""になっていたので訂正した (#301)",False
+c672f1ff30fd280be74a62cd23c7e78c055362e1,2019-03-08 16:22:53,Stulov Alex,Translate hash table into Russian. Add links from English file to translations. (#318),False
+0aa63ff42a132e7bcf1e5c083804826a8623893d,2019-03-08 16:20:40,Stulov Alex,Translate heap into Russian. Add links to main README file. (#317),False
+94d761400131e374e44d56777db6cebd36200137,2019-03-08 16:17:09,Stulov Alex,Translate graph into Russian. (#319),False
+8ea21a66c9f377ab50e711669134a373a7181d42,2019-03-03 13:40:19,Oleksii Trekhleb,Make it possible to use objects in priority queue.,False
+881e3ae5aa294d882cf6dc4e4e65219bc1826aab,2019-03-03 13:28:02,Oleksii Trekhleb,Add more comments for Dijkstra.,False
+1f393551c72c4559f17766ab54f4758fe3752ac8,2019-02-15 10:48:53,Oleksii Trekhleb,Add link to Graph Breadth-First-Search visualization.,False
+b527f9bf71dc74b27f6fd22e313581f8e4370c9a,2019-02-13 11:10:43,Oleksii Trekhleb,Add more links for further readings for graph DFS.,False
+6fe7df339a76c3a1ce9be3aac5a1b2b2eeb52e4c,2019-02-01 12:32:23,Oleksii Trekhleb,Add more comments to tree DFS algorithm.,False
+f08fc37dad3f4e7d9dcceb8cdcbf07d89859d2ac,2019-01-04 20:33:35,Oleksii Trekhleb,Add comments to combination algorithms.,False
+6261d0e9bb0091767dfc811b87ca506cf1665b1f,2019-01-04 20:08:58,KeiSei,[Fix] Capitalization issues of doubly linked list. (#282),False
+3064a7906b0f5acf448a0d167280b512690ce2d2,2018-12-28 20:05:54,Oleksii Trekhleb,Add links to zh-CN version of Factorial.,False
+af77d1adc18883a4f0575d9aee7e539c4c320f82,2018-12-28 20:03:25,RequireSun,Create README.zh-CN.md (#267),False
+2bf2cd906a2da50b7f59043ee626569fda3785fd,2018-12-28 19:58:44,Stulov Alex,Translate Priority Queue. (#279),False
+9e7ef3680a9ffc048febc095b4b67ce38a5ba2cb,2018-12-28 19:57:14,Stulov Alex,Translate Queue into Russian. (#278),False
+d67db50a3bf115d16d5c1e41c27c58c1fc2e19de,2018-12-28 19:55:36,Stulov Alex,Translate stack into Russian. (#277),False
+f53eb176650c525f7fd8aed94de6d1ecc73b8a78,2018-12-28 19:51:51,Stulov Alex,Translate DoublyLinkedList. (#276),False
+db6fcb289ab0882e9979d52dec2104af59f09a6f,2018-12-28 10:47:21,Oleksii Trekhleb,Fix LinkedList translations.,False
+90d8a3f6fc00e62250e390e658a3b3f455d93adf,2018-12-28 10:43:01,Stulov Alex,"Translate into Russian (#275)
+
+* Translate LinkedList README in Russian.
+
+* Translate missed sentence. Add link to Chinese README.",False
+98eb9aebff8843de20aa151b9bd8007e5f1c5138,2018-12-28 10:33:39,Whales,fix wrong words (#273),False
+59c6f4df13775e8dd69c4e5f3244e7b2a91dd589,2018-12-14 17:26:15,Oleksii Trekhleb,Optimize permutations algorithm.,False
+d9946c12497bc5f28ac5788cdd7f46bae777f2a1,2018-12-11 11:27:38,Oleksii Trekhleb,Fix btPowerSet() comments.,False
+da0f97a2d32a1f2040c2b238102ad9cc38b58ed3,2018-12-11 09:51:50,Oleksii Trekhleb,Fix PowerSet function naming.,False
+3baf88cf7539426f4c1e4f7afa992de31ffa9fc5,2018-12-11 09:34:20,Oleksii Trekhleb,Add PowerSet binary solution example.,False
+3844e9f1da9f16b339176b522818eeb13413bbc6,2018-12-11 09:30:22,RequireSun,fix: correct the wrong code of `Deletion` (#263),False
+e4ba378767937e6bc420870e6f767fa9c952d32c,2018-12-11 09:22:58,Minki-Kim,"[FIX] Japanese Translation (#266)
+
+* [REFACTOR] ReadMe.ko-KR.md
+edit awkward grammar and add more explain about Algorithms by Paradigm
+
+* [ADD] ReadMe of japanese
+
+* [FIX] change Japan person to langauge of Japan",False
+d885fd28c0d72aa10a196a5c8b4127dc412c0f6b,2018-12-10 22:52:15,Oleksii Trekhleb,Add Japanese translation.,False
+968335c9bedd5f7b8b70bff33a308d24e7412878,2018-12-10 22:45:36,Minki-Kim,"[REFACTOR] Algorithms by Paradigm of ReadMe.ko-KR.md (#260)
+
+* [REFACTOR] ReadMe.ko-KR.md
+edit awkward grammar and add more explain about Algorithms by Paradigm
+
+* [ADD] ReadMe of japanese",False
+8473562b7ec79a7dc4354db5e9802719f1bdd626,2018-12-10 22:07:13,Oleksii Trekhleb,Fix broken links for AVL tree README.,False
+afa3346c48907a694e34c24ad925ebd0a3a88ff1,2018-12-09 20:37:13,Oleksii Trekhleb,Code style updates for DoublyLinkedList tests.,False
+c18d119a6a859b5b3893f7c508d8122b79c12c79,2018-12-09 20:33:47,YuqiangZhang,fixed doubly-linked-list reverse method omit change node's previous (#257),False
+4e27a979d747f7a8c410793ac82f0d76fa34dbaf,2018-12-09 20:04:02,RequireSun,Update the linke of trie to the chinese version (#262),False
+ab51eb5d51ebdbe87d0ecff903736f8b74da599f,2018-12-09 19:55:01,Oleksii Trekhleb,Fix zh-CN README.,False
+23947bd9ad98abe99369ae8c64a780ec1151a33e,2018-12-09 19:51:50,Henry,update readme.zh-CN from readme (#250),False
+6be276fcebb9163ea63bfd799519d1416533372a,2018-12-09 19:41:48,Oleksii Trekhleb,Fix indentations in bubble-sort README.,False
+d91edc9a3922076820eb7c7d2f6da1594661ae68,2018-12-09 19:40:30,Sylvester-ABC,"update on readme (#235)
+
+I make sure readers get the full understanding of the documentation",False
+2382225e033dc612e9688158212bee78a5b06f0f,2018-12-05 09:36:29,Oleksii Trekhleb,Add comments to Cartesian Product function.,False
+243be8f2d180ab781af0d4c25becb6a9f3ff25f1,2018-12-04 11:34:24,Oleksii Trekhleb,Add comments to binarySearch function.,False
+039555f00bcd65b69f3118db5a05d2f3edac84b5,2018-11-30 11:40:11,Oleksii Trekhleb,Do npm audit.,False
+5ecb695283e13b1edcbbb649ef92f8e6482552b9,2018-11-30 11:32:22,Oleksii Trekhleb,Update outdated dependencies.,False
+1ecb5b4236d59db1c009385005109b6eacc03bf4,2018-11-30 11:13:09,Oleksii Trekhleb,Add comparator annotations.,False
+f7ebddc82d44d1249bd3482375e155210893e7d9,2018-11-26 10:00:56,Oleksii Trekhleb,Remove duplicated methods from Graph class.,False
+9bc28008485104d1881b0327683baa37d63a3ad7,2018-11-14 21:15:14,Oleksii Trekhleb,Add Recursive Staircase Problem.,False
+5e0e571a5cd7957b0560d785eaad4cdb36266451,2018-11-10 12:53:17,Oleksii Trekhleb,Merge remote-tracking branch 'origin/master',True
+af9de0f4310566047837b8a02fa8bf063bd6ce9d,2018-11-10 12:52:32,Oleksii Trekhleb,Upgrade packages.,False
+fac2d1ff5073fd8ab2787856b0a2488aeb111c09,2018-10-23 08:15:58,Silence Tang,use Destructuring in change data (#233),False
+fad170cfc8ba2de6f2b7b42a72a670649b58a19d,2018-10-18 08:49:46,catchme,fix typo error (#228),False
+6bd6072d45cc31b12c7b24effa305c94e9fd8472,2018-10-17 08:49:14,Yavorski,Properly detect min and max element in array (#224),False
+5d12638ab59be001f01c14473193788ec7305b58,2018-10-17 08:43:27,Sid,"BubbleSort: use Destructuring assignment to swap values (#226)
+
+* BubbleSort: use Destructuring assignment to swap values
+
+* lint: add semi",False
+044441e2594051ebb845294c700099c22c4483de,2018-10-17 08:38:34,kiinlam,"Add prepend and fix bug (#227)
+
+Add prepend operation and fix some mistake in pseudocode.",False
+26b84077b47df83582acb44f61aae9c2c1fac064,2018-10-12 14:29:19,Oleksii Trekhleb,Update npm packages to newer versions in order to get rid of security alerts.,False
+88807528ab9902cd8be2ca3a9c5cb3f79d7de513,2018-10-09 08:44:17,Juan Pablo Valencia,Adding missing algorithms in the spanish readme (#222),False
+2be1c44ed328aee99a0916e6bc78dbedaea75556,2018-10-08 09:03:51,Juan Pablo Valencia,"Mutiple fixes in the spanish readme (#221)
+
+* Fixing various spelling and vocabulary issues in the spanish readme
+
+* Removing some unnecessary capital letters in spanish readme
+
+* Fixing vocabulary in the tables in the spanish readme",False
+80211e07acea8b52670a7da74f72b633f4c439c4,2018-10-01 19:45:07,Agustin Navcevich,Fixed the translation in spanish (#218),False
+afa49487678d11fc03f44a889be5297c9959bdeb,2018-09-24 12:15:31,Oleksii Trekhleb,Simplify AVL tree node deletion.,False
+04e533e4b51169d46cedb05cfb416d5c58683690,2018-09-24 11:42:38,Hafidz Jazuli Luthfi,"Add remove method (#33)
+
+Remove node in AvlTree with auto balancing.
+
+Fix issue: https://github.com/trekhleb/javascript-algorithms/issues/13",False
+ada4537023c3afcb0976465c46693ae2539aeb1b,2018-09-24 10:03:53,Oleksii Trekhleb,Add links to the list of locales to CONTRIBUTING.md.,False
+9f3561d2913c93ec8c5d25cb533ffe5c73b2284f,2018-09-24 10:01:18,Yavorski,"Fix Stack pop comlexity to be O(1) (#214)
+
+* By definition Stack push/pop time complexity should be O(1).
+* Fix is applied by removing head instead of tail in pop method.
+* Push method now do preprend instead of append.
+* Fix consistency between toString and toArray methods.",False
+45fb2a24bec48fbb7e270dd44ce79218703dc2f6,2018-09-20 18:55:46,Oleksii Trekhleb,Vectorize images for Levenshtein Distance.,False
+40e48ddfb2376ac0a880f21022ef6f0827cc96a5,2018-09-20 18:53:17,Ocn,Fix minor typos in README (#211),False
+2451db975dc4525f837042476138e07df9d8c08c,2018-09-18 10:47:47,Oleksii Trekhleb,Add iterative version of Euclidean algorithm.,False
+c00c689255febe9fea441fe09cbce9090f0734e4,2018-09-18 10:34:56,Vamshi Bachaneboina,"Update euclideanAlgorithm.js (#207)
+
+Method 2 is easy to evaluate or understand without using recursion stack!",False
+c4458e9d42f845521273421a55ab9fed2b89f3dc,2018-09-18 10:13:48,mcdong,"change '克努斯-莫里斯-普拉特算法' to 'KMP算法' (#208)
+
+In China, we usually call it 'KMP算法', So I chose to use a free translation instead of a literal translation.
+
+and I may submit content about Chinese translations more frequently recently.",False
+ec6c427303dd536a6e646d092d8b6936014041e0,2018-09-15 11:49:18,Oleksii Trekhleb,Add fibonacci Binet's formula.,False
+51d67e7eacab318698242349a2501be852fae8ba,2018-09-15 11:47:19,Oleksii Trekhleb,Add fibonacci Binet's formula.,False
+a23400380da8d0fe496b3fb2f1ca790bbb4cfb6a,2018-09-14 20:31:41,Karlo Vrbić,"Add fibonnaci sequence closed form function (#130)
+
+* Add fibonnaci sequence closed form function
+
+* Revert package-lock.json",False
+dea368cb1611058966dd93a12d81a0f407d8ffc5,2018-09-14 20:26:38,Oleksii Trekhleb,Add more fibonacci test cases.,False
+46bc844fc6f582cf9a36f36e40947da3fe003250,2018-09-14 19:51:51,Oleksii Trekhleb,Add several more comments to in place quick sort.,False
+66f19d65c5f3da9e8e5ec0e0c00dba1dfa219212,2018-09-14 19:33:37,Kevin Brewer,Minor refactor of QuickSortInPlace for simplification (#187),False
+92b9e6ad1d4d748b8db91e4de316118986d1a789,2018-09-14 10:36:48,Oleksii Trekhleb,Add more tests to isPositive() bitwise function.,False
+ab7755aad72e34efac0c30dd6333b06b9ce29cee,2018-09-14 10:12:42,ADITYA,feat(bitwise): Function to check if a number is positive (#204),False
+861e0e9243a76b5e5490b74274b5490bde4eb7fc,2018-09-14 10:05:19,Oleksii Trekhleb,Update README.,False
+de6a24e0d166a72bcc3f79b7e1920500a1df69f8,2018-09-09 01:39:04,Oleksii Trekhleb,Minor code style fixes for bitwise multiplication.,False
+bc8943dee2e53402919ff0bd1a70d762e4737ad8,2018-09-09 01:21:03,ADITYA,Perform multiplication of any two integers positive or negative through bit manipulations (#201),False
+1a62078f26fb85719ce61ef1f282baaa3b80a6d0,2018-09-09 01:05:24,Vinicius,"Improve JSDocs in Stack.js (#203)
+
+The functions' comments were copied from Queue.js, but some words were not replaced.
+I also made some changes to the wording for clarification.",False
+6f27113993cc53f988175ac6e3ca9368f3e1a1a9,2018-09-09 00:55:23,Oleksii Trekhleb,Add reverse() method for doubly linked list.,False
+80ecbe0b3ed34e51893e77b95606026cf381ffe4,2018-09-09 00:50:52,Oleksii Trekhleb,Move linked list traversals into separate section.,False
+2feec48ea69eac8fb927bc6e437977979abafc91,2018-09-08 14:46:15,Oleksii Trekhleb,Add more test cases for linked list reversion.,False
+4989a6a3b018501df52031950716f6cdc6febf60,2018-09-08 14:25:51,Hanh D. TRAN,"Add LinkedList traversal and reverse implementations (#194)
+
+* Add LinkedList traverse function
+
+* Add LinkedList reverse traversal implementations
+
+* Update LinkedList traverse function
+
+* Update LinkedList reverse traversal and test cases
+
+* Update LinkedList traversal tests",False
+d038c402dd60413cacd6d45bdbc0255b96e32597,2018-09-05 14:09:39,Oleksii Trekhleb,Add info about the purpose of the repo to main README.,False
+f1a32d9f851845bd6b14c34dd270de16c03c8960,2018-09-05 14:08:22,Oleksii Trekhleb,Add info about the purpose of the repo to main README.,False
+7dc60c96bfd13c52ed79d75cdfa99dd53d36e7b1,2018-09-04 20:57:38,Oleksii Trekhleb,Add Fast Powering algorithm.,False
+8116aa7cfb69e77b36eaf1441e5f96c8051cf863,2018-09-04 20:05:48,Oleksii Trekhleb,Refactor fast powering algorithm.,False
+8676c1b9fe8e68a32e8a21b8f4ab0db25516631b,2018-09-04 19:51:09,HatimLokhandwala,"Adding math algorithm to compute power and its tests (#172)
+
+* Adding math algorithm to compute power and its tests
+
+* adding more test cases, updating compute power js
+
+* Updating ReadMe for power computation algorithm",False
+518dc5738849ef3f9de3509e8e98802987999230,2018-09-04 15:07:08,Oleksii Trekhleb,Fix bug with .travis.yml not installing major dependencies.,False
+ae236dff665096e2a2fa08127d53dc1cfa05f824,2018-09-04 14:59:57,Oleksii Trekhleb,Move codecov dependency from package.json to .travis.yml file.,False
+ea78fb6eaf9ac8fafc4ffaf4a47a8d1b6f5fc92e,2018-09-04 14:35:25,Oleksii Trekhleb,Fix ShellSort README errors (issue #195).,False
+788ff22c9034fa7ff7efe28d2d04e5eb23dfd07a,2018-09-04 14:09:43,Oleksii Trekhleb,Minor refactoring of dpMaximumSubarray.,False
+814fa773cadcf66ad70b5d2ef4dafda99b697560,2018-09-04 14:05:13,Oleksii Trekhleb,Add more test cases for finding max sub-array algorithm.,False
+2a2b5daa7d7f265f2392ca5fa05a38dc08b26c41,2018-09-04 12:17:05,Kevin Brewer,"Simplify dpMaximumSubarray (#189)
+
+* Simplify dpMaximumSubarray
+
+* change var name from currentMaxSum to currentSum
+
+* fix comment with old variable name",False
+6b0bacd9934495b2cd0b3199216f029c9ebbb96a,2018-08-31 14:44:29,Kevin Brewer,clarify comments (#193),False
+002d32a8cd6d040f490f9192cbd77781a5152337,2018-08-30 11:13:21,Hanh D. TRAN,"Update LinkedList prepend pseudocode and append test (#188)
+
+* Add LinkedList test
+
+* Add pseudocode for LinkedList prepend",False
+872521fb03b0ad699393e9e60271f6b18e6eb22b,2018-08-30 11:00:24,Jack Lee,"Partial translation of Simplified Chinese (#185)
+
+* init
+
+* init
+
+* init
+
+* init",False
+68af4fc165d56e4472bbe6347177b7b02943b240,2018-08-30 10:55:38,Oleksii Trekhleb,Clean up Heaps.,False
+bc50fff2eeb7f51c5fa28d3c3b1644ac6ad6e242,2018-08-30 10:41:14,Kevin Brewer,clean up Heap implementation (#184),False
+a8d7435b8d9a262938622c330f05de5637d98c35,2018-08-30 10:34:47,Oleksii Trekhleb,Fix LinkedList pseudo-code (issue #191).,False
+af64d12a236329f7c375ff9d7b381aaf7e831155,2018-08-28 09:28:43,Oleksii Trekhleb,Add more unicode related tests to longestCommonSubstring algorithm.,False
+82ac89b16aaa759b82546fff055bfb92c26a2a6a,2018-08-28 09:26:44,DADDOU Mohamed El Amine,fix longestCommonSubstring() to handle unicode characters (#129) (#176),False
+e09d526785bbcd7046dd6e1b359998f7641821e9,2018-08-28 09:07:19,Klaus Sinani,Fix minor typo on `segment-tree` readme (#183),False
+b9d0d9ab380c0bd65b9d71aaf3c94df9992d39fb,2018-08-27 19:43:43,Oleksii Trekhleb,Add isPowerOfTwo function.,False
+70b0e0a6527c2f0e170c85e4fa980626916ed981,2018-08-27 19:29:43,Tapasweni Pathak,Add ifPowerOf2c (#155),False
+20497bb0447bdf44369a1b6f0305864ef93b4e5f,2018-08-27 19:07:25,Mahmoud Aslan,Fixed Contains operation pseudo code (#180),False
+b1f31cd067b95564120aec5aedaf6a96154c6e3c,2018-08-27 19:00:18,Oleksii Trekhleb,Fix issue #179.,False
+bdf8a174ebfff241e3d7ad47b389ae827549c2b8,2018-08-27 18:24:55,Oleksii Trekhleb,Improve Trie test coverage back to 100%.,False
+41041551824dbe8e88e3de96089c160dc391ba92,2018-08-27 18:15:48,Oleksii Trekhleb,Simplify deletion method of TrieNode.,False
+a7ffba157c54d9db205973e268ff34ca628f2de6,2018-08-27 18:08:50,Oleksii Trekhleb,Extend Trie and TrieNode tests.,False
+d25eff49e60dfdc3874dfc1ca7358ac2171e9627,2018-08-27 18:03:16,Kevin Brewer,Add Trie.deleteWord and TrieNode.removeChild (#181),False
+6e2ff9b6040a8ef4e80dc42768190dd78ce24323,2018-08-25 16:04:05,Oleksii Trekhleb,"Add comments to Trie ""add"" method.",False
+eac3e81a21f7f26cd8f66ca1981c411b71a0f1de,2018-08-25 15:57:44,Kevin Brewer,Fix TrieNode.addChild so substrings get marked as complete words (#177),False
+872a38fac6ee2d8df7adac9dbab625e5965cf4cc,2018-08-23 14:17:19,Oleksii Trekhleb,Add short Big O explanation to the main README.,False
+f4e3907f2ce7f03eea3abb4a239aa2c5a4f83e88,2018-08-23 14:16:10,Oleksii Trekhleb,Add short Big O explanation to the main README.,False
+5adca6628213dc3dde0a80c73c40b757dd212c05,2018-08-23 14:10:59,Oleksii Trekhleb,Update README.,False
+20b0c48e849df92c4a04965f9df7038f980a256c,2018-08-22 10:19:22,Oleksii Trekhleb,Add comments to Stack code.,False
+571d9312cdc22004549704703445d2999b7b1e53,2018-08-22 01:33:04,Oleksii Trekhleb,Fix trie's doesWordExists method.,False
+392cd9806dcc898b996a119552e545722afcc864,2018-08-22 01:30:11,Oleg,"Fix method Trie::doesWordExist() (#175)
+
+Method Trie::doesWordExist() return `true` when word is complete otherwise `false`",False
+5eb1195c61915bd5f4a48ad63c74015b64a72c32,2018-08-21 19:25:26,Oleksii Trekhleb,Add backtracking solution for finding the power-set of a set.,False
+bffacf0707b82970a5f04a16c7937ee7dd016f98,2018-08-20 20:42:56,Oleksii Trekhleb,Add nQueens bitwise solution.,False
+20159312beca81b0d2523ebf040ccc7992f89274,2018-08-20 18:29:37,Oleksii Trekhleb,Move nQueens bitwise version to the same folder with nQueens algorithm.,False
+18ba3a4db35b0158430024c7bbc87954976fed55,2018-08-20 18:27:01,Matej Jellus,"Add N queens problem bitwise solution (#15)
+
+* Add N queens problem bitwise solution
+
+* Update code to corespond with eslint",False
+5a57c5f018d606b5c9ba40e8175e1ce854f30fa5,2018-08-17 20:30:20,Oleksii Trekhleb,Add comments to Queue class.,False
+5eea37837f1e7f7b0160fe2f50c48298555d4465,2018-08-17 20:17:29,Oleksii Trekhleb,Add annotations to Queue.,False
+260f24b2cb1a9baa7b1353139b8f0b339b1d7b25,2018-08-17 13:11:18,Oleksii Trekhleb,Update Bits Operations README.,False
+ecfc2879277989ff921209900100487c82e2978a,2018-08-17 13:06:47,Oleksii Trekhleb,Update Bits Operations README.,False
+983492115d96de2a04933f9ae01c4b6a1ed26c2c,2018-08-17 13:01:18,Oleksii Trekhleb,Fix tests.,False
+980601295dfc1311cd65fcf1c0e70f784d7cf586,2018-08-17 12:54:20,Oleksii Trekhleb,Update README.,False
+a02d5f625d40d67fce0e0dca9564fe489bca044f,2018-08-17 12:53:07,Oleksii Trekhleb,Move common Max/Min Heap code to Heap.js.,False
+031c5da5566c0ae56d70002e4a89e1f7fa5de182,2018-08-16 23:33:32,Oleksii Trekhleb,Refactor Heaps.,False
+10e633f075cf3aa6833335025d12989eb10f85e3,2018-08-16 20:48:19,Oleksii Kersov,"Add MaxHeap (#167)
+
+* Add MaxHeap
+
+* Add parent class for MinHeap and MaxHeap",False
+a191adeae342d5f62677925dc15c9d48abc73fd8,2018-08-16 16:06:58,Oleksii Trekhleb,Fix jest config so that it would run on Ubuntu correctly.,False
+3ea570869ea726df0b48e4db20e602bbe8b0bb5c,2018-08-16 16:05:04,Oleksii Kersov,Test suite failed to run on Ubuntu (#170),False
+36173817f3ec3f6eedc1e77237c4117eb0631063,2018-08-16 15:47:09,Oleksii Trekhleb,Update README.,False
+6e63a0548e02a7dbd54a11150d0c9bcf0bdce7c3,2018-08-16 15:44:40,Oleksii Trekhleb,Add Inverse Discrete Fourier Transform.,False
+351a745f55d1bd0944d4c0e6477fdb1cc5228311,2018-08-16 15:07:06,Oleksii Trekhleb,Refactor DFT and add common tests for Fourier.,False
+13ed5061a342eddfd329711ec8aa2b0d51986654,2018-08-15 20:17:32,Oleksii Trekhleb,Update FFT tests.,False
+c2f7e49f07d00e9dfb3ace4d65e38329d4c4e56e,2018-08-15 16:10:16,Oleksii Trekhleb,Fix README for Fourier transform.,False
+d736b2f35556428b2c15dca3971cfc403ac770a3,2018-08-15 16:02:09,Oleksii Trekhleb,Style fixes for FFT code.,False
+ac9920a0f30e2bea9117b919aae85c4409effb2b,2018-08-15 15:57:50,Oleksii Trekhleb,Style fixes for FFT code.,False
+a88c45a329c4a40869e192d57f364f4437b32900,2018-08-15 15:30:04,Oleksii Trekhleb,Fix typos.,False
+12d649e372a8f85b72da7fb3e40cf0724fe8767b,2018-08-15 15:26:23,Oleksii Trekhleb,Implement Discrete Fourier Transform function.,False
+53a0b6168d12d3e1d2582915847aeca8436c14b1,2018-08-15 15:25:35,Oleksii Trekhleb,Fix bug with converting complex number into polar form.,False
+4bdac18ae0e098e2a68fe687b5a89b50993f0f79,2018-08-15 01:49:30,Oleksii Trekhleb,Add polar form of complex number to README.,False
+d0c4baf7b3bcfb712a57c33e5daaab5e8ae05923,2018-08-15 01:42:17,Oleksii Trekhleb,Add DFT.,False
+8e66189eff166a151a73ff548949fc69ab0c2c5b,2018-08-15 01:33:07,Oleksii Trekhleb,Update Fourier README.,False
+1fb9d78751921462b45aadc64d8b0c72f2a5a199,2018-08-15 01:28:36,Oleksii Trekhleb,Add Radian converter to main README.,False
+e252eb631db97ed5c4ca8d082072aaf77c0c7657,2018-08-15 01:26:13,Oleksii Trekhleb,Add polar representation of complex numbers.,False
+096d5a8b5bdb4fe8d000f269ff3ec39cdc8a95c6,2018-08-15 01:01:13,Oleksii Trekhleb,Add Radian.,False
+b3315966e56f7c1c1c285395e9db73f613e8c3a8,2018-08-15 00:00:57,Oleksii Trekhleb,Refactor complex numbers.,False
+7d6854489efaed88367720e58d5171f7a40722b2,2018-08-14 20:15:56,Oleksii Trekhleb,Merge branches 'fourier' and 'master' of https://github.com/trekhleb/javascript-algorithms into fourier,True
+b0c9057cdbc113cae469778861635a7257434035,2018-08-14 18:16:58,Oleksii Trekhleb,Fix pseudocode formatting.,False
+b6ac765c996c1de10da5ed89013684925cffca5d,2018-08-14 17:51:34,Moshe,Pseudocode + big O for BFS (#166),False
+953eaf8970718723cf182a7403da8eab6ce242f2,2018-08-14 17:50:54,Moshe,"Update README.md (#165)
+
+Add Pseudocode and Big O",False
+7207bcefb2662a67b5eeebd82f09b8402714dd2e,2018-08-14 17:50:09,Moshe,"Update README.md (#164)
+
+Add Pseudocode for Doubly Linked List",False
+5667cfb550a4e04e485fa216fb303f9b33ab597b,2018-08-14 17:48:55,Moshe,"Update README.md (#163)
+
+fix verbiage",False
+29fb0c7055cc4fdc30d06427f002b87831855b97,2018-08-13 20:39:46,Oleksii Trekhleb,Rename variables.,False
+8ea35a5549f4c6546fb82fbd5b5ce000850e08a1,2018-08-13 20:38:07,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms into fourier,True
+9111568fc02f16c881b5fd83337b461461c5769a,2018-08-13 20:36:48,Oleksii Trekhleb,Add bits counter function.,False
+7d3115edaaa6ec319d62ddd4d61a7b863f44b029,2018-08-13 20:27:17,Oleksii Trekhleb,Use existing complex numbers implementation for Fourier.,False
+6f10b0e10f1d899e43ee0256419cfffa9795a439,2018-08-13 20:15:50,Prateek Karnal,"Added Fast Fourier transform (#135)
+
+* Added Fast fourier transform
+
+* Adding DFT explanation
+
+* Added tests for Fast Fourier transform
+
+* Fixed some comments",False
+3c37ba4424df1fd4864b9c7ae69cf42c8460edf3,2018-08-13 13:32:58,Oleksii Trekhleb,Add bitsDiff function.,False
+2361e6fc4436933666abfae340fdd0c35f69b4f7,2018-08-13 13:22:29,Tapasweni Pathak,Add countBitsToflipAToB (#154),False
+6c9641aa3d3bb6b90b4f4165d63c1f4d26202477,2018-08-13 13:11:06,Oleksii Trekhleb,Add pseudocodes to LinkedList.,False
+f6c091bcb133fc02729c38075a80f10472df2a70,2018-08-13 13:08:19,Oleksii Trekhleb,Add pseudocodes to LinkedList.,False
+02b70d95d6fb43098e5f74f895d23de307293308,2018-08-13 13:00:49,Moshe,"Update README.md (#162)
+
+Add Pseudocode and Big O notation",False
+37c7be15e99c17f83f4042e36c674dca5921207b,2018-08-12 12:48:32,Oleksii Trekhleb,Add bit counter function.,False
+9ce137cef86a634acd83eab3a872e652243d93d5,2018-08-12 12:46:12,Oleksii Trekhleb,Add bit counter function.,False
+a8f7d6a333f05309aa96646da7ae1cc1f1c36860,2018-08-12 12:36:13,Tapasweni Pathak,Add countSetBits (#152),False
+28ee030a82d221b0ed27e4ceb4e654aa66bce6b7,2018-08-12 12:18:36,Oleksii Trekhleb,Add Portuguese.,False
+09a354ac9b867f8b6b035066b4629a22262484e0,2018-08-12 12:10:05,Édipo Nascimento,"Translated into Portuguese, Brazil. (#161)
+
+* Translated into Portuguese from Brazil
+
+* Update
+
+* Translated into Portuguese, Brazil.",False
+70ec623cbff88eb73e45506c396403acfeb6d404,2018-08-11 18:28:19,Oleksii Trekhleb,Add ComplexNumber.,False
+46b13f04fdc834de2b5414bdc29ee32e031aac71,2018-08-10 20:52:06,Oleksii Trekhleb,Update BitWise Operation README.,False
+7f189498cff2be4bc89e16f93c9dd4a4d6066eee,2018-08-10 20:49:58,Oleksii Trekhleb,Update BitWise Operation README.,False
+3f963ccc21283cc03b2283868e271c7390292a7f,2018-08-10 20:46:39,Ujjwal Aryal,Update README.md (#141),False
+50c025949b7c363e3d7f997922ec51f711004f25,2018-08-10 20:44:39,Oleksii Trekhleb,Refactor bitwise multiplication.,False
+53c7143e07f52c831e57aef83a8cb294209bfe09,2018-08-10 20:09:45,Ujjwal Aryal,"Create multiply.js (#140)
+
+Multiply Two numbers using Bit-wise Operator.",False
+cc3a5bd35385d03e4654044ee7f175ff75ae268e,2018-08-10 19:09:10,Oleksii Trekhleb,Add link to English translation from the Spanish README.,False
+a6ffce9a3919c84b06be12b5991d32a08d3d9ede,2018-08-10 19:03:58,Oleksii Trekhleb,Add Spanish translation.,False
+c0a966110065238ac46bb21d44e5d51b8fcb1f7a,2018-08-10 18:42:22,Agustin Navcevich,Added spanish translation README (#148),False
+bcedcce9cbc6c4fbcc381850aba7f4df7ed1cb14,2018-08-09 19:00:18,Oleksii Trekhleb,Update CN README.,False
+428648a13eda6f4d6b45839982980965e7115993,2018-08-09 18:40:34,yobrave,Update README.zh-CN.md and Add date (#146),False
+ff4854e0b8f2b905d75a12c2c73309d0c05a7663,2018-08-09 18:34:59,Oleksii Trekhleb,Simplify PolynomialHash function.,False
+51f496ce2e14296c795fc65a222a21e8da997c77,2018-08-09 18:16:22,Oleksii Trekhleb,Add SimplePolynomialHash function.,False
+d5be477bd84a2a4a1f262e108426df7991160faf,2018-08-09 17:42:36,Oleksii Trekhleb,Add Polynomial Hash function.,False
+98a44ea832556c4225aaf236cbb93476d2dc46b0,2018-08-09 09:54:31,Oleksii Trekhleb,Added Polynomial Hash Function.,False
+b3a503aa6db8eff39b1cab3523b804f91aa870f7,2018-08-09 08:40:47,Oleksii Trekhleb,Add unicode based tests for RabinKarp.,False
+e7d22b488362e0425b52f92d52c25ae89fe95974,2018-08-09 08:35:09,Oleksii Trekhleb,Use '===' for double check string comparision in RabinKarp.,False
+d303d83673ed9e9e4beefefdc2488de5899e19e8,2018-08-09 08:27:53,Oleksii Trekhleb,Use rolling hash function for RabinKarp.,False
+650e3099e5b17d4390d3902c677988b205584aca,2018-08-06 19:25:01,Oleksii Trekhleb,Merge branches 'issue-102-rabin-karp-fix' and 'master' of https://github.com/trekhleb/javascript-algorithms into issue-102-rabin-karp-fix,True
+7c9601df3e8ca4206d419ce50b88bd13ff39deb6,2018-08-06 19:10:23,Oz Weiss,"Update combinationSum.js (#137)
+
+fixing a few typos in comments",False
+941feda305fc7648505c63bf472b3a5725ac1881,2018-08-06 18:56:22,Diego Paiva,Fix kruskal's exception message for directed graph (#138),False
+88bbfdc4707e6cafb5b8f9240fc6613356a45029,2018-08-06 18:42:31,Oleksii Trekhleb,Add fromArray() methods to LinkedList and DoublyLinkedList.,False
+0ea24230d4fa77bd7666bc871f1c7682a7b62795,2018-08-06 18:32:46,Simon,"Patch 5 (#127)
+
+* New function 'fromArray'
+
+Function get array of Doubly Linked List Nodes, go through and append to currently list.
+
+* New Test for new function 'fromArray'
+
+* Minor changes
+
+Minor changes about coding style.",False
+7a4b829abecf85b2e1079d89de2049e10b23400f,2018-08-02 19:13:54,Oleksii Trekhleb,Fix issue #132 - Wrong Red-Black Tree pictures in README.,False
+ecc8c65466e51e7f50a774e2b1b2707ed586ec1f,2018-07-30 18:08:04,Oleksii Trekhleb,Add comments to Linked List code.,False
+97926b124317c3b6d9dc651a1f7d38326c250671,2018-07-30 18:05:28,Oleksii Trekhleb,Add comments to Linked List code.,False
+5105898aa7e2ed4c770ec58434c00f4b76539580,2018-07-30 18:03:17,seIncorp,"Twice defined (#124)
+
+* Twice defined
+
+Parameter 'deletedTail' were defined twice.
+
+* Update LinkedList.js
+
+* Update LinkedList.js",False
+6e897a0a7ae5e3b5284f0e15b931e15b045de2f1,2018-07-30 16:48:56,Oleksii Trekhleb,Minor README updates.,False
+c4605ea13d74c8a585a704d40c6e9f16b9ffca86,2018-07-30 14:50:40,Bruce-Feldman,"Refactor Rabin-Karp (#110)
+
+* Simplify Rabin-Karp functionality
+
+* Created Rabin Fingerprinting module within util directory
+
+* Updated Rabin-Karp search to use rolling hash module
+Incorporate tests from @dubzzz",False
+b73aa7fe47160cf07a89fb93dbc69e71b368229e,2018-07-30 14:40:06,Kim Jong Hyen,"Korean translation fix.
+
+어떤 종료의 -> 어떤 종류의",False
+f32172e3db50a73b2c4b09c4363d1fdc40ce2ef6,2018-07-29 10:58:49,Oleksii Trekhleb,Merge remote-tracking branch 'origin/master',True
+305e30357c2aa29ef82404028bfdbd31f267f49e,2018-07-29 10:58:03,Oleksii Trekhleb,Add comments to HashTable hash function.,False
+7d87c8cc6774e0ccb68d15669cf35db28601a69c,2018-07-28 11:24:13,YeonJuan,"Update README.ko-KR.md  (#118)
+
+* docs: create README.ko_KR.md
+
+Translate to Korean.
+
+* docs: Add korean readme
+
+* Update README.ko_KR.md
+
+Update README.ko_KR.md for Trapping Rain Water problem.",False
+f1152bf4b49dd81dc7cbbe80b575deb89a88e2a9,2018-07-27 16:41:33,Oleksii Trekhleb,Update README for Trapping Rain Water problem.,False
+26239f9a9735c66455522a2bd4ca022d12c86af1,2018-07-27 16:36:58,Oleksii Trekhleb,Refactor dynamic programming approach of Trapping Rain Water problem.,False
+f07e96ec591339c4afab342de2172f75efaec927,2018-07-27 16:34:37,Oleksii Trekhleb,Refactor dynamic programming approach of Trapping Rain Water problem.,False
+340a71b7d919bdb9bb3ef38fdca31c12f9f14edf,2018-07-27 16:10:07,Oleksii Trekhleb,Add brute force solution of Rain Terraces problem.,False
+6fc429975f453f14c70bd5ac79e2b43f4d403d25,2018-07-27 15:30:24,Oleksii Trekhleb,Add Rain Terraces problem.,False
+3271ee92b9293ad1dd10284af3f9d57609db23cf,2018-07-27 15:29:56,Oleksii Trekhleb,Add Rain Terraces problem.,False
+f142ca00b27dbf5c7c297843b5a609475c3e651e,2018-07-27 14:55:15,Keoni Garner,"Add rain-terraces (trapping rain water) algorithm (#112)
+
+* Add rain-terraces (trapping rain water) algorithm
+
+* Fixed linting errors
+
+* Fixed linting errors",False
+97c9f6f30366aa3b3ced681ad3b709411df72d96,2018-07-27 11:46:55,Oleksii Trekhleb,Add French translation.,False
+2321c1e7670eb4fe65790a666fd267acb957a887,2018-07-27 11:34:10,Roland,Add French translation (#116),False
+d090f769a41ca83fa40f9b9cdb87fc5e8dfeeba9,2018-07-27 00:42:34,Oleksii Trekhleb,Add Polish translation.,False
+f8e39652e1e69f60021b593c7876965e3342dbbe,2018-07-27 00:41:42,Oleksii Trekhleb,Add Polish translation.,False
+577cba93430766873b524b26170b72363382e2c1,2018-07-27 00:23:02,pavelekpl,"Translation to Polish (#115)
+
+* Create README.pl-PL.md
+
+Translation to Polish
+
+* Update README.md
+
+adding Polish language to the list",False
+80e3216609defba5c78763a803642d59be7378be,2018-07-26 20:32:34,Oleksii Trekhleb,Add annotations to Trie.,False
+39acb2b65d08f9103def6caa85f06e76dd636e7c,2018-07-26 18:44:26,Oleksii Trekhleb,Avoid using toBeTruthy() and toBeFalsy() because of type coercion.,False
+8da83cd9dcead29423a22c7044b8125ff23a71b4,2018-07-26 18:03:00,Oleksii Trekhleb,Update contribution guide.,False
+324e761c07a8fb554111a260fc5a8aa66c99f79d,2018-07-26 18:00:51,Oleksii Trekhleb,Update contribution guide.,False
+b79fc05d121d1861ae9e05d900a430a64f123718,2018-07-25 10:52:40,Oleksii Trekhleb,Rename Korean README.,False
+cd7fec3fb08a73c01e5ed362fb55518cd33d7250,2018-07-25 00:59:54,Oleksii Trekhleb,Add Korean README.,False
+7c95d3a68b12ab29559bf32d8626141baec9d297,2018-07-25 00:56:30,Oleksii Trekhleb,Add Korean README.,False
+740a6ad802fdd161b13ef6fba17dddc2461dd303,2018-07-25 00:54:35,YeonJuan,"Translate to Korean (#109)
+
+* docs: create README.ko_KR.md
+
+Translate to Korean.
+
+* docs: Add korean readme",False
+39014f7543b0017d28f6061e7e7dd59bbea23723,2018-07-24 15:07:55,Oleksii Trekhleb,Fix issue #105.,False
+12f0b331b8ca30de9005ef97c71527784909e8ef,2018-07-24 14:59:12,Oleksii Trekhleb,Add more tests for rabinKarp.,False
+0361fe5cf8e2dbb08461f4973152bb0c2e809fa7,2018-07-24 14:56:22,Nicolas DUBIEN,Fix knuthMorrisPratt for empty word request (#101),False
+76461f29eee8cc93a5fa7b454432844966fbf280,2018-07-24 14:26:25,liushuang,docs:update README.zh-CN.md (#106),False
+6a3a4b8697cd79a5a0c769d5eb3239c0d2507aad,2018-07-23 20:30:54,Oleksii Trekhleb,Add new test cases for KMP algorithm.,False
+76c172b20ba10981c9808b29a07d2391e963fda3,2018-07-22 20:53:39,Oleksii Trekhleb,Code style fixes for negative Counting Sort testing.,False
+3be02b55199352b31597c64fc01174b3c5c8cdf0,2018-07-22 20:33:13,Nicolas DUBIEN,Fix CountingSort for negative numbers (#100),False
+eec7f2f917dc55fe01684d431706e9de130dfc7e,2018-07-22 20:26:19,Oleksii Trekhleb,Change radix and counting sorting algorithms difficulty.,False
+3c00a695876fd118cc1b25654c5da36bb1dc4048,2018-07-21 10:25:31,Oleksii Trekhleb,Add JS book subscription link.,False
+fc893362f0173baa395d4ef2b65924d09a2183fb,2018-07-21 01:16:27,Oleksii Trekhleb,Add JS book subscription link.,False
+a3dce1674c694d0ed982491efe55db58b37d438b,2018-07-21 01:12:04,Oleksii Trekhleb,Add JS book subscription link.,False
+149444b47cc0664934afc3ce5829f36e5e17a20d,2018-07-18 17:05:02,Oleksii Trekhleb,Add Interpolation Search.,False
+31344fa6a2f0d621e7b957bf6375c1b061fe5c90,2018-07-18 14:33:21,Oleksii Trekhleb,Add tests for Jump Search.,False
+a327b68a060ea8a08f2595edd9d611c8924fe27a,2018-07-18 11:51:20,Oleksii Trekhleb,Add Jump Search algorithm.,False
+b73ddec94d5cbc95f923c0bc996717cb6907dc3c,2018-07-14 13:38:19,Oleksii Trekhleb,Add Pascal's Triangle based solution for Unique Paths problem.,False
+d8fb6579b1cbd10e8d2328d5bb2e3769da2f2b4a,2018-07-14 13:05:35,Oleksii Trekhleb,Add Unique Paths problem with backtracking and DP solutions.,False
+863dbdbac394a48829facada054971dd76659815,2018-07-13 20:18:27,Oleksii Trekhleb,Fix issue #98.,False
+fafa52c26ee5de19d5b6662c2565600e6abd0c2e,2018-07-13 20:06:39,Oleksii Trekhleb,Refactor Floyd-Warshall tests.,False
+2874637d400b62777a5e16a243d39d05ba1a830b,2018-07-13 19:35:21,Oleksii Trekhleb,Refactor Floyd-Warshall tests.,False
+dca7f6f8742bd9160602e1bc33d7669bdabf9676,2018-07-13 19:26:33,Oleksii Trekhleb,Refactor Floyd-Warshall.,False
+994ac2781aaaa73bce3e3dfe8ee2a3c8a1406590,2018-07-13 17:32:58,Oleksii Trekhleb,Update Floyd-Warshall READMEs.,False
+52918eea94a157a4f846916f75bf919972e000e6,2018-07-13 17:01:23,Oleksii Trekhleb,Update READMEs.,False
+9f8fd33202bc7713bca39b3fdecacc09a4ddf411,2018-07-13 16:53:47,vivaxy,feat(algorithms): :sparkles:Add Floyd-Warshall (#97),False
+3e8540beaccfa21c09c1f65a7ef7acc63e80d227,2018-07-10 10:47:52,Oleksii Trekhleb,Add Jump Game.,False
+549759757d08851af6edaa9409aafe5153650ebc,2018-07-10 10:26:28,Oleksii Trekhleb,Add bottom-up dynamic programming solution to Jump Game.,False
+57c2a334ce87a465f30dc834b325c77f9ee0cae3,2018-07-10 10:07:29,Oleksii Trekhleb,Add top-down dynamic programming solution to Jump Game.,False
+b71a2ebe9e5473739988f876bc3e3c4b17aa0e08,2018-07-10 09:53:25,Oleksii Trekhleb,Change naming for Jump Game files.,False
+df17e29fb7c48ab9c223d3c759eca88fa375d354,2018-07-10 09:45:36,Oleksii Trekhleb,Add backtracking solution to JumpGame.,False
+aacd7795d690439c3fb4f54fe6d90b71931ab95e,2018-07-09 20:30:09,Oleksii Trekhleb,Add greedy solution for Jump Game.,False
+e47ca45b7afca5685d7bd295c360aa891bde1d0e,2018-07-09 20:29:36,Oleksii Trekhleb,Add greedy solution for Jump Game.,False
+afbdb8910123f5722e040993881459c3c9ef3559,2018-07-08 06:59:12,Oleksii Trekhleb,Update heap documentation.,False
+a3d099003dca611eb76c19bc6dfe532d1ae412a1,2018-07-08 06:57:06,Correy Lim,"Improve data-structures/heap/README.md (#94)
+
+* Update data-structure/heap/README.md
+
+The overuse of parenthesis in the previous description made the
+explanation of a heap more diffcult to read. Following technical
+writing standards, the topic of the sentence should be at the
+forefront of a sentence, to give the reader an idea of what is
+going to be explained in said sentence.
+
+The mention of min heap and max heap were previously in parenthesis, in
+the middle of the sentence. This change informs the reader that there
+are two types of heaps, with a preface indicating which one is being
+explained.
+
+* Add min heap picture and move max heap picture
+
+Add a picture of a min heap below the explanation of a min heap.
+Move the picture of a max heap below the explanation of a max heap.
+
+* Italicize heap terminology
+
+Italicize the terms 'max heap' and 'min heap' to make it clear to readers that new terminology is being introduced",False
+b87839062aca7fe9216a6ff7255081dd4b2e4873,2018-07-07 13:41:20,Oleksii Trekhleb,Add Pascal's triangle.,False
+f3189cca43f3c946314adb4606c02c8eb2e4288a,2018-07-07 13:05:37,Oleksii Trekhleb,Add Pascal's triangle.,False
+92a90606dc2bfc8e53b9e3416c7d57192eef0126,2018-07-07 12:44:00,Oleksii Trekhleb,Update Jest configuration file.,False
+bb86b30dda3018c275ae6c37f617b93f4f3d08c2,2018-07-06 14:32:42,Oleksii Trekhleb,Code style fixes for matrix rotation algorithm.,False
+57378c5e19b00eb0449536026034d9e38893aaf4,2018-07-06 14:22:34,Oleksii Trekhleb,Update matrix rotation README.,False
+75133592bb0ca7ff7ededf80d927f179e6b41b8e,2018-07-06 10:45:56,Oleksii Trekhleb,Add square matrix rotation in-place algorithm.,False
+17ad4dc4d1a764e67296c95f956c085ea7081909,2018-07-05 19:00:00,Oleksii Trekhleb,Upgrade packages.,False
+58640ee7b56d4d40d634d0a126f7d60ca61b14b4,2018-07-05 18:15:15,Oleksii Trekhleb,Add doubly linked list to main README.,False
+d0499d25444c3300a6d2c5d60fb045750ef68bc5,2018-07-05 18:14:25,Oleksii Trekhleb,Minor code style fixes for DoublyLinkedList.,False
+a72fda4dfd11d52f7bab13a897010552978f0106,2018-07-05 18:03:39,Oleksii Trekhleb,Minor code style fixes for DoublyLinkedList.,False
+6a5ed26bd226d1f9510bfa8382212b20d87c15c9,2018-07-05 17:58:11,Oleksii Trekhleb,Extend DoublyLinkedListNode tests.,False
+a9eeea2ca8ae03d492b0854ebc58b27c021b1660,2018-07-05 17:55:51,Oleksii Trekhleb,Update doubly linked list README.,False
+6b354ad4ce588e4a0a460f4a473c5fbc2a0b4c31,2018-07-05 17:48:57,Huzaima Khan,"Added doubly linked list (#92)
+
+* Added doubly linked list
+
+* improved doubly linked list coverage",False
+fef2aa7691f2b150bdd0e6f847f23388b193db65,2018-07-04 20:39:55,Oleksii Trekhleb,Update README.,False
+e36c441fa95dc1c435923503e3bc9593d2f0ff6e,2018-07-04 20:23:22,Bruce-Feldman,"Minor fixes. (#91)
+
+* Get Bit: Make more terse
+
+* Power of two: Allowed 1 as a valid power of 2.
+Power of two: Removed unnecessary exception throwing.
+
+* Fisher Yates: Made more terse
+
+* Least Common Multiple: Fill undefined value
+
+* Greatest Common Divisor: Fill undefined value.
+Greatest Common Divisor: Make more terse.",False
+93bfe97e2741fad5c2b0aed5497f446aca2e851b,2018-07-03 14:36:00,Oleksii Trekhleb,Add test cases for sorting negative numbers and zeros.,False
+d82958dea9d88e7a109b2babb9f317996ffe2fdf,2018-07-03 14:26:34,m-maksyutin,"Fix the insertion sort (#86)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList
+
+* Fix the remove method for the MinHeap
+
+* Correct a comment
+
+* Fix BST removal method
+
+* Fix the findEdge method of the graph
+
+* Fix the value returned by DisjointSet union
+
+* Add recursive factorial function
+
+* Fix the insertion sort",False
+e3b482c5e62bfb8bd5c652599c73a52c6ad88562,2018-07-01 00:18:57,Oleksii Trekhleb,Update bloom filters description.,False
+b3fd5accda68a8d03e9b0bd695d0faf5e0d2b9b2,2018-06-30 23:19:18,Oleksii Trekhleb,Update bloom filters description.,False
+a2310c59d39478e03a70d63cd225e9980f367291,2018-06-30 23:16:34,Oleksii Trekhleb,Delete false positive tests for bloom filter.,False
+610b120e275bb12ae06c87fa7c0ff27da010a479,2018-06-30 23:09:46,Oleksii Trekhleb,BloomFilter minor fixes.,False
+b33b1fe1bc7138babe8cd0858ea74e243efc454a,2018-06-30 22:53:02,Oleksii Trekhleb,Update bloom filter README.,False
+9dbf1c98897dba7d37a69babee9f5fa1c9a03c45,2018-06-30 22:41:20,Oleksii Trekhleb,Update main README.,False
+41a6430532fd99cce363e86d5d92e8f3a3c27df8,2018-06-30 22:37:19,arnav-aggarwal,Add bloom filter (#84),False
+b33f1d52dceb80da149541142a4a9dfa1314be51,2018-06-30 12:49:14,Oleksii Trekhleb,"Add ""Combination Sum"" backtracking algorithm.",False
+b41cffea0f5d6ff893743257f15f1be33282f8c8,2018-06-29 17:14:11,Oleksii Trekhleb,Add permutations/combinations cheat sheets.,False
+00f75028bfe754f2b68b991528dfd4f461951ab6,2018-06-29 14:53:26,Oleksii Trekhleb,Simplify permutateWithoutRepetitions algorithm.,False
+db7ab9e299fb483e150809b89bc16f7ca52fcf7b,2018-06-28 23:58:50,Oleksii Trekhleb,Simplify permutateWithRepetitions algorithm.,False
+c5ed81d85e2c131df3112a5a02d7946786d5c190,2018-06-28 23:33:31,m-maksyutin,"Add recursive factorial function (#85)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList
+
+* Fix the remove method for the MinHeap
+
+* Correct a comment
+
+* Fix BST removal method
+
+* Fix the findEdge method of the graph
+
+* Fix the value returned by DisjointSet union
+
+* Add recursive factorial function",False
+65f08db5deb8737ee0a9cf89518c9a99c1fccfb0,2018-06-28 16:35:58,Oleksii Trekhleb,Simplify combineWithRepetitions function.,False
+e5a06e654bebfe44bb63938a55eaebd960fb1378,2018-06-28 16:16:26,Oleksii Trekhleb,Simplify combineWithoutRepetitions function.,False
+55ecc0b31371b8abfce08a870b0339e121784a57,2018-06-27 21:29:25,Oleksii Trekhleb,Fix typo.,False
+933848b2155ab5d9c03ac5701e529a41bd3a18b7,2018-06-27 20:35:18,Oleksii Trekhleb,Add more bit manipulation functions.,False
+c26820325917f05e80ff547797e00f9ade33ff9c,2018-06-27 20:03:16,Oleksii Trekhleb,Add more bit manipulation functions.,False
+792f4906df14fc8d193f1b2ad3d405a3646055a9,2018-06-27 19:49:20,Oleksii Trekhleb,Add bit manipulation section.,False
+36e0bfeb324290f4c61923067cb27255c01af224,2018-06-27 18:52:54,m-maksyutin,"Fix the value returned by DisjointSet union (#81)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList
+
+* Fix the remove method for the MinHeap
+
+* Correct a comment
+
+* Fix BST removal method
+
+* Fix the findEdge method of the graph
+
+* Fix the value returned by DisjointSet union",False
+d69199e65867cee442602008f6da7d306c62107f,2018-06-25 22:32:24,Oleksii Trekhleb,Add regular expression matching algorithm.,False
+c96bbdf00e0876b2ea3e6386af7d6a0768e7b4d6,2018-06-25 17:04:40,Oleksii Trekhleb,Code style fix.,False
+88d038b5c8899867d09d2e96237104add3216f19,2018-06-25 17:03:31,m-maksyutin,"Fix the findEdge method of the graph (#80)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList
+
+* Fix the remove method for the MinHeap
+
+* Correct a comment
+
+* Fix BST removal method
+
+* Fix the findEdge method of the graph",False
+89fb0e62396b939472e74da4db294425dbc7d5f9,2018-06-23 23:29:59,Oleksii Trekhleb,Add Levenshtein Distance algorithm explanations.,False
+a9502851f50af1808e2155eaf0d4fe8079fd109e,2018-06-23 15:51:07,Oleksii Trekhleb,Update READMEs.,False
+42c7a15976738156763da5daf2327f79680941d6,2018-06-22 18:14:46,Oleksii Trekhleb,Update READMEs.,False
+571d0362c0fc384a7e42675bb7f39de18babfb03,2018-06-22 18:11:35,Oleksii Trekhleb,Update READMEs.,False
+6b67ca75a51bd7e0fb2852c43508d2c40e4b08cd,2018-06-22 18:08:18,Oleksii Trekhleb,Update READMEs.,False
+619c58ec87475aa166331b307aceaf57d7c3e08f,2018-06-22 18:04:32,Oleksii Trekhleb,Update READMEs.,False
+5ac8bc98e704b9a5183ade2c81330747c0747711,2018-06-22 17:54:25,Oleksii Trekhleb,Update READMEs.,False
+3123cef25486fc573ee847f8f72b100a4d374d87,2018-06-22 17:49:42,Oleksii Trekhleb,Update READMEs.,False
+110cc01e158623d6121650b7c6025c006ba20a21,2018-06-22 17:45:54,Oleksii Trekhleb,Update READMEs.,False
+413c134683605730e6464f2a7710799931673e2b,2018-06-22 17:41:34,Oleksii Trekhleb,Update READMEs.,False
+b65a992452f4062aaf03ad30b9005a442636471f,2018-06-22 17:34:28,Oleksii Trekhleb,Update READMEs.,False
+e53f5f909dd3c4b1ca5cc960d6533e010efa877c,2018-06-22 17:24:40,Amjad Ali,"Added Complexity of Each Algorithm in Sorting/ directory. (#76)
+
+* Added Complexity to Bubble Sort README.md
+
+* Added Complexity to Counting-Sort README.md
+
+* Italicized n in Bubble Sort README.md
+
+* Added Complexity to Heap Sort README.md
+
+* Added Complexity to Insertion Sort README.md
+
+* Added Complexity to Merge Sort README.md
+
+* Added Complexity to Quick Sort README.md
+
+* Added Complexity to Radix Sort README.md
+
+* Added Complexity to Selection Sort README.md
+
+* Added Complexity to SHell Sort README.md",False
+831ce89a454301193eacd8500aa80c962591a061,2018-06-22 17:20:38,Oleksii Trekhleb,Update README for integer partition.,False
+16b6ea506a8f9d8d1a31dacdd964d3f348053a91,2018-06-22 17:01:57,Nnadozie Okeke,Corrected explanations and included an example (#75),False
+2334583635308920d96cd3ad0689e928e88913b4,2018-06-22 10:52:12,Oleksii Trekhleb,Add setValue and nodeCopy methods to binary tree node.,False
+bd5a16be719ba41baabb81def69bd86c14e2dde2,2018-06-22 10:27:52,m-maksyutin,"Fix BST removal method (#74)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList
+
+* Fix the remove method for the MinHeap
+
+* Correct a comment
+
+* Fix BST removal method",False
+e55823147480281aec952ce0e0bd5b6dcbf75229,2018-06-21 20:29:31,Oleksii Trekhleb,Add comments.,False
+81d17bc4f91f8e72e29bfc752c211f43944666d4,2018-06-21 20:18:35,Oleksii Trekhleb,Add comments.,False
+5bdcbb397d0440b3a67970927cd86d9a2d44db1d,2018-06-21 19:29:20,Oleksii Trekhleb,Code style fixes.,False
+9e210ae56003b90ffa4f1aa2e877ed68e09bd4cb,2018-06-21 19:12:13,hariv,"Z algorithm implementation (#77)
+
+* Implemented Z algorithm
+
+* Fixed bugs in implementation and added tests
+
+* Added README explaining z algorithm",False
+d74234d597f1712bd8d6a3e6d050cf7ec660d80f,2018-06-19 11:02:30,Oleksii Trekhleb,Update README.,False
+87e59bf4b0094c9368446762f3fbf815e82ac9f4,2018-06-18 19:35:53,Oleksii Trekhleb,Add algorithms complexity to README.,False
+9311735867b882110da6350cfb9cc2210b9bd8b5,2018-06-18 19:00:30,m-maksyutin,"Correct a comment (#66)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList
+
+* Fix the remove method for the MinHeap
+
+* Correct a comment",False
+98092ee43f6da477502ed763f679c7d0d40b65fc,2018-06-18 18:27:45,Oleksii Trekhleb,Code style fixes.,False
+8c206a9976994218824b0425348be90034a17f0f,2018-06-18 18:20:02,Sina Sharafzadeh,fix unbound knapsack problem with items more than 1(default value) (#73),False
+6d413d897d5c81ba3ab9cef9de3c6c1e23a9330b,2018-06-18 18:14:50,Oleksii Trekhleb,Update javascript-algorithms-and-data-structures version.,False
+d154015cda44a820ec16d5c6306587cc848bda53,2018-06-14 10:29:47,Oleksii Trekhleb,Code style fixes.,False
+19f4cc70d3317b695be487392da0c4e0207ad399,2018-06-13 10:45:21,Oleksii Trekhleb,Add recursive way of generating permutations with repetitions.,False
+b0c55ec817c17a95d5b8250b5c0c48284d46703a,2018-06-13 10:33:56,Matt Mapplebeck,"add recursive solution to permutations with repetitions problem (#52)
+
+* add recursive solution to permutations with repetitions problem
+
+* fix untested function, failing test
+
+* add comments",False
+8d3f83cfb7fdf842771a7ee5c67ab9c2b5ab9289,2018-06-13 09:51:57,Oleksii Trekhleb,Simplify combineWithoutRepetition algorithm.,False
+c3a961840d82868d51165a6b023b30b66cf46547,2018-06-13 09:09:18,Oleksii Trekhleb,Fix BST removal method.,False
+d57b7250348872dae67d476bfbc25fca75bc88ec,2018-06-13 08:57:02,Tien Do,chore: ignore .DS_Store in git (#65),False
+ebfd527035cf92367245ab399653036af9dcb398,2018-06-12 20:22:07,Oleksii Trekhleb,Update README.,False
+c9cb6dc2264100588bd8c528d69cd6a43ecd7cc4,2018-06-12 20:21:10,Oleksii Trekhleb,Update README.,False
+0c8155f3c477d1038009691c216f42af3e679c0f,2018-06-12 20:19:40,Oleksii Trekhleb,Update README.,False
+5734e0a43e5ad31b6af0257caa0d3c7b15a22fb4,2018-06-12 20:16:40,Felix Rilling,"Fix typos (#59)
+
+* Fixed typo in the word 'independant'
+
+* Fixed typo in the word 'subsequnce'
+
+* Fixed typo in the word 'icecream'
+
+* Fixed typo in the word 'subsequnce' in shortestCommonSubsequence
+
+* Fixed typo in the word 'depected'
+
+* Fixed typo in the word 'paramaters'",False
+19aa6fa4fc9e69e709a0b031d0e070b3765bb4ef,2018-06-12 20:03:21,Oleksii Trekhleb,Update README.,False
+feed6d6c1a438b1700f0c58160422f47c9dfd41e,2018-06-12 20:01:46,Oleksii Trekhleb,Add Liu Hui to README.,False
+c536aa2c51efe7e0088a405e455fe2e1aeb870f4,2018-06-12 19:59:57,Oleksii Trekhleb,Refactor liuHui.,False
+1e2fdc6943ff200514eae26681eed2a26f98eca7,2018-06-12 18:02:56,Oleksii Trekhleb,Refactor README.,False
+7dc9b80f62a89197aedcd8a9afa46fb5062498d2,2018-06-12 17:24:00,mantou,feat: Add Liu Hui's π algorithm (#61),False
+bc17e4ea2cd0002a5ef6d27eadb44af0e02b34ab,2018-06-12 16:58:19,Tien Do,docs: update correct Big-O chart (#62),False
+9de6bc7de3aeb1421e8947d80d28a1a9bb8253c2,2018-06-08 19:24:07,Oleksii Trekhleb,Add more tests.,False
+d5a8b1e8d521790843edf56d1d159b0f4a58baa5,2018-06-08 18:09:11,Oleksii Trekhleb,Merge remote-tracking branch 'origin/master',True
+5ac85a230c6da22f4a8930199d1e2a404f98e83d,2018-06-08 18:08:36,Oleksii Trekhleb,Update READMEs.,False
+39934ebb83005bf22be86b2e53c285e8f5f1fe1d,2018-06-07 10:58:37,DanielChen,"Fix the translation of sorting complexity table (#55)
+
+Array ""Sorting"" Algorithms Complexity should be 陣列排序演算法, not 陣列搜尋演算法",False
+294bd2acb77f9c6bfc4f897a354e9c16343e0574,2018-06-06 10:24:38,Oleksii Trekhleb,Update READMEs.,False
+00fbba543863bb49ba16688f54efb1f622f36022,2018-06-06 10:19:12,Oleksii Trekhleb,Update tests.,False
+183dade0796ce7ab38381b806b833a33f8922520,2018-06-06 10:11:28,Oleksii Trekhleb,Update Fenwick Tree readme and do code style fixes.,False
+1a4fe11a80f3201d26cfd626c3230934230aecd3,2018-06-06 08:55:31,Christopher Samuel,"Added Binary Indexed Tree / Fenwick Tree Implementation (#51)
+
+* added fenwick tree implementation
+
+* added fenwick tree implementation",False
+a1060c2a94c4f4aed1efa2201f19032ae32ac52b,2018-06-06 00:20:44,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms,True
+6c892c4b2f9942e73361fb8d43fe10158fc581f1,2018-06-06 00:20:08,Oleksii Trekhleb,Fix bug with primality test.,False
+38688f25c57484009c41d4f80ce86b3adc5115ac,2018-06-05 18:47:14,m-maksyutin,"Fix the remove method for the MinHeap (#50)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList
+
+* Fix the remove method for the MinHeap",False
+9f83862212716b3e965594b577ede3c7c58595b1,2018-06-05 11:17:52,Oleksii Trekhleb,Update README for segment tree.,False
+434a5649cbe3098e07223a1ce50d4a0ad805b59a,2018-06-05 11:15:00,Oleksii Trekhleb,Refactor segment tree implementation.,False
+5784a4a95bf0de06bbb906f6112e7e8efcd7deef,2018-06-05 08:42:30,Oleksii Trekhleb,Merge branch 'master' into segment-tree,True
+74b93d36cb8957905d807140612df51692d10834,2018-06-04 23:12:22,Oleksii Trekhleb,Add isPowerOfTwo functions.,False
+c7610d58b1ab9d4c68c7617b75481adc367521b5,2018-06-04 09:27:33,Oleksii Trekhleb,Update README.,False
+2e5fd8d583e7dd8ef2f40a2ec6b2a4358dc38ce6,2018-06-04 09:02:34,Vignesh Manoharan,"Segment Tree implementation (#45)
+
+* added segment tree implementation - supports custom operation
+
+* added readme for segment tree",False
+beb8501acab155b62297bed825c0b37ce1e08127,2018-06-04 07:51:42,m-maksyutin,"Fix the prepend method for the LinkedList (#47)
+
+* Fix LinkedList
+
+* Fix the prepend method for the LinkedList",False
+91d4714d197a6e0d3889e6dbadcf9b7e74b4f0c1,2018-06-03 12:04:48,Oleksii Trekhleb,Code styling fixes for Sieve of Eratosthenes.,False
+943f83492a46a79a2988c3ddd3682b53092d16b5,2018-06-03 11:55:15,Juan Pablo Valencia,"Adding Sieve of Eratosthenes (#46)
+
+* Adding Sieve of Eratosthenes
+
+* Typo",False
+870c3ba2a4915b6b850a0c639f51be6e057c5150,2018-06-03 01:14:43,Oleksii Trekhleb,Bump package version.,False
+e8ff6cb283d5c496024e78ac5e96efc3d7eb6f47,2018-06-03 01:13:30,Oleksii Trekhleb,Update READMEs.,False
+d2b8eabcf4b51185114bb4dd0562405e030bb23e,2018-06-03 00:51:59,Oleksii Trekhleb,Update READMEs.,False
+90b56bc3d36a05b67cf10d0ddd237fe03e679a15,2018-06-03 00:41:01,Oleksii Trekhleb,Fix issue #37 with AVL tree.,False
+924066bb0cddf1a6e09183b12bf612b0b2f9229a,2018-06-02 12:10:32,Oleksii Trekhleb,Do minor optimisations to factorial function.,False
+88bd8d704463ec2161837a74a4cd7af67ad5382f,2018-06-02 12:02:50,Oleksii Trekhleb,Add JSdocs for fibonacci.,False
+d267d7252424c6162c132c70f0db89a5e96ca5e6,2018-06-02 12:01:09,Oliver Hepworth-Bell,"Added fibonacci sequence as well as fibonacci nth, renamed functions accordingly (#36)",False
+a63bc67cf4cea08c1dfba83dd010f75a464311ab,2018-06-02 11:53:55,m-maksyutin,Fix LinkedList (#42),False
+87299a5153fe438716815eb3c6f7fdb6431b9aee,2018-06-02 11:45:08,Oleksii Trekhleb,Update READMEs.,False
+53cd4fbc6dcc2e01e732565e9fd8753731cf717a,2018-06-02 11:39:52,Shlomi Fish,Correct some grammar in the README. (#39),False
+56ff37d90974e0d4b4e560ec57f0453e44e79d2f,2018-06-02 11:31:51,Oleksii Trekhleb,Update READMEs.,False
+0b89dce231ac7b74b06de1397ef9dc7b7674e397,2018-06-02 11:29:38,Oleksii Trekhleb,Update README.zh-TW.md,False
+e7b78e8e2da62824cc33e8bcefd5fbd4d28f4216,2018-06-02 11:25:20,Oleksii Trekhleb,Merge remote-tracking branch 'origin/master',True
+3d34a5ed445471f2e7f44f9f96f5aba33d46f109,2018-06-02 11:24:41,Oleksii Trekhleb,Update READMEs.,False
+0edb1525ea95d54ea0ac2c0cc0d9afb498f74402,2018-06-02 11:21:45,Oleksii Trekhleb,Throw error on remove from red-black tree.,False
+26d6b7877da4915fb3042403ed499c217397bfb3,2018-06-02 10:54:31,Oleksii Trekhleb,Improve test-coverage for red-black tree.,False
+19789c6a94c4a6e70c7b6c94127fda436955ee5a,2018-06-02 10:45:40,Oleksii Trekhleb,Add red-black tree.,False
+48f7ea1ad509b333bf5a0135fc35ac97a25f1d59,2018-06-01 13:22:23,Oleksii Trekhleb,Add one more test for BST.,False
+4132522d4a2e971a4947006448df12710781e151,2018-06-01 10:58:36,Oleksii Trekhleb,Set up node comparator for BST.,False
+02299b77e6ea1562d4487c3d55ef8333a3f8b6e5,2018-06-01 07:46:07,Oleksii Trekhleb,Add uncle property to binary tree node.,False
+e6de25ecb3489e7823acac54f1ed150425f26ef3,2018-06-01 00:07:13,Oleksii Trekhleb,Use HashTable in TrieNode.,False
+5b3de38cca34e544e52e603369e7fe151c73e148,2018-06-01 00:05:53,Oleksii Trekhleb,Update hash table methods.,False
+ecd8d22fc6d8daefd3a4a2c307ffb20199a88a4e,2018-06-01 00:00:44,Oleksii Trekhleb,Add new hash table methods.,False
+f04626bc5c62a06f5b47637fce657b30b772246a,2018-05-31 10:59:59,Oleksii Trekhleb,Return removed nodes in BST.,False
+7a4265403c67bb756372fd47de3a7159e2d4ac57,2018-05-31 10:29:20,Oleksii Trekhleb,Use Map for node meta data.,False
+e572de63cb715afc2aed821a77f881c23036ebd4,2018-05-31 10:07:31,Oleksii Trekhleb,Create getters and setters for meta data in binary tree node.,False
+02d7abcf65bb30283294a25da0b36d458aa316b4,2018-05-31 09:46:35,Oleksii Trekhleb,Make it possible to insert meta information to bst node.,False
+33ac110ccea0427239cc36024912ef4d56faa176,2018-05-31 09:33:33,Oleksii Trekhleb,Make it possible to attach meta information to binary tree node.,False
+c18fd63a53685f762cf5d84822c8fd5ceeab0e06,2018-05-31 08:53:51,Oleksii Trekhleb,Fix naming in binary search tree test.,False
+62efb293553bd8232cb8ab925b91e8bbee7db861,2018-05-30 20:19:31,Oleksii Trekhleb,Update CONTRIBUTING.md,False
+b62d9a43b44200fbafdb227998bd0d4c27475e0d,2018-05-30 10:48:45,Oleksii Trekhleb,Clean up in binary search tree constructor.,False
+b7e27b2f07ae0a852ecfc080cbcec55fb4ffb23b,2018-05-30 10:46:41,Oleksii Trekhleb,Remove parent parameter from binary tree node constructor to simplify syntax.,False
+fcc546347d124992f339d921f6c9df8d380f9dea,2018-05-30 10:30:25,Oleksii Trekhleb,Code style fixes.,False
+8d868ae5825cd7605d228f26b345aef2f958e7b5,2018-05-30 10:17:49,Oleksii Trekhleb,Code style fixes.,False
+797a6f28a339f8f4b2c3d295215d2bf595a2bb4d,2018-05-30 10:13:39,Oleksii Trekhleb,Make it possible to use objects as a values for binary search tree nodes.,False
+3ae9c404165da17d3f51093579637a08eb335457,2018-05-30 09:49:48,Oleksii Trekhleb,Test that it is possible to use objects and binary tree node values.,False
+625217a9c241e5a115bdb5726261f67e3b903a0d,2018-05-29 13:49:08,Oleksii Trekhleb,Code style fixes.,False
+caec97e5620aa522124ae77991a27d21ee53029a,2018-05-29 12:13:23,Oleksii Trekhleb,Add Radix Sort illustration.,False
+afd56171440421d2ffe6a9f393eb25d12d0eaf6e,2018-05-29 11:31:16,Oleksii Trekhleb,Code style fixes for RadixSort.,False
+71985337b509d98534c31b498f43516368e0478d,2018-05-29 11:08:19,Robert Taussig,"Radix sort (#28)
+
+* Add in-place sort to QuickSort.js
+
+* Fix linting errors and clean up comments
+
+* Change implementation to address lint errors
+
+* Trailing space and undefined variable
+
+* Create own class for in-place quicksort and use tests
+
+* Add trailing space at end of file
+
+* Fix placement of visitedCallback, explain itial destructuring
+
+* Implement Radix Sort
+
+Remove excess line
+
+Reorganize RadixSort of match structure of other classes
+
+Write tests for RadixSort and additional test constants
+
+Create README
+
+Update main readme to include radix sort",False
+cca138a384e90374c315e933c54df39a140a2a51,2018-05-29 10:08:49,Oleksii Trekhleb,Add counting sort.,False
+e3ff82fcbaf601f3ce3392225a447bee04fa3fb2,2018-05-29 10:06:41,Oleksii Trekhleb,Add counting sort.,False
+0c1f6851d5be3d2918827ead5d7bfd6f21f07158,2018-05-29 09:59:28,Oleksii Trekhleb,Add counting sort.,False
+b1a613e03e13890c19ca7b53b3cd53ab6b826797,2018-05-29 08:43:12,Cyril Auburtin,Use Map for TrieNode children (#27),False
+30ae3230d11553f711c9df5d35e7f76d6521cf29,2018-05-28 01:53:40,Oleksii Trekhleb,Do some code formatting on QuickSort algorithm.,False
+bf5d7b338ccefd4d1449a2490d27af179b40339b,2018-05-28 01:41:13,Robert Taussig,"Add in-place sort to QuickSort.js (#16)
+
+* Add in-place sort to QuickSort.js
+
+* Fix linting errors and clean up comments
+
+* Change implementation to address lint errors
+
+* Trailing space and undefined variable
+
+* Create own class for in-place quicksort and use tests
+
+* Add trailing space at end of file
+
+* Fix placement of visitedCallback, explain itial destructuring",False
+f93d12d5dde9d5549721324f53e38e301848b56e,2018-05-27 20:50:04,Federico Bozzini,Added missing return type (#23),False
+2e3860f357608327a3c11752d2057ed5e3261c87,2018-05-26 03:31:08,Oleksii Trekhleb,Add linear search.,False
+7ed425ed3adb374368946790f82d41e6d5a4081e,2018-05-26 03:13:50,ak4522912,"Added Linear Search (#20)
+
+Added algorithm for the basic and useful linear search",False
+48195d472026b99ed1ad60b6d2dc757c7fdaaf89,2018-05-26 03:08:07,Oleksii Trekhleb,Update READMEs.,False
+0fe62a84488c0c3196cf6abf34254ff9956e67fe,2018-05-26 03:06:45,Oleksii Trekhleb,Update READMEs.,False
+e26e986557e637793bf429e92f6ee42b36b64483,2018-05-26 03:03:01,Kevin,"Finish main part of translation (#18)
+
+* add chinese overview
+
+* translate
+
+* add
+
+* translate english",False
+c6aa8ab52dba30c8f15d6cb210623a25a684591e,2018-05-25 10:21:21,Oleksii Trekhleb,Update READMEs.,False
+2364de7061e7b22be777d9740a4f22418e7c2d4a,2018-05-25 10:14:22,Kevin,add chinese overview (#17),False
+e10ea04926f4ec96f475b95f0aafd770aeaf0a04,2018-05-25 10:11:03,Oleksii Trekhleb,Update READMEs.,False
+2a3b013bfa33b71ee02f927021bb5e401f467387,2018-05-25 10:05:52,Oleksii Trekhleb,Add data-structure complexity table.,False
+7bd7f9a2839203ab22d75d869ff4107a40eced7c,2018-05-25 09:58:08,Oleksii Trekhleb,Add comments to data-structure complexity table.,False
+f696d028ba744842a2667bca63c65889d7ad4646,2018-05-24 19:18:41,Oleksii Trekhleb,Merge branch 'master' of https://github.com/trekhleb/javascript-algorithms,True
+5503cced48e2d1411cbaf57cc65773def491dc7a,2018-05-24 19:18:10,Oleksii Trekhleb,Don't treat 1 as prime number.,False
+2532e3c3c0133852c8db2264ad5f72e421d61084,2018-05-24 18:52:15,Oleksii Trekhleb,"Merge pull request #14 from TomasHubelbauer/patch-1
+
+Fix a typo",True
+6ea857cae8051c47c351fdf461e1e763705a5606,2018-05-24 18:46:49,Oleksii Trekhleb,Merge branch 'master' into patch-1,True
+f0ddaf243cc8bbd77591d0ab57629d7e59b28796,2018-05-24 17:04:30,Oleksii Trekhleb,Update dependencies.,False
+378c401a7f5c65ca2a867c5c2e727ddb38426448,2018-05-24 16:57:06,Oleksii Trekhleb,Update dependencies.,False
+41d11f2b6ed945e31c37d82186c794e46d2f6977,2018-05-24 16:30:49,Tomáš Hübelbauer,Fix a typo,False
+99bef391d0947a915313f1071a91967ce3806167,2018-05-24 11:52:08,Oleksii Trekhleb,"Merge pull request #10 from albertstill/improve-bubble-sort
+
+stop bubble sort revisiting already sorted elements",True
+f34fd84a9dc0f5aff1d7ea7e053b3f9f83da84d1,2018-05-24 11:49:03,Oleksii Trekhleb,Merge branch 'master' into improve-bubble-sort,True
+35fff1f5c50abe7c9e4ee7f8c3d2fef843b996bf,2018-05-24 11:47:06,Oleksii Trekhleb,Fix Chinese README.,False
+5bd47e40a620f9bac4864fa410004d60078b9b09,2018-05-24 11:45:18,Oleksii Trekhleb,Fix Chinese README.,False
+630e24b7a883bfb4d94fdbf2420a52748c97e833,2018-05-24 11:43:23,Oleksii Trekhleb,Update language link outlook.,False
+56b42ae79ca25a267c7eba7e6b36ab08bce326c2,2018-05-24 11:42:13,Albert Still,Merge branch 'master' into improve-bubble-sort,True
+114748b876a2b50b92c3bb30d102dd43dfee42e9,2018-05-24 11:40:48,Oleksii Trekhleb,Refactor peek function in Stack.,False
+304afc8e79beefcc794e8bb0fb921fcad8c5a5c8,2018-05-24 11:39:45,Albert Still,Merge branch 'improve-bubble-sort' of https://github.com/albertstill/javascript-algorithms into improve-bubble-sort,True
+5638e6616611c28649a790b884ce4349152de6b2,2018-05-24 11:39:42,Albert Still,Merge branch 'master' into improve-bubble-sort,True
+c8b3fb998385987e8027599c5fc3c1fc4ed36719,2018-05-24 11:37:08,Oleksii Trekhleb,"Merge pull request #3 from PeterShershov/master
+
+small refactor in some sorting algorithms for better readability",True
+07f5ecf025026198a61e149a027719b02a7b08c1,2018-05-24 11:36:59,Albert Still,Merge branch 'master' into improve-bubble-sort,True
+d0ed0af42b90d31babd73b850fe646cf75072fed,2018-05-24 11:34:59,Albert Still,stop bubble sort revisiting already sorted elements,False
+297875e4fa52e8e15b1ce360533baf45fbed8cb1,2018-05-24 11:34:50,Oleksii Trekhleb,Merge branch 'master' into master,True
+d596e1d485ad87106a810305dbc233651a19579d,2018-05-24 11:31:50,Oleksii Trekhleb,Fix then > than typo.,False
+8bd59b66170847674935c080daba1fda01cd6a77,2018-05-24 11:27:11,Oleksii Trekhleb,Add link to Chinese translation.,False
+d706902d8fc72a889302e83a71915eda3a355a09,2018-05-24 11:20:50,Oleksii Trekhleb,"Merge pull request #5 from juzhiyuan/dev
+
+Translate to Chinese",True
+ef387e69c74ae349e3d6bc49f588821660794c4d,2018-05-24 11:15:11,Oleksii Trekhleb,Merge branch 'master' into dev,True
+13dab5d4b0af23799f6866e4ea47be5bb1a32231,2018-05-24 11:12:52,Oleksii Trekhleb,"Merge pull request #4 from redfast00/patch-1
+
+Corrected typo",True
+745b5e9a58a91d50215d3d115296067d0e255c8b,2018-05-24 11:08:24,Oleksii Trekhleb,Merge branch 'master' into patch-1,True
+9a02687ea8627663cd0e06ee76be224bc6f9c1a0,2018-05-24 11:06:33,Oleksii Trekhleb,"Merge pull request #8 from breinhart/master
+
+Fixed Typo in Big O Complexity table",True
+78923e8fc88513e9052a74b8cdaeccc7bd9b4e51,2018-05-24 04:08:02,Brian Reinhart,Fixed Typo in Big O Complexity table,False
+262bb2cdf928e213cefd39a4337ea5873033ea4f,2018-05-24 02:37:06,琚致远,Translate to Chinese,False
+f2aebe7ccb433bd8ac036493aa2eabdb748ebf83,2018-05-24 02:27:32,Peter Shershov,improve readability in some sorting algorithms,False
+abf9c9c6a51f0c625c7f4aa29c114f567023b609,2018-05-24 02:18:17,redfast00,Corrected typo,False
+488b7a4c0e00b89ae6ea6b7cf9e385156b174e9d,2018-05-24 02:07:14,Peter Shershov,small refactor in bubble sort for better readablity,False
+3e0ac7486c9eaa000f9900c84f929ccd0d91bab4,2018-05-22 09:40:46,Oleksii Trekhleb,Use Infinity instead of zero in Graph adjacency matrix to show that vertices are not connected.,False
+f966ef5d5d0c25cb5b4fdf4430cbee52348b6c5e,2018-05-22 00:18:35,Oleksii Trekhleb,Update READMEs.,False
+2185212527ce830ac17e3f14546098e3d3722cc1,2018-05-21 19:21:21,Oleksii Trekhleb,Update READMEs.,False
+ef72e2de793c63e64f31d84cc7d352595502900b,2018-05-21 19:18:21,Oleksii Trekhleb,Update READMEs.,False
+a41e4a18b72612e617fa688bca825e0da04eb6b1,2018-05-21 19:09:54,Oleksii Trekhleb,Update READMEs.,False
+5576944550ffb9da3e963d2edda7df8457636068,2018-05-21 17:17:27,Oleksii Trekhleb,Update package json.,False
+e49923cf11c93e9fa808543e6422a7ffc49bf864,2018-05-21 17:16:42,Oleksii Trekhleb,Update package json.,False
+c24e47dd493bd06356b7a0da0e6c7d01b79190bf,2018-05-21 17:13:17,Oleksii Trekhleb,Update package json.,False
+81f46ca2ee2d9f335f7f4b2733a6d742885f68a4,2018-05-21 17:05:18,Oleksii Trekhleb,Update package json.,False
+e9559fdf906b7c3ec8b0bd83d103b5890d95c23f,2018-05-21 11:30:38,Oleksii Trekhleb,Add travelling salesman problem.,False
+35476a2f3f6115698fec991cc1a3be4b92b5d5f8,2018-05-21 11:28:22,Oleksii Trekhleb,Add travelling salesman problem.,False
+296b20ed16f36b89b6b93e7f161ba8f4397885b4,2018-05-20 01:50:20,Oleksii Trekhleb,Update README.,False
+64552d16f31ea79e6f52b6f7f75def7ee0783227,2018-05-20 01:45:25,Oleksii Trekhleb,Update README.,False
+54336c5b961fa2013f966670e55224ad86ae9c3c,2018-05-20 01:42:30,Oleksii Trekhleb,Update README.,False
+9b49ced928a04f70ab6b42156f2d85632f92c4d2,2018-05-20 01:35:20,Oleksii Trekhleb,Update README.,False
+682654807d4b4d7ed3b9f095fbf5f2fefe09f130,2018-05-20 01:20:46,Oleksii Trekhleb,Update README.,False
+58d83e57cb9f0a5c5077ae0e80029904c448215f,2018-05-19 13:04:22,Oleksii Trekhleb,Update README.,False
+d03f291aa6520139826be0063f95d82d2fbe52ab,2018-05-19 12:54:32,Oleksii Trekhleb,Update README.,False
+f1692b552ab3769703727166b96fc7ab13b8ca7f,2018-05-18 08:52:37,Oleksii Trekhleb,Update README.,False
+dd855c6fb860ace850db8a1ae5ec3bc4451f621f,2018-05-18 00:42:08,Oleksii Trekhleb,Update README.,False
+6d6d437c569a9b5c6a8d42c65ae9571a759ba94a,2018-05-18 00:41:13,Oleksii Trekhleb,Update README.,False
+802554f203499ef56555f45d72d12eda78f2fd9b,2018-05-18 00:40:39,Oleksii Trekhleb,Update README.,False
+7e3096161caca5c9ce7cce470351d7098a58ea45,2018-05-18 00:33:10,Oleksii Trekhleb,Update README.,False
+e34472713b7651129ffbd31264b2e53ef0de84d7,2018-05-18 00:31:17,Oleksii Trekhleb,Update README.,False
+2249c34d62d948e2ddf85978e82308759d08e9d0,2018-05-18 00:27:04,Oleksii Trekhleb,Update README.,False
+796219f8c639eb59eea5b43e1de9f9b66294c267,2018-05-17 20:25:52,Oleksii Trekhleb,Update README.,False
+346b0659951aee4ec7894c124eb63d637f0cedee,2018-05-17 20:22:48,Oleksii Trekhleb,Update README.,False
+476c0acb4a78c6df92c7dfded3c216d81c7e2c7e,2018-05-17 20:18:06,Oleksii Trekhleb,Add Knight's tour.,False
+d2c6d14acd1a941e7153c33f441d73162c2dbcbb,2018-05-17 10:38:29,Oleksii Trekhleb,Add Hamiltonian cycle.,False
+569c6ae452dc014f34c6a45b8549dfca6b69d7f2,2018-05-17 10:10:13,Oleksii Trekhleb,Add Hamiltonian cycle.,False
+0fc7b9d09d926f5c8b9983826d4a76d47879ce59,2018-05-16 11:51:16,Oleksii Trekhleb,Generate adjacency matrix for graph.,False
+dbb7a64d966d4434d4e34e2fd09e45f2327dbec0,2018-05-16 10:58:28,Oleksii Trekhleb,Update README,False
+f2f5162aebc4fbafd20949c915618bd85289b058,2018-05-16 10:29:50,Oleksii Trekhleb,Add N-Queens.,False
+e2ef46016d3a8e1dd69efa8228bb052a3dfda45e,2018-05-16 10:24:06,Oleksii Trekhleb,Add N-Queens.,False
+f8222ed397df15524fb75e14cf03d7cbd321a725,2018-05-14 13:58:56,Oleksii Trekhleb,Add Tower of Hanoi.,False
+8c102a3f62a0d819a171897406637cbcf3de5015,2018-05-14 11:30:42,Oleksii Trekhleb,Add Tower of Hanoi.,False
+44b0a99a803a88c0e51c0a5b37884de49e7e409a,2018-05-14 11:26:44,Oleksii Trekhleb,Add Tower of Hanoi.,False
+26ba21b34cf974eb1b88346e7e0882274e37c703,2018-05-14 09:51:45,Oleksii Trekhleb,Update README.,False
+20d642b4024cc167fe894fd5dadf545ab552db01,2018-05-14 09:43:07,Oleksii Trekhleb,Add SCC.,False
+0c2561197a73b85969430b8f968155c7cf1ef905,2018-05-14 08:59:55,Oleksii Trekhleb,Make it possible to reverse the graph.,False
+ff8f9c49df70588f700789c8d47413d29b3ca45d,2018-05-12 13:05:54,Oleksii Trekhleb,Make it possible to delete all vertex edges at once.,False
+4a6bc1e73335ec06f672c9973e5a2b16f1284448,2018-05-12 10:27:38,Oleksii Trekhleb,Add Eulerian Path.,False
+e5a0b4ba0d433171d01245754078c174fd901397,2018-05-12 10:24:14,Oleksii Trekhleb,Add Eulerian Path.,False
+808a1e713ffe9c469f3240503ef06f1078bdf609,2018-05-11 19:28:39,Oleksii Trekhleb,Make it possible to delete edge from graph.,False
+cb48efee7958568a2adc58f7b8258a7b71d3a4df,2018-05-11 19:20:18,Oleksii Trekhleb,Make it possible to delete edge from graph vertex.,False
+1af824f4488a7d5d8cafa3392a83d643768413e6,2018-05-11 19:00:28,Oleksii Trekhleb,Make it possible to use custom comparators for linked lists.,False
+670ec093f4b61e6dfe1da69a8812de1a0bbb9517,2018-05-11 18:12:42,Oleksii Trekhleb,Add Tarjan's algorithm.,False
+1dd480b906df4bf9affb7a3694c41129792b6851,2018-05-11 18:10:59,Oleksii Trekhleb,Add Tarjan's algorithm.,False
+25703c37ac8ba791dd817d98ebd3bf68929c79c9,2018-05-11 18:04:58,Oleksii Trekhleb,Add Tarjan's algorithm.,False
+21d4144e5a1945ef35beeb3160532af9b1e907df,2018-05-11 10:12:02,Oleksii Trekhleb,Add Tarjan's algorithm.,False
+ff9877cf6b9a4053697bb0100c6f3f37fb37f29b,2018-05-11 09:28:19,Oleksii Trekhleb,Add Tarjan's algorithm.,False
+70af57f11d8b02a6ec9ba1d50f95f4006f8f3910,2018-05-10 18:58:44,Oleksii Trekhleb,Add Tarjan's algorithm.,False
+5f3588ee59a50994ebae5847114fc298e903feb7,2018-05-10 18:42:24,Oleksii Trekhleb,Add Tarjan's algorithm.,False
+5f50bd9bb273805ce67373d40d4e84dee621403c,2018-05-09 12:05:34,Oleksii Trekhleb,Add degree property to GraphVertex.,False
+e73dc2dfd7c8fb31723b74c6587181ae9f22bddb,2018-05-08 21:57:42,Oleksii Trekhleb,Add topological sorting.,False
+fc53c7de5da94336027201f16ff38f5fd9fa1c68,2018-05-07 16:23:13,Oleksii Trekhleb,Add Kruskal.,False
+cad8ccd9bb763daf5d2418f6dfc64deb64733c91,2018-05-07 15:15:10,Oleksii Trekhleb,Add Prim.,False
+50df3bf7170987a3c7f9bfe3446ec7091a11a485,2018-05-07 13:36:37,Oleksii Trekhleb,Update Graph.,False
+ddf149b0d84d35f1aa54a21819c56389f4201ac5,2018-05-07 00:48:09,Oleksii Trekhleb,Update README.,False
+dc2b7ce0aeed17d9e16ff13540abe8b8dfdbc8ac,2018-05-07 00:34:36,Oleksii Trekhleb,Update README.,False
+eec2df994cd893a3ce875f420f8aa80dabf1b388,2018-05-06 20:27:45,Oleksii Trekhleb,Add detect cycle.,False
+84ed7e409d1b51ecc3a7ee51811a069a609a72b7,2018-05-05 13:28:41,Oleksii Trekhleb,Add detect cycle.,False
+d0504fdbb094fdcef2f487194b1ca02d1795126b,2018-05-05 13:28:04,Oleksii Trekhleb,Add detect cycle.,False
+20bc442dcfc38e655d9518731e5035843954f702,2018-05-05 12:35:09,Oleksii Trekhleb,Add detect cycle.,False
+97f8bd3a9f957a821cf08652c5457cddd4b1da56,2018-05-04 19:26:06,Oleksii Trekhleb,Add DFS.,False
+47ac5fcd70cc4c1f5685b794ffe07397ea939aeb,2018-05-04 09:34:37,Oleksii Trekhleb,Add detect cycle.,False
+843893e8e71f4adfdfc8a914ee958db0c091246f,2018-05-04 08:48:05,Oleksii Trekhleb,Add disjoint set.,False
+2e76caa9d66b521c0caaf8af5bc14f1ac5279bc2,2018-05-03 19:19:46,Oleksii Trekhleb,Add disjoint set.,False
+de5b771b4be4cdbe793f295820c8c3b67439211b,2018-05-03 15:07:17,Oleksii Trekhleb,Add Bellman-Ford.,False
+5788575718aec183b676e0d1befbe8889f5093dd,2018-05-03 12:28:00,Oleksii Trekhleb,Add Bellman-Ford.,False
+c97e472db796374e0fe4b0609353309981c6ea98,2018-05-03 09:24:51,Oleksii Trekhleb,Add Dijkstra.,False
+ce7a4a930f31b6cb0c3c35d5513939369802e7cf,2018-05-03 09:17:09,Oleksii Trekhleb,Add Dijkstra.,False
+8b057b10d0e92bbaaf7db1a7d8afb113c70a1650,2018-05-03 09:04:32,Oleksii Trekhleb,Make it possible to change priority of PriorityQueue.,False
+9c1b8e48fdb34b4853f3336a02a2d1493621ede7,2018-05-02 23:52:12,Oleksii Trekhleb,Make it possible to remove from Heap.,False
+c0fe2a3f16e156d61f7f95d8b6121f5797ebbc40,2018-05-02 23:11:13,Oleksii Trekhleb,Update Heap.,False
+59f61dc132778d86298602059e8da4fc19db627d,2018-05-02 10:45:20,Oleksii Trekhleb,Add dijkstra.,False
+119cddc8fcb889678ba83f9512b7bc894e8c60ed,2018-05-01 15:42:07,Oleksii Trekhleb,Update README.,False
+457b5a453f07a1d93b8dd806a78c3d730cdf516d,2018-05-01 13:54:27,Oleksii Trekhleb,Add maximum subarray.,False
+b128f2044345e881098cc5891aefc98acfc68082,2018-05-01 13:46:08,Oleksii Trekhleb,Add maximum subarray.,False
+293b6f721f7ad92ef25c1b027ca82ed8af4fa9c6,2018-04-30 20:35:41,Oleksii Trekhleb,Add integer partition.,False
+ce2dc25b24f5c648e7a0ccd9c44e03b480837822,2018-04-30 20:35:08,Oleksii Trekhleb,Add integer partition.,False
+233ae97e5626e18a2b143de376ceb1a23e044904,2018-04-30 20:34:09,Oleksii Trekhleb,Add integer partition.,False
+78be86771fb24a2771d2b3dbafe8b62634948051,2018-04-30 20:31:42,Oleksii Trekhleb,Add integer partition.,False
+542f2ad2bd77dae34e857f62745e6ce9dbe70a21,2018-04-30 20:30:17,Oleksii Trekhleb,Add integer partition.,False
+8895d20e70b0c0232e34872ba9698bb6538960ff,2018-04-30 16:38:53,Oleksii Trekhleb,Add knapsack problem.,False
+0ce85ce15fbf582e0659e60bdc078ed686484a57,2018-04-30 16:38:14,Oleksii Trekhleb,Add knapsack problem.,False
+d20d0c8d4f4914a90e0d212dc38fb8370442d343,2018-04-30 15:07:12,Oleksii Trekhleb,Add knapsack problem.,False
+1c3cecf318aa02e038b9ebc0c1db391dd0ba7cd2,2018-04-30 11:23:49,Oleksii Trekhleb,Add knapsack problem.,False
+817ad9de2c21c6dd7cd98ec825c177f896e09e8d,2018-04-30 11:22:48,Oleksii Trekhleb,Add knapsack problem.,False
+80433eb36fd5450ad12c3a0eff2952b142a699fa,2018-04-27 20:01:04,Oleksii Trekhleb,Add knapsack problem.,False
+4474d8909f1fccec7769c8e58a3ec42612e62c16,2018-04-27 19:42:06,Oleksii Trekhleb,Update versions.,False
+120bed8c1ca14b19f92187843bcf682be81c0bea,2018-04-27 19:27:53,Oleksii Trekhleb,Update docs.,False
+1456a54a66b3315f1f3ed65faede4eac3b211b36,2018-04-27 19:25:01,Oleksii Trekhleb,Create CONTRIBUTING.md,False
+824ad61ff8b342dad902e13b226933927efb0eee,2018-04-27 19:20:12,Oleksii Trekhleb,Create CODE_OF_CONDUCT.md,False
+1dd67ab911e89078d39f46e9e5aeb2956407b045,2018-04-27 11:35:35,Oleksii Trekhleb,Update packages.,False
+e30d50e5c293a1068fb1446c8feaad417ed989eb,2018-04-27 11:34:45,Oleksii Trekhleb,Update packages.,False
+f494a84eb1254c1de68a79eed4df9bebcc62b30b,2018-04-27 11:33:12,Oleksii Trekhleb,Update packages.,False
+a5c753bd0da5265ba7b25f3fad5998900d2c611e,2018-04-27 11:25:54,Oleksii Trekhleb,Update packages.,False
+5ff0b40f7c287e15b87e831a0bd44f75ccf61b88,2018-04-27 11:21:48,Oleksii Trekhleb,Update packages.,False
+8d832ca5f27f6d584e833e6d3a4a1fe0b9ae970a,2018-04-27 10:59:22,Oleksii Trekhleb,Update packages.,False
+c9089bb5f3cce6a3c16e3aaa17dd2cded670933a,2018-04-27 10:49:11,Oleksii Trekhleb,Add SCS.,False
+3a984b6d4e0cc3684dc7b5c164aa63ee13e2ad3a,2018-04-26 20:02:48,Oleksii Trekhleb,Update README.md,False
+657f8cb3c9bbe40b5479d606536ca6ffe7473898,2018-04-26 20:01:31,Oleksii Trekhleb,Update README.md,False
+366e744db330431581538d221cfe058fb11b4f3f,2018-04-26 19:55:16,Oleksii Trekhleb,Update README.md,False
+626eb8a74677720ab56d9e66e989379ce1e238b2,2018-04-26 18:19:52,Oleksii Trekhleb,Add longest increasing subsequence.,False
+15e798c13041de1346ca387352c094544e1893a7,2018-04-26 10:38:13,Oleksii Trekhleb,Update README.,False
+01139e0b50f4dbd837d1fdcb1e935516a9ea6872,2018-04-26 10:22:07,Oleksii Trekhleb,Update README.,False
+08d716326939906d6791f7127183b109e3457385,2018-04-26 10:16:23,Oleksii Trekhleb,Update README.,False
+09fbf2eb02d8d781afa649e928ff86f60ff7eb34,2018-04-26 10:15:51,Oleksii Trekhleb,Update README.,False
+1f6a5641362d06531a1dda1eecf65e5deb8a8576,2018-04-26 10:12:11,Oleksii Trekhleb,Update README.,False
+351f612af9db07046330cbb3593425bc28a61761,2018-04-26 10:09:08,Oleksii Trekhleb,Update README.,False
+55234b38b7c249ee349906cb7b734e4040d6758f,2018-04-26 09:57:44,Oleksii Trekhleb,Update README.,False
+c62a6ceabf930bb3b120262222bbf44c342f9c12,2018-04-26 09:56:12,Oleksii Trekhleb,Restructure folders.,False
+9bef8de6b1c261af571202c1b35793680fb9c049,2018-04-26 09:33:59,Oleksii Trekhleb,Add LCS.,False
+a672474accb6b7803eecaa338aa0c7c195ba2ef1,2018-04-25 20:14:24,Oleksii Trekhleb,Add BFS and DFS for tree.,False
+177fa9277fc894d5e5fe07110febb4d848ebc0ff,2018-04-25 20:13:30,Oleksii Trekhleb,Add BFS and DFS for tree.,False
+5b82e6aa5cd140455c4f8bba40b0fba566853d4f,2018-04-25 20:12:28,Oleksii Trekhleb,Add BFS and DFS for tree.,False
+fd898812f3826a10d09588633b021ebe56eba06c,2018-04-25 20:11:21,Oleksii Trekhleb,Add BFS and DFS for tree.,False
+85585769ea36553d7707ccb36b361147c1e1866f,2018-04-25 20:05:44,Oleksii Trekhleb,Add BFS and DFS for tree.,False
+b175aabf8dc7f0718b1e1bef3771e85fd1a51454,2018-04-25 18:30:26,Oleksii Trekhleb,Update README.,False
+bf24ea3316cb2b9c113a61b613e0b585f3deb412,2018-04-25 18:06:05,Oleksii Trekhleb,Add LCS.,False
+0e46d3e164e65947ec5d796b3d140bb11b4fc157,2018-04-25 01:21:45,Oleksii Trekhleb,Add Rabin.,False
+59548c624f13f95357982f4be6a109f88c62deba,2018-04-25 01:21:01,Oleksii Trekhleb,Add Rabin.,False
+1437f0ab92daa29bfbc1babf8db99755c5828bb9,2018-04-25 00:21:01,Oleksii Trekhleb,Update README.,False
+f9a8c881cc5886a86d5537d5d6f9f3d1bc5776da,2018-04-25 00:06:47,Oleksii Trekhleb,Add Rabin.,False
+d126b23c3c520fcab452ed80cbe48bdd81155c4f,2018-04-24 20:26:02,Oleksii Trekhleb,Add knuth.,False
+8441564f224c3a72f4b973bdadf724fdef43fa80,2018-04-24 20:25:27,Oleksii Trekhleb,Add knuth.,False
+4afc8c759a4e9cab3344033a088a53bdd2a0effa,2018-04-24 20:23:29,Oleksii Trekhleb,Add knuth.,False
+9081de3dedd55b880b71c0f535d53c8c8aece20c,2018-04-24 18:11:06,Oleksii Trekhleb,Update README.,False
+14322e43e9919fbf019a054edd3a45f9a005ee77,2018-04-24 17:37:11,Oleksii Trekhleb,Update README.,False
+68fe1d8943427400548d2f436b4fc33f96f5b9ae,2018-04-24 17:32:45,Oleksii Trekhleb,Update README.,False
+66ebd7859a3daa2e649d6bd97076692fb20ab717,2018-04-24 17:15:55,Oleksii Trekhleb,Add Hamming.,False
+6cf17e4afb21e212845b9b41ce3d3c5bd1217e8a,2018-04-24 10:25:53,Oleksii Trekhleb,Add Levenshtein.,False
+8dd0c14af1c85efa4f9e693e4e2df88fc289b29b,2018-04-24 10:24:38,Oleksii Trekhleb,Add Levenshtein.,False
+075fe39f5a7e2e1334f6be59bbb7d09319f54ff9,2018-04-24 09:11:16,Oleksii Trekhleb,Add Levenshtein.,False
+cb14892e4ee78111556b44036adeb17aeef09fa4,2018-04-23 12:08:46,Oleksii Trekhleb,Add combinations.,False
+0af06d601b2ca4fcba8f54de2e6c081e769267cf,2018-04-23 11:05:03,Oleksii Trekhleb,Add combinations.,False
+a3697c56fdfae1b4ca93dbf97e60ab867a9c7cea,2018-04-21 11:54:16,Oleksii Trekhleb,Add combinations.,False
+3e5e78d2911b74156a19d1daecca94ae54acb115,2018-04-18 15:37:50,Oleksii Trekhleb,Add factorial.,False
+a10009df64973e6d6934701d4367145af20bb63e,2018-04-18 15:35:07,Oleksii Trekhleb,Add factorial.,False
+77e897b3b99be0f156867ed7854cd99da29a714e,2018-04-18 15:34:05,Oleksii Trekhleb,Add factorial.,False
+4434e964136853010519cfba0bc6ba454915b5d2,2018-04-17 22:58:35,Oleksii Trekhleb,Add permutations and combinations.,False
+e8de00c9695750ef465fc57b755778900190fa98,2018-04-17 22:11:04,Oleksii Trekhleb,Add permutations and combinations.,False
+59434dbabb0efed6b2739cea0b4d34af86c54e17,2018-04-17 22:10:32,Oleksii Trekhleb,Add permutations and combinations.,False
+21999cc9d14f1a5ba72c163a64c8f5db9e58cdb2,2018-04-17 22:09:44,Oleksii Trekhleb,Add permutations and combinations.,False
+ccaddf8d346df0bbaeda7a9b4ffac2a1d2c37ecc,2018-04-17 12:24:23,Oleksii Trekhleb,Add lcm.,False
+c3de3762616d00a1a861f72088f636efa39bab29,2018-04-17 12:09:46,Oleksii Trekhleb,Add lcm.,False
+31224080b47a7b246d998a41eb8cfc78caa39a96,2018-04-17 12:06:29,Oleksii Trekhleb,Add lcm.,False
+91457191b1c065b5c5fe75bbd5462ce5469b7337,2018-04-17 11:58:15,Oleksii Trekhleb,Add lcm.,False
+34522c8087fcdc23967e3ee0f317816b590f6ce1,2018-04-17 11:05:52,Oleksii Trekhleb,Add Fisher-Yates.,False
+e63709a27124471ca8c065ddb5ad77328a0b2949,2018-04-17 11:04:20,Oleksii Trekhleb,Add Fisher-Yates.,False
+3aa80688bbf35eedf73749b2b6582efba1c2d77e,2018-04-17 10:34:46,Oleksii Trekhleb,Add primality tests.,False
+cedf0989e2c1c28b183d4247f049808debaeba49,2018-04-17 10:33:09,Oleksii Trekhleb,Add primality tests.,False
+4fc5483892f9243f5ab5ba413b06d190b774e753,2018-04-17 10:32:06,Oleksii Trekhleb,Add primality tests.,False
+54f6aadec4d4fa086aaf119b8c1796eb81363210,2018-04-17 00:49:06,Oleksii Trekhleb,Add primality tests.,False
+5699738b9b1d140dbd39ed77b038461fbd9f436c,2018-04-17 00:48:05,Oleksii Trekhleb,Add primality tests.,False
+f724bd53534d6b4fe182f6606bfe43395ddcbbd7,2018-04-17 00:39:41,Oleksii Trekhleb,Add primality tests.,False
+81ca672f5a505eda0a8f3b413a56e09055cc074e,2018-04-17 00:33:10,Oleksii Trekhleb,Update README.,False
+b940932981775156322d380f57dee5b7150ebe6f,2018-04-16 23:19:52,Oleksii Trekhleb,Update README.,False
+fafce27768fdb789fe82c3698d1078d865fd55b0,2018-04-16 22:00:29,Oleksii Trekhleb,Add binary search.,False
+c7110be47e279c9cb6060d70a92a5946950924ea,2018-04-15 11:12:01,Oleksii Trekhleb,Add quick sort.,False
+250d90af3cb6212e5ec4e2cd8be874b8f3f9ef6a,2018-04-15 09:27:34,Oleksii Trekhleb,Add quick sort.,False
+804f50bbedeb02f3151ec4990dc4f877c3b0d9cd,2018-04-15 09:26:15,Oleksii Trekhleb,Add quick sort.,False
+dfdd1ac58af9636d6218ccf1dae96f80fc4a6481,2018-04-15 09:21:47,Oleksii Trekhleb,Add quick sort.,False
+278ca89aa18fc05abc6d7da594b86750755df842,2018-04-15 09:11:15,Oleksii Trekhleb,Add quick sort.,False
+c8becaf299bf04e0d0f28f78354524689747255b,2018-04-15 09:00:45,Oleksii Trekhleb,Add quick sort.,False
+f29bcabffb211535162ffc81641f40e0c1522e24,2018-04-15 01:09:37,Oleksii Trekhleb,Add merge sort.,False
+21ce9719d9fc53e384a94f6fde19e3350dd8f89c,2018-04-14 14:39:25,Oleksii Trekhleb,Add merge sort.,False
+ed2abde623c4324281a39dba5c200fbb4b623e60,2018-04-14 14:18:33,Oleksii Trekhleb,Add merge sort.,False
+b17ba6134886d25127dde6208aaa29e4642fa471,2018-04-14 13:03:03,Oleksii Trekhleb,Add heap sort.,False
+36bbfed6a1b363926684d711d0f5eab483aa18a4,2018-04-14 12:59:36,Oleksii Trekhleb,Add heap sort.,False
+053b365f2422c319162f841ab93d3c7bbd6c7a20,2018-04-14 12:29:33,Oleksii Trekhleb,Add README.,False
+8efebc17158c7785b686da8c053c1319413a3390,2018-04-14 12:25:46,Oleksii Trekhleb,Add README.,False
+0fac790e1b14b83eed8da68ae7a6fa64ba783837,2018-04-14 12:22:04,Oleksii Trekhleb,Add README.,False
+781d5224e0210081738be104e752cf7018f733c8,2018-04-14 12:13:09,Oleksii Trekhleb,Add README.,False
+3fad3735db4b33a7e4666f096f0890a853aa427b,2018-04-14 12:09:36,Oleksii Trekhleb,Add README.,False
+248f1bc3a82823571ed41a8f9e6b21f3263d8b7d,2018-04-14 12:06:15,Oleksii Trekhleb,Add README.,False
+a7322a88eb3dd496baa91cce8934f41e5a6dae6b,2018-04-14 12:03:38,Oleksii Trekhleb,Add README.,False
+629de0b8f6c549c3b5c6ff7f9a45198cba2962c4,2018-04-14 11:59:39,Oleksii Trekhleb,Add README.,False
+773941843f88c9f7ba8146eb1830178a54242559,2018-04-14 11:56:51,Oleksii Trekhleb,Add README.,False
+4d6d5da7bb42c6d34f7cc37bed1341bbd2252bf3,2018-04-14 11:52:23,Oleksii Trekhleb,Add README.,False
+704539273742f086178477f2e1a98ea375b92fe1,2018-04-14 11:48:21,Oleksii Trekhleb,Add README.,False
+7f8da916b6c857a82e3cdbe73357789f38339c50,2018-04-13 20:25:29,Oleksii Trekhleb,Update READMEs.,False
+bcf58554ae870bd05c081afb84e294880e02a16e,2018-04-13 20:21:39,Oleksii Trekhleb,Update READMEs.,False
+b3fca79cc189968be21b092c990e78e83b8af051,2018-04-13 20:20:30,Oleksii Trekhleb,Update READMEs.,False
+432c894f4916bfca4bb706bed4d9f220bc6a244d,2018-04-13 20:19:39,Oleksii Trekhleb,Update READMEs.,False
+1fd5131c60a618721871d1e11eb82e85d4d1b076,2018-04-13 20:16:41,Oleksii Trekhleb,Update READMEs.,False
+ec7232ea1595b7918f2b1d19146feef2d5c22859,2018-04-13 20:10:38,Oleksii Trekhleb,Update READMEs.,False
+6c832ec5dc9fe5779637da80ad1b8765bfdb35bd,2018-04-13 20:10:19,Oleksii Trekhleb,Update READMEs.,False
+0a23b3faa514ce78098e2ec6af5a2c49274ba00d,2018-04-13 20:09:39,Oleksii Trekhleb,Update READMEs.,False
+d3d8a467e540f0d9aac645e2b4acda6f2dd975b7,2018-04-13 20:08:00,Oleksii Trekhleb,Update READMEs.,False
+09debd37df122cbb213f3c7474e33d936b3ce74f,2018-04-13 19:56:39,Oleksii Trekhleb,Update READMEs.,False
+23e7d5289172e5ed9e7b7cddc2a4bf374a071baa,2018-04-13 19:54:40,Oleksii Trekhleb,Update READMEs.,False
+f26fd87c0a0b1fa176e5f8c5a94b4e37071dad74,2018-04-13 19:46:35,Oleksii Trekhleb,Update READMEs.,False
+db4a57b8da1d192cff381e73d89a620a491cc343,2018-04-13 19:32:24,Oleksii Trekhleb,Update READMEs.,False
+f3aa4a12640e595700f03312ab34f1456d538563,2018-04-13 19:27:29,Oleksii Trekhleb,Update READMEs.,False
+b0247a5baaaaf788f463bb8cf8f0496de6b90481,2018-04-13 10:19:47,Oleksii Trekhleb,Add insertion sort.,False
+37bbc53bf31d99c2ca0d369ef270896338615c13,2018-04-13 09:46:55,Oleksii Trekhleb,Add selection sort.,False
+d12188980dc45c9c6d4a39ed4b038267a9bc654c,2018-04-13 09:45:24,Oleksii Trekhleb,Add selection sort.,False
+ee5b3eec35e2d524733d242bdd3b1baa79148d9b,2018-04-13 09:44:33,Oleksii Trekhleb,Add selection sort.,False
+1ff7684b4ad1f646391e4b2357635b0b14fd9b82,2018-04-13 09:43:41,Oleksii Trekhleb,Add selection sort.,False
+642c152042cfa6c3d6508038d292409ea36023fc,2018-04-13 09:41:21,Oleksii Trekhleb,Add selection sort.,False
+1b8075c132979f905da729a0fcc0e7e8a60aefa2,2018-04-13 09:08:38,Oleksii Trekhleb,Add big O sheet for sorting algorithms.,False
+468bf4a37dc06d9247e27300d3f431fd91280997,2018-04-13 09:05:56,Oleksii Trekhleb,Add big O sheet for sorting algorithms.,False
+43353cd17c0fca83e8d6732cda0c22e61bb6b94a,2018-04-13 09:03:54,Oleksii Trekhleb,Add big O sheet for sorting algorithms.,False
+79b091ae2e19c811c3ac9038d249427367976dd1,2018-04-13 08:55:06,Oleksii Trekhleb,Add big O sheet for sorting algorithms.,False
+044047fc7e16630c8b5e1e8cf8edc3723b81a7df,2018-04-13 08:44:35,Oleksii Trekhleb,Add big O sheet for sorting algorithms.,False
+d267ea0658885394d553339efb26f058f9301b90,2018-04-13 08:43:58,Oleksii Trekhleb,Add big O sheet for sorting algorithms.,False
+8447bd140d0da2b65da1d397ca581a85a889e12f,2018-04-13 08:41:39,Oleksii Trekhleb,Add big O sheet for sorting algorithms.,False
+33963d8e08f3afe437ee0792eb655aea4a79e1c9,2018-04-12 17:02:34,Oleksii Trekhleb,Add BubbleSort.,False
+5320bfc7ec9457c3db42f60e7e068a73e9ff39bb,2018-04-12 14:50:39,Oleksii Trekhleb,Add BubbleSort.,False
+0224afbc424fa5c1446f98b3472a8c5dac582d99,2018-04-12 14:23:26,Oleksii Trekhleb,Add BubbleSort.,False
+852093265ec32e0a6ed028554357dfaf71dfa1d8,2018-04-12 11:19:34,Oleksii Trekhleb,Update READMEs.,False
+e27ccedf28bd7e393c7a6bb215174b6f2bd372cd,2018-04-12 11:16:35,Oleksii Trekhleb,Update READMEs.,False
+e05d15976548f4d184b3875ce0aa7d0fe01ef264,2018-04-12 10:55:19,Oleksii Trekhleb,Use Comparator in heap.,False
+953d9e0fb8f122283d7b2462eb56a9e2b3696b3c,2018-04-11 20:11:05,Oleksii Trekhleb,Add Comparator.,False
+6f9600aaa71fccc1ced1373fa465b1141e2e5c9d,2018-04-11 18:27:41,Oleksii Trekhleb,Add BFS.,False
+62d974749581be00f0555390f78dce7551b5d5ff,2018-04-11 12:25:21,Oleksii Trekhleb,Add DFS.,False
+7656cfd6ead999effce589621af2f6abd3877855,2018-04-11 12:22:04,Oleksii Trekhleb,Add DFS.,False
+ddd7f9fe0d8f3967b900988894195fc106ea90fb,2018-04-11 11:12:17,Oleksii Trekhleb,Add getNeighbors method to Graph.,False
+04a2b0866997e47412871052133030311d9ffd3e,2018-04-11 10:36:39,Oleksii Trekhleb,Add License.,False
+87ef6e2e48e2d9b623c1a2b4e96dbf8fdbe73f8d,2018-04-11 10:08:48,Oleksii Trekhleb,Fix JSDoc.,False
+67cdad8030678a121a63ce8856ebd555ae22f058,2018-04-10 14:12:32,Oleksii Trekhleb,Add graph.,False
+840635e613c13b5dfd135b3dfc48eb4057783c05,2018-04-09 22:13:09,Oleksii Trekhleb,Add playground.,False
+0052337df9928e7fedde91508074d678bc8aa33a,2018-04-09 15:26:33,Oleksii Trekhleb,Add playground.,False
+a588018a414c8f4356f507e4fac40500a3a4911d,2018-04-09 15:23:40,Oleksii Trekhleb,Add playground.,False
+8c46dbfb6d2324b4d738dc8afc8a16125be7b947,2018-04-09 14:45:28,Oleksii Trekhleb,Make it possible to add objects to LinkedList.,False
+cdf72208b3c483cb0ba8204320699b96cf209a9c,2018-04-09 01:34:35,Oleksii Trekhleb,Add string permutation algorithm.,False
+eb815c86ab5e89eab76544fa1ace3a291ab9ef22,2018-04-09 01:33:11,Oleksii Trekhleb,Add string permutation algorithm.,False
+27407d6b38062ea466eafbe752d461d22291a193,2018-04-06 12:04:36,Oleksii Trekhleb,Add AVL Tree.,False
+8d21315b140791d0535fcdcd3d5ecf58f12866cb,2018-04-06 11:47:52,Oleksii Trekhleb,Add AVL Tree.,False
+359286ec3b63e9741da9b71f6badf2a4b9c9b21a,2018-04-06 11:42:01,Oleksii Trekhleb,Add AVL Tree.,False
+d10293c088529dc05f3a488123e633ceef6d5210,2018-04-06 11:41:08,Oleksii Trekhleb,Add AVL Tree.,False
+81253e8a5dcad373a8fbdcf2dc681e99d4816caa,2018-04-06 09:38:14,Oleksii Trekhleb,Fix binary tree node.,False
+9eefd13615922bccf999bcc775af7da3bf51526f,2018-04-06 09:31:16,Oleksii Trekhleb,Fix binary tree node.,False
+30c080ba021b1856bd300a7bb37169072a3d8712,2018-04-05 18:24:25,Oleksii Trekhleb,Fix binary tree node.,False
+d19149de8e1f0df8fb48feaccc3489f5c8922c9e,2018-04-05 10:59:13,Oleksii Trekhleb,Fix binary tree node.,False
+b24763e2498fb7dcf67c191f7d17f10a2b15c40a,2018-04-05 09:21:45,Oleksii Trekhleb,Fix binary tree node.,False
+7f64f553976a8fd10dfb359e2a072d0d8c2a9198,2018-04-05 08:57:06,Oleksii Trekhleb,Make test coverage to be optional.,False
+97e6120b3f739d78960ef7b48f620e1b4bf8f128,2018-04-04 11:51:03,Oleksii Trekhleb,Refactor BST.,False
+857edbf3a8bdb063a7cf1ebe07e4d5f37c765ae3,2018-04-04 11:41:26,Oleksii Trekhleb,Add possibility for tree nodes to have height.,False
+d98c52cba830b3a4f17e964279a400e9e4b5f6a4,2018-04-04 10:38:09,Oleksii Trekhleb,Fix README.,False
+c79dfac2c5592358fce728c7d2c7fb33ade76c19,2018-04-04 10:09:42,Oleksii Trekhleb,Integrate codecov.,False
+7655accd6698699867069c53a1eefc67ef11a251,2018-04-04 09:45:22,Oleksii Trekhleb,Integrate codecov.,False
+960cb5c4b399d7400e0463f316d9667ac0d87114,2018-04-04 09:41:59,Oleksii Trekhleb,Integrate codecov.,False
+4e3a156de5629cbaba2d8c5f0d0cac2e0f62621b,2018-04-04 09:38:32,Oleksii Trekhleb,Integrate codecov.,False
+f5ae2360f2de742100e07496a9526a8b04f81d45,2018-04-04 09:32:56,Oleksii Trekhleb,More tests.,False
+72baedeb8994e9b713a7cf0ca2150bbd7d6347ee,2018-04-03 20:48:04,Oleksii Trekhleb,Refactor Priority Queue.,False
+138c3d990521bc7a577eefdf0c24775825aa41e0,2018-04-03 20:47:14,Oleksii Trekhleb,Refactor MinHeap.,False
+062f5a49295d9b3d025930b5853fabc288d7f383,2018-04-03 20:34:44,Oleksii Trekhleb,Refactor MinHeap.,False
+7dd977c3a4466895c35611c76e3d6e9ae391eb2e,2018-04-03 19:21:58,Oleksii Trekhleb,Add comments.,False
+9f8e763d692f144373e1960c589db3c6bb54af77,2018-04-03 11:17:42,Oleksii Trekhleb,Add binary search tree.,False
+1c911aadf009e9ee59773728c7a3082d898ef205,2018-04-03 10:20:30,Oleksii Trekhleb,Add binary search tree.,False
+b89e40644429761dc7ecca07ee040b7e9ab7bccf,2018-04-03 10:07:19,Oleksii Trekhleb,Add binary search tree.,False
+c5bccffe36da2c42658503bdde4baafd85b54f77,2018-04-03 10:05:13,Oleksii Trekhleb,Add binary search tree.,False
+ff2df770b8e2dea21fba92f3b2c3f82e74114d01,2018-04-03 09:51:20,Oleksii Trekhleb,Add binary search tree.,False
+1513c536a676fa6323f503e3ea6202bd7eac73ec,2018-04-03 09:50:08,Oleksii Trekhleb,Add binary search tree.,False
+873024079a38948ab10292a73130235bca65ae43,2018-04-03 09:11:45,Oleksii Trekhleb,Add binary search tree.,False
+8caf3a2201e7a2ae671722effa14d47e2457ad55,2018-04-02 22:56:29,Oleksii Trekhleb,Add binary search tree.,False
+fbfdce030edc489be1ef407fabc86611aa59f843,2018-04-02 22:54:51,Oleksii Trekhleb,Add binary search tree.,False
+33816b991924e90bf4deb98d05bd9228089572c3,2018-04-02 20:24:24,Oleksii Trekhleb,Add binary search tree.,False
+753625e5829e9dfb9dd7f41da060fea12194ec97,2018-04-02 20:23:38,Oleksii Trekhleb,Add binary search tree.,False
+8e822bcb14090cabff3f42a1457d6d0c07e6895b,2018-04-02 20:22:05,Oleksii Trekhleb,Add binary search tree.,False
+d6be33842c86ed0df2456948cd2de22cedb7ebc9,2018-04-02 20:20:56,Oleksii Trekhleb,Add binary search tree.,False
+00e40a0eca2d086571df846a2a25053877e233e7,2018-04-02 14:57:20,Oleksii Trekhleb,Add power set algorithm.,False
+91011c18f40b2e9f2d3de095563eecc0e7b20d17,2018-04-02 11:53:32,Oleksii Trekhleb,Add cartesian product algorithm.,False
+02806f7efa2f728258185705b774bf1f14bcb381,2018-04-02 11:35:17,Oleksii Trekhleb,Add cartesian product algorithm.,False
+2f329b012a764ea67249c2c0802093f672b1663e,2018-04-02 11:27:42,Oleksii Trekhleb,Add cartesian product algorithm.,False
+f3503f1d5ee72e955e53bc766e57babcd058f47a,2018-04-02 11:15:50,Oleksii Trekhleb,Refactor algorithms structure.,False
+6e4d7a1750e1ed48ad9793a65e6826bd66fe1bc0,2018-03-30 23:15:51,Oleksii Trekhleb,Add Trie.,False
+b7675f883450d1a22f72026bbd04b28adf0f90b5,2018-03-30 20:38:11,Oleksii Trekhleb,Cleanup.,False
+86a4069e262675491417904dfa123209dac73cf0,2018-03-30 13:07:24,Oleksii Trekhleb,Cleanup.,False
+5bbe414fee7f8f9aafafa532b907b4889e0c6c67,2018-03-30 12:47:25,Oleksii Trekhleb,Add big O info.,False
+c4a40160bffac6a8454f92896a43dea2f3019be4,2018-03-30 12:45:33,Oleksii Trekhleb,Add big O info.,False
+1eaab78371188c0536f124778e6b86798965df1f,2018-03-30 12:43:58,Oleksii Trekhleb,Add big O info.,False
+de2d9bd09fe5ef483eb1882aa865b37c1675577d,2018-03-30 11:15:07,Oleksii Trekhleb,Add big O info.,False
+74cd6112251a767aa9477c993828ab36bd557417,2018-03-30 11:14:30,Oleksii Trekhleb,Add big O info.,False
+8319355f1cb0d21ea3511a5f3beaecff801ad393,2018-03-30 11:08:00,Oleksii Trekhleb,Add big O info.,False
+b388cfeba8c999ffc5e54ca772f4aaf22449774b,2018-03-30 11:06:39,Oleksii Trekhleb,Add big O info.,False
+1c1826daa9ca41fbc4b1b2e9d00e59810abb071a,2018-03-30 10:54:13,Oleksii Trekhleb,Add big O info.,False
+1fd983ab2054eea70e42a5242e5eb64ef19ee6f5,2018-03-30 10:53:33,Oleksii Trekhleb,Add big O info.,False
+5e75378280ebab3438d04b56b8ebb823f3c4649a,2018-03-30 10:37:13,Oleksii Trekhleb,Add Heap.,False
+09100eab442f416bb043dd8e7e6f05736412dc98,2018-03-30 10:33:26,Oleksii Trekhleb,Add Heap.,False
+1801b6f6d7f58a6af17497a62307777880c4e391,2018-03-30 00:22:30,Oleksii Trekhleb,Update README.,False
+fcf6eebebeae09732094f55822894ee61837e452,2018-03-30 00:21:40,Oleksii Trekhleb,Add Algorithms.,False
+57e0a875a0bf3ed9da73837a306159dc323a317a,2018-03-30 00:18:01,Oleksii Trekhleb,Add Algorithms.,False
+0d6aba1078f553d850995e9864292d18a23d1526,2018-03-30 00:16:50,Oleksii Trekhleb,Add Algorithms.,False
+b9bcdbb987c171ec299ec1e5a35b684d2936aad6,2018-03-29 12:52:59,Oleksii Trekhleb,Add Algorithms.,False
+9de58d013885f8666ef7b38bc86a3025796def82,2018-03-29 12:52:08,Oleksii Trekhleb,Add Algorithms.,False
+705a7fb0ec4c0ee2eee7910fa4fb85f19ab7fd4e,2018-03-28 19:32:20,Oleksii Trekhleb,Add Stack.,False
+8da675452333c2a50d93729d8e1b0214c50eaaac,2018-03-28 19:31:46,Oleksii Trekhleb,Add Stack.,False
+159d489e523307ad1335f62051905cf887cb8a98,2018-03-28 18:55:26,Oleksii Trekhleb,Configure Travis.,False
+c8bfe9ffaa40d0250871ac2e3517633c3582c1a3,2018-03-28 18:23:12,Oleksii Trekhleb,Add Queue.,False
+55d6aa57583b1781aa0e387dfb09ad7c56235415,2018-03-28 12:12:02,Oleksii Trekhleb,Add Travis support.,False
+62f67af92ac062a34907637b5c0fe2be99688a69,2018-03-28 12:11:20,Oleksii Trekhleb,Add Travis support.,False
+57cd55def49c57a98dc5b96f6d5c3f341d5b396f,2018-03-28 12:06:06,Oleksii Trekhleb,Add Travis support.,False
+6ffbd6eb55a81d43b7e3cee4913224a0f9fa2b5d,2018-03-28 12:00:30,Oleksii Trekhleb,Add HashTable.,False
+ce40b52e093337252d8733b64c11d7cce1854419,2018-03-28 11:59:47,Oleksii Trekhleb,Add HashTable.,False
+97b8765a7db7d1cfde2eca9f5e813afc4a99545f,2018-03-27 18:11:50,Oleksii Trekhleb,Add LinkedList.,False
+309e7b59b70f15a15d623ac2e6336cbb17d970cf,2018-03-27 18:11:26,Oleksii Trekhleb,Add LinkedList.,False
+53ca279c3be946f6543b1b9dc40343d3d6da5be8,2018-03-27 17:50:46,Oleksii Trekhleb,Add LinkedList.,False
+909976c7bf812f84d18c0a9b244b900a1ce45995,2018-03-27 17:48:28,Oleksii Trekhleb,Add LinkedList.,False
+92414c9495a3eaa6976c1859698ef04df6d40c88,2018-03-27 17:48:04,Oleksii Trekhleb,Add LinkedList.,False
+581401547bc2843593e163e39d89ff216a762d75,2018-03-27 17:46:16,Oleksii Trekhleb,Add LinkedList.,False
+84ad862c24f056af7ef392b804c65e1b07e9b124,2018-03-27 17:45:41,Oleksii Trekhleb,Add LinkedList.,False
+64e5428925dbfbcdae0d5c1e8a369db356c600bd,2018-03-27 17:44:57,Oleksii Trekhleb,Add LinkedList.,False
+60e141f18f9f57036cca58a7ba86c70fbca51f54,2018-03-27 17:42:44,Oleksii Trekhleb,Add LinkedList.,False
+335e751f32d14745e340ec8cd1855dfb59cb1387,2018-03-27 17:13:15,Oleksii Trekhleb,Update README.,False
+ad0921d05e0b08369340dd7305f1dcc7a50921d8,2018-03-27 15:33:44,Oleksii Trekhleb,Add jest tests.,False
+eb3eadaf10bc9fa21d8ff021c6e46d9f0c6837c4,2018-03-27 14:25:43,Oleksii Trekhleb,Refactor directory structure.,False
+83b3a35834fcf2c776e508e228a3b698bb216a06,2018-03-26 01:58:32,Oleksii Trekhleb,Add linked_list.,False
+e9a3b9d30c506af37b0bdd7137bc1cbc576cefb5,2018-03-24 13:19:25,Oleksii Trekhleb,Add README.,False
+17735297206222cf06b106ec1953645dc621f4fa,2018-03-24 13:18:50,Oleksii Trekhleb,Add gitignore.,False

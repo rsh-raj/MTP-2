@@ -1,0 +1,1344 @@
+Hash,Date,Author,Message,IsMerge
+597843ab84d565cccfd8fd7719416350ae73e734,2024-11-28 02:31:47,Jack Lukic,"Merge pull request #7149 from BobConanDev/patch-1
+
+Update RELEASE-NOTES.md, fix typos",True
+c06e56ba998d4d376430641ba568d7fbcb6a44ab,2024-10-19 03:28:01,Bob Conan,"Update RELEASE-NOTES.md, fix typos",False
+47acaa0ce4c8dcde6c76080483cf8a3566576770,2023-01-11 22:35:32,Jack Lukic,"Merge pull request #7103 from Irsha-Farwin25/patch-1
+
+fixed typo",True
+f84dc09c6a9dd3d63aa1e00953b5244cb784c7ed,2022-12-19 22:24:49,Irsha-Farwin25,fixed typo,False
+daa2438f048e6d98a330171a83ec74c3a13e9bd1,2022-10-07 01:32:37,jlukic,Add npm publish to bot for main repo,False
+074641f0d3a41f155101fc5674b79e8af6441972,2022-10-07 00:52:55,Jack Lukic,Update readme,False
+decf1883804ef205db0ce0ea7d73b9cb6aaf31c1,2022-10-07 00:49:35,Jack Lukic,2.5.0 Notes,False
+cc5e7f30a11022ae44ed372cb47674a80342f4e7,2022-10-07 00:47:14,jlukic,Tag more issues reporting build typo,False
+1c8f74c77801e3846d04f0dc85754ca9d3711224,2022-10-07 00:40:05,jlukic,Remove lockfile,False
+55e0ad0ca3ca79848faa1fd930a16fdcdaf6d334,2022-10-07 00:39:58,jlukic,Cleanup auto npm publish,False
+abfbbb95c475143ebb2bdaf45e568efa9d865aea,2022-10-07 00:39:39,jlukic,Fix auto publishing npm,False
+de2d7fceafc70708c301b584899a99a168a621d6,2022-10-06 23:34:12,jlukic,Finalize fixing admin scripts with kludge,False
+5bd99a34a9af9da657a14a819ef4adb4ad19f913,2022-10-06 22:56:03,jlukic,Ye old annoying admin task rewrite,False
+d89327ea2cc69611664feccd4f4b35fcb0bcea56,2022-10-06 21:49:46,jlukic,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+6f2a9127080b2f249bfddbdfb3ebce458ae72f3f,2022-10-06 21:49:38,jlukic,Work on admin scripts gulp4,False
+b19d2d3111255eb544c1139690a5301e70179776,2022-10-06 21:26:58,jlukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+4b3fc0aed6a2a261546837f132ab51199d4bea07,2022-10-06 21:26:25,jlukic,Date,False
+2ec0dd00fb715849433db855deba5d4f5ef0545d,2022-10-06 21:01:43,jlukic,Update rls notes,False
+2a7a90bb2822c6eb7386376758b821c705b5578a,2022-10-06 21:00:55,jlukic,Notes,False
+49b9cbf47c172c65dc265d213c609ad5e651a6a9,2022-10-06 20:55:02,jlukic,#7023 Fix loading icon in button,False
+9e12d42d5fd8c468e33822574a26558aa8807af4,2022-10-06 20:04:07,jlukic,Update notes,False
+69d2ddbafac9933bdfa2fd49024773b01ad9c2e1,2022-10-06 20:03:24,Jack Lukic,"Merge pull request #7023 from flppv/next
+
+[Icon] Fixed background issue when Icon is used as Labeled Icon for Button as loading one",True
+365b6ba9bb9be8f8506ee4fdf8c212958aad7bb1,2022-10-06 19:55:59,Jack Lukic,"Merge pull request #7047 from jsoref/gitter-link
+
+[Docs] Fix first link to gitter.im",True
+3aa6f7f4f6d2fad881368e5dd83fceee76e30df5,2022-10-06 19:55:29,Jack Lukic,"Merge pull request #7062 from eltociear/patch-1
+
+Fix typo in dimmer.js",True
+0300061b07b14f3c5bd6029796d9d0cbeffcfc73,2022-10-06 19:51:51,jlukic,Rebuild with gulp4,False
+d948dfc852c277aef66a81020474937fcf9c050d,2022-10-06 19:43:57,jlukic,RM package-lock from tracking,False
+9a3300f7581700c22b0306ce8aa3f202c96f3d98,2022-10-06 19:26:29,jlukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+9f59052e79c2f975d01a1f7393d66fc7c8494908,2022-10-05 22:33:07,Jack Lukic,"Merge pull request #7089 from LucienLeMagicien/master
+
+remove extra semicolon",True
+d965bead0224a08e524d9befb3ea094fbccee270,2022-09-22 20:39:29,L. V,"remove extra semicolon
+
+Related issues:
+https://github.com/Semantic-Org/Semantic-UI/issues/7073
+https://github.com/fomantic/Fomantic-UI-CSS/pull/12
+https://github.com/Semantic-Org/Semantic-UI-CSS/issues/75
+https://github.com/Semantic-Org/Semantic-UI-CSS/pull/76
+https://github.com/Semantic-Org/Semantic-UI-CSS/pull/77
+https://github.com/Semantic-Org/Semantic-UI-CSS/pull/78
+https://github.com/fomantic/Fomantic-UI-CSS/pull/12
+https://github.com/Semantic-Org/Semantic-UI-LESS/pull/77
+See also:
+https://www.npmjs.com/package/@semantic-ui-react/css-patch",False
+825c5b7e21b3bbe277a8a4034a931e79979f2476,2022-09-12 21:42:52,Jack Lukic,Readme updates,False
+6879d3aa662dd39b96c8c9bb089b0d199de5e343,2021-09-05 18:44:29,Ikko Ashimine,"Fix typo in dimmer.js
+
+occured -> occurred",False
+38de2884d3424eb300d35972f33d33bbc6aa6d58,2021-03-07 05:51:20,Josh Soref,Fix first link to gitter.im,False
+3c179e96b3621456174b466d2facdd270ccd7554,2020-10-14 01:38:25,Anton,Fix Button with Loading Labeled Icon bug,False
+9fe42b1bff3ad5d5237b0151774c8cfab871cce1,2020-05-26 09:53:57,Jack Lukic,"Merge pull request #6815 from jnpwebdeveloper/master
+
+[Build Tools] Fix invalid composer.json file.",True
+724bb8bf851bf11d00cba271083c5cc5d71205f2,2020-05-26 09:52:39,Jack,Observer rlsnote,False
+0c601876876295cbe7e51d3d7c8cf39d83ba14d2,2020-05-26 09:51:54,Jack,Update npm gulpfile to match gulp4,False
+dc7a5d428b011216856d7cc50aa429d13ca3f5b0,2020-05-26 09:37:30,Jack Lukic,"Merge pull request #6833 from euangoddard/master
+
+[Modal] Tears down mutation observer on modal destruction",True
+b2e83777090c6b8737283ccb17544633964014a3,2020-05-26 09:32:57,Jack,Fix process exit without callback,False
+9b634915ac9dbf42530b4a2fa1088dc74fc9b5e9,2020-05-26 08:15:08,Jack,Stick context,False
+960618385857d1bc2c7e106f69f6c80d4328b138,2020-05-26 08:14:57,Jack,Remove peerdep on help,False
+ec8c3ab520f933130d4fa7c2b978c9e5ee177154,2020-05-26 08:11:35,Jack,More fail conditions,False
+9d4b275ec7bacf3de77f4b2c8a64a4b49935674c,2020-05-26 08:04:05,Jack,Fix install callbacks,False
+857285709b5378e2fbf6ce26a8fa69acb9a0c90c,2020-05-26 07:15:25,Jack,Update notes,False
+d403de8273df571413a0423584bac4550e41220d,2020-05-26 07:13:28,Jack Lukic,"Merge pull request #6790 from gimco/patch-1
+
+[Build Tools] Meteor package: Use `api.addAssets` for static files",True
+c17037825839c77ed220c4594dcd0f8a2f39c92f,2020-05-26 07:10:12,Jack Lukic,"Merge pull request #6876 from cruzdanilo/null-site
+
+[Theme]: allow null @site",True
+42565016b2c8e87d0e437293a388466b6d80a436,2020-05-26 07:05:26,Jack,Fix comment on gulpfile,False
+f415251c9f8557f6c2aad597a461c81e7116e89a,2020-05-26 07:04:37,Jack,Fix issue with sticky when larger than container,False
+76fefed92fa59b44fd3641c9b60e04d402cc5eec,2020-05-26 06:58:10,Jack,Merge branch 'gulp-4' of github.com:Semantic-Org/Semantic-UI into next,True
+730532c2b64acd887e1d0ce39206b347b5495e3c,2020-05-26 06:23:33,Jack,Release notes,False
+626fee571f53b9d990bc195965400dfebd9253c6,2020-05-26 06:22:49,Jack,Fix issue where absolutely positioned bound bottom/top didnt get width fixed,False
+5d5d37dc3f39364dbfd1f4d82e94a494e60fa6fc,2020-05-26 06:20:29,Jack,Fix issue with sub menu in right dropdown menu in ui menu,False
+47e4d954968c89cfb1f4aca51b0827b1a76bdd11,2020-05-26 06:19:54,Jack,Fix issue with bound bottom conditions being hit when element is larger than context,False
+eafcc70e934e266882e9a008eaa53074e4e3855b,2020-05-26 05:53:26,Jack,Same docs/admin task refactoring,False
+673f60c89017643a853e6829af19eac5f6a79d00,2020-05-26 03:30:16,Jack,Finish first draft of v4 tasks,False
+ce7604c9dba1e03c4b9baa0722d0bb5ed1ca58d2,2020-05-26 02:22:50,Jack,Fully embrace gulp 4 style,False
+6ad3892289404fe4970f4dbc57274db68e0cde8d,2020-05-26 02:20:35,Jack,Fully embrace gulp 4 style,False
+191dcf4d63b3031968ad1384df7686435a9022f0,2019-09-23 23:23:54,danilo neves cruz,allow null @site,False
+2daacfa212e1c412ace4ef478e7a8db415c99b49,2019-07-12 21:43:30,Jack,Work,False
+d6c6dd9e39d23db7601ac9d95bd7d8aac45f5e42,2019-07-12 21:33:41,Jack,"Remove watch, installer cleanup",False
+563ab8389523643f823a651917ff963a9f610ed3,2019-07-12 21:25:04,Jack,Simpler gulp4 port,False
+9b49d4935230f731c78ecaac53bcd34f52a3588b,2019-06-24 13:16:14,Euan Goddard,"Used module level variable for observer
+Post-review changes",False
+0a42dcdcb400d6fc275b04d6cb052a48efd68536,2019-06-21 18:39:51,Euan Goddard,"Tear down mutation observer on modal destruction
+Fixes #6832",False
+f31b03bc6080b25f61301c6e91b5be7fae015d6b,2019-05-21 22:21:59,Jeremy Pitt,Fix invalid composer.json file.,False
+c3b231ffc407570b5a13b8f98566f0618b822b73,2019-04-15 13:53:14,Bruno Orcha García,Fix parenthesis,False
+973d92601b30b6131448a4f3bd2288c5291cde24,2019-04-15 13:31:12,Bruno Orcha García,"Use api.addAssets for static files
+
+Since meteor 1.2 addAsset should be used to define static files.",False
+deb275d2d5fe9a522a0b7bd8b6b6a1c939552718,2018-10-22 02:29:02,Jack,Build 2.4.2,False
+d9cd115bed64e3426a1d5365570a0fd8104d33ca,2018-10-22 02:27:15,Jack,Add thanks #6631,False
+8db5202b8682153f0c666a803c1087a2b9f9316d,2018-10-22 02:26:35,Jack,Rlsnotes and version bump to 2.4.2,False
+22a0c7b413890d3daaa67e4f951aa5dce5c72de7,2018-10-22 02:18:39,Jack,Fix cloned gulp task stream is still using original stream. #6631 #6622,False
+c98b431991172aa7a5ba8fcdc405e50258659a8d,2018-10-22 02:17:38,Jack,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+1724b3eff4d33ac90592ec85685ea6ef97022371,2018-10-14 04:27:33,Jack,Add missing placeholder to less import file,False
+a753d5b7841ab6adbe6d8a3b40086b452f0ba715,2018-10-14 04:21:35,Jack,Final release notes 2.4.1,False
+e7d04788fb5ba3314e289759f5b27b51fe6eed6d,2018-10-14 04:20:12,Jack,Build dist for 2.4.1,False
+2effa4879182786ededfcbee573a2ed5b51c1733,2018-10-14 04:10:48,Jack,Update release,False
+3100a7998822b1bf7f425085fdc33867ff2fa94f,2018-10-14 04:08:35,Jack,More gulp print to update #6512,False
+7a12cfabfeb3a511ae504e69ee4b6e204d1d98f1,2018-10-14 04:04:39,Jack,Update rlsnotes,False
+42b27955b88a7809bd69be0fb99449866c2ca76a,2018-10-14 04:03:43,Jack,Fix last task with missing syntax change #6512,False
+c26bb1d59122bbd26084ccece234a63e52820202,2018-10-14 04:01:15,Jack,Fixes clearable dropdowns not working when not on:click #6594,False
+36d5857eaba7e6a51ca522521f8505f5c343405c,2018-10-14 03:50:37,Jack,Fix full screen modals not working with flex #6587,False
+94d93bd4d5d43c03ec5cca902945301b3b46a546,2018-10-14 03:49:59,Jack,Update rlsnotes,False
+64970d0d557737cd42577e8ac83925842042e9df,2018-10-14 03:35:32,Jack,Merge branch 'gulp-util' of https://github.com/stevelacy/Semantic-UI into next,True
+46cf1e4aef5d45e342c81a6e162085342c670e90,2018-10-14 03:28:15,Jack,Rls notes on LESS #6512,False
+aae225a0236b6fbe64939a805d6b757b32cbead6,2018-10-14 03:22:44,Jack,"Update gulp less to support new syntax (and other deps, update tasks) #6512",False
+4b4df6c792ad0c9fbf6de7d9635a50941da7da5a,2018-10-14 03:22:17,Jack,Remove all additional string literals with calc,False
+1b922b648effe0e19e816de85675233364352ed4,2018-10-14 03:19:25,Jack,Fix very relaxed vertically divided grid divider spacing,False
+5e8dcdedaccf70f1744a70ceb08c462282ccddbe,2018-10-14 02:55:05,Jack,Merge branch 'less-3.5' of https://github.com/sciyoshi/Semantic-UI into next,True
+620cb3fda37e06439d526667b72ae85e162fa76f,2018-10-14 02:52:20,Jack,Fix embed not removing metadata on destroy,False
+c4e307c6c1a0b8c10f71b3c1b923d5e05253030c,2018-09-17 10:32:08,Jack Lukic,Update README.md,False
+0c96ad36aee30930fdffe4a6a4852a8d162e2e52,2018-09-17 10:32:01,Jack Lukic,Update README.md,False
+df1681c688f515a743cddbc7065ee86472fa4d3d,2018-09-17 10:00:58,Jack,Final release notes,False
+33ed598e75c7bcbb906d46b1b724c2c9ee184aad,2018-09-17 09:59:36,Jack,Finalize release notes for 2.4.0,False
+bf7e06f2d838dd8c1b36bd53bf8053f3b21df491,2018-09-17 09:51:35,Jack,Rlsnote editing,False
+4f6fe8ef44e088657ea6a5d1ed4bbea1100ca840,2018-09-17 09:47:40,Jack,Build 2.4.0,False
+e0c03ddbf54d6e9c65e2319d1d96528910562e45,2018-09-17 09:46:12,Jack,Spacing on theme config,False
+e95f0fb16641fad5b37dc832f3fc14506762ec9a,2018-09-17 09:45:35,Jack,Remove dupe in theme.config,False
+e7e1c6815aa1a7acfae31c9c7306b0efd006e674,2018-09-17 09:45:23,Jack,Fix component order,False
+564d28bb16e508b5bf3876fabf381964cfa1b7d4,2018-09-17 09:43:15,Jack,Tick version,False
+0e80d097d78d1799bad42bb4914ce49c924faba6,2018-09-17 09:42:22,Jack,Fix for UI image in placeholder segment,False
+b308c282b741cf4053519b10f70a67ffce79a874,2018-09-17 09:41:12,Jack,Fix interval on animation for placeholder,False
+eedb1829132395a73b2a2c561cd03b121249ccad,2018-09-17 09:40:59,Jack,Rename components to placeholder,False
+36f6e93d9ae7e7c0f769a9b57882ed4d0f1a9360,2018-09-17 08:22:57,Jack,Add placeholder to example config,False
+e83855cdd351b752c988b5e608471ac6ae1882e7,2018-09-17 08:14:25,Jack,"Move content loader to new component, placeholder. Modify placeholder segment to be 'empty segment'",False
+0c61a7e72c61751a97bc694f47e1f920e386329b,2018-09-17 06:57:25,Jack,Remove comment,False
+56366b96d31af4253eb8c4bfc37b6f2b376cec65,2018-09-17 06:56:55,Jack,Fix dropdown opening leftward inside menu,False
+14dc9179c15b390fcd3644d0a6d68341565c0191,2018-09-17 06:41:34,Jack,Thanks #6531,False
+1626dc1a0808e72661ec863382ef9fffa8e8f645,2018-09-17 06:29:23,Jack,#6531 - Add UK alias for united kingdom,False
+037b97a01fe37716291edb5688a108cfe8c77c9d,2018-09-17 06:26:52,Jack,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+4326ad8a060008207acfce1af0af4a507dd58157,2018-09-17 06:00:13,Jack,hex case for disk #6556,False
+39a4348d541ec6060d07bc72ae58a03c7d5999db,2018-09-17 05:59:39,Jack,Fix alias for disk outline icon #6556,False
+8a1ad49be101a99987f4818eb4d37f967ccfac11,2018-09-17 05:53:47,Jack,#6520 - remove blurring on dimmer hide. Remove console logs.,False
+cd3850fcc3cd1ee5d43c5fbc798d4f02a65dedf7,2018-09-17 05:01:24,Jack,"Fix #6439, basic colored labels do not have correct background",False
+3b452eebc111e71b014e507d0043e191c6ab128d,2018-09-17 04:56:05,Jack,Rlsnotes #6449 #6495,False
+d6ebab1e6c171cd8870d903c7761ed4cc9b525f1,2018-09-17 04:54:56,Jack,#6449 #6495 - Adapt fix for dimmer scroll. Move to modal from dimmer. Blocking scroll requires determining content height which only modal can do,False
+cbcdc616138ae3b5af7891a07582e3681fc0cf3c,2018-09-17 04:45:14,Jack,Merge branch 'next' of https://github.com/byte916/Semantic-UI into next,True
+bd47451f254ec84f3c89f18f21357a36c0d72c5b,2018-09-17 04:32:22,Jack,Force auto width/height for content loaders,False
+4944e523672056d64b9bdc964f4775f4874e506f,2018-09-10 10:27:22,Jack,Work on release notes,False
+288270661431f4abda0280acc7f3480d84d0e6a2,2018-09-10 10:27:09,Jack,Make values relative,False
+b81abbdf01f2a72718683c3c5f18d281bde2763e,2018-09-10 09:45:42,Jack,#6363 Fixes IE11 placeholder color,False
+824fc8ed1a4d88523d90d91c007f083e117fc27c,2018-09-10 09:21:15,Jack,Slightly modify inline dropdown icon right margin,False
+bed86bad9a4c387421fb9cd6900451d9d8cd82a7,2018-09-10 09:07:34,Jack,Release notes,False
+6f2e1a85a07c198d13866dd1135677aa64583d07,2018-09-10 09:07:27,Jack,Fix list issue where table-cell on content would cause content to collapse inappropriately,False
+e35ce81e2777b37712982c4297866ef35ffb9a3c,2018-09-10 09:06:59,Jack,"Fix legacy modals to support top aligned, fix bug in ie11 for swapping between top/middle aligned",False
+b4861d1e492d9b1f7cba61cb7a16575a6ab8adb5,2018-09-10 09:05:52,Jack,Set dimmer variation at run-time,False
+9a3079ba58ea54534160cabfc7b6227a77e2665e,2018-09-10 08:48:08,Jack,Make content loaders support image aspect ratios,False
+e468419074f8c7f21ae9b2aa1c90494b22149d4a,2018-09-10 06:05:00,Jack,Disable clearable by default,False
+079dc7d9a7ad92f7eea6f40138bf01315f44696d,2018-09-10 06:02:00,Jack,Rlsnotes,False
+a4688f101caa4b0bbdb4bbb02237673f0245aa8d,2018-09-10 06:01:55,Jack,Add styling for clear icon,False
+33d08ec920c95b0ef9ee84bc31fbdb304916c212,2018-09-10 05:53:08,Jack,Simplest implementation of clearable dropdown,False
+35c583f10ba8c82ddddfb998af3a5c7daebb37fa,2018-09-10 05:53:00,Jack,Re-subset dropdown to include close,False
+e70e659dd99ae543a217af2f489ca82baf2b2ee7,2018-09-05 05:49:10,Jack,"Fix #6557, specifity issue with dropdown in some menu types",False
+8390e094ce5106a89829e106c92dbd920fd82098,2018-09-05 05:45:48,Jack,Fix #6555 onChange is missing final param when used with action: 'hide',False
+bb0b9b90886a661456d17f90a36ed39d807becdd,2018-09-04 09:55:44,Jack,Add rlsnotes and placeholder segment,False
+a0366085fc4910eb304af6155dfefc2bf4200fc3,2018-09-04 09:55:32,Jack,Finish content loader images,False
+d382de69fc34f0e805a38551b8d65eff0b447b22,2018-09-04 08:41:01,Jack,Finish content loader,False
+0a560d8285a3256243c7c02b8336700b15bc9c97,2018-09-04 06:51:43,Jack,Work on content loader,False
+588ef9b4cf0614c7caf4879003073f58473eb602,2018-09-04 04:24:56,Jack,#6218 - Reuse closable pattern from dimmer,False
+06f2213d4cff0e3d4396f31892a0b98b0b62e165,2018-09-04 04:24:56,Jack,#6218 - Allow popup to use settings.closable without onclick,False
+1544d26960c4d4b6b115c438fafe4bd793a4df42,2018-09-04 04:20:34,Jack Lukic,"Merge pull request #6562 from Semantic-Org/legacy-modals
+
+Legacy modals",True
+bbad43026d0d0c6f52a62d2d1260039f4657b397,2018-09-04 04:07:25,Jack,Finish refactor of modal to support legacy positioning for IE11,False
+cddcc364c35c4d66f5e8e7a299562b68af1ea803,2018-08-20 08:10:19,Jack Lukic,Respect useFlex settinng if its a boolean,False
+fa55d1f1081bc499dec9ceba39da8a5c931c6949,2018-08-20 08:08:32,Jack Lukic,Finish adding legacy settings,False
+e60921288810a60870f0676b9e65e8e4e06d9576,2018-08-20 07:57:20,Jack Lukic,Finish adding useFlex setting for dimmer/modal,False
+9707e40448212aa24ed74a58b838c14dceca4120,2018-08-20 07:37:33,Jack Lukic,Working on legacy setting for modals,False
+c249b6c88b198e5d9b4694052157001d53b66584,2018-07-31 23:56:47,Samuel Cormier-Iijima,Fix compatibility issue with Less >= 3.5 due to math changes,False
+e49faf0c01dd1f19017edcfae8bae139fa5413f2,2018-07-23 22:25:46,Andrew Gerasimovich,Fixed scrolling for mobile devices while using dimmer,False
+146d960a249d43d68ce78dffb3e1abf3b00b1f1d,2018-07-09 05:42:38,Jack,Add rlsnote date,False
+ef8bc2e2ca10f97e3188c90e135a846aa33915ae,2018-07-09 05:39:28,Jack,Build 2.3.3,False
+363f283915619170366e41ad6dad70e1fce5fee2,2018-07-09 05:38:43,Jack,Sign in/out alternate are actually duplicates,False
+09e2ccd59d9407055f78e78d53fca7d71cbc6e1e,2018-07-09 05:36:37,Jack,Build 2.3.3,False
+b45aafd441793361eafcc4e5a0461b54a56722b6,2018-07-09 05:36:05,Jack,Fix api settings to pull cache from cache settings by default,False
+6a0e2f612f1415d30d7ee4cdaf6fddc1cd51ab67,2018-07-09 05:35:13,Jack,Version tick,False
+403a37799030c246db46aa45302f0c915c17b610,2018-07-09 05:30:14,Jack,Move deprecated icons before normal rules to prevent improper inheritance,False
+ef77e8dafa5065fbcdbe9f02898695a2e8ff5274,2018-07-09 05:26:12,Jack,#6428 Deprecate several icons using in and out class,False
+9ac8263a3aa1cc6a7d6c32380d6a655b3c79ccae,2018-06-22 03:04:33,Jack Lukic,"Merge pull request #6447 from sciyoshi/less-3
+
+[Dependency] Add compatibility with Less 3.x",True
+92261675c25bfce8b1cf96aa5d70f6b07d2b93a6,2018-06-21 20:55:22,Samuel Cormier-Iijima,"Add compatibility with Less 3.x
+
+Any custom theme.config files will need to be updated to add the (multiple)
+option when including theme.less.",False
+383871090cda527df916e1751279b3de79b07480,2018-06-18 10:20:31,Jack,Fix issue with credential caching in publish script due to https git urls,False
+d8b8461f1b472dafe5090a824c1e11498dcd26a3,2018-06-18 09:44:19,Jack,Release notes 2.3.2,False
+57aac1e6db954271231f99dca3434a96c5cd939a,2018-06-18 09:28:22,Jack,Midnight in a perfect world,False
+a8fc956863695d8411c68eb9a7f6c12effc96c0d,2018-06-18 09:25:18,Jack,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+1f3406288b751bb514e9a888ca25fa8fbc5513f0,2018-06-18 09:23:31,Jack Lukic,"Merge pull request #6396 from Piterden/fix/src-readme-formatting
+
+Fixed some formatting",True
+44cf50b61ce2570190e56fc374beba2c68a9de33,2018-06-18 09:19:42,Jack,Version tick,False
+e485882ef375c6873e8e758c7952ab72131636aa,2018-06-18 09:19:35,Jack,Build 2.3.2,False
+75dcaa2694da2aaa681aff1be74b2c0f3fab4028,2018-06-18 09:18:06,Jack,Add solve for dimmer to prevent modal scrolling in bg,False
+b4edc1b380fb630314bcdea8584b64569084618c,2018-06-18 08:48:23,Jack,#5231 #5809 Recursion in remote search when results are success but return no results on show,False
+834d65db59221fb4331c2219f13afe3af9694b7b,2018-06-18 08:29:04,Jack,Rlsnotes,False
+0321bce40efd233ca92bcb4f3bffc104ad9b93bb,2018-06-18 08:28:49,Jack Lukic,"Merge pull request #6431 from alex-karo/fix-wechat-icon-1
+
+Fix #6429: [Icon] Wechat icon doesn't display",True
+a91907027108cfe870c10e66a4e7f952dbdfb0d2,2018-06-18 08:18:17,Jack Lukic,"Merge pull request #6405 from chen-ye/patch-1
+
+[Site] fix @inputLineHeight comment spelling error",True
+22ceceff9cc39a5483c12be2461a29032ae72d09,2018-06-18 08:18:11,Jack Lukic,Merge branch 'next' into patch-1,True
+a6e8c0bd73715f55616adcf03888ad44bc44fe7b,2018-06-18 07:51:22,Jack,Rlsnotes #6242g,False
+16e49424180363bbec3c6aa2994848daf83d483b,2018-06-18 07:49:14,Jack,Implement inverted / inverted basic primary / secondary button,False
+3af994b4ec8d9d2a92a6061882b7e26363f45604,2018-06-18 07:27:31,Jack Lukic,"Merge pull request #6220 from Semantic-Org/fix/basic-label-background
+
+[Label] Use basicBackground in all basic rules",True
+18ecf158a355eaf8da8ff4844f0030aa72159d48,2018-06-18 07:17:00,Jack,Fix issue with bottom margin on stats,False
+b421dc2e397dc116be62700c15ac588ab9f2ac38,2018-06-12 15:46:23,Karo,"'brand-icons' font-family to wechat icon
+
+fix #6429",False
+185b3208cb6f248781d89b3df63b5f43c6b95d1c,2018-06-05 21:43:31,Levi Thomason,Update stale.yml,False
+1f8d24e7e4eaa84406e326295022c37029bbc684,2018-05-24 02:13:29,Chen Ye,fix @inputLineHeight comment spelling error,False
+ec7e0897b3a7cf9d45a777fb7eb94abf3cec3042,2018-05-17 04:44:16,Denis Efremov,Fixed some formatting,False
+b3487aabc900470d56a35ee3342a69a4e7703a9b,2018-04-06 03:03:09,Steve Lacy,Replace deprecated module gulp-util with replace-ext - closes #6063,False
+de1dc5d11e2fc7f844935074928f2dbb54729249,2018-03-19 09:45:00,Jack Lukic,Update RELEASE-NOTES.md,False
+08f8a43660d1176009848afc2ba2e3f48e42bb80,2018-03-19 09:44:22,Jack Lukic,Update RELEASE-NOTES.md,False
+f661bc083635c09d28a2275dd2163f3c5448947c,2018-03-19 09:43:58,Jack Lukic,"Update RELEASE-NOTES.md
+
+Missing credit",False
+8c0d3abc81bee5557594ad42c511a1c54df5839f,2018-03-19 09:42:46,Jack,Fix links in release notes,False
+2e76ba0c82b2010020551fb424c1edfa7633837c,2018-03-19 09:34:27,Jack Lukic,Update RELEASE-NOTES.md,False
+b1a5465bbdb41fd2592f820bb6effd3ea38fddfb,2018-03-19 09:34:17,Jack Lukic,Update RELEASE-NOTES.md,False
+7cd92499a6c93c38ccf3d4e2548da3ff1239eb12,2018-03-19 09:33:56,Jack Lukic,Update RELEASE-NOTES.md,False
+4c239ee5456bfe25cf22f5fe90af538aa7412feb,2018-03-19 09:33:45,Jack Lukic,Update RELEASE-NOTES.md,False
+8ca4da19b90625a1f10a93fc43f6ef594957f69e,2018-03-19 09:33:37,Jack Lukic,Update RELEASE-NOTES.md,False
+5dc634f84e7e6b9f17621bd7534ae5cdc310ad0b,2018-03-19 09:33:18,Jack Lukic,Update RELEASE-NOTES.md,False
+33edfc56cd84335dd28fbb210f7ccc9646d78181,2018-03-19 09:31:31,Jack,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+789d020a3996e3d52fdb5206b159fc88762b3dac,2018-03-19 09:31:16,Jack,Build 2.3.1,False
+4566b50512ff16f110ed8df6dbb3711660ad3c1d,2018-03-19 07:39:49,Jack,Update build tool to publish meteor,False
+4231bb269f1f6000ca027b3c845fcbdddb5a1ad1,2018-03-19 07:39:39,Jack,Fix issue with whitespace wrapping in reveal,False
+aebff182e9e0329c5abd8c831fab531457db5085,2018-03-19 06:40:18,Jack,Rlsnotes #6269,False
+27ff17b55b2c3af03bf3c1fa7449a44a40f7bafe,2018-03-19 06:39:06,Jack,#6269 Actually do update for iframeresizer.js,False
+a6a73bf08721f1b944f597dfa04e36cf0395b924,2018-03-19 06:31:17,Jack,Update iframe.js #6269,False
+b93737e07189aa61b5326304d5e72448f6df2f16,2018-03-19 06:24:51,Jack,Fix double margin on nested images #6224,False
+3f5ca5a6954c8f4291794c80c4a9d243a24c2bb8,2018-03-19 06:08:20,Jack,#6192 few missing aliases for outline #6232,False
+c699610ff4e27da9afab7eae1ca79687eda63466,2018-03-19 05:59:55,Jack,Rlsnotes #6268,False
+f53113a9ab2ab366efc68107870aae2325e023d5,2018-03-19 05:59:43,Jack Lukic,"Merge pull request #6268 from tcmal/next
+
+[Menu] Disabled menu items still changing state on hover",True
+e137ee1bfd5b89ac699efd9a1d56f9e27c16d93d,2018-03-19 05:57:30,Jack,Better implementation of #6016 passing value to callback,False
+9eb4ac3c20fd069034a9406bd3ea1e447c87c560,2018-03-19 05:40:26,Jack,Implement prompt as a function #6016,False
+ca05ebbdfb52205e9316188b1a8f36fa92ea85de,2018-03-19 05:24:43,Jack,#6226 remove testing variable as false,False
+59be6ec5a15ca3ed920b7a3e5e47d1795e024386,2018-03-19 05:22:00,Jack,#6192 centering/bordered icons,False
+d6233a313508ac88bbc1078f08b93e4558384660,2018-03-19 05:18:10,Jack Lukic,"Merge pull request #6225 from prudho/disabled-search
+
+[Search] add disabled style",True
+7fab7974a7ffa3a4c74ed760c41ae21d7407dc4e,2018-03-19 04:47:26,Jack,"Rework outline and brand icons to load from overrides, not define icons if not loaded (except brand which would require a refactor) #6226",False
+cf70177a378746b202df30745638865b32c90b39,2018-03-19 04:44:20,Jack,Dont do anything with outline/brand inside definition (this is part of override). Use existing names to avoid backwards compatability issues #6226,False
+295af5f328c5072e779d6ad4a0caec24509d4294,2018-03-19 04:43:34,Jack,Fix build-docs task not requiring component name in filename #6226,False
+c1a450dad36f2058918f9c13c446e6f93a22b41f,2018-03-19 03:27:34,Jack Lukic,Merge branch 'next' into fa5-report,True
+050d182d6a473abd1b00bd02f2a42ab41fac82a2,2018-03-19 03:11:38,Jack,Rlsnotes #4183,False
+7ebb8216d70122ad7356b19072c8ce4555167ef8,2018-03-19 03:10:13,Jack Lukic,"Merge pull request #4510 from martinduparc/patch-1
+
+Fix for #4183",True
+4eef97737bcaa349bfb0870ddd9ce6c6f1bcd110,2018-03-19 03:04:56,Jack,Rlsnotes #6223,False
+c1f34e99c6f0d28f717730611f51b4f2bcb98109,2018-03-19 03:04:43,Jack Lukic,"Merge pull request #6223 from prudho/master
+
+Fix #3486: [Search] add exactResults on duplicate check",True
+922d997aa30080470d7a6c067103183a65bb7b88,2018-03-19 03:03:51,Jack,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+87c62ffcc74b11c9cc5c78961ed1076d31a87ea8,2018-03-19 03:01:44,Jack,Adds @normal usage for non default themes #6227,False
+6b316474ae7ea27bda950a269ba44e2aa6311bc8,2018-03-19 02:56:24,Jack,Rlsnotes #6193,False
+691089301b0305168bdf9157515b3f13d771e77b,2018-03-19 02:56:12,Jack,Fix the 'ignoreCase' option when using multiselect to work with has.label #6123,False
+0e5c82466f675620540216fd2df350090ea688c7,2018-03-19 02:47:07,Jack,Labels should check for label existence not value existence Fixes #6123 #6271 #6280 #6276,False
+ab535ba375e71e27aa41026e45b7aa4857d8c060,2018-03-19 02:47:07,Jack,Use single quotes for string literals,False
+23a7efa3719dbab4d97a7c87b5bdea75179cf9cd,2018-03-19 02:47:07,Jack,Version,False
+de9c9aac95069cca03ff64ec932e62035e6231dc,2018-03-17 06:45:47,Sean Hamilton,"Fixed a bug with the chart line icon
+Fixed a bug with icons with link in the name
+Deleted the old icon files from assets
+Updated to FA 5.0.8
+Renamed line to linechat to stop conflicts",False
+82226e6ee175d0ad617ee31c496c20dd846b6a2a,2018-03-16 20:53:43,Sean Hamilton,Changed i.icon font-family to @fontName instead of @solidFontName,False
+b291a2641b708228177ea134efa36dd4ea5d1c7e,2018-03-13 02:22:47,tcmal,Fix #6147 - Disabled menu items still changing state on hover,False
+b78dc75fc17c93996dc2c1164b1c756f606fb4bc,2018-03-08 06:34:42,Jack,Fix visibility issue with onScreen calculations for long elements,False
+75db2edc75abbccf02eec4f511e03a7767bb6bad,2018-03-01 05:46:23,Sean Hamilton,Changed @solidFontName to @fontName,False
+11a4e49fa2679beee7bcd9a75a9679add5a82e2b,2018-02-27 20:32:21,Sean Hamilton,Added icon updates,False
+a3e28baa64704c5df6ac8b603f7bcf4312b648d4,2018-02-27 20:15:08,Sean Hamilton,"Merge branch 'next' of https://github.com/Semantic-Org/Semantic-UI into fa5-report
+
+Merged next",True
+b9b2e63f25ee9f3a89aa7a8ae23f7a3694023c1f,2018-02-27 19:59:59,Sean Hamilton,"Reported FA5 using a new method
+Icons now use FA5 font files
+New variables to enable/disable solid, outline and brand icons",False
+c177e82cd03872cd8e7f00a269457540df3e2363,2018-02-27 19:13:38,Pierrick Prudhomme,[Search] add disabled style,False
+884298381e0bb46d5641a2facbfa4508606d8822,2018-02-27 15:57:13,Pierrick Prudhomme,[Search] add exactResults on duplicate check,False
+a2fa55143405b6c903d12ee1afb310b574b875f5,2018-02-26 22:11:51,Levi Thomason,Fix #4476,False
+ee7f5d4d5c621e7e78f1fa63e2631aa80bb455c7,2018-02-24 06:28:18,Jack,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+9ef4388bd090874d3ecac4a1a5c5af181531ff90,2018-02-24 06:27:41,Jack,Fixes #6125,False
+88ea864a462e48680f172f448198f640f1431ab8,2018-02-24 06:25:29,Jack,Remove undocumented components,False
+2ce276792e1a0ffaf21aa28a4847f6d07ffc9790,2018-02-24 05:25:16,Jack,Icon update rlsnotes #6181,False
+68197433d883a506472ab836788851bef0924788,2018-02-24 05:18:00,Jack Lukic,Update ISSUE_TEMPLATE.md,False
+10ebc9815ab1b470182e7a1cf19dcaef6d3bec58,2018-02-24 05:17:17,Jack Lukic,Update ISSUE_TEMPLATE.md,False
+411989c882ee51d17e7bd3efdd631c293a697828,2018-02-24 05:16:46,Jack Lukic,Update ISSUE_TEMPLATE.md,False
+b98777755fba6b2bdca5afb58e1b88c7cbf0c713,2018-02-24 05:15:36,Jack Lukic,Update ISSUE_TEMPLATE.md,False
+9d23bed313d8b59db41c6a274f1748fce06ca38c,2018-02-24 05:14:03,Jack Lukic,Update ISSUE_TEMPLATE.md,False
+25b7b268b1cf8b3da4fd2bea999893aceeed12bc,2018-02-24 05:13:51,Jack Lukic,Update ISSUE_TEMPLATE.md,False
+20361f20d1c5d9bc21433b48f03817b5261751f7,2018-02-24 04:57:46,Jack,Add issue templates,False
+c1536561f4cf366b270927fdab853d96242f87a9,2018-02-24 04:57:27,Jack,Add PR template,False
+563e92bc950aae6c22fc79e43726008d32004dff,2018-02-24 04:47:11,Jack,Update template,False
+3453319390e9d4faffd8c62aad8dcd63733f202b,2018-02-24 04:32:27,Jack Lukic,"Merge pull request #6205 from hammy2899/github-templates
+
+Created issue template",True
+ee0b5cb222a23033a1847820bd92df45f04a1930,2018-02-24 04:27:51,Jack Lukic,"Merge pull request #6181 from hammy2899/fa5-patch
+
+Fixed the icon bugs raised in the issues",True
+36f77a8791f0e7bb714cfd2ad27305fd83782325,2018-02-23 17:06:13,Sean Hamilton,Added expected and result to bug template,False
+ebb44f9822b1ebaf3fdc117896aaffaf9c1e62e5,2018-02-23 16:43:24,Sean Hamilton,Created issue template,False
+de7d4b460256f40a614e24c9ae4dff8304a157a4,2018-02-23 03:33:36,Jack Lukic,"Merge pull request #6182 from Semantic-Org/feat/stalebot
+
+Setup stalebot for stale issue management",True
+862955bd65fa5ae79c2b648569a7dea4b5b1c09b,2018-02-22 07:59:02,Levi Thomason,chore(stale.yml): update exempt labels,False
+8c8ed1f76c55cb9d4e27be0f4a642a9429b959b0,2018-02-21 07:00:58,Levi Thomason,Create stale.yml,False
+dbe840ae3e9bb58a040bdc6edf4def98f05d476f,2018-02-21 02:56:16,Sean Hamilton,"Fixed exchange.alternate icon Fixes #6175
+Fixed arrows.alternate.horizontal
+Fixed arrows.alternate.vertical
+Fixed arrow.alternate.circle.*
+Fixed user.circle.outline Fixes #6176
+Removed link and left linkify icon Fixes #6180
+Bumped envelope unicode to stop conflict with resize.vertical",False
+5b681ca84e756d0d6080ecc6a3e2cdd40c0e3d50,2018-02-20 10:56:19,Jack Lukic,Update RELEASE-NOTES.md,False
+90c5113f48186d88b7fadc149a6f381660055a7b,2018-02-20 10:53:37,Jack Lukic,Update README.md,False
+584992af7da9b1a7b2feba9967d8a72b219a5281,2018-02-20 10:53:30,Jack Lukic,Update README.md,False
+fce7fcfd379121c7d78b6ddd21ac6104b6d12d94,2018-02-20 10:53:10,Jack Lukic,Update README.md,False
+37c687d18b40c6a5a6344b24c2e2b2206c0ba03f,2018-02-20 10:52:50,Jack Lukic,"Update README.md
+
+Remove project talk",False
+6a48559f62ce13207ae84dacb1e8d819347c6555,2018-02-20 10:52:05,Jack Lukic,Update README.md,False
+09ae5f1564754831abe7aadbbe513c257f1b8bda,2018-02-20 10:50:39,Jack Lukic,"Update README.md
+
+Remove forum from readme",False
+72d223511a86cb6cd792fe52e1a3da6b2fce2248,2018-02-20 10:48:51,Jack,Build 2.3.0,False
+a076374fd4d4d08bc4067ce459da893ef1c84383,2018-02-20 10:47:26,Jack,Tighten scrolling margin,False
+28618608aa482b4c9950d97a6a4900becf392f8d,2018-02-20 10:42:53,Jack,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+d168eab1710affc262d5c56312fd2cdc993b0e95,2018-02-20 10:42:21,Jack,#5892 - Add onChanging callback,False
+93083b61ff292b9dd2f49f16054b7a0d53d4f60c,2018-02-20 10:37:47,Jack Lukic,"Merge pull request #5892 from GammaGames/master
+
+Added onChanging callback to accordion",True
+16b3b276854b7ca6dd41595b7eb0bc6585123b53,2018-02-20 10:37:27,Jack,Rlsnotes #6167,False
+54491f49252fc5d6e6027d794d73e0ddb1950789,2018-02-20 10:34:51,Jack,Add PR links to rlsnotes,False
+0727e5e5ad08169be4da9ee0d16c6200046a82b7,2018-02-20 10:29:46,Jack,Add mobile styles for search,False
+d32b2eba169fdc3b61bff5b962d2f07d1adea1e5,2018-02-20 10:29:37,Jack,Add zoom transition,False
+92fa08f1f4006d02cb62a2bd8dea9d1f04018e21,2018-02-20 08:43:29,Jack,Fix modal flex issue in IE11,False
+3827fd0a82ec4303874faf16439ffaa3a806540b,2018-02-20 08:39:56,Jack,Fix eventNamespace in #3396,False
+e63201ef9ae9661b243cdac7a3c64ed88fbf2644,2018-02-20 07:21:06,Jack,rlsnotes,False
+282bdb984e5cfa5df1e14346c3075d2ae97cb7b0,2018-02-20 07:21:06,Jack,Input selectors now require child selector to avoid inheritance issues #4157,False
+84b11fb1143b0c4f0e87e8b6b680098e05df1161,2018-02-20 07:19:15,Jack Lukic,"Merge pull request #4157 from gdaunton/next
+
+[Icon Input] Fix for issue #4057",True
+0141f6ed25aa44559bfdd200de5ac2bc8e075882,2018-02-20 06:57:29,Jack,Adds glow transition,False
+e31ff0a16c384ba18973f235a04b0e8006fd8968,2018-02-20 06:57:14,Jack,Fix transitions on ui images > .image,False
+aa331386d0b8bd7234d68485c1ae0b8fc4a96269,2018-02-20 06:40:21,Jack,#3396 modal close,False
+c2d19b0ea69d848489ffd9f2d89a2cb00ef35a9d,2018-02-20 06:36:32,Jack Lukic,"Merge pull request #3396 from mdehoog/model-closable-fix
+
+[Modal] Support modification of 'closable' setting while modal is open",True
+39f20bc2adc91355cd67e325be6f99e100cf4383,2018-02-20 05:54:03,Jack,Thanks #4631,False
+84b161a09f9216feb39b721e48dff316910e86e7,2018-02-20 05:53:09,Jack Lukic,"Merge pull request #4631 from rijk/inverted-dimmer-fix
+
+Fix inverted dimmer text color",True
+0992f41e90c1cb9702c5b506af1549822d3bf912,2018-02-20 05:48:23,Jack,#4423 Thx,False
+4cacf5603126028520a4b3c3bab481bd511c77ef,2018-02-20 05:47:33,Jack,#4423 in next,False
+58bc58e2df2d9209af5d8c5fa8cde4cfe006dd4b,2018-02-20 05:47:12,Jack Lukic,"Merge pull request #6172 from Semantic-Org/revert-4423-avalanche1-patch-2
+
+Revert ""'on: change' causes error prompts to appear when blurring field """,True
+19ff5c99461e471359a6b18e87620b6528bc4456,2018-02-20 05:46:38,Jack Lukic,"Revert ""'on: change' causes error prompts to appear when blurring field """,False
+6b176dd89c15bb0ac445235a357cb5fb9368f859,2018-02-20 05:46:30,Jack Lukic,"Merge pull request #4423 from Semantic-Org/avalanche1-patch-2
+
+'on: change' causes error prompts to appear when blurring field",True
+453fe87bb492140c7660c6462a3f4c9f95d66559,2018-02-20 05:42:56,Jack,Thanks #4614,False
+1ce9e1cc29779b5b4635e0b4e5df728d7398ca65,2018-02-20 05:42:56,Jack,Thanks #4614,False
+c6993571d45ab85403a5e74384c926bc3c6f87bf,2018-02-20 05:42:02,Jack Lukic,"Merge pull request #4614 from aaronbhansen/patch-1
+
+Take content settings before attr title",True
+06e16f2ce540a94744e680ea711cce53ab1ff3a8,2018-02-20 05:39:02,Jack,Implements #4458,False
+4a5fe70ddd57c9498aa1f23fec8d65cf01582b67,2018-02-20 05:33:24,Jack Lukic,"Merge pull request #5902 from jeremy091/menu_huge_fix
+
+Swap huge and big in menu.variables #5899",True
+f85744f0781e37f295be3d55e247b22a07205018,2018-02-20 05:33:07,Jack,Thanks #5902,False
+ac0f3130c601a323b938217e9e5318026df76543,2018-02-20 05:23:02,Jack,Thanks #6167,False
+fba3feb458aaab9d1c0028e3959bbe95119ac39b,2018-02-20 05:21:04,Jack Lukic,"Merge pull request #6171 from Semantic-Org/add-font-weights
+
+Add font weight global variables",True
+ff7e36982ff5f30040bfe778fca2ffdb3c8177ce,2018-02-20 05:19:05,Jack,Add font weight global variables,False
+43e71792b53b9e4c8eacdaae32b228464e5b61af,2018-02-20 04:57:45,Jack Lukic,"Merge pull request #6059 from devsli/patch-1
+
+[Popup] Use @background value for arrow background color",True
+d088665d84adb6485b53236ca4b799af88edc970,2018-02-20 04:57:34,Jack,Rlsnotes #6059,False
+26a3b602473ec1d2245dc669d636d7aa556b6c47,2018-02-20 04:56:04,Jack,Rlsnotes #6127,False
+9b1c7c84bc22af0940e1c944cad7536b9db5e988,2018-02-20 04:55:20,Jack Lukic,"Merge pull request #6127 from perdian/next
+
+Cleanup documentation HTML structure",True
+5cc40709fce2aac69b99c115459ab670846e3508,2018-02-20 04:54:58,Jack,Username typo,False
+d5f4e655a8993a863347eeb906b6b92193d2384a,2018-02-20 04:50:36,Jack,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI into next,True
+8b3f0f37b7a934bd7856c42c93ce4b71b19ca78a,2018-02-20 04:49:49,Jack,Rlsnotes on icons,False
+c19b5b21c321fe48c00ae3afd8e045f4a6c79745,2018-02-20 04:37:56,Jack Lukic,"Merge pull request #6136 from esbena/next
+
+Add missing comma: makes 9 global vars local",True
+1587c0be7e71193f6ec054fc6e6d026f1ce58939,2018-02-20 03:14:54,Jack,#6085 dedupe icons from FA5 port,False
+3588a66d4d355ffd0936f3b781b5fcbccbfe217f,2018-02-20 02:39:46,Jack,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI into hammy2899-fa5,True
+95ae3bf5fc98e2be09dd0656ccf0994baf0573ca,2018-02-20 02:39:33,Jack,"Updates to ui search to allow local category search, and responsive name width",False
+367d01b3f3de9edc180f3420ad3d2e2190c619f7,2018-02-20 00:09:14,Jack Lukic,"Merge pull request #6170 from Semantic-Org/centered-modal
+
+Centered modal",True
+fc60ec009c46590372594ba3e0d975a7717b2b9b,2018-02-20 00:07:55,Jack,Fixes alignment of dimmer,False
+3766a338e7cc62d9265f7ab9163a0f8cd0f32cfb,2018-02-19 23:21:04,Jack,Add centered dimmers and modals,False
+0f464a6ca1acef0723d7a81533a27e09f26946a9,2018-02-19 22:30:40,Jack,Add arrow centering on small popups,False
+5e9535e1f0a041a1fcd923685548c09d2a486253,2018-02-19 21:22:01,Jack,Correctly calculate offset when popup is in a different positioning context,False
+dcf6a933956a3cbc82a63a99fbf84ea84ce4b779,2018-02-19 20:51:11,Jack,Fix bug with autofocus modifying focus of modal fields,False
+7142b31760c8998f54ed8c590ae6140d974a0c02,2018-02-19 20:41:46,Jack Lukic,Update README.md,False
+0791675de6091d99b48e2cf7a9f6630d7e83c968,2018-02-05 17:03:37,Esben Sparre Andreasen,Add missing comma: makes 9 global vars local,False
+dab422325d1ce343ad1934531c46d30956ed57e5,2018-02-05 04:44:36,Sean,Merge branch 'master' into fa5,True
+58aac93a23f3e65a33d0b2224b4dae73c4ded36d,2018-02-05 04:41:44,Sean Hamilton,"Fixed all broken icons, changed some names and updated to 5.0.6
+Added `elementor` icon
+Added `youtube-square` icon
+Added `window-minimize` icon
+Added `chess` icon
+Added `chess bishop` icon
+Added `chess board` icon
+Added `chess king` icon
+Added `chess knight` icon
+Added `chess pawn` icon
+Added `chess queen` icon
+Added `chess rock` icon
+Added `square full` icon
+Added `baseball ball` icon
+Added `basketball ball` icon
+Added `bowling ball` icon
+Added `football ball` icon
+Added `futbol` icon
+Added `futbol outline` icon
+Added `golf ball` icon
+Added `hocky puck` icon
+Added `quidditch` icon
+Added `table tennis` icon
+Added `volleyball ball` icon
+Fixed `cloud download alternate` icon
+Fixed `cloud upload alternate` icon
+Fixed `external link square alternate` icon
+Fixed `pencil alternate` icon
+Fixed `window close` icon
+Fixed `window restore outline` icon
+Fixed `images` icon
+Fixed `500px` icon
+Fixed `accessible icon` icon
+Fixed `accusoft` icon
+Fixed `app store ios` icon
+Fixed `apper` icon
+Fixed `asymmetrik` icon
+Fixed `audible` icon
+Fixed `avianex` icon
+Fixed `aws` icon
+Fixed `bimobject` icon
+Fixed `bitcoin` icon
+Fixed `centercode` icon
+Fixed `cloudscale` icon
+Fixed `cloudsmith` icon
+Fixed `cloudversify` icon
+Fixed `cpanel` icon
+Fixed `digital ocean` icon
+Fixed `discord` icon
+Fixed `discourse` icon
+Fixed `dochub` icon
+Fixed `docker` icon
+Fixed `draft2digital` icon
+Fixed `dribbble square` icon
+Fixed `dyalog` icon
+Fixed `fly` icon
+Fixed `uber` icon
+Fixed `uikit` icon
+Fixed `uniregistry` icon
+Fixed `untappd` icon
+Fixed `ussunnah` icon
+Fixed `vaadin` icon
+Fixed `viber` icon
+Fixed `wordpress simple` icon
+Fixed `xbox` icon
+Fixed `yandex international` icon
+Fixed `yandex` icon
+Renamed `list ol` to `ordered list`
+Renamed `list ul` to `unordered list`
+Renamed `user md` to `user doctor`
+Renamed `cc amex` to `credit card american express`
+Renamed `cc *` to `credit card *`
+Renamed `red river` to `redriver`",False
+8b47dd6ce72a7380cd8c4d8ac51271a8a8e63b2d,2018-02-03 01:36:30,Sean Hamilton,Updated to 2.2.14 file which fixes the gulp-clone bug,False
+90cbd99e50b7c5d73e90563c849fc858dbb0a980,2018-02-01 17:54:54,Christian Robert,Remove closing </div> element for which no opening elements exists,False
+ccaafae32ab816306f1c429d4bc49c364a1c0270,2018-02-01 17:54:47,Christian Robert,Remove href attribute from div element,False
+6175d523c19ac0da65554849832c484214160259,2018-02-01 17:54:42,Christian Robert,"Fix element structure
+
+Change end tag from </div> to </h4> to correctly match opening tag",False
+1d630340bcc48b742c4a80882a61c25e058d56e9,2018-01-29 23:36:33,Jack Lukic,Typos in release notes,False
+e890bd3809c23288d1e9fd5ab6026ba380079d6a,2018-01-29 12:32:05,Jack,Update rlsnotes for 2.2.14,False
+5d4260eddc209ee2e10bb7888f509923cf2e2a1f,2018-01-29 12:24:44,Jack,Regen package-lock,False
+bef9b4632b91304d39d6d2ef0b2e0eea7c92790b,2018-01-29 12:22:58,Jack,Update dist to 2.2.14,False
+7b1864970355ba146905c1ac39d990e8071a5ed0,2018-01-29 12:12:44,Jack,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+e211f49e9535d23dd65f3266915304c144e67cff,2018-01-29 12:12:16,Jack,Add issue links,False
+32d47d60ef9b6da6db9a3e19afe71c7a717fbe04,2018-01-29 12:06:42,Jack,"#3432 Simplifies setting name (derp), adds default to false",False
+0fa58217adef109e22faa3722d2d4f30bef71ac5,2018-01-29 12:00:05,Jack,#3432 implement matching user addition case,False
+094da1c42af7d3206c92acf76876b491d3a3777f,2018-01-29 10:53:26,Jack Lukic,"Merge pull request #6121 from Semantic-Org/revert-3432-patch-1
+
+Revert ""[Dropdown] Allow ignoring of case when getting an item""",True
+08031d7705f6b0ee1a6b5e4b58f95373d6b2885b,2018-01-29 10:52:55,Jack Lukic,"Revert ""[Dropdown] Allow ignoring of case when getting an item""",False
+6b8681993747d7477e1ae32a784264da945c2c2d,2018-01-29 10:16:15,Jack Lukic,"Merge pull request #3432 from Neaox/patch-1
+
+[Dropdown] Allow ignoring of case when getting an item",True
+7c691d2505be325e42a3d0c7203cf0462ad6c70b,2018-01-29 10:03:19,Jack,Rlsnotes #5603,False
+e43e7ac25664c5866a40c69d7f5d73fcfa31340c,2018-01-29 10:01:38,Jack,Add additional weight to link list states #5603,False
+66df031f4b950dc32c230fd2a5a7d3fa6f6bb14f,2018-01-29 10:01:05,Jack,"Add coupling for lists inside menus, fix box shadow showing as border #5603",False
+0e69d407b032d839326bfbaec28f51cfd3ddf2a1,2018-01-29 09:03:22,Jack,Rlsnotes,False
+7b4c5079d5bbef5e8c5cf6c35ad9f34d7b11879b,2018-01-29 09:03:22,Jack,Rlsnotes #5530,False
+aee14d611fb0223d99d6471e71b1aa6c690dd6a3,2018-01-29 09:03:12,Jack Lukic,"Merge pull request #5096 from Banandrew/5095
+
+[Checkbox] Added `box-shadow` to the checkbox component’s `.toggle` variation",True
+bedbf808595f3ddd89e90dd118a5992d1011165e,2018-01-29 09:01:08,Jack Lukic,"Merge pull request #5530 from xiongyu-git/patch-1
+
+default 'prompt' message has mistakes in writing",True
+1526d1e66b8156bc2f9f89ccfdbaba4fbc3af4e5,2018-01-29 08:58:01,Jack,Rlsnotes #5097,False
+bf088d3246ea71f6654a1f45bf793db9afee1612,2018-01-29 08:57:44,Jack Lukic,"Merge pull request #5097 from Banandrew/5085
+
+[Dropdown] The width of inputs that are inside of a dropdown’s `.menu` should never be overridden",True
+aa1d36b232ef2cdf7f80f090f95e76d803bc4d07,2018-01-29 08:54:39,Jack,Fix issue with scrolling modal and allowMultiple #2423,False
+3159fa17f5430026f67c072572efd1d7950d2064,2018-01-29 08:43:38,Jack,Release notes #5681,False
+c4236115ade83b45c2d234f73a3b9ab2688b7f1d,2018-01-29 08:43:21,Jack,Adds coupling for ribbon label with reveal #5681,False
+3c72588bd54f8e43a5c4cb7bc1a87f1236625f92,2018-01-29 08:35:20,Jack,"Rlsnotes #6043, #5713, 6067",False
+8b21e930fc33853dff911b3ab0420789f5ac8054,2018-01-29 08:35:04,Jack,#6043 #5713 code formatting,False
+f36e81583f1ea725134539f51b9e7441b9c30d36,2018-01-29 08:31:22,Jack Lukic,"Merge pull request #6043 from tincdev/patch-1
+
+Fix for [Form Validation] regression: get values with radio returns true or false #5713",True
+6547d625afa373d8ce4ff1b50ca896a73f79f19a,2018-01-29 08:21:14,Jack,Update rlsnotes,False
+15a9d0df6ff0db08f47beee98667d5b43eeee4ce,2018-01-29 08:17:05,Jack Lukic,"Merge pull request #5944 from zyzniewski/flag-england
+
+[Flag] Add England Flag and Alias",True
+18ac909518276804e998cf7d92be79f3e66c6647,2018-01-29 08:07:20,Jack,"#5366, #5975 - Fixes issue with offset not available on window",False
+d1f5ea3e111ed5155525a5fddbf4193ab9519757,2018-01-29 08:00:31,Jack,Update rlsnotes,False
+6b3dbcd188566900945c157501f7eee78263c910,2018-01-29 07:59:38,Jack Lukic,"Merge pull request #5749 from jayphelps/scrollbar
+
+Fix horizontal scrollbar height, closes #5728",True
+84fc63f493ea86bb479653a28a32fa00d4749f81,2018-01-29 07:57:35,Jack,Update gulp-clone dep with issue #6067 #6089,False
+c5988929973156915e797f76b13a714ffbda4ae9,2018-01-29 07:51:26,Jack,"#5366, #5975 - Fixes open rightward/leftward incorrectly adjusting to scroll context",False
+76678c5f913952ca107cd5a4c9d42102069925c0,2018-01-29 07:42:10,Jack,"Fix #5366, #5975, taken from @dannyBies",False
+e888a26a405abbcb2e2deb2822dd5509846a2043,2018-01-29 07:39:36,Jack Lukic,"Merge pull request #6110 from hammy2899/patch-1
+
+Updated YouTube colour",True
+a22e4ede618eed714f3ce38e6409317dd918e5ed,2018-01-20 21:46:50,Sean,"Updated YouTube colour
+
+Updated the YouTube colour to the new red.
+
+https://www.youtube.com/intl/en-GB/yt/about/brand-resources/",False
+ae37d28b6071677f51cfb67899f1cd3c691b23e9,2018-01-11 14:53:30,Sean Hamilton,"Made a complete port of FA5 with all new icons
+Added sui aliases for current icons
+Added new aliases for old icons which no longer exist to help with compatibility",False
+637cdc1c37a69fcdcc57dcdeb339b76b0c7eb590,2018-01-05 14:05:54,Sean Hamilton,Added .idea for PhpStorm and WebStorm,False
+17ba087b9448c91a97756a5ea4c625e34956030c,2018-01-04 14:20:42,Sean,"Changed gulp-clone version (Fixes #6067)
+
+New update to gulp-clone breaks CSS build task",False
+d807a542d823d9905747d1c3106668bce19e64e5,2017-12-28 13:58:06,Leonid Suprun,Use @background value for arrow background color,False
+d1916a2da3edfe565fd51b6e198cee624eac211a,2017-12-22 11:33:47,Jack Lukic,"Merge pull request #5832 from jayphelps/patch-1
+
+[Buttons] fix for active basic button text color always having a lower specificity due to !important",True
+64e7c8c5de8b009e814bcec082623fe7491eaff8,2017-12-22 11:28:13,Jack Lukic,"Merge pull request #5872 from ThomDietrich/patch-1
+
+Add link to webpage at top of README",True
+afff7b2535b497132acdd5150f8c2327b8d2ca6e,2017-12-19 17:27:06,sraffalli,"Fix for #5713
+
+[Form Validation] regression: get values with radio returns true or false #5713",False
+bea9eb724da7c4857d9dde6a6703ffd14bf94a7d,2017-11-28 03:34:57,Jack,Rlsnotes popup,False
+8df7f2f2c75cbdf68cc5134dd2357895c66fdd5c,2017-11-28 03:34:20,Jack,Fix error which could cause popup to use wrong offset context when specifying popup manually,False
+c64d01272c42df52a091b0a61a43d832feca9fe3,2017-11-13 09:26:25,Jack Lukic,Rlsnotes,False
+2c5cc6fc1c06130500db17cac948a6dd0c388d0c,2017-11-13 09:25:43,Jack Lukic,Fix issue where dropdowns might animate outward two times on blur,False
+5f32c663c2acdd559bf5d7db263452f70ff0a432,2017-11-11 16:12:53,Tomasz Żyźniewski,[Flag] Add England Flag and Alias,False
+b9d5690df2361507a79e29fdf03f5df4116150e5,2017-10-28 22:57:49,Jeremy Melnyk,Swap bigWidth with hugeWidth in sizes #5899,False
+dc49ba043357ede5b3ae6de258571d9581a0c4a5,2017-10-28 09:17:48,Jeremy Melnyk,Swap huge and big in menu.variables #5899,False
+94e6e8195f051a3169d76f51bd73e2ee288206c7,2017-10-25 23:11:39,Jesse Lieberg,"Added onChanging callback to accordion
+
+Because it's useful",False
+3bbaf137b575c660af12cc89d6b811a8ae15cb8c,2017-10-18 21:00:42,Jack,Fix issue with bottomPassed and topPassed,False
+e3804e49268932e874a5bd48b3e454702092a7e1,2017-10-18 16:26:59,Thomas Dietrich,"Add link to webpage at top of README
+
+I was looking for the link for way too long...",False
+e74682878121f5eee0c02dffa4ef67cc3b3f55cc,2017-10-05 02:39:13,Jay Phelps,[Buttons] fix for active basic button text color always having a lower specificity due to !important,False
+2a082b074f173db1d48ffeb89476627f33330d62,2017-09-07 03:20:10,Jay Phelps,"Fix horizontal scrollbar height, closes #5728",False
+796d2f66e26ae5bb76c604fe6a36914ad3d2fe2a,2017-08-07 21:54:25,Jack Lukic,Update RELEASE-NOTES.md,False
+5550bca6afe30aa5ba4b1a5a853c91e358ab4a5d,2017-08-07 21:43:46,Jack,Rlsnotes 2.2.13,False
+f89dc9c36c084605e787c77fc99290170b8f7b38,2017-08-07 21:40:45,Jack,Setup forked prompt package,False
+1a43f058e6032fb2f6bd1ca59275963913ff77b2,2017-08-07 21:23:15,Jack,Rlsnotes,False
+dcadce079272bd069b7aab5b83e375a9dccc65f6,2017-08-07 21:20:07,Jack,Package lockfile,False
+0fb72422eccbc00eae1128772478ae4583480353,2017-08-07 21:19:25,Jack,Forked package typo,False
+c75f2e57402d211311e78b92c41a366aabf7dcd4,2017-08-07 21:18:21,Jack,Fork inquirer,False
+ba38080a51cab4f365a6565abeed6c6bf22fbc5c,2017-08-07 20:23:34,Jack,Remove colored output from install,False
+11ee2c5050b59b23ea4273430660f7d8d535bbe5,2017-08-07 20:21:16,Jack,Another install msg attempt,False
+7e218698920307453a5fd3f572a28bc766cc9d5b,2017-08-07 20:17:15,Jack,Attempting to fix install message,False
+b6504ba1e02f7afd9c498227e55609943e28d7c1,2017-08-07 20:14:50,Jack,Fix issue with install question requiring down arrow to select,False
+976a31e23c44619d60ac19789eaadfd92737fd44,2017-08-07 20:01:57,Jack,Version bump to 2.2.13,False
+52922d1e5cc78c370ae1458225c740a83028c249,2017-08-07 19:59:08,Jack,Really fix #5391,False
+577ae996568e355cb0141a7cce9ba07bec2ceceb,2017-08-07 09:42:54,Jack,Rlsnotes 2.1.12,False
+415e9bcf8f9e13e2849457f6b4ca9f3a0238c309,2017-08-07 09:42:28,Jack,Rlsnotes,False
+78644361cb7ea690707c01ba81aad1c1eb8dd9f9,2017-08-07 09:41:21,Jack,Build 2.2.12,False
+e198bdf5ecd7334988f1c429d6e82427ef92ee05,2017-08-07 09:41:13,Jack,Release notes,False
+4466494d7f45db844fd596056a7328e1fd0c3558,2017-08-07 09:27:27,Jack,Update rlsnotes,False
+ef89b56617fbb36aee43d25ef9dfbb27dccfb5e4,2017-08-07 09:27:17,Jack Lukic,"Merge pull request #5635 from Semantic-Org/revert-5543-next
+
+Revert ""[Build Tools] Default theme folder can be configured""",True
+23f2a370a232d0b038fabdaf66065e3756694d24,2017-08-07 09:27:09,Jack Lukic,"Revert ""[Build Tools] Default theme folder can be configured""",False
+7450aa3c9c32d0d608e73c2f52b7bfa4f32a718f,2017-08-07 09:13:34,Jack,"Fixes #5578, absolute positioned modal items are now taken into scroll calculation",False
+2849c904141d8d038646ef874a94653dcdb62ec8,2017-08-07 07:15:16,Jack,#5559 rlsnotes,False
+4ccf825e07c6fabe96b61dc5debb0cc7f068d8fb,2017-08-07 07:14:32,Jack,Fix issue where multiple modal init order matters #5559,False
+44b82222b0aa5c60a949681def6c02902c86585a,2017-08-07 05:25:30,Jack,#5549 - Fix regression from offsetTarget change,False
+2abb6ed32f0082aa0fc57f040323c7c21df9c4e2,2017-08-07 01:59:41,Jack Lukic,"Merge pull request #5543 from LucasMoody/next
+
+[Build Tools] Default theme folder can be configured",True
+48aaf9a74a6bd414cf661048df071d098eed83bd,2017-08-07 01:26:41,Jack,#4872 #4850 Fixes issue with icon offset in header and list,False
+97750b700c1303f10cf93ed76ed5aa6e5f0871d9,2017-08-07 01:21:36,Jack,Fixes issue with line height offset no longer being necessary #4780,False
+a3b6fb62db8114b469b3ccfd4f342e2905dc6ed1,2017-08-07 01:19:16,Jack,Fixes issue with dropdown positioning being incorrect inside menus #5542,False
+33137fb5cebf59d0dd64649f1f35259cbad83ea5,2017-08-07 01:17:35,Jack,Release notes on dropdown changes,False
+15160d6229af95cf6b878768c7440c6e3e86f9f0,2017-08-07 00:40:49,Jack,Build next ver,False
+ec533a6159119ed2de74e2912f79c489b4795d6e,2017-08-07 00:35:34,Jack Lukic,"Merge pull request #5602 from brianjd/https-fix
+
+Updated font imports to use HTTPS",True
+ef94ea8e65ddd8639fd5c2aa30fd6ff8ad8d06af,2017-08-07 00:32:47,Jack,#4029 Fixes issue with dropdown mutation observer not handling case where entire <select> is replaced. Update placeholder text usage. Add new values option for initialized dropdowns from js,False
+9683df5e909fe46ee9eaf57f8df81de9437ee0c1,2017-08-06 22:32:14,Jack,#3744 one last console log,False
+43f21749eb5147a7255b4ef521886524da1ae94a,2017-08-06 22:29:17,Jack,Remove console log #3744,False
+313f8f4a4a7f7bee581ca0af415aa9e82cf02bbb,2017-08-06 22:28:44,Jack,Adds #3744 - Calling dropdown() on select initialized as dropdown now works,False
+1b874274a448ac5fc960bb91e059430396eb85c2,2017-08-06 22:05:20,Jack,#5633 rlsnotes,False
+f08a78785d4c0d1333f48b7c3ebbb4f117556432,2017-08-06 22:04:41,Jack,Fix default focused text rule to work with sizer #5633,False
+cd3a639a5461c896d7c6a09792ca96377cf98a33,2017-08-06 22:01:42,Jack,#5391 - Fixes issue with deprecated uglify setting in build tools,False
+c325005722094571d62a97500b42e0a5e92918a6,2017-07-28 20:03:23,Brian Doyle,http -> https,False
+b13c972c3d0b26d922dc642f3c73aff4d628fd3c,2017-07-28 17:09:47,Andrew Golubev,Revert the changes and increase the selector’s specificity.,False
+ecf65b66df3c6f7864f74a417b83500bfce5d4c2,2017-07-18 03:58:43,Chris Dyson,Merge branch 'next' into patch-1,True
+dedec07aaa135f7b4ab557d7eb8e77da9cb7ff3d,2017-07-14 14:56:02,Lucas Pradel,Default theme folder can be configured,False
+7267e4113a3dcda78dee968ee88faf45d4f16590,2017-07-12 12:46:45,xiongyu,"default 'prompt' message has mistakes in writing
+
+ line 1266 - 1269 : correct 'must' to 'cannot', etc..",False
+7e37d4a098a51c0a888ca273b07d1423e21eef7c,2017-07-11 21:23:34,Jack,Rebuild 2.2.11 for release,False
+f584e1234e58f4556c11d1bec873d067be0ee180,2017-07-11 21:21:02,Jack,#4506 fix subtle overlap of leftward menu,False
+56865fd40379843a2ed558c09c0e5297d383224d,2017-07-11 21:17:27,Jack,"#4506 leftward now only checks on rightward, so predefined leftward menus are not touched. Fixes spacing on left dropdown icon",False
+2c26746dcedcc1610ab2c4ce0b64c218ab324547,2017-07-11 11:35:44,Jack,"Fixing many unexpected regressions #4506, release will wait till morning",False
+4c0c5caaec4353777bcb01c30d0447a73d3854a8,2017-07-11 11:01:48,Jack,Real 2.2.11 build,False
+2c3511b99c420ae16ff844b9f2b1094a01568b96,2017-07-11 11:00:53,Jack,Last minute regression fixes from leftward changes #4506,False
+d0624671628187ffe18e4f0224ef10cc6d101616,2017-07-11 10:41:20,Jack,Final rlsnotes 2.2.11,False
+cb0f940dd22486b604c3c0e96132e972972284a3,2017-07-11 10:40:38,Jack,Final rlsnotes,False
+285a49dd3e88b2adace0e2b320c780855c3a692c,2017-07-11 10:37:07,Jack,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+95dcc2666f93ea1c73ab051209130b05a371578c,2017-07-11 10:36:08,Jack,Release date 2.2.11,False
+c1690f9b0aa9591677b953bc28e65d3aefff62fa,2017-07-11 10:35:56,Jack,Rlsnotes 2.2.11,False
+58a5fb5e96365d7327780ed7c136b1b4f4f98039,2017-07-11 10:35:45,Jack,Rlsnotes,False
+df2b59a3122588a9a8bac22794867ced8e58ae58,2017-07-11 10:33:35,Jack,Update rlsnotes,False
+08c616fade071feab616ba29926605d6d60b7155,2017-07-11 10:32:11,Jack,Rlsnotes typo,False
+9f1f6ab4cda3742e472a809dae71a2555a2ce354,2017-07-11 10:31:01,Jack,Build 2.2.11,False
+de525a58b4de95b0a0c47182026c97b033d9d40d,2017-07-11 10:23:02,Jack,Update rlsnotes,False
+ba26289c5fdf92c2e8fa6eada7234fd2584e8544,2017-07-11 10:20:34,Jack Lukic,"Merge pull request #4544 from mathiasrw/patch-1
+
+Correct check for undefined variable",True
+942538047ed0a2028e7dd8f67f79821bf06b9afa,2017-07-11 10:18:57,Jack,#4211 - Fix left pointing menu to swap sides with leftward,False
+b13bef17bca184d6b25525dead65ec27293b29ea,2017-07-11 10:13:54,Jack,Fix top right pointing dropdown to move arrow when leftward #4211,False
+3b802c33c1aeb7473637e0362f26670c53158d3f,2017-07-11 10:10:30,Jack,"#4211 Change is.fitWidth to can.openRightward, fix logic to work after setting leftward",False
+96c0952c4f43df832ecf0c912da186eab38cfb75,2017-07-11 09:44:46,Jack,Merge branch 'next' of https://github.com/ChurchDesk/Semantic-UI into next,True
+7ab65977e1577719270edad1a328c9ff9334a06f,2017-07-11 09:39:11,Jack,CSS indenting #3714,False
+b79a6ab8df4f94b412b1e96494d291458d63ffb1,2017-07-11 09:36:33,Jack Lukic,"Merge pull request #3714 from TemaSM/master
+
+Fix #3439 - Now steps can be .unstackable",True
+8f1409aeb5e540ae647670bca556996abbadbcfb,2017-07-11 09:21:43,Jack,#4267 #5253 Fix some mistaken logic,False
+bd6e37c5d0b1384e60ba552c9e517a1e938d26b6,2017-07-11 08:31:11,Jack,"#4267 #5253 Adds new behaviors for form validation - Add rule, Add field, remove field, remove rule",False
+073db057a98ac9237fc4b7e73f0dc2b4a4e8371a,2017-07-11 06:19:19,Jack,#5522 update jsfiddle link to canonical,False
+44b75957a324293ac3d5ebd7cec50f609b1c3e68,2017-07-11 06:18:26,Jack Lukic,"Merge pull request #5522 from Banandrew/5521
+
+[Docs] #5521 Update the JSFiddle to use HTTPS",True
+8eeb3ad70f5402aa1a4086d69340acaee2ab98ac,2017-07-09 03:48:16,Andrew Golubev,Update the JSFiddle.,False
+06aaeb007a81553539def3dcae4ce6b4d8d8456a,2017-07-04 13:31:54,Andrei Horodinca,Only reposition the current menu element,False
+1a1c3b4abb08c8ae44d4696d4c3b6d6daedb58dc,2017-07-03 08:36:01,Jack,"#2866 - Add unstackable fields, unstackable form variations",False
+a528f207387c4390e84326f9da1d2ddc301786a3,2017-07-03 08:35:41,Jack,Fix inverted scrollbars in inverted ui,False
+bdb1928465bcaa8f2c1b0288d2ec309820c73d30,2017-07-03 08:26:46,Jack,#4248 Fix issue with attached item menu #4248,False
+f8e295fcffa77504896ffecf8fee0a82f56347c6,2017-07-03 08:13:15,Jack,Fix inheritance issue with segments #4013,False
+af6ddfa97462d7d6ba972cfcfd058bd738f6b1c9,2017-07-03 08:08:43,Jack,Rlsnotes #4506,False
+1b48f527eb73d6bc4b1af2e94d52f51c32cec3c3,2017-07-03 08:06:56,Jack,Rebuild dist,False
+e3757aa76bb950ce6bfc28d9ec3f6198347308a5,2017-07-03 07:54:24,Jack,Release notes #4574,False
+e06ae231d722916991ea92728b50cdb21cf31df9,2017-07-03 07:51:26,Jack Lukic,"Merge pull request #5303 from Banandrew/5227
+
+[Table] #5227 Added missing rules for sortable/inverted headers",True
+bea2c71af8178faca8d9f38a386817ab3b292067,2017-07-03 04:46:12,Jack,"Adds new setSize setting to sticky, fixes issue with percentage based containers #4360",False
+fa08398aad20f7764aa99afdea1e123a178b80a9,2017-07-03 04:18:43,Jack,"Fix issue in implementation of closable on dimmer, fix issue with not namespacing dimmer in modal",False
+28bf34ed8a9af485ed0673f6e90d4468c5fab20f,2017-07-03 04:09:13,Jack,#4368 - Dimmer will now reset settings before each modal show making it simpler to work with multiple modal types in same page,False
+9ef8f0e8551131e74cfc3e7e28945c4483e2c741,2017-07-03 03:44:46,Jack,Add inverted scrollbar styles,False
+bd08e15b31c0e2d227d63380d5400e7523e25fa1,2017-07-03 03:33:31,Jack,Upgrad to normalize 7.0 #4647,False
+dd8a8b12f5e359a673534ebf393247bb96a31916,2017-07-03 03:29:41,Jack Lukic,"Merge pull request #5319 from p2kmgcl/issue/4196
+
+[Modal] #4196 Disable refreshing for non active/animated modals",True
+aa6ecf951ce72d4cd8fbaa36e5d52c61e04d14f3,2017-07-03 03:20:46,Jack,Fix spacing on image in dropdown,False
+784c0a191ab4b86655d100345359728334e3800a,2017-07-03 03:15:15,Jack,Add scrolling content style,False
+ede9f9839cd94a30457d3d80ebf7cd35908e12bb,2017-07-03 03:15:10,Jack,Add custom scrollbar styles,False
+b746126f36c9a7d50934d2bd6d7c6b199a655d44,2017-07-03 02:24:46,Jack,"Fixes #4579, compact icon message not appearing compact",False
+635a0eed735fb45370e08a4216b6d9d8ea0ef519,2017-07-03 02:17:28,Jack,Fix positioning with loading/dropdown icon,False
+3a7d36f343f6070f15142e9dc6e0ee91013e64d3,2017-07-03 01:50:26,Jack,#5281 fix issue with descendors cut-off in transparent input,False
+324e53876dd76b0386b3799c3d6f7d6baed5676a,2017-07-03 01:42:25,Jack,Update all NPM deps,False
+587a702713d66e6e7811b33de6d89a83d840dd72,2017-06-28 18:30:23,Andrei Horodinca,Reset dist/components/dropdown.js,False
+0493cad4177622896072674a84743ddb9ed4abd6,2017-06-28 18:27:46,Andrei Horodinca,Undo unnecessary formatting,False
+3705e960b984b55bda8fa913bf4bb5ac78e419e0,2017-06-28 18:25:58,Andrei Horodinca,Undo unnecessary formatting,False
+95ec084c3ae73bc338480153049677586bdbf813,2017-06-28 18:14:43,Andrei Horodinca,Reset dist/semantic.js,False
+df93fffb290f7e9ac48ba80fe8cb8d3b23c7c07c,2017-06-28 18:11:20,Andrei Horodinca,"Merge remote-tracking branch 'upstream/next' into next
+
+# Conflicts:
+#	dist/components/dropdown.min.js
+#	dist/semantic.min.js",True
+ae3845032fd26c9b5652a49989aedbb8f32f0367,2017-06-02 20:56:35,Jack,#5284 - double disabled styling on inputs,False
+6e6c92a4790516d7797997561ce50769e2546f4b,2017-06-02 20:52:57,Jack,Fix issue with  not being passed to offsetContext when using predefined popup,False
+2ec4b573cfba14c27c1bb0bfdb2a1ab77c43cffb,2017-05-26 00:43:40,Andrew Golubev,Corrected the previous commit,False
+d9ac759e7eb480dc896988ac5d6fe4e0553a4cbb,2017-05-25 06:10:22,Jack Lukic,"Merge pull request #5400 from limonte/patch-1
+
+Update Edge supported versions",True
+4aafcebc9ff328185a1005e79260999a82ab389f,2017-05-25 06:09:58,Jack Lukic,"Merge pull request #5405 from bcroq/missing-material-woff2
+
+Add missing .woff2 file to material theme",True
+35053b69ad09c5ee558c443b65aecc20ec884aae,2017-05-24 18:40:08,Bertrand Croq,add missing .woff2 file,False
+7a5fb9e12a60c361cfa8c102ac24c2e7d68b6db7,2017-05-24 10:08:58,Jack,Fix issue with down arrow shortcut in dropdown,False
+af021d049cccbc764fc7d0a9f859024a82c5133a,2017-05-23 19:16:33,Limon Monte,Update Edge supported versions,False
+238ac3c8906330e0fcc1980fefeea0ae2dfb2bda,2017-05-11 01:59:28,Jack,Fix issue where selection dropdown would modify search selection on tab before query,False
+2060fd5af1b7178f21ebc1bcd109a6d66152cae5,2017-05-02 08:57:21,Jack Lukic,"Update form.js
+
+Remove errant console.log",False
+7a17e70dd6c5c96294d204982c305d1e5eed63b8,2017-04-26 23:13:11,Pablo Molina,"Disable refreshing for non active/animated modals
+
+This commit solves #4196
+When two or more modals coexist on the same page, the refresh method
+of each modal is executed, even if one of them is being shown.
+By checking if the module is active or being animated, you prevent
+conflicts between shown and hidden modals, like the one described in
+the issue.",False
+7d0621c1c059c08cb48866a0bdc1c5027fa57fd9,2017-04-25 06:47:00,Jack Lukic,Fix bug in sticky when using offset setting,False
+707ffd51471f15646428cafc589120d05971b90c,2017-04-24 15:57:08,Andrew Golubev,Added missing rules for sortable inverted headers,False
+844849285d8f554c8abfadf602bf330a6f8e2dcd,2017-04-18 03:51:02,Jack Lukic,Fix release note merge,False
+55508be387d726f3d6b356a9cea37d6544b559ca,2017-04-18 03:50:37,Jack Lukic,Add popupVisible className setting,False
+56c56645d608eb141cf5ec3521db0c5d7e28ff69,2017-04-13 08:10:24,Jack Lukic,Mind in the wrong place,False
+775df0e06179e5330a684379eb8b604718e41ed5,2017-04-13 08:08:38,Jack Lukic,Break out close events into separate methods,False
+da0aff070a05ab2c12a603c9c5db01b9208e9400,2017-04-12 09:04:04,Jack Lukic,Remove iOS html class name fix #3488,False
+eb17ab82f95f52a6baf89cf66d53ea9f8775eb4c,2017-04-10 09:13:26,Jack Lukic,Adds rlsnotes #5123,False
+66cc7098eedf32a6529019c0b71338d9fbbc7a39,2017-04-10 09:12:13,Jack Lukic,Adds tiny size modal #5123,False
+e625b429d0a0ded027973c91d79b81c83b22e068,2017-04-10 09:05:48,Jack Lukic,"Merge pull request #5123 from Banandrew/3214
+
+Added a `.tiny` modal size",True
+82f6d69c9988054015835536413f639dcc0e8bf8,2017-04-10 08:58:53,Jack Lukic,Fixes #4707 position: relative on dimmer,False
+b578e7ebb1a3f921d9df8bdeb9ad07465c2d1a54,2017-04-10 08:57:53,Jack Lukic,Merge branch 'master' of https://github.com/jinyangzhen/Semantic-UI into next,True
+5d1a78bf7d6016a24556ba08b5c9282dc7963f14,2017-04-10 08:52:49,Jack Lukic,"Merge pull request #4653 from tbracken/next-cornerIcon
+
+Added 4 positions for corner icons",True
+f419f4f88ba2f52466c06fc2ac9599439ed295d2,2017-04-10 08:49:31,Jack Lukic,Fixes #3604 #5116 Issue with left/right menu on stackable mobile,False
+86ea20d5a09463cda6f2e98dacb824c23ee0b592,2017-04-10 08:44:43,Jack Lukic,Fixes #5064 issue with radio in Onfailure callback,False
+8dda85c61bacd5ec92ed703f9e472f7d5e8f178b,2017-04-09 00:25:08,Jack Lukic,"Merge pull request #5228 from gitname/patch-1
+
+Fix typo",True
+3de60bc3adf3593587e523fe72fe9fc904487435,2017-04-05 00:13:06,Jack Lukic,Timer logic in wrong place,False
+2a53a9fbd02ff40074fbefcdf03e23ee57f693c3,2017-04-05 00:09:46,Jack Lukic,Fix searchdelay could make results appear even after search has lost focus,False
+52dbc6288e327d1b671b0d86019a23ef6d601bcc,2017-04-04 20:16:05,Jack Lukic,#3430 Fixes issue with page scroll flickering due to bug in sticky when container height is defined by static sticky height,False
+c7b6e65f29a01c84f56dd04eec8fc555e2d204b0,2017-04-03 03:56:20,gitname,"Fix typo
+
+Change a plural noun into an adjective",False
+dfc323e608ff15e36a336c17ef925ffc27b5bb2e,2017-03-28 22:43:48,Jack Lukic,Build 2.2.10,False
+1323da98e77917294c67aba2607e4b0c22e1b756,2017-03-28 22:42:13,Jack Lukic,Rlsnotes 2.2.10,False
+04e99a8d7e5489dfb08e1a31bd0be8036b022158,2017-03-15 22:19:33,Jack Lukic,"Merge pull request #5148 from Banandrew/5128
+
+Fixed an issue with child `.card` elements inheriting their parents’ rules",True
+31b28a1950364a56b8c08e4e715743cc288bbc48,2017-03-13 08:24:45,Jack Lukic,5122 allow dashed cc values,False
+a26ee40612bd36431035afb1554e933fc4b60cb1,2017-03-13 08:12:19,Jack Lukic,#4237 remove console.log,False
+4732b325d1fa9076310ded708c14c7d54ddbd00e,2017-03-13 08:09:13,Jack Lukic,Fix #4237 IE11 dropdown issue with re-opening,False
+91dfe87b0fcebc4e69a7784ae411e35d0db94a45,2017-03-13 06:52:00,Jack Lukic,Fixes #4479 - Approve/deny callbacks can occur multiple times if clicked quickly,False
+1fa6625ab570035b360613c9bd19469eb32480ce,2017-03-13 06:29:29,Jack Lukic,Fix #5113 Dropdown blur issue,False
+c5ede1822209822141bd2681083ef5b1cc316945,2017-03-10 19:19:43,Andrew Golubev,Fixed an issue whith child `.card` elements incorrectly inheriting their parents’ rules,False
+d48130406f4d2b9bb370fc8d9be6aee8e6c197a5,2017-03-08 03:37:30,Jack Lukic,Wow i suck,False
+bcdc1f018cd88634bb022e2ffd54fe74848a6593,2017-03-08 03:29:49,Jack Lukic,Fix issue with overflow: scroll,False
+064477c47d9f48a41b086e09811bed8e0b0a7dea,2017-03-08 00:36:41,Jack Lukic,Fix math on scroll context,False
+415a67dedbd1c04da01f43fed3680fa4c35a9903,2017-03-08 00:23:27,Jack Lukic,Fix bug with top passed bottom passed in visibility,False
+4f28a5b7f2166d7eb22c27dc8b1f244293259853,2017-03-03 19:12:50,Andrew Golubev,Added a `.tiny` modal size,False
+619386ebbc714447e9c2ca4d50c7460ffcf98239,2017-03-02 07:15:29,Jack Lukic,Fix dropdowns inside overflow containers,False
+a3a1763c8d2a9ad3ae4671c56d9f9f93929eb389,2017-03-02 07:02:37,Jack Lukic,Fix mistaken use of variable,False
+dfc7599f6b9c6c730d6f750fb17105775c6aad35,2017-02-28 07:13:58,Andrew Golubev,The width of inputs that are inside of a dropdown’s `.menu` should never be overridden,False
+076cb9f8654241ffd8ac1a92a98d4f23eda58506,2017-02-28 07:09:41,Andrew Golubev,Added `box-shadow` to the checkbox component’s `.toggle` variation,False
+b962d899f1587fd8b4a84fa198b2c38e897911a7,2017-02-23 22:14:01,Jack Lukic,Fix visibility inside scroll context,False
+e91093724a7177ee692fd9a7c501d262611e9069,2017-02-22 03:06:52,Jack Lukic,Update RELEASE-NOTES.md,False
+8b38bf50815b5afac7b7a232808fd0ed6c9a26da,2017-02-22 03:04:48,Jack Lukic,Update RELEASE-NOTES.md,False
+6389e62e204e1e6a792cdbb29cd23b65112947c1,2017-02-21 23:35:03,Jack Lukic,Fix rls,False
+8f7ec07ce640f2a38b7b2e800fba6ae9941cf1f1,2017-02-21 23:34:29,Jack Lukic,Rlsnotes 2.2.9,False
+a0fc599c164ec05987beb6fa88fb6763395281a5,2017-02-21 23:33:54,Jack Lukic,Build 2.2.8,False
+47c61a4e58661eb01d08e5199536eed28c4adcf5,2017-02-21 23:30:16,Jack Lukic,Fix wrench require statement,False
+7f86c8a3a76ae38d34d1768e848fd94d8be305af,2017-02-21 11:41:09,Jack Lukic,Rlsnotes,False
+10d5d370349f544529af586c8104054ddb526846,2017-02-21 11:40:22,Jack Lukic,Rlsnotes,False
+0e118d6166e9e735a0ffb4a38cb1f64c1fdd727c,2017-02-21 11:39:35,Jack Lukic,Rlsnotes,False
+9d31357130599fc49dd414a5831a842d69d8abb6,2017-02-21 11:38:23,Jack Lukic,Rlsnotes,False
+6bc1c5ec4bdaf349e8ac5877f9fee0139a138d9d,2017-02-21 11:29:56,Jack Lukic,Build 2.2.8,False
+b5683b277bb89b1442fb6e1df999789c2358b655,2017-02-21 11:28:03,Jack Lukic,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+868bacdee7fb50a6006d8a0d24f810ea1e3d73e9,2017-02-21 11:27:13,Jack Lukic,Add build tools notes,False
+7491b9455f116a5508e2d4caf40726ef843779a9,2017-02-21 11:26:05,Jack Lukic,Rlsnote lang,False
+3d499541e8ad23a8d6e4875309f057e87f13a26f,2017-02-21 11:22:59,Jack Lukic,Spelling and link fixes,False
+be89982d42aa80818eec59ff3edf29309fbb2465,2017-02-21 11:06:51,Jack Lukic,Update RELEASE-NOTES.md,False
+3989d8a32d3730c78d8246a0b45ac265ef2ee95f,2017-02-21 11:06:24,Jack Lukic,Update RELEASE-NOTES.md,False
+1b47e648fe4d9ba47ad4d1b69d431fd06a28afd5,2017-02-21 11:06:08,Jack Lukic,Update RELEASE-NOTES.md,False
+7459055bc515c0c0a35eda4aab1dddaa25465397,2017-02-21 11:05:46,Jack Lukic,Update,False
+f1116a629fea9eb634afda1f1a9bfcf82ed19935,2017-02-21 11:05:23,Jack Lukic,Update RELEASE-NOTES.md,False
+cb9e3c8e942d988e836fe58aac6e9326bda79ccd,2017-02-21 11:02:06,Jack Lukic,"Rlsnotes, links and warnings",False
+cd63ad891ddb1afa167b0cb86591dfdf25efcd28,2017-02-21 10:58:43,Jack Lukic,Notice on form validation,False
+d163b57745b5b51db087b37c0310d80825b819f3,2017-02-21 10:52:13,Jack Lukic,#703 #4093 callbacks should not occur when using is valid,False
+ad03335509ed7083a908c1b705f07109db5651b3,2017-02-21 10:36:56,Jack Lukic,"#703 #4093, is valid no longer triggers UI updates, adds ability to validate individual fields",False
+6016da337fc28ce0c0e4d30cd771992c3453254f,2017-02-21 10:03:28,Jack Lukic,#4163 #4164 Forgot to rename one use,False
+0e4075d06b0aa5155bc23f41544b208ce5e8e474,2017-02-21 09:50:37,Jack Lukic,#4688 #4692 release notes,False
+152482a9e2298608eb81bdd517b53720cd473183,2017-02-21 09:48:54,Jack Lukic,#4688 #4692 Fixes issue where backslash and other spcial characters may cause dropdown to fail,False
+aa0c9ce453519bd339ea9adfd61f8763a0336c82,2017-02-21 09:17:28,Jack Lukic,Labels now use metadata setting,False
+6f19675c526f2df31a676dcc22676554f2959e1b,2017-02-21 09:11:35,Jack Lukic,#4163 #4164 More general fix that properly escapes string values for selectors,False
+9be5cf27141accc203fa7e4a7f77de203a90c1b7,2017-02-21 08:45:54,Jack Lukic,#4163 rlsnotes and thanks,False
+6e88af15b7cf356ca46f744d6de47fe592650860,2017-02-21 08:41:26,Jack Lukic,#4163 #4164 Fixes associative array name values not working correctly,False
+fb8bccd1150c9374fcfa081e295a05f7d61eac22,2017-02-21 08:09:43,Jack Lukic,Fixes decimal regex to be more reasonable,False
+d4d72f92ffaa559574e79d24bcfc66da47567493,2017-02-21 07:57:18,Jack Lukic,Fixes #4145 image icon causes issues in header,False
+4350176b8c802de41f9ec6c05811a6930a8911f5,2017-02-21 03:03:02,Jack Lukic,"Merge pull request #5004 from Banandrew/next
+
+Switched Project Talk to official forums in *md files",True
+b9d402d62bd988281c6705856c36d8ceffaac22c,2017-02-21 01:15:39,Jack Lukic,Fixes issue with visibility type image re-animating when reinitialized,False
+06f52390c786aa44176bbe7e6f76fb72b11de059,2017-02-21 01:03:43,Jack Lukic,Fix #3012 padded vertical segments,False
+6fcbf43bc58a945ce705631c6557dc05f2f44bb9,2017-02-21 00:59:59,Jack Lukic,Add new npm release for forked wrench #3404,False
+ee05b712900473fd8959c911a29652926163150f,2017-02-21 00:31:05,Jack Lukic,Fix #4264 remove height requirements on iOS mode,False
+32dd5d4b97c9abd13bff777f4e5eccc9156e0b9a,2017-02-21 00:20:18,Jack Lukic,Fix unfinished release note,False
+00b7d089525ac5af6a15fa5075d8377489d1fc35,2017-02-21 00:18:20,Jack Lukic,"#4279, preserve em units for math, fix h1-h5 to use exact decimals as well",False
+e01309c90a07b994d63faca6461bba7a14486ba5,2017-02-21 00:13:38,Jack Lukic,#4279 Fixes off by 1px errors in any UI with inputs,False
+9e6e5f9db6cdfa0721aea5867f017889ac61925a,2017-02-20 22:37:01,Jack Lukic,Rlsnotes #4547 #4497,False
+dcd5bf6e889c11f48dcc8b41f11cbb4a327a011f,2017-02-20 22:36:31,Jack Lukic,Merge branch 'master' of https://github.com/cbxp/Semantic-UI into next,True
+9642bdaef8cf6258b1179410d3e04a3a23693d86,2017-02-13 07:43:17,Jack Lukic,Fixes dropdown arrow on left/right pointing #4896,False
+eb4b9bee6e0560c1c24fd704fdf2ab116799d330,2017-02-10 19:09:26,Andrew Golubev,Switched Project Talk to official forums in *md files,False
+d3e745524c554580675291051019afc921fd2881,2017-02-07 21:43:58,Jack Lukic,Fix build scripts to work again,False
+1251caf0cb6be8c616faff83077996dee20277d1,2017-01-10 17:27:18,Andrei Horodinca,Build dropdown module,False
+36ba0fe8a545e02600e157c17ccb043e46710338,2017-01-10 17:27:09,Andrei Horodinca,Move code to source file,False
+9cc1646d93bdb452af6fe07960191752a324b9ac,2017-01-10 17:23:57,Andrei Horodinca,"Revert ""Move code and build JS from source""
+
+This reverts commit 2ec1a2aeb04e853a3b666c83388e3a81eac42047.",False
+2ec1a2aeb04e853a3b666c83388e3a81eac42047,2017-01-10 17:22:46,Andrei Horodinca,Move code and build JS from source,False
+d5c009eaa4da9ac65a83be4756604ff300991078,2017-01-10 17:17:25,Andrei Horodinca,"Revert ""Build JS files""
+
+This reverts commit 69cba7f7f3695aa4dddf7fac8b9c2dc1540a464e.",False
+69cba7f7f3695aa4dddf7fac8b9c2dc1540a464e,2017-01-10 17:04:54,Andrei Horodinca,Build JS files,False
+27d58a01793b66318478fbc5b6676804d22d065d,2016-12-30 01:42:22,Jack Lukic,"Merge pull request #4651 from rminnett/next
+
+Fix #3424",True
+8b80a626126d5e1b4d8454d83eb6c45d80831354,2016-12-30 01:42:06,Jack Lukic,Rlsnotes #4651,False
+cec077273fcc5f7e3b0a66eeedda4490f5fd45b4,2016-12-30 01:33:51,Jack Lukic,Adds unstackable variation to items #2901,False
+9006d4cb4e6c8656346ffc774c48de5ce86b05e7,2016-12-30 01:20:32,Jack Lukic,Fixes #4490 - Dropdown with search inside menu should be tabbable. Fixes issue with selectOnKeydown and html text,False
+bfea105b12f710a01d56e9c048c5fee906f6489f,2016-12-30 00:43:55,Jack Lukic,Update escape key for search,False
+738b9faa16a32bfc4bc9d0330f92becd3736e9b6,2016-12-30 00:38:16,Jack Lukic,Fix escape key not working to close search,False
+9fa01f607d4d4718c076f9d0d6a986f1a5ea2c14,2016-12-30 00:28:33,Jack Lukic,#4616 - fixes bug with results displaying when using showNoResults. Adds callbacks to many internal methods for better hooks,False
+9283c3a17edccd287cf7a6c211634553d5372945,2016-12-29 23:36:11,Jack Lukic,2.2.8,False
+d027a5996cdc36bca79f120d55bc6024e4fe2264,2016-12-29 23:35:26,Jack Lukic,2.2.8 build,False
+b848ce9a3821bc3ff62d0cf1876c113dde1033af,2016-12-29 23:34:41,Jack Lukic,Build next dist,False
+0302ae93c72d27dc8f453a02d306527585f0cde5,2016-12-29 23:30:07,Jack Lukic,"Fixes #2534 for real, adds loadOnce setting",False
+6b759b74c0470164abd614e0a89bcfccbc8363b1,2016-12-29 23:13:54,Jack Lukic,"Search remote data before showing if necessary #4041, fix typo in remote search setting",False
+5f393f6c33a5365b927eba415bebc6071f871541,2016-12-29 22:57:09,Jack Lukic,Modify multi-select dropdown behavior,False
+1f897b3bb17ef79a582231a17fd2143e94a6c088,2016-12-29 22:29:38,Jack Lukic,#4815 change name for setting again to match other remote setting,False
+376d0211fcf9832de926f9dcb7f82b5edc7f7e6e,2016-12-29 22:28:37,Jack Lukic,Adds searchOnFocus setting #4087,False
+4a4fc9b2a0f43a3dcbe2a4d7f6b7354342df99c4,2016-12-29 22:21:43,Jack Lukic,Fix icon button centering,False
+0cd01269dca3a9037e0c27da85f329df375a7567,2016-12-29 22:17:13,Jack Lukic,Add comment sizing,False
+01dbc261cac3a891278b2993a09ee34f091e2a5d,2016-12-29 22:10:11,Jack Lukic,"Swap aliases on thermometer, fix issue with scrolling dropdown right padding",False
+ec7c5ae9199bf0d6bc1c55d9c89e4ba97db926b5,2016-12-29 21:05:05,Jack Lukic,Add thanks #4766 #4815,False
+a8bdf7d1053514f5eb6d9dfddb5bd0d7dc234170,2016-12-29 00:04:01,Jack Lukic,Rename localSearch to filterAPIResults #4815,False
+a7f0df91c98a7c6f58587dcb4ac6f051a91dddaa,2016-12-28 23:56:45,Jack Lukic,Fix burma flag not having right sprite location,False
+9473669e10be3277512323a7cbc67525adbf9375,2016-12-27 22:42:43,Jack Lukic,Merge branch 'master' of https://github.com/enix223/Semantic-UI into next,True
+9cf6e611ab3912e94dd623a6a77508012e8c7898,2016-12-27 22:31:27,Jack Lukic,"Merge pull request #4766 from BreadMaker/FontAwesome-4.7
+
+[Icons] Upgrading to FontAwesome v4.7.0",True
+22acbc26714637a5f0e1248c22aea16622f9822e,2016-12-22 01:57:28,Jack Lukic,Date,False
+7afba22cc77c409332c070fcaca61f1b1535e877,2016-12-22 01:55:42,Jack Lukic,Fix autoinstall breaks when param used after git clone of repo (no package manager),False
+44a6bfa23b6e527bf50a353c209d3cbbfa58bcdb,2016-12-22 01:04:06,Jack Lukic,Builds 2.2.7,False
+e9871b9f665054695f944a327ce983549ebc1b6e,2016-12-22 01:00:51,Jack Lukic,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI,True
+157d6a5cd1f616d5890c19838def6bdecf390cac,2016-12-22 01:00:14,Jack Lukic,Merge branch 'feature/fix-autoInstall' of https://github.com/AnsonT/Semantic-UI,True
+1af98725803b7d37c0fa640eea6e6903f9854ff1,2016-12-19 03:25:14,Jack Lukic,Update versions,False
+634d2e0a08d0f905be4b6d6f7c3f025f474eed1c,2016-12-07 08:16:40,Enix Yu,dropdown localsearch default to false,False
+ca893b6160d70125bf0d024acdf03367f9197996,2016-11-20 11:20:10,BreadMaker y la CTM,Upgrades FontAwesome to v4.7.0,False
+11d7276d45c1948df085ce18c0a516241d269d1d,2016-11-18 22:12:59,Jack Lukic,"Merge pull request #4680 from nolsherry/patch-1
+
+Add CDNJS version badge in README.md",True
+a74d21a2f32dbe7a5199fe3b089626afe28fb095,2016-11-04 11:45:09,Jin Yangzhen,Fix <body> being set to position relative when dimmable class applied,False
+0b1b59b0e1c780e842820df5c1904a162034812c,2016-10-28 08:39:30,Jack Lukic,Build 2.2.6,False
+a9cd4922279326128726e081a7a2f1c4314a5ff3,2016-10-28 08:39:01,Jack Lukic,Hotfix for typo,False
+443e700a74dd71d361197bee35ecbade9da52285,2016-10-28 08:37:58,Jack Lukic,Fixes let usage,False
+9f62546f7ef7761cc2338a9994fb2afe0c1ef07a,2016-10-28 08:27:52,Jack Lukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI,True
+37f25400e341ac6df5997bfe5e8637e0e12c305e,2016-10-28 08:26:10,Jack Lukic,Update RELEASE-NOTES.md,False
+a6c179a60df272c5e975a9b2502bdfec7d471fde,2016-10-28 08:24:20,Jack Lukic,Build 2.2.5,False
+09455f5c9bb78bf4b5f4b3f98e90ca4841df3c74,2016-10-28 08:19:05,Jack Lukic,Add missing checkbox var,False
+8b38f91c51ab112897b2e4e63e5acd6f85cbdd8f,2016-10-28 08:16:14,Jack Lukic,Build dist,False
+46904f93915ed249cdb5c80be61a162cbd98af83,2016-10-28 08:15:43,Jack Lukic,Adds missing checkbox variables,False
+284f517f15e8c23357a6926a2ad43bbc7f23dc47,2016-10-28 08:09:43,Jack Lukic,#2534 release notes,False
+d095ed18f1977ed907ad4ac3195a71c5eb90f5bf,2016-10-28 08:08:06,Jack Lukic,"#2534 - adds new DOM caching, which preserves events and final rendered state",False
+8d5e2a94568188887280c2a3429400268bba47cf,2016-10-22 19:52:08,Sherry Chang,"Add CDNJS version badge in README.md
+
+This will add the badge to show its version on CDNJS and also link to its page on CDNJS!",False
+002752eb12debe5912fbb28d17751392b655d16c,2016-10-16 01:31:44,Todd Bracken,[ref #904] added 4 positions for corner icons,False
+a5028e559900c05540541ec563efd9aac6cd1276,2016-10-15 02:13:20,Rupert,"Fix #3424
+
+Dropdown fullTextSearch=exact was only implemented for the text search, not the value search. The value term was using a fuzzy match even with fullTextSearch=exact.",False
+a21cbcef7a1ed690986a2461e52733a21ca6ef83,2016-10-10 05:56:26,Jack Lukic,"Update checkbox.less
+
+Dropping the ball",False
+bb35b93c4ca8eb0cfeeb759f38fa8f4cd3542cb6,2016-10-06 23:01:06,Rijk van Wel,"Fix inverted dimmer text color
+
+The definition referenced the wrong variable.",False
+8f38205254f0e3ac5517a4de44ef922e1ac33342,2016-10-02 01:56:56,Aaron Hansen,Take content settings before attr title,False
+57e7199322aceeb666c4694345b5e567af284739,2016-09-25 23:09:32,Jack Lukic,"Merge pull request #4550 from musically-ut/feat-flat-theme-input-box
+
+Fix fg-color on inverted forms in flat theme.",True
+b8a14c2917529f1343459a832a05c1920c7a87d1,2016-09-24 00:07:11,Jack Lukic,Fix bug in search related to DOM fragment removed from document,False
+b008a19de8006a4378c4f232f372d6bf46ffb313,2016-09-20 21:06:00,Jack Lukic,"Adds container option for sticky, adds checkbox vars",False
+1f04853feae3819b7959d34e136f0dc2605ded2f,2016-09-20 19:40:51,Jack Lukic,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI into next,True
+bf49cf44d89e12243f1d16d65d3cfb20effe64fe,2016-09-20 19:39:31,Jack Lukic,Transition can now read final display state from metadata,False
+80825b1a681b270e99c612209d6b5cdac55bba0f,2016-09-16 03:27:50,Jack Lukic,Fix keyboard shortcut bug in search,False
+4a459b2e25a6dff12f98887c01e2984c37f5fd55,2016-09-13 22:47:40,Utkarsh Upadhyay,Fix fg-color on inverted forms in Flat theme.,False
+9efa3234880e6d1f7fd802a2872cf37e456fa24e,2016-09-13 11:32:56,Enix Yu,add localsearch function for dropdown with api remote data,False
+9411e0182e6803fd5bb8abd0ebea68ab336f48f9,2016-09-12 16:19:56,"Patrick Abner, Anton Keks",#4497 check if validation rule is defined when revalidating,False
+1b0268a4b9bb145fe7e9de4613d66109772c186e,2016-09-11 02:25:18,Mathias Rangel Wulff,"Correct check for undefined variable
+
+The code was comparing the result of `typeof` with a variable named `undefined`.
+
+As typeof returns a string it should compare to `'undefined'`",False
+77d2739079519f65b7c2545b4334b8dd8684a895,2016-08-31 23:23:11,Martin D,"Update dropdown.js
+
+`text` argument missing for select action",False
+f725b162e70896e38257965424ac7f9af486b927,2016-08-31 05:37:09,Jack Lukic,Add transition fallback to progress,False
+83147b82b412d4213e60824857af0931ab05505d,2016-08-26 04:52:17,Jack Lukic,Rebuild 2.2.4,False
+190e8e59bb3ebbaa35fbea6a7d540c09e36596e5,2016-08-26 04:50:52,Jack Lukic,#4463 - remove bad dep,False
+4551219016680e206d64a45c168d48ea19eb077e,2016-08-26 04:48:30,Jack Lukic,Build 2.2.4,False
+b564cc3985966336d80d678bdbc932330000880e,2016-08-26 04:47:45,Jack Lukic,Fixes missing message var,False
+1e8d01b4a740973e31bdc3a78a6de6b5cbc1cc4e,2016-08-26 04:44:07,Jack Lukic,"Revert ""zone.js/issues/319 Loosen equality on undefined check for determining input event""
+
+This reverts commit d028ed19b06ec25ddb033476eff8cebf2338abd7.",False
+60642e10c01be421847c019dad55297558e86235,2016-08-22 09:02:14,Jack Lukic,Fix typos in rlsnotes 2.2.3,False
+eece06b12817133131d87f5302bdb65c68e7e3ac,2016-08-22 08:56:56,Jack Lukic,Finalize release notes 2.2.3,False
+8b8a27bdc93b148d9acc832a21770ca027ea2081,2016-08-22 08:52:05,Jack Lukic,Build 2.2.3,False
+faae37a424eb5146d717d975c33a8d3bf22c4e2d,2016-08-15 12:44:24,Jack Lukic,#4284 - Fixes obvious brand colors.. tbd instagram,False
+301b3ad5a7626da070034e2a8aa3a902de139c36,2016-08-13 01:53:31,Anson Tsao,FIX: build after autoInstall,False
+b6f1bddea2195693872399dbfded1a26647d19e4,2016-08-13 01:36:12,Anson Tsao,"Fix: Testing whether semantic.json is present in the install path, not the source path - otherwise semantic.json was overwritten during npm install (autoInstall:true)",False
+161f72cb9d33f8452f24f2b8dc0bac6705b9e99b,2016-08-12 11:04:19,Anson Tsao,FIX: auto install did not copy build during npm install,False
+f13c935f1d5c45ad46cd4635296fc50e80ac614b,2016-08-12 01:23:36,Jack Lukic,Add iconPath duplication to avoid reqing material site theme,False
+2fd4846e999d6f54ce0054ef03afa2157bce8185,2016-08-12 01:11:22,Jack Lukic,"#4412, redo paths to be more consistent with default theme",False
+49444b6a101a25f28ac9e4117bcf3c5168c9c25b,2016-08-12 01:07:55,Jack Lukic,Merge branch 'master' of https://github.com/nielslerche/Semantic-UI into next,True
+56a15d1583c9f7b94090f001dff23499fa256680,2016-08-12 00:40:36,Jack Lukic,Rlsnotes #4399,False
+207e08561d1b42bcf2fd4c82554f50cdb11c913b,2016-08-12 00:38:35,Jack Lukic,"Merge pull request #4399 from tbracken/next-4398
+
+Added hover styling to icon group",True
+d450ef7552c335ca383656af932ead5d5ad41b99,2016-08-12 00:36:38,Jack Lukic,#4403 cred,False
+d849264b0b7c821ce8ca7701c820ebba32b69a78,2016-08-12 00:36:01,Jack Lukic,#4408 - adds cred,False
+b78df3745d47796372eaa76c9da48d57b5e7c22f,2016-08-12 00:27:23,Jack Lukic,Fixes comment sizing #4408,False
+a551335b854681ddf279ca2827ed157191cf0198,2016-08-12 00:20:47,Jack Lukic,Fix point-events typo #4408,False
+4fc9f00337b1688a8c56b836f3a02324f123d63e,2016-08-11 00:12:36,nielslerche,Update icon.variables,False
+355446213969bf2f829fa9b9b042e1ceb1d633da,2016-08-11 00:11:25,nielslerche,Corrected for missing <i> selector,False
+b85ae81de35cf61bd6a0a57bcf473dc4b79e54f2,2016-08-10 20:14:43,Kat KatKat,"Update form.js
+
+https://github.com/Semantic-Org/Semantic-UI/issues/4422",False
+d028ed19b06ec25ddb033476eff8cebf2338abd7,2016-08-09 20:15:25,Jack Lukic,zone.js/issues/319 Loosen equality on undefined check for determining input event,False
+9640218813bee54ded2b90179147c359ab4a8153,2016-08-09 11:44:50,Niels Lerche Sørensen,Added Material Design Icons to Semantic UI material theme.,False
+90d422942bc7602decfdf7701b6bac5509c6cfa4,2016-08-06 05:21:28,Todd Bracken,[ref #4398] added hover styling to icon group,False
+549e61f35e5b7bf5612ca1df7be7eb72014f82dd,2016-08-04 20:04:45,Jack Lukic,Fix observe changes not working correctly in popup,False
+baed86245f0e8003ff3809257ad11623a3815cd4,2016-08-02 20:14:02,Jack Lukic,Fixes popups in menu not appearing due to css specificity,False
+a41385711fd006f10ee1c44cec569130d9409b32,2016-08-01 19:46:24,Jack Lukic,Rebuild dist,False
+54765808d3943d50a54e6d448c502396156b5ca2,2016-08-01 04:28:42,Jack Lukic,Fixes focus on modal to include tabindex #4370,False
+bd924919d2e471929372dc1eb6fd4e38781c1188,2016-08-01 04:25:42,Jack Lukic,Modal- add setting for keyboard shortcuts,False
+d38e863afe5f35dfede31ec40b0e9c4ac5b7fb70,2016-08-01 04:23:26,Jack Lukic,Fix comments #4125,False
+51993cba533ebcd4fe81ea0c9ae3b250408688fe,2016-08-01 04:16:38,Jack Lukic,Migrates to clean-css #4125,False
+3c934621ba1ee4e35c4e92937f377d783b7f1b66,2016-08-01 04:13:31,Jack Lukic,Rebuild dist,False
+47f06538f323a2f438f2ce39e263fbb1273eae90,2016-08-01 03:48:38,Jack Lukic,Fixes missing :before for television and grab icon #4178,False
+e19abd586b15a76b7722f853a256047e48912374,2016-08-01 03:42:29,Jack Lukic,Fixes dribbble icon #4185,False
+2092e0715016c710a3a49e33779b6fdce9fa96d2,2016-08-01 03:39:53,Jack Lukic,Update jq version #4254,False
+dff3b86dd3d5a7d3f36f089bbd2e0be4cd03a68c,2016-08-01 03:17:47,Jack Lukic,#4305 rlsnotes,False
+7076fbe14fcf1007beeaaaa702e39810a11341e6,2016-08-01 03:17:38,Jack Lukic,#4305 Fixes issue with grid alignment inheritance,False
+33ea63ec9139ffd3cc49ae492aeffd1666f8db63,2016-08-01 03:08:38,Jack Lukic,"Fix dropdown icon spacing, fix issues with selectOnKeydown when using text that includes html (like images)",False
+c3d5a720d3caeaae04bcb76ed1edf9070d97694f,2016-08-01 02:55:39,Jack Lukic,Fixes #4344 select on keydown now highlights partial selections when using search selection matching the first letters of matched result,False
+aa587c63ef05a15082e97576426841c12587b84c,2016-07-31 22:57:04,Jack Lukic,Rlsnotes #4051,False
+377f94bf9530f82a01cc8615439e851c0dc1abfa,2016-07-31 22:55:45,Jack Lukic,"Merge pull request #4051 from AndyR207/next
+
+Update material theme font URLs to be '//' instead of 'http://'",True
+dbafd8d4f1a3eb3fc7c21925ba9b60ac870a0e9d,2016-07-31 22:55:25,Jack Lukic,#4051 - Fixes paths to roboto in material theme,False
+4bea7fdc09770554e2613f82e578adc402bfa7db,2016-07-31 22:52:35,Jack Lukic,"Merge pull request #4107 from Denhai/next
+
+Sets border-radius when vertical buttons have a single child button",True
+0f48652ba8306fe285f76ede1475b9c1de1fa433,2016-07-31 22:52:06,Jack Lukic,#4107 Fixes only one vertical button,False
+d65d2e3775c7d860c22fc9a506706f18f51b649c,2016-07-31 22:49:39,Jack Lukic,Implements #4224 - justified centered grid fix,False
+eb9f043ca8795b4f5ee307524506ade1535f4644,2016-07-31 22:48:31,Jack Lukic,Rlsnotes #4225,False
+52a8b6b4d1ca71e56009066dd7ba2100888f9007,2016-07-31 22:47:53,Jack Lukic,Remove unreachable code #4225,False
+0f6d1617ac4be4276695e51d7995d11e06adcc22,2016-07-31 22:47:10,Jack Lukic,Fixes disabled radios #4366,False
+ca08f335b75af1a71614196577c823e2cf395e14,2016-07-31 22:44:05,Jack Lukic,Fixes uselabels not clearing properly #4366 #4275,False
+ad4e93919d5542119b06a69107a7b2846ef7d1f1,2016-07-31 22:42:05,Jack Lukic,#4354,False
+93f6b5e13243eadb11a4eb57863b630b8680261c,2016-07-31 22:41:21,Jack Lukic,Rlsnotes #4074,False
+50d332e4570aa33d93f1bdf6a1c5bb5c564c5b1c,2016-07-31 22:40:42,Jack Lukic,Rlsnotes #4311,False
+e9407ca4a5101c15a0ca9525c994d0667608ff42,2016-07-31 22:39:51,Jack Lukic,Rlsnotes #4156 4150,False
+6c585827044b1db2c1294c63afdab345df1df925,2016-07-31 22:38:12,Jack Lukic,"Merge pull request #4156 from gdaunton/dropdown-fix
+
+[Dropdown] Fix issue #4150",True
+4d01914783363c90260ee269c789a5d6017e1535,2016-07-31 22:36:28,Jack Lukic,#3313 remove logging,False
+cf4bab4c3723b59726018afd022a172ff9960d54,2016-07-31 22:25:10,Jack Lukic,Adds new value prop to form validation #3313,False
+24d2b34f53a9d600f0f77f9a54eaa4eddb10019f,2016-07-31 21:02:35,Jack Lukic,Fixes #4183 Fixes  not working correctly since  due to incorrect use of new function signature.,False
+821c8d8c38d9e3a89fc48d611b9813d7be9a3a47,2016-07-31 20:51:26,Jack Lukic,"Merge pull request #4074 from coldfire79/next
+
+[Input] ADD the same style for input[type=""file""].",True
+c9de5892e8a7d0d75fc49d8e7a4f971fc7f8ed8e,2016-07-31 20:36:28,Jack Lukic,"Fixes #3998, dropdown icon should not use stopPropagation",False
+f708ba1cf5c5dde69571cd3d6c20022463e965e0,2016-07-31 19:58:37,Jack Lukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+cef9e74d3c35497e0b60637d983d33161c923b94,2016-07-30 01:42:03,Jack Lukic,Fix dropdown labels,False
+0165906e8d4f013c96b5cc73d223cd0b2816b67d,2016-07-28 22:05:51,Jack Lukic,"Merge pull request #4354 from anantoghosh/patch-2
+
+[Icons] Removed duplicated 'talk' icon with incorrect content",True
+fb0b96b44cf954c834bc9b3165911235ef28300b,2016-07-28 20:26:59,anantoghosh,"[Icons] Removed duplicated 'talk' icon with incorrect content
+
+i.icon.talk:before { content: ""\f27a""; } was re-declared in ""Aliases"" section with different content value ""\f075"".
+The alias was overriding the correctly declared talk icon.
+You can look in the docs http://semantic-ui.com/elements/icon.html, the ""Talk"" icon should be same as ""Talk Outline"" (with just the outline of course).",False
+b51b86e2df634100d8fd8668858485d16976f16d,2016-07-28 08:40:25,Jack Lukic,"Merge pull request #4316 from Paklausk/patch-1
+
+[Dropdown] Disconnect.selectObserver bugfix",True
+dde083f70132615b007a80812d64b27ad0982464,2016-07-21 12:27:12,Paulius Urmonas,"[Dropdown] Disconnect.selectObserver bugfix
+
+Dropdown function 'disconnect.selectObserver' trying to disconnect menuObserver instead.",False
+961b4c90680e8d3c1e423fbf9c0fdaf20d1e87af,2016-07-09 02:48:21,Jack Lukic,"#4174, remove path.sep from paths",False
+3f5123783e28b364f8d7866f7d12db0e809f5b27,2016-07-08 04:16:00,Jack Lukic,Build 2.2.2,False
+0a74209b1e62796d76f0ce06aa4f5995f8467dcc,2016-07-08 04:15:11,Jack Lukic,"Finish release notes, fix dimmer",False
+6962b7b859166e49995354e7f48ed3857a4e09c8,2016-07-08 04:12:52,Jack Lukic,Fix cursor on search dropdown,False
+1142a465241d32217528c8935335c2b2ad928c15,2016-07-05 22:33:09,Jack Lukic,Update README.md,False
+4f7a347f222db87a38040ff1db7bf25e91588bd8,2016-07-05 22:32:24,Jack Lukic,Add forum note,False
+4d52d37e0c08cdaf4d81aebc2c5b3cde60e0cadb,2016-07-04 14:51:44,Graveheart,fix(dropdown): display sub menu on the left when if cannot fit screen,False
+2b955e0f81cc134fcc6a3dbb020ad82e012c7c80,2016-06-30 11:50:25,Jack Lukic,#4181 fix issue with jQ 3.0 width calculations causing shape to break,False
+2af76ba5eca91df1e1a2118254a97aecab443afd,2016-06-30 11:34:50,Jack Lukic,Fix #4181,False
+c9bbe21ef704e13b37ee417fe731e2a08814bd42,2016-06-30 11:09:49,Jack Lukic,#4192,False
+46592245406402c956ed7960629bc9f8364a9bf6,2016-06-28 00:28:43,Jack Lukic,Build 2.2.1,False
+79c31082b76c300cd6540b56e3dda7ee68300ceb,2016-06-28 00:28:37,Jack Lukic,Fix selection issue with <select> and userAdditions,False
+a7578b24545c479975bf9bc2996b4c9d57439213,2016-06-27 04:24:11,Jack Lukic,Rlsnotes,False
+ebb1cab098cad4509d8b173bd1d185b7472711f6,2016-06-27 04:15:32,Jack Lukic,Build 2.2 for release,False
+627446512a9f2ac65ee449838b9fb52cd7ee40cd,2016-06-27 04:08:37,Jack Lukic,Build 2.2 for release,False
+7a2886343639f503905649b3e52e9473c51150bd,2016-06-27 04:08:37,Jack Lukic,Build final dist,False
+c4d6033d45bbb12bf86b7f509bc69326971e1e94,2016-06-27 04:08:37,Jack Lukic,Rlsnotes #4144,False
+a39a528e0df504b0894013adb807215d873a172d,2016-06-27 04:06:14,Jack Lukic,"Merge pull request #4136 from OFFLINE-GmbH/master
+
+[Menu] @dividerSize cannot be changed since it is hard coded",True
+ed54e624897ab60b20dc0889b1ec5bdaac90f170,2016-06-27 04:02:40,Jack Lukic,"Merge pull request #4144 from bcroq/compact-form-messages
+
+Fix compact form messages",True
+be95191f8abbbe7f651735d3a76ccdf6b361f2c1,2016-06-27 03:32:32,Jack Lukic,Rlsnotes noodling,False
+39ef156decdf8e1e46034594229cad9af044d9a5,2016-06-27 02:35:13,Jack Lukic,#4167 - Tabular menu now has correct bottom margin in all cases,False
+bbcde4b6cfb23b8a42143711f1b591b2d196bc7f,2016-06-27 02:14:53,Jack Lukic,Fix,False
+5bdde32e424a891cdab18d6a209dbc864101e6b3,2016-06-27 02:12:22,Jack Lukic,Fix rlsnotes,False
+77980c1864abecd50ca2a64eba564c42c136f294,2016-06-27 01:52:44,Jack Lukic,Fix issue with hideAdditions where enter key would not select value when typing rapidly,False
+14af3214854be376d165444707ff0f829dbe4382,2016-06-27 00:58:31,Jack Lukic,Update rlsnotes,False
+dfc0cff5f90135fb97487f034a08dfe67c48429d,2016-06-27 00:58:28,Jack Lukic,More accurate arrow positioning in tooltips,False
+7ba53c302f9cf436a60db8a2ced873484f481b52,2016-06-22 23:00:15,Gareth Daunton,Fixed dropdown menu item not opening upward,False
+31026d4b0e9662d4b9ee73903200f4dd4f6d4a24,2016-06-18 13:56:53,Tobias Kündig,Remove duplicate height definition,False
+6fea79b6698974e755e8cf450f1f9abe137c90bc,2016-06-18 04:02:03,Jack Lukic,Reset some styles in tooltip,False
+4b6595dd9905df72befedf44b6cb920406f7ce29,2016-06-18 02:40:03,Jack Lukic,Fix issue where selection was borked for search inside menu,False
+489588cfd59f3f0a9ba49ea6203a6e48cd80fb2c,2016-06-16 02:14:46,Jack Lukic,"Fix error in dropdown logic with hideAdditions, fix func call missing parens",False
+e1e1a81ab3187ec8ecefd2dc60bc078edf3e7ddc,2016-06-16 01:47:03,Jack Lukic,Removes all references to year from copyright notice (lets save some annoyance every january),False
+90d9eaa6e62a843972a232fe769393c511eef058,2016-06-16 01:45:29,Jack Lukic,"Fixes hideAdditions accidentally on by default, fixes issue with when hideAdditions: true addition not appearing on 2nd edit",False
+7eeeeea54905d81d38f0735840417b27dd485721,2016-06-14 03:56:08,Jack Lukic,"Adds new visibility callbacks, and fixes hidden image",False
+7bd90bb4c4b3c18a9dbf3871032021cd9928570a,2016-06-14 00:44:35,Jack Lukic,Rebuild dist,False
+4f4b6c1d5545a113a1901d857804e9fdd94c8c28,2016-06-14 00:44:09,Jack Lukic,Fix issue with using let,False
+c8fded0f80e9ce583f72ecda5a4385deb66d48e3,2016-06-13 01:41:40,Jack Lukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+589799c11243172dcb14ab036a8e15deb9b60a4a,2016-06-13 01:41:32,Jack Lukic,rebuild dist,False
+50306f8eaf37706d641c8b21be3b786965d7e6bc,2016-06-13 01:32:52,Jack Lukic,Fix tooltip case when no data-position is specified,False
+edda7f888d6457d796b3c06a708355885698eb6f,2016-06-13 01:24:57,Jack Lukic,Rebuild dist,False
+85a69aeafb076b738356d9aeb39ed84ad7e14654,2016-06-13 01:22:56,Jack Lukic,Ok now really,False
+23ebac4cbb10599278ecc00b2a3ea6d4dc1202cd,2016-06-13 01:21:42,Jack Lukic,Finish popup animations on directional tooltips,False
+370cbdb62fad9da561f42255b39629bd4ef2035e,2016-06-13 01:13:27,Jack Lukic,Fix most tooltip animations,False
+9f686384007889805912ff28ecf83102b321b6f6,2016-06-12 23:58:04,Jack Lukic,"#3960, provide hint on hiding error message in msg",False
+2afb4d95d201f40fb7ea77cf5d580f1f82c4fb97,2016-06-12 23:57:23,Jack Lukic,#3932 Fixes compatibility issues with jq 3.0,False
+6093973ec88c9b1917e46a598c4edf4abd4ab897,2016-06-12 23:56:00,Jack Lukic,Finish width/height setting on shape,False
+246aafeec16d731077fa95bfc0325130324702a0,2016-06-12 23:19:09,Jack Lukic,Fix some variables in tooltip,False
+047f66ca2a86759b73ef8d408a1fb91127cabfbd,2016-06-12 23:19:09,Jack Lukic,Add animations to css popups,False
+2ed268a732f5c38f8835b8b34f9a29122a33a7b5,2016-06-12 23:19:09,Jack Lukic,Fix margin when floated content after top attached label,False
+5cd967a3eb302f3386698cc8b700b5f0bd5c62bf,2016-06-09 21:45:19,Jack Lukic,"Merge pull request #4118 from Morrolan/master
+
+Update README.md",True
+75ff933a0bb84f7aa671f223b1e154c18580c8be,2016-06-09 21:10:05,Ian Havelock,"Update README.md
+
+Added Microsoft Edge as supported browser.",False
+4731246f285a2ebcdd8a511111bb62f3f3ac3271,2016-06-07 22:12:35,Gareth Daunton,"Fixed an issue where all child inputs of a icon input would recieve a right padding, not just the main input. This caused issues where a popup was attached to the icon input which caused all of the inputs inside of it to have an uneeded padding.",False
+3fb72fe93f8c4d6d78653b9a5f9ed284112a45fd,2016-06-07 20:40:47,Hayden,sets border-radius when vertical buttons have a single child button,False
+00587e1e523e6d949a831da3252d91993502247d,2016-06-02 07:28:09,Jack Lukic,Fixes vertical text menu includes horizontal padding,False
+a6238f06c110bbe836f80af2f9cec7b8549698f8,2016-06-02 07:28:09,Jack Lukic,Fixes issue where if context is removed visibilty observers will not properly remove events,False
+7481cc3089c9ba64da8a0f160f6ba7132c1d3066,2016-06-01 07:08:19,Michael de Hoog,Merge remote-tracking branch 'upstream/next' into model-closable-fix,True
+200613183c6597682e87c91253b6559099529b79,2016-06-01 01:36:08,Andrew Rylatt,Force HTTPS URLs,False
+29b30aefdee16bb60cd148532344a6575fd56c56,2016-05-31 23:11:34,Jack Lukic,"Merge pull request #4081 from MarcGuay/patch-4
+
+Remove duplicate selector",True
+b5040a4f16fccb0efcb3a2f9074b59551584b3f1,2016-05-31 21:55:02,Marc Guay,Remove duplicate selector,False
+35b515e43e3666d7766970f1741aea031a2bccf6,2016-05-31 21:49:25,Jack Lukic,"Merge pull request #4067 from jsoref/spelling
+
+spelling fixes",True
+bacda6a63e6e27d861fdeb3c375f9f7a98a6edeb,2016-05-27 22:10:07,Joon-Yong Lee,"[Input] ADD the same style for input[type=""file""].
+
+in form validation, type=""file"" is working properly but the style
+doesn't change properly. Because there are missing points. I add css
+selectors for input[type=""file""] in this file so that we can see some
+'error' style for input[type=""file""].",False
+a6e4d7c43e18e3a8f0e82a79f7c9d75612b9b254,2016-05-27 00:25:11,Josh Soref,spelling: women's,False
+0963d6b1b2b2f25195a3966f985d27ef95749825,2016-05-27 00:24:58,Josh Soref,spelling: men's,False
+ca05c38dd38675830cbcec6eaecac4ac9e28f00e,2016-05-27 00:24:05,Josh Soref,spelling: thanks,False
+30ba1b40e318ab40a828eb10ff6830f49bf71032,2016-05-27 00:23:20,Josh Soref,spelling: visibility,False
+4543690a9d3c3529de2a558b86f0c455dc6c04a9,2016-05-27 00:22:07,Josh Soref,spelling: variations,False
+a43c0821abfade3b71201a02b45502c91760d0e3,2016-05-27 00:21:30,Josh Soref,spelling: transition,False
+422777d3de20682e5eba6eecf2db894965009a02,2016-05-27 00:20:46,Josh Soref,spelling: tolerance,False
+20c1f289bea35c4ccee063873ebe533a8107c495,2016-05-27 00:20:11,Josh Soref,spelling: synchronously,False
+8941507b1983a0cf01b4d3132d8b202ab9067531,2016-05-27 00:19:46,Josh Soref,spelling: statistic,False
+635efd7964d3daee93aa1b7bfdc169666d095ef6,2016-05-27 00:19:19,Josh Soref,spelling: specifier,False
+4602cf3c0704d5c6357d5fee2fd53761386ce5e8,2016-05-27 00:18:51,Josh Soref,spelling: shortcuts,False
+4a6826e8bb1b97a775ad80276dedfc5be3a6d938,2016-05-27 00:18:36,Josh Soref,spelling: setting,False
+3ad92468b389726385a3f86e2ef4432c3c935e7b,2016-05-27 00:18:01,Josh Soref,spelling: sequitur,False
+4b230ab85d3a11408aab6183130d4467c8062ac0,2016-05-27 00:17:36,Josh Soref,spelling: search,False
+ac66cd60e9cd3277c9d61c6be4ce3cf8a9aa5cad,2016-05-27 00:16:49,Josh Soref,spelling: rewrite,False
+e982084621d45ccb93a8c91e496523d946d704f1,2016-05-27 00:16:27,Josh Soref,spelling: retrieve,False
+3bb0773d6883c5a459bcca3c53e30a41736407c0,2016-05-27 00:15:49,Josh Soref,spelling: resetting,False
+cf7f51872165ab1f3ed9e138c3d74ce7e37abe1b,2016-05-27 00:15:18,Josh Soref,spelling: receive,False
+d98662f40ce09544593d3546a76b4c2acee3db94,2016-05-27 00:14:59,Josh Soref,spelling: programmatically,False
+ed04eb728a6d5a124cd95dcd9c2bb33f825d7d64,2016-05-27 00:14:47,Josh Soref,spelling: previous,False
+04876253f4ba0cb107b5630f1cbff28a99a6e6bd,2016-05-27 00:14:08,Josh Soref,spelling: permissions,False
+22b1180c98a5035a734b96e1a3db72648db24455,2016-05-27 00:12:55,Josh Soref,spelling: paths,False
+5f18cca855bf812a7c7fc9a1892ee21ab1cf8253,2016-05-27 00:12:26,Josh Soref,spelling: overridden,False
+cf905c211f7b8a0b5ac5a7b5f7c7396c2b2f5350,2016-05-27 00:11:51,Josh Soref,spelling: ordered,False
+f31b64b130fe0314285475659c2960479a17d720,2016-05-27 00:11:11,Josh Soref,spelling: occurring,False
+ca8990df3f440d0f5cb9abc12f081d350707d08d,2016-05-27 00:09:58,Josh Soref,spelling: modifying,False
+e80a048f3c301950f1b2c90401c6e6ee2c64b224,2016-05-27 00:09:18,Josh Soref,spelling: mobile,False
+ea3c4aa832d88e9177bac3284f1d2a33e3c663ec,2016-05-27 00:08:03,Josh Soref,spelling: misspelled,False
+b19725007460f0263ae63c30e9416198165b6fc6,2016-05-27 00:07:14,Josh Soref,spelling: listener,False
+39a7f49559bc686d274d3216dbde20120236d233,2016-05-27 00:06:39,Josh Soref,spelling: length,False
+7728c4820107312d73b49549549acfc33c9d0dfe,2016-05-27 00:05:14,Josh Soref,spelling: initializing,False
+89f0c704ce78d9844630504fd5195d8b265a1de1,2016-05-27 00:05:34,Josh Soref,spelling: initialized,False
+045e73390d47964b574637848d87983533ac085f,2016-05-27 00:04:10,Josh Soref,spelling: horizontal,False
+2b1953420d69e33d18f6adfb29c5e1591d6e2c82,2016-05-27 00:03:15,Josh Soref,spelling: fitted,False
+bb2e6063b1e660ebf2dd2e2ebe0b3be1b21eff23,2016-05-27 00:02:44,Josh Soref,spelling: falsy,False
+b404ae54e5565bc5ea128d6473722a495e4ef026,2016-05-26 23:59:48,Josh Soref,spelling: dribble,False
+9207cacdf9845c64e164670f3fb90c61cb942775,2016-05-26 23:58:21,Josh Soref,spelling: determines,False
+b8e239bd6df427c9661d2dbbbb3e7f13dd20fac3,2016-05-26 23:58:08,Josh Soref,spelling: dependencies,False
+7b2b72a9ba79b66dd2c773115ead24d55f16faf1,2016-05-26 23:57:35,Josh Soref,spelling: contributors,False
+be209c181d5318543605bba0bb4db535a5a427ac,2016-05-26 23:54:35,Josh Soref,spelling: context,False
+3cc452006fd8a446c4d2dde03987812b9b082b56,2016-05-26 23:56:07,Josh Soref,spelling: content,False
+a5efb15f262fb61cfb80e7bd2972ac83ac67a5d4,2016-05-26 23:54:04,Josh Soref,spelling: compatibility,False
+e229ec8ef397212a2ba4e55d35196356f9cb0910,2016-05-26 23:53:14,Josh Soref,spelling: callback,False
+1e67d94fc5729f353d53968bafae85e1b28734a5,2016-05-26 23:51:04,Josh Soref,spelling: bound,False
+ac7c0c23d4b90133e63d27a9fd164e8e64333a7e,2016-05-26 23:52:48,Josh Soref,spelling: bottom,False
+3ce6bfc2a9b1a8f87cf80c248bbd4747234db1b9,2016-05-26 23:45:32,Josh Soref,spelling: beginning,False
+ad47dadb9e305705042810eb7c6c4c4e8ba3b8e6,2016-05-26 23:42:30,Josh Soref,spelling: assigned,False
+dff05ab57b933fa20b21088dd2e891ab19f04cc7,2016-05-26 23:40:09,Josh Soref,spelling: arguments,False
+fb16e8ac7edbcddf1a9be452643973bc21e2d68c,2016-05-26 23:42:14,Josh Soref,spelling: appearance,False
+f34521d7e9471ccd43d28c60330b6b1502f5e913,2016-05-26 20:25:54,Josh Soref,spelling: additional,False
+bafb778c9c4c537b91845e7d5a03b0d1d86a788f,2016-05-26 20:25:39,Josh Soref,spelling: absolutely,False
+035ed33291fd84c7d0f7d75f17963f0257171849,2016-05-26 15:47:28,Bertrand Croq,"Fix compact form messages
+
+Add inline-block to compact form messages so they don't take the full width of their container.
+
+Fixes #3343",False
+49d071444eb3948bbedfbad5ad3f42282b6d2556,2016-05-20 18:31:21,Andrew Rylatt,Update material theme font URLs to be '//' instead of 'http://',False
+cb0c26d8bb4555bf12ab6a37c610657d83273a7f,2016-05-20 10:50:00,Jack Lukic,"Merge pull request #4048 from japgolly/patch-1
+
+Update Font Awesome item in release notes",True
+e2d719047cbfbfa9ad4723174ec3b2b26cb17eda,2016-05-20 10:42:56,David Barri,Update Font Awesome item in release notes,False
+5ab6b1d04fcb2190d77fbbc4bd40b1d6180d4f43,2016-05-18 07:56:50,Jack Lukic,Fix needs docs rlsnotes,False
+be9b3d6abcadc2f89464e18441bc8c10af375926,2016-05-18 07:55:43,Jack Lukic,Format final rlsnotes,False
+250a465263232d89ac540bf3e68b62196ee5e5ae,2016-05-18 07:39:06,Jack Lukic,Removal observer always should use document to teardown,False
+34988c7c4fd7adeb7688eb89829f1469572fb702,2016-05-18 06:58:46,Jack Lukic,Fix possible memory leak in popup/sticky/visibility,False
+b7e317a5de5895b2bac2acb2590e31b7a039c746,2016-05-18 06:50:23,Jack Lukic,Fix popup to use observeChanges instead of autoremove,False
+ad8fb89ec3ae21b59a474e57d72115f7d65b260c,2016-05-16 06:04:45,Jack Lukic,Visibility type: fixed now properly tears down on destroy #3548,False
+a0c854269bfaee27ac4c1a3cb442cd0d40770e7b,2016-05-16 03:21:20,Jack Lukic,#2534 - rlsnotes wrong,False
+5946f9e1803343dbcbaac1b582bafaf086dac925,2016-05-16 03:18:19,Jack Lukic,Rebuild dist,False
+7901e04409b845171027de99d499e06ef2dd947f,2016-05-16 03:16:16,Jack Lukic,#2534 preserve original behavior,False
+1b87763a747e409e86591e6d8c4eeeb2aa4c0b8b,2016-05-16 03:15:05,Jack Lukic,RLSnotes #2534,False
+6b5c383dabfda853e6862a59a5b4edf9dda1c01e,2016-05-16 03:14:07,Jack Lukic,"#2534 - Add cacheType setting, response or html. Response caches original response so that execution occurs in same way each load. HTML caches final html content after callbacks",False
+7140349bdf39a01955c1d6265a3a84bdda1f4fd4,2016-05-16 02:32:52,Jack Lukic,Adds primary/secondary/positive/negative basic variations #3756,False
+05652ab7cdaf937ce5aaecdaabdf898ab4b78dff,2016-05-16 02:17:24,Jack Lukic,Fix destroy never being called before init #3798,False
+b1fa7e21951b7b49a92ed50f9b89e5241b25996d,2016-05-16 02:08:54,Jack Lukic,Fixes outlined star being difficult to see #3730,False
+0b11360752c3176bf0e9f1a7432cc566cb507798,2016-05-16 02:00:20,Jack Lukic,Fix @yordis,False
+fc518a3e34f4b71c6ef0be5e843cecc12eb33988,2016-05-16 01:37:08,Jack Lukic,"Adds raised card varaition, darkens floating shadow slightly",False
+a514d0ae0f76242b920940933678a45db126d49b,2016-05-16 01:29:26,Jack Lukic,Combine rules #2955,False
+0649411163b9546a04561d67121eec8b7cecdc6e,2016-05-16 01:29:04,Jack Lukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+cd9007e2ecf3d1b9f99be59a8174332ddd85fc29,2016-05-16 01:28:06,Jack Lukic,"Merge pull request #2955 from yordis/added-raised-card
+
+[Card] Added raised style",True
+2c44d667aa4151fdd719c4595a7666f5eb6b0d87,2016-05-16 01:25:35,Jack Lukic,Rlsnotes and condense logic further #3085,False
+f87ae3d6f61ad6850a017fade0ddd6c6f8792256,2016-05-16 01:22:19,Jack Lukic,Match formatting #3085,False
+cd6388531b8ac42d99cb9c48c0062f840b99adfa,2016-05-16 01:20:43,Jack Lukic,"Merge pull request #3994 from ShawnCholeva/ShawnCholeva-dropdown-exact-search
+
+[Dropdown] Add exact search - #3085",True
+8755da70cfda8d64c41de38e7a3d31096913d03b,2016-05-16 01:20:23,Jack Lukic,No really final positioning for loading dropdown,False
+50b898910099d0bf0a23e051f1178dbf06c1881c,2016-05-16 01:19:36,Jack Lukic,Fix positioning,False
+2b2187c415d34ce586663fab1fe9455cfa171003,2016-05-16 01:10:45,Jack Lukic,Fix loading dropdown spinner position,True
+ca5f89551b2b2e904f94c5d1e93589b52ebf4744,2016-05-07 04:35:29,Todd Bracken,[ref #4004] added inline fields to inverted form styling,False
+fbc56571ad19cb329ae59a4da986378a888ba5c1,2016-05-06 05:48:01,Jack Lukic,"Update visibility component to have callbacks onFixed,onUnfixed",False
+c9e4d83e5fe5195ed65aa429561272dba5cb4d3c,2016-05-03 23:25:44,Jack Lukic,Fixes delimiter no longer working,False
+82309fef0e6daa9432b638a43939e0e1e69578ff,2016-05-03 23:16:09,Jack Lukic,Rlsnotes,False
+e54566b8de59a6f4a84b91465a584faee237004e,2016-05-03 23:15:02,Jack Lukic,Revert api change,False
+4db2dd5ba671f8420e53ecd352d8bbac5de9c86a,2016-05-03 23:14:58,Jack Lukic,"Form fields (grouped field) now use negative margins like columns, this prevents middle rows in even sized fields being slightly smaller than other rows",False
+3e6a37ffd7033e681fd0b9a0be61e8b7d6551193,2016-05-03 21:58:58,Shawn Choleva,feat(dropdown) add exact search - #3085,False
+b6002f61621966018dd73f917c4efb58d7602768,2016-05-03 06:36:24,Jack Lukic,rlsnotes,False
+a977c331ea7c03947e807a7cfb1288c5d58fbbca,2016-05-03 06:34:35,Jack Lukic,API now passes response to error handler when successTest fails,False
+cf550fc28e77c7f35710f76b364f1ef8c1406c7f,2016-05-03 06:34:35,Jack Lukic,Add width setting,False
+2249b4ee4f183d542014be88e4844eee375e73a6,2016-05-02 03:55:48,Jack Lukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True
+4e0e576b253d0fa0f973ed06ac088d9c5bab7832,2016-05-02 03:55:42,Jack Lukic,Rebuild dist,False
+970dffbb68ee4bd2814ad37782d12bdedaf30f43,2016-05-02 00:00:01,Jack Lukic,#3370 default to 10,False
+a4ef53777ca434c1e018c56395424cea1132965a,2016-05-01 23:59:40,Jack Lukic,Adds #3370 zIndex with type fixed visibility api,False
+b75d5f44e348724fbdf7fc8a7d697fb68cb6605e,2016-05-01 23:53:13,Jack Lukic,Finish #3529 dependent fields,False
+313cfe8e3372216c29300687cd89ca8db3029bc2,2016-05-01 23:34:29,Jack Lukic,Adds first pass depends field #3529,False
+58168755d70491de1f74ac9bcc3e2603055346b2,2016-05-01 23:30:35,Jack Lukic,#3200 remove debug,False
+764e7905dee8d54ef2f4be4fb266d7cac70c2cac,2016-05-01 23:29:45,Jack Lukic,Fixes event namespace issues with modal/dimmer #3200,False
+bad25f14bd602828ac7dc5cd45b9d7d9a122658c,2016-05-01 23:17:54,Jack Lukic,"Merge pull request #3492 from sadorlovsky/next
+
+Add a style option",True
+7f7c4c3b046ee32b57322c7a8674020a1dfe2411,2016-04-30 08:51:53,Jack Lukic,"Merge pull request #3978 from crookedneighbor/fix_readme_button_link
+
+Correct ProjectTalk Button link in Readme on NPM",True
+5570a1f8a9c02e354fd23ef7a69dbdef028deca4,2016-04-30 07:13:55,Blade Barringer,fix: Correct ProjectTalk link,False
+4a8eef36deedfafec3f488f93666ad9531ca2a79,2016-04-13 07:01:05,Jack Lukic,#3886 fix default,False
+544b20565ff68a634fd6af19be8babb92d1bd13d,2016-04-13 06:50:59,Jack Lukic,Add #3886 min characters for dropdown,False
+db79dede36fe98a407cf6189feb5afa88185a82f,2016-04-13 06:31:33,Jack Lukic,Build dist for demo,False
+42dd3c771b46ac4a045a65aff51e1b1f599b1619,2016-04-13 06:24:16,Jack Lukic,Fixes use of document.contain (borked in IE11),False
+13b8aaf8ce8a131207d48dcf6c88a00eb8491e1b,2016-04-13 06:20:13,Jack Lukic,Fixes issue with disabled input getting :active styles #3907,False
+2ebcc2673444d371a3fa32e6ada1e0faf44d0236,2016-04-13 06:16:25,Jack Lukic,Fix issue where refocusing search (to preserve position) could retrigger events,False
+5a610c35f388af0000dcec488f47c901197dc93c,2016-04-13 05:31:22,Jack Lukic,"Fix issue with APIsettings not behaving correctly when restoring a value without session data, fixed some instances where empty message could appear with results when removing multiselect choice. Fixed forceSelection to work consistently with multiselect",False
+ae2373feab78e5c1cf4a09f50919cb43d6f74119,2016-04-13 05:31:22,Jack Lukic,Fix icon header content padding in some cases,False
+68b007461a257d301b6c606992c3bbec451451f4,2016-04-05 04:46:55,Jack Lukic,Finishes showNoResults setting,False
+aea6ae8393fe34845d5f16aa781f2c793fc92f6b,2016-04-05 04:07:50,Jack Lukic,"Fix disabled checkbox override, wrap on search",False
+f69995d8c0116015854845adc26abfa88ec65996,2016-04-02 03:05:35,Jack Lukic,Fix 1px offset on search selection input,False
+e44d6e88f66f1d85b48f1bee21c6de75a46013a9,2016-04-02 02:53:14,Jack Lukic,Demo,False
+f38237d6f8d03bbfae26c1056b23aae99da24c00,2016-04-02 02:50:45,Jack Lukic,Fix quote encoding in dropdown,False
+a7cab11bba882aeb37c3f7b46a70d4e08a4304e1,2016-04-02 02:36:38,Jack Lukic,Fix multi dropdown icon spacing,False
+9528c1764f9551ac97a3ad44b662086b53c4fcbe,2016-04-02 02:01:18,Jack Lukic,Remove console.log,False
+d9247de8600ed93b1cc66c75413035845ec115c5,2016-04-02 01:54:01,Jack Lukic,#3724 fix concat css to not mess with paths replaced with regexp,False
+94f9ced66e9713b998d853732eae27080f687e10,2016-04-02 01:32:16,Jack Lukic,Fix version,False
+10a3ba6ed994df9949f1dfbef9f6849c4fc41746,2016-04-02 01:25:28,Jack Lukic,Rebuild dist files for demo #3724,False
+b155731ec6859b3215893b7a4bb03f2e652cf597,2016-04-01 22:47:30,Jack Lukic,Fixes #3887 issue with clicking element removed from DOM inside popup,False
+0c3c41038c55d9cdb9fd1a114387ae6b63ba8a40,2016-04-01 21:46:30,Jack Lukic,"#3724, fix relative paths to be prefixed with ./",False
+22fc88442ef2637b6016250bec1cd8dfbcf191b6,2016-04-01 21:37:00,Jack Lukic,"Fix input spacing rule on dropdown, add colored box shadows, add border colors to message",False
+9faacf4402bfc4fc513cda10faeefd5fc972074c,2016-04-01 21:22:50,Jack Lukic,Add sizing to menu,False
+cc891bd5af2382b1cc639e9d23ce115519abd922,2016-04-01 21:14:54,Jack Lukic,"Add sizing to form, fix link icon style",False
+285aeec1e169c38f989247d4b42bccf3377be4c2,2016-04-01 20:45:27,Jack Lukic,Finish loader sizing,False
+41cb7095855fbb74cd662c8187fe5dd4938e1137,2016-04-01 20:37:02,Jack Lukic,Fix attached step spacing,False
+675844d8dc2a9667c3e6ebe0024bc48f7c8d4004,2016-04-01 20:18:10,Jack Lukic,"Add all sizing variations to loader, rail, segment, step",False
+fc8d3efdc6cf6b2a0ad48eea96ea34ab24d3297b,2016-04-01 20:06:27,Jack Lukic,"Fix issue with dropdown menu not opening after select due to preserving focus, fix issue with one segment inside segments group",False
+042c1c35c144ef147eb01665d959de51d5095517,2016-03-30 08:14:06,Jack Lukic,"Merge pull request #3871 from nesk/internet-explorer-support
+
+Set Internet Explorer support to 11+",True
+ff7824f396a7f6fbc33f76c4816c420157dfbbec,2016-03-30 04:11:49,Jack Lukic,Fix issue with refocusing menu,False
+8c50ab24c24e90b11697072bbc63d996f84aefa7,2016-03-30 04:10:42,Jack Lukic,"Refix #3855 to fix scoping, allow for 'global' var without polluting global namespace",False
+4292ab5aa1411ae016f879c469322cc72629eb08,2016-03-29 07:57:20,Jack Lukic,Allows modules to work in environment with global other than window #3855,False
+b0ca6625c8ca396d09114b8eb89876cb21c26a88,2016-03-29 07:39:52,Jack Lukic,Fix variable addition for close/very close rail #3835,False
+7333ca80446159c01eb8ca8de1224e63c026de24,2016-03-29 07:36:26,Jack Lukic,Fixes #3858 issue with gulp rtl tasks,False
+4426f5c861850c29b14f3a5c38ebf1754928125f,2016-03-29 07:28:09,Jack Lukic,#3873- Fixes typo in green inverted button,False
+d7b3c45db458938a4de16b91a57cc60e17ba358a,2016-03-29 07:27:09,Jack Lukic,Merge branch 'next' of github.com:Semantic-Org/Semantic-UI into next,True
+0ffa8f96d911ac3c7fb5b017036a31f0c7ba7800,2016-03-29 07:27:01,Jack Lukic,Fixes secondary inverted style,False
+6f31ccb2791f764a12198183d59760e0cd7b96df,2016-03-29 07:26:55,Jack Lukic,Fixes to progress callbacks,False
+61e805078c6e0a901d36cce6e1f7782924168b82,2016-03-25 20:29:32,Johann Pardanaud,Set Internet Explorer support to 11+,False
+f23ddc89a08349a7e4a1649f4a0473610421c612,2016-03-25 11:49:42,Jack Lukic,"Merge pull request #3862 from iamolivinius/master
+
+Bake 'easeOutQuad' easing function into nag module.",True
+0b2552b41e39e9135faff8dd5579aa131004b5de,2016-03-24 22:32:13,Jack Lukic,"Merge pull request #3867 from samuelwight/master
+
+Fixed punctuation and flow",True
+f43b27026c00ef2abce22b78fcc2e837399a0f10,2016-03-24 21:41:04,samuelwight,"Fixed punctuation and flow
+
+Fixed a few punctuation errors and edited a sentence to make it flow better.",False
+e9d6b71dd9fa5eb06dd6742a1c1318cbc5ae58c8,2016-03-23 17:17:13,Oliver Hoffmann,Bake 'easeOutQuad' easing function into nag module.,False
+853f1c986a3c9c204c6c5f7528dd2d5429387bb8,2016-03-18 21:40:50,Jack Lukic,"Merge pull request #3829 from enbo/patch-2
+
+Fix typo",True
+42e41c2699691ff59c148a41a326a9b874a0f08e,2016-03-18 21:28:18,Jack Lukic,Update CONTRIBUTING.md,False
+5c06a427ec39ec635fc11a471e2b9b7dff523732,2016-03-18 21:27:47,Jack Lukic,Update CONTRIBUTING.md,False
+93b63c39fe1a17aa78636b7da5e34293f3043c4c,2016-03-18 21:26:36,Jack Lukic,Update CONTRIBUTING.md,False
+ea95a2b1c26c09c480461249d20850bd2aee1ea8,2016-03-18 21:23:24,Jack Lukic,Update CONTRIBUTING.md,False
+0c39b5cd3b6ed35b7d314b9b43d6ec0b33b39690,2016-03-15 01:03:01,enbo,"Fix typo
+
+should be 'bordered' not 'bordeblack'
+
+probably an issue with find and replacing the term 'red'",False
+9afb898fce6ef6b96c5572ce881d68d240b080e4,2016-03-11 23:25:53,Jack Lukic,Update RELEASE-NOTES.md,False
+d3586630ace56b256a23472a6ad1cea3cf4ad9f0,2016-03-11 23:25:30,Jack Lukic,Update RELEASE-NOTES.md,False
+ddba1eabbfdb0bf465898797ce6defb7f427974f,2016-03-11 04:55:10,Jack Lukic,"Adds autoRemove option for popup, removing it immediately if its triggering element is destroyed",False
+169ade8c9be8ce8b0262816a6ce20f8fd0580d76,2016-03-07 22:46:48,Jack Lukic,Rlsnotes,False
+6f344a5cc392b2c8447b4ccb280399a34bede3df,2016-03-07 22:42:48,Jack Lukic,"Add hideAdditions option, fix multiselect behavior #3791",False
+1b3063643cf51ad2d90d446a9bd0fac6cbdc8e50,2016-03-07 11:06:01,Jack Lukic,Fix #2933 - Disabled button does not remove pointer events when loading,False
+acf3cc5a4fca56a7ada4d4c08907cba02b98297e,2016-03-07 11:05:49,Jack Lukic,Fix progress to use update interval,False
+af06c7a93046f93f2237809ab86cb18a0d8d7430,2016-03-07 10:40:11,Jack Lukic,Fixes bug with normalize value returning 100 when total is > 100,False
+6ee12b22605db059755aa14a7cdcfc1ed009d911,2016-03-07 10:02:55,Jack Lukic,API now adds real AJAXsettings to debug,False
+7308c1173495f3c84fa461bca486244c0fbcdd33,2016-03-07 10:02:43,Jack Lukic,Adds is complete method,False
+9c69cb3685196834d2da30c9a297246f1245e2f8,2016-03-07 09:30:32,Jack Lukic,"Add cursor spacing, fix #3790 issue with search losing focus on selection",False
+f8909323d01f114f04b5c199a6643f8cc8d88b6e,2016-03-07 09:16:47,Jack Lukic,Fixes #3790 - Multi select loses focus on item click,False
+ccb1c7fde48e500edfef57282a92166d1dac5b1b,2016-03-07 09:08:37,Jack Lukic,#3779 - Fixes issue where dropdown with user addition would keep input after selecting a choice,False
+2e5ad7c71c6d879a5b55d9efe840856f3b698c17,2016-03-07 08:54:17,Jack Lukic,#3789 - Fix issue with label click making menu appeaR,False
+00350a881c1aca58bc94e653b4ff2d94c3daca02,2016-03-07 08:45:42,Jack Lukic,Fix #3781 - Variable not being used correctly in menu,False
+c4be1cb694a31130f680f796006ba1c5ced595c6,2016-03-07 08:44:27,Jack Lukic,#3766 - Fixes issue with get value not returning proper value,False
+61e6d133c8251f5eeae5f4eac1cfd53b88318704,2016-03-07 08:26:38,Jack Lukic,Fix logic snafoo in API #3770,False
+79b9557070a9b97c0cb950dea59e90f55254b9ef,2016-03-07 08:24:46,Jack Lukic,#3788 Fixes issue with search selection closing and reopening immediately,False
+fc29e682efc5c12ee59a772d7a0b9e1ad1e279c3,2016-03-07 08:03:55,Jack Lukic,Add restore placeholder text,False
+465358bb789643964b35f79f9b97b3578f8081d3,2016-03-07 07:37:40,Jack Lukic,Make casing consistent #3774,False
+ccfb0cda1053beeb0c7a7d08ed405a15cd8926bd,2016-03-07 07:36:39,Jack Lukic,Cleans up SVG logic #3774,False
+6552df01c835ff248856956cae7a614e5f23902d,2016-03-07 07:32:51,Jack Lukic,Fix rem sizing on icon #3782,False
+e9aca44c50ee057268c8fa45d69e7e280c11d545,2016-02-29 05:47:21,jlukic,"Fixes #3606, field revalidation would cause whole form to be revalidated",False
+1b341b2e99fdcdbb3eaee0c25a573bece2d80c94,2016-02-29 05:35:38,jlukic,Re-enable normal debug for search,False
+f913a97a90cadf78e3ce1686ea725550bd1e70a7,2016-02-29 00:47:00,Jack Lukic,#2779 - remove redundancy,False
+803b8948a8be758acd697ada499ae1a42006e6c4,2016-02-29 00:45:07,Jack Lukic,"Fixes issue #2779 - Search component uses 'settings', instead of init. Causing Callbacks to be set on LAST request on new request",False
+a40e5c64689e720a60a68a42570da9c80b66b9bc,2016-02-28 23:35:47,Jack Lukic,#3596 rlsnotes,False
+8e485954fdd5442cd975119c71d4a72f11bb7189,2016-02-28 23:35:37,Jack Lukic,Fixes issue with left keyboard arrow shortcut in dropdown #3596,False
+0fa338409c74078c936bb77e27ad454df1417605,2016-02-28 23:23:57,Jack Lukic,"Fixes #3653, refactors several lines to use expectsJSON",False
+3328e0837a6523e3f0ea794451100303c98469c6,2016-02-28 03:28:49,Jack Lukic,Fix issue with progress when current value exceeds total,False
+ff9974102f0344e2696e42f6f5419e0b2029f714,2016-02-28 01:26:59,Jack Lukic,#3116 - Fixes issue with inheritance of statistic font size in groups,False
+4879fe482b12212de46848fb9f1e022090681c01,2016-02-28 01:20:15,Jack Lukic,#3703- Fixes issue with dropdowns/buttons on the left side of a ui input when using 'action input,False
+3c91340b8c0b35f13f2cf8a9ef4e2d4ef33276c0,2016-02-28 01:16:33,Jack Lukic,Fixes #3705 - Issue with normalize.css reset resetting some elements to content-box box sizing,False
+8ef074b0423f272b0c45b07c6fbb0fcad6a50c65,2016-02-28 01:13:49,Jack Lukic,Fixes issue with bulleted list appearing as link color when list item is a link,False
+fe2d3efe2089ffa52337a5a617ea1bd30081baa4,2016-02-28 00:58:51,Jack Lukic,#3311 - Fixes talk aliases,False
+27dc1c79aa5e063ca345613aa998ba7faa2b65c0,2016-02-28 00:50:06,Jack Lukic,3311 - Modifies several aliases,False
+d10384137ce5768f85096b8f754299f7f77654d9,2016-02-28 00:36:41,Jack Lukic,#3311 - Adds better organization for mobile/pc/filesystem icons,False
+8a3a52eeafe11de0872ad5afc53337607e7e721e,2016-02-28 00:04:57,Jack Lukic,#3311 battery alises,False
+479f4b21daff6b3b9d5e0854c51c269e7f10e54e,2016-02-27 23:47:52,Jack Lukic,Fix issue with css selector starting with number (invalid) #3311,False
+4ae227e38f63387a8941a3d942cb84f85f326f12,2016-02-27 23:45:30,Jack Lukic,Rlsnotes,False
+0b6ee0316e10b73d603f628826d6f9452450975e,2016-02-27 23:45:13,Jack Lukic,"Merge pull request #3311 from BreadMaker/FontAwesome-4.4
+
+[Icons] Upgrading to FontAwesome v4.5.0",True
+0165f904180bba398114e63a21ca1cbdeb078634,2016-02-19 01:10:27,Tema Smirnov,Fix #3439 - Now steps can be .unstackable,False
+6cf54bc12d634d050b1d5a22779ba764452d9179,2016-02-14 11:40:19,Jack Lukic,Update README.md,False
+157479ba55803ba978b276df24188df5ea5a9e08,2016-02-14 11:39:52,Jack Lukic,Update README.md,False
+bb0b2ec82b099126818cdb919e755985ee64ab86,2016-02-14 00:45:57,Jack Lukic,"Merge pull request #3693 from Nafio/non-developer-readme-contribution
+
+Non developer readme contribution",True
+9ff2d1265eb41014c3ec2fa9f88496ea3fdf5d89,2016-02-13 11:27:20,Jack Lukic,Update README.md,False
+f788b790125f5f04b852b94b37a83e2202570632,2016-02-12 19:28:36,Nafio Nabi,"Merge pull request #1 from andrewatts85/patch-1
+
+Update README.md",True
+f6675c37851f42907a9b045b257a3312de0024c8,2016-02-12 12:20:11,Andre Watts,Update README.md,False
+aa9aab40eb5942e76bbb9d0b32c391e1a0e9fd1c,2016-02-09 21:54:55,Nafio Nabi,Update README.md,False
+b0a22870edc3959c0bb862366de1b58bfe266d81,2016-02-09 21:40:38,Nafio Nabi,Update README.md,False
+047a756f72eff96d41fdcf7639566cbe74fe08c3,2016-02-09 21:35:49,Nafio Nabi,Update README.md,False
+45110bb65a264f96d065a4fe16546cfdd6ce385f,2016-02-09 21:30:04,Nafio Nabi,Update README.md,False
+3d37397f6246cb3951699a214b660887b5428a1c,2016-02-09 21:28:08,Nafio Nabi,Update README.md,False
+00a5b1070624df08d0dfdce36c102bb8365f5812,2016-02-09 21:27:21,Nafio Nabi,Update README.md,False
+04a3c48a0dd3bd9b440b59036004409239a6db16,2016-01-08 10:15:47,jlukic,Add peer deps #3511,False
+118bf897ae84630ee390e97fc7279b7eb6c7b629,2016-01-08 10:13:48,jlukic,Final 2.1.8,False
+ee3fe514070cf5d23c6a40bda042664d6f8128f6,2016-01-08 10:13:01,jlukic,Build 2.1.8,False
+011840d036f8191aa4fab5ae3455772608c4eead,2016-01-08 10:12:10,jlukic,Update release notes,False
+2b4b6eee815c855bbb0613bc83ecab7948bbebdf,2016-01-08 09:58:39,jlukic,Merge branch 'master' of github.com:Semantic-Org/Semantic-UI into next,True

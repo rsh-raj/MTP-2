@@ -1,0 +1,2255 @@
+Hash,Date,Author,Message,IsMerge
+a4b5b603568b1e04cced057d68ada62be9f6fc00,2025-02-07 05:47:21,Harris Miller,update _filterMap to use lower-level code to match ramda stanards (#3508),False
+bf705db27e419a4d1a0cc33e814b3655470b1ca3,2025-02-02 00:30:41,Dave Tapley,Add filter for Maps (#3497) (#3507),False
+fdf8722d6cde38c4f8f85cc557100f83f431fd81,2025-01-09 01:21:08,Joseph Adams,Remove references to R.merge in documentation for other merge functions. (#3505),False
+be4a5f614e9e7650d45b0d4b2a5e11bc95a93a24,2024-11-26 01:06:26,Owl's Insight,Update count function comment with clearer parameter descriptions (#3499),False
+852e252041fbbd8e341d0d3dc7749c2b5bd692a7,2024-11-20 21:16:38,Owl's Insight,Change return type comment in count function (#3496),False
+173ceba9ab89a28428b4794594dc436b993a932b,2024-08-18 20:47:51,Toni Leigh Sharpe,"3438 (docs details) (#3482)
+
+* fix 3438 refer to pipeWith from andThen docs with egs",False
+b40523e492ca15ca04d18cd5f477d3de3339aae1,2024-08-09 20:32:22,Sarun Rattanasiri,remove arrow function usages in partialObject.js (#3484),False
+6e8b68ff35ad995c9576f88fc574d8715b21590a,2024-08-07 20:09:06,Harris Miller,"R.empty() support for Map and Set (#3481)
+
+* support Map and Set in empty with instanceof",False
+c1bb88aea3b132cd69819ad29d1f54b9ec62ad8b,2024-07-16 21:58:02,Harris Miller,"fix(lensPath) works with negative indexes (#3479)
+
+ * assoc/assocPath set negative indexes starting from the end, matching the behavior of nth()
+ * fixes dependent functions eg lensPath",False
+9f2bf8f1b6ed0fd611d5fd4680ff729897cc5376,2024-07-15 11:56:44,Kevin Wallace,move dist build from npm build to publish script (#3480),False
+5d50bde574bfa027be70029e0d76bdf869f3f25b,2024-06-26 21:34:41,Ivan Shalin,"Make nth head last behavior consistent for arrays and strings (#3477)
+
+Co-authored-by: Ivan Shalin <ivan.shalin@nordigy.ru>",False
+0be4573a2e9d66ae9088ca2c0472428952cc98a3,2024-06-19 22:32:25,Harris Miller,update docs to represent correctly supported types (#3474),False
+980b3bf7712adb8ad8b5d9b2c6aca525cb3cf143,2024-06-03 03:14:13,kedashoe,Version 0.30.1,False
+de700e25e5c655f0337b81ff00239bbf3f8fc9f2,2024-05-24 20:22:20,Nicolas DUBIEN,"chore: Bump fast-check to version 3 (#3301)
+
+The version 3 of fast-check added something very interesting for libraries such as ramda: it can more likely produce values such as `__proto__` or `toString` which are known sources for CVE.
+
+On fast-check's side, I also worked on some tooling making poisoning related issues even simpler to detect with an automatic detection for poisoning on globals. I successfully found back several past CVEs of lodash thanks to it.",False
+c7660837a18ce1d1581ed7ec4edc07acd1c5709e,2024-05-14 11:40:45,Sebastian Bayer,Add ascendNatural and descendNatural functions (#3442),False
+322540047fb497d3050326b21c513c737c1dded0,2024-05-07 20:20:33,Harris Miller,Fix: cross-version placeholder support (#3463),False
+c2a4b953141869dd0d2b716a3d3a752056672904,2024-05-04 21:10:47,Kevin Wallace,fix coverage bot so it updates initial coverage post (#3466),False
+6d83500de41f8bc4e84d38ebf8ae6e2c3df0de20,2024-05-02 20:21:29,Harris Miller,Chore: make Flow jsdoc example runnable in the repl (#3462),False
+dcaac736c4f70f806bb0b1ba87e77be903a119fe,2024-05-02 20:19:34,Harris Miller,"JSDoc:  update `head()`, `last()`, and `nth()` to reflect actual behavior (#3459)",False
+ad5073450813b39b850e180254ec2b37a699d74e,2024-04-30 04:53:51,Kevin Wallace,update license for 2024 (#3454),False
+c06a94e6253763787a7f434320e3cb70c4b7bb6d,2024-04-28 06:10:08,kedashoe,Version 0.30.0,False
+84e04c1e61a46d7d60918add29ff864d9d6447ca,2024-04-18 10:43:21,Matthias Seemann,adds flow serial function application (#3441),False
+3f9eea09be8524e93ed2ae1671a052993c05c516,2024-04-03 20:36:52,Anna Bocharova,"JSDoc: `type()` can return `BigInt` (#3447)
+
+Due to https://github.com/ramda/types/pull/116#issuecomment-2030996327",False
+6e4ee0f72c6bfeffc9543a95eaa53d134fba9d2e,2024-03-24 10:53:41,Emmanuel RICHE,fix: splitWhenever jsdoc (#3446),False
+fd55a1a0d82eb8e45e2974c2c9a70525d7b6ef42,2024-01-06 21:38:52,bion howard,"Improve jsdoc grammar in unwind.js (#3437)
+
+Fixes ""should be unwind"" and clarifies the rest..",False
+e02ae048797cae4717da5545495f291ecfa5ab3a,2024-01-03 11:18:52,Kuba Juszczyk,perf: use === for placeholder test (#3388),False
+96d601016b562e887e15efd894ec401672f73757,2023-12-10 01:45:23,Kevin Wallace,only include summary in coverage comment on PRs (#3434),False
+02d610e91b9ddf14301716f7a7fc2a79a342fd0a,2023-12-06 21:15:37,Alexander Berndt,replaced let and const with var in _clone.js for consistency (#3432),False
+74cfca7122329f4c6472da1411dc2964e36232f3,2023-12-05 03:27:10,Kevin Wallace,do not depend on code climate for coverage report (#3431),False
+246fbacab05ecc1840266432a2608ae45a81b1bd,2023-11-22 00:31:18,Harris Miller,Add isNotEmpty (#3430),False
+ddd973612cdd0baab6b51a1766973c583ec6c750,2023-11-18 12:48:12,Harris Miller,Perf: Update known array lengths (#3370),False
+4261fb119e17438b991c7a179245f96c13507041,2023-11-16 21:48:36,Ridge Kimani,chore: update sanctuary (#3422),False
+73789d6b3f1330cc6a39cedbea718b17323c4b28,2023-11-15 11:58:30,Ridge Kimani,"chore: update vulnerable dependencies (#3420)
+
+* chore: update vulnerable dependencies
+
+---------
+
+Co-authored-by: Ridge Kimani <ridgekimani@gmail.com>",False
+2bcbc933560e6ca63b32015ca6f8cff7d2ec7c2e,2023-11-03 10:41:28,Alexander Berndt,Optimize R.path and dependents (#3417),False
+003668f2fcd3665be84cd1921875961f31fd135e,2023-10-05 10:48:06,Kevin Wallace,update readme/package-lock versions (#3414),False
+acbf91af8a3b39e22d3a1f24d068356891797851,2023-10-05 10:13:38,kedashoe,Version 0.29.1,False
+677bff4db0650ba8a01854ac2d050f465ec2975b,2023-09-22 21:25:20,manyuemeiquqi,"fix: _curryN receive enough args (#3410)
+
+* fix: _curryN should not call curried function until all arguments are received and no placeholders are passed in",False
+2df3b95287dee52ad2c2f365a3e872ecc979ff4b,2023-08-26 20:26:38,Kevin Wallace,remove broken link to bitsrc in readme (#3402),False
+e07a0d5c52e8d137a92db4a4ab8ccc1a6b7c1732,2023-08-24 22:42:34,Gonzalo Leguizamon,"fix: modify curry doc (#3398)
+
+* fix: modify curry doc",False
+de77106af0bd7ff6696fc201bdfd5280ac8f4c64,2023-08-24 22:41:30,Artem Laboskin,fix: add sideEffects flag for es package.json (#3399),False
+165d2ae662e6ce31cb4a56e22bbc8ee06eb32bcf,2023-07-28 09:52:45,xhangjun,fix: make swap work when swapped items are arrays (#3394),False
+6dd4ac95f9e1ca5597188e12b5b7df9f50de4693,2023-07-18 20:16:57,Harris Miller,add AsyncFunction example (#3391),False
+9c2310c6854727c299391e4c91098c402401840c,2023-05-16 20:03:18,Chris Hammock,version es dist folder (#3382),False
+241f81126cefe87147120b09ab4090c0ca89b244,2023-04-25 20:07:34,JuanGalilea,ramda#3340: support empty path in modifyPath (#3376),False
+de5803d77e9bb1b19cacfc4bc131eb341f996c97,2023-04-16 00:32:12,sacrosanctic,update docs for propEq (#3373),False
+7ed79b4dd21e31271038d22e8533ef154a182cbc,2023-04-05 21:51:55,Fred Daoud,Fix for #3367: Documentation errors in R.swap examples (#3368),False
+d67552d3977f362f44825b4836ba46f23e8a6f37,2023-04-04 10:03:32,Kevin Wallace,update license year (#3366),False
+afe98b03c322fc4d22742869799c9f2796c79744,2023-04-03 04:16:48,Kevin Wallace,Version 0.29.0,False
+cb73de992692342790c91b798757c188d2122b62,2023-03-30 23:36:27,Matthias Seemann,"Make traverse and sequence Fantasy-Land compliant (#3360)
+
+* change the sequence and traverse implementations to operate on FantasyLand-standard applicatives",False
+171b34e9d3b38111bf3d909bf2f0e1467c6a5053,2022-08-16 22:22:51,Ivan Milosavljevic,"Replace ""the the"" -> ""the"" (#3291)",False
+50c6b57110b2f3631ed8633141f12012b7768d85,2022-04-28 00:47:27,Zhang Yidong,"extract Just related duplicated code (#3276)
+
+* Use Maybe.Just and Maybe.Nothing instead
+
+* import Just, Nothing directly from Maybe.js",False
+dec329da9cfc683523e8804e99121d48e5c73570,2022-04-25 20:51:11,Julien Gonzalez,"refactor: `of` now works with Applicatives (#3272)
+
+This change addresses the issue of `of` not being able to
+work with Applicatives.
+
+Fixes #3267
+
+BREAKING CHANGE: `of` is now a binary function with a constructor as its first argument.",False
+a4998cf763388534a07619a93bf13ec3823d5517,2022-04-21 05:50:01,wangzengdi,change propEq/pathEq parameters order (#2938),False
+a5aea90e44f12177cbd19f0dd9ca7ab283bb9a26,2022-04-21 05:36:30,Zhang Yidong,add/modify tests which can act as a transducer (#3269),False
+d0099847b50660f3ddefc528c0813e9983d6b394,2022-04-14 20:52:05,barleendhaliwal,update package.json exports section to support node version 10 to 17 (#3270),False
+6d38d5ae784eeb71df002e3a1fc048b4b2e0fda2,2022-04-13 04:24:29,wangzengdi,"feat: using npm-run-all -p to run scripts parallel (#3100)
+
+* feat: using npm-run-all -p to run scripts parallel
+
+* feat: run spec and lint parallelly too.
+
+* chore: there's no need to use npm-run-all --sequential.",False
+e6b004748237e689c71f6926d81ca4f93b990130,2022-04-12 12:37:56,PS-PARSA,revert(times): **replacing while loop with for loop**,False
+3141d1a7b724e9432201c848a399be18f627bc8e,2022-04-12 12:37:56,PS-PARSA,chore(times): using `push` method instead of direct assignment,False
+82cc5d506b32943e5a0d98f798c2c68c445e2478,2022-04-12 12:37:56,PS-PARSA,chore(times): using `var` instead of `let` for loop variable,False
+1bda1753475b2cea39beef83c61247bedd9cc2a3,2022-04-12 12:37:56,PS-PARSA,refactor(swap): breaking down a complex expression into several conditions,False
+45604ec4c3a7220cdfd39d0803dc194cbefdeb9f,2022-04-12 12:37:56,PS-PARSA,pref(times): replacing while loop with for loop and array constructor with literal array,False
+db7e339a3a8311608795ca3ff7dbbc4e3df8b9b3,2022-04-10 23:47:42,zyd,remove-duplicated-tests-in-reject,False
+beafc3c79a7058b61c0420674b46fc2f24e1335e,2022-04-07 00:03:50,Sakthipriyan Vairamani,"fix(3258): handle no prototype objects in R.clone (#3261)
+
+* fix(3258): handle no prototype objects in R.clone
+
+Fixes: https://github.com/ramda/ramda/issues/3258
+
+* simplify hasOwnProperty, toString, and test for clone",False
+ea8c8b156144656c1b28b43cdd1bd3e3c5edbed4,2022-04-01 01:52:54,Xavier Garcia Buils,"enabling R.scan to be used as transducer. (#2817)
+
+* Add R.scan transducer tests
+
+* R.scan transducer enabler: R.into should always call the @@transducer/init method
+
+* enable R.scan as transducer
+
+* pull upstream & resolve conflicts
+
+* add docs about R.scan can act as a transducer",False
+5a7ccd58d2b742598457edd7aaef54803f557654,2022-04-01 01:50:07,YCM Jason,"link collectBy and groupBy (#3263)
+
+`collectBy` already links to `groupBy`. I thought it would make sense the opposite way too.",False
+960cc98e81c72faf812304d010675e0814b9a276,2022-03-28 09:28:17,Xavier Garcia Buils,refactor(3247): split _reduce to _xReduce(for transformers) & _reduce(for reducers) (#3248),False
+956533c11aa70b64e6e7d8eaeda9a705fdeeb38f,2022-03-17 00:02:18,briandavidclark,Update on.js,False
+0108fd1b746ad36e3686fffafd97b28e0b661bf6,2022-03-07 01:58:20,Xavier Garcia Buils,refactor(3230): remove curryX dependency for internal transducer creator functions (#3231),False
+cd47cbd2c4debbb188ff8a165de610d325aac674,2022-03-06 19:27:54,Xavier Garcia Buils,fix(3245): fix R.dropLasr with negative and zero param when used as transducer (#3246),False
+aaffe722cadcb366aadf1f547f99195cbdef31fe,2022-02-27 00:33:22,customcommander,docs: curry: add warning about default parameters. close #3121,False
+8b612438c2f6791632afe75fc67770c379d36580,2022-02-26 03:11:53,Xavier Garcia Buils,fix(3232): fix R.groupBy when used as transducer (#3234),False
+c7aef9ad5e98edef184dffb03fc6c1e7e067f1a4,2022-02-23 22:52:42,Ivan Filho,"Implement dropRepeatsBy (#3041) (#3239)
+
+* Implement dropRepeatsBy (#3041)
+
+* Improve tests for dropRepeatsBy
+
+* Remove arrow function from dropRepeatsBy for compatibility purposes
+
+* Improve test isolation for dropRepeatsBy and dropRepeatsWith",False
+3175f726367bc0526a86d5dcc362e2ba8b8bd379,2022-02-23 06:13:47,Julien Gonzalez,"Documentation updates (#3228)
+
+* docs: memoizeWith: rewrite documentation and example. close #2314
+
+* docs: composeWith: clarify how functions are passed. close #2789
+
+* docs: ifElse: add note about its arity. close #2654
+
+* docs: filter: add category Object. close #2572",False
+243a0910ed49131682f623a5625a0f01a76852a8,2022-02-23 05:52:13,Julien Gonzalez,docs: remove broken coverage badge. close #3229 (#3242),False
+37c568af5952a0bc7f9c9305be267a3a143af37e,2022-02-23 04:57:30,abrwn,"Improve min and max logic (#3197)
+
+* Improve min and max logic
+
+* Fix import and update tests
+
+* PR comments
+
+* Change const to var, calculate toString once
+
+Co-authored-by: Alex Browne <alex.browne@touchsurgery.com>",False
+7eefed339661440671aa770822af399bc50f944a,2022-02-22 23:33:25,wangzengdi,chore: optimize R.type's type (#3235),False
+c2cafc2a42fc9d28fa25e17c3df54d67481fbba7,2022-02-06 03:37:30,Brian Caine,Implemented addIndexRight (#2140),False
+6d2f4776b493b189b658a835a548b39340dcf883,2022-02-06 01:42:00,Paulo Henrique Cuchi,"Improve R.without and R.intersection time complexity (#2603)
+
+* Improve R.intersection time complexity
+
+* Improve R.without time complexity
+
+* Remove previous intersection optimization
+
+* Add test cases for R.intersection",False
+d27c944b4aa974d42b68899270311fb10419ad79,2022-02-05 23:58:10,danillosl,"improve clone performance (#2985)
+
+* improved _clone function
+
+* adding _ObjectMap",False
+dc3e7e7df04ee08ae686977faedf36da0ce534f4,2022-01-27 09:58:44,wangzengdi,"link between both, alllPass, either, anyPass (#2368)",False
+a8cd3044f23f805bbe6ecb69ad5a67c138f0f31b,2022-01-25 01:43:22,customcommander,build: eslint: use one config file with overrides for specific paths,False
+bb611e345dfb785d396d4489729e8f83ed28a28e,2022-01-25 01:43:22,customcommander,chore: swap cant work with map instances. remove test and docs.,False
+bfd80499633a668ee9bc456452c9367a590b336e,2022-01-25 01:43:22,customcommander,build: eslint: fix missing extensions,False
+4e53e0914aa6ef5359220025dd600033abd936b3,2022-01-25 01:43:22,customcommander,build: eslint: fix space parens,False
+56a36ecaa42a0f89132aaef575ac8c785ade033d,2022-01-25 01:43:22,customcommander,build: eslint: fix invalid regular expression flag,False
+4fb5c61875108842932371167e8b439a040acde7,2022-01-24 02:20:09,BobbieBarker,chore(differenceWith): updated code example for difference with to better illuminate the behaviour of the function through the documentation (#2893),False
+fd97ee3e9a43fb24486fd90c7184cd0657b3ee2f,2022-01-24 02:08:43,Miika Hänninen,"Fix traverse type signature in documentation comment (#2797)
+
+Since `traverse = sequence of (map f traversable)`, and
+`sequence :: (x -> f x) -> t (f x) -> f (t x)`,
+`f :: a -> f b` and `traversable :: t a`, the type of `(map f traversable)`
+is `t (f b)`. Therefore the type parameter `x` in `sequence` is `b`,
+and the type of the `of` parameter needs to be `b -> f b`.",False
+e575baa5e3cb47a42648258298d976d526e61b1b,2022-01-23 04:23:47,Wojciech Pawlik,Add Map and Set support to toString (#2624),False
+4bb8dd81cb5d8ba522836426543f72e35cdc2b90,2022-01-23 04:20:14,Lars Kölpin,"Add isNotNil (#2818)
+
+* Add isNotNil
+
+In javascript projects it is often necessary to to someething if
+something is not nil. This commits adds a function ""isNotNil"" and its corresponding test
+ which does the null and undefined checking.
+
+* chore: isNotNil: add missing extensions in import statements
+
+Co-authored-by: customcommander <hello@spinjs.com>",False
+ab928b3a9a3229b76bde2cd2f20f413cd50c3f78,2022-01-23 03:58:16,James Conkling,make assocPath overwrite primitive values with keys in path (#2524),False
+049893d27c16b1632e8a3af76b813ebf1a2a407f,2022-01-23 01:35:05,Kurtis Rainbolt-Greene,"Make the invoker documentation a little more understandable to newbies like myself (#2116)
+
+* Make the invoker documentation a little more understandable to newbies like myself
+
+* Clarifications from @buzzdecafe
+
+* Making more copy changes
+
+* docs: address buzzdecafe comment. 'invoker()' -> 'invoker'
+
+* docs: use const instead of var in example for invoker
+
+Co-authored-by: Kurtis Rainbolt-Greene <me@kurtisrainboltgreene.name>
+Co-authored-by: customcommander <hello@spinjs.com>",False
+9bffeb7c6e06d9617578e99d0d4abb4b1ac2bd90,2022-01-23 01:07:51,Jeff Downie,Updating ap's description (#2004),False
+d197043e75ec08a344e647ea555eee56fb6e64ea,2022-01-22 23:30:39,wangzengdi,make tap's symb description more clearly (#2955),False
+6aadd7b7a7198001ba77b4af539d00e06fdcb06f,2022-01-22 23:28:04,Kuba Juszczyk,"reduce - null safety (#2997)
+
+* hasIn: added protection against undefined object
+
+* null safety reduce",False
+f0de0fd008988fea5052cfe26b2f0be646bb0d4b,2022-01-22 23:23:56,Andrew Smith,"Add docs to `path`. (#3010)
+
+* Add docs to `path`.
+
+* docs: update path doc, signatures and related functions. address Scott comments in #3010
+
+Co-authored-by: customcommander <hello@spinjs.com>",False
+33de5cd0906c00dc62d78ea46f27bf232a79cfd5,2022-01-22 23:21:42,wangzengdi,arguments.length will always be the same as n (#3018),False
+713400da67664a1cf3eb14029a325ea6bdb86cb0,2022-01-22 23:14:08,wangzengdi,"fix: update readme.md ramda version before publish (#3082)
+
+* fix: update readme.md ramda version before publish
+
+* chore: update LICENSE.txt copyright date if needed.",False
+3e100e9b899874bbe7d98ee43a8e89e6380cd986,2022-01-22 23:07:58,Jonathan Berube,feat: add swap function (#3094),False
+1bd60c53d18c04e93f51d6cff0070d8320a8a790,2022-01-22 22:57:10,HoKangInfo,"fix, add use first flags property, and support dotAll flag (#3158)
+
+* fix, add use first flags property, and support dotAll flag
+
+* add dotAll flag test case
+
+* move eslint-env comment to top
+
+* remove eslint-env comment",False
+727770903c09351dc1a981b03ba87a97b9d1cd3e,2022-01-22 22:45:53,Cotton Hou,"Upgrade and fixing up eslint-plugin-import (#3223)
+
+* Update eslint-plugin-import to ^2.25.4
+
+* Lint extensions fixing under lib/* and test/*",False
+7f37e8a4243de2b6c39d0490ef282873e405f9ad,2022-01-22 00:16:01,Scott Sauyet,Fix merge with nil objects (#3222),False
+56072b23532058d99d2f85108ef7fb8387a98c8e,2022-01-20 06:19:32,Matthias Seemann,"Remove placeholder check from `identical` (#3210)
+
+* Remove placeholder check from identical
+
+This fixes [#2533](https://github.com/ramda/ramda/issues/2533), were using identical with cross-origin browser window objects throws a DOMException.
+
+The reason for the exception is the checking for the placeholder property in the `curry*` functions.
+
+Since placeholder support makes no sense for commutative functions it can be removed from identical. This is done here by rewriting `identical` as `isObject` in a self-written `curry2` wrapper.
+
+* test: identical: check properly curried function and placeholder property access
+
+* fix: support more than 2 arguments to identical
+
+* test(identical): mock cross-origin window, doc: added comment to source file why cannot use _curry2 as before
+
+* test: excempt identical from placeholder check, doc: note about missing placeholder support
+
+* linting",False
+31ed57432232da47f697fe8bc0a9e4789558d5f2,2022-01-20 02:45:32,Julien Gonzalez,"refactor: assign partialObject function to var so that JSDoc can infer its name (#3221)
+
+fix ramda/ramda.github.io#261",False
+698bdc4efa56dae0f41b6529b860c3a6ed02a0ec,2022-01-19 07:27:12,Scott Sauyet,"Reduce doc enhancement (#3220)
+
+* docs: Warn about mutating accumulators` -m ""
+
+Fixes #3200
+
+* docs: Warn about mutating accumulators
+
+Fixes #3200
+
+* Remove trailing spaces",False
+c207cf1be650e8373bef85a77198ba23647c9165,2022-01-16 08:31:48,Scott Sauyet,Version 0.28.0,False
+95d897e60b359cadd22c8d19c13bd75d100eb40a,2022-01-12 07:44:39,Julien Gonzalez,chore: publicise funding options. close #3016 (#3208),False
+a3737b55dbed6951e0ac288b565c22048fe47d62,2022-01-12 07:23:45,Julien Gonzalez,"chore: remove dependencies badge (#3207)
+
+As of time of writing the service https://david-dm.org/ seems to be down
+and/or unreliable. As Ramda is a no-dependency library I'm not seeing
+much value in this badge.",False
+dd2685342cc8b259e76376c62a1fd617d4bf90a4,2022-01-11 17:24:15,David Chambers,Merge branch 'v0.27' into master,True
+1a5d40bb143738d7366aa26e5e2957e42ecd7ce6,2022-01-11 17:16:43,David Chambers,Version 0.27.2,False
+4d8e8f074f54ef7f63458f71b66de5056054341c,2022-01-08 02:41:54,David Chambers,"Merge pull request #3212 from ramda/davidchambers/trim
+
+backport security fix",True
+94d057032c9b3ecf26d9842fbb12c981bda29f4b,2022-01-06 16:41:04,ready-research,"Security fix for ReDoS (#3177)
+
+* Security fix for ReDoS
+
+Security fix for ReDoS vulnerability.
+
+* Update trim.js
+
+* Update trim.js
+
+* Update trim.js",False
+8ae355e8ad80b5a24c5eec149a1a3c583d494afb,2022-01-06 16:41:03,David Chambers,update test string for trim,False
+b8307a7d29d78af18234b99a1bd7aae5087d082a,2021-12-19 04:12:23,wangzengdi,"chore: lift can wrap 1-arity function (#3205)
+
+* chore: lift can wrap 1-arity function
+
+* fix: try to fix github ci/cd workflows",False
+1843493ca24a87642924f49bad5d4577d2b26666,2021-12-18 03:14:12,Julien Gonzalez,"Fix for failing builds (#3206)
+
+* build: fix linting errors
+
+* test: remove u180E from test string as it was no longer considered as whitespace
+
+* build: run ci pipeline on pull request too",False
+d5e178deb0cc6380287b3c42b070d2e6803a3b0b,2021-12-01 07:25:10,Lei Tan,"feat: add transducer support for uniqBy/uniqWith (#3201)
+
+Co-authored-by: louie <louietan@hotmail.com>",False
+ef6451f0ce8527c647d53b01990d4b854515e846,2021-11-24 07:57:07,wangzengdi,feat: There's no need to restrict whenTrue and whenFalse's return type (#3199),False
+a02e6ae55b388bf158213e2154af06630534e792,2021-11-12 22:15:14,Behram Kapadia,"Bugfix is 3196 (#3198)
+
+* Object.create(null) should be considered an object
+
+* removing parens in for val in docs
+
+* fixing docs
+
+Co-authored-by: Behram Kapadia <behram.kapadia@me.com>",False
+f4d7d06d6b4f636cfc8c63445561df72cbce64d9,2021-11-08 14:03:35,David Chambers,"Merge pull request #3194 from mohit61/mohit/typo-fix
+
+fixed typo in test",True
+9c5e2178e7467a05f9962956dcd390933da6fc50,2021-10-27 15:21:45,Mohit Malik,fixed typo in test,False
+37af6ae2ca8b94656996dd27fb0a1f208d69134e,2021-10-08 01:25:54,ready-research,"Security fix for ReDoS (#3177)
+
+* Security fix for ReDoS
+
+Security fix for ReDoS vulnerability.
+
+* Update trim.js
+
+* Update trim.js
+
+* Update trim.js",False
+a1a90ddd34c66d8738598beccbb0d50c3ed9ad99,2021-09-30 20:37:56,Tristan Matthews,"Fix typos detected by codespell (#3188)
+
+* equals: fix spelling
+
+* test: fix spelling
+
+* test: collectBy: fix spelling",False
+d0e72a81dc077440eac176c918746d40e2199321,2021-09-17 00:03:15,Kara Jovian,"Move detailed spec to description section (#3170)
+
+* Move detailed spec to description section
+
+* Supplement description for `and`
+
+* Use detailed description for `or`",False
+fe4a05528f1b08cad45f61f0db34501c51cee650,2021-08-26 20:49:33,Scott Sauyet,Create SECURITY.md,False
+b17c8e2f200d1b006033028db73771b3e09ac1b3,2021-08-25 23:53:52,bunglegrind,"Update README.md (#3174)
+
+* Update README.md
+
+Closes  3173
+
+* Update README.md",False
+68535de7f8b1bc0c7848948c3bf998d5da88b85a,2021-06-14 21:59:31,wangzengdi,"chore: link toPairs, keys and values (#3161)",False
+fd278f42f82cefebdfe9ef14b86b8880ee52668b,2021-06-08 21:52:38,Dmitry Non,"Add `count` function (#3144)
+
+* feat: add `count` function
+
+* addressed comments re:tests
+
+* refactor(count): inline lambda
+
+* refactor: use internal _reduce",False
+66e37fe7c8002ca1b99f5f7115c07ccc6ca92814,2021-05-21 07:12:58,wangzengdi,"chore: link findIndex and indexOf, and their 'last' version (#3151)",False
+6b6a85d3fe30ac1a41ac05734be9f61bd92325e5,2021-04-03 06:49:36,wangzengdi,fix: isOdd: n % 2 may be 1 and -1. (#3140),False
+0b3deef8845b873f12f909887cb94d422a3a0def,2021-03-24 17:58:11,Scott Sauyet,Adding note to cond documentation (#3139),False
+9b5d8925f23f0f44a2e656bfd0cf23ff30031794,2021-03-06 01:26:15,wangzengdi,chore: There is no need to check if acc is empty every time. (#3136),False
+84af16091e8c19518f189a8cf087d1318ff57d60,2021-02-20 00:15:55,Liam Tait,fix: clone typed arrays (#3135),False
+9dbcacbe4c3c7963984c44da9c23a2ed10e3bc8b,2021-02-09 02:43:33,Kartik Maurya,adjust code refactoring : using modulo to cycle through indices positive and negative; adding array length as a pavariable as it was being reused often (#3134),False
+cf64dd7a4f6f053441414871221882d3fc10f110,2021-01-25 23:49:18,Nicolas DUBIEN,"Move existing PBT tests to fast-check and add some more (#3095)
+
+* Migrate property based tests to fast-check
+
+* Add some more property based testing tests
+
+* Add missing semicolon
+
+* Move test from uniq to equals
+
+* Use R.uniq
+
+* Bump to latest version of fast-check
+
+* Bump fast-check
+
+* Add tests for prop",False
+95ed1c1a71d6c32af35318212ae2f3797e10e93f,2021-01-12 21:00:34,Morgan McCauley,"Add reduced support to reduceBy and reduceRight (#2663)
+
+* Add reduced support to reduceBy
+
+* Add reduced support to reduceRight
+
+* Update reduced and associated docs for newly supporting functions
+
+* Rename shortcut -> short circuit",False
+39a16870c83089800909e564387706af7eb0b85f,2021-01-12 08:40:50,Dev Baweja,"Added unwind function with unwind test files (#3125)
+
+* Added unwind function with unwind test files
+
+* Corrected source and test file for unwind function
+
+* Removed unnecessary test for negative number in unwind
+
+* Removed extra spaces
+
+* Fixed documentation indentation for unwind
+
+* Fixed documentation indentation for unwind",False
+a5bae4b251793f4b4e16cc5de7bb27c6ff391b07,2021-01-04 06:14:13,Sebastien Filion,"Update the README to reflect changes to Deno and Nest packages (#3123)
+
+(cherry picked from commit a59507a0688c81b24fef5a77a0755e6885a246d9)",False
+9a84319bb9c21edd05d8f0370e68ba9106aa7208,2020-12-16 01:46:17,Carlos Mori,"Update partial.js docs (#3119)
+
+As a newbie to Ramda, I find it clearer this way",False
+81368c9ddcd02fc8c74c46af2da021a0a90c36f8,2020-11-14 02:05:46,Julien Gonzalez,doc: better lift examples (#3109),False
+4e5fffe221e163591a6db2991461a500538a2bfd,2020-11-13 06:34:00,Daniel Grant,"new functions: modify and modifyPath (#3107)
+
+* Add modify and modifyPath functions
+
+* Update parameter validations, add documentation
+
+* Fix tests for modification in function param validation
+
+* Refactor modifyPath to fail first
+
+* Fix minor issues with order, parentheses and linting",False
+cbc65c7f311a366aa3618a18c1a439a72f482218,2020-10-10 00:42:44,cviejo,"fix: partial build (#3096)
+
+* fixed partial build output
+
+* write multiple chunks",False
+e8dc3f40ae538700a023dfae65b5ea7f1464aadf,2020-09-24 02:20:07,Brad Compton (he/him),"Merge pull request #3050 from benbryant0/update-rollup
+
+Update rollup, plugins, and config",True
+bd143816267e432a3905cb47ab5e62b413b6d12f,2020-09-23 03:25:47,wangzengdi,"chore: rename xf to transducerCreator (#3088)
+
+* chore: rename xf to transducerCreator
+
+* chore: changes constructor to factory
+
+Co-authored-by: adispring <wangzengdi@bytedance.com>",False
+b7190dbed3e817016f06a149a20f3f83bddb7a55,2020-09-17 21:47:04,Brad Compton (he/him),"Merge pull request #3085 from orthanc/3084/fix-propOr-documentation
+
+Update documentation of propOr to describe defaulting beahviour.",True
+1f363a25ea25624396d80187076d3364c1967ef2,2020-09-16 01:31:43,Ed Costello,"Update documentation of propOr to describe beahviour.
+
+fixes: 3084
+
+The documentation here is based on the documentation for `prop` and
+`defaultTo` which is what is used in the implementation so should be an
+accurate description of the behaviour.",False
+3438734be1c559f50e2d7e150a0ae1b5b3f87f22,2020-09-14 07:07:31,Raphael Krut-Landau,Fixed typo (#3083),False
+058646e022e8f1cd6afdee1d5b5395aa39990583,2020-09-03 01:36:04,wangzengdi,evolve: ignores transformations if the input value is not Array and Object (#3081),False
+60b1b80a7917598f5b3bb23c20beb8f971a8f72a,2020-08-27 00:27:45,Brad Compton (he/him),"added links between groupBy and indexBy (#3080)
+
+Co-authored-by: Brad Compton <bcompton@skyslope.com>",False
+c8f0b7fb74da5af1d8538d4cae402f2a59597766,2020-08-17 19:07:25,Brad Compton (he/him),"update CONTRIBUTING and package.json to prevent linting errors (#3069)
+
+Co-authored-by: Brad Compton <bcompton@skyslope.com>",False
+5f0cadbacedbdd88da7a476bf2615e7c5890b80d,2020-08-17 19:00:32,Sebastien Filion,Add support for Nest.land - a package manager for Deno (#3054),False
+86c3ec1a89e2614a6c52d00ccde6e64888ce6314,2020-08-17 18:51:30,Burak YILDIRIM,"Update Copyright year (#3073)
+
+Updated the Copyright year as 2013-2020 in License.txt",False
+04fa9ef9ee976644d952ff6bc0d53b2ac66573ec,2020-08-17 18:49:55,Chuan-Tse Kao,"Fix Clone Function Copy Prototype Issue (#3067)
+
+* Fix Clone Function Copy Prototype Issue
+
+1. Check hasOwnProperty when copy to avoid copying prototype
+2. Make the new value's prototype point to the origin value's prototype
+
+* Replace deprecate __proto__ with buid-in method in Object
+
+* Add test for the issue deep copying prototype properties
+
+* Shorten the num of line",False
+1cd34a0dc028c1eaf44f22b9900c4bde8e1b7848,2020-08-06 04:13:28,Brad Compton,lint: partialObject linting errors,False
+0bb934c0e495edd14175c865bb9183f96c889b5b,2020-07-30 14:21:38,David Chambers,Merge branch 'v0.27' into master,True
+6bb8eeaabbe130cc4f9860e9124ae69320636fcd,2020-07-30 14:13:15,David Chambers,Version 0.27.1,False
+1e0e5006129f0369700308135f9f0a28fae617ed,2020-07-22 19:26:21,Henry Ivry,"feat: add partialObject (#3047)
+
+* feat: add curryN with named param support
+
+* fix: fix linting issues
+
+* fix: switch arg signature and logic
+
+* fix: switch destructure to Object assign
+
+* fix: adjust tests, use hasPaths instead of falsey
+
+* fix: remove trailing space
+
+* fix: adjust tests to work with hasPath
+
+* fix: cleanup/add property tests, wrap in curry2, drop placeholders
+
+* remove unused import
+
+* switch to partialObject and add tests
+
+* clean up test
+
+* restore package-lock from develop
+
+* fix typo
+
+Co-authored-by: Gitea <gitea@fake.local>",False
+129a0df039c7b613b33eee52b5d1c8c4c6b7dd35,2020-07-07 21:13:19,Ben Bryant,Update rollup & plugins,False
+8919f26243950cd383901b69f357ea099cb0194b,2020-07-02 00:11:23,Sebastien Filion,Update documentation for Deno import (#3053),False
+68b65f6bd26af4828f4fecafb03aab758918312d,2020-07-01 20:28:42,Brad Compton (he/him),"Merge pull request #3052 from sebastienfilion/fix/extensions
+
+Add extension to dissoc and assoc",True
+290b8e7f3e52212cf4fd9cbbee568e948c945d81,2020-07-01 05:21:35,Sebastien Filion,Add extension to dissoc and assoc,False
+694f2f614b81e8a82dcc3b49949e7511fb0508af,2020-06-29 20:42:58,Brad Compton (he/him),"Merge pull request #3048 from benbryant0/dispatchable-perf
+
+Minor performance improvement for _dispatchable in simplest cases",True
+f24695765f0fd27e97392fc08d7e6353cd07210b,2020-06-29 06:01:49,Ben Bryant,Copy arguments only when necessary,False
+74faf72c5b430d33f7329afe00524998ead46021,2020-06-26 06:36:18,c4605,assoc/dissoc support operate array (#2787),False
+72596f005efc1476bd42f2d6c102c8764d0b81b8,2020-06-26 03:18:30,Brad Compton (he/him),"Merge pull request #3046 from ramda/3043/fix-pkglock
+
+fix(deps): update lockfile",True
+84db70b80ef8797f2fa5e7e5391517fa92dc9469,2020-06-25 19:12:01,Giuseppe Mandato,fix(deps): update lockfile,False
+937890662254efd2ed28572fb0703d24ed41f9ec,2020-06-23 00:41:07,Josh Howe,"Fix dispatching to `traverse` method (#3031) (#3031)
+
+Before this change, R.traverse dispatched only to `fantasy-land/traverse`, and ignored the `traverse` method of the third argument, even if one was available. This makes R.traverse dispatch to `traverse` if it is available and `fantasy-land/traverse` is unavailable.
+
+This fixes issue #3026.",False
+7c492b64e0abb822aa4f3033333d5740b62c45f5,2020-06-19 20:57:42,Brad Compton (he/him),"Merge pull request #3042 from sebastienfilion/es-module
+
+Add `.js` extension to source files",True
+d48f6510f6d46aef840df9d644fde9ef0720c8a4,2020-06-19 17:21:34,Sebastien Filion,Add extension to new promap function,False
+af0e294fc91df278d1b53b213bbcadd37ebd685b,2020-06-18 08:30:27,Brad Compton (he/him),"Merge pull request #3044 from ramda/3043/fix-linting
+
+fix(style): eslint quotes and unused vars",True
+264344891751f5d9827ca9b7eb13eaa08dbf9f64,2020-06-18 01:44:52,Giuseppe Mandato,"fix(style): eslint quotes and unused vars
+
+#3043",False
+4f6876a267932f282fc5e87befed05548e686579,2020-06-17 23:26:47,Sebastien Filion,Update ESLint configuration to handle missing file extensions on import,False
+d0a54b83858a90c5a4733713e34bc04c54f982d9,2020-06-17 18:07:06,Sebastien Filion,"Add `.js` extension to source files
+
+Omitting the file extension when importing a module is
+a quirk of the NodeJS' require importing method and
+should be discouraged -- As standard ES module is
+getting ground (Browser import, Deno import).",False
+34e88148ab3559516cd63b9d22fb9c4dfe67aaea,2020-06-17 00:59:08,Forrest Akin,"add promap (#3037)
+
+Co-authored-by: Julien Gonzalez <hello@spinjs.com>",False
+e6f19fe86c2e1e0cd685d94da4fa5b63f6856a08,2020-06-16 20:17:08,Brad Compton (he/him),"Merge pull request #3039 from customcommander/key-returning-functions-doc-update
+
+doc: update Idx union type with Symbol and use it to describe key-returning functions",True
+7f0c0e070ddbc20e387f68e4b999ae031eee5322,2020-06-14 12:39:00,customcommander,doc: update Idx union type with Symbol and use it to update key-returning functions doc,False
+1bb8f7dec54e9223f1f89127293b027d4b3c65d4,2020-06-06 22:24:54,Julien Gonzalez,Implement R.collectBy (#2715),False
+a725c1760db0f137ff1fecd3bc31174d12fd26fa,2020-06-03 23:21:51,Giuseppe Mandato,chore(ci): add github workflows and code climate,False
+9aa12b4db06855e6bd55a498479d666dd973e31a,2020-05-12 04:34:54,klequis,updated mergeAll description per issue #3024 (#3025),False
+998f798d9ac6297bb9f5b45136e3ff06a56df09a,2020-04-21 04:39:50,Brad Compton (he/him),"Merge pull request #3014 from timgates42/bugfix_typo_implementation
+
+docs: Fix simple typo, implemtation -> implementation",True
+98d6b76827ee437fc1cef7c14e0573aef41fdfab,2020-04-21 02:07:18,Tim Gates,Restore original file on request,False
+7c78ed2a28f767bb962bdc5cf15a2e1c3cbb0e5c,2020-04-21 02:06:14,Tim Gates,Restore original file on request,False
+16fde24f8c12a2a60167c397c4812293b16ac064,2020-04-21 02:05:30,Tim Gates,Merge branch 'master' of ssh://github.com/ramda/ramda into bugfix_typo_implementation,True
+1a4d8e1354c4bab732664d075bc12cbd1db391c8,2020-04-19 02:33:26,Tim Gates,"docs: Fix simple typo, implemtation -> implementation
+
+There is a small typo in dist/ramda.js, source/internal/_checkForMethod.js.
+
+Should read `implementation` rather than `implemtation`.",False
+ccc669959fe24dc36507be159d45f1db361e8fcc,2020-04-15 18:26:27,Richard,Update includes.js (#3013),False
+e649d4a5fcdd3dbac371c6f6db4eb0e956233f5e,2020-04-15 01:12:34,Sergei Orlov,Fix typo in the @return message (#3011),False
+101fe63cc17a1b5149d42294cf1d0b13b41d9451,2020-04-08 21:06:45,Brad Compton (he/him),"Merge pull request #3005 from adispring/optimize-binary-signature
+
+optimize binary signature",True
+10c1d876e70b519fec5df2ae093be84c665c3ba8,2020-04-07 06:28:51,adispring,optimize unary & binary signatures,False
+42d5243f624714eadf65ae6cd68d28c8995dd89a,2020-04-06 14:58:40,adispring,optimize binary signature,False
+87d90ba3c0e116a49718cc5cb7a181d5acf8bee2,2020-03-31 20:49:32,Mateusz Burzyński,Fix for importing Ramda in ESM-compatible nodes (#2999),False
+a09581f9b196352b58e89b5ec29e29ae932605c7,2020-03-29 22:40:57,krzysztofpniak,"Filter fix (#3002)
+
+* fixes filter in Maybe
+
+* adds fantasy-land/filter test
+
+* fix fantasy-land implementation in filter",False
+30b719b4ab4f7c805b0f066f3e55ef4fd707fbac,2020-03-09 00:17:19,Brad Compton (he/him),"Merge pull request #2994 from ramda/revert-2888-Standardize-propOr-and-pathOr-functionality-to-match-documentation
+
+Revert ""Replace defaultTo with undefined check in pathOr""",True
+db109735aa70fb76f8eae7153466d416d1b8663d,2020-03-09 00:12:08,Brad Compton (he/him),"Revert ""Replace defaultTo with undefined check in pathOr (#2888)""
+
+This reverts commit 5b0ea82c88f0b50ffd5a013f7d64a4d6822dcf8d.",False
+5b0ea82c88f0b50ffd5a013f7d64a4d6822dcf8d,2020-03-05 06:31:25,Scott Sauyet,"Replace defaultTo with undefined check in pathOr (#2888)
+
+* Replace defaultTo with undefined check in pathOr
+
+* Add errors to handle different undefined cases",False
+332195ecf9239459a371d9b4ef8f19f293a0ed0f,2020-02-28 20:02:21,Rafael Calderon,"update README.md (#2990)
+
+translation to Spanish",False
+a8d5627110735a23d41a05d8355567be8a7302c5,2020-02-22 04:03:58,Brad Compton (he/him),"Merge pull request #2989 from adispring/add-see-set-view
+
+add @see: R.view and R.set",True
+0eef132d02aaa324588fd7262488cea649b21499,2020-02-21 07:12:13,adispring,"view, set, over: add @see to each other.",False
+17641ec74c7c7f59e6de098604ebd5bfb9f31bdb,2020-02-20 20:17:45,adispring,add @see: R.view and R.set,False
+db51f107ba080d25a3938ab87a66a9079d908ad7,2020-02-20 00:21:42,Kuba Juszczyk,hasIn: added protection against undefined object (#2986),False
+c6d207eee64d75decb05d07bbc558252924cc0f3,2020-02-16 08:20:31,Scott Sauyet,"Merge pull request #2984 from ku8ar/master
+
+add number property tests to prop* and fix propIs (when property is negative number)",True
+d7b335649ffb313987a1592f9b0707ca70499454,2020-02-15 15:42:59,Kuba Juszczyk,add number property tests to prop* and fix propIs (when property is number),False
+8d83a880748e5bfbb06fa160d856adf741137405,2020-02-15 15:41:43,Kuba Juszczyk,Merge remote-tracking branch 'ramda/master',True
+3fedc7b0a7815fdbad5ac2da31ee1829629d4a6e,2020-02-13 08:13:48,Scott Sauyet,"Merge pull request #2981 from adispring/typo-fix-composeWith
+
+optimize pipeWith and composeWith's description and @param",True
+a7e5e2a67978e4c1dca91991adf197c8a92308b4,2020-02-13 07:04:33,adispring,optimize pipeWith and composeWith's description and @param,False
+d70b3cd6e59c4cffddb8a263712187995a63fe97,2020-02-13 06:33:32,Scott Sauyet,"Merge pull request #2979 from adispring/typo-fix-composeWith
+
+fix comment typo: compose -> composeWith",True
+59336454d601e6f0f70b6eaa9886bbd3dac76da8,2020-02-12 12:14:46,adispring,fix comment typo: compose -> composeWith,False
+b00e4ff361661afea545e8f517e43c3467c37e52,2020-02-04 05:49:00,Scott Sauyet,"Merge pull request #2962 from ku8ar/master
+
+""prop"" optimization (10x faster)",True
+f685ff57e7cfea21f693369db52f01361a13d214,2020-02-04 02:42:32,Kuba Juszczyk,fix linter,False
+51bddb437a272e65a552dcbe54b86892d1af606d,2020-02-04 02:37:25,Kuba Juszczyk,add tests,False
+1407c34c1edd99f64fa6ea20a15b4ce5bdd3ce64,2020-02-03 01:31:47,Scott Sauyet,"Merge pull request #2968 from ryanbas21/try-catch-docs
+
+update try catch docs to use caught instead of catched",True
+23f1fa986b164f377f74986f934b5af5edd36337,2020-02-02 06:42:13,ryanbas21,update try catch docs to use caught instead of catched,False
+848632d767ab82b8438d685e318cdc686f195dba,2020-01-29 00:01:57,Scott Sauyet,"Merge pull request #2963 from adispring/optimize-andThen-otherwise-example
+
+optimize andThen and otherwise's example",True
+240797b3150f2619370a5ef481ff02eec7eb82b8,2020-01-26 15:59:20,adispring,optimize andThen and otherwise's example,False
+13ea6c5532d30e8360a732237bf5b6cd977713a8,2020-01-25 21:26:25,Kuba Juszczyk,"optimize ""prop""",False
+2a29bca03f0f42f4ac6229c3f881eb7b5ba410d0,2020-01-24 06:47:17,Scott Sauyet,"Merge pull request #2959 from adispring/optimize-call-curry-wrapper
+
+wrap R.call with _curry1 instead of curry",True
+ecba3855382f7aeae0335ae9d7e1dfc9dc67d3ae,2020-01-22 13:38:37,adispring,wrap R.call with _curry1 instead of curry,False
+0120c68bdf29ffc4580666f9911522fdc4fde92d,2020-01-22 06:10:24,Scott Sauyet,"Merge pull request #2958 from adispring/optimize-call-signature
+
+optimize call signature & its example's indent",True
+e91dcce5878361560e2d13e74ed4e38e6ccfb2a9,2020-01-22 05:16:28,adispring,optimize call signature & its example's indent,False
+b20588eecd0ad0221b5c6b04031f3979affdb2ba,2020-01-10 04:30:20,Scott Sauyet,"Merge pull request #2956 from josh-byster/master
+
+Add clarification example to compose not auto-currying",True
+dab5652a35b195797b6423e3b03567ab3832aed2,2020-01-08 15:55:52,Josh Byster,Add clarifying to auto-curry,False
+bd1172e8bc8f5825cf86cb14de11e8e485aba6e8,2019-12-30 01:04:30,Scott Sauyet,chaning like to Randy Coulman's series to HTTPS,False
+d824372a99e65dd0289239bcd8bd47084acf632f,2019-12-27 18:52:01,Scott Sauyet,"Merge pull request #2944 from adispring/optimize-unionWith-description
+
+make unionWith's description more clear: use first element from first list if duplicate",True
+a256d1924db18a5dcd5cc6313c836e55da5415d0,2019-12-27 09:07:24,adispring,optimize unionWith description: use first element from first list,False
+a026285c4c515ecb5ff5ff0fde79e460b41f4183,2019-12-24 01:03:42,Scott Sauyet,"Merge pull request #2637 from evan-king/master
+
+Expand documentation of `memoize` and `memoizeWith`",True
+6c0883b240eaa1cd80927e8197675a2e783ad3db,2019-12-20 18:37:35,Scott Sauyet,"add @see: pluck, project and map (#2922)
+
+* add @see: pluck, project and map
+
+* Link pluck, project, prop and props to each other.",True
+27f6f8971071f97da1d6353162b7a71ad376e063,2019-12-20 18:36:02,wangzengdi,add note: uncurryN actually return a ramda style curried function. (#2939),False
+9ac92c550c0f17648332aa8407fdb9ba0d9b80e1,2019-12-20 08:59:54,adispring,"Link pluck, project, prop and props to each other.",False
+3b5a62b1aa999bfff01a11e3b2d37995eac7a8f4,2019-12-13 06:15:30,Wojciech Pawlik,Allow to run repl from outisde directory (#2935),False
+44b3822285821cb9b2a5624488d679eaaf8d3362,2019-12-12 05:19:25,Mudit Panwar,"Updating comments for splitWhenever.js (#2932)
+
+* Updating comments 
+
+updating comments to make the function correctly documented.
+
+* Update splitWhenever.js",False
+8e6f6f35b1cbe430da61061362a047a36168825b,2019-12-11 23:30:02,Brad Compton (he/him),"Merge pull request #2925 from hitmands/feature/2923__implement-where-any
+
+Feature/2923  implement whereAny",True
+64e8ded9fbf9c9953f92930f79bcfc948e291bb8,2019-12-09 22:26:43,Giuseppe Mandato,"feat(whereAny): test function returns true if at least one of the predicates returns true, false otherwise
+
+[ISSUES CLOSED: #2923]",False
+ea939494d95cf9a1d02719d338f87900909ea492,2019-12-03 06:12:42,Wojciech Pawlik,Transpile UMD for IE11 (#2928),False
+3445ac4667fc3482c595e0711dbb43ad2cda5728,2019-11-26 00:02:03,Vitalii Vasinkevych,"isVowel is not defined in groupsWith (#2927)
+
+* is Vowel is not defined
+
+* typo",False
+c820dfaef908890334854c1088fc24cb414690f1,2019-11-20 20:02:54,adispring,"add @see: pluck, project and map",False
+a52431a9d24f272d220fba8daf2d03c74248c474,2019-11-19 00:02:20,Ed Staub,"Switch Typescript types to DefinitelyTyped. (#2920)
+
+Switch Typescript types to DefinitelyTyped (npm @types/ramda)",False
+deabe67d5cf7e89f2f0db5bc574a0994921d28c1,2019-11-18 19:56:18,Nikolaus Wettstein,"change see of 'either' and 'both' to match type signature (#2919)
+
+* change see of 'either' and 'both' to match type signature
+
+* added 'see also' references to 'and', 'or', 'both' and 'either'",False
+351b0ae50f5fdccd007fde8cf77b18a522bb0e70,2019-11-18 17:52:00,wangzengdi,"add ""@see: R.ascend, R.descend"" to sort & sortWith (#2917)",False
+e6abe72a4bb80bb59255b57018ee283944d6f4a0,2019-11-14 21:25:26,Michael Silveira,Improve lift documentation to be more intuitive (#2916),False
+48edea714d8bdf1a8bf398eb9084db7857ef49b0,2019-11-11 21:28:52,wangzengdi,make addIndex signature more clear (#2914),False
+0310e1b7d6ebc3bf5005a32d1ddf53a8a35ff59e,2019-10-19 00:09:48,Brad Compton (he/him),"Merge pull request #2852 from DanielFGray/R.on
+
+add P combinator",True
+cf04d2ac38799bd049b6851d28e003c8acd44a77,2019-10-18 23:57:11,Brad Compton (he/him),"Merge pull request #2899 from prog1dev/update_copyright_year
+
+Update copyright year",True
+c965a1a5caccd7986aaab459db9c4568ffb3782d,2019-10-03 18:02:04,Tan,Remove duplicate test cases (#2900),False
+35652616aa9470de334441b9a35295502a756f04,2019-10-02 02:51:33,Ivan Filenko,Update copyright year,False
+0cc4f5d5435e3ebec2ca82b93211d64bcbdd877c,2019-09-30 03:49:00,Tan,"Fix a bug in `R.values` test file (#2898)
+
+* Fix a bug in `R.values` testfile
+
+It makes no sense to test for `R.keys` in `R.values` testfile.
+
+* Refactor some tests for  and",False
+617db01668bd75bf76d602273ddd2d370d1f9691,2019-09-29 05:30:32,Robert Gerald Porter,Fix documentation for complement (#2897),False
+a31392a55853ef430bd51e7d7f8b81669be0447e,2019-09-04 01:11:40,Evan King,Switch `memoizeWith` exmple to using `Number` as key fuction.,False
+04460e6f232f07ee977f5e2ba863e91869ae5631,2019-09-03 20:09:16,Evan King,"Merge remote-tracking branch 'remotes/ramda/master'
+
+# Conflicts:
+#	source/memoize.js
+#	source/memoizeWith.js",True
+d1a374dd082e37dd32e1ee09e18e71f53061858d,2019-08-30 00:33:40,Guy Saar,"Update README.md / Install specific functions (#2786)
+
+Added a link to all Ramda functions as individual packages via Bit.
+Each function can now be played-with in a live playground and individually installed as a package with npm/yarn.",False
+b38449a714b81af28ffcdea4aa674ef5bb3d4929,2019-08-21 23:37:26,canytra,Add support for typed arrays for empty and isEmpty (#2885),False
+f7de90bcb02dedd5bf799142b1127136c108b546,2019-08-21 23:32:47,Mudit Panwar,"Splitwhenever fixes#2881 (#2884)
+
+adding splitWhenever, a variant of `split` that uses a predicate on the items to punctuate a list
+
+* added initial func
+
+* function created and tested
+
+* lint fixes
+
+* predicate support
+
+* fixes
+
+* replaced truthy with ifs
+
+* cleanup and testing fixes",False
+660971a12cd1daef62618a0270a68643e89ee955,2019-08-19 23:31:44,nishino-tsukasa,fix(_clone): refFrom and refTo assignment wrong (#2882),False
+301e46cea081aff78310f5ff597b72a732dcd7d5,2019-07-29 18:56:00,Poyan Nabati,"Change order of examples (#2871)
+
+Makes more pedagogical sense that the examples have the same order as the supplied functions.",False
+c8dafede3aca75d3ed6ea0868aefdd619675ec57,2019-07-18 19:56:11,Igor Savin,"Remove Ramda devDependency (#2845)
+
+* Update Ramda devDependency
+
+* Remove ramda from devDependencies
+
+* Update package-lock",False
+0d63af09a753478538eabbbb99475a771bf9bf6a,2019-07-17 19:21:36,Daniel,"clone: Update description (#2862)
+
+* Update Clone Description
+
+* Fix Clone column width
+Added note about references",False
+f181e06a9d8982a65a829b29410a3765c66f14a2,2019-07-06 10:41:29,DanielFGray,added R.on,False
+c29a727b350ad1d37c428ec94ccf9f1ef31ff6c1,2019-07-04 20:18:52,Nikhil Thomas,"Make R.propEq and R.propSatisfies safe for null/undefined arguments (#2594)
+
+* make R.propEq return false on null or undefined arguments
+
+* make R.propSatisfies return false for null or undefined arguments
+
+* update for ESLint",False
+03817fe578048652b9532ae71fd1f1705da4de60,2019-06-18 21:59:04,Brad Compton (he/him),"Merge pull request #2848 from lilywang711/master
+
+Remove _equals.js redundant code",True
+f3023ea9fc16b2665be890e73d80746cdf2f4112,2019-06-18 00:21:37,Ben White,"fix(applySpec): reintroduce support for arrays of nested specs or functions (#2795)
+
+Addresses #2784
+
+Prior to 0.26.x, this was a valid structure, where an array could be passed at an arbitrary depth and could contain other values/functions to be traversed:
+```javascript
+// Ex. 1
+R.applySpec([ R.sum ])(1,2) // [ 3 ]
+
+// Ex. 2
+R.applySpec({ nested: [{ sum: R.sum }])(1,2) // { nested: [{ sum: 3 }]}
+```
+After the PR to address #2681, the output changed to:
+```javascript
+// Ex. 1
+{ ""0"": [ 3 ]}
+
+// Ex. 2
+{ nested: { ""0"": { sum: 3 }}}
+```
+
+These changes add a condition to `applySpec`'s private function, `mapValues`, to just add a check if the current `obj` is an array before branching to `.map()` or `.keys().reduce()` operations based on the result.",False
+5a4a3ea222461b986540fad708747a4636618ec4,2019-06-17 12:13:21,lilywang,Remove _equals.js redundant code,False
+af3d323e3e6ec208799b7bd0736eca14d6849aff,2019-06-04 21:13:36,Zack Zhong,remove _isArrayLike.js redundant code (#2837),False
+3366df607287bf5cf3b9f870ad5b463198f334e5,2019-05-29 00:48:41,Scott Sauyet,removing files deprecated in previous release (#2835),False
+07a55cba6bb1b4d17a409d72f7014e74dfbab706,2019-05-28 04:52:36,Scott Sauyet,removing files deprecated in previous release,False
+ed191e6a476330e37db259a5c2d04bfba0b2d63d,2019-05-26 10:59:09,Brad Compton (he/him),"Merge pull request #2832 from kibertoad/chore/update-dependencies-2
+
+Update dependencies",True
+20ba763e5a9b668c3f37084204491074b85fef15,2019-05-24 04:09:38,Igor Savin,Update dependencies,False
+a6620f6d2a27d58e5c50d0c94855900b182d52b3,2019-05-24 03:33:41,Igor Savin,Update Babel to v7 (#2829),False
+2705518396e80445853c20dfd00d2ebaba71fac5,2019-05-24 03:32:51,Igor Savin,Execute tests on Node 12 (#2828),False
+c45208e2191df8b548850d7143b0d651cd3e02a9,2019-05-16 01:56:26,Lorne Currie,"hasPath return false for non-object checks (#2825)
+
+* hasPath return false for non-object checks
+
+Used to throw an Error for non-object children tests
+Added test for object checking if val is an object when testing a path
+Added tests testing false is returned for non-objects children tests
+Related to github issue #2771
+
+* Linting the file
+
+* Removed change as added to tests",False
+0baeda1980e28353dddd778714673b468403c5e9,2019-05-13 22:35:26,Stephen Saliba,updated invoker.js documentation (#2821),False
+072d417a345e7087a95466a9825d43b6ca3a4941,2019-04-28 19:48:18,Renan Zapelini,"Including BR translation. (#2621)
+
+Just including br translation, i'm already doing it and until the weekend i'll finish.",False
+ca1e2b500f6f9fa6a845c7a82a554b688047a301,2019-04-11 02:41:50,Alireza Bonab,"add an example which covers error and value (#2806)
+
+* add an example which covers error and value
+
+* fix singlequote",False
+271b044c5b18329d2de2d5a786123ab7ca34d11e,2019-03-05 22:44:07,WaldoJeffers,docs: Add @since where it is missing (#2793),False
+ac58c9647f1db3fb96b4730c3e5701ca914ba679,2019-03-01 21:18:56,Rob Hilgefort,"Update `pathSatisfies` to handles empty `path` arguments (#2791)
+
+* Update `pathSatisfies` to handles empty `path` arguments
+
+* Add negative test for `pathSatisfies` with empty `path`",False
+b25ac73208500bd4bdc6d12a50bf6a6aafdd7a4a,2019-02-26 21:48:01,vlasy,Fix typo in split docs (#2792),False
+7d55e91c3be5c4c0400ac124f71aa2367c1d412f,2019-02-18 07:38:59,Ricardo Ferro Moreno,"Add R.xor (Exclusive OR) (#2646)
+
+* Add xor module with respective test
+
+* Update see docs. Change implementation of xor to return boolean type
+
+* Added test for xor to check coercion to boolean and currying
+
+* Update return expression on xor to make it simpler",False
+efd899ba81cc5290330f5ca0833746a7ecbe165c,2019-02-10 00:41:07,Imamudin Naseem,"feature: adding paths operator - #2740 (#2742)
+
+* feature: adding paths operator - #2740
+
+* refactor: making path a derivative of paths
+
+* refactor: making props a derivative of path",False
+235a370454ef2f67f59b975c69382b7ad98a9d3e,2019-01-26 02:23:28,Tom MacWright,"fix: rename then to andThen (#2772)
+
+BREAKING CHANGE
+
+The addition of R.then in Ramda 0.26 made the R object
+a Promise-like object, and meant that Promise.resolve() will attempt
+to resolve it by calling the then() method. R is not a Promise, and
+to reassure JavaScript of this fact, R.then is renamed to R.andThen.",False
+8d59032d792e88c6e71a7b4c5de3dd0877998f68,2019-01-18 08:04:41,Cole,Fix broken link in readme (#2768),False
+38feed2328ad5cda296a2009ccb089fe8613ed51,2019-01-18 07:12:26,Will Heslam,"remove erroneous quotes in tryCatch documentation (#2765)
+
+This was breaking the repl with:
+`R.tryCatch(...)(...) is not a function`",False
+ce4f93695bd5e4227b735a8ee3bceb50263e7714,2019-01-16 21:44:07,Ilya Panasenko,"fix `@since` in `includes` (#2764)
+
+`includes` is only available since 0.26.0, need to set correct version in docs",False
+626762bb038b02e8079a9567238f97d4e9ef3532,2019-01-16 05:53:21,Tomáš Konrády,Reference to Ramda Conventions wiki page (#2718),False
+878cacd8105391cf3783c9e05609c72f09a48a5e,2019-01-16 05:49:38,GingerPlusPlus,Add prebench script (#2759),False
+a830a0d3102fed889ea5f772e473fe856b26bf40,2019-01-15 23:29:54,Brad Compton (he/him),"Merge pull request #2730 from ramda/CrossEye-patch-1
+
+Minor miss in publication",True
+23bac943436e4f26df1b3b3bc69278cc9001f90f,2019-01-15 22:07:55,Brad Compton (he/him),"Merge pull request #2513 from rjhilgefort/feature/is-function-async
+
+Enhance `_isFunction` To Handle `AsyncFunction` (+ more)",True
+4fa7ec025a82d56414177123944d50a0f99eb07c,2019-01-15 03:46:16,Rob Hilgefort,"PR Feedback, updated invoker examples and handled async generator funcs",False
+f4c6b6232935e4ce790c34f76ee2fa1201fa19f4,2019-01-09 06:11:54,beraliv,prod: reduceBy splits into mutation-free groups (#2757),False
+4cd4e4bb85ab9d7a532fbb45e5e70009cdbc2098,2018-12-19 22:10:23,Vladimir Gorej,"fix(hasPath): forces hasPath to be safe (#2739)
+
+* fix(hasPath): forces hasPath to be safe
+
+The function now doesn't throw Errors anymore when supplied with non-object.
+Also fixes R.has.
+
+Closes #2738
+
+Signed-off-by: Vladimir Gorej <vladimir.gorej@gmail.com>
+
+* test: address CR comments for has/hasPath
+
+Ref #2738",False
+63fcc02b6b9454688db93997cbaf0109b82543e8,2018-12-06 10:54:35,Franz Wong,"Update the comment about pipeWith and composeWith (#2734)
+
+* Update the comment
+
+* Update the comment for composeWith
+
+* Update comment to replace 'leftmost' and 'rightmost' with 'first' and 'last'
+
+* Update comment to replace 'leftmost' and 'rightmost' with 'first' and 'last'",False
+0624fc6057edccebf00562687810c30400f8a9c4,2018-11-30 22:29:33,Scott Sauyet,Minor miss in publication,False
+9a7d331443c5df7432d221b044b10a98509ecce1,2018-11-30 05:09:19,Scott Sauyet,"Merge pull request #2670 from 2beaucoup/align-lensPath-lensIndex
+
+align lensPath with lensIndex by supporting negative indeces",True
+ab1ac8b454eb25640ad2fd7f17817da82029566c,2018-11-30 02:43:38,Scott Sauyet,"Merge pull request #2728 from Andarist/fix/rollup-banner
+
+Fixed passing banner option to rollup",True
+7d742b7803d203a396b8ea1511510e274d87abc6,2018-11-29 20:06:49,André Rüdiger,modify tests,False
+8e20b6ad3e5f8d4e206bfad454a59b38127ff86f,2018-11-29 15:45:13,Mateusz Burzyński,Fixed passing banner option to rollup,False
+34108f78f944ce16a95ce216c019f5f292a3e37a,2018-11-29 02:26:10,Scott Sauyet,"Merge pull request #2724 from Andarist/es5-smoke-test
+
+Use uglify instead of terser - this can act as smoke test against shi…",True
+e21d489049268a80e25d587b27b8d70c7d648dab,2018-11-28 18:26:39,Mateusz Burzyński,Use uglify instead of terser - this can act as smoke test against shipping es2015+ code,False
+6709cb8beca00178d2288f79568cc5ca9e95d2f5,2018-11-28 06:55:36,Scott Sauyet,Version 0.26.1,False
+b0c744128fb0a6bf811ff8e1251e4cc84cfbe049,2018-11-28 06:47:38,Scott Sauyet,"Merge pull request #2722 from CrossEye/v0.26.1-tweaks
+
+V0.26.1 tweaks",True
+7a685940a750a063b25fe9422070de7d865ba6ec,2018-11-28 06:39:51,Scott Sauyet,fixing memoizeWith documentation ... again,False
+ce7378642a1b3eb3b2ec4a6a17b67776792ad1d2,2018-11-28 05:37:16,Scott Sauyet,Merge branch 'master' of https://github.com/ramda/ramda,True
+07e2a565c58816b15d36fc2d70f458e7f7b4e21f,2018-11-27 18:26:07,Scott Sauyet,"Merge pull request #2720 from screendriver/const
+
+Change const to var",True
+b634a41d97dab3609daf5108a4ff617f22e2f324,2018-11-27 16:48:34,Christian Rackerseder,Change const to var,False
+ed3c3b5c6435f549eb403a6853ff19d95b0d0998,2018-11-26 22:22:01,Scott Sauyet,"Merge pull request #2717 from peoplenarthax/patch-1
+
+Update docs for memoizeWith",True
+562bedad18511d1a08768e4a5ca46dc2b5037152,2018-11-26 20:39:15,Ángel Paredes,No trailing spaces,False
+9f45be3b9c1aac092d5fc159b2aad3c21700ed99,2018-11-26 20:06:15,Ángel Paredes,"Update docs for memoizeWith
+
+R.memoize does not exist anymore. Update the documentation with no reference to R.memoize",False
+c44a54427e67fee70bc68779e943ca2e5fe3d3c0,2018-11-22 02:34:12,Scott Sauyet,"Merge pull request #2711 from GingerPlusPlus/no-describe-only
+
+Disallow tests to use describe.only",True
+16d1c3a1d303096a445a96717099e2177178f6d4,2018-11-22 02:30:08,GingerPlusPlus,Disallow tests to use describe.only,False
+e1e1cf8b0bd2bdbb360be9867b85346baab18168,2018-11-22 00:30:13,Scott Sauyet,"Merge pull request #2710 from GingerPlusPlus/fix-tests
+
+Fix tests",True
+697f891cd48310a1fd44b92308d4b68bada37047,2018-11-22 00:28:59,Scott Sauyet,"Merge pull request #2703 from GingerPlusPlus/test-source
+
+Disallow tests to depend on build",True
+4c4797dc8eb32c05d7357f54c90df0f80202c7bb,2018-11-21 21:56:53,GingerPlusPlus,Fix tests,False
+89f45409a88a971ce7bcf32934254c038036970d,2018-11-21 19:29:11,Scott Sauyet,"Merge pull request #2694 from MadDeveloper/add-move-function
+
+feat(List): add move function",True
+706bd5b754a5776245a3187ee7a2885bfe67c18b,2018-11-21 19:26:39,Scott Sauyet,"Merge pull request #2709 from adispring/bugfix/otherwise-demo
+
+fix: recoverFromFailure throw error",True
+2f0227fc30e254eac474235d325f68bd58c69e03,2018-11-21 19:22:02,Scott Sauyet,"Merge pull request #2708 from adispring/bugfix/composeWith-typo
+
+fix composeWith second demo result: null -> undefined",True
+f48836c24de639aa1300f373f60213f9ade6b5be,2018-11-21 14:01:40,MadDeveloper,fix(list): does nothing when indexes are outside list outbounds,False
+25c4d1d2a465fafc6440dac53e0f95efd171ce04,2018-11-21 11:14:45,wangzengdi,fix: recoverFromFailure throw error,False
+200716594906bcd711f8aa952d3a6dc1133f9bff,2018-11-21 09:21:04,wangzengdi,fix composeWith second demo result: null -> undefined,False
+3763592a9137f94e37149ee8b63faeca18eb24d3,2018-11-20 17:23:19,MadDeveloper,fix(move): outbounds indexes,False
+b61bcf2e49ab2b80d64d94e2b47a62abcd00dea8,2018-11-19 00:11:49,GingerPlusPlus,Disallow tests to depend on build,False
+7c5d54e8cd5328404fa80bb39959e3cb8408a926,2018-11-18 09:17:27,Scott Sauyet,Version 0.26.0,False
+784d02e18950f2092e1d89bdb32e7cc4b9e18dba,2018-11-18 09:07:37,Scott Sauyet,Version 0.26.0,False
+272521a943e18db762ce5f39a3353018cfcdb8d8,2018-11-18 07:16:53,Scott Sauyet,"Merge pull request #2701 from CrossEye/deprecating-compose-pipe-KP
+
+Deprecating {compose|pipe}{P|K}",True
+1a1630ca619677c9b420ba043b3276bcd07443a3,2018-11-18 07:14:09,Scott Sauyet,Deprecating {compose|pipe}{P|K},False
+a3bd782e39d9bec3f744f97e2974247177327abf,2018-11-18 05:06:16,Scott Sauyet,"Merge pull request #2700 from CrossEye/lint-cleanup
+
+Lint cleanup",True
+b7a4f09f66ed04c7c18d3e86015ad780c6a529ef,2018-11-18 04:43:54,Scott Sauyet,Fixing indentation linting issues,False
+8c028906dd6917eba9da6affd2bcbe9e137b6d61,2018-11-18 03:50:34,Scott Sauyet,Removing 'memoize',False
+2f9eb75840f5f5294d8be6d0942fe02d5fa136fb,2018-11-13 19:29:23,Julien Sergent,fix(move tests): remove .only(),False
+678c9c1f803998b6986b3e4ff4a9118443e6420c,2018-11-13 15:07:49,Julien Sergent,"fix: negative index `to` behaviour
+
+Refactor test in order to remove ""should correctly"".",False
+0547ac1c984d508e16fe2aa36f8c573ca3a777c5,2018-11-13 14:43:19,Julien Sergent,chore(move): improve doc examples,False
+e4cbb9b992fd180bfe06248763916b039cc5160d,2018-11-12 09:47:56,Scott Sauyet,"Merge pull request #2696 from Guck111/addRus
+
+Add rus translate",True
+214e7a34cceba73157b4c2e2a937155f3035f789,2018-11-11 21:20:58,Ars,fix ignore,False
+8dad37f129634768daae361852cc171899cff316,2018-11-10 23:43:54,Ars,add rus translate,False
+09d0a1b943ef3640c1fee8c018b049dd440db93d,2018-11-10 23:42:11,Ars,add rus translate,False
+4f87fafbeb06374a4341365950a3f060fbd28378,2018-11-09 21:30:13,Julien Sergent,feat(List): add move function,False
+e153b937e493344c1ee39c3c11e54f44304017d2,2018-11-05 23:37:24,Scott Sauyet,"Merge pull request #2691 from ramda/CrossEye-patch-1
+
+Security vulnerability in Handlebars",True
+197df1072fd6f16c87bc675e83bf0e2833c20a04,2018-11-04 21:34:41,Scott Sauyet,Security vulnerability in Handlebars,False
+abf0eedb61802eafca1d46691c6f8619bfcfa415,2018-11-04 20:30:54,Scott Sauyet,"Merge pull request #2686 from jamesmarlowe/truefalse
+
+simplify T and F",True
+38566f444f314edb0ef5dd244242a6c2062fd5ec,2018-11-03 08:44:09,Scott Sauyet,"Merge pull request #2565 from Bradcomp/then
+
+Added functions then and otherwise",True
+29d7bea46df6f7719a06840c44a4308509004bd9,2018-11-02 03:10:56,JMARL1,simplify T and F,False
+454494985b8f00d3c0765b5e5e7540bc584ddc29,2018-11-01 05:41:24,Scott Sauyet,"Merge pull request #2683 from jamesmarlowe/intersperse
+
+Improve intersperse example",True
+f50c69e6b262dd67d0055ffa6da4715298125e21,2018-11-01 05:27:03,Scott Sauyet,"Merge pull request #2682 from Maushundb/fix/issue-2681
+
+Fix err with applySpec ""map"" keys",True
+29fe40eafa37657ffdd4be9f8a5e30df2d6a1348,2018-10-31 23:49:05,JMARL1,better example,False
+551f26adbde5e44c5e9681e9b2cf94842df2dead,2018-10-31 04:04:32,Brandon Maushund,"Fix issue with applySpec where a spec object containing the
+""map"" key would return an undefined value.",False
+56575d0a00fe25f358bacaf598e61b7d61abe876,2018-10-29 20:32:14,Scott Sauyet,"Merge pull request #2590 from GingerPlusPlus/fix-none-transducer
+
+Fix and test R.none's support for transducers",True
+75c487579a0e080ccecbdf349944326dee9a1ca3,2018-10-29 20:31:03,Scott Sauyet,"Merge pull request #2591 from GingerPlusPlus/js-extension
+
+Add js extrension to imports and named re-exports in es build",True
+4d5745eaa45ef33e84b11edda6c1d95a68ae60ec,2018-10-29 19:52:59,GingerPlusPlus,And js extrension to imports and named re-exports in es build,False
+cb5005628e56b52b3bcae3dddc8385f70f08f46c,2018-10-29 19:50:33,Scott Sauyet,"Merge pull request #2678 from vsimko/mjs-support
+
+support native modules in node when using `.mjs` extension",True
+0cdbad030151dfcaeb567e39042a646e96e69122,2018-10-29 05:11:48,Scott Sauyet,"Merge pull request #2616 from GingerPlusPlus/repl
+
+Add repl script",True
+877bd9f331b5dac7cdf66416d92a408c28fa9796,2018-10-26 14:05:18,Viliam Simko,"The ""main"" entry in package.json should be without extension.
+
+Related stackoverflow question: https://stackoverflow.com/questions/46418010/publish-es-module-mjs-to-npmjs-with-backwards-compatibility-for-node-8-5-0",False
+79a7d9d893dd50c995b25b8fd4e1ecd8e96a4abc,2018-10-26 13:44:48,Viliam Simko,support native modules in node when using `.mjs` extension,False
+97b40e565ffa1b9bf48b0514b5cd15a0b46f6ac5,2018-10-23 22:44:44,Scott Sauyet,"Merge pull request #2677 from vsimko/master
+
+remove mentions of .js extension from imports",True
+ea32c9c4633c6727037a17a9dafa5767b70c5f48,2018-10-23 19:07:09,Viliam Simko,remove mentions of .js extension from imports,False
+d18608e48db627fcb041ead913c02d6621803d29,2018-10-18 04:30:55,Scott Sauyet,"Merge pull request #2511 from bobwei/feature/evolve-with-array-of-transformations
+
+Be able to evolve with an array of transformations",True
+c46486893d0e3953d50ecdc3fe19bca8ebec1a4a,2018-10-17 19:48:51,Scott Sauyet,"Merge pull request #2673 from guysaar223/patch-1
+
+is not valid json",True
+f2cd95e7d8f10e280516864419a7f3f9bd01b58a,2018-10-17 18:55:01,Guy Saar,is not valid json,False
+b99d1efb2056af5cf96ec55341ce5eb918b2602b,2018-10-16 15:43:34,André Rüdiger,improve docs w.r.t. index paths,False
+9fc050bbbb40a4191988a6fe99f172689c119216,2018-10-16 15:42:42,André Rüdiger,add dedicated index tests for path,False
+f512a47a4aaba62b37362b6a2d335449b77fdcf4,2018-10-12 15:20:11,André Rüdiger,align lensPath with lensIndex by supporting negative indeces,False
+a07d493947899dbc376c2472b56f1d238f29c47b,2018-10-11 01:44:10,Scott Sauyet,"Merge pull request #2666 from lexjacobs/patch-1
+
+Update any.js",True
+c52096be3a2703ca2116e26771d00a880192c615,2018-10-10 22:10:31,Alex Jacobs,"Update any.js
+
+Grammatical clarification.",False
+c9c8811e838b592efa400ab193ce4c68704778e2,2018-10-02 22:56:19,Scott Sauyet,"Merge pull request #2660 from bidhan-a/test-fixes
+
+Fix messages in test cases for gt, gte, and lte",True
+aa73bd14ac29d0efad836a517ae506babafcccfc,2018-10-02 20:37:49,bidhan-a,"Fix messages in test cases for gt, gte, and lte",False
+e082390656acf1426a26172ab9d19a193931ec55,2018-09-24 13:13:17,Scott Sauyet,"Merge pull request #2655 from foxbunny/contrib/replace-docs
+
+Improve R.replace() documentation",True
+acae8d69b1656a555fd64a63ab60208aa4cfdf56,2018-09-24 11:35:31,Hajime Yamasaki Vukelic,Add a note about R.replace() delegating to String.prototype.replace(),False
+5ec7e5bf2aac1c5e6943975277058d34e5a71573,2018-09-23 02:32:47,Scott Sauyet,"Merge pull request #2656 from morgsmccauley/add-supported-functions-to-reduced-docs
+
+Add list of supported functions in reduced docs",True
+2ab672743295f96b0710eaee75812e41cbebef7e,2018-09-21 07:33:42,Morgan McCauley,Add list of supported functions in reduced docs,False
+8ddcceb0083c65c4657f1dabc3e01d1afd688e53,2018-09-14 21:15:21,Scott Sauyet,"Merge pull request #2650 from surmind/patch-1
+
+missing a '(' in sig of addIndex",True
+e059d3799ccabc1e260c83b534a8f2b4783f3664,2018-09-14 12:26:09,XiongLiding,missing a '(' in @sig,False
+df57eaf6a428e320ea3dfc82640115712631a1b3,2018-09-10 08:37:43,Scott Sauyet,"Merge pull request #2649 from objectisundefined/master
+
+Fix test of `API surface`",True
+5e7df92a0c9c788b0ee274effb6a465abb743cd2,2018-09-10 08:17:03,objectisundefined,Fix test of `API surface`,False
+316fa3de0620ddf1af3e9871a0bba37e89cf7a75,2018-08-16 00:20:42,Evan King,Expand documentation of `memoize` and `memoizeWith` to clarify their limitations and help users find `memoizeWith(toString)` in lieu of choosing a deprecated function.,False
+d91e8e757a67acf7703559032a8e69799ecfc410,2018-08-13 20:41:04,Scott Sauyet,"Merge pull request #2630 from skallet/thread-with-sq
+
+Added pipeWith/composeWith functions",True
+653d173473bdba497956140b29ef364b948e220e,2018-08-11 01:52:04,skall,Added pipeWith/composeWith functions,False
+2bd95e7a6b0b126310c25b1715c4ebb32858a362,2018-07-26 23:25:06,GingerPlusPlus,Add repl script,False
+143ec24cc0c6144576c10dced5d7a494347b5cf6,2018-07-26 19:37:24,Scott Sauyet,"Merge pull request #2589 from GingerPlusPlus/patch-1
+
+[CI] Drop support for Node older than 8.x",True
+2d37290352d971dd15cc25d2dce03e7876792571,2018-07-26 19:36:40,Scott Sauyet,"Merge pull request #2599 from GingerPlusPlus/simplify-testing
+
+Fix and simplify testing",True
+1458e6342550c65e115f7a458999ac5a129f8d97,2018-07-26 14:04:09,GingerPlusPlus,Use babelify to avoid temporary files in browser tests,False
+4ee64bd738256e21aca3f46d0a5fdd7a73dd19ee,2018-07-26 14:04:09,GingerPlusPlus,Use babel-register to avoid temporary files in Node tests,False
+7df1eed14b6c5f87430c6951fb6809a7871f536d,2018-07-25 00:47:55,Scott Sauyet,"Merge pull request #2604 from GingerPlusPlus/prepare-script
+
+Add prepare npm script",True
+92050a6326692cf2e0aa30be7c6d7b1459434072,2018-07-25 00:43:05,Scott Sauyet,"Merge pull request #2610 from GingerPlusPlus/fix-umd-min
+
+Fix build:umd:min",True
+a4fc26433f76142350948b476852773620a81138,2018-07-24 15:16:40,GingerPlusPlus,Fix build:umd:min,False
+726df240e8c43436ce4edbc8b9dfe69f8b3dd362,2018-07-23 17:48:08,GingerPlusPlus,Add prepare npm script,False
+154fa4c091098a2730cba5c0420e23f10bd8c9ab,2018-07-15 23:49:52,GingerPlusPlus,Fix tests on Node 10,False
+3b5ec23f0e19a125fd91a8061500c47cd588a185,2018-07-15 20:15:33,GingerPlusPlus,Fix and test R.none's support for transducers,False
+d6df73527b97c6d3714365471c7500d1fd61a329,2018-07-15 19:45:41,GingerPlusPlus,[CI] Drop support for Node older than 8.x,False
+1bbaeae94ab4fc7f4536f50aaf21c8508a25858d,2018-07-11 20:11:48,Scott Sauyet,"Merge pull request #2581 from cuchi/improve-difference
+
+Improving the time complexity for the difference function",True
+2d1a225424cf19d121aea7f39f677c5bdc818381,2018-07-09 17:54:06,Paulo Henrique Cuchi,Improve difference time complexity,False
+429b43edb6c8dfc6cb88e715e21e54597322975c,2018-07-07 21:11:25,Bradley Compton,Added functions then and otherwise,False
+d6558dd2b8136af1ffcda4c9b4c54f14f27324f4,2018-06-27 04:58:41,Scott Sauyet,"Merge pull request #2569 from matthewdaniel/master
+
+adding similar omit/pick to see also on dissoc/assoc",True
+64348881cef0b7167907503ea4451efc34aa9716,2018-06-27 02:07:19,Matt Meisberger,adding similar omit/pick to see also on dissoc/assoc,False
+fb2044a9bfb59616de05055a8e792639b602b62e,2018-06-21 00:31:04,Michael Hurley,"Merge pull request #2562 from crashspringfield/doc-example-updates
+
+update ascend, comparator, descend docs",True
+5b0fa7b090a8f25dccba2ecc9a60c30ac11a6ec0,2018-06-18 20:49:17,Scott Sauyet,"Merge pull request #2551 from nfantone/feature/thunkify
+
+Add thunkify function",True
+8d22228b18773744105697584ae7a8c767b7e881,2018-06-15 07:38:06,Brad Compton,"Merge pull request #2545 from MilanLempera/master
+
+fix dissocPath for non-string types in path #2543",True
+954081514ae585a27e6e9dd50c8a7f28b95865b9,2018-06-15 01:15:54,crashspingfield,"update ascend, comparator, descend docs",False
+b99e942e116e992c15ab2d662203d8f15c213c0b,2018-06-14 06:57:42,Nicolás Fantone,Ensure thunkified function has same arity as input,False
+1d7505d2af2d738234107ea8ab4b291a67575db7,2018-06-14 06:36:30,Nicolás Fantone,Remove unneeded thunkify tests,False
+d5068b38dd8abae0166d3c2175baf6831a4b7fd9,2018-06-14 06:35:43,Nicolás Fantone,Curry function returned by thunkify,False
+b50a1c7f8516289d90083f52d7da0370d74f62ee,2018-06-13 00:30:08,Scott Sauyet,"Merge pull request #2558 from CrossEye/docs-for-reduceby
+
+Cleaner example for reduceBy",True
+71293f400c9087cbd1647620e65534d6b2122ea8,2018-06-12 22:55:58,Scott Sauyet,Using another destruct for consistency,False
+19c284d06330f1c4e4fd05a207d3b5a5f25a0b3e,2018-06-12 22:31:04,Scott Sauyet,Using destructuring rather than default param,False
+06f84cb8e3d3b969552fbf61b0141b0278cc8040,2018-06-12 20:15:13,Scott Sauyet,Clean-up,False
+9a3a12295984698a0d48922dc2165004c17dfa3b,2018-06-12 19:31:08,Scott Sauyet,Cleaner example for reduceBy,False
+25b4c7bc5d298e056d6287785a91637844349308,2018-06-07 02:10:30,Nicolás Fantone,Add extra thunkify example,False
+bc0946d2500911dcc7a47c50ef435c17ff14a857,2018-06-07 01:10:55,Nicolás Fantone,Set appropriate thunkify signature,False
+391758b0af88b1e3dc8923fd843033eae77680ab,2018-06-06 02:19:15,Scott Sauyet,"Merge pull request #2553 from chriddyp/patch-1
+
+reference R.without in the R.remove docs",True
+fc74c61bae398ea6aa8a2f62de325a19e868dc69,2018-06-06 01:31:48,Chris Parmer,reference R.remove in the R.without docs,False
+1ca254c3a2f68a3a1799ad50e292325d8eea90ff,2018-06-06 00:21:06,Chris Parmer,reference R.without in the R.remove docs,False
+601c18106b15a2d4194bcb9f65a35fd6a665dad5,2018-06-02 21:51:39,Nicolás Fantone,Add test for thunkify partial arguments support,False
+b882e1ed07bb643e66f40bd292964077351c0873,2018-06-02 21:23:28,Nicolás Fantone,Remove @since annotation in thunkify,False
+5c4613587b1bea1661be81326f8d694552b460a1,2018-06-02 21:15:44,Nicolás Fantone,Add thunkify function,False
+996a43b6d8161ac906cb8e634ae483f713aacf42,2018-05-31 21:10:46,Scott Sauyet,"Merge pull request #2549 from dimitropoulos/patch-2
+
+typo: extraneous space",True
+25dd0ce70af69a966511c244d1ad05147757259e,2018-05-31 00:54:09,Dimitri Mitropoulos,"typo: extraneous space
+
+call me crazy if you want, haha.  Thanks guys!",False
+28d1bdba0c38314113df8f406264c9daf5701b72,2018-05-30 10:53:41,Milan Lempera,fix dissocPath  - better test name,False
+3db35c4cdc6827d2eb68408e578efecf271d0494,2018-05-26 22:49:34,Milan Lempera,test simplification - better expresses intent,False
+94135ca7da661e7f81c2c9b4d9e5348e138b2560,2018-05-26 20:00:50,Milan Lempera,fix dissocPath for non-string types in path #2543,False
+08efb8a24eadd4ea376a9774b92cf6a7287fb81b,2018-05-24 07:25:08,Scott Sauyet,"Merge pull request #2541 from LoganElliott/master
+
+Change http references to https",True
+3c0579037f00ef07b006c0b918f80e62251476b2,2018-05-24 07:14:44,Logan,"Update package.json
+
+Update homepage url from http to https.",False
+3108a0bf0ed81e3437c0dfd9523eaa0a71cc2f8c,2018-05-24 07:13:23,Logan,"Update README.md
+
+Update reference http docs to https.",False
+b99d425f7cd70efe2c58d8a86331d177632ced1e,2018-05-21 23:14:16,Scott Sauyet,"Merge pull request #2538 from Undistraction/add-fantasy-land-field
+
+add ‘fantasy-land’ to package.json keywords",True
+2fe0d8db5ebbfd3f7df38abd23ea968cf03c6a95,2018-05-21 22:49:53,Pedr Browne,add ‘fantasy-land’ to package.json keywords,False
+a0c751742d40b3193d139ffdfc45244e62377b54,2018-05-21 17:33:34,Michael Hurley,"Merge pull request #2535 from Undistraction/add-keywords-field
+
+Add keywords field to package.json",True
+debcbda6e5a2e56ca062e37287b59170106a2a4c,2018-05-19 04:26:29,Pedr Browne,"Add keywords field to package.json
+
+Closes #2531",False
+4e1acb236b584e536d64b0b04070f202e059ac6b,2018-05-19 00:09:15,Scott Sauyet,Pointing to the logo over SSL,False
+9d33bc9dc4a02255d3ec9ead47659c6bc74e02c4,2018-05-04 19:28:06,Simon Friis Vindum,"Merge pull request #2451 from dimitropoulos/patch-1
+
+add example to defaultTo",True
+594515e243ae3b60d668612da6548e6ae66d5335,2018-05-02 21:46:30,Scott Sauyet,"Merge pull request #2520 from edjroz/master
+
+fix documentation on tryCatch method",True
+3894addeb7e61d4793ba9a2b730d856ab3aa16fc,2018-05-01 05:14:27,Eduardo Diaz,fix documentation on tryCatch method,False
+e5cbc08eb5ab851cdea316f9778f1dde8c5316a2,2018-04-26 00:10:57,Kiran Rao,"Remove unnecessary currying from pluck example documentation (#2516)
+
+* Remove unnecessary currying in example
+
+* Include curried example",False
+9461a762aa12a3b9b54f154aefa85589d6de870a,2018-04-21 00:05:19,Rob Hilgefort,Drop `proxy` check for `_isFunction`,False
+1d49b6d29ce3596a55f99ee1d8566cc593aed2e1,2018-04-20 21:29:01,Rob Hilgefort,Enhance internal `_isFunction` to handle more function types,False
+bbaa2350a5471f9b08ded7556c98fec0b2b825d3,2018-04-18 15:09:36,Bob Wei,Be able to evolve with an array of transformations,False
+ffec845c2267a47ec7698c2fb61ce8579088297f,2018-04-12 04:17:57,Scott Sauyet,"Merge pull request #2501 from vitalets/has-path
+
+add hasPath",True
+654343a336b66efba284dd6ab1198e8de1ed0f48,2018-04-10 19:51:13,vitalets,"add hasPath, see #2499",False
+212104c0df4b5575da33170d588cd572b3a0d59d,2018-04-09 22:20:26,Scott Sauyet,"Merge pull request #2500 from craigayre/add-prop-curried-example
+
+Add additional example to prop.js",True
+198c883150488c5d140e02214522a576048a2dcb,2018-04-07 16:45:52,Craig Ayre,Remove trailing space,False
+dcad3cecac92b992b7c884458ef35b84959e6154,2018-04-07 03:23:08,Craig Ayre,Change example from map prop to compose inc,False
+77ef7964ca9df7f19caa34fdfb3fc6225bcfeb04,2018-04-07 00:34:21,Craig Ayre,Add curried example to prop.js,False
+9e5107e6e021b35179401eb719283cd835687d51,2018-03-12 02:42:31,Simon Friis Vindum,"Merge pull request #2454 from Xorhail/remove-deprecated-function-references
+
+Removed references to deprecated function in docs",True
+99c19721bac59df31c09b6d2ce371fa7593fc0b8,2018-03-10 22:18:32,Scott Sauyet,"Merge pull request #2486 from bouzlibop/fix-typo-in-range-docs
+
+Fix typo in `range` docs",True
+acb95cd135a06ad3d165e492c2b46dce46c6534d,2018-03-10 14:59:39,Adrian Baran,Fix typo in `range` docs,False
+33855e6d2bbeac40233e1885bd5089f3f0739627,2018-03-10 03:10:46,Scott Sauyet,"Merge pull request #2484 from vitalets/patch-1
+
+Add docs for `chain` about function as second argument",True
+c9c78c909eaf422b6f16c957c766fc60467cef6d,2018-03-10 00:51:43,Vitaliy Potapov,Add docs for `chain` about function as second argument,False
+44c2337d1e47f9c5939f2766398805d814c6b6c5,2018-03-08 12:26:20,Vitaliy Potapov,"Add docs for `chain` about function as second argument
+
+It was discussed in https://github.com/ramda/ramda/issues/2480#issuecomment-368917060",False
+46d8e5bc7425ee594466d45df8b14c2dec999e4a,2018-02-20 08:44:13,Scott Sauyet,"Merge pull request #2471 from andys8/patch-1
+
+Readme: Import changed in v0.25",True
+afa10d341d22c982ed9105c75b01e72460dc8379,2018-02-19 22:57:56,Andy,Readme: Destructured import,False
+f64685b1a31634cd03eda40df6568077a8526296,2018-02-18 01:37:39,Scott Sauyet,"Merge pull request #2472 from andys8/docs-replace-var-with-const
+
+Changed var to const in examples",True
+e02a6ab9f2b5c9fb3b29485ac4efd84b4b4c7607,2018-02-18 01:34:42,Scott Sauyet,"Merge pull request #2473 from andys8/patch-2
+
+Travis using node in version 8",True
+f4bca437a735384b8bcec22a905f3a0fb055b4ac,2018-02-17 19:10:34,Andy,Travis using node in version 8,False
+84ecc3e5371118e1f25071b497162cc8abf183d8,2018-02-17 18:56:13,andys8,Changed var to const in examples,False
+b15aeceaa3631e38accf7d584b2855397f6c4fcb,2018-02-17 03:48:44,Andy,Readme: Import changed in v0.25,False
+97d351aa880eb32e0857398d8114cdc17e26b0fa,2018-02-13 00:32:18,Scott Sauyet,"Merge pull request #2452 from paldepind/rename-contains-to-includes
+
+Rename contains to includes",True
+24152e7d84b323b34143d082619b036ee50618a3,2018-02-08 21:23:24,Scott Sauyet,"Merge pull request #2466 from chrokh/doc-converge-arity
+
+Clarify the arity of the function returned by converge.",True
+306a47c17ec5fac754d729c6f057416f456453fa,2018-02-08 14:58:42,chrokh,Clarify the arity of the function returned by converge.,False
+b5e2387e5bbfb91a58b2106ec5722c9f4dd17d70,2018-02-08 01:55:44,Scott Sauyet,"Merge pull request #2465 from leo19920823/master
+
+add @see for startsWith and endsWith",True
+376bc9af23ffd8e56ddace74ad02063d38873a1d,2018-02-07 21:45:30,Leo,Update endsWith.js,False
+5aa4858e070d700ddb925ce1bf6a149c50dd6297,2018-02-07 20:33:56,Leo,Update endsWith.js,False
+ecea2068cfa5b875a6ed02f9f77e67a2ab6e3451,2018-02-07 20:33:25,Leo,Update startsWith.js,False
+1fb842d79f1c36e4c67d3fa98b84570085dd21d9,2018-02-06 23:52:56,Scott Sauyet,"Merge pull request #2462 from chrokh/sortBy-example-fix
+
+Fix order of examples for sortBy.",True
+ab51d2eb632d45209f0a51046e92b9857629d6f0,2018-02-06 14:52:37,chrokh,Fix order of examples for sortBy.,False
+c0555aafa87149ec6f7bdb794bef9d1a660c0fb9,2018-01-31 23:20:06,Tim Crisp,Removed references to deprecated function in docs,False
+34d2b9e63d94533b5025e407d77a3bb1e7206c6c,2018-01-31 16:52:32,Simon Friis Vindum,Rename contains to includes,False
+9d824a56ed064abff645f22951ddcaceab7b32ad,2018-01-28 07:13:21,Dimitri Mitropoulos,typo,False
+3aaf90ecb29013ffe5eefe23dec94ae29c8848a7,2018-01-28 07:10:49,Dimitri Mitropoulos,"add example to defaultTo
+
+This is to clarify that some falsey values are allowed through.  I realize that the reader can deduce that, but this simple example might be a flag to the uninitiated that this isn't a falsey check.",False
+97dcec41e746b25d973df201905a6c6dd50129da,2018-01-27 01:00:51,Scott Sauyet,"Merge pull request #2446 from AndrewSouthpaw/patch-2
+
+Provide babel-plugin-ramda example, clarify docs.",True
+99d582bc7efcd2de9642b2f18e3f3e8d0eb65f5e,2018-01-23 09:54:47,Andrew Smith,"Fix typo, Rollbar -> Rollup.",False
+17efc00f7234e09d80f74528f60f15472e53f2b1,2018-01-23 05:44:27,Andrew Smith,"Provide babel-plugin-ramda example, clarify docs.",False
+255565b0a7c2a4562566966359619f9f2e1baf2a,2018-01-23 01:16:33,Scott Sauyet,"Merge pull request #2441 from AndrewSouthpaw/patch-1
+
+Add docs on reducing bundle size for Ramda.",True
+eb62935cd3e11e0a3f75afb3a59838b090796d6b,2018-01-20 13:11:58,Andrew Smith,Add docs on reducing bundle size for Ramda.,False
+8ac151c52a733368938369b7bfbbded709690a0c,2018-01-15 05:33:31,Scott Sauyet,"Merge pull request #2436 from pito-svk/contains-using-string
+
+R.contains using string",True
+c400e6f90262351125135e190314cfb94ccfdc66,2018-01-14 14:05:15,Peter Parada,Add example using R.contains with string,False
+52fabfa796f995c1afa5b21059a66ae33925b407,2018-01-09 22:43:55,Scott Sauyet,"Merge pull request #2432 from JasonSooter/patch-1
+
+Update documentation for R.o",True
+a277d26543d20513c2c214222cb3efe44f363640,2018-01-09 21:47:33,JasonSooter,Update phrasing of naming origin,False
+b3b3b8660a546c17b99e35bff1360b3eae36f1bd,2018-01-09 11:54:15,JasonSooter,Fix linting issue due to trailing space on line 10,False
+6b6da0e0ed11d61f372e6a0a70cad90a75b49ca3,2018-01-09 03:29:00,JasonSooter,"Update documentation for R.o
+
+Change prompted by conversation on issue https://github.com/ramda/ramda/issues/2430",False
+3ea6e362fc0941583ab3cd3f1d0a56b9d57e0183,2018-01-03 18:46:52,Michael Hurley,"Merge pull request #2424 from JustinTRoss/patch-1
+
+Update Copyright Years",True
+e0f61aa005abcf8c61c7c5821e9034ff16b912ec,2018-01-03 09:26:13,Justin Ross,Update Copyright Years,False
+8ca4586e82bcbe8f0bb9c1da155660b68b099726,2017-12-16 08:18:18,Scott Sauyet,"Merge pull request #2371 from adispring/optimize-ap-description
+
+Let R.ap function's signature more formal as an Applicative Functor",True
+3eaf20d8b32d6b3e4e0daa4871041445e197f96a,2017-12-13 20:26:23,Scott Sauyet,"Merge pull request #2412 from plumdog/fix_docs_for_startsWith_and_endsWith
+
+Fix docs for startsWith and endsWith",True
+11f4d204ac2e19495240bee8422876ddd1718dd4,2017-12-12 07:47:16,Scott Sauyet,"Merge pull request #2409 from chiraggshah/documentation-related-to-v0.25
+
+Added documentation related to changes in default export",True
+4205d634d18fc9079ebb83e4ac4322003bce475a,2017-12-10 03:46:20,Andrew Plummer,Fix docs for startsWith and endsWith,False
+2e96e2ae094506fd047e88aba33e7b76635b902b,2017-12-08 16:24:09,Chirag Shah,Added documentation related to changes in default export,False
+65b8ed98fa297cf6d14f491b2e5380f564904571,2017-12-08 06:13:09,Scott Sauyet,"Merge pull request #2408 from arizonatribe/fix-traverse-example
+
+Simple fix to the traverse example so that it works in the REPL",True
+8da4e43d9e36bf31e9a5412c20bf9a3a53095275,2017-12-08 04:20:49,David Nunez,Simple fix to the traverse example so that it works in the REPL,False
+8ef5cbb0aff26bba2c9e7efd9cbed3d8d1eccebd,2017-11-29 03:08:57,Scott Sauyet,"Merge pull request #2365 from hrldcpr/mergeLeft-mergeRight
+
+add mergeLeft and mergeRight",True
+e58a9201838d9957b1a8e32bbccc52f6b5b07696,2017-11-26 11:55:31,Drew Goodwin,Undo change to mapAccumRight accumulator argument order (#2390),False
+1aba18bc0c99bdc3e4181b65edfedb48be50cc87,2017-11-22 23:24:29,Scott Sauyet,"Merge pull request #2394 from CrossEye/fix-pathOr-propOr-inconsistency
+
+reimplementing propOr atop pathOr, fixes #2391",True
+e26fe5bd606855e9c52d291dc9ce6a56ccfbf461,2017-11-22 20:08:59,Scott Sauyet,"reimplementing propOr atop pathOr, fixes #2391",False
+4e3c65dbd05bf77061db112358ced5d3b4962ad2,2017-11-16 07:31:55,Michael Hurley,"Merge pull request #2387 from buzzdecafe/mi-fix
+
+fix for  Duplicate declaration 'values' example error in repl",True
+e5b782e890a24f15ad463f59a61a820625b14d22,2017-11-16 07:00:33,Michael Hurley,fix for  Duplicate declaration 'values' example error in repl,False
+555e075ec8e9c1ad40ecdbba03d84d98a81a2f25,2017-11-09 18:28:44,Michael Hurley,"Merge pull request #2379 from lolcookie/update-tryCatch-example
+
+Update tryCatch example to show correct behaviour",True
+6458869c48de7cb69797cdc662360d033f11fcba,2017-11-09 13:10:12,lolcookie,Update tryCatch example to show correct behaviour,False
+a513127727a45a169b4c4929d371555592416a3d,2017-11-08 23:10:29,Roman Chukhan,"Misleading documentation of ""either"" and ""both"" methods fix (#2373)",False
+ed686acaa4a50d4eca31a077bd8651029f09a56b,2017-10-27 14:43:30,wangzengdi,Let Function's type signature more formal as an Applicative Functor Instance,False
+bac8d4f1025ee6e93a72db4fc9d73a5bc422dcb2,2017-10-26 22:28:18,Harold Cooper,add R.mergeRight and R.mergeLeft,False
+2234fdb01469f693ec4111d52b537ba23a4efce9,2017-10-25 18:03:20,Scott Sauyet,"Merge pull request #2369 from Andarist/rename/side-effects
+
+Rename side-effects entry in package.json to sideEffects",True
+b0b1c1fdaa04fbd6ca494d952aa511339c90f0f6,2017-10-25 14:11:37,Mateusz Burzyński,Rename side-effects entry in package.json to sideEffects,False
+3e7f9289f71c1e078866832c6cc36aa0d8de17ca,2017-10-24 01:39:29,Scott Sauyet,"Merge pull request #2363 from ramda/revert-2362-optimze-both-either-description
+
+Revert ""optimize both & either description""",True
+61302019fd466de57631ff7d4d3454ec9ad02a35,2017-10-24 01:27:20,Scott Sauyet,"Revert ""optimize both & either description""",False
+681b214d80164509da2bd11cf4dd9151a64fedf6,2017-10-23 20:57:59,Michael Hurley,"Merge pull request #2362 from adispring/optimze-both-either-description
+
+optimize both & either description",True
+a3f30ec82b691126d981576cad1ce9bbca607332,2017-10-23 20:43:00,wangzengdi,optimize both & either description,False
+7b4cf0094e8cb5438f56f07a099c30e7a4e1d161,2017-10-23 20:40:42,Scott Sauyet,"Merge pull request #2360 from adispring/link-curry-partial
+
+add link to curry and partial",True
+7252ec08852f5662a0a282e556d84229d835d921,2017-10-23 20:40:04,Scott Sauyet,"Merge pull request #2357 from adispring/add-into-see
+
+add @see to into",True
+40430beadb610cfb548fbe14de83c45ddad34f73,2017-10-23 20:39:37,Scott Sauyet,"Merge pull request #2358 from adispring/link-reduceBy-to-groupBy
+
+link reduceBy to groupBy",True
+08a69104ceb52f5165f222cb1872849a7f099f16,2017-10-23 10:41:55,wangzengdi,add link to curry and partial,False
+b8b05d4665f21f3e4676b4b80832768f3b3c5689,2017-10-23 08:56:04,wangzengdi,remove R.reduce in R.into @see,False
+546736148b8ca62bab777d7fa52368fe9e3867e6,2017-10-23 08:15:57,Scott Sauyet,"Merge pull request #2359 from adispring/link-scan-mapAccum
+
+link scan & mapAccum",True
+176f10f29c24cda095e9f1602c392c8a58894786,2017-10-23 08:03:28,wangzengdi,link scan & mapAccum,False
+6271c286f05275221f0d36903d198aac8be10405,2017-10-23 06:16:50,wangzengdi,link reduceBy to groupBy,False
+686a4e233eb9c23628567b12372a9b8c59cce199,2017-10-23 05:56:17,wangzengdi,add @see to into,False
+a4b818a55dcbb48df3a0fb359f10a5e099d0a363,2017-10-20 20:43:28,Scott Sauyet,"Merge pull request #2353 from paldepind/adjust-index-first
+
+Change argument order of adjust",True
+3ecb8ba92e651a08821632b0092761ff1876e73d,2017-10-20 00:19:05,paldepind,Change argument order of adjust,False
+1a61378c1811479d9820f13581345a9baacf4129,2017-10-20 00:11:53,Michael Hurley,"Merge pull request #2350 from kurtmilam/add-findLastIndex-tests
+
+Add 'dispatches to transfomer objects' tests for find* functions",True
+1afa022f697fc0bd295381c297985c18f045ea14,2017-10-19 22:52:43,Kurt Milam,Merge branch 'master' into add-findLastIndex-tests,True
+3b7e0fd3b1ef20bd3f3865cf14231d946dbe3fd5,2017-10-19 20:55:23,Michael Hurley,"Merge pull request #2352 from davidchambers/curry-tests
+
+test: remove redundant currying and placeholder tests",True
+5e234c908416d24ef1f49068528a0ff34406682e,2017-10-19 19:12:35,David Chambers,test: remove redundant currying and placeholder tests,False
+1877b7f5b30e7c1d4b69647b45725e694dfe4af6,2017-10-19 14:43:04,Kurt Milam,"Add 'dispatches to transfomer objects' tests for find* functions
+
+Includes find, findIndex, findLast and findLastIndex.",False
+c58dd1bbc3f525a92991afe813c86c7676fad2d5,2017-10-18 22:08:00,Scott Sauyet,"Merge pull request #2344 from kurtmilam/check-undefined-isTransformer
+
+Guard null and undefined before accessing prop in _IsTransformer",True
+a1ffe3db5bbd1d15c5fd81f9e2eedeee5bd134ab,2017-10-18 21:47:55,Kurt Milam,Add transfomer and transducer tests for findLastIndex,False
+89842f055abd37bfc946a2a8245f6fb46f0211bc,2017-10-17 23:55:38,Scott Sauyet,"Merge pull request #2349 from kedashoe/doc-transducer
+
+functions missing transducer documentation",True
+0496f6b54c63097aa397c12280339e7a62532167,2017-10-17 23:06:21,David Chambers,"Merge pull request #2348 from davidchambers/is-arguments
+
+fix _isArguments",True
+63778388b8bba6168c0fb04864caa6544bc38b68,2017-10-17 22:58:50,kedashoe,functions missing transducer documentation,False
+0f4c1cf174722103eb5e72c2eee449a770a8e7e2,2017-10-17 21:35:07,David Chambers,fix _isArguments,False
+37da98647bfd8f7a7907eb70ac62e3740b96ea4f,2017-10-17 12:15:57,Kurt Milam,"Guard null and undefined before accessing prop in _IsTransformer
+
+_IsTransformer was naively checking for an object property on an
+argument without first ensuring that the argument was neither null nor
+undefined.",False
+baf9292625c9074637c187dabe664239eb40f11b,2017-10-17 00:20:25,Michael Hurley,"Merge pull request #2338 from asaf-romano/object-is-identical
+
+Use Object.is as the implementation of R.identical if available",True
+19e9ee2ee2577aa895c2e2c712b4e02e912532b6,2017-10-16 17:45:37,Michael Hurley,"Merge pull request #1956 from Bradcomp/reomve-node-0.10-support
+
+Removed node v0.10 support and Q devDependency",True
+73227a567123155f9037e8234ae1d7127cf891b4,2017-10-15 02:21:27,wangzengdi,"add link to cond, ifElse, unless and when. (#2341)",False
+c49ada6cd2f898f654d041bbb2bce26a0448e7c8,2017-10-13 14:02:25,Asaf Romano,"Use Object.is as the implementation of R.identical if available
+
+Object.is is identical to R.identical. Similar to what we did with
+Object.assign few versions ago, this PR sets R.identical to
+~~curry(Object.is) when possible, and polyfills it otherwise.
+
+Also in this PR:
+1. Simply “polyfilling” conventions (which I am to blame for, btw)
+2) In R.equals use _objectIs rather than identical, which is what we
+should do at least until curry performance issues are addressed. This
+code path is simply evaluated too much for any abstraction to survive.",False
+ddb624aadd9227ca31478af154205c0498162726,2017-10-13 04:37:38,Kevin Wallace,fix version updates missed by prepublish and patch prepublish script (#2323),False
+7625fe3d8a5b6767487fbb86ff9c09b1cbb55793,2017-10-13 01:46:29,Scott Sauyet,"Merge pull request #2321 from codeclown/adjust-docs
+
+Add examples of negative indexes to R.update and R.adjust",True
+861b539caa5812a5e71411e519325b34c36dcf7d,2017-10-13 00:56:08,Martti Laine,Remove unnecessary examples,False
+53cacc89a6b254fdb781200cbaaf7ef398849f45,2017-10-12 23:24:56,Martti Laine,Update contributing.md (#2320),False
+10c18f520acf0cc5ed3b3151b6231c2859b541b2,2017-10-12 23:16:15,Mateusz Burzyński,Fixed JSDocs for __ (#2332),False
+ac4ef7bcd62ec51555c7b9d3bae841e1575ef0ff,2017-10-12 22:33:45,Martti Laine,R.adjust - Add example of negative index to documentation,False
+6e5f7641299b48d2cd745f281d02047aebbabc27,2017-10-12 22:33:32,Martti Laine,R.update - Add example of negative index to documentation,False
+46b1023dba0ec861a8c11f6cac94285b94d31d6d,2017-10-12 10:15:31,Robert Chang,Fix trim and keys which cause isses when generating document (#2327),False
+ad09c10ebef5c6d20203ed44d2bce5a86599de36,2017-10-11 23:25:20,Scott Sauyet,"Merge pull request #2326 from feimosi/patch-1
+
+Put the whole bookmarklet code inside markdown snippet",True
+83a4c5ffed08d1709ad604be5e8929753ce200ca,2017-10-11 22:15:07,Michael Hurley,"Merge pull request #2329 from adispring/optimize-propEq-see
+
+optimize propEq see from where to whereEq",True
+c0caa1bd3da59f204244ed3a3267c691871e0345,2017-10-11 21:58:16,wangzengdi,optimize propEq see from where to whereEq,False
+8978d8d899fd9fdef19321f0788d4b86995dc9f0,2017-10-11 15:20:16,Marek Grzybek,Put the whole bookmarklet code inside markdown snippet,False
+960443c4f34ef196876039924b0a763f5f9cd5c9,2017-10-11 02:31:27,Michael Hurley,"Merge pull request #2325 from pauloliver/if-else-docs
+
+Fix ifElse docs",True
+6344bf9b602e09e2a0f393fee5ad8ce9cdde438e,2017-10-11 01:28:02,Paul Heimburg,fix ifElse docs,False
+7295ac7718e536b62514e1706c21a53c41f680c2,2017-10-10 10:52:01,Ika,"docs(applyTo): fix jsdoc alignment (#2324)
+
+:+1:",False
+3dfce5ee44d287b8a6c0460cf57fb9d5a2f468dc,2017-10-09 22:49:20,kedashoe,Version 0.25.0,False
+a2737704955bff84b73394da25a5a20b91234af4,2017-10-09 22:46:12,Kevin Wallace,use new source directory in prepublish script (#2318),False
+6cd9a6f446b50f07b1a0b047ebde8e2455cba0d1,2017-10-07 05:26:50,Scott Sauyet,"Merge pull request #2313 from kedashoe/remove-insersectionWith
+
+remove intersectionWith",True
+12f98801eeae43157130cad6e8d2feacdc6dbe64,2017-10-06 03:56:28,kedashoe,remove intersectionWith,False
+a48e5faea76d85cffb113e4d8776f28827196562,2017-10-04 18:38:14,Michael Hurley,"Merge pull request #2309 from kedashoe/apply-to
+
+add thrush combinator as applyTo",True
+d213f01566b468e63a82d857e956dd74a86300e7,2017-10-04 18:36:37,Michael Hurley,"Merge pull request #2310 from kedashoe/dep-memoize
+
+deprecate memoize",True
+5b87e5ee4aa9b18ffc3dd514b6fae571afe760c0,2017-10-04 18:36:06,Michael Hurley,"Merge pull request #2311 from kedashoe/flip-arity
+
+fix flip to return function with the same arity as the original",True
+69a70a95451b818d69ff720d21e3ca349125eb4c,2017-10-04 11:42:01,kedashoe,fix flip to return function with the same arity as the original,False
+d3766c873dceb57cbf5d8244681e6270d93bbcb2,2017-10-04 11:34:39,kedashoe,deprecate memoize,False
+4869103f0e76e52e9b757b3162f80402ae99cef3,2017-10-04 11:32:33,kedashoe,add thrush combinator as applyTo,False
+f494250c0aed9ecc096cc5b5b7823661edc14de2,2017-10-03 11:02:32,Mateusz Burzyński,Refactored to es6 modules,False
+e76b9a75cca909c1c1559f62d58f96b2be7af1b4,2017-09-29 21:59:32,Scott Sauyet,"Merge pull request #2305 from datenreisender/reimplement_prop_via_path
+
+Reimplement prop via path",True
+78f054d090352e13f3c9569e4a521b3df4072804,2017-09-29 03:32:09,Marko Schulz,Test that prop and path behave similar,False
+68e4ea9e4bc4763830af2318b240f333a1002f34,2017-09-28 02:39:32,Marko Schulz,"Reimplement prop via path
+
+As discussed in #2059 we are unsatisfied that `prop` and `path` have
+different behaviour when passing `undefined` as the object.
+
+We could not yet agree which behaviour we want to have but at least
+we want to have the same behaviour. To achieve that, we now
+reimplement `prop` with `path`.
+
+So if we ever define the behaviour of `path` then `prop`
+automatically also has the same behaviour.",False
+eda8ea0ac7bbf47b08cb16dab1c49a1fd4127005,2017-09-22 21:02:55,Scott Sauyet,"Merge pull request #2298 from mattgrande/fix-coverage
+
+Remove precoverage script",True
+3c4f44ac1869f6129c06c336dd7396fd0c3a1d93,2017-09-22 19:01:19,Matt Grande,"Remove precoverage script
+
+The `precoverage` script just called `pretest`, however `pretest` was removed in PR #1928",False
+27d1685ea39ac4ddae4a4c6c369c3ba48981c0d9,2017-09-21 16:48:40,Michael Hurley,"Merge pull request #2293 from porsager/patch-1
+
+Add unpkg and jsdelivr field to package.json",True
+316e4f2a62db205c6a0932b0a18e4f0c88c532eb,2017-09-21 02:50:38,Michael Hurley,"Merge pull request #2294 from myrubapa/master
+
+Spell correction in tests R.last",True
+cbcc7df27de649402076769fc3516bd7dd9899f3,2017-09-21 00:13:09,Rasmus Porsager,Add jsdelivr path to package.json,False
+2bf15d89a348364f683c547ceacc4777824d507a,2017-09-20 21:32:38,Rasmus Porsager,"Use unpkg field instead
+
+It appears unpkg.com will also look at the unpkg field, so using that would avoid potential bundler issues instead of using the browser field.",False
+8763d80d40c5cd80cc0d7f0be5b8eaaef07917eb,2017-09-20 21:29:32,Bekhzod Tillakhanov,Spell correction in tests R.last,False
+edd9312ad138ddd44f682eaf5414c69eae4fc87a,2017-09-20 20:46:58,Rasmus Porsager,"Add browser field to support eg. unpkg.com
+
+It would be great to be able to use ramda directly through eg. https://unpkg.com/ramda",False
+d76428678bd27ecd77ce443ed8b2f59a295c29f5,2017-09-14 19:56:38,Michael Hurley,"Merge pull request #2286 from char0n/master
+
+docs(concat): add note about Semigroup fantasy-land spec",True
+4d5fe00a63d011b9e6837e6725b397ad82ba9644,2017-09-14 11:29:28,Vladimir Gorej,docs(concat): reword the fantasy-land semigroup note,False
+1b1250df75918ca7b574080098754f3bc12bd11e,2017-09-14 01:33:54,Vladimir Gorej,docs(concat): add note about Semigroup fantasy-land spec,False
+2e911dfc9641d0dc8429c17b9d86c3165cf1c4be,2017-09-13 01:36:07,Michael Hurley,fix #2279: zipObj doc (#2284),False
+c7321e54a499e7f382b62742fbb44d86ad9af117,2017-09-12 16:15:01,Michael Hurley,"Merge pull request #2280 from char0n/master
+
+docs(empty): add note about fantasy-land Monoid spec",True
+9d716b8f7f85b512275e414817be1dc20f8b1195,2017-09-12 10:35:50,Vladimir Gorej,style(empty): remove extra * char,False
+e96bb7a4843f409a6914ba6154a211870f2af4e9,2017-09-12 03:21:10,Vladimir Gorej,docs(empty): add note about fantasy-land Monoid spec,False
+270151164bc2bff060ebfe44d6b785ce0c267e8d,2017-09-09 04:28:56,Michael Hurley,"Merge pull request #2277 from CrossEye/master
+
+Adding link to Cookbook",True
+97706c44c2db97f67ecf683007d4977c192d8a28,2017-09-09 04:23:36,Scott Sauyet,Adding link to Cookbook,False
+73547722d11534d89c9da081068efed5c4a4c0a8,2017-09-08 23:04:23,Michael Hurley,"Merge pull request #2276 from zehua/update-call-comment
+
+Updated example for call",True
+2942fc9b436083a15eb50119072a4b4d82b6dec0,2017-09-08 21:08:45,Zehua Liu,"Updated example for call
+
+Used repeat instead of times(always)",False
+45dad1f83fca203a27d46a4dd752d8c1bbf8de93,2017-09-08 18:00:49,Michael Hurley,"Merge pull request #2275 from woaiwodib107/changeReadme-pr
+
+change Readme: cdnjs link",True
+ec7cd485d028c0065b0a1aea8c86669e9029e4a8,2017-09-08 17:31:53,HanDongming,change Readme: cdnjs link,False
+1242d85c14dbfe5c6e795c78534a5188ef9c7f61,2017-08-29 23:27:26,Vsevolod Rodionov,fix Set and Map equality,False
+a2f325e9bdd25de68cd176eba7138de5a62b7764,2017-08-29 17:23:35,Michael Hurley,"Merge pull request #2256 from adispring/whileXXXWithString
+
+add String Type to drop/takeWhile API",True
+fc95d85b0ee385060b1f15a0610dc35e59363f05,2017-08-20 22:44:53,Tycho Grouwstra,add links to typing repos to readme (#2258),False
+4224351bd4c51355328df3356f9206938d364e80,2017-08-19 10:13:47,wangzengdi,add String Type to **While API,False
+42c030c5b1acd5d19ae7602fa951f8ecb62f1757,2017-08-08 04:08:07,1ven,Fix traverse doc (#2236),False
+660695b5f864d793126c2d1732b88b3d0aad0eac,2017-07-26 17:25:54,Scott Sauyet,"Merge pull request #2241 from gmunguia/master
+
+Fix composeK, pipeK descriptions.",True
+bd8c31e0f15bb109de6902e3d1671ba10a2c875f,2017-07-24 15:33:36,Gerardo Munguia,"Fix composeK, pipeK descriptions.",False
+22d7687246c722581116ffd8e3c7fb185201a940,2017-07-12 00:17:55,Scott Sauyet,"Merge pull request #2233 from Bradcomp/uncurry-type-sigs
+
+updated type sigs for function parameters",True
+d917f528ba10fb20a3b09441b243bfd29d4ee6ee,2017-07-11 08:52:12,Bradcomp,updated type sigs for function parameters,False
+4f0b826bf40ed00f8f3fcb831b7dc43ffac93b83,2017-07-07 21:04:25,Michael Hurley,"Merge pull request #2230 from lazebny/fix-none-docs
+
+Fixed typo in none function docs",True
+e01069cd4cca60980f26173100a27f91dba118d3,2017-07-07 19:57:19,Vadim Lazebny,Fixed typo in none function docs,False
+44095b0950c590dd53f34571d061e1443b242ca6,2017-07-07 17:43:32,Michael Hurley,"Merge pull request #2229 from wennergr/transducer-for-tap
+
+Add transduce support for tap",True
+a3fa07c167404eefd00be4c3d46c0f405cb5653b,2017-07-06 09:00:07,Tobias Wennergren,"Add transduce support for tap
+
+Tap will act as tranducer if given a transformer in
+the second parameter",False
+969cbd7366fe819fd61265a3196fb6eaf082f390,2017-07-04 18:06:46,Michael Hurley,"Merge pull request #2224 from adispring/propXToWhereLink
+
+add links between propEq and whereEq, also between propSatisfies and …",True
+13db40a7e45678d89a8d8203143f67394c8c1b64,2017-07-04 07:48:09,wangzengdi,add whereEq link to where.js,False
+f5aeee78c0a4f19d3ab12f45a94d541c7deae49c,2017-07-01 06:33:35,wangzengdi,"add links between propEq and whereEq, also between propSatisfies and where",False
+afa2f7763b23e5b1dda2870df08435451aae047f,2017-06-29 17:17:24,Michael Hurley,"Merge pull request #2221 from aretecode/patch-1
+
+fix bookmarklet code block + raw",True
+35545594d6deecdf2349c498ff444a543cf0ea4c,2017-06-29 17:14:29,Michael Hurley,"Merge pull request #2216 from alnero/constructN-fix-docs
+
+Fix to constructN docs example",True
+475395ef292fd04d3c52bb027d20e16720fc04cc,2017-06-29 16:07:20,James,fix bookmarklet code block + raw,False
+26450881511d7c077daba6fd3aa790af36174cbc,2017-06-29 12:52:07,alnero,Remove parens around ingredient in R.map call,False
+6aafd973c85faacc50b8a335e31885a509f1eea9,2017-06-29 00:12:09,alnero,Correct comment with console.log output,False
+07403a51a1df15a4ae7d65a5dc0716fd9c34f1eb,2017-06-29 00:04:16,alnero,Add semicolons and some spacing between the lines,False
+91b825dec23942eca18b3d673ed32a71904412e1,2017-06-28 23:55:03,alnero,"Place R.map call on one line, change whollop to dollop",False
+35eed98be681cc3479a1a476bfd8f80402105845,2017-06-27 17:08:51,alnero,Replace brackets so proper arguments are passed to R.map function,False
+b67b452fcbe75c1240d209a9561ac97a44afdecd,2017-06-17 03:19:58,Michael Hurley,"Merge pull request #2212 from chriddyp/patch-1
+
+Add example of how R.type treats `undefined`",True
+e535af37aa4e38965866599e840f233cb8e58e2c,2017-06-17 03:13:46,chriddyp,Add example of how R.type treats `undefined`,False
+7ac8218fc4946a1d554904119b92405357bc6faf,2017-06-16 18:19:17,Michael Hurley,"Merge pull request #2174 from MikaAK/patch-1
+
+Document R.ap as S Combinator",True
+2499e06647c75be661aaa1cb11efbbfeed775865,2017-06-15 13:20:03,David Chambers,"Merge pull request #2211 from ivanzusko/translations-markup
+
+chore(fix): translations markup in README.md",True
+e6aff632834909fcd0eef84a2880a2c3c98fdd18,2017-06-15 11:42:01,Mika Kalathil,Add signature for ap,False
+55747bfc3a5a4f39f704dbab824dda58ea3d4154,2017-06-15 04:49:12,ivanzusko,chore(fix): translations markup in README.md,False
+ae841638cb3b0b5534058b3600451b78214d2ce9,2017-06-14 23:29:20,Michael Hurley,"Merge pull request #2209 from rtivital/master
+
+Fix applySpec docs indentation",True
+29245d11942d0c60f8cf0d22460fb2f9fe1cff84,2017-06-14 22:46:17,Ivan Zusko,Reduce method example (#2203),False
+7bcd577ba5f94c5bff63412e941e4671ca352d57,2017-06-14 22:45:34,Ivan Zusko,add additional '//' for REPL demo (#2208),False
+3e6a7d4d33d1609d478669d13100eb52ba719411,2017-06-14 22:44:32,Ivan Zusko,link to the Ukrainian translation (#2201),False
+54c7d686b97a87a8fce726af67819146a86c1a63,2017-06-14 20:56:34,Vitaly Rtishchev,Fix applySpec docs indentation,False
+2960b72e8a79d8848cb5b25b46d620830500ecb7,2017-06-09 20:21:34,Michael Hurley,"Merge pull request #2195 from tomhicks/master
+
+Improve performance of omit",True
+67d8b7a343adbbac04c170b654f69904e941994f,2017-06-09 00:11:26,Tom Hicks,"Improve performance of omit
+
+Rather than iterating the names to omit for every single property name,
+which is potentially O(n*m) complexity, create a map prior to iterating
+the source object, which we can then look up in O(1) time for each
+property name.
+
+This makes the omit function O(n+m) rather than O(n*m).",False
+d47de163a4901507330c54193eb915dcdbf7472e,2017-06-07 17:17:09,Michael Hurley,"Merge pull request #2197 from adispring/bugfix/o-example-typo
+
+fix: o.js example lastName -> name.last",True
+01ad638d5b0d8f1b7a8eecefe5dac4146d18688a,2017-06-07 14:23:16,wangzengdi,fix: o.js example lastName -> name.last,False
+d2b33f2a65cf93b7f43653463e9df755bb466e37,2017-06-06 16:44:10,Michael Hurley,"Merge pull request #2193 from owanturist/fix-scan-docs
+
+Scan doc was fixed",True
+6609509e43b60800bfcdc30a6ff7bb89f7ae2ea0,2017-06-06 13:14:05,Anton Ovechkin,Scan doc was fixed,False
+7df44747aab2987e6b671b5658ab74abaebdbbdc,2017-06-02 10:16:31,kedashoe,Version 0.24.1,False
+c5ddc1ff45b66b16304d063e1e54815e7252ebe2,2017-06-02 01:42:05,Ângelo Ocanã Martins,Fix memoize with more than 1 argument,False
+4455bc8daf1405a3509515fb24499203ab8f9046,2017-06-01 18:56:29,Michael Hurley,"Merge pull request #2188 from owanturist/fix-transducer-docs
+
+Transducer doc was fixed",True
+d0d52290da21a86c0cfdd4f588be475796c04f21,2017-06-01 10:16:18,Anton Ovechkin,Transducer doc was fixed,False
+19985f4f468ea7ae70364cfaf2e6bb0b2006c694,2017-06-01 06:13:58,Michael Hurley,"Merge pull request #2179 from zhangchiqing/add-example-for-transduce
+
+Add lazy evaluation example for R.transduce",True
+f2e9ba746cad46c33cb4fb0a7436c1c2e7dbfb62,2017-05-28 06:15:52,Michael Hurley,"Merge pull request #2184 from kedashoe/_isArrayLike-jsdoc
+
+fix _isArrayLike jsdoc now that it is internal",True
+655e61bf5b86e029a657a97f733b72a9f5ed2fec,2017-05-28 05:24:30,kedashoe,fix _isArrayLike jsdoc now that it is internal,False
+d08f0fe7a804c4a7628107d72ab3b21b812a2272,2017-05-27 10:25:37,kedashoe,Version 0.24.0,False
+775ecb2a18416abcbeb831fc1f0de9cebd314ebe,2017-05-27 00:11:21,Kevin Wallace,"Merge pull request #2182 from kedashoe/remove-deprecated
+
+move deprecated isArrayLike to internal",True
+9be35e0f11a7a254b3f0df3cf91353222243b2d1,2017-05-26 23:54:05,kedashoe,move deprecated isArrayLike to internal,False
+753f0bd7080d277b19ac74e9a9eeb769c93fcee0,2017-05-20 11:29:35,Otto Nascarella,"added test for fantasy-land/map test (#2175)
+
+added test for fantasy-land/map",False
+df7ce789e5981897f775e298e203761df372d942,2017-05-20 09:38:58,Leo Zhang (zhangchiqing),Add lazy evaluation example for R.transduce,False
+84648ff2e6eda809582e0e750fdc1612817de097,2017-05-16 02:04:45,Scott Sauyet,"Merge pull request #2178 from scriptype/fix-where-inline-docs
+
+Fix confusing usage of R.__ in the docs of .where",True
+c3beef1d80998ecb6e17b264c71d97cdf4586e77,2017-05-16 01:22:51,scriptype,Fix confusing usage of R.__ in the docs of .where,False
+c871748cb96b650e8c60424c341ab6650e21a7d2,2017-05-15 23:07:56,Kevin Wallace,"Merge pull request #2176 from Delapouite/links
+
+docs: add missing intra links between Ramda's functions",True
+b077b68430540a376bee92eb112a8c59b9bf6a1c,2017-05-12 14:37:56,Delapouite,docs: add missing intra links between Ramda's functions,False
+5b0da38b2e4a4afbefe5f045c8198727752f0fe9,2017-05-10 07:14:59,Mika Kalathil,Fix missing ',False
+f87d98425b7b82f02c709dbec10686fa631854bc,2017-05-10 07:13:07,Mika Kalathil,Document R.ap as S Combinator,False
+917dd07b4e41241701fedefe15f9f4b62f4f7028,2017-05-09 23:16:22,Michael Hurley,"Merge pull request #2173 from pepewritescode/or_test
+
+Change && to || in test case for or",True
+1a5d762fd94bff313b3db3485b9fd074af27bc90,2017-05-09 21:35:05,pepewritescode,Change && to || in test case for or,False
+b357ba53f9ce4997259bff8b949c78207fc06b4e,2017-05-05 00:10:15,Michael Hurley,"Merge pull request #2171 from Delapouite/ascend
+
+Add @see tags between ascend and descend",True
+7ed69a9baf107d9bc85bcff855a3962dedb6e5d4,2017-05-04 21:24:52,Delapouite,Add @see tags between ascend and descend,False
+7464fb2722380526c020bf979db005bab348f502,2017-05-04 19:03:35,Michael Hurley,"Merge pull request #2170 from Delapouite/ary
+
+Add @see tags linking binary, nAry and unary",True
+ed8cfea350da8b0c4c9cc056d7e91e223c0eceaf,2017-05-04 12:48:45,Delapouite,"Add @see tags linking binary, nAry and unary",False
+50535a935a9b9f2e1428a34bd45a47720e5de368,2017-05-03 11:34:55,Kevin Wallace,"Merge pull request #2168 from ognen/fixes/reduced-values-when-dispatching-to-reduce
+
+Fix reduced value handling when dispatching to objects implementing the iterable/iterator protocols",True
+103543e2e1c2b8a43275fff99c9e62363d1def85,2017-05-03 11:15:02,Ognen Ivanovski,"reduce: dispatch to `reduce` method of list as a last resort.
+
+When using transducers, the reduce implementation is required
+to support the shortcutting feature (see `reduced`). This
+feature cannot be guaranteed by the `reduce` method of any
+general implementation, so it is better to use it as last
+resort (giving precedence to reducing with iterable/iterator,
+where the full control over is retained).",False
+7c5fe22c7e8d81da179706bcad0af32af5715d17,2017-04-20 06:43:55,Scott Sauyet,"Merge pull request #2147 from adispring/chinese-translation
+
+add Chinese translation link to README.md (home page)",True
+3a6c975e76cdd66b91e4802d9f703d78504ae14b,2017-04-16 22:03:47,Michael Hurley,"Merge pull request #2158 from dmitriz/test-annotations
+
+Correct test label",True
+c3b10b334e89e3ba3ec78a32d5f6509740f078f3,2017-04-16 19:28:38,dmitriz,Correct test label,False
+ef2516966351d9a27abcfdfeed0aa701cbeee15d,2017-04-15 18:35:09,Scott Sauyet,"Merge pull request #1900 from davidchambers/fantasy-land
+
+fantasy-land@1.0.x",True
+1be5a452a24013fba523dddf869e0fcd11b78611,2017-04-13 21:17:20,Kevin Wallace,"Merge pull request #2156 from Bradcomp/pluck-signature
+
+Updated type for pluck",True
+3d313441a169920754acf45e9d88a7f9a43b56e6,2017-04-13 08:51:32,Bradcomp,Updated type for pluck,False
+6e679ab4894fed2d8f410e6135c2400a1f5ab8b9,2017-03-30 19:36:41,Michael Hurley,"Merge pull request #2126 from Siilwyn/include-files-specifically
+
+Ignore tmp-test-bundle.js to decrease package size",True
+15158a94e5a35f87bda37280d7d8ca2d2f2a7b02,2017-03-30 01:26:46,Matt Grande,Add startsWith and endsWith functions (#2120),False
+a3d860396b2676510a10d3036bed4dfada4aaea0,2017-03-28 22:09:35,Kevin Wallace,"Merge pull request #2144 from simplysh/fix/example-transpose
+
+Fix example for transpose documentation",True
+666b84d4eae68463f509c11a257b6cfdacdb2945,2017-03-25 08:35:13,wangzengdi,add Chinese translation link to README.md (home page),False
+33e1d7aaaaeed9797d76e1032659bf81bfee258d,2017-03-24 23:25:13,Scott Sauyet,"Merge pull request #2119 from davidnormo/take-transducer
+
+Fixed `xtake` where n < 0",True
+7b31b43847922409d2524bf5dd188f1a7c3b6a81,2017-03-24 21:22:18,Andrei Nemes,fix example for transpose documentation,False
+68ff8a5ae50fb304653952bca9df262231abd838,2017-03-23 03:30:27,Juan Lulkin,"Add example of using a function with `type` (#2131)
+
+Add example of using a function with `type`",False
+dc1d94d5f43cb8e76da17fe3db92c6fc7705e22b,2017-03-18 23:01:50,Stefano Vozza,add memoizeWith (#2130),False
+246b7f36534f598a573bfb404b4bf27aabc0908a,2017-03-17 23:01:50,Michael Hurley,"binary, curried composition (#2127)",False
+f49810a0b2b9117720d24cb7bdbd6cc2a9e5b418,2017-03-17 07:29:36,Scott Christopher,"Add mergeDeep, mergeDeepWith & mergeDeepWithKey (#1867)
+
+* Add mergeDeep{Left,Right,With,WithKey}
+
+* Fix docs for mergeWith & mergeWithKey
+The originally planned behaviour of removing keys when the provided function
+returns `undefined` never made it in, but the docs suggested otherwise",False
+80ed9018d3ff7458b94dcf273612fab4a8a17b4c,2017-03-16 16:56:01,Selwyn,Replace .npmignore with files field,False
+591ec8d99cbc3bd89e232f21ec5d6c6df1934cb8,2017-03-15 07:19:43,Tobias Pflug,"Remove jshint/jscsrc leftovers (#1559)
+
+Remove config files and jshint switches in
+the sources.",False
+6e27ce5e29a579bf4334aa9c1c19542283b20794,2017-03-07 23:12:00,David Normington,Fixed `xtake` where n < 0,False
+dace49fbac7ef0c69ca6532f3d76ec85214c5540,2017-03-01 18:46:06,wangzengdi,add difference.js without.js @see (#2106),False
+1a58da7b4a353518647a21da57767113eceb9446,2017-02-28 17:00:19,wangzengdi,fix reduceRight typo (#2104),False
+346be24187f6e73722bade30de290506eaf4d533,2017-02-28 00:48:28,wangzengdi,"optimize insertAll.js comment (#2101)
+
+* fix insert.js typo
+
+* optimize insert.js comment
+
+* optimize insertAll.js comment",False
+61a2d00284547179770f8c6c50ba4237119d44bd,2017-02-27 08:22:41,wangzengdi,"fix insert.js typo (#2100)
+
+* fix insert.js typo
+
+* optimize insert.js comment",False
+e273c3c341eb7d7be29103f0dfd34c5bc563b111,2017-02-06 23:37:29,Kevin Wallace,"Merge pull request #2080 from notarseniy/repeat-add-seealso
+
+R.repeat: Add to jsdoc @see R.times",True
+00c6c6e4875bd1ccb766e7072913a548439c8a41,2017-02-06 23:29:52,Arseniy Maximov,R.times: Add to jsdoc @see R.repeat (crosslinking),False
+f9c3bcaa2181a0f73cf85f0b087693835a0d8450,2017-02-06 21:48:50,Arseniy Maximov,R.repeat: Add to jsdoc @see R.times,False
+5996fa67383ebea769429ad97b30285972efce35,2017-02-03 18:30:25,David Chambers,"add R.innerJoin and deprecate R.intersectionWith (#1868)
+
+* add R.innerJoin and deprecate R.intersectionWith
+
+* removing assertion about ordering",False
+0d803c1eb78e4d3eb2282e52c505f10f2501c2a1,2017-01-31 22:14:57,Matt McKellar-Spence,Add see links between construct and invoker (#2068),False
+fafabfeb99aaa42966cdf935944756659abdd92d,2017-01-23 08:33:32,Vladislav Khvostov,Update README.md (#2064),False
+625dfd77eaff473f04c2d493687ebc472056d8cb,2017-01-18 22:37:59,Kliment Mamykin,"Fixed groupWith to pass adjacent elements to testing fn (#2016)
+
+Very minimal fix to the src code. Added docs and tests.",False
+a09f139747ccdd264fc6420e9fbd3928f7b9c08c,2017-01-18 22:01:59,Marko Schulz,"Remove obsolete test instructions (#2061)
+
+The file `test/index.html` to run the tests directly was removed long
+ago in 0d67155f8aa1dce51c3f78853d767526c0b855e1.",False
+36e4b5ffbe2b0436f6d29700bc0d08a84ba2dbf1,2017-01-17 22:28:43,wangzengdi,"add "","" before otherwise (#2052)
+
+* add "";"" before otherwise",False
+881dccbea0b06fed0539d81e38f5f49556aad9c1,2017-01-17 22:28:04,wangzengdi,"optimize R.call comment (#2053)
+
+* optimize R.call comment",False
+038fa3864640b1fa88fb6d6798107fdb06e3d6ce,2017-01-17 20:44:28,David Chambers,"Merge pull request #2055 from adispring/differenceTypo
+
+fix difference.js duplicate typo",True
+56925e29b9f26fded50e9e55034749df6d83397e,2017-01-17 20:40:32,wangzengdi,fix difference.js duplicate typo,False
+10fbe47be2f80fd17e43c1f5fb43363eed60b144,2017-01-13 12:01:50,David Chambers,"Merge pull request #2049 from adispring/appertureComma
+
+aperture.js comment lost a comma",True
+8344a3988a7b39604ee9d331ac0157956283d24a,2017-01-12 18:29:58,wangzengdi,aperture.js comment lost a comma,False
+585e3a6cbf80e361357e760b1c61018cb85734c6,2017-01-08 03:02:28,Kevin Wallace,"Merge pull request #2044 from jethrolarson/patch-7
+
+Fix typo in `reduced` example",True
+c5b188b3d7f9fdd7bf4f741ca0d819a183e68a9e,2017-01-08 00:32:09,Jethro Larson,Fix typo in `reduced` example,False
+64c5a5058395a88322c5ab2980acf9bb2958f519,2017-01-07 21:19:06,Jethro Larson,"Simplified `reduced` example (#2043)
+
+* Added reduced example output
+
+* changed variable name in `reduced` example",False
+272b0573ddfb8d51e25441aed1f436afc67c3cd8,2017-01-07 01:44:14,Jethro Larson,"Explain filterable (#2027)
+
+* Explain filterable
+
+* Update filter.js
+
+* Update filter.js
+
+* Add simple definition of filterable
+
+* Added simple definition of Filterable",False
+727411c3252a49b8e3263a74b53e21900e131260,2017-01-06 09:17:26,Scott Sauyet,Fixing minor regression in assocPath (#2041),False
+d79974f256ef0942457cc9da85742e88d74056a3,2017-01-03 04:48:52,Scott Christopher,"Merge pull request #2036 from scott-christopher/dissocPath-integers
+
+Adds integer path support to dissocPath",True
+af8be844c0f5610a6816a51ea9a739e363f97c7d,2017-01-02 15:01:51,Scott Christopher,Adds integer path support to dissocPath,False
+dd998f52dce9294a043d1a4bdac982c8cd95ecaf,2016-12-30 09:56:25,Scott Christopher,"Merge pull request #2030 from kedashoe/jsdoc-param-fixes
+
+fix jsdoc tags for drop to match take",True
+f6e8d2b6739d1a69d26d10d412365d531632b348,2016-12-29 12:06:17,kedashoe,fix jsdoc tags for drop to match take,False
+5dec606e0504af973cd6e0ceec8997b72800eb6b,2016-12-29 04:43:07,Scott Christopher,Version 0.23.0,False
+8a5ca01147c7445799bfb2381b771bdfb61676fa,2016-12-29 02:00:10,jeiea,"Fix tail function length (#2020)
+
+* Fix tail function length.
+
+* Fix comments outdated by removed hasMethod.",False
+6fdbe27d286bbbbc9c97049a6b3c3b11cc01b434,2016-12-14 05:42:28,Al M,Use _xfBase for XDropRepeatsWith (#2001),False
+0c45a57fc955317f129be04ad2344dd1c98713bf,2016-12-03 13:02:38,Scott Christopher,"Merge pull request #1992 from asaf-romano/set-functions-equality
+
+Fix _Set regression in functions handling",True
+f63e92411aa7c6086c1c2ffeb930ba593f6095ef,2016-12-02 18:55:27,Asaf Romano,"Fix _Set regression in functions handling
+
+Closes #1987",False
+f82fb415b43fff674e6e76bd477a3c7d3cbfd7f9,2016-12-02 09:57:53,wangzengdi,"add @see R.converge in useWith.js, and vice versa (#1991)",False
+135033376e37e7a3099d72ae9e7b4b0fb6f5dca3,2016-12-01 04:37:09,David Chambers,"Merge pull request #1986 from scott-christopher/kleisli-fix
+
+pipeK/composeK generated fns now expect unlifted values",True
+fcbb62b1a93b021414127787acb5c7d65bf5275d,2016-12-01 04:01:25,Scott Christopher,pipeK/composeK generated fns now expect unlifted values,False
+68d1dc19fb035b0fcafcc1857331f9d00986470f,2016-11-26 23:31:20,wangzengdi,"flip reduceRight reducer arguments order (#1975)
+
+* flip reduceRight reducer arguments order
+
+* modify comment of reduceRight and add an unit test
+
+* change mapAccumRight reducing function arguments order
+
+* fix mapAccumRight comment
+
+* modify reduceRight and reduce schematic diagram
+
+* remove duplicate reduce and reduceRight comments",False
+98908f92289dabd797770aca6c64bae1a96b0a9c,2016-11-23 06:31:31,Dave Tonge,"sortWith, ascend and descend methods (#1946)
+
+* Add `ascend`, `descend` and `sortWith` methods
+
+See discussion in issue #994.
+`sortWith` sorts a list by an arbitrary number of comparators
+`ascend` and `descend` are helpful utility methods to create
+such comparators.
+
+* Add `ascend`, `descend` and `sortWith` to the public api
+
+* Remove reference to `_slice`",False
+158fa278635b3504148948d7845a3f0f10de0ce4,2016-11-20 04:57:50,Ryan Kois,Update logical function documentation. (#1971),False
+793c2a10350e7e669ab6474d9c7fa60f8f2ce611,2016-11-02 23:43:00,Chris Penner,Clarify docs for concat -> dropRepeatsWith (#1894),False
+4bd28d56a6e0a7db2ab1ef53e29301da039fb401,2016-10-31 00:44:16,David Chambers,fantasy-land@1.0.x,False
+15ac0f1bc1c64a0ffc4eb17ca7e867ad67ffb82f,2016-10-30 20:40:50,Michael Hurley,fix build from many late commits (#1957),False
+af0c0ba875b2e6a453adababcedf693627b01917,2016-10-30 17:23:17,Brad Compton,"Property tests (#1889)
+
+* added property test for R.flip
+
+* Property test for R.curry
+
+* property test for R.always
+
+* property tests for R.add",False
+cff4e1c7eed86636e585161f8687c15f5cd808a3,2016-10-30 17:22:26,Centsent,"add R.forEachObjIndexed to iterate over an object (#1917)
+
+* add R.forEachObjIndexed to iterate over an object
+
+* no dispatches to the `forEachObjIndexed` method
+
+* update signature of  method and remove unnecessary test",False
+1871ceed0a4a25c2d0c624d5078837ff5cc8c3c4,2016-10-30 17:11:52,Brian Dixon,"Add native functions to benchmarks where they exist (#1929)
+
+* Add native functions to benchmarks where they exist
+
+ - Added benchmarks for either (addresses #1913)
+ - Removed isSet benchmarks as isSet has been removed from ramda
+ - Changed indexOf to includes in the contains benchmark as includes is
+semantically closer to contains than indexOf
+
+* Remove mixed native/ramda and invalid either benchmarks. Rename native contains",False
+6ee2f61d9a05f1b9eac3ae2ea66623419c6e4eee,2016-10-29 22:03:02,Bradcomp,Removed node v0.10 support and Q devDependency,False
+d314846588965a119bd0d96339216919d8980288,2016-10-28 05:53:39,Scott Christopher,"Add support for integer path segments in assocPath (#1926)
+
+* Add explicit support for integer indices in path* functions
+
+* Add support for integer path segments in assocPath",False
+7cbc51053c3940a320b0468da4ad9367424dfe90,2016-10-27 23:08:00,Vladimir Starkov,"add commonjs entrypoint for nodejs environment (#1928)
+
+* add commonjs entrypoint for nodejs environment
+
+* add section about removing/adding to contributing guide
+
+* add test for consistent api surface
+
+* update contributing guide
+
+* update test for api surface
+
+* test: sort both api arrays before asserting them
+
+* tweak build script to use package's entrypoint to build files for distribution
+
+* rewrite APIs test, add note about used convention and explanation
+
+* fix eslint issues
+
+* remove ""npm pretest"", because you dont need to build ramda before tests anymore
+
+* keep eslint check, but in CI now",False
+92a219e503fdee84ad420a821d6beaf84160ddb5,2016-10-27 19:11:54,Keith Alexander,"removed curry from the example for liftN (#1954)
+
+* removed curry from the example for liftN
+
+you don't need to curry functions that you pass to `liftN`, it works just the same, so the example is clearer without the currying
+
+* Update liftN.js",False
+2fa9a3b998f621c500640f5fe810038c15ddc8dd,2016-10-25 15:12:07,Scott Christopher,"Merge pull request #1952 from kwijibo/patch-1
+
+`R.curry` unneeded by `R.lift`",True
+1e107ecc18107b31da36ddedddf73fbe040bc4e5,2016-10-25 14:54:29,Keith Alexander,"`R.curry` unneeded by `R.lift`
+
+Remove unnecessary use of `R.curry` from `R.lift` examples; the function passed to `lift` doesn't need to be curried, so the example is clearer without it.",False
+52d913a36f70ba34d2c72978c0713d21a7fa250a,2016-10-22 23:11:42,David Chambers,remove unwanted dispatching (#1949),False
+17d45e015c01269dd1fd89c2b3a731c8a999acf9,2016-10-22 22:48:32,David Chambers,"Merge pull request #1944 from davidchambers/slice
+
+remove _slice",True
+21d6a29c6834d0508d4c1619ae4b793f3145e3e6,2016-10-22 03:12:44,David Chambers,remove _slice,False
+2dcbd5edc7e6b0336d08eec892b86f81d2766941,2016-10-20 18:53:50,Stefan Dobrev,Fix spelling of JavaScript (#1911),False
+718952ee974a342368f82bc30f0cea4dc6d3165b,2016-10-20 18:34:53,Dave Tonge,"Add eslint semicolon rule (#1948)
+
+* Add eslint rule to enforce semicolons
+
+This is the coding standard for this project so it should
+be enforced by eslint. This will be particular useful for
+new contributors and will save time for reviewers.
+
+* Add missing semicolons",False
+daf080dc49bd4e5b35cd48219d558f749d9b40e9,2016-10-18 07:02:17,David Chambers,fix implementation of Function#chain (#1937),False
+e90b8b4be7c23b1c44962b5ddf1c40347c62558f,2016-09-30 06:20:54,Ken Powers,"Replace documentation Widget arrow with Constructor Function (#1921)
+
+* Replace documentation Widget arrow with Constructor Function
+
+* Replace example arrow function with regular function.",False
+50758266f8afb18c38bc2de9a12a8a4bf9707b72,2016-09-16 00:09:12,Chris Penner,Clarify docs for '__' -> 'both' (#1891),False
+b1a423e074b327c18cf364f57e652735b718ca72,2016-09-09 00:18:08,Chris Penner,Clarify docs for 'call' -> 'composeP' (#1892),False
+1b819211d4f9146ee019cf24ca8e53a2945bdbf9,2016-08-28 17:28:34,Michael Gilliland,Update binary predicate signatures as they're not curried. (#1861),False
+0f7d7e6186b68d15563ed64d2366789f9c47613b,2016-08-28 06:00:45,Chris Penner,"Allow dissoc to remove non-string keys (#1883)
+
+e.g. numbers, null, undefined, NaN, etc.",False
+ca1764882c2848c81276351966353ab39de7562e,2016-08-26 17:27:53,Scott Christopher,Bump version of jsverify (#1884),False
+37f5730fffd45fe25d73937eb719dbde0d5c5c69,2016-08-25 17:49:17,Aonghus O Nia,"Fix duplicate declaration errors in anyPass example in REPL (#1881)
+
+* Fix duplicate declaration errors in anyPass example in REPL
+
+* Update anyPass.js
+
+* Update anyPass.js",False
+692b5ac06e3c8780dbc829e5555cf664bced3016,2016-08-25 04:28:12,David Chambers,"Merge pull request #1882 from aonghusonia/patch-2
+
+Fix duplicate declaration errors in partial example in REPL",True
+6a0f7f994d5a3dc82b15cd0991fe7b39f23c89a3,2016-08-25 01:51:08,Aonghus O Nia,Fix duplicate declaration errors in partial example in REPL,False
+0be83e9c4c607cd57ef4785ca818bd4ba14dd2bb,2016-08-24 16:15:18,Aonghus O Nia,"Fix duplicate declaration errors in converge example in REPL (#1878)
+
+*  Fix duplicate declaration errors in converge example in REPL
+
+When you run the converge example in the ramda REPL you get a duplicate declaration error for the add, subtract & multiply functions
+
+* changed example",False
+3cd3daa838a6c0fa863419640efc508ab91f41dc,2016-08-24 04:01:05,Frank Tan,"Issue 1832 (#1833)
+
+* Add tests for corner cases in R.evolve.
+
+R.evolve correctly ignores primitive values, but doesn't ignore null.
+
+* Address issue #1832.
+
+Check `transformation` is not null in addition to checking if it's
+of type 'object'. This is because `typeof null === 'object'`.",False
+0253f60fe89bcca8334fa6c0255edbefa9dce48a,2016-08-24 03:59:41,Amila Welihinda,Removed semvar lock on travis ci node versinos (#1870),False
+68f37e0cf02b1f93bca427f22b1d02cba30a6e47,2016-08-24 03:54:35,David Chambers,deprecate R.isArrayLike (#1877),False
+eaa0d3ea0e5a07771f2314a12ae9284875a05684,2016-08-24 03:53:53,Brad Compton,Added property tests for R.compose (#1871),False
+1dc788d94bb13540a51eb5185695d4334d064a51,2016-08-16 22:38:43,Taylor Hurt,"adds-symbols - initial commit (#1852)
+
+* adds-symbols - initial commit
+
+* fix lint error: trailing spaces in mapAccum.js and mapAccumRight.js",False
+f79ffbb9092ddea973ddb2d64273d150a50da295,2016-08-12 18:14:47,David Chambers,xyz@1.0.x (#1864),False
+84b7f54d5c53b93d615dd34e783256fc4d50130b,2016-08-12 05:56:09,David Calhoun,"where.js docs: prefix with ""R."" where needed (#1862)",False
+59019cd942e9b5d6d09aedaea510a2975da9cefb,2016-08-10 04:21:45,David Chambers,remove functions deprecated in v0.22.0 (#1857),False
+c592e687432fda78cbeab165b92a1b99e387a8e4,2016-08-08 01:56:13,buzzdecafe,Version 0.22.1,False
+a01ffe6677d0f7c390a46fdc0e76eeabf8fa2a17,2016-08-08 01:43:14,Michael Hurley,'fix' internal jsdoc comments that were choking the docs build (#1855),False
+a40a51e94663967fde9861be2607138f8c0ef192,2016-08-04 08:25:58,Scott Christopher,Version 0.22.0,False
+27eca836d30ec5bd0be7b1ed030cee7b67a9807b,2016-07-29 17:49:23,Asaf,"Merge pull request #1840 from buzzdecafe/ntharg
+
+nthArg should return a curried function",True
+eca8a852f68a9b1ed0011e1b072d0d8546a86427,2016-07-29 17:21:30,Matt McKellar-Spence,Change console.log comment style (#1841),False
+9cd32cd4156a65824f30c862563486e273492d3f,2016-07-29 05:50:46,buzzdecafe,nthArg should return a curried function,False
+605d2e706dd1789a50e1643dc6e1e444a3190af7,2016-07-27 00:57:01,Matt McKellar-Spence,Add bind example (#1836),False
+c087260ada88376bb094bbec5f8379eb58232fd2,2016-07-21 16:38:39,Scott Christopher,"Merge pull request #1834 from davidchambers/bookmarklet
+
+readme: use absolute bookmarklet URL",True
+749ed5635e51946aa32cc02a34178a4af863fb44,2016-07-21 12:31:46,David Chambers,readme: use absolute bookmarklet URL,False
+e0668c41deb36a3370feec6692969d502cd8315c,2016-07-20 01:59:45,Scott Sauyet,"Relink to original Hugh Jackson article, Fixes #1831",False
+ccfc6c549526cfeed657570eb40aad3c137557b9,2016-07-18 17:39:49,Matt McKellar-Spence,Add converge to see doc in applySpec (#1829),False
+c4140e6414b4d3a0a3701d34acd3a56a87cd7f94,2016-07-18 01:17:27,Slava,"Add link to Thinking in Ramda (#1828)
+
+* Add link to thinking in ramda closes #1827
+
+* Squash all introductions in one section",False
+73e2cf0b7c78a593fd9bc7f2f7c64cb0ebb8ba29,2016-07-11 01:25:43,Ryan Aghdam,Cross-references R.prop with R.path and vice-versa (#1822),False
+6688a0fe8bb84e4c712501ef48850d62d97a6e50,2016-07-10 00:19:48,David Chambers,deprecate R.wrap (#1818),False
+a752ea4252b614f0d826b9e10f1d97bdb92e63db,2016-07-09 00:32:27,David Chambers,remove functions deprecated in v0.20.0 (#1819),False
+40d366515808fcc6c0bc8d1eaf9adf5840777925,2016-06-30 00:47:23,Marc Balaban,Update LICENSE.txt (#1814),False
+fabc66567ac839fd76168473024741b1e18b9cfa,2016-06-29 17:39:56,David Chambers,prepublish: support old versions of GNU bash (#1811),False
+fc3c6e6c21beb3b2ea7b34de395f9402a02014d2,2016-06-29 03:36:04,Francisco Ryan Tolmasky I,"Update README.md (#1813)
+
+Fix image link (broken on npm and tonic).",False
+c662cfb7bce0b2b49ec4284cdec31315a08b89a7,2016-06-27 07:50:57,Pablo Navarro,Fix error in R.modulo docstring (#1803) (#1807),False
+8769a9b0ad7f2cb75d90de5f64568b1dcfcb1dcf,2016-06-16 02:00:31,Pablo Navarro Castillo,Fix error in R.modulo docstring (#1803),False
+2028b1434c4d506c110bbd99016c0b81fb25f13c,2016-06-13 00:01:40,Cristiano D'Avila,"fix R.take extra step (#1793)
+
+* add sinon to devDependencies
+
+* fix R.take extra step",False
+439d2bddd3ff46ab27159ad874cdac89099d6a38,2016-06-09 07:00:04,Kurtis Rainbolt-Greene,"Currently trying where is broken due to _ (#1794)
+
+Fixes a bug in the ""try this function"" feature.",False
+641d99c53e6b298f207faefd53b7d96034d595fb,2016-05-31 16:14:54,Maciej Filipiak,Fixed typo in tryCatch example (#1788),False
+8ad512cfe95862c4f795ec7626953b6afc4f0431,2016-05-31 06:34:00,Bryan Bierce,"Updated eslint to v2  (#1784)
+
+* Updated eslint rule ""space-after-keywords"" to ""keyword-spacing"" for eslint v2.0
+
+* Upgrade to eslint v2.0. Set eslint env to es6",False
+1881947ba09820dce7806eb4e254e215df063cc4,2016-05-26 17:57:49,Taylor Hurt,"changes juxt code example to prevent name conflict with range (#1782)
+
+This looks like it would only be a problem if the ramda functions are not namespaced under `R.` etc. For the Ramda REPL, the original code example does produce an error",False
+6a5849f1f490e158c6819f335897a0549f527db9,2016-05-26 01:34:12,Benjamin Perez,fix ap signature (#1780),False
+64990c5cc491dfe8e13055b50f67f91c20312911,2016-05-25 06:12:06,Aonghus O Nia,"fix Duplicate declaration ""add"" error in example in REPL (#1777)
+
+* fix Duplicate declaration ""add"" error in example in REPL
+
+* Update reduce.js
+
+* Update reduce.js
+
+* Update reduce.js",False
+a0e834cd3700e425107936c5bc36d9f66b07292d,2016-05-24 15:57:54,David Chambers,fix type errors in tests for R.lensPath (#1779),False
+fa4688bf20d086e5e5e77ff040272a435d347669,2016-05-17 20:11:02,Bruno Heridet,fix: add correct comments escaping for R.not example (#1771),False
+3f61290e389a7e758e255b619b1ecb4cc18a5b88,2016-05-14 23:54:42,Stefano Vozza,run tests on node 6 (#1768),False
+809f501f75cc91161cfa3f7b278e9931947b0c73,2016-05-07 02:57:21,David Chambers,"Merge pull request #1763 from davidchambers/from-pairs
+
+do not filter out invalid values in R.fromPairs",True
+dc0a42f6313e9740bd24ef424a57cd2aa547e75a,2016-05-07 02:45:43,David Chambers,do not filter out invalid values in R.fromPairs,False
+551a63b88656551aead5421a3d22d17c74d5e213,2016-05-07 02:34:08,David Chambers,"Merge pull request #1762 from davidchambers/from-pairs
+
+test and document the handling of duplicate keys in R.fromPairs",True
+545c03217c81123ca9e02032a8ab096330392bc8,2016-05-07 02:24:04,David Chambers,test and document the handling of duplicate keys in R.fromPairs,False
+69e8e746e28a90b9108ac8b354fbb47c20d3d494,2016-05-06 07:01:43,Stefano Vozza,remove dependency on R.invoker in R.concat (#1759),False
+6572c22ec716ffd71da5437f454fb5cce015aba0,2016-05-05 03:15:21,David Chambers,"Merge pull request #1756 from davidchambers/no-instanceof
+
+avoid instanceof checks",True
+f445bd8c4e74cc6e999c83e6337d96943e8f4631,2016-05-05 02:29:36,Brad Compton,"concat now throws when concatenating array with non-array
+
+* concat now throws when concatenating array with non-array
+
+* Added missing toString import
+
+* Added note on differing semantics with Array.prototype.concat
+
+* Fixed trailing spaces",False
+9d4cb895595aca3d83ce0a4b10416ae7302bd8ac,2016-05-04 03:44:15,David Chambers,avoid instanceof checks,False
+96d8b42ef457ed64cf0ea7b7737228dd6b4db591,2016-04-23 06:01:17,Ben Hall,improve perf of propEq and propIs (#1748),False
+fda87208fdd4988c54f65647029b7fe5af9720e2,2016-04-23 05:09:14,Brent S.A. Cowgill,"Issue#1730 Documentation somewhat unclear for dropLastWhile (#1738)
+
+* Issue#1730 Documentation somewhat unclear for dropLastWhile
+
+* Issue#1730 Documentation somewhat unclear for dropLastWhile - review changes",False
+5a8478994e2d84be100f0f552db4d194f496f91f,2016-04-21 03:57:53,Scott Christopher,"Merge pull request #1743 from scott-christopher/uniq-neg-zero-fix
+
+Fixes equality of neg-zero in _Set",True
+8cf3c09b5ad00d17e5ecbde42300d710cda38773,2016-04-21 02:43:17,Scott Christopher,Fixes equality of neg-zero in _Set,False
+9eb5bf55500a8cc6472a4dc6e79b775a15868bc5,2016-04-20 01:50:17,Michael Hurley,"Merge pull request #1739 from buzzdecafe/reduceWhile
+
+reduceWhile fixes #1737",True
+d2ef05f5a36f13d52b35cea88b330810f10a01c6,2016-04-20 00:51:50,David Chambers,"Merge pull request #1741 from davidchambers/ap
+
+fix handling of function applicatives in R.ap",True
+2ae04134d4278d709ac5fddb4430e3675fb9399e,2016-04-19 22:53:07,David Chambers,fix handling of function applicatives in R.ap,False
+fd5b7c8e14e6688c6ec5a42d0eedcfbc74991c38,2016-04-19 16:15:30,Michael Hurley,"Merge pull request #1736 from asaf-romano/_xreduceBy
+
+Generalize _xgroupBy to _xreduceBy",True
+fedb529843db591e4e3584b83bb91d8d4559b8fa,2016-04-19 03:06:54,Michael Hurley,reduceWhile fixes #1737,False
+683b56b38f0feb4b2f23b0e5c15ef0a77b77b133,2016-04-16 20:24:55,Asaf Romano,"Generalize _xgroupBy to _xreduceBy
+
+reduceBy, indexBy, countBy can now act as transducers; Bonus: groupBy
+no longer clones each step of the way in transducer-mode",False
+78fa006ced9a72f8e6a95f45cec845edf3e25760,2016-04-16 01:26:16,Asaf,"Merge pull request #1733 from benperez/bp-chain-docs
+
+update chain docs to mention FL",True
+c2c756bf8bd297c86240a34ed5d0854c39dad499,2016-04-16 01:22:47,Benjamin Perez,update chain docs,False
+ddcb01d2bb8ce16d4ac55992b99ad2e9824dd048,2016-04-13 18:52:26,Michael Hurley,"Merge pull request #1727 from cust0dian/patch-1
+
+Fix CDN links",True
+778a39b5b5c28affafd80b9325eb6b11eeda1bde,2016-04-13 18:42:34,Michael Hurley,"Merge pull request #1729 from svozza/groupWith-docs
+
+Fix groupWith docs",True
+d15ee33e8be96d12d34f186836b4ef568d7d8722,2016-04-13 18:22:58,Stefano Vozza,fix groupWith docs,False
+99e3fe64237d82262f97a9c8c908f34e9e2b165b,2016-04-11 21:15:20,Serg Nesterov,Fix CDN links,False
+dab5bcae1e52170faf9f43c6d8add28f15ef0fd6,2016-04-10 02:44:50,Asaf,"Merge pull request #1723 from buzzdecafe/fixpre
+
+Make prepublish script work on GNU",True
+dd3d5b72194eb56ac586af3d5b32c95f4c1e47af,2016-04-09 16:16:22,buzzdecafe,Make prepublish script work on GNU,False
+c0463d536e15c57770914a08b9bf4ffde0fb803b,2016-04-09 14:14:20,Asaf Romano,Version 0.21.0,False
+23fce4a7f97342d3ca260608684c4e9cb4a6494b,2016-04-09 01:01:19,David Chambers,"Merge pull request #1721 from fobos/fix-nth-doc
+
+Fix R.nth doc",True
+2640865186c21c26ee5896e0e574cba561c43880,2016-04-09 00:50:26,Alexander Biryukov,Fix R.nth doc,False
+43281adfae05ec9203ab90a2af6366ea3ab1ac07,2016-04-05 02:26:22,Michael Hurley,"Merge pull request #1713 from asaf-romano/reduceBy-usages
+
+Define indexBy and countBy in terms of reduceBy",True
+1921d69c8107e1632e5cb3dfd0a22775f563c580,2016-04-04 23:00:05,Asaf Romano,Define indexBy and countBy in terms of reduceBy,False
+be9538ff31d126a1f9843b54aceff600208ae3c0,2016-04-04 19:58:26,David Chambers,"Merge pull request #1704 from ThomWright/optimise-groupBy
+
+Optimize groupBy to use mutation in reducer",True
+1d1f8772a9f3a009cb2fa9c8878b7c66b697dab5,2016-04-04 17:32:32,Michael Hurley,"Merge pull request #1711 from asaf-romano/eslint-unused
+
+eslint config: allow unused args",True
+900a35754deaff0a347af0d09505f3318c25b92c,2016-04-04 14:43:12,Thom Wright,"Optimize groupBy to use mutation in reducer
+
+Also define in terms of reduceBy",False
+4ceaf7402a9dbd31d911f753ff936ec7f5931c79,2016-04-04 10:06:50,Asaf Romano,"eslint config: allow unused args
+
+so that function(a, b) { return a + 1; } is allowed.",False
+8989b2f43a538e674e026d737939eec03620b10c,2016-04-04 06:45:53,Scott Sauyet,"Merge pull request #1710 from davidchambers/lift
+
+remove circular reference in R.lift docstring",True
+e97cbf75b913aa40d343800cd77bafbe48f6ed6e,2016-04-04 06:22:21,David Chambers,remove circular reference in R.lift docstring,False
+6d5e2400fa75de0409e0b980ecc66415f8df462c,2016-04-04 00:08:30,Asaf,"Merge pull request #1707 from asaf-romano/reduceBy-signature
+
+Change reduceBy to take the value function and the accumulator value first",True
+dffccbf59f15adad95aa1846766d9dd52423a87b,2016-04-03 20:57:36,Asaf Romano,"Change reduceBy to take the value function and the accumulator value first
+
+Closes #1706",False
+95e474111f178373c8181717e4fe44b3f40a5a99,2016-04-01 00:53:43,David Chambers,"Merge pull request #1703 from pauloliver/clamp-typo
+
+Fixed category typo in R.clamp documentation",True
+3a10e5cf93a2c89be0c78991f40421cad663394b,2016-04-01 00:42:33,pauloliver,Fixed category typo in R.clamp documentation,False
+057b12a93f8a1ccdd063c677218997f8b639db5e,2016-03-31 00:31:58,Michael Hurley,"Merge pull request #1702 from benperez/bp-add-groupWith
+
+add R.groupWith",True
+dbc17cc71467daaff0a91ab64599761c80804e65,2016-03-30 03:09:01,Asaf Romano,Version 0.20.1,False
+80fc0c341be86b4d737a2cf6e289280e9993d8b4,2016-03-30 00:26:52,Benjamin Perez,add R.groupWith,False
+cb1aaaf978793a28b85d103362fccf91fc068e5f,2016-03-30 00:19:38,Asaf,"Merge pull request #1700 from asaf-romano/native-object-assign
+
+Use native Object.assign if available",True
+e0f5a9e3f73b10cd459ee60a87058c37f563a927,2016-03-29 03:16:45,Asaf Romano,"Use native Object.assign if available
+
+My fault. It turns out that the polyfill isn’t as fast.",False
+35f9094d94865d1b368d4a8399223a0261508a3d,2016-03-28 08:19:31,Scott Sauyet,"Merge pull request #1701 from asaf-romano/applySpec-juxt-see-also
+
+Cross-reference juxt and applySpec",True
+ff2d68371134be5c535dd2f97cf22d3c9760279e,2016-03-28 02:11:40,Asaf Romano,Cross-reference juxt and applySpec,False
+5282dc27f4cae6a225113e3415e85f30fc980d6c,2016-03-27 00:40:35,buzzdecafe,Version 0.20.0,False
+c7282dfea0f7a13e463e496439034387f37d735e,2016-03-24 20:11:09,Scott Sauyet,"Merge pull request #1692 from iofjuupasli/master
+
+until",True
+2ca73bbd18ed198e1b8cab66ada819c61381ede4,2016-03-24 17:22:56,iofjuupasli,Add `until` function,False
+dd43569f72ea492853fe32b3aa37897693a2b9f7,2016-03-19 02:04:03,Scott Sauyet,"Merge pull request #1693 from GantMan/master
+
+Update example for REPL usage per #70 on docs",True
+59c51568c08073a60ed178c2df04dcd6033aeeba,2016-03-18 22:43:51,Gant Laborde,"Update example for REPL usage per #70 on docs
+
+as indicated in https://github.com/ramda/ramda.github.io/pull/70",False
+7a71e0726f68c8778f22fa48814a5fb50890957b,2016-02-28 20:51:59,Michael Hurley,"Merge pull request #1669 from davezuko/fix/zipObj
+
+update zipObj to truncate to shorter list",True
+6bea343865bcafa948694a6527db8016350519e0,2016-02-28 04:58:58,Scott Christopher,"Merge pull request #1671 from plynch/patch-1
+
+Fix broken link in README.md",True
+f95e100297de7e31f09aad21522dfefb9cb8edee,2016-02-28 03:13:32,Patrick Lynch,"Fix broken link in README.md
+
+#1633 - Fix broken link in README.md to ""Introducing Ramda by Buzz de Cafe""",False
+352f6c6ab8af0682e0c0a72a7a11dd295a7a9a4a,2016-02-26 19:36:17,David Zukowski,update zipObj to truncate to shorter list,False
+10c7c1afcac48cfc178a6f5739b7f4d58fcdfc6f,2016-02-26 05:18:46,Scott Christopher,"Merge pull request #1668 from scott-christopher/traverse-example
+
+Update example in `traverse` docs",True
+4956484842a1a72c31df631e3bf4b1e54c02b6f4,2016-02-26 05:08:05,Scott Christopher,Update example in `traverse` docs,False
+afe9751913f657dbd0d52300338998668e4ba9ab,2016-02-26 00:55:45,Michael Hurley,"Merge pull request #1664 from benperez/revert-1649-bp-deprecate-converge
+
+Revert ""deprecate converge""",True
+25e93b0a7b2169709b4dfbb4a273b0b1000d0dc0,2016-02-24 23:41:45,Benjamin Perez,"Revert ""deprecate converge""",False
+d5040665d0c7abec39aed095f87da3fa600f52f4,2016-02-23 04:32:06,Michael Hurley,"Merge pull request #1660 from asaf-romano/merge-optimizations
+
+Optimize merge and mergeAll to use _objectAssign",True
+de5ec3716977a453cd1accac8caba1b206e4d2c4,2016-02-22 23:08:15,Asaf Romano,Optimize merge and mergeAll to use _objectAssign,False
+b961653dab01b50e1ebfb4a10539dfa5e5fc45ac,2016-02-22 22:50:17,David Chambers,"Merge pull request #1657 from asaf-romano/_stepCat
+
+Optimize R.into to perform mutable reductions",True
+746be1175bc6176ffc896ba4fdd36d59ab48164a,2016-02-22 22:46:56,Asaf Romano,"Optimize into to perform mutable reductions
+
+Closes #1656",False
+886e4d4bf9c3791a30a1815281ee2ae7830e0900,2016-02-22 00:59:40,Asaf,"Merge pull request #1655 from asaf-romano/partition-obj
+
+Implement partition in terms of filter and reject",True
+22c4d208091c70c689c168b118aab7de7a367793,2016-02-21 04:17:29,Asaf Romano,"Implement partition in terms of filter and reject
+
+Closes # #1651",False
+0e6748fed234bc0e765d3408f562c1e72de7bb50,2016-02-20 07:51:49,Scott Sauyet,"Merge pull request #1598 from jirutka/reduceBy
+
+Add function reduceBy (a more general groupBy)",True
+f0cfe6984395030dc3d83e6fdf26e51b0313d4d7,2016-02-20 07:51:39,Scott Sauyet,"Merge pull request #1597 from asaf-romano/intersection-optimization
+
+Optimize intersection and intersectionWith to filter the smaller list",True
+e7e071699ceaf89e0f7468257cc03bcf954508ed,2016-02-20 03:50:18,Asaf Romano,"Optimize intersection and intersectionWith to filter the smaller list
+
+Closes #1595
+
+intersection is much improved, intersectionWith is almost unchanged
+because most of the time is spent on the predicate execution apparently.",False
+bc497e66c2be1e1a7efef44a065b7bd4927de91b,2016-02-19 17:04:46,Michael Hurley,"Merge pull request #1623 from jimf/add-coverage-script
+
+Add coverage script",True
+2ff6f1231e4129e5ca43a38bad39c90374f51a36,2016-02-19 07:43:50,Jim Fitzpatrick,"Add coverage npm script via istanbul
+
+Add istanbul for test coverage reporting.",False
+2399fd3e16a3c43b81eff10879bbd3f63dd11867,2016-02-19 01:27:31,Michael Hurley,"Merge pull request #1649 from benperez/bp-deprecate-converge
+
+deprecate converge",True
+ecba5d75f90f80c07a605219a84110b6e5211dbf,2016-02-18 23:49:36,Benjamin Perez,deprecate converge,False
+28c176f8281ed2e281e0342bb85ad8424c884f5f,2016-02-16 02:26:08,Scott Sauyet,"Merge pull request #1592 from asaf-romano/applySpec
+
+Implement applySpec",True
+de0344354ae1cb84b3c550cb8e174ef3b0496d2f,2016-02-14 22:47:53,David Chambers,"Merge pull request #1639 from scott-christopher/custom-set
+
+Move Set logic in uniqBy into custom _Set type",True
+27258801ff19c33b7b131402ca4400758a7f02dc,2016-02-14 16:20:18,Scott Christopher,Move Set logic in uniqBy into custom _Set type,False
+7893a4979a6d537063bfdb7357a105100a2734be,2016-02-10 03:35:29,David Chambers,"Merge pull request #1636 from kwijibo/master
+
+Removed unused function from R.dropRepeatsWith example",True
+97deb4910395b57c86a86f582010b26e1a680871,2016-02-10 03:32:44,kwijibo,Removed unused function from R.dropRepeatsWith example,False
+7ff8f8455dd05f8ef2be479cd153b4408ff467e1,2016-02-04 22:09:12,Scott Sauyet,"Merge pull request #1626 from davidchambers/all-uniq
+
+deprecate R.allUniq",True
+5f0237b82984b18d248d547e506d92a7c2acd806,2016-02-04 00:03:41,David Chambers,deprecate R.allUniq,False
+4dd887faf9da509da2e5011f85f7118ed9e2e0f6,2016-02-04 00:03:14,David Chambers,"Merge pull request #1625 from davidchambers/deprecated
+
+remove functions deprecated in v0.19.0",True
+7d0f677b9f3ee03c7abf208199ff2c09841c3a23,2016-02-03 22:58:25,David Chambers,remove functions deprecated in v0.19.0,False
+18058860743f2369a120ed6ed71448b04a21ae44,2016-02-03 22:53:48,David Chambers,"Merge pull request #1619 from davidchambers/equals
+
+compare Promise objects by identity in R.equals",True
+dcd0390833c90db3e8acb46650456df3473ecb86,2016-02-01 21:30:58,Scott Sauyet,"Merge pull request #1621 from kwijibo/liftdocs
+
+amended docs for lift and liftN",True
+ad5b6e1f6b1ce1cd7380770e397ab04bfcc89946,2016-02-01 15:10:57,kwijibo,"amended docs for lift and liftN to indicate support for functions-as-applicatives via R.ap;
+changed a mention of `Array` to `list`
+fixed pluralisation typo
+added @see reference to @ap",False
+91014f9d6dd971e55a225c53f068b11abc4cd041,2016-01-31 10:35:40,Asaf Romano,"Implement applySpec
+
+Closes #1591",False
+60dc13bff2f6ed602e6a1ad312e609150a3619e5,2016-01-31 00:33:14,David Chambers,compare Promise objects by identity in R.equals,False
+a0cb897750b5185d12a80f3729bd32f52a5d4b0f,2016-01-25 00:46:57,David Chambers,"Merge pull request #1608 from arliang/master
+
+fixed syntax error in R.differenceWith example",True
+ff7585aa972bb6bec2c0f38db2b2828d8a6358ee,2016-01-24 22:24:09,Arliang,fixed syntax error in R.differenceWith example,False
+6d9bd75069c698449b4f1c1810805bc34afc5cd1,2016-01-24 00:37:06,David Chambers,"Merge pull request #1607 from svozza/createMapEntry-doc-fix
+
+Remove reference to createMapEntry in R.pair docs",True
+6ca1560f8274f910b9302c6f60d3793d2628811c,2016-01-23 19:32:47,Stefano Vozza,Remove reference to createMapEntry in docs,False
+184b7a0edf88e801f8b163b54acc7d3b56ba5bd1,2016-01-22 05:40:04,David Chambers,"Merge pull request #1605 from ecwyne/patch-1
+
+fix docs",True
+ce720afee622f5f8b83b179e02d104a1482b5133,2016-01-22 05:33:38,Eric Wyne,"fix docs
+
+see #1604",False
+c0a5687f73b4cb737fffc3f00c2fd4c9a4afe50e,2016-01-21 06:32:47,Jakub Jirutka,Add function reduceBy,False
+d61f02be778352d359951254a1ee55b242737e9b,2016-01-21 02:38:56,David Chambers,"Merge pull request #1600 from tcoats/no-curry-compose-doc
+
+Doc update noting that pipe and compose do not automatically curry",True
+a8fc996e713da2d92e26df290975e0079d9bf7ba,2016-01-21 00:56:19,Thomas Coats,Doc update noting that pipe and compose do not automatically curry,False
+46bb0fbf67e2edc5e2e3203a8342395ec041db18,2016-01-13 05:45:08,Scott Sauyet,"Merge pull request #1581 from buzzdecafe/tryWith
+
+tryCatch for composing with exceptions",True
+566863235c5bbe42b4aa837d7be143782609e253,2016-01-13 04:06:14,buzzdecafe,tryCatch for composing with exceptions,False
+01979c0311c1fc8302455f16b1f65c3759be52e2,2016-01-13 04:00:43,David Chambers,"Merge pull request #1588 from scott-christopher/lens-doc
+
+Improve comments around lens functions",True
+231363772f69c837b376ebea27e0def4ddd99b1b,2016-01-12 15:31:51,Scott Christopher,Improve comments around lens functions,False
+c9dc39c2a6ef7e223964c7f700cb1c437273e471,2016-01-12 07:04:06,David Chambers,"Merge pull request #1587 from davidchambers/converge
+
+remove code branch from R.converge implementation",True
+ec4e4fbadb67e803cbd233f72ff77667e22cb417,2016-01-12 06:27:24,David Chambers,remove code branch from R.converge implementation,False
+0ab0058360c618d572cc493299396bdee375dd79,2016-01-12 05:56:25,Scott Sauyet,"Merge pull request #1572 from asaf-romano/cond-arity
+
+Retain arity in cond",True
+b9bd110aa5d353b7a60ffdc87848762bf71203d9,2016-01-12 05:56:06,Scott Sauyet,"Merge pull request #1571 from asaf-romano/juxt-converge
+
+Set arity and curry juxted functions",True
+753e09bf1fb486936663895f4d220097124c5402,2016-01-08 19:39:47,Scott Sauyet,"Merge pull request #1564 from ccorcos/clamp
+
+Clamp",True
+b92a10e5c66e8ee81962d1b5cfda5a256a70e7f3,2016-01-08 12:46:28,Chet Corcos,create clamp function,False
+95a6fb715015cb8ba140959cb076148ca03e13eb,2016-01-08 00:47:19,David Chambers,"Merge pull request #1580 from davidchambers/add-subtract
+
+coerce arguments to R.add and R.subtract",True
+ade6cfd093727554863313e6be10bd8455c62d5b,2016-01-06 03:54:53,David Chambers,coerce arguments to R.add and R.subtract,False
+4ada2786aad356851e26a41d4ddfe376dfdfe5c9,2016-01-05 01:19:14,David Chambers,"Merge pull request #1566 from benperez/bp-lifted
+
+make both and either respect applicative functors again",True
+0bd7c75c91c00e580db0cdc7316693ff704cd470,2016-01-05 01:11:04,Benjamin Perez,make both and either respect applicative functors again,False
+da1d4ade6cf2c4b173dce1c9a086508a9b7b4f1b,2016-01-04 10:46:59,Asaf Romano,Retain arity in cond,False
+5b9325f6d9540d97f9b326855814441246f0403f,2016-01-04 07:16:36,Scott Sauyet,"Merge pull request #1577 from davidchambers/prepublish
+
+prepublish: include ""v"" prefix in @since annotations",True
+9957c23e4932e34b340ebda9457b3161c6dd8bc3,2016-01-04 06:34:43,David Chambers,"Merge pull request #1573 from davidchambers/add-subtract
+
+ad hoc type checking for R.add and R.subtract",True
+a33cdd1f4532929a595b51996f88192ececfe5bd,2016-01-04 06:15:28,David Chambers,"prepublish: include ""v"" prefix in @since annotations",False
+2ab8a2109f50bfc74ae026ee9df99f7a205b673d,2016-01-04 05:39:10,David Chambers,Version 0.19.1,False
+18c1bfa2eb108b93f4800382fa245108b2149e72,2016-01-04 05:35:32,David Chambers,"Merge pull request #1576 from davidchambers/to-string
+
+handle ""Invalid Date"" in R.toString",True
+f4e5488702d8ac2b96a0c85eeb99d21c227dbb8b,2016-01-04 01:07:51,Scott Sauyet,"Merge pull request #1575 from davidchambers/homepage
+
+package.json: update ""homepage""",True
+3be1d9dc4e83cb7529e03c5e932a2ffc4c3acce7,2016-01-03 23:07:41,David Chambers,"handle ""Invalid Date"" in R.toString",False
+d5d4fc39fbf3e72f896b891557662602886205d8,2016-01-03 12:38:55,Scott Christopher,"Merge pull request #1574 from davidchambers/testfiles
+
+package.json: remove reference to defunct scripts/testfiles",True
+444a56a873e5e0f518380eb84377aae79e204f07,2016-01-03 11:27:12,Asaf Romano,Set arity and curry juxted functions,False
+c7cabc25fe047ba2f39c6d2bf7e33628c111983a,2016-01-03 10:42:34,David Chambers,"package.json: update ""homepage""",False
+3cbb549638bdd5c8e8ab6579375e6518f6901617,2016-01-03 10:21:48,David Chambers,ad hoc type checking for R.add and R.subtract,False

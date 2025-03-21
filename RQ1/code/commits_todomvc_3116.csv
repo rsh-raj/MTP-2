@@ -1,0 +1,1003 @@
+Hash,Date,Author,Message,IsMerge
+c8aedce5f512e47991a62b37b9ee3ef38df1a4b6,2024-10-28 23:23:44,NullVoxPopuli,Update ember (#2261),False
+6b217afbf549c7fbb138e6bad3d40309cc000ae8,2024-09-09 19:49:31,Martin Grandrath,"Fix association between label and input element (#2257)
+
+The association between the `toggle-all` checkbox and its label was broken because the id value referenced in the `htmlFor` attribute was missing.",False
+643cab2e0d5154130077df6356e53871f3b0fa84,2024-08-16 19:40:29,bricedurand,update link to backbone app in App specification (#2259),False
+29908f1ab19f6bb7c8ef4dcefb453f7ccc6ca291,2024-07-02 00:52:41,Thorsten Kober,update speedometer link (#2251),False
+7c64d8f4cdbd1f42e96b7cdbdc23821c6f2667d6,2024-07-02 00:52:00,Thorsten Kober,Add sidebar to new examples (#2254),False
+17c2857da81fe92dc508a90cd0666965eb06cead,2024-06-24 21:03:06,Eugene,Fix typo in examples/react/readme.md (#2253),False
+feccc2de4bf7a6a7829e0520e4c015ce84a2e6d5,2024-04-05 00:21:09,Tyler Sayles,Update index.html (#2246),False
+b6026bba029f47947a9e76f1235bd3d7e3f99a1b,2024-02-06 00:18:49,Thorsten Kober,update ember link (#2242),False
+efafb5843a52fad8b465f642ee8d5d980ad1ac4d,2024-01-19 02:02:55,NullVoxPopuli,Add URL prefix to ember app (#2238),False
+48902458c158834934d630bf2cdcc7d4588f11f5,2024-01-18 00:51:18,Thorsten Kober,change order (#2234),False
+94c79705a63ef63ee08000205085c884afecefba,2024-01-18 00:51:00,Thorsten Kober,remove invalid entries (#2236),False
+22cbe4086e89c39da46a7cbd74a722bce49f8a06,2024-01-14 01:29:05,Thorsten Kober,adjust intro text (#2233),False
+2535df820a707daf0b2f4d1963968863971e09c1,2024-01-14 01:28:37,Thorsten Kober,changelog / news section  (#2230),False
+0a8a81f933a5448ff24e13bea4d3140dce16c983,2024-01-09 01:44:52,Thorsten Kober,update avatars (#2228),False
+181dc18d390189ad31c52ecc942d1083d7c635a6,2023-12-29 19:38:44,Thorsten Kober,adjust credits styles (#2225),False
+ebe0a32ded2214360a2e5b375fbec777284d3ccb,2023-12-29 19:37:29,Thorsten Kober,add new badge (#2224),False
+74c17036f3451c2a84f7c04f33cc4879d7ce8500,2023-12-28 20:05:15,Thorsten Kober,misc cleanup (#2223),False
+4a4f7e1442f83223a30470388749f8c7923b785f,2023-12-27 04:47:17,Thorsten Kober,fix paper-tabs (#2222),False
+cc62caf2e844ec4afb59a19966b22fa6ca50a13b,2023-12-26 23:37:31,Thorsten Kober,Move React to Examples folder (#2219),False
+114bef269c4b1c2564a2f35dcbd22b627d5f7b27,2023-12-26 23:23:16,Thorsten Kober,Move Backbone to Examples folder (#2220),False
+9ea89b6ac4cc96772e738efe06605228cf5f3273,2023-12-26 23:21:34,Thorsten Kober,Move Angular to Examples folder (#2221),False
+119ecf57694c079dd904bd669053bb51e989fe36,2023-12-26 21:21:20,Thorsten Kober,Move Vue to Examples folder (#2218),False
+3d88d7e0ddf6c26c3879b9b653148c433dbbdead,2023-12-26 21:16:42,Thorsten Kober,Replace jQuery (#2217),False
+de6ef6a7ddd3646dc0e61da0ee4a6acec6bd99a3,2023-12-26 21:15:51,Thorsten Kober,move es6 to examples folder (#2216),False
+78b9fc10da689d2889d9d14bbdb085f1b89098e1,2023-12-26 21:14:41,Thorsten Kober,move es5 to examples folder (#2215),False
+2bfcd3ea8dbf3c2c80005f24b3bfd6eb5325e655,2023-12-21 03:36:29,Thorsten Kober,Add Preact to Examples (#2197),False
+5bb801a6f62925c3a9ed8352d30a0d38825da826,2023-12-18 21:35:14,NullVoxPopuli,"Ember: Upgrade through 43 minor versions, 2 majors, and 2 paradigm shifts (#2209)",False
+92cee65c2e20d5327962fb47069c67a77d4d9a0d,2023-12-18 21:23:32,Thorsten Kober,Add Vue rebuild to updates folder (#2213),False
+d1470ea7815b14a1a1fa36768f8b7f7f4c62b315,2023-12-07 04:29:39,Thorsten Kober,Add Angular 17 (#2212),False
+c3aae28d17356c7faeef11c8711cb05c12d7ec6d,2023-11-13 23:35:37,Thorsten Kober,update react dependencies (#2210),False
+83b5bbd0b77c142b446191e67fe5822423250845,2023-10-31 05:01:55,Thorsten Kober,Add JavaScript ES6 to update folder (#2207),False
+7f34e5648d1e1256de8d888316e20e531b486112,2023-10-31 05:01:13,Thorsten Kober,Add JavaScript ES5 to update folder (#2206),False
+3595bc2c4d136032fde2cd008f843fb205d1b44f,2023-10-23 20:49:44,Thorsten Kober,Add Backbone to update folder (#2204),False
+95ade963e1062e27963c51b1693289efca5822f4,2023-10-23 20:48:23,Thorsten Kober,Add Web-Components to Examples (#2195),False
+1916c93e243ba890a356ab2b34adb1159b97cdb9,2023-10-23 18:52:52,Thorsten Kober,Add jQuery to update folder (#2205),False
+15bdca92d68e78ccf0624b232e6c00d062407ea4,2023-10-06 01:59:09,Thorsten Kober,Add Svelte to Examples (#2194),False
+047742584567e16eb0d82d25fd0e34521fe004b1,2023-09-29 20:52:51,Thorsten Kober,Add React to update folder (#2202),False
+e9d9ae86b776422b67fde912302f626887d4e651,2023-09-21 01:33:35,Thorsten Kober,fix footer (#2200),False
+1902cc12ef3f66450d47cc0a102f8048e8c39ef5,2023-09-21 01:21:54,Thorsten Kober,Add Lit to Examples (#2196),False
+26c5ed9180d40b8d6c0b5b2d93cbf4660387dce4,2023-09-21 01:06:59,Thorsten Kober,Add React Redux to Examples (#2198),False
+636cac99fd12c5cb43bd6adf33808e4e90761697,2023-09-12 01:42:41,Thorsten Kober,pin node version (#2193),False
+4e301c7014093505dcf6678c8f97a5e8dee2d250,2020-10-09 05:22:11,Aditya Gupta,Remove broken link (#2121),False
+8acdd5ce1c62fa56ab1ddaa1af92ba7a85358604,2020-10-09 05:18:47,Roman Zhovnirchyk,Fix laggy keyup events in Vue example (#2085),False
+d07963e98ae1dd74613a29f86caa242dd31065cc,2020-10-09 05:17:10,Roman Zhovnirchyk,"Fix duplicate key error in Vue example (#2084)
+
+Co-authored-by: Sindre Sorhus <sindresorhus@gmail.com>",False
+601c114c615468e6cdd356c1a3c5748df45172dc,2020-10-09 05:15:38,Prithviraj,Update `angular2` - store.js - convert Boolean to boolean (#2087),False
+41ba86db92336c11e56d425c5151b7ec2932be9a,2020-02-03 17:02:51,Jacob Ebey,Added react-hooks example. (#1962),False
+1a595254d8358dd8dce7ff12fad7a529fe21fa5c,2019-10-27 13:25:53,bigopon,"refactor(Aurelia): upgrade to Aurelia post beta usage (#1969)
+
+* refactor(aurelia): enhance aurelia impl
+
+* fix(docs): add links, fix old links
+
+* chore(aurelia): update deps, update startup code
+
+* chore(aurelia): add comments
+
+* chore(aurelia): simplify comments
+
+* chore: some small formatting tweaks
+
+* chore(example): fix aurelia implementation
+
+* chore(example): upgrade aurelia script, add promise polyfill for older browsers",False
+9f6e22cc463c60113f823e2622b9478d62191e72,2019-10-19 20:42:55,Razzeee,"Update elm to version 0.19 (#1954)
+
+* Update elm to version 0.19",False
+f9196709d03323000a468df405c51c0d842c98b5,2019-08-15 13:48:52,Fady Samir Sadek,Cypress ubuntu addon,False
+047b9f407aed30148e67b6478ef27f45f282a6b2,2019-08-13 15:04:28,Fady Samir Sadek,update package-lock.json,False
+118e91251fe452578bb45371c26f142c096e6a41,2019-08-13 13:49:24,Fady Samir Sadek,Update node and npm versions,False
+3849197fa0a4d2a2f581740a29fb4408760a2b57,2019-08-13 13:46:59,Jennifer Shehane,"Update cypress dep (#1988)
+
+This version of Cypress is a year old now. Cypress has had a lot of updates since ~3.0.3, including a lot of performance improvements. [Full changelog](https://on.cypress.io/changelog#3-4-1)",False
+07368a4aa271e88b066fa982b8ead9f7306ab6fa,2019-07-05 10:25:59,Filipe Boechat,"Migrate Cujo app to new UI (#1980)
+
+refs #1110",False
+74912d67ce8dcdf4834702dc680e72c3c1981fe9,2019-02-11 01:15:57,Long Ngn,"Update Main.scala (#1961)
+
+Remove unused variable declaration",False
+40f936b71a05c6a941068789f3bb680a3a820b9b,2019-01-03 19:44:45,Roland Broekema,App update: update typescript and react,False
+94ff67e8d0f2c860f956e37e87d1b3bfb1221dc3,2018-11-21 17:36:13,Sam Van Campenhout,"Update the ember example (#1948)
+
+Update ember to the 3.4 LTS
+Update to the latest TodoMVC template to make the info sidebar appear",False
+1a4941c84d9e969deab9e10acebe85d686338e92,2018-11-21 17:00:00,Jozef Izso,Fix aurelia links (#1951),False
+c78ae12a1834a11da6236c64a0c0fb06b20b7c51,2018-10-02 04:37:17,Andreas Elia,Grammar fix/typo in contributing (#1941),False
+26c30c6ef34a3b26fcbae918dc2e9471a0ddbfc1,2018-09-02 14:46:58,Fady Samir Sadek,Update to v3.1 (#1936),False
+d69828232d2ab3881d33d41d3a4df4ed7947c7d7,2018-08-23 09:38:27,Fady Samir Sadek,"remove frameworks that do not comply with the new TodoMVC guidelines (#1932)
+
+* remove sammyjs
+
+* remove kendo ui
+
+* remove sapui
+
+* remove socketstream example
+
+* remove spinejs example
+
+* remove vanilla dart example
+
+* remove vanilla dart from circle.yml",False
+1d25647f13e39e8809a4364315579df1526626f4,2018-08-09 19:01:20,Gavin Jefferies,"dojo: Ignore dojo known errors. (#1929)
+
+Re: #1928",False
+3ba2114e3cf68fbc8de5ef2039c988e400f978ef,2018-08-08 13:55:20,Gavin Jefferies,backbone_marionette: hide the clear completed button when there are no completed items (#1927),False
+f0d9a26e622dc3859c45fd8a6e3ac19d155e2fbd,2018-08-04 13:23:36,Gavin Jefferies,"reagent: pass cypress tests (#1924)
+
+restore filtering
+use the latest todomvc-* deps
+handle JDK 9+ when building
+use cypress >= 3.0.3 to fix .blur() failure",False
+f2b6b13912bf8cae0f14cad797fcc26e70db6172,2018-08-04 11:46:08,Gavin Jefferies,jquery: requires safeBlur() to pass cypress test (#1920),False
+db64b1452802abd8965392ea8a1ba7d1c1b34f1b,2018-08-04 11:43:02,Gavin Jefferies,cypress test: allow frameworks to explicitly define the type of selector they use (#1922),False
+1ae9830bcd65570d0e40d397b27539d658437783,2018-07-23 05:27:54,Ahmad Mahmoud,"Fixing cursor position in todo name input (#1916)
+
+* Fixing cursor position in todo name input
+
+* Replacing let with var
+
+* Defining variables at the top of the function",False
+830b246c454e1e4bdecdd6d114331af9ac803d6a,2018-07-15 13:44:25,Eugene Y. Q. Shen,fix gitignore (#1915),False
+51f65faa69d704554938254999a0a03ba4f1c8a4,2018-07-14 15:21:49,Fady Samir Sadek,"New examples guidelines (#1910)
+
+* New examples guidelines",False
+b4038ad537809b8ce522389fbbed0c6db9d16633,2018-07-14 01:24:33,Marcelo Frau,Adding kotlin-react implementation (#1913),False
+e76034cacd37e83c3747e9fc5f214816cbd4f2bc,2018-07-13 23:56:13,Zoltan,"Upgrade Ember TodoMVC to Ember v3.2 (#1912)
+
+* Update Ember Todomvc to 3.2 with ember-cli-update
+
+* Changes after running ember-cli-update codemods
+
+* New production build with Ember v3.2
+
+* Move and update Ember.js TodoMVC README.md
+
+* Change rootURL to empty for proper production build",False
+7fb200ad4e303abb333bfe4744746763aacd6f0d,2018-07-13 23:47:29,Marcelo Frau,Adding kotlin-react implementation (#1908),False
+14ecf296734a190a0aa201b13a3022634aa1539f,2018-07-13 16:37:27,Fady Samir Sadek,remove Durandal as it has been discontinued (#1911),False
+25a9e31eb32db752d959df18e4d214295a2875e8,2018-07-02 11:05:13,Gavin Jefferies,"Fix vanillajs cypress test run (#1902)
+
+fix cypress test dependency on localStorage API calls and array of todos format
+
+and update to latest todomvc-*
+
+edit is completed by blur",False
+8399d13fb4dc0974538a2b1f53f1dd7b3dc41d83,2018-07-01 22:30:52,Gavin Jefferies,"Fix cypress test run (#1905)
+
+remove unused arg that crashes cypress test
+display the clear completed label",False
+302b409c2b8510dc634fdd0e481196845109dc97,2018-07-01 22:30:31,Gavin Jefferies,fix cypress test for vanilla-es6 (#1907),False
+32ee33e6f98ed1581443b398afdd67bfc1969714,2018-06-26 02:24:56,Nithin David Thomas,Dijon: Cancel editing on escape key press (#1856),False
+5619b6cfed56d8cf28496eedfe8888cb4a64dd80,2018-06-25 22:12:09,Piotr Bronkalla,"Remove ExtJS + DeftJS from examples (#1898)
+
+*  Remove extjs_deftjs from examples and all occurrences of the project
+
+* Remove extjs_deftjs from travi-ci config",False
+e89b9ed3dcdc5be5240ce709f8d2f5a15adaacba,2018-06-23 14:32:02,Fady Samir Sadek,Remove vs code from .gitignore (#1897),False
+2fd9da7d5c43a6c626073683720c53aeb83e55ee,2018-06-07 04:53:01,Manaswini Das,Fixes broken blog link (#1894),False
+0bcf4484e2ab2da1eeb6e1dfd3a134bc6e601814,2018-06-03 15:22:22,Fady Samir Sadek,Add Edge to supported browsers,False
+ae2d3e03de94331030bf0c10d8f3aad58e786f08,2018-06-03 14:52:20,fadysamirsadek,remove .vscode and add it to .gitignore,False
+cb6efe3ccabdb57b8221a210b66fb2ba6873763e,2018-06-03 13:50:27,fadysamirsadek,removed frameworks from homepage,False
+23e09daaba3353902616780728e901afab2d248c,2018-06-03 13:50:27,fadysamirsadek,update cypress,False
+1fb3b66708bb5d0b6d34580b994c386355516e81,2018-06-03 13:50:27,fadysamirsadek,removed serenade js,False
+5b310ffed5a163b97c2d90c9a8f622d82a110024,2018-06-03 13:50:27,fadysamirsadek,removed rappidjs,False
+b7bff97c2ea6f75b3778589c584a86624659fa1c,2018-06-03 13:50:27,fadysamirsadek,replaced IE9 with IE11 in browser comptability,False
+0077b5ea53faa53a7ea5a3ffdd587522f0141755,2018-06-03 13:50:27,fadysamirsadek,remove aria templates,False
+bdd7279a06eb51b9f8b3d32af61a68761d701c16,2018-06-03 13:50:27,fadysamirsadek,removed foam,False
+c3dcf3c379e3ce57d8371d66cc5ebf9992ea14a4,2018-06-03 13:50:27,fadysamirsadek,removed atmajs,False
+e319a159f53db1e6a9f2b7a4245d509b521d1317,2018-06-03 13:50:27,fadysamirsadek,removed more frameworks,False
+9da9da4de1cebced90d1148c208e982b01d5a852,2018-06-03 13:50:27,fadysamirsadek,remove removed frameworks from travis build stages,False
+f753e376cea2db7ad0145d2ea6ba01a3632ec298,2018-06-03 13:50:27,fadysamirsadek,update lock file,False
+60944d3a4a60faedbbe76429925e3149872079d9,2018-06-03 13:50:27,fadysamirsadek,remove troop,False
+2b12fd8de7cafacc432a045d9510c9eda132010e,2018-06-03 13:50:27,fadysamirsadek,remove webrx,False
+f8da686b5403e7e78e66332cffb0a3491b482ae0,2018-06-03 13:50:27,fadysamirsadek,remove meteor,False
+4b3b8e6ab28c86e1995968c28d7e5ecfe912624d,2018-06-03 13:50:27,fadysamirsadek,remove flight,False
+b889b6038c8284675cf59735651473aa34bf6eb0,2018-06-03 13:50:27,fadysamirsadek,removed ampersands,False
+4a8554af2331f6cbda521608c1d65555732e1167,2018-05-18 22:58:53,Fady Samir Sadek,added myself to the team :D (#1883),False
+f00f77604663126725ecacba76a035f4b6a0ad01,2018-05-03 00:33:31,Ugljesa Ijacic,"jQuery - todo with empty value deletes todo #1789 #1801 (#1876)
+
+When you're updating todo, you shouldn't leave out the value. If doing so, update operation should be aborted.",False
+245489d51ae5dba854ab764fd9d294eeb1b7088e,2018-04-30 20:00:41,Ugljesa Ijacic,"jQuery - editingMode: todo should be focused #1877 (#1878)
+
+Upon double-clicking todo, the input field is now in focus, so todo can be edited.",False
+d2785550b4c343fb9413deb341e03d726740b8f6,2018-04-19 01:43:16,Fady Samir Sadek,"Cypress badge (#1875)
+
+* updated npm version , added a package-lock.json to use npm ci to reduce test suite run time
+
+* removed unnecessary code
+
+* replaced tab with spaces
+
+* set npm version to an exact version of 5.8.0
+
+* added cypress badge to readme file",False
+8f3e17dcf365c9221b54e737634e6d41f277f40d,2018-04-02 18:26:19,Jon Schubbe,"Focus caret at end of input when in editMode (#1830)
+
+* jquery - focus caret at end of line 
+
+Removed deprecated line that didn't move caret to end of input upon editing a todo. Added a way that works to put caret at end of input
+
+* changed spaces to tabs indent",False
+4716a886364bc8bd93ab18fe822b8131b7cef8c4,2018-04-02 17:19:11,Sam Saccone,"Update cypress (#1867)
+
+* Bump cypress to 2.x
+
+* fix tests for react
+
+* migrate project to be under the tastejs project",False
+5ce6f09d552f66b2099ee60c59a279907b0a46d7,2018-04-01 23:06:15,Fady Samir Sadek,"Enable npm ci , package-lock.json (#1870)
+
+* updated npm version , added a package-lock.json to use npm ci to reduce test suite run time
+
+* removed unnecessary code
+
+* replaced tab with spaces
+
+* set npm version to an exact version of 5.8.0",False
+1ec9083fc590504e442963b3dc75f5f595afc4cb,2018-03-31 06:34:19,Ugljesa Ijacic,"Clearing completed todos leaves filter as is (#1871)
+
+Clearing completed todos doesn't reset filter.",False
+62b950208d918925fda5204c435da0a2e14e540a,2018-03-21 18:19:18,Nithin David Thomas,"Flight: Cancel editing on ESCAPE key press (#1855)
+
+* Flight: Cancel editing on ESCAPE key press
+
+* Flight: Cancel editing on ESCAPE key press - Review fixes
+
+* Flight: Cancel editing on ESCAPE key press - Review fixes
+
+* Changes e.which to e.key for both escape and enter key
+
+* Flight: Cancel editing on ESCAPE key press - Review fixes
+
+* changes mistake with e.which usage",False
+047b1293b76b8a9c0e4908052e19ccc68aa5cafe,2018-03-16 23:45:08,Fady Samir Sadek,added npm-run-all to the package.json file (#1865),False
+179a2825fca1c0a160f078583620c7aee1358974,2018-03-16 20:06:55,Fady Samir Sadek,disable cypress recording till the creation of a CYPRESS_RECORD_KEY (#1864),False
+215af94a43b19a76b0c5a795e6ec3509f7e5bbc1,2018-03-16 19:32:09,Fady Samir Sadek,"Cypress test suite  <work in progress> (#1861)
+
+* add TodoMVC tests, configure examples/react
+
+* add run race command to start the server + Cypress, then shut down
+
+* define parallel travic CI jobs
+
+* update react, react-alt and react-backbone
+
+* enable all tests in the spec
+
+* install bin-up in each framework folder
+
+* do not record on dashboard yet
+
+* start recording on dashboard
+
+* record from the root
+
+* add vue
+
+* do not install anything else
+
+* selectors for most ids vs classes
+
+* test more frameworks on travis
+
+* use same version of node 9.3.0
+
+* add all frameworks
+
+* set path
+
+* try caching in separate job
+
+* enable all examples again, because caching works
+
+* replace not.exist with not.be.visible
+
+* rework the routing tests
+
+* only check todo count number
+
+* comments on hidden
+
+* compare label text only
+
+* visible fix
+
+* page loaded only when someone attached event listeners
+
+* filter known issues when making tests
+
+* use setTimeout instead of raf
+
+* fixed local storage check for knockoutjs
+
+* better visible check
+
+* use visible todos, fix enter
+
+* replace clear with combined enter
+
+* disable routing in angular2, use single selector for escape test
+
+* more visible selectors
+
+* better routing test
+
+* enable a lot of tests, because they no longer are flaky
+
+* use start-server-and-test
+
+* fix loading of chapling todomvc
+
+* trying to make chapling work better
+
+* pass CYPRESS_times to control number of times tests run
+
+* observe localStorage.setItem to intercept old calls
+
+* spy on local storage - also means the app has started
+
+* add test:all command that runs through frameworks using Cypress
+
+* color test output
+
+* except ampesand from spy on local storage check
+
+* run series on Circle
+
+* command
+
+* command
+
+* pass --framework or -f
+
+* print counter in the title
+
+* tweaks
+
+* enable typescript-backbone routing
+
+* move from circle v1 to v2
+
+* second workflow
+
+* add more frameworks
+
+* run from CLI main tests using --main flag
+
+* more frameworks
+
+* update emberjs known issues
+
+* update angular-dart issues
+
+* fix serenadejs
+
+* fixed js_of_ocaml
+
+* fix mithril
+
+* fix canjs
+
+* added all compiled to js
+
+* dojo issue
+
+* fix count in dijon app
+
+* no local storage spy for knockoutjs
+
+* fixed scalajs-react
+
+* looked at reagent, hmm
+
+* start labs
+
+* fix for rappidjs
+
+* known issues for kendo
+
+* fix canjs_require
+
+* add more apps to labs workflow
+
+* more labs
+
+* store screenshots as artifacts
+
+* fix exoskeleton
+
+* fix react-backbone
+
+* fix puremvc
+
+* fix extjs_deftjs
+
+* how did extfs work before?
+
+* assert times parameter
+
+* allow --browser parameter
+
+* emberjs known issue
+
+* update flight start check
+
+* known issues for angular2
+
+* persistance in ampersand
+
+* typescript-backbone
+
+* add remaining projects
+
+* dijon known issues
+
+* worked with last few frameworks
+
+* add --problems flag to run just specific list of apps
+
+* js_of_ocaml has really bad localStorage format
+
+* better wait for local storage spy - with retry
+
+* allow spying on setItem for some frameworks with retry
+
+* add blur after editing field and enter
+
+* using blur for some apps after typing
+
+* refactor
+
+* duel should work
+
+* all tests for somajs_require
+
+* fixed a few issues
+
+* print TRAVIS env variables",False
+2cda67b20c555f76a67dc596f06d1721f2dd4816,2018-03-07 21:08:53,patrick kettner,"Merge(update projects to todomvc-app-css v2 (#1811))
+
+* update angular2
+
+* update atmajs
+
+* update backbone
+
+* update vanilla-es6
+
+* update everything else
+
+* update spine to todomvc-app-css v2
+
+* update ampersand to todomvc-app-css v2
+
+* update angular-dart to todomvc-app-css v2
+
+* update angularjs to todomvc-app-css v2
+
+* update angularjs_require to todomvc-app-css v2
+
+* update ariatemplates to todomvc-app-css v2
+
+* update backbone_marionette to todomvc-app-css v2
+
+* update backbone_require to todomvc-app-css v2
+
+* update canjs to todomvc-app-css v2
+
+* update canjs_require to todomvc-app-css v2
+
+* update somajs_require to todomvc-app-css v2
+
+* update somajs to todomvc-app-css v2
+
+* update serenadejs to todomvc-app-css v2
+
+* update reagent to todomvc-app-css v2
+
+* update rappidjs to todomvc-app-css v2
+
+* update ractive to todomvc-app-css v2
+
+* update puremvc to todomvc-app-css v2
+
+* update polymer to todomvc-app-css v2
+
+* update olives to todomvc-app-css v2
+
+* update mithril to todomvc-app-css v2
+
+* update lavaca_require to todomvc-app-css v2
+
+* update knockoutjs_require to todomvc-app-css v2
+
+* update knockoutjs to todomvc-app-css v2
+
+* update jquery to todomvc-app-css v2
+
+* update closure to todomvc-app-css v2
+
+* update flight to todomvc-app-css v2
+
+* update dijon to todomvc-app-css v2
+
+* update dojo to todomvc-app-css v2
+
+* update enyo_backbone to todomvc-app-css v2
+
+* update exoskeleton to todomvc-app-css v2
+
+* update extjs_deftjs to todomvc-app-css v2
+
+* update firebase-angular to todomvc-app-css v2
+
+* fix toggle-all",False
+544a0a52a684e231d093f4927f4eda8a94402509,2018-03-07 18:37:09,Michele Ricciardi,"(Merge)Learn page to display all the learn.json info in one place (#1552)
+
+* Creating the learn.html page
+
+* Including @samccone suggestions
+
+* Including more comments from @samccone",False
+c5bee456a812e75162f6ef5a5f380e8e5c312456,2018-03-03 07:38:06,Luke Caputo,"Change command to 'npm run start' (#1807)
+
+""dev"" is not included in the scripts list in '../examples/angular2_es2015/package.json', but ""start"" is.",False
+34e9739bd441408d36902e08d8ab8a69f6c5dc21,2018-02-08 22:46:58,Jonathan Chen,Docs: Fix typo (#1849),False
+fc72ed61752302acded4f8ce8ae631a718d1987e,2018-01-23 07:32:51,Jason Safaiyeh,Fixed Vue GitHub link (#1845),False
+b8913f1353381e68c3ca8d2c91f60dbb0b42f527,2017-11-17 21:45:23,Alan Yee,"Update readme.md (#1838)
+
+-Made explicit HTTPS calls
+-Add link to licence
+-Minor edits",False
+806d9891e3666dfab4d952fda92b6b0126917ca6,2017-11-17 21:44:38,Michał Gołębiowski-Owczarek,"Add a Git .mailmap with my new name (#1837)
+
+In this way my past contribution is mapped correctly.",False
+1dc309135580cb4c3d55cbe71382170013b831e1,2017-11-13 20:17:15,Jose Jimenez,add keys for todo items for vue to ensure checkboxes are not reused.  Fixes issue #1736 (#1835),False
+187b55f1b01849c2a4391916c9147d6f161bba97,2017-10-16 01:45:18,Frances Coronel,"Updating ""Why I Like TypeScript"" screencast link (#1829)
+
+Existing link for the screencast was leading to [a rather empty looking page](http://www.leebrimelow.com/why-i-like-typescripts).
+
+I updated the link to what I believe is the same screencast the original link was referring to. The link redirects to the video ""Why I Like TypeScript"" on YouTube by Lee Brimelow.",False
+b7fc712d3d8a26a78b7c9ccbd798bb9a89144385,2017-10-02 22:40:08,Toshiharu Nishina,fix react tutorial link (#1827),False
+748c199cce8b0b6c889d8769199a45a4532b80f3,2017-09-11 19:10:35,wuzehao16,Change the position of input cursor (#1821),False
+f0f869c27250d6c3d49510130921f968d6bc5bfe,2017-06-12 21:12:40,Anthony Muravyov,Update mithril links and descriptions (#1787),False
+2a1214f7917945775ca198aac448f76ab699aced,2017-05-31 01:57:27,Alan McBee,"Update section on Editors (#1784)
+
+Existing content was dated; brought to current",False
+213eedf5afe3ff24e2d584141f6c88cee03ca712,2017-04-14 10:56:45,Gábor Soós,"New TodoMVC implementation in Angular 2 with ES2015 (#1581)
+
+* New TodoMVC implementation in Angular 2 with ES2015
+
+* New TodoMVC implementation in Angular 2 with ES2015 - add jscs exclusion for built files
+
+* New TodoMVC implementation in Angular 2 with ES2015 - fix linting errors and add esnext to jscs rules for decorator syntax
+
+* New TodoMVC implementation in Angular 2 with ES2015 - remove own editor specific gitignore
+
+* update dependencies
+
+* upgrade to rc3
+
+* remove inject author
+
+* update jscs exclude
+
+* fix jscs styling
+
+* fix loading issue of assets
+
+* resolve conflicts and update to angular 2 final",False
+4521175a3bc674a2078c517dda67d9e3efb1e9f5,2017-01-28 22:08:14,Konstantin Veretennicov,"Fix #1616 (#1745)
+
+* angularjs: add Jasmine as dev dependency to fix ""npm test""
+
+On a TodoMVC clone freshly configured with ""npm install"", the ""npm test""
+failed to run due to missing Karma Jasmine. This adds the necessary
+dependencies, so that instructions from README.md actually work.
+
+* angularjs: fix tests failing due to missing ngResource
+
+* angularjs: update todoCtrl test to follow the change from 3765408",False
+779ab09b43e4503e6a995912fff08d0853be1eb1,2017-01-28 22:06:52,Miguel Camba,Update to Ember 2.10 and use HashLocation (#1722),False
+0a0af2145ad1d75647a0143c527edff64f8145b2,2017-01-28 21:52:32,Konstantin Veretennicov,angularjs: do not use self-closing form of <ng-view /> tag (closes #1748) (#1749),False
+ae39b8e5a59da6330d182b1f8feadccdbc07d669,2017-01-27 17:25:35,Nate Oliver,"Renamed edit function to editingMode (#1747)
+
+The edit function actually switches the todo to an editable input, it doesn't edit anything itself. The new function name 'editingMode' is more accurate and descriptive.",False
+9acf763f4402b97b6410f70961ab77703afbbe40,2017-01-27 00:32:18,Petar Petrovic,"Renamed indexFromEl function to getIndexFromEl (#1746)
+
+All other functions on the App object are in verb form. This change
+ensures all methods have consistent naming form.",False
+ae2dd19588f551032233a66bbc262cf9dba3b1ff,2016-12-31 15:38:00,Sun Zheng'an,Vue.js: Update to 2.1.8 (#1734),False
+50d46b4caf6a9ffa6505bdd70b18e38c05b488cd,2016-11-16 01:01:10,Evan Czaplicki,"Point to Elm Slack instead of IRC (#1709)
+
+Once someone in the community created a Slack channel, pretty much all conversation migrated over there. These days it is a great place to ask questions and have a friendly discussion about Elm, so I think this would be a more helpful link for people.",False
+975e46531e6ddbc466f10e993cf8e09eedded344,2016-11-16 00:09:24,Arthur Verschaeve,"Drop `thorax` and `thorax_lumbar` example
+
+Close #1715",False
+4fcd6b4f1d33763751e9bd5533f3bdc5ea96631e,2016-11-06 22:12:36,Arthur Verschaeve,"Remove some `typescript-backbone` items from `knownIssues.js`
+
+These issues were fixed in #830",False
+a8183d1eb47556ee6615f9cbd055ad83d92aaeac,2016-11-06 22:09:03,Arthur Verschaeve,"Remove a spine item from `knownIssues.js`
+
+This was fixed in 1cf5060a48d1c105398734784017b82ca1ab3324",False
+701a66000404cc9ab5cbcb59e03a1239fecab41f,2016-11-06 21:53:55,Arthur Verschaeve,"Drop the `componentjs` app
+
+The project was deprecated a while ago
+
+Ref https://github.com/componentjs/component/commit/a580e2e0dca99c93be638bfe55a3718489d625fa",False
+689921b2c7ead545aacbe6db34492c2216cb1d83,2016-11-06 21:44:34,Arthur Verschaeve,"Remove known issues regarding `chaplin-brunch`
+
+These should be fixed since #832. Ref #1579",False
+e01b44a481a82d50ebaaf12b4a89293d3276f978,2016-11-06 21:22:07,Arthur Verschaeve,"Remove `batman` from `knownIssues.js`
+
+The batman app was deleted a while ago in 052a840e80c00a04fb2684ecec085c90dc072451
+
+ref #1579",False
+9f2214d25b4089ef50889626a17656276fa70d3e,2016-10-27 20:40:28,Pascal Hartig,"Link to official Elm guide
+
+Suggested by @evancz.",False
+450a463b17d1d888876f8685094f93bd0e0d3b5f,2016-10-27 20:38:13,Evan Czaplicki,"Update Elm links to point to latest URLs (#1710)
+
+The old links are currently redirected to the new links. I figured I'd skip the redirect while I was looking at the file!
+
+It may also be worth linking to [The Official Guide](http://guide.elm-lang.org/) in addition to these links. Not sure!",False
+1b76bc9a14dc1278bfb7e8492a3551774c3be8f1,2016-10-03 15:01:24,alanbares,Fix broken link in vue readme,False
+0400b32fe0f53490ba1105ca0f974ecf55c4d05b,2016-10-03 14:58:50,Pascal Hartig,"Remove broken VueJS link from README
+
+Fix #1699",False
+7d5d1260142736d992867a6138dad48e2fca4847,2016-09-18 23:29:56,Devinsuit,Update ScreenCast link. Fix #1690 (#1691),False
+43306c3af84a4212730ce3440aa341e29a4c7227,2016-09-11 02:59:10,Addy Osmani,"Drops the Angular performance example (#1586)
+
+* learn.json: drop angularjs-perf
+
+* index.html: drop angularjs-perf listing
+
+* examples: drop AngularJS perf example as requested",False
+2909d17dd31bfe7e40a5d393c3a3e66d588bf302,2016-09-11 02:58:13,Olivier Scherrer,Fix #812 Remove routing mark for Olives (#1634),False
+4b300dc14c4d952fd9bf1315b58efad0fe178bf8,2016-09-11 02:57:35,Aaron Muir Hamilton,"Refactor the Vanilla ES6 example (#1626)
+
+- Simplify the Template module.
+ - Simplify the router.
+ - Convert all of the View render commands to normal methods, and give them more meaningful names.
+ - Convert all of the View bind synthetic events to binding methods, and give them more meaningful names.
+ - Normalize the Store API.
+ - Collapse the Model abstraction, since it consisted mainly of trampolines to methods on Store.
+ - Remove unnecessary dynamic templating for the Clear completed button.
+ - Put .footer inside .main since they are always hidden together.
+ - Make .filter a div, and unnest the <a>s inside the <li>s to avoid unnecessary extra nodes and CSS.
+ - Update the tests to work correctly with the new Vanilla ES6 markup.
+ - Remove unnecessary object orientation in app.js.
+ - Remove boolean traps from methods.
+ - Do not modify the NodeList prototype.
+ - Use cross-browser copmatible NodeList iteration in dispatchEvent of $delegate.
+ - Fix the existing JSDoc comments.
+ - Expand the existing JSDoc comments.
+ - JSDoc more of the code.
+ - Use Google Closure Compiler instead of Babel. It offers useful warnings and generates better code.
+ - Author a learn.json section for the Vanilla ES6 example.",False
+41eaaadfc9ff045a3d85c045ba0ff4076a0559fa,2016-09-11 02:54:49,Eduard Kyvenko,"Updated elm example to 0.17.1 (#1667)
+
+* Updated elm example to 0.17.1
+
+* Excluded elm compiled assets and packages from jscs
+
+* Removed focus port",False
+07d0b47c8235c1a688bb29ad602335c809dcd401,2016-09-11 02:53:47,Artem Denysov,"Update marionette.js to v3 (#1676)
+
+* update marionette.js to v3
+
+* update readme
+
+* update name of Mn on main page
+
+* fix code style",False
+b3d4c2a8a09e4c84a3107e20a7bde65db74cfcc3,2016-08-24 21:17:41,杨博 (Yang Bo),"Revert ""Fix dead link to source of Binding.scala TodoMVC application"" (#1673)",False
+0194041a46c46216ba45b69807df4d646c7990c5,2016-08-19 22:20:03,Alan Bares,"Fix dead link to source of Binding.scala TodoMVC application (#1669)
+
+Fixes #1669",False
+359ee851900e48154c60228db29f16849d9a2e2f,2016-08-19 22:19:38,杨博 (Yang Bo),"Fix dead links (#1666)
+
+fixes #1666",False
+65e5317cefec774ca8619dbc44fbff926193e69e,2016-08-14 22:31:55,杨博 (Yang Bo),Remove unexpected colon (#1665),False
+77f0e099af9722d6673566b7951f88d14635635d,2016-08-12 21:00:00,杨博 (Yang Bo),Add learning bar for Binding.scala (#1664),False
+b8bd7bd2b0973c801bd4ea94afaabea454fd7efa,2016-08-10 22:55:56,杨博 (Yang Bo),"Render the Binding.scala's TodoMVP application into a div instead of body (#1663)
+
+Render the Binding.scala's TodoMVP application into a div instead of body",False
+9e22e76c532c4ce8a2956c61b4fe719eb5cbfede,2016-08-10 10:03:26,杨博 (Yang Bo),"Request to add Binding.scala (#1615)
+
+* Squashed 'examples/binding-scala/' content from commit 4f546d0
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 4f546d0745a5f4b3a72e95ddc1d7f59773f12b28
+
+* Squashed 'examples/binding-scala/' changes from 4f546d0..45178a9
+
+45178a9 Publish to GitHub Pages
+d9a0c1a Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+d2ac731 Publish to GitHub Pages
+cb59711 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0324b27 Avoid tab indention
+8f4cb6f Update indention
+7284ab6 Publish to GitHub Pages
+e092b56 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+96c270e Update readme.md
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 45178a9b9dd50d72eb1f04a4a56e10ca78d3be14
+
+* Ignore jslint for Binding.scala
+
+* Squashed 'examples/binding-scala/' changes from 45178a9..5af88e8
+
+5af88e8 Publish to GitHub Pages
+22fd76b Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+15c6fae Update readme.md
+fd2c78b Publish to GitHub Pages
+62730da Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+c99bf54 Update readme.md
+4c8d780 Publish to GitHub Pages
+d905883 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+7e3898e Update readme.md
+443e2c4 Publish to GitHub Pages
+efb05b5 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+56fc875 Update readme.md
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 5af88e8003ab124c1c0037594454b73bcd2de9e0
+
+* Squashed 'examples/binding-scala/' changes from 5af88e8..5191681
+
+5191681 Publish to GitHub Pages
+7ac7f44 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+e8fa8f7 Map source to github
+efbf6ec Publish to GitHub Pages
+335bcd9 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+95db23e Update build.sbt
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 51916810746d9928c36a85a3cb6d33a7e313066f
+
+* Squashed 'examples/binding-scala/' changes from 5191681..3385b9d
+
+3385b9d Publish to GitHub Pages
+27ad704 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0a17bac Use upickle for serialization
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 3385b9da95abb2bee3ddd1536c6d4ded38c9db46
+
+* Squashed 'examples/binding-scala/' changes from 3385b9d..1e71eb4
+
+1e71eb4 Publish to GitHub Pages
+d2d2692 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+d22821a Replace Any to Event
+f1a73ab Publish to GitHub Pages
+0e8d094 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+f4077b5 Seperate event handlers and HTML elements
+5c10f67 Publish to GitHub Pages
+4a164d0 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+6661116 Seperate event handlers and HTML elements
+8cd4a2f Publish to GitHub Pages
+b54987f Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0c51d90 Adjust indention
+181600f Adjust indention
+4ae6c9b Remove unused imports
+8b6b49d Publish to GitHub Pages
+6121028 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+1e6e913 Avoid DOM property `htmlFor` in favor of HTML attribute `for`
+e130601 Avoid deprecated `each` method, in favor of `bind`
+3bd0e84 Publish to GitHub Pages
+7583e90 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+cee4dc1 Avoid MountPoint
+4978768 Add explicit type signature
+7928e68 Publish to GitHub Pages
+2d48f1c Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+d593f00 Avoid DRY string
+b43c268 Add a comment for Todo class
+4adc337 Publish to GitHub Pages
+6126301 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+a9e31ae Update readme.md
+bdb5573 Publish to GitHub Pages
+abd1575 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+4f0f26f Fix compilation error
+1343e1a Upgrade Binding.scala to 7.0.0
+e564d01 Publish to GitHub Pages
+1e7b918 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+17cea8d Use class attributes instead of className
+f4a630f Upgrade Binding.scala version
+a1b4fff Publish to GitHub Pages
+42301b5 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+51742f0 More clear indention
+575fa93 Publish to GitHub Pages
+4d1e2b6 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+5773f76 Update Main.scala
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 1e71eb427fe2365b8f014c8bbc8f8978a5efd5c1
+
+* Squashed 'examples/binding-scala/' changes from 1e71eb4..7490122
+
+7490122 Publish to GitHub Pages
+6f88ebc Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0dd27a0 Update readme.md
+ff46962 Update readme.md
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 7490122cd7425b84624e76769d6b5e37429720c5
+
+* Squashed 'examples/binding-scala/' changes from 7490122..ea1b6bb
+
+ea1b6bb Publish to GitHub Pages
+21bb704 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+0acc806 Upgrade Scala.js version
+eb5c97c Publish to GitHub Pages
+57d81eb Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+6886177 Upgrade Binding.scala
+6f67bb1 Publish to GitHub Pages
+6f1b13c Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+bf0b4d5 Upgrade dependencies
+5099d22 Avoid widecard imports so that a reader is able to find out where each class is imported from
+79a69a9 Publish to GitHub Pages
+cf4d002 Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+79edc64 Add explicit type signature
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: ea1b6bb3ee8b6b0f3fad39cf7d257c7106336cb8
+
+* Squashed 'examples/binding-scala/' changes from ea1b6bb..109f8a7
+
+109f8a7 Publish to GitHub Pages
+96bbf7a Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+64fe55c Update line numbers
+21bf71a Inline filterListItem
+d6b91f8 Adjust spaces
+e21d55b Publish to GitHub Pages
+e8e8e6f Merge branch 'gh-pages' of github.com:ThoughtWorksInc/todo into gh-pages
+e277e4e Update line numbers
+5300789 Remove new
+0905dbd Extract onclick event in mainSection
+55d8f55 Extract onclick event in footer
+e61bc2b Extract toggleHandler
+68dbdc4 Move done ignoreEvent
+27ddd65 Extract standalone blurHandler
+92663ea Publish to GitHub Pages
+9ac9410 Merge branch 'master' of github.com:ThoughtWorksInc/todo into gh-pages
+6d806dd Cache .npm directory
+
+git-subtree-dir: examples/binding-scala
+git-subtree-split: 109f8a72f9e9c29407310449819916921fb1c3db
+
+* Add Binding.scala in home page",False
+604a76c50a06bf9b1695db6d506aaa87bc9b0a0f,2016-08-01 08:30:09,Lucas Qiu,do not parse db again in store.save/remove/drop (#1657),False
+40bada0cfc0019dec296e4e36b9834ecbdc72e4c,2016-07-31 04:50:27,Øyvind Raddum Berg,"Scalajs-React updates (#1656)
+
+* Scalajs-React: Reformat, drop C-prefix
+
+* Scalajs-React: Convert to .sbt file, bump dependencies
+
+* Scalajs-React: Capture event data and correctly focus input field
+
+* Scalajs-React: Generate new files",False
+083b718c64c47e4d12851c5eee7b4234825c984e,2016-07-24 04:10:03,Sam Saccone,[build] ember example symlink fix,False
+e86ed5e2c092f657a992175c0163e5d28904831e,2016-07-24 04:01:06,Sam Saccone,[build] Switch to using . to extract all contents.,False
+74418d18988fdd9daefa0b98bcab8dfa95f46c6d,2016-07-24 03:55:08,Sam Saccone,[build] only copy contents of dist,False
+9b9ed17895d6201acc502f9e7b999c539467bdaf,2016-07-24 03:45:14,Sam Saccone,[build] drop * during cp to bring over dot files,False
+dbfde973acf233861bacfba0c637664880e6adcb,2016-07-24 03:35:12,Sam Saccone,[build] use new vinyl-fs module,False
+3be96e5215b11856339a2d8c96327f7b4ba8c918,2016-07-24 03:10:40,Sam Saccone,[build] dot => dots for vinylfs,False
+e0a327415f07030020949d5292298bec6be9bb8e,2016-07-12 02:36:29,Oskar Gustafsson,Fix JSCS errors (#1647),False
+1de4f1a42afeafc66eaf9354e6ee919ba65d7995,2016-07-04 04:04:51,Sam Saccone,site: Allow empty commits.,False
+26ceac577102aeb6dbee4d7f3eb6921e67db2528,2016-07-04 03:54:20,Oskar Gustafsson,"Improve test suite robustness. (#1646)
+
+..by waiting for DOM states instead of checking them only once.",False
+aa9b051bd71845636485d6fac2a7d428d0be9710,2016-07-04 03:51:10,Sam Saccone,Update ember symlinks to be root relative.,False
+fa62cc25da59ab2b70c10f749846404cdd478403,2016-07-04 03:20:00,Sam Saccone,"deploy: Further tweaks to deploy process
+
+* No need to recheckout gh-pages since the submodule already clones the branch.
+* Fix / Remove wonky cp",False
+6394e6f378303d72138701bf47f2c763ef8e0382,2016-07-03 22:54:50,Sam Saccone,"Force branch point creation.
+
+-B is what we want here :)",False
+1384bb26abb38f855158af7154bb0764fca0c343,2016-06-28 23:18:14,Sam Saccone,"site: Drop csso
+
+Polymer CSS (css level 4 features) is causing csso problems
+
+Skip it for now since polymer vulcanize already gives us wins.",False
+774f9133477d0ea1ed9b0b449041363cefca92a3,2016-06-28 23:04:21,Sam Saccone,site: Drop uglify phase.,False
+2d765605ba0ceb83aa1b087c3c34272646c869d2,2016-06-28 22:44:52,Sam Saccone,"Symlink fixup (#1644)
+
+* Delete ancient ember version
+
+* Rename ember-cli example to emberjs
+
+* Update image min dep
+
+* Use vinyl fs directly for symlink fix
+
+Fixes #1635",False
+31a5b9432d1d61971725e5f7cfebb1c9ad3912ba,2016-06-28 02:46:51,Sam Saccone,"Exit right away on error. (#1643)
+
+This will prevent invalid deploys when we encounter errors instead of a
+partial complete deploy.
+
+ref #1635",False
+8019b409d016ed3ae1c182d98ba5e3d25c2ffc06,2016-06-10 07:04:59,Miguel Camba,"Update ancient emberjs version and use ember-cli (#1582)
+
+Update to Ember 2.6",False
+326e50c19627e84d70111f146e2ef03fe0f4ccc9,2016-05-02 14:08:28,Sindre Sorhus,update code of conduct,False
+48b34a03c645d3cc52cae711bef47cda17848f90,2016-04-25 23:39:06,Sam Saccone,"Bump test specs (#1623)
+
+* tests: cache node_modules
+
+Move chrome to snapshots
+
+* tests: Bump selenium version
+
+* tests: Bump drool to v0.4.0
+
+* tests: Remove chromedriver download
+
+* test: Remove direct logs call.",False
+e07106436cf89061b36181a0bd16f33b95b69505,2016-04-18 13:12:47,augustjd,"Typo in app.tsx importing TodoModel from ./TodoModel. (#1609)
+
+Compiling as downloaded (with `tsc -p js/`) yields the following error:
+```
+js/app.tsx(12,27): error TS2307: Cannot find module './TodoModel'.
+```",False
+14137c15a8f7a78625624d7936de72356b8b32f8,2016-04-16 15:58:26,Pascal Hartig,Temporarily remove Meteor app listing (#1617),False
+405ca6978a4afe826d458fc768fc651abba7dda4,2016-03-30 20:42:14,Sam Saccone,"Merge pull request #1545 from mhoyer/aurelia-update-0.2.0
+
+Update todomvc-aurelia 0.2.0 (using Aurelia 1.0.0.beta-1)",True
+336c5bbbf27a41622242eed97b4204cba3abe9fe,2016-03-27 00:45:33,Sam Saccone,"Merge pull request #1606 from ipetropolsky/fix-webdriver-logs
+
+Fix TypeError: webdriver.WebDriver.Logs is not a function (#1605)",True
+63faab0ad8bca652aa0124361da6159cb5900072,2016-03-26 18:47:51,ipetropolsky,"Lock minor version of selenium
+
+Webdriver logs in actual version of selenium should never be instantiated directly:
+https://github.com/SeleniumHQ/selenium/blob/fa5ac92b451cff497e686d8e1e67c9c3101440a3/javascript/node/selenium-webdriver/lib/webdriver.js#L1429-L1432
+
+But drool still uses selenium 2.46.1:
+https://github.com/samccone/drool/commit/3770a157d218e6ea27ef9fd2e78f58105375fca0
+
+So the fast fix is the old version of selenium.
+
+Fixes #1605.",False
+530d9b435ccf1f94e470cfdcbc304c0f949b49a0,2016-03-11 22:01:23,Addy Osmani,"Merge pull request #1585 from tastejs/sjs/es6-lint
+
+Do not exclude es6 example from lint",True
+8db9bb530fcb1a38f27c18c891c13c3f20423a69,2016-02-16 15:08:57,Sindre Sorhus,"Merge pull request #1596 from anoopmd/master
+
+Updating the Marionette, Chaplin Comparision Link",True
+0f4201d83aaaaf1017fa9fdefbd03a2e1cbd0da9,2016-02-16 15:02:40,Anoop M D,"Updating the Marionette, Chaplin Comparision Link",False
+b403f0ff43c13d79e12d352ef740a882f46a4baa,2016-01-21 14:55:23,Pascal Hartig,vanilla-es6: update build artifacts,False
+429dc9d1caa65909f02f5c21c43e21ac48f5c7c4,2016-01-21 14:53:18,Pascal Hartig,vanilla-es6: Replace let with const where possible,False
+75486e33a98ddeb3d098e1a5c3cb4b1d94d94a1f,2016-01-15 22:22:41,Sam Saccone,"Do not exclude es6 example from lint
+
+since 
+https://github.com/tastejs/todomvc/pull/1567
+
+We can now handle es6 :)",False
+0d0c0b4a0d402998e0b32726417470386523cfc1,2016-01-15 22:09:24,Addy Osmani,vanilla-es6: fix code-style issues,False
+c2c75ee6b854af0b42761677a696c0ef79868a63,2016-01-15 22:01:52,Addy Osmani,"Merge pull request #1515 from lukeed/vanilla-es6
+
+Vanilla ES6, take 2",True
+77fec4364aef918b468d0c0fd173cd02e5c9858c,2016-01-11 23:56:24,Marcel Hoyer,"updates all components to latest releases (Aurelia 1.0.0.beta, todomvc-app-css 2.0.4, todomvc-common 1.0.2, ...) and re-bundled everything",False
+9435bd39d717a976cb25b853458cd40c8305009e,2016-01-07 02:29:53,Pascal Hartig,typescript-angular: add missing comma,False
+e22a7d8d28075d9decc54117de80b77cf5ff1045,2016-01-07 02:13:57,Pascal Hartig,"Merge branch 'pr/1577'
+
+Close #1577",True
+ddd4e059dd882b924bbeed32e3d3e4d8b1cacb66,2016-01-07 02:13:22,Pascal Hartig,"typescript-angular: update artifacts, node_modules
+
+- Update sourcemap
+- AngularJS upgrade to 1.4
+- app-css update",False
+eaf7c3a40cef9a2beaf5ca4307a2cb0426758af3,2016-01-07 02:13:04,Rosana Ruiz,"Fix bug: Show all items when ""All"" tab is active",False
+d692aa3f690c29353a87dc0809b5a60c5c1db26d,2016-01-05 21:59:32,Colin Eberhardt,Added myself as an author!,False
+cbfa0c8762b81a1f9d71e4cd23f494337101aab9,2016-01-05 21:59:32,Colin Eberhardt,Use dependency injection,False
+60c55a87cf36d12e781c1c533f2194bf4d9cd52d,2016-01-05 21:59:32,Colin Eberhardt,"Using two-way binding
+
+This removes the need to reference a DOM element from the component",False
+b2d4923ac261b0092e8ea75cfe06e93edf92fd7b,2016-01-05 21:59:32,Colin Eberhardt,"Applying TypeScript concepts
+
+ - No implicit any, ensure everything is typed
+ - Using private access modifier
+ - Property getter / setters",False
+9555657d9964c1e580454a94791985c3c3f50116,2016-01-05 21:59:32,Colin Eberhardt,code-style - simple fomatting changes,False
+60c78081ec0d3dd777b34507c484dbe5d0789b4a,2016-01-05 21:59:32,Colin Eberhardt,Moved to a more conventional angular 2 structure - seperated bootstrap,False
+45e94d1d4cc974579a95d81db71033ca46569d7a,2016-01-05 21:59:32,Colin Eberhardt,"Removed store.js and uuid
+
+Removing store.js (+1 squashed commit)
+Squashed commits:
+[0f39fb8] Removed dependency on node-uuid",False
+707f219c47c09bed624b4f9b818bf8cae8dacd0e,2016-01-04 21:08:13,Sam Saccone,"Merge pull request #1574 from cisar/master
+
+Backbone example: add id attr to input",True
+c871c72c3407b9a6512dfd1967496665b78f1fd1,2016-01-04 18:14:49,Dmytro,Backbone example: add id attr to input,False
+537c41229bd517a7392c608f60bfa23aaf918bfe,2016-01-04 15:47:08,Colin Eberhardt,"Merge pull request #1573 from ColinEberhardt/mhoyer-async-tests
+
+Correcting asynchronous testing",True

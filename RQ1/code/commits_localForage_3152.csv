@@ -1,0 +1,635 @@
+Hash,Date,Author,Message,IsMerge
+fb78c77ee583fb727a558c439b5174aca38c5924,2024-07-31 01:57:14,Matthew Riley MacPherson,"Merge pull request #1090 from DMunkei/doc-fix
+
+Fix: place the fullstops inside of the string called through console.log",True
+8a1ecf78ebea6ebb0739e370415b59a7cab76cd3,2023-07-20 18:08:55,Dominique Köstler,Fix: place the fullstops inside of the string called through console.log,False
+c5b66157252988dc4e74a3eab5226b59be376a2f,2022-12-24 04:34:15,Thodoris Greasidis,"Merge pull request #1045 from SimpleIndian/patch-1
+
+removed extra `code` denotation from docs",True
+57c79652db0794dc11ba435d92b8bd54b832ca8e,2021-11-20 22:50:15,Souvik Mandal,removed extra `code` denotation from docs,False
+711d5891dfc699705f086c2bec4c68d6c363c8ff,2021-10-03 15:45:28,Matthew Riley MacPherson,chore: Remove old badges from README,False
+7323475989c0ddc51849d72b4acaec66f2b491c6,2021-08-19 02:51:42,Matthew Riley MacPherson (tofumatt),chore: Release 1.10.0,False
+ff5e39270c86a1d1d5b517d6f85dfd8f540691c4,2021-08-18 20:59:38,Matthew Riley MacPherson,"Merge pull request #807 from AdamStone/dropInstance-onblocked
+
+Avoid uncaught error in dropInstance onblocked handler",True
+c1cc34fda0343c5e19224fc99c452dbe611c1736,2020-08-01 00:05:14,Matthew Riley MacPherson (tofumatt),chore: Release 1.9,False
+b38ba45de678247cfcff0de23ded01b798fec270,2020-08-01 00:01:36,Matthew Riley MacPherson,"Merge pull request #980 from Glandos/patch-1
+
+Update localforage.d.ts",True
+19c67f48e5436fae0c3ce84ab7340516d80bdcf4,2020-07-24 18:24:40,Glandos,"Update localforage.d.ts
+
+getItem can return null when the item doesn't exist",False
+38c207d785dc90ebc5a6b487270537f5e8e89ff7,2020-07-21 18:45:38,Matthew Riley MacPherson (tofumatt),chore: Release 1.8.1,False
+d016798d00b4060f7e46ea5391a4bfaa61eca1b4,2020-07-21 04:03:39,Matthew Riley MacPherson,"Merge pull request #978 from localForage/chore/release-1.8.0
+
+chore: Release 1.8.0",True
+abe62a72cd348391bf9010945902ec8227674fee,2020-07-21 03:47:16,Matthew Riley MacPherson (tofumatt),chore: Release 1.8.0,False
+101f12f8d40127972a86ee52c3565b653b27b7cc,2020-07-21 02:53:22,Matthew Riley MacPherson,"Merge pull request #977 from quentincaffeino/feature/added-module-for-esm
+
+Added module to package.json for esm suport",True
+3bbb75052a42c283323ca464f7f859ee1f435117,2020-07-19 20:12:55,Sergei ZH,Added module to package.json for esm suport,False
+abe16c8a20c78ecff359647ede8e97f6102601b5,2020-07-05 19:01:46,Matthew Riley MacPherson,"Merge pull request #973 from odidev/arm_support
+
+Updated mocha-headless-chrome version to latest in pakcage.json",True
+fdfdbbbdb7109406cce9c8f8b266072bf3f58017,2020-07-02 20:29:59,odidev,"Updated mocha-headless-chrome version to v3.1.0
+
+Signed-off-by: odidev <odidev@puresoftware.com>",False
+c88e5306370a23931fd1e324c488b9832906c6bf,2020-06-27 01:00:21,Matthew Riley MacPherson,docs: Tidy up README a bit,False
+ba4f87127c8923cc454ad772bcf8cd63b1b77039,2020-06-27 00:57:18,Matthew Riley MacPherson,Update README.md,False
+b71d19198361e2d2f161815fd40f61f68ba5e666,2020-06-26 18:30:38,Matthew Riley MacPherson,"Merge pull request #972 from owenfar/patch-1
+
+api.md update - Multiple stores in same instance",True
+bd5e6f94e370bb8a852b79212907735dd960b243,2020-06-26 12:45:57,Owen,"Update docs/api.md
+
+Co-authored-by: Matthew Riley MacPherson <hi@tofumatt.com>",False
+f8131281a3700b2eb312c95785af2eaed5fdf423,2020-06-26 12:45:51,Owen,"Update docs/api.md
+
+Co-authored-by: Matthew Riley MacPherson <hi@tofumatt.com>",False
+f2aafe1d47df38c6218ac79f57b8552880c4fc2d,2020-06-24 17:09:00,Owen,"Update api.md (Multiple stores in same instance)
+
+Let me know if I should add more details or change anything ;)",False
+5f7057c12ce8190f4c510bf3c1ed15020e34868e,2020-06-06 02:08:59,Matthew Riley MacPherson (tofumatt),chore: Release 1.7.4,False
+566f9e88a0b47629e29c277a7e52fec08a284dbf,2020-06-05 05:12:52,Matthew Riley MacPherson,"Merge pull request #874 from MeMark2/use-openKeyCursor
+
+Switch use of IndexedDB openCursor to openKeyCursor for fetching keys",True
+1f7ca5d651585dd36d80e054e9c19bf659213891,2020-06-05 04:51:49,Matthew Riley MacPherson (tofumatt),Merge branch 'master' into pr/MeMark2/874,True
+f82723c63a5d808be3cb375864e34fb4728e9b6d,2020-05-25 22:38:26,Matthew Riley MacPherson,"Merge pull request #963 from timgates42/bugfix_typo_returns
+
+docs: Fix simple typo, retuns -> returns",True
+cb7b103b6c426be7cc6db861fee772ab5dacea3f,2020-05-17 03:16:16,Tim Gates,"docs: Fix simple typo, retuns -> returns
+
+There is a small typo in dist/localforage.js, dist/localforage.nopromises.js, src/drivers/indexeddb.js.
+
+Should read `returns` rather than `retuns`.",False
+8c47ed0f5b6c022ffbabe54bf18553d759d9cd70,2020-05-07 05:25:22,Matthew Riley MacPherson,"Merge pull request #913 from ossdev07/localforage_chromium_support
+
+[localForage]: Replaced PhantomJS with puppeteer",True
+cf88fc6d63392732b66352eae9ec29eb986ad910,2020-02-17 23:44:44,Matthew Riley MacPherson,"Merge pull request #933 from nainardev/master
+
+Added async/await",True
+2bcb2c1fb65b8efcf0bed520ecf247ae56e47d1e,2020-02-17 23:41:34,Matthew Riley MacPherson,docs: Tweak `async`/`await` text,False
+7b028e847a11a02dc99fef711894ef0ac09ea952,2020-02-17 23:41:00,Matthew Riley MacPherson,docs: Tweak async/await text,False
+696439b1da1a248a5834cb16b919168a96d08a64,2020-02-17 17:18:24,Mohamed Nainar,async docs added,False
+b39c4c0720c4f1690d4e94b727ccae9348dbae37,2020-02-17 16:34:24,Mohamed Nainar,Added minzipped size,False
+f2d2299df963b2bd129426ef6fb030ccbff81bcd,2020-02-17 16:30:48,Mohamed Nainar,Added async readme,False
+edc0eb366d166eabd80da8e7e41c355220a68e13,2020-02-11 02:24:12,Matthew Riley MacPherson,"Merge pull request #931 from nainardev/patch-1
+
+Yarn instructions",True
+c89ccd51acfd0c94761ed458b84dcb3f717f312f,2020-02-10 17:44:33,nainardev,"Yarn instructions
+
+Don't know how to edit PRs. So, made a new one
+Earlier one: (https://github.com/localForage/localForage/pull/930)",False
+de01d48556e2e9125278115c9fd8378f8fa9faa3,2020-01-29 08:28:45,Matthew Riley MacPherson,"Merge pull request #926 from nlappe/improve/added_sizes_readme
+
+added lib size numbers (minified, gziped, brotlid) to README.md",True
+d93ca3c740f11fd95311b15b1b3349b42bfbb6bc,2020-01-29 08:28:16,Matthew Riley MacPherson,Update README.md,False
+d2309286c34b53b2b349117f200b4911c94e2454,2020-01-29 08:27:02,Matthew Riley MacPherson,docs: Tweak styling of the filesize section,False
+de51ff2342a6292ab3fdbaa5d1ed6ecc0c426073,2020-01-28 00:09:31,nlappe,"added lib size numbers (minified, gziped, brotlid) to README.md",False
+9d8f6ad74b7b7452c0ce125b18c75c52647acfe4,2020-01-14 17:01:34,Matthew Riley MacPherson,"Merge pull request #923 from AntoninSlejska/patch-1
+
+This closes localForage/localForage#922",True
+602014cd6a8b1d163b327888bac7e58135672049,2020-01-14 14:23:55,Antonín Slejška,This closes localForage/localForage#922,False
+1bcceed40038c66e6173b0bb51d70cf0e2181aec,2019-11-15 17:19:22,ossdev07,[localForage]: Updated travis.yml,False
+056efa487b346a793c0aa96a88be5a3a9ab1064e,2019-11-15 16:58:42,ossdev07,[localForage]: Replaced PhantomJS with puppeteer,False
+5d819bb964449c94ce709bba0ba001b7f194d919,2019-10-01 15:08:03,Matthew Riley MacPherson,"Merge pull request #909 from SheetJSDev/patch-1
+
+Cleanup LICENSE",True
+3eb4771baea43fb80bf4d4c6af224960db548a0e,2019-10-01 14:58:35,SheetJSDev,Cleanup LICENSE,False
+8d68cc745db8fa279391b8fdd9c48176817f74ac,2019-09-24 14:08:47,Matthew Riley MacPherson,docs: Remove mention of IRC channel,False
+1beddd80984d9aca9e26b91a42ea3fdf46c909c8,2019-05-24 16:58:33,Thodoris Greasidis,"Merge pull request #891 from thgreasi/husky-lint-staged
+
+Bump husky & lint-staged versions",True
+4a321a619f0b9d37582f70c09b28bf67ce8f6c3d,2019-05-24 16:52:26,Thodoris Greasidis,"Bump husky & lint-staged versions
+
+Also moved their configuration out of the package.json (following the single responsibility principle), which makes the package.json cleaner imo & is also what husky & lint-staged do in their own repos.
+
+See: https://github.com/typicode/husky#upgrading-from-014
+See: https://github.com/okonet/lint-staged#lintstagedrc-example",False
+55dd12f21de5c1db2a17c8f4f188a19fd94e9be8,2019-05-24 16:51:55,Thodoris Greasidis,"Merge pull request #890 from thgreasi/drop-pakcage-lock
+
+chore: Drop the package-lock",True
+243777e469ce5eb8509a35833194ae2423e39f27,2019-05-24 16:36:11,Thodoris Greasidis,"chore: Drop the package-lock
+
+Using package-lock.json in libraries is considered a bad practice since it isn't included in the published package. As a result the code that we run on our ci might end up not being the same as the code that a fresh npm install will be using. This currently only applies for `lie`'s `immediate` dependency, but will also help us pick up the latest bugfixes from our dev dependencies and possibly get rid of the GitHub security warning for our dev dependencies.",False
+a19338ec7983b6692cafa0d48620a72f38f8fb04,2019-03-05 04:47:50,Matthew Riley MacPherson,"Merge pull request #881 from JamesChevalier/patch-1
+
+minor syntax fix",True
+b4fd445fc892fe6a4f32bbcabc55454958e4b6fb,2019-03-03 02:45:38,James Chevalier,"minor syntax fix
+
+The code example for `dropInstance` accidentally used a `.` instead of a `;`",False
+3f1bc9bf1003f6685ac01382c90c50b0f7010997,2019-02-09 00:07:54,Jorge Ramirez,Switch use of IndexedDB openCursor to openKeyCursor for fetching keys,False
+349a8743b08036078aaea9d88de89177345e5dc4,2018-10-27 04:45:31,Matthew Riley MacPherson (tofumatt),docs: Improve Safari fetch check comment,False
+44ef806c6d182638533686ce5e2f7facb3b29781,2018-10-27 04:15:28,Matthew Riley MacPherson (tofumatt),fix Travis deploys,False
+04d18e325e75411750968432b51d82770ea75c89,2018-10-27 03:19:20,Matthew Riley MacPherson (tofumatt),chore: Release 1.7.3,False
+03cb0e3f7eca7d595a32b5bf0ccc329ee62f9a6f,2018-10-27 01:02:10,Matthew Riley MacPherson,"Merge pull request #855 from necccc/master
+
+add .npmignore",True
+655ab8e88145227517154323c335b00a6c4e81cc,2018-10-27 00:58:33,Matthew Riley MacPherson,Add EOF newline to .npmignore,False
+ec074e5bd6f3da39df3da136e546feed7649ea61,2018-10-26 21:13:08,szabolcsit,add .npmignore,False
+3e1d6e70a001e0f057d816740c7bc9167e2f0711,2018-08-07 16:33:18,Matthew Riley MacPherson,"Merge pull request #836 from snito/update-define-driver-doc
+
+Update defineDriver document",True
+fd9e25a95547221c2d2c20c76f161946c6263b76,2018-08-07 13:47:55,Shinsuke Ito,Update defineDriver document,False
+7428cfc4a6fd60ac00346619b923bfb8e17e399a,2018-06-16 23:06:10,Thodoris Greasidis,chore: Release version 1.7.2,False
+ec5d886dc0caf4eacb327110dd0fa43be2c97913,2018-06-16 23:04:29,Thodoris Greasidis,"Merge pull request #830 from thgreasi/829-websql-unknown-name
+
+fix(websql): fix dropped detection",True
+e131383a23763d087634619fa6cd63375a285c47,2018-06-15 12:20:41,Thodoris Greasidis,dist: fix websql dropped db detection,False
+3f297e0260e1f4816f1599ea9a04cc3c989c775a,2018-06-15 12:20:41,Thodoris Greasidis,fix(websql): fix dropped detection,False
+48def0d9dc37b507199a8c2f1745e3f95ff73337,2018-06-15 12:20:41,Thodoris Greasidis,Limit prettier version to reduce +-diffs,False
+55111683e3a2078f28956ba9172f5a69686fb36e,2018-05-22 06:49:20,Adam Stone,Close open connections in onversionchanged to prevent blocked open/delete requests,False
+2cdbd74b3701d72eaffe9e0ce243fa263cf3e207,2018-03-31 23:07:35,Matthew Riley MacPherson,"Merge pull request #810 from localForage/docs/add-chinese-translation-info
+
+docs: Add link to Chinese documentation (fix #796)",True
+bbe50a3e34ed5018e8b56b1be89839f48fe168a6,2018-03-31 22:13:28,Matthew Riley MacPherson (tofumatt),docs: Add link to Chinese documentation (fix #796),False
+e4b4c9427ef3e168c1f04fb29bb9e3468f4828ff,2018-03-31 00:20:22,Matthew Riley MacPherson (tofumatt),fix: Revert change made to package.json for #805; fixes #808,False
+098e11997195f8aa2ec51a73bc748e38294d9bf6,2018-03-30 14:40:59,Matthew Riley MacPherson (tofumatt),chore: Bump to version 1.7,False
+de866cdfa525d3e6268d811f90a86c0787a6d458,2018-03-30 14:25:22,Matthew Riley MacPherson,"Merge pull request #806 from brettz9/module-package-json
+
+Add `module` to `package.json` for #805",True
+dba7a16a76e15f887abc8aeaf44d4aeec8f25cde,2018-03-29 20:56:12,Brett Zamir,Add `module` to `package.json` for #805,False
+f66bb7baf21e4f0703b4e83ec7a0b39679c05af5,2018-03-26 15:16:39,Thodoris Greasidis,"Merge pull request #802 from Alorel/patch-1
+
+Update Angular 4 link",True
+ffd217359077827bbebf546ece475b692b36baf7,2018-03-26 14:12:31,Art,"Update README.md
+
+Hey, ngforage author here.
+
+Changed the link to point to the github repo instead of npm as `ngforage` has been deprecated and there are separate builds up for Angular 4, 5 and 6 :)",False
+3cb9009ed56da8605ef5ee59065ab74967e7edb6,2018-03-13 05:16:32,Matthew Riley MacPherson,"Merge pull request #789 from augbog/augbog/version-documentation
+
+#658 add documentation for version configuration",True
+344020742a25564192b34b658dcd184ca1f41f42,2018-03-03 13:48:43,Thodoris Greasidis,chore: Release version 1.6.0,False
+7404ea5ca641d7cc0df62fc1c771ee4137bfe6d8,2018-03-02 08:27:02,Matthew Riley MacPherson,"Merge pull request #798 from cheapsteak/patch-1
+
+Update downloads badge to point to graph of downloads over time 📈",True
+7e1d8fdad2d176795496d968eb9cf97b8027c3aa,2018-03-02 08:13:03,Chang Wang,Update downloads badge to point to graph of downloads,False
+c935406526324f450ecc0d105e33916f4188c4f2,2018-02-26 00:54:36,Thodoris Greasidis,dist: close IDB connections to fix dropInstance timeouts,False
+b6a47080ba946e3ca659c1d7358a04521440e5cf,2018-02-23 18:41:21,Thodoris Greasidis,"Merge pull request #786 from thgreasi/779-dropInstance-fixes
+
+fix(indexedDb): close connections to fix dropInstance timeouts",True
+5ad8a673b1c4ef42894bf57d53869e14013f3208,2018-02-23 15:39:27,Thodoris Greasidis,"Merge pull request #794 from thgreasi/ie8-localstorage
+
+fix localStorage in IE8",True
+5bb81845a8a0b551b74ced7b13f286488c8463df,2018-02-23 14:28:27,Thodoris Greasidis,dist: fix localStorage in IE8,False
+cf32a999c018e3385b1d8f9f6152c6704b06c6e1,2018-02-23 14:28:13,Thodoris Greasidis,"fix localStorage in IE8
+
+This is a regression from #723
+See: https://github.com/localForage/localForage/pull/723/files#diff-c308623615f5f6f9fe5127ca5e673668",False
+8422e50b83d0c6b496fe45d64fcf1a1cf0f90caf,2018-02-06 06:48:28,Augustus Yuan,#658 add documentation for version configuration,False
+4ceeb2230415772f1c25563b9ce67b4eea0906b1,2018-01-28 23:17:00,Thodoris Greasidis,test(api): refactor & add extra dropInstance tests,False
+b69196aa4e849b8f1c6ead8c2c7c10133e34670e,2018-01-27 22:24:45,Thodoris Greasidis,Review changes,False
+4c88ccb7660bdea794edeabea7fcd6e77da13c6d,2018-01-26 23:32:50,Matthew Riley MacPherson,"Merge pull request #787 from gruns/master
+
+Clarify that localforage.driver() returns null until the asynchronous driver initialization process finishes.",True
+80575ecd14e9adc992c02db81a11e6a7bf078806,2018-01-24 16:08:44,grun,Clarify that localforage.driver() returns null until the asynchronous driver initialization process finishes.,False
+c7be3d2218915380c6717ae9901b875df390f5e4,2018-01-22 01:33:28,Thodoris Greasidis,"fix(indexedDb): close connections to fix dropInstance timeouts
+
+Resolves: #779",False
+2f917c00a519d28a9ab872d0d9a766ef4e4cedab,2018-01-22 01:31:42,Thodoris Greasidis,test(api): add extra dropInstance tests,False
+fc7e8e66cd02f2052f4176a60d61d5ffacfeba44,2018-01-06 19:16:44,Thodoris Greasidis,Merge branch 'cherewaty-upgrade-lie' into upgrade-lie,True
+fa93dbb2887070f7c87f8b31d6d71445a02f3c2a,2018-01-06 19:16:19,Thodoris Greasidis,test: Add polyfill tests & example page,False
+306957280bff165d7b255064afb6f07571360a79,2018-01-06 16:38:23,Thodoris Greasidis,"Merge pull request #776 from LukasDrgon/patch-1
+
+Add jsDelivr hits badge",True
+a8a1cd483da19ea9496de1d5c4e12afb207da3f3,2017-12-28 23:12:25,Jeffrey Cherewaty,Upgrade lie to 3.1.1,False
+55db1ef633af28abe98ea0baf68fa1c24566f282,2017-12-24 01:02:59,Thodoris Greasidis,"Merge pull request #773 from thgreasi/prettier
+
+chore: add prettier & husky precommit hook",True
+6042210395304fef7b8c6e741cda4cfd71915552,2017-12-18 12:12:12,Thodoris Greasidis,refactor: format sources with prettier,False
+c5dfcc31c4032c7df30e98cf05e0d59c43fdd870,2017-12-18 12:12:12,Thodoris Greasidis,"chore: add prettier & husky precommit hook
+
+Resolves #753
+Adds prettier as a precommit step. This will enforce a single coding style in all files, help further developent and new contributors to open PRs that have no code formatting issues.",False
+904844d9fd81649475eed70b55aa379e599a57b0,2017-12-10 17:05:57,Thodoris Greasidis,"Merge pull request #768 from thgreasi/dropInstance-typings
+
+Fix dropInstance Typings",True
+96c230b6ec212bd231ddbb82ef7e3f73890fd4fa,2017-12-10 16:50:23,Thodoris Greasidis,"Fix dropInstance Typings
+
+Resolves #762",False
+3e17088f07f0c88964c750ecb3180085fdedc04c,2017-11-29 00:10:48,Matthew Riley MacPherson (tofumatt),chore: Release version 1.5.4,False
+635d1963ccc68026d2087d33dd21c0dfe9d47395,2017-11-29 00:03:43,Matthew Riley MacPherson,"Merge pull request #761 from tran2/edge-null-to-undefined
+
+fix(indexeddb): cast null to undefined before storing value",True
+e53173b2e2f50e83c74c7a436bf6c4c4b1a667ac,2017-11-28 23:51:25,Tran Tu,"fix(indexeddb): cast null to undefined before storing value
+
+to support Microsoft Edge
+fixes #760",False
+b55bb06801b2d2dd65b64b001db2d31bf44be138,2017-11-08 14:50:24,Art,"Add Angular framework (#757)
+
+* (docs) Add Angular framework",False
+226d4338bba2e0d1bc352f5b78a07c732acf9619,2017-11-05 17:29:31,Thodoris Greasidis,Merge branch 'thgreasi-drop-instance-v2' into drop-instance-v2-rebase,True
+eecad1f19a8ae773d485ed321f10073ba0a9d8d9,2017-10-29 00:23:14,Thodoris Greasidis,Release version 1.5.3,False
+ab2ca03273682c1e7f4c565f46e5d0a780bf9cbd,2017-10-29 00:22:45,Thodoris Greasidis,docs(CHANGELOG): add changelog entriers for  v1.5.1 & v1.5.2,False
+ae90bc6d8e0b7d66577de9f170e100cbf869dea4,2017-10-29 00:15:15,Thodoris Greasidis,test(faultydriver): test failing IndexedDB implementation,False
+b4ba8391686d53fac740ace044e905f6c3eac807,2017-10-28 22:25:41,Thodoris Greasidis,Merge branch 'jesusbotella-check-if-localstorage-is-usable',True
+b48d52f03578e763969d547b46dd19e578519370,2017-10-20 01:09:34,Lukas Drgon,Add jsDelivr hits badge,False
+837daf08572659aa6c2acc3dec93256f2b60ec3e,2017-10-18 23:00:43,Thodoris Greasidis,dist: increase performance of localStorage keys(),False
+ea4d2e4d627aa68eb76c26e526128a1ea53af88a,2017-10-18 20:50:34,Thodoris Greasidis,"Merge pull request #755 from ThomasRooney/master
+
+Increase performance of localStorage keys() function.",True
+abfd524fe31a4d4ec02830100446584314991bed,2017-10-18 15:40:00,Thomas Rooney,Increase performance of localStorage keys() function.,False
+b530cc226469ae126c2975ed7ae71b89cb819779,2017-10-14 21:15:09,Thodoris Greasidis,docs(CHANGELOG): add notice for localForage 1.4 compatibility plugin,False
+b181be4ec738059631b6395f098c01d7842b06ae,2017-10-10 23:18:19,Thodoris Greasidis,Release version 1.5.2,False
+3a2a565b1fa3936c70288204b0c3361aab8d62d0,2017-10-10 23:17:53,Thodoris Greasidis,"Merge pull request #751 from thgreasi/fix-createinstance-console-logs
+
+Fix createinstance unnecessary console logs",True
+015b3c745b798595a26d6667da51c19aac317042,2017-10-10 23:08:24,Thodoris Greasidis,dist: prevent unnecessary logs from createInstance(),False
+13125ebd6ed2c9e9d9996791bdb63aaee0992c61,2017-10-10 23:08:24,Thodoris Greasidis,fix(localforage.createInstance): prevent unnecessary logs,False
+8792f57a461f36d8557585bca7e96401dd513ef3,2017-10-10 23:08:23,Thodoris Greasidis,test(api): check unnecessary logs from createInstance(),False
+aa0c0aedf77b8c5727dca526b6f8d5d33d0e1c33,2017-10-08 20:29:13,Thodoris Greasidis,Release version 1.5.1,False
+f80966b2d69750916c29a3c6ccf497e253935710,2017-10-04 12:19:34,Thodoris Greasidis,"Merge pull request #748 from jesusbotella/add-grunt-command-name-to-build-script
+
+Add missing require module name in build script",True
+b552e09445ae8849fede525a5c21a821a9cb6169,2017-10-04 02:26:59,Jesús Botella,fix(package.json): Add missing require module name in build script string,False
+6f2248aa582b7161a28cd0675acacd8a7ab147f3,2017-09-30 17:55:24,Thodoris Greasidis,"Merge pull request #747 from thgreasi/docs-use-cdn
+
+docs: use cdn for localforage & jquery",True
+5490a687b93b2e8901fa5803b33220906718d8ae,2017-09-30 17:50:45,Thodoris Greasidis,"docs: use cdn for localforage & jquery
+
+Resolves #737
+Resolves #746",False
+7e31813d3c05d7c0fa9ba91ed87014f544f321a4,2017-09-27 15:50:25,Thodoris Greasidis,"Merge pull request #743 from dmlzj/vue-plugin
+
+Update README.md",True
+c8a5bae3fdeb97876b04359b2594cf446ae35317,2017-09-27 15:27:05,dmlzj,"Update README.md
+
+Add vue plugin for localForage",False
+be035ec159090ffbd51babf9e7cd4dec5f2e078c,2017-09-27 02:19:54,Jesús Botella,"chore(dist): Check if localStorage allows to save items, avoiding Safari private browsing quota error",False
+815b660aa8b062a80a45f0b098030f3c9a69fc7c,2017-09-27 02:06:41,Jesús Botella,"feat(localStorageDriver): Check if localStorage allows to save items, avoiding Safari private browsing quota error
+
+test(faultydriver): add test for Safari private browsing quota error
+
+feat(localStorageDriver): Check if localStorage is actually usable
+
+refactor(localStorageDriver): Abstract localStorage check into a new function and check if there is any saved item
+
+test(faultyDriver): Clear storage before test not to tamper results",False
+818acca69b1b1babb1021d7e2fb0c11a2815c16d,2017-09-24 23:31:29,Thodoris Greasidis,"Merge pull request #723 from thgreasi/use-custom-driver-API-for-internal-drivers
+
+feat: use custom driver API to define internal drivers",True
+3e989e2d118acfab02301e57997907fed814b46a,2017-09-24 23:20:20,Thodoris Greasidis,chore(dist): use custom driver API to define internal drivers,False
+7e161cca430b279cc641bd115f20ba7db5c7a034,2017-09-24 23:20:20,Thodoris Greasidis,"feat: use custom driver API to define internal drivers
+
+Resolves #296.
+Since we now treat internal drivers and custom ones equally, we now allow users to re-define & override internal drivers as well.",False
+7a7c64914a167bd1438384b6f0a85def9b775154,2017-09-24 03:53:47,Matthew Riley MacPherson,chore: Final tweaks,False
+64237340fc3c8184958a0f65ce65213641e9ce15,2017-09-24 03:50:41,Matthew Riley MacPherson,fix: Typos and package issues,False
+5ef1585f20c46cccf7b691c770827f2ce5e3b1d9,2017-09-24 03:32:24,Matthew Riley MacPherson,Merge branch 'drop-instance-v2' of https://github.com/thgreasi/localForage into thgreasi-drop-instance-v2,True
+21e146c47323d00a76f4ceba2ee5a0381fe3e340,2017-09-24 02:13:53,tofumatt ☕️,"Merge pull request #726 from thgreasi/eslint
+
+chore: migrate to eslint",True
+0f7558f38a6d7eae4a368ae5d90f5b3cc2043506,2017-09-17 23:53:21,Thodoris Greasidis,"Merge pull request #735 from thgreasi/multiple-instances-same-store-test
+
+test(api): test creating multiple instances on the same store",True
+56a6eb18721ed99e2350282423219d4ad3b22bb4,2017-09-17 23:42:20,Thodoris Greasidis,"test(api): test creating multiple instances on the same store
+
+Resolves #734",False
+065f7951733b6c28b6f05f53329ef7d9ad47835f,2017-08-16 18:42:35,Thodoris Greasidis,chore: add dist after eslint error fix,False
+5cded532fb257bb49157e4d14e5322d3c1d3b911,2017-08-16 18:42:35,Thodoris Greasidis,refactor: fix eslint errors,False
+1774206b3d510c065fb213ab6da804f348ee53ef,2017-08-16 18:42:29,Thodoris Greasidis,chore: migrate to eslint,False
+d58233e73f6d5e4878b615a3576fcb4b6428e9b6,2017-08-16 14:20:04,Thodoris Greasidis,"Merge pull request #725 from thgreasi/add-some-npm-scripts
+
+chore(package.json): add build & serve sripts",True
+0155dda7191ca9fc4da080cd267120106bde03ec,2017-08-16 14:14:14,Thodoris Greasidis,chore(package.json): add build & serve sripts,False
+da59b6667c6bae372a73a89b5304058a0c585d6c,2017-08-16 13:34:52,Thodoris Greasidis,"Merge pull request #724 from thgreasi/refactor-key-normalization
+
+refactor: abstract key normalization",True
+703f8b0b7f7fa89dfa30b4b9f8a7c08d81f91339,2017-08-15 17:55:22,Thodoris Greasidis,chore(dist): abstract key normalization,False
+22f6ff93cbcd9593efcaaa97f662730741f3849f,2017-08-15 17:55:04,Thodoris Greasidis,"refactor: abstract key normalization
+
+This should make the code DRYer & reduces the .min.js dist file sizes by ~0.7kb",False
+be3404462799c9189b1a5d683bac74f1b8bdff47,2017-08-05 18:24:40,Thodoris Greasidis,"Merge pull request #717 from thgreasi/DaSchTour-patch-1
+
+feat(typings): add generics for iterate",True
+8a3fad72f788597ba4ec9e21f64a4ee4e15c3d6d,2017-08-05 18:23:36,Thodoris Greasidis,test(typings): add tests for generic iterate,False
+e3a055ac6452466e241f27e14797be5949fbf4d7,2017-08-01 18:01:14,tofumatt ☕️,"Merge pull request #714 from morkro/patch-1
+
+Fixes broken links to API documentation",True
+3a90e1f0539897bd7130b5a27c7ef0c8453b62b8,2017-08-01 15:37:43,Moritz Kröger,Fixes broken links to API documentation,False
+64c564b5fe9e2126bd3b8cc9aa0f2e82db429569,2017-08-01 12:03:34,Daniel Schuba,"Added Generics to iterate function
+
+Replacing any with generics to improve typ strength. This way the function that is passes as a parameter will be checked if it returns the expected output and type information from iteratee to callback function are ""passed"".",False
+124314455157aa0fa29e68a474335a6bc77f3c35,2017-07-25 01:14:46,tofumatt ☕️,"Merge pull request #709 from 5aledmaged/patch-1
+
+fixed a typo",True
+d71a334e1f07e47be54cbdb9101d2c2d7a8f50c5,2017-07-25 00:59:15,5aledmaged,fixed a typo,False
+54bc76fac1bd02b031e0cbe754532bfefdcf84e5,2017-07-23 19:45:25,Thodoris Greasidis,docs: add dropInstance docs,False
+760e8498ddcf21b848bcc7d4daa4ad42fe6a23b3,2017-07-23 19:45:25,Thodoris Greasidis,chore: add dist for dropInstance(),False
+8f2da9f9a56dc52bb3091b2acf02bb0f8cfcee86,2017-07-23 19:45:25,Thodoris Greasidis,test(api): add dropInstance Tests,False
+5d399c4424909f0e3cce7305cb758d127873da80,2017-07-23 19:45:25,Thodoris Greasidis,test(customdriver): add dropInstance Tests,False
+a639129b6d7613c7f4de645b5c1a021c5b318c8c,2017-07-23 19:45:25,Thodoris Greasidis,feat(typings): add drop instances typings,False
+a82123287f77e81c751775f37ad69e6a8309be62,2017-07-23 19:45:25,Thodoris Greasidis,feat(examples): add dropInstance exaxmple,False
+e9aaa351ec0211d3f99918a71aaed3102f2ee763,2017-07-23 19:45:25,Thodoris Greasidis,feat(localforage): implement dropInstance(),False
+9517411af7cbc8e8cc8ee13896a534cfa9bd28ac,2017-07-16 18:02:23,Thodoris Greasidis,"Merge pull request #706 from thgreasi/update-mocha-phantomjs
+
+chore(package.json): update mocha & phantomjs",True
+f39d77919166622e0339d6982dfb4e85fbf4584f,2017-07-15 17:58:17,Thodoris Greasidis,chore(package.json): update mocha & phantomjs,False
+16049b192e8bcc75b99380b655e872dec6ed559f,2017-07-09 16:44:09,Matthew Riley MacPherson,docs: Increase font size; change links (fix #554),False
+73230dab1425a08a502e0ca62bb5ec07010170d0,2017-06-24 01:35:50,tofumatt ☕️,Update times,False
+5e93acf5a9476a3bea5d410ce2cda3937621ea8e,2017-05-14 18:17:35,Thodoris Greasidis,"Merge pull request #694 from thgreasi/idb-reconnect-tests-rebase
+
+feat(indexeddb): try reconnect to the DB after InvalidStateError",True
+6c159b8e6b082aa4275530694d374afce6bc2999,2017-05-14 18:12:23,Thodoris Greasidis,chore: add dist for IDB InvalidStateError reconnect,False
+719b74dc1f1e5b5dbbcbdb624cf724d94cd01b6a,2017-05-14 17:55:25,Thodoris Greasidis,refactor(indexeddb): use consts for the Transaction modes,False
+d326185c864dd57a2c5d0743b4443ce2e61672ee,2017-05-14 17:55:25,Thodoris Greasidis,style(indexeddb): add comment about iterator early exit,False
+4db9f4a559a41997d92ec934aaaea38d0e9bbb47,2017-05-14 17:55:25,Thodoris Greasidis,fix(indexeddb): fix concurrent requests after InvalidStateError,False
+60201b286e47fd248a8708c52e1aedb863089556,2017-05-14 17:55:25,Thodoris Greasidis,test(api): test IDBD concurrent requests after InvalidStateError,False
+85bc1d2c5f9ef2ef578cf5838b27eccf43b79d04,2017-05-14 17:55:25,Thodoris Greasidis,style(examples/indexeddb-invalidstate): remove some comments,False
+de9c1e1c3d3af236d0b70e6514e5fab6bb8c6334,2017-05-08 16:58:00,Thodoris Greasidis,"Merge pull request #695 from eppfel/patch-2
+
+Update URLs in Docs README with new organization",True
+aa87c0c9fd326d3472d825835d425a364e3105a7,2017-05-08 16:53:09,Felix A. Epp,Update repo URL,False
+dd0522f99ca8d7e250cdff8b69a4c41ab5533de2,2017-05-07 13:28:11,Thodoris Greasidis,Merge branch 'master' into idb-reconnect-tests-rebase,True
+1d17b300ad0a9fd0b7c6c831a1b8d74a92baead7,2017-05-07 13:25:52,Thodoris Greasidis,fix(indexeddb): try re-establish DB connection using callbacks,False
+7f75f07f8f93ae41e9a78a154719e47f1f2a2334,2017-05-07 13:13:27,Thodoris Greasidis,fix(indexeddb): check db existence before closing,False
+bcf62c531a52b2858c3938f98e7d2706e20fbdff,2017-05-07 13:13:27,Thodoris Greasidis,test(api): test IDBD reconnect after InvalidStateError,False
+557c364cc7a01f2c9ba0d17d16fee279eb0dcf89,2017-05-07 02:09:33,stkao05,Try re-establish IDBDatabase connection after encoutner InvalidStateError error,False
+4ce19202528cc29acf7003cfaa9e1ea5e40a5ab8,2017-05-05 16:35:23,Thodoris Greasidis,docs(README): add a hint about the `dist` path and a link to a live example,False
+8e9506649e4dc1cc01647a63752e202544be9bc9,2017-05-03 00:56:57,Thodoris Greasidis,"Merge pull request #690 from thgreasi/readyDocs
+
+docs(api.md): add docs about driver fallback & ready()",True
+b6d938318a4e46184365732ca92b36932b897380,2017-05-03 00:11:45,Thodoris Greasidis,"Merge pull request #693 from thgreasi/syncDefineDriverTest
+
+feat(defineDriver): set up custom drivers syncronously if there's no _support property or it's not a function",True
+2c85a86f5af447f337091cb0c84c2532ace1add3,2017-05-02 22:35:05,Thodoris Greasidis,test(customdriver): add tests for the synchrnous defineDriver() API,False
+c523f90a16d413ebc47658dac20041d64462aac4,2017-05-02 16:11:47,Gabriel Monteagudo,"chore(dist): set up custom drivers syncronously if there's no
+_support property or it's not a function.",False
+3f7df545d3d3e7f50331575b0d55d94a98889122,2017-05-02 16:11:11,Gabriel Monteagudo,"feat(defineDriver): set up custom drivers syncronously if there's no
+_support property or it's not a function.
+
+Closes #686
+Closes #692",False
+96b422aef632952bb497f3601cf4fdf31e3bd026,2017-05-01 01:02:23,Thodoris Greasidis,docs(api.md): add docs about driver fallback & ready(),False
+3c45c76d7607a2070d4fb343fdbf2f33c408dd1f,2017-03-02 19:05:31,tofumatt ☕️,"Merge pull request #668 from Toub/patch-1
+
+typo",True
+f356c6877273218cae50ed2ea74124112ebfb150,2017-03-02 19:04:20,Toub,typo,False
+e09ee3966862d50d101b6e2b442e4ad53b58663c,2017-02-18 21:02:34,tofumatt ☕️,"Merge pull request #662 from localForage/release-1.5
+
+Release 1.5",True
+d50d845890772c38b175b368481316875a7f3dc6,2017-02-18 20:53:10,Tyler Graf,Create 1.5.0 release,False
+d469da1893e203c69ac8d60870b51d4ca37776b6,2017-02-18 20:51:23,Matthew Riley MacPherson,docs: Add 1.5 Safari 10.1 notes,False
+f524ed5b76aac1d9b560f5818fa1e4d80cbb84fb,2017-02-11 19:28:51,Thodoris Greasidis,"Merge pull request #657 from michielbdejong/patch-1
+
+Use node 6 on Travis",True
+4d8e0fcd9c71e867b1515bf0c9aadec2b480c20a,2017-02-11 16:28:45,Michiel de Jong,"Use node version 6 on Travis
+
+Avoids this error:
+
+````
+/home/travis/build/localForage/localForage/node_modules/grunt-rollup/node_modules/rollup/dist/rollup.js:62
+	for ( var item of map.entries() ) {
+	               ^^
+Loading ""rollup.js"" tasks...ERROR
+>> SyntaxError: Unexpected identifier
+````",False
+bccce53451ed871abf1b71cd61b4147798924899,2017-02-11 16:28:45,Michiel de Jong,Add .tscache to .gitignore,False
+5045c6c990246a1e9ce9f6356681aedb96baac82,2017-02-09 12:46:09,Thodoris Greasidis,"Merge pull request #654 from thgreasi/websqlDbQuotaRetry
+
+feat(websql): retry a failed setItem caused by Quota error",True
+b3f22a7cb9d077db05eab905d1d3f8e4e0df9537,2017-01-31 23:30:15,Thodoris Greasidis,chore: add websql quota error setItem retry,False
+d6614752c79d1410500c87d042433e106efbae9d,2017-01-31 23:30:15,Thodoris Greasidis,test(WebSql): retry operation after Quota Error,False
+6ae72238ffe15015275c2805726ca058062c11f0,2017-01-30 23:36:26,Thodoris Greasidis,feat(examples): add db quota error sample page,False
+22a68b6a845b6fb65d75ece4fdfd3b8cf9e990f1,2017-01-30 23:36:26,Thodoris Greasidis,feat(websql): retry a failed setItem caused by Quota error,False
+02f0c83c9d6ab3f9c7d18184059156e486949ad8,2017-01-26 05:08:10,tofumatt ☕️,"Merge pull request #566 from nolanlawson/562
+
+fix(promise.js): clarify nopromises with commment",True
+79d55dff4a5afd2cf4ccf10e4a08a1eac80f20af,2017-01-26 05:06:19,tofumatt ☕️,"Merge pull request #652 from localForage/iamolivinius-remove-grunt-run-task
+
+Iamolivinius remove grunt run task",True
+ce482b589e1c5eb9f233299d1535206b4445a5cc,2017-01-26 02:23:43,Thodoris Greasidis,chore(typings): use grunt-ts,False
+9f4dfd33362face5f4a0884add0ab8e7d396eb17,2017-01-26 01:26:56,Matthew Riley MacPherson,Fix up grunt task: run PR,True
+4e9bfa48f3028f23dcf60f62c4b0cc76e6f5384f,2017-01-26 00:38:22,tofumatt ☕️,"Merge pull request #651 from dennismartensson/IndexedDBSafari10.1
+
+Add support for IndexedDB in Safari 10.1+",True
+966a976ab6ac5c9ac1dcc2d1d641b85a2e92eb97,2017-01-25 23:10:52,Dennis,Have mimicked PouchDB in supporting IndexedDB for Safari 10.1+,False
+3ca63864315d6f0c2fd71209ce83bfde111a3c7b,2017-01-23 23:09:13,Thodoris Greasidis,"Merge pull request #648 from thgreasi/fixIdbWindowInvalidStateError
+
+fix(IndexedDB): prevent InvalidStateError on failed open() request",True
+ec36e8a2fa863140b92724b63dd6dc8a06ee404b,2017-01-23 23:00:46,Thodoris Greasidis,chore(dist): prevent InvalidStateError on failed IndexedDB.open(),False
+362c3ae7101d337dc8e8ea7d7e6defa2065b1d1c,2017-01-23 22:57:12,Thodoris Greasidis,fix(IndexedDB): prevent InvalidStateError on failed open() request,False
+fb35085bed9a7db65fae27b6420235fe22e52539,2017-01-23 20:37:02,Thodoris Greasidis,"fix(indexeddb): fix blob support check (#643)
+
+fix(indexeddb): fix blob support check",True
+d9cbb37c28d3b8a689e1388b178e494c0c4ecd8c,2017-01-19 14:18:38,Thodoris Greasidis,docs(api): fix jsdiddle localforage.js urls,False
+17f24b79629a7b50d43119a41511a89221a78d0f,2017-01-14 15:44:57,Thodoris Greasidis,chore: add dist for idb blob support fix,False
+202c2d36bc8cd3be83e8cdc6dd877e06b7183759,2017-01-14 15:44:13,Thodoris Greasidis,fix(indexeddb): fix blob support check,False
+b249ecc9cbb47ea4a167d97a15fb7855c3f89ccc,2016-12-31 18:03:47,Stéphane Bachelier,"docs(README): update notice about using with webpack (#639)
+
+Close #463",False
+14e454c5aa0c57e98d4f404124fdef80ee6a5a02,2016-12-21 14:50:29,Mats Lindblad,chore: fix wrong URL in dist BANNER (#638),False
+caab4f29ec26e73aea1de1880a0f9ede8ecf4bc4,2016-12-21 00:57:10,Thodoris Greasidis,"feat(typings): update from DefinitelyTyped & add ready() (#637)
+
+* feat(typings): update from DefinitelyTyped
+
+* style(typings): reindent some comments
+
+* feat(typings): update ready() callback definition
+
+* test(typings): add ready() tests",False
+8001da4f5f79554a66e3985557baf8f67d8326a6,2016-12-20 05:48:44,tofumatt ☕️,"Merge pull request #636 from thgreasi/returnConfigSetDriverPromise
+
+Return config set driver promise",True
+0d6d551bfd7a4c0cd9010f4579ae721a91567d13,2016-12-19 23:04:46,Thodoris Greasidis,chore: add dist returning config's setDriver Promise,False
+1ed5d210fc59c4e60e43d2da76f162e7c82d49f4,2016-12-19 23:04:10,Thodoris Greasidis,"feat: return config's setDriver Promise
+
+Resolves #634",False
+1d35a1d5624f4b3984d64761e1d01552be4f0cfe,2016-12-17 16:22:49,Thodoris Greasidis,"fix(localforage): catch constructor's setDriver Promise (#633)
+
+* fix(localforage): catch constructor's setDriver Promise
+
+* chore: dist catch constructor's setDriver Promise",False
+2f887aa69fcea10d409fc755c208ae0363a64190,2016-11-21 23:36:01,tofumatt ☕️,"Merge pull request #625 from rparrapy/check-config-version
+
+Ensure that 'version' is a number when calling 'localforage.config'",True
+4fe872cf0f866cb5bcc54848ecbdfb44915bfd08,2016-11-21 20:22:23,Rodrigo Parra,"Ensure that 'version' is a number when calling 'localforage.config', fixes #304",False
+e79f01a01656add62f227f8c988084b62e046317,2016-10-23 18:21:23,Thodoris Greasidis,"feat: add TypeScript typings (#611)
+
+Resolves #600.
+Should not be published as a bugfix release of 1.4.x,
+since it will cause duplicate definitions errors for TypeScript users that already use @types.
+We should probably release this as v1.5.0.",False
+bca7982555ab0a4174b1da93283b12871949026f,2016-10-18 03:46:22,tofumatt ☕️,"Merge pull request #612 from iamolivinius/upgrade-grunt-contrib-jshint
+
+Upgrade grunt-contrib-jshint package to 1.0.0",True
+83ed8b299bd034dc393ae2e354c8e64032dbd347,2016-10-18 02:09:53,Unknown,Remove grunt task: run,False
+8653007d863484d7439733a45ae05eef2f708ee9,2016-10-18 01:46:28,Unknown,Fixes jshint warnings,False
+01b145935be581edc9380eb50c68a0db3c1413ae,2016-10-18 00:28:03,Unknown,Upgrade grunt-contrib-jshint package to 1.0.0,False
+41ec76cb6966fe960c620e2451d578b56c7cbe5d,2016-10-15 23:17:00,Thodoris Greasidis,"docs(README): update Typescript notice for v2.0 (#608)
+
+* docs(README): update Typescript notice for v2.0
+
+* docs(README.Typescript): add allowSyntheticDefaultImports note",False
+b82d9e58ff5bac370ee04f7fb368ad955747fac8,2016-10-06 17:00:27,Matthew Riley MacPherson,Release version 1.4.3,False
+f23a5e400336532a6bd7de93c380978f91e520ee,2016-10-01 20:05:48,Thodoris Greasidis,"docs(README): add ES6 Typescript import style notice (#606)
+
+Resolves #605 while keeping the `import = require()` style for users of older versions of Typescript.",False
+2796ccd7898fc92adf57acbbf31028728bce23fd,2016-08-31 19:00:36,tofumatt ☕️,"Merge pull request #602 from thgreasi/typescriptImportEquals
+
+docs(README): suggest typescript `import =` syntax",True
+bbfd0e4309fcebb590d6fb25fb5a3ad5e8e14cd8,2016-08-31 16:18:40,Thodoris Greasidis,"docs(README): suggest typescript `import =` syntax
+
+This is the suggested way since:
+* localforage is a UMD module
+* DefinitelyTyped/DefinitelyTyped#10911 with such typings got merged
+  (following the [lead of PouchDB](https://github.com/nolanlawson/pouchdb-ionic-2-typescript-demo/pull/1/files) [typings](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/pouchdb/pouchdb.d.ts))
+* [Test project](https://github.com/thgreasi/localForage-cordovaSQLiteDriver-TestIonic2App)
+
+@dsebastien plz review",False
+e3f22188309060755627c584c0c48bc4348689c0,2016-07-24 20:35:15,Thodoris Greasidis,"fix(utils/idb): fix SecurityError on FF (#595)
+
+Resolves #501.
+Based on the suggestion of @daviddeutsch.",False
+2f4fd53949542aa545d07943975de67a66361c66,2016-07-14 17:23:08,Amila Welihinda,Added more badges (#590),False
+bf0d37cfc6becab5b6f2e2bc5dd1b9369ffd084a,2016-07-14 17:22:33,Dumitru Uzun,"Use Object.prototype.toString for type checks (fix #586)
+
+* Use Object.prototype.toString.call(value) == '[object Type]' to check for value type
+
+* Added test for db.setItem('fake Blob', '[object Blob]')
+
+* Check for Blob type in idb using Object.prototype.toString()
+
+* Build dist/",False
+ea6c94b587dabf93dd69678497b919061a709cc2,2016-07-13 23:55:58,tofumatt ☕️,Use a lowercase F in the hostname,False
+9ff57ac406bf472523cd32004aa42db3a6ec24a6,2016-07-13 23:52:48,tofumatt ☕️,Tidy up README (remove Ruby docs/fix URLs),False
+6ce29860596ff50920d4c1988249927d29fdb873,2016-07-11 02:23:14,Matthew Riley MacPherson,Update Travis URL and push to activate travis,False
+4b4107a5171552a3cd140ba75b3d2dc035157e81,2016-07-11 02:17:14,tofumatt ☕️,"Merge pull request #588 from thgreasi/checkExecuteCallbackv2
+
+fix(drivers/indexeddb): check callback in _fullyReady()",True
+7303649a7ca7b6b74e1640072ceb3c1a8ef4a422,2016-07-09 13:10:26,Thodoris Greasidis,chore: add dist files for indexeddb callback check,False
+c40a33a661a775944f106973788e0c622200becd,2016-07-09 13:09:38,Thodoris Greasidis,fix(drivers/indexeddb): check callback in _fullyReady(),False
+79445283f27b89f7c1c4a6b60074ad841f23e994,2016-07-03 23:17:59,tofumatt ☕️,Change URL to localForage org,False
+e4adf8dc5468d75a48e9362625c7173c18e88eb4,2016-06-08 03:52:39,tofumatt ☕️,Update Changelog (fix #574),False
+8ace9471a57eb69bade95a96aab8d7b29bb53370,2016-06-08 03:44:14,tofumatt ☕️,Remove right header (Fix #576),False
+52c96f6ec11ed6be7ad0fa7574895225120f4faa,2016-06-08 03:42:39,tofumatt ☕️,Update GitHub Star button (fix #576),False
+a85a6d450cfefc36584cc45c758e16a3e18b4d27,2016-06-08 03:38:12,tofumatt ☕️,Update link to minified build (Fix #575),False
+2d9201e212e2ffaebdc746aba842c5f0d57ff6f2,2016-05-23 01:55:53,Thodoris Greasidis,docs(CONTRIBUTING): add codepen example as basis for issues,False
+ddf10c7380fb5060933b54eac4f584456aca6951,2016-05-18 19:43:32,tofumatt ☕️,"Merge pull request #568 from lukechilds/patch-1
+
+Fix typo in readme",True
+61548ec4d4e7ba53a77a287f94ffcd0deab88bc4,2016-05-18 18:34:32,Luke Childs,Fix typo in readme,False
+2d1a2abcb74d0f31c1254ebee8e61ec4b55e0de3,2016-05-16 04:02:20,Nolan Lawson,fix(promise.js): clarify nopromises with commment,False
+48a690d11da378850949de8dff4b69c5c290969b,2016-05-15 18:30:35,tofumatt ☕️,"Merge pull request #564 from mozilla/bump-version-for-lie-require-fix
+
+Bump version to 1.4.2",True
+05cb50e1c3077ecd3c3f67e19e50e95caf5abe62,2016-05-15 18:13:45,Matthew Riley MacPherson,Bump version to 1.4.2,False
+d89ef7d39fa06a69ec97cc04e613522806df5353,2016-05-15 03:25:15,tofumatt ☕️,"Merge pull request #563 from thgreasi/checkImportLie
+
+Check import lie",True
+f8e3f28330188f20c00edec7b6c20b3e36960b35,2016-05-14 19:59:51,Thodoris Greasidis,chore: add dist files for conditional lie import,False
+b20959468565c6c99f8e544892f50e9bfd9c1dfe,2016-05-14 19:59:47,Thodoris Greasidis,fix(promise.js): do not import lie when unnecessary,False
+db358bec1d9671a7d1fd565916e52e41c23ec5e3,2016-05-10 18:18:21,Matthew Riley MacPherson,Release 1.4.1 (close #560),False
+aadd230688f75bbd445bf3cead03ff64bd7df778,2016-05-05 03:23:26,tofumatt ☕️,"Merge pull request #558 from nolanlawson/simpler-blob-check
+
+refactor(localforage): simpler blob support check",True
+4974cedeb0f57188fe41fd984b477440ccc9fdf4,2016-05-03 21:09:43,Nolan Lawson,refactor(localforage): simpler blob support check,False
+91d557f9fbc21894c7e9b74100c3ce600b3f535b,2016-04-25 21:48:21,tofumatt ☕️,"Merge pull request #553 from nolanlawson/537-global-promises
+
+re-enable window.Promise polyfilling",True
+2d5698e545730221ded3aba252cc1d77e72f0a73,2016-04-25 07:15:03,Nolan Lawson,chore(localforage): re-enable window.Promise polyfilling,False
+44194a81b92664d651fb8855aae86c7af3ce7412,2016-04-25 07:14:24,Nolan Lawson,"chore(localforage): promise -> lie, use ES6 modules",False
+5ebdf859b5ebeed4c61742280d0e0b0307f82008,2016-04-24 17:26:48,Matthew Riley MacPherson,Fix internal links in docs,False
+a7d60bd71bbcdae0a1a31ae3502579d44232fa2e,2016-04-24 01:08:37,tofumatt ☕️,"Merge pull request #552 from mozilla/node-docs-192
+
+Don't use Ruby to make docs",True
+d9986867da748f99c66326d98e50eda3f9c5accd,2016-04-24 01:02:07,Matthew Riley MacPherson,Tweak build after simpler doc building,False
+e54305dff4775276467e595d941d32261d40af30,2016-04-24 00:53:51,Matthew Riley MacPherson,Tweak index and files,False
+ca59a785709b68c02d51ae07299fa8673a288c6f,2016-04-24 00:49:08,Matthew Riley MacPherson,Fix <dl> tags,False
+c1063970b6b156308c015a58819052ebbf39df16,2016-04-24 00:36:20,Matthew Riley MacPherson,Include localforage in API docs page,False
+4700cd7e19236478d5d738e10ae7b1235ad0e929,2016-04-24 00:26:48,Matthew Riley MacPherson,Tweak whitespace,False
+b1c0cc96363b66ab6731f2956bc85088c839f5f9,2016-04-24 00:21:41,Matthew Riley MacPherson,Tidy up docs,False
+c58d2b47bdef7eea821c53a2ab73ac2a84d125b0,2016-04-23 03:28:41,Matthew Riley MacPherson,Move to Flatdoc (close #192),False
+7e85733a883ba6bb3c6d77f0112bdb04c924030e,2016-04-22 19:22:17,Matthew Riley MacPherson,Remove gemfile,False
+028bdd056c5f7e2f1228fcc497930bfe7dcfdd64,2016-03-20 01:41:12,tofumatt ☕️,"Merge pull request #543 from sergeychernyshev/patch-1
+
+Fix broken link markdown",True
+31a665c53639f28a15aa577e923ce9e323623343,2016-03-19 22:34:20,Sergey Chernyshev,Fixed broken link markdown,False
+162d7b76ca094f05b31403355a3edb351b29d474,2016-03-13 02:23:47,tofumatt ☕️,"Merge pull request #536 from nolanlawson/534
+
+docs(localforage): js/coffee -> promises/callbacks",True
+845097465cf277ba06a976d6f71de20ad5eaa1a5,2016-03-07 00:16:12,Nolan Lawson,"docs(localforage): js/coffee -> promises/callbacks
+
+Fixes #534.",False
+559390088f6a7e35aadbfafcff908e423231cd47,2016-03-02 16:17:22,Matthew Riley MacPherson,Add dist files for #531,False
+ca62dc146d6e3c1c120d9090016ca73f313af9a1,2016-03-02 16:09:01,Matthew Riley MacPherson,Merge branch 'patch-1' of https://github.com/okcoker/localForage into okcoker-patch-1,True
+2f43cb6f087248479904421ca65efb634fec4b7c,2016-02-29 13:43:02,Sean Coker,Check for existence of self in other files for consistency,False
+625c0bd002a5dbee74dad245bab7e3c9c4164af3,2016-02-29 02:10:01,tofumatt ☕️,"Merge pull request #529 from thgreasi/checkThenCallbacks
+
+feat(localforage): check if a callback is defined before passing to then()",True
+9515d5274a2b2af7779183ce54471fda271f8bc9,2016-02-27 18:33:27,Thodoris Greasidis,chore: add dist files for checking callbacks passed to then(),False
+4e1b2861bdd67272c19c56c3993bfc13d36f8487,2016-02-27 18:21:51,Thodoris Greasidis,feat(localforage): check if a callback is defined before passing to then(),False
+cdd8673c274f9e1b42e3589a011316f427f74216,2016-02-21 17:38:11,Sam Kelleher,"Check if self is present (not in webworker).
+
+Permits webpack to use the package since self will only resolve is needed. If neither self or window are present, and empty object is used.",False
+61ddf8cdf5cc9e32854f2150816f18c024218769,2016-02-21 15:30:58,tofumatt ☕️,"Merge pull request #528 from thgreasi/babel6
+
+chore: update to babel 6",True
+ecb0eef38b296d7367938a8afd1d39b908ece427,2016-02-21 13:45:35,Thodoris Greasidis,chore: drop Component package and tests,False
+c7b126661687a8112558c5977905ae0f926a8a28,2016-02-21 00:24:32,Thodoris Greasidis,chore: add dist files for babel6 build,False
+95df51454a20879c431339bf649ac241f68425b5,2016-02-21 00:12:24,Thodoris Greasidis,"test: disable Component tests
+
+According to https://github.com/componentjs/component
+Component has been deprecated",False
+4f1ea504d551cd26b4a1537347127c45622bccbf,2016-02-21 00:12:24,Thodoris Greasidis,chore: update to babel 6,False
+9df0cdfb3d418278256854f208048908309f3011,2016-02-15 06:53:19,tofumatt ☕️,Remove irc notifications,False
+0e92f94f23eae4ab39e56492a13095ecf08e3ba1,2016-02-12 07:20:18,tofumatt ☕️,"Merge pull request #526 from mozilla/deploy-with-travis-fix-506
+
+Close #506: automate deploy",True
+02d510c80a91369a24e3e8acf5ad3c6d30e0b137,2016-02-12 07:14:58,Matthew Riley MacPherson,Close #506: automate deploy,False
+757253aa8fd177fb87efb822d7f497f82811574e,2016-02-11 10:03:03,tofumatt ☕️,"Merge pull request #525 from mozilla/update-to-1.4.0
+
+Release 1.4 to fix infinite loop bug",True
+f7880e242928a35e4ea0bfdedece48006b582f18,2016-02-11 09:55:00,Matthew Riley MacPherson,Release 1.4 to fix infinite loop bug,False
+6ad81cac425017a486f3000d469544b03fd91804,2016-02-03 09:11:05,tofumatt ☕️,"Merge pull request #517 from mozilla/marcucio-infiniteloopfix
+
+fix for bug where we were going into an infinite loop if the open dat…",True
+e29c324675624612a779d0ca6f519e874dcf4e8f,2016-02-03 09:06:14,Thodoris Greasidis,test(websql): test the case that openDriver fails,False
+2593d05730e0f2c4cd2b46062eb3e3302a392a9a,2016-02-03 09:06:14,Mike Marcucio,fix for bug where we were going into an infinite loop if the open database failed (saw this on BB10 cordova app),False
+f473d39943bc6536bb42eb2587f61d685a7a6f76,2016-01-28 04:12:48,Matthew Riley MacPherson,Release 1.3.3,False
+2f197241de1039da9569295bf3c878ec0f6c2bdf,2016-01-21 20:09:04,tofumatt ☕️,"Merge pull request #507 from sebweaver/issue-492-instance-concurrency-on-same-db
+
+Actual fix for issue #492 (instance concurrency on same database)",True
+6cb07ed0f05d624ef8355ec8d25ed47001cd7df4,2016-01-21 07:18:15,Sébastien Tisserant,Actual fix for issue #492 (instance concurrency on same database),False
+7ca5b0bb64c2f07b109779622e2a018842c43aa0,2016-01-20 18:03:34,Matthew Riley MacPherson,1.3.2 Fix concurrency on same database,False
+3fe3fd005ed1c12c4aab863c2e05bc77c7bb841a,2016-01-20 04:47:23,Matthew Riley MacPherson,Fix style issues,False
+39414c20148c05b623f30b7c1728ee393019742e,2016-01-20 04:25:01,rromanw,Fixed wrongly handled errors,False
+92d1f927c7657a88b77e9a785e219e4b6a245bc2,2016-01-19 22:14:43,tofumatt ☕️,"Merge pull request #497 from sebweaver/issue-492-instance-concurrency-on-same-db
+
+Fix issue #492 (instance concurrency on same database)",True
+9fb3ce9e3627a4ec4273f36e5397fd079352bce5,2016-01-19 21:54:50,tofumatt ☕️,"Merge pull request #504 from mozilla/dont-use-global-grunt
+
+Don't use global grunt",True
+a1aa2ba2fff9cfc68c06a49838a39de074afbc00,2016-01-19 20:24:58,Matthew Riley MacPherson,Remove global grunt requirement from README,False
+6ba6f013c7f10fe6feeb4efe3dfb0c38fcadc2ce,2016-01-19 20:22:51,Matthew Riley MacPherson,Don't use global grunt,False
+e3bc4a49b8a4f109fc3f0cb6014140b6d8eb99ef,2016-01-19 20:16:38,tofumatt ☕️,"Merge pull request #503 from mozilla/rromanw-master
+
+Style fixes on #502",True
+ccaecab470de3b0dc3e11e8403804fd2490d3295,2016-01-19 20:09:17,Matthew Riley MacPherson,Comment cleanup,False
+1dcbc190d15216d0c1eafd825491096219f18e34,2016-01-19 20:09:17,rromanw,"Improve out-of-disk-space error handling
+
+There is a pattern in the code that calls a function which should be
+asynchronous and after that it sets up the handlers. If the function
+returns before those handlers are set, the code breaks. This commit fixes
+one instance in the code (namely in setItem), but are (might be) more.
+
+There is an issue with indexedDb.open, which returns request, that has
+the success and error handlers. However, this function can also fail
+before the handlers are set. That is why I added check after setting
+the handlers, to see, if the object isn't already in error state.",False
+d82699a5ea1260df8f8306485f31e76e8d494294,2016-01-17 04:59:05,tofumatt ☕️,"Merge pull request #493 from ortoo/master
+
+Error in safari when running as web worker",True
+ddc8d4c9a19ea08314f876f50346dfb7eea934bc,2016-01-13 04:52:37,tofumatt ☕️,"Merge pull request #495 from dsebastien/master
+
+Updated README regarding TypeScript usage",True
+d294c4c5661454fd37f9ae7c20a1bf0b70b14d77,2016-01-12 19:02:53,Sébastien Tisserant,"Fix issue #492 (instance concurrency on same database)
+
+Specialize the default `ready()` function by making it dependant
+on the current database operations. Thus, the driver will be actually
+ready when it's been initialized (default) *and* there are no pending
+operations on the database (initiated by some other instances).",False
+16ade357965a131698a504d6e4888e8fbcafb34e,2016-01-07 16:39:32,James Sharp,fix for safari webworkers,False
+b0129c2f2301c6a5d76e2291775540b50c7a7d64,2016-01-07 16:25:11,James Sharp,"Merge pull request #1 from mozilla/master
+
+Update to latest localforage",True

@@ -1,0 +1,2264 @@
+Hash,Date,Author,Message,IsMerge
+510aab1f549ccedd303e3274b31682d269726e45,2025-03-21 22:46:40,Anton Golub,ci: fix typo (#1148),False
+2684e91cd255c283c439519032ea65a4e55f70ae,2025-03-21 22:37:16,Anton Golub,ci: tweak up publish vars resolver (#1147),False
+0423941b5124708e5c326c7c4e39abaa578321a1,2025-03-21 22:28:37,Anton Golub,build: fix dev version resolver (#1146),False
+e738502cb8b39a53348d52f29feb28e014b7c40d,2025-03-21 22:12:54,Anton Golub,build: update docker actions (#1145),False
+9ba1fb4b8d17a4f5f0067d438b49568606469903,2025-03-21 21:40:54,Anton Golub,build: fix dev-publish flow (#1144),False
+8072f2d7c7b351ccc5c2ad382b5803e25a772afe,2025-03-21 21:35:57,Anton Golub,build: fix dev-publish (#1143),False
+e8780adfeb0749cf16499c1acf90c6d37a253e68,2025-03-21 21:29:41,Anton Golub,"build: introduce docker image (#1142)
+
+* docs: update gha usage exemple
+
+* build: add basic docker test
+
+relates #996 #831",False
+4a93e7f2c2c02885134deaba6151b0c998270869,2025-03-21 14:25:25,Anton Golub,build: declare jsr publish deps (#1141),False
+b929822695e6af3ac71201d625ee3de0def34a1c,2025-03-17 16:16:04,Anton Golub,"build: enhance 3rd party licenses digest (#1140)
+
+* build: enhance 3rd party licenses digest
+
+* chore: update licence digest format",False
+9779deb82e9f140db3a12e0553098459ce7272d2,2025-03-16 22:52:40,Anton Golub,chore: bump version to 8.4.2 (#1139),False
+be335f17f2590ba7da246eab390b0ebd5e6abeed,2025-03-16 21:28:05,Anton Golub,ci: configure zx-lite publishing (#1131),False
+8cb4212e8a91c9563db746496117c94e9b79f394,2025-03-16 20:00:54,Anton Golub,fix(cli): disable `ZX_EVAL` handling (#1138),False
+9e2ce2ede9a40efc4b318e6f87a7c71436f7bfbf,2025-03-16 19:28:53,Jiacheng,"feat: re-export `glob.globbySync` as `glob.sync` (#1135)
+
+* feat: reexport glob.sync
+
+* chore: update testcase
+
+* chore: increase
+
+* chore: increase
+
+* chore: increase
+
+* chore: update testcase
+
+* docs: tweak up `glob.sync` example
+
+* chore: update .size-limit.json
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>
+Co-authored-by: Anton Golub <golub.anton@gmail.com>",False
+26e95592d03a49b3403f63a97200b72f70687b1c,2025-03-16 19:14:42,Anton Golub,feat(cli): use `ZX_`-prefixed envars as default flags (#1137),False
+e1b66cba78282bb6511fd768c5838d8eb9413bb7,2025-03-16 16:48:13,Anton Golub,"docs: update TS usage example, mention `--experimental-strip-types` flag (#1136)",False
+1a0d337abce70706a90721e2a4fb03d697b6b7f9,2025-03-16 12:43:34,Anton Golub,docs: mention `@types/node` and `@types/fs-extra` requirements (#1134),False
+fb2161b6e96facd7bb52fbc6b27f1f30ac8e920e,2025-03-16 00:48:13,Anton Golub,"feat: introduce fetch pipe helper (#1130)
+
+* test: fetch > $
+
+* feat: introduce pipe helper for `fetch`
+
+closes #977
+
+* chore: code imprs
+
+* docs: add `fetch.pipe` usage example
+
+* docs: extend `fetch.pipe()` descr",False
+cb6f205d24bf4dd4bb17bee8386f1c7faf5e7bd8,2025-03-12 14:51:55,Anton Golub,"docs: describe shell issues (#1128)
+
+* docs: describe shell issues
+
+closes #1127
+
+* chore: bump version to 8.4.1
+
+* Update shell.md
+
+---------
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+5c3b179a447910d0de4ac56d7a33f1b9aca1316f,2025-03-11 21:16:56,Anton Golub,ci: enable zizmor check (#1126),False
+3d626607aaed2ec44c70002b3ab696b858b75f76,2025-03-11 20:25:42,Anton Golub,chore(log): minor code imprs (#1125),False
+2c4b5e8a328672b73b97e29450f5beace11b1b95,2025-03-10 19:29:42,Anton Golub,"feat(log): provide custom formatting for every entry kind (#1123)
+
+* feat(log): provide custom formatting for every entry kind
+
+continues #1122
+
+* chore: ignore unknown log entries",False
+85c260cf9eadc616906bbe805d52fc08940eef2a,2025-03-10 14:46:56,Anton Golub,"feat(log): enhance cmd highlighter and make it configurable (#1122)
+
+closes #1119
+
+* fix: enhance cmd highlighter
+
+* test: add more `formatCmd` cases
+
+* feat: make `log.formatCmd` configurable
+
+* refactor: separate log module
+
+* test: provide tests for `log()`
+
+* docs: describe logger options",False
+10a0eef1a5f859c8da7fe3dd1ddaeb47fa5b6ba4,2025-03-07 19:59:12,Anton Golub,"ci: codeql tweakup (#1121)
+
+* chore: minor syntax imprs
+
+* ci(codeql): add bundles to `path-ignore`
+
+* ci: extract codeql config",False
+a38be5556768f0523ec617962a2db6808ceb656c,2025-03-04 21:44:51,Anton Golub,chore(deps): update TS to 5.8 (#1120),False
+3efc9eb23e2cdbff6a20950c0296c54b2e2e8ab9,2025-03-04 15:32:02,Ashis Kumar Pradhan,chore: add prettier to pre-commit hook (#1118),False
+539130abc8d354d81c5e779e1b86519dfa31e5c0,2025-03-02 22:52:39,Anton Golub,"feat(cli): use `--prefer-local` option to link external `node_modules (#1117)
+
+* chore: bump to v8.4.0
+
+* feat(cli): use `--prefer-local` option to link external `node_modules`
+
+closes #1116
+
+* chore: minor code imprs",False
+778fd037829960b170fbc1121f338d2d3619a6ad,2025-03-01 23:10:51,Anton Golub,chore: bump to v8.4.0 (#1114),False
+eff2d70e7cfb0d701bfbf4b3e2b9f17e1fb52d52,2025-03-01 22:43:33,Anton Golub,"fix: enhance quote to handle empty args (#1113)
+
+closes #999
+closes #1112",False
+f4b0328bcb3e0718b048aaf29554a26536a4c077,2025-03-01 20:31:21,Anton Golub,"refactor: use ts exts for relative paths (#1111)
+
+* refactor: use ts exts for relative paths
+
+* test:  fix coverage",False
+a23261bf8302c63ede0577e18bf92766cce06e93,2025-02-27 17:57:23,Anton Golub,feat: pass origin error as `ProcessOuput` cause (#1110),False
+b5718399901fd92a643acca9154b01edc26b014e,2025-02-23 19:32:17,Anton Golub,docs: describe `nothrow` option (#1109),False
+1ef794a6d516d90a5475593cfe5df6ab05079d00,2025-02-23 18:50:31,Anton Golub,refactor: let nothrow suppress any kind of errors (#1108),False
+b709f2bb4f4c959836df75b14abf2c47bbadfde5,2025-02-23 18:27:15,Anton Golub,"feat: define explicit primitive cast for `ProcessPromise` and `ProcessOutput` (#1107)
+
+* feat: define `Symbol.toStringTag` for `ProcessOutput` and `ProcessPromise`
+
+* feat: define `Symbol.toPrimitive`
+
+closes #1028",False
+5f48c7303f3ca44dff15e783a6d78b774e0bada5,2025-02-22 22:45:17,Anton Golub,"ci: separate build and publish steps (#1106)
+
+* chore: up dev deps
+
+* ci: separate build and publish steps",False
+be0990fb6b6fc01223cbda29868df199faa8bf2f,2025-02-22 18:56:43,Anton Golub,"feat(cli): override non-js-like extensions via `--ext` (#1105)
+
+* feat: introduce `--ext-override` option to process non-std (non js/ts like) file extensions
+
+resolves #1104
+
+* refactor(cli): use `ext` option to override non-js-like script extensions",False
+82a5e0bf547f69a96284cf76b6d882e803a0df95,2025-02-19 23:12:21,Anton Golub,perf(pkg): replace types deps with triple-slash refs (#1102),False
+1fc9d0b7f0a949dc856534263e7320b3e2f124b7,2025-02-18 01:29:24,Anton Golub,"feat: make `ProcessOutput` iterable (#1101)
+
+* feat: make `ProcessOutput` iterable
+
+closes #1053
+closes #1027
+
+superseds #1088
+relates #984
+
+* refactor: reuse iterators logic",False
+ea5f5c03575344b41a5e4cbfb38dc705b9423624,2025-02-12 03:14:46,Anton Golub,"chore: pin deps versions (#1100)
+
+* chore: pin versions
+
+* chore: pin nested fast-glob to v3.3.3",False
+2e0e97c1f325b196a0c0d273f034b822af2f1341,2025-02-12 02:10:43,Anton Golub,"chore(deps): sync esbuild versions (#1099)
+
+* chore(deps): sync esbuild versions
+
+* test: enhance installDeps tests",False
+64704c9b03e7356c405d50ce37a0968ec56f13b9,2025-02-11 21:16:15,Anton Golub,"test: check `pipe()` on inappropriate `ProcessPromise` (#1098)
+
+* test: check `pipe()` on inappropriate `ProcessPromise`
+
+* chore: up dev deps",False
+1cc59810b1929f5b91a468e212f6ea04f2eb05b7,2025-02-11 03:16:09,Anton Golub,"feat: protect `ProcessPromise` from inappropriate instantiation effects (#1097)
+
+* feat: protect `ProcessPromise` from inappropriate instantiation effects
+
+* chore: minor imprs",False
+0c3313de010d61c5f947b01d2eb55cb372e24f61,2025-02-09 16:42:36,Anton Golub,"refactor: introduce internal API bus (#1083)
+
+* refactor: introduce internal API bus
+
+* chore: assemle bus api
+
+* chore: strengthen vendor core types",False
+d5a6dffab9ee6ff7aab9cfc34c284270ab0de51f,2025-02-09 14:51:08,Anton Golub,"refactor: simplify `ProcessOutput` internals (#1096)
+
+* refactor: simplify `ProcessOutput` internals
+
+* chore: formatting
+
+* chore: reenable tests",False
+327dd7a8c46f872a61f7528a93014067df7b8403,2025-02-08 23:25:25,Anton Golub,"refactor: simplify `ProcessOutput` constructor (#1095)
+
+relates #1053
+
+* refactor: simplify `ProcessOutput` constructor
+
+* refactor: make private lazy dto factory
+
+* chore: update dts tests",False
+5ba714d14ecf0555a74d4db96622840ac19839c5,2025-02-01 15:48:12,Anton Golub,"fix: check user input on `dotenv.stringify` (#1094)
+
+closes #1093",False
+2772b44a437277eaa1511c1096d24f94867c07c4,2025-01-31 02:44:27,Anton Golub,ci: update gh pages actions (#1092),False
+81a3940df6c8305bf787a11ea91df9ab51886e1c,2025-01-31 02:31:13,Anton Golub,"docs: describe `$.defaults` and shell setup helpers, mention asyncIterator, align headers formatting (#1091)",False
+a94559d260b6c982ce06f46d8f0f59fde7560f8d,2025-01-31 00:33:09,Anton Golub,ci: update osv scanner action (#1090),False
+8b01a8133370fad7c0f214509e25ab99b5590607,2025-01-30 19:07:03,Anton Golub,"chore: bump version to 8.4.0, update deps zurk, ps, envapi (#1089)",False
+5f4081440a83042555842e2bfd1b58f1cfe03629,2025-01-29 16:50:37,Anton Golub,"test: enable jsr and integration test suites (#1087)
+
+* test: enable jsr and integration test suites
+
+* ci: move jsr test to fast group",False
+3419ab655c47419972dff11639659f40e66b73d4,2025-01-29 14:18:32,Anton Medvedev,fmt,False
+48deccef5f540158da351c3aa0dfa2147e514858,2025-01-29 14:13:47,Anton Medvedev,Remove v7 docs from website,False
+76ea47aa858c81c50f24f6557819818fbdd91b57,2025-01-29 13:59:46,Anton Medvedev,Update docs.yml: install @rollup/rollup-linux-x64-gnu,False
+60e0bb1d55343091ebdb7e0122bc263ba36ddb4a,2025-01-29 13:54:57,Anton Medvedev,Update docs.yml,False
+b8d4e19c7debd17efb84ee30a9fb625ee2ce3d2a,2025-01-23 18:07:05,dependabot[bot],build(deps-dev): bump vite in the npm_and_yarn group (#1084),False
+89d1177e9d8eed496f0f0a65303455ad008f749b,2025-01-12 16:41:11,Anton Golub,"test(core): check $ uses defaults store (#1079)
+
+* test(core): check $ uses defaults store
+
+* test: enhance vendor test",False
+bf260832f0c8d39015e545f59e8077e92ce768bb,2025-01-12 03:06:12,Anton Golub,"feat(cli): process md for any kind of input (#1078)
+
+* feat(cli): process md for any kind of input
+
+closes #1076
+
+* fix(cli): fix updateArgv block",False
+49a82c4a956917b00227c83e3617402fa3c1af76,2025-01-12 02:56:54,Mikhail Avdeev,"feat: expose `ProcessPromise` stage (#1077)
+
+* chore: fix grep alias
+
+* refactor: add internal state marker
+
+* refactor: delete unused false
+
+* refactor(code): introduce internal state machine
+
+* test: add test for stage `ProcessPromise`
+
+* docs: add `ProcessPromise` stage doc
+
+* build: update size-limit
+
+* docs: add `ProcessPromise` stage doc for site
+
+* docs: clean up
+
+* test: prettify
+
+* test: check `ProcessPromise` getters
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>",False
+437a80f0a21690587d0609aefc5c61f058464e46,2025-01-10 18:13:19,Anton Golub,"fix: timeout signal override (#1075)
+
+* fix: `timeout()` should not override predefined `_timeoutSignal`
+
+* test(bench): add buf-join aliternatives",False
+a38d47179b9e2687fe7ad6dd37984d3b396e25b4,2025-01-10 14:25:36,Anton Golub,"refactor: avoid redundant buffer to string (#1072)
+
+* refactor: avoid redundant buffer to string
+
+* perf: optimize buf arr join
+
+* chore: update zurk to v0.10.1",False
+302e2f78d313d3a0da844e6b6e3dc070311d7695,2025-01-08 23:03:52,Anton Golub,"chore: update yaml to v2.7.0 (#1071)
+
+* chore: update yaml to v2.7.0
+
+* ci: enable npm cache",False
+4424de7affd1b3c2e3fd57bd8ebd91b0bb495d45,2025-01-08 17:29:43,Anton Golub,style: use `trimEnd()` instead of regexp replace (#1070),False
+d931d9049d6c2f4465cada2e6f27bd9df34cf29d,2025-01-08 15:44:12,Anton Golub,style(util): improve `formatCmd` (#1069),False
+828c7ebf75ea61ba8be4ad10e6b26ea74ecd7fbb,2025-01-08 15:14:10,Anton Golub,refactor(cli): optimize md parser (#1068),False
+3798607d9ad070c359437eacfe370bdd6476d666,2025-01-08 02:15:49,Anton Golub,ci: apply zizmor suggestions (#1067),False
+73347aceeb82f07a8e7c0d1661fca3564454c97c,2025-01-08 01:23:43,Anton Golub,"feat: make `nothrow()` toggleable (#1066)
+
+closes #1029",False
+53718a793325daff5bda6fe2b09ceb8a41cde23f,2025-01-08 01:10:39,Anton Golub,feat: handle `ZX_REPL_HISTORY` envvar (#1065),False
+55d13ebb892f29cae030b0ee305bc6caa37733a8,2025-01-08 00:34:03,Anton Golub,fix(cli): file protocol check (#1064),False
+d9698404c33fe0ba326f704b3e1b8eeac47a22cc,2025-01-07 23:41:53,Anton Golub,feat: accept `mode` option for `tmpdir` and `tmpfile` (#1063),False
+022606a7bbd2d04a6f219e2e3f0d945824b353ec,2025-01-07 23:29:38,Anton Golub,chore(deno): minor polyfill refactoring (#1062),False
+704bf345187378191b1629c4e5803dac14d44d79,2025-01-07 23:02:31,Anton Golub,"fix: enhance deno polyfill (#1061)
+
+* refactor: rm dynamic load for repl module
+
+* fix(deno): add process polyfill
+fix(deno): fix internal esm > cjs reexport
+
+* chore: tweak up polyfill
+
+* chore: tweak up deno process polyfill
+
+* chore(deno): `process.version` polyfill
+
+* chore(deno): tweak up process polyfill
+
+* refactor: explicit process module ref
+
+* chore: deno process tweak ups
+
+* chore: byte shrinking
+
+* chore: build-js tweak up
+
+* test: tweak up flaky test",False
+3f36969119eaede26a183c61768e7dec0e6578b9,2025-01-06 15:04:32,Anton Golub,chore: update envapi to v0.2.0,False
+ed03f82ba0fc57a891bb19a2352be4e2b1a74bc0,2025-01-06 15:04:32,Anton Golub,feat(cli): update `$.defaults` from dotenv,False
+825aa9e5f96fb0f8abd52bf7de4cc5b5a6b9f0c7,2025-01-06 03:53:55,Anton Golub,chore: bump pkg version to 8.3.1 (#1059),False
+5d193c09922a70df7be5610314373d9af7c4ed06,2025-01-06 03:33:39,Anton Golub,feat:  introduce `end` event for logger (#1058),False
+681b93bc5271edcd1bb33b3b53c675753e0d94e1,2025-01-06 03:05:34,Anton Golub,feat: add `id` to log entries (#1057),False
+1edf36d1818658af8fab594ec8c4c3fd8bbf467a,2025-01-06 01:57:46,Anton Golub,fix: add `diagnostics_channel` to built-ins list (#1056),False
+b6225ea5867af53aec003bba1d101d14b3b6de9c,2025-01-06 01:48:25,Anton Golub,chore: simplify regexes (#1055),False
+4c45e448d3a6a253d45f0b4ede23adc35dec3f98,2025-01-06 01:11:18,Anton Golub,fix: allow default `killSignal` setting via env (#1054),False
+daa30c13fec2c033ec6214c32126055d49210658,2025-01-03 22:51:12,Anton Golub,fix: add `dotenv` to global types (#1052),False
+dfe43fc6e1eced8ce4822292f0c0fe9277c7bd93,2025-01-02 13:31:48,Anton Golub,fix: invoke `setTimeout` on process run only (#1049),False
+343bda0bbf65970340c55f5c0f159985a4ff3ae8,2025-01-01 16:55:47,Anton Golub,ci: tweak up clean-pkg script (#1048),False
+2bf873dd92aab7572eae9456a28dec5f3e494a0b,2024-12-31 02:11:10,Anton Golub,"docs: mention `halt` and `run` API (#1046)
+
+closes #961",False
+b90eab3c859f6d1b6eee7020411ae15bcf13cb57,2024-12-30 20:16:29,Anton Golub,ci: explicitly declare permissions for test.yml (#1045),False
+790f64a0123ab9a45ac56ba81595605f3e6d4fb8,2024-12-30 19:26:48,Mikhail Avdeev,build: add pre-push test git hooks (#1044),False
+109205bca790a211526a5cb656d1a5793974b9c1,2024-12-30 15:23:10,Anton Golub,"feat: expose dotenv API (#1032)
+
+* feat: handle multilines in env files
+
+continues #974
+
+* fix: check donenv names
+
+* fix: handle dotenv comments
+
+* fix: handle tabs in dotenvs
+
+* fix: handle backtick in dotenv
+
+* chore: parseDotenv tweak ups
+
+* chore: shrink a few bytes
+
+* chore: dotenv parse imprs
+
+* chore: move custom dotenv parser to external pkg
+
+* chore: linting
+
+* chore: rebase
+
+* feat: reexport `envapi`",False
+f1ca807532cce3a9523826a5f6c884d60a85c593,2024-12-28 14:17:38,Anton Golub,"refactor: assemble dotenv utils (#1043)
+
+* refactor: assemble dotenv utils
+
+continues #1034
+
+* chore: prettier",False
+edef66e77e044a981ac8de497b1455a0f77a77db,2024-12-28 14:05:25,Anton Golub,"ci: add osv scanner (#1011)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+18d8e9a79b7262a153b1e8cceeb96d7a13e9fb1c,2024-12-27 19:49:09,Anton Medvedev,ci: create codeql.yml,False
+efc4800ad8f56ca5a6ad358f7f22f13e80338c44,2024-12-27 17:08:12,Mikhail Avdeev,"feat: provide .env API (#1034)
+
+closes #975
+
+* chore: lint test
+
+* feat: provide support for .env files injects via API
+
+* chore: lint
+
+* chore: update test
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>",False
+ae83b4b3951dbafc0af54ce3adba94f28d0ea401,2024-12-27 15:00:27,Anton Golub,feat(cli): allow ts be extracted from markdown (#1042),False
+6ecbad2733df49a98ccbcb8b3eeb2244753f7210,2024-12-26 13:03:38,Anton Golub,fix(cli): always check if tempfile exists (#1041),False
+a4cc2a0e30b5bb667900aac021514a32e8c9f1ac,2024-12-26 01:30:18,Anton Golub,chore: fix quote regexp (#1040),False
+f30a9d0fb70c32664c03e2a2904a02160a98b050,2024-12-26 01:18:26,Anton Golub,"test: remove zx globals from unit tests (#1039)
+
+closes #1036",False
+131e6c9f0d0144452ce671c1fa814519674163f4,2024-12-26 01:05:44,Anton Golub,refactor: simplify quote regexp (#1038),False
+95f8bfd948f527c0fa071e7541b1c500b3a574db,2024-12-26 00:46:02,Anton Golub,feat(cli): alias `env-file` and `env` options (#1037),False
+90a4f246f3eec414979908a43a0460bb447401fa,2024-12-26 00:35:56,Anton Golub,"feat: expose ProcessPromise `fullCmd` and unique `id` (#1035)
+
+* feat: expose ProcessPromise `fullCmd` and unique `id`
+
+relates #1028
+
+* chore: size limit",False
+775b4b4afca8d0d39153140bdc742eed09c57d7a,2024-12-25 22:58:29,Anton Golub,"feat: provide stdall piping (#1033)
+
+* feat: provide stdall piping
+continues #978
+
+fix: add missing fs ref to core
+continues #1001",False
+759dcf6f16cc517b5ef3fb41f92374aba5d6f60a,2024-12-24 14:19:07,Anton Golub,fix: parseDotenv tweak ups (#1030),False
+36b42d84fd29bcea18fc502ca7afeae70f993a51,2024-12-24 13:53:50,Mikhail Avdeev,"feat(cli): add env files support (#1022)
+
+* feat: add support env files
+
+* feat: update size limit
+
+* chore: update test
+
+* fix: review
+
+* chore: update size limit
+
+* fix: update env path
+
+* chore: update size limit
+
+* chore: update man
+
+* chore: update size limit
+
+* fix: replace split by limit
+
+* refactor: update parseDotenv
+
+* docs: update docs
+
+* fix: add line trim
+
+* test: add test for file reading error
+
+* docs: update docs
+
+* chore: prettify test
+
+* chore: delete dot",False
+504a96090e2bb9bbbc323e42af272b309cc11579,2024-12-24 01:47:35,Anton Golub,docs: add missing parts (#1026),False
+260aa0abaaf321dcd4d3a050ec4bb31504219d68,2024-12-24 01:07:37,Anton Golub,docs: sync docs with impl (#1025),False
+80fc17ad83120a0895f97d9664bd2bcf95e890e2,2024-12-24 00:30:39,Anton Golub,fix: let `shell` path be preconfigured via env (#1024),False
+999db3d03e91db6351de01aba37a850283be9cab,2024-12-23 21:22:42,Anton Golub,"feat: enable stream picking on `pipe()` (#1023)
+
+* feat: provide stdall piping for `ProcessPromise`
+
+* refactor: bind pipe helpers to proto instead of instance itself
+
+* chore: linting",False
+6aac97899dd4606819b24774e5a9cc2e39595b1b,2024-12-22 17:49:36,Anton Golub,"test: check entry points exports
+
+closes #1020",False
+9179bc7a790ce9d7a39e8a2cdd559b7ddd3e2ed2,2024-12-22 15:19:19,Anton Golub,chore(deps): update chalk to v5.4.1,False
+73aa5812e6433edaccc80a63a87737e4f319e2ce,2024-12-22 15:19:19,Anton Golub,refactor: extract log from core,False
+6c306452a7e460823754559dfb246bdf7dbbc8f5,2024-12-22 12:48:22,Anton Golub,fix: suppress spinner in quiet mode,False
+ee515e84629e78a6d92890b95ea6d31d29e05b08,2024-12-22 03:33:07,Anton Golub,refactor: shrink several bytes,False
+a01f59415469b341e8a55138798a99ace7d530ee,2024-12-22 03:33:07,Anton Golub,test: add `transformMarkdown` test,False
+8860b441e7833b63fb91035be99df95e604284b8,2024-12-22 02:43:01,Anton Golub,"feat(cli): provide `--prefer-local` option (#1015)
+
+* feat(cli): provide `--prefer-local` option
+
+* test: extend argv test
+
+* refactor(util): simplify `snakeToCamel`",False
+a69ddd45ff4d0fe316287af76999acb5e2be97e3,2024-12-21 20:58:42,Anton Golub,"refactor: separate error helpers (#1014)
+
+* refactor: separate error helpers
+
+closes #964
+
+* chore: handle ts-node issue for ts4",False
+dda74fcf2ee17985c2f23246f8ef06b9ab05ec74,2024-12-21 18:28:12,Anton Golub,chore: minor code imprs (#1013),False
+c4e49020f1f692fe54c14a6dc6e740ad10efe75e,2024-12-21 14:17:52,Mikhail Avdeev,"build: set recommended nodejs version for dev (#1012)
+
+* feat: add recommended Node.js version
+
+* chore: update contribution doc
+
+* chore: update contribution doc v2",False
+264590bd5c401d745e4b32559fa363f2207b9f61,2024-12-19 21:45:40,Anton Golub,fix: disable spinner in CI (#1009),False
+756b742d2a173e70d3c1eb88b8bf013598bb3808,2024-12-18 23:01:48,Anton Golub,"test: merge autogenerated vendor tests (#1007)
+
+* test: merge autogenerated vendor tests
+
+continues #987
+
+* test: optimize test flow",False
+9c84ab349e5bd285609d5e12d3dce3735bf13014,2024-12-18 21:16:33,Anton Golub,ci: apply pkg-clean to dev publish (#1006),False
+c8ca866a57787f04a88e386f9697bcbb4d14a4d3,2024-12-18 19:58:41,Mikhail Avdeev,"build: omit redundant pkgjson fields on npm publishing (#1005)
+
+* feat: create script for omit field
+
+* refactor: replace blacklist to whilelist
+
+* feat: scripts
+
+* test: update test",False
+88b8400ce46aad417e9ccf644cf015a67d5e96e9,2024-12-18 19:36:32,Nikolay,"feat: export pkg version from index (#986)
+
+* feat: getVersion with version from package.json
+
+* refactor: export pkg version as constant
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>",False
+f65342ec32e1a0cd44a2bf5b4f35a6eb09d7aa5b,2024-12-17 22:45:12,Maxim Vishnevsky,test: add test for error case of iterator (#1000),False
+7566081aa4cef28eb53bd3f1d1dd07fea4640982,2024-12-17 22:07:10,V K,"feat: direct piping to file shortcut (#1001)
+
+* feat: pipe to file shortcut
+
+* docs: update doc to reflect the new pipe signature
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>",False
+2a3b19d6572a317446e838cd0bc18a91111811cb,2024-12-17 21:30:38,Anton Golub,"refactor: minor code improvements (#998)
+
+continues #988 #984",False
+d9c4f9aaac375b5266a49b13f78f1f322e01901b,2024-12-17 20:09:40,pafik13,"feat: provide configuration via env vars (#988)
+
+* fear(util): add extractFromEnv
+
+* chore(config): increase size limits
+
+* test(core): clean up env var some tests
+
+* test(util): cover extractFromEnv
+
+* feat(util): remove extractFromEnv and snakeToCamel, add camelToSnake
+
+* feat(core): implement getZxDefaults
+
+* test: add tests for getZxDefaults and camelToSnake
+
+* chore: up size limit
+
+* feat(util): add snakeToCamel
+
+* refactor(core): remove extra param from getZxDefaults
+
+* test(util): cover snakeToCamel
+
+* test(core): actualize getZxDefaults
+
+* feat(core): extend types in getZxDefaults and use it as allowed list
+
+* test(core): update suites
+
+* chore(core): swap getZxDefaults definition and usage for better git blame
+
+* chore(core): remove one tab for defaults
+
+* chore: update .size-limit.json
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>
+Co-authored-by: Anton Golub <golub.anton@gmail.com>",False
+3e5bcb06659025676d0b9b535421310da18a4e58,2024-12-17 18:43:04,V K,"docs: move docs to `main` branch #969 (#985)
+
+* Move documentation from `gh-pages` to `main` branch
+
+* Format code with `npm run fmt`
+
+* Restore Contribution guide
+
+* chore: update package-lock.json to solve CI problem
+
+* chore: up deps
+
+* build(tsd): disable default nm/@types traversing
+
+* chore: up size limit
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>",False
+97d0f5fce22473a9621919b5feaa843dceea31eb,2024-12-17 17:16:53,Anton Golub,"fix(cli): apply `process.exit` hook to rm temp file (#997)
+
+* fix(cli): add `process.exit` hook to rm temp file
+
+closes #993
+
+* test: refactor deps tests
+
+* fix: update zurk to v0.9.2 to handle tslib literals issue
+
+closes #966
+
+* chore: up size limit
+
+* chore: up dev deps
+
+* chore: update zurk to v0.9.3",False
+fb436fa6a9caac6aaad13cf02212c43c9a20170e,2024-12-17 00:05:11,Mikhail Avdeev,feat: add custom npm registry when installing dependencies (#994),False
+7c08fe0ea63853253f46cbca56af13189a4d0ff4,2024-12-16 19:14:18,Anton Golub,"feat: inherit abort signal on piping (#992)
+
+* feat: inherit abort signal on piping
+
+closes #968
+
+* test: add delay for nc init
+
+* test: get free port to avoid net collisions
+
+* test: fix flaky test
+
+* test(cli): replace `nc` with `node:net`",False
+3841cbefddd19532eaa93978e88682e2a9730e9f,2024-12-16 02:33:56,Maxim Vishnevsky,feat: add async generator logic to ProcessPromise (#984),False
+9d28e65f2f24377f1877dcac15e98dc2a6703993,2024-12-16 01:54:48,LifeforDream,"docs: Add link to pages in contribution guide (#983)
+
+* docs: Update contributing.md
+
+* docs: add link to pages in contrubition
+
+* docs: move link to docs
+
+* docs: changed test+cov command
+
+---------
+
+Co-authored-by: Anton Golub <antongolub@antongolub.com>",False
+e7b957c5ec47628659735286f01f1432ecdbebd0,2024-12-16 00:37:33,Anton Golub,test: optimize jsr artifact test (#991),False
+61c0ed1012b0568d21e971d1ea9cfddebcaa669d,2024-12-16 00:08:09,Mikhail Avdeev,refactor: prepare jsr publish (#989),False
+9f15fd4810738f7f7c838465c52d3add3844c25d,2024-12-15 23:04:21,Anton Golub,"test: attach generated vendor tests, refactor testgen script (#990)
+
+continues #979",False
+14ff473c3aae2d8116c1fde8d94c369ae550093c,2024-12-15 18:57:00,c1825846,"test: assert 3rd party reexports (#987)
+
+closes #979",False
+0705aa1d1651c3b84a014fb7f64d08fe7a6ae0ee,2024-11-29 02:01:16,Anton Medvedev,Release 8.2.4 (#960),False
+5103cc4c20dde940fe92b4ca65f648df2c7204d4,2024-11-29 01:59:03,Anton Medvedev,Release 8.2.4,False
+b1ef206d427debf6afa294cdbe84d8aa807926c1,2024-11-29 01:57:02,Anton Golub,"test(smoke): check ctx isolation (#959)
+
+* test(smoke): check ctx isolation
+
+* revert: revert #956 to fix bun issue
+
+https://github.com/google/zx/pull/956",False
+b15179f8049eabe958a2f5f5cdf57d3399bb3069,2024-11-27 13:12:56,Anton Golub,"build: use reexport to bind esm and cjs bundles (#958)
+
+* build: use reexport to bind esm and cjs bundles
+
+closes #957
+
+* chore: update esbuild-hybrid-plugin to v0.3.1",False
+d717b2a42f37944857c45ff14b980743c1745426,2024-11-25 01:56:07,Anton Golub,perf: remove redundant promise API overrides (#956),False
+c4f27cb7a6d207229bd5ffd23e0ba47843c7119a,2024-11-24 22:46:22,Anton Golub,"chore: bump pkg version to 8.2.3, apply npm audit fix (#955)",False
+3b9afe1ab0002b2f62a07fdb1dc20e3437487e93,2024-11-24 21:56:26,Anton Golub,"fix: mixin `ProcessOutput` data to promisified pipe value (#954)
+
+continues #949",False
+4bb470b703ef9b33a595834bb2d1a9cfc6fcf8ad,2024-11-24 19:19:58,Anton Golub,"feat: let $ be piped from stream (#953)
+
+continues #949",False
+8900e458b3b3fa48f82a553e8553e25d11d488ba,2024-11-23 15:00:29,Anton Golub,"fix: autorun halted processes on pipe run (#951)
+
+relates #949",False
+15bb135737bcf57b1fc93fddef3fcb27b58d3705,2024-11-22 14:53:39,Anton Golub,test: check values on pipe reject propagations (#950),False
+e666e11aa70471d8a5a4362c4a61188b0781f629,2024-11-15 17:27:03,Anton Golub,"test: mixed stdio opts handling (#946)
+
+relates #945",False
+63403c32a37ebf9b9f909dc085113fa71be4a81e,2024-11-13 11:34:00,Anton Golub,build: minor build script improvements (#944),False
+3b6c1206f87127baedef8fe200eccbd658830d4a,2024-11-11 04:16:41,Anton Golub,"fix: handle nullable stdout/stderr (#943)
+
+closes #942",False
+7711a5c4f17659487c159395c89a4971760479ec,2024-11-10 01:46:56,Anton Golub,"test: stdio inherit (#941)
+
+relates #940",False
+0f2be5b053b7649fca84c92cd04310b94e297413,2024-11-09 12:46:23,Anton Golub,chore: bump pkg version to v8.2.1 (#939),False
+880c4f4c651b3a4fbd3ce58c8cdad5f2890614d8,2024-11-08 19:03:26,Anton Golub,refactor: relax ext normalize (#937),False
+8ae13f53722177945be00528595f868683deeadb,2024-11-08 18:45:37,Anton Golub,"feat(cli): allow overriding default script extension (#930)
+
+* feat(cli): allow to override default script extension
+
+closes #929
+
+* test: up size-limit
+
+* docs: mention `--ext` flag in man
+
+* refactor: handle extensions without dot",False
+3f164e01dfb6526d13e8ddefc046634f2ae1bd15,2024-11-08 16:54:05,Anton Golub,"fix: handle endless streams piping (#936)
+
+closes #935",False
+6eb540f2a044074aee4e32f8c3035728a1db2532,2024-10-31 18:52:44,Anton Golub,"refactor: pass stream err to pipe promise rejection (#928)
+
+continues #921",False
+d0b5c2c0deb14f7b770e72b17470b6222e78ab24,2024-10-31 03:20:10,Anton Golub,style: use let for dynamic values only (#927),False
+75482ee3a72265740a38c01da195f7f2c8abbc36,2024-10-31 00:56:15,Anton Golub,"test: refactor npm pack test (#926)
+
+* test: refactor npm pack test
+
+* test: refactor copyright test",False
+2f2b709599bb002be3dba14f42e92c6aa9321e47,2024-10-30 21:31:09,Anton Golub,chore: move promisifyStream to utils (#925),False
+2f8066c8e727ea8d8ca046b86219177560d39f7e,2024-10-30 21:23:54,Anton Golub,"chore: minor code imprs (#924)
+
+* build: replace fx with node
+
+* chore: shrink a few bytes
+
+* ci: remove redundand script",False
+7ffb44e4e723291d0ba9e720c50b4c88a63c8ebc,2024-10-30 18:21:57,Anton Golub,refactor: do not hack stream behavior (#923),False
+5f0874ed17e3b2dced107cc48598371e325195ae,2024-10-30 15:26:22,Anton Golub,"refactor: simplify `promisifyStream` helper (#922)
+
+* refactor: simplify `promisifyStream` helper
+
+* chore: bump version to 8.2.0
+
+* test: check stream as stdio input",False
+3871229ff070ce50146cd8426e0e72ba9f19f3ce,2024-10-30 02:21:37,Anton Golub,"fix: properly promisify pipe stream args (#921)
+
+* fix: properly promisify pipe stream args
+
+* test: extend Duplex pipe test asserts",False
+c38363f04ad9817e1c1f525e859ba65d1d9b08bc,2024-10-29 21:12:49,Anton Golub,"feat: support pipe splitting (like tee) and delayed piping (#914)
+
+* feat: support pipe splitting
+
+BREAKING CHANGE: `p.halt()` should be replaced with `$({halt: true})`, stdio defaults to `pipe`
+
+* test: add delayed `pipe()` test
+
+* feat: add `pid` getter to `ProcessPromise`
+
+* test: check chainable pipe literals
+
+* test: kill nc process on end
+
+* refactor!: remove `halt()` method
+
+* refactor: remove runner logic from getters
+
+* fix: enhance `Shell` result type
+
+* chore: bring back `halt` method to avoid breaking change
+
+* style: improve `Options` block formatting
+
+* perf: improve cmd formatter
+
+* chore: update internal reexports
+
+* chore: up build deps
+
+* chore(deps): update which to v5.0.0",False
+b9f78c3cd9eceeabb8be96e702c3d8aa99572f5b,2024-10-29 20:14:20,Anton Golub,ci: add node `--strip-types` smoke test (#920),False
+411655b75c49b86d1083d5ec10b905370463dff8,2024-10-18 11:56:52,Anton Golub,ci: add nodejs v23 and deno v2 to test matrix (#919),False
+c3061ab1333a3b7b25cc8095489357e332fd4b94,2024-10-07 00:34:05,Anton Medvedev,Update README.md,False
+63ceddb2a2ae74072190683c61c4563b52aef356,2024-10-05 15:03:48,Anton Golub,"chore: bump v to 8.1.9 (#917)
+
+* chore: optimize `echo` impl
+
+* chore: bump version to 8.1.9",False
+88a545ac61c9718b7d095576c81f7db65398cdb9,2024-10-04 19:39:22,Anton Golub,"feat: keep argv ref on update (#916)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+ac2f1dd5b6c266996349669b6e9b49e472b0f54a,2024-10-04 19:38:48,Anton Golub,refactor: enhance `Shell` result type (#915),False
+1384a8c6fc5695d796754cc58ddef8e8c69b792c,2024-10-03 13:22:42,Anton Golub,"style: group `ProcessPromise` methods (#913)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+43093599572b5a7f2876cd1dc870acca65153a9d,2024-10-03 13:22:10,Anton Golub,"fix: fill stdall store on sync spawn (#912)
+
+closes #911",False
+1ec4b178ff3dbf01c5af286046fdb316ab7f2831,2024-09-22 00:22:35,Anton Golub,style: rearrange code blocks (#910),False
+9af862b08482952cff7eed1668c469eea0385044,2024-09-21 12:30:14,Anton Golub,test: improve proc hand detection (#909),False
+d06216d65004a5c09c2631362a80626d0b2d43e4,2024-09-21 02:21:52,Anton Golub,perf: shrink a few bytes (#908),False
+9354a39d7f8af63c9c5903040974d62ded6a64f3,2024-09-19 20:19:10,Anton Golub,"perf: strengthen code block patterns (#906)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+971cbfc7460517ec9ca98f3f6771383fab9a49a0,2024-09-19 20:14:10,Anton Golub,"perf: optimize `ProsessOutput` mem consumption (#903)
+
+* perf: optimize `ProsessOutput` mem consumption
+
+* style: simplify process end handler
+
+* chore(types): define `ProcessOutput` overload signature",False
+bfff0efd78f284680c8e19e6c7022d28cc274d7a,2024-09-19 15:49:10,Anton Golub,"fix: detect Duplex on pipe (#905)
+
+* fix: detect Duplex on pipe
+
+closes #904
+
+* test: add isStringLiteral test",False
+01f744be7c8a1fc6a069a11a2b34a14d864f69b4,2024-09-17 20:14:52,Anton Golub,chore: bump version to v8.1.8 (#902),False
+7a7232cba3ee65d0e1f6cdcee9a5e0b5120d5fa7,2024-09-17 19:42:36,Anton Golub,"fix: respect piped PromiseProcess nothrow option (#901)
+
+* test: extend pipe rejection suite
+
+* chore: enhance pipe rejection hook
+
+* fix: respect piped Process nothrow option",False
+5038ec5e277cc8b61cb8fe92427b4a4e963553b0,2024-09-17 17:24:34,Anton Golub,feat: enable stringLiterals for `pipe()` API (#900),False
+d814096db149207e0d62cf3085f0328900387220,2024-09-17 13:35:15,Anton Golub,chore: apply npm pkg fix (#898),False
+be2debc0ecb6adb8c62af4996d4b6a2c1c4f7384,2024-09-17 12:53:51,Anton Golub,"fix: propagate rejection on pipe (#899)
+
+* chore: apply npm pkg fix
+
+* fix: propagate rejection on pipe()
+
+closes #640",False
+778e4b357efd35f778a38de44fe0d5ee8a96c789,2024-09-16 18:43:07,Anton Medvedev,Add homepage to package.json,False
+c99c5e07ae7bd74a18c2eb10b974cfc88babe06a,2024-09-16 12:58:41,Anton Golub,test: extend presets test case (#897),False
+4081a9ff3d0fbda853f20535bc4a0a875a958caf,2024-09-15 17:58:44,Anton Golub,"feat: add duration to `ProcessOutput` (#892)
+
+* feat: add duration to `ProcessOutput`
+
+* test: check p duration after kill
+
+---------
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+5d78a2618e1c6c4d8e6b70797922ef35a0ddddd6,2024-09-14 19:18:15,Anton Golub,feat: expose formatted cmd via getter (#891),False
+ae4fb3c74d0bd783218286a091b3bafd5158a611,2024-09-13 22:32:53,Anton Golub,"chore: bump version 8.1.7 (#890)
+
+* chore: bump version to 8.1.7
+
+* chore: update tsx to 4.19.1
+
+* chore: tweak up import-meta-url snippet
+
+* chore: reuse const maps",False
+ac2567f5aef4375ac441b8236f5e7b1f59f5d5e5,2024-09-11 11:54:36,Anton Golub,"fix: enhance abort handlers clean up (#889)
+
+* fix: enhance abort handlers clean up
+
+relates #881
+
+* chore: up dev deps",False
+bff35512fd0154075bae4898de9742fc17fff461,2024-09-09 00:32:14,Anton Golub,"test: add nodejs nightly and ts rc to the test matrix (#888)
+
+* test: run ts smokes on ts@rc
+
+* chore(deps): update madge to v8.0.0
+
+* ci(test): run autotests every 4 days
+
+* test: add nodejs 22-nightly to smoke tests matrix
+
+* chore: lint test.yml
+
+* test(smoke-ts): add --force to ignore ts version requirements
+
+* test(smoke-ts): ensure tsc version",False
+11699e0710e83834eaaba9c9a5f9c0534025e436,2024-09-09 00:30:56,Anton Golub,feat: provide `$.killSignal` option (#885),False
+fbf2ddf6caf0c23f0dd2a6b8276a22c94dd219cb,2024-09-08 22:43:53,Anton Golub,"feat: let `$.preferLocal` accept dir (#886)
+
+* feat: provide `$.killSignal` option
+
+* feat: let `$.preferLocal` accept directories",False
+76463de0db9e5c995ae36b9bc7c63d9d849b855c,2024-09-06 14:11:04,Anton Golub,"fix: enhance duration parser (#884)
+
+* perf: replace some regexes with `str.includes()`
+
+* fix: enhance duration parser",False
+5d2ad786a82be42c731fa46b9558747de362b253,2024-09-05 19:05:07,Anton Golub,feat: let $ presets be composable (#883),False
+09d0d04731172eeeb0402d8575b7b34a6c036a52,2024-09-05 17:08:49,Anton Golub,chore: bump pkg version to 8.1.6 (#882),False
+8c3730e0ddbeab79e87ad0e5d3f382078affceec,2024-08-28 19:13:48,Anton Golub,test(unit): check YAML extras presence (#880),False
+92aede5e8728ca05e1c42ebb569cc649639c7552,2024-08-28 02:13:59,Anton Golub,"fix: reenable & deprecate YAML module extra assets (#879)
+
+* fix: reenable & deprecate YAML module extra assets
+
+closes #870
+
+* chore: up deps, fix vulns",False
+bec7b4cc935cad688576aeae388554b28017a364,2024-08-27 23:50:16,Anton Golub,"fix(types): add minimist types to dts bundle (#872)
+
+* chore: up dev deps
+
+* fix(types): add missing minimist typings to dts bundle
+
+relates #871
+
+* chore: linting",False
+6de164d003c2c82ecd39860d181cc62cd0022b42,2024-08-26 12:48:51,Anton Golub,test(core): enhance cwd related test for `within` (#877),False
+8778fcc9df70f345b5bec6e09ca93d83b8a8cd81,2024-07-06 15:34:41,Anton Golub,docs: mention `cwd` option in man (#868),False
+2d8dcbdbecf8a306b1a23b83c57dd1f754ce3fe0,2024-07-05 14:31:19,Josh Soref,"Spelling (#867)
+
+* spelling: shell
+
+Signed-off-by: Josh Soref <2119212+jsoref@users.noreply.github.com>
+
+* spelling: tilde
+
+Signed-off-by: Josh Soref <2119212+jsoref@users.noreply.github.com>
+
+---------
+
+Signed-off-by: Josh Soref <2119212+jsoref@users.noreply.github.com>",False
+d7d074d5945b33d85c8e68085839d16b2c55b943,2024-07-04 14:10:40,Anton Golub,"fix: omit redundant yaml API extras (#866)
+
+* fix: omit redundant yaml API extras
+
+* test: update size-limit rules",False
+e500aa6f783b0002662dc85c0be16aee7eccdd67,2024-06-27 17:08:42,bestlyg,fix(global): add missing types (#864),False
+1fed69b5fcb2f47f30266c7a0d149cd3b1c23008,2024-06-25 22:51:14,Anton Golub,test: refactor pipelines (#861),False
+a262a210262b00bec2958566ff4fb6d0ad7aa4ce,2024-06-21 23:47:48,Anton Medvedev,Update package.json (#859),False
+e6c03498475a14aa7939ca3998ccdd81414c1253,2024-06-21 23:35:15,Anton Golub,docs: mention CLI `verbose flag (#858),False
+c1a160cb8ba19dd05d3e171befa4f06449a94598,2024-06-21 01:56:35,Anton Golub,test: add bundles size check (#857),False
+e45ae8de58837a52ca6f8b0503152e2f87f55356,2024-06-21 00:08:18,Anton Golub,"build: split vendor chunk (#856)
+
+* build: split vendor chunk
+
+* build: enhance dts gen
+
+* ci: use Node.js 22 as builder",False
+d6f5493fdd849b04a05467f06125190d241449af,2024-06-20 04:06:50,Anton Golub,perf: update @webpod/ps to v0.0.0-beta.7 (#855),False
+a3b7316ee6bf5bd954573c1a69770652b82d837d,2024-06-20 02:23:13,Anton Medvedev,Release 8.1.3,False
+cca423851a56109dca93cccf8bda9f23e943fdcb,2024-06-20 02:18:29,Anton Golub,"refactor: simplify setup checks (#852)
+
+* refactor: simplify setup checks
+
+* style: make type imports explicit
+
+* chore: update no-shell err message",False
+7b3046bd044725dfc4076d7984beefdd54ee85f4,2024-06-20 01:38:38,Anton Golub,fix(global): add missing types (#853),False
+3931b9dd5bab124224adfc7314c8fc915671605e,2024-06-19 03:08:13,Anton Golub,"fix(bun): make lazy `cwdSyncHook` init (#848)
+
+closes #847
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+ac2bc542133f1575471f3a4c8e095849c3006dac,2024-06-19 03:02:31,Anton Golub,"feat: provide `store` opt (#849)
+
+* fix(bun): make lazy `cwdSyncHook` init
+
+closes #847
+
+* feat: provide intermediate store configuration
+
+closes #650",False
+cd8b511daee8f1d1df1575f269d18b0dae42ad11,2024-06-13 01:09:36,Anton Golub,"chore(cli): export `isMain` helper (#844)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+49cd6a75ead9d4514acd8f4f346a35d612eea3ad,2024-06-13 00:41:51,Anton Golub,fix: disable redundant node-fetch-native runtime check (deno) (#843),False
+4c52ec5fd51e2a637a969613dfb5bade350d56c0,2024-06-12 01:03:23,Anton Golub,"perf: remove node abort controller in favor of built-in node-fetch polyfill (#842)
+
+* perf: replace node-abort-controller with node-fetch polyfill
+
+* fix: apply npm audit fix to fix braces <3.0.3
+
+https://github.com/advisories/GHSA-grv7-fg5c-xmjg",False
+d8311ceae115c4889218b4ca4e7b79d0d095ee5a,2024-06-07 18:55:25,Anton Golub,deps: update @webpod/ps to 0.0.0-beta.6 (#840),False
+f7d3e0afc2aeb1446c941edbf644c0bd99c2d2aa,2024-06-01 13:39:49,Anton Golub,deps: update zurk to v0.2.0 (#839),False
+e82f7012b8aac9de51db07de38315dbe4fd84f8c,2024-05-30 01:04:56,Anton Golub,refactor: export cli inners (#838),False
+9f68bb632f29a3a3b399420467596691ff571842,2024-05-29 22:18:12,Anton Golub,refactor(cli): simplify path resolvers (#837),False
+46904f852384de8ef81026634374afad876fecfb,2024-05-29 13:03:10,Anton Golub,fix: capture `custom` log event (#834),False
+a54c7ffd2ed824ccc09a67d191442745dcc3e3a1,2024-05-28 12:36:24,Anton Golub,ci: enable npm provenance for dev publish (#830),False
+b3fcad2097092b59397357efef24e2a006ba69f8,2024-05-28 01:53:43,Anton Golub,feat: adapt mjs bundle for nodejs v12 (#828),False
+73f05586c68c7fbcd91541e007a24a7765c38841,2024-05-27 21:59:13,Anton Medvedev,Release 8.1.2,False
+5323178b6e9acff5fe312ac154f0605387064658,2024-05-27 21:58:26,Anton Golub,"fix: apply EOL ensurer to the last chunk only (#825)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+558be7079b130bd43c1f3cf6ecec945e8416b17f,2024-05-27 21:56:09,Anton Golub,"fix: set cjs bundle as legacy `main` entrypoint (#827)
+
+closes #824
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+80f39ef41d51348a9c1d83caf398132a2517a90e,2024-05-27 21:44:59,Anton Golub,fix(cli): return exit code 1 on incorrect inputs (#826),False
+851e50f78d1f858901524eafe5eeea15c96ddae9,2024-05-27 17:48:06,Anton Golub,refactor: align `ProcessPromise.isSmth()` API (#823),False
+f5545ef3fed33288de4ff30f2b5549e4b9e574fc,2024-05-27 00:16:12,Anton Golub,"build: update esbuild plugins, refactor build:js (#821)",False
+491678fc577f6a95c9ad1e9eb551bbc611d0f211,2024-05-24 14:43:21,Anton Golub,"feat: add ProcessPromise `.verbose()` for symmetry with`.quiet()` (#820)
+
+See #710",False
+8be10e0d903758bc1d00c1d3a3df71f798dd613f,2024-05-23 16:24:28,Anton Medvedev,Update npm-publish.yml,False
+73c829cb3b766bad22097de31054a34417dc0d39,2024-05-23 16:20:29,Anton Medvedev,Release 8.1.1,False
+3993565a48259867c03ebfca1eb1beffc1a4bb63,2024-05-23 15:02:12,Anton Golub,"ci: enable npm provenance (#818)
+
+* ci: enable npm provenance
+
+* ci: use nodejs 20 on publish
+
+* chore: up dev deps",False
+ae555492bd39529e5e68babd9b9f1b7dde0a9233,2024-05-21 18:37:37,Anton Golub,"feat: introduce `$.preferLocal` option (#798)
+
+* feat: introduce `$.preferLocal` option
+
+* fix: handle $PATH on win32
+
+* refactor: move `preferNmBin` to utils",False
+01af3d50d91583a904d9aab8b849d0646338b41e,2024-05-21 13:16:38,Anton Golub,"feat: expose signal prop from ProcessPromise (#816)
+
+* feat: provide format methods for `ProcessPromise`
+
+continues #811
+relates #764
+
+* feat: expose abortion signal from `ProcessPromise`",False
+1f7ce4e29db48f681b7db304dc02fb9cd8d11a07,2024-05-21 13:01:14,Anton Golub,"feat: provide format methods for `ProcessPromise` (#815)
+
+continues #811
+relates #764",False
+d09edf89aa3a6bf66a6e780b0ca6decb812bc703,2024-05-20 19:09:57,Anton Golub,"test: refactor core tests, add scopes (#814)",False
+69e7368efe3b60dff5b9b42d5cbd7eafcc21d333,2024-05-20 13:47:28,Anton Golub,fix: bound `--quiet` flag with `$.quiet` (#813),False
+0073c51bfb9cc9fd8b92ea0ab4f10e905652315b,2024-05-20 01:11:18,Anil Kumar Behera,"feat: provide formatters shortcuts (#811)
+
+* feat request: provide formatters shortcuts #764
+
+Signed-off-by: Anil Kumar Behera <ark845612@gmail.com>
+
+* Revert ""feat request: provide formatters shortcuts #764""
+
+This reverts commit ebf8048b7267488d239e5fc3956136448b069969.
+
+* feat: provide formatters shortcuts
+
+Signed-off-by: Anil Kumar Behera <ark845612@gmail.com>
+
+* fix: correct formatting
+
+* fix: simplified json test
+
+---------
+
+Signed-off-by: Anil Kumar Behera <ark845612@gmail.com>",False
+23fe548b8ecd69293246b2827ca8c7b6cb154315,2024-05-17 17:55:43,Timo Ströhlein,"fix: list types first in package exports (#812)
+
+Co-authored-by: aw17732 <timo.stroehlein@karcher.com>
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+dfeb16601a4fc79922ce79858d70ed02ecd06ee5,2024-05-17 17:34:03,Chandan Kumar Mandal,"feat: add a newline after commands that don't end their output with one (#810)
+
+* feat: add a newline after commands that don't end their output with one
+
+* Resolves #776
+
+Signed-off-by: chankruze <chankruze@gmail.com>
+
+* fix: optimize eol check
+
+Signed-off-by: chankruze <chankruze@gmail.com>
+
+* chore: encapsulate eol check and add unit test
+
+Signed-off-by: chankruze <chankruze@gmail.com>
+
+---------
+
+Signed-off-by: chankruze <chankruze@gmail.com>",False
+3d24076d8f25dcbd6805a01304ed03c57e81d545,2024-05-14 02:30:05,Anton Medvedev,Release 8.1.0,False
+6e674ae5904724ef9f61e33e00f1d49f56989254,2024-05-14 01:52:36,Anton Golub,"feat(cli): add `cwd`option (#804)
+
+* test: add ts smoke tests
+
+* test: fix ts smoke test
+
+* fix(types): add @webpod/ingrid to dts bundle
+
+* ci: print TS version
+
+* feat: introduce `tempdir` and `tempfile` utils
+
+* feat(cli): add `cwd` options
+
+* test: exclude deno.js from cov report",False
+d653134925b39073f2851c5f80dc6ab0a1f4e268,2024-05-14 00:02:13,Anton Golub,chore: update npm keywords (#805),False
+6b1869d3b722e825b654d6599b688a9e1b6009e1,2024-05-13 22:20:13,Anton Golub,"chore: update github issue template (#807)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+c70bff172c5b99fac29252da25bb182e427d61d7,2024-05-13 22:19:29,Anton Golub,"docs: provide man page (#806)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+73e3e1d9d3efc4c799d55c0e2f39d5b0c7366df2,2024-05-13 22:18:42,Anton Golub,"feat: add `tempdir` and `tempfile` utils (#803)
+
+* test: add ts smoke tests
+
+* test: fix ts smoke test
+
+* fix(types): add @webpod/ingrid to dts bundle
+
+* ci: print TS version
+
+* feat: introduce `tempdir` and `tempfile` utils",False
+73841851db72699042c730fcd781cb2bfe55865b,2024-05-13 22:18:30,Anton Golub,"test: add ts smoke tests (#801)
+
+* test: add ts smoke tests
+
+* test: fix ts smoke test
+
+* fix(types): add @webpod/ingrid to dts bundle
+
+* ci: print TS version",False
+0eb81c93d9b5637577f143ed318449b6ea9373c7,2024-05-10 21:50:35,Anton Golub,"fix: provide compat with deno (#800)
+
+* chore: fix node engine requirement
+
+https://nodejs.org/api/async_context.html#class-asynclocalstorage
+
+* chore: update esbuild to v0.21.1
+
+* fix provide compat with deno",False
+8690f00ece913672c5af7200bb24b974ffbc0474,2024-05-10 21:50:08,Anton Golub,"chore: fix node engine requirement (#799)
+
+* chore: fix node engine requirement
+
+https://nodejs.org/api/async_context.html#class-asynclocalstorage
+
+* chore: update esbuild to v0.21.1",False
+a3205e1a8cf31bf2bc91c01d780806428c23c7bb,2024-05-08 22:31:06,Anton Golub,feat: let timeout be configurable via $ opts (#796),False
+b6420ebee5423ce127c2727028f2ca9504e87953,2024-05-07 19:46:41,Anton Golub,"build: update esbuild to v0.21.0 (#795)
+
+* build: update esbuild to v0.21.0
+
+* test: add nodejs 22 to test matrix",False
+1568ca95815806e9e0a5c62c0ff1958aaa8dfa10,2024-05-05 21:19:14,Anton Golub,"build: refactor build:js script (#794)
+
+* chore: update esbuild plugins, yaml to 2.42, ts to 5.4.5
+
+* build: refactor build:js script
+
+* style: fix import `url → node:url`",False
+086b500267205e4b92c39d4648c9b88f7ac83c90,2024-05-04 18:21:17,Anton Golub,"feat: provide cjs pkg entrypoints (#793)
+
+* feat: provide cjs pkg entrypoints
+
+relates #340 #399 #282 #197
+
+* chore: linting
+
+* build: extract esbuild helpers
+
+* chore: up some dev deps
+
+* test: check licenses once
+
+* test: ignore esblib.cjs coverage
+
+* test: omit annotations coverage
+
+* style: linting",False
+bc2a08c1ae096a53bb03af35e801c21a9e5e4995,2024-04-30 20:15:27,Anton Golub,test: check preset helpers (#791),False
+18e8e136ee0ff9fdd7fc5b264f25bedf4e5da44c,2024-04-30 20:07:05,Grigorii K. Shartsev,"feat: add `usePwsh` helper for PowerShell v7+ (#790)
+
+* feat: add `usePwsh` for PowerShell v7+
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>
+
+* test: add usePwsh smoke test
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>
+
+* test: add `usePwsh` unit test
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>
+
+* fixup! test: add usePwsh smoke test
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>
+
+* fixup! test: add `usePwsh` unit test
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>
+
+* fixup! test: add `usePwsh` unit test
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>
+
+* fixup! test: add usePwsh smoke test
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>
+
+---------
+
+Signed-off-by: Grigorii K. Shartsev <me@shgk.me>",False
+eda722c9aaed0315080df1ede9ca8f90e8f1d090,2024-04-26 04:01:20,Lawrence Ching,#787 support CRLF for markdown script (#788),False
+5fd3d8a8f126565248f16cc810a889a95bdd88d9,2024-04-18 20:56:16,Anton Medvedev,Release 8.0.2 (#783),False
+b52bcd9c52750d34be0fd0e1924d1a2756466c3d,2024-04-18 19:25:59,Anton Golub,"feat: let `detached` opt be configurable (#782)
+
+* feat: let detached opt be configurable
+
+closes #781
+
+* fix: set `datached` opt to false by default",False
+d397293f4c279641272f440a7bc3868ad505df73,2024-04-15 23:21:42,Anton Golub,"test: use pkg typings entries for tsd tests (#780)
+
+* test: use pkg typings entries for dts test
+
+relates #779
+
+* fix: fix globby types resolution
+
+closes #779",False
+00d1b74ec9f4d4c14d7600e59017826e3eb12313,2024-04-08 12:07:20,Anton Medvedev,Release 8.0.1,False
+f0c10cddff80e1af267ca585a728ac1a86c677c9,2024-04-08 12:03:52,Anton Golub,"feat: add `stdio` option (#772)
+
+closes #771",False
+5ad9ce34e3143f91cbfcf261d7bc46c3cd03029d,2024-04-07 00:23:13,Anton Golub,"fix: additional `process.kill` fallback for bun (#770)
+
+https://github.com/oven-sh/bun/issues/8787",False
+e010f230939eb530636a04e15f07dad676be9207,2024-04-06 14:07:58,Anton Golub,"feat: support `signal` opt (#769)
+
+closes #768
+relates #734",False
+7fa9bfc93c29436a250a28ed102f62e34fb95423,2024-04-06 04:56:13,Anton Medvedev,Release 8.0.0,False
+8c4d0c7aaee1ae7fe62aee0fcf2510799332d12e,2024-04-05 18:12:39,Anton Golub,"fix: disable multiline feature (#767)
+
+* fix: disable multiline hook
+
+* chore: up dev deps
+
+* chore: linting",False
+0844b8888bb7248522dfc15594170ba0b75b1add,2024-04-03 02:28:14,Anton Golub,fix: restore pieces pads in `normalizeMultilinePieces` (#766),False
+d79a63888352eda47a30c018c9734fb9a3347746,2024-04-02 19:41:35,Anton Golub,"feat: let `cwdHook` be configurable (#765)
+
+* feat: let `cwdHook` be configurable
+
+* test: add `$.cwdHook` test
+
+* feat: disable $.cwdHook by default
+
+BREAKING CHANGE: affects legacy cd() flow
+
+* test: fix pkg.test.js cd()
+
+* chore: rename `setupSmth` helpers to `useSmth`",False
+b75c71a258ef2832561c351d45c4a38386bc8b2c,2024-04-02 00:24:20,Anton Golub,ci: refactor smoke tests flow (#763),False
+bf348a1e078b08587f8b35e856e8d608a302dd21,2024-04-01 22:34:37,Anton Golub,"ci: refactor smoke tests flow (#762)
+
+* test: separate unit & smoke tests
+
+* chore: linting
+
+* ci: fix artifact path
+
+* ci: smoke tests tweak up
+
+* chore: linting
+
+* test: optimize bun test setup",False
+cd1e7e31bee3f0d41601f3d8fcdd563d2e8fbe0b,2024-03-31 23:26:58,Anton Golub,ci: update gh actions (#760),False
+24dcf3a2953777b70cc54effe2989621a9133886,2024-03-30 20:07:33,Anton Golub,"refactor: disable default powershell setup (#757)
+
+* refactor: disable default powershell setup
+
+* fix: rm win assert from powershell setup",False
+fb9554f322d5b1fa013ee27fe21ab92558a7ed4b,2024-03-30 15:59:32,Anton Golub,"feat: add `$.postfix option (#756)
+
+finalizes #536
+
+Co-authored-by: Noah Koontz <noahkoontz@microsoft.com>",False
+1124e31c9cb9f2b087aa26e019f49caebcc2aa0e,2024-03-30 13:04:46,Anton Golub,"fix(spinner): handle 0 tty cols case (#755)
+
+closes #607",False
+a950a058d4fc7aa3e357dd4cb02549b792bff255,2024-03-30 00:11:40,Anton Golub,test: fix flaky test (#754),False
+9d5b3e475d61a6218117cc09b35a7fda627bcbfc,2024-03-29 20:06:32,Anton Golub,"feat: enhance support for multiline cmd args (#753)
+
+* feat: enhance support for multiline cmd args
+
+closes #539
+
+* chore: fix `raw` ref in tpl pieces normalizer
+
+* chore: lint",False
+fe24b7a341cab89a5071ef9e03c94d2e1e62db9c,2024-03-29 03:35:56,Anton Medvedev,Remove stryker,False
+2026d4a4451f963064b0b340cd8ff91cf2a5d8fd,2024-03-29 02:50:38,Anton Golub,"refactor: enhance stack from (#752)
+
+* Fix stack extraction when running under bun
+
+* move stack extractor to function, add tests
+
+* perf: simplify stack extract
+
+* chore: linting
+
+* test: add bun smoke test
+
+* chore: linting
+
+---------
+
+Co-authored-by: Min Idzelis <min123@gmail.com>
+Co-authored-by: Min Idzelis <midzelis@salesforce.com>",False
+b02fd5279e79af44b83eb0e20d53bb9ee57c988d,2024-03-28 14:20:01,Reza Kargar,"Add minute support in duration (#703) (#704)
+
+* Add minute support for parseDuration
+
+* Add minute to Duration type
+
+* Fix formatting issue of Duration type in util.ts
+
+* Add test for minute in duration parsing
+
+---------
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+8a7a8feb829c71ad623195f2c8391c3203c7a58e,2024-03-28 12:05:20,Anton Golub,"refactor: rm experimental toggle (#751)
+
+* refactor: rm experimental toggle
+
+* chore: rm experimental typeref",False
+8925a127e4bcf7e9a2e0cf5e443076f4473eedd0,2024-03-28 12:04:17,Anton Golub,refactor: drop webpod ssh API (#750),False
+1a03a62cd17565eb181527aa2dec5b9c1d308d81,2024-03-27 21:08:48,Anton Golub,"refactor: use depseek for deps extraction (#746)
+
+* refactor: use depseek for deps parsing
+
+* style: linting
+
+* test: extend deps capture test",False
+cafb90dafe30a12dda9ff6b9b9e0ff9550e1272b,2024-03-27 15:24:59,Anton Golub,"feat: set `$.verbose` to false by default (#745)
+
+* feat: set `$.verbose` to false by default
+
+closes #569
+
+* chore: linting
+
+* chore: minor tweak ups",False
+def0883729bb2ce9503bca5a45a92f54ff2e5027,2024-03-27 04:36:06,Anton Golub,"feat: export kill helper (#744)
+
+* feat: export `kill` helper from core
+
+* test: check index exports",False
+fac863064c2246d8b1d597a263afd365e329a983,2024-03-27 00:47:03,Anton Golub,"chore: up deps (#743)
+
+* chore: up deps
+
+* chore: rm ps-tree types from dts bundle",False
+c2cda4a436511e6c40e995bf64ce8395550c073d,2024-03-26 23:28:18,Anton Golub,"feat: replace ps-tree with @webpod/ps, expose `ps` util (#742)
+
+* feat: replace ps-tree with @webpod/ps, expose `ps` util
+
+* chore: linting",False
+6b992f8cb9cd241310ed2dd426968c1325d1c17c,2024-03-19 20:49:59,Anton Golub,chore: migrate to lockfile v3 format (#741),False
+1d8aa9356968d8e7f523f3cddac10e8b457c0ecc,2024-03-18 22:17:10,Anton Golub,feat: provide `spawnSync` configuration (#739),False
+1f8c8b85d301607faedf0ba820a742a53c6e41b2,2024-03-18 21:58:34,Anton Golub,"feat: provide sync API (#738)
+
+closes #681",False
+0640b80c978ba7c5c1fcb57b42f774de79181721,2024-03-18 11:31:18,Anton Golub,"feat: add `ProcessPromise.valueOf()` (#737)
+
+closes #690",False
+b38972e8001782f88a04feabeb89271523654e3f,2024-03-18 01:57:19,Anton Golub,"feat: provide `input` option (#736)
+
+* chore(deps): update yaml to 2.4.1
+
+* feat: provide `input` option
+
+closes #720",False
+fe0356fd14ee8d448c74d9bba2412e70b7644ad2,2024-03-17 19:50:52,Anton Golub,"build: remove `DOM` from `compilerOptions.lib` (#735)
+
+finalizes #619
+relates #722",False
+fa4a7b404b34986b51ad9a941c1a17ac473d0d7d,2024-03-17 19:12:57,Anton Golub,"feat: introduce `abort()` method (#734)
+
+* feat: introduce `abort()` method
+
+closes #527
+
+* chore: apply fmt",False
+aeec7ae84b814d7134f88b3455e144b39429d8b6,2024-03-17 13:11:24,Anton Golub,"refactor: separate core (#733)
+
+* chore: inject zurk
+
+* chore: handle timeouts via zurk
+
+* chore: override zurk quote
+
+* chore: use zurk response to build ProcessOutput
+
+* chore: linting
+
+* chore: use buildCmd from zurk
+
+* feat: provide preset api
+
+closes #600
+
+* docs: add some comments
+
+* build: move zurk to vendor bundle
+
+* chore: move zurk to dev deps
+
+* feat: process quiet as preset option
+
+* refactor: use zurk/spawn
+
+* chore: linting
+
+* build: update esbuild",False
+be0d674421db92ea38232cdd81e6d0e4c15e6f50,2024-02-26 00:04:20,Anton Golub,"test: tweak up win32 test (#728)
+
+* ci: apply env FORCE_COLOR to test only
+
+* test: tweak up win32 test",False
+7e728f6b768e0bef09ad9325805c3f4fbae41f0f,2024-02-25 20:26:57,Anton Golub,"ci: apply env FORCE_COLOR to test step only (#727)
+
+* ci: enable autotests for all pushes
+
+* ci: convert `dev publish` to manual task
+
+* ci: set FORCE_COLOR: 3 for dev publish script
+
+* ci: set FORCE_COLOR: 3 for dev-publish
+
+* ci: apply env FORCE_COLOR to test only",False
+c8ddf6e969ac4cccb0c487354b678e21357f179f,2024-02-25 19:39:53,Anton Golub,"ci: set FORCE_COLOR: 3 for dev-publish (#726)
+
+* ci: enable autotests for all pushes
+
+* ci: convert `dev publish` to manual task
+
+* ci: set FORCE_COLOR: 3 for dev publish script
+
+* ci: set FORCE_COLOR: 3 for dev-publish",False
+b3ce73aaa6499c9b93376ee0b3c0cf15feddb6b6,2024-02-25 19:30:35,Anton Golub,"ci: set missing FORCE_COLOR: 3 for dev publish action (#725)
+
+* ci: enable autotests for all pushes
+
+* ci: convert `dev publish` to manual task
+
+* ci: set FORCE_COLOR: 3 for dev publish script",False
+65185fe64b9a39dd8256fa71efb750d4e2a99bd3,2024-02-25 19:10:04,Anton Medvedev,"Dev (#724)
+
+* Only import repl if needed
+
+* await node:repl
+
+* Do not throw on win which",False
+0c97b9f1752b8cf9fdd8178e5798b70f6440d8e4,2024-02-25 18:57:12,Anton Golub,"ci: convert dev publish to manual task (#723)
+
+* ci: enable autotests for all pushes
+
+* ci: convert `dev publish` to manual task",False
+2acb0f2c786bcfe4f0ed1ac0dfc4c818d96d6c30,2024-02-25 01:47:28,Anton Golub,"build: generate js and dts bundles (#722)
+
+* ci: enable autotests for all pushes
+
+* build: bundle with esbuild
+
+* test: ignore vendor.js coverage
+
+* fix: use vendor chunk for repl
+
+* build(dts): rm redundant triple slashes
+
+* build: move external typings to optional deps
+
+relates #712
+
+* chore(core): relax Options type
+
+* perf: replace node-fetch with node-fetch-native
+
+* build: turn off minify",False
+906786a87768ce2aee933edcae66f878eb3e6637,2023-12-19 22:05:03,Anton Golub,chore: npm audit fix (#709),False
+cd18352320de3873a1d1473c037632212557757a,2023-12-19 16:05:50,Anton Golub,"test: migrate to native node:test (#676)
+
+* test: migrate to native node:test
+
+* test: add nodejs 20 to test matrix
+
+* test: fix win32 runner",False
+a9b573e026b16da617d99c1605a71c4242bd81eb,2023-09-06 14:50:33,Anton Medvedev,Fix tests,False
+5efd1e35c4d6771a369573b7ace29bb31756af11,2023-09-06 02:47:41,Anton Medvedev,Update README.md,False
+d46f6963b68a48b32f2b25ee3ec955a5e05663f8,2023-09-05 22:49:36,Anton Medvedev,Update README.md (#671),False
+99fbd7d355f9118cde7f91004cb88b8aa43abd93,2023-09-05 19:56:53,Anton Medvedev,Update README.md,False
+d06dd346937a2dc914b8cc5737caceae1decfff9,2023-09-05 17:59:33,Anton Medvedev,Update docs.yml,False
+746827556ec69fa5cfec8a33abcd2ea0661b59ec,2023-09-05 17:58:47,Anton Medvedev,"Revert ""Delete docs.yml""
+
+This reverts commit 5c616c2c96184c8d0c8ecbbe2e2b0182551b618d.",False
+5c616c2c96184c8d0c8ecbbe2e2b0182551b618d,2023-09-05 17:57:40,Anton Medvedev,Delete docs.yml,False
+83c5677704be7042d5a7d34abe0f085a4b49c0cf,2023-09-05 17:49:07,Anton Medvedev,Rename workflow docs.yml,False
+d2506c54333290bc0c33498472b420512cf66095,2023-09-05 17:48:16,Anton Medvedev,fmt,False
+48bb91ba4f99cde45962f65b18273e1ff5b68ffa,2023-09-05 17:45:48,Anton Medvedev,Create docs.yml (#670),False
+956dcc3bbdd349ac4c41f8db51add4efa2f58456,2023-08-18 04:06:08,Anton Golub,"fix(deps): relax pkg name pattern to comply with npm pkg name validation (#663)
+
+* fix: relax pkg name pattern
+
+closes #659
+closes #660
+
+* test: check scoped pkg entry parsing with v declaration
+
+* fix(deps): parse pre-relelease versions",False
+b1ca2325f9a8e2c877badc486aaaf7fe686d7d76,2023-08-15 23:03:49,Leon Strauss,"Expose minimist (#661)
+
+* Document minmist exposure
+
+* Expose minimist package globally
+
+* Update package-lock
+
+* Improve minimsit test
+
+* Re-sort globals to be alphabetical",False
+497db7e04b65882da99fc1d80fab1b015dd1da4f,2023-08-15 15:51:10,Anton Golub,test(cli): fix flaky test (#662),False
+483cc88041feed8df4224860fdca1f76753eebf8,2023-07-06 15:48:51,Anton Medvedev,Release 7.2.3,False
+52d8cf7efe064a5e3a93c88d7659778639b5d95e,2023-07-06 15:48:17,Anton Medvedev,Update README.md,False
+4ed62bd78025f8c7bb20da61d67a113147e58596,2023-07-06 15:46:56,Anton Medvedev,"Update package.json description
+
+Remove the dot to make it look nicer.",False
+aef8209b06b19a6ccf54ad175b59802920d5aee4,2023-06-12 21:12:20,Will Clardy,"Enhance cd to accept ProcessOutput (#642)
+
+* Enhance cd to accept ProcessOutput
+
+Satisfies #641
+
+* Wrap cd test in within to avoid interference",False
+d9f8a75df0fa05f3cddb3237bd7b8cc0e47c5c07,2023-05-20 00:40:10,Michał Drobniak,"docs: fix example for within function (#625)
+
+- because `nvm use 16` must be part of prefix to allow using Node.js 16 inside the context",False
+d1cd1aa02e3fab7ca4f048d9571b77b6ce25d559,2023-05-01 20:59:53,Anton Medvedev,Release 7.2.2,False
+f8a572b7fd68d08fe7e4ef99ce06db0903edfabb,2023-05-01 20:59:02,Anton Medvedev,Add fx,False
+6f4abf1ec06b871ad333fd8202e0242d4544f882,2023-05-01 20:37:48,Anton Medvedev,Update deps (#615),False
+b3fb79f49117c77000cc4872d6018500534315d5,2023-03-30 01:26:19,Anton Medvedev,Create index.html,False
+fb57ddf0a1870af14033acc948bc07b359382a00,2023-03-28 18:58:07,youngje (heka),add . to nameRegex (#604),False
+74409aff50147a165fa005fc73cb75d87c2a8c0e,2023-03-17 14:14:55,Anton Medvedev,Release 7.2.1,False
+5e4caf842bf34ecdb8eb41ba1ff25679382850d0,2023-03-17 14:07:06,Anton Medvedev,Update package.json,False
+0791947a72ddf75eb144b610dc77263aa646e738,2023-03-16 19:03:43,Anton Medvedev,Create .github/FUNDING.yml,False
+4999435182fe1f34f6b2ef2471184d9878456b5e,2023-02-27 23:08:29,咲奈Sakina,fix: `zx/globals` type (#591),False
+5bbb6353b1c9e4dce48df7d07c62edf8dfb206b2,2023-02-27 18:57:53,Anton Medvedev,Release v7.2.0,False
+2fa391f25c21837ccf5b0af82a66a21d5b5926aa,2023-02-27 18:55:47,Anton Medvedev,Refactor support for ~~~ in markdown scripts,False
+d6d19be1e3f77783df84c899da85d42829ef8748,2023-02-27 18:42:36,Taehyun Hwang,"Support ~~~ syntax in md
+
+Co-authored-by: Jakob Voss <voss@gbv.de>",False
+101b810df1874cef6adbdea7d1e91bc206ff7818,2023-02-27 17:50:57,Anton Medvedev,Update README.md,False
+dd36707918c382e1048eef4237e12e2da5405e06,2023-02-27 17:44:45,Anton Medvedev,Add ssh command for executing scripts on remote hosts,False
+16f3939027eb683bb7fd5b763cd695ab863d4276,2023-02-27 17:35:03,Anton Medvedev,Fix test,False
+b1c1fff52dc86f9972d5f274b7cdc7e4325d0fcc,2023-02-27 16:57:32,Anton Medvedev,Update dependencies,False
+7b97d2e175b4da09f0635c194fa8fa11de7b0246,2023-02-27 16:51:53,Anton Medvedev,Move spinner() and retry() to goods from experimental,False
+79222d7ee227534509e6158e5dd58cb3d1f1e1fa,2022-10-08 01:54:53,Anton Medvedev,Update package.json,False
+ca3bb18aed0fc95e1f880414a84f48b4a93d0026,2022-10-08 01:52:13,Anton Medvedev,Always try bash first,False
+4883e843ac01ac1c8fc9f937b1c4665781477678,2022-10-08 01:52:13,Anton Medvedev,Always try bash first,False
+691e6cb01cae7c046bad2fdf5535c2a9ba6e87f3,2022-10-06 01:08:03,Anton Medvedev,"Merge pull request #522 from google/dev
+
+v7.1.0",True
+d6ee52408f9553772fe189441044dcd7e4bec94b,2022-10-05 02:53:37,Anton Medvedev,Fix tests,False
+163ea66e2668c2fe7f3383940b35b2c9228ea07b,2022-10-05 02:50:54,Anton Medvedev,Remove quoteWindow function,False
+0c6c4e575ae325fd9459c3222429c9d7285cdb79,2022-10-05 02:49:03,Anton Medvedev,Switch to powershell.exe,False
+cfa0fba14a887a6e1f7a1425aa002cf8b94d9c94,2022-10-05 02:07:18,Anton Medvedev,Update end of line to lf,False
+3bc2ce383f9c60dd316932d2bcb8d37b4f7f6996,2022-09-25 16:25:49,Anton Medvedev,Rename dev-publish.yml,False
+08624015df1f1e7162c4fd229dab7fbe89bd9241,2022-09-25 16:23:47,Anton Medvedev,Update deps,False
+38c449704d485f61a023ac8d6f257fbcb427e7d2,2022-09-25 16:16:29,Anton Medvedev,Merge branch 'main' into dev,True
+b6a2f0109406682429eacd195b67afd67788f05a,2022-09-25 16:14:39,Anton Medvedev,Fix test for new --repl flag,False
+d7360b91c910e009666254b3e65f029a222afd85,2022-09-25 16:07:03,Anton Medvedev,Simplify parseDeps bit more,False
+bae6146dfff95466cf475d7b1d5e1f524d7eda57,2022-09-25 16:04:13,Anton Medvedev,Show better install prompt,False
+e727febad37463e5926a3ac414a39ec668a807be,2022-09-25 15:57:51,Anton Medvedev,Simplify parseDeps logic,False
+1b16bfc475893053eaf1d132558d4b1ffffac3bd,2022-09-25 15:45:10,Anton Medvedev,Change flag -i to be --install and --interactive to --repl,False
+c768e533723462b5dbc7f4f6d157fbac3f8e5da2,2022-09-25 15:36:43,Anton Medvedev,Update README.md,False
+6f7b33181965e7ef05ec7b983b39bb9af7e00194,2022-09-25 15:24:10,Anton Medvedev,Improve deps parsing,False
+0a2cf6cbb5e75f6734fb93e2c65ff82fb749d471,2022-09-19 01:24:42,Anton Golub,"docs: add custom logger example (#515)
+
+closes #509",False
+b6846191b5331cebaf716151552219e4971ee77d,2022-09-19 01:23:42,Anton Golub,"fix: handle more require/import api use cases on parsing (#514)
+
+* style: use const for immutable vars, rm redundant awaits
+
+* fix: handle more require/import api use cases
+
+* fix: minor impr",False
+96d40f9801c25801735c7dd12784b6c0cf979f25,2022-09-17 18:29:47,Anton Medvedev,Update argv parsing logic,False
+65d76daa404701f9d6537612c11600d7f7dff9ef,2022-09-16 02:22:50,Anton Medvedev,Update tsd,False
+2dbf8e8e7612e702557d401dbb8bef8e30d4c5c5,2022-09-15 12:09:00,Anton Medvedev,fmt,False
+3905ecf4c3c9288761ba830c8e5f4f18474f86a0,2022-09-15 02:53:03,Anton Golub,docs: mention dev builds channel (#501),False
+9d1af93b5b0ba5705eb4477e47922cc27c0dcbab,2022-09-15 02:52:20,Anton Medvedev,Bump version,False
+5f155162a740b382af9f32e8170a0126ff3be8f4,2022-09-15 02:51:58,Anton Medvedev,Update deps,False
+905ec9f3e3137e4cedc85486b849f8229128a3d9,2022-08-28 17:41:15,Anton Golub,ci: configure dev snapshots publish (#500),False
+b08df4d3871a290edbbc913fc7ce7181b90090cd,2022-08-28 17:35:26,Anton Medvedev,"Add halt() (#487)
+
+* Add halt()
+
+* Add mode tsd tests",False
+088bbecf2d48b9420f2f6b34ca7ec730db6519ba,2022-08-28 15:41:08,Anton Golub,feat: provide API to load modules from npm registry (#498),False
+53fd6dbf521ad0a41c1e7b1ae20f06bfa48a3697,2022-08-02 02:05:14,Anton Medvedev,Release 7.0.8,False
+b6e9ca9f710309e214e27dbbfacd7dffceaeaec1,2022-07-31 19:31:02,Anton Medvedev,Clear spinner title after spinner finish,False
+c0239e8153de4ac07e2842cd87cf1cb377633f58,2022-07-31 19:24:03,Anton Medvedev,Pin node-fetch to 3.2.8,False
+f982774404954f0b84b9570505d02e0212dc2e30,2022-07-31 19:01:32,Anton Medvedev,Update deps,False
+f8204e9a0fbd63c6c0e0ab246e410bd2f997f9d7,2022-07-31 18:47:30,Anton Golub,"fix: let $.spawn be configurable (#486)
+
+* fix: let $.spawn be configurable
+
+* fix: up deps to fix typings issues
+
+* chore: add npm lockfile
+
+* chore: add package-lock.json
+
+* test: tweak up ignorefiles",False
+5930a7d9c33bc7c0b49edc0d095b6b0f1c1b59de,2022-07-06 01:47:33,Anton Golub,fix: avoid redundant `$.verbose` definition on CLI init (#475),False
+c73ccb468cfd2340fb296e17a543eb2399b449ec,2022-07-03 02:43:35,Anton Medvedev,Release 7.0.7,False
+f659526610dc0155b264b81888594fa6bb90ee11,2022-07-03 02:43:05,Anton Golub,"fix: omit fn prototype methods in $ proxy (#472)
+
+* fix: omit fn prototype methods in $ proxy
+
+* chore: simplify",False
+68c7a0efc6df2b40a1ad3296b6cdf40bff75b9a8,2022-07-02 01:26:47,Anton Medvedev,Release 7.0.6,False
+2ec0f0321fd43ceedd0287b96d07b674b2c34a6b,2022-07-02 01:24:30,Anton Medvedev,Fix circular dependencies,False
+ce44ec9de833ad59721e76a3a4f1acfeb9ee8b32,2022-07-02 01:18:44,Anton Medvedev,Fix code style,False
+1beb649160de2ce501d4c771a439f1094df3d5eb,2022-07-02 01:18:00,Anton Medvedev,Fix which import,False
+ad7a2cb3d7a17987760fa8a7570c87cbff0275cc,2022-07-02 01:09:39,Anton Medvedev,Fix exporting of log,False
+82ed47e54f75905ca88b74340e087f67902d5e3e,2022-07-02 01:05:36,Anton Medvedev,Add circular dependencies check,False
+700bd4cae2ce564aa477b2501b1916c2a9041a85,2022-07-01 23:57:04,Anton Medvedev,Add core types tests,False
+3aeb33e1a681535dc6527c50e9933ff4d25a7249,2022-07-01 23:56:52,Anton Medvedev,"Fix globals for ProcessPromise and ProcessOutput
+
+Export both: types and classes.",False
+f14d8b242dba493ac81a48681a4b029c654f4ab8,2022-07-01 23:56:13,Anton Medvedev,Add error event handler,False
+ef50a5c2830aead37c5522a5992a53e3e36a099d,2022-07-01 01:06:48,Anton Medvedev,Better error massage for ts-project test,False
+8e81938a0da46eceaf60ad792a0be018e64827b9,2022-07-01 00:09:48,Anton Medvedev,Release 7.0.5,False
+3b48da633c4b7972aa4757b37d8529f8d8d53685,2022-07-01 00:07:47,Keven Leone,Add typeVersions for type definitions fixes #462 (#466),False
+e6bed573d20666fe3d90e12035cfbd2c381389b3,2022-06-30 02:26:05,Anton Medvedev,Releae 7.0.4,False
+363395da6f861173d1ad57256e533705d6f3ae56,2022-06-30 02:24:50,Anton Medvedev,Add ProcessOutput & ProcessPromise as types in globals.ts,False
+5c25a825f8bb35bce3025a0764eb33aff7394a76,2022-06-30 02:21:29,Anton Medvedev,Add check for import without globals,False
+8d67731f34fc0960cbfa8a55c344e96ce4682481,2022-06-29 19:47:38,Jake Champion,"Add missing chalk import (#460)
+
+without this, line 60 would throw an error due to chalk being undefined",False
+ad52d0131f067a60cf4f50ab765fdf606377a813,2022-06-28 03:44:56,Anton Medvedev,Fix types workflow,False
+3e2cf03becefb185095adf32fe3dc72b2f0db38f,2022-06-28 03:43:28,Anton Medvedev,Rename to win32,False
+d924f89410f0be41d7dec68354f68b459c2b6b8f,2022-06-28 03:43:10,Anton Medvedev,ADd types workflow,False
+a0c9ed76119e7c99005233b261a78d29cfc99d36,2022-06-28 03:36:53,Anton Medvedev,Release 7.0.3,False
+17bf4ed3ee6fbbe84782fd166ca7dbdd7166b013,2022-06-28 03:34:27,Anton Medvedev,Fix win32 workflow,False
+663ee004525ad10070d166014367e2426f830478,2022-06-28 03:33:50,Anton Medvedev,Fix echo signature and add tsd test,False
+35ea780df0e65443b1444a8b3ae699f1b2abf4a9,2022-06-28 03:22:54,Anton Medvedev,Only test win32 on windows-latest,False
+7c4fba6354cd8384e79321b446a83eeaa4fa24ba,2022-06-28 03:18:29,Anton Medvedev,Fix win32 workflow,False
+c481ec8dd1e6642e099f7b1dc0a2b113049217c2,2022-06-28 03:12:14,Anton Medvedev,Code style,False
+1ced6e370c01dbe82614668041ff54165d9245d5,2022-06-28 01:57:53,Zisu Zhang,"fix: patch default shell on win32 (#458)
+
+* fix: patch default shell on win32
+
+* feat: add tests for win32
+
+* fix: test-win32 workflow name
+
+* chore: merge test-win32 into test workflow
+
+* chore: format code
+
+* fix: ignore win32 test in main test
+
+* chore: fix fmt",False
+42b7ab0e392681cd3860b51c0c7d0cc8f81319d1,2022-06-23 01:01:57,Anton Medvedev,Release 7.0.2,False
+0584dcb23981172b2e7b4b25b2ee1bba4bbbea60,2022-06-23 01:01:14,Anton Medvedev,Fix exit code override,False
+cc9be7f09486d2dde8c8796ef6c03865b0224a7b,2022-06-21 04:53:01,Anton Medvedev,Release 7.0.1,False
+1224dd4dbe3014fa7a6c77ff0250cf7b21f53f5b,2022-06-21 04:47:01,Anton Medvedev,Make sure REPL starts with verbosity off,False
+15935981447aee60d2c1f555f8c22c44e604a39b,2022-06-21 04:42:17,Anton Medvedev,Rename context to defaults,False
+505538449de8137f47646a735aeed2afed4360dc,2022-06-21 04:38:21,Anton Medvedev,Simplify context initialization,False
+a1a5ca779e7140858790bdf0efe2d2a0a624945d,2022-06-21 04:33:18,Anton Medvedev,Fix argv initialization,False
+a125bb2e739f417eaeae32a0893453abde22aa3c,2022-06-21 03:53:50,Anton Medvedev,Make sleep() test more robust,False
+854e4eca9e42f056fa9d1de9f5e7abd1e7461cbd,2022-06-20 22:59:54,Kevin Goslar,"Fix typos, polish grammar, remove trailing spaces (#451)
+
+* Fix typos
+
+* Address comments",False
+527e5fedd113af61844008276505d9f9a06f14e0,2022-06-19 02:40:46,Anton Golub,"fix(types): define ProcessPromise, ProcessOutput and log globals",False
+85e09f12893931b21c05e96c5bd0add5b2241d3c,2022-06-19 02:40:46,Anton Golub,"fix: root ctx should be singleton, rm redundant syncCwd after within",False
+295be2a85b1ee1455df468ab177560e308c8c1ae,2022-06-14 21:47:35,Anton Medvedev,Update package.json,False
+daa495a09679363238bd3bb9f9f651919354e65b,2022-06-14 21:38:28,Anton Medvedev,Update docs,False
+affbcec936953560112d1e6a00b29a839f45ccfa,2022-06-14 21:36:28,Anton Medvedev,Update docs,False
+62106bd053b534659b65cbe58cd5d71dd97a71bc,2022-06-14 21:35:42,Anton Medvedev,Update docs,False
+b47a4a0c3b85997f809253aacfcb0b2005c0653f,2022-06-14 21:34:38,Anton Medvedev,Update docs,False
+640e5ead74c9ac7bd52eb4d1b72466191efd1ed3,2022-06-14 21:34:15,Anton Medvedev,Update docs,False
+3afe5adb70becc85e402c01b0a28c6eb8fdd61e7,2022-06-14 21:27:08,Anton Medvedev,Update docs,False
+2ab20b5789f6568ef5b007f811758941b648a9fd,2022-06-14 21:24:31,Anton Medvedev,Update docs,False
+6f250aab923f1099afa040f5b14551f3657bc130,2022-06-14 21:22:57,Anton Medvedev,Update docs,False
+fd22b531f7bb5d0fc9a05a94acf07f12145c2ceb,2022-06-14 21:21:10,Anton Medvedev,Update README.md,False
+ccd84f70c1ae0c7c6224d5120dafa1e14860cbf7,2022-06-14 21:20:31,Anton Medvedev,Update README.md,False
+35002c6cdd5e910754e8db43d640fdd76059d021,2022-06-14 21:19:54,Anton Medvedev,Update README.md,False
+175f35dd7006982f269deb7df93a3450e42930d6,2022-06-14 21:16:06,Anton Medvedev,Update README.md,False
+fbca9ea9e5d61b20a0d06d99f99c146ff39a3339,2022-06-14 21:15:09,Anton Medvedev,Add fmt:check,False
+574244d266b8c963a1e146ec4f4acbd31aefca89,2022-06-14 21:14:59,Anton Medvedev,Update deps,False
+8d3955ed4ccd48ac18de908dc0e654e082941b8a,2022-06-14 21:08:11,Anton Medvedev,Update docs,False
+db0e65163d31e37cc6d71ae2e20e2ada4186efa6,2022-06-14 21:08:11,Anton Medvedev,Update docs,False
+d68c7fd8a45c7042efc09fa2429386afe223f8ff,2022-06-14 21:08:11,Anton Medvedev,Fix spinner on throws,False
+ae8264702b8f75c57ee950079fb692cd9fe56a37,2022-06-14 21:08:11,Anton Medvedev,Small fixes,False
+82cd4143bd657f6275279c79cab234d1a0f60fea,2022-06-14 21:08:11,Anton Medvedev,Add expBackoff(),False
+b684d0c6b7a5782865d5dd1bbae1d2a03d491528,2022-06-14 21:08:11,Anton Medvedev,Add retry log entry,False
+e93ab368354be11c5afa98b226e690481e9e8f41,2022-06-14 21:08:11,Anton Medvedev,Move stdin to goods,False
+8a3e8dbf7ef5b853ff15ac5eb4ad052a202e505d,2022-06-14 21:08:11,Anton Medvedev,Add duration parsing to sleep(),False
+db5ebbaf7da525c56972e051c65b5441e8093a64,2022-06-14 21:08:11,Anton Medvedev,Split index.test.js to core and goods,False
+991bf34db89276b793fde194c4bd7758dbb67a07,2022-06-14 21:08:11,Anton Medvedev,Remove redundant then(),False
+4f1b0af7feb34ea8f9a952b438b0f5d2a2505c93,2022-06-14 21:08:11,Anton Golub,feat: add NaN assert to duration parser (#434),False
+fdc626b29941fe359b0b2df1da6e15407ccd9653,2022-06-14 21:08:11,Anton Golub,test: protect env.PATH from npm/node/yarn side-effects (#433),False
+9bcedadfb0ace6f6f5d4f737f9c3ec48fc6709d8,2022-06-14 21:08:11,Anton Medvedev,Add missing then() method,False
+932c6689e53f07f20d98f66d1bf58937c92c9b97,2022-06-14 21:08:11,Anton Medvedev,Add unresolved promise tests,False
+32ce041cfad0eba860057f6dd80d4d820ab73a2b,2022-06-14 21:08:11,Anton Medvedev,chore: fmt & ignore,False
+47e0ff22e44dff5173d63ce2d83bdb87a831d0ab,2022-06-14 21:08:11,Anton Medvedev,Add mutation cmd,False
+cfe3a98e69674f4070e21b0fca729f581ad19f5a,2022-06-14 21:08:11,Anton Medvedev,Add mutation testing,False
+49b438a943a187f311afb7dc3db08a10de87d7d3,2022-06-14 21:08:11,Anton Medvedev,Remove sync stdin var,False
+0895f47c520880cf9a55ef45b25683d045e608d0,2022-06-14 21:08:11,Anton Medvedev,Add more tests,False
+7eff5cfa693745d8c765433a57cb09baa04d5571,2022-06-14 21:08:11,Anton Medvedev,Add malformed command warning,False
+236d4aef24d8eea2ad76c1e8ce5683414b5227e3,2022-06-14 21:08:11,Anton Medvedev,Add simple bash highlighting,False
+def810c9ea5e344cd5a65dde6342b206048381bc,2022-06-14 21:08:11,Anton Medvedev,Code style,False
+29673774d965eef733dcc91c2ddb893907d1fe35,2022-06-14 21:08:11,Anton Medvedev,Update examples,False
+4e786e4aa6783a5ad11790808cd515f7bbd54e8e,2022-06-14 21:08:11,Anton Medvedev,Update parallel.mjs,False
+f2558f6063cfe5b16cafdc5478d2596ea0fb7fe4,2022-06-14 21:08:11,Anton Medvedev,Code style,False
+6d614b738c5dca937bf23655dac4b3c7813768d7,2022-06-14 21:08:11,Anton Medvedev,New spinner() api,False
+d0393ba4094c765cadeabda90ff93de955a36758,2022-06-14 21:08:11,Anton Medvedev,Do not print by default,False
+137c3fa6804d00cf491cf2328b0a52e181b4b091,2022-06-14 21:08:11,Anton Medvedev,Add cd() fail test,False
+958611c4a0a8748b3daf999b87988c005c3440c7,2022-06-14 21:08:11,Anton Medvedev,Split process.cwd() and $.cwd,False
+b4d1fb8e55f2463df2f08dc8d93e2907a0c32b5c,2022-06-14 21:08:11,Anton Medvedev,New retry() api,False
+c3f2d39e7e275753b730cd3a2f2a3cd4c5fbda18,2022-06-14 21:08:11,Anton Medvedev,Use global var ZX_VERBOSE instead of env,False
+ae0f0cf1e94490d64fb15832035b71613ac26dd6,2022-06-14 21:08:11,Anton Medvedev,Fix tests,False
+de2ef1c5e0ba9c8145b75a4511b57f9b18f8b817,2022-06-14 21:08:11,Anton Medvedev,Add --check-coverage flag,False
+c935eeb1574efcdb301b16cd33386608161ddb99,2022-06-14 21:08:11,Anton Medvedev,Disable question tests,False
+f00b508ca478b3f650a6f51383f3a70c88e1de2f,2022-06-14 21:08:11,Anton Medvedev,More tests for timeout(),False
+bd113243370f1d62be73800cdbdd077805144901,2022-06-14 21:08:11,Anton Medvedev,Move startSpinner to experimental.ts,False
+681a09b43205dad8cc84c222cfb3aa77df8eefdf,2022-06-14 21:08:11,Anton Medvedev,Add timeout(),False
+fae6ef8f566e62127c26322b39dce2694cacb28d,2022-06-14 21:08:11,Anton Golub,"test: add util tests (#431)
+
+* feat: expose zx/util
+
+* revert: export",False
+5858e3df35331b373381bc8c7085f88bcf246195,2022-06-14 21:08:11,Anton Medvedev,Allow custom log entries,False
+5a3e89055ba086e6b1272189c1d16564cb8d036d,2022-06-14 21:08:11,Anton Medvedev,Add snapshots and simplify logger,False
+3688634ae3c3d84d22c4007e4d233388a6e887f4,2022-06-14 21:08:11,Anton Medvedev,Improve package.test.js,False
+199416fb9bc7c5c32c90ba4400c7751a5a87302c,2022-06-14 21:08:11,Anton Medvedev,Add more sync cd async hooks,False
+1a9ced6bb38a97f2eb6840f9a13c03f2fbc8c063,2022-06-14 21:08:11,Anton Medvedev,Call process.chdir() on cd(),False
+345c23af0a0e13b134c10365a1d86318426bce94,2022-06-14 21:08:11,Anton Medvedev,Add license header test,False
+43695c861ba8dfb0a04fded3fc66a5dcb714f910,2022-06-14 21:08:11,Anton Medvedev,Move to log.ts,False
+081b9f0626b6faef0cfbff8e8a7048d04c4eb2a8,2022-06-14 21:08:11,Anton Medvedev,Fix --eval for line with semicolons,False
+780c7e24d089dae7dded43720e6e92824b2b9b6a,2022-06-14 21:08:11,Anton Medvedev,Fix log for cd & fetch,False
+f93680c12af5d2baa66a551712f22a36d4e11646,2022-06-14 21:08:11,Anton Medvedev,Add prettier check workflow,False
+499d1e433fd8a0dd03e78fdc3ec5850b0b425877,2022-06-14 21:08:11,Anton Medvedev,Add $.log,False
+07e5aa1608f8f6e0f4fc43962f6ee53ef3bed611,2022-06-14 21:08:11,Anton Golub,test: add suite labels (#430),False
+26ead2d6e1b90ef85a29d032095fe8917434e88b,2022-06-14 21:08:11,Anton Medvedev,Rename pack to test,False
+04f35f66c7c5483be3a093bba570b6019dbc11b6,2022-06-14 21:08:11,Anton Medvedev,Fix package.test.js,False
+da20429b14ef9eaf2d58f6b4ed5af969e1efb902,2022-06-14 21:08:11,Anton Medvedev,Code style,False
+943dd3de91f8383964064cbf69c5781c1a6004fb,2022-06-14 21:08:11,Anton Medvedev,Improve package test,False
+2064eb99d44e628daa27b5ca9e85f13c7e87c890,2022-06-14 21:08:11,Anton Medvedev,Add package.test.js,False
+4944122566a2713ea4e69086da1f74c6820d818d,2022-06-14 21:08:11,Anton Medvedev,Improve coverage,False
+22d330d752192fdbe6e313a99776703856070ab5,2022-06-14 21:08:11,Anton Medvedev,Add stdio() method,False
+7c19c6b1f5c84865784ce68cb647f3d71537128b,2022-06-14 21:08:11,Anton Medvedev,Move echo to goods,False
+b659bfbe7fa6b10d28b17fc1b44a3eaf57f4f806,2022-06-14 21:08:11,Anton Medvedev,Add --eval option,False
+077d4c4318901de0097b3f354400cfcd7b89bd68,2022-06-14 21:08:11,Anton Medvedev,Add coverage check workflow,False
+24ca0047418a6f447154cb1b734d94d984ad889e,2022-06-14 21:08:11,Anton Medvedev,Use stderr as default for debug logs,False
+129017a5b2bf84e00b3283ac7a66ec0e8e66a6ca,2022-06-14 21:08:11,Anton Medvedev,Fix within() signature,False
+be21ecc72fc6d4445d0f6e44157c244aa000e279,2022-06-14 21:08:11,Anton Medvedev,Deprecate nothrow() and quiet(),False
+f3a729e1423a0291a209afe515c3d39cecba1f48,2022-06-14 21:08:11,Anton Golub,refactor: straighten init store (#420),False
+e8ac8fc1531a030a158203069636cbd4f794354d,2022-06-14 21:08:11,Anton Medvedev,Add repl,False
+ab7a345703473e48c5e95390cd6b8f851c1235fe,2022-06-14 21:08:11,Anton Golub,test: check that `p.inherit` does not change the origin promise (#418),False
+2ec108eeb68bed6c669a9ba5507f51562988820f,2022-06-14 21:08:11,Anton Golub,feat: return `within` result (#415),False
+2e11b4e6ab8c4351145d112f72fadc347b14c501,2022-06-14 21:08:11,Anton Medvedev,Move startSpinner to goods,False
+4df15d169063017b303291faebc19a1e527f5b71,2022-06-14 21:08:11,Anton Medvedev,Update parallel.mjs example,False
+a11f17b259dcf2de4b2e563061686442ae5927ae,2022-06-14 21:08:11,Anton Medvedev,Update parallel.mjs example,False
+271f79fc6750b1b4d6ecbe702e5121c3902dea6e,2022-06-14 21:08:11,Anton Medvedev,Add parallel.mjs example,False
+b504bf0c0b123b2cd07812930c88855da33e3c64,2022-06-14 21:08:11,Anton Medvedev,Update interactive.mjs example,False
+368147e361e4365e0fb5e139c2a07273e0e2d93b,2022-06-14 21:08:11,Anton Medvedev,Code style,False
+4a6ad03e0cf1bbe4dd7c745c27696c533487d380,2022-06-14 21:08:11,Anton Medvedev,Code style,False
+84cd6add38f6fb251e78ae01abef8238940572e3,2022-06-14 21:08:11,Anton Medvedev,Add new inherit() method,False
+c49f21ad25c72be75cd7e5951623f46029c1a9b2,2022-06-14 21:08:11,Anton Medvedev,Make subprocess stdin piped instead of inherit by default,False
+b98f092876888de77adfa23c5811f2e23fc20168,2022-05-31 11:40:53,Anton Medvedev,Remove redundant run in context,False
+d29912b53d68ad0f9535b624f3a8eb40a11df7f8,2022-05-31 05:37:49,Anton Medvedev,Update README.md,False
+f264c8ee6f7382ac20fdda41bbc7d13c098a726e,2022-05-31 05:36:44,Anton Medvedev,Update README.md,False
+8eb0493534ca50de858bc3d6db690895f8edf03e,2022-05-31 05:34:39,Anton Medvedev,Refactor context,False
+2e45a013f3ae10c3896bf350eed971bf60b82658,2022-05-31 02:44:24,Anton Medvedev,Improve tests a little,False
+0d3b240adbd0c7816cce939b184ed830694b78d2,2022-05-31 02:44:24,Anton Golub,test: impr syntax,False
+23453bd7d89163c906790687ab068bbd938d86d1,2022-05-31 02:44:24,Anton Golub,test: replace ava with uvu,False
+90005eaf07f507ceff57bbb4ae365951e224f94f,2022-05-30 04:47:32,Anton Medvedev,Consistent tests naming,False
+3e6d651e993d02a782869178d52212d94f7b6c54,2022-05-30 04:41:10,Anton Medvedev,Update deps,False
+c296c6ad35fa3d50d136251613ad293c3401570e,2022-05-30 04:41:02,Anton Medvedev,Update deps,False
+5e0165d646045ac6ae51a8c712d7ff6acfb47826,2022-05-30 04:15:22,Anton Medvedev,Simplify globals.ts,False
+20960b74e82abe3cf7af78d93a8181b2194669d0,2022-05-30 03:20:42,Anton Medvedev,Migrate to ava,False
+c3fbe9a4adef8cb19ae9a528e6355b26bb47c1f9,2022-05-30 01:27:32,Anton Medvedev,Move zx.mjs to cli.ts,False
+8c2aea89fe7c65767d29c52bfb48f6a46af01864,2022-05-29 21:08:15,Anton Medvedev,Migrate to TypeScript,False
+90128947e88710de2726f915b412b91f797479ba,2022-05-29 21:08:08,Anton Medvedev,Remove redundant var,False
+9e3e1daaa91accadbf3f13a621f1cb3d160db2d8,2022-05-29 01:51:02,Jake Bailey,"Make `which` a default import in index.d.ts (#412)
+
+index.mjs does `import which from ""which""`, not `import * as which from ""which""`; this causes problems when you are in TypeScrip's module mode because it automatically disables the interop setting which makes calling a `*` imported module as a function legal.",False
+4a051376c3358eb3632971772ad573b84284e72e,2022-05-28 15:07:41,Anton Medvedev,Refactor prettier integration,False
+a7417430013445592bcd1b512e1f3080a87fdade,2022-05-27 02:02:33,Anton Golub,refactor: introduce internal bound context (#397),False
+6ba2345554bff68247b916306359b2890034fdc0,2022-04-28 01:34:35,Anton Golub,"docs: update backup-github example (#403)
+
+* docs: update backup-github example
+
+* docs: replace reduce → for of",False
+672629232dae41c9ad7649bf7634eacf68a73ad3,2022-04-26 00:20:58,Anton Golub,"feat: add zx.mjs to pkg exports (#402)
+
+* feat: add zx.mjs to pkg exports
+
+* docs: add basic customization guides",False
+88ab61ea48e01249a284ca5eaec65e93d90c12a3,2022-04-25 12:25:45,Anton Golub,"fix: assemble ts libdefs into single file (#400)
+
+closes #386",False
+b8542fe9df20401808a3854c34e2a864ff3bf20f,2022-04-21 23:22:07,Anton Golub,"feat: bring nodejs v18 support, up deps (#393)",False
+4de0a0efc98dd59dee54f8c209775531209e7282,2022-04-20 03:40:09,Anton Medvedev,Update README.md,False
+cec4811ce7221d8346f45ed7946a3e05473fa936,2022-04-16 02:18:44,Anton Medvedev,Beautify README.md,False
+73bf72f893eef1c56b734e3d9857a99abc505209,2022-04-16 02:12:32,Anton Medvedev,Beautify README.md,False
+eceff7944a54ea94a9b8b18556a41a20af1836a0,2022-04-15 17:28:47,Anton Medvedev,Release 6.1.0,False
+a220c5e4d183d6813e8c387f0b03eb47f2ca4f54,2022-04-15 17:28:28,Anton Medvedev,Code style,False
+7a979d5ff69c035487ea6d52b04a5ea181fa8844,2022-04-15 17:11:39,Anton Medvedev,Remove action.yaml,False
+1cb0f7080cc30bdbb40aef0ad9ba65d5b95894a2,2022-04-15 17:11:25,Anton Medvedev,"Update  minimist & yaml deps
+
+After reading yaml release notes, I believe zx does not need major version change.",False
+e5d56e2da1ce005e72e3a880810d79ae2c71ef2c,2022-04-15 17:03:32,Anton Golub,test: tweak up test-utils (#360),False
+ab7db8f7de95f4a41bcae20dfbd9a4ad60e698f0,2022-04-07 12:38:06,Peng Miao (mios),fix(example): change serve port from 5000 to 3000 (#373),False
+9589f194e65799be2e3c296c94134bb6a25e02d0,2022-03-22 01:20:11,Anton Medvedev,Update package.json,False
+93fc3d5adbe924d9b4f4ef82b2a02054a6a8c5ba,2022-03-22 01:19:47,Anton Golub,fix: do not refer to globals inside experimental.mjs (#363),False
+c8682d5550d4c10f9ab59b38898da142ecd021ba,2022-03-19 22:46:37,Anton Medvedev,Update test.yml,False
+a2034601eb807fe591a40c26734dbf5bb0d5897a,2022-03-19 22:43:56,Anton Golub,"test: measure codecov, add missing tests (#359)
+
+* test: measure codecov, add missing tests
+
+* test: relax some asserts
+
+* test: tweak up test utils
+
+* test: fixes
+
+* test: separate tests for experimental api
+
+* test: check withTimeout w/ 0
+
+* test: suppress concurrency
+
+* test: use local server for http test
+
+* test: fix http hang
+
+* test: add test for econnrefused
+
+* test: replace localhost with 127.0.0.1 due to nodejs 17 requirement
+
+* test: check --prefix and --shell flags",False
+d7ed8c7a20ffdce3348fb7622c568531cc1c5353,2022-03-18 21:58:21,Anton Medvedev,Release 6.0.6,False
+39eb40c51ac4777993f8e380534a2fbbca7c0ba4,2022-03-18 21:58:01,Anton Medvedev,Update action.yaml,False
+a664ba4dee6108343db85aa4cdeac17abc8da5f2,2022-03-18 21:57:50,Anton Medvedev,Update action.yaml,False
+f0c4e651303707976aabaca8835e5b00ac29cc3d,2022-03-18 21:52:15,Anton Medvedev,Update package.json,False
+5af6623002c1180a00b6a859d2df9d5941a00f65,2022-03-18 21:51:59,Anton Medvedev,Update action.yaml,False
+09509bcf4859d8762efeb2d642f3931fca786bbf,2022-03-18 21:29:28,Anton Medvedev,Update action.yaml,False
+54231c1c9fd883e8e89103ec68f03a395ae754be,2022-03-18 21:27:24,Anton Medvedev,Release 6.0.4,False
+777f3b951c47f5bb7bcd4d37f0a435f8b8455ab2,2022-03-18 21:27:04,Anton Medvedev,Update action.yaml,False
+f5060361c1cd19832396b2c9a0a993f891f0eef5,2022-03-18 21:22:30,Anton Golub,"refactor: simplify echo helper, add tests for experimental features (#353)
+
+* refactor: simplify echo helper, add tests for experimental features
+
+* style: linting
+
+* revert: replace arr.proto.at with legacy index
+
+* chore: rm useless import",False
+2a382389a5a6f7e97159ce5c16f111afe124056e,2022-03-18 20:21:13,Anton Golub,"docs: mention workaround for bash_profile (#356)
+
+* docs: mention workaround for bash_profile
+
+* docs: append $.prefix via +=
+
+* docs: rm node issue ref",False
+504a844a262371cc8349ed6cf0adeed9d48bb334,2022-03-18 16:03:07,Anton Golub,"feat: introduce experimental `withTimeout` helper (#355)
+
+closes #349",False
+f65b3af181fbdb560701f5cb1f9f6c0a5ee25b4e,2022-03-18 14:16:45,Anton Golub,"feat: export `which` package as global (#347)
+
+* feat: export `which` package as global
+
+* fix: add missed types for `which`",False
+20ea6218c8e71b441985d0d6d5e9d21bb40ab33c,2022-03-17 23:23:56,Anton Medvedev,Release 6.0.3,False
+cf369ce5aa0b6a1f753d519e96429a1241d6e23e,2022-03-17 22:41:59,Anton Golub,fix: bind cwd to spawn call (#352),False
+37943062cdcf98a0b90918d73ef3e3459f525cfe,2022-03-17 13:07:33,Anton Golub,"feat: load experimental assets as globals via `--experimental` flag (#346)
+
+* feat: load experimental assets as globals via `--experimental` flag
+
+* docs: fix typo
+
+* revert: rollback default shell resolver
+
+* docs: mention  flag in cli helper
+
+* chore: add yarn.lock to .gitignore",False
+ccf73d45a3b2f3a59d72f2a4179fcb78d9a090ea,2022-03-16 04:21:52,Anton Medvedev,Update package.json,False
+f18227e4870804096de58bfc7abc24a30ebc4037,2022-03-16 04:18:58,Anton Golub,"fix: include `src` to pkg files (#345)
+
+fixes #343",False
+c205dc28cfd84b24bbbd8f3976319bdf3a3dbe40,2022-03-16 02:56:52,Anton Medvedev,Release 6.0.0,False
+80fb2f46f3d03ba47939cad121070d6e77bf598b,2022-03-16 02:55:31,Anton Medvedev,Add GitHub Action,False
+6d9d023916168286e911040e242e201829881c0e,2022-03-16 02:40:17,Anton Medvedev,Move to src,False
+4ff733f3bb3292dac456fc05d21a096af45f00fd,2022-03-15 23:57:48,Anton Medvedev,Update .gitignore,False
+023ac68e83ea38d8f72c5c90d01ba81e257fff9c,2022-03-15 01:49:58,Anton Medvedev,Release 5.3.0,False
+0bba46b13da8eef07fda6b8581682b62b757d0cc,2022-03-15 01:27:50,Anton Golub,"ci: update gh actions, update node.js to v16 (#339)",False
+be5bae08b3c0ae5df17775def798f04d02dabff9,2022-03-14 17:51:01,Anton Golub,feat: print zx version in std semver format (#338),False
+15d500d3ad4e08186f4b26a0ac16e36317ecbc19,2022-03-14 01:39:54,Anton Golub,"feat: configurable `maxBuffer` spawn option (#337)
+
+* feat: add default spawn properties override: `timeout`, `killSignal` and `maxBuffer`
+
+* refactor: store spawn opts as `$` own values
+
+* revert: rm spawn timeout option",False
+450917a5d8763b54b19557135057791f554bf5ec,2022-03-13 16:17:29,Anton Golub,"feat: add optional delay for `retry` (#335)
+
+* feat: add optional delay for `retry`
+
+* chore: simplify retry type decl",False
+0b3659f8b2e441290653c132324ba153941522d4,2022-03-13 15:41:09,Anton Golub,chore(deps): update node-fetch to v3.2.3 (#336),False
+73aee914ca88d0f261ec34aeef245121af9357ba,2022-03-11 19:22:57,Anton Golub,"feat: provide configurable `spawn` (#333)
+
+* feat: make spawn configurable
+
+* docs: mention $.spawn",False
+08b5ca00859937bf4ea48bd16c133639032d2bf8,2022-03-10 01:08:21,svennergr,Add missing type declaration for (#332),False
+2adfc7eec7fc1582e44b5a697c3834165ff7df43,2022-02-27 20:10:30,Anton Medvedev,Release 5.2.0,False
+9a594fda88ec6cded81817c296cece28ef40d0d1,2022-02-27 20:09:46,Anton Medvedev,Fix typo,False
+54e44ded331a369c5f6c5b1670df92c750a56d6e,2022-02-27 20:04:08,Anton Medvedev,Fix README.md type,False
+0aa9d2303cf23b07a86dc2c4978adc8b7d34b393,2022-02-27 19:55:04,Anton Medvedev,Use process.exitCode instead of process.exit(),False
+07f9e47d28771f2fca03da0c6b2feba3c9feee41,2022-02-27 19:44:54,Anton Medvedev,Clean code: imports,False
+72c8cf057f3ca074546a06dda38e7a017802d4b0,2022-02-27 19:38:51,Anton Medvedev,Add experimental startSpinner() func,False
+53a215e99e0c7f732cee6b09d1bb55eb53e3cc89,2022-02-27 19:04:44,Anton Medvedev,Add signal field to ProcessOutput,False
+bf88f5064b31dea79da4999f25425ca0fe0b8013,2022-02-27 15:13:15,C.J. Winslow,"Quiet commands on a per invocation basis (#313)
+
+This adds another wrapper to disable verbose output on a specific command",False
+e8b460bc744b46a69eeac995c18d232abf1d5edc,2022-02-26 15:13:45,Anton Medvedev,Improve tests,False
+271f41f2ea7b909d5ac64c2797beb1c04b9e7226,2022-02-26 14:40:50,Anton Medvedev,Remove error echoing from test,False
+a80e9e6db1a945da829efce99602d29ade53c3c8,2022-02-26 14:38:41,Anton Medvedev,Use npm i as there is no more lock file,False
+580a2fdb7f5885c20b388b88f10789ecb00d61a8,2022-02-26 14:35:44,Anton Medvedev,Update deps,False
+45fea29f58f0941c2e67163c4c846dc028dac427,2022-02-26 14:33:55,Anton Medvedev,Add comments,False
+6e5bebbd3c826c98bd4d92fb62f777055ec2ae8e,2022-02-20 12:08:29,Kai,"Fix typo
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+51fb6d5d710fcd0bfcc7bc905066ac0fa042467c,2022-02-18 01:38:16,Anton Medvedev,Improve echo,False
+59e9121daa5b5803a3d23a03216e9e525f728c97,2022-02-17 00:57:07,Anton Medvedev,Release 5.1.0,False
+98a9abb8531eb438a0f2d608b2fcb31674617087,2022-02-17 00:55:31,Anton Medvedev,Add retry & echo,False
+3e4df758e5515c85efc14ba28ef24e86f971a31c,2022-02-16 22:40:15,Anton Medvedev,npm update,False
+f8bb1c7aaf0ffe578348f1d1f0442385c8caf453,2022-02-16 22:36:30,Ivraj,"Fix bug where running script without extension removes existing `.mjs` files (#276)
+
+* Adds test to verify no-ext doesn't overwrite similarly named files
+
+* Changes importPath to use tmpFilename for no-ext case
+
+* Changes tmpFilename in importPath to be more readable
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+5db11c61ca0b57427dc723618fc3ba9954250630,2022-02-16 22:29:53,Markos Konstantopoulos,"Remove @types/node-fetch. (#289)
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+792370a45e392f1588591aea6072654e54ff2151,2022-02-16 22:17:00,Anton Medvedev,Increase maxBuffer to 200 MiB,False
+7fafa267a616e5a0a105ccb9dd2a5d5a78a21d5e,2022-02-16 22:16:38,Anton Medvedev,Add known issues doc,False
+7977cb5adb9545082b8edb8bfe647dedfcb98b42,2022-02-09 22:06:46,Anton Medvedev,"Drop node 14.x, 15.x from tests",False
+5578d67ebae2049d430bf6489784f6a2aa47b0b1,2022-02-09 22:01:40,Anton Medvedev,Update deps and remove ts compile,False
+0109e069643e0d6535172e547d94ca60cffdad4e,2022-01-25 00:41:51,henrycunh,"feat: add yaml dependency (#274)
+
+* feat: add yaml dependency
+
+* docs: add yaml package entry to readme
+
+* ref: rename YAML package and add declaration
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+1ad81de6da450cfbb8c8ca3a17857220d81a81b4,2022-01-18 22:35:48,henrycunh,fix(test): add a pre-test script to build (#275),False
+65476119705164e242998d3cefe327ee18c4a65c,2022-01-17 02:25:33,Anton Medvedev,Release 4.3.0,False
+3f7c8ca083ebe372f4f7f67b605720faaf4fbd04,2022-01-17 02:21:28,Anton Medvedev,Fix --version argv parsing,False
+fe083c40dff755c736ff2634d64de0a3245abdd4,2022-01-17 02:13:25,Anton Medvedev,Add kill() tests,False
+5f54045ec3ea4c7d7a7be5a67e01a197de132515,2022-01-17 01:18:58,Anton Medvedev,Make cd() work with relative paths and process.cwd(),False
+76f1f4d29913fa977c7596160a58a71d62cbb585,2021-11-03 15:31:39,Albert Kostusev,Fix typo and bad phrasing in main README (#246),False
+473438de4cd2c195ec8924582de4f28f4e4ffb64,2021-09-28 20:57:54,Andrew Smith,"Update Node version requirement (correctly). (#220)
+
+* Update Node version requirement (correctly).
+
+* Update package.json",False
+c8d9ef8b5317e48be7972af79f491a8c91e0c277,2021-09-08 03:23:37,Anton Medvedev,Update README.md,False
+80101c87f1ed7869b795b9e7d441abdacab38f33,2021-09-08 03:15:09,Anton Medvedev,Return main in package.json,False
+50f236d360d3bdec13500b5cb435a403f8045361,2021-09-08 03:11:17,Anton Medvedev,Release 4.2.0,False
+ad0a482a8252c905907e2e86dad880ffb8b9aa2d,2021-09-08 03:10:40,Anton Medvedev,Update usage info,False
+6cb712fde673b48d0cd700fb72ead23b39dfc151,2021-09-08 02:38:28,Anton Medvedev,Add zx/globals exports,False
+890db1f22bf6a8816555a5954ee452b590852d13,2021-09-08 02:11:31,Anton Medvedev,Update node requirement to 14.13.0,False
+fadc6a31517f22afc332fd33ac47a40f2bda5f78,2021-09-08 02:10:22,Andrew Smith,Update Node version requirement. (#218),False
+3f7e8fe37b3e400c018fc1d8a88968ba4db1d325,2021-09-01 03:14:12,Anton Medvedev,Add missing path global,False
+db233d52b14307a771f881c3186b589ec4ee0dde,2021-09-01 03:04:42,Anton Medvedev,Release 4.1.0,False
+49d4868e247d8f4e6368a178b412b53b7031c971,2021-09-01 03:04:06,Anton Medvedev,Add zx/globals,False
+f0b6c21a43d3ddeeb434763b6c1f3d487761e439,2021-08-28 03:27:13,Anton Medvedev,Make sure all subprocesses started,False
+e31033027bc79768f1661a931a09f71250b665e4,2021-08-28 03:24:41,Anton Medvedev,Inherit stdin on access stdout & stderr,False
+1ec5804657ea5ffe198860de406e773370bb2ac1,2021-08-28 03:22:20,Anton Medvedev,Fix: register path in global,False
+4915ff34ed20d083976f007a36021995cb83a0f3,2021-08-28 03:17:20,Anton Medvedev,Add kill method,False
+ce69a844013cbaba75246177b5b00e58f943c26d,2021-08-28 02:35:05,Anton Medvedev,Add path package,False
+33aaae4bfef196ea124c1b1ebdbad296eba45e1e,2021-08-28 02:29:02,Anton Medvedev,Register globals only in zx binary,False
+303feea3cd0d95e8d733ee72b96b3316ea5827aa,2021-08-28 02:07:02,Anton Medvedev,Add cjs support (#203),False
+662fed5c3ba8fef9ab4d1170cbf523e8d06ba2fd,2021-08-23 02:51:26,Anton Medvedev,Fix code style,False
+f69b9e59e01fb122ba5761e2fd686fd055f8bffd,2021-08-23 02:51:10,Anton Medvedev,Fix code style,False
+79be5c2555d0d8dc51c7a7ef9933c68c6a8bb90f,2021-08-20 13:02:12,Anton Medvedev,Release 3.1.0,False
+e3e4804e7991b1dfb7b24c4e71b9a2dbca49dd8c,2021-08-20 03:22:30,Anton Medvedev,Update README.md,False
+b13286f5b346b9181a79ce725e9ac27197c57c7d,2021-08-20 03:14:28,Anton Medvedev,Update quotes.md,False
+dde8e12e9b9b4ee6b3b6ca09c17082398a62acf3,2021-08-20 03:12:04,Anton Medvedev,Update README.md,False
+98e7de76c55c79d72429b2cb62809abbdb23597a,2021-08-20 03:10:20,Anton Medvedev,Add docs about quoting,False
+2307d54f69fed47a33ddd5489aa2370dc0b4e82c,2021-08-20 02:13:07,Anton Medvedev,Upgrade packages,False
+c7c4835b53821a26d65c670d17aade92fccdaa06,2021-08-20 02:11:55,Anton Medvedev,Add glob shortcut,False
+55037b3ccdc42dfab9d3eb0f91db1979380aef42,2021-08-20 02:05:06,Anton Medvedev,Use stdin,False
+f6a97d049176baabb62bed67699a88c2b846ef8b,2021-08-20 02:02:28,Anton Medvedev,Add docs about executing scripts from stdin,False
+27e50bca48b0fa790f59a083a2a20e9f6a9a1683,2021-08-20 01:56:54,Anton Medvedev,Move *.md files to docs/,False
+2f4f56873fa3572e353c35f8c41d2e85b45638fc,2021-08-20 01:53:41,Anton Medvedev,Delete game-of-life.md,False
+81637384f5241e79d4f8bd50461ec59cc6b1ec20,2021-08-16 12:01:56,Anton Medvedev,Release 3.0.0,False
+e9d9b4e412b9284c07a3a69a59d9fed968ea32aa,2021-08-16 11:59:51,Anton Medvedev,Use inherit stdin instead of pipe (#192),False
+287ed0b1e3d64ff9a286683779ee2c9369b76d81,2021-08-14 03:17:13,Anton Medvedev,Separate test files and example files,False
+081f1b9f523563d44a08d195daaa7ee97a2701f9,2021-08-14 02:59:05,Anton Medvedev,Update game-of-life.md,False
+0b9714b6f6b7601a68e7a1ff1a1c483c0df6c00d,2021-08-14 02:47:12,Anton Medvedev,Update game-of-life.md,False
+bf6d7c1443635e3ac7a4857ff682cb081d6a0cd0,2021-08-14 02:45:25,Anton Medvedev,Add game of life as an example,False
+d46fc7a5e15718a8ad772a8ea8c50060e051fc02,2021-08-13 23:30:26,Romain Prignon,"Fix trim query string to resolve correct script extension (#190)
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+9c5204471d2b2d183fd0486e5ec4dbc41114fbd1,2021-08-13 23:29:16,Anton Medvedev,Add exit codes info,False
+c19704b14c89941b60e7b36c50391e4231b88792,2021-08-13 23:28:05,Andrew Bradley,"Fix stops at the question() call (#188)
+
+* Fix #139
+
+* Update index.mjs
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+07cce2f7cddd1dcaef7c461c487c2a47d9b780dd,2021-08-13 07:29:16,Anton Medvedev,Print ts compile error,False
+423d77d4bf1b214e6a22e52f627b9d6a2b8acafd,2021-08-13 07:05:08,Anton Medvedev,The pipe() throws if already resolved,False
+479ca794808a5903d849529a3e073551ffb7f64f,2021-08-13 06:41:39,Anton Medvedev,Add support for bash code blocks in markdown scripts,False
+8fefed00a23d6e80c0b9e4fbf6b8d5fa0e70f8fb,2021-08-13 06:21:58,Anton Medvedev,Fix quote and substitute bugs,False
+bb9cf3891583313405a29b47e8151b65b7376f91,2021-08-10 18:37:20,Andrea Fiori,"fix split regex for stack.split() (#181)
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+ef80b844c74525219536071bab0fd5a6d19bb345,2021-08-10 16:23:55,Anton Medvedev,Release 2.1.0,False
+07d134b73be9c3e0377e1b29a2dc8252e77519b0,2021-08-10 16:13:03,Keith Broughton,"Fix CLI options such as --quiet (#168)
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+9725997dd548162957ab1184c598c9f48680cc10,2021-08-10 16:10:07,Markos Konstantopoulos,"Run script from path (#173)
+
+* * Add a test that runs a script from PATH.
+* Use path.resolve instead of join to run scripts from PATH on Windows.
+
+* Remove script extension in PATH test.
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+3f5d50ac2159b5053fc6cb78d299038f1e38b836,2021-08-04 14:58:29,Denis Pushkarev,"Add `globby` (#178)
+
+* add `globby`
+
+* add `globby` to `.d.ts`
+
+* prevent `globbyModule.globby` mutation",False
+b6a52f9efb3854cca7e8de8df28e68caffdbaa33,2021-07-26 23:36:36,lisumio,fix: update 'quote' function regex (#167),False
+18f64bc2a791ddbf3626217ba9412c06efb9279b,2021-07-12 19:25:11,Anton Medvedev,Add colors to binaries with _.- symbols,False
+cf31d2e03960a9e6a0a89bac181253a8803113d2,2021-07-05 18:26:04,Anton Medvedev,Require node 14.8.0,False
+2f1b6656bdfffae353717e46dc1e979513e79830,2021-07-05 18:24:40,Anton Medvedev,Release 2.0.0,False
+9780c956c1ad99218f53d6da4a88fc38994f37b3,2021-07-05 18:22:10,Anton Medvedev,Update usage,False
+9912ca6dc5bb2ee451346f90eca5ed9d2696ea16,2021-07-05 18:09:45,Anton Medvedev,Update README.md,False
+887b6a0d3ad30e5729504bdd24016b854ba7412f,2021-07-05 18:09:11,Anton Medvedev,Update README.md,False
+66b8fd64a3f25d64ba3746459cad2ab9d84a93cd,2021-07-05 18:05:33,Anton Medvedev,Update pipelines.md,False
+b88f9b1e388cf9ea7b7b16781864db5f27af0248,2021-07-05 18:00:46,Anton Medvedev,Add node 14 support,False
+d5aa01b6789f1f6e4d5356feae00dfc8cae43a04,2021-07-05 03:30:24,Anton Medvedev,Update README.md,False
+d8b6b87e5d48023fc23fd2a4f8513a896ee13c68,2021-07-05 03:23:52,Anton Medvedev,Add minimist,False
+73cd163d710f88d1ff835ffc3e76214eca07bb9b,2021-07-05 02:24:13,Anton Medvedev,Use fs-extra,False
+9f0d0bce9936bda1b543871dd53bed197d87b871,2021-07-04 02:54:31,Anton Medvedev,Release 1.15.3,False
+edd52a51d2512944725a71f9b718d738cdd24b1b,2021-07-04 02:54:09,Anton Medvedev,Add slashes to non-escape regexp,False
+06722d7d314d3cb44133b06e0ce7b5dad9eac72a,2021-07-04 02:41:17,Anton Medvedev,Release 1.15.1,False
+cc8283dfa9cdc6af01389b49e5b0ac9a2d43475f,2021-07-04 02:36:29,Anton Medvedev,Use node 15,False
+ddb598b4ae6a64a61c7138b095a9e6725a1d46e5,2021-07-04 02:32:48,Anton Medvedev,Release 1.15.0,False
+567116605fedc79b7ca0e407e41c658fb3ef7716,2021-07-04 02:32:24,Anton Medvedev,Use bash $'...' for quote,False
+7cd3299723df48453c20c514c8bcb72c8a063064,2021-06-27 20:46:51,柱子,fix: README.md typo (#153),False
+1dbe8bd48ffe4be4d11f46799f291619512522fc,2021-06-20 13:02:05,Anton Medvedev,Release 1.14.2,False
+869ad7a0aadc1ebf91956a7ea06d7ec1fd318b07,2021-06-20 13:00:03,Anton Medvedev,Update README.md,False
+251cd33fbec19e1541070e36fc8562024ae61757,2021-06-19 16:10:35,Anton Golub,chore(types): declare global injects as vars (#145),False
+e0e93f369eb6c8a198a4c997da6542227cd37e6e,2021-06-17 12:10:00,Anton Golub,"feat: add `fs.constants` field to global `fs`, add missed `fs` export (#147)
+
+* feat: add `fs.constants` field to global `fs`, add missed `fs` export
+
+closes #146
+
+* docs(readme): note that `fs` refers to `fs.promises`",False
+41834646c901ce9647ab14ee8b9ffe1c9a581270,2021-06-08 20:52:16,Anton Golub,"feat: store verbose flag for each promise (#134)
+
+* feat: store verbose flag for each promise
+
+relates #130
+
+* docs(readme): describe requirements (#133)
+
+* Update README.md
+
+* style: code style fix
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+2dfb3488bfc82fe205fe2eb566ef7f37abcbdf55,2021-06-01 16:50:08,Anton Medvedev,Update README.md,False
+1938a3d37c9e025d16a1a9fb5604a14cab01167d,2021-06-01 15:29:17,Anton Golub,docs(readme): describe requirements (#133),False
+e66133efbde1653541634d4e1a2cb43d3e284077,2021-05-29 14:15:09,Anton Medvedev,Update README.md,False
+ea6a800d52ffb128f546252fbba8977369343397,2021-05-28 03:06:11,Anton Medvedev,Release 1.14.1,False
+966fdd3aaf9a5a68bbb48d72d7d05283fc85d11f,2021-05-28 03:05:53,Anton Medvedev,Fix spinner,False
+3a11b34026cd1dc3fdad368c1027289d452ebf8d,2021-05-28 02:58:49,Anton Medvedev,"Add ts-ignore
+
+Also it's possible to add tsconfig.json with next content:
+{
+  ""compilerOptions"": {
+    ""target"": ""ESNext"",
+    ""module"": ""ESNext"",
+    ""moduleResolution"": ""Node"",
+    ""lib"": [
+      ""ESNext""
+    ]
+  }
+}
+But @ts-ignore is shorter.",False
+1667936427291d6d718b7e27d33b84ade7c2b030,2021-05-28 02:57:06,Anton Medvedev,Fix typo,False
+f9d50ce827ccc7c4e0dbf945857366cb8413d780,2021-05-28 02:55:35,Anton Golub,"fix(types): add missed `fetch` declaration, disable `dom` definitions on ts compile (#123)",False
+891bab8e5e78b6f1741f87aa637b8d3a113ecd0d,2021-05-27 03:24:39,Anton Medvedev,Release 1.14.0,False
+696a414113a1e2933d2995fce902d0ffb4caafc6,2021-05-27 03:21:03,Anton Medvedev,Add spinner,False
+5d5aead64078d2ad24bd0bce3202f08a8ed28034,2021-05-27 00:43:06,Anton Medvedev,Release 1.13.0,False
+88365879f997ff1c56b9dab9a834f24698d4ef43,2021-05-27 00:42:46,Anton Medvedev,Add support for args in stdin mode,False
+8fc86f59e60eec8fdde6a52438dce6d5db4c2a6f,2021-05-27 00:42:14,Anton Medvedev,Fix code style,False
+ce1a79a5cce48c049fc4d8db2a185f917c6c07f7,2021-05-27 00:41:04,Anton Medvedev,Add custom inspect for ProcessOutput,False
+fc42ec9a74bdef3d6f8b75b2368e6d7f28c8dd54,2021-05-26 23:58:21,Anton Golub,test: check ts-files processing (#121),False
+0a4eb1ca6447921f4805c51a06ff19cd8b06e815,2021-05-26 13:55:49,Anton Golub,"test: add test for .ts files processing (#114)
+
+* test: add test for .ts files processing
+
+* test: add test for .ts files processing
+
+* fix(types): properly declare named exports
+
+* Delete index.mjs.d.ts
+
+* Update package.json
+
+* Update test.mjs
+
+Co-authored-by: Anton Medvedev <anton@medv.io>",False
+54e0a2f91b2ad68354f4204091d07167ca40f29a,2021-05-26 01:07:02,Anton Medvedev,Update README.md,False
+cb2c53ac96ceed4e2f11ea6ceb1dd46dde41478d,2021-05-26 01:02:13,Anton Medvedev,Refactor index.d.ts and add missing nothrow() declaration,False
+6679eef307dd21320c41726ac0ec68537ff64096,2021-05-26 00:57:38,Anton Medvedev,Update README.md,False
+8be53349f5390453aad3893c35ff948782996392,2021-05-26 00:51:50,Anton Golub,"fix: use typesctipt tsc bin instead of deprecated tsc pkg (#117)
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+2411c3796fd9cce1cc17fba8217049623bbf8b31,2021-05-26 00:46:38,Anton Medvedev,Update examples,False
+dd5cac4dc517dd65c22e24ce71749e5f6df0408a,2021-05-25 00:56:23,Anton Medvedev,Release 1.12.0,False
+81a1e7d041b164d5c1a387537dbb010bb78c78e1,2021-05-25 00:53:51,Anton Medvedev,Update README.md,False
+5b0a0cd946f4349ffbfbf7b56bcc3934ab0ee2d7,2021-05-25 00:50:23,Anton Medvedev,Add nothrow(),False
+31c97b2c18f35196c444206d254f2c8124b896fd,2021-05-24 03:41:32,Anton Golub,"fix: make internal npx invocation compatible with npm v6 (#113)
+
+ref https://omrilotan.medium.com/npx-breaking-on-ci-b9f3f61d4676",False
+1ab8c399aa0ac0627c8740601c5025b7593da759,2021-05-23 22:25:55,Anton Medvedev,Release 1.11.0,False
+0cf9b9dc92c28f59f25e3db81c62846c37bcef82,2021-05-23 22:25:00,Anton Medvedev,Use npx to proxy call to tsc,False
+80affc9b7e0fd63d8868c656768b95565259aaa9,2021-05-23 20:58:00,Anton Medvedev,Update README.md,False
+513b968954675f31fd5b3f42cfe2e75aead92d21,2021-05-23 18:38:56,Anton Medvedev,Release 1.10.1,False
+934b64a7644b424c4151d91ec64de49863845366,2021-05-23 17:56:57,Anton Medvedev,Add .ts files support,False
+78c04fac4b2395307d7d568da439e234428fb931,2021-05-23 02:37:18,Anton Medvedev,Release 1.10.0,False
+1064e6454c0253424dabf5e133080808ea547346,2021-05-23 02:37:03,Anton Medvedev,Use spawn instead of exec,False
+5e10a115bdb424c93e6f8e92d8e37b11c92399da,2021-05-22 20:41:43,matt-fidd,"Fix typo in README (#101)
+
+Quick fix for a typo I noticed in the README
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+cce2624fba7d048b1be638e273715e9d57cf629e,2021-05-22 20:37:19,Anton Medvedev,Fix a bug,False
+45a9e8eb2781f196b3682837a9f6e123cb6b938e,2021-05-22 16:56:24,Michael Paul,Fix typo (#107),False
+79b4e9b9f88ef263d94615f6aa22d3dcbd77f882,2021-05-22 10:53:01,Anton Medvedev,Debug,False
+7a2bc3dfcdf5b10fd491d6ea9a56eb8e1fdaca04,2021-05-22 10:51:31,Anton Medvedev,Fix test,False
+e01fa834863a5ad74d9705a2cbe33d219cddc583,2021-05-22 00:03:57,Anton Medvedev,Release 1.9.0,False
+3e6d8ea528fb18b41f6aad27aad0fa8488c94a7c,2021-05-22 00:03:39,Anton Medvedev,Add better pipelines,False
+d0e889c37ee87c5557393b1b0dde8346e7245ab7,2021-05-21 04:47:32,Anton Medvedev,Disallow strings in pipe(),False
+237844e014e8049fbf758fc0182063ecd943ee41,2021-05-21 04:26:19,Anton Medvedev,Add pipes,False
+9ad9c34d664a96d86bb2e6a299611d05e8e60a83,2021-05-20 23:35:55,matt-fidd,"Update to test.mjs to allow for cat to return >0 as an error, rather than just 1 (#103)",False
+496405cc8ad143ef225ad8c530cc07e062442940,2021-05-20 01:41:26,Anton Medvedev,Update index.md,False
+7bc83c20ef058583e3e73f7a460fc2232f04d6cf,2021-05-20 01:29:02,Anton Medvedev,Release 1.8.0,False
+7be867d81967c702baeb42e7cc88c70fac112546,2021-05-19 23:08:04,Anton Medvedev,Add markdown support,False
+424e2879cbc62acbba189134600fd9991279c057,2021-05-19 12:58:38,Anton Medvedev,Update test.yml,False
+b9b7526926d27048fef9a12263d6a0f0484f4c1a,2021-05-19 12:57:43,Anton Medvedev,Create test.yml,False
+22ae215d949dac20d59b99f3291f872a62ef9463,2021-05-19 12:54:20,Anton Medvedev,Release 1.7.6,False
+d14aa21d07004161f96d00533cfbc0da917da7e7,2021-05-19 12:53:57,Anton Medvedev,Update npm-publish.yml,False
+a151394da67288aad247321ab94a4c4fa643d6ac,2021-05-19 12:51:53,Anton Medvedev,Update npm-publish.yml,False
+3b75b47f3b21edecfb11ca90c46411a65a5a9a55,2021-05-19 12:48:08,Anton Medvedev,Update npm-publish.yml,False
+660bfb5fd32662df637fa313af19ede5db6be88f,2021-05-19 12:46:22,Anton Medvedev,Update npm-publish.yml,False
+506b0d5384e2adf712de5519796d2c26150b33b2,2021-05-19 12:34:56,Anton Medvedev,Update npm-publish.yml,False
+56c9f917bfea9da1b4968d28bc13483dc80fc3f6,2021-05-19 12:24:41,Anton Medvedev,Update npm-publish.yml,False
+a1270de1fc5dc2af7a356099034f572df0289826,2021-05-19 12:24:04,Anton Medvedev,Create npm-publish.yml,False
+ae7aa0576c5e953006938b4f16fe44985e582b0c,2021-05-19 11:30:34,Khải,"Why does `cd` lacks return type? (#95)
+
+* Why does `cd` lacks return type?
+
+* `cd` does not return `Promise`",False
+75857f89138928016dffa0b1834a313572f3c223,2021-05-19 11:15:33,Anton Medvedev,Update README.md,False
+bc3256d2e9622a640a0373f63f6155be120d49cb,2021-05-19 11:12:59,Anton Medvedev,Fix types for $ func,False
+9419535c71dcd94b0a742c86bbe35e3793eb2926,2021-05-19 04:48:58,Anton Medvedev,Remove uuid dependency,False
+95d5b2152cc1c9d4788cf10e789f451c4bfdc54d,2021-05-19 04:37:26,Anton Medvedev,Update test.mjs,False
+6883dba8858a9b9a6c00c18dfc8f3e5278401c2d,2021-05-19 04:30:02,Anton Medvedev,Fix order,False
+7981a892b9653d3d067bc2311b424dbea33650f2,2021-05-19 04:29:52,Anton Medvedev,Update README.md,False
+5429b40b7be5049ca01340f5c1936f89961a8045,2021-05-16 22:23:14,Anton Medvedev,Release 1.7.0,False
+93b4749ad9ebd2210131fef008a96a8515c13c9e,2021-05-16 22:11:12,Anton Medvedev,Fix code style,False
+13332ab461493c1d3d5359d05d1a6053c443a697,2021-05-16 21:56:17,Anton Medvedev,"Merge pull request #87 from bishil06/fixbug
+
+Fix when child stdio is over",True
+43266dab13f63b46a0070a0bc9dc71e507987c4c,2021-05-16 21:56:04,Anton Medvedev,Merge branch 'main' into fixbug,True
+9aaf78876c7ef6fd77953b85e3612ced031ee7ba,2021-05-16 21:51:44,Anton Medvedev,Add array argument support,False
+ba0b76ea60bdee8cad81727958ff542049542ae5,2021-05-16 14:14:24,bishil06,"Fix when child stdio is over
+
+ProcessOutput is returned even though the stdio of the child process is not finished.",False
+07a2b7b52addde49cb75e6e7bd51f350cca75825,2021-05-14 04:00:46,Anton Medvedev,Fix style,False
+1f37b76ba3bd6bfce23821e6d48a5df28622dfca,2021-05-14 04:00:24,Anton Medvedev,Update README.md,False
+fd4b6ef878affde48f4014d1b1ca3e5c61da4934,2021-05-14 03:54:51,Anton Medvedev,Update README.md,False
+b20f5f249833919a7111256aa3a9b25ab4895823,2021-05-13 22:35:56,Anton Medvedev,Release 1.6.0,False
+6bd0631a87991d00ab509b5a3547f247d3659c52,2021-05-13 22:35:44,Anton Medvedev,Fix arg to string substitution,False
+0f1d1bec1601a4f7a34ffc64f10de760a0dd1338,2021-05-13 22:32:15,Anton Medvedev,Update basics.mjs example,False
+d0a38d8eb425f893031eac90d1f068d595d267d0,2021-05-13 22:31:59,Anton Medvedev,Remove version.js,False
+2279c2c597cf1aa3d5741b59d529db73d5a50951,2021-05-13 22:12:38,Anton Medvedev,"Merge pull request #67 from antongolub/add-require
+
+feat: add legacy `require` API to global",True
+724fe7f0c409f8497c9f704446f2e62ef2c7adc2,2021-05-13 21:53:03,Anton Medvedev,Merge branch 'main' into add-require,True
+e31ceabf086cdc75843ec69094e552d4c2a16e45,2021-05-13 21:31:31,Anton Golub,refactor(require): use filepath as createRequire arg,False
+a57a7a671dc1d64db9f8d7e87bbfabcd17fa50a0,2021-05-13 19:31:36,Anton Medvedev,"Merge pull request #65 from Nixinova/readme-tweaks
+
+Copyedit readme file",True
+e9f315b5619502d549788b0858ded018a218bf25,2021-05-13 19:31:15,Anton Medvedev,Merge branch 'main' into readme-tweaks,True
+06592112f43b6ed80328083303e32a48a6af113d,2021-05-13 19:26:36,Anton Medvedev,Update README.md,False
+4fdd786abd023a0dd4620a06b716849a268fcb57,2021-05-13 19:25:15,庄天翼,"Add a builtin util function sleep (#70)
+
+* Add sleep
+
+* remove semicolon
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+52dae07b7e84f0c81472984af8968598dd698f81,2021-05-13 17:32:05,Anton Golub,Merge branch 'main' into add-require,True
+9a1a743e3208847f7d463a13d775a59d56021e3b,2021-05-13 17:02:46,Eldad Bercovici,Update README.md (#71),False
+33c0bc230cccb3bb10e093defabf4d9f5ff3250b,2021-05-13 14:10:43,Anton Golub,test(require): add loaded module contents check,False
+f49ee138e2f7432172aa80f16b9acc665db31e93,2021-05-13 13:48:28,Anton Golub,feat: add `require` to global,False
+a48ac04ff62837c8dd9f4f1653fb442c1d4c644c,2021-05-13 10:08:22,Nixinova,Copyedit readme file,False
+de6e0e23048ea406312d7916f7d0917a42c7d8ba,2021-05-13 02:41:42,Anton Medvedev,Release 1.5.0,False
+07ef0230c84978fb91abcdc6dc1ed854154a21c4,2021-05-13 02:41:23,Anton Medvedev,Add __filename & __dirname,False
+7cf5b43b2a1773e9bdefaaaf4a38f89514fe8351,2021-05-13 02:37:41,Nathanael Demacon,"Don't require the argument `query` for `question()` (#62)
+
+* Don't require the argument `query` for `question()`
+
+* Update `question()` documentation",False
+1508858ae964e49e0e5667860f7075b2a6aa15bf,2021-05-11 16:25:46,Anton Medvedev,Release 1.4.0,False
+066c902d7abb52f78b4cbcc7e45bae59378e3f03,2021-05-11 16:25:24,Anton Medvedev,Fix default prefix detection,False
+641804a735249cd06c6da203460200c5a6e9133c,2021-05-11 16:06:21,Anton Medvedev,Update README.md,False
+9a17344a40ec06be54e70754d8bce4bd6a081b3c,2021-05-11 16:05:02,Anton Medvedev,Release 1.3.0,False
+f7a972029b026288a2c10fa4047216b57dadc78d,2021-05-11 16:04:48,Anton Medvedev,Bump node engine to 14.8.0,False
+402c892473a67b11774c68dfafb719a80f11e2f1,2021-05-11 16:01:09,Anton Medvedev,Fix bug with path importing,False
+5b2c8049e591b4aa71a4216cda8073f392aa36e8,2021-05-11 16:00:53,Anton Medvedev,Fix code style,False
+bbbd300bf72becd0faf9081d81a38a7c2621a76e,2021-05-11 16:00:23,Anton Medvedev,Use which package,False
+91d344cff7fa07c77c2a7443e8659c573a94e9d7,2021-05-11 13:32:22,HOU Ce,feat: add engines require (#44),False
+caac7af4f714b63c335b59cf7d2f272ce1729d05,2021-05-10 21:05:20,jzombie,"Fix README verbiage (#17)
+
+* Fix README verbiage
+
+* Fix incorrect sentence",False
+30743eba3b3e1407b8780808e201dec7dfdc6834,2021-05-09 18:50:34,Anton Medvedev,Release 1.2.2,False
+a79f768402de46664f25988b26d748a8ee0f4747,2021-05-09 18:50:18,Anton Medvedev,Allow absolute path in zx bin,False
+bb23e6c9786e747b8e28677b33cb6c85f3956661,2021-05-09 18:38:12,Anton Medvedev,Release 1.2.1,False
+bf94e389e9e682779c6100b91f7946d046f40fca,2021-05-09 18:11:51,Atul R,"custom promisify implementation (#37)
+
+adds backwards compatibility instead
+
+removes ;
+
+Revert ""adds backwards compatibility instead""
+
+This reverts commit bf1b5b7648c94d37dee3d539d9b365508b030274.",False
+d6789d16697e42f412c0c1f4787bc89382a23698,2021-05-09 11:54:24,Sasha Koss,"Fix TypeScript definitions (#38)
+
+* Include type definitions to the package
+
+* Add missing $.prefix and $.quote",False
+24fe0a6f3e4d423b38ac016f5ac575f432e6c667,2021-05-08 20:25:31,Anton Medvedev,Release 1.2.0,False
+31b79567c2565a3e80f65d9a9e1368b201cd081c,2021-05-08 20:25:01,Anton Medvedev,Add $.prefix and $.quote,False
+4675b60d7dd34d3b2a224512e20b16f3bf154735,2021-05-08 20:20:01,Anton Medvedev,Improve test.mjs,False
+ae1aa26d43d8634f8404dffc38ce60fd68383123,2021-05-08 20:11:06,Anton Medvedev,Add bash path detection,False
+a59dabc58d64835c401a83748ffc2f4165e1cf25,2021-05-08 15:38:38,Guillermo Velasquez,Fix incorrect sentence on README (#32),False
+f021edc09a7ff83e613a439bd83365aaf5e0904b,2021-05-08 04:18:08,Anton Medvedev,Release 1.1.1,False
+be937231f9c07f16bb7b0a079646a394442b31d6,2021-05-08 04:17:49,Anton Medvedev,Use /bin/bash as default shell,False
+c679289cdb55765eddbb92db801b3c3ae4b70121,2021-05-07 22:26:04,Anton Medvedev,Release 1.1.0,False
+d8a2dd1fe3b0a64affefa6ec50746da97f1ddd76,2021-05-07 22:24:01,Anton Medvedev,Update README.md,False
+c176b2ba9a179eb3140e32b333f5694df674eaae,2021-05-07 22:12:50,Anton Medvedev,Update README.md,False
+4c8d6024ab212c974c0d64da8cd9fc52210e84b2,2021-05-07 22:10:17,Anton Medvedev,Remove test function,False
+a6a7868ceb0c353efae94f6f8a9eef6f6313db90,2021-05-07 22:05:29,Anton Medvedev,Fix code formatting,False
+fbf3351ae350e75e8ab853e732ed60e4e5167be6,2021-05-07 22:05:09,Anton Medvedev,Add shell arguments escaping,False
+2782bb2ddcd6cf67ff962bea3b402c609bbdfff4,2021-05-07 13:30:00,Anton Medvedev,Update package.json,False
+5ba6b775c4c589ecf81a41dfc91a6a5df00449b9,2021-05-07 12:58:05,azu,"fix typo in README (#3)
+
+Co-authored-by: Anton Medvedev <antonmedv@google.com>",False
+4238bf0b67444e59c341130323a335776309bcca,2021-05-07 12:53:43,Anton Medvedev,"Merge pull request #1 from thescientist13/chore/readme-grammar
+
+Chore/readme grammar",True
+363a2a7b2128df02a14961de1be9811aa310fc4b,2021-05-07 05:52:02,Owen Buckley,minor grammar fix,False
+51e8994d811c8cd41fa88fd3951a48e72cfea4d1,2021-05-07 02:52:13,Owen Buckley,minor grammar fix,False
+a519c38a922610ed1ae43b28b5cc4bbb9f9619dd,2021-05-07 02:50:57,Owen Buckley,minor grammar fix,False
+a529957371c1a05616e7b6d23eed7c30e7acab1c,2021-05-06 21:48:22,Anton Medvedev,Update README.md,False
+69de40d8c9dc0f94517b2a2d789226a1022e95e9,2021-05-06 03:00:26,Anton Medvedev,Add better command substitution,False
+9b801b48b74ec00e38d84f8d5d281f93d611dca8,2021-05-06 00:58:17,Anton Medvedev,Add .gitignore,False
+32f5dbff8aa5fe944efdbb1d52377c684717159f,2021-05-06 00:57:05,Anton Medvedev,Update package.json,False
+1e3ad3e26d7519b8abf2700e3fcff5b05b59d1b5,2021-05-05 17:20:47,Anton Medvedev,Update README.md,False
+ded16dd382b393a54a7aa7900f41ac306e4f27b8,2021-05-03 15:05:43,Anton Medvedev,First commit,False
